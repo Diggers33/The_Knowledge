@@ -44,40 +44,17 @@ export default function Sidebar({ role }: { role: string }) {
 
       {/* Logo */}
       <div style={{
-        padding: '18px 16px',
+        padding: '14px 16px',
         borderBottom: '1px solid #1E2B6A',
         display: 'flex',
         alignItems: 'center',
-        gap: '10px',
         flexShrink: 0,
       }}>
-        {/* K logo mark */}
-        <div style={{ width: '32px', height: '32px', flexShrink: 0 }}>
-          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
-            <defs>
-              <linearGradient id="kg1" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0%" stopColor="#5CE1FF" />
-                <stop offset="100%" stopColor="#2563EB" />
-              </linearGradient>
-              <linearGradient id="kg2" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0%" stopColor="#2563EB" />
-                <stop offset="100%" stopColor="#7B5CF5" />
-              </linearGradient>
-            </defs>
-            {/* Vertical spine */}
-            <rect x="18" y="15" width="14" height="70" rx="4" fill="url(#kg1)" />
-            {/* Top arm */}
-            <rect x="30" y="15" width="46" height="28" rx="6"
-              transform="rotate(0 30 15)" fill="url(#kg1)" />
-            {/* Bottom arm */}
-            <rect x="32" y="52" width="42" height="26" rx="6"
-              transform="rotate(0 32 52)" fill="url(#kg2)" />
-          </svg>
-        </div>
-        <div>
-          <div style={{ fontSize: '13px', fontWeight: 700, color: '#E8EEFF', lineHeight: 1.2 }}>The Knowledge</div>
-          <div style={{ fontSize: '9px', fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#7B5CF5' }}>Knowledge Repository</div>
-        </div>
+        <img
+          src="/theknowledge.png"
+          alt="The Knowledge"
+          style={{ width: '160px', height: 'auto', objectFit: 'contain' }}
+        />
       </div>
 
       {/* Nav */}

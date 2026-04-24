@@ -133,9 +133,9 @@ const label: React.CSSProperties = {
 }
 
 const inputStyle: React.CSSProperties = {
-  width: '100%', background: C.input, border: `1px solid ${C.border}`,
+  width: '100%', background: '#FFFFFF', border: `1px solid ${C.border}`,
   borderRadius: '10px', padding: '11px 14px', fontSize: '14px',
-  fontFamily: 'inherit', color: C.white, outline: 'none',
+  fontFamily: 'inherit', color: C.text, outline: 'none',
   boxSizing: 'border-box',
 }
 
@@ -230,6 +230,11 @@ export default function ProposalPage() {
   const [complianceLoading, setComplianceLoading] = useState(false)
   const [exporting, setExporting] = useState(false)
   const [exportError, setExportError] = useState('')
+
+  // ── UI state ───────────────────────────────────────────────────────────────
+  const [clearConfirm, setClearConfirm] = useState(false)
+  const [undoSection, setUndoSection] = useState<{ id: string; text: string } | null>(null)
+  const [contextExpanded, setContextExpanded] = useState(false)
 
   // ─── Derived template ──────────────────────────────────────────────────────
   const templateKey = callResolved ? `${callResolved.actionType}_${stageSelected}` : null
@@ -584,6 +589,7 @@ export default function ProposalPage() {
     }])
     setSections({}); setActiveSection(''); setScopeSelected('')
     setStageSelected('stage2'); setPhase('setup'); setComplianceResult(null)
+    setClearConfirm(false)
   }
 
   // ─── LEFT PANEL ────────────────────────────────────────────────────────────
@@ -666,12 +672,13 @@ export default function ProposalPage() {
                     )}
                   </div>
 
-                  <span style={{
-                    fontSize: '12px',
-                    fontWeight: isActive ? 700 : isCompleted ? 500 : 400,
-                    color: isActive ? C.text : isCompleted ? C.green : canClick ? C.muted : C.muted,
-                  }}>
+                  <span style={{ fontSize: '12px', fontWeight: isActive ? 700 : isCompleted ? 500 : 400, color: isActive ? C.text : isCompleted ? C.green : canClick ? C.muted : C.muted }}>
                     {PHASE_LABELS[p]}
+                    {p === 'write' && writableSections.length > 0 && (
+                      <span style={{ display: 'block', fontSize: '9px', color: C.muted, fontWeight: 400 }}>
+                        {completedSections}/{writableSections.length} sections
+                      </span>
+                    )}
                   </span>
                 </div>
               )
@@ -723,8 +730,8 @@ export default function ProposalPage() {
                          '●'}
                       </span>
                     )}
-                    <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                      {sec.title.slice(0, 24)}
+                    <span style={{ lineHeight: 1.3, wordBreak: 'break-word' }} title={sec.title}>
+                      {sec.title}
                     </span>
                   </div>
                 )
@@ -743,14 +750,24 @@ export default function ProposalPage() {
           </>
         )}
 
-        {/* Clear draft */}
+        {/* Clear draft — item 10/12 */}
         <div style={{ padding: '12px' }}>
-          <button
-            onClick={clearDraft}
-            style={{ ...btn('danger'), width: '100%', justifyContent: 'center', fontSize: '10px', padding: '6px 10px' }}
-          >
-            <X size={10} /> Clear draft
-          </button>
+          {clearConfirm ? (
+            <div style={{ background: 'rgba(220,38,38,0.06)', border: `1px solid rgba(220,38,38,0.2)`, borderRadius: '8px', padding: '10px' }}>
+              <div style={{ fontSize: '10px', color: C.red, marginBottom: '8px', fontWeight: 600 }}>Delete all draft content?</div>
+              <div style={{ display: 'flex', gap: '6px' }}>
+                <button onClick={clearDraft} style={{ ...btn('danger'), fontSize: '10px', padding: '5px 10px', flex: 1, justifyContent: 'center' }}>Delete</button>
+                <button onClick={() => setClearConfirm(false)} style={{ ...btn('ghost'), fontSize: '10px', padding: '5px 10px', flex: 1, justifyContent: 'center' }}>Cancel</button>
+              </div>
+            </div>
+          ) : (
+            <button
+              onClick={() => setClearConfirm(true)}
+              style={{ ...btn('ghost'), width: '100%', justifyContent: 'center', fontSize: '10px', padding: '6px 10px', color: C.muted }}
+            >
+              <X size={10} /> Clear draft
+            </button>
+          )}
         </div>
       </div>
 
@@ -768,7 +785,7 @@ export default function ProposalPage() {
                   <Telescope size={18} color={C.cyan} />
                 </div>
                 <div>
-                  <h1 style={{ fontSize: '20px', fontWeight: 700, color: C.white, margin: 0 }}>IRIS Proposal Intelligence</h1>
+                  <h1 style={{ fontSize: '20px', fontWeight: 700, color: C.text, margin: 0 }}>IRIS Proposal Intelligence</h1>
                   <p style={{ fontSize: '12px', color: C.muted, margin: '2px 0 0' }}>Enter a Horizon Europe call ID or paste the call description</p>
                 </div>
               </div>
@@ -958,7 +975,7 @@ export default function ProposalPage() {
                   <Layers size={18} color={C.cyan} />
                 </div>
                 <div>
-                  <h1 style={{ fontSize: '20px', fontWeight: 700, color: C.white, margin: 0 }}>
+                  <h1 style={{ fontSize: '20px', fontWeight: 700, color: C.text, margin: 0 }}>
                     {editingBrief && concepts.length === 0 ? 'Project Brief' : 'Concept Generator'}
                   </h1>
                   <p style={{ fontSize: '12px', color: C.muted, margin: '2px 0 0' }}>
@@ -1002,7 +1019,7 @@ export default function ProposalPage() {
                       <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.08em', color: C.cyan, marginBottom: '4px' }}>
                         CONCEPT {String.fromCharCode(65 + i)}
                       </div>
-                      <div style={{ fontSize: '16px', fontWeight: 700, color: C.white }}>{concept.title}</div>
+                      <div style={{ fontSize: '16px', fontWeight: 700, color: C.text }}>{concept.title}</div>
                       <div style={{ fontSize: '13px', color: C.cyan, fontWeight: 600 }}>{concept.acronym}</div>
                     </div>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '6px', flexShrink: 0, padding: '4px 10px', background: 'rgba(0,196,212,0.1)', border: `1px solid rgba(0,196,212,0.2)`, borderRadius: '20px', fontSize: '11px', color: C.cyan }}>
@@ -1124,7 +1141,7 @@ export default function ProposalPage() {
                     <Users size={18} color={C.cyan} />
                   </div>
                   <div>
-                    <h1 style={{ fontSize: '20px', fontWeight: 700, color: C.white, margin: 0 }}>Consortium Builder</h1>
+                    <h1 style={{ fontSize: '20px', fontWeight: 700, color: C.text, margin: 0 }}>Consortium Builder</h1>
                     <p style={{ fontSize: '12px', color: C.muted, margin: '2px 0 0' }}>
                       {brief?.acronym} · {partners.length} partners confirmed
                     </p>
@@ -1194,7 +1211,7 @@ export default function ProposalPage() {
                   {partners.map(p => (
                     <div key={p.id} style={{ display: 'flex', alignItems: 'center', gap: '10px', padding: '10px 12px', borderRadius: '10px', background: C.input, marginBottom: '8px', border: `1px solid ${C.border}` }}>
                       <div style={{ flex: 1 }}>
-                        <div style={{ fontSize: '13px', fontWeight: 600, color: C.white }}>{p.acronym} <span style={{ color: C.muted, fontWeight: 400 }}>({p.country})</span></div>
+                        <div style={{ fontSize: '13px', fontWeight: 600, color: C.text }}>{p.acronym} <span style={{ color: C.muted, fontWeight: 400 }}>({p.country})</span></div>
                         {p.id === 'iris' ? (
                           <input
                             value={p.role}
@@ -1265,7 +1282,7 @@ export default function ProposalPage() {
                         {group.partners.map((p, pi) => (
                           <div key={pi} style={{ display: 'flex', alignItems: 'center', gap: '10px', padding: '10px 12px', borderRadius: '10px', background: C.input, marginBottom: '8px', border: `1px solid ${C.border}` }}>
                             <div style={{ flex: 1 }}>
-                              <div style={{ fontSize: '13px', fontWeight: 600, color: C.white }}>
+                              <div style={{ fontSize: '13px', fontWeight: 600, color: C.text }}>
                                 {p.name} <span style={{ color: C.muted, fontWeight: 400 }}>({p.country})</span>
                                 <span style={{ marginLeft: '8px', color: p.fitScore >= 3 ? C.cyan : C.muted, fontSize: '11px' }}>
                                   {'★'.repeat(Math.max(0, Math.min(3, p.fitScore || 1)))}{'☆'.repeat(Math.max(0, 3 - Math.min(3, p.fitScore || 1)))}
@@ -1304,7 +1321,7 @@ export default function ProposalPage() {
                   <PenLine size={18} color={C.cyan} />
                 </div>
                 <div>
-                  <h1 style={{ fontSize: '20px', fontWeight: 700, color: C.white, margin: 0 }}>Document Builder</h1>
+                  <h1 style={{ fontSize: '20px', fontWeight: 700, color: C.text, margin: 0 }}>Document Builder</h1>
                   <p style={{ fontSize: '12px', color: C.muted, margin: '2px 0 0' }}>
                     {brief?.acronym || 'Proposal'} · {brief?.actionType || 'RIA'} Part B
                   </p>
@@ -1319,30 +1336,7 @@ export default function ProposalPage() {
                 </div>
               </div>
 
-              {/* Section navigator */}
-              {template && (
-                <div style={{ display: 'flex', gap: '6px', marginBottom: '16px', flexWrap: 'wrap' }}>
-                  {writableSections.map(sec => {
-                    const status = getSectionStatus(sec, sections, generatingSection)
-                    const isAct  = activeSection === sec.id
-                    return (
-                      <button
-                        key={sec.id}
-                        onClick={() => setActiveSection(sec.id)}
-                        style={{
-                          padding: '5px 10px', borderRadius: '20px', border: `1px solid ${isAct ? C.cyan : C.border}`,
-                          background: isAct ? 'rgba(0,196,212,0.12)' : 'transparent',
-                          color: isAct ? C.cyan : status === 'complete' ? C.green : status === 'review' ? C.amber : C.muted,
-                          fontSize: '11px', fontWeight: isAct ? 700 : 400, fontFamily: 'inherit', cursor: 'pointer',
-                        }}
-                      >
-                        {status === 'complete' ? '✓ ' : status === 'generating' ? '⟳ ' : status === 'review' ? '! ' : ''}
-                        {sec.title.replace(/^\d+\.\d+\s+/, '').slice(0, 22)}
-                      </button>
-                    )
-                  })}
-                </div>
-              )}
+              {/* Section navigator removed — use TOC in left panel (item #2) */}
 
               {/* Active section editor */}
               {activeSection && (() => {
@@ -1355,81 +1349,97 @@ export default function ProposalPage() {
 
                 return (
                   <div>
-                    <div style={card}>
-                      <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: '12px', gap: '12px' }}>
-                        <div>
-                          <div style={{ fontSize: '16px', fontWeight: 700, color: C.white, marginBottom: '4px' }}>{sec.title}</div>
-                          <div style={{ fontSize: '11px', color: C.muted }}>
-                            Target: {sec.pages} pages · ~{sec.words.toLocaleString()} words
-                          </div>
-                          <div style={{ fontSize: '11px', color: C.muted, marginTop: '2px' }}>{sec.description}</div>
-                        </div>
-                        <div style={{ flexShrink: 0, textAlign: 'right' }}>
-                          <div style={{ fontSize: '13px', fontWeight: 700, color: statusCol }}>
-                            {words.toLocaleString()} / {target.toLocaleString()} words
-                          </div>
-                          <div style={{ fontSize: '10px', color: C.muted }}>
-                            ~{Math.round(words / 400 * 10) / 10} pages
-                          </div>
-                        </div>
-                      </div>
+                    {/* Section header — item 1.2 */}
+                  <div style={{ marginBottom: '16px' }}>
+                    <h2 style={{ fontSize: '18px', fontWeight: 700, color: C.text, margin: '0 0 4px' }}>{sec.title}</h2>
+                    <div style={{ fontSize: '12px', color: C.muted }}>{sec.pages} pages · ~{sec.words.toLocaleString()} words · {sec.description}</div>
+                  </div>
 
-                      {/* Brief context summary */}
+                  <div style={card}>
+                      {/* Brief context card — items 4, 13 */}
                       {brief && (
-                        <div style={{ padding: '10px 12px', borderRadius: '8px', background: 'rgba(0,196,212,0.05)', border: `1px solid rgba(0,196,212,0.12)`, marginBottom: '12px' }}>
-                          <div style={{ fontSize: '9px', fontWeight: 700, color: C.cyan, textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '6px' }}>Context injected automatically</div>
-                          <div style={{ fontSize: '11px', color: C.muted, lineHeight: 1.6 }}>
-                            <div>• Scope: {brief.scopeSelected || brief.callTitle}</div>
-                            <div>• Project: {brief.acronym} — {brief.coreInnovation?.slice(0, 80)}...</div>
-                            <div>• Technologies: {brief.irisTechnologies.join(', ')}</div>
-                            <div>• TRL: {brief.trlStart} → {brief.trlEnd} · Pilots: {brief.pilots.join(', ')}</div>
+                        <div style={{ padding: '10px 14px', borderRadius: '8px', background: C.panel, border: `1px solid ${C.border}`, marginBottom: '14px' }}>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '8px' }}>
+                            <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" stroke={C.cyan} strokeWidth="1.5"/><path d="M8 7v5M8 5v1" stroke={C.cyan} strokeWidth="1.5" strokeLinecap="round"/></svg>
+                            <span style={{ fontSize: '11px', fontWeight: 600, color: C.text }}>Context from your call setup</span>
+                            <button onClick={() => setPhase('setup')} style={{ marginLeft: 'auto', fontSize: '10px', color: C.cyan, background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>Edit context</button>
                           </div>
+                          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4px 16px', fontSize: '11px' }}>
+                            <div><span style={{ fontWeight: 600, color: C.text }}>Scope:</span> <span style={{ color: C.muted }}>{(brief.scopeSelected || brief.callTitle || '—').slice(0, 60)}</span></div>
+                            <div><span style={{ fontWeight: 600, color: C.text }}>Project:</span> <span style={{ color: C.muted }}>{brief.acronym}</span></div>
+                            <div><span style={{ fontWeight: 600, color: C.text }}>Technologies:</span> <span style={{ color: C.muted }}>{brief.irisTechnologies.join(', ')}</span></div>
+                            <div><span style={{ fontWeight: 600, color: C.text }}>TRL:</span> <span style={{ color: C.muted }}>{brief.trlStart} → {brief.trlEnd} · Pilots: {brief.pilots.join(', ') || '—'}</span></div>
+                            {contextExpanded && <div style={{ gridColumn: '1 / -1' }}><span style={{ fontWeight: 600, color: C.text }}>Innovation:</span> <span style={{ color: C.muted }}>{brief.coreInnovation}</span></div>}
+                          </div>
+                          {brief.coreInnovation && (
+                            <button onClick={() => setContextExpanded(e => !e)} style={{ fontSize: '10px', color: C.cyan, background: 'none', border: 'none', cursor: 'pointer', padding: '4px 0 0', display: 'block' }}>
+                              {contextExpanded ? 'Show less' : 'Show more'}
+                            </button>
+                          )}
                         </div>
                       )}
 
-                      {/* Additional context */}
-                      <div style={{ marginBottom: '12px' }}>
-                        <span style={{ ...label, marginBottom: '6px' }}>Additional Context <span style={{ color: C.muted, fontWeight: 400, letterSpacing: 0, textTransform: 'none', fontSize: '10px' }}>— optional</span></span>
+                      {/* Additional context — item 5 */}
+                      <div style={{ marginBottom: '14px' }}>
+                        <span style={{ ...label, marginBottom: '6px' }}>Any extra guidance? <span style={{ color: C.muted, fontWeight: 400, letterSpacing: 0, textTransform: 'none', fontSize: '10px' }}>(optional)</span></span>
                         <textarea
                           rows={2}
                           value={sectionContexts[activeSection] || ''}
                           onChange={e => setSectionContexts(prev => ({ ...prev, [activeSection]: e.target.value }))}
-                          placeholder="Specific requirements or emphasis for this section..."
-                          style={{ ...textareaStyle, minHeight: 'unset' }}
+                          placeholder={`e.g. emphasise textile-industry alignment, include specific partner ${brief?.partners?.[1]?.acronym || 'X'} contribution`}
+                          style={{ ...textareaStyle, minHeight: 'unset', background: '#FFFFFF', color: C.text }}
                         />
+                        <div style={{ fontSize: '10px', color: C.muted, marginTop: '4px', textAlign: 'right' }}>
+                          {(sectionContexts[activeSection] || '').length} chars
+                        </div>
                       </div>
 
-                      <div style={{ display: 'flex', gap: '10px' }}>
+                      {/* Actions — item 6 */}
+                      <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
                         <button
                           onClick={() => generateSection(activeSection)}
                           disabled={generating || (!callText && !callResolved)}
                           style={btn('primary', generating || (!callText && !callResolved))}
                         >
                           {generatingSection === activeSection
-                            ? <><Loader2 size={13} className="spin" /> Generating...</>
-                            : sections[activeSection] ? <><RefreshCw size={13} /> Regenerate</> : <><PenLine size={13} /> Generate Section</>
+                            ? <><Loader2 size={13} className="spin" /> Generating… ~15s</>
+                            : sections[activeSection] ? <><RefreshCw size={13} /> Regenerate</> : <><PenLine size={13} /> Generate section</>
                           }
                         </button>
                         {sections[activeSection] && (
-                          <button onClick={() => setSections(prev => ({ ...prev, [activeSection]: '' }))} style={btn('ghost')}>
+                          <button
+                            onClick={() => {
+                              setUndoSection({ id: activeSection, text: sections[activeSection] })
+                              setSections(prev => ({ ...prev, [activeSection]: '' }))
+                            }}
+                            style={{ ...btn('ghost'), color: C.muted, fontSize: '12px' }}
+                          >
                             <X size={12} /> Clear
+                          </button>
+                        )}
+                        {undoSection?.id === activeSection && (
+                          <button
+                            onClick={() => { setSections(prev => ({ ...prev, [activeSection]: undoSection.text })); setUndoSection(null) }}
+                            style={{ fontSize: '11px', color: C.cyan, background: 'none', border: 'none', cursor: 'pointer', padding: '0 4px' }}
+                          >
+                            ↩ Undo clear
                           </button>
                         )}
                       </div>
                     </div>
 
                     {writeError && (
-                      <div style={{ padding: '10px 14px', borderRadius: '10px', background: 'rgba(248,113,113,0.08)', border: `1px solid rgba(248,113,113,0.2)`, color: C.red, fontSize: '12px', marginBottom: '12px' }}>
+                      <div style={{ padding: '10px 14px', borderRadius: '10px', background: 'rgba(220,38,38,0.06)', border: `1px solid rgba(220,38,38,0.2)`, color: C.red, fontSize: '12px', marginBottom: '12px' }}>
                         {writeError}
                       </div>
                     )}
 
-                    {/* Output textarea */}
+                    {/* Output textarea — items 1.1, 1.3 */}
                     {(sections[activeSection] || generatingSection === activeSection) && (
                       <div style={card}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '10px' }}>
                           <FileText size={12} color={C.muted} />
-                          <span style={{ fontSize: '11px', color: C.muted }}>Generated text — editable inline</span>
+                          <span style={{ fontSize: '11px', color: C.muted }}>Draft (click to edit)</span>
                           {generatingSection === activeSection && (
                             <span style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '10px', color: C.cyan, fontWeight: 600, marginLeft: 'auto' }}>
                               <span style={{ width: '5px', height: '5px', borderRadius: '50%', background: C.cyan, display: 'inline-block', animation: 'pulse 1.2s infinite' }} /> streaming
@@ -1441,11 +1451,24 @@ export default function ProposalPage() {
                           onChange={e => setSections(prev => ({ ...prev, [activeSection]: e.target.value }))}
                           style={{
                             ...textareaStyle,
-                            background: C.bg, minHeight: '360px', lineHeight: 1.8,
-                            fontSize: '13.5px', color: '#CBD5E1', resize: 'vertical',
+                            background: '#FFFFFF', minHeight: '360px', lineHeight: 1.7,
+                            fontSize: '14px', color: '#111827', resize: 'vertical',
+                            maxWidth: '72ch', border: `1px solid ${C.border}`,
                           }}
                           placeholder={generatingSection === activeSection ? 'Generating...' : ''}
                         />
+                        {/* Word counter footer — item 1.3 */}
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginTop: '10px' }}>
+                          <div style={{ flex: 1, height: '4px', borderRadius: '2px', background: C.border, overflow: 'hidden' }}>
+                            <div style={{ height: '100%', borderRadius: '2px', background: statusCol, width: `${Math.min(100, Math.round(ratio * 100))}%`, transition: 'width 0.3s' }} />
+                          </div>
+                          <span style={{ fontSize: '11px', fontWeight: 600, color: statusCol, whiteSpace: 'nowrap' }}>
+                            {words.toLocaleString()} / {target.toLocaleString()} words
+                          </span>
+                          <span style={{ fontSize: '10px', color: C.muted, whiteSpace: 'nowrap' }}>
+                            ~{Math.round(words / 400 * 10) / 10} pages
+                          </span>
+                        </div>
                       </div>
                     )}
 
@@ -1485,21 +1508,24 @@ export default function ProposalPage() {
                       )
                     })()}
 
-                    {/* Prev / Next navigation */}
-                    <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '8px' }}>
+                    {/* Prev / Next navigation — item 8 */}
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '12px', padding: '10px 0', borderTop: `1px solid ${C.border}` }}>
                       <button
                         onClick={() => activeIdx > 0 && setActiveSection(writableSections[activeIdx - 1].id)}
                         disabled={activeIdx <= 0}
                         style={btn('ghost', activeIdx <= 0)}
                       >
-                        <ChevronLeft size={13} /> {activeIdx > 0 ? writableSections[activeIdx - 1].title.replace(/^\d+\.\d+\s+/, '').slice(0, 30) : 'Previous'}
+                        <ChevronLeft size={13} /> {activeIdx > 0 ? writableSections[activeIdx - 1].title : 'Previous'}
                       </button>
+                      <span style={{ fontSize: '10px', color: C.muted }}>
+                        {activeIdx + 1} / {writableSections.length}
+                      </span>
                       {activeIdx < writableSections.length - 1 ? (
                         <button
                           onClick={() => setActiveSection(writableSections[activeIdx + 1].id)}
                           style={btn('ghost')}
                         >
-                          {writableSections[activeIdx + 1].title.replace(/^\d+\.\d+\s+/, '').slice(0, 30)} <ChevronRight size={13} />
+                          {writableSections[activeIdx + 1].title} <ChevronRight size={13} />
                         </button>
                       ) : (
                         <button onClick={() => setPhase('export')} style={btn('primary')}>
@@ -1527,7 +1553,7 @@ export default function ProposalPage() {
                   <FileCheck size={18} color={C.cyan} />
                 </div>
                 <div>
-                  <h1 style={{ fontSize: '20px', fontWeight: 700, color: C.white, margin: 0 }}>Export</h1>
+                  <h1 style={{ fontSize: '20px', fontWeight: 700, color: C.text, margin: 0 }}>Export</h1>
                   <p style={{ fontSize: '12px', color: C.muted, margin: '2px 0 0' }}>
                     {completedSections}/{writableSections.length} sections written · ~{estPages} pages
                   </p>
@@ -1670,9 +1696,10 @@ export default function ProposalPage() {
         .spin { animation: spin 1s linear infinite; }
         @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
         @keyframes pulse { 0%,100% { opacity: 0.3; } 50% { opacity: 1; } }
-        textarea::placeholder { color: #475569 !important; }
-        input::placeholder { color: #475569 !important; }
-        select option { background: #0D3A45; color: white; }
+        textarea::placeholder { color: #9AA5C4 !important; }
+        input::placeholder { color: #9AA5C4 !important; }
+        select option { background: #FFFFFF; color: #0F1B3D; }
+        textarea:focus, input:focus { outline: 2px solid rgba(74,158,255,0.4) !important; outline-offset: 0; }
         * { box-sizing: border-box; }
       `}</style>
     </div>

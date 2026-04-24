@@ -1047,6 +1047,19 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'section and callText are required' }, { status: 400 })
     }
 
+    // Normalize section ID: if a numeric/title ID like "1.2" was sent, resolve it
+    // against the template's section list to get the canonical string ID (e.g. "sota")
+    let normalizedSection: string = section
+    if (template?.sections) {
+      const match = template.sections.find(
+        (s: any) => s.id === section || s.title === section || s.title?.startsWith(section + ' ')
+      )
+      if (match && match.id !== section) {
+        console.log(`Section ID normalised: "${section}" → "${match.id}"`)
+        normalizedSection = match.id
+      }
+    }
+
     // ── DOCX download — skip re-generation, build from provided text ──────────
     if (outputType === 'docx' && generatedText) {
       const label = SECTION_LABELS[section] || section
@@ -1107,9 +1120,9 @@ export async function POST(req: NextRequest) {
     console.log(`[keywords] source: ${keywordSourceLabel}`)
 
     // ── Generation path ───────────────────────────────────────────────────────
-    const mode = SECTION_MODE[section as keyof typeof SECTION_MODE] || 'INTERNAL'
+    const mode = SECTION_MODE[normalizedSection as keyof typeof SECTION_MODE] || 'INTERNAL'
     const fullQuery = [callText, additionalContext].filter(Boolean).join('\n\n')
-    console.log(`Proposal [${section}] mode=${mode}`)
+    console.log(`Proposal [${section}→${normalizedSection}] mode=${mode}`)
 
     // Run retrieval in parallel where possible
     const [[internalCtx, kbSourceBlock], externalCtx, styleCtx] = await Promise.all([
@@ -1160,7 +1173,7 @@ Call scope: ${brief.scopeSelected}
       iris_role: `Write one paragraph per partner (4-6 sentences). For IRIS: start with the WP leadership, name the specific tasks IRIS leads, name the IRIS technologies being deployed, reference 1-2 previous IRIS projects as evidence of capability. For each other partner: organisation type, country, specific expertise, role in this project, and why they are the best choice. Close with a paragraph on consortium complementarity — how the partners collectively cover the full value chain from research to demonstration to market. Write in first person plural for IRIS tasks, third person for other partners' descriptions. Do not use bullet points.`,
     }
 
-    const sectionInstruction = SECTION_INSTRUCTIONS[section] || ''
+    const sectionInstruction = SECTION_INSTRUCTIONS[normalizedSection] || SECTION_INSTRUCTIONS[section] || ''
 
     // ── Length from template or pageLimit ────────────────────────────────────
     const sectionTemplate = template?.sections.find(s => s.id === section)
@@ -1253,7 +1266,7 @@ End with a clear forward-looking statement that creates momentum toward the prop
     console.log(`Source papers with DOIs: ${sourcePapers.filter(p => p.url).length}/${sourcePapers.length}`)
 
     // ── Stream response ───────────────────────────────────────────────────────
-    const isSotASection = section === 'state_of_the_art' || section === 'innovation' || section === 'sota'
+    const isSotASection = normalizedSection === 'state_of_the_art' || normalizedSection === 'innovation' || normalizedSection === 'sota'
     const model = isSotASection
       ? (process.env.IRIS_SOTA_MODEL || process.env.IRIS_PROPOSAL_MODEL || 'gpt-4o')
       : (process.env.IRIS_PROPOSAL_MODEL || 'gpt-4o')

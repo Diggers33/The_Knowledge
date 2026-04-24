@@ -246,7 +246,7 @@ CRITICAL RULES FOR STATE OF THE ART:
 - Structure MUST follow this exact order:
   1. Current approaches — name specific methods, tools, key players from the sources
   2. Recent advances — cite specific results and metrics from the provided papers
-  3. Remaining gaps — use ■ bullet points, one per gap, grounded in source limitations
+  3. Remaining gaps — use - bullet points, one per gap, grounded in source limitations
   4. Why this research direction is necessary and timely
 - Every paragraph must reference specific evidence from the provided context
 - Never open with a sentence about [this call] or the EU programme
@@ -432,6 +432,9 @@ function extractTopicKeywords(callText: string): string {
     'project', 'projects', 'twin', 'transition', 'aims', 'enhance',
     'activities', 'support', 'develop', 'provide', 'ensure', 'promote',
     'address', 'contribute', 'relevant', 'specific', 'particular',
+    'circbio', 'circ', 'biobased', 'lca', 'sme', 'trl', 'ict', 'kpi', 'smes',
+    'pilots', 'pilot', 'scale', 'uptake', 'deploy', 'deployment', 'uptake',
+    'demonstrat', 'demonstrators', 'demonstrator',
   ])
   return callText
     .toLowerCase()
@@ -1158,7 +1161,31 @@ Call scope: ${brief.scopeSelected}
     // ── Section-specific instructions ────────────────────────────────────────
     const SECTION_INSTRUCTIONS: Record<string, string> = {
       objectives: `Structure as follows:\nPARAGRAPH 1 (3-4 sentences): Establish the problem and opportunity. What is the industrial/societal challenge this project addresses? Why is it urgent now? What does the call specifically seek to solve? Do NOT start with "The [ACRONYM] project will...".\n\nPARAGRAPH 2 onwards: State each objective as a short declarative sentence followed by the measurable target or validation approach. Use transitions: "A first objective is to...", "We will further...", "A third objective concerns...". Never use "Objective 1:", "Objective 2:" as labels. Maximum 400 words total.\n\nWrite specific, measurable project objectives in first person plural. Use 4-6 objectives, each introduced with a short declarative sentence then expanded with technical detail and measurable targets. Each objective must map to a named call expected outcome. State the TRL journey explicitly: starting at TRL ${brief?.trlStart ?? '?'}, achieving TRL ${brief?.trlEnd ?? '?'} by project end. This section covers ONLY project objectives — do not include impact, dissemination, or market content.\n\nSCOPE BOUNDARY: Cover ONLY the project's technical and scientific objectives. Do NOT include: publications targets, open access plans, commercialisation pathways, market size figures, workforce impact, standardisation activities, societal impact. Those sections exist separately. Stay within 400 words.`,
-      sota: `Structure as: (1) current landscape with named evidence, (2) recent advances with specific results from the provided research sources, (3) remaining gaps as ■ bullets with 2-3 sentences each, (4) why the proposed approach addresses these gaps specifically. Do not mention the project by name — the SotA describes the world before the project.`,
+      sota: `Write a rigorous, evidence-grounded State of the Art section structured as FIVE sub-sections with ### headings. Do NOT emit any section number — the number will be added automatically.
+
+### Current landscape
+2–3 short paragraphs (max 120 words each). Name specific methods, tools, commercial platforms, and research groups from the provided sources. Every claim must name a source, company, or measurement — no generic statements.
+
+### Recent advances
+2–3 paragraphs citing specific results and metrics from the retrieved papers. For each advance: name the authors/group, the year, the methodology, and the measured outcome (e.g. accuracy %, throughput, cost reduction). Use inline citations in the format (Author et al., YEAR) using ONLY authors and years visible in the source blocks.
+
+### Gaps in the state of the art
+Use - bullet points (NOT ■). Write 4–6 gap bullets, each 2–3 sentences: describe the gap, name the specific limitation or missing capability, cite the source that evidences it. Do not write vague bullets like "lacks scalability" — be specific about what is missing and why it matters.
+
+### Why this research is necessary and timely
+1–2 paragraphs explaining the urgency and opportunity window. Reference specific policy drivers, market data, or EU priorities from the sources.
+
+### Progress beyond the state of the art
+A structured comparison. Write a brief intro sentence, then a markdown table with three columns: **Current SotA** | **This project's advance** | **Target KPI / metric**. Include 3–5 rows covering the key technological leaps. After the table, one closing sentence on the strategic impact.
+
+IMPORTANT CONSTRAINTS:
+- Sub-section ### headings are required — do not omit them
+- Use - for all bullet points, never ■
+- Maximum paragraph length: 130 words — if a paragraph exceeds this, split it
+- Use (Author et al., YEAR) or (Author, YEAR) inline citations from the source blocks only
+- Do not mention the project acronym or the call identifier in this section
+- Do not open with a sentence about the EU programme or Horizon Europe
+- Total length must be 1,800–2,200 words`,
       methodology: `Describe the technical approach as a sequence of research phases. For each phase: name it, state the TRL at start and end of the phase, describe the work in 3-4 sentences, name the lead partner and contributing partners. Format task descriptions as: **Task X.Y: [name]** (Lead: PARTNER; Partners: A, B). Reference the specific IRIS technologies: ${(brief?.irisTechnologies || ['NIR spectroscopy', 'AI/ML']).join(', ')}. For each major risk: name it, explain why it is a risk, state the mitigation measure. Never describe a phase without stating who does the work and how it will be validated. State TRL progression explicitly: from TRL ${brief?.trlStart ?? '?'} at project start to TRL ${brief?.trlEnd ?? '?'} at the pilots: ${(brief?.pilots || []).join(', ')}.`,
       innovation: `Focus on what is genuinely novel — not incremental improvement but breakthrough potential. Compare explicitly to existing approaches and state what they cannot do. Ground in IRIS's demonstrated capabilities from the KB context.`,
       consortium: `Write one paragraph per partner (4-6 sentences each). For each partner: name, country, type, specific expertise, role in this project, and why they are the best choice for that role. Do not use bullet points — flowing prose per partner. Close with a paragraph on consortium complementarity and geographic spread.`,
@@ -1213,7 +1240,11 @@ Writing style rules (follow the provided style examples):
 ${MODE_INSTRUCTION[mode]}
 
 Do not invent facts not present in the provided context.
-End with a clear forward-looking statement that creates momentum toward the proposed project.${styleHint}`
+End with a clear forward-looking statement that creates momentum toward the proposed project.
+
+LANGUAGE DISCIPLINE: Never use "significant", "various", "several", "many", "notable", "substantial", "key challenges", "further exacerbate" or similar vague intensifiers without a specific quantity or named source immediately following. Replace every vague descriptor with a specific figure, named entity, or measurement.
+
+LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. If you have covered all points from the sources, add another gap bullet or expand an advance with more detail from the context. Stopping early is a failure — evaluators penalise short sections.${styleHint}`
 
     // ── Existing draft injection ──────────────────────────────────────────────
     let enrichedSystemPrompt = existingDraft
@@ -1275,7 +1306,7 @@ End with a clear forward-looking statement that creates momentum toward the prop
         { role: 'user', content: userMessage }
       ],
       stream: true,
-      max_tokens: section === 'workplan' ? 4000 : 2000,
+      max_tokens: section === 'workplan' ? 4000 : isSotASection ? 3500 : 2000,
       temperature: 0.4,
     })
 
@@ -1289,6 +1320,54 @@ End with a clear forward-looking statement that creates momentum toward the prop
           for await (const chunk of stream) {
             const delta = chunk.choices[0]?.delta?.content || ''
             if (delta) fullGeneratedText += delta
+          }
+
+          // ── Post-processing: normalize section number and bullet style ──────
+          // Strip any leading section number the model emitted (e.g. "1.1.1 State…", "1.2 State…")
+          fullGeneratedText = fullGeneratedText.replace(/^\s*\d+(\.\d+)*\s+[A-Z][^\n]*\n/, '')
+          // Replace Unicode black-square bullets with standard markdown dashes
+          fullGeneratedText = fullGeneratedText.replace(/■\s*/g, '- ')
+
+          // ── Citation injection (SotA/EXTERNAL only, when model produced none) ──
+          if (isSotASection && sourcePapers.length > 0) {
+            const existingCites = (fullGeneratedText.match(/\([A-Z][a-z]+(?: et al\.)?,\s*\d{4}\)/g) || []).length
+            if (existingCites === 0) {
+              console.log(`Citation injection: model produced 0 citations, injecting from ${sourcePapers.length} source papers`)
+              const sourceList = sourcePapers.slice(0, 12).map((p, i) =>
+                `[${i + 1}] ${p.authors || p.title} (${p.year})${p.url ? ' — ' + p.url : ''}: ${p.title}`
+              ).join('\n')
+              const injectionPrompt = `You are a citation editor. The text below was written without inline citations. Add inline citations in the format (Author et al., YEAR) or (Author, YEAR) where the text makes a factual claim that is supported by one of the source papers listed.
+
+Rules:
+- Only add citations where the claim clearly matches a paper's topic or findings
+- Use the exact author surname and year from the source list
+- Add at most one citation per sentence
+- Do not invent citations not in the source list
+- Do not change any other words in the text
+- Return the full text with citations inserted
+
+SOURCE PAPERS:
+${sourceList}
+
+TEXT:
+${fullGeneratedText}`
+              try {
+                const injectRes = await fetch('https://api.openai.com/v1/chat/completions', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.OPENAI_API_KEY}` },
+                  body: JSON.stringify({ model: 'gpt-4o-mini', messages: [{ role: 'user', content: injectionPrompt }], temperature: 0, max_tokens: 4000 }),
+                  signal: AbortSignal.timeout(30000),
+                })
+                const injectData = await injectRes.json()
+                const injected = injectData.choices?.[0]?.message?.content?.trim()
+                if (injected && injected.length > fullGeneratedText.length * 0.8) {
+                  fullGeneratedText = injected
+                  console.log(`Citation injection complete: ${existingCites} → ${(fullGeneratedText.match(/\([A-Z][a-z]+(?: et al\.)?,\s*\d{4}\)/g) || []).length} citations`)
+                }
+              } catch (e) {
+                console.error('Citation injection error (non-fatal):', e)
+              }
+            }
           }
 
           // ── Citation validation ─────────────────────────────────────────────

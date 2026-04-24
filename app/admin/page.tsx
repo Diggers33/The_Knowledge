@@ -158,14 +158,14 @@ export default function AdminPage() {
     })
   }
 
-  const BG = '#0B1220'
-  const SURFACE = '#111A2B'
-  const SURFACE_MID = '#162235'
-  const BORDER = '#22304A'
-  const TEXT = '#E6EDF7'
-  const MUTED = '#8A9AB3'
-  const DIM = '#4A5F7A'
-  const ACCENT = '#22D3EE'
+  const BG = '#080C20'
+  const SURFACE = '#0D1235'
+  const SURFACE_MID = '#121847'
+  const BORDER = '#1E2B6A'
+  const TEXT = '#E8EEFF'
+  const MUTED = '#8A96C4'
+  const DIM = '#4A5590'
+  const ACCENT = '#4A9EFF'
   const GREEN = '#2DCB7A'
 
   return (
@@ -253,7 +253,7 @@ export default function AdminPage() {
                 <span className="num" style={{ color: pct === 100 ? '#2DCB7A' : TEXT, fontWeight: 600 }}>{pct}%</span>
               </div>
               <div style={{ height: '5px', borderRadius: '3px', background: '#1C2D42', overflow: 'hidden' }}>
-                <div style={{ height: '100%', borderRadius: '3px', width: `${pct}%`, background: pct === 100 ? '#2DCB7A' : '#22D3EE', transition: 'width 0.6s ease' }} />
+                <div style={{ height: '100%', borderRadius: '3px', width: `${pct}%`, background: pct === 100 ? '#2DCB7A' : '#4A9EFF', transition: 'width 0.6s ease' }} />
               </div>
               {stats.failed > 0 && (
                 <p style={{ fontSize: '11px', color: '#F87171', margin: '6px 0 0' }}>

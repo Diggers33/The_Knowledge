@@ -25,13 +25,13 @@ interface SectionConfig {
 // ─── CONSTANTS ────────────────────────────────────────────────────────────────
 
 const C = {
-  bg:     '#0B1220',
-  panel:  '#111A2B',
-  input:  '#162235',
-  border: '#22304A',
-  cyan:   '#22D3EE',
-  text:   '#E6EDF7',
-  muted:  '#8A9AB3',
+  bg:     '#080C20',
+  panel:  '#0D1235',
+  input:  '#121847',
+  border: '#1E2B6A',
+  cyan:   '#4A9EFF',
+  text:   '#E8EEFF',
+  muted:  '#8A96C4',
   green:  '#2DCB7A',
   amber:  '#F59E0B',
   red:    '#F87171',

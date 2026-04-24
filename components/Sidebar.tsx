@@ -5,11 +5,11 @@ import { MessageSquare, FileOutput, BookOpen, LogOut, Database, PenLine, FileTex
 import { createClient } from '@/lib/supabase/client'
 
 const navItems = [
-  { href: '/chat',     icon: MessageSquare, label: 'Chat' },
-  { href: '/generate', icon: FileOutput,    label: 'Generate' },
-  { href: '/proposal',    icon: PenLine,    label: 'Proposals' },
-  { href: '/deliverable', icon: FileText,   label: 'Deliverables' },
-  { href: '/library',  icon: BookOpen,      label: 'Library' },
+  { href: '/chat',        icon: MessageSquare, label: 'Chat' },
+  { href: '/generate',    icon: FileOutput,    label: 'Generate' },
+  { href: '/proposal',    icon: PenLine,       label: 'Proposals' },
+  { href: '/deliverable', icon: FileText,      label: 'Deliverables' },
+  { href: '/library',     icon: BookOpen,      label: 'Library' },
 ]
 
 const adminItems = [
@@ -35,44 +35,56 @@ export default function Sidebar({ role }: { role: string }) {
       left: 0,
       top: 0,
       zIndex: 10,
-      background: '#0D1829',
-      borderRight: '1px solid #1A2840',
+      background: '#080C20',
+      borderRight: '1px solid #1E2B6A',
       display: 'flex',
       flexDirection: 'column',
       overflow: 'hidden',
     }}>
 
-      {/* Logo — keep brand saturation here */}
+      {/* Logo */}
       <div style={{
         padding: '18px 16px',
-        borderBottom: '1px solid #1A2840',
+        borderBottom: '1px solid #1E2B6A',
         display: 'flex',
         alignItems: 'center',
         gap: '10px',
         flexShrink: 0,
       }}>
-        <div style={{
-          width: '32px', height: '32px', borderRadius: '8px',
-          background: 'linear-gradient(135deg, #22D3EE 0%, #0891B2 100%)',
-          boxShadow: '0 0 16px rgba(34,211,238,0.3)',
-          display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0,
-        }}>
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none">
-            <circle cx="12" cy="12" r="3" fill="#0B1220" />
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" fill="#0B1220" opacity="0.5" />
+        {/* K logo mark */}
+        <div style={{ width: '32px', height: '32px', flexShrink: 0 }}>
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+            <defs>
+              <linearGradient id="kg1" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stopColor="#5CE1FF" />
+                <stop offset="100%" stopColor="#2563EB" />
+              </linearGradient>
+              <linearGradient id="kg2" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stopColor="#2563EB" />
+                <stop offset="100%" stopColor="#7B5CF5" />
+              </linearGradient>
+            </defs>
+            {/* Vertical spine */}
+            <rect x="18" y="15" width="14" height="70" rx="4" fill="url(#kg1)" />
+            {/* Top arm */}
+            <rect x="30" y="15" width="46" height="28" rx="6"
+              transform="rotate(0 30 15)" fill="url(#kg1)" />
+            {/* Bottom arm */}
+            <rect x="32" y="52" width="42" height="26" rx="6"
+              transform="rotate(0 32 52)" fill="url(#kg2)" />
           </svg>
         </div>
         <div>
-          <div style={{ fontSize: '13px', fontWeight: 700, color: '#E6EDF7', lineHeight: 1.2 }}>IRIS Knowledge</div>
-          <div style={{ fontSize: '10px', color: '#8A9AB3' }}>Technology Solutions</div>
+          <div style={{ fontSize: '13px', fontWeight: 700, color: '#E8EEFF', lineHeight: 1.2 }}>The Knowledge</div>
+          <div style={{ fontSize: '9px', fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#7B5CF5' }}>Knowledge Repository</div>
         </div>
       </div>
 
-      {/* Nav — scrollable */}
+      {/* Nav */}
       <nav style={{ flex: 1, padding: '10px 8px', overflowY: 'auto', minHeight: 0 }}>
         <div style={{
           fontSize: '9px', fontWeight: 700, letterSpacing: '0.1em',
-          textTransform: 'uppercase', color: '#4A5F7A',
+          textTransform: 'uppercase', color: '#4A5590',
           padding: '8px 10px 6px',
         }}>
           Workspace
@@ -85,14 +97,13 @@ export default function Sidebar({ role }: { role: string }) {
               display: 'flex', alignItems: 'center', gap: '10px',
               padding: '8px 10px', borderRadius: '7px',
               fontSize: '13px', fontWeight: active ? 600 : 400,
-              color: active ? '#E6EDF7' : '#8A9AB3',
-              background: active ? '#162235' : 'transparent',
+              color: active ? '#E8EEFF' : '#8A96C4',
+              background: active ? 'rgba(74,158,255,0.1)' : 'transparent',
               textDecoration: 'none', marginBottom: '2px',
               transition: 'all 0.12s',
-              borderLeft: `2px solid ${active ? '#22D3EE' : 'transparent'}`,
-              position: 'relative',
+              borderLeft: `2px solid ${active ? '#4A9EFF' : 'transparent'}`,
             }}>
-              <Icon size={15} style={{ color: active ? '#22D3EE' : '#4A5F7A', flexShrink: 0 }} />
+              <Icon size={15} style={{ color: active ? '#4A9EFF' : '#4A5590', flexShrink: 0 }} />
               {label}
             </Link>
           )
@@ -100,10 +111,10 @@ export default function Sidebar({ role }: { role: string }) {
 
         {role === 'manager' && (
           <>
-            <div style={{ margin: '10px 10px 6px', borderTop: '1px solid #1A2840' }} />
+            <div style={{ margin: '10px 10px 6px', borderTop: '1px solid #1E2B6A' }} />
             <div style={{
               fontSize: '9px', fontWeight: 700, letterSpacing: '0.1em',
-              textTransform: 'uppercase', color: '#4A5F7A',
+              textTransform: 'uppercase', color: '#4A5590',
               padding: '0 10px 6px',
             }}>
               Admin
@@ -115,13 +126,13 @@ export default function Sidebar({ role }: { role: string }) {
                   display: 'flex', alignItems: 'center', gap: '10px',
                   padding: '8px 10px', borderRadius: '7px',
                   fontSize: '13px', fontWeight: active ? 600 : 400,
-                  color: active ? '#E6EDF7' : '#8A9AB3',
-                  background: active ? '#162235' : 'transparent',
+                  color: active ? '#E8EEFF' : '#8A96C4',
+                  background: active ? 'rgba(123,92,245,0.1)' : 'transparent',
                   textDecoration: 'none', marginBottom: '2px',
                   transition: 'all 0.12s',
-                  borderLeft: `2px solid ${active ? '#2DCB7A' : 'transparent'}`,
+                  borderLeft: `2px solid ${active ? '#7B5CF5' : 'transparent'}`,
                 }}>
-                  <Icon size={15} style={{ color: active ? '#2DCB7A' : '#4A5F7A', flexShrink: 0 }} />
+                  <Icon size={15} style={{ color: active ? '#7B5CF5' : '#4A5590', flexShrink: 0 }} />
                   {label}
                 </Link>
               )
@@ -130,13 +141,13 @@ export default function Sidebar({ role }: { role: string }) {
         )}
       </nav>
 
-      {/* Sign Out — always pinned at bottom */}
-      <div style={{ padding: '10px 8px', borderTop: '1px solid #1A2840', flexShrink: 0 }}>
+      {/* Sign Out */}
+      <div style={{ padding: '10px 8px', borderTop: '1px solid #1E2B6A', flexShrink: 0 }}>
         <button onClick={handleLogout} style={{
           display: 'flex', alignItems: 'center', gap: '10px',
           padding: '8px 10px', borderRadius: '7px', width: '100%',
           background: 'none', border: 'none', cursor: 'pointer',
-          fontSize: '13px', color: '#4A5F7A',
+          fontSize: '13px', color: '#4A5590',
           transition: 'color 0.12s',
         }}>
           <LogOut size={15} style={{ flexShrink: 0 }} />

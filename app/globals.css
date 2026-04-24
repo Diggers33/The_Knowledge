@@ -5,26 +5,26 @@
 @tailwind utilities;
 
 :root {
-  --bg:               #0B1220;
-  --surface:          #111A2B;
-  --surface-mid:      #162235;
-  --surface-high:     #1C2D42;
-  --border:           #22304A;
-  --border-subtle:    #1A2840;
-  --text-primary:     #E6EDF7;
-  --text-muted:       #8A9AB3;
-  --text-dim:         #4A5F7A;
-  --accent:           #22D3EE;
-  --accent-dim:       rgba(34,211,238,0.12);
-  --accent-border:    rgba(34,211,238,0.25);
+  --bg:               #080C20;
+  --surface:          #0D1235;
+  --surface-mid:      #121847;
+  --surface-high:     #1A2260;
+  --border:           #1E2B6A;
+  --border-subtle:    #172055;
+  --text-primary:     #E8EEFF;
+  --text-muted:       #8A96C4;
+  --text-dim:         #4A5590;
+  --accent:           #4A9EFF;
+  --accent-dim:       rgba(74,158,255,0.12);
+  --accent-border:    rgba(74,158,255,0.25);
   --success:          #2DCB7A;
   --success-dim:      rgba(45,203,122,0.12);
   --warn:             #F59E0B;
   --warn-dim:         rgba(245,158,11,0.12);
   --danger:           #F87171;
   --danger-dim:       rgba(248,113,113,0.08);
-  --info:             #818CF8;
-  --info-dim:         rgba(129,140,248,0.12);
+  --info:             #7B5CF5;
+  --info-dim:         rgba(123,92,245,0.12);
 
   /* Legacy aliases kept for gradual migration */
   --iris-dark:        var(--bg);

@@ -17,14 +17,14 @@ const EXAMPLES = [
   { type: 'docx', prompt: 'Review of inline NIR applications developed across IRIS projects' },
 ]
 
-const BG      = '#0B1220'
-const SURFACE = '#111A2B'
-const SURFACE_MID = '#162235'
-const BORDER  = '#22304A'
-const TEXT    = '#E6EDF7'
-const MUTED   = '#8A9AB3'
-const DIM     = '#4A5F7A'
-const ACCENT  = '#22D3EE'
+const BG      = '#080C20'
+const SURFACE = '#0D1235'
+const SURFACE_MID = '#121847'
+const BORDER  = '#1E2B6A'
+const TEXT    = '#E8EEFF'
+const MUTED   = '#8A96C4'
+const DIM     = '#4A5590'
+const ACCENT  = '#4A9EFF'
 
 export default function GeneratePage() {
   const [outputType, setOutputType] = useState('pptx')

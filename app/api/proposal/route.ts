@@ -254,7 +254,7 @@ CRITICAL RULES FOR STATE OF THE ART:
 - Every gap bullet must cite a specific source — never write "as noted in the broader literature" or similar vague attribution
 
 CITATIONS — ABSOLUTE RULE:
-You may ONLY cite papers that appear verbatim in the provided source context (SEMANTIC SCHOLAR, ARXIV, CROSSREF, or CORE blocks above).
+You may ONLY cite papers that appear verbatim in the provided source context (EUROPE PMC, ARXIV, CROSSREF, CORE, or OPENALEX blocks above).
 Do NOT cite any paper not explicitly listed in those blocks.
 Do NOT use your training data to add citations.
 If a source paper supports a claim, cite it by the exact author names and year shown in the source block.
@@ -470,51 +470,26 @@ async function tavilySearch(
   return parts.join('\n\n')
 }
 
-async function searchSemanticScholar(query: string, limit = 5): Promise<string> {
+async function searchEuropePMC(query: string, limit = 6): Promise<string> {
   try {
-    console.log(`[SemanticScholar] query: "${query.trim()}"`)
-    const headers: Record<string, string> = {}
-    if (process.env.SEMANTIC_SCHOLAR_API_KEY) headers['x-api-key'] = process.env.SEMANTIC_SCHOLAR_API_KEY
-    const res = await fetch(
-      `https://api.semanticscholar.org/graph/v1/paper/search?query=${encodeURIComponent(query.trim())}&limit=${limit}&fields=title,abstract,authors,year,citationCount,externalIds`,
-      { headers, signal: AbortSignal.timeout(8000) }
-    )
-    console.log(`[SemanticScholar] status: ${res.status}`)
-    if (res.status === 429) { console.warn('[SemanticScholar] rate limited — skipping'); return '' }
-    // 403 usually means the API key is invalid — retry without it
-    if (res.status === 403 && Object.keys(headers).length > 0) {
-      console.warn('[SemanticScholar] 403 with key — retrying without key')
-      const retryRes = await fetch(
-        `https://api.semanticscholar.org/graph/v1/paper/search?query=${encodeURIComponent(query.trim())}&limit=${limit}&fields=title,abstract,authors,year,citationCount,externalIds`,
-        { signal: AbortSignal.timeout(8000) }
-      )
-      console.log(`[SemanticScholar] retry status: ${retryRes.status}`)
-      if (!retryRes.ok) return ''
-      const retryData = await retryRes.json()
-      if (!retryData.data?.length) return ''
-      return retryData.data
-        .filter((p: any) => p.abstract && p.year >= 2020)
-        .map((p: any) => {
-          const doi     = p.externalIds?.DOI
-          const arxivId = p.externalIds?.ArXiv
-          const url     = doi ? `https://doi.org/${doi}` : arxivId ? `https://arxiv.org/abs/${arxivId}` : ''
-          return `Title: ${p.title} (${p.year})\nAuthors: ${p.authors?.slice(0, 3).map((a: any) => a.name).join(', ')}\nCitations: ${p.citationCount}${url ? '\nURL: ' + url : ''}\nAbstract: ${p.abstract?.slice(0, 400)}`
-        }).join('\n\n')
-    }
+    console.log(`[EuropePMC] query: "${query.trim()}"`)
+    const url = `https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=${encodeURIComponent(query.trim())}&resultType=core&pageSize=${limit}&format=json&sort=CITED+desc`
+    const res = await fetch(url, { signal: AbortSignal.timeout(8000) })
+    console.log(`[EuropePMC] status: ${res.status}`)
     if (!res.ok) return ''
     const data = await res.json()
-    if (data.error) console.log(`[SemanticScholar] error: ${JSON.stringify(data.error)}`)
-    if (!data.data?.length) return ''
-    return data.data
-      .filter((p: any) => p.abstract && p.year >= 2020)
+    const papers: any[] = data?.resultList?.result || []
+    if (!papers.length) return ''
+    return papers
+      .filter((p: any) => p.abstractText && (p.pubYear ?? 0) >= 2019)
       .map((p: any) => {
-        const doi     = p.externalIds?.DOI
-        const arxivId = p.externalIds?.ArXiv
-        const url     = doi ? `https://doi.org/${doi}` : arxivId ? `https://arxiv.org/abs/${arxivId}` : ''
-        return `Title: ${p.title} (${p.year})\nAuthors: ${p.authors?.slice(0, 3).map((a: any) => a.name).join(', ')}\nCitations: ${p.citationCount}${url ? '\nURL: ' + url : ''}\nAbstract: ${p.abstract?.slice(0, 400)}`
-      }).join('\n\n')
+        const doi = p.doi ? `\nDOI: https://doi.org/${p.doi}` : ''
+        const authors = (p.authorString || '').split(',').slice(0, 3).join(',')
+        return `Title: ${p.title} (${p.pubYear})\nAuthors: ${authors}\nCitations: ${p.citedByCount ?? 0}${doi}\nAbstract: ${(p.abstractText || '').slice(0, 400)}`
+      })
+      .join('\n\n')
   } catch (e) {
-    console.error('Semantic Scholar error:', e)
+    console.error('EuropePMC error:', e)
     return ''
   }
 }
@@ -638,12 +613,12 @@ async function retrieveExternalContext(query: string, keywordSource: string): Pr
   console.log(`Academic keywords (SS/Crossref/CORE/OpenAlex): ${academicKeywords}`)
   console.log(`OpenAIRE query: ${openAireQuery}`)
 
-  // Semantic Scholar with retry on 0 results
-  let ssResults = await searchSemanticScholar(`${academicKeywords} process industry AI machine learning`)
+  // Europe PMC with retry on 0 results
+  let ssResults = await searchEuropePMC(`${academicKeywords} process industry sensor`)
   if (!ssResults) {
-    const shortQuery = topicKeywords.split(' ').slice(0, 2).join(' ')
-    ssResults = await searchSemanticScholar(`${shortQuery} construction digital twin`)
-    console.log(`[SemanticScholar] retry with: "${shortQuery} construction digital twin"`)
+    const shortQuery = topicKeywords.split(' ').slice(0, 3).join(' ')
+    ssResults = await searchEuropePMC(`${shortQuery}`)
+    console.log(`[EuropePMC] retry with: "${shortQuery}"`)
   }
 
   const [
@@ -665,7 +640,7 @@ async function retrieveExternalContext(query: string, keywordSource: string): Pr
     }),
   ])
 
-  console.log(`Research sources: SS=${ssResults.length} arXiv=${arxivResults.length} Crossref=${crossrefResults.length} CORE=${coreResults.length} OpenAlex=${openAlexResults.length} OpenAIRE=${euProjectResults.length}`)
+  console.log(`Research sources: EuropePMC=${ssResults.length} arXiv=${arxivResults.length} Crossref=${crossrefResults.length} CORE=${coreResults.length} OpenAlex=${openAlexResults.length} OpenAIRE=${euProjectResults.length}`)
 
   // ─── Full-text layer: extract DOIs from SS + Crossref, resolve via Unpaywall ─
   const doiPattern = /(?:URL|DOI): https:\/\/doi\.org\/([^\s\n]+)/g
@@ -701,7 +676,7 @@ async function retrieveExternalContext(query: string, keywordSource: string): Pr
   }
 
   const externalContext = [
-    ssResults        ? `[SEMANTIC SCHOLAR — Peer-reviewed papers]\n${ssResults}`               : '',
+    ssResults        ? `[EUROPE PMC — Peer-reviewed papers]\n${ssResults}`                      : '',
     arxivResults     ? `[ARXIV — Latest preprints]\n${arxivResults}`                          : '',
     crossrefResults  ? `[CROSSREF — Published research with DOIs]\n${crossrefResults}`        : '',
     coreResults      ? `[CORE — Open access full text]\n${coreResults}`                       : '',

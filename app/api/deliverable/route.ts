@@ -124,7 +124,7 @@ async function getDeliverableContext(
 
   // Embed and retrieve relevant chunks
   const embedding = await embed(queryText)
-  const rawChunks = await searchChunks(embedding, queryText, [projectCode], 20, 0.18)
+  const rawChunks = await searchChunks(embedding, queryText, 20, [projectCode])
   const reranked = rawChunks.length > 0
     ? await rerankChunks(`${section} ${deliverableTitle}`, rawChunks, 8)
     : rawChunks.slice(0, 8)

@@ -6,21 +6,10 @@
 
 import { createClient } from '@supabase/supabase-js'
 
-let _supabase: ReturnType<typeof createClient> | null = null
-function getClient() {
-  if (!_supabase) {
-    _supabase = createClient(
-      process.env.NEXT_PUBLIC_SUPABASE_URL!,
-      process.env.SUPABASE_SERVICE_ROLE_KEY!
-    )
-  }
-  return _supabase
-}
-export const supabase = new Proxy({} as ReturnType<typeof createClient>, {
-  get(_t, prop, receiver) {
-    return Reflect.get(getClient(), prop, receiver)
-  },
-})
+export const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL    ?? 'https://placeholder.supabase.co',
+  process.env.SUPABASE_SERVICE_ROLE_KEY   ?? 'placeholder-key'
+)
 
 // ─── FILTERED CHUNK SEARCH ───────────────────────────────────────────────────
 // Uses search_rag_filtered RPC — applies project_tag index in SQL.

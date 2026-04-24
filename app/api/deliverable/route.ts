@@ -148,7 +148,7 @@ async function getDeliverableContext(
 
 // ─── DOCX BUILDER ─────────────────────────────────────────────────────────────
 
-function buildDeliverableDocx(
+async function buildDeliverableDocx(
   sections: Record<string, string>,
   projectCode: string,
   deliverableRef: string,
@@ -194,7 +194,7 @@ function buildDeliverableDocx(
   }
 
   const doc = new Document({ sections: [{ properties: {}, children }] })
-  return Buffer.from(Packer.toBuffer(doc) as unknown as ArrayBuffer)
+  return Packer.toBuffer(doc)
 }
 
 // ─── MAIN HANDLER ─────────────────────────────────────────────────────────────
@@ -215,8 +215,8 @@ export async function POST(req: NextRequest) {
   // DOCX export path
   if (outputType === 'docx' && generatedSections) {
     try {
-      const buffer = buildDeliverableDocx(generatedSections, projectCode, deliverableRef, deliverableTitle, wpNumber)
-      return new NextResponse(buffer, {
+      const buffer = await buildDeliverableDocx(generatedSections, projectCode, deliverableRef, deliverableTitle, wpNumber)
+      return new NextResponse(new Uint8Array(buffer), {
         headers: {
           'Content-Type': 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
           'Content-Disposition': `attachment; filename="${projectCode}_${deliverableRef.replace('.', '-')}.docx"`,

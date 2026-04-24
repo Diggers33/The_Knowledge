@@ -154,7 +154,7 @@ async function buildDeliverableDocx(
   deliverableRef: string,
   deliverableTitle: string,
   wpNumber: string
-): Buffer {
+): Promise<Buffer> {
   const children: Paragraph[] = []
 
   // Title

@@ -602,7 +602,7 @@ export default function ProposalPage() {
       {/* Left phase + outline panel */}
       <div style={{
         marginLeft: '220px', width: '196px', flexShrink: 0,
-        background: '#091F29', borderRight: `1px solid ${C.border}`,
+        background: C.panel, borderRight: `1px solid ${C.border}`,
         display: 'flex', flexDirection: 'column', overflowY: 'auto',
         position: 'fixed', top: 0, bottom: 0, left: 0,
         paddingTop: '20px',
@@ -617,7 +617,7 @@ export default function ProposalPage() {
             <div style={{
               position: 'absolute', left: '18px', top: '18px',
               width: '2px', bottom: '18px',
-              background: `linear-gradient(to bottom, ${C.green} ${Math.round((phaseIdx / (PHASE_ORDER.length - 1)) * 100)}%, #1A2840 ${Math.round((phaseIdx / (PHASE_ORDER.length - 1)) * 100)}%)`,
+              background: `linear-gradient(to bottom, ${C.green} ${Math.round((phaseIdx / (PHASE_ORDER.length - 1)) * 100)}%, ${C.border} ${Math.round((phaseIdx / (PHASE_ORDER.length - 1)) * 100)}%)`,
               transition: 'background 0.4s ease',
             }} />
 
@@ -633,7 +633,7 @@ export default function ProposalPage() {
                     display: 'flex', alignItems: 'center', gap: '10px',
                     padding: '5px 8px 5px 6px', borderRadius: '8px', marginBottom: '4px',
                     cursor: canClick ? 'pointer' : 'default',
-                    background: isActive ? 'rgba(34,211,238,0.08)' : 'transparent',
+                    background: isActive ? 'rgba(74,158,255,0.08)' : 'transparent',
                     transition: 'background 0.12s',
                     position: 'relative',
                   }}
@@ -644,21 +644,21 @@ export default function ProposalPage() {
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
                     zIndex: 1, transition: 'all 0.2s',
                     background: isCompleted
-                      ? '#2DCB7A'
+                      ? C.green
                       : isActive
-                      ? '#22D3EE'
-                      : '#1C2D42',
-                    border: `2px solid ${isCompleted ? '#2DCB7A' : isActive ? '#22D3EE' : '#22304A'}`,
-                    boxShadow: isActive ? '0 0 10px rgba(34,211,238,0.3)' : 'none',
+                      ? C.cyan
+                      : C.input,
+                    border: `2px solid ${isCompleted ? C.green : isActive ? C.cyan : C.border}`,
+                    boxShadow: isActive ? '0 0 10px rgba(74,158,255,0.25)' : 'none',
                   }}>
                     {isCompleted ? (
                       <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
-                        <path d="M1.5 5L4 7.5L8.5 2.5" stroke="#0B1220" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M1.5 5L4 7.5L8.5 2.5" stroke="#FFFFFF" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
                       </svg>
                     ) : (
                       <span style={{
                         fontSize: '10px', fontWeight: 700,
-                        color: isActive ? '#0B1220' : '#4A5F7A',
+                        color: isActive ? '#FFFFFF' : C.muted,
                         fontFamily: 'JetBrains Mono, monospace',
                       }}>
                         {i + 1}
@@ -669,7 +669,7 @@ export default function ProposalPage() {
                   <span style={{
                     fontSize: '12px',
                     fontWeight: isActive ? 700 : isCompleted ? 500 : 400,
-                    color: isActive ? '#E6EDF7' : isCompleted ? '#2DCB7A' : canClick ? '#8A9AB3' : '#4A5F7A',
+                    color: isActive ? C.text : isCompleted ? C.green : canClick ? C.muted : C.muted,
                   }}>
                     {PHASE_LABELS[p]}
                   </span>
@@ -705,7 +705,7 @@ export default function ProposalPage() {
                       padding: isSub ? '4px 6px 4px 18px' : '5px 6px 3px 6px',
                       borderRadius: '6px', marginBottom: '1px',
                       cursor: isSub ? 'pointer' : 'default',
-                      background: isActive ? 'rgba(0,196,212,0.1)' : 'transparent',
+                      background: isActive ? 'rgba(74,158,255,0.08)' : 'transparent',
                       color: isSub
                         ? (isActive ? C.cyan : status === 'complete' ? C.green : status === 'review' ? C.amber : C.text)
                         : C.muted,

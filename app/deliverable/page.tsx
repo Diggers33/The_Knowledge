@@ -154,7 +154,7 @@ export default function DeliverablePage() {
 
   return (
     <div style={{ display: 'flex', minHeight: '100vh', background: C.bg, color: C.text, fontFamily: 'system-ui, sans-serif' }}>
-      <Sidebar />
+      <Sidebar role="manager" />
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
 
         {/* Header */}

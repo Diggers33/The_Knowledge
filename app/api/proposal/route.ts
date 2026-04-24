@@ -481,6 +481,27 @@ async function searchSemanticScholar(query: string, limit = 5): Promise<string> 
     )
     console.log(`[SemanticScholar] status: ${res.status}`)
     if (res.status === 429) { console.warn('[SemanticScholar] rate limited — skipping'); return '' }
+    // 403 usually means the API key is invalid — retry without it
+    if (res.status === 403 && Object.keys(headers).length > 0) {
+      console.warn('[SemanticScholar] 403 with key — retrying without key')
+      const retryRes = await fetch(
+        `https://api.semanticscholar.org/graph/v1/paper/search?query=${encodeURIComponent(query.trim())}&limit=${limit}&fields=title,abstract,authors,year,citationCount,externalIds`,
+        { signal: AbortSignal.timeout(8000) }
+      )
+      console.log(`[SemanticScholar] retry status: ${retryRes.status}`)
+      if (!retryRes.ok) return ''
+      const retryData = await retryRes.json()
+      if (!retryData.data?.length) return ''
+      return retryData.data
+        .filter((p: any) => p.abstract && p.year >= 2020)
+        .map((p: any) => {
+          const doi     = p.externalIds?.DOI
+          const arxivId = p.externalIds?.ArXiv
+          const url     = doi ? `https://doi.org/${doi}` : arxivId ? `https://arxiv.org/abs/${arxivId}` : ''
+          return `Title: ${p.title} (${p.year})\nAuthors: ${p.authors?.slice(0, 3).map((a: any) => a.name).join(', ')}\nCitations: ${p.citationCount}${url ? '\nURL: ' + url : ''}\nAbstract: ${p.abstract?.slice(0, 400)}`
+        }).join('\n\n')
+    }
+    if (!res.ok) return ''
     const data = await res.json()
     if (data.error) console.log(`[SemanticScholar] error: ${JSON.stringify(data.error)}`)
     if (!data.data?.length) return ''
@@ -554,7 +575,7 @@ async function searchCORE(query: string, limit = 5): Promise<string> {
   console.log(`[CORE] API key present (${apiKey.slice(0, 6)}…), query: "${query.trim()}"`)
   try {
     const res = await fetch(
-      `https://api.core.ac.uk/v3/search/works?q=${encodeURIComponent(query.trim())}&limit=${limit}&sort=citationCount:desc`,
+      `https://api.core.ac.uk/v3/search/works?q=${encodeURIComponent(query.trim())}&limit=${limit}&api_key=${encodeURIComponent(apiKey)}`,
       {
         headers: {
           'Authorization': `Bearer ${apiKey}`,
@@ -816,32 +837,33 @@ async function fetchCallDetails(callId: string): Promise<string> {
 async function searchOpenAIREProjects(query: string, limit = 5): Promise<string> {
   try {
     console.log(`[OpenAIRE] query: "${query}"`)
-    const url = `https://api.openaire.eu/search/projects?freetext=${encodeURIComponent(query.trim())}&format=json&size=${limit}`
+    // OpenAIRE Graph API v1 (stable since 2023, replaces legacy search/projects endpoint)
+    const url = `https://api.openaire.eu/graph/v1/projects?keywords=${encodeURIComponent(query.trim())}&pageSize=${limit}`
     console.log(`[OpenAIRE] URL: ${url}`)
     const res = await fetch(url, {
-        headers: { 'User-Agent': 'IRIS-KB/1.0 (mailto:info@iris-eng.com)' },
-        signal: AbortSignal.timeout(8000),
-      }
-    )
+      headers: {
+        'Accept': 'application/json',
+        'User-Agent': 'IRIS-KB/1.0 (mailto:info@iris-eng.com)',
+      },
+      signal: AbortSignal.timeout(8000),
+    })
     console.log(`[OpenAIRE] status: ${res.status}`)
-    if (!res.ok) return ''
+    if (!res.ok) {
+      console.warn(`[OpenAIRE] non-200: ${res.status}`)
+      return ''
+    }
     const data = await res.json()
-    console.log(`[OpenAIRE] response keys: ${Object.keys(data?.response || {}).join(', ')}`)
-    console.log(`[OpenAIRE] raw sample: ${JSON.stringify(data).slice(0, 300)}`)
-    const results = data?.response?.results
-    if (!results) { console.log('[OpenAIRE] results key is null/missing'); return '' }
-    const projects = results.result || []
+    const projects: any[] = data?.results || []
     console.log(`[OpenAIRE] results: ${projects.length}`)
     if (!projects.length) return ''
     return projects
       .map((p: any) => {
-        const meta    = p?.metadata?.['oaf:entity']?.['oaf:project']
-        const title   = meta?.title?.['$'] || ''
-        const summary = (meta?.summary?.['$'] || '').slice(0, 350)
-        const acronym = meta?.acronym?.['$'] || ''
-        const code    = meta?.code?.['$'] || ''
-        const start   = (meta?.startdate?.['$'] || '').slice(0, 4)
-        const end     = (meta?.enddate?.['$'] || '').slice(0, 4)
+        const title   = p.title || ''
+        const summary = (p.summary || p.description || '').slice(0, 350)
+        const acronym = p.acronym || ''
+        const code    = p.code || p.grantId || ''
+        const start   = (p.startDate || '').slice(0, 4)
+        const end     = (p.endDate   || '').slice(0, 4)
         if (!title && !summary) return null
         const header = [
           `Project: ${title}`,

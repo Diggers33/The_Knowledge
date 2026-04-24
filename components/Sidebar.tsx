@@ -35,8 +35,8 @@ export default function Sidebar({ role }: { role: string }) {
       left: 0,
       top: 0,
       zIndex: 10,
-      background: '#080C20',
-      borderRight: '1px solid #1E2B6A',
+      background: '#FFFFFF',
+      borderRight: '1px solid #D0D8EE',
       display: 'flex',
       flexDirection: 'column',
       overflow: 'hidden',
@@ -45,7 +45,7 @@ export default function Sidebar({ role }: { role: string }) {
       {/* Logo */}
       <div style={{
         padding: '14px 16px',
-        borderBottom: '1px solid #1E2B6A',
+        borderBottom: '1px solid #D0D8EE',
         display: 'flex',
         alignItems: 'center',
         flexShrink: 0,
@@ -61,7 +61,7 @@ export default function Sidebar({ role }: { role: string }) {
       <nav style={{ flex: 1, padding: '10px 8px', overflowY: 'auto', minHeight: 0 }}>
         <div style={{
           fontSize: '9px', fontWeight: 700, letterSpacing: '0.1em',
-          textTransform: 'uppercase', color: '#4A5590',
+          textTransform: 'uppercase', color: '#9AA5C4',
           padding: '8px 10px 6px',
         }}>
           Workspace
@@ -74,13 +74,13 @@ export default function Sidebar({ role }: { role: string }) {
               display: 'flex', alignItems: 'center', gap: '10px',
               padding: '8px 10px', borderRadius: '7px',
               fontSize: '13px', fontWeight: active ? 600 : 400,
-              color: active ? '#E8EEFF' : '#8A96C4',
-              background: active ? 'rgba(74,158,255,0.1)' : 'transparent',
+              color: active ? '#0F1B3D' : '#5A6A9A',
+              background: active ? 'rgba(74,158,255,0.08)' : 'transparent',
               textDecoration: 'none', marginBottom: '2px',
               transition: 'all 0.12s',
               borderLeft: `2px solid ${active ? '#4A9EFF' : 'transparent'}`,
             }}>
-              <Icon size={15} style={{ color: active ? '#4A9EFF' : '#4A5590', flexShrink: 0 }} />
+              <Icon size={15} style={{ color: active ? '#4A9EFF' : '#9AA5C4', flexShrink: 0 }} />
               {label}
             </Link>
           )
@@ -88,10 +88,10 @@ export default function Sidebar({ role }: { role: string }) {
 
         {role === 'manager' && (
           <>
-            <div style={{ margin: '10px 10px 6px', borderTop: '1px solid #1E2B6A' }} />
+            <div style={{ margin: '10px 10px 6px', borderTop: '1px solid #D0D8EE' }} />
             <div style={{
               fontSize: '9px', fontWeight: 700, letterSpacing: '0.1em',
-              textTransform: 'uppercase', color: '#4A5590',
+              textTransform: 'uppercase', color: '#9AA5C4',
               padding: '0 10px 6px',
             }}>
               Admin
@@ -103,13 +103,13 @@ export default function Sidebar({ role }: { role: string }) {
                   display: 'flex', alignItems: 'center', gap: '10px',
                   padding: '8px 10px', borderRadius: '7px',
                   fontSize: '13px', fontWeight: active ? 600 : 400,
-                  color: active ? '#E8EEFF' : '#8A96C4',
-                  background: active ? 'rgba(123,92,245,0.1)' : 'transparent',
+                  color: active ? '#0F1B3D' : '#5A6A9A',
+                  background: active ? 'rgba(123,92,245,0.08)' : 'transparent',
                   textDecoration: 'none', marginBottom: '2px',
                   transition: 'all 0.12s',
                   borderLeft: `2px solid ${active ? '#7B5CF5' : 'transparent'}`,
                 }}>
-                  <Icon size={15} style={{ color: active ? '#7B5CF5' : '#4A5590', flexShrink: 0 }} />
+                  <Icon size={15} style={{ color: active ? '#7B5CF5' : '#9AA5C4', flexShrink: 0 }} />
                   {label}
                 </Link>
               )
@@ -119,12 +119,12 @@ export default function Sidebar({ role }: { role: string }) {
       </nav>
 
       {/* Sign Out */}
-      <div style={{ padding: '10px 8px', borderTop: '1px solid #1E2B6A', flexShrink: 0 }}>
+      <div style={{ padding: '10px 8px', borderTop: '1px solid #D0D8EE', flexShrink: 0 }}>
         <button onClick={handleLogout} style={{
           display: 'flex', alignItems: 'center', gap: '10px',
           padding: '8px 10px', borderRadius: '7px', width: '100%',
           background: 'none', border: 'none', cursor: 'pointer',
-          fontSize: '13px', color: '#4A5590',
+          fontSize: '13px', color: '#9AA5C4',
           transition: 'color 0.12s',
         }}>
           <LogOut size={15} style={{ flexShrink: 0 }} />

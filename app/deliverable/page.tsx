@@ -25,16 +25,16 @@ interface SectionConfig {
 // ─── CONSTANTS ────────────────────────────────────────────────────────────────
 
 const C = {
-  bg:     '#080C20',
-  panel:  '#0D1235',
-  input:  '#121847',
-  border: '#1E2B6A',
+  bg:     '#FFFFFF',
+  panel:  '#F5F7FF',
+  input:  '#EEF1FA',
+  border: '#D0D8EE',
   cyan:   '#4A9EFF',
-  text:   '#E8EEFF',
-  muted:  '#8A96C4',
-  green:  '#2DCB7A',
-  amber:  '#F59E0B',
-  red:    '#F87171',
+  text:   '#0F1B3D',
+  muted:  '#5A6A9A',
+  green:  '#16A34A',
+  amber:  '#D97706',
+  red:    '#DC2626',
 }
 
 const SECTIONS: SectionConfig[] = [

@@ -158,13 +158,13 @@ export default function AdminPage() {
     })
   }
 
-  const BG = '#080C20'
-  const SURFACE = '#0D1235'
-  const SURFACE_MID = '#121847'
-  const BORDER = '#1E2B6A'
-  const TEXT = '#E8EEFF'
-  const MUTED = '#8A96C4'
-  const DIM = '#4A5590'
+  const BG = '#FFFFFF'
+  const SURFACE = '#F5F7FF'
+  const SURFACE_MID = '#EEF1FA'
+  const BORDER = '#D0D8EE'
+  const TEXT = '#0F1B3D'
+  const MUTED = '#5A6A9A'
+  const DIM = '#9AA5C4'
   const ACCENT = '#4A9EFF'
   const GREEN = '#2DCB7A'
 

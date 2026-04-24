@@ -1,0 +1,15 @@
+export const IRIS_COLORS = {
+  dark: '#0A2E36',
+  darkMid: '#0D3A45',
+  darkLight: '#134D5C',
+  cyan: '#00C4D4',
+  cyanLight: '#33D0DD',
+  green: '#2DCB7A',
+  white: '#FFFFFF',
+  offWhite: '#F0F8FA',
+  gray: '#94A3B8',
+  grayLight: '#E2EEF1',
+  border: '#1A4A57',
+  text: '#CBD5E1',
+  textDim: '#64748B',
+}

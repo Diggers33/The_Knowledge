@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg:               #0B1220;
+  --surface:          #111A2B;
+  --surface-mid:      #162235;
+  --surface-high:     #1C2D42;
+  --border:           #22304A;
+  --border-subtle:    #1A2840;
+  --text-primary:     #E6EDF7;
+  --text-muted:       #8A9AB3;
+  --text-dim:         #4A5F7A;
+  --accent:           #22D3EE;
+  --accent-dim:       rgba(34,211,238,0.12);
+  --accent-border:    rgba(34,211,238,0.25);
+  --success:          #2DCB7A;
+  --success-dim:      rgba(45,203,122,0.12);
+  --warn:             #F59E0B;
+  --warn-dim:         rgba(245,158,11,0.12);
+  --danger:           #F87171;
+  --danger-dim:       rgba(248,113,113,0.08);
+  --info:             #818CF8;
+  --info-dim:         rgba(129,140,248,0.12);
+
+  /* Legacy aliases kept for gradual migration */
+  --iris-dark:        var(--bg);
+  --iris-dark-mid:    var(--surface);
+  --iris-dark-light:  var(--surface-mid);
+  --iris-cyan:        var(--accent);
+  --iris-green:       var(--success);
+  --iris-border:      var(--border);
+  --iris-text:        var(--text-primary);
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-mono, .tabular, code, kbd {
+  font-family: 'JetBrains Mono', 'Fira Mono', monospace;
+}
+
+.num {
+  font-family: 'JetBrains Mono', 'Fira Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.message-in { animation: fadeIn 0.2s ease-out; }
+
+@keyframes bounce {
+  0%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-6px); }
+}
+.typing-dot { animation: bounce 1.2s infinite; }
+.typing-dot:nth-child(2) { animation-delay: 0.2s; }
+.typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.spin { animation: spin 1s linear infinite; }

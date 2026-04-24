@@ -1,13 +1,14 @@
 'use client'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
-import { MessageSquare, FileOutput, BookOpen, LogOut, Database, PenLine } from 'lucide-react'
+import { MessageSquare, FileOutput, BookOpen, LogOut, Database, PenLine, FileText } from 'lucide-react'
 import { createClient } from '@/lib/supabase/client'
 
 const navItems = [
   { href: '/chat',     icon: MessageSquare, label: 'Chat' },
   { href: '/generate', icon: FileOutput,    label: 'Generate' },
-  { href: '/proposal', icon: PenLine,       label: 'Proposals' },
+  { href: '/proposal',    icon: PenLine,    label: 'Proposals' },
+  { href: '/deliverable', icon: FileText,   label: 'Deliverables' },
   { href: '/library',  icon: BookOpen,      label: 'Library' },
 ]
 

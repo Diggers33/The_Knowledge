@@ -576,12 +576,45 @@ async function searchCORE(query: string, limit = 5): Promise<string> {
   }
 }
 
+async function searchOpenAlex(query: string, limit = 6): Promise<string> {
+  try {
+    const url = `https://api.openalex.org/works?search=${encodeURIComponent(query.trim())}&per-page=${limit}&filter=from_publication_date:2020-01-01,has_abstract:true&sort=cited_by_count:desc&mailto=info@iris-eng.com`
+    console.log(`[OpenAlex] query: "${query.trim()}"`)
+    const res = await fetch(url, { signal: AbortSignal.timeout(8000) })
+    if (!res.ok) { console.warn(`[OpenAlex] status ${res.status}`); return '' }
+    const data = await res.json()
+    if (!data.results?.length) return ''
+    return data.results
+      .filter((w: any) => w.abstract_inverted_index || w.abstract)
+      .slice(0, limit)
+      .map((w: any) => {
+        const authors = w.authorships?.slice(0, 3).map((a: any) => a.author?.display_name).filter(Boolean).join(', ') || ''
+        const year    = w.publication_year || ''
+        const doi     = w.doi ? `\nDOI: ${w.doi}` : ''
+        const cites   = w.cited_by_count ?? 0
+        // OpenAlex stores abstract as inverted index — reconstruct
+        let abstract = ''
+        if (w.abstract_inverted_index) {
+          const positions: [string, number][] = []
+          for (const [word, pos] of Object.entries(w.abstract_inverted_index as Record<string, number[]>)) {
+            for (const p of pos as number[]) positions.push([word, p])
+          }
+          abstract = positions.sort((a, b) => a[1] - b[1]).map(p => p[0]).join(' ').slice(0, 400)
+        }
+        return `Title: ${w.display_name} (${year})\nAuthors: ${authors}\nCitations: ${cites}${doi}\nAbstract: ${abstract}`
+      }).join('\n\n')
+  } catch (e) {
+    console.error('OpenAlex error:', e)
+    return ''
+  }
+}
+
 async function retrieveExternalContext(query: string, keywordSource: string): Promise<string> {
   const topicKeywords    = extractTopicKeywords(keywordSource)
   const academicKeywords = topicKeywords.split(' ').slice(0, 4).join(' ')
   const openAireQuery    = topicKeywords.split(' ').slice(0, 3).join(' ')
   console.log(`Topic keywords: ${topicKeywords}`)
-  console.log(`Academic keywords (SS/Crossref/CORE): ${academicKeywords}`)
+  console.log(`Academic keywords (SS/Crossref/CORE/OpenAlex): ${academicKeywords}`)
   console.log(`OpenAIRE query: ${openAireQuery}`)
 
   // Semantic Scholar with retry on 0 results
@@ -596,12 +629,14 @@ async function retrieveExternalContext(query: string, keywordSource: string): Pr
     arxivResults,
     crossrefResults,
     coreResults,
+    openAlexResults,
     euProjectResults,
     industryResults,
   ] = await Promise.all([
     searchArxiv(`${topicKeywords} artificial intelligence industrial`),
     searchCrossref(`${academicKeywords} machine learning process optimization`),
     searchCORE(`${academicKeywords} AI sustainability industry`),
+    searchOpenAlex(`${academicKeywords} sensor measurement spectroscopy`),
     searchOpenAIREProjects(openAireQuery),
     tavilySearch(`${topicKeywords} challenges limitations industrial deployment 2024 2025`, {
       search_depth: 'advanced',
@@ -609,7 +644,7 @@ async function retrieveExternalContext(query: string, keywordSource: string): Pr
     }),
   ])
 
-  console.log(`Research sources: SS=${ssResults.length} arXiv=${arxivResults.length} Crossref=${crossrefResults.length} CORE=${coreResults.length} OpenAIRE=${euProjectResults.length}`)
+  console.log(`Research sources: SS=${ssResults.length} arXiv=${arxivResults.length} Crossref=${crossrefResults.length} CORE=${coreResults.length} OpenAlex=${openAlexResults.length} OpenAIRE=${euProjectResults.length}`)
 
   // ─── Full-text layer: extract DOIs from SS + Crossref, resolve via Unpaywall ─
   const doiPattern = /(?:URL|DOI): https:\/\/doi\.org\/([^\s\n]+)/g
@@ -649,6 +684,7 @@ async function retrieveExternalContext(query: string, keywordSource: string): Pr
     arxivResults     ? `[ARXIV — Latest preprints]\n${arxivResults}`                          : '',
     crossrefResults  ? `[CROSSREF — Published research with DOIs]\n${crossrefResults}`        : '',
     coreResults      ? `[CORE — Open access full text]\n${coreResults}`                       : '',
+    openAlexResults  ? `[OPENALEX — Works with citations]\n${openAlexResults}`                : '',
     euProjectResults ? `[RELATED EU-FUNDED PROJECTS — OpenAIRE]\n${euProjectResults}`         : '',
     industryResults  ? `[INDUSTRY CHALLENGES & GAPS]\n${industryResults}`                     : '',
     fullTextBlock    ? `[FULL TEXT — Open-access PDFs via Unpaywall]\n${fullTextBlock}`        : '',

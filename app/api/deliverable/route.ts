@@ -126,7 +126,7 @@ async function getDeliverableContext(
   const embedding = await embed(queryText)
   const rawChunks = await searchChunks(embedding, queryText, 20, [projectCode])
   const reranked = rawChunks.length > 0
-    ? await rerankChunks(`${section} ${deliverableTitle}`, rawChunks, 8)
+    ? (await rerankChunks(`${section} ${deliverableTitle}`, rawChunks)).slice(0, 8)
     : rawChunks.slice(0, 8)
 
   const chunks = reranked.map((c, i) =>

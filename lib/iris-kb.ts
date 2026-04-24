@@ -6,10 +6,21 @@
 
 import { createClient } from '@supabase/supabase-js'
 
-export const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
+let _supabase: ReturnType<typeof createClient> | null = null
+function getClient() {
+  if (!_supabase) {
+    _supabase = createClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      process.env.SUPABASE_SERVICE_ROLE_KEY!
+    )
+  }
+  return _supabase
+}
+export const supabase = new Proxy({} as ReturnType<typeof createClient>, {
+  get(_t, prop, receiver) {
+    return Reflect.get(getClient(), prop, receiver)
+  },
+})
 
 // ─── FILTERED CHUNK SEARCH ───────────────────────────────────────────────────
 // Uses search_rag_filtered RPC — applies project_tag index in SQL.
@@ -150,71 +161,222 @@ export type GraphIntent =
   | { type: 'iris_technologies' }
   | { type: 'active_projects' }
   | { type: 'coordinator_projects' }
+  | { type: 'domain_list' }
+  | { type: 'role_list' }
+  | { type: 'project_list';      status?: string }
+  | { type: 'trl_breakdown' }
+  | { type: 'status_breakdown' }
+  | { type: 'budget_summary' }
+  | { type: 'sector_stats';      sector: string }
+  | { type: 'partners_by_country'; countryCode: string; countryName: string }
+  | { type: 'frequent_partners' }
   | { type: 'none' }
 
 export function detectGraphIntent(query: string): GraphIntent {
   const q = query.toLowerCase()
 
-  // "partners in/of PROJECT" — must come before broad patterns
-  const partnerIn = q.match(/\bpartners?\b.{0,20}\b([A-Z][A-Z0-9\-]{2,})\b/i)
-    || query.match(/\b([A-Z][A-Z0-9\-]{2,})\b.{0,20}\bpartners?\b/)
+  // ── Funding programme queries that mention country names — handle before country map ──
+  if (/\benterprise\s+ireland\b/i.test(q)
+      && /\b(how many|count|number|funded|projects?|breakdown)\b/i.test(q)) {
+    return { type: 'programme_breakdown' }
+  }
+
+  // ── Partners by country — FIRST to prevent project_partners firing on country adjectives ──
+  const COUNTRY_MAP: Record<string, string> = {
+    'italian': 'IT', 'italy': 'IT',
+    'german': 'DE', 'germany': 'DE',
+    'french': 'FR', 'france': 'FR',
+    'spanish': 'ES', 'spain': 'ES',
+    'dutch': 'NL', 'netherlands': 'NL', 'holland': 'NL',
+    'belgian': 'BE', 'belgium': 'BE',
+    'irish': 'IE', 'ireland': 'IE',
+    'greek': 'GR', 'greece': 'GR',
+    'portuguese': 'PT', 'portugal': 'PT',
+    'swedish': 'SE', 'sweden': 'SE',
+    'danish': 'DK', 'denmark': 'DK',
+    'finnish': 'FI', 'finland': 'FI',
+    'austrian': 'AT', 'austria': 'AT',
+    'polish': 'PL', 'poland': 'PL',
+    'czech': 'CZ', 'czechia': 'CZ',
+    'romanian': 'RO', 'romania': 'RO',
+    'hungarian': 'HU', 'hungary': 'HU',
+    'british': 'GB', 'uk': 'GB', 'united kingdom': 'GB',
+    'norwegian': 'NO', 'norway': 'NO',
+    'swiss': 'CH', 'switzerland': 'CH',
+    'turkish': 'TR', 'turkey': 'TR',
+    'israeli': 'IL', 'israel': 'IL',
+  }
+  for (const [name, code] of Object.entries(COUNTRY_MAP)) {
+    if (new RegExp(`\\b${name}\\b`, 'i').test(q)) {
+      if (/\b(partners?|consortium|organisations?|organizations?|universit\w*|institu\w*|compan\w*|projects?|members?|participants?)\b/i.test(q)
+       || /\b(from|based.{0,5}in|located.{0,5}in)\b/i.test(q)) {
+        return { type: 'partners_by_country', countryCode: code, countryName: name }
+      }
+    }
+  }
+
+  // ── Specific project lookup: "partners in PROJECT" / "organisations in PROPAT" ──
+  // Use query (original case) for both — no i flag so only uppercase codes match
+  const partnerIn = query.match(/\bpartners?\b.{0,20}\b([A-Z][A-Z0-9\-]{2,})\b/)
+    || query.match(/\b([A-Z][A-Z0-9\-]{2,})\b.{0,20}\b(partners?|participants?|organisations?|consortium)\b/)
+    || query.match(/\b(?:organisations?|consortium|participants?)\b.{0,35}\b([A-Z][A-Z0-9\-]{3,})\b/)
   if (partnerIn) {
-    const code = (partnerIn[1] || partnerIn[1]).toUpperCase()
-    const skip = new Set(['IRIS','NIR','HSI','PAT','TRL','EU','SME','API','ML','AI'])
-    if (!skip.has(code)) return { type: 'project_partners', projectCode: code }
+    const code = (partnerIn[1]).toUpperCase()
+    const skip = new Set(['IRIS','NIR','HSI','PAT','TRL','EU','SME','API','ML','AI',
+      'ITALIAN','GERMAN','FRENCH','SPANISH','DUTCH','IRISH','GREEK','PORTUGUESE','SWEDISH',
+      'DANISH','FINNISH','AUSTRIAN','POLISH','CZECH','BRITISH'])
+    if (!skip.has(code) && code.length >= 4) return { type: 'project_partners', projectCode: code }
   }
 
-  // "projects with/involving PARTNER NAME"
-  if (/\b(projects?.{0,10}(with|involv|includ|from|by|at)\b|worked.{0,10}with\b)/i.test(q)) {
-    const rest = q.replace(/.*?(projects?.{0,10}(with|involv|includ|from|by|at)|worked.{0,10}with)\s*/i, '').trim()
-    if (rest.length > 3) return { type: 'partner_projects', partnerName: rest }
+  // ── TRL breakdown (before project_list to avoid "how many" collision) ────────
+  if (/\b(trl|technology.?readiness).{0,25}(breakdown|distribution|level|range|journey|profile)\b/i.test(q)
+      || /\b(breakdown|distribution|range|profile).{0,25}(trl|technology.?readiness)\b/i.test(q)
+      || /\bwhat.{0,15}trl\b/i.test(q)
+      || /\btrl.{0,10}(start|end|from|to)\b/i.test(q)) {
+    return { type: 'trl_breakdown' }
   }
 
-  // "which projects use NIR/spectroscopy/hyperspectral"
-  if (/\b(use|using|utilis|employ|appl).{0,20}(nir|spectroscop|hyperspectral|raman|ftir|chemometrics|machine learning|deep learning|imaging)\b/i.test(q)
-      || /\b(nir|spectroscop|hyperspectral|raman|chemometrics).{0,15}projects?\b/i.test(q)) {
+  // ── "Budget breakdown by funding programme" — specific pattern before programme_breakdown ──
+  if (/\bbudget.{0,20}breakdown\b/i.test(q)) {
+    return { type: 'budget_summary' }
+  }
+
+  // ── Sector-scoped stats (before budget_summary to win on "food funding" queries) ──
+  {
+    const sectorMatch = q.match(/\b(agri[-\s]?food|agro[-\s]?food|food|pharma(?:ceutical)?|agricultur\w*|recycl\w*|automotive|aerospace|plastics?|textile|wood|steel|water|energy|construction|packaging)\b/i)
+    if (sectorMatch && (
+      /\b(how many|number of|count)\b.{0,60}\b(projects?\w*|participat\w*)\b/i.test(q)
+      || /\b(total|overall|eu).{0,20}(fund\w*|budget|grant).{0,60}(sector|industry|area|field|projects?\w*)\b/i.test(q)
+      || /\b(fund\w*|budget|grant).{0,30}(sector|industry|area|field)\b/i.test(q)
+      || /\b(sector|industry|domain|area).{0,30}(fund\w*|budget|projects?\w*|count|number|how many)\b/i.test(q)
+      || /\btotal.{0,20}(fund\w*|budget).{0,30}(agri[-\s]?food|agro[-\s]?food|food|pharma\w*|agricultur\w*)\b/i.test(q)
+    )) {
+      return { type: 'sector_stats', sector: sectorMatch[1].toLowerCase() }
+    }
+  }
+
+  // ── Programme breakdown (before budget_summary) ───────────────────────────────
+  if (/\b(how many|breakdown|count|number of).{0,20}(horizon|h2020|enterprise ireland|funded|programme)\b/i.test(q)
+      || /\b(horizon|h2020|interreg|enterprise ireland).{0,20}(how many|count|list|breakdown)\b/i.test(q)
+      || /\bfunding.{0,15}programme.{0,15}(breakdown|distribution|split)\b/i.test(q)
+      || /\bbreakdown.{0,20}(by|of).{0,10}(fund\w*|programme|program)\b/i.test(q)
+      || /\bprojects?.{0,20}by.{0,10}(fund\w*|programme|program)\b/i.test(q)) {
+    return { type: 'programme_breakdown' }
+  }
+
+  // ── Budget / funding summary ──────────────────────────────────────────────────
+  if (/\b(total.{0,10}(budget|funding|grant)|budget.{0,20}(total|summary|portfolio))\b/i.test(q)
+      || /\b(how much|overall).{0,15}(fund\w*|budget|grant|money)\b/i.test(q)
+      || /\b(budget|grant|funding).{0,20}(iris|projects?|portfolio|programme)\b/i.test(q)
+      || /\b(iris|project).{0,15}(budget|fund\w*).{0,15}(total|all|overall|breakdown)\b/i.test(q)) {
+    return { type: 'budget_summary' }
+  }
+
+  // ── Status breakdown (before active_projects) ────────────────────────────────
+  if (/\b(active.{0,10}(vs|and|versus|or).{0,10}terminat\w*|terminat\w*.{0,10}(vs|and|versus|or).{0,10}active)\b/i.test(q)
+      || /\bproject.{0,10}status.{0,10}(breakdown|distribution|split|overview)\b/i.test(q)
+      || /\bhow many.{0,20}(active|terminat\w*|complet\w*|ongoing|finish\w*).{0,20}projects?\b/i.test(q)
+      || /\bprojects?.{0,20}(been complet\w*|been terminat\w*|been finish\w*|have complet\w*|have terminat\w*)\b/i.test(q)) {
+    return { type: 'status_breakdown' }
+  }
+
+  // ── IRIS role list: non-technical, management, coordination roles ─────────────
+  if (/\b(non.?technical|management|managerial|coordination|dissemination|exploitation|communication).{0,20}roles?\b/i.test(q)
+      || /\b(what|which|list|show|describe).{0,30}roles?.{0,20}(iris|played|had|taken|held)\b/i.test(q)
+      || /\biris.{0,25}(roles?|responsibilit\w*|function|position|involvement)\b/i.test(q)
+      || /\b(roles?|responsibilit\w*|function).{0,20}(iris|played|undertaken|carried)\b/i.test(q)
+      || /\bhow (has|have|did).{0,15}iris.{0,20}(contribut\w*|involv\w*|participat\w*|been involved)\b/i.test(q)
+      || /\bwhat.{0,20}(role|position|responsib\w*).{0,20}iris.{0,20}(in|across|within)\b/i.test(q)
+      || /\biris.{0,15}(led|lead|leading).{0,20}(work.?package|wp|task)\b/i.test(q)
+      || /\b(has iris|did iris).{0,15}led?\b/i.test(q)
+      || /\bin which projects.{0,20}iris.{0,20}(the |is )coordinat\w*/i.test(q)) {
+    return { type: 'role_list' }
+  }
+
+  // ── Domain/sector list: all sectors IRIS has worked in ───────────────────────
+  // Must come BEFORE domain_projects (which needs a specific domain name)
+  if (/\b(what|which|list|show|tell|describe).{0,40}(sector|application|industr\w*|domain|field|market|area|use.?case).{0,30}(iris|worked|applied|covered|addressed|active)\b/i.test(q)
+      || /\biris.{0,35}(sector|application|industr\w*|domain|field|market|area).{0,25}(worked|active|cover\w*|address\w*|involv\w*)\b/i.test(q)
+      || /\b(sector|application|industr\w*|domain|field|area).{0,20}(iris.{0,10})?(has|have|had).{0,20}worked\b/i.test(q)
+      || /\b(all|full|complete|comprehensive).{0,15}(sector|application|domain|industr\w*|field)\b/i.test(q)
+      || /\bwhat.{0,20}(sector|application|industr\w*|domain|field|market|area).{0,20}(iris|these projects?)\b/i.test(q)) {
+    return { type: 'domain_list' }
+  }
+
+  // ── Country / geography queries ───────────────────────────────────────────────
+  if ((/\b(countr\w*|geograph\w*|locat\w*|nation\w*|european)\b/i.test(q)
+      && /\b(partners?|consortium|network|organisations?|distribution)\b/i.test(q))
+      || /\b(which|what|list).{0,20}countr\w*.{0,20}(partners?|consortium|organisations?|represented)\b/i.test(q)
+      || /\b(partners?|organisations?).{0,20}(each|per|by|from.{0,5}each).{0,10}countr\w*\b/i.test(q)
+      || /\b(geographic\w*|geograph\w*).{0,20}(distribution|spread|breakdown|network)\b/i.test(q)) {
+    return { type: 'country_network' }
+  }
+
+  // ── IRIS technology portfolio (broad, no specific tech named) ────────────────
+  if (/\b(what|which|list|show|table|create.{0,10}table).{0,40}(technolog\w*|instruments?|tools?|platforms?|software|capabilit\w*).{0,40}(iris|develop\w*|use|built|offer\w*|created)\b/i.test(q)
+      || /\b(technolog\w*|instruments?|capabilit\w*|portfolio).{0,30}(iris|develop\w*|built|created|offer\w*)\b/i.test(q)
+      || /\biris.{0,25}(technolog\w*|capabilit\w*|portfolio|develops?|offer\w*|instruments?)\b/i.test(q)
+      || /\bcanonical.{0,20}technolog\w*\b/i.test(q)
+      || /\btechnolog\w*.{0,20}(develop\w*|creat\w*|built).{0,20}by.{0,10}iris\b/i.test(q)
+      || /\biris.{0,10}(technolog\w*|capabilit\w*|instruments?).{0,10}(list|portfolio|overview)\b/i.test(q)) {
+    return { type: 'iris_technologies' }
+  }
+
+  // ── Specific technology usage: "which projects use NIR" ──────────────────────
+  if (/\b(use|using|utilis\w*|employ\w*|appl\w*|involv\w*).{0,20}(nir|spectroscop\w*|hyperspectral|raman|ftir|chemometrics|machine learning|deep learning|imaging)\b/i.test(q)
+      || /\b(nir|spectroscop\w*|hyperspectral|raman|chemometrics).{0,15}projects?\b/i.test(q)
+      || /\bprojects?.{0,20}(nir|raman|ftir|hyperspectral|chemometrics)\b/i.test(q)) {
     const tech = (q.match(/\b(nir|near.infrared|raman|ftir|hyperspectral|chemometrics|machine learning|deep learning|pls|plsr|ann|cnn|process control|inline monitoring)\b/i) || [])[0] || ''
     if (tech) return { type: 'technology_projects', techName: tech }
   }
 
-  // application domain queries
-  if (/\b(food|pharma|agricultur|recycl|wast|environmental|industrial|dairy|meat|grain|beverage|medic|diagnos)\b/i.test(q)
-      && /\bprojects?\b/i.test(q)) {
-    const domain = (q.match(/\b(food quality|food safety|pharmaceutical|pharma|agriculture|recycling|waste sorting|environmental monitoring|dairy|meat|grain|beverage)\b/i) || [])[0] || ''
+  // ── Specific domain: "projects in food/pharma/agriculture" ───────────────────
+  if (/\b(food|pharma\w*|agricultur\w*|recycl\w*|wast\w*|environmental|industrial|dairy|meat|grain|beverage|medic\w*|diagnos\w*|aviation|textile|plastic\w*|wood|steel|water|packaging)\b/i.test(q)
+      && /\b(projects?|work|sector|industry|area|field)\b/i.test(q)) {
+    const domain = (q.match(/\b(food quality|food safety|food\b|pharmaceutical|pharma\b|agriculture|agricultur\w*|recycling|waste sorting|environmental monitoring|dairy|meat|grain|beverage|aviation|textile|plastics?|wood|steel|water treatment|packaging)\b/i) || [])[0] || ''
     if (domain) return { type: 'domain_projects', domain }
   }
 
-  // programme breakdown
-  if (/\b(how many|breakdown|count|number of).{0,20}(horizon|h2020|enterprise ireland|funded|programme)\b/i.test(q)
-      || /\b(horizon|h2020|interreg|enterprise ireland).{0,20}(how many|count|list|breakdown)\b/i.test(q)) {
-    return { type: 'programme_breakdown' }
+  // ── Most frequent / recurring consortium partners ─────────────────────────────
+  if (/\b(most.{0,10}(frequent|common|recurring|regular).{0,20}(partner|consortium|collaborat|organisation)\b)/i.test(q)
+      || /\b(partner|consortium|collaborat|organisation).{0,20}(most.{0,10}(frequent|common|recurring)|how.{0,5}many.{0,5}time|repeat|across.{0,10}project)\b/i.test(q)
+      || /\b(which|what|list|show).{0,20}(partner|consortium|collaborat|organisation).{0,30}(iris.{0,20})?(most|frequent|common|recurring|often|regular|across|repeat)\b/i.test(q)
+      || /\bcollaborated.{0,20}most.{0,10}(frequent|often)\b/i.test(q)
+      || /\bmost.{0,10}(partner|collaborat).{0,20}iris\b/i.test(q)) {
+    return { type: 'frequent_partners' }
   }
 
-  // country / geography queries
-  if (/\b(countr|geograph|locat|where|nation|european)\b/i.test(q)
-      && /\b(partner|consortium|network|organisation)\b/i.test(q)) {
-    return { type: 'country_network' }
+  // ── Projects with a specific partner ─────────────────────────────────────────
+  if (/\b(projects?.{0,10}(with|involv\w*|includ\w*|from|by|at)\b|worked.{0,10}with\b|has iris.{0,10}worked.{0,5}with\b)/i.test(q)) {
+    const rest = q.replace(/.*?(projects?.{0,10}(with|involv\w*|includ\w*|from|by|at)|worked.{0,10}with|has iris.{0,10}worked.{0,5}with)\s*/i, '').trim()
+    if (rest.length > 3) return { type: 'partner_projects', partnerName: rest }
   }
 
-  // IRIS technology portfolio
-  if (/\b(what|which|list|show).{0,20}(technolog|instruments?|tools?|platforms?|software).{0,20}(iris|develop|use|built|offer)\b/i.test(q)
-      || /\biris.{0,20}(technolog|capabilit|portfolio|develops?|offer)\b/i.test(q)
-      || /\bcanonical.{0,20}technolog\b/i.test(q)) {
-    return { type: 'iris_technologies' }
-  }
-
-  // Active / current projects
+  // ── Active / current projects (before project_list to avoid "list all ongoing" misroute) ──
   if (/\b(current|active|ongoing|running|live).{0,20}projects?\b/i.test(q)
-      || /\bprojects?.{0,20}(current|active|ongoing|running|now)\b/i.test(q)) {
+      || /\bprojects?.{0,20}(current|active|ongoing|running|now|currently)\b/i.test(q)
+      || /\blist.{0,10}(all.{0,5})?ongoing\b/i.test(q)) {
     return { type: 'active_projects' }
   }
 
-  // Projects IRIS coordinates
-  if (/\b(coordinat|lead|leads|leading|led).{0,20}projects?\b/i.test(q)
-      || /\bprojects?.{0,20}(coordinat|iris.{0,10}lead|iris.{0,10}coord)\b/i.test(q)
-      || /\biris.{0,20}(coordinat|project.{0,5}lead)\b/i.test(q)) {
+  // ── Project list (general enumeration) ───────────────────────────────────────
+  if (/\b(list|show|give me|what are).{0,15}all.{0,15}(iris.{0,10})?projects?\b/i.test(q)
+      || /\ball.{0,10}(iris.{0,10})?projects?\b/i.test(q)
+      || /\b(full|complete|comprehensive).{0,15}(list|set).{0,10}(of.{0,10})?projects?\b/i.test(q)
+      || /\bhow many projects.{0,20}(total|overall|altogether|in total|has iris|does iris)\b/i.test(q)) {
+    return { type: 'project_list' }
+  }
+
+  // ── Projects IRIS coordinates ─────────────────────────────────────────────────
+  if (/\b(coordinat\w*|leads?|leading|led).{0,20}projects?\b/i.test(q)
+      || /\bprojects?.{0,20}(coordinat\w*|iris.{0,10}lead|iris.{0,10}coord|project.coordinator)\b/i.test(q)
+      || /\biris.{0,20}(coordinat\w*|project.{0,5}lead)\b/i.test(q)
+      || /\bwhich projects.{0,20}(does iris|iris.{0,5}is).{0,20}coordinat\w*/i.test(q)
+      || /\bprojects.{0,15}where.{0,15}iris.{0,15}(is|as).{0,15}coordinat\w*/i.test(q)
+      || /\biris.{0,20}(the |is ).{0,5}coordinat\w*/i.test(q)) {
     return { type: 'coordinator_projects' }
   }
+
 
   return { type: 'none' }
 }
@@ -243,7 +405,12 @@ export async function queryGraph(intent: GraphIntent): Promise<string> {
 
   try {
     if (intent.type === 'project_partners') {
-      const { data, error } = await supabase.rpc('get_project_partners', { p_code: intent.projectCode })
+      let { data, error } = await supabase.rpc('get_project_partners', { p_code: intent.projectCode })
+      // Fallback: project may be stored under TERM- prefix in kg_projects
+      if (!error && (!data?.length)) {
+        const fallback = await supabase.rpc('get_project_partners', { p_code: `TERM-${intent.projectCode}` })
+        if (!fallback.error && fallback.data?.length) { data = fallback.data }
+      }
       if (error || !data?.length) return ''
       const rows = (data as any[]).map(r =>
         `- ${r.partner_name} (${r.partner_type || 'partner'}, ${r.country_code || '?'}) — ${r.role || 'partner'}`
@@ -347,10 +514,153 @@ export async function queryGraph(intent: GraphIntent): Promise<string> {
       return `## Graph: Projects IRIS Coordinates\n${rows}`
     }
 
+    if (intent.type === 'domain_list') {
+      const { data, error } = await supabase.rpc('get_domain_list')
+      if (error || !data?.length) return ''
+      const rows = (data as any[]).map(r =>
+        `- ${r.domain}: ${r.project_count} project(s) — ${r.project_codes}`
+      ).join('\n')
+      return `## Graph: Sectors & Application Domains\n${rows}`
+    }
+
+    if (intent.type === 'role_list') {
+      const { data, error } = await supabase.rpc('get_iris_role_list')
+      if (error || !data?.length) return ''
+      // Group by primary iris_role
+      const grouped: Record<string, string[]> = {}
+      for (const r of data as any[]) {
+        const label = formatProjectRef(r.project_code, r.full_name)
+        if (!label) continue
+        const roles = [r.iris_role, ...(r.iris_functional_roles || [])].filter(Boolean)
+        const roleKey = r.iris_role || 'other'
+        if (!grouped[roleKey]) grouped[roleKey] = []
+        const extra = roles.length > 1 ? ` [${roles.slice(1).join(', ')}]` : ''
+        grouped[roleKey].push(`  - ${label} (${r.funding_programme || '?'})${extra}`)
+      }
+      const sections = Object.entries(grouped).map(([role, lines]) =>
+        `**${role}** (${lines.length} projects)\n${lines.join('\n')}`
+      ).join('\n\n')
+      return `## Graph: IRIS Roles Across Projects\n${sections}`
+    }
+
+    if (intent.type === 'project_list') {
+      const { data, error } = await supabase.rpc('get_project_list', { p_status: intent.status ?? null })
+      if (error || !data?.length) return ''
+      // Group by status
+      const grouped: Record<string, string[]> = {}
+      for (const r of data as any[]) {
+        const label = formatProjectRef(r.project_code, r.full_name)
+        if (!label) continue
+        const trl = r.trl_start && r.trl_end ? ` TRL ${r.trl_start}→${r.trl_end}` : ''
+        const s = r.status || 'unknown'
+        if (!grouped[s]) grouped[s] = []
+        grouped[s].push(`- ${label} — ${r.funding_programme || '?'}${trl} — ${r.iris_role || 'partner'}`)
+      }
+      const total = (data as any[]).length
+      const sections = Object.entries(grouped).map(([status, lines]) =>
+        `**${status}** (${lines.length})\n${lines.join('\n')}`
+      ).join('\n\n')
+      return `## Graph: All IRIS Projects (${total} total)\n${sections}`
+    }
+
+    if (intent.type === 'trl_breakdown') {
+      const { data, error } = await supabase.rpc('get_trl_breakdown')
+      if (error || !data?.length) return ''
+      const rows = (data as any[]).map(r =>
+        `- TRL ${r.trl_start}→${r.trl_end}: ${r.project_count} project(s) — ${r.projects}`
+      ).join('\n')
+      return `## Graph: TRL Distribution Across Projects\n${rows}`
+    }
+
+    if (intent.type === 'status_breakdown') {
+      const { data, error } = await supabase.rpc('get_status_breakdown')
+      if (error || !data?.length) return ''
+      const rows = (data as any[]).map(r =>
+        `- ${r.status}: ${r.project_count} project(s) — ${r.projects}`
+      ).join('\n')
+      return `## Graph: Project Status Breakdown\n${rows}`
+    }
+
+    if (intent.type === 'sector_stats') {
+      const { data, error } = await supabase.rpc('get_sector_stats', { p_sector: intent.sector })
+      if (error || !data?.length) return ''
+      const r = (data as any[])[0]
+      if (!r.project_count) return ''
+      const budget = r.total_budget_eur
+        ? `Total budget: €${(r.total_budget_eur / 1e6).toFixed(1)}M across ${r.projects_with_budget} projects with budget data.`
+        : 'Budget data not fully available for all projects.'
+      return `## Graph: Sector Stats — "${intent.sector}"\n` +
+        `- Projects: ${r.project_count}\n` +
+        `- ${budget}\n` +
+        `- Matched domains: ${r.matched_domains}\n` +
+        `- Projects: ${r.project_codes}`
+    }
+
+    if (intent.type === 'partners_by_country') {
+      const { data, error } = await supabase.rpc('get_projects_by_country', { p_country_code: intent.countryCode })
+      if (error || !data?.length) return ''
+      // Group by project
+      const byProject: Record<string, { name: string; programme: string; partners: string[] }> = {}
+      for (const r of data as any[]) {
+        const label = formatProjectRef(r.project_code, r.full_name)
+        if (!label) continue
+        if (!byProject[r.project_code]) byProject[r.project_code] = { name: label, programme: r.funding_programme || '?', partners: [] }
+        const role = r.role ? ` (${r.role})` : ''
+        const type = r.partner_type ? ` [${r.partner_type}]` : ''
+        byProject[r.project_code].partners.push(`${r.partner_name}${type}${role}`)
+      }
+      const totalProjects = Object.keys(byProject).length
+      const totalPartners = (data as any[]).length
+      const rows = Object.values(byProject).map(p =>
+        `**${p.name}** (${p.programme})\n${p.partners.map(pt => `  - ${pt}`).join('\n')}`
+      ).join('\n\n')
+      const countryLabel = intent.countryName.charAt(0).toUpperCase() + intent.countryName.slice(1)
+      return `## Graph: ${countryLabel} Partners — ${totalPartners} partners across ${totalProjects} projects\n\n${rows}`
+    }
+
+    if (intent.type === 'frequent_partners') {
+      const { data, error } = await supabase.rpc('get_frequent_partners', { p_limit: 30 })
+      if (error || !data?.length) return ''
+      const rows = (data as any[]).map(r =>
+        `- ${r.partner_name} (${r.partner_type || 'partner'}, ${r.country_code || '?'}) — ${r.project_count} projects: ${r.project_codes}`
+      ).join('\n')
+      return `## Graph: Most Frequent IRIS Consortium Partners (top 30)\n${rows}`
+    }
+
+    if (intent.type === 'budget_summary') {
+      const { data, error } = await supabase.rpc('get_budget_summary')
+      if (error || !data?.length) return ''
+      const rows = (data as any[]).map(r => {
+        const total = r.total_budget_eur ? `€${(r.total_budget_eur/1e6).toFixed(1)}M total` : ''
+        const avg = r.avg_budget_eur ? `, avg €${(r.avg_budget_eur/1e6).toFixed(1)}M` : ''
+        return `- ${r.funding_programme || 'Unknown'}: ${r.project_count} projects${total ? ' — ' + total : ''}${avg}`
+      }).join('\n')
+      return `## Graph: Budget Summary by Programme\n${rows}`
+    }
+
   } catch (e: any) {
     console.error('Graph query error:', e.message)
   }
   return ''
+}
+
+// ─── TECHNOLOGY TABLE DATA ────────────────────────────────────────────────────
+// Returns one row per project with all IRIS-developed tech names + summaries.
+// Used by the chat table-generation pipeline.
+
+export interface ProjectTechRow {
+  project_code:    string
+  full_name:       string
+  technologies:    string   // semicolon-separated
+  tech_categories: string
+  tech_summary:    string | null
+  results_summary: string | null
+}
+
+export async function buildTechTableData(): Promise<ProjectTechRow[]> {
+  const { data, error } = await supabase.rpc('get_project_technology_summary')
+  if (error) { console.error('get_project_technology_summary error:', error.message); return [] }
+  return (data || []) as ProjectTechRow[]
 }
 
 // ─── PROPOSAL CONTEXT QUERY ──────────────────────────────────────────────────

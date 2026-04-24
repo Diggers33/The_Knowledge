@@ -200,6 +200,7 @@ const ROUTE_LABELS: Record<string, { label: string; color: string }> = {
   synthesis:  { label: 'Synthesis',  color: '#34D399' },
   broad:      { label: 'Broad',      color: ACCENT },
   specific:   { label: 'Specific',   color: '#60A5FA' },
+  table:      { label: 'Table',      color: '#F97316' },
 }
 
 const CONFIDENCE_COLORS: Record<string, string> = {
@@ -401,7 +402,9 @@ export default function ChatPage() {
                     </div>
                   )}
 
-                  {msg.role === 'assistant' && msg.sources && msg.sources.length === 0 && !msg.routedVia?.includes('synthesis') && !msg.graphUsed && (
+                  {msg.role === 'assistant' && msg.sources && msg.sources.length === 0
+                   && !msg.confidence?.hasGraphFacts
+                   && msg.routedVia !== 'synthesis' && msg.routedVia !== 'table' && (
                     <div style={{ fontSize: '11px', color: AMBER, display: 'flex', alignItems: 'center', gap: '4px' }}>
                       ⚠ No relevant documents found above threshold
                     </div>

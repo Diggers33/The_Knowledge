@@ -5,7 +5,7 @@
 
 import { NextRequest, NextResponse } from 'next/server'
 import Groq from 'groq-sdk'
-import { embed, rerankChunks, querySummaries, fetchSummariesByDimension, searchChunks, detectProjectTags, detectGraphIntent, queryGraph, queryStructuredFacts, fetchSynthesisContext } from '@/lib/iris-kb'
+import { embed, rerankChunks, querySummaries, fetchSummariesByDimension, searchChunks, detectProjectTags, detectGraphIntent, queryGraph, queryStructuredFacts, fetchSynthesisContext, buildTechTableData } from '@/lib/iris-kb'
 
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY! })
 
@@ -105,6 +105,79 @@ async function fetchProjectSummaries(query: string): Promise<string> {
     console.error('Project summary fetch error:', e.message)
     return ''
   }
+}
+
+// ─── TABLE GENERATION PIPELINE ───────────────────────────────────────────────
+// Handles queries asking for a cross-project table (technologies × parameters × results).
+// Uses the KG + project_summaries via get_project_technology_summary() RPC,
+// covering all 127 projects rather than the ~6 RAG can surface.
+
+function detectTableGenerationIntent(query: string): boolean {
+  const q = query.toLowerCase()
+  const hasTable  = /\b(table|spreadsheet|list.{0,10}(of|with)|create.{0,10}(a\s+)?table|show.{0,10}table|generate.{0,10}table)\b/i.test(q)
+  const hasTech   = /\b(technolog|instrument|sensor|platform|software|spectroscop|imaging|nir|hsi)\b/i.test(q)
+  const hasMulti  = /\b(project|parameter|result|obtain|monitor|develop|applied|across)\b/i.test(q)
+  // Standalone "table of technologies" patterns even without explicit "table" keyword
+  const tableOf   = /\b(technolog.{0,20}(develop|creat|built|applied).{0,30}(project|parameter|result|iris))/i.test(q)
+                 || /\b(project.{0,20}technolog.{0,20}(parameter|result|applied|used|monitor))/i.test(q)
+  return (hasTable && hasTech) || (hasTable && hasTech && hasMulti) || tableOf
+}
+
+async function tableGenerationPipeline(query: string, history: any[]): Promise<string | null> {
+  const rows = await buildTechTableData()
+  if (!rows.length) return null
+  console.log(`Table pipeline: ${rows.length} projects loaded`)
+
+  // Strip TERM- prefix and skip DOMAIN_* pseudo-entries before sending to LLM
+  const filteredRows = rows.filter(r => !/^DOMAIN_/i.test(r.project_code))
+  const projectCount = filteredRows.length
+
+  // 220-char summaries — enough context for extraction, ~16K tokens total
+  const projectLines = filteredRows.map(r => {
+    const cleanCode = r.project_code.replace(/^TERM-/i, '')
+    const tech    = r.tech_summary    ? r.tech_summary.slice(0, 220)    : ''
+    const results = r.results_summary ? r.results_summary.slice(0, 220) : ''
+    return `${cleanCode}|${r.tech_categories}|${r.technologies}|${tech}|${results}`
+  }).join('\n')
+
+  const { default: OpenAI } = await import('openai')
+  const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY! })
+
+  const completion = await openai.chat.completions.create({
+    model: 'gpt-4o-mini',
+    temperature: 0,
+    max_tokens: 8000,
+    messages: [
+      {
+        role: 'system',
+        content: `You are a technical analyst for IRIS Technology Solutions. Create a comprehensive markdown table from the project data below.
+
+**Table columns:** Technology Developed | Project | Parameter Monitored | Results Obtained
+
+**Input format per line:** PROJECT_CODE | TECH_CATEGORIES | TECHNOLOGIES | TECH_CONTEXT | RESULTS_CONTEXT
+
+**Rules — read carefully:**
+1. EXACTLY ONE ROW PER PROJECT. Never create multiple rows for the same project code.
+2. Technology Developed: list the 2–3 most important specific technology names from the TECHNOLOGIES field, comma-separated (title case). Use specific names like "NIR Spectroscopy", "Hyperspectral Imaging (HSI)", "VISUM Palm Analyser" — NOT broad category words like "Spectroscopy", "Sensor", "AI". If TECHNOLOGIES is empty, derive from TECH_CATEGORIES.
+3. Parameter Monitored: extract from TECH_CONTEXT what is physically/chemically measured (e.g. "moisture content, protein level", "foreign body presence", "VOC concentration"). If TECH_CONTEXT is empty, infer from TECH_CATEGORIES:
+   - spectroscopy → "Chemical composition, moisture, concentration"
+   - hyperspectral_imaging → "Visual defects, chemical composition, contamination"
+   - chemometrics → "Multivariate chemical/physical calibration"
+   - ml_ai → "Process quality indicators, predictive variables"
+   - sensor → "Physical/chemical process variables"
+   - process_control → "Process efficiency, yield, quality KPIs"
+4. Results Obtained: extract the single most important quantitative or qualitative outcome from RESULTS_CONTEXT (max 15 words). If empty, write one specific sentence based on the technology type and project domain — never use a generic fallback phrase.
+5. Only use project codes that appear in the input — do NOT invent codes.
+6. Cover ALL ${projectCount} projects — output exactly ${projectCount} rows.
+7. Sort alphabetically by Project column.`
+      },
+      {
+        role: 'user',
+        content: `Generate exactly ${projectCount} rows, one per project.\n\nData (CODE|CATEGORIES|TECHNOLOGIES|TECH_CONTEXT|RESULTS_CONTEXT):\n\n${projectLines}`
+      }
+    ]
+  })
+  return completion.choices[0].message.content || null
 }
 
 // ─── INTENT CLASSIFICATION ───────────────────────────────────────────────────
@@ -236,9 +309,29 @@ export async function POST(req: NextRequest) {
     // If a specific project is named, always treat as specific — even if broad keywords present
     const projectTags = detectProjectTags(searchQuery)
     const broad = isBroadQuery(searchQuery) && projectTags.length === 0
+
+    // Capability queries like "Does IRIS have experience with X?" need summaries even on specific path
+    // because project tags (e.g. "CAR-T") can suppress the broad flag despite no real project being named.
+    const isCapabilityQuery = projectTags.length > 0 && projectTags.every(t => t.length <= 5)
+      && /\b(experience|expertise|capabilities?|background|has iris (worked|used|applied|developed)|does iris (have|use|work)|iris.{0,15}(experience|expertise|background|track.?record))\b/i.test(searchQuery)
     const isNumerical = detectNumericalIntent(searchQuery) || detectNumericalIntent(query)
     const isSynthesis = detectSynthesisIntent(searchQuery) || detectSynthesisIntent(query)
     console.log(`Query type: ${broad ? 'BROAD' : 'SPECIFIC'}${projectTags.length ? ' [project: ' + projectTags.join(',') + ']' : ''}${isNumerical ? ' [numerical]' : ''}${isSynthesis ? ' [synthesis]' : ''}`)
+
+    // TABLE GENERATION PATH: comprehensive cross-project table from KG + summaries
+    if (detectTableGenerationIntent(query) || detectTableGenerationIntent(searchQuery)) {
+      console.log('Routing to table generation pipeline')
+      const tableAnswer = await tableGenerationPipeline(searchQuery, history)
+      if (tableAnswer) {
+        return NextResponse.json({
+          answer: tableAnswer,
+          sources: [],
+          searchQuery: searchQuery !== query ? searchQuery : null,
+          routedVia: 'table',
+          confidence: computeConfidence({ chunks: [], structuredFacts: '', graphFacts: 'table', summaries: 'table', routedVia: 'table' })
+        })
+      }
+    }
 
     // SYNTHESIS PATH: cross-project map-reduce (skips vector retrieval for speed)
     if (isSynthesis && broad && !isNumerical) {
@@ -268,7 +361,7 @@ export async function POST(req: NextRequest) {
 
     const [embedding, summaryContext, projectSummaryContext, graphContext, structuredFactsContext] = await Promise.all([
       embed(embedText),
-      broad ? querySummaries(searchQuery) : Promise.resolve(''),
+      (broad || isCapabilityQuery) ? querySummaries(searchQuery) : Promise.resolve(''),
       !broad ? fetchProjectSummaries(searchQuery) : Promise.resolve(''),
       graphIntent.type !== 'none' ? queryGraph(graphIntent) : Promise.resolve(''),
       isNumerical ? queryStructuredFacts(searchQuery, projectTags.length > 0 ? projectTags : undefined) : Promise.resolve('')

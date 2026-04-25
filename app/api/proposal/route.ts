@@ -295,8 +295,27 @@ Output only the passage, no preamble.`
 // ─── INTERNAL RETRIEVAL ───────────────────────────────────────────────────────
 
 async function retrieveInternalContext(section: string, query: string, tagsQuery?: string): Promise<[string, string]> {
-  const tags = detectProjectTags(tagsQuery ?? query)
-  console.log(`Proposal internal [${section}]: tags =`, tags)
+  // Step 1: try explicit project tags from the query text
+  let tags = detectProjectTags(tagsQuery ?? query)
+
+  // Step 2: if no explicit tags, use semantic project matching to find which
+  // KB projects are most relevant to the call topic. This prevents unrelated
+  // projects (e.g. CIRCULAR FoodPack when the call is about footwear) from
+  // dominating unfiltered searches.
+  if (tags.length === 0) {
+    try {
+      const matched = await searchSummariesByTopic(query, ['applications', 'iris_technology', 'iris_results'], 6)
+      const semanticTags = matched.slice(0, 4).map((p: any) => p.project_code.toUpperCase()).filter(Boolean)
+      if (semanticTags.length > 0) {
+        tags = semanticTags
+        console.log(`Proposal internal [${section}]: semantic project match → ${tags.join(', ')}`)
+      }
+    } catch (e) {
+      console.warn('Semantic project matching failed (non-fatal):', e)
+    }
+  } else {
+    console.log(`Proposal internal [${section}]: explicit tags =`, tags)
+  }
 
   const hydePassages = await generateHyDE(section, query)
   const allTexts = [query.slice(0, 500), ...hydePassages]

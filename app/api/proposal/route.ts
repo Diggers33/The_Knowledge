@@ -10,7 +10,11 @@
 
 import { NextRequest, NextResponse } from 'next/server'
 import OpenAI from 'openai'
-import { Document, Packer, Paragraph, TextRun, HeadingLevel } from 'docx'
+import {
+  Document, Packer, Paragraph, TextRun, HeadingLevel,
+  Table, TableRow, TableCell, WidthType, BorderStyle,
+  AlignmentType, convertInchesToTwip,
+} from 'docx'
 import {
   embed, embedBatch, rerankChunks, searchChunks,
   detectProjectTags, fetchSummariesByDimension,
@@ -720,50 +724,193 @@ async function retrieveStyleExamples(query: string): Promise<string> {
 
 // ─── DOCX BUILDER ─────────────────────────────────────────────────────────────
 
+// ─── INLINE MARKDOWN PARSER ───────────────────────────────────────────────────
+
+function parseInlineRuns(text: string): TextRun[] {
+  // Split on **bold** and [N] citation patterns
+  const segments = text.split(/(\*\*(?:.+?)\*\*|\[\d+(?:[,\-]\d+)*\])/g)
+  const runs: TextRun[] = []
+  for (const seg of segments) {
+    if (!seg) continue
+    const boldMatch = seg.match(/^\*\*(.+)\*\*$/)
+    if (boldMatch) {
+      runs.push(new TextRun({ text: boldMatch[1], bold: true, font: 'Arial', size: 22, color: '1F3864' }))
+      continue
+    }
+    const citeMatch = seg.match(/^(\[\d+(?:[,\-]\d+)*\])$/)
+    if (citeMatch) {
+      runs.push(new TextRun({ text: citeMatch[1], superScript: true, font: 'Arial', size: 16, color: '4A9EFF', bold: true }))
+      continue
+    }
+    runs.push(new TextRun({ text: seg, font: 'Arial', size: 22 }))
+  }
+  return runs
+}
+
+// ─── DOCX BUILDER (markdown-aware) ────────────────────────────────────────────
+
 async function buildDocxFromText(
   sectionLabel: string,
   callText: string,
   text: string
 ): Promise<Buffer> {
-  // Strip any markdown that leaked through
-  const clean = text
-    .replace(/\*\*(.+?)\*\*/gs, '$1')
-    .replace(/\*(.+?)\*/gs, '$1')
-    .replace(/^#{1,6}\s+/gm, '')
-    .replace(/^[•\-]\s+/gm, '')
-    .trim()
+  // Split on reference block
+  const [mainBody, refBody] = text.split(/---\n\*\*References\*\*/)
 
-  const paragraphs = clean.split(/\n{2,}/).filter(p => p.trim())
+  // Page margin: 2 cm = 1134 twips
+  const margin2cm = convertInchesToTwip(0.787) // ≈ 1134 twips (2 cm)
+
+  const cellBorder = {
+    top:    { style: BorderStyle.SINGLE, size: 4, color: 'D0D8EE' },
+    bottom: { style: BorderStyle.SINGLE, size: 4, color: 'D0D8EE' },
+    left:   { style: BorderStyle.SINGLE, size: 4, color: 'D0D8EE' },
+    right:  { style: BorderStyle.SINGLE, size: 4, color: 'D0D8EE' },
+  }
+
+  // ── Parse main body lines ──────────────────────────────────────────────────
+  const bodyChildren: (Paragraph | Table)[] = []
+  const lines = (mainBody || '').split('\n')
+  let i = 0
+
+  while (i < lines.length) {
+    const line = lines[i]
+
+    // Skip horizontal rules
+    if (/^---$/.test(line.trim())) { i++; continue }
+
+    // Heading 2
+    const h2 = line.match(/^## (.+)/)
+    if (h2) {
+      bodyChildren.push(new Paragraph({
+        children: [new TextRun({ text: h2[1].trim(), bold: true, font: 'Arial', size: 28, color: '1F3864' })],
+        spacing: { before: 280, after: 140 },
+      }))
+      i++; continue
+    }
+
+    // Heading 3
+    const h3 = line.match(/^### (.+)/)
+    if (h3) {
+      bodyChildren.push(new Paragraph({
+        children: [new TextRun({ text: h3[1].trim(), bold: true, font: 'Arial', size: 24, color: '1F3864' })],
+        spacing: { before: 240, after: 120 },
+      }))
+      i++; continue
+    }
+
+    // Bullet
+    const bullet = line.match(/^[-*] (.+)/)
+    if (bullet) {
+      bodyChildren.push(new Paragraph({
+        children: parseInlineRuns(bullet[1].trim()),
+        bullet: { level: 0 },
+        indent: { left: 360, hanging: 360 },
+        spacing: { after: 60 },
+      }))
+      i++; continue
+    }
+
+    // Table — collect consecutive table lines
+    if (line.trimStart().startsWith('|')) {
+      const tableLines: string[] = []
+      while (i < lines.length && lines[i].trimStart().startsWith('|')) {
+        tableLines.push(lines[i])
+        i++
+      }
+      // Skip separator rows (|---|)
+      const dataRows = tableLines.filter(l => !/^\|[-:\s|]+\|?$/.test(l.trim()))
+      if (dataRows.length > 0) {
+        const parsedRows = dataRows.map(l =>
+          l.split('|').slice(1, -1).map(c => c.trim())
+        )
+        const colCount = Math.max(...parsedRows.map(r => r.length))
+        const colWidth = Math.floor(9360 / colCount) // approx twips for A4 body width
+
+        const wordRows = parsedRows.map((row, ri) =>
+          new TableRow({
+            children: row.map(cell =>
+              new TableCell({
+                children: [new Paragraph({
+                  children: parseInlineRuns(cell),
+                  spacing: { after: 60 },
+                })],
+                borders: cellBorder,
+                shading: ri === 0 ? { fill: 'EEF1FA' } : undefined,
+                width: { size: colWidth, type: WidthType.DXA },
+              })
+            ),
+          })
+        )
+        bodyChildren.push(new Table({
+          rows: wordRows,
+          width: { size: 100, type: WidthType.PERCENTAGE },
+        }))
+      }
+      continue
+    }
+
+    // Normal paragraph (skip blank lines)
+    if (line.trim()) {
+      bodyChildren.push(new Paragraph({
+        children: parseInlineRuns(line.trim()),
+        alignment: AlignmentType.JUSTIFIED,
+        spacing: { after: 120, line: 253 },
+      }))
+    }
+    i++
+  }
+
+  // ── Parse references ───────────────────────────────────────────────────────
+  const refChildren: (Paragraph | Table)[] = []
+  if (refBody) {
+    refChildren.push(new Paragraph({
+      children: [new TextRun({ text: 'References', bold: true, font: 'Arial', size: 22, color: '1F3864' })],
+      spacing: { before: 480, after: 120 },
+    }))
+    const refLines = refBody.split('\n').filter(l => l.trim() && l.trim() !== '**References**')
+    for (const rl of refLines) {
+      refChildren.push(new Paragraph({
+        children: [new TextRun({ text: rl.trim(), font: 'Arial', size: 20, color: '5A6A9A' })],
+        indent: { left: 360, hanging: 360 },
+        spacing: { after: 80 },
+      }))
+    }
+  }
 
   const doc = new Document({
     sections: [{
-      properties: {},
+      properties: {
+        page: {
+          margin: { top: margin2cm, bottom: margin2cm, left: margin2cm, right: margin2cm },
+          size: { width: convertInchesToTwip(8.27), height: convertInchesToTwip(11.69) }, // A4
+        },
+      },
       children: [
+        // Cover header
         new Paragraph({
-          children: [new TextRun({ text: sectionLabel, bold: true, size: 52, color: IRIS_DARK })],
+          children: [new TextRun({ text: sectionLabel, bold: true, font: 'Arial', size: 52, color: IRIS_DARK })],
           heading: HeadingLevel.TITLE,
-          spacing: { after: 200 }
+          spacing: { after: 200 },
         }),
         new Paragraph({
-          children: [new TextRun({ text: `Call topic: ${callText.slice(0, 400)}`, size: 24, color: IRIS_CYAN, italics: true })],
-          spacing: { after: 100 }
+          children: [new TextRun({ text: `Call topic: ${callText.slice(0, 400)}`, font: 'Arial', size: 24, color: IRIS_CYAN, italics: true })],
+          spacing: { after: 100 },
         }),
         new Paragraph({
           children: [new TextRun({
             text: `IRIS Technology Solutions · ${new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}`,
-            size: 20, color: '64748B'
+            font: 'Arial', size: 20, color: '64748B',
           })],
-          spacing: { after: 600 }
+          spacing: { after: 600 },
         }),
-        ...paragraphs.map((p: string) =>
-          new Paragraph({
-            children: [new TextRun({ text: p.trim(), size: 24 })],
-            spacing: { after: 240, line: 288 }
-          })
-        )
-      ]
-    }]
+        // Body paragraphs + tables
+        ...bodyChildren,
+        // References
+        ...refChildren,
+      ],
+    }],
   })
+
   return Packer.toBuffer(doc)
 }
 

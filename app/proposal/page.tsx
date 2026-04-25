@@ -1,10 +1,13 @@
 'use client'
 import { useState, useEffect, useCallback } from 'react'
+import React from 'react'
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 import Sidebar from '@/components/Sidebar'
 import {
   Loader2, Download, ChevronRight, ChevronLeft, Plus, X,
   Check, AlertTriangle, PenLine, Users, Layers, Telescope,
-  FileCheck, RefreshCw, FileText,
+  FileCheck, RefreshCw, FileText, Edit3,
 } from 'lucide-react'
 import type { ProjectBrief, Partner, Concept, ResolvedCall, ComplianceResult, PartnerSuggestion } from '@/lib/proposal-types'
 import type { ProposalTemplate, SectionTemplate } from '@/lib/proposal-templates'
@@ -235,6 +238,7 @@ export default function ProposalPage() {
   const [clearConfirm, setClearConfirm] = useState(false)
   const [undoSection, setUndoSection] = useState<{ id: string; text: string } | null>(null)
   const [contextExpanded, setContextExpanded] = useState(false)
+  const [editMode, setEditMode] = useState<Record<string, boolean>>({})
 
   // ─── Derived template ──────────────────────────────────────────────────────
   const templateKey = callResolved ? `${callResolved.actionType}_${stageSelected}` : null
@@ -1434,43 +1438,129 @@ export default function ProposalPage() {
                       </div>
                     )}
 
-                    {/* Output textarea — items 1.1, 1.3 */}
-                    {(sections[activeSection] || generatingSection === activeSection) && (
-                      <div style={card}>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '10px' }}>
-                          <FileText size={12} color={C.muted} />
-                          <span style={{ fontSize: '11px', color: C.muted }}>Draft (click to edit)</span>
-                          {generatingSection === activeSection && (
-                            <span style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '10px', color: C.cyan, fontWeight: 600, marginLeft: 'auto' }}>
-                              <span style={{ width: '5px', height: '5px', borderRadius: '50%', background: C.cyan, display: 'inline-block', animation: 'pulse 1.2s infinite' }} /> streaming
+                    {/* Output draft card — rendered preview with edit toggle */}
+                    {(sections[activeSection] || generatingSection === activeSection) && (() => {
+                      const isStreaming = generatingSection === activeSection
+                      const isEditing = editMode[activeSection] || isStreaming
+
+                      // Markdown custom components
+                      const processNode = (node: React.ReactNode): React.ReactNode => {
+                        if (typeof node === 'string') {
+                          const parts = node.split(/(\[\d+(?:[,\-]\d+)*\])/g)
+                          if (parts.length === 1) return node
+                          return parts.map((part, i) =>
+                            /^\[\d/.test(part)
+                              ? <sup key={i} style={{ fontSize: '9px', color: '#4A9EFF', fontWeight: 700, marginLeft: '1px' }}>{part}</sup>
+                              : part
+                          )
+                        }
+                        return node
+                      }
+
+                      const mdComponents = {
+                        h2: ({ children }: { children?: React.ReactNode }) => (
+                          <h2 style={{ fontSize: '16px', fontWeight: 700, color: '#0F1B3D', margin: '18px 0 6px', borderBottom: '1px solid #E4E9F5', paddingBottom: '4px' }}>{children}</h2>
+                        ),
+                        h3: ({ children }: { children?: React.ReactNode }) => (
+                          <h3 style={{ fontSize: '14px', fontWeight: 700, color: '#0F1B3D', margin: '18px 0 6px', borderBottom: '1px solid #E4E9F5', paddingBottom: '4px' }}>{children}</h3>
+                        ),
+                        p: ({ children }: { children?: React.ReactNode }) => (
+                          <p style={{ margin: '0 0 12px', fontSize: '14px', lineHeight: 1.7, color: '#111827' }}>
+                            {React.Children.map(children, processNode)}
+                          </p>
+                        ),
+                        strong: ({ children }: { children?: React.ReactNode }) => (
+                          <strong style={{ fontWeight: 700, color: '#0F1B3D' }}>{children}</strong>
+                        ),
+                        ul: ({ children }: { children?: React.ReactNode }) => (
+                          <ul style={{ margin: '0 0 12px', paddingLeft: '20px' }}>{children}</ul>
+                        ),
+                        li: ({ children }: { children?: React.ReactNode }) => (
+                          <li style={{ fontSize: '14px', lineHeight: 1.7, color: '#111827', marginBottom: '4px' }}>
+                            {React.Children.map(children, processNode)}
+                          </li>
+                        ),
+                        table: ({ children }: { children?: React.ReactNode }) => (
+                          <table style={{ width: '100%', borderCollapse: 'collapse', margin: '12px 0', fontSize: '13px' }}>{children}</table>
+                        ),
+                        th: ({ children }: { children?: React.ReactNode }) => (
+                          <th style={{ background: '#EEF1FA', fontWeight: 700, padding: '6px 10px', border: '1px solid #D0D8EE', color: '#0F1B3D', textAlign: 'left' }}>{children}</th>
+                        ),
+                        td: ({ children }: { children?: React.ReactNode }) => (
+                          <td style={{ padding: '6px 10px', border: '1px solid #D0D8EE', color: '#111827', verticalAlign: 'top' }}>
+                            {React.Children.map(children, processNode)}
+                          </td>
+                        ),
+                      }
+
+                      // Strip reference block from main preview
+                      const mainBody = (sections[activeSection] || '').split('---\n**References**')[0]
+
+                      return (
+                        <div style={card}>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '10px' }}>
+                            <FileText size={12} color={C.muted} />
+                            <span style={{ fontSize: '11px', color: C.muted }}>
+                              {isEditing && !isStreaming ? 'Editing draft' : 'Draft'}
                             </span>
-                          )}
-                        </div>
-                        <textarea
-                          value={sections[activeSection] || ''}
-                          onChange={e => setSections(prev => ({ ...prev, [activeSection]: e.target.value }))}
-                          style={{
-                            ...textareaStyle,
-                            background: '#FFFFFF', minHeight: '360px', lineHeight: 1.7,
-                            fontSize: '14px', color: '#111827', resize: 'vertical',
-                            maxWidth: '72ch', border: `1px solid ${C.border}`,
-                          }}
-                          placeholder={generatingSection === activeSection ? 'Generating...' : ''}
-                        />
-                        {/* Word counter footer — item 1.3 */}
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginTop: '10px' }}>
-                          <div style={{ flex: 1, height: '4px', borderRadius: '2px', background: C.border, overflow: 'hidden' }}>
-                            <div style={{ height: '100%', borderRadius: '2px', background: statusCol, width: `${Math.min(100, Math.round(ratio * 100))}%`, transition: 'width 0.3s' }} />
+                            {isStreaming && (
+                              <span style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '10px', color: C.cyan, fontWeight: 600, marginLeft: 'auto' }}>
+                                <span style={{ width: '5px', height: '5px', borderRadius: '50%', background: C.cyan, display: 'inline-block', animation: 'pulse 1.2s infinite' }} /> streaming
+                              </span>
+                            )}
+                            {!isStreaming && !isEditing && (
+                              <button
+                                onClick={() => setEditMode(prev => ({ ...prev, [activeSection]: true }))}
+                                style={{ marginLeft: 'auto', fontSize: '10px', color: C.cyan, background: 'none', border: 'none', cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '3px' }}
+                              >
+                                <Edit3 size={10} /> Edit
+                              </button>
+                            )}
+                            {!isStreaming && isEditing && (
+                              <button
+                                onClick={() => setEditMode(prev => ({ ...prev, [activeSection]: false }))}
+                                style={{ marginLeft: 'auto', fontSize: '10px', color: C.cyan, background: 'none', border: 'none', cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '3px' }}
+                              >
+                                <Check size={10} /> Preview
+                              </button>
+                            )}
                           </div>
-                          <span style={{ fontSize: '11px', fontWeight: 600, color: statusCol, whiteSpace: 'nowrap' }}>
-                            {words.toLocaleString()} / {target.toLocaleString()} words
-                          </span>
-                          <span style={{ fontSize: '10px', color: C.muted, whiteSpace: 'nowrap' }}>
-                            ~{Math.round(words / 400 * 10) / 10} pages
-                          </span>
+
+                          {isEditing ? (
+                            <textarea
+                              value={sections[activeSection] || ''}
+                              onChange={e => setSections(prev => ({ ...prev, [activeSection]: e.target.value }))}
+                              style={{
+                                ...textareaStyle,
+                                background: '#FFFFFF', minHeight: '360px', lineHeight: 1.7,
+                                fontSize: '14px', color: '#111827', resize: 'vertical',
+                                maxWidth: '72ch', border: `1px solid ${C.border}`,
+                              }}
+                              placeholder={isStreaming ? 'Generating...' : ''}
+                            />
+                          ) : (
+                            <div style={{ minHeight: '200px', maxWidth: '72ch' }}>
+                              <ReactMarkdown remarkPlugins={[remarkGfm]} components={mdComponents}>
+                                {mainBody}
+                              </ReactMarkdown>
+                            </div>
+                          )}
+
+                          {/* Word counter footer */}
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginTop: '10px' }}>
+                            <div style={{ flex: 1, height: '4px', borderRadius: '2px', background: C.border, overflow: 'hidden' }}>
+                              <div style={{ height: '100%', borderRadius: '2px', background: statusCol, width: `${Math.min(100, Math.round(ratio * 100))}%`, transition: 'width 0.3s' }} />
+                            </div>
+                            <span style={{ fontSize: '11px', fontWeight: 600, color: statusCol, whiteSpace: 'nowrap' }}>
+                              {words.toLocaleString()} / {target.toLocaleString()} words
+                            </span>
+                            <span style={{ fontSize: '10px', color: C.muted, whiteSpace: 'nowrap' }}>
+                              ~{Math.round(words / 400 * 10) / 10} pages
+                            </span>
+                          </div>
                         </div>
-                      </div>
-                    )}
+                      )
+                    })()}
 
                     {/* References block — rendered below textarea if present */}
                     {sections[activeSection]?.includes('---\n**References**') && (() => {

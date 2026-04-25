@@ -239,6 +239,8 @@ export default function ProposalPage() {
   const [undoSection, setUndoSection] = useState<{ id: string; text: string } | null>(null)
   const [contextExpanded, setContextExpanded] = useState(false)
   const [editMode, setEditMode] = useState<Record<string, boolean>>({})
+  const [kbSources, setKbSources] = useState<Record<string, string>>({})
+  const [kbSourcesExpanded, setKbSourcesExpanded] = useState<Record<string, boolean>>({})
 
   // ─── Derived template ──────────────────────────────────────────────────────
   const templateKey = callResolved ? `${callResolved.actionType}_${stageSelected}` : null
@@ -522,7 +524,16 @@ export default function ProposalPage() {
         const { done, value } = await reader.read()
         if (done) break
         text += decoder.decode(value, { stream: true })
-        setSections(prev => ({ ...prev, [sectionId]: text }))
+        // While streaming, strip KB sentinel so it never appears in the editor
+        const displayText = text.split('<<<KB_SOURCES>>>')[0]
+        setSections(prev => ({ ...prev, [sectionId]: displayText }))
+      }
+
+      // After stream ends, separate main draft from KB sources block
+      const [mainDraft, kbBlock] = text.split('<<<KB_SOURCES>>>')
+      setSections(prev => ({ ...prev, [sectionId]: mainDraft.trim() }))
+      if (kbBlock?.trim()) {
+        setKbSources(prev => ({ ...prev, [sectionId]: kbBlock.trim() }))
       }
     } catch (e: any) {
       setWriteError(e.message || 'Generation failed')
@@ -1346,7 +1357,7 @@ export default function ProposalPage() {
               {activeSection && (() => {
                 const sec = template?.sections.find(s => s.id === activeSection)
                 if (!sec) return null
-                const words   = wordCount(sections[activeSection] || '')
+                const words   = wordCount((sections[activeSection] || '').split('<<<KB_SOURCES>>>')[0])
                 const target  = sec.words
                 const ratio   = target ? words / target : 0
                 const statusCol = ratio >= 0.85 && ratio <= 1.15 ? C.green : ratio < 0.7 ? C.amber : C.red
@@ -1493,8 +1504,10 @@ export default function ProposalPage() {
                         ),
                       }
 
-                      // Strip reference block from main preview
-                      const mainBody = (sections[activeSection] || '').split('---\n**References**')[0]
+                      // Strip reference block and KB sentinel from main preview
+                      const mainBody = (sections[activeSection] || '')
+                        .split('<<<KB_SOURCES>>>')[0]
+                        .split('---\n**References**')[0]
 
                       return (
                         <div style={card}>
@@ -1528,7 +1541,7 @@ export default function ProposalPage() {
 
                           {isEditing ? (
                             <textarea
-                              value={sections[activeSection] || ''}
+                              value={(sections[activeSection] || '').split('<<<KB_SOURCES>>>')[0]}
                               onChange={e => setSections(prev => ({ ...prev, [activeSection]: e.target.value }))}
                               style={{
                                 ...textareaStyle,
@@ -1594,6 +1607,36 @@ export default function ProposalPage() {
                               </div>
                             )
                           })}
+                        </div>
+                      )
+                    })()}
+
+                    {/* KB Sources — collapsible read-only panel (never in export) */}
+                    {kbSources[activeSection] && (() => {
+                      const lines = kbSources[activeSection].split('\n').filter(l => l.trim())
+                      const expanded = kbSourcesExpanded[activeSection]
+                      return (
+                        <div style={{ ...card, borderTop: `2px solid ${C.border}`, marginTop: '-14px', paddingTop: '12px', background: C.panel }}>
+                          <button
+                            onClick={() => setKbSourcesExpanded(prev => ({ ...prev, [activeSection]: !expanded }))}
+                            style={{ display: 'flex', alignItems: 'center', gap: '6px', background: 'none', border: 'none', cursor: 'pointer', padding: 0, width: '100%' }}
+                          >
+                            <span style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.08em', color: C.muted, textTransform: 'uppercase' as const }}>
+                              KB Sources used ({lines.length})
+                            </span>
+                            <span style={{ fontSize: '9px', color: C.muted, marginLeft: 'auto' }}>
+                              {expanded ? '▲ hide' : '▼ show'} — read-only, not exported
+                            </span>
+                          </button>
+                          {expanded && (
+                            <div style={{ marginTop: '8px' }}>
+                              {lines.map((line, i) => (
+                                <div key={i} style={{ fontSize: '10px', color: C.muted, lineHeight: 1.5, paddingLeft: '12px', borderLeft: `2px solid ${C.border}`, marginBottom: '4px' }}>
+                                  {line}
+                                </div>
+                              ))}
+                            </div>
+                          )}
                         </div>
                       )
                     })()}

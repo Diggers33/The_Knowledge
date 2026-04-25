@@ -1220,9 +1220,13 @@ export async function POST(req: NextRequest) {
     const fullQuery = [callText, additionalContext].filter(Boolean).join('\n\n')
     console.log(`Proposal [${section}→${normalizedSection}] mode=${mode}`)
 
+    // Workplan sections: skip KB content retrieval (prevents wrong-project contamination).
+    // The WP style examples block below provides format/style from the KB separately.
+    const isWorkplanSection = normalizedSection === 'workplan' || normalizedSection === 'implementation'
+
     // Run retrieval in parallel where possible
     const [[internalCtx, kbSourceBlock], externalCtx, styleCtx] = await Promise.all([
-      mode === 'INTERNAL' || mode === 'HYBRID'
+      (mode === 'INTERNAL' || mode === 'HYBRID') && !isWorkplanSection
         ? retrieveInternalContext(
             section,
             fullQuery,
@@ -1288,7 +1292,41 @@ IMPORTANT CONSTRAINTS:
       business_case: `Structure as: market context → IRIS's commercial pathway → partner exploitation routes → investment and revenue model → timeline to market. Reference specific sectors: ${(brief?.pilots || []).join(', ')}. Be specific about who will buy what — avoid generic statements.`,
       outcomes: `Do NOT open with a project summary or preamble paragraph. Start immediately with the first outcome: "A primary outcome of the project is...". Do NOT close with a TRL summary paragraph — that belongs in Section 1.1.\n\nMap explicitly and in order to each call expected outcome from the resolved call text. For each outcome: (1) state what the project delivers toward that outcome in 1-2 sentences, (2) quantify with a specific metric and the reasoning that produces it, (3) name the pilot or demonstration context where this will be shown. Then cover scientific impact (publications, datasets, open access), economic impact (market pathway, sectors, revenue model), and societal impact (workforce, environment, policy). Do not use "Outcome 1:", "Outcome 2:" as inline labels — use prose transitions: "A primary outcome...", "Beyond process efficiency...", "At the scientific level...". Show the reasoning behind every quantified target.\n\nSCOPE: Cover the 3 call expected outcomes with quantified project contributions. Do NOT include: task descriptions, methodology detail, or consortium information. End the section after covering scientific, economic and societal impact briefly (2-3 sentences each). Hard maximum: 800 words.`,
       dissemination: `Cover: open access plan (journals, repositories), IPR strategy, exploitation roadmap per partner, standardisation activities, and communication channels. Be specific about timelines and responsibilities.`,
-      workplan: `CRITICAL: The user has provided a WP outline in the additional context. You MUST use ONLY the information provided — do not invent any WPs, tasks, partners, deliverables, or person-months that are not explicitly stated.\n\nFor each WP provided, write:\n- Opening sentence: WP title, lead partner, duration, total person-months\n- 1 paragraph per task: what will be done, who does it, how it is validated, what the output is\n- Close with: list of deliverables with month numbers and milestones\n\nUse first person plural. Use Task X.Y bold labels with (Lead: X; Partners: Y, Z).\nDraft dates and person-months exactly as provided — note they are draft figures to be confirmed. If information is missing for a WP, write [TO BE COMPLETED BY CONSORTIUM] rather than inventing it.\n\nThe additional context below is the AUTHORITATIVE SOURCE. Do not deviate from it.`,
+      workplan: `Write a complete Horizon Europe Part B Section 3.1 Work Plan. Structure EXACTLY as follows, using these ### headings:
+
+### Work package overview
+One paragraph (100–150 words) explaining the overall WP architecture and how the WPs map onto the project logic. Reference the number of WPs and their thematic grouping.
+
+### Work package list
+A markdown table with columns: **WP no.** | **WP title** | **Lead beneficiary** | **Person-months** | **Start month** | **End month**. Include ALL work packages. If exact person-months are not provided, write [TBC].
+
+### Deliverables
+A markdown table with columns: **D-no.** | **Deliverable title** | **WP** | **Lead** | **Type** | **Dissemination** | **Due month**. Include at least one deliverable per WP. If not provided, generate plausible deliverables consistent with the WP descriptions and mark with *[draft]*.
+
+### Milestones
+A markdown table with columns: **M-no.** | **Milestone title** | **WP** | **Due month** | **Verification means**. Include at least 3 milestones. Mark with *[draft]* if not specified by the consortium.
+
+### WP descriptions
+For each WP, write a sub-section with heading **#### WP[N]: [Title]** containing:
+- Lead: [partner]; Participants: [list]; Duration: M[X]–M[Y]; Person-months: [N] — in italics as the opening line
+- Objectives (1–2 sentences)
+- Tasks — use **Task N.X: [name]** (Lead: PARTNER; Partners: A, B) format followed by 3–4 sentences describing what will be done, how it will be validated, and what the output is
+- Deliverables and milestones from this WP (reference D-no. and M-no.)
+
+### Critical risks and mitigation
+A markdown table with columns: **Risk** | **WP** | **Likelihood** | **Severity** | **Mitigation measure**. Include at least 5 risks covering: technical, data/IP, partner, regulatory, and market risks.
+
+### Person-month summary
+A markdown table: partners as rows, WP numbers as columns, total column. Fill from provided data; use [TBC] where not specified.
+
+RULES:
+- Use ONLY partner names, WP titles, task descriptions, deliverable numbers, and person-month figures that are explicitly provided in the brief or additional context
+- Where data is missing, write [TO BE COMPLETED BY CONSORTIUM] — do NOT invent figures
+- Use first person plural for IRIS tasks; describe other partners' tasks in third person
+- Use **Task X.Y: [name]** (Lead: PARTNER; Partners: A, B) bold task labels throughout WP descriptions
+- The partners in this consortium are: ${(brief?.partners || []).map((p: any) => `${p.acronym} (${p.country})`).join(', ') || '[see brief]'}
+- IRIS leads the following WPs: ${(brief?.irisWPs || []).join(', ') || '[see brief]'}
+- Total project duration: infer from call or brief; default to 48 months if not specified`,
       management: `Describe governance structure, decision-making bodies, risk register (at least 5 risks with mitigation), quality assurance plan, and data management approach.`,
       iris_role: `Write one paragraph per partner (4-6 sentences). For IRIS: start with the WP leadership, name the specific tasks IRIS leads, name the IRIS technologies being deployed, reference 1-2 previous IRIS projects as evidence of capability. For each other partner: organisation type, country, specific expertise, role in this project, and why they are the best choice. Close with a paragraph on consortium complementarity — how the partners collectively cover the full value chain from research to demonstration to market. Write in first person plural for IRIS tasks, third person for other partners' descriptions. Do not use bullet points.`,
     }
@@ -1384,6 +1422,7 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
 
     // ── Stream response ───────────────────────────────────────────────────────
     const isSotASection = normalizedSection === 'state_of_the_art' || normalizedSection === 'innovation' || normalizedSection === 'sota'
+    // isWorkplanSection is already declared above
 
     // For SotA sections, prepend a numbered source list so the model can cite [N] inline
     const numberedSourceList = (isSotASection && sourcePapers.length > 0)
@@ -1397,9 +1436,13 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
       contextBlocks.join('\n\n'),
       `Write the ${SECTION_LABELS[section] || section} section:`
     ].filter(Boolean).join('\n\n')
-    const model = isSotASection
-      ? (process.env.IRIS_SOTA_MODEL || process.env.IRIS_PROPOSAL_MODEL || 'gpt-4o')
-      : (process.env.IRIS_PROPOSAL_MODEL || 'gpt-4o')
+    // Workplan: always use the base gpt-4o — fine-tuned models trained on SotA data
+    // loop badly on structured table/WP content. SotA uses the fine-tuned model.
+    const model = isWorkplanSection
+      ? 'gpt-4o'
+      : isSotASection
+        ? (process.env.IRIS_SOTA_MODEL || process.env.IRIS_PROPOSAL_MODEL || 'gpt-4o')
+        : (process.env.IRIS_PROPOSAL_MODEL || 'gpt-4o')
     console.log(`Proposal model: ${model} (section: ${section})`)
     const stream = await openai.chat.completions.create({
       model,
@@ -1408,8 +1451,10 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
         { role: 'user', content: userMessage }
       ],
       stream: true,
-      max_tokens: section === 'workplan' ? 4000 : isSotASection ? 3500 : 2000,
-      temperature: 0.4,
+      max_tokens: isWorkplanSection ? 4500 : isSotASection ? 3500 : 2000,
+      temperature: isWorkplanSection ? 0.5 : 0.4,
+      frequency_penalty: isWorkplanSection ? 0.7 : 0.3,
+      presence_penalty:  isWorkplanSection ? 0.4 : 0.1,
     })
 
     const encoder = new TextEncoder()
@@ -1429,6 +1474,30 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
           fullGeneratedText = fullGeneratedText.replace(/^\s*\d+(\.\d+)*\s+[A-Z][^\n]*\n/, '')
           // Replace Unicode black-square bullets with standard markdown dashes
           fullGeneratedText = fullGeneratedText.replace(/■\s*/g, '- ')
+
+          // ── Deduplication guard — detect and remove sentence loops ───────────
+          {
+            const sentences = fullGeneratedText.split(/(?<=[.!?])\s+/)
+            const sentenceCount = new Map<string, number>()
+            for (const s of sentences) {
+              const key = s.trim().toLowerCase().slice(0, 80)
+              if (key.length < 25) continue
+              sentenceCount.set(key, (sentenceCount.get(key) || 0) + 1)
+            }
+            const maxRepeat = sentenceCount.size > 0 ? Math.max(...sentenceCount.values()) : 0
+            if (maxRepeat > 3) {
+              console.warn(`Repetition loop detected (max repeat=${maxRepeat}) — deduplicating output`)
+              const seen = new Set<string>()
+              const deduped = sentences.filter(s => {
+                const key = s.trim().toLowerCase().slice(0, 80)
+                if (key.length < 25) return true
+                if (seen.has(key)) return false
+                seen.add(key)
+                return true
+              })
+              fullGeneratedText = deduped.join(' ').trim()
+            }
+          }
 
           // ── Citation injection (SotA/EXTERNAL only) — always run to add [N] refs ──
           if (isSotASection && sourcePapers.length > 0) {
@@ -1531,9 +1600,11 @@ ${fullGeneratedText}`
             controller.enqueue(encoder.encode(`\n\n---\n**References**\n\n${referenceList}`))
           }
 
-          // ── KB Sources block (internal chunk citations) ─────────────────────
+          // ── KB Sources block — sent with a sentinel the frontend splits on ──
+          // The frontend strips this from the editable draft and shows it as a
+          // read-only collapsible panel, so internal file paths don't leak into exports.
           if (kbSourceBlock) {
-            controller.enqueue(encoder.encode(`\n\n---\n**KB Sources**\n\n${kbSourceBlock}`))
+            controller.enqueue(encoder.encode(`\n\n<<<KB_SOURCES>>>\n${kbSourceBlock}`))
           }
 
           // ── Validation status line ──────────────────────────────────────────

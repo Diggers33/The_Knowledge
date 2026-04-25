@@ -1,8 +1,9 @@
 'use client'
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import { createClient } from '@/lib/supabase/client'
 import Sidebar from '@/components/Sidebar'
 import {
   Loader2, Download, ChevronRight, ChevronLeft, Plus, X,
@@ -242,6 +243,14 @@ export default function ProposalPage() {
   const [kbSources, setKbSources] = useState<Record<string, string>>({})
   const [kbSourcesExpanded, setKbSourcesExpanded] = useState<Record<string, boolean>>({})
 
+  // ── Server-side draft persistence ─────────────────────────────────────────
+  type DraftMeta = { id: string; name: string; acronym?: string; call_id?: string; phase: string; sections_complete: number; updated_at: string }
+  const [draftId,    setDraftId]    = useState<string | null>(null)
+  const [drafts,     setDrafts]     = useState<DraftMeta[]>([])
+  const [saveStatus, setSaveStatus] = useState<'idle' | 'saving' | 'saved'>('idle')
+  const [showDrafts, setShowDrafts] = useState(false)
+  const saveTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+
   // ─── Derived template ──────────────────────────────────────────────────────
   const templateKey = callResolved ? `${callResolved.actionType}_${stageSelected}` : null
   const template: ProposalTemplate | null = templateKey
@@ -277,6 +286,56 @@ export default function ProposalPage() {
         brief, partners, sections, phase, concepts, activeSection,
       }))
     } catch {}
+  }, [callText, callResolved, stageSelected, scopeSelected, brief, partners, sections, phase, concepts, activeSection])
+
+  // ── Fetch drafts list on mount (requires auth session) ────────────────────
+  useEffect(() => {
+    async function fetchDrafts() {
+      try {
+        const res = await fetch('/api/proposal/drafts')
+        if (res.ok) setDrafts(await res.json())
+      } catch {}
+    }
+    fetchDrafts()
+  }, [])
+
+  // ── Auto-save to server (debounced 5 s after any state change) ────────────
+  useEffect(() => {
+    // Only save if there's something meaningful to save
+    if (!callText.trim() && !brief && Object.keys(sections).length === 0) return
+    if (saveTimer.current) clearTimeout(saveTimer.current)
+    saveTimer.current = setTimeout(async () => {
+      setSaveStatus('saving')
+      const name = brief?.projectTitle
+        ? `${brief.projectTitle}${brief.acronym ? ' (' + brief.acronym + ')' : ''}`
+        : callText.slice(0, 60) || 'Untitled Draft'
+      const payload = {
+        id:                draftId || undefined,
+        name,
+        acronym:           brief?.acronym || undefined,
+        call_id:           callResolved?.callId || undefined,
+        phase,
+        sections_complete: Object.values(sections).filter(s => s.trim()).length,
+        data:              { callText, callResolved, stageSelected, scopeSelected, brief, partners, sections, phase, concepts, activeSection },
+      }
+      try {
+        const res = await fetch('/api/proposal/drafts', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        })
+        if (res.ok) {
+          const result = await res.json()
+          if (!draftId && result.id) setDraftId(result.id)
+          setSaveStatus('saved')
+          // Refresh list
+          const listRes = await fetch('/api/proposal/drafts')
+          if (listRes.ok) setDrafts(await listRes.json())
+        }
+      } catch {
+        setSaveStatus('idle')
+      }
+    }, 5000)
   }, [callText, callResolved, stageSelected, scopeSelected, brief, partners, sections, phase, concepts, activeSection])
 
   // Set default active section when entering write phase
@@ -604,7 +663,38 @@ export default function ProposalPage() {
     }])
     setSections({}); setActiveSection(''); setScopeSelected('')
     setStageSelected('stage2'); setPhase('setup'); setComplianceResult(null)
+    setDraftId(null); setSaveStatus('idle')
     setClearConfirm(false)
+  }
+
+  async function loadDraft(id: string) {
+    try {
+      const res = await fetch(`/api/proposal/drafts/${id}`)
+      if (!res.ok) return
+      const draft = await res.json()
+      const d = draft.data || {}
+      if (d.callText)      setCallText(d.callText)
+      if (d.callResolved)  setCallResolved(d.callResolved)
+      if (d.stageSelected) setStageSelected(d.stageSelected)
+      if (d.scopeSelected) setScopeSelected(d.scopeSelected)
+      if (d.brief)         setBrief(d.brief)
+      if (d.partners)      setPartners(d.partners)
+      if (d.sections)      setSections(d.sections)
+      if (d.phase)         setPhase(d.phase)
+      if (d.concepts)      setConcepts(d.concepts)
+      if (d.activeSection) setActiveSection(d.activeSection)
+      setDraftId(id)
+      setSaveStatus('saved')
+      setShowDrafts(false)
+    } catch {}
+  }
+
+  async function deleteDraft(id: string) {
+    try {
+      await fetch(`/api/proposal/drafts/${id}`, { method: 'DELETE' })
+      setDrafts(prev => prev.filter(d => d.id !== id))
+      if (draftId === id) { setDraftId(null); setSaveStatus('idle') }
+    } catch {}
   }
 
   // ─── LEFT PANEL ────────────────────────────────────────────────────────────
@@ -764,6 +854,61 @@ export default function ProposalPage() {
             </div>
           </>
         )}
+
+        {/* ── Server draft persistence ── */}
+        <div style={{ padding: '8px 12px', borderTop: `1px solid ${C.border}` }}>
+          {/* Save status */}
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '6px' }}>
+            <span style={{ fontSize: '9px', color: saveStatus === 'saving' ? C.amber : saveStatus === 'saved' ? C.green : C.muted }}>
+              {saveStatus === 'saving' ? '● Saving…' : saveStatus === 'saved' ? '✓ Saved to server' : draftId ? '○ Unsaved changes' : '○ Not saved'}
+            </span>
+            <button
+              onClick={() => setShowDrafts(d => !d)}
+              style={{ fontSize: '9px', color: C.cyan, background: 'none', border: 'none', cursor: 'pointer', fontWeight: 600 }}
+            >
+              {showDrafts ? 'Hide' : `My drafts (${drafts.length})`}
+            </button>
+          </div>
+
+          {/* Draft picker */}
+          {showDrafts && (
+            <div style={{ background: C.bg, border: `1px solid ${C.border}`, borderRadius: '8px', overflow: 'hidden', marginBottom: '6px' }}>
+              {drafts.length === 0 ? (
+                <div style={{ padding: '10px', fontSize: '10px', color: C.muted, textAlign: 'center' }}>No saved drafts</div>
+              ) : drafts.map(d => (
+                <div key={d.id} style={{
+                  padding: '8px 10px', borderBottom: `1px solid ${C.border}`,
+                  background: d.id === draftId ? 'rgba(74,158,255,0.06)' : 'transparent',
+                  display: 'flex', alignItems: 'flex-start', gap: '6px',
+                }}>
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ fontSize: '10px', fontWeight: 600, color: C.text, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                      {d.name}
+                    </div>
+                    <div style={{ fontSize: '9px', color: C.muted, marginTop: '1px' }}>
+                      {new Date(d.updated_at).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}
+                      {' · '}{d.sections_complete} sections
+                    </div>
+                  </div>
+                  <div style={{ display: 'flex', gap: '4px', flexShrink: 0 }}>
+                    <button
+                      onClick={() => loadDraft(d.id)}
+                      style={{ fontSize: '9px', color: C.cyan, background: 'none', border: 'none', cursor: 'pointer', fontWeight: 600 }}
+                    >
+                      Load
+                    </button>
+                    <button
+                      onClick={() => deleteDraft(d.id)}
+                      style={{ fontSize: '9px', color: C.red, background: 'none', border: 'none', cursor: 'pointer' }}
+                    >
+                      ✕
+                    </button>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
 
         {/* Clear draft — item 10/12 */}
         <div style={{ padding: '12px' }}>

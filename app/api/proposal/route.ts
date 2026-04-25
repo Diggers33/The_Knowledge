@@ -1230,6 +1230,14 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
       finalSystemPrompt += `\n\nHARD STOP: This section must be UNDER ${hardLimit} words. Count your words as you write. Stop immediately when you reach ${hardLimit} words. Do not cover dissemination, commercialisation, societal impact, or scientific publications in this section — those belong in later sections.`
     }
 
+    // Parse source papers for post-generation citation validation
+    const sourcePapers = parseSourcePapers(externalCtx)
+    console.log(`Citation validation: ${sourcePapers.length} source papers parsed from external context`)
+    console.log(`Source papers with DOIs: ${sourcePapers.filter(p => p.url).length}/${sourcePapers.length}`)
+
+    // ── Stream response ───────────────────────────────────────────────────────
+    const isSotASection = normalizedSection === 'state_of_the_art' || normalizedSection === 'innovation' || normalizedSection === 'sota'
+
     // For SotA sections, prepend a numbered source list so the model can cite [N] inline
     const numberedSourceList = (isSotASection && sourcePapers.length > 0)
       ? `NUMBERED SOURCE LIST (use [N] for inline citations):\n${sourcePapers.slice(0, 15).map((p, i) => `[${i + 1}] ${p.authors} (${p.year}). ${p.title}.${p.url ? ' ' + p.url : ''}`).join('\n')}\n`
@@ -1242,14 +1250,6 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
       contextBlocks.join('\n\n'),
       `Write the ${SECTION_LABELS[section] || section} section:`
     ].filter(Boolean).join('\n\n')
-
-    // Parse source papers for post-generation citation validation
-    const sourcePapers = parseSourcePapers(externalCtx)
-    console.log(`Citation validation: ${sourcePapers.length} source papers parsed from external context`)
-    console.log(`Source papers with DOIs: ${sourcePapers.filter(p => p.url).length}/${sourcePapers.length}`)
-
-    // ── Stream response ───────────────────────────────────────────────────────
-    const isSotASection = normalizedSection === 'state_of_the_art' || normalizedSection === 'innovation' || normalizedSection === 'sota'
     const model = isSotASection
       ? (process.env.IRIS_SOTA_MODEL || process.env.IRIS_PROPOSAL_MODEL || 'gpt-4o')
       : (process.env.IRIS_PROPOSAL_MODEL || 'gpt-4o')

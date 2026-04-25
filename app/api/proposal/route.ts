@@ -610,6 +610,31 @@ async function searchCrossref(query: string, limit = 5): Promise<string> {
 }
 
 
+async function searchSemanticScholar(query: string, limit = 5): Promise<string> {
+  try {
+    const apiKey = process.env.SEMANTIC_SCHOLAR_API_KEY
+    const headers: Record<string, string> = { 'Content-Type': 'application/json' }
+    if (apiKey) headers['x-api-key'] = apiKey
+
+    const url = `https://api.semanticscholar.org/graph/v1/paper/search?query=${encodeURIComponent(query.trim())}&limit=${limit}&fields=title,authors,year,abstract,citationCount,externalIds&sort=citationCount`
+    console.log(`[S2] query: "${query.trim()}"`)
+    const res = await fetch(url, { headers, signal: AbortSignal.timeout(10000) })
+    if (!res.ok) { console.warn(`[S2] status ${res.status}`); return '' }
+    const data = await res.json()
+    if (!data.data?.length) return ''
+    return data.data
+      .filter((p: any) => p.abstract)
+      .map((p: any) => {
+        const authors = p.authors?.slice(0, 3).map((a: any) => a.name).join(', ') || ''
+        const doi = p.externalIds?.DOI ? `\nDOI: https://doi.org/${p.externalIds.DOI}` : ''
+        return `Title: ${p.title} (${p.year ?? ''})\nAuthors: ${authors}\nCitations: ${p.citationCount ?? 0}${doi}\nAbstract: ${(p.abstract || '').slice(0, 400)}`
+      }).join('\n\n')
+  } catch (e) {
+    console.error('Semantic Scholar error:', e)
+    return ''
+  }
+}
+
 async function searchOpenAlex(query: string, limit = 6): Promise<string> {
   try {
     const url = `https://api.openalex.org/works?search=${encodeURIComponent(query.trim())}&per-page=${limit}&filter=from_publication_date:2020-01-01,has_abstract:true&sort=cited_by_count:desc&mailto=info@iris-eng.com`
@@ -662,12 +687,14 @@ async function retrieveExternalContext(query: string, keywordSource: string): Pr
   const [
     arxivResults,
     crossrefResults,
+    s2Results,
     openAlexResults,
     euProjectResults,
     industryResults,
   ] = await Promise.all([
     searchArxiv(`${topicKeywords} artificial intelligence industrial`),
     searchCrossref(`${academicKeywords} machine learning process optimization`),
+    searchSemanticScholar(`${academicKeywords} engineering applied`),
     searchOpenAlex(`${academicKeywords} sensor measurement spectroscopy`),
     searchOpenAIREProjects(openAireQuery),
     tavilySearch(`${topicKeywords} challenges limitations industrial deployment 2024 2025`, {
@@ -676,18 +703,19 @@ async function retrieveExternalContext(query: string, keywordSource: string): Pr
     }),
   ])
 
-  console.log(`Research sources: EuropePMC=${ssResults.length} arXiv=${arxivResults.length} Crossref=${crossrefResults.length} OpenAlex=${openAlexResults.length} OpenAIRE=${euProjectResults.length}`)
+  console.log(`Research sources: EuropePMC=${ssResults.length} arXiv=${arxivResults.length} Crossref=${crossrefResults.length} S2=${s2Results.length} OpenAlex=${openAlexResults.length} OpenAIRE=${euProjectResults.length}`)
 
   // ─── Relevance filter: drop off-topic paper blocks ────────────────────────
   const filteredSS         = filterPaperBlocksByKeywords(ssResults, topicKeywords)
   const filteredArxiv      = filterPaperBlocksByKeywords(arxivResults, topicKeywords)
   const filteredCrossref   = filterPaperBlocksByKeywords(crossrefResults, topicKeywords)
+  const filteredS2         = filterPaperBlocksByKeywords(s2Results, topicKeywords)
   const filteredOpenAlex   = filterPaperBlocksByKeywords(openAlexResults, topicKeywords)
 
   // ─── Full-text layer: extract DOIs from filtered SS + Crossref, resolve via Unpaywall ─
   const doiPattern = /(?:URL|DOI): https:\/\/doi\.org\/([^\s\n]+)/g
   const collectedDois: string[] = []
-  for (const src of [filteredSS, filteredCrossref]) {
+  for (const src of [filteredSS, filteredCrossref, filteredS2]) {
     if (!src) continue
     for (const m of src.matchAll(doiPattern)) collectedDois.push(m[1])
   }
@@ -721,6 +749,7 @@ async function retrieveExternalContext(query: string, keywordSource: string): Pr
     filteredSS       ? `[EUROPE PMC — Peer-reviewed papers]\n${filteredSS}`                      : '',
     filteredArxiv    ? `[ARXIV — Latest preprints]\n${filteredArxiv}`                          : '',
     filteredCrossref ? `[CROSSREF — Published research with DOIs]\n${filteredCrossref}`        : '',
+    filteredS2       ? `[SEMANTIC SCHOLAR — Engineering & CS papers]\n${filteredS2}`           : '',
     filteredOpenAlex ? `[OPENALEX — Works with citations]\n${filteredOpenAlex}`                : '',
     euProjectResults ? `[RELATED EU-FUNDED PROJECTS — OpenAIRE]\n${euProjectResults}`         : '',
     industryResults  ? `[INDUSTRY CHALLENGES & GAPS]\n${industryResults}`                     : '',

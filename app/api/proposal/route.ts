@@ -1121,6 +1121,245 @@ async function extractAndFormatReferences(sectionText: string, sourcePapers: Sou
   return refs.join('\n')
 }
 
+// ─── LATEX → MARKDOWN CONVERTER ──────────────────────────────────────────────
+
+function convertLatexToMarkdown(text: string): string {
+  return text
+    .replace(/\\begin\{(?:array|tabular)\}(?:\{[^}]*\})?([\s\S]*?)\\end\{(?:array|tabular)\}/g,
+      (_match, inner: string) => {
+        const rows = inner
+          .split(/\\\\/)
+          .map((r: string) => r.trim())
+          .filter((r: string) => r && !/^\\hline\s*$/.test(r))
+        const mdRows = rows.map((row: string) => {
+          const cleaned = row
+            .replace(/\\hline/g, '')
+            .replace(/\\text\{([^}]+)\}/g, '$1')
+            .replace(/\\textbf\{([^}]+)\}/g, '**$1**')
+            .trim()
+          const cells = cleaned.split('&').map((c: string) => c.trim())
+          return `| ${cells.join(' | ')} |`
+        })
+        if (mdRows.length === 0) return ''
+        const cols = (mdRows[0].match(/\|/g) || []).length - 1
+        const sep = `|${' --- |'.repeat(cols)}`
+        return [mdRows[0], sep, ...mdRows.slice(1)].join('\n')
+      }
+    )
+    .replace(/\\text\{([^}]+)\}/g, '$1')
+    .replace(/\\textbf\{([^}]+)\}/g, '**$1**')
+    .replace(/\\begin\{[^}]+\}/g, '')
+    .replace(/\\end\{[^}]+\}/g, '')
+    .replace(/\\hline/g, '')
+}
+
+// ─── WORKPLAN MULTI-PASS GENERATOR ───────────────────────────────────────────
+// Generates Section 3.1 in two passes to prevent degenerate token loops:
+//   Pass 1 — structured JSON: WP list, deliverables, milestones, risks tables
+//   Pass 2 — prose: one GPT call per WP (~450 words each), run in parallel
+// Assembled result is ~2,200–2,800 words of clean, structured markdown.
+
+async function generateWorkplanMultiPass(
+  brief: ProjectBrief | null,
+  callText: string,
+  additionalContext: string,
+  wpStyleExamples: string,
+): Promise<string> {
+
+  const acronym     = brief?.acronym       || '[ACRONYM]'
+  const title       = brief?.projectTitle  || '[PROJECT TITLE]'
+  const technologies = (brief?.irisTechnologies || ['NIR spectroscopy', 'AI/ML']).join(', ')
+  const trlStart    = brief?.trlStart ?? 3
+  const trlEnd      = brief?.trlEnd   ?? 6
+  const pilots      = (brief?.pilots   || []).join(', ') || '[pilot sites TBC]'
+  const irisWPs     = (brief?.irisWPs  || []).join(', ') || '[TBC]'
+
+  const partnerLines = (brief?.partners || [])
+    .map(p => `- ${p.acronym} (${p.country}): ${p.type}, role=${p.role}${p.wps?.length ? ', WPs=' + p.wps.join('/') : ''}`)
+    .join('\n') || '- [consortium TBC]'
+
+  // ── Pass 1: structured JSON ─────────────────────────────────────────────────
+  const pass1Prompt = `You are writing Horizon Europe Part B Section 3.1 Work Plan for project ${acronym}: "${title}".
+
+CALL TOPIC (excerpt):
+${callText.slice(0, 600)}
+
+CONSORTIUM PARTNERS:
+${partnerLines}
+
+IRIS LEADS WPs: ${irisWPs}
+IRIS TECHNOLOGIES: ${technologies}
+TRL JOURNEY: TRL ${trlStart} → TRL ${trlEnd} by project end
+PILOTS: ${pilots}
+
+${additionalContext ? `WP OUTLINE PROVIDED BY CONSORTIUM:\n${additionalContext.slice(0, 2000)}\n\nUse this outline as the authoritative source. Do not deviate from any WP numbers, titles, or partner assignments given.` : 'No WP outline provided — generate a plausible 5-WP structure for a 48-month project.'}
+
+Output ONLY valid JSON matching this exact schema (no preamble, no markdown fences):
+{
+  "overview": "<one paragraph 90–120 words: WP architecture, how WPs map onto project logic>",
+  "duration": <total months, integer>,
+  "workPackages": [
+    {
+      "number": 1,
+      "title": "<WP title>",
+      "lead": "<partner acronym or 'TBC'>",
+      "participants": ["<acronym>", "..."],
+      "personMonths": "<number or 'TBC'>",
+      "startMonth": <integer>,
+      "endMonth": <integer>,
+      "objectives": "<1–2 sentences on WP objective>",
+      "tasks": [
+        {
+          "id": "T1.1",
+          "title": "<task name>",
+          "lead": "<acronym or 'TBC'>",
+          "partners": ["<acronym>", "..."],
+          "description": "<2–3 sentences: what is done, how validated, output>"
+        }
+      ],
+      "deliverables": [
+        {"id": "D1.1", "title": "<title>", "type": "Report|Prototype|Dataset|Software|Other", "dissemination": "PU|CO|CI", "dueMonth": <integer>}
+      ],
+      "milestones": [
+        {"id": "M1", "title": "<title>", "dueMonth": <integer>, "verification": "<how verified>"}
+      ]
+    }
+  ],
+  "risks": [
+    {"risk": "<1-sentence description>", "wp": "WP1", "likelihood": "Low|Medium|High", "severity": "Low|Medium|High", "mitigation": "<mitigation measure>"}
+  ]
+}
+
+Rules:
+- Generate exactly 4–6 WPs; at least 2 tasks per WP; at least 1 deliverable per WP; at least 6 milestones total
+- Include exactly 5 risks: one each for technical, partner/consortium, data/IP, regulatory, and market risk
+- String values for unknown numbers must be "TBC" (not null, not 0)`
+
+  let structured: any = { overview: '', workPackages: [], risks: [], duration: 48 }
+  try {
+    const p1 = await openai.chat.completions.create({
+      model: 'gpt-4o',
+      response_format: { type: 'json_object' },
+      messages: [{ role: 'user', content: pass1Prompt }],
+      max_tokens: 3500,
+      temperature: 0.3,
+    })
+    structured = JSON.parse(p1.choices[0].message.content || '{}')
+    console.log(`Workplan Pass 1: ${(structured.workPackages || []).length} WPs, ${(structured.risks || []).length} risks`)
+  } catch (e) {
+    console.error('Workplan Pass 1 JSON parse failed:', e)
+  }
+
+  const wps: any[]   = structured.workPackages || []
+  const risks: any[] = structured.risks        || []
+  const duration: number = structured.duration ?? 48
+
+  // ── Pass 2: prose descriptions per WP, in parallel ──────────────────────────
+  const styleHint = wpStyleExamples
+    ? `\n\nHorizon Europe IRIS task description examples (match this level of technical detail):\n${wpStyleExamples.slice(0, 1200)}`
+    : ''
+
+  const wpDescriptions: string[] = await Promise.all(
+    wps.map(async (wp: any) => {
+      const taskSummary = (wp.tasks || [])
+        .map((t: any) => `${t.id} "${t.title}" (Lead: ${t.lead}): ${t.description}`)
+        .join('\n')
+
+      const wpPrompt = `Write the detailed prose description for WP${wp.number}: ${wp.title} in a Horizon Europe proposal for project ${acronym} (call topic: ${callText.slice(0, 200)}).
+
+WP metadata:
+- Lead: ${wp.lead} | Participants: ${(wp.participants || []).join(', ')} | Duration: M${wp.startMonth}–M${wp.endMonth} | PM: ${wp.personMonths}
+- Objective: ${wp.objectives}
+- Tasks:
+${taskSummary}
+
+Instructions:
+- Write in first person plural ("we will", "our approach")
+- Open with 1 italic metadata line: *Lead: ${wp.lead}; Participants: ${(wp.participants || []).join(', ')}; Duration: M${wp.startMonth}–M${wp.endMonth}; Person-months: ${wp.personMonths}*
+- Then 1 sentence stating the WP objective
+- Then for each task, write: **Task ${wp.number}.X: [title]** (Lead: PARTNER; Partners: A, B) on its own line, followed by 3–4 sentences of prose
+- Reference IRIS technologies where applicable: ${technologies}
+- Mention TRL progression from TRL ${trlStart} to TRL ${trlEnd} if it applies to this WP
+- NO tables, NO additional headings, NO bullet lists (prose only)
+- Maximum 480 words total — stop cleanly when done, do not pad${styleHint}`
+
+      try {
+        const wpRes = await openai.chat.completions.create({
+          model: 'gpt-4o',
+          messages: [{ role: 'user', content: wpPrompt }],
+          max_tokens: 700,
+          temperature: 0.5,
+          frequency_penalty: 0.7,
+          presence_penalty: 0.5,
+        })
+        return wpRes.choices[0].message.content?.trim() || `[WP${wp.number} description to be completed by consortium]`
+      } catch (e) {
+        console.error(`Workplan Pass 2 WP${wp.number} failed:`, e)
+        return `[WP${wp.number} description to be completed by consortium]`
+      }
+    })
+  )
+
+  // ── Assemble markdown ────────────────────────────────────────────────────────
+  const md: string[] = []
+
+  // Overview
+  md.push(`### Work package overview\n\n${structured.overview || '[Work package overview to be completed by consortium]'}`)
+
+  // WP list table
+  const wpRows = wps.map((wp: any) =>
+    `| WP${wp.number} | ${wp.title} | ${wp.lead} | ${wp.personMonths} | M${wp.startMonth} | M${wp.endMonth} |`
+  ).join('\n')
+  md.push(`### Work package list\n\n| WP no. | WP title | Lead beneficiary | Person-months | Start month | End month |\n|--------|----------|-----------------|---------------|-------------|----------|\n${wpRows || '| WP1 | [TBC] | [TBC] | [TBC] | M1 | M${duration} |'}`)
+
+  // Deliverables table
+  const allDels = wps.flatMap((wp: any) => (wp.deliverables || []).map((d: any) => ({ ...d, wpNum: wp.number })))
+  const delRows = allDels.map((d: any) =>
+    `| ${d.id} | ${d.title} | WP${d.wpNum} | TBC | ${d.type} | ${d.dissemination} | M${d.dueMonth} |`
+  ).join('\n')
+  md.push(`### Deliverables\n\n| D-no. | Deliverable title | WP | Lead | Type | Dissemination | Due month |\n|-------|------------------|----|------|------|---------------|-----------|\n${delRows || '| D1.1 | [TBC] | WP1 | [TBC] | Report | PU | M12 |'}`)
+
+  // Milestones table
+  const allMs = wps.flatMap((wp: any) => (wp.milestones || []).map((m: any) => ({ ...m, wpNum: wp.number })))
+  const msRows = allMs.map((m: any) =>
+    `| ${m.id} | ${m.title} | WP${m.wpNum} | M${m.dueMonth} | ${m.verification} |`
+  ).join('\n')
+  md.push(`### Milestones\n\n| M-no. | Milestone title | WP | Due month | Verification means |\n|-------|----------------|----|-----------|--------------------|\\n${msRows || '| M1 | [TBC] | WP1 | M12 | [TBC] |'}`)
+
+  // WP descriptions
+  if (wps.length > 0) {
+    const wpSecs = wps.map((wp: any, i: number) =>
+      `#### WP${wp.number}: ${wp.title}\n\n${wpDescriptions[i] || `[WP${wp.number} description to be completed]`}`
+    ).join('\n\n')
+    md.push(`### WP descriptions\n\n${wpSecs}`)
+  }
+
+  // Risks table
+  const riskRows = risks.map((r: any) =>
+    `| ${r.risk} | ${r.wp} | ${r.likelihood} | ${r.severity} | ${r.mitigation} |`
+  ).join('\n')
+  md.push(`### Critical risks and mitigation\n\n| Risk | WP | Likelihood | Severity | Mitigation measure |\n|------|----|------------|----------|--------------------|\n${riskRows || '| [TBC] | WP1 | Medium | Medium | [TBC] |'}`)
+
+  // Person-month summary table
+  const allPartners = [...new Set(wps.flatMap((wp: any) => [wp.lead, ...(wp.participants || [])]))]
+    .filter(p => p && p !== 'TBC' && !p.includes('['))
+  if (allPartners.length > 0 && wps.length > 0) {
+    const hdr = `| Partner | ${wps.map((wp: any) => `WP${wp.number}`).join(' | ')} | **Total** |`
+    const sep = `|---------|${wps.map(() => '-----').join('|')}|-----------|`
+    const rows = allPartners.map(partner => {
+      const cells = wps.map((wp: any) => {
+        if (wp.lead === partner) return 'TBC-L'
+        if ((wp.participants || []).includes(partner)) return 'TBC'
+        return '—'
+      })
+      return `| ${partner} | ${cells.join(' | ')} | TBC |`
+    })
+    md.push(`### Person-month summary\n\n${hdr}\n${sep}\n${rows.join('\n')}`)
+  }
+
+  return md.join('\n\n')
+}
+
 // ─── MAIN HANDLER ─────────────────────────────────────────────────────────────
 
 export async function POST(req: NextRequest) {
@@ -1385,24 +1624,22 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
       ? `EXISTING DRAFT FOR THIS SECTION:\nThe user has an existing draft for this section. Use it as the structural foundation — keep all WP numbers, task numbers, partner names, deliverable numbers and months exactly as given. Expand the task descriptions to match the detail level of the style examples provided.\n\n${existingDraft}\n\n${systemPrompt}`
       : systemPrompt
 
-    // ── WP style examples (workplan only) ────────────────────────────────────
-    if (section === 'workplan') {
+    // ── WP style examples (workplan only) — captured for multi-pass ──────────
+    let wpStyleExamples = ''
+    if (isWorkplanSection) {
       try {
         const wpStyleQuery = `work package task description lead partners deliverables months`
         const wpEmbedding = await embedBatch([wpStyleQuery])
         const wpExamples = await searchChunks(wpEmbedding[0], wpStyleQuery, 8)
-        const wpStyleExamples = wpExamples
-          .filter(c =>
+        wpStyleExamples = wpExamples
+          .filter((c: any) =>
             /T\d+\.\d+|Task \d+\.\d+/i.test(c.content) &&
             /Lead:|Partners:/i.test(c.content) &&
             c.content.length > 500
           )
           .slice(0, 3)
-          .map(c => c.content)
+          .map((c: any) => c.content)
           .join('\n\n---\n\n')
-        if (wpStyleExamples) {
-          enrichedSystemPrompt += `\n\nSTYLE EXAMPLES — write WP descriptions in exactly this format and level of detail:\n\n${wpStyleExamples}`
-        }
       } catch (e) {
         console.warn('WP style retrieval failed (non-fatal):', e)
       }
@@ -1420,9 +1657,61 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
     console.log(`Citation validation: ${sourcePapers.length} source papers parsed from external context`)
     console.log(`Source papers with DOIs: ${sourcePapers.filter(p => p.url).length}/${sourcePapers.length}`)
 
-    // ── Stream response ───────────────────────────────────────────────────────
+    // ── Workplan: multi-pass generation path ─────────────────────────────────
+    // Two-pass approach prevents the degenerate synonym loops seen with single-call
+    // generation at 2800+ word targets. Pass 1 = structured JSON tables, Pass 2 =
+    // per-WP prose (~450 words each, parallel), assembled into clean markdown.
     const isSotASection = normalizedSection === 'state_of_the_art' || normalizedSection === 'innovation' || normalizedSection === 'sota'
     // isWorkplanSection is already declared above
+
+    if (isWorkplanSection) {
+      const encoder = new TextEncoder()
+      const readable = new ReadableStream({
+        async start(controller) {
+          try {
+            let wpText = await generateWorkplanMultiPass(brief, callText, additionalContext || '', wpStyleExamples)
+            wpText = convertLatexToMarkdown(wpText)
+
+            // n-gram deduplication (8-word windows)
+            const words = wpText.split(/\s+/)
+            if (words.length > 100) {
+              const gramCounts = new Map<string, number>()
+              for (let j = 0; j <= words.length - 8; j++) {
+                const gram = words.slice(j, j + 8).join(' ').toLowerCase()
+                gramCounts.set(gram, (gramCounts.get(gram) || 0) + 1)
+              }
+              const maxGram = gramCounts.size > 0 ? Math.max(...gramCounts.values()) : 0
+              if (maxGram > 3) {
+                console.warn(`Workplan n-gram loop detected (max=${maxGram}) — truncating at first repeat`)
+                // Find the position of the first repeated gram beyond its 2nd occurrence
+                const seen2 = new Map<string, number>()
+                let cutWord = words.length
+                for (let j = 0; j <= words.length - 8; j++) {
+                  const gram = words.slice(j, j + 8).join(' ').toLowerCase()
+                  const count = (seen2.get(gram) || 0) + 1
+                  seen2.set(gram, count)
+                  if (count > 2) { cutWord = j; break }
+                }
+                wpText = words.slice(0, cutWord).join(' ')
+              }
+            }
+
+            controller.enqueue(encoder.encode(wpText))
+            if (kbSourceBlock) {
+              controller.enqueue(encoder.encode(`\n\n<<<KB_SOURCES>>>\n${kbSourceBlock}`))
+            }
+          } catch (e: any) {
+            console.error('Workplan multi-pass error:', e)
+            controller.enqueue(encoder.encode(`Generation error: ${e.message}. Please regenerate.`))
+          } finally {
+            controller.close()
+          }
+        }
+      })
+      return new NextResponse(readable, { headers: { 'Content-Type': 'text/plain; charset=utf-8' } })
+    }
+
+    // ── Stream response ───────────────────────────────────────────────────────
 
     // For SotA sections, prepend a numbered source list so the model can cite [N] inline
     const numberedSourceList = (isSotASection && sourcePapers.length > 0)
@@ -1475,27 +1764,29 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
           // Replace Unicode black-square bullets with standard markdown dashes
           fullGeneratedText = fullGeneratedText.replace(/■\s*/g, '- ')
 
-          // ── Deduplication guard — detect and remove sentence loops ───────────
+          // ── Deduplication guard — n-gram windowing (8-word) ─────────────────
+          // Catches both sentence-level repeats and synonym spirals
           {
-            const sentences = fullGeneratedText.split(/(?<=[.!?])\s+/)
-            const sentenceCount = new Map<string, number>()
-            for (const s of sentences) {
-              const key = s.trim().toLowerCase().slice(0, 80)
-              if (key.length < 25) continue
-              sentenceCount.set(key, (sentenceCount.get(key) || 0) + 1)
-            }
-            const maxRepeat = sentenceCount.size > 0 ? Math.max(...sentenceCount.values()) : 0
-            if (maxRepeat > 3) {
-              console.warn(`Repetition loop detected (max repeat=${maxRepeat}) — deduplicating output`)
-              const seen = new Set<string>()
-              const deduped = sentences.filter(s => {
-                const key = s.trim().toLowerCase().slice(0, 80)
-                if (key.length < 25) return true
-                if (seen.has(key)) return false
-                seen.add(key)
-                return true
-              })
-              fullGeneratedText = deduped.join(' ').trim()
+            const words = fullGeneratedText.split(/\s+/)
+            if (words.length > 80) {
+              const gramCounts = new Map<string, number>()
+              for (let j = 0; j <= words.length - 8; j++) {
+                const gram = words.slice(j, j + 8).join(' ').toLowerCase()
+                gramCounts.set(gram, (gramCounts.get(gram) || 0) + 1)
+              }
+              const maxGram = gramCounts.size > 0 ? Math.max(...gramCounts.values()) : 0
+              if (maxGram > 4) {
+                console.warn(`N-gram loop detected (max=${maxGram}) — truncating at first repeat`)
+                const seen2 = new Map<string, number>()
+                let cutWord = words.length
+                for (let j = 0; j <= words.length - 8; j++) {
+                  const gram = words.slice(j, j + 8).join(' ').toLowerCase()
+                  const cnt = (seen2.get(gram) || 0) + 1
+                  seen2.set(gram, cnt)
+                  if (cnt > 2) { cutWord = j; break }
+                }
+                fullGeneratedText = words.slice(0, cutWord).join(' ')
+              }
             }
           }
 

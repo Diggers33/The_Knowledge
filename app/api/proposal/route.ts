@@ -254,11 +254,11 @@ CRITICAL RULES FOR STATE OF THE ART:
 - Every gap bullet must cite a specific source — never write "as noted in the broader literature" or similar vague attribution
 
 CITATIONS — ABSOLUTE RULE:
+Use numbered inline citations [N] where N is the number of the paper in the source list provided.
 You may ONLY cite papers that appear verbatim in the provided source context (EUROPE PMC, ARXIV, CROSSREF, CORE, or OPENALEX blocks above).
-Do NOT cite any paper not explicitly listed in those blocks.
-Do NOT use your training data to add citations.
-If a source paper supports a claim, cite it by the exact author names and year shown in the source block.
-If no source paper supports a specific claim, make the claim without a citation rather than inventing one.`,
+Do NOT invent citations. Do NOT use your training knowledge to add references not in the source blocks.
+Place [N] at the end of the sentence or clause it supports, before the full stop.
+Aim to cite at least one source per paragraph.`,
   HYBRID:   `[FOR HYBRID SECTIONS]: Combine the external research landscape with IRIS's specific position and demonstrated capabilities within that landscape.`,
 }
 
@@ -926,19 +926,19 @@ function validateCitations(
   generatedText: string,
   sourcePapers: SourcePaper[]
 ): { valid: string[]; invalid: string[] } {
-  const citationPattern = /([A-Z][a-záéíóúü]+(?:\s+et\s+al\.?)?(?:\s+and\s+[A-Z][a-záéíóúü]+)?)\s*\((\d{4})\)/g
+  // Match numbered citations [1], [2], [1,2], [1-3]
+  const citationPattern = /\[(\d+(?:[,–\-]\d+)*)\]/g
   const valid: string[] = []
   const invalid: string[] = []
   const seen = new Set<string>()
   let match
   while ((match = citationPattern.exec(generatedText)) !== null) {
-    const key = `${match[1].trim()} (${match[2]})`
+    const key = match[0]
     if (seen.has(key)) continue
     seen.add(key)
-    const authorPart = match[1].toLowerCase().split(/[\s,]+/)[0]
-    const year = match[2]
-    const found = sourcePapers.some(p => p.year === year && p.authors.includes(authorPart))
-    if (found) valid.push(key)
+    const nums = match[1].split(/[,–\-]/).map(n => parseInt(n.trim(), 10))
+    const allValid = nums.every(n => n >= 1 && n <= sourcePapers.length)
+    if (allValid) valid.push(key)
     else invalid.push(key)
   }
   return { valid, invalid }
@@ -947,82 +947,31 @@ function validateCitations(
 // ─── REFERENCE EXTRACTION ─────────────────────────────────────────────────────
 
 async function extractAndFormatReferences(sectionText: string, sourcePapers: SourcePaper[]): Promise<string> {
-  const citationPattern = /([A-Z][a-záéíóúü]+(?:\s+et\s+al\.?)?(?:\s+and\s+[A-Z][a-záéíóúü]+)?)\s*\((\d{4})\)/g
-  const citations = new Set<string>()
+  // Find all [N] citation numbers used in the text
+  const citationPattern = /\[(\d+(?:[,–\-]\d+)*)\]/g
+  const usedNums = new Set<number>()
   let match
   while ((match = citationPattern.exec(sectionText)) !== null) {
-    citations.add(`${match[1].trim()} (${match[2]})`)
+    match[1].split(/[,–\-]/).forEach(n => {
+      const num = parseInt(n.trim(), 10)
+      if (num >= 1 && num <= sourcePapers.length) usedNums.add(num)
+    })
+  }
+  if (usedNums.size === 0) {
+    // No inline citations — still emit the full source list as a "Sources consulted" block
+    if (sourcePapers.length === 0) return ''
+    return sourcePapers.map((p, i) =>
+      `${i + 1}. ${p.authors} (${p.year}). ${p.title}.${p.url ? ' ' + p.url : ''}`
+    ).join('\n')
   }
 
-  if (citations.size === 0) return ''
-
-  const matchedRefs: string[] = []
-  const unmatchedCitations: string[] = []
-
-  for (const citation of Array.from(citations)) {
-    const authorSurname = citation.split(' ')[0].toLowerCase()
-    const year = citation.match(/\((\d{4})\)/)?.[1]
-    const found = sourcePapers.find(p =>
-      p.year === year && p.authors.includes(authorSurname)
-    )
-    if (found?.title) {
-      // Build directly from retrieved source data — no GPT needed
-      const ref = `${found.authors} (${found.year}). ${found.title}.${found.url ? ' ' + found.url : ''}`
-      matchedRefs.push(ref)
-    } else {
-      unmatchedCitations.push(citation)
-    }
-  }
-
-  console.log(`References: ${matchedRefs.length} built from source data, ${unmatchedCitations.length} sent to GPT`)
-
-  // GPT formatting only for citations not matched in source papers
-  let gptRefs = ''
-  if (unmatchedCitations.length > 0) {
-    const prompt = `You are formatting references for a Horizon Europe research proposal.
-The following author-year citations appear in the text but could not be matched to retrieved source papers.
-For each one, provide the full bibliographic reference in APA 7th edition format if you are highly confident about it.
-
-Rules:
-- If you are not certain of the exact title, journal, volume, or pages — write the citation as given followed by: [To be verified — search: https://scholar.google.com/scholar?q=CITATION_HERE]
-- Do not invent DOIs, page numbers, or journal names
-- If you know the DOI, include it as: https://doi.org/xxxxx
-- Format: Author, A. B., & Author, C. D. (Year). Title of article. Journal Name, Volume(Issue), pages. https://doi.org/xxxxx
-
-Citations to format:
-${unmatchedCitations.join('\n')}
-
-Return ONLY the reference list entries, one per line. No preamble, no commentary.`
-
-    try {
-      const res = await fetch('https://api.openai.com/v1/chat/completions', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`
-        },
-        body: JSON.stringify({
-          model: 'gpt-4o-mini',
-          messages: [{ role: 'user', content: prompt }],
-          temperature: 0,
-          max_tokens: 800
-        })
-      })
-      const data = await res.json()
-      gptRefs = data.choices?.[0]?.message?.content?.trim() || ''
-    } catch (e) {
-      console.error('Reference extraction error:', e)
-    }
-  }
-
-  const allRefs = [
-    ...matchedRefs,
-    ...(gptRefs ? gptRefs.split('\n').filter(Boolean) : []),
-  ]
-
-  return allRefs
-    .map((r, i) => `${i + 1}. ${r}`)
-    .join('\n')
+  // Build numbered reference list for cited papers only
+  const refs = Array.from(usedNums).sort((a, b) => a - b).map(n => {
+    const p = sourcePapers[n - 1]
+    return `${n}. ${p.authors} (${p.year}). ${p.title}.${p.url ? ' ' + p.url : ''}`
+  })
+  console.log(`References: ${refs.length} cited sources formatted`)
+  return refs.join('\n')
 }
 
 // ─── MAIN HANDLER ─────────────────────────────────────────────────────────────
@@ -1167,7 +1116,7 @@ Call scope: ${brief.scopeSelected}
 2–3 short paragraphs (max 120 words each). Name specific methods, tools, commercial platforms, and research groups from the provided sources. Every claim must name a source, company, or measurement — no generic statements.
 
 ### Recent advances
-2–3 paragraphs citing specific results and metrics from the retrieved papers. For each advance: name the authors/group, the year, the methodology, and the measured outcome (e.g. accuracy %, throughput, cost reduction). Use inline citations in the format (Author et al., YEAR) using ONLY authors and years visible in the source blocks.
+2–3 paragraphs citing specific results and metrics from the retrieved papers. For each advance: name the authors/group, the year, the methodology, and the measured outcome (e.g. accuracy %, throughput, cost reduction). Use numbered inline citations [N] from the numbered source list provided.
 
 ### Gaps in the state of the art
 Use - bullet points (NOT ■). Write 4–6 gap bullets, each 2–3 sentences: describe the gap, name the specific limitation or missing capability, cite the source that evidences it. Do not write vague bullets like "lacks scalability" — be specific about what is missing and why it matters.
@@ -1182,7 +1131,7 @@ IMPORTANT CONSTRAINTS:
 - Sub-section ### headings are required — do not omit them
 - Use - for all bullet points, never ■
 - Maximum paragraph length: 130 words — if a paragraph exceeds this, split it
-- Use (Author et al., YEAR) or (Author, YEAR) inline citations from the source blocks only
+- Use numbered inline citations [N] matching the numbered source list — e.g. [1], [2], [1,3]
 - Do not mention the project acronym or the call identifier in this section
 - Do not open with a sentence about the EU programme or Horizon Europe
 - Total length must be 1,800–2,200 words`,
@@ -1281,9 +1230,15 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
       finalSystemPrompt += `\n\nHARD STOP: This section must be UNDER ${hardLimit} words. Count your words as you write. Stop immediately when you reach ${hardLimit} words. Do not cover dissemination, commercialisation, societal impact, or scientific publications in this section — those belong in later sections.`
     }
 
+    // For SotA sections, prepend a numbered source list so the model can cite [N] inline
+    const numberedSourceList = (isSotASection && sourcePapers.length > 0)
+      ? `NUMBERED SOURCE LIST (use [N] for inline citations):\n${sourcePapers.slice(0, 15).map((p, i) => `[${i + 1}] ${p.authors} (${p.year}). ${p.title}.${p.url ? ' ' + p.url : ''}`).join('\n')}\n`
+      : ''
+
     const userMessage = [
       `Call topic / objectives:\n${callText}`,
       additionalContext ? `Additional context:\n${additionalContext}` : '',
+      numberedSourceList,
       contextBlocks.join('\n\n'),
       `Write the ${SECTION_LABELS[section] || section} section:`
     ].filter(Boolean).join('\n\n')
@@ -1328,23 +1283,25 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
           // Replace Unicode black-square bullets with standard markdown dashes
           fullGeneratedText = fullGeneratedText.replace(/■\s*/g, '- ')
 
-          // ── Citation injection (SotA/EXTERNAL only, when model produced none) ──
+          // ── Citation injection (SotA/EXTERNAL only) — always run to add [N] refs ──
           if (isSotASection && sourcePapers.length > 0) {
-            const existingCites = (fullGeneratedText.match(/\([A-Z][a-z]+(?: et al\.)?,\s*\d{4}\)/g) || []).length
-            if (existingCites === 0) {
-              console.log(`Citation injection: model produced 0 citations, injecting from ${sourcePapers.length} source papers`)
-              const sourceList = sourcePapers.slice(0, 12).map((p, i) =>
-                `[${i + 1}] ${p.authors || p.title} (${p.year})${p.url ? ' — ' + p.url : ''}: ${p.title}`
+            const existingCites = (fullGeneratedText.match(/\[\d+\]/g) || []).length
+            if (existingCites < 3) {
+              console.log(`Citation injection: ${existingCites} [N] citations found, injecting from ${sourcePapers.length} source papers`)
+              const sourceList = sourcePapers.slice(0, 15).map((p, i) =>
+                `[${i + 1}] ${p.authors} (${p.year}). ${p.title}.${p.url ? ' ' + p.url : ''}`
               ).join('\n')
-              const injectionPrompt = `You are a citation editor. The text below was written without inline citations. Add inline citations in the format (Author et al., YEAR) or (Author, YEAR) where the text makes a factual claim that is supported by one of the source papers listed.
+              const injectionPrompt = `You are a citation editor working on a Horizon Europe proposal. The text below contains factual claims about the state of the art. Add numbered inline citations [N] where claims are supported by the source papers listed.
 
 Rules:
-- Only add citations where the claim clearly matches a paper's topic or findings
-- Use the exact author surname and year from the source list
-- Add at most one citation per sentence
-- Do not invent citations not in the source list
+- Use [N] format (e.g. [1], [2], [1,3]) matching the source paper numbers below
+- Add citations at the END of the sentence or clause they support, before the full stop
+- Only cite where the claim clearly relates to that paper's topic or findings
+- Add citations to at least 40% of sentences that make factual claims
+- Do not cite general transition sentences ("however", "in summary", etc.)
+- Do not invent citations — only use numbers [1]–[${sourcePapers.slice(0, 15).length}]
 - Do not change any other words in the text
-- Return the full text with citations inserted
+- Return the complete text with [N] citations inserted
 
 SOURCE PAPERS:
 ${sourceList}
@@ -1362,7 +1319,7 @@ ${fullGeneratedText}`
                 const injected = injectData.choices?.[0]?.message?.content?.trim()
                 if (injected && injected.length > fullGeneratedText.length * 0.8) {
                   fullGeneratedText = injected
-                  console.log(`Citation injection complete: ${existingCites} → ${(fullGeneratedText.match(/\([A-Z][a-z]+(?: et al\.)?,\s*\d{4}\)/g) || []).length} citations`)
+                  console.log(`Citation injection complete: ${existingCites} → ${(fullGeneratedText.match(/\[\d+\]/g) || []).length} citations`)
                 }
               } catch (e) {
                 console.error('Citation injection error (non-fatal):', e)

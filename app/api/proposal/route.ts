@@ -468,6 +468,29 @@ function extractTopicKeywords(callText: string): string {
     .join(' ')
 }
 
+// Drop paper blocks whose title+abstract share no keywords with the call topic.
+// Prevents off-domain papers (e.g. cybersecurity, 6G) from polluting SotA sections.
+function filterPaperBlocksByKeywords(sourceText: string, topicKeywords: string, minMatches = 1): string {
+  if (!sourceText || !topicKeywords) return sourceText
+  const kwSet = new Set(topicKeywords.toLowerCase().split(/\s+/).filter(k => k.length > 3))
+  if (kwSet.size === 0) return sourceText
+
+  const blocks = sourceText.split(/\n\n+/)
+  const filtered = blocks.filter(block => {
+    const lower = block.toLowerCase()
+    let hits = 0
+    for (const kw of kwSet) {
+      if (lower.includes(kw)) { hits++; if (hits >= minMatches) return true }
+    }
+    return false
+  })
+
+  if (filtered.length < blocks.length) {
+    console.log(`Citation filter: dropped ${blocks.length - filtered.length}/${blocks.length} off-topic paper blocks`)
+  }
+  return filtered.join('\n\n')
+}
+
 async function tavilySearch(
   query: string,
   options: { search_depth?: string; max_results?: number; include_domains?: string[] }
@@ -668,10 +691,17 @@ async function retrieveExternalContext(query: string, keywordSource: string): Pr
 
   console.log(`Research sources: EuropePMC=${ssResults.length} arXiv=${arxivResults.length} Crossref=${crossrefResults.length} CORE=${coreResults.length} OpenAlex=${openAlexResults.length} OpenAIRE=${euProjectResults.length}`)
 
-  // ─── Full-text layer: extract DOIs from SS + Crossref, resolve via Unpaywall ─
+  // ─── Relevance filter: drop off-topic paper blocks ────────────────────────
+  const filteredSS         = filterPaperBlocksByKeywords(ssResults, topicKeywords)
+  const filteredArxiv      = filterPaperBlocksByKeywords(arxivResults, topicKeywords)
+  const filteredCrossref   = filterPaperBlocksByKeywords(crossrefResults, topicKeywords)
+  const filteredCore       = filterPaperBlocksByKeywords(coreResults, topicKeywords)
+  const filteredOpenAlex   = filterPaperBlocksByKeywords(openAlexResults, topicKeywords)
+
+  // ─── Full-text layer: extract DOIs from filtered SS + Crossref, resolve via Unpaywall ─
   const doiPattern = /(?:URL|DOI): https:\/\/doi\.org\/([^\s\n]+)/g
   const collectedDois: string[] = []
-  for (const src of [ssResults, crossrefResults]) {
+  for (const src of [filteredSS, filteredCrossref]) {
     if (!src) continue
     for (const m of src.matchAll(doiPattern)) collectedDois.push(m[1])
   }
@@ -702,11 +732,11 @@ async function retrieveExternalContext(query: string, keywordSource: string): Pr
   }
 
   const externalContext = [
-    ssResults        ? `[EUROPE PMC — Peer-reviewed papers]\n${ssResults}`                      : '',
-    arxivResults     ? `[ARXIV — Latest preprints]\n${arxivResults}`                          : '',
-    crossrefResults  ? `[CROSSREF — Published research with DOIs]\n${crossrefResults}`        : '',
-    coreResults      ? `[CORE — Open access full text]\n${coreResults}`                       : '',
-    openAlexResults  ? `[OPENALEX — Works with citations]\n${openAlexResults}`                : '',
+    filteredSS       ? `[EUROPE PMC — Peer-reviewed papers]\n${filteredSS}`                      : '',
+    filteredArxiv    ? `[ARXIV — Latest preprints]\n${filteredArxiv}`                          : '',
+    filteredCrossref ? `[CROSSREF — Published research with DOIs]\n${filteredCrossref}`        : '',
+    filteredCore     ? `[CORE — Open access full text]\n${filteredCore}`                       : '',
+    filteredOpenAlex ? `[OPENALEX — Works with citations]\n${filteredOpenAlex}`                : '',
     euProjectResults ? `[RELATED EU-FUNDED PROJECTS — OpenAIRE]\n${euProjectResults}`         : '',
     industryResults  ? `[INDUSTRY CHALLENGES & GAPS]\n${industryResults}`                     : '',
     fullTextBlock    ? `[FULL TEXT — Open-access PDFs via Unpaywall]\n${fullTextBlock}`        : '',

@@ -1483,18 +1483,27 @@ export async function POST(req: NextRequest) {
     if (internalCtx) contextBlocks.push(`=== IRIS KNOWLEDGE BASE ===\n${internalCtx}`)
     if (externalCtx) contextBlocks.push(`=== EXTERNAL RESEARCH ===\n${externalCtx}`)
 
-    // ── Build brief context block ─────────────────────────────────────────────
+    // ── Project facts block — injected into EVERY section prompt ─────────────
+    // This is the single source of truth for project identity. Without it,
+    // sections invent different project names (CIRCULAR FoodPack, SORT4CIRC…).
     const briefContext = brief ? `
-PROJECT BRIEF:
-Title: ${brief.projectTitle} (${brief.acronym})
+╔══════════════════════════════════════════════════════════╗
+║  PROJECT IDENTITY — DO NOT DEVIATE FROM THESE FACTS     ║
+╚══════════════════════════════════════════════════════════╝
+Project title:  ${brief.projectTitle}
+Acronym:        ${brief.acronym}
 Core innovation: ${brief.coreInnovation}
 Why beyond SotA: ${brief.whyBeyondSotA}
 IRIS technologies: ${(brief.irisTechnologies || []).join(', ')}
-IRIS role: ${brief.irisRole}
-TRL: ${brief.trlStart} → ${brief.trlEnd}
-Pilots: ${(brief.pilots || []).join(', ')}
-Partners: ${(brief.partners || []).map((p: any) => `${p.acronym} (${p.country}) — ${p.role}`).join(', ')}
-Call scope: ${brief.scopeSelected}
+IRIS role:      ${brief.irisRole}
+TRL journey:    TRL ${brief.trlStart} → TRL ${brief.trlEnd}
+Pilots / sectors: ${(brief.pilots || []).join(', ')}
+Partners:       ${(brief.partners || []).map((p: any) => `${p.acronym} (${p.country}, ${p.role})`).join(' | ')}
+Call scope:     ${brief.scopeSelected}
+
+ABSOLUTE RULE: The project described in every output sentence MUST match the above facts.
+NEVER use a different project name, acronym, or description — even if retrieved chunks mention other EU projects.
+If retrieved context mentions CIRCULAR FoodPack, SORT4CIRC, PHOTONFOOD, PRESERVE, or any other prior project — use those only as structural EXAMPLES or ANALOGIES, never as the project being described.
 `.trim() : ''
 
     // ── Section-specific instructions ────────────────────────────────────────
@@ -1525,12 +1534,9 @@ IMPORTANT CONSTRAINTS:
 - Do not mention the project acronym or the call identifier in this section
 - Do not open with a sentence about the EU programme or Horizon Europe
 - Total length must be 1,800–2,200 words`,
-      methodology: `Describe the technical approach as a sequence of research phases. For each phase: name it, state the TRL at start and end of the phase, describe the work in 3-4 sentences, name the lead partner and contributing partners. Format task descriptions as: **Task X.Y: [name]** (Lead: PARTNER; Partners: A, B). Reference the specific IRIS technologies: ${(brief?.irisTechnologies || ['NIR spectroscopy', 'AI/ML']).join(', ')}. For each major risk: name it, explain why it is a risk, state the mitigation measure. Never describe a phase without stating who does the work and how it will be validated. State TRL progression explicitly: from TRL ${brief?.trlStart ?? '?'} at project start to TRL ${brief?.trlEnd ?? '?'} at the pilots: ${(brief?.pilots || []).join(', ')}.`,
       innovation: `Focus on what is genuinely novel — not incremental improvement but breakthrough potential. Compare explicitly to existing approaches and state what they cannot do. Ground in IRIS's demonstrated capabilities from the KB context.`,
       consortium: `Write one paragraph per partner (4-6 sentences each). For each partner: name, country, type, specific expertise, role in this project, and why they are the best choice for that role. Do not use bullet points — flowing prose per partner. Close with a paragraph on consortium complementarity and geographic spread.`,
       business_case: `Structure as: market context → IRIS's commercial pathway → partner exploitation routes → investment and revenue model → timeline to market. Reference specific sectors: ${(brief?.pilots || []).join(', ')}. Be specific about who will buy what — avoid generic statements.`,
-      outcomes: `Do NOT open with a project summary or preamble paragraph. Start immediately with the first outcome: "A primary outcome of the project is...". Do NOT close with a TRL summary paragraph — that belongs in Section 1.1.\n\nMap explicitly and in order to each call expected outcome from the resolved call text. For each outcome: (1) state what the project delivers toward that outcome in 1-2 sentences, (2) quantify with a specific metric and the reasoning that produces it, (3) name the pilot or demonstration context where this will be shown. Then cover scientific impact (publications, datasets, open access), economic impact (market pathway, sectors, revenue model), and societal impact (workforce, environment, policy). Do not use "Outcome 1:", "Outcome 2:" as inline labels — use prose transitions: "A primary outcome...", "Beyond process efficiency...", "At the scientific level...". Show the reasoning behind every quantified target.\n\nSCOPE: Cover the 3 call expected outcomes with quantified project contributions. Do NOT include: task descriptions, methodology detail, or consortium information. End the section after covering scientific, economic and societal impact briefly (2-3 sentences each). Hard maximum: 800 words.`,
-      dissemination: `Cover: open access plan (journals, repositories), IPR strategy, exploitation roadmap per partner, standardisation activities, and communication channels. Be specific about timelines and responsibilities.`,
       workplan: `Write a complete Horizon Europe Part B Section 3.1 Work Plan. Structure EXACTLY as follows, using these ### headings:
 
 ### Work package overview
@@ -1566,8 +1572,95 @@ RULES:
 - The partners in this consortium are: ${(brief?.partners || []).map((p: any) => `${p.acronym} (${p.country})`).join(', ') || '[see brief]'}
 - IRIS leads the following WPs: ${(brief?.irisWPs || []).join(', ') || '[see brief]'}
 - Total project duration: infer from call or brief; default to 48 months if not specified`,
-      management: `Describe governance structure, decision-making bodies, risk register (at least 5 risks with mitigation), quality assurance plan, and data management approach.`,
+      management: `Write Section 3.2 Management Structure with the following ### headings:
+
+### Governance structure
+Describe the decision-making hierarchy: Project Steering Committee (PSC) as the supreme body with one vote per partner; Technical Management Committee (TMC) chaired by the Project Coordinator for operational decisions; an optional External Advisory Board (EAB) for independent scientific review. Name the roles explicitly: Project Coordinator (PC), Work Package Leaders (WPLs), Task Leaders. One paragraph per body.
+
+### Decision-making rules
+State quorum requirements, voting thresholds, escalation paths, and frequency of meetings (PSC: every 6 months; TMC: monthly). Explain how deadlocks are resolved.
+
+### Risk management
+A markdown table with at least 6 risks: | Risk | WP | Likelihood | Severity | Mitigation | Contingency |. Cover: technical, schedule, partner/consortium, data management, IP, and external risks.
+
+### Quality assurance
+Describe the QA framework: internal peer review of deliverables, 2-week review window before submission, sign-off by WPL and PC. Name the quality metrics tracked and frequency.
+
+### Data management
+One paragraph: data management plan reference, open access policy (at least 60% of publications open access), dataset repositories (Zenodo / EU Open Research), and IP assignment rules.
+
+Do NOT write a generic paragraph — every sentence must name a specific role, body, rule, or metric.`,
+
       iris_role: `Write one paragraph per partner (4-6 sentences). For IRIS: start with the WP leadership, name the specific tasks IRIS leads, name the IRIS technologies being deployed, reference 1-2 previous IRIS projects as evidence of capability. For each other partner: organisation type, country, specific expertise, role in this project, and why they are the best choice. Close with a paragraph on consortium complementarity — how the partners collectively cover the full value chain from research to demonstration to market. Write in first person plural for IRIS tasks, third person for other partners' descriptions. Do not use bullet points.`,
+
+      // 1.3 Methodology — research phases + Gantt description + risk table + TRL
+      methodology: `Write Section 1.3 Methodology structured as follows:
+
+### Research design
+1 paragraph (100 words): explain the overall approach — what type of research this is (applied/experimental/pilot), how the work is organised into phases that map to WPs, and how the approach ensures reproducibility and validation.
+
+### Technical approach
+For each research phase (Phase 1: Foundation, Phase 2: Development, Phase 3: Validation/Pilots), write one sub-section with:
+- **Phase N: [Name]** (TRL ${brief?.trlStart ?? '?'} → TRL X, months M1–MY)
+- 2–3 sentences on the specific activities
+- Lead partner and contributing partners (IRIS leads phases involving NIR/spectroscopy)
+- Key technical challenge and mitigation
+
+Reference specific IRIS technologies: ${(brief?.irisTechnologies || ['NIR spectroscopy', 'AI/ML']).join(', ')}.
+For pilot demonstrations: ${(brief?.pilots || []).join(', ')}.
+
+### Risk assessment
+A markdown table with at least 5 technical risks: | Risk | Phase | Likelihood | Severity | Mitigation measure |
+
+### Timeline (Gantt description)
+A markdown table showing work packages against months: | WP | Lead | M1-M6 | M7-M12 | M13-M18 | M19-M24 | M25-M30 | M31-M36 | etc. Use ●●● for active periods. If duration is 48 months, extend columns accordingly.
+
+### TRL progression
+1 paragraph explicitly stating: starting TRL is ${brief?.trlStart ?? '?'}, end-of-project TRL target is ${brief?.trlEnd ?? '?'}. Describe what must be demonstrated at each pilot site to reach that TRL, referencing the Technology Readiness Level definitions.`,
+
+      // 2.1 Expected outcomes — KPI mapping table per call outcome
+      outcomes: `Do NOT open with a project summary or preamble paragraph. Start immediately with the first outcome: "A primary outcome of the project is...". Do NOT close with a TRL summary paragraph — that belongs in Section 1.1.
+
+Write Section 2.1 Expected Outcomes and Impacts structured as:
+
+### Contribution to call expected outcomes
+For each call expected outcome listed in the call text, write:
+- One sentence stating what the project delivers toward that outcome
+- One sentence quantifying the contribution (specific metric + reasoning: "based on X, we project Y%")
+- One sentence naming the pilot/demonstration context
+
+Then write a markdown table: | Call expected outcome | Project contribution | Target KPI | Measurement method | Timeline |
+
+### Scientific and technological impact
+2 paragraphs covering: publications (target number and open-access plan), datasets, software, patents or IP anticipated. Use specific targets: "We target X peer-reviewed publications, of which ≥60% open access via Zenodo."
+
+### Economic impact
+2 paragraphs: market opportunity (specific market size and growth rate from the call or context), revenue model for IRIS and partners, timeline to commercialisation, job creation estimate.
+
+### Societal and environmental impact
+1 paragraph: sustainability benefits (quantified where possible), workforce upskilling, regulatory contribution.
+
+Hard maximum: 1,600 words. Do not include task descriptions, methodology, or consortium detail.`,
+
+      // 2.2 Dissemination — Communication/Dissemination/Exploitation table
+      dissemination: `Write Section 2.2 Dissemination, Exploitation and Communication structured as follows:
+
+### Dissemination plan
+A markdown table: | Activity | Target audience | Channel | Frequency | Lead partner | KPI |
+Include: peer-reviewed publications (target N), conference presentations (target N conferences), workshops, open datasets, policy briefs.
+
+### Exploitation strategy
+One paragraph per partner describing their exploitation pathway: what they will do with the results post-project, through which channel (product, service, licensing, standardisation), and on what timeline. Use "Partner X will exploit..." third person for others, first person for IRIS.
+
+### Communication and outreach
+A markdown table: | Activity | Target audience | Channel | Timing | Reach target |
+Include: project website, social media (LinkedIn, Twitter), press releases, infographics, stakeholder events, EU project database (CORDIS).
+
+### Intellectual property management
+1 paragraph: background IP ownership, foreground IP assignment rules, joint IP procedures, and how conflicts are resolved.
+
+### Standardisation activities
+1 sentence: name any standards bodies (ISO, CEN, ETSI) relevant to the technology and whether participation is planned.`,
     }
 
     const sectionInstruction = SECTION_INSTRUCTIONS[normalizedSection] || SECTION_INSTRUCTIONS[section] || ''
@@ -1588,9 +1681,17 @@ RULES:
     const priorSectionsBlock = priorSectionsEntries.length > 0
       ? `PREVIOUSLY WRITTEN SECTIONS FOR THIS PROPOSAL:\n\n${
           priorSectionsEntries
-            .map(([k, text]) => `[${k.toUpperCase().replace(/_/g, ' ')}]\n${text}`)
-            .join('\n\n---\n\n')
-        }\n\nCRITICAL: The section you are about to write must be consistent with and build upon the sections above. Do not repeat content already covered in those sections. Cross-reference them where relevant.\n\n`
+            .map(([k, text]) => {
+              // Strip internal scaffolding and KB sources before injecting as prior-section context
+              const clean = text
+                .split('<<<KB_SOURCES>>>')[0]
+                .split('---\n**References**')[0]
+                .split('---\n**KB Sources**')[0]
+                .trim()
+              return `[${k.toUpperCase().replace(/_/g, ' ')}]\n${clean.slice(0, 1200)}`
+            })
+            .join('\n\n')
+        }\n\nCRITICAL: The section you are about to write must be consistent with the sections above. Do not repeat content already covered. Cross-reference where relevant.\n\n`
       : ''
 
     const systemPrompt = `${priorSectionsBlock}You are an expert EU Horizon Europe proposal writer for IRIS Technology Solutions — a photonics and NIR spectroscopy SME in Barcelona with ~60 staff and 15+ active Horizon Europe projects.
@@ -1742,8 +1843,8 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
       stream: true,
       max_tokens: isWorkplanSection ? 4500 : isSotASection ? 3500 : 2000,
       temperature: isWorkplanSection ? 0.5 : 0.4,
-      frequency_penalty: isWorkplanSection ? 0.7 : 0.3,
-      presence_penalty:  isWorkplanSection ? 0.4 : 0.1,
+      frequency_penalty: isWorkplanSection ? 0.7 : 0.6,
+      presence_penalty:  isWorkplanSection ? 0.4 : 0.4,
     })
 
     const encoder = new TextEncoder()
@@ -1764,28 +1865,41 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
           // Replace Unicode black-square bullets with standard markdown dashes
           fullGeneratedText = fullGeneratedText.replace(/■\s*/g, '- ')
 
-          // ── Deduplication guard — n-gram windowing (8-word) ─────────────────
-          // Catches both sentence-level repeats and synonym spirals
+          // ── Deduplication guard — n-gram windowing (8-word) + unique-token ratio
           {
             const words = fullGeneratedText.split(/\s+/)
             if (words.length > 80) {
-              const gramCounts = new Map<string, number>()
-              for (let j = 0; j <= words.length - 8; j++) {
-                const gram = words.slice(j, j + 8).join(' ').toLowerCase()
-                gramCounts.set(gram, (gramCounts.get(gram) || 0) + 1)
-              }
-              const maxGram = gramCounts.size > 0 ? Math.max(...gramCounts.values()) : 0
-              if (maxGram > 4) {
-                console.warn(`N-gram loop detected (max=${maxGram}) — truncating at first repeat`)
-                const seen2 = new Map<string, number>()
-                let cutWord = words.length
+              // Unique-token ratio check: catches synonym spirals (each word unique but highly repetitive in concept)
+              const uniqueTokens = new Set(words.map(w => w.toLowerCase().replace(/[^a-z]/g, '')).filter(Boolean))
+              const uniqueRatio = uniqueTokens.size / words.length
+              if (uniqueRatio < 0.30) {
+                console.warn(`Low unique-token ratio (${uniqueRatio.toFixed(2)}) — truncating degenerate output`)
+                // Find last heading or paragraph break before degeneration starts
+                const cutIdx = fullGeneratedText.lastIndexOf('\n\n', Math.floor(fullGeneratedText.length * 0.4))
+                fullGeneratedText = cutIdx > 100
+                  ? fullGeneratedText.slice(0, cutIdx) + '\n\n*[Draft incomplete — generation quality degraded. Please regenerate.]*'
+                  : '*[Generation quality degraded — please regenerate this section.]*'
+              } else {
+                // N-gram windowing (8-word): catches verbatim sentence repeats
+                const gramCounts = new Map<string, number>()
                 for (let j = 0; j <= words.length - 8; j++) {
                   const gram = words.slice(j, j + 8).join(' ').toLowerCase()
-                  const cnt = (seen2.get(gram) || 0) + 1
-                  seen2.set(gram, cnt)
-                  if (cnt > 2) { cutWord = j; break }
+                  gramCounts.set(gram, (gramCounts.get(gram) || 0) + 1)
                 }
-                fullGeneratedText = words.slice(0, cutWord).join(' ')
+                const maxGram = gramCounts.size > 0 ? Math.max(...gramCounts.values()) : 0
+                if (maxGram > 4) {
+                  console.warn(`N-gram loop detected (max=${maxGram}) — truncating at first repeat`)
+                  const seen2 = new Map<string, number>()
+                  let cutWord = words.length
+                  for (let j = 0; j <= words.length - 8; j++) {
+                    const gram = words.slice(j, j + 8).join(' ').toLowerCase()
+                    const cnt = (seen2.get(gram) || 0) + 1
+                    seen2.set(gram, cnt)
+                    if (cnt > 2) { cutWord = j; break }
+                  }
+                  fullGeneratedText = words.slice(0, cutWord).join(' ')
+                    + '\n\n*[Draft truncated at detected repetition — please regenerate.]*'
+                }
               }
             }
           }

@@ -172,6 +172,7 @@ export default function ProposalPage() {
 
   // ── Phase ──────────────────────────────────────────────────────────────────
   const [phase, setPhase] = useState<Phase>('setup')
+  const [skippedSteps, setSkippedSteps] = useState<Set<Phase>>(new Set())
 
   // ── Setup ──────────────────────────────────────────────────────────────────
   const [callText, setCallText]         = useState('')
@@ -699,6 +700,19 @@ export default function ProposalPage() {
 
   // ─── LEFT PANEL ────────────────────────────────────────────────────────────
 
+  // Brief completeness check — required before entering write phase
+  const briefMissingFields = [
+    !brief?.projectTitle?.trim()    && 'Project Title',
+    !brief?.acronym?.trim()         && 'Acronym',
+    !brief?.coreInnovation?.trim()  && 'Core Innovation',
+  ].filter(Boolean) as string[]
+  const briefComplete = briefMissingFields.length === 0
+
+  function goToWrite() {
+    if (!briefComplete) { setPhase('concept'); setEditingBrief(true); return }
+    setPhase('write')
+  }
+
   const phaseIdx = PHASE_ORDER.indexOf(phase)
   const completedSections = writableSections.filter(s => (sections[s.id] || '').trim()).length
   const totalWords        = Object.values(sections).reduce((sum, t) => sum + wordCount(t), 0)
@@ -734,7 +748,8 @@ export default function ProposalPage() {
 
             {PHASE_ORDER.map((p, i) => {
               const isActive    = phase === p
-              const isCompleted = i < phaseIdx
+              const isSkipped   = skippedSteps.has(p)
+              const isCompleted = i < phaseIdx && !isSkipped
               const canClick    = i <= phaseIdx
               return (
                 <div
@@ -754,15 +769,13 @@ export default function ProposalPage() {
                     width: '24px', height: '24px', borderRadius: '50%', flexShrink: 0,
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
                     zIndex: 1, transition: 'all 0.2s',
-                    background: isCompleted
-                      ? C.green
-                      : isActive
-                      ? C.cyan
-                      : C.input,
-                    border: `2px solid ${isCompleted ? C.green : isActive ? C.cyan : C.border}`,
+                    background: isSkipped ? C.amber : isCompleted ? C.green : isActive ? C.cyan : C.input,
+                    border: `2px solid ${isSkipped ? C.amber : isCompleted ? C.green : isActive ? C.cyan : C.border}`,
                     boxShadow: isActive ? '0 0 10px rgba(74,158,255,0.25)' : 'none',
                   }}>
-                    {isCompleted ? (
+                    {isSkipped ? (
+                      <span style={{ fontSize: '9px', fontWeight: 700, color: '#FFFFFF' }}>⚠</span>
+                    ) : isCompleted ? (
                       <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
                         <path d="M1.5 5L4 7.5L8.5 2.5" stroke="#FFFFFF" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
                       </svg>
@@ -777,8 +790,8 @@ export default function ProposalPage() {
                     )}
                   </div>
 
-                  <span style={{ fontSize: '12px', fontWeight: isActive ? 700 : isCompleted ? 500 : 400, color: isActive ? C.text : isCompleted ? C.green : canClick ? C.muted : C.muted }}>
-                    {PHASE_LABELS[p]}
+                  <span style={{ fontSize: '12px', fontWeight: isActive ? 700 : isCompleted ? 500 : 400, color: isActive ? C.text : isSkipped ? C.amber : isCompleted ? C.green : canClick ? C.muted : C.muted }}>
+                    {PHASE_LABELS[p]}{isSkipped ? ' (skipped)' : ''}
                     {p === 'write' && writableSections.length > 0 && (
                       <span style={{ display: 'block', fontSize: '9px', color: C.muted, fontWeight: 400 }}>
                         {completedSections}/{writableSections.length} sections
@@ -809,7 +822,7 @@ export default function ProposalPage() {
                     onClick={() => {
                       if (isSub) {
                         setActiveSection(sec.id)
-                        if (phase !== 'write') setPhase('write')
+                        if (phase !== 'write') goToWrite()
                       }
                     }}
                     style={{
@@ -1275,7 +1288,11 @@ export default function ProposalPage() {
                       Build Consortium <ChevronRight size={15} />
                     </button>
                     <button
-                      onClick={() => { setEditingBrief(false); setPhase('write') }}
+                      onClick={() => {
+                        setSkippedSteps(prev => new Set([...prev, 'concept' as Phase, 'consortium' as Phase]))
+                        setEditingBrief(false)
+                        goToWrite()
+                      }}
                       style={{ ...btn('ghost'), fontSize: '12px', whiteSpace: 'nowrap' }}
                       title="Skip consortium suggestions — use partners already added above"
                     >
@@ -1396,12 +1413,24 @@ export default function ProposalPage() {
 
                 {/* ── Continue button (always shown when ≥2 partners) ─────────── */}
                 {partners.length >= 2 && (
-                  <button
-                    onClick={() => setPhase('write')}
-                    style={{ ...btn('primary'), width: '100%', justifyContent: 'center', padding: '14px', marginBottom: '16px' }}
-                  >
-                    Continue with current partners ({partners.length}) <ChevronRight size={15} />
-                  </button>
+                  <>
+                    {!briefComplete && (
+                      <div style={{ padding: '10px 14px', borderRadius: '10px', background: 'rgba(220,38,38,0.07)', border: `1px solid rgba(220,38,38,0.2)`, marginBottom: '12px' }}>
+                        <div style={{ fontSize: '12px', color: C.red, fontWeight: 600, marginBottom: '4px' }}>
+                          Complete the Project Brief before writing
+                        </div>
+                        <div style={{ fontSize: '11px', color: C.red }}>
+                          Missing: {briefMissingFields.join(', ')}. Without these, every section will invent a different project identity.
+                        </div>
+                      </div>
+                    )}
+                    <button
+                      onClick={goToWrite}
+                      style={{ ...btn('primary'), width: '100%', justifyContent: 'center', padding: '14px', marginBottom: '16px' }}
+                    >
+                      Continue with current partners ({partners.length}) <ChevronRight size={15} />
+                    </button>
+                  </>
                 )}
 
                 {/* Profile warnings */}
@@ -1649,10 +1678,13 @@ export default function ProposalPage() {
                         ),
                       }
 
-                      // Strip reference block and KB sentinel from main preview
+                      // Strip all internal scaffolding from the user-visible preview
                       const mainBody = (sections[activeSection] || '')
                         .split('<<<KB_SOURCES>>>')[0]
                         .split('---\n**References**')[0]
+                        // Strip any leaked PREVIOUSLY WRITTEN SECTIONS scaffold
+                        .replace(/PREVIOUSLY WRITTEN SECTIONS FOR THIS PROPOSAL:[\s\S]*?(?=\n\n(?:#{1,4}|\*\*|[A-Z]))/g, '')
+                        .replace(/\[KB Sources\][\s\S]*?(\n\n|$)/g, '')
 
                       return (
                         <div style={card}>

@@ -259,7 +259,7 @@ CRITICAL RULES FOR STATE OF THE ART:
 
 CITATIONS — ABSOLUTE RULE:
 Use numbered inline citations [N] where N is the number of the paper in the source list provided.
-You may ONLY cite papers that appear verbatim in the provided source context (EUROPE PMC, ARXIV, CROSSREF, CORE, or OPENALEX blocks above).
+You may ONLY cite papers that appear verbatim in the provided source context (EUROPE PMC, ARXIV, CROSSREF, or OPENALEX blocks above).
 Do NOT invent citations. Do NOT use your training knowledge to add references not in the source blocks.
 Place [N] at the end of the sentence or clause it supports, before the full stop.
 Aim to cite at least one source per paragraph.`,
@@ -340,8 +340,25 @@ async function retrieveInternalContext(section: string, query: string, tagsQuery
   }
 
   const reranked = await rerankChunks(query.slice(0, 200), merged)
+  const topScore = reranked[0]?.rerank_score ?? 0
+  console.log(`Proposal internal: ${merged.length} unique → ${reranked.length} reranked, top score=${topScore.toFixed(3)}`)
+
+  const dims = SECTION_DIMS[section] || []
+
+  // Similarity floor: if the best chunk scores below 0.15, the KB has no relevant
+  // content for this topic. Return empty rather than letting low-quality chunks
+  // cause the LLM to fill word-count with prompt scaffolding.
+  if (reranked.length > 0 && topScore < 0.15) {
+    console.warn(`Proposal internal [${section}]: top rerank score ${topScore.toFixed(3)} < 0.15 floor — skipping KB chunks to prevent prompt-bleed`)
+    const summaryProjectsOnly = dims.length > 0 ? await searchSummariesByTopic(query, dims, 10) : []
+    const summaryTextOnly = summaryProjectsOnly.slice(0, 8).map(p => {
+      const dimLines = Object.entries(p.dimensions).map(([d, s]) => `  [${d}]: ${s}`).join('\n')
+      return `Project: ${p.project_name} (${p.project_code})\n${dimLines}`
+    }).join('\n\n')
+    return [summaryTextOnly ? `--- Project Summaries ---\n${summaryTextOnly}` : '', '']
+  }
+
   const topChunks = reranked.slice(0, 10)
-  console.log(`Proposal internal: ${merged.length} unique → ${topChunks.length} reranked`)
 
   const chunkText = topChunks
     .map((c: any, i: number) => `[${i + 1}] ${(c.chunk_text || c.parent_text || '').slice(0, 500)}`)
@@ -353,7 +370,6 @@ async function retrieveInternalContext(section: string, query: string, tagsQuery
     .join('\n')
 
   // Project summaries + graph context in parallel
-  const dims = SECTION_DIMS[section] || []
   const [summaryProjects, graphContext] = await Promise.all([
     dims.length > 0 ? searchSummariesByTopic(query, dims, 15) : Promise.resolve([]),
     queryProposalContext(query)
@@ -593,33 +609,6 @@ async function searchCrossref(query: string, limit = 5): Promise<string> {
   }
 }
 
-async function searchCORE(query: string, limit = 5): Promise<string> {
-  const apiKey = process.env.CORE_API_KEY
-  if (!apiKey) { console.warn('CORE_API_KEY not set — skipping CORE search'); return '' }
-  console.log(`[CORE] API key present (${apiKey.slice(0, 6)}…), query: "${query.trim()}"`)
-  try {
-    const res = await fetch(
-      `https://api.core.ac.uk/v3/search/works?q=${encodeURIComponent(query.trim())}&limit=${limit}&api_key=${encodeURIComponent(apiKey)}`,
-      {
-        headers: {
-          'Authorization': `Bearer ${apiKey}`,
-          'Content-Type': 'application/json',
-        },
-        signal: AbortSignal.timeout(15000),
-      }
-    )
-    const data = await res.json()
-    if (!data.results?.length) return ''
-    return data.results
-      .filter((w: any) => w.abstract)
-      .map((w: any) =>
-        `Title: ${w.title} (${w.yearPublished})\nAuthors: ${w.authors?.slice(0, 3).map((a: any) => a.name).join(', ')}\nAbstract: ${w.abstract?.slice(0, 400)}`
-      ).join('\n\n')
-  } catch (e) {
-    console.error('CORE error:', e)
-    return ''
-  }
-}
 
 async function searchOpenAlex(query: string, limit = 6): Promise<string> {
   try {
@@ -673,14 +662,12 @@ async function retrieveExternalContext(query: string, keywordSource: string): Pr
   const [
     arxivResults,
     crossrefResults,
-    coreResults,
     openAlexResults,
     euProjectResults,
     industryResults,
   ] = await Promise.all([
     searchArxiv(`${topicKeywords} artificial intelligence industrial`),
     searchCrossref(`${academicKeywords} machine learning process optimization`),
-    searchCORE(`${academicKeywords} AI sustainability industry`),
     searchOpenAlex(`${academicKeywords} sensor measurement spectroscopy`),
     searchOpenAIREProjects(openAireQuery),
     tavilySearch(`${topicKeywords} challenges limitations industrial deployment 2024 2025`, {
@@ -689,13 +676,12 @@ async function retrieveExternalContext(query: string, keywordSource: string): Pr
     }),
   ])
 
-  console.log(`Research sources: EuropePMC=${ssResults.length} arXiv=${arxivResults.length} Crossref=${crossrefResults.length} CORE=${coreResults.length} OpenAlex=${openAlexResults.length} OpenAIRE=${euProjectResults.length}`)
+  console.log(`Research sources: EuropePMC=${ssResults.length} arXiv=${arxivResults.length} Crossref=${crossrefResults.length} OpenAlex=${openAlexResults.length} OpenAIRE=${euProjectResults.length}`)
 
   // ─── Relevance filter: drop off-topic paper blocks ────────────────────────
   const filteredSS         = filterPaperBlocksByKeywords(ssResults, topicKeywords)
   const filteredArxiv      = filterPaperBlocksByKeywords(arxivResults, topicKeywords)
   const filteredCrossref   = filterPaperBlocksByKeywords(crossrefResults, topicKeywords)
-  const filteredCore       = filterPaperBlocksByKeywords(coreResults, topicKeywords)
   const filteredOpenAlex   = filterPaperBlocksByKeywords(openAlexResults, topicKeywords)
 
   // ─── Full-text layer: extract DOIs from filtered SS + Crossref, resolve via Unpaywall ─
@@ -735,7 +721,6 @@ async function retrieveExternalContext(query: string, keywordSource: string): Pr
     filteredSS       ? `[EUROPE PMC — Peer-reviewed papers]\n${filteredSS}`                      : '',
     filteredArxiv    ? `[ARXIV — Latest preprints]\n${filteredArxiv}`                          : '',
     filteredCrossref ? `[CROSSREF — Published research with DOIs]\n${filteredCrossref}`        : '',
-    filteredCore     ? `[CORE — Open access full text]\n${filteredCore}`                       : '',
     filteredOpenAlex ? `[OPENALEX — Works with citations]\n${filteredOpenAlex}`                : '',
     euProjectResults ? `[RELATED EU-FUNDED PROJECTS — OpenAIRE]\n${euProjectResults}`         : '',
     industryResults  ? `[INDUSTRY CHALLENGES & GAPS]\n${industryResults}`                     : '',
@@ -1513,13 +1498,16 @@ export async function POST(req: NextRequest) {
     const isWorkplanSection = normalizedSection === 'workplan' || normalizedSection === 'implementation'
 
     // Run retrieval in parallel where possible
+    // For tag detection in retrieveInternalContext, NEVER use the raw EU call body.
+    // The call body is full of all-caps vocabulary (INNOVATIVE, CIRCULAR, FOOTWEAR...)
+    // that detectProjectTags mistakes for IRIS project codes, pulling stale KB chunks.
+    // Use only the additionalContext (short user notes / existing draft) as the tag
+    // source — if empty, the semantic project matching fallback fires instead.
+    const tagsQueryForRetrieval = additionalContext || ''
+
     const [[internalCtx, kbSourceBlock], externalCtx, styleCtx] = await Promise.all([
       (mode === 'INTERNAL' || mode === 'HYBRID') && !isWorkplanSection
-        ? retrieveInternalContext(
-            section,
-            fullQuery,
-            mode === 'HYBRID' ? (additionalContext || '') : undefined
-          )
+        ? retrieveInternalContext(section, fullQuery, tagsQueryForRetrieval)
         : Promise.resolve(['', ''] as [string, string]),
       mode === 'EXTERNAL' || mode === 'HYBRID'
         ? retrieveExternalContext(fullQuery, keywordSource)
@@ -1949,6 +1937,32 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
                   fullGeneratedText = words.slice(0, cutWord).join(' ')
                     + '\n\n*[Draft truncated at detected repetition — please regenerate.]*'
                 }
+              }
+            }
+          }
+
+          // ── Tail-end loop guard — catches short repeating patterns in the last 150 words
+          // The main n-gram guard (8-word, threshold>4) misses 2-3 word loops that
+          // only appear at the end ("affordability accessibility affordability...").
+          {
+            const allWords = fullGeneratedText.split(/\s+/)
+            if (allWords.length > 60) {
+              const tailWords = allWords.slice(-150)
+              const tailGrams = new Map<string, number>()
+              for (let j = 0; j <= tailWords.length - 4; j++) {
+                const gram = tailWords.slice(j, j + 4).join(' ').toLowerCase()
+                tailGrams.set(gram, (tailGrams.get(gram) || 0) + 1)
+              }
+              const maxTail = tailGrams.size > 0 ? Math.max(...tailGrams.values()) : 0
+              if (maxTail > 2) {
+                console.warn(`Tail-end loop detected (max=${maxTail}) — trimming last 150 words`)
+                const keepWords = allWords.slice(0, allWords.length - 150)
+                // Find last sentence end in the kept portion
+                const keepText = keepWords.join(' ')
+                const lastSentEnd = Math.max(keepText.lastIndexOf('. '), keepText.lastIndexOf('.\n'))
+                fullGeneratedText = lastSentEnd > 50
+                  ? keepText.slice(0, lastSentEnd + 1)
+                  : keepText
               }
             }
           }

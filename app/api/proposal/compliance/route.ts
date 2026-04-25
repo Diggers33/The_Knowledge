@@ -194,10 +194,35 @@ function checkCompliance(
 
 // ─── TECHNOLOGY MATCH HELPER ──────────────────────────────────────────────────
 
+// Synonym aliases: claimed terms that map to IRIS canonical technology families
+const TECH_ALIASES: Record<string, string[]> = {
+  'edge ai':             ['artificial intelligence', 'machine learning', 'edge computing', 'embedded'],
+  'federated learning':  ['artificial intelligence', 'machine learning', 'distributed'],
+  'digital twin':        ['simulation', 'modelling', 'digital', 'process'],
+  'digital twins':       ['simulation', 'modelling', 'digital', 'process'],
+  'pmu analytics':       ['sensor', 'measurement', 'monitoring', 'analytics'],
+  'anomaly detection':   ['artificial intelligence', 'machine learning', 'inspection', 'quality'],
+  'fault detection':     ['artificial intelligence', 'sensor', 'monitoring', 'inspection'],
+  'deep learning':       ['artificial intelligence', 'machine learning', 'neural'],
+  'computer vision':     ['hyperspectral', 'imaging', 'inspection', 'optical'],
+  'predictive maintenance': ['sensor', 'monitoring', 'analytics', 'artificial intelligence'],
+}
+
 function techMatches(canonical: string, claimed: string): boolean {
-  const words = canonical.toLowerCase().split(/[\s,\/]+/).filter(w => w.length > 4)
-  const c = claimed.toLowerCase()
-  return words.some(w => c.includes(w))
+  const claimedLow = claimed.toLowerCase()
+  // Direct match: canonical words in claimed
+  const canonWords = canonical.toLowerCase().split(/[\s,\/]+/).filter(w => w.length >= 3)
+  if (canonWords.some(w => claimedLow.includes(w))) return true
+  // Reverse match: claimed words in canonical
+  const claimedWords = claimedLow.split(/[\s,\/]+/).filter(w => w.length >= 4)
+  const canonLow = canonical.toLowerCase()
+  if (claimedWords.some(w => canonLow.includes(w))) return true
+  // Alias map: expand claimed to family terms and match against canonical
+  const aliases = TECH_ALIASES[claimedLow]
+  if (aliases) {
+    return aliases.some(alias => canonLow.includes(alias) || alias.split(' ').some(w => w.length >= 4 && canonLow.includes(w)))
+  }
+  return false
 }
 
 // ─── MAIN HANDLER ─────────────────────────────────────────────────────────────

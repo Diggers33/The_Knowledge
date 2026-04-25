@@ -441,7 +441,7 @@ export default function ProposalPage() {
       competitiveDifferentiator: '',
       irisRole:                  '',
       irisWPs:                   ['1', '2'],
-      irisTechnologies:          ['NIR spectroscopy', 'AI/ML'],
+      irisTechnologies:          [],
       trlStart:                  4,
       trlEnd:                    6,
       pilots:                    [],
@@ -665,6 +665,7 @@ export default function ProposalPage() {
     setSections({}); setActiveSection(''); setScopeSelected('')
     setStageSelected('stage2'); setPhase('setup'); setComplianceResult(null)
     setDraftId(null); setSaveStatus('idle')
+    setSkippedSteps(new Set())
     setClearConfirm(false)
   }
 
@@ -1289,7 +1290,7 @@ export default function ProposalPage() {
                     </button>
                     <button
                       onClick={() => {
-                        setSkippedSteps(prev => new Set([...prev, 'concept' as Phase, 'consortium' as Phase]))
+                        setSkippedSteps(prev => new Set([...prev, 'consortium' as Phase, ...(briefComplete ? [] : ['concept' as Phase])]))
                         setEditingBrief(false)
                         goToWrite()
                       }}

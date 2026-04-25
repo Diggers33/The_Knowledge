@@ -345,11 +345,11 @@ async function retrieveInternalContext(section: string, query: string, tagsQuery
 
   const dims = SECTION_DIMS[section] || []
 
-  // Similarity floor: if the best chunk scores below 0.15, the KB has no relevant
-  // content for this topic. Return empty rather than letting low-quality chunks
-  // cause the LLM to fill word-count with prompt scaffolding.
-  if (reranked.length > 0 && topScore < 0.15) {
-    console.warn(`Proposal internal [${section}]: top rerank score ${topScore.toFixed(3)} < 0.15 floor — skipping KB chunks to prevent prompt-bleed`)
+  // Similarity floor: if the best chunk scores below 0.40, the KB chunks are not
+  // reliably on-topic. At 0.246 (the typical bad-retrieval score) the model ignores
+  // the chunks and falls back on memorised training data. Skip them entirely.
+  if (reranked.length > 0 && topScore < 0.40) {
+    console.warn(`Proposal internal [${section}]: top rerank score ${topScore.toFixed(3)} < 0.40 floor — skipping KB chunks to prevent memorised-content regurgitation`)
     const summaryProjectsOnly = dims.length > 0 ? await searchSummariesByTopic(query, dims, 10) : []
     const summaryTextOnly = summaryProjectsOnly.slice(0, 8).map(p => {
       const dimLines = Object.entries(p.dimensions).map(([d, s]) => `  [${d}]: ${s}`).join('\n')
@@ -482,6 +482,49 @@ function extractTopicKeywords(callText: string): string {
     .filter(w => w.length > 3 && !stopwords.has(w))
     .slice(0, 12)
     .join(' ')
+}
+
+// Known past-project names that must never appear in generated output.
+// These are either in the fine-tune training data or the KB and get regurgitated verbatim.
+const CONTAMINATION_NAMES = [
+  'SecureFood', 'MICROORCH', 'GIANT LEAPS', 'CIRCSHOE', 'CIRCULAR FoodPack',
+  'PHOTONFOOD', 'PRESERVE', 'SORT4CIRC', 'NANOBLOC', 'HYPERA',
+]
+
+// Truncate generated text at the first contamination hit and append a notice.
+// Catches: past grant numbers, known past project names, PDF front-matter artifacts.
+function stripContaminatedOutput(text: string, currentAcronym?: string): string {
+  const patterns: RegExp[] = [
+    /\b101[0-9]{6}\b/,                                           // past EU grant numbers
+    /Page\s*[|│]\s*[ivxlcIVXLC\d]+/,                             // PDF page artifacts
+    /Table of Contents/i,
+    /List of (?:Figures|Tables)/i,
+    /Grant managed through/i,
+    /Periodic report|Additional prefinancing/i,
+    /securefood\.pdf|microorch\.pdf|giantleaps\.pdf/i,
+    /HORIZON-CL\d-202[0-3]-/,                                    // stale call IDs (pre-2024)
+  ]
+
+  // Add known past project names (excluding the current project's acronym)
+  for (const name of CONTAMINATION_NAMES) {
+    if (!currentAcronym || name.toUpperCase() !== currentAcronym.toUpperCase()) {
+      patterns.push(new RegExp(`\\b${name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i'))
+    }
+  }
+
+  const lines = text.split('\n')
+  for (let i = 0; i < lines.length; i++) {
+    for (const pat of patterns) {
+      if (pat.test(lines[i])) {
+        console.warn(`Contamination detected at line ${i}: "${lines[i].slice(0, 80)}" — truncating`)
+        const clean = lines.slice(0, Math.max(0, i)).join('\n').trim()
+        return clean
+          ? clean + '\n\n*[Section truncated: retrieved context contained past-project content. Please regenerate.]*'
+          : '*[Generation contaminated by past-project content — please regenerate this section.]*'
+      }
+    }
+  }
+  return text
 }
 
 // Drop paper blocks whose title+abstract share no keywords with the call topic.
@@ -1601,7 +1644,7 @@ IMPORTANT CONSTRAINTS:
 - Do not open with a sentence about the EU programme or Horizon Europe
 - Total length must be 1,800–2,200 words`,
       innovation: `Focus on what is genuinely novel — not incremental improvement but breakthrough potential. Compare explicitly to existing approaches and state what they cannot do. Ground in IRIS's demonstrated capabilities from the KB context.`,
-      consortium: `Write one paragraph per partner (4-6 sentences each). For each partner: name, country, type, specific expertise, role in this project, and why they are the best choice for that role. Do not use bullet points — flowing prose per partner. Close with a paragraph on consortium complementarity and geographic spread.`,
+      consortium: `CRITICAL: Use ONLY the partners listed in the PROJECT IDENTITY block above. Do not invent, substitute, or omit any partner. Write one paragraph per partner (4-6 sentences each). For each partner: full name, country, type, specific expertise relevant to this call, their specific role and tasks in this project, and why they are uniquely qualified. Do not use bullet points — flowing prose per partner. Close with a paragraph on consortium complementarity, geographic balance, and sector coverage.`,
       business_case: `Structure as: market context → IRIS's commercial pathway → partner exploitation routes → investment and revenue model → timeline to market. Reference specific sectors: ${(brief?.pilots || []).join(', ')}. Be specific about who will buy what — avoid generic statements.`,
       workplan: `Write a complete Horizon Europe Part B Section 3.1 Work Plan. Structure EXACTLY as follows, using these ### headings:
 
@@ -1931,6 +1974,9 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
           // Replace Unicode black-square bullets with standard markdown dashes
           fullGeneratedText = fullGeneratedText.replace(/■\s*/g, '- ')
 
+          // ── Contamination guard — strip past-project regurgitation ────────────
+          fullGeneratedText = stripContaminatedOutput(fullGeneratedText, brief?.acronym)
+
           // ── Deduplication guard — n-gram windowing (8-word) + unique-token ratio
           {
             const words = fullGeneratedText.split(/\s+/)
@@ -1992,6 +2038,42 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
                 fullGeneratedText = lastSentEnd > 50
                   ? keepText.slice(0, lastSentEnd + 1)
                   : keepText
+              }
+            }
+          }
+
+          // ── Word-salad guard — detects free-association degeneration ────────────
+          // "relief efforts poverty alleviation education access equality justice…"
+          // has high unique-token ratio and no repeated n-grams, so the guards above
+          // miss it. Detect by checking semantic drift: scan 30-word windows and
+          // count how many contain at least one topic keyword. If a 60-word stretch
+          // has zero keyword hits, the model has left the topic — truncate there.
+          {
+            const topicWords = new Set<string>(
+              (callText || '').toLowerCase().replace(/[^a-z\s]/g, ' ').split(/\s+/).filter((w: string) => w.length > 4).slice(0, 20)
+            )
+            if (topicWords.size > 0) {
+              const words = fullGeneratedText.split(/\s+/)
+              const WINDOW = 30
+              let driftStart = -1
+              let consecutiveDriftWindows = 0
+              for (let j = 0; j <= words.length - WINDOW; j += WINDOW) {
+                const windowText = words.slice(j, j + WINDOW).join(' ').toLowerCase()
+                const hasTopicWord = [...topicWords].some((kw: string) => windowText.includes(kw))
+                if (!hasTopicWord) {
+                  consecutiveDriftWindows++
+                  if (consecutiveDriftWindows >= 2 && driftStart === -1) driftStart = j
+                } else {
+                  consecutiveDriftWindows = 0
+                  driftStart = -1
+                }
+              }
+              if (driftStart > 80) {
+                console.warn(`Word-salad drift detected at word ${driftStart} — truncating`)
+                const cutText = words.slice(0, driftStart).join(' ')
+                const lastSent = Math.max(cutText.lastIndexOf('. '), cutText.lastIndexOf('.\n'))
+                fullGeneratedText = (lastSent > 50 ? cutText.slice(0, lastSent + 1) : cutText)
+                  + '\n\n*[Draft truncated: generation drifted off-topic. Please regenerate.]*'
               }
             }
           }

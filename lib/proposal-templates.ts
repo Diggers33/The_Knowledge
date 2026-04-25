@@ -200,7 +200,7 @@ export const TEMPLATES: Record<string, ProposalTemplate> = {
       },
       {
         id: 'business_case',
-        title: '4. Business Case and Exploitation Strategy',
+        title: '4.1 Business Case and Exploitation Strategy',
         pages: 3,
         words: 1200,
         mandatory: true,

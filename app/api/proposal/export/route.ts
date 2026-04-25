@@ -11,6 +11,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import {
   Document, Packer, Paragraph, TextRun, HeadingLevel,
   AlignmentType, PageNumber, Header, Footer, PageBreak,
+  Table, TableRow, TableCell, WidthType, BorderStyle,
   LevelFormat, convertInchesToTwip, UnderlineType,
   type IRunOptions,
 } from 'docx'
@@ -68,29 +69,80 @@ function splitSectionAndReferences(text: string): { mainText: string; references
 
 // ─── TEXT → PARAGRAPHS ────────────────────────────────────────────────────────
 
-function textToParagraphs(text: string): Paragraph[] {
+const CELL_BORDER = {
+  top:    { style: BorderStyle.SINGLE, size: 4, color: 'CCCCCC' },
+  bottom: { style: BorderStyle.SINGLE, size: 4, color: 'CCCCCC' },
+  left:   { style: BorderStyle.SINGLE, size: 4, color: 'CCCCCC' },
+  right:  { style: BorderStyle.SINGLE, size: 4, color: 'CCCCCC' },
+}
+
+function parsePipeTable(tableLines: string[]): Table {
+  const dataRows = tableLines.filter(l => !/^\s*\|[-:\s|]+\|\s*$/.test(l))
+  const parsedRows = dataRows.map(l => l.split('|').slice(1, -1).map(c => c.trim()))
+  const colCount = Math.max(...parsedRows.map(r => r.length), 1)
+  const colWidth = Math.floor(9000 / colCount)
+  return new Table({
+    width: { size: 100, type: WidthType.PERCENTAGE },
+    rows: parsedRows.map((row, ri) =>
+      new TableRow({
+        children: Array.from({ length: colCount }, (_, ci) =>
+          new TableCell({
+            borders: CELL_BORDER,
+            shading: ri === 0 ? { fill: 'EEF1FA' } : undefined,
+            width: { size: colWidth, type: WidthType.DXA },
+            children: [new Paragraph({
+              children: [new TextRun({ text: row[ci] ?? '', ...RUN_BODY, bold: ri === 0 })],
+              spacing: { after: 60 },
+            })],
+          })
+        ),
+      })
+    ),
+  })
+}
+
+function textToParagraphs(text: string): (Paragraph | Table)[] {
   if (!text?.trim()) return [bodyPara('(Not yet written)')]
 
-  const clean = text
-    .replace(/\*\*(.+?)\*\*/gs, '$1')
-    .replace(/\*(.+?)\*/gs, '$1')
-    .replace(/^#{1,6}\s+/gm, '')
-    .trim()
+  const lines = text.split('\n')
+  const result: (Paragraph | Table)[] = []
+  let i = 0
 
-  return clean
-    .split(/\n{2,}/)
-    .filter(p => p.trim())
-    .map(p => {
-      const line = p.trim()
-      if (line.startsWith('■') || line.startsWith('•') || line.startsWith('-')) {
-        return new Paragraph({
-          children: [new TextRun({ text: line.replace(/^[■•\-]\s*/, '• '), ...RUN_BODY })],
-          spacing: { after: 80, ...LINE_SPACING },
-          indent: { left: convertInchesToTwip(0.3) },
-        })
+  while (i < lines.length) {
+    const line = lines[i]
+
+    // Pipe table block
+    if (line.trimStart().startsWith('|')) {
+      const tableLines: string[] = []
+      while (i < lines.length && lines[i].trimStart().startsWith('|')) {
+        tableLines.push(lines[i])
+        i++
       }
-      return bodyPara(line)
-    })
+      if (tableLines.length > 0) result.push(parsePipeTable(tableLines))
+      continue
+    }
+
+    const trimmed = line
+      .replace(/\*\*(.+?)\*\*/g, '$1')
+      .replace(/\*(.+?)\*/g, '$1')
+      .replace(/^#{1,6}\s+/, '')
+      .trim()
+
+    if (!trimmed) { i++; continue }
+
+    if (trimmed.startsWith('■') || trimmed.startsWith('•') || trimmed.startsWith('- ')) {
+      result.push(new Paragraph({
+        children: [new TextRun({ text: trimmed.replace(/^[■•\-]\s*/, '• '), ...RUN_BODY })],
+        spacing: { after: 80, ...LINE_SPACING },
+        indent: { left: convertInchesToTwip(0.3) },
+      }))
+    } else {
+      result.push(bodyPara(trimmed))
+    }
+    i++
+  }
+
+  return result
 }
 
 // ─── SECTION PARAGRAPHS BUILDER ───────────────────────────────────────────────
@@ -99,8 +151,8 @@ function buildSectionParagraphs(
   sections: Record<string, string>,
   template: ProposalTemplate,
   brief: ProjectBrief
-): Paragraph[] {
-  const paras: Paragraph[] = []
+): (Paragraph | Table)[] {
+  const paras: (Paragraph | Table)[] = []
 
   for (const sec of template.sections) {
     // Only output top-level sections as level-1 headings; subsections as level-2

@@ -1,0 +1,267 @@
+2.1 Project’s pathways towards impact 
+2.1.1 FREEME Key Impact Pathways 
+The FreeMe project is dealing with a real industrial need in the field of surface finishing and more specifically in 
+the Plating on Plastics process: The elimination of use of chromic acid and palladium. The project objectives are in 
+full accordance with expected outcome of the project that is the development of new metal coating systems produced 
+without the use of toxic substances (i.e. Cr 6+) and PGMs (i.e. Pd). It is important to state that heavy metals or other 
+toxicants release in the environment is mainly happened from the plating installations where these compounds are 
+in a dissolved state (i.e. ions) through wastewater and sludges, rather than from the coatings, which are in a solid 
+stable state, of the plated objects. [ 43] More specifically, the FreeMe project’s results will contribute towards the 
+main expected outcome and impact set by the EC as follow: 
+ 
+Safe & Sustainable by Design approach 
+FreeMe will develop two alternative coating solutions for PoP applications. As mentioned, the current practice is 
+based on the use of chromic acid (Cr 6+) and Pd. The new technologies will provide the surface finishing industry 
+with non-toxic processes, free of the use of critical raw materials (i.e. Palladium) enhancing thus the safety in the 
+occupational environment and the environment as well as the overall resilience and sustainability of the process. Both 
+technologies are based on REACH compliant chemicals and no listed compounds (i.e. in the list of SVCH)  will be 
+utilized. For example, formulation of  new UV -curable resins utilizing bio-based chemical platforms  (i.e. 
+isosorbide and itaconic acid) will take place instead of the use the Bisphenol -A compound that is recognized as a 
+toxic for reproduction an d endocrine-disrupting substance that may cause adverse effects to people's health and to 
+the environment and is listed in SVCH. Additional, mixtures of common industrial used acids or alkali will be used 
+in the second path instead of the chromic acid. Elimination of Cr 6+ from the PoP will be a significant innovation 
+towards safer and more sustainable surface finishing industry.  
+Scale: The global market of chromic acid was estimated at ~600 million € during 2020, with ~8% to be used in 
+plastic etching processes. [44] Based on the CrO3 price (i.e. 22€/kg) this is translated to ~2.100 tones per year. Europe 
+has a share of ~25%, thus, 525 tones of Chromic acid are consumed in Europe annually for PoP purposes.  
+Significance: Reduction of chromic acid etching process usage will have a tremendous impact on the PoP industry 
+in terms of environmental and occupational health issues. Cr6+ has been proven to be a toxic and carcinogenic 
+compound affecting not only the plating workers but also the citizens around the plating plants (i.e. the famous real 
+case of Erin Brockovich against the Pacific Gas & Electric Company that operated chromic acid processes). Exposure 
+to Cr6+ results in excess risk of lung or other type of cancers [45] Wide adoption of SSBD technologies of FreeMe 
+will significantly reduce such incidents in the European PoP in the long term, targeting in zero deaths after 30 years. 
+ 
+New Materials Development with equal or enhance properties compared to SoA 
+The POP is the main technology that can provide decorative and functional finish ing in plastic surfaces. Practically 
+most POP applications concern decorative finishes, while a small part is for engineering purposes in which properties 
+such as hardness, wear and corrosion resistance or EMI shielding. In all the cases, of primary importance is the  
+excellent adhesion of the electroless coating in the surface of the plastic . Low adhesion will lead to pre -mature 
+failure of the component in all cases. Thus, all studies towards the direction of novel PoP technologies focuses mainly 
+on this property. The FreeMe will provide technologies that will have superior adhesion as well as other benefits.  
+In the case of s prayable resins, containing Ni salts free reactive -COOH groups that acts as anchoring groups to 
+plastic surfaces enhancing thus the adhesion of the resin to the substrate  will be inserted. In the following steps the 
+activation of Ni sites and the electroless plating (formation of Ni-P layer) will take place. The adhesion of the latter 
+layer is of crucial importance for the coa ting’s performance. Its excellent adhesion is ensured based on the 
+distribution of the Ni nuclei that are mechanically entrapped in the resin matrix. Another benefit of the proposed 
+technology is that PoP becomes a substrate-independent process in terms that after the deposition of the resin thin 
+film in the substrate surface, the following steps involve the sprayed resin  and not the subst rate. This could be of 
+extremely high industrial importance as it can be the basis for metallization of various types of surfaces . On the 
+other hand, the adhesion of the coatings prepared through the green etching process is expected to as effective as the  
+current chromic acid etching route , based on double mechanism. At micro level mechanical interlocking of the 
+metal film on the etched polymer surface takes place, while at molecular level chemical forces (i.e. Van der Waals 
+attraction of valence bonds of metal with polar groups of plastic resulted from the etched solution) are developed.  
+Scale: The global market for Plating on Plastics was estimated to be ~580 million € (2020) while the Europe 
+share was ~190 million €. There is a strong increasing demand for the technology as it combines lightweight, low 
+cost and high aesthetic, especially in applications in automotive and aerospace industry, where the reduction of weight 
+ 
+43 V. Vhahangwele, “Environmental Contamination of Heavy Metals”, 2017, DOI:10.5772/intechopen.76082 
+44 «Global Chromic Acid sales market report 2020”, 360 Research Reports, 2020   
+45 “Final Report for Hexevalent Chromium”, ECHA/2011/01-SR-11, November 2013 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [19 of 44] 
+has multiple beneficial impacts (i.e. reduction of fuel consumption, increased autonomy of electric cars etc). 
+Significance: The participation of three major large enterprises in the FreeMe proj ect provide a high innovation 
+potential for the adoption of technology in the market. Stellantis (CRF) is the the sixth -largest automaker in the 
+world having in its portfolio brands such as Fiat, Jeep, Alfa Romeo, Opel, Citroen, Maserati etc, being first in Europe 
+with 854.000 cars registered during the first quarter of 2021. Arcelik is active in more than 100 countries worldwide 
+operating 15 production plants in Europe, Asia and Africa offering products under its own brand names (i.e. Beko, 
+Grundig, Artic etc) or acting as a Tier 1 for other brands for hundreds of millions of spare parts. Finally, Israel 
+Aerospace Industry operates in a high niche market, developing technologies for the aerospace industry.  
+ 
+Materials Modelling 
+FreeMe activities in the modelling area are innovative especially regarding the usage of multi -scale modelling and 
+simulation to the overall spray application of resins for supporting the metallic plating of the plastic materials. The 
+usage of a multi-scale approach in such multi-step processes is challenging and aligned with the goals of the European 
+Material Modelling Council (EMMC). The need for improved linking and coupling of models to describe all relevant 
+phenomena is already raised by the EMMC and is addressed in FreeMe by the proper specification of the modelling 
+and simulation needs and the interfaces between the different scale activities. This will be reinforced by adopting the 
+MODA (MOdelling DAta generalisation) to reach a standardised descript ion of the required materials models and 
+linked activities, and by also adopting the European Materials Modelling Ontology (EMMO) for the project activities 
+definition. This will, in parallel, maximise the impact of the modelling activities beyond the proj ect scope, by 
+allowing future usage and linking of the developed models, potentially within the EMMC targeted European 
+Marketplace. The usage of AI -based surrogate models to facilitate the interlinkage of models with the application 
+allows it, is also a relevant innovation that can find applications in many other material-modelling related activities. 
+Scale: The field of materials modelling spans across a wide range of disciplines, i.e. computational chemistry, 
+continuum mechanics, thermodynamics etc. A rec ent study, contacted by the EMMC -CSA and MarketPlace EC 
+funded projects, resulted that the estimated materials modelling market size is 340 million €. [46]  
+Significance: Modelling is widely used to enhance research efficiency, contributing to reduction of  costs and time 
+by identifying alternative, more cost -effective materials, and processes. Based on statistic data [ 47] it is estimated 
+that the cost saving utilizing targeted materials modelling in the framework of FreeMe project (i.e. concerning the 
+development of sprayable resins and the etching process for increasing adhesion) is ~ 60% of the budget allocated in 
+WP3 and WP4, meaning ~1.000.000€ for the duration of the project.  
+ 
+Market replication of new technologies 
+The EC defines the meaning of market replication Innovation Actions as those aiming to support innovative advancements 
+to reach the market after successful demonstration but not application/deployment. This is due to several obstacles that can 
+be encountered (see next subsection). Therefore, it is often highly beneficial to make use of tools and practices that facilitate 
+the market replication, or, in other words, that help innovation make it in the market. FreeMe is designed to utilize them, 
+aiming to maximize its impact and boost the market uptake of its results. The consortium’s work in SSBD will produce not 
+only sets of criteria, guides and safe methodologies for the processes of focus, but also standardization results, via integration 
+of SSBD findings into protocols and guidelines, useful for derivative and relevant works. Those results will essentially be 
+combined within a bigger set of guidelines and good practices that will result from the project and will constitute one of its 
+main outcomes. They will be widely communicated but also disseminated, targeting policymakers and stakeholders of the 
+field, aiming for the integration of these protocols and good practices into cluster efforts, widely used by field-related 
+stakeholders. In addition, FreeMe will develop a DST, with the aim of demonstrating the technologies of the project, with the 
+systematic integration of SSBD considerations. This means the DST will give interested users -that will not have to be by any 
+means programming experts- the opportunity to simulate virtually their plating production lines, examining their optimal 
+selection and/or re-engineering according to FreeMe’s results, while, automatically, the tool will be taking into consideration 
+in its mathematical computations all SSBD aspects  (sustainability, recyclability, safety, cost) and including those 
+considerations in the results. The tool will be highly customizable, aiming to offer high potential for future works to build 
+upon it adding derivative or relevant technologies. Moreover, FreeMe is also employing additional, more traditional 
+demonstration and facilitation of technology adoption measures like training activities and modules. Workshops and training 
+activities will be organized within the project, with all this material remaining public after the project’s completion, aiming 
+to simplify workforce upskilling for interested technology users (particularly targeting SMEs). All the above target to support 
+market replication of FreeMe, in strong connection with the project’s exploitation and business planning.  
+Scale: According to recent studies, [ 48] around the European surface finishing industry employs about 900,000 
+ 
+46 G. Goldbeck et.al., “Materials Modelling Software Market”, 2019 
+47 G. Goldbeck, C.Court, “The economic impact of materials modelling”, EMMC 2016  
+48 P. Leisner, C. Larson, L.P. Nielsen, S. Müller, W. Hansal, J.-C. Puippe & A. Zielonka (2020) Global competitiveness of 
+European surface technology. Part 1: competitiveness and the relationship between European manufacturing and surface  
+finishing sectors, Transactions of the IMF, 98:6, 279-287 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [20 of 44] 
+people recording an 3.6% average growth rate. Almost one third of it is done in the form of subcontracting. And with 
+the majority of enterprises being under 10 employees small. At the same time, data indicates a clear correlation 
+between company size and automation, resulting to smaller companies having very law automation rating. 
+Significance: FreeMe is aiming to surpass  socio-economic barriers inhibiting innovation uptake by SMEs, by 
+promoting its market replicability tools in the market. Easy to use guidelines and standardization protocols, combined 
+with free training modules will support the adoption of FreeMe’s good p ractices by small enterprises looking for a 
+competitive edge. The DST will act as an enabling platform to build on and further develop, for automation and 
+digitalization even by non -experts and without requiring large investments. FreeMe’s business plannin g will 
+specifically target SMEs in the field and aim to offer SSBD adoption and upskilling, while supporting the 
+achievement of sustainable economic and technological advancements.  
+ 
+FreeMe contribution to the wider, long-term impacts as set by the destination 
+FreeMe project’s result will have a contribution in the wider impact set by the EC in a different lever as follow: 
+✓ Resilient, sustainable and secure (critical) raw materials value chains for EU industrial ecosystems, in support 
+of the twin green and digital transformations. 
+FreeMe project will have a significant contribution towards this impact. FreeMe targets to eliminate the use of Cr 6+ 
+substance from PoP processes, moving to greener technologies in the surface finishing industry. Of similar 
+importance is the target for replacement of Pd used as activator (catalyst) during the activation process, prior to the 
+metallization step. Pd is a critical raw material and EC is depended on imports, mainly from Russia. Successful 
+replacement of Pd will ensure the value chain and supply of materials for the EC sector.  
+✓ New sustainable -by-design materials with enhanced functionalities and applications in a wide range of 
+industrial processes and consumer products. 
+PoP is an important sector for many industries, mostly for automotive, bus also for other sectors including consumers 
+goods (i.e. home appliances, fashion etc). FreeMe will invest in materials modelling approach to enhance the most 
+important property of coatings on plastic, that is the adhesion. 
+✓ Leadership in producing materials that provide solutions for clean, toxic/pollutant free environment, 
+decarbonising industry, and safeguarding civil infrastructures. 
+Concerning this impact, FreeMe is also expected to have a major contribution. Surface finishing industry is an 
+important sector for the EC and the manufacturing industry. Specifically, PoP shows a significant growth for reasons 
+already analysed in the previous paragraphs (i.e. lightweight of plastic products). By developing a green, toxic -free 
+solution, EC plating sector will be favourably positions against competition from Asia (i.e. China, India). 
+Additionally, elimination of Cr6+ usage will give a relief on society (i.e, plating workers, and neighbouring areas to 
+plating facilities) leading to significant decrease of environmental pollution and cancer incidents.  
+✓ Leadership in circular economy that strengthens cross-sectorial cooperation along the value chain and enable 
+SMEs to transform their activities and business models. 
+FreeMe will be developed as a technology harmonized with the circular economy concept, ensuring the recyclability 
+of plated components with SoA technologies.  
+✓ Increased adoption of key digital and enabling technologies in industrial value chains and strategi c sectors, 
+paying particular attention to SMEs and start-ups. 
+The advancements in materials modelling as well as the development of a Decision Support Tool for SSbD 
+application of FreeMe technologies in the industry, including SME, will have a significant impact towards 
+digitalization and faster adoption of technologies.  
+ 
+2.1.2 Requirements & barriers and mitigation approach 
+The adoption of a new technology is inextricably linked  with the environment in which it will be deployed. Thus, 
+besides technological issues, political, economic, social, legal, and environmental factors are very important and 
+should be thoroughly considered so as to achieve the maximum potential of exploitat ion of the results. In the 
+following PESTLE analysis, the most important requirements and barriers related to these factors are mentioned. 
+These are categorized either as positive (opportunities of the adoption of the FreeMe technologies) or negative 
+(barriers that should be surpassed for the adoption of the technologies. 
+ 
+Table 2.1: FREEME PESTEL analysis 
+POSITIVE for achieving impact NEGATIVE for achieving impact 
+Political 
+European policies towards greener and sustainable 
+industries (Green Deal) : The EC policy favors the 
+development and adoption of new Green Technologies 
+providing multiple opportunities for further upscaling 
+and commercialization of the technology such as easier 
+Strong advocacy from industrial lobbies to postpone the 
+ban of Cr 6+ use: Large industrial consortia are putting 
+pressure for extension of ECHA authorization for using 
+hexavalent chromium. However, the main reason for 
+this is that curren tly there is no vial economic and 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [21 of 44] 
+access to funding, favorable regulatory framework.  
+ 
+efficient technical solution. If FreeMe achieve its 
+objectives, industry will adopt it as it will be attractive 
+(REACH compliant, low cost and of high quality).    
+Economic 
+Increase demand for PoP, especially from automo tive 
+and aerospace industry : PoP technology can provide 
+properties of metals in the surface of lightweight 
+plastics, making it extremely attractive ton sectors 
+where reduction of weight is of crucial importance. The 
+presence of two major companies in these sectors (CRF, 
+IAI) in the consortium is indicative of this fact. 
+Need for investements : FreeMe project will bring the 
+technology to TRL 5. To further upscale it and enhance 
+its robustness for industrial applications further 
+investments will be needed. A s explained under the 
+political factors, the favorable policies applied by the 
+EC will allow easier access to funding both from public 
+sources and private investements. 
+Social 
+Strong requirement for safe operational environment in 
+the plating in dustry: Workers in the surface finishing 
+industry have been suffered from exposure to highly 
+toxic and carcinogenic Cr 6+. FreeMe technologies will 
+relieve the industry from such substances as it is based 
+on safer, REACH compliant chemicals. Thus, it is 
+expected that it will have the social acceptance 
+Public perception about environmental and health 
+hazards risen from the surface finishing industry : This 
+perception has been created due to several incidents 
+related to polluted areas next to plating shops and severe 
+negative impact in health of workers and inhabitants. 
+Extensive communication activities will be taken in 
+order to raise the awareness of public about FreeMe 
+Technological 
+Advances in Materials Modelling: It is remarkable that 
+the introduction of AI modelling and advance 
+simulation models have given an impetus to materials 
+development leading to significant savings in resources 
+(costs, effort and time). It is expected that the actions 
+undertaken in the framework of FreeMe towards this 
+direction will further facilitate the upscaling process. 
+Competitive technologies to FreeMe: There are several 
+competitive or emerging technologies for PoP as 
+already mentioned in paragraph 1.1. However, most of 
+them have a completely different approach compare to 
+what is currently applied in the industry. FreeMe may 
+have a higher lever of adopt ions as it will be based on 
+present experience of surface finishing sector.  
+Environmental 
+FreeMe technologies is in accordance with trends for 
+greener technologies : Thus, in general terms it is 
+expected to have an overall beneficial impact. In order 
+to enhance this, special focus will be given in the 
+extension of baths lifetime as well as in the assessment 
+of recyclability of coated objects so as FreeMe to be 
+consider a real circular technology. 
+Generation of wastes: Even though FreeMe is based on 
+green technologies, as a wet -based technology, 
+generates wastewater from the spent baths and rinsing 
+processes. Since the main pre -treatment solutions used 
+in the FreeMe process are non -toxic their treatment as 
+wastes is relative easy a nd in accordance with SoA 
+technologies for industrial treatment of acids and Alkali. 
+Legal 
+FreeMe is harmonized with the general regulatory 
+framework (i.e. REACH, Directive 94/62/EC and 
+Directive 2019/904 for plastic waste recycling 
+compliance.  
+There is no identified legal based negative aspect of the 
+FreeMe technology

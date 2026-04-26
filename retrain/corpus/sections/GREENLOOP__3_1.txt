@@ -1,0 +1,901 @@
+3.1 Work plan and resources 
+GREEN-LOOP is composed by 9 WPs. The general plan of 
+the project is shown in Figure 22. In  WP1, the technical 
+coordination and the set -up of all project is performed to 
+ensure the proper execution of the project. In WP2, the 
+sustainability analysis is done towards circularity of the bio -
+based product and ensure the sustainability of all GREEN -
+LOOP solutions. In WP3, WP4 and W P5, the bio -based 
+materials are manufacture, ensuring a innovative production 
+of final products. In WP6, the upscale production in TRL6 and 
+the demonstration at relevant environment is performed. In WP7 and WP8,  the exploitation and communication 
+activities are developed, respectively. Finally, in WP9, the financial coordination and general management of is done.  
+Table 6 Work Package distribution 
+Work 
+package 
+No. 
+Work Package Title 
+Lead 
+Participant 
+No 
+Lead Participant 
+Short Name 
+Person-
+Months 
+Start 
+Month 
+End 
+month 
+1 Set-up of GREEN -LOOP Bio -based 
+products, green and smart solutions 6 FHF 74 1 36 
+2 Sustainability and Circularity by design 17 AIMEN 82 1 36 
+3 Bio-rubber material production 2 NCC 102 1 25 
+4 Bio-plastic material production 7 LBRT 86 1 25 
+5 Wood composites material production 6 FHF 85 1 25 
+Figure 22 GREEN-LOOP Pert 
+chart 
+                              
+                                                                     
+   
+                                  
+   
+                               
+         
+   
+           
+         
+         
+   
+           
+         
+         
+   
+     
+           
+         
+         
+    
+                           
+               
+    
+              
+                         
+Figure 23 Gantt Chart 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-05    Manufacturing technologies for bio-based materials 
+   Sustainable manufacture systems towards novel bio-based materials  Page 30 of 45 
+ 
+6 Upscale production and demonstration 1 IDE 139 20 36 
+7 Business Model, Replication and 
+Exploitation 
+16 AXIA 58 1 36 
+8 Communication, Dissemination and 
+Training 
+9 NSB 73 1 36 
+9 Coordination and Management 1 IDE 50 1 36 
+   Total person- 
+months 
+749   
+ 
+WP number #1 Lead beneficiary FHF 
+Work package title Set-up of GREEN-LOOP Bio-based products, green and smart solutions 
+Participant num. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 
+Short name  IDE NCC NIC UBRIS ZAG FHF LBRT MYX NSB TDZ IRIS GIG AAU ASI ISQ AXIA AIMEN 
+Person-months 9 3 2 2 2 6 2 2 1 1 15 2 10 1 1 2 14 
+Start month 01 End month 36 
+ 
+Objectives 
+To develop efficient and comprehensive organizational, and technical management of the project. To Perform periodic 
+reports on technical issues of the project to EC, define the technical dependencies among all the working groups and 
+boundary conditions on use cases, and determine KPI’s to establish innovation potential of bio-based materials. 
+ 
+Description of work 
+Task 1.1. Scientific & Technical Coordination [M01-M36] [Lead: FHF; Participants: All] FHF will act as the 
+technical coordinator of GREEN-LOOP. In this task, monitor and control the technical  development of the project 
+will be performed. This comprises the co-ordination, supported by IDE, of technical progress, review and approval 
+of technical reports and deliverables. The task covers all the activities to be carried out in the three value chains (WP3 
+to WP5): i) Monitoring of the state of the art and of the state of practice. ii)Following of the progress of the scientific 
+and technological developments of the project. iii)Identification of technical problems and remedial actions. 
+Task 1.2. Working framework, requirements definition  and team alignment  [M01-M06] [Lead: IDE; 
+Participants: All] The objective of this task is to establish a properly working framework in order to define a 
+collaborative alliance of working groups (also called Integrated Project Delivery) to define partners' participation and 
+responsibilities in each WP and to optimize project results in quality and time. The first step is to define the end users’ 
+needs for the new bio-based products developed in this project. This will include chemical, physical, and mechanical 
+properties needed for the new bio-based products. Then, to establishes the retrofit, changes and upgrades needed in 
+the manufacture lines to reach GREEN -LOOP objectives. For each working group, a flowchart will be created to 
+represent the team alignment and describe the activities to perform, as well as the data or materials needed per task. 
+Task 1.3. Validation KPI’s definition  [M01-M08] [Lead: AIMEN; Participants: All] To describe the impacts 
+achieved from the manufacture of novel bio-based materials in the value chains , a set of  relevant KPI’s will be 
+identified. The KPI’s definition will include sustainability factors (usage of  raw/renewable materials, solid waste 
+generation, recycling, reuse and refurbish), energy impacts (primary energy consumption, efficiency, potential energy 
+savings), environmental burden from harmful substances (greenhouse emissions: CH4, CO2, pollutions). Also, some 
+non-energy factors: industrial safety/risk,  economic factors (investment/operating cost) will be reviewed and 
+quantified within the KPI’s. The KPI’s database will be created based on bio value chains, available sources, databases 
+of materials (e.g. Materials Genome Initiative, AFLOW), including information from related EU projects (T7.5) 
+Task 1.4. Inline monitoring and quality controls [M10-M36] [Lead: IRIS; Participants: IDE, AAU, MYX, 
+LBRT, FHF, NCC, UBRIS, NIC] An ICT infrastructure to coordinate the data gathering will be developed by IRIS 
+in this task. Firstly, manufacturers, supported by IRIS, will carried out the selection of the sensors to be installed from 
+the technical requirements defined in Task 1.2. Then, ICT can be defined to interconnect all data from manufacture 
+to the GREEN-LOOP platform for value chain optimization. The monitoring system will be designed to be part of 
+the Internet of Things and it will be accessible online. This infrastructure will consist on: i) Systems for collection of 
+data (monitoring, sensors, machine, humans, quality products). ii) System and protocols for communicating data. iii) 
+Quality of the data. The prototype of ICT platform will be tested during lab trials and optimization of the processes, 
+the final version will be deployed to complete the upscaling up to TRL6 in Task 6.1. 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-05    Manufacturing technologies for bio-based materials 
+   Sustainable manufacture systems towards novel bio-based materials  Page 31 of 45 
+ 
+ 
+Deliverables [responsible partner] [month] 
+D1.1 Scientific and technical plan and execution report [FHF] Subject to a set of revisions [M4, M12, M24, M36] 
+D1.2 Integrated project delivery and team alignment to describe global responsibilities [IDE] [M06] 
+D1.3 KPI’s to evaluate the integration of bio-based materials in manufacture and value chains [AIMEN][M08] 
+D1.4 ICT infrastructure and data management protocols to be implemented in manufactures [IRIS][M18, M24, M32] 
+ 
+WP number #2 Lead beneficiary IDE 
+Work package title Sustainability and Circularity by design 
+Participant num. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 
+Short name  IDE NCC NIC UBRIS ZAG FHF LBRT MYX NSB TDZ IRIS GIG AAU ASI ISQ AXIA AIMEN 
+Person-months 20 2 2 2 2 2 2 2 0 0 0 7 4 5 2 8 22 
+Start month 01 End month 36 
+ 
+Objectives 
+To create and utilize a methodology to obtain optimized designs, ensuring the circularity of bio -based materials. 
+Reduce the environmental impact by implementing A.I models, thermo-economy studies and environmental analysis. 
+Finally, implement a platform to evaluate and optimise the bio value chains. 
+ 
+Description of work 
+Task 2.1 Circular Economy, End of Life strategies and value chain assessment [M01-M15] [Lead: GIG; 
+Participants: AXIA, AIMEN, MYX, LBRT, FHF, NCC, UBRIS, NIC , ZAG ]•Subtask 2.1.1 Assessment on 
+Value chains (AXIA): For each of the bio -based materials, a map of the value chain will be created. The analysis 
+will study the transformatio n from linear value chain  to circular approach, including resource optimisation, waste 
+reduction, reuse, refurbish, recycle , circular business (T7.1.) and Blue economy impacts. Results will be inputs for 
+environmental activities (T2.3) and platform (T2.5.) •Subtask 2.1.1 Circularity by design and end of life (EoL) 
+strategies (GIG): Analysis of raw materials, assembly configurations and disassembly alternatives will be performed. 
+Optimum scenarios will be defined to reach circularity by design  (made to be made again , T6.5). Results will be 
+inputs of LCA/LCC analyses in T2.3. GIG will develop bill of materials and indicators to evaluate the circularity. 
+Task 2.2 Energy and Exergy analysis of the systems [M07-M36] [Lead: IDE; Participants: MYX, LBRT, FHF, 
+NCC, UBRIS, NIC] Energy transformations in quality and quantity are analysed for each material in two different 
+stages of the product's life. First, at lab scale, and then during upscaling of the manufacture. Energy optimisation is 
+done bas ed on: i) Identification  of irreversibilities ii) Understanding why energy losses occur. iii) Evaluation of 
+changes, parameters, and configurations. iv) Improvement suggestions. v) Understanding the effects of losses and 
+assessing the final cost of products. Results will feed T2.3 
+ Task 2.3 Tools and methodology for LCA, LCC, and Social LCA assessments  [M07-M36] [Lead: AIMEN; 
+Participants: AXIA, GIG, MYX, LBRT, FHF, NCC, UBRIS, NIC] LCA will be assessed mainly on recyclability, 
+reuse, refurbish, waste reduction,  litter impact  and GHG emissions, complemented by other relevant impact 
+categories. LCC will estimate capital, operational costs and cost reductions, and indirect costs related to 
+environmental externalities, as well as and the asset's residual value at the end of its life. The S-LCA will be conducted 
+for different social indicators related to impact categories . During the first stages, this task will be focused on raw 
+materials and resources (WP3 to WP5). In validation phase, it will include the industrially relevant data (WP6). In 
+both cases, data from energy studies (T2.2) and value chain assessment (T2.1) will be used. 
+Task 2.4 Standardisation activities of GREEN-LOOP [M01-M36] [Lead: ASI; Participants: ISQ, MYX, 
+LBRT, FHF, NCC, UBRIS, NIC] From the definition of the bio -based materials, the standardization potential of 
+the end products will be investigated, allowing the project to interact with the related standardization technical 
+committees. At first, an initial study of the standardization landscape will be performed, based on the needs of material 
+developments (WP3 to WP5), regarding relevant existing standards (ISO, CEN, OSHA, ACEA, etc) and the related 
+standardization committees (e.g. WRAP, ECN ). ASI together with other consortium members will develop a 
+standardization plan detailing the relevant standardization activities and actions taken by the project. 
+Task 2.5 GREEN-LOOP optimization value chain platform [M01-M36] [Lead: IDE; Participants: AXIA,  
+AAU, ISQ, NSB, MYX, LBRT, FHF, NCC, UBRIS, NIC, GIG] IDE will integrate 5 modules form previous task 
+to build the core of the GREEN-LOOP Platform: i) Data access ( T1.4 and T2.1, IRIS, AAU), data in real time 
+regarding the status of the manufacture lines  and circularity. ii) Sustainability ( T2.3, IDE, AIMEN), to perform a 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-05    Manufacturing technologies for bio-based materials 
+   Sustainable manufacture systems towards novel bio-based materials  Page 32 of 45 
+ 
+constant environmental evaluation. iii) Business analysis ( T7.1, AXIA), sustainable, circular business, policies and 
+socioeconomic models. iv) Optimization (IDE), collect results from previous modules to perform the optimization of 
+the value chain (competitiveness, environmental, social impacts, and business). vi) Outputs (IDE) , user interaction 
+will include the social engagement evaluation, and training webinars (T8.4) (ISQ and AAU) 
+Task 2.6 Learning features towards optimization of material and products [M05-M20] [Lead: IDE; 
+Participants: MYX, LBRT, FHF, NCC, UBRIS, NIC] To optimize the performance of novel bio-based materials, 
+AI models will be implemented. Data from materials design (T3.2, T4.3, T5.3) and from manufacture (T3.4, T4.4, 
+T5.4) will be used . The se models will allow estimating the final product properties for certain manufacturing  
+conditions. The manufacture conditions and bio-based material parameters will be taken as an  input while the 
+properties of the final products will be obtained as an output. AI will be used in phase 2 to boost process’ scale-up. 
+ 
+Deliverables [responsible partner] [month] 
+D2.1 Circular economy, and evaluation of circular value chains to boost GREEN -LOOP results [AXIA][M08] 
+D2.2 Energy, exergy, LCA, SLCA and LCC evaluation to optimise manufacturing [IDE][M15, M36] 
+D2.3 Standardization landscape and applicable standards for innovative materials [ASI][M5, M12, M24, M36] 
+D2.4 GREEN-LOOP platform. Evolution of modules and final version [IDE][M12, M24, M36] 
+D2.5 Machine learning solutions and optimization to improve manufacturing cases [IDE][M20] 
+ 
+WP number #3 Lead beneficiary NCC 
+Work package title Bio-rubber material production 
+Participant num. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 
+Short name  IDE NCC NIC UBRIS ZAG FHF LBRT MYX NSB TDZ IRIS GIG AAU ASI ISQ AXIA AIMEN 
+Person-months 3 12 18 14 6 0 0 0 0 0 30 1 1 1 13 0 4 
+Start month 01 End month 25 
+ 
+Objectives 
+To develop an optimised bio-rubber material system and validate its deployment at TRL5  to further upscale. This 
+includes: the specification of novel material system , release of final eco -design model, technology validation in lab 
+scale and manufacturing line, characterization, installation of ultrasound prototype & sensors for online monitoring. 
+ 
+Description of work 
+Task 3.1. Bio-rubber materials specifications definition [M01-M04] [Lead: ZAG; Participants: NCC, UBRIS, 
+NIC] This task starts from the preliminary definition of use -case characteristics for the validation of the 
+multifunctional rubber solutions of Task 1.2, the requirements will be referred to the construction sector according to 
+the building standards e.g. toxicity potential (ASTM E1678), predicted class (EN 13501 -1), wall application (ISO 
+11925-2, EN 13823) and flooring application (ISO 9239-1), defined by ZAG. 
+Task 3.2.  Eco-design with bio rubber compounds [M04-M20] [Lead: NCC; Participants: UBRIS, ZAG, NCC, 
+NIC, ISQ] This task covers anything from initial concept design to model release and tooling manufacture for serial 
+production. NCC will use technical requirements defined in T1.2 and key findings from T3.3.1 to develop an eco-
+design concept. Final design will be val idated prior upscaling activities through characterization tests (T3.4). Model 
+will be released for tooling design and procurement activities supported by AI models from T2.6.   
+Task 3.3. Upgrades and modifications of equipment in manufacture lines [M1-M20] [Lead: IRIS; Participants: 
+NCC, UBRIS, NIC]•Subtask 3.5.1: Sensors Installation and data management: NCC will install required sensors 
+for inline process monitoring supported by IRIS. Once required sensors are in place, IRIS will validate ICT platform 
+for data gathering. •Subtask 3.5.2: Development of ultrasounds enhancement: IRIS will identify the most feasible 
+practices, techniques and configurations for ultrasound utilisation in the Kraft lignin isolation and bio-rubber extrusion 
+processes. Using material samples, specification data from NIC and NCC, and laboratory studies, the most convenient 
+operating conditions will be defined . Best configuration will be taken to conceptual design, build and validate the 
+system at lab level for both cases. •Subtask 3.5.3: Adaptation of ultrasound prototype to manufacturing line: The 
+ultrasound prototype from T3.2.2 will be finished (upscale adaptation if needed) and commissioned , one system to  
+NIC facilities for lignin process and other to NCC facilities for rubber production. Installation will be carried out by 
+IRIS, supported by NCC doing the required retrofits in the line and ensuring the health and safety of all workers 
+(following results from T8.6) and facilitating its use through T8.4 
+Task 3.4. Manufacture of bio-rubber materials and Eco-design [M09-M15] [Lead: UBRIS; Participants: ZAG, 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-05    Manufacturing technologies for bio-based materials 
+   Sustainable manufacture systems towards novel bio-based materials  Page 33 of 45 
+ 
+NCC, NIC] Once materials and formulation are well defined ( T3.1), the NCC will procure material and split the 
+production of bio -rubber materials in two stages:  1) Material production for compounding validation at lab scale 
+(UBRIS). 2) Material production for upscaling activities and final demonstration under industrially relevant 
+environment. NIC will ensure the sufficient quantities of the selected, comprehensively  characterized lignin for the 
+bio-rubber production. NCC will use technical requirements defined in task 1.2 and results from stage 1 to develop a 
+preliminary concept design. Final product design will be further optimised through validation trials (T3.5).  
+Task 3.5. Technology validation [M05-M20] [Lead: NCC; Participants: UBRIS, NIC, ISQ, ZAG]•Subtask 3.3.1 
+Lab scale  trials (UBRIS): NIC will provide lignin of different qualities, comprehensively characterized using 
+analytical techniques such as NMR, SEC, FTIR. NIC will evaluate a lignin structure-performance relationship in bio-
+rubber and optimise if needed by fine -tuning lignin isolation/modification parameters  Rubber pads will be first 
+validated at laboratory scale (UBRIS). Once the most suitable bio-based materials combination has been selected, 
+representative coupons will be manufactured under different lignin and rubber content for characterization (T3. 5). 
+•Subtask 3.3.2 Scaling production in relevant environment (NCC): Outcomes from T.3.3.1 will inform the design 
+of experiments with most suitable material configurations and initial manufacturing considerations. Several samples 
+will be manufactured by press moulding and the influence of ultrasounds on the quality of the samples will also  be 
+evaluated. Best sample configurations will be taken to the characterization stage (T3.5). 
+Task 3.6. Characterization of bio-rubber pads [M5-M25] [Lead: ISQ; Participants: IRIS, ZAG, NCC, UBRIS, 
+NIC] The characterized will be as follow. ISQ will evaluate hardness, thermal conductivity, and wear. U BRIS will 
+evaluate vibrational properties . Flammability test (EN ISO 11925 -2) will be performed by ZAG. The correlation 
+between lignin structure (NMR, SEC, FTIR analysis), compatibility forming rubber composite (mechanical properties) 
+and flame retardancy (flammability test) will be defined by NIC and will assist for the optimal final formulation.  
+ 
+Deliverables [responsible partner] [month] 
+D3.1 Report of bio-rubber material with specifications for fireproof and vibrational applications [ZAG][M4] 
+D3.2 Detailed description of final eco-design model to be manufactured [NCC][M24] 
+D3.3 Ultrasound enhancement installation in manufacturing lines at NIC and NCC [IRIS][M20] 
+D3.4 Report with validation trials and key findings [NCC][M20] 
+D3.5 Report with characterization results and key findings [ISQ][M24] 
+ 
+WP number #4 Lead beneficiary LBRT 
+Work package title Bio-plastic material production 
+Participant num. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 
+Short name  IDE NCC NIC UBRIS ZAG FHF LBRT MYX NSB TDZ IRIS GIG AAU ASI ISQ AXIA AIMEN 
+Person-months 21 0 0 0 0 0 15 23 0 6 2 1 1 1 13 0 4 
+Start month 1 End month 25 
+ 
+Objectives 
+To develop an optimised bio-plastic material and validate its deployment at TRL5 to further scaleup. Specification 
+of novel bioplastic system, release of final eco -design model, technology validation in lab scale and manufacturing 
+line, characterisation of bottle closures, and installation of microwave prototype with sensors for inline monitoring. 
+ 
+Description of work 
+Task 4.1. Bio-plastic materials specifications definition [M01-M04] [Lead: TDZ; Participants: MYX, LBRT,] 
+Based on the current production of TDZ and the needs identified in T1.2, the bottle closures will be tested. TDZ will 
+perform a detailed description of all the requirements, physical (sealing temperature, and pressure, etc), and chemical 
+(toxicity, food-contact, etc) to get final product for the fruit juice: Skirt Height 38 for bottle 200ml with flip.  
+Task 4.2. Upgrades and modifications of equipment in manufacture lines  [M03-M20] [Lead: IDE; 
+Participants: LBRT]•Subtask 4.2.1 Sensors Installation and data management: LBRT will install required 
+sensors for inline process monitoring supported by IRIS. Once required sensors are in place, IRIS will validate ICT 
+platform for data gathering.  •Subtask 4.2.2 Microwave enhancement : IDE will identify best practices and 
+techniques for microwave utilisation in injection moulding process . Those techniques, combined with lab test of 
+dielectric properties will be taken to conceptual design and then tested through numerical simulations  to determine 
+the size and characteristics of the applicator, cavity and MW source to be used. •Subtask 4.2.3 Tooling designs and 
+adaptations: The microwave from T4.2.2 will be installed at LBRT fac ilities, ensuring the health and safety of all 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-05    Manufacturing technologies for bio-based materials 
+   Sustainable manufacture systems towards novel bio-based materials  Page 34 of 45 
+ 
+workers (following results from T8.6) and facilitating its use through T8.4 . LBRT  will perform retrofit of its 
+equipment to reach optimal behaviour for new bioplastics manufacturing 
+Task 4.3. Eco-design and manufacture of a bio-composite material [M09-M15] [Lead: MYX; Participants: 
+LBRT] Following requirement defined in T4.1, MYX will develop thermoplastic biocomposites with low carbon 
+emissions, biobased and biodegradable properties by revaluing and ennobling vegetal residues from agro -industrial 
+supply chains as filler for thermoplastic carriers (circular economy).  Model will be released for tooling design and 
+procurement activities supported by AI models from T2.6. 
+Task 4.4. Technology validation and generation of products. [M15-M20] [Lead: ISQ; Participants: IDE, TDZ, 
+MYX, LBRT] MYX with its patent processed will  sanitise and grind vegetable residues, improve the superficial 
+adhesion of polymeric carriers (T4.3), and compound together carriers and fillers into a new material. The outcome 
+MIX material will be directed to LBRT for trials of injection moulding and rec eiving feedback for further 
+improvements (feedback from T4.2). 
+Task 4.5. Characterization and quality controls  [M01-M25] [Lead: LBRT; Participants: IRIS, IDE, TDZ, 
+LBRT] Bio-plastic production will be subject to quality control by MYX and LBRT as well as characterisation: 
+tensile strenght, Tensile Modulus, Flexural Modulus, Elongations, Flexural Deformations, food contact with food 
+simulant (alcoholic 50º, oil) (ISQ), Notched and Unotched Impact (LBRT) 
+ 
+Deliverables [responsible partner] [month] 
+D4.1 Report of bio plastic material with specifications for food ana beverage applications [TDZ][M4] 
+D4.2 Detailed description of final bio-plastic and ecodesign to be manufactured [MYX][M24] 
+D4.3 Microwave enhancement for bioplastic injection system [IDE][M20] 
+D4.4 Report for bioplastic validation trials and key findings [LBRT][M20] 
+D4.5 Report for bioplastic characterization results and key findings [ISQ][M24] 
+ 
+WP number #5 Lead beneficiary FHF 
+Work package title Wood composites material production 
+Participant num. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 
+Short name  IDE NCC NIC UBRIS ZAG FHF LBRT MYX NSB TDZ IRIS GIG AAU ASI ISQ AXIA AIMEN 
+Person-months 21 9 0 11 0 20 4 0 0 0 1 1 1 1 13 0 4 
+Start month 1 End month 25 
+ 
+Objectives 
+To set-up and implementation of an innovative process chain for the manufacturing of wood composite material 
+(WC). The process should finally work in a closed loop and should demonstrate the technology in lab-scale production 
+at TRL5. The process will be disruptive by integrating MW technology, characterization & quality controls. 
+ 
+Description of work 
+Task 5.1. Wood composites materials specifications definition [M01 -M04] [Lead: LBRT; Participants: FHF, 
+NCC, UBRIS]  LBRT, following the results from T1.2 and  based on its facilities will determine the main 
+characteristics (physics, mechanical and chemical) needed to develop the WC bearings. The products will be designed 
+for the tool and appliance sector at LBRT facilitie s in an injection unit  with the following requirements:  holding 
+pressure 195-245 MPa, speed 400 min-1, and 24.5 kN. 
+Task 5.2. Upgrades and modifications of equipment in manufacture lines [M0 3-M20] [Lead: IDE; 
+Participants: FHF, NCC, UBRIS] •Subtask 5.2.1  Development of new compounds using mostly renewable 
+resources (UBRIS). New compounds and modifications thereof will be based on wood fibres and particles, bio-based 
+polymers such as lignin, coupling agents and additives. To reinforce the WC, wood fibres with a length up to 10 mm 
+will be used. Additives such as graphite will be selected to obtain the best sliding performance of the WC. •Subtask 
+5.2.2 Microwave enhancement (IDE): IDE will identify best practices and techniques for microwave utilisation in 
+extrusion process. A detailed studies on the electromagnetic interaction with additives (dielectric properties) will be 
+performed to ensure the adequate thermal profiles.  The cav ity, applicator, and electromagnetic sources  will be 
+optimised by metaphysics simulation to ensure proper behaviour. •Subtask 4.2.3 Tooling designs and adaptations 
+(FHF): The microwave from T5.2.2 will be installed at FHF facilities, ensuring the health and safety of all workers 
+(following results from T8.6) and facilitating its use through T8.4 . FHF will perform a series of retrofit activities to 
+enhanced extrusion process and boost WC manufacturing fulfilling requirement of T5.1. The retrofit of the extruder 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-05    Manufacturing technologies for bio-based materials 
+   Sustainable manufacture systems towards novel bio-based materials  Page 35 of 45 
+ 
+in different temperature zones will be done to improve the melting, the flow and curing. 
+ Task 5.3. Modelling, Eco -design and manufacture of wood based composite materials [M06 -M25] [Lead: 
+NCC; Participants: LBRT, FHF, UBRIS] A suitable chemical composition with appropriate rheological properties 
+will be carried out to obtain the best performance for a save and reproducible manufacturing of samples. All base 
+materials will be characterized by several methods such as TG/DSC, FTIR, SEM and gra in size distribution. The 
+water content will be adjusted at a low level to avoid pore formation during the sample manufacturing. This activity 
+is supported by T2.5, AI models.  Samples and components with simple geometries (tubes, plates) will be 
+manufactured by extrusion and press moulding. Investigation of the machinability of the samples will be performed 
+to texturize surfaces for lubricant retention and to achieve the required dimensions. 
+Task 5.4. Generation of samples and , characterization and quality control [M6 -M25] [Lead: ISQ; 
+Participants: IRIS, LBRT, FHF, NCC, UBRIS]  ISQ will characterise raw materials thermal behaviour 
+(TGA/DSC), viscosity (rheo -tester), functional gro ups (FTIR) and water content (moisture scale) . FHF will 
+characterise WC  samples for tensile strength, density, homogeneity, friction, wear, pv -values, tribological 
+performance. This study will ensure that all materials derived from T5.2 and T5.3 are completely characterised. The 
+quality control of WC samples will be applied by FHF and NCC by using non-destructive testing (NDT) methods  
+directly after the manufacturing , such as 3D computed tomography or ultrasonic. 
+Task 5.5. Tribological testing and validation under industrially relevant environments [M1-M25] [Lead: FHF; 
+Participants: IDE, ZAG, NCC, UBRIS] Tribological testing of WC samples and components from lab-scale on test 
+benches. Screening of different material types: tribological loading capacity, friction, wear coefficients , as well as 
+investigation of the lubricant retention. Iterations with T5.4 and T5.3 will be done to ensure the proper results at TRL5  
+ 
+Deliverables [responsible partner] [month] 
+D5.1 Report on needed specification, life time and design of WC bearing samples and components [LBRT][M4] 
+D5.2 Microwave design adapted to curing system for WC extrusion [IDE][M20] 
+D5.3 Report on WC sample manufacturing by press moulding towards upscaling [NCC][M20] 
+D5.4 Report on WC sample quality and properties to improve results [ISQ][M24] 
+D5.5 Report of WCB properties from tribological evaluation for tooling adaptation (injection unit) [FHF] [M12, M24] 
+ 
+WP number #6 Lead beneficiary IDE 
+Work package 
+title Upscale production and demonstration 
+Participant  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 
+Short name  IDE NCC NIC UBRIS ZAG FHF LBRT MYX NSB TDZ IRIS GIG AAU ASI ISQ AXIA AIMEN 
+Person-months 5 7 0 10 20 22 38 5 1 15 5 5 2 1 0 0 4 
+Start month 20 End month 36 
+ 
+Objectives 
+To scale-up of the lab process from WP5.  Research work will be done to set -up a viable process chain for the 
+production of GREEN-LOOP biomaterials to obtain TRL6. A quality control will be established to ensure a low 
+number of rejected parts. End Of Life activities to ensure circularity will be done. 
+ 
+Description of work 
+Task 6.1. Upscaling activities towards end user applications [M20-M25] [Lead: IRIS; Participants: IDE,  MYX, 
+LBRT, FHF, NCC, UBRIS, NIC] A fine tuning for the retrofit of tooling and  facilities done in WP3 to WP5 is done 
+to get ready the equipment for relevant environment production and upscaling activities.  Ultrasound (T3.2) and 
+microwave (T4.2, T5.2) systems are adapted to final version of manufacture lines. The ICT infrastructure (T1.4) 
+reaches its final version to integrate all retrofit activities, ensure sensors connectivity and connected to the GREEN-
+LOOP platform to evaluate the manufacturing process.  
+Task 6.2. Wall and floor pad (construction) [M25-M36] [Lead: ZAG; Participants: IRIS, NCC, UBRIS, NIC] 
+Results from T3. 4 defined the final composition of the multifunctional rubber panels. NIC will be in char ge of 
+providing the lignin additives ready for the final press mould of the panels. NCC will perform the manufacture of the 
+final pieces by implementing the new tooling and retrofit developed in T6.1. The process will consider the 
+characterization results and will include the quality checks defined in T3.5. The final products will be tested i n 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-05    Manufacturing technologies for bio-based materials 
+   Sustainable manufacture systems towards novel bio-based materials  Page 36 of 45 
+ 
+sequence: i) UBRIS will test vibrational behaviour of the panels in a large shaking machine prepared for full scale 
+structures. ii) the panels are sent to ZAG to perform the fire resistance testing in a ship-building industry, Finally, Zag 
+will prepare the technical assessment of the multifunctional panels. 
+Task 6.3. Bottle closures (packaging, food and beverage) [M25 -M36] [Lead: TDZ; Participants: IDE, MYX, 
+LBRT] Based on T4.4 (final bioplastic design) and T6.1 (final retrofi t activities) , MYX will prepare optimised 
+bioplastic pellets to then be used at LBRT facilities to manufacture the final products . The manufacturing process 
+will fulfil all requirements of characteristics and quality defined in T4.5. The final bottle closures will be tested by 
+TDZ in a great variety of fruit juices and oils in a bottle made form recycled plastics (to endure circularity of bottling 
+process). Bioplastic bottle closures will be tested at different conditions of pasteurisation, hot and cold filling, different 
+environments of storage also will be tested. TDZ will prepare final report. 
+Task 6.4. Bearings (tools and appliance) [M24 -M36] [Lead: LBRT; Participants: IDE, FHF, NCC, UBRIS]  
+Final retrofit of press moulding and extrusion tooling’s from T6.1 as well as the design found in T53. And T5.4 will 
+be used to obtain prototypes in net-shape. The extrusion of these prototypes with the final geometry of the bearings 
+from LBRT will be demonstrated the reproducibility of the processes will be verified by small series production with 
+a large number of parts. All quality controls and characteristics defined in T5.4 and T5.5 will be constantly reviewed 
+to offer high feature bearings. The tribological performance of prototypes will  be tested in industrial environments 
+by LBRT. The performance of these prototypes will be investigated after a lifetime of some hundred hours and 
+evaluated against standard bearings to show the high potential of the bio-based material. 
+Task 6.5 End Of Life of products and next use [M25-M36] [Lead: NCC; Participants: AXIA, GIG, IDE, MYX, 
+LBRT, FHF, NCC, UBRIS, NIC]  This task will ensure that all the bio -based materials manufactured in GREEN-
+LOOP follow EU’s Circular Economy and Circular Plastics Strategies.  The value chain analysis and the end of life 
+products defined in T2.1 and Environmental studies in T2.3 will be the guide to perform the physical actions to ensure 
+a second life to all bio -based products created within GREEN-LOOP. The activities will be done as follows: NCC: 
+Mechanical recycling of rubber panel to produce pellets and reintroduce them in the value chain to create new and to 
+refurbish pads. MYX: re-incorporate and reuse scraps by combining them with recycled  final closures to produce 
+new value goods.  FHF: Mechanical refurbish of WC by readjusting the surface roughness and texture.  NCC will 
+also recycle WC material to be reused in the extrusion and moulding process. The results will be monitored and used 
+in the GREEN-LOOP platform to boost value chains, social engagement and training activities (T2.1, T2.5 and T8.4). 
+ 
+Deliverables [responsible partner] [month] 
+D6.1 Description of final retrofitted facilities for manufacturing bio-based materials [IRIS][M25] 
+D6.2 Demonstration of bio-rubber production and use in value chains (construction) [ZAG][M36] 
+D6.3 Demonstration of bioplastic production and use in value chains (food and beverage, packaging) [TDZ][M36] 
+D6.4 Demonstration of wood composites production and use in value chains (appliances and tools) [LBRT][M36] 
+D6.5 End of life results and activities towards circular economy and circular value chains [NCC] [M36] 
+ 
+WP number #7 Lead beneficiary AXIA 
+Work package 
+title Business Model, Replication and Exploitation 
+Participant  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 
+Short name  IDE NCC NIC UBRIS ZAG FHF LBRT MYX NSB TDZ IRIS GIG AAU ASI ISQ AXIA AIMEN 
+Person-months 6 2 1 1 2 1 1 1 4 1 1 3 8 1 1 23 1 
+Start month 01 End month 36 
+ 
+Objectives 
+Ensure the exploitation of the results while boosting the impact of those. This includes m arket analysis to find 
+opportunities and assure the exploitation of the technologies developed under the project, update of the key exploitable 
+results and business planning and exploitation strategy, conduct IPR management. 
+ 
+Description of work 
+Task 7.1. Market Analysis and Circular Business Planning [M01-M36] [Lead: AXIA; Participants: All] Market 
+landscape studies will be implemented for the results arising and will be analysed in two market analysis deliverable 
+reports, one at the beginning of the project and one by the end of the project. A financial projection analysis will be 
+performed to evaluate the profitability of the revenue model, identify the need for future investments, and define the 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-05    Manufacturing technologies for bio-based materials 
+   Sustainable manufacture systems towards novel bio-based materials  Page 37 of 45 
+ 
+future cash flow. Business canvas included in section 2.2 will be updated in accordance with the project and EU 
+needs. AXIA will support the evaluation of value chains for the GREEN-LOOP platform in T2.5 
+Task 7.2 Exploitation strategies and IPR management [M01-M36] [Lead: AXIA; Participants: All] The IPR 
+exploitation activities will be developed based on an extensive exploitation plan to disseminate and exploit the project 
+results found during the project execution and at the end of the project. This plan will be updated with every  results 
+(reports, materials developments, software creation, and monitoring  systems). These activities will be also focused 
+on finding stakeholders to set the bases for future market and business deployments (T7.1).  
+Task 7.3. Innovation Management [M01-M36] [Lead: AXIA; Participants: All] A PEST and SWOT of the 
+internal and external analysis environment affecting the exploitation of the project will be carried out. The innovation 
+margins of each result will be identified and the TRL evolution of the KER towards their commercial exploitation  
+will be defined. Moreover, in the business model activities, the value proposition of the project and the customer 
+segments of the key exploitable results arising will be identified along with the characterisation of each KER. For 
+each KER the protection and the exploitation route as well as their type e.g product, technology will be defined. 
+Task 7.4. Replication cases [M20-M36] [Lead: AXIA; Participants: All] This task is to set the basis for the 
+replicability of bio-based materials usages in different industrial sectors as well as to identify and study 6 different 
+cases where feasible use of bio -based products can be made. Consortium partners, in Section 1,  have performed a 
+preliminary identification of these replication cases. Replication cases must follow these criteria: i) High technical 
+feasibility. ii) Proper circular business models. iii) High ranking potential market. iv) Low environmental impacts. 
+GREN-LOOP platform will be utilised to study all available value chain options (T2.5). 
+Task 7.5. Synergies with other H E founded projects [M01-M36] [Lead: AXIA; Participants: All] To build 
+connections that can strengthen the impact of GREEN-LOOP by collaborating with other H2020, Horizon Europe 
+and EU-funded projects as well as national and local initiatives such as Made in Europe, EU Plastics Strategy, Ocean 
+sustainability and Blue economy , sharing and exchanging on best practices for green manu facturing, bio-based 
+solutions, and the experiences with novel bio-based materials. Project partners will build these bridges, which could 
+take the form of participation in relevant events, co-organising events with other projects and initiatives, supporting 
+each other’s online presence, or communication activities. 
+Task 7.6. Open science and Data management plan [M01-M36] [Lead: AAU; Participants: All] Within this task, 
+a Data Management Plan (DMP) will be prepared by M06 to describe the data management lifecycle for all data 
+gathered through the real -time monitoring system and used in the GREEN-LOOP platform as well as the results 
+obtained. This document will outline how this data will be handled and processed. Additionally, clear guidelines for 
+managing personal data and compliance with privacy regulations (as GPDR) will be provided. For last, within this 
+task, the tools and repositories are settled to assure the open-source software developed under GREEN-LOOP (T2.5).  
+ 
+Deliverables [responsible partner] [month] 
+D7.1 Exhaustive market analysis towards circular approaches [AXIA] [M6, M36] 
+D7.2 GREEN-LOOP Exploitation plan to boost biomaterials markets [AXIA] [M6, M18] 
+D7.3 IPR roadmap report to ensure the proper management of innovative designs [AXIA][M16, M36] 
+D7.4 Risk Analysis report to avoid any possible delay on activities and ensure project advances [AXIA][M12] 
+D7.5 Circular business models for innovative bio-based materials and manufacture [AXIA][M24, M36] 
+D7.6 Synergies & collaboration report to increase collaboration among partner and with other projects [AXIA][M36] 
+D7.7 DMP and open sourcing approach to reach higher audiences [AAU][M06] 
+ 
+WP number #8 Lead beneficiary NSB 
+Work package title Communication, Dissemination and Training 
+Participant num. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 
+Short name  IDE NCC NIC UBRIS ZAG FHF LBRT MYX NSB TDZ IRIS GIG AAU ASI ISQ AXIA AIMEN 
+Person-months 6 2 1 1 2 2 1 1 20 1 1 2 8 1 18 5 1 
+Start month 01 End month 36 
+ 
+Objectives 
+To distribute project results among the main target groups and the broader stakeholders’ community (policy makers, 
+academia, etc.), while facilitating knowledge transfer, community engagement and acceptance and to maximise the 
+opportunities for exploitation in line with WP7.  
+ 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-05    Manufacturing technologies for bio-based materials 
+   Sustainable manufacture systems towards novel bio-based materials  Page 38 of 45 
+ 
+Description of work 
+Task 8.1. Communication and Dissemination Plan [M01-M36] [Lead: NSB; Participants: All] The C&D plan 
+will start with desk research, continuing with input from manufacturers, researchers and technology providers and all 
+partners from the beginning to the end of the project. In M6 the initial version of this plan will be submitted, containing 
+an analysis of the WHO, WHAT and HOW with an initial plan of activities for the entire project duration. It will also 
+consider the Exploitation plan of WP7 and align activities to efficiently complement exploitation and scaling of the 
+project with dissemination. Periodic re-evaluations and updates will be submitted in M18 and M36. 
+Task 8.2. Dissemination Materials and Channels [M01-M36] [Lead: NSB; Participants: All] The aim of this 
+task is to create an effective and attractive visual identity of GREEN-LOOP that will assist in delivering its message 
+to key stakeholders as well as to the wider public. The main language will be English, but translations of certain sites 
+to manufacture partner’s languages (German, Italian) will be added.  The material to be created includes  3 main 
+categories. i) Project visual identity and branding. ii) Website & social media channels iii) C&D materials  
+Task 8.3. Communication and Dissemination Activiti es [M01-M36] [Lead: NSB; Participants: All] As 
+delineated and monitored in the C&D plan, C&D activities will ensure targeted communication of the project and its 
+progress on local/national and EU level. Dissemination actions will be strategically planned to make results public to 
+maximise GREEN-LOOP’s impact and exploitability with actions such as social media campaigns, online and offline 
+events, scientific and non-scientific publications. Partners will make use of the channels developed during the project 
+and of their own, ensuring both wider reach and one-to-one communication.  
+Task 8.4. Trainings & Social engagement [M01-M36] [Lead: ISQ; Participants: All] ISQ will be responsible, 
+with contributions from all partners at different levels for the implementation of capacity building activities addressed 
+to both the work force involved in the designing and manufacturing of bio-based materials and/or other stakeholders, 
+aiming to increase the project results transferability and future sustainability, thus the project impact. This task 
+comprises several p hases of the training cycle,  i) definition of the target groups and learning needs, ii) learning 
+outcomes for the curriculum, iii) the learning methodologies to be applied and iv) the actions evaluation. (3 pilot 
+courses per pilot site, and 3 webinars based in real cases. Social engagement (AAU): Social engagement will be set 
+up to exchange on novel bio-based technologies for green/smart manufacturing and create new knowledge to advance 
+the related professional practice. The results will be included in the GREEN-LOOP platform (T2.5). 
+Task 8.5. Gender Dimension [M01-M36] [Lead: AAU; Participants: All] The objective of this task is to avoid 
+any potential gender biases within the project in general, and while developing the GREEN-LOOP platform for social 
+engagement and training in particular (T8.3 and T2.5). To do so, AAU will organise a seminar during the first semester 
+of the project in which indications on how to integrate the gender dimension into the research and innovation activities 
+of the project will be provided. Moreover, during the overall project, AAU will monitor and foster that the gender 
+balance is maintained in GREEN-LOOP decision-making processes. 
+Task 8.6. Health and safety (H&S) issues [M10 -M36] [Lead: NSB; Participants: All] To avoid exploitation 
+problems of the products in terms of standard regulations (T2.4), the health and safety guidelines will be considered 
+from the beginning of the project. NSB is responsible for performing an evaluation of current and forthcoming 
+directives affecting the project and the expected bio -based materials and products that will be developed. This 
+evaluation will incorporate technical specifications to be considered by the activities developed in T1.2.  
+ 
+Deliverables [responsible partner] [month] 
+D8.1 Communication & Dissemination Plan [NSB][M6, 18, M36] 
+D8.2 Final PEDR - Plan of Exploitation and Dissemination of Results [NSB][M36] 
+D8.3 Project Communication Kit with Project website & social media channels [NSB][M6, M12] 
+D8.4 Project Dissemination kit based on project results [NSB][M30] 
+D8.5 Training and social engagement report for 3 different manufacture cases [ISQ][M12, M36] 
+D8.6 GREEN-LOOP directives on gender dimension and non-discrimination [AAU][M06] 
+D8.7 Health and safety conditions of bio-based materials manufacture and demonstration [NSB][M12,M24, M36]  
+ 
+WP number #9 Lead beneficiary IDE 
+Work package title Coordination and Management 
+Participant num. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 
+Short name  IDE NCC NIC UBRIS ZAG FHF LBRT MYX NSB TDZ IRIS GIG AAU ASI ISQ AXIA AIMEN 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-05    Manufacturing technologies for bio-based materials 
+   Sustainable manufacture systems towards novel bio-based materials  Page 39 of 45 
+ 
+Person-months 30 4 1 1 1 2 1 1 1 1 1 1 0 1 2 1 1 
+Start month 01 End month 36 
+ 
+Objectives 
+To develop efficient and comprehensive organizational, economic/financial, and legal management with the aim of 
+guarantee the successful execution of the project (project objectives, costs, timing, and quality). 
+ 
+Description of work 
+Task 9.1. Administrative and financial management  [M01-M36] [Lead: IDE; Participants: All] IDE as 
+coordinator will ensure constant communication with the EC officer in charge of the project. The Project Coordinator 
+will: i) Guarantee that the CA is respected. ii) Monitoring project activities according to the work plan. iii) Ensure 
+that all deliv erables are produced on time. iv) Keep regular communication and exchange with all consortium 
+members, v) Organize and chair the project management  meetings. IDE will implement an intranet service 
+(Confluence by ATTLASSIAN) to facilitate management and support communication tasks and monitor the project 
+activities. Creation of Project Management Plan that will set the basis for the project-role structure, conflict solving 
+methods, communication procedures and reports to the task, WP leaders, project coordinator, and the EC officer. 
+Task 9.2. Project monitoring and project quality control [M01-M36] [Lead: IDE; Participants: All] IDE will 
+be in charge of define a management quality strategy. To reduce risks and prepare contingency plans, IDE will create 
+and recommend procedures to guarantee the quality of the GREEN-LOOP, it will include: a proper role structure to 
+define actions and measures by partner, management of risks, definition of quality conditions during development of 
+materials, set the basis of quality control of reports,  deliverables and execution of validation, and definition of IPR 
+by partner. IDE in collaboration with FHF  will ensure that WP and task leaders get a clear definition of execution 
+steps, responsibilities, and obligations (T1.1). The quality control by WP leaders will be hold two times per year. WP 
+leaders will call for a teleconference to update advances, identify possible constraints and update the execution.  
+ 
+Deliverables [responsible partner] [month] 
+D9.1 Project Management Plan and execution [IDE] [Plan realise at M4, execution at M12, M24, M36 ] 
+D9.2 Economic progress report [IDE] [M12, M24, M36] 
+ 
+Table 7 List of deliverables 
+Deliverable Deliverable name WP Name Type  level Delivery date 
+D1.1 Scientific and technical actions of GREEN-LOOP 1 FHF R PU M4, M12, M24, M36 
+D1.2 Integrated project delivery and team alignment 1 IDE R PU M6 
+D1.3 GREN-LOOP Key Performance Indicators  1 AIMEN R PU M8 
+D1.4 ICT infrastructure and data management 1 IRIS R PU M18, M24, M32 
+D2.1 GREEN-LOOP circular economy evaluation 2 AXIA R PU M8 
+D2.2 Energy, exergy, LCA, SLCA and LCC assessments 2 IDE R PU M15, M36 
+D2.3 Standardization landscape for biomaterials 2 ASI R PU M5, M12, M24, M36 
+D2.4 GREEN-LOOP online platform  2 IDE Other PU M12, M24, M36 
+D2.5 GREEN-LOOP Machine learning optimisation 2 IDE R PU M20 
+D3.1 Report with bio-rubber material specification 3 ZAG R PU M4 
+D3.2 Report on final rubber eco-design model 3 NCC R SEN M24 
+D3.3 Ultrasound enhancement in manufacturing line  3 IRIS DEM SEN M20 
+D3.4 Rubber validation trials and key findings  3 NCC R PU M20 
+D3.5 Rubber quality and characterization results 3 ISQ R PU M24 
+D4.1 Report with bioplastic material specification 4 TDZ R PU M4 
+D4.2 Report on final bioplastic eco-design model 4 MYX R SEN M24 
+D4.3 Microwave enhancement in manufacturing line  4 IDE DEM SEN M20 
+D4.4 Bioplastic validation trials and key findings  4 LBRT R PU M20 
+D4.5 Bioplastic quality and characterization results 4 ISQ R PU M24 
+D5.1 Wood composites specifications  5 LBRT R PU M4 
+D5.2 Microwave design for WC extrusion 5 IDE DEM SEN M12 
+D5.3 WC sample manufacturing by press moulding 5 NCC R PU M20 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-05    Manufacturing technologies for bio-based materials 
+   Sustainable manufacture systems towards novel bio-based materials  Page 40 of 45 
+ 
+D5.4 Report on WC sample quality and properties 5 ISQ R PU M24 
+D5.5 WC properties from tribological evaluation 5 FHF R PU M12, M24 
+D6.1 Retrofitted facilities for manufacturing biomaterials  6 IRIS R SEN M25 
+D6.2 Bio-rubber production and use at TRL6 6 ZAG R PU M36 
+D6.3 Bioplastic production and use at TRL6 6 TDZ R PU M36 
+D6.4 Wood composites production and use at TRL6 6 LBRT R PU M36 
+D6.5 End of life activities towards circular economy 6 NCC R PU M36 
+D7.1 GREEN-LOOP Market analysis 7 AXIA R PU M6, M36 
+D7.2 GREEN-LOOP Exploitation plan 7 AXIA R SEN M6, M18 
+D7.3 IPR roadmap report] 7 AXIA R PU M16, M36 
+D7.4 Risk Analysis report 7 AXIA R PU M12 
+D7.5 Circular business models of bio-based materials  7 AXIA R PU M24, M36 
+D7.6 Synergies & collaboration report 7 AXIA R PU M36 
+D7.7 DMP and open sourcing approach 7 AAU DMP PU M6 
+D8.1 Communication & Dissemination Plan 8 NSB R PU M6, M18, M36 
+D8.2 Final PEDR Results 8 NSB R PU M36 
+D8.3 Project Communication Kit 8 NSB DEC PU M6, M12 
+D8.4 Project Dissemination kit 8 NSB DEC PU M30 
+D8.5 Training and social engagement report  8 ISQ R PU M12, M36 
+D8.6 Gender dimension and non-discrimination 8 AAU R PU M6 
+D8.7 Health and safety conditions of GREEN-LOOP  8 NSB R PU M12, M24, M36 
+D9.1 Project Management Plan and execution 9 IDE R SEN M4, M12, M24, M36 
+D9.2 Economic progress report 9 IDE R SEN M12, M24, M36 
+Table 8 List of Milestones 
+nº Milestone (MS) name WP M. Means of verification 
+MS1 GREEN-LOOP Kick-off meeting (KoM) 9 M1 Signed minutes and attendance list of starting meeting 
+MS2 Holistic alignment workflows  1 M4 Workflows diagrams for D1.2 agreed by consortium 
+MS3 Website launch 8 M6 Website for GREEN-LOOP created and public 
+MS4 LCA inventory for manufacturing system 2 M8 Review and approval by WP leader and manufacturers 
+MS5 Eco-design of bio-based materials 2 M10 Models ready to be applied in WP3, WP4, WP5 
+MS6 Ultrasounds and microwaves validation 3, 4, 5 M12 Laboratory tests ensuring technology implementation 
+MS7 New tooling development 3, 4, 5 M14 Diagrams and plan for retrofit approved by PC 
+MS8 Characterization test of biomaterials 3, 4, 5 M16 Presentation of first pieces near final properties 
+MS9 Manufacture adaptation towards scaleup 3, 4, 5 M18 On-site pictures and technical documentation sent to PC 
+MS10 Upscaling solutions 6 M26 Final pieces in its final form, previous demonstration 
+MS11 End Of Life of GREEN-LOOP products 6 M28 Life cycle questionnaires completed by the partners 
+MS12 Optimal routes for exploitation plan  8 M30  Review and approval by all partners (D8.2) 
+MS13 Cluster and networking activities  7 M30  List of activities/events related to clustering (D7.6) 
+MS14 Final event and replicability cases 7 M36 List of stakeholders interested in GREEN-LOOP results 
+ 
+Although a proper Project Management Risk Process will be implemented as part of the project control, a preliminary 
+list of identified risks is presented in this section. The Project Coordinator and WP leaders will be responsible for 
+continuously evaluating the project risks during GREEN-LOOP execution. The preliminary risks identified are shown 
+with quantification of likelihood ( L: 1-low, 2-medium, and 3 -high) in case of incidence and its severity during the 
+execution of the project (S: 1-low, 2-medium, 3-high). For each risk, a preliminary solution plan has been summarized. 
+Description of risk  WP  Proposed risk-mitigation measures 
+L S Technical risks    
+1 2 Insufficient data to characterize use cases 
+due to the lack of measuring instruments 
+installed or the lack of technical 
+implications. 
+3 to 6  
+Measuring equipment will be installed in those use cases where 
+possible reallocating the budget of the task. In other circumstances 
+where it is not possible, specialized literature will be used for the 
+calculation 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-05    Manufacturing technologies for bio-based materials 
+   Sustainable manufacture systems towards novel bio-based materials  Page 41 of 45 
+ 
+2 3 
+Delay in the development/manufacture of 
+innovative bio-based materials. 3 to 6 
+Efforts allocated and the Gantt diagram have appropriately been 
+created to avoid any possible delay in the deliveries. However, if 
+a delay happens, the WP leader will engage all necessary efforts 
+to deliver the solution as soon as possible. 
+3 2 Difficulties in reaching technical 
+requirements and target costs. 1, 2 
+The technical coordinator ( FHF) will decide on alternative 
+material design/manufacture which can reach a valid compromise 
+between materials’ performance and target costs. 
+2 2 Difficulties in accessing the information 
+in the current systems of the use cases due 
+to the high opacity of the control system. 
+1, 2, 6 The use cases’ responsible ( manufacturers) allow the data -
+responsible partner to access the control algorithms. 
+  Demonstration of materials    
+3 1 Poor availability of manufactur ing 
+facilities for innovative  bio-based 
+materials. 
+3 to 6 
+At the proposal stage, the requirements for all materials 
+manufacturers have been defined. However, if necessary, the 
+Project Coordinator will perform a strict follow and propose 
+alternatives 
+1 2 Unexpected problems during the 
+commissioning of innovative solutions  3 to 6 
+The innovative solutions created within this project will be 
+tailored solutions to decrease problems during its installation and 
+commissioning. 
+1 2 Lack of qualification of the planning 
+personnel to provide the correct data. 8 In WP8, there is a specific Task devoted to training and social 
+activities from the begging of the project. 
+1 2 Predictive analyses are  not able to 
+properly determine materials behaviour. 2 IA algorithms will be applied during the laboratory tests to avoid 
+any possible deviation during the industrial demonstration. 
+  Organisational risks    
+1 2 
+IPR conflicts among partners. 1, 7, 
+8, 9 
+I.P. background/foreground of each partner has been identified 
+and will be arranged in the consortium agreement; a strong I.P. 
+strategy will be defined early stage; definition of KER owner(s) 
+in the PEDR. 
+1 3 Withdrawal of a partner. All Tasks of the leav ing partner will be reallocated within the 
+consortium, or new partners will be added to the consortium 
+  Management risks    
+1 3 
+Poor project management. 1, 9 
+An experienced Project Management Team (technical: FHF, 
+financial: IDE) has been established to manage the project; robust 
+procedures, milestones, and risk management have been defined 
+1 3 Failure to achieve deliverables. All Regular follow-up of deliverables in WP, Management Board and 
+GA meetings. 
+Table 9 Summary of staff effort 
+ WP1 WP2 WP3 WP4 WP5 WP6 WP7 WP8 WP9 PM’s 
+IDE 9 20 3 21 21 5 6 6 30 121 
+NCC 3 2 12 0 9 7 2 2 4 41 
+NIC 2 2 18 0 0 0 1 1 1 25 
+UBRIS 2 2 14 0 11 10 1 1 1 42 
+ZAG 2 2 6 0 0 20 2 2 1 35 
+FHF 6 2 0 0 20 22 1 2 2 55 
+LBRT 2 2 0 15 4 38 1 1 1 64 
+MYX 2 2 0 23 0 5 1 1 1 35 
+NSB 1 0 0 0 0 1 4 20 1 27 
+TDZ 1 0 0 6 0 15 1 1 1 25 
+IRIS 15  30 2 1 5 1 1 1 56 
+GIG 2 7 1 1 1 5 3 2 1 23 
+AAU 10 4 1 1 1 2 8 8 0 35 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-05    Manufacturing technologies for bio-based materials 
+   Sustainable manufacture systems towards novel bio-based materials  Page 42 of 45 
+ 
+ASI 1 5 1 1 1 1 1 1 1 13 
+ISQ 1 2 13 13 13 0 1 18 2 63 
+AXIA 2 8 0 0 0 0 23 5 1 39 
+AIMEN 14 22 4 4 4 4 1 1 1 55 
+Total 75 82 103 87 86 140 58 73 50 754 
+Table 10 ‘Subcontracting costs’ items 
+1. IDE 
+Cost 
+(€) Description of tasks and justification 
+Subcontracting 7000 
+Dielectric properties measurements (electric conductivity, dielectric constant and loss tangent) 
+(2 test per property for biomaterial) (3.000€). Thermal properties measurements (thermal 
+properties, density thermal diffusivity, specific heat). (2 test per p roperty for biomaterials) 
+(4.000€). In order to improve the microwave systems for curing wood composites and preheat 
+bioplastic, it is necessary to obtain a series of test from specialized lab. 
+2. NCC Cost 
+(€) Description of tasks and justification 
+Subcontracting 3000 Structural lignin assessment, related to functional group distribution, related to the properties 
+of mixtures/composites to be considered 
+Table 11 ‘Purchase costs’ items (travel and subsistence, equipment and other goods, works and services) 
+1 IDE Cost 
+(€) justification 
+Travel  24000 2 person x 10 project meetings x1000€, Conferences and fees (4000€) 
+Equipment 110000 
+Curing MW system (60.000€): Microwave cavity with applicator and waveguides (30.000€) / 
+Microwave sources: 1kW -generators at 2.45 GHz, 1kW generator at 915 Mhz (15.000€) / 
+Control system (5.000 €), transportation (10000€).  Preheating MW system (50.000€): 
+Microwave cavity with applicator and waveguides (25.000€) / Microwave sources: 1kW -
+generators at 2.45 GHz, (10.000€) / Control system (5.000 €), transportation (10000€).  
+(Equipment 100% amortised in the project as part of the research prototype) 
+Goods, wor ks 
+and services 52000 Mathematical computing hardware (8.000€), comsol licence 2 years (24000 €), (15000€) 
+hosting meeting, Intranet for management (5000€)  
+Total 166000  
+ 
+2 NCC Cost 
+(€) justification 
+Travel  16000 2 person x 8 project meetings x1000€ 
+Equipment 59578 Acquisition: vacuum oven for drying pellets (9542€), €50036 of equipment depreciation cost 
+Goods, works 
+and services 91950 material costs (41000€), tooling costs other services (45950€), hosting meeting (5000€) 
+Total 167529  
+ 
+3 NIC Cost 
+(€) justification 
+Travel  24500 2 person x 10 project meetings x1000€, 3x international conference x1500€ 
+Equipment 95000 Batch high-pressure reactor (20k€), GPC (20k€), TG-FTIR (40k€), NMR (15k€) 
+Goods, works 
+and services 42000 Chemicals and gases (10000€), Process and analytic consumables (20000€), Financial audit 
+(1000€), host meeting (5000), computer system (1000€), open access fee (5000€) 
+Total 161500  
+ 
+4 UBRIS Cost 
+(€) justification 
+Travel  10000 Project meetings (10000€) 
+Goods, works 
+and services 53071 SofSi – Accelerometres (8383.4€), Financial audit (5507€), Rubber pellets (9044€), vibration 
+tests (8371), SofSI - floor vibration (21765) 
+Total 63071  
+ 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-05    Manufacturing technologies for bio-based materials 
+   Sustainable manufacture systems towards novel bio-based materials  Page 43 of 45 
+ 
+6 FHF Cost 
+(€) justification 
+Travel  20000 2 person x 10 project meetings x1000€ 
+Goods, works 
+and services 49000 42.000 € consumables (purchase costs), Financial audit (1000€), host meeting (5000), 
+computer system (1000€) 
+Total 69000  
+ 
+9  NSB Cost 
+(€) Justification 
+Travel  18000 2 people x 9 project meetings x1000€ (no travel and subsistence for the meeting hosted in 
+LBRT) 
+Goods, works 
+and services 6000 web graphic  (1000€), C loud services  (1500€) communication and dissemination  material 
+(3500€) 
+Total 24000  
+ 
+10 TDZ Cost 
+(€) justification 
+Travel and 
+subsistence 20000 2 person x 10 project meetings x1000€ 
+Equipment 10000 PC- Bottles Capping machine (10000€) 
+Total 30000  
+ 
+11 IRIS Cost 
+(€) justification 
+Travel  19500 10 project meetings (12000€), Review meetings, (2000€), 2 technical meetings  (4000€); 2 
+dissemination events (2000€) 
+Goods, works 
+and services 153600 
+2 US prototypes (up to 2kW and up to 800W): sonotrons, electronics and mechanical parts 
+(100k€) / Monitoring systems: energy consumption sensor, electronics, data acquisition-clouds 
+(15.5k€), Consumables for lab testing (5k€) / Open access publication and conference fees 
+(3k€) / IPR and patent (7k€) / Audit (3.6k€) 
+Total 173100  
+ 
+12 AIMEN Cost 
+(€) justification 
+Travel  24000 2 person x 10 project meetings x1000€, 4 dissemination actions 
+Goods, works 
+and services 21500 Simapro License and databases (10000 €); Registration fees to conferences (2000 €), 
+Dissemination materials (1500€) Open Access (8000€) 
+Total 45500  
+ 
+13 GIG Cost 
+(€) justification 
+Travel  20000 2 person x 10 project meetings x1000€ 
+Goods, works 
+and services 7000 host meeting (5000€), regional and national stakeholders meetings (2000€) 
+Total 27000  
+ 
+15 ASI Cost 
+(€) justification 
+Travel  20000 2 person x 10 project meetings x1000€ 
+Goods, works 
+and services 2000 
+annual fee to cover the administration costs related to participation of the project as a liaison 
+"organization" in relevant CEN/TCs, are described in section 2 of the CEN-CENELEC Guide 
+25 
+Total 22000  
+ 
+16 ISQ Cost 
+(€) justification 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-05    Manufacturing technologies for bio-based materials 
+   Sustainable manufacture systems towards novel bio-based materials  Page 44 of 45 
+ 
+Travel  2000 2 person x 10 project meetings x1000€ 
+Goods, works 
+and services 51500 Financial audit (1500€), host meeting (3000), consumables/ equipment adaptation/test jigs 
+(12000€), testing services (25000€), Training materials (10000€) 
+Total 53500

@@ -1,0 +1,1072 @@
+3.1  Work plan — Work packages, deliverables  
+3.1.1. Overall structure of the work plan 
+The PHOTONFOOD project 
+will be implemented by an 
+interdisciplinary consortium of 
+academic, authority and 
+industry partners covering 1 4 
+organizations from eight 
+European countries. The 
+project duration will be 48 
+months and the breakdown of 
+the planned work into work 
+packages (WPs) is based on 
+accomplishing related work, 
+rather than on single tasks that 
+occur at the same time. 
+Therefore, several WPs are 
+executed in parallel throughout 
+the project. The project consists 
+of eight work packages (WPs) (see Fig. 15), where the first WP1 is related to the evaluation of the technology 
+acceptance and techno-economical evaluation, four WPs (WP2 – WP5) focused on the photonic technology 
+developments and developing advanced data analysis tools and software applications, WP6 will perform 
+validation and demonstration of PHOTONFOOD technology , WP7 and WP8 are related to dissemination, 
+communication, exploitation and management activities, respectively (Fig. 15). 
+The general overview of WPs is provided below, the list of the WPs and a detailed description of each WP are 
+provided in Table 3.1a and 3.1b, respectively.  
+Assisting WPs: WP1 “Technology acceptance and techno-economical evaluation ” will conduct 
+comprehensive study on evaluating of user expectations, experience and technology acceptance of photonic -
+based technologies for identifying microbiological and chemical contaminations. WP1 will ensure that 
+PHOTONFOOD technology is developed in accordance with user requirements. WP7 “Communication, 
+dissemination and exploitation” will perform adequate dissemination and exploitation of PHOTONFOOD 
+technology and will be responsible for the communication with the relevant audience. WP8 “Coordination and 
+Management” will be responsible for the project coordination and management for the successful 
+implementation of all project work activities.  
+Technological WPs: Four technological WPs will be responsible for the successful development of 
+PHOTONFOOD technology. WP2 “Paper Microfluidics” focuses on the development of extraction /separation 
+/ up -concentration technology for separation of analyte markers of microbial and chemical contamination. 
+WP2 will be strongly connected to photon-based device developing WPs, WP3 and WP4. WP3 “Novel MIR 
+light sources” will focus on the development of cascaded gain materials forming the basis for advanced light 
+emitting diode (IC-LEDs) and monolithically tunable laser light sources. WP4 “Modular sensor platform” will 
+implement the results of WP3 and will perform development of portable and field-deployable (prototype) MI-
+FI and HI-FI analyzers. WP5 “Data analysis and software development” will focus on developing and utilizing 
+advanced data analysis tools for the spectral-based detection and identification of microbiological and chemical 
+contamination in different food matrices. In addition, WP5 will be focused on developing software application. 
+ 
+Figure 15: Overall structure of the workplan 
+ 
+
+PHOTONFOOD 
+ 
+48 
+ 
+ 
+Demonstration WP: WP6 “Demonstration and validation” will focus on demonstrating and validating the 
+developed PHOTONFOOD technology and a vision for farm-to-fork sensing in three case studies. In each case 
+study, monitoring data acquired by portable photonics-based devices will enable quick on-site risk assessment 
+by the end-users at different entry points of the food chains.  
+The GANTT chart in Fig. 16 provides an overview of all work package’s tasks and includes the milestones, 
+validation phases and meetings (Table 3.2a). 
+Table 3.1a: List of work packages (WPs) 
+WP WP Title Lead Part. 
+No 
+Lead Participant 
+Short Name 
+Person-
+Months 
+Start 
+Month 
+End 
+Month 
+1 Technology acceptance and technical-economic 
+evaluation 5 NEBIH 56.5 1 46 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 16: GANTT chart providing an overview over the timing of the project 
+
+PHOTONFOOD 
+ 
+49 
+ 
+2 Paper microfluids 4 WU 75 1 48 
+3 Novel MIR light sources 6 NP 81 1 30 
+4 Modular MIR sensing platform  2 UULM 75 1 30 
+5 Data analysis and software development 1 NMBU 71 1 48 
+6 Demonstration and validation  3 BOKU 94.5 1 48 
+7 Communication, dissemination and exploitation  9 accelCH 54 1 48 
+8 Coordination and management 1 NMBU 28 1 48 
+  Total person- months 535   
+  
+Table 3.1b: Work package description.  
+WP number 1 Start M1 – End M48 NEBIH 
+WP title Technology acceptance and techno-economic evaluation 
+Participant no. 1 2 3 4 5 6 7 8 9 10 11 12 13 
+Short name of 
+participant 
+NMBU 
+UULM 
+  BOKU 
+WU 
+NEBIH 
+NP 
+ROMER 
+IRIS 
+accelCH 
+BIGH 
+Seeberger 
+BAMA 
+HS 
+Person-months 13 2 3 3 31 2 0.5 1 - - 0.5. 0.5 - 
+Objective: To conduct comprehensive research on user expectations, user experience and technology 
+acceptance for a portable, easy-to-use, broadly adaptable photonics device. The specific objectives are:  
+• Identify relevant stakeholders, explore user requirements and expectations towards the innovative multi -
+purpose photonic sensor solution. 
+• Organize the collection of user experience during the validation and demonstration process in WP6.  
+• Conduct comparative cost assessment for the MI-FI and HI-FI devices and reference methods considering 
+realistic conditions. 
+• Assess user experience and technology acceptance among target users and stakeholders. 
+Task 1.1 Stakeholder expectations and user requirements survey  (M1-M42) (lead partner: NMBU; 
+participants: BOKU, ROMER, NEBIH, Seeberger, BAMA, WU). Since the exact apparatus of the portable 
+PHOTONFOOD platform cannot be fully defined before the beginning of the project, we will follow an agile 
+approach to user requirements. A kick-off workshop involving (a) the PHOTONFOOD WP leaders and (b) 
+representatives of the prospective user organisations involved in the project ( ROMER, NEBIH, Seeberger) 
+will be organised at the beginning of the project (M1) to define a questionnaire for a stakeholder survey. The 
+stakeholder survey will consist of an online questionnaire and a structured follow-up telephone interview. It 
+will be conducted in Austria, Germany, Hungary, the Netherlands and Norway, covering 15 organisations 
+per country from different levels of the food chain (3 from agriculture, 3 processors, 3 retailers, 4 labs and 2 
+border inspection points). At the project kick-off meeting, the PHOTONFOOD task leaders will develop an 
+initial architecture envisioning. The process will then be iterated throughout the lifetime of the project on an 
+annual basis. The component-specific requirements will be continuously updated within the tasks responsible 
+for component development (WP2 to WP5). The system -level and platform -level requirements will be 
+updated at workshops held during the annual project meetings in M8, M18, M25 and M35. Based on the 
+stakeholder and user requirements, deliverable D1.1: Report on stakeholder and user requirements (M24) 
+will be compiled. 
+Task 1.2 Collection and analysis of technical and user experience during validation and demonstration 
+(M24-M34) (lead partner: NEBIH; participants: BOKU, NMBU, ROMER, Seeberger, BAMA). During the 
+demonstration phase (when WP6 is active), system -level and platform -level requirements and actual 
+experience will be collected on a continuous basis in close collaboration between the members of the WP6 
+team and the users and stakeholders involved in the testing and validation. The parameters measured in WP1 
+during the validation phase of the innovative photonic device (and in parallel with the reference methods ) 
+will include: time requirements, cost requirements, level of skill needed for operation, ergonomics, and user 
+experience. User experience data will be gathered from the three main user groups involved in the 
+demonstration activities (industry, retail and food inspectio n services), using qualitative (observations and 
+interviews) and quantitative methods (user surveys). A standard usability framework model will be adopted 
+(UTAUT: Unified theory of acceptance and use of technology) which allows a highly structured analysis of 
+such mixed -methods data. The experiences will be analysed in a systematic way, presented to the WPs 
+engaged in technology development (WP2 to WP5). 
+PHOTONFOOD 
+ 
+50 
+ 
+Task 1.3 Cost assessment (M24-M34) (lead partner: ROMER; participants: BOKU, NEBIH, NMBU, 
+Seeberger). Based on the analysis of the cost elements recorded during the demonstration phase in Task 1.2, 
+a comparative unit cost assessment will be conducted against the currently available reference methods. This 
+part is of critical importance for the feasibility of the whole technology development. Historical data will be 
+used to judge cost reduction effect of production scaling up, but the initial costs should remain within a 
+reasonable threshold (the unit cost of one sample should remain under 3 € for mycotoxin testing even with 
+the prototype). The calculation will include a Monte Carlo simulation of cost schemes for the IPD and the 
+best available reference method. Results of this task will be discussed with the WP leaders dealing with 
+technology development (WP2 to WP5).  
+Task 1.4 Technology acceptance and market potential (M36-M48) (lead partner: NMBU; participants: 
+NEBIH, ROMER, WU). In the final task of WP1, the technology acceptance and future market potential will 
+be assessed in key customer segments. Like in the previous tasks, a combination of online questionnaires and 
+telephone follow-up interviews will be used for data collection. The target respondents will include: (a) senior 
+executives in the industry, commodity distribution and retail who have overall responsibility for quality and 
+safety in their respective organizations, and (b) senior representatives of food safety authorities with overall 
+responsibility for standards and detection methods. The target sectors will not only include the value chains 
+covered in the demonstration in WP6 but also other value chains where related quality and safety assessment 
+problems occur. This will enable us to assess the further market and business development potential of the 
+PHOTONFOOD technologies in other value chains . Key assessment indicators will include technology 
+acceptance, customer expectations, upskilling/training requirements, probability of adoption and willingness 
+to pay. Again, we will combine qualitative and quantitative methodologies in the assessment.  
+Role of partners: NEBIH will be leading this WP and is responsible for conducting a stakeholder survey in 
+Hungary, collecting and analysing user experience, supporting the cost assessment and contributing to the 
+assessment of technology acceptance. NMBU will be responsible for conducting the same activ ities in 
+Norway, and will lead the assessment of technology acceptance and market potential. ROMER will be 
+responsible for leading the cost assessment and will contribute to the collection of user requirements and 
+experience and will support the assessment of market potential. BOKU will be responsible for conducting a 
+stakeholder survey in Austria and will contribute to the collection of user requirements and experience, also 
+to the cost assessment task. Seeberger and BAMA will contribute to the collection of user requirements and 
+experience, and Seeberger will also play a part in the cost assessment task. NP, IRIS, WU and UULM will 
+provide technical and cost related information on the photonic devices, as well as ensuring the efficient 
+information flow and feedback loop between WP1 and the technology WPs (WP2 to WP5) through the whole 
+project. Furthermore, UULM will be responsible for conducting a stakeholder survey in Germany, and WU 
+in the Netherlands. 
+Deliverables: D1.1 Report on stakeholder and user requirements (NMBU, M24) ; D1.2 Overview on 
+technical and user experiences ( NEBIH, M40) ; D1.3 Report on cost assessment ( ROMER, M36) ; D1.4 
+Overview on final user requirements, technology acceptance and market potential (NMBU, M48) 
+ 
+WP number 2 Start M1 – End M48 WU 
+WP title Paper microfluids 
+Participant no. 1 2 3 4 5 6 7 8 9 10 11 12 13 
+Short name of 
+participant 
+NMBU 
+UULM 
+BOKU 
+WU 
+NEBIH 
+NP 
+ROMER 
+IRIS 
+accelCH 
+BIGH 
+ 
+Seeberger 
+BAMA 
+HS 
+Person-months 4 8 3 55 3 - - 2 - - - - - 
+Objective: To develop an integrated sample handling tool that will allow the user-friendly analysis of food 
+contaminants using MIR detection. The specific objectives are:  
+• To develop paper microfluidic sampling, extraction and pre-treatment for food contaminants from hard 
+and soft commodities.  
+• To develop a functionalized cartridge for the paper microfluidic devices that allows robust and user -
+friendly interfacing with spectroscopic detection. 
+Task 2.1 Paper microfluidic sampling and extraction (M1-M34) (lead partner: WU, participants: NMBU, 
+UULM, BOKU, NEBIH, IRIS ). In this task, solutions will be developed for allowing the entire sample -
+handling chain to be executed not only on-site, but by non-experts as well. This requires first of all a strategy 
+PHOTONFOOD 
+ 
+51 
+ 
+towards the acquisition of sample. In the case of hard samples, such as nuts, an extract needs to be prepared. 
+In previous work (FoodSmartphone), an extraction module was developed for consumer testing in a cookie 
+matrix. Further development in this WP wil l be required to adapt such a strategy towards different 
+commodities. A dip -stick type sampler will then be developed to bring the sample onto the paper 
+microfluidic device. On the other hand, when soft or liquid samples are tested, a different sampling strategy 
+is required, where a swab type sampler can be used, which then directly feeds into the paper microfluidic 
+device. To improve the extraction efficiency of the contaminants, while reducing the co -extraction of 
+unwanted matrix constituents, the cellulo se fibers can be chemically modified to allow specific chemical 
+interaction with those contaminants. 
+Task 2.2 Paper microfluidic pre-treatment/preconcentration (M9-M48) (lead partner: WU, participants: 
+NMBU, UULM, BOKU, NEBIH, IRIS). Once the contaminants are extracted from their matrix through the 
+approaches in task 2.1, further purification and concentration will be required before MIR spectroscopic 
+analysis. In order to achieve selective purification, several routes will be considered. First ly, the use of 
+immunochemistry will be explored.  Combining immunocapture with paper microfluidic functionality is an 
+attractive approach, as the location for the preconcentration can be precisely chosen to match the required 
+dimensions for readout. Secondly, the use of chemical surface modification will be further explored. Paper 
+can readily be modified with a plethora of functional groups, which allows for solid -phase extraction on 
+paper. While this is less specific than immunocapture, it does allow for the devices to be more easily adapted 
+for different applications. Thirdly, an innovative method in paper microfluidics will be developed through 
+adapting a liquid-liquid extraction on a paper-based platform, as demonstrated in the initial work published 
+by members of the consortium43. Through application of multilayered paper microfluidic devices, which are 
+specifically modified, immiscible solvents can be preferentially retained in selected layers, which allows for 
+the construction of a multilayered liquid -liquid extra ction system 43. At the end of this task, the most 
+appropriate strategy will be selected for further developments in PHOTONFOOD.  
+Task 2.3 Integration and interfacing with 3D printing (M17-M48) (lead partner: WU, participants: 
+NMBU, UULM, BOKU, NEBIH, IRI S). While it is crucial for any truly user -friendly on-site analysis to 
+address both sample extraction and enrichment, it is equally important to consider operational simplicity 
+and system integration. Therefore, this task focuses on the design and development of a cartridge that will 
+contain all the elements developed in tasks 2.1 and 2.2. Here, 3D printing is exceptionally useful since it 
+allows very fast prototyping, leading to iterative design of devices in a short period of time. Moreover, it 
+will facilitate complex paper microfluidic device layout, such as stacking of several layers for the multilayer 
+liquid-liquid extraction. In addition, t he cartridge will shield vulnerable parts of the device, by exposing 
+only the sample acquisition and read-out parts of the device. This is beneficial since it designates these parts 
+as such for the end-users. Finally, protocols for operational simplicity and clarity will be delivered. 
+Role of partners:  WU will be leading this work package and is responsible for the realization of the 
+integrated sample handling tool. BOKU will provide assistance for developing appropriate sample pre -
+treatment. NMBU and IRIS will support the data acquisition and analysis. UULM will support the coupling 
+of the sampling device with spectroscopic analysis.  NEBIH will participate in the evaluation of the user 
+acceptance of the paper-based microfluidics.  
+Deliverables: D 2.1 Deliverable report on paper microfluidic sampling, extraction and selective purification 
+approaches for one target contaminant (DON) in a target commodity (wheat) (WU, M24); D 2.2 Deliverable 
+report on the development of an interface between a fully integrated paper  microfluidic device and optical 
+components (WU, M42 ); D 2.3 Diversification of approach to at least a second target contaminant in a 
+second soft sample commodity finalized (WU, M48). 
+ 
+WP number 3 Start M1 – End M30 NP 
+WP title Novel MIR light sources 
+Participant no. 1 2 3 4 5 6 7 8 9 10 11 12 13 
+Short name of 
+participant 
+NMBU 
+UULM 
+BOKU 
+WU 
+NEBIH 
+NP 
+ROMER 
+IRIS 
+accelCH 
+BIGH 
+Seeberger 
+BAMA 
+HS 
+Person-months 4 10 - - - 65 - 2 - - - - - 
+Objective: To develop dedicated interband cascade (IC) and quantum cascade (QC) gain materials forming 
+the basis for advanced light emitting diode ( IC-LEDs) and monolithically tunable laser light sources. 
+PHOTONFOOD 
+ 
+52 
+ 
+Specifically, low-cost MIR LEDs will be developed emitting in the 1500 -1800 cm-1 spectral window for 
+detecting bio contaminants in a medium-fidelity (MI-FI) sensing device, whereas monolithic widely tunable 
+lasers will be implemented in a high-fidelity (HI-FI) analyzer based on the same spectral range. The specific 
+objectives are:  
+• To develop tunable ICL/QCL MIR lasers for high precision measurements.  
+• To develop IC-LED light sources for low cost contamination detection. 
+Task 3.1 Growth of cascaded epitaxy for low cost MIR ILEDs and high-performance tunable lasers 
+(M1-M24) (lead partner: NP, participants: UULM, IRIS) 
+In this task , the required cascaded layer structures for IC-LEDs and cascaded tunable MIR lasers will be 
+realized. In this context, dedicated band structure engineering is performed by means of specialized solvers 
+of the Schrödinger equation using e.g. k∙p methods. This band structure design is complemented by means 
+of optical simulations of the resulting layer stacks with respect to the actual devices performance. Based on 
+these simulations, and based on the input from WP1 and WP4, it will be decided if either interband cascade 
+(ICL) or quantum cascade laser (QCL) structures are more suitable for the realization of the high performance 
+monolithic tunable laser devices. The epitaxially grown multilayer structures will be routinely characterized 
+by high-resolution X-ray diffraction, secondary ion mass spectroscopy and secondary electron microscopy 
+images. Based on this analysis, the growth parameters will  be optimized to fabricate high quality material 
+that is required for the cascaded devices. In order to aid the design and to achieve the required broad band 
+emission in the 1500-1800 cm-1 spectral range, gain measurements will be performed to iteratively optimize 
+the performance of the epitaxy. Broad area lasers and related test structures will be processed to be able to 
+rapidly forecast the device performance. One of the main objectives in this context will be the detailed band 
+structure analysis versus the layer structure modifications to achieve fast progress.  
+Task 3.2 MIR IC-LED fabrication for MI-FI analyzers (M1-28) (lead partner: NP, participants: UULM, 
+NMBU) 
+Task 3.2 is dedicated to the design and realization of low-cost IC-LEDs in the 1500-1800 cm-1 spectral region. 
+This task  is the main focus within this work  package due to the intrinsic capabilities of scaling up the 
+technology to the consumer market. Based on the results and layer structures from Task 3.1, optical 
+simulations will be performed to investigate an optimal chip design and the simulations will be iteratively 
+up-dated according to the obtained results. One key challenge will be to maximize the out -coupling of the 
+light generated in the active zone which is confined to the ch ip by total internal reflection due to the high 
+refractive index of the semiconductor material. In this context, specific out -coupling structures such as 
+coatings, micro lenses and surface treatment schemes will be investigated and iteratively optimized. The chip 
+layout will be transferred into the epitaxial material by means of suitable lithography, dielectric - and metal-
+layer deposition and removal steps. The readily processed chips will be pre-characterized on wafer level prior 
+to singulation. In order t o be used in a sensor, the IC -LED chips have to be appropriately packaged in a 
+housing suitable for low-cost, high volume applications. Therefore, a SMD type of package is the first choice. 
+Thermal simulations will be made for ensuring the best possible heat management of the chips and the SMD 
+package to en able superior performance under application conditions. Application grade IC-LEDs will be 
+characterized and delivered to WP4 for the integration into the MI-FI sensor. Special care will be taken with 
+respect to the scalability of all steps, in particular the device characterization to ensure low cost devices. 
+Lifetime and environmental tests that proof the robustness under operation conditions will complete the task. 
+Task 3.3 MIR tunable laser fabrication for HI -FI analyzers (M4-M30) (lead partner: NP , participants: 
+UULM, NMBU). The initial simulations results and the decision regarding the optimal epitaxy structure 
+(interband or quantum cascade respectively) from Task 3.1 will be the sta rting point of this task. Further 
+optical simulations will be performed to define the initial chip design that enables the required tuning range 
+in the 1500-1800 cm-1 spectral range. Suitable semiconductor structuring processes, such as optical and high 
+precision electron beam lithography processing steps, will be investigated and iteratively optimized to realize 
+the tunable monolithic lasers in combination with dielectric - and metal-layer deposition and removal steps. 
+An extremely th orough optical characte rization with respect to the achievable wavelength and side -mode 
+suppression ratios at the pre-defined operation points will be required. This is due to the nature of the device 
+design, based on the Vernier effect, that leads to a high degree of freedom in terms of laser operation. Those 
+data will be analyzed in depth and fed back to the next iteration of chip design and processing. The integration 
+of the lasers in a suitable housing and the definition of suitable electronics will complete the task.  
+Role of partners: NP will be leading this work package and is responsible for the realization of the IC-LED 
+light source of the MI-FI device as well as the monolithic tunable MIR laser based on a cascaded laser scheme 
+for the HI-FI device. UULM will contribute to the specifications and the assessment of the performance data 
+PHOTONFOOD 
+ 
+53 
+ 
+of the light sources. NMBU will participate in the evaluation of the signal achieved by the light sources with 
+respect to the signal to noise ratio required. 
+Deliverables: D3.1 Advanced IC-LEDs hardware ready for MI-FI integration (hardware, report) (NP, 
+M18); D3.2 Monolithic tunable hardware ready for HI-FI integration (hardware, report) (NP, M26)  
+ 
+WP number 4 Start M1 – End M30 UULM 
+WP title Modular sensor solution 
+Participant no. 1 2 3 4 5 6 7 8 9 10 11 12 13 
+Short name of 
+participant 
+NMBU 
+UULM 
+BOKU 
+WU 
+NEBIH 
+NP 
+ROMER 
+IRIS 
+accelCH 
+BIGH 
+Seeberger 
+BAMA 
+HS 
+Person-months 10 33 3 12 5 5 - 7 - - - - - 
+Objectives: To develop a portable and field-deployable (prototype) MI-FI and HI-FI analyzers combining 
+the MIR LEDs developed in WP 3 with single -bounce diamond ATR elements, a grating, and a line array 
+detector (MI -FI device), and the ICL/QCL light source developed in  WP3 with advanced thin -film 
+nanocrystalline diamond (NCD) waveguides and a single-element detector (HI-FI device) for in-field fungal 
+infection analysis. The specific objectives are:  
+• To prototype a HI-FI MIR photonic sensing device and integrate ICL/QCL light sources.  
+• To prototype MI-FI MIR photonic sensing devices and integrate MIR IC-LED light sources. 
+Task 4.1 Thin-film nanocrystalline diamond waveguides (M1-M18) (lead partner: UULM; participants: 
+NP). Task 4.1. is focused on the development of thin -film NCD chips (5x10  mm; actual waveguide 
+thickness: 10-25 µm) readily fitting the MIR-GuideR ATR sensing system. The chips will be characterized 
+and optimized in iterative cycles for maximum performance (i.e., MIR radiation throughput and intensity of 
+the evanescent field). In addition, the MIR-GuideR system will be adapted to accommodate the smart paper 
+strip developed in WP 2 for analyzing enriched/separated samples (i.e., ATR clip -on system pressing the 
+detection zone of the paper strip (i.e., few mm2) onto the surface of the NCD chip). 
+Task 4.2 MI-FI analyzer based on MIR LEDs (M1-M30) (lead partner: UULM; participants: NP, NMBU, 
+IRIS, BOKU, WU, NEBIH). In Task 4.2, the hand-held low-cost MI-FI analyzer platform will be designed, 
+developed, and prototyped, The device will comprise a 3D -printed housing accommodating the MIR  IC-
+LED developed in W P 3, a dispersion grating (plastic w/gold coating; potentially 3D printed), and a line 
+array detector. If a line array detector with a surface-deposited gradient filter will be used (e.g., Pyreos), the 
+dispersion grating will be replaced with appropriate beam-shaping optics (3D printed; gold -coated plastic 
+optics). The sensing interface will be  established via a hemispherical or prismatic diamond ATR crystal. 
+Using MIR spectral ray tracing (via software packages SPRAY and SCOUT, M. Theiss Softw are), an 
+optimized MI-FI analyzer prototype will be built and tested according to its analytical figures-of-merit and 
+via spiked test samples. After optimization, five hand-held MI-FI prototype systems will be fabricated ready 
+for field testing during the case studies lined out in WP6, and together with end users. The performance of 
+the MI-FI device will also be benchmarked against commercially available near -infrared LED-based low-
+cost analyzers (e.g., Consumer Physics) and evaluated for its utility addres sing additional quick -test 
+application scenarios. 
+Task 4.3 HI -FI analyzer based on tunable MIR QCLs (M1-M24) (lead partner: UULM; participants: 
+NP, NMBU, IRIS, BOKU, WU, NEBIH). Task 4.3. is focused on the design, development and optimization 
+of a high-resolution HI-FI analyzer integrating tunable monolithic MIR ICL/QCL technology developed in 
+WP3, a single element thermoelectrically cooled MCT detector (e.g., Vigo), and the MIR -GuideR ATR 
+sensing interface with NCD waveguide chip for direct liquid (extract) analysis or for analyzing smart paper 
+strips developed in WP 2. The HI-FI analyzer will be prototyped and performance optimized (i.e., analytical 
+figures-of-merit, spiked test samples, etc.). As a final outcome, one portable prototype systems will be made 
+available for field testing during the case studies specified in WP 6, and together with end users. 
+Role of partners: 
+UULM will be leading this work  package and is responsible for the realization of the MI-FI and HI -FI 
+devices. NP will provide the light sources. NP will further support the design of the MI-FI and HI-FI devices 
+to ensure optimal integration of the light sources and help with the tunable  laser operation. NMBU will 
+evaluate the s olutions with respect to data quality. IRIS will support the implementation of the software 
+application. WU will help to optimize the photonic solutions for the interface with the microfluidics. NEBIH 
+PHOTONFOOD 
+ 
+54 
+ 
+and BOKU will provide the necessary input for ensuring that the photonics solution is prepared for the end 
+user.   
+Deliverables: D 4.1 Thin-film waveguide-based sensing interface for HI-FI analyzer (UULM, M18); D
+4.2 Performance test report for portable HI-FI analyzer (UULM, M30); D 4.3 Performance test report for 
+handheld MI-FI analyzer (UULM, M24). 
+ 
+WP number 5 Start M1 – End M48 NMBU 
+WP title Data analysis and software development 
+Participant no. 1 2 3 4 5 6 7 8 9 10 11 12 13 
+Short name of 
+participant 
+NMBU 
+UULM 
+BOKU 
+WU 
+NEBIH 
+NP 
+ROMER 
+IRIS 
+accelCH 
+BIGH 
+Seeberger 
+BAMA 
+HS 
+Person-months 31 4 2 1 5 - - 28 - - - - - 
+Objective: To develop a data analysis strategy for short wavelength range data from MI -FI and HI-FI data 
+and to establish a software interface for mobile and laptop for field use. The specific objectives are:  
+• To use advanced data analysis to pre-process spectral data and calibrate MI-FI and HI -FI solution for 
+detection of microbial and chemical contaminants in food.  
+• To provide a user-friendly interface, intuitive decision support tools , data management  and data 
+integration strategy. 
+Task 5.1 Spectral pre-processing of HI-FI and MI-FI data (M1-M24) (lead partner: NMBU, 
+participants: UULM) 
+Existing methods for spectral pre-processing take advantage of the availability of a broad spectral range for 
+the estimation of baselines and multiplicative effects. Since IC-LED and ICL/QCL sources provide a limited 
+bandwidth, the existing methods for the pre-processing have to be further developed and adapted. Our general 
+spectral pre-processing strategy consists of the following steps: 1) baseline correction and normalization; 2) 
+interferant removal and 3) signal enhancement . The p re-processing reduces c omplexity of classification 
+models and results therefore often in more robust models. Model-based pre-processing toolbox developed in 
+BioSpec based on Extended Multiplicative Signal Correction (EMSC) will be used for implementing all steps 
+including removal of interferant signals from paper-based microfluidics and solvents used for extraction. As 
+an alternative route, we will evaluate augmentation of data in combination with deep learning approaches. In 
+the on -going MIRACLE project  (see Table 4) , where only a few laser wavelength s are available for 
+calibration this approach has turned out to be very powerful. Especially, in cases where limited data sets are 
+available, augmentation has turned out to be a powerful approach for calibration when it is used i n 
+combination with deep learning approaches developed for spectral data69 
+Task 5.2 Classification and calibration models for benchmark data, HI-FI and MI-FI data (M12-M36) 
+(lead partner: NMBU, participants: WU, BOKU, UULM).  
+At the beginning of the project, broadband MIR spectrum benchmark instrumentation at NMBU and UULM 
+will be used to establish benchmark data for calibration and classification model building (Task 6.1). Models 
+will be built on the full available spectral range (4000-500 cm-1) and the short spectral range (1800-1500 cm-
+1) of the PHOTONFOOD solution. For calibration, samples will be prepared, MIR and reference data will be 
+obtained for 100+100 (clean+contaminated) samples for each contaminant. All samples will be measured by 
+benchmark MIR instrumentation at NMBU and UULM, and reference analysis will be performed at BOKU 
+and NEBIH. Data sets will be augmented by techniques from the field of deep learning according to the same 
+lines as in the on-going MIRACLE project (see Table 4). Calibration models using our BioSpec toolbox of 
+machine learning techniques involving a broad range of methods such as PLS -DA, RF, SVM, ANN and 
+DCNN will be established to calibrate against threshold values used for contaminants , while PLS-R, RF, 
+ANN and DCNN will be used to calibrate  against the exact values to detect the amount of contamination . 
+The obtained data will be used as a benchmark in the development of the HI -FI and MI-FI data. When the 
+HI-FI and MI-FI instrumentation is ready, the same samples that were used to establish benchmark data and 
+calibration models will be probed by HI -FI and MI -FI instrumentation. The obtained data will be used to 
+establish calibration and classification models for HI -FI and MI -FI data, and to compare with benchmark  
+data. 
+Task 5.3 Model validation and demonstration (M36-M48) (lead partner: NMBU, participants: BOKU, 
+UULM, NEBIH). Models from Task 5.2 established on the short wavelength range will be validated in the 
+PHOTONFOOD 
+ 
+55 
+ 
+field demonstration involving relevant stakeholders. The models will also be validated by a blind test set and 
+further refined and optimized in order to accommodate the use of the IC-LED and ICL/QCL spectral data.  
+Task 5.4 Software application development and data management  (M12-M48) (lead partner: IRIS, 
+participants: NMBU, WU, BOKU, UULM). During this task, IRIS will design and build a digital Global 
+Control System (GCS) to allow the processing of the data from th e sensors and its integration with the data 
+analysis models developed in the first part of this WP. Early in the project a data management plan will be 
+developed (D8.7 M6). The GCS will centralize the data management. It will comprise the hardware to host 
+data acquisition, data processing and data management, and a friendly user interface to easily manage the 
+PHOTONFOOD platform. A decision support tool, with specific user-oriented modules to support decisions 
+on-site will be developed. It will be accessible over the web and mobile devices, such as smartphones and 
+tablets. The hardware will consist of two main layers: an upper layer containing the processors and all the 
+necessary peripherals (data storage units, terminals, external connectivity), and a lower layer comprising the 
+communication with the analyser modules. Communications will take place through data buses. These will 
+be mainly wireless whenever possible and wired when necessary. The GCS will have real -time capabilities 
+and will be able t o manage huge amounts of data. It will be able to integrate data delivered in standard 
+industrial format s. The GCS will have a layered structure, and each layer will be accessible from the 
+Graphical User Interface through the terminals. Firstly, Data Acqui sition layer, which is the closest to the 
+hardware, will manage the acquisition of data, as well as protocols, fault detection and hardware 
+compatibilities. The valid acquired data will be stored in the general database to be accessible for higher 
+layers. Secondly, the Data Processing Layer, which will convert the raw data into calibrated and filtered valid 
+data to feed the calibration models developed in previous tasks. Finally, the Data Mining Layer, the highest 
+data management layer, will produce the results of data analysis and provide decision support. The General 
+Database will be designed and built to be as flexible and robust as possible, as compatible with multivariate 
+nature of the data and real -time access as possible. The calibration models will h ave the capability to be 
+updated with the feedback provided by the advanced AI algorithm executed in the cloud platform. The cloud 
+application will be accessible over the web and mobile devices, such as smartphones and tablets. For the local 
+application, there will be two versions: computer and mobile. 
+Task 5.5 Definition of the Cloud Architecture and communication with Food Trust™ (M36-M48) (lead 
+partner: IRIS, participants: NMBU, UULM, advisory role for IBM). User requirements for the cloud platform 
+will be defined. Different methodologies will be applied to set the user requirements, specifications, features, 
+functionalities and the desired user experience. An in-depth analysis of existing technologies will be carried 
+out to assess which are the most suitable ones to match the defined requirements. The in -depth architecture 
+will be defined: backend, middleware, database, intelligent layer structures, etc. It will be a priority for the 
+architecture to be flexibl e in terms of single -tenant or multi -tenant deployments, to guarantee its high 
+performance to run intelligence layers. For that purpose, it will be designed how to tackle the envisaged 
+computational workload and the interactions of the different modules. A Quality Analysis (QA) methodology 
+will be in place (in keeping with software quality management: ISO 9126 -3 and the subsequent ISO 
+25000:2005 quality model) to ensure consistent and standardized implementation. Communication with Food 
+Trust™ platform for data integration will be ensured.  
+Role of partners:  NMBU will be leading this work package and will be responsible for the algorithm 
+development for the data pre -processing and the model building. IRIS will be responsible for the software 
+development. BOKU and NEBIH will be involved providing reference analysis. IBM be involved in the 
+development a strategy for transferring data into platforms such as the block chain-based IBM Food Trust™ 
+data platform . UULM will assist in the interpretation of instrumental effects in the spectra and will be 
+involved in activities related to data modelling and validation. WU will be participating in model 
+development and software development by providing their feedback. 
+Deliverables: D 5.1 Pre-processing algorithms for HI-FI and MI-FI spectra established. (NMBU, M36); D
+5.2 Classification and calibration models for MI-FI and HI-FI instruments ready for fungi and mycotoxins in 
+all matrices (NMBU, M36); D 5.3 MI-FI and HI-FI calibration models established and validated (NMBU, 
+M48); D5.4 Digital GCS technical manual report describing the installation at hardware level and architecture 
+used to develop the software  (IRIS, M36) ; D5.5 Digital GCS user manual report analysing the overall 
+functionalities of the software platform, capabilities, buttons, user interfaces, etc. (IRIS, M40) 
+ 
+WP number 6 Start M1 – End M48 BOKU 
+WP title Demonstration and validation 
+PHOTONFOOD 
+ 
+56 
+ 
+Participant no. 1 2 3 4 5 6 7 8 9 10 11 12 13 
+Short name of 
+participant 
+NMBU 
+UULM 
+BOKU 
+WU 
+NEBIH 
+NP 
+ROMER 
+IRIS 
+accelCH 
+BIGH 
+Seeberger 
+BAMA 
+HS 
+Person-months 19 12 24 1 22 - 0.5 7 - 8 0.5 0.5 - 
+Objective: To conduct 3 case studies where the project concept and vision for farm -to-fork sensing are 
+implemented and demonstrated. In each case study, monitoring data acquired by portable photonics -based 
+devices will enable quick on-site risk assessment by the end-users at different entry points of the food chains. 
+The specific objectives are:  
+• Validation: Validate the developed solution considering the user -expectations explored in WP1 by 
+comparing the performance characteristics of the innovative photonic devices to reference methods.  
+• Demonstration: Test the innovative photonic solution via on-site operation through the 3 case studies, 
+which includes the measurement of mycotoxins and presence of fungi in (i) wheat and (ii) peanuts, also 
+the examination of (iii) levels of pesticide, antibiotics and fungi in products from aquaponics. 
+• Give feedback to WP1 about the usability of the IPD in real settings and to the technology developers 
+(WP2-5) about the modifications that are possibly needed based on the demonstration activities. 
+Task 6.1 Building the spectral database (M1-24) (lead partner: NMBU, BOKU, participants: NEBIH, 
+Seeberger, BIGH, WU). A database of spectra will be built for input to the model described in Task 5.1 and 
+5.2. In order to feed the spectral library with data and to validate our methods in a laboratory -based 
+environment, well defined commodities will be provided by NEBIH, Seeberger and BIGH. It is important 
+to note that separate sets of spectra are necessary for each specific matrix since MIR spectra of the latter are 
+significantly different. Separate spectral databases for contaminated and clean samples are available for each 
+matrix composed of nuts (such as peanuts, hazelnuts, and almonds), dried fruits, wheat and vegetables. It is 
+critical that the ensemble of spectra is representative of the matrix and contamination. It is also critical that 
+a large enough data set of clean and contaminated samples is available for training and testing of the 
+chemometric model. An estimated 100+100 (clean + contaminated) samples need to be available for the 
+creation of training and test sets in each matrix. With three measurement replicates, we will acquire approx. 
+600+600 spectra for each instrument (HI -FI, MI-FI, and benchtop benchmark instrumentation at NMBU 
+and UULM). The final number depends on the repeatability of spectral measurements.  
+Task 6.2 Acquisition of reference data (M24-30) (lead partner: BOKU, participants: NEBIH, Seeberger, 
+BIGH). For optimization and validation purposes, as well as for the preparation of matrix -calibrants of the 
+developed flexible spectroscopic assays, 50 naturally contaminated samples for each matrix group will be 
+analyzed by fully validated LC and LC -MS/MS methods developed by NEBIH and BOKU, respectively. 
+These reference measures will be complemented by the determination of the concentration-related scope of 
+the method. Therefore, an additional amount of 1 00 inoculated samples will be blended with non -
+contaminated sample material in order to prepare 10 different concentration levels. As non -contaminated 
+sample material, bulk samples of 5-10 kg each of 3 different lots of the commodities wheat and peanuts will 
+be used and mixed with the contaminated material to the appropriate concentration levels. Naturally 
+contaminated, inoculated and non -contaminated sample material including different lots will be provided 
+by NEBIH, Seeberger and BIGH. 
+Task 6.3 Performance and evaluation of a ring trial (interlaboratory comparison study) (M1-42) (lead 
+partner: BOKU, participants: NEBIH, ROMER, UULM, NMBU ). The trueness and the comparability of 
+the measurement results obtained for mycotoxins in the naturally contaminated materials will additionally 
+be ensured through the conduction of a ring -trial (interlaboratory comparison study) organized by BOKU. 
+Natural contaminated sample material for each commodity will be tested by 8 different laboratories (BOKU, 
+NEBIH, ROMER, UULM, NMBU) and finally subjected to a statistical evaluation. By comparing identical 
+sample materials with different methods, a more accurate evaluation will be obtained regarding the 
+measurement uncertainty in general , as well as  the measurement quality of the new developed flexible 
+spectroscopic assay in detail. 
+Task 6.4 On-site demonstration exercise at the end user level (M36-42) (lead partne r: NEBIH , 
+participants: BOKU, Seeberger, BIGH, BAMA). In order to  test the applicability of the innovative and 
+cross-validated spectroscopic approaches at end user level, for both farmers and official test laboratories, 
+on-site measurements will be conducted. A prototype innovative photonic solution will be deployed to 
+NEBIH, Seeberger, BIGH an BAMA. 1) At least 50 naturally contaminated samples for each commodity at 
+different contamination levels from different sectors of the food chain (wheat producing farms, food 
+PHOTONFOOD 
+ 
+57 
+ 
+processors and retailers), will be collected by NEBIH a nd will be simultaneously examined by innovative 
+photonic solution and the reference method used for official inspections under normal laboratory conditions 
+at the authority. 2) Seeberger and BAMA will use the device for mycotoxin monitoring trial in a variety of 
+nuts (peanut, walnut and almond). In addition, BAMA will use the device for monitoring trial in a variety 
+of vegetables. 3) The objective of the demonstration at BIGH is to develop an easy -to-use, flexible, and 
+broadly adaptable versatile analytic tool for mycotoxin, fungi and oomycetes detection that is also capable 
+to analyse antibiotics and pesticide residues in end products. Technical supervision of the demonstration 
+procedures will be provided by BOKU. Reference analyses for the collected samples will be carried out by 
+BOKU and NEBIH. 
+Task 6.5 Customers feedback (M42-48) (lead partner: BOKU, participants: NEBIH, ROMER, Seeberger, 
+BAMA). After the devices have undergone a practicability test by the end users, this knowledge will be  
+incorporated in order to improve the terminal devices. Feedback about the technological feasibility will be 
+obtained in form of a questionnaire and in form of direct communication with the end users. The best suited 
+approach, including a full validation r eport (or a combination of approaches) and suitable analytical 
+protocols, will be brought to the attention of various end users along the different food chains and to official 
+control labs throughout the EU via seminars, on -site customer exercises, publica tions and direct 
+communication with DG Health.  
+ 
+Role of partners:  The spectral database for the contaminant/commodities combinations will be built by 
+NMBU in cooperation with NEBIH and Seeberger. BOKU will organize the validation studies. NEBIH will 
+take care of the demonstration exercise assisted by Seeberger, BIGH  and BAMA, and will be responsible 
+for the acquisition of reference data as integral part for the validation of the flexible spectroscopic assays. 
+BOKU, NMBU and associated partner ROMER will assist NEBIH and will coordinate the conduction of a 
+ring trial (interlaboratory comparison study) in order to verify the comparability of the measurement results. 
+BOKU will additionally provide LC -MS/MS reference data and participate in on -site demonstration 
+exercises. NEBIH will finally initiate and coordinate a feedback loop between customers and producer in 
+cooperation with ROMER, Seeberger and BAMA. UULM, WU and IRIS will participate in the validation 
+and demonstration to make sure that possible technical issues can be solved on site.    
+Deliverables: D6.1 Report on preliminary comparability study (BOKU,M12); D6.2 Report on completed 
+validation studies (BOKU, M42); D6.3 Report on completed demonstration exercises (NEBIH, M46); D6.4 
+Evaluation of collected feedback data (report) (NEBIH, M4 8); D6.5 Report on ring trial  (interlaboratory 
+comparison study) (BOKU, M42) 
+ 
+WP number 7 Start M1 – End M48 accelCH 
+WP title Communication, dissemination and exploitation 
+Participant no. 1 2 3 4 5 6 7 8 9 10 11 12 13 
+Short name of 
+participant 
+NMBU 
+UULM 
+BOKU 
+WU 
+NEBIH 
+NP 
+ROMER 
+IRIS 
+accelCH 
+BIGH 
+Seeberger 
+BAMA 
+HS 
+Person-months 7 1 1 1 9 3 0.5 2 20 0.5 0.5 0.5 8 
+Objective: To communicate about the project, raise awareness on food safety, and to disseminate results 
+through publications, presentations and focused training. The specific objectives are:  
+• Define and plan strategy and measures in multi-stakeholders communication and dissemination plan.  
+• Deliver cross-media communication and public engagement activities to raise awareness about 
+PHOTONFOOD and food safety in society.  
+• Disseminate the research and study results to the scientific community and the food industry.  
+• Provide guidelines and recommendations to decision- and policy-makers regarding food safety.  
+• Develop a plan for the future use of the PHOTONFOOD platform and the individual technologies and a 
+roadmap for exploitation. 
+Task 7.1 Communication and Dissemination plan (M1-M12) (lead partner: accelCH, participants: all). 
+The task will focus on setting up a communication and dissem ination plan (CDP) with the support of all 
+partners. The CDP will be also discussed with members of the advisory board. We will develop an outline 
+key strategy for project dissemination and communications, for both internal (project partners) and external 
+PHOTONFOOD 
+ 
+58 
+ 
+stakeholders. Further, we will identify dissemination tools and channels, defin e the target audience and 
+evaluate the implementation and impact of activities and update the CDP. 
+Task 7.2 Cross-media communication to raise awareness in society (M1-M48) (lead partner: accelCH, 
+participants: all). The following communication activities will be performed: (1). Project website: Set up 
+and maintain the PHOTONFOOD website including 1) a web -based information resource for different 
+target-groups, 2) integrated use of different media (e.g. blog, infographic) to enhance the outreach to society 
+and, 3) an exhaustive list of the project results including all publications and presentation contributions. (2) 
+Communication material: Digital and print material to support the outreach of the PHOTONFOOD project 
+through existing and newly established networks will be developed. This will inclu de a project flyer 
+providing basic information (print and digital version), a poster and a roll-up for use at events organised by 
+the partners or hosted by other relevant organisations to promote the project. All materials will follow the 
+PHOTONFOOD design  guidelines including the logo and visual elements to ensure a coherent style 
+throughout all materials and channels. (3) Audio/visual material: Create interactive digital audio/visual 
+material for is easy use and re -sharing through social media channels. T his will include infographics to 
+present complex information in a simple way to the general public as well as videos presenting the project 
+activities and results including interviews with key partners will be created and distributed via the project 
+website, social media channels and existing partner networks. (4) Press releases and articles: Publish press 
+releases oriented towards the food industry and for mass media (general public) on outcomes from the 
+project. In close collaboration with partner’s media  groups monitor and manage public relations related to 
+the project and organise any requests for further information, statements and interviews.  
+Task 7.3 Disseminate research results to expert stakeholder groups (M13-M48) (lead partner: NMBU, 
+participants: academic partners). The dissemination of the research results will be performed by using the 
+following dissemination instruments: (1) Peer-reviewed publications:  PHOTONFOOD partners will 
+publish their findings and research advancements in high impact peer-reviewed journals, such as Journal of 
+Biophotonics, Applied Spectroscopy , and Food Control. All partners are committed to following the 
+Guidelines on Open Access to Scientific Publications and Research Data in Horizon 2020  that are in line 
+with current trends in IP management and publication, and will establish a database of relevant journals for 
+scientific dissemination. (2) Scientific conferences and presentations:  All partners will present their 
+findings through oral presentations, posters and conference papers at European and international scientific 
+conferences, such as SciX, SPEC, Food Safety, PITTCON, and SPIE Photonics Europe. (3) Cluster event: 
+accelCH will organise a cluster event in the first project year together with other projects funded under the 
+ICT-37-2020 call to exchange knowledge and create synergies on how to handle key issues relevant for all 
+projects to coordinate research developments. (4) Training: NEBIH, NP, WU and BOKU will integrate 
+PHOTONFOOD results into training materials for already established training events that they organise for 
+students on safety in the food chain  and photonic technology. This will include training through summer 
+and winter schools, lab settings and integration into established bachelor and master programmes. (5) Policy 
+brief: NEBIH will create a short, to the point policy brief based on outcomes from WP6 (validation). These 
+will be directed towards policy makers or stakeholders who can influence policy. The aim is to highlight the 
+relevance and benefits of the new PHOTONFOOD approach and its related research as well as offer 
+recommendations for change to reduce regulatory barriers and identify drivers for the uptake of the 
+PHOTONFOOD solutions to improve food safety.(6) White paper: NEBIH will develop a white paper in 
+the final year on “photonics -based novel technologies for food safety applications’’ in the final year to 
+provide recommendations to be considered for future guidelines and international regulations based on 
+results from the validation WP (WP6). (7) Local demonstrations: NP will organise live local demonstration 
+of the PHOTONFOOD platform, solutions and initial results derived from the validation in a realistic setting 
+(WP6) to stakeholders along the food value at tradeshows, such as Analytica, Laser World of Photonics and 
+local information events. UULM will organise live demonstration sessions of the devices locally in the lab 
+as “Industry Information Days” and also hands-on 1-2 day workshops at UULM for industry with theoretical 
+sessions and hands -on practical sessions. The local demonstrations will be held in the local language to 
+ensure the wide dissemination  of the PHOTONFOOD related results and offer a unique opportunity for 
+networking with interested stakeholders. (8) Final event:  To engage with members of parliament and 
+policy- and decision makers, WU will organise a workshop as the final event. The workshop will consist of 
+presentations of the PHOTONFOOD key results, the policy brief and white paper will be presented and a 
+panel discussion with invited experts from our stakeholder networks covering ethical, legal, social and 
+economic considerations will be organised.  
+PHOTONFOOD 
+ 
+59 
+ 
+Task 7.4 Future use and exploitation of the PHOTONFOOD platform and technologies (M1-M48) 
+(lead partners: accelCH, HS, participants: all). The following measures will be taken for the future use and 
+exploitation of the developed technology: (1) Business Model development: Potential business cases will 
+be developed by the technology providers led by the Innovation Manager  that will facilitate the future 
+upscaling and uptake of PHOTONFOOD. The business model(s) will take into account results fr om the 
+demonstration and validation (WP6) and outcomes and recommendations from all research WPs (WP1-5). 
+Supported by all WP leaders, they will identify adoption barriers for the involved stakeholders and develop 
+strategies to overcome these barriers by d eveloping a PESTEL analysis to assess and monitor the macro -
+environmental factors that may impact our project and the developed technologies. ( 2) Promotion of 
+exploitation and future funding plans: Detailed report to include the consortium’s plan for 
+commercialisation of the developed technology. Develop draft exploitation agreement to build on 
+Consortium agreement. Actively seek licensees and future funding to ensure ease of commercialisation and 
+funding during first year of exploitation. Subcontract servi ces of company to carry out future funding and 
+investment searches. Begin process of establishing the product in product range, draw up distribution 
+agreement and supply chain agreements with partners.  (3) Strategic grant planning:  To facilitate the 
+further non-commercial use of results and outcomes through follow -up projects, accelCH will pre-select 
+funding programmes relevant to partners and their project results by identifying suitable funding 
+instruments. accelCH will present an extensive list of funding opportunities within the consortium which 
+will discuss all options and select the most suitable instruments. Based on partner feedback, accelCH will 
+create a short list of the most suitable EU and national funding schemes, including requirements, timings 
+and recommendations, develop a proposal preparation schedule and help with the initial set up of possible 
+follow-up projects. ( 4) Standardisation and guidelines:  The project results have the potential to be 
+integrated into national food safety related guidelines. We will share our policy brief with decision and 
+policy makers which will include recommendations for food safety guidelines. Our recommendations are 
+not legally binding but could potentially influence regulations if our results are strong which could require 
+countries to change their laws. (5) Roadmap for exploitation (RfE): the Exploitation Manager at HS will, 
+together with the industry partners (especially NP)  and the Innovation Manager at NMBU,  develop a 
+commercialisation strategy including an exploitation roadmap building upon the initial business models to 
+examine the transferability of the PHOTONFOOD platform to the market based on outcomes from all 
+research WPs. Sub-outcomes of the project such as individual technologi es developed will also be closely 
+monitored and documented to ensure their individual exploitable use. Thus, the RfE will comprise a plan 
+for the future commercial and non -commercial use of results at Consortium level, group, and individual 
+partner level. The RfE will cover the exploitation, starting during the lifetime of the project (short-term) and 
+mid and long-term plans <4 years, and <10 years after the project ends). 
+ 
+Role of partners: accelCH will be leading this work package and in particular will b e responsible for the 
+development of the Communication and Dissemination Plan (Task 7.1) , and for orchestrating all 
+communication activities (Task 7.2). In addition, they will organise the Cluster Event in Task 7.3 and be in 
+charge of all the documentation and reporting on WP7. NMBU will lead the partners in the dissemination 
+of results to the target groups and will provide the Innovation Manager (Task 7.3). HS will lead the 
+exploitation activities (Task 7.4), and in particular will be responsible for shapi ng the Roadmap for 
+Exploitation. HS will furthermore pursue fabrication and commercialisation of the final HI -FI and MI-FI 
+devices after the end of the project. NEBIH will be responsible for producing a white paper and policy 
+briefs. NP and UULM will be in charge of the live demonstrations in Task 7.3. WU will organise the final 
+event in Task 7.3. All partners will contribute to WP7 by disseminating and communicating about the project 
+and results and by supporting the other partners in the WP7 activities. 
+Deliverables: (1) D7.1 PHOTONFOOD website including audience specific areas, digital media and blog 
+features and a secured area for central document storage ( accelCH, M2); (2) D7.2 Communication and 
+Dissemination Plan (CDP) developed defining key strategies and implementation process required to 
+implement all communication and dissemination activities (accelCH, M9); D7.3 Interim communication 
+and dissemination activities report to provide an overview of the activities achieved to date and assess 
+their impact by means of Key Performance Indicators. ( accelCH, M24); D7.4 Policy guidelines  for the 
+integration of the PHOTONFOOD platform into the standard approach in food safety (NEBIH, M36); D7.5 
+Live demonstrations  of the PHOTONFOOD solution  (NP, M42) ; D7.6 Roadmap for exploitation  
+including strategies for the future commercial and non -commercial use of the outcomes and results ( HS, 
+PHOTONFOOD 
+ 
+60 
+ 
+M48); D7.7 Final Scientific Symposium presenting the research results and the platform to scientists, food 
+industry professionals and decision and policy makers (accelCH, M48) 
+ 
+WP number 8 Start M1 – End M48 NMBU 
+WP title Coordination and management 
+Participant no. 1 2 3 4 5 6 7 8 9 10 11 12 13 
+Short name of 
+participant 
+NMBU 
+UULM 
+BOKU 
+WU 
+NEBIH 
+NP 
+ROMER 
+IRIS 
+acccelCH 
+BIGH 
+Seeberger 
+BAMA 
+HS 
+Person-months 17 - 1 1 1 1 0.5 1 2 0.5 0.5 0.5 2 
+Objective: Scientific, financial, administrative and ethical management of PHOTONFOOD with focus on 
+the time and cost-efficient implementation of the work plan. The specific objectives are:  
+• Provide the scientific and technical leadership, as well as the administrative and financial management, 
+to ensure that PHOTONFOOD delivers qualitatively high results within the time schedule and budget of 
+the project description.  
+• Establish a single contact point with the EU and maintain continuously contact with EU representatives.  
+• Perform a quality assessment of the progress, results and impacts of the project.  
+• Deliver timely the progress reports and budget reports to the European commission.  
+• Make sure that the Description of Action (DoA) and the consortium agreement are followed. 
+• Establish a digital platform and intranet for the project to enable the exchange of data and information 
+among the consortium partners.  
+Task 8.1 Coordination (M1-M48) (lead partner: NMBU , participants: all). This task will perform  the 
+overall coordination of the scientific and technological developments of all WPs in order to make sure that 
+the developed components and scientific findings  are aligned . The Project Coordinator (NMBU) will 
+establish a single contact point with the EU in order to communicate all results, scientific , financial, and 
+related issues. A Project Manager (NMBU) and a Scientific Manager (Deputy Coordinator from NMBU) 
+will assist the Coordinator (NMBU). The Executive Board (EB) and the General Assembly (GA) will meet 
+biannually and annually, respectively, and arrange ad hoc meetings when required. The EB and the GA will 
+monitor risks and project progress supported by the Coordinator and the Scientific manager. The coordinator 
+will be supported by the project manager in all administrative issues and especially in reporting and finance. 
+The milestones and the deliverables will be closely followed up by the scientific manager who will carefully 
+review all progress plans. The Project Manager will be responsible for the on-time delivery of draft scientific 
+and financial reports to the Project Coordinator. Gender equality will be monitored by the Coordinator and 
+it will be made sure that the gender balance will be maintained throughout the whole project period.  
+Task 8. 2 Financial management  (M1-M48) (lead partner: NMBU , participants: all) . The economy 
+manager Christer Wulff-Olsen at NMBU will be responsible for the financial management of the project in 
+close collaboration with the project manager. They will ensure the timely distribution of funds from the EC 
+to the partners. During the kick -off meeting, the economy advisor will in troduce all partners in payment 
+routines and aspects of financial reporting. All partners will obtain templates and instructions for financial 
+reporting. The economy manager will be responsible to prepare all financial reports and deliver them timely 
+to th e EC. All partners will be asked early to prepare their financial reports and each partner will be 
+responsible to prepare the reports and deliver them to NMBU in time. The coordinator will monitor the 
+financial management and inform the EU about all necessary financial transfers.   
+Task 8.3 Decision making, conflict management  (M1-M48) (lead partner: NMBU ). Each WP is led by 
+one of the partners (WP leader) with a deputy WP leader from a different partner. This will ensure  focus 
+on the work that is agreed upon. The WP leaders take the routine decisions, communicate those with the  
+Coordinator, monitor progress of output according to the work plan, and prepare all documents and  
+documentations for their WP. The decision -making body will be the General A ssembly, with 1  
+representative from each partner organization and chaired by the Coordinator (see details of composition in 
+section 3.2), each partner has a vote and the ability to steer the project. Major strategic decisions will be 
+made by the General Assembly, such as change of scope, IPR related decisions, conflicts, budget related 
+decisions, etc. First line of day-to-day decision making will be up to the Executive board whose membership 
+will comprise the Coordinator and the WP leaders. Matters of a str ategic nature are floated to the General 
+Assembly and will aim to be accompanied by a recommendation from the Executive board. The Project 
+PHOTONFOOD 
+ 
+61 
+ 
+Coordinator will handle any cases of fraud, unethical behaviour, and breach of procedures, however,  such 
+incidences are expected to be highly unlikely. The Project Coordinator will distribute a list of decisions to 
+be taken to all participants prior to each meeting. Partners may request in writing for additional topics to be 
+discussed, and the updated agenda is distributed before the meeting. All meetings are documented, including 
+the outcome of all decisions and distributed to all partners. 
+Task 8.4 Organization of reporting to the EC (M1-M48) (lead partner: NMBU, participants: all).  
+NMBU, the Project Coordinator, will present reporting procedures during the kick-off meeting. The Project 
+Coordinator will provide templates for the formal reports and updates during the course of the project when 
+necessary. The Project Coordinator will prepare a brief semi-annual report and distributes it to all 
+participants. Formal project reports will be prepared by the Coordinator in keeping with the contractual 
+reporting periods stipulated in the  Grant Agreement. The Coordinator will present this formal report, 
+including finance, IPR, ethics, and gender issues to the EC on time (and during formal review meetings as 
+proposed by the EC). The Coordinator will also prepare a brief non-confidential version of the formal report 
+for public access on the website. 
+Task 8. 5 Day-to-day management (Internet, helpdesk and back -office) (M1-M48) (lead partner: 
+NMBU, participants: all).  A secure digital platform for networked information sharing will be established 
+to minimize costs and environmental impact of travelling and to allow rapid access to collated data. The 
+platform will have an option for open-source content management. The digital platform will be used for all 
+internal communications. Access will be restricted to consortium members. Different access levels will be 
+incorporated based on user roles. It will provide tools for knowledge management and the development of 
+databases, to share preliminary res ults and internal documents amongst partners, to discuss and edit pre -
+publication documents and deliverables. Each time new data is available, it will be made sure that the data 
+is shared in the project database according standard formats which will be agreed on at the beginning of the 
+project. This will ensure a steady exchange and sharing of all spectroscopic and metadata between all 
+partners. This intranet will be maintained by NMBU. Shared documents, contact data, templates, agreements 
+and links to official guidelines for reference and reports and conclusions of meetings will be stored on the 
+password protected part of the website which will be maintained by NMBU. All periodic reports and collated 
+reports will be stored in the project database.  
+Task 8.6 Organization of consortium meetings (incl. telephone/video-conferences, web meetings) (M1-
+M48) (lead partner: NMBU, participants: all).  A kick-off meeting for all project partners including the 
+General Assembly  (and the Executive board  as part of the Committee), the Advisory Board and 
+representatives from the EC will be organized by the Coordinator (NMBU. The back-office of NMBU will 
+take care of all aspects of the consortium meetings, as presented in paragraph 3.2, such as agenda, 
+invitations, preparation of materials (hand -outs, programmes, etc.), organisation of rooms and  equipment, 
+catering and dissemination activities to the consortium in cooperation with the host of the meeting, i.e.  
+typically the location of one of the WP leaders.  NMBU will also organize and host all consortium 
+telephone/videoconferences (regular according to schedule, and on demand). In total 4 General Assembly 
+meetings, 6 Executive board  meetings and several ad -hoc meetings, depending on the needs, will be 
+organized. 2 plenary meetings will be organized in conjunction with an end user meeting in M35 and M45. 
+The minutes of all meetings will be delivered in a timely manner by  the Project Coordinator . In case of 
+unexpected events (e.g. COVID-19) the procedures indicated by the EC will be followed. 
+Task 8.7 Maintenance of all legal agreements (M1-M48) (lead partner: NMBU, participants: all).  
+All partners will sign a Consortium Agreement, with detailed matters on access to know -how, intellectual 
+property ownership, and liability in line with the information contained in Section 2.2b as the starting point. 
+During the kick-off meeting, all contractual requirements on the Grant Agreement will be reviewed with all 
+the partners to ensure that all partners recap on their commitments. All partners must report issues relevant 
+to the legal agreements to the Coordinator in a timely manner. The  Coordinator will decide on how to 
+proceed with any deviation and will inform the Project Officer. 
+Task 8.8 Risk Management (M1-M48) (lead partner: NMBU, participants: all). Alterations to the work 
+plan will be identified early by following partners tightly in consortium meetings, regular technical meetings 
+and periodic reports. A control procedure will be established by the c oordinator for handling identified 
+alterations to the work plan.  All partners will be asked to continuously monitor risk factors and to report 
+problems timely to the coordinator. Changes will be monitored in order to  respond to threats in a timely 
+manner to ensure work packages continue smoothly. Areas of potential difficulties will be discussed with 
+the respective partners and discussed in the consortium. The impact of problems will be  considered 
+thoroughly in the co nsortium and contingency plans will be activated and mitigation measures will be 
+PHOTONFOOD 
+ 
+62 
+ 
+discussed. It is important to make sure that mitigation measures are thoroughly discussed in the consortium 
+and the impact of the respective mitigation measures are understood  for all affected partners and tasks. If 
+necessary, resources will be reallocated, and objectives will be recovered and rescheduled. 
+Task 8.9 Quality management (M1-M48) (lead partner: NMBU, participants: all). The project will develop 
+a quality handbook for quality assurance and control that contains all data format definitions, methods, 
+guidelines for communications, conflict management, innovation management and project reporting. The 
+quality handbook will be continuously overseen and revised in meetings of the GA (discussed biannually).  
+The external advisory board will give input to the quality handbook. 
+Task 8. 10 Innovation management (M1-M48) (lead partner: NMBU; participants: all).  Freedom to 
+operate: the IPR landscape will be mapped in the beginning of the project and continuously monitored 
+throughout the project’s lifetime. This will ensure that relevant background IP is duly integrated into the 
+consortium agreement and that the necessary licenses are negotiated by the project consortium.  IP strategy: 
+the Innovation Manager will develop and negotiate a coherent IP strategy with all project partners, balancing 
+the different interests of the participants (secrecy clauses, patenting, trademarking, licensing, publishing). 
+The IP strategy will be closely aligned with the exploitation strategy and roadmap (see WP7), ensuring that 
+the IP strategy can leverage the further commercialisation and business development activities planned after 
+the end of the project’s lifetime and avoid undue conflicts between the consortium partners and with third 
+parties. Ongoing IP management: the Innovation Manager will liaise continuously with the WP and Task 
+Leaders to ensure that the IPR generated in the project is disclosed in a timely manner and protected in a 
+way consistent with the IP strategy. Furthermore, the Innovation Manager will liaise continuously with the 
+TTOs of the participating research organisations , and the legal  departments/representatives of the 
+commercial actors in the project , to ensure that all necessary agreements are made in time and potential 
+conflicts (between consortium partners or with third parties) are proactively resolved or avoided. 
+Task 8.11 Data management plan (M1-M6) (lead partner: NMBU; participants: all). A data management 
+plan (DMP) according to the Guidelines on Data Management in Horizon 2020 will be developed. The DMP 
+will provide the procedures for efficient collection, safe storage, deep exploitation and evaluation  of the 
+data. The DMP will ensure that research data will be easily discoverable, accessible, assessable and 
+intelligible, usable beyond the original purpose for  which they were collected,  interoperable to specific 
+quality standards, whenever relevant. The database will be used as  a first basis for exploitation of results 
+and further exchange of knowledge and expertise. 
+Role of partners: NMBU will be leading this work package and is responsible.   
+Deliverables: D8.1 Next stage plans and internal progress reports (NMBU, M6); D8.2 Interim Status Report 
+(NMBU, M12); D8.3 Communication framework between partners (NMBU, M24); D8.4 Biannual progress 
+reports, mid-term reports and final report (NMBU, M48); D8.5 Organize initial, mid-term and final meetings 
+(NMBU, M48); D8.6 Report on gender, societal and ethical issues of exploitation (NMBU , M24); D8.7 
+Data management plan (NMBU, M6). 
+ 
+Table 3.1c: List of Deliverables75   
+NO Name WP Lead Type Diss. level Date 
+D1.1 Report on stakeholder and user requirements 1 NMBU R CO M24 
+D1.2 Overview on technical and user experiences 1 NEBIH R CO M40 
+D1.3 Report on cost assessment 1 ROMER R CO M36 
+D1.4 Report final user requirements, technology accept., market potential 1 NMBU R CO M48 
+D 2.1 Deliverable report on sampling, extraction and selective purification 
+approaches for one target contaminant (DON) 
+2 WU R CO M24 
+D 2.2 Deliverable report on the development of an interface between a 
+fully integrated paper microfluidic device and optical components 
+2 WU R CO 
+ 
+M42 
+D 2.3 Diversification of the paper-based microfluidics to at least a second 
+target contaminant in a second commodity finalized. 
+2 WU R CO M48 
+D3.1 Advanced IC-LEDs for sensor integration (hardware) 3 NP DEM CO M18 
+ 
+75Key: DL Dissemination Level; R Docum ent, Report; DEM Demonstrator, pilot, prototype, plan designs; DEC Websites, patents 
+filing, press & media actions, videos, etc.; OTH: Software, technical diagram, etc.; PU Public, fully open; CO Confidential, restricted 
+to consortium set out in Model Grant Agreement; CI = Classified information as referred to in Commission Decision 2001/844/EC. 
+ 
+PHOTONFOOD 
+ 
+63 
+ 
+D3.2 Monolithic tuneable lasers for sensor integration (hardware, report) 3 NP DEM CO M26 
+D4.1 Thin-film waveguide-based sensing interface for HI-FI analyser 4 UULM DEM CO M18 
+D4.2 Performance test report for MI-FI analyzer 4 UULM DEM CO M30 
+D4.3 Performance test report for HI-FI analyzer 4 UULM DEM CO M24 
+D5.1 Pre-processing algorithms for HI-FI and MI-FI spectra 5 NMBU OTH CO M36 
+D5.2 Classification and calibration models for MI-FI and HI-FI 
+instruments ready for fungi and mycotoxins in all matrices 
+5 NMBU OTH CO M36 
+D5.3 Calibration and classification models validated 5 NMBU OTH CO M48 
+D5.4 Digital Global Control System (GCS) Technical Manual 5 IRIS OTH CO M36 
+D5.5 Digital Global Control System (GCS) User Manual 5 IRIS OTH CO M40 
+D6.1 Report on preliminary comparability study 6 BOKU R CO M12 
+D6.2 Report on completed validation studies 6 BOKU R CO M42 
+D6.3 Report on completed demonstration exercises 6 NEBIH R CO M46 
+D6.4 Evaluation of collected feedback data (report) 6 NEBIH R CO M48 
+D6.5 Report on ring trial (interlaboratory comparison study) 6 BOKU R CO M42 
+D7.1 PHOTONFOOD website 7 accelCH DEC PU M2 
+D7.2 Communication and Dissemination Plan (CDP) 7 accelCH R CO M9 
+D7.3 Interim communication and dissemination activities report 7 accelCH R CO M24 
+D7.4 Policy guidelines 7 NEBIH R PU M36 
+D7.5 Live demonstrations 7 NP DEM PU M42 
+D7.6 Roadmap for exploitation 7 HS R CO M48 
+D7.7 Final Scientific Symposium 7 accelCH OTH PU M48 
+D8.1 Next stage plans and internal progress reports 8 NMBU R CO M6 
+D8.2 Interim Status Report 8 NMBU R CO M12 
+D8.3 Communication framework between partners 8 NMBU OTH PU M24 
+D8.4 Six month progress reports, mid term reports and final report 8 NMBU R CO M48 
+D8.5 Organize initial meetings, mid term meetings and final meetings 8 NMBU OTH CO M48 
+D8.6 Report on gender, societal and ethical issues of exploitation 8 NMBU R CO M24 
+D8.7 Data management plan 5 NMBU R CO M6

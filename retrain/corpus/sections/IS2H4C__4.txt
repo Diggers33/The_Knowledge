@@ -1,0 +1,1301 @@
+4. German Hub : Industriepark Höchst contains chemicals and pharmaceuticals industry, located in 
+Frankfurt. Planned synergies: (i -ii) CO2 obtained from (to -be-implemented) CC technology 
+implemented in a power generation unit and H2 obtained from existing electrolysis (facilitating industrial 
+waste heat use) are both used in e-methanol production replacing traditional methanol in the chemical 
+and pharmaceutical industry.   
+All hubs: Next to hub -specific solutions, sensing technology will be used to monitor the content and 
+flows of one sample resource in each hub. The retrieved data will be embedded in digital product pass to 
+achieve resource traceability and data interoperability to improve the performance of IS recommendations 
+in the digital collaboration platform (DigitalH4C).   
+Specific activities, KPIs and validation means  
+- Identify (energy) infrastructure ready to be used and facilitate its use for multiple unpractised users  
+- Analyse infrastructure integration scenarios and simulate new synergies   
+- Upgrade existing processes and co-design new processes to facilitate coupling and/or 
+versatile/shared use of resources by multiple users from diverse sectors  
+  
+- Develop technologies from TRL3-5 to at least TRL7 and deploy them in demo hubs or directly apply 
+technologies with at Associated with document Ref. Ares(2023)8308660 - 05/12/2023 
+least TRL7 in the hubs  
+- Maximize renewable energy use, utilize green hydrogen as energy carrier or alternative material, and 
+implement material/water-/energy-/carbon-/service-based IS models  
+
+ 
+Project: 101138473— IS2H4C – Part B – 8  
+- Implement an agent-based modelling and simulation framework3 and simulate bottom-up emergence 
+and evolution scenarios considering that H4C are complex adaptive systems  
+- Analyse the scenarios in the four locations during and beyond project period to propose systemic 
+scale-up and expansion strategies for these hubs aligned with the operational objective#8 of 
+Processes4Planet partnership  
+KPIs: 2 synergies in the German hub, 4 synergies in the Turkish hub, 4 synergies in the Basque hub, 7 
+synergies in the Dutch hub will be implemented thanks to the development and deployment of 
+sustainable technologies and integration of existing and new infrastructure. These total of 17 synergies 
+are direct technology deployment and demonstrations of the IS2H4C. Furthermore, there are 24 hub 
+expansion synergies  explained (for sake of brevity) in the description of the IS2H4C hubs in the 
+methodology section.  Next  to these, there will be new synergies thanks to the engagement of other 
+actors of the hubs to planned symbioses (who are not direct partners of IS2H4C but located in hubs). 
+IS2H4C will reach out to a total of at least  150 companies  in all hubs via ad -hoc matchmaking 
+workshops and the marketplace embedded in the digital H4C. Furthermore, new synergies will be 
+triggered thanks to the adoption of (already developed and to -be-further-improved) two IS 
+recommenders4 ,5 . Considering that one IS recommender performs at 33% success rate 6 and one 
+synergy involves at least two companies (potential of 75 synergies involving 150 companies), it will 
+trigger at least 25 extra synergies. Assuming to increase recommender performance to at least 50%, 
+it can achieve 40 extra synergies. IS2H4C will produce simulation scenarios for hub expansion and 
+scale-up, via developing one agent-based simulation tool. Depending on parameters and number of 
+influential factors6, it can produce thousands of different simulation results. 4 expansion and scale-up 
+strategy reports will be produced, one for each hub, customised under different development scenarios 
+based on simulation results.  
+Validation: 11 technologies to be deployed: water electrolysis (green H 2, TRL9), CC membrane 
+technology (TRL7 to TRL9), CC adsorption technology (TRL 6 and higher), NIPU from CO2 (from TRL3 
+to TRL7), e-methanol from CO2 (TRL8), synthetic natural gas from captured CO2 (from TRL5 to TRL7), 
+oxycombustion (from TRL6 to TRL8), steel slag carbonisation (from TRL5 to TRL7), waste heat recovery 
+(from TRL5 to TRL7), oxygen use in wastewater treatment (from TRL8 to TRL9), use of water from 
+wastewater treatment in ele ctrolysis (from TRL6 to TRL8), sensing technology (from TRL7 to TRL8), 
+and IS recommenders (from TRL5 to TRL7). Activities below TRL7 (such as lab experiments and desk 
+research, e.g., as technology modelling) are attributed to WP2, and activities for field work for technology 
+deployment (TRL7 & higher) are attributed to WP6.  
+5 houses test H2 in built environment using newly developed H2 pipelines (WP6).   
+ IS2H4C’s technology details regarding the current level of TRL and achievement of TRL milestones during the project   
+Technology  Current TRL  Targeted TRL  
+Water electrolysis (green H2, 
+TRL9) – (TUPRAS)  
+Currently, there is no water 
+water electrolyzer in Tupras.   
+Tupras will buy commercial water electrolyzer(TRL8+). Tupras will invest more 
+than the project requires.  
+CC adsorption technology 
+(TRL 6 and higher)  
+(TUPRAS, TEC & LKT)  
+Tupras has CO2 adsorption 
+unit TRL6 through EU funded 
+MOF4AIR project.  
+Since e -methanol production requires high purity (99+%) CO2. Tupras will 
+consider either investment of new unit (Amine based CO2 capture, TRL9) or 
+additional purification unit for MOF4AIR.  
+NIPU from CO2 (from  
+TRL3 to TRL7) (FHG)  
+ NIPU polycondensation is 
+performed on lab scale up to 
+1kg per batch. CO2 -based 
+monomers for NiPU are 
+synthesized in high pressure 
+reactors on lab scale up to 0.5 
+kg per batch.    
+Within the project, the scale-up of monomer synthesis and NiPU polycondensation 
+to 10 kg per batch in stirred tank reactor and verify reproducibility for industrial 
+applicability shall be realized.  
+ 
+3 EC Processes4Planet. (2023): https://ec.europa.eu/research-and-innovation/sites/default/files/bmr-2022/ec_rtd_bmr-2022-processes4planet-
+fiche.pdf  
+4 van Capelleveen, G., et al., 2021. Exploring recommendations for circular supply chain management through interactive visualisation. Decis. 
+Support Syst., 140, 113431.   
+5 van Capelleveen, G., et al., 2018. The influence of knowledge in the design of a recommender system to facilitate industrial symbiosis markets. 
+Environ. Model. Softw., 110, pp.139-152.  
+6 Castiglione, C., et al., 2021. A holistic technological eco-innovation methodology for industrial symbiosis development. Sustain. Prod. Consum., 
+28, pp.1538-1551.  
+ 
+Project: 101138473— IS2H4C – Part B – 9  
+e-methanol from CO2 (TRL8) 
+(FHG & CIRCE)  
+ Fraunhofer UMSICHT owns 
+several laboratory and pilot 
+units for the synthesis of 
+Methanol as well as the 
+necessary downstream 
+operations to separate the 
+Water/Methanol mixtures. The 
+capacity covers up to 2 kg 
+methanol per hour.  
+ Within the project, the plants will be used to produce methanol based on the gas 
+compositions from the real industrial processes provided by the industrial partners, 
+e.g. Tupas.  
+  
+Synthetic natural gas from 
+captured CO2 (from TRL5 
+to TRL7) (TEC)  
+The milli -channel reactor for 
+the conversion of 0,5 Nm3/h 
+of CO2 to synthetic natural 
+gas, has been already tested in 
+a relevant environment (with  
+The main goal is to develop and demonstrate the viability of 1Nm3/h pilot plant 
+using real and continuous combustion gas coming from the industrial site 
+(Calcinor) and thus in an industrial operational environment (TRL7). This 
+objective will be achieved by  carrying out a capture and cleaning system for the 
+industrial gas generated at Calcinor (designed by Lointek) and by designing the  
+  
+ 
+  Calcinor’s combustion gas) 
+and has demonstrated its 
+viability (TRL5).   
+reaction system capable of treating 1 Nm3/h of CO2 an 4Nm3/h of H2 Associated with 
+document Ref. Ares(2023)8308660 - 05/12/2023 
+continuously (Tecnalia). These two systems will be integrated and will work 
+continuously.  
+ 
+oxycombustion (from TRL6 
+to TRL8) (TEC)  
+Sidenor has already tested the  
+effects of small quantity of H2 
+in the steel ladle preheating 
+and thus demonstrated its 
+applicability (replacement of 
+NG use) in a relevant scale 
+(TRL6).  
+The substitution of natural gas air combustion by hydrogen and including oxy-fuel 
+combustion in the application of ladle preheating will allow to demonstrate the 
+applicability of H2 and O2 in the replacement of fossil fuel in the steel sector 
+(TRL8). H2 and O2 trials monitoring and tests will be performed for this purpose  
+steel slag carbonisation (from 
+TRL5 to TRL7)  
+(TEC)  
+The patented High Efficiency 
+Contact HECO® technology 
+is being adapted for 
+mineralization of diverse 
+alkaline waste streams; among 
+others, for stainless steels. The 
+device is a fluidised bed 
+reactor type, which consists in 
+a 360mm Ø 
+conical/cylindrical met allic 
+body, fed with material 
+through its upper mouth, with 
+a CO2 gas flow inlet through 
+the lower part, and a sampler 
+in its lower part. An internal 
+draft tube, placed in the gas 
+inlet mouth, favours the 
+formation of the distinctive 
+characteristic movemen t 
+(spouting), which resembles 
+the movement of water from a 
+fountain. This type of 
+movement greatly maximizes 
+the gas/solid contact rate 
+during the reaction, increasing 
+the speed of the matter and 
+energy transfer. An additional 
+internal device (confiner) 
+generates a recirculation of 
+gas and solid internal to the 
+reactor, thereby increasing the 
+contact per unit of time, and 
+then the CO2 uptake.  
+Currently, SBS provides a 
+pilot plant reactor validated in 
+relevant environments (TRL5) 
+but improvements in 
+efficiency must be performed.  
+It has not been used yet for 
+carbonatation of stainless steel 
+slags.  
+When dealing with direct gas/solid reaction-based technologies for alkaline waste 
+mineralization, there are still unresolved optimization challenges: i) the 
+maximization of the gas/solid contact for a maximum CO2 uptake; ii) the optimal 
+humidity distribution through solids and gas under industrial flue -gas conditions 
+with variable conditions (flow rate, temperature, pressure, humidity, chemistry, 
+waste nature), iii) the continuous monitoring of the relevant mineralogical 
+transformation; iv) minimal process complexity and v) minimization in energy use. 
+The goal will be to validate and demonstrate the performance of the carbonated 
+stainless steel slags for construction applications, and thus its potential use in an 
+industrial sector environment (TRL7).   
+
+ 
+Project: 101138473— IS2H4C – Part B – 10  
+Waste heat recovery (from 
+TRL5 to TRL7) (H2HUB, 
+SOLENCO, ALMELO)  
+Technology is validated in 
+Scandinavia at TRL 5.  
+We aim to demonstrate this technology using the geothermal heat storage on site. 
+This geothermal source will be used with water -water heat pumps to recover the 
+waste heat from the H2 -producten. The two-usage scenario’s will be to heat the 
+office and factor y areas as well as to keep the stack’s inflow at the correct 
+temperature for optimal operation.(TRL 7)  
+Use of oxygen in 
+wastewater treatment (from 
+TRL6 to TRL8)  (H2HUB, 
+SOLENCO, ALMELO)  
+TRL 6 is curre 
+another 
+(Waterschap  
+Overijsselse  
+Waerschap  
+Overijsselse 
+Vechtstromen  
+information about these tests 
+for future implementation. 
+ntly proven in 
+environment 
+Drents Delta).  
+Drents  
+Delta 
+ a
+nd 
+interchange  
+  
+In close cooperation with Waterschap Vechtstromen we will implement a realworld 
+application of the proven concept, including the two pipelines for oxygen and 
+wastewater transport.  
+Sensing technology (from 
+TRL7 to TRL8)  
+ Sensing technologies 
+(prototypes or products) 
+demonstrated in an 
+operational environment will 
+be used along for real time 
+data exchange in a secure way 
+with the IS2H4C digital 
+collaboration platform.  
+ The sensing technologies will be completed and qualified next to hub -specific 
+solutions, used to monitor the content and flows of sample resources in the 
+largescale real environment of hubs. The retrieved data will be embedded to 
+achieve resource traceability and data interoperability to improve the performance 
+of IS recommendations in the digital collaboration platform.  
+  
+Associated with document Ref. Ares(2023)8308660 - 05/12/2023 
+Information technologies influencing synergy implementation and hub scale -up/expansion: IS 
+recommenders, marketplace, and conceptual digital product passports will be developed in the form of 
+decision-support tools (WP4) which are going to be embedded in the digital H4C (WP7).  
+  
+ State of the art - Recommender Systems Technology for Industrial Symbiosis Implementation  
+Introduction:  
+Recommender systems have emerged as valuable tools in the field of industrial symbiosis, aiding 
+industries in identifying potential resource-sharing opportunities and fostering collaboration.   
+Industrial symbiosis is the practice of collaborative resource sharing among industries to optimize resource 
+utilization and reduce waste. Recommender systems in this context act as decision support tools, 
+suggesting potential symbiotic partners, resources, or processes to enhance sustainability and circularity.  
+Current State of the Art:  
+• TRL Assessment (Current TRL: 4-5):  
+Recommender systems for industrial symbiosis are currently at TRL 4-5. Research and development have 
+yielded promising results in controlled environments and pilot projects, but widespread implementation and 
+scaling are limited.  
+• Key Features and Capabilities:  
+• Data Integration:  Recommender systems integrate various data sources, including 
+resource inventories, production processes, and environmental impact data, to identify 
+symbiotic opportunities.  
+• Machine Learning Algorithms:  Advanced machine learning algorithms, including 
+collaborative filtering, content -based filtering, and hybrid approaches, are employed to 
+analyze and predict resource-sharing possibilities.  
+• User Interaction:  Many systems offer user -friendly interfaces, allowing industries to 
+interact with the recommendations, provide feedback, and customize their preferences.  
+• Performance Metrics: Evaluation metrics, such as precision, recall, and F1 -score, are 
+used to assess recommendation quality.  
+• Case Studies: Several successful case studies showcase the potential of recommender 
+systems in reducing waste, optimizing resource use, and improving the sustainability of 
+industrial processes.  
+Steps to Advance to TRL 7:  
+• TRL 6 - Prototype Testing:  
+
+ 
+Project: 101138473— IS2H4C – Part B – 11  
+• Prototype Deployment: Conduct field tests and pilot implementations in industrial settings 
+to validate system performance, user acceptance, and scalability.  
+• Integration with Existing Systems:  Ensure compatibility and integration with existing 
+industrial data systems and enterprise resource planning (ERP) platforms.  
+• Performance Optimization: Continuously refine machine learning algorithms to improve 
+recommendation accuracy and response time.  
+• TRL 7 - Full-Scale Deployment:  
+• Scalability: Develop the architecture and infrastructure necessary for large -scale 
+deployment, accommodating diverse industries and resource types.  
+• Interoperability: Establish standardized data formats and interfaces to facilitate cross -
+industry collaboration and data sharing.  
+• Regulatory Compliance: Ensure compliance with data privacy regulations and industry -
+specific standards.  
+• User Training and Support:  Provide comprehensive training and support resources to 
+help industries maximize the system's benefits.  
+• Performance Monitoring: Implement robust monitoring and reporting tools to track the 
+environmental and economic impact of symbiotic collaborations.  
+Conclusion:  
+Recommender systems for industrial symbiosis hold great promise in advancing sustainability and circular 
+economy goals. While they are currently at TRL 4-5, a structured approach involving prototype testing (TRL 
+6) and full-scale deployment (TRL 7) can enable the technology to be reliably deployed and scaled in real-
+world industrial contexts. Advancing the TRL of these systems is contingent on addressing scalability, 
+interoperability, regulatory compliance, user support, and performance monitoring challenge s, ultimately 
+driving the transition towards more sustainable and circular industrial practices.  
+State of the Art in Hubs for Circularity:  
+Industrial symbiosis, particularly in the form of Hubs for Circularity, has made significant progress in 
+advancing sustainability and circular economy goals.   
+ 
+Project: 101138473— IS2H4C – Part B – 12  
+Industrial symbiosis has evolved from isolated initiatives to well-established collaborative networks. Hubs for 
+Circularity bring Associated with document Ref. Ares(2023)8307660 - 05/12/2023 
+together diverse stakeholders, including industries, governments, research institutions, and NGOs, 
+fostering stronger cooperation and resource -sharing. Advanced digital technologies and data analytics 
+have been integrated into circular hubs. This enables r eal-time resource tracking, demand -supply 
+matching, and predictive maintenance, optimizing resource flows and minimizing waste.  
+Companies within circular hubs have embraced circular design principles, leading to innovative product 
+designs, materials, and production processes. This has resulted in products that are more easily recycled, 
+remanufactured, or refurbished. Governments have recognized the importance of circular hubs and have 
+introduced supportive policies and incentives. These include tax incentives for circular practices, extended 
+producer responsibility (EPR) regulations, and waste reduction targets.  
+Circular hubs have advanced in extracting value from waste streams. Technologies for recycling, upcycling, 
+and recovering resources from waste have become more sophisticated, reducing environmental impact 
+and creating economic opportunities. Circular hubs have extended their influence along supply chains, 
+encouraging suppliers to adopt sustainable practices and customers to engage in responsible 
+consumption. This holistic approach promotes sustainability throughout the product lifecycle.  
+Remaining Challenges and Steps Towards Full-Scale Circular Hubs:  
+1. Scaling Up: While circular hubs have demonstrated success in specific regions, scaling up this 
+model remains a challenge. Achieving widespread adoption requires overcoming logistical, 
+regulatory, and financial barriers.  
+2. Standardization and Interoperability:  Establishing common standards for resource exchange 
+platforms and data sharing is crucial for seamless collaboration. Ensuring interoperability among 
+digital systems is essential to connect various stakeholders effectively.  
+3. Behavioral Change: Shifting mindsets and behaviors at all levels of the supply chain and society 
+is a complex task. Education, awareness campaigns, and incentives are needed to promote circular 
+thinking and practices.  
+4. Investment and Funding:  Securing long -term investment and funding for circular hubs is 
+essential. Public-private partnerships and innovative financing models are necessary to support 
+the transition to circularity.  
+5. Regulatory Alignment: Ensuring that regulations support circular economy principles and remove 
+obstacles to circular practices is crucial. Regulatory frameworks need to evolve in sync with the 
+circular economy's goals.  
+6. Measurement and Reporting:  Developing standardized metrics and reporting mechanisms for 
+circularity is vital to assess the impact of circular hubs accurately. This will facilitate transparency 
+and accountability.  
+7. Cross-Sector Collaboration: Encouraging collaboration among industries from different sectors, 
+not just within specific hubs, is essential for a holistic circular economy transition.  
+In summary, industrial symbiosis and Hubs for Circularity have made significant strides in promoting 
+sustainability and circularity. However, achieving full-scale circular hubs requires overcoming challenges 
+related to scaling up, standardization, behavioral change, investment, regulatory alignment, measurement, 
+and cross-sector collaboration. Continued innovation, cooperation, and strategic planning are essential to 
+realizing the full potential of circular hubs in creating a sustainable and circular future.  
+  
+Objective 2: Ensure resilience and sustainability of H4Cs considering planet, people, and profit   
+IS2H4C will adopt circularity principles, safeguarding environmental constraints, social needs, and 
+business requirements. IS2H4C integrates bottom-up feedback with top-down coordination mechanisms 
+ 
+7 Bocken, N. M. P ., et al., 2016, Product design and business model strategies for a circular economy. J. Ind. Prod. Eng., 33(5), 308–320.   
+
+ 
+Project: 101138473— IS2H4C – Part B – 13  
+that connect human needs, inter-organisational collaboration, and (inter-)regional governance. Circularity 
+principles will align with the concept of Reduce -Reuse-Recycle in the form of narrowing resource loops 
+and closing resource loops8. This results in a reduction of resource (material/water/energy) consumption, 
+emissions of waste material/wastewater/waste energy, and GHGs (CO 2, CO, CH 4, NOx, etc.). Also, 
+planetary and societal health in H4C is improved via deploying the most innovative resource -efficient 
+technologies and enhancing systemic change. IS2H4C assesses the social, economic, and environmental 
+impact of introducing innovations through measure metrics and consequential LCA 8. Consequential LCA 
+is ideally suited for IS2H4C because it allows studying system expansion and carries out more 
+comprehensive results compared to attributional LCA9.  
+Specific activities, KPIs and validation means  
+  
+- Prepare a resilience plan for H4C supported by circularity strategies to enable hub actors to tackle 
+shortAssociated with document Ref. Ares(2023)8308660 - 05/12/2023-term shocks such  
+as material and/or energy shortages  
+- Design optimized resource flows in H4C considering the Earth's resource capacity & limitations 
+imposed by regulations  
+- Implementing the objective functions for common good of hubs such as maximum renewable 
+energy use, fossil fuel savings, captured carbon, profit, etc., or minimum resource consumption, 
+waste discharge, carbon emissions, health impacts, infrastructure cost, etc.   
+- Achieve at least 30% carbon, 10% energy, and 20% overall resource (material/water/energy) 
+reduction in four demo H4C locations, aligned with the expectations of the Fit-for-55 plan of the 
+EC10  
+- The analysis of the biogenic CO2 from the wastewater treatment plant to produce bio-fuels.  
+ 
+8 Consequential-LCA (2015). The ISO 14040 standards for consequential LCA. Retrieved April 2023 from www.consequential-lca.org  
+9 Weidema B P (2014). Has ISO 14040/44 failed its role as a standard for LCA? J. Ind. Ecol. 18(3):324‑326  
+10 EC (2022). Fit for 55 Package. (2023): https://www.europarl.europa.eu/RegData/etudes/BRIE/2022/733513/EPRS_BRI(2022)733513_EN.pdf  
+
+ 
+  
+Project: 101138473— IS2H4C – Part B – 14  
+KPIs: 1 integrated circular hub management plan based on resource/energy optimisation scenarios 
+including a resilience plan based on future projections of supply and demand shocks for all hubs. The 
+environmental impacts of the future strategies are described in a four-year period as follows:  
+1. Basque Hub: The percentages are calculated in respect to either the given or estimated total 
+CO2 production of each industry in the Basque Hub. (1) Petronor’s main contribution to the hub is the 
+potential supply of H 2 and O 2 to the rest of the industrial processes. The potential annual carbon 
+reduction achieved by circular strategies will be around 5,506 tons (based on 2.9 million m 3 of natural 
+gas reduction). (2) Smurfit Kappa: potentially using the paper sludge to produce biomethane could result 
+in 37KT of CO2 reduction (8%). Also, by using the paper waste for bio-ethanol production with a potential 
+of generating 206l of bioethonal per 1000kg of paper waste and lignin for biofuels production, could 
+result in a new and very interesting business for these future bio-refineries. They could supply biofuels 
+to other industries and endorse circularity and decorbanisation.(3) Calcinor: Methanation results in a 
+CO2 reduction of 9.3 tons of CO2 (1.40%). (4) Sidenor: Using O2 and H2 for reheating the furnaces results 
+in 127,567 tons reduction of CO2 (14.79%).  
+2. Dutch Hub: (1) Wastewater treatment plant: The expected amount of total avoided CO2 emission 
+is 306 tons. It will save energy to treat around 400 million litres of wastewater. Approximately 8,000 tons 
+of O 2by-product can be reused thanks to treated water send to the electrolysis reducing energy 
+consumption by 18%. Meanwhile, the reuse of waste heat in the offices will avoid 34% of energy waste. 
+(2) Solar & wind energy: It will avoid 1,740 tons of CO 2. This benefits the surrounding residential areas 
+to reduce their carbon emissions by 65%. (3) Hydrogen fuelling stations: The stations with a capacity of 
+200-1,000 kg/day leading to a total carbon reduction of around 19,274 tons (assuming 70kW 
+electrolyser). The full-scale implementation of 5MW electrolyser will  generate 2 tons of hydrogen/day 
+avoiding around 20,000 tons of CO2/year based on five stations.  
+3. German Hub: The implementation plan will contribute to material reduction of 52,500 tons of 
+methanol/year and CO 2 reduction of 157,500 tons/year on average, when fully scaled up. Over the 
+course of the project, it will lead to an overall hub performance of 210,000 tons of methanol reduction 
+and 630,000 tons of CO 2 reduction. Further, 557.8 GWh/year energy input reduction is achieved. For 
+long-term implementation, the production of synthetic ethylene, acetic acid and methane can contribute 
+further to achieve the resourc e and emission reduction as follows: (1) Methane: 190,000 tons/year in 
+total material inputs and 570,000 tons/year in CO 2. (2) Ethylene: 460,000 tons/year in total material 
+inputs and 1,380,000 tons/year in CO 2. (3) Acetic acid: 80,000 tons/year in total material inputs and 
+240,000 tons/year in CO 2. Additionally, the future expansion of heat pump systems and ethylene 
+production will result in annual CO 2 reduction of 570,000 tons under the scenario with the maximum 
+capacity. This corresponds to 21% resource reduction, 10% energy reduction and 45.25% CO 2 
+reduction.  
+4. Turkish Hub: H2 manufacturing unit will generate 750 tons H 2/year with a minimal capacity of 
+5MW. When scaling up to the full scale of 20 MW in the future implementation plan, the hydrogen input 
+will be 3,000 tons H2/year. 1,000 tons of captured CO2/year and 3,000 tons H2/year produce 1,000 tons 
+of e-methanol/year replacing traditional methanol. Traditional methanol production causes 3 kg CO2/kg 
+methanol. Therefore, total savings thanks to e-methanol production are 4,000 tons/year (1,000 tons CO2 
+reduction thanks to carbon capture and 3,000 tons CO 2 reduction thanks to replacement of traditional 
+methanol).  
+Around 0.2 kg captured CO 2 is used in production of 1 kg of NIPU and 10 kg NIPU is required for 
+production of one fridge, leading to 2 kg CO 2 captured by one fridge. 1,000 tons of captured CO 2/year 
+allows production of 5,000 tons of NIPU resulting in production of 500,000 fridges. 1kg of NIPU replaces 
+1kg of traditional polyurethane. 1 kg polyurethane production causes 6.3 kg CO2 emissions. Accordingly, 
+the total savings thanks to NIPU production are: 32,500 tons/year (1,000 tons CO 2 reduction thanks to 
+carbon capture and 5,000*6.3=31,500 tons thanks to polyurethane replacement). Summing up first and 
+second scenarios: 35,500 tons of CO 2 reduction, 1,000 tons of methanol reduction, and 5,000 tons of 
+polyurethane reduction are achieved. Manisa factory of ARCELIK produces 500,000 fridges/year 
+consuming 5,000 ton polyurethane which means that 100% resource saving is achieved. Production of 
+1kg traditional methanol and 1 kg traditional polyurethane consume an average of 3 kg and 8 kg natural 
+gas, respectively. Accordingly, 9,000 tons natural gas from methanol and 40,000 tons of natural gas from 
+ 
+Project: 101138473— IS2H4C – Part B – 15  
+polyurethane production are saved, with a total of 49,000 tons of natural gas savings.  To accurately 
+estimate the potential environmental impacts of H4C, UT team undertook a preliminary evaluation 
+analysis. The methodologies of Greenhouse Gases Equivalencies Calculator were used and relevant 
+configuration data was retrieved from industrial partners.  
+  
+For the sake of simplicity, only the approximate end results are mentionedAssociated with document Ref. 
+Ares(2023)8308660 - 05/12/2023 above. The detailed calculations are placed in  
+GitHub repository12 as reference materials.  
+The scale up computations are provided in the following link: https://github.com/Yifei-Yu-
+UTwente/IS2H4C   
+Validation: Deliverables and tasks related to hub management plan (WP4), deployment of technologies 
+in demo hubs (WP6), and measurement of impacts via the integrated LCA module (WP7).  
+  
+
+ 
+  
+Project: 101138473— IS2H4C – Part B – 16  
+Objective 3: Facilitate the market penetration of H4C through novel financial schemes and social 
+innovation approaches unlocking public and private investment  
+IS2H4C includes the two key enablers for the success of the EU Green Deal to unlock non -technical 
+aspects of H4C: social innovation (objective 3a) and financial innovation (objective 3b). IS2H4C will 
+implement a social innovation action, giving the attention to the local community actors and involving them 
+from the beginning at local and EU level. This will safeguard the definition of stakeholder needs, knowledge 
+exchange, and definition of strategies to enhance the integrity of H4C. IS2H4C will provide each hub with 
+a customized business case comprised of innovative business and financial models for sustainability and 
+circularity via distributing investment costs and risks among the involved actors and will ensure the 
+replication of these models in diverse geographical contexts. H4C’s implementation and scalability across 
+EU are differentiated from existing business models and capitalise on emerging trends and technologies 
+in the circularity and ISN settings. This analysis will help to make wellinformed deci sions about business 
+models, increasing chances of success on a digital collaboration platform.  
+Specific activities, KPIs and validation means  
+Specific activities for social innovation (3a)  
+- Define a living lab of key regional stakeholders at each hub to analyse the local setting and regional 
+actors through the implementation of at least 30 interviews (at least one per key stakeholder group 
+per hub) to inclusively address the regulatory, political, ethical, and societal topics  
+- Establish expert discussion panels: 4 thematic panels - one per each hub involved and topic: green 
+industry, regulatory and political, ethical, and societal  
+- Achieve societal engagement and education via considering market needs for businesses, increasing 
+user/consumer acceptance of circular products/services, providing skills training for workers, and 
+educating all relevant stakeholders in innovative educational/experiential environments  
+- Propose a business case  that addresses the user/customer needs, explores new market 
+opportunities, increases competitive market advantage of involved parties in a cost-effective manner, 
+and ensures consumer acceptance of products/technologies developed within the project  
+- Offer skills training for workers in participating companies to accelerate the uptake of the 
+products/services/technologies embedded, so that an upscaling can be achieved via EU Social 
+Fund plus (ESF+) and a shift in skills development for sustainability/circularity can be achieved by 
+EU labour force  
+Specific activities for financial innovation (3b)  
+- Establish innovative circular business models in which environmental and social externalities are 
+accounted  
+- Challenge the "coopetition" nature of the IS business models13 where companies need cooperation 
+to achieve cost savings (e.g., reduce waste discharge cost) but also have compe tition to pay the 
+scant part of additional costs of running IS (so called 3T costs - waste treatment, waste 
+transportation, and transaction costs)  
+- Propose de-risking strategies  for required financial investments including risk-sharing and 
+incentivisation scenarios to reduce financial barriers for IS cases involving establishment and 
+integration of infrastructure  
+- Support investment plan unlocking the financial resources aligned with Processes4Planet 
+(objective#9)  
+- Ensure the scalability, commercialisation, and deployment  plans to be supported by funding 
+instruments such as Invest EU, Life, etc., via simulating different cash-flow scenarios  
+KPIs: 30 stakeholder interviews, 4 thematic panels, 4 business models through True Value 
+Methodology14, 4 financial plans  
+(one per business model) which will include projections of revenue, expenses (OpEx and CapEx), cash 
+flow, and profitability, 4 investment scenario (one per hub) aligned with 4 expansion and scale -up 
+strategy reports and 4 societal acceptance events to foster society-government-industry collaboration   
+Validation: Investment & financial risk management (WP5) and regulatory, and ethical management 
+and societal engagement in surrounding ecosystems (WP3). Both WPs are in tune and solid considering 
+the leadership of KPMG as financial expert in the financial sustainabili ty projects as one of the main 
+ 
+Project: 101138473— IS2H4C – Part B – 17  
+consultancies at global level, support of TUDO with their expertise in social innovation and regulatory 
+frameworks & UT's vast expertise in circular business models and institutional/human learning.   
+  
+  
+12 https://github.com/Yifei-Yu-UTwente/IS2H4C.git  
+13 Yazan, D. M., et al., 2020. Learning strategic cooperative behavior in industrial symbiosis: A game-theoretic approach integrated. Bus. Strat. 
+Env., 29(5), 2078–2091.  14 KPMG. (n.d). Valuing your impacts on society. https://assets-kpmg-
+com/content/dam/kpmg/ke/pdf/sustainability/KPMG-True-Value-brochure-electronicversion-pdf   
+Objective 4: Develop a digital collaboration platform for information-Associated with document Ref. 
+Ares(2023)8308660 - 05/12/20sharing and smart decision-support  23 
+The project will implement a user-friendly, scalable, and adaptable (to the needs of different industries and 
+regions) digital collaboration platform for H4C (DigitalH4C) consisting of a modular suite of tools, features, 
+and data analytics to facilitate the efficient and effective sharing of resources among participating 
+organisations. DigitalH4C will allow the participating companies to digitally manage shared infrastructure, 
+exchange information with each other regarding resource/waste/energy flows, observe real -time 
+operations of energy management within the hubs, matchmake for symbiotic opportunities and engage 
+with local communities in surrounding areas thanks to the developed smart decision -support tools to be 
+operated within the platform in a cyber -secure environment. IS2H4C will secure the basis for integrated 
+management and preservation of confidentiality of sensitive data through a cybersecure -by-design 
+approach15. The platform will also ensure the use of digital modelling tools and sensing systems as a basis 
+for dynamic resource ma nagement across the implementation of an innovate methodology toolbox to 
+evaluate the sustainability impact achieved by the H4C interventions through consequential LCA.  
+Specific activities, KPIs and validation means  
+- Develop a digital collaboration platform where hub actors can exchange information, monitor real -
+time business cases, and explore IS opportunities efficiently  
+- Establish smart decision -support tools 16 aligned with user needs to be integrated to the digital 
+collaboration platform, namely recommenders for symbiosis matchmaking 17, algorithms for supply 
+chain management, and algorithms for centralized and decentralized energy management 18 within 
+the hubs  
+- Implement consequential LCA in the platform to quantify environmental, economic, and social impact 
+of the project actions  
+- Ensure that the implementation uses a common semantic for data based on international standard 
+models so that interoperability and confidentiality of information exchanges are ensured  
+KPIs: (a) 8 smart decision -support modules (2 IS recommenders, 1 agent -based simulation tool, 1 
+consequential LCA module, 1 Digital Product Passport framework fed by data retrieved via sensing 
+technologies, 1 supply chain management tool 2 energy market management tools) (b) One modular, 
+scalable, secure micro-services-based web application that can be interfaced via desktops, tablets 
+and smartphone devices, and which is open (Application Programming Interface) for integration with 
+third party services (c) System Organisations Control (SOC 2) compliance: fulfilment of criteria for 
+managing customer data based on five “trust service principles”: security, availability, processing 
+integrity, confidentiality and privacy.  
+(d) At least 150 users accessing the platform at M48  
+Validation. All the decision-support tools are developed in WP4. Activities related to the development 
+of DigitalH4C are performed in WP7, D7.1, 7.2 ,7.3, 7.4 & 7.5. Several partners (IRIS, WORKDECK, 
+UT, ICCS) are already experts on designing, building, deploying, and maintaining digital platforms and 
+
+ 
+  
+Project: 101138473— IS2H4C – Part B – 18  
+have the expertise to deliver interoperable solutions according to specific criteria and needs and 
+supporting the most efficient decision-making needs such as the SHAREBOX platform19.  
+  
+Objective 5: Achieve a standardized top-down H4C design methodology, applicable as a reference 
+regional development model  
+IS2H4C will investigate how H4C can be top-down designed in the extended form of eco-industrial parks 
+using co-location strategies in a virtual setting and utilize such H4C as interoperable, expandable, and 
+interconnected regional development models  in accordance with Sustainable Development Goals 
+(SDGs).  
+Specific activities, KPIs and validation means  
+- Use existing symbiosis experiences data from all over the world (including public symbioses 
+databases such as MAESTRI20) to design virtual H4Cs under the concept of "perfect symbiosis"21 
+where no traditional inputs and wastes leak out of the H4Cs as a theoretical optimum state  
+- Approximate the four demo H4C locations to this theoretical optimum via using location optimisation 
+techniques22, social network analysis, nature-inspired solutions such as food web analysis.23  
+- Report the analysis on potential use of existing and to -be-implemented infrastructure (such as 
+transportation pathways, natural gas pipelines, or H2 pipelines) as expansion corridors for H4C and 
+utilisation of H4C as an interconnected and interregional functional unit for European 
+sustainable development  
+KPIs: (a) 4 virtual H4C prototypes will be produced with a mix of hypothetical components such as 
+process industry companies, service companies, energy/water infrastructure, houses, and living space 
+in urban/rural areas. (b) 4 regional  
+  
+15 Johnsson, D. B., Deogun, D., & Sawano, D., 2019. Secure By Design. Manning Publications. ISBN 9781617294358  
+16 Yazan, D. M., et al., 2022. Decision-Support Tools for Smart Transition to Circular Economy. Smart Ind. Better Manag. (Vol. 28), pp. 151-169.   
+17 van Capelleveen, G., et al., 2021. Exploring recommendations for circular supply chain management through interactive visualisation. Decis. 
+Support Syst., 140, 113431.   
+18 Trivella, A. & Mohseni-Taheri, 2022. Meeting Corporate Renewable Power Targets. Manag. Sci. 69, pp. 491-512   
+19 A.Spire aisbl. (2018, December 6). SHAREBOX: An Online Platform for Enabling the Next Generation of Industrial Symbiosis [Video]. YouTube.   
+20 MAESTRI. (2020). Symbiosis Space: Library of Case Studies & Exchanges Database. Retrieved April 2023  
+21 Yazan, D. M., et al., 2017. The design of industrial symbiosis: an input–output approach. J. Clean. Prod., 129, 537–547.   
+22 Genc, O., et al., 2020. Circular eco-industrial park design inspired by nature: An integrated non-linear optimization, location, and food web 
+analysis. J. Environ. Manage., 270, p.110866.  
+23 Genc, O., et al., 2019. A socio-ecological approach to improve industrial zones towards eco-industrial parks. J. Environ. Manage., 250, p.109507.  
+development scenarios will be reported building upon virtual H4C prototypes combined with real 
+regional settings of the Associated with document Ref. Ares(2023)8308660 - 05/12/2023 
+demo hubs. (c) 1 EU level H4C expansion plan, prepared considering the surrounding ecosystems of 
+the existing natural gas pipelines, new European H2 backbone, and transportation infrastructure.  
+Validation: Tasks planned for virtual H4C development in WP4 are executed by UT, expert in the field 
+of design of ISNs, transformation of industrial zones into eco -industrial parks, and use of ISNs as 
+regional development models both in urban and rural settings. Each hub representative (TEC, ALMELO, 
+PROV, and TUPRAS) will support the deliverables of regional development reports.  
+  
+
+ 
+Project: 101138473— IS2H4C – Part B – 19  
+Objective 6: Maximize wider uptake of IS2H4C’s results during and after the project’s execution  
+IS2H4C will adopt a multi-level outreach strategy (details in Section 1.2 -2.2) that will ensure an effective 
+exploitation and protection of research outputs in commercial (e.g., patent licensing, trade secret) and non-
+commercial activities (e.g., training materi als, policy feedback). To boost all Dissemination, Exploitation 
+and Communication (DEC) activities and their impact, an Open Science (OS) approach will crosscut the 
+development, balanced with a FAIR data management strategy based on the principle “as open as possible 
+and as closed as necessary.” This will enhance the research's impact while protecting the commercial 
+interests.  
+Specific activities, KPIs and validation means  
+- Elaborate exploitation plans for the project’s Key Exploitable Results (KERs), devising the upcoming 
+development activities to continue advancing the technology and business readiness level of the 
+different innovations and identifying the possible intellectual property (IP) protection options and 
+exploitation routes.  
+- Expand the H4C to additional parties within the IS2H4C hubs and in new hubs across EU.  
+- Actively disseminate the project results for conveying project KERs to targeted audiences and build 
+an active R&D community intricately linked to related initiatives. The ultimate purpose is to create 
+interactive co -learning spaces for the R&D and business  community through specific webinars, 
+conferences, etc.  
+- EU Community of Practice of H4Cs to diffuse best practices and achieve knowledge exchange.  
+- Cooperate through technical and scientific information exchange with other ongoing and future 
+projects working on the issue, so, synergies can be identified and boosted.  
+- Communicate with society at large key messages about the project and its objectives, the EU R&D 
+funds, and how they contribute to a better and more sustainable EU.   
+- Assist learning process: Using online serious games of IS 11 and circular economy transition1213 and 
+to-be-developed digitaltwins of four demo H4C of the project in Sustainable and Resilient Circular 
+Economy Laboratory (SRC -Lab)26 to educate students and teachers and to train policymakers, 
+company managers, and local communities to support learning process on H4Cs in the context of 
+EU social innovation.  
+- Produce at least 30 scientific papers to be published in open access high-impact peer-reviewed 
+journals;   
+- Organise at least 10 thematic workshops framed within dissemination & capacity building 
+activities;   
+- Produce at least 1 guideline supporting the H4C European Community of Practice (ECoP) and  
+engage at least 15 new H4C across EU, who also should benefit and multiply the local/regional 
+synergies in the co-implementation of the identified innovations and solutions within the next five 
+years.  
+- Produce at least 1 policy paper highlighting regulatory hurdles and correspondent contingency 
+measures  
+- Develop 4 digital-twins of demo H4Cs by an online game company and embedded in the SRC-
+Lab  
+- Using the digital-twins, 8 sessions of game play for company managers and governmental bodies 
+and 8 sessions of game play for students in educational settings will take place in the SRC-Lab.   
+- Train at least 350 students, 175 scientific assistants in workshops and knowledge-sharing with 15 
+new H4C across EU  
+- Reach 100+ companies engaged in IS2H4C Hubs and 500+ companies through consortium 
+partners, sister projects and advisory board members.  
+ 
+11 Fraccascia, L. et al. (2021) An industrial symbiosis simulation game: Evidence from the circular sustainable business development class. J Ind 
+Ecol. 25; 1688– 1706.   
+12 University of Twente (2023, April). Minor Circular Economy Transition. Retrieved April 1 2023.   
+13 University of Twente. (2023). Sustainable and Resilient Circular Economy Laboratory Homepage. Retrieved April 10, 2023.  
+ 
+  
+Project: 101138473— IS2H4C – Part B – 20  
+Validation: Dissemination, communication, and exploitation activities performed in WP8, D8.1, D8.2, 
+D8.3, D8.4 and D8.5. The leadership of WP8 by EEIP will ensure the technical success of the 
+dissemination, communication and exploitation of the results which will be enhance by the network of 
+the project’s partners as CHX leading the stakeholder engagement using their network and technical 
+partners across the project that are already coordinating and participating in key projects enhancing the 
+synergies. UT will use its vast expertise and online infrastructure at the development and execution of 
+online games to disseminate learning outcomes.  
+  
+  
+  
+  
+  
+ 
+Project: 101138473— IS2H4C – Part B – 21  
+  Associated with document Ref. Ares(2023)8308660 - 05/12/2023 
+1.2. METHODOLOGY & OVERALL CONCEPT  #@CON-MET-CM@# #@COM-PLE-CP@#  
+  
+OVERALL CONCEPT  
+IS is a symbiotic mechanism 
+through  which 
+ traditionally fragmented 
+industries collaborate based 
+on exchange and sharing of 
+energy,  water,  by-
+products, infrastructure, and 
+services. The goal is to 
+minimize environmental 
+impact and ideally add 
+economic and social value. 
+IS contributes to the 
+backbone of circular 
+economy seeking 
+opportunities to reduce 
+virgin material consumption 
+and waste generation. IS2H4C will apply and develop cutting-edge sustainable technologies in four 
+demo hubs resulting in H4C  
+through the utilisation of IS. This  Figure 2. IS2H4C's layered hub implementation strategy  
+process can be elaborated based on (1) three vertical levels, and (2) two horizontal directions. Vertical 
+levels: The three vertical levels are micro-level, meso-level and macro-level. First, IS2H4C focuses on the 
+symbiotic interactions at the micro level and aims to understand how IS individual behaviours can be 
+stimulated by enhancing societal engagement. Second, interorganisational IS networks (ISNs) emerge 
+as a systematic performance at a meso -level based on complex individual interactions. Integrating the 
+material and value chains among a multiplicity of previously independent actors leads to a complex 
+adaptive system. It demands for strong power and careful attention to coordinate such a system from an 
+operational perspective. Here, IS2H4C innovates Information Technologies (IT) -based solutions on an 
+integrated digital platform to manage IS networks holistically . Third, IS2H4C investigates how 
+different ISNs in the demo hubs contribute to the advancement of circularity at a macro level. This relates 
+to the future expansion of hubs and entails knowledge generalisation for European policymaking. These 
+three levels interact with and influence each other iteratively as H4Cs develop and evolve. Strategical 
+coordination power is implemented in a top-down manner while systematic emergence occurs bottom-up 
+(Figure 2). Horizontal directions: Two fundamental factors for realizing functional IS exchanges are the 
+spatial (geographical) proximity of industrial actors and the temporal availability of exchanged items. For 
+example, the utilisation of industrial waste heat is most efficient in proximity due to increasing heat losses 
+with longer transmission distances (spatial). The availability of renewable energy such as wind and solar 
+is intermittent and needs to be util ized when it is available (temporal). Therefore, symbiotic activities will 
+be most successful if spatial and temporal factors are carefully managed. IS2H4C includes all relevant IS 
+pathways and provides a comprehensive manual to establish H4C including industrial and urban areas. 
+By explicitly considering social engagement and the humancentred nature of H4C, IS2H4C ensures 
+benefits for the surrounding household areas and does not stop at the fence of industrial zones. For 
+instance, green hydrogen systems can reach far beyond the industrial area to fuel households for multiple 
+purposes. In summary, IS2H4C addresses fundamental issues of IS development and engag e diverse 
+stakeholders from a broad and multifaceted landscape including industrial partners and households.  
+  
+METHODOLOGY   
+To materialize the vision of a sustainable and resilient Circular Economy based on the concept above, 
+IS2H4C has designed a  
+48-month work plan composed of 8 Work Packages (WPs), which will allow the consortium to achieve the 
+objectives outlined in  
+
+ 
+Project: 101138473— IS2H4C – Part B – 22  
+Section 1.1. The plan revolves around 4 highly interconnected working phases: (1) Technology 
+development for H4C; (2) Sustainability of H4C; (3) Deployment and demonstration and (4) Outreach 
+Strategy. These phases are described below followed by a presentation of the four demonstration hubs.   
+ 
+Figure 3. IS2H4C's Methodology  
+  
+Phase 1: Technology development for H4C (WP2 & WP7)  
+The first phase is centred on the physical and digital technologies and their technical aspects to prepare 
+for deployment and demonstration in Phase 3. The work is carried out mostly in WP2 and WP7. For 
+technologies below TRL7, technology development will be carried out.  
+Identification of technologies characteristics (WP2): First, the capabilities of the physical technologies 
+available in H4C need to be identified. IS2H4C will catalogue technologies including existing technologies 
+at demonstration hubs and candidate technologies for deployment in Phase 3. The latter entails 
+technologies that still need to be advanced to TRL7 during the project but also technologies that ar e 
+commercially available at TRL7 and above. After the set of technologies is identified, simulation models of 
+the technologies will be developed for validation and determination of the techno-economical and physical 
+characteristics. These models will further act as basis for preparing surrogate models (simplified models 
+focusing on specific characteristics) that can be used in the decision support tools developed in Phase 2.  
+Technology development (WP2): Some of the technologies needed for the demonstration at H4C are 
+not at TRL 7 yet and as such will be scaled up to this level during the project. The TRL levels of the 11 
+process technologies are: one at TRL3, one at TRL4, four at TRL5, one at TRL6, two at TRL7, one at 
+TRL8, and one at TRL9. As lower TRLs require more work before demonstration in the field, their further 
+development is intensified in WP2.  
+Adaption of processes (WP2): IS2H4C investigates potentials for adaptation of physical processes in the 
+H4C to increase resource utilisation and/or reduce resource consumption and waste emissions. Adaptation 
+and redesign of processes enable the establishment of synergies at an advanced level. IS2H4C will 
+analyse the processes at the demonstration hubs to identify opportunities enhancing the level of circularity. 
+The partners in WP2 will propose solutions in terms of alternative process (co -) designs. Afterwards, the 
+designs are evaluated regarding sustainability and efficiency gains, and promising solutions will be 
+demonstrated in Phase 3, WP6.   
+DigitalH4C – IT infrastructure (WP7): Apart from the physical technologies, IS2H4C will develop IT 
+infrastructure in the form of a digital collaboration platform to facilitate the operational management of the 
+hub and interaction of hub participants. It will also support the environmental and economic analysis of the 
+H4C in terms of tracking the exchange of resources as well as data analysis and visualisation tools. The 
+goal is to develop a user-friendly, scalable, and adaptable digital platform (usable as a web application or 
+mobile application) that can be used in different hubs with different industries and stakeholders. Input from 
+WP3 regarding the needs of stakeholders will be considered such that citizens are engaged to the hub. 
+Associated with document Ref. Ares(2023)8308660 - 05/12/2023 
+ 
+Project: 101138473— IS2H4C – Part B – 23  
+State-of-the-art software development techniques will ensure a scalable and secure platform, which 
+includes using a microservices architecture (for scalability) and implementing security -by-design. 
+Ultimately, the platform will provide a secure basis for hub management while ensuring data protection and 
+compliance. IS2H4C will build on previous platforms implemented by the partners (as SHAREBOX, 
+Incubis, the BiowasteHub, among others) taking them to the next level in terms of performance and 
+functionality, not only providing a user interface and collaboration spaces for hub participants, but also 
+including the results from Phase 1 and 2 in the backend. The actual implementation of the outputs from 
+Phases 1 and 2 are carried out in Phase 3, while developing the general IT infrastructure is part of Phase 
+1.   
+  
+Phase 2: Sustainability of H4C (WP3, WP4 & WP5)  
+To realise the environmental and socio -economic impacts of the  IS2H4C value chain, WPs 3,4 & 5 will 
+ensure the sustainability of the H4C concept in three dimensions: societal, environmental & economic. 
+IS2H4C will develop models, methods, and guidelines for development and management of H4C. The 
+outcome of PhaseAssociated with document Ref. Ares(2023)8308660 - 05/12/2023 2 will support well-informed decision-making, 
+design,  
+and operation of H4C. Establishing this strong methodological foundation is expected to enhance the 
+probability of success beyond the project's completion, particularly for Digital H4C (WP7). IS2H4C will 
+provide a methodological basis for extending the hubs to additional parties and guidelines for the design 
+of new H4C. For this, IS2H4C approaches the dimensions as follows:    
+Societal sustainability (WP3): WP3 identifies relevant stakeholders that are affected by the H4C and their 
+needs, including companies, citizens living in the surrounding area of the hub, policy makers and the public. 
+WP3 also identifies non -technical (regulatory, ethical, societal) challenges and barriers that arise in 
+connection with the establishment of H4C. Relevance will be given to the local community actors through 
+social living labs and involving them at local and EU level (desk research, interviews, discussion panels). 
+These activities will also provide the opportunity for the definition of needs, knowledge exchange between 
+different stakeholders as well as definition of best strategies based on the stakeholders' needs. Apart from 
+the stakeholder ana lysis and engagement, WP3 establishes measures for increasing trust among 
+stakeholders (through standardisation and policymaking) and analyses the regional/societal impact of the 
+H4C (Societal Readiness Level, regional input -output models). The results wil l be collected in a general 
+guideline for integrating non-technological aspects into H4C.  
+Environmental sustainability (WP4) : WP4 addresses environmental sustainability by establishing a 
+digital database of resources and developing methodologies for operating and expanding H4Cs. This 
+includes 2 IS recommenders (matchmaking algorithms) for identifying and facilitating industrial symbiosis, 
+logistics optimisation models, energy management algorithms including energy market interaction, digital 
+product passport for tracing resources, and agent-based simulations for developing hubs bottom-up. The 
+environmental impact of the concept is assessed, and expansion scenarios are analysed to provide a basis 
+for future plans on adopting H4C as sustainable regional development models.   
+Economic sustainability (WP5) : WP5 develops business and valuation models to ensure commercial 
+attractiveness of H4C. This includes impact valuation using KPMG's True Value methodology, AI models 
+for financial credit risk assessments and valuation of business opportunities, and design of IS impact 
+metrics. It proposes financial and business models focused on sustainability and societal impact, enabling 
+simulation of scenarios with incentives. The results support a comprehensive financial plan for 
+implementing the concept and determining its viability.   
+A range of AI methods, including supervised, unsupervised, reinforcement learning, and recommender 
+systems, will serve diverse purposes: (1) Enhancing the recommender system algorithm for IS 
+collaboration (D4.2); (2) Developing a modeling system that chara cterizes resources, energy flows, and 
+IS (D4.1); (3) Evaluating financial investments, credit risks, and the value of sustainable and circular 
+business opportunities (D5.3). Importantly, these three groups of AI applications can utilize not only 
+individual enterprises but also encompass process/energy technologies and infrastructure within the H4C 
+data. Moreover, AI will be used in the DigitalH4C platform to streamline IS identification, coordination, and 
+ 
+Project: 101138473— IS2H4C – Part B – 24  
+evaluation (WP7). Throughout all AI -based methodologies, IS2H4C will align with EU norms concerning 
+AI utilization, data protection, and GDPR regulations.141529  
+In WP4 Models for H4C development  the project will implement techniques from Artificial Intelligence (AI), 
+Operations Research, and Agent-based Simulation for the development of an agent-based simulation tool that enables 
+the analysis of future scenarios of hub evolution; the AI will simulate different scenarios and their potential outcomes, 
+based on different inputs and assumptions in order to help inform decision making. In addition, in WP5 Business and 
+financial models, AI models will be developed capable of assessing financial investment, credit risk evaluation, and 
+valuation of sustainable and circular business opportunities, whereby fair and accurate AI frameworks will be used 
+that are capable of assessing the risk level of retail and commercial customers in H4C settings and accurately 
+predicting the valuation of H4C’s assets. These intelligent components will be deployed in the Digital Collaboration 
+Platform in WP7 Digital Collaboration Platform for H4C.  
+It will ensure that these developments adhere to legislative requirements of the EC’s Artificial Intelligence Act 
+(published on 21 April 2021), which governs the development and use of AI within the EU and outlining rules & 
+actions based on the principles of transparency, accountability, and human oversight. We will ensure that our AI 
+developments and associated tools are:   
+(1) lawful - respecting all applicable laws and regulations  
+(2) ethical - respecting ethical principles and values; we will follow the Ethics Guidelines for Trustworthy Artificial 
+Intelligence to ensure we deliver trustworthy AI (and covering such issues as data privacy, transparency, 
+accountability, and bias)  
+(3) robust - both from a technical perspective, while taking into account its social environment and context, as well 
+as reliable and explainable. To ensure the reliability, it is important to ensure its accuracy and reproducibility, as 
+well as its ability to handle and inform about potential failures, inaccuracies, and errors. This can be achieved 
+through testing the AI system with various scenarios to identify and address any weaknesses or vulnerabilities. 
+Additionally,  
+  
+ 
+14 https://commission.europa.eu/law/law-topic/data-protection_en  
+15 https://digital-strategy.ec.europa.eu/en/policies/european-approach-artificial-intelligence   
+29 https://gdpr-info.eu/  
+ 
+Project: 101138473— IS2H4C – Part B – 25  
+monitoring the AI system for unexpected behaviour or changes in the problem domain can help to ensure its ongoing 
+Associated with document Ref. Ares(2023)8308660 - 05/12/2023 reliability. In some cases, a hybrid approach that combines the strengths 
+of AI with human oversight may be necessary to address complex or ambiguous situations. In relation to explainable 
+AI, we will explore such strategies as: decision trees or linear regression models; breaking down the model's decision-
+making process; explaining th e models limitations; providing context; providing access to the training data, among 
+others.  
+  
+Phase 3: Deployment and demonstration (WP6 & WP7)   
+After deployment of the technologies and preparation of the digital collaboration platform, Phase 3 includes 
+the actual demonstration in the four demo H4C (WP6) and implementation of the DigitalH4C (WP7). The 
+data from the demonstration will be used for analysis and dissemination (WP8) as well as feedback into 
+WP2,3,4&5 developed in Phase 1 & 2. The demonstration will support the validation of the IS2H4C’s 
+concept including technologies and a suite of tools in the digital collaboration platform. The four H4C are 
+in different regions of EU, have different maturity levels of H4C (regarding degree of collaboration, industrial 
+sectors, existing infrastructure), and have geographic diversity (in terms of combination of rural, urban, and 
+industrial areas). As such, these hubs present unique challenges that can help to aggregate the f indings 
+to extend the reach of the hub and further enhance local/regional synergies. These insights will be used in 
+Phase 4 for expansion planning and exploitation activities.  
+  
+Phase 4: Outreach (WP 8)  
+The aim of this last phase is to maximise the impact of the IS2H4C results and ensures the achievement 
+of the expected outcomes. Methodologies developed in Phase 2 and the data obtained from the 
+demonstrations in Phase 3 support exploitation plans in Phase 4.  The associated strategy will consist of 
+(further elaborated on Section 2.2):  
+Dissemination and communication:  A detailed dissemination and communication strategy will be 
+developed targeting specific audiences, including industry stakeholders (Section 2.1). This fosters a 
+collaborative innovation ecosystem around the project, enhanced by clustering and cooperation  with 
+related projects and sister initiatives. The connection with them will be a key pillar considering the 
+participation of key partners in the consortium, such as CIRCE who are coordinators of projects like 
+REDOL.   
+Expansion: of the H4C to additional parties within the IS2H4C’ hubs as well as in new hubs across the 
+EU. The guideline supporting the H4C EU Community of Practice (ECoP) will focus on the engagement of 
+at least 15 new H4C across the EU, who also should benefit and multiply the local synergies in the co -
+implementation of the identified innovations and solutions within the next five years. The participation of 
+Crowdhelix will significantly enhance this specific objective sup ported by their network across the EU 
+focused on Impact in Industrial Circularity.  
+Exploitation: To ensure the post -project final TRL step towards market deployment, commercialisation 
+and industrial uptake of the developed solutions, IS2H4C will define attractive business models and 
+feasibility studies for the adoption of IS2H4C’s innovations. The necessary IP provisions will also be 
+defined, as well as the post-project exploitation strategy to be followed in terms of technical, financial, and 
+legal preparedness.  
+Capacity Building: Tailored skills development activities will be organised to foster knowledge transfer, 
+including the development of e-learning resources and thematic webinars/workshops. These activities will 
+be targeted both at students and working professionals to contr ibute to improve the attractiveness and 
+awareness of career opportunities in H4Cs.  
+  
+Description of the IS2H4C demonstration hubs  
+The four demo H4C including their facilities, partners, focus industries and TRLs, and surrounding 
+ecosystems are presented below. A flow diagram for each hub is presented to display what processes 
+already exist ( BLUE COLOR), which synergies are demonstrated within the project ( GREEN COLOR), 
+and which processes/synergies will be studied as hub expansion plans ( ORANGE COLOR).  The flow 
+diagrams visualise the demonstrated synergies mentioned in Objective 1 and studied expansion 
+
+ 
+Project: 101138473— IS2H4C – Part B – 26  
+opportunities. The reader is referred to the workplan, specifically WP2 and WP6, for more details of the 
+demonstrated synergies and hub expansion studies.     
+ 
+Description:Industriepark Höchst has a long tradition as one of the largest, well -established sites for the 
+chemical and pharmaceutical industry in Europe. In total, 90 companies from the pharmaceutical, 
+chemical, biotechnology and services sector are located on its s ite close to the city of Frankfurt. At 
+Industriepark Höchst, the existing Process4Sustainability cluster aims to reach CO2 neutrality for individual 
+companies located in Industriepark Höchst by further developing and demonstrating CCS, CCU, H 2, bio-
+based resources and heat pump technologies to establish PtL (power to liquid), PtG (power to gas), PtX, 
+electrolysis of water, H 2 for FC-trains, and CO 2 as raw material for chemicals, amongst other innovation 
+ideas. On its way towards climate neutrality and new business models, the hub nowadays integrates 
+innovative start-up companies, pilot and demonstration plants for PtG, PtL and power to chemicals (PtC), 
+and first-of-its-kind plants for sustainable technologies.   
+IS2H4C will use the existing infrastructure (see Fig. 4) chemical production, energy production, wastewater 
+treatment and hydrogen production. The flow diagram shows the synergies to be demonstrated stated in 
+Objective 1, namely the use of captured CO 2 from energy production and H 2 from electrolysis for e -
+methanol production to replace traditional methanol used by the industry partners in the hub.  IS2H4C will 
+also study the following possibilities for hub expansion: 1) Use of captured CO2 and H2 for ethylene, acetic 
+acid, and methane production. 2) Use of waste heat in district heating systems for urban symbiosis and 
+boosting waste heat by heat pumps for high -temperature use in the industry, both replacing the need of 
+fossil fuels for heat production. 3) Wa stewater utilisation for hydrogen production using membrane 
+distillation and electrolysis (11). 4) Microwave -assisted Hydrothermal Carbonisation based on biogenic 
+waste from the chemical industry as input to hydrogen production. Due to the history of the industrial site, 
+many established processes already offer a high TRL, such as waste -water management, energy 
+efficiencies and shared operations from different companies at the site. H 2 is an intermediate technology 
+with TRL6 as of today. New approaches, such as carbon capture not being present at this stage. Overall, 
+with this deployment TRL level of the site is expected to go from 5 to 7, by the end of the project.  
+IS2H4C partners: From the Process4Sustainability cluster, the following partners will join the IS2H4C 
+directly Infraserv Höchst (Service operator of industrial site), CIRCE, AEE and INEGI. The other partners 
+BAYER, Celanese, Kuraray, Sanofi support the proposal with expansion strategies.   
+    
+Basque hub: Basque Industrial Hub for Circularity, Spain   Associated with document Ref. Ares(2023)8308660 - 
+05/12/2023 
+German hub: Industriepark Höchst (Process4Sustainability), Germany 
+  
+Figure 4. German Hub flow diagram 
+  
+Associated with document Ref. Ares(2023)8308660 - 05/12/20 
+23 
+ 
+Project: 101138473— IS2H4C – Part B – 27  
+ 
+ Figure 5. Basque hub flow diagram    
+  
+In the Basque hub, three extra expansion synergies will be studied in order to complete the hub with 
+(waste)water use and bioenergy production scenarios (these synergies are shown in red color). These 
+technologies will not be deployed but only studied as potential hub expansion scenarios.  
+  
+Description: The Basque Industrial Hub for circularity (BIH4C) constructs upon the foundations settled to 
+speed up the decarbonisation of the industry by 2050 (Basque Government's NZBIS initiative 16  and 
+Basque H2 corridor31). The Basque Country, a strong innovator region with a high industrial concentration, 
+has already identified a series of symbiosis (image below) between different sectors, that will present a 
+relevant consumption, materials and emissions reduction.   
+The hub includes steel, cement, lime, oil refining and pulp & paper industries (see Fig. 5) as well as already 
+existing technologies for wastewater treatment, waste pyrolysis, electrolysis, e -fuel production in 
+transportation. IS2H4C will demonstrate (see Objective 1) using either O 2 resulting from electrolysis for 
+oxycombustion or hydrogen in steel production (and evaluate oxycombustion in other industries as 
+expansion plan) to reduce fossil fuel consumption. Captured CO 2 will be utilized in lime production 
+(demonstrated) as well as cement and oil industry (expansion study). Furthermore, steel slag and CO2 will 
+be used in carbonation to produce construction products for the cement industry (demonstrated). In an 
+expansion study, IS2H4C will investigate how biocoke and biogas, produced from urban waste in the 
+pyrolysis plant, can replace coal-based coke in the cement, lime and stell industry and natural gas in the 
+process industries (lime, cement, oil, pulp and paper, foundry and steel), respectively. Finally, the use of 
+H2 in these industries is also considered additional hub expansion synergy. The BI H4C starts with TRL5 
+(existing H2 pipeline and companies with electrolysers) and will account for a systemic TRL 7 by the end 
+of the project. The technologies (CCU, oxycombustion and H2) and suitability of the use and production of 
+ 
+16 Grupo SPRI. (2023, February 7). Net-Zero Basque Industrial Super Cluster - SPRI Group. SPRI. https://www.spri.eus/en/support/net-zero-
+basque-industrial-super-cluster/  31 Basque Hydrogen Corridor BH2C (n.d.) About us. Retrieved February 22, 2023, from from 
+http://www.bh2c.org/en/about-us   
+
+ 
+Project: 101138473— IS2H4C – Part B – 28  
+these circular subproducts and gases, will be validated in real industrial environments (TRL7), and 
+accompanied with the potential collaboration and business schemes between these industries, the Hub 
+will be able to achieve a systemic higher TRL (TRL7).  
+IS2H4C partners: TECNALIA, PETRONOR, NORTEGAS, Smurfit Kappa Nervion, Basque Energy 
+Cluster, SIDENOR, SIDENOR I+D SA, LOINTEK, CALCINOR, Consorcio aguas Bilbao, SBS  
+  
+  
+ 
+Figure 6. Turkish hub flow diagram  
+Description: The Turkish hub is an industrialized port area in the Izmir-Manisa area at the Aegean coast 
+containing oil and gas (Tüpras) and household appliances companies (Arcelik). IS2H4C will consider the 
+existing oil refineries, fridge production facilities and H 2 production from renewable energy (see Fig. 6). 
+The demonstration in the project (see Objective 1) includes the utilisation of the produced H2 for e-methanol 
+production replacing traditional methanol as input to the oil refineries. Additionally, captured CO 2 will be 
+used as input to non-isocyanate polyurethane production which again is used in fridge production instead 
+of traditional polyurethane. Possibilities for expansion strategies studied in the Turkish hub include storage 
+for O 2 from electrolysis offered to other users and provision of H 2 via a fuel station and H 2 trucks to 
+consumers reducing the need for non-renewable resources. TUPRAS, the biggest industrial enterprise in 
+Türkiye, aims to install and operate 120 MW electrolyser capacity until 2040 and 1.5 giga -watt (GW) 
+electrolyser capacity until 2050 (producing around 135,000 million ton (Mt) green H2 per year). As outlined 
+in the recent “Strategic Transformation Plan”, the company is committing to reduce its carbon emissions 
+(6 million ton CO 2/ year) gradually, and to becoming carbon neutral by 2050, which requires focusing on 
+energy efficiency and expandin g into new areas. Moreover, TUPRAS plans new renewable energy 
+investments (solar power plant) to meet the need for clean energy sources for green hydrogen production 
+up to 2050’s targets. TUPRAS has four different refineries which are in İzmir, İzmit, Batman and Kırıkkale. 
+Refineries have, high purity and good quality hydrogen producer units, consumer units and purge systems. 
+Production and consumption units of pure hydrogen through steam methane reforming (99.99 vol.%) and 
+hydrogen rich gas (~91 vol.%) exi sts in three refineries (Kırıkkale, İzmir, İzmit) of Tüpraş which are all 
+located in Turkey. TUPRAS has a demo scale (TRL6) CC unit in Izmit refinery which has been developed 
+and installed in the EU project MOF4AIR. In IS2H4C, the CC unit is moved to Izmir Refinery to capture 
+CO2 on site. It has capture capacity of 10-15 kg CO2/h. Water electrolysis at TRL9 will be implemented to 
+produce green H 2, which is further used for e -methanol. E-methanol is also an intermediate product for 
+NIPU production. Fraunhofer has a TRL8 technology for NIPU production, which will be demonstrated in 
+refinery conditions. In total, the NIPU process will be developed from TRL3 to TRL7.  
+IS2H4C partners: Tüpras, Arçelik, Fraunhofer   
+  
+Turkish Hub: Izmir 
+- 
+Manisa area, Turkey 
+  
+  
+ Associated with document Ref. Ares(2023)8308660 - 05/12/20 
+23 
+ 
+Project: 101138473— IS2H4C – Part B – 29  
+Dutch Hub: Almelo and H2Hub Twente  
+ 
+  
+Description: H2Hub Twente is a physical place where entrepreneurs, governmental organisations, 
+researchers, and knowledge institutions collaborate to develop applications of hydrogen technology. 
+Knowledge and experience are gained through research and infrastructure te st projects. Applications 
+include setting up (pilot) projects in the field of generation and storage, mobility, hightemperature 
+combustion, industrial processes, and applications in the built environment. Almelo Energy is the first of a 
+kind Positive Energ y District in Twente, the Netherlands, to lead the energy transitions in the 
+neighbourhoods they serve. Positive Energy Districts include the introduction of natural gas free 
+neighbourhoods, will allow for local balancing reducing energy distribution over longer distances, facilitate 
+peak shaving and load shifting using concepts of demand response and reduced  
+  
+Figure 7. Dutch hub flow diagram 
+  
+
+ Associated with document Ref. Ares(2023)8308660 - 05/12/2023 
+Project: 101138473— IS2H4C – Part B – 30  
+curtailment of RES, and district-level self-consumption. The Dutch Hub has existing infrastructure for 
+H2 production from solar energy, wastewater treatment, office buildings and a crematory. IS2H4C will 
+demonstrate the following synergies (as described in Objective 1): using O 2 from H 2 production in 
+wastewater treatment and treated water again as input to the H2 production closing the loop and avoiding 
+the use of other water resources (in a region prone to water scarcity), utilizing H2 instead of natural gas in 
+the crematory, establishing energy storage for wind energy to be used in green H 2 production, and 
+distributing H2 via pipelines to five residential houses for H2 boilers in the village Aadorp substituting natural 
+gas for heating purposes. IS2H4C will also explore opportunities for the Dutch hub: 1) Using manure from 
+existing cattle farming for biogas production which can replace natural gas in a combined heat and power 
+plant (CHP) for electricity and heat distributed in Almelo. 2) Recovery of waste heat from electrolysis for 
+space heating in office buildings removing the need for natural gas boilers. 3) Distribution of H 2 via fuel 
+stations and truck transportation to consumers and logistics companies replacing fossil fuels. Waste heat 
+recovery (from TRL5 to TRL7), oxygen use in waste water treatment (from TRL8 to TRL9), use of water 
+from wastewater treatment in electrolysis (from TRL6 to TRL8).  
+IS2H4C partners: In the consortium: UT, H2Hub Twente, Solenco Power, Almelo Energie. In the H2Hub: 
+Schroder Vastgoed, Powerspex, Cogas, VDL, Gas Unie, Siemens energy, Gemeente Almelo, Coteq, 
+Alliander, Sensata Technologies, Ondernemers Bedrijvenpark, Dorpscooperatie Aardorp, DEMCON, 
+Remeha, and Province Overijssel.   
+  
+1.3. RELATED RESEARCH AND INNOVATION ACTIVITIES  
+A summary of the key projects in which the partners have participated, and the relevant outputs that will 
+be used in the IS2H4C are listed in Table 1. Additionally, IS2H4C will prepare a detailed and well 
+provisioned clustering strategy so the research plan is executed in coordination with other projects (those 
+funded on the same topic, the ongoing ones, or in complementary topics). Moreover, it will exploit all the 
+relevant links of the partners to maximise the outreach to the industry beyond the involved companies, 
+thanks to partners participating in similar projects.   
+Table 1. Related R&I projects and initiatives  
+Project (partners)  Link to the project proposal  
+REDOL (2022-2026);  
+ (CIRCE, EEIP, ICCS)  
+REDOL redesigned 5 value chains (packaging, plastics, textiles, electronic waste, 
+construction) resulting in 12 circular products. The processing routes method utilised in 
+REDOL will enhance IS2H4C’s logistics.     
+SHAREBOX 
+(20152019); H2020 
+SPIRE  
+(IRIS, UT)  
+SHAREBOX developed a secure ICT platform for the flexible management of shared 
+processes resources that provided plant operations and production managers with the robust 
+and reliable information needed in real-time.  
+The experience gathered will enhance the development of the digital collaboration platform 
+in IS2H4C.  
+CORALIS (2020 -
+2024); (CIRC, ICCS, 
+EEIP)  
+Execution of real IS initiatives and the prevention of obstacles faced by these initiatives, 
+addressing technical, managerial and economic factors that set the basis for definition of the 
+IS readiness level.   
+DIGINTRACE 
+(20232026); HE 
+(ICCS)  
+The traceability methodologies & data gathering towards sustainability and circularity 
+gathered will be provided to IS2H4C for the development of the digital collaboration 
+platform & the traceability of value chains.  
+COREALIS (ICCS)  
+COREALIS introduces circular economy models into the strategy and operations of ports to 
+create efficient connections with the hinterland transport network and enhance decision 
+making. The decision -making knowledge gathered will be provided to IS2H4C for the 
+development of the digital collaboration platform.    
+CIRC4LIFE (ICCS)  
+CIRC4LIFE demonstrates an eco -innovative circular economy approach for sustainable 
+products and services through their lifecycles. The ICT platform (developed by ICCS) 
+facilitates data exchange between stakeholders along the value chain and could be a 
+reference for some of the functionalities of the the IS2H4C Digital Platform.   
+H4C EUROPE 
+(2022- 
+2026); HE (CIRCE)  
+Provides a community, knowledge platform and exchange structures that will help existing 
+and future hubs (such as IS2H4C Hubs) in creation, management, and growth   
+ 
+Project: 101138473— IS2H4C – Part B – 31  
+FLEXINDUSTRIES  
+(2022-2026); HE  
+(CIRCE)  
+Builds a holistic multi -disciplinary and multi -scale approach fostering its 7 multi -sector 
+energy intensive industries. The methodology utilised to select the most suitable Energy 
+Efficiency Measures could be useful for IS2H4C’s resource and waste management.     
+RE4Industry 
+(20202023); H2020 
+(CIRCE,  
+EEIP)  
+Supported energy intensive industries in the identification and integration of renewable 
+energy solutions through a network of stakeholders and market actors. The logistics behind 
+RE4Industry and the methodology to identify solutions could enhance IS2H4C results.   
+NEFI (2017-2026) 
+(MUL)  
+The project’s cluster demonstrates that energy technologies developed in Austria can 
+enable 100% renewable energy supply for selected industrial sites and that energy transition 
+towards a low -carbon energy system can be reached. MUL can provide useful insi ght to 
+optimise green energy technologies and accelerate the transition in the hubs.   
+AI-CUBE (2020 -
+2023); H2020 (IRIS, 
+ZLC)  
+Defined a roadmap in AI and use of big data for the process industries, which could be useful 
+to optimise data exchange between industries in the IS2H4C hubs.   
+FuelSOME (2022-
+2026) (AEE)  
+Conceptualisation of new multi-fuel supply chain pathways and development of a software-
+based modelling and KPI based optimisation of a multi -fuel supply backbone concept to 
+ensure sustainable supply pathways for the FuelSOME concept.  
+The core concept is to design, synthesise and test the MOF Associated with document Ref. Ares(2023)8308660 - 05/172/2023-
+based materials against flue gas compositions of  
+MOF4AIR (2019-2023); refinery and waste -to-energy industries for CO 2 capture using adsorption technology on 
+real industrial H2020 (TUP) environment (TRL6). Tüpraş will be hosting one of the demonstration units in its 
+premises after carrying out necessary infrastructural studies and conduct elaborate performance test studies  in 
+2023.  
+  
+1.4. INTER-DISCIPLINARY APPROACH, SOCIAL SCIENCE AND HUMANITIES  
+Addressing the above challenges requires a holistic and interdisciplinary approach. IS2H4C is aware of 
+this complex socioecological scenario where these value chains operate. Therefore, IS2H4C engages 
+multidisciplinary academic partners, producer and processor companies, as well as experts in technology 
+and innovation trends and cross -regional exploitation. The wide variety of profiles involved in the 
+consortium and their expertise is framed in  three main areas. (1) Scientific and technical disciplines: 
+mathematicians, industrial processes experts, industrial parks managers, technical and life sciences 
+experts, environmental scientists, and ICT engineers, brought mainly by the academic and research 
+partners as well as industrial partners in IS2H4C. (2) Social science and humanities disciplines:  
+sociology, social science and technology studies, economics, and policy studies (TUDO, UT, and KPMG). 
+(3) Business disciplines: EEIP , KPMG, CHX and UT address economic and financial aspects of H4Cs, 
+such as finance and  investment, human resources, skills and labour market, end -users’ demands and 
+behaviours. The IS2H4C’s methodology will foster cross-fertilisation among disciplines, stakeholders, and 
+regions, enabling a close interaction between actors throughout the whole innovation process leading to 
+multi-actor and interdisciplinary results.  
+  
+ 
+17 .6. AN INTEGRATED APPROACH TO DATA MANAGEMENT AND OPEN SCIENCE  
+The IS2H4C consortium will systematically follow best practices for Open Science (OS) to improve the 
+quality, efficiency, and responsiveness of research. These practices include the FAIR Data Principles  
+(Findable, Accessible, Interoperable, and Reusable data) and the Responsible Research and Innovation 
+(RRI) methodologies. IS2H4C will share and transfer results between relevant actors from the point of 
+generation, facilitating the availability of research outputs, research continuation and contributing to the 
+fulfilment of the project’s objectives. UT, as Data Manager, will elaborate and distribute a comprehensive 
+Data Management Plan (DMP) by M6, providing guidelines for data management under the premise of 
+“protecting and ensuring that any relevant information that may compromise the added value of exploitable 
+results and outcomes will not be disclosed.” This DMP will allow the project partners to manage research 
+outputs following the FAIR principles (Article 17 of the HE Model GA) and OS practices while ensuring the 
+adequate exploitation of the IP generated and other justified legitimate interests. The DMP will cover the  
+
+ Associated with document Ref. Ares(2023)8308660 - 05/12/2023 
+Project: 101138473— IS2H4C – Part B – 32  
+1.5. GENDER DIMENSION  
+Aligned with the principles of the Processes4Planet, IS2H4C ensures gender equality and diversity by 
+integrating sex and gender analysis into research and innovation activities. This analysis will identify 
+potential barriers or inequalities towards a successful and inclusive outcome from the following three 
+perspectives. (1) From a behavioural perspective , gender norms impact actor's behaviours in the 
+industry, which may lead to gender -based differences in decision -making around sustainability and 
+circularity. (2) From a representation perspective, a gender analysis can identify potential barriers or 
+opportunities for promoting circularity. Understanding these issues help us to analysis the 
+underrepresentation of women and gender-specific barriers in accessing funding or training opportunities. 
+(3) From a decision-making perspective: Female decision-makers may bring different perspectives on 
+issues related to sustainable development, social responsibility, and community engagement, it could 
+ensure that there are opportunities for female decision -makers to participate in the governance and 
+decision-making processes. IS2H4C actively promotes gender equality and diversity in the industry 
+ensuring women and other underrepresented groups have equal opportunities to participate in and benefit 
+from circular initiatives. In support of the European Strategy for Gender Equality 2020– 2025, IS2H4C will 
+implement a Gender Equality Plan to promote gender equality and adapt spaces for learning to enable 
+improvements at an organisational level. The plan will consist of four tasks: (i) Gathering and utilising data 
+samples that are balanced in terms of gender and other inclusion considerations (age, disabilities, etc.). 
+GDPR and consent will govern data collection and use; (ii) Tracking diversity-related issues by evaluating 
+if the H4C establishment benefits all stakeholders, regardless of gender and background and by building 
+human-centric AI frameworks that are transparent, reliable, and impartial (WP1); (iii) Offering  inclusi ve 
+possibilities for commercialising energy based on ethnicity and race, social class, human physical 
+parameters, gender identity, sexual orientation, disability, and age; and (iv) Ensuring diversity and 
+inclusiveness in the project management and within t he WP teams. IS2H4C contains a diverse group 
+committed to inclusive policies. The current members are individuals from different gender, nationalities, 
+and ethnicity. Moreover, IS2H4C is committed to promoting diversity in hiring Ph.D. students and 
+postdoctoral research and supporting the industrial partners of the consortia in adopting similar strategies. 
+Therefore, IS2H4C considers the gender dimension in all tasks related to data collection, hubs 
+perspectives evaluation, societal impacts, and market uptake of proposed innovations. Moreover, 
+communication, dissemination, and exploitation activities will also be gender -sensitively addressed and 
+mainstreamed. To increase the visibility of minorities and provide role models for future generations, efforts 
+will be made to encourage balanced participation in every event organized. Likewise, educational materials 
+and capacity building initiatives will contribute to reducing the gender gap in industrial sector by providing 
+cutting-edge skills increasingly rewarded by the labour market.    
+  
+complete execution and foreseen tasks of the project and provide recommendations for post -project 
+management data strategies according to each partner’s role and type of generated data. By embracing 
+OS as a part of its research lifecycle, IS2H4C will improve the reproducibility and transparency of the 
+project’s outputs.   
+Open Access (OA) to scientific publications ease the access for knowledge -based industry and 
+accelerating the innovation pace and delivery time to market. The IS2H4C consortium is committed to 
+ensure full and immediate Open Access to peerreviewed scientific publications related to their research 
+outputs, according to Article 17 of the HE Model Grant Agreement. The knowledge, outputs, tools, and 
+instruments gathered fr om this deployment will be free and available OA for the public (considering IP 
+restrictions) following the “as open as possible and as closed as necessary” principle at the latest upon 
+and will be deposited in a trusted repository (ZENODO), under the Creative Attribution International Public 
+License (CC BY). Likewise, public deliverables will b e made available as soon as approved by the EC. 
+Parallelly, the consortium will be encouraged to publish on the Open Research EU (ORE) platform.  
+Type of data and research outputs: IS2H4C will generate data and research outputs from technological, 
+societal, and financial disciplines Technological data will be associated with the types of technologies 
+developed/integrated, main metrics related to their technical development/integration, and  their 
+performance/operation capabilities. The societal and financial data will be collected based on the 
+engagement and participation in the digital platform, adoption of the use of new technologies or practice 
+of industrial symbiosis in any form with the hubs or in their surroundings, and business and financial 
+institutions (e.g., collaboration rate to the H4C). A complete definition of the data sets (name, purpose, 
+ 
+Project: 101138473— IS2H4C – Part B – 33  
+formats, use of existing data, expected size, utility, etc.) will be provided by M6 and updated during the 
+reporting period and whenever significant changes arise.  
+Findability of data and research outputs:  Specific metadata templates will be defined to describe, 
+discover, and trace existing data collected and/or generated by the project. Specific metadata fiches will 
+be made publicly accessible. The metadata will be used to describe datasets, including specific keywords 
+to allow for refined search across datasets. The bibliographic metadata will at least include the following: 
+(i) the terms “European Union” and “Horizon Europe”, (ii) the IS2H4C, acronym, and grant number, (iii) the 
+publication date and length of embargo period if applicable, and (iv) the persistent identifier. The data 
+generated during the project will be deposited in ZENODO, a cloud -based repository federated in the 
+EOSC and comply with FAIR data principles. It facilitates finding, accessing, re-using, and interoperability 
+of data sets. Furthermore, the repository will integrate with data from similar projects (previous and 
+ongoing) for easier accessibility, linear, tree, and graph data structures defined by the existing ontologies 
+and standards.  
+Accessibility of data: Data and research outputs open to the public will be fully and freely accessible, 
+according to the FAIR principle, utilising tools such as: open access peer -reviewed journals, scientific 
+magazines, on-line platforms, and other digital tools, printed and digital dissemination materials. If parts of 
+datasets cannot be shared, the reasons for this will be clearly mentioned (e.g., ethical, rules of personal 
+data, intellectual property, commercial, privacy-related, compliance with GDPR).  
+Reusability of data: To facilitate the validation of scientific publications, IS2H4C enables the disclosure 
+and reusability of the data, acknowledging the convenience of enabling the review, scrutiny, and verification 
+from external scientific actors. Creative Common Licensing will be used to protect the ownership of 
+datasets. Despite the data openness, an embargo period might be applied to the data if used in Green OA 
+journals. The datasets located in ZENODO will have unlimited access, although for some data restrictions 
+to the re-use policy may apply. This can be the case for green OA embargo periods or Creative Commons 
+licensing restrictions (attribution, prohibition of use for commercial purposes, to use the same license as 
+the original).  
+Curation and preservation:  The coordination and monitoring of the DMP will be carried out by UT as 
+Data Manager, being the specific implementation responsibility of each WP leader. UT will deliver the DMP 
+first version by M6 and update it during the project life. UT will produce a code of conduct, and explain it 
+in the Kick -off meeting, so all partners are aware of the DMP and the OA practices of the project. An 
+analysis on the security levels of the different repositories used by the project will be performed in the DMP , 
+to ensure they meet a minimum-security level (from the common project consortium workspace, probably 
+Microsoft OneDrive, to the public repositories chosen for making the data available, probably ZENODO).  
+Regulatory and Ethical aspects: IS2H4C will adhere to legislative requirements of the General Data 
+Protection Regulation. It will also comply with the EC’s Artificial Intelligence Act, which outlines new rules 
+& actions aiming to turn EU into the global hub for trustworthy AI, whereby by setti ng the standards, EU 
+can pave the way to ethical technology worldwide & remains competitive along the way. Following the 
+Ethics Guidelines for Trustworthy AI trustworthy: i) lawful - respecting all applicable laws and regulations, 
+ii) ethical - respecting ethical principles and values and iii) robust - from a technical perspective while 
+considering its social environment. #@CON-MET-CM@# #@COM-PLE-CP@#  
+    
+2.  IMPACT    Associated with document Ref. Ares(2023)8308660 - 05/12/2023

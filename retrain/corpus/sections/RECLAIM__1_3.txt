@@ -1,0 +1,286 @@
+1.3 METHODOLOGY 
+RECLAIM aspires to develop a compact, portable, automated and intelligent material recovery facility, the prMRF 
+(Fig.1.2), which increases the scope of material recovery by covering areas with loca lly high waste treatment needs 
+and enabling material recovery from waste streams that are not adequately treated by existing municipal s ystems. 
+The project will deliver a technologically and scientifically sound solution and demonstrate its application in difficult 
+real environments with high demands in terms of waste treatment and material recovery  (see Box 2 summarizing 
+project scenarios). Complementary to the above, RECLAIM develops a new gaming infrastructure that increases 
+social sensitivity on recycling and promotes the active participation of citizens in the research activities of the project.  
+Overall, the proposed work is structured in three phases (Figure 1.4) that foresee implementation and release of three 
+incrementally enhanced versions of the targeted technology. The first is the Machinery Integration phase [M1-M9] 
+that will capitalize on available technology and the extensive e xpertise of the consortium in applied waste 
+management solutions, to quickly implement the infrastructure and assemble the mechanical equipment that is 
+necessary for the operation of the prMRF. This phase will additionally focus on the early integration of  existing 
+hardware and software robotic technology in order to promptly reveal/mitigate conflicts in the waste processing 
+chain. Moreover, it will enable data collection to accelerate the training of the necessary AI modules and facilitate 
+the design of environmental games targeting recycling and particular material recovery. 
+This rapidly created complete prMRF prototype will provide the basis for the second Lean Research and 
+Development27 phase28 [M10-M30] that aims at implementing, testing in the field and continuously improving 
+solutions for the AI-ILC and RoReWo-Team modules considering the local characteristics of each deployment site. 
+A lean implementation that follows a test-fast/improve-fast approach for the immediate reveal and relief of problems 
+in the field, is particularly appropriate for creating a prMRF that is functional and highly productive in real conditions. 
+Moreover, the second phase will consider the use of real world data for RDG implementation to facilitate data 
+collection by citizens. 
+ 
+Figure 1.4. Schematic representation of the RECLAIM development plan. 
+The last, Wrap-Up and Consolidation phase [M31-M36] focuses on the continuous and uninterrupted operation of 
+the deployed prMRF with small -scale optimizations on the combined operation  of the mechanical and computing 
+modules. This is the main result of the project that will be presented to the public complemented by the RDG 
+environmental games to increase public sensitivity on recycling and support prMRF sustainability. The final prMRF 
+is considered as the Minimum Viable Product (MVP) of the project that will be demonstrated to selected audiences 
+such as the scientific community, stakeholders interested in waste management and potential investors for 
+considering its commercial exploitation. Further to prMRF, the exploitation and potential commercialization of other 
+project assets (RoReWos, AI-ILC, RDG) will be actively considered in the third phase of the project.  
+The following sections summarize the work to be done in the three developm ent phases of RECLAIM, focusing 
+separately on the four innovation pillars of the project. 
+1.3.1 Machinery Integration  
+The first phase focuses on the direct exploitation of the technology available to partners FORTH, KUL, IRIS, RBNS 
+and the waste management/mate rial recovery expertise available to H RRC, ION, AIMPLAS to develop an early 
+version of the targeted prMRF, which will provide a solid basis for experimentation, thereby facilitating successful 
+execution of the overall project work plan. 
+                                                     
+27 Kalinowski, M. et al. (2020) Lean R&D: An Agile Research and Development Approach for Digital Transformation. Int. Conf. 
+Product-Focused Software Process Improvement 
+28 Due to the significant expertise of the consortium on all background technologies, a “lean” development approach is followed 
+in RECLAIM to emphasize focused, field-specific customizations. 
+
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 12 of 45 
+ 
+PIL-1: Advanced AI for material identification, localization and categorization (AI-ILC)  
+The first phase of the project will consider the purchase/installation of visual monitoring equipment and the use of 
+available solutions contributed by project partners to enable the collection of recyclable material imaging data, using 
+RGB and hyperspectral cameras. The data collected will be used to immediately start the training of Neural Networks 
+for the AI-ILC modules, even in the first phase of the project.  Data collection will be facilitated by the use of a quick 
+annotation tool developed by RBNS, which will allow users with a single click on an image 29, to select the entire 
+pixel area of the appearing object. The tool will be significantly improved in RECLAIM in terms of usabilit y, 
+accuracy and the ability to process hyperspectral data. 
+PIL-2: New, modular, low-cost, high performance, multi-robot/multi-gripper recyclable recovery  
+During the first months of the project, a targeted design and implementation of the RoReWo unit will be carried out. 
+The RoReWo assumes a simplified architecture to achieve a significant reduction in hardware costs by trading off 
+small reductions in robot efficiency and productivity. The RoReWo consists of a single axis closed loop motion 
+control Cartesian robot that can be installed above any  size conveyor belt transporting the waste, with its motion 
+direction perpendicular to the movement of the belt. This allows the robot carriage to run along the entire width of 
+the belt. A low-cost piston is mounted on the moving carriage of the robot, which moves vertically in relation to the 
+conveyor belt (i.e. up/down), with the use of compressed air. The piston moves towards the belt in order to reach and 
+grab a recyclable object and then away from the belt to pick  and transfer the object to the material collection bins 
+installed in the left and right side of the RoReWo. Attached to the piston is one of the different available end-effectors 
+that grabs and holds the objects when transported to the collection bin. The  synchronization of the moving robot 
+carriage, the piston and the grabber is achieved using Newtonian mechanisms that combine the prediction of the 
+location of objects on the belt to position the robot at the right time above the object to be sorted, and t hen timely 
+activate the motion of the piston and the grabber.  A particularly low cost RoReWo prototype has been already 
+evaluated in relevant waste treatment conditions30. 
+The RoReWo described above is of particularly low cost (approx. 4K €) and achieves ~ 45 picks per minute, when 
+the commonly used Delta robots (approx. cost 25K €) achieve ~60 picks per minute. As a result, by using a 4 -
+RoReWo Team working cooperatively for recyclable material recovery, we can triple the performance of the 
+composite system and still have a lower implementation cost in relation to the Delta robot. Moreover, as shown in 
+Figure 1.5, various grippers are already available by RBNS and KUL, which can be used as end -effectors of the 
+different RoReWos in the team. The synthesis  of a multi-robot/multi-gripper team is a significant advantage of the 
+proposed modular RECLAIM approach. In contrast to the use of a single high-cost robot that carries only one end-
+effector, this approach expands the scope of the composite system and inc reases the utility and performance of the 
+RoReWo Team for material recovery applications. 
+Figure 1.5. A variety of different grippers that can be used in each RoReWo  
+      
+Long diameter suction 
+cup for deformed 
+packages 
+Short diameter suction 
+cup for small plastic 
+films 
+Fingered gripper for 
+mid-volume and 
+heavy objects 
+Pinned gripper for 
+woods and soft heavy 
+objects 
+Magnetic gripper for 
+ferrous metals 
+ 
+PIL-3: Portable robotic Material Recovery Facility 
+For the rapid progress of the first phase there is already a cost plan for the Recycling Equipment (R-Eq) that will be 
+installed in the RECLAIM deployments. During the first months of the project, the R -Eq features will be specified 
+in detail, so that the machinery can be selected and purchased. At th e same time, prMRF deployment sites will be 
+examined in order to carry out preparatory actions necessary for prMRF operation. 
+Regarding prMRF deployment for material recovery from post-consumer waste, HRRC has already analyzed the 
+population fluctuations of the Greek islands during a full year period and how these changes affect the amount of 
+recyclables that should be recovered by the prMRF. Based on this analysis, it has already determined that the most 
+suitable island for the installation of prMRF is Kef alonia with a second (alternative) option, the island of Lefkada. 
+                                                     
+29 Video link: https://www.youtube.com/watch?v=HALgk1kb6Xk  
+30 Video link: https://www.youtube.com/watch?v=ztffZwWAc44  
+
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 13 of 45 
+ 
+Both of these islands face a problem in their waste management all year round, with the problem becoming very 
+intense during the summer months. Thus , the double-shift operation of the prMRF during the tourist season and 
+single-shift in the off-season months is expected to cover a significant part of the island's waste management needs. 
+ION is the local authority responsible for the management of waste in both Kefalonia and Lefkada, being particularly 
+interested to not only host the prMRF throughout the project offering the necessary infrastructure for its operation , 
+but also consider the use of additional prMRFs to address the material recovery needs in other Ionian islands. 
+PIL-4: Educational environmental gaming for social awareness and data collection  
+The design of environmental games will proceed in parallel with the above described activities. The main focus will 
+be on RDG and the collection of recycling data, specifying in detail operational scenarios (see Box 2). Additionally, 
+we will consider the potential implementation of fun games to complement pure RDG, (e.g. a virtual recycling worker 
+game, quiz questions on the reduction of CO2 emissions in relation to material recycling, familiar ization with the 
+recycling processes followed in European countries, etc.). UoM in collaboration with the consortium partners ISWA 
+and AXIA that lead the communication exploitation and innovation activities, will examine new ideas and proposals 
+to select games that better promote the results of the project to the public.  
+Box 3. Indicative RDG scenario.  The users are shown real waste images captured by camera s installed in the 
+prMRF and asked to complete one of many reviewing tasks to receive virtual prizes for their contribution in 
+recycling research. Reviewing tasks may regard the annotation of materials appearing on images, the assessment 
+of the outcomes of the currently best trained AI -ILC module (false positives/false negatives), the assessment of 
+AI-ILC inferred masks, the correction of AI-ILC inferred masks to be re-used for training, etc. All inputs provided 
+by individual anonymous users will be assessed by several other users to verify quality before they are included in 
+the training dataset (experienc ed recycling staff will have the overall inspection of the gamified data -collection 
+process). The improved dataset will be used for retraining the AI-ILC module which will afterwards be considered 
+the new current AI-ILC to drive the game (i.e. produce new images for the users). 
+1.3.2 Lean Research & Development  
+The second phase includes the main part of developments and technological advancements considered in each 
+innovation pillar, through repeated test-improvement cycles. During this phase, the second use-case scenario of the 
+project will be considered (see Box 2). In particular, ION will initially bring citizen separated materials to the prMRF 
+for testing and guided development/refinement of the software and hardware components. Subsequently, we will 
+consider transferring the prMRF to Corfu to directly process the citizen separated waste. It is expected that making 
+known the presence and the operation of the prMRF in Corfu will strengthen the interest of citizens to the circular 
+economy and will strengthen their recycling activities.   
+PIL-1: Advanced AI for material identification, localization and categorization (AI-ILC) 
+To increase the efficiency of the AI -ILC module, two complementary means of waste imaging will be used. These 
+regards (i) an ordinary RGB gl obal-shutter camera to collect material information in the visual domain and (ii) a 
+hyperspectral camera in the infrared domain (e.g. 1000 -2000 nm) to collect spectral information of materials in 
+wavelengths not visible to humans. The information captured from these two modalities will effectively complement 
+each other to increase effectiveness and accuracy in material recovery applications. In particular, the visible light 
+camera is important for the segmentation of materials in the case that two or more objects of the same material type 
+are adjacent and thus not separable with hyperspectral imaging. Οn the other hand, the use of a hyperspectral camera 
+offer significant possibilities in relation to material recognition and determination of objects consistency. In other 
+words, using only information from the visual domain it is hard to identify the difference between objects with similar 
+appearance but different material type (e .g. plastic films), while at the same time RGB computer vision may often 
+face difficulties due to dirt or shape deformations. Ac cordingly, during the actual prMRF operation, both cameras 
+will be simultaneously active, providing complementary information for the detection and categorization of materials. 
+In parallel to the above described joined visible and infrared imaging, RECLAIM will explore simpler cost-effective 
+solutions solutions relying only on RGB imaging. This will exploit prior experience of FORTH and RBNS in urban 
+environments (particularly in Crete and Cyprus) which has shown that satisfactory material recognition and 
+categorization can be achieved by using RGB only imaging. This is expected to be appropriate for the second scenario 
+considered in RECLAIM (see Box 2), implying that the manufacturing costs for the entire prMRF could be 
+significantly lower in the case of negative separation applications. 
+In this phase of the project there will be extensive collection of both hyperspectral and RGB data, which will be used 
+to train newly developed CNN solutions that combine RGB and/or hyperspectral information for the identifi cation, 
+categorization and localization of recyclables. Early annotation of collected data will be accomplished with the help 
+of a new, quick annotation tool for recyclables, used by experienced recycling workers to collect, in a short time, a 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 14 of 45 
+ 
+large volume of data. Further annotation of collected data will be achieved with the participation of citizens using 
+the RDG, as summarized below.  
+The collected data will be used to implement and evaluate different approaches to the optimal implementation of the 
+AI-ILC. Research endeavors will consider (among others) the use of separate CNNs dedicated to the different 
+material types vs multi -class CNNs categorizing multiple types of material, and will consider how AI -ILC 
+performance is affected by other features of p rMRF function (spatial distribution of materials, belt speed, frame 
+processing rate, etc.). The repeating industrial experimentation and testing is described by the multiple 
+“implementation & testing” spins shown in Figure 1.4.  
+To incrementally improve the operation of the AI-ILC, RGB and hyperspectral data recordings will be developed for 
+items whose categorization has low confidence. The data of the poorly categorized objects, will be fed to the RDG 
+for citizen-powered annotation and then included in the set of training data to repeatedly increase the performance of 
+AI-ILC inferencing. 
+PIL-2: New, modular, low-cost, high performance, multi-robot/multi-gripper recyclable recovery  
+A key issue for prMRF operation is the efficiency of the robotic system used for the recovery and physical sorting of 
+recyclables. Since the treatment of recyclables does not assume fine manipulations, the grippers to be considered in 
+RECLAIM will all rely on pneumatic technology (small / big suction cups, pinned gripper, parallel  gripper) and 
+power supply (magnetic gripper, fingered gripper) so that they ease RoReWo re -configuration on the fly, according 
+to the dynamic requirements of each deployment (e.g. seasonality). The industrial research that will be carried out in 
+the second phase concerns the selection of the appropriate vacuum grip system (Venturi vs blower), the determination 
+of suction cup according to the size and the deformations of materials, the comparison of the different grip options 
+for each type of material, and the operational requirements of the system (number of materials/bins, relative 
+proportions of materials in the waste stream, etc.). The motion control of RoReWos will consider the characteristics 
+of the R -Eq installed in the prMRF (e.g. width/speed of the c onveyor belt), as well as the characteristics of the 
+different grippers (e.g. acceleration in relation to safe object transport).  
+An important part of second phase work will focus on RoReWos teamwork and the coordination of member actions 
+to ensure that a ll RoReWos can move simultaneously without conflicts/restrictions, can efficiently share common 
+resources (compressed air supply, vacuum supply). The selection of materials to be recovered will base on economic 
+(secondary material price 31) and environmental  (carbon footprint 32) criteria, which will be further combined with 
+waste analytics to set-up the best team-configuration for the given mix of recyclables.  
+PIL-3: Portable robotic Material Recovery Facility 
+This part of the prMRF study will be carried out entirely in the field with the aim of customizing and optimizing its 
+operation according to the individual needs of the use case scenarios considered in the project. The optimization will 
+consider in combination the preparation of waste from the mechanical R -Eq accomplishing the placement of 
+incomings in a single layer on the conveyor belt, the identification, categorization and localization of recyclables by 
+the AI-ILC unit, their physical separation into different bins from the RoReWos team and finally the ball ing of the 
+recovered materials before they are promoted in the secondary market. Besides mechanical adaptations, a major part 
+of the PIL -3 work will focus on waste analytics to reveal the synthesis of incoming objects which will be further 
+associated with the RoReWo Team configuration, the recovery actions performed for each material type and the 
+number of items that have been actually recovered. The multifaceted consideration of the operation of prMRF units 
+will provide significant know -how on the configur ation of the composite system according to the specific 
+requirements of each deployment site.  
+PIL-4: Realistic environmental gaming for social awareness and data collection  
+RDG development efforts will focus on producing games that are intuitive and simple to use, and that can be deployed 
+on many platforms and devices, focusing on web -based solutions. This will leverage state -of-the-art work on data 
+games combining them to create a recycling data-game pipeline for re-using and improving real-world data through 
+human annotations. To implement RDG, established game engines will be exploited (e.g. Unity 3D), as they are 
+powerful and deployable across a broad range of platforms. This part of work will additionally consider the formatting 
+of the collected data to be directly exploitable by deep learning algorithms, and means to provide feedback to users 
+acknowledging their contribution in RECLAIM scientific work. During this phase , the RDG will reach the 
+community to support data collection and gain feedback wit h respect to its effectiveness, usability and user -
+friendliness. 
+                                                     
+31 https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Recycling_-_secondary_material_price_indicator 
+32 https://www.ipcc.ch/site/assets/uploads/2018/03/5_Waste-1.pdf 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 15 of 45 
+ 
+1.3.3 Wrap Up & Consolidation   
+Τhis phase includes consolidating all the technical developments and data collected in the first 30 months of the 
+project. The goal is to prepare exploitation plans for the market penetration of the individual project assets after 
+considering stakeholders’ feedback and the technical results and achievements of project developments. The 
+assessment of project developments will proceed based on the measurable KPIs alread y specified in RECLAIM 
+objectives. It is noted that during this phase, the third use case scenario (see Box 2) will be examined,  which  
+emphasizes the portability of the prMRF and its ability to reach areas with increased waste production in order to 
+directly process and recover fresh, uncompressed, high quality materials. 
+PIL-1: Advanced AI for material identification, localization and categorization (AI-ILC) 
+In the last phase of the project, the final evaluation of the AI -ILC module will take place. Perfo rmance evaluation 
+will consider the typical Mean Average Precision (MAP), Mean Average Recall (MAR) and F1 -score that consider 
+the relationship between false positive and false negative categorizations. Moreover, a comparison will be made 
+between the two different approaches followed to implement the AI-ILC (rgb+hyperspectral vs rgb-only) in order to 
+draw conclusions about the suitability of each approach in the different project scenarios and also reveal good 
+practices for their use in material recovery an d other applications beyond RECLAIM. In order to maximize the 
+technological footprint of the project, the utilization of AI-ILC will be examined in applications that concern not only 
+waste management but also the visual recognition and categorization of other products.  
+PIL-2: New, modular, low-cost, high performance, multi-robot/multi-gripper recyclable recovery 
+RoReWo evaluation will focus on the efficiency of the proposed solution in managing waste streams with multiple 
+and varying characteristics. In ad dition to assessing the usability and robustness of RoReWo highly simplified 
+architecture, it is important to evaluate the suitability and efficiency of the various grippers against the physical 
+characteristics of each waste type (size, shape, deformation, etc.). RoReWo Teams that combine multiple robots and 
+multiple grippers in a unified complex system, will be evaluated with emphasis on the balance between scope 
+expansion (i.e. manage more waste types) and total number of picks offered by RoReWos, to maxi mize the value 
+and ecological impact of recovered materials. The evaluation will focus not only on RoReWo productivity but also 
+on the investment required to install a team in waste treatment environments compared to other available solutions, 
+in order to draw up a business plan for its commercialization. RoReWos are expected to be by far the solution with 
+the best pick per invested euro rate. New application areas will also be sought where RoReWos can act as new, highly 
+cost-effective solutions managing items on conveyor belts (e.g. quality control in pharmaceutical/grocery industry).  
+PIL-3: Portable robotic Material Recovery Facility 
+The prMRF evaluation will focus on the chain operation of all installed subsystems to ensure their efficient and 
+synchronized operation. Through small -scale refinements, the operation of each unit will be optimized so as to 
+facilitate the operation of the next in line, and jointly compose a highly productive system that can recover multiple 
+and different materials from the waste streams. Among others, the third phase of the project will reveal the portability 
+of the prMRF to explore and demonstrate local, close to source robotic material recovery and sorting. In this context, 
+prMRF will be deployed in the port of Kefalonia to directly process the waste of arriving ferries. ION will additionally 
+consider other options for prMRF deployments in high visibility areas across the Ionian Islands. Overall, at least 15 
+days of live demos open to the public will be implemented in the last months of the project. Following this approach, 
+RECLAIM will exploit the popularity of Ionian Islands as attractive touristic destinations, to demonstrate to the 
+citizens and the visitors of the islands how EU research funding contributes to the solutions  of daily problems and 
+material recovery in particular, for the benefit of the environment, the society and the economy. 
+RECLAIM will undertake concrete activities that will pave the way for the commercial exploitation of the prMRF, 
+which provides a timely solution to the strong global need for distributed material recovery. To this end, the needs 
+and times required for the transfer and the installation of the prMRF in the application field will be studied and 
+reported. Particular emphasis will be placed on the ease of use of the system by users who are not experts in artificial 
+intelligence and robotics. Good practices will be reported regarding the configuration of the overall system and the 
+combined operation of different grippers in order to make the prM RF directly useful in a broad range of material 
+recovery applications. It is noted that the RECLAIM end-user participants (ION, HRRC) have already expressed 
+their strong interest in distributed material recovery systems (in Greece there are dozens of islan ds that are in need 
+of a prMRF) and would be among the first potential buyers of new prMRFs when they are placed on the market.  
+PIL-4: Educational environmental gaming for social awareness and data collection 
+The evaluation of RDG will consider the user f riendliness/usability of the gaming environment, the engagement of 
+users (repeating RDG use) and the accomplishment of its main purpose that is the collection of extensive recycling 
+data via human contributions. To this end, questionnaires, interview and p lay-aloud sessions will be used to assess 
+user satisfaction. Moreover, an action recording infrastructure will enable analytics on user behavior, which will 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 16 of 45 
+ 
+subsequently guide RDG refinements with respect to performance and usability so that users can easi ly provide 
+recycling annotation data. At this final stage , it is important to ensure that the newly provided data are smoothly 
+verified (e.g. through user voting) and pipelined into the confirmed datasets used for deep learning. This will facilitate 
+the long-term sustainability of the deployed prMRF, but will also provide significant background contributions for 
+future works adopting the citizen-science approach for the collection of scientific data.

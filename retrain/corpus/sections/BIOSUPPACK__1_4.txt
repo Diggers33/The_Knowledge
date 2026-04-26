@@ -1,0 +1,537 @@
+1.4 Ambition   
+Advance beyond the state-of-the-art and the extent to which the proposed work is ambitious 
+The use of bio-based materials is a very interesting way to decrease the environmental impact of end users and 
+packaging industries. BioSupPack project has the ambition to upscale the production of  novel rigid packaging 
+products in different formats ( bottles, trays, bowls, coffee cups  and secondary packaging  for glass bottles ) 
+using new PHA based polymers with improved properties, able to preserve the environment during and after 
+their use, leading to significant knowledge advancements of the state-of-the-art in packaging materials. 
+State of the art and progresses in cold atmospheric plasma technology applications 
+Plasmas can be categorized according to their thermodynamic properties to thermal (hot) and non -thermal (cold) 
+plasmas19,. Cold plasma equipment includes DC glow discharge, radio frequency (RF) discharge, dielectric barrier 
+ 
+18 Londa Schiebinger (2008) Gendered Innovations in Science and Engineering. ISBN: 978080475814 
+19 Fridman et al. (2004) Plasma Physics and Engineering. Boca Raton, FL: Taylor & Francis. 
+
+  
+BioSupPack                                                 BBI 2020.SO3. D4                                                       
+Page 19 of 112 
+discharge (DBD), atmospheric pressure plasma jet (APPJ), microwave discharge and pulsed power discharge20, and they 
+have been widely studied on microbial decontamination, pest control and food and package functionalization.21  
+Lignocellulosic biomass pre-treatment via cold plasma 
+Cold plasma can disrupt linkages within lignocellulosic matrix for maximizing the efficiency of enzymatic 
+hydrolysis22, offering environmentally friendly and sustainable alternatives to conventional thermochemical 
+processes, as it employs ambient temperatures and pressures and dry gases instead of chemicals and solvents. DBD 
+plasma reactors have been employed due to its simplicity, robustness, and proven scalability 23. Pretreatment has 
+been carried out produc ing reactive oxygen species (ROS), such as O 3, H 2O2, and hydroxyl radicals (•OH) and 
+reactive nitrogen species (RNS), such as 
+NO2, NO3, HNO3, and N 2O524. Emission 
+of UV by plasma and ozonolysis have 
+also been widely studied for lignin 
+degradation and removal  to facilitate 
+enzymatic hydrolysis of 
+polysaccharides25,26,27. Combination of 
+O3, UV, •OH, ROS and RNS constitutes 
+advanced oxidation and an efficient and 
+sustainable lignocellulose pretreatment28. 
+Figure 6 presents a scheme of a DBD air plasma reactor used by PLT in BSG pretreatment 29. Crucial parameters 
+influencing pretreatment efficiency are bubbles size, maintenance of a homogeneous biomass suspension, duty cycle 
+of power supply, plasma temperature, reactive species produced and treatment duration. The patented quartz bubble 
+reactors improve both process and energy efficiency. 
+A BSG to sugar conversion yield of 0.163 g/g (less than 30% of theoretical conversion yield) has been reported while 
+the control enzymatic hydrolysis of untreated BSG was 0.076 g/g. PLT has demonstrated the potential of using 
+plasma at low doses to enhance fermentation. Given the ubiquitous employment of bubble technology in the chemical 
+industries including fermentation, the design inherently lends itself to effective scale-up. 
+Beyond the state of the art, BioSupPack will enhance BSG to sugar conversion yield to higher than 70% of the 
+theoretical BSG to sugar conversion yield by optimising the operation of the DBD air plasma reactor and using 
+highly efficient enzyme cocktails provided by ASA. Furthermore, BioSupPack will demonstrate that at least 20% 
+cost reduction will be achieved as compared to conventional thermochemical pre-treatment processes. 
+Polymer surface property modification and degradation via cold plasma treatment 
+Surface functionalization of packaging polymers can improve polymer wettability, sealability, mechanical resistance, 
+printability, dye up -take, antimist properties, glazing resistance, adhesion, gas and solvents barrier and impart 
+antimicrobial properties, without compromising the bulk polymer properties30. The low surface energy of PE and PP 
+has driven most of the research in cold plasma towards surface modifications to overcome problems in printing, 
+coating and lamination31,. PLT has evaluated atmospheric plasma jet to efficiently modify the surface of polyethylene 
+terephthalate (PET) to change their hydrophobic properties to more hydrophilic 32. Efficiency of a ir cold plasma 
+treatment of biopolymers has also been confirmed like in PLA 33. PLT has characterised the changes induced in 
+commercial PLA films to achieve in-package food decontamination.34 In PLA/PHA blends plasma surface treatment 
+showed an improvement due to the cross-linking effect achieved35. Significant improvements in barrier properties of 
+starch/PHA composite films due to cross-linking effects have been reported36 (23% in water vapor permeability and 
+ 
+20 Lu et al Cold Plasma Sources. Cold Plasma in Food and Agriculture: Fundamentals and Applications (Eds: N. N. Misra, O. Schlüter, P. J. Cullen), 
+Elsevier, Amsterdam, the Netherlands 2016, Ch. 4. 
+21 Cullen et al (2017) Translation of plasma technology from the lab to the food industry. Plasma Process Polym 15(2), 700085 
+22 Vanneste et al (2017) Unconventional pretreatment of lignocellulose with low‐temperature plasma. Chem Sus Chem 10.1, 14-31. 
+23 Kogelschatz (2003) Dielectric-barrier discharges: their history, discharge physics, & industrial applications. Plasma Chem Plasma Process 23, 1–46. 
+24 Sakiyama et al (2012) Plasma chemistry of surface microdischarge in humid air & dynamics of reactive species. J Phys D Appl Phys 45, 425201. 
+25 Garcia et al (2009) Effect of ozonolysis pretreatment on enzymatic digestibility of wheat and rye straw. Agric Eng Int CIGR J 100, 1608–1613. 
+26 Schultz-Jensen et al (2011) Plasma-assisted pretreatment of wheat straw for ethanol production. Appl Biochem Biotechnol 165(3-4), 1010-23. 
+27 Souza-Corrêa et al (2013) Atmospheric pressure plasma pretreatment of sugarcane bagasse: the influence of moisture in the ozonation process. Appl 
+Biochem Biotechnol 171(1), 104-116. 
+28 Wright et al (2018) Dielectric barrier discharge plasma microbubble reactor for pretreatment of lignocellulosic. AIChE Journal, 64(11), 3803-3816. 
+29 Ravindran et al (2019) Improving enzymatic hydrolysis of brewer spent grain with nonthermal plasma. Bioresour Technol 282, 520-524. 
+30 Pankaja et al (2014) Applications of cold  plasma technology in food packaging. Trends Food Sci Technol 35, 5-17. 
+31 Medard et al (2002) Characterization of CO2 plasma-treated PE surface bearing carboxylic groups. Surf Coat Technol 160, 197-205. 
+32Scally et al (2017) Impact of atmospheric pressure nonequilibrium plasma discharge on polymer surface metrology. J Vac Sci Technol A: Vacuum, 
+Surfaces, and Films 35, 03E105 
+33 Follain et al (2014) Impact of hydrophobic plasma treatments on the barrier properties of poly(lactic acid) films. RSC Adv 4, 5626 
+34 Pankaj et al (2014) Characterization of polylactic acid films for food packaging as affected by dielectric barrier discharge atmospheric plasma. Innov 
+Food Sci Emerg Technol 21, 107-113 
+35 Omaníková et al (2020) Influence of composition and plasma power on properties of film from biodegradable polymer blends. Polymers 12, 1592; 
+36Sun et al (2018) Effects of various cross -linking agents on the physicochemical properties of starch/PHA composite films produced by extrusion 
+blowing. Food Hydrocolloids 77, 964-975. 
+Figure 6. PLT patented DBD air plasma reactor for BSG pre-treatment 
+
+  
+BioSupPack                                                 BBI 2020.SO3. D4                                                       
+Page 20 of 112 
+45.6 % to 73% in oxygen permeability ). The advantages of plasma treatment over other polymer  modification 
+methods has been described, not only considering the modification of the polymer surface layer without upsetting 
+the bulk polymer's properties 37, but also speed of treatment , ability to involve a limited surface layer , flexibility 
+concerning the plasma reactors that can fit the specific needs from small to large scale , low capital investment, 
+easiness and efficiency in implementation in already existing industrial lines and option for use in batch or continuous 
+mode of operation.  
+Current-state-of-art plasma systems can be used to aid in the degradation of polymeric materials. Although the 
+colonization of polymer surfaces by microorganisms depends on the functional groups prese nt on the surface, 
+samples with higher hydrophilicity may give rise to an easier colonization process, as PLT reported for LDPE38. 
+Beyond the state of the art , BioSupPack will scale -up air plasma treatment technologies for (1) BSG 
+pretreatment, (2) PHB -based packaging functionalization and (3) used package pretreatment to increase the 
+efficiency of enzymatic recycling. The operation of the innovative DBD atmospheric plasma bubble technology 
+developed and patented by PLT for BSG pre-treatment (current TRL5) will be optimised and scaled-up to TRL7.  
+State of the art and progresses in the field of the use of biomass for PHA biopolymers production 
+Various crude cellulose and hemicellulose and bacterial strains have been used for PHB production39,. Among the 
+bacterial strains used , Burkholderia sacchari emerges as the most interesting one. Wheat straw hydrolysates have 
+been used in 2 L fed -batch bioreactor cultures of B. sacchari to produce 105 g/L PHB (72% intracellular content) 
+with 0.22 g/g yield and 1.6 g/L/h productivity 40. Hardwood hydrolysate has been employed in fed -batch bioreactor 
+cultures by Paraburkholderia sacchari for the production of 34.5 g/L PHB (58% intracellular content) at 0.15 g/g 
+yield and 0.72 g/L/h productivity. 41 Apart from this mesophilic bacterium, utilization of extremophiles agrees with 
+concept of Next Generation Industrial Biotechnology which was recently formulated by prof. Chen42. Its use brings 
+many benefits associated with robustness of cultivation process against contamination by common mesophilic 
+microflora. So, the process can be operated at reduced or minimized sterility precautions with substantially reduced 
+energy demands which improves its economic feasibility and LCA impact. Halophilic Halomonas halophila CCM 
+366243 and thermophilic Schlegelella thermodepolymerans DSM 1534444 bacterium have been identified for PHA 
+production of lignocellulose-based resources.  
+Sustainable PHB recovery technologies focus on the utilization of environmentally benign solvents for PHB 
+dissolution directly from wet bacterial mass followed by PHB precipitation. Ideal solvents should meet requirements 
+as favorable toxicity and safety profile 45, low boiling point for easy recycling, water miscibility to ensure efficient 
+PHB precipitation, efficient PHB dissolution at relatively low temperature, high PHB recovery yield and purity from 
+wet bacterial mass, and no PHB Mw and property degradation. Water should be used for PHB precipitation from the 
+dissolved PHB. Besides, sustainable PHB recovery could be also achieved by selective dissolution of non -PHB 
+bacterial mass using switchable anionic surfactants (SAS) that switch from water-insoluble neutral forms into anionic 
+water-soluble compounds through pH shift that is achieved by simple addition or removal of CO 2. Ammonium 
+dodecanoate (laurate) is a relatively low -cost SAS that can provide high PHB recovery (99%) and purity  (90%), 
+while 98% recycling of the surfactant is achieved by simple pH reduction by CO2 addition46.  
+Beyond the state of the art, BioSupPack will develop efficient fermentations for PHB production using B. 
+sacchari and thermophilic bacterial strains using BSG hydrolysates pretreated in a DBD air plasma reactor. DSP 
+will be achieved using green solvents or SAS to ensure efficient PHB recovery with high purity and yield and low 
+Mw and property degradation. 
+State of the art and progresses in the field of PHA processing by conventional conver sion technologies and 
+derived compounds and coatings for packaging applications 
+The limited thermal stability of PHAs narrows their processability window 47, specifically in the case of PHB, the 
+most well studied polymer of the family. The thermal degradation proceeds very quickly at temperatures very close 
+to its melting point , causing a rapid  decrease in its Mw at the processing temperatures . Moreover, due to its high 
+ 
+37 Visakh P. M. Chapter 1 Polyhydroxyalkanoates (PHAs), their Blends, Composites and Nanocomposites: State of the Art, New Chall enges and 
+Opportunities in Polyhydroxyalkanoate (PHA) based Blends, Composites and Nanocomposites, 2014 
+38 Scally et al (2018) Significance of non-thermal plasma treatment on LDPE biodegradation with Pseudomonas aeruginosa. Materials 11, 1925. 
+39 González-García et al (2019) Tequila agave bagasse hydrolysate for the production of polyhydroxybutyrate by burkholderia sacchari. Bioengineering 
+6 (4), art. no. 115. 
+40 Cesário et al (2014) Enhanced bioproduction of PHB from wheat straw lignocellulosic hydrolysates. N Biotechnol 31(1). 104-113. 
+41 Dietrich et al (2020) Increasing PHB production with an industrially scalable hardwood hydrolysate as carbon source. Ind Crops Prod 154, 112703  
+42 Chen & Jiang (2018) Next generation industrial biotechnology based on extremophilic bacteria. Curr Opin Biotech 50, 94-100. 
+43 Kucera et al (2018) Characterization of promising PHB producing halophilic bacterium Halomonas halophila. Bioresour Technol 256, 552-556. 
+44 Kourilova et al. Schlegelella Thermodepolymerans a promising thermophilic PHA producer from xylose rich substrates. Bioresour Technol in-press. 
+45Yabueng & Napathorn (2018) Toward non -toxic and simple recovery process of poly(3 -hydroxybutyrate) using the green solvent 1,3 -dioxolane. 
+Process Biochem 69, 197–207.  
+46 Samorì et al (2015) Dimethyl carbonate and switchable anionic surfactants: two effective tools for the extraction of PHAs fro m microbial 
+biomass. Green Chem 17(2), 1047-1056. 
+47 Li et al (2016) Polyhydroxyalkanoates: opening doors for a sustainable future. NPG Asia Mater 8, e265. 
+  
+BioSupPack                                                 BBI 2020.SO3. D4                                                       
+Page 21 of 112 
+crystallinity, PHB is stiff and brittle resulting in very poor mechanical properties with low extension at break, which 
+hinders its wide applicability.2,48 A further factor of high relevance for the processability is the degree of purity 
+achieved after the biosynthesis and extraction of the PHAs, which affects both the thermal stability during processing 
+and the resulting mechanical properties.49,50 Methods to improve the processability of these biopolyesters in the melt 
+state are needed for efficient processing, e.g. by melt extrusion. Different approaches range from the in vivo synthesis 
+of PHA  copolymers51, such as poly(3 -co-hydroxyvalerate) (PHBV) 52,53,54 and poly(3-hydroxybutyrate-co-4-
+hydroxybutyrate) [P(3,4HB)]55,56, to the enhancement of post -synthesis PHB-based material performances 51, thus 
+blending with other polymers or plasticizers57 or by reactive polymer blending with other bio-based polymers. All of 
+them may offer opportunities to improve processability by lowering the processing temperature and reducing 
+brittleness, broading the range of applications  in the medical, agricultural, and packaging fields 58. Furthermore, in 
+vivo biosynthetic methodologies aimed to modulate polymer Mw and cost competitiveness of the overall process , 
+and these blends are very convenient as industrial materials due to their lower cost. PLA -PHB blends have been 
+extensively studied during the last years. 59 The ability of PHB to act as a nucleating agent for PLA improves its 
+mechanical resistance and barrier performance. 60 Blends with other biodegradables polymers including starch, 
+cellulose derivatives, lignin ,61,62 PBS63, PBAT64, and polycaprolactone65 have also been widely studied. Also, 
+blending of different types of PHAs offer the potential for alternating the different properties, improving mechanical 
+performance and facilitat ing the expansion of applications. In melt compounding t hese blends have also been 
+studied.66 SABIO partner, with a wide expertise in the development of tailored biobased compounds  owns a patent 
+application concerning durable PHA compositions (see Table 7) that can be melt processed similar to PP into various 
+forms such as moulded articles, films, fibers and nonwovens.  
+There are many reasons for coating paper with polymer, like reducing hydrophilicity, changing mechanical properties 
+or better surface. Techniques such as extrusion, dispersion coating and solvent coating can be exploited67,68,69,70,71. 
+A major drawback in circular economy is the lack of coated paper properly recyclable. There is an evolution away 
+from PE coated paper/cardboard towards PLA extrusion coatings for this application. Although LCA studies have 
+proven to be more eco -friendly, PLA coated paper is nor home compostable neither mechanically recyclable 
+(furthermore industrial composting facilities are insufficiently available).  For dri nking cups, these LCA studies 
+conclude that reusable cups are preferable72,73, but for the use of PE or PLA coated paper in packaging there are little 
+ 
+48 Tsui et al (2013) Biodegradable Polyesters from Renewable Resources. Biomol Eng 4, 143–170. 
+49 Yu J. and Chen L.X.L. (2006) Cost -effective recovery and purification of polyhydroxyalkanoates by selective dissolution of cell mass . Biotechnol 
+Prog 22, 547–553. 
+50 Lopez-Abelairas et al (2015) Polyhydroxyalkanoates (PHA) production from biogas in waste treatment facilities: Assessing the potential impacts on 
+economy, environment and society. Biochem Eng J 93, 250–259. 
+51 Turco et al (2021) In vivo and Post-synthesis Strategies to Enhance the Properties of PHB-Based Materials: A Review. Front Bioeng Biotechnol 8, 
+619266. 
+52 Tebaldi, et al (2019) Poly(-3-hydroxybutyrate-co-3-hydroxyvalerate) (PHBV): current advances in synthesis methodologies, antitumor applications 
+and biocompatibility. J Drug Deliv Sci Technol 51, 115–126. 
+53 Chang et al (2014) Poly(3-hydroxybutyrate-co-3-hydroxyhexanoate)-based scaffolds for tissue engineering. Braz J Med Biol Res 47, 533–539. 
+54 Thellen et al (2008) A Processing, Characterization and Marine Biodegradation Study of Melt-Extruded Polyhydroxyalkanoate (PHA) Films. J Polym 
+Environ 16, 1–11. 
+55 Wen et al (2012) Crystallization behaviors and morphology of biodegradable poly(3-hydroxybutyrate-co-4-hydroxybutyrate). J Therm Anal Calorim 
+109, 959–966. 
+56 Tripathi et al  (2013). Biosynthesis  and characterization of diblock copolymer of P(3 -hydroxypropionate)-block-P(4-hydroxybutyrate) from  
+recombinant Escherichia coli. Biomacromol 14, 862–870. 
+57 Shen et al Product overview and market projection of emerging bio-based plastics. PRO-BIP 2009, Final report, Utrecht (2009). 
+58 Rivera-Briso, A. L. and Serrano-Aroca, Á. (2018) Poly(3-hydroxybutyrate-co-3-hydroxyvalerate): enhancement strategies for advanced applications. 
+Polym 10, 732. 
+59 Zhang et al (2011) Blending polylactic acid with PHB: The effect on thermal, mechanical and biodegradation. Adv Polym Technol 30,67–79. 
+60Zembouai et al  (2013) A study of morphological, thermal, rheological and barrier properties of Poly(3 -hydroxybutyrate-Co-3-
+hydroxyvalerate)/polylactide blends prepared by melt mixing. Polym Test 32, 842. 
+61 Wang et al (2015) Amorphous alkaline lignin on the crystallization behavior & properties of bacterial polyester. J. Appl Polym Sci 132, 41325. 
+62 Weihua et al (2004) Effect of lignin particles as a nucleating agent on crystallization of poly(3-hydroxybutyrate). J Appl Polym Sci 94, 2466–2474. 
+63 Zhu et al (2009) Miscibility, crystallization, and mechanical properties of poly(3 -hydroxybutyrate-co-4-hydroxybutyrate)/poly(butylene succinate) 
+blends. J Appl Polym Sci 114, 3923–3931. 
+64 Larson M., Markbo O. and Jannash P. (2016) Melt processability and thermomechanical properties of blends based on polyhydroxyalkanoates and 
+poly(butylene adipateco- terephthalate). RSC Adv 6, 44354. 
+65 Lovera et al (2007) Crystallization, morphology, and enzymatic degradation of polyhydroxybutyrate/polycaprolactone (PHB/PCL) blends. Macromol 
+Chem Phys 208, 924–937. 
+66 Nerkar et al (2014) Melt Compounded Blends of Short and Medium Chain-Length Poly3-hydroxyalkanoates. J Polym Environ 22, 236-243.  
+67 Kuusipalo, J. PHB/V in Extrusion Coating of Paper and Paperboard: Part I: Study of Functional Properties. J Polym Environ 8(1), 39-47. 
+68 Kuusipalo, J. PHB/V in Extrusion Coating of Paper and Paperboard—Study of Functional Properties. Part II. J Polym Environ 8(2), 49-57. 
+69 Manangan & Shawaphun (2010) PHB and PLA Coated Bagasse Paper for Biodegradable Food Packaging. The Journal of KMUTNB, 20(2). 
+70 Obeso et al (2013) Modification of paper using polyhydroxybutyrate to obtain biomimetic superhydrophobic substrates. Colloids Surf A Physicochem 
+Eng Asp 416, 51-55. 
+71 Rastogi & Samyn (2017) Synthesis of Polyhydroxybutyrate Particles with Micro-to-Nanosized Structures and Application as Protective Coating for 
+Packaging Papers. Nanomaterials 7(1). 
+72 Comparative LCA of 4 types of drinking cups used at events, D/2006/5024/06, OVAM, public waste agency of Flanders. 
+73 Single-Use Paper Cups Circularity Improvement and Environmental Impact Mitigation Measures for Lappeenranta University of Technology  
+Campus, V.  Suskevice and K. Grönman, Proceedings, 3  September 2019. 
+  
+BioSupPack                                                 BBI 2020.SO3. D4                                                       
+Page 22 of 112 
+alternatives available. There are currently little to no commercial examples of PHA grades for coating applications. 
+Metabolix and CJ CheilJedang companies launched a hotmelt grade of PHA, which was retracted from the market, 
+as it turned out to be difficult to process and sometimes resulted in an uncontrollable foaming. There are nonetheless 
+several descriptions of PHA coatings in patent literature (see Table 6 at the end of this section). The majority describe 
+the use of PHA in hotmelt or extrusion coating processes typically using low PHA Mw grades. PHA water-based 
+dispersions are not as common but exist. Kaneka describes the production of aqueous PHA dispersions or as blends 
+with other polymers. Powder based dispersions are described but focus mainly on the dispersibility.  
+A novel approach for PHA coatings was developed by CTB based on plastisol 
+coatings, in which a polymer powder is mixed with plasticisers that upon 
+heating of the formulation dissolve/gelate the polymer that will form a solid 
+film. The method was optimized using biobased and biodegradable plasticisers 
+compatible with PHA. It has not been described previously and is patent 
+pending74. The technology is at TRL 5 and specific optimization towards 
+barrier properties will be included in BioSupPack. Current formul ations 
+already proved moderate water barrier and good oil barrier (Figure 7).  
+Beyond the state of the art of PHA compounds, BioSupPack will bring an advancement to the methodology for 
+the design of biobased formulations for rigid packaging. The innovative approach will take in consideration the 
+technical requirements of all the stages of the Circular value chain with the aim o f delivering improvements in 
+terms of overall productivity and overall reduction of environmental impacts. In this context production the process 
+of biobased formulations for packaging will be brought to TRL 7. 
+BioSupPack will bring specific optimization of the PHA coatings based on plastisols towards barrier properties by 
+the use of novel crosslinking chemistries based on environmentally friendly crosslinkers (e.g. starch aldehydes, 
+organic acid based or carbodiimides) and should mainly improve water barrier at higher temperatures. It will bring 
+the technology from TRL5 to TRL7 on paper and cardboard substrates of GPI with improved water vapour, 
+oxygen, oil and water barrier properties. The process will also be tailored to allow its industrial use. 
+State of the art and progresses in the field of nanoscale surface modification by chemical grafting for improved 
+hydrophobicity and to optimize barrier properties 
+PHA have excellent oxygen barrier properties but for sensitive to moisture absorption or release applications the 
+water vapour barrier needs to be further improved. With this purpose, polar substrates are generally combined with 
+hydrophobic layers, such as PE layers, by wet lamination (with adhesives), extrusion lamination (without adhesives), 
+wet and extrusion coating. For the "wet" processes, water -based options are preferred for environmental reasons. 
+Such solutions and dispersions of waxes, starches or poly (vinyl alcohol) (PVOH) are available. In addition, physical 
+and chemical vapor deposition (plasma coating) on a planarization layer is possible. It can consist of bio-ORMOCER, 
+an organic-inorganic hybrid polymer, which is only partially based on renewable resources and offers no intrinsic 
+barrier without inorganic coatings. However, the i norganic coatings can be scratch -sensitive and thus be protected 
+by an additional top layer. 
+For an innovative approach it is also necessary to improve the water vapour barrier properties of bio-based films and 
+coatings. This is possible by green chemical grafting with fatty acids (FA) from renewable resources75,. The chemical 
+grafting will be applied on polymer-based films and coatings by the so-called transfer method which was developed 
+for the surface grafting of PVOH-based films76. The main attractions of this solvent free grafting process are its low 
+cost, its use of existing industrial bio -based reagents and its potential to be applied on a printing machine at high 
+speed and high efficiency. It is also a clean chemistry proce ss that does not give rise to by -products or to polluting 
+effluents. In addition, the FA green grafting is expected to provide easy emptying properties due to significantly 
+reduced surface energy of the grafted surfaces. These rebalance properties are comparable to emerging non bio-based 
+market available solutions such as LIQUIGLIDE™ developed by the Massachusetts Institute of Technology, Toyal 
+Lotus® developed by Toyo Aluminium K.K. or AsahiGuard E-Series developed AGC Chemicals. 
+Beyond the state of the a rt and current development for PLA based packaging in the BionTop project , 
+BioSupPack will provide additional improvements of the water vapour of precoated board by the grafting of 
+nanolayer of bio-based fatty acid on  top of the precoated internal side  and on the external side of the cardboard 
+substrates. This technology, already applied on different coatings at ASU, allows a high repellence of liquids (e.g. 
+contact angles above 100º against water) and water vapour barrier improvement above a factor 20 77. It will be 
+adjusted to the target packaging structure in BioSupPack.  
+ 
+74 Belgian patent application 2020/5152 “Dispersion aqueuse de biopolymères thermoplastiques”, March 2020. 
+75 Samain, D (2002) Method for treating a solid material to make it hydrophobic, material obtained and uses. Google Patents. 
+76 Schmid et al (2012) Fundamental investigations regarding barrier properties of grafted PVOH layers. Int J Polym Sci, 2012, Article ID 637837. 
+77 Schmid et al (2014) Water Repellence and Oxygen and Water Vapor Barrier of PVOH -Coated Substrates before and after Surface Esterification. 
+Polymers 6, 2764-2783. 
+Figure 7. Water and oil drops 
+applied PHA coated vs. uncoated 
+boards 
+ 
+
+  
+BioSupPack                                                 BBI 2020.SO3. D4                                                       
+Page 23 of 112 
+State of the art and progresses in the field of packaging recycling 
+Plastic waste sorting 
+The recovery of innovative biopolymers through recycling 78 requires a pre -calibration of the used identification 
+techniques which has to be developed for them, for which the right identification approach has to allow both its 
+subsequent recycling and industry acceptance for new biopolymers in the mainstream of currently recycled materials.  
+BioSupPack packaging will be biobased monolayer structures with improved p erformance due to PHAs properties 
+and the use of plasma  (physical treatment) and FA grafted coatings technologies  (very thin layer with no need of 
+identification when applied on paper/carboard substrates ), being not necessary to deliver multilayer structures to 
+imitate performance of conventional fossil -based materials, and consequently, thus without the well -known 
+inconveniences of multilayer structures in the recycling streams, being materials´ detection simpler. IRIS has 
+experience in developing tailored fast online VIS/NIR spectroscopic tools for plastic processing monitoring to lead 
+to precisely identify their composition and traces of unwanted substances79,80. 
+Beyond the state of the art, BioSupPack will demonstrate the capacity for  collecting the PHA based developed 
+packaging to be diverted to the recycling streams . To tackle the different challenges related with sorting of new 
+materials, we will optimize the hardware, combining several spectroscopic technologies (possibly NIR and visible 
+HSI), software thanks to advanced chemometrics analysis and possibly data fusion.  
+Enzymatic recycling of biopolymers 
+Enzymatic depolymerization could evolve into a sustainable route for bioplastics recycling where conventional 
+recycling schemes cause significant loss in quality and value 81. PHB depolymerases and lipases are the most 
+extensively studied enzymes82. They can decompose PHB to produce 3HB monomers, dimers, oligomers or longer 
+Mw chains depending on the depolymerase producing strain83. However, the native intracellular PHB depolymerase 
+produced by Bacillus megaterium ATCC 11561 produces only 3HA monomers84. Schlegelella thermodepolymerans, 
+apart from PHA production, is capable of extracellular hydrolysis of a wide range of PHAs 85. Commercial lipases, 
+such as Lipopan® 50 BG, have also been used for enzymatic depolymerization of PHA into oligomers.86 Most studies 
+focus on the isolation and characterization of enzymes depolymerising different biopolymers, but limited studies 
+have focused on enzymatic bioprocess development for biopolymer recycling. 87 Bioprocess development for 
+enzymatic depolymerization of PHB-based materials has not been reported yet. However, the population of aliphatic 
+polyester-degrading microorganisms has been reported to decrease in the order of PHB>PBS>PLA. Few specific 
+PLA degrading enzymes have been described compared to PHB depolymerases, indicating that hydrolysis is highly 
+favored in case of PHB enzymatic degradation , so a higher conversion efficiency can be expected for PHB. The 
+monomers or oligomers produced can be used to repolymerize, obtaining a low Mw PHB (Mw ≈ 2000)88. 
+Geothermal springs and biofilms on marine plastic debris provide access to microbial communities with wide 
+diversity in extremophilic microorganisms89,that may serve as potential sources of PHB depolymerases90, which are 
+expected to exhibit higher efficiency in plastic/bioplastic degradation.  
+AUA has expertise in high -throughput functional microbial and viral metagenomic technologies for complex 
+microbial community analysis and mining new enzymes as well as the developme nt of recombinant expression 
+systems (e.g. E. coli) in various R&D projects many of which are commercially oriented (e.g. funded by Prince 
+Sattam bin Abdulaziz University in Saudi Arabia, H2020-MSCA-RISE-2017, Bayer CropScience AG in Germany, 
+Sea Spread Lt d in Hong Kong etc.) involving the use of modern techniques including protein chemistry, kinetics 
+analysis, biophysics and omics technologies (genomics, transcriptomics, proteomics, bioinformatics). 
+Limitations associated with the industrial use of native enzymes (low stability, activity and less -favoured kinetic 
+properties and specificity) are overcome by protein engineering91. AUA has wide expertise in improving variants of 
+ 
+78 www.plasticseurope.org/documents/document/20120821135405new_trends_within_polymer_sorting_to_tackle_for_tomra_sorting_solutions.pdf 
+79 http://www.optiject.eu 
+80 B2B contracts for the detection of good batches of recyclates as well as for HSI-based monitoring solution for plastic identification in recycling line. 
+81 Soroudi & Jakubowicz (2013) Recycling of bioplastics, their blends and biocomposites: A review. Eur Polym J 49(10), 2839-2858 
+82 Dieter Jendrossek and René Handrick (2002) Microbial Degradation of Polyhydroxyalkanoates. Annu Rev Microbiol 56, 403-432 
+83 Polyák et al (2018) Enzymatic degradation of poly-[(R)-3-hydroxybutyrate]: Mechanism,kinetics, consequences. Int J Biol Macromol 112, 156-162. 
+84 Chen et al (2009) Identification and Characterization of a Novel Intracellular Poly(3 -Hydroxybutyrate) Depolymerase from Bacillus megaterium. 
+Appl Environ Microbiol 75(16), 5290–5299 
+85 Elbanna et al (2004). Studies on the biodegradability of polythioester copolymers and homopolymers by PHA -degrading bacteria and PHA 
+depolymerases. Arch Microbiol 182, 212-225. 
+86 Rodríguez-Contreras et al (2012) Enzymatic degradation of PHB by a commercial lipase. Polym Degrad Stab 97, 2473-2476 
+87 Panyachanakul et al (2019) Development of biodegradation process for Poly(DL -lactic acid) degradation by crude enzyme produced by 
+Actinomadura keratinilytica strain T16-1.Electron J Biotechnol 40, 52-57. 
+88 Kaihara et al (2005) Enzymatic transformation of bacterial polyhydroxyalkanoates into repolymerizable oligomers directed towa rds chemical 
+recycling. Macromol Biosci 5(7), 644-652. 
+89 Sheludko & Fessner (2020) Winning the numbers game in enzyme evolution-fast screening methods for improved biotechnology proteins. Curr Opin 
+Struct Biol 63:123-133. 
+90 Pinnell & Turner (2019) Shotgun metagenomics reveals the benthic microbial community response to plastic and bioplastic in a coastal marine 
+environment. Front Microbiol 10, 1252. 
+91 FH Arnold (2018) Directed Evolution: Bringing New Chemistry to Life. Angew. Chem Int Ed Engl 57(16), 4143-4148. 
+  
+BioSupPack                                                 BBI 2020.SO3. D4                                                       
+Page 24 of 112 
+enzymes by directed evolution and rational engineering92. Although either rational redesign or directed evolution can 
+be very effective, a combination of both strategies represents the most successful route to improve the properties and 
+function of the depolymerases that will be the target of the present project.  
+Beyond the state of the art, BioSupPack will scale-up an enzymatic bioprocess for recycling 3HB monomers from 
+PHB-based used packages through the following steps: (1) selection of efficient PHB depolymerase from 
+existing strains (e.g. B. megaterium) and existing metagenomic libraries from geothermal springs and plastic 
+decontamination sites produc ing 3H B monomers; (2) Enzyme engineering via directed evolution and rational 
+engineering; (4) cloning of PHB depolymerase for enzyme overproduction in E. coli and P. pastoris; (5) plasma 
+treatment for improving enzymatic hydrolysis of PHB; (6) optimisation  of enzymatic hydrolysis of used PHB -
+based packages using PHB depolymerase also or in combination with lipase; (7) utilisation of 3HB monomers in 
+PHB production. A PHB to 3HB conversion efficiency higher than 50% will be achieved by the end of the project.   
+ 
+Innovation potential 
+Feedstock recovery for PHAs production and other potential applications 
+BSG accounts for about 31% of the original malt weight, representing around 15-
+20 kg of BSG per 100 L of beer produced 93. Its composition94,95 (Table 5) varies 
+with barley variety, harvest time, and malting and mashing conditions. Being 
+commonly used as animal feed, it has been used as crude renewable feedstock to 
+produce various fermentation products.  However, despite its alread y described 
+potential (low cost, large availability throughout the year and rich composition in 
+polysaccharides and protein)96, about the 20% is still landfilled. BSG valorization 
+into biopolymers like PHA could represent a potential new business for both the 
+biorefinery and biotechnology industries derived from BioSupPack project. 
+BSG represent s approximately 85% of the total by -products of the brewery 
+industry. Considering the annual beer production per EU country and the production of ca 15-20 kg BSG per 100 L 
+of beer, then ca 10.8 BSG MTon (wet basis) was produced in 2016 (Eurostat). Considering 50% cellulose and 
+hemicellulose BSG content and 0.25 g/g conservative practical sugar to PHB conversion yield, as well as the fact 
+that 20% of the by-product is landfilled, then ca. 270.000 Ton PHB could be theoretically produced in the EU. 
+Other interesting BSG components have other potential markets that can be exploited , like phenolics and protein 
+isolates. The predominant phenolic acids in BSG are ferulic acid and  p-coumaric acid, with sinapic, caffeic and 
+syringic acids being present in lower quantities . Phenolics can be used  as antioxidant additives  in bioplastics and 
+proteins in the food sector by the use of derived proteins as animal feed or food supplements. 
+Sustainable packaging 
+When referring to bioplastics, packaging leads the market with more than 53% (1.14 MTon) of the total in 201997. 
+The European food packaging market size is expected to grow at a CAGR of 3.1% over the forecast period 2020 
+to 202598. Market analysis by material segmentation indicates that paper and paperboar d segment is envisioned to 
+record the most substantial revenue in the future. Their raising applications in the packaging of edible products, fresh 
+vegetables and beverages are the significant factor boosting this market demand. The plastic with its features like 
+lightweight, flexibility, affordability and protection is a prominent material. European paper packaging market is 
+expected to grow at a CAGR of 4.5% over the forecast period 2020 to 2025. The way consumers view and interact 
+with packages is altering. Owing to the rising focus on sustainability, consumers are preferring easily recyclable 
+carton packaging over plastic or tin  packaging99. This has been supported by many leading EU food brands and 
+retailers – including Nestlé, Unilever and Carrefour – publishing ambitious corporate sustainability goals that aim to 
+minimise plastics in their packa ging. This is stimulating demand for innovative paper -based alternatives that can 
+substitute effectively for plastic formats, while demonstrably illustrating to the consumer the brands commitment to 
+a greener future. Key areas of focus include coated paper and paperboard formats for flexible packaging formats such 
+as pouches; and paperboard or moulded paper trays for retail and food service applications 100. In this last case of 
+application, GPI partner has already on the market some service packaging coated with bio-PE and PLA, but there is 
+ 
+92 NE Labrou (2010) Random mutagenesis methods for in vitro directed enzyme evolution. Curr Protein Pept Sci 11(1), 91-100. 
+93 Moreirinha et al (2020) Antioxidant and antimicrobial films based on brewers spent grain arabinoxylans, nanocellulose and feruloylated compounds 
+for active packaging. Food Hydrocolloids: 105836. 
+94 Lorente et al (2019) Analysis and optimisation of a novel “bio-brewery” approach: Production of bio-fuels and bio-chemicals by microwave-assisted, 
+hydrothermal liquefaction of brewers’ spent grains. Energy Convers Manag 185, 410-430. 
+95 Ioannidou et al (2020) Sustainable production of bio-based chemicals and polymers via integrated biomass refining and bioprocessing in a circular 
+bioeconomy context. Bioresour Technol 307, 123093. 
+96 Lynch et al (2016) Brewers' spent grain: a review with an emphasis on food and health. J Inst Brew 122 (4) 553-568. 
+97 Bioplastics Market Data 2019 (European Bioplastics). 
+98 https://www.marketdataforecast.com/market-reports/europe-food-packaging-market 
+99 Mordor Intellingence Report 
+100 https://packagingeurope.com/four-growth-opportunities-packaging-europe-smithers-pira/ 
+Table 5. BSG composition 
+ Component Cerveza Mica Literature  
+Moisture 72.5 ± 0.49 75 
+Free sugars 0.5 ± 0.03 - 
+Cellulose 23.2 ± 0.54 12-25 
+Hemicellulose 35.4 ± 0.82 22-40 
+Xylan 22.3 ± 0.75 - 
+Arabinan  8.4 ± 0.06 - 
+Mannan 2.8 ± 0.11 - 
+Galactan 1.9 ± 0.03 - 
+Lignin 13.04 ± 0.47 12-28 
+Protein 16.8 ± 0.29 14-27 
+Lipids 6.5 ± 0.56 4-13 
+Ash 3.2 ± 0.10 1-5 
+  
+BioSupPack                                                 BBI 2020.SO3. D4                                                       
+Page 25 of 112 
+still a strong gap to reach solutions with versatile biodegradability. 
+The global cosmetic packaging market registered itself at a CAGR of 4.76% over the forecast period 2016-2027.101 
+Cosmetic packaging acts as a crucial factor in product marketing  and has become more natural and simpler . 
+Commonly, plastic is most preferred the material utilized for packaging of cosmetic materials.  
+The global home care packaging market  is expected to grow at ~ 8.5% CAGR during the forecast period  2020-
+2024102. Innovations have been numerous, particularly in laundry care. While sales are stagnating in developed 
+countries, developin g markets are driving volume sales through small pack sizes that make laundry detergent 
+affordable to all. Furthermore, offering more functional packaging remains key, globally, while consumers are 
+demanding more eco -friendly packaging and brand owners are  working toward  a more circular economy 103. 
+Plastics are the major packaging material being used by companies, driven by advantages like durability, cost 
+benefits and versatility. New polymers like PLA, biodegradable PHA (polyhydroxyalkanoate), bioPTT 
+(polytrimethyl terephthalate), etc are slowly getting acceptance, however, cost remains a deterrent.  
+Overall benchmarking and IP position 
+ANNEX II gathers the results from the patent search carried out focused on the main innovation area of the novel IP 
+to be generated in BioSupPack project. The table shows the conclusions in terms of the patents´ impact on the project. 
+On the other hand, some of th e BioSupPack partne rs own patents that are relevant to the project, positioning the 
+project in terms of intellectual property and in starting TRL of some of the technologies to be applied for delivering 
+the new biobased packaging solutions. These patents are shown in Table 6. 
+Table 6: Patents owned by BioSupPack partners relevant to the project 
+Patent (reference, title, status) Relevance to BioSupPack Conclusion in terms of impact on the project 
+Dispersion aqueuse de biopolymères 
+thermoplastiques, BE 2020/5152 
+pending, partner CTB. 
+Describes the formulation of a PHA 
+coating for different substrates. 
+The novel and cost-effective technique described 
+is scalable towards the innovation goals of the 
+project (from TRL level 5 to TRL level 7). 
+WO2013124361 A1 “Durable 
+polyhydroxyalkanoate 
+compositions”. Partner SABIO. 
+Relates to polymeric compositions 
+based on PHAs polymers, which are 
+biodegradable and renewable 
+bioplastics, and that can be melt 
+processed like polypropylene based 
+compositions into various forms of 
+articles. 
+SABIO owns a unique expertise in the field of 
+Melt Mixing Process for producing biobased 
+materials, including PHAs.  
+We have an own specific IP about durable 
+materials containing biobased polymers. 
+BIODURA® is the brand of our line of 
+sustainable materials conceived for both durable 
+high-end articles and compostable packaging.  
+Provisional Application: 
+AU2019904694 Plasma Water 
+Treatment. Partner PLT. 
+Applies to the formation of plasma 
+discharges in forming bubbles 
+underwater or other liquids. It has 
+direct application for both BSG sugar 
+production and waste treatment. 
+The technology offers an electron driven means 
+for both enhancing sugar extraction and waste 
+product treatment. Such an approach can be driven 
+by renewable energy and employ air as the feed 
+gas, making the process completely sustainable. 
+How the proposal covers the whole value chain. 
+BioSupPack will enable 
+know-how transfer through 
+its value chain : actors from 
+the primary sector providing 
+biomass (MICA), bio -based 
+raw materials producers from 
+the biotechnology industry 
+(NFG in close collaboration 
+with BUT, AUA), biobased 
+compounds and coatings 
+producers (SABIO, GPI in 
+close collaboration with 
+AIMPLAS, CTB and ASU), 
+plastic/packaging convert ors 
+(ILAB, GPI), end users of the 
+new biobased packaging  
+(UNL, NFG, MICA), as well 
+as consumer r epresentatives 
+(ASU), enzyme producer s 
+for fermentation processes 
+and enzymatic recycling (ASA, in close collaboration with AIMPLAS, AUA, BUT), feedstock and waste manager 
+(SAV), enzymatic recycling (SAV) and providers of specific technology to be applied in different points of the value 
+ 
+101 https://www.crystalmarketresearch.com/report/cosmetic-packaging-market 
+102 https://www.marketresearchfuture.com/reports/home -care-packaging-market-5203 
+103 https://www.mordorintelligence.com/industry -reports/homecare -packaging-market 
+Figure 8. BioSupPack value chain and actors 
+
+  
+BioSupPack                                                 BBI 2020.SO3. D4                                                       
+Page 26 of 112 
+chain: i) to enhance processes effectiveness, yields as well as packaging performance (PLT providing and upscaling 
+plasma technology), ii) to assure collection and management of the new packaging waste streams so that they follow 
+their corresponding pathways for recyclability (IRIS providing NIR based technology for the implementation of 
+selective sorting devices) and finally sustainability assessment providers (ENCO, ASU, AUA) and specialists in 
+project results transfer and innovation (EUBP, ENCO).  
+Stakeholders represented in our AB, actively supporting the project and covering also the value chain will be a strong 
+support to the project partners: food and beverage packaging end users and big distributors like Calidad Pascual will 
+collaborate with the validation of the beer secondary packaging , plastic waste recyclers like ROMEI will provide 
+packaging waste from conventional plastic materials to validate the developed sorting device for PHAs waste , 
+Vitoria-Gasteiz City Council, the association GOPHA! which will help support in promoting the development of the 
+new materials and packaging into the bioplastics industry, and stakeholders from other sectors like La Unió, interested 
+in the valorization of proteins for animal feed, also form part of it. 
+ 
+2. Impact

@@ -1,0 +1,747 @@
+1.4 Ambition 
+DECOAT aims at overcoming obstacles from current recycling technologies by designing coating formulations with 
+smart additives, which allow adequate sorting, separation and recycling. Developments of separation and recycling 
+technologies will be investigated and new separation technologies utilising novel mechanical and chemical recycling procedures 
+will be validated, to meet the EU's circular economy and environmental targets. 
+1.4.1 Progress beyond state-of-the-art 
+Building further on the available knowledge, 
+expertise and patented IP within the DECOAT 
+consortium, we will research and develop a 
+debonding system based on triggerable 
+additives, mechanical recycling, chemical 
+recycling (Creasolv process) and latest coating 
+(monitoring) technology. We will investigate 
+two debonding systems: (i) a single layer with 
+the trigger inside and (ii) a two-layer system 
+consisting of a standard coating and a ‘primer’ layer (see 
+sketches). Note that ‘primer’ is used here as common name 
+for tie layer or primer or base layer. For selected combinations 
+of the coating-substrate materials, we will research several 
+triggers and several options for the actual removal of the 
+coating (process conditions, 1-step versus 2-step). The output 
+will be a portfolio of debonding strategies, mentioning for each 
+of the solutions the pros and cons. This novel information will 
+form the basis for our DECOAT demonstration of circular use 
+of coated parts but also be made available to the wider 
+stakeholder community for further use.  
+In the next paragraphs we describe the concrete progress beyond the state-of-the-art that DECOAT ambitions for (i) 
+triggerable materials, (ii) optical monitoring for process optimisation and sorting of the coated waste, (iii) actual 
+recycling and (iv) eco-design aspects. 
+(i) Triggerable materials and related debonding systems – mainly related to WP1 & WP2 work 
+Coatings that debond on demand lose their adhesive function when an external trigger is applied. Partner CTB researched a 
+novel separation layer for textiles by embedding thermally expandable syntactic microspheres (in FP7 project 
+ECOMETEX). Separation concept was shown on lab scale in boiling water, which is not an efficient process as it needs extensive 
+energy (heating, drying). Partner RESCOLL developed an innovative, patented (see section 1.4.2) interfacial debonding 
+adhesive technology (INDAR™ Inside) permitting the dismantling of structural aerospace assemblies without damage and was 
+used for selective thermal stripping of aircraft paints. Partner NTUA has developed a variety of ‘smart’ nano- and microcapsules 
+based on various materials (ceramics, metals, polymers), that react on external stimuli (water, mechanical stresses, 
+ 
+10 Source: http://www.vaude.com/angebote/nachhaltigkeitsbericht/2013_Nachhaltigkeitsbericht_screen_ENGL.pdf  
+11 Londa Schiebinger (2008). Gendered Innovations in Science and Engineering. ISBN: 978080475814 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 9 of 127 
+microorganisms, etc), in projects LORCENCIS and BYEFOULING (see also project table above). Partner CTECH developed 
+additives for interaction with microwaves. Based on that, a unique patented (polyester) yarn was developed, which 
+disintegrates during microwaving12. This yarn enables easy and inexpensive removal of e.g. zippers (disassembly step). 
+DECOAT novelty: Using the available IP and expertise, we will develop triggerable additives for water-based coating 
+formulations with a lowered debonding temperature as compared to existing procedures, although exceeding the processing 
+and working temperature required/set by industrial demo cases. A sufficient difference between the manufacturing, maximal 
+service and the debonding temperature will be ensured and will be realised by improving the heat direction towards the additives, 
+e.g. by heat focussing layers or thermal conductive paints. Thermo-responsive core-shell nanostructured co-polymers, Super 
+Absorbent Polymers (SAP) and novel hybrid microwave susceptible materials (based on metal nanoparticles, silicon carbides 
+and multiwall carbon nanotubes MWCNTs) will be investigated. Separation will be done by heat sources (like steam, microwaves 
+and IR) that are available at industrial level to avoid the need for additional, or only very limited, drying. To reach a clean surface 
+after debonding, we focus on controlled interfacial decohesion. For detection purposes, fluorescent molecules will be added on 
+the “smart” additives (dyes). 
+The table below gives an overview of the materials to be developed and the polymer coating matrices to which they can 
+be added. Already a first matching between the trigger mechanism and the polymer matrix is made, based on the chemistry 
+of the particles and what is available in literature. As mentioned this is a first matching, further investigation within the DECOAT 
+project is needed. Below the table, each of the triggerable materials is discussed, giving more info on their synthesis and the 
+challenges for their use in an actual debonding system. 
+Triggerable materials Coating Polymer 
+matrix 
+Triggers 
+Thermo-responsive core-shell nanostructured co-polymers 
+Core: e.g. poly(propyl methacrylate) or poly(butyl methacrylate)  
+Shell: e.g. poly(4-vinylpyridine-co-methacrylic acid), ethylene-glycol-bismethacrylate,  
+Functionalised with: organic dye (I), iron oxides (supermagnetic nanoparticles) 
+Acrylic, PU13 
+PVC14 
+Heat / Steam 
+(Temperature) 
+Super Absorbent Polymers  
+Core: Cross-linked poly(methacrylate-co-ethylene glycol dimethacrylate) 
+Functionalised with: organic dye (II), iron oxides (supermagnetic nanoparticles) 
+Acrylic 
+Epoxies15 
+Selective 
+Solvents (H20 or 
+organic solvents) 
+Microwave assisted materials 
+MWCNTs (decorated with metal nanoparticles or grown on SiO2 nanoparticles) 
+Susceptors: Metaloxide nanoparticles (e.g. ferroelectric oxide particles), BaTiO3, 
+siliconcarbide, ZnO, silica or alumina 
+Blended with high dielectric polymer 
+PU16 
+PVC17 
+Epoxies18 
+MW irradiation 
+Blowing agents (INDAR) 
+Blowing agents: azodicarbonamide and polycarboxylic acid 
+Blended into formulations for primers, combination with other triggers 
+Epoxies, PU19  Heat / Steam 
+(Temperature) 
+Thermo-responsive core-shell nanostructured co-polymers 
+Partner NTUA has vast experience in synthesis and development of tailored microcapsules and nanoadditives with functional 
+properties (currently at TRL3)20,21,22. Partner DEVAN has built over the years a strong IP portfolio of microcapsules for various 
+applications23. 
+DECOAT novelty: we will make progress on the following topics to realise this triggerable material: 
+ 
+12 Patent WO2013/189956A1, see also www.wear2.com  
+13 M.Hirose, et al.,The structure and properties of core-shell type acrylic-polyurethane hybrid aqueous emulsions, Progress in Organic Coatings, 31, (1–2) 1997, 157-169 
+14 A. Gharieh, et al., Preparation of core–shell impact modifier particles for PVC with nanometric shell thickness through seeded emulsion polymerization, Iranian Polymer 
+Journal 23(1), 2013 
+15 I.A. Kartsonakis, et al., Multifunctional epoxy coatings combining a mixture of traps and inhibitor loaded nanocontainers for corrosion protection of AA2024-T3, Corrosion 
+Science, 85, 2014, 147-159. 
+16 E. Orgiles-Calpena, et al., Effect of Amount of Carbon Nanotubes in Polyurethane Dispersions, Macromolecular Symposia, 2012. 
+17 K. Trommer, et al., Processing and Properties of Carbon Nanotube PVC Composites, L. Appl. Chem., 2014, 10 
+18 J. Zhang, et al., Functional interphases with multi-walled carbon nanotubes in glass fibre/epoxy composites, Carbon, 48, 8,  2010, 2273-2281 
+19 EP2265681 (B1), EP2519596 (B1), EP2519565 (A1), EP1611217 (B1), EP1814935 (B1) 
+20 A.C. Balaskas, T. Hashimoto, M. Curioni, G.E. Thomson, Nanoscale 2017 9:5499-5508. 
+21 A.C. Balaskas, I.A. Kartsonakis, L.-A. Tziveleka, G.C. Kordas, Progress in Organic Coatings 2012 74:418-426. 
+22 I.A. Kartsonakis, A.C. Balaskas, E.P. Koumoulos, C.A. Charitidis, G.C. Kordas, Corrosion Science 2012 57: 30-41. 
+23 Patents EP1658131 (B1), US2008193761 (A1), US2016009596 (A1) 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 10 of 127 
+Microcapsule core: selection of polymers with thermo-responsive properties or inclusion of active ingredients that help 
+delamination of textile layers (eg. poly(propyl methacrylate) or poly(butyl methacrylate). 
+Microcapsule shell: selection of suitable shell components to enclose the core material. In thermo-responsive core-shell 
+nanostructured co-polymers, a protective thermoplastic shell with tunable glass transition temperature (Tg) and melting 
+temperature (Tm), will be tailored to have a higher Tg than the core’s polymer. The Tg is highly related to segmental polymer 
+chain motion. As polymers warm up, the shell with the high Tg will act as a protective coating for the polymeric core, which will be 
+in melting conditions at elevated temperature. When the ambient temperature surpasses the Tg of the shell, the inner core 
+(material) will have a high chain mobility enabling detaching of the surfaces. At this defined moment the core material is released 
+from the capsule, triggering debonding. On the one hand, the shells should not react with the core material and on the other hand 
+they should have a good chemical compatibility with the surrounding matrices. Examples of possible materials are: melamine 
+resins, polyurea/polyurethanes, polyacrylates. In addition, the shells should provide a good storage for the active ingredients 
+during the entire lifetime of the products, and only rupture/or release the active ingredient when triggered (end of the product life). 
+Functionalization of the protective thermoplastic shell to increase its compatibility with a wide range of ‘coating’ 
+formulations, also for INDAR technology (see below). The main materials: PU, PVC, acrylic, epoxies. Of potential further interest: 
+amino, cyanates, isocyanides, hydroxyls, sulphonamides, and phthalates. DECOAT consortium is aware that some forms of these 
+substances have restrictions, so REACH compliance will be checked (see also Task 6.1). 
+The use of the microcapsules in the debonding system: The microcapsule concentration (ca. 5% or less) and cross-linking 
+density of the adhesive will be tailored and optimized, for strong adhesion during product use but also for ease of debonding at 
+end-of-life. The latter will be achieved by exposure to heat as this will melt the shell, and thus activate the core. Homogeneous 
+heat dissipation and activation of the microcapsules will be obtained by adding superparamagnetic nanoparticles (Fe3O4). 
+Application of irradiation will locally (=near the microcapsules) raise the temperature24,25. The aim is to develop materials that 
+will be able to create ‘soft flexible points’ inside the crosslinked adhesive network in the presence of the external stimuli, 
+thus improving detachment. 
+Summarizing, the trigger mechanism for the thermo-responsive core-shell 
+nanostructured co-polymers relies on the different physical properties (Tg) 
+between the core and the shell materials that construct the primer layer. The 
+induction of heat onto the core-shell materials above the Tg of the organic shell, 
+results in the different polymer chain mobility enhancement between the core 
+and the shell. The outcome is the reduction of the attachment between the 
+primer layer and both the top coating and substrate, enabling the detachment 
+of the top coating from the corresponding substrate.  
+Super Absorbent Polymers (SAPs)  
+SAPs can absorb and retain extremely large amounts of a liquid relative to their own mass. Water-absorbing polymers, which are 
+classified as hydrogels when cross-linked26, absorb aqueous solutions through hydrogen bonding with water molecules. In 
+deionized and distilled water, a SAP may absorb 300 times its weight (from 30 to 60 times its own volume) and can become up 
+to 99.9% liquid. 
+DECOAT Novelty: The SAP materials will exhibit a spherical shape with a two-layered structure: the polymeric core will be a 
+lightly crosslinked hydrogel and the outer surface will be a highly crosslinked layer. The water absorption capacity of the SAPs is 
+influenced by the nature and relative amounts of monomers used in the synthesis27. In this sense, the regulation of the crosslinker 
+amount (both in the core and shell material) will be the key-property to achieve the desired degree of water absorbency for the 
+debonding effect as well as the required protection of the hydrophilic core for obtaining a stable waterborne formulation28. 
+Clearly, the amount of crosslinker is a decisive parameter for the swelling behaviour of hydrogels and the aim is to achieve a 
+compromise between the crosslinking level and a stable gel structure29,30. 
+ 
+24Journal of Colloid and Interface Science, Volume 435, 2014, 99-104. 
+25Journal of Magnetism and Magnetic Materials, Volume 302, Issue 1, 2006, Pages 267-271. 
+26 Kabiri, K. (2003). "Synthesis of fast-swelling superabsorbent hydrogels: effect of crosslinker type and concentration on porosity and absorption rate". European Polymer 
+Journal. 39 (7): 1341–1348 
+27Kabiri, K., et al., Superabsorbent hydrogel composites and nanocomposites: A review. Polymer Composites, 2011. 32(2): p. 277-289. 
+28Chang, S., et al., Multi-scale characterization of surface-crosslinked superabsorbent polymer hydrogel spheres. Polymer, 2018. 145: p. 174-183. 
+29Goncalves, A.A.L., et al., Synthesis and characterization of high performance superabsorbent hydrogelsusingbis[2-(methacryloyloxy)ethyl] phosphate as crosslinker. Express 
+Polymer Letters, 2016. 10(3): p. 248-258. 
+30Cipriano, B.H., et al., Superabsorbent Hydrogels That Are Robust and Highly Stretchable. Macromolecules, 2014. 47(13): p. 4445-4452. 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 11 of 127 
+The effect of the pH on the water absorbency of the SAP 
+spheres will be also investigated. The dispersion of the core-
+shell SAP materials will be investigated in an aqueous solvent 
+where swelling equilibrium experiments will be performed to 
+study water absorption at different pH. When the pH favours 
+the repulsive forces between the polymeric chains, the water 
+absorbency is increased. On the other hand, when a 
+screening effect of the polar groups of the polymer chains 
+takes place, the repulsive forces between the charged 
+polymer chains are minimized and the water absorbency in 
+greatly decreased. Based on this phenomenon27, the pH value of the waterborne formulations developed will be selected based 
+on the value where the minimum water absorbency is observed. In this way, the SAP materials will be in a not swollen state 
+during their incorporation in the coatings and they will be activated only upon the trigger. The trigger mechanism for the 
+core-shell hydrophilic SAPs relies on the different ability of the core and the shell materials to be swollen under variation of pH. 
+Therefore, under the influence of water with specific pH value, the SAPs can enhance their shape due to the water absorption 
+resulting in the reduction of the attachment between the primer layer and both the top coating and substrate, enabling the 
+detachment of the top coating from the corresponding substrate. 
+To apply the MW trigger, these structures will be also functionalized with thermally-responsive magnetic nanoparticles 
+(eg Mn-Zn ferrites or Ni or iron oxide) which will be selected based on the Curie temperature that matches the crosslinked layer’s 
+melting point31. This functionalization will make the shell more susceptible to heating so that the shell can be selectively molten, 
+as described also for the case of the thermo-responsive core-shell co-polymers, allowing the lightly crosslinked hydrophilic core 
+to absorb a large amount of water, causing the swelling and activating the debonding. 
+To apply the Creasolv process, lipophilic super-absorbent polymers32 for the absorption of the desirable organic 
+solvents will be prepared by selecting the appropriate compounds both for the polymer chains that control the compatibility with 
+the media and the ionic groups that are dissociable in polymer gels (e.g. alkylammonium salts). Candidate materials include 
+acrylate monomers copolymerized with methacrylates as crosslinkers to yield lipophilic polyelectrolyte gels. The nature of the 
+organic solvent and specifically its polarity (dielectric constant) will influence the swelling behaviour of the SAP materials 
+produced. For this reason, the ionic group content will be adjusted to avoid the formation of physical interactions which will 
+negatively influence the swelling behaviour of the lipophilic SAP. The trigger mechanism for the core-shell hydrophylic SAPs relies 
+on the different ability of the core and the shell materials to be swollen under the presence of an organic solvent. Thus, under the 
+influence of an organic solvent that has enhanced chemical affinity with the shell material, the SAPs can enhance their shape due 
+to the organic solvent absorbtion water resulting in the reduction of the attachment between the primer layer and both the top 
+coating and substrate, enabling the detachment of the top coating from the corresponding substrate. 
+Hybrid materials reacting to MW triggers 
+Two forms of dielectric heating are commonly used industrially differing in wavelength of the applied electromagnetic 
+radiation. These are Rf heating using wavelengths at 27 and 40MHz and MW heating using 2.45Ghz and 896MHz. 
+Depending upon the material to be processed, there are advantages and disadvantages of using the different forms of radiation, 
+but the main advantage is the direct heating of the material by the application of the radiation with no external heat transfer or hot 
+surface required. Using Mw and Rf can be done either as a batch system or a semi batch system. In the latter case the materials 
+are placed into a screened cavity and then heated by the application of the desired power for a defined time. This gives some 
+advantages in the design because the system can be enclosed ensuring no leakage of radiation. Materials can be introduced in 
+containers, treated and then removed to be processed further. Continuous processes are also possible for both Rf and MW 
+systems for example conveyers can be used to introduce and remove the materials into the applicator zone.   
+The main microwave absorption mechanism of a polymer is reorientation of the dipoles when submitted to an electric field, 
+the presence of these groups in the molecule is necessary. Some polymers contain groups with large dipoles, such as epoxies, 
+amino, cyanate, isocyanides, hydroxyls, sulphonamides and phthalates. The materials with the best dipole mobility exhibit high 
+absorption efficiency and the efficiency of the coupling depends on the strength of the dipole, its mobility and mass, as well as its 
+dipole matrix state. The choice of the polymers and the formulation will therefore need to be investigated for an optimal heating 
+effect. By applying electromagnetic radiation to a material, movement of the molecules via dipole interactions with the oscillating 
+electric field is induced, resulting in molecular friction. This leads to dielectric heating of materials. 
+ 
+ 
+31A. S. Ahmed y R. V. Ramanujan, Curie temperature controlled self-healing magnet–polymer composites, J. Mater. Res., 2015. 30 (07): p. 946-958. 
+32Ono, T., et al., Lipophilic polyelectrolyte gels as super-absorbent polymers for nonpolar organic solvents. Nat Mater, 2007. 6(6): p. 429-33. 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 12 of 127 
+Comparison of Rf and MW heating key properties 
+Parameter Rf MW 
+Applied heating efficiency order of 60% order of 65% 
+Uniformity of heating Good  Can be less uniform  
+Impedance matching Can be difficult for certain applications Easily applied  
+Energy delivery Accurate and fast  Less controlled  
+Remote power sources Ok Ok with waveguide transfer to the applicator 
+Screening to comply with EMC 
+requirements 
+Easy  More difficult  
+Tailor heating to materials Easy  (More) difficult   
+Common characteristics 
+Volumetric heating –no external 
+heat transfer 
+Dielectric heating does not require physical 
+contact with the product 
+Low shear transport (conveyorised possible) 
+Typical susceptors that are used nowadays for MW heating are metaloxide nanoparticles (e.g. ferroelectric oxide particles 
+e.g. BaTiO3, siliconcarbide, ZnO, silica or alumina). To date, use of microwave heating in carbon-based materials research 
+of is limited, mainly focused on liquid solutions. However, more rapid and efficient heating is possible in electron-rich solid 
+materials, because the target materials absorb energy of microwaves effectively and exclusively. Carbon-based solid materials 
+are suitable for microwave-heating. Specifically, carbon nanotubes (CNTs) have excellent electrical properties resulting from sp2 
+networks of carbon atoms. The number of free electrons which can migrate freely over the whole of the layer is about one per 
+each carbon atom. The free electrons enable CNTs to absorb microwave energy considerably and to be heated effectively by 
+microwaves33.The tuning feasibility of the permittivity value by changing MWCNTs concentration (1-5%) has been also proven34. 
+Other applications like annealing, regeneration and detection based on microwave heating of CNTs have been reported. 
+DECOAT novelty: 
+The main idea is the possibility to include susceptors in a primer layer to provide a heating effect to separate the substrate 
+and the top coating. The susceptor may also be part of the actual coating in case of a single layer. The bulk polymer would need 
+to be a low dielectric material to avoid MW heating of the bulk. The aim is to provide selective heating in the area of the susceptor, 
+to either melt (and remove) the primer and thus also the coating on top, or to melt the entire coating itself and remove the coating 
+layer. 
+For the heating, we will start with MW heating as most likely option. Also Rf will be tested and the possibility to add (as extra) 
+some radiant heating component. In DECOAT, it will be investigated which would be the best energy source, or combination, to 
+use in order to achieve the effect.  
+To tune the heating and to make it more uniform, we will optimise the % and type of additive. We will also investigate the 
+addition of MW transparent material such as silica or alumina to disperse the particles and moderate the heating effect. Indeed, 
+heating needs to be limited to prevent thermal runaway causing melting or charring of the bulk polymer. Issues might occur if the 
+component contains e.g. metal parts (e.g. fixings/brackets) which could cause arcing or materials fillers that heat strongly in a 
+MW/Rf field. This potential variability of feed would need to be considered, even though we will try to limit the variability via the 
+previous disassembly step and the monitoring and sorting of the waste.  
+ 
+33T. Kim, et al., Microwave heating of carbon-based solid materials, Carbon letters Vol. 15, No. 1, 15-24, 2014. 
+34M. Giorcelli, et al., Microwave absorption properties in epoxy resin Multi Walled Carbon Nanotubes composites, 2013 International Conference on Electromagnetics in 
+Advanced Applications (ICEAA), Italy, 9-13 Sept. 2013 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 13 of 127 
+We will start making formulations with common susceptors such as small metal particles (nano particles), ferroelectric oxide 
+particles e.g. BaTiO3, silicon carbide or blends with high dielectric polymer. The primer layer or the coating will need a lower 
+melting point compared to the bulk material.  
+A novelty for targeted MW heating will be the exploration of carbon-based particles, like carbon 
+powder, MWCNT and CNT/MO (Metal Oxide) nanocomposites (see picture on the side35). The latter are 
+a new generation with interesting properties that not only combine the properties of CNTs and MO but 
+also hold new properties caused by the interaction between them. Additionally, use of these materials in 
+a polymer coating formulation can overcome some common disadvantages. For example, metal oxide 
+nanoparticles tend to agglomerate because of their dangling bonds. In CNT/MO composites, depositing 
+nanoparticles on the surface of the nanotube prevents their agglomeration. The aggregation of nanotubes 
+in aqueous media is solved by functionalization. As a result, these nanocomposites are attractive for a 
+wide range of applications compared to the isolated nanoparticles because CNTs act as a carrier to stabilize the nanoparticles, 
+maintaining their integrity. This will help the induction of the heat through MW and Rf inside the coating, since CNTs will work 
+as a thermal conductive network inside the polymer matrix, which should be very beneficial for the debonding 
+functionality. The result will be the reduction of the attachment between the primer layer and both the top coating and substrate, 
+enabling the detachment of the top coating from the corresponding substrate. 
+(ii) Automated Sorting technology based on DECOAT triggerable additives – mainly related to WP3 & WP4 work 
+For the actual recycling of DECOAT products to be implemented in a future waste management configuration, an efficient and 
+automated sorting is required based on the material composition for defining the respective recycling route and for 
+separating them from non-recyclable parts (e.g. standard coated parts not including triggers). Due to the lack of recycling 
+options, textiles are often not separately collected or sorted and automotive non-metallic parts shredded as a mixture that is 
+energetically valorised at best, plastics (especially packaging, WEEE) are industrially sorted via spectroscopic identification 
+systems (e.g. NIR, X-ray, colour, laser and combinations)36 or even hand sorting. The latter is unreliable and not suitable for the 
+DECOAT materials as the smart additives cannot be seen by human workers. Partner IRIS has experience in developing tailored 
+fast online VIS/NIR spectroscopic tools for plastic processing monitoring to identify precisely their composition and to detect traces 
+of unwanted substances37,38.  
+NIR absorbance spectroscopy is well established as a technique for inline sorting of a wide range of materials, including 
+agricultural products such as food products; minerals39 and plastic waste40. In particular, Steinert GmbH41 provides a wide range 
+of sorting machines with NIR imaging, handling plastic waste, household waste, compost, building waste, and minerals produced 
+by mining. Waste plastics are especially suited for NIR absorbance characterisation, as they exhibit strong spectral features in 
+the near infra-red. Conversely, most plastics have similar appearance and shapes in the visible wavelength range, so using 
+conventional machine vision for sorting is not effective. Allied with this, a large proportion of waste plastic materials will be 
+presented as macroscale objects of a single material type, which means they are easily imaged using the spatial resolution 
+available with common hyperspectral cameras.  
+Challenges remain in sorting plastics, including distinguishing materials that have multiple component materials, such as 
+coatings, colouring agents and fillers, or separating objects that are dark coloured, or which have been used for containing different 
+materials, including hazardous ones.  
+Recently, the addition of fluorescent markers has been developed as a way to add specificity to objects that are difficult 
+to sort based on NIR spectroscopy of their basic material type. Such organic dyes absorb light of a particular wavelength and 
+emit light with a longer wavelength. This property, called fluorescence, can be detected with extremely high sensitivity and 
+therefore, only a very small concentration of a fluorescent dye is sufficient. Coatings with a thickness of ~ 1 μm require a dye 
+concentration in the order of some parts per billion, to enable the detection of the fluorescence. Such a small concentration in a 
+thin layer is not visible to the eye and does not affect physical properties like mechanical strength. 
+In terms of process control of transparent organic coatings, such a system has been recently developed, with the 
+involvement of partner IVV, by the Fraunhofer Polymer Surfaces Alliance POLO®42. For the excitation of the dye molecules a 
+(monochromatic) light source (LED, laser) is required, and a digital camera can be used to detect the fluorescence light. 
+ 
+35Vinod K. GuptaandTawfik A. Saleh, Synthesis of Carbon Nanotube-Metal  Oxides Composites; Adsorption  and Photo-degradation 
+36 Plastic handbook chapter 8: PLASTICS RECYCLING AND BIODEGRADABLE PLASTICS, Susan E. Selke: 
+37 OPTIJECT project (Grant Agreement no. 262623), www.optiject.eu 
+38 B2B contracts for the detection of good batches of recyclates as well as for HSI-based monitoring solution for plastic identification in recycling line 
+39 Steinert KSS Optical Sorting Machine, Steinert GmbH, Widdersdorfer Str. 329 – 331, D-50933 Cologne, Germany. https://steinertglobal.com/mining/industrial-minerals/ 
+40 PICVISA Ecopack, PICVISA Optical Sorting, C/Isaac Newton, 2, 08280 Calaf (Barcelona) España, http://picvisa.com/en/p/productos/ecopack-plastic-sorting-21-18 
+41 https://steinertglobal.com/magnets-sensor-sorting-units/sensor-sorting/nir-sorting-systems/ 
+42 https://www.polo.fraunhofer.de/de/Aktuelles/downloads.html 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 14 of 127 
+Depending on the dye’s optical properties additional components such as filters might be necessary. These properties can be 
+used to tag materials and coatings43 and for example determine coating thickness. In addition, some dyes show a fluorescence 
+effect, whose intensity and wavelength is influenced by the surrounding molecules, the pH, the ionic strength of the medium, or 
+by the viscosity of the matrix, showing a stronger fluorescence depending on the cross-linking degree of the resin. 
+In terms of sorting, fluorescent markers are already well established as a means of sorting cells or other biological species44. A 
+prototype system has been developed to sort small flakes of plastic, by the addition of fluorophores45, which reduces the minimum 
+size of an object that can be sorted, and handles more complex polymer blends. A commercial fluorescent marker and sorting 
+system for polymers is offered by Polysecure46. This system requires the addition of fluorophores to the polymer itself, and in 
+sufficient quantities for detection, and so the amount of fluorescent material required is a limiting factor to the general use of this 
+technology. A new product under development by Nextek Ltd., called PRISM47, is based on the addition of fluorescent inks to the 
+labels of plastic containers, which strongly reduces the amount of fluorophore required, but presents challenges if the labels have 
+been partially removed or degraded in handling. 
+Fluorescent markers are typically produced in the form of molecular dyes/ nanoparticles. Dyes are the most cost-effective 
+fluorophore, which makes them attractive for waste sorting. However, where nanoparticles are already deployed as functional 
+additives, such as paramagnetic oscillators, it should be possible to add the functionality of fluorescence to existing particles, or 
+microspheres. Such dual-use particles have been developed for combined cancer-cell imaging and destruction48. Commercial 
+fluorescent paramagnetic microspheres are available49, while customised particles will be investigated that are suitable for 
+material properties of debonding adhesives under development. While carbon nanotubes-based nanocomposites are expected 
+to require fluorescence dyes, other standard metallic nanoparticles (eg iron oxide) can be identified using standard X-ray 
+fluorescence spectroscopy without dye addition. Dispersion of nanoparticles in thin films can be characterised by diffractometric 
+techniques50. 
+DECOAT novelty: In terms of process control, fluorescent dyes, applied in ppm (parts per million) concentrations in core and shell 
+of the triggering materials, and resulting in a specific fluorescence will be used in the design the microcapsules. The detection 
+system records the fluorescence intensity distribution, which finally will be converted into volume distribution of the core and shell 
+within the coating. Moreover, the curing states of the core and shell can be imaged by using special dyes. The advantage of such 
+a system is to measure and control all thickness/curing state relevant parameters at the same time during production. In terms of 
+sorting, these fluorescent markers in the core-shell will be unique to the microcapsule and its triggering mechanism, and therefore 
+allow sorting each part to the appropriate channel and process for debonding and separation. The amounts of fluorophore are 
+limited, and localised to the region of the part containing the adhesive layers, so that in the case where more than one additive is 
+present, they can be identified separately, and a multiple stage recycling route can be implemented. All in all, we will research 
+and optimise the hardware based on tailored photonic techniques and software using advanced chemometrics analysis and 
+combining several technologies as required for identifying each relevant material. They will be adjusted to sort bonded and 
+coated materials. Similar techniques will be used to control proper removal and quantify residues as needed to ensure quality of 
+reprocessed substrate material and for the tracking important parameters of the core shell synthesis, nano/micro composites 
+dispersion and coating thickness as determinants of trigger efficiency. 
+(iii) Upgraded mechanical and chemical recycling process – mainly related to WP4 work 
+Trigger assisted mechanical recycling. Mechanical recycling is often most preferred from economic viewpoint. However, it is 
+often limited in capabilities, e.g. for removal of contaminants. A well-known method is using a continuous high speed centrifuge 
+to remove water and other impurities during plastic recycling. To our knowledge, combination with a trigger is not known at pilot 
+or industrial level. 
+DECOAT novelty: develop a continuous recycling pilot line to separate the coating from the coated plastics and textiles 
+part by using a high speed industrial centrifuge (mechanical separation) that integrates the trigger mechanisms and that 
+can be combined with the novel sorting technology. The idea is to start with grinding in medium size parts (3 x 3 cm), to have 
+the material pass through an activation step (e.g. microwave, IR or steam oven tunnel or chemical bath), to trigger the debonding 
+ 
+43 Holländer et al., (2015). "Process control for thin organic coatings using fluorescence dyes." Progress in Organic Coatings 88: 71-74. 
+44 David W. Galbraith, Flow cytometry and fluorescence-activated cell sorting in plants: the past, present, and future, Biomédica 2010;30(Supl):65-70 
+45 S. Brunner, P. Fomin, Ch. Kargel, Automated sorting of polymer flakes: Fluorescence labeling and development of a measurement system prototype, Waste Management 
+38 (2015) 49–60 
+46 Polysecure GmbH, Engesserstrasse 4a, 79108 Freiburg / Germany, http://www.polysecure.eu/en/product-marker-solution/product-marker-solution/ 
+47 Nextek Ltd., Level 2, 1 Kensington Gore, London SW7 2AR, United Kingdom. http://nextek.org/portfolio/sorting-with-markers/ 
+48 Shang-Hsiu Hu and Xiaohu Gao, Nanocomposites with Spatially Separated Functionalities for Combined Imaging and Magnetolytic Therapy, J. AM. CHEM. SOC. 2010, 
+132, 7234–7237 
+49 Spherotech Fluorescent Magnetic Particles, Spherotech, Inc. 27845 Irma Lee Circle, Unit 101, Lake Forest, IL 60045, USA 
+50 http://optinanopro.eu/optinanopro01/files/2018/06/ApplicationNote-Texture.pdf 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 15 of 127 
+and to start the separation process. The centrifuge movement will permit that the coating, even if its weight is comparable to the 
+weight of the substrate material, will go out of the system fairly easy. Finally, the ‘decoated’ polymer (plastic parts, textile fibres) 
+will be extruded and pelletized to be used again for melt extrusion. CO2 will be introduced during the melt extrusion process 
+to remove residual amounts of coating and VOCs. 
+Chemical recycling via CREASOLV process: This is a solvent based selective extraction process developed by partner IVV 
+that allows pure plastics at the molecular level to be recovered due to their specific solubility. It has no by-product (solvents can 
+be used in closed loop endlessly with only few ppm lost in each cycle) and a very low environmental impact demonstrated by 
+peer-reviewed LCAs51,52. Unlike general chemical recycling that generate monomers requiring a new polymerization step, 
+Creasolv® generates polymers. One further advantage is that via successive steps with tailored solvents, even mixed input 
+materials can be recycled. Furthermore, due to the mild processing conditions (no supercritical conditions), the polymer maintains 
+its properties as opposed to mechanical recycling. So far, CreaSolv® has been applied to standard thermoplastics like PS, PE, 
+PVC, PA, etc. It has also already been successfully tested on lab-scale for recycling of PVC/PET composites53. 
+DECOAT novelty: the process will be adapted for typical textile and plastics coatings enabling the recovery of selected 
+coating materials. In combination with DECOAT core/shell microcapsules and lipophilic SAPs, the CreaSolv® treatment will be 
+researched as a potential method of triggering, e.g. by triggering the swelling of SAP’s and also as a method to remove remaining 
+contaminants after the application of a previous (mechanical) debonding process. 
+(iv) Demonstration of circular use and related eco-design– mainly related to WP5 work 
+Circular use of raw materials of coated parts. DECOAT emphasises on the removal step, i.e. the separation of the coating 
+from the substrate. However, we also want to show that it is possible to recycle the materials, coating and substrate afterwards.  
+DECOAT novelty: DECOAT ambitions to show this circular use and wants to demonstrate it for one generic coated textile and for 
+one generic coated plastics case. We want to select two such generic systems and will show circularity of the material use. For 
+the actual debonding, we will apply the most suitable technology developed within DECOAT. For the recycling of the coating and 
+of the substrate material, we will rely on the best available technologies at that moment.  
+Difficult to predict already now but some good candidates: PVC coated PES fabric and ABS coated PUR. The actual recycling of 
+the thermoset PUR is outside the scope of DECOAT but several efforts (eg H2020 projects URBANREC, see also section 2.1.2) 
+are ongoing. DECOAT will rely on these efforts for showing the circular use. 
+Further, we want to also make prototypes of actual parts for the use cases presented by the end-users, see also next section. 
+These prototypes will be based on eco-design of the coatings, implementing the DECOAT findings. The outcome will be strategies 
+to design single and multilayer coating solutions for textile and plastic substrates using our DECOAT developments. 
+A public tool will be released that helps to integrate DECOAT technology in the eco-design of coated parts. 
+ 
+1.4.2 Innovation potential 
+The innovation potential of DECOAT is rooted in the current need for improved high tech material solutions for 
+implementation of cost efficient solutions for recycling of coated textile and plastic parts. A significant contribution can 
+be delivered to the emerging remanufacturing industry in Europe by helping it to extend to plastic parts. 
+Recycling of coated plastic parts. The current technology for recycling painted parts is based on chemical 
+bath, which is expensive, prone to contamination, and difficult to implement on small scale (so for SMEs 
+that need to recycle the scrap). The technology is only available in some large recycling companies and OEMs. 
+This chemical bath has a removal efficiency of ca 95-98,5%. The current 1,5% of coating that remains 
+causes a dramatic loss of properties in the recycled material. Taking all this into account, the innovation 
+potential targeted by DECOAT is to (i) find alternatives for the current chemical baths for a more 
+environmental-friendly process that is easier and cheaper to implement at small scale/companies; (ii) achieve 
+a removal efficiency of >99% in a single step, leading to higher quality recycled material at market affordable price.  
+ 
+51 https://polystyreneloop.org/content/8-downloads/presentations/10-lca-of-etics-eol-treatment-of-eps.pdf   
+52 Freegard, K.; Tan, G.; Morton, R. 3rd interim report on WRAP Project PLA-037. The Waste & Resources Action Programme, Banbury (UK), 2006. 
+53 U.Knauf et al. Recycling of PVC/PET composites - Production of pure and homogeneous recyclates, and process monitoring – Kunststoffe / Plast Europe Vol 90 (2) 24-26, 
+2000 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 16 of 127 
+Market size coated plastics: European plastic parts production was almost € 37billion euro (Eurostat – 2016 data). Assuming 
+that ca 20% is coated, we find a European market value for coated plastic parts of more than €7 billion. For the coating 
+materials themselves (acrylates, polyurethanes,…), the worldwide market on plastics was valued at ca. € 5 billion (2015). The 
+global demand for automotive coatings is ca. 3 million tonnes, with the European share over 20% (2016)54.  
+Recycling of coated textiles. In the past recycling of PVC coated PET fabrics and pilot scale recycling has 
+been tried, using chemical recycling, e.g. TexyLoop55. Further, textile recycling mainly focusses on shredding 
+of uncoated textile fabrics (typically production waste, also some post-consumer) into short fibres that are 
+reused for non-woven production. And although coated textiles are often used, no economically viable solutions 
+targeting a reasonable value after recycling exist today. The innovation potential targeted by DECOAT is to 
+present coating solutions made with recycling in mind, both from the design and materials side. Moreover, the 
+corresponding techniques will be developed. This innovation potential is on medium-term as DECOAT will offer a novel option, 
+in-between the existing pure mechanical and chemical recycling, for dealing with coated textiles and plastics. 
+Market size coated textiles: The global coated fabrics market is projected to reach almost €25 billion by 2021, at a CAGR 
+of more than 4% in terms of value, during the forecast period, 2016 to 202156. The European textile coatings market is 
+projected to witness growth over 4% up to 2024. Rising industrial, transportation, and building & construction are driving the 
+market for textile coatings. Along with these, increasing quality and performance standards in textile coating based fabrics are 
+also driving the market. Recent market potential of microencapsulated products/ additives is estimated at ca. €5 billion, 
+growth ca 5-7%/y57 and ca. €1 billion within the technical textile and clothing industry58, focusing on applications like medical, 
+sportswear and leisure. 
+The global textile coating binders market is dominated by thermoplastics (2015 data): PVC-Polyvinyl Chloride (ca 40%), 
+Polyurethane (ca. 20%) and Acrylics (ca. 7%). PVC is the most used coating for various applications due to its low cost, easy 
+weldability, and easy coloration and printability. PU benefits from being an eco-friendly textile coating, and is widely accepted and 
+preferred by manufacturers in North America and Europe. Applications for coated textiles are very diverse, but main areas 
+are: transportation, building and construction and (technical) clothing, e.g. for outdoor, workwear, protective clothing59.  
+Although currently limited, there is a strong driver for using coated textiles for daily clothing as it has been shown that the 
+coating is reducing microfibre losses during washing by up to 50%60. But, having to deal with coatings would hamper and 
+delay the current emerging recycling of textiles even more. This is a potentially very large opportunity DECOAT technology can 
+tap into. 
+Recycling of automotive plastics. During the process of recycling ELV (End-of-Life Vehicles), most of the metal is recovered 
+from cars, and the rest of materials and parts are shredded to obtain what is called ASR (automotive shredder residue)61. This 
+ASR represents 20-25% of the original car weight, it contains typically 20 to almost 50% 
+plastics and most of it is currently landfilled or burned. The EU directive (2000/53/EC), 
+demands that only 5% of total ELV is landfilled. The plastic separation in the ASR is complex 
+and the purity that is currently feasibly is not enough to have productive mechanical properties 
+in the recycled plastic. It is stated that “The recovery [of plastic material] has remained 
+marginal; yet it should develop rapidly now, given the EU requirements regarding material 
+recycling. Manual dismantling allows cleaner recovery, yet it is severely limited by productivity 
+…. Conversely, it seems illusory to recover really clean materials, such as PUR, after passing 
+them through a shredder, even though washing procedures have been tested”61. Therefore, 
+rather than focussing on small incremental improvements, DECOAT proposes a radical 
+novel approach. 
+The global automotive industry is set to reach 114 million cars in worldwide sales 
+annually by 2024, with an expected growth on average of 2.8%62. Within the EC report 
+’GEAR 2030‘63 (2017), the opportunity for building novel or extending existing value chains 
+ 
+54 https://www.zionmarketresearch.com/news/global-plastic-coating-market and http://www.european-coatings.com/Markets-companies/Coatings-market  
+55 Recycling of flexible composite materials – see: www.texyloop.com  
+56 https://www.marketsandmarkets.com/PressReleases/coated-fabric.asp and https://globenewswire.com/news-release/2016/11/23/892449/0/en/Global-Coated-Fabrics-
+Market-2016-2021-Market-is-estimated-to-reach-USD-20-41-billion-in-2016-and-is-projected-to-reach-USD-24-91-billion-by-2021.html  
+57 Source: Gerald Rafler, Head of the Fraunhofer Institut Applied Polymer Science, Potsdam (2016) 
+58 Estimate based on European Textile Association statistical data on technical textiles and clothing segments 
+59 https://www.marketsandmarkets.com/PressReleases/textile-coatings.asp (2016) 
+60 A New Textiles Economy (2017), see: https://www.ellenmacarthurfoundation.org/publications/a-new-textiles-economy-redesigning-fashions-future  
+61 A. Buekens, X. Zhou, Recycling plastics from automotive shredder residues: a review, J Mater Cycles Waste Manag (2014) 16:398–414 
+62 https://www.consultancy.uk/news/13900/global-car-market-to-break-through-100-million-in-sales-by-2020 
+63 https://ec.europa.eu/docsroom/documents/26081/attachments/1/translations/en/renditions/native 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 17 of 127 
+for a circular automotive sector is highlighted, as well the possibility for novel business models, eg for the recycling or re-use of 
+(spare) parts. DECOAT feeds directly into this opportunity, by providing novel technological solutions for both disassembly and 
+recycling. The high-end premium car segment which uses a lot of aesthetics coatings (ca. 13% of MAIER’s turnover) is 
+‘booming’: it increased with more than 50% from 2010 to 201664.  
+Of special interest for the automotive sector is the increased use of composite parts, especially in electric vehicles. This 
+currently hampers the EoL processing as recycling of composite parts is much more difficult as (coated) metal parts. Therefore 
+vehicles are designed that are easier to recycle, eg by making them easier to (partially) disassemble, even in a robotised manner. 
+This offers a huge opportunity for the recycling industry and linked activities. DECOAT technology for recycling parts fits perfectly 
+in this scheme. 
+Opportunities exist also for trucks and busses, the latter are covered by partner MBT. Although less common then cars, there 
+are roughly 1 million so-called HDOR (Heavy duty and off-road vehicles) discarded every year. Disassembly is much more 
+common and far advanced with some brands for metal parts (iron, steel, aluminium, up to ca 75-85% of the total weight). 
+Remaining challenge is dealing with complex multi-material parts (with electronics). DECOAT technology could contribute.  
+Emerging market: recycling of smart textiles and plastics with integrated electronics. The market for smart textiles and 
+wearables is expected to enter an exponential growth phase from an expected total world market of nearly 1.5 bn US$ by 
+202165 to almost 3 bn US$ for the EU market alone in 202466. Eg DECOAT partners MBT, MAIER and CTAG are working on 
+integrating electronics into various (interior) car elements. Next to the actual manufacturing, a missing solution to recycle the 
+smart plastics hampers the market introduction. Therefore, we will also look into this emerging automotive application.  
+Remanufacturing is the process of returning a used product to its original performance specifications (from the customers’ view). 
+It is a strategy to reduce manufacturing's environmental impacts while boosting profitability. If considered during the early stages 
+of a product's design, the concept of ‘active disassembly’ can be applied enabling the rapid and non-destructive disassembly of 
+products with minimal component damage, which facilitates remanufacturing. DECOAT technology can aid to implement active 
+disassembly, easing the actual disassembly (DECOAT – 1st level) and for making it easier to upgrade used parts by removing the 
+coating so that it can be recoated. Remanufacturing is especially of interest for the automotive market. The worldwide 
+automotive parts remanufacturing market (focus on metal parts) was valued at US$ 33.16 Billion in 2016 and is estimated to 
+grow at a CAGR of 6.6% from 2017 to 202567. DECOAT technology could help to extend it also to plastics parts. Note that this 
+is much stronger than the actual automotive market (worldwide 2.8%, in EU only 1.7%). Economic benefits for both 
+remanufacturing companies as well as the customers are considered as the biggest driver for the overall automotive parts 
+remanufacturing market. Remanufacturing aids in reducing cost pertaining to major parameters such as material, machining, 
+production time, energy, fuel and labour costs, among other. In addition, present-day automobiles are made flexible so that they 
+can easily incorporate remanufactured parts without affecting the performance of the vehicle. 
+Remanufacturing goes wider than the automotive sector: the EU Remanufacturing Network estimates the current size of the 
+EU remanufacturing industry to be almost €30bn, employing around 190,000 people. Their market study shows that the 
+industry could triple to €90bn by 2030 and employ as many as 255,000 people68. As DECOAT technology will also be able 
+to apply on large full parts, it can contribute to and benefit from the remanufacturing opportunity. The ERN study69 
+identified the top barriers for remanufacturing becoming more widespread, i.e. volume/availability of a ‘core’ (used part intended 
+to become a remanufactured product) and quality of the core. For coated parts, DECOAT technology answers to those barriers. 
+The aerospace sector was shown as the sector where remanufacturing is currently being used most. On 2nd and 3rd place are 
+automotive and EEE (Electrical and Electronic Equipment). The INDAR technology of partner RESCOLL is indeed already 
+emerging in the aerospace sector. Our goal is to make it also enter other sectors, like automotive and EEE. This shows that 
+DECOAT will also be useful for further development for disassembly of parts for these sectors (and debonding of coatings). 
+The global adhesives market was valued at ca. €35billion in 2015 and is projected to reach ca. €50billion by 202170. The share 
+of debondable adhesives is nowadays only ca. 0.5% of the general adhesives market. The water-borne adhesives 
+(= DECOAT scope) account for ca 50% of the global market. If DECOAT results reach 1% of this market, we can address a global 
+market of ca. €170-250million. 
+The above motivates the selection of the DECOAT use cases: watertight backpack for outdoor gear (VAUDE), power 
+switches and sockets for household electronics (PANASONICS) and automotive parts (with integrated electronics) (MBT, 
+ 
+64 Statistica Charts: https://www.statista.com/chart/9309/super-luxury-car-sales-are-booming/  
+65 Kamitis – Smart Textiles Study 2016-2021 
+66 Grand View Research - Smart Textiles Market, Smart Fabrics Industry Report (2017) 
+67 https://www.researchandmarkets.com/research/9b2rfv/global_automotive?w=4  (2017) 
+68https://www.circle-economy.com/european-remanufacturing-industry-estimated-at-e30bn-with-potential-to-triple-by-2030/#.Wy-ubExuJZU  (2016) 
+69 Remanufacturing Market Study by ERN, Oakdene Hollins (2015) 
+70 Global Adhesives and Sealants Market– Trends and Forecasts (2016 - 2021), edited in October 2016 by MORDOR INTELLIGENCE 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 18 of 127 
+MAIER) as applications and sectors where recycling of coated materials is needed but no economically viable solutions 
+are available yet. 
+FREEDOM TO OPERATE. The consortium carried out a patent survey to specify possible opportunities not only to achieve 
+knowledge advancements, but also to proceed in technological advancements in terms of patenting. The survey was conducted 
+in the spirit of investigating and detecting unexplored areas and approaches of the field and to avoid possible overlapping with 
+existed protected intellectual knowledge. The consortium decided that although a number of patents exist in similar fields, 
+DECOAT project offers a huge opportunity to achieve technological advancements beyond the state of the art. 
+ 
+Patent No – Title  Short Description  DECOAT’s Innovation potential 
+CN105710044A: 
+Intelligent 
+classification system 
+for recoverable 
+garbage  
+Intelligent classification for recoverable garbage: infrared 
+(IR) sensor, metal detector, core control classification 
+module and voice prompt module (IR sensor and metal 
+detector used for detecting type of garbage. 
+DECOAT will develop an automated 
+sorting technology based on 
+triggerable additives. 
+CN100386453C: 
+Method for decoating 
+on waste plastic 
+metal  
+The present invention relates to a method of recycling scrap 
+metal, in particular a plastic waste containing metal plating 
+layer simultaneously recycling waste plastic and metal 
+plating method faded. 
+DECOAT will develop a method for 
+decoating a paint layer from a plastic 
+substrate in order to recycle both the 
+coating and the substrate 
+US20140287299A1: 
+Heat-Debonding 
+Adhesives 
+A debonding tool provides current to conductive contacts on 
+the conductive layer for generating heat in the heat-
+generating layer when it is desired to debond the structures 
+that are attached together in electronic devices, using the 
+adhesive member. 
+DECOAT will develop triggerable 
+primers for interfacial debonding for 
+electronic devices, automotive parts 
+and textiles 
+US5100494A: 
+Structural bonding 
+and debonding 
+system 
+The pieces are debonded or separated by passing a 
+relatively high electrical power through the heating element, 
+to soften or melt the adhesive. 
+DECOAT will use triggers such as 
+microwave, Rf irradiation, heat and 
+steam together with smart nano-
+materials, for softening/melting 
+adhesives. 
+US7901532B2: 
+Method and 
+apparatus for 
+bonding and 
+debonding adhesive 
+interface surfaces 
+Invention utilises thermoexpanadable microspheres and 
+thermal energy to debond interfaces in an adhesive system 
+or as vehicle carriers. It discloses a method of curing the 
+adhesive system prior to the debonding step so that the 
+same adhesive system may be used for both phases. It is 
+especially useful in the automotive industry for end of vehicle 
+life dismantling. 
+DECOAT will use super absorbent 
+polymers as microspheres which will 
+react to moisture and heat. The 
+applications are not only limited to 
+automotive industry, but also to 
+electronics and textiles 
+US20150202858A1: 
+Laser film debonding 
+method  
+A laser-based coating removal method debonds a film from 
+a substrate rather than ablating the film. Laser light is 
+transmitted through a transparent film to an underlying 
+bonding layer for bonding the film to one or more additional 
+films and/or a substrate. The laser light is absorbed at the 
+bonding layer and the transparent film is released. In some 
+embodiments, after the transparent film is released it is able 
+to be physically removed. 
+DECOAT will use microwave and Rf 
+irradiation instead of laser light. 
+Automated optical sorting will be also 
+implemented. 
+US6288158B1: 
+Modified 
+superabsorbent 
+polymer based on 
+polyacrylonitrile 
+emulsions 
+The surface of a polymer containing hydrolyzed 
+polyacrylonitrile in the form of particulates, is modified by 
+crosslinking in a water/alcohol reaction mixture and in the 
+presence of silica. The resulting product features improved 
+absorbency under load and lesser degree of gel blocking 
+DECOAT will synthesize a new 
+generation of SAP’s functionalising 
+their surface with thermo-responsive 
+coatings and decorating them with 
+metal oxide nanoparticles. 
+US6537341B2: 
+Process for recycling 
+fiber composite 
+materials 
+A process for recycling composite materials that comprise 
+fibers and a matrix includes exposing the composite material 
+to electromagnetic waves in the form of microwaves. The 
+electromagnetic waves induce an introduction of energy into 
+DECOAT will develop a recycling route 
+based on microwaves and Rf irradiation 
+for coated plastics and textiles. In 
+combination with the above, the 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 19 of 127 
+the composite material, leading to a separation of fibers and 
+matrix. The separation operation can be assisted by a 
+suitable solvent. 
+Creasolv process will be act 
+synergistically. 
+ 
+In spite of the existing prior art (described in section 1.4.1), according to the knowledge of the partners, no patents exist that block 
+the envisioned developments and innovations. Quite on the contrary, several DECOAT partners own key patents related to 
+the developments. An overview of the most important ones: 
+ 
+DECOAT scope DECOAT partner – relevant patents 
+Debonding 
+adhesives 
+RESCOLL: proprietary INDAR technology via patents EP2519596 (B1), EP2519565 (A1), EP2265681 
+(B1), EP1814935 (B1), EP1611217 (B1) 
+Microcapsule 
+production & 
+application 
+DEVAN: has an extensive know-how, through the PCT/IB2006/050605 patent, for the grafting of a 
+covalent bond between the microcapsules’ shells and the textile fibres. The incorporation of these 
+microcapsules into fabric substrates creates new functionalities for the treated materials. 
+Microwaveable 
+trigger (for yarns) 
+CTECH: ‘Article assembly disassembly system’ - Patent WO2013/189956A1 
+Nano- and 
+microcapsules 
+NTUA: "Multifunctional Coatings including Nanocontainers with Self-Healing, Antibacterial and 
+Photocatalytic Properties" - Patent no 1007721; ‘Hybrid Coatings including Nanocontainers with 
+Antifouling Properties" - Patent no 1007729; "Functional Multi-stimuli responsive polymeric 
+nanocontainers-microcontainers as drug delivery systems" - Patent no 1007882. 
+Creasolv®  IVV: “Process for recycling soluble polymers or polymer blends from plastic containing materials” - 
+Patent No EP0894818B1; “Method for increasing the concentration of at least one polymer from a 
+polymer containing waste material, and polymer recyclate” - DE102013212813A1; “Method for recycling 
+plastics and use of thereof” - EP1888677B1. 
+ 
+The DECOAT consortium is convinced that the triggered debonding approach presented here is still largely uncharted 
+and that opportunities are multiple to patent IP, including options to extend and elaborate some of the existing patents 
+of DECOAT partners. 
+ 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 20 of 127 
+2 Impact 
+‘Do not go where the path may lead, go instead where there is no path and leave a trail’  
+(Ralph Waldo Emerson, writer)

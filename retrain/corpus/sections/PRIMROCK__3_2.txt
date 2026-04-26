@@ -1,0 +1,167 @@
+3.2 Capacity of participants and consortium as a whole .......................................................................... ....... 
+41Associated with document Ref. Ares(2024)6673367 - 20/09/2024 Matching of project objectives 
+........................................................................................................................... 41 3.2.1  Access to critical 
+infrastructure ............................................................................................................ 41  
+3.2.2 Description of partners and corresponding roles .................................................................................. 
+41  
+4 Ethics self-assessment ............................................................................................................................. 42   
+  
+  
+#@APP-FORM-HERIAIA@#  
+  
+NOMENCLATURE  
+DFRK: Direct -fired rotary kilns, IRFK: indirect -fired rotary kiln, MRK: microwave rotary kiln, MIP: 
+microwaveinduced plasma, CKD: cement kiln dust, LKD: Lime Kiln Dust, IUC: industrial use-case, OPSR: Optical 
+Sorting Recognition, XRT: Chemical recognition.  
+  
+1  Excellence   
+#@REL-EVA-RE@#  
+Introduction  
+Mineral resources are an important material basis for the entire economy. The International Mineralogical 
+Association’s (IMA) members annually produce 180 million tonnes of industrial minerals for the EU-28, Turkey, and 
+Norway. These include calcium carbonate (precipitated and ground), dolomite, lime, bentonite, magnesite, and other 
+valuable minerals1. Industrial minerals, either in a processed or natural state, are used to make building materials, 
+ceramics, electronics, glass, medications and medical 
+devices, paints, paper and plastics, and a myriad of other 
+industrial and domestic products, contributing €14 billion 
+to the EU economy 2.  The non -ferrous metals sector 
+provides 500,000 direct jobs and 3 million indirect jobs in 
+the EU, thousands more across wider Europe. These jobs 
+are often highquality well -paid jobs, and trade unions 
+have come together to fight to keep these jobs in Europe. 
+European trade unions call for urgent action to level the 
+global playing field to ensure Europe’s competitiveness in 
+producing high-quality green products, while preserving 
+ 
+1  
+Processes4Planet SRIA 2022   
+2 IMA-
+Europe   
+
+ 
+101178403 — PRIM-ROCK    Part B, page 3  
+and creating jobs. Amongst the many processes employed in mineral processing, calcination, a crucial process in the 
+minerals processing and cement industries,  
+involves heating materials to high temperatures. This  process is integral to transforming raw materials into Figure 
+1. European non -ferrous metals industry stats useful products and plays a vital role in the efficiency (Source: 
+Eurometaux)  
+and sustainability of these industries. Roasting is a similar process for heating  sulhpide ore to a high temperature in 
+the presence of air. It is a step in the processing of certain ores. More specifically, roasting is often a metallurgical 
+process involving gas –solid reactions at elevated temperature s with the goal of purifying the metal component(s). 
+The gaseous product of  sulhpide roasting, sulfur dioxide (SO2) is often used to produce sulfuric acid. Many  sulhpide 
+minerals contain other components such as arsenic that are released into the environment. Rotary kilns have become 
+essential in these processes, due to their diverse capabilities and high degree of control over process parameters.  
+While rotary kilns have become the backbone of many new industrial processes that make the world a more efficient 
+and sustainable place, the technology cannot (or often should not) process material in just any shape or form. In 
+addition to being inefficient, feeding unprepared material to a kiln can have several unintended consequences, ranging 
+from an incomplete reaction or a failure to achieve the intended reaction, to unnecessarily long retention times and 
+excessive energy costs. Direct -fired rotary kiln s (DFRK) rely on direct contact between the process gas and the 
+material in order to heat the material to the specified temperature, leading to fine and ultrafine particles becoming 
+entrained in the process gas flow and carried out through the exhaust gas system. This results in a high rate of 
+reprocessing and can significantly reduce the overall process efficiency, in addition to other issues.  
+In the cement industry, the amount of cement kiln dust (CKD) generated typically ranges 15–20%2 of the produced 
+cement, leading to an annual CKD production of approximately 12.9 metric tonsAssociated with document Ref. 
+Ares(2024)6673367 - 20/09/20244. Similarly, the lime industry generates Lime Kiln Dust (LKD), with an annual 
+production of approximately 1.8 to 3.6 million metric tons in the United States only3. CKD and LKD are usually 
+stockpiled, and it is estimated that the total amount of kiln dust currently stockpiled throughout the country exceeds 
+close to 90 million metric tons (100 million tons)4, creating substantial issues in their management. In the critical 
+metal industries, the wide use of carbon as a cheap reduction material as well as the lack of the relevant 
+fundamental knowledge and expertise has limited the hydrogen use to a few cases of refractory metals. However, 
+hydrogen could be used as an alternative to carbon reductant, provided that there is enough fundamental knowledge 
+concerning the thermochemical feasibility and equilibrium, the kinetics, and the factors, i.e. metallic mineral 
+mineralogical phase, affecting the hydrogen/metal oxide/sulphide reaction system. Moreover, it is necessary to 
+deeply understand the technical problems arising in the case of treating complex metal ores and concentrates due to 
+the various compounds and mineralogical phases present in the reaction system. In this context, the PRIM-ROCK 
+project represents a new frontier in the metallurgical industry in view of developing and demonstrating the 
+necessary fundamental knowledge that will pave the way to sustainable, more energy efficient mineral processes 
+with low carbon footprint, in a significant number of critical metals. Moreover, it will develop entirely new, 
+breakthrough technologies enabling the direct extraction of metals from the EU metal sulphide resources. The 
+project will also demonstrate an integrated approach to treat critical metal minerals coupled with onsite renewable 
+hydrogen production, powered by artificial intelligence.  The knowledge developed in the PRIMROCK innovative 
+processes directly targets the real scale application in the relevant industrial areas and will also provide the 
+foundations for going beyond the specific cases studied in this project towards the development of a climate neutral 
+critical metal hydrogen metallurgy on the long term. Both calcination and roasting processes present important 
+optimisation potential dependent on the effective pre-treatment of raw material ores. In the ore sorting process, 
+accurate, machine-assisted classification and sorting, as well as determining the optimal crushing size are key steps, 
+greatly influence the efficiency and productivity of the production process, while also enabling also the utilisation 
+of lower grade ores. For both sectors, process innovations are needed to improve resource efficiency, reduce waste 
+and low-value by-product generation, and mitigate emissions and risk to worker health and safety.
+1.1  Objectives and ambition   
+#@PRJ-OBJ-PO@#  
+ 
+2 Al-Bakri AY , Ahmed HM, Hefni MA. Cement Kiln Dust (CKD): Potential Beneficial Applications and Eco-Sustainable  
+Solutions. Sustainability. 2022; 14(12):7022. https://doi.org/10.3390/su14127022  
+3 https://www.fhwa.dot.gov/publications/research/infrastructure/structures/97148/kd1.cf  m and references therein  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 4  
+PRIM-ROCK aims to bring a step -change in the calcination and roasting processes , thanks to a holistic approach 
+centred around ground-breaking process intensification (PI) and digital technologies, considering the following:  
+  
+Figure 2. Overview of the process line addressing multiple types of raw materials.  
+(1) pre-processing stage, referred to in the project as the Raw Material Intelligence (RMI) system (KER1), comprised 
+of a process line featuring advanced sensorisation, AI -driven sorting, and decision-support, complete with real-
+time analysis capabilities and optimized crushing size determination for the raw materials. KER1 will contribute 
+to process efficiency in a versatile manner, establishing an interface between pre-processing of raw materials and 
+their thermal  
+ 
+treatment and (a) optimising pre-processing in accordance to process parameters, Associated with document Ref. Ares(2024)6673367 
+- 20/09/2024(b) enabling the adaptation of  
+process parameters depending on raw material changes, even in real -time. Pre -processing will thus enable the 
+resource efficiency of the corresponding processes to be increased by over 10%4.   
+(2) replacement of Direct-fired rotary kilns (DFRKs) with Indirect-fired rotary kilns (IFRΚs) and microwave rotary  
+kilns (MRKs) as the process components (KER2 – Intensification technologies for thermal processing). Replacing 
+DFRKs with the electrified IFRKs and MRK removes the need for process gasses, solving the issue of fine and 
+ultrafine material loss through drag, reducing emissions and improving the controllability and flexibility of the 
+calcination and roasting processes. The capacity to process without losses of fine and ultrafine material is the major 
+contributor to process efficiency, as losses can exceed 25% in many industries as previously described. Moreover, 
+adoption of the technology removes the need for pelletisation and filters. Moreover, as slag or dam ring formation in 
+the rotary kiln can be avoided, resource efficiency will increase by 6 -12%,5. This refers to a build -up around the 
+circumference of the kiln’s interior in such a way that material is either prevented from passing through or is 
+significantly inhibited. Ring formation is extremely common, occurring in roughly 85% of commercial rotary kilns. 
+It is typically the result of a change in slagging temperature. Thus, depending on the process, KER2 will contribute 
+to resource efficiency in the 20-32%5,6 range.  
+(3) improvements on post -process component level, enabling using the kiln for direct reduction through H 2 as a 
+reducing agent, which will be subsequently recovered by decomposition through Microwave -Assisted Plasma 
+(MIP) reactor (KER3 – Post-processing solutions), which requires a sustainable and low -cost H2 supply that is 
+ 
+4  Jan Spisak, Dusan Nascak, Eva Oravcova, “Increasing dust -chamber efficiency of rotary furnace for 
+magnesite treatment”, European  Scientific Journal March 2015 edition vol.11, No.9 ISSN: 1857 – 7881 (Print) e - ISSN 1857- 7431  
+5 Lime Kiln Principles and Operations. Terry N. Adams. Technical Consultant. Seattle WA  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 5  
+the goal of this activity. Replacement of C by H2 and high levels of recovery will improve the resource efficiency 
+of reduction processes of the selected lines by over 60% (FeNi case, from 45% to 90% 6 to pre-reduction stage). 
+Additionally, an innovative heat exchanger prototype will be developed to at the post-process level to manage the 
+thermal quenching effect of the plasma and cool the process gases in a controlled way, maximising recovery. 
+Finally, due to the substantial en riched CO 2 produced by calcination, a virtual toolkit for decision support in 
+capture and utilisation in e-fuels will be developed, enabling credible feasibility assessments.  
+(4) Enabling the integration of KER1 -3 and maximizing the improvements in resource efficiency will be achieved 
+through the digital infrastructure component  (KER4 - Digital process -line optimisation ). KER4 will deploy 
+tailored, and exhaustive simulations of the pre -process, electrified process and post-process stages to obtain the 
+optimal design of the prototypes, while process digital twins will be developed with data -driven functions for 
+efficient monitoring (with 3D visualization capabilities) and further opt imization. An innovative data platform 
+will facilitate data fusion, bridging the models, the Process Control System (PCS) and the advanced sensor 
+network of all stages. It is estimated that digital technologies will contribute to the maximization of the process-
+line resource efficiency by 3-5%.   
+(5) support the technological development process by addressing issues related to adoption of the technology through 
+a comprehensive suite of transversal activities: Life Cycle Assessment (LCA), Life Cycle Costing (LCC), Life 
+Cycle Sustainability Assessment (LCSA), Technoeconomic Analysis (TEA), GHG emissions avoidance, energy 
+footprint analysis, technology scale -up roadmap, standardization, data management and security, business case 
+and exploitation strategy development, and workplace assessment (including sk ills development). ( KER5 - 
+Technology adoption framework)  
+  
+1.1.1  Project objectives  
+SO1. Contribute to resource efficiency gains through the Raw Material Intelligence (RMI) system (KER1) The 
+characteristics of raw materials exert significant influence on processing efficiency and product quality. 
+PRIMROCK will leverage this interface by introducing a holistic system for raw material pre-processing through:   
+1. Design of the RMI component, creating a detailed blueprint for integrating advanced sensors, AI algorithms, and 
+control systems into ore processing workflows, ensuring effective classification, sorting, crushing and 
+optimization of processing parameters (T2.2–ICCS).  
+2. Introducing advanced sensorisation and control systems for the RMI system to accurately detect and analyse the 
+composition of mineral ore streams, enabling dynamic adjustment of processing parameters for maximum 
+efficiency and accuracy. Delivering an integrated sensor and control system prototype tailored for high-precision 
+ore processing applications (T4.1–ICCS).  
+3. Deploying two AI -assisted sorting systems for tuneable segregation of mineral ore streams, utilizing 
+nondestructive vision sensory devices and deep learning models. (T4.2–ICCS).

@@ -1,0 +1,543 @@
+1.1  OBJECTIVES & AMBITION  
+Improved recycling policies and the increasing interest in the concept of circular economy for sustainable use of raw 
+materials are key elements of modern and efficient waste management across the EU. Regardless of how waste 
+collection and recycling is implemented in different EU countries, collected waste needs to be processed either to 
+remove unwanted or hazardous objects from the main material (negative separation of objects) or, to sort the reusable 
+materials from the partially mixed waste collected (positive separation). Sorting these waste streams is today still 
+often performed mainly manually, which is a mind -numbing task. Further, workers are  typically exposed to  
+hazardous conditions with adverse health effects, e.g. pulmonary, gastrointestinal and musculoskeletal problems1. 
+Recent technological developments2 have facilitated the modernization of large scale indu strial Material Recovery 
+Facilities (MRFs), which can be crucially supported by smart and automated waste treatment equipment. This 
+approach is now adopted by several MRFs that are typically installed near urban areas to carry out municipal waste 
+treatment. Despite the high productivity of these industrial solutions, transportation of waste to these large plants is 
+costly and makes material recovery more difficult due to the compression of waste during transport. Moreover, there 
+are still several cases where waste treatment needs are not efficiently catered for by the existing model. These include 
+natural disasters, occasional high volume waste, rural or distant areas 3 4 and transport hubs 5. To meet the recycling 
+needs of such cases, a new market trend has recently emerged, focused on implementing light, flexible and portable 
+waste management units that can be quickly deployed in the areas in need, to undertake waste management and 
+particularly the recovery of valuable recyclable waste6 7 8. Despite the strong demand for these systems, to date they 
+lack the integration of smart, high-tech solutions that could significantly enhance their productivity. As a result, waste 
+sorting in these niche sectors is still today powered by manual sorting. 
+Therefore, the RECLAIM proposal aims  to exploit mature and well -tested AI -driven 
+robotic waste management technology that will be improved and embedded in a state of 
+the art “portable, robotic MRF” (prMRF) that will be capable of significantly enhancing 
+local-scale material recovery activities providing them with industrial-level efficiency. 
+Noticeably, the EU is progressively increasing its targets for the recycling of municipal waste (summarized in Box 1), 
+in order to feed economically valuable waste materials back into th e European economy and to protect not only the 
+environment, but also human health. To achieve these ambitious but achievable goals, the use of advanced robotic 
+sorting systems that accelerate material recovery should be realized beyond the current, urban-centered focus points, 
+to target today's untreated, or ineffectively treated waste. It is, therefore, necessary to develop a powerful 
+decentralized approach to the management of waste, which will enable the on -site, close -to-source recovery of 
+recyclables. Interestingly, in an attempt to overcome environmental challenges, the European  Green Deal aims to 
+implement actions ensuring (i) no net emissions of greenhouse gases by 2050, (ii) economic growth decoupled from 
+resource use, (iii) no person and no place left behind 9. The prMRF, besides supporting the first two points, provides 
+a new, viable solution that will act as a catalyst to ensure the third, that no person and no location will be left behind. 
+RECLAIM envisions the development of low cost, portable, easy to install and increased productivity prMRF, which 
+(soon after the project end) will enable the construction of high-tech distributed waste treatment prMRF -fleets that 
+will allow to achieve full material recovery anywhere , even in the most remote areas . Accordingly, prMRF is 
+                                                     
+1 Poulsen OM et al. Sorting and recycling of domestic waste. Review of occupational health problems and their possible causes. 
+Sci Total Environ. May 1995 168(1):33-56. 
+2 Wilts H, Garcia BR, Garlito RG, Gómez LS, Prieto EG. Artificial Intelligence in the Sorting of Municipal Waste as an Enabler 
+of the Circular Economy. Resources. 2021; 10(4):28. 
+3 Oliveira V, Sousa V, Vaz JM, Dias-Ferreira C. (2018) Model for the separate collection of packaging waste in Portuguese low-
+performing recycling regions. J Environmental Management 13-24. 
+4 Demonstrating resource efficiency through innovative, integrated waste recycling schemes for remote areas, LIFE14 
+ENV/GR/000722, http://www.pavethewayste.eu/en/ 
+5 Argüello, G. (2020) Environmentally sound Management of Ship Wastes: challenges and opportunities for European ports. J. 
+Shipping & Trade. 5, 12. 
+6 https://blog.kiverco.com/kiverco-introduces-unique-modular-recycling-plant  
+7 https://wrtltd.co.uk/mobile-picking-station/  
+8 https://ecoballa.com/?p=127&lang=en  
+9 https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_en  
+
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 2 of 45 
+ 
+expected to have a key role in developing a global, leakage -free circular economy model benefiting businesses, the 
+society, and the environment. 
+Box 1. The Waste Framework10, Landfill11 and Packaging Waste12 Directives were amended in 2018 to include, 
+inter alia, new targets and measures, which will move the EU to the circular economy model: 
+o targets to increase preparing for reuse and recycling of municipal waste to at least 55% of municipal 
+waste by 2025, 60% by 2030 and 65% by 2035; 
+o targets to increase recycling of packaging waste to at least 65% by 31 December 2025 and 70% by 31 
+December 2030; 
+o a target to reduce landfill to a maximum of 10% of generated municipal waste by 2035; 
+o a ban on landfilling of waste suitable for recycling effective from 2030; 
+o mandatory separate collection of bio-waste by 31 December 2023 and of textiles and hazardous waste 
+from households by 1st of January 2025; 
+o minimum requirements for all extended producer responsibility schemes; 
+o simplified and improved definitions and harmonized calculation methods for recycling rates 
+throughout the EU. 
+The success of these targets and measures will be key to the medium - to long-term prospects for achieving an 
+innovative circular economy in which nothing is wasted, by 2050. 
+ 
+Project Innovation Pillars  
+To achieve its goal, RECLAIM undertakes concrete steps to 
+create new solutions and support innovation in four 
+technology pillars that crucially facilitate the recovery of 
+valuable materials and is expected to shape next genera tion 
+waste management. The innovation pillars elaborated in 
+RECLAIM are depicted in Figure 1.1, and include:  
+PIL-1: Advanced AI for material identification, 
+localization and categorization  (AI-ILC) - exploit and 
+improve existing AI technologies to develop  effective 
+solutions combining visual and hyperspectral information to 
+accomplish high -performance recyclable waste 
+identification, localization and categorization, applicable in 
+real and harsh environments to support material recovery.  
+PIL-2: Modular, l ow-cost, high performance, multi -
+robot/multi-gripper recyclable recovery  - RECLAIM 
+promotes a new modular architecture for robotic recyclable 
+recovery based on high productivity Robotic Recycling 
+Workers (RoReWos)  equipped with different grippers specializing in different material types. The use of RoReWo 
+Teams installed in the prMRF is expected to double the “picks per invested euro” rate for the composite system. 
+PIL-3: Portable robotic Material Recovery Facility (prMRF) - the combined placement of established recycling 
+processing mechanical equipment and the AI-powered robotic sorters in a container box that can be easily transported 
+to points of interest, is ready for operation within few hours, is capable of efficient recovery of recyclable materials 
+with a minimal number of recycling workers, is functional and sustainable for several years after the project end. 
+PIL-4: Environmental gaming for social awareness and data collection -   increase social awareness to recycling 
+via a novel Recycling Data-Game (RDG) that highlights the related challenges and encourages citizens to participate 
+in project activities through a citizen science approach for providing data to AI-ILC training. Orthogonal to the above, 
+RDG will provide the means to communicate the general principles of AI and Data Science to the public.   
+                                                     
+10 Directive (EU) 2018/851 of the European Parliament and of the Council of 30 May 2018 amending Directive 2008/98/EC on 
+waste (OJ L 150, 14.06.2018, p. 109-140). 
+11 Directive (EU) 2018/850 of the European Parliament and of the Council of 30 May 2018 amending Directive 1999/31/EC on 
+the landfill of waste (OJ L 150, 14.06.2018, p. 100-108). 
+12 Directive (EU) 2018/852 of the European Parliament and of the Council of 30 May 2018 amending Directive 94/62/EC on 
+packaging and packaging waste (OJ L 150, 14.06.2018, p. 141-154). 
+ 
+Figure 1.1. The four pillars supporting the RECLAIM 
+project and their interactions. 
+
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 3 of 45 
+ 
+Focused Deployments for Multifaceted System Assessment  
+The proposed work envisions deploying a prMRF at multiple pilot sites to assess its performance under real and 
+particularly demanding conditions, recovering materials from post-consumer waste. In particular, the prMRF will be 
+deployed in the group of Ionian islands, Greece, that provide the opportunity to assess its performance in multiple 
+and complementary use-case scenarios. The Ionian group consist of seven main islands being very popular touristic 
+destinations. All islands face major difficulties in waste management especially during the summer period. Still, the 
+relatively limited size of such islands and the high seasonal characteristics of waste production 13 do not favor the 
+investment on a full -size MRF. To date, the waste generated by residents and visitors is typically compacted and 
+packaged to be transported to the mainland for material recovery. The residue of this waste treatment has to either 
+return to the islands for landfilling or stay in the mainland for landfilling with particularly high costs14.  In addition 
+to the increased logistics expenses, especially in the case of roundtrip transfer (island-mainland-island), the quality 
+of recy clable materials transferred to the mainland for processing decreases due to the temporary storage and 
+compression. This causes increased material contamination/entanglement, resulting in significantly lower recycling 
+rates and purities. As a result, a large percentage of valuable recyclables ends up in landfills instead of being recycled.  
+Similar to this particular case in Greece, the use of prMRF for the direct treatment of fresh, uncompressed, high -
+quality waste and the recovery/sorting of recyclables in a decentralized manner is of outmost importance for all rural 
+areas. RECLAIM provides the only strategy to drastically increase the recovery rates for valuable materials by 
+sorting at the source and to divide the logistics costs in half by avoiding back and forth transport.  
+The landscape of the Ionian islands group provides the unique opportunity to asses both the underlying technologies 
+and business case for the prMRF.  The RECLAIM partner ION has the responsibility of waste management in all 
+the Ionian islands and will provide valuable support to explore how prMRF can be used to tackle the individual needs 
+of different islands. In particular, ION has specified three scenarios of particularly high interest for the Ionian islands 
+group but also for a broad range of areas in Europe facing similar challenges. The material recovery use case scenarios 
+that will be explored in RECLAIM are summarized in Box 2. 
+ 
+Box 2. The material recovery scenarios to be explored in RECLAIM.  
+Scenario-1: Material recovery from mixed recyclables streams. The main recycling approach followed in Greece 
+regards the use of bins where citizens collect mixed post -consumer municipal recyclables which are then separated 
+in material recovery facilities. As mentioned above, especially for Ionian Islands this process has low efficiency, and 
+entails high logistics expenses and high recoverable materials loss. RECLAIM will assess prMRF operation in the 
+treatment of mixed recyclable waste streams, performing positive separation of multiple mat erial types. This is 
+the most challenging scenario due to the high material complexity to be investigated in RECLAIM and will be 
+addressed during the whole duration of the project. 
+Scenario-2: Cleaning of citizen separated, material-specific streams. In a major part of Corfu (part of the Ionian 
+islands group) the citizen -powered separation of recyclables is promoted, which assumes the use of multiple, 
+material-dedicated bins for recyclable collection (this is the recycling approach also adopted by many North European 
+countries).  The collected materials need to be further processed to increase their purity and thus their value in the 
+secondary market. RECLAIM will assess prMRF operation in the treatment of material-specific streams, performing 
+negative separation to remove unwanted objects. This scenario will be explored during the months M13-M36, in 
+parallel with Scenario -1, providing the opportunity to make prMRF appropriate for both positive and negative 
+material selection. By comparing scenario 1 and 2 the advantages and disadvantages of separation by citizens will be 
+evaluated, as separation by citizens also results in higher local collection costs for the separate waste streams. 
+Scenario-3: Immediate close to source material recovery. The inherent portable nature of the prMRF enables its 
+installation close to areas with high productivity of waste, such as transportation hubs (e.g. ports, airports), festivals, 
+sport events, exhibitions, etc. Unfortunately, so far, the fresh, high-quality waste produced in such areas is collected 
+with garbage trucks to be integrated with ordinary municipality waste. RECLAIM will exploit the portability of 
+the prMRF to explore the option of local, close to source robotic material recovery/sorting, and contrast its efficiency 
+in relation to the current practice. This scenario will be explored in the last 6 months of the project, by installing the 
+prMRF at a central location that will also serve as an open and live demonstrator to EU citizens (inhabitants and 
+tourists), local authorities, governments, circular economy stakeholders and potential investors. 
+                                                     
+13 N. Rogge, S. De Jaeger, C. Lavigne, (2017) Waste Performance of NUTS 2 -regions in the EU: A Conditional  Directional 
+Distance Benefit-of-the-Doubt Model, Ecological Economics, 139, 2017. 
+14 Fischer-Kowalski, M. Löw, M. Noll, D. Petridis, P. Skoulikidis, N., (2020) Samothraki in Transition: A Report on a Real -
+World Lab to Promote the Sustainability of a Greek Island. Sustainability 2020. 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 4 of 45 
+ 
+Ethical Issues 
+Ethics principles will be taken into consideration and applied in order to guarantee that the activity of RECLAIM in 
+the field of AI and Gaming will not negatively affect the social pact or incorporate any techniques that could be used 
+sinisterly in the future. Therefore, a list of ethical principles will be established by partners IRIS, RBNS and UoM. 
+Ethics will be applied to ensure compliance with EU regulations and GDPR . Furthermore, a risk assessment and a 
+data protection strategy will be defined and implemented throughout the entire duration of the project. FORTH, the 
+coordinator, will be actively evaluating the process in order to ensure protection of rights and safety according to the 
+ethical principles laid down in the Montreal Declaration for a Responsible Development of Artificial Intelligence. 
+1.1.1 OBJECTIVES 
+To realize RECLAIM’s aspirations and implement its outcomes, the proposed work is organized around six 
+objectives described below. For each objective, we provide a short description of challenges, prior enablers and 
+expected outputs. Outputs will be evaluated with a specific set of KPI (Key Performance Indicator) metrics. 
+Objective 1. Design and implement an eco-friendly prMRF (PIL-3) 
+Challenge. The implementation of prMRF assumes that mechanical  Recycling Equipment 15 (R-Eq) such as 
+trommels, flipl-flop separators, ballistic separators etc., is installed for solid waste pre -treatment and is operated 
+in a way that guarantees eco-friendly operation and efficient cooperation throughout the waste treatment chain.  
+Enablers. This objective will be addressed in WP2: Application Requirements and system specification and WP5: 
+prMRF implementation, demonstration & assessment, by combining: 
+E-1-1: Environmentally friendly energy sources (e.g. solar panels) 
+E-1-2: Commercial small-scale equipment typically used for the treatment of solid waste 
+E-1-3: Available compact industrial research setup providing know-how on prMRF implementation 
+Output. Fully equipped prMRF installed in a container incorporating the R -Eq machinery, the AI -ILC and the 
+robotic module, to accomplish fast and efficient recovery/sorting of recyclable materials. 
+KPI-1-O1: Eco-friendly sources of energy provide >30% of the prMRF’s power needs. 
+KPI-1-O2: prMRF is continuously operating for >8 hours daily. 
+KPI-1-O3: The R-Eq pre-processes waste ensuring that > 90% of it is accessible to the AI-ILC module.  
+KPI-1-O4: The R-Eq provides enough feed for the robotic module to operate with <5% idle time. 
+ 
+Objective 2. Improve robotic recyclable recovery systems (PIL-2) 
+Challenge. For the robotic system to work within the prMRF, a change in the robotic technology commonly used 
+to recover materials is required. The robotic solution should be low volume, modular, multi-functional and have a 
+high pick per invested euro index.  
+Enablers. This objective will be addressed in WP4: RoReWo-Team for material recovery  and WP5: prMRF 
+implementation, demonstration & assessment, by combining: 
+E-2-1: Robotic Recycling Workers (RoReWos), already successfully tested. 
+E-2-2: Multiple available and under development grippers to be used in each RoReWo. 
+E-2-3: Optimized RoReWo-Teams with a multi-robot/multi-gripper configuration  
+Output. RECLAIM develops an effective, modular robotic system based on multiple low-cost Robotic Recycling 
+Workers (RoReWos), each exhibiting different material recovery skills. A team of cooperating RoReWos 
+integrated in the prMRF to recover materials of different types. 
+KPI-2-O1: The RoReWos Team combines ≥3 different grippers to recover multiple material types.  
+KPI-2-O2: The RoReWos Team can treat >90% of the waste fed to the prMRF.  
+KPI-2-O3: Installation volume <80% in comparison to the 2021 robotic waste sorter state of the art. 
+KPI-2-O4: Pick per invested euro index >30% in comparison to the 2021 robotic waste sorter state of the art. 
+ 
+Objective 3. Advance and exploit state of the art AI technologies to effectively tackle the identification, 
+categorization and localization of recyclable waste. (PIL-1) 
+Challenge. State of the art hyperspectral imaging together with RGB -based computer vision and Convolutional 
+Neural Networks (CNN) technology coupled to implement an efficient AI module for recyclable Identification, 
+Categorization and Localization (AI-ILC). 
+                                                     
+15 The Evolution of Mixed Waste Processing Facilities - Technology and Equipment Guide (2016) The American Chemistry 
+Council, prepared by Gershman, Brickner & Bratton, Inc. 
+ 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 5 of 45 
+ 
+Enablers. This objective will be addressed in WP3: Recyclable waste detection and categorization  and WP5: 
+prMRF implementation, demonstration & assessment, by combining: 
+E-3-1: Onsite human-driven fast data collection. 
+E-3-2: Misclassified object visual storage (to be used for re-training). 
+E-3-3: Hyperspectral extension and training of state of the art instance segmentation CNNs.  
+Output. A high -performance recyclable recognition module that can accurately guide the RoR eWo Team in 
+sorting recyclables. The automation of the data collection procedure, the powerful model training, and the periodic 
+improvement (re-training) of the model will critically support the long-term sustainability of the prMRF.  
+KPI-3-O1: A recyclable waste-Data Base (rwDB) with annotated hyperspectral and RGB images.  
+KPI-3-O2: Each of the hyperspectral imaging and the RGB -based waste recognition module s can individually 
+recognize >85% of the treatable recyclables from the mixed waste stream. 
+KPI-3-O3: In combination, the hyperspectral and the RGB -based waste recognition module s recognize >95% of 
+the treatable recyclables from the mixed waste stream. 
+KPI-3-O4: The low confidence/misclassified waste stored in the rwDB is correctly annotated by >50%, before 
+each cycle of AI-ILC retraining. 
+KPI-3-O5: The AI-ILC module processes waste streams at >5 fps (provide sufficient data to the RoReWo Team).  
+ 
+Objective 4. Deploy prMRF to realize the recovery and sorting of recyclables in targeted areas (PILs-1,2,3) 
+Challenge. Showcase the ability of prMRF to easily deploy and operate longitudinal recyclable material recovery 
+processes in demanding real environments. Showcase and validate the ability of prMRF to adapt to waste streams 
+with changing characteristics. 
+Enablers. This objective will be addressed in WP5: prMRF implementation, demonstration & assessment , by 
+combining: 
+E1: Direct development of the prMRF based on the technology already available to project partners, to facilitate 
+prompt real-world assessment of project developments (early prMRF deployment ready on M9). 
+E2: Ready-to-use prMRF to facilitate fast deployment. 
+E3: Analytics on the performance of the individual prMRF modules and informative evaluation metrics to adjust 
+prMRF configuration on the fly.  
+Output. Demonstration and validation of the prMRF in multiple use -case scenarios with diverse operational 
+requirements. Demonstration of efficient cooperation of R-Eq units with the intelligent waste treatment modules, 
+accurate recognition of recyclable waste, effective waste recovery/sorting by the RoReWos Team, parameterized 
+performance of the composite system.  
+KPI-4-O1: Pre-deployment prMRF configuration after considering waste distribution per area, use case and season 
+and online configuration adjustment.  
+KPI-4-O2: Fast deployment of the prMRF, which can be fully functional in ≤2 days.  
+KPI-4-O3: The prMRF configuration can be modified in <30 minutes for each possible adjustment.  
+KPI-4-O4: The prMRF is capable of recovering >80% of the serviceable recyclable waste. 
+KPI-4-O5: Incrementally advanced prMRF performance based on the periodic AI-ILC re-training, to successfully 
+treat >50% of the previously miscategorized recyclables. 
+ 
+Objective 5. Increase social sensitivity and engage citizens in material recovery research (PIL-4) 
+Challenge. Combine gamification and social computing technology with data collection procedures and the rwDB 
+to develop a Recycling Data-Game (RDG) that promotes awareness, increases social sensitivity and facilitates the 
+participation of citizens in data collection for prMRF implementation. 
+Enablers. This objective will be addressed in WP6: Recycling Data-Games, by combining:  
+E1: Gamification of recyclable sorting activities in MRFs 
+E2: Citizen-science approach for participatory data collection through the RDG 
+E3: Available techniques for procedural content generation, user modelling recommender systems 
+Output. Demonstrate the use of newly developed games that exploit rwDB data to implement easy -to-use 
+recycling data -games, which operate as data collection hubs and enjoyable in formation diffusion cores about 
+recycling.  
+KPI-5-O1: Use >2000 images and >20 recyclable sorting videos from the rwDB to develop the RDG  
+KPI-5-O3: The games will penetrate to >500 unique users  
+KPI-5-O4: The willingness to recycle will increase for >90% of the game users. 
+ 
+Objective 6. Maximize project Innovation impact (PIL-5) 
+Challenge. Shape the future of global recycling activities and ensure sustainable value for RECLAIM 
+investments. Attract the interest of stakeholders and promote the project to academic peers, industry, policymakers 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 6 of 45 
+ 
+and the society as a whole. Exploit acquired knowledge beyond the project and pave the way for the 
+commercialization of RECLAIM innovations. 
+Enablers. This objective will be addressed in WP7: Project impact maximization, as follows: 
+E1- The SMEs participating in the RECLAIM will link their business-related networks with the project. 
+E2 - Academic participants keen on market-oriented research with a focused interest in creating innovation. 
+E3 - Capitalize on established global communication channels that will guarantee a major transformative impact 
+on global recycling strategies.  
+E4 - Multiple, concrete, well defined innovative assets with high market potential targeted by RECLAIM. 
+E5 - Active collaboration with EU/national projects, existing and upcoming Horizon Europe Clusters and synergies 
+with the European Partnership on AI, Data and Robotics 
+Output. Increased project impact, tangible dissemination activities, exploited project results, enhanced 
+commercialization potential of project assets. 
+KPI-O6-1: prMRF sustainability plan to assure operation for ≥ 5 years after the end of the project. 
+KPI-O6-2: Targeted business models for (i) the prMRF, (ii) the RoReWos, (iii) the AI -ILC to justify their 
+commercialization potential. 
+KPI-O6-3: Seek and establish collaboration with ≥3 projects from the CSA HORIZON -CL4-2021-HUMAN-01-
+02 and Horizon Europe Clusters 4 and 6.  
+ - Tables 2.4 & 2.5 provide additional lists of dissemination/communication criteria and KPIs  
+1.1.2 Research and innovation maturity, advancements to the state of the art 
+The main result of the project will be a fully functional prMRF demonstrating material recovery in three different 
+use case scenarios (see Box 2), to be validated at TRL 7. The prMRF will be demonstrated in demanding operational 
+environments where it will function daily for many hours, achieving the recovery of multiple materials, from varying 
+waste streams. Additionally, the project will create novel recycling data games (RDG) to engage the wider public 
+and interested stakeholders in project research activities, which will be validated at TRL 7. Following the above, the 
+project introduces novel scientific insights and technological solutions that are described below , organized into the 
+project’s four innovation pillars. For each pillar, we provide concrete statements on the advancement to the state of 
+the art and a separate table showing the Technology Readiness Levels (TRL) of relevant, already available enabling 
+components, as well as their envisioned TRL advancement at the end of RECLAIM.  
+PIL-1: Advanced AI for material identification, localization and categorization 
+Machine vision and image processing have experienced tremendous growth within the Industry 4.0 concept. On one 
+hand, hardware advancem ents provide new opportunities for the identification of materials and localization of 
+objects. On the other hand, algorithms powered by deep learning can effectively categorize materials and objects by 
+taking into consideration and blending several complementary characteristics. 
+In terms of waste processing and material recovery, spectroscopy techniques are widely implemented in order to 
+determine the consistency of objects. Images of the object in combination with chemometric models can be used for 
+real-time identification and quantification of its composition 16, with high classification accuracy even for complex 
+plastics. Complementary to hyperspectral cameras, in real world applications such as recyclable material sorting in 
+the wild, the visual appearance of objects should be considered to separate adjacent or overlapping objects with same 
+consistency. Interestingly, state of the art Deep Learning (DL) approaches have been recently used to successfully 
+classify objects into predetermined material categories17. RECLAIM will implement a mixed approach that combines 
+waste imaging in both the visual and infrared domain, to achieve high accuracy material identification, localization 
+and categorization in real, particularly challenging conditions. Complementary to the mixed monitoring approach, 
+RECLAIM will consider the performance of the individual monitoring systems, focusing particularly on the use of 
+ordinary RGB cameras of much lower cost (in comparison to hyperspectral imaging). It is expected that RGB 
+monitoring can be sufficient for the operation of prMRF in the second use case scenario (see Box 2), which assumes 
+the detection of foreign bodies in a single-material stream, and their negative separation, i.e. the removal of foreign 
+bodies. Moreover, to enhance the sustainability of project developments, RECLAIM will study methods that exploit 
+human-provided visual and hyperspectral input to accomplish stable, incremental advancement of the AI -powered 
+material identification, localization and categorization module. 
+                                                     
+16 Araujo-Andrade, C.; Bugnicourt, E.; Philippet, L.; Ro driguez-Turienzo, L.; Nettleton, D.; Hoffmann, L.; Schlummer, M. 
+Review on the photonic techniques suitable for automatic monitoring of the composition of multi -materials wastes in view of 
+their posterior recycling. Waste Management & Research. 2021;39(5):631-651.  
+17 M. Koskinopoulou, F. Raptopoulos, G. Papadopoulos, N. Mavrakis, M. Maniadakis, Robotic Waste Sorting Technology: 
+Toward a Vision -Based Categorization System for the Industrial Robotic Separation of Recyclable Waste. IEEE Robotics 
+Autom. Mag 2021; 28(2): 50-60. 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 7 of 45 
+ 
+Advancements to the state of the art 
+• Explore the limits of RGB- and hyperspectral-imaging in real-world material recovery tasks. 
+• Develop new DL methods combining RGB - and hyperspectral- imaging to accomplish superior 
+performance on material identification, localization and categorization. 
+• Develop automated methods that exploit RDG data (see PIL -4, below) for the repeating advancement of 
+DL-powered computer vision modules. 
+The targeted advancements will be supported by partner-contributed assets that will be elaborated and improved 
+further in terms of the Technology Readiness Level (TRL), as summarized in the following table. 
+Table 1.1.2a Asset description and advancement table with respect to PIL 1. 
+Partner - Asset description and advancement TRL: From → To 
+FORTH - Deep Learning powered material recognition. Fully functional Mask -RCNN and 
+Yolact++ models are available for real -time material identification, localization and 
+categorization on waste flows. The models will be trained with new waste images  to support 
+real-world prMRF operation. 
+TRL7  → TRL7 
+(WP3, WP5) 
+IRIS - Hyperspectral imaging for material identification/categorization. A Hyperspectral 
+imaging sensor has been developed, capable of identifying and categoriz ing materials 
+depending on the ir chemical consistency and shape. Models will be developed to address 
+difficult real-world conditions and used as a reference for the further processing of data.  
+TRL6  → TRL7 
+(WP3, WP5) 
+ 
+RBNS - Quick annotation tool. It allows users to select the entire p ixel area of the objects 
+appearing in complex industrial images, with a single click. The tool will be extended to enable 
+the annotation of hyperspectral images. 
+TRL6  → TRL7 
+(WP2, WP6) 
+AIMPLAS - Separation of Plastics. There methods available targeting the sorting of complex 
+plastics (WEEE, automotive & marine littering). The method will be expanded to address food-
+packaging plastics that can be sorted and sold separately in the secondary market. 
+TRL6 →TRL7 
+(WP5) 
+PIL-2, New, modular, low-cost, high performance, multi-robot/multi-gripper recyclable recovery  
+In recent years, many robots have been used in commercial and research applications aimed at recovering and sorting 
+recyclable materials. The implemented systems are based on general purpose robotic te chnology -most frequently 
+Delta robots, but also robot arms and multi -axes gantry robots. These approaches offer features not necessarily 
+important for post-consumer waste treatment (e.g. handling of heavy objects), which results in a significant and 
+unjustified increase in the cost of the composite solution. On the contrary, it is more efficient and sustainable to focus 
+on developing low-cost robots specialized in material recovery applications, which will be very productive, but also 
+very robust and durab le to operate in wet, dusty/dirty and highly congested waste management environments. 
+Moreover, instead of using a single high -cost robotic unit with a single end -effector which restricts the application 
+of the system in handling a limited number of material types, a distributed solution can be implemented, with multiple 
+low-cost robots featuring different skills, each undertaking a different role in waste recovery and sorting tasks. This 
+is the approach adopted in RECLAIM which aims to develop a new modula r, low-cost, high performance robotic 
+solution for recyclable material recovery and sorting.  
+Advancements to the state of the art 
+• Implement modular robotic systems for recyclable recovery based on low cost Robotic Recyclable 
+Workers (RoReWos), equipped with grippers specialized to different material types.  
+• Implement RoReWo Teams accomplishing positive and negative material separation. 
+• Significantly increase the “picks per invested euro” rate for the composite robotic system. 
+The targeted advancements wil l be supported by available HW/SW assets that will be further evolved in terms of 
+their Technology Readiness Level, as summarized in the following table. 
+Table 1.1b Asset description and advancement table with respect to PIL 2. 
+Partner - Asset description and advancement TRL: From → To 
+FORTH - Material recovery optimization. An approach is available to select the next material 
+to pick, based on proximity, ecological and economic criteria. This approach will scale up to 
+select multiple materials for all RoReWos in a Team. 
+TRL6  → TRL7 
+(WP4, WP5) 
+RBNS - RoReWo units. Fully functional RoReWo units equipped with vacuum grippers have 
+been implemented and assessed in an industrially relevant material recovery environment. 
+RoReWos will be expanded with new grippe rs and will be evaluated in real operational 
+environments. 
+TRL5 → TRL7 
+(WP4, WP5) 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 8 of 45 
+ 
+RBNS - Parametrized pick and place programming. A framework that facilitates pick and 
+place programming by non -experts. The framework will be advanced to store reproducible 
+parameterized behaviors for RoReWo-gripper pairs.   
+TRL5 → TRL7 
+(WP4, WP5) 
+KUL - Grasping mechanisms. Collaborative algorithms for joint grasping and load balancing 
+have been implemented. These algorithms will be customized to support the design and 
+implementation of new grippers for robotic sorting of objects/waste with unknown content.   
+TRL4 → TRL7 
+(WP4, WP5) 
+PIL-3, Portable robotic Material Recovery Facility (prMRF) 
+Portable material recovery and sorting facilities are used by waste management compani es, demolition companies 
+and local authorities/local authority contractors that have an active role in the circular economy value chain. They 
+cover waste processing needs at places where installation of stationary waste sorting stations is 
+impossible/impractical. Portable material recovery facilities are compact, easy to transfer and install recovery 
+stations, which still rely on manual sorting. The increased workforce required for the operation of the facilities, which 
+assumes humans to be transported to remote workplaces, trained in the recovery and sorting of materials, and finally 
+work in difficult and unhealthy conditions with their efficiency constantly decreasing during a shift, reduces the 
+productivity of the stations and limits their widespread use despite the increased market needs. The proposed work 
+draws on the extensive experience of RECLAIM partners in intelligent automated waste treatment based on AI, 
+computational vision, hyperspectral imaging, and robotic sorting, to build the first high-tech portable robotic material 
+recovery facility that accomplishes increased productivity with a minimal need of people working in unhealthy 
+conditions. A concept image of the proposed prMRF is shown in Figure 1.2.  
+  
+Figure 1.2. Concept image of the prMRF  showing an outside and inside view. In the inside view, from right to 
+left, there is a flip -flop screen to remove small and wet materials, a belt to transfer waste, 4 low -cost RoReWos 
+installed above the conveyor belt to pick multiple materials which are then temporally stored in bins with different 
+colours and at the end, a press for compacting the recovered materials. 
+Advancements to the state of the art 
+● Implement the prMRF, the first portable fully equipped robotic material recovery facility to be asses sed in 
+real and challenging operational environments.  
+● Exploit performance analytics to enable informed, on the fly prMRF configuration adaptations that address 
+changing characteristics of the processed waste streams. 
+The accomplishment of the advancements summarized 
+above will be  supported by the experience gained 
+during the development of a compact, prMRF-like 
+industrial research setup  in Heraklion, Crete, Greece , 
+which host s two cooperating ABB IRB -360 Delta 
+robots that undertake material recovery. This compact 
+setup has significantly  facilitated data collection, 
+experimentation and the   assessment of robots and 
+grippers in  material rec overy in highly realistic and 
+demanding industrial environments. Th e expertise 
+gained from the implementation of this research setup 
+will significantly boost the proposed work and the 
+implementation of the prMRF in particular. 
+ 
+ 
+Figure 1.3.  The compact industrial research setup developed by 
+FORTH, operating at a waste processing plant in Heraklion, Cre te, 
+Greece. 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 9 of 45 
+ 
+Table 1.1c Asset description and advancement table with respect to PIL 3. 
+Partner - Asset description and advancement TRL: From → To 
+FORTH - Compact industrial research setup. A compact, fully equipped industrial research 
+setup has been developed in Heraklion, Greece, directly linked with the local waste processing 
+plant. The construction of this setup provides significant experience and know -how for the 
+design and implementation of the prMRF. 
+ 
+TRL7 → TRL7 
+(WP2, WP6) 
+AIMPLAS – Waste collection. AIMPLAS has a broad experience in certification of recycled 
+materials following European eco -labels and certifications of post -consumption waste. This 
+method will be adapted for the collection and logistics of waste in scattered residential areas. 
+TRL7 →TRL8 
+(WP6) 
+ 
+PIL-4: Educational environmental gaming for social awareness and training  
+Gamification has gathered substantial academic and commercial interest in recent years for its ability to mobilize 
+users in solving problems and in increasing their engagement. Playful interactions, themes inspired from games, and 
+reward structures (gamification) have been extensively used in "serious games" for educational purposes18 for citizen 
+reflection19 and for promoting a more ecologically -minded behavior 20. Gamification principles have been applied 
+extensively to motivate users/players to contribute their annotations and data in human computation games, in which 
+player interaction is used to generate data or solve problem s21. These games are not only built around increasing 
+awareness, but directly capitalize on the desire of non -experts in contributing (small or larger parts) to address 
+scientific challenges, a trend known as citizen science 22,23. Data games is another resear ch strand focused on 
+generating new games (or variations of games) from data, thus providing original gameplay experiences every time24. 
+A core ambition of PIL-4 regards the development of Recycling Data Games (RDG) that pair human computation 
+and data game s in a way that real -world data is shown to users, who through their annotations contribute new 
+knowledge models to the algorithms that select new content to show and that devise new challenges for users. Besides 
+contributing ever-fresh knowledge and human computation to the challenges of recycling automation tasks, the above 
+described closed-loop interaction can be particularly engaging for users of diverse age, gender, and background and 
+may provide a framework to explain and teach users the basic principles of Data Science and AI. 
+Advancements to the state of the art 
+• Implement playful, intuitive interface paradigms for improving social awareness regarding recycling using 
+good practices of gamification beyond extrinsic rewards. 
+• Implement playful, intuitive interface paradigms for human computation tasks which can lead to expanded 
+and improved training data for use in PIL-1. 
+• Realize the first RDG instance that contributes to an iterative cycle of re -use, from real-world data to user 
+annotations to improved baselines and better real-world data to show back to users. 
+The aforementioned advancements will be supported by well tested gamification methods which will be further 
+advanced in terms of their Technology Readiness Level, as summarized in Table 1.1d. 
+Table 1.1d Asset description and advancement table with respect to PIL 4. 
+Partner - Asset description and advancement TRL: From → To 
+UoM - DATA Agent25. Data game algorithms that consider the (re)use of real -world data to 
+instantiate generated games. The algorithms will be used beyond entertainment (i.e. social 
+awareness, human computation) and will be expanded to cover the recycling component using 
+multi-player data to inform/ improve the data selection/reuse processes. 
+TRL4  → TRL6 
+(WP6) 
+                                                     
+18 A. Domínguez, J. Saenz -de-Navarrete, L. Marcos, L. Fernández -Sanz, C. Pagés, J ..Martínez-Herráiz. "Gamifying learning 
+experiences: Practical implications and outcomes". Computers & Education, 2013. 
+19 K. Kontiza, A. Liapis and C.E. Jones: "Reliving the Experience of Visiting a Gallery: Methods for Evaluating Informal 
+Learning in Games for Cultural Heritage" in Proc. FDG 2020. 
+20  R. Khoshkangini, G. Valetto, A. Marconi. "Generating personalized challenges to enhance the persuasive power of 
+gamification" in Proc. of the Personalization in Persuasive Technology Workshop, 2017. 
+21 K. Siu and M.O. Riedl. 2016. Reward Systems in Human Computation Games. in Proc. CHI PLAY 2016. 
+22  Deterding, S., D. Dixon, R. Khaled, and L. Nacke (2011). From game desi gn elements to gamefulness: Defining 
+“gamification”. In Proceedings of the 15th International Academic MindTrek Conference. 
+23 L. Ceccaroni, J. Piera. "Analyzing the Role of Citizen Science in Modern Research". IGI Global, 2016. 
+24 G. Barros, M. Green, A. Li apis, J. Togelius: "Data -driven Design: A Case for Maximalist Game Design," in Proceedings of 
+the International Conference of Computational Creativity, 2018. 
+25 Michael Cerny Green, Gabriella A. B. Barros, Antonios Liapis and Julian Togelius: "DATA Agent," in Proceedings of the 
+13th Conference on the Foundations of Digital Games, 2018.  
+ 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 10 of 45 
+ 
+UoM - Iconoscope game26. This playful, online interface allows users to create novel drawings 
+based on textual prompts, and also allows users to annotate others’ drawings. The game will be 
+transferred to the needs of material recognition allowing users to add data/annotations to 
+existing datasets. 
+TRL4 → TRL6 
+(WP6) 
+RBNS - Quick-annotation tool. It allows users to select the entire pixel area of objects appearing 
+in complex industrial images, with a single click. The tool will be gamified to develop a 
+recycling data game that will engage the wider public in citizen science activities. 
+TRL5  → TRL7 
+(WP2, WP6)

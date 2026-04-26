@@ -1,0 +1,2955 @@
+3.1 Work plan — Work packages, deliverables  
+Brief presentation of the overall structure of the work plan: 
+The brief overview of workplan and interconnection between different WPs is shown in PERT figure below. The 
+project starts with WP1 establishing requirements of high yield manufacturing parameters, inspection needs and 
+material challenges to achieve reliability of components and longer lifetimes promoting sustainability thus less waste 
+and material to be recycled thus contributing to circular economy. Further, the sensors and automation of R2R and 
+S2S lines will also be analysed in WP1. In WP2, innovative deposition, packaging and patterning techniques and 
+process will be optimised for industrial scaled up implementation.WP3 will deal with inspection system, techniques 
+and software development.WP4 will incorporate automation, sensor system, hardware and intelligent decision 
+management software. WP5 will develop recycling and re-use strategies and technologies to promote sustainability. 
+WP6 will include testing and trial at pilot scale as well as integration and validation activities in production lines of 
+end user partners. WP7 will include dissemination and exploitation activities and WP8 will outline project 
+management, coordination guidelines and implementation. 
+Graphical presentation of the components showing how they inter-relate (Pert chart): 
+ 
+Figure 55 Project PERT diagram
+
+ 
+54 
+[OLEDSOLAR]  
+Timing of the different work packages and their components (Gantt chart): 
+Leaders 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42
+ASPF
+INURU
+ASPF
+SMIT
+Solibro M1
+Advent
+TNO
+Coatema
+VTT
+TNO
+VTT
+VTT
+FhG
+VTT M2
+TWI
+IRIS
+TWI
+SAL
+FhG
+VTT
+VTT
+LEITAT
+BUL
+VTT M3
+IRIS
+ASPF
+IRIS
+IRIS
+IRIS M4
+LEITAT
+LEITAT
+LEITAT
+LEITAT M5
+SMIT
+SMIT
+VTT
+ASPF
+Coatema M6
+LEITAT
+TWI
+VTT
+VTT
+VTT
+VTT
+SMIT
+VTT
+VTT
+VTT
+VTT
+VTT
+Large area printing quality measurement and comparison to design layout 
+Development of in-line inspection and quality control system
+Implementation and optimisation of NDT testing for zero-defect testing at device level for OLEDs and solar cells 
+Development of intelligent decision management and control software for automation and monitoring 
+Sensor system development for automation and monitoring of production processes
+Identification of production automation requirements and process control system design 
+Development of AI driven production process automation and quality control system
+Machine vision based micro meter level register accuracy measurement for visible and highly transparent layers 
+Development of in-line optical inspection system for component level testing at production scale 
+Qualification of thin film barrier coatings for flexible  devices 
+System level Testing and validation on production pilot lines 
+Project reporting to EC and periodic progress meetings
+Quality assurance, Innovation Management and Project Performance monitoring
+Testing and trials of integrated finalised OLEDSOLAR solution on pilot lines of OLED and solar cells 
+Integration of finalised manufacturing, inspection and automation processes on pilot line 
+Project Management and Coordination
+Project Management and Coordination
+Risks, Deliverables, Milestones and IP management
+Optimisation of scalable manufacturing processes for solar cells 
+Development of inkjet-based deposition technique for pre-encapsulation of solar cells and flexible OLEDs
+Optimisation of R2R and S2S atomic layer deposition techniques and processes in R2R and S2S production process
+Quantification of the environmental and economic performance of the OLEDSOLAR solution 
+Dissemination and Exploitation
+Plan for Exploitation and Dissemination of results (PEDR)
+Communication, advertising and conferences publications of technical outputs
+Post Project Business Plan and Commercialisation roadmap
+Identification of OLEDs  manufacturing requirements
+WPs and Tasks
+Identification of opto-electrical components manufacturing and inspection requirements at production scale
+Developing adaptive material handling system including intra equipment automation
+Development of innovative manufacturing processes for OLEDs and solar cells
+Assessment of current production processes and process tools adaptability as per production requirements
+Establishing requirements for inspection,quality and process control
+Analysis of material challenges for manufacturing process reconfiguration and recyclability
+Identification of  Solar cells manufacturing requirements
+Standardisation, regulations, certification and safety codes 
+Valorisation of results 
+Development of reconfigurable and scalable lamination, joining and packaging process for OLEDs and solar cells 
+Development of in-line Raman spectroscopy and luminescence testing processes and in-line prototype devices 
+Systems level Testing and validation on production pilot lines 
+Development of machine learning based inspection data processing and defects detection software 
+Definition of existing and/or innovative recycling routes into the own manufacturing process 
+Evaluation of potential existing pre-treatment technologies and recycling solutions for OLEDs and solar cells 
+Scalability and performance validation of OLEDSOLAR processes and solution 
+Development of materials recycling and re-use approaches for OLEDs and solar cells
+Testing and trial of OLEDSOLAR on production lines 
+Intergation, Testing, demonstration and performance validation
+Testing and validating the feasibility of recycling technologies at pilot scale 
+Testing and validation on production pilot lines
+Testing and validation on production pilot line for roll-to-roll fabricated barrier films 
+Implementation of functional testing processes including aging testing and optical performance 
+ 
+61 
+OLEDSOLAR
+4.1 Participants (applicants) 
+ 
+ 
+Participant 1 
+Organisation Name: Teknologian tutkimuskeskus VTT Oy 
+(VTT) 
+Website: http://www.vttresearch.com/ 
+Organisation Description:  
+VTT Technical Research Centre of Finland Ltd is a state owned and controlled non-profit limited 
+liability company established by law and operating under the ownership steering of the Finnish 
+Ministry of Employment and the Economy.  
+VTT is an RTO whose activities are focused on three areas: Knowledge intensive products and 
+services, Smart industry and energy systems, and Solutions for natural resources and environment. 
+VTT is impact-driven and takes advantage from its wide multi-technological knowledge base to 
+strengthen Finnish and European industrial competitiveness. VTT can combine different 
+technologies, produce information, upgrade technology knowledge, and create business intelligence 
+and value added for its stakeholders. 
+VTT has a staff of 2128, net turnover in 2016 was 162,6M€ and other operational incomes were 
+86,4M€. Over the years, VTT has gained vast experience from participation and coordination of 
+numerous European projects including R&D Framework Programme projects and other thematic 
+frameworks and programmes. VTT is ranked among the leading European RTOs. 
+Relevant Publications:   
+ Välimäki, M., Apilo, P., Po, R., Jansson, E., Bernardi, A., Ylikunnari, M., Vilkman, M., Corso, 
+G., Puustinen, J., Tuominen, J., Hast, J., R2R-printed inverted OPV modules – towards 
+arbitrary patterned designs, Nanoscale, 7 (2015) 9570-9580, DOI: 10.1039/c5nr00204d 
+ Vilkman, M., Hassinen, T., Keränen, M., Pretot, R., van der Schaaf, P., Ruotsalainen, T., 
+Sandberg, H.G.O, “Fully roll-to-roll processed organic top gate transistors using a printable 
+etchant for bottom electrode patterning”, Organic Electronics, 20 (2015) 8-14. 
+ Kopola, Pälvi; Tuomikoski, Markus; Suhonen, Riikka; Maaninen, Arto, “Gravure printed 
+organic light emitting diodes for lighting applications”, Thin Solid Films. Vol. 517 (2009) No: 
+19, 5757 – 5762 
+ Vilkman, M., Apilo, P., Välimäki, M., Ylikunnari, M., Bernardi, A., Po, R., Corso, G., Hast. J., 
+“Gravure-Printed ZnO in Fully Roll-to-Roll Printed Inverted Organic Solar Cells: Optimization 
+of Adhesion and Performance”, Energy Technology (Printed Energy Technologies special 
+issue), 3 (2015) 407-413 
+ Apilo, P., Välimäki, M., Po, R., Väisänen, K.-L., Richter, H., Ylikunnari, M., Vilkman, M., 
+Bernardi, A., Corso, G., Hoppe, H., Roesch, R., Meitzner, R., Schubert, U.S., Hast, J., “Fully 
+Roll-to-Roll Printed P3HT/Indene-C60-Bisadduct Modules with High Open-Circuit Voltage 
+and Efficiency”, Solar RRL, 2018, DOI: 10.1002/solr.201700160. 
+ 
+Relevant Projects:  
+ EU_THIME: Thinfilm measurements on organic photovoltaic layers (2012-2014) 
+ EU_ArtESun: Efficient, large-area arbitrary shape solar energy (2013-2016) 
+ EU_Monoscribe: Roll-to-Roll Monolithic Interconnection of Customizable Thin-film Solar 
+Modules (2015-2018) 
+
+ 
+62 
+OLEDSOLAR  
+ EU_IN-LIGHT: Development of printed transparent OLEDs integrated into window 
+applications (2012-2015) 
+ EU_Polaric: Printable, organic and large-area realisation of integrated circuits (2010-2014) 
+Infrastructure/Equipment:  
+ MAXI R2R Printing line 
+ 4 interchangeable printing unit slots 
+ Available deposition units: forward and reverse 
+gravure, rotary silk screen, flexography and slot die 
+coating 
+ Plasma substrate treatment unit 
+ Lamination unit 
+ R2R hot embossing unit 
+ Die cutting unit 
+ Drying units (air, UV) 
+ Automatic registration system 
+ Max. web width 300mm 
+ Max. web velocity 30m/min 
+ 
+ R2R Functional tester 
+ 192 measurement channels 
+ Minimum test pad size 2mm x 2mm 
+ Maximum test fixture size 408mm x 
+290mm 
+ Automated test fixture alignment 
+ In-house test fixture design and assembly 
+ Different measurement possibilities 
+between test points 
+ DELTA converting line 
+ 6 interchangeable converting unit slots 
+ kiss cut (top and bottom) 
+ lamination 
+ slitting 
+ CO2 laser 
+ Automatic registration system for lamination 
+ Max. web width 300mm 
+ Max. web velocity 90m/min 
+ S2S gravure (Labratester), flexo (RK Flexo), inkjet (PiXDRO LP50 & Fujifilm Dimatix DMP-
+2800) & screen (EKRA) printers, gravure & flexo with 10 µm alignment accuracy 
+(Superproofer 220) 
+ PiXDRO inkjet has Fujifilm Dimatix S-Class and Konica Minolta KM512 industrial scale 
+printheads 
+ Encapsulation/lamination inside N2 glove box for sheets and short (1-2 m) rolls 
+ Aging measurements (ISOS-L-3) for solar cells 
+ Electrical characterization of solar cells/modules and OLEDs 
+ 
+Figure 1: MAXI R2R printing line 
+Figure 2: R2R Functional tester 
+ 
+63 
+OLEDSOLAR  
+ 
+ 
+Key personnel 
+Name: Marja Vilkman             Gender: Female  
+Background:  
+ 
+Marja Vilkman has worked with printed electronics since 2001 when she started as a research 
+trainee at VTT. Her research has focused on functional materials and processing methods for 
+flexible electronics - both in S2S and R2R scale. She has been steering several international R&D 
+projects related to organic solar cells, transistors and scale-up of printing/patterning processes. 
+Education: 
+2017: Adjunct professor at Aalto University (Field: Printed Electronics) 
+2010: D.Sc. in Physics (Field: Polymer physics) 
+2002: M.Sc. in Chemistry (Field: Polymer chemistry) 
+Work Experience: 
+Senior Scientist at VTT 2012: Responsible for project planning & management, scientific 
+coordination & supervision related to S2S and R2R printed solar cells and transistors, etching 
+processes etc. 
+ 
+Research Scientist at VTT 2003-2012: Responsible for ink formulation, printing processes and 
+electrical and chemical characterisation of thin films. 
+ 
+Product Development Experience: 
+Working with industrial clients to increase the TRL of materials and processes. 
+ 
+Intellectual Property Management: 
+Two patents: 
+1. Vilkman, M., Mäkelä, T., Lehtinen, K., “Time and humidity sensor and the use thereof” EP 
+2009432 B1, filing date Jun 3, 2008. 
+2. Calabrese, A., Carbonera, C., Vilkman, M. “Inverted polymer solar cells and process for 
+producing the same” WO 2015068102, filing date Nov 2014 (priority: Nov 2013 IT 2013-
+MI1831). 
+Innovation Management: 
+WP leader for Dissemination and Exploitation in two EU FP7 projects (EU_Polaric & EU_Rotrot). 
+ 
+Name: Kim Eiroma             Gender: Male  
+Background:  
+ 
+Kim Eiroma has worked as an inkjet printing and materials deposition expert at VTT since 2006. 
+He has contributed in publicly funded collaborative and privately commissioned research projects 
+Figure 3: DELTA converting line 
+ 
+64 
+OLEDSOLAR  
+in several application areas, ranging from graphic applications to diagnostic and sensor devices to 
+electronic component fabrication and integration. 
+Education: 
+2005: M.Sc. (Tech.) Graphic Arts Technology (Printing) 
+Work Experience: 
+Research Scientist at VTT 2006 - present: Research and development in applications, materials 
+and processes for printed functional devices and graphic applications, specializing in the inkjet 
+deposition process. 
+ 
+Product Development Experience: 
+Working with industrial clients to increase the TRL of materials and processes. 
+ 
+Name: Tuomas Happonen             Gender: Male  
+Background:  
+ 
+Tuomas Happonen has worked with printed and flexible electronics since 2010 at VTT and 
+University of Oulu. He has solid expertise on functional and reliability testing on several 
+application areas in printed and hybrid electronics. He has strongly contributed this field by 
+developing new test equipment and test methods for project use. 
+Education: 
+2016: D.Sc. (Tech), University of Oulu, Electrical engineering 
+2008: Lic.Sc. (Tech), University of Oulu, Applied electronics 
+2005: M.Sc. (Tech), University of Oulu, Electronics 
+Work Experience: 
+Senior Scientist at VTT 2016 - present: Automated roll-to-roll functional testing of printed 
+electronics, environmental reliability testing of printed and hybrid electronics, bending and 
+stretching tests of printed and hybrid electronic structures 
+ 
+Several positions in research and teaching staff at Optoelectronics and Measurement Techniques 
+Unit, University of Oulu 2004 – 2016: Reliability testing of printed electronics under 
+environmental stresses (especially cyclic bending tests), development of printed and flexible 
+sensors, remote and embedded testing of electronics, planning and realization of study modules in 
+the degree program of electrical engineering. 
+ 
+Product Development Experience: 
+Working with industrial clients to increase the TRL of system integration in printed and hybrid 
+electronics. 
+  
+ 
+ 
+ 
+Participant 2 
+Organisation Name: Fraunhofer Gesellschaft (FhG) 
+Website: www.fraunhofer.de 
+Organisation Description: 
+The Fraunhofer Institute for Organic Electronics, Electron Beam and Plasma Technology (FEP) is 
+one of 60 research institutes within the Fraunhofer Society, the largest society for applied research 
+in Europe. In July 2014 Fraunhofer FEP was merged with the former Fraunhofer COMEDD. The 
+core competences of the FEP are novel device technologies in the field of organic electronics 
+based on vacuum coating technologies, like thermal evaporation, pulse-magnetron-sputtering, 
+plasma activated evaporation and plasma enhanced chemical vapour deposition. FEP concentrates 
+ 
+
+ 
+65 
+OLEDSOLAR  
+on applied, industry-oriented research both in public-funded joint projects as well as in direct 
+research contracts with industrial companies. One major field of FEP is the coating of flexible 
+products like polymer webs, ultra-thin glass and metal foils. Both, high throughput plasma-
+assisted evaporation as well as high quality magnetron-sputtering are used to coat polymer 
+surfaces with transparent conductive oxides, permeation barrier layers and optical layer stacks as 
+well as metal surfaces with scratch resistant, electrical insulation or chemical protection layers. 
+Based on the existing infrastructure FEP can offer product developments starting with the system 
+concept till pilot fabrication level. 
+Together with CSEM, TNO and MBNT, Fraunhofer (FEP and IWS) will providing feedback for 
+barrier film performance analysis an large areas for flexible organic devices with high barrier 
+requirements down to 10-6 g/m²*d. The final goal is to implement an in-situ inspection system 
+(hyperspectral imaging) for rapid in-line tests to reveal yield relevant issues under pilot production 
+scale. The barrier performance will be validated and qualified in the existing roll-to-roll OLED 
+line.    
+FEP and IWS will contribute to WP2, WP3, and WP6 
+Relevant Publications: 
+ Stefan Mogck et. al., “Present status of Roll-to-Roll OLED fabrication and encapsulation”, J. 
+Jpn. Soc. Colour Mater., 86 (12), 461–465 (2013) 
+ Christian May, “Flexible OLED – new possibilities for automotive lighting”, Intelligent 
+Automotive Lighting, Düsseldorf, Germany, 27 – 29 January 2015 
+ Christian May, “Next generation flexible lighting by OLED technology “, LpS 2013 – 3rd 
+LED Professional Symposium + Expo, Bregenz, Austria, 24 – 26 September 2013 
+ Hoffmann, M.; Kristukat, C; Diekmann, K.: „OLED lifetime determination procedure and 
+proposal for standardisation”, in: A Buckley (ed.): Organic light-emitting diodes (OLEDs): 
+materials, devices and applications, Woodhead Publishing, August 2013, ISBN: 978-0-85709-
+425-4, p. 601-634 
+ M. Fahland, T. Vogt, W. Schoenberger, J. Fahlteich, and N. Schiller, Transparent Conductive 
+Electrodes for Flexible Solar Cells, 51st Annual Technical Conference Proceedings (2008), 
+785-788 
+ 
+Relevant Projects: 
+ EU FP7 project TREASORES OLED device development on novel transparent electrodes for 
+large area illumination (10x 10 cm², > 25 lm/W, lifetime > 10000 hrs.)  
+ EU FP7 project SMARTONICS focusing on pilot lines for organic solar cells and OLED 
+devices. In this project Frauhofer FEP  (together with the Fraunhofer-POLO® alliance) 
+develops roll-to-roll manufacturing processes for ultra-high barriers 
+ German funded project FLEX25 about pilot-scale manufacturing of outdoor stable 
+encapsulation films for photovoltaic applications 
+ German funded project FlexSOL focusing on transparent electrodes for flexible silicon solar 
+cells. 
+ German funded project R2flex for the development of roll-to-roll OLED process technology 
+of small molecule OLED devices on flexible substrates. 
+ German funded project R2D2 (Roll to device) is the focus on reliability and long term 
+stability for roll-to-roll OLED fabrication. 
+ H2020 project PI-SCALE Bringing flexible organic electronics to pilot innovation scale (> 
+1m OLED lighting stripes with efficacy of 30 lm/W, lifetime > 15 years) 
+ 
+ 
+66 
+OLEDSOLAR  
+Infrastructure/Equipment:  
+The Fraunhofer FEP has the following main items of technical equipment for OLED lighting: 
+ R&D and pilot line for rigid and flexible substrates in ISO class 4 clean room environment 
+(200x200 mm² substrates, some processes up to 370x470 mm²) for lighting and organic solar 
+cells applications  
+ Coflex600 and novoflex600 for pilot production of TCO electrodes and ultra-high barriers on 
+transparent polymer films with a maximum web width of 600 mm. 
+ A roll-to-roll OLED line fabrication for flexible substrates (foil width of 300 mm for metal, 
+ultra-thin glass and polymer films) including small molecule vacuum deposition, inspection 
+system and lamination under protective nitrogen atmosphere for the barrier film 
+encapsulation. 
+ 
+         
+Figure 1: Process flow of the R2R prototype line from substrate inspection up to the final 
+electro-optical characterization of large area OLED devices. 
+ 
+Figure 2: On the left hand side a schematic drawing of the R2R vacuum coater and the 
+indication of the white p-i-n OLED stack processing which requires 14 organic linear 
+evaporators is depicted. On the right hand side shows a photograph of the substrate winding 
+unit and the deposition drum of the R2R vacuum coater with winders for substrate and 
+protective liner foil to minimize substrate damage after the OLED deposition process. 
+ 
+67 
+OLEDSOLAR  
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Key Personnel 
+Name: Dr. Stefan Mogck                                              
+Gender: Male 
+Background:  
+Dr Stefan Mogck studied physics at the University of Tübingen, Germany in 2000. In 2004 he 
+received his PhD at the Institute of Applied Physics (Materials science and engineering) of the 
+University of Groningen (NL). Afterwards, he joined to Advanced Micro Devices in Dresden as a 
+defect engineer. In 2007 he was engaged at MicroEmissive Displays (MED) in Dresden as process 
+engineer for the sputtering and the PLED spin coat process. Since 2008, he changed to Fraunhofer 
+Institute for Photonic Microsystems. He is now leading the department “Roll-to-Roll Organic 
+Technology”. 
+Name: Dr. Wulf Grählert                          Gender: Male 
+Dr Wulf Grählert obtained a degree in chemistry from the Institute of Technology (Leuna 
+Merseburg) and doctorate in the field of spectroscopy of solids and layered systems in 2002. He 
+has been staff member at the Fraunhofer Society since 1995 and leads the group “Optical 
+Inspection  Technology” since 2004 at FhG-IWS, Dresden. His current research interests include 
+gas analysis, particle sensing, multi-spectral sensing for industrial applications. Dr. Grählert has 
+been involved in several European projects and has coordinated the Large-scale integrating project 
+“nanoMOF” from 2009 – 2013. 
+ 
+Participant 3 
+Organisation Name: Nederlandse Organisatie voor Toegepast 
+Narrturwetenschappelijk Onderzoek (TNO) 
+Website: www.tno.nl 
+Organisation Description: 
+ 
+Figure 3: Photograph of R2R lamination system (left) which is encased in an inert box at 
+Fraunhofer FEP (right).     
+Figure 4: Roll-to-Roll inspection system encased in a clean room carbine ISO6. 
+
+ 
+68 
+OLEDSOLAR  
+TNO (Nederlandse Organisatie voor toegepast-natuurwetenschappelijk Onderzoek TNO) is one of 
+the major contract research organisations in Europe with a staff of circa 3500 and an annual 
+turnover of 580 million Euros. TNO carries out research in order to achieve impact in themes: 
+Healthy Living, Industrial Innovation, Transport and Mobility, Energy, Built Environment, 
+Information Society, and Defence, Safety and Security. TNO acts as an intermediary between 
+basic research and industry. By translating scientific knowledge into practical applications, TNO 
+contributes to the innovation capacity of businesses and government. 
+TNO has extensive experience in EC research and project management through involvement in 
+coordinating and participation in hundreds of EU projects. In the theme of Industrial Innovation 
+the focus is on innovation in the areas of high-tech systems and materials, manufacturing, the 
+sustainable chemical industry and space applications. The Thin Film Technology research group 
+will contribute to this project. It has as main activities development, modelling and control of 
+deposition, patterning and interconnect processes for economical and durable thin film PV cells. 
+The group is on the forefront of process and equipment development of spatial (including R2R 
+and S2S) ALD of  barrier, buffer and electrode layers, and front electrode grid applications, and of 
+advanced tests development for cell and module stability testing. TNO has expertise and facilities 
+concerning the growth and the physical/electrical characterisation of CIGS-based solar cells.  
+TNO’s main involvement will be in WP2 (which will be coordinated by TNO) and WP6, but TNO 
+will also participate in WP1, WP3 and WP7. TNO’s technical role is to contribute to 
+specifications and validation of the metrology systems for quality control of (optionally Plasma 
+Enhanced or PE) spatial ALD barriers and optimization of the barrier coating process itself tools. 
+Relevant Publications: 
+ A. Illiberi, P. Poodt, P. Bolt, F. Roozeboom, Recent Advances in Atmospheric Vapor-Phase 
+Deposition of Transparent and Conductive Zinc Oxide, Chemical Vapor Deposition 20 (2014) 
+ A. Illiberi, R. Scherpenborg, Y. Wu, F. Roozeboom, P. Poodt, “Spatial Atmospheric Atomic 
+Layer Deposition of AlxZn1–xO”, ACS Appl. Mater. Interfaces, 2013, 5 (24), pp 13124–
+13128 
+ S. Sneck, R. Knaapen, H. Heezen, A. Smith, “Rolling out the sunshine: advanced solar cell 
+production via continuous coating systems”, Surface Coating International, 96(3):137-139, 
+June 2013  
+ C. Frijters, P.J. Bolt, P. Poodt, R. Knaapen, J. van den Brink, M. Ruth, D. Bremaud, A. 
+Illiberi, “Atmospheric spatial atomic-layer-deposition of Zn(O, S) buffer layer for flexible 
+Cu(In, Ga)Se2 solar cells: From lab-scale to large area roll to roll processing”,  Conference 
+Record of the IEEE Photovoltaic Specialists Conference, Volume 2016, 18 November 2016, 
+Article number 7749856, pp 1449-1451 
+ V. Zardetto, B.L. Williams, A. Perrotta, F. Di Giacomo, M.A. Verheijen, R. Andriessen, 
+W.M.M. Kessels, M.Creatore, “Atomic layer deposition for perovskite solar cells: research 
+status, opportunities and challenges”, Sustainable Energy and Fuel, 2017, 1, 30   
+ 
+ 
+Relevant Projects: 
+ Clean4yield - Contamination and defect control for increased yield for large scale R2R 
+production of OPV and OLED; FP7 program, grant agreement 281027 (ended 30-04-2016) 
+ INREP – Towards Indium free TCOs; H2020 program, grant agreement 283974 (ended 31-
+01-2018) 
+ R2R-CIGS - Roll-to-roll manufacturing of high efficiency and low cost flexible CIGS solar 
+modules; FP7 program, grant agreement 283974 (ended 30-09-2015).  
+ 
+69 
+OLEDSOLAR  
+ Mujulima – Innovative materials for high performing OPV; FP7 program, grant agreement  
+604148 (ended 31-12-2016)  
+ PI-SCALE - Bringing flexible organic electronics to pilot innovation scale; H2020 program, 
+grant agreement 688093 (ends 31-12-2018) 
+ 
+Infrastructure/Equipment:  
+ Atmospheric spatial atomic-layer-deposition (S-ALD) tools: two rotary (lab scale, with/without 
+remote or direct plasma), sheet-to-sheet (32.5cm x 40cm, with/without remote plasma) and 
+roll-to-roll (30 cm wide) tools.  
+ 
+ 
+ 
+ 
+ 
+Rotary spatial ALD tool                  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Roll-to-roll spatial ALD tool     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sheet-to-sheet spatial ALD tool   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Test line for manufacturing of (10 cm x 10cm) CIGS modules on rigid (glass) substrate using 
+co-evaporation and (30 cm x 30 cm) using 2 step process route (with sputter and CBD tools for 
+precursor coating) to support in-house the development and validation of  passivation, front 
+window and barrier deposition processes and techniques for CIGS modules. 
+
+ 
+70 
+OLEDSOLAR  
+ R2R multi-layer slot-die coating facility for 30 cm wide foil. 
+ S2S slot-die (1-10 m/min,  15x15 cm2 and 30x30 cm2) tool.  
+ Techniques to characterize the optical, electrical and morphological properties of thin films; 
+spectroscopic ellipsometry, spectrophotometer, photoluminescence, X-ray diffraction, Hall 
+measurements, four points probe, high resolution scanning electron microscope (SEM), high 
+resolution transmission electron microscope (TEM), energy dispersive X-ray spectroscopy 
+(EDX), X-ray fluorescence (XRF).   
+ Climate chambers, partly with in-situ illumination and real time monitoring of cell and module 
+performance. 
+ 
+Key Personnel 
+Name: Dr Pieter Bolt                                              Gender: Male 
+Background:  
+MSc. Applied Physics, Groningen University and PhD Technical Sciences, Eindhoven University 
+of Technology. He worked for 2 years in Japan at AIST and at Hitachi Ltd. Since 1991 employed 
+by TNO in field of materials processing and application research and knowledge transfer, in 
+projects with automotive, steel & aluminium, building, electronics, medical, lighting and PV 
+industries. Since 2008 his research is focused on thin-film photo-voltaics. He has been and is 
+involved in a large number of national and European collaboration projects, as partner and as 
+coordinator (of the FP7 R2R-CIGS and FP7 SSL-erate / Lighting for People projects).  
+Name: Dr. Fieke van den Bruele                           Gender: Female 
+Joined TNO after receiving in 2012 a PhD in Chenistry from the Radboud University Nijmegen in 
+the Netherlands. Research scientist responsible for spatial ALD high performance barriers for solar 
+and battery applications. 
+ 
+Name: Dr. Valerio Zardetto                                  Gender: Male 
+MsC and PhD degrees in Electronic Engineering at Università degli Studi di Roma.  After a post-
+doc position at Eindhoven University of Technology since 2016 working as research scientist at 
+TNO specialized in spatial ALD for photovoltaic solar cell technology. 
+Name: Dr. Paul Poodt                                           Gender: Male 
+M.Sc. degree in chemistry in 2003 and Ph.D. degree in physics in 2008 from Radboud University 
+Nijmegen. In 2008 he joined TNO, working on thin film deposition for solar cell applications, and 
+since 2009 as lead process scientist spatial ALD and since 2013 as manager of the spatial ALD 
+research program for large area electronics (solar, battery, lighting) applications. 
+ 
+ 
+Participant 4 
+Organisation Name: INNOVACIO I RECERCA 
+INDUSTRIAL I SOSTENIBLE SL (IRIS) 
+Website: www.iris.cat 
+Organisation Description: 
+IRIS (www.iris-eng.com) is a technology SME that was established in Barcelona in 2007 and 
+specialises in the manufacture and integration of Process Analytical Technology (PAT)-based 
+real-time quality monitoring solutions for the process industries and IoT systems for smart 
+manufacturing, predominantly targeted at the food, pharmaceutical and chemical industries. In 
+particular, our product line comprises proprietary state-of-the-art IR analysers for at-line and in-
+line process monitoring. 
+On the one hand our solutions are based on the latest developments in photonics-in the fields of 
+MEMs Near Infrared Spectroscopy, Hyperspectral Imaging, and Raman. On the other hand, we 
+ 
+71 
+OLEDSOLAR  
+leverage ICTs, whereby we apply Machine learning, Artificial Intelligence and Data Mining 
+techniques for predictive and active control, as well as for decision support systems. In addition to 
+photonics-based analysers, we also work with IoT sensors for enabling equipment and machinery 
+for smart manufacturing and transitioning industry to the Industry4.0 paradigm. Our solutions are 
+cloud-based for mobility, remote monitoring and multi-site applications.  
+Our Innovation Division has 3 core strategic lines, for shaping the Factory of the Future: 
+1. New optical photonics-based technologies and PAT systems for production process 
+optimisation 
+2. ICTs (Artificial intelligence / machine learning, IOT & cloud platforms) 
+3. Circular and Bio-based Economy: digitalization and waste valorisation 
+Our Innovation Dvision is experienced in working in collaborative R&D projects in H2020 (both 
+as coordinators and partners) and principally in the SPIRE, FoF, and BBI programmes. The 
+company was established in 2007 and currently employs 56 staff with a turnover of €3.8 M. It is 
+equipped with engineering workshops (3), food testing and wet chemistry laboratory, optics labs 
+(2), and an electronics & telecommunications lab. IRIS is ISO 9001:2008 certified and also is 
+certified under UNE-EN-ISO 166002: Management Systems R&D&i. We are also certified by the 
+local (Catalonian) government as a provider of technological R&D services (Tecnio Certification).  
+ 
+Relevant Publications: 
+ A. Rosales, O. Mc Nerney. Sensing Technology. Chapter 6. Resource Efficiency of 
+Processing Plants. Monitoring and Improvement.  Edited by Stefan Krämer and Sebastian 
+Engell. Wiley-Vch. Print 
+ISBN: 978-3-527-34074-3  
+in press 
+ Commercial Data Mining, 
+Processing, Analysis and 
+Modeling for Predictive 
+Analytics Projects, David 
+Nettleton, Elsiever book, 
+ISBN9780124166028, 
+304p 
+ Conference ICIEMPM 
+2016: Towards Automatic 
+Calibration of In-Line 
+Machine Processes, 18th 
+International Conference 
+on Industrial Engineering 
+and Manufacturing Process Modeling, D.F.Nettleton, E.Bugnicourt, C. Wasiak, A. Rosales, 
+London, UK, July 28-29, 2016.  
+ Recent Prospects in the Inline Monitoring of Nanocomposites and Nanocoatings by Optical 
+Technologies, E. Bugnicourt, T. Kehoe, M. Latorre, C. Serrano, S. Philippe and M. Schmid, 
+Nanomaterials 2016, Review, 6(8), 150; doi:10.3390/nano6080150 
+ Injection moulding process optimization by online material monitoring. E. Bugnicourt et al., 
+October 2012. Technical article in Packaging connections.    
+Relevant Projects: 
+
+ 
+72 
+OLEDSOLAR  
+ OptiNanoPro - Processing and control of novel nanomaterials in packaging, automotive and 
+solar panel processing lines (H2020- NMP-PILOTS, Grant Agreement no: 686116, 2015-
+2018).  
+ ProPAT - Robust and affordable process control technologies for improving standards and 
+optimising industrial operations (H2020- SPIRE, Grant Agreement no: 637232, 2014-2018).  
+ Visum® Inline - cloud-enabled IR spectroscopy platform for the rapid integration and 
+customisation of affordable, real-time chemical monitoring solutions for food and 
+pharmaceutical industries.  
+ Hypera® -Hyperspectral Imaging (HSI) System for on-line foreign body detection and 
+chemical composition analysis (H2020- SMEInst, Grant Agreement no: 726572, 2016-2018).  
+ Thime - Thinfilm measurements on organic photovoltaic (OPV) layers (FP7, Grant 
+Agreement no: 315665). 
+Infrastructure/Equipment:  
+ Spectroscopic Laboratory equipped with several instruments, namely, a FTIR-ATR 
+(Interspectrum), 2 UV-VIS (PerkinElmer and Ocean Optics), an Extended-SWIR (StellarNet) 
+and a NIR (Mightex) spectrophotometers as well as a SWIR Hyperspectral imager (Specim-
+Xenics). The associated staff are properly trained and skilled in chemometrics modelling by 
+using a commercial suite (SOLO+MIA from Eigenvector) as well as ad hoc non-commercial 
+chemometric tools (Matlab and Python toolboxes). 
+ Electronics, mechanical and optical workshops and laboratories equipped with up-to-date 
+hardware and tools: signal generators, wide band oscilloscopes, PCB design [Altium] and 
+building tools, development kits for programming microcontrollers, CNC-milling machines for 
+electronic and mechanical prototyping, and CAD software [SolidWorks], among others. 
+ IRIS’ optical engineers work with ZEEMAX software for optimally designing of optical 
+systems and to setup the designs by means of advanced optical components and facilities 
+(optical tables, windows, lenses, lasers and light sources and related “opticalware”). 
+ 
+Key Personnel 
+Name: JOAN PUIG LAGO                           Gender: Male 
+Background:  
+Engineering Degree in Electronics from Universitat Politecnica de Mataró and in Industrial 
+Organization from Escola Universitat Politécnica d’Enginyers Industrials de Terrassa. Executive 
+Education in Program for Management Development from ESADE. Joan comes from an 
+operations background and he is an expert in the design of efficient process and the implantation of 
+continuous improvement programmes. Since joining IRIS in 2012, he has implemented new 
+operational procedures based on lean and agile methodologies and he has successfully led the 
+company in securing ISO 9001:2008 certification, in addition to UNE-EN-ISO 166002: 
+Management Systems R&D&i certification. Prior to IRIS, he has 12 years industry experience in 
+automation of industrial processes for the main automotive & aeronautics companies: Mercedes, 
+VW, SEAT, EADS, BOEING, etc. Joan is a master in the definition of strategies and targets, and 
+in aligning systems and workflows according to operations schedules and within agreed costs and 
+high quality levels. He has extensive experience in managing Technical Departments and 
+Operations such as organization and monitoring of production and processes, development of 
+operational plans, and in providing guidance to design and implementation teams.  
+Name: EDUARD BOSCH COCH                           Gender: Male 
+BSc in Industrial Engineering (2010) from University of Girona (UdG), M.Sc. in Astrophysics, 
+particle physics and cosmology from the University of Barcelona (UB) and M.Sc. in Mechanics of 
+Materials and Structures. Prior to joining the Production Processes group at IRIS as Mechanical 
+Team Leader, he gained wide experience in structural design, as a project engineer (stress analyst) 
+developing projects including design, testing, manufacturing, calculations and finite element 
+ 
+73 
+OLEDSOLAR  
+simulations for the aeronautical sector. He also was the simulation manager of the department, 
+which provides him with the appropriate skills to leader a team. He has also held a position as 
+façade engineer and as an assistant teacher in the University of Girona (UdG) teaching material 
+science. He is expert in design for manufacturing, he is proficient in SolidWorks (Computer Aided 
+Design program) and has a wide experience with Abaqus (Finite Element Method program) among 
+many others. He also have experience as a researcher on advanced materials science. He is 
+currently working as the Team Leader of the Mechanical Engineering department in IRIS, where 
+he has also developed some private R&D projects for the food industry that have successfully 
+become products. 
+Name: DIANA GALILEA                           Gender: Female 
+Holds a Bachelor’s degree in Industrial Engineering with specialty in Industrial electronics from 
+the Universidad of La Rioja. Her professional background comprises technical experience in the 
+areas of embedded microcontrollers programming for wireless communications working with 
+different range of sensors. Her software expertise includes Matlab, Visual Studio, Autocad, Protel 
+DXP. Her programming skills include C++, C#, .NET among others. She is working currently as 
+software engineer in IRIS, developing software for chemo-metric analysis, translating chemo-
+metric algorithms from researchers source code as could be R or Matlab to c++ or C# in order to 
+integrate it with a user interface that carries out the analysis, as well as controls the system. She 
+also has been working in monitoring systems where information about sensors and actuators are 
+displayed on the user interface. 
+Name: DAVID NETTLETON                           Gender: Male 
+Data mining analyst at IRIS. Has a Ph.D in Artificial Intelligence from the Universitat Politécnica 
+de Catalunya, Barcelona, Spain, M.Sc. In Computer Software and Systems Design from the 
+University of Newcastle upon Tyne, U.K., and B.Sc. (Hons) Computer Science from the 
+University of Wolverhampton, U.K. Has over 20 years experience of applying data mining 
+algorithms (including neural networks, rule induction) and statistical techniques (including 
+ANOVA, regression, principal components) in a diversity of data analysis and modeling projects, 
+such as medical diagnosis/prognosis, fraud detection, customer loyalty and segmentation, online 
+user web search behaviour and data privacy. As well as commercial projects, he has conducted 
+research and lectured at two universities. He has published a diversity of articles in specialized 
+data analysis journals/congresses and three books. He has participated in several competitive 
+multi-partner research projects and has a European patent application for a graph matching 
+algorithm. His IT Industrial experience includes project management, consultancy, programming 
+and analysis, database development and business startups. He has developed software with a 
+diversity of programming languages, (including Java, C++ and COBOL/CICS/DB2), database 
+systems (such as Oracle, Ingres, MySQL) and data mining systems (IBM Intelligent Miner, 
+Clementine, Weka). In IRIS he is currently involved in two major European projects (OpenMind 
+and Sharebox), as a data mining specialist. The work in OpenMind involves modeling a complex 
+industrial production process for producing high precision medical instruments. The work in 
+Sharebox involves building a symbiosis system for industrial collaborations between companies 
+for the recycling of waste products using case based reasoning and agent modeling. 
+Name: MANEL SANCHEZ VELANDO                           Gender: Male 
+Software developer at IRIS. Degree in Informatics Engineering and Diploma in Computer Systems 
+from "Universitat Politècnica de Catalunya". English conversation level (B2). Having worked over 
+20 years in the field of information technology in different companies he has reported both 
+organizational and management experience. He has great experience in analysis of customer needs 
+and project management. Unix and Windows system administrator for 10 years. As a software 
+engineer, he has done many projects using several languages: C, C++, C#, ASP, ASP.NET, PHP, 
+Java, Javascript, SQL. Starting MEAN stack. He uses design patterns like: MVC, subject-observer, 
+status, representative, factory, facade, etc. GUI design experience in both desktop and 
+web(responsive) and in conformance to web content accessibility levels. UML design. Great 
+experience in MS SQL Server and Mysql databases. He has experience in CAD/CAM and 
+artificial vision control quality systems too. He enjoys analyzing projects with both customers and 
+ 
+74 
+OLEDSOLAR  
+team members in order to get the best solution. He likes to listen and learn from everyone around 
+him and share his knowledge with them. Team results are the most important for him. 
+ 
+Name: Dr. MARIANO PERALVAREZ                           Gender: Male 
+PhD in Physics from the University of Barcelona (2009). Currently Project Technical Responsible 
+and Optical Engineer at IRIS, Mariano is specialised in the fields of LED technology, Lighting, 
+Optoelectronics and Photonics. He has been responsible of Photometric, Photonics and 
+Optoelectronics labs, focusing, among many other activities (Spectroscopy, Materials Science…), 
+on the design (3D-CAD, ray-tracing and CFD), development, prototyping and performance 
+assessment of luminaires and light-engines (photometric, thermal and electric), collaborating 
+closely with manufacturers in the Lighting field. He also has a deep knowledge of Concentration 
+Photovoltaics especially in terms of raytracing simulations of optical concentrators and 
+indoor/outdoor tests of optoelectronic performance. Mariano also participated in 18 R&D projects, 
+funded through both public competitive calls (at National and EU level) and private institutions 
+such as the Project LED4ART, devoted to the refurbishment of the Sistine Chapel Lighting 
+system. 
+ 
+ 
+Participant 5 
+Organisation Name: OPVIUS GmbH (OPVIUS) 
+Website: www.opvius.com 
+Organisation Description: 
+OPVIUS GmbH, founded in 2012 and located in Nuremberg and Kitzingen (INNOPARK 
+Kitzingen), is among the world-leaders in the field of organic photovoltaics. OPVIUS develops 
+and manufactures organic solar cells with a focus on client-specific OPV solutions. In addition, the 
+company is also active in the field of research and development, in order to continue to provide its 
+clients with creative and innovative solutions. With a team of scientists, engineers and 
+manufacturing experts, OPVIUS creates customized OPV solutions. In this regard, OPVIUS uses a 
+unique production process, combining printing, lamination, and laser structuring techniques. This 
+advanced technology is easily scalable and allows the production of the utmost individual, 
+customer-specific designs. OPVIUS also helps clients with system solutions in order to integrate 
+OPVs into already existing or new products. 
+Relevant Publications: 
+1. Press release, 12.12.2017, OPVIUS develops new production process for freedom OPV 
+modules  
+2. S. Berny et al., Adv. Sci. 2016, 3, 1500342, Solar Trees: First Large-Scale Demonstration of 
+Fully Solution Coated, Semitransparent Flexible Organic Photovoltaic Modules  
+ 
+Relevant Projects: 
+1. OptiNanoPro: Processing and control of novel nanomaterials in packaging, automotive and 
+solar panel processing lines, Grant Agreement no: 686116, H2020- NMP-PILOTS-2015 
+2. Infinity: Indium-Free Transparent Conductive Oxides for Glass and Plastic Substrates, Grant 
+Agreement no: 641927; H2020-SC5-2014 
+3. ETFE-MFM: finished FP7 project on the development and demonstration of a flexible 
+multifunctional ETFE module for architectural façade lighting, Grant agreement no: 322459, 
+FP7-ENERGY-2012-2 
+ 
+
+ 
+75 
+OLEDSOLAR  
+4. Sunflower: finished FP7 project on the development of highly efficient, long-lasting, cheap 
+and environmentally friendly printed organic photovoltaics, Grant agreement no: 287594, 
+FP7-ICT-2011-7 
+5. BMBF (German Federal Ministry for Education and Research) project "POPUP" (finished 
+German national project on building integration of organic photovoltaics) 
+Infrastructure/Equipment: 
+ R2R slot-die coating line for OPV manufacturing.   
+ Screen-printers (flat bed and rotary).  
+ Lasers.  
+ Laminator.  
+ Characterization equipment.  
+ 
+ 
+Figure 1: OPVIUS R2R OPV manufacturing process 
+Key Personnel involved  
+Name: Dr. Sebastian Meier                             Gender: Male 
+Background:  
+Dr. Sebastian Meier is Director of R&D at OPVIUS GmbH. He holds a Diploma degree in 
+Materials Science and a Ph.D. in Engineering from the Friedrich-Alexander University of 
+Erlangen-Nuremberg, Germany. Sebastian has 8 years of industrial experience in the field of 
+organic electronics and is author and co-author of 10 scientific publications in recognized 
+international journals and 5 patents in the field of organic light-emitting devices and solar cells. 
+Currently he is involved in several European and German projects in the field of organic and 
+printable photovoltaics as well as building integrated photovoltaics. 
+
+ 
+76 
+OLEDSOLAR  
+Education: 
+ 2009: Diploma degree in materials science (Friedrich-Alexander University of Erlangen-
+Nuremberg, Germany) 
+ 2014: PhD in Engineering (Friedrich-Alexander University of Erlangen-Nuremberg, 
+Germany) 
+Work Experience: 
+ Oct 2009 – Dec 2012: Industrial PhD at Siemens Corporate Technology, Erlangen, Germany 
+ Jan 2013 – June 2013: Postdoctoral Researcher, University of Valencia, Spain 
+ July 2013 – April 2014: Research Scientist, BELECTRIC OPV GmbH, Nuremberg, Germany 
+ May 2014 – May 2016: Senior Research Scientist and Project manager R&D, BELECTRIC 
+OPV GmbH, Nuremberg, Germany 
+ June 2016 - present: Director R&D, OPVIUS GmbH (formerly BELECTRIC OPV GmbH), 
+Nuremberg, Germany 
+Product Development Experience: 
+Dr. Sebastian Meier was involved in the successful realization of several lighthouse projects 
+within OPVIUS GmbH demonstrating the market readiness of organic photovoltaics (OPV). 
+Examples include among others, the German Pavilion at the EXPO Milan (2015), the Security and 
+Peace Building of the African Union in Addis Ababa, Ethiopia (2015), External Lift Shaft at a 
+pharmacy building in Marburg, Germany (2016), Climate Pavilion of the State Horticultural 
+Show, Apolda, Germany (2017) (see press releases at www.opvius.com). 
+Intellectual Property Management: 
+ WO 2012/172025 A1 (also published as DE 10 2011 104 169 A1) 
+ WO 2014/013030 A1 (also published as EP 2 688 119 A1 and US20150208482) 
+ WO 2014/076278 A2 (also published as WO 2014/076278 A3, EP 2 733 188 A1, EP 2 733 
+188 B1, US20150303394 A1 and DE 10 2013 202 250 A1) 
+ WO 2014/124804 A1 (also published as DE 10 2013 202 250 A1) 
+ WO 2016/009019 A2 (also published as WO 2016/009019 A2, EP 3 170 210 A2 and DE 10 
+2014 213 978 A1). 
+Innovation Management: 
+ Regular participation as an invited speaker at recognized international conferences 
+ Author and co-author of 10 scientific publications in recognized international journals 
+ 
+Name: Dr. Pavel Schilinsky                       Gender: Male 
+Background:  
+Dr. Pavel Schilinsky is Senior Project Manager at OPVIUS GmbH. He holds a PhD degree in 
+physics from the University of Oldenburg. In August 2004, he joined Konarka Technologies. Since 
+October 2012 he leads the activities at OPVIUS (formerly BELECTRIC OPV) related to all 
+aspects of module architecture and system layout. He is the author and co-author of more than 30 
+scientific publications and of more than 10 patents and patent applications. 
+Education: 
+ 2001: Diploma in Physics from the University of Oldenburg 
+ 2004: PhD in Natural Sciences from the University of Oldenburg  
+Work Experience: 
+ 2001 - 2004: Industrial PhD at Siemens Corporate Technology, Erlangen, Germany 
+ 2004 - 2012: Scientist at Konarka Technologies, Nuremberg, Germany 
+ 2012 - present: various positions at OPVIUS GmbH (formerly BELECTRIC OPV GmbH) 
+Product Development Experience: 
+ 
+77 
+OLEDSOLAR  
+Dr. Pavel Schilinsky was involved in the successful realization of several lighthouse projects 
+within OPVIUS GmbH demonstrating the market readiness of organic photovoltaics (OPV). 
+Examples include among others, the German Pavilion at the EXPO Milan (2015), The Security 
+and Peace Building of the African Union in Addis Ababa, Ethiopia (2015), External Lift Shaft at a 
+pharmacy building in Marburg, Germany (2016), Climate Pavilion of the State Horticultural Show, 
+Apolda, Germany (2017) (see press releases at www.opvius.com). His main responsibility has 
+been the interface between the OPV-modules and the outer world, e.g. inverters, batteries, etc. 
+Intellectual Property Management: 
+ WO2009137141A3 (US20090211633) 
+ WO2010102116A2 (EP2404333A2 or US20100224252) 
+ WO2007104039A2 
+ WO2004025746A3 (US7306968) 
+ US7413997 
+ US7781254 
+ US7304361 
+ US7868405 
+ EP1997219A4 
+ DE102004036734A1 
+ US20070193621 
+ 
+Innovation Management: 
+Dr. Pavel Schilinsky is the author and co-author of more than 30 scientific publications and of 
+more than 10 patents and patent applications. 
+Name: Tobias Sauermann                    Gender: Male 
+Background:  
+Tobias Sauermann is Director of Production at OPVIUS GmbH. In his position he leads the 
+production of customized OPV modules, development of new module layouts and is also involved 
+in project management. He obtained his Diploma degree in Materials Science from the Friedrich-
+Alexander University of Erlangen-Nuremberg, Germany in the end of 2010. He is author and co-
+author of 10 scientific publications and has industrial experience in OPV for 6 years. 
+Education: 
+ 2010: Diploma degree in Materials Science (Friedrich-Alexander University of Erlangen-
+Nuremberg, Germany) 
+ 
+Work Experience: 
+ 2011 - 2012: Industrial PhD at Konarka Technologies GmbH, Nuremberg 
+ 2012 - 2014: Continuing Industrial PhD at Belectric OPV GmbH, Nuremberg 
+ 2014 - 2016: Project management at Belectric OPV GmbH, Nuremberg 
+ 2017 - present: Director of Production at OPVIUS GmbH, Kitzingen 
+ 
+Product Development Experience: 
+Tobias Sauermann was involved as a project manager in the successful realization of several 
+lighthouse projects within OPVIUS GmbH demonstrating the market readiness of organic 
+photovoltaics (OPV). Examples include among others, the German Pavilion at the EXPO Milan 
+(2015), the Security and Peace Building of the African Union in Addis Ababa, Ethiopia (2015), 
+External Lift Shaft at a pharmacy building in Marburg, Germany (2016), Climate Pavilion of the 
+State Horticultural Show, Apolda, Germany (2017) (see press releases at www.opvius.com). 
+Innovation Management: 
+ 
+78 
+OLEDSOLAR  
+ Regular participation as an invited speaker at recognized international conferences 
+ Author and co-author of 10 scientific publications in recognized international journals  
+ 
+Participant 6 
+Organisation Name: TWI Limited (TWI) 
+Website: www.twi-global.com 
+Organisation Description: 
+Established in Cambridge, UK in 1946 and with several facilities across the globe, TWI Ltd 
+(www.twi-global.com) is one of the world-leading not-for-profit research and technology 
+organisations with a turnover in 2016 of £60m (€69million). From bases in the UK, South East 
+Asia, India, the Middle East, Central Asia and the USA, nearly 800 staff provide expertise in 
+joining and fabrication, material science and structural integrity. Services include generic research; 
+contract R&D; technical information; engineering services and advice; standards development; and 
+training and qualification services. With over sixty years of service to industry, TWI has worked in 
+almost every conceivable sector, adding value to such disparate areas as offshore wind turbines and 
+oil-platforms; motorsports; bridges; microchips; nuclear power plants; advanced aircraft, both 
+civilian and military; medical implants; solar-panels and many more. TWI’s business is built 
+around the development and exploitation of advanced technologies. It is a company on the cutting 
+edge of technological advancement and is recognised as one of the world’s leading research and 
+technology organisations. TWI’s technologies fall into the following areas:  
+  
+ Structural Integrity and Corrosion Management cover a wide range of area, focused around 
+reliability assurance and failure resistance  
+ Non-destructive testing and condition monitoring cover all methods of testing and inspection 
+which are performed without damaging the test subject.  
+ Welding and joining technologies range from the familiar, such as laser and arc welding, to the 
+more specialised, like ultrasonic and diffusion bonding.  
+ Materials processing includes cutting, surfacing and surface engineering, and use of specialist 
+materials.  
+ Manufacturing support provides an integrated approach to consultancy on all aspects of 
+manufacturing, advising on both business and technical aspect. 
+TWI is internationally renowned for its ability to employ multidisciplinary, impartial teams to 
+implement both established and advanced joining technologies, or to solve problems arising at any 
+stage of the product life cycle – from initial design, materials selection, production and quality 
+assurance, through to in-service performance, repair and life extension. TWI also has representation 
+on over 100 standards committees. 
+TWI therefore has the ideal credentials to deliver a successful project, on time and within budget 
+with a higher than normal chance of product exploitation at the end of the project and particularly 
+where the project developments are highly relevant to their industrial membership that currently 
+consists of 1800 organisations in 70 countries.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+79 
+OLEDSOLAR  
+ 
+Summary of R&D Investment: 
+A large proportion of TWI’s activities (65%) are contract research, funded by a combination of 
+TWI Industrial Members or UK and EU public funding bodies, and built around the development 
+of advanced technologies. TWI is an experienced participant in collaborative research projects in 
+Europe and the UK. TWI has successful coordinated a large number of these government funded 
+projects (~50%) and has gained extensive expertise in being project or technical project leader.  
+TWI’s Industrial Members:  
+TWI is a membership-based organisation with 1,800 Industrial Member companies from 70 
+countries, representing every sector of the manufacturing industry. Many of the largest engineering 
+companies in the world are amongst its diverse Industrial Membership base, including: 
+ Rolls-Royce, Boeing, Airbus, BAE SYSTEMS, GKN, Lockheed Martin and Honeywell from 
+the aerospace sector 
+ BP, Exxon Mobil, Shell, Chevron, Petrobras, Lloyd’s Register, Kawasaki Shipbuilding and 
+Samsung Heavy Industries from the oil and gas and marine sector 
+ Areva, EDF, E·ON, Alstom, Scottish Power, SunPower and ITER from the power sector 
+ Honda, Jaguar Land Rover, Yamaha, London Underground, Network Rail, Tata Steel and 
+Hitachi from the automotive and rail sectors 
+ JCB, Caterpillar, Laing O’Rourke, 
+Tata Steel, ESAB, Linde Group 
+and BOC from the construction 
+and fabrication sectors 
+ DePuy, Smith & Nephew, 
+Siemens, Danfoss and Emerson 
+from the Medical, electronics and 
+sensors sectors, 
+Added to this, TWI’s dedicated team 
+of industry specialists add value to 
+almost every conceivable industry 
+sector – from offshore oil and gas, 
+civil engineering and nuclear power, 
+to electronics, advanced aircraft (both 
+civilian and military), medical 
+equipment and solar power. Because it serves such a broad client base TWI understand and 
+appreciate that different industries have different needs. Therefore, TWI’s research programme is 
+market driven. 
+Innovation: 
+TWI has a rich and well-publicised history of innovation and invention dating back to the time of 
+the British Welding Research Association in the 1940s. Memorable highlights from the past 
+include the CTOD method for measuring fracture toughness, the Wells wide plate test, types of 
+high powered CO2 laser, and many innovations in the use of laser, friction, arc, adhesive bonding 
+and other technologies related to welding, joining, coating and testing. In particular, TWI’s NDT 
+activities focus on bespoke and technically challenging inspection solutions. 
+As well as undertaking research and project work on behalf of its Members, TWI also produces a 
+number of products and software packages: 
+ PolyTest system for plastic pipe inspection 
+ Railect phased array inspection system for rail welds 
+ RiskWISE 5 – RBI code-compliant plant inspection and maintenance software 
+ CrackWISE – fatigue and fracture assessment software in accordance with BS 7910 
+ IntegriWISE – fitness for service software compliant with industry standards 
+
+ 
+80 
+OLEDSOLAR  
+TWI is actively exploiting 5 distinct inventions and has over 180 granted patents in its portfolio. 
+TWI has granted over 250 licences world-wide. Income from licensing exceeded £2.3m in 2014. 
+Inspired by a need for highly skilled next generation engineers, TWI is supporting PhD students 
+with national and European Universities, who will deliver research that has academic merit and 
+industrial and societal impact. Our students will be working with our experienced Project Leaders 
+and their PhD Supervisors to broaden their research and technical knowledge and will have the 
+opportunity to get exposure to transnational collaboration with other academics, SMEs and other 
+organisations. 
+ 
+Relevant Publications: 
+1. Development of a comprehensive in-line quality control system for printed circuit board 
+assemblies, P. Ian Nicholson et al. Circuit World (2007), Volume 33, Issue 4, pp. 31-42 
+2. Theories and industrial applications of optical interferometric NDT techniques: A Review. HX 
+Shang and JX Gao, Insight, 51(5): 240-251, (2009) 
+3. Deformation analysis of MEMS structures using modified digital moiré methods. ZW Liu, XH 
+Lou, JX Gao, Optics and Lasers in Engineering, 48(11), p1067-1075, (2010)  
+4. NDT capability of digital shearography for different materials. ZW Liu, JX Gao, et al, Optics 
+and Lasers in Engineering. 49(12): 1462-1469, (2011) 
+5. Inspection of thin steel gauge welds for the shipping industry using laser guided inspection 
+robot’ G. Asfis, C. Carpentier, D. Panggabean, C. Nageswaran, V. Papadimitriou, I. Roditis, P. 
+Chatzakos, A. Chong, J. Ferrando Chacon, Z. Qu, V. Kappatos ‘, ECNDT 2014, October 6-10, 
+2014, Prague, Czech Republic. 
+ 
+Relevant projects: 
+1. CITCOM – (H2020/2017, grant agreement no 768883) - A Complimentary Inspection 
+Technique based on Computer Tomography and Plenoptic Camera for MEMS Components 
+2. ChipCheck– (FP7/2007-2013, grant agreement no 262212) – Development of novel X-ray 
+system for fast automated detection of counterfeit plastic board components. TWI was 
+responsible for the digital radiography development and hardware and software integration. 
+www.chipcheck.eu 
+3. Plastronicsspec - (FP7/2007-2013, grant agreement no 286531) - Development of an 
+automated digital radiography system for the inspection of plastic electronics. TWI was 
+responsible for the digital radiography work package and systems 
+integration.www.plastronicsspec.eu 
+4. AutoInspect– (FP7/2007-2013, grant agreement no 283288) - Automated inspection for 
+sintered parts by non-destructive techniques for improved quality in production. TWI was 
+responsible for the digital radiography work package and systems integration. 
+5. Microscan (FP6 Coop-ct-2003-508613) – Development of Comprehensive In-line Quality 
+Control System for PCB Assemblies. TWI was responsible for the digital radiography work 
+package and systems integration and automated defect detection software 
+ 
+Infrastructure/Equipment: 
+In 2015, TWI opened three new laboratories at its Cambridge headquarters, including state-of-the 
+art facilities for the National Structural Integrity Research Centre, a dedicated postgraduate centre 
+for industry-led engineering research (see images below) TWI also houses a professional 
+institution, The Welding Institute, with a separate membership of 6000 individuals. TWI has 
+offices in Europe, North and South America, India and Far East, and thus offers global connections 
+to its customers. 
+ 
+ 
+81 
+OLEDSOLAR  
+TWI currently operates from 54,000 square metres (581,000 square feet) of manufacturing, testing 
+and training space; five UK and 13 overseas facilities serve both its Industrial Membership and its 
+training and examination needs. A successful international Training and Examinations programme 
+sees 25,000 students trained each year in welding and inspection technologies. 
+ 
+TWI possess NDT equipment and knowledge across a wide range of techniques for Digital 
+Radiography development, testing and validation and packaging. This includes, but is not limited 
+to:  
+ Digital radiography laboratory,  
+ Computed tomography (CT),  
+ Radiography simulation software and work station,  
+ General purpose walk in radiography bay for development of prototype X-ray systems 
+ Automated/robotic inspection 
+ A wide range of digital X-ray detectors (linear and flat panel) and different X-ray sources 
+ Electronic assembly workshop 
+ 3D PLA printer 
+ A wide range of digital X-ray detectors (linear and flat panel) and different X-ray sources 
+(material characterization, failure analysis, process optimization) 
+ Precise non-contact laser-ultrasonic system for testing, measuring, flaw detection and material 
+characterisation (process monitoring, post-process evaluation, in-service inspection, internal 
+flaws and surface defects, detection of foreign particles) 
+ Seven-axis ultrasonic immersion tank (inspection of critical components, in-situ inspection of 
+large components) 
+ 3D laser scanning vibrometer (material fatigue and defects, acoustic optimization, dynamic 
+testing and vibration analyses) 
+ Radiography simulation software and work station (computed radiography digital imaging) 
+ 3D non-contact profilometer (3D roughness parameters, physical surface characterization) 
+ Permeation testing facility (electronic encapsulation) 
+ X-Ray diffractometer (analyse and characterization of crystalline and semi-crystalline organic, 
+inorganic and metallic materials) 
+ Non-destructive characterization methods: Dark and illuminated lock-in thermography (LIT) 
+and respective data analysis and processing/post-processing software; 
+ Non-destructive testing and optical quality control technique: Laser shearography (flaws 
+detection - voids, disbands, delaminations; quantitative measurement of strains, stresses, 
+vibrations); 
+ 
+
+ 
+82 
+OLEDSOLAR  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Key personnel  
+Name: Giorgos Asfis                Gender: Male 
+Background:  
+Giorgos Asfis is a principal project leader in TWI’s Non-destructive-testing section.  In this role, 
+Giorgos has developed extensive experience integrating complex electronics with multiple data 
+streams and control equipment, including for the development of robotics and drone projects 
+focusing on industrial inspection activities. He is currently working on automating NDT methods, 
+manufacturing of ultrasonic instrumentation, optical equipment design and wave propagation 
+simulation. Giorgos has a Diploma in Mechanical Engineer from National Technical University 
+Athens focusing on structural and machine dynamics, vibration analysis, predictive maintenance 
+and modal analysis. He is currently carrying out research in the field of Non Destructive testing 
+and condition monitoring. His work in public and private R&D institutes has provided significant 
+experience in ultrasonics, guided waves, radiography, finite element modelling and high 
+performance computing. He is also certified as a Level III inspector in Ultrasonic Testing, Phased 
+Array Ultrasonic Testing and Radiography. 
+Education: 
+Jun. 2007 Diploma in Mechanical Engineering (MSc & BSc) School of Mechanical Engineering, 
+National Technical University Athens (NTUA), Grade: 7,04/10 (Upper second class)  
+ 
+Dissertation Title: “Study and Construction of a PC - Accelerometer Interconnection for use in 
+Vibration Analysis Based Maintenance”  
+Work Experience: 
+April 2014 – Present  TWI Ltd (The Welding Institute), Cambridge, NDT Principal Project 
+Leader 
+Sep 2012 – April 2014  TWI Ltd (The Welding Institute), Cambridge, NDT Senior Project 
+Leader  
+Jul 2011 – Aug 2012 Brunel University (BIC), Cambridge, Research Assistant  
+Nov 2009–Jun 2011 Center for Research and Technology of Thessaly, Research Assistant  
+Nov 2009–Jun 2011 Innora Ltd, Athens, Structural Dynamics Engineer - Project Leader  
+Figure 1: Shearography system 
+Figure 2: Shearography fringe pattern showing substrate defect. 
+
+ 
+83 
+OLEDSOLAR  
+Nov 2008–Oct 2009 MVS & Associates, Rendsburg, Germany, Assistant Project Manager  
+Product Development Experience: 
+ Mechanical design, Electrical & electronics design and programming skills 
+ Designed new optical module prototypes for medical dermatoscope 
+ Developed a fully functional 8ch prototype phased array ultrasonics prototype  
+ Developed probe holder for various applications 
+  
+Name: Dr Jianxin Gao            Gender: Male  
+Background:  
+Dr Gao obtained his PhD at Tsinghua University, China in 1989 on Experimental Mechanics and 
+have since led numerous research projects. He has supervised or co-supervised over 20 MSc and 
+PhD students in universities in China and the UK. Prior to joining in TWI, Jianxin worked on 
+biomechanics and biomedical engineering at Imperial College London (2001-2004) and the 
+University of Surrey (2004-2005). Since joining TWI in 2005, he have been involved in a number 
+of FP6, FP7 and Horizon2020 collaborative projects, acted as the coordinator of two FP7 projects 
+which involved developing optical and image processing techniques. Jianxin is also the Scientist in 
+Charge of four Marie Curie International Incoming Fellowship projects. Currently, he is the 
+coordinator of a Horizon2020 project SocketMaster (2015-2018), and the scientific manager of 
+another two H2020 project WInspector (2016-2018) and SheaRIOS (2018-2020). So far he has 
+published over 70 technical papers in journals and at conferences. 
+Education: 
+PhD in Engineering Mechanics, Tsinghua University, China. 
+Msc in Engineering Mechanics, Tsinghua University, China. 
+BSc in Solid Mechanics, Zhejiang University, China. 
+Work Experience: 
+2005 – Present: Principal Project Leader, TWI Ltd, UK. 
+2004 – 2005: Research Fellow in Center for Biomedical Engineering, Surrey University, UK. 
+2004 – 2004: Professor, in Department of Biomedical Engineering, School of Life Science and 
+Technology, Tongji University, Shanghai, China.  
+2001 - 2004:  Research associate in Computing Department, Imperial College London.  
+1999 - 2000: Associate professor in Institute of Biomedical Engineering, Tongji University, 
+Shanghai, China. 
+Name: Lu Zhao             Gender: Female  
+Background:  
+ 
+Lu joined TWI in November 2009 as a Project Leader in NDT Validation Centre in Wales where 
+she has been managing and technically delivering projects involving inspection via laser generated 
+ultrasound as well as assisting colleagues in projects on digital radiography. After relocating to the 
+NDT Technology Group in Cambridge in August 2011, she has been working on modelling, 
+condition monitoring, and phased array inspection projects and is experienced in data and 
+electronics integration. She obtained her certificate as Associate LabVIEW Developer in 2012. She 
+performed the structural health monitoring field trial of a crane and designed the software for 
+machine condition monitoring of wind turbine. She has also been working on phased array 
+inspections projects in railways and wind turbines. They including site inspection, design 
+inspection procedures, developing inspection system, and modelling. She has substantial 
+experience with simulations software PZFlex and CIVA. She has been working on research project 
+for thick austenitic weld inspection using phased array since 2013 and using AU techniques on 
+WTB since 2014. Since 2011, she has been working with Dr Charles Schneider on various 
+statistical analysis projects and has been to the external training course for statistics and 
+experiment design. 
+ 
+ 
+84 
+OLEDSOLAR  
+Education: 
+BA(Hon)\MEng in Chemical Engineering from University of Cambridge 
+Charted Engineer and Member of The Welding Institute 
+Associate LabVIEW developer (2012-2014) 
+Acoustic Emission Level 2 
+CSWIP Level 2 in Manual ultrasonic inspection of plates 
+CSWIP Level 2 in phased array ultrasonic inspection of welds 
+CSWIP Level 2 in Radiographic Interpretation 
+Cambridge Overseas Trust Scholarship 2005 - 2009  
+Singapore Ministry of Education Scholar 2001 - 2004  
+Work Experience: 
+2009-now TWI Ltd Cambridge, NDT Project Leader 
+ 
+Name: Dorothee Panggabean            Gender: Female  
+Background:  
+Dorothee is an engineer working within the NDT department of TWI where she has had experience 
+of working in a variety of different industries including railway, wind energy and oil and gas. She 
+is involved in projects where several NDT techniques are applied. However the work is not mainly 
+technical; time/resource management is required and working in collaboration with many project 
+partners is key for the success of the project. Dorothee has worked on various collaborative and 
+single client projects, with some industrial experience from performing site inspection works. 
+Education: 
+MSc in Mechanical Engineering obtained in the University of Bordeaux. The degree has a 
+specialization in NDT. 
+CSWIP Visual Weld Inspector  
+CSWIP Eddy Current (welds) Level 2  
+CSWIP ACFM Level 2 
+CSWIP Fitness for Service Level 2  
+Work Experience: 
+Previous to working in TWI, I was completing my degree in universities. In order to obtain the 
+degree, several internships were carried out: an internship in the IMS laboratories focussed on the 
+optimization of coatings in solar cells. Also an internship in the I2M in Bordeaux where the topics 
+of thermography and ultrasonic were use jointly in order to characterise material properties. 
+ 
+Participant 7 
+Organisation Name: Centre Suisse D’Electronique Et De 
+Microtechnique SA (CSEM) 
+Website: www.csem.ch 
+Organisation Description: 
+The CSEM is a privately held, R&D center established in 1984 in Neuchâtel, Switzerland. From 
+the beginning, CSEM has been committed to both applied and order-related R&D. This bridge 
+function between economics and science is still a core aspect of the company, and CSEM has 
+continuously adapted its research areas to the needs of industry. In addition to its initial proximity 
+to the watchmaking industry, CSEM has expanded its fields of activity and now offers a wide 
+range of technologies for various markets. 
+The CSEM has currently more than 400 employees and is mainly active in the fields of 
+micro/nanotechnology, microelectronics, systems engineering, and information and 
+communication technologies carrying out applied research, development, prototyping and small 
+series production. The CSEM has the competencies required to support its clients at each stage of 
+development and provide the following services according to their needs: 
+ 
+
+ 
+85 
+OLEDSOLAR  
+- Feasibility studies 
+- Concept design 
+- Prototype or full product developments 
+- IP licensing and any combination of the above 
+The department “Center Muttenz” involved in this project is located in Muttenz (Basel-Landschaft 
+canton) and provides expertise in the fields of photovoltaic, thin film optics, micro and 
+nanostructures, printable electronics. During the past years, CSEM has developed their printing 
+and device fabrication capability from lab-scale single cells made by spin-coating in an inert gas 
+on small 2.5x2.5cm glass substrates, through doctor blade coating in the ambient environment on 
+increasingly larger substrates, to complete modules printed on flexible substrates. Fully printed, 
+semi-transparent, flexible, encapsulated modules were demonstrated at LOPE-C.  Organic tandem 
+solar cells with 10% efficiency were developed in project Sunflower, as well as a thin, robust, 
+nanostructured films for enhanced light incoupling in thin film solar cells. Tandem module 
+demonstrators were realized in collaboration with the end-user in the project. In other 
+collaborative projects, CSEM has validated novel materials and substrates and integrated these in 
+prototype technology demonstrators. Current research activities include the integration of organic 
+and hybrid devices on flexible film, and the design and process development of free-form organic 
+devices and printed optics. 
+Relevant Publications: 
+ G. Basset, T. Offermans, M. Chrapa, G. Nisato, Combinatorial Studies of Organic Solar Cells 
+Based on Robotic High Throughput Fabrication and Characterization, October 2010 ISOS 3 
+ T. Offermans, J. Schleuniger, G. Nisato, Inkjet Printing of Polymer Solar Cells, June 2010 
+LOPE-C 
+ T. Offermans, M. Chrapa, J. Schleuniger, M. Zinggeler, W. H. Hughes, R. Ferrini, G. Nisato, 
+Printing polymer tandem solar  
+ modules, June 2013 LOPEC 2013 
+ M. Pfannmöller, H. Heidari, L. Nanson, O. R. Lozman, M. Chrapa, T. Offermans, G. Nisato, 
+S. Bals, Quantitative tomography of organic photovoltaic blends at the nanoscale, September 
+2015  Nano letters 
+ P. Chabrecek, M. Aubert, U. Sonderegger, O. Fernandez, M. Chrapa, G. Nisato and R. 
+Ferrini, New Fabric-Based Electrodes for Low-Cost, Large-Area Flexible Organic Light-
+Emitting Diodes (OLED), 2013 LOPEC2013 
+ 
+Relevant Projects: 
+ FP7 European collaborative project SUNFLOWER (FP7-ICT-2011-7 number 287594), 
+www.sunflower-fp7.eu 
+ INTERREG project Rh(e)in-Solar, www.rhinsolar.eu 
+ DURSOL, http://www.ccem.ch/dursol 
+ CTI project with SEFAR, https://www.csem.ch/Page.aspx?pid=43814 
+ EU project INGRESS, http://www.ingress-project.eu/ 
+Infrastructure/Equipment:  
+ Clean room environment with gloveboxes 
+ Coating and printing platforms (S2S): slot-die, inkjet, gravure, screen, spin coating 
+ Simulation, origination, replication, and upscaling (step & repeat replication) of micro and nano 
+structures 
+ S2S hot embossing, S2S nano-imprinting, S2S UV casting,S2S and R2R hot embossing 
+ 
+86 
+OLEDSOLAR  
+ Optical characterization (angular and wavelength resolved reflection/transmission, 
+photoluminescence, phosphorescence lifetime, UVVIS, optical coherence tomography, infrared 
+imaging) 
+ AFM, SEM, profilometer 
+ Photonic sintering (S2S, R2R compatible) 
+ Accelerated lifetime testing (damp/heat, light soaking, mechanical stress tests) 
+ 
+                                
+ 
+ 
+ 
+ 
+    
+Fig 1: Mask Aligner 
+MA6 –Karl Suss 
+(>1µm) 
+Fig 2: Essemtec Exhibit 
+SP900 In-Line Screen 
+printer 
+Fig 3: MICRODROP 
+single nozzle inkjet 
+printer 
+ 
+87 
+OLEDSOLAR  
+ 
+ 
+ 
+Key Personnel 
+Name: Ton Offermans                           Gender: Male 
+Background:  
+Ton Offermans is a senior R&D engineer in the Polymer Optoelectronics Section of CSEM. He 
+studied applied physics at the University of Technology Eindhoven and received his PhD degree 
+in the field of organic photovoltaics. Before joining CSEM he has worked as researcher on light 
+emitting tile at the Materia 
+Nova research center. At CSEM he is leading the research on OPV. Current research activities 
+include light management solutions for incoupling, and the upscaling of the fabrication of nano 
+and micro structures on large area films. 
+Education: 
+PhD, physics. University of Technology Eindhoven 
+Work Experience: 
+R&D Center, Materia Nova, Belgium, 2005-2007  
+R&D Center, CSEM, Switzerland, 2007-2018. 
+Product Development Experience: 
+Development of solar cells/modules, starting at TRL3, arriving at TRL6 within the Sunflower 
+project. Near yearly fabrication of  technology demonstrators (LOPEC) 
+Intellectual Property Management: 
+WO/2015/022424 
+Innovation Management: 
+ Various dissemination events at conferences such as LOPEC, Swiss e-print 
+ FSRM course tutor Organic Photovoltaics 
+ 
+Name: Oscar Fernandez                           Gender: Male 
+Background:  
+Oscar Fernandez received his MSc and PhD degrees in Physics from the University of Valladolid 
+(Spain) in 2000, and the University of North Wales, Bangor (UK) in 2004, respectively. After 
+finishing his PhD he started his postdoctoral research in the Molecular Electronics Group in 
+Bangor where he investigated the interfacial origins of threshold voltage instabilities in organic 
+thin-film transistors (OTFT). In 2006 he joined 
+Cambridge Display Technology (CDT) where he led the device physics activities in the lighting 
+program. In 2011 he joined Polymer Vision BV in Eindhoven (Netherlands) where he worked on 
+the development of OLED processing and characterization for oxide TFT-based rollable OLED 
+displays. Since May 2012 Oscar is part of the MicroNano Integrated Optics and Photonics group 
+at CSEM in Muttenz (Switzerland). 
+ 
+Education: 
+PhD, Physics. University of Valladolid (Spain) 
+Work Experience: 
+CDT, UK 
+Polymer Vision, Eindhoven, Netherlands 
+R&D Center, CSEM, Switzerland 
+Product Development Experience: 
+Prototyping of printed OLEDs, light management for (O)LEDs in industrial and publicly funded 
+projects LASSIE, DELIGHT 
+Innovation Management: 
+Fig 4: Hot embossing 
+R2R pilot line 
+Fig 5: Hot embossing 
+S2S pilot line 
+Fig 6: Gloveboxes dedicated to 
+OPV, OLED, and OTFT 
+fabrication and 
+characterization 
+ 
+88 
+OLEDSOLAR  
+ Various dissemination events at conferences  
+ FSRM course tutor Organic Light-Emitting Diodes 
+ 
+Name: Sören Fricke                           Gender: Male 
+Background:  
+Sören Fricke received his Diploma degree in Physics from the Swiss Federal Institute of 
+Technology (ETHZ), Zurich, Switzerland in 2004. He joined Sonys Fusion Domain Laboratory in 
+Tokyo, Japan, where he prepared his Diploma Thesis. In 2005, he continued his research on 
+micro-sensors at the Corporate Research Centre of EADS in Ottobrunn, Germany and received his 
+PhD degree from Saarland University, Germany in 2010. In 2008 he joined Robert Bosch GmbH 
+and worked in the field of semiconductor and MEMS packaging in the business unit Automotive 
+Electronics. From 2012 to 2013, he was team manager of an international engineering team 
+responsible for the volume production of automotive pressure sensors. Since November 2013, he 
+is working at CSEM Center Muttenz, where he is heading the section on Large Area & Flexible 
+Systems since 2015. 
+Education: 
+PhD, Physics. Swiss Federal Institute of Technology (ETHZ) 
+Work Experience: 
+2013 – Present: CSEM Center Muttenz                       
+2008-2013: Robert Bosch GmbH, Germany         
+2005-2008: EADS Innovation Works, Germany   
+Product Development Experience: 
+Harsh environment pressure sensors starting from TRL2 to TRL4. Automotive ASIC and Sensor 
+Packages TRL8 to TRL9. Immersed gratings for space-borne spectrometer TRL2 to TRL3.  
+Intellectual Property Management: 
+WO 2008/003374 
+WO 2007/101426 
+DE 102005047535 
+Innovation Management: 
+Various dissemination events at conferences, Member of program committee and session chair of 
+the SPIE conference on Smart Sensors, Actuators and MEMS. 
+ 
+ 
+Participant 8 
+Organisation Name: Solibro Hi-Tech GmbH (Solibro) 
+Website: http://solibro-hitech.com/en/home/ 
+Organisation Description: 
+The Solibro Hi-Tech GmbH located in Solar Valley is a pioneer in the field of CIGS thin-film 
+technology. Its focus is on the continuous improvement of all products and production systems, as 
+well as the expansion of the existing production capacities in the context of international turnkey 
+projects. In cooperation with the Solibro Research AB in Sweden and the Solibro GmbH at the 
+same location in Germany, joint work is carried out aimed at the advancement of our products and 
+processes, in order to always be able to offer our customers state-of-the-art modules and 
+production facilities.  
+ 
+
+ 
+89 
+OLEDSOLAR  
+The improvement of inline measurement and control capabilities elaborated in the project will 
+contribute to more efficient production systems (higher production yield) and better products 
+(increased conversion efficiency). 
+Relevant Publications: 
+ Solibro Hi-Tech press release, February 2018: “Solibro Hi-Tech sets new world record of 
+18.72 % for CIGS PV modules” (http://solibro-hitech.com/en/news/news/) 
+ P. Kratzert: “17% Total Area Efficiency at Commercial Size CIGS Module”, Plenary Talk at 
+the 33rd EU PV Solar Energy Conference, Amsterdam, September 25th 2017 
+ D. Herrmann, P. Kratzert, S. Weeke, M. Zimmer, J. Djordjevic-Reiss, R. Hunger, P. 
+Lindberg, E. Wallin, O. Lundberg, L. Stolt, “CIGS Module Manufacturing with High 
+Deposition Rates and Efficiencies”, Proc. 40th IEEE PV Specialists’ Conference (2014). 
+ P. Kratzert, S. Jander, P. Leyendecker, H. Schenk, V. Naumann, K. Kaufmann, C. Hagendorf, 
+J. Djordjevic-Reiss, S. Weeke, E. Wallin, O. Lundberg, D. Herrmann, L. Stolt, Improved 
+Performance by Mo-CIGS Interface Control, 29th EU PV Solar Energy Conference (2014)  
+ R. Hunger, U. Malm, J. Djordjevic-Reiss, T. Jarmar, E. Wallin, O. Lundberg, S. Jander, M. 
+Zimmer, S. Weeke, P. Kratzert, D. Herrmann, L. Stolt, “Homogeneity of Ga Grading in CIGS 
+Solar Modules”, 27th EU PV Solar Energy Conference (2012).    
+Relevant Projects: 
+ EFFCIS: German BMWi-funded collaborative project, focussing on efficiency improvements   
+ Pliant: Process Line Implementation for Applied Surface Nanotechnologies. Project ID: 
+309530 funded under: FP7-NMP 
+ LL-CIGS : German collaborative project in the cluster “Sollarvalley Mitteldeutschland” 
+funded by the country Saxony-Anhalt focussing on lifetime & efficiency improvement (2009-
+2012) 
+ 
+Infrastructure/Equipment:  
+ Existing inline (intermediate) product characterization tools: CIGS thickness + composition 
+measurement 
+ PV module flasher, electrical I-V characterization + PV module light soak stabilisation 
+chamber 
+ Low Pressure Chemical Vapor Deposition (LPCVD) Tool for Industrial Size PV module 
+manufacturing, 
+Substrate size 119 x 158 cm (prototype tool) 
+ 
+ 
+
+ 
+90 
+OLEDSOLAR  
+ Industrial CIGS coating line for PV module manufacturing  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Key Personnel 
+Name: Dr. Philipp Kratzert                           Gender: Male 
+Background:  
+Philipp Kratzert received his doctoral degree in physics at the Humboldt University Berlin in 
+2002, focusing on the MBE of II-VI quantum dots. After a period of basic research he changed 
+into semiconductor industry and worked several years as a manager in the development and 
+production ramp of different NAND & DRAM memory technology nodes. In 2009 Mr. Kratzert 
+changed into the photovoltaics and took over the responsibility for the efficiency optimization at 
+the Solibro manufacturing site. Since then he is engaged as a driving motor for the efficiency 
+roadmap and Technology development at the Solibro manufacturing site in Thalheim Germany. 
+Currently he is supporting Solibro as a Vice President for Technology and Process Development. 
+Education: 
+Diploma in physics from Technische Universität Berlin 
+PhD in physics from Humboldt University of Berlin 
+Lean six sigma Black belt 
+Work Experience: 
+2014 – present:  Vice President Solibro 
+2011 – 2014:  Director Solibro 
+2009 – 2011:  Team leader Solibro 
+2005 – 2009: Lead engineer semiconductor Quimonda. 
+2004 – 2005:  Project leader semiconductor Infineon Technologies 
+2002 – 2004:  Device Engineer semiconductor, Infineon Technologies  
+1998 –2002: Research Scientist, Humboldt University Berlin. 
+Product Development Experience: 
+ Lead R&D department (4 Teams, ca. 50 engineers)   
+ Plan and execute all R&D projects within the R&D department  
+ Organize and lead the cross functional supports on the efficiency, yield, product performance 
+& reliability improvements   
+Innovation Management: 
+ Integration and successful transfer the R&D technology, process, equipment, CIGS sources to 
+domestic overseas Production sites 
+
+ 
+91 
+OLEDSOLAR  
+ Definition the Turn Key Line efficiency roadmap, lead the development of the technology, 
+process, and CIGS tool to meet the annual Turn Key Line sales business targets  
+ 
+Name: Dr. Ralf Hunger                           Gender: Male 
+Background:  
+Dr. Ralf Hunger had studied Physics at the Berlin University of Technology, where he had also 
+acquired his PhD. For 12 years, he had conducted research on chalcopyrite thin films at the 
+Helmholtz-Zentrum-Berlin (Germany), the Advanced Institutes of Industrial Science and 
+Technology Tsukuba (Japan), and the Darmstadt University of Technology (Germany). Thin film 
+growth and characterization, deposition and vacuum technology, semiconductor surfaces and 
+interfaces are his fields of expertise. 10 years ago, Dr. Hunger had joined the Solibro GmbH and 
+had transferred the Cu(InGa)Se2 deposition processes to industrial scale, in the beginning as 
+senior process engineer CIGS, later as team leader CIGS development, now as team leader process 
+integration. 
+Education: 
+Diploma in physics from Technische Universität Berlin 
+PhD in physics from Technische Universität Berlin 
+Work Experience: 
+2014 - present Team Leader Process Integration, Solibro Hitech GmbH 
+2007 - 2014 Senior Process Engineer, Solibro GmbH, Bitterfeld/Wolfen, Germany. 
+2001 - 2007 Darmstadt University of Technology, Department of Materials Science, Surface 
+Science Division, Germany. 
+1999 - 2001 Advanced Institutes of Industrial Science and Technology, Tsukuba, Japan 
+1995-1999 Helmholtz-Zentrum Berlin (formerly: Hahn-Meitner-Insitute), Germany 
+Product Development Experience: 
+Project management of development projects, e.g. prototyping of advanced, alternative PV 
+module encapsulation concepts. 
+Innovation Management: 
+Ralf Hunger et al., Method for producing sub-solar modules using electrically insulating insulation 
+trenches in a thin-layer solar module, and method for producing a thin-layer solar module with 
+such insulation trenches, WO2015027996A1, applied 2015-03-05  
+ 
+ 
+ 
+Participant 9 
+Organisation Name: Meyer Burger (Netherlands) B.V. 
+(MBNL) 
+Website: https://www.meyerburger.com/nl/en/  
+Organisation Description: 
+Meyer Burger (Netherlands) B.V. (MBNL) is a member of the Swiss Meyer Burger Group and is 
+located in Eindhoven. The main activities of MBNL are the development, manufacture and sale of 
+industrial production equipment for applications in various markets such as photovoltaics, organic 
+electronics and batteries. The current equipment portfolio consists of industrial inkjet printers and 
+thin film deposition equipment (plasma deposition and atmospheric atomic layer deposition). 
+Meyer Burger’s systems and production equipment provide sustainable added value to our 
+customers in the photovoltaic (solar), semiconductor and optoelectronic industries as well as other 
+selected high-end markets based on semiconductor materials. 
+The strategy of MBNL is to develop and commercialize state of the art industrial equipment that 
+can serve a wide variety of applications. In particular, within this project, the aim of MBNL is to 
+
+ 
+92 
+OLEDSOLAR  
+develop and test plasma enhanced (PE) spatial atomic layer deposition (sALD) compatible with an 
+R2R system.   
+Our plan is to use the know-how developed within this project to offer added value to existing 
+systems and as a building stone for next generation systems (R2R). A successful development will 
+help market penetration of high quality flexible devices (OLED, OPV, CIGS) and will generate 
+sales of R2R sALD systems and business expansion for MBNL and help create additional 
+employment opportunities in the region.   
+Additionally, there are many other applications and markets that can as well benefit from this 
+technology development to improve product quality and increase throughput.  This will also 
+contribute to increased revenue and can create additional expansion opportunities. 
+Relevant Publications: 
+1. FLEx ALD R2R and S2S. https://www.meyerburger.com/nl/en/technologies/specialized-
+technologies/spatial-atomic-layer-deposition/ 
+2. TFE CONx (in particular JETx). 
+https://www.meyerburger.com/nl/en/technologies/specialized-technologies/product-
+detail/product/conx-tfe/ 
+3. Presentation for ALD (example). http://www.semi.org/en/dana-borsa-flexible-functional-
+devices-mass-production-level-flex-r2r-sald-platform 
+4. Presentation for barriers (example - Industrial scale manufacturing of transparent and flexible 
+moisture barriers).  
+https://www.fep.fraunhofer.de/en/events/rueckblick_2017/sidme17.html#tabpanel-2 
+ 
+Relevant Projects: 
+1. OPZuid. https://www.stimulus.nl/op-zuid/project/industriele-productie-dunne-film-barriers/ 
+2. Enso. http://enso-ecsel.eu/ 
+3. Collaboration with Holst: Development of a roll-to-roll PECVD deposition tool to be used for 
+flexible OLED lighting and organic solar cells. https://www.oled-info.com/roth-rau-joins-
+holst-centre-research-barriers-flexible-electronics 
+Infrastructure/Equipment:  
+ Spectral ellipsometry 
+ Profilometer 
+ Low resolution SEM (>1µm)  
+ Climate chamber / ovens 
+                        
+
+ 
+93 
+OLEDSOLAR  
+ 
+                                                    
+                                                                          
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Key Personnel 
+Name: Luca Gautero                            Gender: 
+Male 
+Background:  
+Dr. Luca Gautero is presently a senior process engineer 
+at Meyer Burger (Netherlands) B.V. During his career 
+he has focussed on micro and nano-technology in fields as semiconductors, photovoltaic, 
+functional thin films and recently (moisture) encapsulation. His innovation maker approach, both 
+in academics and professional domain, resulted in several patents, publications and conference 
+presentations. His European academic path features university titles from Italian, French and 
+Swiss institutions, a PhD degree in renewable energy in 2010 developed in a German research 
+centre and later, in 2015, an Executive Master in Energy Management from a leading business 
+school in UK. 
+Education: 
+MSc Nanotech – Institut polytechnique de Grenoble 
+PhD micro and nanotechnology – École polytechnique fédérale de Lausanne 
+MSc in Energy Management. - ESCP Europe London Campus 
+Work Experience: 
+2010 – present : Meyer Burger (Netherlands) B.V. – senior process development engineer 
+2007 – 2010: Fraunhofer ISE GmBH - Ph.D. student. 
+Product Development Experience: 
+ Coordination in the development of solutions for PV, OPVs and OLEDs 
+ Definition and translation of requirements from market level to equipment level. 
+ Engineering and development of functionality in integrated production equipment. 
+ Optimization of solar power management, also as consultancy to customers. 
+ Active contribution to sales team communication to customers. 
+ Product management enabler (accomplished 1st sale of new production equipment – 2014) 
+ Engaged in the processing of moisture barriers (WVTR below 10E-6 g/(m2*day)) 
+ Manage customer expectation with regular reporting on present and planned activities. 
+Intervention on supply chain to guarantee prompt and adequate performance of components. 
+Definition, execution and reporting of acceptance tests in collaboration with the customer and a 
+board of scientific experts (Holst Centre).  
+ 
+Name: Dana Borsa                            Gender: Female 
+Background:  
+Dr. Dana Borsa is Manager Research of the Thin Film Coating and Projects Business Unit at 
+Meyer Burger (Netherlands) B.V. She is responsible for all process and application developments. 
+Her PhD in physics from the Rijks Universiteit Groningen was focused on the growth and 
+characterization of nitride-based thin films and multilayers. After some years of research on 
+switchable mirrors and hydrogen storage materials at the Vrije Universiteit Amsterdam she moved 
+Figure 1: Spectral 
+ellipsometry 
+Figure 2: 
+Profilometer 
+Figure 3: Low resolution 
+SEM (>1µm) 
+Figure 4: Climate chamber / 
+ovens 
+
+ 
+94 
+OLEDSOLAR  
+to ECN and worked on high efficiency solar cell concepts before joining OTB Solar (currently 
+Meyer Burger (Netherlands) B.V.) in 2009. 
+Education: 
+PhD  – Centro de Microanalisis de Materiales, Universidad Autonoma de Madrid, Spain & 
+Nuclear Solid State Physics Group, University of Groningen, NL 
+Work Experience: 
+2012 – present: Meyer Burger (Netherlands) B.V., Eindhoven, NL – Manager Research 
+2009 – 2012: Meyer Burger (Netherlands) B.V., Eindhoven, NL – Project Leader 
+2007 – 2009: Energy Research Centre Nederland, Petten NL – Researcher Silicon PV 
+2004 – 2007:Vrije Universiteit Amsterdam, Amsterdam, NL – Researcher   
+Product Development Experience: 
+ Project manager customer project for the fabrication of a prototype system for battery 
+applications; responsible for all phases  
+ Project leader for INREP H2020 project for the design, fabrication and commissioning of an 
+injector head for sALD S2S tool  
+ Project leader ‘SiOx for market implementation’: budget and resource planning; technology 
+scouting, process development and platform upgrade for 24/7 production  
+ Coordination CIP-SiNx program: definition and continuous topic update, resource planning 
+(FTEs, tool time and consumables); progress monitoring and supervision of process 
+development (>40 WP); field implementation and customer support    
+ Coordination customer sampling program: communication with customers and local sales 
+team; define test program; realization and after care 
+ Sales support at HQ and on-site; regular customer visits and process and product marketing.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Participant 10 
+Organisation Name: Brunel University London (BUL) 
+Website: http://www.brunel.ac.uk/ 
+Organisation Description:  
+
+ 
+95 
+OLEDSOLAR  
+Brunel University has been highly successful in creating an industrial innovation research 
+resources, named Brunel Innovation Centre (BIC), which sits between the knowledge base and 
+industry, supporting partners in industry to transfer academic research into industrial application. 
+Brunel has a wide range of knowledge and expertise in the following research areas: (i) Power 
+ultrasonics; detection, cleaning of fouling and fouling prevention techniques non-invasively 
+software, anti- or de-icing application (ii) Smart Non Destructive Testing (NDT); autonomous 
+devices, miniaturised multifunction systems for NDE in bespoke environments; marine, high 
+temperature, aerospace, pattern recognition hardware  / software, (iii) Active Structural Health 
+Monitoring (SHM) and Condition Monitoring (iv) Design of associated hardware and software (v) 
+Signal and image processing and numerical modelling - Noise reduction, signal condition and 
+control (including active vibration control), data interpretation and analysis, (vi) Automation and 
+robotics of inspection system, (vii) Improved or new and robust sensors (Piezoelectric, 
+Electromagnetic) e.g. high temperature inspection, transduction (viii) Electronics - Low power 
+consumption for multiple channels, wireless, high speed, wideband, fast bps, energy harvesting, 
+(ix) Structure integrity assessment of offshore facilities, (x) Fatigue & fracture analysis. BIC have 
+coordinated as well as delivered 
+over 60 projects since 2011 across 
+both the UK and EC platforms. In 
+year 2015, BIC has received the 
+Highly Commended Innovation 
+Awards from The Institution of 
+Engineering and Technology (IET) 
+for two award categories: (i) 
+Measurement in Action and (ii) 
+Manufacturing Technology. The 
+collaborative European project 
+(FP7) was put forward to the 
+competition and was chosen from 
+over 300 entries from 28 countries 
+(globally). 
+Relevant Publications:   
+ J.T. Sun, I. Szabo, M. Livadas, V. Kappatos, C. Selcuk and T-H. Gan, “Automatic defect 
+detection of powder metallurgy (PM) parts using three dimensional X-ray computed 
+tomography imaging”, Proc. Euro PM2015 Congress & Exhibition, 4–7 October, Reims, 
+France   
+ I. Szabo, J. Sun, V. Kappatos, C. Selcuk, A New Automated in Line Quality Control System 
+based on Non-Destructive Evaluation for Additive Manufacturing of Net-Shape Parts from 
+Particulates, Additive Manufactured Metallic Materials Properties & Structures Conference, 
+IOM3 Institute, Coventry, UK, 14th May 2015 
+ J. Sun, A.Y.B. Chong, O. Gilmour, G. Foulds, M. Thorton, V. Kappatos, C. Selcuk, T.H.Gan, 
+“Automated defect characterization on composite materials using enhanced image processing 
+technique for ultrasonic test”, BINDT Aerospace Event 2016, Bristol, United Kingdom 
+ I. Szabo, G. Logeswaran, V. Kappatos, C. Selcuk and T.H., Gan, X-ray enclosure design and 
+prototype for non-destructive testing of net shape parts from particulate materials, Euro 
+PM2015 Congress & Exhibition, 4 – 7 October 2015, Reims, France 
+ 
+Relevant Projects:  
+ CITCOM: A Complimentary Inspection Technique based on Computer Tomography and 
+Plenoptic Camera for MEMS Components funded by H2020. Project ID: 768883. 
+
+ 
+96 
+OLEDSOLAR  
+ AutoDISC: Automated Ultrasonic Inspection of Aerospace Composites with Enhanced Defect 
+Detection Probabilities Aided by Gantry Deployed, CAD Controlled Robotics, funded by 
+Innovate UK. Project website: www.autodisc-project.com/ 
+ Qualinet: Automated In- Line Inspection And Quality Control Of Net Shape Powder 
+Metallurgy Components Using Microfocus Three Dimensional X Ray Computed Tomography 
+Imaging, funded by Innovate UK. Project website: www.qualinet-project.com/ 
+ AutoInspect: Automated inspection for sintered parts by non-destructive techniques for 
+improved quality in production (AutoInspect) funded by FP7. Project website: 
+www.autoinspectproject.eu/project    
+ AssureNet: Automated 100% Production Quality Assurance Of Net Shape Manufactured 
+Components Using In Line Micron Resolution X-Ray Stereographic Imaging 
+(Assurenet),Funded by Birmingham Council: Advance Manufacturing Supply Chain Initiative 
+(AMSCI) www.assurenetproject.co.uk/ 
+Infrastructure/Equipment:  
+Brunel’s vast equipment and test areas include, but are not limited to: 
+ 
+ Several powerful work-stations including signal and image processing software (Matlab, 
+Labview, C++, C#), finite element (Ansys, Abaqus, COMSOL), computing power for 
+algorithm derivations and ability to set up guided user interfaces. 
+ Power amplifier, oscilloscope and impedance analyser 
+ Optical tracking device and high resolution cameras 
+ State of the art 3D Laser scanning vibrometer for: vibration measurement (wave propagation 
+and transducer analysis); condition monitoring purposes as well as for sensor, materials, 
+behaviour & characterisations 
+ NDT and Structural Health Monitoring hardware i.e. Acoustic Emission, Fibre Bragg 
+Grating(temp, strain, vibrations), strain gauge equipment 
+ PCB design and manufacturing facilities. 
+ Experimental industry specific set-up rigs for detection and cleaning of fouling, rotating 
+machinery; mock-ups; inspection, monitoring systems demonstrated in full scale. 
+Key personnel 
+Name: Jamil Kanfoud                     Gender: Male 
+Jamil Kanfoud (MEng, MPhil) is the Technical Manager at BIC. Jamil has worked on the 
+development of novel passive noise cancelling solution for the special industry. He has had a 3-
+year experience in the academic world as a faculty member including 2 years heading the 
+electromechanical department at an engineering college. As head of a department, he managed 40 
+permanent faculty staff and 850 students. Under his leadership, the electromechanical and civil 
+engineering departments developed collaboration with the industry. He also worked on the 
+implementation of innovative pedagogies (problem based learning and project based learning). 
+Jamil joined TWI Ltd in 2014 where he worked mainly on collaborative projects delivering 
+technical work (numerical modelling, analytical modelling, sensor selection, data processing, 
+prototype design and assembly) and managing the collaborative projects. He continued working in 
+the aerospace field working on the de-icing of aerodynamic surfaces using transient vibrations and 
+electro-thermal heaters. He also worked on passive and active control solutions using spring-
+dampers, piezoelectric actuators and PID Control. Most of his efforts were dedicated to the 
+development of condition and structural health monitoring technologies for pipes and wind turbines 
+machinery and structures. During his twenty-month experience, Jamil developed experience in 
+collaborative projects (H2020, FP7 and InnovateUK). He also led technically 12 proposals, among 
+which he secured an H2020 thematic and 2 H2020 FTI.  
+ 
+97 
+OLEDSOLAR  
+Jamil joined Brunel Innovation Centre in 2016 as technical manager of the innovation centre. His 
+responsibilities include looking after the successful delivery of the portfolio of projects BIC is 
+involved in as well as the development of research strategy for the innovation centre and the 
+identification of funding opportunities for business development. 
+Name: Wenbo Duan                     Gender: Male 
+Wenbo (BSc (Distinguished), MSc, PhD, CEng, MIMechE) has been working on the mathematical 
+modelling of sound wave propagation in pipeline systems with the aim of detecting blockages or 
+defects since 2006. He was responsible for developing analytic models to study coupling between 
+acoustics and structures when he was a PhD student in the University of Manchester. After that, he 
+moved to Brunel University, and developed new stand-alone finite element software to implement 
+fast and accurate mathematical models. A hybrid finite element method was proposed which 
+combines modal expansion solutions with the conventional finite element solutions. He is 
+currently working on the development of advanced numerical models to investigate wave 
+propagation and scattering in complicated conditions, such as coated, buried and/or immersed 
+pipes etc. He also has experience in product development and innovation management. He has 
+published 10 referred journal papers in top ranking journals, including the Journal of the 
+Acoustical Society of America, Journal of Sound and Vibration etc. He received the ‘Outstanding 
+Reviewer’ award from Journal of Sound and Vibration in 2016, and he is a reviewer for a number 
+of acoustic related top journals.  
+Name: Istvan Szabo                     Gender: Male 
+Istvan (BSc, BEng, MSc, CEng, MWeldI) has over 10 years of mechanical and design engineering 
+experience across the Defense, Renewables, Building Services and R&D Industry. Prior to his 
+current position he led and been involved in thermal energy recycling, energy efficient heating 
+system and industrial air conditioning system design projects.Through his career he obtained in 
+depth knowledge of materials and manufacturing processes, Powder Metallurgy, 3D printing and 
+rapid prototyping in particular, and also significant experience in product design from concept to 
+final product including designing for manufacturing He is an expert user of multiple CAD 
+packages and has in depth knowledge of Finite Element Analysis, Computed Fluid Dynamics and 
+Thermal analysis methods. He is an expert user of multiple CAD packages including SolidWorks, 
+Catia V5, Autodesk Inventor and Revit, Pro E. He is Research Assistant at BIC, leader of two X-
+ray image processing device enclosure design projects, actively involved in activities varying from 
+research and development in the areas of novel technique development, sensor applications. 
+ 
+ 
+ 
+Participant 11 
+Organisation Name: Acondicionamiento Tarrasense 
+Associacion (LEITAT) 
+Website: projects.leitat.org 
+Organisation Description:  
+LEITAT Technological Center, founded in 1906, is a private non-profit RTO with more than 110 
+years of deep knowledge and valuable experience in industrial innovation. We transform 
+technological solutions and scientific results into economic and competitive values for our clients 
+and collaborating entities. LEITAT is strongly committed to over 1500 customers that benefit from 
+our creative and innovative solutions. LEITAT provides added value to customers by delivering 
+technological innovations through applied research and development activities in areas including 
+advanced materials, advanced manufacturing, renewable energies, storage system, circular 
+economy, sustainability and biotechnology. LEITAT rely upon over 240 highly skilled team 
+members who deliver flexible and innovative solutions in the face of any industrial challenge. 
+
+ 
+98 
+OLEDSOLAR  
+LEITAT has a strong presence and valuable experiences in carrying out research under different 
+international and national funding schemes including FP7 and Horizon 2020. Participation in 43 
+FP7 projects and 55 H2020 projects are proof of LEITAT capabilities in coordinating, managing 
+and executing of international projects. LEITAT is recognized by the Spanish Government as a CIT 
+(Centre of Technological Innovation) and is one the 5 Technology Centers that is accredited by the 
+Regional Government of Catalonia. Finally, it is member of FEDIT (Federation of Technological 
+Centers in Spain) and the IT Network of the Catalan Regional Government.  
+The Circular Economy Business Unit offers innovative technologies and strategies for the efficient 
+management of natural resources, a sustainable production, and the optimal treatment and 
+valorization of residual streams. Main research areas are: 
+ Waste management and valorization: biomass, industrial & municipal wastes/byproducts.  
+ Water treatment & reuse: industrial & municipal waters.  
+ Air treatment & control: indoor & outdoor environments.  
+ Biotechnologies: Greener products & processes. 
+ Sustainability: Life Cycle Assessment, communication & responsibility, sustainable 
+production. 
+ 
+Relevant Publications: 
+1. Torrentellé, M., Energy Efficiency, a Sustainable strategy for the improvement of 
+competitivenesss. Revista de Química e Industria Textil 2012 (Article)  
+2. C. Hidalgo. Environmental and Economic assessment of innovative medical devices with a 
+Life Cycle Approach. (Restoration project). SETAC LCA Case Study Symposium. Nova Sabi 
+(Serbia) November 2014 (Oral Presentation). 
+3. G. Ferrer, C. Hidalgo, M. Escamilla. Life Cycle Assessment as a methodology to develop an 
+easy tool, Bookdaper, to improve the environmental performance of printed products 
+produced by SMEs. SETAC Europe 19th LCA Case Study Symposium.Rome (Italy) 11-13 
+November 2013 (Poster).  
+4. M. Della Pirriera. Stability of Dye Sensitized Solar Cells for indoor applications: A 
+comparison with Amorphous Silicon under Low Irradiation, European PV Conference and 
+Exhibition, 3 October 2013, Paris, France  (Oral presentation) 
+5. M. Della Pirriera New PV technologies: What about their recyclability?, Workshop on 
+Ecoinnovative challengue for PV sector, 29 September 2016, Terrassa, Spain (Oral 
+presentation) 
+Relevant Projects: 
+1. CITCOM: A Complementary Inspection Technique based on Computer Tomography and 
+Plenoptic Camera for MEMS Components H2020/768883, 2017-2020. 
+2. MatHero - Developing Environmentally Compatible Organic Solar Cells, FP7/604603, 2014-
+2016. 
+3. REMANENCE - Rare Earth Magnet Recovery for Environmental and Resource Protection 
+FP7/310240, 2013-2016. 
+4. EPHOCELL: New materials for thin film solar cells, development, integration and testing, 
+FP7/227127, 2009-2013. 
+5. ERG. New materials for hybrid thin film solar cells, development and testing. JTI-
+ENIAC/270722-2 , 2011-2014. 
+6. URWASTECH: Innovative Urban Waste Treatment: A Sustainable Approach Using 
+Hydrodynamic and Biological Technologies, LIFE+/LIFE10ENV/ES/530, 2011-2014 
+Infrastructure/Equipment: 
+LEITAT holds licenses of the two most recognised LCA software:  
+ 
+99 
+OLEDSOLAR  
+ SIMAPRO (Pré Consultants), professional LCA software tool to collect, analyze and monitor 
+the sustainability performance of products and services. 
+ GaBi Professional (PE International), combines modelling and reporting software with data 
+content and expertise. 
+LEITAT holds license of the main LCA Databases such as Ecoinvent and Gabi Professional 
+databases, and the rest of commercial Databases included in the softwares. LEITAT works with 
+different impact methods according to European guidelines: ILCD method, CML, ReCiPe, among 
+others. LEITAT has chemical and physical laboratories, testing and development equipment in the 
+industrial workshop.  
+LEITAT has dedicated equipment for standard and innovative tests: 
+ Test following current standards. More critical test are available, using a portfolio of climatic 
+chambers. 
+ Sun simulator AM1.5G (2x2 cm2) and UV and metal halide light sources, full monitoring 
+during tests. 
+ UV-Vis-NIR spectrometer 
+ Pyranometer and calibrated c-Si solar cells 
+ Battery of different ageing chambers (metal halide lamp- climatic, UV-climatic, Xenotest, 
+saline fog, etc.) up to 2.2 x 3.4 x 2.3 m (width x length x height) and a flat empty space of 
+3x2 m to host big prototypes  
+ AutoLAB and multichannel VMP3 potentiostat / galvanostat 
+ Set of optical components: lenses, beam splitters, filters, spectrometer of wide range, white 
+laser from 400 to 1200 nm, thermo graphic camera, etc. 
+ Outdoor platforms, one with suntracker and others static, for natural aging with weather 
+station sensors, full monitoring during tests. 
+ Physic-chemical characterization: IC, TGA, DSC, ATR-FTIR, BET, GC, ICP-MS, SEM... 
+  Mechanical tests equipment (bending, stretching, dynamometer, etc.) 
+Key personnel  
+Name: Marta Escamilla Monell                   Gender: Female 
+Marta Escamilla is a graduate of Environmental Science from University of Girona. Has a 
+widespread experience in environmental management, especially on the implementation of 
+Environmental Management Systems in SMEs and large companies, audits, life cycle assessment 
+and ecodesign, Ecolabel, environmental awareness and training workshops among others. As the 
+Sustainability Division Manager of LEITAT Technological Center, is in charge of coordinating 
+projects and managing initiatives, at regional, national and European level, promoting sustainable 
+development, making a special effort on energy efficient, rational natural resources consumption, 
+waste management, to preserve and improve the environmental performance as well as contributing 
+to substantial economic savings of the industrial sector. 
+Name: Sergio Martínez Lozano                   Gender: Male 
+Sergio Martínez hold a PhD in Environmental Science (University of Girona) and his career has 
+been mainly focused on the evaluation of biomass as a renewable resource, covering aspects like 
+biomass quantification, studying biomass conversion technologies, the economic feasibility of 
+power generation using biomass, Life Cycle Analysis, physico-chemical and thermal analysis of 
+biomass and the evaluation of atmospheric emissions. He has directly and indirectly participated in 
+several national and international R+D projects. He has also participated in numerous conferences 
+and he published articles in national and international scientific journals. His scientific experience 
+during his PhD has been combined with teaching experience in the University of Girona, where he 
+punctually participated in some lectures in Environmental Science Degree. After finishing his 
+studies, he worked as plant manager in a biomass composting plant (treating organic fraction of 
+urban solid wastes and sewage sludge). He works as a researcher in R+D+I projects for the 
+development of new technologies for solid waste and wastewater treatment and valorisation using 
+ 
+100 
+OLEDSOLAR  
+advanced technologies such as anaerobic digestion, pyrolysis and pre-treatment technologies. He 
+enjoyed a post-doctoral fellowship (Torres Quevedo, 2011-2013), and today, he works as a Senior 
+Researcher in LEITAT in the preparation, negotiation, execution, dissemination and management 
+of European, national and industrial projects. He is responsible of the Energy Valorisation and 
+Waste recycling Unit in LEITAT. 
+Name: Monica Della Pirriera                   Gender: Female 
+Monica Della has a PhD in Electronic Engineering from the Polytechnic University of Catalonia 
+and a degree in Physics from the University of Buenos Aires. Her research career has focused on 
+the study of organic semiconductors for printed electronics mainly organic photovoltaics. She has 
+participated in various conferences and has publications in international journals in the field of 
+materials science for energy. Also noteworthy is her teaching experience as an assistant professor 
+in the Department of Physics, Faculty of Natural Sciences at the University of Buenos Aires. She is 
+developing their professional career at LEITAT Technological Center involved in R + D + I 
+projects since 2010, specializing in the development of new technologies in the field of 
+Photovoltaic. Currently she leads the team of Renewable Energies, and participates in European 
+and Spanish platforms such as EU PV cluster, EMIRI, Photonics 21, Fotoplat, among others. 
+Name: Julia García-Montaño                   Gender: Female 
+Julia García-Montaño holds a PhD in Chemistry (Universitat Autònoma de Barcelona) and is the 
+Group Leader of the Environmental & BIO Technologies Division in LEITAT. Her professional 
+career has been mainly centred in the study of alternative water and waste treatment & valorisation 
+technologies: Advanced Oxidation Processes (AOPs), advanced electrochemical treatments, 
+biotechnologies, nanotechnologies, membrane processes, high added value products recovery, 
+water/waste-Energy nexus, among others. She has developed two research stays at the Plataforma 
+Solar de Almería, has developed and coordinated several innovative national and international 
+projects, has participated in various congresses and has numerous scientific publications in the 
+water/wastes decontamination area. It is also noteworthy her educational experience as she 
+combined her scientific career with her career as an assistant teacher in several Universities. 
+ 
+ 
+Participant 12 
+Organisation Name: Coatema Coating Machinery GmbH 
+(Coatema) 
+Website: www.coatema.de 
+Organisation Description: 
+COATEMA stands for high quality coating, laminating and printing plants and has been 
+successful in the field for more than 40 years. It offers equipment solution for laboratory R&D, for 
+pilot plants and custom made production equipment. The company is a leading supplier of 
+variable multifunction coating plants with many economic advantages (e.g. the modular 
+Click&Coat® system), do their own R&D in important application fields, hold patents for 
+pioneering solutions, and have been awarded with innovation prizes.  
+ Coatema has Europe’s largest lab for R&D in coating technology and is able to offer Know-how, 
+full service solutions and to control whole production processes. The unique combination of 
+know-how and facilities makes them first choice to successfully work on the project tasks with 
+respect to inline coating and pilot line production. Within the R&D Centre the demonstration and 
+realisation of production processes are possible using existing pilot lines. 
+Relevant Projects: 
+ PI-SCALE - Bringing flexible organic electronics to pilot innovation scale, (Grant Agreement 
+No. 688093). 
+
+ 
+101 
+OLEDSOLAR  
+ PhotonFlex: Photonische Prozesskette zur Fertigung flexibler organischer Solarzellen im 
+Rolle zu Rolle Verfahren – PhotonFlex, (EFRE-0800069). 
+ HEA2D: Herstellung, Eigenschaften und Anwendungen von 2D-Nanomaterialien, (EFRE-
+0800148). 
+ InTres: Innovative Trägermaterialien zur Optimierung der Stromableiter von elektrischen 
+Speichern, (EFRE-0800645). 
+ GreenSense: Sustainable, Wireless, Autonomous Nanocellulose-based Quantitative DoA 
+Biosensing Platform, (Grant Agreement No. 761000). 
+Infrastructure/Equipment:  
+ Coating and equipment solutions 
+ Large R&D centre for the experimental verification and demonstration of pilot line processes – 
+9 pilot lines, 1 production line, 1 click & coat line 
+ Coating, printing and lamination technologies for upscaling and production 
+ Coatema pilot line, which is used for the pilot line production of electrochromic devices. This 
+was realized in the EU FP7 Project EELICON! (www.eelicon.eu) 
+ 
+       
+Key Personnel 
+Name: Thomas Kolbusch                           Gender: Male 
+Background:  
+Thomas Kolbusch, Vice President of Coatema Coating Machinery, has a degree as business 
+economist in 1997. Worked for 3M, Germany, alpi GmbH, and from 2006 till 2009, as Managing 
+Director for Solarcoating Machinery GmbH, a company specialised on R2R equipment for gen3 
+PV. Since 2009, member of the board of the OE-A, leading the working group Upscaled 
+production and is chair of the advisory board of the OPE journal. He has been speaker on over 100 
+conferences and is chairman of an international coating conference. 
+Name: Dr. Klaus Peter Crone                           Gender: Male 
+Background:  
+Figure 2: Coatema pilot line for the 
+production of electrochromic devices 
+Figure 1: Coatema´s Engineering solution for inert slot-die coating (left), lamination, LED-
+curing (center) and its final cutting (right), which was realized in the EELICON-project for the 
+electrochromic film R2R-Pilot line 
+ 
+102 
+OLEDSOLAR  
+Dr. Klaus Peter Crone, R&D Manager worked as project manager and later as head of the division 
+"Process Analysis 2" of Bayer AG in Leverkusen. He was the head of the division "Measurement 
+and Analysis" of Agfa Photo GmbH. In 2009 he became head of the technical centre at Coatema. 
+Since 2016 he is Consultant for Coating Technology at Coatema. 
+Name: Dr. Nico Meyer                           Gender: Male 
+Background:  
+Nico Meyer received his Ph.D. in chemistry from RWTH Aachen in 2000. He joined AIXTRON 
+as Process Engineer for Organic Electronics, e.g. OLED and OPV. He became Project Manager 
+for R&D projects in 2003 and was responsible for the coordination and execution of funded 
+Projects. In 2013 he joined Coatema to manage and coordinate EU and national funded Research 
+Projects. He is author and co-author of many publications in international journals and 
+conferences. 
+ 
+Name: M. Sc. Thomas Exlager                           Gender: Male 
+Background:  
+Thomas Exlager, R&D Project Manager received his Master of Science in Nano-Opto-Electronics 
+in 2017 from the University Duisburg-Essen. In 2017 he joined Coatema as a Project Manager. He 
+is interested in upscaling of opto-electronic processes for production. 
+ 
+Participant 13 
+Organisation Name: DuPont Teijin Films UK Ltd (DTF) 
+Website: http://www.dupontteijinfilms.com/ 
+Organisation Description: 
+DuPont Teijin Films is a leading global producer of PET and PEN polyester films, specialising in 
+film products and related services for the Healthcare, Photovoltaics, Durable Labels, Imaging 
+Media, Flexible Electronics, Packaging, Electrical Insulation, Capacitors Industries and many 
+more. We have dedicated marketing, technical and manufacturing operations worldwide. 
+One of the market areas we focus on is the Flexible Electronics market and have spent significant 
+efforts in developing specialised substrates to meet the  needs for dimensional stability at elevated 
+temperatures, UV absorbtion, low haze high transmittance, light outcoupling, thermoformability 
+and last but not least clean and smooth surfaces. 
+Relevant Publications: 
+1. See Sunflower website publicity: http://www.sunflower-fp7.eu  
+2. See Clean4Yield www.clean4yield.eu  
+3. See Flex-o-Fab website publicity:  http://www.flexofab.eu/  
+ 
+Relevant Projects: 
+1. HiQSurf – Development of clean processes for film handling in flex electronic applications  
+2. Clean4Yield  - Contamination and defect control for increased yield for large scale R2R 
+production of OPV and OLED 
+3. Sunflower - Printed OPV with high efficiency 
+4. Flex-o-Fab - Flexible OLEDs from Lab to Fab   
+5. Pi Scale – development of a foundry based on a distributed pilot line for providing the market 
+with OLED solutions 
+ 
+Infrastructure/Equipment:  
+
+ 
+103 
+OLEDSOLAR  
+ A strong R&D centre with head count of 80 engineers, scientists and labs.   
+ Metrology lab equipment (Wyko WLI, AFM, XPS tools) for characterising surfaces.  
+ Patented large area metrology technology for assessment of A4’s at nano scale for defects.  
+ A Polyester film pilot manufacturing line for product and process development.  
+ A manufacturing line in Scotland equipped with an ISRA laser scanner for in line defect 
+detection.  
+ 
+Key Personnel 
+Name: Valentijn von Morgen                            Gender: Male 
+Background:  
+Valentijn started as a Process Engineer in manufacturing of PET films with ICI in Holland. Since 
+then he worked in the same business in a wide range of technical roles spanning Continuous 
+Improvement, process, product, manufacturing and business development. Recently involved with 
+some high profile EU projects developing a new product platform with substrates for the flexible 
+electronic markets. 
+Education: 
+Master in Physics from Eindhoven Technical University 
+Work Experience: 
+He has experience with developing process technology for manufacturing of PET films and new 
+products having worked at both manufacturing plants and in the central R&T department. Further 
+he has had extensive exposure to Continous Improvement of  product development, manufacturing 
+and  business processes. Managed many projects and most recently involved with EU project 
+initiatives for the Flexible Electronics industry. 
+Product Development Experience: 
+He has a broad experience with product developments from a manufacturing perspective  and 
+developed  scale and product  transfer methodology  for the business. Recently developed a new 
+product platform with grades for the Flexible Electronics market from concept to commercial 
+viability. Sofar sold 000’s of m2 and expected sales are in the region of 50:000 m2 this year.  
+Intellectual Property Management: 
+In process of filing a patent related to grades developed for Flexible Electronic applications. 
+Innovation Management: 
+As a qualified 6 Sigma MBB developed methodologies and tools for product development,  
+transfers (between manufacturing assets) and scale up from pilot production.  
+Name: Julian Robinson                            Gender: Male 
+Background:  
+Julian has been working for ICI / DuPont / DuPont Teijin Films in their Technology group based 
+at their R+D centre in the UK. A physical chemist by training, he has developed and applied his 
+knowledge of colloid and surface science, particularly towards coatings on polyester film. He is 
+now a Business Research Associate and team leader, developing new products and the technology 
+platforms for next generation films, including those for future flexible electronics markets. 
+Education: 
+PhD in Chemistry from St. Andrews University 
+Work Experience: 
+New product and technology platform development in the Technology group at DTF 
+Product Development Experience: 
+He has a broad experience of new product development, from concept, through laboratory and 
+pilot scale prototyping, through to full manufacturing scale up and commercialisation. Product 
+developed over the last 28 years will equate to many thousands of tonnes of film. 
+Intellectual Property Management: 
+Many patents filed over the years. 
+Innovation Management: 
+ 
+104 
+OLEDSOLAR  
+He is involved with idea generation and selection, as well as developing the product technology 
+strategy for DTF 
+Name: Thane Gough                            Gender: Male 
+Background:  
+Thane started career in ICI Plastics & Petrochemicals division as a Research Technician working 
+in the Polyester Films business.  Roles included development of novel polymer systems, and 
+surface treatments.  Since then, worked in the same business in a range of roles including 
+Technical Support and Market Management .  Current role is Business Development Manager 
+looking for opportunities in the flexible electronics market. 
+Work Experience: 
+After working in the Melinex PET business for two years, spent the following two years in the 
+Propafilm PE business, developing new polymer blends.  Moving back to the Melinex business,  
+was then involved in the development of white polyester films, high metal adhesion films, and 
+non-slip packaging films.  In a Technical Service role in the Packaging business,  provided 
+product support, and  identified new product opportunities, with both existing and new customers.  
+More recently  had Market Management responsibility for the Flexible Electronics sector, and  
+now Business Development Manager looking at opportunities for novel Polyester films in this 
+market. 
+Product Development Experience: 
+Extensive experience in New Product Development, from laboratory scale, through manufacturing 
+scale-up, to commercialisation and customer support.   Was part of the development team that 
+invented and commercialised white polyester films, which over 30 years has grown from nothing 
+to a global  annual volume of 12,000 with a sales revenue in excess of 50 million euro. 
+Whilst working in the packaging market  was instrumental in developing and launching both high 
+metal adhesion films and non-slip films.  These films were widely sold in Europe and US, at 
+volumes in excess of 600tpa, with sales revenue of more than 5 million euro per annum. 
+In the current role, provides  commercial guidance and market input to several Product 
+Development  Teams involved in innovation of new substrates for electronics applications 
+Intellectual Property Management: 
+Patent publication : CA2005598 A1 – Polymeric film 
+Patent publication : CA2206240 A1 - Polymeric film coated with a polyester composition 
+ 
+ 
+Participant 14 
+Organisation Name: CTR Carinthian Tech Research AG 
+(CTR) 
+Website: www.ctr.at 
+Organisation Description: 
+CTR Carinthian Tech Research AG is an Austrian non-university research centre focusing 
+primarily on targeted research into Advanced Sensor Systems and Smart System Integration. 
+Located in Villach, and with a permanent staff of currently more than 50 researchers, CTR covers 
+the entire R&D chain from proof of concept to prototype development. Conducting R&D projects 
+both on the national and the international level since 1997, CTR has achieved a number of 
+internationally acclaimed innovations and an extensive, dependable network of partners. The 
+research interests of the involved departments Photonic Systems and Smart Systems include the 
+development and system integration of advanced photonic metrology systems and emerging 
+energy systems, from fundamental concepts to the realization and characterization of fully 
+operational, application-specifically integrated functional prototypes. CTR holds comprehensive 
+competence in the R&D of sensors and sensor equipment for in-line quality control in different 
+processing steps, even under harsh environments, covering a broad range of sensor technologies 
+
+ 
+105 
+OLEDSOLAR  
+(magnetic, thermal, optical, electric) . With a focus on (spatially resolved) spectroscopic methods 
+for industrial quality control, CTR has significant experience in bringing lab established 
+technologies in an industrial environment, which addresses one of the main requirements of this 
+H2020 call.   
+CTR owns the appropriate R&D infrastructure to carry out various fault detection strategies in the 
+field of destructive and non-destructive testing, as well as the characterisation of final products 
+within this project (e.g. spatially resolved industrial micro Raman spectrometer, FTIR/NIR 
+spectrometers, IR microscopes, THz spectroscopy and imaging, state of the art PV metrology and 
+characterisation equipment, including electro-luminescence analysis, climate-controlled test 
+chambers etc.). 
+Within several projects involving partners from science and industry alike, CTR gained significant 
+experience in the material and quality analysis of photovoltaic cells, modules and electrical 
+subsystems. Besides expertise in design and implementation of metrology systems, CTR thus has 
+significant experience in the qualification and quantification of PV quality defects, understanding 
+the interactions and relationships between material components and environmental conditions by 
+using intelligent measurement and detection approaches, including numerical simulation and 
+statistical data analysis tools. For instance, the project “EVAnetz” the successfully designed, 
+implemented validated a non-destructive, inline-capable analysis method for determining the 
+degree of crosslinking of the elastomeric ethylene/vinyl acetate encapsulants in PV modules, thus 
+increasing manufacturing efficiency and reducing costs in PV module production while 
+warranting optimal product quality. 
+Relevant Publications: 
+ Ch. Hirschl, L. Neumaier, W. Mühleisen, M. Zauner, G. Oreski, G. C. Eder, S. Seufzer, Ch. 
+Berge, E. Rüland and M. Kraft,  “In-Line Determination of the Degree of Crosslinking of 
+Ethylene Vinyl Acetate in PV Modules by Raman Spectroscopy”,  Solar Energy Materials and 
+Solar Cells 152: 10-20 (2016), http://dx.doi.org/10.1016/j.solmat.2016.03.019  
+ W. Muehleisen, G. C. Eder, Y. Voronko, M. Spielberger, H. Sonnleitner, K. Knoebl, R. 
+Ebner, G. Ujvari, C. Hirschl, “Outdoor detection and visualization of hailstorm damages of 
+photovoltaic plants”, Renewable Energy 118: 138-145 (2018) 
+https://doi.org/10.1016/j.renene.2017.11.010      
+ M. De Biasio, M. Kraft, M. Schultz, B. Goller, D. Sternig, R. Esteve, M. Roesner, “Micro-
+Raman spectroscopy as a Tool for the Characterization of Silicon Carbide in Power 
+Semiconductor Material Processing”, Proc. SPIE 10210: 1021014 (2017); 
+http://dx.doi.org/10.1117/12.2259930   
+ L. Neumaier, W. Mühleisen, C. Hirschl, G.C. Eder, M. Aichinger, L. Plessing, A. Martin, A. 
+Zimmerman, “Monitoring of moisture ingress in PV module laminates during accelerated 
+aging tests”, Proc. EU PVSEC (2017) 
+ M. De Biasio, M. Kraft, E. Geier, B. Goller, Ch. Bergmann, R. Esteve, M. Cerezuela-Barreto, 
+D. Lewke, M. Schellenberger, M. Roesner, “Raman micro-spectroscopy as a non-destructive 
+key analysis tool in current power semiconductor manufacturing”, Proc. SPIE 10210: 
+102100U (2017); http://dx.doi.org/10.1117/12.2259927   
+Relevant Projects: 
+ 2015 – 2022: COMET Competence Center ASSIC – Austrian Smart Systems Integration 
+research Center 
+ 2015 – 2018: Energy Research Flagship Project Infinity - Climate Sensitive Long-Time 
+Reliability of Photovoltaics 
+ 
+106 
+OLEDSOLAR  
+ 2015 – 2017: Production of the Future project OPtima– Optimized Production for Polymer 
+Parts in Semiconductor Machines 
+ 2014 – 2017: Energy Research project PV@Fassade – 
+Façade-elements with integrated PV-active layers 
+ 2014 – 2016: SOLAR-ERA.NET project InnoModu - 
+Leadfree modules with low silver content and innovative busless 
+cell grid 
+ 2013 - 2015: Production of the Future project EVAnetz – In-
+line analysis of the degree of crosslinking of ethylene/vinyl acetate encapsulants in PV 
+modules 
+ 
+Infrastructure/Equipment:  
+ Renishaw inVia Qontor confocal Raman Microscope 
+The Raman microscope facilitates the Raman spectroscopic 
+investigations of both macroscopic and microscopic samples, 
+down to sub-μm resolutions. Applications range from the 
+investigation of the molecular composition of samples to e.g. 
+contact-free direct optical measurement of stress and strain in semiconductor materials. 
+Equipped with 4 separate excitation lasers from the blue to the beginning near-IR, polarisation 
+optics etc. the instrument enables 2D and 3D maps as well as bulk analysis and – using an 
+external arm or fibre optics - even of samples too large to fit into the sample compartment. 
+ 
+ Bruker LUMOS FTIR Microscope  
+The LUMOS is a fully automated stand-alone mid-IR microscope facilitating the measurement 
+of both macroscopic and microscopic samples in transmission, reflection or attenuated total 
+reflection (ATR). Applications include e.g. the identification of particles, contaminations and 
+coatings as well as the determination of the chemical composition of complex samples. The 
+instrument enables point analysis as well as highly resolved 2D maps. In addition, the 
+instrument features a MACRO unit with various accessories for bulk analysis. 
+ 
+ Polytec Micro System Analyser MSA-500-TPM 
+The Micro System Analyzer is a premier measurement tool for 
+the analysis and visualization of structural in-plane and out-of-
+plane vibrations as well as surface topography in micro 
+structures such as MEMS. Combining a microscope with 
+scanning laser doppler vibrometry, stroboscopic video 
+microscopy and scanning white light interferometry, the MSA is 
+designed as an all-in-one combination of technologies that clarifies real microstructural response 
+and topography. 
+ 
+ UV/VIS Spectrometer Cary 60 
+ 
+Laboratory UV/VIS spectrometer with wide spectral coverage 
+from the atmospheric UV to the initial near-IR range at good 
+spectral resolution and spectral dynamics. Applications include 
+measuring colorimetric assays as well as the characterisation of 
+optical components (filters, AR coatings, layers etc.). 
+ 
+ 
+Dedicated PV Instrumentation (PL, EL, …) 
+The defined high level goals of the project may furthermore benefit from CTR’s 
+
+ 
+107 
+OLEDSOLAR  
+ State of the art photovoltaics in-lab and in-field testing infrastructure, including 
+electroluminescence, thermal imaging, fluorescence imaging, twilight electroluminescence, 
+outdoor power meter, cell flash tester etc.,  
+ Optical measurement systems (laser profiling, microscopy, white light interferometer), and 
+ Harsh environment characterisation equipment as well as a cryogenic chamber complete the 
+ability of carrying out high performance industrial research in this project.  
+ 
+Furthermore CTR is also equipped for smart sensor integration in devices and owns a research PV 
+power plant to carry out field tests under real environmental conditions. 
+ 
+Key Personnel 
+Name: Dr. Martin Kraft                           Gender: Male 
+Background:  
+Dr Martin Kraft is CTR’s area managers for Photonic Systems, and the centre’s IPR manager. 
+Holding a PhD in Technical Chemistry, his scientific expertise ranges from chemical process 
+analytics to comprehensive computer-based multi-parameter system simulation and optimisation. 
+Current key research interests include applied vibrational (IR, Raman) spectroscopy, process 
+analytical technologies (PAT) and applied process control, photonic (nano-) particle sensors and 
+multi-method simulation-based system & process elucidation and optimisation. Further key 
+qualifications include extensive experience in the management of complex multi-partner R&D 
+projects and in IP rights. 
+Education: 
+Engineering degree (“Ing.”) in Polymer Technology 
+M.Sc. in Technical Chemistry, curriculum Analytical Chemistry and Physico-Chemistry (TU 
+Wien; Univ. Cambridge) 
+PhD in Technical Chemistry 
+various courses in project management, IPR, legal contracting in R&D, research management 
+Work Experience: 
+2004 – present:  Carinthian University of Applied Sciences, Area Engineering & IT: 
+Industry Lecturer (Chemistry, Physics and Chemistry of Semiconductor Manufacturing, IPR for 
+Engineers) 
+2001 – present:  CTR Carinthian Tech Research AG: Key Researcher Chemical Sensors & 
+Applied Spectroscopy 
+  Division Manager Photonic Systems & ASSIC Area Manager Smart Systems Integration (SYS) 
+(2015 - ) 
+1998 - 2001: Institute of Analytical Chemistry, TU Wien: Full-time research assistant. 
+Product Development Experience: 
+15+ years in applied research, with joint projects typically ranging from TRL 2-3 to TRL 6-8; 
+latest example: “AVL CPC” condensation particle counter, https://www.avl.com/-/apcplus-avl-
+particle-counter  
+Intellectual Property Management: 
+ Centre IP manager, covering the field from patent searches to patent filing coordination; IP 
+portfolio management for the PHOS area, advisory function for decision making for both 
+CTR and company partners 
+ Inventor of several original inventions/patents, from MEMS-based FTIR spectrometry to 
+high-temperature CPCs 
+ Editorial author of 20+ original patent applications 
+Innovation Management: 
+Responsible area manager in charge of customer interactions and national and international 
+networking, scientific as well as commercial dissemination. 
+ 
+108 
+OLEDSOLAR  
+Name: Katja Presich                           Gender: Female 
+Background:  
+Katja Presich has a strong background in technical/medical physics with the focus on imaging 
+technologies. She will support the CTR team in the field of signal processing and data analysis. 
+Education: 
+2014-2015: Paracelsus Medical University Salzburg – PhD programme Medical Sciences 
+2011-2014: Technical University Vienna –Biomedical Engineering / Medical Physics and Imaging 
+(M.Sc.) 
+2007-2011: Technical University Vienna – Study of Technical Physics (B.Sc.) 
+Work Experience: 
+2017 - present CTR Carinthian Tech Research AG 
+2015 - 2017 KTM AG, NVH Engineer 
+2014 - 2015 radART Institute, PMU Salzburg, Medical Physicist - research assistant 
+2013 - 2014 Physicist at the federal hospital in Salzburg, employed by EBG MedAustron 
+GmbH 
+Product Development Experience: 
+ Accompanying the whole product development process at KTM AG, conducting 
+measurements of structure-borne noise in different phases of prototypes 
+ Input on the prototype design based on these measurements which required changes, in 
+agreement with the project manager of specific model or component 
+ Physical characterisation and input on the design of a new in-room CT for ionizing radio 
+therapy application 
+Innovation Management: 
+ In-room CT for ionizing radio therapy: prepare necessary documentation and quality 
+assurance protocols to comply with official regulative 
+ Conduct acceptance tests at the customer side 
+ 
+Name: Lukas Neumaier                           Gender: Male 
+Background:  
+Lukas has an extended knowledge in electrical engineering and biomimetics/bionics (university 
+education). He is also an experienced researcher in the field of renewable energy systems, 
+especially photovoltaics focusing in the area of: (a) quality control and characterisation of PV-
+modules and components and (b) PV plant monitoring. He has carried out several research 
+projects in the area of smart systems specifically (a) data acquisition, analysis and evaluation and 
+(b) sensor integration. Lukas is also a certified project manager Level D (IPMA/pma) - Project 
+management for national (FFG) and international (Interreg) funded projects as well as Project 
+management of contract research projects. 
+Education: 
+2013-2015: Carinthian University of Applied Sciences, Villach - Study of Bionik/Biomimetics in 
+Energy Systems 
+2007-2012: Technical University Graz - Study of Electrical Engineering and Power Engineering 
+1998-2006: Secondary School Feldkirchen – Focus: Natural Science 
+Work Experience: 
+2012-present: CTR Carinthian Tech Research AG – Researcher & Project Manager Smart Systems 
+and Photovoltaics  
+Product Development Experience: 
+ Development of an Raman-based inspection tool for non-destructive, inline quality control to 
+enable smart production in photovoltaic industry 
+ 
+109 
+OLEDSOLAR  
+ Development, analysis and verification of various sensor-based prototypes for industry based 
+applications (environmental sensing, identification, energy harvesting) 
+Intellectual Property Management: 
+ Knowledge in professional Patent Literature Research (DEPATISnet) 
+ Invention disclosure concerning the avoidance of potential induced degradation for 
+photovoltaic modules 
+Innovation Management: 
+Extensive publication activities on  national and international conferences (more than 50 
+publications as author and co-author) 
+ 
+ 
+Participant 15 
+Organisation Name: ADVANCED ENERGY 
+TECHNOLOGIES S.A. (Advent) 
+Website: http://www.advent-energy.com/ 
+Organisation Description: 
+ADVENT TECHNOLOGIES S.A. (AT) develops new materials and systems for renewable 
+energy technologies, such as plastic photovoltaics and high temperature PEM fuel cells. The 
+Company, founded by researchers from the Foundation for Research & Technology-Hellas 
+(FORTH-ICEHT) and the University of Patras, is a spin-off operation from these two academic 
+institutions and is funded by financial institutional investors (Connecticut Innovations, Piraeus 
+Capital Management, Dolphin Capital PLC), industrial partners (Systems Sunlight S.A., Velti 
+PLC, ILPRA S.A) as well as angel investors. The activity in plastic photovoltaics and related 
+materials goes back to 2001 where the cofounders of Advent were engaged in an R&D contract 
+activity from University of Patras and FORTH/ICEHT with the world industry leader Konarka 
+Technologies of Lowell, MA. Regarding the R&D activity in relationship to government grants 
+and contracts, the Company is the recipient of 11 competitive R&D grants during the last few 
+years, a testament to the excellent level of the cofounders and the scientific personnel of the 
+Company. The competitive R&D grants are in the area of plastic photovoltaics, fuel cells and 
+catalysts. 
+Relevant Publications: 
+ Chochos, C. L.; Singh, R. et al. “Enhancement of the power conversion efficiency in organic 
+photovoltaics by unveiling the appropriate polymer backbone enlargement approach” Adv. 
+Funct. Mater. 2016, 26, 1840 
+ Chochos, C. L.; Ameri, T. et al. “An Alternative Strategy to Adjust the Recombination 
+Mechanism of Organic Photovoltaics by Implementing Ternary Compounds“ Adv. Energy 
+Mater. 2015, 5, 1501527. 
+ Chochos, C. L.; Scherf, U. et al. “Ultra Low Band Gap α,β-unsubstituted BODIPY-based 
+Copolymer Synthesized by Palladium Catalyzed Cross-Coupling Polymerization for Near 
+Infrared Organic photovoltaics” J. Mater. Chem. A 2015, 3, 16279.  
+ Chochos, C. L.; Brabec, C. J. et al. ““Photophysics of molecular weight induced losses in 
+indacenodithienothiophene-based solar cells” Adv. Funct. Mater. 2015, 25, 4898.  
+ Chochos, C. L.; Heeney, M. et al. “Influence of the Electron Deficient Co-monomer on the 
+Optoelectronic Properties and Photovoltaic Performance of Dithienogermole-based Co-
+polymers” Adv. Funct. Mater. 2014, 24, 678.  
+Relevant Projects: 
+ 
+
+ 
+110 
+OLEDSOLAR  
+ “Development of smart machines, tools and processes for the precision synthesis of 
+nanomaterials with tailored properties for Organic Electronics (Smartonics)” EU FP7-NMP 
+large at ADVENT Technologies SA (2013-2016 Budget 125.000 Euro); Grant agreement no.: 
+310229.  
+ “New materials for highly efficient and reliable organic solar cells (MatHero)” FP7-PEOPLE-
+2013-NMP small at ADVENT Technologies SA (2013-2016 Budget 220.000 Euro); Grant 
+agreement no.: 604603.  
+ “Development of New Low Band Gap Conjugated Polymers for Organic Photovoltaic 
+Applications (ADVEPOL)” “Support for businesses employing highly scientific training" 
+through the "Human Resources Development" of General Secretariat for Research and 
+Technology in Greece (GSRT) at ADVENT Technologies SA (2012 – 2014 Budget 45.000 
+Euro) 
+ “Organic Semiconductors for NIR Optoelectronics (OSNIRO)” Marie Curie Initial Training 
+Networks (ITN) Call: FP7-PEOPLE-2013-ITN at ADVENT Technologies SA (2013-2017 
+Budget 330.000 Euro); Grant agreement no.: 607585.  
+        ITN-ETN OSNIRO is the development of optoelectronic materials and devices (organic solar 
+cells, photodetectors and image sensors as well as organic light-emitting diodes) 
+Infrastructure/Equipment:  
+The infrastructure capabilities at Advent Technologies facilities, includes pilot production space at 
+the Patras Science Park. The Patras Science Park location is an ideal place for Advent Technologies 
+due to the proximity to both FORTH/ICEHT and University of Patras where major instrumentation 
+available to Advent Technologies exists (NMR, MS, XPS, Raman etc.) As far as the 
+instrumentation at Advent Technologies itself is concerned, the Company is very well equipped to 
+perform the work described in the project. Specifically, a series of chemical synthesis stations exist 
+where synthesis in small quantities is possible in addition to the presence of 50 L chemical reactors 
+(2 Buchi reactors connected to 2 Huber units; models Huber Unistat 815W and 385W) that is 
+capable of Kg level synthesis. Regarding characterization, size exclusion chromatography (GPC), 
+UV-Vis spectrometry and Photoluminescence spectroscopy (PL) are some of the techniques 
+available in house. 
+          
+Key Personnel 
+Name: Dr Christos Chochos                          Gender: Male 
+Background:  
+Christos L. Chochos holds a degree in Chemistry (2001), a M.Sc (2004) and a PhD (2006) in 
+Polymer Science and Technology from the Chemistry Department of University of Patras. His 
+research interests include the design, synthesis and commercialization activities of organic 
+semiconducting materials for organic electronic applications. Recently, he received a Marie Curie 
+(2013-2015) Intra European Fellowship (FP7-PEOPLE-2012) with an excellent mark of 98,4/100 
+for the development of new high performance conjugated polymers with environmentally friendly 
+methodologies for application in organic photovoltaics. At the same time, as manager of organic 
+electronic materials in Advent Technologies SA, he is the scientific supervisor in two European 
+projects on the development of organic materials for applications in the near infrared and organic 
+Figure 1: 50L Chemical 
+reactor (>1µm) 
+Figure 2: Coating machinery Figure 3: Analytical facility 
+ 
+111 
+OLEDSOLAR  
+photovoltaics. He is the author of 32 scientific publications [h-index=15; Web of Science (March 
+2015)] and 3 US patents. All related to the development of conjugated polymers for various 
+optoelectronic applications. In the past, Dr Chochos was postdoctoral researcher at the Centre 
+National de la Recherche Scientifique (CNRS) in Strasbourg, Department of Mechanical 
+Engineering and Materials Science and Engineering of the Cyprus University of Technology and 
+the Institute of Chemical Engineering Sciences (ICE-HT) in Patras. 
+ 
+Education: 
+PhD: 2006, Interdepartmental (Chemistry, Physics, Chemical Engineering, Materials Science and 
+Engineering), University of Patras, Greece, Prof. Joannis Kallitsis, Synthesis and Characterization 
+of New Conjugated Polymers for Optoelectronic Applications. Co-supervisor: Dr. Vasilis 
+Gregoriou 
+M.Sc.: 2004, Interdepartmental (Chemistry, Physics, Chemical Engineering, Materials Science 
+and Engineering), University of Patras, Greece, Prof. Joannis Kallitsis, Synthesis and 
+Characterization of Rod-Coil Diblock Copolymers with Oligofluorenes as Initiators. Co-
+supervisor: Dr. Vasilis Gregoriou 
+B.Sc.: 2001, Department of Chemistry, University of Patras, Greece, Prof. Dionyssios 
+Papaioannou, Total synthesis of prototype cyclic polyamine derivatives with biological interest 
+Work Experience: 
+2015 – Present:  ADVENT Technologies SA, Patras, Greece, Manager of Organic 
+Electronic Materials 
+Previous Positions:  
+2013 – 2015:    Department of Materials Science and Engineering, University of Ioannina, Greece, 
+Marie Curie Intra European Research Fellow at the Polymeric Materials' Laboratory 
+2011 – 2012:  Institute of Chemical Engineering Sciences (ICE-HT), Foundation for Research 
+and Technology Hellas (FORTH) Patras, Greece, PostDoc Fellow.  
+2008 – 2011:  Department of Mechanical Engineering and Materials Science and Engineering of 
+the Cyprus University and Technology, Limassol, Cyprus, PostDoc Fellow.  
+2008 Institute of Physical Chemistry of the National Research Centre Demokritos Athens, 
+Greece, PostDoc Research Fellow. 
+2007 – 2008:  Laboratoire d'Ingénierie des Polymères pour les Hautes Technologies (LIPHT), 
+Université Louis Pasteur, Ecole Européenne de Chimie, Polymères et Matériaux (E-ECPM), and 
+Centre National de la Recherche Scientifique (CNRS) Strasbourg, France, PostDoc Fellow.  
+2007  Research and development department of ADVENT Technologies SA, Patras, Greece, 
+Research Scientist. 
+2007 Department of Chemistry, University of Patras, PostDoc Fellow. 
+Product Development Experience: 
+Scale up in multigram quantities organic polymeric semiconductors as active layer components 
+for various optoelectronic applications by traditional organic synthesis in chemical reactors. 
+Intellectual Property Management: 
+ “Acid-doped polyelectrolyte modified carbon nanotubes and their use in high temperature 
+PEM fuel cell electrodes” US Patent (US 2009/0081487 A1) 26 March 2009 and WO Patent 
+(WO 2009/087484 A2) 
+Christos Chochos, Nora Gourdoupi, Nikos Triantafyllopoulos, Joannis Kallitsis  
+ 
+ “Novel polymer networks based on benzimidazole moiety for high performance polymer 
+electrolyte membrane fuel cells” US Provisional Patent (US 61/812,368) 16 April 2013 
+Christos Chochos, Vasilis Gregoriou  
+ 
+  “Novel zwitterionic polyelectrolytes as efficient interface materials for application in 
+optoelectronic devices” US Provisional Patent (US 61/815,788) 25 April 2013 
+Christos Chochos, Vasilis Gregoriou 
+ 
+112 
+OLEDSOLAR  
+ 
+ “Conjugated polymers containing fused electron rich and electron poor units, preparation 
+method and uses thereof” US Provisional Patent (US 61/817,386) 30 April 2013 
+Christos Chochos, Vasilis Gregoriou  
+Innovation Management: 
+Key exploitable product: Efficient donor polymers will be synthesized and characterized, which 
+can be applied as component for the active layer as well as in the electrodes of OPV devices and 
+as semi-conducting material for other organic electronic applications. 
+ Some joint IPR on the synthesis of semi-conducting polymers and interlayer materials 
+ Public website to inform about the objectives, consortium, events, open position, and 
+publishable achievements. The public project reports and events will be available on this 
+website and updated on a regular basis. 
+ Publications in Scientific Journals.  
+ Communication and interaction with other EC Projects (e.g. MatHero, SunFlower, RoleMak, 
+ROTROT, FlexNet (NoE), COLAE (CA), e-LIFT, FLEXIBILITY, TDK4PE, HIFLEX, 
+POLARIC, COMBOLED, Chip2Foil, PLACE-it, Smartonics) and exchange non-confidential 
+information with them to assure coherence of the EC research and avoid useless replication of 
+work.  
+ Educational programmes: To ensure a long term impact, several training materials based on 
+the newest and most advanced e-learning technologies will be produced and be freely 
+distributed that can be integrated in educational programmes at university level. The project 
+will also contribute to capacity building through supporting scholarships and exchanges 
+programmes of students at PhD and post-doctoral level. 
+ Close collaboration will be established with associations, such as the OE-A and in ETPs 
+(NANOfutures, Photovoltaics, Photonics21, EuMaT, ENIAC, MANUFUTURE). 
+ Newsletters, press releases, flyers, for the public  
+ Dissemination Kit, which will contain suitable material (e.g. text and pictures including 
+copyright clearance), which the EC may use for its own dissemination  
+ Participation and presentations in Conferences, Workshops and Summer schools. 
+Participations of partners are scheduled in Scientific and Technical Conferences, as the E-
+MRS and mainly the possibility to organize a Symposium on “Organic Materials, Processes 
+& Applications”, in relation with Conferences: Global Plastic Electronics, LOPE-C, Printed 
+Electronics, Organic Semiconductors Conference, E-MRS, MRS, Drupa in Europe and USA. 
+ Participations in technical, commercial Fairs and Exhibitions. Dissemination of the results 
+towards other industrial partners & potential target user groups will also be made by the 
+consortium via participation in major technical exhibitions (ACHEMA, SolarExpo, 
+International Converting Exhibition Trade Show, Intersolar etc).  
+ Actively participation in the EC activities organized at programme level relating to NMP in 
+ICT or in Horizon2020, with the objective of providing input towards common activities and 
+receiving feedback (e.g. from clusters), offering advice and guidance and receiving 
+information relating to NMP and ICT programmes implementation, standards, policy and 
+regulatory activities, national or international initiatives, etc. 
+ Participations in exhibitions, platforms, thematic networks. The partners have been 
+participating for several years in such events for the promotion of their activities.  
+ 
+ 
+ 
+113 
+OLEDSOLAR  
+ 
+Participant 16 
+Organisation Name: INURU GmbH. (INURU) 
+Website: http://www.inuru.de/ 
+Organisation Description: 
+Inuru Gmbh is a German-based printed light & displays and printed electronics company, 
+positioned as an innovative R&D&I player in ultra-thin, low cost electronic devices industry. 
+Inuru is the world leader of OLED containing paper products for advertisement purposes. Inuru 
+has its own inks, printing process, battery and OLED production, which is done by ink-jet 
+printing. The core of INURU’s technology is a low cost OLED solution, based on paper-thin & 
+bright organic light source, printed with standard printing equipment in ambient conditions. This 
+cutting-edge eco-friendly technology finds use in a wide range of low-cost and flexible 
+applications, in particular, full displays for smartphones and TVs. INURU builds on the expertise 
+and strong research track-record of a team composed by high-calibre professionals in the field of 
+organic and printed electronics. INURU run its own facility and printed flexible OLED 
+manufacturing production line in Berlin. 
+Vision: 
+INURU is sumerian and means "in-light". It is composed out of the words "INA" (engl. in, into) 
+and "NURU" (light). Sumerian thereby is the world's first written language. The word INURU 
+fully reflects the vision of our company:  FIRST we want to use light to make things visible and 
+THEN we want to use the same light to enlighten people by bringing smart content through our 
+printed display solutions. 
+Relevant Publications: 
+ Winner of industrial prize “german packaging award 2017” in collaboration with Coca Cola 
+and Karl Knauer 
+Relevant Projects: 
+ Project leader of BMBF project “ORIGAMI/IonT” 
+Infrastructure/Equipment:  
+ 4-point-probe, 3 Ink-jet-printers, blade-coater, atomic force microscope, fluorescence 
+spectrometer, OTFT measurement set-up (Ossila), OLED characterization set-up (Ossila), 
+evaporation chamber, spin-coater, flowbox systems, screen printer, R2R paper assembly, 
+OLED ink-jet pilot line 
+ Printed flexible OLED manufacturing production line; 
+ Licensed software (process control and quality assurance); 
+ Characterization equipment;       
+ 
+ 
+ 
+ 
+OLED Sheet Flex: 
+
+ 
+114 
+OLEDSOLAR  
+  
+Green OLED: 
+ 
+Key Personnel 
+Name: Marcin Ratajczak                          Gender: Male 
+Background:  
+During the last 10 years of being entrepreneur, Marcin has provided high quality customer 
+solutions in many industries. Since 2012, he has been responsible for the overall development of 
+INURU, as CEO and co-founder.  
+Education: 
+MSc degree from in Electronics Engineering from Freie Universität Berlin  
+Work Experience: 
+2012 – Present:  CEO and Co-founder, Inuru Gmbh, Berlin, Germany  
+Product Development Experience: 
+• Go-to-market and technology development strategy; 
+• Business development & requirement analysis in advertising, packaging;  
+• Product development: supply chain; production process; customer experience. 
+ 
+Innovation Management: 
+ 
+Vice Chair Board of Directors, INAM – Innovation Network for Advanced Materials 
+  
+Name: Patrick Barkowski                          Gender: Male 
+
+ 
+115 
+OLEDSOLAR  
+Background:  
+Patrick has been working with and for many different leading institutes in the field of organic and 
+printed electronics (AG Koch - HU Berlin; Fraunhofer IAP; TU Chemnitz), and has collected a 
+vast knowhow in physics, chemistry and processing. He has also done research on solution 
+processed organic doping of organic semiconductors. At INURU, in his role as CTO & Co-
+founder, he leverages his background and previous professional experiences to develop printed 
+light inks, which are unique in the industry. 
+Education: 
+MSc degree in Physics from Humboldt University of Berlin 
+Work Experience: 
+2014 – Present:  CTO and Co-founder, Inuru Gmbh, Berlin, Germany  
+ 
+Product Development Experience: 
+• Developed full printed OLED stack 
+• Developed inks for printed OLEDs and OPVs 
+• Developed new low cost printed HTL material 
+• Developed barrier films for organic devices 
+• Developed printed circuits on paper 
+• Developed flexible paper based OLED 
+ 
+Intellectual Property Management: 
+• PCT/EP2017/073753  
+• PCT/EP2017/076172  
+• PCT/EP2017/074512 
+• PCT/EP2017/074514 
+ 
+ 
+ 
+ 
+Participant 17 
+Organisation Name: SMIT Thermal Solutions B.V. (SMIT) 
+Website:  www.smitthermalsolutions.com 
+Organisation Description: 
+SMIT Thermal Solutions BV is a leading supplier of customized, innovative thermal and coatings 
+equipment and processes, founded in 1936 in Nijmegen, The Netherlands. Currently the 
+headquarters are located in Eindhoven, in an important hub of research and innovation in the south 
+of Netherland and the company employs around 75 highly skilled engineers with competences 
+covering all aspects required for equipment manufacturing, installation and commissioning.  
+Besides design and manufacture of thermal process solutions for high-volume manufacturing, the 
+core competences of SMIT include deposition processes using thermal evaporation, (PE)CVD and 
+ALD for both rigid and flexible substrates.  
+Current focus of SMIT is on thin film applications, acting as an expert partner to manufacturers 
+aiming for cost-effective mass production. 
+
+ 
+116 
+OLEDSOLAR  
+The strategy of SMIT is to develop and commercialize state of the art industrial equipment that 
+can serve a wide variety of applications. In particular, within this project, the aim of SMIT is to 
+develop and test plasma enhanced (PE) spatial atomic layer deposition (sALD) compatible with an 
+R2R system.   
+Our plan is to use the know-how developed within this project to offer added value to existing 
+systems and as a building stone for next generation systems (R2R). A successful development will 
+help market penetration of high quality flexible devices (OLED, OPV, CIGS) and will generate 
+sales of R2R sALD systems and business expansion for SMIT and help create additional 
+employment opportunities in the region.   
+Additionally, there are many other applications and markets that can as well benefit from this 
+technology development to improve product quality and increase throughput.  This will also 
+contribute to increased revenue and can create additional expansion opportunities. 
+Relevant Publications: 
+5. FLEx ALD R2R and S2S. https://www.meyerburger.com/nl/en/technologies/specialized-
+technologies/spatial-atomic-layer-deposition/ 
+6. TFE CONx (in particular JETx). 
+https://www.meyerburger.com/nl/en/technologies/specialized-technologies/product-
+detail/product/conx-tfe/ 
+7. Presentation for ALD (example). http://www.semi.org/en/dana-borsa-flexible-functional-
+devices-mass-production-level-flex-r2r-sald-platform 
+8. Presentation for barriers (example - Industrial scale manufacturing of transparent and flexible 
+moisture barriers).  
+https://www.fep.fraunhofer.de/en/events/rueckblick_2017/sidme17.html#tabpanel-2 
+ 
+Relevant Projects: 
+4. OPZuid. https://www.stimulus.nl/op-zuid/project/industriele-productie-dunne-film-barriers/ 
+5. Enso. http://enso-ecsel.eu/ 
+6. Collaboration with Holst: Development of a roll-to-roll PECVD deposition tool to be used for 
+flexible OLED lighting and organic solar cells. https://www.oled-info.com/roth-rau-joins-
+holst-centre-research-barriers-flexible-electronics 
+Infrastructure/Equipment:  
+ Spectral ellipsometry 
+ Profilometer 
+ Low resolution SEM (>1µm)  
+ Climate chamber / ovens 
+ 
+117 
+OLEDSOLAR  
+                       
+ 
+ 
+ 
+ 
+                                                    
+                                                                          
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1: Spectral ellipsometry 
+Figure 2: Profilometer 
+Figure 3: Low resolution SEM (>1µm) 
+
+ 
+118 
+OLEDSOLAR  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Key Personnel 
+ 
+Name: Dana Borsa                            Gender: Female 
+Background:  
+Dr. Dana Borsa, is Business Development Manager at SMIT Thermal Solutions BV. Previously,  
+as BU Manager Thin Film Coating and Projects at Meyer Burger (Netherlands) B.V, she was 
+responsible for all business aspects including equipment, process and application developments. 
+She has a PhD in physics from the Rijksuniversiteit Groningen focused on thin film coatings and 
+later worked on switchable mirrors and hydrogen storage materials at the Vrije Universiteit 
+Amsterdam and on high efficiency solar cell concepts at ECN before moving into a management 
+role.  
+ 
+Education: 
+PhD  – Centro de Microanalisis de Materiales, Universidad Autonoma de Madrid, Spain & 
+Nuclear Solid State Physics Group, University of Groningen, NL 
+ 
+Work Experience: 
+2019 – present: SMIT Thermal Solutions B.V., Eindhoven, NL – Business Development Manager  
+2009 – 2019: Meyer Burger (Netherlands) B.V., Eindhoven, NL – BU Manager TFC and Projects, 
+Manager Research, Project Leader 
+2007 – 2009: Energy Research Centre Nederland, Petten NL – Researcher Silicon PV 
+2004 – 2007: Vrije Universiteit Amsterdam, Amsterdam, NL – Researcher   
+ 
+Product Development Experience: 
+ Project manager customer project for the fabrication of a prototype system for battery 
+applications; responsible for all phases  
+ Project leader for INREP H2020 project for the design, fabrication and commissioning of an 
+injector head for sALD S2S tool  
+ Project leader ‘SiOx for market implementation’: budget and resource planning; technology 
+scouting, process development and platform upgrade for 24/7 production  
+ Coordination CIP-SiNx program: definition and continuous topic update, resource planning 
+(FTEs, tool time and consumables); progress monitoring and supervision of process 
+development (>40 WP); field implementation and customer support    
+ Coordination customer sampling program: communication with customers and local sales 
+team; define test program; realization and after care 
+ Sales support at HQ and on-site; regular customer visits and process and product marketing.  
+ 
+Figure 4: Climate chamber / ovens 
+
+ 
+119 
+OLEDSOLAR  
+Name: Jos Bakema                            Gender: Male 
+Background:  
+Jos Bakema is Product Manager at SMIT Thermal Solutions BV and involved in various aspects 
+of product development of thermal equipment. With a strong technical background from 
+Rijksuniversiteit Groningen and Technical University Eindhoven, and many years of industry 
+experience, he is an experienced manager who combines hands-on feel with sharp technological 
+and business thinking.  
+ 
+Work Experience: 
+2016 – present: SMIT Thermal Solutions B.V., Eindhoven, NL – Product Manager  
+2015 – 2016: Solaytec., Eindhoven, NL – Program Manager 
+2006 – 2015: Smit Ovens, Son, NL – Manager Engineering 
+1997 – 2006: Gemco, NL – Project Manager, Process Engineer 
+ 
+ 
+ 
+4.2. Third parties involved in the project (third party resources) 
+15. Advent 
+Does the participant plan to subcontract certain tasks  (please note that core 
+tasks of the project should not be sub-contracted) 
+No 
+Does the participant envisage that part of its work is performed by linked 
+third parties 
+No 
+Does the participant envisage the use of contributions in kind provided by 
+third parties (Articles 11 and 12 of the General Model Grant Agreement) 
+No 
+Does the participant envisage that part of the work is performed by 
+International Partners (Article 14a of the General Model Grant Agreement)? 
+No 
+  
+Section 5: Ethics and Security
+5.1 Ethics 
+ 
+There any no ethical issues related to this proposal.
+5.2 Security 
+ 
+Please indicate if your project will involve: 
+ 
+ activities or results raising security issues: NO 
+ 
+ 'EU-classified information' as background or results: NO

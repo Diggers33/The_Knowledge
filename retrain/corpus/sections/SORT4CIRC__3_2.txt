@@ -1,0 +1,2056 @@
+3.2 Capacity of participants and consortium as a whole .................................................................................. 36 
+3.2.1 Consortium value chain overview ......................................................................................................... 36 
+3.2.2 Consortium description and complementarity ....................................................................................... 37 
+3.2.3 Resources distribution ........................................................................................................................... 38 
+3.2.4 Consortium critical infrastructures ........................................................................................................ 39 
+3.2.5 Industrial involvement ........................................................................................................................... 39 
+4 Ethics .................................................................................................................................................................. 40
+4.1 Ethics Issues Table .................................................................................................................................... 40
+4.2 Ethics Self-Assessment .............................................................................................................................. 42 
+[101181988] [SORT4CIRC] Page 5 on 42 Confidential 
+ 
+ 
+  
+Abbreviation Definition 
+AI Artificial Intelligence 
+API Application Programming Interface 
+BM Business Model 
+CCRI Circular Cities and Regions Initiative 
+CE Circular Economy 
+DfD Design for Disassembly 
+DPP Digital Product Passport 
+EBSI European Blockchain Services 
+Infrastructure 
+EPR Extended Producer Responsibility 
+ERP Enterprise Resource Planning 
+FAT Factory Acceptance Tests 
+FMEA Failure Mode and Effects Analysis 
+FTIR Fourier Transform Infrared 
+IoT Internet of Things 
+LCA Life Cycle Assessment 
+LCC Life Cycle Cost 
+LCI Life Cycle Inventory 
+LIBS Laser Induced Breakdown Spectroscopy 
+ML Machine Learning 
+NIR Near InfraRed 
+ 
+Abbreviation Definition 
+OWL Web Ontology Language 
+PCT Post-Consumer Textile 
+PET Polyethylene terephthalate 
+PET/CO Polyethylene terephthalate/Cotton 
+PET/EA Polyethylene terephthalate/Elastane 
+PET/PA Polyethylene terephthalate/Polyamide 
+PoC Proof of Concept 
+PoS Proof of Stake 
+PSFS Pre-Sorting and facilitating Fine Sorting 
+PSSR Pre-Sorting and Sorting for Recycling 
+RDF Resource Description Framework 
+RFID Radio Frequency IDentification 
+ROI Return on Investment 
+SC Supply Chain 
+SKU Stock Keeping Unit 
+SWIR/MWIR Short/Mid-Wave InfraRed 
+TEA Technico-Economic Assessment 
+TEF Technical & Economic Feasibility 
+TTRFID Textile customised Tokenised RFID 
+TVC Textile Value Chain 
+ 
+[101181988] [SORT4CIRC] Page 6 on 42 Confidential 
+ 
+ 
+1 Excellence 
+#@REL-EVA-RE@#
+1.1 Objectives and ambition  
+#@PRJ-OBJ-PO@# 
+1.1.1 Main objective / overall purpose  
+The EU generates 12.6 million tonnes of textile waste per year. Currently, only 22% of Post-Consumer Textile (PCT) 
+waste is collected separately for reuse or recycling, while the remainder is often incinerated or landfilled1. However, 
+with the updated legislative directives on separate textile collection across the EU by 1 January 20252, the amount of 
+textile waste collected will increase. To ensure the sustainable recovery of this material, upscaling sorting and 
+recycling capacity and efficiency must go hand in hand. Sorting for reuse and recycling is the critical step of the value 
+chain that decides the next best use and enables textile resources to cycle repeatedly through the supply chain (SC). 
+Textile reuse clearly offers greater environmental and economic benefits than recycling, but its sorting is carried out 
+manually and is associated with high labour and energy costs in the EU. Several brands and manufacturers are 
+already incorporating recycled content in their collections; however, most are not using PCTs. To date, recycled fibre 
+and fabrics made from PCTs are priced higher, intimately related to the high costs required to process them. 
+SORT4CIRC’s overall ambition is to improve value creation and cost efficiency through automated sorting 
+and innovative recycling. This will generate new revenue streams for sorters and recyclers by enhancing 
+sorting for reuse and turning non -re-wearable textiles into valuable feedstock for high -value recycling. 
+The project will strive to unlock the current technological gaps for textile identification and value- 
+chain traceability while providing an overall sound business case driving circularity within the Textile 
+Value Chain (TVC). 
+The use of modern digital technology in the sorting process will make it easier to achieve comprehensive 
+information on the materials and fabrication process step. This information can then be integrated into automated 
+Pre-Sorting and facilitating Fine Sorting (PSFS) and Pre-Sorting and Sorting for Recycling (PSSR) processes. The 
+different complementary technologies are interlinked with interoperable architecture to achieve complete traceability. 
+The results generated are cross-checked to ensure reliability and consistency, enabling informed decisions about the 
+optimal channel for reuse or recycling besides ensuring high quality input to reuse and recycling. 
+In response to this challenge, SORT4CIRC will develop a systemic, transformative solution by pioneering, 
+scalable solutions for PSFS & PSSR, coupled with traceability and ‘Design for Disassembly’ (DfD). An 
+innovative solution that can be developed and deployed across the industry actors, maximising the impact 
+on waste reduction and resource conservation. Fostering a more resilient and sustainable textile sector, 
+reducing the industry's reliance on natural resources and decreasing emissions, aligning with the objectives 
+of the EU Green Deal Industrial Plan3. The overall scope is described in Figure 1. 
+ 
+1 https://ec.europa.eu/commission/presscorner/detail/%20en/ip_23_3635 
+2 Directive - 2018/851 - EN - EUR-Lex (europa.eu) 
+3 https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52023DC0062 
+Figure 1 - Overall concept of SORT4CIRC 
+[101181988] [SORT4CIRC] Page 7 on 42 Confidential 
+ 
+ 
+SORT4CIRC gathers all relevant expertise to achieve the four strategic objectives in the following section: industrial 
+collector and sorter, technology developers (machine learning (ML), Artificial Intelligence (AI), hyperspectral & 
+spectroscopy solutions, Design-for-Disassembly (DfD) solutions, recyclers (chemical and mechanical), along with 
+specialists in SC tracking and tracing, digital transformation tools, digital passports, blockchain technology and 
+Internet of Things (IoT), textile Business Models (BMs), trade  and Life Cycle Cost/Assessment (LCC/LCA). 
+Industrial partners will ensure the effective scaling and implementation of the various solutions at the demonstration 
+and commercial levels. 
+ 
+Pre-sorting classification (reuse or recycling): 
+ Develop a system based on computer vision categorisation that provides a smart and efficient automated solution 
+to power the earlier stages of sorting, focused on sorting for reuse (waste hierarchy). 
+ Around 15 categories are used in the sorting line as a pre-sorting step; the digital technology will automatically 
+identify parameters such as the product category and condition (e.g., damp and soiled). 
+ Increase the productivity, profitability, and sustainability of textile waste management by automating PSFS and 
+increasing the fixed throughput of sorted textiles. 
+ Develop a Stock Keeping Unit (SKU) retrieval software to visually identify PCTs using AI-based computer 
+vision, allowing access to product data for those without a readable identifier. 
+ Set up generic/scalable/rapid/robust classification techniques using visible and NIR (Near InfraRed) imaging 
+and suitable algorithms. 
+Textile recognition in sorting for recycling: 
+ Leverage a novel comprehensive Multirange Spectroscopic Platform and hybrid ensemble modelling to 
+efficiently provide an affordable and compact real -time monitoring system capable of tacking the complex 
+monitoring requirements of the textile items. 
+ Develop a semi-industrial real-time recognition system to identify the features of multilayer materials in a single 
+textile item (currently non-identifiable with the existing NIR spectroscopy system and, therefore, sent to waste). 
+ Develop a new, more efficient recognition system based on a set of complementary recognition techniques, 
+which unlock the current limits of NIR identification and increases the reliability of measurement technologies 
+for (a) identification of fibre material < 3%; (b) identification of textiles containing black carbon-based pigments; 
+(c) Detection and identification of finishing agents and coatings; (d) PA6/PA66 and cotton/linen differentiation; 
+(e) identification of chemical contaminants; (f) identification of multilayer materials. 
+ Integrate and combine different technologies into an efficient and replicable system, enabling the management 
+of raw material flows that meet standardised requirements and sorting criteria for recycling technologies. 
+DfD for recycling: 
+ Assess DfD solutions using a Digital Product Passport (DPP) for identification and innovative technology to 
+identify and disassemble textile products using heat -dissolvable bio-based and synthetic stitching threads and 
+thermal disassembly systems. 
+ Key Performance Indicators  
+Pre-sorting classification (reuse or recycling): 
+ Create a standard of pre-sorting categories the sorting operators use representing>20% of the EU market 
+ Precision levels for accuracy of garment type recognition ≥ 90%, wear conditions (soiling) classification ≥ 75% 
+ By using the automated PSFS, it will lead to a reduction of costs for the sorting process step by 20-30% 
+ Detection and retrieval of product data within 800 milliseconds for SKU retrieval 
+ Enriched data repository including ≥20 tonnes of various garments as ML reference models 
+Textile recognition for recycling: 
+ A new hyperspectral dataset of garments for new code developments 
+ Decrease the composition estimation error to a value of less than 5% 
+ Enable to estimate the presence of one material with less than 3% content 
+ Allow the detection of black textiles (cont. carbon pigments), chemical contaminants, and foreign materials 
+ Fabric structure recognition accuracy >95% 
+ Efficient separation of PET (Polyethylene terephthalate) fibres from multilayer textiles with >80% of PET and 
+no metallic parts 
+Multilayer disassembly for recycling: 
+ Increase from 40-60% to 90-95% of recovered textile products from disassembly process 
+ At pre- and post-disassembly stage, eco-designed garments enable >95% of accurate identification/sorting. 
+ Successfully identified DfD smart stitch via DPP Radio Frequency IDentification (RFID) tags. 
+Objective 1: Revolutionize textile sorting by employing innovative, intelligent, interconnected technologies 
+within an automatised system to ensure an efficient and optimal channel for reuse or recycling. 
+1.1.2 Specific objectives 
+[101181988] [SORT4CIRC] Page 8 on 42 Confidential 
+ 
+ 
+ 
+ Develop a textile customised tokenised RFID (TTRFID) tag model for autonomous/interoperable data 
+communication 
+ Design a textile DPP via eco-friendly blockchain architecture for traceability of data over the TVC ecosystem 
+ Integrate the DPP data retrieval with the automatised PSFS & PSSR solutions in Objective 1 for seamless and 
+interconnected textile product data exchange 
+ Establish a tokenised ecosystem over TVC to enable DfD via information sharing of TVC stakeholders 
+ Key Performance Indicators  
+ Compatibility >98% with design for recycling of the developed TTRFID tags 
+ Compatibility >95% with standardised data communication protocols of RFID gates and related EU projects 
+ Autonomous compatibility of DPPs for interoperability >80% of APIs (Application Programming Interfaces) of 
+Enterprise Resource Planning (ERP) systems used in TVC 
+ 100% success rate for DPP in fulfilling the confidentiality of data over the blockchain platform like European 
+Blockchain Services Infrastructure (EBSI). 
+ Successful, accurate data retrieval >95% of DPP-equipped textile products for garment, technology and layer 
+ Design and demonstrate at a pilot scale, an automated pre-sorting line that categorises items according to the 
+product type and condition collected from the commonly used market 
+ Upgrade textile sorting systems with suitable measurement technology to adapt the quality of the output material 
+to the current and future requirements of mechanical, chemical, and thermo-mechanical recycling companies 
+ Integrate the advanced sorting technologies into an operational automatised sorting line 
+ Consolidation for technologies’ interoperability in the form of DPP data retrieval and AI-based detection models 
+ Set up innovative smart modular sorting technology for single -unit operations to enhance the sorting process 
+faster by embedding the latest AI detection technologies developed within SORT4CIRC 
+ Integrate and demonstrate the systemic solution into an operational automatised sorting system, incl. automated 
+pre-sorting, measurement technologies for textile classification/recognition and DPP traceable identifiers. 
+ Validate the SORT4CIRC DPP blockchain for the storage/retrieval of TVCs regarding garments, technology, 
+layer, and recyclability of developed TTRFIDs 
+ Validate SORT4CIRC sorted feedstock for high -value recycling at recyclers facilities focusing on fibre -to-fibre 
+requirements: (a) “Soft mechanical recycling” (i.e., cotton, cotton/polyesters, and acrylic); (b) “Pulping” 
+chemical recycling (i.e., cotton and cellulosic); (c) M ethanolysis chemical recycling for “complex textiles” 
+(separate polyester from co -materials (i.e., cotton, polyamide, and elastane.); (d) Chemical recycling 
+(Polyamid6); (e) Thermo-mechanical recycling (Polyester high purity) 
+ Key Performance Indicators  
+Successful integration of recognition & automatised system into PSSR for the recycling process 
+ Cost savings of up to 30% by reducing labour costs, contributing to a positive Return on Investment (ROI) on 
+the investment in automation PSSR 
+ Precision level >85 % for garment classification and conditions dryness/soiling classification at pilot-scale 
+ Keeping the same accuracy results (mentioned in objective 1) at 500 kg/hour throughput. 
+ Unchanged throughput and productivity objectives via automatisation 
+ Less than 1% of material losses and sorting speed of >1m/s. 
+ Success rate >95% for DPP seamless data exchange with AI-based technologies for PSSR 
+ Bring non-identifiable textiles, mixed & multi-material textiles to the recycling stream 
+ From 60% to 98% of high-quality textiles meeting recyclers requirements 
+ Improved process steps documentation and continuous quality assurance of the end product 
+ Validate TEF of upscaled processes along with workplace implications 
+ Assess the environmental benefits of the textile sorting process automation through a detailed LCA based on 
+ISO standards (14040-44, 14025) 
+ Develop a plant-wide process model that can calculate the Life Cycle Inventory (LCI) of the whole value chain 
+ Identify and mitigate potential risks associated with the automation project, such as technical challenges, market 
+demand fluctuations, and regulatory compliance 
+ Evaluate the CE BM viability, industrial symbiosis among recyclers, and social acceptance-consumer welfare 
+Objective 2: Increase traceability of pre-owned clothes with integrity and confidentiality of information for 
+more efficient sorting and recycling. 
+Objective 3: Design and demonstrate automatised PSSR system, integrate and combine new technologies into 
+an operational and industrial environment, ensuring high quality and economically viable feedstock for 
+existing and emerging mechanical/chemical/thermo-mechanical recycling. 
+Objective 4: Technical & Economic Feasibility (TEF) including LCC/LCA perspective & viability of circular 
+economy (CE) BMs 
+[101181988] [SORT4CIRC] Page 9 on 42 Confidential 
+ 
+ 
+ Key Performance Indicators  
+ Environmental: 20% lower GHG emissions than the state-of-the-art waste textile sorting process. 
+ Economics: A positive ROI of up to 26% at the end of the project. 
+ Sorting Efficiency by 40% compared to manual, resulting in higher throughput rates and processing speeds. 
+ Ability to increase throughput by 30-50% without significant additional investment. 
+ Social welfare: >25 % of consumers in the EU consider buying preowned clothes (currently, it varies between 
+18% and 21% depending on consumer behaviour/ culture). 
+1.1.3 Main innovations and ambitions / progress beyond the state-of-the-art (SOTA)  
+Ambition 1 – Automated PSFS sorting, recognition monitoring, measurement and classification technologies 
+SOTA. Textile PSFS systems still rely heavily on manual decision-making processes. While some innovations to 
+automate these processes have been announced and are in development, they have not yet been fully developed or 
+launched4. Moreover, the PSFS needs to ensure effective mechanisms for high quality of cloth wear condition 
+aligned with second-hand market and reuse market pipelines. The SOTA shows the gap for effective SKU based 
+cloth categorization and high accuracy wear condition for reuse market5. 
+Bottlenecks. Current manual PSFS processes make sorting subjective, focusing primarily on product type and 
+quality. This limits resale options to traditional second -hand shops and export markets. To unlock new resale 
+channels and prevent re -wearable items from being r ecycled, especially as separate textile collection in all EU 
+member states, legally mandatory from 2025 on, will increase collection volumes by more than 80%, improved 
+sorting quality and detection of more relevant product attributes are needed. Innovative computer vision solutions, 
+including those from REFA, are being developed alongside free-fall detection approaches. 
+To reliably assess the quality of a garment, more than 95% of its surface must be visible, which requires the 
+garment to be fully unfolded. There are two distinct approaches to robotic handling systems: free-fall systems with 
+separation and flat presentation systems. Both have significant limitations. 
+1. Free-fall systems require robotic separation, where individual garments are extracted from a pile and 
+placed onto a conveyor in random orientations. While this step alone already takes more than two seconds 
+per garment, it does not solve the issue of unfolding. In a free -fall state, garments are not sufficiently 
+flattened, making it impossible to derive detailed product attributes or assess the garment’s quality with 
+the required precision. This leads  to unreliable detection and necessitates additional manu al sorting, 
+reducing the overall utility and cost-effectiveness of the system. 
+2. Flat presentation systems, on the other hand, ensure garments are fully unfolded and laid flat on a 
+conveyor belt. This approach enables accurate quality assessment, as the entire surface of the garment is 
+visible. However, achieving this flat presentation with robotic systems requires significant processing 
+time. Current state -of-the-art robotic solutions need upwards of 30 seconds, often approaching a full 
+minute, to unfold and flatten a single garment. These long cycle times are far slower than manual handling 
+and make such systems economically unfeasible for industrial-scale sorting operations. 
+While free-fall detection eliminates the need for unfolding, it struggles with image resolution for garments larger 
+than accessories or kidswear. Tests by REFA revealed incomplete unfolding, leading to unpredictable flight paths 
+incompatible with the limited depth of field of high-resolution imaging systems. High-resolution images are crucial 
+for detecting defects and avoiding costly false positives, where reusable items are mistakenly recycled, impacting 
+sorting plant economics and undermining waste hierarchy principles. Furthermore, due to the limitations in 
+detection capabilities of free-fall systems, an additional fine-sorting step will still be required. In comparison, the 
+fine sorting process can occur automatically when a garment is unfolded on a conveyor belt, making the free-fall 
+solution economically less attractive. 
+In summary, free-fall systems suffer from inadequate quality detection due to incomplete visibility of garments, 
+while flat presentation systems face prohibitive processing times and costs. A semi -automated solution, where 
+garments are manually unfolded and placed on a conveyor belt for automated quality assessment, offers a practical 
+compromise. This approach is 30% more efficient than purely manual sorting and combines human dexterity with 
+the precision of digital technologies. While robotic systems may improve in the future, their current state is 
+insufficient to meet the demands of large-scale garment sorting. Any advancements in robotic unfolding could still 
+be integrated into existing workflows, but for now, semi-automation remains the most reliable and cost-effective 
+option. 
+ 
+ 
+ 
+ 
+4 Rehman, M. M., Exploring the Link Between Artificial Intelligence and Circular Economy in the Fashion Industry: an example of Lennol Oy, 
+https://www.theseus.fi/handle/10024/865358 
+5 Herzberg, P. H., Pirrwitz, F., Analysing the EU textile and clothing material flow with an emphasis on reuse-based value chains, https://www.diva- 
+portal.org/smash/record.jsf?pid=diva2%3A1802563&dswid=-7763 
+[101181988] [SORT4CIRC] Page 10 on 42 Confidential 
+ 
+ 
+Innovation. Automated PSFS System to Unlock New Reuse Markets: The PSFS system integrated into this 
+project builds on REFA's automated sorting technology. Sorters unfold the garments on the conveyor belt, allowing 
+the system to capture high -resolution images from both sides. The system utilises AI -based computer vision 
+models to identify key attributes, such as clothing type, degree of wear or soiling, style, brand (if visible), fabric 
+construction (e.g. knit, woven), colours, and size. Additionally, the system can access DPP data, providing essential 
+information for reuse sorting decisions, such as brand, original sales prices, and material composition. A similarity 
+detection AI algorithm, developed in this project and combined with a database of image feature vectors, will enable 
+the retrieval of product data from DPPs and e -commerce platforms without needing a visible or accessible data 
+carrier. This allows for detecting valuable garments, even for products without a DPP or visible data carrier. The 
+system facilitates sorting curated feedstock for new resale channels, such as retailers of new goods, ultimately 
+leading to increased volumes for second-hand markets instead of recycling. 
+Ambition 2 – Automated PSSR sorting, recognition monitoring, measurement and classification technologies 
+SOTA. The existing processes for disassembling textiles are either manual or mechanical, but both involve a 
+high percentage of losses ranging from 20-60% and are economically not viable6. PSSR processes have been done 
+manually. In the recent years, several NIR spectroscopy solutions have been launched for a more accurate material 
+composition detection due to new requirements from innovative recyclers7. 
+Bottlenecks. Today, the pre-sorting stage is fully manual and labour-intensive. Manual PSSR chemical recycling 
+requires precise identification and strict specifications. To supply these markets, it is necessary to develop 
+automated or semi-automated sorting of the non -re-wearable fraction by fibre type and colour. Some integrators 
+have started to use the hyperspectral technique for recycling. However, it still needs to be improved to determine 
+the composition of garments with two or more mixed materials. It needs to be combined with other optical/photonic 
+technologies to provide additional recognition functions like identifying black-dyed clothes and garments with low 
+content (<3%) of elastane. The existing NIR technology faces limitations in accurately sorting textiles due to issues 
+like the difficulties of penetration of multilayer textiles and the presence of carbon -based pigments. Integrating 
+innovative techniques as a pre-recycling process and scalability to the available recycling technologies is currently 
+lacking. Mechanical disassembly does not offer a solution to multi-material/multi-layer products and reduces 
+the fibre quality and recyclability rates. 
+Innovation. New multimodal automatic PSSR monitoring: SORT4CIRC will provide an innovative and cost - 
+effective textile analysis system for automated PSSR (for recycling using a co -integration of multimodal 
+imaging/photonics technologies (Laser Induced Breakdown Spectroscopy (LIBS), hyperspectral imaging, Vis - 
+NIR and short/mid-wave infrared (SWIR/MWIR))).While automated PSSR systems will record image data of 
+garments to detect the presence of finishing chemicals, coatings or other undesirable components on the surface 
+of functional textiles, enabling the separation of u nidentified components and accessories. It will detect and 
+identify the characteristics of multi-layer materials in a textile article. Automatic sorting will classify garments and 
+fabric structures and recognise textile materials. It will identify single or multi -component materials with the 
+capacity to detect < 3% of other types of materials in the textile, even in the presence of black dyes or wear 
+conditions or soiled textiles. Algorithmic strategies will be developed to closely match the actual composition of 
+the garment as measured in the laboratory or to give better compositional estimates in the presence of low-content 
+materials. The monitoring system will use advanced AI algorithms and deep ML to constantly increase its 
+capacity for improving consequently the current technology will be the robustness and accuracy of the 
+classification algorithm for complex compositions or new unknown compositions. A feedstock with a well- 
+defined composition ready for recycling (mechanical, chemical, enzymatic fibre -to-fibre recycling) will be 
+sorted and sent to recyclers for evaluation. 
+Ambition 3 – Textile DPP 
+SOTA. EC has proposed the DPP as a tool to create transparency and unlock circularity for sharing product 
+information across the entire value chain, including data on raw material procurement and logistics, production 
+and manufacturing processes and recycling8. DPP is part of the Eco-design for Sustainable Products Regulation 
+and one of the key actions under the CE Action Plan, which aims to establish an introduction of a DPP in at least 
+3 key market,including textiles, by 2027. Moreover, as an objective for the EU Commission’s 2030 vision for 
+textiles, the textiles sector should move toward competitiveness, resiliency and innovation along with the 
+producers by taking responsibility for their products along the value chain with sufficient capacities for recycling 
+ 
+6 Isatou Ndure, Fashion for Good to sort garments with AI for re-wearable textiles, https://www.just-style.com/news/fashion-for-good-to-sort-garments-with-ai- 
+for-re-wearable-textiles/ 
+7 Sorting and Composition Analyses of Discarded Textiles, https://www.taylorfrancis.com/chapters/edit/10.1201/9781003044413-11/sorting-composition- 
+analyses-discarded-textiles-kirsti-cura-mikko-m%C3%A4kel%C3%A4 Cura, K., Mäkelä, M., Sorting and Composition Analyses of Discarded Textiles, 
+https://www.taylorfrancis.com/chapters/edit/10.1201/9781003044413-11/sorting-composition-analyses-discarded-textiles-kirsti-cura-mikko- 
+m%C3%A4kel%C3%A4 
+8 "Circular economy action plan - European Commission." https://ec.europa.eu/environment/strategy/circular-economy-action-plan_en. 
+[101181988] [SORT4CIRC] Page 11 on 42 Confidential 
+ 
+ 
+and minimal incineration and landfilling 9. The requirements for supporting the store and sharing comprehensive 
+data of TVC through whole textile ecosystems from raw material procurer to retailer highlight the importance of 
+decentralised technologies. In recent years, blockchain technology has gone well beyond its original association 
+with cryptocurrencies (e.g. 1 st and 2 nd CIRPASS projects 10,11, EBSI platform12). It is essentially a secure and 
+decentralised digital ledger that records transactions across multiple computers in a transparent, tamper-resistant, 
+and efficient way13. Features like smart contracts for self-executing contracts with predefined rules and enabling 
+automated and trusted agreements trigger the tokenisation idea of DPP-based ecosystems; data traceability14 also 
+makes it a suitable candidate for DPP. It has shown evolving potential to address relative concerns for 
+environmental aspects of energy usage and scalability. It has been suggested that we advance to be more secure, 
+efficient, and versatile, opening possibilities beyond what was initially imagined15. 
+Bottlenecks. DPP complexity for seamless and interoperable data communication through TVC; Scalability and 
+confidentiality of DPP for textile data over the TVC, including raw material procurer, producers, retailers, and 
+consumers; Lack of recyclable IoT mechanisms for textile products for autonomous data communication over the 
+TVC; Integration of DPP capabilities with the current sorting solution; Lack of mechanisms for using DPP 
+historical data and enhance DfD. 
+Innovation. SORT4CIRC will contribute to the SOTA of TTRFID tags for an IoT-enabled textile DPP focusing on 
+recyclable chip-less technologies. SORT4CIRC will develop an eco-friendly blockchain architecture for the textile 
+DPP model for traceability over TVC and integrate it with its proposed technologies in Ambition 1&2. 
+SORT4CIRC will design the blockchain backbone of textile DPP with capabilities like an environment -friendly 
+consensus mechanism, scalability for comprehensive TVC data, security and confidentiality of data, 
+interoperability, and autonomous data exchange. This traceable and comprehensive information exchange model 
+of TVC will be supported by a tokenised architecture, enabling analysis of textile DPP-related operational PSSR 
+historical data for DfD and providing the basis for paradigms like CO2 market exchange in TVC. 
+Ambition 4 – Creating value to trigger circularity: satisfying the overall sustainable TVC 
+SOTA. The sorting and recycling companies across the EU deal with stakeholders such as consumers, producers 
+of new clothes, partner collectors, and buyers of reusable clothes and recycled raw materials. Most existing CE 
+BMs focus on the pre-consumer stage, and only a limited number are proven in the post-consumer stage (furniture, 
+carpets, durable products, and luxury clothes). A few BMs exist that operate as partnerships between a firm, its 
+partner recycler, and charity recyclers for the collection and resale of pre-owned clothes. 
+Bottlenecks. Recyclers manage clothing from numerous unknown suppliers, each with unique characteristics, 
+rendering standard partnerships, collaborations, and cost/profit-sharing models impractical. Innovative BMs are 
+essential in the apparel industry, particularly because it is dominated by fast fashion, which is characterised by 
+low prices, unlike luxury clothing. The abundance of these clothes makes sorting exhaustive, and their constant 
+updating creates competi tion with new garments. Another challenge i s consumer behaviour; while some are 
+sustainability-conscious and interested in second -hand products, others prefer new items, disregarding second - 
+hand options. Additionally, circularity may generate less short-term value. For instance, materials from recycled 
+cotton clothes can be sold for a higher price when used to produce wipes rather than for clothing production. 
+Another issue is that some circular BMs need to be sustainable; for example, it has been shown that collecting 
+and shredding clothes like jeans is not environmentally sustainable in terms of CO 2 emissions. The current 
+situation reveals that sorting capacity is limited, and its marginal cost is high, presenting a significant challenge. 
+Innovation. SORT4CIRC impact is supposed to increase the capacity and value of generating clothes and materials 
+with pros and cons from competing stakeholders. So, innovative BMs are required to protect the EU stakeholders 
+regarding various sustainability metrics in the long term. Circularity in textiles can only be reached if strong 
+business cases are behind it. SORT4CIRC circular BM will capitalise on (i) higher sorting capacity, (ii) lower sorting 
+and recycled material costs, (iii) a higher supply of reusable products and high-quality feedstock tailored according 
+to relevant materials and subsequent spinning/weaving/knitting/dying process, and (iv) consider consumer 
+behaviour and market demands. To maintain a balance among all stakeholders, the BMs will include various 
+combinations of revenue model, supply model and appropriate markets to sell reusable products and recycled 
+materials, along with the assessment of trade -offs. SORT4CIRC scenarios will be mathematically formulated, 
+analytically examined or simulated and validated using empirical data to suggest ‘if-then’ rules to prescribe how 
+to prescribe control mechanisms (e.g., commissioning and incentivising) to ensure all stakeholders’ benefit. It will 
+ 
+9 https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022DC0141 
+10 https://cirpassproject.eu/ 
+11 https://cirpass2.eu/ 
+12 Home - EBSI - (europa.eu) 
+13 https://www.ibm.com/topics/benefits-of-blockchain 
+14 https://digital-strategy.ec.europa.eu/en/policies/blockchain-strategy 
+15 “Energy Efficiency of Blockchain Technologies”, www.eublockchainforum.eu 
+[101181988] [SORT4CIRC] Page 12 on 42 Confidential 
+ 
+ 
+also include scenarios that can service the existing (France) or imminent textile Extended Producer Responsibility 
+(EPR) in EU countries such as the Netherlands. 
+1.1.4 TRL assessment  
+Technology TRL at the beginning of the project TRL at the end of the project 
+Textile tokenised 
+RFID (TTRFID) tags 
+TRL4: Chipless tag for RFID application 
+prototype developed and validated in the lab 
+setting 
+TRL6: TTRFID tags prototype demonstration in a 
+demonstration environment 
+DPP blockchain 
+platform 
+TRL4: SC traceability over value chain in the 
+form of lab-validated demonstration 
+TRL6: Textile DPP blockchain platform for data 
+tracing and feeding the proactive sorting in an 
+integrated sorting environment 
+DPP smart contracts 
+tokenisation 
+TRL4: Prototype Proof of Concept (PoC) for 
+the smart contract in the SC validated in a lab 
+environment 
+TRL6: validated models for appraisal of sustainability 
+contribution over the TVC environment will be 
+demonstrated in a relevant environment 
+Establishment of a 
+tokenised ecosystem 
+over TVC 
+TRL 3: Initial concept and feasibility of 
+tokenisation models over SC models are 
+demonstrated 
+TRL 6: Tokenisation token scenarios integrated with 
+the TTRFID system will be demonstrated in the 
+relevant environment 
+Vision system for 
+garment attributes 
+recognition such as 
+wear condition 
+TRL 3: Classifications of laid-out garments are 
+tested. Need to refine AI to improve the 
+classification of garments. 
+TRL 6: The vision system should offer garment 
+classification based on various attributes, including 
+wearability and soiling conditions, product type, style, 
+brand, colour, fabric construction and size. 
+SKU retrieval for 
+garment 
+classification 
+ontology model 
+TRL 2: The need has been identified, and the 
+core functions of the technical concept are 
+understood. Some functions of the existing 
+neural networks can be reused. 
+TRL 5: By the end of the project, a TRL 5 level shall be 
+achieved. The technology must function and be validated 
+in a sorting machine. 
+Xray detection of 
+foreign objects 
+TRL5: System able to detect metallic parts 
+within the garment 
+TRL6: It will be able to detect a wider range of 
+accessories 
+Detection of garment 
+composition by 
+infrared vision 
+TRL4 - All compositions must be known for 
+correct detection, and difficulties remain in 
+detecting the composition of garments 
+containing a low material content and textiles 
+dyed black. 
+TRL6 – The composition determination of all garments, 
+including black textiles and textiles with a small 
+amount of material. Statistical models of spectral 
+similarities can improve AI models to determine the 
+composition of any unknown blend. 
+Garment composition 
+accuracy 
+TRL4: The composition estimate is based on 
+the analysis of the surface image. Composition 
+discrepancy with laboratory measurements over 
+10% can be detected. 
+TRL6: New algorithms that consider the weaving 
+pattern can reduce the composition estimation error to 
+below 10% 
+Recognition of 
+multilayer garments 
+TRL4: Recognition prototype based in NIR- 
+HSI successfully validated at lab-scale for 
+detecting some multilayer compositions 
+including PET, cotton and PA. 
+TRL6: Upscale the prototype, integrate it in-line, 
+improve robustness, and increase the number of 
+compositions recognised. 
+Classification of 
+unidentifiable 
+materials 
+TRL 3: New infrared technology seems to 
+identify differences between PA6 and PA6.6 
+TRL6: This technology is integrated with other 
+conventional technologies to classify these polyamide 
+textiles 
+#§PRJ-OBJ-PO§# 
+[101181988] [SORT4CIRC] Page 13 on 42 Confidential
+1.2 Methodology  
+#@CON-MET-CM@# #@COM-PLE-CP@# 
+1.2.1 Overall methodology  
+Due to the lack of the SOTA automated textile sorting technologies available for PSFS and the limitations of current 
+NIR technologies used for PSSR such as identification of multilayers, material composition below 3%, black textiles 
+based on carbon pigments, coatings and finishing chemicals, nylon6 and nylon66 identification, cotton and linen 
+differentiation and fabric structure recognition, sorting systems must be upgraded to guarantee a reliable, affordable 
+and accurate feedstock for second -hand markets and feedstock for recycling. With the learnings of using NIR 
+spectroscopy for sorting PCTs at an industrial scale, the most significant challenges to ensure a reliable, high-quality 
+feedstock allowing fibre -to-fibre recycling are precision in composition and colour recognition, automated 
+categorisation and quality assessment of output material. Moreover, the heterogeneity of PCTs poses several 
+challenges for textile disassembly and pre-processing due to the complex nature of textile structures and the diverse 
+range of materials commonly used for performance and/or aesthetic reasons. Multi-material products represent 78% 
+of the market (9% are multilayer, 69% are single layer with disruptors 16), requiring specialised sorting to identify, 
+separate and recover individual components before recycling. While the second -hand market in the EU is growing, 
+limitation in the current sorting technologies makes most second -hand clothes exported to developi ng nations, 
+creating small value. This project addresses challenges in material composition, colour recognition, and multi - 
+material textiles, increasing the availability of reliable textiles for the second-hand market and supporting its growth. 
+While the recycling technologies need to scale up and further develop their processes to face the textile waste 
+complexity, automated sorting using suitable robotics, sensors and AI technologies is required to meet their various 
+requirements and specifications and thus facilitate the incorporation of textile waste into new yarns or products, 
+increasing the circularity of textile products and limiting the use of natural resources. The lack of traceability of most 
+textiles carries the risk of re -introducing unwanted textiles into the system, preventing a true circular value chain. 
+Tracking and tracing technologies such as blockchain integrated with TTRFID tags can support addressing this issue. 
+Therefore, structured and accessible data on material composition and substances of concern are important 
+information for appropriate sorting and recycling. The practical application of tracking and tracing technologies is 
+thus of utmost importance to sorters and recycler s. Also, to ensure the efficient implementation of innovative 
+solutions, it is essential to analyse the TEF and LCA of upscaled processes in conjunction with developing viable 
+BMs. SORT4CIRC overall methodology has been illustrated in Figure 2, and it will tackle the following challenges: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 2 - Overall Methodological framework of SORT4CIRC 
+ 
+ 
+16 https://refashion.fr/pro/sites/default/files/rapport-etude/Synth%C3%A8se_Caract%C3%A9risation_Refashion_2023_EN.pdf 
+[101181988] [SORT4CIRC] Page 14 on 42 Confidential 
+ 
+ 
+ 
+Garment type and wear condition determination: 
+The current process for determining garment type and wear condition is fully manual and labor-intensive. Particularly 
+for products entering recycling streams, revenues often do not cover sorting costs. Automating this process is essential 
+to establishing a cost-effective circular economy (CE) model. The proposed AI-based technology supports both pre- 
+sorting and fine sorting by automatically detecting product types and wear conditions (e.g., holes, pilling, and 
+discoloration). Garments are spread on a conveyor belt, scanned from both sides with high -resolution imaging, and 
+sorting software assigns them to appropriate categories. The items are then automatically directed into the correct 
+bins via a switch system. 
+To ensure technical robustness, the AI systems utilize machine learning models trained on diverse, high -quality 
+datasets that account for the variability in garment types, wear conditions, and additional features such as style and 
+fiber composition. High -resolution imaging is rigorously tested under industrial conditions to maintain consistent 
+performance despite challenges like dust, vibrations, and lighting fluctuations. Quality assurance measures include 
+ML pipelines for continuous monitoring, automated retraining based on new data, and lifecycle management for 
+sustained reliability. Additional mechanisms such as periodic calibration, benchmarking against industry standards, 
+and fallback strategies (e.g., manual sorting or reclassification) enhance robustness in large-scale operations. 
+Retrieval of product data without data carrier: 
+Product data from e -commerce platforms and, in the future, from Digital Product Passports (DPPs), can support 
+sorting decisions. The connection between a product to be sorted and its data can be established via data carriers 
+embedded in the clothing item. However, many clothing items currently lack such carriers, and it is unclear whether 
+all DPP-enabled products will integrate easily readable carriers in the sorting process. For example, hidden QR codes 
+may not be readable under high-speed sorting conditions. 
+To overcome this challenge, existing AI algorithms will be enhanced to recognize individual products and infer their 
+SKUs using image similarity techniques. These systems will leverage advanced computer vision models and 
+continuously updated product databases to match garments with their digital profiles. To ensure reliability, the models 
+will be subjected to stress testing for edge cases, such as heavily worn garments or partial visibility. The integration 
+of this product data into the sorting process will significantly improve sorting quality and efficiency. 
+Facilitating the sorting for reuse: 
+Current buyers of wearable clothing are mainly second -hand shops in Europe and exporters to the Global South. 
+However, as collection volumes increase in Europe, second -hand markets risk becoming saturated, potentially 
+leading to wearable products being recycled prematurely. To address this, new channels for reuse must be unlocked. 
+Suitable options include retailers that currently only purchase new goods, as well as efficient repair and upcycling 
+services. 
+MAIN SUB-CHALLENGE 1: EXPANSION OF CONVENTIONAL TEXTILE SORTING SYSTEMS: To increase the reliability 
+of the identification of black textiles, multilayers and interfering material, it is critical to enrich the conventional 
+textile sorting systems with appropriate new measurement technologies. If different materials, impurities or 
+production methods of garm ents cannot be adequately detected using conventional measurement technology, such 
+textiles will inevitably harm the purity of the end product. SORT4CIRC will develop textile identification using a vision 
+system to recognise and classify a broader range of textiles, including several optical techniques offering new 
+detection functions (e.g. low-content materials, black C-based textiles, PA6/PA6.6, cotton and linen differentiation, 
+multilayers, etc.). A demonstrator equipped with AI-based algorithms capable of classifying into 15 categories at an 
+industrial speed will be tested first out of line using hyperspectral imaging systems and other methods. 
+For optical techniques, experimental approaches will be mainly based on NIR imaging or spectroscopy. Still, the 
+characterisation of black textiles, particularly those with carbon-based pigments, is very difficult due to the extremely 
+low reflectance of such materials. This issue affects all experimental techniques based on reflection (including NIR 
+spectroscopy/imaging & Raman). The potential of other techniques to solve specific difficult analytical problems 
+will be tested. For example, CEA will perform a spectral analysis ranging from visible to long wave infrared using a 
+Fourier transform infrared (FTIR) to define the best bands to classify carbon black textiles. This will be followed by 
+mounting an adapted MWIR multispectral imaging to classify black textiles. CEA and IOM will also deal with (i) 
+the identification of certain compounds with a minor concentration in the textile, such as elastane (content < 3wt%), 
+(ii) the detection and identification of chemical contaminates such as oils, greases, varnishes, rust, etc., but also 
+moisture (wet textiles), (iii) the detection and identification of finishing agents (e.g. flame retardants) and coatings. 
+For chemometric, AI and ML models, using the selected optical techniques, different types of models based on AI 
+and/or chemometric and statistical approaches will be developed for extracting actionable information to accurately 
+Challenge 1 / Automation of the previously manual PSFS process for PCTs – Tackled in WP2 
+Challenge 2 / Enable automatic sorting in real-time through the development of a textile recognition system – 
+Tackled in WP3 
+[101181988] [SORT4CIRC] Page 15 on 42 Confidential 
+ 
+ 
+identify complex textile waste (multilayer structures, 
+various fabric structures such as woven knitted or non- 
+woven patterns, black textiles, chemical 
+contaminants, coatings and minor components). The 
+models developed will be embedded into an efficient 
+and replicable textile real -time recognition multi - 
+sensor platform. By leveraging high -resolution 
+imaging and AI , the identification system aims to 
+enhance the precision and efficiency of detection, 
+contributing to improved sorting and processing in 
+textile applications. 
+In a first stage (offline), the technical robustness of the 
+AI models (supervised machine learning such as 
+SVMs (Support Vector Machines with different 
+kernels), NNs (Neural Networks) and Decision Trees 
+(e.g. Random Forest) will initially be validated by 
+using relevant benchmark offline train and test 
+datasets including different boundary conditions for 
+which the outcomes are known. This will be combined 
+with a consensus approach to cross -validate using 
+different contrasting techniques: statistical (e.g. PLS- 
+ 
+ 
+Figure 3 - Downscaling concept: from the Fusion Test Bench to 
+a case-wise optimum set-up 
+DA, Regression) vs AI vs human expert. This will allow the quantification of the false/true positives/negatives under 
+different conditions using realistic/representative train and test data. In a second stage (online, once integrated in the 
+multi-sensor platform), the field experiment results will be evaluated by the consensus approach, including human 
+experts in which the automatically generated output labels will be contrasted with expert assigned labels. This will 
+be combined with a DoE (Design of Experiment) to test robustness and reliability under different boundary conditions 
+and combinations (different types of textile materials and properties) which are expected in the real operations 
+environment. 
+Based on the preliminary SORT4CIRC results, the optimum spectral data fusion techniques as described in Figure 3 
+will be defined using innovative hybrid assembling for their configuration into a reliable and cost -effective in-line 
+monitoring solution based on a smart sensing device with automated data acquisition system and ML algorithms to 
+enable real-time data analysis and predictive systems. A leveraged novel Multirange Spectroscopic Platform (VISUM 
+Fusion - IRIS) will measure the predefined critical parameters and indicators. This platform was designed and 
+engineered as a flexible test rig to deliver the most suitable real-time monitoring solution from the following sensing 
+techniques in one comprehensive platform: SWIR spectroscopy, MWIR spectroscopy, NIR spectroscopy, VIS 
+spectroscopy, Raman spectroscopy, Fluorescence and LIBS spectroscopy. This comprehensive experimental unit 
+enables rapid testing with a variety of  spectroscopic techniques to save time in the experimental phase to allow the 
+most suitable techniques to be identified, informing the ‘downscaling’ ( Figure 3) to a compact and affordable 
+industrial inline analytical device that benefits from the common hardware compatible (‘Fusion Core’) of the VISUM 
+Fusion. To further extend the monitoring capabilities, data from off -the-shelf compatible univariate sensors can be 
+fused with the spectroscopy and imaging data related to textile parameters to provide a more robust mathematical 
+model of automatic control of the sorting process. 
+As such, the VISUM Fusion multirange spectroscopic platform will facilitate the effective ‘downgrading’ to the most 
+successful configuration of techniques that will be engineered into a compact, reliable and affordable self-contained 
+inline device for seamless integration into the automatic sorting process line at TXHO (including the mechanical 
+requirements coupling it with the feeding and sorting system currently available at TXHO). The recognition speed of 
+textiles will be around 750kg/h. The chemometric models will be tested and validated through Factory Acceptance 
+Tests (FAT). In addition to multivariate data from spectroscopy analysers, univariate data from available traditional 
+sensors installed in the pilot unit will also be assessed to explore the data fusion opportunities. 
+MAIN SUB-CHALLENGE 2: IDENTIFICATION OF CONTAMINANTS, COATINGS OR CHEMICAL CONTAMINANTS 
+USED FOR FUNCTIONAL TEXTILES: According to the needs imposed by recyclers and, consequently, by the sorting 
+process, categorisation and quality assessment must be carried out objectively. SORT4CIRC will test the LIBS 
+technology, Raman and hyperspectral imaging to identify chemical contaminants or unknown surface substances in 
+the pre- or post-sorting step because such additives could interfere with certain chemical recycling processes. LIBS 
+will be used to identify metal objects and sharp accessories to direct them out of the loop. 
+MAIN SUB-CHALLENGE 3: OPTIMISE THE SORTING AND DISASSEMBLY PROCESS FOR ECO-DESIGNED PRODUCTS 
+WITH DISASSEMBLY CAPABILITIES: The pre -sorting step identifies garments made for disassembly and separates 
+them from the waste stream to enable a subsequent disassembly before recycling. Seamlessly integrate pre-processing 
+
+[101181988] [SORT4CIRC] Page 16 on 42 Confidential 
+ 
+ 
+and post-sorting technologies into a continuous industrial process by using heat-dissolvable bio-based and synthetic 
+stitching threads and thermal disassembly system to enhance the disassembly process, boost recycling yields and 
+unlock new recycling opportunities for previously unattainable textile products. Combining sorting and disassembly 
+technologies will demonstrate higher efficiency and purity levels in the pre -processing of textile products. The 
+automatic disassembly and sorting will be tested on various garment types. 
+MAIN SUB-CHALLENGE 4: BETTER DOCUMENTATION OF THE PROCESS STEPS AND CONTINUOUS QUALITY 
+ASSURANCE OF THE END PRODUCT: Automation has also introduced digital technology into the sorting process. 
+SORT4CIRC will enable recording relevant parameters inline and introduce automatic, continuous documentation of 
+process data and quality assurance. A data management platform will be developed, and data will be acquired from 
+the Multirange Spectroscopic smart sensing system and traditional sensors. In addit ion, other types of information 
+from the garment (i.e. market demand data, DPP and traceability data) will also be collected. All the data will be 
+gathered in a data repository and fused for feeding predictive models developed in this task to obtain action able 
+information and decision-making concerning the actions to be taken for each garment. 
+MAIN SUB-CHALLENGE 1: DEVELOP AN ECO-FRIENDLY & RECYCLABLE CUSTOMISED TTRFID TAG MODEL: 
+The textile DPP methodological implementation will cover all the TVC data from upstream to the end consumer. 
+TTRFID tags with textile products compatibility will be accomplished by developing a specialised RFID tag model 
+tailored for textile applications that is both eco-friendly and recyclable with the help of SCATTERERID project. The 
+RFID tags will store and transmit comprehensive data about each textile item, such as material composition, lifecycle 
+information, and CO2 emissions. The chosen RFID technology will be designed to withstand typical textile processes, 
+including washing and heat exposure. In that sense, there are 7 possible TRL 4 alternatives: a bi-layer of fleece/non- 
+woven17, an embroidering polyamide fully silver-coated HC1218, 2 distinct PCB types (Rogers 3003 and Rogers 58)19, 
+a Taconic board on fleece substrate 20, a Rogers4350 dielectric substrate21, an acrylonitrile butadiene styrene (ABS) 
+substrate22 and a nickel-copper-coated ripstop23. There will be 3 main key points to check: (i) contaminant detection 
+on the final product; even a small amount of TTRFID chip embedded in the fabric could alter the recycling process; 
+(ii) thermal resistance, methanolysis processes require high temperatures (>150°C) and can affect and degrade chips, 
+this needs to be checked; (iii) RFID chip components recycling, to be fully integrated in the recycling process, 
+materials used for RFID manufacturing should be recyclable and do not affect the recycling process. 
+ 
+MAIN SUB-CHALLENGE 2: ENABLE TRACEABILITY OF TEXTILE DATA OVER THE TVC ECOSYSTEM THROUGH A 
+BLOCKCHAIN PLATFORM: The blockchain platform enables the traceability of comprehensive TVC data for 
+concrete analysis and interpretation of the characteristics of textile products for its raw material, production and 
+manufacturing processes and collection and transfer operation to the sorting and re cycling points as illustrated in 
+Figure 4. A tokenised architecture will help realise the sustainable enabled exchange market for textile products. The 
+pre-sorting area will be equipped with suitable reading devices to incorporate relevant information into the decision- 
+making process and process documentation. The architecture will use Algorand, IOTA or Ethereum for its eco - 
+friendly Pure Proof of Stake (PoS) consensus and support for smart contracts over the EBSI platform. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+17 “Fully-Textile, Wearable Chipless Tags for Identification and Tracking Applications,” Sensors (Basel), vol. 20, no. 2, p. 429, Jan. 2020, doi: 
+10.3390/s20020429. 
+18 “A Fibre Embroidered Chipless RFID Tag on Cotton Fabrics for Wearable Applications,” in GLOBECOM 2020 - 2020 IEEE Global 
+Communications Conference, Dec. 2020, pp. 1–6. doi: 10.1109/GLOBECOM42002.2020.9347987. 
+19 “Design Prospects of Parallel U-Shaped Multi-Resonator for Fabric-Based Chipless RFID Tags,” 2023 Innovations in Power and Advanced 
+Computing Technologies (i-PACT), pp. 1–5, Dec. 2023, doi: 10.1109/i-PACT58649.2023.10434598. 
+20 “Compact chipless RFID metamaterial based structure using textile material,” in 2015 International Symposium on Antennas and 
+Propagation (ISAP), Nov. 2015, pp. 1–4. Accessed: Jun. 25, 2024. [Online]. Available: https://ieeexplore.ieee.org/document/7447399. 
+21 “A re-transmitted chipless tag using CSRR coupled structure,” Microsyst Technol, vol. 24, no. 10, pp. 4373–4382, Oct. 2018, doi: 
+10.1007/s00542-018-3836-z. 
+22“Fully Printed Dual-Layer Depolarizing Chipless RFID Tag for Wearable Applications,” IEEE Journal of Radio Frequency Identification, 
+vol. 7, pp. 74–82, 2023, doi: 10.1109/JRFID.2023.3257161. 
+23 “Flexible and Semi-transparent Chipless RFID Tag based on PDMS-Conductive Fabric Composite,” in 2022 International Workshop on 
+Antenna Technology (iWAT), May 2022, pp. 33–36. doi: 10.1109/iWAT54881.2022.9811001. 
+Challenge 3 / Increase the information and its traceability about the origin and content of post-consumer 
+clothes, designing and assessing a tokenisation model for stakeholders’ engagement– Tackled in WP4 
+[101181988] [SORT4CIRC] Page 17 on 42 Confidential 
+ 
+ 
+ 
+Figure 4 – Traceability of TVC ecosystem scope in SORT4CIRC and the tokenisation architecture 
+To achieve this, the blockchain architecture will leverage Semantic Web technologies to enhance data interoperability 
+and machine readability across different platforms. This will involve using Resource Description Framework (RDF) 
+and Web Ontology Language (OWL) to create a shared vocabulary and data model that all participants in the TVC 
+ecosystem can understand and use. By employing these technologies, we ensure that textile data is uniformly 
+interpreted and utilised across various systems and complying with standards like IEC 62264: (ISA -95) and IEC 
+62443: (ISA -99) and ISO 27001 Certification. APIs and standardised data formats will facilitate commu nication 
+between systems, allowing for real -time updates and retrieval of textile data. Blockchain Architecture on 
+Generation 2 or 3 Blockchains. Second-generation blockchains focus on enabling smart contract functionality and 
+decentralised applications (dApps). Key requirements include robust smart contract capabilities, efficient consensus 
+algorithms to reduce energy consumption, high transaction throughput to handle frequent data updates, and secure 
+and scalable infrastructure to support large -scale operations. Third-generation blockchains aim to solve scalability 
+and interoperability issues. Key requirements include advanced scalability solutions to support a high volume of 
+transactions without compromising performance, e nhanced interoperability to facilitate seamless integration with 
+other blockchain networks and legacy systems, improved security features to protect against emerging threats, and 
+sustainable and energy -efficient consensus mechanisms, which are also emphasi sed through other DPP related 
+initiatives like CIRPASS & CIRPASS-2 projects. 
+MAIN SUB-CHALLENGE 3: ENABLE TRACEABILITY OF TEXTILE DATA OVER THE WHOLE TVC ECOSYSTEM 
+CONSIDERING THE RAW MATERIAL AND VERTICAL AND HORIZONTAL INTERACTIONS: Holonic View and 
+Merging Process. Incorporating the Holonic view ensures a holistic approach to data integration and management, 
+facilitating seamless communication and interoperability between diverse systems within the TVC ecosystem. This 
+perspective emphasises the importance of a unifi ed data model and consistent data exchange protocols, which are 
+crucial for successfully implementing a blockchain -based traceability system over the whole TVC, as illustrated in 
+Figure 4. The merging process involves integrating data from various sources through the Holonic structure of 
+tokens, enabling the TVC coverage for elements and even Energy and CO 2 emissions through the whole TVC and 
+ensuring consistency and accuracy across the blockchain. This includes aligning data formats, standardising 
+protocols, and implementing robust data validation mechanisms. Integrating IoT and blockchain technologies will 
+enable real-time data capture and tr ansmission, ensuring that all relevant information is accurately recorded and 
+shared across the ecosystem. The system will (i) enhance transparency a nd trust, (ii) enhance security and privacy, 
+and (iii) enable comprehensive data tracking. Developing interfaces to connect the DPP data retrieval system with 
+automated sorting machines, ensuring seamless data exchange. This will be achieved using APIs and standardised 
+data formats, such as JSON or XML, to facilitate communication between systems, allowing for real -time updates 
+and retrieval of textile data. IoT sensors and readers will be deployed at various stages of the sorting process to 
+automatically capture and transmit data from TTRFID tags to the DPP system. The data retrieved from the DPP will 
+inform sorting decisions, such as identifying textiles suitable for recycling, reuse, or disposal. The data from the DPP 
+will be accessible to all relevant stakeholders within the TVC ecosystem. 
+The integrated system will ensure compliance with environmental regulations and sustainability standards, providing 
+
+[101181988] [SORT4CIRC] Page 18 on 42 Confidential 
+ 
+ 
+detailed reports on textiles' lifecycle and environmental impact. It will also track and document the reduction of CO2 
+emissions and other environmental benefits achieved through the automated sorting and recycling processes and scale 
+with increasing volumes of textiles, ensuring it can handle large amounts of data and high throughput of items. 
+Flexibility in the system design will allow for easy updates and adaptations to accommodate new sorting technologies, 
+regulatory changes, and evolving industry practices. For example, if pre -sorting is required to distinguish specific 
+categories of garments, this query can be defined over the DPP smart contract. Another query could be designed for 
+sorting in recycling to distinguish between multi-layer and single-layer garments or to identify different percentages 
+of cotton and synthetic blends. This could be integrated into a token economy to incentivise sustainable practices 
+and track environmental impacts within the TVC ecosystem. In the tokenised model, each participant within the TVC 
+must purchase tokens to gain permission for CO2 emissions and energy consumption. These tokens function similarly 
+to credits that must be authenticated and verified through blockchain transactions. The  process begins with each 
+stakeholder buying an initial set of tokens proportional to their projected emissions and energy usage. These tokens are 
+stored in a digital wallet and managed on the DPP blockchain, providing a transparent and immutable record of all 
+transactions and balances. The PoS  consensus mechanism will be employed  to enhance the eco -friendliness and 
+efficiency of the DPP blockchain. Stakeholders will stake their tokens, and validators will be  chosen to add new 
+blocks based on the number of tokens they hold. This method reduces the computational power required compared to 
+traditional proof-of-work systems, aligning with the environmental goals of the project. The tokenised system also  
+includes a PoC phase  to validate the practical implementation of this model. During the PoC, selected  participants 
+will use the system in a controlled environment to test the accuracy of IoT data integration, the functionality of smart 
+contracts, and the overall user experience. Feedback from this phase will be crucial in refining the system before a 
+full-scale rollout. Smart contracts will automate the management and verification of tokens. For example, when a 
+firm emits CO 2 or consumes energy, smart contracts automatically deduct the appropriate number of tokens from 
+their digital wallets. DPP enabler for DfD solutions to facilitate recycling and reuse of textiles. This includes the 
+development of guidelines and technologies that enable easy disassembly of textile products using insights from DPP 
+TVC data. Implementing layering strategies where different materials can be easily separated ensures that each layer 
+can be processed individually during recycling. DPP model should enable labelling and information inclusion. 
+TTRFID and the QR codes should be integrated to provide detailed information about the materials and construction 
+techniques used in the product. Developing user manuals that include instructions for efficient and safe disassembly 
+further supports this initiative. In terms of technology, analysing the DPP historical data over TVC should highlight 
+the DfD principles, including the self -disassembling materials, which change properties under specific conditions 
+and can also facilitate easier disassembly. 
+ 
+MAIN SUB-CHALLENGE 1: EXISTING SYSTEM IMPLEMENTATION: 
+Once the test phases of the pre-sorting pilot and the extended sorting 
+system for recycling have been successfully completed, they must be 
+implemented in the existing production lines. This requires both the 
+connection of the control technology to the higher -level system 
+control and to the material feed system. In addition, the new sorting 
+unit must be integrated into the output of the pre -sorting pilot, with 
+which the garments classified into 15 categories can be specifically 
+sorted into 16 different containers (Figure 5). 
+MAIN SUB-CHALLENGE 2: DEMONSTRATE THE OPERATIONAL 
+CAPABILITIES OF THE ADVANCED SORTING AND PRE-SORTING 
+LINES: The existing pre - and sorting line will be expanded and 
+adapted with suitable additional measurement technology and sensors 
+with integrated monitoring to demonstrate automatic high -volume 
+textile treatment (speed 1m/s) with increased reliability of black 
+clothing identification and disruptive materials and the ability to adapt 
+the quality of the source textile material to the future requirements of 
+mechanical and chemical/enzymatic recycling companies. The 
+integration could be carried out in a two-stage process. First, the pilot 
+plant is set up near the existing manual pre -sorting system and 
+supplied with material offline via a bypass. In this way, the old 
+production process is not hindered, tests can be carried out, and 
+improvements can be made independently at the pilot plant. The pre- 
+sorting system will identify the material, sort it into 15 defined 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 5– New sorting unit to classify 
+garments into 18 containers 
+material types (fitting the actual categories at TXHO facilities) and fill it into 18 separate containers (including a 
+waste/unidentified container and 2 “buffer” containers to facilitate container exchange without stopping sorting - 
+Challenge 4 / Demonstrate the automatised PSFS and PSFR pilot system – Tackled in WP5 
+
+[101181988] [SORT4CIRC] Page 19 on 42 Confidential 
+ 
+ 
+Figure 5). Technical drawings and design documents for the sorting plant, as well as hall plans, are already available 
+[101181988] [SORT4CIRC] Page 20 on 42 Confidential 
+ 
+ 
+in full. The system can also be equipped with modules containing conveyor belts for material transport and stable 
+frames for the mechanical mounting of measuring devices or RFID detectors. After the successful test phase, the 
+manual pre-sorting system coul d be replaced by the pilot system and automated sorting process. TTRFID will be 
+deployed in the demonstrator, including various categories like textile products with different materials (cotton, 
+synthetic and DfD -enabled heat-dissolvable bio-based stitching thread) and production technologies (one -layer or 
+multi-layer). The required infrastructure will include gates and readers for communicating data with TTRFID. 
+MAIN SUB-CHALLENGE 3: VALIDATION OF ALL TECHNOLOGIES BY RECYCLERS: 
+Chemical Recycling: The chemical 
+recycling process developed by RECY allows 
+the treatment of complex textiles containing 
+polyester. This process selectively 
+depolymerises (recycles) polyester without 
+damaging the other co -materials present 
+(elastane, polyamide, cotton) ( Figure 6). 
+Several tests will be run during the project to 
+assess that the quality of the sorted feedstock 
+reaches the recyclers' requirements: at 
+laboratory phase: tests on 10 -100g of textile 
+waste /batch and at pilot scale with different 
+sizes: (i) 30L: tests on 1-2kg of textile/batch; 
+(ii) 100L: tests on 6-10kg of textile/batch and 
+(iii) 1000L: tests on 50-80kg of textile/batch. 
+At the end of the process, the final products 
+obtained are monomers from the polyester 
+part that could be repolymerised to obtain 
+recycled polyester pellets and separated pure 
+co-materials that are reusable/recyclable. A 
+larger test scale (1000L) will provide results 
+closer to those of an industrial-scale process. 
+Mechanical Recycling: Purfi developed a 
+Figure 6– Chemical recycling process 
+unique recycling technology, soft mechanical recycling, that offers a solution to conventional recycling technologies. 
+The process is called the rejuvenation of fibres, as Purfi tries to restore them to parameters likQqaa 11B virgin 
+materials. Rejuvenated fibres can be reused to manufacture high-quality clothing. With an existing line of 150m and 
+a capacity of up to 8 tonnes daily, it is ready to be scaled up to industrial levels. In-house tests on different parameters 
+help maintain the requested parameters. The overall SORT4CIRC sorting process will give access to high -quality 
+feedstock for all kinds of recycling (Figure 7). 
+ 
+Figure 7 – Pathway to all recycling options 
+ 
+ 
+MAIN SUB-CHALLENGE 1: LCI DETERMINATION AND ECONOMIC AND ENVIRONMENTAL IMPACT ASSESSMENT: 
+All the inventory data required for the techno-economic and environmental impact calculations for both the existing 
+and the SORT4CIRC process will be based on the mass and energy balances depicted on the corresponding process 
+Challenge 5 / Analysing TEF and LCA of upscaled processes along with BMs to ensure actual implementation 
+of the innovative solutions – Tackled in WP6 
+[101181988] [SORT4CIRC] Page 21 on 42 Confidential 
+ 
+ 
+flow diagrams (section 2.1.7- Figure 9). MAIN SUB-CHALLENGE 1: LCI DETERMINATION AND ECONOMIC AND 
+[101181988] [SORT4CIRC] Page 22 on 42 Confidential 
+ 
+ 
+ENVIRONMENTAL IMPACT ASSESSMENT: All the inventory data required for the techno -economic and 
+environmental impact calculations for both the existing and the SORT4CIRC process will be based on the mass and 
+energy balances depicted on the corresponding process flow diagrams (section 2.1.7 - Figure 9). The Technico - 
+Economic assessment (TEA) will determine the economic feasibility of the SORT4CIRC process. The equipment cost 
+estimation will be based on data provided by the respective partners. An extrapolation of the calculated equipment 
+cost to the year of the unit construction (using the appropriate cost indices) will be followed. CAPEX and OPEX 
+(considering the applied operating conditions) will be estimated for both SORT4CIRC and the conventional sorting 
+process. The findings will also serve as input to the DPP token economy model. 
+To estimate the SORT4CIRC value chain environmental performance, a LCA will fully comply with ISO14040 and 
+14044 standards. The boundary limits determine the applied methodology for the environmental assessment. Initially, 
+an ex-ante, attributional, gate-to-gate approach (starting from the point of receiving the textile – and ending at the 
+point that the textile is ready to leave the sorting facility) will be employed to estimate the direct impact of replacing 
+the existing sorting process by the innovative SORT4CIRC process. Subsequently, an ex-ante, consequential cradle- 
+to-cradle LCA study will be performed to estimate the sequential impact and track the benefits derived from the 
+implementation of the SORT4CIRC process to the whole value chain of the textile recycling process. Thus, the 
+boundary limits will be expanded, including all the upstream (collection and transportation) and downstream 
+(distribution, recycling, etc.) processes. The downstream processes depe nd on the further processing the sorted 
+textiles (upcycling/downcycling/burning). The LCI data of all foreground and background processes will be modelled 
+using the ecoinvent database v3.10. To quantify the environmental impacts and be aligned with the European 
+Directives, the EU recommends applying the Environmental Footprint v3.1 method. Uncertainty analysis will also 
+be applied to examine the accuracy of the environmental i mpact assessment. The purpose is to quantify the output 
+values’ fluctuation (quantification of the error margin), which derives from the volatility or lack of knowledge of the 
+input data, by developing non -linear uncertainty models and estimating statistic al quantities of interest. Therefore, 
+the 1st step will identify potential errors and pitfalls propagated to the output calculated values. 
+The economic and environmental analysis will eventually enable fair technology benchmarking of the developing 
+SORT4CIRC process against other state-of-the-art sorting processes, including the existing one deployed by TXHO. 
+Data about relevant technologies will be gathered through a literature review, and the key comparators will be 
+defined. This comparison will help us to d etermine the breakeven sorting cost, identify the competitive position of 
+the SORT4CIRC sorting process within the market and define the areas of improvement. 
+MAIN SUB-CHALLENGE 2: DESIGNING INNOVATIVE BMS SECURING VIABLE CIRCULARITY OF COLLECTED 
+TEXTILES OVER LONG-TERM THROUGH ECONOMIC EFFICIENCY: The TVC involves many stakeholders, including 
+producers of new clothes, consumers, collectors, sorters, and recyclers. SORT4CIRC introduces new technology - 
+driven features into this value chain, enhancing the efficiency of circularity by improving the sorting process for 
+collected textiles. In turn, this supplies the post-consumer TVC with higher-quality and greater quantities of materials 
+suitable for reuse or recycling while also opening new business opportunities that require precise configurations and 
+strategic decision-making. Addressing this business challenge effectively requires the development of innovative 
+BMs that establish the framework for stakeholder interaction and coordination throughout the value chain, which are 
+essential for business success and viability. A key challenge to address in the future is determining the quantity of 
+sorted re-wearable clothing to be distributed in the market considering the market demand, establishing appropriate 
+pricing, and identifying the most effective sales channels. Another critical issue is assessing the financial viability of 
+selling second-hand clothing alongside new collections for companies adhering to the EPR policy and evaluating 
+how this policy might impact profitability. Understanding and analysing consumer behaviour regarding new 
+collections and second -hand clothing is crucial, which necessitates further investigation. To overcome these 
+challenges and to develop robust BMs, SORT4CIRC will apply analytical techniques (e.g., game -theoretical model) 
+considering critical factors (e.g., market demand, market competition, consumer behaviour, price, etc.), which 
+enables us to discover an efficient setting for the circularity of the sorted textile. 
+MAIN SUB-CHALLENGE 3: OPTIMISING THE DESIGN AND OPERATION OF THE AUTOMATED SORTING SYSTEM 
+FOR ENHANCED EFFICIENCY: Capacity planning of the new sorting system is challenging and crucial to ensure the 
+system can handle expected volumes without bottlenecks. This includes accurately determining the number of 
+facilities and staff, designing a practical layout, ensuring smooth human -machine interaction, and optimising task 
+assignment and line balancing. To overcome this challenge, SORT4CIRC will apply a systematic, stepwise, and 
+recursive approach, where each relevant facility design problem, including equipment selection, staff requirements, 
+facility layout planning, and line balancing, is first dealt with separately in a reasonable sequence, mainly through 
+the optimisation modelling techniques (e.g., mathematical programming). Collecting and combining the results from 
+solving these problems leads to an initial system design. In the second stage, a fine-grained simulation model of the 
+initially designed sorting system will be developed using FlexSim © Simulation software to assess the system's 
+operational efficiency. This model can mimic the behav iour of a real -life sorting system by capturing detailed 
+characteristics and incorporating dynamic and stochastic elements. The developed simulation model enables us to 
+[101181988] [SORT4CIRC] Page 23 on 42 Confidential 
+ 
+ 
+primarily verify whether the designed sorting system operates smoothly and efficiently and to reveal any existing 
+bottlenecks. Thus, if the designed system does not meet the design requirements and key performance indicators 
+(KPIs), we can adjust the model  parameters directly in the simulation model based on the experts' opinion or by 
+tuning the model’s assumptions serving the simulation model. This recursive loop continues until we develop a 
+system that fits requirements and satisfies the KPIs. The applic ation of the simulation model is polyvalent in this 
+project and is not limited to bottleneck identification and system efficiency checks. This model is also employed in 
+comparative studies to evaluate the existing sorting system against the automated, tech nology-integrated system 
+SORT4CIRC aims to develop. The visual and dynamic aspects of the simulation model are also precious in making 
+complex systems more straightforward to understand, facilitating communication with stakeholders, and gaining 
+insights into the system's behaviour under various conditions. 
+1.2.2 Relations with other projects  
+Part. 
+Project – year Link to SORT4CIRC 
+TXHO 
+ 
+ 
+ 
+ 
+ 
+Refashion 
+2024 - 2025 
+The “Material Sorting & Preprocessing and Recycling Experiments” is a collaborative initiative led by 
+Refashion, French national EPR organization, that aimed at accelerating the development of industrial - 
+scale recycling solutions for post-consumer textiles and footwear, in line with broader circular economy 
+goals. 
+The project brings together actors from across the textile value chain to test and refine innovative 
+approaches—such as optical sorting, advanced preprocessing and quality control —that improve the 
+alignment between collected materials and recyclers’ technical requirements. 
+Since 2024, TXHO has taken part in the project and contributed to 31 experiments. These experiments 
+have focused on evaluating the recycling potential of optically sorted fractions, including polyester, 
+cotton, viscose, polyamide, rubber and synthetics. 
+TXHO is an active member of Refashion and will share the knowledge for enriching the textile value 
+chain systematic points in SORT4CIRC. 
+RECY REGIOGREEN 
+TEX 
+2023-2026 
+Promoting collaboration in research and development for the textile industry to establish a systematic CE 
+BM across the EU. 
+CEA MISTERY 
+2022-2023 
+It aimed to find out if hyperspectral imaging in the NIR or SWIR domain can improve textile material 
+identification and assess this technique's potential to identify the blend composition, detect low 
+percentages of elastane and differentiate between PA6/ PA6.6. 
+ 
+CIRPASS & 
+CIRPASS-2 
+2022-2027 
+CIRPASS prepared the ground for the gradual piloting and deployment of the DPP and developed 
+roadmaps for prototypes in three value chains: electronics, batteries and textiles. CIRPASS -2 will 
+demonstrate functioning DPP in real settings through circular pilot deployments and use cases in textiles, 
+electrical and electronic equipment, tyres and construction value chains. SORT4CIRC will benefit from the 
+resources provided in these projects and validate its outcomes based on the use cases for the textile 
+industry. 
+CU REFA  
+Fashionsort.ai 
+2023-2026 
+The project partners TU Berlin and circular.fashion develop a sorting machine that enables automated 
+sorting for reuse (including quality). We are preparing the IP transfer from these two project partners to 
+reverse.fashion, the IP transfer should be finalised by the start of SORT4CIRC. The project’s developments 
+are the basis for the sorting developments described in this project. 
+PURFI 
+tExtended 
+2022-2026 
+It aims to provide feedstock for circularity and demonstrate how a CE can only be made possible with 
+automated sorting. In addition, it aims to increase the adoption of mechanical and chemical recycling 
+through innovative approaches. 
+IRIS  
+WHITECYCLE 
+2022-2026 
+It will introduce a two -fold process that will allow the conversion of PET waste into high -added-value 
+products. It will be demonstrated in a series of real cases in preparation for market uptake for high-added- 
+value applications (including multi -material textiles). IRIS is working on recognising PET within 
+multilayer textiles and obtaining successful results for specific garments. 
+CEF 
+Fibersort: 
+Closing the loop 
+in the textiles 
+industry 
+2016 - 2019 
+The two main challenges are the environmental need to reduce the impact of virgin textile materials and 
+the development of new BMs and open markets for the growing amounts of recyclable textiles in North- 
+West Europe. It expects to realise the implementation of Fibersort technology as the new industry standard 
+and key value-adding step to enable high-value textile-to-textile recycling in the region. 
+SOLSTICE 
+2024-2027 
+Demonstration of 4 innovative chemical recycling technologies (TRL7) able to recycle efficiently, in mild 
+conditions, part of the major streams of polymers in textiles, and subsequent transfer of the by -products 
+between demonstrators for relevant integration. 
+CU SCATTERERID 
+2018-2024 
+It seeks to eliminate the human presence in the product identification process. One of its primary 
+objectives is to automate the product identification process by developing RFID tags. In the next phase, 
+the project aims to create environmentally compatible tags while also reducing costs and power 
+[101181988] [SORT4CIRC] Page 24 on 42 Confidential 
+ 
+ 
+2020/852 by 
+  consumption through design improvements. A key outcome of this project is the development of chipless 
+passive RFID tags. SORT4CIRC will benefit from the chipless RFID models that enable the TTRFID 
+model. 
+1.2.3 Do Not Significant Harm Principle  
+SORT4CIRC will adhere to the ‘do no significant harm’ principle of the EU Taxonomy Regulation (EU) No 
+promoting the automation of textile sorting, allowing a circularity in this sector, reducing the 
+environmental impact of textile manufacturing, in terms of resource consumption, and impact on biodiversity. 
+1.2.4 Interdisciplinary  
+SORT4CIRC is based on strong interdisciplinary cooperation between all partners, with expertise in sorting, 
+recycling,   reuse,   technology   development   (AI,   NIR,   DPP,   hyperspectral   system),   and 
+environmental/economic/societal impact assessment. SORT4CIRC counts on a strong involvement of industry (3 
+including the coordinator) and SMEs (5) among the 14 partners. In SORT4CIRC, data mining, knowledge modelling, 
+and multicriteria optimisation with uncertainty will used by applying existing AI techniques or developing new 
+algorithms. Industrial involved partners have the necessary computational intelligence competencies to apply AI 
+technologies. They will comply with the underdeveloped legal framework of the AI Act in the EU  to guarantee the 
+safety and fundamental rights of people and businesses in TVC. 
+1.2.5 Gender Dimension  
+The SORT4CIRC project consortium understands the gender dimension to be a key part of the definition of our vision 
+of diversity and equal opportunities. The consortium understands, values, and promotes diversity as a matter of 
+principle, pursuing the goal of equal opportunities. For this reason, the SORT4CIRC project organisation, execution, 
+and results are suitable for all individuals regardless of their gender identity, sex, age or ethnicity. Technology 
+expertise, academic and professional backgrounds, and relevant job skills are the only criteria for being part of the 
+SORT4CIRC consortium, which comprises both men and women. Moreover, the gender dimensions of the project have 
+been further assessed using the Engineering Checklist from Gendered Innovations 24. The end users of SORT4CIRC 
+results will be textile sorters. Traditionally, textile sorting often employed a significant number of women. 
+Automation could lead to job displacement, disproportionately affecting women holding these positions (80% of the 
+world’s garment workers are women25). However, automation will require new skills, such as operating and 
+maintaining automated systems. This shift could create opportunities for both men and women, regardless of gender, 
+to upskill and transition into more technical roles. All end users alike expect CE in textiles to be easily accessible. 
+All innovations in this area will be equally relevant and available to both men and women. The main application area 
+is textile sorting in the EU. As explained above, the textile sector is female-dominated. However, SORT4CIRC will 
+ensure technological development  suitable for all individuals regardless of gender identity, sex, age,  or ethnicity. 
+Finally, it is important to restate that for the SORT4CIRC consortium, the diversity issue goes beyond gender equality. 
+SORT4CIRC strives for the goal of equal opportunities without room for any discrimination. For this purpose, an 
+interdisciplinary team has been assembled, and a cooperative work process is strived for as the basis for achieving 
+successful project work. 
+1.2.6 Open Science Practices  
+An important role is open access and dissemination of the main experience and knowledge analysed by the 
+consortium and the replicability of the results of SORT4CIRC. The FAIR Research Data Management approach 
+outlined in the following section will foster open, cooperative work and more efficient knowledge exploitation during 
+and after the project. That will be carried out by sharing as much as possible collected data and knowledge within 
+the project with the consortium members and actively participating in panel discussions, workshops, and conferences, 
+where appropriate, respecting the sensitive nature of some of the project outcomes. SORT4CIRC will specifically link 
+to any relevant activity within the ECOSYSTEX community to share best practices along the sustainable TVC. Data 
+available on the project website will be stored in the most open and common formats possible. Scholarly publishing 
+– collected results and findings within the SORT4CIRC project will be available online to anyone interested via i) 
+publishing in scientific journals and ii) disseminating the results via social networks (LinkedIn) when this complies 
+with IPR. Accelerate innovation & ensure market uptake: Overcome the barriers that innovative companies might 
+have in adopting SORT4CIRC technologies. For instance, sharing openly crucial data such as scientific publications 
+and white papers for policymakers. 
+ 
+ 
+ 
+24 http://genderedinnovations.stanford.edu/methods/engineering_checklist.html 
+25  https://www.fairtrade.net/news/the-women-who-make-our-clothes-are-invisible-its-time-to-change-that 
+[101181988] [SORT4CIRC] Page 25 on 42 Confidential 
+ 
+ 
+1.2.7 Research Data Management  
+SORT4CIRC will ensure the data is managed responsibly and in line with the FAIR – Findable – unique DOI per 
+dataset, as well as the use of keywords. Research data will be searchable online (public reports, project website, 
+communications, etc.); Accessible- SORT4CIRC’s SharePoint will allow accessibility for at least 20 years, together 
+with corresponding sources of that data and contact information from the data contributors; all data described in the 
+Table 1 will be in open access. Interoperable- The published data will be mainly in open or widely used formats 
+(Excel, Word, PDF, etc.) to boost interoperability (formats: Code files, PDF, Word, Excel). The developed DPP 
+platform in data management and sharing will comply with EU software development legal and non-legal mandatory 
+requirements and issues like privacy in compliance with the General Data Protection Regulation (GDPR) and the 
+ePrivacy Directive. The DPP platform will be shared via open repository platforms for public usage and extensions, 
+fulfilling the European Commission Open -source software strategy 2020 -2023. Reusable- Facilitate knowledge 
+transfer among multidisciplinary groups to promote maximum replication on a European scale and beyond. The main 
+data types of the project are experimental data from laboratory experiments and pilot set-up, LCA reports, guidelines 
+for LCA studies, publications with supplementary data, reports and demonstrators/pilot lines, and AI -driven 
+prediction models. During the project duration, all data will be stored on a centralised file storage system 
+(SharePoint®), which has daily automated backups and can be accessed via a secure VPN. Different levels of access 
+rights and security measures applying to different drives will be granted according to data sensitivity. General 
+guidelines for data management will be available within each relevant WP. 
+Table 1 – Research data management (F=Findability; I=Interoperability; R= Reusability; C=Curation) 
+ 
+Type F I R C 
+Numerical 
+collected/generated data as 
+research input/output 
+Patents and 
+publication 
+s 
+The data will be released 
+according to the standards set by 
+the publishers 
+Can be re-used by 
+researchers and 
+practitioners. Such data 
+are included in the 
+articles or can be found 
+through a provided link 
+on publishers’ websites. 
+Institutional repositories 
+improve their 
+discoverability and 
+guarantee long-term 
+access. 
+RGB images of garments for 
+type identification (<10GB) 
+Online 
+repository 
+General image format PNG with 
+metadata 
+Institutional repositories 
+Spectral dataset of garment 
+types (<200MB) 
+Spectra data in a JSON or CSV 
+format with metadata 
+TTRFID assessment and 
+technology data 
+Work with industry-specific 
+standards for RFID in textiles, 
+such as those from GS1 or 
+EPCglobal, to ensure alignment 
+between different stakeholders. 
+Blockchain architecture 
+design and performance 
+metrics 
+Leverage interoperability 
+frameworks; smart contracts 
+capable of operating across 
+multiple blockchain networks; 
+Use standardised abbreviations 
+across all blockchain networks. 
+Regularly perform 
+compatibility testing to 
+ensure that your 
+blockchain systems 
+remain interoperable 
+and that any issues are 
+promptly identified and 
+addressed. 
+Specialised blockchain 
+repositories such as 
+Hyperledger and 
+Ethereum’s Swarm. 
+DPP data retrieval 
+integration results 
+Online 
+repository 
+(e.g. IEEE 
+Xplore and 
+SpringerLi 
+nk) 
+Harmonisation of data protocols 
+ensures that data can be 
+accurately retrieved and 
+integrated across different 
+platforms without losing 
+integrity. 
+The modular design and 
+interoperability 
+frameworks facilitate 
+seamless integration and 
+reuse across different 
+data protection systems. 
+Data will be deposited 
+in institutional 
+repositories, such as 
+LinkedIn, and project- 
+specific platforms like 
+the European Product 
+Database for Energy 
+Labelling (EPREL) 
+Tokenised ecosystem 
+development data 
+Online 
+repository 
+(e.g. SSRN 
+and arXiv) 
+Use of collaborative platforms 
+like GitHub. Regular compliance 
+checks with financial regulations 
+across different jurisdictions. 
+Adhesion to 
+tokenisation protocols, 
+maintenance of 
+comprehensive 
+development 
+documentation, and 
+implementation of open 
+access policies. 
+Repositories like IPFS 
+and Arweave. 
+Public repositories and 
+financial data 
+repositories like 
+CoinMarketCap. 
+Detection of Elasthane and 
+other components with low 
+content, chemical 
+Publication 
+s with DOI 
+Word, PDF, PowerPoint file Open data Secure digital storage 
+(internal), repositories 
+[101181988] [SORT4CIRC] Page 26 on 42 Confidential 
+ 
+ 
+contaminates, finishing 
+agents, and coating. 
+    
+#§CON-MET-CM§# #§COM-PLE-CP§# #§REL-EVA-RE§# 
+[101181988] [SORT4CIRC] Page 27 on 42 Confidential 
+ 
+ 
+must increase 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 8 - SORT4CIRC roadmap 
+2 Impact 
+#@IMP-ACT-IA@# 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SORT4CIRC roadmap ( Figure 8) is 
+established to quantify the project 
+impacts. By the end of the project in 
+2028, SORT4CIRC technologies will 
+have reached TRL 5 -6 and, thanks to 
+TXHO involvement, will be ready to 
+be validated, scaled up and replicated. 
+It is estimated that by 2032, the TRL of 
+SORT4CIRC technologies will have 
+reached TRL9 and will be ready to be 
+commercially available. SORT4CIRC’s 
+innovations will have spread across 
+Europe, having a concrete impact on 
+the textile sector by increasing the 
+recycling of PCT, decreasing sorting and recycling costs, as well as CO2 emissions by decreasing the culture and 
+exploitation of new fibres and using recycling ones. 
+SORT4CIRC delivers an automated sorting system, proper detection of materials and blends in textiles, in single and 
+multilayer textiles, a high precision level for garment classification and pre- and post-disassembly sorting processes, 
+with a DfD. Today, the project’s sorter can sort 5.25 tonnes/day (operating time ≈ 7.5 h/day, 750 kg/h) with current 
+settings and manual sorting. SORT4CIRC will contribute to improving the business case by offering an automated 
+sorting and identification of non -wearable textiles fittin g current/future (mechanical, thermo -mechanical, 
+chemical/enzymatic) recyclers specifications and quality requests and ultimately increase the quantity and added 
+value of fibre -to-fibre transformation of PCT waste. SORT4CIRC will transform PCT waste into high -quality 
+secondary raw materials, even if the quality of products put on the primary market decreases due to fast fashion. 
+From the total sorted textile, considering manually and automatically, the amount of secondary high -quality raw 
+material is expected to reach 980 kg/h by the end of the project. SORT4CIRC will use its textile DPP as a revealing 
+spotlight on the textile production path, making it transparent and traceable. DPP yields two pivotal impacts: DPP 
+streamlines 90% of the sorting process during the collection of waste textiles, freeing up existing d evices for 
+subsequent sorting stages; the comprehensive data provided by DPP covering the textile production process, energy 
+consumption, CO2 emissions, and raw materials usage, fuels detailed analyses. These insights play a crucial role in 
+reshaping the TVC, promoting a more recyclable/sustainable approach to industry practices, and enabling more 
+effective collection for sorting strategies. The blockchain backbone provides a token economy model for the 
+circularity of textile ecosystems. 
+Scale and significance: 2027(project end) 2030 2035 2040 
+Secondary high-quality textile raw material (kg/hour) 980 1960 3920 3920 
+Number of pilots (Europe/Worldwide) 1 2 10 20 
+Total (tonnes/year considering 7h/day - 312 days/year) 2,140.32 8,561.28 85,612.8 171,225.6 
+Textile Sorting & recycling Tokenised economy market scale 
+(K€/year)26 1,222 5,137 51,367 102,735 
+Textile CO2 footprint in TVC traced by the tokenised DPP (Kg/year)27 53,500 214,000 1,284,175 2,568,375 
+2.1.2 Outcome 3: Increased uptake of mechanical recycling solutions that deliver competitive, high-quality 
+secondary materials 
+SORT4CIRC will unlock the current technological gaps in textile sorting through automation of textile classification, 
+categorisation and composition definition, decreasing the overall sorting cost and giving access to recyclers to 
+affordable raw materials, thus making recycled textiles competitive and high -quality at the same time. An input of 
+highly pure textiles of good quality will be a first step to obtaining a fraction of spinnable fibres used in a new textile 
+product at a low cost and a lower environmental footprint. Using higher -quality textile waste as feedstock by 
+mechanical recyclers will lead to higher -quality and longer recycled fibres without additional fibres (e.g., virgin 
+cotton or polyester recycled) for creating new yarn. SORT4CIRC will greatly impact mechanical recyclers, providing 
+them a substantial volume. Recycler sorting lines their capacity and multiply the number of pilots 
+ 
+26 McKinsey & Company, https://vb.nweurope.eu/media/19019/2207-scaling-textile-recycling-in-europe-turning-waste-into-value.pdf 
+27 https://www.eea.europa.eu/publications/textiles-in-europes-circular-economy 
+2.1.1 Outcome 1 and 2: Roll-out of systemic solutions for textile sorting, using innovative digital technologies 
+and facilitated disintegration to be incorporated in product design as an enabler for recycling
+2.1 Project’s pathways towards impact 
+[101181988] [SORT4CIRC] Page 28 on 42 Confidential 
+ 
+ 
+across Europe and Worldwide to respond to this upcoming stream. Scale and significance: By closing the loop, 
+SORT4CIRC will allow mechanical recyclers to access a mature technology with favourable economics, up to 50% 
+total cost reduction, delivering competitive and high-quality secondary raw materials. 
+ 
+SORT4CIRC aims to revolutionise textile recycling and will be the major game -changer by delivering well-defined, 
+disassembled and sorted raw materials as input to all kinds of recyclers. This will close the loop of the textile industry, 
+provide environmentally friendly materials, reduce dependence on non-renewable resources, and minimise water and 
+energy consumption. Globally, the fashion industry consumes an estimated amount of 79 billion cubic metres of fresh 
+water annually. Water is used for growing and producing fibres (the greatest quantity of water) and when dyeing, 
+finishing and washing clothes28. In addition, high volumes of water are contaminated with chemicals throughout these 
+operations. Today, most of the recyclers can only recycle pure products.  SORT4CIRC will lead to a wide  range of 
+recycled raw materials and optimising their use. Indeed, the project’s partners can separate contaminants, dyes and 
+then polyester or cellulose from mixed materials (cotton, polyamide, elastane, etc.) using soft conditions without 
+degrading them, providing clean materials to other recyclers that could handle them. It could give them access to a 
+large amount of high -quality feedstock, particularly for chemical/enzym atic recyclers they need to become cost - 
+competitive. Indeed, unlocking the potential of clearly identified blended textiles empowers recyclers to efficiently 
+separate diverse materials, yielding pure, high -quality resources ready for recycling. Scale and significance: On 
+average, approximately 200 L of water are required to produce l kg of textiles 8; based on this, we can approximate 
+the water consumption avoided by using SORT4CIRC technologies to sort and recycle waste textiles: 428,064 m3/year 
+by 2027, 1 ,7M m3/year by 2030, 17M m 3/year by 2035, 34M m 3/year by 2040. Considering today’s textile waste 
+(92M tonnes/year), 38% is treated in the valorisation process, 28% is incinerated with recovered energy, and 34% is 
+landfilled. Based on the average carbon impact of landfill and incineration (+0.741 kg CO2 eq/kg of fibre), 68M tonnes 
+CO2 eq/year could be avoided using SORT4CIRC technologies. 
+ Natural fibres (58%) Artificial fibres (42%) Average 
+Landfill (kg CO2 eq/kg of fibre) – 55% +1.38 +0.12 +0.75 
+Incineration (kg CO2 eq/kg of fibre) – 45% -0.12 +1.91 +0.73 
+2.1.4 Target group 
+Brands/manufacturers: (≈143,000 EU companies) Sustainability is a key concern for brands in the textile industry. 
+Automated sorting systems can help efficiently recycle/reuse textile materials, thereby reducing waste and 
+environmental impact. They are committed to sustainability initiatives and can leverage automated sorting to support 
+their goals. Collectors/sorters: (≥ 9 main EU actors + charities) Automated sorting systems can significantly increase 
+productivity and efficiency. They allow them to handle larger textile volumes and  potentially increase their earning 
+through performance-based incentives. Sorting technologies will turn waste into valuable feedstock. Recyclers: (≥ 
+84 EU companies) Chemical, thermo -mechanical and mechanical recyclers would be interested in getting well - 
+defined sorted feedstocks for their recycling processes. Disassemble d feedstocks (no more hard points and 
+multilayers) will make recycling easier. Policymakers/regulators: Local, national, and international policymakers 
+will advocate for policies supporting the responsible development/deployment of SORT4CIRC technologies. 
+Consumer associations: SORT4CIRC promotes sustainable product recycling; consumer associations will raise 
+awareness, empower consumers to make more informed purchasing decisions and participate in recycling initiatives. 
+2.1.5 SORT4CIRC's unique contribution to wider scientific impacts  
+Creating high-quality new knowledge and improving innovation capacity: Increase the quality and quantity of 
+upcycling fibre-to-fibre recycling. Strengthening human capital in research and innovation: Process automation is a 
+great opportunity to add value to human capital, switching from repetitive manual handling/sorting to better-qualified 
+process operators. Such jobs will require higher qualifications/diplomas, increasing the education of EU citizens and 
+promoting EU training programs to master such skills. The increase in the textile waste stream leads to the 
+development of new recycling methods and resulting products, ultimately creating new jobs. Fostering diffusion of 
+knowledge and Open source: Partners will push for collaborations with entities interested in co -products generated 
+by recyclers and with other funded projects under this call to promote a sustainable CE. 
+2.1.6 SORT4CIRC's unique contribution to wider economic and technological impacts  
+Develop the CE: Thanks to SORT4CIRC technologies, textiles will be sorted more efficiently, allowing better resource 
+utilisation as textiles can be directed towards the most appropriate recycling or reuse pathways. EPR legislation for 
+clothing is currently mandated in France and is imminent in other EU countries, such as Sweden and the Netherlands. 
+Any changes in sorting practices must be prepared to support the upcoming EPR requirements. Therefore, SORT4CIRC 
+will work closely with projects under “CL6-2024-CIRCBIO-01-2” to contribute to recommendations on design for 
+ 
+28  https://publications.parliament.uk/pa/cm201719/cmselect/cmenvaud/1952/report-files/195206.htm#footnote-172-backlink 
+2.1.3 Outcome 4: Roll-out of thermo-mechanical, chemical and other (e.g., enzymatic) recycling solutions 
+that are sustainable from a zero-pollution, circular material and energy efficiency perspective 
+[101181988] [SORT4CIRC] Page 29 on 42 Confidential 
+ 
+ 
+recycling for textile products to target EPR schemes. Additionally, there are standards and certifications not exclusive 
+to textiles. Still, they offer guidelines that SORT4CIRC will address, such as the Global Recycled Standard (GRS), 
+Cradle to Cradle Certified ™, ISO 14001, Zero Discharge of Hazardous Chemicals (ZDHC), and Bluesign. 
+SORT4CIRC will also work closely with professional organisations that provide best practices in CE and industrial 
+symbiosis and offer BMs for various industries. Unlock the full potential and benefits of the CE through wide 
+deployment, market uptake of innovative technologies and other solutions: It could enable other recyclers to have an 
+“extra” feedstock they can’t use till now. It could enable collectors/sorters to have an outlet for complex textiles. 
+European industrial sustainability, competitiveness and resource independence are strengthened: Some aspects 
+could possibly also be used in other applications in the textile industry, such as textile finishers, laundries and the 
+clothing industry. The project will ensure that the proportion of the down -cycling category decreases and that more 
+non-wearable clothing leads to new high -quality secondary materials. Advanced automation technologies use 
+significantly reduces costs and enhance EU ability to compete globally as it improves efficiency and reduce 
+operations costs. Using waste as a resource within the EU will reduce dependence on external or global SC. 
+The economic potential of SORT4CIRC is depicted and benchmarked against conventional and other semi-manual and 
+automated counterpart technologies in Table 2. Compared to manual and semi-manual (manual + FTIR) sorting 
+processes, automated processes require significantly lower manpower. Thus, the labour cost is considerably mitigated 
+(up to 67% cut-off). However, automation of the sorting process requires a certain capital investment. Although the 
+capital investment is depreciated over the lifespan of the sorting facility, annual depreciation constitutes the cost 
+driver of the sorting activity. Moreover, the running cost also increases since the demand for electricity rises. Yet, i) 
+the higher volume of textile waste treated per unit of time; ii) the higher efficiency of the sorting process, which 
+results in higher quality sorted textile streams (e.g. by prevention of contamination with elastane) and the lower 
+amount of waste produced resulting in lower charges for waste disposal and management services have a positive 
+collective impact on the global economics of the sorting process. Specifically, the profit can be even four times higher 
+than the conventional manual sorting process. Comparing the SORT4CIRC to other automated processes, it is found 
+that SORT4CIRC requires a lower amount of capital investment. In contrast, the rest of the costs of the sorting activity 
+remain comparable, rendering the SORT4CIRC the most promising and economically affordable sorting alternative. 
+Table 2 - Preliminary economic analysis and benchmarking against the SOTA waste textile sorting processes. 
+Economic parameter 
+Sorting technology 
+Manual Manual & FTIR RFID (automated) Barcode (automated) SORT4CIRC (automated) 
+Labour, €/tonne 234 187 82 82 76 
+Capital investment, k€ N/A 496 754 1310 660 
+Depreciation, €/tonne N/A 10 15 26 13 
+Running cost, €/tonne Ν/Α 6 8 7 9 
+Profit, €/tonne 35 66 164 154 171 
+Margin on sales, % 4 7 18 17 19 
+ROI (%) N/A 13% 22% 12% 26% 
+*Economic parameters (applied to all sorting technologies): capacity: 5 Ktonnes/a; feedstock cost: 643 €/tonne; product price 
+912 €/tonne; equipment lifetime: 10 years 
+2.1.7 SORT4CIRC unique contribution to wider societal and environmental impacts 
+SORT4CIRC’s technologies will contribute to SDG9 (Industry, Innovation, and Infrastructure) by developing 
+quality, reliable, sustainable and resilient infrastructure promoting inclusive and sustainable industrialisation and 
+fostering innovation; SDG12 (Responsible Consumption and Production) by improving the efficiency of the 
+sorting chain through automation and digitalisation. Leading to a reduction of new textile use and an increase in 
+recycled textile use, contributing to sustainable consumption and prod uction patterns; SDG13 (Climate Action): 
+Textile recycling will play a significant role in reducing the environmental impact of the fashion and textile industry, 
+by reducing transport and the use of chemicals; SDG14 (Life Below Water) by reducing pollution, decreasing 
+chemical and microplastic release, and minimising the environmental impact on marine ecosystems. Prevent and 
+remove pollution: SORT4CIRC promotes textile recycling through automated textile sorting, reducing the need for 
+incineration and virgin material production, thereby mitigating harmful air pollution and greenhouse gas emissions. 
+SORT4CIRC will consider the Safe and Sustainable by Design  (SSbD) approach within DPP and subsequently by 
+offering high-quality recycled textiles. Also, increasing the use of recycled textiles will decrease demand for new raw 
+materials, which often involve toxic substances in their production. The benefits for consumers and citizens, including 
+those in rural areas, are improved: SORT4CIRC will increase productivity and improve the quality of the sorted 
+recycling material, giving consumers access to high-quality recycled textiles and garments. 
+[101181988] [SORT4CIRC] Page 30 on 42 Confidential 
+ 
+ 
+To evaluate the impact of SORT4CIRC on the environmental burden of waste textiles management technologies, a 
+preliminary estimation of the GHG emissions was performed and compared to incineration, as the conventional waste 
+textile management process and to the SOTA waste textile 
+sorting process ( Figure 9). The consequential LCA was 
+considering (i) waste textile collection and transportation to 
+the sorting facility; it was previously found that the impact 
+of the waste textile transportation is not significant 29, (ii) 
+conventional sorting process and (iii) NIR sorting as 
+boundary limits, while the LCI data were modelled using 
+the Ecoinvent database v3.10. The breakdown of the impact 
+of climate change indicates that avoiding virgin (primary) 
+fibre production and incineration are the main benefits. 
+Moreover, the more efficient recognition system produces 
+Figure 9 - Preliminary consequential LCA. Μono-materials: 
+textiles sorted out of the waste and consist of one raw material; 
+Replacement of virgin materials: the end products of the waste 
+textiles sorting processes will replace virgin materials that would 
+be used for new textiles production. 
+less waste, reducing SORT4CIRC GHG emissions by 
+approximately 20%, compared to the SOTA waste textile 
+sorting process. 
+ 
+ 
+2.1.8 Barriers and requirements  
+Table 3 - Potential barriers and proposed mitigation measures for SORT4CIRC 
+ 
+Potential barriers (effect) Proposed mitigation measures by SORT4CIRC 
+Regulatory 
+Lack of stakeholder engagement and 
+collaboration in the policy -making process 
+can lead to policies that must adequately 
+reflect key stakeholders'  needs, perspectives, 
+and expertise. 
+SORT4CIRC will include policymakers as soon as possible in its technology 
+development to ensure the adoption of best practices and regulations in textile 
+recycling. 
+DPP Adoption Resistance by stakeholders Resistance from stakeholders to adopt and adapt to new technologies and 
+processes is addressed in sub -tasks with dedicated dissemination initiatives like 
+sub-tasks 4.2.6 and 4.4.4. 
+Lack of adoption of tokenised ecosystem by 
+stakeholders due to complexity or lack of 
+incentives 
+Design user-friendly interfaces, provide clear incentives, offer training sessions, 
+and gather continuous feedback for improvement. WP6 will conduct a simulation 
+over strategies. WP7 will ensure effective stakeholder engagement. 
+Regulatory Compliance of DPP Regulations related to data protection, environmental standards, and industry - 
+specific rules will be fulfilled like ISO 14040 and ISO 14044 LCA; IEC 62264 
+(ISA-95) and IEC 62443 (ISA -99) and ISO 27001 Certification; ISO 27001 
+Certification. 
+Social 
+Some consumers may prioritise convenience 
+and price over sustainability 
+Automation can reduce recycled textile prices; SORT4CIRC will promote its 
+technologies as sustainable fashion practices. 
+TTRFID Acceptance (Privacy concerns), 
+durability, production cost 
+Societal analysis and assessment will be considered with a special focus on 
+consumers, and surveys and sentiment analysis will be conducted to analyse 
+consumers' perception of technology, besides using economically efficient 
+materials and economic approaches in massive volume production. The recycling 
+assessment, besides the factors mentioned for the adoption of the TTRFID with 
+textile product compatibility, like resistance to washing and difficult conditions, 
+will be tested. Motivating events to introduce the new eco -system and making 
+effective marketing campaigns will be organised. 
+Risk of tokenisation method incentivising 
+overconsumption of textiles by consumers 
+The token system will be designed to reward sustainable practices such as 
+recycling and reuse rather than increased purchasing by simulation in T4.4.3 and 
+complying with the requirements of ISO 14040 and ISO 14044 LCA and will be 
+communicated with consumers and stakeholders. 
+Economical 
+The economics of emerging technologies are 
+only sometimes the most encouraging ones. 
+New adjustments to the technology or new BMs may be applied to turn the 
+technology into a profitable solution. The social and environmental gains should 
+be taken into account and monetised to improve the economy. 
+Implementing automation and digitalisation 
+technologies in textile sorting and recycling 
+SORT4CIRC will push Public-Private Partnerships after the project (public 
+agencies, private investors, industry partners, and research institutions) to pool 
+ 
+
+[101181988] [SORT4CIRC] Page 31 on 42 Confidential 
+ 
+ 
+29   https://www.ivl.se/english/ivl/publications/publications/siptex-wp5-report-life-cycle-assessment-of-textile-recycling-products.html 
+[101181988] [SORT4CIRC] Page 32 on 42 Confidential 
+ 
+ 
+requires significant upfront investment. The 
+costs associated with purchasing and 
+installing advanced sorting equipment, 
+integrating digital platforms, and upgrading 
+existing infrastructure can be substantial. 
+resources, share risks, and mobilise funding, enabling the up-scaling and 
+deployment of SORT4CIRC’s technologies 
+Environmental 
+Automation and digitalisation processes often 
+require significant energy inputs, particularly 
+for powering machinery, sensors, and data 
+processing systems. High energy 
+consumption can contribute to environmental 
+pollution and GHG emissions. 
+SORT4CIRC will prioritise energy-efficient technologies, renewable energy 
+sources, and optimised operational practices for energy inputs 
+Integrating diverse technologies such as 
+sensors, robotics, AI, ML, computer vision, 
+and data analytics into a cohesive and 
+interoperable system presents technical 
+challenges. Ensuring compatibility, 
+scalability, and reliability of integrated 
+technologies  is  crucial  for  effective 
+automation and digitalisation. 
+SORT4CIRC interdisciplinary collaboration is bringing together diverse 
+stakeholders, including researchers, engineers, technicians,  software developers, 
+and industry professionals, to exchange knowledge, share best practices, and co- 
+create innovative solutions to ensure proper integration of SORT4CIRC’s 
+technologies into the current recycling and sorting chain 
+Technological 
+DfD solutions not being effective or practical 
+for large-scale implementation. 
+Pilot DfD solutions in controlled environments, gather data on effectiveness, and 
+iterate based on feedback (from WP5). 
+Long-term sustainability of blockchain A focus on the scalability of the blockchain architecture for DPP will be 
+conducted. The holonic approach of SORT4CIRC will ensure the scalability of 
+DPP for encompassing the whole TVC. 
+DPP Network Congestion, Data Overload 
+and Cybersecurity Threats 
+The focus will be on the scalability of the DPP over TVC. The holonic approach 
+and the fulfilment of Web 3.0 will enable the effective extension and 
+interoperability of the DPP with other operational systems. The fulfilment of the 
+ISO 27001 Certification for data security will be considered in DPP guidelines.  
+The unknown composition and presence of 
+different materials require different 
+recycling processes to allow the rollout of 
+recycling solutions. 
+SORT4CIRC will deliver an efficient way to analyse and give the composition of 
+each material with an accuracy of >95%, allowing access to a wide range of high- 
+quality feedstock for recyclers
+2.2 Measures to maximise impact - Dissemination, exploitation and communication  
+#@COM-DIS-VIS-CDV@# 
+2.2.1 Planned measures to maximise the impact of SORT4CIRC 
+Communication, dissemination and exploitation plans will be prepared in WP7, and all actions will be closely 
+monitored throughout the project's progress. CEF will coordinate dissemination, communication and exploitation 
+activities. The intellectual propert y management activities and definition of the strategy for result protection and 
+exploitation will be coordinated by CU and CEF. To properly and efficiently develop these actions, the first step is 
+to define key messages to be passed and then adequate measures and methodology to pass to the target groups. 
+2.2.1.1 Relevant target stakeholder for communication and dissemination activities 
+Main message and results to be shared: (i) Increase cost-efficiency and automation in sorting processes, achieve 
+savings from improved inventory control and reduced waste and train the workforce in advanced textile technologies; 
+(ii) Development of sorting technologies compatible with recyclers’ expectations and (iii) Lower carbon footprint 
+through sustainable practices, enhancing sustainability through better resource management and reducing energy use 
+and environmental impact of textile sector. Target groups for dissemination and exploitation: to maximise the impact 
+of SORT4CIRC outcomes during and after the project, the effort shall be put into engagement with key stakeholders, 
+market players and end-users in the EU textile recycling and manufacturing value chain. For each category, adequate 
+messages associated with appropriate communication and dissemination means (direct contacts, website, social 
+media… etc.) will be designed within WP7. SORT4CIRC will involve specific stakeholders within their technical 
+advisory boards and will address the following target groups: Sorters (TXHO, Hubency); Textile manufacturers 
+(Inditex, LVMH, Salvatore Ferragamo, Koninklijke Ten Cate NV, etc.); Recyclers (BASF, Infinite Fiber, 
+Renaissance textile, Carbios, SABIC) and Regulators (Refashion, Euratex, etc.). 
+2.2.1.2 Communication and dissemination strategy and timeline 
+To ensure the successful exploitation of the SORT4CIRC results, a Communication, Dissemination, and Exploitation 
+(CDE) Plan (D7.1) will be developed by CEF to identify opportunities for synergy and guide SORT4CIRC’s 
+communication and dissemination activities relevant to the project, monitoring procedures and the sustainability of 
+the project beyond its lifecycle. Considering the three-year project duration, necessary adjustments will be made to 
+[101181988] [SORT4CIRC] Page 33 on 42 Confidential 
+ 
+ 
+new channels to exchange project learnings, participate in industry events and other opportunity-based activities. 
+the plan regularly, considering the evaluation of outreach and communication analytics, as well as successes, lessons 
+learnt and future opportunities that may have emerged since SORT4CIRC’s inception as reported by all project partners. 
+SORT4CIRC CDE Plan will also follow the guidelines published by the EC on social media: ‘ Social media guide for 
+EU funded R&I projects.’30 A monthly communications meeting between the partners will be held to keep each other 
+updated with communications activities and opportunities. 
+The activities described in Figure 10 
+aim to achieve impact and exchange 
+knowledge and innovations generated 
+during the project with the already 
+identified target stakeholders. The plan 
+will also set objectives for project 
+impact performance through ad -hoc 
+KPIs. The objectives are 
+Disseminating information regarding 
+the opportunities and advantages 
+reached during the project and onwards 
+(lasting effects). 
+Boosting the transferability of 
+knowledge, exchanging experiences 
+for the increment of learning (R&Ds 
+Figure 10 - Communication & dissemination tools and proposed 
+dissemination activities 
+towards industrial partners and end users). Gathering helpful feedback from all the stakeholders (researchers, 
+industries, policymakers, industrial associations, standardisation bodies and committees, other running projects and 
+so on). Replicate SORT4CIRC concepts to other European processes and geographical areas (diversification). 
+Targeted International Conferences: WHISPERS, World Circular Textiles Day, ICTRD… Targeted EU 
+Conferences: EURIC Textiles, Circular Cities and Regions Initiative (CCRI) Working Group, ECESP, TechTextil... 
+SORT4CIRC aims to collaborate through projects in the frame of stakeholder engagement and communication, as well 
+as prolong the impact and lifetime of project outputs beyond the end date of projects. SORT4CIRC will create a core 
+for the textile recycling and reuse cluster and will stay active to contribute to further expansion. Moreover, 
+SORT4CIRC will actively seek to collaborate with other relevant funded projects under “HORIZON -CL6-2024- 
+CIRCBIO-01-2”. The SORT4CIRC consortium will leverage our existing involvements in other CCRI projects such 
+as DEFINITE-CCRI, CircularInvest, CCRI CSA, SOLSTICE, other relevant EU projects such as Circular City Centre 
+(C3), RESYNTEX, REGIOGREENTEX, MISTERY, WHITECYCLE, to offer SORT4CIRC project actors’ 
+ 
+2.2.1.3 Preliminary description of Key Exploitable Results (KER) and Exploitation plans 
+The Plan for Exploitation of Results will describe KER and its owners, potential end users, and the pathways to 
+exploitation foreseen to ensure the results are taken up and further used by the partners or by third parties. 
+Table 4 - Preliminary identification of Key Exploitable Results of SORT4CIRC 
+ 
+ KER Background (IP) Protect Exploitation route and benefits 
+TXHO Complete pre -sorting and 
+sorting semi -automatised pilot 
+line 
+Fully automatic textile sorting 
+system that sorts used textiles by 
+material and feeds them into 
+chemical recycling. 
+Confidenti 
+al 
+1 pilot by the end of the project, 20 pilots of 
+pre-sorting/sorting line by 2040. 
+CU 
+TTRFID Technology Technical papers on RFID Patents and Use in further research studies to develop new 
+ technology and data trademarks RFID-based services for textile industries. 
+ management linked to existing  Sales of new products/services. First 
+ patents in RFID technology.  installation, replication to other sites. 
+Blockchain-based DPP System Background in blockchain Patent and Development  of  secure  data  processing 
+ technology and data security, copyright products, enhancing data traceability and 
+ with references to patents in  security. Sales of Secure Blockchain-Based 
+ blockchain systems like EBSI.  DPP Systems. Integration with Existing SCs. 
+Tokenized Ecosystem for TVC Experience with token economy Industrial Development of token-based products and 
+ and digital asset management, design and use in standardisation activities. Sales of 
+ referencing existing token trademark Token-Based  Transaction  and  Validation 
+ systems  Services. Launch Initial Token Ecosystem. 
+DfD Solutions Knowledge in sustainable design Trade Recyclable products development and 
+ and recycling, linked to patents secret  and sustainable design guidelines. DfD-compliant 
+ in sustainable product design industrial products sales and consulting services. DfD 
+  design. principles in product lines implementation. 
+ 
+
+[101181988] [SORT4CIRC] Page 34 on 42 Confidential 
+ 
+ 
+30https://ec.europa.eu/research/participants/data/ref/h2020/other/grants_manual/amga/soc-med-guide_en.pdf 
+[101181988] [SORT4CIRC] Page 35 on 42 Confidential 
+ 
+ 
+RESO 
+Align pre -processing output 
+with feedstock (input) 
+requirements of recyclers 
+The internal know-how and the 
+patented knowledge BE1029856 
+(WO2023/062190) will be used. 
+Secret 
+know-how 
+The results will be exploited for further 
+research activities in developing eco -design 
+products. 
+Recognition technologies 
+validation for eco -design 
+products (pre-disassembly) 
+The internal know-how Secret now 
+how 
+The results will be exploited to develop new 
+processes 
+Disassembly integration with 
+post-disassembly sorting 
+processes 
+The internal knowhow and the 
+external testing done with other 
+companies 
+Secret 
+know-how 
+The results will be exploited to develop new 
+processes 
+PURFI|RE The new source of feedstock 
+efficiently sorted 
+Tests at a lab scale with 
+collectors/sorters in the 
+framework of experimentations 
+organised by Refashion, 
+Confidenti 
+al 
+Textile types are more precisely defined to be 
+collected and sorted that will match our 
+process. Know better what kind of textiles 
+sorters could provide. Develop the recycling 
+chain. Develop partnerships with sorters. 
+ARIS 
+Emerging textile sorting 
+processes and textile recycling 
+processes value chain 
+Access to 
+Ecoinvent). 
+databases (e.g. Open 
+access 
+Knowledge 
+Flow sheeting 
+recycling processes 
+of textile In-house developed economic 
+models 
+Open 
+access 
+Know-how 
+CEA AI algorithms for material 
+composition 
+Analytical methods were utilised 
+to address this task. 
+Open- 
+Access 
+Knowledge 
+Apply it in future collaborative projects 
+Identification solution of 
+carbon-based black garments 
+The test used in SWIR and NIR 
+sensors. 
+Patent Patent – exploit them in further research and 
+projects. 
+CEF 
+Circular Textiles Toolbox CEF has previously developed a 
+Circular Toolbox, an open - 
+access step -by-step guide for 
+apparel brands to design and 
+launch. A rental or resale pilot. 
+Techno. 
+Know- 
+how, policy 
+diss. 
+Integrating new methodologies/technologies, 
+and experiences in other location. Using for 
+further research activities, developing new 
+products/processes, creating services, using 
+in standardisation activities 
+IOM 
+AI technologies in NIR 
+spectroscopy and hyperspectral 
+imaging 
+AI approaches that build on 
+chemometric models, internal 
+know-how 
+Open 
+access 
+Exploitation of these approaches in other 
+sectors of industry (other research activities) 
+IR technologies in other 
+spectral ranges (SWIR, LWIR) 
+IR spectral ranges potential 
+outside of classical NIR spect., 
+internal know-how 
+Open 
+access 
+Exploitation of these new analytical 
+approaches for other research activities 
+Improved analytical detection 
+and identification methods for 
+finishing agents and coatings 
+NIR hyperspectral imaging for 
+use in textile production has been 
+developed. 
+Open 
+access 
+Exploitation of these new analytical 
+approaches for process control in the textile 
+manufacturing industry. 
+IRIS 
+Several detection techniques 
+incorporation in a common 
+hardware platform to perform 
+in-line analysis of garments’ 
+parameters in real-time 
+Know-how regarding 
+chemometrics and patent 
+pending for textiles multilayer 
+recognition through NIR 
+hyperspectral device 
+Trademark 
+and patent 
+Licensed to 3rd parties. Scale up and improve 
+the in -line device throughput for real -time 
+recognition of textiles and its detection speed 
+to have an operational system that can be sold. 
+Carry out in future projects to achieve TRL9. 
+REFA 
+SKU retrieval system that 
+allows to retrieve product data 
+online without a data carrier 
+and upgraded product attributes 
+detection AI neural network 
+The product attributes detection 
+builds upon results from other 
+projects. 
+Patent New developments integration into 
+automated textile sorting lines. Reach out to 
+further sorting companies to sell this product. 
+2.2.2 Intellectual property management  
+The IP strategy is based on principles included in a Consortium Agreement (CA) and is “proactive”. It consists of 
+identifying all relevant outputs during the tasks implementation and establishing, with the partners having generated 
+the results, the most appropriate strategy to protect (IP, non -disclosure), to exploit (further research project, 
+commercial agreements) or to disseminate (open access publications, international conferences, website) the results. 
+For any protectable result that may arise during the project, the following steps are carried out: (i) the partner notifies 
+the consortium about the technical contents to be protected & related ownership rights; (ii) in the case of jointly 
+owned new IP, the procedures for IP protection, use, and licensing will comply with the rules set in the Grant 
+Agreement and described in the CA; (iii) Filing the related IP protection application is followed directly by the 
+relevant partner(s), according to the perimeter agreed with other partners, and the perimeter of innovation. We have 
+already identified in Table 4 results that could generate IP, as well as internal know-how, knowledge, expertise and 
+IP that can be accessible for the project or further used to exploit the results. #§COM-DIS-VIS-CDV§# 
+[101181988] [SORT4CIRC] Page 36 on 42 Confidential
+2.3 Summary  
+#§IMP-ACT-IA§# 
+Specific needs 
+Systemic solutions for textile sorting using 
+innovative digital technologies 
+Feasible solutions for facilitated disintegration to be 
+incorporated in product design as an enabler for 
+recycling 
+Increase the quality and the stream of feedstock for 
+recyclers 
+Ensure the viability of CE BMs in the textile sector 
+Target groups 
+The results of SORT4CIRC will impact the whole 
+TVC:  
+• Brands and textile manufacturers: Better 
+resource management, enhancing sustainability. 
+• Sorters: cost-efficiency and automation in sorting 
+processes will be increased (TXHO, Hubency) 
+• Recyclers: Sorting technologies meeting recyclers’ 
+specifications - high-quality feedstock. (BASF, 
+Infinite Fiber.) 
+• Regulators: Enhanced sustainability through 
+better resource management. Reduce waste 
+generation and the environmental footprint of 
+textile products. 
+• 2nd hand markets: Improved access to high - 
+quality feedstock. 
+ 
+Expected results 
+• Composition estimation error < 5%. 
+• Detect a material under 3%. 
+dentification of black textiles; Detection of 
+chemical contaminants and foreign materials. 
+• Precision level >85 % for garment classification 
+and conditions dryness/soiling classification. 
+• Success rate >95% for DPP seamless data 
+exchange with AI-based technologies 
+• 20% lower GHG emissions 
+• Positive ROI, 26% targeted. 
+• Increase of sorting efficiency by 40%. 
+• Increase throughput by 30-50%. 
+Outcomes 
+Increase sorting speed from 500 kg/h to 3920 kg/h. 
+Deployed the pilot across Europe and the World, 
+reaching 20 sorting lines by 2040 
+Increase textile sorting and recycling tokenised 
+economy market scale from 1 to 102 K€/year by 
+2040. 
+ 
+D & E & C Measures 
+Media and Websites: at least 12 newsletters. Presence on 
+LinkedIn with more than 5,000. A dedicated website with 
+2,000 visits over the 3 years. 
+Event and conferences: 5 webinars, at least 30 
+conferences and X multi-actor workshops. 
+Scientific publications, white papers and conference 
+papers: at least 12 publications and 1 conference paper. 1 
+toolbox. At least 2 policy briefs 
+Impacts 
+• Scientific: Creating high-quality new knowledge and 
+improving innovation capacity, strengthening human 
+capital in research and innovation, fostering the 
+diffusion of knowledge and Open source. 
+• Economic: Develop the CE, decrease labour from 234 
+to 76 €/tonne, increase profit from 35 to 171€/tonne, 
+increase ROI up to 26% thanks to automated sorting. 
+• Technologic: unlock the full potential and benefits of 
+the CE through wide deployment, market uptake of 
+innovative technologies and other solutions. 
+• Environmental: A more efficient recognition system 
+produces less waste, reducing GHG emissions by 
+approximately 20%. 
+• Societal: increase productivity and quality of the 
+sorted recycling material, giving access to high- 
+quality recycled textiles and garments. 
+ 
+[101181988] [SORT4CIRC] Page 37 on 42 Confidential 
+ 
+ 
+3 Quality and efficiency of the implementation 
+#@QUA-LIT-QL@# #@WRK-PLA-WP@# 
+The overall structure of the SORT4CIRC work plan is depicted in Figure 11. 
+ 
+ 
+ 
+ 
+ 
+Figure 11 - Work Plan of SORT4CIRC 
+3.1.1 Overall structure of the SORT4CIRC work plan
+3.1 Work plan and resources 
+
+[101181988] [SORT4CIRC] Page 38 on 42 Confidential 
+ 
+ 
+3.1.2 SORT4CIRC Planning 
+WP TITLE 
+ 
+ 
+ 
+LEADER 
+ 
+ 
+ 
+START 
+ 
+ 
+ 
+END 
+ 
+ 
+YEAR 1 YEAR 2 YEAR 3 
+1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 
+1 
+1.1 
+1.2

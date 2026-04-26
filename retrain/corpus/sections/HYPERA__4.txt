@@ -1,0 +1,1291 @@
+4. Members of the consortium .............................................................................................................. Error! Bookmark not defined.
+4.1 Participants ...................................................................................................................................... Error! Bookmark not defined. 
+4.2. Third parties involved in the project (including use of third party resources) .................................. Error! Bookmark not defined. 
+5. Ethics and Security ........................................................................................................................... Error! Bookmark not defined.
+5.1 Ethics ............................................................................................................................................... Error! Bookmark not defined.
+5.2 Security ............................................................................................................................................ Error! Bookmark not defined. 
+Annex 1- Letters of SUPPORT ........................................................................................................................................................... 27 
+
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+2 | P a g e  
+ 
+ 
+1. EXCELLENCE
+1.1 OBJECTIVES  
+SUMMARY  
+Foreign body presence in foods is among the biggest source of complaint and prosecution in the food industry1. To the food processor 
+or manufacturer, foreign body contamination can be costly as a result of product recalls, legal expenses and ultimately, the costs of lost 
+reputation and consumer confidence.  There is a growing deman d for affordable and reliable foreign body detection technology that is  
+fast enough for its in -process use in modern food processing plants. Through this SME Instrument project,  we, a Spanish advanced 
+engineering company specialising in on-line process monitoring and control systems, aim to accelerate the final stages of development 
+and gear  up for the commercialisation of a new  hyperspectral imaging (HSI) system  (HYPERA®) for the  cost effective on -line 
+detection of foreign bodies and chemical composition analysis that will be targeted to the global food industry.  
+Thanks to its novel and disruptive combination of Shortwave Infrared Hyperspectral Imaging (SWIR -HSI) in reflectance with Near 
+Infrared Multispectral Imaging (NIR -MSI) in ref lectance/transmittance, the innovative HYPERA system (Figure 1) , which has been 
+awarded ‘Seal of Excellence’ certification from the European Commission (see Annex 1), will differentiate itself in the market for its high 
+resolution, its ability to penetrate foodstuffs, its composition differentiation, its compact design and affordability, and its high speeds and 
+versatility. The system will be deployed with its own software package that will contain specialised chemometric tools, to of fer the food 
+industry with a turnkey solution that is readily customisable for foreign body detection of a range of contaminants, in a wide variety of 
+matrixes and suitable for integration in multiple modern food processing environments. Building on a prototype system (see fi gure 2 
+below), which has been validated to TRL6 as a forerunner to this project, over the course of the Phase 2 SME Instruments, fou r 
+application cases will be developed in foreign body detection in pizzas, ready -to-eat (RTE) foods, processed fruit and vegeta bles, and 
+cooked meats, whereby the imaging systems will be integrated into a rugged system hardware and the software and chemometrics will 
+be further developed installed and trialled in processing lines in the industry in order to demonstrate their correc t functioning in an 
+operational environment at pre-commercial scale. Positive results from this industry demonstration work will enable  us to translate the 
+prototype to a first commercial system and to ensure that manufacturing issues solved) by the end of the project. 
+ 
+FIGURE 1 - THE HYPERA® HSI FORE IGN BODY DETECTION S YSTEM  
+                                                           
+1 Rotimi Toki (2016). Foreign Bodies in Foods - Effective Techniques for Prevention, Control and Detection. http://www.compliance4all.com/control/w_product/~product_id=500617LIVE  
+
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+3 | P a g e  
+ 
+In the immediate post-project phase, we will fine tune as necessary to a full commercial application ensuring that the technology is 
+available for consumers by January 2019. In parallel with the product and application development work, we will also prepare for the 
+commercialisation phase to deliver on a business plan,  whereby the commercial targets are to sell 500 units in the first 5 years of 
+market entry, leading to a cumulative turnover of €46M for that period, and 42 new jobs being created in IRIS.    
+SPECIFIC OBJECTIVES OF THE PROJECT  
+With a view to having a near commercial HYPERA® systems for affordable, rapid and non-destructive foreign body detection in foods 
+by the end of this Phase 2 SME Instrument project, the following objectives will be fulfilled during the 24-month workplan: 
+1. To develop the overall system specifications and to establish the KPIs for validating the system (Linked to WP1) 
+The user requirements of our collaborating early adopters 2 will be systematically established so that detailed system specifications can be 
+drawn up: 1) CASA TARRADELLAS, a leading Spanish pizza manufacturer; 2) PLATOS TRADICIONALES, an important Spanish producer 
+of Ready-to-Eat (RTE) foods such as lasagne, rice dishes and roast dishes (supplying MERCADONA, one of the leading retail chains in 
+Spain); 3) MARÍN GIMENEZ an important Spanish fruit and vegetable p rocessor; and 4) DAWN FARM FOODS from Ireland, a leading 
+European supplier of cooked and fermented meat ingredients to the foodservice and manufacturing sectors, as well as a wider group of food 
+processors. A key aspect of this process is the early impleme ntation of a pilot test with existing prototype equipment to assist the 
+identification of key performance goals. Foreign body detection success criteria should be carefully defined on the basis of considerations 
+that take into account their probabilistic nature, which is governed by the Poisson distribution whereby foreign body occurrence is essentially 
+a “rare event” if the production process has been designed following a HACCP analysis.  Performance Indicator(s): By M3, the system 
+specifications are defined and the KPIs for determining the success of the developed system are established.  
+2. To develop the chemometric predictive models for each application (Linked to WP2) 
+The aim is to use the New powerful data processing tools will be implemented based on the most recent advancements in chemometrics for 
+the high speed and multifunctional chemical analysis of the data coming from the sensors and for minimizing the image distortion caused by 
+scattering. In fact, derived from early developments for imaging through both irregular atmospheric paths and biological tissues (medical  
+diagnosis), a variety of non -invasive techniques are currently available for overcoming blurred outp uts by means of purely mathematical 
+approaches. We will merge such available mathematical tools with chemometric routines in order to simultaneously attain spati al and 
+chemical information regardless the scattering due to the nature of the medium. Using the feasibility prototype system in IRIS, initial tests 
+with product samples sets from our four beta testing clients will be performed for obtaining test data for the development pr oject and for 
+model development. The models relating spectral data will be validated in the laboratory with selected chemical, physical and 
+microbiological parameters in selected food matrixes and against available detection methods following traditional (such as artificial vision in 
+the VIS range) and laboratory (i.e., destructive inspection scheme) methods. An initial set of lab -scale ready-to-use predictive chemometric 
+models will be developed, validated, and pre-installed in the respective HYPERA units to be validated. Novel chemometric methods (MCR -
+multivariate curve resolut ion- and MLR –multivariate linear regression - improved with wavelengths selection pre -treatment –genetic 
+algorithms- as well as robust classification methods like SVM –support vector machines -) will be implemented for improving accuracy in 
+relation to stan dard methods like PLS or PLS -DA, for example. Performance indicator: By M7, digital files for the first versions of each 
+model are ready for laboratory validation and by M9, optimised versions are delivered for coding into the system software. 
+3. To design and build the instrumentation hardware and software prototype (Linked to WP3) 
+The Shortwave Infrared Hyperspectral Imaging (SWIR -HSI) in reflectance with Near Infrared Multispectral Imaging (NIR -MSI) in 
+reflectance/transmittance will be scaled up and combined testing performed to verify the effectiveness of the novel combination for  offering 
+penetration (NIR) in foodstuffs and for composition differentiation (SWIR) in the target application cases. The industrial HY PERA® system 
+will be designed in keeping with industry specifications to deliver the following threshold requirements: a) operation at a speed of 1 m/sec; b) 
+penetration at depths of 25 mm (depending on the nature of both foreign body and medium); c) achieving false negative detection rate of <5-
+10% of foreign bodies cases which cannot be detected by means of X -ray systems or inductive detectors d) ease of integration into existing 
+processing lines. Five functional HSI prototypes will be designed and built (one each for integration into our four food processing end -users- 
+CASA TARADELLAS, PLATOS TRADICIONALES, MARÍN GIMENEZ and DAWN FARM FOODS for industry trials)- and one for optimisatio 
+work. Each will have extended infrared bands using novel detectors to acquire the most important object features, employing t he latest 
+technologies for compact hyperspectral imagers, and such  that the cost of the instrument can be efficiently limited. The system control 
+software will be developed, incorporating the chemometric models and the user-friendly User Interface. Performance Indicators: By M10, 
+design details, system building instructions and code of the integrated system are ready. By M13, the hardware and software are ready for 
+integration. By M16, the integrated system is tested and ready for installation in the industry. By M24 the system has is delivered to TRL8-9.  
+4. To integrate the system hardware and software and to perform pre -validation tests to ensure proper functio ning of the hard - 
+and software (WP3) 
+Performance indicator: By M12, tests with the integrated system confirm readiness for industry integration work to commence and the 
+Factory Acceptance Test (FAT) according to ISO 2001:9008 is approved. 
+5. To install and trial the HYPERA® system in the food processing industry application cases (Linked to WP4) 
+The HYPERA system will be installed in: 1) a pizza processing line of CASA TARRADELLAS for the detection of plastic and other   foreign 
+                                                           
+2 See letters of support that have been provided by these companies - Annex 1 of this bid 
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+4 | P a g e  
+ 
+bodies in pizza, detection of fragments of fruit seeds (kernels) and extrinsic foreign bodies (plastic, stones…); 2) a pa cking line of PLATOS 
+TRADICIONALES industry to greatly facilitate quality control (which is currently performed by sampling of raw materials, X -Ray and metal 
+detectors and tedious visual inspection); 3) in fresh cut fruit conveyor at MARÍN GIMENEZ; and, 4) in one of the cook lines at DAWN FARM 
+FOODS, whereby they are mainly concerned with plastic detection. We will extensively test the prototypes and evaluate their p erformance 
+during commercial processing for foreign body detection according to the pre -defined KPIs. Comparisons will be made with conventional 
+quality control methods in use at each plants in order to industrially validate the system. Necessary modifications will be identified to improve 
+the productised system. Performance Indicators: By M14, the systems are successfully installed at the facilities of our 4 early adopters is 
+obtained from each of the sites. By M24, the impacts and KPIs of having the systems installed and in operation for 10 months are quantified 
+and compared vs. historian data.      
+6. To demonstrate to food processors the ease of integration of the system, and its advantages for rapid, non -destructive 
+foreign body detection during commercial processing (Linked to WP4) 
+A public workshop will be organis ed by IRIS to showcase the system in operation targeting the Quality Managers from the food industry . 
+Results of the long term operational tests at the industry test sites will be presented by our collaborating End Users. To facilitate 
+demonstrations a pil ot scale installation will be provided. Performance Indicators: By M24, the system is demonstrated to >150 food 
+processing companies and actors from the value chain.  
+7. To translate the validated prototype designs to a product through the creation of the ma nufacturing documentation package 
+using the engineering information and specifications and to establish the manufacturing. (Linked to WP5) 
+Standardisation and regulatory issues will be addressed to ensure compliance with production conditions.  The aim is to reach Technology 
+Readiness Level 8/9 and to arrive at MRL9 -10, whereby the manufacturing infrastructure can be set up in order to be in a position to serve 
+first orders by January 2019. Performance Indicators: By M19, the product manufacturi ng documentation packages are passed to 
+purchasing and production engineering to enable manufacture. By M23, the first 5 product units pass the quality assurance tests. 
+8. To gear up to the market (Linked to WP6) 
+This will involved the establishment of the HYPERA Application Team, the training of the Sales Team, the finalization of the pricing structure 
+and policy, and the commercial/distribution networks for delivering on the sales targets in our business plan . Performance Indicators: By 
+M22 the Application Team is in place and trained, the first tier commercial network is in place and our pricing has been vali dated for timely 
+progression to the Commercialisation Phase.  
+PROBLEM OR BUSINESS OPPORTUNITY   
+Food safety and quality control are essential parts of the food industry.  EU has one of the highest food safety standards in the world – 
+largely thanks to the solid set of EU legislation in place, which ensures that food is safe for consumers . Food processors are mandated 
+by law to produce safe foods; EU legislation requires that food complies with various hygiene regulations specifying that food must be 
+safe. All potential hazards must be eliminated or reduced to an acceptable level. A key tool to ensure the cross -border follow of 
+information to swiftly react when risks to public health are detected in the food chain is RASFF – the Rapid Alert System for Food and 
+Feed. 
+Foreign body detection  in food products is a priority for every established food producer. Foreign bodies can be present  in products 
+from the field (stones, metal, insects, undesirable vegetable matter such as thorns or wood, dirt, or small animals), and can  also result 
+from processing and handling (bone, glass, metal, wood, nuts, bolts, screening, cloth, grease, paint chip s, rust, and so on). While the 
+unit operations in processing plants should be designed to remove or e liminate these physical hazards, despite the best efforts of 
+producers, foreign bodies can be present in food that reaches the consumers, leading to injury (sometimes death, especially in infants), 
+loss of loyalty, product rejections and recalls. Indeed, foreign body contamination is recognised as one of the most common 
+reasons for food product recalls3.  
+There has been a dramatic increase in the number of food recalls over the last few years, contributing factors including the increasingly 
+global and complex food supply chain.  Recent h igh profile  and large scale recalls include the countless recalls as a result of the 
+horsemeat scandal in Europe, the intentional shipment of salmonella contaminated peanut products by the Pe anut Corporation of 
+America, the recall of over a half billion fresh eggs from Wright County Egg and Hillandale Farms in the US, to mention but a few.  
+While food recalls are first and forem ost a public health issue, they also pose significant economic impacts. In fact, product recalls 
+are considered one of the biggest threats to profitability for the food industry 4. According to a joint industry study by the Food 
+Marketing Institute and the Grocery Manufacturers’ Association, the average cost of a recall to a food company has been estimated at 
+$10M in direct costs5, in addition to brand damage and lost sales (while this is a US study its results are transferable to the international 
+context). For SMEs this could put them out of business. The costs for larger brands may be significantly higher based on the 
+preliminary recall costs reported by firms of some recent recalls 6. In short, the impacts can be devastating for food manufacturers and 
+can cost them millions in damages and lost revenue, as well as severely damaging brand image that can take years to recover.  
+                                                           
+3 Aoife A. Gowen, Colm P. O’Donnell (2013). Near infrared hyperspectral imaging for foreign body detection and identification in food processing. Spectroscopy Europe. VOL. 25 NO. 6 (2013). Pages 6-11 
+4 Food Defense Whitepaper Series: Part Two. Recall: The Food Industry’s Biggest Threat to Profitability. TYCO Integrated Security 
+5 “Recall Execution Effectiveness: Collaborative Approaches to Improving Consumer Safety and Confidence,” Deloitte on behalf of the Food Marketing Institute (“FMI”), the Grocery Manufacturers Association (“GMA”), and GS1 U.S., June 2010 
+6 SAGE Food Safety Consultants 
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+5 | P a g e  
+ 
+The industry's key focus is to prevent these problems and incidences from ever occurring in the first place . Consequently, 
+manufacturers and producers are increasingly investing in identification methods of foreign bodies  in order to protect their brands and 
+for obtaining third -party certification to demonstrate their compliance with legal food safety requirements, to promote customer 
+confidence and brand value.7 Glass, metal and plastic are the most frequently cited foreign bodies in processed foods3. Currently, there 
+are multipl e types of foreign body detection systems available in the market ranging from simple to complex. Metal detectors are 
+commonly implemented in food processing chains to prevent metal fragments occurring in finished products; however, these 
+instruments are not capable of detecting glass, plastic and other contaminants in food. X -ray transmission radiography has long been 
+used for online detection of foreign bodies in food products relying on the absorption contrast between the foreign body and food 
+product8. While X-ray can detect a variety of foreign bodies such as glass, dense plastic, conglomerations, bones, and other objects 
+with different densities, they cannot always detect very small contaminants such as hair, fine glass, or low -density contaminants such 
+as cardboard, wood or insects9. Moreover X-ray is expensive and poses safety concerns.  
+HOW OUR SOLUTION SOLVES THE PROBLEM OR AVAILS OF  THE BUSINESS OPPORTU NITY  
+In order to bridge a market gap for improved, affordable, rapid, non -destructive techniques for foreign body detection and 
+identification, and for real-time chemical composition analysis in products in the food 
+industry, IRIS is developing a hyperspectral imaging (HSI)- based system for foreign body 
+detection in foods. HSI integrates both spectroscopic and computer vision techniques in 
+one system for providing both spectral and spatial inf ormation simultaneously. This 
+combination of imaging and spectroscopy enables enhanced non -destructive analysis of 
+materials3. One major advantage of HSI over other methods of foreign body detection is 
+the ability to detect, as well as classify, foreign bodies according to their spectral 
+properties3. In short, if conventional spectroscopy is a technique to provide the answer to 
+the question of “What”, and conventional computer vision is a technique to provide the 
+answer to the question of “Where”, HSI provides the answer to the question of “Wh ere Is 
+What”.  
+When combined with chemometric (i.e. multivariate) analysis, HSI can be applied 
+for prediction of the concentration and distribution of multiple components in a 
+sample. This makes the technique attractive for many routine quality inspections  
+within the food industry , such as body detection in food processes 3. Recently, the 
+technique has been widely studied for its applications in the food industry  (discussed in 
+more detail in Section 1.4) and p ositive results have been shown for example for the 
+ability of HSI to identify glass, rubber, plastic, and other objec ts on the surface and 
+subsurface of various food matrixes.  
+Numerous experimental and engineering research in the field of HSI have resulted in 
+many successful applications in the food and pharm aceutical quality control. Despite 
+striking advantages of HSI, such as its chemical -free, non-destructive detecting nature, 
+together with the abundant information provided that enables multiple quality features to 
+be examined10, moving this technology from the laboratories to the industry production lines poses a real challenge . This is 
+mainly due to the  low cost-efficiency of current HSI systems  and the insufficient speed and accuracy of analysing complex 
+information. In particular, the rich information req uired for high accuracy, and the simplified design of the instrument to ensure high 
+speeds and low cost, are currently contradictory industrial demands. Solutions are needed that displace this contradiction. T his is the 
+proposition of the HYPERA® system, w hereby we bring a revolutionary new vision of real -time quality and safety assessment to the 
+food and pharmaceutical industries.  Our solution is based on  a series of revolutionary design thinking concepts and developments 
+(Table 1). 
+TABLE 1 - REVOLUTIONARY NATURE OF THE HYPERA  SYSTEM  
+1. “Specialised food assessment hyperspectral imager” vs. a “general hyperspectral imager for the food industry” that can perfor m a 
+multifunctional and highly efficient inspection at significantly low cost  
+A number of hyperspectra l imagers for food inspection have been developed over the last 5 -7 years (see Table 4 in Section 2). However these 
+systems use the same principles and working modes as classical remote sensing hyperspectral systems, typically acquiring a lo t of superfluou s 
+information, which occupies a large part of the system resources and reduces the working speed. Based on the in -depth analysis of the industrial 
+demands (whereby for example we take into account the lower resolution requirements for food inspection vis -à-vis that offered by general 
+                                                           
+7 Frost & Sullivan, Breakthrough Technologies Enabling Food Safety.  
+8 Mikkel Schou Nielsen, et. al. (2013). X-ray dark-field imaging for detection of foreign bodies in food. Food Control. Volume 30, Issue 2, April 2013, Pages 531–535 
+9 Melissa Lind (2013). 5 Methods For Foreign Body Contamination Detection. July 30, 2014. Available at: http://www.foodonline.com/doc/five-methods-for-foreign-body-contamination-detection-0001  
+10 Yuan-Yuan Pu, Yao-Ze Feng andDa-Wen Sun (2015). Recent Progress of Hyperspectral Imaging on Quality and Safety Inspection of Fruits and Vegetables: A  Review. Comprehensive Reviews in Food Science 
+and Food Safety. Volume 14, Issue 2, pages 176–188, March 2015. DOI: 10.1111/1541-4337.12123 
+FIGURE 2 - HYPERA PROTOTYPE 
+INSTALLED IN A MINI PILOT 
+LINE  
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+6 | P a g e  
+ 
+hyperspectral imagers , and inspired by recent research results that have indicated that only a small number of spectral band s and potentially a 
+special region of interest (ROI) will be enough for each function, employing the l atest technologies for compact hyperspectral imagers we have 
+designed and built a hyperspectral imaging system (currently at TRL6) based on an affordable and flexible design concept that  has been 
+conceived for its suitability for industrial lines. 
+2. Combination of chemometric tools and hyperspectral imager design for increased efficiency in terms of data acquisition and 
+analysis to enable high processing speeds 
+Chemometrics is an essential tool for extracting useful information from massive spectral data of hyperspectral images, and there have been 
+many applications of chemometrics to food and pharmaceutical products together with hyperspectral imagery. Unfortunately, how ever, each 
+present chemometric method can only satisfy a few purposes with specif ic observing wavelengths, resulting in a low universality and efficiency of 
+the system. Meanwhile, the analysis of huge amounts of data causes a low inspection speed that does not meet the demands of i ndustry 
+production lines. The combination of chemometri c tools and hyperspectral imager design, however, is a potential way to significantly increase the 
+efficiency of data acquisition and analysis by selecting useful spectral bands to read out according to the chemometric requi rements. In doing so, 
+the data volumes of both the instrument and the data processing system will be greatly reduced, resulting in shorter detecting periods making it 
+possible to realise real-time assessment for production lines. 
+3. Obtaining more information by extending the observing spe ctral range 
+Extending the observing spectral range to infrared bands has been investigated as a potential way for obtaining more informat ion. Over the last 3 
+years, visible and near -infrared (VNIR, 400 –1000nm) as well as short -wave infrared (SWIR, 900 –2300nm) HSI inspection systems have been 
+active fields of research. These systems integrate VIS, NIR and SWIR ranges within the same hypercube (dataset); however, suc h ranges are not 
+totally compatible in terms of penetration and composition. These existing m ulti-range systems are only suitable for some infrequent situations 
+when a trade -off among the specific optical features of each spectral range can be achieved. HYPERA® on the other hand combines NIR and 
+SWIR ranges in two solidary but independent modules that sum up the advantages of each region as each module is optimized in terms of 
+lighting, signal gain and raw data processing methods. Moreover, the extended detecting spectral range will give the chemomet ric tools more 
+available spectral bands to choose  from and will allow the system to integrate a variety of chemometric methods and select different ones for 
+various purposes and objects, thereby realising multifunctional inspection.  
+4. A powerful HSI software for acquiring hypercubes and visualizing foreign bodies or irregular spatial distribution of components 
+and for improving the imaging capabilities and minimising the scattering effect  
+Seamless compatibility with the only chemometric suite in the market (SOLO + MIA, Eigenvector Research Inc) that  includes tools for 
+hyperspectral models. We will also incorpoporate MCR routines in Matlab. The compatibility with SOLO implies compatibility with Matlab and this 
+converts our software in a semi -open tool, which permit limitless future applications that c an be incorporated based on the latest achievements 
+generated in the academic world.   
+In order to respond to a growing market demand for equipment that can assist food processors in guaranteeing the quality and safety 
+of their fo ods and protecting their brands, this Innovation project will significantly advance the state -of-the-art by developing  and 
+bringing to market a multifunctional, high speed HSI system suitable for quality control in production lines in the food and 
+pharmaceutical industries, whereby the  cost will be significantly lower and the performance will be higher than the 
+commercially available systems . As such, o ur project relates well with the SMEInst-07-2016-2017 work programme topic  
+‘Stimulating the innovation potential of SMEs for sustainable and competitive agriculture, forestry, agri -food and bio -based 
+sectors’, whereby we will contribute to the supply of safe, healthy and high quality food, through the development and deployment of a 
+resource-efficient eco -innovative food process ing system. Moreover, HYPERA is in line with the  wider objectives of H2020’s 
+Leadership in Enabling Technologies (LEIT) work programme, as it leverages photonics and ICT KETs (Key Enabling Technologies) to 
+drive forward advanced processing technologies for improved industrial competitiveness. It is also in line with the Industry 4.0 paradigm, 
+as it will contribute to food (and pharmaceutical) processors adopting data-driven production processes. 
+OBJECTIVES AND EXPEC TED OUTCOME OF THE I NNOVATION BUSINESS PROJECT  
+IRIS is positioning itself as an emerging player in the advanced monitoring and control space, whereby we have been offering bespoke 
+turnkey on-line process monitoring solutions to a growing client base  in the food, and more recently in the pharmaceutical, industries. 
+From a business perspective, our goal through this project is to complete the development of a commercial HYPERA® HSI hardware 
+and software system by the end of the Phase 2, to have the manufacturing set up with the first product units  manufactured and quality 
+approved, and to have finalis ed and validated our business model and pricing structure. The Phase 2 project enables us to accelerate 
+this work so that we can be ready for market launch in Jan 2019; this acceleration will allow us to seize the market opportunity as early 
+as possible and to be first to market with an affordable hyperspectral imaging system that is suited for in-line foreign body detection and 
+chemical composition analysis in food processing. In parallel to the produc t development itself, we will also establish an Application 
+Team (an internal team that will support sales and deployment activities: testing materials, performing detailed site visits,  installing the 
+systems, provide training and handling both site and re mote customer support, etc.), and we will have our first tier international sales 
+network established for Ireland & UK, Spain, Germany and Central Europe, the US and China. We will also work on comme rcialization 
+planning for realis ing o ur business plan obj ectives of 500  units being sold (in Europe and worldwide) during the first 5 years of 
+commercialization (rational provided in Section 2.2), which will translate into a cumulative turnover of €46 M (generated from 2019 to 
+2023) and will enable 42 new jobs to be created in IRIS over that same period.  
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+7 | P a g e  
+ 
+  
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+8 | P a g e
+1.2 RELATION TO THE WORK PROGRAMME  
+This proposal relates to SMEInst-07-2016-2017 work programme topic ‘Stimulating the innovation potential of SMEs for 
+sustainable and competitive agriculture, forestry, agri-food and bio-based sectors’.
+1.3 CONCEPT AND APPR OACH  
+(A) CONCEPT  
+CURRENT STAGE OF DEV ELOPMENT OF THE BUSI NESS INNOVATION PROJ ECT  
+TAB LE 2 - SUMMARY OF APPLICATI ON TRIALS PERFORMED WITH THE HYPERA  PROTOTYPE TO TRL6  
+Trial  Discussion/Results 
+Detection of 
+Polytetrafluoroet
+hylene (PTFE) 
+pieces in pizza 
+toppings 
+There is a risk of finding small (1 -3 cm) 
+irregular Teflon pieces that drop from 
+grinders and that can be easily mistaken for 
+white cheese cubes in the topping. Trials 
+with samples from CASA TARRADELLAS 
+using the HYPERA SWIR hyperspectral 
+prototype verified the ability to easily detect 
+Teflon pieces after applying chemometrics 
+(see image).  
+Detection of 
+small metal 
+bodies in 
+between sliced 
+ham layers  
+Small meta l bodies cannot be easily detected by metal 
+detectors based on RF due to the minimum size and mass 
+limit of detection of such a technology. The significant 
+penetration of NIR radiation allows such bodies to be 
+distinguished as they are totally opaque and c ontrast against 
+the surrounding homogeneous and transmissive milieu. The 
+image shows a thin metal disk (coin) hidden in a 1 -cm thick 
+layered cooked ham. No chemometric pretreatment was 
+required for unveiling the body because of the significant 
+meat transparency at NIR range. 
+Detection of 
+Anarsia lineatella 
+in Prunus 
+persica 
+The peach worm (peach twig borer, Anarsia Lineatella Zeller ) is a major 
+pest of stone fruits, such as peaches, nectarines and apricots . Q uality 
+control of processed peach pieces is currently carried out by means of 
+human inspection.  However, there are no relevant colour differences 
+between peach worms and peach pieces, making  difficult human -eye-
+based larvae detection.  Typical pieces of peach –taken from the 
+processing line- have been analysed with the HYPERA syste m: as peach 
+worms differ in terms of chemical composition  from the peach pieces, the 
+peach worm can be easily detected. F at, proteins and wate r are major 
+components of worms, whereas peaches are mainly made of sugars, 
+cellulose and water. 
+Discrimination of 
+beef vs. 
+horsemeat and 
+identification of 
+the lowest 
+percentage of 
+minced meat 
+adulteration that 
+can be reliably 
+detected.  
+HSI in the NIR region is adequate for the detection of meat adulteration with a precision of 8.8% in a range of 0 to 100% usi ng a PLS 
+model with a R2 of 0.94 and a RMSEP of 4.4. The HSI image prediction is able to detect meat adulteration as well as to study the 
+sample heterogeneity and thus the meat mixture and the procedure elaboration effectiveness . Results show the promise of 
+
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+9 | P a g e  
+ 
+establishing a rapid and non -invasive technique that can give rapid results. Meat image prediction. Image on the left corresponds to 
+a 5% horsemeat, the middle image corresponds to a 50% of horsemeat and the image on the right side corresponds to a 95% 
+horsemeat. 
+This action is built on an internal development programme undertaken by IRIS to combine two complementary features of near infrared 
+spectroscopy according to the spectral range for in-depth penetration (NIR) and compositional information (SWIR). To date a prototype 
+unit has been designed and built and integrated into a mini -pilot processing line (see Figure 2 above), and a proprietary Hyperspectral 
+Imaging acquisition and chemometrics software has also been developed to beta level for acquiring hypercubes and visualizing foreign 
+bodies or irregular spatial distribution of components and for improving the imaging capabilities and minimising the scatteri ng effect (a 
+screenshot of the main window can be seen in the image on the cover page and the impro ved setup for SWIR diffuse reflectance 
+acquisition is also shown). This integrated system (HSI system combined with chemometrics) has been validated in  conjunction with 
+food industry partners for numerous applications using client samples, as is summarised in Table 2.   
+POSITIONING OF THE OF THE BUSINESS INNO VATION PROJECT  
+The starting point for the technological developments involved in HYPERA® are at sufficiently high Technology Readiness Level s 
+(TRLs), i.e. TRL6/7, for their acceleration to the market an d ensuring a swift time-to-commercialisation (by Jan 2019). Over the course 
+of the Phase 2 SME Project, building on the existing prototype system that has been developed by IRIS (see figure 2 above), and 
+already tested in intended food processing environments close to expected performance (TRL6), four applications will be developed in 
+foreign body detection in pizzas, fruit, cooked meats, and Ready -to-Eat meals, and the systems will be installed, validated and 
+demonstrated in the industry in order to demonstrate their correct operation in an operational environment at pre -commercial scale 
+(TRL7). Positive results from this industry demonstration work will enable us to translate the prototype to a first commercial system and 
+to ensure that manufactur ing issues solved (TRL8) by the end of the project. In the 6 -9 month project phase, we will fine tune as 
+necessary to a full commercial application ensuring that the technology is available for consumers (TRL9) by Jan 2019. The sub-units 
+of the HYPERA solution are each positioned with respect to their current TRLs and the expected TRLs by the end of this project (Table 
+3).  
+TABLE 3 - TRL ADVANCEMENTS THR OUGH THIS PROJECT  
+System sub-units Current TRL TRL at end of project 
+Shortwave Infrared Hyperspectral Imaging (SWIR-HSI) in reflectance  TRL6 TRL8/9 
+Near Infrared Multispectral Imaging (NIR-MSI) in reflectance/transmittance  TRL6 TRL8/9 
+Chemometric software TRL7 TRL9 
+(B) METHODOLOGY  
+CONCEPT AND ACTIVITIES THAT WILL  BE IMPLEMENTED DURING T HE PROJECT  
+Our project concept is now to further develop the HYPERA® system hardware and software in order to advance the TRLs to 8/9 - i.e., 
+to complete the development of a system suitable for  being successfully commercialised- and to demonstrate a system that is capable 
+of tackling the widest set of typical foreign body detection challenges. In relation to our project approach to the work, our HYPERA 
+project follows an application-oriented product development approach , which will involve a tight co -creation between the 
+development team and our industry end-users (CASA TARRADELLAS, PLATOS TRADICIONALES, MARÍN GIMENEZ, DAWN FARM 
+FOODS). These beta clients permit the p roject to use real applications as a basis for the development  (a s ummary of the target 
+applications is provided in Table 4).  
+TABLE 4 - TARGET APPLICATIONS FOR THE PHASE 2  PROJECT  
+Company Sector/Target Products Target Foreign bodies Installation  
+CASA 
+TARRADELLAS 
+Pizza Pieces of plastic from the packaging of topping 
+components, wood, insects and PTFE pieces from cheese 
+grinders in a variety of different toppings (more than 10 
+types) 
+At the end of the production line –after completing topping- just 
+before the packaging machine.  Alarm to activate manual sorting 
+of suspicious unit for further detailed visual inspection.  
+PLATOS 
+TRADICIONALES  
+Ready-to-Eat (RTE) foods 
+such as lasagne, rice 
+dishes and roast dishes 
+Plastic pieces and films, rubber, thread, insects, stones, 
+wood, paper, hair, etc. 
+At the end of the production line just before the packaging 
+machine (sealing).  Alarm to activate manual sorting of 
+suspicious unit for further detailed visual inspection. 
+MARÍN GIMENEZ Processed fruit and 
+vegetables 
+Fragments of fruit pits and kernels, worms and larvae  Once the fruits have been cut in dices, just before packaging the 
+product in cans. Identification of the suspected body for 
+removing it and the surrounding bodies by means an existing 
+sorter. 
+DAWN FARM 
+FOODS 
+Cooked and fermented 
+meat ingredients  
+ 
+Plastic pieces and films, rubber and fragments of bones At the end of the production line just before the packaging 
+machine (sealing).  Alarm to activate manual sorting of 
+suspicious unit for further detailed visual inspection 
+Using a feasibility prototype syste m that is available in IRIS (see figure 2  above) we will undertake an initial demonstration of the 
+system on the applications to provide test data for the development project. An iterative product development cycle will be implemented 
+to design and produce beta prototype systems that will be installed at each of our  end-user sites as test case s for performance 
+verification, the success of which will confirm the acceptance of the prototype designs. Having validated the se designs we will 
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+10 | P a g e  
+ 
+translate the prototy pes to product through the creation of the manufacturing documentation package using the engineering 
+information and specifications and we will set up our manufacturing facilities and produce and quality approve the first units . In parallel 
+to the product development activities we will also implement market development activities , whereby based on planning within the 
+framework of the classical 4 Ps (Product, Pricing, Promotion and Place)  Marketing Mix, we will perform comprehensive activities to 
+gear up for the Commercialisation phase.   
+In relation to methodologies that will be used during the development work, our teams operate under agile frameworks, whereby  
+Kanban is employed  for hardware developments, and Scrum and Test Driven Development (TDD) for soft ware developments. 
+Whenever creative thinking is needed, particularly for ideating specific solutions that cannot be addressed by finding a simple tradeoff 
+among several technical constraints, the development will be based on TRIZ (Theory of the resolution of invention-related tasks), which 
+is a widely recognized methodology for accelerating and simplifying the search for inventive and innovative solutions and a scientifically 
+founded approach to the forecasting of the evolution of technological systems, pr oducts and processes 11. The IRIS TRIZ Team has 
+been properly trained by recognized members of ETRIA (European TRIZ Association 12) for undertaking creative challenges associated 
+to R&D tasks. The TRIZ approach will be particularly convenient for finding flexi ble (versatile) designs compatible with the most of the 
+applications to be addressed by HYPERA. 
+HOW THE PROJECT CONC EPT AND OBJECTIVES F IT INTO THE OVERALL PLAN TO REACH THE MA RKET  
+The HYPERA concept and the planned development is oriented towards market t akeup; so this is a core business objective and the 
+ultimate goal of the project. Our application -focussed approach will enable us to gear up for sales in foreign body detection in food 
+processing applications which will be supported by clearly presented a pplication notes that clearly demonstrate the technical 
+performance and benefits of the use of the HYPERA system. These validated applications will demonstrate: reliability, repeatability, the 
+robustness of the device, its operational and industrial -level performance, its translation to product and establishing the manufacturing 
+are all important steps of a development on its way towards commercialisation. With an injection of funds, and by gearing up right from 
+system specifications, through design, prototyping, industry trials in compliance with all industry standards and regulatory requirements, 
+we will ensure that there are no user-, technical-, market- or regulatory- obstacles to the uptake of the technology in the marketplace. 
+Finally, our commercialisation-related activities will also be fundamental towards leading to effective market takeup. As such, IRIS will 
+set up an Applications Team to support the Sales Team (this is important given that we are dealing with a process anal ytical system 
+that will always require some level of customisation for a specific application, as well as specialist installation and ongoing support). We 
+will also validate our pricing strategy, prepare our sales agent/distribution networks (our existing distributorships and new ones), and 
+prepare all aspects of our market launch (first devices, replacement stocks, catalogues, datasheets, pricelists, etc.).    
+HOW THE PROJECT DEVE LOPS SOMETHING NEW T O EUROPE AND ADDRESS ES EU -WIDE CHALLENGES  
+Food safety concerns, accentuated by recent crises, have undermined public confidence in the capacity of the food industry and public 
+authorities to ensure that food is safe, and are therefore high on consumer, political and food industry agendas worldwide 13. 
+Assuring food safety and improving quality in the European food supply chain is of primary importance. The EC has identified food 
+safety as one of its top priorities and, with Regulation (EC) No 178/2002 adopted by the European Parliament and the Council on 28 
+January 2002, it laid down the general principles and requirements of food law. Food security  is also identified as one of the key 
+societal challenges to be addressed during Horizon 202014. The ability to leverage the SME Instrument to accelerate the transformation 
+of new knowledge for industry to conceive and develop new products, industrial processes and services, is an important tool f or 
+creating a true Innovation Union: a European Union that thanks to its research and innovation performance can sup port sustainable 
+growth. The H YPERA® project will output a European developed and manufactured specialised food  assessment hyperspectral 
+imaging system that will respond to growing demand in Europe and globally for automatic food inspection technology that  is cost 
+effective, reliable, and is capable of keeping up with the speed of modern food processing lines.  
+From the technology side, photonics is regarded as a driver of innovation and plays an important “enabler” role for many industrial 
+and customer mar kets. With a worldwide market value projected to hit €615 billion in 2020 and to remain stronger than the gross 
+domestic product (GDP), photonics has moved from a niche application to a key enabling technology, according to Photonics Ind ustry 
+Report 2013. The European photonics industry holds about 55 % of the world market in production technology. HYPERA® will advance 
+the suitability of HSI for food processing applications in spectroscopy to increase EU competitiveness in the photonics field  by, as was 
+seen in Table 1 earlier . By scaling up and integrating these novel combination of technologies into the HYPERA® system, we are 
+bringing a technological evolution in photonics to lower the cost of the technology so that HSI spectroscopic technology can be broadly 
+adopted as a system for the real-time monitoring of quality, safety, as well as the nutritional (through chemical composition analysis) 
+                                                           
+11 TRIZ. Innovation and Inventive Problem Solving Handbook", Pavel Livotov and Vladimir Petrov ©TriS Europe, Berlin 2 014. www.tris-europe.com 
+12 http://etria.eu/portal/ 
+13 http://ec.europa.eu/research/bioeconomy/food/policy/index_en.htm  
+14 Brussels, 30.11.2011. COM(2011) 808 final.. Horizon 2020 - The Framework Programme for Research and Innovation 
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+11 | P a g e  
+ 
+and commercial properties of a wide variety of food products during all steps along the production chain. As such, t he innovation 
+impacts of this project are high, as the knowledge generated will be industrialised and taken to market by IRIS.  
+From the application side , a technology that can increase food  quality and safety, protect food producers and their brands, and 
+ultimately contribute to raising  consumer confidence in the food industry is of high added value for Europ e, especially when we 
+consider the importance of the food supply chain in the context of the European economy, whereby it connects the agricultural, food 
+processing and distribution sectors that together constitute more than 7% of European employment. More specifically, the EU food and 
+drink industry alone provides jobs for more than 4 million people in 310,000 companies, generating a turnover in excess  of €965 billion 
+each year and serving over 500 million consumers 15. However, growth in value -added and labour productivity within the EU food 
+industry is outpaced by that of the United States  and at world level, EU food products are losing market share to Brazil, Canada 
+and Australia. HYPERA® will contribute to leadership in enabling and industrial technologies , which is synergistic with one of the 
+priorities of H2020 for contributing to industrial leadership in Europe. To survive in an increasingly globalised and competitive market, 
+agro-related enterprises have to form and count on close associations with clients and suppliers, whereby product quality and safe ty 
+are increasingly intrinsic with such relationships. In fact, the EC appointed High Level Group on the Competitiveness of the Agro -Food 
+Industry16 has urged the EU to maintain a high level of food safety and quality standards , and has identified a strong need for an 
+improved innovation framework and targeted actions on the numerous SMEs in the sector and on the performance of the EU agro-food 
+industry on world markets. Solutions such as HYPERA®, which are founded on a growing need faced by industry and the potential to 
+apply knowledge for obtaining ambitious technological advances, to bring to market technologies that are accessible to wide 
+communities of SMEs and can and improve the competitive capacities of the EU food and dr ink industry, will play a central role in 
+treading this line between guaranteeing consumers the safest and most affordable food products possible while also ensuring t hat 
+Europe’s food sector is as efficient, competitive and balanced as it can be. As was mentioned, technologies such as HYPERA will help 
+companies transition to the Industry 4.0 paradigm. 
+HOW GENDER ANALYSIS IS TAKEN INTO ACCOUN T IN THE PROJECT’S C ONTENT  
+We will consider gender related design features, whereby the needs of female line operator s will be analysed in cooperation with our 
+end-user early adopter companies, so that any gender -specific design features can be embedded. As such, d uring the co -creation 
+process in WP1, female engineers/developers, as well as female professionals from the food industry will be involved to ensure gender 
+related aspects are picked up. Moreover in relation to  business behaviour and decision making, gender analysis will also be important, 
+especially in view of growing trends and commitments to see more women occupy high level and decision-making positions in industry. 
+There is also a gender consideration in relation to our communication activities towards consumers, whereby our ability to su ccessfully 
+inform and generate awareness among female consumers (many of  whom are still key household consumption decision makers) will 
+be important. It is noteworthy that our Project Manager is a highly qualified female professional (Dr. Edurne Gaston),  who is also a 
+recent mother. N umerous other members of the team  are female, such as the Commercial Director (Johanna Granda), among key 
+researchers and engineers who will be working on the project  (see section 4.1). With regard to the employment opportunities that will 
+be generated in IRIS for the implementation of the innovation project, and subsequent jobs through the commercialisation of the project 
+outputs, a recruitment policy will be in place designed to ensure a reasonable level of balance between the sexes.
+1.4 AMBITION  
+NOVELTY OF THE INNOV ATION BUSINESS PROJE CT 
+In terms  of a ‘business project’, IRIS has the ambition to  bridge the ‘integration gap’  that prevents the adoption of photonics in 
+industry. The typical HSI landscape in Europe is made up of very competent providers of imaging cameras (such as INNOSPEC, 
+SPECIM), providers of chemometric software (such as Perception Park), along with distributors of cameras and chemometric soft ware. 
+There is a distinct lack of solutions providers offering turnkey solutions to industry. IRIS has i dentified a clear market opportunity, 
+not only among the SME sector but also among the enterprises sector as well, for customised monitoring technology that shifts  the 
+emphasis from “device” to “fully integrated turnkey solution” based on tailoring the dev ice to the line and to the specific operating 
+environment of the client. Key to mainstreaming affordable monitoring solutions for industry is building flexible and reliable platforms 
+based on novel combinations of spectroscopic analysers and chemometric da ta processing tools  that can effectively analyse 
+the data, to deliver fast and reliable readings in real -time, to facilitate rapid calibration of the HYPERA® hardware that lends itself to 
+easy set-up and customisation to specific client inspection and monitoring needs and industrial environments.  
+Our vision is for the HYPERA® brand to become a leading global reference for highly affordable, rapid, accurate and high 
+performance real-time food quality inspection turnkey solutions  that are supported by reliable integration, data management and 
+maintenance services. Such a vision is fundamental for the widespread uptake of HSI equipment in the industry, whereby food 
+processors typically lack the specialised in -house resources to be able to confidently invest in  and set up high -end spectroscopy real-
+                                                           
+15 Nurturing the competitiveness of the European food industry (07.10.10) Enterprise & Industry magazine (http://ec.europa.eu/enterprise/e_i/index_en.htm), © EU, 2008 - 2010 
+16 Commission Decision No 2008/359/EC of 28 April 2008. 
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+12 | P a g e  
+ 
+time inspection systems. HYPERA® will position IRIS  in the global food industry  as a 
+leading European solutions provider of affordable, fully integrated HSI systems for the 
+rapid, non-destructive detection of foreign bodies and chemical composition analysis in 
+foodstuffs.        
+EXPECTED MARKET APPL ICATION THAT DIFFERE NTIATES THE 
+PROJECT AND PROVIDES  THE HIGHEST ADDED VA LUE  
+As has been discussed, our application oriented development is centred on food 
+inspection. The original and innovative nature of the HYPERA® system is hinged on 
+the necessity to provide the food industry with an affordable, high performance, rapid, 
+accurate and multifunctional HSI inspection system that can be easily integrated 
+into food production lines (and in quick succession the pharmaceutical industry) for the detection of foreign bodies and for chemical 
+composition monitoring during food processing . The system is founded on the promising results to TRL6 of the highly novel 
+combination of Shortw ave Infrared Hyperspectral Imaging (SWIR -HSI) in reflectance with Near Infrared Multispectral Imaging (NIR -
+MSI) in reflectance/transmittance and integrated chemometric software.  
+Recently, optical sensing technologies such as spectroscopy and imaging have been investigated as potential tools for the non -
+destructive evaluation and inspection for food quality and safety. Spectroscopy is a widely recognised technique for quality inspection 
+based on the measurement of optical properties of food products  (Cen & He, 2007). Near Infrared Spectroscopy (NIRS) is rapid, non-
+destructive, and relatively easy to implement for on -line and off -line applications. More importantly, NIRS has the potential for 
+simultaneously measuring multiple quality attributes . However, whil e with these spectroscopic techniques it is possible to obtain 
+information about the sample components based on the light absorption of the sample, it is not easy to know the position/location 
+information. On the other hand, measurement of the spatial feat ures of food products can be achieved by conventional imaging 
+system or more specifically computer vision with the minimum of human intervention  (Du 
+& Sun, 2006b ). Yet, with computer vision systems , while it is easy to know the 
+position of certain features , it is not easy to conduct the quantitative analysis of a component. Moreover, because it is operating at 
+visible wavelengths in the forms of monochromatic or colour images, a conventional imaging system is incapable of inspecting 
+specimens with similar c olour, classifying complex objectives, predicting internal attributes (e.g. chemical components) that are less 
+relevant to colour, and in detecting defects not visible to the human eye.  
+As seen,  Hyperspectral imaging (HSI)  combines imaging and spectroscopy for enhanced non -destructive analysis of materials 3. 
+Looking deeper at this concept, for a hyperspectral image, the complete wavelength spectrum of a sample over the spectral range is 
+obtained at each point in the imaging plane. On the basis of the combination of the series of images, a fourth dimensional 
+“hyperspectral cu be” can be established (figure 3 ), which includes one dimension representing spectral information, two other 
+dimensions for describing spatial information and the last dimens ion contains the optical signal level (sample radiance). In this cube, 
+each 2D-image point (or pixel) has both spatial and spectral signature (spectrum) information. Therefore, HSI has the capability to 
+capture both physical and morphological characteristi cs such as colour, size, shape, and texture, and some intrinsic 
+chemical and molecular information (such as water, fat, and protein) from a food product. When combined with chemometric (i.e. 
+multivariate) analysis, HSI can be applied for prediction of the concentration and distribution of multiple components in a sample 3. This 
+makes the technique very attractive for foreign body detection in food pr ocesses, whereby HSI can detect, as well as classify, foreign 
+bodies according to their spectral properties. Recently, the technique has been widely studied for its applications in the food industry, 
+from non -destructive assessment of mushroom quality and shelf-life prediction 17, objective and quantitative determination of meat 
+quality, including beef, pork, and lamb 18, inspection of moisture and fat contents 19, nematodes 20, and blood spots 21, freshness 
+detection22 and production line sampling23 in fish (to mention a few).  
+Indeed, since its development over 20 years ago, HSI has gradually expanded from its initial use as a research tool for government and 
+mining industry use into more commercial application areas found in the industrial, agricultural, geological, environmental and 
+medical communities. However, this transition has been slow, because most of the research has  focused on addressing the high -
+performance demands of federally-designated tasks, such as airborne and space-based military surveillance. As a result, until recently, 
+there had been little real  investigation of the commercial marketplace because manufacturers of optical equipment  were focusing on 
+                                                           
+17 A. A. Gowen, C. P. O’Donnell, M. Taghizadeh, E. Gaston, A. O’Gorman, P. J. Cullen, J. M. Frias, C. Esquerre and G. Downey. Hy perspectral imaging for the investigation of quality deterioration in sliced mushrooms (Agaricus bisporus) during 
+storage Sensing and Instrumentation for Food Quality and Safety Volume 2, Number 3 (2008), 133-143, DOI: 10.1007/s11694-008-9042-4    
+18 D. F. Barbin, G. Elmasry, Da-Wen Sun, P. Allen, Predicting Quality And Sensory Attributes of Pork Using NIR Hyperspectral Imaging, Analytica Chimica Acta, 719 (2012) 30– 42. 
+G. ElMasry, Da-Wen Sun and Paul Allen, Near -Infrared Hyperspectral Imaging for Predicting Colour, pH and Tenderness of Fresh Beef, J.l of Food Engineering, 110 [1] (2012 ) 127-140. M. Kamruzzaman, G. ElMasry, Da -Wen Sun and Paul Allen, 
+Prediction of Some Quality Attributes of Lamb Meat Using NIR Hyperspectral Imaging and Multivariate Analysis, Analytica Chimica Acta, 714 (2012) 57-67. 
+19 ElMasry, G. & Wold, J.P.(2008) High-speed assessment of fat and water content distribution in fish fillets using online imaging spectroscopy. Journal of Agricultural and Food Chemistry, 56(17), 7672-7677 
+20 Sivertsen, A.H. (2011) Automatic nematode detection in cod fillets (Gadus Morhua) by transillumination hyperspectral imaging. Journal of Food Science, 76(1), S77-S83 
+21 Heia, K., Sivertsen, A. & Birkeland, S. (2009). Automated quality control of salmon fillets - hyperspectral imaging for on-line inspection. In (Eds.) 14th international conference on near infrared spectroscopy 
+22 Menesatti, P., Urbani, G., Pallottino, F., D’Andrea, S., & Costa, C. (2007). Nondestructive multi-parametric instruments for fish freshness estimation. Instrumentation Viewpoint, 6. 
+23 Wold, J. P. (2006). Non-contact transflectance near infrared imaging for representative on-line sampling of dried salted coalfish (bacalao). Journal of Near Infrared Spectroscopy, 14(1), 59–66. 
+FIGURE 3 - HYPERCUBE 
+CONCEPT  
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+13 | P a g e  
+ 
+the technical challenges of the federally-driven application segment, which had still not been fully addressed24. To date HSI technology 
+has only been directly implemented to a very limited extent in on-line systems for automated quality evaluation purposes.25  
+Of the few food quality control applications, these have been directly developed by the generic H SI camera manufacturers –mainly for 
+demonstrating the possibilities of the systems, that is, for opening market opportunities - as opposed to by system integrators oriented 
+to satisfy specific industry needs. As was seen key limitations are centred on th e speed of the imaging acquisition, which needs to be 
+increased to keep pace with the rapid rate of novel food processing lines.  Moreover, current HSI systems are expensive due to the 
+bespoke nature of existing solutions as well as the predominance of researc h and high value targets in the current HSI market, with a 
+typical system integrated in a production line costing up to €150k; prohibitive to the majority of SMEs from the food sector , not to 
+mention enterprises running numerous lines . As was discussed ear lier in the document and summarised in Table 1, we will bring a 
+number of key advancements that will open up the food inspection application to HSI technology. To recap briefly on these, not only will 
+we use very cost-effective imaging cameras (especially as the resolution requirements are not as high as typical applications, such as 
+forensics and military applications, where HSI has been largely applied) that are specifically designed for application in food production 
+lines. As was seen, h yperspectral ima ges contain a substantial amount of data, including much superfluous information, posing 
+considerable computational challenges 25 that involve lengthy image acquisition and analysis  times, rendering current HSI systems 
+as impractical for  implementation on-line in modern food processing facilities. To solve this problem,  the HYPERA® system will be 
+designed based on the understanding that we do not need the image with the whole area and the whole spectrum to assess the fo od 
+quality (on the contrary, only a small number of spectral bands and a special region of interest (RO I) will be enough), thereby enabling 
+the ability to  increase the hardware speeds  for rapid image acquisition and analysis to ensure compatibility with typical processing 
+speeds of 1 m/s. The spatial and spectral resolution requirements can also be reduced compared with general hyperspectral imagers.  
+Moreover, as was discussed, HYPERA® combines NIR and SWIR ranges in two solidary but independent modules that sum up the 
+advantages of each region as each module is optimized in terms of lighting, signal gain a nd raw data processing methods, and the 
+extended detecting spectral range will give the chemometric tools more available spectral bands to choose from and will allow  the 
+system to integrate a variety of chemometric methods and select different ones for var ious purposes and objects, thereby realising 
+multifunctional inspection. These combined observing bands and the processing methods have, to date, never been used in food (or 
+pharmaceutical) production applications. What is currently found in the market are simply just extended cameras (VIS+NIR+SWIR). 
+They are tuned to reach a trade-off among such ranges. Consequently, they do not take advantage of each range -specific features: so 
+if is sensitive in SWIR, the NIR signal is low; if sensitive in NIR, it is saturated in the SWIR…It is pretty much like putting wings on a car: 
+too slow for flying and too wide for any street.  
+In short, this project will design a hyperspectral imager that simply meets the requirements with n o (or few) surplus performances, 
+enabling significant cost reductions, as well as greater speed and flexibility. The resulting HYPERA® system is on the cutting -edge of 
+existing efforts in the field to produce reliable tools for food/pharmaceutical quality and safety assessment. Its unique advantages 
+provide a versatile and highly cost-efficient solution to the problem of applying HSI technology to the real industrial world.  
+EXPECTED PERFORMANCE /IMPACT ON DEFINED N EEDS   
+The ability of HSI to provide rapid and objective evaluation of various product quality and safety indicators simultaneously  is 
+highly valuable for the food industry, and greatly advances the capability of computer vision -based technologies, which are inefficient 
+in differentiating samples that present similar colour characteristics but are not of the same quality . Since such vision systems 
+are operated at visible wavelengths, they can only produce an image registering the external view of the objects, and are una ble to 
+register information related to the internal structure or the chemical composition of the products . HSI opens up the opportunity to 
+register product features that are sensitive to wavebands other than visible, and use this information for the non-invasive and non -
+destructive assessment of quality and safety of foods.  
+HYPERA® will  be the first HSI complete solution that is specifically designed for affordable and seamless integration into food 
+processing lines for foreign body detection  and chemical analysis of foodstuffs (in add ition to pharmaceuticals processing and other 
+applications in the future). Major advances that will be offered by our HSI food inspection and foreign body detection system vs. 
+competing HSI systems (discussed in Section 2) are the reliability, simplicity and affordability of the proposed HYPERA® system. 
+Compared with current quality assessment hyperspectral imagers, there are 5 essential innovations of the proposed system (Tab le 5) 
+which will fulfil industry requirements to ensure t he HYPERA system is suitable for use as foreign body detection system in modern 
+food processing. 
+TABLE 5 - UNIQUE FEATURES DELI VERED BY HYPERA®  
+Desired 
+feature 
+Why is this important?  How the HYPERA solution ensures this feature 
+                                                           
+24 Bannon, D. and Thomas, R. Meeting the Optical Demands of Next Generation Hyperspectral Imaging Spectrometers. Source: http://www.headwallphotonics.com/Portals/145999/docs/photonics_tech_briefs.pdf 
+25 ElMasry, G., &  Sun, D.-W. (2010). Principles of hyperspectral imaging technology. In D. -W. Sun (Ed.), Hyperspectral Imaging for Food Quality Analysis and Control (pp. 3 -43). London, Burlington, San Diego: Academic Press, Elsevier. ISBN: 
+9780123747532 
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+14 | P a g e  
+ 
+Penetration Many foreign bodies are buried in t he food material 
+and are not simply present on the surface 
+NIR-MSI enables penetration of food matrixes to a typical depth of 5 cm - The use of 
+chemometrics –even in such poorly informative spectral region s- contribute to 
+address in some extent the issues caused by scattering: while shape and position 
+information is blurred by scattering, the scattered rays hold composition -related 
+information that can be unveiled by powerful chemometrics methods -this is a major 
+advance for foreign body detection. 
+Composition 
+differentiation 
+There is a need to be able to detect and classify 
+foreign bodies, their type, vs. food materials that 
+should be present in the food ; contrast is better in 
+terms of composition rather than in terms of color.   
+SWIR spectral ranges allow for better composition differentiation enabled by the 
+ability of the extended infrared spectral bands to obtain more chemical information 
+from the sample.  
+Accuracy Image distortion caused by scattering is one of the key 
+challenges with regard to the detection of bulk -borne 
+bodies; even when transparency is not a problem 
+many substances show poor optical absorbance in the 
+NIR and SWIR ranges - the irregular nature of many 
+bodies degrades the spatial information and the shape 
+and position become undefined. 
+Chemometric models will minimise the consequences of the image distortion caused 
+by scattering, as explained above. For artificial vision and X -ray systems, defined 
+shape is a key requirement because the detection is just based on identifying 
+unexpected shapes (shades, refractions and reflections, for example).  
+Chemometrics works with spectral data instead.  Moreover, redundant (corroboratory) 
+information –provided by two different but complementary spectral ranges, NIR and 
+SWIR- increases detection (identification) probability and reduces uncertainty.  
+Compactness, 
+low-cost design 
+Low cost tolerance in food industry for equipment, 
+installation and operational investments.    
+Enabled by the extended infrared spectral bands to obtain more chemical informa tion 
+from the sample using novel detectors. 
+High inspection 
+speeds, 
+affordability and 
+versatility 
+Need to be able to keep pace with modern processing 
+lines. For retrofitting purposes - seamless installation 
+into existing lines causing as little disruption as 
+possible, as well as easy access for maintenance. 
+Software upgrades should enable additional products 
+and objects to be inspected.   
+By combining a flexible hyperspectral imager design with integrated chemometric 
+tools based on the in -depth analysis of industrial requirements to adapt multiple 
+application purposes and various objects, tackling one of the major reasons for the 
+high cost and slower speeds of current HSI systems, whereby current food inspection 
+hyperspectral imagers typically acquire much superfluous information which occupies 
+a large part of the system resources.  
+While currently available NIR and SWIR HSI systems offer good results in the laboratory, the HYPERA® system, with extended 
+infrared spectral range, will offer improved qualities, lower cost and new features  to be welcomed and widely used by the industry 
+production lines. The chemometric tools combined with the hyperspectral imager proposed in the present application will addre ss the 
+long standing problem of low efficiency and single function. 
+When compared with other competing inspection systems in use in the market today, such as metal detection and x -ray systems, in 
+relation to foreign body detection, each product presents special technological challenges. For example, translucent and opaque liquids 
+filled in bottles, coloured opaque plastic packages, tin cans or milk cartons all respond differently to available detection systems. Metal 
+detectors find splinters from machinery, fractions of broken cutters and blades, needles, s crews or fragments of clips. X -ray detectors 
+respond to metal, stone, bone, hard plastics and Teflon. Both systems can screen the product after the filling procedure. X -ray 
+detectors may find glass pieces that result when a jar or bottle is crushed during malfunction of the packaging line. More recent 
+developments such as near-field radar response enables foreign bodies to be detected by transmitting low -power microwaves through 
+the material 26, whereby the dielectric properties of the food flow of processing  equipment is measured. Foreign materials produce a 
+deviation from the norm, activating a pneumatic rejection unit. However, as was discussed earlier, some of these methods are 
+expensive and not versatile enough for offering comprehensive quality control. This opens up enormous opportunities for our 
+HYPERA® solution, particularly when the unwanted bodies are very similar –in terms of composition and density - to the foodstuff.  
+Moreover, HSI is more sensitive than the homologue “1 -pixel” spectrophotometer because of a geometric fact: in the event of a small 
+body whose chemical composition differs from the composition of the surrounding bodies, its spectrum will be “pure” and, 
+consequently, easily identified; on the contrary, by averaging the whole image in onl y one optical channel –as the typical “1 -pixel” 
+spectrophotometer does-, the contribution of such small body is not relevant and the body will not be detected. 
+Another key advantage of the HYPERA system over competing HSI systems, its ability to penetrate materials. I n terms of 
+transparency, can be partially addressed in the SWIR range –around 5 mm or deeper according to each particular case - and even 
+deeper in the NIR range -5 cm or more depending on the case. VIS imaging (artificial vision) is not capable  of penetrating more than 1 
+mm. of materials.   
+Finally, in terms of improvement potential over time, the ability to completely eliminate the image distortion that is created due to light 
+scattering would heighten further the competitive advantages of the HYPERA system. As foodstuffs are not homogeneous media in the 
+widest sense, such non-homogeneities causes scattering and, consequently, loss of spatial information (position and shape). While our 
+chemometric tools will significantly reduce this scattering problem, our ambition is to completely eliminate this over time, through the 
+use of highly novel Imaging in Complex Media (ICM) tools, which will perform s pecial mathematical pre-processing for overcoming this 
+drawback. Previous work with ICM on the analysis of seismic waves and surveillance through foggy media, improved by means of the 
+newest “deep learning” solutions for extracting trends (order) from chaotic sour ces of data (big data paradigm) will be built upon in 
+order to continue to add competitive advantages and breakthroughs to strengthen the market competitiveness of the HYPERA product.    
+                                                           
+26 Swedish Institute for Food and Biotechnology and the Food Radar System (FRS) in http://www.foodradar.com/assets/pdf/fruit_processing_0112.pdf  
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+15 | P a g e  
+ 
+2. IMPACT
+2.1 EXPECTED IMPACTS  
+Foreign body hazards represent one of the most significant risks associated with the production and distribution of food prod ucts. 
+Prevention is key to minimising the risks to consumer health and safety and avoiding product rejections and recalls that can lead to 
+high levels of food being wasted. The HYPERA® system for the cost -effective, rapid, reliable and non -destructive real-time inspection 
+of foods for foreign body detection and chemical composition analysis . This non-invasive quality control method for preventing non -
+spec products from entering the food chain, will avoid product rejections, product recalls, and will safeguard  consumer health and 
+safety. It is a timely development that will deliver high impact.   
+A) USERS / MARKET  
+USER NEEDS THAT ARE BEING MET  
+This project responds to a real and growing need among food processors, both large corporation s and SMEs to guarantee the 
+quality and safety of their food products and to prevent foods containing foreign bodies from entering the food chain . Indeed, 
+the production of safe food is considered one of the most challenging jobs in the world 27. All food pro ducers, distributors and retailers 
+are surrounded by risk. Foreign body contamination of food and drink products is the single biggest cause of product recalls 28. Brand 
+protection is an increasing preoccupation with food processors and the wider food supply chain, whereby central to the ability to protect 
+a brand, is the ability to avoid a recall in the first instance. In modern food processing, the number of occurrences of foreign materials is 
+decreasing as the food industry continuously improves the safety  and quality of their products. However, this trend also decreases 
+public acceptance for such occurrences to a level that approaches “ zero tolerance .”29. There is increasing pressure on the food 
+industry to adopt self-regulation for food quality and safety best practices and standards and are becoming critical to food processor’s 
+business success . Any incidence of foreign material harms the consumer, undermines confidence in the brand and generates 
+headlines. The name of the producer and the grocery chain th at sold the article are widely reported. 29 The ability to manufacture high -
+quality products consistently is the basis for success in the highly co mpetitive food industry. It secures brand protection and 
+encourages loyalty in customers and the ability to attract new customers to increase market share. Applying a rapid, accurate, and non-
+invasive technique in food analytical procedure for quality eval uation and safety inspection has become an urgent need in the food 
+industry10. Beyond the European context, globally food producers are also facing  mounting pressure. In the US for example, the food 
+supply need to take actions in line with the Food Safety Modernization Act (FSMA) that mandates all processing facilities implement 
+comprehensive, science based preventive controls that are appropriate for their operations.  With increased consumer demand, and 
+market and legislative expectations for food products with high quality and safety 30, the need for accurate, fast, and objective quality 
+determination of these characteristics continues to grow.  Moreover, in modern food processing, as plant throughput increases and 
+quality tolerance is tightened, it is necessary to employ automatic methods for quality assurance and quality control31. 
+Four large and SME food processors - CASA TARRADELLAS (pizza processor ), PLATOS TRADICIONALES (Ready to Eat foods), 
+MARÍN GIMENEZ (processed fruit and vegetables); DAWN FARM FOODS (cooked and fermented meats) - will collaborate with us in 
+an early adopter capacity as they all, despite having different systems installed, such as X-ray systems, are seeking complementary 
+and robust solutions in order to overcome the limitations of their existing systems and to reduce the burden on visual inspection. 
+                                                           
+27 http://www.foodindustrycounsel.com/2015/05/protecting-your-brand-by-finding-and-eliminating-food-safety-risk/  
+28 Ray Gibson, (2000) "Foreign bodies cause most recalls", Nutrition & Food Science, Vol. 30 Iss: 4, pp.187 - 191 
+29 http://www.foodsafetymagazine.com/magazine-archive1/octobernovember-2012/testing-foreign-object-detection-integration-in-food-production/ 
+30 Nagata, M., Tallada, J. G., Kobayashi, T., & Toyoda, H. (2005). NIR hyperspectral imaging for measurement of internal quality in strawberries. Paper No. 053131, ASAE Annual Intl. Meeting, Tampa, Florida, US. 
+31 Gunasekaran, S. (1996). Computer vision technology for food quality assurance. Trends in Food Science & Technology, 7(8), 245–256. 
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+16 | P a g e  
+ 
+An assessment of industry needs has been central to the conceptualisation of the  HYPERA HSI innovations (see Table 1) and in the 
+unique features that the product will offer (see Table 5), whereby the key requirements that need to be met, according to our  early 
+adopter companies and a wider consensus with companies that have been inter viewed from our client base and networks, as well as 
+industry engagement at following trade exhibitions  and conferences: BTA Barcelona Food Technologies (May 21 -24 2015), Global 
+Food Safety 2015 in Amsterdam (September 8 -9, 
+2015), Anuga Food Congress in Co logne (October 
+10-14 2015) are as follows: a) speed (to keep with 
+processing speeds of 1m/sec); b) affordability (in 
+terms of equipment cost, installation and operating 
+costs- € 80k for an installed unit will give a ROI in 2-3 
+years in terms of saved QC co sts ); c) accuracy 
+(>95% in classification and better than 10% around 
+the target value are considered acceptable 
+accuracies for online applications).  
+With the continued technical innovations in 
+manufacturing and computing, it is now possible for 
+us to develop a HIS system that is capable of  
+performing in a low -cost and high -speed way for 
+online and real-time detection of various products10.  
+MAI N ECONOMIC BENEFITS FOR THE 
+USERS AND UNIQUE SEL LING POINTS  
+To be profitable, industry requires equipment that 
+ensures high -quality production, and efficient work 
+methods and cost. The ability to automate the quality 
+control and inspection process will save time 
+compared to manual or post -production product 
+inspection, thereby increasing product throughput, 
+involving less handling (and subsequent reduced risk 
+of food infection with microbes and pathogens), 
+reduced incidences of spoilage as it is a non-invasive 
+method, as well as  removing human subjectivity 
+and inconsistency. This fact is even more important 
+in developed countries to enable companies to 
+defend their position and competitiveness against 
+others where labour cost does not account for such 
+a significant part of the overall manufacturing cost 32. 
+Considering that the productivity of a person 
+working in a mechanised and automated environment is approximately ten times that of a manual worker33, if quality evaluation 
+is achieved automatically, production speed and efficiency can be improved drastically in addition to increased evaluation ac curacy, 
+with an accompanying reduction in production costs. Moreover, automation usually increases the productivity and cha nges the 
+character of the work, making it less arduous and more attractive.   
+If we consider, the costs of a product recall, HYPERA® system is a very worthwhile insurance policy: recall costs, which include getting 
+food off shelves, handling lawsuits, repa iring public relations, and potentially revamping plants can pose an enormous burden on 
+companies, in addition to damaged reputation and lost sales. The potential negative impact of publicity surrounding an incide nt means 
+that manufacturers have to be meticulous, and their systems need to provide confidence that any complaints cannot have originated in 
+their factories. If there is any doubt at all then this can lead to costly and damaging product recalls. For smaller companies, the ensuing 
+economic impacts can result in them going out of business.  
+The Unique Selling Points  of the HYPERA® system that will be promoted to Quality and Production Managers, and other key 
+decision makers in the food industry , are summarised in the poster in Figure 3. These USPs (which will be revised and upgraded as 
+necessary in the early stages of our Phase 2 project, and used as a communication tool towards the industry) will contribute to strong 
+                                                           
+32 Applications and Experiences of Quality Control. Chapter 33: Hyperspectral Imaging for Raw Material Sorting and Processed Pro duct Quality Control. Pilar-Beatriz García-Allende, Olga M. Conde and José Miguel López -Higuera. University of 
+Cantabria Spain.  
+33 Abdullah, M.Z.,Guan, L.C., Lim, K.C., & Karim, A.A. (2004). The applications of computer vision system and tomographic radar imaging for assessing physical properties of food. J. Food Engineering, 61, 125–135. 
+FIGURE 3 - POSTER OF THE HYPERA  USPS.  
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+17 | P a g e  
+ 
+technology push as major drivers for stimulating market demand for the technology am ong food processors, opening up an enormous 
+opportunity for HYPERA® to secure a leading position as the most complete, high performance HSI equipment in the market today and 
+will make the system highly suitable for easy integration and use in industrial food processing lines for the real-time detection of foreign 
+bodies and chemical analysis of foodstuffs (and other products).  
+DESCRIPTION OF THE M ARKET  
+We are addressing the global food processing market. Looking at the size of the market, in the context of the Europe alone, the food 
+and drink (F&D) industry is the largest manufacturing sector both in terms of turnover (€1017 billion), Value Added (€203 bil lion) and 
+employment (generating 4.25 million jobs) 34. SMEs make up 285,000 (or 99.1%) of the total food  companies in the EU 34. Globally the 
+industry is increasingly concerned with food safety, as highly publicised, high profile food safety incidence s and scandals in recent 
+years have undermined consumer confidence and trust, and more stringent legislation and market pressures are forcing the industry to 
+improve quality control and safety standards and to take measures to protect their brands.  
+In Europe the following scandals (to mention a few) are defining a market whereby food quality and safety are central concerns: the 
+recent horse meat scandal in beef products that has disrupted the food chain in a major way throughout Europe; the 2011 E.Col i 
+outbreak where some 30 people died and over 3000 people were sickened; the mad cow disease that wreaked havoc on the European 
+beef industry in the 90’s (whereby the effects are still present and anybody that spend at least 3 months in the UK between J an 1 1980 
+and Dec 31st 1996 is prohibited from donating blood). In the global context, in the People's Republic of China for example, food safety 
+is of growing concern, fuelled by the high publicised cases of deaths and illnesses caused by melamine-laced milk and baby formula (in 
+2008 when at least six children died after consuming milk that contained melamine, an industrial chemical that causes kidney stones in 
+children), Salmonella-tainted seafood, and clenbuterol-treated pork. The misuse and overuse of hundreds of chemicals, many of them 
+banned and toxic, have led to death for scores and sickness in hundreds of thousands of people throughout China. Recent opini on 
+polls reveal that a majority of ordinary citizens mistrust their nation’s food suppliers and processo rs35. The situation has become a 
+matter of grave concern. The problem affects not only China but also Europe, the US and other countries that import Chinese -grown 
+and processed food. In the US, in 2011, the listeria outbreak in cantaloupe was noted as the d eadliest outbreak of food-related illness 
+in more than 10 years in the United States. 30 people died and 146 were sickened. In 2012, there was another big cantaloupe r ecall 
+from a different farm. The “pink slime” scandal, a controversial beef additive made  up of spare beef trimmings that have been treated 
+with ammonium hydroxide to make them safe and at least semi -palatable shows the power of social media and how quickly news can 
+go viral and brands can be irreparably damaged.  Celebrity chef Jamie Oliver br ought the “pink slime” term to light, and while the 
+additive may have been safe enough for consumption, fear -mongering coupled with distrust of the beef industry led to a massive 
+outcry, and the closure of three plants.  
+Indeed, the food supply chain has b ecome a complex global system consisting of small to large domestic and foreign manufacturers, 
+processors, packers, distributors, and transporters with few common business practices 36. As retailers, food service organizations, and 
+marketers of branded products invest to promote their brands in the marketplace, many food processors are now being measured on 
+their ability to help customers protect their brands, reputations, and profitability 37. Consequently, in addition to traditional metrics such 
+as price, product consistency and service, brand protection is increasingly being used as a new competitive metric to earn and 
+keep customer’s business and loyalty. Food processor who can demonstrate the most reliable means of brand protection can 
+leverage a significant competitive advantage in the value chain . Food processors who can demonstrate they are taking measures 
+to ensure food safety and quality are in a position to command favourable pricing and enjoy “preferred supplier” status with customers, 
+while also benefiting by raising the barrier to entry by competitors and protecting their own existing market share 37. Real-time quality 
+monitoring technology, such as HYPERA® can play a key role in brand protection by preventing off -spec products entering the supply 
+chain. These are all major drivers for investment in the HYPERA® solution. Importantly, investments in equipment are increasing: 
+Investment in food processing machinery has been climbing ~7.3 % per year since 2011 -2012 and is predicted to reach $53.3 
+billion in the global market in 201638. 
+MAIN COMPETITORS AND  THEIR COMPETITIVE SO LUTIONS  
+A number of manufacturers of HSI equipment exist in the market today and Table 6  provides a comparative overview. Two of the HSI 
+equipment manufacturers from Europe - SPECIM and INNO -SPEC- are already camera suppliers of ours, and indeed HYPERA® 
+affords them with an opportunity to increase their sales an d turnover by acting as component suppliers (HSI cameras) to our 
+HYPERA® solution (whereby depending on the application, the most appropriate camera will be selected). This could also be the case 
+for and Norsk Elektro Optikk A/S. To this end, these European players in the HSI equipment field are all potential collaborators of ours, 
+whereby their business models are based on equipment/device commercialisation , and they do not specialise in the integration and 
+                                                           
+34 Promoting an EU industrial policy for food and drink. Competitiveness Report 2013-2014. Food and Drink Europe.  
+35 Eye on China by Ted Agres. Food Quality & Safety magazine, October/November 2011 
+36 Paula Hollywood (2012). Using Your Laboratory to Protect Your Brand. ARC View. October 12th, 2012. ARC Advisory Group. 
+37 Ensuring Food Safety and Brand Protection Through Supply Chain Traceability. White Paper. CDC Software. Available at:  http://www.foodprocessing.com/assets/wp_downloads/pdf/FoodSafetyBrandProtect2009.pdf  
+38 Freedonia Group. World Food Processing Machinery to 2016 - Demand and Sales Forecasts, Market Share, Market Size, Market Leaders  
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+18 | P a g e  
+ 
+customisation of turnkey HSI solutions in the industry (which requires chemometrics, calibration and engineering/integration into the 
+processing lines, as well as after-sales maintenance and servicing). The HYPERA® business model is based on a full turnkey solution 
+that is commercialised based on a co re platform technology that is specifically designed for real -time food inspection applications. Our 
+positioning in this `integration gap´ (as discussed in more detail Section 1), heightens the impacts for Europe, as the HYPERA® 
+solution will serve to open  up applications for HSI in the global food industry  (and pharmaceuticals in quick succession) , which will 
+increase demand for European manufactured HSI cameras/ imagers. On the other side of the Atlantic, providers of HSI such as 
+CytoViva Inc. offer equipm ent targeted at research labs that cannot be scaled up for in -line monitoring. Headwall Photonics is a 
+supplier of the Hyperspec® equipment in the UV to SWIR ranges and also covering the midwave infrared (MWIR) and longwave 
+infrared (LWIR). Like SPECIM and  INNOSPEC for example, they do not develop integrated solutions. However, a number of 
+companies are positioning themselves as solutions providers, with RESONON from the US and PPO from Canada being the most 
+noteworthy in the context of industrial applicati ons. The unique features of the HYPERA® system in terms of high processing speed, 
+penetration, chemical differentiation, minimal distortion and affordable price allow us to position ourselves against these c ompanies 
+with a very favourable price/performance  ratio. Importantly, the existence of emerging competition is a healthy indicator of the 
+existence of a very promising market opportunity. It is ideal timing for a European offering to step into the arena to domi nate the 
+European market and leverage a strong and early foothold in the global market.              
+TABLE 6 - COMPARATIVE OVERVIEW  OF COMMERCIALLY AVAI LABLE HYPERSPECTRAL IMAGING EQUIPMENT  
+Manufacturer Country HSI product/brand Spectral range Applications 
+CytoViva, Inc.  US CytoViva Visible near infrared spectral range 
+(VNIR) 
+Targeted at research laboratories 
+Headwall 
+Photonics 
+US Hyperspec® VIS, VNIR, SWIR and Extended -
+SWIR 
+Targeted at research, industrial applications and airborne 
+platforms 
+Resonon US Pika IIi   400- 900 nm VNIR  Targeted to harsh industrial environments and airborne platforms 
+Pika XC  High-performance 400 to 1000 nm Core device for developing applications in VNIR range 
+Pika NIR  900 to 1700 nm NIR HSI Core device for developing applications in SWIR range 
+Specim Finland AISA VIS, VNIR, SWIR, MWIR and LWIR Airborne and defence usage 
+SisuROCK VIS, VNIR, SWIR, MWIR and LWIR Drill core mineral mapping technology 
+SisuCHEMA Breeze 400-1000; 900-1700; 1000-2500 nm Desktop pushbroom system for chemical and pharmaceutical 
+samples 
+Norsk Elektro 
+Optikk A/S 
+Norway HySpex 
+hyperspectral 
+cameras 
+VNIR from 400 to 1000 nm and SWIR 
+from 900 to 2500 nm 
+Airborne platforms, research labs, industry.  
+P&P Optica, 
+Inc. 
+Canada PPO SWIR 850- 2500 nm Industry applications: Tissue Differentiation; Standoff Detection; 
+Aerial Surveying; Environmental Testing; Quality Control 
+INNO-SPEC German
+y 
+Spectral imaging 
+system NIR 1.7 
+SWIR (900-1700 nm) Core instrument designed for being integrated in industrial 
+applications 
+Color combination 
+NIR 1.7 
+RGB (VIS) + SWIR (900-1700 nm) Core instrument designed for being integrated in industrial 
+applications 
+IRIS Spain HYPERA®  SWIR-HSI (900-1700 nm) 
+NIR-MSI (700-1050 nm) 
+Integrated solution for industrial applications 
+Regarding a price analysis, first of all the table above describes the principal available cameras; none of them come close to a complex 
+and complete solution such as HYPERA. There are some very simple multispectral VIS-NIR cameras available in the market for as little 
+as €7k, right up to cameras at €80k (high end version-640 pixels), which do not offer software or integration in the processing line. Our 
+HYPERA combination of 2 cameras (VIS -NIR and SWIR), lighting, so ftware, housing for harsh environment and for in-line integration, 
+at €80k is very well priced (this prices will be validated during the Phase 2).  
+ MOST RELEVANT MARKET  SEGMENTS FOR INTRODU CTION OF THE NEW SOL UTION  
+We are initially targeting food processing applications (and once we have secured traction in this sector, we will commence introduction 
+into the pharmaceutical sector). The HYPERA will be fully deploy ed in the ‘first client’ group ( CASA TARRADELLAS, PLATOS 
+TRADICIONALES, MARÍN GIMENEZ, DAWN FARM FOODS ) during the Phase 2. These com panies will serve as powerful endorsers 
+of the HYPERA® in the pizza, meat, fruit and vegetable processing and RTE foods segments . In the commercialisation phase, we will 
+leverage application notes from these  business cases to build sales in Europe and glob ally targeting these and other segments where  
+there are clear technological gaps and increasing industry interest in investing in solutions for automatic quality control, and for 
+applications in which HSI has already shown considerable achievements in addr essing quality and safety issues in previous studies: 
+fish and other seafood39,40, grains, dairy products, and horticultural products41,42,43,44, among others. Once we have gained traction and 
+sales in the food industry we will target the pharmaceutical industry (planned for 2021).   
+                                                           
+39ElMasry G, Iqbal A, Sun D-W, Allen P, Ward P. 2011a. Quality classification of cooked, sliced turkey hams using NIR hyperspectral imaging system. J Food Eng 103:333–44. 
+40 ElMasry G, Sun D-W, Allen P. 2011b. Non-destructive determination of water-holding capacity in fresh beef by using NIR hyperspectral imaging. Food Res Int 44:2624–33 
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+19 | P a g e  
+ 
+MARKET BARRIERS TO B E OVERCOME  
+The major barriers preventing uptake in the food industry are cost, speed and accuracy - HYPERA is ov ercoming each.  Food 
+legislation that places food quality and safety responsibility with the producer will be a driver for adoption of  HYPERA and evidence 
+based application notes and publications from the project will be powerful documents for demonstrating  the accuracy and reliability of 
+the HYPERA system for food quality inspection.  A solid approach is to first build the HYPERA brand with strong industry case studies 
+and establish a client base with international names from the food industry, and later pro gress to enter the pharma sector, whereby the 
+most significant barriers to market entry will be regulatory and validation requirements (e.g. CFR 21 11).  
+TARGET USERS AND HOW  THEY WILL BE REACHED  
+The targeted users of the fi nal HYPERA solution are food companies (and pharmaceutical companies in the post -project phase) both 
+SMEs and large enterprises . This is a global market. Our initial  effort will focus on targeting  the headquarters of large-size 
+companies in the Food and  Pharma industry, which have been defined as the early innovator group, due to a) their high production 
+volumes justifying the c ost of an automatic food inspection system ; the probability of follow -up contracts is high for large -size 
+companies: once first in -line monitoring units are succe ssfully tested, the probability is high that they ask for further units to roll -out 
+automatic food quality inspection in their international production plants . IRIS will contact directly with headquarters because they are 
+usually in charge of implementing new technologies and process improvements. Headquarter (HQ) locations of the Top100 companies 
+in the food 45, pharma46, are primarily located in the EU (mainly Germany, Switzerland, France, UK and Italy), North America (US and 
+Canada) and Asia (main ly Japan a nd India, and China). Selling the HYPERA® product i nvolves selling the equipment, the system 
+calibration (acquiring spectra of client samples, conducting laboratory referential analysis and elaboration of predictive mo dels) and 
+integration in the production line (engineering). Due to a relative high service proportion, the direct contact with important clients will be 
+crucial. For this purpose, IRIS has plans to open regional offices to acquire high -priority clients, establish agreements with distributors, 
+manage distributors and deliver the service part during and after the acquisition process (in 2015 we opened an office in New York and 
+San Francisco) . D istribution roll -out will take place in two phases as is described below under the heading ‘Strategy plan for 
+commercialisation of the business innovation project’. IRIS has an experienced Sales and Marketing Department and the experience to 
+effectively reach the decision makers (Plant Managers, Quality Managers, Production Managers, R&D and Innovation Di rectors) in the 
+process industries is present. Targeted communication campaigns to companies from IRIS existing client -base and networks (which 
+include such large industries as DAIRYGOLD, NESTLE, DAWN MEATS, GSK, SANOFI, ALMIRALL, among others) and beyond will be 
+designed (via electronic mailings, paper mailings, personal/face -to-face communication…), and through the channels of our 
+distribution/sales agents. Prospective customers will be found using a combination of a website with application examples and  
+technical presentations at conferences and exhibitions (listed under ‘Communication’ below).
+2.2 MEASURES TO MAXI MISE IMPA CT  
+A) DISSEMINATION AND  EXPLOITATION OF RESU LTS  
+KEY STAKEHOLDER INVO LVEMENT FOR SUCCESSF UL EXPLOITATION  
+The following stakeholders have been identified for their possibility to add value and to facilitate the commercial exploitation of the 
+HYPERA®: ■ Additional bet a clients from different food segments , pharmaceutical processing (and chemical industries) who will 
+enable us to create additional application studies and Business User Cases;  ■ Reputable and effective distributors and sales 
+agents for building our European and global commercial network, along with OEMs that are interested in integrating HYPERA into their 
+equipment to create a ‘smart’ or ‘intelligent’ equipment o ffering; ■ Industry Associations and Clusters who can provide a very 
+powerful pathway to their members . They also enable active engagement with policy makers and in helping the industry and policy -
+makers to work together towards common goals in relation to process efficiency, quality, safety, sustainability, etc. ■ Spectral imager 
+providers, whereby HYPERA ® provides them with an inte gration partner to mainstream the adoption of their sensors in in -process 
+industry applications. ■Equipment certification consultants to facilitate all the steps involved in obtaining certifications; ■ Renowned 
+academics and industry influencers who can independently test the HYPERA system and publish/disseminate the results.  
+FURTHER STEPS NEEDED  BEFORE THE RESULTS A RE MARKET READY  
+Our approach in relation to planning the steps to wards being market ready is centred on the well -established 4 Ps Marketing Mix - 
+Product, Price, Promotion, Place- (Figure 4). Based on past experience we know this is a robust and complete approach to planning 
+a pathway from product to market . Central to the methodology is the target market (discussed above), so that we always keep our 
+target market (i.e. the food industry - and eventually the pharma market- and more specifically the decision makers within this industry, 
+                                                                                                                                                                                                                        
+41 Karimi Y, 2012. Application of hyperspectral technique for color classification avocados subjected to different treatments. Food Bioproc Technol 5:252–64. 
+42 Cen H, Lu R, Ariana DP, Mendoza F. 2013. Hyperspectral imaging-based classification and wavebands selection for internal defect detection of pickling cucumbers. Food Bioproc Technol 7:1689–1700. 
+43 Wei X, Liu F, Qiu Z, Shao Y, He Y. 2013. Ripeness classification of astringent persimmon using hyperspectral imaging technique. Food Bioproc Technol 7:1371–80. 
+44 Yu K, Zhao Y, Li X, Shao Y, Zhu F, He Y. 2014. Identification of crack features in fresh jujube using Vis/NIR hyperspectral imaging combined with image processing. Comput Electron Agric 103:1–10. 
+45 http://www.foodengineeringmag.com/global-top-100-food-&-beverage-companies 
+46 https://www.google.com/fusiontables/DataSource?docid=1uEZuNGJlP68Imym7zAVT-XHXwhHdvs2lT5L6iNs#rows:id=1  
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+20 | P a g e  
+ 
+who will decide to invest or not in our HYPERA solution). Each  of the ´Ps´ is discussed below in the context of HYPERA and our target 
+market.     
+PRODUCT- As we are dealing with industrial inspection equipment , our  product design, features and functionality are the most 
+important factors. During the Phase 2, we will structure the value proposition of our new prod uct (to validate and improve the  value 
+propositions and USPs we have already formulated- see Figure 3 above). We will draw up the product datasheets that will outline the 
+key information, and we will also crea te product brochur es outlining applications (the application s that have been validated in this 
+project and additional applicatio ns that we plan to quickly serve in the commercialisation phase ), highlighting the benefits, etc. The 
+services that support the product will also be clearly defined (maintenance servi ce, customisation services, upgrades to the software 
+and models), consultancy based on system  use and data understanding. We will also further build the HYPERA  brand identify. We 
+expect all Product-related activities will be completed by the end of the Phase 2.  
+PRICE- In the Phase 2 we will validate and finalise our pricing  based on an up to date knowledge of costs in line with developments , 
+our pricing policy in relation to discounts, credit terms, etc. We have initially set price for an installed unit at € 80k based on our existing 
+technology and market experience. During the Project, we will finalise and validate a price list based on our manufacturing and logistics 
+costs, our required margin to have a profitable business, the necessary margin for distributors/sales agents, and our necessary pricing 
+positioning vis-à-vis market tolerance and competitors.  
+PROMOTION- Measures consist of the communication activities we 
+will use in the marketplace to increase awareness about the product 
+and its benefits to the target segment. Our post project campaign 
+(the communication campaign dur ing the action is discussed in 
+Section 2c below) will consist o f: ■ Official product launch , along 
+with a press conference; ■Exhibiting at shows; ■ Presentations at 
+conferences ■ We know from past experience that the strongest 
+promotional tool is successful applications. As such, building the 
+development round early adopters gives the product the evidence to 
+prove capability and  the push to have strong growth from day one. 
+Publishing articles in industrial/sectoral channels (technical/sectoral 
+magazines, etc.), publishing whitepapers and additional application 
+notes on the product page of our website, etc. ■ Advertising via 
+digital ad campaigns ; ■ Featuring as sponsors at a number of key 
+industry focussed conferences/events. ■ PR campaigns whereby 
+we will aim to reach out to industry influencers who could b e a 
+powerful source of reviews ■ Authoring feature blogs as guest 
+bloggers in on-line sources; ■ O ur sales staff will also play a major 
+role in promotion of the product, and in the Phase 2 they will be trained fully on the HYPERA ■ Sales promotion: we will use this tool 
+for example for our l aunch campaign, whereby companies that agree to buy during the launch period will benefit from a discount, we 
+will also have sales promotions linked to exhibitions, etc.     
+Finally and very importantly, PLACE…in other words, how to get to our product to a  global market. A key requirement is to establish a 
+manufacturing capability to deliver the product. During the Phase 2 project we will establish our manufacturing and associated logistics 
+(Task 4.4), by the end of which we will have produced and quality approved a final product unit. In the post project phase we will build 
+additional stocks  and we will also set up our warehousing inventory. In relation to how we plan to serve the global market, as is 
+discussed below, we will have our own trained Sales Team (supported by an Application Team)  and we will set up our Distribution 
+networks in two stages (as is described under the next heading).  We will also establish agreements with shipping companies for 
+transportation and insurance companies. Through WP5-Gear up to market, we will implement, build on and further detail plan this initial 
+‘Plan for the Dissemination and Exploitation of the Action's Results’.  
+STRATEGY PLAN FOR CO MMERCIALISATION OF T HE BUSINESS INNOVATI ON PROJECT  
+In relation to our commercial strategy, the HYPERA will be commercialised by IRIS . In-situ inspection systems have an extended 
+sales pipeline, with considerable upfront customer interaction, evaluation and testing, and due to the nature of the process 
+manufacturing industries, process analytical systems require some level of customis ation, and they also need to be integrated (and 
+especially as we are offering a turnkey solution)  and ongoing support  has to be ensured . As such, t here are two key aspects of the 
+business plan; the creation a specialist Application Team and the upfront development of a Network of Agents and Distributors; to 
+support the sales and deployment activities.  The process will be driven by the core Sales Team  that will be  led by Mrs. Johanna 
+Granda, th e Commercial Dir ector at IRIS. Marketing process  analysers and inspection systems  is a specialist business, our 
+Application Team will be made up of dedicated engineers who will provide support  to the sales team, such as testing materials and 
+FIGURE 4 - THE ‘ 4 PS ’ MARKETING  MIX  
+
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+21 | P a g e  
+ 
+detailed site visits, advice and support during system installation , provide training and to handle both site and remote the customer 
+support. 
+In order to benefit from local knowledge and experience of selling process systems, as part of the project we will build a network of 
+agents an d distributors to provide a point of contact for customers and follow up on the sales process . As such, our 
+international commercialization strategy will be to start with an agency/distributor network for prospecting and opportunity validation in 
+the key regions not reached by IRIS for marketing and selling the product supported by the in house Application Team. We see these 
+relationships being long term partnerships and ultim ately growing these into regional centres of expertise able to deliver complete 
+solutions. Hence over time these regional centres will develop local application teams and the local sales support will be co mplimented 
+by the establishment regional integration agreements with engineering companies to directly support our commercial and technical 
+centres. Agreements will  also be established with global OEMs for delivering built -in HYPERA systems in their equipment  (e.g. 
+METALQUIMIA, GLATT, GEA, etc.).  
+In relation to our current and planned geographical presence (see figure 6 in the IRIS participant description in Section 4.1 ), IRIS 
+currently has production and c ommercial facilities in Ireland (which allows us to serve UK as well) and Spain (which enables us to 
+serve Portugal and Italy), and as part of our further internationalisation strategy we have recently opened technical/sales offices in US 
+East Coast (New York City) and West Coast (San Francisco) and in 2016/2017 we will open an office in Germany (that wil l also serve 
+Switzerland and Austria), France (which will serve Benelux), Japan (for our Asian presence) and Mexico.  
+Time to first sales is Jan. 2019, when we will commence the sale of first units to our beta clients in the immediate post -project phase 
+and we will build out ours sales effort from there . The end-user involvement in the Phase 2 of this Innovation Project, through our ‘first 
+client’ or early adopters from the food industry will provide a quick route to first sales if industry trials at each site are successful. 
+B) INTELLECTUAL PROP ERTY, KNOWLEDGE PROT ECTION AND REGULATOR Y ISSUES  
+INDUSTRIAL PROPERTY RIGHTS ASSETS  
+IRIS owns the HYPERA® brand and all the know -how behind the HYPERA® development to date in relation to the TRL6/7 
+development of th e novel combination of Shortwave Infrared Hyperspectral Imaging (SWIR -HSI) in reflectance with Near Infrared 
+Multispectral Imaging (NIR-MSI) in reflectance/transmittance, along with the copyright of the chemometric software, and the results of 
+tests for the detection of foreign bodies in foodstuff whereby the SWIR -HSI/NIR-MSI and chemometrics enables a) penetration (NIR), 
+b) composition differentiation (SWIR); and c) minimising the image distortion caused by scattering (chemometrics). IRIS will own all 
+the knowledge items that will be generated through this SME Instrument . In relation to our freedom to operate, we have a patent 
+reviews (discussed below) that concludes that no existing patent directly competes with the envisaged HYPERA ® system.  
+MEASURES FOR  ENSURING COMMERCIAL EXPLOITATION  
+A systematic Technology Watch task will be implemented over the course of the work plan (through T6.1) to ensure we keep up to date 
+of relevant competing developments. In addition, every 6 months a patent review will be performed to reconfirm our ‘freedom to operate’ 
+and to ensure we are not infringing on the IPR of a third party. A SWOT analysis will be prep ared at M6 of the project by the IRIS 
+Management Board and it will be reviewed and updated each quarter in relation to the HYPERA ® solution strengths and weaknesses 
+and in the context of the market opportunity and any threats to realising commercial explo itation. A major effort we have made in order 
+to pave the way forward for commercial exploitation has been lining up a powerful group of “early adopters”, through our 4 first beta 
+client companies of different sizes, representing different segments of the food processing industry (pizza, meat, fruit and veg 
+processing and RTE foods). These will allow us to gain serious endorsement value from the Phase 2 project and to document impactful 
+case studies/business cases in the use of HYPERA® for automatic food inspection applications.    
+KNOWLEDGE MANAGEMENT  AND PROTECTION STRAT EGY  
+A patent search has been performed to confirm our freedom to operate. The last patent search was performed on January 25th, 2016, 
+using the World Intellectual Property Organisation (WIPO) PATENTSCOPE database 
+(https://patentscope.wipo.int/search/en/search.jsf) using the key words:  ALLTEXT: “hyperspectral” + “foreign bodies”; ALTEXT: 
+“chemical imaging” + “foreign bodies”; ALLTXT: “multispectral + “foreign bodies” The results revealed that no patent exists that would 
+affect the HYPERA development. In fact, many of them  describe the optical setup of the core device while others  are associated to 
+specific targets (for example, fruits or insects)   while HYPERA is based on adapting off -the-shelf core devices and is intended for 
+generic applications in detection of foodstuff-borne foreign bodies no matter the specific nature of the product to be monitored.  In this 
+set of patents the following  are particularly relevant : "Method and system for contaminant detection during food processing" 
+(US6587575B1, Georgia University), which is limited to use a few wavelengths the VIS -NIR range, very basic algorithms and aimed at 
+detecting fecal and ingesta on meat and poultry carcasses; "Non -destructive detection method and device for agricultural and animal 
+products based on hyperspectral image technology" (CN1995987A, chinese institution), which is limited to the VIS -NIR range, very 
+basic algorithms and aimed at characterizing  agricultural and livestock p roducts; "Equipment and method for analyzing image data" 
+(EP2343671A2, Sumitomo Electric Industries, Ltd.), which is limited to using a variety of the SVM algorithm for processing 
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+22 | P a g e  
+ 
+hyperspectral data; "High spectrum image collector fo r fruit" (CN2874482Y, Chinese institution), which merely describes fruit 
+hyperspectral image acquisition device without mentioning spectral range or data processing tools; "System for multi - and 
+hyperspectral imaging" (US7835002B2, RP Ventures Tech Office AB), which is focused in the optical setup for acquiring the hypercube 
+without any mention to generic or specific application, lighting or data processing; "Imaging spectrometer" (US8994939B2, SPE CIM 
+SPECTRAL IMAGING Ltd Oy), which is focused in the optical setup for acquiring the hypercube without any mention to generic or 
+specific application, lighting or data processing; and " METHODS, SYSTEMS AND DEVICES FOR DETECTING INSECTS AND 
+OTHER PESTS" (WO/2013/017860, UNIVERSITY OF EAST ANGLIA), which is not based on IR spectroscopy but in Raman and 
+fluorescence excited at 600 nm. Basically, we  can conclude that there are no  evident IP conflicts between HYPERA and existing 
+(patented) similar systems because the most of the related patents are constrained to specific applications  or sp ecific sensing 
+technologies such as VIS-NIR hyperspectral imaging.  
+In relation to the novelty of our HYPERA development, in line with the design and development work that will be performed in the 
+Phase 2 we will analyse all outputs for their novelty and for their protectability through Patents, Trademark, Industrial design, Copyright, 
+Trade-secret, or Confidentiality, as appropriate (i.e. the form which offers the most adequate and effective protection for each ty pe of 
+result). We envisage that we will gain IPRs through a number of aspects of the development (all of which will be confirmed and pursued 
+as the developments unfold). In relation to the patentable results of our development, it is expected that the following elements of our 
+developments will be patentable: The specific parameters (settings) for the combination of Shortwave Infrared Hyperspectral Imaging 
+(SWIR-HSI) in reflectance with Near Infrared Multispectral Imaging (NIR -MSI) in reflectance/transmittance for industrially reliable 
+foreign body detection and chemical monitoring of materials. Moreover, we will study the feasible protection routes for the combination 
+of chemometrics (patent possibilities for US, and copyright or other in Europe).  As addressing the ideation of such solutions will be  
+tackled according to the TRIZ methodology, it is envisaged that some of the outputs could be novel and specific enough for be ing 
+patented. In fact, one of the advantages of using such a methodology is its productivity in terms of novelties. We will also s ubmit a 
+trademark application for protecting the HYPERA brand name and its logo.  
+REGULATORY AND/OR ST ANDARD REQUIREMENTS TO BE FULFILLED  
+All EC and national regulations that could influence on the commercialisation of the project outputs will be studied a nd their influence 
+on the develo pment or the future use of HYPERA  product will be taken into account. The requirements in relation to adherence to: 
+ASTM E1655 -97; ASTM E1866 -97; ASTM E1790 -04; IUPAC Guidelines for Calibration in Analytical Chemistry; 
+EMEA/CHMP/CVMP/QWP/17760/2009 Rev2; 11 CFR Part 35; 21 CFR Part 11, EC Machinery Directive and food -processing 
+equipment (EU 98/37/EC Directive), etc.) and standards (e.g. EN45011 or ISO65 quality standards and all manufacturing standards set 
+by ISO and to the GMP regulations, as well as to compliance with the CE Mark, will be given particular attention during the design 
+stages of the system. ATEX certification requirements will also be fulfilled. Through Task 1.3, the regulatory and standard requirements 
+will be studied with the end-users to ensure that all necessary actions that need to be performed during the development work in Phase 
+2 are carefully planned. During Task 4.1, certification applications will be made and the appropriate steps will be initiated t owards 
+obtaining approvals by the standards bodies and to ensure compliance with guidelines, standards and regulations so that HYPERA® 
+can be sold and used in food and pharmaceutical processing in Europe and internationally. It is expected that regulations  in terms of 
+food safety will be drivers for adoption, e.g. Regulation (EC) No. 178, for example, establishes the European Food Safety Authority and 
+outlines the Global Food Law (GFL), focusing on traceability, product withdrawal, recall, and notification for food and feed related to 
+safety requirements, including imports and exports, very similar to the Bioterrorism Act outlined by the U.S.  
+MEASURES TO PROVIDE OPEN ACCESS TO PEER -REVIEWED SCIENTIFIC PUBLICATIONS  
+It is our intention to publish aspects of the project results in peer-reviewed scientific publications, and these will be made available free 
+of charge through Green Open access publishing.  
+C) COMMUNICATION   
+In line with our 4Ps Marketing Mix, the communication activities that will be performed o ver the course of the project will have the 
+principal objective of communicating the benefits and value of our HYPERA product to our future clients . Initial communication 
+activities within the food (and pharma ) industries at exhibitions, have highlighted t he need for and interest in our solution and we 
+believe that the industry will be highly receptive to this message. Early testing provides material for early promotion. A such, during the 
+Phase 2, w e intend to build the brand identity and promote the produ ct actively through standard means such as the project web, 
+leaflet, poster, etc., as well as through more vanguard and dynamic tools such as blogs, social media (LinkedIn and twitter),  
+Infographics, etc. We will also produce white papers as a very powerful and impactful communication tool. Digital marketing will also be 
+employed for reaching users. In Internet marketing, storytelling is a potent method of converting sales prospects to customer s. We will 
+use the ‘business stories’ technique, whereby we will  document case studies from our early adopters (no sensitive processing 
+information will be disclosed and only relevant non -confidential information will be used) to communicate the business benefits of 
+investing in the HYPERA system in an impactful, creat ive and engaging way in order to effectively connect with industry decision 
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+23 | P a g e  
+ 
+makers. We will showcase and exhibit results at 4 exhibitions/tradeshows over the course of the project ( e.g. Alimentaria (Barcelona), 
+FoodTech- formerly BTA - (Barcelona), ANUGA (C ologne), ANALYTICA , etc.) and in at least 4 conferences (e.g. Global Food Safety 
+Conference, Annual European Food Manufacturing & Safety Summit, Pharma Process (Barcelona), APACT, EuPAT, etc.). We will also 
+publish 4 -6 articles in industrial/sectoral chann els (technical/sectoral magazines, etc.). Publications of non -confidential and protect 
+results in peer reviewed journals (e.g. J. of Spectroscopy, J. of Food Processing, J. of Process Control, MORE, etc.) are considered as 
+very powerful marketing tools to the industries, such as food , pharma and other sectors of interest (such as medical) , as well as to 
+policy makers and standards bodies, and we will aim for at least 2-3 papers resulting from the project. We will mobilise our membership 
+in networks and cluster memberships to promote the HYPERA solution and to participate in events/workshop, etc. that would enable us 
+to present HYPERA and disseminate the successful case studies: SPIE (International Society for Optics and Photonics), A. SPIRE 
+(Sustainable Proc ess Industries), SECPHO (Southe rn European Photonics Cluster) , among others. In short, our communication  
+activities will ensure we maximise the future dissemination and exploitation of the project results. Finally, as we are benefitting from tax-
+payers con tributions, there is scope through social media to make the general public aware of the HYPERA development and the 
+associated societal benefits, e.g. contribution to improved industrial competitiveness, job creation, prosperous regions, access to high 
+quality and safe foods (and pharmaceuticals); these are all benefits that contribute to our quality of life as EU citizens. We will benefit 
+from highly qualified digital marketing professionals that form part of the marketing team in IRIS - whereby they have de signed 
+numerous successful digital media campaigns in the past, which is a powerful channel for reaching increasing segments of the 
+population (including industry) through Social Media communication.   
+3. IMPLEMENTATION
+3.1 WORK PLAN – WORK PACKAGES, DELIV ERABLES AND MILESTON ES  
+OVERALL STRUCTURE OF  THE WORK PLAN  
+We have built up our work plan based on our approach covering 3 project phases of a) application, b) product development and c) 
+commercialisation planning. It is 24 months in duration and consists of 7 work packages (WPs) as follows: WP1 will commence by  
+gaining a detailed understanding and characterising the selected process applications at CASA TARRADELLAS, PLATOS 
+TRADICIONALES, MARÍN GIMENEZ, DAWN FARM FOODS. Using the prototype system, we will undertake an initial demonstration of 
+the system on these applications to provide test data for the requirement specification and development project. In WP2, the 
+chemometric models will be developed and validated using the prototype systems and client samples from WP1. Optimised models will 
+be implemented in the system software in WP3. In WP3, the imaging systems will be optimised for the selected applications and a 
+robust industrial hardware design will be performed and the  system software platform will be developed  (and the chemometrics will be 
+implemented) and integrated with the suitable enclosure and safety system for the application. In WP4, the integrated system will then 
+be alpha te sted on the selected applications at the end user sites by the end users and supported by the development teams to 
+validate the design. Having validated the design we will translate  the prototype to a product ( WP5) through the creation of the 
+manufacturing documentation package using the engineering information and specifications. This will be passed to purchasing and 
+production engineering to enable manufacture. Deployment of these first products will be in our participating end -users and to 
+additional selected Beta customers to enable early refinement and troubleshooting support by the Application Team. In parallel with the 
+product development work, we will continually build on and upgrade our business development plan ( WP6). As part of this activity the 
+marketing plan will review the business opportunities of the technology and devise a sales strategy (building on our initial s trategy 
+contained in our business plan). A project management framework  will be implemented through WP7. The Gantt Chart (Below) and 
+Pert diagram (at end of this section) show the timings and the interdependencies between the different WPs and tasks and the 1 -page 
+Gantt (which also includes the deliverables and milestones) is a very effective tool for high-level project control and helicopter overview 
+for effective project management.  
+TIMING OF THE DIFFER ENT WORK PACKAGES AN D THEIR COMPONENTS  
+                                                                                                                                                                               SMEInst-07-2016-2017                                     
+24 | P a g e  
+ 
+ 
+GRAPHICAL PRESENTATI ON OF THE COMPONENTS  SHOWING HOW THEY INT ER-RELATE  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+No WPs and Tasks Del. & 
+Milestones 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+1 Target Applications and System Specifications ML1 # #
+1.1 Characterisation of the target applications and initial trials D1.1 ■
+1.2 Kano Survey and Quality Function deployment (QFD)
+1.3 Definition of the system specifications D1.2 ■
+2 System Hardware and Software ML2, 4, 5, 8 # # # # #
+2.1 Design and building of the system hardware instrumentation D3.1, D3.2 ■ ■
+2.2 Development of the system software D3.3, D3.4

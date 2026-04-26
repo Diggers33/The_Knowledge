@@ -1,0 +1,205 @@
+1.3 Concept and methodology 
+1.3.1. PHOTONFOOD concept  
+ 
+A large number of studies have demonstrated that MIR spectroscopy in combination with advanced data 
+analysis has the capability to identify and detect a broad range of microorganisms and chemical 
+contaminants in a lab setting15,16. Since its invention, the interest from industries in this technique has grown 
+considerably. The technology can be used for identification of contaminants at the genus, species level and in 
+ 
+15 Shapaval. V., et al. Applied Microbiology, 2013, 114, 788-796, doi:10.1111/jam.12092. 
+16 Lecellier. A., et al. Int J of Microbiology, 2014, 3;168-169:32-41.doi: 10.1016/j.ijfoodmicro.2013.10.011. 
+PHOTONFOOD 
+ 
+11 
+ 
+most cases even down to strain level. For bacteria and, recently for fungi, it has been shown that identification 
+is possible with an accuracy above 90% on species level. For moulds, MIR spectroscopy outcompetes any 
+existing technology in accuracy and the broad range of fungi that can be addressed16,17. However, state-of-the-
+art applications are performed in environments and under conditions that are not relevant for on-site use along 
+the farm-to-fork food production chain16,17. State-for-the-art sample preparation protocols for detecting and 
+identifying microbial contamination by MIR analysis are based on culturing and sub-culturing whereas spectra 
+are obtained in pure culture 16,17. 
+The detection of mycotoxins by MIR spectroscopy has been demonstrated by the consortium in the 
+spectral range of 1500–1800 cm -1 in extracts from grains  (see Fig. 2) . However, the challenge is the 
+exceedingly low limits of detection that are required from a legislation point of view. In addition, the potential 
+presence of multiple mycotoxins and contaminants makes the situation even more difficult . The low 
+concentrations of mycotoxin and other contaminants such as antibiotics and pesticides make the direct 
+detection and separation of signals in food matrices impossible. To date, this challenge can only be met by 
+using sophisticated analytical techniques in especially equipped laboratory (e.g., LC-MS/MS) or via antibody-
+based immunoassays (e.g. ELISA).  
+ 
+The PHOTONFOOD concept is to perform preconcentration of samples using paper -based microfluidics 
+strategies and to combine the cheap and environmentally friendly paper-based microfluidics with label-free 
+MIR photonic read-out devices (see Fig. 3).  
+ 
+While paper microfluidic tests for numerous applications in point -of-care-testing, and environmental 
+research have been demonstrated with detection limits in the mid ppb range1718 , few of these offer an integrated 
+solution that also addresses sampling and sample pretreatment. Therefore, the integration of preconcentration 
+ 
+17 Hariharan et al., Opt. Mater. (Amst), 2019, vol. 94, pp. 305–310. 
+18 M. Medina-Sánchez, M. Cadevall, J. Ros, and A. Merkoçi, Anal. Bioanal. Chem., 2015, vol. 407(28), pp. 8445–8449. 
+ 
+Figure 2 : State of the art examples of IR detection of fungal and mycotoxin contaminations . (a) FTIR -ATR spectrum of 
+mycotoxin deoxynivalenol on a paper-based sampling strip. (b) QCL IR spectra of 24 maize extracts with different deoxynivalenol 
+contamination levels (Reprinted from Sieger et al. J Scientific reports 2017, 7:44028). (c) FTIR spectra of chitin and fungal biomass 
+with the characteristic spectral biomarkers for detection of fungal contaminants. (d) Emission spectrum of an IC -LED designed for 
+the 2500 wavenumber (the strong absorption features around 2300 cm-1 are caused by CO2 present in the measurement path). 
+
+PHOTONFOOD 
+ 
+12 
+ 
+would lead to improved detection limits. The WU team has demonstrated such paper microfluidic sample 
+preparation, including paper -based two -phase countercurrent extraction 19, and combining paper and 3D -
+printed microfluidics for controlled preconcentration20. Very recently, WU has developed a miniaturized total-
+analysis system for the detection of allergens in food products, integrating 3D -printed components with a 
+lateral flow immunoassay, and smartphone readout. This system has been successfully used by an  untrained 
+user (15 years old) to differentiate between a cookie containing hazelnut allergen and one without 21 . 
+PHOTONFOOD will built on this experience and develop paper -based microfluidics that can be used by an 
+untrained user such as a consumer and will be tested by end-users as outlined in the stakeholder involvement 
+section on page 29.  
+In preparation of this proposal, partners UULM, WU and BOKU demonstrated the feasibility of the 
+fundamental concept of combining paper-based sampling strategies with label-free MIR read-out technologies. 
+They have recorded the MIR signature of the exemplary mycotoxin deoxynivalenol (DON) sampled via a 
+paper sampling strip from solution, and then directly detected it via conventional MIR-ATR spectroscopy (Fig. 
+2a). The experiment shows that high -quality spectra can in principle be obtained from paper -based 
+microfluidics pressed on an ATR surface. PHOTONFOOD will build on this technology and develop 3D 
+printed interface for microfluidics and the optical surfaces of the MI-FI and HI-FI devices.  
+Furthermore, the c onsortium members UULM, BOKU  and IRIS have shown that mycotoxins can be 
+detected through molecular signature changes in the spectral region from 1500–1800 cm-1  22  (Fig. 2b). NMBU 
+has shown that filamentous fungi have strong and characteristic molecular signatures in the MIR spectral 
+region23  (Fig. 2c). Acetylglucosamine is a subunit of chitin that is present in the cell wall of all fungi and that 
+gives rise to strong signals in the amide I and amide II region of the MIR (1500–1700cm-1) (Fig. 2c). Antibiotics 
+and pesticides show discriminative molecular  signatures in this spectral range as wel 24 . T herefore, 
+PHOTONFOOD will develop tailor -made light sources for this spectral range . Partner NP has already 
+developed breakthrough IC-LED technology with devices emitting in the 2500-3333 cm- 1 spectral range with 
+several mW of output power at room temperature  (Fig. 2d). Adapting the PHOTONFOOD solution to new 
+contaminants that require other spectral ranges in the MIR will be easily possible in the complete 3333-1000 
+cm-1 range. This will be possible due to the ability to specifically engineer the band structure of ICL and QCL 
+ 
+19 G. IJ. Salentijn, M. Grajewski, and E. Verpoorte, Lab Chip, 2017, vol. 17(20), pp. 3401–3404. 
+20 G. IJ. Salentijn and M. H. Hoekstra, “Sensor Cartridge for chemical assays of a liquid sample containing analyte molecules - Patent 
+No. WO2018226097,” 2017 
+21 Ross GMS, Filippini D, Nielen MWF, Salentijn GIJ (2020), Lab Chip, 2020, under review 
+22 Sieger M, et al. J Scientific reports 2017, 7, 44028. 
+23 S. Dzurendova, et al., PlosOne, 2020, accepted.  
+24 Undabeytia T, Morillo E, Maqueda C. J Agric Food Chem. 2002, vol. 50(7), pp. 1918‐1921. 
+ 
+Figure 3: The overall concept of PHOTONFOOD.  
+
+PHOTONFOOD 
+ 
+13 
+ 
+gain material as well as to modify the design parameters of the devices developed within PHOTONFOOD in 
+order to cover additional wavelengths. ICLs and IC -LEDs can be operat ed in continuous-wave mode up to 
+room temperature in this wavelength range with low power consumption, rendering them very cost effective. 
+For QCLs however, power consumption is significantly higher, yet, pulsed operation at room temperature 
+yields significantly higher power output compared to ICL based devices. The research on the photonic devices 
+is based on results obtained in previous FP7 and Horizon 2020 projects such as SensHy, MIRPHAB and 
+MIRACLE (see Table 4) as well as national projects that laid the basis for long wavelength ICL and high 
+performance QCL devices25,26. PHOTONFOOD will be using this knowledge as a basis for the dedicated gain 
+material and the chip development for IC -LEDs and widely tunable lasers in the 1500 -1800 cm -1 spectral 
+region. The photonic devices developed will have TLR of 6 at the end of the project. 
+Portable solutions that can be used for monitoring and reference analysis along the food chain that allow 
+the detection of microbial and chemical contaminations (e.g., mycotoxins, antibiotics) do not exist and are 
+highly desirable22,27,28,29 . Therefore, the PHOTONFOOD solution will include a low-cost mid-fidelity (MI-FI) 
+device for monitoring and a high-fidelity (HI-FI) device for reference analysis, with a mobile application for 
+easy, on-site operations The MI-FI data will be of sufficient quality to decide if contamination is present or 
+not, while the HI-FI device will deliver high-quality spectra, providing the ground for the later a ccreditation 
+of the device for a larger range of contamination problems. These devices will supersede and advance the 
+developed TRL6 -level technology established at UULM and partners for the analysis of mycotoxin 
+contaminations in the laboratory22,28 (see Table 4). 
+To identify if contamination is present or not and to estimate the level of contamination, powerful machine 
+learning, deep learning and other advanced date mining techniques will be used and wrapped into applications 
+for use on mobile phones and portable computers. At the end of the project period the PHOTONFOOD solution 
+will have been demonstrated and validated for selected contaminants and food commodities. Initially, the focus 
+will be on some of the most important microbial and chemical contaminants in food, i.e. fungi, mycotoxins, 
+antibiotics and pesticides. Furthermore, we will demonstrate that the PHOTONFOOD solution can be easily 
+and broadly adapted to any food contaminant.  
+The combination of this broad range of ground -breaking technologies requires highly interdisciplinary 
+competence in such fields as MIR spectroscopy, light source and waveguide development, paper-based on-site 
+chemical analysis, food spoilage microbiology, and data science.   
+The PHOTONFOOD project consists of three essential phases and stakeholders will be involved during all 
+three: (i) The first phase is the technology development phase during which the photonic sensor solution will 
+be developed. (ii) During the second phase the solution will be  demonstrated in lab settings.  (iii) The third 
+phase includes the demonstration and validation of the platform in real settings at critical control points along 
+the food production chain. During the first phase, a technology acceptance and technical-economic evaluation 
+(WP1) will go along with the development of photonic components and data analysis algorithms (WP3-5) and 
+paper-based microfluidics for rapid and reproducible sampling from hard and soft food produc ts and sample 
+pretreatment (WP2). In the second phase, the pre-validation of samples obtained from critical control points 
+along the food chain (raw materials, water from the processing environment (aquaponics), final food products) 
+will be done in laboratory settings. In the third and final phase of the project, the complete solution will be 
+validated in real settings by relevant stakeholders along the food supply value chain. For the validation , one 
+HI-FI and five MI-FI instruments will be produced. The demonstration and validation will be accompanied by 
+evaluation of technology acceptance and technical-economical evaluation in real settings: on farms (wheat and 
+walnut farms), in food processing  facilities (dried fruit producers, peanut processing), wholesale and retail 
+(grain, nuts and dried fruits), and novel food production (aquaponics), as well as food laboratories (authority 
+and private laboratory units). The interaction with users along the complete food supply chain will be crucial 
+for addressing user requirements. 
+ 
+1.3.2 PHOTONFOOD main results and technology readiness levels 
+ 
+ 
+25 N. Schäfer; J. Scheuermann; R. Weih; J. Koeth; S. Höfling, Optical Engineering, 2019, vol. 58(11), pp. 117106. 
+26 L. Naehle, et al. “Monolithic tunable GaSb-based lasers at 3.3 μm“, Electronics Letters, 2011, vol. 47, pp.1092. 
+27 K. Roodenko et al. in Proc. SPIE 11233,  Optical Fibers and Sensors for Medical Diagnostics and Treatment Applications XX, 
+112330C (9 March 2020). 
+28 T. Öner, P. Thiam, G. Kos, R. Krska, F. Schwenker, B. Mizaikoff, World Mycotoxin J., vol. 12(2), pp. 113 – 122. 
+29 McMullin, D., Mizaikoff, B. & Krska, R. Anal Bioanal Chem, 2015, vol. 407, pp. 653-660. 
+PHOTONFOOD 
+ 
+14 
+ 
+PHOTONFOOD will provide innovative photonic IC-LED and ICL/QCL light sources and waveguides for 
+the MIR to overcome drawbacks of existing photonics technology with respect to price, precision and power 
+and will adapt the solution to specific requirements for on-site measurements in the whole food chain. These 
+advances will provide a portable solution that can be used for photonics monitoring and reference analysis in 
+the whole food chain . The photonics solution will contain a unique sample preconcentration that allows the 
+photonics detection of contaminations at the lowest level s. The photonics solution will be combined with a 
+software application that enables the use on-site (mobile and computer application). The prototyping planned 
+in the project and the demonstration of the solution will pave the way to a commercialization after the project 
+period. Table 3 summarizes the technology levels for the different components developed in the project, while 
+Fig. 4 explains the TRL for the complete solution. 
+ 
+Table 3: The individual components of PHOTONFOOD and their TRLs at the project start and after project 
+completion 
+1. Paper-based microfluidics - preconcentration and separation 
+TRL 3-4: The proof-of-concept, which is the MIR detection of mycotoxins from a paper strip has been 
+established for this proposal. Proof-of-concept has already been published for functionalities that will be 
+employed in this project, such as paper-based liquid-liquid extraction, as well as modified-paper-based 
+selective enrichment and immunocapture. These approaches will be further developed and tailored 
+towards the mycotoxin applications in PHOTONFOOD. 
+TRL 5-6: By the end of the project, the most appropriate concept for sample pre-treatment will have been 
+selected, validated and demonstrated in a real scenario. Sampling and pre-treatment will be combined into 
+ 
+Figure 4:  TRLs description for the PHOTONFOOD solution prior, at the start, during, and after the project completion. 
+ 
+
+PHOTONFOOD 
+ 
+15 
+ 
+easy-to-operate cartridges, which will be made available for testing. Demonstrations of the developed 
+technology will be performed for the selected food safety cases. 
+2. 3D-printed interface for microfluidics and optical surfaces 
+TRL 4-5: A 3D-printed micro total analysis system has been developed in the WU labs, which allows for 
+facile extraction and sample pretreatment of allergens from a solid food matrix, followed by a lateral flow 
+immunoassay. This immunoassay has been validated as a screening assay, and the total system was 
+successfully used by an untrained individual.  
+TRL 5-6: By the end of the project, novel strategies will have been developed and validated/demonstrated 
+in real-life scenarios for the hard and soft food products relevant to PHOTONFOODS. Sampling and pre-
+treatment will be combined into easy-to-operate cartridges, which will be made available for testing. Also, 
+facile interfacing with MIR readout will have been achieved at this point. 
+3. HI-FI ICL/QCL light source for 1500-1800 cm-1 range spectral range  
+TRL 4: The technology has already been investigated for the 5000 cm-1 wavelength range based on diode 
+lasers and is currently under evaluation for the sensing of blood alcohol levels within the Driver Alcohol 
+Detection System for Safety (DADSS) program by the Automotive Coalition for Traffic Safety (ACTS). 
+The patent for the underlying technology is pending. NP has the exclusive right of the use of the 
+technologies for any application beyond alcohol sensing in cars. 
+TRL 6: The tunable laser technology will be developed further to extend it to the MIR wavelength range 
+in the 1500-1800 cm-1 spectral region. Depending on the performance requirements in terms of tunability 
+and output power either QCL or ICL gain material will be used for the realization of tailor-made lasers for 
+mycotoxin detection within the PHOTONFOOD project. The proposed novel ICL/QCL based light source 
+will provide essential advantages with respect to ruggedness, compactness, speed and costs compared to 
+tunable external cavity systems currently available on the market.

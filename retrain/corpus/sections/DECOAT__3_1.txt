@@ -1,0 +1,2615 @@
+3.1 Work plan 
+3.1.1 Overall structure of the work plan and graphical representation of components and their interrelations 
+ 
+The key development of 
+DECOAT is the debonding 
+technology. The work plan is 
+basically centred around this 
+novel technology, both for 
+the technical R&D work and 
+for the supporting activities.  
+On technical level, we first 
+need to develop the necessary 
+materials and processes on 
+lab-scale. This will be realised 
+for different triggerable 
+materials and will lead to a 
+portfolio of debonding 
+technologies, each will be 
+characterised, listing the 
+strengths and weaknesses for 
+the respective application 
+domains (WP1). The coating 
+and debonding process as well 
+as a protocol to assess the 
+efficiency of the debonding will be developed in close interaction (WP2). An optical monitoring method for sorting and process 
+control of the coating and for the debonding will be developed (WP3). The debonding process will then be scaled-up via the 
+design and building of an actual pilot line, and performing test runs on generic coated textiles and plastic parts for its validation 
+(WP4). The novel coating systems will be integrated in the existing (adapted) processes by the manufacturers/end-users via use 
+cases. The (small scale) production of products will undergo the recycling process, the recovered materials will be characterised 
+and re-used, which will demonstrate the circular use of the coated parts (WP5).  
+For the transversal activities, we will perform a detailed assessment of the environmental aspects (full LCA), of the costs (LCC) 
+and ensure Safety-by-Design implementation, e.g. for microcapsules (WP6). Because of the systemic change targeted by 
+DECOAT, emphasis is put on the implementation of innovation management: economic assessment (incl. preliminary business 
+plans), dissemination to raise awareness from early on to maximise wide uptake of DECOAT results; communication for 
+interaction with wider stakeholders and promote public awareness of circular economy values (WP7).  
+All these technical and supporting activities will be efficiently coordinated (WP8), which also includes reporting, updating 
+the work plan, data and risk management and interaction with the DECOAT Advisory and Support Group (ASG). 
+For the work plan, we focussed on a more detailed description of the tasks that already can be well-defined steps in the DECOAT 
+activities, e.g. which materials will be developed, which optical detection to be develop, supporting activities. The exact content 
+of most activities later in the project (mainly WP5) will depend strongly on choices that need to be made during the project 
+implementation, so these task descriptions are deliberately kept more open.  
+WP1: Triggerable materials for coatingWP2: Triggerable debondingWP3: Automated sortingWP4: Continuous pilot lineWP5: Demo - circular useWP6: Environment & SafetyWP7: Exploitation, Dissemination & CommunicationWP8: CoordinationSUPPORT
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 42 of 127 
+3.1.2 Timing of the Work Packages and main tasks - Gantt Chart 
+ 
+ 
+Legend:low activityintense activityTask1369121518212427303336394245485154551 - Triggerable materials for coatings - NTUATask 1.1 – Specifications and requirements for end-use cases Task 1.2 – Synthesis of microcapsules and nanoparticles with triggerable response to heat and steam Task 1.3 –  Triggerable primers for interfacial debondingTask 1.4 – Selection and up-scaling Task 1.5 – Characterization of developed triggerable materials2 - Development of the debonding systems - CTBTask 2.1 - Coating formulations, basic coating tests and characterisationTask 2.2 - Development of DECOAT protocol for assessment of debondingTask 2.3 - Optimisation of the coating debonding system and assessment of the separation capacityTask 2.4 - Broadening the application field of separable coatings Task 2.5 -  Tailoring of most promised debonding systems for further processing 3 - Monitoring of Recyclable-by-design materials - IRISTask 3.1 - Process monitoringTask 3.2 - Selection of identification techniquesTask 3.3 - Sorting prototype concept and prototypingTask 3.4 - Guidelines for use of optical techniques for monitoring and quality control 4 - Pilot line - AIMPLASTask 4.1 - Implementation of the pilot lineTask 4.2 - Activation system dependent process optimizationTask 4.3 - Validation of the recycling pilot line Task 4.4 - Maximising the application potential of the recycled plastics5 - Demonstration circular use - MAIERTask 5.1 - Ecodesign of use case products in view of project technological developments Task 5.2 - Manufacturing of prototypes Task 5.3 - Implementation of circular use cases Task 5.4 - Evaluation & Guidelines for further industrial take-up 6- Environment & safety - IRESTask 6.1 - Risk assessment & Safe-by-Design principlesTask 6.2 - Life Cycle Assessment (LCA)Task 6.3 - Life Cycle Costing (LCC)Task 6.4 - Toxicity, Release and Exposure assessmentTask 6.5 - Ecodesign tool 7 - Innovation, dissemination & communication - ISWATask 7.1 - Update and evaluation of outreach strategy Task 7.2 - Exploitation and technology transferTask 7.3 - Dissemination & communicationTask 7.4 - Policy input and standardisationTask 7.5 - Liaison with the EU Clusters, EU projects and external bodies8 - Coordination - CTBTask 8.1 - Efficient management at the administrative levelTask 8.2 - Day-to-day coordinationTask 8.3 - Detailed activity reporting and updating the planningTask 8.4 - Data management planMilestonesM1 Requirements defined (WP1)M2 First selection of triggerable materials M3 First selection of debonding systems & Survey on SbD principles per partnerM4 Selection of most promising materials for application in subsequent industrial testsM5 Prototype system available for the monitoring of DECOAT recyclable-by-design materialsM6 Pilot line validatedM7 Demonstration of ‘circular use’M6M1M4M3M2GAGAGAGAGAGAGAGAM5M7DC2DC3DC1GAGAGAGAGA
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 53 of 127 
+ 
+4 Members of the Consortium
+4.1 Participants 
+The DECOAT consortium consists of 17 partners and further a group of 17 partners who expressed their support to the 
+consortium via a Letter of Support. The latter group forms the Advisory and Support Group or ASG. Both groups are 
+described below; the Letters of Support are included behind the actual DECOAT partners.  
+Participant 
+no. 
+Short name Participant organisation name Country Organisation 
+Type 
+1 
+coordinator 
+CTB Centexbel BE RTD 
+2 AIMPLAS Asociacion De Investigacion De Materiales Plasticos Y 
+Conexas 
+ES RTD 
+3 IVV Fraunhofer-Gesellschaft zur Förderung der Angewandten 
+Forschung e. V. – IVV 
+DE RTD 
+4 CTAG Centro Tecnológico de Automoción de Galicia ES RTD 
+5 NTUA National Technical University of Athens EL UNI 
+6 VAUDE Vaude DE IND 
+7 PANASONIC Panasonic Eco Solutions Elektrik San. Ve Tic. A.Ş. TK IND 
+8 MBT Mercedes-Benz Turk A.S. TK IND 
+9 MAIER Maier S. Coop. ES IND 
+10 RESCOLL Rescoll FR SME 
+11 CTECH C-Tech Innovation UK SME 
+12 DEVAN Devan Micropolis PT SME 
+13 IRIS Innovacio i Recerca Industrial i Sostenible S.L. ES SME 
+14 ECOMAT Ecomatters NL SME 
+15 IRES Innovation in Research & Engineering Solutions BE SME 
+16 OSM Open Source Management Ltd. UK SME 
+17 ISWA - 
+TERMINATED 
+International Solid Waste Association AU Assoc 
+18 ISWA NL International Solid Waste Association NL NL Assoc 
+  Advisory and Support Group (ASG)   
+ EUPC European Plastics Converters EU Assoc. 
+ GO4CIRCLE Circular economy industry BE Assoc. 
+ TECPART German association of manufacturers of technical plastic 
+products 
+DE Assoc 
+ ZWE Zero Waste Europe EU Assoc. 
+ Coating Cluster Cluster of coating companies  BE Cluster 
+ Recycling Network Recycling Netwerk Benelux NL Cluster 
+ Textile ETP European Apparel and Textile Confederation EU Eu Technology 
+Platform 
+ EuMaT European Technology Platform for Advanced Engineering 
+Materials and Technologies 
+EU Eu.Technolog
+y Platform 
+ REMONDIS Recycling company DE IND 
+ DEBOER Textile Recycling company NL IND 
+ GBP Recycler – Car disassembly company ES IND 
+ FCC Fomento De Construcciones Y Contratas Sa ES IND 
+ COVERPAINTS Coatings Industry EL SME 
+ European 
+Coatings 
+Europe’s leading monthly journal for the coatings industry DE Publisher 
+ OVAM Public Waste Agency of Flanders BE Public body 
+ ELOT Hellenic Organization for Standardization  EL Public body 
+ UNE Spanish Organization for Standardization ES Public body 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 54 of 127 
+ CEN-CENELEC European Organization for Standardization EU Public body 
+ 
+DECOAT CONSORTIUM PARTICIPANTS 
+ 
+Partner 1 – CTB – Centexbel 
+ 
+Country BE 
+Core Competence: coating and finishing of textiles, formulating, application on lab and semi-
+industrial scale and testing 
+Brief description of legal entity:  
+Centexbel (CTB) is the Belgian scientific and technical centre for the textile and plastic converting industry, with strong links to 
+the majority of these companies. CTB offers a complete range of standardized testing, it is a notified body and can deliver CE 
+marking and testing. CTB is also involved in standardization committees and offers technological advice and training to 
+companies in Belgium and abroad. 
+The research focus of CTB is on applied research, funded by private contract as well as national and international agencies (e.g. 
+H2020, Eranet, Interreg). Some well selected subjects for strategic research are: (i) finishing and coating technology; (ii) 
+implementation of nanotechnology; (iii) intelligent textiles; (iv) 3D textile structures via braiding and knitting; (v) extrusion 
+processes and related polymer formulation (incl. biopolymers). 
+DECOAT role and main tasks:  
+ Project coordinator; leader of WP8 (coordination) 
+ Leader of WP2: development of debondable coatings on textiles and their characterisation 
+DECOAT specific competences and experiences:  
+Centexbel has much experience in the coating and lamination of textile. In most cases these coatings are functionalised to obtain 
+specific properties, e.g. recyclability.  
+Key staff members undertaking the work:   
+Dr Ine De Vilder, Research scientist. Gender: F. After finishing her studies as industrial chemical engineer, Ine obtained a 
+PhD in chemistry. Since her start at CTB more than 7 years ago, she has conducted research in the field of textile functionalization 
+and surface modification. She has been involved in multiple private, regional and European research projects with a broad range 
+of topics like flame retardancy, protective clothing, architectural textile, bedding, hotmelt applications etc. She has specific 
+expertise in the development of coated or laminated textiles enabling recycling (e.g. coated/laminated textiles in which all 
+components consist of the same material, specific design of textiles enabling separation of the different layers). 
+Dr. Myriam Vanneste, R&D manager. Gender: F. Myriam has a PhD in polymer chemistry. She has been involved in the 
+management of national and international research projects for more than 10 years. She is the head of the R&D group working 
+on finishing and coating of textiles and, as such, has extensive knowledge on the latest innovations in this area. One of the recent 
+focusses of the research is the recyclability of coated and laminated materials and use of recycled materials as coating material.  
+Dr. Guy Buyle, Manager EU research of CTB. Gender: M. Guy holds a Masters of Engineering degree and obtained his PhD 
+in Physics on the subject of plasma treatment of surfaces. Since his start at CTB he has mainly been working on European 
+projects, under FP6, FP7 and H2020, being strongly involved in activities like dissemination, exploitation and coordination. 
+DECOAT relevant achievements: (up to 5) 
+Developments for better recycling; Myriam Vanneste, Ine De Vilder, Jo Wynendaele, Pieter Heyse, Isabel De Schrijver; 
+presentation; International Carpet Conference; 28-29/05/2015 
+Coding system for recycling textiles; Tobias Schlüter, Thomas Gries, Myriam Vanneste, Mike De Vrieze, Isabel De Schrijver, 
+Stijn Corneillie; Future Textiles (2017), 6, 38-39. 
+Making Textile from Waste - The technical textile solution to industrial waste; Ine De Vilder, Health and Safety International, 
+April 2017, p. 41-49 
+Recycling carpets with the help of markers; Mike De Vrieze; Unitex, (2017) 3; 24-26 
+DECOAT relevant previous projects or activities:  
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 55 of 127 
+RECYCOAT – Recycling of coated materials (National collective research project, HBC.2017.0686, 2018-2020) 
+URBANREC New approaches for the valorisation of URBAN bulky waste into high added value RECycled products (H2020, GA 
+N° 690103) 
+ECOMETEX – Ecodesign methodology for recyclable textile coverings used in the EU construction & transport industry” (FP7, 
+NMP-2011-small5-280751, 2012-2015) 
+MARKERS - Markers for recycling (Cornet, HBC.2016.0293, 2017-2018) 
+CarPVB – Coating applications for recycled PVB (Cornet, HBC.2017.0245, 2018-2019) 
+KARMA2020– Industrial feather waste valorisation for sustainable keratin based materials (H2020, GA N°723268) 
+DECOAT relevant significant infrastructure and/or major skills, equipment:  
+  
+ CTB has knowledge and equipment to 
+incorporate additives into coating 
+formulations. 
+  
+ Fabric coating and finishing equipment, 
+both lab scale (A4-size) and pilot scale 
+(roll-to-roll, 0.5m width). Available 
+techniques are knife coating (direct and 
+transfer coating), yarn coating, hotmelt, 
+padding,… UV and IR technology, corona 
+technology,… 
+  
+ Further, CTB has extensive testing 
+equipment and expertise for evaluating the 
+properties of coated textiles, eg 
+mechanical behaviour, abrasion durability, 
+laundry resistance, comfort issues, 
+chemical composition,… 
+Participant’s dissemination channels:   
+Fairs and congresses 
+ Techtextil fair 2021, 2023 
+ Dornbirn conference 
+ International coating and laminating conference, Belgium 
+ Newsletter CTB – reaches virtually all textile companies in BE 
+ CTB workshops and conferences – CTB organizes on a monthly basis workshops for its members, mainly textile, plastic 
+and composite related companies from BE, FR, NL. Further, CTB organizes yearly a major European conference. In the 
+past, such conferences were already organized on themes like functional coated textiles or recycling. In the frame of 
+DECOAT again such a conference will be organized. Every year an INFO happening is organised for informing companies 
+about the latest coating developments at CTB.  
+ Cluster “Innovative Coatings”, with over 70 company members. Centexbel is one of the steering partners and responsible 
+for organisation of workshops and matchmaking between companies.  
+Networks: 
+ EURATEX: CTB is active member, taking part in the lead of the Textile Flagships for Europe Initiative 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 56 of 127 
+ TEXTRANET: European Network of Textile Research Organisations 
+ ECP4: European Composites, Plastics and Polymer Processing Platform. It is an industry-driven collaboration that unites 
+the top-level European research institutions, regional plastic clusters and EU-level industrial organizations of plastics and 
+composites converters. 
+ 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 57 of 127 
+Partner 2 – AIMPLAS - ASOCIACION DE INVESTIGACION DE MATERIALES PLASTICOS Y CONEXAS  
+ 
+Country Spain 
+Core Competence: polymer materials, their transformation processes and 
+recycling. 
+Brief description of legal entity:  
+AIMPLAS, Technological Institute of Plastics located in Valencia, is a private, non-profit Association with more than 500 
+associated companies created in 1990. AIMPLAS is formed by +120 highly skilled professional, more than 65% with a Masters, 
+Engineering or equivalent degree in Chemistry, polymer engineering, materials engineering or equivalent, including 15 PhD.  
+AIMPLAS’ fields of work are related to technological research and development on thermoplastic and thermosetting plastic 
+materials & products, its transformation processes and their recyclability and sustainability. AIMPLAS generates new knowledge 
+and technologies that can be transferred to companies in order to help them to increase their effectiveness and competitiveness. 
+AIMPLAS has a broad expertise in the fields of recycling, compatibilization, reactive extrusion, biopolymers and renewable 
+source materials, special assisted processing technologies and nanocomposites, gained during the last years in the frame of EU 
+and national projects. Nowadays, AIMPLAS is involved in more than 25 European projects and has participated in 77 projects in 
+FP5, FP6, FP7, LIFE+, CIP-EcoInnovation EU Programmes, among others, coordinating 27 of them. At National and Regional 
+levels AIMPLAS participates in around 100 projects yearly.  
+AIMPLAS, as RTD is focused to help companies in the plastic sector to develop new products and increase their competitiveness 
+through innovation, has more than 20 pilot plants representing the most relevant polymer/plastics/composites production 
+technologies present in the industry nowadays and has state-of-the art test facilities for chemical, optical, morphological, 
+mechanical and physical characterisation. These pilot lines and laboratories are used by many customer’s every year allowing 
+them to test new materials, optimize production processes and launch new products to the market, supported by AIMPLAS 
+technical staff, resulting in more than 5000 assays, 170 technical assessments and 120 skills training actions to more than 1500 
+clients per year. AIMPLAS has state-of-the-art 8500 m2 facilities, including thermoplastics and thermoset pilot plants, analysis 
+and testing laboratories (physical-mechanical, chemical, packaging, automotive and construction) and training areas 
+DECOAT role and main tasks:  
+Selection of the components of the pilot recycling line.  
+Set up and evaluation of the pilot line to recycle coated textiles and coated plastic parts for outdoor gear, household electronics, 
+buses and automotive applications.  
+Quality analysis of the recycled materials and evaluation of their potential use.  
+DECOAT specific competences and experiences:  
+AIMPLAS’ fields of work are related to technological research and development on plastic materials and products, their 
+transformation processes and their recyclability and sustainability. AIMPLAS has pilot plants and testing laboratories that enable 
+the full characterisation of both waste and recycled materials, including chemical, optical, morphological, mechanical and physical 
+properties. It also has wide experience in selective separation of complex wastes, decontamination of recycled plastics for the 
+elimination of hazardous substances and/or odour, improvement of recycled properties of plastics through additivation and 
+compounding, recycling of thermoplastics and elastomers, optimization of recycling processes and the properties of recycled 
+plastics. 
+Key staff members undertaking the work:   
+Dr. Enrique Moliner (male), holds a PhD in Industrial Engineering by the Universitat Jaume I of Castellon (Spain). He has over 
+9 years of experience in national and international R&D projects in the field of environment and technological innovation. He has 
+been working as a researcher at the Department of Sustainability and Industrial Recovery of AIMPLAS since 2014. His expertise 
+is focused on environmental assessment of materials, technologies, processes and products associated with plastic industry, 
+using environmental impact assessment tools such as life cycle assessment or carbon footprint. He also has experience in 
+technical and legal advice on environmental issues to be considered for the development or improvement of products 
+(ecodesign). Speaker at seminars and conferences, author of technical articles for scientific journals and magazines, and 
+professor in training courses on ecodesign, life cycle assessment, carbon footprint and environmental labelling. 
+Mrs. Eva Verdejo (female), holds a Bachelor Degree in Chemistry from the University of Valencia. She joined the Institute in 
+1993, being the current Head of Department of Sustainability and Industrial Valorization of AIMPLAS. Her expertise is focused 
+on sustainable development, materials from natural resources, biodegradable plastics and recycling. She holds large experience 
+in proposal writing and participation/coordination in relevant national and international R+D projects related to her expertise 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 58 of 127 
+(BIOSTRUCT, RECYTUBE, ECO-RUBBER, POLYMIX, BREAD4PLA, etc.). Speaker at numerous seminars and conferences, 
+author of technical articles for scientific journals and magazines, and professor in different sustainability and recovery-related 
+courses. 
+DECOAT relevant achievements: (up to 5) 
+ Garrain D, Vidal R, Martinez P, Franco V. Environmental Impact of Plastic Moulding in Spanish Industries Using Life Cycle 
+Assessment Methodology. Ingenieria Quimica 2009, 29-35. 
+ Vidal R, Martinez P, Mulet E, Gonzalez R, Lopez-Mesa B, Fowler P, Fang JM. Environmental Assessment of Biodegradable 
+Multilayer Film Derived From Carbohydrate Polymers. Journal of Polymers and the Environment 2007, 15:159-168. 
+ Martí-Ferrer F, Vilaplana F, Ribes-Greus A, Benedito-Borrás A, Sanz-Box C. Flour rice husk as filler in block copolymer 
+polypropylene: Effect of different coupling agents. Journal of Applied Polymer Science 2006, 99:1823-1831. 
+ Vidal R, Moliner E, Martínez G, Rubio MC. Life cycle assessment of hot mix asphalt and zeolite-based warm mix asphalt 
+with reclaimed asphalt pavement. Resources, Conservation and Recycling 2013, 74:101-114. 
+ Moliner E, Muñoz C, Garraín D, Franco V, Vidal R. The ecological footprint of transporting waste in the province of Castellon. 
+Selected Proceedings from the 15th International Congress on Project Engineering 2012, 103-115. ISBN: 978-84-615-7674-
+6 
+DECOAT relevant previous projects or activities:  
+URBANREC New approaches for the valorisation of URBAN bulky waste into high added value RECycled products (H2020, GA 
+N° 690103) 
+ECOBULK: Circular Process for Eco-Designed Bulky Products and Internal Car Parts (H2020 GA N° 730456) 
+C-SERVEES-Activating Circular Services in the Electric and Electronic Sector (H2020 GA N° 77614) 
+LIFE EXTRUCLEAN: Demonstrative Project for the removal of hazardous substances during the recycling process of 
+polyethylene hazardous waste packages, employing supercritical carbon dioxide (sc-CO2) (LIFE13 ENV/ES/000067) 
+KARMA2020– Industrial feather waste valorisation for sustainable keratin-based materials (H2020, GA N°723268) 
+DECOAT relevant significant infrastructure and/or major skills, equipment:  
+ Equipment for mechanical, thermal, electrical, rheological and physical tests. 
+ Rheometer, optical and electronic microscopy, DMA, DSC, Thermogravimetry, Raman Spectrometer.  
+ Recycling pilot plant: Grinding facilities, washing equipment with sorting capacity, horizontal centrifuge equipment 
+ -Pilot plant: Sc-CO2 cleaning & VOC removal 
+ -Extrusion equipment 
+ 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 59 of 127 
+ 
+Participant’s dissemination channels:   
+Magazines & journals: Waste Management & Research; Journal of Cleaner Production; Journal of Industrial Ecology; The 
+International Journal of Life Cycle Assessment; Waste Management; Resources, Conservation and Recycling; Journal of 
+Environmental Management; Journal of Polymers and the Environment; and broader audience journals (Science, Nature). 
+Events: Ecofira (Spain); Circular Materials Conference (Sweden); K-Fair (Germany); PRSE Plastic Recycling Show Europe (The 
+Netherlands); Sustainable Plastics (Germany); Conama (Spain); International Conference on Sustainable Waste Management 
+(Turkey); European Circular Economy Conference (Belgium);  
+Stakeholders will be involved through demo workshops to promote market acceptability and encourage sustainable production 
+and consumption. 
+Networks: 
+ECP4 (European Composites, Plastics and Polymer Processing Platform), CICLOPLAST (Spanish Plastics Recycling and 
+Recovery Organization), EuPC (European plastic converters association), ANARPLA (Spanish association of plastic recyclers).  
+ 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 60 of 127 
+Partner 3 – IVV - Fraunhofer-Gesellschaft zur Förderung der Angewandten Forschung e. V. 
+ 
+Country Germany  
+Core Competence: Recycling Plastics 
+Brief description of legal entity:  
+Fraunhofer is the leading organisation for applied research in Europe, undertaking contract research on behalf of industry, the 
+service sector and government. At present, Fraunhofer has about eighty research units, including seventy-two research institutes, 
+at over forty locations in Germany. An annual turnover of about €2300 million is generated by contract research by a staff of 
+about twenty-five thousand employees. Fraunhofer’s institute für Verfahrenstechnik und Verpackung (Fraunhofer-IVV) will 
+participate in this project: 
+Fraunhofer’s Institute for Process Engineering and Packaging (Fraunhofer-IVV) has two hundred and twenty-one employees 
+and an annual turnover of €18 million. The Fraunhofer-IVV develops and optimizes products and processes primarily in the area 
+of food ingredients, functional films, product safety, food quality, biogenic raw materials as well as plastics recycling. The 
+department ‘Recycling polymers’ at Fraunhofer-IVV has been founded in 2005 and deals with the separation of pure polymers 
+from plastic containing waste by means of mechanical pre-treatment and solvent based technologies (CreaSolv® Process). 
+DECOAT role and main tasks:  
+Fraunhofer will mainly be involved in WPs 2-5. In WP2 Fraunhofer will closely interact with developers of triggerable debonding 
+with respect to applied polymers and will identify suitable solvent formulations and conditions for coating materials. In WP3 
+Fraunhofer will assist automated sorting by implementation of dyes which allow in-line measuring of coating thickness. 
+Fraunhofer’s contributions to WP 4 and 5 will include implementation of CreaSolv® Technology in the DECOAT pilot line and its 
+use in the course of demonstration.   
+DECOAT specific competences and experiences:  
+Fraunhofer-IVV has 20 years of experience in solvent based separation of plastic mixtures. Starting with laboratory scale 
+experiments in 1996, the CreaSolv® process can now separate most thermoplastic materials from complex waste streams and 
+produce recycled polymers with defined virgin-like properties, whereas the applied solvent is recycled completely within the 
+process. Thus, the recycling process encourages the circular economy approach, as most recent project results (e.g. 
+PolystyreneLoop) have shown that product qualities of recycled polymers comply with specifications of virgin plastics, enabling 
+a use of recycled plastics in initial applications. Having such a technical recycling concept validated, Fraunhofer-IVV provides 
+expertise in defining and building structures for a circular economy of plastics and composites. 
+Key staff members undertaking the work:   
+Dr. Martin SCHLUMMER (male) – Senior Scientist in the Dept. Recycled Plastics department, holds a Ph.D. in Chemistry from 
+University of Erlangen. He has been with Fraunhofer-IVV as a research fellow since 1999. As a responsible scientist for process 
+development and analytical process evaluation he participated in and co-ordinated more than 20 national and international 
+research projects and (co-)authored more than 45 publications in peer reviewed scientific journals.  
+Dr. Andreas MÄURER (male) – Head of Dept. Recycled Plastics department at Fraunhofer, holds a Ph.D. in Chemistry from 
+University of Erlangen. After a two-year experience of industrial research in the paper business, he has been working for FhG-
+IVV, since 1994: first as a Dep. Head of the Dept. Process Engineering, then as head of Dept. Product Safety and Analysis and 
+since 2005 as head of Dept. Recycled plastics. Mäurer co-ordinated more than 30 national and international research projects 
+and (co-)authored more than 30 publications.  
+Dr. Esra KUCUKPINAR. (female) – received her B.Sc. in Chemical Eng. from Boğaziçi University, İstanbul, in 1995 and her 
+M.Eng. in Chemical Eng. from the Stevens Institute of Tech., New Jersey, in 1997, with a focus on polymer processing. She was 
+employed at the Highly-filled Materials Institute, New Jersey, as a research engineer. She joined the RTD Centre of Arçelik in 
+1997, as a research specialist. In 2003 she received her Ph.D. in Chemical Eng. from Boğaziçi University. Since 2003, she has 
+been employed at Fraunhofer-IVV as a senior scientist and project leader mostly for international projects funded by the 
+European Commission, from FP5 onwards. She has co-authored more than 30 publications in peer reviewed scientific journals 
+and presented her research work in various international conferences.  
+DECOAT relevant achievements: (up to 5) 
+Fabian Knappich, Ferdinand Hartl, Martin Schlummer, Andreas Mäurer: Complete Recycling of Composite Material Comprising 
+Polybutylene Terephthalate and Copper. Recycling (2017), 2, 9 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 61 of 127 
+Ueberschaar, Maximilian; Schlummer, Martin; Jalalpoor, Daniel; Kaup, Nora; Rotter, Vera Susanne: Potential and recycling 
+strategies for LCD panels from WEEE. Recycling 2 (2017), No.1, Art. 7, 19 pp. ISSN: 2313-4321. DOI: 10.3390/recycling2010007 
+Katharina Kaiser, Markus Schmid, Martin Schlummer, Andreas Mäurer. Recycling of Polymer-Based Multilayer Packaging: A 
+Review. Recycling 2018, 3(1), 1; doi:10.3390/recycling3010001 
+Fabian Knappich, Martin Schlummer, Andreas Mäurer, Harald Prestel: A New Approach to Metal- and Polymer-Recovery from 
+Metallized Plastic Waste Using Mechanical Treatment and Subcritical Solvents. Journal of Material Cycles and Waste 
+Management (in print). https://doi.org/10.1007/s10163-018-0717-6 
+Sandra Kiese, Esra Kucukpinar, Esra Kucukpinar, Matthias Reinelt, Horst-Christian Langowski. A systematic approach for the 
+accurate and rapid measurement of water vapor transmission through ultra-high barrier films. Review of Scientific Instruments 
+(2017), 88(2):025108 
+DECOAT relevant previous projects or activities:  
+INNOVIP - “Innovative multi-functional Vacuum-Insulation-Panels for use in the building sector”, EU H2020, Grant No 723441, 
+Coord.: C. Sprengard, Germany: Fraunhofer -IVV is a partner (2016-2019): Fraunhofer-IVV works on the development of high 
+barrier multi-layered structures for vacuum insulation panels and contribute to the INNOVIP project by practical demonstration 
+trials on the separation and material recovery from finished INNOVIP insulations. 
+CLOSEWEEE - “Integrated solutions for pre-processing electronic equipment, closing the loop of post-consumer high-grade 
+plastics, and advanced recovery of critical raw materials antimony and graphite”, EU H2020, Grant No 641747, Coord.: K. 
+Schischke, Germany. Fraunhofer-IVV works on the application of the CreaSolv® Process for the recovery of high-grade ABS 
+and PC/ABS as well as the recovery of antimony trioxide. 
+DISPLAY - “Upscale of Material Recovery from Display Applications and Printed Circuit Boards”, EIT raw materials, Project No 
+16270, Coord.: M. Schlummer, S. Grieger, Germany: Fraunhofer is coordinating (2017-2021): Fraunhofer-IVV works on the 
+development of recycling options for plastics in post-consumer display appliances by using the CreaSolv® process.  
+PSLoop – “Polystyrene Loop”, EU LIFE, Grant No 16ENV/NL/000271, Coord.: J. Noordegraaf, The Netherlands: Fraunhofer–
+IVV is a key partner (2017-2021): Fraunhofer has developed the CreaSolv® Process, which is upscaled in this project for the 
+purpose of recovering POP free recycled polystyrene from PS foams containing HBCD. 
+FORCYCLE – “Recovery of metals from composite from metal-polymer-composites” Grant No. BAF01SoF0-65342. Coord. M. 
+Schlummer, Germany. Fraunhofer-IVV was coordinating (2014-2017): Fraunhofer-IVV developed recycling processes for the 
+recovery of polymers from polymer-metal-composites including metal plated plastics and carbon fibre reinforced plastics. The 
+processes reached a TRL of 5. 
+DECOAT relevant significant infrastructure and/or major skills, equipment:  
+CreaSolv® pilot plant: Fraunhofer IVV runs a flexible CreaSolv® pilot line consisting of some 100-250 L vessels for different 
+unit operations like dissolution, mechanical cleaning, extractive cleaning, product drying and solvent recovery. In the past it was 
+used to produce 5-100 kg samples of – amongst others - ABS, PS, PC/ABS, PP, PE, PET and PA. This line has a capacity of 5-
+10 kg/day and will be the base of design studies deducing optimized process parameters for a 25 kg/h plant.  
+ 
+CreaSolv® Pilot line  
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 62 of 127 
+The output of this pilot line are intermediate polymer pellets that are offline transferred to a vacuum extrusion line which is used 
+to parametrize a final drying of intermediate products. 
+ 
+Participant’s dissemination channels:   
+Fairs and conferences: 
+ Electronic goes Green 2020,  
+ IFAT 2021 
+ Organisation of in-house Workshops / Conferences 
+Magazines: 
+ Fraunhofer IVV Newsletter  
+Networks: 
+ Fraunhofer IVV is present on LinkedIN, XING 
+ 
+ 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 63 of 127 
+Partner 4 – CTAG – Centro Tecnológico de Automoción de Galicia 
+ 
+Country Spain 
+Core Competence: development and validation of products for the transport sector. 
+Comprehensive testing facilities. 
+Brief description of legal entity:  
+CTAG is a Spanish, private, non-profit R&D technology centre devoted to support the automotive industry in its research, 
+development and innovation needs. CTAG was created in 2002 thanks to a joint initiative of automotive enterprises within the 
+region. 
+With a team of more than 700 professionals having more than 60% of international activity, CTAG is an ideal partner for 
+developing new innovative products for the automotive sector using CAD product design and CAE simulations tools.  
+CTAG is present in all the stages of product development, from initial advanced research to product life. The key fields of 
+competence where CTAG concentrates its activities are: new materials, novel manufacturing processes, mathematical 
+calculation and simulation, component testing and analysis of performances, environment, electronics, ergonomics, comfort and 
+innovation management.  
+For further information on CTAG capacities and main activities, please visit our website (www.ctag.com) and check our 
+corporative video (https://vimeo.com/120029828). 
+DECOAT role and main tasks:  
+WP1: Support on the definition and requirements of end-user cases on materials 
+Input for WP2: Evaluation of the maximum amount of impurities allowed in the recycled material, according to the aimed 
+mechanical properties, by testing different compounds with increasing amount of coating residue.  
+WP5: Design of specifications for the material/prototype validation according to the standards and protocols, development of 
+new testing procedures if needed (depending on the functionality of the part selected as prototype demonstrator), 
+characterization and validation through climate, vibration, acoustics, impact, fatigue, etc. testing. 
+CTAG also will contribute in the supporting work packages (WP6, WP7 and WP8). 
+DECOAT specific competences and experiences:  
+From 2004, CTAG has a research team focused on exploring novel applications for new materials in the transport sector as well 
+as enhancing the efficiency of plastic transformation processes.  
+On validations side, CTAG has three buildings equipped with the ultimate testing laboratories: climatic, vibration & acoustics, 
+fatigue, materials, engine, electronics and ergonomics, fitted with the cutting-edge technology and equipment such as two triaxial 
+shakers integrated in acoustic and climatic chambers, several climatic chambers including a complete car sunlight radiation and 
+weather resistance chamber, etc. 
+Key staff members undertaking the work:   
+Eng. Raquel Ledo (Female). She is MSc in Telecommunication Engineering by the University of Vigo, with a postgraduate 
+Master in Automobile Enterprises Management and a Degree of Research Proficiency and Advanced Studies. From 2003 to 
+2006, she worked in the automotive industry (Development Manager in Prevent, Controller Body-in-White in PSA Peugeot 
+Citroën). Since 2007, she is project manager in CTAG and Head of the Materials Innovation area from 2016. Besides her 
+extensive experience in the automotive business (both in automotive suppliers and in OEMs), she was directly involved in more 
+than 10 EU projects, 3 of them within 7FP and 3 of them in H2020. She was the coordinator of FORTAPE project (H2020-FoF-
+2014) and Expert Evaluator in several H2020 programmes. She holds several publications in the field of automotive engineering 
+and 4 national patents. LinkedIn profile: https://es.linkedin.com/in/raquelledobanobre 
+Dr. Alberto Tielas Macía (Male): MSc in Mechanical Engineering by the University of Vigo (2003) with a PhD in Manufacturing 
+Process Engineering (2015). From 2002, working in CTAG within the Engineering and Development Department. From 2006, 
+as Head of Materials and Interior Systems Department in CTAG. From 2010, as invited professor at the University of Vigo within 
+the “Master in Technologies and Processes for the Automobile Industry”, at the Corporative University of CEAGA (the Galician 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 64 of 127 
+Cluster of Automotive Industry) and at the public educational system of professional training. Involved in more than 15 national 
+and European R&D projects, coordinating 3 of them: CarbonInspired (Interreg IVB SUDOE), GreenMotion (Interreg POCTEP) 
+and SMARTCOVER (national). He holds 8 publications in the field of materials engineering for the automotive sector and 3 
+national patents. He is a regular speaker in national and regional congresses related to the field of materials for vehicles: 
+Workshop on Joint Technologies: adhesives for the automotive industry (2014), CarbonInspired 2.0 International Workshop: 
+Nanomaterials for Industry (2012 & 2014), H2020 Green Vehicles Workshop Spain 2014, 12th International Workshop on Plastics 
+for the Automotive Industry (2012), etc. Top experienced in automotive engineering, injection moulding, process simulation and 
+3D design. LinkedIn profile: https://es.linkedin.com/in/alberto-tielas-48a48136 
+Eng. Vanessa Ventosinos Louzao (Female): BSc in Technical Engineering in Industrial Chemistry by the University of Santiago 
+de Compostela (2005). With two post-degree master courses in “Innovation Management” by INGAFOR (2010) & “Innovation 
+and Quality Management” by the National Distance Education University (2012). From 2007, project manager and product 
+developer within the Materials Innovation Area in CTAG. Involved in more than 10 research projects, in the last 6 as the project 
+technical manager: Naturplas II, Greenmotion, Naturtruck, Carboprec, Fortape and Ecofunel. She holds 3 publications related to 
+the field of materials engineering in the automotive sector and 13 patents (Spanish and French). She lectured in 3 international 
+congresses and 4 national/regional workshops. Top experienced in new materials for automotive applications. LinkedIn profile: 
+https://es.linkedin.com/in/vanessa-ventosinos-louzao-b5bb8a24/en   DECOAT relevant achievements: (up to 5) 
+Publications: 
+ Tielas A., Ledo R., Ventosinos V., García D.: “Manufacturing of complex parts based on unidirectional tapes. Technology 
+transfer from automotive towards aeronautic industry” Magazine of the Spanish Association for Composite Materials. June 
+2017. 
+ Costas M., Díaz J., Romera L. E., Hernández S. & Ledo R.: Influence of welded joints on the crashworthiness response of 
+hybrid structural elements. SAE International. 2013-01-0755. 2013. 
+Patents:  
+Manufacturing process of a heating coating. ES2402034 
+Programmable pulse generator to carry out pneumatic and electric fatigue tests: ES2553272 
+Equipment for the acoustic and vibrational characterization ES2362834 
+DECOAT relevant previous projects or activities:  
+FORTAPE – Research on efficient integrated systems for the manufacturing of complex parts based on unidirectional tapes for 
+the automotive and aeronautical industry. H2020-FoF2-2014 (GA nº636860) www.fortape-project.eu NATURTRUCK – 
+Development of a new Bio-Composite from renewable resources with improved thermal and fire resistance for manufacturing a 
+truck internal part with high quality surface finishing. FP7-SME-2013-1 (GA nº 605658)  ww.naturtruck.eu  CARBOPREC – 
+Developing new precursors, functionalization and processing routes for carbon fibre. FP7-NMP-2013-LARGE-7 (GA nº 604215) 
+www.carboprec.eu ECOPLAST – Research in new biomass-based composites from renewable resources with improved 
+properties for vehicle parts moulding. FP7-NMP-2009-SME-3 (GA nº 246176) www.ecoplastproject.com  
+Technical equipment: (Please include also some photographies of your relevant equipment). 
+For the proposed work in this project, CTAG will make available the following equipment and labs, located in our facilities in 
+Spain: 
+ 
+Product design:  
+3D CAD tools, including modal and failure analysis, selection assessment for new 
+materials, quality track, ECO-design, reverse engineering and mould/tool design 
+(using CATIA V5 software). 
+ 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 65 of 127 
+ 
+Injection moulding lab:  
+Injection moulding machine Engel Victory 2550/350 without columns and adapted to 
+a D60 screw, high temperature attemperators, control of up to 8 sequential nozzles 
+and 16 in-mould heating zones, injection-compression module, set of 4 different screw 
+geometries (amorphous, semicrystalline, double fleet, mixer), static mixers, cavity 
+pressure sensors, grinding mill, dehumidifier, IR heating lamps, MFI indexer, humidity 
+indexer, thermographic camera, power supply equipment, microwave oven and a 
+electroplating lab. 
+ 
+Climatic laboratory:  
++20 climate chambers with a wide range of sizes, several are combined with other 
+testing equipment to combine ageing with other mechanical validation (e.g. climatic + 
+vibration testing). Several include the possibility of high-speed recording to analyse 
+the failure mode (e.g. for airbag deployment). Just to mention a few: complete-car 
+climatic chamber for solar radiation (200000L of capacity), thermal shock chamber, 
+ozone resistance chamber, weather-o-meter, salt spray chamber, light and weather 
+resistance chambers, etc. 
+ 
+Vibro-acoustic:  
+2 multi-axial electrohydraulic shakers able to reproduce any signal (one of them inside 
+a climatic chamber and the other inside a semi-anechoic chamber), bi-directional 
+electro-dynamic shaker, unidirectional shaker in a semi-anechoic chamber, pulse 
+equipment for modal analysis of complex structures, kundt’s tube for acoustic 
+measuring of porous material, intensity sensors, signal loggers. 
+ 
+Durability:  
+Fatigue test rig, robot for the reproduction of complicated trajectories (e.g. ingress-
+egress simulation for car seats), several test benches. 
+ 
+Material:  
+Low intensity signal generator, universal test machine for traction-compression, test 
+bed for traction, shore durometer, spectrocolorimeter and reflectometer, volatile 
+measurement, cold impact, abrasion meter, etc. 
+ 
+Metrology:  
+Several 3D coordinated-measuring machines (by contact, by sensing heads, by 
+vision) and portable equipment for 3D measurement. 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 66 of 127 
+ 
+Instrumentation and automatisms:  
+Support for testing according to standards or customer requirements (programmable 
+automatic equipment, robot arm, data loggers, sensors, power and tension supplies). 
+ 
+Participant’s dissemination channels:   
+Trade fairs: 
+Expo Testing (Stuttgart) 
+Automotive Interiors EXPO (Stuttgart) 
+JEC Composites (Paris) 
+Journals: 
+JEC Composites, Bioplastics Magazine, Automotive Engineering International 
+Networks: 
+STA – Association of Automotive technical experts.  
+ERTICO : public-private partnership of 120 companies and organisations representing service providers, suppliers, traffic and 
+transport industry, research, public authorities, user organisations, mobile network operators, and vehicle manufacture 
+SERNAUTO – Spanish association of automotive suppliers 
+CEAGA (Cluster of Automotive Industry in Galicia) 
+ 
+ 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 67 of 127 
+Partner 5 – NTUA – National Technical University of Athens 
+ 
+Country Greece 
+Core Competence: NTUA is the leader of WP1 “Triggerable materials for 
+coatings” and one of the key partners in synthesis, characterisation and processing 
+of proposed materials. NTUA will develop novel smart nano- and micro-materials 
+that will be used in the proposed debonding technologies. 
+Brief description of legal entity:  
+National Technical University of Athens (NTUA) is the oldest and most prestigious educational institution of Greece in the field 
+of technology, and has contributed unceasingly to the country's scientific, technical and economic development since its 
+foundation in 1836. The NTUA team comprises chemical, mechanical, metallurgical engineers, physicists, chemists and 
+technicians, specialized in the fields of materials research and development, possessing a very experienced staff (including 
+several professors, research scientists and PhD students) as well as extensive facilities for materials processing and 
+characterization. R-NanoLab (http://nanolab.chemeng.ntua.gr) has all the necessary infrastructures for the synthesis of nano- 
+and micro- materials. Additionally, there is the suitable equipment for the investigation of chemical and nanomechanical 
+properties, as well as the surface properties and topographical characteristics of materials through atomic force microscopy. 
+DECOAT role and main tasks: 
+ Synthesis of nano-/microcapsules and smart carbonaceous hybrid nanomaterials(WP1). 
+ Characterization of developed triggerable materials (WP1), coating formulations (WP2) and preliminary testing of 
+specimens (WP2). 
+ Support in WP3 on definition of a range of dyes to be used in the shell of the microparticles. 
+ Toxicity, release and exposure assessment of nanomaterials (WP6). 
+DECOAT specific competences and experiences:  
+R-NanoLab (NTUA) has vast experience on the synthesis of novel stimuli-responsive nanocontainers with encapsulated organic 
+substances, as well as on the synthesis and characterization of hybrid organic-inorganic containers for coating formulations. 
+Moreover, R-NanoLab is involved in synthesis and characterization of carbonaceous nanomaterials, dealing with advanced 
+applications, such as antifouling/anticorrosive coatings, composite materials and smart applications, investigating also the toxicity 
+and consequences of the nanoparticles. 
+Key staff members undertaking the work:   
+Prof. Costas A. Charitidis (Male) is Professor at the School of Chemical Engineering of NTUA, with extensive R&D experience 
+through collaborations with international research centres. He is a referee in International scientific journals, evaluator & scientific 
+advisor of R&D projects, participant in European and National funded R&D projects. His research activity is complemented by 
+about 110 papers in International Journals, a large number of lectures as an invited speaker and over 1800 citations by other 
+researchers. 
+Dr. Ioannis Kartsonakis (Male) is a Chemist, with an MSc in Polymer Science and its Applications and a PhD in Chemistry on 
+the subject of synthesis and characterization of hybrid organic-inorganic coatings as well as nanocontainers. He has 3 patents, 
+49 publications in peer-reviewed international journals, 2 publications in international books, more than 60 contributions to 
+conference proceedings and workshops. His interests includes: synthesis and characterization of nanomaterials, coatings 
+(polymeric, inorganic, hybrid organic-inorganic) and study of corrosion processes on materials. 
+Dr. Tatjana Kosanovic Milickovic (Female) is a Chemist with a PhD in Chemical Sciences. She has been involved in the 
+technical/scientific development, implementation and project management of >20 European and National research projects. Her 
+research topics are in the fields of materials science, electrochemistry and nanotechnology with >50 scientific and technical 
+papers published in Journals and Conferences. Dr. Kosanovic's scientific interests include: development and characterization of 
+nanomaterials, nanostructures and nanocomposites and environmental chemistry. 
+Aikaterini-Flora Trompeta (Female) is a Chemical Engineer (NTUA), with an MSc in Material Science and Technology. Her 
+work experience is devoted in European and National Research Projects, dealing with nanomaterials for advanced application. 
+Her research interest focuses on nanomaterials production processes (Chemical Vapour Deposition, wet chemical techniques). 
+Part of her research work has been presented on national and international conferences and several related publications in peer 
+reviewed journals have been published. 
+DECOAT relevant achievements: (up to 5) 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 68 of 127 
+1. Investigation of nanomechanical properties of multilayered hybrid nanocomposites, G.C. Papanicolaou, C.A. Charitidis, D.V. 
+Portan, D.K. Perivoliotis, M.A. Koklioti, Meccanica 2014 49 (11):2645-2655. 
+2. Towards a holistic environmental impact assessment of carbon nanotube growth through chemical vapour deposition, A.F. 
+Trompeta, M.A. Koklioti, D.K. Perivoliotis, I. Lynch, C.A. Charitidis, Journal of Cleaner Production 2016 129:384-394. 
+3. Two-Shell Structured PMAA@CeO2 Nanocontainers Loaded with 2-Mercaptobenzothiazole for Corrosion Protection of 
+Damaged Epoxy Coated AA 2024-T3, A.C. Balaskas, T. Hashimoto, M. Curioni, G.E. Thomson, Nanoscale 2017 9:5499-
+5508. 
+4. Improvement of anti-corrosive properties of epoxy-coated AA 2024-T3 with TiO2nanocontainers loaded with 8-
+hydroxyquinoline, A.C. Balaskas, I.A. Kartsonakis, L.-A. Tziveleka, G.C. Kordas, Progress in Organic Coatings 2012 74:418-
+426. 
+5. Incorporation of ceramic nanocontainers into epoxy coatings for the corrosion protection of hot dip galvanized steel, I.A. 
+Kartsonakis, A.C. Balaskas, E.P. Koumoulos, C.A. Charitidis, G.C. Kordas, Corrosion Science 2012 57: 30-41. 
+DECOAT relevant previous projects or activities:  
+1. SMARTFAN: "Smart by Design and Intelligent by Architecture for turbine blade fan and structural components systems" 
+(H2020 - NMBP-04-2017 "Architectured /Advanced material concepts for intelligent bulk material structures"), Budget: € 7 
+989 601.25, Coordinator: Prof. Costas A. Charitidis. (Development of smart composites with self-healing capsules and carbon 
+nanomaterials/smart recycling activities). 
+2. LORCENIS: “Long Lasting Reinforced Concrete for Energy Infrastructure under Severe Operating Conditions” (H2020 - NMP-
+1-2015 “Materials for severe operating conditions, including added-values functionalities”), Budget: € 7 970 130, Coordinator: 
+C. Simon (SINTEF) (Synthesis of carbonaceous nanomaterials and super absorbent polymers). 
+3. MODCOMP: “Modified cost effective fibre based structures with improved multi-functionality and performance” (H2020 - Call 
+topic: NMP-22-2015 “Fibre-based materials for non-clothing applications”), Budget: € 7 980 036, 25, Coordinator: Prof. 
+Costas A. Charitidis. (Functionalisation and surface modification of carbon fibres). 
+4. BYEFOULING: "Low-toxic cost-efficient environment-friendly antifouling materials" (FP7, Collaborative project (Large), 
+THEME [FP7- OCEAN 2013.3 Innovative antifouling materials for maritime applications]), Budget: 7.447.584,00 (EC funded), 
+Coordinator: C. Simon (SINTEF) (Synthesis of carbon nanotubes and nano-/micro capsules for coating applications). 
+5. ARISTEIA II, SHELL: "Self-Healing Nanomaterials for Protection of Metal Alloys", SHELL (Code no: 3456), Ministry of 
+Education, Lifelong Learning and Religious Affairs in the context of the Operational Program "Education and Lifelong 
+Learning", Budget: € 195800, Coordinator: Prof. Costas A. Charitidis. (Synthesis of self-healing nanomaterials for coating 
+applications). 
+DECOAT relevant significant infrastructure and/or major skills, equipment:  
+The NTUA team has all the necessary infrastructures for the synthesis of carbon-based (CVD reactors) and nano-/micro- 
+copolymer materials. Additionally, they have the suitable equipment for the investigation of mechanical and nanomechanical 
+properties, as well as of the surface properties and topographical characteristics of materials through microscopes in all scales 
+(Optical Microscopy-OM, Scanning Electron Microscopy-SEM, Scanning Probe Microscopy-SPM and Atomic Force Microscopy-
+AFM, Micro Computed Tomography-µCT). 
+ 
+ CVD Reactor (Lab Scale)                   CVD Reactor (Pilot Scale)                         Vertical CVD Reactor 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 69 of 127 
+ 
+Dip coater                   Wettability testing         Nanoindentation                Atomic Force Microscope 
+Participant’s dissemination channels:   
+Fairs and conferences: 
+ Industrial Technologies (https://www.indtech2018.eu/ ) 
+ JEC World (http://www.jeccomposites.com/about-jec/jec-history-management ) 
+ EUROCORR (https://eurocorr.org/ ) 
+ EuroNanoForum (http://euronanoforum2017.eu/ ) 
+ European Technical Coatings Congress (https://etcc2018.org/ ) 
+ Athens Science Festival (http://www.athens-science-festival.gr/en/festival-2018/ ) 
+ Researcher’s Night (http://www.renathens.gr/ ) 
+ Panhellenic Conference on Chemical Engineering (http://www.11pesxm.gr/ ) 
+ Innovation Day (https://sec2sv.com/european-innovation-day/ ) 
+ Industry Day (https://ec.europa.eu/info/events/eu-industry-day_en ) 
+Networks: 
+ European Network for Pilot Production Facilities And Innovation Hubs (https://www.eppnetwork.com/ ) 
+ European Materials Characterisation Council (EMCC) (http://www.characterisation.eu/) 
+ Carbon Fibres & Advanced High Performance Composites Cluster (CFPC) (http://www.technologycluster.eu/ ) 
+ European Nano Safety Cluster (https://www.nanosafetycluster.eu/)  
+ The European Materials Modelling Council (https://emmc.info/ ) 
+ Nano Carbon Enhanced Materials (NCEM) Consortium (http://www.cfbi.com/nanocarbon.htm ) 
+ Greek Chemists Association (GCA) - Paints-Varnishes-Inks Division (PVID) (https://www.greekpaints.com/en/)  
+ 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 70 of 127 
+Partner 6 – VAUDE – Vaude 
+ 
+Country GER 
+Core Competence: Outdour gear, Mountain & Bike Sports Equipment 
+Brief description of legal entity:  
+VAUDE ranks among Europe's leading mountain sports brand names. The company has achieved continuous growth in all 
+sectors. VAUDE products are sold worldwide. 
+As a sustainable innovative outdoor outfitter, VAUDE is contributing to make the world a better place so that the people of 
+tomorrow can enjoy nature with a clean conscience. In doing so, the family-owned company sets ecological and social standards 
+worldwide. With the publication of a GRI (Global Reporting Initiative) Sustainability Report, VAUDE has successfully created an 
+objective and measurable foundation for this goal. Social responsibility is a strong focus at VAUDE as well. Numerous awards 
+strengthen the company in its focus on sustainability. In 2015 VAUDE was honoured as “Deutschlands nachhaltigster Marke” 
+(Germany’s Most Sustainable Brand) by the German Sustainability Award Foundation. For years, VAUDE has experienced 
+successful growth showing that maintaining a balance between ecological and social factors makes economic sense. 
+VAUDE is committed to sustainability and working intensively to substitute fossil-based raw material with bio-based materials. 
+Within its broad product portfolio, VAUDE has identified several products that are made from coated textiles. Substrates are 
+typically polyester and polyamide, the coatings thermoplastic polyurethanes. Unfortunately, there are currently no suitable 
+recycling methods for these fabrics. Thus VAUDE has a high interest in recycling such coated materials. 
+DECOAT role and main tasks:  
+Lead end use case for outdoor gear, provider of a concrete use case: waterproof bike bags. Contribute with design and product 
+development departments. As such, mainly involved in WP1 for the requirements and WP5 – use cases demonstration. 
+DECOAT specific competences and experiences:  
+ Broad industrial knowledge 
+ Technical background of textiles, the related coating processes and the manufacturing 
+ Knowledge about application of coatings in the textile and engineering plastics business 
+ Testing competences with internal test laboratory and external professional testing services 
+Key staff members undertaking the work:   
+René Bethmann: Innovation Manager (Male): Graduated Dipl.-Ing. of textile and clothing technologies. Work experience of 
+>10 years within the sports industry with strong focus on material development. Worked in several leading sports brands in 
+Switzerland and Norway. Before transferring to the Innovation Division he held the position as “Head of Materials” and leading 
+the material development business unit. He will be the main contact person for this project. 
+Kai Vogt: Head of Innovation & Hardware Equipment (Male): Graduated Dipl. Ing. of industrial engineering. Work experience 
+of >15 years within the sports industry. Leading the innovation division and the tents/sleeping systems/accessories division.  
+Julia Unmuth: Innovation Product Technician (Female): Graduated fashion dress maker. Work experience of >8 years. 
+Works within the innovation division as a product technician for new products and manufacturing techniques plus as a test 
+laboratory technician to perform physical material tests. 
+DECOAT relevant achievements: (up to 5) 
+ René Bethmann: Lecture regarding sustainable and bio-based materials at Man-Made-Fibre Congress Dornbirn (09/2017) 
+and at the International Textile Conference Stuttgart (11/2017) 
+ VAUDE signs the Greenpeace Detox Commitment agreeing to eliminate all harmful substances from the entire supply chain 
+and manufacture its entire collection completely PFC-free (without fluorocarbons) by 2020 at the latest (2016) 
+ Environmental Stewardship in the Supply Chain project is launched to ensure high environmental and social standards for 
+suppliers as well. The goal is to make the global supply chain ecological, social and transparent (2015) 
+ The VAUDE Environmental Report, in accordance with international GRI standards (Global Reporting Initiative), is published 
+for the first time. VAUDE’s economic, ecological and social performance figures are clearly and transparently presented 
+based on comparable indicators at the new website: http://www.vaude-nachhaltigkeitsbericht.com (2014) 
+ Launch of the Green Shape label, with which VAUDE offers functional, eco-friendly products made from sustainable 
+materials under fair working conditions. The strict evaluation criteria are under constant review and cover the entire lifecycle 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 71 of 127 
+of the product – from design, through production, care and maintenance, to repair and (recycling at) the product’s end of life 
+(2010) 
+DECOAT relevant previous projects or activities:  
+ Already several successful applications of recycled materials in VAUDE products that are on the market 
+ Large efforts to become more sustainable in materials use, e.g. via use of bio-based polymers 
+DECOAT relevant significant infrastructure or equipment:  
+ VAUDE Testing Laboratory equipped with several testing machines for physical and thermal testing 
+ VAUDE Innovation Park equipped with whole setup to manufacture in-house textile prototypes 
+ Cooperation with Intertek Testing Services 
+Participant’s dissemination channels:   
+ Sport trade shows (ISPO, Outdoor Show etc.) 
+ Textile conferences (International Textile Conference Aachen/Dresden/Denkendorf/Hohenstein etc.) 
+ Textile and sport related magazines  
+Networks: 
+ VAUDE has a wide network within the entire sports textile sector 
+ 
+ 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 72 of 127 
+Partner 7 – PANASONIC – Panasonic Eco Solutions 
+ 
+Country Turkey 
+Core Competence: Electrical Installation Sector (Low Voltage Area). 
+Brief description of legal entity:  
+Panasonic was established in 1918, has 469 subsidiaries and has 254,084 employees including subsidiaries. Panasonic, the 
+75th most recognized brand in the world in 2017, is managed with 4 different divisions classified by product groups. 
+Panasonic Eco Solutions Türkiye was established in 1980 in Istanbul, the company operates in the Electrical Installation Sector 
+(Low Voltage Area). It has a production capacity of 100 million switches and sockets per year in the facilities that have 
+implemented Industrial 4.0 applications with the technological infrastructure. Exports to more than 70 countries are realized and 
+the export rate is 35%. Domestic sales are 65%. 
+All work from the design to the production of new products can be carried out in Panasonic Eco Solutions Turkiye. Company has 
+an R&D Center with 60 employees. New products are being developed that offer innovative solutions. There are 11 funded 
+projects completed (National Funds). Within the scope of EU projects, it is aimed to carry out innovative studies by using our 
+company's design and production competencies. 
+DECOAT role and main tasks:  
+Lead end use case for electronics consumer goods, provider of a concrete use case: coated light switches. Contribute with 
+design and product development departments. Main involvement in WP1 - materials and requirements specification and WP5 - 
+use cases demonstration. 
+DECOAT specific competences and experiences:  
+Every year we process 4.200 tons of plastic raw materials ABS, PC-ABS, PC. 10% of the raw materials we use is recycled. 
+Panasonic Eco Solutions will act as end user in Turkey for the DECOAT project. Applications for the Electrical Installation Sector 
+(Low Voltage Area) of the techniques to be developed will be carried out and evaluated. 
+All the processes from design to production of our products in our product range are performed in our company. The production 
+is performed mostly with plastic injection technology. 
+Plastic Injection: There are 56 plastic injection machines and the annual production capacity of switches /sockets is 100 million.  
+Automation: Plastic products taken with robots without being touched by human hands in advanced technology production lines 
+are placed in separators and transferred to automatic assembly lines. The products with fewer production amounts are mounted 
+on manual assembly lines and the products with higher production are mounted by assembly automation lines.  
+Plastic Injection Molds: The plastic injection molds required for the products are produced in the molding room which is located 
+in the company, and there is annual production capacity of 500 mold cavity.  
+Laboratory: All the tests required for the certification process of final products are carried out by the competent crew in our 
+laboratory which is located in our company and equipped with high technology. 
+ 
+Laboratory 
+Metal Cutting Department: In the Metal Cutting Department, which reaches to 24 employees in a year, there are 9 metal cutting 
+lines which are sensitive and fast presses in range of 40-125 tons. With 180 metal molds, 220 different kinds of products are 
+produced and approximately 28 million pieces are produced per month. 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 73 of 127 
+         
+Metal Cutting 
+The measurements of the parts produced in the metal cutting section are carried out by the metal cutting quality control measuring 
+unit which is also created. 
+ 
+Metal Cutting Quality Control Measurement Section  
+SMD Installation Department: SMD line with a capacity of 42.000 component sets per hour has been installed and the 
+manufacturability of 150 different products has been ensured. In this section, after the completion of the electronic layout process, 
+the product is combined with other parts and tested. 23 employees have been employed in this department. 
+     
+ 
+SMD  
+Design of Automation Lines:  
+                                                                                                                             
+ A line design has been realized for TV - data sockets to be mounted on the 
+same assembly automation line of 42 kinds of products. 
+ Mounting automation systems are provided for module and mechanism 
+assemblies for C1 socket mechanisms  
+ 
+                                           
+                                                                                                                                                          
+Automation line                                                                                                                                     
+ Key staff members undertaking the work:   
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 74 of 127 
+Çiğdem Yürür (Female): She is the project leader of DECOAT project for Panasonic Eco Solutions. She is a mechanical 
+engineer and she has worked many years as the head of mechanical R&D processes of Panasonic Eco Solutions Türkiye. She 
+has experience in mechanical design, mould design, materials, injection processes. 
+Esin Akdeniz (Female): She is responsible of preparing all the reports, IP rights for the DECOAT project. She is a chemical 
+engineer and has experience about funded project proposals and IP rights. 
+Selin Keskin (Female): She is material engineer and responsible for all new material applications and evaluations within the 
+DECOAT project. She has experience about materials and applications. 
+Savaş Kalaça (Male): He is mechanical engineer and responsible for all material applications and test processes. He has 
+experience in mechanical design, materials, injection processes. 
+Eda Arıoğlu (Female): She is responsible for product tests. 
+DECOAT relevant achievements: (up to 5) 
+The production and testing of new materials and products can be carried out within the company. 
+If the project work is successful, the innovations will also be available in a wide range of Panasonic industries. 
+DECOAT relevant previous projects or activities:  
+ Already using ca. 10% of recycled materials of the 4200 tons plastic raw materials that are yearly used 
+ Extensive experience with national R&D projects in Turkey, for example for the development of new moulds, automatization 
+and robotisation 
+DECOAT relevant significant infrastructure and/or major skills, equipment:  
+ Product test equipment for all the tests that are needed for product standards 
+ 56 injection lines 
+ 9 metal cutting lines 
+ Automation lines 
+ R&D center 
+Participant’s dissemination channels:   
+Fairs: 
+Many fairs are attended, both in Turkey and overseas. Main ones:  
+ Light + Building – 2-yearly (for DECOAT 2022 could be of main interest), Frankfurt.  
+ ICSG - Istanbul Smart Grids and Cities Congress and Fair 
+ 
+ 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 75 of 127 
+Partner 8 - MBT - Mercedes Benz Türk A.Ş. 
+ 
+Country Turkey 
+Core Competence: Providing design, calculation, simulation and final 
+validation of the truck/bus parts obtained 
+Brief description of legal entity:  
+Mercedes-Benz Türk (MBT), which was established in Istanbul in 1967, is one of the biggest foreign direct 
+investments in Turkey with a total investment volume of € 1 billion and employs around 6.000 people. 80% of MBT 
+employees are postgraduates. Furthermore 4.000 people are employed in its nationwide dealer and customer 
+service network. Daimler AG currently holds 67% shares in MBT.  
+Mercedes-Benz Türk produces city-buses and coaches at the Hoşdere Bus Plant in Istanbul and light, medium and 
+heavy duty trucks at the Aksaray Truck Plant. These facilities are an important part of Daimler AG’s development 
+and production network. 
+MBT R&D Center (Bus & Truck), which is located in the Hoşdere Bus Plant, has over 400 employees, more than 
+85% with a mechanical, electrical, computer engineering or equivalent, including 165 MSc and 4 PhD. The strategy 
+of MBT R&D Center is to service engineering facilities to the global development network for specific contents all 
+around the world (Center of Competence), to produce and export technology, to supply the needs of both Turkish 
+and world market, to present industrialised products manufactured in Turkey, to play an active role in the R&D 
+ecosystem by innovation, innovative technologies and university-industry collaborations. The R&D Department of 
+MBT is specialized in all steps of the development process, from vehicle concept to construction, from simulation 
+calculation to testing. By centralising research in the Center of Competence (shift of work load from Germany to 
+Turkey) the employee number is increasing. MBT is designing its future on six main topics: connectivity, autonomous 
+driving, mobility, electrifications, safety and efficiency (reducing the cost and emissions, increasing efficient use of 
+energy and resources). Web page: www.mercedes-benz.com.tr 
+DECOAT role and main tasks:  
+Main role of MBT is supporting the project (as one of the end users) by its huge experience of plastics and multi-
+layered bus components. MBT is going to develop its own test methodology for validating the related processes and 
+predicting the debonding quality of future components. New products with novel recyclability property and novel 
+CAE methodology will be the main tasks for MBT. 
+DECOAT specific competences and experiences:  
+MBT has a global responsibility for various scopes in Daimler Buses. MBT is the competence centre for cockpit 
+scope. A cockpit structure consists of very different parts, especially multilayer parts. MBT research and 
+development centre takes responsibility for these parts from design to development/ modelling/ production method 
+and surface properties and has a lead role in the production of the parts. Therefore, MBT has an elaborated technical 
+background of multilayer parts. 
+Key staff members undertaking the work:   
+PhD Candidate Okan Otuz (M) holds a bachelor degree in mechanical engineering. Later on he obtained his master 
+degree at Istanbul Technical University (İTÜ), studying composite& hybrid engineering. He is currently doing his 
+PhD study in the Faculty of Aeronautics and Astronautics at İTÜ. In 2012, he started working for Mercedes-Benz 
+Turkey in the field of structural durability and fatigue calculations. Since 2013, he is also responsible for plastics, 
+fibre-reinforced plastics and hybrid structures. 
+Bsc. Nadin Özkuyumcuyan (F) holds a bachelor degree in chemical engineering from Istanbul Technical 
+University. Her thesis subject was “Increasing Flame Resistance of Polypropylene”. In 2015, after her studies, she 
+started working as R&D Incentives & Innovation Responsible in truck development at Mercedes-Benz Türk. She is 
+coordinating the local and international incentive projects and patent applications.  
+PhD Candidate Akın Özkan (M) Design engineer in MBT Bus interior trim. He received his master in mechanical 
+engineering - construction program (2015) in Istanbul Technical University. Has 7 years development experience 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 76 of 127 
+and he is now studying his PhD in Istanbul University on composite materials. He has participated in several projects. 
+Previous industry experience: MBtech, design engineer. 
+Bsc. Thomas T. Braunmiller (M) He received his bachelor degree as mechanical engineering in University of 
+Augsburg. He is currently working as a design engineer Interior Cockpit in EvoBus/MBT for 10 years. Before, he 
+worked as an external employee (euro engineering) in Interior Cockpit (EvoBus) for 9 years. 
+PhD Candidate Deniz Sönmez (M) Senior Test Engineer in MBT Testing Interior/Elektrik BUS. He gained his 
+master in mechanical engineering - manufacturing program (2009) with a thesis on Creep Behaviour of shape 
+Memory Alloys Near Equiatomic Nickel-Titanium Wires. He is working on his PhD on Polymers and Injection/ 
+Compression Molding. He has participated in several projects.  
+Technician Mehmet Atalay (M) Test Technician in MBT Testing Bus &Truck. He graduated from Alibeyköy 
+Industrial vocational high school – electric department. He has more than 10 years test experience. His areas of 
+expertise are automation, strain-gauge applications and auto electricity topics. 
+DECOAT relevant achievements: (up to 5) 
+CAE methodology on bonded glass-fibre reinforced plastics and steel parts was developed under a joint study with 
+Dortmund Technical University. The name of the Thesis: Development of intrinsic connection elements to join 
+composite and metal components for automotive applications, Adalı, Can, Otuz, Okan, Akyol, Onur, Pohl, Markus, 
+Stommel, Markus.  
+DECOAT relevant previous projects or activities:  
+Several successful applications and new ongoing projects were obtained in the scope of multilayer parts in MBT 
+buses that are pioneering the market regards to design and production.  
+Well-experienced in performing R&D projects at national level (Tübitak projects) 
+DECOAT relevant significant infrastructure and/or major skills, equipment:  
+As Mercedes- Benz Türk A.Ş. R&D Center, we will be participated in DECOAT project with CAE, Testing and Design 
+departments. Existing Computerized Simulation capabilities are Bus & Truck Entire Vehicle Strength Analysis, 
+Components/Subsystem Strength Analysis, Multi Body Simulation, Fatigue Life Analysis etc. In MBT test labs, there 
+are 4 main operations; 1) Function and vehicle tests, 2) Road testing, 3) Prototyping and 4) Endurance test and field 
+quality. R&D Center product design engineers are capable of designing and developing complex 3D bus/truck parts 
+using engineering tools (NX & Catia).  
+  Bus assembly testing facilities at MBT. 
+Participant’s dissemination channels:   
+Fairs: 
+IFAT 2021 World’s Leading Trade Fair for Water, Sewage, Waste and Raw Materials Management (yearly, 
+conference) 
+Plast Eurasia International Fair (yearly, fair) 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 77 of 127 
+Networks: 
+Daimler Corporate Information & Resources platform - in house platform covering the whole Daimler group 
+ 
+ 
+ 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 78 of 127 
+Partner 9 – MAIER – Maier S. Coop. 
+ 
+Country SPAIN 
+Core Competence: AUTOMOTIVE TIER 1 
+Brief description of legal entity:  
+MAIER is one of the first plastic component suppliers with up to 2,300 employees in 9 countries with global sales above 361 M€, 
+being part of the biggest co-operative group in the world (global sales above 13,200 M€ and a workforce above 82,000 employees). 
+MAIER is a leading company in functional and aesthetical components for the automotive industry. In Europe, Maier heads, in 
+particular, the development and manufacture of body colour painted front grilles, chromed caps, wheel-trims, wheelcaps and petrol 
+cap lids, as well as the production of a wide array of other automotive components and body modules (mudguards, consoles, air 
+vents, fascia, door trims, handles...). MAIER owns plants in Spain, the United Kingdom, Italy, Czech Republic, China and Mexico, 
+joint ventures in Turkey and Japan, and offices in France, Germany, USA and Japan, being supplier of plastic components for the 
+most important automotive OEMs (PSA Groupe, TOYOTA, AUDI, RENAULT, JAGUAR-Land Rover, GM, BMW, NISSAN, etc.). 
+Besides, its technical centre with more than 100 employees offers support to OEMs and Equippers. 
+MAIER is an experienced company in design and development of components (injection, finishing/decoration and assembly); 
+designing and manufacturing of prototype and production moulds; analysis and implementation of industrial facilities; and 
+research, development and innovation. MAIER’s innovation procedure is always based on quality and accuracy methodologies 
+which have led to more than 20 patents, from 1993 onwards, in automotive components and related processes.  
+In order to achieve the objectives planned in the project, MAIER will work along with its research centre called MAIER 
+TECHNOLOGY CENTRE (MTC), in which MAIER has a participation of 84.62%. MTC will participate as a linked third party of 
+MAIER in the achievement of some tasks in the project. MTC is an R&D NON PROFIT organization dedicated to the research 
+and development in the field of thermoplastic injection moulding, decorative and assembly technologies and analysis and 
+implementation of production facilities for automotive. The technological capacity of the centre is based on its team, currently 
+formed of more than 100 people, mostly with technical skills (Higher Engineering with a strong vocation for research, development 
+and innovation). 
+For MAIER, as the End-user for automotive applications, the targets of this project coincide very well with its own target to specialize 
+in the production of thermoplastic components and subunits with decorative finishes that could be recycled for automotive 
+applications  
+DECOAT role and main tasks:  
+WP leader of WP5, strong involvement in WP2 and support in WP1 and WP4 with the following tasks: 
+ Definition of the specifications and requirements that the automotive demonstrator component must fulfil. 
+ Production of the automotive coated demonstrator for recycling  
+ Production of the automotive aesthetic demonstrator with recycled material  
+ Validation of the demonstrator components according to the specifications. 
+DECOAT specific competences and experiences:  
+MAIER is an expert in understanding the needs of the automotive OEMs and we are in close contact with their engineering 
+departments. MAIER also has a deep and complete knowledge of parts that have highly aesthetic functionalities (as coated parts 
+proposed on this project). MAIER designs these parts and produces the moulds, injects the parts and is also able to validate their 
+performance. 
+Key staff members undertaking the work:   
+Mikel Larrakoetxea (Male): He is the responsible for the development of industrial projects. He is a mechanical engineer, with 
+more than 10 years of experience at MAIER. He has a wide experience in R&D projects regarding scale-up to industrial level.  
+Irati Apraiz Garteiz (Female): Quality technician. Industrial Technical Engineer with more than 10 years of experience at MAIER. 
+She has a wide experience in the characterization and validation of automotive components for the principal OEMs. She has been 
+involved in several R&D projects at national and regional level. 
+Ana Isabel Zaldibar Arteche (Female): Cost Analyst, Industrial Engineer with more than 12 years of experience at MAIER. She 
+has a wide experience in the component cost analysis for the exploitation and business plans. 
+DECOAT relevant achievements: (up to 5)  
+ 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 79 of 127 
+ 
+MAIER is an experienced company in 
+designing and development of components 
+(injection, finishing/decoration and assembly); 
+designing and manufacturing of prototype and 
+production moulds; analysis and 
+implementation of industrial facilities; and 
+research, development and innovation. MAIER 
+innovation procedure is always based on 
+quality and accuracy methodologies which 
+have led to more than 20 patents, from 1993, 
+in automotive components and related 
+processes. 
+DECOAT relevant previous projects or activities:  
+ MAIER is already involved in 3 EU projects concerning recycling: 
+ ECOBULK: enabling circular product options for re-use, upgrading, refurbishment, recovery and recycling 
+https://www.ecobulk.eu/  
+ FIBEREUSE: Large scale demonstration of new circular economy value-chains based on the reuse of end-of-life fiber 
+reinforced composites http://fibereuse.eu/  
+ TRASH2CASHPROJECT: Designed high-value products from zero-value waste textiles and fibres via design driven 
+technologies http://trash2cashproject.eu/  
+DECOAT relevant significant infrastructure and/or major skills, equipment:  
+ 
+  
+ MAIER will offer the following services 
+and expertise: 
+ Style definition  
+ Design, engineering & manufacturing 
+of injection tools. 
+ Injection moulding of up-scaled 
+components. 
+ Final component characterisation 
+according to OEMs’ specifications 
+and market requirements. 
+Technical and economical assessment 
+for further industrialisation. 
+Participant’s dissemination channels:   
+Main focus will be on commercial visits to the main automotive customers, i.e. the key OEMs (like PSA, Toyota, Renault, GM…) 
+during the final part of the project and beyond 
+ 
+ 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 80 of 127 
+Partner 10 - RESCOLL – RESCOLL SARL 
+ 
+Country FR 
+Core Competence: Adhesive bonding, composite materials, testing 
+Brief description of legal entity:  
+RESCOLL is an innovative SME, best defined as a research company for materials, specialized in composites and polymers. 
+RESCOLL’s activities are industrial research and development of innovative products and processes. RESCOLL is conducting 
+innovation research in the field of industrial applications of polymers (composites, resins, adhesives, varnish, coatings, etc.) and 
+related fields: bonded assemblies, materials for fire behavior and environmentally friendly surface treatments. 
+RESCOLL currently has 100 employees, including PhDs, engineers and technicians with sales of 10.2 M€ in 2017. RESCOLL 
+does more than 45% of its sales in the aerospace industry. RESCOLL has been at the origin of more than 40 patents in the field 
+of polymers and composites. RESCOLL has ISO 17025 and NADCAP accredited laboratories and is specialized in the fields of 
+polymer formulation, vibroacoustic testing, mechanical characterization, non-destructive control, fire testing, thermo mechanical 
+analysis, spectrometry and chromatography and surface analysis and accelerated ageing.  
+RESCOLL also participates in several European projects including projects within the scope of FP6, FP7, and Horizon 2020. In 
+addition, RESCOLL has participated in several Clean Sky 2 and CORAC projects.  
+RESCOLL has worked extensively on the development of advanced surface coating and bonding technologies, and has 
+equipped a laboratory specifically for studies related to surface characterization and analysis. Thanks to projects supported on 
+both the national and European level, RESCOLL has a team who has a great deal of experience in the development of 
+debondable adhesion coatings.  RESCOLL’s INDAR INSIDE debondable adhesives have already seen application in numerous 
+applications, including the automotive sector. 
+Its technical skills, quality system and the scope of its material means (i.e. technologically advanced equipment) make RESCOLL 
+one of the state-of-the-art laboratories in the field of materials testing on the European level. 
+DECOAT role and main tasks: -  
+Debonding on demand via adaptation of the debonding adhesives for use on textiles and plastics (activation type, type of trigger) 
+– mainly in WP1 and WP2 
+DECOAT specific competences and experiences:  
+RESCOLL has worked extensively on the development of innovative adhesive systems over the years, including surface 
+treatments such as primers for promoting adhesion between layers in dissimilar materials. In addition, RESCOLL is fully equipped 
+to perform surface pretreatment and analysis, coupled with comprehensive testing and validation of the bonded materials. 
+Key staff members undertaking the work:   
+Dr. Dipl. Eng. Maxime OLIVE (male) is an R&D Engineer with more than 10 years’ experience in the adhesive industry, 
+especially formulation issues and debonding strategies. From 2010 to 2015 Maxime has worked as Team Manager of the 
+Sustainable Chemistry Department in RESCOLL, with activities ranging from adhesive dismantling strategies to adhesive 
+formulation (including substitutions of substances and REACH impact studies) or Life Cycle Assessment. In 2015 Maxime took 
+a position as IP and Internal Research Manager in RESCOLL with activities devoted to the development of RESCOLL’s home 
+technologies in smart adhesives and coatings. 
+Wilfrid Sourbé (male). Ing. Wilfrid Sourbé is Expert in bonding process development. He has more than 10 years’ experience 
+in adhesive technology, process and metal/composites assemblies. He obtained the EWF Bonding Adhesive diploma in 2011 
+and is a now a training leader at RESCOLL. Wilfrid has wide experience in the management of B2B missions and collaborative 
+projects dedicated to adhesion and process auditing, more specifically in relation to the aeronautics, medical devices, transport, 
+or energy sectors. 
+Dr. Dipl. Eng. Isabelle Coco (female), Head of the department of analysis and characterization, will support the consortium in 
+mechanical, thermomechanical, chromatographic, spectrometric, physic-chemical, surface analysis and characterization. Dr 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 81 of 127 
+Coco’s team has 16 persons and manages 7 laboratories accredited by ISO 17025, NADCAP, AIRBUS and SAFRAN GROUP 
+among other certifications. 
+DECOAT relevant achievements: (up to 5) 
+ Physico-chemical characterization: RESCOLL's analytical testing laboratory is certified by both NADCAP and AIRBUS 
+for characterization activities. RESCOLL works regularly with major actors in the aerospace industry, providing analytical 
+testing services for a variety of needs. 
+ Aging, mechanical, and fatigue studies: RESCOLL has a large laboratory dedicated to aging and fatigue studies 
+ Surface characterization and analysis: RESCOLL's surface analysis laboratories are one of the leading laboratories in 
+France of its type. Designed around the characterization and development of advanced surface treatment technologies, 
+the surface analysis labs are equipped with cutting-edge analytical techniques designed to perform analyses more rapidly 
+and accurately. 
+DECOAT relevant previous projects or activities:  
+ LAY2FORM: Efficient Material Hybridization by Unconventional Layup and Forming of Metals and Composites for 
+Fabrication of Multifunctional Structures,2017 (H2020) 
+ DOSECATH: Balloon catheter for prevention of bladder infections (adhesive bonding of soft substrates with porous 
+ones),2016 (EUROSTARS) 
+ URBANREC: New approaches for the valorisation of URBAN bulky waste into high added value RECycled products,2015 
+(H2020) 
+DECOAT relevant significant infrastructure and/or major skills, equipment:  
+ 
+ 
+Participant’s dissemination channels:   
+Every year, RESCOLL hosts its annual “Journée Collage”, an event dedicated to coatings and adhesives which attracts major 
+industry representatives from across the industrial spectrum. This will also be used to disseminate project activities. 
+Fairs: RESCOLL regularly attends a wide variety of conferences, such as SURFAIR, JEC, and others, where it will also 
+disseminate project information. 
+Networks: RESCOLL is a member of the European Welding Federation (EWF), and is certified to deliver diplomas in adhesive 
+bonding through its training activities (EWF 515, 516, 517). As a result, this will serve as one significant channel of 
+communication. In addition, RESCOLL is a member of several clusters, such as Aerospace Valley and ASTECH, which have 
+very close ties to industry. 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 82 of 127 
+Partner 11 – CTECH – C-Tech Innovation 
+ 
+Country United Kingdom 
+Core Competence: general technology driven innovation, especially relevant for 
+DECOAT is the experience with microwaveable additives and microwave 
+equipment 
+Brief description of legal entity:  
+C-Tech Innovation is a leading independent innovation management and technology development SME based in the UK. The 
+company is a leading centre for the development of novel technological processes, which are used to replace or enhance 
+conventional process routes. C-Tech has extensive experience in a number of technology areas stretching back over 40 years. 
+C-Tech has taken part in European Commission funded research projects over many years, and our experience will be applied 
+during this project. We have a highly qualified, skilled and diverse workforce of over 60 as well as our own laboratories and 
+workshops. This unique combination enables us to provide a flexible, tailored service, taking projects from concept, through 
+design, to construction and commercialisation, all in-house. Our services include innovation management; process, product and 
+service improvement; due diligence; contract research and development; and intellectual property exploitation. Our worldwide 
+clientele ranges from small start-up companies to large multinationals. The company applies chemistry, physics and biological 
+science in innovative applications in a variety of fields, including sensors, nanotechnology, thermal process engineering, 
+environmental technologies, electrochemistry etc. Over 1,500 patents have been taken out since 1966 by C-Tech, covering a 
+very broad spectrum of technologies. Our list of clients include: 
+ 
+Our work has seen us achieving an average annual turnover of €5.25M and registering a 35% growth per annum over the past 
+5 years.  
+DECOAT role and main tasks:  
+C-Tech will use its extensive expertise in process design for recycling (WP2) to assist in pilot line design and build (WP4). The 
+electrothermal technology selection will be key to the whole process and this coupled with the ‘additives for activation’ selection 
+(WP1) is central to the DECOAT project. 
+DECOAT specific competences and experiences:  
+Process Plant Design and Build - With over 40 years’ experience of helping our customers design and build innovative process 
+equipment, C-Tech have the breadth of knowledge to complete custom made projects in diverse industry sectors. Using bespoke 
+development process equipment constructed by C-Tech, new technologies achieve market faster with reduced risk. C-Tech has 
+in-depth knowledge of the design and build of RF/MW heated process and will use this to design and build a unit in DECOAT. 
+Key staff members undertaking the work:   
+Mr Edward Jones (Male) - Edd is C-Tech Innovation’s Research & Development Group Leader. In addition he is involved in a 
+number of innovative heating based research projects in the recycling sector. Edd has a degree in Chemistry from University of 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 83 of 127 
+Durham and has worked as a project manager at C-Tech for 7 years. As a registered Prince 2 practitioner he co-ordinates C-
+Tech’s offer of external project management to large industrial customers. 
+Dr Bob Crawford (Male) - Bob is CTECH’s Innovation Manager. In addition, he runs projects with energy and materials recovery 
+themes and carries out Life Cycle Analysis studies. Bob has a DPhil in physical chemistry from Oxford University, a Post 
+Graduate Certificate in Sustainable Business from Cambridge University Programme for Industry and is a Fellow of the Royal 
+Society of Chemistry. He worked in consumer goods R&D for 22 years and is expert in all aspects of collaborative R&D. 
+Dr Domenico Cupertino (Male) – is an experienced chemist and materials scientist with 30+ years’ experience. He has 
+extensive R&D experience in industrial chemistry and catalysis and has a broad background in technology development. He has 
+experience with nanoparticle systems, MW and RF heating of polymers and composite materials.  
+DECOAT relevant achievements: (up to 5) 
+WEAR2 – this concept was developed in a joint venture with NIRI and has since been taken up exclusively in the Netherlands 
+in the work wear sector. The wear2 process incorporates a unique yarn in selected seams during garment manufacture. 
+Microwave energy is used to activate the seam separation at disassembly, by degrading the yarn’s tensile properties. wear2 
+allows discrete components such as buttons, zips, labels and decorative pockets to be removed with minimal force. The rest of 
+the garment remains undamaged and complete, ready for re-use. Alternatively, the entire garment can be engineered to literally 
+come apart at the seams into its constituent components. This theme will be carried into the DECOAT project to design processes 
+for new applications.  
+DECOAT relevant previous projects or activities:  
+SUSCORP: Development of reversible adhesive systems incorporating microwave-activated expanding microspheres for the 
+complete removal of logos and emblems from corporate wear post first user life (InnovateUK project 100698) . 
+RADIACAM: Automated disassembly technology and process development using MW activated materials to assist the 
+automotive industry and mattress producers reduce their environmental impact by recycling/reusing components (InnovateUK 
+project 101246).  
+RELIGHT: MW separation of glass lighting components including removal of mercury contamination to enable reuse and 
+recycling (FP7 project 314872). 
+ILLUMINATE: Disassembly and sorting of CFL and LED lamps and their components (FP7 project 603667) 
+DECOAT relevant significant infrastructure and/or major skills, equipment:  
+Our primary key resources are our personnel that include recognised experts in MW/RF heating, electrochemistry, physics, 
+design, engineering, sales and the financial and administrative knowledge needed to complete the tasks in DECOAT.   
+Furthermore, CTECH has its own laboratories and workshops that will be necessary for technology development and 
+demonstration, and has expertise in the modern computer technologies, computer aided design software and devices required 
+for project success.  
+Participant’s dissemination channels:   
+Fairs, journals, magazines: 
+ Web-based channels, technology flyers 
+Networks: 
+ Waste recyclers and through National Bodies concerned with Waste and Resource, such as WRAP (UK) 
+ 
+ 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 84 of 127 
+Partner 12 – DEVAN – Devan Micropolis S.A. 
+ 
+Country Portugal 
+Core Competence: Provides high-tech finishing chemicals to the worldwide textile 
+markets 
+Brief description of legal entity:  
+Devan is a technology company that develops and commercializes new chemical treatments for textiles. These treatments add 
+functionality to textile fabrics making them more comfortable, safer and cleaner. The company operates through its four 
+operational entities, together with a wide network of agents and distributors a global coverage is ensured. The company has 
+been successful in introducing new concepts to the market. Devan’s product range and expertise are very wide. It operates in 
+many textile segments such as home textiles (e.g. carpets, bedding textiles), apparel (e.g. sports clothing) and technical textiles 
+(e.g. workwear). Part of Devan’s expertise is related to microencapsulation, main focus of the Portuguese site (Devan – 
+Micropolis S. A. - Devan Portugal), which have a vast knowledge on microencapsulation and chemical functionalization of 
+microcapsules and their incorporation in different polymeric matrices and fibres.  
+DECOAT role and main tasks:  
+In the DECOAT project, Devan´s main activities are related with the development of innovative thermo-responsive core-shell 
+nanostructured co-polymers and their industrial upscale. Devan will closely collaborate with partner NTUA (National Technical 
+University of Athens) on the synthesis of the nanostructured materials and the subsequent upscaling of the processes.  
+DECOAT specific competences and experiences:  
+Devan has a vast knowledge on the development and commercialization of microcapsules for the worldwide textile market. 
+Devan´s product portfolio contains several products based on microcapsules containing several active ingredients depending on 
+the final aim, such as: fragrances, well-being oils, probiotics and phase change materials for thermoregulation purposes.  
+ 
+An example of one of Devan´s commercial products. Electron microscopic photographs of 
+eSCENTialTM applied to textile fibres. The microcapsules are homogeneously applied and linked to 
+the fibres, providing an even distribution and durable attachment of the product.[21] 
+In addition, Devan has been involved in the development of microcapsules containing very reactive ingredients, such as self-
+healing compounds. The high reactivity of the self-healing compounds is an extra challenge for the microcapsules synthesis, 
+and the gained knowledge will be very useful in the DECOAT project. 
+Finally, the grafting and functionalization of the nanostructured materials/microcapsules onto the surrounding matrices is very 
+important, allowing a good adhesion and chemical compatibility. Devan is proprietary (See reference below) of a patent related 
+to the covalent linkage of microcapsules onto textile fibres for a permanent adhesion. This know-how will be of great use to 
+compatibilise the nanostructured materials to the textile fabrics.  
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 85 of 127 
+  
+Devan Chemicals NV’s proprietary IP main features meant to increase textile functionalization by 
+singular adhesion and release mechanism of microcapsules on textile fibres. 
+REF: Patent WO / 2006/117702. MICROCAPSULES WITH FUNCTIONAL REACTIVE GROUPS FOR BINDING TO FIBERS 
+AND PROCESS OF APPLICATION AND FIXATION 
+Key staff members undertaking the work:   
+Roberto F. A. Teixeira (male) obtained his Ph.D at Warwick University (UK) working on the fabrication of hybrid nanocomposite 
+waterborne materials. In the fall of 2011, he started to work at the University of Ghent (Belgium) as a research fellow focusing 
+on the microencapsulation of novel chemistries developed for self-healing applications. In 2014 he joined Devan Chemicals as 
+a project manager and was responsible for the microencapsulation related projects. In May 2015, he became the R&D Manager 
+of Devan Chemicals, leading the R&D department towards the development and implementation of innovative products for the 
+worldwide textile market. 
+Ana Carreira (female) obtained her Ph.D. in Chemical Engineering at Coimbra University (Portugal) working on the production 
+of acrylic based microcapsules for textile applications, a project resulting from a collaboration with Devan Chemical. In the 
+beginning of 2016, she started to work as strategic R&D researcher at Devan (Portugal), being involved in microencapsulation 
+projects and addition of new properties/functionalities to textile substrates. Her research interests include the synthesis, 
+modification and characterization of polymers, microencapsulation procedures and smart polymers for substrates 
+functionalization.  
+Ivo Pais (male) is an MSc in Chemical Engineering by the Faculty of Engineering from Porto University. As soon as he finished 
+his degree (2011), he started working in Devan, focusing his work on self-healing projects, with special attention to the 
+encapsulation of reactive compounds. Know-how was built around polyurea and polyurethane shells with application in the same 
+type of substrates. Further topics of interest include the development of smart membranes to increase the comfort of fabrics’ 
+users, specifically by developing solutions sensitive to temperature/pH and water variations. 
+DECOAT relevant achievements: (up to 5) 
+ WO/2006/117702 Microcapsules with functional reactive groups for binding to fibres and process of application and 
+fixation. 
+ WO/2014/044547 Textile treatment compounds and compositions. 
+ Teixeira R. F. A. et al., Microencapsulation of Active Ingredients Using PDMS as Shell Material. Macromolecules, 47: 
+8231-8237 (2014). 
+ WO2014131913. Microcapsules and concrete containing the same. 
+ Carreira A.S. et al., Preparation of acrylic based microcapsules using different reaction conditions for thermo-regulating 
+textiles production, European Polymer Journal 93 (2017) 33–43. 
+DECOAT relevant previous projects or activities:  
+SHREC - Self-HEaling and REpairing Coatings. Devan worked on the development of microcapsules containing self-healing 
+actives. Challenges were: 1) Very small size of microcapsules in coatings, 2) Compatibility with a wide variety of coating systems 
+and substrates 
+PUrePAIR - "polyurethane foams and elastomers with autonomic repair functions”. Following objectives were envisaged:  
+ Development of new microcapsules to incorporate various chemistries and development of a continuous production process 
+for the capsules 
+ Development of a new route for the self-healing concept 
+ Evaluation on processing of incorporating self-healing microcapsules in PU foams and elastomers 
+ Proof-of-concept of self-healing in a PU matrix 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 86 of 127 
+Healcon - Sealf-healing concrete to create durable structures (www.healcon.eu). 
+Skincaps - “SKin Healthcare by Innovative NanoCAPsuleS” is a research project aiming to develop customised and safe 
+nanocapsules to deliver novel products for skin healthcare applications, with increased efficiency and cost benefits, leading to 
+ground-breaking innovations on the actual products. (www.Skhincaps.eu) 
+DECOAT relevant significant infrastructure and/or major skills, equipment:  
+Devan´s research labs are equipped with Batch reactors, including an automated Atlas system from Syrris to perform the 
+microencapsulation experiments. In our labs different reactor sizes are available, starting from 0.5 L up to 5L. Devan also has 
+automated temperature, pH monitoring and overhead stirring speed controlling systems. 
+For the industrial upscaling, Devan has recently invested in a new reactor platform, including several reactor types of different 
+sizes (from a few hundred Kg to several Tons scale). 
+In terms of skills, Devan has a specialized team of 6 people focusing their activities on the development of microcapsules, from 
+the research and development point until the commercialization. We include in the point above, some of the key people for this 
+project. 
+Participant’s dissemination channels:   
+Conferences and Fairs: 
+ DORNBIRN Conference- Man-made fibre congres  
+ Techtextil - Technical textiles  
+ Performance Days – Functional fabric for sports, corporate and work wear 
+ Domotex – Interior textiles  
+ INTERZUM - Home textiles and furniture  
+ 
+ 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 87 of 127 
+Partner 13 – IRIS - Innovacio i Recerca Industrial i Sostenible S.L. 
+ 
+Country Spain 
+Core Competence: Advanced engineering 
+IRIS Technology solutions, SL. (www.iris-eng.com) is an advanced engineering company that was established in Barcelona in 
+2007 and specialises in the manufacture and integration of Process Analytical Technology (PAT)-based real-time quality 
+monitoring solutions for the process industries and IoT systems for smart manufacturing, predominantly targeted at the food, 
+pharmaceutical and chemical industries. In particular, our product line comprises proprietary state-of-the-art IR analysers for at-
+line and in-line process monitoring.  
+On the one hand our solutions are based on the latest developments in photonics-in the fields of MEMs Near Infrared 
+Spectroscopy, Hyperspectral Imaging, and Raman. We leverage ICTs, whereby we apply Machine learning, Artificial Intelligence 
+and Data Mining techniques for predictive and active control, as well as for decision support systems. In addition to photonics-
+based analysers, we also work with IoT sensors for enabling equipment and machinery for smart manufacturing and transitioning 
+industry to the Industry4.0 paradigm. Our solutions are cloud-based for mobility, remote monitoring and multi-site applications.  
+Our Innovation Division which is governed by an Innovation Committee comprising Senior Management, and an Innovation Unit 
+for managing and executing the companies innovation roadmap, has 3 core strategic lines, for shaping the Factory of the Future: 
+1. New optical photonics-based technologies and PAT systems for production process optimisation 
+2. ICTs (Artificial intelligence / machine learning, IOT & cloud platforms) 
+3. Circular and Bio-based Economy: digitalization and waste valorisation 
+In addition to running an internal R&D programme, as well as carrying out various joint private projects with industry partners, 
+our Innovation Division is highly experienced in working in collaborative R&D projects in H2020 (both as coordinators and 
+partners), and principally in the SPIRE, FoF, and BBI programmes. The company was established in 2007 and currently employs 
+60+ staff with a turnover of € 5 M. It is equipped with engineering workshops (3), food testing and wet chemistry laboratory, 
+optics labs (2), and an electronics/telecommunications lab. IRIS is ISO 9001:2008 certified and also is certified under UNE-EN-
+ISO 166002: Management Systems R&D&i. We are also certified by the local (Catalonian) government as a provider of 
+technological R&D services (Tecnio Certification). IRIS is a member of the following sectorial networks: SPIRE, SPIE and 
+SECPHO, in addition to regional industrial collectives such as Smart Space (association of companies and organisations that 
+specialise in the ‘smartification’ of industry). 
+DECOAT role and main tasks:  
+IRIS will lead WP3 where they will design and deliver different photonic-based systems for the monitoring of the process involved 
+in the production of the DECOAT materials as well as for their end of life identification to ensure they can appropriately be sorted 
+and that the coating removal process performs correctly. They will also have a role in WP1 to suggest fluorescent dies to be 
+added in DECOAT core-shells, in WP4 for the integration of the monitoring systems prototypes, in WP5 for their validation in 
+industrial case studies. Finally they will contribute to the project dissemination and plan an outmost exploitation of their results. 
+DECOAT specific competences and experiences:  
+The optical engineering and smart systems teams at IRIS have specialized expertise in sensor integration, optical engineering, 
+chemometrics, data analytics, cloud infrastructures and data management systems. IRIS has a matrix of multidisciplinary 
+knowledge groups. The Groups that will be involved in this project have expertise in optical systems (development of 
+spectroscopic system for inline monitoring in the industry), production processes (scale up and the industrial integration of novel 
+technologies for process optimisation/intensification), and performing scientific research (use of chemometrics to determine 
+material composition and coating processing and optimisation). 
+Key staff members undertaking the work:   
+Dr. Ing. ELODIE BUGNICOURT (female). Project manager and Leader of the innovation unit in IRIS since 2009. Masters in 
+Material Science & Engineering (2002), PhD in Polymers and Composite Materials (2005), both from National Institute of Applied 
+Science (INSA), Lyon, France. Coordinated several European projects in the fields of bio-based packaging materials 
+development, process monitoring, surface treatment. Previous industry experience: Arkema; Wacker Chemie, Ashland. 
+Dr. IDOIA MARTÍ ALUJA (female) is a Senior Scientist at IRIS specialised in chemometric analysis. She received her PhD in 
+Chemistry at the Universitat Rovira i Virgili (Spain) and then worked in the Spectroscopic and Kinetics Unit (SKU) at the Institut 
+Català d'Investigació en Química (ICIQ, Spain) and at the Institute of Photonic Sciences (ICFO, Spain), and at Zobele Spain. 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 88 of 127 
+Dr. LAURA RODRÍGUEZ TURIENZO (female). B.S in Food Science & Technology (2008) Masters in Innovation in Safety & 
+Food Technologies (2010), PhD in Biological Sciences (2011), all from University of Santiago de Compostela (USC), Spain. 
+Leads the Science and Engineering department at IRIS. Has been involved in a number of EU projects. 
+Dr. MARIANO PERÁLVAREZ (male): PhD in Physics from the University of Barcelona (2009). Currently Project Technical 
+Responsible and Optical Engineer at IRIS, Mariano is specialised in the fields of LED technology, Lighting, Optoelectronics and 
+Photonics. Mariano also participated in 18 R&D projects, funded through both public competitive calls (at National and EU level) 
+and private institutions.  
+ALEJANDRO ROSALES (male) has a M. Sc. in Physics from the Universidad de La Habana (1986). His background comprises 
+theoretical and technical skills in several scientific and technological areas: optics, lasers, high vacuum, colorimetry, UV-VIS-
+NIR-MIR spectroscopy, chemometrics and design of measurement instruments. He has extensive practical experience in 
+programming, electronics and mechanical CAD design as well as R&D methodology and management. Currently, he is the 
+Science & Technology Manager in IRIS. 
+DECOAT relevant achievements: (up to 5) 
+ Relevant product lines: Monitoring devices for real-time quality control: 
+o VisumPALM: NIR technology for incoming material quality control and detection of adulteration.  
+o VisumNIR: In-Line NIR monitoring for product standardization and increase of production efficiency.  
+o Hypera: Hyperspectral imaging solutions for the industry e.g. system for inline composition monitoring on a belt – see 
+below 
+ 
+  
+ Recent Prospects in the Inline Monitoring of Nanocomposites and Nanocoatings by Optical Technologies, E. Bugnicourt, T. 
+Kehoe , M. Latorre, C. Serrano, S. Philippe and M. Schmid, Nanomaterials 2016, Review, 6(8), 150; 
+doi:10.3390/nano6080150 
+ Recyclability of PET/WPI/PE Multilayer Films by Removal of Whey Protein Isolate-Based Coatings with Enzymatic 
+Detergents, Patrizia Cinelli, Markus Schmid, Elodie Bugnicourt, Andrea Lazzeri, Materials 9(6):473·June 2016, DOI: 
+10.3390/ma9060473 
+ Related services: Chemiometrics model development and training 
+DECOAT relevant previous projects or activities:  
+ OptiNanoPro: Processing and control of novel nanomaterials in packaging, automotive and solar panel processing lines, 
+H2020- NMP-PILOTS, 2015-2018 
+ OPTIJECT: A novel spectroscopic instrument for in-line monitoring during injection moulding; Grant agreement; FP7 
+R4SMEs, 2010-2012 
+ Hypera: Affordable hyperspectral Imaging System for on-line foreign body detection and chemical composition analysis, 
+H2020- SMEInst, 2016-2017 
+ B2B contracts in the field of multilayer plastic films sorting 
+ B2B contracts in the field of fluorescence monitoring 
+DECOAT relevant significant infrastructure and/or major skills, equipment:  
+Spectroscopic Laboratory equipped with several instruments, namely, a FTIR-ATR (Interspectrum), 2 UV-VIS (PerkinElmer and 
+Ocean Optics), an Extended-SWIR (StellarNet) and a NIR (Mightex) spectrophotometers as well as a SWIR Hyperspectral 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 89 of 127 
+imager (Specim-Xenics). The associated staff is properly trained and skilled in chemometrics modelling by using a commercial 
+suite (SOLO+MIA from Eigenvector) as well as ad hoc non-commercial chemometric tools (Matlab and Python toolboxes). 
+Electronics, mechanical and optical workshops and laboratories equipped with up-to-date hardware and tools: signal generators, 
+wide band oscilloscopes, PCB design [Altium] and building tools, development kits for programming microcontrollers, CNC-
+milling machines for electronic and mechanical prototyping, and CAD software [SolidWorks], among others.  
+IRIS’ optical engineers work with ZEEMAX software for optimally designing of optical systems and to setup the designs by means 
+of advanced optical components and facilities (optical tables, windows, lenses, lasers and light sources and related 
+“opticalware”). 
+Food and wet chemistry lab equipped with a DSC, a Surface Energy analyser, an HPLC, a Cobb tester, microbiological 
+equipments, microscope and microtome for structural analysis, migration cells, colourimeter (for colour and opacity 
+measurement), Ford cup viscometers, water vapour permeation cells, turbidimeter, climatic chambers, manual and automatic 
+coaters, electrospray, different drying technologies, plasma surface activation, etc. 
+ 
+ 
+Figure 1: Coating thickness and distribution inline monitoring system adapted to a  
+plastic film's roll to roll coating application line 
+Participant’s dissemination channels:   
+Fairs:  
+ K-mess (trade fair),  
+ Europact (fair and conference) 
+Journals and Magazines:  
+ Journal of Near Infrared spectroscopy,  
+ Bioplastics magazine,  
+ Recycling today newsletter 
+Networks: 
+ SecPhO, SPIE, CLP: networks related to photonics and optical technologies 
+ ISPE, SPIRE: partnerships related to sustainable production respectively in pharma and other processing industries 
+(chemicals, plastics, etc.) 
+Bridge with other H2020 projects: In the frame of the H2020 SPIRE10-2018 project MultiCycle, coordinated by IRIS, a Circular 
+Plastics Helix will be set up and will be proposed as dissemination channel to all projects of related thematics, including (if 
+approved) DECOAT 
+ 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 90 of 127 
+Partner 14 – ECOMATTERS – Ecomatters 
+ 
+Country the Netherlands 
+Core Competence: Life cycle assessment (ISO 14040/44), 
+Environmental and Carbon Footprinting, Environmental Product 
+Declaration (EPD), PEF/OEF, Management of sustainability data 
+and Footprint Tools development. 
+Brief description of legal entity:  
+Ecomatters is a consultancy specialised in sustainability and chemical safety. Our multidisciplinary team brings together diverse 
+talents and expertise in the fields of life cycle management, product legislation, toxicology, finance, economics, tool development, 
+IT and data management. Ecomatters is skilled in developing user-friendly and interactive calculation models and tools, 
+customised to our customers’ purpose and needs.  
+We offer services based on life cycle thinking (LCT) and focus on sustainability throughout the value chain. We support 
+organisations in developing their sustainability strategy and setting concrete sustainability goals. Furthermore, we perform 
+quantitative analyses evaluating the social, economic and/or environmental aspects of services and products and assist in the 
+preparation of product claims, (eco) labels and environmental product sheets. Among our clients are large industrial companies, 
+SME’s, trade associations and research organizations. 
+DECOAT role and main tasks: -  
+Perform full LCA studies in order to evaluate the environmental impacts of the products incorporating the newly developed 
+coatings and the respective recycling processes, determine the environmental performance improvements of the suggested 
+processes compared to the current end-of-life scenarios (landfilling or energy recovery), analyze the total cost of ownership, and 
+assist in the development of new circular business models.  
+DECOAT specific competences and experiences:  
+Ecomatters has extensive experience developing tools that focus on the full life cycle as well as working with value chains for 
+the chemical, paint, and coating industries, industry associations, and governing bodies. Ecomatters usually works with industry 
+and industry associations and has participated in several research and innovation projects with universities and research 
+institutes. Therefore we have a good understanding of what it takes to transfer knowledge from the research stage to the 
+implementation and exploitation stage. 
+We have over a decade of experience performing Life Cycle Assessment studies for multinational chemical and coating 
+companies. We have completed Environmental Product Declarations, executed screening studies for downstream applications, 
+and were key actors on the PEF screening study for Decorative Paints. We have a long lasting relationship with the coatings 
+European Association (CEPE), for whom we have developed studies, tools and LCI datasets. 
+Key staff members undertaking the work:   
+Max Sonnen, Managing Director (Male). Max has a degree in Systems Engineering, Policy Analysis & Management at Delft 
+University of Technology, and master degrees in Economy and Industrial Ecology from Erasmus University Rotterdam, and Delft 
+University of Technology/Leiden University respectively. In 2008 he founded Ecomatters, with AkzoNobel Sustainability as a first 
+client. Within Ecomatters, Max is involved in the development of tools and implementation of sustainability projects in the field of 
+(product) life cycle management. Max’ focus mainly lies on the implications for strategy, economics and IT aspects. 
+Pau Huguet Ferran, Sustainability Lead Spain (Male). Pau has a degree Industrial Engineering from Universitat Politecnica 
+de Catalunya, and a master’s degree in Industrial Ecology at Delft University of Technology and Leiden University. In the 
+sustainability field, he studied methods integrating economic and environmental indicators of systems. Since 2012 Pau has 
+worked as a consultant at Ecomatters, where he performs LCA and Eco-efficiency Analysis, and develops models and analytical 
+tools for sustainability assessment.  
+Natalia Chebaeva, Sustainability Consultant (Female). Natalia obtained her Diploma and a Post-Graduate Degree in 
+Environmental Economics and Management at Saint-Petersburg State Mining University, and a master degree in Industrial 
+Ecology at Delft University of Technology and Leiden University. Natalia worked as a research assistant on international research 
+projects in climate change policies, and devoted her master thesis to sustainability performance of technologies in research 
+stages. Natalia joined Ecomatters in 2018 as a sustainability consultant. 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 91 of 127 
+DECOAT relevant achievements: (up to 5) 
+Publication of PEFCR (LCA category rules) for Decorative Coatings within the PEF (Product Environmental Footprint) pilot phase 
+Review of 40 Environmental Footprint supporting studies for the European Commission within the PEF (Product Environmental 
+Footprint) pilot phase 
+DECOAT relevant previous projects or activities:  
+ Product Environmental Footprint Pilot: Ecomatters has been involved in the Product Environmental Footprint Pilot, a part 
+of the Single Market for Green Products Initiative from the European Commission. Product and Organisation Environmental 
+Footprint methods are developed based on LCA and tested as a common way of measuring environmental performance. 
+Ecomatters participated in different roles in the pilot phase, from executing the necessary studies and developing rules and 
+methodologies for product groups, to participating in the Steering Committee, Technical Advisory Board and Technical 
+Secretariat.  
+ Coatings Eco footprint tool: As part of the Life Cycle Inventory (LCI) project for the European Council of Paint, Printing 
+Ink and Artist’s Colours Industry (CEPE), Ecomatters developed a tool that calculates eco footprints for a can of paint 
+according to recipe using industry-aligned LCI datasets. This tool generates an extensive overview of the most important 
+environmental impacts and is freely available to approximately 85% of all coatings companies in Europe. 
+ Teijin Aramid Customer Benefit Model: Ecomatters created a methodology to develop new business models and value 
+propositions for Teijin Aramid, a multinational producer of man-made fibers. The system guides the practitioners (Eco-
+Efficiency Services of the company) though the process of value creation to identify solutions that unlock sustainable and 
+financial advantage. In a step-wise process, the user develops the model from an initial idea to a complete solution, involving 
+partners in the value chain and external stakeholders. The solutions are evaluated using Life Cycle Assessment and Eco-
+Efficiency methodologies, which guarantee the solid sustainable performance of the system. Among the solutions tested, 
+Ecomatters performed an screening LCA for smart textiles.  
+ 23 EN15804-compliant Environmental Product Declarations for Dulux Trade: Ecomatters developed 23 LCA 
+ISO14040/44 based Environmental Declarations for Decorative Coatings, including more than 100 product and colour 
+formulations. The studies were third-party reviewed and Certified by MRPI and Eco-platform, and align with existing 
+corporate reporting methods and models.  
+ AkzoNobel Sustainability support: Development of the Resource Efficiency Index (REI), Multiple EPD, LCAs and Eco-
+Efficiency studies. General support in the execution of LCA and life cycle based activities to support corporate sustainability 
+services and individual business units at chemical multinational AkzoNobel.  
+DECOAT relevant significant infrastructure and/or major skills, equipment:  
+We are an international team with diverse engineering and academic backgrounds in: Business economics and management, 
+Environmental sciences, Industrial Ecology. Chemistry, Renewable Energy, Conservational biology. Paint, coating, and fibers 
+have a special focus in the experience and expertise of the company. The company utilizes internationally recognized software 
+for Life Cycle Assessment in R&D, Product development and design, Operations, and Supply Chains, as well as the access to 
+internationally recognized impact databases. 
+Participant’s dissemination channels:   
+Ecomatters newsletter is a quarterly publication sent to approximately 500 subscribers with representatives of industries, 
+authorities and NGO among them.  
+Ecomatters is also an organizer of industry meetings and stakeholder dialogues, such as the first PEF/OEF meeting in 
+Dutch context in the end of 2014. The company regularly participates in international conferences and fairs with presentations 
+and reports about their main projects, activities and results. 
+Networks: 
+Partner organization of Climate KIC, Natural Capital Coalition, MVO Nederland, and the Fundacion Empresa & Clima. In 
+addition, we are connected to a large number of sustainability and circularity-related networks in the Netherlands, Spain and 
+Europe.  
+A core partner in the EIT Climate KIC eCircular Flagship, a programme that accelerates the circularity of plastic-based 
+material systems and dematerialisation of plastic demand, with the vision of reaching a carbon-neutral raw material system by 
+2050. The Flagship strives to identify, develop, and bring to scale radical digital innovations for waste prevention. 
+ 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 92 of 127 
+Partner 15 – IRES – Innovation in Research & Engineering Solutions 
+ 
+Country Belgium 
+Core Competence: IRES is an independent Belgian project 
+management firm (SME) administering all peripheral aspects of 
+research projects, providing specialized services in the fields of 
+innovation management, technology transfer and international 
+research projects. IRES’s interdisciplinary team is capable to 
+address a variety of tasks pertinent and supportive to research 
+projects, crucial for their market applicability and sustainability. The 
+company employs a team involving scientists from the financial and 
+economic discipline, management science, engineering and 
+statistics, while is co-operating with faculty members of European 
+Universities and Research Institutes employing ad hoc experts to be 
+involved in particular projects. 
+Brief description of legal entity: The company's activities are focused on surveys and statistical analysis, applications of 
+management, science methods and Impact assessment, supporting research organizations and private companies to evaluate 
+and to exploit their innovations at international level; also, through its international network, IRES supports the development of 
+innovative technologies and the optimization of products. Indicatively the company professionals have expertise in Project Risk, 
+Ethics and Knowledge management, market trend analysis, feasibility studies, Impact assessment and Technology Transfer, 
+Research in Materials Science, Development of tailored materials, Nanomaterials, Processing and Upscaling, Design and setup 
+of prototypes, demonstrators, Ethics and integrity in research, Exploitation and Dissemination towards high technology readiness 
+level. 
+DECOAT role and main tasks: 
+IRES will contribute to the integration of the environmental and health issues using Life Cycle Assessment and Safe-by-Design 
+approaches, supporting ECOMATTERS. The impacts and the cost benefits will be evaluated at each step of the project in order 
+to result in a new, low-cost (competitive) and green technology reflected by development of DECOAT tool. A risk assessment of 
+possible market drawbacks related to the developed technologies and products will be conducted, to guarantee the 
+competiveness of the final outcomes. Finally, a data management methodology will be established by handling the produced 
+data of the characterization, the testing and the design activities and by their incorporation in an access database, which will be 
+developed by IRES. 
+DECOAT specific competences and experiences:  
+IRES has ongoing EU funded projects on environmental and health issues using Life Cycle Assessment and Safe-by-Design 
+approaches, performing also risk assessment. As IRES team comprises scientist and engineers, the background of setting up a 
+proper risk assessment methodology and data management already exists.  
+Key staff members undertaking the work:   
+Dr. Elias Koumoulos (Male), MSc Chemical Engineer, is author of 67 published papers in ISI journals, 5 book chapters, 94 
+participations in national/international conferences, and has been thrice awarded for published research work in national and 
+international level. He holds a BSc in Chemical Engineering, followed by MSc in Materials Science and Technology; having 
+occupied in EC and national funded projects, his interests include nanomaterials, nanomechanical properties of materials 
+(metals, alloys, polymers, ceramics, functionally graded materials for brakes, thruster and valve applications, thin films, 
+elastomers, packaging polymers), polymers (processing of plastics, forming, casting, films, biopolymers, petroleum products, 
+environmental friendly processes), R&D, quality control, production process and design. 
+Dr Foteini Petrakli (Female) holds a BSc in Environmental Engineering (University of Ioannina); during her MSc studies in the 
+field of Materials Science and Technology (NTUA), she dealt with environmental aspects. During her PhD studies in NTUA, she 
+specialized in the development, synthesis (through wet chemical routes) & characterization, of advanced composite ceramic 
+nano-materials for specialized applications in extreme environments. Since today, Foteini has the authorship of 5 published 
+papers in ISI journals, a book chapter, 14 participations in national & international conferences and was twice awarded for 
+published research work on national level. Having occupied in several EC and national funded projects, her research interests 
+include: nanomaterials, ceramic nanomaterials, mechanical properties, materials testing, ceramic processing, functional 
+ceramics, materials synthesis (sol-gel, slip-casting, biomimetic, precipitation), polymers, surface chemistry, SEM analysis, 
+particle size analysis (TEM), XRD analysis, sintering, Spark Plasma Sintering (SPS), high temperature materials, pin on disc 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 93 of 127 
+wear test, heavy metals adsorption, biomaterials, R&D, production process, risk management, data management, life cycle 
+analysis and design. 
+Dr. Nikos Romanos (Male) holds a Diploma and a Ph.D. degree in Chemical Engineering from the National Technical University 
+of Athens (N.T.U.A.). His research focused on computer simulations and the study of the crystallization of polymers. During his 
+doctoral degree he was responsible for the design, assembly and system administration of 3 multi-processor Beowulf clusters. 
+His working experience expands as a high-school faculty in the department of science. He has publications and presentations 
+in the fields of chemical engineering, computer modelling, thermodynamics, materials science. 
+Kalogerini Maritini (Female) received her BSc in Physics from University of Crete, followed by a MSc in Microsystems and 
+Nanodevices from National Technical University of Athens, School of Applied Mathematical and Physical Sciences. Her diploma 
+thesis was carried out in Foundation for Research and Technology – Hellas (FORTH) and dealt with Femtosecond Laser 
+Temporal Pulse Shaping, focusing on bio-microfluidics applications. Her master thesis was carried out in School of Chemical 
+Engineering (R-NANO research team) and dealt with the development, characterization and study of 3D Printing properties of 
+biodegradable nanostructures, in the field of controlled release drug delivery.  
+DECOAT relevant achievements: (up to 5) 
+ T. Syed, E.P. Koumoulos, L. O’ Donoghue, C.A. Charitidis. Surface Additive Manufacturing: Scientific and Technological 
+Challenges, Market Uptake and Opportunities, Materials Today, submitted (2017). 
+ E.P. Koumoulos, C.A. Charitidis. Surface analysis and mechanical behaviour mapping of vertically aligned CNT forest array 
+through nanoindentation, Appl. Surf. Sci. 2017; 396:681–687. 
+ E.P. Koumoulos, M. Giorcelli, P. Jagadale, A. Tagliaferro C.A. Charitidis. Carbon nanotube/ polymer nanocomposites: a 
+study on mechanical integrity through nanoindentation, Polymer Composites 2015; 36(8):1432–1446. 
+ M. Arkas, I. Kitsou & F. Petrakli. Mimicking the behaviour of rigid rod molecules. Smectic H liquid crystals from amphiphilic 
+quaternary ammonium salts, Liquid Crystals 2017, 45:1, 70-83 
+ Petrakli F, Arkas M, Tsetsekou A. α‐Alumina nanospheres from nano‐dispersed boehmite synthesized by a wet chemical 
+route. J Am Ceram Soc. 2018; 101:3508–3519. 
+DECOAT relevant previous projects or activities:  
+ MODCOMP “Modified cost-effective fibre-based structures with improved multi-functionality and performance”, (H2020 
+NMP-22-2015 “Fibre-based materials for non-clothing applications”) 4/2016-3/2020 
+ EQUINOX "A novel process for manufacturing complex shaped Fe-Al intermetallic parts resistant to extreme environments", 
+(H2020 SC5-12b-2015 “Materials under extreme conditions”) 1/2016-12/2018 
+ MEDLOC "Additive Manufacturing of 3D Microfluidic MEMS for Lab-on-a-Chip applications", (H2020 “PILOTS-04-2017 - 
+Pilot Lines for 3D printed and/or injection moulded polymeric or ceramic microfluidic MEMS”) 01/2018-12/2021 
+ SMARTFAN "Smart by Design and Intelligent by Architecture for turbine blade fan and structural components systems", 
+(H2020 NMBP-04-2017 “Architectured /Advanced material concepts for intelligent bulk material structures”) 01/2018-
+12/2021 
+ OYSTER "Open characterisation and modelling environment to drive innovation in advanced nano-architectured and bio-
+inspired hard/soft interfaces", (H2020 NMBP-07-2017 “Systems of materials characterisation for model, product and process 
+optimisation”) 12/2017-11/2021 
+DECOAT relevant significant infrastructure and/or major skills, equipment:  
+N/A 
+Participant’s dissemination channels:   
+Networks - IRES is member of: 
+EMMC (https://emmc.info/),  
+EMCC (http://characterisation.eu/ ),  
+CFPC (http://www.technologycluster.eu/) 
+Innovation Day (https://sec2sv.com/european-innovation-day/  ) 
+Industry Day (https://ec.europa.eu/info/events/eu-industry-day_en  ) 
+ 
+ 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 94 of 127 
+Partner 16 – OSM - Open Source Management Ltd.  
+ 
+Country UK 
+Core Competence: Project, Risk, Ethics and Knowledge management, Dissemination and 
+Exploitation, Business Planning and fund raising for start ups, Customised software for research 
+projects on Data management, project follow up and risk assessment. The company has set up a team 
+to specifically promote EU projects on social media. 
+Brief description of legal entity:  
+OSM, is an independent firm (SME) administering peripheral aspects of research projects. Its interdisciplinary team is capable 
+to address a variety of tasks pertinent and supportive to research projects, crucial for their market applicability and sustainability 
+The company produces customised software and promotional material like video and organises training workshops. The 
+company experts carry surveys and statistical analysis, apply management science methods, organise exploitation activities and 
+Impact assessment. The company professionals have expertise in project, risk, ethics and knowledge management, market 
+trend analysis, feasibility studies, impact assessment and Technology Transfer. OSM’s interdisciplinary team is capable to 
+address a variety of tasks pertinent and supportive to research projects, crucial for their market applicability and sustainability. 
+The company employs a team involving scientists from the financial and economic discipline, management science, engineering 
+and statistics, while it is co-operating with faculty members of European Universities and Research Institutes employing ad hoc 
+experts to be involved in particular projects. 
+DECOAT role and main tasks:  
+Main involvement in WP7, OSM will participate in the Exploitation, Technology Transfer and Dissemination Activities, Business 
+Planning and promotion of DECOAT to social media. 
+DECOAT specific competences and experiences:  
+Participation in numerous advanced materials projects in many roles and especially as the Technology Transfer and exploitation 
+partner. 
+Key staff members undertaking the work:   
+Emmanuel Sofianopoulos (Male), Managing Director, Exploitation expert. BEng in Materials Technology, Mphil in Advanced 
+Ceramics, PMP®; is a certified PM participating as researcher or managing EU projects on advanced materials since 1998. He 
+has expertise in Technology transfer being the head of the Materials Thematic Group in the IRC network participating in many 
+TT success stories. He is also an Exploitation Expert in the ESIC2 group. 
+Dr Giovanni D’Orio (Male), head of economic studies. MSc, PhD in macroeconomics; as an expert in sustainable 
+development international projects will head the formation of the feasibility studies and the exploitation plan. Expert in Financial 
+planning for SMEs and funding leveraging. 
+Karolina Koszalka (Female), head of dissemination activities. Experienced in EU projects related to professional education 
+and coaching, in coordination and conducting multicultural events (trainings, conferences, workshops, study visits, staff 
+exchange, exhibition, etc). She delivers trainings about conflict management, communication and intercultural awareness 
+DECOAT relevant achievements: (up to 5) 
+Organisation of 2 European project workshops, creation of a business plan that got funded and proceeded as a start-up, 
+participation in patent applications. Multimedia Production of promotional material for research projects. 
+DECOAT relevant previous projects or activities:  
+ BIO4SELF – Development of self-reinforced composites based on PLA (H2020-NMBP). Leader of WP on exploitation and 
+technology transfer.  
+ TheBarCode: Development of multifunctional thermal barrier coatings and modelling tools for high temperature power 
+generation with improved efficiency. (FP7, NMP). Role: Life Cycle Assessment, technology assessment, technology transfer, 
+dissemination, feasibility studies and exploitation. 
+ FIBRASPEC. (FP7, NMP). Role: project technology assessment, standardisation, dissemination, feasibility studies and 
+exploitation. The project had to do with production of low cost Carbon Fibres for innovative applications. 
+ ESIC2. Project on Supporting EU projects on their exploitation strategy and impact. (FP7, NMP1-SC-2011-ES2000). 
+Role: Assignments for providing Exploitation Strategy Seminars to projects. 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 95 of 127 
+ SCAFFOLD: Innovative strategies, methods and tools for occupational risks management of manufactured nanomaterials 
+(MNMs) in the construction industry. (FP7, NMP) 
+ EFEVE: Development of a new high performance material associated to a new technological Energetic, Flexible, 
+Economical, Versatile and Ecological process to make super strong and lightweight components (FP7, NMP) 
+ FASHIONABLE: Development of new technologies for the flexible and eco-efficient production of customized healthy 
+clothing, footwear and orthotics for consumers with highly individualised needs. (FP7, NMP) 
+ SUSTAINVALUE: Sustainable value creation in manufacturing networks. (FP7, NMP) 
+ 3D-HiPMAS: Pilot Factory for 3D High Precision MID Assemblies. (FP7, FoF) 
+ HEAT4U: Gas Absorption Heat Pump solution for existing residential buildings". (FP7-2011-NMP-ENV-ENERGY-ICT-EeB) 
+DECOAT relevant significant infrastructure or equipment:  
+Not applicable. 
+Participant’s dissemination channels:   
+ OSM has experience with dissemination via connecting to ‘Enterprise Europe Network’ for technology transfer. 
+ OSM is a member of TII (European Association for the Transfer of Technologies, Innovation and Industrial 
+Information) and ISPIM (International Society for Professional Innovation Management) facilitating Technology 
+Transfer, exploitation activities and Risk Management. 
+ 
+ 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 96 of 127 
+Partner 17 – ISWA – International Solid Waste Association – PARTICIPATION TERMINATED 
+ 
+Country Austria 
+Core Competence: Global expert network 
+Brief description of legal entity:  
+The International Solid Waste Association (ISWA) is a non-profit association consisting of international waste management 
+experts and relevant stakeholders. ISWA works to protect human health and the environment as well as to ensure sustainable 
+resource and waste management. Alongside technical competencies of the global expert network part of ISWA’s major 
+competencies lie in organizing and participating in international networking events (annual World Congress, IFAT, ECOMONDO, 
+COPs, and UN-Habitat), conducting educational trainings and workshops on various aspects of waste management (70+ 
+trainings and events organized in 2017), drafting of technical reports and documents, engaging in developing economies to 
+establish sustainable waste management practices, and the sharing of knowledge and experience in sustainable waste 
+management and climate change mitigation. ISWA has multiple partnerships and MOUs with various international organizations 
+including CCAC, R20, UNFCCC, UNEP, UNIDO, WHO, World Bank, and more. ISWA has an academic journal (Waste 
+Management and Research), a magazine (Waste Management World), a bi-monthly newsletter, and 10 Technical Working 
+Groups that can be used as tools to present, support, and disseminate the activities and results of the project. 
+DECOAT role and main tasks:  
+The main tasks foreseen for ISWA in this project are in communicating and disseminating the project outputs to a wider 
+stakeholder network through ISWA’s channels (WP7.2). ISWA has an extensive global network to reach waste management 
+professionals and organizations within its own membership, but also maintains several working relationships with other 
+international organizations through projects and MOU’s which allow ISWA to also reach a wide audience of stakeholders and 
+interested parties within the field of sustainability research and action. ISWA will also be responsible for helping with policy input 
+and standardization (WP7.3). Through its waste management expertise, access to recyclers and data on waste streams ISWA 
+will help conduct a Life Cycle Costing (LCC) which is an assessment of all costs related to a product or service, over the entire 
+life cycle, from production over use until disposal. Thus, the economic analysis which will take place in the DECOAT project 
+refers not only to the cost of materials and manufacturing but will also include the wider implications of technology selection on 
+project’s performance.   
+DECOAT specific competences and experiences:  
+ISWA has an international network of members, stakeholders and contacts globally. Its membership consists of waste 
+management professionals from every continent, as well as waste management companies, and also other national waste 
+management associations. They are joined together in 10 thematic working groups as well as numerous events (including our 
+own yearly World Congress with 1000+ attendees). ISWA has two publications, the Waste Management World magazine and 
+the peer reviewed Waste Management & Research journal, which target respectively the professional waste management 
+community and the global research community.  
+ISWA has participated in H2020 projects before, and is currently also the Communications & Disseminations leader for the 
+projects EcoBulk and D-Noses and also contributes in a similar capacity for the project Multicycle. ISWA acknowledges that 
+plastic recycling has a key role to play in waste management in order to prevent marine litter and make good use of resources. 
+ISWA also maintains a busy calendar of events (70+ events organized in 2017) which include conferences, trainings, study tours 
+and working groups on 10 different sustainability themes. Also, ISWA’s involvement with other EU projects as well as other 
+international agencies allows for a broad view on possible project clustering and synergy opportunities 
+Key staff members undertaking the work:   
+Aditi Ramola (Female) is Technical Director at the ISWA General Secretariat. She graduated with distinction from the 
+Environmental Technology & International Affairs MSc joint programme offered by the Technical University of Vienna and the 
+Diplomatic Academy of Vienna. She received the ‘Best Study Award’ from ARA Altstoff Recycling Austria AG for her exemplary 
+academic performance. She has several years of experience in the private sector and international organizations such as 
+Caterpillar Inc. and the United Nations Industrial Development Organization where she worked at the Climate Policy and 
+Networks unit of the Department of Energy. Most recently she was involved in the successful completion of the European 
+Commission funded project on Developing an EU Standardised Approach to Vocational Qualifications in Healthcare Waste where 
+she was the lead of the Work Package on Implementation planning and network growth and development. She is currently 
+involved in other EU projects such as D-Noses and Multicycle. 
+Arne Ragossnig (Male) ISWA Managing Director has completed his PhD-studies in Environmental Engineering – focus: 
+Thermal Utilization of Waste – at the University of Leoben in 2001. After several years being responsible for Sales Controlling 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 97 of 127 
+and Sales Coordination at the international Austrian plant engineering company VA TECH he became head of the study 
+programme Energy and Environmental Management (MSc.) in 2004 and in addition to that head of the study programme 
+Sustainable Energy Systems (MSc.) in 2006 at University of Applied Science FH Burgenland. As managing director and head of 
+R&D he was responsible for building up research activities at FH Burgenland. In 2012 he became Vice-Rector of FH Burgenland. 
+In 2013 he became self-employed as is managing partner of the engineering company Ecoconsultants. As of 2018 he also is 
+involved in the International Solid Waste Association (ISWA) as managing director. Arne is lecturer at various universities and 
+associate editor of the scientific ISWA journal Waste Management & Research. Additionally, he is a member of the steering 
+committees of several international conferences such as Recy & DepoTech taking place every second year at University of 
+Leoben. 
+ISWA is a network of experts that is structured in a core group of people at the General Secretariat that are directly employed at 
+ISWA, complemented by a vast number of experts that are employed elsewhere and volunteer their time for ISWA activities. 
+ISWA will tap upon these experts that work on a free-lance basis for ISWA and will be appointed as in-house consultants to 
+deliver specific tasks for the project. 
+DECOAT relevant achievements: (up to 5) 
+ AcuComm db Waste Business Monitor for ISWA Members (analysis of all key players and investments in global wastes 
+reported on a monthly basis).  
+ Waste Management Outlooks: here and here. 
+ EWIT Knowledge Base - http://ewit.site/knowledge-base/    
+ ISWA Task Force on Resource Management (6 reports) - http://www.iswa.org/iswa/iswa-groups/task-forces/     
+ ISWA Task Force on Marine Litter - http://marinelitter.iswa.org/ and report 
+DECOAT relevant previous projects or activities:  
+ Addressing Barriers to Sustainable Resource Management 
+ Climate and Clean Air Coalition (CCAC)-City Assessment & Action Plan: Sao Paulo 
+ Climate and Clean Air Coalition (CCAC)-City Assessment & Action Plan: Dar es Salaam 
+ Climate Technology Centre and Network (CTCN) project in Cali, Colombia 
+ EWIT Project (H2020 - completed) 
+ ECOBULK (H2020 - ongoing) a project that is rethinking and demonstrating circular applications for the furniture, automotive 
+and construction industries 
+ MULTICYCLE (H2020 – ongoing) on advanced and sustainable recycling processes and value chains for plastic-based 
+multi-materials 
+DECOAT relevant significant infrastructure and/or major skills, equipment:  
+ ISWA Knowledge Base - http://www.iswa.org/media/publications/knowledge-base  
+ Waste Management and Research (ISWA-run Academic Journal)-Dissemination tool 
+ Waste Management World (ISWA Magazine)-Dissemination tool 
+ ISWA World Congresses 
+ Beacon Conference on Recycling and Waste Minimization 
+Participant’s dissemination channels:   
+ISWA is the world’s largest waste management network consisting of organizational members, individuals, researchers and other 
+relevant stakeholders. Alongside the work of ISWA’s Scientific and Technical Committee (STC) through its 10 Working Groups, 
+part of ISWA’s major competencies lie in organizing and participating in international networking events (annual World Congress, 
+IFAT, ECOMONDO, COPs, and UN-Habitat), conducting educational trainings and workshops on various aspects of waste 
+management (70+ trainings and events organized in 2017), drafting of technical reports and documents, engaging in developing 
+economies to establish sustainable waste management practices, and the sharing of knowledge and experience in sustainable 
+waste management and climate change mitigation. ISWA has multiple partnerships and MOUs with various international 
+organizations including CCAC, R20, UNFCCC, UNEP, UNIDO, WHO, World Bank, and more. ISWA has an academic journal 
+(Waste Management and Research), a magazine (Waste Management World), a bi-monthly newsletter, and 10 Technical 
+Working Groups that can be used as tools to present, support, and disseminate the activities and results of the project. 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 98 of 127 
+Furthermore, the work and results of the DECOAT project could be disseminated through events and activities of ISWA’s various 
+member organizations and their newsletters. ISWA also has 3 Regional Development Networks, that aim to promote sustainable 
+waste management by carrying out activities and developing programmes that focus on their regions special needs and 
+challenges. They are in 3 regions, Asia and Pacific, Southeast Europe, Middle East and Mediterranean, and Latin America. 
+These RDNs could also serve as a great platform to promote the activities and results of the DECOAT project worldwide. 
+ 
+ 
+ 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 99 of 127 
+Partner 18 – ISWA NL – International Solid Waste Association NL 
+ 
+Country The Netherlands 
+Core Competence: Global expert network 
+Brief description of legal entity:  
+The International Solid Waste Association (ISWA) is a non-profit association consisting of international waste management 
+experts and relevant stakeholders. ISWA works to protect human health and the environment as well as to ensure sustainable 
+resource and waste management. Alongside technical competencies of the global expert network part of ISWA’s major 
+competencies lie in organizing and participating in international networking events (annual World Congress, IFAT, ECOMONDO, 
+COPs, and UN-Habitat), conducting educational trainings and workshops on various aspects of waste management (70+ 
+trainings and events organized in 2017), drafting of technical reports and documents, engaging in developing economies to 
+establish sustainable waste management practices, and the sharing of knowledge and experience in sustainable waste 
+management and climate change mitigation. ISWA has multiple partnerships and MOUs with various international organizations 
+including CCAC, R20, UNFCCC, UNEP, UNIDO, WHO, World Bank, and more. ISWA has an academic journal (Waste 
+Management and Research), a magazine (Waste Management World), a bi-monthly newsletter, and 10 Technical Working 
+Groups that can be used as tools to present, support, and disseminate the activities and results of the project. 
+DECOAT role and main tasks:  
+The main tasks foreseen for ISWA in this project are in communicating and disseminating the project outputs to a wider 
+stakeholder network through ISWA’s channels (WP7.2). ISWA has an extensive global network to reach waste management 
+professionals and organizations within its own membership, but also maintains several working relationships with other 
+international organizations through projects and MOU’s which allow ISWA to also reach a wide audience of stakeholders and 
+interested parties within the field of sustainability research and action. ISWA will also be responsible for helping with policy input 
+and standardization (WP7.3). Through its waste management expertise, access to recyclers and data on waste streams ISWA 
+will help conduct a Life Cycle Costing (LCC) which is an assessment of all costs related to a product or service, over the entire 
+life cycle, from production over use until disposal. Thus, the economic analysis which will take place in the DECOAT project 
+refers not only to the cost of materials and manufacturing but will also include the wider implications of technology selection on 
+project’s performance.  
+DECOAT specific competences and experiences:  
+ISWA has an international network of members, stakeholders and contacts globally. Its membership consists of waste 
+management professionals from every continent, as well as waste management companies, and also other national waste 
+management associations. They are joined together in 10 thematic working groups as well as numerous events (including our 
+own yearly World Congress with 1000+ attendees). ISWA has two publications, the Waste Management World magazine and 
+the peer reviewed Waste Management & Research journal, which target respectively the professional waste management 
+community and the global research community.  
+ISWA has participated in H2020 projects before, and is currently also the Communications & Disseminations leader for the 
+projects EcoBulk and D-Noses and also contributes in a similar capacity for the project Multicycle. ISWA acknowledges that 
+plastic recycling has a key role to play in waste management in order to prevent marine litter and make good use of resources. 
+ISWA also maintains a busy calendar of events (70+ events organized in 2017) which include conferences, trainings, study tours 
+and working groups on 10 different sustainability themes. Also, ISWA’s involvement with other EU projects as well as other 
+international agencies allows for a broad view on possible project clustering and synergy opportunities. 
+Key staff members undertaking the work:   
+Dienke Dijksterhuis (Female) is a Technical Assistant at the ISWA General Secretariat. She has an MSc in Political Science, 
+specializing in International Relations, from the University of Amsterdam. She has several years of experience working in 
+international relations, working in the development aid sector at boutique consulting firm and supporting the International Anti-
+Corruption Academy (IACA). 
+Aditi Ramola (Female) is Technical Director at the ISWA General Secretariat. She graduated with distinction from the 
+Environmental Technology & International Affairs MSc joint programme offered by the Technical University of Vienna and the 
+Diplomatic Academy of Vienna. She received the ‘Best Study Award’ from ARA Altstoff Recycling Austria AG for her exemplary 
+academic performance. She has several years of experience in the private sector and international organizations such as 
+Caterpillar Inc. and the United Nations Industrial Development Organization where she worked at the Climate Policy and 
+Networks unit of the Department of Energy. Most recently she was involved in the successful completion of the European 
+Commission funded project on Developing an EU Standardised Approach to Vocational Qualifications in Healthcare Waste where 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 100 of 127 
+she was the lead of the Work Package on Implementation planning and network growth and development. She is currently 
+involved in other EU projects such as D-Noses and Multicycle. 
+Marianne Grant (Female) is a Technical Project Coordinator at the ISWA General Secretariat. She has an MA in International 
+Relations from Webster University Vienna and won an award for Best Graduate Thesis in 2018 for her analysis of the effect of 
+interdependent trading relationships on international conflicts. She has a number of years' experience working at the international 
+level with private and international organisations organising international trainings and events. At ISWA she coordinates multiple 
+internal and external projects, working on trainings, dissemination events, international meetings and technical sessions, 
+including for two EU projects, D-Noses and Multicycle. 
+Daniel Purchase (Male) is responsible for membership and communications at the ISWA General Secretariat. He has a BA and 
+MA in history and economics, focussing on 19th/20th century economic theory and trends, political thought, civil society and the 
+historic relationships between governments and public (governmentality). He has been working with ISWA since January 2014 
+and is very familiar with the waste and resource management sector having collaborated with stakeholders from across the 
+industry and world. He also coordinates some of ISWA’s Technical Working Groups and is responsible for ISWA's Industry 
+Magazine, Waste Management World. 
+DECOAT relevant achievements: (up to 5) 
+ AcuComm db Waste Business Monitor for ISWA Members (analysis of all key players and investments in global wastes 
+reported on a monthly basis).  
+ Waste Management Outlooks: here and here. 
+ EWIT Knowledge Base - http://ewit.site/knowledge-base/    
+ ISWA Task Force on Resource Management (6 reports) - http://www.iswa.org/iswa/iswa-groups/task-forces/     
+ ISWA Task Force on Marine Litter - http://marinelitter.iswa.org/ and report 
+DECOAT relevant previous projects or activities:  
+ Addressing Barriers to Sustainable Resource Management 
+ Climate and Clean Air Coalition (CCAC)-City Assessment & Action Plan: Sao Paulo 
+ Climate and Clean Air Coalition (CCAC)-City Assessment & Action Plan: Dar es Salaam 
+ Climate Technology Centre and Network (CTCN) project in Cali, Colombia 
+ EWIT Project (H2020 - completed) 
+ ECOBULK (H2020 - ongoing) a project that is rethinking and demonstrating circular applications for the furniture, automotive 
+and construction industries 
+ MULTICYCLE (H2020 – ongoing) on advanced and sustainable recycling processes and value chains for plastic-based 
+multi-materials 
+DECOAT relevant significant infrastructure and/or major skills, equipment:  
+ ISWA Knowledge Base - http://www.iswa.org/media/publications/knowledge-base  
+ Waste Management and Research (ISWA-run Academic Journal)-Dissemination tool 
+ Waste Management World (ISWA Magazine)-Dissemination tool 
+ ISWA World Congresses 
+ Beacon Conference on Recycling and Waste Minimization 
+Participant’s dissemination channels:   
+ISWA is the world’s largest waste management network consisting of organizational members, individuals, researchers and other 
+relevant stakeholders. Alongside the work of ISWA’s Scientific and Technical Committee (STC) through its 10 Working Groups, 
+part of ISWA’s major competencies lie in organizing and participating in international networking events (annual World Congress, 
+IFAT, ECOMONDO, COPs, and UN-Habitat), conducting educational trainings and workshops on various aspects of waste 
+management (70+ trainings and events organized in 2017), drafting of technical reports and documents, engaging in developing 
+economies to establish sustainable waste management practices, and the sharing of knowledge and experience in sustainable 
+waste management and climate change mitigation. ISWA has multiple partnerships and MOUs with various international 
+organizations including CCAC, R20, UNFCCC, UNEP, UNIDO, WHO, World Bank, and more. ISWA has an academic journal 
+(Waste Management and Research), a magazine (Waste Management World), a bi-monthly newsletter, and 10 Technical 
+Working Groups that can be used as tools to present, support, and disseminate the activities and results of the project. 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 101 of 127 
+Furthermore, the work and results of the DECOAT project could be disseminated through events and activities of ISWA’s various 
+member organizations and their newsletters. ISWA also has 3 Regional Development Networks, that aim to promote sustainable 
+waste management by carrying out activities and developing programmes that focus on their regions special needs and 
+challenges. They are in 3 regions, Asia and Pacific, Southeast Europe, Middle East and Mediterranean, and Latin America. 
+These RDNs could also serve as a great platform to promote the activities and results of the DECOAT project worldwide. 
+ 
+ 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 102 of 127 
+DECOAT ADVISORY and SUPPORT GROUP 
+ 
+EUPC 
+EuPC is the professional representative body of plastics converters in Europe, whose activity embraces all sectors of the plastics 
+converting industry, including recycling. EuPC welcomes and supports the transition to a stronger and more circular economy 
+where all resources are used in a sustainable way 
+ 
+  
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 103 of 127 
+GO4Circle 
+Go4Circle is the umbrella association for private companies who put the circular economy at the heart of their operations. It 
+represents 220 companies who are helping enterprises across all sectors to fundamentally change their production processes, 
+making the transition towards the circular economy, and also including manufacturing companies who use circular economy 
+principles. 
+GO4Circle has an interest in getting to know additional processes and technologies that might help our companies to make the 
+transition toward circular economy, also for coated products.  
+ 
+ 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 104 of 127 
+TecPart 
+The GKV/TecPart - Verband Technische Kunststoff-Produkte e.V. (German Association of Plastics Converters - TECPART) 
+is representing the interest of the plastics converting Industry and plastics materials against the public, politics and administration 
+in Germany. GKV/TecPart is a member association of the German Association of the Plastic Manufacturing Industry GKV. Besides 
+this, GKV/TecPart association is part of the organisation of the Germany Industry Association BDI. One of its fields of interest is 
+strengthening technological development and innovation in the plastics converting industry.  
+As member of the DECOAT Advisory and Support Group GKV/TecPart will 
+ Support the project partners in the definition of the dissemination strategy of the project in order to adequately address our 
+sector needs and particularities. 
+ Actively participate in the communication and dissemination activities using our existing communication channels and 
+networks 
+ 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 105 of 127 
+ZWE – Zero Waste Europe 
+Zero Waste Europe is leading a fast-growing movement of communities, local leaders, businesses, experts, influencers and other 
+“change agents” working towards the same vision: eliminating waste in our society. 
+Zero Waste Europe will support DECOAT by supplying information and disseminating the results.  
+ 
+  
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 106 of 127 
+Cluster “Innovatieve Coatings” 
+The cluster ‘Innovatieve coatings’ (in English: ‘Innovative Coatings’) aims to increase competitiveness and to create economic 
+added value by promoting creativity and innovation in terms of products, processes and applications. The members of the cluster 
+are companies or organizations of the entire value chain of the coating sector: Raw material suppliers, Companies that develop 
+and produce coating formulations, Companies applying coatings (toll manufacturers for coatings, integrated companies), End 
+users of coatings, Companies that make machinery and machine accessories for the coating industry, Study agencies, 
+government, …. 
+As coating cluster the results of DECOAT are very interesting as we think that having a solution for separating coating and textiles 
+or plastics substrate can give a boost to the recycling activities in the sector. The cluster is happy to participate in the Advisory & 
+Support Board and we will support the cluster by disseminating the results to our +70 members.  
+  
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 107 of 127 
+Recycling Netwerk Benelux 
+Recycling Netwerk is an independent environmental organization which connect different environmental organization dealing with 
+the topic of raw materials and their impact. Their goal is to constrain environmental caused by raw materials production up to 
+waste management. A focus is more and better recycling. 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 108 of 127 
+Textile ETP 
+The European Technology Platform for the Future of Textiles and Clothing (Textile ETP) is the largest European expert network 
+of professionals involved in textile and clothing research and innovation. It has more than 200 member organisations and close 
+to 700 members from industry. 
+ 
+ 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 109 of 127 
+EuMaT 
+EuMaT – The European Technology Platform for Advanced Engineering Materials and Technologies has been launched in order 
+to assure optimal involvement of industry and other important stakeholders in the process of establishing of R&D priorities in the 
+area of advanced engineering materials and technologies. EuMaT should improve coherence in existing and forthcoming EU 
+projects, in the field of materials R&D. EuMaT covers all elements of the life cycle of an industrial product, regardless if it is a 
+component, a system or a final good. 
+ 
+  
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 110 of 127 
+Remondis 
+REMONDIS is one of the world's largest recycling, service and water companies (30,000 employees, ca. 800 business locations 
+on 4 continents) serving more than 30 million people and many thousands of companies. Remondis can offer a full range of 
+services along the whole of the supply chain, e.g. manufacturing businesses can use REMONDIS' industrial services to optimise 
+their business processes and cut their costs. 
+  
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 111 of 127 
+BGRS – Boer Group Recycling Solutions 
+Boer Group is an international textile recycling organization with collection and sorting companies for used textiles and shoes. 
+Our companies sort the collected textiles in about 350 types divided into 3-5 different qualities. After this extensive sorting process 
+every piece of textile finds its way to resellers and recycling companies worldwide. The Boer Group offices are located in the 
+Netherlands, Belgium and Germany: 
+As recycling association we are very interested in the possibility to be able to debond coating and textiles in coated products.  
+  
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 112 of 127 
+GBP Metal Group 
+GBP Metal Group is a company dedicated to the recycling of scrap and all types of metals. Our recycling process is based on 
+innovation, research into new forms of valorisation, development and implementation. Therefore we are very interested in the 
+outcome of the DECOAT project.  
+ 
+  
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 113 of 127 
+FOMENTO DE CONSTRUCCIONES Y CONTRATAS SA 
+The FCC Group is a leading international company in the areas of environmental, integral water management and infrastructure 
+services. FCC invests in R&D&I projects in which the methodologies, techniques, systems, equipment and processes used are 
+designed to be environmentally sustainable. This makes it possible to minimise negative environmental impacts while at all times 
+maintaining the quality of the service provided. The strategic lines of the R&D&I projects are focused on sustainable urban 
+development. This involves designing new products, valorising waste, optimising processes and implementing technologies for 
+efficient waste management. 
+For that reason FCC in interested in DECOAT since it will enable to valorize more waste stream, i.e. the coated products by 
+designing products that debond on demand and by developing a process to sort and debond the coated products 
+.  
+ 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 114 of 127 
+Coverpaints 
+Coverpaints is a Greek SME with business in Paints & Varnishes for Industrial, Construction and Marine Coatings with high 
+interest in circular economy. For that reason the concept of trigerable debonding is of strong interest for them and their customers 
+since it avoids using harsh and harmful paint removers.  
+ 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 115 of 127 
+European Coatings 
+European Coatings brings the coatings community and the related industries together. They operate the foremost surface 
+technology network, helping companies in the market for organic coatings to secure their future. They provide cutting edge 
+technical expertise and business information thus giving companies in the coatings community greater decision-making capability. 
+They network the commercial and technological potential of major industry players world-wide thus providing our customers with 
+the impetus to master challenges, increase productivity and achieve market success. This ensures the future of their companies.  
+European Coatings will support DECOAT in the dissemination of the results by means of their magazines and conferences.  
+  
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 116 of 127 
+OVAM 
+The Public Waste Agency of Flanders is the principal authority in the Belgian region of Flanders for sustainable management of 
+waste, materials and soils. OVAM uses its expertise on waste, materials and soils worldwide to help shape international policy. 
+OVAM works to achieve six well-defined objectives: reducing the waste mountain, re-using and recycling waste materials, 
+processing waste materials in an environmentally-friendly manner, initiating the transition to a circular economy – an economy 
+where goods are produced and re-used in a sustainable manner, remediating contaminated soils and preventing new soil 
+contamination 
+ 
+ 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 117 of 127 
+ELOT 
+In Greece, ELOT is the sole national body responsible for the elaboration, approval, publication and distribution of Hellenic 
+Standards. In this framework, ELOT operates more than 190 Technical Committees and Working Groups, members of which are 
+more than 1100 distinguished Greek scientists. ELOT’s is member of and is actively participating in the European and international 
+Standardization activities and the Organizations that administer them (ISO & IEC for the International Standardization, CEN, 
+CENELEC, ETSI, EOTA for the European Standardization).  
+The interest of ELOT lies in the possibility to set-up suitable standards for measuring the debonding characteristics of these newly 
+developed products.  
+  
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 118 of 127 
+UNE 
+UNE is the body legally responsible for the development of standards in Spain. It is a private non-profit organization with some 
+600 members (the main industry associations, leading companies, research centres and professional bodies). UNE is the Spanish 
+representative in talks with international standardization bodies (ISO and IEC), European standardization bodies (CEN, 
+CENELEC) and the Pan-American Standards Commission (COPANT). It is also the Spanish standardization body in ETSI 
+(European Telecommunications Standards Institute). UNE serves as the voice of Spanish experts in global forums at which 
+important standards for businesses and fields of activity are discussed. 
+UNE is particularly interested in DECOAR to promote the integration of standards for the new products developed and the 
+dissemination of the results to our members.  
+ 
+  
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 119 of 127 
+CEN-CENELEC 
+CEN and CENELEC are European Committees for Standardization. CEN and CENELEC ensure the protection of consumers, 
+facilitate cross-border trade, ensure the interoperability of products, encourage innovation and technological development, include 
+environmental protection and enable businesses to grow.  
+Below the letter of CEN-CENELEC Innovation and on the next page the support expressed by the convenor of the CEN 
+Work group CEN TC248 WG4 ‘Textiles – coated fabrics’ which is the CEN work group working on (recycling of) coated 
+textiles.  
+ 
+ 
+  
+ 
+ 
+ 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 120 of 127 
+ 
+ 
+ 
+ 
+  
+  
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 121 of 127
+4.2 Third parties involved in the project 
+ 
+Partner 1 –CTB 
+Does the participant plan to subcontract certain tasks (please note that core tasks of the project 
+should not be sub-contracted) 
+NO 
+If yes, please describe and justify the tasks to be subcontracted  
+Does the participant envisage that part of its work is performed by linked third parties? 
+In order to achieve the objectives planned in the project, partner CTB will work along with CTB-
+Services. 
+Yes 
+ 
+If yes, please describe the third party, the link of the participant to the third party, and describe 
+and justify the foreseen tasks to be performed by the third party 
+CTB-Services will support partner CTB for the DECOAT implementation with specific tasks for 
+WP2 – expected budget €28.900 corresponding to 6 personmonths of a coating operator. 
+ 
+Does the participant envisage the use of contributions in kind provided by third parties (Articles 
+11 and 12 of the General Model Grant Agreement). 
+NO 
+ 
+If yes, please describe the third party and their contributions 
+ 
+ 
+ 
+ 
+Partner 2 – AIMPLAS 
+No third parties involved 
+ 
+Partner 3 – IVV 
+No third parties involved 
+ 
+Partner 4 – CTAG 
+No third parties involved 
+ 
+Partner 5 – NTUA 
+No third parties involved 
+ 
+Partner 6 – VAUDE 
+No third parties involved 
+ 
+Partner 7 - PANASONIC  
+No third parties involved 
+ 
+Partner 8 – MBT 
+No third parties involved 
+ 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 122 of 127 
+Partner 9 – MAIER 
+Does the participant plan to subcontract certain tasks (please note that core tasks of the project 
+should not be sub-contracted) 
+NO 
+If yes, please describe and justify the tasks to be subcontracted  
+Does the participant envisage that part of its work is performed by linked third parties? 
+In order to achieve the objectives planned in the project, the industrial partner MAIER (profit 
+organization) will work along with its research centre called MTC (MAIER TECHNOLOGY 
+CENTRE), in which MAIER has a participation of 84.62%. MTC will participate as a linked third 
+party of MAIER in the achievement of some tasks in the project. MTC is an R&D and NON 
+PROFIT organization dedicated to the research and development in the field of thermoplastic 
+injection moulding, decorative and assembly technologies and analysis and implementation of 
+production facilities for automotive. The technological capacity of the centre is based on its team, 
+currently formed of more than 100 people, mostly with technical skills (Higher Engineering with 
+a strong vocation for research, development and innovation). 
+ 
+ 
+Yes 
+ 
+If yes, please describe the third party, the link of the participant to the third party, and describe 
+and justify the foreseen tasks to be performed by the third party 
+ 
+MTC will support the partner MAIER in the development of the project, MTC contribution and 
+knowledge will be crucial to obtain the pursued results throughout the project. 
+ 
+WP1:  
+ Task 1.1 Specifications and requirements for end-use cases - Definition 
+of testing procedures 
+ Due to its expertise in the development and validation of automotive 
+components for the exterior and the interior of the car, MTC will help MAIER to 
+define new tests that will push the new coating to its technical limitations. This 
+knowledge will be crucial for the future exploitation of the Project.  
+ 
+WP2:  
+ Task 2.2. Demonstration of optimized recycled materials in a pilot line 
+(simulated operational environment)  
+ Task 2.3: Optimisation of the coating debonding system and assessment 
+of the separation capacity 
+ Task 2.4: Broadening the application field of the coating debonding 
+system 
+  
+ Due to its technological approach to different coating technologies (Deep-
+coating, Spray, others) for car exterior applications Three layers coating: 
+Primer+Colour+Clearcoat , and for the car interior applications One layer 
+coating: Colour; MTC will set and define a Design of Experiments (DoE) and 
+will also work together with MAIER on the interpretation of these results. As a 
+result, at this pilot scale MAIER together with the assistance of MTC will be able 
+to define the coating application process window of the new coating 
+formulations to be tested that will serve as a basis for the up-scaling of the 
+technology. 
+ Furthermore, MTC will help MAIER to carry out the new tests defined in the 
+WP1 that will push the new coating to their technical limitations. 
+ 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 123 of 127 
+ 
+WP4: 
+ Task 4.3 Validation of the recycling pilot line performance using well-
+defined waste streams made with flat test-specimens  
+ Task 4.4 Maximising the application potential of the recycled materials  
+  
+ Due to its expertise in the development of aesthetic components, MTC will 
+assess MAIER in the evaluation of the potential use of the recycled material for 
+Automotive aesthetic components because the smallest impurities produces 
+surface defects on aesthetical parts. 
+ 
+WP5:  
+Task 5.1: Eco-design of use case products in view of project 
+technological developments   
+Task 5.2: Manufacturing of prototypes -  
+Task 5.3 Implementation of circular use cases  
+Task 5.4 Evaluation & Guidelines for further industrial take-up  
+ Due to its technological approach to injection moulding, MTC will set and define 
+a Design of Experiments (DoE) and will also work together with MAIER on the 
+interpretation of these results. As a result, at this pilot scale MAIER together 
+with the assistance of MTC will be able to define the processing windows of the 
+ABS recycled formulations to be tested that will serve as a basis for the up-
+scaling of the technology. 
+ During the up-scaling process and due to the knowledge acquired on WP2 too, 
+MTC will assist MAIER on the up-scaling trials that will be carried out on the 
+industrial facility for the manufacturing of the ABS coated prototypes, proving 
+its know-how. 
+ Furthermore, MTC will help MAIER to carry out the new tests defined in the 
+WP1 that will push the new coating to their technical limitations. 
+ 
+WP6: MTC together with MAIER will contribute to the LCA with all the information and support 
+requested by the WP Leader. 
+ 
+WP7: MTC will work on the analysis of market potentials, applications perspectives, risk and 
+opportunities for the implementation together with the Marketing department of MAIER. 
+ 
+For this, partner MTC is allocated the following amount of personmonths: WP1 – 2pm; WP2 – 
+5pm; WP4 – 2pm; WP5 – 11pm; WP6 – 1pm; WP7 – 1pm. This corresponds to a personnel 
+cost of €112.200. Also €5000 travel costs are allocated to MTC. 
+Does the participant envisage the use of contributions in kind provided by third parties (Articles 
+11 and 12 of the General Model Grant Agreement). 
+NO 
+ 
+If yes, please describe the third party and their contributions 
+- 
+ 
+ 
+ 
+Partner 10 – RESCOLL 
+No third parties involved 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 124 of 127 
+ 
+Partner 11 – CTECH 
+No third parties involved 
+ 
+Partner 12 – DEVAN 
+ 
+Does the participant plan to subcontract certain tasks (please note that core 
+tasks of the project should not be sub-contracted) 
+ 
+NO 
+If yes, please describe and justify the tasks to be subcontracted  
+Does the participant envisage that part of its work is performed by linked third parties? 
+In order to achieve the objectives planned in the project, partner DEVAN will work along with 
+Devan Belgium, a third party of Devan. 
+ 
+Yes 
+ 
+If yes, please describe the third party, the link of the participant to the third party, anddescribe 
+and justify the foreseen tasks to be performed by the third party 
+Devan Belgium will perform the exploitation activities of DEVAN, so the activities for Task 7.2 – 
+Exploitation and Technology Transfer, given their expertise in this matter. The budget foreseen 
+is ca. €25.000, for 3pm in WP7.  
+ 
+Does the participant envisage the use of contributions in kind provided by 
+third parties (Articles 11 and 12 of the General Model Grant Agreement). 
+NO 
+ 
+If yes, please describe the third party and their contributions 
+- 
+ 
+ 
+ 
+Partner 13 – IRIS 
+No third parties involved 
+ 
+Partner 14 – ECOMAT 
+No third parties involved 
+ 
+Partner 15 – IRES 
+No third parties involved 
+ 
+Partner 16 –OSM 
+No third parties involved 
+  
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 125 of 127 
+ 
+Partner 17 – ISWA – PARTICIPATION TERMINATED 
+ 
+Does the participant plan to subcontract certain tasks (please note that core tasks of the project should 
+not be sub-contracted) 
+NO 
+Does the participant envisage that part of its work is performed by linked third parties? Yes 
+ 
+The third party will be ISWA GmbH. The link of ISWA GmbH with the main party ISWA association is 
+that ISWA GmbH is fully owned by the International Solid Waste Association (ISWA).  
+Profile of third party: 
+ISWA GmbH is a limited company established in Austria. The main purpose of ISWA GmbH is to 
+organize and implement dissemination activities such as study tours, summer schools and other events 
+as well as the publication of the magazine waste management world. 
+Main tasks attributed in the project relate to the WP7 activities. 
+ Using its vast network of experts ISWA GmbH will help ISWA develop workshops and webinars 
+to selected stakeholder groups. It will help with the identification and acquisition of audiences, 
+creation of workshop and webinar contents based on the needs of different target groups, and 
+the delivery of workshops.  
+ As the project progresses, ISWA GmbH will assist ISWA in the dissemination of public 
+deliverables and also help produce flyers, brochures, factsheets, white papers – print and digital. 
+Public dissemination of information will be tailored to specific groups such as scientific, policy 
+makers, etc. Furthermore, ISWA GmbH will help with the creation of visually attractive and 
+professionally written documents. 
+ Through its international network, ISWA GmbH will piggyback on important international trade 
+fairs and conferences to reach out to industry stakeholders. At the events, meetings will be set 
+up to present the project to the most relevant exploitation target groups for a direct innovation 
+and knowledge transfer. 
+ ISWA GmbH will also assist in outreach to local communities, schools, and universities and will 
+help organize at least 3 information events or opportunities to share project information, 
+targeting 100 students, citizens, or pupils. Furthermore, it will help connect with relevant 
+organisations, such as schools, universities, consumer or citizen organisations, and NGOs. 
+Public events will be organized to provide details about projects and relay information that could 
+be disseminated to respective audiences. ISWA GmbH will help in creating awareness among 
+the general public and stimulate interest in the sustainability and recycling of coatings. It will 
+leverage existing channels such as its memberships, ISWA newsletters, etc.  
+ Finally, ISWA GmbH will assist ISWA to organize the final public event with at least 75 
+participants. The final event will be a professional high-level 1-day conference on the novel 
+DECOAT debonding solutions and materials. 
+ 
+Based on her expertise Mrs. Jennifer MacDonald, employee of the ISWA GmbH will be involved in the 
+project activities.  
+Jennifer MacDonald (Female) is a Technical Project Manager at the ISWA General Secretariat. She 
+has an MSc with Distinction in Environmental Technology and International Affairs from the Technical 
+University of Vienna and the Diplomatic Academy of Vienna where she specialized in waste to energy 
+of biomass residues. She is also the Editorial Office Manager for Waste Management and Research, 
+ISWA’s Academic Journal, the Working Group Secretary for the Working Group on Collection and 
+Transportation Technologies, Working Group on Healthcare Waste, Working Group on Landfill, and 
+Working Group on Recycling and Waste Minimisation. 
+ 
+ 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 126 of 127 
+Relevant publications: 
+ ISWA GmbH owns the Waste Management World Magazine 
+Relevant Patents: 
+ No patents  
+Relevant Projects: 
+ Addressing Barriers to Sustainable Resource Management 
+Significant Infrastructure and Equipment (description of any significant infrastructure and/or 
+any major items of technical equipment, relevant to the proposed work): 
+ Waste Management and Research (ISWA-run Academic Journal)-Dissemination tool 
+ Waste Management World (ISWA Magazine)-Dissemination tool 
+ ISWA World Congresses 
+ Beacon Conference on Recycling and Waste Minimization 
+ 
+Budget:  
+Approximately 1/3 of ISWA’s budget, i.e. €45.000, corresponding to 6pm for WP7, is allocated to ISWA 
+GmbH. Also €6000 travel costs are allocated to ISWA GmbH. 
+Does the participant envisage the use of contributions in kind provided by 
+third parties (Articles 11 and 12 of the General Model Grant Agreement). 
+NO 
+ 
+Partner 18 – ISWA NL 
+No third parties involved. 
+ 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 127 of 127 
+5 Ethics and Security
+5.1 Ethics 
+No ethics issues.
+5.2 Security 
+ 
+The DECOAT project does not involve any activities or results raising security issues. 
+The DECOAT project does not involve “EU-classified information” as background or results.

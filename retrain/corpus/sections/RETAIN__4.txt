@@ -1,0 +1,1335 @@
+4.  ETHICS SELF ASSESMENT ............................................................................................................................. ...................... 
+43  
+  
+     
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 5 of 44  
+List of abbreviations  
+AI  artificial intelligence  
+ALTAI  Assessment List for Trustworthy  AI  
+ANNs  Artificial Neural Networks   
+API  Application Programming Interface   
+appr  approximately  
+AU  Austria  
+BC  business case  
+BE  Belgium  
+BENELUX  Belgium, The Netherlands, Luxembourg  
+CA  Consortium Agreement   
+ca  Circa  
+CAGR  compound annual growth rate  
+CAPEX  capital expenditure  
+CDTI  Centre for the Development of Industrial Technology   
+CEAP  circular economy action plan   
+CEN TC   European Committee for Standardization Technical Committees  
+CEN-
+CENELEC  
+European Committee for Standardization &European Committee for Electrotechnical 
+Standardization   
+COMM  Commercialization  
+CZ  Czech Republic  
+D  deliverable  
+DE  Germany  
+DEC  dissemination, exploitation and communication   
+DEHP  di(2-ethylhexyl) phthalate   
+DID  Distributed Identity   
+DLT  decentralized ledger technology   
+DMP  Data Management Plan   
+DNSH  Do No Significant Harm   
+DPP  digital product passport   
+DST  decision support tool   
+e.g.  for example  
+EC  European Commission  
+ECHA  European Chemicals Agency  
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 6 of 44  
+EIB  European Investment Bank   
+EIC  European Innovation Council  
+EIT  European Institute of Innovation & Technology  
+EOL  end of life  
+EP  Exploitation Plan   
+eq  equivalent  
+ES  Spain  
+ESPR  Eco-design for Sustainable Products Regulation   
+ESWA  European Waterproofing Association  
+etc.  et cetera  
+EU  European Union  
+FAIR  Findability, Accessibility, Interoperability and Reusability  
+FR  flame retardant  
+ 
+FR  France  
+FTE  Full Time Equivalent  
+GA  General Assembly   
+GRC  Governance, Risk, and Compliance  
+GS  Global Standards  
+HCl  hydrogen chloride  
+HEUR  Horizon Europe  
+i.e.  that is  
+IDP  interoperable data platform   
+IoT  internet of things  
+IP  Intellectual property  
+IPR  Intellectual property rights  
+ISO  International Organization for Standardization  
+IT  Italy  
+IVK  Industrieverband Kunststoffbahnen e.V.  
+JSON  JavaScript Object Notation  
+KER  Key Exploitable Result  
+KG  Knowledge Generation  
+KIC  Knowledge and Innovation Community  
+KO  key objective  
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 7 of 44  
+KPI  key performance indicator  
+kt  kiloton  
+LCA  Life cycle assessment  
+LCC  Life-cycle costing  
+LE  large enterprises   
+LIBS  Laser Induced Breakdown Spectroscopy   
+Ltd  limited  
+M  month  
+Mio  million  
+MSE  Mean Squared Error   
+NBN  Bureau for Standardization   
+NGO  Non-governmental organisation  
+NGSI  Next Generation Service Interfaces  
+NL  The Netherlands  
+PAT  Process Analytical Technologies   
+PET  polyethylene terephthalate   
+PL  Poland  
+PSC  Project Steering Committee   
+Pty  Proprietary Limited  
+PVC  polyvinyl chloride   
+QR  Quick-Response  
+R&D  Research and development  
+R&I  Research and Innovation   
+REACH  registration, evaluation, authorisation and restriction of chemicals  
+RFID  Radio-Frequency Identification  
+RMSE  Root Mean Squared Error   
+rPET  recycled PET  
+rPVC  recycled PVC  
+RTD  Research and Technological  Development  
+SDG  Sustainable Development Goal  
+SE  Sweden  
+SETAC  Society of Environmental Toxicology and Chemistry  
+SLCA  Social Life Cycle Assessment  
+SMART  Specific, Measurable, Achievable, Relevant, and Time-Bound  
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 8 of 44  
+SME  Small and Medium-sized Enterprises  
+SOTA  State-of-the-art   
+SSH  Social Sciences and Humanities   
+SWOT  Strengths, Weaknesses, Opptunities, Threats  
+Tarp  Tarpaulin  
+TCH  Tarp Circularisation Hubs   
+TRL  Technology readiness level  
+TSG  transition support group  
+U  end user  
+UK  United Kingdom  
+UNE  Spanish Association for Standardization  
+UNEP  United Nations Environment Programme  
+USD  United States Dollar  
+VC  Verifiable Credentials   
+VisumHSI  Hyperspectral imaging system  
+WP  work package  
+y  year  
+  
+    
+List of partners  
+Participant 
+no.  Short name  Participant organization name  Country  
+Organization 
+Type  
+1  SIOEN  SIOEN Industries NV  BE  LE  
+2  CTB  
+CENTRE SCIENTIFIQUE & TECHNIQUE 
+DEL'INDUSTRIE TEXTILE BELGE ASBL  BE  RTO  
+3  SATTLER  Sattler PRO-TEX GMBH  AU  LE  
+4  RENOLIT  Renolit SE  DE  LE  
+5  EKOTREND  Ekotrend Ludky sro  CZ  LE  
+6  SF  Serge Ferrar SAS  FR  LE  
+7  IRIS  Iris Technology Solutions Sociedad LIMITADA  ES  SME  
+8  AIMPLAS  
+Asociación de Investigación de Materiales  
+Plásticos y Conexas  ES  RTO  
+9  VEOLIA  Veolia NV SA  BE  LE  
+10  VWERVEN  Kunststof recycling Van Werven BV  NL  SME  
+11  VINYLPLUS  VinylPlus  BE  Assoc.  
+12  EUPC  European Plastics Converters EUPC AISBL  BE  Assoc.  
+13  BIG  Beaulieu Intl. Group NV  BE  LE  
+14  KKF  KKF reVinyl GMBH  DE  SME  
+15  RINA-C  Rina Consulting SPA  IT  LE  
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 9 of 44  
+16  MEHLER  Mehler Texnologies GMBH  DE  LE  
+  
+   
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 10 of 44  
+1. Excellence   
+Tarpaulins are complex composite-like materials, typically composed of polyethylene terephthalate (PET) 
+as reinforcement material and plasticized/soft polyvinyl chloride (PVC) as coating material. These durable 
+plastics have a wide range of applications going from trailer curtains to prof essional tents, and from 
+advertisement banners to biogas membranes. Each year 200 kton of tarpaulins enter the EU market, 65% 
+of this volume, corresponding to ca. 200 Mio m2, being produced in the EU. After their functional lifetime, 
+which ranges from a few months up to 30 years, over 99% of tarpaulins currently end up as landfill or are 
+being incinerated as today’s recycling technologies are insufficient. The target of RETAIN is to contribute 
+to the final ambition of having, by 2036, at least 90% of circular use (repaired, reused, remanufactured or 
+recycled) of the tarpaulins produced in EU. To reach our ambition, we will further develop various recycling 
+technologies (i.e. mechanical, physical, and selective dissolution) and demonstrate circular business 
+practices (advanced collection, monitoring, sorting, repair/reuse/recycling and conversion of 
+postproduction and end-of-life tarpaulins) at TRL8 scale at three DEMO locations in the EU. Additionally, 
+we will develop and implement an efficient decision-making tool for process and lifecycle optimization such 
+as the RETAIN gate control procedure for post -industrial and end -of-life tarpaulins. Finally, we will 
+implement a digital product passport (DPP) for tarpaulins to ensure traceability, support certification  and 
+quality validation, quantify environmental, social, and economic impacts, incorporate learning and training 
+activities, contribute to relevant standards, and connect with other recycling initiatives in the EU and 
+abroad.
+1.1 Objectives and ambition   
+1.1.1. Objectives   
+Tarpaulins (short: tarps), composed of a soft polyvinyl chloride (PVC) matrix reinforced with polyethylene 
+terephthalate (PET) fibres, are flexible, waterproof plastic sheets that are widely used for numerous 
+outdoor applications such as trailer covers, pr ofessional tents, advertisement banners and biogas 
+membranes. At their end of life (EOL), 99+% of these PVC tarpaulins end up in landfills or are incinerated, 
+by lack of circular solutions at scale. Increased recovery and efficient recycling technologies at scale are 
+urgently needed to increase the sustainability of these complex plastic materials. Thus, the overall 
+objective of RETAIN is to increase the circularity of PVC tarpaulins by deploying 3 EU demonstration pilots 
+for collection, monitoring, sorting , repairing/ reusing/remanufacturing, and recycling. We aim to install 
+these demonstration pilots in the Benelux, the southwest of Europe covering France, Spain and Italy, and 
+central Europe involving Germany, Austria and Czech Republic because they are ho me to the largest 
+European tarp producers and the companies that will be recycling these materials.   
+To ensure that these materials are kept in circulation at the highest level of quality, economic and 
+environmental value, our circularity model is based on: 1) a strict gate control procedure; 2) repairing/ 
+reusing/ remanufacturing tarpaulins that are stil l in good condition; 3) advanced mechanical, physical or 
+dissolution recycling of 
+post-production and EOL 
+tarps that are free of legacy 
+additives; 4) 
+reprocess/ecodesign the 
+recycled products into new, 
+high-value products; and 5) 
+safe disposal of tarpauli ns 
+that still contain legacy 
+additives in order to avoid 
+toxic components re -
+entering the market (figure 
+1). An additional target is to 
+make tarpaulins more 
+sustainable by adding 
+biobased PVC and 
+biobased and/or recycled 
+
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 11 of 44  
+plasticizers, and to investigate if high tenacity recycled PET fibres can be produced and applied in tarps. 
+As such RETAIN is addressing the priorities set in the circular economy action plan (CEAP)1 for achieving 
+a sustainable, circular economy.  
+Figure 1: retain circularity model  
+  
+To reach this ambitious overall target and to maximize the RETAIN impact, we define the following 
+SMART key objectives (KOs) and key performance indicators (KPIs), and show their link with the 
+call requirements and CEAP:  
+  
+KO1: Setting up an efficient collection, monitoring and sorting gate control process for post -
+production and EOL tarpaulins => WP1  
+KPI(s): i) Installation of an efficient collection, monitoring and sorting process with a project throughput 
+capacity of 10 tons/day, including an AI based spectroscopy inline monitoring quality check for condition 
+i.e. physical and colour integrity and presence of l egacy additives by M30. This will generate 3 main 
+streams, namely: 1) repair/reuse/remanufacturing: legacy additives free and almost undamaged tarps, 2) 
+recycling: legacy additives free, but non reusable tarps and 3) disposing: legacy additives containing tarps. 
+ii) Interoperable data platform integrated with circular tarpaulins value chain processes, DPP and software 
+services for storage, processing and visualization of data originating from, and related to, the collection, 
+monitoring, sorting, repair/reuse/remanufacturing/recycling, and conversion of post -production and EOL 
+processes will also be developed. Initial DPP Prototype by Month 18 and optimized DPP with TRL 8 by 
+end of the project.  
+ 
+Link to call: i) the project should consider the use of digital solutions (including technologies such as AI, 
+robotics, IoT and blockchain) and demonstrate their benefits for increased circularity. ii) Proposals should 
+aim to implement traceability solutions in support of recent policy developments, e.g. regarding the digital 
+product passport. Link to CEAP: solutions for high-quality sorting and removing contaminants from waste, 
+including those resulting from incidental contamination  
+KO2: Reconfectioning of EOL tarpaulins to enable a valuable, second life, and (semi)automized 
+deconfectioning as pretreatment for recycling => WP2  
+KPI(s): i) EOL tarpaulins that still have a sufficient quality, e.g. visually (colour, appearance, a rating of at 
+least 4 on the grey change scale), mechanically (tensile strength, adhesion, etc.; >80% remaining), will 
+be reconfectioned and prepared for a second life as tarpaulin. During the project, several options will be 
+investigated to promote at least 3 novel “recovery and reuse routes” not excluding the possibility of cross-
+fertilization among different sectors (e.g. repairing of a trailer curtain or remanufacturing of an 
+advertisement banner as a packaging material for wind turbine parts). ii) For tarps that must go to 
+recycling, a semi-automated deconfectioning device will be developed to remove all kinds of functionalities 
+such as eyelets, buckles, zippers, and seams, at a speed of at least 250 m²/h/person.  
+ 
+Link to call: Proposals should also demonstrate circular business practices, in particular in the uptake of 
+repair and reuse, remanufacture, product-service-systems, and in the full lifetime of products or services. 
+Link to CEAP: improving product durability, reusability, upgradability and repairability.  
+KO3: Identification of optimized cascade recycling routes => WP3  
+KPI(s): Recycling technologies will be optimized and brought at scale via the deployment of an AI based 
+optimization digital tool, for tarpaulin recycling: i) mechanical recycling to obtain grinded PVC/PET material 
+with a project capacity of 10 tons per da y; ii) mechanical recycling process with air treatment, vibration 
+and sifting to separate the PVC from the fibres and special exhaust system to prevent release of 
+ 
+1 European Commission: Directorate-General for Communication, Circular economy action plan – For a cleaner and more 
+competitive Europe, Publications Office of the European Union, 2020, https://data.europa.eu/doi/10.2779/05068  
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 12 of 44  
+microplastics; iii) mechanical recycling by shaving off the PVC from the PET reinforcement at a speed of 
+600m2/hour; iv) physical recycling process which separates PVC from the fibres at 50 kg/day; v) selective 
+solvent based recycling to dissolve the PVC and filter the PET fibres (>50 mm length) at a speed of 
+300kg/day; vi) selective extraction of plasticizers and  other valuable tarp components (e.g. stabilizers, 
+flame retardants and/or fillers) at a capacity of 10 -50kg/day treated tarp with >99% efficiency  for high 
+purity extracted fractions.  
+ 
+Link to call: The projects should consider the use of digital solutions (including technologies such as AI, 
+robotics, IoT and blockchain) and demonstrate their benefits for increased circularity. ii) Proposals should 
+demonstrate increased recycling and upc ycling rates. Link to CEAP: high -quality recycling, avoiding 
+unintentionally released microplastics during recycling  
+KO4: Maximizing use of recycled and biobased content for high value products => WP4  
+KPI(s): i) at least 5 recycled/upcycled products will be prepared to demonstrate potential applications for 
+the recycled materials.  
+These products are related to profiles, foils, injected moulded parts, PET nonwovens and high tenacity 
+multifilament PET yarns. Another expected output is the development of more sustainable tarpaulins 
+which contain bio -attributed PVC, recycled and/or biob ased plasticizers, and recycled PET fibres. The 
+tarps will contain at least 50% recycled/biobased content. ii) A standardization scenario will be developed 
+with the goal of providing valuable results for developing new standards or for using them as input for 
+already existing standardization activities to make sure that there is information about the quality of the 
+recycled materials.  
+ 
+Link to the call: i) Proposals should demonstrate a higher uptake of secondary materials for high value 
+applications, ii) The projects should provide contributions to relevant standards or best practices. Link to 
+CEAP: i) call for mandatory recycled content and the controlled use of bio -based materials; ii) enhance 
+the role of standardisation based on the on-going assessment of existing standardisation work at national, 
+European and international levels.  
+KO5: Demonstrate circularity for complex PVC based value chains within 3 EU regions => WP5  
+KPI(s): setting up of the complete circularity value chain that covers collectors, sorters, repairers, re-users, 
+recyclers, logistics and end users of the recycled products in each of the 3 EU demo sites and show that 
+PVC tarpaulins can be recirculated at large scale (>10 kt/year). Deployment and monitoring of the RETAIN 
+technologies.  
+ 
+Link to the call: i) Proposals should demonstrate and deploy at large scale innovative solutions and designs 
+for increased quality, non-toxicity and durability of secondary materials and increased share of secondary 
+materials in new products. ii) Proposals should demonstrate increased recovery, recycling and upcycling 
+rates and a higher uptake of secondary materials for high value applications. Link to CEAP: scaling up the 
+separate collection of plastic waste and ensuring better infrastructure for sorting and recycling.  
+KO6: Sustainability & economic assessment of circular complex PVC based value chains => WP6  
+KPI(s): Assessment of environmental, economic, and social impacts via LCA/LCC and SLCA developed 
+according to established robust methodologies aligned with existing standards and guidelines (e.g. ISO 
+14040 and 14044, UNEP/SETAC guideline (2020)) to proving positiv e RETAIN impact assessment at 
+Demonstrators level.   
+ 
+Link to call: Environmental, social and economic impacts should be assessed from a lifecycle perspective 
+as product, organization and consumption environmental footprints, using the respective methods 
+developed by the European Commission and through costing methods. ii) demonstrate circular business 
+practices, in particular in the uptake of repair and reuse, remanufacture, product-service-systems, and in 
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 13 of 44  
+the full lifetime of products or services. To achieve this, targeted market size, economic feasibility, cost 
+efficiency and social acceptance need to be addressed. Link to CEAP: analyse how the impact of circularity 
+on climate change mitigation and adaptation can be measured in a systematic way; assess the feasibility 
+of establishing a market observatory for key secondary materials  
+KO7: Maximizing market acceptance, uptake and deployment, including dissemination, 
+exploitation, and training & learning => WP7  
+KPI(s): we will contribute to the European PVC industry’s commitment for sustainable development.  A 5-
+year roadmap will be prepared to  explore different exploitation routes. Training materials such as 
+implementation manuals and tutorial videos will be available to endow workers in this occupational group 
+with the right skillset to deploy the innovative technologies developed. Three traini ng workshops will be 
+organized at the identified “replicability” sites, engaging (200+) professionals involved in process  
+development, to pave the way for faster RETAIN replicability.   
+ 
+Link to the call: i) develop training material to endow workers in this occupational group with the right 
+skillset in order to deploy the new technologies developed. ii)  consider the development of learning 
+resources for the current and future generations of employees. Link to CEAP: EU -wide market for 
+secondary raw materials.  
+1.1.2 Ambition & Beyond State-of-the-art (SOTA)  
+Current situation: PVC is a thermoplastic polymer made from ethylene (mainly petrol based) and chlorine 
+(derived from sea salt) and is one of the most used plastics in the world. In the EU-27 + UK, Norway, and 
+Switzerland, about 6.5 million tons of PVC products are manufact ured every year2. PVC is known for its 
+durability and resistance to chemicals, weathering, and abrasion. It can be rigid or flexible, clear, or 
+coloured, and it can be modified to have different levels of hardness. These versatile properties make that 
+PVC has a wide range of applications such as pipes and fittings, cable insulation, profiles, flooring, toys, 
+medical devices, banners, packaging, protective clothing, automotive components, furniture and covers. 
+When the PVC product is not complex (i.e. homopolymer) it can be readily recycled through established 
+and advanced mechanical recycling systems. For example, PVC window profiles can already be made of 
+100% recycled PVC or at least contain a high percentage of recycled PVC 3. On the othe r hand, the 
+recycling of more complex PVC based materials such as PVC tarpaulins is much more challenging, and 
+no large-scale solutions are existing4.   
+This is further illustrated by the table on the next page for which the numbers were taken from the 
+VINYLPLUS-Progress-Report20245. When looking at the tonnage of coated fabrics, of which tarps are 
+part, it can be seen that only 83 ton was recycled in 2023,  and this was all pre -consumer (=post-
+production) waste. Post-consumer (=EOL) waste was not recycled.   
+  
+  
+2 https://pvc.org/pvc-applications/  
+3 https://vinylplus.eu/wp-content/uploads/2021/05/Recycling-PVC-2021-web-Final-1.pdf  
+4 https://op.europa.eu/en/publication-detail/-/publication/e9e7684a-906b-11ec-b4e4-01aa75ed71a1  
+5 https://www.vinylplus.eu/wp-content/uploads/2024/05/VinylPlus-Progress-Report-2024-web.pdf  
+Table 1: TONNAGES OF PVC RECYCLED IN THE EU-27 PLUS NORWAY, SWITZERLAND AND THE UK  
+  
+Type of PVC (waste 
+origin)  
+Tonnage recycled in 2023   
+   Total ton  Post-consumer  Pre-
+consumer  
+Profiles  391093  152585  238508  
+Pipes  30471  6983  23488  
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 14 of 44  
+Cables  97586  88345  9241  
+Flexibles  67720  25107  42613  
+Rigid film  20399  5140  15259  
+Coated fabrics (incl. tarps)  83  0  83  
+Flooring  118379  3248  115131  
+Other rigid  11913  1250  10663  
+Total  737644  282658  454986  
+Although tarpaulins are not the largest PVC application, it is still an important market in the EU because 
+about 200 Mio m² or ca.120kton (average 600 g/m²) is annually produced in the EU representing €700 
+Mio Euro. This volume represents ca. 2/3 of the ta rps that enter the EU market. Considering that the 
+average functional lifetime of most of these materials is between 5 and 10 years, a significant amount of 
+waste is generated every year that currently goes to landfill or incineration as today’s recycling 
+technologies are insufficient.  
+Overall Ambition: The overall ambition of RETAIN is to demonstrate circularity chains that will 
+enable us to reuse/remanufacture/recycle over 90% of these tarps by 2036. As technologies are 
+still at relatively low TRL's (5-6) today, our target is to bring these technologies to TRL 8, which will 
+enable us to successfully demonstrate increased recovery, recycling, and upcycling rates (at ton 
+scale) and a higher uptake of secondary materials for high value applications during the project. 
+After a successful project, the consort ium is committed to further expand these technologies to 
+achieve the 2036 objective.  
+To reach this general ambition, the overall objectives of RETAIN are to collect, sort, repair/reuse/recycle 
+and convert postproduction and post-consumer (EOL) tarpaulins at large scale in 3 different EU regions 
+and to achieve this objective, several steps beyond the state of the art in the circularity chain are required 
+and this will be described below. Furthermore, another challenge in recycling soft PVC materials is the 
+potential presence of legacy additives. Legacy additives in PVC products refer to subs tances that were 
+historically used in the production of these products but are now recognized as problematic due to 
+environmental and/or health concerns. These additives were commonly incorporated into PVC 
+formulations to enhance certain properties or processing characteristics but have since been phased out 
+or restricted due to regulations or voluntary industry commitments such as VINYLPLUS 2 . The most 
+common legacy additives used in tarpaulins are heavy metal-based stabilizers (e.g. lead), specific short-
+chain plasticizers such as di(2 -ethylhexyl) phthalate (DEHP) and heavy metal -based pigments (e.g. 
+cadmium, chromium). The presence of DEHP h as led to the closure of the specialised PVC recycling 
+business at Ferrara, Italy (Vinyloop, focus on cable recycling) in 2018, because it was not economically 
+viable to extract the plasticizer. 3 Also compared to the situation in 2018, the current in use tarpaulins 
+contain almost no legacy additives anymore considering 80+% of these tarps have a lifetime between 5-
+10 years and knowing that EU tarpaulin manufacturers are not using DEHP anymore as plasticizer.  
+Expected steps beyond SOTA (State-of-the-Art) and increase in TRL levels for the core RETAIN 
+developments.  
+The project is positioned at an advanced stage of Research and Innovation (R&I) maturity. It builds on 
+established technologies and methodologies while integrating innovative approaches to address specific 
+challenges in the recycling of PVC tarps. This pos itioning reflects a transition from research and 
+development to practical application and market integration. By implementing demonstration pilots in 
+regions with significant industry presence, the project aims to validate and optimize these innovations in  
+real-world conditions, ensuring readiness for wider adoption and scalability. To achieve this, the main 
+technology elements that need to be forwarded beyond SOTA and the related TRL progress are 
+summarized below.  
+Collecting, monitoring, and sorting of the tarpaulins. TRL 5 → 8.  
+ 
+2 https://www.vinylplus.eu/  
+3 https://www.plastech.biz/en/news/VinyLoop-closed-PVC-recycling-project-in-Italy-12649  
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 15 of 44  
+State of the art:  Sector-specific take-back systems and separate collection are successfully applied to 
+post-consumer waste from the construction and building sector (e.g. windows, pipes) in most of the EU 
+Member States. However, the (limited) available information for complex flexible PVC materials suggests 
+that separate collection remains a challenge in practice for these waste streams. Regarding efficient 
+sorting, spectroscopic methods are frequently used, being rapid, reliable and often non-destructive  
+  
+analytical techniques. Process Analytical Technologies (PAT) used for real -time monitoring of critical 
+quality parameters, are the next step for the competitive operation of many industries.4 This technology is 
+available at non-industrial scale at IRIS (TRL5).  
+Beyond SOTA: Setting up a smart collection and gate control procedure. Sensing technologies will be used 
+to identify the presence of legacy additives as: Raman Spectroscopy  for identification of DEHP, a 
+plasticizer, and certain bromo derivatives (from fire retardants) combined with Laser Induced Breakdown 
+Spectroscopy (LIBS) for detection of other tarp components lead derivatives (from pigments) and tin 
+derivatives (from thermal stabilizers). Customized algorithms will allow process control for the optimization 
+of processes and final product classification. RETAIN will demonstrate the use at pilot scale (TRL8).  
+A standard-based approach to Digital Product Passports as an enabler for industry circularity. TRL 
+5 → 8.  
+State of the art: Today very little is known about end-of-life aspects of tarpaulins apart from the fact that 
+36% ends up in landfills and 63% is being incinerated. If we want to efficiently recycle tarpaulins at their 
+end-of-life, we must introduce lifetime traceability of these materials. Moreover, the databases on material 
+classifications are held by big enterprise resource planning (ERP) system providers. Those systems are 
+centrally managed by industry associations or private businesses and provide a st atic source of public 
+data which is prone to future data leaks due to the nature of centrally stored data.5  
+The concept of a Digital Product Passport (DPP) can be a key enabler of the shift towards circularity as a 
+business model by creating transparency over raw materials sourcing, circular design principles, and 
+waste stream trajectories, and opening up new op portunities for repairing existing products, giving them 
+a second life, as well as creating trust in the secondary market by providing customers with a reliable tool 
+to verify a product’s authenticity and history. By prioritising circular design principles and ensuring end-of-
+life product recovery, companies can significantly decrease their dependence on virgin materials, bolster 
+customer loyalty, enhance brand reputation, and seamlessly adhere to increasingly stringent sustainability 
+regulations.   
+The technologies upon which a DPP are built are not new, and as Europe moves forward in leading the 
+way in DPP developments and deployments, a key focus needs to be on architecting DPPs that are 
+designed based on standards, interoperability, scalability, security and trustworthiness and taking 
+into consideration currently available data frameworks and how the DPP can access relevant data that 
+already exists in industry. This is important as DPPs will not exist in isolation but will complement existing 
+tools already deployed along the enterprise value chain. A seamless integration will significantly reduce 
+the complexity associated with scaling DPP adoption. Aspects such as access right management for 
+transparency and Intellectual Property Rights will also be of paramount importance. A blockchain-based 
+approach will enable brands to transparently share accurate information with end consumers and other 
+stakeholders within the value chain. This transparency, ensured by the immutable nature of blockchain 
+will allow the DPP to serve as a trustworthy Digital Twin of the product.  
+Beyond SOTA: RETAIN aims to innovate by aligning with the existing trend in Europe regarding the creation 
+of valuable data ecosystems based on the adoption of data space technologies for long -term storage 
+through the development of a digital product passport (DPP) for tarpaulins. Such a digital document goes 
+with the product through its lifetime. The document contains detailed compositional info that can be used 
+once the product has been collected for recycling. RETAIN approach will start from a similar one already 
+validated by IRIS in the packaging value chain and which is a good starting point to be scaled and replicated 
+ 
+4 Araujo-Andrade C. et al., ‘Review on the photonic techniques suitable for automatic 
+monitoring of the composition of multimaterials wastes in view of their posterior recycling’, 
+Waste Manag. Res., 2021, 39:631;  
+5 Götz, et al. (2022). Digital Product Passport: The ticket to achieving a climate neutral and circular European economy?  
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 16 of 44  
+for the circular tarp value chain (TRL8). By implementing the DPP we aim to gradually replace non -
+traceable tarpaulins with unknown composition by more sustainable certified and in the EU produced tarps 
+containing a digital product passport providing the e nd user information about its fingerprint, e.g., 
+composition, how it can be recycled and to assure the safety of these products. This to establish the 
+foundations of a global DPP standard for the Plastics sector that can be adopted internationally, making 
+the link with standards organisations (e.g. ISO, CEN -CENELEC, NBN) starting already in the project by 
+relevant partners like CTB (officially recognised as plastic standardisation sectorial operator in Belgium).   
+Cascade recycling of the tarpaulins. TRL4/6→7/8  
+State of the art: Mechanical recycling methods based on grinding, milling and fibre separation using air 
+treatment, vibration and sifting offer promising options, as explored in feasibilities studies by partners 
+VWERF &KKF (TRL6) and also the option of shaving away the PVC by EKOTREND (TRL5).   
+Physical recycling using polar solvents, the so -called Polysep process has been tested in batch sizes 
+by partner CTB (TRL4). The input material is first shredded, and then soaked with solvent which swells 
+the PVC fraction. In the next step, the soaked material comes into co ntact with the catalyst, which is hot 
+water or steam. This induces a flash evaporation of the solvent, leading to a popcorning effect. At this 
+step, the PVC coating is detached from the PET substrate. Subsequent conventional separation st eps 
+(like zig zag air separation) allow to obtain different individual streams (in this case PVC and PET).  
+Dissolution. Some small-scale recycling initiatives exist based on dissolution processes such as the 
+Creasolv6 process and  
+  
+Polyloop 7 . Especially The Polyloop process from partner SF (TRL6) is interesting because PVC is 
+separated from the fibres by dissolving the PVC in solvents and it is later recovered by a precipitation step 
+(see figure 2). 8. The Vinyloop dissolution process, similar to the Polyloop process, turned out not to be 
+economically feasible due to the presence of (hazardous) plasticizers 9. This will be less of a problem in 
+the future as legacy additives will phase out and promising extraction methods are being developed 14. 
+This already recently led to the start -up of two local PVC recycling lines in Belgium launched by INEOS 
+Inovyn. The two pilots draw on Vinyloop dissolution technology developed between 2002 and 2018 and 
+they will also, if present, extract the legacy additives.10   
+ 
+Figure 2: Polyloop process  
+Separation of PVC and PET fibres . A key element for both mechanical and physical recycling is the 
+separation of PVC and PET fibres. This technology is industrially available for PVC-textile laminates but is 
+ 
+6 https://www.ivv.fraunhofer.de/en/recycling-environment/recycling-plastics-creasolv.html  
+7 https://polyloop.fr/  
+8 https://polyloop.fr/strap-recycling/process/?lang=en  
+9 
+https://www.plasteurope.com/news/Closure_of_operation_in_Italy_Phthalates_issue_under_REACH_b
+rings_do_t240095/ 14 https://www.remadyl.eu/downloads-file/public-deliverables/  
+10 https://www.recyclingtoday.com/news/ineos-pvc-plastic-recycling-europe-flooring-tarps-pilot-inovyn-plant/  
+
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 17 of 44  
+not tested yet for tarps, hence a technology transfer is needed. At the same time, current separation 
+efficiency is not sufficient as the PET fibres still contain too much PVC which, because of the Chloride 
+leads to HCl formation in the extruder, leading in turn to corrosion. Further, at partner KKF it currently works 
+only for short fibres, so an adaptation of the technology is needed for longer fibres (RETAIN goal is 50mm). 
+Therefore, we estimate the current status TRL5.  
+Extraction of valuable additives such as plasticizers and flame retardants from plastic materials, with 
+the aid of solvents and other extraction techniques has been studied in the past at lab scale, using different 
+novel techniques, such as microwaveassisted Soxhlet extraction, ionic liquids, or supercritical CO211,12,13,14. 
+However, these studies focus on the removal of lowmolecular weight phthalates and bromide flame 
+retardants (legacy substances). To recover high molecular weight plasticizers and mineral flame 
+retardants, as well as other valuable additives, a cascade ext raction methodology will be performed 15. 
+These methodologies are used for the recovery of additives from other types of plastics, have to a certain 
+level already been tried on PVC by CTB and AIMPLAS (TRL4 -5) but will need to be further adapted to 
+PVC tarps in terms of solvents selection and process conditions, aiming for high purity materials.  
+Cascade recycling material flow setup via AI-based decision support tool (DST). As is clear from the 
+above, tarp recycling can be executed via various technologies. Depending on the quality of the EOL tarp 
+material, and also on the equipment and infrastructure that is locally available, there will be an optimised 
+route on how to rec ycle. For example, recycling locally with a technique that is locally available but that 
+does not give the most valuable output stream versus shipping it to a location where a mo re optimal 
+recycling techniques is available, but at an extra cost logistics cost. For such decision support, a strategy 
+for optimal recycling will be worked out and a decision support tool will be developed. For this AI -based 
+DST, techniques have already been investigated by RINA -C, but that involved other processes and/or 
+parameters in a different environment, so tech transfer will be needed. Estimated current status TRL5-6.  
+Beyond SOTA: RETAIN aims to further develop the various complementary recycling technologies which 
+are mechanical, physical and dissolution recycling and to show separation of PVC and PET fibres. It is 
+also our ambition to further purify these recyclates to recover t he plasticizers and other high value 
+components such as the flame retardants, by using selective solvents and extraction methods, so that the 
+purified additives and part of the PVC can be reused to obtain new plastisol formulations for tarpaulin 
+production in a semi-closed-loop recycling process. RETAIN aims to bring those techniques at a level they 
+mature  
+  
+enough to integrate them in the pilots and show their value (TRL8). An AI-based decision support tool will 
+be investigated to optimize the processes into a cascade recycling process that optimizes for the various 
+output streams (soft PVC/PET materials, pure PET fibres and a PET-free PVC fraction). A key element will 
+be to optimize the required recycling resources in function of value of the output streams.   
+Conversion into PVC-based products with recycled content TRL4/6 →7/8.  
+State of the art: As can be seen from the recycled PVC tonnages table shown in the beginning of section 
+1.1.2, tarps are almost not recycled, meaning that soft PVC recyclates are coming from other waste 
+sources such as EOL cable insulation and especially from post-industrial waste, e.g. for roofing and flooring 
+for which partners RENO and BIG, respectively, have experience in their re-use (TRL5-6). The applications 
+of EOL PVC recyclates are typically still limited, e.g. as filler material in composites or as additive to cement 
+ 
+11 Pérez et al (2022). Improvement of PVC Compound Plasticizer Extraction Process. Ingeniería Industrial. 
+10.26439/ing.ind2022.n42.5865.  
+12 Wang et al (2024). Environmental-friendly extraction of DEHP from PVC using liquefied dimethyl ether. Waste Management.  
+10.1016/j.wasman.2024.04.050.   
+13 Lateef et al (2008). Extraction of components of composite materials: ionic liquids in the extraction of flame retardants from 
+plastics. Journal of Chemical Technology and Biotechnology. 10.1002/jctb.1829.  
+14 Shieh et al (2003). Supercritical CO2 Extraction of Phthalate Plasticizers from PVC. Journal of Applied Polymer Science. 
+10.1002/app.13183.  
+15 Ügdüler et al (2020). Challenges and opportunities of solvent-based additive extraction methods for plastic recycling. Waste 
+Management.  
+10.1016/j.wasman.2020.01.003.  
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 18 of 44  
+and bituminous masses16. Regarding the polyester fibres, high quality recycled polyester fibres are mainly 
+coming from recycled bottles, but there is also now equipment and process know how available to obtain 
+high quality PET fibres from EoL textiles at CTB and SIOEN (TRL4 -5) a nd this opens possibilities to 
+develop high tenacity continuous PET multifilament yarns from EOL tarps.17.  
+Beyond SOTA: RETAIN will demonstrate the conversion of recycled PVC from EoL tarpaulins into (new) 
+high value products (i.e. recycling/upcycling). Recycled PVC, for instance, will be converted into dedicated 
+PVC parts by means of injection moulding, will be used for production of PVC roofing and for tarps (both 
+via calendaring) and for flooring (ideally via plastisol coating, if PVC quality too low also via calendaring). 
+On the other hand, recycled PET material will be used for extrusion of high tenacity continuous PET 
+multifilament yarns, recycled PET fibres (>50mm) will be used for high end technical non wovens.   
+FREEDOM TO OPERATE (FTO).  
+A preliminary freedom to operate analysis was carried out. It was clear that historically already many 
+patents in the domain of PVC recycling of PVC coated textiles/tarpaulins were filed. However, most of them 
+are now in the public domain and free to use. Especially most of the patents by Solvay related to the 
+Vinyloop process are now free to use. These are for example EP0945481, EP1232204 and EP1268628 
+and their family members. In the search a limited number of living patent families were discovered.  
+These are EP1737904 by Fraunhofer, EP2276801 by Solvay/SF and EP3504037A1 by PVC Separation 
+Holdings Pty Ltd. However, the Fraunhofer method will not be used in this project. The Solvay/SF patent 
+is transferred to Polyloop, but SF is allowed to further opt imize this recycling process for their products. 
+The patent EP3504037A1 refers to the Polysep process which has been developed in Australia. A 
+container-based demo line has been installed at the premises of CTB, and CTB is allowed to use it for 
+trials at pilot scale within RETAIN. Thus, the active patents are not impeding the project's progress. #§PRJ-
+OBJ-PO§#
+1.2  Methodology   
+1.2.1  Basic concept and assumptions  
+The basic concept to create a 
+circular PVC tarpaulin value 
+chain is based on the 
+collection, screening and 
+sorting of  end-of-life 
+ (EOL)  and 
+ postindustrial  waste 
+ which  will  be 
+‘reconfectioned’  (term 
+ used  for indicating 
+re-using, repairing and 
+remanufacturing)  or 
+ recycled  by 
+scaling existing technologies.  Within RETAIN we will develop and implement a very strict gate control 
+procedure. As shown in the gate control  scheme  (figure  3),  this  
+procedure will distinguish between Figure 3: gate control scheme the  various  tarp  qualities, 
+ thus guaranteeing minimal value reduction. Also, at manufacturer level, actions will be taken to 
+enhance the European industrial sustainability. RETAIN will develop and integrate 1) a digital product 
+passport for tarpaulins, and 2) integrate biobased and recycled products. If each EU tarp manufacturer 
+integrates a DPP in their products (representing 65% of the EU market), it will ease and cheapen the 
+circular tarp value chain because no screening for toxic components would be necessary anymore for 
+these tarpaulins.  
+  
+ 
+16 Lewandowski, K.; Skórczewska, K. A Brief Review of Poly(Vinyl Chloride) (PVC) Recycling. Polymers 2022, 14, 3035. 
+https://doi.org/10.3390/polym14153035  
+17 https://www.erema.com/us/pet-fibre-inline-recycling/  
+
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 19 of 44  
+We will not focus on the recycling of ‘old’ tarpaulins containing legacy additives, there were and are several 
+projects to (completely) remove these legacy additives, but it is still challenging to completely remove these 
+additives in an economically feasible way. Even a small amount of legacy additive present in the recycled 
+materials will pollute the end product making it impossible to sell these products. Therefore, as RETAIN is 
+focusing on a toxic free and economically mature circularity chain of PVC ta rps on short term, these 
+materials will be sent to specialized waste disposal facilities and will not enter the reconfectioning and 
+recycling facilities of the RETAIN. Further the DISSOLV project (with RETAIN partners SIOEN, BIG & CTB) 
+is working on soluti ons to recycle soft PVC materials containing legacy additives, so the consortium will 
+have state-of-the-art information on best handling of such waste.18   
+1.2.2. Overall approach   
+  
+Figure 4: RETAIN approach  
+The RETAIN methodology for establishing tarpaulin circularity is divided into several activity 
+blocks, as illustrated figure 4. In the first phase we focus on the innovations and scale up of the EOL 
+tarps needed to reach TRL 6. Solutions for sorting and screening need to be further developed to develop 
+processes capable of handling end-of-life (EOL) tarpaulins on a large scale. Additionally, a digital product 
+passport (DPP) should be created. These elements will lead to the RETAIN gate control process. Further, 
+we will develop reconfectioning and deconfectioning techniques for processing the EOL tarps. Next activity 
+block will be the optimisation of a set of recycling technologies (mechanical, dissolution, extraction 
+methods) leading to a strategy for cascade recycling. Next, existing products and manufacturing processes 
+will be investigated and adapted for the uptake of secondary raw materials from EOL tarps, leading to high 
+value products made from rPVC. In the second phase which is the demonstration phase,  the entire 
+circularity chain of PVC tarps will be showcased . This will involve the integration of each optimized 
+component from the innovation and upscaling phase into one of the three demonstration pilots (TRL7). 
+Furthermore, the ecological and economic feasibility of these technologies will be assessed to ensure they 
+are both profitable and environmentally friendly. Finally, we will ensure that the new materials are of high 
+ 
+18 https://www.catalisti.be/en/projects/dissolv  
+
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 20 of 44  
+quality and comply with the proposed standards developed during the project, qualifying the recycled 
+products for market entry (TRL8). Below we describe the different activity blocks and mention for each 
+activity the most important challenge we intend to overcome.  Logistics, monitoring, and sorting  
+  
+Challenge: PVC tarps are often large and bulky, making them difficult to handle and transport. Monitoring 
+their condition is essential, as they can degrade over time or become contaminated, complicating recycling 
+efforts. Sorting PVC tarps by type, colour, and condit ion is labour -intensive and requires specialized 
+knowledge to ensure that they are processed appropriately, whether for reuse, recycling, or disposal.  
+RETAIN Approach: A drop-off centre will be deployed during demonstration using the facilities of project 
+partners. An AI based digital tool will be used to configure the collection stream optimization. The collected 
+tarpaulins will be first checked in the presence of a digital product passport. If not available (this will be the 
+case during the project phase as currently no DPP exists for tarpaulins), they will be screened for the 
+presence of legacy additives and other tarp components using advanced monitor ing techniques such as 
+Raman spectroscopy & Laser -induced breakdown spectroscopy (LIBS). If legacy additives are present, 
+the tarpaulins will be safely disposed of as waste. If not, it will be examined by a visual and mechanical 
+check if they can be reused /repaired/remanufactured. If ok, they will be transferred to ‘confectioners’ (in 
+RETAIN this will be SIOEN, beyond RETAIN this will also be other confectioning companies) which can 
+bring these tarpaulins again on the market. If they are too much damaged, t hey will be sent to recycling. 
+This concept will first be evaluated at small scale focusing on manual processing, and afterwards upscaled 
+to an automated process.   
+Digital product passport  
+Challenge: The implementation of DPPs across supply chains is a requirement of the ESPR regulation, 
+whereby all products sold in the EU (except food and medicines) will have to have a DPP by 2030. This is 
+a massive undertaking involving the restructuring of data ma nagement across supply chains, whereby 
+each product will require a unique identifier that will have a machine-readable mechanism that tracks the 
+product through its lifespan and advises consumers on best practices for recycling, and foster trust 
+between consumers and businesses, based on a DPP carrier with an embedded web link to a DPP 
+database. IRIS (who will engage with standard’s official bodies and operators like CTB or UNE in Spain, 
+who they have an active working relation with) will ensure th at all standards in relation to DPPs are 
+understood and that we are in compliance. As part of our DPP architecture we will assess current data 
+storing systems to ensure interoperability with what already exists, to make sure that the DPP aligns in as 
+much as possible with what the industry is already doing.  
+RETAIN Approach: The Digital Product Passport that will be developed in the RETAIN project, will be 
+underpinned by a cocreation approach with representative from the industry, from inside and beyond the 
+consortium based on a series of participatory workshops and scoping se ssions in an agile process to 
+gather feedback in relation to current data management and traceability processes, relevant data and 
+information sources (e.g. datasheets, databases, etc.), and connectable enterprise applications, etc. in 
+order to map out the interoperability requirements. Throughout this process, an understanding of the 
+standardization and regulatory landscape will inform a standards -based and compliance by -design 
+approach, as well as ensuring compliance with NGSI, European B lockchain Service Infrastructure, and 
+Gaia-X concepts. The core of the DPP concept is to digitize (or use already digitized) information from the 
+product journey across the complex PVC tarpaulins value chain in a blockchain -based Digital Product 
+Passport, which will be accessible via smartphones for full traceability.   
+A high-level architecture of the RETAIN DPP is presented in figure 5, and it provides a robust framework 
+for secure, transparent, and traceable product information management, utilizing advanced technologies 
+like blockchain distributed ledgers, and secure identity management systems. It is a comprehensive 
+integration of various information technology components to ensure secure and efficient data handling 
+throughout a product's lifecycle.  
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 21 of 44  
+  
+Figure 5: high level architecture of IDP and DPP  
+The production line level includes a data carrier management system (QR code, RFID or other tagging 
+system), which will be based on the most appropriate tagging or carrier system. Login and production line 
+data are transmitted to the DPP cloud server.  Product fingerprinting can also be captured by appropriate 
+inline analysers (such as, VisumHSI, VisumLIBS or other process analytical technologies trademarks from 
+IRIS) installed in the line (or taken from handheld analysers along the value chain) for capturi ng spectral 
+or image data in relation to chemical composition (unique fingerprints) about the material or product. The 
+‘Visum Cloud’ collects and processes fingerprinting data related to the products for obtaining DPP 
+compatible information that can be sent to the RETAIN DPP or any other DPP in the future (as part of our 
+strive for future interoperability across DPPs which will become widespread as regulatory compliance kicks 
+in).   
+The Company Office component provides a feature for operators for managing credentials and related 
+data, adding industry capability keys, and providing product media, which are securely transmitted to the 
+DPP cloud server.   
+The DPP Cloud Server consists of a series of layers. The Identity Layer uses GS1 Digital Link and ISO 
+15459 standards for identity management and data resolution. The Data Layer manages schemas and 
+product data, represented as JSON-ID for standardized data exchange, and an Application Programming 
+Interface (API) enables data interaction between various components and the cloud server for product 
+master and metadata management, lifecycle data management, interfacing with other DPP systems, as 
+well as ensuring connectivity with existing enterprise and business information systems (as identified as 
+part of the cocreation process). The Trust Layer employed Distributed Identity (DID) and Verifiable 
+Credentials (VC) for decentralized ledger technology (DLT) anchor ing, ensuring data integrity and trust. 
+Blockchain Security ensures that all data transactions are securely timestamped and stored from all actors 
+involved in the product lifecycle, ensuring transparency and immutability.  
+A Mobile Application (DPPS App) enables product scanning, whereby users can scan products using QR 
+codes, and the app interacts with the DPP cloud server via the GS1 Digital Link to verify and retrieve 
+product data stored on the blockchain, and displays information related to process of end-of-life complex 
+PVC or tarpaulins, use, and waste management of such product. As described, the goal is to leverage a 
+standardized, interoperable, secure and scalable DPP architecture as a replicable template for DPP 
+developments, which could also could potentially contribute to a DPP standard in Europe going forward.  
+Reconfectioning and deconfectioning  
+Challenge: To increase the circularity of PVC tarps, one must avoid that tarps are disposed too early which 
+is currently the case and it is important that actions are taken to extend their lifetime. Reconfectioning (i.e. 
+repair/reuse/remanufacture) of EoL tarps is hardl y done today as the logistics and sorting of these 
+materials is highly underdeveloped. Manual de -confectioning is labourintensive and costly. Automated 
+
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 22 of 44  
+processes for disassembly are not yet widely available or efficient for such complex materials. RETAIN 
+Approach: Reconfectioning involves: i) repairing any holes, tears, or damage to ensure its effectiveness 
+in providing protection from the elements. As already many repair kits (containing  glues, vinyl cement, 
+grommets and even vinyl-coated fabric patches) are on the market, focus will be on informing customers 
+that such repair kits exist and can also be ordered from the tarp manufacturers. If customers cannot repair 
+the tarps by themselves. They can send it to a company who is doing confectioning such as SIOEN. ii) 
+Reusing/remanufacturing: EOL tarpaulins still in good condition will be reused/remanufactured meaning 
+they will be sent to confectioners who can  then confection and sell these second -hand tarp materials in 
+‘new’ products. Important here is to know the age of the tarpaulin to estimate the remaining lifespan. During 
+the project, this info must be provided by the company that disposed the tarpaulin. Later this info will be 
+provided by the DPP. De-confectioning: metallic parts such as buckles, zippers and eyelets will be 
+removed, as they block/contaminate the recycling process. To be economically viable about 
+250m²/hour/person should be de-confectioned. Therefore, a semi-automated deconfectioning workstation 
+will be developed.  
+Cascade recycling   
+Challenge: The recycling infrastructure for PVC tarps is limited, with many facilities not equipped to handle 
+such materials because of their complex composition, leading to more waste ending up in landfills.  This 
+gap in infrastructure highlights the need for improved recycling systems tailored specifically to PVC 
+tarpaulins. Also, especially during mechanical recycling microplastics could be unintentionally released in 
+the environment.  
+RETAIN Approach: we will further work on different promising recycling technologies. i) mechanical 
+recycling. Here the PVC tarpaulins will be shredded, washed and grinded. This material can then be used 
+as such in injection moulding to produce PVC parts. Initial tests will be executed on kg scale, but later, it 
+will be upscaled to ton scale. To separate the PVC from the PET we will optimize to dry mechanical 
+separation processes. The first one is using air treatment, vibration and sifting (KKF), the second one a 
+shaving process (EKOTREND). This leads to a PET free PVC fraction which can be used as secondary 
+raw material and a PET/PVC fraction that will be further purified by dissolution processes to isolate the 
+polyester and the PVC. Special exhaust systems will be used to avoid that potential harmful microplastics 
+will be released in the environment.   
+ii)  optimizing  soak-
+and-separate process (see 
+figure 6). The process begins 
+by shredding the input material 
+followed by a pre-separation of 
+light fibres (not-bounded PET 
+fraction) by a conventional 
+cyclone system (dry process). 
+Then, the multilayer material is 
+soaked in a solvent and the 
+PVC fraction swells. Next, steam (referred to as catalyst) is injected, triggering a rapid evaporation of the 
+solvent  
+Figure 6: Soak-and-separate process  
+(popcorn effect). As a result, the PVC 
+coating separates from the PET  
+substrate. To obtain different individual streams, the materials will be separated using conventional 
+methods like zig zag air separation.   
+The solvent is recovered through a distillation process and reused in a closed loop system. This equipment 
+is available at CTB, and it is targeted to scale it up from a few kgs/day to 50kg/day by optimizing the 
+process parameters. iii) Dissolution. The PVC, including the plasticizer, will be dissolved and the PET fibre 
+and other potential fillers such as flame retardants remain as solid. The PET fibres and fillers will be 
+separated by a density separation process (see also the schedule shown in the state-of-the-art section of 
+the Polyloop process of which SF is allowed to use it for tarp recycling). The PVC will be in a later stage 
+precipitated and can be reused.   
+
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 23 of 44  
+iv) Selective dissolution and extraction methods for plasticizers and other high value components. In this 
+process, the tarpaulin will be shredded, and then dissolved in a suitable solvent, followed by the filtration 
+of the insoluble fractions, that could be composed of flame retardants, fillers and PET fibres, that will be 
+later separated by other techniques. The dissolved PVC will be then precipitated with an antisolvent and 
+separated from the other solubilized components. Final dissolution will be distilled to recover the plasticizer. 
+Each of the recovered fractions will be purified by different secondary extractions, washing and distillation 
+processes, as well as with supercritical CO2, to remove volatiles contaminants.  
+Initials test will be performed on lab scale and later upscaled to DEMO scale. The quality of all the recycled 
+materials will be analysed by determining the exact composition, the purity, viscosity and 
+thermomechanical properties of the materials.   
+High value rPVC products by uptake of secondary raw materials from EOL tarp  
+Challenge: Integrating recycled materials into new products requires careful management to ensure quality 
+and performance, as recycled materials can vary in consistency and degrade over time. Designing with 
+bio-content materials involves sourcing sustainable inputs a nd ensuring they meet durability and 
+functionality standards while balancing environmental benefits. RETAIN Approach: The various recycled 
+products (PVC, PET, plasticizers, etc.) coming from the various recycling technologies will subsequently 
+be integrated into (new) products with at least 50% recycled content. Examples of such applications are 
+PVC/PET fractions that will be used in injection moulding to produce unique fibre reinforced PVC pieces, 
+recycled PET fibres will be processed into high tenacity multifilament yarns which can be again used as 
+reinforcements in tarps, and recycled PVC that will be converted into roo fing films by means of extrusion 
+coating or calendaring. Furthermore, we will also integrate bio content (PVC and plasticizers) into these 
+products to further increase the sustainability of these products.   
+Demonstration by piloting circularity activities in 3 EU regions  
+Challenge: show cost efficient, reproducible and effective circularity processes for EOL tarp at semi -
+industrial scale.   
+RETAIN Approach: we will demonstrate that post -production and EOL tarpaulins can be recycled at 
+multiple tons scale at 3 locations in the EU in an efficient way. By applying technologies and processes 
+which were optimized during the innovation and upscaling phase we will  demonstrate every step of the 
+RETAIN circularity chain from collection and sorting up to reconfectioning, recycling and conversion into 
+new products. As shown in the sketch at the beginning of section 1.2.2, each DEMO site will focus on 
+specific aspects related to gate control, reconfectioning, cascade recycling and eco -design of recycled 
+products. These specific aspects of the circularity chain for each region were chosen based on the 
+expertise of the companies present in these regions.  
+Also, we are familiar with local waste collection and transport peculiarities and we will align with 
+local regulations. A summary table of the pilot and demonstrations activities is given on the next 
+page:  
+     
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 24 of 44  
+Table 2: summary table of each stage of the pilot and demonstration activities  
+Task  Deliv. 
+Nr.  
+Prototype/ 
+Pilot/  
+Demo  
+Short  
+description  
+Location  
+(facility/ 
+city/ 
+region)  
+Lead  
+partner(s)  
+Start  
+&  
+end 
+TRL*  
+Type and 
+volume of 
+RETAIN input 
+materials/ 
+products  
+Type and 
+volume of 
+RETAIN 
+output 
+materials/ 
+products  
+T5.2  D5.2  Demo  gate control 
+process: logistics 
+and process 
+monitoring (incl. 
+validation of 
+identification and 
+sorting 
+technologies)  
+BENELUX  VEOLIA   6   
+→ 8  
+10 tons of 
+collected 
+postproduction 
+and EOL tarps 
+per day  
+10 tons of 
+sorted post-
+production and 
+EOL tarps per 
+day  
+T5.2  D5.2  Demo  gate control 
+process: 
+deconfectioning & 
+sorting   
+NL  VWERVEN   6   
+→ 8  
+1 ton of 
+collected 
+postproduction 
+and EOL tarps 
+per day  
+700 kg of 
+recyclable tarps 
+per day  
+T5.3  D5.3  Demo  repair/reuse/remanu 
+facturing  
+BE  SIOEN   6   
+→ 8  
+to be 
+determined 
+during project 
+in T5.1  
+to be 
+determined 
+during project 
+in T5.1  
+T5.3  D5.3  Demo  mechanical 
+recycling  
+DE, CZ  KKF,  
+EKOTREN 
+D  
+ 6  
+ → 8  
+10 tons of 
+recyclable 
+tarps per day  
+6-7 tons of  
+recycled  
+PVC/plasticizer, 
+and 2-3 tons of 
+rPET per day  
+T5.3  D5.3  Demo  solvent-based 
+recycling  
+FR  SF   6   
+ → 7  
+300 kg of 
+recyclable 
+tarps per day  
+100-200 kg of  
+recycled  
+PVC/plasticizer, 
+and 50-100 kg 
+of r-PET per 
+day  
+T5.3  D5.3  Prototype  Soak-and-separate 
+process  
+BE  CTB  TRL 
+5 → 
+6  
+50kg of 
+recycled tarp  
+40kg of r-PET 
+and PVC  
+T5.3  D5.3  Prototype  Extraction process 
+for specific tarp 
+components (e.g. 
+ATO)  
+ES  AIMPLAS  TRL 
+5 → 
+6  
+10-50kg of 
+recycled tarp  
+1-5kg 
+depending on 
+the specific tarp 
+components  
+(e.g. ATO)  
+T5.4  D5.4  Demonstrat 
+or  
+Uptake into 
+recycled products  
+ BE, FR, 
+DE  
+RENOLIT  TRL6 
+→8  
+5 tons of 
+recycled 
+PVC/plasticizer 
+, and 2 tons of 
+r-PET per day  
+Multiple tons of 
+roofing and 
+nonwoven 
+materials per 
+day 
+*The start and end TRL levels refer to the TRL progress targeted in WP5.   
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 25 of 44  
+Supporting activities: Liaison, DEC, Standardization including business models and market 
+development, Assessment studies, Industry awareness, Training and Certification  
+Challenges: establishing an EU -wide circular tarp value chain will require to educate and convince all 
+stakeholders to make the transition. Indeed, raising industrial awareness requires overcoming scepticism 
+about the benefits and feasibility of circular practices, wh ich can be difficult given the entrenched norms 
+and practices in many industries.  
+RETAIN Approach: implementation of several supporting activities to gain evidence for showing the 
+environmental and economic benefits of the transition as well as to bring this message to all 
+relevant stakeholders. A brief outline of the key elements in the next paragraphs.  
+For liaison, we will align with the European PVC industry’s commitment to sustainable development and 
+explore if we can find synergies with other projects dealing with circularity of (complex) plastics, thus 
+maximizing the exploitation and replication of the RETAIN r esults. Developing and implementing a 
+consistent communication strategy  to promote the advantages of circular PVC tarps and educate 
+stakeholders on their benefits and usage requires a coordinated approach and effective channels. This will 
+be elaborated in the DEC plan, clearly defining specific target groups and related key messages. This way, 
+we will create general industrial awareness among stakeholders in the broadest possible way. We will 
+select and further define circular business models, commercialization, and partnerships strategies by 
+developing a complete overview of the reuse and recycling markets, associated legal and regulatory 
+aspects, and financial incentives. Turning innovative circular business models into viable commercial 
+opportunities involves navigating market challenges, such as securing investment, scaling operations, and 
+proving the economic benefits of circular practices. We will share information about circular business 
+models and the benefits of recycled PVC tarps creating  clear, compelling messages that resonate with a 
+variety of audiences and overcoming resistance to change. Environmental and socio -economic 
+assessment (LCA & LCC & SLCA): accurately measuring and quantifying the environmental impacts of 
+products throughout their entire lifecycle, from production to disposal. We will collect comprehensive data 
+on resource use, emissions, and waste, which can be difficult to obtain and analyse. During the innovation 
+phase of RETAIN, the most appropriate technologies and processes will be identified based on efficiency, 
+ecological impact, costs, etc.  
+Establishing and aligning industry-wide standards for circularity in PVC tarps involves overcoming the 
+complexity of different regulations and practices across regions, which can hinder the creation of uniform 
+standards and practices.  We will support and adhere to certifications and standards that promote 
+sustainable and circular practices in the PVC industry. Standards on circular plastic products are developed 
+in CEN TC 249 (Plastics). We will build on this existing knowledge and exis ting standards for PVC to 
+develop the circular tarp value-chain and develop a blueprint for certification.  
+Hands-on training programs will be developed to educate employees  on how to increase the 
+circularity of PVC tarps.  Employees of waste management companies will be trained on how they can 
+efficiently sort and screen tarpaulins and see which are reusable and which must be recycled. Further, we 
+will prepare education material for employees at relevant stakeholders. Indeed, during the demonstration 
+phase findings will be integrated at the demo sites. tarp confectioning companies and end -users of tarp 
+products (e.g. trailer transport companies) will be educated about collection, sorting, reuse, and recycling 
+options for postproduction and EOL tarps.  
+1.2.3. Additional methodology aspects  
+Compliance with ‘do no significant harm’ principle. The “do no significant harm” principle refers to the 
+six environmental objectives of the EU Taxonomy Regulation. RETAIN aligns with the Do No Significant 
+Harm (DNSH) principles, ensuring that the methodology does not cause significant environmental or social 
+damage. Here are key motivations for why our project is beneficial and does not cause significant harm:  
+• Waste Reduction: Recovering and Recycling PVC tarps reduces the amount of waste sent to 
+landfills, mitigating the environmental impact associated with landfill usage, such as leachate 
+production and methane emissions.  
+• Resource Conservation : By recycling PVC tarps, valuable raw materials are reclaimed and 
+reused, reducing the need for virgin material extraction. This conserves natural resources and 
+reduces the environmental degradation associated with mining and production processes.  
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 26 of 44  
+• Energy Savings: Recycling PVC tarps typically requires less energy compared to producing new 
+PVC materials from scratch. This leads to lower greenhouse gas emissions, supporting climate 
+change mitigation efforts.  
+• Pollution Prevention : Proper recycling processes prevent PVC tarps from breaking down in 
+landfills, where they can release harmful chemicals into the soil and water. Recycling ensures that 
+the materials are handled safely and responsibly. Also, during the recycling process, i t will be 
+monitored that no microplastics are released in the environment.  
+• Economic Benefits : Recycling creates jobs and stimulates economic activity in the recycling 
+industry. It also provides cost savings for businesses by reducing waste disposal fees.  
+• Health and Safety: Recycling PVC tarps involves controlled processes that minimize health risks 
+to workers and communities. It ensures that harmful chemicals and additives in PVC are managed 
+appropriately. Within this aspect, solvents used in the recycling processes will b e recovered and 
+reused and will not be discharged into the environment. Also, no toxic solvents will be used in the 
+recycling process.  
+• Promoting Sustainability: By recycling PVC tarps, companies and consumers contribute to a 
+circular economy, promoting sustainable practices and reducing the overall environmental footprint.  
+Overall, transitioning to sustainable and circular PVC tarps is a responsible and beneficial practice 
+that supports environmental protection, resource conservation, and sustainable development, 
+aligning with the DNSH principles.  
+Artificial intelligence (AI) based systems and/or techniques.  The proposed AI -based solution 
+considered for the implementation of specific calculation methodology, follows the EU framework for 
+Trustworthy AI, which defines 3 complementary concepts, Lawful AI, Ethical AI, and Robust AI. The 
+Assessment List for Trustw orthy AI (ALTAI) will be used to assess the level of compliance to the key 
+principles of Transparency, Traceability, Explainability, Robustness, Safety, Resilience, Accuracy, 
+Reliability, Reprodu cibility, Privacy and data governance, Diversity, Non -discrimination and Fairness, 
+Accountability and Redress in case of adverse impact. For AI -based algorithms, particularly optimization 
+routines (e.g. evolutionary algorithms) and datadriven modelling app roach such as Artificial Neural 
+Networks (ANNs) or regression generation used for process optimization with no access to personal data 
+or involvement in direct control of recycling processes machineries, adherence to the Trustworthy AI 
+principles can be described in terms of: Technical Robustness and safety ensuring the proposed AI solution 
+will be reliable, traceable and reproducible, able to report on its behaviour even if not involved in direct 
+control of recycling processes machineries. The system will have to be technically robust to handle 
+uncertainties in the operative environment; Privacy and Data Governance ensuring that the AI system does 
+not have access to personal data: Transparency granting the AI -based algorithms functioning will be 
+transparent and understandable even if not involved in direct control of recycling processes machineries; 
+Diversity and Fairness: Ensuring the training data used for the data -driven models are diverse and free 
+from biases, even if it's not dealing with personal data directly. The validation of the proposed AI solution 
+will be performed using specific accuracy metrics relevant to the signal processing task (including metrics 
+such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), or any other relevant metric), to 
+ensure that the predictions remain reliable and consistent as data evolves and conducing a test campaign 
+on relevant scenarios to verify the safety of the provided suggestions. More details in T3.4.  
+Linked (inter)national research and innovation actions. The table below gives an overview of research 
+projects which have a link to the RETAIN project and also show how RETAIN will benefit from these 
+projects.  
+Table 3: overview of research projects which have a link to the RETAIN project  
+Project Acronym (type of project19) 
++ short description  
+Partner 
+involved  
+Link with retain (related KO)  
+CISUFLO (HEUR): Route to circular 
+& sustainable floor coverings /  
+BIG, CTB,  
+RINA-C, 
+EuPC  
+RETAIN will work out a circular business model 
+for tarps (KO7)  
+ 
+19 HE = Horizon Europe; H2020 = Horizon 2020; I3 = Interregional Innovation Investments   
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 27 of 44  
+Cisutac (HEUR): Increasing 
+Circularity and Sustainability in 
+Textiles and Clothing in EU  
+CTB,  
+AIMPLAS  
+RETAIN will rely on knowledge generated for 
+high quality rPET multifilament fibre extrusion 
+(KO5)  
+Digintrace (HEUR) Solutions to 
+promote plastics circularity /  
+SIOEN, 
+IRIS, CTB, 
+EuPC  
+Input for digital solution development in RETAIN 
+(KO1)  
+Dissolv (BEL-COO) – recycling PVC 
+waste  
+from flooring, carpets and tarpaulin 
+applications   
+SIOEN, 
+CTB, BIG  
+Recycling solutions for complex PVC waste 
+(KO3)  
+ECOFACT (H2020) support 
+manufacturing  
+in optimizing energy performance  
+https://ecofact-project.eu/  
+RINA-C  Will be used in RETAIN to optimize recycling 
+processes (KO3)  
+FLEX-ID (VinylPlus project): 
+setting up data structure for a DPP 
+for soft PVC value chains  
+VINYLPLUS,  
+SIOEN,  
+RENO, BIG  
+RETAIN will build on the blueprint for a DPP for 
+plasticized PVC products as developed within 
+FLEX-ID. As such, DPP development will be able 
+to start from the concepts for which data is 
+needed for soft PVC value chains (KO1).  
+PULPACKTION (H2020) Optimised 
+moulded pulp for renewable 
+packaging solutions   
+IRIS  Build further on the developed integrated 
+traceability system (DPP), involving software, QR 
+and a vision system and imaging analysis 
+software (KO1).  
+REMADYL (H2020) &: Removal of 
+legacy substances from polyvinyl 
+chloride (PVC)   
+CTB, IRIS,  
+AIMPLAS,  
+VINYLPLUS  
+RETAIN will build further on the screening 
+methods of legacy additives (related to efficient 
+monitoring and sorting KO1) and plasticizer 
+removal (KO3)  
+TARPAULIFE (LIFE) demonstrate 
+possibility of POLYOLEFIN tarps  
+RINA-C  Input for ecodesign of tarpaulins (KO4)  
+CIRPASS (Digital Europe Project): 
+Digital  
+Product Passports Enabling At-Scale 
+and Real-Life Circular Economy in 
+several value chains   
+No direct 
+partner 
+involvement   
+RETAIN will follow such baseline to comply with 
+the existing pilot and standards (KO5)  
+Circular Flooring (H2020) – 
+recycling of PVC floor coverings   
+Potential channel for actual recycling of RETAIN 
+preprocessed material (KO4)  
+  
+Interdisciplinary aspects. A close interaction between scientists and innovators belonging to diverse 
+disciplines is essential to reach RETAIN objectives and high impact. To achieve a successful exploitation 
+of project results, it is essential to translate project outcomes into mark etable solutions. For this, the 
+RETAIN Consortium is composed of partners with different background and competencies, covering the 
+whole value chain from design to the manufacturing complemented by other partners providing the 
+expertise which is needed to develop and deploy the project. In the consortium we have partners dealing 
+with 1) Material Science and Engineering to optimize the monitoring, sorting, recycling and manufacturing 
+processes: Veolia, IRIS, VWERVEN, KKF, EKOTREND,  SF, CTB, AIMPLAS, RENO, BIG, SATTLER, 
+MEHLER 2) Environmental Science: RINA -C, Economics: RINA -C, industry partners, Policy and 
+Regulatory Studies and Sociology and Public Awareness: EUPC, VINYLPLUS 4) Expertise in digitalization, 
+data management, cloud d eployments, blockchain technology and application development will be 
+leveraged for building the digital product passport: IRIS, RINA-C and 5) Certification: CTB. By integrating 
+expertise and methods from these various disciplines, the PVC tarp recycling i nitiative can achieve its 
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 28 of 44  
+objectives in a holistic, efficient, and sustainable manner, ensuring that the recycling processes are 
+environmentally friendly, economically viable, and socially responsible.  
+Social Sciences and Humanities (SSH).  An effective contribution will be given at two different stages 
+before and after the solution development. In the first stage, an early involvement and engagement of end 
+users to obtain their feedback for the novel products design. Different methodologies (questionnaires, 
+interviews, participatory workshops, etc.) will be evaluated and considered for stakeholders' engagement. 
+Furthermore, open challenges such as cost -effectiveness, environmental sustainability, privacy, security, 
+trust, and ethical issues will be addressed to find shared solutions and enhance the societal impact of 
+RETAIN. In the second stage, a survey to analyse the stakeholders’ feedback on the developed solutions 
+will be carried out. This analysis will allow to evaluate the social impact of the RETAIN developed solutions 
+and their replicability potential.   
+SSH will be included in the RETAIN project covering a wide portfolio of actions: (a) Sociology and Human 
+Behaviour for analysing acceptability of RETAIN solutions through life cycle analyses, life cycle costing 
+and social life cycle assessment; (b) Economi c and Business: business strategy for the exploitation and 
+future market uptake of the project outcome, including market and competitor research and business 
+modelling extending the research frontier. Detailed roadmap for replication in sectors beyond thos e 
+targeted by RETAIN use case will be also performed; (c) Media and Communication: a carefully designed 
+societal outreach campaign, where effective communication strategies will be implemented to target the 
+different stakeholders.   
+Gender analysis. RETAIN gender policy supports Article 141(3) of the EC Treaty to protect male/female 
+members exercising the rights inherent in fatherhood/motherhood or the combination of professional and 
+family lives and ensure that women participate equally and actively  alongside men, while links are 
+established with the EU platform of women scientists to promote gender equality in research. The work 
+also considers the gendered innovations proposed by EC. Gender aspects are considered and include 
+targeted objectives for gender equality in the consortium. The objectives of the project equally address the 
+needs of all genders in relation to plastics recycling and new products development via upcycled materials. 
+Special attention will be paid to data collecti on from end -users ensuring a balanced representation of 
+gender, age and cultural differences, and their needs, since these factors influence acceptance, 
+expectations and experience. People react in fact differently based on gender, age, social and economic  
+group in regard to degrees of risk aversion that will affect their perception of threats, or in regard to the 
+significance of impacts of the various threats. The above will be taken into account in the development of 
+interviews, questionnaires, focus grou ps, and also training, that will include both men and women, and 
+dissemination, where project’s results are addressed in all genders equally and are adjusted according to 
+their profile and needs.   
+Open science practices . Open science principles are established as an integral part of RETAIN 
+methodology and Management envisaging a Data Management Plan (DMP) produced to guarantee that 
+data is ‘as open as possible’ and in line with the FAIR principles. The data/research outputs will be handled 
+in fact according to FAIR principles (Findability, Accessibility, Interoperability and Reusability), unless for 
+the information classified as sensitive. All data and results are shared, as early as possible, in a systematic 
+way between the RETAIN target groups, pilots, third parties, and internationally. From the very beginning 
+all stakeholders are involved order to develop better, more innovative and relevant outcomes and to 
+increase societal trust in the RETAIN process and outcomes del ivering re-used, recycled and upcycled 
+novel products. The consortium will participate to open peer -review with direct exchanges with scientific 
+community by means of Open Research Europe. Open access is offered to all results (algorithms, models, 
+data, etc.) that are released as open source, public and free. Moreover, RETAIN participates in open peer-
+review, the publications of the project will be published in Open Access Journals and Open Access 
+Repositories. In addition, all project reports, disseminatio n material and research datasets classified as 
+Public will be available on the project website. The project has dedicated part of its budget (under the 
+dissemination manager) to cover the fees associated with open -access publications to facilitate 
+dissemination and reuse of the project results.   
+Management of Research Data and other research output . The preliminary Data Management Plan 
+(DMP) addressing FAIR principles has been outlined.  
+  
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 29 of 44  
+  
+Table 4: FAIR principles outlined  
+Type of data   Findability   Accessibility  Interoperability   Reusability  
+LCA data 
+(materials, scope, 
+energy flows, 
+processes)  
+Project Teams setup, 
+interaction among 
+partners (e.g. email, 
+questionnaire)  
+Data owned by 
+each Company, 
+not public upon 
+consensus  
+Standard  data 
+ files: excel, 
+doc  
+Results are made 
+public, but source data 
+are 
+confidential   
+Technical  data,  
+product data  
+Teams  environment,  
+project  
+Specific naming  &  
+labelling  
+Standard data files: 
+txt, doc, xls, csv…  
+Offered in appropriate 
+format & data sharing 
+licenses  
+Liaison data (e.g. 
+from events)  
+Only in restricted MS 
+Teams environment   
+Restricted to 
+organiser  
+Audio/video 
+recordings, 
+registration  
+Anonymised form only  
+Data  from  
+questionnaires  
+Only in restricted MS 
+Teams environment  
+Restricted to 
+organiser  
+Online survey tool  Anonymised form only  
+   
+ Associated with document Ref. Ares(2025)3876292 - 14/05/2025 
+ 
+Part B - Page 30 of 44  
+2. Impact

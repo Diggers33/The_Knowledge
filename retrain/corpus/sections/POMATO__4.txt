@@ -1,0 +1,1946 @@
+4. Ethics self-assessment ....................................................................................................................................... 32  
+  
+1. Excellence  
+Project overview  
+The Solanaceae family is one of the largest plant families in the world being present on all continents except 
+Antarctica, and its economic importance lies in many different fields such as food, medicines, cosmetics, etc. The 
+most economically important genus of the family is Solanum, which includes the potato 
+(Solanum tuberosum) and the tomato (Solanum lycopersicum). Potato and tomato crops 
+are integral sources of carbohydrates, vitamins, and minerals essential for a balanced and 
+healthy diet, making them staples in human consumption for centuries and being cultivated 
+globally. Indeed, within the EU, these two crops stand out as the most significant among 
+fresh vegetables, underscoring their importance in both regional and global agriculture. In 
+2022, the harvested area of potatoes across the EU was 1.4 M Ha, of which 47.5 MT of 
+crops were produced. Germany (22.5%, 10.7 MT), France (17.0%), the Netherlands 
+(14.6%) and Poland (12.7%) together accounted for around two thirds of the EU’s potato 
+harvest.1  In Latin America (LATAM), cultivated potatoes are widely distributed in the 
+ 
+1 Key figures on the European Food Chain (2023). Eurostat. Available here.  
+Figure 1. 
+ 1 
+  
+ Symptoms on  
+potato tubers affected by  
+Cs and on tomato by Rs. 
+  
+ 
+101181658 POMA TO – Part B    Page 3 of 33  
+Andean region with over 4,500 varieties and more than 100 wild species. 2 Regarding tomato, the total production 
+in 2022 was 15.4 MT of harvested production, with Italy (39.8%) and Spain (23.7%) at the top of EU, followed by 
+Portugal (9.1%). Both crops are vulnerable to several pest diseases, a threat that is greater than ever because of the 
+considerable increase in the volumes, commod ity types and origins of trade in plant material from third countries, 
+the  
+introduction of new crops, and the impact of climate change, which is affecting the boundaries of pests and their 
+vectors. Based on range of annual production, output values and estimated percentage of damage, annual losses 
+caused by pests range from 2.4-3.1 B€ for potatoes and 1.5-2.3 B€ for tomatoes, corresponding to 20-25% of total 
+production damage.3 Among the quarantine and priority pests that threaten crops and that have caused severe losses 
+in recent years, the bacteria Clavibacter sepedonicus (Cs ) (ring rot in potato)  and the bacteria Ralstonia 
+solanacearum (Rs)  (Smith, phylotype II) [RALSS] (bacterial wilt in potato/tomato) are considered the most 
+economically and environmentally relevant diseases and constitute a menace for seed production in particular (Fig 
+1).4 Both bacteria are included in the Part B Annex of the Regulation 2019/2072  and are classified as EPPO A2 
+quarantine pests.5,6 Furthermore, Cs/Rs are regulated by their respective EU policy establishing measures for  
+  
+eradicating and preventing their spread in EU.7,8,9,10 In this context, and in line with the regulation Associated with document 
+Ref. Ares(2025)2863795 - 08/04/20252016/2031 on  
+protective measures against pests of plants , effective front -line detection methods and innovative monitoring 
+technologies suitable for surveillance and prevention are critical for recognizing infected crops and finding incursions 
+of quarantine plant pathogens or pests in an early stage.11 In addition, fossil-base disease management practices  are 
+still applied to prevent new outbreaks and further spread of currently infected areas. More sustainable practices, 
+aiming for the development of rapid response pest eradication capabilities, that are non -dependant on fossil-based 
+pesticides (in line with the EU Green Deal target of 50% pesticides reduction ) are necessary to safeguard 
+ecosystems and biodiversity while improving food safety.   
+  
+Figure 1.2. POMATO overview of the multi-actor approach towards the IPM strategy to tackle Clavibacter sepedonicus 
+(Cs) and Ralstonia solanacearum (Rs) outbreaks.  
+In view of the current scenario, POMATO's primary goal is to safeguard the health of potato and tomato crops, as 
+well as the quality of the final product, by effectively combating outbreaks of Cs and Rs. This mission is anchored in 
+ 
+2 Rondon, S.I.(2022). In: Alyokhin, A. et al.Insect Pests & Potato 317-330.  
+3 Damage is estimated by manufacturer of plant protection products.   
+4 Nouioui I, et. al. (2018). Front. Microbiol. 9:2007. Available here.  
+5 Regulation (EU) 2019/2072 protective measures against pests of plants. Available here.   
+6 PM1/002(32) EPPO A1 & A2 Lists of pests recommended for regulation as quarantine pests (2023). Available here.  
+
+ 
+101181658 POMA TO – Part B    Page 4 of 33  
+four key pillars, guiding the project’s strategic initiatives and activities (Fig 1.2): 1) to isolate and identify Cs/Rs 
+and to characterise at molecular level the resistance genes of potato/tomato , 2) to provide effective early 
+detection and surveillance strategies  (Artificial Intelligence (AI) predictive models,  Multiparametric Disease 
+Detection (MDD) sensing device, mathematical modelling tools, polymeric sensors, AI -driven Cloud data 
+management platform and adquisition of infected field with drones), 3) to develop natural and bio-control solutions 
+applied to seed, plant and soil (plant -derived organic substances, biocontrol coatings, plant growth -promoting 
+microorganisms (PGPMs) and chemoperception disruptors), 4) to evaluate and validate the performance of all the 
+above mentioned strategies at TRL5 in four case studies (CS#1 -#4) at field trials and to prepare the POMATO’s 
+Integrated Pest Management (IPM) Plan with the aim to reduce the incidence of the pests by 40 -60%. 
+POMATO is the first of this class of project that brings together a multi-actor approach to prevent and eradicate 
+the spread of quarantine pests known to occur in the EU. POMATO is a 48-month project that will involve strategic 
+actors of the potato/tomato value chain. The actors include academic research organizations ( 4 universities (UBU, 
+USFQ, WUR, CBGP) and 5 RTOs (IHAR, AGRO, IDER, FUND, JSI) with high expertise on molecular biology 
+of plant’s resistance characterization of Cs/Rs, on data analysis, modelling, AI -based models, polymeric sensors 
+development and crop protection by natural bio-control solutions and 2 agrochemical companies (CHEM, FERT) 
+to scale-up and validate the solutions. Moreover, POMATO will involve farmers (as field validators) through its 3 
+agriculture EU associations (EUPAT, PIN, F4S), 1 SME (IRIS) to develop the multiparametric disease detection  
+  
+7 Regulation (EU) 2022/1194 on Clavibacter sepedonicus (Spieckermann & Kotthoff 1914) Nouioui et al. 2018. Available here.  
+8Regulation (EU) 2022/1193 on Ralstonia solanacearum (Smith 1896) Yabuuchi et al. 1996 emend. Safni et al. 2014. Available here.  
+9Cs present in: Belarus, Bulgaria, Czech Republic, Estonia, Finland, Georgia, Germany, Greece, Hungary, Latvia, Lithuania, Norway, Poland, Romania, European 
+part of Russia, Slovakia, Spain, Sweden, Turkey, Ukraine.  
+10Rs present in: Georgia, Moldova, Russia, Serbia and Ukraine.  
+11 Regulation (EU) 2016/2031 on protective measures against pests of plants. Available here.  
+device, and 1 SME responsible for dissemination, communication and exploitation (INO) Associated with document Ref. 
+Ares(2025)2863795 - 08/04/2025of the project’s results.  
+Finally, POMATO’s international partners from Colombia (AGRO) and Ecuador (USFQ), currently heavily affected 
+by Cs/Rs, will ensure the exchange of good practices while at the same time providing access to a wide germplasm 
+collection of potato/tomato and to infected fields to evaluate the developed strategies.  
+1.1. Objectives and ambition  
+ 
+1.1.1.  Objectives  
+POMATO strategies are aligned with the topic “HORIZON -CL6-2024-FARM2FORK-02-04 two stages: Tackling 
+outbreaks of plant pests”. The project proposes 5 objectives (O) with their respective 5 outcomes (OC), articulated 
+under 21 results (R).  
+O1. To develop molecular approaches for Cs/Rs disease Resistance Genes (RGs) identification in potato 
+and tomato varieties. Linked to WP 2  
+R1  Tool (I -matrix) and procedure for specific isolation of bacterial cells directly from contaminated 
+environmental samples to reach at least 80% effectiveness.  
+R2  
+At least 100 isolated bacteria from potato/tomato infected areas and germplasm culture collections from 
+LATAM and Poland, 12 completely sequenced bacterial genomes, and at least 12 transcriptomic analyses 
+will be performed to understand the genetic diversity and virulence signatures of field samples of Cs/Rs.  
+R3  
+Identification, compilation, and mapping of all annotated potato and tomato resistance (R genes), 
+susceptibility (S genes) and plant metabolic pathways and regulatory networks that interact with these 
+R and S genes.  
+R4  
+Identification of potential resistance genes/regions (RGs) against Cs/Rs through whole -genome 
+transcriptome and genome-wide association studies (GWAS) analysis of incompatible interactions between 
+Cs/Rs and potato/tomato using extensive germplasm working collections from Europe and LATAM: 200 
+potato and 200 tomato samples.  
+R5  
+Isolating and characterizing 10 different non-suppressive consortia that are involved in or are allowing 
+the establishment and spread of pathogen infection. These consortia will allow the identification of the 
+interactions between at least 6 genetic, environmental and soil factors (temperature, humidity, soil, pH, 
+texture, organic matter content).  
+
+ 
+101181658 POMA TO – Part B    Page 5 of 33  
+R6  
+Implement FAIR by design pipelines to prepare data and metadata for interoperability , ensuring 
+alignment with open -science principles and readiness for subsequent data analysis models and machine 
+learning.  
+OC1  
+The identification of RGs and the development of new molecular tools will enable breeding programs to 
+produce Cs/Rs-resistant potato and tomato varieties. This will reduce disease incidence, enhance crop 
+resilience, and decrease pesticide use.  
+O1’s pertinence to topic: one or more plant pests: Union quarantine plant pests present in the EU or priority pests 
+in the EU. Effective implementation of the principles of IPM. Innovative biological and other non-chemical control 
+and resistance breeding. Drivers of plant pest introduction, spread and establishment and its interaction with host 
+plants and antagonists.  
+O2. To develop tools for the early detection and surveillance of Cs/Rs in potato and tomato. Linked to  
+WP 3  
+R7  
+Metagenomically Assembled Genomes (MAGs) will be used to build Genome Scale Metabolic models 
+(GEMs), understand the plant’s immune response against Cs/Rs and identify key metabolites generated in 
+the early stages of the infection ( at least 10 metabolites ) that will be detected some of them using 
+polymeric sensors allowing the early detection of both pests.  
+R8  
+Machine learning and deep learning approaches will be combined with mechanistic modelling to identify 
+dysregulated pathways related to disease progression, their regulators and molecular signatures. The 
+pangenome of the characterized pathogens and at least 10% of the most relevant genetic signatures 
+identified will be subjected to extensive comparative genomic analysis.  
+R9  
+Acquisition and analysis of >1000 high-resolution multispectral images from drones and satellites to 
+detect, differentiate, and quantify the severity of Cs/Rs infections in tomato and potato crops, integrating 
+this data with AI-based predictive models for early detection and targeted interventions.  
+R10  Analysis of >1,000 images with AI based models, to establish a relationship between plant phenotype and 
+severity of the bacterial infection to reach at least 80% of weighted accuracy.  
+R11  
+An advanced AI-driven cloud platform  that integrates diverse data sources and employs machine 
+learning algorithms, interfaced through a digital application, to deliver tailored insights based on specific 
+environmental conditions and crop health metrics, thereby enhancing disease prediction for potato and 
+tomato crops.    
+OC2  
+The development of advanced tools for early detection and surveillance of Associated with document Ref. 
+Ares(2025)2863795 - 08/04/2025Cs/Rs will enable rapid 
+identification of infections in potato and tomato crops. AI-driven models, along with sensor-based detection 
+and image analysis, will significantly enhance disease prediction accuracy.  
+O2’s pertinence to topic:  Influence of climate change, ecosystem degradation, and globalisation.  Efficient 
+surveillance methods and strategies for early-detection.  
+O3. Natural and bio-control solutions against Cs/Rs applied on potato and tomato seeds, plants and soil 
+beneficial for both conventional and organic farming. Linked to WP 4  
+Plant-derived organic substances, biocontrol coatings and chemoperception disruptive products to  
+R12  
+decrease at least 40% the incidence of Cs/Rs with respect to untreated plants.  
+Development of sustainable practices using the treatment with PGPMs obtained from the healthy plants to R13  
+decrease at least 60% the incidence of Cs/Rs with respect to untreated plants.  
+The adoption of sustainable solutions to improve seed, plant and soil health and pest control for the reduction  
+OC3  
+of chemical pesticide and fungicide use in potato/tomato crops.  
+O3’s pertinence topic: target to reduce by 50% the overall use and risk of chemical pesticides and reduce the use by 
+50% of the more hazardous pesticides. Develop efficient (bio)control of the pest(s).  
+O4. To validate the Integrated Pest Management (IPM) strategies at TRL 5 in 4 Case Studies (CS#) in 
+greenhouses and real infected field in LATAM and EU. Linked to WP 5  
+R14  
+4 Case Studies (CS#)  to validate POMATO’s IPM strategies at both greenhouse and infected fields in 
+LATAM and Europe: 3 related to Rs in potato/tomato (CS#1 CS#2 and CS#3) and 1 to Cs in potato (CS#4) 
+at several locations in Colombia, Ecuador, Portugal and Poland.   
+
+ 
+101181658 POMA TO – Part B    Page 6 of 33  
+R15  The MDD sensing device  (90% of reliability) and portable polymeric sensors (>90% accuracy) will be 
+validated in field trials in the CS# for in-situ diagnostic detection of Cs/Rs in potato/tomato crops.  
+R16  
+Plant-derived organic substances, biocontrol coatings, PGPMs and chemoperception disruptive 
+products will be formulated at pre -industrial level (TRL5) and validated in field trials in the CS# as 
+biocontrol strategies for Cs/Rs in potato/tomato fields.  
+R17  The generation of recommendations to optimize processes and products using  the Safe and Sustainable by 
+Design (SSbD) Framework.  
+OC4  
+The field trials will lead to the deployment of reliable diagnostic tools and effective biocontrol solutions for 
+Cs/Rs in potato/tomato plants (at TRL5) and validate the effectiveness of the IPM strategies to control 
+outbreaks of these pests with potential to be replicable in other Solanaceae crops.  
+O4’s pertinence to topic: tools and technologies of economically and environmentally sound solutions, taking into 
+account the use of non-chemical or biological control methods; analyse the ecological impact of plant pest(s) spread 
+and establishment; International cooperation with countries affected by the same pest(s).  
+O5. To disseminate, communicate and exploit the main achievements of POMATO project. Linked to WP  
+5 and WP 6 (detailed KPIs in Section 2.2)  
+R18  
+Creation of POMATO’s multi -actor participatory platform (MAPP) and activities to share knowledge, 
+expertise, and background across the interdisciplinary consortium and the target actors. To generate at least 
+25 “practice abstracts”  to contribute to European CAP Network repository and insights for farmers and 
+potato/tomato traders; at least 10 peer reviewed publications, 10 publications in specialised agriculture media 
+outlets.  
+R19  
+Project dissemination results will be shared through relevant channels  to support the impact and 
+exploitation outcomes including websites, social media, training materials, project related videos, social 
+events (including both physical and online), etc.  
+R20  
+4 engagement activities  in Europe and 2 in LATAM to increase the project’s visibility across the target 
+groups, especially focused on farmers (see section 2.1). 4 Thematic POMATO’s Open Days addressing the 
+4 different pillars.  
+R21  
+POMATO IPM Plan (translated into at least 3 languages ) among relevant stakeholders, including those 
+related in the policy and decision-making cycle. EU recommendations will be sent to the EC, the European 
+Parliament, the Committee of the Regions, the Commission Expert Group on Plant Health Legislation (2 
+policy briefs, 1 position paper, at least 2 policy roundtables and briefings).  
+OC5  Providing the foundations and drivers for future development and implementation of IPM strategies by 
+farmers and other key players in the event that these potato/tomato pests outbreak in EU.  
+O5’s pertinence to topic: social and economic implications for farmers, foresters and other economic operators 
+affected by the outbreaks of the plant pest(s); implement the multi-actor approach; cooperation with other proposals.  
+1.1.2.  Ambition and progress beyond the state of the art (BsoA) Associated with document Ref. Ares(2025)2863795 - 
+08/04/2025 
+POMATO project aims to provide a powerful European initiative for a sustainable IPM strategy to control and treat 
+the presence of Cs/Rs in potato and tomato crops. Beyond the state of art, several innovative strategies will be 
+implemented within the project which are articulated in 5 ambitions:  
+Ambition #1: Isolation, genomic and transcriptomic characterization of Cs/Rs and molecular characterization 
+of potato/tomato RGs (WP 2, T2.1-2.2, 2.4):  SoA: Cs/Rs pests possess distinct characteristics that complicate both  
+their diagnosis and management of their spread. These pathogens may exist in potato plants and tubers as a latent 
+infection, which may be caused by low concentration of bacteria, different virulence of strains, and/or different 
+tolerance of potato varieties to the presence of pathogens. On the other hand, their symptomatic form is often confused 
+with the symptoms of wilting and other potato diseases. In tomato, Rs typically gains access to host root systems 
+through natural wounds and then bacteria move to the vascular system, where they multiply in the xylem. As tomato 
+and potato affected by bacterial wilt (Rs) present latent infections, and the contaminants present in the tested samples 
+(extracts from plant tissue, soil and water) make diagnostics difficult and false, disease control continues to be a 
+
+ 
+101181658 POMA TO – Part B    Page 7 of 33  
+challenge BSoA: IHAR, based on previous patent to identify Cs,7  will develop an effective protocol based on 
+isolation matrix (I-matrix) for the specific isolation of Rs cells from plant tissues and tubers, soil and water with 
+the simultaneous possibility of concentrating the tested cells, maintaining their viability and eliminating burdensome 
+contaminants. This will allow to enhance field monitoring by improving detection of Rs in latent and/or symptomatic 
+infected environmental samples.   
+POMATO will also conduct genomic and gene expression analyses of Cs/Rs to understand the process of bacterial 
+pathogenesis and virulence during vascular colonization and plant immunity, and to gain new insights into the genetic 
+diversity of bacteria populations. This will allow the early detection of genes and effectors involved in pathogenicity 
+and strengthen biosecurity measures and field monitoring of Cs/Rs in latent infection and/or symptomatic plants. The 
+risk of Cs/Rs intrusions and putative dissemination of pathogens represents a challenge for Europe and optimized and 
+validated methodologies for the detection of Cs/Rs are required. Commercial kits are available for the detection of 
+Cs/Rs (Agdia®); however, these diagnostic kits present some relevant constraints, validations are limited to few 
+reference isolates and kits are expensive, showcasing the need for the development of new approaches for Cs/Rs 
+diagnosis. The phenotypic and genotypic characterization of Cs/Rs will contribute to the advance of SoA by providing 
+new insights into the genetic diversity of pathogen populations which is still highly unexplored in both LATAM and 
+Europe. Additionally, much remains to be learned about the genes invo lved in the pathogenicity and virulence of 
+Cs/Rs during vascular colonization. Identification of such genes could improve understanding of how pathogens 
+cause disease.  
+POMATO will complete a broad screening for the identification of new sources of potato and tomato RGs  to 
+Cs/Rs including wild and native varieties from European and LATAM germplasm collections. A prerequisite for 
+finding new sources of disease resistance is the characterization of genes involved in plant resistance. Sources of 
+resistance to bacterial wilt originat ing from tomato wild relatives, S. pimpinellifolium , S. pennellii and S. 
+lycopersicum var. cerasiforme have been already reported. 8 Published results suggested the presence of polygenic 
+and strain-specific resistance in tomato wild relatives.9 Considering the centre of origin of potato/tomato, the Andean 
+region in LATAM provides a high diversity of wild potato/tomato germplasm and a potential source of variability 
+and genetic resistance against plant pathogens, such as Cs/Rs. Part of the diversity of potato/tomato genetic resources 
+(> 3.000 accessions) is maintained in different potato/tomato Germplasm Banks (PGB and TGB) in LATAM and 
+Poland, which has mostly not yet been characterized for their resistance/susceptibility to Cs/Rs. This TGB is 
+constituted by an important number of tomato wild relative accessions, such as, Solanum peruvianum , S. 
+lycopersicum var ceraciforme, S. arcanum  S. pimpinellifolium , S. pennellii  and S. hirsutum, among others. A 
+screening for resistan t plants to Cs/Rs including wild potato/tomato accessions will advance the SoA through the 
+identification of new sources of resistance that could be used as resistant parentals in breeding programs. Additionally, 
+deciphering the molecular mechanisms of potato/tomato wild genotypes during interaction with effector genes from 
+the pathogens will contribute to the understanding of the processes underlying plant immune responses.  
+Ambition #2: Factors affecting the establishment and spread of Cs/Rs (WP 2 T2.3, 2.4 & WP 3 T3.1):  SoA: 
+Climate, soil, and agronomic management practices play a crucial role in the susceptibility of potato/tomato to 
+Cs/Rs. 10  For instance, temperature and humidity levels can impact pathogen growth and spread, while soil 
+characteristics such as pH, texture, and organic matter content can affect the plant’s ability to uptake nutrients and 
+resist infection.11  Agronomic management practices, such as the use of irrigation systems, fertilizers, and pesticides,  
+  
+ 
+7 Patent PL 427988. Link.  
+8 Barchenger, Derek W., et al. (2022) Scientific Reports 12.1, 8374.  
+9 Shin, Il Sheob, et al. (2020) Euphytica 216, 1-20.  
+10 Singh, D., et al. (2014). Arch. Phytopathol. Plant Prot, 47(13), 1574-1583.  
+11 Jiang, G., et.al (2021). Soil Ecol. Lett. V ol 3, 356-366.  
+ 
+101181658 POMA TO – Part B    Page 8 of 33  
+can also influence disease incidence and severity. For instance, improper use of pesticides can lead to the development 
+of pesticide -resistant variants of Cs/Rs. BSoA: Understanding the influence of climate, soil, and agronomic 
+management practices on Cs/Rs susceptibility is critical to developing effective disease management strategies. In 
+POMATO, activities will be carried out to map and determine the impact of environmental factors such as soil type 
+and climate on the predisposition of potato/tomato fields to bacterial wilt disease, as a base study to avoid and control 
+the spread of Cs/Rs. This activity will provide for the first time a map of factors affecting the susceptibility of 
+potato/tomato to Cs/Rs such as precipitation, temperature, soil characteristics, and farming conditions and how these 
+factors can influence the disease dynamics.  Furthermore, POMATO will identify the keystone microbial species 
+and molecular features from both plants and plant -associated bacterial microbiome that prevent the pr ogression of 
+Cs/Rs strains. To do so, two modelling strategies will be deployed: i) MAGs and their GEMs will be obtained from 
+publicly available data. If not available, automated tools for GEM reconstruction will be used, and ii) Uni- and 
+multivariate statistical modelling in combination with predictive modelling using machine and deep learning (like 
+Random forest and Neural networks), network inference and analysis, and reverse engineering approaches will be 
+used to integrate and analyse data and metadata.  Mechanistic models will be simulated using SoA approaches that 
+consider spatio - temporal dynamics that will be expanded to include host pathogen.  Statistical approaches and 
+machine learning methods12 will be expanded to identify the genetic makeup of the observed virulence. Identification 
+and characterization of the key microbes in the complex network of plant pathogen interactions will enable 
+development of artificial microbial communities with plant protective effects. Based on the results obtained from the 
+modelling approach, the rhizosphere microbial sub-communities will be constructed using an innovative microfluidic 
+approach. This construction will serve as the foundation for determining and comparing interactome signatures with 
+the modelling data under exposure of plants together with their rhizosphere microbiome to Cs/Rs.  
+Ambition #3: Early detection digital tools (WP 3 T3.1 -3.2, T3.4-3.5): SoA: Current AI-based decision support 
+systems (DSS) utilize advanced machine learning models such as Convolutional Neural Networks (CNN) and 
+Transfer Learning to identify plant diseases from images, particularly focusing on plant leaves. 13,14,15 These models 
+have been developed beyond traditional machine learning models like Random Forest and Naïve Bayes. However, 
+their application is limited to leaf diagnostics and is heavily reliant on public datasets like PlantVillage, which have 
+limitations such as regional specificity, imbalanced class distributions, and a focus on common diseases. This results 
+in high false detection rates in different environmental conditions and challenges in early disease detection and 
+surveillance due to a lack of temporal analysis and detailed disease progression insights.21,16 BSoA: POMATO aims 
+to transcend current limitations by extending AI applications to include various plant parts for a more holistic disease 
+detection approach. This involves utilizing advanced imaging and deep learning techniques, such as new computer 
+vision architectures and Visual Language Models (VLMs), to correlate molecular patterns with visual symptoms. 
+Key innovations include assessing disease severity and progression over time, integrating environmental and climatic 
+data for dynamic disease management, and enhan cing model transparency and trustworthiness through explainable 
+AI (XAI) techniques. These advancements are designed to improve early detection, provide comprehensive risk 
+management, and adapt to changing environmental conditions, thereby significantly ad vancing the current state of 
+plant disease diagnostics and management. Genomic databases will be inspected using bioprospecting approaches to 
+identify genomic markers of microbial actors involved in each situation.  
+Furthermore, POMATO will develop mechanistic models for severity and progression assessment by analysing 
+changes of microbial community composition over time. To that purpose, MAGs and their constructed GEMs will 
+facilitate the elucidation of the metabolic interactions that drives ecological relationships. In this way, dynamic 
+models of the micr obial community are meant to provide insights into how pathogenic bacteria evolve and spread 
+within a crop microbiome, facilitating the identification of strategic interventions at critical stages of disease 
+development. In addition, POMATO will go beyond traditional detection methods 17  to develop advanced and 
+automated contactless, non-destructive detection methods tailored for in -field (portable or handheld) and on -drone 
+applications, enabling real-time and accurate disease information for potato/tomato farmers through a MDD sensing 
+device. The integration of multivariate spectroscopic analysers, imaging technology and univariate sensors into a 
+single, innovative sensing device will significantly enhance the accuracy of detecting and identifying plant pests and 
+diseases, empowering early detection during latent infection periods. Additionally, the device will have a userfriendly 
+ 
+12 Poncheewin et al (2022) Scientific Reports 12, no. 1 (June 27, 2022): 10857.  
+13 Latif, G., et al. (2022) Plants. 11 (17), p. 2230.  
+14 Arafath, M. et al (2023) Advances in Science and Technology, 124, 236-245.  
+15 N. N. Moon, et al (2021) International Conference on Smart Generation Computing, Communication and Networking pp. 1-8 
+21 Rashid, J., et al (2021) Electronics, 10 (17) p. 2064.  
+16 Jafar, A., et al (2024) Frontiers in Plant Science, 15, p. 1356260.  
+17 Zhou, C. et al (2023). Appl. Spectrosc. 77(5), 491-499.  
+ Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+101181658 POMA TO – Part B    Page 9 of 33  
+interface for easy operation. Finally, POMATO will develop an AI powered Cloud data management  
+platform, interfaced by both web and mobile applications. The cloud platform will integrate data collected from  
+  
+polymeric sensors, multispectral images at high spatial resolutions (5 -20 cm) from both healthy and infected potato 
+Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+and tomato crops, the MDD sensing device and other relevant information sources. In addition, it will also integrate the 
+AI models developed within the project framework to run based on the available data for disease prediction.  
+Ambition #4: Monitoring strategy based on polymeric sensors to detect plant metabolites (WP 3 T3.3): SoA: 
+Smart polymers react sharply and present a selective intelligent response to physical and chemical stimuli (chemical 
+species, biomolecules, pH) and so, the interest in such materials has recently increased exponentially, finding 
+applications in environmental, biomedical and food safety sectors, among others 18. Particularly, polymeric sensors 
+exhibit physical measurable responses like a change in colour or fluorescence visible to the naked eye, enabling any 
+inexperienced user to employ them for qualitative and quantitative analysis. BSoA: POMATO will design innovative 
+solutions for the rapid, simple, inexpensive, and on-site detection and quantification of key metabolites, generated by 
+potato/tomato plants in the early stages of infection, through tailor -made sensory polymers that will allow the 
+identification and alert of the presence of both Cs/Rs by non-specialized personnel in an early stage.  
+Ambition #5: Natural and bio-control solutions (WP 4 T4.1 – T4.5):   
+Biocontrol coating solutions: SoA: The decrease in the number of authorized synthetic plant protection products 
+coupled with societal demands for a more oriented organic farming involves searching for bio -based solutions to 
+protect crops19. In the case of Cs/Rs, nowadays there are not commercial sustainable chemical-free solutions to control 
+these pathogen diseases in field crops. Biocontrol agents as antagonist bacteria and specific enzymes are recognised 
+as effective treatments against diverse phytopathogens d ue to their capacity to metabolise biocide compounds. 
+However, the effectiveness of biocontrol agents depends on application strategies, formulation method, and types of 
+strains used. Because of the genetic diversity of pathogens, no unique biocontrol agen t has been universally 
+effective20. Moreover, the field application effectiveness of biocontrol agents is reduced by environmental factors. 
+Therefore, the use of coating formulations and encapsulation techniques plays a vital role in prolonging the viability 
+and enhancing their survival ag ainst adverse environmental conditions 21. BSoA: POMATO will study the mode of 
+the combinations action of microbial strains which some of them will be isolated from the rhizosphere of diseased 
+plants and/or enzymes with antagonistic antibacterial effect and their improved plant application feasibility by using 
+coating formulation including encapsulation techniques to provide significant biocide effectiveness against Cs/Rs.  
+Plant-derived organic substances: SoA: Detection of hazardous chemical pesticide residues in foods and increased 
+consumer awareness on food safety has resulted to ban of certain pesticides in agricultural production and natural 
+plant protection products are gaining popularity as an environment ally friendly tool for the crop protection 22. Plant 
+pathogens virulence can be suppressed by the application of plant -derived organic substances, such as extracts and 
+essential oils and their active principles which have been studied for their antimicrobic and antioxidant properties 23. 
+However, several bioactive molecules are highly volatile, chemically unstable and susceptible to the adverse external 
+environment limiting their direct utilization. 24  BSoA: In POMATO, the identification of the most effective 
+plantderived organic substances against Cs/Rs will be carried out. Moreover, promising delivery strategies for 
+application and release of the bioactive substances in potato and tomato crops will be evaluate and developed.  
+Plant growth-promoting microorganisms (PGPM): SoA: PGPM have proved to be a green strategy to manage 
+plant disease through production of inhibitory chemicals, inducing immune system, niche exclusion, deprivation of 
+key chemical elements, increasing stress response of plants as well as production of VOC t hat can completely 
+diminish expression of virulence factors of pathogens.31 Although not limited to, the most frequently isolated PGPM 
+representatives are various strains from Bacillus and Pseudomonas genera that are showing the inhibitory effects on 
+Cs/Rs.32 However, the microbial networks involving multiple microbes competitively exclude the pathogen, such as  
+ 
+18 García, J. M. et al. (2022) “Smart Polymers: Principles and Applications”, Berlin, Boston: De Gruyter.  
+19 Kumar, J. et al. (2021). Plants, 10(6), 1185.  
+20 Mishra, P . et al.(2016). Microorganisms for Sustainability, 11. 259-285.  
+21 Riseh, R.S. et al. (2023). Carbohydrate polymers, 15, 120384.  
+22 Souto, A.L. et al. (2021). Molecules, 26(17), 4835.   
+23 Arshad, Z. et al. (2014). Int. J. Chem. Biol. Sci., 6, 11-17.  
+24 Wang, W. et al. (2026). Trends Food Sci. Technol., 56, 21-38. 31 
+El-Saadony, M.T. et al. (2022). Front. Plant Sci, 13, p.923880 32 
+Gautam, S., et al. (2019). Microb. Pathog, 130, pp.196-203.  
+
+ 
+101181658 POMA TO – Part B    Page 10 of 33  
+Rs, through the nutritional interdependence 25. Microbial community showing low nestedness, high connectance and 
+niche overlap with the pathogen are more resilient to the pathogen invasion, constrained growth of the pathogen, 
+resulting in reduced disease occurrence 26 . However, the random use of combination of PGPM can result in 
+antagonistic effects and can exclude the PGP action of PGPM strains when used separately.27 Efficient PGPM activity 
+depends on factors like PGPM combination, preparation method, and the delivery system. Recent reports suggest that 
+adding charcoal as a carrier matrix can enhance PGP and pathogen suppression. 28 BSoA: POMATO will develop 
+microfluidic/encapsulation platform that will enable to i) isolate individuals and micro-community of compatible  
+  
+PGPMs, ii) screen their growth-promoting activities on a large scale including several 1000 combinations of PGPMs 
+and iii) evaluate and determine their synergistic effects through cell-to-cell interaction assays. On 10 most promising 
+isolated combinations of PGPMs, POMATO will determine mechanisms of action against Rs and Cs using OMIC 
+techniques. POMATO will develop electrostatic based carrier system that will have stimulatory effects of PGPMs 
+on PGP activity and having inhibitory effect against Cs/Rs when applied on plants.  
+Chemoperception disruptive products: SoA: Phytopathogenic bacteria actively move to their host via chemotaxis 
+and enter the plant through natural openings. The secretion of natural attractants, such as amino acids and organic 
+acids by the host, triggers the chemoperception systems that enable th e control of motility and plant 
+colonization 29 ,30 ,31 ,32 . Considering this, a disrupting chemoperception strategy based on the use of saturating 
+concentrations of natural attractants can impair the bacterial chemoreceptor functions and avoid the infection of the 
+plant by the pathogen.37 However, information regarding the chemoperception systems of phytopathogenic bacteria 
+Cs/Rs is scarce, and the role of the signals perceived in bacterial virulence is not yet defined. BSoA: POMATO will 
+describe and identify the role of chemoperception in the infection process of Cs/Rs, and it will develop natural 
+products solutions to block the infections. The list of the EC of active substances to fight bacterial diseases only 
+include 6 approved substances.33 The knowledge of the mechanisms used by bacteria to enter the plant tissue and the 
+possibility to interfere it by plant -based compounds open the development of alternative sustainable tools as an 
+efficient alternative to fight these diseases.  
+1.1.3.  Positioning and Technological Readiness Level (TRL)  
+The activities developed in POMATO will start at TRL 2/3. The project will promote the opportunity to evaluate the 
+synergies of the technological solutions within the IPM strategy both for organic and conventional tomato and potato 
+fields at TRL 5 as the following table shows:  
+Table 1.1. TRL positioning of POMATO innovations (Start- End)  
+Innovation  TRL  Justify current and final TRL  
+I-matrix for bacteria 
+isolation  2→5  
+Contaminants in environmental samples and the lack of effective methods for their removal 
+falsify or prevent correct diagnosis of Rs. The development of an I -matrix for the specific 
+isolation of bacteria and its verification on environmental samples will improve and make the 
+diagnostics in these samples more efficient and effective.  
+Gene Expression of 
+and genome data from 
+Cs/Rs  
+ 2→4  
+Transcriptional profiles in Cs/Rs are characterized in planta using susceptible cultivars and in 
+rich medium. Specific transcriptomic Cs/ Rs when interacting with wild varieties (more 
+resistant to disease and environmental stresses) will be studied. Whole -genome sequence for 
+Cs/Rs representative isolates.  
+Genetic Resistance 
+of potato/tomato  2→4  
+Genetic resistance to Cs/Rs is mainly polygenic and strain specific. To identify new sources 
+of resistance to Cs/Rs, an interesting approach is to look for resistance genes in tomato wild 
+relatives. GWAS combined with transcriptomic analysis will contribute to the identification 
+of new RGs in potato/tomato wild varieties.  
+AI predictive 
+algorithms and 
+mathematical models  
+2→5  
+AI tool advances disease detection with climatological features, evolving from conceptual 
+models to predictive algorithms. It forecasts disease spread in potato/tomato crops, marking 
+a shift from basic research to refined technology tested in controlled en vironments.  
+ 
+25 Yu, X., et al. (2022). Biol. Control, 170, p.104937.  
+26 Wei, Z., et al. (2015). Nature communications, 6(1), p.8413.  
+27 Kang, Y ., et al. (2014). Microbiology, 83, pp.666-673.  
+28 Ahmad, C.A. et al. (2024). Front. Microbiol, 15, p.1360703.  
+29 Río- Alvarez, I. et al (2015). Molecular Plant Pathology 16:685-698  
+30 Santamaría-Hernando, S. et al (2022). Molecular Plant Pathology 23:1433-1445  
+31 Cerna-V argas JP et al. (2019). mBio. 10(5):e01868-19. doi: 10.1128/mBio.01868-19   
+32 Gálvez-Roldán, C et al. (2023). Phytopathology 113, 390–399  
+33 EU Pesticides database, Active substances, safeners and symergists. Link  
+ Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+101181658 POMA TO – Part B    Page 11 of 33  
+MDD sensing 
+device  2→5  
+Initially, the concept of integrating multivariate spectroscopic analyzers, imaging technology, 
+and univariate sensors will be formulated and investigated. The development will progress 
+through experimental proof of concept, creating a first laboratory -scale prototype. Further 
+advancement will involve developing a functional prototype and validating it in a controlled 
+laboratory environment. At a final stage, the components will be integrated, and the device 
+will be validated in test fields or greenhouses, ensuring accurate disease detection and 
+userfriendly operation.  
+  
+AI powered Cloud 
+data management for 
+disease prediction  
+2→5  
+The AI powered Cloud data management for disease prediction will be first conceptualized 
+undergoing initial development and testing through 50 users in the crop fields for the final 
+deployment.  
+Smart carriers for 
+PGPMs delivery  3→5  
+Smart carrier approaches to enhance the delivery and effectiveness of PGPMs acting against 
+pathogens by use of combination of materials that stimulate and on demand release nutrients 
+and stabile soil colonisation through radial encapsulated community expan sion.  
+Polymeric sensors  2→5  
+The currently existing strategy for the design and development of polymeric sensors will be 
+adapted for the detection of the previously identified key metabolites produced by the plants 
+in the early stages of infection, alerting of the presence of Cs/Rs.  
+  
+ Plant-derived 
+organic substances 
+and coatings  3→5  
+Biocontrol agents and non-pesticide chemicals Associated with document Ref. Ares(2025)2863795 - 
+08/04/2025have been developed as part of integrated  
+management of crops diseases. Improved coating formulations based on microorganisms and 
+enzymes and encapsulated plant-derived substances will be tested against Cs/Rs.  
+Chemoperception 
+disruption products  3→5  
+From the proof of concept to the development of disease interfering strategies based on the 
+application, in relevant environments, of natural products to inhibit pathogen 
+chemoperception, thereby preventing their entry into crop plants.  
+  
+1.2. Methodology  
+ 
+1.2.1.  Concept and overall methodology in POMATO  
+POMATO is a 48-month RIA action project based on the following activities against the presence of Cs/Rs pest threats 
+in potato and tomato plants (Fig. 1.3).  
+Thereby, POMATO proposes a work methodology based on 6 work packages (WPs) to be executed in 48 months, 
+where all the molecular studies, early detection and surveillance solutions, as well as the natural and bio -control 
+solutions will be tested in real scenarios in order  to validate the Integrated Pest Management strategies to protect 
+potato and tomato against both bacteria. To addressed this, POMATO’s methodology is structured in four pillars 
+(Pillar #1 – Pillar #4)  
+The overall methodology of POMATO is illustrated in the following figure:  
+
+ 
+101181658 POMA TO – Part B    Page 12 of 33  
+   
+Figure 1.3 POMATO Overall Methodology  
+Pillar #1: Isolation of bacteria and molecular characterization studies. Linked to WP 2/O1 (R1-R6)  
+I-matrix for bacteria isolation: The aim of the planned research is to obtain innovative tools for the isolation of Rs 
+bacteria that will allow for the concentration and specific isolation of living cells of Rs while removing contaminants 
+from the tested environmental samples (plant extracts, soil, water). The methodology of the research will be staged: 
+first, the biological material will be selected (3 strains of Rs, 12 varieties of potatoes and tomatoes) and optimal 
+conditions for the isolation of bacterial cells will be developed thro ugh the selection of appropriate microbiological 
+media, buffers and Rs isolation time. Based on the selected bacterial strains, appropriate receptor molecules will be 
+designed to enable a specific reaction with Rs bacterial cells. By choosing suitable materials and shapes, matrix bases 
+with a surface that allow covalent attachment of receptor particles will be created. From the best template bases and 
+the most effective receptor particles will be combined to produce various I-matrix prototypes for Rs cell isolation. In 
+the last stage of laboratory tests, the effectiveness and durability of the developed I -matrix will be assessed in the 
+presence of standard strains of Rs bacteria and tested samples (extracts from tubers and plants, soil and water) 
+obtained under environmental conditions. The results obtained will allow the development of a protocol using Imatrix 
+to effectively isolate Rs cells directly from contaminated environmental samples (the reason of excluding Cs is 
+explained in the footnote34, and due to previous patent by IHAR12).  
+Potato and tomato for resistance against Cs/Rs: One of the most significant challenges to address in molecular 
+breeding for bacteria-plant interactions is the strain specificity of the majority of identified Quantitative Trait Locus 
+(QTLs). At least 100 bacterial isolates will be obtained from potato/t omato genotypes collected from 40 field 
+ 
+34 due to the risk of violating the patent claims of an earlier patent, the development of I -Cs-Matrix on similar principles is too risky for POMATO. Trying to 
+circumvent this reservation by finding an alternative solution consisting in replacing the source of receptor molecules from mammals to birds may not be possible 
+due to the constantly increasing requirements and changing regulations of ethical committees for animal experiments.  
+
+ Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+101181658 POMA TO – Part B    Page 13 of 33  
+locations in LATAM, 40 Polish infected potato samples, and 20 (10 Cs and 10 Rs) from microbial culture 
+collections. First, Cs/Rs characterization at phenotypic and genotypic levels will be performed. Then, transcriptome 
+analysis and GWAS studies will be combined for identification and validation of marker genes and RGs in the 
+potato/tomato-Rs pathosystem and the potato-Cs pathosystem. For this, marker-trait associations (MTAs) previously 
+reported for Cs/Rs resistance will be in potato/tomato wild relatives,  additionally SNP (Single Nucleotide 
+Polymorphisms) array-based genotyping will be performed to find new QTLs. Finally, a workflow for transcriptome 
+analysis and annotation will be generated for plant wild varieties -bacterial interaction to identify candid ate genes 
+related to resistance responses against Cs/Rs. Genomes from newly isolated bacterial will be annotated using 
+pipelines designed to maximize data interoperability 35 and to ensure that newly generated datasets can be queried 
+together with the machine -actionable semantic database of >100.000 consistently de novo annotated microbial 
+genomes available at WUR. Features related with gene structure and function, transmembra ne domains and protein 
+localization, presence of biosynthetic gene clusters, protein domains and genome properties will be annotated to 
+enable comparative genomic analysis. 36 Classification approaches (Random Forest and support vector machines), 
+followed by feature importance analyses will be followed to identify genetic features associated to pathogenic 
+microbial lifestyle.37  
+The stimulatory  interaction between the plant microbiome and pathogenic Cs/Rs will be studied using 
+microfluidic and microdroplet -based methods. The rhizosphere microbiome will be extracted at various disease 
+stages, with either natural aggregates preserved, or artificial aggregates constructed through microaggregation using 
+polyelectrolytes. Stained aggregates will have electrostatically topically attached cells of pathogenic strains and be 
+further entrapped in microdroplets using T -type microfluidic chips , allowing the formation of 10 4 
+microbiomepathogen combinations. Pathogen growth will be monitored via fluorescence and analyzed using flow 
+cytometry and microscopy. Microbiomes influencing pathogen growth will be metagenomically characterized with 
+the SqueezeMeta platform, including ge nome assembly and annotation. Positive microaggregates will be further 
+analyzed by forming 3D structures to test cell distances and microenvironmental conditions using confocal 
+microscopy and microelectrodes. Environmental factors like pH, Fe availability, and plant exudates will be assessed, 
+with transcriptomic studies identifying interspecies responses under stimulatory conditions. These studies will be 
+complemented with insights into the molecular mechanism associated to in fection signatures and the underlying 
+molecular networks that may contribute to plant resistance and the development of predictive models of disease 
+progression that include environmental factors and genetic determinants.  
+Pillar #2: Early detection and surveillance tools. Linked to WP 3/O2 (R7-R11)  
+POMATO will identify the keystone microbial species and molecular features from both plants and bacteria that 
+prevent the progression of Cs/Rs strains. To do so, two complementary modelling strategies will be approached : i) 
+Dynamic microbial community metabolic modelling tools (including MAGs and GEMs) to study the microbial 
+co-occurrence networks of healthy and infected soils and plants Network analysis tools will be applied to explore the 
+associations among genes or microbial species, and to provide insights into the functional potential and interactions 
+within microbial communities. On the other hand, constraint -based stoichiometric models and the Flux balance 
+analysis (FBA)approach38 for mathematical microbial community modelling will facilitate the identification of their 
+ecological interactions. FBA is the best approximation to infer growth rate and production/consumption of 
+metabolites based on metabolic capabilities of the stoichi ometric network and the assumption of the steady state. 39 
+Additionally, in dynamic FBA,40 the snapshot the steady-state assumption provided in FBA approach can be replaced  
+  
+ 
+35 Koehorst, et al. Bioinformatics 34, no. 8 (April 15, 2018): 1401–3.  
+36 van, Dam Scientific Data 6, no. 1 (November 4, 2019): 1–9.  
+37 Molder, et al. Et BMC Genomics 22, no. 1 (November 23, 2021): 848.  
+38 Heirendt et al., Nat. Protoc. 14 (2019): 639–702.  
+39 Orth et al., Nat Biotechnol 2010 Mar;28(3):245-8  
+40 Mahadevan, R. et al. Biophys J, 83:1331-1340 (2003)  
+ Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+101181658 POMA TO – Part B    Page 14 of 33  
+by discretizing time in intervals and assuming quasi -steady-state conditions. Thus, it is possible to update at each 
+time step the metabolite levels based on how much has been consumed or secreted. The ability to predict individual 
+growth rate, metabolite consumption preferences and by -products production, makes dynamic FBA suitable to 
+parametrize the metabolic interactions that drives the dynamical evolution of the individual abundances and the 
+community evolution. 41 ii) Statistical and Mathematical Modelling  Data from various measurements and from 
+metabolic modelling will be integrated to extract underlying common and distinctive processes. This will be achieved 
+using specialized methods for analysing complex multi -set data (e.g., GSVD, DISCO -SCA and MOFA). To 
+complement the statistical approach, construction of (multilayer) networks will provide the relationships between 
+molecular features, phenotypic and disease data. Network inference approaches will be used to handle various data 
+types, including Mixed Gaussian  Graphical Models (GMM), probabilistic GMM and Random Forest, which will 
+enable the construction of conditional independence/dependence graphs. This will allow pinpointing and mapping 
+key molecular features from both plant and bacteria to identify and defi ne infection signatures and the underlying 
+molecular networks that may contribute to resistance or be targets for treatment.  
+Following this, POMATO will address the early detection by applying 5 cutting-edge tools (Fig1.4):  
+i) Acquisition of high-resolution 
+multispectral images using remote sensing 
+technologies (drone and satellites). These images 
+will be analysed using a range of vegetation 
+indices, including the Normalized V egetation Index 
+(NDVI), Chlorophyll Index (CI), Leaf Area Index 
+(LAI), Greeness Index, Modified Chlorophyll 
+Absorption in Reflection Index  (MCARI), 
+ Transformed  Chlorophyll Absorption  in 
+ Reflection  Index  (TCARI), Triangular 
+Vegetation Index (TVI), and Simple Pigmentation 
+Index (SIPI). By leveraging ma chine learning 
+algorithms, the data will be processed to detect, 
+differentiate, and quantify the severity of disease 
+symptoms, offering early identification and 
+forecast of potential outbreaks. Satellite imagery 
+from sources like Landsat 8 and Sentinel -2, 
+equipped  with  visible,  near-infrared 
+ (NIR), shortwave infrared (SWIR), and thermal 
+bands, will complement drone data to provide a multi-scale view of field conditions. The remote sensing techniques 
+employed will detect plant stress through reduced absorption of visible wavelengths, particularly in the red and blue 
+spectrum, and decreased reflectance in NIR bands. Data collected from both infected and healthy potato/tomato fields 
+in Portugal and Poland will be analysed to classify contamination levels an d infer ecosystem health and drivers of 
+contamination. This comprehensive dataset will also provide a training suite for AI models focused on identifying 
+contamination levels and allocating functional measurements of crop diseases across broad geographic areas.  
+ii) AI-based predictive models : POMATO will implement AI -based predictive models using a structured 
+methodology: data acquisition, image and climate data processing, image segmentation, model training, integration 
+of advanced technologies, and iterative testing. The process begins with the collection of comprehensive plant disease 
+data, including high -resolution images and molecular data. FUND will collaborate with consortium partners to 
+optimize image parameters (resolution, brightness, format, colour spaces l ike HSV , HIS, RGB) and source open 
+weather data from NASA and ECSA databases. Data processing involves standardization, quality control, 
+regularization, colour space adjustment, distortion removal, and application of filters (e.g., Laplacian) and 
+transformations (e.g., Fourier Transform). This ensures data consistency for robust model training. AI model 
+architecture will be designed considering factors like time window size for meteorological data and image resolution. 
+The models will incorporate appropriate neural network blocks for the task. Training will utilize open -source tools 
+like Weights & Biases for tracking and Bayesian hyperparameter optimization. The dataset will be strategically split 
+for training, internal evaluation, and testing to assess real-world performance. Model performance will be evaluated 
+using metrics such as Matthews Correlation Coefficient (MCC), Kappa Coefficient, and false positive/negative rates. 
+To ensure interpretability and trustworthiness, AI predictions will be compared with  human expert annotations. 
+ 
+41 Gomez et al., BMC Bioinformatics 15 (2014): 409.  
+Figure 1.4. Cutting 
+ - 
+edge digital technologies applied in  
+POMATO 
+  
+ Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+101181658 POMA TO – Part B    Page 15 of 33  
+Finally, the models will undergo validation in real-world scenarios with unseen data, serving as the final optimization 
+phase. This approach aligns with HORIZON-CL6-2023-GOVERNANCE-01-16 projects on digital technologies for  
+  
+plant health early detection. Collaboration on data sharing and model validation with project funded under that call 
+is already envisaged and will enhance the robustness and applicability of the developed models.  
+iii) Polymeric sensors: The development of sensory polymers will be linked to the insights gained through 
+MAGsbased metabolic studies. POMATO will firstly identify key metabolites in the Cs/Rs pathogenesis process 
+and will study their effects on plant -microbe and microbe -microbe interactions with chemometrics and 
+cheminformatics together with spatial structuring and selection strategies (consortia isolation, formulation 
+preparation and efficiency testing) of metabolites. Secondly, specific target metabolites ass ociated to Cs/Rs in the 
+initial stages of infection of potato and tomato plants will be selected for sensor design. POMATO will develop 
+polymeric sensors based on hydrophilic film materials capable of detecting the presence of such key metabolites 
+associated to Cs/Rs by triggering a visual alert (a change in colour or fluorescence) upon contact with these target 
+species. To do so, specific receptor molecules will be designed for the selected metabolites and will be co -
+polymerized to prepare the sensory film s. These materials can be used by individuals without specialized training, 
+and even a simple photograph taken with a mobile phone can be used for quantification at ppm or ppb levels of the 
+selected Cs/Rs-associated metabolites, providing a timely alert to proactively combat infections in potato/tomato 
+plants.  
+iv) Multiparametric Disease Detection (MDD) sensing device: An innovative multiparametric device able to 
+accurately detect and identify plant pests and diseases in potato and tomato crops using a combination of advanced 
+sensing technologies and machine learning will be developed. The optimal combination of these technologies will 
+be engineered and integrated into the compact device to allow the monitoring of temperature and soil moisture, plant 
+disease identification, changes in plant temperature during latent infection periods, and visible symptoms, wounds, 
+and other signs of plant diseases. The collected data from the different sensors will not only be shown in a userfriendly 
+interface from the device to allow users to operate the device and obtain easy -to-understand information easily, but 
+also to an AI powered Cloud platform.   
+v) AI powered Cloud data management for disease prediction will be a sophisticated multilayer digital tool 
+designed to revolutionize disease detection in agriculture. This Cloud platform, with an Application Programming 
+Interface for data connectivity through a user -friendly web or mobile ap plication, will serve as a comprehensive 
+storage and data processing unit for data obtained through cutting -edge AI algorithms, polymeric sensors, and 
+Portable Disease Detection Multiparametric Devices, among other relevant information sources. The data collected 
+will be seamlessly processed within the platform, utilizing advanced analytics to generate precise and timely 
+responses regarding the detection of agricultural threats.   
+Pillar #3: Natural and bio-control solutions. Linked to WP 4/O3 (R12-R13)  
+Plant-derived organic substances and bio-control coating: FUND will formulate biocontrol coating solutions with 
+antimicrobial activity based on the action of biological catalysts (enzymes) and microorganisms (bacterial 
+antagonists) as an alternative solution to the use of chemical pesticides for the protection of potato and tomato crops 
+against Cs/Rs diseases. Despite the well demonstrated effectiveness of biocidal agents against a wide range of 
+bacteria, only a limited number of these products are currently available on the market.42 Therefore, further research 
+efforts are needed to strengthen the feasibility and advancement of promising biocontrol solutions. In POMATO, 
+the activity of animal derived enzyme systems, such as lysozyme and lactoperoxidase, will be studied optimising 
+most effective substrate ratios in in vitro assays to have high antimicrobial metabolite production. For antagonistic 
+bacteria, a screening will be carried out to identify the best effective microbiological strain candidates. On the one 
+hand, microbial strains from public collection will be studied , evaluating their antimicrobial effects against Cs/Rs. 
+On the other hand, in collaboration w ith CBGP, a pool of microbe candidates will be isolated from the rhizosphere 
+of plants infected by Cs/Rs. The identification of selected strains will be performed through Mass Spectrometry and 
+Amplicon Metagenomic Sequencing analyses. Once the microbial candidates are selected as biocidal agents, the 
+fermentation process will be evaluated and optimised studying the effect of different parameters (temperature ranges, 
+agitation, pH, aeration, and different inoculum ratios) to have higher yield of biocidal met abolite production. This 
+biosynthesis from both the biological catalyst and the microorganism will be assessed to evaluate the ability to 
+produce molecules that induce systemic resistance to Cs/Rs. The concentration of antimicrobial compounds and the 
+production of lytic enzymes will be determined by chromatographic and enzymatic approaches; the microbiological 
+ 
+42 Lahlali, R. et al. (2022). Microorganisms 10(3), 596.  
+ Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+101181658 POMA TO – Part B    Page 16 of 33  
+evaluation will be carried out to assess the antagonistic effects on Cs/Rs in agar plates. In parallel, solutions based 
+on plant-derived organic substances will be developed and tested to control the incidence of Cs/Rs in potato and 
+tomato crops. The use of natural compounds such as plant extracts and substances and their active principles 
+(alkaloids, phenols, monoterpenes and sesquiterpenes, isoprenoids) is a very promising approach, given their various 
+antimicrobial and antioxidant properties. 43. In POMATO, screening in vitro assays of active compounds derived 
+from plant extracts (e.g. garlic, onion, neem, etc.), essential oils (e.g. thyme, clove, cinnamon, lemongrass, etc.) and 
+natural resins such as propolis will be carried out to identify and test the most effective biocidal agents against Cs/Rs. 
+Delivery system strategies based on micro- and nanoencapsulation techniques will be implemented to ensure the  
+  
+feasibility of applying both plant -derived organic substances and biocontrol agents to potato and tomato crops. 
+Monitoring of the biocidal activity of the developed solutions will be evaluated in tomato and potato seeds and plants 
+inoculated with Cs/Rs in growth chambers. For biocontrol coating solution developments, several improved coating 
+formulations based on effective microbiological strain combinations (mainly Streptomyces, Pseudomonas and 
+Bacillus spp.) will be tested against pathogen candidates on seed and plant crops. Similar experimental trials will be 
+also carried out testing the antimicrobial effectiveness of animal derived enzyme systems activity as lysozyme and 
+lactoperoxidase.   
+PGPM to inhibit Cs/Rs: JSI will develop a novel approach to screen and select consortia of microorganisms based 
+on the random combination of cells and their electrostatic aggregation. Microbial cells extracted from the 
+rhizosphere, without prior cultivation, will undergo modifi cation through viable staining and coating with 
+polyelectrolytes to alter their surface charge. When oppositely charged cells are mixed, including those of pathogenic 
+strains, aggregates of various sizes are formed. These aggregates will be encapsulated in  a polymeric matrix using 
+microfluidic T/Y junctions for droplet generation and encapsulation, or microencapsulation through perlation. JSI 
+will monitor the efficiency of PGPM, determine PGP traits, and assess inhibition of Cs/Rs using approaches based 
+on the spectrometry and flow cytometry. Within the POMATO project, JSI will develop various matrices for 
+encapsulation of aggregated strains to test the activity of excreted substances, competition for nutrients and 
+microelements, and evaluate effects on micr oenvironmental niche formation and ecological nesting, among other 
+factors. The most effective consortia against Cs/Rs, identified from among thousands of combinations, will undergo 
+characterization using omics tools based on the shotgun sequencing data. For the most effective consortia, we will 
+determine the microspatial distribution of involved microbes using confocal m icroscopy, which will guide the 
+strategies for encapsulation and rhizosphere inoculation. The efficiency of root attachment, colonisation and biofilm 
+formation will be monitored using molecular tools and microscopy studies.  
+Disruption of bacterial chemoperception of Cs/Rs: Based on available public genome databases and new genomic 
+data generated in WP2, computational analyses of Cs/Rs chemoperception genes will be conducted. The classification 
+of chemoreceptors (the proteins responsible for initiating the chemosensory signaling cascade) and their ligand 
+binding domains (LBDs) will be performed using a de novo methodology developed by CBGP.44 A manually curated 
+dataset of 960 representative species of plant-associated bacteria (including 119 phytopathogens) will be employed 
+to classify the chemoreceptor LBDs based on their degree of plant specificity. This will enable the research to focus 
+on candidate chemoreceptors that are potentially more relevant for pathogen -plant interaction as targets for the 
+disruption strategy. Functional analysis of chemosensing proteins in the selected Cs/Rs strains will be performed by 
+constructing mutant strains in the selected chemoreceptors. To identify potential ligands for these chemoreceptors, a 
+high-throughput capillary -based chemotaxis assay will be used to detect bacterial chemotactic responses to a  
+BIOLOG™ compound collections. Chemicals that elicit a differential response between wild-type and mutant strains 
+will be considered putative ligands of the disrupted chemoreceptors. This will allow to determine the chemotactic 
+profile of the selected chemoreceptors. To implement a successful chemosensing disrupti on strategy is crucial to 
+establish whether the attractant compound(s) bind directly to the chemoreceptor LBD, and to determine their binding 
+affinity constants. The selected chemoreceptor LBDs will be cloned, expressed, and purified for biochemical 
+characterization. To determine if there is a direct binding, the following approaches will be followed: i) 
+Fluorescencebased Thermal Shift assays (FTS); ii) Positive FTS results will be corroborated through Isothermal 
+Titration Calorimetry (ITC). To establish the role of each of the chemoreceptors in the plant infection, the 
+pathogenicity of chemoreceptor mutants will be analysed in tomato and potato plants. For that, plants will be 
+inoculated with bacterial suspensions of the wild-type or mutant strains, and symptoms will be evaluated. Bacterial 
+populations will be analysed during the time -course of infection to have an estimation of the relevance of the 
+functions of these chemoreceptors in the pathogenicity. To assess the effectiveness of plant or natural produc ts that 
+ 
+43 Simonetti, G. et al. (2019). Plant Biosyst. Inter . J. 154, 100–106.  
+44 Sanchis-López C., et al. (2021). Systems 6:e00951-21.  
+ Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+101181658 POMA TO – Part B    Page 17 of 33  
+bind to chemoreceptors in interfering with virulence, the ligands of the most relevant chemoreceptors will be tested 
+as disruptive agents. Infection assays will be conducted with varying saturating concentrations of the compounds to 
+evaluate the extent of interference with disease development.  
+The solutions developed in the Pillar #3 will be up scaled and manufactured by the companies CHEM and FERT to 
+be used in the validation case studies in the next Pillar #4.  
+Pillar #4: Integrated Pest Management strategies validated in Case Studies. Linked to WP5/O4 (R14-R17)  
+In situ pilot validations are planned in 5 case studies (TRL 5), ensuring that the different pest management strategies 
+developed in Pillars #2 and #3 are thoroughly tested in real -world scenarios. The validation studies will be 
+strategically planned based  on the best solutions identified in WP3 and 4. The CS will focus on both bacterial 
+pathogens (Cs/Rs) and crops (tomato and potato) across LATAM and Europe as depicted in Fig. 1.3. Validation 
+studies for Rs will be conducted in 3 CS distributed across Ecuador, Colombia and Portugal. This distribution 
+leverages our experimental fields that have the necessary permits to work with these quarantine bacteria in potato 
+CS#1 (AGRO, USFQ), and tomato crops CS#2 (AGRO), CS#3 (F4S). Validations for Cs, due to stringent  
+  
+regulations, can only be conducted in Europe CS#4 (IHAR). Specifically, these studies will be limited to Poland, 
+where the partner in charge, IHAR, has secured the necessary permits to work with this bacterium in potato crops. 
+The polymeric sensors and the MDD sensing device developed in WP3, and the solutions identified and scaled up in 
+T4.5 will be implemented according to the tasks described in WP5. The implementation process will take place in 
+the predetermined study locations. These locations have been strategically chosen to maximize the effectiveness of 
+our solutions and ensure compliance with regulatory standards applied by the corresponding local/regional/national 
+authority. The polymeric sensors, the MDD sensing device and the two best scaled solutions will be deployed at the 
+onset of the trials considering the growing season in each country, with subsequent evaluations conducted after 3 
+months and again after 1 year to assess the long -term impact and efficacy of the solutions. During the validation 
+trials, all necessary permits from relevant agencies will be secured to ensure compliance with local and international 
+regulations. Additionally, throughout the project, efforts will be made to identify potentially contaminated fields, 
+which will aid in the identification and management of infected sites, thereby contributing to the broader goal of 
+disease prevention and control.   
+CS#1 (AGRO, USFQ) will be conducted in Colombia and Ecuador, focusing on potato crops. Our collaboration 
+with AGRO and USFQ provides access to experimental fields where Rs can be studied under real conditions. CS#2 
+(AGRO) will also take place in Colombia and will focus on tomato crops. AGRO’s extensive field networks will 
+allow for a thorough examination of Rs under real conditions.  
+CS#3 (F4S) will take place in Portugal, where F4S has secured fields for tomato cultivation, permitting the study of 
+Rs under controlled conditions.  
+CS#4 (IHAR) will be carried out in an experimental field located in one of IHAR's divisions at Bydgoszcz, Poland. 
+IHAR’s qualified staff will lead this study focused on potato plants, taking advantage of the permissions obtained 
+from the State Plant Health and Seed In spection Service (SPHSIS) to conduct field tests involving quarantine Cs 
+bacteria.  
+A safety and sustainability assessment of POMATO’s solutions will be carried out since their development phase. 
+The SSbD Framework will be applied, and the safety will be assessed to comply with the EU regulatory framework 
+2019/1009 and 528/2012 providing useful recommendations to optimize the processes and final products, making 
+them safer and more sustainable. POMATO will envisage the involvement of the Joint Research Centre (JRC) to 
+develop reference documents in support of a harmonised IPM in the EU legislative acts and policy recommendations. 
+Besides, JRC will be tasked to support UBU on the social life cycle assessment (s -LCA) evaluating the real and 
+potential social and socio-economic impacts of POMATO implementation strategies within potato/tomato identified 
+target groups (Table 2.1).  
+1.2.2.  Compliance with the “Do not Significant Harm” principle  
+All the research activities of POMATO will comply with DNSH principle under the Recovery and Resilience Facility 
+Regulation in different ways: i) no activity is harming the climate change mitigation as the developed plant health 
+products are fossil -free; ii) no activity is harming the circular economy concept. All the contrary, the project will 
+apply circularity principles in the plant health protection products leading to higher resource efficiency, to zero-waste 
+practices, and to sustainable and iii) no a ctivity is harming biodiversity and ecosystems as the project enhances 
+potato/tomato genetic varieties.  
+ Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+101181658 POMA TO – Part B    Page 18 of 33  
+Link to other R&I activities   
+POMATO project will capitalize the results of previous and ongoing research and innovation activities, mainly at 
+EU level in H2020 and HEU projects related to crop protection and control where the project’s partners have 
+participated. Table 1.2 describes projects relevant for POMATO and identifies the connection and valorisation:  
+Table 1.2. Previous and ongoing initiatives related to POMATO.  
+Project, partners involved and description  Outcome and valorisation in POMATO  
+PATAFEST HEU 2023-2027 (FUND, IRIS, EUPAT, CHEM):  
+IPM strategies to treat and control the presence of Candidatus 
+Liberibacter solanacearum pest in potato plant and address the 
+incidence of soil -borne pathogens during potato postharvest 
+storage.  
+Biocontrol and digital technologies already 
+developed for potato tubers will be adapted for its 
+application on controlling Cs/Rs presence on potato 
+and tomato plants.  
+Smart polymers as advanced materials, their design and synthesis 
+for agri-food and environmental sustainability applications. AEI 
+2024-2027 (national project) (UBU)  
+Insights from this project will feed to POMATO 
+strategy to detect metabolites of Cs/Rs during early 
+stages of infection.  
+TRIBIOME HEU 2023 -2026 ( UBU): Advanced tools for 
+integration and synergistic interconnection of microbiomes in 
+resilient food systems to reduce the damage to ecosystems and 
+natural biodiversity.  
+The interconnection strategies will be explored for 
+controlling Cs/Rs, enhancing microbiome resilience 
+in POMATO crops.  
+ADAPT H2020 2020 -2024 ( EUPAT): Identify new breeding 
+targets and match potato varieties to specific challenging 
+environmental growth conditions of the future.  
+The breeding strategies will be aligned with the 
+identification of RGs for Cs/Rs to create robust 
+varieties for POMATO.  
+ Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+101181658 POMA TO – Part B    Page 19 of 33  
+BIOSYSMO HEU 2022 -2026 ( UBU, IDEN, JSI): Novel 
+approaches for the isolation of whole natural bacterial consortia; 
+computationally assisted framework for designing and 
+optimizing synergistic biosystems mixing bacteria, fungi and 
+plants.  
+The isolation techniques will support Associated with 
+document Ref. Ares(2025)2863795 - 08/04/2025POMATO's  
+aim to characterize the plant microbiome and 
+identify beneficial interactions against Cs/Rs.  
+SECRETed HEU 2021-2025 (IDEN): Chemoinformatics, GEM 
+models and other computational tools to unravel the mechanisms 
+for the biosynthesis biosurfactants and siderophores.  
+The tools will help decipher the chemoperception 
+disruption mechanisms to control the spread of 
+Cs/Rs.  
+CHEMOADAPT 2022-2025 (CBGP) Bacterial chemosensing 
+in the adaptation to plant environment and its function in 
+pathogenesis  
+The insights on the relevance of chemoperception 
+obtained through the analysis in model 
+bacteria/plant interactions using tomato and potato 
+plants as hosts will support their application in the 
+Cs/Rs interaction with plants in POMATO.  
+AUSCAR  CaribV et 2022-2023 (AGRO): Surveillance systems 
+in the Caribbean territories: molecular detection and risk 
+modelling.  
+Methods and models from AUSCAR will be 
+adapted for developing resilient monitoring 
+systems for early detection of Cs/Rs outbreaks in 
+POMATO.  
+An Integrative Approach to Enhance Disease Resistance Against 
+Fusarium Wilt (Foc TR4) in Banana – Phase II, IAEA 2023-2028 
+(AGRO)  
+The approach for discovering beneficial microbes 
+will be adapted for enhancing potato and tomato 
+resistance Cs/Rs.  
+Plant Microbiome ( USFQ): In this project, microorganisms 
+related to potatoes and their diseases, such as Pectobacterium and  
+Rizotonia, are being studied.  
+Data from this project will be leveraged to better 
+understand microbial interactions affecting Cs/Rs 
+infections in potato and tomato plants.  
+PHOTONFOOD H2020 2021-2024 (IRIS): Development of the 
+global system control, software and data management and 
+processing platform.  
+The photonic-based monitoring technology will be 
+explored for real-time detection of Cs/Rs in potato 
+and tomato plants.  
+LILAS4SOILS HEU 2024 -2029 ( F4S): Transformation of the 
+European agricultural sector towards a healthy soil & 
+zeroemission system. Creation of Living Labs in the 
+Mediterranean Region with focus on improving soil health and 
+carbon farming.  
+Insights from the project will support the acquisition 
+of images in POMATO crops.  
+UNLOCK (WUR): Large scale open infrastructure for 
+microbial research focussed on the study of microbial 
+communities and their interactions with their host funded by 
+the Dutch Science Fundation (NWO).  
+Tools, methods and algorithms to support the 
+analysis of the data generated in POMATO.  
+1.2.3.  Digital technologies and Artificial Intelligence applied in Plant Disease Early Detection  
+As a cross-cutting element, POMATO will leverage advanced digital technologies and artificial intelligence (AI) to 
+enhance the detection and management of Cs and Rs. The AI-based predictive models will be developed with a focus 
+on technical robustness, ensuring accuracy and reproducibility in various environmental contexts. This will be 
+achieved through a systematic methodology encompassing data acquisition, preproce ssing, and model training, 
+employing techniques such as Bayesian hyperparameter optimization  to fine-tune the models. The performance of 
+these AI models will be rigorously evaluated using reliable metrics like the Matthews Correlation Coefficient, 
+ensuring their ability to handle and inform users about potential inaccuracies and errors, proportio nate to the risk 
+posed by these pests. Moreover, to ensure social robustness, the AI models will be developed with a deep 
+understanding of the agricultural context in which they operate, thereby ensuring their reliability and intended 
+functionality. The AI -powered Cloud data management platform will serve as a sophisticated tool for disease 
+prediction, integrating data from polymeric sensors and multiparametric devices to generate precise and timely 
+responses. While providing a detailed explanation of the AI's decision-making processes is complex and beyond the 
+immediate scope, the project will focus on fostering trust and trustworthiness among stakeholders. This will be done 
+by considering objective trustworthiness characteristics and maintaining both "abso lute" and "relative" 
+trustworthiness values to reflect the system's reliability over time, thereby supporting human trust decisions.  
+1.2.4.  Gender dimension  
+Although not specifically required by the topic 2024 -F2F-02-04, POMATO has a strong multi -actor participatory 
+approach and involvement of citizens, thus it will commit to address the diverse roles, needs, and opportunities, of 
+
+ 
+101181658 POMA TO – Part B    Page 20 of 33  
+citizens regardless their gender and sex. Special attention will be taken to the existing gap between men (68.4%) and 
+women (31.6%) farm managers to foster the engagement of women farmers in the MAPP creation.  
+1.2.5.  Open Science practices  
+By being compliant with the European Open Science Policy (EOSP) , the POMATO consortium adheres to 
+achieving responsible research practices to achieve high quality and trustworthy results. The strategy to disseminate 
+or protect the results of POMATO is described in Section 2.2. Data associated with results which have potential for 
+commercial or industrial value will not be made accessible for verification and re -use, in general, due to IPR 
+measures. The consortium underlines the importance of OA to scientific publications and research data, which will 
+be managed by INO as lead partner for CDE activities and UBU as task lead Data management, who will ensure 
+adherence to EU guidelines about OA scientific publications and research data under Horizon Europe. Furthermore, 
+openness of the data and the results will be addressed throughout the project: i) all scientific publications will be 
+made freely accessible as early as possible through OA repositories on the EU innovative OA publishing services 
+such as Open Rese arch Europe53, and shared in OpenAire- and Google-compliant repositories, like Zenodo and 
+European Open Science Cloud (EOSC) , ii) the Communication and Dissemination Activities (WP6) have been 
+designed in a OA manner (see section 2.2) aimed at encouraging early sharing of outputs in an open, transparent, and 
+re-usable manner, to a wide audience incl. sector specific target stakehold ers and citizens, thereby contributing to 
+increasing the quality of research results, and maximizing the impact for society.  
+1.2.6.  Research data management  
+The data management process will prioritize how data and results are “Managed,” “Protected,” “Shared,” and 
+“Exploited,” using tools, methods, and open repositories to streamline sharing. Research Data Management (RDM) 
+will ensure the data is handled respon sibly, adhering to FAIR principles (Findable, Accessible, Interoperable, 
+Reusable). Data will be stored in repositories like Zenodo and Figshare for long-term accessibility, with compliance 
+to Article 17 of the Model Grant Agreement and the IPR policies in the Consortium Agreement. A Data Management 
+Plan (DMP) will be created early in the project (M6) and continuously updated, addressing data security, GDPR, 
+IPRs, and exploitation. The project will generate various data types, including observational, simul ation, reference, 
+and experimental, stored in file formats or database connections. UBU will be responsible for curating and preserving 
+all project data, with a dedicated budget for data management and quality assurance. WP2 will implement 
+FAIRcompliant pipelines to ensure the data remains machine -actionable and compatible with AI/ML analysis in 
+WP3, enhancing data accessibility and reuse.  
+2. Impact  
+2.1. Project’s pathway towards impact   
+ 
+This section covers POMATO’s pathways towards the Expected Outcomes (EOs)  defined in the topic at 
+mediumterm (from project’s end to 4 years later)  and these two Expected Impacts (EI)  of the Destination ‘Fair, 
+healthy and environment -friendly food systems from primary production to consumption’ of the Cluster 6 Work 
+Programme:  EI 1: sustainable, productive, climate -neutral and resilient farming systems […], while minimising 
+pressure on ecosystems, restoring and enhancing biodiversity, […] generating fair economic returns for farmers. EI 
+3: sustainable, healthy and inclusive food systems delivering co-benefits for climate mitigation and adaptation, […], 
+sustainable healthy nutrition, safe food consumption, food poverty reduction, the inclusion of marginalised people, 
+the empowerment of comm unities, and flourishing businesses. These pathways are defined by clear, measurable, 
+quantified, and assessable impact indicators  that fall  under 3 impact categories : scientific, economic & 
+technological and societal impact. The results of the project will be used or further up-taken by direct target groups 
+(TG, Table 2.1). POMATO will generate credible and sustainable will generate credible and sustainable impact 
+pathways in line with the Key Strategic Orientation 1 ‘Green Transition’ of the recently published HEU Strategic 
+Plan for 2025-2027.  
+Table 2.1. POMATO’s Target Groups (TG)   
+TG1. Conventional and organic potato and tomato growers  – farmers, land managers, landowners , national 
+and regional potato and tomato growers’ cooperatives (e.g. Agrico, HZPC, IPM Potato Group, TomatoLand 
+Cooperative, Anecoop, Consorzio Casalasco del Pomodoro), EU agricultural associations representing the interest 
+of stakeholders in the EU ( e.g. COP A-COGECA, Europatat, APRODEV ), agricultural holdings, agricultural 
+advisors, extension services  
+ Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+101181658 POMA TO – Part B    Page 21 of 33  
+TG2. Retailers, Wholesalers, and Distributors – supermarkets, grocery stores, wholesalers, and distribution 
+companies involved in the buying, storing, and selling of potatoes and tomatoes to end users (e.g. Carrefour, Tesco, 
+Lidl, METRO Cash & Carry, Eroski)  
+TG3. Input related industry: seed producers (e.g. EUROSEEDS); bio-based plant health services, manufacturers 
+of bio-based plant protection products (EBIC, IBMA )   
+TG4. Research and academic institutions - Institutions involved in research related to plant health and pest 
+control, RTOs focused on applied research and technological development, International research partners 
+involved in potato/tomato pest research   
+  
+53 https://open-research-europe.ec.europa.eu/   
+TG5. Technology and innovation sector – AI and data analytics companies developing predictive models and 
+Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+data analysis tools; Sensor technology companies developing polymeric sensors and other detection technologies; 
+Mobile app developers creating detection and monitoring apps.  
+TG6. Policy makers and regulatory bodies  – EU regulatory bodies involved in creating and enforcing 
+agricultural policies and regulations ( e.g. DG SANTE, DG AGRI, EFSA, EPPO, EU Plant Health Standing 
+Committee); National plant health agencies responsible for plant health regulation at the national level (e.g. BMEL 
+– Germany, MIP AAF – Italy, LNV – Netherlands); International regulatory bodies overseeing international 
+standards and regulations for plant health ( e.g. F AO, WTO- SPS Committee, IPPC, OECD – Agriculture and 
+Fisheries).  
+TG7. Environmental and conservation organisations – NGOs and advocacy groups focused on environmental 
+protection and sustainable agriculture (e.g. IUCN, TNC); EU, national and international biodiversity and ecosystem 
+service organizations dedicated to preserving biodiversity and ecosystem services (e.g. EEA, EEB, UNEP , BUND 
+– Germany).  
+TG8. End consumers – Consumers of potatoes and tomatoes who benefit from healthy and sustainably grown 
+crops; Consumer advocacy groups representing consumer interests in food quality and safety ( e.g. BEUC, 
+Consumers International (Europe), EPHA, ICRT).  
+TG9 Media and general public– Agricultural media (publications, websites, and other media outlets) focused on 
+agriculture and farming; General media: newspapers, television, radio, and online platforms that can help raise 
+public awareness and disseminate information about the project; Science and technology media that focus on 
+scientific advancements and technological innovations.  
+  
+SCIENTIFIC IMPACT   
+Increase the information of the molecular and biological characterization of potato/tomato RGs and the 
+quarantine and priority pests Cs/Rs. Corresponding to project´s objective O1  
+Impact Indicator: Acquisition of data related to potato/tomato RGs and isolation of bacteria from infected areas. 
+Target groups: TG1, TG2, TG3, TG4, TG6.   
+Scale and Significance: Currently in EU, there are no effective biological or chemical control methods for the 
+disease caused by Cs/Rs, and resistance to the disease in potato stocks has not been found. Control relies upon 
+keeping the pathogens out and on strict “decontamination” procedures as for example incineration of infected 
+material, machinery, planted material being destroyed and prohibitions to plant the crops until fields are found free 
+of the pathogens.7,8 In the USA, yield losses in individual cr ops due to diseased plants and tuber due to Cs have 
+been as high as 50%.  On the other hand, most commercial tomato plants are susceptible to Rs and the few resistant 
+varieties that exist make very small tomatoes. 54 POMATO proposes a method for studying potato RGs against 
+Cs/Rs, and for tomato against Rs based on the respective genetic resources. This will ensure a long-term sustainable 
+and successful strategy for managing increasing Cs/Rs disease and cultivating more resistant potatoes and 
+tomatoes. POMATO will thus offer a strategy in line with the EU Biodiversity Strategy 2030's primary action to 
+enhance genetic variety on agricultural land, which would benefit EU health and economy. To achieve this impact, 
+the project proposes the following pathways:  
+Project Contribution to 
+EO 1: responses to new 
+and/or emerging plant pests  
+Means of Verification  
+
+ 
+101181658 POMA TO – Part B    Page 22 of 33  
+Short term: Collection of 
+all the available genetic 
+Cs/Rs, and identification 
+and characterisation of 
+potato/tomato RGs against 
+diseases caused by these 
+bacteria. Medium term : 
+Mapping of potato/tomato 
+RGs against quarantine 
+pests Cs/Rs in EU.  
+Linked to results R1-R6 of the project:  
+• 100 isolated bacteria from infected areas with 80% effectiveness  
+• Molecular monitor control: 12 metagenomic analysis performed in 100 isolated 
+bacteria.  
+• 200 potato samples (50 native and 20 wild varieties from Europe; 130 native and 
+landrace varieties from LA TAM) analysed for their tolerance level.  
+• 200 tomato samples (50 native, 130 wild and 20 improved varieties from LATAM) 
+analysed for their tolerance level.  
+• Establishment and spread of pathogen: 10 non-supressive consortia identification 
+and ~ 6 genetic, environmental and soil factors.   
+  
+Project Contribution to EI 3: delivering co-benefits for climate mitigation 
+and adaptation  Means of Verification  
+Long term: Prevent similar losses in potato/tomato production in the EU to 
+those seen in other countries where these pests already exist.9,10 Similar  
+At least 5% (of the above 200 
+samples of potato/tomato resistance  
+  
+54  Planas-Marquès et al. (2020). J.  Exp Bot 71, 6, 2157-2171  
+ 
+101181658 POMA TO – Part B    Page 23 of 33  
+molecular characterisation strategies could be replicated to other type of 
+crops (pepper, eggplant, etc.).  
+Associated with document Ref. Ares(2025)2863795 - 
+08/04/2025varieties for targeted diseases 
+and pests will reach the market.  
+  
+ECONOMIC/TECHNOLOGICAL IMPACT   
+Long-term sustainable pest diseases integrated management, including prevention, early detection 
+surveillance and natural control strategies. Corresponding to project´s objectives O2-O4. Impact Indicator:  
+Catalogue of innovative solutions to respond to quarantine potato/tomato pests. Target groups: TG1, TG3, TG5, 
+TG8, TG9.  
+Scale and Significance: POMATO is structured around the EU's agricultural research and innovation strategy, 
+notably the set of initiatives aimed at "Priority 2: healthier plants".55 As the EU strives to reduce the use of chemical 
+pesticides,56 natural biocontrol products are being more widely used in agricultural practices (e.g., biopesticides 
+CAGR 20% vs synthetic pesticides CAGR 4.7% for the period 2018-2023).57 POMATO will develop sustainable 
+and systemic IPM strategies to address the prevention, monitoring, control, and management of Cs/Rs, as an 
+alternative to the use of pesticides or other strict methods, in combination with other innovative agronomic and 
+digital solutions. In this regard, the project is fully in accordance with the actions of the “Agriculture and the Green 
+Deal”, as it promotes the adoption of a long-term IPM by farmers to achieve a healthy and sustainable food system 
+for people and the Earth.58 To achieve this impact, the project proposed the following pathway:  
+Project Contribution to  
+EO 2: to prevent, monitor and 
+(bio)control plant pests  
+Means of Verification  
+Short term : Integrate 
+sustainable innovative 
+solutions and validate them 
+as an IPM strategy at TRL 5 
+in 4 different geographical 
+areas (Poland, Spain, 
+Ecuador and Colombia) 
+based on their respective 
+climate conditions and 
+globalisation factors.  
+Medium term : laying the 
+foundations for future 
+development (TRL 5→7/8) 
+of novel plant diseases 
+strategies (e.g., natural 
+products stimulating the 
+expression of RGs).  
+Linked to results R7-R18 of the project  
+• MAGs and GEMs towards plant’s immune response against Cs/Rs and identify ~10 
+metabolites at early stages of infection.   
+• At least 10% of the most relevant genetic signatures of the pathogens are identified 
+related to disease progression.  
+• >1,000 high-resolution multispectral images from healthy and infected crops.  
+• >1,000 analysed infected plant images with AI -based models (80% weighted 
+accuracy).  
+• 10 active suppressive metabolites detected by polymeric sensor.  
+• Decrease of 40% the incidence of Cs/Rs applying plant-derived organic substances, 
+biocontrol coatings and chemoperception, and 60% when applying PGPM.  
+• Early detection of diseases by the MDD detection device (90% reliability) and by 
+polymeric sensors (95% accuracy).  
+• Validation of POMATO’s IPM strategies in 4 CS at 2 LATAM and 2 EU countries 
+in greenhouses and real infected field trials, including a complete study of the 
+safety hazard assessment and safe by design study and environmental and 
+economic analysis.  
+  
+Project Contribution to EI 1: resilient farming systems, 
+minimising pressure on ecosystems, restoring and  
+enhancing biodiversity, fair economic returns for farmers.  
+Means of Verification  
+Long term : Exploitation and dissemination of a rigorous, 
+sustainable, and economic IPM to control Cs/Rs for potato, 
+tomato and other crops of the Solanaceae family. The project 
+envisaged the collaboration with the JRC to develop 
+reference reports in support of a harmonised IPM in the EU 
+legislative acts and standards.59  
+The dissemination of EU guidelines and/or action 
+plans rooted in POMATO's IPM strategy for 
+preventing potato and tomato diseases stands to 
+significantly benefit crop farms across the EU, 
+which constitute 58.2% of all farms.1  
+  
+SOCIETAL IMPACT   
+
+ 
+101181658 POMA TO – Part B    Page 24 of 33  
+Creation of an interactive innovation model to help the implementation of potato and tomato’s IPM plans 
+across different professional backgrounds at local, regional, national and international scale (‘Multi-Actor  
+Approach’). Corresponding to project´s objective O5. Impact Indicator: Practice abstracts of EIP-AGRI. Target 
+groups: All TGs  
+  
+55  A strategic approach to EU agricultural research & innovation (2016). Final Paper. Available 
+here. 56  Directive 2009/128/EC. Sustainable use of pesticides. Available here. 57  Frost & Sullivan 
+(2019). Global Crop Protection Market, Forecast to 2023. 58 
+ Integrated Pest Management in the EU Green Deal. Available here.  
+59 JRC: Reference & Measurements. Available here.  
+Scale and Significance: The EIP-AGRI policy goal of “speeding up” innovation will be met from the start of the 
+Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+project and in the long run thanks to the active participation of farmers and agri -food businesses through the key 
+associations. The multi-actor participatory platform will include the scientific & technical community, companies 
+(SMEs, large industries, ag ricultural/potato associations, and cooperatives), and citizens/consumers across the 
+potato/tomato value chain to share knowledge and cooperate one with each other to maximize our results and 
+outcomes. This platform will be critical for enhancing rural com munity engagement at all scales (local, national, 
+and international) and for disseminating the project's proposed IPM strategies. POMATO's impact will be 
+amplified by close engagement with current EIP Operational Groups (OPs) and sister projects. To achieve this 
+impact, the project proposed the following pathway:  
+Project Contribution to EO3: Support to 
+relevant EU and Associated Countries’  plant  
+health policies  
+Means of Verification  
+Short term : Share knowledge, experience, 
+and background due to the complementary 
+disciplines of the multiple actors. Medium 
+term: acceptance and adoption of the 
+POMATO solutions by farmers and other 
+actors of the potato value chain production.  
+Linked to results R19-R22 of the project:  
+Multi-actor participatory platform (4 years + 5 additional years 
+after projects end). 25 “practice abstracts” for EU CAP Network; 
+4 one -on-one workshops with policymakers; participation in 
+government consultations, and 4 Thematic “Open Days”; 1 Policy 
+Recommendation Report (M40) presented to the EC in a clustering 
+event;1 POMATO IPM Plan (translated in at least 3 languages)  
+  
+Project Contribution to EI 1: resilient farming systems, 
+minimising pressure on ecosystems, restoring and  
+enhancing biodiversity, fair economic returns for farmers.  
+Means of Verification  
+Long term: Implementation of potato/tomato IPM across 
+all the actors and main EU producers will ensure economic 
+sustainability of EU potato/tomato production, increase 
+farm competitiveness and improve key actor’s position in 
+the value chain.  
+Farmers, potato/tomato producers and traders will be 
+aware of the potential threats, and they are also well 
+informed and trained in the strategies to carry in case 
+of potential impact in their lands and production.   
+2.1.1 POMATO’s Contribution to other EC priorities   
+POMATO is built up with a strong commitment towards the key policies objectives of the new Common 
+Agricultural Policy (CAP), Farm-to-Fork strategy and SDG (2, 8, 13, 15, 17) for the period 2023-2027, briefly: 
+1) “Fostering knowledge & Innovations” → involving farmers to our research activities and outcomes; 2) “Halting 
+& reversing biodiversity loss” → preserving more resistance potato/tomato varieties, 3) “Efficient natural resource 
+management” → developing a sustainable, effective and long -term management strategies to tackle outbreaks of 
+pests; 4) “Contributing to climate change mitigation”  → boosting sustainable and bio-based circular solutions for 
+plant health and reduce the use of pesticides; 5) “Increasing competitiveness” → involving all relevant actors in the 
+potato/tomato value chain. The project also will support the Plant Health Law 2016/2031  and all the associated 
+implementing acts related to pests, commodities and plant health requirements11.   
+2.1.2  Requirements and potential barriers  
+The technological barriers facing POMATO lie in the potential for low demand of various natural and bio -control 
+solutions among end-users in the potato/tomato industry, as well as within the bio-based agrochemical industry. This 
+challenge has the potential to hinder the further development of the solution as it progresses to higher TRLs. On the 
+
+ Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+101181658 POMA TO – Part B    Page 25 of 33  
+citizen side, a lack of engagement and adoption of IPM plan could undermine the application of POMATO's 
+outcomes. Potential economic externalities such as the fluctuation in demand and prices of crops may also impact 
+the economic viability for farmers to adopt new pest management practices. To address these challenges, POMATO's 
+strategy is two-fold: First, project partners will collaborate with other funded EU projects, initiatives, and OPs of the 
+EIP-AGRI to establish dedicated stakeholder forums. These fo rums will aim to mitigate potential barriers by 
+showcasing the benefits of the developed strategies to a wide audience. Second, POMATO will provide 
+welldocumented results, dissemination materials, and engagement activities to all stakeholders. This comprehensive 
+approach will provide a solid foundation to garner support for our results. Regulatory standards play a pivotal role 
+in the POMATO project. All our endeavours will meticulously adhere to the standards set forth by the EPPO, 
+particularly those pertaining to pests, such as PM1/002(32) EPPO A2 Lists of pests recommended for regulation as 
+quarantine pests (2023),6 and the diagnostic standards PM 7/59 2 for Cs and PM 7/21 (3) for Rs species complex.45 
+This commitment ensures alignment with established norms and prevents potential conflicts with existing standards. 
+POMATO will prioritize compliance with the EU’s regulatory framework, which significantly influences the 
+production and commercialization of pest management solutions. Key components of this framework include the 
+Plant Health Law 2016/2031,11 essential for implementing IPM strategies to safeguard plant crops both during and  
+  
+beyond the project's duration, and the Regulation 2019/2072 5 on protective measures against plant pests, alongside 
+specific regulations targeting the eradication of Cs/Rs,7,8 which will be closely observed to ensure comprehensive 
+adherence to regulatory requirements.  
+2.2. Measures to maximise the impact  
+ 
+POMATO’s Dissemination, Exploitation and Communication Plan (DEC) is crafted to spotlight the innovative 
+features of the project, encompassing different tools and technologies, along with meticulously developed Integrated 
+Pest Management system, to prevent, monitor and (bio)control plant pests.  
+2.2.1.  Dissemination strategy  
+The POMATO Dissemination Strategy will provide a blueprint to guide partners in sharing knowledge and results 
+with target groups for adoption and reuse. Using the AIDA communication model, dissemination activities will 
+follow a multi -actor, multi-step approach to en sure POMATO results are effectively communicated. The table 
+outlines tailored Dissemination Objectives, actions, channels, and KPIs for each target group (TG).  
+Table 2.2 Dissemination Objectives (DO) with corresponding actions/channels, KPIs and TGs  
+DO-1. Increase Awareness and Knowledge Sharing Among Growers: Raise awareness and share knowledge 
+about innovative pest management strategies and tools developed by the POMATO project   
+Activity/channel: Engagement with growers in LA TAM (2, one in Colombia and other one in Ecuador) and in 
+Europe (4, Poland, Spain, Portugal and Brussels); Open days related to each pillar of POMATO IPM strategies 
+in collaboration with agricultural advisors and extension services (4), IPM Guidelines for farmers (2 translated in 
+at least 3 languages); Practice Abstracts ( 25), Explanatory videos showcasing best practices and POMATO 
+technologies (≥3); POMATO Multi-Actor Participatory Platform for information sharing.  Target groups: TG1  
+DO-2. Foster Collaboration and Knowledge Exchange: Facilitate collaboration and knowledge exchange 
+between research and academic institutions involved in plant health and pest management   
+Activity/channel: Present research findings and innovations at scientific conferences & symposia ( ≥20 
+proceedings/posters) and webinars/online workshops ( ≥15), Publish articles in peer -reviewed journals ( ≥10). 
+Establish a network of researchers and institutions for ongoing collaboration and information sharing (including 
+sister EU projects) (≥10 members outside of consortium). Target groups: TG 4,5,7  
+DO-3. Promote the adoption of sustainable pest management: Promote the adoption of sustainable pest 
+management practices among retailers, wholesalers, and distributors to ensure the supply chain supports and 
+enhances the quality and safety of potatoes and tomatoes, ultimately benefiting end consumers  
+Activity/channel: Informational brochures ( 2), video ( 1) and joint workshops/seminars ( 4) to discuss best 
+practices and share success stories; Partner with retailers and wholesalers for pilot programs to test and validate 
+POMATO’s innovations in real-world supply chains (≥4 representatives engaged). Target groups: TG 2  
+ 
+45 EPPO standards for C. sepedonicus here. R. solanacearum here.  
+ 
+101181658 POMA TO – Part B    Page 26 of 33  
+DO-4. Engage Policy Makers and Regulatory Bodies: Support the implementation of effective plant health 
+policies and regulations based on POMATO's findings  
+Activity/channel: Policy briefs (2 – translated in at least 3 languages), Position paper (1 – translated in 3 at least 
+languages) to highlighting key findings and recommendations; Policy roundtables and briefings with relevant EU 
+and national regulatory bodies ( ≥2 events); Participation of POMATO members in consultations and advisory 
+panels to influence policy development (≥3 events). Target groups: TG6&7  
+DO-5. Promote POMATO Innovation to Industry: Promote the adoption of natural and bio-control solutions 
+and integrated pest management (IPM) strategies within the agricultural industry, including seed producers and 
+manufacturers of plant protection products  
+Activity/channel: Collaborate with industry partners to scale up and validate bio -control solutions and IPM 
+strategies ( ≥5 industry representatives engaged in POMATO multi-actor activities); training sessions and 
+workshops for industry stakeholders on implementing POMATO solutions (≥6). Case studies and success stories 
+demonstrating the economic and environmental benefits of the proposed POMATO strategies (≥10 publications 
+in specialised agriculture media outlets; over 30 related blogs on the POMATO Participatory Platform). Target 
+groups: TG3  
+DO-6. Raise Public Awareness and Consumer Engagement: Raise public awareness and engage consumers 
+about the importance of sustainable pest management practices and the benefits of POMATO's innovations for 
+food safety and quality  
+Activity/channel: Educational content, including infographics ( ≥2 translated in 3 languages), videos ( 3), 
+Collaborate with at least 6 consumer advocacy groups to amplify the message and reach a broader audience.  
+Target groups: TG 8 & 9  
+2.2.2.  Exploitation strategy  
+POMATO will put in place an Exploitation Plan, which will include:  i) assessment and categorisation of the key 
+exploitable results (KERs) ii) assessment of exploitation strategies for POMATO results (scientific & educational, 
+societal, policy and potential commercial) and roadmap for their implementation; iii) the joint and individual  
+ Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+101181658 POMA TO – Part B    Page 27 of 33  
+exploitation plans; iv) assessment on how different multi -actor governance models have been implemented in the 
+project pilots, and how these models could be utilised for the promotion of POMATO’s KERs. Preliminary 
+provisional list of KERs and end users are:  
+Table 2.3. Identification of KERs, Background Knowledge, Future Exploitation Intentions and Target Stakeholders  
+KERs, Background Knowledge, Future Exploitation Intentions and Target Stakeholders  
+KER1: AI Predictive Models for disease detection, spread & risk (Background: FUND, other partners involved in 
+development: WUR, IDEN, AGRO. Exploitation intentions: (non)commercial (year of commercialisation: 1-2 years 
+after project ends). Target stakeholders: TG1  
+KER2: Multiparametric Disease Detection sensing device (Background: IRIS). Exploitation intentions:  
+commercial (year of commercialisation: within 3 years after project ends). Target stakeholders: TG1  
+KER3: Mathematical modelling tools ( Background: IDEN). Exploitation intentions: commercial. Target 
+stakeholders: TG5  
+KER4: Polymeric sensors (Background: UBU). Exploitation intentions: commercial. Target stakeholders: TG1  
+KER5: AI-driven Cloud data management platform (Background: IRIS). Exploitation intentions: commercial  
+(year of commercialisation: within 1 years after project ends). Target stakeholders: TG1  
+KER6: Natural and bio-control solutions, Exploitation intentions: commercial, Targeted stakeholders: TG1  
+KER6.1 Plant-derived organic substances (Background: FUND)  
+ KER6.2 Biocontrol coatings (Background: FUND)  
+ KER6.3 Plant growth-promoting microorganisms (PGPMs) (Background: JSI)  
+ KER6.4 Chemoperception disruptors. (Background: CBGP),   
+KER7: Omics marker of infection (WUR), Exploitation intentions: commercial (year of commercialisation: within 
+1 years after project ends), Targeted stakeholders: TG1  
+KER8: POMATO’s Integrated Pest Management (IPM) plan, guidelines and policy recommendations 
+(Background: joint). Exploitation intentions: non-commercial. Target stakeholders: TG1, TG3, TG4, TG6, TG7.  
+KER9: POMATO Multi-Actor Participatory Platform (INO). Exploitation intentions: non-commercial. Target 
+stakeholders: TG1-9  
+2.2.2.1. Main POMATO’S Exploitation Routes  
+Scientific exploitation – Academia will use POMATO results to establish new R&I projects building upon the 
+project achievements. The scientists and developers releasing new or updated models under opensource modality 
+will leverage open -source communities, widening their visibility. The POMATO results will potentially lead to 
+spinoff research both by project partners and by other stakeholders due to the multiplier effect of the pilot and 
+networking activities. POMATO will further high-profile research beyond the project through: (a) training a new 
+generation of researchers in AI predictive and mathematical modelling, polymeric sensors, bio-control solutions and 
+integrated pest management (UBU, FUND, USFQ, CBGP); (b) publishing its innovative pest management methods 
+and scientific results in high-impact journals and conferences; (c) exploring opportunities for using POMATO results 
+for educational purposes (e.g. launching new academic programs); (d) liaison with entities including FAO, WTOSPS 
+Committee, IPPC, OECD-Agriculture and Fisheries, and its Flagships and Initiatives (T6.3).  
+Policy related exploitation – POMATO results will be developed to create long lasting impacts on the farm to fork 
+strategy and transition to fair, healthy and environmentally-friendly food systems as well as to support EU Regulation 
+on protective measures against pests of plants. Thus, with the active participation of EUROPA TAT, UBU, PIN and 
+JRS, POMATO will invest significant efforts to influence the targeted policy processes on multiple levels by 
+supporting regional, national or international (e.g. DG SANTE, DG AGRI, FAO, IPPC) reports, policy instruments 
+such as decrees and norms, and policy implementations in programs and projects. To orchestrate the partners’ efforts, 
+the POMATO activities related to policy and scientific outreach (T5.5) will be planned and executed to bring 
+together and highlight the knowledge created in the WPs. Different forms of outputs of POMATO project results 
+(DO’s 2 & 4) are envisioned to lead to policy influence and impact, such as: high -quality scientific writing; 
+highquality s cientific presentation (oral/keynote at international scientific and policy conferences, workshops or 
+events); training on project outputs (workshops, hands -on sessions, but also videos and other digital artefacts 
+available in the POMATO Participatory Platform); publicly disseminated recommendations, guidelines and best 
+practices; written statements on the (potential) policy relevance of project results (policy briefs).   
+Societal exploitation - Community outreach and educational programs will be developed to raise awareness and 
+engage the public in pest management practices. As such, POMATO outputs will include tools, solutions and 
+methods that allow a wide range of stakeholders to actively engage in supporting implementation Farm to Fork 
+ Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+101181658 POMA TO – Part B    Page 28 of 33  
+strategy in general and identifying and managing Cs/Rs pests in particular. Combined with outreach campaigns that 
+highlight the importance of sustainable pest management for food security and environmental health, collaboration 
+with agricultural services to implement best practices and enhance community resili ence against pest outbreaks. 
+Commercial exploitation  - KERs perceived as having potential for commercial exploitation at this stage are 
+Multiparametric Disease Detection sensing (KER2), Polymeric Senso rs (KER4) and four Natural and bio -control 
+solutions (KER6). The partners owning IPR over these solutions will consider investment in their post -project 
+development to reach full market readiness level at TRL 8-9 or expand to other markets. This commercial initiative 
+is envisioned to be examined on an individual basis in cases where IPR belongs to only one partners or bilaterally 
+during cases of joint results during the project course (clarified in the Consortium Agreement). In the latter case 
+partners will consider creating a pool of resources (e.g., monetary, personnel) to cover the activities needed for market 
+penetration, if clear market opportunity and demand are identified during the project lifetime. This will permit sharing 
+risks and costs related to exploitation of results and concentrate efforts on reaching target markets. Detailed market 
+conditions for the commercial exploitation will be identified during the project development phase in D6.4 (M48).  
+2.2.3.  Communication Strategy  
+POMATO’s communication strategy will effectively employ content marketing, social media, and events to reach 
+out to society and show the impact and benefits of the project. Additionally, the POMATO Multi-Actor Participatory 
+Platform, in the scope of the website, will be a collaborative space, enabling stakeholders to share best practices, 
+access, and exchange resources.   
+Branding & Visual Identity  TGs: 1-9      M1 to M48  
+Establish a uniform POMATO brand and tone across all media channels, respecting gender dimension.  
+Target Values: Printable brand book 1; 1 Promo set – available as a e -material (Roll-up, Poster, Stickers, Bags, 
+Notebooks, Folders, Pens, etc.); 1 fact sheet per each pilot site; 3 Brochures on solutions, sustainability 
+commitments, technology benefits. No. of hard copy promo material distributed ≥ 1000  
+Website & Participatory Platform   TGs: 1-9  M01 to M48  
+Website (including POMATO Multi-Actor Participatory Platform) allowing easy retrieval of main action data 
+while acting as the core source of information about the POMATO objectives & activities. The first version of the 
+website will be online by M01, while the Participatory Platform by M18.   
+Target Values: Unique visitors from M12: >2.000; Unique visitors from M36: >10.000.  
+Social media  TGs: 1-9  M01 to M48  
+Online presence in social media channels (LinkedIn, X, YouTube) by spreading tailored content to interact with 
+different target groups.   
+Target Values: Size of online community (by M36): >1.000; No. of impressions (monthly average): >500; No. of 
+all project related videos on Youtube ≥ 20   
+Online publishing  TGs: 7, 8, 9  M1 to M48  
+Leveraging online press release publishing platforms (e.g. Eurekalert, AlphaGalileo), magazines that publishes 
+popular-audience articles by academics (e.g. Agrinnovation magazine, The Conversation), as well as CORDIS 
+Research EU Magazine will enable to rea ch out to a broader audience. Partners will disclose non -confidential 
+information of the project in their language to local media. Pilot partners will lead the stakeholder’s engagement 
+in their countries.  
+Target Values: Press releases ( ≥4 translated in 3 languages), Media engagements at pilot sites (at least 3 media 
+coverage per pilot site); Blog articles (≥40) for dissemination through various media channels.  
+Multimedia  TGs: 7, 8, 9  M6 to M48  
+Producing clear presentation of project scope, results and funding. A set of interviews from project experts and 
+other partners, utilising plenary meetings & events.  
+Target Values: Short videos ≥4; Number of interviews produced ≥10; Number of views >2.000  
+Public event management & community relations  TGs: 7, 8, 9  M6 to M48  
+Opening pathways for communication with broader audience through project events and providing the information 
+about POMATO innovation and solutions.  
+Target Values: (Online) events for broader audience (including events at demo site and events co-organised with 
+local actors): >10; Visitors per event: >50; Co-organisation of clustering events (≥3), Project final conference 1  
+ Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+101181658 POMA TO – Part B    Page 29 of 33  
+POMATO will regularly assess the effectiveness of communications and adapt the strategies by referencing 
+established benchmarks and KPIs, through Google Analytics and social media dashboards.   
+Dissemination and communication activities after the end of the project : Post -project dissemination and 
+communication efforts will focus on maintaining the website and POMATO Multi-Actor Participatory Platform for 
+four years, archiving newsletters, and periodically updating social media to inform stakeholders, such as farmers and 
+policymakers, about ongoing activities. Partner contact information will remain accessible for con tinued 
+collaboration and support. We will share practice abstracts, policy recommendations, and audio-visual content on our 
+platform and others, like the Horizon Results Platform, adhering to Open Science practices. Open -source tools and 
+datasets will be available in an open -access repository, with defined usage terms, while collaboration with relevant 
+initiatives will enhance outreach and ensure the sustained impact of the project's contributions.  
+2.2.4.  Feedback to policy measures  
+Key policies and legislative relevant to the POMATO project include the Farm to Fork Strategy, the Regulation on 
+Protective Measures Against Pests of Plants (Regulation (EU) 2016/2031), EU Plant Health Legislation, and the 
+Council Directive 2000/29/EC on protective measures against the introduction and spr ead of harmful organisms 
+within the Community. Throughout the project and within the framework of T5.5 IPM Guidelines for farmers and 
+Policy Recommendations, POMATO will focus on understanding these regula tory landscapes and identifying 
+challenges related to plant pest management. This will be accomplished through a phased approach: Phase 1 (M0112) 
+will involve mapping out regulatory requirements and safety protocols for combating plant pests, including 
+compliance with existing EU regulations and directives. Phase 2  (M12-36) will leverage insights from project 
+activities to draft and refine EU policy recommendations, ensuring alignment with the Farm to Fork Strategy and 
+other relevant legislative frameworks.  Phase 3  (M36-48) will involve organizing stakeholder roundtables and 
+workshops to validate and enhance these recommendations. Our partners, affiliated with various policy and industry 
+bodies, will actively participate in policy networks and working groups, such as the Standing Committee on Plants, 
+Animals, Food, and Feed, industry meeting of Potato Value Chain, EAPR's (European Association for Potato 
+Research) Triennial Conference, the EUCAP Network, etc., to ensure that POMATO results inform and shape future 
+policy measures effectively. Through these efforts, POMATO aims to provide robust, evidence -based 
+recommendations that support the EU's goal of sustainable plant health management.  
+2.2.5.  Intellectual Property (IPR) management  
+POMATO will manage all IP rights under T6.5 Exploitation and IPR Management, distinguishing between two key 
+types of knowledge: i) Background knowledge, where consortium members will grant access to each other's 
+background knowledge based on agreements made prior to signing the Grant Agreement (GA), and ii) Foreground 
+knowledge, referring to new knowledge developed during the project, which will be protected, owned, and funded 
+by the partner(s) responsible for its creation. IP-related risks, challenges, and opportunities will be addressed in the 
+Consortium Agreement (CA), following EU recommendations on IP and knowledge transfer. POMATO will comply 
+with Horizon Europe's open access mandate, publishing on Open Research Europe and making materials available 
+on its website and OpenAIRE. To exploit project results, access rights will be agreed upon before signing the GA 
+and granted either under fair and reasonable conditions or royalty-free. Confidential information will not be shared 
+with third parties without explicit  authorization. Ownership of foreground IP will belong to the generating partner, 
+with joint ownership rules established in the CA. In the event of IP -related conflicts, partners will resolve issues 
+following the CA guidelines with the support of the Coord inator's IP Lawyer. To foster innovation, the consortium 
+has already outlined potential KERs and partner-specific IP, forming the basis for discussions during T6.5. INO will 
+also conduct three IP Rights Workshops for consortium partners during the project's lifespan. 
+ 
+ 
+  
+  
+2.3. Impact summary  
+ 
+Specific Needs  Expected Results (at the end of the project)  D & E & C measures  Target Groups  
+The growing threat of 
+Clavibacter sepedonicus  (Cs) 
+and Ralstonia solanacearum  
+(Rs) outbreaks, classified as 
+EPPO A1 quarantine pests and 
+subjected to EU regulations 
+aimed at eradicating and 
+preventing their spread  
+(Regulation 2019/2072), which 
+severely affect potato and 
+tomato crops , demands urgent 
+action. Current fossil -based 
+disease management practices 
+are unsustainable, and the 
+spread of these quarantine 
+pests, exacerbated by climate 
+change, poses a significant risk 
+to EU agriculture. There is a need 
+for rapid-response, and 
+cuttingedge digital 
+technologies for pest early 
+detection, surveillance, control, 
+and eradication.  
+POMATO develops a I-matrix tool for the specific isolation of 
+Rs from environmental samples, with at least 80% effectiveness 
+and it fully identifies at molecular level the of resistance genes 
+(RGs) from over 200 potato and tomato varieties (both wild and 
+cultivated) from EU and LATAM’s germplasm culture 
+collections. It sequences at least 12 pathogen genomes and 12 
+transcriptomic analyses to understand pathogen diversity and 
+virulence, while identifying at least 6 genetic, environmental 
+and soil factor that determine pathogen’s spread  and 
+establishment (R1-R6). POMATOs delivers metagenomic and 
+AI-driven detection tools  for early diagnosis and disease 
+surveillance, including polymeric sensors  that detect key 
+infection metabolites with 90% reliability , and AI models  
+trained on 1000+ images for 80% accurate disease prediction 
+(R7-R11). POMATO’s natural and bio-control solutions reduces 
+the pathogen’s incidence by 40 -60%, including plant-derived 
+substances, chemoperception disruptive products and PGPMs 
+(R12-R13). Finally, POMATO’s main goal is to validate the 
+Integrated Pest Management (IPM) Plan in 4 case studies (EU and 
+LATAM) at TRL 5 to control the outbreaks of these bacteria (R14-
+R17), providing the foundations and drivers for future 
+implementation of the IPMs by farmers and other target groups 
+through a dedicated multi-actor participatory platform and the  
+Dissemination & Exploitation 
+Measures: - >10 peer -reviewed 
+publications and >10 KER (Key 
+Exploitable Results). - Organization 
+of >4 thematic Open Days and 3 
+workshops with field trials across 
+Europe and LATAM. - Creation of 3 
+videos, 2 infographics, and >15 
+newsletters, targeting farmers, 
+researchers, and policymakers.   
+Communication Measures : - A 
+multi-actor participatory platform 
+(MAPP) for knowledge sharing, 
+cocreation, and networking with at 
+least 25 practice abstracts 
+contributed to the European CAP 
+Network. - Policy briefs and 
+position papers shared with EU 
+regulatory bodies. - Engagement 
+with >800 stakeholders including 
+farmers, industry, and academia  
+TG1-TG9: 1) Potato/tomato 
+farmers and growers (organic and 
+conventional), cooperatives, and 
+agricultural advisors across the EU 
+and LATAM. 2) Retailers and 
+distributors (e.g., Carrefour, Lidl) 
+responsible for delivering 
+sustainable produce. 3) Seed 
+producers and bio -based plant 
+health service providers. 4) 
+Research and technology 
+organizations (RTOs), universities, 
+and AI/sensor tech companies. 5) 
+Policymakers, regulatory bodies 
+(e.g., DG AGRI, EPPO), and 
+national plant health agencies. 6) 
+NGOs and advocacy groups focused 
+on biodiversity and sustainable 
+agriculture. 7) End consumers of 
+potatoes/tomatoes, particularly 
+those interested in sustainably 
+grown produce  
+C&D&E measures ( R18-R21 )  
+OUTCOMES  IMPACTS OF POMATO  
+ 
+ 
+OC1: New resistance genes identified for Cs and Rs, improving the genetic defence 
+of potato and tomato crops. OC2: Advanced AI -driven early detection and 
+monitoring technologies, including polymeric sensors and disease prediction 
+models with 90%+ accuracy.  OC3: Natural and bio -control solutions for Cs/Rs 
+reduction validated in real -field conditions, reducing pest incidence by 40 -60%. 
+OC4: Validated IPM strategies in real case studies ready for replication in other 
+Solanaceae crops, ensuring long-term pest control. OC5: Engagement and adoption 
+of POMATO tools across 4 case studies (LATAM and EU), fostering knowledge 
+exchange and sustainable farming practices  
+Scientific Impact : Establishment of molecular and biological data on potato/tomato 
+resistance genes and quarantine pests, leading to improved disease management practices and 
+enhanced biodiversity. Economic Impact: Adoption of long -term IPM strategies, reducing 
+reliance on chemical pesticides and improving farmers' economic returns. Technological 
+Impact: Development of innovative AI and sensor technologies for early detection and 
+biocontrol of pests. Societal Impact: Increased awareness and knowledge sharin g among 
+farmers and other stakeholders, leading to more resilient farming systems, reduced 
+environmental pressure, and better food safety for consumers  
+#§IMP-ACT-IA§#  
+101181658 POMA TO – Part B    Page 25 of 33  
+  
+ 
+ 
+3. Quality and efficiency of the implementation  
+ 
+
+ 
+ 
+engagement and exploitation activities will secure the maximum impact of the project (WP6). The technical WPs will be supported by WP 1 of project’s management.  
+  
+101181658 POMA TO – Part B    Page 26 of 33  
+ 
+101181658 POMA TO – Part B  
+Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+Table 3.1h: Purchase costs items (travel and subsistence, equipment, and other goods, works and 
+services) Travel and subsistence: T&S; Equipment: E; Other goods, works and services: OGWS  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+   
+
+ 
+101181658 POMA TO – Part B    Page 35 of 33  
+ 
+ 
+ 
+   
+   Page 27 of 33
+3.2  Capacity of participants and consortium as a whole  
+ 
+POMATO consortia is formed by 16 partners from 8 European Countries and 2 Latin American (AGRO and 
+USFQ). These partners bring the knowledge and experience for the implementation of POMATO bringing together 
+a multidisciplinary with strong competences in the field of plant pest management. In addition, the presence of the 
+EEAB will provide independent opinions on the research outputs and propose new actions to improve the quality 
+and applicability of project results.  
+research institutes in Poland with the multi -disciplinary area of crop improvement, biotechnology, 
+germplasm conservation and enhancement. It was founded in 1951 for research in breeding and seed 
+production of major field crops. It currently employs over 300 people (including 1/3 of scientists) and  
+consists of 17 R&D locations, including 6 research centers, 6 experimental stations and 5 plant breeding companies 
+located in different parts of Poland. The group of phytopathology involved in POMATO has extensive, specialized 
+research and scientific experience in the field of diagnostics, materials engineering, nano - and biotechnology 
+regarding potato pathogens, including the quarantine ones.  
+Added value to POMATO: IHAR has quarantine plant pathogens resources as well Potato Gene Bank a source of 
+collection of EU varieties and wild species of potato. Its laboratories allow for the performance of diagnostics needed 
+to prepare for research and identify the pathogens tested under WP2 and WP5. In addition, the team has the 
+appropriate conditions to develop a I-matrix, a tool for the isolation of Rs bacteria from environmental samples (WP2, 
+ST 2.1.1). IHAR has the appropriate facilities (equipment and phytotron chambers) to perform tests within WP2 and 
+a quarantine experimental field of 400 m2 allowing for the performance of validation tests with Cs on potatoes in 
+WP5. Role: Provide Cs strains and potato varieties for GR studies, developing I-matrix for bacteria isolation (WP2) 
+and validation for Cs in potato fields in WP5 (CS#4 Leader).  
+AGRO (Colombia): AGROSA VIA, the Colombian Agricultural Research Corporation, 
+founded in 1993, focuses on agricultural research, environmental sustainability, and food 
+security. With 23 locations, including 13 research centers, AGROSA VIA operates across Colombia’s five natural 
+regions. It employs over 380 researchers and 360 support staff, publishing over 600 research papers annually.   
+Added value to POMATO:  Dr. Mauricio Soto-Suárez’s laboratory specializes in plant pathology, studying pathogen 
+and host interactions to develop sustainable disease management strategies. The team, experts in various fields, has 
+published over 85 scientific articles in the las t decade. Role: AGRO’s role includes genomic and transcriptomic 
+characterization of potato and tomato resistance ( WP2 Leader). Their advanced facilities feature high -throughput 
+sequencing, gene expression analysis, and controlled growth chambers. The Tibaitatá Research Center has a 
+quarantine greenhouse and laboratory for biosafe experiments and field trials with local farmers (CS#2 Leader, 
+WP5)  
+USFQ (Ecuador): USFQ, a leading research university in Quito operates 3 research 
+stations in the Amazon rainforest, Galapagos Islands, and Andean region. For 15 years, 
+their lab has focused on pathogen identification, plant responses to stress, and plant- 
+microbe interactions, working with crops like potato, tomato, banana, broccoli, and maize. The team includes a 
+fulltime professor, a junior researcher, a lab technician, two PhD students, three master's students, and five undergrad 
+students. USFQ have publ ished 38 scientific papers with a total of 5445 citations, showcasing the impact of our 
+research.  
+Experts in Cs/Rs and Resistance Genes  
+ IHAR (Poland):  IHAR (Plant Breeding and Acclimatization Institute)61 is one of the largest agricultural  
+
+ 
+101181658 POMA TO – Part B    Page 36 of 33  
+  
+61 Link to IHAR Institute.  
+Added value to POMATO: collection of native and commercial potato varieties, essential for studying genetic 
+Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+resistance to various stresses. USFQ facilities include greenhouses and fields for pathogenicity assays, a molecular 
+lab for pathogen identification, and a microbiology lab for pathogen multiplication and morphological descriptions.  
+Role: Provide potato varieties for GR studies (WP2). CS#1 Leader in connection with local potato farmers (WP5). 
+ CBGP (Spain): The “Phytopathogenic Bacteria”46 group from CBGP, a center of excellence Severo Ochoa, belongs 
+to Polytechnical University of Madrid and it is a leading research group in plant pathology and biotechnology, with 
+a focus on understanding and combating bacterial diseases in  
+plants. The group has a long and contrasted experience in molecular biology and phyto-bacteriology techniques and 
+works with different models of phytopathogenic bacteria that affect tomato and potato crops. The group has a highly 
+qualified and multidisciplinary team of researchers and technicians and has published several relevant papers in the 
+last 10 years.  
+  real-time process monitoring and Digital Analytical Platforms. It excels in Photonics and AI, offering 
+solutions in NIR technology, Raman spectroscopy, hyperspectral technology, and machine vision,  
+crucial for Industry 4.0 innovation.   
+Added value to POMATO : IRIS has developed SWIR, hyperspectral imaging, and Raman devices, alongside 
+predictive software (Scadalytics), applicable in sectors such as food, pharmaceuticals, chemicals, plastics, and wood 
+industries. Their solutions enhance industry intelligence, sustainability, efficiency, process improvement, quality, and 
+resource efficiency while reducing waste and preventing off -spec products. Role: WP 3 Leader, Developer of the 
+cutting-edge Portable Disease Detection Multiparametric Device  
+ IDEN (Spain):  IDENER Research and Development is a RTO composed of a team of  
+engineers, scientists and software developers exploring the potential of AI for solving  
+challenging science and engineering problems. To do so, IDEN is using an extended interpretation of AI which fuses 
+machine learning, systems modelling, advanced control and mathematical optimization.  
+ 
+46 Link to the “Phytopathogenic Bacteria” group  
+Added value to POMATO:  All the tasks carried out by CBGP will be carried out in their own facilities, with the 
+specific requirements for the research objectives. CBGP has P1 and P2 facilities for GMOs and a P3 laboratory for 
+quarantine pathogens. The research group is authorized to use all the CBGP facilities. The research team involved in 
+POMATO is made up of highly qualified members in the field of Agrobiotechnology with high experience in the 
+approaches to be developed in POMATO: Prof. Emilia López Sola nilla, Prof. José Juan Rodríguez Herva, Prof. 
+Gema López Torrejón, Prof. Saray Santamaría Hernando. Role: Natural products to disrupt bacterial 
+chemoperception (T4.4 Leader).  
+Experts in Computational analysis, IA predictive models, and digital tools  
+ IRIS (Spain):  IRIS Technology Solutions, S.L. is an advanced engineering company specializing in  
+
+ 
+101181658 POMA TO – Part B    Page 37 of 33  
+Added value to POMATO:  Along many different European initiatives, IDEN has developed a strong background 
+in the development and application of computational tools to biotechnology processes, including machine learning, 
+process modelling and assessment and optimization tools. Role: Big-data analysis; ML techniques; GEM models for 
+studying microbial interactions in WP 2 and 3.  
+WUR (Netherlands): The Laboratory of Systems and Synthetic Biology (SSB) 47 at WUR is a 
+leading group in developing and applying computational and experimental methods to study  
+microbes and their interactions with the environment and hosts. The group has expertise in metabolic modelling, omics 
+data analysis and integration, synthetic biology, data mining, and FAIR data management.   
+Added value to POMATO: The group brings to the POMATO project the ability to analyse AI predictions with 
+knowledge-based approaches and to associate biomolecular data with disease symptoms. The group consists of 31 
+members, including four senior researchers who are directly involved in the project: Prof. Dr. María Suarez Diez, Dr. 
+Edoardo Saccenti, Dr. Jasper Koehorst, and Dr. Cristina Furlan.  
+Role: Computational analysis methods of biological data; AI predictive models of disease progression and 
+interpretation (participation in T2.4 and WP 3)  
+FUND (Spain): FUND is an RTO with expertise in Agrifood and Digital Transformation.  
+FUND will participate with a team of three researchers with experience in edible coatings,  
+natural and biocontrol solutions, and AI models for image analysis and disease prediction. FUND will coordinate 
+WP4 on natural and bio -control coating solutions and contribute to WP3 on AI -based early detection and risk 
+assessment. FUND has participated in 13 EU projects and published several scientific articles and patents.  
+Added value to POMATO:  FUND coordinates the project PATAFEST related to IPM strategies to control the pest 
+in the potato plant caused by bacteria zebra chip (ZC) and other threats during the postharvest activities. The 
+researchers working in Patafest will be directly involved in the project: Dr. Christian Ghidelli, Dr. Belinda Pérez 
+Bibbins and Álvaro Huertas. Role: AI for image analysis, AI models for pest spread in tomato and potato (T3.X) and 
+plant-derived organic substances and bio-control coating (WP 4 Leader)  
+  
+UBU (Spain): The University of Burgos features a versatile research team composed of the Associated with document Ref. 
+Ares(2025)2863795 - 08/04/2025 
+Polymers Group and the ICCRAM -EST Research Group. This team is skilled in developing 
+innovative strategies for early plant pest detection using polymeric sensory materials and applying  
+the SSbD framework for safety assessments of biocontrol solutions.   
+Added value to POMATO:  The Polymers Group specializes in detecting molecules using polymeric sensors, 
+focusing on designing, developing, and characterizing novel sensory materials for environmental applications. Their 
+expertise includes creating smart materials that detect targ et molecules with visible changes, such as color or 
+fluorescence, and developing accessible detection methods using a colorimetric display and smartphone app. 
+ICCRAM complements these capabilities with its focus on Environmental Biot echnology, Sustainability, and 
+Toxicology. Role: UBU, with extensive experience coordinating EU projects, will serve as the coordinator of 
+POMATO, having led 41 projects and participated in 99 across various EU programs Having participated in 35 EU 
+projects, The Polymers Group is leader of WP 5, coordinating all the activities performed in each CSs and is also 
+leading the development of the polymeric sensors (T3.3). ICCRAM excels in toxicity assessments and sustainability 
+evaluations. Their work includes li fe cycle assessments and applying the SSbD framework for material safety and 
+sustainability (T5.4)  
+Experts in the formulations and manufacturing of natural and bio-control solutions for plant pests  
+JSI (Slovenia): Institute Jožef Stefan is the largest public institute in Slovenia performing research 
+in biology, chemistry and physics and is composed of several departments. The  
+Department of Environmental Sciences is one of the largest departments hosting predominantly  
+chemists and molecular biologists and is the department where the Laboratory for Colloid Biology is located and 
+where studies of microbial communities in different environments are carried out. The research group is also dealing 
+with ecological and physiol ogical aspects of prokaryotic microorganisms in relation to other prokaryotes or 
+organisms like plants.   
+Added value to POMATO : The group for colloid biology specializes in understanding the ecological roles and 
+functioning of bacterial communities. In the project the team will be characterizing the microbiome that show 
+protective properties against potato and tomato pathogens. A dditionally, the team specialized in obtaining the 
+established functionally interconnected bacterial consortia from environmental samples, which can be applied in 
+different ways to the seeds, rhizosphere or the soil to enhance plant pr otection. Role: Characterization of natural 
+ 
+47 Link to the The Laboratory of Systems and Synthetic Biology (SSB)  
+ 
+101181658 POMA TO – Part B    Page 38 of 33  
+plant-related microbiota, preparation of formulations of bacterial consortia with plant protective characteristics. 
+Development of artificial consortia to be scaled up and applied in plant expermients in laboratory and field stage.  
+CHEM (Italy): CHEMIA is an Italian company that specializes in fine chemicals and agro -chemistry products. It 
+has a history of innovation and environmental awareness, with 11 patents on biopesticides and other formulations. 
+Chemia has a farm, an R&D laboratory, and a control quality laboratory, where it can produce, develop, and test its 
+products. Chemia owns all its infrastructures and does not need external  
+access for the project activities.  
+Added value to POMATO: Formulation of the solutions and capacity to scale-up the products for the greenhouses 
+and field validations following highest standard of quality, safety and respect for the environment. 
+Role: Scale-up process at pre-industrial scale (TRL 5) (Participation in WP4 & 5).  
+FERT (Serbia): FERTICO, an expert in industrial development of crop fertilizers, will be responsible for 
+manufacturing solutions developed at the pre-industrial (pilot plant) scale. Their areas of expertise are microbiology, 
+phytopathology, plant protection and chemistry.  
+ for diverse European value chains, such as agriculture and food production, Earth observation, and 
+water management.   
+Added value to POMATO:  Vladimir Mrkajic, with over 10 years of experience in implementing EU projects, will 
+occupy the role of POMATO Dissemination & Exploitation Manager. Maja Sremacki (PhD), with over 5 years of 
+experience in communicating scientific research, will occupy the role of POMATO Communication Manager. Role: 
+INO will lead WP6 and optimize dissemination activities to ensure the sustainability of project results, as well as 
+deliver a wide array of communication activities across different target groups using appropriate channels. INO will 
+also lead the project exploitation, managing IPR, and ultimately supporting the increased uptake of project results.  
+  
+PIN (Poland): The Polish Seed Trade Association (PIN) represents 83 affiliates, covering 80% of Associated with document 
+Ref. Ares(2025)2863795 - 08/04/2025 
+Poland's seed market. Its Potato Section controls over 90% of the country's potato seed market and focuses 
+on breeding, seed production, and phytosanitary safety, particularly combating Clavibacter.  
+PIN has led efforts to eradicate Clavibacter in Poland, collaborating with national authorities, European  
+organizations, and the potato sector.  
+Added value to POMATO : Extensive network and influence within the Polish potato seed industry and policy 
+makers. Role: PIN will facilitate effective communication and collaboration among stakeholders in the potato value 
+chain. Its strong ties with national authorities, local organizations, and European bodies will help promote project 
+outcomes, ensuring that key players ar e engaged and that the project's innovations reach the necessary audiences 
+(WP6).  
+EUPAT (Belgium): Europatat is the European Association of Potato Traders (including breeders, 
+distributors, storers, packers, importers and exporters) delivering seed potatoes to farmers, as well as raw material to 
+the food industry, packed potatoes to the retailers and food service sector. In total EUPAT has 69 members from over 
+ 
+48 Link to the certified products of FERTICO  
+Added value to POMATO:  Four registered microbiological products for seed treatment available on the market: 
+SPEED for SEED GRAIN, CORN, SOYA, and SUNFLOWER. 48 Role: Formulation of the solutions developed by 
+JSI and capacity to scale-up the products (TRL5) for the greenhouses and field validations following highest standard 
+of quality, safety and respect for the environment. (Participation in WP4 & 5).  
+Multi-actor engagement, including direct contact with farmers and policy makers  
+ INO (Serbia):  INO is a consultancy specialized in impact maximization and business services  
+
+ 
+101181658 POMA TO – Part B    Page 39 of 33  
+20 countries. It represents more than 80% of the European potato production and works with 
+different sectors of the potato value chain, EU institutions and research centres.  
+focuses on sustainable food production and consumption. Their mission is to achieve carbon neutrality 
+and reduce environmental impact through innovative agricultural technologies, education,  
+and partnerships. F4S specializes in Circular Economy, Sustainable Agriculture, Territory, Functional Nutrition, and 
+Entrepreneurship & Innovation, supported by a team of 30 R&D experts.  
+Added value to POMATO : F4S offers specialized training, workshops, and webinars on sustainable agriculture. 
+They have organized 50+ webinars and co-hosted the Soil-Microbiology Mini-conference, engaging stakeholders in 
+discussions on soil health and biocontrol. Role: In POMATO, F4S will be involved in knowledge transfer and 
+multiactor activities ( WP6), and in remote sensing image collection of healthy/infected tomato/potato fields in 
+Portugal and Poland (WP3). F4S will be in close contact with Direção-Geral de Alimentação e Veterinária (DGA V), 
+the Portuguese authority responsible for plant protection, plant health policies, phytosanitary measures, as well as the 
+agriculture notices service of the Portuguese Ministry of Agriculture. CS#3 Leader (WP5).  
+  
+4. Ethics self-assessment  
+Ethical dimension of the objectives, methodology and likely impact  
+HUMAN CELLS/TISSUES:  
+The SSbD strategy within POMATO includes the application and validation of cutting-edge in vitro assays involving 
+human cell lines for testing the potential hazards and toxicity of the solutions proposed in WP4. The human cell lines 
+used within these assays are widely used within the field of toxicology assessment. These tests are relevant to evaluate 
+potential hazards and risks of the developed solution early in the development phase in order to guide the design 
+towards safer alternatives. All the cell are commercially available.  
+ANIMALS:  
+Animal experiments performed in POMATO will ONLY involve aquatic toxicity test Acute Toxicity to Fish (OECD 
+203) to determine the LC50 for fish and the Honey Bee Toxicity Test (OECD 213) to determine contact and oral 
+toxicity to honey bees. Thus not subjec ted to request of authorization. However, POMATOS’s partners engage in 
+minimizing as much as possible the number of animals used in this project.  
+PERSONAL DATA:  
+POMATO will involve human participants through the conduct of interviews, surveys, workshop and other relevant 
+events along the project duration, especially in the activities planned in T6.2 and T6.4 where the multi-actor approach 
+activities will be carried out.  
+In more details human participant will be participating in:  
+1) engagement of the farmers and wider society (including youth and general publics) through workshops and four 
+“POMATO Pilot Open Days” in order to raise awareness about environmental and economic problems related to pest 
+outbreaks and inform them about P OMA TO solutions and cutting-edge technologies to address these challenge; 2) 
+consultations and one-on-one meetings with key industry and policy stakeholders at relevant events;  
+3) Identified stakeholders will be contact to assess their real-life needs, problems, and opportunities to engage in the 
+co-creation process of POMATO’s solution development and evaluation, as well as knowledge sharing throughout 
+the project's lifespan.  
+NON-EU COUNTRIES: Colombia (AGRO) and Ecuador (USFQ).  
+Added value to POMATO: Recent Eurostat production figures, incorporating the EU 27, UK, Norway, and 
+Switzerland, show that the 19 national members of EUPAT account for over 80% of Europe's total potato output, 
+highlighting the extensive reach the project has to key players in th e potato sector. Role: facilitate the collection of 
+data and information towards all the members, influence policy decision -makers about the project’s outcomes and 
+promote networking and communication activities (T5.5 and WP6).  
+ F4S (Portugal):  Associação para a Inovação no Alimento Sustentável (Food4Sustainability, F4S)  
+
+ Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+101181658 POMA TO – Part B    Page 40 of 33  
+AGROSA VIA’s role includes genomic and transcriptomic characterization of potato and tomato resistance (WP2 
+Leader). Their advanced facilities feature high -throughput sequencing, gene expression analysis, and controlled 
+growth chambers. The Tibaitatá Research Centre has a quarantine greenhouse and laboratory for biosafe experiments 
+and field trials with local farmers. AGROSA VIA is leading the case study CS#2 in WP5.  
+USFQ’s will provide the collection of native and commercial potato varieties, essential for studying genetic resistance 
+to various stresses. USFQ facilities include greenhouses and fields for pathogenicity assays, a molecular lab for 
+pathogen identification, and a microbiology lab for pathogen multiplication and morphological descriptions. USFG 
+is involved in potato varieties for GR studies (WP2) and is the leader of the case study CS#1 Leader in connection 
+with local potato farmers (WP5).  
+Both partners are included in the POMATO strategically as they are currently the same outbreaks that POMA TO is 
+dealing with (Clavibacter sepedonicus (Cs) and Ralstonia solanacearum (Rs). Both partners will ensure the exchange 
+of good practices while at the same time providing access to a wide germplasm collection of potato/tomato to carry 
+out the tasks in WP 2 and to infected fields to evaluate the developed strategies of POMA TO in two case studies 
+(WP5).  
+Regarding the importing material from EU countries to this LATAM countries: AGROSA VIA is in charge of the 
+characterization at phenotypic and genotypic level of both bacteria (WP2). For this purpose, AGROSA VIA will use 
+isolated strains from potato/tomato infected and germplasm collections from the partner IHAR (Poland). Potato and 
+tomato samples obtained from the European (IHAR, Poland) culture collections will be used to study their resistance 
+genes (WP2). In order to ensure that there will be no problems w ith shipping from Poland to Ecuador, IHAR has 
+already been in contact with the Office of Phytosanitary Supervision and International cooperation of our 
+Phytosanitary Inspection to follow the rules applied to this kind of samples.  
+ARTIFICIAL INTELLIGENCE:  
+POMATO will include AI-based models in the development of the early detection tools. AI-based predictive models 
+will be developed with a focus on technical and social robustness, ensuring accuracy and reproducibility in various 
+environments. This will invo lve systematic data acquisition, preprocessing, and model training, using Bayesian 
+hyperparameter optimization. Model performance will be rigorously evaluated with metrics like the Matthews 
+Correlation Coefficient to handle potential inaccuracies. The mode ls Will be tailored to agricultural contexts, 
+ensuring reliability. An AI-powered Cloud platform will integrate sensor data for disease prediction. Trustworthiness  
+will be fostered by maintaining both absolute and relative trust values, supporting informed human trust decisions. 
+Compliance with ethical principles and legislations  
+Processing of personal data: according to article 89.1 of the General Regulation on Data Protection, “the processing 
+for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes, shall be 
+subject to appropriate safeguards, in accordance with this Regulation, for the rights and freedoms of the data subject”. 
+POMATO will put in place a centralized system, in which only the lead partner (UBU) will have the competencies 
+to authorize access and, by extension, withdraw access to any sort of personal data concerning the project. With this, 
+POMATO wishes to successfully ensure that the rights of the participants in the project will be safeguarded. For the 
+informed consent, POMA TO will provide each participant with a consent form that will always have to be signed 
+before participation in the project. Since one of the fundamental principles of the GDPR (article 5) is transparency, 
+it is on best interest of POMATO to provide as much information as possible and to make  the information as 
+transparent as possible. The consent form includes the following subjects, according to the EU Guidelines on consent 
+under Regulation 2016/679: i) The controller’s identity; ii) The purpose of each of the processing operations for 
+which consent is sought; iii) What (type of) data will be collected and used; iv) The existence of the right to withdraw 
+consent; v) Information about the use of the data for automated decision-making in accordance with Article 22 (2)(c) 
+where relevant; vi) On the possible risks of data transfers due to the absence of an adequacy decision and of 
+appropriate safeguards as described in Article 46.  
+Ethics Summary Report  
+Human participants will be involved in research and communication activities such as surveys, workshops, and 
+consultations. Data processing including transfer between EU and non -EU countries will take place. Standard 
+toxicity tests will make use of commercially available human cell lines and fish and honeybees. Export of bacterial 
+pathogens for potatoes and tomatoes is planned and infected experimental sites will be exploited in the project. 
+Finally, the proposal included the development of AI tools for early detection and prediction.  
+ Associated with document Ref. Ares(2025)2863795 - 08/04/2025 
+101181658 POMA TO – Part B    Page 41 of 33  
+Due to the diversity and the number of ethics issues raised by the planned activities and the large number of partners 
+involved, it is recommended to appoint an ethics mentor to advise the project participants on the ethics issues and to 
+keep a report on the activities on file to be made available promptly upon request.  
+The Consortium declares that compliance with the ethical principles and the applicable EU, international, and 
+national laws for the ethics issues identified in the Ethics Summary Report and any additional ethics issues that may 
+emerge in the course of the grant, will be ensured.  
+The Consortium confirms that for any applicable ethics issue, the guidance provided in the European Commission 
+Ethics Self-Assessment Guidelines will be rigorously followed.  
+ 
+ 
+Associated with document Ref. Ares(2025)2863795 - 08/04/2025HE 
+MGA — Multi & Mono: v1.2 
+ANNEX 2

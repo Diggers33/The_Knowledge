@@ -1,0 +1,1313 @@
+4. V. Shapaval, J. Schmitt, T. Møretrø, H -P. Suso, I. Skaar, A.W. Åsli, D. Lilehaug, and A. Kohler. 
+Characterization of food spoilage fungi by FTIR. 2013. Journal of Applied Microbiology, 114 (3), 
+788-796.  
+5. Bassan P, Kohler A, Martens H, Lee J, Byrne H J,  Dumas P, Gazi E, Brown M, Clarke N,  Gardner 
+P (2010) Resonant Mie Scattering (RMieS) Correction of Infrared Spectra from Highly Scattering 
+Biological Samples, Analyst 135, 268–277. 
+List of up to 5 relevant previous projects or activities, connected to the subject of this proposal 
+1. 2012-2014: Coordinator for the EU project ( FP7-SME-2012 ‘Research for the Benefit of SMEs’ ) 
+entitled ‘Source tracking and monitoring of mould contamination in food production’ with acronym 
+‘FUST’  in European Union’s Seventh Framework Programme managed by REA -Research Executive 
+Agency (FP7-SME-2012-315271-FUST) Ranged as number 8 among approx. 150 funded projects. (EU 
+funding:  1 130 050 Euros). 
+PHOTONFOOD 
+ 
+74 
+ 
+2. 2019-2022: Coordinator for the NFR FriNaTek project entitled ‘DeepHyperSpec -Combining spectral 
+and image information in the analysis of hyperspectral imaging data’ grant Nr. 289518 (Total grant: 
+12.684 Mio NOK). 
+3. 2016-2021: Coordinator for the ‘Multidisciplinary graduate and post -graduate education in big data 
+analysis for life sciences’ funded by SIU, the Norwegian Center For International Cooperation In 
+Education, Eurasia 2016 - Long-term grant Nr. 257622 (Total grant: 3 Mio NOK). 
+4. 2018-2021: Partner in the EU Horizon 2020 project: ICT-30-2017: Photonics KET 2017: Mid-infrared 
+arthroscopy innovative imaging system for real -time clinical in depth examination and diagnosis of 
+degenerative joint diseases. (EU funding: total budget: 6133635 Euro, NMBU part: 538431 Euros) 
+5. 2017-2022: Safer food through changed consumer behaviour: Effective tools and products, 
+communication strategies, education and a food safety policy reducing health burden from foodborne 
+illnesses (SafeConsume). Source: European Commission, Horizon 2020. EU funding: EUR 9,500,000). 
+Description of any significant infrastructure and/or any major items of technical equipment, 
+relevant to the proposed work 
+The BioSpec group is a world leader in the data analysis of spectroscopic data, developing specific protocols 
+for the processing, modelling and integration of data from spectroscopy, chemical analysis and genetic 
+analysis for data in life and biomedical sciences. The group has during the last decade developed an excellent 
+data science infrastructure with in-house GPU computing facilities. The BioSpec group is world leading in 
+modelling of infrared spectroscopic data for calibration and classification problems. The BioSpec group at 
+NMBU has developed a vibrational spectroscopic database (BIOSDATA SQL) which contains a large 
+number of spectra of biological samples and chemicals and which is used for calibration and classification 
+model establishment. The group has long-standing experience in using national computing infrastructures 
+such as Notur (high performance computing in Norway) and Orion at NMBU. The group has a newly 
+established facility at NMBU, comprising a high -throughput vibrational spectroscopic screening platform 
+for macro-scale measurements (two FTIR and one FT-Raman system), and a vibrational microspectroscopy 
+platform (FTIR microscope with a wide variety of objectives for transmission/reflection chemical imaging; 
+Purchase of Raman microscope is i n process). The research groups involved in the project have a large 
+spectrum of in-house developed modelling tools (in-house data science platform in Matlab and Python, data 
+science platform Orange, numerical methods for electromagnetic field simulation such as integral methods 
+and FDTD) and commercial software tools. TheBioSpec group has a well -established data management 
+plan including a pipeline for storage and continuous documentation of experimental data, and a plan for 
+archiving of data (see: https://www.nmbu.no/en/faculty/realtek/research/groups/biospectroscopy/data -
+management). For archiving data we use the Norwegian Centre for Research Data (NSD).   
+Organisation Short 
+Name UULM 
+ 
+Organisation Legal 
+Name  University of Ulm 
+Country GERMANY 
+Website  https://www.uni-ulm.de  
+Description of the legal entity 
+UULM is among the leading ‘Golden Age Universities’ ranked #3 in Germany, and #18 in the 
+world (Times Higher Education ranking) educating 10,000+ students in (i) Natural Sciences, (ii) 
+Mathematics & Economics, (iii) Engineering, Computer Science and Psychology, and (iv) 
+Medicine. The Institute of Analytical and Bioanalytical Chemistry (IABC; uni -ulm.de/iabc) at 
+UULM is chaired by Prof. B. Mizaikoff and comprises 3 lead Professors next to 8 permanent 
+technical and scientific staff members. Embedded in the faculty of natural sciences, IABC is 
+internationally acknowledged for its cross -disciplinary research programs, which are focused on 
+the development and application of innovative (micro - and nano-) analytical platforms providing 
+advanced methods and technologies in sensing, diagnostics, and imaging of complex molecular 
+processes relevant to environmental, industrial, and medical/biological application s. On average, 
+20 Ph.D. students and 5 Postdoctoral Fellows are employed at IABC. IABC also operates the 
+
+PHOTONFOOD 
+ 
+75 
+ 
+Elemental Analysis Center and the Focused Ion Beam Center UULM for micro-/nano-fabrication/-
+characterization/-prototyping. 
+Main role and task in the project 
+Within PHOTONFOOD , UULM will be leading WP3, which is committed to developing, 
+optimizing, calibrating, validating, and testing portable and hand -held mid-infrared laser- (HI-FI) 
+and LED-coupled (MI-FI) sensing systems for analyzing fungal contaminations and mycotoxins in 
+commodities. This will include close collaboration with all involved partners on tailoring the laser 
+and LED technology, developing efficient thin-film waveguide transducers, and testing/validating 
+of the established sensing systems in the field. Furthermore, UULM will be involved in activities 
+related to data analysis in WP5, and in communication and dissemination activities in WP7. 
+Profiles of persons primarily responsible for carrying out the proposed activities 
+Prof. Boris Mizaikoff (M), Chaired Professor and Director of IABC since 2007. He received his 
+Ph.D. in Analytical Chemistry in 1996, his Habilitation in 2000 – both at the Vienna University of 
+Technology (Austria) - and has then been a faculty member at the Georgia Institute of Technology 
+(Atlanta, USA) prior to joining UULM. He is author/co-author of 340+ peer-reviewed publications 
+(h-index: 46) and 17 patents. Under his leadership, IABC has established an acknowledged track 
+record of collaborations with small a nd large industrial partners including ExxonMobil, 
+Agilent/Keysight, Boehringer-Ingelheim, Bruker Optics, Alpes Lasers, Sacher Laser, Nanoplus, 
+OptoPrecision, etc. He has been elected Fellow of the American Association for the Advancement 
+of Science (AAAS) for “building bridges with industry through academic research in sensors, and 
+for facilitating technology transfer between academia and industry” in 2006. He is also Associate 
+Editor of Analytical Chemistry (ACS), the highest ranked peer -reviewed journal in the analytical 
+sciences. Julian Haas (M) is a research associate IABC, who has worked on integrated mid -
+infrared photonics since his MA and PhD. He has been a leading researcher developing thin -film 
+waveguide technologies combined with laser spectroscopic methods, and their implementation in 
+practical applications including chemical contaminants in water, mycotoxin contaminants in 
+commodities, and has lately focused on the in -vivo analysis of cartilage damage via arthroscopic 
+mid-infrared probes. 
+List of up to 5 relevant publications, and/or products, services, or other achievements relevant to 
+the call content 
+1. R. Lu, G. Sheng, W. Li, H. Yu, Y. Raichlin, A. Katzir, B. Mizaikoff , IR-ATR Chemical 
+Sensors Based on Ethylene/Propylene Copolymer Co ated Planar Silver Halide Waveguides 
+for In-Situ and Simultaneous Detection of Multiple Organic Contaminants in Water , Ange. 
+Chem. Int. Ed. 52, 2265-2268 (2013).                                                                                                                               
+2. B. Mizaikoff, Waveguide-Enhanced Mid-Infrared Chem/Bio Sensors, Chem. Soc. Rev. 42, 8683-8699 
+(2013). 
+3. M. Sieger, F. Balluff, X. Wang, S.-S. Kim, L. Leidner, G. Gauglitz, B. Mizaikoff, On-Chip Integrated 
+Mid-Infrared GaAs/AlGaAs Mach-Zehnder Interferometer, Anal. Chem. 85, 3050-3052 (2013). 
+4. X. Wang, M. Karlsson, M. Sieger, L. Oesterlund, F. Nikolajeff, B. Mizaikoff, Diamonds 
+are a Spectroscopist’s Best Friend: Thin -Film Diamond Mid -Infrared Waveguides for 
+Advanced Chem/Bio Sensors, Anal. Chem. 86, 8136−8141 (2014). 
+6. 5. J. Haas, R. Stach, M. Sieger, Z. Gashi, M. Godejohann, B. Mizaikoff, Sensing Chlorinated 
+Hydrocarbons via Miniaturized GaAs/AlGaAs Thin-Film Waveguide Flow Cells Coupled to 
+Quantum Cascade Lasers, Analyt. Methods 8, 6602-6606 (2016). 
+List of up to 5 relevant previous projects or activities, connected to the subject of this proposal 
+1. 2019 (EU): VOGAS - Screening of Gastric Cancer via Breath Volatile Organic Compounds 
+by Hybrid Sensing Approach; 
+2. 2019 (EU): BREAK BIOFILMS - Breaking Bad Biofilms. Innovative Analysis and Design 
+Rules for Next-Generation Antifouling Interfaces; 
+PHOTONFOOD 
+ 
+76 
+ 
+3. 2018 (EU): BRICS - Broadly Tunable Interband Cascade Laser Source for Gas Analyzers; 
+4. 2018 (EU): MIRACLE - Mid-infrared Arthroscopy Innovative Imaging System for Real-time 
+Clinical in-depth Examination and Diagnosis of Degenerative Joint Diseases; 
+5. 2018 (DFG): SFB CATA LIGHT - Light-driven Molecular Catalysts in Hierarchically 
+Structured Materials; 
+Description of any significant infrastructure and/or any major items of technical equipment, 
+relevant to the proposed work 
+IABC has developed a plethora of IR  spectroscopic sensing systems for 
+environmental/clinical/medical monitoring, as well as for food contamination analysis with 
+specific focus on fungal contaminations and mycotoxins. Next to broad -band FT -IR based 
+technologies, IABC has pioneered miniaturized sensing systems combining interband cascade 
+and quantum cascade lasers (ICLs, QCLs) with thin -film waveguides providing superior 
+sensitivity in environmental monitoring, biomedical/clinical diagnostics, and food safety  
+applications. The latter have been in part commercialized as a main result of a preceding EU -
+project on IR-spectroscopic mycotoxin detection ( MYCOSPEC; EU project #314048) and will 
+contribute to the adaptable sensing interface in PHOTONFOOD.  
+Organisation Short 
+Name WU 
+ 
+Organisation Legal 
+Name  Wageningen University 
+Country NETHERLANDS 
+Website  https://www.wur.nl/ 
+Description of the legal entity 
+Wageningen University (WU) provides world -class research to students from >100 different 
+nationalities and has been awarded for the 15 th time in a row as the best university by Dutch 
+students. WU is heavily involved in EU framework research programmes, as coordinator or as core 
+participant. The laboratory of organic chemistry is specialized in surface bound chemical synthesis 
+and the physical and chemical characterization of surfaces. The embedded special chair on 
+analytical chemistry is focussed on advanced diagnostics, biosensors and ambient mass 
+spectrometry. The analytical group is strongly linked to the applied research institute Wageningen 
+Food Safety Research (part of another legal entity, Wageningen Research). Consequently, the 
+academic analytical research at WU is eventually aiming for innovative on-site applications in food 
+quality and safety testing. 
+Main role and task in the project 
+WU will be leader of the work package on paper microfluidics (WP2) and contribute to the 
+modelling and software development activities in WP5 and the dissemination of the project (WP7). 
+Profiles of persons primarily responsible for carrying out the proposed activities 
+Michel Nielen (M)  is professor of analytical chemistry at WU. After a career at TNO and in 
+chemical industry at AkzoNobel, he joined Wageningen University & Research in 2000 for a 
+position at the RIKILT institute. Currently, he holds a part -time special chair on Analytical  
+Chemistry at Wageningen University and is also part-time principal scientist at Wageningen Food 
+Safety Research (WFSR). He is former president of the Dutch Society for Mass Spectrometry and 
+former scientific director of TI-COAST, the Dutch public-private partnership on analytical science 
+and technology. Nielen (co -)authored 200 peer -reviewed papers and book chapters (>8800 
+citations, H -index 53) covering a wide range of analytical technologies, including mass 
+spectrometry, chromatography, capillary electrophoresis and biosensors. 
+
+PHOTONFOOD 
+ 
+77 
+ 
+Gert Salentijn (M)  is assistant professor at WU and the recent recipient of a highly prestigious 
+personal grant from the national science foundation. He has obtained his PhD in analytical 
+chemistry with honors from the University of Groningen. In 2019 he was a visiting scientist at the 
+world’s leading MS group of Prof. Graham Cooks at Purdue in the USA. Salentijn is Work Package 
+leader for detection technology in the Horizon 2020 ETN FoodSmartphone. He is co -founder of 
+SG Papertroni cs, a spin -off company from the University of Groningen, developing platform 
+technology for paper -based analyses, based on his patented technology for sample pre -
+concentration on paper. 
+List of up to 5 relevant publications, and/or products, services, or other achievements relevant to 
+the call content 
+1. Ross GMS, Salentijn GIJ, Nielen MWF, Filippini D (2020) A 3D-micro-total analysis system 
+for integrated multiplex immunosensor detection, Lab Chip, under review. 
+2. Ross GMS, Salentijn GIJ, Nielen MWF ( 2019) A  Critical Comparison Between Flow -
+through and Lateral Flow Immunoassay Formats for Visual and Smartphone-based Multiplex 
+Allergen Detection, Biosensors, 9, 1-21. 
+3. Santbergen MJC, van der Zande M, Bouwmeester H, Nielen MWF (2019) Online and in situ 
+analysis of Organs-on-a-chip. Trends Anal. Chem., 115, 138-146. 
+4. Ross GMS, Bremer MGEG, Nielen MWF (2018) Consumer-friendly food allergen detection: 
+moving towards smartphone-based immunoassays. Anal. Bioanal. Chem. 410, 5353–5371. 
+5. Salentijn GIJ, Grajewski M, Verpoo rte E ( 2018) Reinventing (bio)chemical analysis with 
+paper, Anal. Chem. 90, 13815–13825. 
+List of up to 5 relevant previous projects or activities, connected to the subject of this proposal 
+1. 2017-2020 Nielen is coordinator of the EU H2020 Marie Curie Innovative Training Network 
+on smartphone analyzers for on -site testing of food quality and safety, acronym 
+FoodSmartphone (grant agreement 720325 – FoodSmartphone - H2020-MSCA-ITN, 2.8 M). 
+Salentijn is Work Package leader for innovative detection mechanisms. 
+2. 2018-2020 Nielen is co -applicant and core -partner of a regional EFRD -project on Citizen 
+Science, aiming for the design, development and validation of portable analytical instruments 
+and devices in food and health sciences.  
+3. 2019-2023 Salentijn has received a prestigious personal grant from the Netherlands 
+Organisation for Scientific Research, on the topic of Surface-Induced Adaptive Switching in 
+Paper Microfluidics. 
+Description of any signific ant infrastructure and/or any major items of technical equipment, 
+relevant to the proposed work 
+Wageningen University has state -of-the-art analytical instruments, both within the laboratory of 
+organic chemistry and on the Wageningen Campus. Moreover, full -time research technicians 
+provide supports for undergrad and grad students in their research. The analytical segment of the 
+lab of organic chemistry has expertise pertaining to relevant topics such as 3D -printing, paper 
+microfluidics, on -site (bio)sensors, sample extraction and preparation, and a wide network of 
+collaborators in these fields. 
+Organisation Short 
+Name BOKU 
+ 
+Organisation Legal 
+Name  
+University of Natural 
+Resources and Life Sciences, 
+Vienna 
+Country AUSTRIA 
+Website  https://boku.ac.at/ 
+
+PHOTONFOOD 
+ 
+78 
+ 
+Description of the legal entity 
+The University of Natural Resources and Life Sciences, Vienna (BOKU) (founded in 1872) has 
+more than 2,800 staff and 11,300 students, with 10 doctoral programmes and was ranked as a Top 
+25 GreenMetric World University for 7 years in a row. Its Department of Agrobiotechnology (IFA-
+Tulln) with some 200 staff is a leading institution in the area of agro-biotechnology with a special 
+emphasis on mycotoxin control and reduction since 1994. The Institute for Bioanalytics and Agro-
+Metabolomics (iBAM; formerly Cente r for Analytical Chemistry) is well -known for the 
+development of ground-breaking analytical methods for the determination of multiple mycotoxins 
+and of novel LC-HR-MS-based metabolomics approaches. 
+Main role and task in the project 
+BOKU will coordinate W P6 on demonstration and validation of the photonics based detection 
+systems. BOKU will also perform reference analysis of mycotoxins following a fully validated 
+quantitative LC -MS/MS based multi -toxin approach.. Furthermore, BOKU will be involved in 
+software development and models development activities in WP5. 
+Profiles of persons primarily responsible for carrying out the proposed activities 
+Prof. Rudolf Krska (M) , full Professor of (Bio -)Analytical Chemistry at BOKU, has an 
+impressive track record in the research area of biotoxins in food and feed. Since 2015 he has been 
+recognised as highly cited (top 1%) researcher for the fourth successive time in the Web of Science. 
+Prof. Krska (male) is the most cited author in the area of mycotoxins (>350 SCI papers, h -index: 
+62) of the last decade and has been coordinating several EU-funded projects incl. the current H2020 
+project MyToolBox dealing with integrated strategies to reduce mycotoxins in the food chain. He 
+is also the President of the International Society for Mycotoxicology. David Steiner  (M) is a 
+research associate at the K1-competence center for Food and Feed Quality Safety and Innovation 
+(FFoQSI) in Tulln, Aust ria. David Steiner was the leading researcher for mycotoxin method 
+development and analysis following ISO 17025:2005 at the R&D department of the Austrian 
+Competence Center for Food Safety (LVA GmbH). Furthermore, Steiner was responsible for the 
+coordination of the accreditation processes of the IFA-Test Systems PT Scheme according to ISO 
+17043:2010. Within his Doctoral thesis in Food Chemistry and Biotechnology he expanded his 
+knowledge in analytical chemistry and generated major experience in development of LC-MS/MS 
+based methods for multi-class contaminants in complex feed within the FFoQSI work-package on-
+field/plant quality assurance. 
+List of up to 5 relevant publications, and/or products, services, or other achievements relevant to 
+the call content 
+1. Sulyok, M; Berthiller, F; Krska, R; Schuhmacher, R. Development and validation of a liquid 
+chromatography/tandem mass spectrometric method for the determination of 39 mycotoxins 
+in wheat and maize. Rapid Commun Mass Spectrom. 2006; 20(18):2649-2659. 
+2. R. Krska, M. de Nijs, O. McNerney, M. Pichler, J. Gilbert, S. Edwards, M. Suman, M, N. 
+Magan, V. Rossi, HJ van der Fels -Klerx, F. Bagi, B. Poschmaier, M. Sulyok, F. Berthiller, 
+H.P. van Egmond, Safe food and feed through an integrated toolbox for mycotoxin 
+management: the MyToolBox approach. World Mycotoxin Journal, 2016, 9(4); 
+doi.org/10.3920/WMJ2016.2136 
+3. Sulyok, M.; Krska, R .; Schuhmacher , R. A liquid chromatography -tandem mass 
+spectrometric multi -mycotoxin method for the quantification of 87 analytes and its 
+application to semi-quantitative screening of moldy food samples. ANAL BIOANAL CHEM, 
+389, 1505-1523; ISSN 1618-2642. 
+4. Steiner, D; Krska, R; Malachova, A; Taschl, I; Sulyok, M. Evaluation of Matrix Effects and 
+Extraction Efficiencies of LC-MS/MS Methods as the Essential Part for Proper Validation of 
+Multiclass Contaminants in Complex Feed. J AGR FOOD CHEM. 2020; 68(12): 3868-3880 
+PHOTONFOOD 
+ 
+79 
+ 
+5. Sulyok, M; Stadler, D; Steiner, D; Krska, R; Validation of an LC-MS/MS-based dilute-and- 
+shoot approach for the quantification of >500 mycotoxin and other secondary metabolites in 
+food crops: challenges and solutions, Analytical and Bioanalytical Chemistry 2020, 412, 
+2607; doi: 10.1007/s00216-020-02489-9 
+6.  
+List of up to 5 relevant previous projects or activities, connected to the subject of this proposal 
+1. 2017-2021: Blue Area Leader for the project within a strategic participation (e.g. COMET) 
+Feed and Food Quality Safety and Innovation (FFoQSI) funded by the Austrian Ministries 
+BMVIT, BMWFW and the federal provinces of Niederösterreich, Upper Austria and Vienna. 
+The programme COMET is administered by FFG. 
+2. 2019-2020: Project leader for the project Mycotoxin degradation mechanisms in mealworms 
+(Tenebrionidae) funded by the federal province of Niederösterreich and the European 
+Regional Development Funds (ERDF). 
+3. 2016-2020: Project leader for the project Safe Food and Feed through an Integrated Toolbox 
+for Mycotoxin Management (MyToolbox)  funded by the Commission of the European 
+Communities, Rue de la Loi, Brussels, European Union. 
+4. 2016-2018: Project  leader for the project Multidisciplinary approach to strengthen 
+cooperation and establish novel platform for comprehensive assessment of food and feed 
+safety (MultiCoop) funded by the Commission of the European Communities, Rue de la Loi, 
+Brussels, European Union. 
+5. 2013-2016 Project leader for the project Novel infrared spectroscopic tools for mycotoxin 
+determination in foodstuffs for increased food safety (MYCOSPEC) funded by the 
+Commission of the European Communities, Rue de la Loi, Brussels, European Union. 
+Description of any significant infrastructure and/or any major items of technical equipment, 
+relevant to the proposed work 
+BOKU has already been involved in some 90 EC -funded projects within FP7 and H2020, co -
+ordinating 19 projects. Currently, BOKU is hosting three ERC Grants and is partner in nine H2020 
+projects. Prof. Krska coordinated 4 EU projects, and led WPs, e.g. the WP “Training activities” in 
+the Horizon 2020 TWINNING project MultiCoop (GA no. 692195). BOKU was hosting the 
+Special Research Programme of the Austrian Science Fund SFB -FUSARIUM, and had received 
+some 10 Mio Euro of national funding. A major emphasis of the latter project was on metabolomics 
+of Plant-Fusarium interactions. 
+Currently the BOKU/IFA-Tulln is the coordinating institution of the H2020 -SFS-13-2015 project 
+MyToolBox (Safe Food and Feed through an Integrated ToolBox for Mycotoxin Management)- 
+coordinator Prof. Rudolf Krska. BOKU/IFA-Tulln is also beneficiary in the INTERFUTURE ITN 
+(GA no. 722642) and CEREALPATHETN (GA no. 674964). BOKU/IFA -Tulln has also been 
+receiving other major national funding for its research e.g. on  biomarkers and the development of 
+multi-toxin methods as part of the activities of the Austrian Competence Center for Feed and Food 
+(FFOQSI) which is co-owned by BOKU and funded by the COMET programme. 
+Organisation Short 
+Name NEBIH 
+ 
+Organisation Legal 
+Name  
+National Food Chain Safety 
+Office 
+Country HUNGARY 
+Website   
+https://portal.nebih.gov.hu/ 
+ 
+Description of the legal entity 
+
+PHOTONFOOD 
+ 
+80 
+ 
+National Food Chain Safety Office ( NEBIH) is the integrated food chain safety authority of 
+Hungary with control responsibilities covering the whole food chain from agriculture and food 
+processing to retail and catering. NEBIH is the official Hungarian contact point to the European 
+Food Safety Authority, the Rapid Alert System for Food and Feed and the International Food Safety 
+Authorities Network. In addition to the traditional authority measures – risk assessment and risk 
+management – risk communication has become a very important focus area during the last 10 years. 
+To ensure food chain safety, NEBIH operates the national reference laboratory network. Besides 
+food safety, food quality is also addressed in NEBIH’s activities. The KMÉ (“High-Quality Food”) 
+trademark system has been established in 2019, aiming to distinguish high -quality food on the 
+product market, based on laboratory experiments, label check, sensory analysis and consumer 
+preference. 
+Main role and task in the project 
+NEBIH is a key contributor in PHOTONFOOD project as the leader of WP1. They will lead the 
+assessment of photonic sensor solutions for monitoring food quality. As a food-safety authority 
+NEBIH has direct contact with more than 3000 small and medium sized farms in Hungary, and 
+will contribute to the validation and demonstration in WP6. In addition, NEBIH will be involved 
+in model validation and demonstration activities in WP5. 
+Profiles of persons primarily responsible for carrying out the proposed activities 
+Gyula Kasza, PhD (M) – Leader of WP1 . Head of the Department of Risk Prevention and 
+Education in NEBIH. Honorary professor of Szent István University, Faculty of Food Science and 
+the University of Veterinary Medicine, Budapest. He gives lectures at Semmelweis University, 
+Faculty of Health Sciences as well. He has an agricultural engineer and a law degree and a PhD in 
+consumer research. He has experience in food related policy making and implementation of 
+scientific findings into food control measures. His interests include food safety risk perception and 
+risk communication. Author of more than 190 peer-reviewed publications.  
+Attila Nagy, DVM (M) – Director of NEBIH’s Food Chain Safety Laboratory Directorate. He has 
+a degree in veterinary medicine and law, and has a certificate as auditor of qua lity management 
+system of food laboratories, based on EN ISO/IEC 17025:2001, internal auditor of EN ISO 
+22000:2005 and modern methods of sensory analysis certification. He is responsible for the 
+supervision of the national laboratory network, including Foo d Analytical, Food Microbiological, 
+Food Toxicological, Radioanalytical and Feed Laboratories.  
+Tekla Izsó (F) – Food safety referent at NEBIH. She has a master degree in Food Safety and Quality 
+Engineering and currently is a PhD student in the Doctoral School of Food Sciences at Szent István 
+University. She has experience in international projects (e.g. SafeConsume), risk assessment and 
+risk communication. She has experience in qualitative and quantitative consumer research also. 
+Author of several peer-reviewed publications.  
+Eszter Csenki (F) – Food safety referent at NEBIH. She has a degree in Food Engineering (BSc) 
+and is currently studying Food Safety and Quality Engineering (MSc). She has experience in 
+implementation of H2020 and national level ESF projects and has expertise in risk assessment and 
+stakeholder coordination.  She has been involved in several consumer awareness -raising 
+communication campaigns in NEBIH, aiming to inform consumers about food-related risks.  
+Dávid Szakos (M)  – Food safety referent at National Food Chain Safety Office. Dávid Szakos 
+graduated as a c hemical engineer (MSc) at Budapest University of Technology and Economics. 
+Currently, he is a PhD student at the University of Veterinary Medicine. His PhD deals with novel 
+functional foods. He has got expertise in qualitative and quantitative consumer res earch and 
+multivariate statistical analysis. He has participated in national and international research projects. 
+List of up to 5 relevant publications, and/or products, services, or other achievements relevant to 
+the call content 
+PHOTONFOOD 
+ 
+81 
+ 
+1. Kasza, G., Szabó-Bódi, B., Lakner, Z., & Izsó, T. (2019). Balancing the desire to decrease 
+food waste with requirements of food safety. Trends in Food Science & Technology, 84, 74-
+76. 
+2. Vajda, Á., Kasza, G., & Mohácsi -Farkas, C. (2019). Estimation of the occurrence of 
+foodborne salmonellosis in Hungary. Acta Alimentaria, 48(1), 96-104. 
+3. Süth, M., Mikulka, P., Izsó, T., & Kasza, G. Y. (2018). Possibilities of targeting in food chain 
+safety risk communication. Acta Alimentaria, 47(3), 307-314. 
+4. Szabó-Bódi, B., Kasza, G., & Szakos, D. (2018). Assessment of household food waste in 
+Hungary. British Food Journal. 
+5. Szabó-Bódi, B., Kasza, G., & Szakos, D. (2018). Assessment of household food waste in 
+Hungary. British Food Journal. 
+List of up to 5 relevant previous projects or activities, connected to the subject of this proposal 
+1. SafeConsume (H2020 Grant agreement No. 727580, 2017-2022): Safer food through changed 
+consumer behaviour: Effective tools and products, information strategies, education and a 
+food safety policy reducing health burden from foodborne illnesses (http://safeconsume.eu/) 
+– stakeholder coordination activity within SafeConsume project; 
+2. LIFE-FOODWASTEPREV project ( LIFE15 GIE/HU/001048, 2016 -2020): Food waste 
+prevention in the food chain to support the implementation of the 7th Environment Action 
+Programme (http://maradeknelkul.hu/en/) – Good Practices Guides for catering, trade, food 
+industry partners and community on food waste reduction; 
+3. Reinforced Consumer Rights for Enhanced Food Safety and Quality (RCR -EFSQ) (811235 
+- RCR-EFSQ – CONS-CPC-JA, 2018 -2021) ( https://portal.nebih.gov.hu/-/reinforced-
+consumer-rights-for-enhanced-food-safety-and-quality) - investigation and laboratory 
+analysis of dual quality; 
+4. Nébih’s Szupermenta (Super Mint) project: a national, complex product testing program that 
+includes laboratory experiments and sensory analysis as well; 
+5. EU Menu Project ( EFSA-2010-00877, 2011 - ): EFSA Comprehensive European Food 
+Consumption Database for Exposure Assessment; 
+Description of any significant infrastructure and/or any major items of technical equipment, 
+relevant to the proposed work 
+Nébih has a dedicated directorate for food and feed laboratories, supervising 40 laboratories 
+Nébih has a dedicated Food Toxicology National Reference Laboratory, which is responsible for 
+the analysis of mycotoxins, drug residues, PAH compounds, metals, hormones, food contact 
+materials, and dioxin from food and feed. Nébih operates two external university departments: 
+Department of Food Chain Risk Manage ment with Faculty of Food Science, Szent István 
+University and Department of Food Chain Safety with University of Veterinary Medicine, 
+Budapest. Nébih operates a department for regular stakeholder forums.  
+Organisation Short 
+Name NANOPLUS 
+ 
+Organisation Legal 
+Name  
+Nanosystems and 
+Technologies GmbH 
+Country GERMANY 
+Website  https://nanoplus.com/ 
+Description of the legal entity 
+NP is an SME which was founded 1998 as spin off from Würzburg University. The company 
+focuses on the development of customer specific optoelectronic devices for sensor applications. 
+The company with currently 97 employees, has two clean room facilities with 250 m2 (Gerbrunn, 
+Germany) and 650 m2 (Meiningen, Germany), respectively. A complete process line for 
+
+PHOTONFOOD 
+ 
+82 
+ 
+semiconductor laser fabrication is available, comprising mask aligners for optical lithography as 
+well as systems for electron beam lithography, different dry etch systems, sputter systems, 
+evaporators, laser mount ing facilities, etc. Key products of NP are complex coupled distributed 
+feedback (DFB) laser diodes. In these lasers complex coupling is obtained by combining a ridge 
+waveguide with metal gratings on top of the waveguide layer on both sides of the laser ridge. DFB 
+lasers realized by this technique in various material systems have a high single mode yield (>90%), 
+high sidemode suppression ratio (>40dB) combined with low back reflection sensitivity and 
+thresholds and efficiencies, which correspond to those of Fabry Perot lasers realized from the same 
+layers.  
+NP manufactures and sells DFB and Fabry-Perot laser diodes in the wavelength range from 0.7 up 
+to 3.0 μm for sensing and spectroscopic applications. As base material for the lasers 
+GaAlAs/InGaAs, InGaAsP, GaInAsN and GaInAsSb heterostructures are used. In addition, NP 
+offers interband cascade laser (ICL) DFBs from 3 -6 μm and quantum cascade laser (QCL) DFBs 
+at certain wavelengths between 5 and 14 μm for specific applications. Previous work within 
+national and international cooperation have allowed NP to acquire significant experience in long 
+wavelength device processing based on Quantum Cascade as well as Interband Cascade material. 
+nanoplus has e.g. coordinated the European research projects SENSHY (www.se nshy.eu) for the 
+development of GaSb based devices in the 3.0 – 3.6 μm wavelength range for which the company 
+was awarded the Prism Award for Green Photonics and Sustainable Energy in 2012. 
+Main role and task in the project 
+NP main task is the developments of cascaded MIR light sources in WP3. Cost effective LEDs 
+operating in the 5 -6.5 µm range are realized for the MI -FI device whereas high precision multi -
+wavelength lasers will be developed for the HI-FI device. NP will also support the WP5 Prototype 
+development. NP will in particular contribute to the PHOTONFOOD project by bringing in 
+capabilities and related expertise in the field of ICL and QCL technology. NP is a leading supplier 
+of semiconductor laser sources for gas sensing applications and has already been able to provide a 
+variety of innovations (as discussed above) into this field. Having a high interest to maintain a 
+strategic position with respect to emerging technology and related market opportunities concerning 
+infrared emitters in biomedical field of food contamination, nanoplus is fully committed to the 
+project and the related investigations for future device applications in biophotonics. 
+Profiles of persons primarily responsible for carrying out the proposed activities 
+Dr. Robert Weih  (Principal Investigator) (M) was born in Schwerin, Germany in 1985. He 
+received his Diploma degree in nanotechnology engineering and PhD degree in Physics from the 
+University of Würzburg in 2011 and 2018, respectively. His main research interests covered 
+molecular beam epitaxy for mi d infrared emitting and detecting devices in the GaSb material 
+system. In 2015, he joined the epitaxy division at nanoplus Nanosystems and Technologies GmbH. 
+He is responsible for the epitaxy and chip dev 
+elopment for innovative devices based on III-V semiconductors such as GaAs, InP and GaSb. Dr. 
+Caroline Kistner (Co-Investigator) (F) was born in Würzburg, Germany in 1981. She graduated 
+in Physics from the University of Konstanz, Germany in 2007. In 2011 she received her PhD degree 
+for her thesis on the spectroscopy of electronically contacted micro-cavities from the University of 
+Würzburg. Following her studies, C. Kistner joined the product development team of OSRAM 
+Opto Semiconductors GmbH as Project Manager Engineering, where she led a variety of 
+international product development projects concerning opto -electronical components. In 2016 C. 
+Kistner joined the R&Ddivision of nanoplus as development engineer and is now heading the R&D 
+department. 
+List of up to 5 relevant publications, and/or products, serv ices, or other achievements relevant to 
+the call content 
+PHOTONFOOD 
+ 
+83 
+ 
+1. N. Schäfer; J. Scheuermann; R. Weih; J. Koeth; S. Höfling “High efficiency mid -infrared 
+interband cascade LEDs grown on low absorbing substrates emitting >5  mW of output 
+power”, Optical Engineering 58(11), 117106 (2009). 
+2. M. v. Edlinger, J. Scheuermann, R. Weih, Ch. Zimmermann, L. Nähle, M. Fischer, J. Koeth,S. 
+Höfling,and M. Kamp, "Monomode Interband Cascade Lasers at 5.2 μm for Nitric Oxide 
+Sensing",Photonics Technology Letters, Volume 26 , Issue: 5 (2014); 
+3. L. Naehle, C. Zimmermann, S. Belahsene, M. Fischer, G. Boissier, P. Grech, G. Narcy, S. 
+Lundqvist, Y.Rouillard, J. Koeth, M. Kamp and L. Worschech , “Monolithic tunable GaSb -
+based lasers at 3.3 μm“, Electronics Letters 47, 1092 (2011); 
+4. J. Koeth, M. von Edlinger, J. Scheuermann, L. Nähle, L. Hildebrandt, M. Fischer, R. Weih, 
+M. Kamp, Distributed feedback interband cascade lasers for applications in re search and 
+industry“, Photonics West, 2015, February 7-12, 2015, San Francisco, USA. 
+5. P. Fuchs, J. Friedl, S. Höfling, J. Koeth, A. Forchel, L. Worschech, and M. Kamp, “Single 
+mode quantum cascade lasers with shallow -etched distributed Bragg reflector”, Opt ics 
+Express, Vol. 20, Issue 4, pp. 3890-3897 (2012). 
+List of up to 5 relevant previous projects or activities, connected to the subject of this proposal 
+1. SENSHY [FP7 EU]: develop high quality ICL material for device processing and since then 
+commercially exploitation the project results (only commercial manufacturer worldwide to 
+offer ICL based DFB lasers). 
+2. MIRACLE [Horizon 2020] development and integration of multiple technologies in the first 
+mid-infrared attenuated total reflection (MIR-ATR) instrument for arthroscopic use based on 
+DFB-QCL light sources. 
+3. MIRPHAB [Horizon 2020] European pilot line for single access point to all the Mid -IR 
+technology and componen ts to build customized chemical sensors: nanoplus provides ICL 
+technology. 
+Description of any significant infrastructure and/or any major items of technical equipment, 
+relevant to the proposed work 
+Nanosystems and Technologies GmbH, Germany is an ISO 9001:2015 and ISO 14001:2015 
+certified supplier of semiconductor devices and one of the leading manufacturers of lasers for gas 
+sensing applications. NANOPLUS is currently supplying mono mode DFB lasers in different types 
+of packages at various wavelengths. Some typical DFB devices and their performance figures based 
+on different material systems can be found at www.nanoplus.com. 
+NP has significant experience with DFB lasers in the GaAs and InP, but also the GaSb material 
+system and associated challenges like water -free chip processing. Based on this material system, 
+NANOPLUS has e.g. supplied long -wavelength DFB lasers for the NAS A Mars Science 
+Laboratory MSL mission (isotope ratio measurements on -board the Mars Rover Curiosity). The 
+company holds the current long-wavelength record for mono mode type I GaSb-based laser diodes, 
+as well as the current long-wavelength record for mono mode Interband Cascade Lasers. MIR laser 
+sources based on DFB and multi-section BSG ICL devices with performance defining the current 
+state-of-the-art have been demonstrated. Researchers from NP also made various important 
+contributions in the field of Qua ntum Cascade Laser device development. NP will in particular 
+contribute to the PHOTONFOOD project by bringing in capabilities and related expertise in the 
+field of ICL and QCL technology. 
+Organisation Short 
+Name ROMER 
+                         
+Organisation Legal 
+Name  Romer Labs 
+Country AUSTRIA 
+
+PHOTONFOOD 
+ 
+84 
+ 
+Website  https://www.romerlabs.com/ 
+Description of the legal entity 
+Romer Labs is an Austrian company (founded in Washington, USA in 1982) and a leading global 
+supplier of diagnostic solutions for mycotoxins, food pathogens, food allergens, GMOs, veterinary 
+drug residues and other food contaminants. The main objective of t he company is to provide 
+scientifically sound, high quality products and services to make food safer. A broad range of 
+innovative tests and services provide an important contribution to integrated food safety solutions 
+also serving private and public laboratories. R&D facilities are operated in AT, UK, MY, and USA 
+and the production plants are located in AT and USA. 
+Main role and task in the project 
+ROMER will contribute to the validation of the developed technology. As an analytical lab, Romer 
+is in close contact with customers. Based on the end users requirements well known to Romer Labs, 
+they will be able to provide valuable feedback on the strengths and weaknesses of the developed 
+devices and suggest improvements. 
+Profiles of persons primarily responsible for carrying out the proposed activities 
+Dr. Kurt Brunner (M) is a Director Research and Development of the Romer labs. He led previously 
+a research group for molecular diagnostics of food and feed at BOKU/IFA -Tulln, Austria.  Since 
+20 years he is an active scientist in the field of food and feed safety. 
+List of up to 5 relevant publications, and/or products, services, or other achievements relevant to 
+the call content 
+1. Products: more than 50 different immunoassays for food and feed safety testing; 
+2. Products: highly purified reference materials serving as analytical standards; 
+3. Patents: 6 patent families protecting Romer’s core products; 
+4. Kluger B, Bueschl C, Lemmens M, Berthiller F, Haeubl G, Jaunecker G, Adam G, Krska R, 
+Schuhmacher R. (2013) Stable i sotopic labelling -assisted untargeted metabolic profiling 
+reveals novel conjugates of the mycotoxin deoxynivalenol in wheat. Anal. Bioanal. Chem. 
+405(15): 5031-5036. 
+5. Ansari P, Haeubl G. (2016) Determination of cyclopiazonic acid in white mould cheese by 
+liquid chromatography-tandem mass spectrometry (HPLC -MS/MS) using a novel internal 
+standard. Food Chem. 211:978-982. 
+List of up to 5 relevant previous projects or activities, connected to the subject of this proposal 
+1. Safe Food II; development of novel methods for food allergen testing, funded by the Austrian 
+Research Promotion Agency; 
+2. FP7 project “MYCORED - Novel integrated strategies for worldwide mycotoxin reduction 
+in the food and feed chains”; 
+3. Austrian FFOQSI program; Integrated research from field to fork; 
+4. K1 Center of the Austrian Research Promotion Agency; “Competence Center for 
+Electrochemical Surface Technologies”; 
+Description of any significant infrastructure and/or any major items of technical equipment, 
+relevant to the proposed work 
+As explained before, the farm is composed of three different production facilities and one 
+processing facility. Each facility has specific technologies. In the greenhouses there are all the 
+irrigation and heating systems with an automation system. In the f ish farm, there are different 
+technologies installed to be able to grow fish in a recirculating system: mechanical filtration, 
+biological filtration, water oxygenation, fish purging system, feeding system, automation and alarm 
+system, etc. We have a complex heating system with a heating pump and gas boilers. 
+PHOTONFOOD 
+ 
+85 
+ 
+Organisation Short 
+Name IRIS 
+ 
+Organisation Legal 
+Name  IRIS Technology Solutions 
+Country SPAIN 
+Website  http://www.iristechnologygroup.com/ 
+Description of the legal entity 
+IRIS Technology Group (http://www.iristechnologygroup.com/) is an advanced engineering Group 
+that was established in Barcelona in 2007. Since 2011, it also operates from Dublin (Ireland) 
+whereas the Barcelona office is referred to as IRIS Technology Solutions S.L. It specializes in the 
+manufacture and integration of Process Analytical Technology (PAT) -based real -time quality 
+monitoring solutions for the process industries and IoT systems for smart manufacturing, 
+predominantly targeted at the food, pharmaceu tical and chemical industries. In particular, our 
+product line comprises proprietary state -of-the-art IR analyzers for at -line and in -line process 
+monitoring.  
+On the one hand, our solutions are based on the latest developments in photonics in the fields o f 
+MEMs, Near Infrared Spectroscopy, Hyperspectral Imaging, and Raman. On the other hand, we 
+leverage ICTs, whereby we apply Machine learning, Artificial Intelligence and Data Mining 
+techniques for predictive and active control, as well as for decision support systems. In addition to 
+photonics-based analyzers, we also work with IoT sensors for enabling equipment and machinery 
+for smart manufacturing and transitioning industry to the Industry4.0 paradigm. Our solutions are 
+cloud-based for mobility, remote monitoring and multi-site applications.   
+Our Innovation Division which is governed by an Innovation Committee comprising Senior 
+Management, and an Innovation Unit for managing and executing the company’s innovation 
+roadmap, has 3 core strategic lines, for shaping the Factory of the Future: 
+ 
+1. New optical photonics -based technologies and PAT systems for production process 
+optimization 
+2. ICTs (Artificial intelligence / machine learning, IOT & cloud platforms) 
+3. Circular and Bio-based Economy: digitalization and waste valorization 
+In addition to running an internal R&D program, as well as carrying our various joint private 
+projects with industry partners, our Innovation Division is highly experienced in working in 
+collaborative R&D projects in H2020 (both as coordinators and partners), principally in the SPIRE, 
+FoF, and BBI programs. The company was established in 2007 and currently employs 60+ staff 
+with a turnover of € 5 M. It is equipped with engineering workshops (3), food testing and wet 
+chemistry laboratory, optic s labs (2), and an electronics/telecommunications lab. IRIS is ISO 
+9001:2008 certified and also is certified under UNE -EN-ISO 166002: Management Systems 
+R&D&i. We are also certified by the local (Catalonian) government as a provider of technological 
+R&D services (Tecnio Certification). IRIS is a member of the following sectorial networks: SPIRE, 
+SPIE and SECPHO, in addition to regional industrial collectives such as Smart Space (association 
+of companies and organizations that specialize in the ‘smartification’ of industry). 
+Main role and task in the project 
+IRIS has extensive expertise at this level, and in particular in the context of industry -driven FP7 
+and H2020 projects, and private contacts with the industry. They will contribute in WP5, whereby, 
+they will be responsible for the development of the Global System Control, software and data 
+management platform. IRIS will also have minor contribution in WP4 and WP6 during prototype 
+phase. 
+Profiles of persons primarily responsible for carrying out the proposed activities 
+
+PHOTONFOOD 
+ 
+86 
+ 
+Dr. Ing. ELODIE BUGNICOURT  (F). Innovation Unit leader. Masters in Material Science & 
+Engineering (2002), PhD in Polymers and Compos ite Materials (2005), both from National 
+Institute of Applied Science (INSA), Lyon, France. Leader of the EcoMaterials business unit in 
+IRIS from 2009 till 2014 and now Head of the innovation Unit. Since at IRIS, Elodie coordinated 
+several European project s in the fields of bio -based packaging materials development, process 
+monitoring and surface treatment. She has an extensive previous R&D experience in the in 
+chemical industry especially related to reactive polymer formulations: i) Arkema (ex. Cray Valley, 
+2002, Spain) in the field of polyester powder coating; Wacker Chemie (2002 -2005, Germany and 
+France), Silicone division that funded her PhD thesis regarding the development of nanocomposites 
+based on an epoxy matrix and silica; iii) Ashland (2006-2009, located sequentially in USA, Spain 
+and France) in the Composite Polymers division, focussing on bio-sourced resins, flame retardant 
+resins, SMC resins, PU and epoxy structural adhesives. With a strong interest on innovation and 
+sustainability, so far, Elodie led and participated in many R&D projects aimed at developing new 
+formulations, understanding mechanisms and structure -properties relationships, developing new 
+analytical and modelling methods (for improved quality management); as well as collaborated with 
+academic labs and other players in the supply and value chain. Finally, Elodie is author of several 
+papers in peer -reviewed and technical journals and has presented her work in numerous 
+international conferences.  
+Dr. DAVID NETTLETON  (M), Data Mining An alyst.  He has obtained a PhD in Artificial 
+Intelligence from the Universitat Politécnica de Catalunya, Barcelona, Spain, M.Sc. In Computer 
+Software and Systems Design from the University of Newcastle upon Tyne, U.K., and B.Sc. (Hons) 
+Computer Science from the University of Wolverhampton, U.K. Has over 20 years’ experience of 
+applying data mining algorithms (including neural networks, rule induction) and statistical 
+techniques (including ANOVA, regression, principal components) in a diversity of data analys is 
+and modeling projects, such as medical diagnosis/prognosis, fraud detection, customer loyalty and 
+segmentation, online user web search behavior and data privacy. As well as commercial projects, 
+he has conducted research and lectured at two universities. He has published a diversity of articles 
+in specialized data analysis journals/congresses and three books. He has participated in several 
+competitive multi -partner research projects and has a European patent application for a graph 
+matching algorithm. 
+MSc. ALEJANDRO ROSALES  (M) has a M. Sc. in Physics from the Universidad de La 
+Habana (1986). His background comprises theoretical and technical skills in several scientific 
+and technological areas: optics, lasers, high vacuum, colorimetry, UV -VIS-NIR-MIR 
+spectroscopy, chemometrics and design of measurement instruments. He has extensive practical 
+experience in programming, electronics and mechanical CAD design as well as R&D 
+methodology and management. His career has included positions as researcher applicat ions 
+engineer, design engineer, business developer and R&D manager. In 2000s, he worked in the 
+FTIR spectroscopy field applied to quality control in the agrofood (wine) industry, whereby he 
+developed two new measurement instruments for wine analysis. His career as industrial physicist 
+has been focused in applying his wide expertise to provide solutions for industrial problems. 
+Since 2011, he has been the Technical Manager in IRIS, leading a staff of 20 engineers and 
+researchers involved in R&D projects aimed at developing novel high-end solutions for industry. 
+Currently, he is the Science & Technology Manager IRIS.  
+IVAN PAQUICO RODRIGUEZ (M) Telecommunications Degree in UPC (Barcelona) and a 
+Joint Degree in Multimedia Development in LUAS (Finland). His fina l thesis, 'Augmented 
+Reality Chess and Application to Detect Chess Moves', implemented by using Computer Vision, 
+Augmented Reality and Artificial Intelligence techniques, has won several awards, such as the 
+best final thesis of the UPC and the best final thesis of Spain (received from Vodafone Spain and 
+Universia foundation). He is an official iOS and Android Developer since 2010, creating a social 
+network for iPhone called: 'BeThere' developed by iOS SDK from Apple and used Couchbase 
+technology for the database. He also has experience in different programming languages such as 
+PHOTONFOOD 
+ 
+87 
+ 
+C, C++, Objective C or Java, 8 bits embedded and real time systems. He has expertise in 
+multimedia methodologies ranging from Virtual Reality programming techniques to 3D/2D 
+modelling software such as OpenGL, Quest3D, Autodesk Maya, Autodesk 3DS Max or Adobe 
+Photoshop.   
+TOMEU COLL  (M). Project and Innovation Manager. Degree in telecommunication 
+engineering (UPC). Master’s degree in biomedical engineering (UB) and in project management 
+(La Salle). 7 years experience in healthcare technology and biomedical engineering field, 
+involved in different projects in collaboration with research centers, hospitals and technology 
+companies. During this period he developed skills and deep knowledge to perform well in 
+interdisciplinary environments involving engineering, medical field and life science . He has a 
+solid academic background and proficiency to perform coordinate or interfacing functions that 
+require a bridge between medical and engineering disciplines.  
+List of up to 5 relevant publications, and/or products, services, or other achievements  relevant to 
+the call content 
+1. EP18198458, 03/10/2018, Rosales Alejandro, Kehoe Timothy, Garrick Meabh. An integrated 
+optical system for the examination of sample materials 
+2. EP19382101,14/02/2019, Alejandro Rosales, Adrián Manotas, Joan Puig. Device for 
+detecting foreign matter in an edible substance or in a container containing the edible 
+substance and method employing the device. 
+3. Rosales, O. Mc Nerney. Edited by Stefan Kräme r and Sebastian Engell. Wiley -Vch. Print 
+ISBN: 978 -3-527-34074-3. Sensing Technology. Chapter 6. Resource Efficiency of 
+Processing Plants. Monitoring and Improvement. 
+4. A.A. Gowen, E. Gaston, J. Burger (2014). C.P. O´Donnell, C. Fagan, P.J.Cullen (Eds.), 
+Process Analytical Technology for the Food Industry, 199-216, Springer, ISBN 978-1-4939-
+0311-5. Hyperspectral imaging. 
+List of up to 5 relevant previous projects or activities, connected to the subject of this proposal 
+1. Visum. SMEI-Phase 2, GA 731043. Cloud-enabled IR spectroscopy platform for the rapid 
+integration and customization of affordable, real-time chemical monitoring solutions for food 
+and pharmaceutical industries. 
+2. Hypera. H2020- SMEInst, 2016-2017. Affordable hyperspectral Imaging System for on-line 
+foreign body detection and chemical composition analysis. 
+3. ProPAT. SPIRE, GA 637232. Robust and affordable process control technologies for 
+improving standards and optimizing industrial operations. 
+4. SPECTRAFISH. FP7, GA 605399. Hyperspectral imaging  technology for the quality 
+inspection of fish products. 
+Description of any significant infrastructure and/or any major items of technical equipment, 
+relevant to the proposed work 
+Spectroscopic Laboratory equipped with several instruments, namely, a FTIR-ATR 
+(Interspectrum), 2 UV-VIS (PerkinElmer and Ocean Optics), an Extended-SWIR (StellarNet) and 
+a NIR (Mightex) spectrophotometers as well as a SWIR Hyperspectral imager (Specim -Xenics). 
+The associated staff are properly trained and skilled in chemome trics modelling by using a 
+commercial suite (SOLO+MIA from Eigenvector) as well as ad hoc non-commercial chemometric 
+tools (Matlab and Python toolboxes). 
+Electronics, mechanical and optical workshops and laboratories equipped with up-to-date hardware 
+and tools: signal generators, wide band oscilloscopes, PCB design [Altium] and building tools, 
+development kits for programming microcontrollers, CNC -milling machines for electronic and 
+mechanical prototyping, and CAD software [SolidWorks], among others.  
+PHOTONFOOD 
+ 
+88 
+ 
+Our optical engineers work with ZEEMAX software for optimally designing of optical systems 
+and to setup the designs by means of advanced optical components and facilities (optical tables, 
+windows, lenses, lasers and light sources and related “opticalware”). 
+Food and wet chemistry lab equipped with a DSC, a Surface Energy analyzer, an HPLC, a Cobb 
+tester, microbiological equipment, microscope and microtome for structural analysis, migration 
+cells, colorimeter (for color and opacity measurement), Ford cup viscomet ers, water vapor 
+permeation cells, turbidimeter, climatic chambers, manual and automatic coaters, electrospray, 
+different drying technologies, plasma surface activation, etc. 
+Organisation Short 
+Name accelCH 
+ 
+Organisation Legal 
+Name  Accelopment 
+Country SWITZERLAND 
+Website  https://accelopment.com/ 
+Description of the legal entity 
+accelCH assists research institutions and companies in EU project management and the 
+dissemination and exploitation of project results. The SME is specialised in European research, 
+development and innovation support initiatives, such as Horizon 2020 and the SME -focused 
+Eurostars programme. The core activities include professional project administration, consortium 
+organisation and communication, the facilitation of dissemination of project results to external 
+stakeholders, supporting the exploitation of project results and financial management and reporting. 
+At present, accelCH is involved as a beneficiary, partner organisation or subcontractor in more than 
+25 H2020 projects. accelCH is ISO 9001 certified ensuring a professional quality management and 
+internationally accredited by IQnet. 
+Main role and task in the project 
+accelCH will be responsible for dissemination and exploitation and will lead WP7. 
+Profiles of persons primarily responsible for carrying out the proposed activities 
+Dr Johannes Ripperger (M) is a Research & Innovation Manager | > 10 years experience in the 
+management of national and EU funded collaborative research and innovation projects | 
+Technology Transfer Manager of the Swiss national technology platform energie-cluster.ch, 
+responsible for innovation projects linking renewable energy enterprises with academia | 
+Administrative Project Manager of CHEOPS (perovskite photovoltaics) SOSLeM (fuel cells) and 
+also the FET Quantum Technology Flagship project macQsimal (metrology and sensing) | 
+Dissemination Manager of other projects.  
+Dr. Emily Rose Ciscato (F) is Project Manager in Communication at accelCH. She has experience 
+in communication and research dissemination from her involvement in the ideation, organisation 
+and management of working groups, dissemination activities, seminar series, workshops and 
+conferences at ETH Zürich. She is involved in the communication and dissemination of various 
+EU funded projects, including MOSAICS, CLASSY, EXIMIOUS and HEAT-INSYDE.  
+Dr Jeanette Mueller (F) : founder and CEO of accelopment Schweiz AG. She is an Economic 
+Geography graduate from the University of Bayreuth, Germany and the Université de Perpignan, 
+France and received her Ph.D. on European funding programmes from the University of Wales 
+Aberystwyth (UK). She has more than 20 years of ex perience in the acquisition and management 
+of publicly funded projects (ICT, life sciences, social sciences and renewable energies) and is 
+specialised in R&D and innovation projects and previously hold several executive positions in IT 
+and other companies. Alongside that, she has been the founder of several enterprises and a board 
+member of a commercial and non -profit organisation. She is the Administrative Project Manager 
+
+PHOTONFOOD 
+ 
+89 
+ 
+and Dissemination (co-)leader of the EU Health projects EURO SHOCK and IMPROvED (both 
+clinical studies). Additionally, she has been Work Package Dissemination Leader of Supporting 
+LIFE (eHealth), EAGLE (ICT) and Robo-Mate (health support device) and Exploitation Manager 
+of Robo-Mate.  
+Julia Götz (F) : works in project communications at accelCH. Having previously worked as 
+marketing project leader, she has experience in project management, marketing and design with a 
+B.Sc. in International Management from the Zurich University of Applied Sciences. At accelCH, 
+she has coordinated the dissemination work package for Mat4Rail, XoSoft, and PEARRL amongst 
+others. She will be responsible for communication and dissemination activities of the EXIMIOUS 
+project, a role she has previously held for the ClickGene, Robo-Mate and SOSLeM EU projects. 
+List of up to 5 relevant publications, and/or products, services, or other achievements relevant to 
+the call content 
+1. Ortiz, J., Rocon, E., Power, V., de Eyto, A., O’Sullivan, L., Müller, J., ... & Teeuw, W. B. 
+(2017). XoSoft-A Vision for a Soft Modular Lower Limb Exoskeleton. In Wearable Robotics: 
+Challenges and Trends (pp. 83-88). Springer International Publishing. 
+2. Power, V., O'Sullivan, L., de Eyto, A., Schülein, S., Nikamp, C., Müller, J., ... & Ortiz, J. 
+(2016, June). Exploring User Requirements for a Lower Body Soft Exoskeleton to Assist 
+Mobility. In Proceedings of the 9th ACM International Conference on Pervasive 
+Technologies Related to Assistive Environments (p.69). ACM. 
+3. Neville, K., Doyle, C., Sugrue, A., & Müller, J. (2013). “Supporting cross border emergency 
+management decision -making". Paper no. 1023 at the 21st European Conference on 
+Information Systems. 
+4. Kaar, M., & Müller, J. (2011). The Impact of Participation in Publicly Funded R&D Projects 
+on Firm Competitiveness: Benefits and Barriers to the Use of National and EU Funding 
+Programmes on the Example of Swiss SMEs in the Field of Renewable Energy . München: 
+GRIN Verlag GmbH. 
+5. Müller, J., & Spengler, C. (2008). Welcher Touchpoint zählt? In H. Ka ul & C. Steinmann 
+(Eds.), Community-Marketing: Wie Unternehmen in sozialen Netzwerken Werte schaffen (pp. 
+217-234). Stuttgart: Schäffer-Poeschel. 
+List of up to 5 relevant previous projects or activities, connected to the subject of this proposal 
+1. XoSoft: Soft modular biomimetic exoskeleton to assist people with mobility impairments. 
+GA No. 688175, H2020-ICT-2015, 2016-2019; 
+2. MORE: Educating Europe`s Future Engineers in Nex t Generation Heavy Duty Mobile 
+Machinery: Artificial Intelligence -driven Robotisation, Energy Efficiency and Process 
+Optimisation. GA No. 858101, H2020-MSCA-ITN, 2020-2023. 
+3. VANGUARD: New Generation  Cell Therapy: Bioartificial Pancreas to Cure Type 1 
+Diabetes. GA no. 874700, H2020-SC1, 2020-2024; 
+4. EXIMIOUS: Mapping Exposure -Induced Immune Effects: Connecting the Exposome and 
+Immunome. GA no. 874707, H2020-SC1, 2020-2024; 
+5. FRINGE: Fluorescence and reactive oxygen intermediates by neutron generated electronic 
+excitation as a foundation for radically new cancer therapies. GA no. 828922, H2020 -
+FETOPEN, 2019-2023. 
+Description of any significant infrastructure and/or any major items of technical equipment, 
+relevant to the proposed work 
+A secure and central online storage for project files will be provided by accelopment. This 
+Document Management System will allow for notifications on changed files, version control and 
+will be regularly backed up. All files are hosted within Europe. An ex tensive set of tools for 
+administration, reporting, communication, dissemination and exploitation, e.g. tracking of 
+PHOTONFOOD 
+ 
+90 
+ 
+deliverables, communication tools and templates, contact lists, etc. will be provided to all 
+consortium members by accelCH. Communication tools for webinars, video conferences and phone 
+conferences will be in place for the project start. 
+Organisation Short 
+Name BIGH 
+ 
+Organisation Legal 
+Name  
+BIGH Anderlecht SPRL 
+(BIGH = Building Integrated 
+Greenhouses) 
+Country BELGIUM 
+Website  https://bigh.farm/ 
+Description of the legal entity 
+BIGH is a company that was founded in 2016 by Steven Beckers, a belgium  architect expert in 
+circular economy who works on the topic of “sustainable cities”. The aim of it is to develop urban 
+aquaponics farms in Europe. The first, and so far only farm, is “Ferme Abattoir”, located in the 
+center of Brussels on the roof of the Foodmet, a local market hall, on the historical Abattoir site in 
+the heart of Brussels canal priority development area.  It has been built in 2017 and productions 
+started in 2018. This aquaponics farm, a combination of hydroponics and aquaculture, is the biggest 
+urban farm located on a roof in Europe. The team consists of 7 employees plus a few interns and 
+students who help us and in exchange of gaining experience in the aquaponics sector. The total 
+area of the farm is around 4000 m2 with the following production facilities: 
+- An outside garden of 2000 m2 
+- A tomatoes greenhouse (770 m2) 
+- An aromatic herb greenhouse (600m2) 
+- A recirculating aquaculture system (RAS) of 500 m2 
+The farm uses two closed -loop recirculating systems where fish and plants are linked by a 
+biological filter. The filter with billions of microorganisms purifies the fish water, which in turn 
+serves to feed the plants in the greenhouse and the outdoor garden. 
+We have a capacity production of around 25 tons of Hybrid Stripped Bass in our piscicul ture, a 
+popular fish similar to sea bass that can grow healthily in fresh water. We process our fish directly 
+on the farm. In 2020 we are planning a few changes in the RAS system to improve the production. 
+The goal of a RAS is to optimize the water using, by renewing only 10% of the water volume 
+everyday instead of 100% in traditional aquaculture.  
+Regarding the horticulture production, we produce 6 different types of aromatic herbs in pots, for 
+a weekly production of 2700 pots. The production occurs during all the year and it has an organic 
+certification. We also produce around 10 tons of tomatoes during 8 months along a year, and in 
+2020 we will also try to grow eggplant and pepper. These hydroponics production are irrigated by 
+fishwater and rainwater. All  the production facilities are heated by a heat pump, which uses the 
+energy losses from the cold chambers of the building. 
+All our products are sold, for half to direct customers (individuals, restaurant, caterers) and for the 
+other half to supermarkets or  grocery stores, all in and around Brussels, offering customers the 
+chance to know where their food comes from. 
+Our goal is to grow healthy and sustainable products, and sell them in a local market to promote a 
+circular economy. We also want to reach zero losses so we transform products that were not sold 
+(for example damaged basil leaves transformed in pesto, damaged tomatoes that are dried), to show 
+that everything can be used and consumed. 
+Finally, we also organize different events, workshops and visits in the farm to share our experience 
+in urban farming and more specifically in aquaponics. 
+Main role and task in the project 
+
+PHOTONFOOD 
+ 
+91 
+ 
+BIGH will contribute to testing, validation and demonstration for the detection of fungal 
+contamination of herbs in WP6. 
+Profiles of persons primarily responsible for carrying out the proposed activities 
+Mrs Gwenn GUILLAUMIE (Principal Investigator)  (F) was born in Plouaret, France in 1992. 
+She graduated in Environmental and Sustainable Development Economics from the Unive rsity of 
+Paris-Saclay, France in 2016. She also has an engineering degree in agronomy and environmental 
+sciences from the engineering school of AgroParisTech. She has been working for 2 years in 
+Mozambique in the French Embassy as a Civil Society Cooperati on Officer until mid -2019. She 
+entered the BIGH team in October 2019, as the French company Veolia became one of the investors 
+of the company, to bring a technical assistance to optimize the functioning of the farm regarding 
+different aspects (energy and w ater consumptions, production, sales, communication) but mostly 
+focused so far on the aquaculture production. 
+Mr Mathias DE VOS (Co-Investigator) (M) was born in Eupen, Belgium in 1991. He graduated 
+in Bio-engineering from the University of UC Louvain in B elgium in 2014. He is currently the 
+manager of BIGH since early 2018 but participated to the project since the beginning, helping with 
+the design and construction of the farm. Previously to this experience he also worked for Urban 
+farmers in Bern, Switzerland and at ECF Farmsystems in Berlin, Germany, which also developed 
+aquaponics farms. He has therefore gained a wide experience on urban farming in general and more 
+specifically on aquaponics farms, regarding all the aspects: development, management, sales , 
+production, communication, quality management, but also the main issues we can face while 
+managing an urban farm.  
+List of up to 5 relevant publications, and/or products, services, or other achievements relevant to 
+the call content 
+Not relevant 
+List of up to 5 relevant previous projects or activities, connected to the subject of this proposal 
+Not relevant 
+Description of any significant infrastructure and/or any major items of technical equipment, 
+relevant to the proposed work 
+As explained before, the farm is composed of three different production facilities and one 
+processing facility. Each facility has specific technologies. In the greenhouses there are all the 
+irrigation and heating systems with an automation system. In the f ish farm, there are different 
+technologies installed to be able to grow fish in a recirculating system: mechanical filtration, 
+biological filtration, water oxygenation, fish purging system, feeding system, automation and alarm 
+system, etc. We have a complex heating system with a heating pump and gas boilers. 
+Organisation Short 
+Name Seeberger 
+ 
+Organisation Legal 
+Name  Seeberger GmbH 
+Country Germany 
+Website  https://www.seeberger.de/  
+Description of the legal entity 
+As a medium -sized family business that has been in existence since 1844, we know everything 
+about tradition. Nevertheless, all our efforts are directed towards the future. As an aspiring 
+company with growth in mind, we are always coming up with new ideas. We design our own 
+products, open up new markets and guarantee maximum enjoyment and the very best quality. 
+Thanks to decades of experience, we are at home in today’s markets around the world. Despite 
+being open-minded and globally active, our top priority is still to ensure the future of our family 
+
+PHOTONFOOD 
+ 
+92 
+ 
+business for our employees, customers and shareholders on the long -term. We have close ties to 
+our location and bear responsibility via diverse commitments in the area. As one of the oldest coffee 
+roasting companies in Germany, our range of products not only includes nuts and dried fruit but 
+also coffee specialties. Whether its dried fruits and nuts for a quick snack, high-quality ingredients 
+for cooking and baking or the finest coffee beans from the best altitude s of the world, Seeberger 
+guarantees incomparable enjoyment on every occasion from the very best nature has to offer. 
+Therefore, food/commodity quality and safety along the entire value chain is of prime importance 
+to us.  
+Seeberger GmbH is specialized on the production of nut (roasted and plain), dried fruits, soft fruits 
+and cereals, regularly packed under protective atmosphere. Furthermore we have facilities for 
+roasting coffee and peanuts, to caramelize nuts and seeds and to coat  different products with 
+chocolate. In this regard organoleptic, wet -chemical, physical and chemical analyses are 
+implemented in the company's own food chemistry laboratory for the quality control of raw and 
+finished goods.  Decades of trading with nut ker nels, dried fruit and coffee. State -of-the-art 
+packaging technology. Routine laboratory analysis of aflatoxins B1, B2, G1 and G2, and 
+ochtratoxin A by imunoaffinity chromatography and HPLC with fluorescence detection. 
+NO. OF EMPLOYEES: approx. 700 
+NO. OF LOCATIONS: 1 (Ulm, Germany) 
+MAIN FOCUS OF BUSINESS ACTIVITIES: Dried fruits, nuts, quality coffee 
+Main role and task in the project 
+Participation in the testing, validation and demonstration of PHOTONFOOD technology. 
+Profiles of persons primarily responsible for carrying out the proposed activities 
+Dipl.-Ing. (FH) Heidi Wöhrlin (F) was born in Singen a. Htw., Germany in 1968. She graduated 
+in food technology from the University of Trier, Germany in 1991. She started her career in the 
+chocolate industry followed by the pizza industry, where she was establishing and heading 
+chemical, physical and microbiological laboratories, as well as implementing the associated 
+analytical methods and the QA-System. She was then head-hunted to an animal feed manufacturer, 
+first joining the R&D division where she was in charge of project management for extruder 
+technology, and for developing snacks and treats for cats and dogs in the respective European 
+Competence Center. In the following, she accepted an o ffer from the European Quality 
+Management Division of Nestlé being responsible for DACH -region (i.e., Germany, Austria, 
+Switzerland) to be in charge of implementing Nestlé Quality Systems for all branches of the region, 
+and served as its European represent ative. During maternity leave, she worked as an author for a 
+distance learning university (Fernuniversität) writing learning material for the Food Technology 
+Department. Finally, 10 years ago she received the offer to work as Head of Quality Management 
+and Quality Assurance at Seeberger GmbH. 
+List of up to 5 relevant publications, and/or products, services, or other achievements relevant to 
+the call content 
+- numerous packing systems (linear, duplex or triplex) with multipoint weighers under protective 
+atmosphere 
+- packing and pasteurization line for soft fruits 
+- drum roaster for coffee beans 
+- belt roaster for peanuts 
+- equipment for the caramelizing of nuts 
+List of up to 5 relevant previous projects or activities, connected to the subject of this proposal 
+None 
+Description of any significant infrastructure and/or any major items of technical equipment, 
+relevant to the proposed work 
+PHOTONFOOD 
+ 
+93 
+ 
+Food chemistry laboratory following QM -QA guidelines for routine analysis of e.g. mycotoxins, 
+caffeine, sorbic acid, Sulphur dioxid and moisture.  Equipment includes predominantly HPLC (high 
+performance liquid chromatography) systems with fluorescence dete ctors. The laboratory is 
+specialized on the analysis of incoming goods and commodities. Although not accredited, the proof 
+of suitability for the various analyses is regularly provided by participation in national and 
+international proficiency tests. 
+Organisation Short 
+Name BAMA 
+ 
+Organisation Legal 
+Name  BAMA Gruppen AS 
+Country Norway 
+Website  https://bama.no/ 
+Description of the legal entity 
+  BAMA is the Norwegian market leader within fresh fruit and vegetables. The company is also 
+gaining a steadily increasing market share within other fresh products, including flowers, drinks 
+and sandwich products. While this presents opportunities, it also c onfers significant social 
+responsibility in the markets where we operate. BAMA is one of Norway’s oldest privately-owned 
+retail companies and has been in operation for 133 years. BAMA’s business strategy provides a 
+basis for sustainable development of the company. Our vision is: Making Norway fresher and 
+healthier. Our aim is to increase sales and stimulate greater interest in our products through 
+inspiration and extra knowledge. BAMA shall be a growth driver in the Norwegian market, 
+working in close collab oration with customers in all market segments. BAMA shall deliver 
+products to its customers with an absolute focus on quality in all stages of the value chain and 
+possess unique knowledge about suppliers and goods supply. Growth shall be based on sustainable 
+choices along two dimensions: The first dimension is growth in the value chain through product 
+development, research and innovation. The second involves an increased focus on a healthy diet 
+and physical activity. Availability, taste, knowledge and inspiration are important for work to fulfil 
+our societal remit in this area. BAMA shall be a driver of and model business for sustainable 
+development with regard to the environment and social responsibility in the company’s product 
+areas.  
+ CORE VALUES  
+Creating value for the entire value chain is the driving force behind all our activities,  
+to which our employees proudly contribute each day while displaying:  
+• Team spirit  
+• Integrity  
+• Consideration of others  
+ NO. OF EMPLOYEES: approx. 2700   
+NO. OF LOCATIONS: Norway, Netherlands, Poland, Sweden and Finland   
+MAIN FOCUS OF BUSINESS ACTIVITIES: Fresh fruits, berries, vegetable, potatoes, dried nuts, 
+juice and flowers.  
+Main role and task in the project 
+Participation in the testing, validation and demonstration of PHOTONFOODA technology. 
+Profiles of persons primarily responsible for carrying out the proposed activities 
+Harald Osa (M) is Research and Development manager, Department of Sustainability & 
+Innovation. Mr. Osa is a renowned Norwegian chef that now focuses on research and innovation 
+in fruits, berries and vegetables in BAMA.  
+List of up to 5 relevant publications, and/or products, services, or other achievements relevant to 
+the call content 
+
+PHOTONFOOD 
+ 
+94 
+ 
+None 
+List of up to 5 relevant previous projects or activities, connected to the subject of this proposal 
+None 
+Description of any significant infrastructure and/or any major items of technical equipment, 
+relevant to the proposed work 
+BAMA is active in many countries. In Norway, we have local divisions across the country, in 
+addition to packaging plants and processing production. This provides us with proximity to 
+Norwegian producers and customers. In Sweden, we carry out processing production and produce 
+and sell meal solutions for the Swedish market. We also carry out processing production in Finland, 
+while our Polish company delivers fruit and vegetables to Norway and the European market. Our 
+Netherlands-based operations deliver berries, exotic produce and flowers to the European market, 
+including Norway.  
+Organisation Short 
+Name HS 
+ 
+Organisation Legal 
+Name  
+Hahn-Schickard-
+Gesellschaft 
+Country Germany  
+Website  https://www.hahn-
+schickard.de/ 
+Description of the legal entity 
+The Hahn-Schickard-Gesellschaft (HS) is a private, non-profit research organization that works in 
+close partnership with the industry, providing innovative products and technologies. HS’s turnover 
+in 2018 was €32m, with €10.2m from direct industry contracts. HS currently has >250 staff 
+members and it is one of the leading institutes in Europe in the fields of microsystems engineering 
+and microfluidics (https://www.hahn-schickard.de/en/). With its interdisciplinary staff, HS covers 
+the whole range of lab -on-a-chip research and development, from computer -aided design (CAD) 
+and simulation of f luid dynamics in microfluidics, fast prototyping and fluidic testing to the 
+development and integration of biochemical assays and production scale -up. The three HS 
+institutes are located in southern Germany (State of Baden-Württemberg) and are dedicated to: (i) 
+manufacturing (Stuttgart), (ii) sensors and MEMS (Villingen -Schwenningen) and (iii) 
+microanalysis systems (Freiburg and Ulm) with the most recently founded location in Ulm; the 
+latter participates in this project.  
+The HS location in Ulm has access t o the exquisitely equipped laboratories, and closely 
+collaborates with Ulm University and the research group of B. Mizaikoff at the Institute of 
+Analytical and Bioanalytical Chemistry (IABC). Thus, a strong collaboration and complementary 
+interconnection of capabilities and expertise of both project partners is ensured. Strong connections 
+to stakeholders from industry and research facilities, as well as insights into recent developments, 
+technological advancements, and market demands render HS ideally suite d for exploitation 
+management and dissemination within the project. 
+Main role and task in the project 
+HS will contribute to the dissemination, the exploitation and the innovation management of the 
+project (WP7 and WP8). 
+Profiles of persons primarily responsible for carrying out the proposed activities 
+Dr. Julian Haas (julian.haas@hahn -schickard.de) is a group leader within the HS location in 
+Ulm. He has obtained his PhD in chemistry with honors from Ulm University in 2020. In 2017, he 
+was a visiting scientist in the Materials science group at Uppsala University in Sweden. During his 
+PhD at Ulm University, he was involved in the development of infrared waveguide technology and 
+
+PHOTONFOOD 
+ 
+95 
+ 
+infrared spectroscopy of complex biological tissues within the Horizon 2020 project MIRACLE. 
+He further contributed to the projects MYCOSPEC (EU), IQST (BMBF) and TROPSENSE (EU). 
+His research focuses on advancing infrared spectroscopy, attenuated total reflection spectroscopy, 
+quantum cascade laser technology, thin -film waveguide technology, and on -chip integrated 
+photonics. 
+List of up to 5 relevant publications, and/or products, services, or other achievements relevant to 
+the call content 
+Haas, J. & Mizaikoff, B. Advances in Mid-Infrared Spectroscopy for Chemical Analysis. Annu. 
+Rev. Anal. Chem. 9, 45–68 (2016). 
+Haas, J., Wilk, A., Kokoric, V. & Mizaikoff, B. Next-Generation Mid-Infrared Chemical and 
+Biological Sensors: Combining Quantum Cascade Lasers with Thin-Film and Hollow 
+Waveguides. Spectrosc. Online 32, 22–30 (2017). 
+Haas, J. et al. Polycrystalline Diamond Thin-Film Waveguides for Mid-Infrared Evanescent Field 
+Sensors. ACS Omega 3, 6190–6198 (2018). 
+Haas, J., Catalán, E. V., Piron, P., Karlsson, M. & Mizaikoff, B. Infrared spectroscopy based on 
+broadly tunable quantum cascade lasers and polycrystalline diamond waveguides. Analyst 143, 
+5112–5119 (2018). 
+Haas, J.; Stach, R.; Kolm, C.; Krska, R.;Mizaikoff B. Gallium Arsenide Waveguides as a 
+Platform for Direct Mid Infrared Vibrational Spectroscopy. Analytical and Bioanalytical 
+Chemistry 2020, 412, 3447-3456. 
+List of up to 5 relevant previous projects or activities, connected to the subject of this proposal 
+None 
+Description of any significant infrastructure and/or any major items of technical equipment, 
+relevant to the proposed work 
+HS occupies approx. 160 sqm of highest quality office and laboratory space at the TFU 
+Biotechnology Center in Ulm. Facilities include modelling work stations for optical design and 
+system development, optoelectronic workbenches for photonic system prototyp ing, spectroscopic 
+equipment, high-end 3D printing, and wet-chemistry laboratory facilities. 
+ 
+ 
+4.2. Third parties involved in the project (including use of third party resources) 
+ 
+NEBIH have subcontracting for 20  000 EUR. The subcontracting will be related to the 
+activities in WP1 and the subcontractor will be selected according to the “best value for 
+money” principle of the EU.  This will be done by collecting at least three independent offers 
+  
+ 
+Other PHOTONFOOD partners do not have any third party involved. 
+ 
+Section 5: Ethics and Security 
+ 
+
+PHOTONFOOD 
+ 
+96
+5.1 Ethics 
+ 
+PHOTONFOOD project does not have any ethical issues as it was reported in the ethical issue table 
+in the administrative proposal forms. The evaluation of the ethical issues was performed according 
+to the guidance ‘How to complete your ethics self-assessment'. 
+ 
+5.1.1 Protection and privacy of personal data 
+The mechanisms to protect the personal data will be organized according to the GDPR 
+(https://gdpr.eu/). The contact with project partners and external stakeholders, identified as data 
+subjects will be performed as (written) informed consent.  The data controller will be Data Protection 
+Officer (Dr. V. Tafintseva) from NMBU. 
+ 
+Rights of the data subjects: 
+- Right to be informed, link it to art.12 GDPR 
+The data controller will take appropriate measures to provide any information and any communication 
+relating to processing to the data subject in a concise, transparent, intelligible and easily accessible 
+form, using clear and plain language. The information will be provided in writing, or by other means, 
+including, where appropriate, by electronic means.   
+            
+- Right to access, link it to art. 15 GDPR  
+The data controller will provide a copy of the personal data undergoing processing. For any further 
+copies requested by the data subject, the controller may charge a reasonable fee based on 
+administrative costs. Where the data subject makes the request by electronic means, and unless 
+otherwise requested by the data subject, the information will be provided in a commonly used 
+electronic form. 
+ 
+- Right to rectification, link it to art.16 GDPR 
+The data subject will have the right to obtain from the controller without undue delay the rectification 
+of inaccurate personal data concerning him or her. Taking into account the purposes of the processing, 
+the data subject will have the right to have incomplete personal data completed, including by means 
+of providing a supplementary statement.  
+ 
+- Right to be forgotten, link it to art.17 GDPR 
+The data subject will have the right to obtain from the controller the erasure of personal data 
+concerning him or her without undue delay and the controller shall have the obligation to erase 
+personal data without undue delay where one of th e following grounds applies: (i) the personal data 
+are no longer necessary in relation to the purposes for which they were collected or otherwise 
+processed; (ii) the data subject withdraws consent on which the processing is based according to point 
+(a) of Article 6(1) GDPR, or point (a) of Article 9(2) GDPR , and where there is no other legal ground 
+for the processing; (iii) the data subject objects to the processing pursuant to Article 21(1) GDPR  and 
+there are no overriding legitimate grounds for the proc essing, or the data subject objects to the 
+processing pursuant to Article 21(2) GDPR; (iv) the personal data have been unlawfully processed; 
+(v) the personal data have to be erased for compliance with a legal obligation in Union or Member 
+State law to which the controller is subject; (vi) the personal data have been collected in relation to 
+the offer of information society services referred to in Article 8(1) GDPR. 
+ 
+ 
+- Right to restriction of processing (art. 18-2 GDPR) 
+Where processing has been restricted under paragraph 1 art. 18 GDPR, such personal data will, with 
+the exception of storage, only be processed with the data subject’s consent or for the establishment, 
+PHOTONFOOD 
+ 
+97 
+ 
+exercise or defence of legal claims or for the protection of the rights of another natural or legal person 
+or for reasons of important public interest of the Union or of a Member State. 
+ 
+- Right to data portability, link it to art. 20 GDPR 
+The data subject will have the right to receive the personal data concerning him or her, which he or 
+she has provided to a controller, in a structured, commonly used and machine -readable format and 
+have the right to transmit those data to another controller without hindrance from the controller to 
+which the personal data have been provided. 
+ 
+- Right to object, link it to art. 21 GDPR 
+The data subject will have the right to object, on grounds relating to his or her particular situation, at 
+any time to processing of personal data concerning him or her which is based on point (e) or (f) of 
+Article 6( 1) GDPR, including profiling based on those provisions. The controller will no longer 
+process the personal data unless the controller demonstrates compelling legitimate grounds for the 
+processing which override the i nterests, rights and freedoms of the data subject or for the 
+establishment, exercise or defence of legal claims. 
+ 
+- Stakeholder engagement (art. 35-9 GDPR) 
+Where a type of processing in particular using new technologies, and taking into account the nature, 
+scope, context and purposes of the processing, is likely to result in a high risk to the rights and 
+freedoms of natural persons, the controller will, prior to the processing, carry out an assessment of 
+the impact of the envisaged processing operations on th e protection of personal data. The controller 
+will seek the advice of the data protection officer, where designated, when carrying out a data 
+protection impact assessment. 
+ 
+- Right to a judicial remedy and the right to receive compensation (art. 79 GDPR) 
+Without prejudice to any available administrative or non -judicial remedy, including the right to 
+lodge a complaint with a supervisory authority pursuant to Article 77 GDPR, each data subject will 
+have the right to an effective judicial remedy where he or she considers that his or her rights under 
+this Regulation have been infringed as a result of the processing of his or her personal data in non -
+compliance with this Regulation. 
+Proceedings against a controller or a processor will be brought before the courts of the Member State 
+where the controller or processor has an establishment. Alternatively, such proceedings may be 
+brought before the courts of the Member State where the data subject has his or her habitual 
+residence, unless the controller or processor is a public authority of a Member State acting in the 
+exercise of its public powers. 
+ 
+Detail data management approach in the project, including:  
+ 
+- Record of processing activities (art. 13, 14 GDPR) 
+Where personal data relating to a data subject are collected from the data subject, the controller will, 
+at the time when personal data are obtained, provide the data subject with all of the following 
+information. In addition, the controller will, at the time when personal data are obtained, provide the 
+data subject  with the following further information necessary to ensure fair and transparent 
+processing. Where personal data have not been obtained from the data subject, the controller shall 
+provide the data subject with the requested information. 
+ 
+- Data security technical and organizational measures (art. 29, 32-2 GDPR) 
+The processor and any person acting under the authority of the controller or of the processor, who has 
+access to personal data, shall not process those data except on instructions from the controller, unless 
+required to do so by Union or Member State law. 
+PHOTONFOOD 
+ 
+98 
+ 
+In assessing the appropriate level of security account will be taken in particular of the risks that are 
+presented by processing, in particular from accidental or unlawful destruction, loss, alteration , 
+unauthorised disclosure of, or access to personal data transmitted, stored or otherwise processed. 
+ 
+- Personal data breach notification (art. 33 GDPR) 
+In the case of a personal data breach, the controller will without undue delay and, where feasible, not 
+later than 72 hours after having become aware of it, notify the personal data breach to the supervisory 
+authority competent in accordance with Article 55 GDPR, unless the personal data breach is unlikely 
+to result in a risk to the rights and freedoms of natural persons. Where the notification to the 
+supervisory authority is not made within 72 hours, it shall be accompanied by reasons for the delay. 
+ 
+- Transfer of data.  
+The data transfer between controller and data object will be performed on the request and according 
+to the described above procedure.
+5.2 Security 
+ 
+Please indicate if your project will involve: 
+• activities or results raising security issues: (YES/NO) 
+• 'EU-classified information' as background or results: (YES/NO)

@@ -1,0 +1,100 @@
+1.1 Objectives  
+The main objective of DIY4U is to develop and promote the adoption of collaborative production engineering 
+approaches (Open Innovation B2B/B2C digital platform and fablabs) in the FMCG sector. This will spur the rapid 
+production and commercialisation of new/innovative personalised or customised soft matter FMCG for the benefit 
+of consumers. To realise the ambition and main objective of DIY4U, the consortium will work along strategic  
+objectives (SO) measured against quantifiable Key Performance Indicators (KPIs), as follows: Strategic 
+objectives   
+  
+make-your-own-enzymatic-laundry-detergent;  
+https://www.bing.com/videos/search?q=DIY+detergents&view=detail&mid=842E8E1E1184166993BF842E8E1E1  
+184166993BF&FORM=VIRE;  
+https://www.bing.com/videos/search?q=DIY+detergents&view=detail&mid=0FE6D1F0E8F2B183BC6D0FE6D1F  
+0E8F2B183BC6D&FORM=VIRE  
+ 
+SO1: Development of an open innovation B2B/B2C digital platform: As digitalization is not a goal in itsel f, the 
+DIY4U digital platform aims to establish and propose clear and transparent links between professionals, 
+consumers and other stakeholders. Open innovation technologies will be deployed and adapted to first design and 
+then realize the digital interfaces. This open access platform will challenge and validate DIY formulations related 
+to the European FMCG sector, focusing initially on soft matter detergent and soap products. The platform will 
+have the capability for industry users/manufacturers to ‘plug-in’ models for any soft matter products and protect 
+the IP that any model would have. Another objective of this innovative solution is to identify new potential 
+personalized products based on the know-how of creative makers and foster actors to share relevant skills.  
+ 
+4 https://www.grandviewresearch.com/industry-analysis/soap-detergent-market  
+5 https://www.giiresearch.com/report/grvi615535-soap-detergent-market-size-report-by-product.html  
+  
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    4  
+  
+KPIs: Feedback from up to 20 SMEs and stakeholders using the platform; >10 new customized products 
+identified. 
+SO2: Development of a knowledge base (KB) and open innovation technologies: SO2 success will be achieved by:   
+a) Developing data management plan (DMP) enabling the end to end use of disparate collated data, 
+allowingdifferent actors to interoperate seamlessly.  
+b) Designing an evolving knowledge base; capable of easily representing information including the needs, 
+userexperience and the data for a given customised formulated product.  
+c) Developing and integrate a Life Cycle Analysis (LCA) and Parametric Life Cost C alculation Analysis 
+(LCCA) models to support transparent analysis of ingredient and final product features.  
+d) Plug-in, developing and adapting relevant soft matter modelling and simulation tools to digitally explore 
+the performance of new formulations.  
+e) Developing and plugging in digital twin of small-scale formulation process machine (fablab)  
+f) Defining common security and privacy requirements based on European monitoring frameworks to allow 
+thecollection and analyses of private data.  
+g) Evaluating the proposed solution in terms of the execution requirements.   
+KPIs: 1 application built on micro services or other API based services, at least 2 applied Machine Learning 
+algorithm, soft matter modelling and simulation tools, LCA/LCCA algorithms, fablab digital tw in, performance 
+testing report for all digital components.  
+SO3: Ensuring secure open data exchange and cybersecurity: This SO aims to secure the data exchange and share 
+skills between designers, makers, users, communities, manufacturers and other actors in an effective and 
+transparent way on the DIY4U platform. Distributed ledger technology (DLT)/blockchain will be deployed to 
+enhance data sharing and transparency, and to track liability and ownership. It is essential to strengthen the ability 
+to detect, mitigate and recover from risks and cyberattacks to enable a secure operational and tactical DIY4U 
+infrastructure.  
+KPIs: 3partners securely transferring data via the platform, DLT consensus mechanisms auto detecting and 
+responding to cyberattacks attempting to amend records and submit false data.  
+SO4: Development of Manufacturing Demonstration Facilities (MDF) and DIY4U Training: After analysing user 
+demands and needs, initial small -scale manufacturing trials of the early personalised/customized f ormulations 
+designed on the platform will be produced and characterized at MDFs (STEF and CPI) using existing 
+highthroughput and other complex liquid/particle processing equipment. Learning from these trial runs will feed 
+into the requirements specificatio n and design of fablab machines for automated production of powdered and 
+liquid FMCG. Subsequently, we will demonstrate the feasibility of DIY4U manufacturing by building  2 fablab 
+prototypes (1 powdered and 1 liquid) and using them to provide open access c ollaborative production. These 
+prototypes will be transitioned to commercial design and replicated after the project’s completion. To ensure 
+smooth adoption by consumers, SME users and wider industry, DIY4U platform and fablab training will be 
+developed and delivered to stakeholders including future EU industry workforce via dedicated workshops and 
+apprenticeships at MDFs.  
+KPIs: 2 Fablab prototypes, Demonstration Reports covering >100 products to check the operability and >10 
+products to check fablab performance in delivering critical quality attributes. DIY4U Training manuals, At least 
+4 training sessions delivered to >100 attendees/non -consortium stakeholders, at least 10 students/apprentice 
+trained on DIY4U.  
+SO5: Empowering different actors to be more involved in the DIY growth and increasing the DIY product 
+acceptance: DIY4U will increase involvement of makers, customers and stakeholders by:  
+a) Enhancing public and end-user awareness on the DIY creativity aspects by providing modern tools, such 
+as serious games and interactive tools on both the digital platform and fablabs.  
+b) Identifying and understanding the needs, behaviours  and demands of consumers, makers and 
+manufacturers through data collation via cloud-based tools.  
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    5  
+  
+c) Running open innovation competitions (OICs) to encourage non-consortium SMEs to build additional 
+functionality atop the DIY4U platform or to develop new innovative/customized FMCG using the DIY4U 
+platform and fablab MDFs.  
+d) Facilitating the Open Access of the interested stakeholders and widely communicating the positive 
+impacts ofcreativity and DIY4U services and products.   
+KPIs: 1 fablab application note for customizing products, 1 open serious game, 2 animated video to promote 
+DIY4U, >150 FMCG supply chain companies signed up to DIY4U platform, 2 OICs (>120 SME applicants; 16 
+Funded); at least 1 non-consortium SME tool integrated into platform, at least 16 new FMCG bespoke products 
+developed by SME via the Open Innovation Projects (OIPs).  
+SO6: Developmen t of tailored business models to support the sustainability and commercialisation DIY4U 
+outputs: Market development and exploitation of DIY4Y services will be addressed by using agile and 
+demanddriven product development approaches (e.g. Real Time Release) . DIY4U will link proven approaches 
+with new strategies to deliver customized products, support the marketing of open innovation/fablab and identify 
+new business opportunities. Market segments, target customers, tailored business strategy and exploitation plan 
+for the transfer of outputs to other FMCG domains and other consumer product manufacturing sectors will be 
+defined. The consortium aims to get the confirmation of the willingness to pay for DIY4U services (platform and 
+fablabs). A post -project business plan and business model for development of the digital platform and fablabs 
+from TRL6 to TRL9 and sustainable DIY4U business operation will be defined.  
+KPIs: Scalability of the DIY4U platform, number of novel profitable services: Target > 3 smart services, at least 
+16 SMEs using DIY4U services to manufacture customised products: Target > 200 new long -term and skilled 
+jobs in fablabs and IT sector.

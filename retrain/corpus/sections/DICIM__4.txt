@@ -1,0 +1,768 @@
+4. Added whole section Ethics from the project ’s 
+approved proposal  
+27.10.2022 
+Ref. Ares(2025)1458423 - 24/02/2025
+
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 2 of 45 
+3.1. ‘Purchase costs’ items (travel and subsistence, 
+equipment, and other goods, works and services) – 
+was added proclamation regarding the  
+confirmation that all costs related to equipment 
+include only the depreciation costs for the 
+mentioned equipment. 
+27.10.2022 
+1.2 and 1.2.3 
+3.1.4 
+Table 3 and Table 9: Based on the implementation 
+of the 2nd Amendment there is added new affiliated 
+entity Hisense Gorenje Europe, d.o.o. (HGE) to the 
+demonstrator’s activities. Added justification of 
+costs. 
+22.03.2024 
+3.1.4 Removed other costs of HGE 10.12.2024 
+2.2.2 Edited number of publications in the table 20  10.12.2024 
+ 
+ 
+ 
+ 
+Table of Contents 
+1. Excellence .................................................................................................................................................................................... 2 
+2. Impact ......................................................................................................................................................................................... 22 
+3. Quality and efficiency of the implementation.................................................................................................................... 31 
+4.     Ethics……………………………………………………………………………………………………………35 
+Terminology 
+Acr. Explanation Acr.  Explanation 
+CVM Circular value model ML Machine learning 
+CMS Circular manufacturing system AR Augmented reality 
+IoT Internet of things OEMs Original Equipment Manufacturers 
+DLT Distributed Ledger Technologies PIM Product Information Management 
+SMRE Small and medium sized remanufacturing enterprises PCB Printed circuit board 
+1. Excellence  
+The manufacturing sector is the greatest contributor to GDP in industrialized nations (14.5% of total GDP in 
+Europe), but also it is a major consumer of 
+material, energy, and a significant source of 
+waste (over 370 million tonnes of waste are 
+generated annually in Europe). 1 This negative 
+impact can be reduced by implementing value 
+recovery practices. Indeed, it has been 
+demonstrated that closing the loop of the 
+linear value chains provides multiple gains: i) 
+remanufacturing typically uses 85% less 
+energy than manufacturing  and could 
+offset more than 800,000 tons of CO2 
+emissions per annum at a global scal e2, ii) a 
+shift in reusing, remanufacturing, and recycling 
+products could create more than half a 
+million jobs in the recycling industry across 
+Europe3. Despite these advantages, currently 
+ 
+1 Parker, David, et al. "Remanufacturing market study." (2015). 
+2 Carbon Trust. (2014). Innovate UK’s Knowledge Transfer Network and Coventry University. Supporting Excellence in UK Remanufacturing: Stakeholder dialogue on 
+opportunities and challenges 
+3 World Economic Forum and the Ellen MacArthur Foundation. (2014). Towards the Circular Economy: Accelerating the scale-up across global supply chains. 
+Figure 1: The schematic of the phases of the Circular Value Management 
+systems and the integrated digital solutions that DiCiM will cover. 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 3 of 45 
+in the major industrial sectors the ratio of value recovery in the form of remanufacturing to new manufacturing is 
+only 1.9% across Europe 1 and has the potential to become a €100 billion sector by 2030 4. It is, therefore, quite 
+evident that to foster the economic opportunity that is worth billions5, the scale, efficiency, and responsiveness of 
+the manufacturing systems for value recovery activities need to be improved significantly, with the vision to reach 
+those of the linear manufacturing systems.  
+Therefore, the DiCiM project aims to develop and demonstrate integrated digital solutions that 
+enable i) tracking, tracing, and condition monitoring of products during their use phase, ii) 
+optimization of reverse logistics, and iii) supporting tools/solutions to enhance efficiency and 
+responsiveness of operations during the value recovery phase.  
+Through these integrated digital solutions developed using state-of-the-art technologies and knowledge, the DiCiM 
+project will address value use and value recovery, phases of CVM6 (Figure 1) connected through an optimised 
+reverse logistics, thus leading to a successful implementation of the Circular Manufacturing Systems7 (CMS). 
+While technology is the main focus, the economic and environmental performance  of the technology 
+deployment as well as the value recovery activities will be ensured. 
+ 
+Figure 2: Traditional information management systems in the manufacturing industry are not designed for circularity and value recovery 
+1.1. Objectives and ambition  
+In the CMS, the value management approach includes phases of value creation, delivery, use, recovery, and reuse 
+in a systemic perspective 8. Although the value use, and value recovery phase s are the main focus  of the DiCiM 
+project as the call requires, the successful implementation of CMS demands a systemic approach where all phases 
+of CVM are considered simultaneously and seamlessly 9,10. Therefore, besides the primary focus on value 
+use and recovery, DiCiM will maintain the necessary focus on value creation and delivery as well reuse phases to 
+ensure the successful implementation of CMS.  
+DiCiM project directly addresses the expected outcomes of the call, by developing and demonstrating a set of 
+integrated digital solutions that include an open access digital platform along with a range of support solutions 
+for managers, engineers, technicians, and operators along the value chain  to support the management 
+and engineering activities in a Circular Economy. DiCiM is a holistic support solution that provides the necessary 
+infrastructure to build an agile, sustainable, efficient, and responsive production system for recovery 
+and reuse of products, components and materials thus reducing the dependency on imported and harmful materials. 
+The core goal is to facilitate and boost fundamental shifts in the way goods are produced and consumed to achieve 
+ 
+4 European Remanufacturing Council. https://www.remancouncil.eu/  
+5 Ellen MacArthur Foundation: Towards the circular economy Vol. 1: Economic and business rationale for the accelerated transition. Accessed on 07.01.16. (2012) 
+6 Roci, Malvina, Niloufar Salehi, Saman Amir, Sayyed Shoaib-ul-Hasan, Farazee MA Asif, Aleš Mihelič, and Amir Rashid. "Towards Circular Manufacturing 
+Systems implementation: A Complex Adaptive Systems perspective using modelling and simulation as a quantitative analysis tool." Sustainable Production and 
+Consumption (2022). 
+7 CMS a system that is designed intentionally for closing the loop of products/components preferably in their original form, through multiple lifecycles. 
+8 Asif, Farazee. M. A., Circular manufacturing systems: a development framework with analysis methods and tools for implementation. Diss. KTH Royal Institute of 
+Technology, 2017. 
+9 Rashid, Amir, et al. "Resource conservative manufacturing: An essential change in business and technology paradigm for sustainable manufacturing." Journal 
+of Cleaner production 57 (2013): 166-177. 
+10 Roci, Malvina, Niloufar Salehi, Saman Amir, Sayyed Shoaib-ul-Hasan, Farazee MA Asif, Aleš Mihelič, and Amir Rashid. "Towards Circular Manufacturing 
+Systems implementation: A Complex Adaptive Systems perspective using modelling and simulation as a quantitative analysis tool." Sustainable Production and 
+Consumption (2022). 
+
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 4 of 45 
+sustainable resource management and reduce carbon emissions, addressing the concept of the circular economy. 
+We focus on material and energy savings by enabling reuse of products, components, and materials in an 
+efficient and responsive way.  
+1.1.1. Objectives 
+It is of great importance for the DiCiM project that the development of integrated digital solutions (both the open 
+access digital platform and the support solutions) are co-created with the users to i) allow quick feedback loops so 
+that issues that hinder user experience can be identified and resolved; and ii) ensure rapid technology uptake in the 
+case of companies (and beyond). Therefore, DiCiM will: 
+1. Develop solutions with cognitive interfaces as well as training and knowledge transfer mechanisms. 
+2. Develop solutions for working with the users’ experience (mapping, analysing, and improvement) and for 
+increasing engagement, especially for motivation and stimulation of pro-digital technologies implementation. 
+Table 1: Project Objectives 
+Objectives Results 
+Call scope: Development of innovative concepts, methods, and tools that track and trace the status of relevant 
+manufactured products and components, such as electronic systems and components as well as machine tools, 
+and increase the transparency and accountability for these along their lifecycle. Where appropriate, proposals 
+need to be able to link up with manufacturing industrial data spaces platforms, so that circular economy data can 
+be shared with a larger set of organisations; 
+Key area 1:  Integrated digital solutions that combine open access digital platform for lifecycle information 
+management and support solutions for value recovery activities 
+O1: Develop open access digital platform based on relevant 
+technologies and principles (e.g., Distributed Ledger 
+Technologies (DLT and Gaia-X) for data infrastructure. 
+O2: Develop IoT capability to trace and track operations and 
+service data. 
+O3: Develop algorithms to optimize reverse logistics. 
+O4: Develop digital support solutions, i.e. image processing, 
+AR and condition monitoring for decision support. 
+O5: Implement the digital platform , algorithms and support 
+solutions in an integrated way to support all activities of value 
+recovery, i.e. collection, sorting, inspection, disassembly, 
+repair/remanufacturing and reassembly. 
+Secure, transparent, and scalable Open access 
+digital platform based on open -source 
+components to increase available spare parts by 
+30% annually. 
+Reverse logistics cost reduction between 30% to 
+50%. 
+Increased efficiency in value recovery by 30%. 
+Increased spare part recovery rate between 20% 
+(washing machines) and 150% (refrigerators). 
+OEMs, service organisations, suppliers, repair 
+shops, used parts  (core) brokers and logistics 
+support providers, connected on one platform. 
+Call scope: Inclusion and handling of real-time production data in analysis software and tools, notably for decision 
+making and control, as well as knowledge management. 
+Key area 2: ML based  AI  for product information management and supporting decision -making for different 
+actors of the CMS. 
+O6: Apply ML for real -time decision support for optimized 
+reverse logistics including product collection, inspection, and 
+sorting.  
+O7: Integrate Image processing and AR platform to visually 
+assist with product inspection, sorting, repair and reassembly. 
+Necessary data is available ion real -time for 
+personnel on the field to reduce human error 
+related to sorting, recovery, etc, by 90%. 
+Reduce sort and tes t costs at sorting centre by 
+25%. Increase refurbished units by 50%. 
+Call scope: Demonstration of the support tools in at least two different realistic production environments with a 
+clear target of improving quality and sustainability with significant economic value. 
+Key area 3: Demonstrate the impact of Integrated digital solutions in the value use and value recovery phases of 
+the CVM. 
+O8: Perform whitegoods demonstrator: washing machine 
+(Dem1). 
+O9: Perform whitegoods demonstrator: refrigerator (Dem2). 
+O10: Perform consumer electronics demonstrator (Dem3) 
+O11: Perform automotive spare parts demonstrator (Dem4). 
+O12: Evaluate the economic and environmental performance 
+Testing i n a real production environment , 
+increasing good part recovery by M48: 
+Dem1 increased recoveries by 20,000 units /year. 
+Dem2 increased returns by 70,000 units /year. 
+Dem3 increases refurbished units by 50% /year. 
+Dem4 increases used spare parts recovery by 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 5 of 45 
+of the demos. 
+O13: Assess the business case and upscaling potential of the 
+demos. 
+O14: Evaluate replication potential at the sector level. 
+30% /year. 
+Further KPIs are in Table 3 to Table 6. 
+Platform and support solutions testing and 
+validation making the developments ready for 
+market launch. 
+Call scope: Research must build on existing standards or contribute to standardisation.  
+     All projects should build on or seek collaboration with existing projects. 
+Key area 4: Integration and creation of standards and synergies with other relevant European, national or regional 
+initiatives, funding programmes and platforms. 
+O15: Contribute to standards such as ISO/TC 323 Circular 
+Economy. 
+O16: Engage with DigiPrime and CirThread projects. 
+O17: Exploit APRA and European Remanufacturing 
+Association’s network as well as other networks (such as 
+APPLiA and DigitalEurope , and Gaia-X association) that the 
+partners are a member of. 
+Community of early adopters in the whitegoods 
+industry and consumer electronics industry  - 
+network/ecosystem (helix) of at least 200 
+stakeholders by M36. 
+Emerging standards and data format for open 
+access platform. 
+Call scope:  The support tools need to work with the user, and training and knowledge transfer, cognitive 
+interfaces, as well as acceptance and uptake will be vital in the solutions proposed. 
+Key area 5: Human centred approach and acceptance uptake through training, dissemination and exploitation 
+activities 
+O18: Co-creation and regular validation of support tools with 
+end-users. 
+O19: Training programs for support tools with end-users. 
+O20. Develop an open network facilitating the adoption of 
+the integrated digital solutions. 
+O21. Disseminate demonstration results. 
+O22. Mechanism of citizens and end -user engagement 
+through collaboration. 
+4 tailored training programs ensuring knowledge 
+transfer, uptake, and user acceptance. 
+2 r esearch articles  publications, m otivating 
+actors from other manufacturing sectors to use 
+the integrated digital solutions. 
+5 researchers with upskilled careers circular 
+economy and 2 new transdisciplinary/trans -
+sectoral collaborations. 
+Do not significant harm principles of the project: In line the research and innovation activities do not support, 
+or include any activity that could make significant harm to any of the six environmental objectives identified with 
+the Article 17 of the EU Taxonomy Regulation. Compliance is assessed both for activities carried out during the 
+present project as well as for the expected life cycle impact of DiCiM at the commercialisation stage, to be covered 
+with a complementary project. 
+DiCiM supports the achievement of the Made in Europe Partnership General Objectives.  
+Namely: 1. Ensuring European Leadership & manufacturing excellence 2. Achieving Circular and climate -neutral 
+manufacturing 3. Mastering the Digital transformation of the manufacturing industry 4. Creating Attractive added-
+value manufacturing jobs 
+1.1.2. Ambition 
+Value recovery is the process of reusing materials of a used product back into the production of a like-new product. 
+The challenges include high cost of 
+resources, complex parts design,  
+limited used parts availability, lack 
+of internationally accepted 
+definitions and protocols, poor 
+design of reverse logistics 
+networks, and poor consumer 
+perceptions. 
+The efficiency and responsiveness 
+of value recovery operations 
+depend heavily on the quality and 
+quantity of returning product s 
+(spare parts availability) as well as 
+ Figure 3: Value management phases in CMS and the focus of the DiCiM project. 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 6 of 45 
+the accessibility of support solutions to carry out activities. Knowing where used products/parts are and in what 
+conditions can help optimize the reverse logistics process, which involves managing returns, dealing with any leases 
+or refurbishments, and potentially buying surplus goods and materials. Tracking, tracing, and condition monitoring 
+can provide with real time data about the location and co ndition of products. After the return of products, the 
+processes of inspection, sorting, disassembly/dismantl ing, testing and repair/refurbish/remanufacturing/recycl ing 
+start. 
+We consider the implementation of the circular manufacturing systems and CVM (Circular Value Model) as the 
+cross functional integration of the four areas where their mutual dependencies and interactions are considered and 
+understood as shown in Figure 3: 
+Area 1 ICT tools: Digital technologies to support CMS value phases with available technologies such as DLT 
+principles for data collection, management and sharing among the value chain actors; IoT for tracing, tracking and 
+condition monitoring; Big Data principles to systematically analyse and extract data collected through sensors and 
+images; ML based AI to su pport decision making and Image processing and Augmented Reality (AR) to assist 
+operations directly involved in value recovery and reuse activities 
+Area 2 Supply chain: Integrating both forward and reverse supply chains with the support of the ICT tools that 
+can solve companies' and consumers' concerns regarding traceability and data protection in a tamper-proof manner. 
+To demonstrate how the integrated (forward and rever se) supply chain can be influenced and optimised through 
+the product design consideration below.  
+Area 3 Product design: This means designing the information management platform and products with condition 
+monitoring capability with the idea of facilitating the refurbishment, remanufacturing, and possible upgrade of the 
+product. To understand and feedback to the designer on how product and data management systems should be 
+designed.  
+Area 4 Business model : To understand and demonstrate how the product design and supply chain features 
+supported by the ICT tools can trigger the emergence of new business models. It also includes dissemination actions 
+to enhance public acceptance and the possibility of scaling up the value reuse business.  
+Solutions currently used for supply chain communication and legal/ethical compliance monitoring 
+are developed to support linear systems, none of them addresses the issues of closing the loop of 
+products/materials, for multiple lifecycles. Furthermore, solu tions do not allow inter -organization 
+communication and sharing of data among multiple stakeholders in a value chain.   
+The DiCiM project will follow the ResCoM 11-framework and explore a systemic and systematic approach, 
+considering interdependencies among business model, product design and supply chain aspects, including ICT as a 
+key enabler, to overcome the classic challenges of uncertainty in quality, quantity, and timing of returning products. 
+DiCiM project will demonstrate the developments in the production environment with four case studies selected 
+from the automotive, whitegoods and electronics sectors which represent 68% of the total manufacturing sectors 
+in Europe (more info in section 2). The testing and validation of the developments will be carried out as shown in  
+Figure 4, which is expected to create a full functioning holistic solution adaptable and applicable to other sectors. 
+ 
+11 Resource Conservative Manufacturing (ResCoM) is a research initiative and also an EC funded research project (www.recoms.eu) promoting circular 
+manufacturing systems. 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 7 of 45 
+1.1.3. Positioning of the project 
+The project builds on the results of 
+the ReCiPSS 12  project which 
+explored for 4 years the success 
+factors for circular manufacturing 
+systems, successfully implementing 
+two cases with different OEMs 
+showing different levels of control 
+over their value chains: one case 
+with full control, and one case with 
+partial control (more info in section 
+1.2.3). The major technology 
+results are outlined below in 
+relation to their TRL at project 
+start and completion. 
+Table 2: Project TRL maturity 
+Output Leader TRL start TRL end 
+An open access digital platform for lifecycle information management. SIG 4 6 
+Extend the capability of the ReCiPSS spare parts data management platform C-ECO 4 6 
+Develop condition monitoring capability of the washing machines  GOR, 
+HGE 
+4 6 
+Develop IoT capability for tracking and tracing of washing machines and 
+printers with lifecycle data collection, monitoring and sharing 
+GOR and 
+LEX 
+4 6 
+Apply ML for achieving longevity and optimising reverse logistics ULFS 4 6 
+Apply ML based image processing for inspection, sorting, testing and value 
+recovery operations  
+IRIS 4 6 
+Apply AR to optimize value recovery operations  TUC 4 6 
+1.2. Methodology 
+1.2.1. Overall methodology 
+The project is organized in 4 activity streams running in parallel during the project: 
+Stream 1 (Digitalised value management system) To support and interconnect Areas 1, 2 and 3 of the CMS, 
+this stream covers the creation of the integrated digital solution with the design and development of an open access 
+digital platform for lifecycle information management and the support solutions to sustain the implementation of 
+circular manu facturing systems. The stream includes software and technology specification, architecture, 
+development, and integration [WP1, WP2, WP3 and WP4], built upon the principles and research from previous 
+projects (contributions in Table 9). 
+Stream 2 (Synergy of the demonstrators) will deploy the open access digital platform and the support 
+solutions with existing information management systems in four cases from the three selected value chains 
+(whitegoods, consumer electronics  and automotive parts ) [WP5]. The stream also includes software/hardware 
+integration and deployment support, data collection/analysis/evaluation, business case validation and environmental 
+impact analysis [WP6 and WP7]. To foster synergies between demonstrators, a joint taskforce will be created and 
+will host regular meetings between the teams implementing the four demonstrators. This Stream integrates Areas 
+1, 2, 3 and 4 of the CMS. 
+Stream 3 (Integration and creation of standards) which relates to both Areas 3 and 4. This stream ensures 
+use of relevant standards in the development, identification of gap in standards and finally propose new standards. 
+Standards provide the fundamental building blocks for product and process development, but they also make it 
+easier for consumers to understand and compare competing products, generating, in turn, additional business 
+ 
+12 EC funded research project www.recipss.eu  
+Figure 4: DiCiM plans a demonstration of the developments in the real production 
+environments of four companies in three major industrial sectors. 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 8 of 45 
+models or expanding existing ones. Standards are also necessary for easier and fairer trade between geographies 
+because the same specifications are adopted for use in different countries. It includes (but not limited to) proper 
+labelling of remanufactured products, creating, and promoting universally developed and accepted standards on 
+reman to raise public awareness [important contributions from WP6 and WP7. Dedicated efforts in T8. 4 from 
+WP8].  
+Stream 4 (Exploitation & Dissemination)  Directly related to Area 4. We will compile the results of the 
+demonstrators in high impact collaterals for broad dissemination [rest of tasks in WP8]. We will base our 
+communication and dissemination strategy in the triple helix model, including interact ion between academia (the 
+university), industry and government, to foster economic and social impact, with both individual (Table 15) and Joint 
+(table 16) communication actions. Specifically, partners Crowdhelix (CHX) , Automotive Parts Remanufacturers 
+Association (APRA) and the European Reman Council (ERP) to provide significant contributions. More information 
+in sections 2.2.2 and 0. 
+ 
+Stream 1: Digitalised value management system 
+Digitalised value management system in DiCiM means seamless integration of the support solutions with the digital 
+platform for lifecycle information management to enhance the efficiency of value use and recovery phase together 
+with the reverse logistics. 
+As electrical machines are used in different applications, prognostics play an essential role in improving system 
+safety, reliability and enabling predictive maintenance decision making. Having an integrated health management and 
+diagnostic strategy becomes an important part of a systems’ operational life cycle.   Here, data-driven prognostic 
+usually deploys machine learning algorithms to identify the pattern and anomalies within the raw signals. Figure 613 
+depicts the three main types of maintenance that can be applied: corrective, preventive, and predictive maintenance. 
+Based on the results from ReCiPSS project and identified needs from the industrial partners (see section 1.2.3), we 
+find condition monitoring as an essential part to enable preventive and predictive maintenance  and, hence, make 
+activities like repair or refurbish more attractive and profitable , especially for small and middle -sized 
+remanufacturing enterprises (SMREs). Condition monitoring is also an essential element to ensure the collection of 
+the right products, in the right quality and quantity at the right time. 
+Generally, stresses that impact electrical machines’ operation can be classified into four main categories (Thermal, 
+Electric, Ambient, and Mechanical). The appearance of faults depends mainly on the products’ parameters, such as 
+machine type, size, rated voltage, etc. To increase the reliability of the machine, many parameters must be 
+monitored. We will use a combination of IoT and ML technologies  
+The new “Right to repair” regulations compliance requires significant advances for manufacturers. It is especially 
+relevant in 3 fields: 1) supporting the repair process, 2) ensur ing the supply of spare parts and 3) monitoring of 
+appliance part status.  
+ 
+13 Kudelina, K.; Vaimann, T.; Asad, B.; Rassõlkin, A.; Kallaste, A.; Demidova, G. Trends and Challenges in Intelligent Condition Monitoring of Electrical 
+Machines Using Machine Learning. Appl. Sci. 2021, 11, 2761. https://doi.org/10.3390/app11062761  
+Figure 5: The 4 streams, objectives, WPs, 
+activities, and partners involved 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 9 of 45 
+With DiCiM  integrated digital solution, designers can also produce repairing 
+instructions, including images, videos, 3D models and a mechanical way to define 
+repairing steps and procedures. These instructions will be accessible at three levels: 
+1) company repair shopfloor, 2) 3rd party certified repairmen and 3) end-users. The 
+information will be presented to these 3 levels using a combination of AR and ML 
+to facilitate the overall repair process. At the same time, the application that is used 
+to support the repairing process will capture key business information (e.g., damaged 
+parts) that will be fed to the company’s internal systems. Besides, the operators will 
+be assisted by a component defect detection system to execute a quick diagnosis 
+(using Image Processing) of specific parts. Finally, decision makers of the company 
+will be presented with Key Indicators about of spare part stock or overall 
+improvements. Where data and instructions related to repair is made available to 
+the operators through the open access platform.  .   
+Furthermore, the upskilling capabilities of AR will also be used in the automotive 
+sector (represented in the project by C-ECO) by ensuring that identified spare parts 
+are correctly handled in the sorting processes. This will be achieved by checking 
+that the right part is sorted in the right container and conveying this information 
+visually to the worker, by utilising the capabilities of AR -glasses and connecting it 
+with the logistic management system. This will reduce re -sorting process and 
+delivering wrongly sorted goods to customers. 
+→ The open access digital platform  
+One of the factors preventing the standardisation and widespread adoption of open 
+access digital platform s is their reliance on shared databases, common to the 
+stakeholders in a value chain. This results in a poorly managed data that is easy to 
+tamper with and the subsequent concerns regarding loss of privacy and data 
+protection. This makes many large companies unwilling to share their data, that resort to isolated management 
+systems, resulting in data islands along the supply chain. Distributed Ledger Technologies (DLT) has the potential 
+to address the concern of the different actors of the value chain and allow cross-organisational collaboration. 
+There are many existing works in the recent literature exploring the potential of big-data and DLT technology, and 
+how it can disrupt the supply chains 14,15. DLT refers to the technological infrastructure and protocols that allows 
+simultaneous access, validation, and record updating in a tamper-proof manner across a network that's spread 
+across multiple entities or locations. At the same time, participants’ privacy can be highly respected and preserved 
+with corresponding access control measures. Transactions in a permissionless mechanism are visible to the public 
+while the details can be restricted. The value chain actors cou ld decide whether the stored data is public or 
+restricted with levels of access control as well as can decide with which actors the data should be shared. 
+While the potential benefits are quite promising, there are some challenges hindering the development of such a 
+technology, which we will address during the project: 
+Storage and speed scalability:  With the number of transactions increasing day by day, the digital platforms 
+based on DLT such as blockchain technology (just one of the potential implementations of a DLT), have become 
+increasingly heavy as all transactions must be stored for validation. Which can be  quite a time-consuming task. 
+Currently, famous Bitcoin, for example, has raised to more than 391GB16 of storage and can process a maximum 
+of 7 transactions per second 17, which means that a client must wait for at least 10 minutes on average to be sure 
+that the transaction is included. We will implement a DLT with a focus on storage and energy consumption savings.  
+Retrievability: Besides data storage, DLT will be used to provide data retrieval service to the stakeholders along 
+the supply chain. However, it is non-trivial to search for data efficiently while preserving data privacy. In particular, 
+the data stored on DLT are typically encrypted, which hinders the development of efficient search algorithms. To 
+ 
+14 Benzidia, S. “E-Design: Toward a New Collaborative Exchange of Upstream E-Supply Chain.” Supply Chain Forum: An International Journal 19, no. 4 
+(2013): 4-9.  
+15 Wang, Y., M. Singgih, J. Wang, and M Rit. “Making sense of blockchain technology: How will it transform supply chains?” International Journal of 
+Production Economics 211 (2019): 221-236. 
+16 YCharts. “Bitcoin Blockchain Size,” https://ycharts.com/indicators/bitcoin_blockchain_size, Accessed: 20 Feb. 2022 
+17 Blockchain Council. “Top cryptocurrencies with their high transaction speeds,” https://www.blockchain-council.org/cryptocurrency/top-cryptocurrencies-
+with-their-high-transaction-speeds/. Accessed: 21 Feb. 2022 
+Figure 6: Maintenance types: 
+Top: corrective maintenance 
+Middle: preventive maintenance 
+Bottom: predictive maintenance 
+Source: Kudelina et al.,2021 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 10 of 45 
+solve this challenge, will also explore Gaia-X18 a secure data infrastructure ecosystem developed in Europe in which 
+data is made available, collated, and shared in a trustworthy manner. i.e., with a sovereign structure that doesn't 
+depend on specific providers, an ownership mechanism that allows the user to always retain sovereignty over their 
+data and using a label system. This label ling system is evidence of compliance with strict rules under the Labelling 
+Framework. Labels could constitute facilitation in the procurement of services and an effective method to build 
+trust between users and providers 
+Architecture: the main components of the open access digital platform will be a circular PIM (Product Information 
+Management) and a circular core(used parts in the context of the automotive sector) -return-options management, 
+see Figure 7. Original Equipment Manufacturers (OEMs) will share selected technical information about circular  
+products, parts and components with the open access digital platform from their own proprietary platforms. In 
+return they will connect their proprietary e-commerce solution to the open access digital platform and can show 
+information from both platforms combined. The data from the PIM will also serve as the basis for the creation of 
+core-return options to return of specific products for circular value recovery. 
+ 
+Figure 7: Preliminary architecture for open access digital platform ecosystem. 
+This way OEMs will be supported by the open access digital platform with the following use cases, see Figure 7: 
+1. Tag parts, components and assemblies in their own aftermarket PIM system that are eligible for remanufacturing 
+or where remanufactured alternatives can be offered, 2. Share technical information from the OEM PIM to the 
+circular PIM that will allow digital open access platform participants to match components with the correct products 
+and to create matching core-return-options to fulfil the demand for used products. 3. Supply and Demand planning 
+with respect to incentive creation for used parts return. 4. Include information from the open access digital platform 
+in the OEM’s e -commerce solution offering options for selling the old component and buying a remanufactured 
+component. 5. Fulfilment service for used parts return to OEM/remanufacturer: pick-up of used part, identification, 
+and quality inspection, sorting according to production needs, provide information for financial clearing. 
+To ensure the largest possible market for used parts, OEMs, dealers, and resellers can include circular economy 
+options in their e-commerce solutions: 1. Besides OEM and Aftermarket parts, also remanufactured parts will be 
+offered to the user. 2. Return options will be mentioned to return to the OEM and/or an open access participant. 
+→ IoT for condition monitoring  
+During the project we will leverage the power of IoT to trace, track and optimise the timing, quantity, and quality 
+of returned products using a layered architecture, where IoT is used for sensor data processing, fusion, and analysis 
+of all the information available: 
+1. The sensor data layer consists of various IoT sensors that can measure physical surroundings and capture real-
+time changes, measuring different parameters such as temperature, humidity , gas, Infra-Red (IR) sensors or 
+Radiofrequency Identifiers (RFID). Taking advantage of components that may be already available in currently 
+manufactured goods or easy to include during value recovery operations.  
+2. The data fusion layer is required to handle various data challenges generated from monitoring potentially 
+heterogeneous devices. The combined data from different sources are then passed to the data analysis layer 
+for efficient knowledge generation and decision-making. 
+3. The data analytic layer , in combination with AI,  is what truly enables the smart functionality of DiCiM. To 
+handle the huge volume of data generated by the IoT sensors, we will explore efficient solutions  based on 
+ 
+18 https://gaiax.se/  
+
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 11 of 45 
+cloud computing and parallel distributed systems.  
+During Task 4.1 and Task 4.2 efforts will be directed towards the development of IoT infrastructure that reduces 
+computation cost, improves network reliability, and ensures scalability. 
+→ Machine Learning based a rtificial intelligence  for reverse logistics and inspection  
+Very often, field technicians must cope with situations where the problem is unknown, and this scenario forces the 
+company they work for to send a more experienced worker to the site. A procedure of this type is, however, 
+costly in terms of time and therefore inefficient. Likewise, the same maintenance and repair interventions represent 
+one of the most significant critical issues for companies.  
+Machine Learning (ML) picks up patterns from data to arrive at predictions. Access to large data lakes, easiness of 
+building data pipelines, increase in real-time data processing capabilities, all would make ML a powerful mainstream 
+technology. This technology will be used in the sorting process, to assist detect whether a product can be reused, 
+needs repair, is ready for remanufacture or has arrived at its last stage and can progress to dismantling and recycling. 
+Leveraging the condition monitoring capability and IoT to streamline the data (indicating the condition of the 
+products) ML can process a large amount of data (applying big data principles) collected from the products in real-
+time to trigger different types of decision makings and interventions such as service intervention. This also makes 
+possible service inspections through remote assistance. This is reflected in reduced repair cost and repair time, 
+as the services may be planned in advance. Furthermore, a positive effect on the reparability and the lifespan of 
+the product is expected together with an optimized reverse logistics that only bring products when the potential 
+of value recover is the highest.  
+→ Image Processing and Augmented Reality for value recovery  
+We include Image Processing and Augmented Reality (AR) to compensate for the skills gap and reduce staff errors, 
+ensure rapid and effective know -how sharing, increase the percentage of first -time resolutions and provide more 
+accurate diagnoses. This is where this technology comes into play, helping to perform maintenance activities, virtual 
+collaborations, and training of machinery. 
+The available information can also be integrated with data from IoT connected devices, which allow users to view 
+the relevant statistics to directly evaluate the correct functioning of an asset or used in combination with the twin 
+of an asset to be manipulated in real time and accompanied by additional information. These capabilities extend 
+skills and allow operators to complete maintenance and service tasks more quickly and efficiently, regardless  of 
+their skill level. 
+Combining ML and AR in the value recovery processes enables: 
+1. Operational resources are more efficient thanks to clear and knowledge appropriate instructions. 
+2. Specialised skills and experiences are transferred to the entire organisation for shared and proactive use. 
+3. The training of inexperienced staff is faster and easier, thanks to collaborative learning. 
+4. Productivity, safety, and customer service reach new standards. 
+Product information is fed into the proposed framework for disassembly planning and content generation, ultimately 
+displayed in an AR interface. Disassembly planning encapsulates information related to the disassembly sequence, 
+and it is enhanced by the visual cues and animations provided by the content generation module. This information 
+is ultimately presented to the operators in the AR interface.   
+Stream 2: Synergy of the demonstrators 
+DiCiM has chosen 4 cases as demonstrators: washing machines, refrigerators, printers, and automotive spare parts, 
+representing the 3 major industrial sectors of the European Economy and waste. These demonstrators cover the 
+whole reverse part of the circular value chain , i.e., reverse logistics, product sorting, disassembly, testing, value 
+recovery, disassembly, and reassembly. The sectors represented by these case companies have a diverse knowledge 
+base when it comes to value recovery activities. For instance, the automotive sector has the longest experience in 
+value recovery activities, whereas the printing and the whitegoods industry has moderate to no experience at all 
+respectively. 
+From the business point of view, the printing industry is mainly business to business (B2B) and automotive spare 
+parts has conventionally been business to consumer (B2C), whereas whitegoods have experience from both. 
+B2B printing business has a tightly connected value chain with full control over the products, whereas automotive 
+has a weakly connected value chain with no control over the products. The whitegoods sector is operating in the 
+moderately connected value chain and with little effort (due to widespread authorised and local service business) 
+control over the products can be easily established. 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 12 of 45 
+Technology-wise, the automotive spare parts sector has the most established and efficient remanufacturing 
+infrastructure while in the whitegoods sector the value recovery capacity is limited to repair and after-sales services. 
+In this case, the printing industry has advanced significantly but is rather far away from the automotive sector. 
+These diversities and differences are the areas where DiCiM will establish synergies for cross learning and 
+knowledge sharing among the demonstrators, as part of the T7.1 (WP7) dedicated for this purpose.  
+Table 3: Washing machine demonstrator 
+Washing machine demonstrator Gorenje and HGE 
+Description As part of the ReCiPSS project, Gorenje and HGE have successfully developed new long lasting washing 
+machines and piloted 300 washing machines in 4 European countries in a circular pay -per-wash scheme. 
+For scaling up Gorenje plans to expand the pay -per-wash business model in different segments in the 
+market with three distinct offers called Gold, Silver and Bronze. Gold offer includes brand new machine 
+with premium service (i.e., service the machine instantly).  Silver offer includes one-time remanufactured 
+machines with moderate service and the Bronze offer includes two times remanufactured products with 
+budget service (i.e. service within 1 week). 
+Challenge 
+To penetrate simultaneously in all three segments at the initial stage, Gorenje and HGE needs to have 
+access to many used washing machines: 1) To ‘take back’ (returning old machines by customers when a 
+new machine is installed) machines and explore the ‘buy back’ market potential to recover spare parts 
+for the rest of appliances. 2) Gorenje and HGE will use its B -Stock ( e.g., damaged machines during 
+transportation and washing machines returned as warranty claim) as the source to scale up pay-per-wash 
+business model. 3) These collected machines will be used to source spare parts that will serve all three 
+segments of the pay-per-wash business model and allow cost effective maintenance and refurbishment of 
+washing machines. 4) Due to high labour costs repair is quite expensive operation in circular pay -per-
+wash business operation, so it’s important that every single part of it is optimized.  
+Solution 
+To optimise the return of the right product at the right time and value recovery activities to develop:  
+1. A smart machine capable of condition monitoring  
+2. IoT platform to collect information in real-time for decision making 
+3. AI for optimizing the timing, quantity and quality of products need to be brought back  (predictive 
+maintenance) 
+4. AI for decision making of what sort of value recovery activities should be undertaken both at product 
+and component level  
+5. Augmented reality to support the service personnel to optimize value recovery activities 
+KPIs 
+1. Size of the B-stock WMs & Tumble dryer: 20 000 units /year 
+2. Increase in spare part recovery efficiency: 30% (net energy Saving (avg. 39 KWh/ WM-TD): 780 MWh) 
+3. Increase in spare part recovery rate: 20% (Net value Savings (avg. price of B-Sock €210): €4.2 M, Loss 
+reduction: €190k, net Material saving (avg.146 kg/WM-TD): 2920 tons,  
+4. Increase in logistics efficiency 50%  
+5. Net CO2 saving (avg. 2.5 tons CO2 eq/ WM-TD): 50 000 tons CO2 eq 
+6. DiCiM developments can be applied to B-sock of all other major appliances: 150 000 units/year 
+7. This could lead to net value savings (avg. price of B-Sock all major appliances €180): € 27 M 
+Table 4: Refrigerator demonstrator 
+Refrigerator demonstrator Arcelik 
+Description 
+The largest refrigerator manufacturing factory of Arcelik is in Eskisehir, Turkey, which is a key player in 
+cooling home appliances in Europe, with approximately 7M refrigerator sales globally per year. Currently, 
+70.000 refrigerators are collected (due to mainly return rights and warranty claims) and a major part of 
+the refrigerators are sent directly to the recycling centre annually  despite having huge potential of high 
+quality value recovery such as refurbishment or component reuse. Due to insufficient capacity, only 10% 
+of the collected refrigerators are  inspected to enable refurbishing operations or component reuse . The 
+insufficient capacity at Arcelik is since the decision-making mechanisms in the inspection process is 
+currently completely manual and based on the operators’ subjective assessment. 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 13 of 45 
+Challenge 1) Approximately 70.000 refrigerators are collected annually with capacity of inspecting only about 7000 
+refrigerators causing huge negative economic and environmental impacts 2) Cycle time of inspecting each 
+refrigerator is currently 2 hours which needs to be reduce d significantly (the aim is 10-15 minutes). 
+3)The decision making of the operators are subjective and prone to making wrong decision  4) Lack of 
+transparency and accountability of  recovered components and thereby, difficult to integrate them to 
+production and spare parts stock management 
+Solution To increase the efficiency of the inspection process, support the decision-making process of the service 
+personnel and optimize value recovery activities Arcelik will 
+1. Apply robot assisted image processing technique for appliance and circuit board (PCB) damage 
+detection, and bacteria inspection 
+2. Apply AI for image processing to support decision making in value recovery activities  
+KPIs 
+1. Volume returns: 70 000 units (net material saving: 70000* 100 Kg = 7000 tonnes) 
+2. Increase in spare part recovery efficiency: 90% (10-15 minutes inspection time instead of 2 hours leading 
+to 126 000 labour hours saved for inspecting 70 000 units) 
+3. Increase in spare part recovery rate: 150% (from the current state) 
+4. DiCiM developments can be  applied to capture other major appliances; 10 million units/year 
+5. This could lead to net  value savings: (avg, price  €130): €13,6 M 
+Table 5: Commercial printers’ demonstrator 
+Commercial printers’ demonstrator Lexmark 
+Description Lexmark currently collects products from the markets in at least three ways. Products returning from 
+the B2B customers at the end of the leasing contract, take back printers in connection to installing new 
+printers and buying back a large fleet. These products have three destinies, in best cases products are 
+refurbished and sent to new customers, harvesting spare parts and in the worst -case components are 
+sorted for efficient recycling. These take back processes are constantly under development. . 
+Challenge 
+There is a mismatch between supply and demand causing the value recovery highly inefficient.  
+Furthermore, there is an issue with the lack of lifecycle as well as product usage information which is 
+essential for the decision making and planning in advance of the value recovery activity (i.e. repair, 
+refurbish, harvest spare parts, recycle etc.) for a specific printer. Currently, Lexmark gets some data from 
+its leased printers but for other printers (sold through wholesalers and distributors or take back printers) 
+no data is available. Lexmark wants to know what value recovery actions are more profit able and 
+environmentally friendly and when the printers should be taken back. 
+In addition, Lexmark wants to achieve carbon neutrality in its operations and products (with as little 
+compensation for CO2 as possible). Lexmark uses the LCA approach, but the LCA data for hardware 
+and cartridge is not accessible to everyone. Currently, it is a very manual and resource-intensive process. 
+There is an interest in making the information available to a wider audience  (i.e. different roles in the 
+company such as compliance, procurement, sales etc.) to support them in their decision making. Lexmark 
+is interested in the whole value chain for CO2 data.  
+Solution 
+To optimise the return of the right product at the right time and value recovery activities Lexmark will 
+develop along the project by its main entity Lexmark Hungary acting as Partner: 
+1. Access the lifecycle and product usage information from the built-in sensors and monitor the condition 
+of the printers 
+2. IoT platform to collect information (both from the printers leased and sold through the distributors) 
+in real-time and decision making  
+3. Apply AI to optimize the timing, quantity and quality of products that need to be brought back 
+4. Apply AI for decision making o n what sort of value recovery activities should be undertaken both at 
+the product and component level 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 14 of 45 
+KPIs 
+1.  Reduce per unit reverse logistic cost:30% based on the situation from the 2021; cost information for 
+unit reverse logistic 
+2.  Reduce sorting as well as testing costs at sorting centre: 25%, included in fix cost  in comparison to 
+2021.  
+3.  Increase refurbished units : 50%, based on the comparison with the year 2021  and including the 
+refurbished cost labor as well as refurbished material cost.  
+4.  Decrease both average spare parts and the per unit refurbishment cost: 20%, based on the comparison 
+with the year 2020 as baseline (cost per printer - labor, as well as cost per printer – material).  
+5.  Increase social acceptance of refurbished and remanufactured printers/cartridges through awareness 
+programs. Reach users via social media campaigns.  
+6.  Increase salvaged units -dismantling, parts repair : 50%, based on the comparison with the year 
+2021(decrease based the increased the life-time of the printer)  
+7.  Increase the portfolio of returned used printers:35%, based on the comparison with the year 2020.  
+Table 6: Automotive spare parts demonstrator 
+Automotive spare parts demonstrator C-ECO Gmbh  
+Description 
+Remanufacturing is a widespread standard-business in automotive aftermarket, Nevertheless, there is no 
+commercial IT-solution available in the market that exclusively supports the value recovery activities inter-
+organizational. Most of the large companies rely on Enterprise Resource Planning (ERP) systems which 
+are designed for linear manufacturing systems and only include very limited functions for circular value 
+recovery. Cases where internally developed software is used, they are designed for and limited  to intra-
+organizational collaboration and do not support data sharing across the value chain. These “information-
+islands” prevent an efficient inter-organizational allocation of used parts to value preserving and recovering 
+activities such as re -using, re furbishing or remanufacturing. As part of the ReCiPSS project, C -ECO 
+developed an automotive part data management platform that supports core management basing on 
+financial incentives. This platform incorporates so called core -return-options which are enab ling an 
+efficient tracking and management of financial incentives to motivate the return of used products. The 
+concept of core-return options provides the potential to facilitate the structured return of used products 
+for value recovery in any complex market environment where producers have only limited access to the 
+users of their products and little control over the reverse-supply chain. 
+Besides, C-ECO will implement AR in the sorting process to support the shop floor personnel. 
+Challenge 
+The platform currently mainly connects wholesalers from the automotive aftermarket. To fully exploit 
+the potential of the concept of core-return-options and the ReCiPSS-platform, it is necessary to upscale 
+the usage of the platform to increase the used spare parts return rate by a better allocation of core -
+return-options to used products. This can only be achieved by connecting more users and new user  
+groups to the platform, especially functions to better involve producer/remanufacturers are needed. The 
+key to this is to provide relevant information and efficient user interaction tailored to the business domain 
+and informational needs of the users. This should not be limited to the commercial situation, but also 
+provide logistic information, product-condition-documentation, and decision-support to users. It should 
+create transparency in valuerecovery business to enable them to control the value recovery chain without 
+being burdened with its full complexity.   
+The core collection and sorting facilities of C -ECO collect many automotive parts from different 
+manufacturers. After initial inspections, used spare parts are sorted based on types, manufacturers and 
+destinations and stored in the designated boxes. Quite often the shop floor personnel places used spare 
+parts in a wrong box, which means additional resources for corrective actions and in worst cases wrong 
+used spare parts are delivered to the remanufacturers.    
+C-ECO is building on the foundation of the options-platform created within the Horizon 2020 ReCiPSS-
+project. The intention in line with the DiCim-projects call is to provide a range of support solutions and 
+innovative digital tools to help individuals in their business -domain in circular business processes. To 
+achieve that we will develop the spe cified functions to support individuals decision, integrate them into 
+the platform and compile and adapted them to specific targeted user-groups. 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 15 of 45 
+Solution 
+To solve this issue C -ECO needs to develop a portal compiling all relevant information for 
+producers/remanufacturers to control the reverse value chain: 
+1. Realtime Reporting -Cockpit on core -return-options-situation, returned products and condition, 
+Supply-Chain- and warehouse situation 
+2. Business-logic configurator for options-execution rules as decision-making support 
+3. Underlying configurator: machine-readable core description based on a human-centred description  
+4. Digital twin of core-stock: Machine learning powered supply-demand-planning and forecasting function 
+for incentive-creation and real-time influence on sorting-decision 
+5. Apply AR technology where the shop floor personnel are equipped with AR glasses that prevent placing 
+sorted used spare parts in a wrong box.  
+This portal will contect to Signifikant’s PIM-platform and the ReCIPSS options-platform to propagate used 
+parts demand basing on core-return options towards their users.  
+KPIs 
+The open access platform can increase the offer of relevant products and used spare parts in right quality 
+by 30% annually. For the European Automotive reman industry that would mean:

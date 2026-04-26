@@ -1,0 +1,2304 @@
+4 . Changes of Annex 2 (estimated budget)
+Annex 2 is changed and replaced by the Annex 2 attached to this Amendment.
+5. Change of the beneficiary short name
+The short name is changed:
+- for ARMOR SOLAR POWER FILMS GMBH (OPVIUS): to ARMOR SOLAR POWER
+FILMS GMBH (ASPF)
+1
+Ref. Ares(2021)4393928 - 06/07/2021
+Grant Agreement number: 820789  —  OLEDSOLAR  —  H2020-NMBP-TR-IND-2018-2020/H2020-NMBP-FOF-2018
+Amendment Reference No AMD-820789-26
+- for SILICON AUSTRIA LABS GMBH (CTR): to SILICON AUSTRIA LABS GMBH (SAL)
+All other provisions of the Grant Agreement and its Annexes remain unchanged.
+This Amendment enters into force on the day of the last signature.
+This Amendment takes effect on the date on which the amendment enters into force, except where a
+different date has been agreed by the parties (for one or more changes).
+Please inform the other members of the consortium of the Amendment.
+SIGNATURES
+For the coordinator For the Agency
+[--TGSMark#signature-932760440_75_210--] [--TGSMark#signature-service_75_210--]
+Enclosures:
+Annex 1
+Annex 2
+2
+EUROPEAN COMMISSION
+European Health and Digital Executive Agency
+The Director
+ANNEX 1 (part A)
+Research and Innovation action
+NUMBER — 820789  —  OLEDSOLAR
+Table of Contents
+1.1. The project summary .................................................................................................................................3
+1.2. The list of beneficiaries ..............................................................................................................................4
+1.3. Workplan Tables - Detailed implementation ..............................................................................................5
+1.3.1. WT1 List of work packages ........................................................................................................... 5
+1.3.2. WT2 List of deliverables ................................................................................................................ 6
+1.3.3. WT3 Work package descriptions .................................................................................................11
+Work package 1 ......................................................................................................................... 11
+Work package 2 ......................................................................................................................... 13
+Work package 3 ......................................................................................................................... 17
+Work package 4 ......................................................................................................................... 23
+Work package 5 ......................................................................................................................... 26
+Work package 6 ......................................................................................................................... 29
+Work package 7 ......................................................................................................................... 33
+Work package 8 ......................................................................................................................... 37
+1.3.4. WT4 List of milestones ................................................................................................................ 40
+1.3.5. WT5 Critical Implementation risks and mitigation actions ........................................................... 41
+1.3.6 WT6 Summary of project effort in person-months ........................................................................44
+1.3.7. WT7 Tentative schedule of project reviews .................................................................................45
+1.1.  The project summary
+Project Number 1 820789 Project Acronym 2 OLEDSOLAR
+One form per project
+General information
+Project title 3 Innovative manufacturing processes and in-line monitoring techniques for the OLED
+and thin film and organic photovoltaic industries (CIGS and OPV)
+Starting date 4 01/10/2018
+Duration in months 5 42
+Call (part) identifier 6 H2020-NMBP-FOF-2018
+Topic DT-FOF-03-2018
+Innovative manufacturing of opto-electrical parts (RIA)
+Fixed EC Keywords Coating and films, Materials engineering, Electrical and electronic engineering,
+Robotics and automatic control
+Free keywords
+OLEDs, CIGs, Solar cells, Spatial atomic layer deposition, R2R, Inkjet deposition,
+Inline metrology, High yield processes, Automation, Product handling, Recycling, Non-
+destructive Testing (NDT)
+Abstract 7
+Opto-electronic devices are opening exciting new applications everyday. With new display options using pliable
+substrates such as plastic and flexible glass, OLEDs manufacturers are bringing a wide range of new applications
+in lighting (e.g. energy efficient lighting) and different type of displays. Similarly, with the emergence of thin-film
+technologies in the solar cells market, new applications ranging from installations on curved surfaces to building-
+integrated PV has become possible. However, to meet the industry requirements for mass production, including low
+cost, manufacturing volumes and efficiency, many challenges still need to be addressed. These challenges for OPV,
+OLED and CIGs are scale-up from laboratory to mass production, selection of efficient manufacturing processes,
+employing inspection, control and measurement techniques to improve yield, quality and time-to-market.
+OLEDSOLAR aims to tackle these challenges by developinginnovative manufacturing processes for critical
+steps in the production of opto-electronic devices including OLEDs, OPVs and CIGs solar cells. The proposed
+activities include reconfigurable high yield (>10% improvement) processes to be scaled up, tested at pilot lines and
+implemented in production line for validation. A complete system of inspection, quality control, functional testing
+and measurements using advance system and sensors will be optimised in the project for efficient manufacturing of
+opto-electronics parts. Recycling and re-use strategies will be developed allowing resource efficiency and reduction
+of high value product wastes. Automation and advance processing software will be developed for overall control and
+monitoring of roll-to-roll (R2R) and sheet-to-sheet (S2S) manufacturing process.
+During 36 months, a multidisciplinary team of leading RTOs and industries in this field will dedicate their resources
+and effort to perform proposed activities in 8 WPs and guarantee the maximum impact of OLEDSOLAR project.
+Page 3 of 45
+1.2.  List of Beneficiaries
+Project Number 1 820789 Project Acronym 2 OLEDSOLAR
+List of Beneficiaries
+No Name Short name Country Project
+entry date8
+Project exit
+date
+1 TEKNOLOGIAN
+TUTKIMUSKESKUS VTT OY
+VTT Finland
+2
+FRAUNHOFER GESELLSCHAFT
+ZUR FOERDERUNG DER
+ANGEWANDTEN FORSCHUNG E.V.
+Fraunhofer Germany
+3
+NEDERLANDSE ORGANISATIE
+VOOR TOEGEPAST
+NATUURWETENSCHAPPELIJK
+ONDERZOEK TNO
+TNO Netherlands
+4 IRIS TECHNOLOGY SOLUTIONS,
+SOCIEDAD LIMITADA
+IRIS Spain
+5 ARMOR SOLAR POWER FILMS
+GMBH
+ASPF Germany
+6 TWI LIMITED TWI United Kingdom
+7
+CSEM CENTRE SUISSE
+D'ELECTRONIQUE ET
+DE MICROTECHNIQUE
+SA - RECHERCHE ET
+DEVELOPPEMENT
+CSEM Switzerland
+8 SOLIBRO HI-TECH GMBH Solibro Germany 27/05/2020
+9 MEYER BURGER (NETHERLANDS)
+BV
+MBNL Netherlands 28/02/2019
+10 BRUNEL UNIVERSITY LONDON BUL United Kingdom
+11 ACONDICIONAMIENTO
+TARRASENSE ASSOCIACION LEITAT Spain
+12 COATEMA COATING MACHINERY
+GMBH
+Coatema Germany
+13 DUPONT TEIJIN FILMS UK LTD DTF United Kingdom
+14 SILICON AUSTRIA LABS GMBH SAL Austria
+15
+ADVANCED ENERGY
+TECHNOLOGIES AE EREUNAS
+& ANAPTYXIS YLIKON &
+PROIONTONANANEOSIMON
+PIGON ENERGEIAS & SYNAFON
+SYMVOULEFTIKON Y PIRESION
+Advent Greece
+16 INURU GMBH INURU Germany
+17 SMIT THERMAL SOLUTIONS BV SMIT Netherlands 01/03/2019
+Page 4 of 45
+1.3.  Workplan Tables - Detailed implementation
+1.3.1. WT1 List of work packages
+WP
+Number9 WP Title Lead beneficiary10 Person-
+months11
+Start
+month12
+End
+month13
+WP1
+Identification of opto-electrical
+components manufacturing
+and inspection requirements at
+production scale
+5 - ASPF 59.28 1 4
+WP2
+Development of innovative
+manufacturing processes for OLEDs
+and solar cells
+3 - TNO 172.94 4 34
+WP3 Development of in-line inspection
+and quality control system 6 - TWI 242.18 5 34
+WP4
+Development of AI driven
+production process automation and
+quality control system
+4 - IRIS 112.57 8 32
+WP5
+Development of processes for
+materials recycling, repair and re-
+use approaches for OLEDs and solar
+cells
+11 - LEITAT 35.13 13 36
+WP6 Integration, Testing, demonstration
+and performance validation 17 - SMIT 134.97 26 42
+WP7 Dissemination, communication and
+Exploitation 1 - VTT 38.43 3 42
+WP8 Project Management and
+Coordination 1 - VTT 30.69 1 42
+Total 826.19
+Page 5 of 45
+1.3.2. WT2 list of deliverables
+Deliverable
+Number14 Deliverable Title WP
+number9 Lead beneficiary Type15 Dissemination
+level16
+Due
+Date (in
+months)17
+D1.1
+Requirements and
+specifications of
+OLEDSOLAR solution
+WP1 5 - ASPF Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+4
+D2.1 SALD AND PESALD
+Deposition process WP2 3 - TNO Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+11
+D2.2
+Report on PE s-
+ALD technology for
+implementation of
+R2R-ALD and S2S-
+ALD production tools
+WP2 3 - TNO Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+24
+D2.3 Test bench for PE
+deposition WP2 17 - SMIT Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+34
+D2.4
+Final report on PE s-
+ALD technology for
+implementation of
+R2R-ALD and S2S-
+ALD production tools
+WP2 3 - TNO Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+34
+D2.5
+Web handling
+procedure and how
+to wind damage free
+barrier film
+WP2 2 - Fraunhofer Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+28
+D2.6 Patterning techniques WP2 1 - VTT Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+16
+D2.7 Packaging techniques WP2 1 - VTT Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+21
+Page 6 of 45
+Deliverable
+Number14 Deliverable Title WP
+number9 Lead beneficiary Type15 Dissemination
+level16
+Due
+Date (in
+months)17
+D2.8
+Testing and trial
+of manufacturing
+processes
+WP2 1 - VTT Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+34
+D3.1 Optical inspection
+system WP3 4 - IRIS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+20
+D3.2 Inline NDT techniques
+and processes WP3 6 - TWI Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+19
+D3.3 Report on Functional
+Testing WP3 2 - Fraunhofer Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+21
+D3.4
+Data processing,
+machine learning
+and defect detection
+software
+WP3 10 - BUL Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+34
+D3.5
+Raman spectroscopy
+and photo-
+luminescence
+techniques
+WP3 14 - SAL Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+19
+D3.6
+Large area printing
+quality measurement
+and registration
+accuracy
+WP3 1 - VTT Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+23
+D3.7 Report on aging and
+performance testing WP3 11 - LEITAT Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+31
+D3.8 Pilot line trials of inline
+inspection WP3 1 - VTT Report Confidential,
+only for members 34
+Page 7 of 45
+Deliverable
+Number14 Deliverable Title WP
+number9 Lead beneficiary Type15 Dissemination
+level16
+Due
+Date (in
+months)17
+of the consortium
+(including the
+Commission
+Services)
+D4.1 Process control system
+requirements WP4 4 - IRIS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+10
+D4.2 Sensor System Design WP4 4 - IRIS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+12
+D4.3
+Intelligent decision
+management and
+control software design
+WP4 4 - IRIS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+13
+D4.4
+Technical report on
+the sensor system
+and process control
+platform
+WP4 4 - IRIS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+23
+D4.5
+Process control system
+user and installation
+manual
+WP4 4 - IRIS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+32
+D5.1
+Report on potential
+existing pre-treatment
+technologies and
+recycling
+WP5 11 - LEITAT Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+36
+D5.2
+Report on potential
+recycling routes and
+waste reuse along the
+manufacturing process
+WP5 11 - LEITAT Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+36
+D6.1
+Demonstration
+of integrated
+OLEDSOLAR system
+WP6 17 - SMIT Demonstrator
+Confidential,
+only for members
+of the consortium
+(including the
+39
+Page 8 of 45
+Deliverable
+Number14 Deliverable Title WP
+number9 Lead beneficiary Type15 Dissemination
+level16
+Due
+Date (in
+months)17
+Commission
+Services)
+D6.2
+Finalisation of
+OLEDSOLAR and
+testing performance
+result report
+WP6 17 - SMIT Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+42
+D6.3
+Environmental and
+economic performance
+of OLEDSOLAR
+system
+WP6 11 - LEITAT Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+42
+D6.4 Report on
+standardisation WP6 6 - TWI Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+35
+D6.5
+Report on scalability
+and performance
+validation of
+OLEDSOLAR
+processes and solution
+WP6 12 - Coatema Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+42
+D7.1 Dissemination toolkit WP7 1 - VTT Report Public 7
+D7.2 Project website WP7 1 - VTT Demonstrator Public 4
+D7.3
+Plan for the
+Dissemination and
+Exploitation of Results
+WP7 1 - VTT Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+41
+D7.4 Open access summary
+report WP7 1 - VTT Report Public 42
+D7.5 Exploitation workshop WP7 1 - VTT Demonstrator Public 24
+D7.6 Business Plan WP7 17 - SMIT Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+42
+D8.1 Project Manual WP8 1 - VTT Report
+Confidential,
+only for members
+of the consortium
+(including the
+3
+Page 9 of 45
+Deliverable
+Number14 Deliverable Title WP
+number9 Lead beneficiary Type15 Dissemination
+level16
+Due
+Date (in
+months)17
+Commission
+Services)
+D8.2
+Project Innovation
+and Risk management
+report
+WP8 1 - VTT Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+41
+D8.3 Report on cumulative
+expenditure WP8 1 - VTT Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+39
+Page 10 of 45
+1.3.3. WT3 Work package descriptions
+Work package number 9 WP1 Lead beneficiary 10 5 - ASPF
+Work package title Identification of opto-electrical components manufacturing and inspection requirements
+at production scale
+Start month 1 End month 4
+Objectives
+To develop specification and requirements of manufacturing, inspection, quality control, automation and recycling.
+Description of work and role of partners
+WP1 - Identification of opto-electrical components manufacturing and inspection requirements at production
+scale [Months: 1-4]
+ASPF, VTT, Fraunhofer, TNO, IRIS, TWI, Solibro, BUL, LEITAT, Coatema, DTF, SAL, Advent, INURU, SMIT
+Description of work
+T1.1 Identification of OLEDs manufacturing requirements (Lead: INURU) In this task OLEDs manufacturing
+requirements will be analysed for rigid displays and flexible displays application. The need of process optimisation in
+S2S manufacturing as well as implementation in roll to roll manufacturing process will be established.
+T1.2 Identification of solar cells manufacturing requirements (Lead: OPVIUS, partner: Solibro) In this task
+manufacturing process factors for yield improvement, improvement of throughput, and reduction of waste will be
+analysed for CIGS and OPVs. Different existing market solutions will be analysed and potential and benefits of
+proposed solution will be compared. The end users’ product and production requirements will be specified as well. The
+requirements/specifications in general are identified which can then serve as a benchmark for the assessment of the
+current production process in T1.3.
+T1.3 Assessment of current production processes and process tools adaptability as per production requirements (Lead:
+Smit TS, Partner: Coatema, OPVIUS, Solibro, INURU) In this tasks assessment of current production processes of
+OLEDs, OPVs and CIGs will be analysed and adaptability of tools as per change of demand or change of product will
+be studied.
+T1.4 Establishing requirements for inspection, quality and process control (Lead: SOLIBRO, Partners: OPVIUS, Smit
+TS, DTF, INURU, CTR, DTF, FhG, Coatema) In this task metrology, in-line inspection and measurement techniques
+requirements will be established for OLEDs, OPVs, and CIGs manufacturing in S2S and roll to roll manufacturing
+process.
+T1.5 Analysis of material challenges for manufacturing process reconfiguration and recyclability (Lead: Advent,
+Partners: LEITAT, VTT, Smit TS, DTF) Material challenges will be analysed from manufacturing reconfigurability,
+material transport and handling and recycling issues in production lines. Advent will investigate highly efficient organic
+materials in order to tweak the material properties towards a simultaneous improvement of synthesis scalability. This
+will be accomplished by the synergistic application of continuous flow synthesis and traditional organic synthesis
+reactors. Continuous flow methods are employed for the controlled polymerization of the state of the art polymeric
+semiconductors including optimization and upscaling experiments. Furthermore, eco-friendly ink formulations will be
+developed for the efficient printing and/or coating of large area processing.
+ 
+Participation per Partner
+Partner number and short name WP1 effort
+1 -  VTT 2.00
+2 -  Fraunhofer 8.20
+3 -  TNO 3.50
+4 -  IRIS 1.00
+5 -  ASPF 8.00
+Page 11 of 45
+Partner number and short name WP1 effort
+6 -  TWI 8.00
+8 -  Solibro 6.08
+10 -  BUL 7.00
+11 -  LEITAT 3.00
+12 -  Coatema 3.00
+13 -  DTF 1.00
+14 -  SAL 1.50
+15 -  Advent 2.00
+16 -  INURU 4.00
+17 -  SMIT 1.00
+Total 59.28
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D1.1
+Requirements and
+specifications of
+OLEDSOLAR solution
+5 - ASPF Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+4
+Description of deliverables
+D1.1 Requirements and specifications of OLEDSOLAR solution (Month 4)
+D1.1 : Requirements and specifications of OLEDSOLAR solution [4]
+Requirements and specifications of OLEDSOLAR solution
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS1
+Establishing Requirements
+and specifications of
+OLEDSOLAR
+5 - ASPF 4
+Establishing Requirements
+and specifications of
+OLEDSOLAR
+Page 12 of 45
+Work package number 9 WP2 Lead beneficiary 10 3 - TNO
+Work package title Development of innovative manufacturing processes for OLEDs and solar cells
+Start month 4 End month 34
+Objectives
+To develop and optimize innovative deposition, packaging and patterning techniques for high volume manufacturing
+with regard to product quality and yield and industrial scaled up implementation.This concerns spatial atomic layer
+(inkjet, screen and gravure) printing, slot-die coating and lamination, PECVD, evaporation and sputtering deposition
+techniques for adding barrier, front window, packaging and encapsulation functionality.
+The resulting techniques will be used at pilot scale for demonstration and validation activities in and in conjunction
+with production lines of end user partners in WP6.
+Description of work and role of partners
+WP2 - Development of innovative manufacturing processes for OLEDs and solar cells [Months: 4-34]
+TNO, VTT, Fraunhofer, IRIS, ASPF, CSEM, Solibro, Coatema, DTF, Advent, INURU, SMIT
+T2.1 Developing adaptive material handling system for R2R and S2S production line (Lead: Coatema, Partner:
+DTF, VTT) In this task substrate material handling system will be developed and tested in order to increase the
+registration accuracy and the substrate dimensional stability. Intra equipment automation and control via central decision
+management software will be developed in this task as well.
+T2.2 Optimisation of scalable manufacturing processes for solar cells and OLEDs (Lead: VTT, Partner: ASPF, Inuru,
+Solibro) This task is based on the requirements of the industrial production lines at ASPF (OPV), Solibro (CIGS) and
+Inuru (OLED) and focuses on optimizing those printing/coating processes (OPV/OLED) and studying if e.g. inkjet
+printing processes can be utilized in CIGS production. ASPF uses a R2R slot die coating process, combined with laser
+structuring and screen printing to prepare free-form OPV devices. The OLED process at Inuru is based on inkjet printing.
+Solibro has a glass-glass process for producing CIGS modules. The bottle-necks and development needs of those
+processes will be clarified, and solutions will be searched together with VTT. For OPVs, VTT can offer the R2R pilot
+lines for testing e.g. screen printing of Ag electrodes with several different screen types to optimize the printing quality/
+resolution, together with high registration accuracy (50 µm) to minimize waste and number of misaligned components.
+ASPF will also focus on developing a post-patterning process, i.e. performing all laser steps after all layers have been
+coated. The developed OPV process will be validated in T2.7/WP6 with ASPF for automation of the selected process
+steps and feasibility in OPV production.
+For OLEDs and CIGSs, VTT can offer S2S scale inkjet printing facilities with industrial scale print heads. The
+development needs will be collected from Inuru and Solibro and solutions are looked for in the S2S test setup.The OLED
+printing will be finally validated at Inuru’s production lines in T2.7/WP6 and VTT’s devices can be used to demonstrate
+the possible utilization of inkjet in CIGS modules.
+T2.3 Optimisation of R2R and S2S atomic layer deposition techniques and processes in R2R and S2S production process
+(Lead: TNO, Partner: Smit TS, VTT, DTF, FhG; M3 – M28) In this task spatial atomic layer deposition technique will
+be optimised, tested and scaled up. Carrier application is that of Al2O3 barrier coatings on PET, supplied by DTF. In
+order to upscale the process for mass production, the lowest requirements will be identified in terms of temperature and
+speed deposition as well as defect presence in correlation with the barrier properties on lab-scale and R2R tool (in static
+mode) at TNO. While reducing the thermal budget of the s-ALD processes generally lower the quality barrier properties,
+the use of atmospheric plasma enhancement (PE) technology will be explored to provide even better performance in
+terms of WVTR barrier properties. Test will be carried out on lab scale and S2S tool with PE deposition at TNO to
+determine effect on thermal budget and allowable deposition speed. Investigated will be by TNO, Smit TS the integration
+options for in-line inspection of pre-deposition and post deposition coated foil such as particle detection, ellipsometry,
+Raman, PL for automatic adjustment of process settings (for enhanced process control) Being the barrier (and potential
+other coatings) applied for flexible and rolled applications, the barrier needs to withstand mechanical stress without
+failures. Developed will be by Smit TS the use of organic pre-coating and post-coating respectively for planarization
+and mechanical protection purposes as well as use of PET foil supplied with PSC layer from DTF with as aim a WVTR
+better than 0.5 10-4 g /m2 d. The above will be used to prepare a Customer Requirement Specification (CRS) which will
+detail the intended layer, the parameter ranges to enable PE s-ALD and the allocation slots for in-line characterization
+in all relevant disciplines (mechanical, electrical, pneumatic and software) for a R2R-ALD tool.
+Page 13 of 45
+Smit TS will build a test bench which will be a loop-coater with three segments (set of deposition slots) of a R2R-
+ALD drum. The test bench will make possible coating of foil in R2R mode with and without PE for analysis of layer
+functionality and product compatibility (half-fabricates from partners). The tool is meant to be compatible with an
+existing R2R sALD pilot production system to allow for end-users to select such a system for a (future) pilot line
+and suitable for installing and/or interacting with in-line inspection of coatings such as ellipsometry, Raman, PL for
+automatic adjustment of process settings (for enhanced process control), and to be available for demonstration in WP6.
+In addition, Fraunhofer will develop their R2R evaporation process for OLEDs and provides also OLED samples/rolls
+for testing the different encapsulation processes (WP2: inkjet/ALD/lamination and their combinations) and to develop
+the R2R electrical characterization setup (WP3).
+T2.4 Development of inkjet-based deposition technique for pre-encapsulation of solar cells and flexible OLEDs (Lead:
+CSEM, Partner: VTT, Smit TS, INURU) Inkjet based deposition techniques for pre-encapsulation will be developed
+and tested for R2R and S2S production of OLEDs, OPVs and CIGSs by CSEM where pilot testing will be done in
+S2S setup (cleanroom environment, in air). R2R Scale up strategy for TRL9 system will be done by Smit TS prior
+commercialisation. Adhesives that require a nitrogen environment, may be tested with the automated syringe dispensing
+and UV curing platform (S2S, up to 5-inch square substrates) at CSEM. VTT will provide access to industrial scale print
+heads in S2S scale from MBNL, which will allow transferring the process to pilot scale. The inkjet-based encapsulation
+will be compared to other encapsulation techniques as such (for low WVTR requirements) and as a pre-encapsulation
+technique (for high WVTR requirements) where inkjet is combined with ALD (T2.3) or barrier film lamination (T2.5).
+T2.5 Development of reconfigurable and scalable lamination, joining and packaging process for OLEDs and solar cells
+(Lead: VTT, Partner: CSEM, ASPF, Solibro) Different lamination, packaging and coating technologies will be optimised
+in this task by VTT for efficient, high quality devices fabrication. Support from CSEM by testing new materials for the
+lamination process, validating the quality of the encapsulation using accelerated life time and mechanical stress testing,
+and performing WVTR measurements. Feasibility studies (CSEM) of the fabrication of optical micro/nano structures
+for in/out coupling directly on the barrier or substrates. Materials for R2R lamination test in air at VTT will be selected
+based on S2S tests at CSEM. ASPF will work on validating further automatization of its encapsulation (via lamination)
+and finishing processes, using materials that have shown the best potential at VTT and CSEM. Different methods and
+materials for joining/contacts will be tested and produced at VTT and their effect on lifetime and mechanical stability
+will be tested at CSEM.
+T2.6 Testing and validation of on production pilot line for roll-to-roll fabricated barrier films (LEAD: Fraunhofer,
+Partner: TNO, Smit TS) Validation of defect free winding and web handling for barrier films with and without protective
+liner films.
+• Validation of the drying kinetics for sufficient dry and suitable pre-treatment (plasma process and cleaning) steps for
+conditioning the substrates. Especially, an efficient substrate drying process is needed for a roll-to-roll manufacturing
+process.
+• Determination of substrate surface quality regarding defect level and surface topography of roll materials.
+• Substrate packaging and shipment concepts (air-tight packaging to minimize moisture ingress during transportation
+especially for roll materials)
+T2.7 Systems level Testing and validation on production pilot lines (Lead: VTT, Partner: Fraunhofer, CSEM, Smit TS,
+TNO, ASPF, SOLIBRO, Advent) In this task developed handling and printing techniques in T2.2, T2.4 and T2.5 will be
+fitted in the production pilot lines of OLEDs, OPVs and CIGSs at VTT (R2R and S2S), TNO (R2R and S2S), Fraunhofer
+and CSEM (S2S), SOLIBRO (S2S) and ASPF (R2R) and Smit TS (R2R) pilot lines. The S2S environment (single and
+multi-nozzle inkjet printers, slot-die coating system, screen printing, gravure printing, laminator) at CSEM, will be used
+for testing new processes developed in T2.2, T2.4 and T2.5. DTF and VTT will investigate the fabrication process of
+optical hard coats on PCS for improved encapsulation film performance and perform initial trials related to adhesive-
+free encapsulation trials.
+ 
+Participation per Partner
+Partner number and short name WP2 effort
+1 -  VTT 24.00
+2 -  Fraunhofer 10.00
+3 -  TNO 26.00
+4 -  IRIS 2.00
+5 -  ASPF 12.00
+Page 14 of 45
+Partner number and short name WP2 effort
+7 -  CSEM 11.00
+8 -  Solibro 3.44
+12 -  Coatema 6.00
+13 -  DTF 20.00
+15 -  Advent 23.50
+16 -  INURU 6.00
+17 -  SMIT 29.00
+Total 172.94
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D2.1 SALD AND PESALD
+Deposition process 3 - TNO Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+11
+D2.2
+Report on PE s-
+ALD technology for
+implementation of R2R-
+ALD and S2S-ALD
+production tools
+3 - TNO Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+24
+D2.3 Test bench for PE
+deposition 17 - SMIT Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+34
+D2.4
+Final report on PE s-
+ALD technology for
+implementation of R2R-
+ALD and S2S-ALD
+production tools
+3 - TNO Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+34
+D2.5
+Web handling procedure
+and how to wind damage
+free barrier film
+2 - Fraunhofer Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+28
+D2.6 Patterning techniques 1 - VTT Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+16
+D2.7 Packaging techniques 1 - VTT Report Confidential, only
+for members of the 21
+Page 15 of 45
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+consortium (including
+the Commission
+Services)
+D2.8 Testing and trial of
+manufacturing processes 1 - VTT Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+34
+Description of deliverables
+D2.1 SALD and PESALD Deposition process
+D2.2 Report on PE s-ALD technology for implementation of R2R-ALD and S2S-ALD production tools
+D2.3 Test bench for PE deposition
+D2.4 Final report on PE s-ALD technology for implementation of R2R-ALD and S2S-ALD production tools
+D2.5 Web handling procedure and how to wind damage free barrier film
+D2.6 Patterning techniques
+D2.7 Packaging techniques
+D2.8 Testing and trial of manufacturing processes
+D2.1 : SALD AND PESALD Deposition process [11]
+SALD AND PESALD Deposition process
+D2.2 : Report on PE s-ALD technology for implementation of R2R-ALD and S2S-ALD production tools [24]
+Report on PE s-ALD technology for implementation of R2R-ALD and S2S-ALD production tools
+D2.3 : Test bench for PE deposition [34]
+Test bench for PE deposition
+D2.4 : Final report on PE s-ALD technology for implementation of R2R-ALD and S2S-ALD production tools [34]
+Final report on PE s-ALD technology for implementation of R2R-ALD and S2S-ALD production tools
+D2.5 : Web handling procedure and how to wind damage free barrier film [28]
+Web handling procedure and how to wind damage free ALD barrier film
+D2.6 : Patterning techniques [16]
+Patterning techniques
+D2.7 : Packaging techniques [21]
+Patterning techniques
+D2.8 : Testing and trial of manufacturing processes [34]
+Testing and trial of manufacturing processes
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS2 Validated manufacturing
+process and tools 3 - TNO 22 Validated manufacturing
+process and tools
+Page 16 of 45
+Work package number 9 WP3 Lead beneficiary 10 6 - TWI
+Work package title Development of in-line inspection and quality control system
+Start month 5 End month 34
+Objectives
+To develop in-line inspection, monitoring and quality control system.
+Description of work and role of partners
+WP3 - Development of in-line inspection and quality control system [Months: 5-34]
+TWI, VTT, Fraunhofer, TNO, IRIS, ASPF, CSEM, Solibro, BUL, LEITAT, Coatema, DTF, SAL, Advent, INURU,
+SMIT
+T3.1 Development of in-line optical inspection system for component level testing at production scale (Lead: IRIS,
+Partner: CSEM, Fraunhofer, DTF) Different optical systems, based on both spectral reflectance and spectroscopic
+imaging ellipsometry will be delivered for high speed inline monitoring of, on the one hand, the coating application
+processes (range 1-50 microns dry) and, on the other hand, to assess the quality of organic deposits (range expected
+50-200 nm dry) on a range of substrates. The selected optical systems, described below, will be assembled and pre-
+calibrated in the lab scale on a relevant set of samples for obtaining respectively coatings and deposition in non-
+continuous modes. It is envisaged that at least 3 systems will be placed along the film width to allow getting an idea
+of the variation of the thickness. The thickness of the samples will be tested by TEM and the coatings through other
+conventional gages to calibrate the optical systems. The measurement system will be evaluated for Repeatability and
+Reproducibility using ANOVA gauge R&R system. CSEM supports with: 1) Evaluate the potential of OCT (optical
+coherence tomography) as technique for inline inspection and position it as a benchmark to the inspection methods
+developed in the project 2) Off-line inspection for referencing and calibration of the optical inline systems by SEM/
+AFM/OCT, 3) Testing of inspection tools in S2S fabrication environment.
+T3.2 Implementation and optimisation of NDT testing for zero-defect testing at device level for OLEDs and solar cells
+(Lead: TWI, Partner: VTT) In this task, advanced NDT techniques will be developed to be deployed in a production
+line with S2S or roll to roll environment. These techniques include shearography, thermography and other optical
+techniques. Digital Shearography is an optical measurement technique for NDT and quality control which has found
+wide industrial application especially for composite materials testing. It detects sub-surface defects (such as voids, dis-
+bonds, delamination) within an object by identifying defect-induced deformation anomalies as depicted by shearography
+fringe patterns. When there is no defect in the material, the fringe pattern is smooth or uniform. Otherwise, the fringe
+pattern will be distorted. The commonly used means of stressing are vacuum pressure (exerted by a vacuum hood or
+a vacuum chamber), thermal heating and vibration excitation. The application of shearography in this project will be
+focused on pinhole detection in CIGS solar panels and OLED sheet. Since the pinholes are very small in size (less than
+1mm), efforts will be made to find appropriate stressing methods such that the thin plate or film under inspection can
+have sufficient deformation for the pinholes to be revealed.
+For thermography, dark and illuminated lock-in thermography (LIT) will be optimised and implemented by TWI, and
+finally tested at VTT’s R2R electrical measurement setup line.
+The lock-in thermography is a non-destructive characterization method, which allows for high-resolution, noise reduced,
+thermographic imaging for failure analysis based on imaging and localization of electrical defects. Analysis of hot spot,
+electrical shunt defects and thermal discontinuities. For instance, any disruption of the p-n junction due to cracks and
+scratches that occur during the processing of a solar cell may produce failures, which may lead to unwanted leakage
+current (i.e. process-induced shunts). Due to the heat dissipation, these shunts can be detected thermographically.
+Different modes of LIT to be implemented in OLEDSOLAR:
+1. Dark LIT methods:
+o Pulsed voltage is applied to the solar cell without illuminating it. It allows the detection of all types of shunts (e.g.
+linear and non-linear shunts);
+2. Illuminated LIT methods:
+o Performed by illuminating the solar cell with pulsed light. With this technique, different common sources of
+shunting in standard industrial-type solar cells can be detected (e.g. points like shunts, cracks, poor edge isolation,
+contaminations). Spatial and time resolution enables use for inline characterization.
+T3.3 Development of in-line Raman spectroscopy and luminescence testing processes and in-line prototype devices
+(Lead: CTR, Partner: Solibro) This task will first establish the feasibility of non-destructive photonic in-line testing
+techniques for the applications and needs defined in T1.4. In a second step, suitable in-line system demonstrators
+Page 17 of 45
+for deployment in relevant manufacturing settings will be developed. This will involve in particular two fundamental
+techniques, (process) Raman spectroscopy and luminescence imaging. Raman spectroscopy: As a fully spectroscopic
+technique, Raman spectroscopy is capable of non-invasive, contact-free qualitative and quantitative analysis of a wide
+range of substance of direct relevance to the project. As a first step, the basic feasibility of the process analysis tasks
+defined in T1.4 will be investigated under controlled laboratory conditions using a high-end multi-purpose Raman
+spectrometer. This will involve establishing whether and how e.g. thin film thicknesses and composition (different
+materials, doping levels etc.) of one or more components within OLED, CIGS and OPV manufacturing can be reliably
+detected. In the second phase, selected of these approaches will be refined to be applicable in the process, i.e. be robust
+enough for in-line use (exploiting e.g. self-referencing etc.) and transferred to suitable designed and adapted test units
+for testing within T3.7.
+Luminescence: Techniques to permit in-line characterization during various stages of solar cell manufacturing provide a
+convenient means for optimizing yield, cost, and efficiency. In particular photo-luminescence measurements are widely
+used for material characterization. In this project photoluminescence excitation spectroscopy (PLE), in which the steady-
+state photoluminescence is monitored as a function of the wavelength of the incident illumination, will be implemented.
+The method is also of high interest to CIGS deposition process control to ensure the optical & electrical quality of the
+absorber layer, get a faster feedback during the introduction of new processes & materials and improve the yield. The use
+of spectral and/or transient photoluminescence has shown promise on laboratory scale to supply valuable information
+about the recombination properties of the absorber and its interfaces enabling a forward calculation of the Voc. The
+proposed inline PL systems will be used to investigate the correlation of the absorber quality with its properties under
+field conditions. The optimum PL characterization method and position within the process chain should be identified,
+which enables the best prediction of the field properties based on inline measurement.
+TNO, SAL, FhG-IWS and Brunel will work together on using above given optical measuring techniques as well as
+the HSI technique for in-line quality control of plates with CIGS PV cell layer stacks, i.e. to identify (areas with) a
+low quality absorber layer that would lead to poor cell performance. TNO will produce series of semi-fabricates on
+glass and/or steel plates on their batch-production pilot line(s) at Solliance for which the performance and properties
+will be varied (by changing Cu, In and Ga ratios and layers’ thickness). The plates will be sent to SAL for Raman and
+luminescent measurements to FhG-IWS for (VNIR and laser) HSI measurements) and/or finished into working devices
+and their performance determined at TNO.
+Brunel will train predictive models to link the luminescent image data with the cell performance parameters (particularly
+Voc) and possibly also with shunts between back and front electrodes. Similarly FHG-IWS will use the hyper spectral
+image data sets for training and validating models for predicting the Raman and luminescent measurement and the cell
+performance.
+T3.4 Qualification of thin film barrier coatings for flexible devices (Lead: Fraunhofer, Partner: CSEM, Smit TS, INURU)
+• Water vapour transmission rate (WVTR) analysis of gas barrier films down to 10-6 g/m²*d for substrates and top
+encapsulations. Additionally, the WVTR measurements will be correlated by extrinsic degradation evaluations applying
+large area optical calcium tests. The Ca will be deposited under vacuum condition in Roll-to-Roll (300 mm width and
+several meters long). The coated and encapsulated Ca- samples will be stored under different climate condition up to
+85°C/85% r.h. The degradation, like side ingress and dark spot nucleation will be quantified by image processing of
+recorded Ca sample images by high resolution. The pin hole density will be determined over large area of 10 x 10 cm²
+and will be correlated with the WVTR measurement under steady state mode.
+• Validation of the pin hole density determination on 10 x 10 cm² OLED devices on barrier films to quantify the dark
+spot nucleation and side ingress behaviour.
+• Determination of leak times, if desiccants with water trap functionality are implemented inside the devices.
+• Defect image analysis recorded by hyperspectral imaging (HSI). HSI will be applied on barrier films, calcium
+test samples and flexible organic devices. The defect maps are correlated directly with pin hole densities, layer de-
+laminations and electro-optical behaviour. Afterwards, the devices will be stored under climate conditions and in shelves
+for operational long-time tests. All types of investigations will be correlated for rapid test inspections using HSI.
+• Analysis of aging effects and device performance using hyperspectral imaging (HSI) to develop derive specific
+algorithms for an inline inspection system to identify just in time yield relevant defects.
+• the measurement and quantification of the WVTR of ultra-barriers using the optical Ca test in S2S environment by
+CSEM, mapping of the water ingress.
+T3.5 Large area printing quality measurement and comparison to design layout (Lead: VTT, Partner: ASPF, Coatema) A
+camera for high-resolution / micro scale mapping of the large printing area (one repeat unit) will be developed to follow
+printing defects. The image will be automatically compared with the printing design layout, defects will be marked,
+and errors highlighted in pictures will be shown to the printing machine operator. The error data with positions will
+be stored in cloud for the consequent process phases. The information is also possible to combine with R2R electrical
+characterization data. Printing quality measurements will be carried out by scalable 100%-micron scale inspection of
+the printed layers to R2R-produced printed electronics with high resolution (>10k pixel) line camera, high power led
+Page 18 of 45
+illumination and ink-jet marking. This measurement system stores faulty printed position to file / cloud for the usage
+at the later process phases. Second part of the system is inkjet-printer which marks every printed repeat length of the
+printed roll so that faulty printed devices can be passed by combining repeat length info with high resolution line camera
+inspection result. Inspection is done by machine vision algorithms by comparing camera image to the design layout
+and differences will be highlighted for the printing machine operator so that the operator can optimize printing machine
+print units. The inspection data is also stored for consequent process phases to avoid further processing with non-
+working printed devices in expensive process phases. This scalable inspection system gives possibility to monitor 100%
+of the high volume printed electronics R2R-production. This will improve yield and prevent large amount of scrap in
+production, which is very important especially in case of the high-cost post-processing phases (add-on components and
+system level packaging). This in-line camera system development also expands machine vision in printing machines to
+micron scale detection at the fast-moving web by new kind of pulsed high power led illumination light source.
+T3.6 Machine vision based micro meter level register accuracy measurement for visible and highly transparent layers
+(Lead: VTT, Partner: ASPF, Coatema) In this task, VTT will develop a camera system, which can detect the printed
+patterns with µm-scale resolution, even with transparent inks. VTT already has previous experience about similar
+cameras / machine vision-based measurements and about transparent material registration. This experience is utilized in
+the implementation of the task. Different printing layers of printed electronics are very different from each other. Some
+are opaque, and some are transparent. Some of them are so transparent that they can not necessarily even be seen by the
+naked eye in a stationary specimen. This will be even more challenging on the moving line. In practice, these different
+layers of materials require a different illumination geometry in the used camera system (up to 3 different illuminations).
+In this case, VTT’s cheap LED technology is a natural solution taking into consideration that the minimum requirement
+is that one camera per printing unit is used in the production and one printing machine consists of several printing
+units. Coatema will give outlook for registration automation concept and process control. This is a study about future
+integration and upscaling. This is paper work based on experimental results from VTT, Coatema.
+T3.7 Implementation of functional testing processes including aging testing and optical performance (Lead: LEITAT,
+Partners: SAL, CSEM, VTT, TNO, Fraunhofer, IRIS) In this task functional testing, WVTR and ageing testing processes
+will be developed and implemented. A library of test into the consortium will be developed taking into account, test for
+solar cells, for OLEDs and for whole integrated system. The test will include: accelerating ageing, natural ageing, in
+different conditions (including mechanical tests) depend on final uses. Correlation of test will be done between involved
+partners, as round robin test, in order to asses’ production manufacture process and materials selection. LEITAT, CSEM,
+VTT will test solar cells following thin film standards (IEC61646 and ISOS), monitoring the performance of solar
+cells and OLEDs using the standard accelerated ageing tests. LEITAT will implemented different mechanical test in
+order to determine changes due to stress and bending (in line with the future IEC62899 standard), stability tests to
+determine aging effect and shelf life and validation study with synthetic analytes (following ISO 23640:2011) (LEITAT).
+Performance related to generation (solar cells) and luminescence (OLED) will be tested, before, during, and after each
+test (LEITAT).
+LEITAT, VTT, ASPF will test solar cells, OLEDs and whole system in natural conditions for outdoor applications and
+indoor applications. All the results of test will feed to WP2 in order to minimize defects and improve whole performance.
+Further;
+• Inline Roll-to-Roll and Sheet-to-Sheet inspection of barrier films using hyperspectral imaging (HSI) to validate the
+barrier performance determined in WP3.4
+• Roll-to-Roll and Sheet-to-Sheet inspection on OLED and (O)PV devices to detect defects responsible for aging and
+device reliability issues, like sudden burn-ins (electrical short cuts).
+VTT will develop a R2R setup to measure IV characteristics of OLED and solar cell rolls. The setup will contain also
+a method to mark unfunctional parts in the rolls, which allows removing the defective parts before further processing.
+CSEM: will perform other tests e.g. mechanical stress testing and Characterization of the optical performance by a)
+direct, b) indirect, or c) angular dependent reflection/transmission measurements.
+T3.8 Development of machine learning based inspection data processing and defects detection software (Lead: BUL,
+Partners: IRIS) This task will deal with image processing, data analysis and GUI based software development for
+inspection systems based on the acquired NDT data (i.e. optical images).
+• Image processing (De-noising (i.e. filtering), Feature enhancement through thresholding techniques, Morphological
+operation, Automated defect recognition and image fusion if required)
+• Data analysis and processing/post-processing algorithms: Machine learning (deep learning, classification, improving
+probability of defect detection,decreasing false alarms,developing sufficient training data)
+Further, the integrated software development is intended for driving the instrument, processing the data by means
+of predictive models and delivering the results through the user interface and towards the production line operators.
+Hardware drivers and the raw data acquisition layer will be set up for the core devices used in the previous tasks. A
+beta version including the required mathematical treatment of the raw data will be delivered for the lab test rig for
+each of the pattern types. The final version, adapted for inline configuration, will build upon this initial version while
+Page 19 of 45
+incorporating all specific detailed analysis of the thickness and yield to be analysed by a plant operator for being used
+as a user friendly inline monitoring tool to control the correct part quality. As such, a Graphical User Interface will
+be set up. The data from the monitoring software will feed in the models regarding the process influence on thickness
+and yield.Upon integration, long term robustness trials, and further control system development, the communication
+capabilities for sending information to external systems (C/C++, SCADAs, PLCs, etc.), for example, the production
+line rejection system, or process optimization routines could be integrated in close loop.
+T3.9 System level Testing and validation on production pilot lines (Lead: VTT, Partners: TNO, CSEM, ASPF, Advent) :
+The monitoring systems developed in the previous tasks will be tested in this task. The testing will be performed by the
+partner who has developed the monitoring system. The testing places will be decided during task 1.4 by all partners. The
+performance of the monitoring systems is validated in the roller system before installing them into the R2R pilot lines
+and R2R tester lines. Data measured at the pilot lines will be compared to the laboratory measurement data when needed.
+ 
+Participation per Partner
+Partner number and short name WP3 effort
+1 -  VTT 24.00
+2 -  Fraunhofer 38.90
+3 -  TNO 5.50
+4 -  IRIS 24.00
+5 -  ASPF 6.00
+6 -  TWI 45.00
+7 -  CSEM 10.00
+8 -  Solibro 10.98
+10 -  BUL 24.00
+11 -  LEITAT 20.00
+12 -  Coatema 5.00
+13 -  DTF 4.00
+14 -  SAL 18.80
+15 -  Advent 1.00
+16 -  INURU 4.00
+17 -  SMIT 1.00
+Total 242.18
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D3.1 Optical inspection system 4 - IRIS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+20
+Page 20 of 45
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D3.2 Inline NDT techniques
+and processes 6 - TWI Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+19
+D3.3 Report on Functional
+Testing 2 - Fraunhofer Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+21
+D3.4
+Data processing, machine
+learning and defect
+detection software
+10 - BUL Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+34
+D3.5
+Raman spectroscopy
+and photo-luminescence
+techniques
+14 - SAL Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+19
+D3.6
+Large area printing
+quality measurement and
+registration accuracy
+1 - VTT Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+23
+D3.7 Report on aging and
+performance testing 11 - LEITAT Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+31
+D3.8 Pilot line trials of inline
+inspection 1 - VTT Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+34
+Description of deliverables
+D3.1 Optical inspection system
+D3.2 Inline NDT techniques and processes
+D3.3 Report on Functional Testing
+D3.4 Data processing and defect detection software
+D3.5 Raman spectroscopy and photo-luminescence techniques
+D3.6 Large area printing quality measurement and registration accuracy
+D3.7 Report on aging and performance testing
+D3.8 Pilot line trials of inline inspection
+D3.1 : Optical inspection system [20]
+Optical inspection system
+Page 21 of 45
+D3.2 : Inline NDT techniques and processes [19]
+Inline NDT techniques and processes
+D3.3 : Report on Functional Testing [21]
+Report on Functional Testing
+D3.4 : Data processing, machine learning and defect detection software [34]
+Data processing, machine learning and defect detection software
+D3.5 : Raman spectroscopy and photo-luminescence techniques [19]
+Raman spectroscopy and photo-luminescence techniques
+D3.6 : Large area printing quality measurement and registration accuracy [23]
+Large area printing quality measurement and registration accuracy
+D3.7 : Report on aging and performance testing [31]
+Report on aging and performance testing
+D3.8 : Pilot line trials of inline inspection [34]
+Pilot line trials of inline inspection
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS3 Validated inspection systems
+and software 6 - TWI 22 Validated inspection systems
+and software
+Page 22 of 45
+Work package number 9 WP4 Lead beneficiary 10 4 - IRIS
+Work package title Development of AI driven production process automation and quality control system
+Start month 8 End month 32
+Objectives
+To develop sensor-based automation kit for production of opto-electrical parts.
+Description of work and role of partners
+WP4 - Development of AI driven production process automation and quality control system [Months: 8-32]
+IRIS, VTT, ASPF, TWI, Solibro, BUL, Coatema, DTF, SMIT
+T4.1 Identification of production automation requirements and process control system design (Lead: ASPF, Partner:
+Solibro, BUL, Smit TS, TWI,DTF, IRIS): In this task, identification of production automation requirements will be done
+for S2S and roll to roll manufacturing processes. These will inform the design of the process control system that will
+be composed of (i) the optical and NDT inspection systems developed in WP3, complemented by (ii) a set of sensors
+and (iii) a process control platform which will integrate the inputs from all process relevant information and produce
+recommendations or even closed loop control for improving the yield and critical process parameters.
+T4.2 Sensor system development for automation and monitoring of production processes (Lead: IRIS, Partner: VTT,
+DTF, Coatema, Solibro, ASPF, TWI)
+Subtask 4.2.1 Selection of suite of sensors and adaptation to process requirements
+A suite of commercial sensors will be selected to follow the production process and automation parameters defined in
+T4.1 (e.g. temperature, pressure, material use rate, color, viscosity, power/energy consumption). It is envisaged that these
+sensors will detect and relay information about key strategic production-specific attributes in real-time and online or
+inline (depending on the process stage). The parameters measured will be carefully selected so as to correlate with each
+other and with the optical inspection systems developed under WP3 and enable an online and real-time quality control of
+production. In as much as possible the equipment used will integrate the following features to facilitate automation and
+the possibility of closed loop control: MicroElectroMechanical systems (MEMS)-based components; “smart” sensors
+that have intelligent readout electronics and the microsensor in a single chip; zero power ‘flow tracker’ sensors. Sensors
+used in this development will be acquired from commercial sources and will be strategically conditioned and tailored for
+providing affordable monitoring capability and enhanced product monitoring additional to the optical and NDT systems
+developed in the previous WPs.
+SubTask 4.2.2 System integration and performance evaluation: A key performance marker of these sensors is their
+ability to be delivered as a single integrated system, seamlessly embedded in each of the pilot lines. This work will
+include the integration of the sensors on a common, single, multifunctional board that meets the requirement that each
+single sensor will have a standardized output in the desired outputs in the proper format for the use in the intelligent
+decision management and control software developed in T4.3. In addition, this board will provide the capability of both
+wired and wireless data transfer for maximizing flexibility and ensuring optimal integration with the process. In the
+context of this sub-task, IRIS will deliver one such board for each pilot and/or production line as necessary.
+T4.3 Development of intelligent decision management and control software for automation and monitoring (Lead: IRIS,
+Partner: BUL, ASPF): In this task intelligent decision management software will be designed integrating inputs from
+manufacturing processes, inline inspection systems and production line sensors. This quality and control platform should
+be a common system for all pilot lines where sensors will be attached, and data will be acquired in order to apply, if
+needed, model treatment for statistical process control. In case a common system is not possible, minor tweaks will be
+applied to the platform for specific pilot lines to allow the sensors in that process to be integrated within the platform
+The platform will be composed of several layers such as the data acquisition layer, the data treatment and storage layer,
+data mining layer (designed to facilitate the machine learning algorithms developed under T3.8), and the User Interface.
+The output data will be used for process optimization and control with a process control layer added in case closed
+loop control is employed.
+Work by ASPF relates to i) Monitoring of environment and processes, ii) Scheduling of tasks, machines, and employees,
+iii) Report generation for runs and machines, iv) Product data connected to machine, v) Machine parameter central
+collection, and vi) Inventory management and assistants, in order to establish a Smart Factory.
+T4.4 Testing and validation on production pilot lines (Lead: IRIS, Partner: ASPF, DTF, Coatema, BUL, VTT): The
+developed automation kit including sensors and control and monitoring decision management software will be tested
+and validated in pilot and/or production line setting as necessary, within multi-process roll to roll manufacturing as well
+as in S2S setting. Pilot testing will be performed to validate the process control systems under controlled conditions.
+Page 23 of 45
+This stage will be done before integration of all processes (WP6) and will be used to optimise the system before final
+deployment. Within this task, the control platform will be tested and optimised and real simulations of the final set-ups
+will be performed where robustness and stability of the platform will be applied. For this reason, during this stage the
+interaction with the pilot line owners will be essential to ensure successful and realistic tests prior to real environment
+deployment.
+ 
+Participation per Partner
+Partner number and short name WP4 effort
+1 -  VTT 4.00
+4 -  IRIS 40.00
+5 -  ASPF 10.00
+6 -  TWI 8.00
+8 -  Solibro 2.57
+10 -  BUL 40.00
+12 -  Coatema 5.00
+13 -  DTF 2.00
+17 -  SMIT 1.00
+Total 112.57
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D4.1 Process control system
+requirements 4 - IRIS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+10
+D4.2 Sensor System Design 4 - IRIS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+12
+D4.3
+Intelligent decision
+management and control
+software design
+4 - IRIS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+13
+D4.4
+Technical report on
+the sensor system and
+process control platform
+4 - IRIS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+23
+Page 24 of 45
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D4.5
+Process control system
+user and installation
+manual
+4 - IRIS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+32
+Description of deliverables
+D4.1 Process control system requirements – Including hardware and software
+D4.2 Sensor System Design – Including sensor selection, board design, and specs
+D4.3 Intelligent decision management and control software design – Including architecture, features (backlog), and
+hardware specs
+D4.4 Technical report on the sensor system and process control platform – Final specs and features of the developed
+system
+D4.5 Process control system user and installation manual – System ready for final deployment
+D4.1 : Process control system requirements [10]
+Process control system requirements
+D4.2 : Sensor System Design [12]
+Sensor System Design
+D4.3 : Intelligent decision management and control software design [13]
+Intelligent decision management and control software design
+D4.4 : Technical report on the sensor system and process control platform [23]
+Technical report on the sensor system and process control platform
+D4.5 : Process control system user and installation manual [32]
+Process control system user and installation manual
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS4
+AI driven automation
+system,software and sensor
+kit
+4 - IRIS 25
+AI driven automation
+system,software and sensor
+kit
+Page 25 of 45
+Work package number 9 WP5 Lead beneficiary 10 11 - LEITAT
+Work package title Development of processes for materials recycling, repair and re-use approaches for
+OLEDs and solar cells
+Start month 13 End month 36
+Objectives
+From a life cycle perspective, sustainability of OLEDs and solar cell products as well as their respective manufacturing
+process must be ensured from different approaches such as:
+(1) the optimal selection and use of raw materials for manufacturing,
+(2) avoiding and/or minimising waste generation along the production line, including the small production of discarded
+materials by the quality control system, and
+(3) guaranteeing in the recyclability of these products and by-products during manufacturing from:
+(3a) an easy dismantling/ separation of target materials for reuse into the own production line, and
+(3b) to ensure their compatibility with potential existing pre-treatment technologies and recycling solutions for complete
+valorisation when possible (or valorisation of components defined and agreed with end-users) and reuse into the
+production line.
+The WP5 has as a double objective (1) to ensure the recyclability of the end-of-life products and/or by-products generated
+by OLEDSOLAR manufacturing processes, and (2) the feasibility evaluation of existing and/or innovative recycling
+routes for the reuse of discarded materials as new raw materials into the own manufacturing process. Proposed recycling
+technologies will be tested and validated at laboratory scale and finally selected for scaled-up at a representative pilot
+scale according to the previous lab results.
+Description of work and role of partners
+WP5 - Development of processes for materials recycling, repair and re-use approaches for OLEDs and solar
+cells [Months: 13-36]
+LEITAT, ASPF, CSEM, Solibro, DTF, Advent, INURU, SMIT
+Description of work
+This goal will be achieved by the development of the following tasks:
+T5.1 Evaluation of potential existing pre-treatment technologies and recycling solutions for OLEDs and solar cells
+(M13-M26). (Lead: LEITAT, Partners: CSEM, ADVENT): Selected end-of-life products from OLEDSOLAR end-users
+and materials suppliers, and/or those discarded after inspection and quality control system (WP3) will be evaluated in
+terms of potential recyclability. For that, a first task focused on the identification of wastes along the manufacturing
+process will be performed. Identification of their generation and their recycling/reuse potential will be performed
+by using Key Performance Indicators (KPI). From selected wastes/materials, physic-chemical characteristics will be
+evaluated as well as their cost/economic potential. From results, procedures for correct handling and separation of
+wastes by categories defining potential reuse/recycling will be designed. Then, in order to guarantee the recyclability
+of separated wastes, the following recycling approaches will be proposed and evaluated:
+- Manual sorting and selection of added value materials (pre-concentration) before external recycling (existing
+technologies),
+- Grinding/homogenisation of wastes for external recycling (existing technologies)
+Regarding the first two options, analysis of existing pre-treatment technologies and conventional recycling solutions
+will be performed. The analysis will include cost-competitive and mature solutions (TRL9) as well as novel technologies
+(TRL6-8). Both for mature and novel technologies, feasibility tests at laboratory and pilot scale (according to previous
+lab results) will be performed in Task 5.3. External treatment and recycling cost will be compared with the cost of the
+novel raw material used in OLEDSOLAR production processes.
+T5.2 Definition of existing and/or innovative recycling routes into the own manufacturing process (M18-M36) (Lead:
+LEITAT, Partners: CSEM, Smit TS): According to the physic-chemical characteristics of those wastes already identified
+and quantified in Task 5.1, potentially generated from the scalable production line of OLEDSOLAR products (OLEDs
+and solar thin films), existing and/or innovative recycling routes into the own manufacturing process will be analysed.
+For that, manufacturing requirements will be checked, and potential reuse of wastes will be evaluated. Quality criteria
+such as potential loose of material properties (i.e. reuse of green solvents, semiconductors, reuse of anodes discarded
+by the quality control system, etc.) will be considered.
+T5.3 Testing and validating the feasibility of recycling technologies at laboratory/pilot scale (M20-M36) (Lead: LEITAT,
+Partners: ASPF, CSEM, Smit TS, INURU): Mature and novel pre-treatment and recycling technologies proposed in
+Page 26 of 45
+Task 5.1 will be firstly tested and evaluated at laboratory scale. These solutions may include mechanical (i.e. cutting,
+grinding), thermal (i.e. heating) and/or chemical (i.e. leaching) technologies. Feasibility of proposed solutions will be
+evaluated from techno-economic and environmental points of view in WP6 (T6.5) and quantified by using the KPIs
+defined in Task 5.1. Testing of recycled materials will be performed by LEITAT and CSEM, in order to evaluate
+the quality of the recycled material. Recovered materials may be semiconductors (e.g. ITO), electrodes (e.g. silver),
+substrates (e.g. PET), among others. Performance of selected recycled materials will be evaluated against reference
+material. Scale-up tests at a representative pilot scale will be performed according to the previous lab results.
+ 
+Participation per Partner
+Partner number and short name WP5 effort
+5 -  ASPF 2.00
+7 -  CSEM 5.00
+8 -  Solibro 0.13
+11 -  LEITAT 20.00
+13 -  DTF 2.00
+15 -  Advent 2.00
+16 -  INURU 3.00
+17 -  SMIT 1.00
+Total 35.13
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D5.1
+Report on potential
+existing pre-treatment
+technologies and
+recycling
+11 - LEITAT Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+36
+D5.2
+Report on potential
+recycling routes and
+waste reuse along the
+manufacturing process
+11 - LEITAT Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+36
+Description of deliverables
+D5.1. Report on potential existing pre-treatment technologies and recycling [LEITAT]. In includes results from Task
+5.1 and 5.3.
+D5.2. Report on potential recycling routes and waste reuse along the manufacturing process. [LEITAT]. It includes
+results from task 5.2.
+D5.1 : Report on potential existing pre-treatment technologies and recycling [36]
+Report on potential existing pre-treatment technologies and recycling
+D5.2 : Report on potential recycling routes and waste reuse along the manufacturing process [36]
+Report on potential recycling routes and waste reuse along the manufacturing process
+Page 27 of 45
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS5 Recycling and re-use
+technologies tested 11 - LEITAT 36 Recycling and re-use
+technologies tested
+Page 28 of 45
+Work package number 9 WP6 Lead beneficiary 10 17 - SMIT
+Work package title Integration, Testing, demonstration and performance validation
+Start month 26 End month 42
+Objectives
+WP6 will include integration, testing, demonstration and performance validation of developed processes and inspection
+techniques.
+Description of work and role of partners
+WP6 - Integration, Testing, demonstration and performance validation [Months: 26-42]
+SMIT , VTT, Fraunhofer, TNO, IRIS, ASPF, TWI, CSEM, Solibro, BUL, LEITAT, Coatema, DTF, SAL, Advent,
+INURU
+Description of work
+T6.1 Integration of finalised manufacturing, inspection and automation processes on pilot & production lines (Lead:
+Lead: Smit TS, Partners: VTT, CSEM, TNO, Fraunhofer, IRIS, Inuru, ASPF, DTF): In this WP processes and solutions
+developed in WP2,3,4 will be integrated including deposition equipment, inline inspection systems, sensors, automation
+toolkit and developed software will be integrated within pilot and production lines for testing and demonstration.
+Integration into S2S inkjet, screen, or slot-die printing platforms at CSEM for testing and validation purposes.
+Work by ASPF includes i) Redevelopment of the lamination line by a new automated system, automatic feeding system
+and automatic glue dispensing system, and ii) Upgrading of CO2 laser by installation of additional cameras, and by
+hardware and software updates.
+T6.2 Testing and trials of integrated finalised OLEDSOLAR solutions on pilot lines (Lead: VTT, Partners: TNO,
+Fraunhofer, SAL): In this task testing and trials of finalised integrated processes developed and validated in WP2, WP3
+and WP4 OLEDSOLAR will be done on pilot lines of OLED and solar cells, the process and inspection effectiveness
+will be evaluated and compared with state of the art and any optimisation or tuning in any of the developed technique
+and system will be updated to reach specific performance targets. Testing and trial will be done within pilot lines of
+VTT, Fraunhofer, TNO and CSEM. Solutions will be tested fully integrated in one site or distributed, as for the quality
+control of CIGS PV plates. I.e. manufacturing of CIGS PV plates will be at TNO and quality control measurements
+at SAL and FhG.
+T6.3 Testing and trial of finalised OLEDSOLAR processes on production lines (Lead: ASPF, Partners: INURU,
+Smit TS, DTF, SAL, BUL, FhG, TNO, Coatema): In this task testing and trial of OLEDSOLAR will be done in
+industrial environment within production line of OLEDs and OPV solar cells within end users production facilities.
+Two production line demonstrations will be done including for OLEDs at INURU, and for OPVs at production facility
+of ASPF. Productivity yield, process adaptability and recycling metrics will be monitored and compared with current
+production rates.The demonstration for the in-line quality control of CIGS will not be on one site, but will be distributed.
+The (batch type) manufacturing of semi-finished and finished CIGS PV plates will be at TNO, while measurements on
+the semi-finished CIGS PV plates for forward quality monitoring (using models from Brunel and FhG-IWS) will be
+carried out at SAL (Raman, PL) and FhG-IWS (HSI). However, speed of measurements (without handling) and data
+processing will resemble that of monitoring in a CIGS production line.
+T6.4 Scalability and performance validation of OLEDSOLAR processes and solution (Lead: Coatema, Partners:
+All): In this tasks after performance validation during industrial demonstration, scalability of developed techniques,
+systems, software will be checked and scale up plans will be devised to enable implementation of OLEDSOLAR
+in full production environment during commercialisation of developed technology. Coatema will perform following
+activities in collaboration with partners and end users S2S and R2R Upscaling & Process Transfer, Engineering
+Analysis for extended pilot lines ,Design concept & engineering solution for extended pilot line,Modification of existing
+pilot lines,Engineering analysis for innovative solutions,Trials and validation of scaled up processes at Coatema.The
+analysing of Impact on yield, cost and investment will be carried out in this tasks as well. VTT will evaluate the up-
+scaling processability of the Advent WF3 polymer. VTT to perform studies on the processing deposition procedures of
+WF3 : o-DTBR by ecofriendly solvents so that an active layer ink suitable for large area processing can be obtained
+at the end of OLEDSOLAR project.
+T6.5 Quantification of the environmental and economic performance of the OLEDSOLAR solution (Lead: LEITAT,
+Partners: All): In this task quantification of environmental and economic performance will be done including Life Cycle
+Assessment and a Life Cycle Costing. A combination of the LCA and LCC is important to analyse the relation between
+Page 29 of 45
+environmental and cost performance in order to prove the sustainability of the manufacturing process and the final
+products (OLED and organic solar cell).A comprehensive LCA based on international standards ISO 14040 and updated
+publications of the European Platform on Life Cycle Assessment and the European Commission (ILCD Handbook, PEF
+Guidelines) will be performed to quantify and analyse the potential environmental impacts of the products.The LCC,
+according to SETAC Guidelines and other existing initiatives, will evaluate the total costs of the system throughout its
+entire life cycle, considering all costs arising from raw materials to production, use phase and end-of-life. The LCA and
+LCC will allow characterising the sustainability performance of the OLEDSOLAR products generated in OLEDSOLAR
+project. The involvement of the rest of the partners is a key issue since they will provide the data obtained in previous
+tasks and WP.
+T6.6 Standardisation, regulations, certification and safety codes (Lead: TWI, Partner: BUL): A standardization
+methodology (protocols) of opto-electronic component and packaged devices will be developed. To achieve a high-
+volume production, reliability testing and appropriate standards for qualification of optical devices e.g. OLEDs, CIGS
+and OPVs should be established. Those standards are mandatory as it serves the industry as a baseline for implementation
+of pilot-line production. However, in many cases reliability is not even studied or confirmed specially in R2R scale
+up production. As a result, the missing prove of long-term reliability of devices reduces their level of acceptance
+considerably. The standard protocols will be based on MIL standards already applied in microelectronics domain. The
+standard will cover the functionality of the components and will develop and apply accelerated aging tests to guarantee
+functionality of components for at least 10 years. Statistical analysis will be considered for representative testing during
+mass production. Ageing at accelerated conditions like high temperature, thermal cycling, cooling and/or heating in
+controlled cooling rate will be applied. Pass/fail criteria will be based on evaluation of the devices performance with
+respect to defined tolerances.
+ 
+Participation per Partner
+Partner number and short name WP6 effort
+1 -  VTT 13.00
+2 -  Fraunhofer 21.00
+3 -  TNO 13.00
+4 -  IRIS 6.00
+5 -  ASPF 12.00
+6 -  TWI 14.00
+7 -  CSEM 8.40
+8 -  Solibro 0.07
+10 -  BUL 4.00
+11 -  LEITAT 10.00
+12 -  Coatema 7.00
+13 -  DTF 3.00
+14 -  SAL 4.50
+15 -  Advent 1.00
+16 -  INURU 14.00
+17 -  SMIT 4.00
+Total 134.97
+Page 30 of 45
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D6.1
+Demonstration of
+integrated OLEDSOLAR
+system
+17 - SMIT Demonstrator
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+39
+D6.2
+Finalisation of
+OLEDSOLAR and
+testing performance
+result report
+17 - SMIT Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+42
+D6.3
+Environmental and
+economic performance of
+OLEDSOLAR system
+11 - LEITAT Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+42
+D6.4 Report on standardisation 6 - TWI Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+35
+D6.5
+Report on scalability and
+performance validation
+of OLEDSOLAR
+processes and solution
+12 - Coatema Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+42
+Description of deliverables
+D6.1 Demonstration of integrated OLEDSOLAR system
+D6.2 Finalisation of OLEDSOLAR and testing performance result report
+D6.3 Environmental and economic performance of OLEDSOLAR system
+D6.4 Report on standardisation
+D6.1 : Demonstration of integrated OLEDSOLAR system [39]
+Demonstration of integrated OLEDSOLAR system
+D6.2 : Finalisation of OLEDSOLAR and testing performance result report [42]
+Finalisation of OLEDSOLAR and testing performance result report
+D6.3 : Environmental and economic performance of OLEDSOLAR system [42]
+Environmental and economic performance of OLEDSOLAR system
+D6.4 : Report on standardisation [35]
+Report on standardisation
+D6.5 : Report on scalability and performance validation of OLEDSOLAR processes and solution [42]
+Report about results from T6.4.
+Page 31 of 45
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS6
+OLEDSOLAR technologies
+integrated,validated in
+production line
+17 - SMIT 36
+OLEDSOLAR technologies
+integrated,validated in
+production line
+Page 32 of 45
+Work package number 9 WP7 Lead beneficiary 10 1 - VTT
+Work package title Dissemination, communication and Exploitation
+Start month 3 End month 42
+Objectives
+Objectives:Objectives of WP7 are for successful exploitation of project results to the scientific world, to industrial
+stakeholders and to the wider community of potential end users.
+Specifically:
+Promoting the transfer of technologies developed in the project to additional industrial end users with a emphasis on
+emerging European SMEs.
+To develop and implement a structured exploitation plan.
+To prevent possible conflicts arising with the consortium relating to knowledge management and intellectual property
+rights.
+To track any innovations developed within the course of the project in order to support the protection of any IP generated
+by the consortium and individual partners.
+To publish the project results in relevant forums and to arrange to present at the project on various relevant industrial
+and academic forums throughout Europe.
+To potentially utilise existing methods that the Industrial End Users utilise to disseminate innovations across their
+business units.
+Description of work and role of partners
+WP7 - Dissemination, communication and Exploitation [Months: 3-42]
+VTT, Fraunhofer, TNO, IRIS, ASPF, TWI, CSEM, Solibro, BUL, LEITAT, Coatema, DTF, SAL, Advent, INURU,
+SMIT
+Description of work
+T7.1 Plan for Exploitation and Dissemination of results (PEDR) (Lead: VTT, Partners: All)
+Partner’s individual dissemination and exploitation strategies will be merged to a coherent exploitation strategy on
+consortium level. Related information will be collected by VTT through innovation-related questionnaires. Particular,
+attention will be paid to the identification of risks and opportunities (including external factors) related to the potential
+use of results in further research and/or commercial activities, through regular patent search or early-stage Freedom-
+to-Operate (FTO) analysis by the industrial partners and the monitoring of potentially competing R&I projects by RTO
+partners. The results of this risk analysis will be periodically reassessed with any periodic report starting from Mo
+18. The potential economic impact of project results will be defined on different scales from short-term to beyond the
+term of project. An exploitation workshop (D7.5) among relevant project partners and – if appropriate- with external
+stakeholders will be organized to identify and define exploitation opportunities and strategies. PEDR will include a
+table detailing each identifiable project result with potential economic value, the owner(s) of such result, sectors of
+potential application and use, an overall plan for the protection and exploitation of the result, and the timetable for
+action followed by a comprehensive market survey and business implementation strategy. IP Management activities
+also include guidance and support in case of conflict of IP-related interests between academic and industrial partners.
+T7.2 Communication, advertising and conferences publications of technical outputs (Lead: VTT, Partners: All) TWI will
+elaborate a basic communication concept (M3) in close cooperation with all project partners, thereby to identify major
+target groups (scientific community, broad public and specific stakeholder/user groups) and appropriate communication
+and advertising channels and will conceive key communication messages and design elements (project logo, colour
+scheme, fonts) – thus defining the project’s “brand identity”. Templates to be used for presentations, reports, posters
+as well as for meetings and internal documents will be provided to all partners as a Dissemination Toolkit (D7.1).
+Additionally, VTT will design and produce a set of standard communication materials such as project leaflets and
+posters. The dissemination toolkit and all communication materials will be made available to the whole consortium
+through the internal communication and management platform allowing project partners to easily access and use
+the material for all future project-related communication and dissemination. Furthermore, VTT will be in charge of
+the set-up and maintenance of the external project website (D7.2), which will serve as an additional showcase for
+presenting the project’s activities and achievements. To foster networking within the scientific community, particular
+attention will also be paid to the concentration with other related initiatives (other ongoing projects or networks on
+national and international level; particularly EU-funded initiatives on related domains. Both planned and implemented
+Page 33 of 45
+communication and networking activities as well as publications that are under preparation or have already been
+submitted will be summarized in the periodically updated Plan for the Dissemination and Exploitation of Results (PEDR,
+D7.3). BUL as academic partners along with coordinator will encourage, assist and monitor the timely publication of
+results in peer-reviewed journals.VTT will provide an overview of the locally available repositories to each partner, as
+well as the information on the open access policies of the five most frequently used journals for each partner. An open
+access questionnaire to evaluate each partner’s experiences with the process and their general opinion will be developed
+by VTT collecting partner feedback to be merged into an open access summary report (D7.4) at the end of the project.
+The periodically updated PEDR will include a current overview of the project’s open access publication status.
+T7.3 Valorisation of results (Lead: VTT, Partners: All): Assessment and valorisation activities within the project
+implementation will cover all relevant initiatives to identify and increase the economic value of foreground generated
+in the project, including the protection and exploitation of results into products, processes, services or any other form
+of commercial use. This can be done i.e. via licensing or assignment of IPR as well as the creation of spin-offs and
+start-ups.IP will need to be identified and captured at critical stages of the project. The consortium partners will log and
+capture IP as it emerges from the research work. Any foreground/deliverable generated will be labelled with regard to its
+confidentiality degree as well as in view to potential exploitability such as possible conflicts with third party IP rights.
+Furthermore, the consortium partners will regularly monitor standards/norms in the related field and, if necessary, start
+new initiatives for specific standards on innovative products and services.
+Identified potential strategic partners for the uptake and commercialization of research outcomes will be contacted and
+invited to exploitation workshops and/or bilateral meetings at early stage. If appropriate, additional networking channels
+on EU level, such as the Enterprise Europe Network or business fairs and brokerage events, will be used to get in contact
+with potential partners for further technology and business cooperation.
+T7.4 Post Project Business Plan and Commercialisation roadmap (Lead: Smit TS, Partners: All) OLEDSOLAR project
+Business Plan will incorporate a marketing strategy, route to market plan and operations plans to detail the sales
+plan, customer lists, costing, and route to market. Based on our analysis of the market and supply chains, plus the
+results of various trials and customer feedback, the information will be used to improve the Business Plan, i.e. Create
+contingencies, plans and alternative strategies & sensitivities. The consortium will further, scale up the system for
+industrially commercial ready system in cooperation with end users. Commercialisation roadmap plan will be developed
+incorporating supply chain of individual company’s systems and all IPs involved.
+ 
+Participation per Partner
+Partner number and short name WP7 effort
+1 -  VTT 7.00
+2 -  Fraunhofer 2.00
+3 -  TNO 2.00
+4 -  IRIS 2.00
+5 -  ASPF 2.00
+6 -  TWI 3.00
+7 -  CSEM 0.60
+8 -  Solibro 0.03
+10 -  BUL 6.00
+11 -  LEITAT 3.00
+12 -  Coatema 1.00
+13 -  DTF 2.00
+14 -  SAL 2.80
+15 -  Advent 1.00
+16 -  INURU 2.00
+17 -  SMIT 2.00
+Page 34 of 45
+Partner number and short name WP7 effort
+Total 38.43
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D7.1 Dissemination toolkit 1 - VTT Report Public 7
+D7.2 Project website 1 - VTT Demonstrator Public 4
+D7.3
+Plan for the
+Dissemination and
+Exploitation of Results
+1 - VTT Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+41
+D7.4 Open access summary
+report 1 - VTT Report Public 42
+D7.5 Exploitation workshop 1 - VTT Demonstrator Public 24
+D7.6 Business Plan 17 - SMIT Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+42
+Description of deliverables
+Deliverables (brief description)
+D7.1 Dissemination toolkit
+D7.2 Project website
+D7.3 Plan for the Dissemination and Exploitation of Results
+D7.4 Open access summary report
+D7.5 Exploitation workshop
+D7.6 Business Plan
+D7.1 : Dissemination toolkit [7]
+Dissemination toolkit
+D7.2 : Project website [4]
+Project website
+D7.3 : Plan for the Dissemination and Exploitation of Results [41]
+Plan for the Dissemination and Exploitation of Results
+D7.4 : Open access summary report [42]
+Open access summary report
+D7.5 : Exploitation workshop [24]
+Exploitation workshop
+D7.6 : Business Plan [42]
+Business Plan
+Page 35 of 45
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+Page 36 of 45
+Work package number 9 WP8 Lead beneficiary 10 1 - VTT
+Work package title Project Management and Coordination
+Start month 1 End month 42
+Objectives
+Objectives: Work package 8 will provide a clear organizational framework and all necessary support mechanisms to
+enable a smooth project workflow in OLEDSOLAR and to ensure that all contractual commitments can be met in time.
+Provide optimal orientation to all partners through a quick set-up of effective management & communication structures,
+guidance and support
+Transparency for consortium partners and the EC through proper project documentation
+Maximize effectiveness of project activities: ensure the timely and qualitative achievement of project results through
+scientific and administrative coordination.
+Ensure efficiency: use resources wisely, avoid duplication of efforts, reduce waste of time and energy to a minimum.
+Description of work and role of partners
+WP8 - Project Management and Coordination [Months: 1-42]
+VTT, Fraunhofer, TNO, IRIS, ASPF, TWI, CSEM, Solibro, BUL, LEITAT, Coatema, DTF, SAL, Advent, INURU,
+SMIT
+Description of work
+T8.1 Financial and administrative management (Lead: VTT, Partners: All): The project coordinator, VTT, will be
+responsible for the achievement of technical and commercial progress in the project and its contractual and financial
+aspects. VTT will co-ordinate and arrange meetings and also manage any changes proposed to the workplan. VTT and
+their contracts team will also be responsible for the maintenance of the Consortium Agreement (CA). VTT will ensure
+that the CA is maintained throughout the project and changes, such as exploitation rights, are handled efficiently. In
+addition, the project coordinator will maintain regular contact with the appointed EC Project Officer.
+T8.2 Risks, Deliverables, Milestones and IP management (Lead: VTT, Partners: All): A risk management plan for both
+commercial and engineering development will be carried out throughout the project. The consortium will apply PFMEA
+(Process Failure Mode and Effects Analysis) and assign quality risk levels to each step in a process (manufacturing or
+transactional). A table will be produced to indicate 3 levels of criticality (Green – Low, Amber – Medium, Red – High)
+in order to indicate the probability and consequences of each risk. Deliverables and Milestones will be monitored and
+IP management aspects including ownership of results and exploitation issues will be managed by project coordinator.
+T8.3 Quality assurance, Innovation Management and Project Performance monitoring (Lead: VTT, Partners: All): The
+coordinator will make sure about the quality of work being undertaken and will continuously monitor performance of
+project tasks and partners. Coordinator will make sure all milestones and deliverables of all WPs are up to standard and
+fulfil quality criteria established in the project.
+Innovation management of project including product development, finalisation and commercialisation will be monitored
+by BUL and Smit TS to take advantage of business opportunities and implementing creative ideas to achieve an enhanced
+product.
+ 
+Participation per Partner
+Partner number and short name WP8 effort
+1 -  VTT 11.00
+2 -  Fraunhofer 1.00
+3 -  TNO 1.00
+4 -  IRIS 1.00
+5 -  ASPF 1.00
+6 -  TWI 2.00
+Page 37 of 45
+Partner number and short name WP8 effort
+7 -  CSEM 1.00
+8 -  Solibro 0.49
+10 -  BUL 2.00
+11 -  LEITAT 2.00
+12 -  Coatema 2.00
+13 -  DTF 1.00
+14 -  SAL 2.20
+15 -  Advent 1.00
+16 -  INURU 1.00
+17 -  SMIT 1.00
+Total 30.69
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D8.1 Project Manual 1 - VTT Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+3
+D8.2 Project Innovation and
+Risk management report 1 - VTT Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+41
+D8.3 Report on cumulative
+expenditure 1 - VTT Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+39
+Description of deliverables
+D8.1 Project Manual
+D8.2 Project Innovation and Risk management report
+D8.1 : Project Manual [3]
+Project Manual
+D8.2 : Project Innovation and Risk management report [41]
+Project Innovation and Risk management report
+D8.3 : Report on cumulative expenditure [39]
+This deliverable reports the cumulative expenditure incurred by each of the beneficiaries.
+Page 38 of 45
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+Page 39 of 45
+1.3.4. WT4 List of milestones
+Milestone
+number18 Milestone title WP
+number9 Lead beneficiary
+Due
+Date (in
+months)17
+Means of verification
+MS1
+Establishing
+Requirements and
+specifications of
+OLEDSOLAR
+WP1 5 - ASPF 4
+Establishing Requirements
+and specifications of
+OLEDSOLAR
+MS2
+Validated
+manufacturing process
+and tools
+WP2 3 - TNO 22 Validated manufacturing
+process and tools
+MS3 Validated inspection
+systems and software WP3 6 - TWI 22 Validated inspection systems
+and software
+MS4
+AI driven automation
+system,software and
+sensor kit
+WP4 4 - IRIS 25
+AI driven automation
+system,software and sensor
+kit
+MS5 Recycling and re-use
+technologies tested WP5 11 - LEITAT 36 Recycling and re-use
+technologies tested
+MS6
+OLEDSOLAR
+technologies
+integrated,validated in
+production line
+WP6 17 - SMIT 36
+OLEDSOLAR technologies
+integrated,validated in
+production line
+Page 40 of 45
+1.3.5. WT5 Critical Implementation risks and mitigation actions
+Risk
+number Description of risk WP Number Proposed risk-mitigation measures
+1 Changes in the Consortium WP1, WP2, WP3, WP4,
+WP5, WP6, WP7, WP8
+Tasks assigned to the leaving participant will
+be reallocated among the Consortium or new
+participant will be invited and integrated to the
+Consortium.
+2
+Unclear roles &
+responsibilities between
+participants
+WP1, WP2, WP3, WP4,
+WP5, WP6, WP7, WP8
+Review of CA and GA; effective communication,
+amendments of necessary
+3
+Risks related to participants’
+operational environment
+(bankruptcy, accidents, force
+majeure etc.)
+WP1, WP2, WP3, WP4,
+WP5, WP6, WP7, WP8
+Effective communication; participants obligation
+to inform Coordinator and consortium;
+amendments to the Description of Action
+4 Risks related to unidentified
+ethical risks
+WP1, WP2, WP3, WP4,
+WP5, WP6, WP7, WP8
+Immediate actions are taken in on-going ethical
+review process to integrate the risks to the ethical
+procedures and codes of conduct
+5 Insufficient financial
+reporting WP8
+Ensuring compliance with accounting rules,
+keeping records and timesheets; timely
+submission of financial statements (and possible
+certificate of the financial statements)
+6
+UK research financing
+not taking over after UK
+departure (replacing EU
+financing)
+WP1, WP2, WP3, WP4,
+WP5, WP6, WP7, WP8
+This leads to reallocation of remaining resources/
+budget. (Current wisdom is that UK does not want
+to abandon EU research activities)
+7 Risks related to ownership
+and user rights
+WP1, WP2, WP3, WP4,
+WP5, WP6
+Clearly defined background IPR in CA;
+transparent and efficient Exploitation Plan
+8 Issues related existing patents
+and freedom to operate
+WP1, WP2, WP3, WP4,
+WP5, WP6
+The well maintained Plan for Exploitation and
+Dissemination of results (PEDR) will ensure that
+this issue is kept under control. Attention is paid
+to the regular updates as new patents are coming
+all the time.
+9
+Communication regarding
+the project and its results
+is not properly targeted
+(message is not clear)
+WP1, WP2, WP3, WP4,
+WP5, WP6, WP7, WP8
+Communication to be modified according to the
+audience and initial feedback
+10 OLEDSOLAR processes
+scale up issues
+WP1, WP2, WP3, WP4,
+WP5, WP6
+3 pilot line testing and 3 production lines testing
+including system level testing in WP2, 3 and
+integrated full systems testing in WP6 has
+been planned to check scalability of developed
+processes making sure all processes proposed are
+scalable.
+11
+Pristine surfaces (e.g.
+OCS grade PET of DTF)
+cannot be exploited due
+to contamination due to
+exposure to environmental
+conditions prior to deposition
+WP2, WP6
+Special measures to reduce contamination
+sources; reduce attraction, and in-line surface
+inspection to ensuring a defect free surface will be
+coated.
+Page 41 of 45
+Risk
+number Description of risk WP Number Proposed risk-mitigation measures
+12
+Delays in preparing,
+modifying equipment for
+using or transport of specific
+foil or sheet material, for
+adding additional process
+steps and/or inspection
+techniques
+WP2
+Partners will carefully plan their resources,
+interactions and engagements with suppliers. Use
+a conventional production process as fall back
+13
+Developed techniques
+(output, input) don’t match
+or interface with end
+user production lines and
+materials
+WP1, WP2, WP3, WP4,
+WP5, WP6
+Partners will define requirements in WP1 and will
+make advanced planning for demonstrations and
+validation (in WP6) and will monitor for changes
+during project duration.
+14
+Material Deposition: Lack
+of compatibility between
+mature sALD process and
+device
+WP2
+Via optimization and material handling system a
+Customer Requirement Specification (CRS) will
+ensure which will detail the intended layer(s), the
+parameter ranges to enable PE sALD.
+15
+Lack of deployment of
+metrology solutions in
+industrial environments
+WP3, WP4, WP5
+Tailored application of existing metrology lab
+equipment (Wyko WLI, AFM, XPS tools) for
+characterising surfaces. Deploying DuPont Teijin
+Films’ patented large area metrology technology
+for assessment of A4’s at nano scale for defects.
+16
+Lack of in-line and real time
+measurement system for
+quality control.
+WP3, WP4, WP5
+Different optical systems deployed, e.g.
+spectral reflectance and spectroscopic imaging
+ellipsometry. In addition, implementation
+and optimisation of NDT testing for zero-
+defect testing, in-line Raman spectroscopy and
+luminescence testing processes combined with the
+development of machine learning based inspection
+data processing will ensure the QC.
+17 Weakness in data processing
+and integration WP3
+Specific technical objective dedicated to develop
+and implement machine learning based inspection
+data processing and automated defect detection
+software inline manufacturing process of OLEDs
+and solar cells.
+18
+Commercial availability
+of special purpose organic
+material (OM)
+WP2
+The partner in lead (VTT) with the help of the
+consortium network will preliminarily contact
+suppliers of candidate organic materials.
+19
+Lack of industrial equipment
+or any tool and related
+knowhow meant to
+demonstrate industrial
+suitability
+WP2, WP6
+The pilot tools and equipment already available
+and useful for the milestones of the project will be
+chartered.
+20
+Integration of existing
+equipment and existing
+characterization might create
+unexpected additional Non-
+Recurring-Engineering
+WP6 Documentation (ie CRS) will take this
+compatibility as a first prio.
+21
+To define the system under
+research and design potential
+recycling routes, it is always
+WP5
+Potential difficulties arising from a lack of
+information, will be faced with a deeper literature
+research, conducted for that specific case and
+Page 42 of 45
+Risk
+number Description of risk WP Number Proposed risk-mitigation measures
+mandatory to analyse and/
+or count on the samples
+chemical composition (e.g.
+defected and/or end-of-life
+OLEDS and/or OPV and/
+or CIGS), as well as how
+materials are assembled.
+Since this is sensitive and
+confidential information
+for some end-users (i.e. for
+example, organic compounds
+nature will not be revealed,
+in the case of OLEDS and
+OPV), there´s a potential
+risk related to complete
+achievement of recycling/
+reuse strategies, depending
+on each sample´s nature.
+Besides, some end-users
+have defined their interest in
+specific elements/materials to
+be recovered, instead of the
+whole solar cell; this reduces
+the recycling opportunities
+that could be explored for a
+complete module.
+the development will be completed making use
+of theoretical background. Possibility of using
+non-confidential reference samples from the
+OLEDSOLAR research partners (e.g. VTT) will
+be examined.
+Page 43 of 45
+ 
+53 
+OLEDSOLAR  
+Poster, Leaflets, Presentations, 
+Dissemination Support Material 
+Research, Scientific & Academic Community, 
+Commercial & Industry, Investors, General 
+Public, Policy Makers 
+Month 3 
+ 
+3 Implementation

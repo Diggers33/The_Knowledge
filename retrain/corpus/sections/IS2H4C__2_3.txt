@@ -1,0 +1,564 @@
+2.3 SUMMARY   Associated with document Ref. Ares(2023)8308660 - 05/12/2023 
+
+ 
+ 
+3.1.1 INTRODUCTION TO THE WORK PLAN   
+IS2H4C will be implemented over 48 months as an appropriate timeframe based on a consortium that 
+is experienced with IS implementations. The work plan is structured into 8 Work Packages (WPs). The 
+project management and governance activities will drive the entire work plan (WP1), which will be cross -
+cut with impact -oriented dissemination and exploitation activities (WP8). The scientific and technical 
+activities will be undertaken in an interrela ted workflow spanning WP2 to 7. As described in section 1.2, 
+the different WPs (2, 3, 4, 5) represent interconnected compartments of work which are eventually 
+integrated into the H4C demonstration (WP6) and the digital collaboration platform built in WP7. The 
+technical management of the project (WP1), undertaken by UT, will ensure the full coherence and 
+alignment of the work comprised by each WP towards fulfilling the project objectives. WP2, led by AEE, 
+will identify and evaluate the circularity pathways within each H4C (German, Dutch, Basque and Turkish) 
+to further develop and integrate advanced technologies. To include the participation of the surrounding 
+ecosystems into the hubs, WP3, led by TUDO, will analyse the local setting, identify relevant stakeholders 
+to engage with and collect useful insight for the improvement of the hub. WP4, led by UT, will utilise AI, 
+operation research and agent-based simulation to ensure efficient operations and expansion of each H4C 
+and overcome obstacles along the value chain. WP5, led by KPMG, will conduct a comprehensive analysis 
+of existing business models in CE and IS, identify their strengths and weaknesses, and develop a new 
+business model that capitalizes on emerging industry trends and technologies. Integrating the research 
+and knowledg e gathered from previous WPs, WP6, led by PROV, will test and demonstrate the 
+technologies developed in WP2 in each H4C. The technologies’ performance will be evaluated to identify 
+possible optimisation areas. Finally, WP7, led by IRIS, will build a  userfriendly, scalable and adaptable 
+Digital Collaboration Platform for Circularity Hubs (Digital H4C) which will facilitate the sharing or 
+resources and data among participating entities, fostering collaboration and transparency.       
+  
+ 
+  
+Figure 11. IS2H4C’s PERT  
+    
+Table 8. List of work packages  
+WP  Title  Leader  PMs  Start   End   
+1  Project Management  UT   1  49  
+2  Technology development and technical aspects  AEE   1  49  
+3  Societal engagement and governance   TUDO   4  49  
+4  Modelling and optimisation for H4C development  UT   4  49  
+5  Business and financial models  KPMG   1  49  
+6  Integration and demonstration in hubs  PROV   1  49  
+7  Digital Collaboration Platform for H4C  IRIS   1  49  
+8  Dissemination, communication, and exploitation  EEIP   1  49  
+9  Ethics Requirements  UT   1  49  
+3  QUALITY AND EFFICIENCY OF THE IMPLEMENTATIONAssociated with document Ref. 
+Ares(2023)8308660 - 05/12/2023   
+
+ 
+ 
+Project: 101138473— IS2H4C – Part B – 37  
+ 
+ 
+ Associated with document Ref. Ares(2023)8308660 - 05/12/2023 
+GANTT CHART  
+  
+  
+  
+
+ 
+ 
+Project: 101138473— IS2H4C – Part B – 38  
+ 
+Project: 101138473— IS2H4C – Part B – 55  
+  
+3.1.2 SUBCONTRACTING, PURCHASE AND OTHER COSTS CATEGORIES ITEMS Associated with document Ref. 
+Ares(2023)8308660 - 05/12/2023 The beneficiaries must base their contracts/subcontracts according to the principles for 
+best value for money and absence of any conflict of interest (according to Articles 6.2 and 9.3 of GA). Beneficiaries 
+that are ‘contracting authorities’ or ‘contracting entities’ (within the meaning of the EU public procurement Directives 
+2004/18/EC and 2004/17/EC or any EU legislation that replaces these Directives) must moreover comply with the 
+applicable national law on public procurement.  
+Table 3.1.g ‘Subcontracting costs’ items  
+1. UT  Cost 
+(€)  
+Justification  
+Subcontracting 
+1  80,000  
+WP8 – Online games: UT develops 4 Excel -based Circular Hub online games which 
+need to be taken into the digital -twin version by a company which can develop 
+interfaces where the games can be run. An average of 20.000 € are assumed per 
+digital twin game. Online digital -twin hub games provide an ex periential e -learning 
+environment to boost the learning process of students, practitioners, society, & 
+policymakers.   
+Total   80,000    
+3. TUDO  Cost 
+(€)  
+Justification  
+Subcontracting 
+1  80,000  
+WP3 - The subcontractor will analyse potential for job creation and inclusiveness in 
+the four demo hubs. It will develop recommendations for regional stakeholders on how 
+to unfold potential for creating jobs and monitor job creation and inclusive growth 
+progress  
+Total   80,000    
+6. FHG  Cost 
+(€)  
+Justification  
+Subcontracting 
+1  44,000  
+WP2 - The budget is used to commission a plant manufacturer to work out a concept 
+for scaling up monomer synthesis so that the industrial implementation can be 
+estimated.  
+Total   44,000    
+18. TUPRAS  Cost 
+(€)  
+Justification  
+Subcontracting 
+1  400,000  
+WP6 – Turkish Hub Infrastracture (Civil, electrical, mechanic support, piping, utility 
+supply etc.)  
+Installation of three main demo units into refinery site will require site modifications. 
+Concrete ground for units, electricity grid connections to power the units, piping for 
+flue gas and H2, piping connections between the different modules, storage tank s for 
+intermediate and final products, cooling water, dry air connections are some of the 
+main works needs to be done for site preparation.  
+Total   400,000    
+22. SIDENOR  Cost 
+(€)  
+Justification  
+Subcontracting 
+1  
+35,0000  WP6 - H2 trials monitoring and tests  
+Total  35,0000    
+13. H2HT  Cost 
+(€)  
+Justification  
+Subcontracting 
+1  80,000  WP6 Dutch Hub - A certified party is required for connection/commissioning. Rate of at 
+least €100 per hour. Company subcontracting support  
+Total   80,000    
+16. ALMELO  Cost 
+(€)  
+Justification  
+
+ 
+Project: 101138473— IS2H4C – Part B – 56  
+Subcontracting 
+1  80,000  
+Cost for the grid operator will include: feasibility study and project management; 
+modification of existing infrastructure to make it suitable for hydrogen á 500m in Aadorp 
+€80k;   
+Subcontracting 
+2  
+25,000  WP6 – Dutch Hub - Adjustment of house connections and replacement of meters in 5 
+homes  
+Subcontracting 
+3  
+75,000  WP6 – Dutch Hub - Construction of a replacement gas network for natural gas 
+distribution of 500m  
+Subcontracting 
+4  
+300,000  WP6 – Dutch Hub – Work needed for the construction of connection H2-Hub – 
+Aadorp at 3000m  
+Total  480,000€  
+All depreciation costs for equipment, infrastructure or other assets in the project are in compliance with Article 6 and 
+will be recorded in the appropriate beneficiary’s accounts, purchased in accordance with Article 6.2.C of the grant 
+agreement and writt en off in accordance with international accounting standards and the beneficiary’s usual 
+accounting practices.  
+Table 3.1.h. 'Purchase costs' items (T&S: Travel and Subsistence, OGS: Other goods, works and services, Remaining costs: 
+The record must list cost items in order of costs and starting with the largest cost item, up to the level that the remaining 
+costs are below 15% of personnel costs).   
+Table 15. 'Purchase costs' items  
+5. INEGI  Cost (€)   Justification   
+  OGWS   31,250  
+ ., WP2+WP4: SW license; computing consumables.  
+WP8: Conference fees, gold open access publications.  
+Remaining   20,500    
+Total  51,750    
+ 
+8. ICCS  Cost (€)   Justification    Associated with document Ref. Ares(2023)8308660 - 05/12/2023 
+Equipment    55,000  Monitoring and sensing technologies (40k) network and tracking devices (15k) for the 
+development of monitoring and traceability test modules in the hubs.  
+Remaining    12,000    
+Total  67,000    
+9. AEE  Cost (€)   Justification   
+Equipment    55,000  
+Membrane Destillation (MD) Membranes and Module supplies (2 Modules Lab, 2 Modules 
+pilot plant ≥10m²),  
+Reagents and Chemicals for MD operation and Laboratory Supplies  
+Remaining    37,000    
+Total  92,000    
+13. H2HT  Cost (€)   Justification   
+Equipment    814,000  
+ Additions for the call in 2025 -2026: 1) wind turbines of in total 70kW to add to the already 
+available sunroof generation necessary to stabilize green hydrogen generation, to be 
+depreciated in 10 years with no residual value, total costs estimated at €360 ,000 = 
+4x€36,000=€144,000; 2) energy storage of 1,4 MWh necessary to stabilize the feed of the 
+green energy generation, to be depreciated in 10 years with no residual value, total costs 
+estimated at €1,200,000 = 4x€120,000=€480,000;and 3) a hydrogen filling station for trucks 
+(separately funded), and 4) double pipeline to the nearby wastewater treatment plant, 
+€190,000.   
+Remaining    10,000    
+Total  824,000    
+18. 
+TUPRAS  
+Cost (€)   Justification   
+Equipment    1,300,000   e-Meth production unit 2.5 M € (depreciation cost : 500K €) + Carbamate Production unit 
+300K € + NIPU Production Unit 300K €+ Electrolyser (depreciation cost 200K €)  
+
+ 
+Project: 101138473— IS2H4C – Part B – 57  
+OGWS   86,000  
+ Consumables (chemical feedstock (diamines),absorbent - for capture (zeolites, activated 
+carbon, silica), catalyst for chemical conversions, spare parts) 50K €+ C -capture unit 
+transport form Izmit Refinery to Izmir Refinery 5K €+ Technology transport cost fr om DE to 
+TR 20K € (estimated, including customs /shipping) + Auditing 5K €+  
+Conference fee 6K €  
+Remaining    25,000    
+Total  1,411,000    
+22. 
+SIDENOR 
+Cost (€)   Justification   
+OGWS   257,000  
+ Equipment & installation of Heater NG/O2/H2 – 160.000€ and  Cover modification - 40.000€.  
+Fuels (14kNm3 O2 y 27*2 KNm3 H2): O2    0.22 €/Nm3 * 14.000 = 3.080 €  &  H2    1 €/Nm3 
+* 27.000 *2  = 54.000 €  
+Remaining    12,000    
+Total  269,000    
+24. 
+CALERA  
+Cost (€)   Justification   
+OGWS   76,000  
+ WP6 - To set-up the prototyping in CALERA’s plant;  shipping (10,000€) engineering works 
+(5,000), foundation reinforcement (30,000), Cost of new pecking for a possible furnace with 
+gas without sugar to capture CO2 (6,000), heating system for the methanation reactor -Larger 
+diameter & heat-insulated pipes (12,000) & Fuels, gases  
+(15,000)    
+Remaining    12,000    
+Total  88,000    
+25. LTK  Cost (€)   Justification   
+OGWS  180,000  
+WP6 - The material cost covers the modifications to be implemented in the prototype to 
+reach correct process pressure and temperature improving heating and pressure regulations 
+and control. Heating and cooling equipment as well as insulation concepts have to be also 
+reconsidered and implemented.  
+Equipment    60,000  
+WP6 - Lointek together with Tecnalia have developed a CO 2 Capture prototype based on 
+membrane and PSA as well as a methane reactor to convert capture CO 2 with green 
+hydrogen, proven with real industrial gases of Calcinor.  
+Remaining    12,000    
+Total  252,000    
+26. SBS  Cost (€)   Justification   
+OGWS   70,000   Materials for the compression of CO2 to be transported. Transportation buffers of CO2 at 
+high pressure. Materials for the carbonation pilot tests. .   
+Remaining    12,000    
+Total  82,000    
+27. IH  Cost (€)   Justification    Associated with document Ref. Ares(2023)8308660 - 05/12/2023 
+Equipment   
+1,410,000  
+Equipment needed for the deployment of the German Hub WP6 – in Industriepark Höchst 
+for any pilot plant .; (1) 650.000 for preparation of infrastructure for hosting CC and E -
+methanol container, (2) 160,000€ for Carbon Capture demo (depreciated from 400000k 
+sales price) and , (3) 600,000€  e -methanol demo (depreciated from 1.500.000 e-methanol 
+plant sales price)  
+Remaining    66,000    
+Total  1,476,000    
+29. IRIS  Cost (€)   Justification   
+OGWS   
+ 
+
+ 
+Project: 101138473— IS2H4C – Part B – 58  
+Remaining     
+Total    
+30. WDK  Cost (€)   Justification   
+OGWS    
+Remaining     
+Total    
+31.  
+SOLENCO  Cost(€)   Justification   
+OGWS  
+ 49,000  
+5xDemonstrators: i) Hydrogen pressure handling and monitoring manifold for the 
+pneumatic system (7,5k€ incl. pressure reducer, electromagnetic valves, pressure 
+transmitters, fittings), ii) Power electronics for communication with Digital H4C (2,3k€ 
+incl.microcontroller, I/Os for digital & analog signal monitoring & control, cabling, resistors).  
+Remaining    10,000    
+Total  59,000
+3.2  CAPACITY OF PARTICIPANTS AND CONSORTIUM AS A WHOLE  
+IS2H4C consortium brings together 32 partners from 10 member states (Netherlands, Spain, Portugal, 
+Belgium, Turkey, Austria, Germany, Greece, Ireland and Belgium) and 10 members from 8 countries for 
+the International Advisory Board (France, Austria, Sweden, Italy , Netherlands, Denmark, Canada, USA) 
+which have been selected for their outstanding R&D, innovation performance and track record. Industry, 
+financial, logistics, technological and academic partners lead the way in their respective areas of action 
+across the Industrial Symbiosis network. Each member will have a distinctive role and will ensure that the 
+results will be exploited in an efficient way. IS2H4C involves a multidisciplinary group comprising four types 
+of entities: (i) Research centres/universities (33% of the consortium, accounting for 44% of the budget), (ii) 
+large industries (24% of the consortium, 20%  of the budget), (iii) SMEs (22% of the consortium, 19% of 
+the budget), (iv) NGOs (21% of the consortium, 17% of the budget) which operate at differ ent stages of 
+the project. UT, IS2H4C’s project coordinator, has participated in several circular economy projects funded 
+by different entities such as: (i) Designing sustainable second generation bioenergy supply chains: an 
+agentbased modelling approach (Tech4People call); (ii) Secure Management Platform for Shared Process 
+Resources (SHAREBOXH2020); (iii) Engineering an Information Platform for Sustainable, Smart, and 
+Resilient Circular Construction Ecosystems (BMS Signature proposal), and more recently (i v) Serious 
+gaming for Circular Economy Transition (SG4CET, WSV innovative teaching proposals). UT is #1 at Times 
+Higher Education ranking for SDG 9 “Industry, Innovation and Infrastructure”. UT is #6 in the world and #1 
+in Europe by a total of 31 Scopus-indexed articles in the field of “Industrial Symbiosis”, being Devrim 
+Yazan26 (project coordinator) ranked #2 author in the world by number of articles in this field (author #1, 
+Luca Fraccascia, is member of the advisory board). Devrim is an associate professor at the Industrial 
+Engineering and Business Information Systems (IEBIS) Department.  
+  
+ 
+26 https://scholar.google.com/citations?user=ihB58yAAAAAJ&hl=en&oi=ao   
+  
+ Associated with document Ref. Ares(2023)8308660 - 05/12/2023 
+Project: 101138473— IS2H4C – Part B – 59  
+Devrim has a PhD in Innovation Management and Product Development and a vast experience in industrial 
+symbiosis. He is a member of A.SPIRE’s Industrial and Urban Symbiosis working group contributing to 
+SPIRE’s 2050 roadmap “Processes4Planet”.   
+ 
+Figure 12. Geographical location of IS2H4C consortium    
+  
+GERMAN HUB PARTICIPANTS (Germany)  
+PROV (German Hub representative) has bundled its interdisciplinary research and education projects in 
+the field of industry and sustainability at the Center for Industry and Sustainability (ZIN) where upscaling 
+and testing of new technologies is being held, specifically in the areas of green energy supply, green raw 
+materials, circular economy and new business models, CCU & CCS, sustainable industrial area 
+management and industrial -urban symbiosi s. Industriepark Höchst  and ZIN participate in the 
+“Process4Sustainability” Cluster supported by EIT Climate -KIC, a EU knowledge and innovation 
+community, working to transition to a zero -carbon economy. Process4Sustainability is linked and will 
+enhance the replication considering that the Process4Sustainability cluster is based on  more than 90 
+companies (e.g. BAYER, ARCUS, Kuraray, Celanese, among others) and the provider of more than 22,000 
+jobs. IS2H4C will have on board 2 of these companies to deploy and test IS2H4C’s innovative 
+technologies.  IH supplies companies in t he process industry with products and services in the fields of 
+energy, facility management, environmental protection, safety and waste disposal. IH is a leading service 
+provider and operator of integrated facilities for the chemical, pharmaceutical and related process 
+industries. IH supplies companies in the process industry with products and services in the fields of energy, 
+facility management, envi ronmental protection, safety and waste disposal. IH is investing considerable 
+resources in making Industriepark Höchst climate-neutral, and is planning to expant the power supply to 
+obtain the necessary green electricity for decarbonisation or to build more electrolysers to supply H 2 for 
+PtX. CIRCE is a technology centre seeking to provide innovative solutions for a sustainable development. 
+They work towards improving the competitiveness of enterprises through generation of technology transfer 
+by means of R&D activities and market -oriented training w ithin the field of resource sustainability and 
+effectiveness, energy grids and renewable energies. CIRCE has been involved in IS and CE projects 
+specifically in the areas of KPIs measuring performance and evaluation of symbiotic solutions based on 
+environmental, economic ans technical feasibility criteria. In IS2H4C, CIRCE will contribute to the 
+technological development of solutions in the hubs.  INEGI is contributing to definitions and simulation of 
+energy technologies, especially based on hydrogen, within different hubs and their simulation. One area 
+of particular focus will be the potential for recovering heat from the hydrogen production plant, including 
+the electrolyzers and compressors. Further, INEGI will also work on Waste heat recovery, heat pumps and 
+heat-to-cold solutions. AEE is one of the leading EU institutes of applied research in renewable energy 
+and resource efficiency. They specialise in decarbonisation, resource efficiency and digitalisation of 
+Industrial systems.  
+  
+
+  
+ Associated with document Ref. Ares(2023)8308660 - 05/12/2023 
+Project: 101138473— IS2H4C – Part B – 60  
+BASQUE HUB PARTICIPANTS (Spain)  
+TEC (Basque Hub representative) is the largest applied research and technological development centre 
+in Spain, and a member of the Basque Research and Technology Alliance. IS2H4C has the participation 
+of Nora Fernandez, projects’ coordinator in the energy and environmenttransition unit division at Tecnalia. 
+She is a specialist in energy transition technologies and roadmaps, and in their engineering optimisation 
+through simulation tools. She, and has also experience in d esigning, manufacturing and testing of 
+renewable energy technologies. ACE is a non -profit organisation within the framework of the Basque 
+Government’s policy to promote competitiveness of the industrial sector.  SKN is one of the leading 
+suppliers of corrugated cardboard packaging in the world, with operations in 23 EU countries and 13 
+countries in America. Their role involves (1) research in the areas of paper waste for Biofuels production 
+(Ethanol), sludge to produc e biomethane, and lignin for biofuels production; (2) providing 
+consumption/generation data and validating indu strial feedstock, subproducts, energy and potential 
+synergies quantification; (3) investigating governance and collaborative business models, potential co -
+investment schemes with other industries.  NORTEGAS is the second biggest natural gas company in 
+Spain, with more than 8,100 km of distribution infrastructure of natural gas and LPG within the Basque 
+country, Asturias and Cantabria. During the project, they will be in charge of (1) validating transport and 
+distribution modes of H2, CO2 and O2, (2) investigating the potential use of waste for biomethane production 
+and (3) governance and ownership of biomethane plants.  CALCINOR is a holding company made up of 
+nearly 50 companies and around 1,500 workers, with a production presence on three continents and 
+serving markets on five continents. CALCINOR has a diversified business structure, which ranging from 
+the mining activity of va rious deposits to industrial processes based on latest technologies. In addition, 
+LTK is a private company solidly  established in t he international market for engineering, supply, 
+manufacturing and service in the capital goods sector for the oil refining, chemical, petrochemical and 
+energy industry. CALCINOR and LTK will be in charge of the validation of the carbon capture and 
+methanation technology.  With a production  capacity of 12 million tons/year,  PETRONOR is the biggest 
+refinery in Spain. Among their objectives as a company, the following stand out: continuous quality 
+improvement and commitment to minimise environmental impacts. Within this deployment, PETRONOR 
+provides e-fuels and electrolysis infrastructure, a key asset for the decarbonisation of the Basque country.  
+SIDENOR is a leader in the steel sector and supplier of calibration products. They will contribute to the 
+demonstration of oxycombustion and H 2 in the steelmaking process, support the investigation of the 
+potential carbonation of steel waste for other sectors, and finally will provide consumption/generation data 
+and validate industrial feedstock. CABB is the public u tility in charge of supply and sanitation, for 
+approximately one million inhabitants. CABB owns and operates Galindo WWTP (wastewater treatment 
+plant) which produces around 93 Hm3 per year of treated water. The sludge produced in this plant is burned 
+in the incineration industrial furnaces located at the WWTP. Due to this incineration CO 2, among other 
+gases, are expelled to atmosphere and could be recuperated. Finally, SBS, develops technologies that 
+provide solutions to waste management problems. SBS is th e High Efficiency Contact technology, a 
+patented technology that allows the thermal treatment of all types of waste, improving the process 
+conditions to maximize the desired products (greater efficiency) with a lower consumption of energy 
+resources (greater efficiency) developing a more sustainable heat treatment processes, such as pyrolysis, 
+gasification, drying or roasting.  
+  
+TURKISH HUB PARTICIPANTS (Turkey)  
+Operating four oil refineries with a total of 30 million tons annual crude oil processing capacity, TUPRAS 
+is the first producer in Turkey’s refining sector and largest industrial enterprise of the country with its 
+subsidiary in sea transportation, Ditaş, its subsidiary in railway transportation, KUAŞ (Körfez Ulaştırma 
+A.Ş.) and affiliate in fuel oil distribut ion sector, Opet. The company, prioritising long -term sustainable 
+investments with low carbon emissions in its plans, takes steps to fulfil its respon sibilities, especially in 
+achieving the goals set within the scope of environmental policies such as the Paris Agreement. TUPRAS 
+approaches the investments as the key to a sustainable high performance. With this approach, thanks to 
+the investments to save energy and reduce emissions, annual energy savings and reductions in CO 2 
+emissions are achieved at TUPRAS. In IS2H4C, they will provide H 2 and CC processes to develop 
+polymers. In the hub, TUPRAS will be site demonstrator of the innovative technologies inc luding the 
+valorisation of captured CO 2 and green hydrogen in the production of fossil -free polymers. ARCELIK is 
+the third largest company in home appliances sector in terms of total sales in EU. ARCELIK innovates 
+  
+ Associated with document Ref. Ares(2023)8308660 - 05/12/2023 
+Project: 101138473— IS2H4C – Part B – 61  
+products and services to reach a closed circular economy by increasing products’ recyclability rates, the 
+usage of recycled content in products and their packaging, reusing products and parts, eliminating 
+potentially harmful substances, and by effectively managing the end-of-life processes including take-back 
+and recycling. BioFridge is made using both biobased polyurethane insulation material (Bio -Cool) and 
+biocomposite raw materials that contain organic material such as soy and castor oil. In this project , 
+ARCELIK will use a polyurethane insulation material made from captured carbon dioxide in refrigerators 
+instead of a petroleum-based polyurethane, in addition to the use of recycling and biomaterials to reduce 
+the carbon footprint.  FHG is the world’s leading applied research organisation on fields such as 
+bioeconomy, AI, next generation computing, resource efficiency and climate technologies, and H 2 
+technologies. In IS2H4C, FHG will produce e-methanol from CC to support the polymer production process 
+of TUPRAS.  
+  
+DUTCH HUB PARTICIPANTS (The Netherlands)  
+H2HT is a physical place where entrepreneurs, governmental organisations, research & knowledge 
+institutions collaborate to develop applications of H 2 technology. Knowledge & experience is gained 
+through research and infrastructure test projects. Applications include: Setting up (pilot) projects in the field 
+of generation & storage, mobility, high-temperature combustion and  industrial processes. ALMELO as the 
+first-of-a-kind Positive Energy District in Twente will allow for local balancing reducing energy d istribution 
+over longer distances, facilitate peak shaving and load shifting using concepts of demand response and 
+reduced curtailment of renwable energy resources, and district -level self-consumption. SOLENCO is the 
+manufacturer of scalable, modular, green H 2 conversion systems to store renewable energy for days, 
+weeks and even months, to produce power and heat. SOLENCO enjoys worldwide rights over its patented 
+technology for a reversible fuel cell, a bipolar electrode and a unique application. Solenco wil l contribute 
+to the Dutch Hub by providing knowledge regarding H2 processes.   
+  
+OTHER PARTICIPANTS  
+IS2H4C is supported by a strong pillar of research centers and universities, leaders in circularity in EU as: 
+MUL addresses social challenges in the areas of resources, climate, energy and environment is a key 
+priority, therefore they work together to develop technical and scientific to support the adaptation of social 
+behaviour. Within IS2H4C,  AEE work alongside MUL to provide key knowledge for the identification and 
+analysis of technologies. ZLC is a research and educational institute established in Logistics a nd Supply 
+Chain Management, which is also the role they play in IS2H4C, by the Government of Aragon in Spain. 
+TUDO (German Hub participant) is particularly distinguished in the research fields of (i) society and 
+transformational processes and (ii) innovations for sustainability. IS2H4C has the participation of Dr. 
+Michael Kohlgrüber associate researcher at the new scientific institution of  TUDO “Social Investigation 
+Centre Dortmund (SFS german acronym)”. IS2H4C is supported by a deep experience group of entities. 
+EEIP is specialised in smart B2B content marketing and communication, dissemination and exploitation 
+activities. EEIP is an active partner of HE projects such as CORALIS, RETROFEED, RE4iNDUSTRY and 
+DEESME. Together, EEIP and CHX collaborate in the implementation of activities for WP8 (DEC) to 
+enhance IS2H4C’s expansion across EU. CHX is a pan-EU Open Innovation Network with more than 600+ 
+member organisations, selected research organisations, SMEs, and industries, from 57 countries, and is 
+present in all EU member states. The network membership delivers 13,000+ collaborative international 
+projects (23% as project coordinator), highlighting the quality of its membership base. IMMIB is a 
+professional establishment in affiliation with Ministry of Trade, Republic of Türkiye. They have a vast 
+experience in fairs and exhibitions, B2B meetings, market research activities, seminars, trainings, 
+workshops, educational activities. Other key entities of the consortium are: IRIS, a leading EU company in 
+manufacture of photonic and artificial intelligence solutions for the control of industrial and production 
+processes in real time. IRIS is a current member of SPIRE and has participated in diverse projects such 
+as SHAREBOX and SCALIBUR, where they integrated AI solutions such as advanced machine learning, 
+agent-based modelling and big production data, among others. In this deployment,  they are in charge of 
+developing the digital collaboration platform, to optimise the data transfer between the companies involved. 
+WDK will support the platform development with their experience in management software in WP7. ICCS 
+is a research institute linked to the National Technical University of Athens and is the research host of the 
+School of Electrical and Computer Engineering. ICCS aims to promote research and development in the 
+areas of hardware and software technology, digital communication technologies, information systems and 
+  
+ Associated with document Ref. Ares(2023)8308660 - 05/12/2023 
+Project: 101138473— IS2H4C – Part B – 62  
+management decision technologies, among others. KPMG operates as a global network of independent 
+member firms offering audit, tax and advisory services; working closely with clients. KPMG Tax Incentives 
+and Assurance teams, in Portugal, have an international network, which can help organisations better 
+understand the complexities of EU law,how this can impact their business, and how to leverage 
+opportunities. KPMG has a multidisciplinary team with technical knowledge acquired across several 
+different focus areas, specifically business development, investment analysis, tax incentives advice, R&D, 
+together with strong knowledge on how to commercially exploit innovative solutions and introduce them 
+into market, in diverse sectors such as environment, climate, biotechnology, and health.  
+  Figure 13. Role of partners in IS2H4C  
+ 
+  
+ International Advisory Board  
+ IS2H4C is being supported by an international Advisory Board which will ensure the expansion of the 
+project covering different advisory areas as it is possible to be analysed in the table 16. :   
+Table 16. IS2H4C's International Advisory Board  
+Advisory Board Entities  Key sector to support  - IS2H4C  
+Veolia Environnement S.A  Solid waste and wastewater treatment, pyrolysis, waste energy 
+management  
+EU Sustainable Energy Innovation 
+Alliance  
+Dissemination of findings, reach-out to entire Europe, event 
+organisations  
+CEN CENELEC  Standardisation activities  
+Boden Industrie Park  H2 for steel, electrolysis, wind energy  
+Sapienza University of Rome  IS information-sharing platforms, circular economy models, consumer 
+acceptance  
+Technical University of Denmark  
+Energy systems, forecasting, decision support tools, energy markets, 
+district heating  
+Politecnico di Bari  Industrial symbiosis, operations of IS networks  
+University of Windsor  Integrated energy systems, wind energy, waste-to-energy  
+University of Texas, Dallas, USA  Information systems and finance  
+
+ 
+Project: 101138473— IS2H4C – Part B – 63  
+  
+General  
+During the execution of the IS2H4C project appropriate occupational health and safety will be followed by 
+all researchers. The beneficiaries will ensure that all ethics issues related to activities in the grant are 
+addressed in compliance with ethical principles, the applicable internationa l and national law, and the 
+provisions set out in the Grant Agreement. This includes the ethics issues identified in this report and any 
+additional ethics issues that may emerge in the course of the grant. In case any substantial new ethics 
+issues arise, b eneficiaries should inform the granting authority. In the following sections the IS2H4C 
+consortium's ethical approach towards, personal data, non-EU countries, Environmental health and safety, 
+Artificial Intelligence as well as Recommendations and adoption of the Ethics Summary Report outcomes 
+will be outlined.
+4.1 Personal data  
+IS2H4C will adhere to legislative requirements of the General Data Protection Regulation. In case any 
+activity of project requires the collection and processing of personal data during the project lifetime, the 
+beneficiaries collecting, processing and hosting the  data will fulfil the specific laws (i.e. General Data 
+Protection Regulation, GDPR, EU2016/679) This will also be safeguarded in close cooperation with the 
+Data Protection Officer (DPO). The beneficiaries confirm that they are aware of the following  rules for 
+collection and processing of personal data:  
+• The host institution must confirm that it has appointed a DPO and the contact details of the DPO 
+are made available to all data subjects involved in the research. For host institutions not required 
+to appoint a DPO under the GDPR a detailed data protection policy for the project must be kept on 
+file.  
+• A description of the technical and organisational measures that will be implemented to safeguard 
+the rights and freedoms of the data subjects/research participants must be submitted as a 
+deliverable.  
+Detailed information on the informed consent procedures in regard to data processing must be kept on 
+file.
+4.2 Non-EU countries   
+In case any activity of project requires to be performed in a non -EU country, also these activities will be 
+performed according to highest ethical standards, and applicable international, EU and national law, also 
+taking all relevant ethical aspects into account.
+4.3 Environmental health and safety   
+IS2H4C does not raise considerable risks to health and safety of researchers and participant and does not 
+involve the use of potentially harmful substances, processes, technologies, organisms or materials in a 
+manner that raises significant concerns about individual security or safety or the protection of public health. 
+UT (Coordinator) complies with National and European legislation on Protection of Environment and 
+Occupational Safety. All IS2H4C’ partners have their own Occupational Health and safety procedures that 
+comply with their national legislation.
+4.4 Artificial intelligence   
+The EC’s Artificial Intelligence Act will be applied. This act outlines new rules & actions aiming to turn EU 
+into the global hub for trustworthy AI, whereby by setting the standards, EU can pave the way to ethical 
+technology worldwide & remains competitiv e along the way. Following the Ethics Guidelines for 
+Trustworthy AI trustworthy:   
+i) lawful - respecting all applicable laws and regulations,  ii) 
+ethical - respecting ethical principles and values and  iii) robust - 
+4 ETHICS SELF-ASSESSMENT    Associated with document Ref. Ares(2023)8308660 - 05/12/2023 
+
+ 
+Project: 101138473— IS2H4C – Part B – 64  
+from a technical perspective while considering its social 
+environment.
+4.5 Recommendations and adoption of the Ethics Summary Report outcomes  
+The work package WP9, dedicated to Ethics has been added to the work plan of the project. The IS2H4C 
+consortium will appoint an independent external Ethics Advisor (EA) who has proven competences and 
+expertise, providing advice on the ethical aspects appropriate to the complexity of the ethical aspects, in 
+the project context at project start. The mandat e of the EA would e.g. include an advisory role and 
+assessments concerning the ethical merits of the work performed and providing independent 
+recommendations. The exact details of the mandate will be outlined in a Memorandum of Understanding. 
+The recommendations of the Ethics Advisor will be followed up closely and all activities performed in 
+relation to ethics will be summarised in a report.   
+  
+  
+ 
+ 
+Grant Agreement number: 101138473 — IS2H4C — HORIZON-CL4-2023-TWIN-TRANSITION-01 
+ Associated with document Ref. Ares(2023)8308660 - 05/12/2023HE MGA — Multi & Mono: v1.0 
+ANNEX 2

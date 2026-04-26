@@ -1,0 +1,148 @@
+2.1 Expected impacts  
+The process industry is a key one for the European economy (contributing to the EU Jobs and Growth agenda 
+with 6.3 million jobs directly created and further 19 million indirectly created in Europe) 31. SPIRE PPP aims 
+at boosting investments in Europe generating global competitiveness for EU Process Industries, better jobs and 
+welfare for its citiz ens. In order to do so, SPIRE PPP envisions “Connecting the dots – investing for smart 
+integration of process industries across Europe”. AI and BD can play a key role in connecting the dots for 
+Process Industry. AI-CUBE will accelerate the take -up of AI and BD in this industry, thus translating into a 
+cascading effect that will create value across Europe and down to the end users.   
+  
+Expected impacts from the Work Programme  
+AI-CUBE project will address the expected impact in the following way:  
+Expected impact  AI-CUBE impact  
+Better exploitation of AI potential for all the 
+different sectors in the process industries, and 
+strategies for developing AI applications, 
+including the generation of data  
+AI-CUBE consortium will apply a MAMCA methodology to 
+guarantee the involvement of wide stakeholder numbers who will 
+contribute in the validation of the roadmap and guidelines resulting 
+from the project activities. These stakeholders will also contribute to 
+the definition and validation of conc epts and constructs throughout 
+AICUBE development. This deep stakeholder involvement aims at 
+achieving a widely shared understanding of AI and BD technology 
+potential in the process industry, but also detecting procedures and 
+steps for those technologies i mprovement and effective application, 
+along with the identification of the necessary ecosystem (e.g., 
+technological coupling, infrastructures, expertise, etc.) capable of 
+boosting data -driven technologies application, scaling and diffusion 
+across industry sectors and value chains.  
+ 
+31 SPIRE 2050 Vision https://www.spire2030.eu/sites/default/files/users/user85/Vision_Document_V6_Pages_Online_0.pdf  
+  
+
+   
+  
+Identification of existing and future data 
+requirements for the development of data 
+driven technologies (eg. ontologies and data 
+formats, how to handle data heterogeneity, 
+data availability, quality and reliability, 
+access and p latforms, security and 
+confidentiality)  
+The above -mentioned collaboration with stakeholder of the sectors, 
+identified through a dedicated analysis, will guarantee the involvement 
+of actors with experience and knowledge of data -driven technologies 
+and of t he requisites they need to present, i.e. specs that data need to 
+meet in terms of formats, availability, quality and reliability, etc.   
+AI-CUBE activities will identify the methods, tools and processes 
+already available to acquire relevant data; the processes through which 
+firms can identify the type of information necessary to improve 
+financial, operational, and environmental performance; the potential 
+contribution of AI to the collection and analysis of such data / 
+information and its involvement in the decision-making processes.  
+Seamless collaboration of human operators 
+with process control systems and plants: 
+acceptance, identification of skills gaps and 
+ethical, legal & social implications (ELSI)  
+AI-CUBE identifies existing and possible fields of machine -
+humaninteraction (HMI) along with interviews. Workshops with 
+experts are used to point out on respective acceptance levels and 
+necessities to develop specific skills and adaptation of technologies to 
+allow further integration of HMI.  
+AI-CUBE will dedicate Task 4.4 to the revisi on of the ethical, legal 
+and social implications of AI and BD developments. This task will 
+revise the required skills for a seamless collaboration of human 
+operators and will analyse the current skill gaps in the industry to get 
+ready for new implementation.   
+Implementation and further elaboration of the 
+strategic research and innovation agenda  
+AI-CUBE embraces the combination of several methodological 
+approach, including systematic analyses of the extant literature,  
+  
+announced in the EC Communication on  
+Artificial Intelligence   
+technological trends, and stakeholder landscape, along with the 
+application of MAMCA, to widely involve sector stakeholders in the 
+formulation of constructs and their validation, and ELSI, to detect 
+potential AI and BD technologies impact on society, values and human 
+rights. This combination of approach and perspectives considered will 
+provide a thorough understanding of the factors driving AI and BD 
+technologies application in the process industry, and the potential 
+barriers hindering their development and diffusion. Furthermore, 
+AICUBE activities will shed light on the  wider socio -economic-
+cultural impact that data -driven technologies can have. All these 
+elements together allow the drafting of comprehensive roadmap not 
+only to foster further application of the technologies, but also to guide 
+strategic decision making both at the research and policy level, on the 
+elaboration of RD&I activities in Europe.  
+  
+Expected impacts of data driven technologies on process industry  
+Process industries are working in a “brown field” environment (as opposed to “green field” applications which 
+means in a new -build factory), which means that existing plant, control and IT -systems cannot easily be 
+replaced completely by new solutions. Therefore, interfaces between new systems and existing equipment are 
+necessary. Keywords in this field are SCADA, MES -MOM, ERP, ISA95/IEC62264, Data Warehouse, Data 
+Lakes, Cloud Computing, Edge Computing, noSQL, and Streaming technologies, etc.  
+In combination with the data and information collection, the problems of the amount, quality and reliability of 
+data must be mentioned. In this sense, the demands of process industries are extremely high because any kind 
+of wrong decisions related to little or poor data could lead to unstable production processes with unforeseeable 
+and potentially dramatic consequences. Appropriate solutions to handle situations of poor data quality in an 
+industrial environment do not exist today and are one of the main research needs for the future.  
+Up to now, typically only case-specific solutions have been developed and implemented, while no systematic 
+approach exists to develop solutions for different types of problem and roll out these solutions subsequently to 
+all possible application examples. This is strongly conn ected to the project -based implementation of AI 
+solutions, with the consequence that no systematic long -term maintenance, update and re -check of the 
+deployed AI solutions after the end of the project is undertaken.  
+ 
+  
+  
+Potential barriers, obstacles or factors endangering the achievements of the expected impacts  
+  
+Potential barriers, obstacles or 
+factors  
+Measures to be undertaken  
+Human: lack of the skilled 
+personnel needed to implement  
+AI and BD  
+WP3-T3.2 will identify technological gaps and implementation challenges as well 
+as possible skill gaps with regard to human-machine-interaction.  
+In the roadmapping phase 3 (WP4 -T4.3), results from the previous task will be 
+translated into development needs and recommendations in terms of skills, data 
+and RD&I requirements.   
+WP4-T4.4 will identify the skills required to allow a seamless collaboration of 
+human operators  
+Organisational: lack of a 
+competitive business case, clear 
+and with strategic vision  
+WP4 will define AI and BD driven Business Cases and Business Models for the 
+process industries of the future. A mapping of the future Business Cases and 
+Models against the current STATUS (WP3) will be carried out to establish gaps 
+and development needs per SPIRE process industry sector and per 
+macroapplication process areas.  
+Technological: unbiased data, 
+lack of interoperability and 
+cybersecurity  
+T3.2 will result in concrete application possibilities developed individually for 
+each sector. The task also identifies possible barriers for the use of an AI methods 
+& BD technologies in each industry sector along with the transfer of solutions 
+between the sectors. T3.2 provides an overview of the major challenges faced in 
+the introduction of AI and BD methods and identifies areas in which overcoming 
+these challenges result in an increasing economic value.  
+Legal: lack of regulation in 
+security and privacy  
+T4.4 is devoted to the revision of the ethical, legal and social implications of AI 
+and BD developments, considering the values encoded in algorithms, the need to  
+ evaluate outcomes, and issues of bias and transferability, data ownership, 
+confidentiality and consent, and legal, moral and professional responsibility. The 
+potential effects for clients and different actors in the supply chain (human 
+operators), including privacy.

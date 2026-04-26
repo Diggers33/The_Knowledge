@@ -1,0 +1,1859 @@
+1. 1 million addition al used spare parts accessible for remanufacturing in Europe (Calculated for 
+Automotive Remanufacturing Industry). 
+2. Net material saving: 6000 tons (avg. used part weight 6KG) 
+3. Net CO2 saving: 4500 tons CO2-eqv (avg. CO2 saving 4.5 kg/part) 
+4. € 20 million worth of value available to the value chain actors to exploit 
+5. Create portals for at least 2 different user -goups (e.g. “remanufacturers”, “wholesalers”, Buying -
+groups”, …) 
+6. Validate functionalities and relevance by user-testing with users of at least 2 different business-domains 
+per user-group (e.g. for user -group “remanufacturers”: Feedback from users from logistic -department, 
+commercial-department, sustainablility-department,…) 
+7. Apply AR-support in sorting-process in at least 1 of C-ECO’s location and collect user-feedback 
+8. Reduce sorting-errors by 20% 
+Stream 3: Integration and creation of standards 
+The parts of the circular value chain corresponding to value use and recovery many challenges such as complex 
+product design, lack of used parts availability and information, unfavourable consumer perception, absence of 
+appropriate reverse logistic networks, and lack of standard definition. The lack of standards is considered the 
+most crucial barrier19 impacting, above all, remanufacturing. 
+Specifically, remanufacturing differs from other recycling procedures because it returns product quality to the 
+OEM’s performance. It builds a sustainable supply chain, beginning to end, because it requires fewer resources (40% 
+energy, 30% material and 50% cost)20 than new products and is environmentally friendly by design. 
+DiCiM proposes integrated digital solutions to support the implementation of the Circular Manufacturing Systems. 
+However, there is a need for standards that ensure the remanufactured parts become accurate in design and quality, 
+is consistent every time it is bu ilt, confidently inspected, and tested, and is easily maintained and retrieved due to 
+their stored information history. Standards are also essential for the software solutions to ensure data 
+interoperability across the value chain. Part of the efforts for DiCiM project will involve integration with current 
+standards where they are available, identification of the gap in standards and creation of new ones, when necessary, 
+as summarised in the following table: 
+Table 7: Current standards21 and project contribution 
+Challenge Standards DiCiM project contribution 
+Product design 
+Design standards BS 8887 and BS 7000. 
+BS8887: Design for manufacture, assembly, 
+disassembly, and end-of-life processing 
+(MADE) Part 3: Guide to choosing an 
+appropriate end-of-life design strategy. ISO 
+AR to support repair, remanufacture, sorting 
+etc.  
+Design for circularity (to imagine not only 
+how a product will be built, but how it will 
+be rebuilt). With remanufacturing in mind, 
+ 
+19 Yang, S.; Raghavendra, M.R.A.; Kaminski, J.; Pepin, H. Opportunities for industry 4.0 to support remanufacturing. Appl. Sci. 2018, 8. 
+20 Chinese Characteristic Remanufacturing Industry and Its Innovation Development. Electric Welding Machine. Available online: 
+https://en.cnki.com.cn/Article_en/CJFDTotal-DHJI201205003.htm. Accessed: 22 Feb. 2022 
+21 Pratapa, P.; Subramoniam, R.; Gaur, J. Role of Standards as an Enabler in a Digital Remanufacturing Industry. Sustainability 2022, 14, 1643. 
+https://doi.org/10.3390/su14031643  
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 16 of 45 
+9001:2008 or ISO 13485:2003 can evaluate 
+the quality of recycled parts. 
+designers may change the materials and 
+coatings they chose, as well as the 
+accessibility and layout of parts. 
+Used parts 
+availability 
+RIC ANSI standard (RIC001.1-201622) 
+identifies and inspects the device for 
+reusability, which also includes disassembly 
+and inspection of the parts to ensure 
+conformance to OEM standards. 
+We include IoT and DLT to support product 
+tracking that contributes to the availability of 
+used parts. 
+Used parts 
+quality 
+management 
+Newly published ISO 20245:2017, cross-
+border trade of second-hand goods, as a 
+point of reference for governments to 
+establish minimum screening criteria for the 
+trade of second-hand goods across borders. 
+Product tracking using IoT will provide 
+insights into the conditions a product was 
+exposed to including accidents, for example, 
+before used parts acceptance. 
+Negative 
+perception of 
+remanufacturing 
+ISO 14020 details environmental labelling 
+best practices: performance verification 
+through third-party certifications and 
+environmental labels will significantly 
+improve the credibility of remanufacturers 
+and convince the consumer of the recycled 
+product quality.  
+DiCiM provides information to customers to 
+improve satisfaction and create product 
+trust in the consumer, considering 
+differences in consumer behaviour to make 
+more effective dissemination and 
+communication campaigns. More info in 
+section 1.2.5 
+Lack of 
+internationally 
+accepted 
+definitions and 
+protocols 
+RIC001.1-201622 addresses concerns 
+related to a lack of a broad understanding of 
+the remanufacturing industry and addresses 
+each sub-process from used parts 
+acquisition to product labelling. ISO 20245 
+establishes minimum screening criteria for 
+cross-border trade of second-hand goods. 
+Heavily affects the import of used spare 
+parts into the different countries. 
+Product tracking using IoT will provide 
+insights into the conditions of the product, 
+cross-country operations and more to help 
+identify and improve confidence during the 
+international exchange of goods. 
+Reverse logistics 
+network 
+ISO/TC 323 committee has triggered 
+frameworks for circular economy models. 
+DiCiM provides a solution for OEMs, 
+SMREs, and dealers to have their circular 
+value chain managed as a service without 
+losing control or being burdened with the 
+effort and complexity of maintaining their 
+own reverse logistics structure. 
+Data integration 
+with other 
+departments 
+The ISO 15926 is a standard for data 
+integration, sharing, exchange, and hand-
+over between computer systems. Wide 
+availability of data models and reference 
+data libraries to create models. 
+The needs of different actors of the supply 
+chain to be integrated into the mainstream 
+planning using integrated ERP systems and 
+processes. 
+Data 
+infrastructure  
+Manufacturing Data Space initiative to 
+support data sharing among manufacturing 
+companies and with (service) providers, 
+which serves as a model to show how 
+sharing industrial data improves company 
+operations, enhances business 
+opportunities, and supports the transition 
+towards a circular economy.  
+The open access platform will be developed 
+as per the reference architecture model for 
+data sovereignty, decentral data 
+management, data economy and data 
+governance. This will ensure that the circular 
+economy data can be shared with 
+organisations beyond the DiCiM project.   
+Skill training, 
+talent, and 
+technology 
+ISO 9001 specifies requirements for a 
+quality management system within an 
+organization that can deliver products that 
+consistently meet customer and regulatory 
+requirements and improve customer 
+satisfaction. 
+DiCiM includes AR capabilities for value 
+recovery and sorting processes  
+ 
+22 RIC001.1-2016; Reman Standard. Remanufacturing Industries Council: West Henrietta, NY, USA, 2016. Available online: https://remanstandard.us/. Access 
+on 22 February 2022 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 17 of 45 
+ 
+1.2.2. Use case 
+All the challenges of the demonstrators described in Table 3-Table 6 have in common the need to access 
+transparent lifecycle information and to share that information along the value chain. This also includes integration 
+with other IT systems of the value chain actors to ensure data interoperability necessary for high quality value 
+recovery. This common challenge (within the demonstrators and beyond) is addressed by the open access digital 
+platform that DiCiM will develop. We highlight some key use case examples of the open access digital platform: 
+Table 8: Use case examples for DiCiM open access digital platform  
+ Digital infrastructure needs DiCiM Development 
+Gorenje, Lexmark, Arcelik 
+OEMs must coordinate with hundreds of SMEs to 
+receive information about the parts they supply 
+(material compositions, sources, etc.) to enhance 
+value recovery activities. Most of them do not have 
+structured data repositories and supply unstructured 
+data by telephon e or e -mail, which OEMs needs to 
+manually process, analyse, and archive. There is a high 
+risk of incomplete or lost information.  
+OEMs send a secure DiCiM data request via a URL, 
+which contains a structured template for the data 
+collection required from its suppliers.  
+Suppliers must enter all data in mandatory fields 
+until they can share the (now structured) data with 
+OEMs. The data gets immediately integrated into 
+OEMs’ internal repositories for easy storage and 
+retrieval.  
+OEMs want to store all documents and instructions 
+related to value recovery activities in a secure 
+platform that is connected (for data exchange) to the 
+ERP systems but independent to avoid external parties 
+accessing OEMs’ internal platform.  
+OEMs store relevant information about the value 
+recovery activities in the DiCiM platform. 
+Lexmark 
+Different divisions of Lexmark have done Life Cycle 
+Assessment (LCA) of products and their value chains. 
+But the information is scattered and often difficult as 
+well as time-consuming to access.  
+Lexmark makes LCA results available on the 
+DiCiM platform and new LCA results are uploaded 
+on DiCiM platform. 
+Lexmark does not have access to the lifecycle 
+information of the products that are sold through 
+distributors. Although Lexmark’s distributors collect 
+and store this information on their local server, it 
+cannot be shared due to interoperability issues 
+between distributors’ and Lexmarks’ IT systems.  
+DiCiM creates a gateway for the distributors to 
+share the information instantly.  
+Gorenje, 
+Lexmar
+k To optimise the supply chain the OEMs want to keep 
+a track of products (based on conditions and AI) that 
+need to be brought back over time 
+DiCiM platform collects this information from the 
+IoT platform and makes this amiable for the OMEs 
+to coordinate and optimise return logistics. 
+Gorenje, Lexmark, 
+Arcelik 
+To optimise the spare parts inventory OEMs want to 
+keep a track of spare parts sourced from the returned 
+products 
+DiCiM platform collects this information from the 
+shop floor after components are recovered and 
+based on this information the OEMs can create a 
+long-term spare parts planning. 
+To match the supply and demand of the refurbished 
+and remanufactured products OEMs needs to keep a 
+track of the inventory of the refurbished and 
+remanufactured products.  
+DiCiM platform collects this information from the 
+shop floor after products are refurbished and 
+remanufactured and based on this information the 
+OEMs can create a long-term spare parts planning. 
+Repair Shop 
+An independent repair shop has received a washing 
+machine produced by Gorenje and a fridge produced 
+by Arcelik . To efficiently repair these products the 
+mechanic needs repair manuals.  
+The repair shop opens an account in the DiCiM 
+platform and requests to get access to Gorenje and 
+Arcelik’s information about the value recovery 
+activities. Each company review the request and 
+prepare a digital contract for the Repair Shop. 
+After signing th e contract, the Repair Shop 
+receives access to the desired information. 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 18 of 45 
+Core brokers 
+C-ECO offers the service to manage used parts return 
+for producers/remanufacturers from the market 
+basing on financial incentives. To give them control on 
+the reverse value chain, but do not burden them with 
+the full complexity C-ECO needs t a comprehensive 
+point-of-information to provide supply -chain-, 
+commercial- and product -oriented information and 
+from where missing core-supply can be identified and 
+propagated to the market.  
+C-ECO uses the planning information originating 
+from its data out of the incentive system in DiCiM 
+platform to identify core-demand and create core 
+return options to cover this demand. This is done 
+by using the Signifikants PIM-data via the DiCiM 
+platform. The core return -options are then 
+interlinked into Signifikants spare -parts-platform 
+and transferred to its users in the event of relevant 
+core-returns. Now the ‘options’ are available to a 
+wider network of potential core suppliers and 
+reman-producers can control the brokers. 
+An individual core supplier in Signifikants spare 
+parts platform get s directly connected to this 
+demand in DiCiM platform where the ‘options’ are 
+available during his ordering process.  
+DiCiM platform 
+owner Signifikant sees that there is a shift in the business 
+model of the software industry. Selling a license and 
+later on selling maintenance and integration services is 
+becoming history for the software industry.  
+To capture the current trend Signifikant makes the 
+DiCiM platform an open -access platform that is 
+free for users to open an account as well as assess 
+publicly available information. The users can also 
+store relevant information for free. 
+Signifikant charges the user of the platform a fee 
+only when information is exchanged with other 
+users on the DiCiM platform.  
+Platform affordable to SMEs business model.  
+Consumer There is legislation in the discussion which insists that 
+a consumer who wants to repair a product he/she 
+should have the opportunity to do so. The OMEs need 
+to make repair manuals and video instructions etc. 
+available for the consumers. 
+The consumers open an account on DiCiM 
+platform to access the publicly available 
+information about the repair of appliances. 
+1.2.3. National and international research & innovation activities linked to the project 
+We have identified the most relevant projects with synergies to the DiCiM project and described how their results 
+could feed into our project: 
+Table 9: National and international research & innovation activities linked to the project  
+Project Partner Project description and cross-fertilisation opportunities 
+ReCiPSS 
+[H2020] 
+2018 - 2022 
+MU 
+KTH 
+C-ECO 
+SIG 
+GOR 
+HGE 
+In ReCiPSS, it was explored success factors for circular manufacturing systems in two 
+cases where OEMs have different levels of control over their value chains: one case with 
+full control, and one case with partial control. The project gathers 13 partners from 8 
+countries. It involves the study of multiple circular business models, it's virtual modelling, 
+simulation, and demonstration with two industry-driven large-scale key industries: white 
+goods and automotive spare parts.  
+DigiPrime 
+[H2020] 
+2020 - 2023 
+C-ECO DigiPrime has the mission to develop a new concept of Circular Economy digital platform 
+overcoming current information asymmetry among value-chain stakeholders, in order to 
+unlock new circular business models based on the data-enhanced recovery and re-use of 
+functions and materials from high value -added post-use products with a cross -sectorial 
+approach. In that context, C -ECO has developed a service for logistic optimization and 
+reverse-network configuration together with some partners out of the consortium. This 
+includes a mobile app which shall be used in the demonstration -phase by automotive 
+workshops to check in used parts combined with information on the last usage 
+environment of the part (the vehicle). Data is shared with remanufacturers via the 
+platform and use the data for logistic pick-up-planning and network-optimization. 
+C-ECO is the WP leader for the demonstration WP. The project involves 20 use cases 
+covering different European industrial sectors (automotive, renewable energy, electronics, 
+textile, construction). 
+CircThread 
+[H2020] 
+2021-2025 
+GOR 
+HGE 
+The CircThread project's main objective is to unlock access to data now in silo’s and 
+enhancing it as decision information for actors across and outside the extended product 
+life cycle. The core is to create data linkages between product chain, value chain , asset 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 19 of 45 
+chain and life cycle chains based on a Product information Catalogue and enable 
+information exchanges via data contracts governed by secure and reliable management 
+standards. All the developments create synergies with DiCiM project. 
+SerBiT 
+[Eureka] 
+2016-2019 
+ 
+ 
+KTH, 
+GOR, 
+SIG 
+Project to develop and verify an IT -platform to support the manufacturing industry in 
+implementing Service -Based Business Models (SBBM) in the context of Circular 
+Manufacturing Systems (CMS). The goal of the project has been achieved through three 
+unique developments, an IT platform, a prototype of a smart washing machine and an IoT 
+platform. All these developments work simultaneously in collecting, processing, and 
+sharing data in real-time and thereby, enable the implementation of SBBM. 
+ResCOM 
+[FP7] 
+2013-2017 
+KTH, 
+GOR 
+Innovative methodology and software platform for the industrial implementation of 
+closed-loop manufacturing systems. The generic requirements of the platform proposed 
+for implementation of closed -loop manufacturing and the data model used for the 
+management of the lifecycle of multiple products platform will be adapted in the DiCiM 
+project 
+5G-TIMBER 
+[HORIZON 
+EUROPE] 
+CHX 5G-TIMBER aims to conduct advanced field trials of the most representative and 
+innovative data-driven material, production, and installation flow by examples of small -
+volume manufacturing, across 4 industries under the umbrella of the wood industry. 
+Crowdhelix will create a new helix during the 5G-TIMBER project with links and synergies 
+with the DiCiM Digital helix.  
+EIBA 
+(Funding 
+reference 
+033R226)  
+C-ECO C-ECO is the co -ordinator of  this project which has received funding from German 
+federal ministry of education and research. Its goal is to use digital sensor-data, machine-
+vision, and artificial intelligence to identify used automotive parts for remanufacturing. The 
+system will be demonstrated in C-ECO’s network of inspection centres. 
+C-SERVEES  
+[H2020] 
+2018 - 2022 
+ARCE & 
+LEX 
+Lexmark is part of the project consortium, contributes to the project by setting demo 
+related to a circular economy business model, agreed within the C-Servees project. The 
+project aims to boost the circular economy, boosting remanufactured and refurbished 
+products in the electrical and electronic sector. Various activities ha ve been carried out 
+to examine new possibilities (e.g.: dismantling demo, refurbished printer testing with 
+customers, customer surveys, recycled material testing) 
+1.2.4. Interdisciplinarity and integration of social science and humanities  
+To create effective change that spurs a sustainable and responsive production environment and supply chains, we 
+built a consortium with knowledge from different disciplines. They combine expertise from different aspects of the 
+value-chain, including: 
+Table 10: Capabilities of the partners 
+Partner 
+Domain 
+MU 
+KTH 
+TUC 
+ULFS 
+IDE 
+IRIS 
+SIG 
+C-ECO 
+GOR 
+ARCE 
+LEX 
+CHX 
+APRA 
+ERC 
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 
+Data processing & analysis   X X X X  X X      
+Machine learning    X X X X X       
+Distributed Ledger Technology    X X  X        
+Reverse Logistics X       X X X X    
+Societal acceptance X        X  X X X X 
+Circular economy and supply chain X X  X   X X X X X X X X 
+Environmental assessment  X         X    
+Industrial production  X X      X X X    
+Re-manufacturing & recycling  X        X X    
+Business processes X X   X X X X X   X X X 
+1.2.5. Gender dimension  
+Consumers, through their actions and purchasing habits, can have considerable i nfluence on how products are 
+developed, delivered, used, and potentially reused. In this context, there are multiple studies that highlight a strong 
+gender dimension regarding consumption patte rns and environmental concerns. For instance, when selecting 
+electronic products, women prefer  those that have an end -of-life feature ( namely reuse, remanufacture, or 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 20 of 45 
+recycle)23. In general, women tend to follow a more sustainable approach in their attitudes, being more responsive 
+to the ecological and environmental considerations of product purchased and consumed, including their reusability 
+when there is a choice24,25,26. The OECD points out how “women can be key drivers of change, as consumers and 
+as decision-makers, in both the public and private sectors. Integrating gender equality is essential for the successful 
+implementation of a circular economy strategy”27  
+An attractive digital tool that has the capacity to support the engineering of a Circular Economy must support and 
+promote sustainable consumption practices that prioritise waste minimisation by extending product life. This can 
+only be achieved with a clear understanding of consumer behaviour. Targeting gender roles and behavioural 
+preferences in consumption as well as waste generation and prevention could be a key pillar in the transition to 
+the circular economy not only by reducing waste but also by addressing some gender inequalities28.  
+We regard it as crucial to address the differences in consumption patterns at the end-user level, as well as different 
+attitudes, perceptions, environmental attitudes. The project brings importance through joint and specific 
+dissemination actions. To engage all societal actors in the creation of good circular systems, through awareness -
+raising on sustainable consumption and encouraging participation in leadership and managerial roles. Data and 
+information collection tasks (such as co-creation workshops) will ensure that opinions and inputs of all genders are 
+collected and given equal weights. Both WP 8 and 9 will ensure that the gender dimension is ensured in project 
+management and exploitation and dissemination of results. 
+1.2.6. Open Science practices  
+The Open Science approach, following findable, accessible, interoperable, and reusable (FAIR) principles, has been 
+considered as the main pillar when planning the measures to maximise the reach of communication and 
+dissemination activities for DiCiM project. In the context of this project, scientific information refers to article pre-
+prints, peer-reviewed articles in scholarly journals, articles in conference proceedings, monographs, patents, and 
+research data (data underlying publications, curated data and/or raw data). 
+CHX, the dissemination leader, will establish the dissemination strategy from the start (dissemination plan available 
+by M6) of the project. It will include early and open sharing of research (through pre -registration, pre-prints and 
+registered reports), research output management including data management (as described in the section below) 
+and measures to ensure reproducibility or research outputs. 
+Pre-print versions of all articles will be deposited into multidisciplinary open access repositories , (mainly Zenodo, 
+more information in Table 11). Once published in a scholarly journal or a conference proceeding, the article's final 
+version will be immediately posted into the Institutional open repository. This repository will automatically feed 
+OpenAIRE with articles to ensure the largest possible  impact among researchers, policymakers and businesses . 
+DiCiM consortium members will publish peer-reviewed scientific articles in gold open access journals listed by the 
+Directory of Open Access Journals (DOAJ). Key partners have reserved a budget for article processing charges of 
+gold open access publications. 
+Each partner will ensure open access to the deposited publication (via the repository) within six months of 
+publication, assuming an electronic version is available without extra charge via the publisher. The partners will also 
+ensure access to the bibliographic metadata that identify the deposited publication (including terms under the grant 
+agreement, the name of the action, acronym and grant number; the publication date, and length of embargo period 
+if applicable, and a persistent identifier). All scient ific peer -reviewed articles will be published under Creative 
+Commons CC BY 4.0 license. Thus, the authors retain all the copyright of the article. However, the partners will 
+retain their copyright and grant adequate licences to publishers based on Creative Commons licenses. 
+1.2.7. Data management and management of other research outputs  
+Data management are part of WP9, which will start with the formal release of a Data Management Pan ( D9.3) at 
+ 
+23 Atlason, R., D. Giacalone and K. Parajuly (2017), “Product design in the circular economy: Users’ perception of end-of-life scenarios for electrical and 
+electronic appliances”, Journal of Cleaner Production, Vol. 168, pp. 1059-1069, http://dx.doi.org/10.1016/j.jclepro.2017.09.082. 
+24 Kaenzig, J., S. Heinzle and R. Wüstenhagen (2013), Whatever the customer wants, the customer gets? Exploring the gap between consumer preferences and 
+default electricity products in Germany, Energy Policy, Vol. 53, http://dx.doi.org/10.1016/j.enpol.2012.10.061. 
+25 Khan, N. and P. Trivedi (2015), Gender Differences and Sustainable Consumption Behavior, http://www.eajoutrnals.org. 
+26 Bulut, Z., F. Kökalan Çımrin and O. Doğan (2017), Gender, generation and sustainable consumption: Exploring the behaviour of consumers from Izmir, 
+Turkey, International Journal of Consumer Studies, Vol. 41/6, pp. 597-604, http://dx.doi.org/10.1111/ijcs.12371. 
+27 OECD (2021), Gender and the Environment: Building Evidence and Policies to Achieve the SDGs, OECD Publishing, Paris, https://doi.org/10.1787/3d32ca39-en. 
+28 OECD (2020), Session 5, Gender-specific consumption patterns, behavioral insights, and circular economy, 2020 Global Forum on Environment, Paris, 5-6 March, 
+http://www.oecd.org/env/GFE-Gender-Issues-Note-Session-5.pdf.  
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 21 of 45 
+M6. The project will follow the open data management guidelines of the Horizon Europe Programme, namely: 
+• The project will deposit the research data in a research data repository that facilitates linking publications and 
+underlying data through persistent identifiers and data citations, such as EPOS data and service repository, of which 
+the CSC IDA repository is an integral part. 
+• The project will enable third parties to access, mine, exploit, reproduce and disseminate (free of charge for any 
+user) these research data by attaching Creative Commons Licences to the data deposited. 
+• The project will provide information via the research repository about the tools available to the users that are 
+needed to validate the results (e.g., specialised software or software code, algorithms, and analysis protocols). 
+Wherever possible, the project will also provide these instruments. 
+To maximise dissemination  impact, we will include a policy to make  all project deliverables labelled as “public” 
+(Chyba! Nenalezen zdroj odkazů.) and related datasets freely available on the project website. A publishable v
+ersion of the document will be produced and shared on the project website in all other cases. 
+Table 11: Data management methodology and tools 
+DATA SUMMARY 
+Data purpose: Our project will collect and generate product and socio-economic data related to the Circular 
+Economy within the target of interest in the automotive, electronics and whitegoods sectors. Relevant data 
+will be placed in open repositories after a period of grace for the consortium members to properly curate and 
+assess whether some results are sensitive in nature, given the strategic importance of  the production 
+environments and supply chains. 
+Data origin: The project data may originate from open databases; 3rd party suppliers or industrial pilots. We 
+will ensure that we sign formal open data sharing agreements with all parties for those datasets we would like 
+to place in open repositories. 
+Data utility: We expect that our open datasets will be useful to 1) researchers (to progress the state -of-the-
+art further), 2) industrial partners (to improve the data exchange among value chain actors ), and 3) public 
+authorities (to support them in defining their role as promoters, facilitators and enablers). 
+FINDABILITY 
+Discoverability: Open datasets will be made findable with persistent links and a clear metadata schema 
+Persistent identifiers: We will use the ORCID reference (Open Researcher and Contributor ID) for 
+researchers in our team. ORCIDs are valuable because they connect all researcher’s outputs regardless of the 
+author’s name or affiliation changes. For digital research materials, we will use the Direct Object Identifier 
+(DOI). It can be assigned to articles, datasets, or any other shared project output.  
+Naming conventions: For public project documents, the parent file will be the title of the work package, and 
+each work package file will contain a minutes file as well as files for each task within the work package. The 
+minute's file will contain the meeting minutes for the work package, while the task files will contain documents 
+pertaining to that task’s activities and may potentially contain an additional minute file containing meeting 
+minutes specific to that task. 
+ACCESSIBILITY 
+Data repository: Zenodo29 repository has been chosen as the main platform to upload all public data sets 
+and scientific publications. Additionally, we will consider other platforms, such as the European Open Science 
+Cloud (EOSC), the European Data Infrastructure (EDI) and the Open Research Europe publishing platform. 
+Open data and access methods: Zenodo enables FAIR practices by creating a persistent digital object identifier 
+(DOI) for each item, making them easily citable, it complies with DataCite's Metadata Schema, which is one of 
+the broadest cross-domain standards available and, as the servers are hosted at CERN, the data and metadata 
+will be retained and maintained by and for the lifetime of the laboratory. 
+INTEROPERABILI
+TY 
+Metadata vocabularies, standards and methodologies  according to the purpose: (i) Descriptive metadata to 
+help users discover and identify a resource (e.g., Title, Abstract, Author, and Keywords).  (ii)Administrative 
+metadata to manage an information resource (e.g., provenance, processing, and rights information).  (iii) 
+Structural metadata describe the relationship between parts of an information resource, especially digital 
+resources, which often consist of multiple files.  (iv) Technical metadata to document technical attributes of 
+digital objects or resources.  (v) Preservation metadata to support and document the long -term digital 
+preservation of an information resource or digital object. 
+RE-USE Documentation: All our documentation will include basic information about the data that allow for its correct 
+interpretation and reuse by ourselves in the future and by other researchers (e.g., README file, README tab, 
+Data Dictionary, Codebook, Commented Code, Lab Notebooks, as applicable). 
+Licenses: Each dataset used in the project will be accompanied by a data license that details the permissions 
+associated with the use of that dataset. The licenses for each dataset will be stored in their respective 
+ 
+29 General-purpose open-access repository developed under the European OpenAIRE program and operated by CERN. Accessible at https://zenodo.org/  
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 22 of 45 
+repository, where they will be found in the respective dataset’s README and metadata file. 
+SECURITY Data can be made available within the project team and shared with partners and stakeholders via Zenodo. 
+The data is stored in Zenodo's entire technical infrastructure is located on CERN's premises which is subject 
+to CERN's legal status, which includes immunity from the jurisdiction of the national courts to ensure their 
+independence from the individual Member States. The servers are managed according to the CERN Security 
+Baseline for Servers, meaning e.g. remote access to our servers are restricted to Zenodo staff with appropriate 
+training, and the operating system and installed applications are kept updated with the latest security patches. 
+ETHICS 
+GDPR compliance: The project (and its data management tools) will be fully compliant with the General Data 
+Protection Regulation (GDPR) regulations laid out in Regulation (EU) 2016/679 of the European Parliament 
+and of the Council of 27 April 2016 on the protection of natural persons regarding the processing of personal 
+data and the free movement of such data and repealing Directive 95/46/EC (20) and respects regulations on 
+intellectual property rights (IPR) (24). Database access will be entirely anonymous. If a user wishes to use our 
+open repositories, they will be required to register an account. The user must provide their email address and 
+a password and grant their consent that their email address is processed and used for account -related 
+communications and management. In addition, data on the type of user (i.e., industry, research, etc.) will be 
+logged to provide the Consortium with key statistics on data access by final users. The user is free to revoke 
+their consent at any time, which would lead to the deletion of their account. 
+2. Impact  
+2.1. Project’s pathways towards impact 
+2.1.1. The big picture. 
+A circular business model is sustainable only if the value can be economically  and environmentally  
+recovered from the product.  
+In Europe, cross-sectoral activities to facilitate  knowledge transfer and promote the industry do  not exist in 
+remanufacturing - unlike in the  recycling industry. Our major competitors, the USA  and China, already have  a 
+common vision and strategy  for remanufacturing within their industrial landscapes30. European remanufacturing  
+could lose competitiveness against these more organised economies. As a result, there is a real need for a European-
+level solution to encourage remanufacturing throughout Europe. 
+By keeping components and their embodied material in use for longer, large environmental benefits can be realised; 
+for example, the remanufacturing of automotive components yields some 88% materials savings compared to using 
+a new product, with an associated 53% decrease in CO2 emitted and 56% lower energy requirement.  
+Further, securing reliable and undistorted access to certain ‘critical’ raw materials is a growing concern within the 
+EU to reduce the high risk associated with their supply. Remanufacturing has the ability to keep advanced 
+materials, including those termed as critical raw materials, within the economy. 
+In addition to its economic and environmental benefits, remanufacturing provides opportunities for the creation of 
+highly skilled jobs and economic growth. Despite these positives, remanufacturing is an undervalued part  of the 
+industrial landscape and an under-recognised, sustainable industry. 
+Remanufacturing faces many challenges such as complex product design, high cost of resources, lack of standard 
+definition, unfavourable consumer perception, absence of appropriate reverse logistics network and financials, and 
+lack of spare parts availability and information31. These challenges prevent this process from significantly impacting 
+sustainability and are addressed with a series of standards and frameworks. These standards make reman feasible 
+for organizations and even advance their green agendas under the UN. 
+Digital technologies, including the IoT and ML, can help smooth the implementation of reman ufacture standards 
+and allow for low-cost operations, price-sensitive markets, and cheap labour costs32. However, standards to resolve 
+these challenges are neglected today in research and practice. The lack of remanufacturing standards is considered 
+the most crucial barrier today33. 
+ 
+30 Parker, D., Riley, K., Robinson, S., Symington, H., Tewson, J., Jansson, K., Ramkumar, S. and Peck, D., 2015. Remanufacturing Market Study. [online] 
+Remanufacturing.eu. Available at: <https://www.remanufacturing.eu/assets/pdfs/remanufacturing-market-study.pdf> [Accessed 8 March 2022]. 
+31 Chakraborty, K.; Mondal, S.; Mukherjee, K. Critical analysis of enablers and barriers in extension of useful life of automotive products through 
+remanufacturing. J. Clean. Prod. 2019, 227, 1117–1135. 
+32 Ghoreishi, M.; Happonen, A. Key enablers for deploying artificial intelligence for circular economy embracing sustainable product design: Three case 
+studies. AIP Conf. Proc. 2020, 2233, 050008. 
+33 Pratapa, P.; Subramoniam, R.; Gaur, J. Role of Standards as an Enabler in a Digital Remanufacturing Industry. Sustainability 2022, 14, 1643. 
+https://doi.org/10.3390/su14031643  
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 23 of 45 
+The skills and knowledge of operators involved in value recovery operations, can also be improved by using AR 
+technology for a process traditionally considered as a non-value-added, such as disassembly or sorting operations. 
+This is a cost and time -efficient optimisation to improve the efficiency of the disassembly and sorting processes 
+performed by human operators and optimize the spare parts and core-retrieval process.  
+There is a lack of universally accepted specifications and standards for data, products, and business processes, 
+regarding the design, quality, manufacturing, and production of used products 30, which can lead to unauthorized 
+collection and illegal use of scrap parts, hurting remanufacturing reputation and efforts. As a result, there are 
+regulatory barriers preventing core parts to cross international borders due to a lack of clear distinction between 
+remanufactured products and refurbished products, pre -owned products in existing government policies and 
+regulations. The European Remanufacturing Network (ERN) further verifies that “An absence of an accepted legal 
+definition was found to exacerbate this issue on a global scale"30, presenting a prominent hindrance in advancing the 
+value recovery industry in many European countries. It is pivotal that standards are developed and propagated 
+internationally to provide consistency and transparency in the economy and facilitate the free movement of used 
+spare parts (known as cores in the automotive sector) to allow remanufactured products to be more accessible. 
+The solutions to be developed must contribute to proper identification of remanufactured products, encouraging 
+public procurement of equipment remanufactured to specified quality standards, creating, and promoting universally 
+developed and accepted standards on reman to raise public awareness. 
+2.1.2. Addressing expected outcomes with specific project impacts. 
+DiCiM projects understands these challenges and addresses de expected outcomes (call topic) and support the 
+overall EC ambition (call destination) of industrial leadership and increased autonomy in key strategic value chains. 
+Table 12: Expected outcomes and project impacts 
+Expected Outcome Pathway Towards Impact Impact KPI by 2030 
+Call topic: Provide a range of 
+support solutions and innovative 
+digital tools for engineers, 
+technicians, and operators on the 
+factory floor, in order to  build agile, 
+sustainable and responsive 
+production environment and supply 
+chains, with specific focus on areas 
+such as material saving, repair, 
+refurbishing, re -manufacturing, 
+recycling, and reuse of products and 
+components 
+The project includes: (1) support during 
+the value use phase with IoT and ML to 
+monitor the performance of core products 
+and create effective and optimized reverse 
+logistics schedules. (2) Support during the 
+value recovery phase with ML and AR for 
+initial inspection and decision assistance 
+for engineers, technicians, and operators 
+on the factory floor.  
+Although the present project focuses on 
+value reuse and value recovery, all areas of 
+the CVM are impacted. 
+As explained in Table 3 to 
+Table 6 by applying the 
+integrated digital solutions the 
+demonstrators can improve 
+spare parts recovery efficiency 
+and rate as well as logistics 
+efficiency by 30% -90%, 20% -
+150% and 30%-50% respectively. 
+Call topic: Reduction of the 
+dependency from imported raw 
+materials or harmful materials for 
+the European manufacturing sector 
+(e.g. by material consumption 
+reduction, material substitution and 
+use of secondary raw materials); 
+The remanufactur ing industry helps 
+contain and circulate critical raw materials. 
+The project contributes (1) with standard 
+creation to facilitate the free movement of 
+used spare parts and allow remanufactured 
+products to be more accessible 
+throughout the European Union. (2) With 
+IoT to monitor the quality and quantity of 
+core components as well as the 
+accessibility of support solutions to carry 
+out the activities. 
+EU´s domestic supply for critical 
+raw materials will be enhanced 
+sustainably. The four 
+demonstrators combined have 
+the potential of net material 
+saving more than 16000 tons pf 
+materials per year. 
+Call topic: Define specifications and 
+standards for data, products, and/or 
+business processes, that can be 
+agreed and commonly used by many 
+industrial actors and across different 
+industry sectors; and facilitate 
+industry agreements on circularity 
+and sustainability through increased 
+data exchange among value chain 
+actors and enable the development 
+of new types of businesses; 
+We envision standards covering all areas: 
+(1) Product design, (2) Core availability, (3) 
+Core quality management, (4) Negative 
+perception of remanufacturing, (5) Lack of 
+internationally accepted definitions and 
+protocols, (6) Reverse logistics network, 
+(7) Data integration with other 
+departments, and (8) Skill training, talent, 
+and technology 
+The project implements the 
+existing standards (Table 7) and 
+will contribute to creating new 
+standards with at least the 4 
+demonstrators studied in the 
+project.  
+Social acceptance is gained 
+through the awareness 
+programmes reaching 5,000,000 
+citizens. 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 24 of 45 
+Call topic: Reduce the skills and 
+knowledge gap for the actors 
+involved. 
+Product information is fed into the 
+proposed framework for disassembly 
+planning and content generation. 
+Disassembly planning encapsulates 
+information related to the disassembly 
+sequence, and it is enhanced by the visual 
+cues and animations provided by the 
+content generation module. This 
+information is ultimately presented to the 
+end-user in the AR interface.   
+The project will develop the 
+knowledge base in 3 
+manufacturing sectors. The skill 
+and knowledge gap among the 
+operators that will be involved in 
+the demonstrators and continue 
+using the development will be 
+reduced. Furthermore, the 
+project will develop (WP 7) 
+high-quality training materials 
+for widespread application for 
+enhancing the skill of the 
+European labor force to 
+improve their employability 
+(Task  7.4) 
+Call destination (wider impact): 
+Global leadership in clean and 
+climate-neutral industrial value 
+chains, circular economy and 
+climate-neutral digital systems and 
+infrastructures (networks, data 
+centers), through innovative 
+production and manufacturing 
+processes and their digitization, new 
+business models, sustainable-by-
+design advanced materials and 
+technologies enabling the switch to 
+decarbonization in all major emitting 
+industrial sectors, including green 
+digital technologies. 
+A circular business model is sustainable 
+only if value can be economically 
+recovered from the product. 
+Remanufacture requires fewer resources 
+(40% energy, 30% material, and 50% cost) 
+compared to the production of a new 
+product 34. Further, remanufacturing keeps 
+raw materials within the economy. It also 
+provides opportunities to create high skill 
+jobs and economic growth; and yet, 
+despite all these benefits, remanufacturing 
+remains an undervalued and under -
+recognized part of the industrial landscape. 
+The project aims to enha nce a circular 
+economy through the digitization of the 
+remanufacture activities, which are proven 
+to reduce waste and avoid  significant 
+energy use and emission to air and water35. 
+Our objective is to create the 
+gold standard for value recovery 
+in the use cases considered. The 
+solutions developed in the 
+project can have high 
+replicability potential in other 
+industrial sectors. Thus, placing 
+European software, at the 
+centre of the glo bal circular 
+economy value chain.  
+Savings due to value recovery 
+actions of reducing 40% energy, 
+30% material and 50% cost for 
+the European manufacture.   
+which is aligned to the estimated 
+energy, material and cost 
+reduction indicated in Table 3 to 
+Table 6 for the demonstrators. 
+2.1.3. Scale and significance of the project’s contribution to the expected outcomes and 
+impacts. 
+The impacts of the project can be much higher on a longer term, once project outcomes are transferred, replicated 
+and exploited across the EU. DiCiM integrated digital solutions fall into the Global Industry 4.0 Market projected 
+to grow from €59 bn in 2021  to €150 bn by 2026 at a CAGR of 20.6%, 36 driven by the rising adoption of digital 
+technologies in the manufacturing process. 
+Table 13: Business case  
+Application Market User Needs Competitive Advantage 
+Digitalised 
+value 
+management 
+system with 
+IoT, ML and 
+DLT support 
+The AI in manufacturing market 
+is blooming - expected to grow 
+from €1bn in 2020 to 15.2 bn by 
+2026 at a CAGR of 57.2% over 
+the period (Source: 
+Marketsandmarkets) 
+Companies need to make value 
+recovery and reuse activities 
+profitable. To achieve 
+optimization of reverse logistics 
+as well as efficiency and 
+responsiveness in value recovery 
+activities. 
+Digitalised value 
+management system 
+connected to  product 
+information management 
+systems (including ERP and 
+PIM) to support decision 
+making  
+Value Recovery 
+with AR 
+(general case) 
+AR is revolutionizing the 
+manufacturing industry, 
+expected to hit €2.6 bn by 2023. 
+Factories want to use AR 
+solutions to become more 
+customer-centric, efficient, and 
+The first AR solution fully 
+integrated with existing 
+tools including a web-based 
+ 
+34 Chinese Characteristic Remanufacturing Industry and Its Innovation Development. Electric Welding Machine. Available online: 
+https://en.cnki.com.cn/Article_en/CJFDTotal-DHJI201205003.htm (accessed on 03 March 2022). 
+35 Parker, D., Riley, K., Robinson, S., Symington, H., Tewson, J., Jansson, K., Ramkumar, S. and Peck, D., 2015. Remanufacturing Market Study. [online] 
+Remanufacturing.eu. Available at: <https://www.remanufacturing.eu/assets/pdfs/remanufacturing-market-study.pdf> [Accessed 8 March 2022]. 
+36  Industry 4.0 Market. Source: marketsandmarkets 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 25 of 45 
+A recent survey research reveals 
+the use of AR in product and 
+service development could 
+deliver a US$360 billion GDP 
+boost by 2030.  (Source: 
+Analytics insight) 
+responsive by troubleshooting 
+remotely in real -time with 
+experts, securing safety and 
+quality and reducing expenses.  
+application for disassembly 
+and value recovery and a 
+standalone AR solution for 
+sorting parts   
+Value recovery 
+(Remanufacture) 
+Remanufacture differs from 
+other recycling procedures 
+because it returns product 
+quality to the original equipment 
+manufacturer’s performance . 
+the activity generates around 
+€30bn in turnover and employs 
+around 190,000 people 35. The 
+four key regions, estimated to 
+account for some 70 % of 
+remanufacturing value in Europe, 
+are Germany, the UK & Ireland, 
+France and Italy35. 
+Remanufacture faces many 
+challenges such as complex 
+product design, high cost of 
+resources, lack of standard 
+definition, unfavourable 
+consumer perception, absence 
+of appropriate reverse logistics 
+network and financials, and lack 
+of core availability and 
+information37. These challenges 
+prevent this process from 
+significantly impacting 
+sustainability and are addressed 
+with a series of standards and 
+frameworks. 
+DiCiM is endorsed by 
+important associations  of 
+major associations with the 
+capacity to influence 
+different groups: from 
+regulatory bodies to the 
+general public. In additions 
+to partner CHX, advisors 
+ERC and APRA Europe 
+APPLiA, in collaboration 
+with DigitalEurope and 
+DATEurope to generate a 
+change in consumer 
+perception and entice 
+stakeholder collaboration. 
+Conclusion: The 4 innovation streams of the project are combined to develop an industrial platform 
+supporting value recovery with higher productivity  and lower costs. The platform architecture is 
+modular to allow for different applications (i.e., combining a subset of these capabilities to produce a 
+more cost-effective solution for a specific domain). This also will increase the impact of the project, as 
+individual capabilities can be packaged as independent results and exploited separately. 
+2.1.4. Identifying potential barriers and addressing them with project activities.  
+Currently, the consortium has not identified any regulatory or compliance issues that could affect directly the 
+project executions. However, as the value recovery of products is impacted by current regulations, standards, and 
+the public acceptance, we have isolated three main barriers to the adoption of DiCiM: 
+Table 14: Potential barriers to impact and how we plan to address them in the project. 
+Barrier How can it limit the project impact? How will we address it? 
+Technical 
+obstacles 
+DLT based solutions may not scale well on cases with 
+large data sets or may require strong technical expertise 
+to manage the data and its consistency.  
+We have committed part of the efforts 
+during the development of the project to 
+evaluate the state-of-the-art of DLT and 
+explore alternatives such as Gaia-X. 
+Standards As explained in Table 7, there is multitude of standards 
+affecting different parts of the value recovery chain. To 
+create significant change, it may be necessary to 
+contribute to several standards at the same time 
+increasing the complexity and limiting the project’s 
+impact 
+Important stakeholders with the ability to 
+impact standards are part of the project 
+(namely CHX, STR and ERC). We have also 
+dedicated resources to this end. We will 
+start by influencing those more accessible 
+and critical standards and continue beyond 
+the project. 
+Impact 
+obstacles 
+Stakeholders are unwilling to be part of an open access 
+platform, as it may sound threatening to some due to 
+misconceptions of what open access means 
+In communication and dissemination, it will 
+be made clear that open access does not 
+mean open data.  
+2.1.5.  Exploitation strategy. 
+→ Scale up plan to market  
+The results of DiCiM project continue to mature after the end of this project. To this aim, a scale up plan has been 
+designed for each exploitable technology to reach the market (TRL7-TRL9). The Open access digital platform will 
+be developed by SIG partner, with support from IDE, IRIS, and C-ECO in WP3, and integrated with developments 
+in WP4 done by research partners for demonstration activities in WP5. Potential future exploitation by interested 
+partners is presented in Table 16. We have dedicated resources in T8.5 to produce a detailed business plan with 
+ 
+37 Pratapa, P.; Subramoniam, R.; Gaur, J. Role of Standards as an Enabler in a Digital Remanufacturing Industry. Sustainability 2022, 14, 1643. 
+https://doi.org/10.3390/su14031643  
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 26 of 45 
+future steps as the project nears TRL6. 
+Table 15: Technology road to TRL9 and estimated time in years after the project. 
+Technology Scale-up activities (TRL7-TRL9) Duration 
+Open access 
+digital platform  
+- Create API for 3rd party stakeholders to integrate with the platform 
+- Make the platform accessible for the end-users to facilitate product returns. 
+- Integrate training materials in the platform 
+- Final UX/UI design that is user friendly
+1.5 Years 
+Support 
+solutions  
+ML 
+solutions 
+- Scale-up of IoT infrastructure 
+- Final training of the algorithms to refine the condition monitoring and image 
+processing 2 Years 
+AR App - Image processing and AR applicability to further industries. 
+→ Exploitation plan  
+The consortium has identified a preliminary list of exploitable results and defined preliminary exploitation strategies 
+for them. During the project, the consortium members will develop a business plan supporting the market 
+introduction and replication of the project results. 
+Table 16: Exploitable result, interested partner and business model. 
+Partner Exploitable result Value proposition and patenting areas Business model 
+SIG Open access digital 
+platform 
+The platform is available as a stand-alone solution and also to 
+integrate into the existing IT systems to manage product 
+lifecycle information for value recovery activities 
+Licencing/ 
+subscription 
+LEX ML algorithms for 
+condition monitoring  
+Condition monitoring capability is available for distributors and 
+wholesalers to offer a better service to their customers  Sell as service 
+IRIS ML algorithms for 
+image processing  Image processing capability is available for other sectors  Product and service 
+TUC, 
+IDE AR applications DiCiM project will bring forward AR applications that can be 
+commercialized in the automotive and white goods sectors Product and service 
+C-ECO 
+Software solution   Right used spare parts, in the right quality, at the right time and 
+in the right location  Used spare parts 
+Software solution A software module that can be integrated to other IT systems. Licencing and pay-
+per-use 
+GOR 
+LEX 
+ARCE 
+Efficient product and 
+part recovery 
+mechanism   
+Low-cost products and spare parts are available long after the 
+guarantee period is over 
+Offer recovered 
+parts as spare parts 
+Technology 
+implemented  
+Successful implementation of technology with an indication of 
+clear improvement in value recovery activities.  
+Knowledge sharing 
+to scale up the 
+technology 
+internally 
+IDE Appliances repairing 
+data management   
+The results achieved within the development of the Gorenje 
+use case on repairing tracking and support will be integrated in 
+the AiCORE solution which IDE is already developing for 
+commercial exploitation. 
+Software Licensing 
+ULFS Condition monitoring 
+solution 
+Open-source solution for condition monitoring of white goods 
+and printers, which is applicable by other actors   MIT licence (Free) 
+KTH, 
+MU, 
+ULFS, 
+TUC 
+Contents and 
+materials for 
+education  
+DiCiM project will bring forward beyond state-of-the-art 
+knowledge and cases of technology implementation  Consultancy, 
+training and 
+education and 
+research projects KTH 
+Models and KPIs for 
+performance 
+evaluations 
+DiCiM will define and develop KPIs as well as models 
+(mathematical and simulation) for evaluating socio-economic 
+and environmental performance evaluation 
+ 
+2.2. Measures to maximise impact – Dissemination, exploitation, and communication. 
+2.2.1. Impact pathway methodologies 
+Table 17: Impact pathway methodology. 
+Audience Specific needs Measures to maximise the impact 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 27 of 45 
+Researchers Promote the utilisation of standards for 
+research scope in the academic sector to 
+ensure that in the future, these standards will be 
+implemented in the market. 
+Educate and employ existing standards for manufacturing 
+through 4 workshops and public awareness events in at 
+least the 4 universities in the project. 
+Industry 
+players 
+A d igital solution that supports new business 
+models based on value recovery activities, such 
+as remanufacturing or refurbishing existing 
+products. 
+200 members of Digital Helix by end of the project. 
+Increased public awareness of value recovered products 
+becomes positive. 
+Industry 
+workers 
+Interaction with the tools is different depending 
+on the worker's position. i.e., managers or 
+operators.  Different actors will need to 
+assimilate the tool for it to be effective 
+Specific training, seminars, workshops and e-learning 
+materials for  executives, middle managers, engineers, 
+and operators to reach 2,000,000 blue- and white-collar 
+workers. 
+Regulators Legal issues and framework s that are 
+relevant for the tec hnologies in the context 
+of the European Union and national 
+regulations where the demonstrators will be 
+operated. 
+ 
+Increased policy-maker awareness about the importance 
+of CMS due to supply chain, sustainability, responsibility 
+and economic risks linked to outside production. 
+Public 
+society 
+Understanding novel technologies and learning 
+about the positive impact of advanced materials 
+3,000,000 citizens exposed to the e -learning module 
+about value recovery actions (including courses, social 
+media, podcasts, YouTube, press releases, publications, 
+national science popularisation, etc.) 
+All the described measures to maximise impact are covered  
+2.2.2. Dissemination & communication activities 
+For the dissemination and communication actions the project counts on the support of 3 important platforms: 
+− Crowdhelix (CHX): Open Innovation platform that creates links between researchers and companies. Who 
+contributes through the creation of a Virtual community and with a detailed clustering plan (details below) 
+− Automotive Parts Remanufacturers Association, Europe (APRA): a global association that has been 
+representing the interests of automotive remanufacturing companies since 1941 
+− The European Reman Council (ERC): represents small and large businesses from all remanufactured product 
+sectors. 
+While CHX will be the main responsible for dissemination activities, APRA and ERC will be vital counselling partners 
+to reach key stakeholders. 
+→ DiCiM Virtual Community/Ecosystem “Digital” Helix: An Impact Accelerator  
+DiCiM project will strongly contribute to the already existing vibrant, international, virtual community/ecosystem, 
+named the Digital Helix. It will be an engine for impact, exploitation, clustering, and dissemination activities.   
+DiCiM consortium will benefit from the CHX network that gathers 500+ member organisations from 51 
+countries (all EU member states). It has the potential to reach 8,000+ research and innovation collaborators from 
+its existing membership base. This network, supported by a customised technology platform, language processing 
+and machine learning tools, has 40 virtual thematic areas/clusters (called “helixes”), that cover all the research 
+and innovation fields. Through the helix, the consortium will create a network of at least 150 new organisations 
+(M36), including: DiCiM partners, members from existing relevant Helixes (i.e., Manuf acturing, Materials, Raw 
+Minerals, Circular Plastics helixes, etc. ), researchers (i.e., experts in digital/electronic systems, ci rcular economy, 
+manufacturing, recycling etc. The UK “Digital Catapult” is already a member), industry actors (i.e., “IBM” is already 
+a member, digital tools providers, key actors in the European manufacturing sector, etc. ), ethic and policy makers, 
+civil society (end users), participants of other relevant projects to promote and develop clustering activities with 
+sister projects from previous European projects and initiatives, (i.e. projects in Table 9), and relevant 
+actors/associations across Europe/International (i.e., The European Factories of the Future Research Association 
+(EFFRA), Processes4Planet, EIT Manufacturing, EIT Digital, Smart Specialisation Platform for Industrial 
+Modernisation (S3P-Industry), etc.). We will integrate policymakers and public administrations to provide feedback 
+on policy measures. To ensure sustainability, CHX will commit to maintaining the Helix for at least 2 years after 
+the project has concluded. When the project ends, the Helix will continue to be hosted on Crowdhelix’s platform, 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 28 of 45 
+and everyone signed up during the project will be able to retain their accounts for free (as external organisations), 
+as well as have the option for their organisations to join as full members on the network. The CHX Helix Manager 
+will identify a member, from the Helix, that would be interested in strategically leading this Helix after the end of 
+the project. The new helix will be supported by the CHX team. The activities performed in the Helix are shown in 
+Figure 8 
+ 
+ 
+Figure 8: DiCiM Digital Helix: Virtual Community/ecosystem 
+→ DiCiM Clustering plan  
+DiCiM cross-projects collaboration plan (aligned to task 8.6) is divided in 3 main sections, as shown in Figure 9:  
+Collaboration board (S1): The projects with similar aims and synergies will be identified to create joint groups 
+(1.6). To achieve this DiCiM will collaborate with relevant EU projects (included in Table 9), and relevant 
+actors/associations across Europe/International ( i.e., Gaia-X, EFFRA, Processes4Planet, EIT Manufacturing, EIT 
+Digital, S3P-Industry, etc.). All the projects and key stakeholders will be contacted (1.1) and the Collaboration Board 
+(CB) will be consolidated (1.2). The CB will define the Key Performance Indicators (KPIs) (1.3) and the main ways 
+of a fluent and frequent communication (1.4). A common identity (i.e logo) will be designed (1.5). 
+Joint activities (S2): the CB members will promote and encourage collaborative activities (mainly with the sister 
+projects), including regular meetings (2.1), joint participation and attendance to scientific conferences and business 
+tradeshows (2.2), active participation in projects social media sites (2.3), development of joint scientific publications 
+(2.4), and supporting the development of 
+future legislation around digital tools (2.5). 
+Future collaboration plan (S3) : a 
+virtual workshop will be organised to 
+promote the development of 
+interdisciplinary consortiums, and to 
+identify target calls aligned with their 
+strengths. The Digital Helix will be an 
+engine of collaborative activities.  
+The consortium partners will publish 10 
+publications by project end in scientific 
+journals (e.g. Nature Communications) 
+and present the results at media related 
+congresses. We will interact with running 
+projects DigiPrime (C-ECO as liaison) and 
+CirThread (GOR and HGE as liaison). 
+→ Individual dissemination plans  
+Table 18: Individual dissemination plans. 
+Partner Specific dissemination, exploitation and communication activities foreseen  
+Figure 9: DiCiM Clustering plan 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 29 of 45 
+CHX 
+-CHX will lead the dissemination and communication activities (development/management of the project 
+logo, website, social media sites, press releases, newsletters, video, etc.) and WP8. 
+-CHX, in collaboration with the consortium partners, will build the Digital helix, a virtual 
+community/ecosystem on the Crowdhelix Platform, expecting to reach 150 new members (project 
+partners, researchers, industry actors, policy makers, civil society, participants of other relevant projects, 
+etc.) by M36.  
+-CHX will organise 1 helix event. 
+-CHX will promote clustering activities with relevant European projects and initiatives. 
+MU 
+ 
+- Write 4 peer-reviewed articles in high-quality international journals  
+- Present the research findings 4 large international events and conferences in Europe and around the 
+world (SME annual conferences in the US, Ellen MacArthur Foundation, world circular economy forum 
+and annual conferences worldwide)  
+- Conduct and publish at least 1 press release  
+- Support peer-reviewed open-access articles written by academic and research partners  
+- Produce 4 presentations in relevant scientific conferences  
+- Prepare dissemination material, both digital (banners) and printed (flyers, posters)  
+- Disseminate the research findings via the academic and industrial network of partners around the world 
+(contact big 10 companies in Europe and countries around the world (the US and east Asia)  
+- Contribute to the construction, preservation and updating of the webpage that will be built for the 
+project.  
+- Contribute to conducting and distributing weekly or monthly newsletters to subscribers on the official 
+webpage of the project  
+- Organise at least 8 industrial/ research workshops 
+- Develop education materials reaching up to 250 students /year 
+- Involve at least 2 PhD students  
+- integrate industrial cases into the lifelong learning courses 
+- Use social media channels (such as https://www.linkedin.com/company/76782551) and the web page of 
+such as https://www.kth.se/en and https://www.iip.kth.se/ to disseminate the project, its activities and the 
+research findings (create and promote success stories). MU, TUC and ULFS will use similar channels that 
+they have access to.   
+KTH 
+TUC 
+ULFS 
+IDE - Support the peer-reviewed open-access articles written by academic and research partners. And write 
+a peer-revied publications and white papers as confidentiality allows it. 
+- Use corporate social media channels and company webpage to disseminate project results 
+- Present the project results at local and international conferences 
+- Present the project in their respective industry associations to foster the uptake of project results. 
+-Present the results to customers and partners  
+- Webinars 
+IRIS 
+SIG 
+C-ECO 
+GOR 
+ARCE 
+LEX 
+Table 19: Joint communication, dissemination, and training activities  
+Target Audiences Target objectives Tools & channels 
+• Main customers: key actors in 
+the European manufacturing 
+sector. Engineers, technicians, 
+and operators on the factory 
+floor. 
+• Other cross-cutting HEU 
+projects, international and 
+national projects.  
+• EFFRA, Processes4Planet, 
+industry multipliers, Sectorial 
+Associations and EC 
+initiatives such as the 
+European Platform on Life 
+Cycle Assessment .  
+• Standardization bodies.  
+• General Public and Mass 
+Media.  
+• Project awareness generation. 
+• Dissemination of novel digital 
+technologies and materials. 
+• Collaboration with related projects 
+such as Waste4Think, Arrowhead 
+Tools, AI4DI, DENiM, in addition to 
+those from Table 9  
+• Create awareness of R&D activities 
+for new materials and technologies. 
+• Communication to policymakers to 
+increase the influence of the project 
+and its results and in future policies. 
+• Communication to the general public 
+about efforts being made towards the 
+recognition of refurbished and 
+remanufactured products. 
+• Effective knowledge sharing among 
+• Project corporate identity tools 
+(logo, slogan) along with project 
+website, posters, pitch decks, press 
+releases.  
+• Conferences, events, seminars and 
+workshops: attending at least 2 
+events and organising 4 
+seminars/workshops.  
+• 22 articles in Open access journals, 
+mass media and magazines.  
+• Social media: account on Twitter and 
+LinkedIn mainly, we will also consider 
+presence on other social media like 
+Facebook and YouTube.  
+• Visibility on third party websites 
+(Research Gate, SlideShare, etc)  
+• EU dissemination sources such as the 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 30 of 45 
+• Research and academic 
+stakeholders.  
+• Early-stage researchers.  
+• PPPs, EIPs and EITs (i.e. EIT 
+Manufacturing, EIT Digital, 
+S3P-Industry).  
+scientific communities. 
+• Attract young talent to science. 
+• Motivate early-stage researchers to 
+remain in the EU and investigate. 
+• Collaboration Increase private 
+participation in R&D activities and 
+attract valuable stockholders. 
+EU Horizon Magazine, Innoradar or 
+Innoboost.  
+• Features in general newsletters and 
+e-bulletins for society awareness of 
+renewable energy storage 
+technologies (appear in at least 4 
+relevant bulletins)  
+• Digital Helix community/ecosystem 
+Table 20: Communication and dissemination KPIs.  
+Track M12 M24 M36 M48 KPI (cumulative) 
+Social Media 
+Campaigns 
+Twitter 
+LinkedIn 
+Facebook 
+Twitter 
+LinkedIn 
+Facebook 
+Twitter 
+LinkedIn 
+Facebook 
+Twitter 
+LinkedIn 
+Facebook 
+Twitter followers = 400 
+LinkedIn group members = 200  
+Facebook followers = 400 
+Podcast    6 episodes Soundcloud reproductions = 1200  
+Project Video Video1 - - - Total YouTube Views = 2,000 
+Press releases Press release 
+1  
+Press release 
+2  
+Press release 
+3 
+Press release 
+4 
+Total PR coverage (incl. online 
+articles) = 500 
+Scientific 
+Publications 
+2 submissions 4 submissions 4 submissions 6 submissions Total publications = 16 
+Articles 5 articles 10 articles 10 articles 10 articles Total articles = 35 
+Industrial 
+Workshops 
+- 1 workshop 2 workshops 4 workshops Total attendees = 500  
+Seminars  5 seminars  5 seminars Total attendees = 500  
+Digital helix 50 members 50 members 50 members Free join Minimum members=150 
+ 
+2.2.3. IPR strategy related to the result type. 
+We are strongly committed to  a  sound IPR strategy that is advantageous for all parties and easy to understand. 
+Dissemination and use of knowledge generated in the project are governed by the Grant Agreement and the 
+Consortium Agreement terms. To make sure that these terms are followed, to avoid disputes and facilitate business 
+planning, the Steering Committee will maintain an IPR register throughout the lifetime of the project. This document 
+will list all items of knowledge relating to the work of the project (both background know -how a nd results 
+developed in the project) and make explicit for each item its owner, nature, status and dissemination and protection 
+measures. The directory will be regularly updated and distributed to all partners. It will form a key tool to enable 
+knowledge management. An initial version of the IPR register will be created at the start of the project. However, 
+at the stage of producing the proposal, the consortium has already considered what kind of strategy should be 
+followed concerning IPR issues for the pro ject's main results and reached a preliminary agreement on this. The 
+basic principle on which we are agreed is that research and development results must be available to a large audience 
+to facilitate the broad adoption of project results while having opti ons in place for rewarding those that invested. 
+“IPR” means that the contributing partner will own the IPR of the result it has contributed to. “Use rights” mean 
+that any third party (licensee) is allowed to request a license to use the IPR generated by another partner (licensor) 
+against a financial compensation to be agreed between the licensor and the licensee. 
+Table 21: IPR status of exploitation results. 
+Initial agreement on IP & use rights Partner Owner Protection 3rd party access 
+Data models MU Open Access 
+Data repository used for ML training LEX, GOR, SIG, ARCE, C-ECO IPR NO ACCESS 
+DiCiM open access digital platforms SIG IPR Use rights 
+Extend ReCiPSS  spare parts data 
+management platform’ C-ECO IPR Use rights 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 31 of 45 
+ML algorithms IRIS, ULFS IPR Use rights 
+AR solutions  TUC, IDE IPR Use rights 
+Image processing solution IRIS IPR Use rights 
+2.3. Summary 
+Table 22: Summary of the impact section 
+SPECIFIC NEEDS EXPECTED RESULTS D&E&C MEASURES 
+▪ Value recovery is a critical step 
+towards circularity that must be 
+integrated with the value use 
+phase with digital tools to extract 
+its full power.  
+▪ Need for common ground across 
+the manufacturing sector through 
+synergies and standards.  
+▪ 4 large -scale demonstrators in 
+relevant industry sectors, directly 
+applicable to 67% of the European 
+Industry.  
+▪ Creation of a community of early 
+adopters that welcomes and 
+enhances project results.  
+▪ Scientific articles & posters (D) 
+▪ Technical conferences and 
+workshops (D) 
+▪ Dissemination to the broader 
+public (D) 
+▪ Events with related projects (C) 
+▪ Public events (C) 
+▪ IPR protection of exploitable 
+results (E) 
+▪ Reach out to industry players (E) 
+TARGET GROUPS OUTCOMES IMPACTS 
+▪ Researchers 
+▪ Policy makers 
+▪ Public society 
+▪ Industrial players in the 
+manufacturing sector. Targeting 
+specifically OEMS in the 
+automotive parts, electronic 
+goods, and white goods industries 
+first. 
+▪ Increased awareness for industrial 
+players of the gains of value 
+recovery activities. 
+▪ Better public understanding and 
+acceptance of remanufactured 
+and refurbished products.  
+▪ Enhanced awareness about the 
+importance of standards for 
+academy stakeholders. 
+▪ Increased awareness of standards 
+for the academy (scientific) 
+▪ Important gains for European 
+industry as KPIs are included in 
+Table 3 to Table 6 (economic) 
+▪ Specific materials  for executives, 
+middle managers, engineers, and 
+operators and society to reach 
+five million people (societal) 
+3. Quality and efficiency of the implementation  
+3.1. Work plan and resources  
+ 
+Figure 10: Pert Chart 
+DiCiM project will last 48 months and will be divided in 9 Work Packages (WPs). The Pert chart ( Figure 10) 
+provides an overview of the DiCiM work plan structure.  
+ 
+ 
+3.1.1. List of work packages 
+See Annex 1 (part A) of the grant agreement  
+
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 32 of 45 
+ 
+Figure 11: Gantt chart of the project 
+  
+
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 33 of 45 
+→  Work package description  
+ See Annex 1 (part A) of the grant agreement 
+3.1.2. List of Deliverables  
+See Annex 1 (part A) of the grant agreement 
+ 
+3.1.3. List of milestones  
+See Annex 1 (part A) of the grant agreement 
+ 
+3.1.4. Critical risks for implementation 
+See Annex 1 (part A) of the grant agreement 
+ Resources 
+→ Summary of staff effort  
+See Annex 1 (part A) of the grant agreement 
+ 
+→  ‘Subcontracting costs’ items and ‘Other costs categories’ items  
+No subcontracting costs envisaged for the project, nor other costs such as internally invoiced goods and services 
+→ ‘Purchase costs’ items (travel and subsistence, equipment,  and other goods, 
+works and services)  
+1/ MU Cost Justification 
+Travel €42,000 24 person-trips over 4 years; Average trip = €1,750 
+Other €38,000 open access (10k), training materials including services of graphic (10k), research data 
+collection (raw data) - 10k, conference fees (3k), audit (5k) 
+Total €80,000  
+ 
+2/ KTH Cost Justification 
+Travel €42,000 24 person-trips over 4 years; Average trip = €1,750 
+Other  €25,000 open access (12 k), Software licence ( 5 K) conference fees (3 k), audit (5 k) 
+Total €67,000  
+ 
+3/ TUC Cost Justification 
+Travel €35,000 20 person-trips over 4 years; Average trip = €1,750 
+Other €35,000 open access (5.5k), conference fees (3k), audit (6k); AR -tracking-software licences(7.5k); 
+AR-Devices, associated computers, and interaction devices (10k), consumables (3k) 
+Total €70,000  
+ 
+4/ ULFS Cost Justification 
+Travel €28,000 16 person-trips over 4 years; Average trip = €1,750 
+Other €8,500 open access (5.5k), conference fees (3k) 
+Total €36,500  
+ 
+5/ IDENER Cost Justification 
+Travel €28,000 16 person-trips over 4 years; Average trip = €1,750 
+Total €28,000  
+ 
+6/ IRIS Cost Justification 
+Travel €28,000 16 person-trips over 4 years; Average trip = €1,750 
+Other €30,000 Software licenses, server, pc, electronics and other consumables for model development 
+and the monitoring system testing (25k), open access publication and conference fee (5k€); 
+Total €58,000  
+ 
+7/ SIG Cost Justification 
+Travel €35,000 20 person-trips over 4 years; Average trip = €1,750 
+Other €25,000 audit (5k), 20k IT-infrastructure/cloud-hosting 
+Total €60,000  
+ 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 34 of 45 
+8/ C-ECO Cost Justification 
+Travel €28,000 16 person-trips over 4 years; Average trip = €1,750 
+Other €35,000 audit (5k), 25k IT-infrastructure/cloud-hosting, 5k AR-devices (data-goggles) 
+Total €63,000  
+ 
+9/ GOR Cost Justification 
+Travel €35,000 20 person-trips over 4 years; Average trip = €1,750 
+Other €50,000 sensors & new functionalities development of washing machine prototype electronics (50k) 
+Total €85,000  
+ 
+ 
+ 
+10/ ARCE Cost Justification 
+Travel €35,000 20 person-trips over 4 years; Average trip = €1,750 
+Equipment €35,000 The total depreciation costs (%50) of robot (15k), data acquisition system (3k), data server 
+(5k), camera (2k), thermal camera (2k), electrical test kits (3k), sensors for odor 
+measurement (5k) 
+Other €6,000 electronic consumables (3k), conveyor prototype materials (3k) 
+Total €76,000  
+ 
+11/ LEX Cost Justification 
+Travel €35,000 20 person-trips over 4 years; Average trip = €1,750 
+Total €35,000  
+ 
+12/ CHX Cost Justification 
+Travel €35,000 20 person-trips over 4 years; Average trip = €1,750 
+Other €36,038 Leaflets and labelled folders (€10k), 1 professional video (8,610€), 1 Helix event: €11k 
+(event room, food, drink, etc).  Website: €6428 (domain purchase and maintenance)  
+Total €71,038  
+ 
+Additional justification: 
+ 
+The consortium has budgeted for 232 person-trips which are detailed below. 
+ 
+The DiCiM project is planning to have 9 General Assemblies (GAs) over 4 years. In each GA, on average 1.5 
+persons/partner is estimated to participate which adds up to 162 person-trips. 20 person-trips are estimated 
+for the review meetings. 
+ 
+Besides, we are expecting 30 bilateral technical meetings among partners adding up to 30 person-trips. 
+ 
+We are also expecting 20 person-trips for dissemination activities including scientific conferences.  
+ 
+All the partners confirmed that all costs related to equipment include only the depreciation costs for the 
+mentioned equipment. 
+ 
+ 
+ 
+ 
+ 
+ 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 35 of 45 
+3.2. Capacity of participants and consortium as a whole 
+The consortium consists of 12 partners and 2 
+advisory dodies  (Table 23) – gathering a 
+unique mix of leading industry expertise and 
+knowledge to develop and demonstrate 
+integrated digital solutions to improve the 
+efficiency and responsiveness of recovery value 
+activities and for a successful implementation 
+of the Circular Manufacturing System. 
+The project will be coordinated by MU, that 
+was already involved in the ReCiPSS flagship 
+project, and has a strong track record in open 
+science practices: following the principle of 
+open access, all research results of scientists at 
+MU are to be made freely accessible 
+throughout the world and thus be rendered as visible 
+as possible. MU supports all members of the 
+university by means of general financial and structural 
+conditions that have been created to achieve this 
+objective. The project manager at MU will be Mr. 
+David Póč, the Chief Strategy Officer at the Faculty 
+and the Strategic Project Director at t he University 
+(rectorate).  He has a background in Public 
+Administration, History and Philosophy and long 
+experience as the Head of the Project management 
+team at the Faculty of Administration and Economics, 
+responsible for the successful realization of al l 
+projects both at the national and international levels.  
+Gender balance  is aimed at all levels of project 
+management. Both genders are represented at the 
+task leader and group level, with women leading 4 
+of the 9 work packages.  
+APRA and ERC, the Automotive Parts Remanufacturers Association and the European Reman Council have an 
+advisory role in the project. Both have committed to support the project as members of the Project Advisory 
+Board (Figure 12), and participate in the joint dissemination and communication actions, as specified in Table 19. 
+The consortium includes the key disciplines described in Table 10. With this composition, the consortium will be 
+able to: 
+• Develop refined, improved and/or new ML, DLT based and AR models and algorithms to unlock big data potential 
+for value recovery in Europe (MU, KTH, TUC, ULFS, IDE, IRIS, SIG, C-ECO) 
+• Aid the SMEs to develop and demonstrate of the potential of value recovery and value reuse (KTH, IRIS, SIG, C-
+ECO, GOR, ARCE, LEX, CHX, APRA, ERC) 
+• Increase the general public’s understanding of value recovery products as enablers of green transition and circular 
+economy (CHX, APRA, ERC) 
+• Influence decision-makers to evaluate the possibilities for standardisation in Europe in a socially, environmentally, 
+and economically sustainable way (all) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 23: DiCiM consortium and supporting stakeholders 
+Figure 12: Commitment letters from ERC (left) and APRA (right) 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 36 of 45 
+4. Ethics  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 37 of 45 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 38 of 45 
+Ethics Self-Assessment 
+ 
+Ethical dimension of the objectives, methodology and likely impact 
+No personal and sensitive data will be collected without the explicit and informed consent of the human participant 
+and every information will be later accu rately pseudonymised and/or aggregated. As regards with secondary use of 
+data (i.e. further processing of previously collected personal data) by Consortium partners, existing datasets will 
+originate from a public source or be authorised for use in the research (either specifically for the project or generally 
+for any secondary use). If there is the case, The Consortium will create a recruitment environment that is not only 
+effective but isalso ethical, in the sense that maximises benefitsand minimises the risk of harm (psychological, social, 
+legal, economic, environmental, etc.). The methods will unlikely result in discriminatory practices or  unfair 
+treatment and complies with national and EU regulations. Participants will be recruited by letter or email including: 
+info about how the person was identified; who is doing the research and why; what is involved and for how long; 
+an overview of any  risks or potential benefits; info about how to contact the research team if interested in 
+participating; where to get answers to additional questions, and when using email, proper notification about the 
+confidentiality issues associated with email communication. After having proactively shown their interest in joining 
+the project, datasubjects will be informed about the data processing and asked for their free, explicit and informed 
+consent. All participants will be given a detailed information sheet and an informed consent form. 
+Any document provided to the participants will be written in terms participants can understand and translated in 
+the national languages if needed. Participation in the activities will always be voluntary, and participants will explicitly 
+be informed that they can refuse to participate or withdraw their consent at any time without any consequences. 
+The procedures that will be followed to obtain informed consent are: i) participants will be 
+welcomed; ii) participants will be informed about the project and the specific activity in which they are involved, in 
+an appropriate format according to their needs and the approved models of the consortium. Participants will be 
+requested to give their ex plicit consent. The consent form and information sheet should be included on asingle 
+piece of paper (both sides, if needed). We will not involve persons who have not attained the legal age for consent 
+to participate in the research. Once the activity is finished, both the information sheet and the signed consent form 
+will be sent by recorded mail to the Data Controller (to the email that will be identified at the beginning of the 
+project). 
+ 
+ 
+Compliance with ethical principles and relevant legislations 
+Responsibility for protecting personal information under GDPR will extend to data processing as well as data 
+controllers. 
+Each consortium member agrees to comply with all obligationsand requirements of its corresponding national data 
+protection legislation and the Data Protection Directive 95/46/EEC and to obtain all legal documents and 
+certifications required for compliance with such legislation. The consortium membersagree that any background, 
+results, confidential information and/or any and all data and/or information that is provided, disclosed or otherwise 
+made available between the consortium member during the implementa tion of the project and/or for any 
+exploitation activities (“Shared Information”), may include personal data as defined by Article 2,Section (a) of the 
+Data Protection Directive (95/46/EEC), and applicable local implementing legislation (hereinafter referr ed to as 
+“Personal Data”).Each consortium member who provides or otherwise make available to any other Party Shared 
+Information containing Personal Data (“Contributor”) will represent that: (i) it has the authority and/or the 
+authorisation to disclose the Shared Information, if any, which it provides to the consortium member; (ii) where 
+legally required and relevant, it has obtained appropriate informed consents from all the datasubjects involved, or 
+from any applicable institution, all in compliance with applicable regulations; and (iii) there is no restriction in place 
+that would prevent any such another party from using the Shared Information in accordance with and for the 
+purpose of the project. 
+The Data Controller will be responsible for complying with all applicable data protection or similar laws regulating 
+the processing of any Personal Data (assuch terms are defined in Directive 95/46/EC) provided by or through each 
+Data Controller to the Dat a Processors.Each Data Processor will only process such Personal Data in a manner 
+which is reasonably necessary to implement the Action and exploit the Results, and only for that purpose. Each 
+Data Processor will follow the relevant Data Controller’s reaso nable processing instructions with respect to the 
+Personal Data and the Data Processors will use their reasonable endeavours to apply the security measures set 
+forth in the project, or as notified to the Data Processors in writing in advance. The Data Cont rollers are 
+responsible for determining that these measures provide an appropriate level of protection.Either Data Processor 
+shall not process any Personal Data unless (i) it isacting on the instructions of the Data Controllers (ii) it isacting 
+to implement the project or exploit its results; or (iii) it is required to do so by applicable law or any court order, 
+EU Grants: HE CL4-2022-TWIN-TRANSITION-01-07 – 30.03.2022 
+ 
+ 
+                                                       101091536- DiCiM- Part B - Page 39 of 45 
+in which case the relevant Data Processor shall inform the Data Controller(s) immediately in writing about such 
+disclosure. 
+The Data Processors, in implementing the project or exploiting its results, may transfer data, including Personal 
+Data, across a country border, including outside the European Economic Area (EEA), if the Data Processor 
+reasonably considers such transfer ap propriate or useful for the Data Processors' implementation of the Action 
+and exploitation of the Results and reasonably cooperates with the Data  Controllers to meet legal requirements. 
+The Data Controllers are solely responsible for determining that any t ransfer by the Data Processors or Data 
+Controllers of data, including Personal Data, across a country border complies with the applicable data protection 
+laws including assessing, determining and fulfilling any legal prerequisites or obtaining any required  authorizations. 
+The Data Controllers agree that implementation of the project or exploitation of its results will be partially 
+performed from abroad, and may entail that Personal Data are transferred outside the EEA. In view of this data 
+transfer, each Data Controller will enter into aso -called Transfer Agreement (EUStandard Contractual Clausesas 
+defined in the Commission Decision of February, 5th 2010, or any amendments thereto) with the Data Importer(s) 
+in order to secure an adequate level of protection. Each Data Controller agrees to indemnify, defend and hold 
+harmless the Data Importer from and against any claim by a third party arising under or relating to the Transfer 
+Agreement.

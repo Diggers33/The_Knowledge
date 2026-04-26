@@ -1,0 +1,281 @@
+Ignoring wrong pointing object 6 0 (offset 0)
+Ignoring wrong pointing object 8 0 (offset 0)
+Ignoring wrong pointing object 10 0 (offset 0)
+Ignoring wrong pointing object 12 0 (offset 0)
+Ignoring wrong pointing object 14 0 (offset 0)
+Ignoring wrong pointing object 16 0 (offset 0)
+Ignoring wrong pointing object 18 0 (offset 0)
+Ignoring wrong pointing object 27 0 (offset 0)
+Ignoring wrong pointing object 29 0 (offset 0)
+Ignoring wrong pointing object 31 0 (offset 0)
+Ignoring wrong pointing object 33 0 (offset 0)
+Ignoring wrong pointing object 41 0 (offset 0)
+Ignoring wrong pointing object 43 0 (offset 0)
+Ignoring wrong pointing object 48 0 (offset 0)
+Ignoring wrong pointing object 50 0 (offset 0)
+Ignoring wrong pointing object 59 0 (offset 0)
+Ignoring wrong pointing object 64 0 (offset 0)
+Ignoring wrong pointing object 70 0 (offset 0)
+Ignoring wrong pointing object 72 0 (offset 0)
+Ignoring wrong pointing object 74 0 (offset 0)
+Ignoring wrong pointing object 76 0 (offset 0)
+Ignoring wrong pointing object 96 0 (offset 0)
+Ignoring wrong pointing object 108 0 (offset 0)
+Ignoring wrong pointing object 113 0 (offset 0)
+Ignoring wrong pointing object 115 0 (offset 0)
+Ignoring wrong pointing object 143 0 (offset 0)
+Ignoring wrong pointing object 150 0 (offset 0)
+Ignoring wrong pointing object 187 0 (offset 0)
+Ignoring wrong pointing object 223 0 (offset 0)
+Ignoring wrong pointing object 225 0 (offset 0)
+Ignoring wrong pointing object 227 0 (offset 0)
+Ignoring wrong pointing object 229 0 (offset 0)
+Ignoring wrong pointing object 231 0 (offset 0)
+Ignoring wrong pointing object 233 0 (offset 0)
+Ignoring wrong pointing object 235 0 (offset 0)
+Ignoring wrong pointing object 237 0 (offset 0)
+Ignoring wrong pointing object 1715 0 (offset 0)
+Ignoring wrong pointing object 1717 0 (offset 0)
+Ignoring wrong pointing object 1719 0 (offset 0)
+Ignoring wrong pointing object 1721 0 (offset 0)
+Ignoring wrong pointing object 1724 0 (offset 0)
+Ignoring wrong pointing object 2477 0 (offset 0)
+Ignoring wrong pointing object 2489 0 (offset 0)
+Processing 113 PDFs...
+  AGRO2CIRCULAR (AGRO2CIRCULAR__Proposal-SEP-210722197.pdf...)
+    -> 3 sections: ['4', '3.2', '1.4']
+  AGROWETLANDS (AGROWETLANDS__PBMO032 Public DoA.pdf...)
+    -> no sections found, skipping
+  AICUBE (AICUBE__Public DoA AI-CUBE General Info.pdf...)
+    -> 9 sections: ['1.1', '4', '1.2', '1.3', '2.1', '2.2', '3.1', '3.2', '3.3']
+  AICUBE (AICUBE__Public DoA AI-CUBE WPs_Partners Info.pdf...)
+    -> 1 sections: ['4']
+  AIDPATH (AIDPATH__010203_ADPATH_Excellence_Impact_Implementation_v5pd...)
+    -> 2 sections: ['3.3', '4']
+  ASTEP (ASTEP__Proposal-SEP-210598117.pdf...)
+    -> 2 sections: ['4', '3.3']
+  BIOGEMSE (BIOGEMSE__PUBLIC DOA BIOGEMSE.pdf...)
+    -> 2 sections: ['3.1', '3.2']
+  BIOMAC (BIOMAC__Public DoA General Info.pdf...)
+    -> 1 sections: ['4']
+  BIOMAC (BIOMAC__Public DoA WPs and Partner Info.pdf...)
+    -> 3 sections: ['4', '3.1', '3.3']
+  BIOMAC (BIOMAC__Public DoA_BIOMAC_Sec.1-3_WP description.pdf...)
+    -> 2 sections: ['4', '3.3']
+  BIOMAC (BIOMAC__Public DoA_BIOMAC_Sec.4-5_Partners profile.pdf...)
+    -> 1 sections: ['4']
+  BIONTOP (BIONTOP__BIONTOP Public DoA- General Info.pdf...)
+    -> 8 sections: ['1.1', '4', '1.2', '1.3', '1.4', '2.1', '2.2', '3.1']
+  BIONTOP (BIONTOP__BIONTOP Public Doa- WPs and Partners Info.pdf...)
+    -> 3 sections: ['4', '3.1', '3.3']
+  BIORADAR (BIORADAR__Proposal-SEP-210881309.pdf...)
+    -> 4 sections: ['4', '1.2', '2.3', '3.2']
+  BIOSPRINT (BIOSPRINT__Proposal-SEP-210602753.pdf...)
+    -> 2 sections: ['4', '3.3']
+  BIOSUPPACK (BIOSUPPACK__Public DoA General Info.pdf...)
+    -> 7 sections: ['1.1', '4', '1.3', '1.4', '2.1', '2.2', '3.1']
+  BIOSUPPACK (BIOSUPPACK__Public DoA WPs and Partners Info.pdf...)
+    -> 2 sections: ['4', '3.1']
+  BIOUPTAKE (BIOUPTAKE__Proposal-SEP-210768061-BIOUPTAKE.pdf...)
+    -> 2 sections: ['4', '2.2']
+  CEMWAVE (CEMWAVE__1PROPOSAL_958170-CEM-WAVE-H2020-NMBP-ST-IND-2020-si...)
+    -> 1 sections: ['4']
+  CEMWAVE (CEMWAVE__3PROPOSAL_958170-CEM-WAVE-H2020-NMBP-ST-IND-2020-si...)
+    -> 10 sections: ['1.1', '1.2', '1.3', '1.4', '4', '2.1', '2.2', '3.1', '3.2', '3.3']
+  DATAMINE (DATAMINE__Proposal-SEP-210372160.pdf...)
+    -> 1 sections: ['4']
+  DECOAT (DECOAT__Public DoA DECOAT - General Info 01-12-2018.pdf...)
+    -> 3 sections: ['4', '3.2', '3.3']
+  DECOAT (DECOAT__Public DoA DECOAT - WPs _ Info Partners 01-12-2018.p...)
+    -> 1 sections: ['4']
+  DECOAT (DECOAT__PUBLIC DOA DECOAT PROPOSAL.pdf...)
+    -> 2 sections: ['3.3', '4']
+  DECOAT (DECOAT__Public DoA General Info.pdf...)
+    -> 6 sections: ['1.1', '1.2', '1.3', '1.4', '2.1', '2.2']
+  DECOAT (DECOAT__Public DoA WPs and Partners Info.pdf...)
+    -> 2 sections: ['4', '3.1']
+  DICIM (DICIM__Annex 1 - Description of the action _part B_.pdf...)
+    -> 2 sections: ['4', '1.1']
+  DIGINTRACE (DIGINTRACE__PUBLIC DOA DIGINTRACE.pdf...)
+    -> 2 sections: ['3.1', '4']
+  DIY4U (DIY4U__Public DoA DIY4U General Info.pdf...)
+    -> 8 sections: ['1.1', '1.2', '1.3', '1.4', '2.1', '2.2', '3.2', '3.3']
+  DIY4U (DIY4U__Public DoA DIY4U WPs_Info Partners.pdf...)
+    -> 1 sections: ['4']
+  ENERGIZE (ENERGIZE__Proposal-SEP-210996005.pdf...)
+    -> 1 sections: ['4']
+  ETERNAL (ETERNAL__ETERNAL Public Proposal_to share_V2.pdf...)
+    -> 5 sections: ['1.1', '1.2', '2.1', '3.1', '3.2']
+  EXPLOIT4INNOMAT (EXPLOIT4INNOMAT__PUBLIC DOA EXPLOIT4INNOMAT.pdf...)
+    -> 3 sections: ['4', '1.3', '3.2']
+  FOODPACK (FOODPACK__Amendment - AMD-101003806-5 - CFP - Excellence and...)
+    -> 7 sections: ['1.4', '2.1', '1.2', '2.2', '3.1', '3.2', '3.3']
+  FOODSAFER (FOODSAFER__FOODSAFER Public Proposal.pdf...)
+    -> no sections found, skipping
+  FREEME (FREEME__Proposal-SEP-210789959.pdf...)
+    -> 8 sections: ['4', '1.1', '1.2', '2.1', '2.2', '2.3', '3.1', '3.2']
+  GIANTLEAPS (GIANTLEAPS__GIANT LEAPS Public Proposal.pdf...)
+    -> 6 sections: ['1.1', '4', '1.2', '2.1', '2.2', '3.3']
+  GREENLOOP (GREENLOOP__Amendment - AMD-101057765-10 - GREENLOOP - Excell...)
+    -> 6 sections: ['1.1', '1.2', '2.2', '2.3', '3.2', '4']
+  GREENLOOP (GREENLOOP__Amendment - AMD-101057765-21_GREENLOOP - Excellen...)
+    -> 1 sections: ['4']
+  GREENLOOP (GREENLOOP__Amendment - AMD-101057765-7 - GREENLOOP - Excelle...)
+    -> 6 sections: ['1.1', '1.2', '2.2', '2.3', '3.2', '4']
+  GREENLOOP (GREENLOOP__Proposal-SEP-210770174.pdf...)
+    -> 7 sections: ['4', '1.1', '1.2', '2.2', '2.3', '3.1', '3.2']
+  H2O4ALL (H2O4ALL__Annex 1 - Description of the action _part B_.pdf...)
+    -> 5 sections: ['1.3', '1.4', '2.2', '2.3', '3.2']
+  HOUSEFUL (HOUSEFUL__PUBLIC DOA - HOUSEFUL General Info.pdf...)
+    -> 2 sections: ['4', '1.2']
+  HOUSEFUL (HOUSEFUL__PUBLIC DOA - HOUSEFUL WPs _ INFO Partners.pdf...)
+    -> 2 sections: ['3.1', '4']
+  HOUSEFUL (HOUSEFUL__PUBLIC DOA HOUSEFUL.pdf...)
+    -> no sections found, skipping
+  HYPERA (HYPERA__HYPERA-Public DoA Part B.pdf...)
+    -> 2 sections: ['4', '2.3']
+  INCUBIS (INCUBIS__PUBLIC DOA INCUBIS.pdf...)
+    -> 4 sections: ['4', '1.1', '3.1', '3.3']
+  INLINE (INLINE__Annex 1 - Description of the action _part B_ _1_.pdf...)
+    -> 2 sections: ['4', '2.3']
+  INPERSO (INPERSO__Proposal-SEP-210803236.pdf...)
+    -> 6 sections: ['4', '1.1', '1.2', '2.2', '3.1', '3.2']
+  IS2H4C (IS2H4C__PUBLIC DOA IS2H4C.pdf...)
+    -> 5 sections: ['3.2', '4', '2.1', '2.2', '2.3']
+  LASER4SURF (LASER4SURF__Public DoA LASER4SURF - General Info 01-10-2018....)
+    -> 1 sections: ['4']
+  LASER4SURF (LASER4SURF__Public DoA LASER4SURF - WPs and Info Partners 01...)
+    -> 2 sections: ['1.3', '4']
+  LIGHTME (LIGHTME__Annex 1 - Description Of Action _part B_ _9_.pdf...)
+    -> 2 sections: ['4', '3.3']
+  MAGNO (MAGNO__PROPOSAL_101135258-MAGNO-HORIZON-CL6-2023-ZEROPOLLUTI...)
+    -> 2 sections: ['4', '2.2']
+  MERLIN (MERLIN__Proposal-SEP-210687606.pdf...)
+    -> 3 sections: ['4', '3.3', '2.3']
+  MIRACLE (MIRACLE__Annex 1 - Description Of Action _part B_ _4_.pdf...)
+    -> 2 sections: ['4', '2.3']
+  MONITANK (MONITANK__Public DoA MONITANK - General Info 26-07-2018.pdf...)
+    -> 1 sections: ['4']
+  MONITANK (MONITANK__Public DoA MONITANK - General Info.pdf...)
+    -> 1 sections: ['3.3']
+  MONITANK (MONITANK__Public DoA MONITANK - WPs and Info Partners 26-07-...)
+    -> 1 sections: ['4']
+  MULTICYCLE (MULTICYCLE__820695_Annex 1 - Description Of Action _part B_....)
+    -> 2 sections: ['4', '3.3']
+  MULTICYCLE (MULTICYCLE__AMD-820695-23_Annex 1 - DoA _part B_-draft.pdf...)
+    -> 1 sections: ['4']
+  MULTIPLE (MULTIPLE__Public DoA Multiple - General Info.pdf...)
+    -> 2 sections: ['3.3', '4']
+  MYTOOLBOX (MYTOOLBOX__PBMO027 - MyToolBox Public DoA.pdf...)
+    -> 2 sections: ['3.3', '4']
+  NANOBLOC (NANOBLOC__101057597_Annex 1 - Description of the action _par...)
+    -> 4 sections: ['1.1', '1.3', '1.4', '4']
+  NANOPAT (NANOPAT__Annex 1 - Description Of Action _part B_ _2_.pdf...)
+    -> 2 sections: ['4', '2.3']
+  NEMOSINE (NEMOSINE__Annex 1 - Description Of Action _part B_.pdf...)
+    -> 2 sections: ['4', '3.3']
+  NEURICE (NEURICE__NEURICE_Proposal-SEP-210268294.pdf...)
+    -> 2 sections: ['4', '3.3']
+  OLEDSOLAR (OLEDSOLAR__Public DoA General Info.pdf...)
+    -> 6 sections: ['4', '1.2', '1.3', '1.4', '2.1', '2.2']
+  OLEDSOLAR (OLEDSOLAR__Public DoA WPs and Partner Info.pdf...)
+    -> 2 sections: ['4', '3.1']
+  PATAFEST (PATAFEST__PROPOSAL_101084284-stage1-PATAFEST-HORIZON-CL6-202...)
+    -> 3 sections: ['1.1', '1.2', '2.1']
+  PATAFEST (PATAFEST__PROPOSAL_101084284-stage2-PATAFEST-HORIZON-CL6-202...)
+    -> 2 sections: ['3.2', '4']
+  PERCAL (PERCAL__Public DoA PERCA.pdf...)
+    -> 3 sections: ['4', '3.1', '1.2']
+  PERCAL (PERCAL__Public DoA PERCAL - WPs and Info Partners 01-10-2018...)
+    -> 1 sections: ['4']
+  PHOTONFOOD (PHOTONFOOD__Public DoA- General Info.pdf...)
+    -> 8 sections: ['1.1', '1.2', '1.3', '4', '1.4', '2.1', '2.2', '3.1']
+  PHOTONFOOD (PHOTONFOOD__Public DoA- WPs and Partners Info.pdf...)
+    -> 4 sections: ['3.1', '3.2', '3.3', '4']
+  POMATO (POMATO__PUBLIC DOA POMATO.pdf...)
+    -> 1 sections: ['4']
+  POWE2HYPE (POWE2HYPE__PUBLIC DOA POWER2HYPE.pdf...)
+    -> 2 sections: ['4', '3.2']
+  PRESERVE (PRESERVE__PRESERVE_Proposal-SEP-210659280 _2_.pdf...)
+    -> 3 sections: ['4', '3.3', '2.3']
+  PRIMROCK (PRIMROCK__PUBLIC DOA PRIM ROCK.pdf...)
+    -> 2 sections: ['3.2', '4']
+  PROMETHEUS (PROMETHEUS__825503_Annex 1 - Description Of Action _part B_....)
+    -> 2 sections: ['4', '1.2']
+  PROMETHEUS (PROMETHEUS__Annex 1 - Description Of Action _part B_ _4_.pdf...)
+    -> 2 sections: ['4', '1.2']
+  PROPAT (PROPAT__PROPAT Amendment - Annex 1 Part B.pdf...)
+    -> 2 sections: ['4', '2.1']
+  RECLAIM (RECLAIM__Proposal-SEP-210784142.pdf...)
+    -> 9 sections: ['4', '1.1', '1.2', '1.3', '1.4', '2.1', '2.2', '3.1', '3.2']
+  RECOVER (RECOVER__Public DoA- General Info.pdf...)
+    -> 7 sections: ['1.1', '1.2', '1.3', '1.4', '2.1', '2.2', '3.1']
+  RECOVER (RECOVER__Public DoA- WPs and Partners Infoo.pdf...)
+    -> 3 sections: ['4', '3.1', '3.3']
+  RECREATE (RECREATE__Public DoA- General info.pdf...)
+    -> 4 sections: ['1.1', '1.2', '2.1', '2.2']
+  RECREATE (RECREATE__Public Doa- WP.Partners info.pdf...)
+    -> 1 sections: ['3.2']
+  RECREATE (RECREATE__RECREATE PUBLIC DOA.pdf...)
+    -> 6 sections: ['1.1', '1.2', '2.1', '2.2', '3.1', '3.2']
+  REDOL (REDOL__Amendment - AMD-101091668-4-REDOL - PUBLIC DOA-Excell...)
+    -> 1 sections: ['4']
+  REDOL (REDOL__Proposal-SEP-210848083-REDOL.pdf...)
+    -> 1 sections: ['4']
+  REMADYL (REMADYL__Public DoA_Remadyl.pdf...)
+    -> 2 sections: ['4', '3.3']
+  RESCHAPE (RESCHAPE__PUBLIC DOA RESCHAPE.pdf...)
+    -> 3 sections: ['1.1', '3.2', '2.2']
+  RETAIN (RETAIN__PUBLIC DOA RETAIN.pdf...)
+    -> 4 sections: ['4', '2.1', '2.3', '3.2']
+  RIVER (RIVER__PROPOSAL_101254362-RIVER -RFCS-2025-CSP-PART_B_Sectio...)
+    -> 1 sections: ['4']
+  RIVER (RIVER__PROPOSAL_101254362-RIVER -RFCS-2025-CSP-PART_B_Sectio...)
+    -> no sections found, skipping
+  RIVER (RIVER__PROPOSAL_101254362-RIVER -RFCS-2025-CSP-PART_B_Sectio...)
+    -> no sections found, skipping
+  ROSSINI (ROSSINI__Annex 1 - Description of Action _part B_ - Sept 202...)
+    -> 2 sections: ['3.3', '4']
+  SCALIBUR (SCALIBUR__Proposal-SEP-210503393 _1_.pdf...)
+    -> 2 sections: ['4', '3.3']
+  SECUREFOOD (SECUREFOOD__PROPOSAL_101136583-SecureFood-HORIZON-CL6-2023-F...)
+    -> 5 sections: ['1.1', '2.2', '2.3', '3.1', '3.2']
+  SHAREBOX (SHAREBOX__SHAREBOX Annex 1 - Part B - 27032018.pdf...)
+    -> 1 sections: ['4']
+  SOLUTIONS (SOLUTIONS__Proposal-SEP-210560696 5G-SOLUTIONS1.pdf...)
+    -> 2 sections: ['4', '3.3']
+  SORT4CIRC (SORT4CIRC__SORT4CIRC PUBLIC DOA.pdf...)
+    -> 3 sections: ['2.1', '3.2', '3.3']
+  SPRING (SPRING__PUBLIC DOA SPRING.pdf...)
+    -> 2 sections: ['4', '3.3']
+  SUPREME (SUPREME__Proposal-SEP-210407747.pdf...)
+    -> 2 sections: ['4', '3.3']
+  SUSALGAEFUEL (SUSALGAEFUEL__PROPOSAL_101147601-SusAlgaeFuel-HORIZON-CL5-20...)
+    -> 4 sections: ['4', '2.2', '2.3', '3.2']
+  SUSTAINEXT (SUSTAINEXT__PROPOSAL_101112434-SUSTAINEXT-HORIZON-JU-CBE-202...)
+    -> 2 sections: ['4', '3.3']
+  THESEUS (THESEUS__PUBLIC DOA THESEUS.pdf...)
+    -> 3 sections: ['3.2', '2.1', '2.3']
+  UPSKILL (UPSKILL__UP-SKILL PUBLIC DOA.pdf...)
+    -> 3 sections: ['4', '1.2', '3.2']
+  URBIOFIN (URBIOFIN__Public DoA 745785-URBIOFIN.pdf...)
+    -> 2 sections: ['4', '3.3']
+  URBIOFIN (URBIOFIN__Public DOA _part B_ _1_ _1_ aug2020.pdf...)
+    -> 1 sections: ['4']
+  VISS (VISS__Annex 1 - Description of the action _part B_.pdf...)
+    -> 2 sections: ['4', '1.1']
+  W2W (W2W__W2W PUBLIC DOA.pdf...)
+    -> 1 sections: ['4']
+  WHITECYCLE (WHITECYCLE__Proposal-SEP-210765929-WHITECYCLE.pdf...)
+    -> 2 sections: ['4', '3.2']
+
+Extracted 327 sections from 78 projects -> retrain\corpus\inventory.csv
+
+Coverage matrix (cluster × section_id):
+ cluster |   1.1 |   1.2 |   1.3 |   1.4 |   2.1 |   2.2 |   2.3 |   3.1 |   3.2 |   3.3 |     4
+------------------------------------------------------------------------------------------------
+     CL2 |     1 |     0 |     0 |     0 |     0 |     1 |     0 |     0 |     1 |     0 |     0
+     CL4 |     7 |     7 |     3 |     2 |     5 |     8 |     6 |     6 |    14 |     0 |    17
+     CL5 |     1 |     1 |     0 |     0 |     0 |     2 |     1 |     1 |     2 |     0 |     2
+     CL6 |     3 |     2 |     1 |     1 |     4 |     4 |     3 |     1 |     6 |     2 |     6
+     CL? |    13 |    16 |    10 |    10 |    13 |    11 |     7 |    18 |     9 |    32 |    67

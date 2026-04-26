@@ -1,0 +1,1344 @@
+3.1 Work plan and resources 
+ 
+Figure 16 Gantt chart of INPERSO  
+ 
+Figure 17 Pert chart of the INPERSO project 
+Table 3.1a: List of work packages 
+# WP Title Lead Acronym PMs Start End 
+1 WP1 End user requirements and project specifications 7 IVE 94 1 6 
+2 WP2 Sustainable renovation products and processes 5 CART 263 7 31 
+3 WP3 Integration of BIM-based workflows 11 DMO 207 7 31 
+4 WP4 New models for deep low carbon renovation 4 TAU 139 7 31 
+5 WP5 Validation and demonstration 14 AMS 372 1 48 
+6 WP6 Preparation for market roll-out 3 CORE 103 1 48 
+7 WP7 Dissemination, exploitation and communication 6 MIRC 112 1 48 
+8 WP8 Project Management 1 ITA 87 1 48 
+   Total 1377   
+Description Lead Start End 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48
+WP1 End user requirements and project specifications IVE 1 6 1 Milestones
+T1.1 Definition of end user requirements IVE 1 6 1 Deliverables
+T1.2 Consolidation of technological and system specifications UPV 1 6
+T1.3 Identification and plan for the involvement of local stakeholders TAU 1 6
+WP2 Sustainable renovation products and processes CART 7 28 2 3 2
+T2.1 Establishment of sustainable material supply chains MIRTEC 7 24
+T2.2 Sustainable prefabricated components AMS 7 28
+T2.3 Integrated ventilative HVAC VENT 12 28
+T2.4 BIPV modification and integration METSOL 12 28
+T2.5 Solar windows manufacturing IWIN 7 28
+T2.6 Introduction of advanced manufacturing technologies VIAS 7 28 3
+WP3 Integration of BIM-based workflows DMO 7 31 4 4
+T3.1 SCAAI - Scan to BIM and asset recognition tool R2M 7 18
+T3.2 BIM-based management platform - RE Suite DMO 7 31
+T3.3 AR-enabled renovation support R2M 7 31
+T3.4 IoT and WSN integration IRIS 7 24
+T3.5 Multi-Stage Energy Consulting System CORE 7 31
+T3.6 Network and Interface for air quality optimisation EPFL 7 31 5
+WP4 New models for deep low carbon renovation TAU 7 31 5 6
+T4.1 Low carbon renovation design TAU 7 31
+T4.2 Capacity building R2M 7 31 7
+T4.3 Stakeholder engagement IVE 7 31 6
+T4.4 Life Cycle Analysis & Cost Benefit Analysis IVE 7 31
+T4.5 User interaction with novel digital systems TAU 7 31
+WP5 Validation and demonstration AMS 1 48 7 8 8 9
+T5.1 Monitoring and commissioning of demonstration sites UPV 1 29
+T5.2 DC #1 – Calle Estrella AUMSA 1 43
+T5.3 DC #2 – Trinity Complex MWNB 1 43
+T5.4 DC #3 – Social Shelter Litous Street DVVV 1 43
+T5.5 Monitoring of renovation energy footprint ACCIO 12 32
+T5.5 Post occupancy evaluations TAU 24 48
+T5.6 Demonstration activities and evaluation of results ITA 32 48 9 10
+WP6 Management of INPERSO innovations CORE 1 48 10 10
+T6.1 Standardisation, certification and regulatory monitoring EUROC 1 48
+T6.2 Ecosystem empowerment activities IVE 24 48
+T6.3 INPERSO development cycle finalization UPV 31 48 11
+T6.4 Market analysis, Target Groups, and Value Proposition CORE 1 48 11
+T6.5 Sustainable Innovation Management CORE 1 48
+WP7 Dissemination, exploitation and communication MIRTEC 1 48 12 12 12 12
+T7.1 Communication and dissemination MIRTEC 1 48
+T7.2 Exploitation strategy CORE 1 48 13
+WP9 Project Management ITA 1 48 13 14
+T9.1 Administrative and financial project management ITA 1 48 15 15 15
+T9.2 Technical and scientific management UPV 1 48 16 16 16
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 48/70 
+WP1 End user requirements and project specifications 
+Work package number  WP1 Lead beneficiary IVE  Start 01 
+Work package title WP1 End user requirements and project specifications End 06 
+# 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22  
+ 
+ITA 
+UPV 
+CORE 
+TAU 
+CART 
+MIRC 
+IVE 
+R2M 
+METS 
+IRIS 
+DMO 
+EURO
+C VENT 
+AMS 
+AUMS
+A MWN
+B DVVV 
+ACCI
+O VIAS 
+SUPSI 
+IWIN 
+EPFL 
+ 
+PM 2 4 6 3 3 2 18 5 2 7 4 4 2 2 7 4 2 3 2 8 2 2  
+WP1 Objectives: To identify and establish the needs and requirements where INPERSO will be implemented, 
+collect and consolidate technical information and refine the scope of the proposal where details are missing.  
+(1) Define, analyse, and consolidate user requirements  
+(2) Compile technological and system integration specifications 
+(3) Construct a plan for the involvement of local communities and regional stakeholders 
+Description of Work – WP Leader: IVE 
+T1.1 Definition of end user requirements - (IVE), M01-M06 
+This task will consolidate end user related information and deliver a comprehensive report refining the goals of the 
+demonstrations. The demonstrators (AUMSA, MWNB, DVVV) will provide feedback with regards to (a) existing 
+technical and non-technical issues with their properties, and (b) their expectations from INPERSO. The conclusions 
+will be used to  facilitate the communication between the Consortium, provide common goals and establish solid 
+foundations for the dissemination, exploi tation and communication a ctivities. Specifically, the following aspects 
+will be consolidated: 
+• User requirements (UPV): Technical (i.e., building design specifications), budgetary (how much is intended to 
+be invested for the new construction or retrofit) a nd functional (energy performance and operation, additional 
+functions such as storage, EV charging etc). 
+• Consolidation of available building designs and BIM assets (DMO) from the demonstration sites. A systematic 
+review and collection of available plans and information will be carried out to lay the groundwork for the planned 
+interventions. 
+• Stakeholder mapping relevant to each neighbourhood (TAU) 
+Partners involved : Demonstrators will provide requirements. Output: Consolidated end-user requirements 
+included in D1.1. 
+T1.2 Consolidation of technological and system specifications - (UPV), M01-M06 
+Specifications relevant to the technologies, processes and tools employed will be consolidated to ensure 
+interoperability is not compromised and that synergies are maximized. Selection of sensor and IoT devices will be 
+conducted based on data requirements including parametric scenarios based on both real -time data (or almost real 
+time) values of energy (thermal – electricity consumption), insolation, occupancy, shading, window positions and 
+other parameters relevant to the workplan. The end-users will provide input with regards to requirements (the level 
+of optimization and cost savings they would consider satisfactory) and preferences (intrusiveness of additional 
+electronics, cost etc). The finalized selection will be accompanied by a refined and consolidated set of KPIs agreed 
+by the Consortium. Partners involved: All partners will be involved. Output: Consolidated technical specifications 
+included in D1.1. 
+T1.3 Identification and plan for the involvement of local stakeholders - (IVE), M01-M06 
+The human dimension will be placed in the core of each stage of the project 
+and the resulting service. To design a solution that is useful to humans, it is 
+needed they are eng aged i n a process known as human  centred desi gn. 
+Human-centred design is not a perfectly linear process, and each project 
+invariably has its own contours and character. The process is best described 
+as a “converge-diverge” cycle, where you go big in your thinking, dial down 
+into specifics and practicality, look back at the big picture, and iterate. 
+Figure 18 Source: The Field 
+Guide to Human-Centered Design 
+This process will be expanded in INPERSO project through a stakeholder-centred approach as an iterative process 
+where interaction with the different stakeholders (users, technology/service providers) will be carried out to refine 
+the final output to:  Analyse and cluster the demand -side and s pecify the development drivers for the different 
+technologies/services from a user -centred approach. The stakeholder-centred approach will be used to know the 
+drivers for the different technologies from the different stakeholder’s point of view to help technology providers to 
+improve their final products.  In that sense, a stakeholder engagement p lan will be designed with instruction s on 
+how the local/national networks of stakeholders that partners can reach could be engaged from the beginning of the 
+project. First, focus groups meetings, workshops (online/in-person) with stakeholders will be proposed. In a second 
+stage surveys and in quiries will be designed to go d eeper to figu re out and understand final users’ needs. The 
+conclusions will strongly interact with the demo cases, exchanging methodologies and information, provide input 
+for the definition of the user-centred approach and the development drivers for the different technologies and drive 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 49/70 
+the matching of the business models between demand and industry. Partners involved : TAU- analysis of 
+performance gap Output: Stakeholder engagement plan included in D1.1. 
+Deliverables 
+D1.1 INPERSO Specifications and user requirement report (IVE, R, SEN, M6): Report comprised of the outputs 
+of T1.1-4 and describing in detail the scale and scope of the INPERSO project. 
+MS1.1 Action plans for demonstrations (M6): Demo groups and action plans ready. 
+ 
+WP2 Sustainable renovation products and processes 
+Work package number  WP2 Lead beneficiary CART  Start 07 
+Work package title WP2 Sustainable renovation products and processes End 28 
+# 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22  
+ 
+ITA 
+UPV 
+CORE 
+TAU 
+CART 
+MIRC 
+IVE 
+R2M 
+METS 
+IRIS 
+DMO 
+EURO
+C VENT 
+AMS 
+AUMS
+A MWN
+B DVVV 
+ACCI
+O VIAS 
+SUPSI 
+IWIN 
+EPFL 
+ 
+PMs 42 20 0 0 45 14 2 0 12 0 0 0 24 27 0 0 0 0 13 30 34 0  
+WP2 Objectives: The objective of WP2 is to consolidate the Retrofit -Kit configurations, addressing challenges in 
+the modification and prototyping of systems and components, as well as establishing LCA -based decision making 
+to facilitate the reduction of the CO2 footprint in supply chains. WP2 will be led by CART. 
+(1) To assess and improve the CO2 footprint of renovation processes and products; 
+(2) To produce CDW based building components with excellent structural, thermal and acoustic properties, with 
+embedded sensors, energy storage and controls;  
+(3) Integrate energy harvesting through BIPV with improved cost efficiency and increased versatility in adaptation 
+to the heterogenous building typologies involved; 
+(4) To prototype components considering the requirements of heritage buildings; 
+(5) To deliver integrated, ventilative HVAC system and interface it with INPERSO platform resources; 
+(6) To deploy solar windows with integrated controls, storage functions and implement manufacturing options 
+allowing easier access to markets. 
+T2.1 Establishment of sustainable material supply chains - (MIRC), M07-M24 
+In this task, MIRC will establish a strategy and channels for sustainable construction component supply chains: 
+-CDW valorisation pathways through (a) replacement of raw materials, (b) direct integration new components. The 
+inputs will examine material flow valuating proximities and synergies withing the B&C and other verticals for the 
+three demonstration sites . Moreover, in this tasks, product and service developers will be supported in rendering 
+their technologies compliant with design -for-disassembly methodologies and provi ding c omprehensive plans to 
+manage their end-of-life phase. Partners involved: VIAS, CART, METSOL, IWIN, AMS  Output: Sustainable 
+B&C value chains report (R.2.2) included in D2.1&2 reports. 
+T2.2 Sustainable prefabricated components - (AMS), M7-M28 
+In this task, the Smart Wall component will be modified to increase its flexibility with regards to sustainable material 
+integration. This will also include the instructions towards material producers r elevant to the integration process. 
+More specifically, after th e requirements for the Greek dem o building have been defined, AMS will perform the 
+designing of the Smart Wall system and its combination with a number of additional technologies. The design will 
+take into account whether the system will serve for internal  or external use or as a standal one wall and will be 
+selected the appropriate insulation materials and frame system according to the materials thermal behaviour, eco -
+friendliness and recyclabil ity. In addition, AMS will produce in the Technology Upscaling Pilot Plant: a) multi-
+functional coatings with self -cleaning, self-healing, IR reflective, anti -moulding properties and ii) geopolymeric 
+pastes from CDW that will serve as claddings for the Smart Wall systems. Moreover, the appropriate HVAC systems 
+and sma rt win dows (i.e. photochromic) w ill be selected and either integrated in the Smart Wall or installed as 
+standalone systems, based on the specific requirements of the demonstration. 
+Partners involved: MIRC Output: Smart Wall (R3.2) prototype as part of the D2.1 INPERSO Retrofit-Kit. 
+T2.3 Integrated ventilative HVAC - (VENTI), M12-M28 
+In this task, the system integration will feature new control strategies oriented towards the low-carbon renovation 
+models. Moreover, preparatory work for the interop erability with the INPERSO monitoring and c ontrol modules 
+will also be conducted. Following the manufacturing of the units, functional and performance tests will be conducted 
+for validation. The units will be shipped to demo cases as  per the requirements of WP1. In addition, high capacity 
+PCM based thermal storage materials will be integrated to the Energy Pod and tested to identify the optimal operating 
+conditions. The high-capacity thermal energy storage in which PCM materials are used as medium and where  the 
+heat transfer from/to the module will be improved by embedding a heat pipe heat exchanger. The heat pipe structure 
+is designed and experimentally validated to demonstrate efficient heat delivery from the heat source to the PCMs 
+and heat release to the  ultimate heat sink fluid. A comparative as sessment between the PCM thermal storage and 
+other types of storage (water, virgin PCM) will be conducted in operational capacity. 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 50/70 
+Output: Energy Pod (R3.1) prototype as part of the D2.1 INPERSO Retrofit-Kit. 
+T2.4 BIPV modification and integration - (METSOL), M12-M28 
+Design and development of Photovoltaic systems for seamless integration into building envelope (roof/facade).  
+Optimize design to meet both economical and aesthetical requirements for further integration into  Retrofit-Kit. 
+According to the designs, BIPVs will be relevantly modified and manufactured to accommodate the orientation and 
+integration (roof, façade, outdoor) in the demonstration sites. A share of BIPV modules will be modified for  
+integration in the new prefabricated elements. Interfacing of BIPVs with the integrated ventilative HVAC units will 
+also be a part of this task, to deliver interoperable plug-and-play systems. Aesthetic optimization will be conducted 
+and heritage requirements (colour/texture and others) will be assessed. Partners involved: VENTI Output: Roof 
+and façade BIPVs (R3.4) prototype as part of the D2.1 INPERSO Retrofit-Kit. 
+T2.5 Solar windows manufacturing - (IWIN), M7-M28 
+In T2.5, IWIN will : (a) conduct prototyping for the solar windows  to be a ssembled according to heri tage 
+requirements and (b) upscale production capacity according to their commercialisation roadmap to achieve TRL9.  
+For (b), a semi-automatic manufacturing will be preferred due to the significant variations of window types ordered 
+by clients. SUPSI will support IWIN in increasing the automation level of processes by streamlining manufacturing 
+parameter integration. Moreover, IWIN will collaborate with B&C experts of INPERSO to identify, verify  and 
+address pain-points in the process of commercialisation. For (a), IWIN will receive information regarding the visual, 
+textural and other features of the heritage demonstration sites (DC#1 and #2)  and produce a number of testing 
+prototypes to assess adherence to heritage status. This process will also include interfacing with local manufacturers 
+(frames, blinds) where the solar glass will be integrated. SUPSI will support the product technology validation of 
+iWin innovative windows through the definition of specific quality and testi ng pla n needed. The performance 
+validation of the innovative window will be done at SUPSI PVlab. Relevant façade typologies will be taken into 
+account in relation to the architectural integration scenarios. Moreover, the technology will be subjected to som e 
+extended performance-based tests, in relation to mechanical and electrical safety, by adapting the test set-up to BIPV 
+combined requirements for the product typology. SUPSI will support the manufacturing process by providing all 
+the needed specifications  in or der to ensure representati ve sam ples/prototypes. SUPSI will collaborate for 
+developing technology concepts and technical solutions for best integration of BIPV in an adaptive façade system, 
+taking into account costs, needed skills, quality assurance,  production, logistics, building construction efficiency, 
+viability of maintenance and end-of-cycle including possible disassembly. 
+Partners involved: SUPSI Output: Solar windows (R3.3) prototype as part of the D2.1 INPERSO Retrofit-Kit. 
+T2.6 Robotic, vertical façade 3D printer integration, (VIAS), M7-M28 
+This task features the following activities: (i) System requirements elicitation, (ii) System conceptual design. From 
+previous subtask outcome, a conceptual system will be sketched. (iii) Definition of the validation plan, (iv) Prototype 
+detailed design. Mechatronics and robotics engineering a ctivities needed for the detailed design of the prototype 
+system. Modelling and simulation -based systems engineering will be applied in this development to handle the 
+expected complexity and reduce the technological risk. (v) Manufacturing and testing of subsystems (vi) Integration 
+and commissioning of the system.  To deliver the vertical 3D printing pro totype, the following systems will be 
+integrated: (a) Global positioning subsystem. The 3D printing robot will be fixed to a scaffold motorized platform 
+that can cover the façade envelope and which allow autonomous movement according to higher level orders.  (b) 
+Safety subsystem based on robotic perception sensors and SW that will allow all the move ment of the global and 
+local mobile parts preventing collisions and shar ing space with human operators without  a safety fence. (c) BIM 
+integration SW to define and control the whole renovation process.  (d) Mobile concrete pump adapted to specific 
+requirements of the printing materials. (e) Power generator to provide the energy to the different subsystems.  
+Partners involved: VIAS: Façade 3D printing requirements preparation, last generation materials selection, system 
+validation and product exploitation. CARTIF: 3D printing extrusion head integration in industrial robot arm. Printing 
+control, including the pumping system. ITAINNOVA: Façade 3D printing positioning and moving system design & 
+development. Perception system to allow safe Human Robot collaboration, UPV: 3D printing constructive process 
+requirements, BIM integration, relation to  INPERSO renovation workflo w Outputs: 3D Printing subsystem 
+(integrated head, arm, pump) (UPV,CART); Global positioning subsystem (ITA) as consolidated in the D2.2 Façade 
+3D printing prototype. 
+Deliverables 
+D2.1 INPERSO Retrofit-Kit (ITA, DEM, M28, SEN): Prototypes of technologies described in T2.1-6, installed at 
+the demonstration sites and report describing the integration process and sustainable material supply chains.  
+D2.2 Façade 3D printing prototype  (VIAS, DEM, M28, SEN): Prototype of integrated 3d -printing system 
+including documentation for design and implementation regarding BIM and site operations and sustainable material 
+supply chains. MS2.1 Heritage compliance status - Status report and corrective steps presented 
+MS2.2 Prototype progress Early prototypes presented 
+ 
+ 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 51/70 
+ 
+ 
+ 
+ 
+ 
+WP3 Integration of BIM-based workflows 
+Work package number  WP3 Lead beneficiary DMO  Start 07 
+Work package title WP3 Integration of BIM-based workflows End 31 
+# 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22  
+ 
+ITA 
+UPV 
+CORE 
+TAU 
+CART 
+MIRC 
+IVE 
+R2M 
+METS 
+IRIS 
+DMO 
+EURO
+C VENT 
+AMS 
+AUMS
+A MWN
+B DVVV 
+ACCI
+O VIAS 
+SUPSI 
+IWIN 
+EPFL 
+ 
+PMs 0 0 31 5 4 0 0 30 0 33 27 0 11 8 0 0 0 14 0 3 2 39  
+WP3 Objectives: To identify and establish BIM-related parameters and  integrate the components of the INPERSO  
+platform. 
+(1) To consolidate the RE Suite BIM-based platform as the main tool for implementing the project; 
+(2) To integrate the IoT, OnSite, Passport RE Suite modules and interface with the SCAAI and RIALTO tools; 
+(3) To interface the platform with ECO-I 
+(4) To deliver low-cost and low-energy configurations for WSNs, addressing DAQ needs in the demonstrations; 
+(5) To consolidate a holistic IEQ management interface, and expand it to include outdoor conditions;  
+(6) To deliver the Multi-Stage Energy Consulting System (MuSECS) and integrate in the ECO-I; 
+T3.1 SCAAI - Scan to BIM and asset recognition tool - (R2M), M07-M18 
+This task will develop new methodologies for the Scan to BIM proc ess, for the automatic detection of building 
+objects from the point cloud generated using scanning technologies. The a pplication of AI will allow to perform a 
+segmentation of the point cloud and an automatic association of identified object with elements within a BIM library. 
+The innovative approach of the tool allows the fast assembly of a BIM model based on a scanned 3D  point cloud, 
+instead of reconstructing it.  3D scanning intended to capture a physical object’s exact size and shape into the 
+computer world as a digital 3 -dimensional representation. This technique captures information like the complex 
+geometry, intrigue shape, colorized texture, and other details of the 3D object that is scanned. In this task different 
+tools will be investigated to provide  the most suitable output that can b e used for AI classification, with the focus 
+on laser 3D scanning and photogrammetry scanning technologies. This output could be either a 3d point cloud, OBJ 
+file, hi -res photos, or a combination of all to provide an accu rate classification of the models’ o bjects and 
+components. Furthermore, a definition of an open -source BIM object library – which defines the BIM component 
+and geometry that represents its physical characteristics - will be defined, with certain characteri stics such as: the 
+availability of d ifferent variables that can be modified to match the classified objects. This task  deals with the 
+implementation of the AI tool. Python will be used together with Pytorch and Tensorflow. Initially some tests will 
+be made in Jupyter notebooks before developing the tool, to train and test the models. The AI application should be 
+able to e xtend the BIM model from the information obtained from the segmentation, classification and database 
+load. The generated BIM file which in cludes the info coming from the data base, will be checked and corrected 
+manually if needed, then it will be managed in RE Suite (T3.2). Partners involved: DMO, ACCIO Output: SCAAI 
+- Scan to BIM and asset recognition tool (R1.1). 
+T3.2 BIM-based management platform RE Suite - (DMO), M07-M31 
+In this task, RE Suite passport will be developed to host all building related data during the renovation stage. It will 
+provide all market stakeholders, including financing institutions, investors, insurers, policymakers, owners and 
+operators with access to comprehensive buildings-related documentation and information to enable them to properly 
+assess the many factors impacting the overall quality and performance of buildings. RE Suite passport will 
+facilitates/enables all relevant information flows between d esigners, builders, local authorities, regulators and 
+assessors from the beginning to the end of the renovation process in a BIM based approach. Furthermore, it will also 
+include and manage the outputs of T3.1, where building materials and components will be defined, and BIM models 
+are generated. RE Suite Passport is an essential supporting tool for the Circular Economy, as it will demonstrate the 
+importance of consistent capture and management of building related data al ong the life cycle. To propose and 
+develop optimized renovation solutions, a good understanding of the as-is situation of a building as well as the needs 
+and requirements of the prospective inhabitants is required. Inhabitants’ inputs are crucial to comple ment a set of 
+analyses and simulatio n results particularly concerning comfort. In this respect, a user -friendly ap plication is 
+developed to collect such input from inhabitants. An interactive BIM viewer is implemented in the app to facilitate 
+the communica tion of spatial questions. Inhabitan ts can indicate a space in response to a question.  Partners 
+involved: TAU Output: RE SUITE integrated platform for renovation management (IR1, D3.1). 
+T3.3 AR-enabled renovation support - (R2M), M07-M31 
+This task will deve lop a AR -enabled solution to support  on-site operations during the planning and execution of 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 52/70 
+renovation activities. Op erators will be facilitated in the identification of activities to be performed and possible 
+issues to be reported, thanks to the creation  of virtual layers containing techni cal data and images extracted from 
+BIM models, reports and other documents generated during the building lifecycle. This information will be retrieved 
+from the BIM management platform (T3.2) and, through mobile devices, made available for consultation, upd ate 
+and integration directly from the renovation site. Partners involved: ACCIO, DMO Output: RIALTO - AR tool 
+for renovation support (R1.2) as part of the RE SUITE platform (D3.1). 
+T3.4 IoT and WSN integration - (IRIS), M07-M24 
+Based in the overall system speci fication defined in WP1 regarding the suitable sensor -based control for the 
+deterioration monitoring in each test site, this task entails a more in -depth analysis of the technical features of the 
+hardware and software. An overall architecture of the system will be created. Sensors for the monitoring of critical 
+parameters will be selected and integrated to the ov erall PCB based system. The overall selection of material will 
+be oriented to a low-cost solution. On the other hand, a wireless sensor network will be proposed. The system will 
+be consisting of a heterogeneous wireless sensor network with several RFID nod es and one (or more if required) 
+master node covering a large area and acting as a gateway for the RFID nodes. In both cases, each node will 
+conceptually comprise a sensor unit (SU) and a communication unit (CCU) as part of the integrated design, plus a 
+power supply system able to power the nodes through the required time as defined in the specifications. 
+Partners involved: EPFL Output: Low-cost (R5.2) and low-energy (R5.3) wireless sensor networks. 
+T3.5 Multi-Stage Energy Consulting System - (CORE), M07-M31 
+The Multi-Stage Energy Consulting System (MuSECS for short) will utilise AI/Machine Learning tools combined 
+with energy data to provide better ma nagement of energy resources and improve the energy efficiency goals, 
+combining energy data from heterogeneous sources (within the site, whether it is a construction site or building) as 
+well as information from the energy grid provider and external services into a local database. Specifically, the EMS 
+will collect and monitor (real-time) information from (a) process energy loads, ie the total energy consumption curve 
+of the process, (b) on-site renewables energy production (c) energy storage capacities (d) the available energy mix 
+from the grid & energy prices, and (f) process requirements and constraints. Using the available information, the 
+EMS be able to anticipate the overall process energy needs and will take decisions on the optimal energy mix to be 
+used by finding the most cost -effective energy policy, i.e. the scheduling of the energy sources and storage 
+components that minimize energy costs while satisfying the expected energy consumption of the overall process and 
+the corresponding process constraints.  This will be implemented by formulating the energy optimisation problem 
+into a suitable multi-objective optimization model based on meta-heuristics algorithm with a given “cost criterion” 
+(objective function) that has to be optimized. The objective f unction defines the optimisation goals and typically 
+reflects the operational energy costs as weighted sum of the various energy sources, favouring the use of renewables 
+by considering the energy prices and the correspon ding CO2 emissions. Moreover, the EM S will enable multiple 
+data analytics routines & AI to learn from the historical energy patterns and past actions with the aim to identify the 
+energy intensive sub -processes and optimize their energy efficiency.  The Ass et Health Monitoring agent of the 
+integrated EMS will be responsible for 2 primary functions: (a) condition monitoring: monitoring the current st ate 
+of critical assets in real -time and (b) anomaly detection: conduct advanced data analytics and machine lear ning 
+algorithms for detecting deviations from the normal states and assets with high probability of failure. The value of 
+this function will be t o inform the operator of the smooth operation of the device and provide advance warning in 
+case a deviation fro m operational specifications is anti cipated, so that decision planning for maintenance can be 
+facilitated and justified. Finally, the proposed EMS will be able to handle conventional and renewable energy sources 
+and will be based on a flexible, modular, and scalable architecture that can be easily extended and retrofitted to other 
+similar use -cases according to their needs. This architecture and ap proach to optimisation will enable: (a) the 
+application of MuSECS in the construction/retrofit phase; (b) optimisation of asset and building energy performance 
+in the use phase; (c) interfacing with the RE SUITE platform, commercial BEMS, user prompts (nudge architecture) 
+and (d) interoperability with other optimisation modules such as RE SUITE components and the IEQ interface. 
+Partners involved: ACCIO Output: Multistage energy consulting system (R5.1). 
+T3.6 Network and Interface for air quality optimisation - (EPFL), M07-M31 
+T3.6 will deliver the following outputs: (a) A methodology for benchmarking the I EQ in build ings that have 
+undergone energy renovation; (b) A personalized, sensor-driven recommendation system for air pollution exposure, 
+thermal stress and inadequate noise and lighting avoidance, which can be used during construction works and during 
+the normal op eration of the building. Development  of a new methodology to benchmark the IEQ performance in 
+buildings will include deployment of low-cost IEQ sensing platforms in three demo sites (~50 apartments) and three 
+schools accompanied with occupancy surveys in order to derive a unified IEQ rating index. This index will contain 
+weighting coefficients for each parameter of the indoor environment that is: 1) likely to change in the process of 
+deep energy renovation; 2) that can be measured using accessibl e, low-cost and validated methods; and 3) has a  
+demonstrated impact on people’s comfort and well -being. We plan to develop ICT solutions for the user 
+recommendation system based on low -cost sensor data, which in turn will be guiding behavioural and technic al 
+environmental quality interventions and info rm the application of solutions that have the mandate of being 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 53/70 
+accessible, pleasurable and inclusive. User feedback (data labelling) will be provided through a screen interface that 
+will be installed in each o f the inves tigated spaces. Users will be meanin gfully informed and enabled to make 
+behavioural adjustments that will lead to the reduction of exposure and stress and increase of comfort. Our end 
+product will be a tool (consisting of sensing array and data analytics) that will aid in decision making to reduce our 
+daily exposure, increase comfort and productivity and generally enhance our well-being without compromising the 
+energy use. Partners involved: CORE, VENT, ACCIO Output: IEQ management interface (R5.2). 
+Deliverables 
+D3.1 Integrated BIM-based RE Suite platform (DMO, OTH, SEN, M31): platform prototype with scan-to-BIM 
+and energy management integration as inputs from T3.1-3.4. 
+D3.2 Energy and air quality optimisation interface (ECO -I) (CORE, OTH, SEN, M 31): Integrated ECO -I 
+system prototype consolidating the outputs of T3.4-6. 
+MS3.1 DAQ optimised and calibrated (M18) DAQ in each DC is fully operational. 
+ 
+WP4 New models for deep low carbon renovation 
+Work package number  WP4 Lead beneficiary TAU  Start 07 
+Work package title WP4 New models for deep low carbon renovation End 31 
+# 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22  
+ 
+ITA 
+UPV 
+CORE 
+TAU 
+CART 
+MIRC 
+IVE 
+R2M 
+METS 
+IRIS 
+DMO 
+EURO
+C VENT 
+AMS 
+AUMS
+A MWN
+B DVVV 
+ACCI
+O VIAS 
+SUPSI 
+IWIN 
+EPFL 
+ 
+PMs 0 2 2 34 0 14 18 14 2 0 12 6 2 2 6 2 1 0 2 12 6 2  
+WP4 objectives: Improving actual building energy efficiency decreases carbon emissions towards the EU’s 2050 
+climate targets. The longevity of buildings means they ‘lock-in’ their performance for decades to come and this has 
+two important consequences : (1) renovations will need to mitigate the possible negative impacts of a changing 
+climate; (2) user behaviour influences energy use hence the social dimension and acceptance of renovation 
+technologies should not be side-lined as they determine the success of our quest to reduce carbon emissions. WP4 
+combines these aspects. The goal of WP4 is to create new models for nZEB building renovation with low embodied 
+carbon footprint that is also met in reality and meets future local climate change scenarios: 
+(1) To collect, map, compare and synthesise renovation criteria and standards in each country, also technology 
+acceptance by users; identification of barriers and opportunities.  
+(2) To create energy and embodied carbon models of the pil ot case studies, enabling whole-life carbon scenarios, 
+with sensitivity analyses of different low carbon renovation combinations based on the consortium’s innovations 
+and solutions. Tested for future climate change scenarios. Creation of optimal low carbon renovation models. 
+(3) To t est acceptability of the optimal LCRM with stakeholders, including users and local community and 
+technology acceptance. Creation of new user-centred low carbon renovation models for each location. 
+(4) To create a multi-objective optimisation model based on the above models and criteria, and other parameters. 
+(5) To create a ‘pattern book’ of user-centred solutions.  
+T4.1 Low carbon renovation design - (TAU), M07-M31 
+This task consolidates and advances the state of the art by collecting, mapping, comparing, synthesising and testing 
+renovation criteria and standards and performance ap issues (caused by e.g., by inadequate models, or construction 
+techniques) in each coun try. Further, we will use energy and embodied carbon models (enabling the wh ole life 
+carbon evaluation and  creating truly zero carbon renovation models) and current and future predicted climate 
+scenarios to create optimal renovation models. These will then be tested with stakeholders and users in local focus 
+groups (min. 3 focus groups in each pilot study country with n=7 in each group, so overall min. 63 participants), and 
+further refined to create new user -centred low carbon renovation models for each pil ot study location. It will be 
+based on the technologies and innovative solut ions offered by the consortium  partners, and will lead to a third 
+refinement that includes all of these criteria in addition to health and safety, cost, accessibility, maintenance,  
+interoperability of systems, ease of installation, waste reduction etc. A multi-objective decision-making model with 
+be created to includes these parameters, enabling sensitivity analyses with additional criteria. This will then create a 
+‘pattern book’ for the INPERSO project, but also acts as a blueprint for future projects in t he regions (D4. 1). Of 
+particular importance in this task is the detailed study of the embodied carbon, maintenance and longevity and 
+interoperability of the consortium’s solutions and will also help the consortium partners to advance their Technology 
+Readiness Level. End user and stake holder inclusion will follow the WP1 plan . This optimisation models will be 
+dynamic tools that will be adapted and adjusted during the retrofit and po st-retrofit as more information compares 
+available, enabling ‘live’ decision s to be made and to create a r ealistic model for future decision -making in T5.6. 
+Partners involved: IVE Output: Renovation design methodologies (R2.1). 
+T4.2 Capacity building - (R2M), M12-M31 
+This task will design and implement a strategy to develop compete nces necessary for the correct  adoption of the 
+INPERSO solutions. The objective is to create an INPERSO Training Programme, offered on the INPERSO 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 54/70 
+platform but also through a serie s of Training Actions (workshops, webinars, on -site training at Pilot premis es) 
+targeting the stakeholders identified in T1.4. Technical partners will develop training contents for each INPERSO 
+result, that will be annotated (to facilitate search and aggregation) and combined in training modules and associated 
+to specific renovation products and processes. 
+Partners involved: IVE, TAU, EUROC Output: INPERSO Training Programme (R1.4). 
+T4.3 Stakeholder engagement – (IVE), M07-M31 
+INPERSO seeks to carry out a holistic deep renovation process that not only involves a specific punctual intervention 
+to improve the physical conditions of the building, but also seeks the involvement of all the intervening stakeholders, 
+especially the end users of the building, to al so achieve their transformation improving their day-to-day behaviour 
+and the u se they make of the building. In order to meet this objective and based on the results of Horizon 2020 
+previous projects with successful results about the interaction with users (TripleAreno, Mobistyle Drive0, INFINITE 
+a.o.), the objective of this task is to create and apply a methodol ogy for the involvement of end users and all 
+stakeholders who intervene in the day -to-day of the building to improve their awareness of energy effic iency and 
+circularity so to achieve the best performance possible of the renovated buildings. The methodology will imply the 
+proposal of the appropriate communication mechanisms in each case, the possible advice and language to be used 
+and the tools availa ble to carry out such interaction. The task also involves accompanying the pil ots in the 
+implementation of t he methodology.  Partners involved : R2M Output: Engagement / living lab methodology 
+(R2.2). 
+T4.4 Life Cycle Analysis & Cost Benefit Analysis – (IVE) M07-31 
+In this task, an S -LCA will be carried out leading to the optimization o f the constructive solutions t o the climatic 
+conditions and life cycle considerations. To assess impact along supply chains, Life cycle-based methodologies have 
+been developed ov er time. Life cycle assessment (LCA) considers mainly environmental impacts al ong supply 
+chains, from extraction of raw materials to end-of-life of products. Similarly, social life cycle assessment (S-LCA) 
+integrates traditional life cycle assessment methodological steps while having social impacts as focus. Coupling the 
+assessment of environmental and socio-economic issues may support more comprehensive sustainability assessment 
+of impacts, benefits, and related trade -offs. The task will develop a methodol ogical framework for the social 
+sustainability assessment in building retrofit : a) Draft of a causal loop di agram according to the system dynamics 
+approach to identify the cause -effect relationships among the different variables, stakeholders, and impacts areas 
+related to building retrofit. b) Performance of a social hotspots screen ing to detect major potential social impacts 
+and risks related to building retrofit and most contributing processes to social issues. The screening will combine 
+different tools and methods, such as a literature review, thematic interviews with key stakeholders and a preliminary 
+social LCA study with SimaPro 9.1 LCA software using related methods such as EPS2015, damage-oriented impact 
+assessment method. c) Selection of social indi cators suitable for the assessment and monitoring of the social 
+sustainability performance of retrofitting. e) Validation of the framework with the local demo cases. The task will 
+produce a report on the developed methodology (draft at M18, final at M28). Output: LCA &CBA report (D4.1). 
+T4.5 User interaction with novel digital systems - (TAU), M07-M31 
+A selection of the most promising smart tech (apps, sensors, robots, games etc.) based interaction design concepts 
+will be tested with local users in focus group studies in each pilot country – invited as per WP1 plan, and as per T 
+4.1 (n=63). This study will create a shortlist of smart tech to be tested in more detail and over a longer period with 
+a smaller user group (max. 50% of the sample; i.e. around 10 users in each region.) The most promising smart tech 
+concepts (based on user frie ndliness, user expe rience, energy saving potential and actual energy saving or other 
+sustainable behaviour benefit) and guidelines will be applied in the INPERSO renovation model, creating a ‘human-
+centred smart tech renovation guide’. This approach will provide valuable feedback in the process of maturing the 
+technologies. Partners involved: Tech developers Output: Human-centred smart tech renovation guide (R2.6). 
+Deliverables 
+D4.1 INPERSO deep low carbon renovation models (TAU, R, SEN, M18,31) Report describing the INPERSO 
+methodology (M18-TAU) and engagement / living lab methodology (IVE M18) including a ‘user-centred smart tech 
+renovation guide. The report will be updated in M31 for post-occupancy evaluations including details on stakeholder 
+engagement activities (M31-IVE) and LCA& CBA and INPERSO upscale to prepare for early adopters engagement. 
+A h uman-centred smart tech renovation guide  comprising a  multi-objective de cision-making model enabling 
+sensitivity analyses with additional criteria and a ‘pattern book’ for the INPERSO project as a blueprint for future 
+projects in the regions (D4.1) will be included.  
+D4.2 INPERSO training programme (R2M, OTH, PU, M31) A package of on-line training material for TGI,II 
+professionals and TGVI INPERSO users and public.  
+MS4.1 Stakeholder engagement progress (M18) Status presented and corrective steps MS4.2 Plan for capacity 
+building (M18) Draft plan circulated. 
+ 
+ 
+ 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 55/70 
+WP5 Validation and demonstration 
+Work package number  WP5 Lead beneficiary AMS Start 01 
+Work package title WP5 Validation and demonstration End 48 
+# 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22  
+ 
+ITA 
+UPV 
+CORE 
+TAU 
+CART 
+MIRC 
+IVE 
+R2M 
+METS 
+IRIS 
+DMO 
+EURO
+C VENT 
+AMS 
+AUMS
+A MWN
+B DVVV 
+ACCI
+O VIAS 
+SUPSI 
+IWIN 
+EPFL 
+ 
+PMs 18 30 25 19 12 3 6 10 9 17 24 23 10 42 20 14 18 27 5 6 14 20  
+WP5 Objectives: To validate and demonstrate the completed INPERSO system in three project demonstration sites. 
+(1) To implement project activities in the demo cases and carry out all administrative, technical or other actions 
+needed to pre pare the demo cases regarding logistics, construction project management alignment, permissions, 
+stakeholders involved and evaluation groups; 
+(2) To validate each technology and subsystem (IR) in the operational environment of the demonstrations; 
+(3) To carry out comprehensive demonstrations of each of the project’s results and highlight the innovations; 
+(4) To evaluate the results and collect data to be utilised to increase the TRL of the solutions to 8 (WP6). 
+T5.1 Monitoring and commissioning of demonstration sites (UPV) M01-M29  
+In this task, the activities carried out to realise the scope of the INPERSO demonstrations will be monitored and 
+supported. Each demonstration will follow the Common Implementation Methodology, adapted per the respective 
+Action Plan. The individual interventions are described in T5.3-5. The common approach is as follows:  
+Phase 1 – Design (M7-18): following the conclusion of WP1, the refined and consolidated specifications & 
+requirements will allow each demonstrator to finalise their demonstration designs (M18). Smart meters for overall 
+building consumption will be installed as soon as possibl e for basic data collection (M3). Demonstration groups 
+(individuals from each participant) will be defined to facilitate management  according to the following draft 
+assignments: DC#1 AUMSA, IVE, ACCIO; DC#2 MWNB, DMO, R2M; DC#3 DVVV, AMS, CORE, VIAS. 
+ In parallel, administrative actions (obtaining permits, submitting plans a.o.) will be carried out and any risks will be 
+reported, updating the risk log. A detailed bill-of-materials and tender information will be reported. Key stakeholders 
+(as identified in WP1) will be approached and involved in conjunction with the activities of WP4. Health, safety and 
+accessibility aspects will be assessed rigor ously (EUROC), especially with  regards to fire, seismic safety and 
+waterproofing. In this context, regulatory risks will also be identified and reported in  the Risk Log. A monitoring 
+plan will be deployed in each of the selected buildings (IRIS, DMO, R2M, CORE) for the test sites.  UPV will 
+oversee this part of the work focusing on aspects on communication, uniformity, good coordination between actors 
+in the projects and avoidance of additional costs incurred. 
+Phase 2 – Integration (M19-28): Buildings will be monitored for a full year (not counting calibrations) to establish 
+the energy performance baseline prior to the interventions. Air quality sensors and acoustic sensors will be installed 
+to assess the noise and dust levels and compare with conventional co nstruction values based on li terature and 
+elaborated via the Advisory Board and consultation with stakeholders. Each of the technologies of the Retrofit -Kit 
+will be integrated during this stage. Following the design activities of Phase 1, components will b e manufactured, 
+shipped and installed during this period.  
+Phase 3 – Validation (M24-31): During this phase, the integrated systems will be validated in the operational 
+environments of the demonstration sites. Evaluation of the proposed actions from a technoeconomic perspective will 
+also be conducted (CORE), Feedback from the citizens in terms of elaborated user satisfaction will be included.  
+RE Suite: DMO and R2M will integrate the RE Suite components and deploy the platform (IR1) and utilise it data 
+collection at the demo sites, addressing also challenges with regards to heritage asset entry in BIM libraries. 
+Façade 3D Printer: ITA and UPV will work with CART and VIAS to deploy the façade 3D printer (IR4) at the sites 
+which allow for deployment due to spat ial considerations (DC#2 and D C#3). Issues will be identified and if 
+deployment is problematic an alternative demonstration site will be imp lemented. The prototype will be tested 
+according to the plan defined and the capabilities and areas of improvement w ill be identified and reported before 
+releasing the system for the operational demonstration.   
+Retrofit-Kit: AMS, VENT, IWIN, SUPSI and METSOL will verify the technological configurations, manufacture 
+and support the installation of the Retrofit-Kit and associated components (IR3) in the demonstration sites according 
+to the detailed designs.  
+ECO-I: CORE, IRIS and EPFL will deploy the ECO-I, that will be used with ACCIO’s support to assess and optimise 
+construction works (IR5). 
+Accessibility, safety & health review (EUROC). This review will compare these parameters in  the consortium’s 
+different innovation systems, feeding into the optimisation models in Task 4.1. Typical renovation accessibility and 
+OHSE issues encountered  on-site will be reviewed and compiled in a digital  health and safety operation guide.  
+Output Validation report (D5.1). 
+T5.2 DC #1 – Calle Estrella (AUMSA) M01-M43  
+DC#1 is a multifamily building constructed in 1850 and renovated in 2002. DC#1 features 22 interior (courtyard 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 56/70 
+facing) windows and 2 doors. The exterior (heritage protected) comprises 16 balconies, 10 windows (2 on the sloped 
+roof) and two gateways. The exterior façade has a total area of 314.16m 2, while the interior is 244.8m 2. The 
+demonstrations will be centred around showcasing the improvements of building performance and user satisfaction 
+from the renovation works. The main challenges are: (a) the heritage status, (b) the location (city centre, occupancy, 
+ground floor market), (d) low smartness and ageing equipment. Interventions will be focused on improving the CO2 
+footprint of renovations by means  of sustainable products & processes, modification of prototypes to adhere to 
+heritage regulations, introduction of digital solutions and user engagement. For the design (pre-retrofit) phase, DC#1 
+will be supported by IVE  & TAU to define user needs and loc al contexts and deliver a plan for engagement and 
+LCRMs. For the retrofit phase, the 3D printing of façade elements (or prefabricated elements) will be assessed, while 
+focus on modifying solar windows and BIPVs to address the heritage requirements will also be committed. The level 
+of disruption and pollution of renovation works will be closely monitored as in all cases.  
+Partners involved: all, mainly IVE, UPV, ACCIO Output: Demonstrator #1 Valencia (R5.1) reported in D5.2. 
+T5.3 DC #2 – Trinity Complex (MWNB) M01-M43 
+DC#2 entails three buildings in a 130,000m 2 area in the city of Velp, the province of North Brabant. All building 
+are culture heritage buildings and protected by law, which add another complexity dimension in the renovation work. 
+The three buildings illustrate well the developments in the religious field in the Meierij and the Land van Ravenstein, 
+adding a significant cultural dimension to the heri tage aspects . The entire  area is planned for renovation and 
+landscaping. INPERSO will be an integral part of th e design process to achieve a low-carbon retrofit in the entire 
+area. Given the size and scope of the pilot site, it is not possible to carry out deep renovation in each building, but 
+the entire area is available to test the project’s solutions and upscale into a neighbourhood scale retrofit. The change-
+of-use of buildings B,C and D (into services such as restaurants and accommodation) is also an a dded challenge, 
+and the cultural significance of the area adds another layer of complexity with regards to tolerance to disruption 
+(noise, pollution, activity). For DC#2, piloting and optimising low-disruption, pollution and energy retrofits is key 
+(CORE, EPFL, ACCIO). Moreover, IEQ and energy balance will be differentiated from the other cases as the climate 
+is less conducive to natural ventilation and humidity poses a risk also to the heritage components. Finally, DC#2 
+provides a unique opportunity to exp loit (a) the plans for a heating network that is planned to be installed , and (b) 
+the high proportion of visitors compared to local users. In this context, the approach will be focused on achieving 
+behavioural change  also in the case of visitors , a factor that will influence the characteristics of the energy 
+community. Partners involved: all, mainly DMO, R2M, VIAS Output: Demo#2 Velp (R5.2) reported in D5.2. 
+T5.4 DC #3 – Social Shelter Litous Street (VVV)M01-M43 
+DC#3 is a multiapartment building that was initially designed and built as a hotel in 1962 prior to renovation and 
+donation to the Municipality of Vouliagmeni (VVV) during the 80s. It’s a 4-storey building (no basement) with a 
+total surface area on all floors of 1389,00 m2 (388m2 each floor except for the 3rd that spans 225m2), total building 
+height of 11,50  m and total volume of 2931,00  m3. The building has a 32,10 m long façade on Litous St. and is 
+around 6,90 m in depth, with open spaces at all sides of the plot. DC#3 does not have any her itage restrictions and 
+thus a multifaceted approach to renovation can be employed. The ground floor will be fully refurbished to maximise 
+indoor comfort and energy performance. The ground floor features all the common spaces that are used for activities, 
+and also it is the location where the groups congregate, emphasizing the need for good indoor air quality. The Smart 
+Wall will be the main component for the renovation. BIPVs and solar windows will also be installed in a 
+multifunctional interface that will prioritise interoperability. In this 4 -storey building in Greece the following 
+retrofitting works could take place, depending on the outcomes of WP1 and 2: i) installation of the smart wall system 
+in one floor, ii) installation of commercial ETICs in a second floor, iii) replacement of the old windows with energy 
+efficiency window systems, iv) insulation on the roof or terrace of the building, v) installation of HVAC systems and 
+vi) installation of PV systems. In addition, urban farming facilities with the use of recycled wastewater of the building 
+as well as lighting of the surrounding area with the use of PV are foreseen.  Partners involved: all, mainly AMS, 
+CORE, EUROC, EPFL Output: Demonstrator #3 Voula (R5.3) reported in D5.2. 
+T5.5 Monitoring of renovation energy footprint (ACCIO) M012-M32  
+In this task, the transferability of MuSECS and the IEQ interface will be carried out to optimise construction and 
+renovation works. The goal is to collect data from the renovation works (assets deployed, activities planned, timeline 
+and work durations a.o.) and generate a prediction of the daily energy demand (CORE). This prediction will have 
+dynamic characteristics meaning that the construction site manager will receive optimised configurations for the 
+scheduling of energy demanding activities. This approach will benefit sites where RES and storage are available, as 
+demand-response will be made available at the construction/retrofit phase. Moreover, a similar approach will be 
+implemented to monitor the noise, pollution and th ermal stres ses (EPFL), y ielding data valuable in assessing 
+construction work-related risks. These approaches will also provide information that will be correlated with the 
+perception of building users with regards to renovation works and will be implemented in all three sites (TAU, IVE). 
+Partners involved: Demonstrator groups Output: Renovation energy footprint (R5.3) reported in D5.2. 
+T5.6 Post occupancy evaluations (TAU) M024-M48  
+Following WP1 user and stakeholder engagement plans post-occupancy evaluation will be undertaken to ensure that 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 57/70 
+as designed and planned renovation will work as intended in real -life. This includes building performance 
+monitoring (e.g. energy use, thermal bridging (use of IR camera) and also the thermal comf ort conditions of 
+representative units (e.g. on  the ground floor, middle and top floor, large and small etc.). n= min . 10 in each pilot 
+case study. Walk-throughs will also be included with users, alongside a post -occupancy interview or survey with 
+each household. This will be un dertaken in the first 6 months of the completion, and ideally repeated 1 year and 2 
+years post completion. Any issues raised will be passed on to the relevant parties to ensure they are rectified, and 
+continuous monitoring will be u ndertaken to ensure the issues are resolved. Specific focus will be on day -day use 
+of smart and digital technologies, their acceptance and user friendliness and potential to encourage more sustainable 
+lifestyles. This will lead to a validation report, and lessons learned (D5.1.). Academic articles (min 1) will also be 
+published). Partners involved: EPFL, CORE Output: Post occupancy evaluation reported in D5.2. 
+T5.7 Demonstration activities and evaluation of results (ITA) M32-M48  
+INPERSO will be demonstrated in full operational scale in the three demo cases. The monitoring data collected to 
+characterize the existing situation prior to intervention will be compared with data after the intervention, focusing 
+on the use-phase and engagement.  
+The RE Suite integrated platform  (IR1) will be demonstrated in  full capacity with the Passport, IoT and OnSite 
+modules, as well as the integration of SCAAI and RIALTO and interfacing with the other components 
+(DMO,R2M,CORE,EPFL,TAU,ACCIO).  
+The Low-Carbon Renovation Models (LCRM, IR2) will be employed in the demonstrations throughout the lifecycle 
+and used for the active participation of stakeholders (TAU, MIRC, CORE, R2M, IVE). 
+The Retrofit -Kit technologies ( IR3) will be demonstrated following their integration in the demonstration sites 
+according to each corresponding configuration (AMS, VENT, IWIN, SUPSI, METSOL). 
+The Façade 3D Printer (IR4) will be demonstrated through the production of a large-scale façade as described in the 
+objectives, to showcase work quality through the automated process (VIAS, UPV, CART, ITA). 
+The Energy & Comfort Optimisation Interface  (ECOI, IR5) will be employed in each demo case, as well as the 
+replication cases to highlight the potential of IAQ coupled with energy optimisation  both in the use and in the 
+construction phase (CORE, EPFL, IRIS, ACCIO). 
+The INPERSO completed system (IR6) will be the product of WP6, based on the wealth of operational data and 
+feedback collected via T5.7 and the rest of WP5 tasks (AUMSA, MWNB, VVV, EUROC). The overarching goal of 
+this task is to verify the technical, economic and social key performance indicators and interpret acceptance so that 
+a roadmap for the final stretch towards commercialization (TRL8-9) can be defined. In addition, best practices will 
+be collected and published (D5.1). Output: Demonstration report and steps forwards (D5.2). 
+Deliverables 
+D5.1 Validation report  (UPV) (R, PU, M 18,31) Detailed description of the preparation, commissioning and 
+implementation (activities as documented in phases 1-3 of the demonstration consolidating T5.1 outputs. 
+D5.2 Demonstration report and steps forward  (ITA, R, SEN, M48)  Detailed report showcasing demo best 
+practices regarding technological, stakeholders feedback and steps forward for INPERSO upscaling. 
+MS5.1 Design phase complete (M18): Presented at the review meeting MS5.2 Start of validation (M28): Start at 
+each demo case verified MS5.3 Start of demonstrations (M31): Start at each demo case verified  MS5.4 Draft 
+replication plan (M36): Draft plan circulated. 
+ 
+WP6 Management of INPERSO innovations 
+Work package number  WP6 Lead beneficiary CORE Start 01 
+Work package title WP6 Management of INPERSO innovations End 48 
+# 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22  
+ 
+ITA 
+UPV 
+CORE 
+TAU 
+CART 
+MIRC 
+IVE 
+R2M 
+METS 
+IRIS 
+DMO 
+EURO
+C VENT 
+AMS 
+AUMS
+A MWN
+B DVVV 
+ACCI
+O VIAS 
+SUPSI 
+IWIN 
+EPFL 
+ 
+PMs 2 1 21 11 4 3 12 12 2 0 2 14 2 2 5 2 1 2 1 0 2 2  
+WP6 contains activities to ensure a successful market entry for INPERSO. The financial framework of operation for 
+all INPERSO stakeholders will be established to achieve benefits on an EU level during scale-up activities. Multiple 
+target groups will be involved, and the market roll out will be designed and delivered implementing a bottom-up 
+approach. A critical design review for the project’s results will be carried out to achieve TRL8 and plan TRL9. 
+WP6 has the following specific objectives:  
+(1) To catalogue current standards & certification, as well as contribute to emerging industrialised high automation 
+standards in B&C and to conduct a roadmap for future standardisation contribution. 
+(2) To design and develop novel user-centric scalable and EU agile business models for multiple B&C stakeholders, 
+end users, occupants and utilities providers aligned with the INPERSO proposed business models (WP7DEC). 
+(3) To finetune the proposed b usiness models through participatory processes and user input from all relat ed 
+stakeholders, user profiles and decision-making hierarchies. 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 58/70 
+(4) To engage external stakeholders along the entire energy provision value chain and collec t feedback for future 
+market uptake as a project Advisory Board. 
+(5) To plan follow-up activities and ensure continuity in order to safeguard market entry , update the State-of-the-
+Art analysis and define the initial position of INPERSO in the market, To analyse the target markets on an EU and 
+global level, identifying opportunities for market launch and manage intellectual property, through the protection 
+and exploitation strategies definition , identify target users and customer segments, analyse their need s and align 
+INPERSO offering to meet these needs, prepare an exploitation plan for the INPERSO solutions, ensuring research 
+and commercial exploitation and develop suitable business models for the developed technologies, to ensure their 
+market entry; and develop a roadmap for realising INPERSO expected impacts and for full-scale deployment; 
+T6.1 Standardisation, certification and regulatory monitoring – (EUROC) M1-M48 
+In this task, EUROC will coordinate the effort to assess the offerings of INPERSO, ensure that it follows all the 
+rules necessary for market viability and highlight areas where targeted innovations can bring value to each target 
+group. EUROC will coordinate the inputs of all partners, who will submit their relevant standards and certification 
+processes. The activities will comprise: 
+Monitoring of regulations and relevant legislation : All project’s activities, from development of technologies, 
+software and systems to their integration and implementation as the INPERSO system will be monitored with regards 
+to European regulations and national legislation. Additionally, emerging initiatives, new laws or other developments 
+that may impact the project’s activity positively or negatively will also be monitored.  
+Monitoring of certification and standard ization activities: A li st of the relevant standard s will be compiled and 
+presented. Relevant standards relate to indoor environmental parameters, energy performance of buildings, energy 
+performance calculations, assessment of overall performance, thermal performance, air flow ra te calculation, 
+methods for certification and thermal conditions for occupancy. Necessary certification activities will be reported in 
+M12 and conducted by the end of the project. Indicatively, the following list of standards will b e employed by 
+category: insulation heating (EN 15316-1 and EN 15316-4), domestic hot water (EN 15316-3), cooling (EN 15243), 
+ventilation (EN 15241), lighting (EN 15193) and controls EN 15232 (CEN 2012). Moreover, the EUBAC standard 
+will be pursued.  
+Data security and privacy monitoring: All project activities relevant to the acquisition, aggregation and processing 
+of data or any related activity will be conducted in full compliance with GDPR and the associated EU and national 
+regulations. During this task, EUROC will collect input  provided by the partners i nvolved and will assess the 
+measures taken to safeguard user data. 
+Partners involved : all partners providing input on corresponding standard compliance, national regulation 
+adherence. IVE has its own Certification entity, which is focused on the development of voluntary certifications for 
+buildings. The one that is active in this moment is BES (Well-being in sustainable spaces).  
+Output: Industrial positioning and regulation compliance roadmap reported in D6.2. 
+T6.2 Ecosystem empowerment activities - (IVE), M24-M48 
+Two types of interconnected activities are planned. Firstly, activities that exploit the progress of the INPERSO demo-
+sites will be planned for implementation on a post-project timeframe to attract early adopters (R5.1-3). The following 
+types of activities are planned: (a) Scale up of implementation in the demo sites, through enlargement of the scope 
+of INPERSO installation to include more services , increase coverage and expansion of community aspects . (b) 
+Integration of additional buildings  under the same organization, which is applicable in all demo sites.  (c) 
+Integration of early adopters involved via The INPERSO Advisory Board, both on regional level relevant to  all 
+demo locations involved, as well as other locations (i.e. through clustered projects and joint activities with ecosystem 
+projects). Partner Roles: The demo-site owners / managers will liaise with external actors with the support of the 
+Coordinator, the DEM, the Task  Leaders of T6.3, T6.4. In this task, replication and transferability actions will be 
+planned and carried out, through the participation and support of the Advisory Board and other EU R&I initiatives. 
+Output: Transferability and replication strategy reported in D6.2. 
+T6.3 INPERSO development cycle finalization – (UPV) M31-M48 
+This task performs a qualification checklist: the verification and validation (V&V) activities are completed, the ML 
+algorithms are trained, the IoT components are integrated,  the IoT platform is tested according to technical standards 
+in a representative share of /or operating conditions, interoperability and communication issues are solved, 
+demonstrations including actual users are completed, user feedback is provided, documentation is completed , 
+standards are and producing a qualified commercial product. 
+Partner Roles: All partners will complete the checklist to justify the increase of the readiness level to TRL7-8. 
+Output: INPERSO TRL8 qualification checklist reported in D6.2. 
+T6.4 Market analysis, Target Groups, and Value Proposition (M1-M48) - CORE, All Partners 
+Market analysis will be performed by analysing market intelligence information from relevant industry associations 
+of EU’s and world’s biggest markets. Customer segmentation will focus  on elaborating the alre ady conducted 
+identification of Target Groups an d Customer segments and analysing their needs and pain points. Based on this, 
+the INPERSO pain relievers and gain creators will be carefully developed. Using our End-Users as proxies for target 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 59/70 
+customers, the final step is the design of the INPERSO value p roposition, i.e., a detailed analysis of the value that 
+INPERSO unlocks for its’ target Customers and Users. INPERSO Value Proposition will be built through carefully 
+designed questionnaires, workshops and interviews. 
+Partners involved: MIRC will perform a  market analysis, defining the relevant market segments, their size and 
+future growth prospects. A specific focus will be placed on the EU B&C industries, while key global markets will  
+be analysed. CORE will define the Customer segments and Users. CORE wil l lead the design of INPERSO value 
+proposition and analyse how this addresses the needs of both target Customers and Users. In this Task, key input 
+will be provided by our End -Users, w ho will indicate key tar get geographical markets for INPERSO 
+commercialisation. Also, our End Users will provide input on their needs as possible customers, the main needs they 
+face and how INPERSO can match these needs. Output: Market analysis reported in D6.1. 
+T6.5 Sustainable Innovation Management (CORE), M01-M48 
+In the project, we will advance INPERSO technology to TRL-7-8; hence, after project ends further investments will 
+be needed to advance INPERSO to TRL-9 and realise the expected impacts. In this Task, our goal is to facilitate the 
+use of sustainable financial products for INPERSO, after project ends. Specifi cally, we will employ a data driven 
+sustainability assessment framework that will use data analytics technologies to accurately assess the sustainability 
+aspects of the INPERSO technology. Initially, the environmental sustainability goals of the INPERSO co nsortium 
+will be translated to relevant Key Performance Indicators (KPIs) from the six environmental objectives of the EU 
+Taxonomy Regulation. In addition, Social, Go vernance and Viability goals will be considered and translated to 
+relevant KPIs following the guidelines of the European Federation of Financial Analysts Societies (EFFAS). Once 
+KPIs are established, the consortium partners will pro duce the roadmap with ac tions to achieve the forecasted 
+savings. Then, technology providers will deploy the Indust ry 4.0 technologies (IoT systems, predictive analytics, 
+AR etc) that will monitor the achievement of these KPIs. During the demo activities, the achievement of these KPIs 
+will be carefully assessed and will be reported in an impact assessment s tudy, which, post-project, will be used as 
+the main document to raise sustainable finance to accelerate the commercialisation activities of the INPERSO 
+technologies. In addition,  our Innovation Management activities will focus on the following topics: (a) SWOT 
+analysis: Provide insights about INPERSO’s internal technological Strengths and Weaknesses, as well as external 
+market-related Opportunities and Thre ats. (b) PESTLE analysis : Analyse key factors (Political, Environmental, 
+Societal, Technological, Legal, Economic) that could influence the commercialisation of INPERSO technologies. 
+(c) Porter Five Forces analysis : Evaluate INPERSO competitive landscape i n the process industries, through the 
+Five Forces model of Prof. Michael E. Porter. (d) Innovation Potential : Analyse INPERSO market potential, 
+innovation readiness and innovation management, following JRC’s Innovation Radar methodology. (e) Future 
+Financing Plan: Develop the pos t-project financing plan for attracting further financing to advance INPERSO to 
+TRL-9. The financing plan will include both public (i.e. Invest EU fund, EIC fund, etc) and private funding (Venture 
+Capitals, EIB, etc) sources. Partner Roles: CORE will lead T6.6 receiving input from all partners. Key input about 
+the Industry 4.0 infrastructure that will be used for tracking the environmental KPIs will be provided by the Technical 
+Manager. The End Users will provide input about how thes e KPIs are translated  into meaningful environmental 
+parameters that characterise their processes. Output: Sustainable Innovation Management reported in D6.1. 
+T6.6 Advocacy - (MWNB), M12-M48 
+This task will aggregate best practices in Europe related to BIM incentives, renovation policies, training and uptake 
+measures package them and then conduct advocacy to spread these best practices to other countries. Often, a simple 
+example or template of a policy or program can unlock action toward replication somewhere  else. Examples to 
+highlight include the “the importance of MonumentenWacht system” that developed by MWNB. This result of this 
+task will be advocacy materials, stakeholder types to which advocacy actions should take place and an advocacy 
+roadmap outlining key actions structured in a logical manner to promote and facilitate the uptake of INPERSO 
+results and increase the project impact. Output: Advocacy roadmap reported in D6.2. 
+Deliverables 
+D6.1 INPERSO Business Cases and Impact assessment report (CORE, M18/48, R, SEN): The report will assess 
+the Environmental, Social, Governance and Viability Impact of the INPERSO technologies for the business cases 
+that will build on our Use-Cases. Also, in the report we will calculate INPERSO’s contribution to the objectives of 
+the European Green Deal and to EC’s Circular Economy Action Plan consolidating the outputs of T6.4&5.  
+D6.2 INPERSO pre -launch activities  (UPV , R, SEN, M48 ) A report summarising all INPERSO activities 
+contributing in speeding up the market launch of the syste m and consolidating the outputs of T6.1-3,6 namely: (i) 
+Standardisation, certification and regulatory activities (EUROC); (ii) Ecosystem empowerment activities (IVE);(III) 
+development cycle finalization activities (iv) advocacy roadmap (MWNB).  
+MS6.2 Initial positioning and SoA of INPERSO (CORE-M12): Identify state of the art in relevant solutions and 
+review benchmarks, investigating and updating the SoA, analysing new, existing and past projects, initiatives and if 
+new products/technologies have been introduced into the market. A final repor t will be delivered, wit h a special 
+focus on new potential opportunities and possible threats. 
+ 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 60/70 
+WP7 Communication, Dissemination, Exploitation 
+Work package number  WP7 Lead beneficiary MIRC Start 01 
+Work package title WP7 Communication, Dissemination, Exploitation End 48 
+# 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22  
+ 
+ITA 
+UPV 
+CORE 
+TAU 
+CART 
+MIRC 
+IVE 
+R2M 
+METS 
+IRIS 
+DMO 
+EURO
+C VENT 
+AMS 
+AUMS
+A MWN
+B DVVV 
+ACCI
+O VIAS 
+SUPSI 
+IWIN 
+EPFL 
+ 
+PMs 2 4 19 4 3 26 4 5 4 2 4 4 4 4 1 4 2 4 4 0 4 4  
+WP7’s objective is to establish the appropriate dissemination, communication and exploitation measures for project 
+outputs, ensuring the commercial and research exploitation of project outcomes.   
+(1) To develop an effective dissemination and communication strategy and support it with appropriate tools; 
+(2) To raise public awareness and generate dissemination and communication material to create a project identity; 
+(3) To identify target groups, key messages, communication channels, and exchange experience with projects and 
+groups working in the field in order to join efforts, minimize duplication and maximize potential; 
+(4) To support capacity building toward the INPERSO target audience; 
+Partners involved: All partners will participate in C&D activities promoting the project 
+T7.1 Dissemination of INPESRO results (MIRC), M1-M48 
+Dissemination activities will aim at describing and making available for uptake the project results, so that they can 
+be used in their own work by a target audience specifically segmented, and in l ine with the protection of IPRs. 
+Following EC guidelines, this specific package will execute “the public disclosure of the results by any appropriate 
+means, including by scientific publications in any medium”, pursuing: 1) transfer of knowledge and results  to the 
+ones that can be st make use of it; 2) maximization of the impact of research, en abling the value of results to be 
+potentially wider than the original focus. The package will be based on timeline and approach of §2.2. Main results 
+of the research pr oject will be collected and organized in scientific articles that will be published in t he main 
+scientific journals of the industry. Open Access will be pursued at all times. All consortium members will make 
+contacts with their network in order to form a d atabase of stakeholders, with a focus on relevant associations. To 
+support communication and dissemination packages, and to address the target audience in a tailored way, INPERSO 
+will also rely on the following four classes of events with different target audiences and planning, namely: i) 
+dissemination events/workshops; ii) demo sites field trips; iii) the INPERSO final conference; iv) the participation 
+in third parties’ events, related to the specific project target domains. 
+T7.2 Exploitation strategy (CORE), M01-M48  
+All partners will contribute to the developme nt of the exploitation plans for project results. The Exploitation Plan 
+will aim to define the way (a) each partner will individually exploit their Exploitable Results and (b) the consortium 
+will j ointly exploit  INPERSO Integrated Results. Both for the Ind ividual Results and the Integ rated Results, 
+appropriate IPR protection methods will be considered, and IPR ownership among consortium partners will be 
+defined. The INPERSO Exploitation Plan will be accompanied by carefully developed sustainable business models, 
+that will analyse and t est key business concepts for taking project results to the market. To this end, the Business 
+Model Canvas methodology will be implemented focussing on the development of a Triple Layer Business Model 
+Canvas which c omplements and extends the original economically -oriented business model canvas concept with 
+new canvas layers exploring environmental a nd social value creation . The key consortium partners to de liver the 
+INPERSO Value Proposition (D6.1) and strategic part nerships which are necessary for the delivery of INPERSO 
+product to the markets, will be identified. Building on the Customer analysis ( performed in WP6), the type of 
+Relationship and Channels that each Customer Segment expects from INPERSO partners will be analysed. To this 
+end, the already established Relationships and Channels among the consortium partners and their clients will be used 
+as a basis. Also, the necessary Activities and the relate d Resources to implement each  business model will be 
+analysed. Key Activities that will be analysed to swiftly introduce the project results to the market will include 
+Research & Innovation, Techno logy tuning, certificati on, IPR protection and skills/compe tencies building. The 
+Resources will be categorised by their type; Physical, Intellectual (brand patents, copyrights, data, etc.), Human and 
+Financial. The analysis of costs for both Activities and  Resources will provide the detailed cost structure of each  
+business model. Based on the  defined cost structure, INPERSO pricing strategies will be optimised and for each 
+Customer Segment revenue streams will be developed. The environmental layer of the tr iple layer business model 
+canvas will be developed based on  a Life Cycle perspective of INPERSO’s environmental impact. Moreover, the 
+social layer of the triple layer business model canvas will be developed based on a stakeholder management approach 
+balancing the interests of INPERSO stakeholders (i.e. customers, suppliers, citizen communities leaving close to 
+industrial areas, governmental bodies, etc). Finally, all three layers will be integrated into the triple layer business 
+model canvas and the most sustainable business model will be selected.  
+Partners involved: UPV will lead the definition of the joint results, the tuning of their IPR strategy and will manage 
+the IP ownership among consortium partners, supported by CORE, MIRC and ITA. CORE will lead the development 
+of the INPERSO business models. Several business models will be built and the most profitable will be selected. To 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 61/70 
+achieve this goal, CORE will use their Profit Simulation Tool which allows the simulation of the commercialisation 
+phase and the enables the calculation of financial forecasts. Commercial partners will identify and consolidate the 
+existing channels and relationships they maintain to reach and serve their customers. Moreover, they will provide 
+input regarding existing pricing strategies of their products and of competing products. The End-Users will provide 
+their feedback on the final business models and elaborate on their willingness-to-pay based on the final INPERSO 
+business model. MIRC will lead LCA activities will focus on developing the environmental layer of the triple layer 
+business model canvas. CORE with input from all partners will lead the development of the social layer of the triple 
+layer business model canvas. 
+T7.3 Communication activities (CORE), M1-M48 
+This task will  create the brand of the  project, including all the aesthetic elements to communicate to the general  
+public. This includes the design of the logo and visual brand for project deliverables, presentations, leaflets, website, 
+etc. Such communication assets will be translated to all project languages to maximize the scope of public addressed 
+among Europe. Communication activities will be active during the whole project duration, informing about project 
+objectives, progress, milestones and results. Modern and wi dely used tools such as videos, dedicated to the main  
+steps of the project development will be realized and published. One video for each use case will be produced. The 
+most used and professional social media networks will be used by setting up specific ac counts or hashtags to be  
+bounced on all project partners accounts (YouTube, Twitter, LinkedIn). The project website will also be launched. 
+Deliverables  
+D7.1 Strategic plan for Dissemination, Exploitation and Communication of project results  (MIRC, R, SEN, 
+M18,36, 48)  
+D7.2 INPERSO digital ID (CORE) (DEC, SEN, M12) DEC digital material consolidating the visual identity of 
+INPERSO, such as logo, website, colour palette, leaflets and brochures in digital format.  
+D7.3 INPERSO Exploitation report (CORE, R, SEN, M18,36, 48) Report deta iling the INPERSO exploitation 
+strategy and outcomes of the exploitation activities.  
+MS7.1 DEC activities fully initiated (M6) Circulation of the project visual id, of the related documents templates, 
+of the e-communication package, printed materials and draft DECP. 
+ 
+WP8 Project management and coordination 
+Work package number  WP8 Lead beneficiary ITA Start 01 
+Work package title WP8 Project Management and Coordination End 48 
+# 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22  
+ 
+ITA 
+UPV 
+CORE 
+TAU 
+CART 
+MIRC 
+IVE 
+R2M 
+METS 
+IRIS 
+DMO 
+EURO
+C VENT 
+AMS 
+AUMS
+A MWN
+B DVVV 
+ACCI
+O VIAS 
+SUPSI 
+IWIN 
+EPFL 
+ 
+PMs 20 18 3 3 3 3 3 1 3 0 3 3 3 3 1 3 1 3 3 1 3 3  
+WP8 Objectives: To develop an effective and comprehensive administrative, financial, tech nical and legal 
+management in order to ensure the successful execution of the project.  
+(1) To ensure the achievement of all project objectives in terms of time, quality and costs.  
+(2) To set the appropriate coordination and management tools, methods and decision-making processes.  
+(3) To perform smooth and effective management and coordination of the consortium guaranteeing joint 
+understanding among the project partners and ensuring the right functioning of the governing bodies established.  
+(4) To carry out periodic communications and high-quality technical and financial reporting of the project’s progress 
+to the European Commission (EC). 
+T8.1 Administrative & financial management Coordination - (ITA), M01-M48 
+This task will include the overall legal, co ntractual, financial and  administrative management of the project,  
+including: (a) Compilation and supervision of Technical and Financial Progress Reports; (b) Final check and  
+distribution of all required documents such as deliverables and progress reports;  (c) Cost management, bu dget 
+controlling and accounting; (d) Organisation of Project Management Team meetings and their documentation; (e)  
+Monitoring/control of the progress of the project according to the contractual schedule; (f) Legal and contractual  
+issues, such as the prepar ation of the GA, CA and amendments (if needed).  ITA will be the main contact point 
+between the EC Project Officer and the consortium and will thus inform all the partners of the EC communications 
+and requirements, gather all the needed information with the partners and answer to the EC. In particular, Mr. Carlos 
+Bernad who will be the Project Coordinator (PC) has PMP certification (Project Management Professional) and 
+more than 20 years’ experience managing private and public funded industrial research proj ects. He will be 
+supported by ITA project office who has coordinated four H2020 projects in the last years. ITA will lead the internal 
+communication within the consortium, ensuring the information reaches every partner. Regular meetings and other 
+appropriate channels of communication (virtual and physical m eetings, when possible; periodic reports or other) 
+will be used to ensure optimal information flow among all partners. The Project  management will be supported by 
+setting up and using collaboration tools: document repository, application sharing tools, common data repositories. 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 62/70 
+T8.2 Technical Management - (UPV), M01-M48 
+ITA will monitor the progress of work activities in cooperation with the WP leaders, ensuring that both the general 
+project objectives and the individual WP objectives are met. Technical pro gress reports, in collaboration with the  
+WP leaders, will be issued at six-month intervals in order to monitor the project progress and allow for re-planning 
+the remaining work and proposal of changes to project tasks, if necessary. To properly manage the UCs and ensure 
+an effective interrelation between the different WPs, a technical manager of ITA will be appointed to take  
+responsibility for the overall scientific/technical management and for the technical coordination between WPs. The 
+TM will facilitate the communication between WP leaders, organising technical meetings, monitoring the work  
+progress and enforcing the timely submission of deliverables. Each WP leader will report to the TM. 
+T8.3 Quality Assurance and Data Management Plan - (ITA), M01-M48 
+Guidelines and instructions to ensure the quality of the works and, generally, the quality of the project will be 
+circulated by ITA. These procedures will be integrated in D8.1, based on the following conce pts: quality 
+requirements of the project; planning  and control; organizational structure; quality control of regular deliverables; 
+quality; quality control of communication materials; quality control of the project. For that purpose, specific 
+instructions will be included in the Project Handbook. Regular deliverables will undergo a simpler preparation and 
+review process, including DLV responsible, task participants, WP leader and PC in a step -by-step review process. 
+Also, a Data Management Plan (DMP) will be defined with the goal of establishing the measures for promoting the 
+findings during the project’s life. In this sense, the DMP will set the basis for the dissemination and exploitation, 
+which is of utmost importance, and the procedures for the sharing o f data of the project. INPERSO will be part of 
+the open data initiative under the H2020. This task will evolve during the project’s lifetime in order to present the 
+updates of INPERSO in data management.  
+T8.4 Advisory Board Management - (ITA), M01-M48 
+The project will engage an International Advisory Boa rd (IAB) to advise on the scientific progress of the project, 
+potential dissemination routes, offer advice for what could be achieved on the pilot sites and the potential 
+exploitation strategies and routes to market which could be employed. Furthermore, in creasing the visibility, 
+participation and scope of the demonstrations will be one of the main objectives of the IAB. The IAB will include a 
+representative from the project Management Board (MB) who will then report the outcomes of the IAB reviews to 
+the MB. There will be two official meetings of the IAB at M36 and M42 of the project, however the IAB will be 
+kept up to date with respect to project progress as it happens. The IAB will be assembled by M12 of the project. 
+Deliverables  
+D8.1 First, interim and final project reports (ITA, R, SEN, M18/36/48) . 
+D8.2 Data Management Plan ITA (R, SEN, 3,24,48) . 
+MS8.1 Project Start , M1, Kick -off meeting minutes delivered  MS8.2 Advisory board completion, M12, 
+Composition of AB finalized and presented in the M12 meeting. 
+ 
+ 
+ 
+ 
+ 
+Table 3.1c: List of Deliverables 
+# Deliverable name WP Lead Type D. Level Date 
+1 D1.1 Specifications and user requirement report  1 IVE R SEN 6 
+2 D2.1 INPERSO Retrofit-Kit  2 AMS DEM SEN 28 
+3 D2.2 Façade 3D printing prototype  2 VIAS DEM SEN 28 
+4 D3.1 Integrated BIM-based RE Suite platform 3 DMO OTH SEN 31 
+5 D3.2 Energy and air quality optimisation interface 
+(ECO-I) 3 CORE OTH SEN 31 
+6 D4.1 INPERSO deep low carbon renovation models 4 TAU R SEN 31 
+7 D4.2 INPERSO training programme  4 R2M OTH PU 31 
+8 D5.1 Validation report  5 UPV R SEN 31 
+9 D5.2 Demonstration report and steps forward  5 ITA DEM PU 48 
+10 D6.1 INPERSO Business Cases and Impact assessment  6 CORE R SEN 18/48 
+11 D6.2 INPERSO pre-launch activities  6 UPV R SEN 48 
+12 D7.1 Strategic plan for Dissemination, Exploitation and 
+Communication of project results 7 MIRC R SEN 18/36/48 
+13 D7.2 INPERSO digital ID  7 CORE R SEN 6 
+14 D7.3 INPERSO Exploitation report 7 CORE R SEN 18/36/48 
+15 D8.1 First, interim and final project reports  8 ITA R SEN 18/36/48 
+16 D8.2 Data Management Plan  8 ITA R SEN 3/24/48 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 63/70 
+Table 3.1d: List of Milestones (each MS will be presented at the corresponding PSC meeting) 
+# Milestone name WP Date Description 
+1 MS1.1 Action plans for demonstrations 1 6 Demo groups and action plans ready  
+2 MS2.1 Heritage compliance status 2 12 Status report and corrective steps presented 
+3 MS2.2 Prototype progress 2 18 Early prototypes presented 
+4 MS3.1 DAQ optimised and calibrated 3 18 DAQ in each DC is fully operational 
+5 MS4.1 Stakeholder engagement progress 4 18 Status presented and corrective steps 
+6 MS4.2 Plan for capacity building 4 18 Draft plan circulated 
+7 MS5.1 Design phase complete 5 18 Designs finalised and presented 
+8 MS5.2 Start of validation  5 28 Start at each demo case verified 
+9 MS5.3 Start of demonstrations  5 32 Start at each demo case verified 
+10 MS5.4 Draft replication plan  5 36 Draft plan circulated 
+11 MS6.2 Initial positioning and SoA  6 12 Confirmation of INPERSO innovation potential 
+12 MS7.1 DEC activities fully initiated 7 6 Website online, material available, PEDR  
+13 MS8.1 Project Start 8 1  KOM minutes circulated 
+14 MS8.2 Advisory Board finalized 8 12 Composition of AB finalized and presented  
+Table 3.1e: Critical risks for implementation 
+In this table, the most prominent risks are described in terms of Likelihood and Impact (L/I, scale 1-3) 
+Risk Description Risk-mitigation and contingency measures 
+R1. Large number of partners, tasks, 
+deliverables may cause  delays or 
+person in key organization departs the 
+project (WP8, L/I:2/2) 
+Extensive Consortium experience in EU funded R&I projects, clear role 
+descriptions, specific result expectations. The implement ation structure 
+and resources are designed to allow for full completion of the activities 
+without delays. 
+R2. Limited engagement of 
+stakeholders in project’s activities and 
+results (WP7, L/I:2/2). 
+Prediction and early revision of DEC strategy based on init ial user 
+engagement, monthly retention, and other metrics. Key DEC actions such 
+as workshops, and resources  (videos, interviews, assets for visual 
+identity) will be accelerated to be made available earlier. Full utilization 
+of EC resources, collaboration with other R&I initiatives and the AB.  
+R3. Hesitation o r disagreement in 
+exploitation of results (WP7, L/I:2/2). 
+Exploitation & IPR management workshops will be held within the first 
+6 months of the project. 
+R4. “Black Swan” event such as 
+COVID disrupts project activities, 
+(WP7, L/I:2/2). 
+Utilisation of signific ant online resources, remote working and 
+collaboration, digital tools and digital tours, sharing of data. Safety and 
+security protocols to be managed by EUROC. 
+R5. Demonstrator savings not 
+reflecting expectations (WP7, 
+L/I:2/2). 
+Thorough planning in WP2 ,3 &4, early implementation of monitoring 
+plan and optimization of interoperability and installations. 
+R6. Demo site unavailable  (WP5, 
+L/I:2/3). 
+Site managers have access to many candidate sites (see 2.1). 
+R7. Technological mismatch or 
+interoperability issues of smart  
+Systems . (WP2,3, L/I:1/3) 
+Development and modification to be conducted in parallel with dynamic 
+communication. Temporary removal or replacement until the issue is 
+remediated, multiple configurations to mitigate. 
+R8 Difficulty interfacing with 
+contractors to collect scheduling da ta 
+for MuSECS. (WP3, L/I:1/3) 
+DAQ requirements will be stated in the tender and supported by the demo-
+groups, if contractors cannot adapt to schedule  then the improvements 
+will be reported and contractor feedback will be included in design 
+review. 
+R9 3D printing or other material-
+dependent components cannot address 
+heritage requirements -low 
+acceptance. (WP2, L/I:2/3) 
+Demonstration of the technology in another demonstration site, 
+potentially even chosen from the replication sites or other Advisory Board 
+member. 
+Table 3.1g ‘Subcontracting costs’ items  
+Participant Cost Description 
+VIAS €69,000 Characterization in a printing centre of last generation printing materials and performing 
+pumping tests under laboratory and operational conditions. 
+VENT €100,000 Testing and validation of upscaled prototype in specialised test cell 
+AUMSA €449,528 Budget of material execution = 399,651.60€: Main façade insulation = 22,960.00€, Roof 
+insulation = 9,840.00€, Carpentry = 42,640.00€, Ground floor insulation = 6,560.00€ , 
+DHW pumps = 52,398.00€ , Renewable energy = 49,200.00€ , Lighting facilities = 
+24,600.00€, Terraces = 82,000.00€, Exterior staircase = 40,786.80€, Lift = 40,786.80€ 
+Removal of architectural barriers = 11,480.00€ , Auxiliary elements = 16,400.00€ , 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 64/70 
+Drafting of the project and direction of the work = 27,975.61€, - Management of material 
+execution = 8,392.68€ , Security and health = 1,119.02€ , Quality control = 3,996.52 ,  
+Engineering (project + construction management) = 8,384.57€ 
+Table 3.1h ‘Purchase costs” items  
+1. ITA Cost Description 
+Travel and 
+Subsistence 
+€35,000 5 physical project meet ings with 2 attendants x 1000€ / 2 trips for conference 
+attendance x 1 people x 1500€ / Travel expenses to support in demos 22000 
+Other goods, 
+works &  
+€110,000 3D printing prototype materials 100 k€, Open Access Dissemination 3.5 k€, CFS 
+costs 3.5k€,  Other 3 k€ 
+Total €145,000  
+6. MIRC Cost Description 
+Travel and 
+Subsistence 
+€37,000 Justification (8 physical project meetings x 2 people x 1000€ + 6 trips for 
+workshops/dissemination events x2x1000 + 3 Conf erence/Expo attendance x 2 
+people x 1500€) 
+Other goods, 
+works & 
+services 
+€33,000 
+€12,000 
+Dissemination material, Conference/Expo attendance, cluster eCODOMH events, 
+Booth rent, Books, subscriptions (e.g. market data, open access) etc 
+Standards, Consumables for testing/validation, Collection/transporting costs 
+Total €82,000  
+9. METSOL Cost Description 
+Travel and 
+Subsistence 
+€24,000 Justification (8 physical project meetings x 2 people x 1000€ + 6 trips for 
+workshops/dissemination events x1000 + 1 Conference/Expo attendance x 2000€) 
+Other goods,  €44,000 Manufacturing, shipping and support for BIPV installation. Prototy ping costs for 
+heritage-compliant components. 
+Total €68,000  
+14. AMS Cost Description 
+Travel  €17,000 7 meetings x 2 persons + 3 travels to demo sites + 2 EU workshops 
+Other goods, 
+works & 
+services 
+€472,000 Audit (4k€); Engineering service for Smart Wall  production (30k€);  Modifications 
+in the existing production line for Smart wall (37k€);  Modifications in the production 
+line for the production of coatings (27k€); Provision of raw materials &nanoparticles, 
+PCMs, desiccants etc., ( 35k€); Consumables for VVV Smart Wall production & 
+installation (110k€): Provision of PV & HDW solar panels, boil ers, fan coils, heat 
+pumps, etc. for  VVV inst allation (40k€); Electrical installation (20k) Wi ndows, 
+blinds & doors for VVV installation (50k),  Cranes, hoists, scaffolding etc. for VVV 
+installation (15k€); PV panels installation (40k); Transportation of elements to other 
+manufacturers (10k€); Engineering service for E&M installation in VVV accordi ng 
+Greek Law Provisions (6k€); Sensors and monitoring systems (48k€) 
+Total €489,000  
+20. SUPSI Cost Description 
+Travel and 
+Subsistence 
+€ 23,700 Justification (e.g., 9 physical project meetings x 1.5 peopl e x 1200€ plus 3 trips for 
+conference attendance x 2 people x 1500€ 
+Other goods,  € 60,000 Testing consumables, cables, light, cutter, electronics, mockup    
+Total €90,200  
+21. IWIN Cost Description 
+Travel and 
+Subsistence 
+€ 23,700 Justification (e.g., 9 physical project meetings x 1.5 people x 1200€ plus 3 trips for 
+conference attendance x 2 people x 1500€    
+Equipment € 240,000 Roll to roll quality control, cutting station, lamination, forming and other 
+manufacturing,  
+Other goods, 
+works 
+€ 160,000 expedition to glasswork & Demo, PV foils, Glass, other materials for the finishing of 
+the PV slats and windows    
+Remaining  € 9,400 Exhibition, stand, roll up, papers    
+Total €423,700  
+22. EPFL Cost Description 
+Travel and 
+Subsistence 
+           
+€15,000  
+Physical project meetings 8 x 2 people x 750€  (12000€) plus 2 trips for conference 
+attendance x 2 people x 750€ (3000€) 
+Equipment 
+                                
+€136,000  
+Demo sites (Spain, Nethrlands, Greece): Two sensors (T, RH, CO2 or TVOCs, light, 
+motion) per apartment for fifty apartments 50 x 2 x 250€ (25000€). One tablet for 50 
+apartments 50x200€ (10000€). Six gateways 6 x 1500€ (9000€). Installation costs for 
+the three demo sites 3x2000€ (6000€). For ten selected appartments additional 
+sensors for more advanced IEQ parameters for the IEQ index developmant (operative 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 65/70 
+T, anemometer, sound, occupancy, motion, CO2, TVOCs, PM2. 5,  10x1500€ 
+(15000€). Two outdoor air quality sensors for each site (PMx, NO2, O3, SO2) 6 x 
+1000€ (6000€). Cloud service set up, configuration and operation for three years 
+(5000€). Swiss case studies: WSN of 20 sensors (T, RH, CO2 or TVOC) plus 
+additional sensors for more advanced IEQ monitoring,  including gateways and cloud 
+services  for each of the three schools 3 x 15000€ ( 45000€). One outdoor air sensor 
+per school 3x1000€ (3000€). For one school automatization of the windows (12000€) 
+Other 
+goods, 
+works & 
+services 
+                                 
+€28,600  
+Two publications gold open acces 2 x 3300€ (6600€).  Consumables for the 
+callibration of high-grade equipment, which will be used for the validation of the low-
+cost sensors' recordings (4000€). Su bcontractor to install the WSN and provide 
+consulting services for the optimization of the 3 Swiss case stydy buildings 3 x 6000€ 
+(18000€)   
+Total €179,600

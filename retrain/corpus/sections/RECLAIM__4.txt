@@ -1,0 +1,168 @@
+4. Personal Data Page
+Does this activity involve processing of personal data? Yes No
+Does this activity involve further processing of previously collected personal data (including 
+use of preexisting data sets or sources, merging existing data sets)?
+Yes No
+Is it planned to export personal data from the EU to non-EU countries? Specify the type of 
+personal data and countries involved
+Yes No
+Is it planned to import personal data from non-EU countries into the EU or from a non-EU 
+country to another non-EU country? Specify the type of personal data and countries involved
+Yes No
+Does this activity involve the processing of personal data related to criminal convictions or 
+offences?
+Yes No
+5. Animals Page
+Does this activity involve animals? Yes No
+6. Non-EU Countries Page
+Will some of the activities be carried out in non-EU countries? Yes No
+In case non-UE countries are involved, do the activities undertaken in these countries raise 
+potential ethics issues? Yes No
+Administrative forms
+Page 84 of 87
+Proposal ID 101070524
+Acronym RECLAIM
+Horizon Europe ver 1.00 20210928 Last saved 21/10/2021 19:06
+It is planned to use local resources (e.g. animal and/or human tissue samples, genetic material, 
+live animals, human remains, materials of historical value, endangered fauna or flora samples,
+etc.)? 
+Yes No
+Is it planned to import any material (other than data) from non-EU countries into the EU or 
+from a non-EU country to another non-EU country? For data imports, see section 4. Yes No
+Is it planned to export any material (other than data) from the EU to non-EU countries? For 
+data exports, see section 4. Yes No
+Does this activity involve low and/or lower middle income countries, (if yes, detail the benefit-
+sharing actions planned in the self-assessment) Yes No
+Could the situation in the country put the individuals taking part in the activity at risk? Yes No
+7. Environment, Health and Safety Page
+Does this activity involve the use of substances or processes that may cause harm to the 
+environment, to animals or plants.(during the implementation of the activity or further to the 
+use of the results, as a possible impact) ?
+Yes No
+Does this activity deal with endangered fauna and/or flora / protected areas? Yes No
+Does this activity involve the use of substances or processes that may cause harm to humans, 
+including  those performing the activity.(during the implementation of the activity or further 
+to the use of the results, as a possible impact) ?
+Yes No
+8. Artificial Intelligence Page
+Does this activity involve the development, deployment and/or use of Artificial Intelligence? (if 
+yes, detail in the self-assessment whether that could raise ethical concerns related to human 
+rights and values and detail how this will be addressed).
+Yes No 6, 35
+9. Other Ethics Issues Page
+Are there any other ethics issues that should be taken into consideration? Yes No
+I confirm that I have taken into account all ethics issues above and that, if any ethics issues apply, I will complete the 
+ethics self-assessment as described in the guidelines How to Complete your Ethics Self-Assessment
+Administrative forms
+Page 85 of 87
+Proposal ID 101070524
+Acronym RECLAIM
+Horizon Europe ver 1.00 20210928 Last saved 21/10/2021 19:06
+Ethics Self-Assessment
+Ethical dimension of the objectives, methodology and likely impact
+Human Participants 
+The innovations to be developed in the project regard the recovery of recyclable materials from waste streams. As such it will not 
+process sensitive or any other kind of human-related data (ie. only waste-related data are of interest to the project).  
+To proceed with the development of AI methods, human participants (volunteers) will be asked to annotate waste images via a 
+newly developed Recycling Data Game (RDG).  
+Individuals will be recruited from the public with the support of consortium partners that will advertise the citizen-science approach 
+adopted in RECLAIM. No restrictions are foreseen for the participation of citizens. 
+The data that the users will provide regard only the annotation of waste images. 
+ 
+Artificial Intelligence 
+The project considers the development of AI methods to facilitate the identification, localization and categorization of recyclable 
+materials. Human participants to be involved in the annotation of waste images will be informed  that the data they provide are 
+going to be used for training and improving AI-driven robotic systems for material recovery.  
+All AI technologies considered In the project focus on efficient material recovery and not in the processing of any kind of personal or 
+personally identifiable data. 
+Remaining characters 3716
+Compliance with ethical principles and relevant legislations
+To participate in the project, volunteers will provide the minimum possible information. The Recycling Data Game will assume only a 
+simple registration of the users, without collecting or storing any kind of personal information. The participants will be anonymized 
+and not known to each other. 
+ 
+While the data collection procedures and regulations are well understood by the consortium, and we believe there is no conflict with 
+the EU ethical principles and relevant legislations, the partners will nonetheless appoint an Ethics Advisor during the operation of the 
+project to provide oversight and guidance specifically related to aspects associated to data collection for AI purposes.  
+Remaining characters 4312
+Administrative forms
+Page 86 of 87
+Proposal ID 101070524
+Acronym RECLAIM
+Horizon Europe ver 1.00 20210928 Last saved 21/10/2021 19:06
+Security issues table
+1. EU Classified Information (EUCI)2 Page
+Does this activity involve information and/or materials requiring protection against 
+unauthorised disclosure (EUCI)? Yes No
+Does this activity involve non-EU countries? Yes No
+2. Misuse Page
+Does this activity have the potential for misuse of results? Yes No
+3. Other Security Issues Page
+Does this activity involve information and/or materials subject to national security restrictions? 
+If yes, please specify: (Maximum number of characters allowed: 1000)
+Yes No
+Are there any other security issues that should be taken into consideration? 
+If yes, please specify: (Maximum number of characters allowed: 1000)
+Yes No
+2According to the Commission Decision (EU, Euratom) 2015/444 of 13 March 2015 on the security rules for protecting EU classified information, “European Union 
+classified information (EUCI) means any information or material designated by an EU security classification, the unauthorised disclosure of which could cause varying 
+degrees of prejudice to the interests of the European Union or of one or more of the Member States”. 
+3Classified background information is information that is already classified by a country and/or international organisation and/or the EU and is going to be used by the 
+project. In this case, the project must have in advance the authorisation from the originator of the classified information, which is the entity (EU institution, EU Member 
+State, third state or international organisation) under whose authority the classified information has been generated. 
+4EU classified foreground information is information (documents/deliverables/materials) planned to be generated by the project and that needs to be protected from 
+unauthorised disclosure. The originator of the EUCI generated by the project is the European Commission.
+Administrative forms
+Page 87 of 87
+Proposal ID 101070524
+Acronym RECLAIM
+Horizon Europe ver 1.00 20210928 Last saved 21/10/2021 19:06
+5 - Other questions
+Two-stage calls
+The full stage-2 proposal must be consistent with the short outline proposal submitted the to stage 1 - in particular with respect to the 
+proposal characteristics addressing the concepts of excellence and impact
+Are there substantial differences compared to the stage-1 proposal? Yes No
+Essential information to be provided for proposals including clinical Trials / studies / investigations
+Clinical study means, for the purpose of this document, any systematic prospective or retrospective collection and analysis of health data obtained 
+from individual patients or healthy persons in order to address scientific questions related to the understanding, prevention, diagnosis, monitoring or 
+treatment of a disease, mental illness, or physical condition. It includes but it is not limited to clinical studies as defined by Regulation 536/2014 (on 
+medicinal products), clinical investigation and clinical evaluation as defined by Regulation 2017/745  (on medical devices), performance study and 
+performance evaluation as defined by Regulation 2017/746 (on in vitro diagnostic medical devices).
+Are clinical studies / trials / investigations included in the work plan of this project? Yes No
+ 
+ 
+Horizon Europe Programme 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09:                                                     
+AI, data and Robotics for the Green Deal (IA) 
+Technical description (Part B) 
+ 
+Title: AI-powered Robotic Material Recovery in a Box 
+Acronym: RECLAIM 
+ 
+ 
+ 
+ 
+ 
+List of participants 
+ 
+Part. 
+No.  
+Short Name 
+of Participant 
+Participant Organization name Country 
+1 FORTH Foundation for Research and Technology Hellas EL 
+2 UoM University of Malta MT 
+3 KUL Katholieke Universiteit Leuven BE 
+4 HERCCO Hellenic Recovery Recycling Corporation EL 
+5 IRIS Iris Technology Solutions, Sociedad Limitada SP 
+6 RBNS ROBENSO PC EL 
+7 AIMPLAS AIMPLAS - Technological Institute of Plastics SP 
+8 AXIA Axia Innovation UG DE 
+9 ISWA International Solid Waste Association  NL 
+10 ION Periferiakos Foreas Diaxirisis Stereon Apovliton Ionion Nison 
+Anonimi Eteria Ton Ota 
+EL 
+
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 1 of 45 
+ 
+1. EXCELLENCE

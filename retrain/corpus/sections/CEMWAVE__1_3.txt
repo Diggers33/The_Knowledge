@@ -1,0 +1,446 @@
+1.3  Concept and methodology 
+1.3.1 Concept 
+1.3.1.1 CEM-WAVE overall concept 
+The escalating problems resulting from climate change and especially to the environmental impacts of anthropogenic activities  
+are getting advisedly exponential attention. This is reflected in the political direction of the recently estab lished European 
+Commission: the Communication called “The European Green Deal” clearly outlines the mid-term and long-term objectives, which 
+can be synthesised in “to transform the EU into a fair and prosperous society, with a modern resource -efficient and competitive 
+economy where there are no net emissions of greenhouse gases in 2050  and where economic growth i s decoupled from 
+resource use”. In order to reach those main objectives, several key elements have been identified. Two of them are shared by 
+and at the basis of CEM-WAVE: 
+• Mobilising industries for a clean and circular economy : energy -intensive industries, such as steel, chemicals and 
+cement, are indispensable to Europe’s economy, as they supply several key value chains. The decarbonisation and 
+modernisation of this sector are thus essential, as also testified by the recommendations published by the High Level 
+Group of energy -intensive industries, which demonstrates  the industry’s commitment to these objectives  [1]. 
+Furthermore, EU industry needs ‘climate  and resource frontrunners’ to develop the first commercial applications of 
+breakthrough technologies in key industrial sectors by 2030. Priority areas include clean hydrogen, fuel cells and other 
+alternative fuels, energy storage, and carbon capture, stor age and utilisation. One of these priorities is towards clean 
+steel breakthrough technologies leading to a zero-carbon steel making process by 2030. The proposal to support zero 
+carbon steelmaking processes by 2030 is one of the actions expected to be taken in 2020. 
+• Mobilising research and fostering innovation : new technologies, sustainable solutions and disruptive innovation are 
+critical to achieve the objectives of the European Green Deal; apart from the full range of instruments available under 
+the Horizon Europe programme, partnerships with industry and Member States will support research and innovation on 
+low-carbon steel making among others. 
+In such context, research and innovation are directed in several directions including change of processes which will have to use 
+clean energy sources to get lower CO2 emissions. For energy intensive sectors, where very high temperatures have to be reached 
+(e.g. steelmaking), the industries will need to follow one or more low -emissions pathways. Concerning steel industry, the tender 
+will be to use energy inputs provided from circular carbon technologies, fossil fuels with carbon capture and storage (CCS) a nd 
+clean power for hydrogen -based ironmaking processes. Clean hydrogen  is enjoying unprecedented political and bus iness 
+momentum, with the number of policies and projects around the world. Two key developments have contributed to the growth of 
+hydrogen in recent years: the cost of hydrogen supply from renewables has come down and continues to fall, while the urgency 
+of greenhouse gas emission mitigation has increased  [2]. The hydrogen debate has evolved over the past two decades, with a 
+shift in attention from applications for the auto industry to hard to-decarbonise sectors such as energy-intensive industries, trucks, 
+aviation, shipping and heating applications. Ensuring a low-carbon, clean hydrogen supply is essential; current and future sourcing 
+options include: fossil fuel -based hydrogen production (grey hydrogen); fossil fuel -based hydrogen production combined with  
+carbon capture, utilisation and storage (CCUS; blue hydrogen); and hydrogen from renewables (green hydrogen). Regardless of 
+the hydrogen source. Greener fuels containing h ydrogen (mixtures of hydrogen and bio -methane), that will be used to replace 
+current fuels, can cause harmful phenomena such as hydrogen embrittlement for metals and hydrothermal attack for 
+ceramics. These conditions would not be sustained by the currently used materials. We thus need a novel material that will be 
+able to endure in such future extreme and fluctuating conditions for a long time, and contemporarily maintain its high-performance 
+properties. CEM-WAVE is based on the concept that a material able to withstand such conditions while keeping its high 
+performances for long times already exists, i.e. Ceramic Matrix Composites (CMCs) : CMCs are a class of materials that 
+show considerable promise to provide fracture-toughness values similar to those for metals such as cast iron, yet are much lighter 
+and designed for applications in severe environments (often co mbining high temperatures, high stress levels and corrosive 
+atmospheres). Thanks to their exceptional properties, including high toughness, low density, high temperature, wear and corrosion 
+resistance, these materials are increasing ly being considered for use in applications where reliable operations under extreme 
+conditions are required. Currently they are being introduced into many other new fields and their range of applications will grow if 
+CEM-WAVE   
+ 7 
+their manufacturing costs will be significantly reduced [3]. CEM-WAVE innovative idea is thus directed at drastically reducing 
+costs of CMC production to allow their sustainable use in sectors where their benefit would be enormous both from the 
+environmental impact and from the productivity poi nts of view . To highlight the impact of CEM -WAVE, one of the most 
+important European stakeholders on the ceramic market (Sacmi) wrote an endorsement letter. 
+Starting from the results of 
+HELM [4] (New technologies 
+based on physical processing of 
+materials for mechanical or 
+electro-technical applications  – 
+FP7 – NMP – GA N. 280464), 
+FP7 project in which 5 out of the 
+13 CEM -WAVE partners were 
+involved, CEM -WAVE aims at 
+advancing Microwave assisted 
+Chemical Vapor Infiltration 
+(MW-CVI) technologies. The 
+use of these technologies will in 
+fact (as described in Fig.1.1): 
+• Drastically reduce the time of 
+CMCs processing, which is one 
+of the main components of this 
+product costs; 
+• The replacement of 
+magnetrons with newer solid -
+state sources will grant a fast, 
+precise and automatic tuning of operational frequency and phase with a high coupling level and a much more uniform 
+temperature profile in the preform. 
+Thus, CMCs produced with MW -CVI will be cheaper 
+but, at the same time  will have higher performances 
+than the materials currently used.  
+In the steelmaking sector, most  blast furnaces (BF) and 
+subsequently basic oxygen furnaces  (BOF), currently 
+reduce ir on ore using a high -temperature synthetic gas 
+derived from coal and coke as energy inputs. Specifically, 
+in steel pro cessing lines, indirect heating of products in 
+protective atmosphere is carried out with radiant tubes 
+equipped with gas -fired burners (around 50 b urners per 
+horizontal furnace and  150 burners per vertical furnace). 
+These components are made different grades of Inconel / 
+stainless steel, depending on the location  (first leg or end 
+leg). In CEM-WAVE we aim at validating the use of non -
+oxide and oxide CMCs in radiant tube furnaces instead of 
+the currently used material. CEM -WAVE technology will 
+reach TRL 5. Demanding for this concept to be feasible 
+and to find applicable solutions, CEM -WAVE consortium 
+planned the research and innovation activities as described below and in the Figure 1.2. Set-up of the materials and of the 
+Microwave technology will be performe d (WP1-2); the hearth of the project activity is the oxide and non -oxide CMC production 
+processes (WP3), contemporary material characterisation (WP4), AI -assisted modelling (WP5) and CMCs joining techniques 
+(WP6), all feeding each other in a circular proce ss, will identify the best composition and process parameters for obtaining the 
+best oxide and non-oxide CMC materials. Sustainability aspects, both in terms of market analysis and environmental impacts will 
+be investigated, (LCA, LCC, TA and Risk Analyses - WP8). All these activities will be completed by Dissemination, Communication 
+and Exploitation (WP9) and Coordination an d management (WP10) activities. The involvement of several R esearch and 
+Technology Organisations (RTOs) with diverse expertise at the international level in Materials Science, and past projects in 
+collaboration with material or sectoral industries, will ensure the experience for effective technology transfer from research to 
+industrial applications. On top of the well-defined business case, an exploitation strategy has been carefully planned in order to 
+give to CEM-WAVE results larger possibilities of being used in other sectors where similar conditions are expected to be in place. 
+The multi-disciplinary team (Material Science and & Engin eering, Electronic Engineering, including experts in Electromagnetic 
+wave propagation and their interaction with matter, Physicists, Chemists and Environmental Scientists) brings together European 
+expertise in all the relevant fields required by the projec t.  Between them, the consortium has the skills needed to achieve the 
+Figure 1.2 -  CEM-WAVE WPs strategy and configuration. 
+Figure 1.1 -  CEM-WAVE concept: nowadays CMCs are used for niche sectors (aerospace, defense, 
+luxury cars, nuclear). CEM-WAVE, thanks to the reduction of the process time and improvement of 
+the efficiency, will guarantee a CMCs lower cost to be affordable for new markets and, in cascade, a 
+lower cost also of raw materials. 
+
+CEM-WAVE   
+ 8 
+project objectives and to develop and transfer the know-how to further enable industrial-scale exploitation, creating the required 
+political and social environment underpinned by economics (business case) that encourages both transfer and adoption of these 
+ideas. CEM-WAVE will enable this development and transfer of know -how through its value chain of actors . The participating 
+academic and technology institutes ( 8 RTOs) includes both inte rnational experts in MW -CVI processing of non -oxide CMCs 
+(UNIPI) and oxide CMCs (UoB), one of the leaders in all process chains of CMCs including fibre and EBC coating (FHF), renowned 
+expert in experimental and numerical electromagnetic methods including h igh-temperature dielectric characterization of CMC 
+materials (IPCF -CNR), the Italian largest institute on thermo -mechanical and non -destructive testing for CMCs (ENEA), 
+internationally renowned group on micro/macro -scale modelling using AI -aided tools of C MCs (CNRS), and the top research 
+teams on advanced joining and integration technologies for CMCs including testing and monitoring of the joined components 
+(POLITO). The industry participants include the industrial final end -user (AMIII) which is the world’s leading steel and mining 
+company, one of the SME leading German suppliers of microwave ovens for industry and research (FM), a SME specialised in 
+the development of CVD processes and the construction of industrial CVD equipment (ATL) and a SME expert in development 
+of novel monitoring hardware and software solutions (IRIS). CEM-WAVE has identified the essential needs to consider regulative 
+constraints (end-user), financial aspects (KNEIA), as well as environmental issues (R-TECH), together with all partners involved 
+in the value chains, at an early development stage. The competence and expertise of the Consortium will be complemented by 
+the Advisory Board (AB) which will consist of prominent experts, in MW-CVI techniques and in CMC materials both in academia 
+and in industrial sectors. The preliminary composition of the AB is: Byungil Yoon (DACC CARBON Co., Ltd., South Korea), Alexey 
+Kulik (Soft-Impact Russia), Alberto Ortona (SUPSI, Switzerland), Roland Weiss (Consultant for CMCs, Germany). 
+1.3.1.2 Positioning of the project 
+From an overall project point of view, CEM-WAVE will start at TRL 3 and will achieve TRL 5 by the end of the project. CEM-WAVE 
+can be split in several sub sections, each of them characterised by a well-identified technology (Table 1.1). 
+Table 1.1 – Positioning of the project 
+ 
+Technology Initial 
+TRL 
+Final 
+TRL Description 
+Manufacturing of ceramic 
+based fibre preforms based on 
+prepregs and filament winding 
+technology 
+3 5 Manufacturing of adapted fibre preforms, flat samples and tubes, by usi ng 
+coated oxide and non -oxide ceramic fibres (WP1). Adjustment of suitable 
+porosity and density for the CVI-MW processing (WP3) 
+Coating of non-oxide and oxide 
+ceramic fibres for a viable 
+fibre-matrix interface in CMCs 
+3/4 5 Coating of ceramic fibres in a fast, robust and continuous roll-to-roll process. 
+Design of multilayer coatings to provide a weak fibre -matrix bonding for 
+damage-tolerant WIC. Coated fibres will be processed to prepregs in WP1. 
+Application of EBC coatings on 
+CMC to improve life time of 
+components 
+3 5 Deposition of multilayer EBC coatings on CMC by a slurry coating process. 
+Coated CMC test samples and prototypes will be characterized and 
+evaluated in WP4 and WP7 under relevant test conditions. 
+Production of SiC-based CMCs 
+by MW-CVI upgraded with 
+solid-state sources 
+3/4 5 
+Production of pilot -scale SiC -based CMCs samples with different 
+geometries by upgraded MW-CVI process (WP3). Materialsand processing 
+conditions will be optimized by multiscale modeling (WP5). The material 
+produced will be  tested (WP4) and then joined and coated (WP6) to be 
+finally validated in relevant environment for the business case (WP7) 
+Production of oxide CMCs by 
+MW-CVI upgraded with solid-
+state sources 
+3 4 
+Production of pilot -scale oxide -based CMCs samples with dif ferent 
+geometries by upgraded MW -CVI process (WP3). The material and 
+processing conditions will be optimized by multiscale modeling (WP5).The 
+material produced will be tested (WP4) and then joined and coated (WP6) 
+to be finally validated in relevant environment for the business case (WP7) 
+Characterisation of SiC-based 
+CMCs durability and 
+performances in combustion 
+environments  
+3/4 5 Corrosion, thermophysical and thermomechanical tests in simulated 
+working conditions (WP4) 
+Joining of CMCs produced and 
+monolithic SiC 3/4 5 Preparation (WP6) and thermophysical and thermomechanical 
+characterisations (WP4) for expected working environments 
+Monitoring of CMC process 
+and use 3/4 5 
+Initial TRL based on the results of HELM project that will be further 
+developed to reach in line monitoring capabilities (WP3 during process and 
+WP7 during use). The single components such as sensors IR camera, 
+software, etc. are market ready for other applications but need to be tailored 
+to the use case especially in terms of withstan ding the harsh conditions. 
+Specific data driven models must to be developed for close loop control. 
+CEM-WAVE   
+ 9 
+1.3.1.3 Other national and international R&I activities linked to CEM-WAVE 
+CEM-WAVE will build on prior state -of-the-art as well as Intellectual/Industria l Property belonging to several of the Consortium 
+partners. A selection of the relevant projects that are linking research efforts to CEM-WAVE are listed in the following table (and 
+further projects can be found in the respective partner profiles). 
+ 
+Table 1.2 - National and international R&I activities linked to BIOHIGH 
+Project Partner(s) 
+involved Relation to CEM-WAVE 
+HELM, High-frequency Electro-Magnetic 
+technologies for advanced processing of ceramic 
+matrix composites and graphite expansion (FP7-
+NMP, 2011-2015-LARGE-5) 
+UNIPI, 
+IPCF-
+CNR, FM; 
+ATL, 
+R-TECH 
+In HELM an innovative hybrid conventional/microwave 
+assisted chemical vapor infiltration (MW-CVI) pilot plant was 
+designed, developed, validating this technology for the 
+production of SiC -based ceramic matri x composites 
+(CMCs). The experience gained in the design of the MW -
+CVI reactor in HELM will be exploited for the further upgrade 
+to solid-state sources. 
+High temperature composites using microwave 
+enhanced chemical vapour infiltration (funded 
+from the US Air Force Research (AFRL), 2016-
+2019) 
+UoB A microwave assisted chemical vapour infiltration (MW-CVI) 
+pilot plant was designed and constructed to allow the 
+production of SiC-based ceramic matrix composites (CMCs) 
+EXCITE Processing and manufacturing of Ox Ox 
+CMCs (funded from the Aerospace Technology 
+Institute (ATI), 2018-2020) 
+UoB 
+A programme of research designed to learn how to produce 
+oxide-oxide composites with both low cost processability 
+and the required end-use properties. 
+MATISSE, Materials’ Innovations for a Safe and 
+Sustainable nuclear in Europe (FP7, 604862, 
+2013-2017) 
+ENEA, 
+POLITO 
+In WP3 of Matisse project (FP7) high reliability SiCf/SiC was 
+studied for continuous operation at 1000°C for nuclear fuel 
+cladding 
+Nextower, Advanced Materials Solutions For 
+Next Generation High Efficiency Concentrated 
+Solar Power (CSP) Tower Systems (H2020, 
+721045, 2017-2020) 
+ENEA, 
+CertiMaC, 
+POLITO 
+In Nextower project, SiC -based materials were 
+characterized in simulated and real working conditions 
+(thermal cycling up to 900°C) 
+EEE-CFCC (2016-2018), FireMat (2019-201) 
+(POR-FESR, Emilia Romagna region). 
+ENEA, 
+CertiMaC 
+Development of new low cost CMC as thermostructural fire 
+resistant materials 
+CMC-Engine, Lightweight structures of SiCf/SiC-
+Ceramic for gas turbines of the next generation 
+(FHG funded program, grant number 833 886, 
+2017-2020) 
+ 
+FHF 
+In CMC -Engine project FHF developed a very good 
+knowledge about the use of SiC f/SiC-ceramic composite 
+materials used in gas turbines. This knowledge can be 
+useful as starting point for the production of the new CMCs 
+technology. 
+CaGeFa, Development of fiber coating and fiber 
+preforms by using textile technology for efficient 
+CMC´s (funded by the German Ministry of 
+Research and Development, grant number: 
+03X0143C, 2015-2018). 
+FHF 
+In CaGeFa project FHF developed a fiber coating 
+technology that can be adopted for the preliminary fiber 
+coating requested in CEM-WAVE project (WP1). 
+Ker_Twk, CMC for aeroengines (German funded 
+LUFO project, 2018-2022) FHF 
+In KerTwk CMC especially the complete SiC-process chain 
+will be investigated with the focus on the fibre coating and 
+infiltration processes. 
+TraTurb, CMC for turbines (German funded 
+BMBF project, 2019-2022) FHF 
+In TraTurb SiC -CMC are manufactured by using different 
+fibre preforms and matrices, machined and tested by using 
+international standards. 
+GaMA, new Gas routes for Aeronautic MAterials 
+preparation (French Aquitaine Region & Safran 
+group project, 2019-2022) 
+CNRS 
+In GaMa project new Gas routes for Aeronautic Materials 
+preparations have been studied. The modelling approach 
+adopted and the background acquired can be used for the 
+muti-scale modeling of the MW-CVI process (WP5). 
+ADMACOM, Advanced manufacturing routes for 
+metal/Composite components for Aerospace 16 
+(FP7 –FoF.NMP.2013 GA 609188, 2013-20) 
+ 
+POLITO, 
+FHF 
+In ADMACOM innovative manufacturing technologies 
+based on advanced design of interfaces and of joining 
+materials between ceramic and metals materials for 
+aerospace components , were developed. The knowledge 
+can be transferred to the study of the new joining technique 
+between ceramic components (WP6). 
+CEM-WAVE   
+ 10 
+JOLIE, JOining of LIghtweight alloys to advanced 
+FGM mEtal-ceramic materials ( European Project 
+MATERA –ERANET Ministry of Education, 
+Universities and Research –MIUR 2227, 2013-
+2015) 
+POLITO 
+In JOLIE the research activity of POLITO was focused on 
+the study of joining materials and processes for Al -alloy 
+/ceramic brake systems. The knowledge can be transferred 
+to the study of the new joining technique between ceramic 
+components (WP6). 
+PROPAT, Robust and affordable process control 
+technologies for improving standards and 
+optimising industrial operations (H2020 SPIRE, 
+GA 637232, 2014-2018) 
+IRIS 
+PROPAT developed novel sensors and analysers to 
+measure properties of process streams and produ cts, 
+accurately and in real -time, integrating them into a global 
+control platform for data acquisition and data processing. 
+This background can be used as starting point for the 
+development of new sensors to control and tune the 
+operating parameters of pro cess streams and products  
+(WP2-3). 
+FIRE-RESIST - Developing novel fire-resistant 
+high performance composites (FP7- 246037, 
+2011-2015) 
+ 
+R-TECH 
+In FIRE-RESIST project R -Tech made the LCA and Risk 
+Management for the production of novel fire-resistant high-
+performance composites. The skills obtained can be useful 
+for LCA and RA of the CEM-WAVE project (WP8). 
+caLIBRAte, Performance testing, calibration and 
+implementation of a next generation system-of-
+systems (H2020 GA 686239, 2016-2019) 
+R-TECH 
+In caLIBRATE project R-Tech carried out Risk Assesment 
+for the production of engineered nanomaterials. The skills 
+obtained can be useful for LCA and Risk Analysis of the 
+CEM-WAVE project (WP8). 
+ 
+1.3.2 Methodology 
+CEM-WAVE will be built carefully just like a spider does  with the 
+creation of its web (Fig. 1.3). A work that is successful only with 
+the integrated contribution of all the work packages, which 
+represent the threads woven together. 
+More specifically, the ambitious objectives of the project will only 
+be reached, because of the well-integrated planned activities of 
+the inter -disciplinary CEM -WAVE consortium on the different 
+aspects. 
+Four main groups of activities have been identified: 
+• laboratory Research and Technical Development - RTD 
+(WP1 to WP6); 
+• industrial validation in relevant environment (WP7); 
+• LCA, LCC, TA & risk assessment (WP8); 
+• and dissemination and exploitation (WP9). 
+All activities will be supported by the management activities 
+(WP10). The main approach behind CEM -WAVE is the parallel 
+validation of the two class of CMC materials: a) non-oxide CMCs offer the better high-temperature performances in terms of 
+thermo-mechanical properties and low density, while b) oxide CMCs are increasingly gaining attention due to their considerably 
+lower cost and intrinsic oxidation resistance, albeit their maximum use temperature is generally around 1000 – 1200°C. The CEM-
+WAVE business use case well reflects these differences and has been conceived in order to make the best use for both classes 
+of CMCs in the RTF in steel making. 
+AMIII USE CASE 
+CEM-WAVE methodology applied to the selected Use Case: Figure 1.4 shows a radiant tube furnace with actual conditions and 
+future conditions, (i.e., in a hypothetical radiant tube furnace fuelled by a mixture of hydrogen/biomethane ( H2/CH4) – these 
+conditions will be studied in Task 1.1; in the figure a negative scenario is hypothesised). Since the conditions within the furnaces 
+will be clearly variable, the radiant tube will be customised with different materials: several degrees in terms of properties and 
+costs will be analysed to optimise the final costs of these components, by placing, in every section, the most convenient material 
+possible. Indeed, a certain degree of tolerance will allow the materials in every section to resist t o unexpected conditions or 
+fluctuations. A hypothetical plan of the CEM-WAVE radiant tube configuration of the future is depicted in  the right part of Figure 
+1.4. Different H2/CH4 will be investigated in order to assess CMCs behaviour in such working conditions during the project thanks 
+to the innovative research on the set -up materials (WP1) on the process for producing both oxide and non -oxide CMCs (WP3) 
+and the characterisation on the CMCs properties (WP4). 
+Figure 1.3 – CEM-WAVE spider web construction. 
+All activities are related like braided threads needing everyone's 
+contribution for CEM-WAVE success. 
+CEM-WAVE   
+ 11 
+In order to make such a tube, CEM-WAVE includes innovative studies on joining of materials, especially between different types 
+of CMCs (Ox-Ox – SiC-based CMC), tailoring both joining materials and processes for specific CMC s (oxide or non-oxide) and 
+precise applications . CEM -WAVE joining activity will  look at bonding techniques based on pressure -less, high -temperature, 
+tailored glass-ceramic sealant, brazing by “in situ” high T composite joining materials suited for the bonding of non -oxide and 
+oxide/oxide CMCs and ceramics (WP6). The use of CMC will only be sustainable if the process to produce such materials will be 
+optimised to drastically reduce the costs of the CMC production following a twofold approach: integration of fully tunable so lid-
+state sources and their automation, opening further new pos sibilities to the MW -CVI process (WPs 2 and 3). Thanks to these 
+technologies it will be possible to exploit the material itself as a sensor during the MW-CVI process, thus allowing the obtainment 
+of the desired properties and duration of the MW -CVI process (WP2). Building on the CMC manufacturing process monitoring 
+strategies developed in WP3, the process analytical technology software platform will be tailored to additionally perform structural 
+monitoring on the walls of the ceramic composite tubes samples to detect material structural and composition modifications and 
+thus alerting the user for on-time maintenance of the tubes (WP7). To support the product design and optimisation, CEM-WAVE 
+will take advantage of micro/macro -scale modelling assisted by one of the most powerful recent key technologies tools, i.e., 
+Artificial Intelligence (WP5). In more detail, it is envisaged to propose a consistent multiscale and multi-physics modelling frame 
+making use of AI techniques for (i) the preparation of adequate computational domains from µCT scans of fibrous preforms and 
+(ii) the acceleration of the balance equations solvers [5], and (iii) the optimization of processing parameters to obtain a pore-free 
+infiltrated matrix. All these approaches will bring to a small -scale version of tube that will be tested in laboratory where (after 
+ageing tests) it will experience conditions that will allow us to determine its feasibility in future plants powered by renewable energy 
+sources; the same component will also be tested in current furnaces at AMIII where it will be placed on a specific support, to be 
+also tested in current conditions. The latter is a fundamental part of the project exploitation strategy, which aims at a clo ser 
+exploitation of the project results in current furnaces where our material can be introduced, bringing immediate advantages in 
+terms of heat transfer efficiency and product lifetime (CMCs are expected to be better performant than currently used super-alloys 
+on both aspects).The RTD work and the industrial validation will be supported by LCA, LCC, RA and TA (WP8), that will allow to 
+keep the research and validation work on track with the fundamental requirements in terms of material requested properties, 
+environmental impact, costs, energy efficiency and  possible risks. Parallel monitoring of other possible commercial exploitation 
+venues will be also part of our strategy methodology, that will be based on the constant analysis and monitoring of the results at 
+every step and in every part of the project in  order to identify any possible exploitable way for our materials, including other 
+sectors. 
+1.3.3 Gender dimension  
+The CEM-WAVE consortium takes a comprehensive approach towards gender aspects, which includes gender mainstreaming 
+and positive actions. In accordance with the Articles 2 & 3 of the Treaty of Amsterdam (1997) and other EU policy directives (COM 
+(96) 67 final) and reports (EUR 2002), the consortium is committed to follow the principles of gender mainstreaming. Gendered  
+analysis stimulates gender-responsible science and technology, thereby enhancing the quality of life for both women and men 
+Figure 1.4 - Comparison between the curren t radiant tube section adopted by CEM -WAVE use case (AMIII) and the CEM -WAVE 
+solution for future RTFs. 
+CEM-WAVE   
+ 12 
+worldwide. The applicants are conscious of the strategic importance to identify and avoid gender bias in science and technology. 
+To this purpose, gender aspects are tackled from 2 points of view: 
+1. In terms of project scientific and technical design and execution (methodologies, interpretation of data, dissemination of 
+results). The applicants have considered that, due to the objectives of the project, the desig ning of methodologies and 
+interpretation of data produced during the project should not be affected by gender considerations. 
+2. In terms of project management (researchers’ recruitment, labour and family conciliation). The consortium will operate 
+an equal opportunities policy for recruitment. The programme of work will not discriminate against persons of any gender 
+and will aim to eliminate any relevant barriers and to encourage  the participation of women in the programme of work 
+and its outcomes. All efforts  will be made to encourage participation by women and it will be instigated for all a work 
+scheduling that allows for reconciliation between work and family life. Opportunities have arisen in relation with the 
+project women scientists. The CO will be in charge of ensuring that gender issues are appropriately considered, for this 
+reason a dedicated point will be included in the agenda of the consortium meetings.  
+This approach is coherent with EC policy “Strategic engagement for gender equality 2016-2019”, published in December 2015. It 
+is noteworthy that there is a strong presence of female researchers, technologists, and industrials in the consortium, a number of 
+which are occupying key positions in the project. Several partners are represented by women participating in Project SC, and in 
+WP and task leadership roles. A recruitment policy for future researchers and developers for the project is in place and is designed 
+to ensure a reasonable level of balance between the sexes.

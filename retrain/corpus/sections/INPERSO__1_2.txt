@@ -1,0 +1,2266 @@
+1.2 x 2.5 m, to guarantee a service life of over 25 years and to improve visual comfort; (b) upscale manufacturing 
+capacity and automation, (c) interface with local manufacturers, users and other stakeholders, (d) address heritage 
+requirements; (e) demonstrate in operational conditions and (f) finalise development. 
+BIPVs (METSOL, R3.4): (a) Modify panel visual and textural features through heritage complian t prototypes; (b) 
+integrate into energy balance management tools; (c) expand customer b ase by projects in multiple countries; (d) 
+collect user feedback; (e) demonstrate in operational conditions and (f) finalise development. 
+KPIs: Ventilative cooling, PV inverter 5kWp of up to size, storage 14kWh thermal, 4kWh electric with inverter, heat 
+pumps (AS/EA) with CoP>4, suitable for air tightness 3-9, reduced energy consumption > 50% for HVAC and DHW 
+and savings >75% when combined with DR, Power density of the cu stom BAPV/BIPV = 190 Wp/m2; Cost < 80 
+€/sqm; positive aesthetic assessment, windows: 8-12% efficiency, 1000-1500€/m2 final selling price. 
+ 
+ 
+ 
+ 
+ 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 5/70 
+SO4. Deploy on-site 3D façade printing 
+Advanced manufacturing of building components will be introduced (T2.6 - VIAS) into an integrated Façade 3D 
+printer system ( IR4) by deployin g a multi -layer 3D prin ting system including robotic technologies for façade  
+renovation looking for energy performance improvement. It will be fully automated and integrated with BIM to 
+improve quality and reduce on-site operation time and material, and hence, make it more affordable. Special attention 
+will be put on safety aspect s as it is a clear barrier to make such a system feasible in a high TRL. The prototype 
+system will be demonstrated in TRL7 in a demo of at least 6x6m. Specific analysis, studies an d tests based on the 
+results of this pilot will be made to upgrade the technology to the required TRL8:  
+3D printing subsystem (UPV/CART – R4.1): 3D printing constructive process requirements, BIM integration, 
+relation to INPERSO renovation workflow, 3D pr inting extrusion head integration in industrial robot arm. Printing 
+control, including the pumping system. Façade 3D printing requirements preparation, last generation materials 
+selection, system validation and product exploitation. 
+Global positioning subs ystem (ITA -R4.2): Façade 3D printing positioning and moving system design & 
+development. Perception system to allow safe Human Robot collaboration,  
+KPIs: Minimum 50% reduced refurbishment duration, >25% cost, >50% less dust / noise generated>40% less CDW 
+ 
+SO5. Address personalised comfort requirements inclusively, by increasing building smartness 
+The Energy and Comfort Optimisation Interface (ECOI - ΙR5) is featuring low consumption (T3. 4 - IRIS) wireless 
+sensor networks for IEQ (T3. 6 - EPFL) and proactive energy balance optimisation (T3. 5 - CORE) throughout the 
+building’s lifecycle.  
+Multistage energy consulting system (CORE -R5.1): (a) Expand the f unctionalities of the EMS into a multi -stage 
+system by addressing the construction (or retrofit phase) reducing energy demand by 10-20% and generating data of 
+significant value for furthe r reductions via RES and electrification; (b) interf ace the EMS with other optimisation 
+agents of the project, as well as the RE SUITE and commercial BEMS, (c) validate the models with operational data 
+from the demonstration sites; (d) establish business networks and collaborations, (e) finalise development. 
+IEQ management interface (EPFL-R5.2): (a) develop a unified IEQ index methodology to assess the impact of 
+renovation on IEQ and human comfort, (b) monitor environmental quality (indoor and outdoor -during and af ter 
+retrofit) and provide prompts to users as a low-cost solution, (c) assess the acceptance of the proposed solutions and 
+engage with users to guide their behaviour, (d) validate and demonstrate the effectiveness of the proposed 
+methodology and solutions during operational conditions. 
+Low-cost and low-energy wirele ss sensor network (IRIS -R5.3): (a) assess and select low -cost and DIY sensor 
+components, (b) introduce energy consumption into monitoring decision making; (c) improve acceptance and 
+engagement, e specially through open science and citizen s cience; (d) ident ify and pursue partnering/licensing 
+opportunities, (e) validate and demonstrate the solution. 
+KPIs: Energy consumption forecast accuracy of 8%+/-, leading to 25% HVAC energy reduction, over 30% of total 
+energy use, Minimum 30% energy consumption reduced within personalized comfort levels (ASHRAE thermal sense 
+scale and UNI15251 ). Energy consumption of mechanic al ventilation & cooling reduced over 70%, number of 
+overheating hours<5%, Metabolic CO2 <1000ppm universal, CO<35 mg /m3 1hr mean, 10 mg /m3 8 hrs me an, 
+total VOC<300 μg/m3 for an 8h exposure, formaldehyde<100 μg/m3 for a 30 min exposure, NO2 <20 μg /m3 annual 
+mean , particulates PM2.5 <25 μg /m3 PM10 < 50 μg /m3 24hr mean15,  adhere to IAQ standards, 95% accuracy 
+on equipment degradation detection, 30% lower maintenance costs. 
+ 
+SO6. Deliver a complete system comprised of almost-commercial readiness level products and processes. 
+IR6 INPERSO completed system: demonstrated in operational conditions (T5.1-5), system completed through design 
+review and TRL8 checklist (T6. 3 – UPV) and uptake by B&C end -users for transferability, replication, and 
+commercial exploitation (T6.4,5 – CORE) 
+INPERSO Demonstrators (Respective – R6.1-3): INPERSO will be demonstrated in Valencia, Velp and Voula by 
+AUMSA, MWNB and AMS respectively.  
+Design review (Respective – R6.4): (a) finalise the development cycle 
+OHSE - Protocols for safe construction workplaces (EUROC -R6.5): (a) define new risks in construction sites 
+stemming from the integration of technologies but also enabled by digital solutions; (b) deploy new human -robot 
+collaboration protocols (ITA); (c) implement the protocols in operational conditions and report on the outcomes. 
+INPERSO market launch strategy  (CORE T6.4) A market analysis will be performed to further address  bespoke 
+Target Groups need and consolidated into a sustainable, flexible and scalable value proposition read y for market 
+launch. KPIs: 4 demonstrators, 6 business models, over 50% reduction of accident incidence  
+ 
+ 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 6/70 
+Pertinence to the topic’s objectives 
+CL5-2021-D4-01-02 Requirements SO1 SO2 SO3 SO4 SO5 SO6 
+Reduction of construction time by >40% and cost by >25% √ √ √ √  √ 
+CDW reduction >30% and construction CO2 footprint reduced by >30% √ √ √ √   
+Performance gap <10%, acceptance/ satisfaction of results > high √ √ √ √ √ √ 
+Reduction of accidents and risks > 50% √ √ √ √  √ 
+Demonstration sites where project is implemented      √ 
+20% of users engaged as participants during the project (energy 
+communities, open science, citizen science a.o.) 
+ √   √ √ 
+Building energy demand reduction >25-75% kwh/m2a   √ √ √  
+6 Business Models (BMs) for INPERSO adoption      √ 
+Accessibility, safety, acceptance and indoor health and comfort √ √ √ √ √ √ 
+Performance tracking and information throughout the lifecycle √ √   √  
+Integration in energy networks & energy community fostering  √    √ 
+ 
+1.1.2 Ambition 
+Innovation #1 Information capture and management throughout the building’s lifecycle – DMO/R2M 
+State of the art: Digital transformation is taking place at a slow pace in the European construction industry means a 
+huge gap between theoretical digital opportunities and the realities of on-site construction. Beside the huge interest 
+in the scientific community and the acceptance of digitalisation is increasing in other sectors, still BIM and AI are 
+not widely used in the construction sector. Moreover, BIM data are not easily accessible on premises and are usually 
+consulted on PC in the office. Generating these models is a challenge in itself, requiring significant computational 
+resources and is time consuming. As of now, the most common informat ion sources when developing a project for 
+existing buildings are the existing 2D digital or paper drawings. 
+INPERSO advancement: RE Suite and its modules enable the management of the renovation process and physical 
+assists through a digital process, which is more efficient and cost-saving. Furthermore, it is enabling the integration 
+of BIM in this process which have other huge benefits, such as collecting, identifying, and present data about HVAC 
+systems in a digital format, which can be then linked to the other RE Suite modules to be used in different analyses, 
+such as maintenance programme and LCC analysis, as shown below: 
+State of the art Innovation 
+Gap between as -built and as -designed and 
+unconformity issues: Current unconformity tracking 
+applications lack features, such as, the automat ic 
+location, automatic displaying information over 
+objects, overlaying and comparing design models to 
+as-built models and  voice entry capabilities.  
+RIALTO will allow an efficient construction tracking and 
+conformity chec king during the construction proces s. 
+SCAAI to ol to allow BIM developers to create BIM 
+models of buildings through 3D point clouds from laser 
+scans more quickly; providing automation steps for all 
+standard geometries; integ rated methods for automated 
+component recognition and BIM data enrichment.  
+Involvement of stakeholders and decision making 
+during the renovation process : most of the current 
+solutions also lack the synchronization with 
+Construction Management Software ,  thus not 
+allowing  information sharing with stakeholders that 
+are not physically present on site 
+INPERSO tools will allow the streaming of the onsite 
+operation to allow the involvement of different 
+stakeholders which will lead to a fast decision making. 
+Progress tracking and the link between issu es and 
+BIM models: Issues are currently recorded in a table 
+format, can be referenced to a specific location in a 
+pdf/ drawing file, however, the link to a BIM file is 
+not created. 
+The project will allow the site  progress tracking and the 
+link between the issues in the construction site and BIM 
+models which will store the development history in the 
+building and products passport. 
+Real world location and AR information sharing : 
+Cloud anchoring and real-world AR position is being 
+used mostly in  games and marketing campaigns, 
+Application in th e construction sector are not yet 
+taking full advantage of these innovations. 
+Rialto uses motion tracking, using simultaneous 
+localization and mapping (SLAM) techniques to track the 
+device position in the world and e nvironmental 
+understanding, allowing the  device to understand the 
+surfaces in th e environment.  Rialto makes use of cloud 
+services for storing and sharing 3D content and for 
+positioning the information in real-world locations. 
+Plug and play Energy consump tion pr ediction and 
+monitoring: There are in the literature a few attempts 
+Extending self-adapting artificial intelligence modules to 
+optimize energy consumption in buildings and 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 7/70 
+to model, analyse and predict energy consumption in 
+building, but most of them are plug and play, nor 
+extendable. 
+construction. 
+ 
+Innovation #2 Deep low-carbon renovation models - TAU 
+State of the art: Deep low carbon housing renovations are crucial strategies to achieve carbon neutral goals and can 
+lead to significant energy savings for residents, addressing key social challenges such as affordable housing an d a 
+just low -carbon energy transition. Realistic sustainable technical solutions already exist to retrofit the existing 
+housing stock, such as insula tion, high performing windows, efficient building services, low car bon energy 
+technologies, etc. Low carbon retrofits are urgent because of the climate crisis, but they are also disruptive to residents 
+and costly to owners. Thus, it is critical that low carbon retrofits optimise an effective flow of construction workers 
+and materials during renovation, reducing  disruption and duration. Additionally, international research has 
+highlighted a ‘performance gap’, which is a mismatch between the predicted buildin g performance and carbon 
+reductions and what achieved in reality. One of the major causes of this underperformance is how residents use their 
+home and systems. For example, ill -informed design and technology that do not meet users’ needs can lead to 
+increased energy use and poor indoor environmental quality (IEQ), affecti ng residents’ health and well -being and 
+jeopardising carbon reduction targets. Smart technology is increasingly deployed to monitor building performance 
+and to engage residents with their day-to-day behaviour, but their potential remains underexploited. This project will 
+include different smart tech with the aim to: 1.) reduce disruption and manage expectations with residents; 2.) manage 
+the flow of people and materials during construction to  reduce disruption; 3.) close the performance gap with real -
+life monitoring; 4.) nudge architecture to encourage residents to make more sustainable choices long term. TAU will 
+study these new and optimised processes with integrated smart technology solutio ns towards transforming the low 
+carbon retrofit of urban environme nts from the earliest stages (design/pre -retrofit) to completion (post -
+occupancy/retrofit). 
+INPERSO advancement: To address these challenges, and the novelty of this project, we will study the acceptance 
+of different smart technologies at different stages of the project. We will also ideate and c o-create new optimized 
+construction models and processes with stakeholders to minimize retrofit disruption and cost.  This will support the 
+development of optimised flow of construction workers and materials to reduce retrofit duration, disruption, and cost. 
+Furthermore, smart technology acceptance and their potential in persuading residents to reduce their carbon impact 
+long-term will be tested, including the utilisation and study of different smart technologies to monitor actual carbon 
+reductions and IEQ, impact of user behaviour on performance and how this can be optimised.  
+Finally, the inclusion of smart tech at different stages is in and of itself a new low carbon renovation model and the 
+INPERSO project provides the perfect test bed to study the challenges, successes, and barriers to its contribution to 
+carbon reductions, and wider implementation. 
+State of the art Innovation 
+The social interaction and feedback during the 
+renovation process is usually not taken into 
+consideration, which decreases the awareness of 
+such renovation projects and therefore the 
+willingness to participate in them. 
+RE Suite inhabitant app enables the so cial integration and 
+decision making and linking it to the BIM models, that is 
+the feedback from the inhabitants can be used dir ectly to 
+modify some design/operational input. 
+ 
+Apart from technical and industry barriers, the social 
+environment and citizens’ expectations and needs are 
+other key factors that, jointly to financing supporting 
+schemes, need to be addressed for deep reno vation 
+deployment. The intense intervention that is needed 
+by the building industry to offer and implement 
+competitive solutions in order to face the challenges 
+in climate change is not always in line with 
+individual and local priorities. Therefore, the success 
+of upscaling deep renovation depends on optimized 
+industry solutions and more prepared local 
+communities13 
+In line with the new European Bauhaus aiming to “bring 
+the European Green Deal to life in an attractiv e, and 
+innovative and human -centred way”, INPERSO will 
+include the human dimension by mapping the demand side 
+and know the drivers for the different techn ologies from 
+users’ point of view to help technology partners develop 
+them. This will be achieved by u sing the stakeholder -
+centred approach init ially indicated (workshops, focus 
+groups meetings as a first step, then by surveys and 
+inquiries adapted to demo cases and local communities, to 
+be able to produce industrialised and personalised 
+renovation including heritage buildings.  
+  
+Innovation #3 More efficient construction through innovative components and manufacturing 
+Conventional refurbishment processes suffer from fragmentation, extended downtimes, significant waste generation, 
+increased costs and also often result to significant deviations fro m the owner’s vision. The Retrofit -Kit (IR3)   
+13 D'Oca, Simona & Ferrante, Annarita & Ferrer, Clara & Pernetti, Roberta & Gralka, Anna & Sebastian, Rizal & Veld, Peter. (2018). 
+Technical, Financial, and Social Barriers and Challenges in Deep Building Renovation: Integration of Lessons Learned from the H2020 
+Cluster Projects. Buildings. 8. 174. DOI: 10.3390/buildings8120174. 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 8/70 
+comprises a portfolio of innovative technologies and approaches, as well as an open -ended structure enabling the 
+addition of any brand of type of technology. What sets INPERSO apart from similar approaches, is t he focus on 
+realistically low cost, highly integrated and prefabricated. In reality, low-income and vulnerable groups are excluded 
+from even light renovation, as the indicative cost of up to 60€/m2 can be prohibiti ve for a household of 50m 2. The 
+Just Trans ition declares that no one should be left behi nd, but this requires dramatic cost reductions in the 
+transformation process. 
+State of the art Innovation 
+A wide range of heating and ventilation products is 
+available but vast majority provide no connectivity , 
+no performance feedback and no capacity for real 
+time operational adjustment. There is also a growing 
+range of 'bolt on' controls with internet connect ivity 
+(Nest, Hive or Switchee) but these monitor one area 
+(hallway), control heating or air conditionin g only 
+and have limited efficiencies (15% at best) and no 
+load shifting capacity 
+Ventilative HVAC (VENTI) Connected, demand 
+responsive, fully integrated heat recovery ventilation, 
+heating and hot water systems pre -configured with 
+renewable energy generatio n and storage to enable quick 
+and simple installation. The Ventilative HVAC will 
+interface with the data driven controls and optimize based 
+on user prefe rences, especially with regards to indoor 
+conditions, maintai ning healthy and comfortable indoor 
+environment while adapting to DR and saving energy and 
+emissions. 
+Shading devices :  In different types of building, 
+especially in renovation, the opaque surfaces of the 
+façade able to host renewable energy systems, such  
+as photovoltaic, are very limited. This i s mainly 
+because of limited opaque area in the roof or 
+restriction from cultural offices. Therefore, windows 
+and transparent facades can serve as new  kind of 
+energy producer. Today, there are just a couple of 
+manufacturers offering shading devices that produce 
+solar energy in the building sector. They are young 
+companies producing photovoltaic blinds suitable 
+only for external or internal use. The solu tions for 
+external use have compatibility problems with fully 
+glazed facades and they are not recommended f or 
+multi-story buildings, as they do not typically bear 
+the wind load. The photovoltaic blinds suitable for 
+indoor use can be used in any type of bui ldings, but 
+since the solar heat is transmitted through the 
+windows, the incoming sunlight overheats the indoor 
+spaces, and therefore it is required additional cooling 
+loads, especially in summer. 
+The main advantage of iWin with respect to alternative 
+photovoltaic blinds laid in the integration into the insulated 
+glass unit. It reduces the heat transmission to the indoor 
+spaces and the glass panes seal and protect both the 
+photovoltaic Venetian blind and the control system against 
+dust, dirt and weather con ditions, avoiding performance 
+losses and guaranteeing its optimal performance during its 
+lifetime. The inte gration into the building façade is 
+compatible with highly glazed buildings and no 
+maintenance is required. The invention related to 
+photovoltaic blind window has been previously considered 
+with different approaches. However, the previous systems 
+require to arrange crystalline solar cells on at least one side 
+of the slats and therefore, their interconnection is 
+complicated and expensive, especially whe n the width of 
+the insulated glass unit remains below 30 mm. Our solution 
+offers a monolithic interconnection between cells and high 
+throughput connection between slats compatible with an 
+automatic and continuous production line and provides a 
+competitive market price. 
+ 
+BIPVs Expensive, economic products do not 
+consider the aesthetic dimension. 
+BIPVs in INPERSO will be investigated as prefabricated 
+components in addition to their conventional function, with 
+all due visual and aesthetic considerations. 
+ 
+Innovation #4 Vertical, robotic Façade 3D printing 
+State of the art : 3D printing applied to construction is c urrently in a phase between the demonstration and the 
+beginning of its arrival on the market, and only in certain areas 14. Until now, it has been applied on a small scale to 
+buildings, bridges, street furniture, mod els, elements for interior design, moulds or prefabricated construction 
+components. Its use in facades has been fundamentally for the walls of new buildings wit h a single storey or by 
+means of prefabricated elements for enclosures15. There are few on-site applications and even fewer that contemplate 
+the rehabilitation of buildings on a large scale.  Among the most important challenges today is the energy 
+rehabilitation of façades, using new printing materials, more efficient and sustainable 16, compatible with 
+constructions to be rehabilitated, generati ng multilayer systems. In addition, it is necessary combine safely and 
+reliably automated processes and human intervention, improving finishes and integration in rehabilitation process. It 
+is also necessary to develop new modelling protocols incorporated into BIM systems, which can directly connect the 
+ 
+14 European Construction Sector Observatory (2019). Trend Paper - Integrating digital innovations in the construction sector: The case of 
+3D Printing and Drones in construction. 
+15 V. Mechtcherine, V. N. Nerella, F. Will, M. Näther, J. Otto, and M. Krause (2019) Large-scale digital concrete construction – 
+CONPrint3D concept for on-site, monolithic 3D-printing. Autom. Constr., vol. 107, no. August, p. 102933, 2019, doi: 
+10.1016/j.autcon.2019.102933 
+16 Hamidi, F., & Aslani, F. (2019). Additive manufacturing of cementitious composites: Materials, methods, potentials, and challenges. 
+Construction and Building Materials, 218, 582-609. 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 9/70 
+design phase with the construction phase. 
+INPERSO advancement: The proposed system takes an important step in the conception of 3D printing systems to 
+rehabilitate facades. It could bring important improvements in execution time and costs, adaptability to irregularities 
+in what has already been built and an increase in overall efficiency, both in the process as of the result. That is because 
+until now only have been proposed solutions for new walls on the ground floor or to rehabilitate with prefabricated 
+elements, which do not contemplate working on-site. In this sense, the 3D printing solution with multilayer insulating 
+materials, the collaborative human-robot work and the BIM integration, coordinating design and manufacturing, are 
+very ambitious goals that are considered achievable. Above all, the most far -reaching bet i s providing the system 
+with the ability of moving along the façade plane directly carrying out the rehabilitation. 
+ 
+Innovation #5 Increasing the smartness of buildings through proactive optimization 
+Most prominent commercial smart home products highly rely on wired solutions for more sophisticated control and 
+operations (Honeywell, VIMAR, Gira KNX, ABB i-bus KNX). In many renovation works additional wiring can be 
+an option entailing respective costs, installation work and tenant burden. In light ref urbishment and in low impact 
+domestic upgrades much lighter interventions at the co re infrastructure of the building are expected such as plug -
+and-play solutions, wireless thermostats and IoT controls for lighting and security. Current state of the art wir eless 
+solutions focus on remote sensing a nd control (Legrand Netatmo) via mobile interfaces and smart home  hubs and 
+speakers (Google Nest, SmartThings, Echo Dot). In small scale BeMS applications such as single buildings, energy 
+logging meters can be connected to an existing BeMS for logging energy. However, several outdated components 
+and parts are no longer compatible with latest advancements in BeMS or are no long er supported by manufactures. 
+In cases such as complex buildings/sites bei ng monitored, dedicated hardware and s oftware p latforms are 
+implemented to obtai n adequate data for analysis. This leads to capital intensive investments on the side of the 
+building owners, and disruption in business-as-usual operation of the building. 
+INPERSO advancement: The Multi-Stage Energy Consulting Syst em (MuSECS) is designed to introduce highly 
+impactful functions in a flexible manner. The monitoring of key assets (mainly HVAC, energy generation and storage 
+devices) is a prerequisite to maintaining peak performance, which directly affe cts energy performance. Moreover, 
+performance degradation of these assets is associated with costs, disruption, discomfort and even threats to human 
+health and wellbeing. As opposed to conventional solutions, MuSECS will require limited wiring, instead employing 
+Wireless Sensor Networks (WSN),  can be integrated on the edge, taking advantage of full signal resolution and 
+granularity to produce more accurate results. This means that insights are immediate, saving a lot of time for facility 
+inspection, and are  communicated to the facility managers  with minimal latency and maximum accessibility and 
+modularity. The multi-objective optimisation function of the energy balancing will supplement BEMS by introducing 
+objective values and mathematically maximising the potential of savings. MuSECS will also integrate with the IEQ 
+management interface, resulting in an inclusive and affordable energy optimisation solution. Finally, the integrated 
+system will be transferred to the renovation phase and applied to optimise the scheduling of renovation works based 
+on clean energy availability, in order to reduce the CO2 emissions of the process.   
+ 
+1.1.3 Technology Readiness Level of INPERSO 
+RE Suite (DMO-IR1) RE Suite is currently used by DMO to manage over 100,000 properties (projected to triple by 
+2025) (TRL9). The RE Suite passport will be developed to host all building related data during the renovation stage, 
+it will be tested and validated in the demonstration sites. The RE Suite will be interfaced with RIALTO (R2M) and 
+SCAAI (R 2M/DMO). Both components are validated and  will be demonstrated in INPERSO (TRL7). Through 
+debugging and design review, IR1 will achieve near-market readiness pending final certification (TRL 8).  
+Retrofit-Kit (AMS-IR3) The individual components of IR3  
+Retrofit-Kit elements current TRL Final TRL 
+Integrated HVAC (VENTI): The energy pod has 
+been prototyped and validated delivering substantial 
+improvements to energy performance (TRL6). 
+Value optimization, design for manufacture, 
+interoperability optimization  and demonstrations, 
+development finalisation (TRL8). 
+Smart Wall (AMS) TRL 5-6. The proposed solution 
+has been installed in a wall in AMS premises and its 
+performance has been validated. (TRL5). 
+TRL 7 -8. In the framework of INPERSO the proposed 
+solution will be demonstrated in a building in Greec e and 
+is expected to be a completed and qualified system by the 
+end of the project. (TRL8). 
+Solar windows (IWIN) The technology has been 
+tested in SUPSI laboratory and in an open rack under 
+real outdoor condition as relevant environment, 
+(TRL6). 
+demonstrate a system prototype in an operational 
+environment at SUPSI outdoor mockup installation 
+reaching TRL 7 and in one  or more the demo sites at the 
+end of the project to reach (TRL8). 
+Façade 3D printing (VIAS, CART, ITA, UPV) Components of the 3D printing integrated system (IR4) have been 
+demonstrated under relevant environments and various application scenarios (TRL6). The pump and 3D printing 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 10/70 
+extrusion head will be integrated in the industrial robot arm ; the positio ning system will be designed and 
+manufactured, with Perception functions to facilitate Human -Robot collaboration. The system will be integrated in 
+BIM through the RE SUITE. Following system prototyping and validation, it will be demonstrated in operational  
+conditions (TRL7). VIAS will carry out assessment and verification to include in commercial services (TRL8). 
+WSN (IRIS) Wireless Sensor Networks (WSN)  (TRL6). The technology has been developed, prototype has been 
+produced and tested in lab and pilot scal e(museums). Demonstration of the prototype  adjusted to the needs of the 
+projects (TRL7). IRIS will carry out technoeconomic assessment and integration into their services (TRL8). 
+Energy Management System (CORE) TRL5. Has been demonstrated in applications for manufacturing equipment 
+and buildings, transferability prototypes have been demonstrated (TRL7). Will be implemented in actual processes 
+post-training wi th historic data and integrated with other optimisation modules and d emonstrated in operational 
+environment, prior to verification and debugging (TRL8).
+1.2 Methodology 
+1.2.1 Common implementation methodology 
+INPERSO is an ambitious project that will achieve near-market status for its results at TRL8. Thus, the activities are 
+centred on delivering high quality renovations in operational environment, that will be subsequently used to finalise 
+the development cyc le. Commercially, INPERSO is envisioned as a service with product and PaaS components, 
+which means that it needs to possess the intrinsic flexibility for implementation in very different renovation scenarios.  
+Therefore, demonstrations in each demo -case (DC#) will follow a common implementation methodology, adapted 
+to suit the unique requirements of each site, and showcasing the flexibility of INPERSO: 
+Digital and data-driven technologies have a foundational role in the project, as unifying information stre ams into 
+actionable intelligence is one of the key components. These solutions will have a pivotal role throughout the 
+building’s lifecycle and need to be implemented at the earliest stage possible to initiate data acquisition. Hence, from 
+M1 to M6, an ass essment of the data acquisition infrastructure of the demonstrations will be conducted, 
+complemented by the definition of the data architecture, which will be comprised of the RE SUITE platform and the 
+interfacing of the various digital & smart solutions with it. M7-12, data acquisition will be implemented and by M18 
+monitoring and communication systems shall be fully operational, although effort will be invested in achieving this 
+status earlier. From M19 and until M30, models and algorithms will be trained  with operational data as opposed to 
+M1-18 where historical and reference (from nearby stations and databases, or pre -existing DAQ) data will be used. 
+This approach allows a full annual cycle for tra ining and validation, prior to the onset of the demonstra tions phase 
+M31-42). Post-demonstrations (M43-48) and as part of the development finalisation phase, software debugging and 
+interface streamlining will compr ise the final set of activities, complemen ted by a critical design review and next 
+steps forward.  
+Active and passive envelope components  are addressed in INPERSO through the lenses of sustainable 
+industrialisation as well as personalisation, while heritage-related constraints are also considered. During M1-6, the 
+scope of each demonstration will be refined (see description of individual demonstrations) and a thorough review of 
+technical (interoperability, complexity, CO 2 footprint) and non -technical risks (regulatory, heritage constraints, 
+delays in the tendering and administrative processes) will be ca rried out to deliver the Demonstration Action Plans 
+and update the Risk Log. M7-18 the designs will be finalised, and the tendering processes will be initiated according 
+to the decision -making framew ork of each demonstrator organisation. By M30 the renovat ions, including the 
+installation and validation of INPERSO components will be completed through the commissioning process and in 
+M31 the demonstrations will begin. During the retrofit (M18-30), data will be collected from the site to carry out the 
+energy balance and working conditions assessment through ECO -I, in addition to interacting with stakeholders as 
+described in the Low-Carbon Renovation Models (LCRM).  
+The social dimension of the project will  be comprised of the activities of the LCRM and stakehold er engagement 
+activities. An ambitious plan for the early identification and involvement of citizens and related groups (see §2.1 
+Target Groups) will be deli ver by M6 and updated during the course of  the project. The plan will elaborate on the 
+appropriate measures to: (a) promote energy community related initiatives, (b) promote open science and citizen 
+science, (c) maintain a focused renovation strategy centr ed on user satisfaction, inclusivity, acce ssibility, IEQ and 
+capacity building, (d) foster sustainable economic growth and access to green finance.  
+ 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 11/70 
+Figure 2 methodology for the implementation of INPERSO 
+In summary, INPERSO will feature four distinct phases: Decision and  design (pre-retrofit), integration (during -
+retrofit) and validation & demonstrations (post-retrofit). A fourth phase dealing with the finalisation of development 
+will conclude the project, although some activities described here will overlap with previous phases. In the Validation 
+& Demonstration phase, the INPERSO components will be validated as a system in the demonstration cases, ensuring 
+that the start of the demonstrations will be cond ucted at the planned readiness level. The aim is to provide a bette r 
+understanding of how to optimise the three main stages (pre -retrofit, during retrofit, and post -retrofit) of the deep 
+renovation of energy efficient buildings and ensuring the designed for carbon emissions are achieved in reality. Hence 
+addressing the ma in social and technical challenges along the entire design and construction and use phases are 
+crucial, whereby smart technology can aid safety, wellbeing and positive behaviour change, and  improving user 
+acceptance of low energy and low carbon renovation interventions.  
+1.2.1.1 Pre-retrofit 
+RE SUITE integrated platform (IR1), DMO 
+Information throughout the lifecycle of the building will be managed through the RE Suite. RE Suite is comprised of 
+several solutions : real estat e development, control, asset and portfoli o management, maintenance (NEN 2767 ), 
+financial exploitation, energy and safety. RE Suite is used for developing and optimising the real estate management. 
+The software is used by professio nal real estate managers,  such as housing associations, municipalit ies, (air)ports, 
+hospitals and contractors. It uses and connects with novel techniques and standards: BIM, IFC, GIS, CityGML, etc. 
+ 
+RE Suite provide s a wide array of 
+functionalities: 
+• Input & edits through smartphone 
+• Multiple analytics 
+• BIM & GIS – based 
+• Workflow management & 
+dashboards 
+• Multi-user and language 
+• Cloud based / SaaS 
+• Adaptable security& access aspects 
+• Long term maintenance schedules 
+• Fast data processing. 
+RE Suite’s architecture is modular, 
+employing Ajax,  WPF, Xamarin, 
+SQLServers, noSQL Servers, continuous 
+integration and deli very and Agile / 
+Scrum. 
+In INPERSO, BIM Passports for both buildings and materials, standardised BIM Family Ontologie s and Object 
+Libraries, will be introduced and managed on RE Suit e passport. It will be used to collect, ma intain and store 
+information about existing buildings over their life cycle. Moreover, Models generated from SCAAI tool will be 
+managed and integrate d in RE Suite,  besides, the Inhabitant App which will evaluate th e renovation acceptance 
+solutions. In INPERSO, three RE Suite component will be used: 1-RE Suite Passport : BIM Passports for both 
+buildings and materials, standardised BIM Family Ontologies and Object Libraries, will be introduced and managed 
+on RE Suite p assport. It will be used to collect, maint ain and store information about existing buildings over their 
+life cycle. Moreover, Models generated from SCAAI tool will be managed and integrated in RE Suite. 2-RE Onsite: 
+through the Inhabitant App which will evaluate the renovation acceptance solutions and increase the social interaction 
+in the project. 3-RE IoT: to monitor ana analyse building data and performance, with three main objectives: a) data 
+access, b) data management, c) easy and efficient export of data, that will be used in pilot scale. Moreover, interfacing 
+with ECO-I will also be carried out. 
+Scan-to-BIM with AI capabilities (DMO-R2M) 
+The scan-to-BIM process of indoor buildings materials and components remains mainly a manual process due to the 
+difficulty in data registration, and huge amount data to manage, the segmentation of partially occluded components 
+and the absence of semantic information to annotate and model the registered da ta. In this pr oject, a data -driven 
+method for point cloud data extraction and semantic parsing of the 3D scene is proposed to extract BIM information 
+from 3D data. The process contains the following steps:  
+• Segmentation of the global point cloud in smaller  point cloud clusters corresponding to individual components. 
+Several up-to-down and down-to-up segmentation methods will be explored to avoid over -segmented or under-
+segmented point cloud clusters;  
+• The development of the automatic classification of the s egmented point cloud components extracted from the 
+previous step;  
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 12/70 
+• Determinate material categorization of segmented objects of the previous step from prior knowledge and feature-
+based descriptors from shape and intensity data included in point cloud data;  
+• Transforming and exploiting the information of the building obta ined from previous steps to BIM compatible  
+format. A BIM compatible format to export data will be selected from the most common formats (IFC, DWG) 
+and information will be adapted to its scheme. 
+ 
+SCAAI tool allows the automatic classification of objects in a point cloud and matching it with a BIM object library, 
+changing the necessary parameters in the BIM objects to fit it with the scanned objects which would lead to the 
+creation of a semantic BIM model. The innovative approach of the tool allowing the fast assembly of a BIM model 
+based on a scanned 3d point cloud, instead of reconstructing it.  
+RIALTO, R2M 
+AR based solution, offering guidance through Hololens or other mobile devices to operators in the construction site 
+   
+and within existing buildings,  during renovation 
+operations, to detect g aps and discrepancies 
+between a s-design and as -built and generate 
+reports. Operators can see building features and 
+technical information obtained fro m BIM 
+models, that are over imposed on the reality, thus 
+they can easily see if the as designed corresponds 
+to what has been constructed. RIALTO will 
+contribute to the “at least 30% and towards 5 0% 
+reduction of on -site construction / renovation 
+work time and 25% costs reduction” impact. 
+Low-Carbon Renovation Models (IR2), TAU 
+Low-Carbon renovation models will be developed and implemented to introduce the human -centric dimension to 
+industrialised renovation. This approach will synergise and supplement the B IM-based workflows of IR1. In short, 
+new optimized construction models and processes with stakeholders will be deployed to minimise retrofit disruption 
+and cost, but primarily to achieve the meaningful translation of user requirements into the delivered result. Coupled 
+with post -occupancy evaluations and nudge architect ure, LCR Ms will contribute to decisively r educing the 
+performance gap. LCRMs will also be applied closely with stakeholder engagement and capacity building activities, 
+constituting a wide spectrum of SSH activities that are in fact necessary to fully explo it the digital solutions. Thus, 
+acceptance of smart and digital solutions by the users of the buildings as well as the B&C industry will be a key 
+activity that will unlock positive behavioura l shifts in target groups. Finally, the LCRMs will collect, process, and 
+circulate valuable data with regards to the technologies presented in INPERSO themselves, contributing to addressing 
+barriers, bottlenecks and pain-points in the process of achieving near market readiness. 
+1.2.1.2 Advanced renovation components and technologies – during renovation 
+INPERSO Retrofit-Kit (IR3), AMS, VENT, METSOL, IWIN, SUPSI 
+Smart Wall, prefabricated panel, AMS 
+Smart Wall is a prefabricated all-in-one wall panel that can be insta lled externally or internally in existing building 
+envelopes but a lso can be a standalone wall, suggesting a  feasible, adaptable and cost -effective solution for deep 
+renovation. It is constituted of multiple layers and other components as presented in the figures below, aiming to 
+ameliorate existing building’s performance on different levels (e.g. thermal, acoustical performance, fire resistance). 
+It can be filled with eco-friendly and recycled insulation material such as rockwool, cellulose or even Super Insulation 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 13/70 
+Material (SIM) to improve the thermal transmittance of the external walls. It can operate also as a standalone HVAC 
+system, able to maintain indoor thermal and air quality comfort conditions and can integrate mechanical, electrical 
+and plumbing d istribution and equipment. The configuration of the Smart Wall can b e supple mented by 
+photochromic windows enhancing the visual as well as the thermal comfort of the interior space. Vacuum Insulation 
+Panel (VIP), as the most promising SIM for applications in building sector, can be used behind the mechanical parts 
+of the Smart Wall, but it can also be used as the main thermal insulation of the panel depending on each building’s 
+energy demands. All the components of the panel are enclosed in a steel stud, ti mber or other type of frame that is 
+easy to install and consequently  achieving less time on -site and less disr uption to the occupants. The Smart Wall 
+panels are versatile and customized according to the specific needs of each building case. Combined with a  high-
+performance heat pump and photovoltaic modules placed on the façade or the roof, it can lead the overall performance  
+ 
+ 
+of a building to reach the 
+NZEB standards.  
+(1) Functional coating 
+(2) Mortar – fire protection 
+(3) Cladding (CDW%) 
+(4) Water resistant air barrier 
+(5) Acoustic insulation 
+(6) Thermal insulation 
+(7) Structura frame 
+(8) PV system 
+(9) integrated HVAC  
+The use of recycled materials 
+will be considered for the 
+components of the smart wall 
+system: recycled plastic, 
+wood etc. for the frame of the 
+system, recycled insu lation 
+materials, use of CDW in 
+order to produ ce claddings 
+made of geopolymer. 
+Kit iWin – window and shading device, IWIN 
+The kit iWin is a photovoltaic venetian -blind shading device that is integrated inside an insulating wi ndow (double 
+glazing unit). iWin allows to combine in one single element different functi onalities adding value to construction 
+elements nowadays necessary: renewable energy production (useful for the building operation), light and solar 
+radiation control (especially in summer), glare protection and superior aesthetics. 
+  
+Figure 3 IWIN prototypes 
+The sealed environment of the glass -enclosed chamber 
+(insulating window) ensures total protection against dirt, 
+dust, or weather conditions and almost no maintenance is 
+required t o the blinds. iWin solution is based on our 
+international patent pending metho ds for continuous 
+production that integrates thin film photovoltaics solar cells 
+on venetian blind inside a two glasses -enclosed chamber 
+with an easy installation framing structure su itable to 
+retrofit conventional insulated windows or to be installed 
+in n ew Zero Energy Buildings.  iWin is developed to be 
+marketed worldwide, in particular where solar protection is 
+needed to shield building from overheating during summer. 
+For iWIN the ambition is to develop intelligent algorithms 
+in order to optimize the use of the dynamic system, to 
+develop a solution performing around 7% efficiency in  
+typical windows sizes of 1.2 x 2.5 m, to guarantee a service life of over 25 years and to improve vis ual comfort. 
+Moreover, the manufacturing line will be further develop in order to reduce the stress-dependent of electrical contact 
+resistance, Demonstration in real buildings at the end of the project will s erve as pilot and demo providing en ough 
+reliable data to scale up the solution using a semi -automatic manufacturing approach able to deploy new processes 
+and technology that have a considerable potential for rapid and broad deployment at European level. 
+Strong collaboration with local façade maker and glass maker is foreseen in order to effective involve the buildings 
+supply chain, in particular local or distributed SMEs, as well as of building owners/tenants and other relevant 
+stakeholders. iWin solution i s also designed to be integrated in to cultural he ritage buildings with high design and 
+aesthetic requirements. 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 14/70 
+Ventilative HVAC, VENT 
+The ventilative HVAC component is designed for mass retrofitting – (i.e., ‘home engine’) a connected, intelligent, 
+plug-and-play comfort system for houses (combining heating, hot water, free cooling and ventilation) that comes in 
+one, easy to integrate box combining: Heating and domestic hot water generation through exhaust air (EAHP) and 
+air sourced (ASHP) heat pumps, ventilation and cooling through MVHR with passive cooling loop, thermal storage 
+and electricity storage (4kWh battery with AC inverter) and PV inverter.  
+ 
+Figure 4 Ventilative HVAC systems (left), installation design (right) 
+The Energy Pod is designed for easy integration into the heating – cooling network of the building, minimizing on-
+site work and disruption. Moreover, through the thermal and electricity storage, the Energy Pod is ideal for DR 
+schemes and can be interfaced with renewable generation, EV charging as well as other functions, providing holistic 
+energy management in a highly optimized package.  
+Customized BPIVs, METSOL 
+In INPERSO, METSOL will design and develop the active building elements 
+(BIPV/BAPV – Building Integrated/Applied Photovoltaics) which will serve 
+to act as a retrofit construction material for roofing and/or façade applications; 
+and produce renewable electr ical energy for self -consumption of the 
+households by integrating them with cooling, HV AC and other systems. The 
+BIPVs & BAPVs will be integrated with  the passive elements and 
+implemented in t he demo sites. These elements will be designed and 
+developed, ta king into account economical, efficiency and aesthetical 
+requirements for such systems/applications. Seamless integration with the 
+building envelope ( not looking like PV solutions) for greater  household 
+owners’ acceptance – special bill of materials  (BOM) will be utilized to 
+achieve this. In terms of efficiency, power density of 190 Wp/m2 will be 
+achieved, at a cost of 80 €/m2 for the PV panels for BIPV considering mass 
+production. Furthermore, a plug -and-play approach will be implemented so 
+that the systems are designed in such way that they could be installed without 
+specific training and done by regular  construction workers (apart from 
+electrical connections). 
+Vertical, robotic, façade 3D printer (IR4), VIAS, ITA, UPV, CART 
+Robotics can be fully applied to refurbishment works on  site. 3D printing technology can be implemented to work 
+on outdoor skin shapes with significant autonomy. The goal is to print autonomously vertical surfaces using layer‐
+by‐layer techniques in a safe way and in a reduced time. Based on using a digital model of the building a robot will 
+be able to move precisely over the working surface, adding material wherever required while avoiding damaging any 
+physical element in the work environment or people.  The reduction of labour risks, execution time, environmental 
+impact and economic costs  are envisioned through the INSPERSO façade printing system as it will be based on a 
+combination of new technologies enabling vertical printing for construction elements while enabling more traditional 
+machinery systems to work autonomousl y through modifications . The system  will integrate the following 
+subsystems: 
+• 3D Printing subsystem: a prototype extrusion head capable of printing construction materials mounted in an 
+industrial robotic arm. This system will allow the required degrees of freedom to adapt to existing building 
+geometries and conditions an d meet the process requirements and monitor the quality of the process with 
+appropriate sensors. 
+• Global positioning subsystem: the 3D printing robot will be fixed to motorized a scaffold platform covering 
+the façade that will allow autonomous movement according to higher level orders. 
+• Safety subsystem: based on robotic perception sensors and SW that will allow all the movement of the global 
+and local mobile parts preventing collisions and sharing space with human operators without a safety fence. 
+ 
+ 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 15/70 
+• BIM integration: SW to define and control the whole renovation process. 
+• Mobile concrete pump: adapted to specific requirements of the printing materials. 
+• Power generator: to provide the energy to the different subsystems. 
+ 
+ 
+Figure 5 Vertical Façade 3D printer design (left) and pattern generation (right) 
+To produce and 
+demonstrate the 
+capabilities of the 
+INPERSO 3D printer in 
+renovation works for 
+energy-efficient 
+buildings and reduce the 
+technological risk  
+involved in this 
+challenging objecti ve, 
+the prototype will be 
+based on previous 
+research project results 
+and integration and 
+modification of 
+commercial machines,  
+components, and materials wit h a progr essive TRL upgrade. To guarantee successful integration  and manage the 
+system complexity, a model-based V-design methodology will be followed with intensive use of virtual prototyping 
+and verification of critical development aspects in experimental tests under controlled conditions before integration. 
+The 3D printing head is available from 3D C ONS project (VIAS and CARTIF) in which the feasibility of vertical 
+printing has been demonstrated in laboratory conditions and cement-based materials. In INSPERSO, the system will 
+be first tested in the same conditions wi th a range of last generation therm al insulation materials available in the 
+market. 
+In a second step, this printing head will be mounted on an industrial robot arm, which will replace the current cartesian 
+system allowing 6 degrees of freedom (DoF)  movement, extending the capabilities to freely adapt to existent building 
+envelope geometries. To achieve industrial scale application this subsystem will be fixed to a mobile p latform 
+designed to move on the bridge of a commercial motorized scaffold, which will be modified with specific controllers 
+for autonomous operation. This global positioning system will be upgraded with robotic perception technologies 
+(Lidar/cameras) making the machine aware of its environment. From the acquired information, Artificial Intelligence 
+libraries combined with m apping techniques will be used to detect any potential collision with static or moving 
+elements and will allow the system to safely “navigate” over the façade while even sharing the scaffold bridge with 
+human workers when required. All these s ubsystems will be thoughtfully tested to verify that they fulfil technical 
+and operational requirements and once validated, the integration process will start. The system commissioning and 
+set up will be carried out in two phases: 
+In the first phase the system will be validated and demonstrated in a relevant environment in ITAINNOVA facilities. 
+In this phase the main target will be to make system adjustments to get the required productivity performan ce and 
+safe operation.  In the se cond phas e, the prototype system will b e transferred to the most  suitable demo site to 
+demonstrate the performance in operational environment and assess , not only the productivity compared to 
+expectations, but also the characteristics of the resulting construction element, with a specific focus on quality (build- 
+as-designed) and energy performance (thermal insulation improvement).  Finally, the results from the pilot will be 
+analysed in detail, and specific studies or adjustments will be carried out. These steps will lead towardsthe system 
+qualification with attention to regulation and standard compliance and following COVR project recommendations.  
+1.2.1.3 Post retrofit monitoring and optimisation 
+Energy & Comfort Optimisation Interface (ECOI) 
+Multi-Stage Energy Consulting System (MuSECS) 
+The Multi-Stage Energy Consulting System (MuSECS) is a holistic energy management resource that comprises 
+multiple stages of the building’s lifecycle. The system is comprised of four sub-modules: (a) data analytics, (b) asset 
+monitoring, (c) forecasting and (d) energy optimisation, utilising AI Machine Learning tools to translate process data 
+into actionable information. For each module, as well as  the integrated system, process data will be enriched with 
+external data, su ch as energy pricing , energy mix, weather information and LCA data among other types. Process 
+data streams will be comprised of: process energy loads in selected resolutions, ener gy generation and storage 
+capacity, requirements and constraints (such as th e indoor environmental quality or baseline energy requirements) 
+and asset operation and condition data. Once the data architecture is finalised, the MuSECS will be applicable across 
+the entire building lifecycle. During building operation, the system will anticipate the overall process energy needs 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 16/70 
+and will take decisions on the optimal energy mix to be used by finding the most cost -effective energy policy, i.e. 
+the scheduling of the energy sources and the energy storage components that minimize energy cost s while on the 
+same time satisfying the expected energy consumption of the overall process and the corresponding operational 
+constraints. This will be achieved  by formulating the energy optimisation problem into a suitable multi-objective 
+optimization model based on meta-heuristics algorithm with a given “cost criterion” (objective function) that has to 
+be optimized. The objective function defines the optimisation goals and typically reflects the operational energy costs 
+as weighted sum of the various energy sources, favouring the use of renewables by considering the energy prices and 
+the corresponding CO 2 emissions. Moreover, the system will enable multiple data  analytics routines & AI to learn 
+from the historical energy patterns and past actions with the a im to identify the energy intensive sub-processes and 
+optimize their energy efficiency.  
+ 
+Regarding refurbishment or new construction design, MuSECS is primarily designed as a tool to influence decision 
+making, providing adopters with accurate information, but also validating the reliability of the process itself. In this 
+case, operation data will be used to construct a mathematical model of the unit and based on the demand response 
+performance, an optimal energy system configuration will be proposed (the RES-Selector module). The module can 
+be expanded with expert knowledge on passive systems (insulation, ventilation, cool-roofs a.o.) to incorporate these 
+interventions in the module, as part of a Building Renovat ion Passp ort solution. In case more advanced  data is 
+available MuSECS will validate the configurations resulting in much greater accuracy.  
+ 
+MuSECS will also be applied 
+during construction works such 
+as demolition, refurbishment, or 
+new construction. For this 
+application the principles of the 
+system are the same: util ising 
+energy data, scheduling advice 
+will be provided to the operators, 
+so that the energy footprint of the 
+construction process ca n be 
+minimised.  
+ 
+The Asset Health Monitoring (AHM) module o f MuSECS will be responsible for: (a) condit ion monitoring: 
+monitoring the current state of critical assets in real-time and (b) anomaly detection: conduct advanced data analytics 
+and machine learning algorithms for detecting deviations from the normal states and assets with high probability of 
+failure. The value of this function will be to inform the operator of the smooth operation of the device and provide 
+advance warning in case a deviation from  operational specifications is anticipated, so that decisio n planning for 
+maintenance can be facilitate d and justified.  There are two types of interoperability options that will increase the 
+value of the system: (a) Expert knowledge, for instance on thermal simulation or indoor air quality will allow more 
+accurate prediction of extreme weather events, that generally do not have the required frequency to generate data for 
+training the models. Expert knowledge in the CO2 footprint of various components and pr ocesses will enable 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 17/70 
+prediction and optimisation of emissions, in addition to energy and associated costs; (b) Module interoperability will 
+be pursued with selected solutions such as dynamic LCA, home-automation, BEMS and other monitoring and control 
+software that can utilise the knowledge generated by MuSECS to improve other processes of the building’s lifecycle. 
+An example is  the delivery of day -ahead energy scheduling where a BEMS would be required to micromanage 
+electronic devices. In cases where automation is difficult to integrate, user prompts will be used to deliver actionable 
+information. 
+Low-cost sensor network and IEQ management, IRIS, EPFL 
+A pre -/during-/post-renovation occupant -centred system for people’s comfort and wellbeing by providing good  
+indoor environmental quality (IEQ) in the population in an energy-efficient manner will be consolidated comprising: 
+(a) an indoor environmental quality index using a low-cost IEQ monitoring platform. This effort will include the 
+deployment of numerous IEQ sensing platforms in European buildings accompanied by occupancy surveys in order 
+to produce weighting coeffi cients for various p arameters. Moreover, a methodology will be developed for 
+benchmarking the IEQ in buildings that have undergone energy renovation. Th e reason for this is threefold: 1) to 
+guarantee that IEQ is not degraded during the renovation to satisf y the existing manda tes; 2) to document any 
+improvements in IEQ after renovation; and 3) to estimate potential additional benefits from renovation, incl uding 
+benefits for health and well-being, as well as the financial benefits from improved productivity and increased value 
+of a building on the market.  
+(b) a personalized, sensor-driven recommendation system for air pollution exposure and thermal stress avoidance. 
+Based on data from a network of low -cost sensors, w e aim to develop a methodology that provides  personalized 
+recommendations to the users to improve their IEQ (e.g., opening windows to ventilate, interact with the heating 
+thermostat during winter to reduce overheating and save energy etc).   
+(c) improvement of working conditions in construction sites with regard to ambient air pollution. The sensor-driven 
+recommendation system will be transferred to the application during the retrofit phase, collect ing air quality data 
+from external APIs (or interfacing with the MuSECS that will be already processing this data) to analyse the working 
+conditions of renovation activities. This information will then be used to assess and update risks in the context of 
+occupational health and safety in WP5. 
+1.2.2 INPERSO Demonstration Cases (DCs) 
+INPERSO will be demonstrated in  fully operational conditions in Valencia (Spain), Velp ( Netherlands) and Voula 
+(Greece). The INPERSO demonstrations will follow the common implementation meth odology unless specified 
+otherwise (within the description). The overall goal of the demonstratio ns is not only to hi ghlight the INPERSO 
+innovations, but also to generate the conclusions needed to advance the system to TRL8. 
+ DC#1 Valencia 
+(AUMSA) 
+DC#2 Velp NL 
+(MWNB) 
+DC#3 Voula EL 
+(VVV) 
+ 
+ 
+   
+Scope & objective Near-zero retrofit 
+maximising natura l 
+ventilation . 
+Pilot solutions ahead of large 
+scale retrofit of heritage 
+buildings into services and 
+accommodation. 
+Comparative evaluation 
+of INPERSO  nZEB 
+with conventional 
+retrofit. 
+Climate classification BSk: Cold semi -arid 
+climates 
+Cfb: Temperate ocea nic 
+climate 
+Csa: warm and 
+temperate 
+Unique direction  City centre, heritage, 
+residential 
+Heritage, large scale 
+landscaping, services 
+Social housing 
+Networks and 
+communities 
+Establishment of energy communities and support via stakeholder engagement and 
+capacity building  
+Replication – scalability 
+potential 
+AUMSA manages 598 
+dwellings where 
+INPERSO can be 
+replicated. 
+MWNB managing over 2000 
+sites with heritage status. 
+Interface with > 40 
+energy communities in 
+Attica, VVV manages 
+62 buildings. 
+Interfacing with sites in Lausanne and Geneva as living labs and replication in other 
+cantonal buildings (over 200 school buildings available).  
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 18/70 
+ 
+1.2.2.1 Demo Case # (AUMSA) Calle Estrella, Valencia, Spain 
+Description of the demo site 
+The Calle Estrella building is in the neighbourhood called “La Roqueta” with a population of 4,489 people, which is 
+in “Extramurs” district. There are four nei ghbourhoods in this district of 50,897 peo ple. DC#1 is comprised of 16 
+housing units (four apartments per floor, with four floors available) plus a market on the ground floor. There are 16 
+apartments (over 40 people). In each floor, there are 2 apartments with 1 bedroom and 2 apartments with 2 bedrooms 
+(there are 2 stairs with 2 apartments per stair and floor). On the ground floor there is a market (281 m2).The Estrella 
+building was constructed in 1850 and is protected by heritage regulations, providing strict guidelines on any potential 
+retrofit activity affecting the visible part of the building. The key economic activities of the neighbou rhood are 
+professional activities 43% (financial institutions, insurances, services provided to companie s etc.) and tra de and 
+service activities 37% (commerce, restaurants and lodging, repairs). 
+Demo Case #1 Calle Estrella 
+ 
+Figure 6 Calle Estrella location and façade 
+Type Mixed use (multifamily and 
+ground-floor market) 
+Built / Refurbish 1850 / 2002 
+Occupancy >40 tenants 
+Heated area 16 apartments (880m2) 
+Ground floor market (281m2) 
+Heated area: 709m2 
+Total neighbourhood area Block: 4700m2 
+Extramurs district: 1,972 km² 
+Energy consumption  170.15 kWh/m2a 
+Renewables None 
+Data acquisition – 
+controls- smartness 
+None 
+ 
+   
+Figure 7 Calle Estrella 4-6 location of the neighbourhood and building (left), courtyard façade (centre) and aerial 
+view (right) 
+The district where the building is located is a historical dist rict because its housing stock is mostly older than fifty 
+years (57% of the housing stock was built from 1901-1960). The building is included in the protection level number 
+3, with basic architectural and subsidiary environmental protection. Therefore, onl y the demolition of its invisible 
+parts from public roads can be  authorized and its own elements must be preserved. And only the restorin g and 
+undertaking the replacement of the pre -existing volume with care and respect for the original characteristics of the 
+building and ensuring the congruence of the works with the maintenance of the façade and with the environment can 
+be carried out. 
+ INPERSO Implementation 
+The goals of DC#1 are to carry out deep renovation of the Calle Estrella building , improving build ing energy 
+performance, focusing on indoor environment and ventilation, promotion of energy communities and adherence to 
+the heritage status: 
+Passive and active envelope components: The renovation of the building currently planned is to carry out passive 
+measures ( insulation of the building envelope: main façade o n the  inside part, courtyard f açade and roof; new 
+windows). The construction of new terraces on the courtyard façade in each floor and the installation of elevators to 
+make the building accessible. Façade refurbishment will be conducted in accordance with AUMSA procedures. The 
+heritage status of the building renders the utilisation of prefabricated elements in the building façade challenging, 
+hence the Consortium will conduct component  early prototyping adhering to the visual and textural requirements . 
+Solar window, smart wall and 3D printed façade elements will be prototyped towards this goal, while BIPVs will be 
+restricted to the roof area and inner courtyard. Smart wall components and ventilative HVAC pods will be utilised in 
+selected interior areas. New connections to replace the old DHW boilers will also be assessed.  Moreover, through 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 19/70 
+LCA-based tools, the CO2 footprint of the conventional renovation materials and works will be improved. 
+ 
+Figure 8 Layout of Calle Estrella 4-6 
+Digital and data-driven technologies: DAQ will be carried out 
+as described in the common implementation methodology. Given 
+the location and climate of DC#1, natural ventilation potenti al 
+will be maximised. The renovation process will adhere to the data 
+acquisition requirements during the construction works, that will 
+be used to validat e the ECO -I in both retrofit and post -retrofit 
+stages. RIALTO and SCAAI will be utilised in conventional and 
+heritage a sset appl ications. The result will provide valuable 
+feedback fo r the refinement of the solut ions. All data will be 
+stored in the RE Suite , and the three main modules: Passport, 
+OnSite and IoT. The interface between the modules and ECO -I 
+will be optimised.  
+The social dimension: AUMSA manages a large portfolio of buildings in Valencia, in distrib uted locations and 
+various typologies. The goal of INPERSO is to establish and foster energy communities as “local lighthouses” that 
+will naturally expand to encomp ass the s urrounding neighbourhoods. Spanish regulations require that energy 
+communities can span a radius of 500m, that reinforces the lo cal character. DC#1 will hence be employed as a 
+lighthouse project implementing the activities of the Stakeholder Engag ement Plan, considering local and social 
+contexts throughout the three phases of pre-, post- and during-retrofit. The buildings in the same neighbourhood will 
+be invited to install photovoltaic systems on their roofs and participate in citizen science and engagement activities, 
+including the formation of energy community. It will be given priority to the buildings in the same block of buildings 
+given that the energy generated in an energy community can be distributed in 500m maximum. In case there are not 
+interested neighbourhoods, different option s will be  studied. On the ground floor of the building, there ar e some 
+commercial premises being part of a bigger market. In the roof of this market, photovoltaic panels will be installed. 
+The market also has a loading and unloading area on the street where the installation of a charging station for electric 
+vehicles can be studied. 
+ 
+1.2.2.1 Demo Case #2 (MWNB) Trinity Complex, Velp, Netherlands 
+Description of the demo site 
+Monumentenwacht is an organization that specializes in the periodic inspection of built her itage to raise awareness 
+among owners and caretakers of the importance of proper maintenance and preventive conservation. It originated in 
+the Netherlands in 1973. Each province ha s its own Monumentenwacht organization so nationally there are 10 
+chapters. MWNB is the Noord-Brabant province chapter. MWNB support and advise 2800 owners. It inspects 1800 
+monuments a year: so some annually and some once every two years. Varying from sm all house and tombstones to 
+large cathedrals and industrial complexes. That would off er a big spectrum of demonstration project to apply 
+INPERSO methodology and increase the project impact. Example of potential deomnstration projects are detailed: 
+The Trinity building: The pilot complex is m ainly composed by 
+three building with a total plot area of 130,000 sqm. It is in the city 
+of Velp in the province of North Brabant in the south of the 
+Netherlands. All building are culture heri tage buil dings and 
+protected by law, which add another complexi ty dimension in the 
+renovation work. The  three buildings illustrate well the 
+developments in the religious field in the Meierij and the Land van 
+Ravenstein. When active practice of the Catholic  faith in  the 
+Meierij was banned, the Land of Ravenstein became  a refuge for 
+many Catholic monastic orders and believers, since there was still 
+religious freedom here. The whole co mplex will be subjected to 
+renovation with changing the function into residential and services. 
+Regarding the building HVAC system, which w ill be a big 
+challenge due to the type o f buildings, the plan is to have one 
+heating system serving the who complex 
+Building A: Saint Vincent's Church which is owned by the local 
+government, it is the o ldest building of the Velpse trinity, dating 
+back to the twelfth century. Over the centuries, the relatively simple 
+tufa Romanesque church has been expanded with, among ot her 
+things, a choir and a brick church tower. The building will be 
+renovated to be th e main service hub of the area with restaurants, 
+cafes and cultural hubs  
+ 
+Figure 9 Location of the three buildings 
+ 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 20/70 
+Building B: Monastery Castle Bronckhorst, it has a long history of 
+renovations and expansions, in 1990, the complex was redeveloped 
+for residential purposes. It is now owned  by a pri vate developer 
+with the aim to renovate the building in to modernized residential 
+units 
+Building C: Capuchin Monastery Emmaus, it has its origins in the 
+Eighty Years' War, it was also subjected to different expansion and  
+Figure 10 St Vincent’s Church (Building A) 
+ 
+ 
+Figure 11 Monastery Castle Bronckhorst 
+renovation, that continued well into the twentieth century, until 
+under increasing secularisationthe number of novices continued to 
+decline from the 19 60s onwards. This eventually led to the 
+dissolution and repurposing of the monastery complex. 
+Boiler house: Completely in line with its historical function, the 
+Ketelhuis will become the (figu rative) warm heart of the Tilburg 
+Spoorzone. The monumental, fo rmer NS building (main train 
+service company in th e Netherlands) is being completely 
+transformed. This example of post-war utilitarian construction has 
+served as a heat source for the Werkplaat s for man y years. First 
+with coal, and later with gas. Now the Ketelhuis is given a new 
+lease of life as a place to live, work and relax. Located on the corner 
+of the Burgemeester Brokxlaan and the Willem II passage, you can 
+also reach the center of Tilbur g within one walking minute. The 
+building has a total area of 4500 sqm and will be renovated to host 
+48 homes 
+  
+Figure 12 Capuchin Monastery Emmaus (left) and Boiler House (right) 
+INPERSO Implementation 
+DC#2 entails three buildings in a 130,000m2 area in the city of Velp, the province of North Brabant. All building are 
+culture heritage buildings and protected by law, which add another complexity dimension in the  renovation work. 
+The three buildings illustrate well the developments in the religious field in the Meierij and the Land van Ravenstein, 
+adding a significant cultural dimension to the heritage aspects. The entire area is planned for renovation and 
+landscaping. INPERSO will be an integral part of th e design process to achieve a low carbon retrofit in the entire 
+area. Given the size and scope of the pilot site, it is not possible to carry out deep renovation in each building, but the 
+entire area is available to test the project’s solutions and upscale into a neighbourhood scale retrofit. The change-of-
+use of buildings B,C and D (into services such as restaurants and accommodation) is also an added challenge, and 
+the cultural significance of the area adds another layer of complexity with regards to tolerance to disruption (noise, 
+pollution, activity). For DC#2, piloting and optimising low-disruption, pollution and energy retrofits is key (CORE, 
+EPFL, ACCIO). Moreover, IEQ and energy balance will be differentiated from the other cases as the climate is less 
+conducive to natural ventilation and humidity poses a risk also to the heritage components. Finally, DC#2 provides 
+a unique opportunity to exploit (a) the plans for a heating network that is planned to be inst alled, and (b) the high 
+proportion of visitors compared to local users. In this context, the approach will be focused on achieving behavioural 
+change also in the case of visitors, a factor that will influence the characteristics of the energy community. 
+Passive and active envelope components : Façade refurbishment will be conducted in accordance with MWNB 
+requirements considering the adaptability of prefabricated elements. Thus, early prototyping will be carried out. To 
+install solar windows, the existing frame requirements will be analysed, and local produ cers will be contacted. A  
+select number of smart wall and 3D printed façade elements will be assessed with regards to the potential application. 
+The BIPVs will also be considered i n roof areas and auxiliary spaces. Ventilative HVAC pods will be utilised in 
+selected interior areas  presenting the maximum co ngregation. An assessment of the existing and planned heating 
+network will be conducted in the context of integration.  
+Digital and data -driven technologies : DAQ will be carried out as described in the common implementation 
+methodology. Given the location and climate of DC#2, natural ventilation potential is limited, but will be maximised 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 21/70 
+nonetheless. The renovation process will adhere to the data acquisition requirements during the construction works, 
+that will be used to validate the ECO-I in both retrofit and post-retrofit stages. RIALTO and SCAAI will be utilised 
+in conventional and heritage asset applications. The result will provide valuable feedback fo r the refinement of the 
+solutions. All data will be stored in the RE Suite, and the three main modules: Passport, OnSite and IoT. The interface 
+between the modules and ECO-I will be optimised. Piloting the construction stage energy optimisation of MuSECS 
+will be focused, given the potential energy and CO2 impacts of undertaking such a large project.  
+The social dimension : The cultural importance of DC#2 will be highlighted in the renovations. Given the use 
+adaptation of the buildings, different high-level strategies will be implemented in the LCRMs. DC#2 has a different 
+user profile, comprised primarily of building managers, employees and visitors. Establishing an energy community 
+and carrying out capacity building will consid er these differentiations, as well as their impacts o n the project ’s 
+objectives. 
+ 
+1.2.2.1 Demo Case #3 (VVV) Social shelter Litous street, Vouliagmeni, Athens 
+Description of the demo site 
+The Shelter for Adults is located at the municipality of Vari-Voula-Vouliagmeni on a plot of land of 1628,41 m2 and 
+covers a surface of 388 m2 in a green environment. It was initially designed, built and used as a small hotel and later 
+was donated to the Vouliagmeni Community of Georgia Achillea Karatzas. The task of converting and renovating a 
+small hotel into a state -of-the-art Social Hostel f or Greece by comp aring it with others in this field was done with 
+work carried ou t entirely by the technical staff of the Vouliagmeni Municipality. It’s a 4 -storey building (no 
+basement)  with a total surface area on all floors of  1389,00 m 2 (388m2 each floor except for t he 3rd th at spans 
+225m2), total building height of  11,50  m and total volume of 2931,00  m3. The building has a 32,10 m long façade 
+on Litous St. and is around 6,90 m in depth, with open spaces at all sides of the plot. The building has been placed in 
+a 45 degrees angle to the street so that the main façade faces south, giving a wonderful orientation combined with a 
+unique view. The building was erected at the early sixties (1962-1964). It is rectangular in shape and the load-bearing 
+structure consists of piles, beams and slabs of reinforced concrete and the walls are filled in with brickwork. The 
+ground floor houses the communal areas of services such as: the main entrance, the main stairwell, offices of the 
+staff, and other facilities. The floors have approximately the same layout and consist of 4-5 apartments and auxiliary 
+spaces. The roof structure has a surface area of 225 m2 and is covered by ceramic tiles, while the rest of the roof area 
+functions as a terrace for the 3rd floor. The surrounding area of the building is approximately 1363 m2 appropriately 
+designed by Community workshops for use by the institution's guests with outdoor dining, promenade and daytime 
+functionality. 
+Demo Case #3 Building #1  
+ 
+ 
+Type Shelter for 
+adults 
+Built 1962-1964 
+Occupancy 40 people  
+Heated area 977m2 
+Energy 
+consumption  
+89kwh/m2a 
+HVAC 
+overview 
+N/A 
+Renewables N/A 
+Data 
+acquisition –  
+N/A 
+ 
+ 
+ INPERSO Implementation 
+The Municipality of Vari Voula Vouliagmeni (VVV) has identified a number of retrofitting actions that are needed 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 22/70 
+to this 60 years old building. These needs are mainly focused on the improvement of insulation of buildings envelope, 
+replacement of the old windows with new ones, as well a s HVAC systems. Moreover, VVV would wish to 
+aesthetically improve the surrounding area (more than 1000m2) and also utilise this area for creative activities of the 
+residents but also of for the whole community. In DC#3 deep renovation will take advantage of the space uniformity 
+to conduct valuable comparative assessment between retrofit configurations.  
+Passive and active envelope components: The Smart Wall will be the main refurbishment component of DC#3. A 
+selected floor will be ful ly refurbished with the Smart Wall, another will be fully refurb ished using commercial 
+products and services and the remaining façade and roof area. DC#3 does not have any heritage restrictions and thus 
+a multifaceted approach t o renovation can be employed . The gro und floor will be fully refurbished to maximise 
+indoor comfort and energy performance. The ground floor features all the common spaces that are used for activities, 
+and also it is the location where the groups congregate, emphasizing the need for good indoor air quality. The Smart 
+Wall will be the main compone nt for the renovation. BIPVs and solar windows will also be installed  in a 
+multifunctional interface that will prioritise interoperability . BIPVs will be considered i n all relevant areas . 
+Ventilative HVAC pods will be utilised in selected interior areas presenting the maximum congregation.  
+Digital and data -driven technolog ies: DAQ will be carried out as described in the common implementation 
+methodology. Given the location and climate of DC#2, natural ventilation potential is limited, but will be maximised 
+nonetheless. The renovation process will adhere to the data acquisition requirements during the construction works, 
+that will be used to validate the ECO-I in both retrofit and post-retrofit stages. RIALTO and SCAAI will be utilised 
+in conventional and heritage asset applications. The result will provide valuable feedback for the refinement of the 
+solutions. All data will be stored in the RE Suite, and the three main modules: Passport, OnSite and IoT. The interface 
+between the modules and ECO-I will be optimised. 
+The social dimension: On one hand, DC#3 houses vulnerable citizen groups. This will require a different approach 
+from the other demonstration ca ses. Moreover, there are 40 active energy communities in the wider Attica region. 
+Interfacing with them will provide a second pillar for DC#3. Finally, the extensive network in Greece that is managed 
+by MIRC, AMS and CORE will also be introduced via advisory board and clustering actions to replicate the project. 
+ 
+1.2.2.2 Replication cases 
+In addition to the residential and historic religious heritage buildings, the INPERSO technologies will also be applied 
+and tested in three school buildings in Switzerland. These buildings are equipped with different ventilation systems, 
+and they will be monitored before and after the application of smart technologies in order to quantify the amelioration 
+in the IEQ.  
+B1-"École des Boudines" is a school complex with two different ventilation systems. Some spaces are equipped 
+with mechanical ventilation with heat recovery (MVHR), while som e other s paces are ventilated via automated 
+windows controlled by the indoor and outdoor environmental parameters. The WSN will be installed to collect data 
+for IEQ parameters in order to evaluate the IEQ. Then, the personalized recommendation system will be installed, 
+which by taking data from the WSN, will inform the occupants to take actions to improve their indoor environment.  
+B2-“Collège de Montchoisi” is a naturally ventilated school with the manual opening of the windows, where there 
+are indications for poor IAQ after the renovation. The WSN will be installed to evaluate the IEQ, and in a later phase, 
+two techniques will be applied to improve the air quality. 1) In some classrooms, the windows will be automatized, 
+and 2) in some other classrooms, the  personalized recommendations system will be applied to inform t he users to 
+take action to improve their IEQ.   
+B3-“Collège de Florimont” is a school building equipped with a hybrid ventilation with the exhaust in the toilets, 
+air inlets in the classrooms,  and permits the windows' manual opening. The WSN will be instal led for the IEQ 
+evaluation and to activate the personalized recommendation system at a later stage.  
+B1 "École des Boudines" 
+ 
+B2 “Collège de Montchoisi” B3 “Collège de Florimont” 
+   
+Built: 1965 ren. 2015 Built: 1953 (Ren. 2015) Built: 1906 (Ren. 2013) 
+MVHR  and automated NV Occupant driven NV Hybrid ventilation 
+The results of the three case studies will : 1) test the effectiveness of the IEQ index devel oped in INPERSO (WP3-
+T3.6) to evaluate the indoor environments ; and 2) quantify the benefits in IEQ when the developed personalized 
+recommendation system (W P3-T3.6) is in operation. In addition, the monitoring of the three sites will permit a 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 23/70 
+comparison of the four most common ventilation systems for schools in Switzerland (MVHR, occupant driven NV, 
+automated NV, and hybrid ventilation). This comparison will reveal the advantages and disadvantages of each system 
+in providing adequate IEQ for the pupils.  
+ 
+1.2.3 Do No Significant Harm 
+The Taxonomy Compass was used to perform a preliminary analysis of the activiti es in INPERSO. The following 
+activities were assessed with regards to their relevance to the 6 areas of the Taxonomy: installation, maintenance and 
+repair of energy efficiency equipment, renewable energy technologies, education, energy generation using PV, CSP, 
+non-fossil gaseous and liquid fuels, bioenergy, transmission and distribution of energy, storage (thermal- electrical- 
+hydrogen-), data processing, hosting and related  activities, programming & consultancy, manufacturing of RES, 
+batteries. Substantia l contribution and DNSH criteria are adhered to. Moreover, INPERSO makes substantial 
+contributions to: (1) climate change mitigation, (2) climate change adaptation, (4) trans ition to a circular econ omy 
+and (5) pollution prevention and control. During the project and as part of T7.3, the positioning of INPERSO will be 
+elaborated, as one of the key activities of the project is the securing of green financing.  
+ 
+1.2.4 Relevant R&I activities 
+IR1-RE Suite Platform : DMO will integrate innovations and results from BIMSpeed (GA: 820553 , DMO is 
+Technical Coordinator) which develop harmonised Building Information speedway for energy-efficient renovation. 
+Additionally, P2ENDURE (GA: 72339) which develop Plug -and-Play product and process innovation for Energy -
+efficient building deep renova tion, PRECEPT (GA: 958284) which develop ed a novel decentralized edge-enabled 
+prescriptive and proactive framework for increased energy efficiency and well -being in residential buildings  and 
+MOBISTYLE (GA: 723032) which develops motivating end-users behavioural change by combined ICT based tools 
+and modular information services on energy user, indoor environment, health and lifestyle.  
+SCAAI (R1.1) & RIALTO (R1.2): R2M will utilise BIM4REN4ReinEU pro( GA 820773) and SPHERE (GA 
+820805) for BIM and Digital Twins for buildings and will refine the RIALTO solution; 4RinEU (GA 723829) 
+defines robust, cost-effective, tailorable deep renovation techno logy packages supported by usable methodologies, 
+feeding into reliable business models. R2M serves as innovation manager. R2M leads the EU-wide Framework for 
+a Digital Building Logbook (DBL), tender, aiming to support EU-wide adoption17. 
+IVE participates in INFINITE (GA: 958397) carrying out the demand -side mapping and aggregation through a 
+stakeholder-centred approach for the increase of the market penetration of industrialized all-in building envelope kits 
+for deep renovation, in DRIVE 0 (GA: 841850) enhancing a consumer centred circular renovation process in order 
+to make deep renovation more attractive for consumers and in HAPPEN (GA:785072) designing and implementing 
+the engagement and training strategies market uptake of deep retrofitting of buildings. IVE will transfer this know-
+how and innovative methodologies and also innov ative sys tems and approaches from:  re-MODULEES (GA: 
+955529) where GIS web-based tools for the retrofit market activation and up-take and BEEP  where a method for the 
+energy rehabilitation using BIM was proposed.  
+Retrofit-Kit (IR3): Solar Windows: iWin as a start-up have received support by different Swiss Agency such as the 
+Fondo energie Rinnovabili FER of the Ticino Canton and the Swiss climate Foundation for the project TiWinen with 
+the aim to develop and MVP of the window and improve the  production processes to minimise yield losses 
+AMS participates in PLURAL (GA: 958218) having as main roles: i) the development and prototyping of a 
+retrofitting system coupling insulation, heating-cooling, ventilation, heat harvesting systems and smart windows, ii) 
+the installation of these sy stems in a demo building in Greece and iii) the monitoring of the performance of these 
+systems. This knowledge will be further utilised in INPERSO for developing, constructing, installing and monitoring 
+the performance of retrofitting systems in a demo bui lding in Greece.  AMS participates in Surefit (GA: 894511) 
+having as main role: i) the installation of retrofitting systems in an apartment in Greece and ii) the monitoring of the 
+performance of these systems. This experience will be transferred to the INPE RSO project for a successful 
+installation of technologies and their performance monitoring. 
+Vertical, robotic façade 3D printer: UPV, ITA, VIAS and CART will introduce results from the H2020 projects 
+REZBUILD (Development of new technologies for the rehabilitation of houses to reduce energy consumption and 
+installation time), HINDCON (Hybrid industrial construction through a 3D printing “all-in-one” machine for large-
+scale advanced manufacturing and bu ilding process es) and COMPAIR (Vision system to allow HRC in 
+manufacturing). The following public-private national projects will also be used: 3DCONS (3D printing technologies 
+in the construction industry, both in the field of new construction and in the restoration and rehabilitation of heritage), 
+ROBIM (Robotics for inspection and evaluation of buildings with BIM integration), DETECMA (Perception system 
+for safe machine operation) and AUTODUMP (Autonomous mobile machinery for construction environments) 
+ECO-I (IR4): MuSECS: CORE participates in RECO2ST (GA: 768576) conducting innovation management and 
+has developed the individual EMS system components of ECO-I in E-DYCE (GA: 893945), PVadapt (GA: 818342) 
+ 
+17 : https://op.europa.eu/en/publication-detail/-/publication/cacf9ee6-06ba-11eb-a511-01aa75ed71a1 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 24/70 
+and PRELUDE (GA: 958345). CORE will transfer innovative syst ems and approaches as well as the Industry 4.0 
+principles from projects such as Level-Up (GA: 86999146) and Z-BRE4K47 (GA: 768869). 
+ 
+1.2.5 Multi-inter-disciplinary approach 
+INPERSO is an ambitious project aiming for the rapid evolution of the B&C industry. This is primarily reflected in 
+the introduction of automation in deep renovation processes , an effort that by its elf requi res the harmonious 
+collaboration of disciplines: applied sciences such as Architecture and Engineering (A&E), Computer Sciences (CS) 
+with an emphasis on Data Science, as the main disciplines, Social Sciences and Humanities & Economics ( SSE), 
+Material Science (MS), Environmental Sciences (ES), Physics and Mathematics (PhM).  
+WP CS A&E SSE MS ES PhM Multi- and inter- disciplinary advances in INPERSO 
+WP2 ✓ ✓ ✓ ✓ ✓ ✓ Advances in sustainable renovation products and processes 
+WP3 ✓ ✓ ✓   ✓ Integration of BIM-based workflows 
+WP4 ✓  ✓   ✓ New models for deep low carbon renovation 
+WP5 ✓ ✓ ✓ ✓ ✓ ✓ BIM-enabled sustainable deep renovation operations&, upscaling plan  
+WP6 ✓ ✓ ✓ ✓ ✓ ✓ Human centric design, co-designed business models, capacity building 
+and engagement in green funding 
+ 
+1.2.6 Social Sciences and Humanities (SSH) dimensions in the project 
+The interdisciplinary approach of INPERSO integrates the contributi ons of SSH, economics and market studies to 
+provide insights into the needs and challenges in industrialisation of deep renovation workflows for energy-efficient 
+buildings. This is also a result of the SWOT and barrier analysis of §2.1.1 that revealed integration, cost, knowledge, 
+and acceptance as the main barriers . Thus, the technologies and met hodology of INPERSO were designed with an 
+intrinsic SSH dimension a nd feature a portfolio  of activities directly aimed at working “with and for European 
+society”. This will be achieved by involving local stakeholders such as occupants’ groups, neighbourhoods, but also 
+civic society, promoting and supporting the formation of energy communities and skills building, an effort with social 
+and market aspects. The goal of t hese activities is both technological, in terms of leveraging energy storage and 
+reintroducing secondary material into the building deep renovation cycle. Moreover, economics and market studies 
+will be used to provide evidence to complement contributions collected from partners, stakeholders, citizens’ etc. to 
+elaborate the DEC strategy. This contribution wi ll go on beyond the project to reach TRL9 when, in addi tion, own 
+market studies will have to be developed to fine tune the business model, as well as ba nkability analyses for 
+sustainable business approach. SSH methods will enable the development of the local ecosystems that human-centred 
+and tailored to involv er actors’ needs, and thus they are instrumental from project objectives definition to TRL9 
+attainment and to ensure a wide adoption of the solution to attain the expected impacts.  
+ 
+1.2.7 Gender dimension 
+To fulfil proj ect objectives, as well as to maximise its  impact, it is necessary to specifically consider expectations 
+and needs (incl. skills) of women with regards to the INPERSO results, since women in construction report a male 
+dominated training landsc ape. In this line, INPERSO will take care of offering a  gender-neutral environment, for 
+both contents and framework. User studies (WP 5-6) will be carried out on gender-balanced user panels. INPERSO 
+will develop a Gender Equality Plan supported by the results of a co-designed digital survey, engaging the industrial 
+communities involved with its Use Cases and addressing intersectional and context specific c hallenges. Rethinking 
+the work environment, endorsing successful past approaches and inventing new pract ices when nec essary and 
+combining dedicated training sessions INPERSO aspires to set out the overall objectives for integrating an equality 
+and inclusivity culture. Complementarily to that, actions to involve women in results exploitation will be sought, 
+namely promoting women entrepreneurship reaching them through relevant Women in STEM initiatives. Moreover, 
+women Web entrepreneurship is supported and e ncouraged with close access to the WeHubs, which connects 
+business ecosystems and provides them with men toring tools to support women entrepreneurs in the digi tal sector. 
+Moreover, actions addressing women in B&C and training activities to be developed in the project will also look to 
+leverage gender neutral careers to attract and retain women to enrich in q uality and talent and address the global 
+shortfall of qualified employees in key sectors as ICT and B&C industry, directly addressed by  INPERSO. Issues 
+based on local contexts (e.g., male-dominated energy communities in Greece) will also be considered when designing 
+and implementing the project’s activities.  
+ 
+1.2.8 Open science management 
+The Open Science Practices (OSPs) are intrinsic to the project methodology. To successfully attain project objectives 
+and deliver a solution to deploy in B&C industry, it is ke y to va lidate research outputs with those involved in t he 
+collective R&I effort to bring about energy efficiency in this industry, with the project results playing a pivotal role 
+in this endeavour. In addition, INPERSO will engage citizens and local communities and hubs to shape together its 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 25/70 
+scientific design and output. The citizens’ and local communities’ engagement will also allow their early awareness 
+and involvement, integrating their valuable input in the project in a co-design manner, thus contributing to attain all 
+project objectives . Looking towards pr oject impact, OSPs foster opportunities for the necessary long -term 
+commitment of key actor s. The y also contribute to the quality of research by improving its transparency and 
+traceability, so others can validate project results, as well as to take into the project aspects like gender dimension or 
+workers needs and concerns as part of a responsible R&I effort. The INPERSO partners are fully committed to ensure 
+immediate open access to peer -reviewed publications are required under Horizon Europe Grant Agreem ent terms. 
+To this end, partners will publish in the Open Research Europe, Full Open Access journals and self-archive peer-
+reviewed publications with a CC-BY license (or a license with equivalent rights) and without embargoes (green OA). 
+Peer-reviewed publications will either the author accepted manuscript (final peer-reviewed manuscript accepted for 
+publication) or the final published version. Journals allowing fulfilment of the requirements are select ed using 
+Directory of Open Access Journals, and Journal  Checker Tool.  Selection of self -archiving repositories like 
+multidisciplinary (e.g. Zenodo) or institutional (e.g. Trepo  by TAU) will be guided by compliance with OpenAIRE 
+and community’s preferences. The lead of ITA and the procedures in the Data Management Plan (DMP, D8.2), the 
+DEC strategy (WP7 and §2.2) ensure OSPs, as follows, are appropriately implemented throughout the project:  
+Early and open sharing of research: Early detection of opportunities is enabled through the continuous monitoring 
+of dissemination activities by the DEM automatically triggering openness assessment, through the philosophy of “As 
+open as possible. As closed as necessary” . The project is an opportunity to gradually implement the practice of 
+depositing pre-prints, posters, presentations in open repositories at their submission to journal/event committee when 
+feasible. Having accompanying information and data in digital format will speed sharin g. The occupants and local 
+communities’ engagement activities will also result in early research sharing. The management of research outputs 
+generated in INPERSO will be performed during the project´s lifetime for making their data/research outputs 
+findable, accessible, interoperable, and reusable (FAIR). All provisions and procedures will be set in the DMP in the 
+first 6 months of the project, as indicated in 1.2.9. Measures to ensure reproducibility of research outputs: Further 
+to practices adopted to ensure early sharing, when according to the DMP, research output (excl. publication) is made 
+open, it will be accompanied by relevant metadata to ensure reproducibility (data treatment/ analy ses procedures, 
+processing tools, etc.). This will also apply to AI tools by providing a suitable explanation of their decision-making 
+process. Providing open access (OA) to research outputs: INPERSO consortium will ensure OA to peer reviewed 
+scientific publications and will seek for opportunities to provide OA to other sci entific publications (monographs, 
+conference proceedings, etc.). Publication in Open Research Europe (ORE) platform will be prioritised, as well as in 
+other open journals and publications (2.2). In case that publication in hybrid or subscription journals is strategically 
+convenient to widely reach a target audience, it will be explained in the DEC Plan. OA will be ensured through the 
+journal or by depositing the post-print in a trusted open repository, for this partners/authors will retaining sufficient 
+IPR to comply with OA requirements. Partners will seek opportunities to publish in OA other research outputs, i.e., 
+software, under appropriate licences (CC-BY, Apache2, GPL, etc.). Partners have already resources and experience 
+in OA to research outputs, i.e ., OA repositories  (e.g. Zenodo), agreements with publishers for OA, OA licences. 
+Provisions to ensure OA to another research output is detailed in 1.2.9. Participation in open peer-review will be 
+fostered by prioritising publication in ORE. Opening the project to relevant actors : INPERSO  considers the 
+participation of relevant stakeholders, through an Advisory Board, as well as to occupants and local communities 
+through dedicated activities. Their input will drive project development, co -design of results and its future way to 
+market. The OSPs will contribute to attain the relevant topic outco mes and progress in the pathway to reach the 
+expected impact (sec.2.1). Finally, INPERSO project will contribute to achieve EC goals for OS18 by monitoring the 
+use of OSPs (KPIs in DEC plan, 2.2). 
+ 
+1.2.9 Research data management 
+INPERSO is expected to mainly generate, collect and manage research the following types of data: 
+Table 2 Types of data considered in research data management 
+Types of data managed in INPERSO Relevant part of the project 
+BIM data, designs, models, modelling results, 
+testing procedures and results, KPIs and 
+financial projections 
+WP1: Deep renovation workflows WP 2: CDW streams and 
+secondary material databases, advanced manufacturing WP3: 
+point-clouds, BIM libraries , IoT raw data. WP4: user wellbeing 
+parameters 
+software, algorithms, protocols  WP3: SCAAI tool, RESUITE, EMS/IAQ, WP4: Process 
+digitalisation 
+industrial specifications, stakeholders’ data, 
+contact data of partners’ personnel involved 
+in the project implementation project events 
+WP1: Specifications, WP5: Demonstration data & site visit data, 
+WP6: Data from engagement, WP7: Participant data from 
+capacity building 
+ 
+18 https://ec.europa.eu/info/research-and-innovation/strategy/strategy-2020-2024/our-digital-future/open-science_en  
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 26/70 
+Use or purpose of the different research output and their format will be defined in the Data Management Plan (DMP, 
+D8.2, M6). In addition, procedures for appropriate management of the research output will be defined in this DMP, 
+to be updated du ring the project. Different openness levels are established: Open (O), Sensitive (SEN) and 
+Confidential (CO). The consortium will proact ively work to make rese arch output open, specifically “underlying 
+data” and associated metadata, as soon as practicable possible. All outputs and datasets will be first checked for 
+their exploitation potential before dissemi nation and confirmed with their respective beneficiaries. In some 
+cases, research output may be categorised as RE or CO according to the accepted exempt ions (protection, 
+confidentiality, personal data, project´s objectives in jeopardy, 3rd party data) and as explained in the DMP. For reuse 
+of open data, the FA IR principle will also be applied. Nevertheless, CO and SEN datasets’ metadata will also be 
+elaborated and released offering readers all needed information (including Digital Object Identifier -DOI) to where 
+and how to apply for Data Acces s and conditions for gr anting. Personal data will be managed according to EU/ 
+national Data Regulations (WP8, part A-ethics), specific provisions, measures and mechanisms (regarding storage, 
+secured and controlled access, pe rson in charge, data treatment p rocedure, etc.) will be  described in the DMP. 
+Research output management: A list of relevant datasets to be generated during the project will be included in the 
+DMP, that will be under updating. The key tool for research out put management will be the Datas et Fiche, to be 
+prepared for each dataset comprising all information required for its management during the project and on the long 
+term, including measures to comply with FAIR principles according to Horizon Europe guidelin es19. DMP 
+management will rely o n ITA and implemented by  partners as part of their scientific work. Other roles and 
+responsibilities, allocation of resou rces and specific measures to ensure data security (appropriate data recovery 
+strategies as criterion of repository selection), ethics compliance or long-term data storage, when applicable, will be 
+clearly defined, and dataset quality will also be addresse d in the DMP, ensuring applicable standards and protocols 
+are followed. To ensure research outputs furth er compliant with FAIR principles the following procedu res will be 
+implemented: i) Data publishing strategy: Datasets will be deposited in a trusted repository under the latest available 
+version of the Creative Commons Attribution International Public Lice nse (CC BY) or Creative Commons Public 
+Domain Dedication (CC 0). Metadata will be open under a CC 0 license . Any tools, documentation, explanation or 
+software needed for reading, processing or re-using data of a given dataset will be provided in the metadata, enabling 
+not only reusability but given an insight of research output quality. INPERSO partners are com mitted to use open-
+source software when possible: AVUBDI, Python, FIWARE, SyMSpace, HOTINT, ii) Preparation for sharing: in 
+addition to the co nsortium using, whenever possible, open source -based and/or interoperable formats and tools for 
+data generation and reuse, prior to research output sharing co mpliance with related discipline standards will be 
+ensured in the DMP. Moreover, metadata will be assigned to the dataset comprising compulsory ones according to 
+GA provisions and other relevant metada ta (title, creator, date, keywords, description, format , resource type, DOI 
+and access rights) in a exportable format. The allocation of a DOI will enable to uniquely identify each dataset (for 
+evolving datasets, DOI enable version tracking).  Sharing the d ataset: INPERSO uses trusted repositories 
+(GitHub.com, GitLab.com) for the open -source software. For the OS S and research data, the common publication 
+databases (e.g. Zenodo, see above) that provide persistent identifiers (e.g. DOI, URN) are used in order to ensure rich 
+metadata and enable easy citations. Data  services specific to the community will be used to share, store, preserve, 
+manage and use data and metadata. TAU’s repository Trepo can store metadata of research data. Moreover, to ensure 
+permanent link between research output and related peer-reviewed scientific publications data availability statements 
+will be included in the publication (minimum reference to repository). Metadata associated to dataset will be regularly 
+updated by the dataset respon sible (defined in DMP) and supervised. The DPM Manager,  ITA  and the relevant 
+partners will define how to proceed with the dataset in terms of curation and storage (including long-term storage) 
+considering relevance of retention of such data. This informat ion will be included in the Dataset Fiche.  IDS 
+(International Data Spaces):  Specific subsets of d ata, once appropriately treated to avoid any privacy an d 
+commercial issues, will be defined and become candidate open data to be shared with the scientific community. These 
+data, together with the meta-data needed to explore and use them properly (e.g. dataset reference and name, dataset 
+description, standards  used, unit of measure, data privacy level, data owner), will be accessible also from the 
+INPERSO platform through IDS connectors, so to enable data sharing as well as data sovereignty. The data will be 
+also promoted in IDS format in the AI4EU community to further promote their usage and analysis. 
+ 
+1.2.10 Ethics guidelines for trustworthy AI 
+In recent years AI projects and applications have increased exponentially, becoming one of the top strategic priorities. 
+Around 50% of the companies are increasing their usage of AI and the dedicated budget; moreover, 52% got at least 
+one-use case applying AI 20. This tendency has  also been reflected in European programs (FP7, H202 0, GD). 
+Nevertheless, besides the high potential of AI, there are also risks, such as privacy, malicious use and jobs opportunity 
+decrement, among others21. Hence is crucial to assure its proper use having  in mind its trustworthiness, as recently  
+19 Horizon Europe Programme Guide and Data Management Plan Template. 
+20 Algorithmia, “2021 Enterprise Trends in Machine Learning”   
+21 Jhon Zysman et. al. (2020); Governing AI: Understanding the Limits, Possibility, and Risks of AI in an Era of Intelligent Tools and 
+Systems - Berkley University   
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 27/70 
+stated by the  European Commission in the E thics Guidelines for Trustworthy AI 22. INPERSO will develop A.I 
+algorithms in WP2&3 always following the strictest rules regarding AI defined by the EC. 
+The project will leverage partners experience in AI-related H2020 projects (see §1.2.4 Relevant R&I activities ) 
+and also ensure the trustworthiness and transparency of all the AI systems used based on the following approach:  
+Development and Use of “White Glass” Models  when applicable/acceptable  (e.g., decision trees, models derived 
+from human robot interaction)  and yield acceptable performance. “White Glass” Models will be preferred over 
+“black-box” models like deep learning when applicable.  
+Explaining “black-box” models in cases where they must be used e.g. due to their performance when large volumes 
+of data are available. The project will employ probabilistic techniques (Bayesian, Decision trees) and ontologies to 
+interpret the models and boost their trustworthiness.  
+Dealing with AI trustworthiness in human -centred design will be considered in the INPERSO design parameters 
+within the participatory approach of the project engaging users/B&C workers/stakeholders. We consider that a proper 
+interaction equates in its majority with  the AI system explainability, i.e., workers understanding the output or 
+intentions of the AI components will allow for a fully transparent collaboration. Therefore, the proper balance 
+between model explainability, trustworthiness and performance will be sought. This will ensure the reliability of the 
+AI systems in context of the INPERSO demonstration. 
+Compliance with the mandates of mandatory regulations (e.g., GDPR) and the proposal of the European Parliament 
+and Council Proposal for an AI Regulation: The regulations will be ensured and complemented by emerging AI EU 
+regulations. The social robustness of the INPESRO AI systems will be explored and guaranteed with proper focus 
+on systems that perform live data processing (not storing any information), are “closed circuit” (data are not shared 
+with any other subsystems) or encrypted end-to-end (all transmitted data is encrypted/decrypted in both sides of the 
+communication) and disregard or remove sensitive features by design. 
+Ensuring strong cyber-security for the cloud/edge infrastructures hosting the AI systems will increase further the 
+trustworthiness and reliability of the AI systems. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+22 European Commission: High-Level expert group on artificial intelligence, “Ethics Guidelines for Trustworthy AI”   
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 28/70 
+2 Section 2 - IMPACT 
+INPERSO Results 
+An overview of the INPERSO results is shown in Table 3. Each of the results is primarily addressed to specific Target 
+Groups (TGI-VI): TGI-End users (owners, managers), TGII-Industrial stakeholders, TGIII-Research and Academia, 
+TGIV-Policy makers and financing organisations, TGV -Public, tenants a nd users, TGV I-Partnerships and 
+associations. The research outputs and exploitation options (Pa: patent, Li: License) are also presented.   
+Table 3 Individual (R) and Integrated (IR) INPERSO results 
+ 
+SWOT and barrier analysis  
+To accurately estimate the potential of the INPERSO results, an analysis of the barriers and a SWOT assessment was 
+conducted. These analyses will be elaborated during the project as part of WP7 activities.  
+Table 4 Barrier analysis for INPERSO 
+Barriers identified Means to overcome the barriers 
+Performance gap and uncertainty. User integration from the design phase to accurate ly define 
+requirements, harmonised BIM -based workflows throughout the 
+lifecycle, post -occupancy evaluations and dynamic b uilding 
+optimisation will reduce the performance gap to below 10%. 
+Lack of knowledge dissemination and 
+convincing end users of the ben efits of 
+deep renovations , particularly on  
+conveying no n-energy benefits of  
+retrofits. 
+Identification and engagement of key stakeholders (Target Groups)  
+through local and regional contexts, utilising demonstration sites as 
+lighthouse projects and promoting  the formation of local energy 
+communities.  
+Split incentives and conflicts of interest. 
+Limited financing options offered 
+Limited financing/insufficient budgets. 
+Six new business models and access to green financing plans, 
+collaboration with regional and  funding organisations to upscale and 
+propagate the pro ject’s results, delivery of win -win solutions and 
+massive replication potential.  
+Organization a nd structure of the deep 
+renovation market. 
+Address fragmentation by standardised and unified information flows, 
+and capacity building to promote pre-integrated solutions. 
+Low adoption of digital solutions Variable investment cost options for inclusive di gitalisation aimed at 
+both low-income households but also digital novice SMEs. 
+Results and Integrated Results (IRs) Lead Type Exploitation Research Output Target Groups
+IR1 RE SUITE integrated platform DMO Product, software Pa/Li N/A I-II
+R1.1 SCAAI - Scan to BIM and asset recognition tool R2M/DMO PaaS Li Pub, models I-III,V,VI
+R1.2 RIALTO - AR tool for renovation support R2M Paas Li N/A I-III
+IR2 Low-Carbon Renovation Models (LCRM) TAU Service Li Pub, models I-VI
+R2.1 New renovation design methodologies TAU Knowledge - process N/A Pub, models I-VI
+R2.2 Sustainable B&C value chains MIRC Knowledge - service N/A Pub, datasets I-VI
+R2.3 Sustainable financing plans CORE Knowledge - service N/A N/A I-II,V
+R2.4 INPERSO Training Programme R2M Knowledge - service N/A Publication, case studies I-VI
+R2.5 Stakeholder engagement / ecosystem empowerment IVE Knowledge - process N/A Publication, datasets II,III,V,VI
+R2.6 Human-centred smart tech renovation guide TAU Knowledge - process N/A Publication V
+IR3 Retrofit - Kit AMS Product Pa N/A I-II,VI
+R3.1 Integrated ventilative HVAC/HP solution (Energy Pod) VENT Product Pa Case studies, aggregated I,II,V-VI
+R3.2 Smart Wall - Multifunctional ETICS with CDW materials AMS Product Pa Case studies, aggregated I,II,V-VI
+R3.3 Solar windows - Venetian blinds  IWIN/SUPSI Product Pa Case studies, aggregated I,II,V-VI
+R3.4 Building Integrated Photovoltaics - roof & façade METSOL Product Pa N/A I,II,V-VI
+IR4 Façade 3D printer VIAS Prototype (PaaS) Li Case studies, aggregated I-III,V
+R4.1 3D Printing subsystem (integrated head, arm, pump) UPV, CART Prototype Li N/A I-IV,VI
+R4.2 Global positioning subsystem ITA Prototype Li Safety aggregated data I-IV,VI
+IR5  Energy & Comfort Optimisation Interface (ECOI) CORE PaaS Li Case studies, aggregated I-III,V
+R5.1 Multistage energy consulting system (construction/use phase) CORE PaaS Li Publication, case studies I,II,V
+R5.2 IEQ index, mgm interface and sensor configurations EPFL Knowledge - service Li Publication, case studies I-III,V
+R5.3 Low-consumption WSN IRIS Product Pa Publication, case studies I-III,V
+IR6 INPERSO completed system Respective Product - service N/A N/A N/A
+R6.1 Demonstrator #1  AUMSA Demo N/A N/A N/A
+R6.2 Demonstrator #2 MWNB Demo N/A N/A N/A
+R6.3 Demonstrator #3 VVV Demo N/A N/A N/A
+R6.4 Design review UPV Report - status N/A N/A N/A
+R6.5 OHSE - Protocols for safe construction workplaces EUROC Service Li Publications I,II,IV,VI
+R6.6 INPERSO market launch strategy CORE Report - status N/A Publication, case studies Ι,ΙΙ
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 29/70 
+The SWOT analysis was used to identify how internal and external factors will influence addressing the barriers, and 
+a brief analysis of the highlights is provided.   
+STRENGTHS WEAKNESSES 
+Low cost, time sensitive approach to energy renovation 
+Human centric; 
+Efficient, high quality, applicable to heritage buildings; 
+Business potential. 
+Low digitalisation rate in B&C and workforce; 
+Unproven in large scale implementation; 
+Lack of unified policy in FITs, carbon tax and data. 
+OPPORTUNITIES THREATS 
+Initiatives and policies driving the twin transition; 
+Awareness towards climate change; 
+Digitalization and electrification trends, ETS; 
+Energy community momentum; 
+Replication potential. 
+COVID or other “Black Swan” events; 
+Privacy and data sovereignty concerns; 
+Citizen and micro-SMEs hesitation; 
+Language barriers and stakeholder communication. 
+Policy: Setting energy efficiency as an absolute priority for the EU, through the Green Deal, the Renovation Wave, 
+the Clean Energy for All Europeans Package of 2018 and 2019 upgrade and the revision of EED and EPBD phasing 
+mandatory minimum energy performance standards for existing buildings.  
+Funding: Easier access to public funding will facilitate reaching a critical mass of innovation that will increase the 
+rate of private investment. The  2021 Annua l Sustainable Growth Strategy and the Guidance on Resil ience and 
+Recovery Plans identified building renovation as a priority for national recovery plans under the European Flagship 
+‘Renovate’, and it is expected that this decade will provide unprecedented opportunities for renovation projects. 
+Weaknesses and threats: Regarding the weaknesses and threats to wide INPERSO adoption, the Consortium expects 
+to face the same barriers that keep the renovation rates low. These barriers are factored in the project, a nd a 
+comprehensive plan to address  issues of awareness  (through meaningful stakeholder involvement throughout the 
+project lifecycle). Local replications will enable hesitant adopters to visit the demonstration sites. From the technical 
+side, while test results and implementation of individual components has been extremely encouraging, the application 
+of the integrated system in large scale has not yet been carried out. With an increasing number of technologies being 
+connected to the grid,  interoperability i s becoming a true challenge. Howev er, there currently e xist very few 
+(inter)national smart grid standards. Compliance with European standardization organizations (CEN, CENELEC and 
+ETSI) for smart grid  standards and clear legal definitions of new smart grid  concepts, and for streamlining th ese 
+definitions across different policy levels will be pursued in INPERSO to address this barrier. To address these issues, 
+the INPERSO Consortium needs the support of the EC to realize the vision of inclusive, clean energ y, healthy and 
+comfortable living conditions through buildings operating proactively and efficiently. 
+ 
+2.1.1 INPERSO unique contribution to topic outcomes 
+Expected Outcome (EO)#1. Significant improvement in productivity of construction and renovation processes 
+for energy-efficient buildings, supporting an increase i n scale in the renovation process and streamlining resource 
+efficient nearly zero-energy performance renovation: 30 % waste reduction; improved quality of renovation; at least 
+30% and towards 50% reduction of on-site construction / renovation work time and 25% costs reduction. 
+The stages and costs of a construction or renovation project need to be con sidered and have been  consolidated in 
+Table 5. 
+Table 5 Lifecycle impacts of INPERSO 
+ 
+Life Cycle phases Time-savings Cost-savings Quality and satisfaction 
+Building design 
+phase (A-C) 
+Scanning time -80% 
+-10-12% project 
+duration 
+5-7% reduction in project costs 
+30% reduced design costs  
+60-1500(e)/m2 
+Performance gap <10% 
+Construction & >40% lower retrofit >25% cost  reduction th rough >50% less dust / noise 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 30/70 
+renovation phase 
+(A1-5) 
+duration, onsite work 
+reduction >70% in tasks 
+employing AR 
+(a) vertical 3D printing 
+(b) pre-integrated Retrofit-Kits 
+generated, 40% less CDW and 
+CO2, reduction of accidents by 
+>50% and mistakes by 70%. 
+Operation phase 
+(B1-7) 
+80% reduction in 
+inspection, delivery,  
+maintenance duration  
+and frequency 
+-25-75% energy demand 
+-50-75% demand for 
+HVAC/DHW 
+>30% maintenance costs 
+>70% reduced CO2 
+>90% energy cost savings 
+ 
+Recycling, 
+dismantling & reuse 
+(C1-4) 
+Design for disassembly, building pass ports, increas ed uptake of CDW in the B &C value 
+chain. 
+ 
+For reference, the estimations were conducted based on values from previous relevant projects (e.g., CRAVEzero, 
+STUNNING a.o.) that provide a wealth of case-study data used to infer industrial averages. For INPERSO: 
+In the pre-retrofit phase, the application of (a) low-carbon renovation models (IR2) and utilisation of the RE Suite 
+integrated platform (IR1) will streamline the decision process and facili tate project design. The adoption of BIM-
+based workflows through the RE Suite modules (Passport, OnSite and IoT) will improve the quality of renovation, 
+but will also enable using SCAAI to rapidly scan  and populate the building’s asset library. This is of particular 
+importance with regards to the prefabricated components of the Retrofit -Kit (IR3), where pre-defined and proven 
+solution sets are provided . In total, the reduction of scanning time by over 8 0% through SCAAI  (R1.1) and the 
+utilisation of streamli ned BIM -based process will reduc e design costs by 30%. At a conservative estimate, an 
+additional 5-7% of project costs and 10 -12% project time will be further reduced through the use of standardised 
+BIM-based workflows, that is in line with industrial aver ages. Design costs average 3 -5% of total cost for 
+conventional retrofit and 7-14% for nZEB renovation, typically from 95€/m2 to 223 €/m2. 
+In the construction phase, the prefabrication and precasting of envelope components of the Retrofit-Kit (IR3) will 
+enable the completion of construction projects at least 50% quicker than conventional construction. This performance 
+has been validated in previous projects where the INPERSO participants responsible for the façade and construction 
+elements have  participated (§1.2.4). In brief: ventilative HVAC ( R3.1) is projected at 6000 €/unit with DHW 
+generation, integrated BEMS and energy storage, installed as plug&play device to the RE Suite. The installation time 
+is ~6hrs per unit. The Smart Wall (R3.2) will have a selling price of 150€/m2 for the passive edition (no sensors, PV, 
+storage and controls) to 400€/m2 for the fully integr ated version. The Solar Windows ( R3.3) will reach 10-12% 
+efficiency by 2024 or up to 215kWh/m 2 year, with a cost target of 1000 -1500€/m2 in a complete insulated window 
+with iWin integrated. The cost strictly depends on the characteristics of the glass and on the dimension. Finally, the 
+BIPV (R3.4) roof and façade modules will be produced at a very competitive price of 190€/Wp. At TRL9, we project 
+that the average cost will be 400 €/m2 for the Retrofit -Kit. The p rice is still over 50% lower than conventional 
+construction projects of the same properties. Conventional nZEB values for materials and construction components 
+are comparingly in the 1000 -5000€/m2 range. For the construction speed, the Retrofit-Kit will generate significant 
+savings in the integration and commissioning stages. A 60m2 property is projected to be fully refurbished in 1 week, 
+which corresponds to over 60% onsite work reduction. Two factors will contribute to this result: (a) the pre-integrated 
+functions of the Retrofit -Kit and (b) the RIALT O (R1.2) that will be specialised into the integration of retrofit -kit 
+components. The vertical 3D façade printer (IR4) will also comprise a highly efficient option: over 25% reduced cost 
+and 50% less onsite work duration are projected.  Prefabrication has frequently been associated with increased 
+transportation costs and CO2. In INPERSO, the sustainable B&C supply chain optimisation (R2.2) and LCRM (IR2) 
+will introduce LCA -based decision making in the renovation supply chain, minimising the distance travell ed for 
+components and promoting regionally available sustainable components. Apart from these innovations, INPERSO 
+renovation will also reduce the energy demand for renovation and other construction works by over 40% through the 
+MuSECS ( R5.1). This reduction will be coupled with significant improvements in workplace safety ( R6.5) and 
+working conditions (thermal stress, humidity, air quality – R5.2). 
+Post-retrofit: Significant time-savings (>80%) are projected for the inspection and delivery process  by virtue of 
+RIALTO and the pre -integrated function of the Retrofit -Kit. Corresponding reductions (duration and inspection 
+frequency) are projected for the ma intenance and repair that will be enabled by the asset monitoring component of 
+MuSECS (R5.1), with 30% cos t reductions. Applying the LCRM and through a comprehensive delivery process, 
+post-occupancy evaluations will ensure that the client (owner, manager, user) will have both the knowledge and 
+capacity to operate the building close to design specifications, addressing the behavioural challenge. The projections 
+are summarised below: 
+Table 6 Comparative retrofitting of the three demonstration cases 
+Process and metrics DC#1 Valencia DC#2 Velp DC#3 Voula 
+Project estimated cost (full, low-carbon renovation) 673,550 € 24,000,000 € 935,000 € 
+Pre-retrofit (Design costs based on current market) 47,149 € 1,680,000 € 65,450 € 
+Renovation material costs (conventional) 442,098 € 15,752,896 € 613,707 € 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 31/70 
+Renovation service costs (conventional) 208,046 € 7,413,127 € 288,803 € 
+Conventional renovation cost (€/m2) 1,050 € 2,071 € 880 € 
+Pre-retrofit costs through INPERSO 31,118 € 1,092,000 € 41,888 € 
+INPERSO renovation services 135,230 € 4,966,795 € 199,274 € 
+INPERSO Retrofit materials 283,600 € 6,000,000 € 440,000 € 
+INPERSO renovation cost (€/m2) 635 € 1,005 € 619 € 
+INPERSO improvement (cost reduction) 33% 50% 27% 
+A similar approach was implemented to estimate the duration of onsite works  focused on DC#1 (in 8hr shifts and 
+assuming TRL9 level is reached for the INPERSO components).  
+ 
+Figure 13 INPERSO reductions of retrofit service costs and on-site time 
+Overall, INPERSO will del iver renovation solutions at 25% reduced costs, with savings rea ching 50% for larger 
+projects through economies of scale. As shown in Figure 13, integrating services generates substantial savings both 
+in terms of time and cost. The introduction of prefabricated, pre-integrated and robotic manufacturing solutions will 
+slash CDW outputs by over 40%, not including the additional reduction through uptake of CDW in the B&C value 
+chains.  
+  
+EO #2 Tailored access to building information across the life cycle for relevant stakeholders (owners, facility 
+managers, contractors, public authorities)   
+The Target Groups that INPERSO is addressed to are analysed in Table 7.  
+Table 7 Target Groups (TGI-VI) of INPERSO 
+Target Groups 
+I. End-Users: (a) Building owners, (b) Building management service providers, (c) B&C enterprises 
+II. Industrial stakeholders: SMEs or LEs in the (a) digital, (b) engineering and (c) other relevant industries 
+III. Research & Innovation ecosystem: (a) Academia and schools, students, researchers, academic entrepreneurs 
+involved in energy, environment, industrial circular, and digitized production. (b) Industrial R&D  
+IV. Policy makers and financing: (a) The political system generating ideas, laws, plans, including policymakers 
+and local/ national/ Europe an administrations. The European Commission DGs of interest, (b) Financing 
+institutions and initiatives (ECB, ERDF, local banks a.o.) 
+V. Citizens: (a) Beneficiaries (building users, visitors, neighbours), (b) Culture-based public Media-based public 
+Journalists, bloggers, think-tanks, influencers. (c) Civil society: The widest possible target public at large, namely 
+citizens and grassroots 
+VI. Partnerships and Associations: (a) Associations in the B&C, energy, digital sectors (b) EIPs, EIP-SCC, EIP 
+Water. Candidates for European Partnerships in digital, industry and in climate, energy. 
+Each target group has different information needs. Considering the depth and quantity of data that can be extracted 
+from the lifecycle of a single building, it is crucial to  deliver clear, transparent, and actionable data with regards to 
+(a) Objectives, (b) Methods, (c) Benefits and (d) Usage and security. 
+In the micro-scale, the users / tenants usually pay the energy bills. Knowing a performance gap when they pay the 
+bill it is too late. They may act for the next heating or cooling season. In addition, the bill does not inform on the 
+energy saving potential. Through ECO-I (IR5) Target Groups Ic and Va will gain proactive and dynamic knowledge 
+with regards to energy spending, b ut also indoor air quality. The main vehicle for communicating this information 
+with these groups will be the Inhabitant App of the RE Suite platform ( IR1). The app will also feature nudge 
+architecture (developed in IR2 for feedback on LCRMs and IR5 for comfort optimisation), that will be an inclusive 
+solution in low -automation and smartness installations. The real time information will help the user to understand 
+the effect of his actions, his habits on energy performance. This will help to identify  habits that increase energy 
+consumption or unnecessary energy spending. The sole proper building commissioning and the possibility to inform 
+users on their real-time behaviour in terms of energy efficiency thanks to smart metering and ICT, is expected lea d 
+to energy savings in the range of 5-30%, in line with other studies concerning energy savings via to the introduction 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 32/70 
+of smart control system. 
+In the meso-scale, owners and (group Ia) will be the recipient of technoeconomic and environmental information 
+via the RE Suite platform ( IR1), the energy consultation and asset monitoring systems ( R5.1). Building owners 
+require full information regarding the state and value of their assets, but also of planned actions (maintenance, repair, 
+renovation etc). Managers (Ib), require detailed information concerning consumption (energy, water), asset condition 
+and event logging. For them, access to this level of data resolution and proactive functions will facilitate the adoption 
+of digital solutions, as the projected gains will now be realisable. Thus, they will be encouraged to do the right choices 
+in terms of envelope performance and energy system infrastructure, without costly and unnecessary delays and with 
+immediate effects. For owners of many buildings (professional building owner), this information will be transformed 
+to accumulated knowledge, a kind of a learning process favouring the most energy efficient actions in reality and not 
+only on paper. This information will be communicated using the aforementioned tool s, but also via the low-carbon 
+renovation models (IR2). 
+In the macro -scale, government and public authorities ( TGIV) will benefit from the immediate feedback of low 
+carbon renovation programs to adjust their subsidy or compliance regulations according to their real effect. Currently, 
+public authorities may measure the effect of an energy saving action or campaign 3 to 5 years after its entry in force. 
+This will be improved in INPERSO, as the high-level reporting will enable more dynamic decision making, including 
+funding. Given the significant investment needs for the transition towards a decarbonised Europe, INPERSO will 
+provide financiers with the information required to assess the impacts of the project, in accordance with the EU 
+Taxonomy. Finally, at this level, the Research and Innovation Ecosystem (group III) will also gain access to datasets 
+from operational buildings at a large scale and under full GDPR compliance (aggregated, anonymised data a.o.).  
+INPERSO will provide tailored and adaptable information to the Target Groups of users according to their evolving 
+needs. Aside from high quality of inf ormation, the intelligence generated will be meaning ful and actiona ble 
+throughout the building’s lifecycle. The adoption of INPERSO BIM-focused information and work flows will enable 
+the end-users to rapidly replicate and upscale renovation actions, increasing the rates of renovation. 
+ 
+EO #3. More affordable renovation projects for owners, for all building types but with a specific focus on residential 
+buildings; EO #4 Innovative, tailored business models for deep renovation allowing increased scale of renovation, 
+generating economies of scale and increasing the potential for attractive  and affordable packages for end users 
+including financing. 
+As shown above, investment in renovation projects will be minimum 27% lower cost compared with conventional 
+actions to achieve similar performance results. Nevertheless, there is a large variance between building typologies as 
+well as building users. Rather than a singular business model, synthesis of adaptable and sustainable business models 
+(R2.3) will provide the most replicable and adaptable results. Developing these business models will be carried out 
+in accordance the requirements of the user groups as described in EO#2 (above). In each case, the INPERSO business 
+models will identify the “best price for the desired effect at the optimum time”, ensuring that inclusive business 
+models can render deep renovation accessible to low-income households and the energy poor. An initial mapping of 
+available business models was carried out, based also on work conducted in the EU and US (Figure 14). 
+Table 8 INPERSO business models 
+Value proposition Customer segment Value chain Unique Selling Points 
+BM1 One-stop-shop TGI-Cluster of buildings INPERSO Consortium Integrated process savings 
+BM2 Step-by-step  TGI-Building owners INPERSO Consortium Lower CAPEX/CO2 
+BM3 PACE-based TGI-Building/homeowners INPERSO Consortium No CAPEX 
+BM4 Smart contracts TGI-any, TGV-any user ECO-I optimisation Zero-cost 
+BM5 Smart renovation TGII-B&C contractors LCRM, ECO-I, IR2,3 Zero-CO2 focus 
+BM6 Franchise TGII-B&C companies INPERSO Consortium Localised approach 
+ 
+Figure 14 Approaches to business models for deep renovation (Source: STUNNING project) 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 33/70 
+BM1 One-stop-shop: This approach utilises the completed INPERSO system (IR6) as the main value proposition. 
+This requires the establishment of the INPERSO legal entity to exploit the project ’s results. In case partners have 
+diverging interests, contingencies will be pursued, especially in relation with other high -TRL projects. This model 
+highlights the multidisciplinary nature of INPERSO, and the advantage lies with the optimisation of the value chain 
+through the project. For users, the unique selling point is that the process is highly integrated and can deliver the best 
+value for money, minimising the performance gap. 
+BM2 Step-by-step: BM2 is a more diffused variation of BM1, where the client can spread renovation actions across 
+a length of time to maximise the useful life of each component. The need for replacements of various components 
+arises at different points in time  which means that in the case of a complete building  retrofit, components that are 
+still intact are renewed unnecessarily before their due time, leading to suboptimal investments . The RE Suite (IR1) 
+and in particular the logbook (RE Passport) is ideal for this approach, that is targeted towards any kind of building 
+owner (homeowner, owner of multiple properties, manager, public or private ownership). Apart from spreading the 
+renovation cost over a period of time, this approach is highly compatible with LCA-based decision making (IR2 and 
+IR3) to maximise CO 2 savings by timely r eplacement of components. Finally, the asset monitoring component of 
+ECO-I (IR5) will close the loop by maximising the useful life of assets and provide early detection of degradation. 
+BM3 PACE-based: BM3 requires the close engagement of municipal and fina ncing actors (TGIV). Based on the 
+Property Assessed Clean Energy (PACE) that has received enthusiastic recognition in the USA and imported in the 
+EU, PACE-based models introduce an “assessment” payment on its property tax bill for a specified term. This model 
+establishes a property tax, eliminating upfront costs which renders this BM highly inclusive. INPERSO activities 
+(LCRMs-IR2) will commit to working with regional stakeholders (especially AUMSA, MWNB and VVV already 
+participating in the Consortium) to implement similar funding mechanisms.  
+BM4 Smart contracts : flexible contract based on comfort supply and energy efficiency and IAQ o ptimization 
+(primarily through ECO-I, IR5 and the RE IoT of IR1). A service available for both residential and tertiary buildings 
+stakeholders, able to match grid needs to dynamic, informed, customisable energy procurement and smart-grid-ready 
+decision making enabled by RES & energy demand forecasting along with tariff features aligned with user evaluation. 
+BM4 will be preferred as an introductory model for undecided users who may engage without investing. Depending 
+on the case, INPERSO will claim 65-85% of savings for three years to pay for the IoT integration and optimisation 
+service. Owners benefit from instant energy savings  relieved from capital or installation and commissioning 
+expenditure, while the energy performance contract, energy and operational cost savings offset the investment.23 
+BM5 Smart renovation : This model addresses a gap in the market for the improvement of t he renovation (and 
+construction) processes themselves. Primarily through the MuSECS component of ECO-I, B&C contractors will gain 
+access to a dynamic optimisation service that will leverage on-site RES and storage to minimise the energy footprint. 
+Moreover, hygrothermal conditions and air quality will be integrated into the assessment, leading to improved 
+working conditions and reduced accidents.  
+BM5 Franchise: the location-specific circularity approach in secondary material flows (R2.2) along with the benefits 
+of capacity skills building (R2.4) offer valuable expansion opportunities for the INPERSO system. INPERSO’s 
+bespoke scalability opportunity will be enhanced building upon local stakeholders in energy provision across EU 
+countries, as well as adapting  to a rich and diverse EU built heritage in terms of building typologies, construction 
+methods, materials, and styles. A localised deep renovation approach that respects the character, identity, and spirit 
+of the fragmented, history-rich context of EU uniq ue architectures will emerge through the future INPERSO brand 
+upscaling offering opportunities to a vast network of SMEs in construction to grow and adapt INPERSO offerings to 
+cover a broader range of bespoke customer needs especially through IR4 3d printing mass customisation capabilities. 
+A core parameter of the system upscaling is the engagement of a hi ghly specialised and digitally skilled B&C 
+workforce that will be able to evaluate design, and install the system adapted in a variety of buildings across EU. 
+Sustainable finance: To facilitate the use of green financial products for INPERSO, we will emplo y a data driven 
+sustainability assessment framework based on four group of activities (Figure 15):  
+(1) Select Key Performance In dicators (KPIs): We will translate INPERSO environmental sustainability goals to 
+relevant KPIs from the six environmental objectives of the EU Taxonomy Regulation. Also, we will consider Social, 
+Governance and Viability goals, and employ carefully selected KPIs following the guidelines of the European 
+Federation of Financial Analysts Societies (EFFAS).  
+(2) Establish roadmap:  Once KPIs are established, the consortium partners will produce the roadmap with the 
+technologies that must be deployed at each Use-Case to achieve the target energy efficiency levels and the associated 
+environmental benefits.  
+(3) Deploy INPERSO technologies: The technology providers will deploy INPERSO technologies at the Use Cases. 
+The end of the deployment phase will signal the start of the monitoring phase.  
+(4) Monitor and evaluate impact: During the demonstration activities, the achievement of these KPIs will be carefully 
+assessed. The potential contribution of INPERSO to EU’s climate and circular economy goals will be evaluated. 
+ 
+23 Sayed, Khairy & A.Gabbar, Hossam. (2018). Building Energy Management Systems (BEMS). 10.1002/9781119422099.ch2. 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 34/70 
+ 
+Figure 15 INPERSO sustainability assessment process to accelerate 
+post-project access to green finance 
+The outcome of this process will be a 
+Social and Environmental Impact 
+assessment report that will elaborate on 
+INPERSO’s environmental, nature 
+conservation and social impacts. This 
+report will accelerate I NPERSO post-
+project access to green financing  
+products. Particularly, the goal will be to ensure that INPERSO complies with the eligibility criteria of the European 
+Investment Bank (EIB), which through the InnovFin Energy Demo Projects provides loans, loan guarantees or equity-
+type financing up to €75 million to first-of-a-kind commercial-scale demonstration projects in the fields of energy.  
+The INPERSO business models provide a solid foundation fo r the commercialisation of the innovat ive results. 
+Moreover, the availability of not only six options, but also of synthesizing and adapting business models will ensure 
+that the results are efficient and robust. Support through green financing instruments and focus on inclusivity and 
+accessibility of deep and low-carbon renovation will contribute to increased adoption of INPERSO results. 
+ 
+EO #3.  Enhanced quality of construction, backed up by post -occupancy evaluations, also supporting a better 
+integration of design and construction activities, streamlining commissioning of buildings, in particular in relation to 
+energy management but also considering cross-cutting issues such as accessibility of buildings. EO #4. Reduced 
+performance gap between as -built and as -designed (difference between theore tical and measured performance), 
+allowing tracking performance across the life cycle; EO #5 Increased trust towards construction and renovation 
+processes, by allowing tracking energy performance across the life cycle.  
+Performance gap: The main aspect of renovation quality is the verification that the result corresponds to the agreed 
+expectations, primarily expressed by the performance gap (in quantified metrics) and satisfaction. On one hand, 
+variance between designed and del ivered performance can be a  significant issue, on the other hand, construction 
+quality is also perceived by the user in the context of improving their quality of life.  The performance gap has 
+appeared in various building end -use types: 34 % with a standard deviation of 55% for 64 non -domestic projects 
+studied24, insulation measures in over 1500 UK domestic homes studied achieved an energy demand that was 50% 
+less than what was expected25, even Passivehaus standard buildings present significant performance gaps26.  
+Solution mismatch: Traditional state-of-the-art energy retrofits focus on discrete system improvements (i.e., façade, 
+lighting, and HVAC equipment), often with traditional technological solutions (i.e., without industrialized and 
+prefabricated solutions), and without considering an integrated rehabilitation strategy. These retrofits are often 
+efficient in achieving their stated o bjectives and are simple and quick to implement; nevertheless, they frequently 
+overlook the chance to save additional energy in a cost -effective way.  Furthermore, traditional remodelling 
+procedures need considerable on-site work and must accept greater risks owing to human mistake and harm caused 
+by exposure to various climates (outdoor forces, weather conditions, etc.)27.  
+Indoor environment: The issue is that  apart from the effect on energy bills , the effect in indoor environmental 
+quality (IEQ) is very impactful, especially to vulnerable groups. This is also relevant to  invisible cooling loads  
+(expressed in overheating hours) as apart from the south of Europe, cooling devices are not frequently encountered. 
+Yet, at an 8% increase in 2018, space cooling became the fastest -growing use of energy in buildings since 2010, 
+though it accounted for only a small portion of total demand at 6% 28. Focussing on the cooling energy needs and 
+discomfort conditions, it is possible to maximise ventilative cooling (R3.1). INPERSO will achieve the accurate (over 
+95%) assessment of indoor environmental quality utilizing KPIs such as pollutant concentration using metabolic CO2 
+and relative humidity as IAQ indicators and air and surface temperature and relative humidity as thermal comfort 
+indicators (ECO-I, IR5). These will be elaborated and corr elated with energy consumption, occupancy and 
+behavioural patterns. Where data protection is an issue, the analysis will be conducted through aggregation and the 
+user will be anonymous. Through this approach, the cooling (for thermal comfort) and ventilati on (for IAQ) 
+requirements for each residential unit will be precisely assessed in real time and in 8 -hour prediction increments.  
+ECO-I will not be restricted to cooling but will comprise a holistic solution for IEQ optimisation. 
+User involvement & perception : Moreover, post -occupancy evaluations will be employed following the user -
+centred design and renovations (through the Low -Carbon Renovation Models, IR2). Through these models, the  
+24 Van Dronkelaar, C.; Dowson, M.; Spataru, C.; Mumovic, D. A Review of the Regulatory Energy Performance 
+Gap and Its Underlying Causes in Non-domestic Buildings. Front. Mech. Eng. 2016, 1, 1–14. 
+25 Energy Saving Trust. Disaggregation of the Energy Savings Achieved from Insulation in EESoP 3 and the Energy 
+Efficiency Commitment; Technical Report; Departmetn of Energy and Climate Change: London, UK, 2008 
+26 Larsen TS, Jensen LR and Daniels O. The comfort houses: measurements and analysis of the indoor environment and energy 
+consumption in 8 Passive Houses 2008–2011. DCE Technical Report No. 145, University of Aalborg, Aalborg, Denmark, January 2012. 
+ISSN 1901-726X 
+27 D’Oca, Simona, et al. "Technical, financial, and social barriers and challenges in deep building renovation: Integration of lessons learned 
+from the H2020 cluster projects." Buildings 8.12 (2018): 174. https://doi.org/10.3390/buildings8120174  
+28 UN Status 2019 Global Status Report for Buildings and Construction 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 35/70 
+“needs and wants” of the end -user will be focused during t he renovation, beyond the singular emphasis on energy. 
+Issues such as accessibility will be integrated in the decision making from the earliest phase, and their implementation 
+will be monitored to ensure adherence to requirements.  
+Reworks: Moreover, an important aspect of renovation is minimising reworks. Reworks routinely increase the cost 
+of the project and contribute to the performance gap. In INPERSO, KPIs related to reworks will be monitored and 
+improved: Number of defects , n umber of defects due to wo rkmanship, t ime to rectify defects , n umber of site 
+inspections conducted, ratio of the number of inspections passed to total number of inspections, total cost of rework, 
+customer satisfaction. An 70% improvement of rework related KPIs is projected.  
+Asset condition: Finally, the condition of passive and active envelope components will be monitored to assess and  
+anticipate degradation, as shown in Table 9. This approach will maximise their useful life and further reduce the gap. 
+Table 9 Reduction of performance gap measures in INPERSO 
+Building element Validating and optimising performance 
+Passive elements (insulation, airtightness) Indirectly through monitoring of IAQ and unit performance 
+HVAC Directly through asset monitoring and data analytics (RE IoT) 
+Solar Windows & BIPV Indirectly through actual / predicted energy generation 
+Behavioural Unit performance measured comparatively to similar units & nudge 
+architecture (ECO-I, IR5) 
+Summary: To summarise, the as-build vs as-designed performance gap is tackled in INPERSO through four distinct 
+approaches embedded in the design of the entire system: 
+a) Co-design approach engaging a multi -stakeholder audience with end-users at the forefront of the system 
+development and evaluation (IR2). 
+b) Advanced and effective pre-renovation mapping of the components through scan-to-BIM technology (R1.1). 
+c) Advanced simulation of pre -/during-/post renovation performance for:  energy expenditure and generation 
+potential, thermal qualities of envelope materials, air quality and asset health of systems (IR5). 
+d) Low-cost/ high value IoT monitoring along the entire life cycle of renovation works and building operation and 
+maintenance (R5.3). 
+e) Highly automated processes (i.e 3d printing IR4 allowing optimised control and minima l error threshol d in 
+material application while offering design adaptability and precision.  
+Table 10 Integrated INPERSO process and user perception (Point-of-View) 
+Integrated 
+process 
+Process improvements User PoV 
+Pre-retrofit Accurate definition of requirements, faster process based on SCAAI and 
+BIM-based libraries & building passport. Lower design costs (30%) and 
+overall project cost/time reductions of 5/10%. 
+Accessible, 
+understandable, 
+inclusive, affordable & 
+personalised process. During-
+retrofit 
+Minimum: 50% quicker  (construction & inspection) , 40 % less 
+disruptive*, 25% cheaper, user feedback integrated, 70% less reworks 
+Post-
+retrofit 
+>30% reduced energy demand (total demand reduction exceeding 60%), 
+optimised IEQ and comfort, nudge arch itecture, 30 % reduced 
+maintenance costs. 
+Reduced energy bills 
+comfortable, healthy 
+indoor environment. 
+*waste, noise, dust 
+As shown in this section, the cascade effect of multifaceted approach of INPERSO in addressing the performance 
+gap offers maximum control and alignment between expected and actual outcomes. At the same time data sharing 
+hierarchies enable appropriate types of data to be distributed to the right receivers in a transparent, meaningful, and 
+ethical manner.  
+ 
+EO #7 Upskilled workforce for industrialised renovation workflows, including automated and robotised 
+construction / renovation, relying on interoperable digital modelling data ; EO #8  Enhanced safety of the 
+construction workforce and increased acceptance of robotic support for deep renovation 
+Integration, cost, knowledge, and acceptance are identified as major barriers in the industrialization and automation 
+in the construction industry. Safety and quality, as well as process efficiency and data gathering, are all dependent 
+on industrial standards. Standardization and, as a result, interoperability are important for the effective and successful 
+implementation of industrialised processes throughout the building lifecycle, given the diversity of stakeholders 
+involved in many remodelling construction sites 29. This diversity is explained by the fragmente d nature of the 
+construction industry, while the limited qualified workforce is also identified as a barrier to the adoption and diffusion 
+of the sector digitalization. Specifically, automation in construction sites under renovation as INPERSO IR4 Façade 
+3d printing proposes for onsite upgrades, increasing safety and acceptance towards is critical. By design onsite 3d 
+printing activities have the advantage of time, safety, cost and burden minimization for improving the façade thermal  
+29 ESCO (2021) https://ec.europa.eu/docsroom/documents/45547/attachments/1/translations/en/renditions/pdf  
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 36/70 
+properties. By automating thermal insulation in a bespoke  manner such as the potential of 3d printing not only the 
+final quality of the project increases, but workers are also less exposed to risks and new materials and techniques can 
+be deployed.  Mass customization properties o f 3d printing are critical for ups caling the deep renovation works 
+necessary for EU’s building stock which includes a high percentage of heritage buildings: 14% of EU-27 building-
+stock dates before 1919, other 12% between 1919 and approximately 120 million Europeans living there 30. The 
+refurbishment of heritage buildings can save 180 Mt CO 2 within 2050 (3.6 % of 1990's EU -27-emissions), while 
+ensuring indoor comfort for inhabitants and energy-costs decrease. Despite the financing and tax schemes ( e.g., 
+Italy’s ‘eco -bonus 110%’ scheme) 31, f or renovating according to special requirements of historic buildings, 
+implementation in practice can be challenging. However, a significant barrier in renovating heritage building facades 
+stems from the fact that most commercial external insulation solutions consist of either modular prefabricated panels, 
+or from uniform layers of material over insulating blocks applied manually. This is a major drawback in deep 
+renovation upgrades on buildings in historical areas of high architectural value, as either internal insulation systems 
+have to be deployed- with the respective drawbacks that these may entail regarding the building occupancy or burden 
+for tenants, loss of useful space- or intervening with caution on external walls (e.g. in Hungary32).  
+Workforce upskilling: INPERSO will up - and re-skill B&C workforce to address the challenges of digitalized 
+construction, but also to improve working conditions and safety of worksites. The INPERSO training programme  
+(R2.4) will be supp lemented by standardisation expertise  (T6.1), as well as D&C measures (WP7), and OHSE 
+assessment (R6.5) to demonstrate and assure safe mainstreaming of INPERSO technologies in a deep renovation site. 
+Each of the INPERSO partners will deliver training material for the programme. The result of these activities will be 
+a comprehensive training programme that is oriented towards professionals as well as non -professionals. For 
+professionals (TGI&II), the training will be focused on gaining and improving digital skills, as well as familiarity 
+with new technologies and knowledge regarding the risks of modern construction sites. For non -professionals 
+(TGV&III), the focus will be on open science, citizen science and other engagement activities to generate awareness 
+and improve consumer behaviour (in transition towards prosumer status). Naturally, the formation of energy 
+communities will also be a focal point for these activities. The projections are shown below for the duration of the 
+project, as well as until 2030 (1 year following market entry in 2028).  
+Location Up/re-skilling participants 2028 total 2030 total 
+Spain, Greece, Netherlands >30 600 2150 
+Other MS >10 650 2200 
+Other countries >12 300 1080 
+Total >50 >1500 >5000 
+The estimates are conservative given the participation of LEs and highly active SMEs and RTOs in the Consortium. 
+Moreover, the main tools for these activities (e.g., the RE Suite platform) are already being used by over 100,000 
+stakeholders, so the expecte d acceptance and adoption of the new solu tions looks favourable. The availability of 
+training resources for students and researchers will also contribute to an influx of qualified, young personnel to the 
+B&C sector.  
+Safety: in 2018, one in five  (20.5%) o f all fatal accidents at work in the EU -27 took place within the construction 
+sector. This translates in 667 workers losing their lives in EU construction sites onl y in one year. Safety culture is 
+highly prevalent in the design of technologies for humans at work: dedicated ef fort is foreseen in establishing 
+appropriate OHSE workflows to ensure that all innovative digitalised processes come hand in hand with prioritising 
+workforce and dwellers’ wellbeing. 
+INPERSO will carry out training through the establishment of the INPERSO training programme, featuring elements 
+from all the activities of the pro ject and focusing on the safety,  efficiency and quality of constr uction. Given the 
+disproportionate increase of the qualified jobs vacancies in construction to the moderate increases in the tertiary 
+education and vocational education training, SMEs appear to have more difficulties in acquiring qualified workforce 
+than LEs. INPERSO will provide the solutions for SMEs to upskill their workforce, but also for citizens and young 
+engineers to improve their skillset for easier entry to the job market. 
+ 
+EO #9  Integration with distributed renewable energy sources in neighbourhoods a nd districts, favouring the 
+emergence of related initiatives (e.g. renewable energy communities); EO #10 Enhanced synergies of renovation 
+with local resources, e.g. district heating & cooling networks; 
+DC#1 Valencia : In May 2021, the Valencia City Council signed a collaboration agreement to promote the 
+development of energy communities 33. Valencia is also aa member of ICLEI 34, active in engaging citizens in the 
+energy transition. An Energy Office was established in 2019 to provide citizens with information, t raining and  
+30 Troi, Alexandra. "Historic buildings and city centres–the potential impact of conservation compatible energy refurbishment on climate 
+protection and living conditions." International Conference Energy Management in Cultural Heritage. Vol. 2011. 2011.  
+31 Potts, A (Lead Author). 2021. European Cultural Heritage Green Paper. Europa Nostra, The Hague & Brussels.  
+32 https://ec.europa.eu/futurium/en/system/files/ged/d_1.2_mapping_of_current_heritage_re-use_policies_and_regulations_in_europe.pdf  
+33 Valencia encourages the creation of energy communities 
+34 Local Governments for Sustainability 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 37/70 
+personalised advice on energy-related topics and the city aims to have 100 energy communities in the Valencia area 
+by 2030. Furthermore, the city has made civic centre roofs available to energy communities for photovoltaic panel 
+installation. This recent emphasis is positioned to address the energy transition, given that a district heating network 
+does not yet currently. Thus, in the short and medium term, focus is reasonably on microgrids and energy 
+communities.  
+DC#2 Velp: The North Brabant province shares the ambition of carbon neutrality by 205035. The Province of Noord-
+Brabant is the second largest in Netherlands representing 14.7 per cent of total population and 15% of Dutch GDP, 
+with main activities focused on trade and services (49%)36. DC#2 does not feature DH or an energy community, but 
+the opportunity exists to integrate it as a central part of the local renovation project.  
+DC#3 Dimos Varis, Voulas & Vouliagmenis (VVV) : In the Attica region, there were 31 energy communities in 
+2020, foll owing the 4513 -law of 2018 defining the lega l context. PV is the undisputed entry point for energy 
+communities in Greece, but energy storage, wind power and biomass also appear of interest. The Attica region and 
+especially VVV lack any DH infrastructure. It should be noted that only 30% of energy communities in Greece have 
+created employment opportunities, while own-funds and lending account for over 90% of financing their activities37.  
+In all three cases, the needs are aligned with the priority profiles of  energy communities: promote social economy 
+values and manage renewable energy capital. From a practical perspective however, it is also critical to ensure the 
+financial longevity and growth of the initiatives. Hence, INPERSO will focus on facilitating and  empowering the 
+establishment of energy communities with the tools to leverage growth. As the a dministrative procedures are 
+relatively streamlined in all three countries, and growing awareness has generated favourable momentum among the 
+public, the focus will be shifted on: (a) supporting early efforts with up-/re-skilling and knowledge sharing (capacity 
+building, open science, citizen science), (b) energy infrastructure financing plans (through new business models), (c) 
+access to tools (digital services, sensor networks) and (d) an established communication network with other energy 
+communities.  The main vehicle to realise these outcomes will be IR2 - Low-Carbon Renovation Models, that will 
+also enable the uptake of the digital solutions of IR1 and IR5, and the RES of IR3. These activities are detailed in 
+WPs4,5 and 6, while the associated DEC measures are described in WP7.  
+Moreover, the communities will possess intrinsic replication potential as the INPERSO demonstrators (AUMSA, 
+MWNB and VVV) own and/or manage a cumulative total of over a thousand buildings.  
+INPERSO will establish and support energy communities in each demonstration, aiming for replicating and 
+expanding the netw ork first throughout the demo -sites, and secondly through  close collaborations  with ot her 
+initiatives, clusters and projects.  
+ 
+2.1.2 Impacts, scale and significance 
+A summary of the required impact areas and how INPERSO is addressing them is provided in Table 11. 
+Table 11 Impact area summary 
+Impact areas INPERSO position summary 
+beyond merely improving the energy and resource 
+efficiency of buildings and also include a qualitat ive, 
+aesthetic and human dimension. 
+Human-centric approach across the entire lifecycle, 
+expressed by involving the user in design, tracking 
+renovation progress and post-occupancy. 
+renovation or adaptive reuse of historical and heritage 
+buildings and sites needs to embrace quality principles 
+to safeguard the cultural values of Europe’s historical 
+environment and local architectural identity. 
+Two out of three demonstrations feature heritage 
+buildings with excellent replication potential. DC#2 
+features use adaptation. Innovative technologies will be 
+tested (3D printing, prefabricated components) for 
+heritage-related requirements. 
+More energy efficient building stocks supported by an 
+accurate understanding of buildings performance in 
+Europe and of related evolutions. 
+Performance trackin g via unified BIM -based 
+information, passports, asset monitoring and IEQ 
+optimisation. 
+Building stocks that effectively combine energy 
+efficiency, renewable energy sources and digital and 
+smart technologies to support the transformation of the 
+energy system towards climate neutrality. 
+Contribution to uptake of digital solutions in the B&C 
+sector (elaborated in Table 12). 
+, requires a larger involvement of all players across the 
+built environment value chain and throughout building 
+life cycle.  
+SME-centric, business models favouring and supporting 
+the involvement of multiple actors in one -stop-shop or 
+compatible models. 
+ 
+ 
+35 Brabant goes for green 
+36 Regional Innovation Monitor Plus 
+37 Mapping of Energy Communities in Greece, Dec 2020 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 38/70 
+Interoperable data enabling B&C digitalisation 
+Traditionally, building information  has been extracted and logged using analysis tools and paper data  such as 
+cadastres or building models, thus analyses by incorporating several different and heterogeneous data from various 
+sources manually is cumbersome and prone to errors. Yet, digitalisation uptake has been very slow in the B&C sector, 
+which remains the least digitalised EU industry. As shown in Table 12, the European B&C acceptance to these 
+technologies is limited due to: (a) low maturity of digital solutions and associated challenges such as interoperability 
+of standards, (b) high degree of fragmentation in renovation services, (c) while the B&C sector is highly SME-centric 
+(by over 94%), large enterprises lead digitalisation efforts due to economies of scale.  
+Table 12 INPERSO medium term effects on key digital technologies (DTs) in the B&C sector 
+DT State of Play in EU INPERSO outcomes 
+3D Scanning Low uptake and awareness, primarily in 
+heritage applications38. 
+SCAAI tool (R1.1) expanding on scan-to-BIM with 
+asset recognition via AI for 10 -15% reduced costs 
+and time for scanning and 80% reduced sitetime. 
+Sensors & 
+IoT 
+Low IoT adoption (25% 39) due to 
+maturity, interdependent on other DTs 40. 
+Integrated solutions are needed.  
+Industrialisation of DAQ and IoT in integrated, 
+lifecycle encompassing INPERSO service through 
+the RE Suite platform (IR1) 
+BIM (3-7D) Moderate market ad option (29% use 3D) 
+and 61% have never used it 40. BIM 4D at 
+only 6% 41. SMEs having trouble in BIM 
+adoption, even lower adoption in 
+maintenance and operation41. 
+Fully integrated BIM -based workflows through the 
+RE Suite platform ( IR1) reduce overall costs by 
+around 7%, 5% saving in planning, risk assessment, 
+safety, and assurance, CDW reduced by up to 15%. 
+ 
+Artificial 
+intelligence 
+Very limited, confined  to pilot projects, 
+low visibility, dependence on other DTs. 
+Full adoption of AI through integrated solutions 
+(IR1-6) throughout the building lifecycle enabling 
+>15% construction costs, 10% faster sched uling, 
+>20% energy demand reduction, 30% maintenance 
+cost reductions. 
+Virtual and 
+Augmented 
+Reality 
+(VR/AR) 
+Market adoption limited (12% 40) but 
+significant growth projected till 202539. 
+RIALTO ( R1.2) Quality of renovati on works 
+(reduction in r ate of mistakes), safety and accident 
+prevention, accelerated training. Projected reduction 
+of onsite work by >35% in relevant tasks.  
+Robotics & 
+3D printing 
+Very limited42, steady interest, high costs, 
+requires skilled workers. 
+Façade 3D printer ( IR4) for hor izontal and vertical 
+renovation, reducing costs and waste by 25% and 
+time by at least 50%, reduction of accidents by >50% 
+and mistakes by 80%.  
+Source: 2,8,9,10 
+Replication and propagation of results 
+It is important to ensure that the pathways described in the previous sections will result into impacts. While the DEC 
+strategy of the project is solid, the quality of the Consortium (elaborated in §3.2) ensures that the results will generate 
+value for European society. This affects the replication potential, which influences the uptake of the results: 
+Spain: In 1979 the thermal regulations started in Spain, so buildings before that date are no insulated. The proposed 
+building was built in 1850. In the neighbourhood “La Roqueta”, where the building is located, 86% of the dwellings 
+are built before 1980. AUMSA manages a building stock of 598 dwellings, where the renovatio n approach can be 
+replicated. Furthermore, in Valencia city, 68% of the dwellings are built be fore 1980. Therefore, the renovation 
+approach will be replicable in a 68% of the dwellings in Valencia city, meaning over 279,682 dwellings. The Spanish 
+replication is further reinforced by two LEs: ACCIO and VIAS. ACCIO is the biggest construction company in the 
+Spanish B&C sector and one of the most innovative companies in the sector, with market cap exceeding €9.2B and 
+employing close to 40,000 employees. VIAS has 965 employees at this location and generates €325 million in sales. 
+Netherlands: MWNB monitors over 2000 buildings  in North Brabant, all of which possess the heritage quality . 
+MWNB will work closely with DMO, who are man aging over 25,000 r esidential uni ts (as well as 100,000 
+infrastructure units) with projections to triple by 2025.  
+Greece: In the Vari -Voula-Vouliagmeni Municipality, ambitious plans for the energy renovation of public and 
+municipal buildings are already bein g carried out. VVV owns 62 buildings that are due for renovation in the near 
+future. Moreover, MIRC is coordinating the most comprehensive network of B&C actors in Greece, co mprising 
+ 
+38 Historic England. 3D Laser Scanning for Heritage 
+39 European Investment Bank (2019). Investment Survey 2019 
+40 European Construction Sector Observatory 
+41 ECSO (2019). Building Information Modelling in the EU construction sector 
+42 Delgado, J.M.D.; Oyedele, L.;Ajayi, A.; Akanbi, L.; Akinade, O.; Bilal, M.; Owolabi, H. (2019). Robotics and automated systems in 
+construction: Understanding industry-specific challenges for adoption. Journal of Building Engineering 26. 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 39/70 
+names such as Titan and Lafarge, encompassing the entire value chain of buildings. Moreover, recent developments 
+in Greece are generating significant momentum in the decarbonisation front.  
+Switzerland: EPFL, SUPSI and IWIN have established collaborations with the Cantonal organisations of Lausanne 
+and Geneva, providing access to over 100,000 buildings of various typologies.  
+For replication purposes, we project that at least 3 new projects will be initiated in Valencia, V elp and the Attica 
+region as soon as the current ones are completed-or near completion (Q3 2027 or Q1 2028). The participation of key 
+end-users as described in the project will generate at least 15 more projects by Q1 2029, also cons idering the 
+replication cases in the Swiss market. The total for 1 year post project is projected at around 25 new INPERSO 
+retrofits, primarily utilising the one -stop-shop business model (BM1), which is the one employed for the financial 
+projections. The rationale is that throug h active participation in the four years of INPERSO, the end users will be 
+convinced of the potential of the approach and will take advantage of financing options to further invest. By Q1 2029, 
+it will be possible to fully utilise the entirety of the BM ar senal. In particular the step-by-step (BM2) and franchise 
+models (BM6) will allow significant increase in capacity leading to 75 retrofits  by Q4 2029 and 140 by 2030. 
+Assuming 1000m2 per project, and based on the outcome projections, the results are: 
+Table 13 Impacts of INPERSO until 2030 (* CO2€/t estimated at 50€ constant but will be revised during the project) 
+ Replicability 
+(retrofit) 
+Energy 
+Savings 
+€ savings* CO2 averted Jobs 
+created 
+Investment 
+leveraged 
++1y (Q1 2028) 25 1.6 GWh/y 0,28 M€/y 0.247 kt/y 155 >11 M€/y 
++2y (Q1 2029) 75 4.8 GWh/y 11.5 M€/y 0.7421kt 312 >33 M€/y 
++2y (Q3 2030) 140 8.5 GWh/y 13.7 M€/y 1.287 kt 653 >58 M€/y 
+Cumulative (2030) 240 15 GWh 25.5 M€ >2 kt 1120 >100 M€ 
+With an expected completion date in Q3 2026, INPERSO will achieve market entry and full outcome realisation by 
+2027 (or early 2028)  and aims to contribute to impacts relevant to the EU milestone year of 2030 and contribute 
+substantially to Europe’s “Efficient and sustainable use of energy, accessible for all is ensured through a clean 
+energy system and  a just transition”, which is the targeted impact. By 2030, we should be more than halfway to 
+climate neutrality, an effort requiring immense dedication. Thus the impacts, their scale and significance will be: 
+ 
+Scientific: By 2030, the results of project will have generated important scientific knowledge, with the majority being 
+of multi - and inter-disciplinary nature. The project will generate at least 18 (FWCI~2) publications, a wealth of 
+research data (Table 3) and capacity building in a pool of over 500  individuals. These results will propagate into 
+impactful research conducted and knowledge generated. T he new directions in the B&C sector, in digital services 
+and systems engineering will contribute to >100 jobs created in R&D , further supporting the leading position of 
+Europe in the construction sectors. INPERSO will ensure Open Access and be efficient, transparent, and responsive 
+to societal challenges aligned with EC´s goals on OS, aiming for over 10,000 citizens participating by 2030.  
+Societal: By 2030, INPERSO will have supported the B&C sector’s transition into climate-neutral industrial value 
+chains and contributed to SDGs 1,3 -13 by reducing the energy demand by almost 15 GWh/y and averting over 
+1.5kt of CO2 per year, with >13M€/y in energy and CO 2 tax savings. Maintenance cost reduction (30%), inclusive 
+tools and solutions, as well as six Business Models will render renovation more affordable. Workplaces will become 
+more inclusive and safer, as employees will be up/reskille d in these new modes of operation.  Through innovative 
+manufacturing and prefabrication, renovation will be more energy efficient, less wasteful and adapted to heritage.  
+Economic/Technological: By 2030, the cumulative improvements in the entire lifecycle of the building, from design 
+to end of life, contribute to > 50% increased productivity for the B&C sector, through the reduction of renovation 
+time, but also 70% reduction of reworks. Based on the INPERSO business plan (§2.2), we project that over 100M€ 
+invested and over 1000 jobs will be the effects of INPERSO actions. AR-based solutions and capacity building will 
+contribute to reduce accidents. Digital solution uptake in the B&C sector will be promoted. Finally, the user-centric 
+approach will increase the accessibility and attractiveness of renovations, contributing to increasing the rate across 
+the EU. 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 40/70

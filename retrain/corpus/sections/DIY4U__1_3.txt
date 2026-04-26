@@ -1,0 +1,934 @@
+1.3 Concept and approach  
+1.3.1 Concept  
+DIY4U concept is to promote the adoption of Open Innovation and DIY/fablab/makers approaches to drive 
+ondemand production of new customer -centric products in the European soft matter FMCG sector. It addresses 
+the key barriers (lack of relevant infrastructures and business mod els) limiting collaborative small -scale 
+manufacture of personalised/customized FMCG. Our development and trial of an OI B2B/B2C digital platform 
+and fablab MDFs will de-risk the implementation of the DIY4U approach for the co -design and co-manufacture 
+of s mallscale personalised/customized FMCG. Figure 1.3a shows a schematic representation of the DIY4U 
+concept including relevant technologies and stakeholders.  
+The key components of the DIY4U concept are summarised below:  
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    8  
+  
+Figure 1.3a Visual representation of the DIY4U concept  
+ 
+  
+
+ 
+870148: DIY4U – Part B    9  
+  
+The Open Innovation B2B/B2C digital platform will be a highly visible and transparent platform that brings 
+supply chain stakeholders (product & technology developers, ingredient suppliers and manufacturers) and 
+consumers together and enables them to seamlessly collaborate on the efficient creation of new particulate/liquid  
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    10  
+  
+FMCG. Integrated digital tools across the product/process/supply chain (molecular modelling & simulation, 
+process simulation & digital twin, cost and environmental modelling, and AI/data analytics) will be used in 
+conjunction with product and process information from ingredient suppliers and manufacturers to digitally 
+design high performance new customised/personalised products. The digital platform will allow all actors 
+(including consumers) to propose and design new products. Tracking individual/corporate IP and  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1.3b DIY4U Platform architecture interactions between 
+partners on the platform will be possible through integration of 
+Enterprise Resource Planning (ERP) and distributed ledger 
+technology (DLT)/blockchain. A consistent integrated data 
+structure will facilitate open source product data exchange and 
+standard representations of products and processes from design to 
+consumer. Blockchain allows digital information (e.g. 
+product/processes information including information on 
+standards and regulatory compliance) to be distributed, shared, 
+persistent and immutable. The ledger will ensure that rights and 
+permissions are respected, allowing industry stakeholders and 
+consumers to co-design and codevelop new 
+customised/personalised products. It is important to note that the 
+DLT/blockchain platform envisaged will not use the same 
+energy-intensive consensus process of bitcoin or other 
+cryptocurrencies (mining) and will instead use an efficient 
+Lamport-type consensus algorithm such as PBFT.  
+Through engagement with the simulation tools and the serious game, consumers and users will benefit 
+by being involved in the design and manufacturing process and seeing how their formulation choices 
+will impact product performance, environmental and social  aspects. Blockchain will also enable the 
+sharing of personalised formulations.   
+Modelling & simulation tools (e.g. Computational Fluid Dynamics - CFD, LCC/LCCA models, and 
+process models) will be developed as modules to be plugged into the platform to en able users to 
+simulate/optimize the performance and impact of the created formulations prior to making them and to 
+device the optimal processing route.   
+
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    11  
+  
+Big data technologies, integrated in the DIY4U digital platform, will be used to track real-time consumer 
+demand changes and to generate optimised formulations for the consumer. While there is some societal 
+push-back against using people’s data, it is logical that such information is employed (whilst complying 
+with GDPR) to provide products of improved per formance to the consumer, should they wish. For a 
+laundry detergent exemplar (for instance), big data could leverage the following information to optimise 
+the formulation.  
+● Family composition, ages of any children, occupation of parents to predict the clea ning 
+requirements of the family and hence deliver an optimised surfactant package.  
+● Shopping habits, the material and colour of fabrics purchased by the consumer to tailor the 
+formulation towards optimised cleaning, reducing fabric wear and minimising colour fade.  
+● The fragrance profiles of the products (e.g. deodorants & personal care purchased) purchased 
+to customise the perfume additions to the detergent to synergise with these.  
+● The location of the consumer’s home address such that the ‘builder’ package of the detergent 
+can be optimised to the water profile of the consumer’s tap water, i.e. soft vs hard water.  
+● Time of the year, to decide how to alter the formulation. For example, stain profiles will change 
+regionally and could be more tailored towards r emoving grass stains in the summer, while 
+being tailored towards mud in the winter. Moreover, the formulation could be customised 
+based on the colour palette of the clothes worn by the consumer as a function of the time of 
+year, e.g. lighter clothes in the summer and darker clothes in the winter.  
+Through the methods/technologies integrated, the platform will promote social inclusion and diversity 
+by empowering all consumers/users, irrespective of age, socioeconomic status or gender, to contribute 
+in the codesign of innovative products meeting their needs. This will ultimately increase product variety 
+and personalisation and deliver higher customer satisfaction and loyalty.   
+Data analysis: The proposed concept for data analysis will improve both the customized formulation 
+and the process in order to define an optimal formulation by taking into account all parameters (costs, 
+time, LC, QbD, colour, composition, health, process …). This will en sure a real-time interaction with 
+end-users to predict their needs, demands, perceptions and behaviours. Figure 1.3c shows the different 
+parts of the DIY4U data analysis concept.  
+The data analysis process aims to capitalise collaborative Knowledge Base. To reach goal, DIY4U 
+proposes a specific methodology (see figure 1.3c). The elaborated KB will be updated only when a new 
+formulation is created, rejected or improved. 
+The end -users can share knowledge or solicit  
+the DIY4U platform to evaluate a novel 
+formulation.        
+DIY4U Platform Graphical User Interface 
+(GUI): The DIY4U project will develop 
+userfriendly GUI interfaces based on consistent 
+and intuitive  design.  Visual  and 
+ functional consistencies  are  one 
+ of  the  strongest contributors to 
+enhance the usability and learnability. This 
+project will define methods to measure the user 
+satisfaction indicator to improve the user 
+experience through iterative design and 
+usability measurements. The DIY4U platform 
+   
+Figure 1.3c Data analysis process 
+  
+
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    12  
+  
+will ensure user interaction with information by manipulating efficiently visual widgets and respecting 
+the following principles:  
+- Reduce the number of actions from the user to achieve the task;  
+- Ensure that users never lose their information;  
+- Use clear and meaningful words that help users understand the concept more easily;  
+- Assure the accessibility and the visibility of the system status;  
+- Make the platform more comfortable for a user to interact with a product; -  Take into 
+account the perception of users.  
+- Use of smart tools simulations for creation of formulations and awareness assessment.  
+DIY4U Platform Scalability: The platform’s scalability is a main goal for this project. To ensure this 
+important property, the DIY4U platform will deploy open source tools, implement evolutive schema 
+database and apply design patterns principles and the best practices. Moreover, to guarantee the integrity 
+of new industrial domains, the DIY4U project will integrate scalability at several layers:  
+- Performance: At the beginning, the DIY4U project will ensure a high performance to support 
+many new users and the need to add more capacities.  
+- Availability (CAP 6): the DIY4U platform’s data layer will be based upon DLT/blockchain 
+which automatically ensures consistency and redundancy across multiple distributed replicas in 
+order to ensure that clients have uninterrupted service. Data stores for larger ‘off-chain’ digital 
+assets will also be replicated across multiple sites to ensure local availability and redundancy 
+for loss-prevention.  
+- Costs: Open source solutions will help identify community members that will make great 
+progress. This will reduce the total cost of development and facilitate growth of applications.  
+Furthermore, DIY4U will, early on, take into account the extensibility of the platform by identifying 
+similarities between domains and generalize as possible the GUI interfaces.     
+How DIY4U platform would work (figure 1.3d)  
+Step 1 Sign up: Register for an individual or company account on the DIY4U platform. Watch the virtual 
+tours or tutorials to become ready to formulate in the cloud.  
+Step 2 Create, test & recommend:  Use the DIY4U platform to create customised or personalised 
+candidate formulations, digitally assess the performance of the created formulation (e.g. using plugged-
+in models incorporating CFD) and simulate the manufacturing of the formulation using the pro cessing 
+digital twin. DIY4U algorithms will automatically compute users’ desired observables and recommend 
+the best formulation as well as the most efficient and accurate processing approach.   
+  
+Step 3 send results to fablab MDF: With a single click, share results of users’ optimal formulation and 
+optimal processing conditions with DIY4U Fablab/MDF. Then, the users have the possibility to create 
+another formulation or to quit after filling the satisfaction form. The DIY4U platform will propose a 
+specific interface for manufacturers/makers to receive orders and exchange information with users.  
+ 
+6 CAP theorem   
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    13  
+  
+ 
+The Manufacturing Demonstration Facilities (MDFs) developed at STEF and CPI will act as fablab 
+demonstrators, offering open access facilities and resources for entrepreneurs, SMEs and anyone to 
+rapidly and cheaply make personalised/customized soft matter FMCG. The MDFs will be furnished with 
+small-scale digitallyenabled machine (fablab) for rapid manufacture and high speed QA testing of 
+innovative products designed on the DIY4U platform. The fablab will be integrated with high speed 
+labelling capabilities and will address the inefficiency barriers of small batch/customized products (i.e. 
+process efficiency, inventory costs and changeover/downtime). The MDFs will also provide  DIY4U 
+training to industry stakeholders and individuals willing to trial the DIY4U approach to inform 
+investment decisions (businesses) or foster knowledge (students).   
+Visualisation method would also be applied in the design of facilities that would be purported to house 
+the fablab; enabling distribution groups to see how the fablabs would incorporate into their businesses 
+and consumer flow patterns with minimum disruption and maximal usage. Quality visualisation will 
+also enable fast efficient staff training, in such areas as materials refill, to enable safe, effective products 
+without the need of skilled formulators at site constantly. This will safe effective upskilling of a broader 
+workforce with the potential for offsite real -time monitoring. The coalition of these applications will 
+mean that efficient customisation and small -scale manufacturing can be applied across product ranges  
+and differing applications.  
+Figure 1.3e shows a conceptual diagram of a fablab for manufacture of powdered laundry detergents. 
+Feedstocks for creating the personalised formulations are all either powder feedstocks or pre -formed 
+powder composites. For example, the ‘top level’ surfactant package that defines the cleaning potential 
+of the detergent have been preblended into typical filler compounds such as sulphates in order to aid 
+with the flowability to facilitate easy incorporation into the detergent. In the same manner, components 
+that are traditionally added in small quantities to the formulation such as enzymes are not added in their 
+pure form and are instead pre -blended into a baseline powder. This approach affords the platform a 
+number of advantages i n the case of powdered laundry detergents: Firstly, it increase the precision to 
+which the small additions can be added to the formulation, facilitating the creation of small quantities 
+for the consumer; secondly, it negates (to a large extent) issues rela ting to powder blend mixing and 
+  
+Figure 1. 
+3 
+d Functionalities of the DIY4U platform for users 
+  
+
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    14  
+  
+hence product homogeneity leading to better, more consistent products generated in quicker time;  
+finally, it helps to constrain the overall formulation space provided by the fablab, preventing the 
+consumer creating non-viable or poorly performing products. It is logical for detergent manufacturers 
+like P&G to bridge the supply chain by providing such bulk intermediate powders, especially because it 
+is envisaged that the fablab approach will facilitate the uptake of higher va lue component additions 
+which can be difficult to incorporate in to non -personalised/customised detergents due to market cost 
+drivers. This allows innovative SMEs developing such higher value components to be directly involved 
+in the collaborative manufacturing approach.  
+A powder processing framework might be required at the back. Such a framework needs to be 
+incorporated at the  
+ 
+point of sale and be sufficiently attractive to the retailer or SME manufacturer who owns the floor space 
+where the fablab will be placed. Moreover, it will be necessary to ensure that the replenishing of the 
+constituent powders can be accomplished using e xisting staff and infrastructure and without requiring 
+addition of any engineering controls or containment to handle powder transfer.  
+The powdered detergent fablab exemplar has been used to demonstrate the concept of fablab as opposed 
+to serving a realistic demonstration of the formulation space for a powder laundry detergent. In order to 
+showcase how the approach is universal to multiple FMCG, the same approach has been demonstrated 
+in figure 1.3f for manufacturing of gym supplements at a sports facility or gymnasium. In this iteration, 
+the fablab would be creating customised macro and micro -nutrient sports drinks for users of the gym 
+which they could then form into a nutritional beverage via the addition of milk or water. It can be seen 
+from inspection of figure 1.3f that the approach is very similar to that of a powdered laundry detergent 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+Figure 1.3e DIY4U Fablab concept as applied to  
+powdered laundry detergents 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+Figure 1.3f Fablab for creating personalized sports and  
+nutrition drinks 
+  
+  
+
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    15  
+  
+in figure 1.3e. Indeed, there is nothing to prevent 
+the fablab being set up so that the final liquid 
+addition could be carried out within the device 
+and hence dispense t he result as a fully 
+formulated liquid product.   
+Figure 1.3g illustrates a fully liquid-based fablab 
+for manufacture of shampoo, in this case the 
+major processing challenge relates to the 
+rheology of the components which must be 
+blended together and being able to achieve this is 
+acceptable timeframe will be challenging. 
+Hence, rapid heating of the components will be 
+required. Cooling will be achieved by the flow of 
+formulated product through non -heated parts of 
+the dispensing system, with it actually being  
+favourable from a consumer experience 
+perspective for a warm product to be dispensed.      
+Formulation is at the heart of the fablab and 
+hence it is important to ensure ‘flexible robustness’ in 
+terms of the options available to the consumer. It is 
+important to ensure that consumers are not able to create 
+non-viable, poorly performing, or even dangerous 
+formulations, while at the same time still allowing them 
+to make choices that have a meaningful impact on the 
+product that they create. Furthermore, the fablab needs to 
+provide assurance that the quality of product dispensed 
+meets the requirements of the consumer who has 
+formulated it. shampoos  
+For example, if the consumer specifically requests a ‘non-biological’ detergent, the fablab will need to 
+check this using in-line process analytics (e.g. Raman, UV, near-IR). Coupled with the real-time process 
+analytics approach for product analysis, the f ablab will be integrated with a decision -making process 
+such that sub-optimal formulations or nonviable formulations will not reach the consumer and will hence 
+be recycled via blending into lower value,  
+non-personalised products. While it will result in a bad user experience for the consumer to order a non-
+viable product, it is envisaged that by employing self -learning neural networks (on both the digital 
+platform and fablab), DIY4U will quickly be able to understand and prevent such events occurring. Over 
+time, the device, complemented by improvements in the digital design modelling and simulation tools, 
+will work to tighten the formulation space available to the consumer to prevent such bad experiences.  
+Despite the overall approach of fablab being broadly equivalent for very different consumer goods, the 
+challenges associated with maintaining product quality are subtly different and hence the approach needs 
+to be sufficiently robust to meet these challenges. In the case of the gym supplement exemplar (figure 
+1.3f), the cleaning of the device will be more prominent with cross contamination between users being 
+important. In this case the process analytics being employed can be used to verify device cleaning and 
+ensure material that exhibits unwanted ingredients above trace levels are recycled into non-personalised 
+products. Provision of flexible PAT ports to  allow plugging or replacement of miniaturised PAT tools 
+should mitigate this challenge. Examples of PAT tools that could be integrated include: In -line 
+spectroscopy (Raman, UV, near-IR), Focused beam reflectance method, In-line rheometry/viscometry, 
+Figure 1.3h Fablab for making personalized  
+Figure 1.3h Fablab for making personalized  
+Figure 1.3g: Fablab for making personalized shampoos 
+  
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    16  
+  
+Acoustic emissions sensing, Electrical resistance tomography, Particle size & shape (PVM), Colour 
+analysis, Terahertz imaging, Laser Induced Breakdown Spectroscopy, Turbidity sensing, Hyperspectral 
+Imaging).  
+Business model Development: PICOM will work together  with the consortium and the DIY4U 
+ecosystem engaged to develop a business model that will ensure the industrial adoption, 
+commercialisation and long-term sustainability of the DIY4U platform and fablab.  
+1.3.2 Methodology  
+DIY4U will largely focus on deve loping and demonstrating the Open Innovation B2B/B2C digital 
+platform and fablab MDFs in the detergent and soap domains. To achieve this, we will develop, modify, 
+integrate and test several key components of DIY4U:   
+Digital platform  
+● Formulation ‘plug and produce’   
+● Knowledge management and collaborative platform   
+● Advanced data analytics  
+● Formulation computational modelling   
+● Formulation process digital twin  
+● LCA and cost modelling  
+● Distributed Ledger Technology/blockchain to track IP and interactions  
+● Targeted marketing campaigns and open innovation competition to recruit users and suppliers  
+Fablab MDFs   
+● Hardware (unit operations)  
+● Process analytical technology (PAT) and process control algorithms ● Digital 
+twin (digitalisation of formulation manufacturing)  
+  
+Each of these components are further elaborated upon in this section.   
+  
+Formulation ‘Plug & Produce’: Relevant product and process information will be collated from 
+FMCG manufacturers and suppliers and presented to platform users in a consistent format that allows 
+the design of new viable/safe customised formulations via a “plug and produce” approach. Rele vant 
+modelling and simulation tools, developed and/or plugged into the DIY4U platform, will allow users to 
+simulate and optimise the performance of the created formulations.  
+Knowledge management and collaborative (KMC) platform:  The KMC platform will faci litate a 
+logical workflow for enabling end -users (including consumers, personalized product providers and 
+Fablab owners) to collaborate throughout the product design, testing, production and delivery life cycle 
+by developing novel product designs and formu lations or adapting existing ones. To achieve this, the 
+KMC will provide users with a range of design methodologies to facilitate the process and product 
+design and its subsequent testing, control and optimization. Computational modelling and simulation 
+tools are an important component of the platform, and they will be based on a determination of not only 
+the process drivers (the physical and chemical requirements of the process), but importantly they will 
+be driven by customer satisfaction criteria as well as environmental and business requirements.  
+The initial Platform Architecture will be validated and adapted based on the House of Quality from the 
+QFD. The methodology that will be used to develop and code the Platform itself will be a proven agile 
+methodologies of SCRUM (that is ideally suited to software developments) and Test Driven 
+Development for efficiently developing “almost-bug-free” large software platforms like IBD® because 
+it is a programming methodology oriented to code “reliable-by-design” software. The Scrum framework 
+operates as follows: A product owner (i.e. represented by DCC with the support of EFF and IRIS) creates 
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    17  
+  
+a prioritized wish list called a product backlog (this will be extracted from the House of Quality above). 
+During sprint pla nning, the Scrum team (the IRIS and EFF software developers) pulls a small chunk 
+from the top of that wish list, a sprint backlog, and decides how to implement those pieces. The team 
+has a certain amount of time — a sprint (usually two to four weeks) — to complete its work, but it meets 
+each day to assess its progress (daily Scrum). Along the way, the Scrum Master (IRIS) keeps the team 
+focused on its goal. At the end of the sprint, the work should be potentially ‘shippable’: ready to hand 
+to a customer, put  on a store shelf, or show to a stakeholder. The sprint ends with a sprint review and 
+retrospective. As the next sprint begins, the team chooses another chunk of the product backlog and 
+begins working again. Scrum is a highly powerful methodology for keepi ng the end-user engaged and 
+with influence over the development process.   
+The KMC Platform, which will be deployed through a supercomputer cloud to guarantee the high 
+processing power and speeds required to run the tools, unites expert designed formulation design 
+methodologies, numerical and process designer tools, Digital Twins, LCA and LCC tools, AI analytics, 
+and Blockchain, considering the whole product design cycle, from ideation to fabrication and delivery. 
+The KMC Platform will ensure the following features and performance in terms of simulation 
+functionality:   
+• The GUI wi ll be user friendly and will allow the potential users feeding the databases, user 
+materials' implementation, etc. by means of custom encapsulated scripts.   
+• Built-in models will be included in the global process interface in order to avoid the full design 
+of every component (if something exists and it is successful, it should not be designed twice).   
+• ‘One-stop-shop’ philosophy. The tool will account for everything involved in the process: from 
+early design, to digital testing and functional simulations; from full product design and analysis, 
+to LCA and environmental impacts evaluation. Integration with relevant databases engineering, 
+physical and chemical, environmental, and economic   
+• An optimization module, where almost everything should be input and output at a time.   
+• A representative case study will serve as a preliminary validation example.   
+• A platform template will be provided as a starting point.   
+• The global interface will be able to call other software (either commercial or open source) for 
+the particular analyses and process' bottleneck findings.  
+The methodologies and tools that will be hosted into the Platform are:  
+Advanced big data analytics methods: There are several open source methods and tools for advanced 
+data analytics. In this project, the following techniques will be deployed and applied:  
+- DIY4U will define a clustering technique based on a smart mix of algorithms 7 (K-means and 
+OPTICS). This technique will allow for example to segment consumers and classify different 
+products and evaluate the reachability of a new formulation on related cluster.  
+- Machine learning: In order to analyse  and make decision, Decision trees will be adapted and 
+used to assess the relevance of formulation and predict, for example, the behaviours and the 
+demands of user.   
+Formulation computational modelling: The usage of formulation computational techniques will allow 
+the consumer to create viable, performing, or non-dangerous formulations that would fit with their desire 
+levels of product that the consumer is searching for. The key idea is the development of a series of 
+numerical methods that will forecast how the formulation will perform in the consumer home reducing 
+the testing procedures and not creating a bad experience to the consumer.  Soft matter modelling and 
+ 
+7 Kiran Jyoti “Data Clustering Approach to Industrial Process Monitoring, Fault Detection and Isolation” 
+International Journal of Computer Applications, 2011.  
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    18  
+  
+simulation methods (e.g. Langevin dynamics, dissipative particle dynamics, multi -particle colli sion 
+dynamics/stochastic rotation dynamics, and the lattice-Boltzmann method) will be applied to resolve the 
+multi-scale nature of new FMCG formulations and provide quantitative information to predict their 
+performance. Manufacturers (e.g. P&G) will also b e capable to plug -in specific models that allow 
+consumers to create, digitally test and optimise their customised formulations. DIY4U DLT platform 
+will ensure the manufacturer’s IP for the model is protected whilst giving access to such models to non-
+formulation experts and stakeholders.   
+Formulation process digital  twin: CETEMET and DSC will develop a multiphysics, multiscale, 
+probabilistic simulation (digital twin) of the fablab processing equipment (to be developed in the project) 
+using the best physical models, sensor/PAT updates data driven analytical algorithms, partners available 
+knowledge (P&G, CDY, STEF and CPI)  and operation history.  The formulation process digital twin 
+will virtually represent each of the production processes to obtain a formul ation virtually. This 
+virtualization will take advantage of computer modelling that recreates each of the unit operations to 
+mimic the overall equipment performance. The equipment process virtualization will take advantage of 
+Computational Fluid Dynamic (CFD) tools to analyse and optimize each unit operation virtually.  
+LCA and LCCA Model Sub-platform: DIY4U’s LCA/LCCA model sub-platform will be designed to 
+calculate the many permutations given for each material selection and decision point made by the User, 
+and this will give an output result including environmental performance (equivalent CO2/kg) and 
+monetary cost (£/kg). A mass and energy balance approach will be taken to simulate process stream 
+mass flow rates (kg/h) and component concentrations within e ach stream. A comprehensive database 
+will be created from publicly available data to assign to mass flows, and this will give manufacturing 
+cost estimation and embedded carbon data for each material used in formulation. A decision tree will be 
+built to simulate a User Interface, offering a range of preferences that pre -determine a defined process 
+schedule. Life Cycle Assessment Guidelines ISO 14040/14044 will be adopted to develop the model 
+with a systems -based approach. Life Cycle Costing will allow the id entification and evaluation of 
+operational and capital costs (OPEX and CAPEX), and output results will include monetary product 
+values, as well as other economic figures such as Net Present Value and Return of Investment. The LCC 
+assessment is performed in  parallel to the LCA, making the same assumptions and using the same 
+functional unit.   
+Distributed Ledger Technology/Blockchain: A hybrid blockchain network (private permissioned 
+DLT + public open network) will be deployed as the ‘base messaging layer’ be tween parties and will 
+enforce a consistent structure of corporate or agent identity, process, mixture and ingredient metadata, 
+as well as time-stamping and sequencing of requests and responses between parties to the ledger from 
+different fablab sites, contributing companies, resellers or even consumers, and the use of modules atop 
+the platform (e.g. CFD or analytics). There will also be the potential for process automation through 
+‘smart contracts’, such as preventing dangerous mixtures or use of stale batches, or only allowing certain 
+parties access to particular IP. Cryptography (including zeroknowledge proofs) will be used to ensure 
+proprietary information is only legible by authorised parties, thus  
+  
+increasing the trust from corporate partners and in creasing their willingness to adopt the platform. 
+Consistent and reliable messaging will ensure preservation and attribution of intellectual property 
+developed on the platform, and uniformity of the data will allow it to be fed into machine learning 
+processes developed for the platform. This will also enable a ‘reporting module’ to extract data from the 
+ledger if requested for legal compliance processes. The DLT will be designed with open innovation in 
+mind, and have well-documented APIs that will integrate with existing ERP systems and other graphical 
+front-ends. It will also be possible to extend the system with automated payment methods beyond the 
+end of this project, once there is more regulatory clarity.  
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    19  
+  
+To comply with GDPR there will be no recording o f PII onto the ledger, merely off -chain look-up 
+locations or hashes to external databases (which could also be distributed between the parties using IPFS 
+technology) which comply with the right to deletion.   
+  
+Fablab MDFs: CPI and STEF will host fablabs developed and provide open access for fablab 
+demonstration and DIY4U design and manufacturing training.   
+Fablab Design: The consortium will engage potential fablab  users and supply chain stakeholders to 
+define user requirement specifications that will be used to develop technical specification and a design 
+package for the fablabs. Key stakeholders to be engaged in the specification and design of the fablab 
+will incl ude: FMCG consumers engaged through a user research carried out on the DIY4U digital 
+platform, FMCG SME innovators and retailers signed up from PICOM’s retail innovation cluster and 
+via user research on the DIY4U platform, consortium FMCG manufacturer (P&G ), FMCG ingredient 
+suppliers engaged via P&G’s network and through targeted user research campaigns on the DIY4U 
+platform, robotic and automation solution providers/equipment manufacturers (e.g. consortium partners 
+– CDY, CTM, VTT, DSC), and consortium MDF  partners (CPI and STEF). The involvement of these 
+stakeholders and potential users (from across the FMCG development and manufacturing innovation 
+continuum and supply chain) in the specification and design of the fablab will ensure maximum impact 
+of the fablab MDFs on all stakeholders and target market segments.    
+Powder Detergent manufacturing fablab design considerations:  The main mixing processes for 
+manufacturing detergent powders (spray drying, agglomeration and dry blending) will be reviewed and 
+considered together with other user requirement specifications to select the most appropriate processing 
+method or combination of methods to be integrated into the fablab. One intent of spray drying is to 
+convert liquid materials such as (polymers/surfactants/silicates) into a powder form by mixing them with 
+compatible powders (sulphate/carbonate for example) to create a “base powder” from which the final 
+detergent is built.  Since spray drying is complex and costly, we do not expect to integrate it into the 
+fablab. We expect detergent manufacturers like P&G to supply base powders as feedstock for the fablab. 
+Agglomeration involves blending of dry raw materials with liquid ingredients using machines such as 
+liquid binder, rolling or shear mixing devices that ca use the ingredients to collide and adhere to each 
+other, producing larger particles with high -density. Dry mixing is used to blend dry raw materials to 
+produce detergent powders and may sometimes involve the addition of small quantities of a liquid. The 
+finished products from the above processes typically undergo further unit operations including storage 
+in silos and bags, filling into bins and hoppers, handling and transportation in conveyors, packaging, etc. 
+Key unit process challenges to be considered in the integrated fablab design will include:  
+Powder Mixing & Segregation:  Many raw materials in detergent production are particulate form and 
+their mixing/blending is a core unit operation. If the ingredients have different particle properties, in 
+particular, particle size, this may cause segregation or de -mixing after mixing. This problem can 
+seriously limit the potential for creating ingredient mixes. Online monitoring techniques (PAT, 
+Chemometric data analysis, soft sensors, etc) will be developed and us ed for determining the endpoint 
+of mixing processes. Producers would like to have tools for measuring segregation tendency and for 
+predicting the maximum difference in particle properties tolerable before segregation becomes 
+problematic.   
+Powder Caking, Scale formation and Fouling: During some unit operations (spray drying, conveying, 
+mixing, etc.) with specific formulations, powder may stick onto and coat the wall of the equipment and 
+conveying lines. In powder mixing, the particles may stick to the mixin g chamber surface and form a 
+crust over time.  This causes major problems as the equipment need to be cleaned to avoid blockages, 
+cross contaminations, etc. There is therefore a need to integrate testing that can predict the likelihood of 
+powder sticking onto a surface, and how this is affected by the composition of the powder and processing 
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    20  
+  
+conditions. Modifications to the equipment surfaces and pipe walls (e.g. coating) could also be 
+implemented to mitigate these problems.    
+Powder Storage: Storage of raw materials, intermediate ingredients and final products plays a vital role 
+in production processes. Frequent blockages in silo hoppers, uneven discharging, silo flooding, etc, are 
+some of known challenges. In addition, powder storage devices contribute to  segregation issues in 
+downstream processes.  Powder Conveying:  Conveying of powdered materials, as raw feeds, 
+intermediate products and final products in packaging plays an important role in terms of product 
+quality, energy consumptions, health and safety  issues, etc. Conveying pipeline blockages, product 
+contamination and spilling out due to erosive wear of pipelines, energy optimisation, etc are some of the 
+major challenges couple with powder transport.  
+Liquid personal care products manufacturing fablab  design considerations: The just -in-time 
+manufacturing of liquid personal care products such as shampoos also bring a specific number of 
+challenges that are highlighted below. The main operations that will be required for the formulation of 
+liquid products  are liquid/liquid blending , solid/liquid incorporation  which comprises both 
+dissolution of soluble species and dispersion of insoluble particles along with the related wetting and 
+incorporation as the two phases come together. Related to these two major formulation steps are powder 
+conveying and dosing (discussed extensively above), rapid heating and cooling of components and 
+products, liquid storage and stability, powder pumping and dosing, and finally cleaning. The challenges 
+associated with these are discussed below.  
+Blending of viscous liquids: Liquid/liquid blending of multi-component viscous systems can be difficult 
+to achieve quickly with non-turbulent mixing often being required in order provide an optimal shear rate 
+that does not disrupt the rheology of the formulated product. Moreover, the blending of multiple liquid 
+components with different rheologies can be difficult to achieve in:   
+Powder/liquid incorporation and dispersion generation:  Many FMCG will require the addition of 
+solids to the liquid system. This can be for substances that dissolve or insoluble substances that need to 
+be dispersed. In both cases, ensuring a favourable wetting and incorporation of the solid phase by the 
+liquid will be key in ensuring rapid processing. From a process perspective, this operation will most 
+likely be the most difficult to achieve with only a limited amount of optimisation being possible. To 
+prevent unacceptable processing times for manufacturing within fablab, where possible, concentrated 
+dispersions or feedstocks will be employed,  
+Liquid pumping & dosing: Efficient pumping of the feedstocks and dispensing of the product will be 
+required by a liquid processing fablab, this will need to be conducted in such a manner as to not 
+compromise the key quality att ributes (rheology and functionality) of the product. While pumping of 
+highly viscous liquids is relatively well understood, even at small scales, the design of the fablab will 
+need to be sufficiently robust to prevent unwanted build-up or sedimentation within pipework.  
+Liquid storage: Storage of multiple liquid components will need to be considered within the formulation 
+of liquid products, along with vessel recharge, environmental control, and shelf -life. The challenges 
+associated with achieving this will  be significantly different from the strategies employed for powder 
+handling be equal within   Cleaning: Cleaning of dispensing lines and mixing tanks will need to be 
+conducted following the formulation of each unique product. Strategies will need to be de veloped in 
+order to minimise the amount of waste or off-spec material generated by the fablab.  
+The above unit operations and key aspects of the powdered and liquid fablabs will be modelled and 
+simulated using CFD by DSC, then the key unit operations valid ated by CPI and STEF prior to 
+integration.  
+Fablab High speed analysis and quality control:  Process analytical technology (PAT) is a well -
+established concept for providing information about products and processes. While such technologies 
+are often not in themselves ‘new’ the extent to which they can be miniaturised to be accommodated for 
+process monitoring or inline material characterisation and quality checks is a strong drive for their 
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    21  
+  
+continuing development to open up new areas of applications. It is believed that the fablab concept will 
+pose significant opportunities within the field of PAT and hence drive the design and uptake of the next 
+generation of in-line sensors that advance the state-of-theart. In addition to PAT being used for a ‘quality 
+check’ of materials as they are being dispensed to the customer, it is envisaged that feedback from  the 
+sensors can be used to optimise the manufacturing process. While the fablab process is inherently batch 
+driven in nature, by employing PAT analysis of the materials as they feed in to the process, coupled with 
+analysing the product as it is dispensed to the consumer, over time, the neural networks that provide the 
+self-learning capability of fablab will be able to predict (based on the raw material inputs) the optimum 
+way to run the process at the heart of fablab device. Over time, this approach will p rovide significant 
+benefits as the fablab continues to learn: firstly, it will ensure that the properties of the product being 
+delivered to the consumer are optimal and will hence reduce the amount of off -spec material being 
+generated, secondly, it will optimise the process such that the product can be delivered to the consumer 
+in the shortest possible time, finally, it will make the fablab robust via building predictive process models 
+such that it can maximise its robustness in being able to deal with variations in the quality/properties of 
+feedstock materials while still generating a formulated material of quality (model predictive control). 
+While such techniques are ubiquitous within continuous processing they can also be used for a batch -
+driven manufacturing by providing predictions on processing times and endpoints etc.  
+Digitisation of formulation manufacturing:  In order to 
+complement the PAT integration within fablab , by using the 
+coupling of multi -scale models, a framework for building a 
+‘digital twin’ of each fablab will be generated. Broadly, a digital 
+twin will employ multi -scale modelling in order to link well 
+established predictive models to generate insight as to the 
+optimum way for a process to be run. While the PAT is able to 
+learn over time to ensure quality products through 
+manufacturing excellence and process robustness, the digital 
+twin will allow the fablab to predict how it should operate when 
+it is required to run with feedstocks for which it has little or no 
+data. For example, it is envisaged that the formulation space of 
+a particular fablab will not remain static and will evolve over 
+time as formulators look to incorporate new and innovative 
+components within their products. Hence, by predicting how 
+these new components will behave and interact with the 
+established formulation space, the digital 
+twin will ensure that fablab is incredibly 
+robust in being able to maintain the 
+generation of optimum product s with little 
+historic PAT data on a new component. 
+Moreover, the digital twin will allow DIY4U 
+platform formulators the ability to test how a 
+new component could be incorporated 
+within a fablab without the necessity for 
+running a large matrix of compatibi lity 
+experiments. By linking neural network 
+driven learning, PAT for quality and 
+predictive control, and a digital twin 
+manufacturing approach, fablab will possess the required tools to drive the digitisation of the 
+formulation of fully personalised consumer goods.   
+
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    22  
+  
+Inefficiency barriers of small batch/customised products:  In addition to using the PAT and control 
+approach to improve efficiency, the economic feasibility of the integrated fablab will be accessed by 
+performing a detailed study around process efficiency (optimised production rates), inventory costs, 
+changeover/downtime and other relevant factors.  
+Customisation and registration/consumer safety of a changing product: The consortium will use input 
+from Product Stewardship teams from the relevant industries (e.g. P&G) and work with relevant 
+regulatory bodies (e.g. AISE) to develop a software mechanism for evaluating the safety level of a 
+requested product, developing MSDS, safety labelling etc. The DIY4U design algorithms will ensure 
+that only inherently safe formulations can be designed. A request for a potentially hazardous or unsafe 
+formulation would automatically return the message “NOT SAFE/POSSIBLE”.  
+High speed labelling (for both ingredient labels/customisation): High speed labelling will be required 
+but this does not need to be high throughput. Labelling will be provided to enhance the consumer 
+experience and also to provide full materials and process traceability for products produced by a fablab. 
+It is understood that current state -of-the-art within labelling will be sufficient to provide this with the 
+novelty existing in the application to fablabs.   
+Fablab Development: CDY (robotic and automation solution provider with expertise in manufacturing 
+automated equipment for the formulation ind ustry) will work with consortium partners (P&G, CPI, 
+STEF and CTM) to manufacture fablabs meeting design specifications and incorporating early unit 
+process testing and simulation activities performed at CPI and STEF. The fablab should provide 
+simplified simulation tools to facilitate the manufacturing process to the end -user (e.g. the consumer). 
+CTM will implement a simulation module tools aiming to drive the user towards an easy product 
+manufacturing. DSC will additionally implement DIY4U platform CFD ani mations of the internal 
+performance of key operational units that have been virtually twinned.   
+Fablab Demonstration, Optimisation and Training:  Following the installation of the developed 
+fablabs at CPI and STEF, both partners will act as MDFs for the fablabs. The MDFs will provide open 
+access for stakeholders that have designed new customised or personalised products on the DIY4U 
+platform to use the fablabs to manufacture and characterise their products. Feedback from users will be 
+used to optimise both the fablab and design & modelling tools on the digital platform.   
+The MDFs will provide training to fablab users as well as to students and other industries interested in 
+the DIY4U approach. Dedicated DIY4U training programmes/events (student placements, 
+apprenticeships, workshops, conferences, equipment training and use of digital tools like virtual and 
+augmented reality) will be organised and delivered to prepare current and future EU workforce for 
+embracing the revolutionary customisation and smallscale industries approach.   
+Open access element of the MDFs: During this project, the MDFs will provide open access to all EU 
+FMCG stakeholders (including consumers and SMEs) that have successfully collaborated on the DIY4U 
+platform to create a new customised/ personalised product design that they would like to manufacture 
+using the fablab MDFs. From M24, DIY4U will open access to the public and FMCG value chain 
+through a public event and via digital marketing strategies to invite stakeholders to use the DIY4U 
+platform to design new customised/personalised detergents and soaps. In parallel, PICOM will organize 
+a co-design workshops with 15/20 people including supermarkets, FMCGs and selected customers 1) to 
+assess process and solution of both Open Innovation B2B/ B2C digital platform and MDFs and 2) to 
+detect potential improvements. From M24-M36, optimal formulations designed and digitally tested on 
+the platform will undergo a selection process that will choose customised/personalised formulations that 
+will be manufactured and tested at the open access MDFs for free. The open access MDFs will be used 
+to validate the DIY4U concept (i.e. going from product idea to prototype formulated product within a 
+few days) and the overall DIY4U sustainability (demonstrating the p otential cumulative profit of >9M 
+€ within 7 years post project (section 2). The detailed procedure for selection process is summarised 
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    23  
+  
+below. A DIY4U OI Selection Committee (OISC) will ultimately be responsible for selecting the 
+formulations that will be manufactured for free. The DIY4U consortium has allocated adequate resource 
+and budget for STEF and CPI budget to provide free open access to third parties selected via OICs to 
+develop and manufacture new customised DIY4U formulations. This free open access budget will cover 
+the cost of training the third parties and providing DIY4U manufacturing support and consumables. The 
+selection criteria will ensure that the third parties provided with free open access to the MDFs comply 
+with EU rules. Third parties t hat have designed viable optimised formulations but do not meet the 
+selection criteria for free open access to MDFs could self-finance their use of the open access MDFs.  
+How we will select formulation recipes to be manufactured at the MDFs:  Companies applying to 
+manufacture their formulations at MDFs will provide 1) company description, 2) marketing approach 
+(finished product features and differentiation from customer's point of view, market analysis, targeted 
+business canvas) and 3) tests de scription (procedure and involved stakeholders during testing, overall 
+planning, external (i.e. CPI and STEF) expertise, resources and budget needed during MDFs use, internal 
+dedicated resources, key indicators to be measured during tests, action plan in c ase of success). The 
+consortium and its Advisory Board will propose eligibility of applicants based on company profile and 
+proposal completeness. The DIY4U Selection Committee will select formulations and companies 
+according to three criteria: product inno vation, business model and ability to address market needs, 
+ability to perform testing.  
+Following the completion of the DIY4U project, the MDFs will be available for EU companies that wish 
+to use it on a flexible ‘pay -as-you-use’ collaborative/private bas is, to manufacture 
+customised/personalised FMCG. Companies needing to use the MDFs will be provided training that 
+allows them to operate the fablab themselves. Fablab MDF users will be responsible for the use of 
+products (e.g. for relevant studies) manufactured. The facility will be maintained to standards, including 
+appropriate cleaning protocols, and record keeping to allow flexibility for varying users as well as 
+varying materials that feed through the infrastructure.  
+To further encourage the use of the  facility by multiple organisations, confidentiality issues between 
+users will be addressed by following best practices established within the respective operating open 
+access innovation infrastructures at CPI’s National Innovation Centres and STEF. Both o rganisations 
+will implement their respective policies for conflict management, confidentiality and IP, allowing 
+multiple users to use the facility without fear of losing their IP or staff being conflicted. Appropriate 
+resource planning (based on conflict checks and expertise) and effective project/innovation management 
+by experienced project and innovation/technology commercialisation teams at CPI (>600 years 
+combined experience) and STEF (>400 years combined experience) will also ensure adequate handling 
+and management of partners’ confidential information at MDFs.  
+Business needs and use cases definition and assessment … and be agile to react on evolutions:  
+Business partners interviews within the consortium, studies analysis, external brands and retailers'  
+interviews will be used by the project to find out business partners and ecosystem needs. Co -creation 
+process will be used to design use cases and identify relevant initiatives that should be considered for 
+collaboration. This process will work on some specific issues including: Which stakeholders are about 
+to emerge? Which stakeholder should operate the platform and the fablab (manufacturer, retailer, city, 
+third party, …)? i.e. what is the right value chain? Which stakeholder is in charge of customer 
+relationship? Is there a need to coach the customer during the configuration process (because choices 
+possibly impact health, price, environment, …)? Key performance indicators will be defined in 3 
+domains (business economic impact, customer satisfaction, process improvement) and assessed during 
+pilots through measures and customers feedback. The use cases descriptions will be used 1) to specify 
+IS architecture; 2) to adapt project’s activities as well as 3) to adopt solutions adopted by the community. 
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    24  
+  
+This approach will support improvement and enhancement of project outputs in iterations. The approach 
+intention is to ensure that the final outcomes are well aligned with the latest trends and achievements.  
+Use open innovation competitions (OICs) to extend DIY4U  functionality, test and promote DIY4U:  
+To promote SME participation and unlock new business opportunities for SMEs based on the DIY4U 
+approach, we plan to run two Open Innovation Competitions (OIC), one launched around M18 and the 
+second around M28, to enable gradual and iterative expansion of DIY4U platform, and to promote the 
+use of the DIY4U to create new business opportunities for SMEs. A standard process has been defined 
+to select up to 10  Open Innovation Projects. The process starts with defining a b rief for the OIC and 
+promoting it in social media, newsletter, events, and meetups with partner organisations in the relevant 
+communities. After receiving a sufficient amount of applications, a curation process starts with follow 
+up calls to select the best SMEs. Finally, this cohort is invited to a 1 day event with guest speakers from 
+the consortium and workshop-like activities to start defining ways to collaborate, augment the DIY4U 
+platform and develop bespoke formulations for commercialisation. This initiative will be useful to:  
+1) Get feedback and test the functionality;   
+2) Get businesses that can become contributors to data;   
+3) Use the platform and fablab MDFs services to create and make new/innovative bespoke FMCG that 
+they which to commercialise;   
+4) Improve the solution by adding new technical modules (if partners consider there are significant 
+technical improvement areas);   
+5) Evaluate new business models, for the engineering of personalised goods, particularly for SMEs that 
+can adapt to rapid demand change s and can implement changes in a shorter time to market;  6) 
+Identification of new use cases for the personalisation or fabrication of other goods;  
+ 7) Reduction of design and development costs due to co -design and co -development between 
+fablabs;  8) Promote the resulting solution towards B2B clients.  
+We expect to fund up to 16 SMEs by providing real cost of up to 50k€ per successful application in 
+addition to relevant technical and business mentorship from within the consortium to help the winners 
+undertake the proposed OIPs. M15 OIC (200k€, 4 funded OIPs) will target SMEs that have developed 
+relevant digital solutions that can be integrated and tested with the DIY4U platform.  M22 OIC (300k€, 
+12 funded OIPs) will target (minimum Eligibility Criteria) EU SMEs aiming to: (a) use the platform and 
+fablab MDFs services to create and make new/innovative bespoke FMCG that they which to 
+commercialise; and (b) explore the use of DIY4U services for a new business offering (e.g. small-scale 
+manufacturer) in the FMCG sector. The OIC selection process (further details in section 3, WP9) will 
+follow: RFP and answer form definition (by DCC and PICOM, All partners an d Advisory Board), 
+communication and interaction with relevant ecosystems (by All, led by DCC), proposals 
+acknowledgement and eligibility instruction (by DCC and PICOM), proposals evaluation upon business 
+and technical aspects (by 3 external evaluators), s election of proposals (by DIY4U Selection 
+Committee), notification to winners (by DCC). Each selected project will be supported by relevant 
+DIY4U partners in order to ease use of DIY4U resources, follow -up steps and planning, review 
+deliverables and result s and monitor overall. An overall evaluation of OIPs vs DIY4U solution and 
+ecosystem will occur at M36. 1.3.3 Technology Readiness Level: The start and end TRLs of DIY4U  
+Technology  Start  
+TRL  
+End 
+TRL  
+Expected advancement through the project  
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    25  
+  
+Knowledge  
+Management and 
+Collaboration  
+Platform  4  6  
+The KMC will use as foundation the platform developed by IRIS in the 
+project IBD (see relevant project below). In the context of DIY4U IRIS will 
+adapt this platform using the cloud architecture emplo yed during project 
+SHAREBOX for a cloud online deployment. Both IBD and SHAREBOX 
+platforms have been developed to TRL7 but the adaptations necessary for 
+DIY4U will bring TRL down to 4. However, by the end of the project, the 
+demonstration of the KMC with end-users will validate it at TRL6  
+Knowledge-based 
+formulation 
+design  4  6  
+Elaboration of Knowledge base through real user experience and digital 
+formulations in order to propose safe and trust formulations, combining 
+background knowledge and IP using established technology to demonstrate 
+a new system to TRL6.  
+Formulation and 
+Process Modelling 4  6  
+Formulation and process modelling are well established in industry. DIY4U 
+will provide a step further so non -specialist/DIYers/SMEs will be able to 
+provide better and safer products to consumers.  
+Advanced  data 
+analytics  4  6  
+Enhance the collection of data and the extraction of valuable information 
+from different types of data. Also, improve availability and scalability of 
+services.   
+DLT/Blockchain  
+4  6  
+The principles of IP tracking, uniqueness of digital data, and request 
+processing are already validated/established (TR6 -9). Since these have not 
+been integrated and validated with the DIY4U/KMC platform and related 
+components, relevant adaptations are required, hence it appropriate to 
+consider that DIY4U DLT/blockchain platform will start at TRL4 and reach 
+TRL6 at the end of the project. DIY4U will develop API integration to ERPs, 
+standard data formats for production requests and interactions with 
+‘offchain’ data storage systems, as well as governanc e processes between 
+parties sharing the system. If regulations and banking behaviours change 
+suitably during the DIY4U project, we will also enable a blockchain -based 
+payments layer.  
+Fablab   
+4  6  
+Most of the hardware and electrical components for the the fablab are already 
+at TRL6-9 and CDY has built several commercial and prototype systems for 
+other applications using similar components. DIY4U will be the first 
+miniaturisation and integration into  a fablab prototype machine (using 
+background IP from CODY, STEF, CPI and P&G) followed by its 
+demonstration (i.e. achieve TRL6).  
+Fablab PAT and 
+automation  4  6  
+VTT has developed relevant PAT tools to TRL5-7 (e.g. NIR spectrometers). 
+DIY4U will develop the integration of the PAT tools into the fablab and 
+study different sampling interfaces, as well as data analysis methods to reach 
+TRL 6 for the integrated system at the end of the project.  
+1.3.4 Trans-disciplinary considerations: DIY4U’s collaborative approach will provide all its partners 
+access to the interdisciplinary knowledge required to develop the digital platform and fablab. The project 
+has a transdisciplinary character as it will incorporate software engineering, ICT, mate rial science, 
+physics, chemistry, mechatronics, chemical engineering, process technology, numerical simulations, 
+environmental science, marketing and finance.   
+1.3.5 Other national and international research and innovation activities linked with DIY4U  
+TagItSmart! - A Smart Tags driven service platform for enabling ecosystems of connected objects 
+(https://www.tagitsmart.eu/) (PICOM) – The project includes 3 types of end -users: brands/ 
+manufacturers (Unilever), retailers (Leroy Merlin, Univerexport) and service providers (Dondelotiro). 
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    26  
+  
+PICOM is involved in use case definition, tests follow -up, showroom creation, disseminat ion 
+workshops, exhibitions, standardization and open call management.  
+Commercial projects (PICOM): Delivered several confidential product customization projects with 
+manufacturers and retailers including chocolate 3D printing, color -changing shoes, custom ized 3D 
+printed heels. Synchronicity (Digital Catapult) - H2020 - Converging EU IOT standards and creating 
+a blockchain-based panEU marketplace for IOT data exchange, in pilot stage with 8 cities.  
+Content Personalisation Networks (Digital Catapult) - H2020 - Creating a GDPR-protecting personal 
+news reader app complemented by a blockchain-based pan-EU pool of licensed media content to lower 
+barriers for freelancers to connect with major news agencies and vice versa.  
+DLT Field Labs (Digital Catapult)  - Virtual collaborations across the UK to develop and evaluate 
+blockchainbased systems beyond proof -of-concept stage. Each project involves a number of industry 
+partners combined with DLT -developing SMEs/scale-ups to effect knowledge transfer and publicly 
+demonstrate the value proposition of this technology.  
+EFF has contributed to several architecture and development commercial projects covering adaptive 
+state sharding (Elrond), enterprise blockchain  (Insolar), blockchain drone management  
+(SkyyNetwork), blockchain business connectivity (Maxonrow), digital identity (Helix).  
+IbD -Intensified by Design platform for the intensification of process involving solids handling 
+(IRIS, Analisis -DSC, STEF, VTT): H2020 -IA, SPIRE -08-2015  – Online platform for Process 
+Intensification (PI) of chemical process  so that among others advantages o f batch processes are 
+transformed into continuous moreefficient process.  
+SAM - Self-Adapting Model-based system for Process Autonomy (STEF) - The project is granted 
+under BIAIPN fund program of Research Council of Norway (RCN) with 8 industrial partners.  
+BIA- Effective Powder Handling (STEF) - BIA-KMB-RCN Minimising scale formation and erosion 
+in pneumatic conveying pipeline of bulk powders   
+MFLOW- Non-intrusive mass flow measurement & control system in pneumatic transport 
+(STEF)- FORNY-3-RCN- commercialising of non -intrusive mass flow measurement system for 
+pneumatic conveying of particulate bulk materials.  
+BIO-Powders (STEF) - Marie Curie Research Training Network (Project ID: 512247) EU- FP6  
+AceForm4.0 – Value Chain in Formulation Manufacturing (CPI): H2020 -CSA (Contract No. 
+723045) – Facilitating exchange of non -competitive know-how in formulation technologies between 
+stakeholders operating in key sectors that are dependent on formulation innovations and associated 
+automation and digital tools.  
+ADDoPT – advanced digital design transforming pharmaceutical development and manufacture 
+(CPI):   InnovateUK – Developing and implementing advanced digital design techniques that eliminate 
+nonviable drug candidate formulations, streamlining design, development and manufacturing processes.  
+PROSPECT-CL (CPI):  Innovate UK – National Formulation Centre Strategic project in 
+collaboration with UK industry – Development of complex liquid mixing scale up rig with advanced 
+process analytics and advanced process control.  
+PROSPECT-CP (CPI):  Innovate UK – National Formulation Centre Strategic project in 
+collaboration with UK industry  – Implementation of PAT and Advanced Process Control on Twin 
+Screw Wet Granulator for pharmaceutical and non-pharmaceutical applications  
+PROSPECT-P&F (CPI) Innovate UK – National Formulation Centre Strategic project in 
+collaboration with UK industry – Implementation of flexible rig for studying powder flow and packing  
+ModelsMPP (CPI): Innovate UK – National Formulation Centre Strategic project in collaboration 
+with UK industry – Transferring innovations in particle modelling into industrial practice - 
+Methodology and framework to accelerate innovation in formulation development and manufacture 
+cross-sector   
+Development o f AI/data -mining and web -based applications (Python, R) (RDI): Veolia, EDF, 
+Fareva   
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    27  
+  
+CFA. Advanced Manufacturing Centre for Aeronautics and Naval Sectors  (CTM): Innovative 
+SPANISH – Implementing advanced manufacturing techniques (3D printers, fablabs, robo tics, design 
+and simulation, etc) for Aeronautics and Naval design and manufacturing components.   
+DIH FAT. (CTM) Digital Innovation Hub (DIH) Advanced Manufacturing in Transport Sector. CTM 
+is the coordinator of the Andalusia Regional DIH strategy. This p roject is focused on establishing a 
+platform where manufacturing innovations can be developed by SMEs.  
+SHiELD (STL): H2020-RIA, DS-03-2016 – Research and development of data protection and privacy 
+framework for security toolkit for data exchange systems like OpenNCP  
+OPERANDO (STL): H2020-IA, DS-01-2014 – Data protection and privacy platform to enable users 
+to control the use of their data and to enable the marketing of privacy service provision  
+eWALL (STL): FP7 -RIA, ICT -2013.5.1 – Research on ethics, sec urity and privacy by design in 
+sensing and cloud systems for personalised healthcare services  
+Safe Life Design of a Mixing Vessel for detergent production Persan (Analisis -DSC): Henkel – 
+Safe life design of a mixing vessel for detergent (non-newtonian material) production.  
+Thermal and fluid-dynamics analysis of a tensoactive agent production process (Analisis -DSC):   
+This study evaluates using CFD tools, the behavior of three in-line devices for a tensoactive production 
+process.   
+Optimization of a reactor vessel and a heat exchanger for detergent KAO Corporation (Analisis-
+DSC):  KAO Corp –The project aims to optimize the production of surfactant batch reactor analysis to 
+avoid residual reaction in stirred reactor batch type using fluid dynamics optimizati on (CFD), and 
+making proposals for improving efficiency.  
+ProPat http://pro-pat.eu/ (VTT, IRIS):– Online PAT platform - aims to develop novel and smart 
+sensors and analysers for providing measurements on composition, particle size, local bulk properties 
+and process parameters. The platform also provides self -learning and predictive capabilities aimed for 
+dramatically reducing over costs derived from even slight deviations from the optimum process.  
+CODY Commercial Project:  Inspection and Packaging Line for radiopharmaceuticals. Recipe 
+handling, data logging, electronic signatures and reporting with TITAAN software.  
+CODY Commercial Project:   Product test station for testing high-voltage equipment. Automatic test 
+execution by retrieving test recipes from external database using software developed by Cody 
+(TITAAN). P&G UK led a Chariot UK AMSCI £18Million project, powder processing grant  
+P&G UK was involved in the FP7 Marie Curie ITN project PARDEM & TMAPP, hosting 1 ESR.   
+1.3.6 Sex and/or gender issues:  DIY4U consortium partners recognise and wholly support the EC’s 
+policies/priorities for Promoting Gender Equality in Research and Innovatio n (R&I): women 
+participation in research must be encouraged to close the gender balance gaps in research teams; 
+promoting gender balance in decision -making to achieve 40% of the underrepresented sex in 
+panels/groups and 50% in advisory groups; and integrating gender dimension in R&I  content to improve 
+scientific quality and societal relevance of generated knowledge, technology and/or innovation. The 
+general under -representation of women in FMCG sector R&I makes Gender issues particularly 
+important for this project.  
+All DIY4U participants are equal opportunity employers, with non-discriminatory policies with regards 
+to gender. Some DIY4U participants (e.g. CPI with 26.66%) have higher proportions of female science 
+and engineering staff than the national or regional (EU) industry norm. In accordance with the above 
+EC’s recommendations for Promoting Gender Equality in R&I, we have actively included women in the 
+technical delivery of the project’s WPs and tasks and expect to reach ≥25% of our total expected number 
+of project personnel. All WPs are genderneutral with respect to employability. DIY4U digital platform 
+and fablabs will also be gender-neutral, allowing anyone to become a creator/maker of particulate/liquid 
+FMCG irrespective of their gender.  
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    28

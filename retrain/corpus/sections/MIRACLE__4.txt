@@ -1,0 +1,2429 @@
+4. Consortium ..................................................................................................................................................................... 56 
+5. Ethics and Security ........................................................................................................................................................ 84
+5.1 Ethics ............................................................................................................................................................................. 84 
+5.1.1 Ethical self-assessment for humans ....................................................................................................................... 84 
+780598  MIRACLE   Part B Page 4 of 96 
+5.1.1.1 General aspects .................................................................................................................................................. 84 
+5.1.1.2 EU Directives and International Organization for Standardization (ISO) for Human subjects .......... 85 
+5.1.1.3 Humans subjects ............................................................................................................................................... 86 
+5.1.1.4 Human cells/tissues .......................................................................................................................................... 87 
+5.1.2.1 General aspects .............................................................................................................................................. 88 
+5.1.2.1  Relevant national and EU regulations relating to the use of animals .................................................... 88 
+5.1.2.2 Measures to minimise pain, distress and other suffering ........................................................................ 89 
+5.1.2.3 Measures to minimise the number of animals used in experiments (reduce) ...................................... 89 
+5.1.2.4 Identification of ethical committees and regulatory organisations involved in the animal 
+experiments ..................................................................................................................................................................... 89 
+5.1.3 Ethical Advisors ....................................................................................................................................................... 90 
+5.1.4 Validation in clinical settings overview plan ......................................................................................................... 90 
+5.1.5 Ethics Approval ........................................................................................................................................................ 90 
+5.1.6 Ethics self-assessment: other issues ....................................................................................................................... 90
+5.2 Security: N/A ................................................................................................................................................................... 90 
+Annex I External Expert Advisory Board – Letter of Support ...................................................................................... 91 
+Annex II Response to the Ethical Summary Report ........................................................................................................ 94 
+ 
+  
+780598  MIRACLE   Part B Page 5 of 96 
+Terminology and Abbreviations 
+This page is provided as a reference source, to help the reader in the event those terms or abbreviations are encountered that 
+are unfamiliar, or are used in a specific sense in the document.  
+AgX Silver halide 
+ATR Attenuated Total Reflection 
+CA Consortium Agreement 
+CAGR Compound Annual Growth Rate 
+CT Computed Tomography 
+DFB Distributed Feedback 
+EC QCL External Cavity Quantum Cascade Laser 
+EC European Commission 
+EEAB External Expert Advisory Board 
+EMSC Extended Multiplicative Signal Correction 
+FTIR Fourier Transform Infrared 
+FTIRI Fourier Transform Infrared Imaging 
+FTIR-MS Fourier Transform Infrared Microspectroscopy 
+GA General Assembly 
+GCS Global Control System 
+GCSS Global Control System Software 
+HWG Hollow Waveguides 
+iBEAM on-chip beam combiner 
+ICL interband cascade laser 
+IPR Intellectual Property Rights 
+MIR Mid-infrared 
+MRI Magnetic Resosnance Imaging 
+MSC Multiplicative Signal Correction 
+NIR Near-infrared Spectroscopy 
+OA Osteoarthitis 
+OARSI Histopathological Grade of OA  
+OCT Optical Coherence Tomography 
+OEM Original Equipment Manufacturer 
+PG Proteoglycan 
+PIC Photonic Integrated Circuitry 
+PLM Polarized Light Microscopy 
+PLS Partial Least-Squares 
+PLS-DA Partial Least-Squares Discriminant Analysis 
+PM Person-Month 
+PMP Project Management Plan 
+QCL Quantum Cascade Laser 
+RTD Research and Technology Development 
+SME Small and Medium-size Enterprises 
+SNV Standard Normal Variate 
+TRL Technical Readiness Level  
+U.S. United States 
+YLD Years Lived with Disability 
+  
+780598  MIRACLE   Part B Page 6 of 96 
+1. Excellence
+1.1 Objectives  
+1.1.1 Overall objective 
+MIRACLE will implement  and demonstrate  an innovative and easy -to-operate mid -infrared (MIR) 
+imaging-probe to be used during minimally invasive arthroscopic surgery enabling in-depth diagnosis of 
+articular cartilage. In current clinical practice , the articular cartilage  assessment during arthro scopic surgery is 
+solely based by visual inspection (camera video) and manual probing of the stiffness (Figure 1). Therefore, intra-
+operative decision making how to deal with lesions and which strategy to apply is very difficult due to its 
+subjectivity. The consortium partner University of Oulu has demo nstrated in laboratory the feasibility of 
+MIR-based method for monitoring compositional changes on articular cartilage.  These results are 
+outcome achievements from the ERC Starting Grantee Simo Saarakkala. In addition, the consortium 
+beneficiary art photonics has prototyped a MIR-based probe for future in vivo applications. Based on these 
+demonstrated results (details in section 1.3) , MIRACLE will enable the in vivo accurate evaluation of the 
+biochemical status and composition of articular cartilage, thus assisting the orthopaedic surgeon in more 
+objective decision making during the arthroscopic surgery (Figure 1).   
+ 
+Figure 1. MIRACLE innovation towards diagnosis approach during minimally invasive arthroscopic surgery  
+Early diagnosis of cartilage injuries is essential for the patient future quality of life . Untreated or not -
+correctly treated joint inj ury will most likely progress towards degenerative joint diseases such as osteoarthritis 
+(OA). Early diagnosis will enable the surgeons to prevent the initiation and progression of early OA. Undiagnosed 
+and therefore untreated injuries  will lead to progres sive damage of the cartilage due to the minimal natural 
+regenerative ability of cartilage, which will lead to  joint pain, movement limitation , joint failure,  and 
+ultimately disability and joint replacement. Currently, X-ray, magnetic resonance imaging (MRI) and computed 
+tomography (CT) provide information on the joint health (i.e., cartilage, bone, meniscus, ligaments, tendons, etc.), 
+and may suggest the existence of OA or  other injuries. However, when there are only very early articular 
+cartilage compositional changes, neither of these techniques provides adequate sensitivity. Consequently, 
+the average delay in OA diagnosis is long and has been estimated at 8.9 years1. By enabling accurate evaluation 
+of articular cartilage during arthroscopy, MIRACLE will impact on the intra operative decision making 
+promoting patient well-being i.e. keeping the individual as mobile as possible for longer periods of time.   
+ 
+1 Feldtkeller E et al. (2000), Scientific contributions of ankylosing spondylitis patient advocacy groups. Curr Opin Rheumatol 12: 239-247. 
+
+780598  MIRACLE   Part B Page 7 of 96 
+OA is associated with a  large societal and economic impact, as well as physical and psychological 
+consequences for the affected individual. According to recent report 2, the global impact of OA constitutes a 
+major challenge for the health systems in the twenty-first century, including the coming years. The most recent 
+report of the Global Burden of Diseased figures (GBD 2013) estimated that OA affects 242 million people 
+globally. Furthermore, the numbers of OA years lived with disability (YLD) increased 75% from 1990 to 2013; 
+this number represents the third most rapidly rising condition associated to disability, just behind diabetes (135%) 
+and dementia (84%). These figures include only hip and knee OA, and therefore, the real burden of OA is likely 
+to be considerably higher.3    
+In 2013, the total costs att ributable to arthritis in the U nited States (U.S.) was approximately $128 billion (direct 
+costs $ 80.8 billion and indirect costs $47 billion)2. In Europe, it has been reported that the average total 
+annual costs of OA per patient ranges from €1,330 to €10,452 4. In addition, a European literature review 
+on the topic points out that the indirect costs are comparable with the direct costs. Literature has reported 
+that 50% of the world’s population > 65 years suffer from OA. The EU project EPOSA had provided an in-depth 
+study of the association between OA across Europe and the elderly population5. Their results revealed that OA is 
+highly prevalent in Europe  with an estimated 19.7-42.3% in the elderly population . To some extent, studies 
+have predicted that OA patients are likely to be more disabled by the disease in future. In addition to physical 
+assistance, further physiological factors as self-efficacy and social support will affect the healthcare system6.  
+The facts and numbers described above clearly support efforts taking on the challenge of accurate diagnosis tools 
+for in-depth evaluation of the articular cartilage. The MIRACLE consortium members have promising results 
+pointing at the great potential of a MIR-based system as a diagnostic tool . The University of Oulu has 
+demonstrated in laboratory th at MIR spectra extracted from the superficial layer of articular human 
+cartilage can be used to assess the OA status of the joint, giving proof of the diagnostics approach.  In 
+addition, the published study correlate the MIR spectra with the histopathologic al grading of OA (OARSI 
+grade)7,8,9,10. From the technology aspect, art photonics has developed and demonstrated in laboratory a MIR-
+based probe capable to evaluate the biochemical composition of tissues with potential use for future in 
+vivo diagnostic applications 11.  
+In addition to the consortium beneficiary UOULU, other researchers12,13 have introduced more direct approaches 
+that are applicable during arthroscopy examination including optical coherence tomography (OCT), ultrasound 
+(US) 14 imaging, and near infrared (NIR) spectroscopy Although the capabilities of MIR method as diagnostic tool 
+for cartilage disease have been demonstrated in laboratory by UOULU 7,8,9,10 and also other researchers12,13, 15,16, the 
+transfer from the laboratory bench to clinical use implies several technical challenges involving tailored laser light 
+ 
+2 https://www.oarsi.org/research/oa-serious-disease 
+3 Vos T, et al. (2015) Global, regional, and national incidence, prevalence, and years lived with disability for 301 acute and chronic diseases and injuries 
+in 188 countries, 1990–2013: a systematic analysis for the Global Burden of Disease Study 2013. Lancet 386: 743–800. 
+4 Brown TD (2006) Post-traumatic osteoarthritis: a first estimate of incidence, prevalence, and burden of disease, J Orthop Trauma 20: 739-744. 
+5 Castell MV et al. (2015) Osteoarthritis a nd frailty in elderly individuals across six European countries: results from the European Project on 
+OsteoArthritis (EPOSA), BMC Musculoskelet Disord 16: 359. 
+6 Litwic A et al. (2013) Epidemiology and Burden of Osteoarthritis, Br Med Bull 105: 185–199. 
+7 Oinas J et al.  (2016) Imaging of osteoarthritic human articular cartilage using fourier transform infrared microspectroscopy combined with multivariate 
+and univariate analysis, Scientific Reports 6:30008.  
+8 Saarakkala S et al. (2010) Depth -wise progressi on of osteoaethrisitis in human articular cartilage: investigation of composition, structure and 
+biomechanics. Osteoarthristis and Cartilahe 18, 73-81.  
+9 Rieppo L et al. (2014) Optimal variable selection for Fourier transform infrared spectroscopic analys is of articular cartilage composition. Journal of 
+biomedical Optics, 19, 027003. 
+10 Rieppo L et al. (2013). Prediction of compressive stiffness of articular cartilage using Fourier transform infrared spectroscopy. Journal of Biomechanics, 
+46(7):1269-75. 
+11 Artyushenko V et al., (2015) Spectral fiber sensors for cancer diagnostics in vitro, Proc. SPIE 9537: 953720. 
+12 Hanifi A et al. (2013) Fourier Transform Infrared Imaging and Infrared Fiber Opric Probe Spectroscopy Identify Collagen Type Connective Tissues, 
+PLOS One 8 e64822. 
+13 Afara IO et al. (2015) Optical absorption spectra of human articular cartilage correlate with biomechanical properties, histological score and biochemical 
+composition, Physiol Meas 36: 1913-1928. 
+14 Liukkonen J et al. (2014) Ultrasound Arthroscopy of Human Knee Cartilage and Subchondral Bone in vivo, Ultrasound Med Biol 40: 2039-2047. 
+15 West PA et al. (2004) Fourier transform infrared spectral analysis of degenerative cartilage: an infrared fiber optic probe a nd imaging study, Appl 
+Spectrosc 58: 376-381. 
+16 Bi X et al.(2007) Fourier transform infrared imaging and MR microscopy studies detect compositional and structural changes in  cartilage in a rabbit 
+model of osteoarthritis, Anal Bioanal Chem 387: 1601-1612 
+780598  MIRACLE   Part B Page 8 of 96 
+sources, beam combiners, waveguides  (for spatial resolution) , and integration of each optical component. The 
+MIRACLE project will be the first to overcome the se technical challenges , hence  achieving a major 
+breakthrough and bringing a MIR attenuated total reflection (ATR)  arthroscopic probe to the market.  
+The current technical challenges will be addressed by MIRACLE as follow:  
+Tailored laser light source:  
+The success of the MIR-based diagno stic approach will require  a tuneable device featuring a very specific 
+wavelengths spectral window which is not available in the market. MIRACLE will modify the current 
+quantum cascade lasers (QCL) light source enabling broad wavelength coverage tailored to articular 
+cartilage analysis. This innovative QCL -based light source will also open new possibilities for other 
+medical applications with similar wavelength coverage (e.g. cancer diagnostics).  
+ Beam combiners:  
+The QCL-based light source will comprise in an array of individual QCL elements which will be co nnected to 
+the waveguide.  Since the QCL-based light source is an outcome innovation by MIRACLE, it will require specific 
+component to construct the optical interface between the light source and waveguide. MIRACLE will develop 
+an on -chip beam combiner (iBEAM) to  ensure the system integration and performance . To our 
+knowledge, this concept has not been realized yet and represents therefore an addi tional MIRACLE 
+innovation in the field of photonics to be placed in the market.  
+Waveguides (aiming spatial resolution):  
+One ambition goal in MIRACLE is to enable the probe to acquire spatially resolved MIR spectra allowing for 
+mapping (i.e. imaging) of the area under investigation. This will be achieved by integrating the commercially 
+available silver halide (AgX) bundle (manufactured by the consortium beneficiary AP) to the iBEAM, 
+line array detector and ATR diamond probe.  
+System integration into medical equipment:   
+In order to achieve the final device, all the above components to be integrated within an efficient optical interface 
+for data collection. Considering the clinical application, the final probe needs to be designed with adiammeter of 
+5mm. MIRACLE will integrate the above mentioned components in existing formats for arthroscopic 
+tools, aiming at the reduction of manufacturing costs and equipment efficacy. Furthermore, the MIR 
+arthroscope probe will be designed and developed according to quality control for clinical and medical 
+certification ISO-13482.      
+Multivariate modelling 
+Due to the innovation of the QCL-based light source with specific wavelength range, the spectral data processing 
+need to be optimized according to the current state-of-the-art. MIRACLE will adapt the current algorithms 
+creating multivariate models for articular cartilage diagnosis. Th is work will be integrated into a 
+software interface providing to the surgeons with automated analysis, evaluation and classification of 
+the collected information and hence facilitating the device commercialization after project completion.  
+The MIR -ATR based probe prototype developed in MIRACLE will be validated and d emonstrated 
+during arthroscopic surgery  by highly competent human and equine orthopaedic surgeons, thereby 
+paving the way for market entry. By bringing this diagnostic tool to the market, MIRACLE will not only 
+impact on surgeons ’ routines and patients’ lives , but also place Europe at the forefront of photonic 
+technologies and medical equipment industry. 
+Within the area of biophotonics, MIRACLE presents a highly interdisciplinary and  outcome oriented 
+project, with a particularly strong and cross -disciplinary consortium , comprising a unique balance of partners 
+between leading academic institutions, surgeons, and companies. Our engineers and scientists will work closely 
+with orthopaedic surgeons, who will carry out the clinical studies and who will provide constant feedback on the 
+system design. Industrial partners  representing expertise in QCL, MIR, waveguides, ATR probes, software 
+development, system integration and prototyping integrate the consortium, focusing the expected outcomes in the 
+end-user market.   
+780598  MIRACLE   Part B Page 9 of 96 
+1.1.2 Specific objectives and related key success criteria  
+The main objective in MIRACLE is to realize and demonstrate in clinical settings an innovative MIR -ATR based 
+device for quantitative evaluation of articular cartilage during arthroscopy. This major goal is supported by the 
+specific objectives that will be tracked via specific key success criteria as described in Table 1. 
+Table 1. MIRACLE project objectives and key success criteria 
+Specific Objectives Objective description Key success criteria 
+Start of the 
+project 
+Mid-project End of project 
+To integrate 
+innovative QCL 
+sources with an on-
+chip beam combiner 
+(iBEAM) to enable 
+broad wavelength 
+coverage in the 
+1800-1000 cm-1 
+range. 
+Quantum cascade lasers (QCL)  have 
+emerged as important light sources for 
+miniaturized IR analyzers and sensing 
+devices. However, beam combiners have 
+not been integrated yet as a commercial 
+component. NP bring their strong 
+expertise in QCL based devices to 
+implement a QCL based MIR light 
+source for OA-relevant spectra coverage. 
+UULM has demonstrated the use of on-
+chip waveguides technology for several 
+applications17,18,19. The goal here is to 
+integrate the QCL source with an on -
+chip beam combiner (iBEAM) to ensure 
+the wavelength coverage for OA 
+diagnosis.  
+QCL based MIR light source coverage 
+Multi-color 
+QCLs and 
+QCL arrays 
+demonstrated 
+by NP. 
+ 
+Limited 
+wavelength 
+coverage 
+Full wavelength 
+coverage 
+On-chip beam combiner (iBEAM) 
+On-chip thin-
+film 
+GaAs/AlGaAs 
+waveguide 
+technology 
+demonstrated 
+by UULM. 
+ 
+iBEAM 
+modelled, 
+designed, and 
+prototyped 
+iBEAM coupling 
+to QCL light 
+source assembly 
+and arthroscope 
+input waveguide 
+To miniaturize the 
+MIR-ATR probe 
+with tailorable 
+surface for selective 
+recognition.  
+One important aspect of diagnostic 
+device is the miniaturization of the 
+components to meet the surgeon’s needs. 
+Here the main goal is to miniaturize the 
+MIR-ATR probe to reach the probe 
+diameter requested by the surgeons 
+enabling clinical use of the technology.  
+MIR-ATR arthroscope probe diameter 
+6-7 mm 
+demonstrated 
+by consortium 
+beneficiaries 
+AP and 
+UULM. 
+  
+5 mm 5 mm 
+To establish 
+multivariate 
+discriminant models 
+to distinguish 
+between healthy and 
+unhealthy tissue 
+conditions 
+Focusing on the clinical needs, it is 
+important to provide an automated 
+analysis, evaluation and classification of 
+the collected information. The NMBU 
+group has developed multivariate 
+discriminant models for correcting 
+spectra of highly scattering samples such 
+as cells and tissues 20,21. Some of these 
+models ha ve been already validated by 
+UOULU via experimental data fr om 
+human tissue 7,8. The NMBU group will 
+develop and refine the models by using 
+Multivariate discriminate model for MIR-ATR 
+spectral OA data 
+N/A Model for 
+broadband 
+MIR-ATR data 
+(FTIR) 
+ 
+Model for MIR-
+ATR data via 
+QCL light source 
+ 
+ 
+ 
+ 
+ 
+ 
+17 Haas J et al. (2017) Next-Generation Mid-Infrared Chemical and Biological Sensors: Combining Quantum Cascade Lasers with Thin-Film and Hollow 
+Waveguides, Spectroscopy 32, 22-30. 
+18Sieger M and Mizaikoff B (2016) Toward On-Chip Mid-Infrared Sensors, Analytical Chemistry 88, 5562-5573. 
+19 Ribessi RL et al. (2016) iHEART: a miniaturezed near infrared in-line gas sensor using heart-shaped substrate-integrated hollow waveguides, Analyst, 
+141, 5298-5303.  
+20 Kohler A et al. (2009) Reducing Inter -replicate Variation in Fourier Transform Infrared Spectroscopy by E xtended Multiplicative Signal Correction, 
+Appl Spectrosc 63: 296-305. 
+21 Bassan P et al. (2010) The RMieS -EMSC correction algorithm for infrared spectra of biological cells: Extension using full Mie scattering theory and 
+speed optimization using graphics processing unit (GPU) computing, Biophotonics J 3: 609-620.  
+ 
+780598  MIRACLE   Part B Page 10 of 96 
+experimental data from human tissue via 
+the developed MIR -ATR probe. A 
+further aim is to implement a graphical 
+user interface that meets the surgeon’s 
+needs, which will be performed by IRIS. 
+Validation of the multivariate discriminant 
+models 
+Demonstrated 
+for cells and 
+tissues by 
+NMBU, 
+UUOULU and 
+UULM. 
+Demonstrated 
+for in vitro 
+human articular 
+cartilage with 
+different 
+OARSI grades 
+Demonstrated 
+for ex vivo 
+(cadavers) an in 
+vivo (patients) 
+To prototype the 
+first MIR-ATR 
+arthroscopy probe 
+for articular cartilage 
+evaluation  
+This objective focuses on the 
+development of appropriate 
+microcontroller-based electronics and 
+software to drive multi-color-QCL light 
+source, signal detection with maximized 
+signal-to-noise ratio, and system 
+stabilization via control loops. OP will 
+integrate all the components to the 
+prototype system. The main goal here is 
+to prototype an easy-to-use system for 
+clinical needs.  
+Prototype of the MIR-ATR based arthroscopic 
+system 
+N/A N/A Surgeon 
+friendliness of 
+solution 
+demonstrated in 
+clinical settings. 
+To validate and 
+demonstrate the 
+MIR-ATR 
+arthroscopy system 
+for OA diagnosis in 
+clinical settings. 
+To promote the translation from 
+demonstrated-prototype to clinical trials, 
+MIRACLE will validate and demonstrate 
+the system by competent surgeons (UU, 
+KUH, UEF) in different phases of the 
+project.  
+ 
+Validation and demonstration of the MIR -ATR 
+based arthroscopic prototype 
+N/A N/A in vivo (patients) 
+during 
+arthroscopy– real 
+clinical 
+environment 
+To create conditions 
+for a receptive 
+market to the novel 
+diagnostic system. 
+ 
+Novel diagnostic approaches usually 
+suffer some resistance from the medical 
+community. MIRACLE will ensure that 
+knowledge about the MIR arthroscopy 
+probe is well disseminated during the 
+project among the orthopaedic surgeons. 
+Technology transfer to market 
+N/A Feedback from 
+the surgeons 
+during different 
+project phases. 
+TRL6-7 reached. 
+The device is 
+introduced to 
+end-users with 
+positive 
+responses. 
+To reinforce the 
+Europe’s leadership 
+in biophotonics 
+In addition to the final device, 
+MIRACLE outcom es will bring to the 
+market three new photonics components 
+which could be explored for other 
+medical diagnostic devices.  
+ 
+Exploitation of photonic components to other 
+applications 
+N/A Assessment of 
+the developed 
+technology for 
+other 
+applications. 
+TRL6-7 reached. 
+Product available 
+for the 
+development of 
+other medical 
+devices.
+1.2 Relation to the work programme  
+The project addresses topic ICT -30-2017 Photonics KET 2017: ii. Application driven core photonic devices 
+integrated in systems, 1. Biophotonics: imaging systems for in -depth disease diagnosis. Table 2 outlines how 
+MIRACLE fits to the specific topic challenge and scope, and to other relevant parts of the ‘Towards 2020: 
+Photonics Driving Economic Growth in Europe – Multiannual Strategic Roadmap 2014-2020’. 
+Table 2. Contribution of MIRACLE to the ICT-30-2017 Photonics KET 2017: ii. Application driven core photonic devices integrated in 
+systems, 1. Biophotonics: imaging systems for in-depth disease diagnosis. 
+Challenges Contribution of MIRACLE 
+Investments in R&D&I are 
+essential for reinforcing 
+Europe's industrial 
+competitiveness and leadership 
+in photonic market sectors 
+MIRACLE will develop and place in the market three novel photonics components and 
+one medical equipment for diagnosi s: (i) Integrated QCL-based MIR source for broad 
+wavelength coverage, (ii) iBEAM, (iii) MIR-ATR arthroscope probe for imaging and, (iv) 
+MIR arthroscope probe integrated system. The  developed components by MIRACLE  
+will open new market opportunities as suppl ier to other potential applications . 
+780598  MIRACLE   Part B Page 11 of 96 
+where Europe is strong (e.g. in 
+communications, medical 
+photonics, sensing) and to seize 
+new opportunities. Europe also 
+needs to strengthen its 
+manufacturing base in 
+photonics to safeguard the 
+further potential for innovation 
+and value creation and for job 
+creation. 
+MIRACLE will design the components and device focusing on compactness, 
+robustness, and competitive costs. The consortium beneficiaries NP and AP are leading 
+manufacturer of QCL and AgX bundles/MIR -ATR probes technology,  respectively. 
+The iBEAM is a novel concept based on a commercially available waveguide and it will 
+be implemented by UULM and manufactured in the future by NP. The integrated system 
+prototype will be realized by the consortium beneficiary OP. Each of the four SMEs will 
+manufacture and deliver the components for future commercialization. The MIRACLE 
+consortium then intends to license the final system. Considering the large potential 
+market and its characteristics not only geographically but also by sector ( e.g. 
+veterinarian), the consortium opted to not include a commercialization partner at the 
+proposal stage for negotiating the most profitable and beneficial agreement for all 
+partners involved. To support this, the consortium includes four market -experienced 
+SMEs and highly reputed experts with experience in global medical equipment 
+manufacturing in the Advisory Board, who will ensure the project is driven towards 
+commercialization. Hence, MIRACLE outcome is decidedly market oriented meeting 
+the challenges stated in this call. 
+We must better exploit the large 
+enabling potential of photonics 
+in many industrial sectors and in 
+solutions addressing major 
+societal challenges such as 
+health and well-being, energy 
+efficiency or safety. 
+The developed individual photonics components by MIRACLE can be also used in 
+other industrial sectors (e.g. in -water sensing), apart from being of great use to the 
+medical industry. In addition to the wide exploitation possibilities of the individual 
+components, the proposed diagnostic device focuses on a major societal and economic 
+burden. By using the novel diagnostic approach from MIRACLE, orthopeadic surgeons 
+will be able to diagnose OA much earlier and to making better intra-operative decisions. 
+This will impact on the patient’s quality of life by preventing OA progression which 
+means less risk of chronic pain and eventual disability.   
+Europe needs to better exploit 
+the innovation capacity of the 
+photonics SMEs and the 
+innovation leverage potential of 
+the innovation clusters and 
+national platforms. 
+MIRACLE combines academic experts and SMEs, thereby bringing the academic 
+knowledge closer to the market. MIRACLE has two SMEs in the field of optics and 
+photonics (NP and AP). In addition, MIRACLE has an SM E (OP) specialized in the 
+assembly and packaging of infrared laser components and electronics joining efforts with 
+researchers with expertise in MIR technology . Finally, the consortium brings in 
+orthopaedic surgeons (end -users) to adapt the system to their  needs. Our highly 
+competitive consortium not only bridges the multidisciplinary gap in photonics, but links 
+researchers, photonics SMEs and biomedical SMEs for accelerating the knowledge 
+transfer from academia via innovative products into the market. Furt hermore, INEB, 
+UCP and PF (photonics cluster) provides expertise on technology transfer to smoothen 
+the transition to the medical industry market. 
+Scope Contribution of MIRACLE 
+Actions should address validation 
+and demonstration of photonic 
+based systems for the target 
+applications. Actions should also 
+include standardisation activities. 
+They should demonstrate strong 
+industrial commitment, be driven 
+by user needs and concrete 
+business cases supported by 
+strong exploitation strategies, and 
+cover the whole value/supply 
+chain and the end-user. 
+The MIR-ATR based arthroscopy system proposed in MIRACLE will be validated and 
+demonstrated for OA diagnosis via  human tissue (in vitro, UOULU), equines (ex vivo 
+and in vivo, UU) and human subjects (ex vivo/cadavers, UEF and patients who will go 
+through arthroscopy surgery, KUH). UNE joined the consortium to carry out specific 
+standardisation activities to contribute to the market acceptance of the result s of the 
+project by identifying standards relevant for the different WPs, contributing to the 
+dissemination of the project within the standardization system and promoting the 
+integration of the results in future standardization works. Industrial partners f orm a 
+majority in the consortium. NP and AP will act as photonic components suppliers. IRIS 
+will exploit the software development while OP will exploit the integrated system. 
+Details of the business case, exploitation strategies and value chain are describ ed in the 
+Section 2.    
+The objective is the 
+demonstration and validation in 
+real-settings of innovative, easy 
+to operate, compact, and non- 
+or minimally invasive imaging 
+systems to support diagnosis of 
+age and life-style related 
+diseases. The imaging system 
+The consortium beneficiary UOULU has demonstrated in laboratory the feasibility of 
+MIR method as diagnostic approach for articular cartilage degenerative diseases7,8,9,10. In 
+addition, the consortium beneficiary AP has prototyped a MIR -ATR probe and 
+demonstrated in laboratory its capabilities to distinguish healthy from cancerous tissue11. 
+These results clearly indicates the validity of the proposed diagnostic approach which is 
+label-free. The challenge of MIR -based diagnostic system technology is to provide 
+spectral mapping/imaging in vivo. MIRACLE will address this issue by implementing a 
+silver halide fiber bundle to produce spatially distributed chemical survey information 
+780598  MIRACLE   Part B Page 12 of 96 
+should either be label-free or be 
+based on already/rapidly safety-
+approved labels. The feasibility 
+and validity of the diagnostics 
+approach should already have 
+been demonstrated and it 
+should potentially have a 
+significant advantage with 
+respect to current diagnostic 
+approaches. 
+i.e. an imaging-map of the local area. In addition, the proposed approach is to be used 
+during arthroscopy surgery which is a minimally invasive procedure. By bringing the first 
+MIR arthroscope probe to the market, MIRACLE will enable surgeons to make 
+decisions based on real -time quantitative information changing the current evaluation 
+method which is based on visual inspection and manual probing (Figure 1).  The device 
+will be designed together with the orthopaedic surgeons to address all their wishes and 
+demands related to probe size and operability. The imaging probe prototype will be 
+demonstrated during real arthroscopy surgery in horses and humans. Finally, MIRACLE 
+brings an innovative solution to diagnosis early OA which is well known as an aging and 
+life style related disease.  
+The action should further 
+develop, improve and assess the 
+imaging system under a 
+sufficient range of realistic 
+conditions and disease profiles. 
+The evaluation of its usability 
+and applicability and its 
+validation in clinical settings 
+should be included. 
+The validation of the diagnostic approach will be performed via a large study using in 
+vitro human tissue samples and multivariate discriminate model analysis. Or thopeadic 
+surgeons are involved in the consortium to ensure that the real -life clinical needs are 
+addressed properly. The MIRACLE diagnostic system will be evaluated in horses (in 
+vivo) and ex vivo in human cadavers. In addition, by the end of the project the MIR-
+ATR based arthroscopic system will be demonstrated during arthroscopic surgery in a 
+real clinical settings in equine and human subjects.   
+Actions should be driven by 
+medical equipment 
+manufacturers that are capable 
+of and committed to the 
+commercialisation of the 
+solutions and include teams of 
+physicians/clinicians to take 
+part in the development and the 
+functional and quantitative 
+validation. Clinical trials are not 
+covered by these actions and 
+will normally take place after 
+these actions. 
+Within the beneficiary consortium, AP is currently applying for certification under ISO 
+13485, which is expected to be granted early in 2018. This will enable AP to manufacture 
+medical probes and spectral sensors with CE -mark from 2018 onwards expanding their 
+market share towards medical equipment manufacturing. AP will commercialize the MIR -
+ATR arthroscope probe. For the integrated system, the MIRACLE consortium has identified 
+a sizeable market for commercialization, which includes several end -users (e.g. hospitals, 
+private orthopaedic clinics, veterinarian hospitals/clinics). The MIRACLE consortium is 
+committed to license the final medical device by evaluating the most profitable and beneficial 
+agreement for all partners involved in the course of this project. Our team includes surgeons 
+from two partners (UU and KUH), in addition to the external advisory board. This will 
+ensure the design of a medical device that meets the clinical demands. In addition, the 
+validation and demonstration is led and performe d by orthopaedic surgeons (TRL7). The 
+demonstration includes testing and validating the MIR arthroscopy system prototype during 
+real surgery on equine and human subjects. The demonstration will be performed by 
+orthopaedic surgeons from the consortium (UU a nd KUH). Since clinical trials are not 
+included, the MIRACLE consortium agreed that 8 equine cases and two human patient cases 
+should be enough for validation the functionality of the system and for showing its 
+capabilities to fulfil the application objectives. The necessary ethical approvals will not be a 
+problem since both consortium beneficiaries, UU and KUH, have obtained this kind of 
+approvals before. These demonstrations will facilitate the transition to next step, which is 
+going to market.
+1.3 Concept and methodology 
+1.3.1 Overall concept  
+An easy-to-use, label free and quantitative means to examine articular cartilage biochemical composition during 
+arthroscopy surgery would be of high value to assist orthopaedic surgeons in diagnosing OA facilitating the intra-
+operative decision-making and improving the patients prospect (Figure 1). The MIRACLE concept is to access 
+the biochemical tissue changes by multivariate modelling of the MIR spectra using regions covering the 
+collagen and proteoglycan (PG) signature bands. Collagen and PGs each have signature bands in MIR-spectra 
+centered at 1338 cm-1 (CH2 wagging vibration of proline side chains) and 1072 cm-1 (C-O vibration of sugar groups), 
+respectively (Figure 2A). Either the degradation of the collagen network or a loss of PGs in the articular cartilage 
+would signal the onset of functional degeneration of the tissue leading to OA. The consortium beneficiary  
+UOULU has been demonstrating in laboratory the relation ship between MIR spectra/imaging and OA  
+(Figure 2B). This work is related to an ongoing ERC Starting Grant (Prof. Simo Saarakkala, MIPT, 2013).  In 
+addition, MIR spectra of superficial layer of articular cartilage, measured from histological sections using 
+MIR based microscopy  coupled with multivariate modelling and spectral preprocessing developed by 
+NMBU21 , reveal that MIR spectra depend strongly on histological grading of OA (OARSI grade)7 - Figure 
+780598  MIRACLE   Part B Page 13 of 96 
+3. These results corroborate with work by other recognized scientist in the field12,15,16. From the technology point 
+of view, the consortium beneficiary AP has successfully prototyped MIR - and NIR - probes and 
+demonstrated in laboratory the potential application for diagnostic of tumors11 - Figure 4.  
+The combination of research outcome at UOULU and AP has demonstrated the feasibility of MIR-based 
+technology for tissue evaluation, and the validity of the diagnostic approach proposed in the MIRACLE 
+project.  
+ 
+Figure 3. (A) Partial Least-Squares (PLS) regression combined with a feature selection algorithm to find the most relevant variables of the 
+spectra (marked with black circles) were applied to second derivative MIR spectra for this purpose . The average spectra of different OA 
+groups (based on OARSI grade) are displayed with different colors. (B) Multivariate regression (PLS regression combined with a feature 
+selection algorithm) of MIR spectra revealed a strong correlation with the histolog ical OA grade. (C) Histology (Safranin -O stained), 
+cluster (i.e. multivariate analysis method) and polarized light microscopy (PLM) images from three representative samples: ea rly OA 
+(OARDI grade 1.5), intermediate OA (OARSI grade 3.5) and severe OA (OARSI grade 4.5)7. The corresponding cluster images from the 
+carbohydrate region are extracted from the combined hyperspectral data. Black pixels in the cluster image are due to the removal of poor 
+quality spectra. 
+Figure 4. (A) Schematic of the compact and easy -
+to-use MIR-based arthroscopy system to be 
+prototyped by MIRACLE. (B) Current MIR-ATR 
+probe (3mm of diameter) demonstrated for 
+diagnosis of tumors.   
+ 
+ 
+ 
+ 
+ 
+The MIRACLE concept relies on four essential stages: (i) the further development of MIR-ATR diagnostic system 
+components. (ii) Validation via in vitro and ex -vivo testing will be performed providing essential feedback for 
+technological and design improvements guiding development of the sys tem prototype, and providing data for 
+advanced multivariate data evaluation and classification routines. (iii) Prototype development and demonstration 
+in clinical settings during in vivo studies executed by orthopaedic surgeons. (iv) Exploitation and standardization 
+activities focusing on the commercialization of the final device.  The first stage will focus on the development the 
+Figure 2. (A) Representative MIR 
+spectrum of articular cartilage. (B) 
+Parametric images of amide I and 
+carbohydrate region absorption of three 
+representative sam ples (health tissue, 
+early OA and advanced OA) measured 
+with MIR microscopy8. Spatial collagen 
+and PG contents of the samples were 
+estimated as the integrated absorbance 
+of Amide I (1585 -1720cm-1) peak and 
+Carbohydrate region (1140 -985 cm -1), 
+respectively, from the MI R absorption 
+spectrum. 
+
+780598  MIRACLE   Part B Page 14 of 96 
+key photonics components. These components include the QCL based MIR light source for broad wavelength 
+coverage, and the on-chip beam combiner (iBEAM) for efficiently coupling QCL radiation into the probe (WP2). 
+In parallel, the design and implementation of a compact silver halide fiber bundle enabling the collection of spatially 
+resolved MIR spectra will be pursued (WP3). The pre-validation of MIR-ATR arthroscope probe for the evaluation 
+of articular cartilage quality and OA diagnosis will be performed during in vitro studies (WP6, task 6.1). In vitro 
+studies will be performed by using human tissues. In addition to equine models (ex vivo and in vivo), ex -vivo 
+studies along with in vivo clinical requirements will provide feedback from surgeons to the technology team 
+regarding the specifications of the MIR-based diagnostic system required for routine clinical use (WP6). This 
+interaction with the surgeons is extremely important for addressing the end user requirements early on. 
+Furthermore, pre-processing and analysis of data generated during the validation tests are essential for generating, 
+testing, and evolving multivariate data evaluation and classification models and routines (WP4).  
+Last but not least, MIRACLE will design and implement a MIR -ATR imaging system prototype for clinical 
+applications (WP5). This task requires two important developments: (i) design and manufacturing of a  suitable 
+MIR-ATR arthroscope probe for in vivo OA diagnosis, and (ii) development of appropriate microcontroller-based 
+electronics and software. Finally, the MIR -based imaging system prototype will be clinically tested during in vivo 
+arthroscopy procedures (WP6). With respect to joint disease, the equine model is considered a suitable model for 
+translation to the human orthopaedic field. The clinical demonstration during real arthroscopic surgery will be also 
+performed by human orthopaedic surgeons in human patients.  
+ 
+Figure 5. Overall concept for MIRACLE MIR-ATR arthroscope probe imaging system 
+1.3.2 MIRACLE main results and technology readiness levels 
+MIRACLE proposes significant advances in photonics related to QCL-based MIR source focusing on overcoming 
+the drawbacks (e.g., robustness, high price, dimensions, etc.) of existing core technology in the field. These 
+advances will facilitate the first prototyping and commercialization of a MIR-ATR spectroscopic/imaging system 
+for in-depth arthroscopic articular cartilage analysis and imaging, and consequently, open new frontiers in joint 
+injury and OA diagnosis. The technology readiness levels (TRLs) in MIR ACLE are addressed taking in account 
+two different aspects: (i) the individual developed components in the field of photonics ( Table 3) and (ii) the 
+integrated system as compact device (Figure 6).  
+Table 3. MIRACLE individual developed components and their TRLs at the project start and after project completion   
+QCL-based MIR light source for broad wavelength coverage (consortium beneficiary: NP) 
+TRL 4: The general technological principle has already been investigated with regards to a related system (called Interband 
+Cascade Lasers – ICL) in the MIR. The technology would need to be transferred within the project to the QCL based 
+system in the wavelength range of interest to the project based on correspondi ng laser structure and device design in the 
+QCL system. Devices will be based on nanoplus proprietary technology: This includes Trade Secret MIR technology as well 
+as patented MIR technology based on e.g. US20040865036 or EP1766740 (“TUNEABLE UNIPOLAR LASER”). 
+
+780598  MIRACLE   Part B Page 15 of 96 
+TRL 5-6: The technology for the QCL -based MIR light source will be developed further to be suitable for the target 
+application in diagnosis of articular cartilage diseases with the corresponding wavelength coverage.  The proposed novel 
+QCL-based MIR source will provide essential advantages with respect to ruggedness, compactness, speed, and 
+costs compared to tunable external cavity (EC) QCLs systems currently available on the market. 
+ 
+On-chip beam combiner (iBEAM) for efficiently coupling QCL radiation into the MIR-ATR arthroscope probe  
+(consortium beneficiary: UULM) 
+TRL 4: UULM has pioneered, patented (#WO 2007030737), and recently commercialized 22 the fundamental thin -film 
+waveguide technology that will be used as the base substrate for the iBEAM device. The fundamental optical design and 
+concept is established (simulation, modeling), but no devices have actually been microfabricated yet, as the design needs to 
+be adapted to the specifics of the lights source (tunable QCL, QCL array or frequency comb). UULM has published several 
+papers on the waveguide technology 18, 23-29 and also has a U.S. patent on the fundamental waveguide structure (WO 
+2007030737, 2007).  
+TRL 5-6: iBEAM is a key component of the system and an innovative solution for combining radiation emitted 
+by several MIR light sources (i.e., array  or frequency comb) into a single output beam via on -chip integrated 
+photonic circuitry. Microfabrication strategies will be developed ensuring batch production of optimized BEAM devices 
+at a wafer scale including appropriate mask design, photolithography,  and etching procedures. iBEAM devices will be 
+prototyped at the III-V cleanroom facility at UULM including technology transfer protocols for commercial production at 
+e.g., a contract III-V foundry. 
+ 
+MIR-ATR arthroscopy probe for imaging (consortium beneficiary AP) 
+TRL4: Prototype of miniaturized MIR-ATR probe is a successful basis for further ATR probe designing to use for medical 
+in vivo diagnostics. The general optic design is already established by using silver halide polycrystalline fibers to couple light 
+initially from a broadband FTIR-spectrometer. art photonics published several papers on the design and parameters of ATR 
+probes.30-34 Related patents: U.S. Patent No. 7,956,317 Fibre Optic Probe; U.S. Patent No. 6,564,587 B2 Method of 
+producing an optical fiber by gathering material from a molten bat; U.S. Patent Application No. 09/944,825 Optical fiber 
+and method of producing; European Patent Application EP  1184339 A3 Optische Faser und Herstellungsverfahren für 
+eine optische Faser. 
+TRL5-6: An optimized ATR crystal will be designed and manufactured for re-bouncing the IR radiation from several input 
+fibers of imaging bundle into output fibers with maximal accuracy. The fiber optic bundle will be incorporated into the 
+probe structure enabling spectra-imaging. The coupling optics will be developed and manufactured for the optimized 
+input/output in fiber bundle from QCL -based light source and back to the detect or. ATR bundle MIR probe will be 
+developed for commercial production. To reduce barriers for commercialization of system, AP will satisfy all demand of 
+assemblers in accordance with ISO-13482, including sterilization method selected during the following project. 
+ 
+22 www.mgopticalsolutions.com/mira-guide/ 
+23 T. Schaedle et al. (2016), Mid-Infrared Waveguides – A Perspective, Applied Spectroscopy 70; 1625-1638. 
+24 Haas J et al. (2016), Sensing Chlorinated Hydrocarbons via Miniaturized GaAs/AlGaAs Thin -Film Waveguide Flow Cells Coupled to Quantum 
+Cascade Lasers, Analytical Methods 8; 6602-6606. 
+25 Haas J et al. (2016), Advances in  Mid-Infrared Spectroscopy for Chemical Analysis, 9;45-68 
+26 Sieger et al (2016), Optimizing the Design of GaAs/AlGaAs Thin-Film Waveguides for Integrated Mid-Infrared Sensors, Photonics Research 4; 106-110. 
+27 Sieger et al. (2016), A Mid-Infrared Spectroscopy Platform based on GaAs/AlGaAs Thin-film Waveguides and Quantum Cascade Lasers, Analytical 
+Chemistry 88; 2558-2562. 
+28 Sieger et al. (2013), On-Chip Integrated Mid-Infrared GaAs/AlGaAs Mach-Zehnder Interferometer, Analytical Chemistry 85; 3050-3052. 
+29 Wang et al. (2013), Ultra -Sensitive Mid-Infrared Evanescent Field Sensors Combining Thin -Film Strip Waveguides with Quantum Cascade Lasers, 
+Analyst 137; 2322-2327. 
+30 Artyushenko V. et al. (2008), Mid-IR fibre optics spectroscopy in the 3300–600 cm−1 range. Vibrational Spectroscopy, 48; 168-171.  
+31 Artyushenko VG et al., (2007), Mid IR-fiber spectroscopy in the 2-17µm range, Proceedings of SPIE Vol. 6739, 2007 
+32 Artyushenko VG et al. (2014), Mid-infrared Fiber Optics for 1-18µm Range, Optik & Photonik, 4; 35-39 
+33 Khaustova SА  et al. (2009), Assessment of biochemical characteristics of the saliva using FTIR spectroscopy. Bull Exp Biol Med. 148(5):841–4. 
+34 S.Khaustova, et al. (2010) Noninvasive biochemical monitoring of physiological stress by Fourier transform infrared saliva spectroscopy; Analyst, 135; 68-73.  
+780598  MIRACLE   Part B Page 16 of 96 
+ 
+Figure 6. TRLs description prior, at the MIRACLE start, during the project and after project completion  
+1.3.3 Projects preceding MIRACLE 
+The MIRACLE project will leverage results from the national and international research projects described in Table 4. 
+Table 4. List of prior projects linked with MIRACLE 
+Project name, funding programme (period) Relevance for the proposed project [involved 
+partners] 
+Development of 3D Histopathological Grading of 
+Osteoarthritis, European Research Council (ERC) Starting 
+Grant project (2014-2018) 
+Developing new methods for OA diagnosis, [UOULU] 
+Establishment of 3D histopathological grading of 
+osteoarthritis, Academy of Finland Research Fellow project 
+(2013-2018). 
+Developing new methods for OA diagnosis, [UOULU] 
+Novel Infrared Spectroscopic Tools for Mycotoxin 
+Determination in Foodstuffs for Increased Food Safety 
+[MYCOSPEC], FP7 (2013-2016)  
+QLCs and thin -film waveguide technology, [UULM, 
+IRIS] 
+Integrated In -Situ Chemical Mapping Probes [SCHEMA], 
+FP7 (2013 – 2017) 
+mid-infrared optical sensors for water assessment, 
+[UULM] 
+Development of a Non -Invasive Breath Tests for Early 
+Diagnosis of Tropical Diseases [TROPSENSE], H2020 
+(2015 -2019). 
+Mid-Infrared Quantum Cascade Laser spectroscopy for 
+chemical sensing, [UULM] 
+
+780598  MIRACLE   Part B Page 17 of 96 
+Multimodal arthroscopic imaging of cartilage and meniscus 
+injuries and degeneration, Academy of Finland (2013-2017) 
+Development of multimodeal arthroscope probe, [UEF] 
+Smart Arthroscope with Automated Software for 
+Quantitative Diagnostics of Cartilage Injuries and 
+Degeneration, The Research Committee of the Kuopio 
+University Hospital Catchment Area for the State Research 
+Funding, (2014-2018) 
+Development of smart arthroscope probe for quantitative 
+OA diagnosis, [UEF, KUH] 
+Near Infrared Spectroscopy for Arthroscopic Diagnostics of 
+Cartilage and Meniscus Degeneration, The Research 
+Committee of the Kuopio University Hospital Catchment 
+Area for the State Research Funding, (2015-2017) 
+Development of arthroscope probe based on NIR 
+spectroscopy, [UEF] 
+Hyperspectral imaging in biophysics and energy physics, 
+Norwegian Research Council at IMT/UMB, (2012-2016) 
+Multivariate analysis of Biosystems, [NMBU] 
+Photonic sensing of hydrocarbons based on innovative mid 
+infrared lasers [SENSHY], FP7 (2008 – 2011) 
+High quality ICL material for device processing, [NP] 
+Note: the final product has been commercialized 
+since then. NP is only commercial manufacturer 
+worldwide to offer ICL based DFB lasers  
+Quantum Cascade Laser based optical measurement systems 
+for industrial process control [QUIP], German Federal 
+Ministry of Education and Research (2009-2011) 
+Tunable QCL based devices around 14 µm, [NP] 
+Fiber Optic Molecular Sensor [FOMoS], European Regional 
+Development Fund – ERDF (2014-2017) 
+Development of fiber sensor for termination of cancer 
+and non-cancer tissues, [AP] 
+Multimodal Spectroscopic Investigation for inline 
+determination of cell viability [Multispec], Federal Ministry of 
+Education and Research, Germany; Technologie centrum, 
+Germany (2013-2016) 
+Development of Low Cost – High Performance sensors 
+that are capable of multiplexing in reusable and single-use 
+bioreactor systems, [AP] 
+Miniaturized Mir Sensors for Biorefinery process [MEMS -
+BIOPRO], Federal Ministry for Economic Affairs and Energy; 
+ZIM program for SMEs (2014-2016) 
+Developed a diamond -tipped fiber ATR probe for 
+monitoring of anaerobic digestion processes in bio 
+fermenters, [AP] 
+Advanced Photonic Sensor Materials – Development and test 
+of first demonstrators [ APOSEMA], EU M-era.Net (2012-
+2017) 
+Miniaturization of the sensing unit and combination with 
+complementary technologies like fluorescence -based 
+Oxygen detection in one single device, [OP] 
+Optical inline fluid analysis, Development of gas and liquid 
+sensors to measure traces of carbon monoxide and 
+butylacetate [OIFA], German Federal Ministry of Education 
+and Research (2012-2015) 
+Trace detection in gases and liquids, expansion of the 
+know-how to be able to handle (electronically drive) 
+interband and quantum cascade lasers with one platform 
+solution, [OP] 
+Quantum-cascade laser systems for industrial gas sensing and 
+process control [QUINGAP], German Federal Ministry of 
+Education and Research (2006- 2010) 
+Infrared laser based detection of trace gases,  
+laser driver electronics and data aq. Electronics  
+Ultra-high sensitive detection scheme, [OP] 
+1.3.4 Methodology  
+The overall work plan of MIRACLE is based in six technical/clinical WPs and it is schematically shown in Figure 
+7. In the first stage of this project, the consortium will focus on the technological aspects of the MIR-ATR imaging 
+arthroscope probe. For the MIR -ATR arthroscope probe imaging, the infrared c ore team will implement a new 
+generation of MIR components . These will include a QCL-based MIR source  assembly providing broad 
+wavelength coverage, thus addressing the most relevant spectral window for evaluation of the quality of articular 
+cartilage (i.e. , 1000 – 1800 cm -1, where information on collagens and PGs are found (WP2). This particular 
+component will be then coupled to an on-chip beam combiner (iBEAM) for efficiently launching QCL radiation 
+into the MIR -ATR arthroscope probe. The iBEAM itself is a lso an innovative solution developed by 
+MIRACLE project (WP2).  iBEAM is a key component of the system, since to date no on -chip MIR beam 
+combiners tailored for QCLs have been developed for efficiently integrating several QCL elements with 
+spectroscopic se nsing systems. MIRACLE also includes the development of a miniaturized diamond ATR 
+probe coupled with a silver halide fiber bundle to enable in vivo acquisition of spatially resolved MIR spectra 
+(WP3). This will be the first attempt towards MIR in vivo diagnostics via an imaging arthroscope probe. 
+Finally, the MIR-ATR arthroscope probe development will be continuously aligned with the clinical requirements 
+780598  MIRACLE   Part B Page 18 of 96 
+of arthroscopy (WP1), i.e., the arthroscope probe prototype will enable sterilization, thereby increasing the device 
+lifetime and reducing cost associated with currently applied single-use probes.  
+The data generated by the MIR-ATR arthroscope probe validation tests will be subjected to advanced multivariate 
+data analysis routines  (WP4). Focusing on the fi nal application, it is important that orthopaedic surgeons are 
+provided with (i) an easy -to-operate device, and (ii) automated analysis, evaluation, and classification  of the 
+collected information for more precise decision-making based on quantifiable molecular parameters inherent to 
+the collected MIR spectra . MIR-ATR spectral data analysis requires the separation of the relevant chemical 
+signatures from undesired interferences, such as noise and measurement artefacts. MIRACLE will provide models 
+for discriminant analysis and classification of tissue spectra specifically tailored to the spectral information provided 
+by the QCL-based MIR-ATR arthroscope probe. Furthermore, these models will be implemented in the Global 
+Control System (GCS) for data acquisition and analysis with user-friendly interface and clear diagnostic output, 
+thus facilitating the acceptance by the medical community to the new technology (WP4, WP5).  
+Finally, the consortium will integrate all developed components in a sing le compact prototype device  for 
+demonstration in operational environment (i.e., surgery conditions) reaching TRL7  (WP5). The validation of 
+articular cartilage injuries and OA diagnos is will be performed by including in vitro (i.e., human tissues), ex-
+vivo, and in vivo tests (via the well-established equine model in which standardized lesions (repaired and not) in 8 
+ponies will be followed via biomarker analysis, gait analysis and relook  arthroscopy for 6 months before final 
+histological assessment) and comparing the outcomes with th e current gold standard methods (WP6). The final 
+clinical validation will be performed during arthroscopy surgery in real patient (two patients since clinical 
+trials are not included in this call) by highly competent orthopedic surgeons participating in this consortium 
+(WP6). The MIR-ATR data generated during in vitro studies will be compared with traditional methods for OA 
+diagnosis (e.g., histological stainin g). For the validation in clinical testing, knee injury is chosen as study case due 
+to the knee is a joint with a high level of clinical importance in human OA. In the first instance, the clinically 
+assessment will be performed by equine orthopaedic surgeo ns in a pony model before and after cartilage repair 
+surgery. Immediate feedback from orthopaedic surgeons will consistently guide the technological development 
+towards an easy-to-operate system ready for entering into the commercialization phase at the end of this project. 
+During the entire project, the consortium will keep a continuous interaction between the technical/scientific teams 
+and the orthopaedic surgeon to ensure that the medical device is implemented according to the cl inical needs. 
+During the first and second year, the project will focus on the technical challenges of the photonic components 
+and the data collection to develop the multivariate discriminative models. Orthopaedic surgeons will be involved 
+early on by defining system specifications  and clinical requirements. In the third year, MIRACLE will focus on 
+prototyping the MIR-ATR arthroscope probe system and intermediate demonstrations on animal model and ex 
+vivo (cadavers). The final six months will be used to demonstrate the system during a real-time arthroscopy surgery. 
+In parallel, a concreate business plan will be defined preparing the final device for commercialization. To successful 
+accomplish these goals, MIRACLE implementation is planned to occur in 3.5 years: 2 years for technical 
+development and implementation, 1 year for final prototyping and intermediate demonstrations and 6 months for 
+demonstration during real arthroscopy.  
+Finally, MIRACLE technical developments and demonstration in clinical settings will be accompanied by targeted 
+dissemination and exploitation activities for preparing a sustainable follow-up of the project results, to spread the 
+novel in-depth diagnosis option within the medical community and to inform the public on the European RTD 
+approach and breakthrough  (WP7). Furthermore, MIRACLE will develop market analysis, marketing strategies 
+and sales forecast. The MIRACLE Business Plan will focus on arthroscopy and it will also consider other medical 
+sectors which could benefit from such technology.  
+780598  MIRACLE   Part B Page 19 of 96 
+ 
+Figure 7. MIRACLE methodology overview in relation to the project technical and clinical Work Packages  
+1.3.5 Sex and Gender analysis (patients and involved personnel)  
+In many cases of biomedical research, sex is a fundamental variable during development of a product or a system. 
+The Gendered Innovations35 project presents study cases as evidence that lack of sex analysis in the work plan can 
+drive research into wrong pathways. OA is a degenerative joint disease with increasing incidence with age, and 
+women present at higher rates compared to men6. Although sex has to be considered in OA, the consortium does 
+not identify any sex-related issue when developing MIRACLE, as the main emphasis is the technological 
+development of biophotonics -related components and devices to be used during articular cartilage 
+evaluation and OA diagnosis independent of the sex of the patient.  The device should be suitable for 
+arthroscopic deployment after joint injuries and early in-depth OA diagnosis independent of sex aspects.  
+Considering gender aspects, each research partner is committed to the highest standards of ethics and acts 
+according to the national and European regulations (Directive 2006/54/EC). We all declare th at everybody is 
+treated equally and respectfully regardless of nationality, ethnicity, sex and gender, similar to the ongoing good 
+practices in our organizations. When hiring new personnel, the decisions are solely based on scientific/technical 
+ground, i.e. the expertise of the person and her/his suitability for the devoted project tasks serve the only bases of 
+any selections. It is also important to emphasize here, that while the corresponding field of science and technology 
+is mainly dominated by male engineers and scientists, our team includes a number of female key members (see bios 
+in Section 4) such as Dr. Gabriela S. Lorite (UOULU), Dr. Valeria Tafintseva (NMBU), Dr. Caroline Kistner (NP), 
+Dr. Tatiana Sakharova (AP), Dr. Olga Bibikova (AP), Dr. Sofia Esteves (INEB) and MSc.  Cristina Hernán.  
+Finally, norms, stereotypes, special needs, and gender dimension does NOT have any impact on 
+MIRACLE as such; instead, surgeons (i.e., main end users) – male or female - are the ones to define and 
+drive the device design and improve marketability.   
+ 
+35 http://ec.europa.eu/research/swafs/gendered-innovations/index_en.cfm?pg=home 
+
+780598  MIRACLE   Part B Page 20 of 96
+1.4 Ambition 
+The MIRACLE project aims to develop and demonstrate a MIR -based system to provide accurate and 
+quantitative information on the (bio)chemical compos ition of articular cartilage  during arthroscopy , 
+which can be associated with degenerative joint diseases.  Arthroscopy is a minimally invasive surgical 
+procedure leveraged by orthopaedic surgeons to diagnose and treat joint diseases. To conduct an arthroscopic 
+examination, an orthopedic surgeon makes a small incision in the patient's skin through which they ins ert pencil-
+sized instruments. The current global arthroscopy products market includes arthroscopes (i.e. video camera), 
+fixation devices, hand instruments, cannulae, fluid management systems and patient positioning systems. None of 
+these instruments/devices is capable of accurate and quantitative assessment of the joint.  Due to the 
+available instrumentation, the articular cartilage examination during arthroscopy surgery is limited to visual 
+inspection and manual probing (qualitative) as described in Figure 1. This method is qualitative, highly subjective 
+and of poor repeatability. In addition, the orthopaedic surgeons are not able to detect the very early  molecular 
+derangement which precedes severe degeneration of the joint such as OA. By technology development reaching 
+TRL 6 and beyond, MIRACLE will bring to the arthroscope market the first MIR-based probe providing 
+a unique, accurate and quantitative diagnostic tool for the orthopaedic surgeon. MIRACLE device will not 
+replace any of the existing arthroscopic instruments/device, but instead the proposed solution will bring a 
+nonexistent advanced diagnostic tool to the arthroscopy market.  This will have a s trong impact in the 
+intra-operative decision making by the surgeon and, consequently better treatments and quality of life 
+for the patients.  
+From the technical point of view, near infrared (NIR) -probes have been clinically tested by the consortium 
+beneficiaries KUH and UEF partners during in vivo knee arthroscopy for articular cartilage evaluation. However, 
+the NIR probes do not provide sufficient durability, discriminatory power, and/or are not cost effective for OA 
+during arthroscopy. Despite these appro aches towards fiber optic NIR -probes in OA diagnosis 12,13,16,36, no 
+attempts on MIR in vivo diagnostic imaging have been reported to date . One of the primary benefits of 
+the MIR spectral window (3-15 µm) is the substantially more pronounced sensitivity and discriminatory 
+power related to the chemical composition of the examined tissue37,38. Specifically, at wavelengths >10μm—
+also called the ‘fingerprint’ region —individual and combination vibrations of molecular species provide unique 
+absorption patterns for each constituent, which enable direct label -free identification at a molecular 
+level37. The challenge for MIR technology during in vivo studies is pronounced water absorptions prevalent in the 
+3–15μm window. To mitigate this issue, MIR-ATR spectroscopy as a surface-sensitive waveguide-based analytical 
+technique facilitates detecting molecular species via absorption spectroscopy within an exponentially decaying 
+evanescent field generated at the surface of an appropriate ATR element (here, a miniaturized conical diamond 
+ATR probe). Thereby, effects of water during in vivo diagnosis are minimized.   
+In order to realize the MIR arthroscope probe as a diagnostic tool, few innovative key elements in the field of 
+photonics need to be imple mented: (i) QCL-based MIR light source for broad wavelength coverage, (ii) on -chip 
+beam combiner (iBEAM) and (iii) ATR-MIR arthroscope probe for imaging. These key elements will be integrated 
+in a compact and easy -to-use MIR -based system to be used during arthroscopy surgery. MIRACLE will also 
+implement a model for discriminant analysis which will be transferred and integrated into the diagnostic system as 
+an easy -to-use software interface. Apart from the novel diagnostic approach during arthroscopy, MIRACL E 
+achievements will embrace substantial potential for innovation in biophotonics-based medical equipment, opening 
+new possibilities for future commercialisable in vivo, quantitative and minimally invasive tools for diagnosing of 
+tissue-related disease (e.g . cancer). The innovative potential in terms of the proposed new technology concepts 
+(individual technology components and entire system) and the related state -of-the-art are described in the follow 
+sub-sections and schematically summarized in Figure 8.  
+ 
+36 Spahn G et al. (2010) Near-infrared spectroscopy for arthroscopic evaluation of cartilage lesions: results of a blinded, prospective, interobserver study, 
+Am J Sports Med 38: 2516-2521. 
+37 Mizaikoff B (2013) Waveguide-enhanced mid-infrared chem/bio sensors, Chem Soc Rev 42: 8683-8699. 
+38 Wang L et al., Classification of Atherosclerotic Rabbit Aorta Samples with an Infrared Attenuated Total Reflection Catheter a nd Multivariate Data 
+AnalysisAppl. Spectrosc., 60, 1121 (2006).  
+780598  MIRACLE   Part B Page 21 of 96 
+A preliminary parent search  was carried out  on European Patent Office (EPO) and World Intellectual Property 
+Organization (WIPO), using the keywords “laser”, “diagnosis”, “osteoarthritis” an d, “arthroscope”. The analysis 
+of the seach outputs highlighted two patents; CN103932673 describes an arthroscope system based on multi-mode 
+spectrum technology, which makes use of Raman spectroscopy to analyze articular joint tissue. In comparison to 
+MIR-based methods, Raman scattering is always very weak and similar technology as proposed by MIRACLE 
+would require very long scan times. The second patent, CN102657509, describes a diagnosis-treatment integrated 
+confocal arthroscope system. Although video -camera imaging may be improved comparing to conventional 
+arthroscopy, this system does not allow tissue composition analysis. Therefore, this preliminary patent survey 
+sustains the novelty of the proposed MIR probe based imaging/diagnostic system, and ensures freedom to operate 
+within the consortium.  
+ 
+Figure 8. Summary of MIRACLE main innovations 
+1.4.1 QCL-based MIR light source for broad wavelength coverage  
+State-of-the-art 
+In the past two decades, QCLs39,40 and interband cascade lasers (ICLs)41,42 have emerged as important light sources 
+for miniaturized IR analyzers and sensing devices (including QCL - and ICL-based devices by consortium partner 
+NP) providing high output power within narrow spectral bands, small dimensions,  and long lifetime 43,44. Since 
+their experimental proof of principle in 1994, rapid technological development of QCLs has nowadays resulted in 
+a variety of commercially available QCLs in the MIR wavelength range of interest to the MIRACLE consortium. 
+To date, single-mode distributed feedback QCLs (DFB QCLs) dominate the market with inherently very 
+limited tuning range. 
+One possible solution to overcome this limitation  has been proposed by Capasso and co -workers39 
+demonstrating device based on an array of 32 distributed feedback (DFB) QCLs with closely spaced emission 
+wavelengths spanning the gain bandwidth of the QCL material. The array was monolith ically fabricated on the 
+same chip, and individually driven by a micro-controller. EOS Photonics is a U.S.-based SME; among high power 
+ 
+39 Faist J, Capasso F, Sivco DL, Sirtori C, Hutchinson AL and Cho AY (1994) Quantum cascade laser, Science 264: 553-556. 
+40 Faist J et al. (2001) Quantum-cascade lasers based on a bound-to-continuum transition, Appl Phys Lett 78: 147. 
+41 Yang RQ et al. (1997) High power mid-infrared interband cascade lasers based on type-II quantum Wells, Appl Phys Lett 71: 2409. 
+42 Vurgaftman I et al. (2015) Interband cascade lasers, J Phys D Appl Phys 48: 123001. 
+43 Tütüncü E et al. (2016) iHWG-ICL: Methane Sensing with Substrate-Integrated Hollow Waveguides Directly Coupled to Interband Cascade Lasers, ACS Sens., 1; 847–851. 
+44 Gomes da Silva IJ et al. (2016) Sensing Hydrocarbons with Interband Cascade Laser and Substrate-Integrated Hollow Waveguides, Analyst 141; 4432-7. 
+
+780598  MIRACLE   Part B Page 22 of 96 
+QCLs, they are specialized in the production and commercialization of QCL arrays. Currently realized arrays 
+include 32 QC Ls and emit continuously from 8.7 to 9.4 µm, whereas each laser is addressed individually or in 
+parallel. The individual lasers are equipped with micro -lenses, which performs a rough collimation. However, 
+beam combiners have not been integrated yet, and a main limitation is that separate beams emerging from the 
+individual lasers of the array are not combined into a single beam, i.e., remain spatially separated. This makes their 
+device not compatible with most current spectroscopic systems, and this will be specifically addressed by 
+the present consortium with an innovative concept for an on-chip beam combiner (iBEAM). 
+Recently, also external cavity QCLs (EC QCLs) with a wide tuning range have become commercially 
+available for laboratory-based operation. In EC QCLs, the laser chip is part of an external cavity whose length 
+can be mechanically tuned. EC QCL technology is currently solely in the hands of U .S. enterprises with strong 
+backing from defense programs. This makes it difficult for European SMEs to inco rporate EC QCLs into their 
+systems, especially custom modifications are requested. Nevertheless, for laboratory use EC QCL systems now 
+start to enter competitively into the market previously dominated by FTIR systems alone. The rapid growth of the 
+U.S. SME ‘Daylight Solutions’ specialized on EC QCLs shows that there is an increasing demand for tunable MIR 
+sources. While these EC QCLs allow covering a spectral window of 200 wavenumbers or more, they are of limited 
+applicability in a majority of industrial ap plications due to their lack in robustness, their rather large size, and 
+exceptionally high cost. In addition, several inherent disadvantages include:  
+- Sequential scanning a spectrum takes time (approx. 1 second) due to mechanical positioning of the internal grating 
+and other components; rapid ‘jumping’ between spectral positions is hardly possible. 
+- Spectral reproducibility is limited due to the mechanics; for precision wavelength determination, an additional 
+device (etalon) may be necessary. 
+- Residual reflectivity of the AR-coated laser chip results in a 10-2 intensity modulation, which may adversely affect 
+spectral measurements. 
+- Depending on the quality of the AR-coating, the intensity drops strongly at the edges of the gain region compared 
+to the maximum. 
+MIRACLE pushing beyond the state-of-the-art 
+The EC QCLs concept as described above entails several important drawbacks especially for the 
+application scenarios investigated within MIRACLE . In contrast, the novel integrated QCL-based MIR 
+sources for broad wavelength coverage implemented wit hin MIRACLE will be the superior technology: 
+compact, reliable (no moving mechanical parts), and significantly lower cost (approximately one fifth of 
+an external cavity based system) with increasing demand once no optical components and related 
+adjustments are needed. Additionally, a higher switching speed between different wavelengths can be 
+achieved.  Figure 9 shows the general design of the MIR-ATR probe for single-point spectra acquisition, which is 
+composed of two silver halide fibers or hollow waveguides for guiding the MIR light emitted by the QCL -based 
+light source assembly into a diamond ATR tip via an iBEAM interface. 
+Figure 9. Schematic view of the MIR-ATR arthroscope 
+probe system comprising QCL -based light sources for 
+broad wavelength coverage in the mid-infrared coupled 
+via iBEAM into an AgX fiber or HWG, which 
+propagates the MIR radiation into the diamond ATR 
+tip. After evanescent field absorption, radiation is 
+collected by a second AgX fiber/HWG and coupled 
+onto an MIR detector. NOTE: The components in this 
+scheme are not to scale! 
+ 
+780598  MIRACLE   Part B Page 23 of 96 
+1.4.2 On-chip beam combiner (iBEAM)  
+State-of-the-art 
+A new generation of semiconductor (GaAs/AlGaAs) thin -film IR waveguides has recently been 
+introduced by the group of Mizaikoff and collaborators at UULM providing a spectral window up to 13 µm, 
+and excellent sensitivity for the detection of minute quantities of analytes (Figure 10). They include different optical 
+configurations such as planar GaAs/Al 0.2Ga0.8As slab waveguides 28,45, and GaAs/Al 0.2Ga0.8As strip/ridge 
+waveguides29. Furthermore, in 2012 the group of Mizaikoff has reported the first on -chip MIR Mach -Zehnder 
+interferometer 46 taking advantage of advanced GaA s/AlGaAs microfabrication techniques. They have also 
+reported HgCdTe waveguide structures47, and sensors based on thin-film diamond waveguides48. UULM has also 
+pioneered, patented (#WO 2007030737), and recently commercialized 22 the fundamental thin -film 
+waveguide technology that will be used as the base substrate for the iBEAM device. To date, no on-chip 
+photonic integrated circuitry (PIC) for the MIR (3 -15 µm) spectral regime exists, which is attributed to 
+the lack in single-mode thin-film waveguide technology, as developed by UULM . While the fundamental 
+concept of on -chip PIC for beam combination has been realized and  commercialized at visible wavelengths 49, 
+GaAs/AlGaAs waveguides extending these concepts into the MIR are a key innovation . The experience of the 
+UULM team regarding on-chip waveguide technology will be vital to this project for developing an on -
+chip beam combiner (iBEAM) facilitating a waveguide -integrated QCL based light source with broad 
+wavelength coverage. iBEAM will be a key optical component optically linking MIR laser emission with 
+macroscopic silver halide or hollow waveguides (HWG) waveguides comprised in the arthroscope probe. 
+ 
+ 
+Figure 10. (A) Scheme of an on -chip MIR Mach-Zehnder interferometer based on GaAs/AlGaAs used for analysis of liquid samples 28. 
+(B) Stainless steel based plate with direct access to GaAs/AlGaAs waveguide for analysis of solid samples.   
+MIRACLE pushing beyond the state-of-the-art 
+The second photonics MIRACLE innovati on, which is directly related to the integrated QCL -based MIR 
+source with broad wavelength coverage, is the development of iBEAM – an on-chip beam combiner optically 
+interfacing the individual QCL elements with the silver halide fibers or the hollow waveguides that guide 
+ 
+45 Charlton C et al. (2006) Fabrication and Characterization of Molecular Beam Epitaxy Grown Thin -Film GaAs Waveguides for Mid -Infrared 
+Evanescent Field Chemical Sensing, Anal Chem 78: 4224–4227. 
+46 Sieger M et al. (2013) On-Chip Integrated Mid-Infrared GaAs/AlGaAs Mach–Zehnder Interferometer, Anal Chem 85:  3050–3052. 
+47 Wang X et al. (2013) Mercury–Cadmium–Telluride Waveguides – A Novel Strategy for On-Chip Mid-Infrared Sensors, Anal Chem 85: 10648-10652. 
+48 Wang X et al. (2014) Diamonds Are a Spectroscopist’s Best Friend: Thin-Film Diamond Mid-Infrared Waveguides for Advanced Chemical 
+Sensors/Biosensors, Anal Chem 86: 8136-8141.  
+49 XiO Photonics; http://www.xiophotonics.com/index.php/products 
+
+780598  MIRACLE   Part B Page 24 of 96 
+the MIR radiation to the ATR diamond probe  (Figure 11). iBEAM will take advantage of on -chip waveguide 
+technology recently pioneered at UULM, which is the state -of-the-art in miniaturized MIR sensing. To the best 
+of our knowledge, iBEAM as an on -chip beam combiner for MIR wavelengths as a stand -alone 
+component or tailored for QCL light sources  is a concept that has not been realized  yet and, therefore 
+placing MIRACLE at the forefront of photonic technologies. 
+1.4.3 ATR-MIR arthroscope probe for imaging spectroscopy 
+State-of-the-art 
+MIR optical fibers are defined as waveguides transmitting radiation at wavelengths >2 μm. The fabrication of 
+infrared transmitting waveguides – most commonly fiberoptic structures - is usually enabled via IR -transparent 
+materials which can be divided into three main categories: glass fibers (e.g., chalcogenide glasses 50, heavy metal 
+fluorides51, tellurium halides52), polycrystalline fibers (e.g., polycrystalline silver halides53,54,55), crystalline fibers (e.g., 
+single-crystalline sapphire56,57), and hollow waveguides (HWG) structures 58,59,60, such as hollow silica or sapphire 
+tubes. Silver halide fibers are among the most promising materials for fiberoptic IR sensors providing 
+access to the entire spectral range of interest61. Alternatively, structural tubes made from dielectrics, metals, or 
+metal-coated materials provide hollow waveguide structures that act like an optical fiber with an air core 62, whereby 
+IR radiation is guided by reflection on the inside walls. Conventional HWGs comprise a structural tube (e.g., silica, 
+sapphire, etc.) coated on the inside hollow core wall with a metal (e.g., Ag), and a protective dielectric (e.g., AgI)37. 
+In the arthroscope probe design proposed within MIRACLE, silver halide fiberoptics will be utilized as 
+MIR radiation propagating waveguide to couple light initially from a broadband mini-FTIR, and then 
+from the proposed QCL -based light source assembly to an in vivo attenuated total reflection (ATR) 
+sensing tip (diamond) and back to the detector. 
+Most MIR sensing schemes are based on the fundamental principle of internal reflection spectroscopy or - more 
+specifically - attenuated total reflection (ATR) 63. Concerning ATR waveguides, the excellent optical properties of 
+diamond (i.e., high refractive index, high thermal conductivity, high density, low thermal expansion, low absorption 
+ 
+50 Ho H et al. (2006) Single-mode low-loss chalcogenide glass waveguides for the mid-infrared, Opt Lett 31: 1860–1862. 
+51 Aggarwal D and Lu G  (1991) Fluoride glass fiber optics, Academic Press, San Diego, USA. 
+52 Le Neindre et al. (1998) Tellurium halide optical fibers, J Non-Cryst Solids 242: 99–103. 
+53 Lu R et al.  (2015) Probing the secondary structure of bovine serum albumin during heat -induced denaturation using mid -infrared fiberoptic 
+sensors, Analyst 140: 765-770. 
+54 Schädle T  et al. (2013) Mid-Infrared Planar Silver Halide Waveguides with Integrated Grating Couplers, Appl Spectrosc 67: 1057-1063. 
+55 Lu R et al. (2013) IR-ATR Chemical Sensors Based on Planar Silver Halide Waveguides Coated with an Ethylene/Propylene Copolymer for Detection 
+of Multiple Organic Contaminants in Water, Angew Chem Int Ed 52: 2265-2268. 
+56 Götz R et al. (1998) Application of Sapphire Fibers to an IR Fiber Optic Sensor for the Investigation of Polymers at High Temperature, Appl Spectrosc 
+52: 1248–1252. 
+57 Mizaikoff B et al. (1995) IR fiber optic evanescent field sensors for gas monitoring, Proc SPIE 2508: 253–264. 
+58 Wilk A et al. (2013) Substrate-Integrated Hollow Waveguides: A New Level of Integration in Mid-Infrared Gas Sensing, Anal Chem 85: 11205–11210.  
+59 Petruci JFS et al. (2015) Online Analysis of H2S and SO2 via Advanced Mid-Infrared Gas Sensors, Anal Chem 87:  9605–9611. 
+60 Petruci JFS et al.  (2014) Monitoring of hydrogen sulfide via substrate-integrated hollow waveguide mid-infrared sensors in real-time, Analyst 139: 198-203. 
+61 Sa’ar A, Barkay N, Moser F, Schnitzer I, Levite A and Katzir A (1988) Proc SPIE 843: 98-104. 
+62 Harrington JA (2000) A Review of IR Transmitting, Hollow Waveguides, Fiber Integr Opt 19: 211-217.  
+63 Fahrenfort J (1961) Attenuated total reflection: A new principle for the production of useful infra -red reflection spectra of organic compounds, 
+Spectrochim Acta 17: 698-709.  
+Figure 11. Schematic view of on-chip semiconductor technology 
+based beam combiner (iBEAM) for coupling IR radiation from 
+each QCL element into the silver halide fiber/hollow waveguide. 
+NOTE: The components in this scheme are not to scale! 
+780598  MIRACLE   Part B Page 25 of 96 
+and scattering losses, transparency over a wide spectral window, and biocompatibility) have enabled the 
+development of exceptional waveguide and probe materials. Furthermore, diamond features an extreme hardness 
+and chemical resistance enabling h arsh operating conditions (e.g., during sterilization). Finally, diamond ATR 
+biocompatibility renders diamond the most suitable material for in-vivo MIR sensing applications, such 
+as the proposed MIR -based diagnostic system for in -depth analyzing articular  cartilage biochemical 
+changes.  
+MIRACLE pushing beyond the state-of-the-art 
+To enable acquisition of spatially resolved MIR spectra (i.e. to create an imaging spectra) within the 
+MIR-ATR probe for in vivo clinical use is a major innovation proposed by MIRACLE . For achieving this 
+goal, the consortium beneficiary AP will use silver halide (AgX) fiber bundle coupled to a line detector array (Figure 
+12). Light will be guided to the diamond ATR probe via an internal silver halide fiber, reflected light will be spatially 
+resolved collected by seven fibers surrounding the central one, and propagated onto a line array detector (MCT or 
+pyroelectric). Although it is not possible to assign the different spectra to a specific position within the sample at 
+a micrometer scale, differences between the areas in contact with the circular symmetric probe cone will be resolved 
+in an imaging mode. Advantageously, the proposed probe prototype readily enables sterilization of the entire probe, 
+thereby increasing the lifetime of the device.  
+1.4.4 Data pre-processing and multivariate data analysis  
+State-of-the-art 
+MIR spectra of multi -constituent samples are highly complex due the superposition of the spectral features in 
+biological samples. Considering in vivo diagnosis, spectra complexity increases significantly, and simple 
+single peak or peak ratio evaluation is inadequate for diagnostic applications.  Therefore, it is essential to 
+apply multivariate data analysis techniques assisting data interpretation and classification in spectroscopic 
+biomedical diagnostics.64  
+A prerequisite for multivariate classification of  spectral data is a separation of the corresponding chemical 
+absorbance signals from unwanted interferences due to variations in sample thickness, noise, and scattering effects. 
+Multivariate spectral pre-processing tools are used to suppress interfering signals and enhance chemical absorbance 
+signatures65. Data pre-processing entails several steps: (i) estimation of the baseline; (ii) signal enhancement and 
+noise suppression; and (iii) normalization. For example, the results demonstrated by UOULU (Figure 3) were 
+based on the preprocessing models developed by the NMBU, such as Resonant Mie Scattering 
+Correction (RMieSC) algorithm, and has included all three aforementioned steps7,9,10. 
+ 
+64 Wang L and Mizaikoff B (2008) Application of multivariate data-analysis techniques to biomedical diagnostics based on mid-infrared spectroscopy, 
+Anal Bioanal Chem 391:1641–1654. 
+65 Zimmermann B and Kohler A (2013) Optimizing Savitzky -Golay parameters for i mproving spectral resolution and quantification in infrared 
+spectroscopy, Appl Spectrosc 67: 892-902. 
+Figure 12. Schematic view of the MIR -ATR arthroscope 
+probe system comprising QCL-based light sources for broad 
+wavelength coverage in the mid -infrared coupled via 
+iBEAM into an AgX fiber or HWG, which propagates the 
+MIR radiation into the diamond ATR tip. After evanescent 
+field absorption, radiation is collected by a second AgX 
+fiber/HWG and coupled onto an MIR detector. NOTE: 
+The components in this scheme are not to scale! 
+780598  MIRACLE   Part B Page 26 of 96 
+Data pre-processing is an important aspect in data analysis for establishing stable and reliable calibration 
+models. Spectral fingerprints are multivariate signals with high collinearity between variables. Multivariate 
+methods based on latent variables such as partial least -squares discriminant analysis (PLS -DA) are 
+powerful method s for component identification schemes. PLS -DA is directly interpretative at 
+biochemical level explaining the discrimination betw een different types of tissues via their chemical 
+composition. Sparse PLS-DA methods for variable selection allow clinicians to validate calibration models by the 
+identification of biochemical markers 66. After biological validation, additional and potentia lly even more efficient 
+tools for classification such as artificial neural network (ANN), random forests, and support vector machines will 
+be tested.  Moreover, by using multi -block methods, different data blocks (referring to different measurement 
+methods that were applied at the same sample) can be integrated in one data model. This permits the construction 
+of discrimination models that are built on multiple classifiers.  
+MIRACLE pushing beyond the state-of-the-art 
+Although the consortium has validated the  preprocessing models and multivariate methods for OA diagnostic 7,8 
+there are number of challenges related to development of the QCL-based MIR-ATR probe. The UOULU proof-
+of-concept was  based on FTIR MIR micro -spectroscopy, a methodology that differs substantially from the 
+innovative QCL-based MIR-ATR probe proposed in MIRACLE . The different experimental settings the novel 
+method will result in large differences regarding chemical signal properties, unwanted interfe rents, and general 
+baseline issues. Therefore, the MIR-ATR arthroscope probe will require a new set of data pre -processing 
+and data analysis approaches. The consortium beneficiary NMBU will develop further and refine the 
+current models focusing on the nois e reduction and signal enhancement via optimization of pre -
+processing parameters for ACL-based MIR-ATR data. These new models will be implemented in an easy-
+to-use interface software facilitating the surgeon clinical routine. Furthermore, the developed models can be 
+exploited to future biomedical applications which may use QCL-based MIR systems.  
+1.4.1 Diagnostic methods for degenerative joint diseases  
+State-of-the-art 
+Currently, OA is mainly diagnosed based on communicated symptoms, clinical examination, radiography, MRI, 
+and arthroscopy. Blood tests and synovial fluid analysis may be used to rule out other diseases such as rheumatoid 
+arthritis. However, the current dia gnostic methods are not able to detect the earliest signs of OA . In 
+radiography, several attempts have been made to accurately identify and grade the severity of OA, and it is usually 
+assessed using the Kellgren and Lawrence (K&L) score67. Radiographic diagnosis is based mostly on the narrowing 
+of the joint space during the course of cartilage degradation. The overall grades vary from 0 to 4 in order to 
+determine OA severity. In addition to the radiography, MRI is able to reveal information on structure; ho wever, 
+the resolution of clinical MRI devices limits the diagnostic potential for early OA diagnosis. Finally, arthroscopy is 
+typically used after joint injuries to visually investigate the condition of different articular cartilage, and to conduct 
+repair surgery. Although, arthroscopy shows the major damages in tissues, it does not allow the evaluation of the 
+inner structures or biochemical composition of the tissues.  
+Most likely, patients with joint injuries will develop OA without proper treatment at an  early stage. OA is one of 
+the commonest joint diseases among people aged 65 and older. In addition, the impact of OA is multi-factorial 
+being associated with a range of levels of disability severity from mild to severe . It is a fact that OA will 
+generate an increasingly adverse socioeconomic impact in Europe due to the ageing population latest by 2030. OA 
+manifests first as a molecular derangement (abnormal articular cartilage metabolism) followed by anatomic and/or 
+physiological derangements (e.g. cartila ge degradation). As already stated earlier in this proposal (see sub -section 
+1.3.1), MIR spectroscopy method is capable to direct assessment of the articular cartilage composition. UOULU 
+have investigated the correlation between MIR spectra and the histopa thological grade of OA (OARSI 
+grade) via human articular cartilage samples. Briefly, the OARSI system divides the OA into seven main grades 
+(0-6), where healthy cartilage is graded as 0, and denuded cartilage is graded as 5; the highest grade 6 includes bone 
+ 
+66 Karaman I, Nørskov NP, Yde CC, Skou Hedemann M, Bach Knudsen KE and Kohler A (2015) Sparse multi -block PLSR for biomarker discovery 
+when integrating data from LC-MS and NMR metabolomics,  Metabolomics 11: 367-379. 
+67 Hunsche E, Chancellor JVM and Bruce N (2001) The burden of arthritis and nonsteroidal anti-inflammatory treatment. A European literature review, 
+Pharmacoeconomics 19: 1-15. 
+780598  MIRACLE   Part B Page 27 of 96 
+remodeling. The cluster images were obtained via Fourier transform infrared microspectroscopy (FTIR-MS) in the 
+MIR region (Figure 2, Figure 3 and Figure 13). The spectra is obtained with spatial resolution of 21.6µm. This study 
+hypothesized that the layered structure of articular cartilage could be observed from the cluster analyses images 
+and that the particular cluster will concentrate on a certain OARSI grade (Figure 3).    
+ 
+Figure 13. (A) Cluster images obtained using the carbohydrate region for clustering. The characteristic layered structure of AC can be  
+observed in the cluster images. The OARSI grade is indicated above each sample. (B) Average spectra of each cluster. (C) The second 
+derivative spectra of each cluster. Major differences between the second derivative spectra can be seen around the peak at 10 60 cm−1. 
+The colors of the spectra correspond to the cluster colors.7 
+These in vitro studies performed by UOULU clearly demonstrated that:  
+▪ Structural changes caused by OA can be observed with both the uni- and multivariate analyses of the spectral 
+data; 
+▪ Partial Least-Squares regression analyses provide the laboratory proof -of-concept that OARSI grade can be 
+predicted from MIR spectra; 
+▪ OARSI grade can be predicted more accurately from the superficial layer than the deep layer; 
+▪ A correlation between the collagen integrity and OARSI grade can be establish via MIR spectra analysis.  
+MIRACLE pushing beyond the state-of-the-art 
+The above results provide the laboratory proof -of-concept of the use of MIR-based system for real-time 
+articular cartilage evaluation during arthroscopy. Although a significant number of samples were investigated, 
+a further study with much larger sample size is required, as multivariate methods benefit greatly from a larger 
+sample population. A larger number of samples will allow to establish better corre lation between the current 
+systems used for OA diagnosis (OARSI system) with a potential new method based on MIR spectroscopy. It is 
+important to establish such correlations to facilitate the acceptance of novel diagnostic methods by the medical 
+community. However, it is worth to mention that OARSI grading system does not directly take into account the 
+changes in collagen and PG content in articular cartilage during OA progression. Therefore, in -depth correlation 
+might not be possible and a new grading syst em might be necessary. In MIRACLE work plan a large number 
+of samples and experts on multivariate analysis methods will work side -by-side with orthopaedic 
+surgeons to address the barrier of novel diagnostic methods.  
+From the diagnostic perspective, current methods are mostly limited to structural analysis of articular cartilage and 
+not capable of in -depth articular cartilage evaluation, which could detect early OA. In addition to reveal the 
+chemical composition via th e tissue characteristic spectral properties, MIRACLE device will enable to detect 
+the changes of the chemical composition associated to the molecular derangement which precede the 
+OA and, therefore allowing early diagnosis and better repair strategies. This will generate high impact on 
+therapeutic decision -making during arthroscopy, thus reducing the probability of OA progression resulting in 
+reduced healthcare system costs and promoting well-being of the ageing population.  
+
+780598  MIRACLE   Part B Page 28 of 96 
+2. Impact
+2.1 Expected impacts  
+2.1.1 Overall focus and target outcome 
+The concept behind the MIRACLE project addresses four key aspects, as described in Figure 14. First, MIRACLE 
+efforts are directed to secure and reinforce the industrial leadership in biophotonics by developing new markets 
+for three individual components: (i) innovative waveguide-integrated QCL-based MIR source, (ii) on -chip beam 
+combiner (iBEAM), and (iii) AgX bundle coupled to a line detector for MIR probe imaging. Second, the integrated 
+system will bring closer to market the first ever MIR -based arthroscopy system for OA diagnosis, increasing the 
+European competitiveness of the medical industry related to diagnostic imaging system. Third, the project shall 
+result in a substantial clinical impact towards articular cartilage diagnosis during arthroscopy surgery. Lastly, 
+MIRACLE is conceived to promote more effective treatment of joint degenerative diseases (i.e. OA), improving 
+patient prospects and decreasing the economic and societal burden associated to OA. In line with the expected 
+impacts set for ICT -30-2017, MIRACLE envisages to translate the demonstrated results from UOULU, 
+UULM and AP to the clinics, validating the novel MIR -based arthroscopy system via in vitro, ex vivo and in 
+vivo studies.  
+ 
+Figure 14. MIRACLE key elements for achieving impact 
+2.1.2 Expected impacts set out in the work programme ICT-30-2017 
+Expected Impact 1: Substantially improved and wider deployed in -depth diagnosis, and more effective 
+treatment of age and life-style related diseases 
+Currently, no devices/solutions for quantitative diagnosis of degenerative joint disease exist; therefore, 
+the MIR-based arthroscope proposed in MIRACLE represents a substantial improvement on the current 
+diagnostic tools used during arthroscopy. Screening method such as X-ray and MRI cannot indicate early stages 
+of articular cartilage diseases i.e. when OA is diagnosed by X -ray or MRI, the situation is irreversible. Currently, 
+patients are sen t to arthroscopy surgery with clinical joint pain and, therefore suspected of early stage OA  (this 
+stage is mentioned as osteoarthritis/synovitis complex) . The initi al changes of articular cartilage degeneration 
+consist of ‘leakage’ of proteoglycans (PGs) out of the cartilage without (yet) damage the collage network. The MIR-
+ATR probe proposed by MIRACLE will be capable to measure the PGs and collagen amount in the ar ticular 
+cartilage. This will substantially impact in the current evaluation method which is based on visual 
+inspection and manual probing.  
+According to the Committee on Technological Innovation in Medicine, identifying the changes/impact in numbers 
+relating to new devices in any given period is virtually impossible, and it would be extremely difficult to trace their 
+overall impact even for previous innovations68. Thus, it is not possible to provide exact metrics and concrete targets 
+regarding the impact due to MIRACLE innovative solution. As an estimate, we assume the following scenario: (i) 
+4 million knee arthroscopies are performed per year globally72, (ii) OA treatments costs 1,350-10,400€ per patient, 
+(iii) MIRACLE can reach 5% of the global market in 5 years after the project (i.e. 200,000 knee arthroscopies), and 
+(iv) the new diagnosis approach leads to savings of up to 50% in the direc t treatment costs (estimated by our 
+surgeons). Considering this scenario, MIRACLE would generate 135 to 1,040 million € of savings per year 
+worldwide. The cost savings indirect costs will be significantly higher: even assuming the known proportion of 
+ 
+68 Gelijns AC et al. (1991) The Change Economics of Medical Technology, Committee on Technology Innovation Medicine, National Academic Press.  
+
+780598  MIRACLE   Part B Page 29 of 96 
+1:869, the savings in indirect costs would amount to 1.08 to 8.32 billion € worldwide. In addition to the economic 
+impact, by bringing to market the first quantitative diagnostic tool for early detection of degenerative joint 
+disease to be used during arthroscopic surgery, MIRACLE expects to achieve the follow impacts: 
+i) Improve the intra-operative decisions: by providing accurate, real-time and reliable information, the orthopaedic 
+surgeon will be able to make immediate decisions and actions during surgery. This will impact in better treatments 
+for the patient (i.e. better repair during surgery). Furthermore, this can reduce the need for “re-surgery”, reducing 
+considerably the number of costly surgeries.  
+ii) Promote new repair strategies and rehabilitation programmes : by enabling (bio)chemical composition 
+assessment of the joint, surgeons will understand better the early stages of degenerative joint diseases and be able 
+to develop novel rep air strategies, which could shorte n recovery times and prevent disease progression more 
+efficiently.  
+iii) Improve patient quality of life and dec rease the health system burden:  in addition to being more common on 
+people above 65 years, degenerative joint diseases such as OA have multifactorial consequences, from disability to 
+comorbidity. B y enabling more effective treatment due to the early diagnosis and better repair strategies, 
+MIRACLE expects to reduce the consequences related to OA. In particular, a reduction is expected in the number 
+of visits to healthcare centres after the surgery.  
+Expected Impact 2: Increased market presence in the Diagnostic and Analysis Imaging Systems and 
+increased European competitiveness of the medical equipment industry 
+MIRACLE will enable the consortium beneficiaries to implement cutting-edge solutions that have 
+potential for high success in the global market of lasers (NP), beam combiners (UULM, NP), MIR-based 
+probes (AP), Original Equipment Manufacturer ( OP), I CT (IRIS ) and arthroscopic instruments. The 
+impact in the arthroscopic instruments market will be reflected after the project end via licensing of the new 
+arthroscopy system to global partners for further clinical validation and commercialization (see 2.2.1.5 for details). 
+These solutions will result in a novel diagnostic/analytical imaging system, primarily demonstrated for knee  
+arthroscopy, which  will increase the market presence and competitiveness of the participating SMEs in their 
+respective sectors. In particular, AP will expand its market to the medical equipment sector. The MIRACLE 
+diagnostic concept is based on outcome results from ERC Star ting Grant project (UOULU) in addition to long -
+term research and development investments from the partners NP, UULM and AP. MIRACLE will fill the gap 
+between photonics high tech components and the medical industry by prototyping the MIR-ATR probe for 
+imaging according to the requirements of ISO 13482:2016. Furthermore, MIRACLE will plan the clinical validation 
+and future commercialisation of the first quantitative diagnostic tool to be used during arthroscopic surgery, thus 
+increasing the competitiveness of  the European medical diagnostic and imaging equipment industry. Moreover, 
+the project is expected to generate exploitable Intellectual Property Rights (IPR), and lead to the filing of patents 
+on e.g. the iBEAM as an on -chip beam combiner for mid -infrared wavelengths, or relating to specificities of the 
+MIR analytical system for detection of alteration in joint tissues and related algorithms that will allow OA diagnosis. 
+This IPR will be exploited primarily by the consortium companies and the technology wil l be exploited 
+both within Europe, the U.S. and global markets, thus contributing to increasing European presence in 
+the Diagnostic and Analysis Imaging Systems market and medical equipment industry.  
+2.1.3 Industrial Impact 
+The primary exploitation goal of the MIRACLE outputs will be the future commercialization of products based 
+on the devices and demonstrators validated within the project, as indicated below. The active involvement of four 
+SMEs provides several routes to co mmercial exploitation in the period after the conclusion of the project. In 
+addition to the final MIR -based arthroscopy system for diagnosis of degenerative joint diseases,  MIRACLE will 
+take closer to market at least four new products as described below. I n this respect, the project is very well 
+positioned. Industrial impact will also be generated through standardisation activities, led by the European 
+Standardization body UNE. Standardization activities in MIRACLE are considered as a valuable tool for the 
+exploitation of the project outcomes, by facilitating future replicability and widest use in the global market, and 
+reducing market acceptance risks.  
+ 
+69 Hunter DJ et al.  (2014) The individual and socioeconomic impact of osteoarthritis. Nat Rev Rheumatol. 2014;10(7):437–41.  
+780598  MIRACLE   Part B Page 30 of 96 
+2.1.3.1 MIR-ATR arthroscopy system prototype (OP) 
+The consortium beneficiary OP has many years of experience in developing electronics and software for the 
+implementation of the novel sensing technologies. OP will be mainly responsible for the system’s prototyping 
+and for preparing future commercialization. In addition to impact in terms of industrial leadership, the new 
+technology and the corresponding future original equipment manufacturer (OEM) product will strengthen the 
+activities of OP concerning medical sensing solutions . This research and development area is one of the 
+strategic targets defined by OP’s management to transfer and expand the in -house infrared sensing knowledge, 
+which was so far successfully used for other fields of application e.g. gas sensing. This will lead to a significant 
+expansion of the company in the future. OP expects the project outcomes to lead to an increase in the sales 
+volume in the order of single digit million Euros per year (see Table 10). This estimate is based on the return 
+from sales of the system and the assumption of tens of sold devices per year (in the first years after market entry), 
+with a sales price of approximately 200k Euros per unit sold.  
+2.1.3.2 Integrated QCL-based MIR source for broad wavelength coverage (NP) 
+The consortium beneficiary NP’s particular area of expertise is the production of laser sources , and is 
+currently one of the world leading suppliers of lasers for gas sensing  applications. NP has already acquired 
+significant experience in QCL processing, which will be used and extended in the project. Continuing innovation 
+in laser materials and laser sources is essential to help maintaining European competitiveness at industrial level, by 
+bringing some of the most important European component manufacture companies ahead of competition in 
+important emerging markets. 
+The global market for MIR lasers has a volume of approx. $475 million , and is expected to grow at a CAGR 
+of 8.2% between 2014 and 2019, resulting in nearly $742.6 million by 2019.70  Not surprisingly, the recently emerged 
+QCL technology is likewise considered a growing market (estimated at 8% in the coming years). Distributed 
+feedback (DFB) QLCs dominate the market despite a very limited tuning range. Current alternative solutions 
+have not developed towards the compatibility with available spectroscopy systems yet.  EC QCLs are  
+commercially available largely for laboratory-based operation and research. However, such technology is currently 
+solely developed by U.S. enterprises, with strong backing by defence programs.  
+Considering the aspects above, NP is currently in a highly competitive position as a developer of laser sources for 
+gas sensing applications. NP expects that waveguide integrated QCL based MIR sources implemented in 
+MIRACLE will permit a significant extension of the current market for sensing in the order of 30 %, mainly 
+due to the great potential of targeting molecules with broad absorption features , and also liquid sensing. NP is 
+firmly committed to extend its field of business towards MIR sources with extended wavelength coverage.  
+2.1.3.3 On-chip beam combiner – iBEAM (UULM and NP) 
+UULM has pioneered and patented (WO2007030737) the MIRa -Guide® which is a single -mode waveguide 
+designed for MIR absorption spectroscopy based on tuneable IR light sources. This novel waveguide technology 
+is now commercially available via a German photonic s company called MG Optical Solutions. The iBEAM will 
+use the similar waveguide structure than MIRa -Guide® but tailored for the QCL array developed in MIRACLE 
+(see sub -section 2.1.3.2). After simulation, design, fabrication, and optimization of the iBEAM d evice 
+structure and processing, mass production of the device (i.e., at a multi-wafer scale) will be transferred to 
+project partner NP for iBEAM device commercialization, eventually as on-chip integrated and packaged 
+solution with the QCL array light sourc e. A packaged solution (i.e. iBEAM with QCL array) should increase 
+sales of QCLs by NP for end-users preferring a ready-to-use light source solution. The project results open up new 
+markets to laser-based sensing and thus will contribute to strengthen NP’s  role as a technology leader as well as 
+global market leader in the field of semiconductor lasers for gas sensing applications. 
+2.1.3.4 AgX fiber bundle and arthroscope probe (AP) 
+Optical fibre bundles coupled to line detectors for MIR probe imaging are another product arising from 
+MIRACLE, and a component of the final arthroscopy system.  The beneficiary AP is the world leader in the 
+development, production and supply of MIR chalcogenide and polycrystalline (AgX) specialty optical 
+ 
+70www.bccresearch.com/market-research/photonics/mid-infrared-lasers-technologies-applications-markets-report-pho016a.html 
+780598  MIRACLE   Part B Page 31 of 96 
+fibres, spectroscopy fibre probes and fibre bundles.  AP provides the production to world leading 
+manufacturers of MIR systems, which is guided by ISO 9001:2008 (a certified supplier of development and 
+manufacturing of special optical fibres and various fibre systems). AP has over 30 years accumulated experience in 
+technology that allows it to design, develop, and manufacture optical fibre solutions of a broad spectral range (from 
+200nm to 18µm), including AgX optical fibres, AgX probes and fibre bundles for industrial and original equipment 
+market (OEM) market. 
+To reduce barriers for commercialization of the system, during the proj ect, AP will satisfy all demands for 
+commercialisation in accordance with ISO 13482, including sterilization (by the method to be selected during the 
+project). Success of commercialization will depend on preliminary trials of the arthroscope probe and the accuracy 
+of the spectral information to be obtained. Coordination of efforts with the partners during initial trials will ensure 
+iterative optimisation loops and achieve best readouts. AP is deeply interested in the technical development and 
+production of the probe and is committed to add 2-3 working positions within 3 years after project end dedicated 
+to this probe manufacturing . AP will promote the new product , participating in medical exhibitions , and will 
+collaborate with key medical specialists to opti mise parameters for the future manufacturing of the system. If the 
+project is funded, it is AP’s vision that Europe will be leading this technology worldwide, taking into account that 
+demand for medical diagnostics will grow much faster than other segments on the market. AP will be the probe 
+supplier in the MIRACLE final product, and is looking forward to expand their market share towards 
+medical equipment manufacturing. 
+2.1.3.5 Software interface (IRIS) 
+In MIRACLE, IRIS will provide a supercomputing cloud-enabled platform to allow the digitalisation from 
+the MIR-ATR arthroscopy system and to commercialize it through a Software-as-a-Service (SaaS) business model. 
+This has the advantage of offering affordable, high performance computing t o end -users for high 
+processing power and speeds in novel sensing technologies such as the MIRACLE OA diagnosis system. As 
+we are dealing with medical inspection equipment, our software design, features and functionality are the most 
+important factors. Dur ing the development of the project, IRIS will structure the value proposition of the 
+developed software. In addition, IRIS will  draw up the product datasheets that will outline the key information, 
+and will also create software brochures outlining applicat ions (the applications that have been validated in this 
+project and additional planned applications to quickly serve in the commercialisation phase), highlighting the 
+benefits, etc. The services that support the software will also be clearly defined (maintenance service, customisation 
+services, upgrades to the software and models), consultancy based on system use and data understanding. The 
+software interface will also be a further vehicle to build the MIRACLE brand identity: this aspect will be developed 
+in collaboration with the other industrial partners . On-line monitoring of the process is expected to reduce the 
+cycle time by 30-40% leading to considerable time savings and prediction accuracy.  
+2.1.4 Scientific Impact  
+The expected scientific impacts of MIRACLE cover three distinct areas: photonics, OA/knee injuries, and 
+multivariate data analysis. Technological innovations in the field of photonics will allow the integration of the 
+developed components into a diagnostic tool for joint degenerative disease enabling sensitivity, reliability, and 
+reproducibility in an examination during the arthroscopy surgery. The academic beneficiaries will contribute to the 
+dissemination and exploitation of the research results via high -impact sci entific publications, presentations at 
+scientific conferences and education of engineers, scientists and medical students and future -to-be orthopaedic 
+surgeons. The main scientific breakthroughs, the target scientific communities, and examples of journals for 
+publications are listed in Table 5.  
+Table 5: Scientific expected impact during MIRACLE 
+Scientific breakthroughs  Target scientific 
+community 
+Examples of peer-reviewed journals for 
+publications 
+▪ QCL-based MIR light source with broad 
+wavelength coverage 
+▪ On-chip beam combiner (iBEAM) 
+▪ Miniaturised MIR-ATR diamond probe 
+▪ MIR-ATR arthroscope probe imaging 
+Photonics; 
+Biophotonics; 
+Biomedical 
+diagnostics 
+ACS Photonics, Journal of Biomedical Optics, 
+Optics Express, Journal of Lightwave 
+Technology, Nature Photonics, Applied Physics 
+Letters, Optics Express, Analytical Chemistry, 
+Analyst 
+780598  MIRACLE   Part B Page 32 of 96 
+▪ OA early diagnosis via MIR spectroscopy 
+▪ MIR-ATR arthroscope probe for diagnosis 
+Orthopaedic 
+surgeons; 
+Medical Physicists 
+Arthritis and Rheumatism, The American Journal 
+of Sports Medicine, Osteoarthritis and Cartilage, 
+Journal of Orthopeadic Research 
+▪ Development of a model for discriminant 
+analysis on FTIR for OA diagnosis 
+▪ FTIR model for QCL-based MIR-ATR data 
+Chemometrics; 
+Spectroscopy; 
+Analytical chemistry 
+Analyst, Analytical Chemistry, Chemometrics and 
+Intelligent Laboratory Systems, Journal of 
+Biophotonics, Applied Spectroscopy 
+2.1.5 Societal and Economic Impact  
+The impact of OA on patients is multifactorial, including societal and economic burden  (Figure 15). The 
+global prevalence of hip and knee OA is approaching 5% and is projected to increase as the population ages. The 
+most recent update of the Global Burden of Diseases figures (GBD 2013) es timated that 242 million people 
+suffer from OA 3. However, this number is likely to be underestimated of the true global burden , since only hip 
+and knee were considered in the study.     
+From the societal point of view, OA has all the hallmarks of a serious disease. OA causes acute and chronic 
+pain, disability in different levels, fatigue and premature ageing with loss of functioning in society. Hip 
+and knee OA are ranked 13th globally for years of life lost due to disability (YLDs). As mentioned in the Excellence 
+section above, the trends in OA YLDs increased 75% from 1990 to 2013 3. Additionally, OA was reported to be 
+the 4 th fastest increasing condition, behi nd diabetes and dementia. Although OA is considered an aging -related 
+disease, it is estimated that, of those with OA-attributable activity limitations, 13.8 million people are under the age 
+of 65 years old 3. Furthermore, OA is associated to increased co -morbidities and other chronic diseases.  
+Common comorbidities in OA include cardiovascular diseases, diabetes, obesity, lung disease, chronic pain and depression.  
+Economically, OA is associated with increased health services utilization. Patients with OA have higher out of 
+pocket health-related expenditure, with the average direct costs of OA per patient  estimated to be in the range 
+of 1,330€ and 10,452€ per year4. A U.S. elderly population-based study demonstrated that patients with OA had 
+on average 6 more annual physician visits and 3.8 more non -physician visits than patients without any form of 
+OA4. The same study revealed that patients with OA had 28% more hospital stays. If OA is not correctly diagnosed 
+and treated in knees or hips, the patient will need knee or hip joint replacements. Hospital expenditures regarding 
+knee replacements were estimat ed to be $28.5billion/year in the U.S. alone. Additionally, job-related indirect 
+costs due to loss of productivity were estimated to be $3.4 to $13.2 billion per year3.  
+MIRACLE proposes a diagnostics device which will provide accurate information on the molecular 
+(bio)chemical composition of articular cartilage.  Such advanced diagnostic methodology is anticipated to 
+improve early OA diagnosis and post -traumatic assessment of tissues with better accuracy, reliability, and 
+reproducibility compared to currently applied methods.  In addition, as stated earlier, alternative technologies for 
+quantitative diagnosis during arthroscopy do not exist at the moment. The total impact of a novel technology on 
+the health care costs is much broader than the price of the equipment, and may include offsetting savings as well 
+as indi rect costs. At this stage, it is not possible to estimate exact figures related to the expected societal and 
+economic impacts. Our surgeons expect that MIRACLE solution will reduce the recovery times (i.e. hospital stays 
+and physician visits) in 50%, resulting in a significant reduction of the direct costs of OA per patient. In addition, 
+by enabling more effective diagnosis and treatment, MIRACLE also expects to promote individual wellbeing and 
+prevent OA consequences (i.e., chronic pain, disability, comorbidities due to OA).   
+ 
+Figure 15. Societal and economic burden associated to OA3. * Estimates of prevalence on populations of adults with OA. **Globally. 
+***Estimated in U.S. (2013). 
+
+780598  MIRACLE   Part B Page 33 of 96 
+2.1.6 Barriers/obstacles and activities required to achieve the expected impacts 
+Table 6: List of the barrier/obstacles to impact and required activities 
+Barriers/obstacles  Strategy to overcome the barriers/obstacles 
+New conditions by European Regulation on 
+Medical Devices may affect requirements for 
+the MIRACLE dev ice, in particular regarding 
+definitions, scopes and additional evidence 
+required  
+With the expected approval in 2017 of the new European Regulation on 
+Medical Devices, new regulatory requirements must be taken in 
+consideration, especially on classifications rules, conformity assessment 
+by third party and new requirements for performance  evaluation. 
+Monitoring developments in the regulatory framework and implications 
+of new regulations on MIRACLE outcomes will allow adaptation. A 
+Standards body (UNE) was included in the Consortium.  
+A competitor introduces similar solution before 
+MIRACLE can be ready for market  
+Monitoring of the developments on the market during the project  
+The consortium members are not able to reach 
+an agreement on the specific conditions for 
+commercialising the solution. 
+The consortium was designed so that there are no major overlaps leading 
+to potential conflicts of interest exploitation. A Business Plan will be 
+detailed and a commercialisation agreeme nt drafted between the 
+partners. 
+The solution does not match the needs of the 
+end-users  
+Orthopaedic (human and veterinarian) surgeons (end -users) were 
+included in the Consortium, ensuring their perspective will be taken into 
+account in the co-design of the new arthroscopy system  
+Surgeons (end-users) reluctant to use the new 
+diagnostic method, i.e., changing clinical 
+practices related to arthroscopy surgery. 
+Diagnostic value of the developed MIR -ATR probe, including 
+discriminant analysis protocol, will be demonstrated in vivo; stro ng 
+commitment of MIRACLE orthopaedic surgeon partners to disseminate 
+the results to the target community, working as Key Opinion Leaders  
+The production costs become too high and 
+render the product too expensive for the buyer 
+The production and component costs are taken into account already in 
+the design phase during the project  
+2.1.7 Contribution to European innovation capacity and integration of new knowledge 
+MIRACLE will integrate new knowledge from the  RTD partners into the participating SMEs, improving their 
+innovation portfolio and competitiveness in the European and global markets, by delivering innovation in the form 
+of an arthroscopy probe i nto the medical industry market. IPR generated within the p roject will be integrated 
+within the participating companies and the European Diagnostic and Analysis Imaging Systems industry, 
+promoting European capacity and leadership in the sector. SMEs represent the industrial backbone of Europe, but 
+are generally no t able to bear the significant costs of laser source and photonic system development fully. 
+MIRACLE involves four SMEs, each contributing to a different aspect of the technological developments within 
+the project. The direct involvement of these partners in the project enhances the consortium’s capability for rapid 
+innovation and exploitation, and enables the companies to benefit from the synergies generated by the coordinated 
+research approach. All industrial partners are convinced the proposed work can largely contribute to their future 
+businesses and their respective management boards are firmly committed to the project.  The consortium will 
+implement efforts for integration and dissemination in relevant EU networks.
+2.2 Measures to maximise impact 
+A key objective of research supported by public funding is that it should lead to the exploitation and valorisation 
+of research results, which goes beyond the mere production and dissemination of new scientific knowledge. As 
+research carried out in MIRACLE aims to develop market-oriented solutions, the Consortium will implement from 
+the onset a strategy to lead to its successful commercial exploitation, with the contributions of IRIS, NP, AP, OP, 
+assisted by UCP, UNE and PF. Reflecting the importance of the exploitation of results to this Consortium, a 
+specific Work Package (WP7) will be dedicated to planning and executing actions for the communication , 
+dissemination (Tasks 7.1, 7.2) and exploitation of the project results (Tasks 7.3, 7.4), implemented in close 
+coordination with standardisation actions (Task 7.5).  Task (7.2) is dedicated to engage all stakeholders of the 
+project, a crucial step to validate and maximise the future impact of MIRACLE’s outcomes. Task 7.3 will oversee 
+the protection of Foreground Knowledge arising from MIRACLE and Task 7.4 will focus on defining and 
+implementing strategies for its exploitation by the partners. To ensure the project reaches its maximum potential, and 
+its results will be used both within and after the project, it is critical to outline and execute a lean Exploitation Plan. 
+780598  MIRACLE   Part B Page 34 of 96 
+2.2.1 Dissemination and exploitation of results  
+The MIRACLE Consortium will deploy an integrated plan to ensure high quality innovative research results, 
+coherent and collaborative dissemination of the results, as well as focused and market -oriented valorization of 
+project outcomes. The project adheres to the principles of innovative research for a cost-effective, competitive and 
+innovative healthcare system by developing and providing cost-effective solutions for diagnostics of OA. 
+By providing innovative photonics-based solutions through the development of an arthroscopy system based on 
+an MIR-ATR catheter probe, supporting health professionals and patients with OA, MIRACLE will contribute to 
+increase the competitiveness of the OA d iagnostic devices sector and beyond. After the project, the arthroscopy 
+system will be adapted for use in other joints, other clinically relevant situations and in veterinarian settings. 
+Innovation will also be pursued in the ICT sector to ensure a fully interactive and user-friendly device is developed 
+and commercialized after project completion. MIRACLE will also demonstrate the benefits of deeply involving 
+orthopaedic surgeons who, together with patients, will be involved in the co-design of this novel technology. 
+The following aspects will support the Consortium to ensure the high -quality implementation and deployment of 
+the integrated framework: 
+• Expertise: A world-class interdisciplinary team will work to maximize the project results. The team has proven academic, 
+technical, clinical, regulatory and industrial experience. Its track record of numerous valorization projects in different sectors 
+will reinforce the Consortium; 
+• Technology: Documentation and workflow tools will support the project implementation; 
+• Process: Definition of complex cross-organizational processes to ensure that WPs are visible, documented and available. 
+A framework for regulatory app roval (Task 1.4, INEB, and AP) and standardization (Task 7.5, UNE)  will guide the 
+consortium from the onset; 
+• Information: Expert insights into numerous projects and all phases (Research, Dissemination and Valorization) will ensure 
+right decisions are being taken. The team includes clinicians and researchers with vast experience in the implementation of 
+strategies and technologies for the healthcare system. 
+The Consortium is committed to a coherent valorization strategy, based on technology development and  
+commercialization activities that include: 
+• Active and collaborative engagement of technology-based SMEs: NP, AP, OP and IRIS; 
+• Collaborative R&D&I between public and private research institutions, public health system institutions and 
+private industry; 
+• Implementation assistance; 
+• Strategic participation in IP aggregation and IP exchange platforms. 
+2.2.1.1 Target stakeholders 
+The Consortium will establish and foster contact with several MIRACLE stakeholder communities – the healthcare 
+system, public authorities and policy makers, and also orthopaedic surgeons (equine and human) , patients, 
+diagnostic device development technolog ists, ICT development specialists, providers of training on the use of 
+arthroscopes  - to engage them from an initial stage of the project and ensure a n end-user focused and market 
+aligned technical development of each product and the final MIR -based arthr oscopy system . The following 
+stakeholders have already been identified, and a full list of relevant stakeholders will be updated during the project 
+(T7.2). The stakeholders will be specifically targeted to ensure the right target groups will receive the co rrect 
+information set and the consortium will receive the specific feedback/information it needs. The target sectors, 
+stakeholders and potential impact of the MIRACLE system are listed in Table 7. 
+Table 7. MIRACLE stakeholders and the potential impact the project beyond the consortium  
+Sector Stakeholder Project Impact 
+Policy 
+makers  
+Local, national and 
+European. 
+Regulatory bodies 
+New diagnostic system that will facilitate the design and implementation of 
+clinical decisions and medical guidelines to reduce the impact and high 
+economic burden to society associated to both working disability and 
+treatment costs of OA, an ageing related condition 
+Public 
+authorities  
+Hospitals, primary care 
+medical centres, health 
+managers 
+Improved services and decision support systems for the management of OA 
+and to address the impact of joint injuries. 
+Reduced costs of care and of treatment of OA or joint injuries. 
+780598  MIRACLE   Part B Page 35 of 96 
+Healthcare  Orthopaedic surgeons, 
+patients, patient 
+organisations  
+Improved OA diagnosis and clinical decision -making. Reduced adverse 
+implications of OA and joint injury. Improved management and quality of life 
+for patients with OA 
+R&D&I Research institutes and 
+R&D companies 
+Improved technologies and processes that can be adapted and taken up by the 
+R&D&I institutions in this sector  
+Market  Medical device companies  (i) New markets; (ii) New customer base  
+2.2.1.2 Dissemination Plan 
+The MIRACLE Dissemination Plan will raise awareness of the project outputs to all relevant stakeholder groups 
+(WP7). In order to maximise the impact of the obtained results, MIRACLE will create and foster close links with 
+other groups in similar sectors, future end-users and key opinion leaders, ensuring that its outcomes are assimilated 
+by the industrial and healthcare communities. The communication plan is tailored to the needs of various audiences, 
+focusing on how the message is perceived by them. The project will be implemented in the scope of the public 
+policy perspective of EU research and innovation funding, aiming to generate value for money from the investment 
+of public funding. This strategy will ensure that the general public not only benefits from the outputs of the project, 
+but also is well informed of them. Moreover, to ensure all new knowledge is integrated and contributes towards 
+the increase of innovation capacity in Europe, MIRACLE will: (i) disseminate its good practices to similar project 
+consortia; (ii) ensure the communication and incorporation of new knowledge within the consortium, creating a 
+cross-border innovation cluster in MIR-based systems for analysis soft tissue and degenerative joint diseases. 
+The dissemination strategy during and beyond the project was designed to ensure transparent information access, 
+while respecting all confidentiality and IPR management issues. At project start, a calendar of events (e.g. 
+conference attendance, workshops and seminars organizations and meetings) will be detailed to e nsure the 
+dissemination of results via the appropriate routes. This working document will be used to implement project 
+dissemination and will be updated for strategy planning in M12, M24 and M36. The dissemination plan summary 
+is shown in Table 8. The H2020 guidelines for Open Access publishing will be followed and open access costs are 
+budgeted for. A combination of Gold and Green Access strategies wil l be followed to maximize dissemination. 
+The consortium will ensure that the publications can be read online, downloaded and printed and take every effort 
+to give additional rights to copy, distribute, search, link and mine to allow a wide access to the publications. 
+Table 8. MIRACLE dissemination plan summary. 
+Type of 
+dissemination 
+Target 
+Audience 
+Where Desired 
+outcome 
+Partner(s) 
+involved 
+Manuscripts for 
+peer reviewed 
+scientific journals 
+Technical 
+Scientific 
+community 
+ACS Photonics, Journal of Biomedical 
+Optics, Optics Express, Nature Photonics, 
+Applied Physics Letters, Optics Express, 
+Analytical Chemistry 
+3-5 papers/year 
+during the 
+project 
+UOULU,  UULM, 
+UEF, NMBU  
+Manuscripts for 
+peer reviewed 
+scientific journals  
+Medical 
+community 
+Arthritis and Rheumatism, The American 
+Journal of Sports Medicine, Osteoarthritis 
+and Cartilage, Journal of Orthopeadic Res. 
+1-2 papers/year 
+during the 
+project 
+KUH, UU, INEB, 
+UEF  
+Presentations at 
+international 
+conferences  
+Scientific 
+community  
+Conference of the International Society for 
+Clinical Spectroscopy, European 
+Conference on the Spectroscopy of 
+Biological Molecules, Conference on 
+Chemometrics in Analytical Chemistry 
+Minimum of 2 
+conference/ year 
+UOULU,  UULM, 
+UEF, NMBU 
+Presentations at 
+international 
+conferences  
+Medical 
+community 
+Veterinary 
+community 
+Annual meeting of Orthopaedic research 
+society, Word congress on osteoarthritis, 
+International Cartilage Research Society, 
+European College of Veterinary Surgeons 
+Minimum of 1 
+conference/ year 
+KUH, UU, INEB, 
+UEF  
+Presentation in 
+fairs/exhibitions 
+Technology 
+industry 
+Photonics West, Sensor & Test, TDLS, 
+FLAIR, ACHEMA, Laser Photonics 
+Minimum of 2 
+events/year 
+NP, AP, OP, IRIS 
+PhD thesis  Scientific 
+community 
+Universities involved in the project Minimum of 2 
+PhD theses  
+UOULU,  UULM, 
+UEF, NMBU 
+780598  MIRACLE   Part B Page 36 of 96 
+2.2.1.3 Exploitation plan 
+The MIRACLE exploitation plan (Table 9) will be continuously updated and will be managed in accordance to the 
+IPR valorisation strategies and markets identified and detailed in the final Business Plan. For instance, 
+commercialization needs will be continuously assessed to ensure that short and medium -term commercialization 
+goals and requirements are met for the target application and for future applications of the technology. One 
+important aspect of the exploitation plan is to be up-to-date with the new European Regulation on Medical Devices 
+regarding the MIRACLE solution, in particular regarding definitions, scopes an d additional evidence required. 
+With the expected approval in 2017 of the new European Regulation on Medical Devices , new regulatory 
+requirements must be taken in consideration, especially on, classifications rules, conformity assessment by third 
+party (involvement of a Notified Body instead of sole responsibility of the manufacturer) and new requirements 
+for performance evaluation (performance evaluation plan and clinical performance studies). The developments in 
+MIRACLE will occur inside the 5 years’ transitional period for the new regulation. Due to this scenario, its 
+regulatory roadmap (WP1) will comprise all necessary provisions to guarantee compliance with current and future 
+regulatory requisites. Currently, in Europe, arthroscopy probes are classified as a Medical Device Class I 
+(sterile/measuring), and its development must be performed in compliance with the legal and regulatory framework 
+set by Medical Device Directive 93/42/EEC, which sets out the rules and essential requirements to be fulfilled by 
+the manufacture during its development, to place the product under Clinical Investigation and finally on the market. 
+Table 9. MIRACLE exploitation activities summary. 
+Partners Key activities during the project with regards to exploitation goals 
+UCP  Monitor external IP and competitors (via patent survey and other relevant databases ). Detailed patent 
+surveys at M3 and M27. 
+INEB, AP, 
+UNE 
+Definition of the regulatory path for each specific technology and its target applications (as planed in 
+WP1). Standardization issues (WP7) 
+UCP, all Internal progress survey to assess exploitation potential (M12, M24) 
+NP Business plan as supplier QCL-based MIR light source for broad wavelength coverage (WP2, M31) 
+UULM, NP  Business plan for iBEAM as an on-chip beam combiner for mid-infrared wavelengths (M31) 
+AP Business plan as supplier AgX fiber bundle and MIR-ATR arthroscope probe (related to WP3, M31) 
+IRIS Business plan as supplier of software interface (related to WP4, M48) 
+OP Business plan as supplier of the integrated MIR-ATR arthroscopy device (related to WP5, M48) 
+UCP, OP Business plan for commercialisation of MIR-based arthroscopy device (M48) 
+UOULU, 
+UULM  
+Further research of the use of the MIR-ATR miniaturized probe for other in-depth tissue evaluation, e.g. 
+cancer. Potential spin-offs for exploitation of future uses of the technology.  
+2.2.1.4 Valorisation chain 
+The valorisation chain within the MIRACLE project is illustrated in Figure 16, involving the development steps 
+planned in the lifetime of the project, resulting in prototype to be demonstrated ex vivo and in vivo in equine and 
+human subjects during real arthroscopy surgery. In particular, UCP will act as enabler (WP7) to de-risk early-
+stage developments, perform any necessary due diligence, and assist in advancing promising technologies towards 
+the market, ensuring that not only development abide to standardisation (assisted by UNE) and regulatory 
+requirements, but also that suitable commercialisation strategies are developed and the MIRACLE business plan 
+finalised - including valuation, commercial & marketing analysis and planning, pricing, sales forecasting (WP7, 
+UCP). 
+  
+780598  MIRACLE   Part B Page 37 of 96 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 16. MIRACLE valorization chain 
+  
+
+780598  MIRACLE   Part B Page 38 of 96 
+2.2.1.5 MIRACLE Business Case Plan 
+Background IPR and access rights 
+Background information and knowledge (including patents, databases, etc.) held by the partners prior to their 
+accession to the EC grant agreement, as well as any IPR which are needed for carrying out the project or for using 
+foreground held by the consorti um, is defined in the proposal preparation phase (pre -Grant Agreement). The 
+current status of the Background being brought to the project by the consortium is listed in Table 10. Access to 
+Background that is, or will be found to be, necessary for the implementation of the project will be granted royalty 
+free and background needed to use the results of the project wil l be provided either royalty free or under fair and 
+reasonable conditions.  
+Table 10. Background- information and knowledge brought into the project 
+Short 
+name 
+Background information and knowledge brought to 
+the project 
+Foreground t o which the background will 
+contribute (WP) 
+UOULU 
+ 
+Deep pathological understanding of tissue-level changes 
+taking place in osteoarthritis and joint injuries.  
+Deep knowledge of physical interactions between 
+infrared light and articular cartilage. 
+Demonstration and validation in clinical settings 
+(WP6) 
+UULM Mid-infrared sensing technology applied in biomedical 
+scenarios, integration and miniaturization of optical 
+systems, and thin -film waveguide technology.  iBEAM 
+will be based on UULM patent WO 2007030737.  
+iBEAM development, ATR arthroscope probe 
+development, prototype system development, and 
+support during system application in pre-clinical 
+and clinical scenarios (WP2, WP3, WP6) 
+UEF Vast experience (over 20 years) in cartilage and bone 
+research with focus on quantitative physical measuring 
+techniques, such as infrared spectroscopy, with 
+applications in in vitro, ex vivo and in vivo studies. 
+Lead on Demonstration and validation in clinical 
+settings (WP6) and responsibility of Ethics 
+concerning samples and living subjects (WP1)  
+NMBU Spectral preprocessing 
+Multivariate data analysis 
+Data analysis, including data preprocessing and 
+discrimination models (WP4). Optimization of data 
+acquisition in prototype development (WP5) 
+KUH Vast clinical and scientific knowledge in the treatment of 
+osteoarthritis and other joint injuries. 
+Clinical protocol development (WP1) and testing 
+prototype applicability with human patients (WP6)   
+UU Expertise in Veterinary (equine) arthroscopic surgery, 
+expertise in application and validation of new 
+arthroscopic tools in equine patients (arthroscope guide 
+intra-articular ultrasound, optical coherence 
+tomography, near infrared spectroscopy and indention 
+Validation of the MIR-probe in the real (equine) 
+patient before application in a live human patient. 
+Data for improving routine clinical applicability of 
+prototype (WP6) 
+NP Devices will be based on NP proprietary technology: 
+This includes Trade Secret MIR technology as well as 
+patented MIR technology based on e.g. US20040865036 
+or EP1766740 (“TUNEABLE UNIPOLAR LASER”) 
+Integrated QCL-based MIR source for broad 
+wavelength coverage (WP2) 
+OP Development and manufacturing of laser-based sensing 
+solutions incl. electronics, mechanics and software 
+Prototype development (WP5) 
+IRIS Software development capacities, decision support 
+concepts, tools and integration in the user interface. 
+Database driven web portals and User Interfaces. 
+Knowledge in design and integrated automation 
+hardware technologies (WP4) 
+AP Fiber optic solutions. US7956317 Fibre Optic Probe; 
+US6564587 Meth od of producing an optical fiber by 
+gathering material from a molten bat; US09944825 
+Optical fiber and method of producing; EP1184339 
+Optische Faser und Herstellungsverfahren für eine 
+optische Faser 
+Development of MIR-ATR arthroscopy probe 
+(WP3) 
+INEB Expertise in communication and dissemination. Dissemination and exploitation activities (WP7) 
+UNE Expertise in standardization and membership on 
+European and International Standards Organizations. 
+Standardization activities (WP7) 
+FP 
+ 
+Cluster in photonics with established dissemination 
+channels for the photonics components. 
+Dissemination activities (WP7) 
+UCP Expertise in technology knowledge transfer. Dissemination and exploitation activities (WP7) 
+780598  MIRACLE   Part B Page 39 of 96 
+Business case plan overall 
+The MIRACLE exploitation plan ( Figure 17) will be continuously updated, detailed,  and will be managed in 
+accordance to the IPR valorisation routes and the market analysis performed, and will result in the final Business 
+Plan. Each consortium partner has distinct and complementary, non-overlapping roles in the value chain 
+for the MIRACLE device (Tabela 11). The expected turnover 5 years from the project end is estimated in Tabela 
+11. The MIR-based arthroscopy device is expected to be available in its final form 6 to 12 months after the project 
+ends (Figure 6). Assuming that the European Union (EU) comprises approx. 15,000 hospitals 71, we estimate the 
+expected turnover based on sales for 5% of the EU hospitals. This number is a very conservative estimate 
+considering that it does not take into account: (i) private clinics, which in the beginning may be the first 
+adopters due to usually higher budgets, (ii) veterinarian hospitals and large animals veterinarian clinics, (iii) new 
+market opportunities that the novel photonics components will open, and (iv) potential for sales worldwide, e.g. 
+AP is producing for export >60% of fiber products. In order to prepare for future CE Mark approval and Market 
+Access, this project will entail additional product development, design and assembly of the MIR-based arthroscopy 
+device and the demonstration of its clinical applicability via real arthroscopy surgery in equines (UU) and human 
+subjects (KUH). 
+The contribution and guidance of UCP and the input by the SMEs will ensure correct validation and commercial 
+focus for future exploitation of the project outcomes. In summary, NP will be the supplier of the QCL-based MIR 
+source, AP will be responsible for the production of the MIR-ATR arthroscope probe, IRIS will be responsible to 
+design and develop the software for analysis and readout of the probe measurements, OP will be responsible for 
+the assembly of the MIR-based arthroscopy device. The MIRACLE consortium aims at commercializing the final 
+MIR-ATR based system via optimized commercialisation agreements. The MIRACLE solution can be delivered 
+as a ready-to-use medical device or as a sub-OEM system, which can be additionally integrated into already existing 
+proprietary housing/other devices of potential commercialization companies. The MIRACLE diagnostic device is 
+expected to reach the market in different sectors including orthopaedics, trauma, sports medicine, and veterinarian. 
+Due to this sizeable market potential, the consortium business strategy is not to commit the licensing to a single 
+commercialization partner during the proposal phase, but to evaluate the most profitable and beneficial 
+agreement(s) for all partners involved during the project during the project. In addition to four market savvy SMEs, 
+MIRACLE has invited highly reputed experts with experience with global medical equipment manufacturers to 
+join the Advisory Board, who will ensure that the project is driven towards commercialization. NP, AP, OP, and 
+IRIS will be the suppl iers of these commercializing companies on exclusivity terms to be specified within 
+Commercialization Agreements to be drawn at project end, and in parallel with the final version of the Business Plan. 
+ 
+Figure 17. Representative scheme for MIRACLE exploitation plan.  
+ 
+ 
+ 
+71 http://www.hope.be/wp-content/uploads/2015/11/79_2009_OTHER_Hospitals-in-27-Member-States-of-the-European-Union-eng.pdf 
+Technology Production Commercialisation
+Initially	Europe,	
+then	US	after	FDA	
+approval
+Clinical	validation,	CE	Mark
+SUPPLIERS
+(QCL-based	MIR	source,	AgX fibre
+bundles,	probe,	electronics,	software)
+Marketing	and	Distribution
+Development
+Design	and	
+prototype
+Partner	distributors
+as	needed
+Suppliers	of	components	of	
+arthroscopy	system	to
+Small	series
+MIRACLE	RTDs
+and	SMEs Commercialisation
+partner(s)
+
+780598  MIRACLE   Part B Page 40 of 96 
+Table 11. MIRACLE industrial partners, its key activities and role in the value chain 
+Key 
+partners  
+Key activities  Role in the value chain after 
+MIRACLE completion 
+Expected turnover 5 years 
+from the project end 
+NP Responsible for development and 
+implementation of QCL-based MIR 
+source for defined-specific channels in 
+the 1800-1000 cm-1 range (WP2) 
+Supplier of the QCL-based MIR 
+source to future 
+commercialisation partners 
+3.75 million € (one unit per 
+system  5k€/unit  750 
+hospitals only in Europe) 
+AP Miniaturization of a MIR-ATR 
+arthroscope probe coupled with AgX 
+fiber bundle (WP3) 
+Supplier of the MIR-ATR 
+arthroscope probe to future 
+commercialisation partners 
+13.5-20.2 million € (2-3 MIR-
+ATR arthroscope probe per 
+hospital  9k€/unit  750 
+hospitals only in Europe) 
+UULM Responsible for iBEAM development 
+and prototyping (WP2) 
+Supplier of iBEAM via licensing 
+agreements with NP 
+Via licensing to NP (based on 
+sales by NP) 
+OP Development of the primary housing 
+and interfaces of the components 
+including all the electronics (WP5).  
+Supplier of the OEM sub-
+system to future 
+commercialisation partners 
+150 million € (one unit per 
+system  200k€/unit  750 
+hospitals only in Europe) 
+IRIS Responsible for the interface software 
+development based on the multivariate 
+models (WP4)  
+Supplier of the software system 
+to future commercialisation 
+partners 
+18.7 million € (Software license 
+costs 25k€/year  average of 
+750 hospitals only in Europe) 
+UOULU, 
+NMBU 
+Responsible for validation of the 
+diagnostic method and multivariate 
+models (WP4, WP6) 
+Investigate the applicability of 
+the models to other medical 
+cases 
+Not applicable. 
+UU, 
+KUH, 
+UEF 
+Responsible for demonstration in 
+clinical settings via real arthroscopic 
+surgery in equines and humans (WP6)  
+Training orthopaedic (equine 
+and human) surgeons to use the 
+device   
+Not applicable. 
+Product description and business opportunity 
+MIRACLE will de velop, validate and bring closer to market the first MIR -based arthroscopy system for OA 
+diagnosis. In addition to this specific product/application, the project will develop new markets for three individual 
+components of the final assembled product: (i) a  novel waveguide-integrated QCL-based MIR source, (ii) an on -
+chip beam combiner (iBEAM), and (iii) an AgX bundle coupled to line detectors for MIR probe imaging. A further 
+coupled product will be the software for analysis and readout of the probe measurements and respective interface 
+with the user. After project end, innovation will be pursued in the ICT sector to ensure a fully interoperative system 
+(data communication with healthcare systems) and user -friendly device is developed and commercialized after 
+project completion. The arthroscopy probe system will be adapted for use in other joints, other clinically relevant 
+settings and for veterinarian use, in particular for horses. This will expand the market share and open new market 
+for all SMEs involved.  
+Market opportunity 
+The rising of sports and heavy exercises, high physical activities among the young generation, and rising outdoor 
+activities has led to an increase in the number of cases of articular injuries, thus accelerating the arthroscopy 
+market growth. Furthermore, minimally invasive surgeries such as arthroscopy became very popular due to the 
+reduction of the recovery time for the patient along with small risk of infection. This popularity has had a clear 
+impact on the growth of the arthroscopic d evice market globally. As a result, outpatient care covers the major 
+share of the market, and is estimated to grow high CAGR of 7.5% in the forecast period.  Innovations, 
+continuous growth in the corporate agreements, and the extensive use of arthroscopic d evices across various 
+industries are further boosting market growth. However, the high cost of instruments and unfavorable 
+reimbursement policies are restraining factors in the growth of this market.  
+The overall world market for medical technologies was approximately USD 375 billion in 2015, and was expected 
+to grow in 2020 up to USD 477 billion, with an annual growth rate of 4.93% and a total growth of USD 102 billion. 
+Moreover, in 2014, medical imaging was among the five highest-selling segments with around USD 36 billion. In 
+2020, the annual growth in the segment of devices for medical imaging is expected to be 2.3% (up to USD 40.9 
+billion.). The arthroscopy devices market is an important segment in the orthopaedic devices market, and 
+arthroscopes and arthroscopic hand instruments are its largest sub -segments, followed by power shaver devices. 
+780598  MIRACLE   Part B Page 41 of 96 
+An estimated 4 million knee arthroscopic surgery are conducted globally72. Due to the continuous growth and aging 
+of global population, there will be a steady demand for both emerging as well as established arthroscopy devices. 
+The arthroscopic devices market has emerged as one of the attractive industries in the medical equipment 
+sector73. Global arthroscopy market was valued at $4 billion in 2015 and is anticipated to reach $6.34 billion 
+by 2024, with a compound annual growth rate (CAGR) of 4.9%. In 2014, North America had the largest share 
+of the global market, followed by Europe . The major players in global ar throscopic products/devices market 
+include ConMed (U.S.), Arthrex, Inc., (U.S.), Smith & Nephew Plc (UK), Stryker Corporation (U.S.), and Karl 
+Storz (GE). None of these leading companies have in their portfolio alternative solution for the proposed MIR -
+based device in MIRACLE. 
+Apart from the benefits for the medical field and related commercial potential, the MIR-probe is likely to become 
+a commercial success in the veterinary field as well. In the horse, arthroscopy is the standard -of-care in joint 
+interventions and very widely practiced given the fact that joint disorders invariably rank first or second (dependent 
+on discipline) as a reason for not being able to perform in this animal that is kept for its athletic potential. Interest 
+in equestrian sports i s on the increase, as illustrated by the 2014 World Equestrian Games in which participated 
+over 1,000 riders from 74 countries with 1243 horses. More than 600,000 tickets were sold and the games were 
+reported by 1750 journalists from 52 countries. In a sma ll country as The Netherlands, annual turnover in the 
+horse industry is over 2 billion, more than twice the turnover of the flower bulb industry, against this background, 
+there is great commercial potential for a MIR -probe for equine use. Although the MIR-ATR probe proposed 
+by MIRACLE is primarily intended for use in human knee joints, the device can be adapted to other 
+joints and will certainly reach the veterinarian arthroscopy market, given the need for improved diagnosis. 
+Competitive analysis 
+The solution arising from MIRACLE is in a highly competitive position as a first in the market solution 
+for in -depth diagnosis of articula r cartilage diseases. As stated previously, none of the current routine 
+protocols in clinical practice are capable to asse ss the biochemical condition of the articular cartilage  and provide 
+in-depth diagnosis. Thus, the MIRACLE system has no direct competitor in the market, as examination during 
+arthroscopy merely allows diagnostic by visual and manual assessment. The above n umbers clear show that the 
+market for a new, photonics -based diagnosis device for in -depth articular cartilage injuries is large, and there are 
+currently no solutions in the market providing any kind of quantitative diagnostic method in vivo, through a 
+minimally invasive system such as the proposed in MIRACLE. Thus, the MIRACLE project companies will be in 
+a highly competitive position at project end.  
+Commercialization strategy for the MIRACLE solutions 
+The MIRACLE proposal demonstrates a strong industrial  commitment, being driven by four SMEs and by the 
+needs of orthopaedic surgeons and patients, aiming to respond to an unmet clinical need: an effective arthroscopy 
+device that allows the early diagnosis of OA based on in -depth evaluation of articular cartilage via an MIR -ATR 
+imaging probe. To reduce time -to-market, the proje ct will run a technological validation and a market 
+validation plan. The consortium will consolidate a strong business case for the arthroscopy system and for each 
+exploitable component, supported by clear exploitation strategies. In order to ensure future  exploitation, the 
+consortium was designed so as to gather industrial partners specialized in concrete components of the 
+final system and that would cover the whole value/supply chain for the photonics -based arthroscopy 
+device. The consortium also includes  several orthopaedic surgeons and veterinarian surgeons, to ensure will be 
+co-developed including their perspectives and validation. 
+The involved SMEs have non -conflicting and complementary roles in the value chain for the production of the 
+MIRACLE arthroscopy system (Table 9). The contributions and guidance of UCP and PF will ensure an adequate 
+validation and commercial focus for future exploitation of  the project outcomes. In addition, the planned 
+performance study including in vivo equine studies and human subjects will lead the preparation for documentation 
+for CE Mark, facilitating rapid implementation of the diagnostics device after project completion. 
+ 
+72 http://www.grandviewresearch.com/industry-analysis/arthroscopy-market 
+73 http://www.futuremarketinsights.com/reports/arthroscopy-devices-market 
+780598  MIRACLE   Part B Page 42 of 96 
+The primary target will be the European market for diagnostic of articular cartilage diseases and photonics 
+solutions. The focus  is on  diagnosis of degenerative joint diseases, where direct and quantitative 
+assessment of articular tissue alterations are important.  Markets will also include veterinarian use since 
+degenerative join disease is a frequently occurring in horses. Revenues are expected to be larger where the 
+complexity of decision -making is higher and where frequently early diagnosis of degenerative joint disease is 
+important.  
+The Consortium plan is to develop, validate and commercialize the arthroscopy device in the European m arket, 
+after CE Mark, and follow shortly after by the particularly relevant U.S. market, in the context of degenerative joint 
+diseases. The MIRACLE concept will consist primarily of a full arthroscopy system, coupled with a user interface 
+that will allow t he easy interpretation of the quantitative data acquired by the probe. The system will be sold to 
+hospitals or orthopaedic clinics, and to veterinarian clinics . In summary, three SMEs will be suppliers for the 
+components of the arthroscopy system (AP, NP a nd OP) and one supplier for the software and user interface 
+system (IRIS). Each provides a part of the solution (probe / laser / control system), which will be sold by medical 
+equipment companies with relevant distributors channels in sectors including arthroscopy equipment, orthopaedic 
+equipment, and veterinarian surgery equipment . In particular, NP will produce and supply the integrated QCL-
+based MIR source for broad wavelength coverage. NP will have the commercialization rights on the  iBEAM in 
+cooperation with UULM. Both project results are excellent assets to NP’s product portfolio, addressing important 
+current application demands, opening up new markets to laser based sensing and thus strengthening NP’s role as 
+a technology leader as well as global market leader in the field of semiconductor lasers for gas sensing applications. 
+AP will supply the final sterilisable MIR -ATR arthroscope probe to the system integrator (OP). Finally, OP will 
+deliver an OEM system for final commercialization.  
+Furthermore, the QCL-based MIR source will also be exploited for other sensing markets after project end  (NP). 
+The MIR-ATR imaging probe will be investigated as diagnostic tool for other diseases that are associated with 
+biochemical changing of tissue (e.g. cancer) (AP). The data analysis software and software interface and support 
+services may be commercialized in separate packages according to customer needs (IRIS). Figure 18 presents a 
+preliminary overall business model canvas for MIRACLE key results; during the project, a business model will be 
+structured for each key exploitable result.  
+ 
+Figure 18. Overall Ostervalder’s business model canvas for MIRACLE results 
+Exploitation strategy to achieve commercialization 
+MIRACLE aims to achieve TRL 6 at project end  (Figure 6). A strategy to achieve future full -scale manufacturing 
+by IRIS/NP/AP/OP and distribution/sales for the European and North American markets will be developed at 
+the end of the project, defini ng the commitments and targets of these partners in the 5 post-project years. The 
+strategy will include the planning of pilot lines for the production small series of the components of the device and 
+of the full system  for the clinical validation , and the planned upgrade for the installation of production for the 
+
+780598  MIRACLE   Part B Page 43 of 96 
+above markets. The plan will also include a strategy for execution of clinical validation and for obtaining CE Mark. 
+The execution plan during the project and beyond includes: 
+• Iterative developments in pre-clinical setting (during the project and beyond as necessary); 
+• Ensure successful pilot deployment at leading research hospitals in Europe; 
+• Ensure recruitment of Key Opinion Leaders with worldwide recognition; 
+• Create awareness using research results in scientific publications, research reports and broad publications. 
+• Plan and gather documentation necessary for obtaining CE Mark and Market Launch; 
+• Retain narrow market focus on known hospitals in 3-5 countries in Europe within 2021; 
+• Initial Ramp Up; 
+• Select 5 countries in Europe for focused marketing and direct sales (EU5); 
+• Expand marketing using research publications in direct communications; 
+• European Ramp Up; 
+• Broaden the market focus to all Europe; 
+• Expand the market focus to the U.S. 
+UCP and the participating SMEs will, within the project (WP7), perform in -depth market analysis, directing its 
+efforts primarily at analyzing the European and U.S. markets , define the specific target markets (monitoring of 
+degenerative joint diseases, knee and other articular injuries, analyze the veterinarian market in depth, and analyze 
+additional markets for the laser components) and define marketing and commercialisation strategies, as well as 
+refine sales forecasts. The MIRACLE Business Plan will be prepared including these parameters and an in -depth 
+analysis of the competition, fully defining the go to market strategy and the business model to be pursued. 
+Moreover, the Business Plan will include requirements for scale-up of the production of the device, requirements 
+for materials supply, additional strategic partnerships that may be necessary for optimal exploitation (with e.g. 
+distributors), as well as financial requirements for each SME and means to meet such requirements. Wi thin the 
+project period, additional business models will be developed to expand the use of the arthroscopy probe and its 
+components, directed at other relevant clinical settings in which the sensor may fulfil an unmet need in the market. 
+Moreover, the depl oyment of ICT solutions to facilitate the acquisition and management of data electronically 
+within a hospital setting, ensuring full interoperability with existing ICT systems, will be a focus of attention for 
+IRIS. Additionally, business models will be fo recast for the expansion of the current MIR-based probe for other 
+clinically relevant target tissues.  
+2.2.1.6 Management of Intellectual Property 
+The IPR management will be set primarily by the Consortium Agreement (CA) to be signed by all Partners before 
+project start, drawn on the basis of the DESCA 2020 model agreement. In summary, all Background Knowledge 
+necessary to execute the MIRACLE work plan will be detailed in the Consortium Agreement, and the use of 
+Background Knowledge will be provided to the consortium partners on a royalty free basis, on a need-to basis for 
+the execution of the project tasks. Foreground Knowledge will be owned by the partners who developed it. Each 
+partner is responsible for taking the appropriate steps for sec uring IP of the knowledge or results created during 
+the project. Project IPR management and market intelligence will be executed in Task 7.3. The participating SMEs 
+will have the right to explore commercially the arthroscopy system components and any new technology developed 
+within the MIRACLE project on the basis of a license agreement to be agreed between the partners prior to project 
+start. All non-commercial results will be widely disseminated via open access peer-reviewed scientific publications 
+after the prior permission to publish by the partners involved in the knowledge. 
+2.2.2 Communications activities 
+The communication and outreach activities of the project and its results and achievements will be carried out in a 
+dedicated task (T7.1). These activities will be implemented through a Communication Plan (D7.1), making use of 
+a set of communication tools, support material and scientific publications that will be used to promote the 
+MIRACLE and its outcomes, the ambition of the Consortium and the potent ial of the technologies to be 
+demonstrated. The communication activities will target the general public. Given the TRL maturity of the 
+technology (Figure 6), some outreach activities will also target the general public and the target communities listed 
+in Table 8, with the goal of raising awareness of the project results, and the benefits of new photonics -based 
+arthroscopy probes for diagnosis of OA in healthcare for the European society. Communication activities will be 
+780598  MIRACLE   Part B Page 44 of 96 
+coordinated between Consortium members to ensure the project outcomes achieve maximum impact, in a manner 
+to not interfere with exploitation activities. In addition to the communication activities (Table 12), MIRACLE will 
+ensure the production of visually attractive material to disseminate the project such as: 
+• A dynamic and interactive website including a public and a private section. The latter will be restricted to the 
+Consortium members and th e EC representatives, and used for sharing information between partners and for 
+archiving project documents; 
+• Flyers with general information on MIRACLE and its results, to be handed out to stakeholders. 
+One important side of communicating the project results and achievements is that of regulatory bodies. Although 
+clinical trials are not included in the project, the evaluation and demonstration of the MIRACLE device involves 
+complex legal and ethical aspec ts and this topic will be considered throughout the execution of the project. 
+UOULU, UEF, KUH, UU and INEB will monitor all ethical and regulatory framework, being responsible for 
+communication with the relevant national bodies and EMA. Moreover, WP1 will deal with establishing and 
+implementing such regulatory and ethics aspects in the execution of a pilot to demonstrate the applicability of the 
+MIR-based arthroscopy system during real surgery.  
+MIRACLE includes a communication strategy with the national re gulators of the countries represented in the 
+Consortium from the onset of the project. Also, the inclusion of the members of the Ethics Committees of the 
+participating Hospitals (WP1) will enable them to assess first -hand the project progress and to provid e valuable 
+feedback for the technical research under progress. The research carried out in MIRACLE and the results achieved 
+will have a strong impact in the photonics field from the individual components and as well in clinical practice 
+(human and equine). As such, the Consortium will take actions to ensure that the project is promoted in all the 
+sectors. This will be facilitated by the Consortium partners and in particular by the partner hospitals. 
+Table 12. MIRACLE communication plan summary 
+Communication goal Communication 
+channel 
+Communication 
+information 
+Target 
+number 
+Timing 
+(project 
+months) 
+Partner(s) 
+responsible 
+To boost information 
+flow to all entities with 
+an interest in the project 
+Website General information on 
+the project, its objectives, 
+challenges and main 
+results and achievements 
+500 
+/year 
+Regularly 
+updated 
+INEB 
+Raising awareness of the 
+project within all target 
+groups and citizens 
+Press Releases, partner 
+websites 
+Timely Information 
+about the project 
+4 M1, M12, 
+M24, M34 
+All 
+Raising awareness to the 
+project results to all 
+stakeholders 
+MIRACLE 
+Demonstration event 
+General information on 
+the project 
+3 M36 INEB, 
+clinical 
+partners 
+Promoting MIRACLE 
+device and ensure high 
+impact 
+Public event in Brussels 
+open to stakeholders, 
+media, policy makers 
+Information targeted at 
+people with professional 
+interests towards the 
+MIRACLE outcomes 
+1 M40 INEB 
+2.2.3 Communications Requirements 
+This project is funded by one of the calls under the Photonics Public Private Partnership (PPP). All communication 
+activities related to the project will acknowledge the context of the Photonics PPP, for example by stating that the 
+project is an initiative of the Photonics Public Private Partnership. 
+Specifically, for workshops, press releases, presentations etc, the "EU emblem and Photonics21" logo ( Figure 19) 
+will be displayed prominently together with the text "Photonics Public Private Partnership". The link 
+www.photonics21.org will also be included. When communicating on Twitter or other social media about project 
+activities, #Photonics will be included together with @Photonics21 and @PhotonicsEU. 
+The project will make a press release when the project launches and also when the project has reached a significant 
+milestone. 
+ 
+780598  MIRACLE   Part B Page 45 of 96 
+The project will also provide a communicati on kit about the project (narrative text, photographs, slides and any 
+other suitable communication material, complemented with copyright licences for the European Commission and 
+for Photonics21). The narrative text will target a general audience and focus on the technical achievements as well 
+as on the economical and societal benefits for the EU. This communication kit will be provided to the Commission 
+at the beginning of the project with updates at mid-term and at the end. 
+Project communications such as p roject press releases, workshops announcements, websites, and brochures will 
+respect the principle of fair visibility. If the logo of any individual beneficiary is included, then the logos of 
+all beneficiaries will be included.  
+ 
+Figure 19. "EU emblem and Photonics21" logo 
+ 
+2.2.4 Standardization activities 
+Taking into account existing standards within the project will help to guarantee that the results will respect existing 
+practices, enhance interoperability and reach a better market application. Moreover, promoting the research results 
+to be included into future standards can provide market validation and facilitate the market uptake of the 
+innovations. Standardization activities in MIRACLE (task 7.5) are considered as a valuable tool for the exploitation 
+of the project outcomes, by facilitating future replicability and widest use and reducing market acceptance risks. 
+Furthermore, Standardization system constitutes itself an efficient and fast information and knowledge tr ansfer 
+structure. The bidirectional implication of correspondent technical committees at international, European and 
+national levels allows any information provided to reach an immediate widespread dissemination, focused to the 
+interested stakeholders in e very country, providing a mean visibility to the project itself and its outcomes.  The 
+participation of UNE, a European Standardization Body, will facilitate this approach.  
+
+780598  MIRACLE   Part B Page 46 of 96 
+3. Implementation
+3.1 Workplan – Work packages, deliverables, milestones  
+3.1.1 Overall work plan structure 
+The work plan will be implemented by a multidisciplinary team of scientists, orthopaedic surgeons and SMEs from 
+13 organizations spread across Europe. The project is divided into 8 work packages (WPs; Figure 20) forming 3 
+main WP groups (described below). Technical and clinical WPs will interact in a variety of project phases while 
+WP7 and WP8 provide the associated dissemination, exploitation and management support. 
+▪ Support work packages: WP1 Clinical applicability seeks to define end-user and market specifications regarding 
+the MIR-based arthroscopy device. In addition, WP1 will ensure the pathway for regulatory approval and ethical 
+issues are properly followed. WP7 Dissemination, exploita tion and standardization  will be responsible for 
+dissemination, communication and exploitation issues. In addition, WP7 will include standardization activities. 
+WP8 Coordination and management covers the project management and coordination.   
+▪ Technical work packages: WP2 Quantum cascade laser and iBEAM focuses on the on QCL -based MIR light 
+source, optical components and on-chip beam combiner implementation. WP3 Imaging MIR-ATR arthroscope 
+probe entails the design, miniaturization and prototyping of the arth roscope probe for imaging. WP4 Data 
+analysis and software development focuses on the development of multivariate data analysis and classification 
+tools. WP4 will also implement an easy -to-use software interface tailored to the needs of end -users. WP5 
+Prototype development will develop all the electronics and controls within a compact MIR -based arthroscopy 
+device.  
+▪ Clinical work package: WP6 Demonstration and validation in clinical settings focuses in two main tasks, to (i) 
+provide large number of spectra data on human tissues (in vitro) for MIR-based system validation and (ii) perform 
+several demonstrations of the device in ex-vivo and animal models. The first task will provide data to WP4 while 
+the second task will provide feedback from orthopaedic surgeons related to the clinical use of the device. WP6 
+will also demonstrate the functionality and application of the device during a real arthroscopy surgery.     
+ 
+Figure 20. Project overview PERT Chart 
+The GANTT chart provides an overview of all work package’s tasks and includes the milestones. The project 
+duration will be 48 months (40  months for technological dev elopments and prototyping, and 8  months for 
+demonstration in clinical settings). Work breakdown into work packages is based on gathering related work, rather 
+than on gathering tasks that occur at around the same time. Therefore, some of the work packages are executed in 
+parallel throughout the project. 
+
+780598  MIRACLE   Part B Page 47 of 96 
+ 
+ 
+Figure 21. MIRACLE GANTT chart
+Task Description                                                                  Months 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51
+WP1 Clinical applicability
+1.1 Ethics
+1.2 Clinical protocol development
+1.3 Specifications and requirements for MIR arthroscopy device and user interface
+1.4 Pathway for regulatory approvals 
+WP2 Quantum cascade laser and iBEAM
+2.1 Quantum cascade laser light source development
+2.2 Beam combiner (iBEAM) development

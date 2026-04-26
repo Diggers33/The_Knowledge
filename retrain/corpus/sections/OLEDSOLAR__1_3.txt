@@ -1,0 +1,1027 @@
+1.3 Concept and methodology 
+ (a) Concept  : The overall project objective is twofold: (1) to design, build and scale roll -to-roll 
+manufacturing process and technologies (e.g. atomic layer deposition) aimed at complete protection of solar cells 
+and OLEDs against humidity, higher degree of automation, higher throughput and reduced cost, etc. Project results 
+will be integrated and demonstrated in a pilot line for continuous and high-volume production of CIGS photovoltaics; 
+(2) to design and implement, in two pilot lines, a real -time quality monitoring process based on hybrid optical 
+measurement techniques, aimed at monitoring, controlling and improving the quality of the production of 
+optoelectronic organic devices. The two pilot lines will reflect two wide industrial areas facing up-scaling challenges: 
+OLED industrial market (organic lighting panels), building integrated organic solar cells and CIGs.  
+The project is comprised on four main pillar technologies: 
+1. Development of innovative manufacturing processes for OLEDs and solar cells (in R2R and S2S) 
+2. In-line quality inspection and testing of OLEDs and solar cells 
+3. Recycling and Re-use approaches 
+4. Process Automation and control 
+The baseline for overall concept and methodology of proposed OLEDSOLAR solution is comprised of following: 
+ 
+Figure 4 Project concept layout 
+OLEDSOLAR project proposes OLED and (CIGS and organic) solar cells manufacturing processes within R2R and 
+S2S manufacturing environment including pattering, deposition, packaging, lamination handling techniques and 
+systems. Most of the processes being developed ar e at TRL4 with few at TRL5 and project objective is to reach 
+TRL6. The validation of these processes will be done for specific device in pilot lines and production lines. (Activities 
+planned in WP1,2,6)  Further, a hybrid system of number of inspection and testing techniques and equipment 
+(Activities planned in WP3,6)  will be optimised in OLEDSOLAR to detect, control, and otherwise eliminate 
+potential quality issues within the production lines including; 
+ Mechanical defects (e.g. Shearography): Inspection for mechanical defects such as pinholes and cracks; 
+ Electrical-optical properties (e.g. Photoluminescence, Photo -CELIV, Modulated Electroluminescence 
+Spectroscopy, Impedance Spectroscopy, Transient Electroluminescence): Monitoring of opto -electrical 
+properties such as current, voltage, luminance, mobilities and the phosphorescence lifetime in an OLED, etc;  
+ Interfacial behaviour (e.g. Spectroscopic ellipsometry): Thermo -mechanical inspection for evaluation of 
+interfacial integrity in multi -layered structures ( interfacial delamination); monitor interface thickness in real -
+time: film growth, adsorption; monitor real time changes at interfaces; 
+ Surface measurement (e.g. Spectroscopic ellipsometry): Roughness thickness, native oxide thickness, 
+depolarization coefficient;  
+ Thickness measurement (e.g. Spectroscopic ellipsometry): Single and multi-layer thickness measurement; 
+
+ 
+13 
+OLEDSOLAR  
+ Material properties (e.g. Spectroscopic ellipsometry): Film porosity, gradient, microstructure information 
+ All inspection and data acquisition sy stems would be integrated into process control and feedback systems 
+throughout the production line. These technologies will be used to correlate defects to performance (lifetime and 
+efficiency); 
+ Barrier film qualification and HSI 
+ OCT technique for benchmarking and validation, 
+ Measurement tools to monitor manufacturing parameters e.g. printing speed etc. 
+Moreover, recycling and re-use strategies and processes will be developed to dismantle discarded devices and sort 
+out parts to be re-used or recycled into materials and fed back into production processes. Repair strategies will also 
+ve developed in OLEDSOLAR project. (Activities planned in WP5,6) 
+The whole production process will be automatized using network of sensors and intelligent decision management 
+software, (Activities planned in WP4,6) 
+The overall project scope is shown in figure below: 
+ 
+Figure 5 Project activities detailed scope and partners involvement 
+Overall chain of project development: 
+1. Development of innovative manufacturing processes for OLEDs and solar cells 
+Several recent developments in material science and deposition methods for flexible organic light -emitting devices 
+(OLEDs) are surveyed. The commonly used plastic substrates are compared, according to their mechanical, optical, 
+thermal, and chemical proper ties. Multilayer electrode structures, used as transparent electrodes, replacing 
+conventional indium tin oxide (ITO) are presented and data about their conductivity, transparency, and bending 
+Development, optimisation and scale up activities 
+Pilot line trial 
+Production line validation at ASPF (OPVs),Solibro(CIGS),INURU(OLEDs),DTF(films) 
+ 
+14 
+OLEDSOLAR  
+ability are provided. Attention is paid to some of the most popu lar industrial processes for flexible OLEDs 
+manufacturing, such as roll-to-roll printing, inkjet printing, and screen printing. Main specifics and challenges, related 
+to the foils reliability, mechanical stability of the transparent electrodes, and deposit ion and patterning of organic 
+emissive films.  
+Material handling:  Material handling embraces all of the basic operations involved in the movement of bulk, 
+packaged, and individual products in a semisolid or solid state by means of machinery, and within the  limits of a 
+place of factory and production line. The objectives of material handling are further defined as: 
+ Increase efficiency of material flow 
+ Improve facility utilization 
+ Improve safety and working conditions 
+ Facilitate the manufacturing process 
+ And all the above at a reduced cost 
+Material handling can account for 30 -75 percent of production costs and can reduce operational costs by 15 -30 
+percent (Frost and Sullivan). In OLEDSOLAR project, pick and play, lamination tool and substrate handling system 
+will be optimised up to TRL6 on the basis of development already achieved by Coatema (at TRL4). 
+Coatema has developed and demonstrated the Click&Coat® Technology for R2R-pilot and production lines (Figure 
+8). This means that individual modules, e.g. winder,  edge guiding, corona, coating, dryer or lamination for each 
+process have been developed. Bespoken modules, e.g. inert coating, rinsing, registration and cutting have also been 
+developed. With these modules any process can be configured, e.g. with minimum front-site contact. You only use 
+the modules needed for the desired process. Within 1 h the configuration of the Click&Coat®-modules can be changed 
+to enable a totally different production process.  As a consequence, several production steps (e.g. to addre ss niche 
+markets) can be realized with only one pilot line. Therefore, the Click&Coat ®-Technology offers the highest 
+equipment flexibility with a high utilization and low cost of ownership.  
+ 
+Figure 6 The principle of Click&Coat®-Technology by Coatema 
+Figure 9 shows a coating line, which has been developed in the EELICON-Project. This Click&Coat®-configuration 
+consisted of 12 individual modules resulting in a total length of 23m. 
+ 
+Figure 7 The Click & Coat®-Pilot Line at Coatema. 
+ 
+Figure 8 Coatema´ s Engineering solution for inert slot-die coating (left), lamination, LED-curing (center) and its final cutting 
+(right), which was realized in the EELICON-project for the electrochromic film R2R-Pilot line. 
+Such adaptable click and coat system wi ll be optimised in the OLEDSOLAR project considering validated above 
+system for electrochromic films are similar in its process requirements as OLEDs or OPV. The film thickness and 
+thickness homogeneity are in the range of nm. The films are sensitive towards moisture and particle contamination. 
+Within the OLEDSOLAR consortium it can be expected that similar cost saving predictions by novel engineering 
+
+ 
+15 
+OLEDSOLAR  
+solutions can be anticipated in the engineering study from Coatema for the existing pilot lines.  This system will 
+contribute to the impact of process reconfiguration time by achieving time reduction by more than 15%. 
+Manufacturing processes at CSEM 
+1) Semi-transparent OPV module A typical process flow consists of the following steps: 1) Design of the module. 
+Using an advanced FEM solver both the number and the size of interconnected cells are optimized for maximum 
+power output. To reduce resistive losses the ITO bottom electrode is metallized with a metal grid with geometry 
+optimized for low resistivity. 2) Generation of the layouts of the layer in the module, including alignment marks, 
+3) ITO patterning by chemical etching or laser ablation, 4) Thermal evaporation of the metal on the ITO, 5) blade 
+or slot-die coating of the layer, 6) Patterning of the coatings into individual cells, 7) Deposition of the metal top 
+electrode (by thermal evaporation, or screen printing). 
+ 
+Figure 9 (a) Printed flexible OPV module. The top module includes a nanostructured foil with the CSEM logo. The foil is 
+embedded between the OPV module and the outer barrier. The nanostructures were designed such that the logo becomes 
+visible under a steep angle 
+2) Diffractive nanostructure  
+1) Design of the structures using rigorous coupled -wave analysis (RCWA), 2) Origination of the structures using 
+laser interference lithography, 3) Fabrication of first or higher generations of Ni shims by galvanic growth. 4) 
+Creation of a stamp by UV replication, 5) Upscaling to 20cm x 40cm using automated step & repeat UV replication, 
+6) Fabrication of large area Ni shim, 7) Large area shim is mounted on hot embossing pilot line, 8) Hot embossing 
+into thermoplastic polymer films. 
+Material deposition: 
+Spatial atomic layer deposition: 
+Atomic layer deposition (ALD) technique is a well acknowledged thin film growth technique to generate high-quality 
+materials such as oxides, nitrides, sulphides, and metals. ALD method is based on the sequential exposure of a 
+substrate to self -limiting surface reactions, which enable a sub -nanometre scale thickness control of the deposited 
+material. By the self-limited nature of these reaction, ALD allows the fabrication of continuous, dense and virtually 
+pinhole-free layers with an excellent surface coverage and unrivalled conformality also on complex structures. Whilst 
+ALD is already commercially adopted in the semiconductor industry (i.e. high -dielectric oxide for field effect 
+transistors), the benefit of this technique has been successfully explored also in other applications such as flexib le 
+displays, flexible organic light- emitting diodes and photovoltaics. ALD Al 2O3 layer works as an excellent surface 
+passivation layer in crystalline silicon solar cells. Zn(O,S) based buffer layers in copper indium gallium selenide 
+(CIGS) are alternative candidate to cadmium sulphide films towards cadmium free CIGS solar cells. Finally, several 
+ALD layers have been proven as excellent moisture diffusion barrier films for OLEDs and thin film photovoltaics. 
+Despite the superior quality of these functional A LD layers, the conventional ALD technique is not economically 
+compatible with all the applications where high-throughput and low-cost in line production techniques are required. 
+Indeed, conventional ALD processes exhibit very low deposition rate in the order of A-nm/min, requiring expensive 
+vacuum systems which add complexity when upscaling to large substrate sizes. In order to meet the requirements of 
+fast depositions and low-cost manufacturing processes, spatial ALD (s -ALD) approach has been developed. In  the 
+conventional ALD, the precursors are dosed inside the reaction chamber in two different moments, separated in time 
+by purging steps (Figure 1). Spatial ALD approach relies on the injection of the precursors in two separate zones of 
+the reactor, using inert gas curtain to provide the physical barrier separation and to avoid any precursor mixing and 
+thus parasitic chemical vapour deposition contribution in the film growth. Since purge times are no longer required, 
+s-ALD enables to significantly increase the deposition rate, which become only dependent on how fast the sample 
+can be moved, on the design of the reactor, and ultimately, on the kinetic of the surface reactions. Due to the presence 
+of the gas curtain, the reactions zones are completely isolated  from the external environment, enabling operation 
+under atmospheric pressure conditions. The last, is extremely appealing since make the spatial ALD technique 
+compatible with other in line low cost deposition technique such as ink jet and slot die printing. 
+a b c 
+ 
+16 
+OLEDSOLAR  
+ 
+Figure 10 Schematics 
+representation of a) 
+conventional ALD process 
+where the separation of the 
+precursors in time is 
+provided by the use of purge 
+steps, b) spatial ALD process 
+where the separation is ensured by the injection of precursors in two different zones of the reactor and by the presence of inert 
+gas curtains 
+TNO combined gas bearing technology with atmospheric pressure gas phase deposition technology. The use of gas 
+bearing enables to minimize the distance between the reactor and substrate with an accurate control of several tens 
+of micrometres. The first concept of spatial (S-)ALD lab scale tool was developed in 2009 (See Figure 2). A second 
+one has been installed in 2016. Both tools can be run with the injector head w ith a plasma source, enabling 
+atmospheric plasma enhanced (PE) (S-) ALD.   
+TNO developed also a substrate contactless roll-to-roll spatial ALD reactor consisting of a central drum that contains 
+one or more combinations of metal precursor and oxygen source (i.e. water vapour) half-reaction zones. These zones 
+are separated and surrounded by nitrogen gas bearings. The foil to be coated is pulled over this drum, where the gas 
+bearing ensures that the foil is kept at a fixed distance from the surface of the drum  (typically tens to hundreds of 
+micrometres). The absence of mechanical contact between the deposition side of the foil and the reactor minimizes 
+contamination of the foil with particles which would lead to detrimental pinholes in the deposited films. High  
+deposition rate can be achieved moving the foil in one direction and rotating the spatial ALD injector drum to the 
+other one.  A prototype has been installed at TNO with a web width of 30 cm.  
+TNO developed also a sheet to sheet (S2S) Spatial ALD pilot line to process substrates size of maximum 325 x 400 
+mm. This tool can also be run with an injector tool with plasma source. 
+ 
+Figure 11 Schematic representation and image of lab scale, large area sheet to sheet (S2S) and roll to roll (R2R) s -ALD 
+reactors. 
+TNO is currently developing new tools, processes, based also on atmospheric plasma technology, with the aim of 
+upscale these solutions on S2S and R2R tools for applications such as encapsulation, photovoltaics, and solid -state 
+lighting. SMIT TS has engineered both R2R and S2S tools that perform Spatial ALD. For pilot production on flexible 
+substrates, the FLEx R2R sALD system (Figure 11) is available for coating on foil up to a web width of 60 cm. 
+Currently the ALD process uses TMA and water for deposition of AlOx functional barriers, whereby the H2O is 
+thermally decomposed. These tools are presently at TRL 5(“ . The foreseeable challenges on the path to TRL6 are:  
+ establishment of standard operating procedures and 
+maintenance (WP2 & WP4) 
+ meaningful characterization of several hundreds  of square 
+meters (WP3) 
+ stability of web height over several hours and its gas separation 
+performance(WP2 & WP4) 
+Figure 12 FLEx Roll to roll (R2R) s-ALD pilot production system for a web 
+width of 60 cm made by SMIT TS. 
+The Plasma e nhanced spatial atomic layer deposition has been 
+developed and implemented on the S2S sALD tools. For the R2R systems, this is new and is desired for additional 
+
+ 
+17 
+OLEDSOLAR  
+flexibility of precursors (e.g. water –free oxidant) and process window (e.g. low temperature de position) and 
+compatibility with moisture sensitive devices. is an option on the R2R and S2S sALD tools. Its maturity is TRL4. 
+The challenges for this specific technology are: 
+ Development, integration and testing of PE sALD compatible with R2R pilot production  
+ Understanding of the plasma interaction with the substrate (WP3) 
+ Relation between quality of the layer and (plasma) process parameters (WP2) 
+Process goal is a low temperature deposition on moisture sensitive devices on flexible web. 
+The technology, now at its TRL4 (“ , Plasma Enhanced Spatial Atomic Layer Deposition (PEsALD), is applied in a 
+Roll to Roll (R2R) equipment.10  
+The foil is brought on a drum where, by means of a gas 
+cushion, floats without touching it. In the clearance between 
+the drum and the foil the deposition takes place. The 
+deposition occurs when the substrate is e xposed to 
+alternating precursor gases, usually two. This 
+separation is achieved by an additional bearing gas. Each 
+cycle creates a layer in the crystal structure. Hundreds of cycles are 
+needed to achieve few tens of nanometre. 
+For the case of an Aluminium Oxide deposition these are the three gases of choice: 
+ material precursor gas 1:    Trimethylaluminium (TMA),  
+ Material precursor gas 2:   Water damp (H2O), O2, O3  
+ reaction confinement purging gas:   Nitrogen (N2) 
+Due to the sensitivity to high temperature and moisture of the targeted surfaces, alternative low temperature 
+processes are desired. This can be achieved by using a plasma to dissociate the oxidant and makes possible using 
+alternative precursors for oxidation that avoids direct exposure to moisture, of important for moisture sensitive 
+devices. (Langereis et al. 2006). A test bench (or loop-coater) will be developed to facilitate integration of a plasma 
+enhanced (PE) unit compatible with an R2R sALD system. This needs to be developed as it is non-existent at this 
+moment and adds a high degree of innovation to the project. Aside for allowing integration and testing, the test 
+bench will make possible coating of foil with and without PE for analysis of layer functionality and product 
+compatibility (half-fabricates from partners). The developed unit is meant to be compatible with an existing R2R 
+sALD pilot production system to allow for end-users to select such a system for a (future) pilot line.  
+Material deposition: A thin (5nm to 50nm, preferably 20nm) Aluminium Oxide layer is deposited conformally on 
+the devices. This layer has excellent moisture barrier properties (<10 -4 g(water)/m2/day). Such deposition can be 
+made more robust by using organic pre-coating and post -coating respectively for planarization and mechanical 
+protection purposes. 
+Production system: The functionality that the AlOx layer delivers is qualified by its long -lasting quality. Testing 
+this function therefore means verify for a l ong time that the layer is performing. This is not in line with a quick 
+feedback. For this reason, proxy measurements are used.  
+ geometrical and composition changes of the layer (spectroscopic ellipsometry) 
+ particle or irregularities on the substrate (electrical optical properties) 
+ cracks initiation (shearography) 
+ others 
+These proxies are established by experience; however, their effectiveness is at TRL4 stage. 
+Process adjustments have to be both rapid and accurate: 
+Organic Pre and post coating could be digitally defined by using an inkjet printing platform. Furthermore, the plasma 
+enhancement can open structuring freedom11. 
+ 
+2. Inline In-line quality inspection and testing of OLEDs and solar cells 
+Monitoring system for the organic thin film deposition process in OLEDSOLAR 
+Several optical monitoring systems exist that have a suitability to different coating features (dry/wet, transparent or 
+not, different thickness, etc). The project approach will be to combine and tailor commercially available technologies 
+                                                 
+10 (Kessels and Putkonen 2011; Poodt, Cameron, et al. 2011). 
+ 
+11 (Poodt, Kniknie, et al. 2011) 
+Figure 13 PESALD Process layout 
+
+ 
+18 
+OLEDSOLAR  
+for the target application and some have already been implemented successfully by IRIS in previous projects for 
+OPV lines. Specifically, two optical nanometrology monitoring systems, one based on spectral reflectance and 
+another on ellipsometry will be designed  and built for measuring continuously and in real -time thin film thickness 
+and/or yield. These sensors will be capable of measuring thin films on polymeric substrates either below a micron or 
+in the tens of microns range offering a rapid response. Dispersion will be tested offline during process optimization 
+and is not expected to vary once robust processes are established although their impact on the final properties such 
+as barrier would be detected by the quality control tests of the products. Neverthele ss, some online thickness 
+measurement down to the nanoscale will be integrated in the project as one of the most important acceptance criteria 
+for the industry for the nano-enhanced processes to warranty constant barrier and effect of the surface modificat ion 
+for the products resulting from the upgraded processes. The sensors will be integrated in a suitable test rig to enable 
+their off -line calibration vs. standard measurements using relevant sample sets selected by the end users. The 
+previously built monitoring systems will be integrated in the respective target production lines for in -line thickness 
+measurement. 
+Advances in thickness measurements of organic coatings and deposition processes in OLEDSOLAR 
+Optical techniques are the preferred method for meas uring non-opaque thin films because they are accurate, non -
+destructive, and require little or no sample preparation. The two most common optical measurement techniques are 
+spectral reflectance and ellipsometry. Spectral reflectance measures the amount of l ight reflected from a thin film 
+over a range of wavelengths, with the incident light perpendicular to the sample surface. Ellipsometry is similar, 
+except that it measures reflectance at non -normal incidence and at different polarizations. In general, spect ral 
+reflectance is much simpler and less expensive than ellipsometry, but it is restricted to measuring less complex 
+structures. In view of the importance of nanometrology for obtaining fast product and process design, different optical 
+systems based on sp ectral reflectance and spectroscopic imaging ellipsometry will be used for high speed inline 
+monitoring of the coating application processes (range 1-50 microns dry) and, on the other hand, to assess the quality 
+of the deposition process (range expected 50-200 nm dry) on a range of substrates. 
+System based on spectral reflectance: Reflection occurs when light crosses the interface between different materials. 
+The reflections from the different interfaces may add together either constructively or destructively depending on 
+their phase relationship, which is determined by the difference in optical path lengths of the reflected beams, which 
+in turn is determined by thickness of the film, its optica l constants, and the wavelength of the light. Therefore, the 
+reflectance of a thin film will vary periodically with the inverse of the wavelength, and 
+thicker films will exhibit a greater number of oscillations over a given wavelength range, 
+while thinner films will exhibit fewer oscillations or only part of an oscillation, over the 
+same range. Spectral reflectance can be used to measure the thickness, roughness, and 
+optical constants of a broad range of thin films. However, if there is less than one 
+reflectance oscillation (i.e. the film is very thin), there is less information available to 
+determine the adjustable model parameters. While the number of film properties that may 
+be determined decreases for very thin films, if only thickness is of interest the  minimum 
+single-film thickness that can be measured using spectral reflectance is about 10 Å to 300 
+Å. However, when solving for the optical properties of more than one film, the 
+minimum thickness increases further12. 
+Spectral reflectance can be used to measure a large number of technologically important films. For example, it is 
+widely used in the semiconductor industry to measure the thickness, 
+roughness, and optical constants of oxides, SiNx, pho toresist, and other 
+semiconductor process films. It is also used to monitor thin films used for 
+scratch resistant and antireflection coatings, automotive plastics, eyeglass 
+lenses, and many plastics packaging applications. However, when films are 
+too thin,  too numerous, or too complicated to be measured with spectral 
+reflectance, they can often be measured with the generally more powerful 
+technique of spectroscopic ellipsometry. 
+System based on ellipsometry: Ellipsometry measures a change in polarization 
+as light is reflected from a surface. When linearly polarized light is reflected 
+from a surface, in general the amplitudes of its two perpendicular electric field components change and so does the 
+phase between them. The light becomes elliptically polarized.  Various types of ellipsometry exist, but a common 
+form is the rotating polarizer. In this design, linearly polarized light is incident on the sample surface, but the polarizer 
+is rotated, so that the plane of polarization rotates about the axis of the inc ident light. On the detector side, the 
+(generally) elliptically polarized light is passed through a fixed analyser. The intensity of light on the detector 
+oscillates with rotation of the incident polarizer according to the amplitude and phase change. The polarization change 
+                                                 
+12 Filmetrics – Thin-film measurement technical note 
+Figure 14 Opti nano Pro system 
+Figure 15 Hyperspectral imager 
+ 
+19 
+OLEDSOLAR  
+is represented as an amplitude ratio and a phase difference. The measured response depends on optical properties and 
+thickness of individual materials and therefore ellipsometry is primarily used to determine film thickness and optical 
+constants13. By measuring reflectance at non-normal incidence, ellipsometry is more sensitive to very thin layers, and 
+the different polarization measurements provide more information for analysis. The trade-off here is a more complex 
+and costly system as well as a slower speed of operation. Online monitoring module based on ellipsometry to control 
+the deposited thickness of very thin graphene films was already reported14. 
+ 
+Figure 16 Ellipsometry system 
+Online spectroscopic ellipsometry has been implemented on roll to roll printed organic electronic layers15, and 
+commercial prototypes have been developed by Horiba16 and Semilab17. 
+There has been extensive work on metrology of nanoparticles using ellipsometry, making use of effective medium 
+approximations to model the structured layer as a 
+combination of its constituent parts. Thickness, optical 
+and electronic properties have been measured for a 
+variety of nanoparticle layers including SiO2 particles in 
+ORMOCER barrier layers on PET 18, HgTe 
+optoelectronic nanocrystal multilayers 19 and gold 
+plasmonic nanostructures20. Part of the advancement of 
+the state of the art in OLEDSOLAR will be to apply 
+thickness measur ement using the above -mentioned 
+technologies inline on organic thin film deposition 
+processes. 
+Raman & Luminescence In-Line Metrology 
+The fundamental feasibility of investigating of organic LEDs and organic PV components and systems by means of 
+Raman (micro-)spectroscopy (RS) and/or different luminescence 
+techniques, in particular photo -luminescence (PL) and electro -
+luminescence (EL), is well established. It has been shown that RS 
+can be used to identify and quantify different components, like 
+fullerenes in polymer matrices that constitute a vital of organic 
+photovoltaics. 
+             Figure 18 Typical Raman spectrum of a  cross linked ethylen 
+vinyl acetate (EVA) sample. 
+Equally, RS can distinguish between different crystal morphologies, 
+both for organic and inorganic materials as well as measuring 
+mechanical stresses and stress distributio ns. Exploiting phonon 
+effects, it is even possible to non -destructively measure dopant 
+concentrations and their electrical effects in materials, a capability that is of interest e.g. for studying CIGS layers 
+and the like. The limitation with regard to the objectives of OLEDSOLAR is that almost all of this studies focus on 
+the material science part, aiding the 
+development of new (nano -)materials and 
+studying light-material interaction. While 
+RS is now being routinely used as a PAT 
+tool in e.g. the pharma ind ustry, very few 
+examples of true RS process analysers 
+have been described for LED and/or PV 
+manufacturing. It has, however, been 
+shown that RS can be used as an in -line 
+tool, for instance to measure the degree of 
+                                                 
+13 The complex refractive index and reflectometry versus ellipsometry. N J Elton. Surfoptic Reflectometry Technical Paper No. July 2007 
+14 http://spie.org/documents/Newsroom/Imported/005227/005227_10.pdf 
+15 S. Logothetidis et al. / Solar Energy Materials & Solar Cells 112 (2013) 144–15 
+16 http://www.horiba.com/fileadmin/uploads/Scientific/Documents/TFilm/uvisel_inline.pdf 
+17 P. Basa, Lope-C 2013, In-line thickness and composition monitoring of deposited coatings in a roll-to-roll process tool by spectroscopic ellipsometry 
+18 A. Laskarakis et al. / Thin Solid Films 517 (2009) 6275–6279 
+19 V. Rinnerbauer et al. / Physica E 32 (2006) 104–107 
+20 M. Losurdo / Thin Solid Films 519 (2011) 2575–2583 
+Figure 17 Inspection data measurement software 
+Figure 19 Characterization of defective photovoltaic modules by using 
+electroluminescence imaging (Source: CTR) 
+ 
+20 
+OLEDSOLAR  
+crosslinking in assembled (classical, i.e. Si cell-based) PV modules. The situation is similar for PL and EL, which, 
+however, have recently been shown to be applicable also for investigating modules in the field. 
+EL measurements take advantage of the radiative inter-band recombination of excited charge carriers in solar cells. 
+For EL investigations the module is operated as a light emitting diode and the emitted radiation due to recombination 
+effects can be detected with a sensitive CCD camera. The solar cells are supplied with a defined external ex citation 
+current (current applied=ISC) while the camera takes an image of the emitted photons. Damaged areas of a solar 
+module appear dark or shine less than areas without defects.  
+Electroluminescence imaging can be used to detect a number of defects in crystalline and thin film solar cells. The 
+high resolution of the EL -images enables to resolve some defects more precisely than in IR -images. It was shown 
+that electroluminescence is a good method to detect micro cracks, interrupted contacts or a number of process failures 
+(e.g. shunts or defects in the antireflection layer) but it was not possible to 
+determine the influence of these defects on the cell/module power output. 
+The first challenge and expected advance of this task of OLEDSOLAR over 
+the state of the art is hence to match the expectations by the component and 
+systems manufacturers with inherent spectral and/or spatial features, to 
+establish the basic feasibility of the required analysis by one or more of the 
+aforementioned methods. The second step is then to select features that are 
+sufficiently stable to have a chance to yield reliable results under process 
+conditions; this involves, for instance, investigating approaches for self -
+referencing models, both along the spectral scale (to eliminate e.g. thermally 
+induced spectral drifts and minimise otherwise necessary efforts for 
+extremely reliable temperature conditioning of the spectrometers) 
+and the intensity information. The objective behind this is to create 
+robust models that have a realistic po tential of conveying 
+meaningful information on the process or product in real-time under 
+process conditions. The third R&D phase then deals with a test 
+implementation on an industrial scale, involving customised sample-
+device interfaces, relying e.g. on fi bre optics, dedicated algorithms 
+and spectral analysers customised to the spectral features of interest 
+to maximise both reliability and analytical sensitivity. 
+Figure 20 schematic sketch of a inline PV quality measurement setup with Raman inspection head  (Source: CTR) 
+Hyperspectral imaging  
+Hyperspectral imaging (HSI) combines spectroscopic analysis with and 
+imaging technologies. Dedicated cameras enable the simultaneously 
+acquisition of spectral data at many sample positions from the UV up to 
+NIR. Different data analysis approaches enable the spatial resolved 
+inspection of certain sample properties (e.g. optical properties, properties of 
+the sample topology) or the evaluation of properties of a certain sample area 
+(e.g. its quality). On one hand the theory of beam propagation in layered 
+systems will be used on the other hand multivariate data analysis and deep 
+learning methods are used. The latter are in p articular the basis for inline 
+application of HSI technology in combination of data acquisition in the 
+range of kHz 
+Inline NDT techniques: 
+Shearography has been used in industry for defect detection to supplement ultrasonic and other NDT techniques. 
+Digital shearography is one of the most promising techniques, with the potential for rapid non-destructive evaluation 
+as well as the quantitative  measurement of strains, stresses and vibrations. Compared with traditional NDT 
+techniques, shearography reveals a defect within an object (e.g. organic solar cell device) by identifying defect -
+induced deformation anomalies. The commonly used means of stressing are heating, vacuum-pumping (by a vacuum 
+chamber or a vacuum hood) and vibration excitation. Digital shearography is effective in detecting a variety of flaws 
+such as voids, disbonds, delamination etc. However, flaw characterisation in practice is a complex task, which 
+depends on both the nature of the flaw (shape, size, location) and the status of the applied stress at the location of the 
+flaw. The key to the success of shearography in defect detection is to impose an appropriate stress status on the object 
+under investigation. If an appropriate means of stressing is adopted, shearography can inspect a relatively large area 
+in a fraction of a second.  
+Experimental procedure: 
+Figure 21 Hyperspectral imager at a 
+R2R-process 
+
+ 
+21 
+OLEDSOLAR  
+ The laser shearography principle consists of interferometric comparison of a test object in two states, an initial 
+and a loaded one, or at different loading conditions; 
+ Use of thermal heating as the means of stressing the samples for defect detection (e.g. by using a heat gun to heat 
+the samples for a short period of time, during w hich shearography fringe patterns are acquired in real time or 
+through post processing of the recorded laser speckle images); 
+ For thin panels or film components, vibration excitation may be a better stressing means. A PZT actuator may 
+be used to produce vibration excitation. With time averaged shearography, it is expected to detect delamination 
+and/or disbands between different layers of the OPV and other panels. 
+ Advanced software algorithms to highlight the deformation anomalies, which in turn reveals surf ace or sub -
+surface defects; 
+ Comprehensive algorithms and AI -driven system will be developed for automatic defect recognition. These 
+algorithms will build on fringe processing, edge detection, dimensional measurement, localisation of centroid of 
+a target and pattern recognition methods based on statistical model and artificial neural network.  
+ 
+Figure 22 (a) Shearography system at TWI (b,c) fringe pattern showing subsurface defects (representative example) 
+OLED material screening using the robotic spin coating platform 
+Design of the experiment: number of materials, material combinations, layers in the stack, concentrations, solvent 
+class. 2) Preparation of stock solution at concentrations calculated in the design, preparation of substrates, preparation 
+of the platform, 3) Automated generation of code from the experimental design file, 4) Automated run of 49 samples. 
+All first layers are completed before the next. Completed layers are temporarily stored in N2. Processing in parallel 
+using two spin coaters. 5) Thermal evaporation of the top electrodes on 49 samples, 6) Semi -automated J -V-L 
+characterization. 
+ 
+ 
+Figure 23 The robotic spin coating platform for combinatorial material testing. 
+Inspection is a crucial part of all manufacturing workflows at CSEM Muttenz. Since its manufacturing infrastructure 
+consists of stand-alone S2S equipment, rather than a single manufacturing line, it is well suited for the development 
+of new processes or process flows. The qualit y of the manufacturing process is controlled by visual inspection 
+between each process step. The thicknesses of thin layers are characterized using profilometry or AFM; the shape of 
+fabricated nano/microstructures using AFM or SEM; the quality of optical c oatings by transmission spectroscopy. 
+The topography over a larger area of micro structured surfaces is inspected by optical coherence tomography. 
+ 
+Automated Defect Recognition (ADR) system implemented with image processing and machine learning. 
+Technology development: An enhanced technique using image processing will be developed for determining the 
+critical defects in the OLED/OPV component based on the acquired signal (i.e. images obtained by optical diffraction 
+system), to ascertain the defect  size and type to a high degree of certainty (>95 accuracy). Different filtering and 
+thresholding algorithms can be evaluated and compared in term of their effectiveness on defect identification. 
+The machine learning technique will potentially use deep learning neural network to detect and classify defects.  
+
+ 
+22 
+OLEDSOLAR  
+ 
+Figure 24 Data processing flow diagram 
+(1) Image processing 
+For part characterization based on X -ray, the required image processing steps have previously been investigated in 
+image processing and computer vision 21. A flow diagram is shown in Figure 1 for the image processing procedure 
+for automatic inspection. There are four key stages: image restoration and enhancement, image registration and 
+subtraction, image segmentation, and morphological operation. Each stage is described below in details. 
+ 
+Figure 25 Typical ADR flow 
+The above workflow will be adopted for image processing in OLEDSOLAR. An example of the ADR process based 
+on acquired x-ray images analysed and tested by BUL are illustrated in figures below. 
+Besides applying a single method for thresholding, hybrid methods can also be used for improved performance. 
+Subsequently, on the basis of set theory, simple mathematical operators are derived fo r morphology, which can be 
+exploited in this project to remove noise, enhance image, and detect object edges in the binary images. An example 
+of such ADR process is applied successfully in acoustic signal to produce image is shown in Figure below. A 
+characterization of object (i.e. defect) could be represented in Figure below which shows the comparison of 
+unprocessed and image-processed (via the ADR process) results, in which the latter clearly demonstrates a significant 
+boost of confidence in the results. 
+ 
+Figure 26 Original 2D image slices of 
+the material under test with defects 
+ 
+ 
+Figure 27 After denoising with Wiener 
+filter 
+ 
+ 
+Figure 28 Before and after image 
+registration 
+                                                 
+21 A. Rosenfeld and A. C. Kak: ‘Digital picture processing’, 2nd edn, Vol. 2, 1982, New York, Academic., 
+T. Y. Kong and A. Rosenfeld: ‘Digital topology: introduction and survey’, Comput. Vision Graph., 1989, 48, 357 –393.J. K. Udupa: ‘Multidimensional digital 
+boundaries’, CVGIP: Graph. Model Im. Proc., 1994, 56, 311–323. 
+ 
+Input x-ray 
+images 
+(reference and 
+acquired)
+Image 
+enhancement 
+and restoration
+Image 
+registration and 
+subtraction
+Image 
+segmentation
+Morphological 
+operation
+Defect 
+characterisation
+
+ 
+23 
+OLEDSOLAR  
+   
+        Figure 29 Difference images after image subtraction         Figure 30 Thresholded images after morphological operation 
+ 
+Figure 31 Example of ADR process applied to acoustic signal and (on elft) Comparison of unprocessed and processed image 
+which the latter improves the confidence level of object identification in which the size can be estimated.  
+ (a) Unprocessed image                                     (b) Processed image to identify objects 
+(2) Machine Learning for defect detection and classification 
+Machine Learning has been shown to deliver state of the art results in data science applications. One of the great 
+achievement in the machine learning technology during recent years is the Deep Learning, which are being 
+successfully applied in a wide range of applications in business, medicine, geology and physics to solve problem of 
+prediction, classification and control. Deep Learning network require fewer training samples and generate higher 
+accuracy than the conventional back-propagation algorithm. With proper pre-process and feature extraction, the deep 
+learning network can classify more complicated raw data and very abstract data. I t can handle a variety of image 
+classification tasks in industrial vision environments, such as fault detection, object recognition, operation prediction, 
+engine controlling etc. 
+Advantage of Machine Learning Method for OLED/OPV Inspection: 
+ Feasible. Providing enough and well selected training strategy, the machine learning methods can be used 
+to handle various complicated cases. 
+ Robust: Machine Learning methods are applicable in almost every complicated situation where a 
+relationship between input and output parameters exists, even if the relationship is very complex and cannot 
+be expressed or handled by other modelling methods. 
+ Controllable. By selecting proper training samples and network parameters, the machine learning method 
+can be tailored to process various specific inspection task. 
+ Self-Adaptive: Neural Network is an adaptive system that changes its structure based on information 
+provided in the training process. The machine learning strategy and parameters can be further adjusted based 
+on the onsite accuracy. 
+ Natural. The basic principal of feature extraction, train sample selection, network training, and classifying 
+is to simulate the human process, and results can be compared and reviewed by human inspection. 
+Data Acquisition: The proper selection of training data can affect the speed of training process, the chance of stuck 
+in local minima, overall accuracy of recognition results, and tolerance to image quality. The network is expected to 
+not only detect defect, but also group different type of def ects, and must be able to process image under various 
+quality. The training samples are selected from the data set of pre-processed x-ray images. A variety of faults will be 
+simulated. The sample without any detected are collected as background images. The defected training samples are 
+manually selected, classified and labelled. The training images are required to cover various type of defects, and 
+various extent of noise and image quality. The defect training dataset consists of several subgroups, each hav ing its 
+own central tendency towards a particular pattern. The defect samples are required to represent every group of 
+patterns. All of these patterns must be well represented. Within each subgroup, statistical variation must be adequately 
+represented. The range of defect must represent every range of data including various situation of noise. In certain 
+cases, only lower and upper bound data with few scattered data samples will be adequate if the variation can be 
+considered as linear. The images free of defected are used as background data. Experiment shows that training with 
+background data could dramatically reduce false recognition and improve the precision, even if the background 
+training data are not exhaustive. 
+
+ 
+24 
+OLEDSOLAR  
+Data Augment and Normalization : As the O LED image could be any direction, the training data need to be 
+transformed into various viewing positions, translations, reflections, and sizes. In the view of deep learning network, 
+the effect of data augment is to avoid overfitting. Overfitting is a result that the training process failure to capture the 
+genuine relationship between training samples and expected results. The overfitting network usually have large 
+difference between the accuracy of classifying the training samples and accuracy of classifying the testing samples, 
+especially when the network is in large scale.The common method of data augment is to extend the dataset using 
+label-preserving transformation. One of the basic requirement of data transformation is to produce new data from the 
+original image with very little computation, in order to avoid the transformed image to be swapped on disk which is 
+very time consuming. For a large scale network and complicated dataset which require repeated experiments, the 
+data swap on the disk should always been avoid as it could dramatically affect the progress of product development. 
+The data augmentation will potentially be implemented in Python on the CPU, while the training on the previous 
+batch of images will be processed on GPU. 
+The Network structures: Deep learning network have multi-layers, in which numerous similar elementary processing 
+units (neurons) connected together each other between layers and constructed into a network. The processed data of 
+each layer passes through the network towards the output layer. 
+The network for defect detecting is consist of multi -layers between input and output in the convolutional 
+architectures, which called the Convolutional Neural Network. Such architecture allows richer intermediate 
+representation to be created and trained. During the training process each layer is required to detect specific range of 
+features at different level, a synthetic strategy which simulates the human brain learning process. Usually the front 
+hidden layers are trained to detect lower level features like edges and lines, while later hidden layers are being trained 
+to detect high level features. The multi -levels feature analysing method gives the deep learning network more 
+powerful ability to extract useful intrinsic 
+difference and relati on between each classes, 
+which will be used to classify objects based on 
+the attributes of each object. 
+In general, large data set requires large scale 
+network. However large network not always 
+improve accuracy and sometimes it could result 
+in overfitting. Large network also cost more 
+training time. The size of network also depends 
+on some other factors like the hardware, 
+available memory, and batch size of training. 
+Some parameters need to be fine -tuned by ex periments. The architecture of our network may contains 8 learned 
+layers. Layer 1,2,3,4,5 are Convolutional layers. Layer 6,7,8 are fully connected layers. 
+Convolutional layers compute the output of neurons that are connected to local regions in the input, each computing 
+a dot product between their weights and a small region they are connected to in the input volume. The kernels of the 
+convolutional layer 2,4,5 are connected to those kernel maps in the previous layer which reside on the same GPU. 
+The kernels of the convolutional layer 3 are connected to all kernel maps in the layer 2. The neurons in the fully -
+connected layers are connected to all neurons in the previous layer. Response -normalization layers follow the 
+convolutional layers 1,2. Max -pooling lay ers follow both response -normalization layers as well as the fifth 
+convolutional layer. 
+The ReLU (Rectified Linear Units) non -linearity layer is applied to the output of every convolutional and fully -
+connected layer. Experiment shows that the ReLU structur e can improve the training speed several times for the 
+convolutional neural networks. The other types of neuron activation includes: Sigmoid, Tangent/Hyperbolic, 
+Absolute value, Power of shift and scale, logarithm of exponent etc. Each convolutional layer is followed by a Pooling 
+layer, which is used to progressively reduce the spatial size to reduce the amount of computation in the network and 
+also control the overfitting. 
+Layer 6,7,8 are implemented with ‘dropout’ parameter, which can roughly double the training speed. The basic idea 
+of ‘dropout’ is to randomly set output of some hidden neuron to 0, usually with probability of 0.5. The dropout 
+neurons do not contribute to the forward pass and do not participate in back -propagation. So every time an input i s 
+presented, the neural network samples a different architecture, but all these architectures share weights. This 
+technique reduces complex co-adaptations of neurons. When a neuron cannot rely on the presence of particular other 
+neurons, it will be forced to learn more robust features that are useful in conjunction with many different random 
+subsets of the other neurons. 
+The output of the last fully -connected layer is fed to a multi -way Softmax sub-layer which produces a distribution 
+over the all class labe ls. The network maximizes the multinomial logistic regression objective, which is equivalent 
+Figure 32 AI models 
+ 
+25 
+OLEDSOLAR  
+to maximizing the average across training cases of the log -probability of the correct label under the prediction 
+distribution. 
+During classification, the network t ransform the original image layer by layer from the original pixel array to the 
+final classifying results with confidence score. In each layer all the neurons multiply their outputs by 0.5, which is a 
+reasonable approximation to taking the geometric mean of the predictive distributions produced by the exponentially-
+many dropout networks. 
+Training and Testing Procedures 
+During training cycles the network adapt the weights of neurons based on training sample which represents the 
+desired outputs. After sufficient training, the network is able to relate the problem data to the appropriate solution 
+data. The training image data will be manually labelled and cropped. 
+There are two type of adaptive learning method in deep learning: 
+a) Supervised where the netwo rk is provided with a large number of known inputs. Thereafter, the network 
+produces the known outputs as closely as possible based on training. 
+b) Unsupervised learning, the network is required to work out relationships between various inputs without 
+being told. 
+The first layer uses supervised learning method, while other hidden layers use unsupervised learning method. 
+The training and testing scripts will be implemented in Matlab and Python on Linux system. 
+The accuracy is measured by Recall Rate and Precis ion on the testing samples which are not presented during the 
+training process. 
+By analysing the testing results the training samples probably need to be re-selected or re-generated in order to further 
+improve the accuracy. However it’s not necessary to re peat a new training from scratch. Experiment shows that a 
+repeated new training can be dramatically accelerated by applying a previous trained model to the several front layers 
+of network. That’s because the front layers detect low level features which are very similar between different dataset. 
+Automation and Control in production line: 
+By developing OLEDSOLAR project, a novel control and monitoring system using PAT technologies will be 
+applied whereby the industry brings the lab to the production process obtaining relevant data, in real time through 
+dedicated sensors. These sensors can range from simple temperature probes to complex optical analysers which 
+perform on-line chemical analysis or deposition layers. With this information and after applying deep-learning and 
+process control techniques we will be able to provide the operator with the essential information to efficiently 
+improve their process in terms of detection of film thickness, yield and other coating features.  
+IRIS has tested in previous projects a monitoring system called PATBox, PATBox its monitoring system that has 
+the following implementation stages of PAT systems during the production processes for OLED and solar cells:  
+1) Data collection is made by using analytical probes located at critical control points of different processes 
+industries of the optoelectronic devices.  
+2) To develop stochastic-data-based 
+predictive models by applying data 
+mining tools to the analytical data. 
+3) To optimize the process according to the 
+best model achieved by collecting and 
+mining data. 4)To perform model 
+maintenance along the life-cycle of the 
+optimized production line. 
+PATBox will become a versatile global control 
+system for OLEDSOLAR that will acquire and 
+processes the data for closed loop control of the process of for decision support. 
+3. Recycling and Re-use Process development: 
+IN OLEDSOLAR, an innovative approach will be used for the evaluation and selection of main techniques 
+(procedures and technologies) for the optimal reuse and/or recycling of OLED and solar panels components (as 
+wastes) both during manufacturing process as well as at the end of their life cycle. In detail, the approach will include 
+the identification, quantification and analysis of wastes produced during the manufacturing process by using Key 
+Performance Indicators (KPIs), the analysis of their potential reu sability into the production line according to their 
+related costs (raw material and/or production cost), definition of the potential handling and separation and finally, 
+the feasibility evaluation of the following recycling routes: (a) Grinding/homogenisation for external recycling by 
+using existing technologies (when needed), (b) manual sorting and pre-concentration of added value materials before 
+external recycling, and (c) internal recycling by using novel solutions.  
+Figure 33 Scheme of the system architecture 
+ 
+26 
+OLEDSOLAR  
+Particularly for the reusability po tential, the reuse of the OLEDSOLAR manufacturing wastes will be evaluated in 
+terms of potential loose of material properties. Regarding the validation of recycling technologies, mature and novel 
+pre-treatment technologies will be tested and evaluated at laboratory and/or pilot scale, depending on laboratory 
+results. Mechanical (i.e. grinding), thermal (i.e. heating) and chemical (i.e. leaching) technologies will be considered. 
+The project conceptual approach is depicted in figure below: 
+ 
+Figure 34 Recycling conceptual approach 
+Pilot Line and Production facilities for testing and demonstration of OLEDSOLAR solution:  
+VTT will offer pilot line facilities for testing the OLEDSOLAR concept.  
+The most important OLEDSOLAR-related pilot lines are the 
+following: 
+- MAXI printing line 
+ 4 interchangeable printing unit slots 
+ Available deposition units: forward and reverse gravure, 
+rotary silk screen, 
+flexography and slot die coating 
+ Plasma substrate treatment unit 
+ Lamination unit 
+ R2R hot embossing unit 
+ Die cutting unit 
+ Drying units (air, UV) 
+ Automatic registration system 
+ Max. web width 300mm 
+ Max. web velocity 30m/min 
+ 
+DELTA converting line 
+ 6 interchangeable converting unit slots 
+- kiss cut (top and bottom) 
+- lamination 
+- slitting 
+Figure 35 VTT's Pilot Line (Printing Equipment) 
+Figure 36 VTT's pilot line 
+ 
+27 
+OLEDSOLAR  
+ CO2 laser 
+ Automatic registration system for lamination 
+ Max. web width 300mm 
+ Max. web velocity 90m/min 
+ 
+ 
+TESLA2 R2R testing machine 
+ 192 measurement channels 
+ Minimum test pad size 2mm x 2mm 
+ Maximum test fixture size 408mm x 290mm 
+ Automated test fixture alignment 
+ In-house test fixture design and assembly 
+ Different measurement possibilities between test points 
+- LCR measurements 
+- DC Power supplies (0-60V, 0-8A) 
+- Electrical load 
+- OPV characterization (IV-curve) 
+- OLED and LED functionality testing 
+The pilot facilities will be used to develop automatic registration of transparent/non -transparent inks and high -
+resolution imaging of printing quality. The precis ion requirements of traditional printing come from the resolution 
+of the human eye. This accuracy is considerably worse than the precision requirements of the printed electronics, 
+where desire is often to achieve 
+micrometre precision. Therefore, 
+the regist ration cameras used in 
+traditional printing systems are not 
+suitable for printed electronics. It's 
+not just about the need for greater 
+magnification because the fast -
+moving line combined with the 
+micrometric resolution needs also a 
+camera with very short e xposure 
+time. If, for example, the speed is 
+relatively slow, i.e. only 10m / min 
+(= 0.167m / s), and it is desired that 
+the line movement does not exceed 
+1μm during shooting, the maximum 
+allowable exposure time is only 
+1μm / 0.167 m / s = 6 μs. 
+Traditionally, this has demanded 
+costly special arrangements for 
+both cameras and lighting. 
+However, VTT has experience in 
+camera systems with a low -cost 
+illumination solution based on 
+pulsed high power led. This 
+illumination / camera solution will 
+also be used in t he camera build in 
+this project. Figure X shows examples of three different cameras that have been utilised at VTT to optimise the 
+registration. The image below the cameras show how the registration accuracy has been improved from ±150 µm to 
+± 50 µm. In th e OLEDSOLAR project, these methods will be 
+developed further and finally transferred to the industrial 
+production lines. 
+In addition, the existing VTT’s TinyNode wireless sensor system 
+(accelerometer/3D, pressure, inclinometer/3D, magnetometer/3D, 
+humidity, temperature, particles, web tension etc.) at MAXI can 
+be used to collect data during processing, and new sensors based 
+on requirements from industrial partners can be added to the 
+Figure 37 VTT's pilot line (testing equipment) 
+Figure 38 Three different cameras, which have been developed at VTT (top) and the 
+resulting improvement in the registration accuracy (bottom). 
+
+ 
+28 
+OLEDSOLAR  
+system. Figure Y shows examples of the sensors and an image of the mobile phone app for following the temperature 
+and humidity measurements. 
+Figure 39 Pictures of VTT’s TinyNode sensors (left), their installation at the MAXI line (middle) and an example of the mobile 
+phone-based application to follow humidity and temperature (right). 
+Figure Y. Pictures of VTT’s TinyNode sensors (left), their installation at the MAXI line (middle) and an example of 
+the mobile phone-based application to follow humidity and temperature (right). 
+The data from the R2R functional tester, imaging and sensors will be used as material for developing software and 
+algorithms for machine learning -based methods (by BUL) to correlate the production conditions, printing quality 
+and electrical performance. 
+ 
+ 
+ 
+Case Study: Testing CIGs product manufacturing in production line of Solibro Hi Tech: 
+Solibro-Hi Tech Production facility:  The developed solution of OLEDSOLAR will be tested at production pilot 
+line of Solibro Hi Tech in CIGs manufacturing.  
+ 
+Figure 40 Solibro Production line and front end/back end process 
+Problem and Metrology Testing requirements of Solibro 
+ With the current metrology of the CIGS deposition there is limited inline access to the optical & electrical 
+quality of the absorber layer. To improve the yield, process window and to get a faster feedback during the 
+introduction of new processes & materials a new inline measurement system is envisaged.  The use of 
+spectral and/or transient photoluminescence (PL) has shown promise on laboratory scale to supply valuable 
+information about the recombination properties of the absorber and its interfaces enabling a forward 
+calculation of the Voc. Therefore, in OLEDSOLAR it is proposed to develop an inline PL system in order to 
+investigate the correlation of the absorber quality with its properties under field conditions. The aim is to 
+evaluate and install a method to characterize the CIGS layer in line with high sampling rate and local 
+resolution. The optimum PL characterization method and position within the process chain should be 
+identified, which enables the best prediction of the field properties based on inline measurement.  
+ The incorporation of a new Boron doped Zinc oxide (BZO) into the CIGS solar cell stack creates difficulties 
+compared to the traditional Aluminum doped Zinc oxide (AZO). The transparent BZO layer grows with large 
+grains that create a very rough surface. While single layers on glass can be characterized at reasonable 
+expenses determining layer properties inline / on CIGS such as thic kness, sheet resistance, haze or 
+crystallinity is very challenging. Due to the nature of the layer stack and the combination with the rough 
+surface texture new concepts need to be evaluated in order to enable an inline process control for the LPCVD 
+BZO process. The systems in question needs to access the material properties within a reasonable amount of 
+time (ideally a few seconds; one minute at maximum), operate non -destructively and has to be flexible in 
+terms of the substrate position as the glass typica lly exhibits a warp of a few millimetres. The proposed 
+inspection system (detailed in WP3) and NDT techniques will enable fast and accurate inspection of 
+proposed materials in CIGS manufacturing with high level of accuracy.  
+Case Study: Testing OPVs product manufacturing in production line of ASPF: 
+ASPF OPV manufacturing process 
+
+ 
+29 
+OLEDSOLAR  
+The materials used for the fabrication of OPVs are predominantly carbon based with no rare or toxic elements 
+included.  These organic compounds act as building blocks for the solar cells and can be easily and cost effectively 
+synthesized in large quantities and high quality. The chemical and physical properties of the organic materials and 
+therefore the OPV characteristics can be furthermore tailored t o the customer’s demands and expectations. This 
+assures a wide range of application possibilities for the OPVs, due to their adjustable colour, shape, and viable power 
+output. 
+The organic materials used for the manufacturing processes of the OPVs are 
+solubilized. Their deposition, therefore, can be accomplished by means of 
+common printing techniques, avoiding expensive vacuum based techniques 
+and high temperatures. Similar to the printing of newspap ers and 
+magazines, OPVs can be fabricated on thin plastics at a high throughput on 
+a continuously moving roll -to-roll web. The extremely  low energy 
+consumption during the manufacturing process compared to their inorganic 
+silicon counterparts, leads to a very low carbon footprint. At the end of their 
+life, some of the materials within the OPV structure can be recycled and 
+reused, while the OPV laminates can be disposed. These factors show that 
+the OPV technology allows a material, energy, and carbon savings from 
+“cradle to grave” and represents a truly green renewable energy solution. 
+Process steps 
+Since organic photovoltaics can be integrated into nearly every surface and product, due to their mechanical flexibly, 
+low weight, and possible semi -transparency, the manufacturing process will be adapted to the customer’s 
+requirements. Nevertheless, these steps are important: 
+ 
+Figure 42 ASPF MANUFACTURING PROCESS 
+As shown above, firstly the substrate carrier has to be prepared for the 
+sequential deposition of the OPV layers. For this step, lasers are used to 
+structure the bottom transparent electrode on top of the substrate, allowing 
+the creation of OPV base with numb erless shapes, some of which are 
+shown above. Then, the layers of the OPV are deposited using printing 
+techniques, allowing easy scalability of the solar cell’ size. OPVs with 
+different colours are also possible. The top electrode deposition follows 
+and is required to complete the OPV device. The design of the top electrode 
+can be chosen by the customer and can represent a particular figure or a 
+logo. At the end, the OPV is encapsulated to assure long term operational 
+stability. 
+ 
+In OLEDSOLAR project deposition technique, patterning processes and packaging processes will be implemented 
+and tested in ASPF production line. Inspection system and sensors will be installed for testing and performance 
+validation as well. In summary following validations will be done in OPVs production of ASPF:  
+ Automation of registration of screen-printing for free-form OPV modules including transparent inks; 
+ Analysis of coated layers of OPVs in a way to predict a performance of an unstructured area. The following 
+methods proposed in OLEDSOLAR will be implemented for analysing the coated layers could be: 
+o Image analyse (VIS, evtl. IR) for dust, scratched, defects; 
+o Thickness measurement; 
+o Photoluminescence-scanning (x,y); 
+o ILIT (illuminated lock-in thermography); 
+ After testing the above methods, together with further processing data (temperature at the various coating 
+and/or drying units, speed, …) such data will be further processed using Big -Data/Machine-Learning-
+Algorithms developed in OLEDSOLAR by BUL. This could on one hand lead to a further reduction of waste 
+and support on the other hand the development for the prediction of performance of unstructured coatings in 
+OPVs production of ASPF. 
+Case Study: Testing thin films enabling opto-electronic devices manufacturing (DuPont Teijin Film) 
+Figure 41 OPVs layer structure 
+Figure 43 OPVs processing steps at ASPF 
+ 
+30 
+OLEDSOLAR  
+OLEDSOLAR solution will be implemented 
+and tested in production line of DuPont Teijin 
+film to validate and improve manufacturing of 
+thin films one of the main component in 
+OLEDs and solar cells efficiency, 
+ Assessing suitability of existing 
+equipment suitable for upgrade as per 
+OLEDSOLAR inspection system 
+adaptability 
+ Qualification, testing and validation 
+of barrier films performance 
+ Implementing OLEDSOLAR 
+inspection and testing systems to 
+analyse thin film performance for 
+surface quality, specification 
+validation and performance 
+verification 
+ Automated defect detection and 
+processing during thin film production, 
+ Assessing recycling and re-use strategies being developed in OLEDSOLAR within production of thin films 
+Project Positioning: 
+The project positioning along with TRL is depicted in figure below: 
+ 
+Figure 45 Project positioning and TRL 
+Some of the linked international/national activities of partners feeding input into the project are listed in table below: 
+Table 2- Interlinked national and international activities and feeding results into OLEDSOLAR 
+National and 
+International 
+Research and 
+Innovation Activities 
+Partner Relevant Results feeding inputs to OLEDSOLAR 
+Figure 44 Thin film for solar cells 
+ 
+31 
+OLEDSOLAR  
+ OPTINANOPRO 
+(H2020, GA Nr: 
+686116) 
+IRIS  Development to TRL5 of optical methods for inline real-time 
+thickness monitoring of coatings and lamination, compounding, 
+injection/co-injection and electrospray Nano deposition. 
+FP7 THIME Results related to thin film measurements on organic 
+photovoltaic layers, 
+FLEXOLIGHTING 
+BUL 
+Results of the demonstrator being built in the project for OLED 
+lightning application, 
+AutoDISC  Image processing 
+OLEDSOLAR Image processing 
+Qualinet Image processing 
+Assurenet Image processing 
+iFROG Image processing 
+FobFMS Image processing & machine learning 
+Intelliscan Image processing & machine learning 
+RobotX Image processing & machine learning 
+Austrian COMET 
+compentence centre 
+programme – K1 centre 
+ASSIC (www.assic.eu) 
+CTR Material analysis & characterization of semiconductor and 
+polymer materials using Raman spectroscopy (lab + process) 
+Optima In-line contamination and quality control of high -performance 
+polymers and polymer parts for semiconductor manufacturing 
+equipment 
+EVAnetz In-line quality control (degree of crosslinking) of embedding 
+materials (E/VA) for industrial PV module manufacturing (incl. 
+tools for process development, optimisation and validation) 
+Infinity Development of climate -zone-sensitive high -performance PV 
+systems along the full value chain: material – components – 
+modules – module-integrated electronics – inverters – system 
+integration – control & maintenance strategy – in-field inspection 
+tools (EL, PL, lock-in thermography, electrical …) 
+Pi-Scale (GA: 688093); 
+PhotonFlex (EFRE: 
+0800069); HEA2D 
+(EFRE: 0800148); 
+INTRES (EFRE: 
+0800645); GreenSense 
+(GA: 761000) 
+Coatema Coating 
+Machinery 
+Intermittent slot-die coating for pilot lines; coating & process 
+development for OPV; coating of transfer polymer & transfer of 
+graphene; coating and process development for batteries; coating 
+of foil substrates and free-standing Nanocellulose; 
+Alabo FRAUNHOFER  Evaluation of ultra-barrier webs  
+Printed electronics 
+(OPV, OLED, OTFT), 
+material validation, 
+device design and 
+integration, prototyping 
+CSEM Knowhow on device fabrication, providing S2S fabrication 
+infrastructure, environment for prototyping and testing, dedicated 
+methods for testing such as optical Ca test 
+THIME, Pi-Scale, 
+ArtESun, Monoscribe, 
+IN-LIGHT, Polaric etc. 
+VTT R2R and S2S process and characterization knowhow for OPVs, 
+CIGSs, OLEDs and OTFTs, sensor development for pilot lines, 
+inline quality control. 
+Detailed list of projects and partners involved is detailed in section 4 
+Standards, Certifications, Safety codes: OLEDSOLAR project will address following standards. 
+Standard in the series, IEC international standard 62341 -6-1:2017, which “specifies the standard measurement 
+conditions and measuring methods for determining optical and electro-optical parameters of OLED display modules 
+and, where specified, OLED display panels.LEITAT and TWI will work to make sure compliance with standards. 
+(b) Methodology 
+The project proposed methodology is depicted in flow diagram below: 
+ 
+32 
+OLEDSOLAR  
+ 
+Figure 46 Project methodology 
+Gender Analysis: OLEDSOLAR will develop and implement measuresto eradicate gender -based disparities and 
+promote gender equality in accordance with the EU Strategy for equality between women and men22.

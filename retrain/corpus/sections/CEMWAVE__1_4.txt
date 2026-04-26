@@ -1,0 +1,421 @@
+1.4 Ambition 
+There is an increa sing need in the twenty -first century to develop stronger, tougher and more chemically resistant structural 
+materials in order to meet the challenges arising from the rapid increase in demanding requirements across a wide and diverse  
+range of applications, from construction to transportation, health to energy [ 6]. Ceramic Matrix Composites (CMCs) are of great 
+interest as thermo-structural materials [7] and were developed initially for military and aerospace applications. Some of the most 
+important market ni ches include: thermally loaded components in space applications such as propulsion systems or thermal 
+protection systems [8–10], refractory materials for furnaces [11,12] and energy reactors [13,14], and ceramic brake systems [15]. 
+Emerging sectors comprise: antiballistic plates [16], gas burners, high pressure heat exchangers [1 7], fuel and solar cells [1 8]. 
+Currently they are being introduced into many other new fields and their range of applications will grow if their manufacturi ng 
+costs can be significantly reduced [19]. The global CMCs market was valued at US $ 4,857.6 million in 2018 and is projected to 
+reach US $ 11,516.1 million by 2026, growing at a CAGR of 11.4% from 2019 to 2026, helped in particular by the demand from 
+the aerospace sector. They can be segmented into non-oxide and oxide CMCs [20] with the former offering higher temperature 
+resistance (typically up to 1400 – 1600°C) and the latter intrinsically oxidation resistance, thus finding applications where this is 
+a critical factor, albeit their maximum use temperature is generally around 1000 – 1200°C. The aforementioned applications will 
+significantly fuel growth of the CMCs market. However, their cost has been a concern for many industries over the last decade . 
+The prices of ceramic matrix  composites are controlled, to a large extent, by the costs of ceramic fibers and energy intensive 
+processing routes. Nonetheless, substantial opportunities will be presented by the energy and power sector, as it is a rapidl y 
+growing application segment [21]. 
+1.4.1  Advances beyond the state of the art 
+1.4.1.1 Processing routes of non-oxide CMCs 
+To date, the greatest amount of developmental work has been focused on the non-oxide CMCs and, in particular, carbon (C) and 
+silicon carbide (SiC) fiber reinforced SiC-based materials (Cf/SiC and SiCf/SiC composites respectively), since non-oxide CMCs 
+have attractive high temperature properties, including creep resistance, microstructural stability, excellent mechanical and thermal 
+properties. CMCs reinforced with long fibers are commonly fabricated by infiltration methods [1], in which the ceramic matrix is 
+formed from a fluid infiltrating into the fiber structure. These techniques differ from each other in the types of fluids and  of the 
+processes for converting the fluid into a ceramic: 
+• Chemical vapor infiltration (CVI): infiltration using a preceramic gaseous precursor (a vapor), which yields a ceramic as 
+a result of chemical decomposition at elevated temperature; 
+• Polymer infiltration and pyrolysis (PIP): infiltration with a lo w viscosity preceramic organo-metallic polymer followed by 
+pyrolysis when the polymer converts into a ceramic (multiple infiltration-pyrolysis cycles are required to reach the desired 
+density); 
+• Reactive melt infiltration  (RMI): infiltration with a liquid m etal, which converts into a ceramic when reacting with a 
+surrounding substance (e.g. liquid silicon infiltration, LSI, a type of RMI utilizing molten silicon). 
+Generally, all infiltration techniques employ the following fabrication stages: 
+− Preform preparation: At this stage the fiber reinforcing phase is laid up and molded to form a preform of the required 
+shape, it can be made of stacked 2D layers of fabrics, needled ‘2.5D’ layers, or woven 3D fabric layers; 
+− Interphase deposition: Where required, a coating (called interphase) may be deposited over the fiber surfaces before or 
+after preform fabrication; 
+− Infiltration: The reinforcing fiber preform is infiltrated with a preceramic fluid as outlined above; 
+CEM-WAVE   
+ 13 
+− Thermal processing: The preceramic fluid incorporated into the fiber reinforcing structure converts into a ceramic, filling 
+the space between the fibers. 
+In CMCs, the fiber-matrix interfacial domain is a decisive component controlling the (thermo -)mechanical performance of these 
+materials [22,23]. The favored damage-tolerant fracture behavior and high fracture toughness are achieved by a weak bonding 
+between the fiber and the matrix [24], while this weak interface needs to be strong enough to have sufficient load sharing between 
+fiber and matrix. This load sharing is of importance to achieve a high strength of the CMC materials [25]. In non-oxide CMCs the 
+interfacial domain is adjusted by applying coatings, so-called “interphases”, on the fiber [26]. Although many materials have been 
+tested as fiber coatings [27], long-term stable damage-tolerant fracture behavior in non-oxide CMCs has only been achieved by 
+using BN (boron nitride) or PyC (pyrolytic carbon) as interphases. A drawback of both materials is their limited oxidation an d 
+corrosion resistance; if the in terphase corrodes via oxidation, the performance of the CMC degrades. To overcome this issue, 
+additional layer(s) are applied on top of the BN or PyC layers [28]. These additional layer(s) (e.g. SiC, Si 3N4, etc.), protect the 
+underlying BN or PyC layer during further CMC processing and, to a limited degree, also during use of the CMC [29]. Moreover, 
+these layers provide an additional possibility to adjust the bonding of the interface coating system to the matrix [26]. 
+Applying the coatings on e very single filament of a tow consisting of several hundreds of filaments with high quality is a great 
+challenge. The coatings need to be homogeneous with a high degree of coverage. At the same time, bridging between the 
+filaments needs to be avoided in order to be able to further process the coated tows by techniques such as filament winding. 
+The fiber coatings can be applied by various techniques, among which Chemical Vapor Deposition (CVD) and Wet -chemical 
+deposition are the most common. Advantages and disadvantages of both CVD and wet -chemical coating technologies are 
+compared in Table 1.3. 
+Table 1.3 - Comparison of advantages and disadvantages of coating ceramic fibers by CVD and wet-chemical coatings technology. 
+ CVD route Wet-chemical route 
+Advantages • Doping of coatings relatively simple 
+• No additional pyrolysis steps necessary 
+• Relatively low thermal load on fiber 
+• No synthesis of precursors needed 
+• High variety of material systems can be deposited 
+• Low investment costs 
+• Coating set-up simple to modify 
+• High degree of flexibility for process design 
+• High process speed and through-put possible 
+• Low maintenance costs 
+• Technology easy to upscale and to implement in 
+industrial production 
+Disadvantages • Limitations in material systems that can be 
+deposited 
+• Raw materials often expensive 
+• High investment costs for the technology 
+• Low process speeds, low through-put 
+• Complex infrastructure needed 
+• Use of corrosive gases 
+• Shrinkage, crystallization or phase 
+transformations of the coatings during CMC 
+processing or use possible 
+• Modification of coating materials needs modification of 
+synthesis of precursors 
+• Higher thermal load on fibers during pyrolysis of the 
+coatings  
+• Limited coating thickness 
+The fiber-matrix bonding must be sufficiently weak to allow debonding and consequently the relaxa tion of the stress field at the 
+crack tip and the bridging of the matrix cracks by the fibers [30]. There are two methods of achieving this; for dense matrix CMCs 
+(e.g. SiC-based composites) a low cohesion interphase coating (e.g. pyrolytic carbon or boron  nitride) is applied to the fibres 
+before the matrix is infiltrated. CMCs of this type are called Weak Interface Composites (WICs) and toughening mechanisms such 
+as crack deflection at the fiber/matrix interface, crack -bridging by fibers and fiber pullout at the crack plane  are operative. An 
+alternative approach (e.g. for oxide -based composites) is to ensure that the matrix is weak. Such Weak Matrix Composites 
+(WMCs) are characterized by the matrix being porous; the reduced matrix stiffness and strength all ows damage -tolerant 
+behaviour, even in the case of a strong matrix-fiber interface. Whilst both approaches work, for WICs the interface coatings may 
+oxidize at high temperatures in air leading to brittle failure, whilst WMCs typically display a low overall  strength or, if used at 
+excessively high temperatures, the matrix can further densify leading to brittle behaviour. Concerning common non-oxide CMCs 
+processing routes, Chemical Vapor Infiltration (CVI) technology is one of the most attractive industrially available methods [31,32] 
+to produce fiber-reinforced CMCs. The main advantages are a) the possibility to manufacture complex net or near -net shaped 
+components at relatively low temperatures for ceramic processing (typically  1000°C), avoiding potential damage of the ceramic 
+fiber textile structures typically used as the preform and b) the ability to control and modify the microstructure of the mat rix. CVI 
+methods can be divided into several categories, depending on: 1) the heating method, 2) the pressure  regime, 3) whether the 
+process is isothermal-isobaric (I-CVI) or there is thermal/pressure gradient across the perform (TG -CVI, F-CVI/P-CVI). Among 
+them, I-CVI is the most commonly studied and used version of CVI [33], although it is recognized as being v ery slow (products 
+can take up to 3 months to make) and hence expensive. Polymer Infiltration and Pyrolysis (PIP) is a method where a low-viscosity, 
+CEM-WAVE   
+ 14 
+preceramic polymer is infiltrated into a C or SiC fibre preform, followed by pyrolysis in the absence of ox ygen during which the 
+polymer decomposes and converts into a polymer-derived ceramic matrix. Widely used high-performance silicon-derived polymer 
+precursors available on the market are polysilazane (Ceraset VL -20, Kion Corp), which can be converted into Si CO, SiCN or 
+Si3N4 with ceramic yields of up to 90%. The use of preceramic prepregs (C or SiC fiber textiles impregnated with a preceramic 
+polymer) is a common method to achieve a stable geometry, however densification requires a multistep (sometimes up to 12 
+steps) iteration of infiltration and pyrolysis. 
+Liquid Silicon Infiltration (LSI) is used to fabricate SiC -based CMCs. The process involves infiltration of a carbon microporous 
+preform with molten silicon at a temperature exceeding its melting point of 1414°C. The liquid silicon wets the open pores, driven 
+by capillary forces, on the surface of the carbon preforms. Ensuring the correct pore dimensions is important to achieve complete 
+infiltration. If the pores are too small the infiltration passages become choked off, resulting in premature cessation of the infiltration 
+process [34]. Although having excessively large pores aids infiltration, it can result in incomplete chemical interaction and the 
+formation of a structure with high residual free silicon a nd unreacted carbon. In contrast to the composites fabricated by PIP or 
+CVI, ceramic matrices formed by LSI are fully dense (typically >99% of the theoretical density). 
+Some of the main advantages/disadvantages related with the various infiltration methods are summarized below (Table 1.4): 
+Table 1.4 - Advantages/disadvantages of non-oxide CMC infiltration technologies.  
+ CVI PIP LSI 
+Advantages • High purity matrices 
+• Low temperature (prevents 
+fiber damage) 
+• Excellent mechanical 
+properties 
+• Often smooth process 
+surfaces 
+• Low temperature 
+(prevents fiber 
+damage) 
+• Good control of 
+microstructure and 
+composition 
+• No free silicon in the 
+matrix 
+• Low cost 
+• Short production time 
+• Low residual porosity 
+Disadvantages • Very slow process 
+(~several weeks) 
+• High residual porosity (10-
+15%) due to bridging 
+• High capital and 
+production costs 
+• Multiple infiltration-
+pyrolysis cycles 
+• High production cost 
+• High residual porosity 
+• Low maximum linear 
+elastic levels 
+• High temperature and highly corrosive 
+metal melt (may damage fibers) 
+• Residual free silicon 
+• Low mechanical properties 
+• Rough surfaces need machining with 
+diamond tools 
+1.4.1.2 Processing routes of oxide CMCs 
+The challenge for oxide/oxide composites is to provide an alternative to SiC f/SiC composites with the aim of achieving a lower 
+cost material, both by decreasing the cost of the constituent materials and manufacturing, and also by creating composites with 
+improved thermal stability in air at elevated temperatures. Oxide/oxide composites typically consist of a porous alumina (Al 2O3) 
+or alumino-silicate (Al2O3-SiO2) matrix reinforced by alumina fibers, although a small amount of work has also been undertaken 
+into mullite fiber reinforced composites. The latter reveal that mullite-based fiber has potential to offer slightly higher temperature 
+capabilities. Whilst both fibers tend to start losing strength by 1200 oC, alumina fibers can lose 90% of their strength by 1400 oC 
+whilst for mullite fibers it was only 50% [35]. There is also evidence that some mullite fibers can retain useful strength to 1500oC 
+[36]; further work on developing enhanced mullite fibers is still needed though. Meanwhile, the majority of research has focused 
+on alumina fibers and the Nextel fibers produced by 3M in particular, though other alumina fibers are starting to be produced and 
+investigated for the production of ox-ox composites [37]. There are four Nextel fibers, 720, 610, 440 and 312 in order of decreasing 
+temperature capability. The structural grade fibers, 610 and 720, have crystal structures based on α-Al2O3 and do not contain any 
+glassy phases, allowing the fibers to retain their strength at higher temperatures. Nextel 610 is a fine -grained single-phase 
+composition of α -Al2O3 with the highest strength and modulu s; however, since it is essentially a single phase, the strength 
+decreases rapidly at higher temperatures due to grain growth. Its maximum working temperature is limited to 1100°C for long -
+term applications. Nextel 720 is α-Al2O3 with SiO2 added to form a mixture of alumina and mullite. It has better strength retention 
+at temperature and increased creep resistance due to reduced grain boundary sliding as a result of the mullite pinning the gr ain 
+boundaries and hence reducing grain growth during thermal aging. Nextel 720 has proven thermal stability up to 1200°C.  
+Nextel 440 and 312 are cheaper and offer even lower temperature capability. Made from varying percentages of Al2O3, SiO2 and 
+B2O3 (boria), they contain both crystalline and glassy phases due to the presence of the boria. The glassy phase helps the fiber 
+retain strength after exposure to high temperature because it slows the growth of the crystalline phases that weaken the fibe r. 
+However, when the fiber is stressed at high temperature, the glassy phas e weakens the fiber due to viscous flow much like a 
+glass fiber. A major driver as ox-ox composites move towards production is achieving the cost reductions required to ensure that 
+the solutions are market-competitive with titanium and other high temperatu re alloys. This has led to investigations into the use 
+of both lower grade fibers and lower cost fabric design. Concerning the latter, this means using those based on higher -denier 
+fabrics. Results suggest that a transition to heavier denier yarns and arch itectures has a relatively minor effect on mechanical 
+properties or thermal stability whilst offering lower cost composites [38]. Development of dense oxide CMCs is a challenge since 
+the oxide ceramic fibers can only be thermally loaded to about 1200°C [36,39,40] and the process for the fabrication of the dense 
+CEM-WAVE   
+ 15 
+matrix has to fulfill the requirements for industrial implementation. Because of these challenges, the development of fiber coatings 
+for oxide CMCs lags behind the developments for non -oxide CMCs. Rather, porous fiber coatings based on ZrO 2, Y2O3, ZnO, 
+Al2O3 or Y3Al5O12 have been investigated to provide a weak interfacial domain in oxide CMCs [41-43]. It has been shown that the 
+favored debonding between fiber and matrix occurs during mechanical load, but the friction between fiber and matrix was too high 
+and therefore the fiber pull -out effect was strongly reduced. Moreover, at high temperatures coarsening of both the coating 
+microstructure and porosity occurred and thus the interface system cannot be considered to be thermally stable for long -term, 
+high temperature applications [41,44]. Another concept is the use of the so-called “fugitive coating”. In this case, the fibers are 
+coated with a thin layer of carbon, which is oxidized, and therefore evaporated, during further processing of the CMC [45,46]. In 
+this case, a thin gap is formed between fiber and matrix. Load sharing between fiber and matrix depends on the thickness of the 
+carbon layer and on the surface roughness of the ceramic fiber as well as  on the variation of the fiber diameter along the fiber 
+axis. Load sharing between fiber and matrix occurs due to contact points between fiber and matrix. It has been assumed that the 
+ceramic fibers are damaged at the contact points with a negative impact on CMC properties and life time [40]. Oxides with a 
+layered crystal structure like phyllosilicates, beta-aluminates and magneto-plumbites have also been investigated as interphase 
+materials for oxide CMCs [47-50]. Unfortunately, it was not possible to adjust the favored texture of the coating materials. Due to 
+high processing temperatures, degradation of the ceramic fibers was observed. Interesting results have been achieved with fiber 
+coatings based on rare earth phosphates, e.g. Me3PO4 [51-54]. Studies with different types of these coatings indicate that energy-
+dissipating mechanisms like debonding, fiber pull-out and crack deviation can occur under mechanical load [55-59]. It should be 
+noted, however, that the latter research was based on CMC fabrication routes that are not viable for industrial implementation. 
+The most common processing route used to create oxide matrix CMCs is via the impregnation of oxide ceramic powder slurries 
+into oxide fiber preforms. This requires significant control of the rheology of the suspension in order to achieve the correc t 
+impregnation characteristics [60]. After drying the slurry, the resul ting powder can be sintered using low cost, conventional, air 
+atmosphere furnaces. However, since even the best alumina fibers can only withstand temperatures to around 1200 °C and 
+alumina generally requires about 1400°C to sinter, either very fine alumina powders, sintering aids (e.g. mixtures of CuO & TiO2 
+[61], though these can affect other properties such as strength) or the use of sol-gel processes are typically required. One example 
+of the latter involves the infiltration of liquid alkoxide precursors into the fiber preforms to form a polymeric oxide gel network in 
+situ via hydrolysis and polycondensation reactions [30]. The primary issue with sol gel routes is that the first step of gel formation 
+and its subsequent pyrolysis are characterized by a low mass yield of the ceramic matrix, leading to a high level of shrinkage 
+(80% is not uncommon). A major issue with the standard route to the fabrication of ox-ox composites is therefore the difficulty of 
+achieving sufficient control of the density of the matrix due to the need to use higher temperatures than the fibers can withstand. 
+Alternatives such as using sol-gel based processes, ultra-fine particles or sintering aids all have their limitations, not least of which 
+is the fact that they are slower and/or more expensive and/or affect the final properties of the composites produced. An alternative 
+that has not been significantly investigated before is to use chemical vapor infiltration (CVI) to deposit an alumina or alum ino-
+silicate matrix within oxide fiber preform of similar composition. The major advantage of using CVI is that, as described earlier for 
+silicon carbide, the processing temperature is low, typically < 1000 °C and therefore the fibers are not damaged. In addition, it is 
+possible to obtain good control of the microstructure developed. Whilst very little work has been focused on using CVI to prepare 
+oxide-oxide CMCs, significant work has involved the deposition of alumina-based coatings using the closely related technique of 
+chemical vapor deposit ion (CVD). Both CVI and CVD can usually use the same chemistry, allowing approaches originally 
+developed for one technique to be adopted by the other. In the case of the deposition of alumina or alumino -silicates, it is quite 
+common to use the chlorides [62] although research has also been undertaken using chemicals such as aluminum tri-sec-butoxide 
+(ATSB) or aluminum tri-isopropoxide [63-64].  
+1.4.1.3 MW-CVI of non-oxide & oxide CMCs 
+In microwave-assisted CVI techniques, sample heating is obtained by means of high-power microwave irradiation, which releases 
+energy in the sample through dielectric absorption. This approach enables volumetric heating of the sample, with heating rate s 
+essentially limited only by the available microwave power. Moreover, the com bination of volumetric heating with thermal losses 
+from the sample surface towards the colder walls of the reactor results in the development of an inverse temperature profile in 
+the sample, i.e. the center becomes hotter than the surface. The temperature difference between the center and the surface of 
+the component can be quite high, considering the high efficiency of the thermal irradiation governed by a T 4 dependence. 
+Controlling these temperature gradients is key to controlling the MW -CVI process.  Based on the ‘inside -out’ nature of the 
+deposition, premature pore closure due to crusting can be completely avoided, allowing densification to occur an order of 
+magnitude or faster than with isothermal CVI (I -CVI). Experimental work has yielded this inside -out densification pattern in a 
+number of different ceramic systems, including SiC, Si 3N4, Al2O3 and ZrO2. By means of the MW -CVI process, high purity and 
+high density SiC matrices have been obtained and preforms of very complex geometry can be successfully infiltrated at operating 
+temperatures between 900°C and 1000°C. Since the pressure required by the process is low (10-100 kPa), the risk of damaging 
+the fibers or of seeing reactions between them and the matrix is limited. Previous work carried out by Binner et al. [65] based on 
+SiCf/SiC components (50 mm diameter, 10 mm thick) has shown that, by using microwaves to enhance the CVI process, 
+fabrication times can be reduced from several hundred hours to around 100 hours [70] and down to only 25 hours when RF-CVI 
+is used to produce Cf-ultra high temperature ceramic matrix composites (UHTCMCs) [68]. Similar results were obtained with the 
+MW-CVI pilot plant developed in the European project HELM for the production of SiC -based CMCs (HELM: High -frequency 
+Electro-Magnetic technologies for advanced processing of ceramic matrix composites and graphite expansion) [69]. Unlike 
+CEM-WAVE   
+ 16 
+existing lab-scale MW-CVI equipment, the design of the HELM MW-CVI pilot plant in Pisa has been developed with the specific 
+idea of allowing fur ther industrial scale -up. This approach has led to some complex engineering problems, which have been 
+tackled in an original way. In particular, the inner chamber and all the components exposed to high temperature and extreme 
+chemical environment have been  made out of conductive graphite. Moreover, this pilot plant can use a combination of 
+conventional and microwave heating in order to tailor a suitable temperature profile in the preform to be infiltrated. 
+The objective was the production of SiC -based CMCs achieving a reduction in processing time, as well as the identification of 
+strengths and weaknesses of the MW-CVI process. Among the latter, the formation of hot spots in the sample and the appearance 
+of plasma regions were regarded as the most detrimental  for the efficiency of the chemical process and the achievement of a 
+continuous process. Traditional approaches to prevent the occurrence of hot spots consist of the rotation of the object to be  
+heated or the inclusion of mode stirrers, i.e. mobile metallic surfaces that dynamically stir the electromagnetic field in the reactor. 
+Both of these solutions, however, have severe limitations: they involve moving metal parts that, may get stuck as a consequence 
+of dust accumulation in the environment of the reacto r and they provide a limited capability to control the actua l field intensity 
+distribution. Many of these challenges have been successfully overcome; SiCf/SiC preforms with dimensions of 100 mm diameter 
+by 10 mm thickness, twice those of typical lab -scale samples, have been infiltrated successfully, confirming the advantages 
+expected from a MW heating. Specifically, it was possible to work continuously with reproducible and optimal operating conditions 
+in terms of transmitted/reflected power via the careful design of the inner MW cavity so that it acts as an overmoded resonator at 
+the operating frequencies. Infiltration tests showed an improved reaction efficiency, even allowing for the increase of sampl e 
+dimensions, without plasma formation and a good compromise in terms of operating pressure. Deposition rate data resulted in a 
+potential reduction of total infiltration time with a predominant infiltration of SiC on central laminae of the sample, confi rming the 
+inside-out densification pattern and scaling-up of this technology. Research activities on MW-CVI for non-oxide CMCs will focus 
+both on the electromagnetic aspects of the microwave heating and on the chemical aspects of the CVI process. Starting from the 
+state-of-the-art results obtained in the framework of the HELM project by the UNIPI and IPCF -CNR teams in Pisa [70] the pilot-
+scale MW-CVI reactor, operated so far with magnetron sources, will be innovated with the introduction of fully controllable solid-
+state sources (see section 1.4.1.4 below). The aim of this upgrade will be twofold: first, it will enable a complete reproducibility 
+and control of the heating conditions, minimising the risk of unpredictable hot spots formation and the activation of plasma 
+phenomena. Then, it will allow the implementation of sophisticated heating procedures based on the ‘probe and pump’ technique, 
+in which a low power sweep over the frequency range of interest (the ‘probe’) will determine the most convenient frequencies at 
+which the high-power ‘pump’ must be done. Moreov er, the possibility to obtain a more homogeneous heating of the sample by 
+means of a sequential ‘pump’ irradiation at different frequencies will be in vestigated for the first time.  The chemical aspects of 
+the MW -CVI process will be investigated in detail with the aim to optimize the reaction parameters as operating pressure, 
+infiltration temperature, reagents ratio and flows. A specific study will be devoted to the effect of a BN/PyC coating of the  non-
+oxide CMC fibers, which guarantees the desired pseudo-ductile behavior, increasing at the same time the electrical conductivity 
+of the sample. In principle, a thicker BN/PyC coating is desirable in order to improve the mechanical properties of the infil trated 
+CMC. However, an excessive amount of carbon in the  CMC can increase the conductivity at a level in which the electrical 
+conductivity is so high to shield the penetration of the electromagnetic fields in the sample, in analogy to the behavior of the 
+conducting materials. The optimal trade -off between mecha nical and electrical properties will be determined measuring the 
+dielectric properties of the BN/PyC coated CMC fibers at the infiltration temperatures. These measurements will be based on a  
+rigorous technique, recently demonstrated by the IPCF-CNR team in Pisa [71] which is capable to accurately determine the high 
+temperature dielectric properties of samples, also in their conducting state.  On the basis of the measured dielectric properties, 
+an extensive analysis on the maximum allowed dimensions of the p reforms to be infiltrated will be conducted, with the help of a 
+rigorous numerical modeling based on the Comsol Multiphysics software.  Concerning microwave-enhanced CVI of oxide-oxide 
+composites, just two previous research publications have been found [72-74], undertaken by the team led by Prof Lynn Johnson 
+at Northwestern University in the USA. In both cases a single mode microwave cavity was used, which very much limited the size 
+of the samples that could be processed. Nevertheless, matrix growth was observed to occur from the inside towards the outside, 
+i.e. an inverse temperature profile was created as observed in other research on both microwave - and RF -enhanced CVI 
+undertaken by Binner’s team, which is now located at the University of Birmingham in the UK [66,68,74-76]. One issue that was 
+faced by the Northwestern team, which will also be faced by the Birmingham team in the present work, is that alumina fiber 
+preforms do not readily absorb microwave energy. In the first of their two publications, the Northwestern team doped the preforms 
+with a fugitive carbonaceous additive carbon to facilitate initial heating by microwaves. This consisted of impregnating the preform 
+with a sucrose solution, freeze -drying it and then pyrolysing at 1000 °C under nitrogen t o form carbon. In the second paper a 
+susceptor was used in the form of a sleeve of strontium-doped lanthanum chromite. Whilst both approaches worked, the concept 
+of using a fugitive additive will be more applicable in the proposed research program since su sceptors are known to degrade 
+rapidly with use meaning that they need replacing regularly, which decreases the economics of the process [77]. 
+In the proposed research, the investigation will utilize a state-of-the-art multimode microwave cavity. This will allow large samples 
+to be made and a greater range of processing variables to be investigated. The work will focus on the use of a range of different 
+alumina and alumino-silicate ceramic fibres. Whilst the bulk of the work will be based on the use of the N extel fiber range, work 
+will also be undertaken using newer fibers that are available from Germany and elsewhere. Both 2D and 3D woven structures will 
+be utilized and facilities exist at the University of Birmingham to measure the gas permeability of the preforms, very useful when 
+developing a process route based on the principle of gas flow through the preform. Knowing permeability as a function of gas flow 
+CEM-WAVE   
+ 17 
+rates can greatly assist with modelling work (see section 1.4.1.6 below). The work will focus on usi ng aluminum and silicon 
+chlorides, which have been successfully demonstrated to yield alumina and alumino-silicates as the matrix phase [72-73], whilst 
+a range of different fugitive additives will be explored with a view to enhancing the coupling of the pr eforms to the microwaves. 
+One major advantage for this approach for the production of oxide -oxide CMCs by microwave CVI is that the final product does 
+not want to be fully dense, rather densities of 85 – 90% of theoretical are desired (see the discussion o f Weak Interface 
+Composites and WMC in section 1.4.1.1). Since the rate of deposition during any CVI process decreases exponentially with time, 
+the lack of a need to obtain full density will significantly reduce the time required to produce each sample, greatly assisting in the 
+ability to make progress. Having said this, as indicated previously, work will also be undertaken on the use of fiber coating s that 
+can both absorb microwaves and also function as a weak interface with a dense matrix, allowing Weak I nterface oxide-oxide 
+Composites to be manufactured. A comparison of the different properties achieved in the composites will be most useful in 
+identifying not only the best manufacturing routes but also the best properties that can be achieved together with an understanding 
+of how to tune the properties for different applications. 
+1.4.1.4 Improvement of the MW-CVI process through solid-state sources 
+Recent advances in solid-state microwave sources [78] led us to analyze the use of this technology for the MW-CVI process. The 
+reasons behind this choice lie in the rapid and precise control of the signal frequency, as well as a more stable and reproducible 
+distribution of the EM field  [79], with the important possibility, from an industrial point of view, to aut omate the whole infiltration 
+process, which in turn opens further new possibilities to this technology [80]. The ability to generate and amplify MW signals using 
+solid-state semiconductor devices is not new since this technology has been the cornerstone of modern wireless communications 
+for many years. Solid-state MW sources have enormous potential beyond data transmission applications: they are increasingly 
+being used also for the purpose of heat and energy generation, enabling greater efficiency and contr ol than currently possible 
+with conventional magnetrons  [81].  One of the major deficiencies of magnetron tube -based MW sources is their lack of fine 
+control over frequency, power and the phase of the emitted wave, which prevent the implementation of closed-loop control aimed 
+at the minimization of the power reflected by the MW reactor. On the contrary, with solid-state MW energy sources, forward and 
+reflected power levels can be easily adapted with closed-loop controls thanks to the inherent, precise control over the solid-state 
+source emissions in terms of frequency, power and phase  [82,83]. Solid-state MW transistors can also provide 10 times longer 
+lifespans than magnetrons, ensuring significantly higher reliability and a reduced cost per working hour.  In order to overcome the 
+drawbacks of magnetron-based MW reactors, one of the innovations proposed in CEM-WAVE is the replacement of the high -
+power magnetrons with sources based on solid -state amplifiers employing LDMOS transistors.  Currently, the solid-state power 
+generators covering the two major ISM bands, 902 -928 MHz (L-Band) and 2400-2500 MHz (S-band), are becoming more and 
+more appealing from an economics perspective, thanks to the recent development of high-power transistors. These sources, now 
+available also at the kW power levels necessary for MW-CVI, are frequency agile and capable of operating either at a single fixed 
+frequency or in a frequency sweep mode that can cover the entire ISM band. The very short response time of the solid -state 
+microwave generators and the possibility to pulse their output power can open unexplored possibilities in which the temperatures 
+of the product can be rapidly controlled, avoiding hot spots and limiting the occurrence of plasma phenomena, thus reducing the 
+risk of damage occurring due to overheating. Moreover, the s olid-state generators can be connected to the reaction chamber 
+(MW cavity) via standard coaxial cables, minimizing the space requirements.  
+The heating of the sample with solid -state sources is expected to improve the uniformity of the sample temperature, with the 
+possibility to dynamically adjust the EM field in the reactor without involving any moving metal parts. In fact, the implementation 
+of an automatic and extremely fast (millisecond range) frequency control, necessary to optimize the sample irradiation according 
+to its dielectric properties – variable with the temperature and density - will allow a precise and stable heating power control during 
+the process [84]. In the framework of the project CEM -WAVE, the benefits expected from the use of coherent sources will be 
+maximized by means of a rigorous and detailed numerical modelling of MW-CVI reactors loaded with the samples of interest and 
+based on the use of the software Comsol Multiphysics. In fact, thanks to the possibility to precisely select the operating frequency 
+and so the mode granting the highest uniformity of the EM field, we will also be able to choose the best location of the samp le 
+inside the MW cavity and to predict the effects due to different sample dimension and geometry, as demonstrated in the framework 
+of the project HELM  In addition, the fast tunability typical of the solid -state sources will enable a more uniform heating of the 
+sample by employing different resonance modes, excite d in a sequential way during the infiltration process. Accordingly, solid-
+state sources are the ideal choice for a well-controlled and reproducible reaction, which translates to higher energy efficiency and 
+better product quality. All these reasons, together with the steadily declining specific cost, explain the rapidly growing popularity 
+of these sources in the community involved in industrial applications of microwave field-assisted heating. 
+1.4.1.5 Development of advanced process monitoring tools 
+In MW-assisted processes, one of the most critical reaction parameters to control is the temperature of the sample, particularly 
+for samples larger than the employed wavelength. In these cases, the sample heating is prone to the formation of hot spots, 
+mainly due to the standing wave pattern of the electric field in the reaction chamber. As a consequence, the monitoring of the 
+spatial distribution of the sample temperature is a crucial step in the definition of an efficient MW -CVI process. In the most 
+advanced approaches, the temperature of the sample is monitored by means of a thermal camera, which can give information on 
+a relatively large part of the sample surface [70]. On the basis of the camera reading, the microwave power can be adjusted in 
+order to reach the desired infiltration temperature. The use of a thermal camera in the monitoring of MW-CVI processes presents 
+specific advantages with respect to the simple pyrometer. Indeed, the large view provided by the former is essential in limiting the 
+CEM-WAVE   
+ 18 
+occurrence of hot spots.  In the CEM-WAVE, thermal cameras will be employed to monitor the evolution of the surface temperature 
+of the sample during the MW-CVI process. The images captured by the cameras will be acquired and processed in real-time by 
+a proprietary sof tware platform in order to obtain a 3D view of the sample surface temperature. The maximum temperature 
+detected on the sample surface will be employed to correct automatically the MW power delivered by the solid-state sources, until 
+the infiltration temperature will be reached. After the beginning of the infiltration process, the surface temperature monitoring will 
+provide the necessary feedback to stabilize the sample temperature. A second innovation of the CEM -WAVE project, deriving 
+from the use of therma l cameras and the related reconstruction of the surface temperature distribution, will concern the 
+development of an algorithm of ‘frequency jump’, in which the high-power irradiation of the sample will be alternated on different 
+frequencies, corresponding  to modes with different field distribution. The use of such modes will help in obtaining a more 
+homogeneous sample heating. Role of this algorithm will be to drive the power and frequency emission of the MW sources, in 
+order to minimize the thermal gradients. The process monitoring strategies developed in the CEM-WAVE project will include the 
+progress of the infiltration reaction. In conventional CVI processes, indications on the stage of the sample infiltration and thus on 
+its density usually come from the previous experience. The use of reactor chambers acting as electromagnetic resonators opens 
+the possibility of a direct investigation of the infiltration progress, based on the strict relationship between the resonance frequency 
+of the electromagnetic mo des and the dielectric properties of the sample that are, in turn, closely related to the density of the 
+sample. In the CEM-WAVE project, the resonance frequency of selected modes will be continuously monitored in order to obtain, 
+in-operando, a direct information on the dielectric properties of the sample and thus on its density. The information on the dielectric 
+properties of the sample will serve to determine the stage of the process, as well as to identify possible anomalies (internal sample 
+damages or hot spots). In the framework of CEM-WAVE, monitoring strategies will also be developed for the structural analysis 
+of the walls of the CMC tube samples during the tests in highly demanding applications. The structural monitoring of the CMC 
+tubes will focus on the detection of possible cracks and on the degradation of the tube material in tests representative of long and 
+realistic applications. In particular, two combined strategies will be implemented. The first one, based on an IR camera, will monitor 
+the temperature distribution on the surface of the tube, whose alteration during a prolonged use can indicate the presence of a 
+local damage (crack) or a diffused component degradation (reduction in the tube density). A second approach will be based on 
+the electrical resistance of the tube, determined along its length by means of graphite electrode placed at the beginning and the 
+end of the tube, which is sensitive to both both the presence of extended cracks, which increase the electrical resistance, and to 
+the density and thickness of the tube walls. The inputs of the two sensors will be correlated in order to minimize the risk of ‘false 
+positives’. 
+1.4.1.6 Micro/macro scale modeling approach of CVI processes 
+The CVI process and its variations [85] are based on the interactions between the transport of chemical species and their reaction, 
+both inside and outside the porous medium constituted by the fibrous preform. The presence of thermal gradients strongly alters 
+the reaction-to-diffusion ratio and can help a favorable situation development in which matrix infiltration starts from the inside and 
+progresses towards the exterior of the porous medium. For instance, a criterion for a minimal thermal gradient allowing such a 
+situation [86] has been derived with a simplified model considering homogenized materials properties evolving with the infiltration 
+degree. This suggests that a consistent modeling approach to MW-CVI should consider several scales:  
+• The reactor scale, considering the whole chamber, the heating devices and the preform;  
+• A macroscopic scale, concerning the preform as a whole, considered as locally homogeneous; 
+• A meso/microscopic scale, related to the structural and textural details of the preform. The fiber diameter is of the order of 
+about 10 micrometers, but larger scales related to the weave, stackings arrangement, etc., may also be present. 
+In the case of woven reinforcements, it is common practice to distinguish between the intra -bundle (microscopic) scale and the 
+inter-bundle (mesoscopic) scale at which a Representative Volume Element (RVE) of the preform can be defined [87]. 
+The principal phenomena that have to be accounted for at macro-scale are: 
+1. Microwave heating: this is achieved by solving electromagnetic equations [88,89]; 
+2. Heat balance in the preform, including heating power in the volume, radiative and convective losses at the preform 
+borders, and heat transfer connecting both [90];  
+3. Gas transfer in the infiltration chamber [91], then inside the porous medium, featuring multicomponent diff usion [92], 
+viscous transport and Knudsen (rarefied) diffusion.

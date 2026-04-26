@@ -1,0 +1,3038 @@
+3.3 CONSORTIUM AS A WHOLE ................................................................................................................................................ 66
+3.4 RESOURCES TO BE COMMITTED ........................................................................................................................................... 68 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+2 
+ 
+1. EXCELLENCE 
+17.8 million tonnes of post -consumer plastic packaging were collected in Europe in 2018 . Only 42% of this 
+plastic packaging was recycled, while 39.5% was incinerated and 18.5% was landfilled 1. This situation is still far 
+from the objective of recycling 55% of plastic  in 2030, as  established in the European Plastics Strategy 2 and 
+Directive (European Union, EU) 2018/852 on Packaging and Packaging Waste3. 
+The high-performance requirements requested by the industry and consumers mean that currently, 17% of total 
+plastic packaging is multi -layer material4, totalling 3.03 Mt/year of plastic . This material is difficult to recycle. In 
+sorting plants, current technologies can only identify their superficial layer. Once it has been classified, its 
+recyclability relies on expensive, complex methods to delaminate its layers, given that the different nature of the 
+polymers makes them incompatible. Due to the high strength adhesive (Adh) used to bond the layers, these 
+delamination processes still need to be improved and optimized. As a result, multi-layer packaging are landfilled 
+or incin erated. In this context, it is necessary to improve the sorting and recycling processes of currently not 
+recovered multi -layer plastic waste from post -consumer and post -industrial sources, such as polyolefin (PO) -
+based multi-layers, polyester-based multi-layers (or a combination of both polymers), and metalized multi-layers. 
+The MERLIN project has put together a partnership to design cradle -to-cradle solutions to recycle mul ti-layer 
+packaging between sorting technology providers  (IRIS, ROVIMATICA), a waste management company  
+(FERROVIAL), industry and research experts on delamination and recycling  (ITENE, UNIBO, CEA, IONIQA, 
+INDORAMA), small and medium-sized enterprise (SMEs) service providers (PARTICULA-Environmental, economic 
+and social assessment; CSCP-social stakeholder engagement, ENCO-communication and business plans), 
+packaging industry for flexible (IM2) and rigid (ITC), and a European Packaging Association offering expertise on 
+standardization and policies ( EuPC). Each of them support this new ini tiative with previous project results in the 
+related areas (see Table 4). 
+This 36-month research project will offer innovative systemic solutions for all the processes required to increase 
+the quality and rate of recycled multi -layer packaging waste, continuously monitoring the waste, automating 
+sorting, chemically delaminating the layers and recovering them for high-performance recycling. These solutions 
+ 
+1 Report on production, demand and waste in Europe (Plastics - the Facts 2019), PlasticsEurope. 
+2 https://ec.europa.eu/environment/circular-economy/pdf/plastics-strategy-brochure.pdf 
+3 https://ec.europa.eu/commission/presscorner/detail/en/IP_18_3846   
+4 Z. Tartakowski, Recycling of packaging multi -layer films: New materials for technical products. Resour. Conserv. Recy. 55, 167-170 (2010). 
+AB: Advisory board 
+Adh: Adhesive 
+Al: Aluminium 
+AO: Antioxidant 
+A.I.: Artificial intelligence 
+BHET: Bis hydroxyethyl terephthalate 
+BLS: Bio-based lipophilic solvents 
+CAGR: Compound annual growth 
+CEIEC: Circular economy innovation exchange club 
+CF: Carbon fibre 
+DOA: Description of action 
+DOE: Design of experiments 
+DMT: Dimethyl terephthalate 
+DSC: Differential scanning calorimetry 
+DSS: Decision support system 
+EB: Executive board 
+EC: European commission 
+EG: Ethylene glycol 
+EM: Exploitation manager 
+EOL: End of life 
+EPDM: Ethylene propylene diene monomer rubber 
+EU: European Union 
+EVOH: Ethylene vinyl alcohol 
+FTIR: Fourier transform infrared 
+FTO: Freedom to operate 
+GA: General assembly 
+GC-TOF: Gas chromatography/time-of-flight 
+GDP: Gross domestic product 
+GF: Glass fibre 
+HALS: Hindered amine light stabiliser 
+HSI: Hyperspectral imaging 
+HSP: Hansen solubility parameters 
+IC: Innovation committee 
+ICP-MS: Inductively coupled plasma mass 
+spectrometry 
+ICT: Information communication technology 
+ILCD: Reference life-cycle data system 
+IML: In-mould labelling 
+IPR: Intellectual property rights 
+IV: Intrinsic Viscosity 
+KER: Key Exploitable Results 
+LCA: Life cycle assessment 
+LCC: Life cycle costing 
+LCIA: Life cycle impact assessment 
+LIBS: Laser-induced breakdown spectroscopy 
+MA: Maleic anhydride 
+MAg: Maleic anhydride grafting 
+MFI: Melt flow index 
+MIR: Mid-infrared 
+NIR: Near infrared 
+NWIP: New work item proposal 
+OPP: Oriented polypropylene 
+OTR: Oxygen transmission rate 
+PA: Polyamide 
+PC: Project coordinator 
+PE: Polyethylene 
+ 
+PEDR: Plan for the exploitation and 
+dissemination of the project results  
+PET: Polyethylene terephthalate 
+PML: Post mould labelling 
+PO: Polyolefin 
+PP: Polypropylene 
+PU: Polyurethane 
+QR: Quick response 
+RRI: Responsible research innovation 
+R-CNN: Region-based convolutional neural 
+networks 
+SCF: Supercritical fluid 
+SDG: Sustainable development goal 
+SEBS: Styrene-ethylene-butylene-styrene 
+SHS: Switchable hydrophilicity solvents 
+SME: Small and mid-size enterprise 
+SPD: Safety by process design 
+SSP: Solid state polycondensation 
+SWIR: Short-wave infrared 
+S-LCA: Social life-cycle assessment 
+TGA: Thermal gravimetric analysis 
+TPA: Terephthalic acid 
+UPLC-QTOF: Ultra performance liquid 
+chromatography/quadrupole-time-of-flight 
+UV: Ultraviolet 
+VIS: Visible 
+WP: Work package 
+WVTR: Water vapour transmission rate 
+XRF: X-ray fluorescence 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+3 
+will be developed and validated in a real environment to reach TRL 6. This will be complemented with additional 
+techniques and tools for circularity design to increase the knowledge and effectiveness in clos ing the European 
+multi-layer plastic chain . Finally, cross-cutting activities related to regulation and standardization, safety, 
+sustainability, business, training, dissemination, and communication  will help to maximize the impact and 
+effectiveness of the project. These actions are aligned with t hose proposed by the European Plastics Strategy 
+(“improving waste treatment processes, legislative requirements, and concept of design for recyclability”)  to 
+ensure that by 2030 all plastic packaging is designed to be recyclable or reusable and thus decrease the quantity 
+of waste generated. 
+MERLIN has a relevant environmental, economic, and social impact in Europe. MERLIN will provide solutions to 
+potentially recover and recycle the 3.03 Mt/year of multi-layer packaging waste in Europe, reducing greenhouse 
+gas emissions and the dependence on imported fossil fuels. It is estimated that the potential annual carbon 
+footprint saving that could be achieved by recycling all the multi -layer waste in Europe could reach up to 7.42 Mt 
+CO2/year5. In addition, MERLIN has a potential economic impact of €10,605 million/year on the European 
+economy, considering that manufactured products based on recycled plastic have an average market price in the 
+range of €1.8-5/kg5 and that there is a volume of 3.03 Mt of non-recovered multi-layer plastic packaging. This can 
+be translated into the creation of over 47,133 new jobs per year, considering a rate of job creation of 1 job per 
+€225,000 of additional turnover6. Thus, MERLIN will contribute to boost the EU market for recycled plastics to 10 
+million tonnes of recycled plastic by 2025, as proposed by The Circular Plastics Alliance7.
+1.1 Objectives 
+The main objective of MERLIN is the development and promotion of disruptive processes for the sorting, 
+delamination and recycling of rigid and flexible multi-layer plastic packaging waste from post-consumer and post-
+industrial sources to obtain new high-performance packaging solutions (flexible and rigid) for the food packaging 
+industry. This w ill retain value in the economy and reduce the consumption of raw materials (e.g., fossil -based 
+polymers and metals) a s well as increasing  the quality and rate of recycled materials  from multi-layer packaging 
+waste. In addition, MERLIN project commitment will be aligned with the environment protection, the 
+development of circular solutions, and the knowledge generation for companies which help the European 
+industry with the transition through a Circular Economy. Figure 1 shows the scheme of the project based on the 
+specific objectives explained below. 
+ 
+FIGURE 1. SCHEME OF THE MERLIN PROJECT. 
+ 
+ 
+5 Own calculations for the preliminary Merlin market assessment, based on data taken from PlasticRecyclers. Web: http://www.pla sticsrecyclers.eu/ 
+6 https://www.plasticseurope.org/es/resources/publications/1804 -plastics-facts-2019 Sector with a Market value of €360,000 M and 1,600,000 jobs  
+7 https://ec.europa.eu/growth/industry/policy/circular -plastics-alliance_en 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+4 
+TABLE 1. OBJECTIVES OF THE MERLIN PROJECT. 
+Objective 1. Development of Monitoring and SORTING technologies (WP1) for multi-layer post-consumer and post -
+industrial packaging waste that can classify rigid and flexible packaging depending on the multi -layer structures (i.e., 
+PO-based multi-layer, polyester-based multi-layer, metalized multi-layer films). 
+Objective 1.1. To develop an optical system prototype for identifying the different types of multi -layer structure 
+polymers based on: Hyperspectral Imaging (HSI) in the Near-Infrared and Short-Wave Infrared (NIR/SWIR), and X-Ray 
+Fluorescence (XRF), combining other photon ic techniques for the material combinations under study should they be 
+needed (e.g., PET/PE, PET/PP and/or PET/Al/PE). 
+KPI: By M18, the material from each main polymer layer must have been identified  by IRIS in at least 75% of the 
+complex multi-layers under study. 
+Objective 1.2. Adaptation of Artificial Intelligence (A.I.) robots to multi-layer sorting, so that they can be classified into 
+rigid packaging, non-metalized flexible films and metalized flexible films from the waste flow. 
+KPI: By M16, A.I. adaptation to multi -layer packaging sorting, preliminary tests at laboratory scale  at ROVIMATICA’s 
+facilities. By M28, multi -layer waste sorting system tested and validated at FERROVIAL with an efficiency of 80% 
+(reduction of rejected materials). 
+Objective 2. Development of DELAMINATION processes (WP2) according to the nature of each sorted multi -layer 
+structure (rigid and flexible, non-metalized and metalized). 
+Objective 2.1. Rigid packaging: develop polyethylene terephthalate (PET) depolymerization via solvolysis processes for 
+multi-layer matrices. (i) Studying the influence of a high level of non -PET contaminants or impurities in the reaction 
+kinetics. (ii) Quantifying why and when the process might run into obstacles. (iii) Studying the behaviour of the 
+contaminants (no n-PET layers) under reaction con ditions. (iv) A p rocess for the purification and recovery of 
+polyolefins (POs), polyethylene (PE) and polypropylene (PP), will be developed. 
+KPI: By M17, the depolymerization of PET from a multi -layer matrix, and a BHET monomer with a purity of >99% will 
+be produced by IONIQA. By M24, PP and PE will be collected after PET depolymerization (by solvolysis) and will be 
+cleaned and separated to obtain material with a purity of >95% at IONIQA’s facilities. 
+Objective 2.2. Non-metalized flexible packaging: development of a delamination process for different fractions, mainly 
+polyesters and POs . Traditional solvents (e.g., methanol, ethanol) and green solvents  (such as CO 2) in supercritical 
+conditions, and/or a combination of both, will be used to selectively dissolve (i) the adhesive(s) between layers or (ii) a 
+specific layer (s) from this structure. In addition, MERLIN will study the influence of the presence of other internal 
+layers in the structure such as primers and/or functional barriers (e.g., Etilen-vinil-alcohol) in the process. 
+KPI: By M12, process parameters and interaction between defined variables. By M18, PET/PE will be delaminated with 
+70% efficiency at ITENE’s facilities. By M32, the process will have been rescaled in semi -continuous batches with 90% 
+delamination efficiency, reaching a purity for each separated polymer of at least 95%. 
+Objective 2.3. Metalized flexible packaging: (i) solvent-based process (e.g., with switchable hydrophilicity (SHS) or bio-
+based lipophilic solvents (BLS)) for the selective dissolution  of polymers and adhesives under mild conditions 
+(temperature below 100  °C and at room pressure). Thus, (ii) separating aluminium (Al) simply via mechanical steps 
+(e.g., filtration) , preserving its quality without substantial Al oxidation. (iii) The polymeric fractions  present in the 
+structure (mainly PET and P Os) will be tentatively separated and recovered . The recovery of these solubilized 
+polymeric layers from solvents (polyester and PO fractions) will be achieved by changing the polarity of the solvent 
+phase through the addition of carbon dioxide (CO2) under critical or sub-critical conditions. 
+KPI: By M16, process parameters and 50% of PE and 70% Al recovered by UNIBO at lab scale. By M32, UNIBO process 
+will achieve 80% of POs and 99% of Al recovered from PO-metalized flexible films. High quality Al (<10-20% of metallic 
+Al); low solvent residues (<1%) in the recovered POs and at least 80% of solvent recovered. 
+Objective 3. Development of RECYCLING processes (WP3) for the separated fractions and monomers, or prepolymers, 
+obtained in objective.2, improving their recovery, processability and properties. 
+Objective 3.1. Repolymerization into PET of the monomers and/or prepolymers, after purification, obtained in the PET 
+depolymerization via solid state polycondensation ( SSP). MERLIN will achieve the required quality of the final PET 
+resin, according to the final needs of the PET pellets during the process . This will be linked to the final specifications 
+required for the food packaging applications developed during the project. 
+KPI: By M25, INDORAMA will perform the polymerization of PET from monomers and/or prepolymers obtained in the 
+project at lab scale, with less than 10-15% deviation respect to standard commercial grade (e.g., Intrinsic viscosity: 0.8 
+dL/g, and colour: L (min 78), a- (-3.8 to -0.8) and b (-3.5 to 1). 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+5 
+Objective 3.2. Upcycling of PET and PO (PE and PP ) fractions recovered from the delamination processes . Upcycling 
+of recovered delaminated polymers will be performed by using compounding and reactive extrusion processes in 
+twin-screw extruders: (i) grafting of MA  on delaminated POs from both rigid and flexible packaging  to improve 
+PET/PO multi-layer adhesion (ii) increase of the molar mass of recovered PET fraction with chain extenders to 
+reach a viscosity suitable for final processing and optimized mechanical properties  and (iii) improvement of 
+processability and mechanical properties of the different fractions (delaminated POs and PET) by the addition of 
+different additives such as biosourcing fillers, antioxidants or impact modifiers will be done 
+KPI: By M32. Maximum deviation of 10 -15% in mechanical properties or processability (intrinsic viscosity/melt flow 
+index), obtained by CEA, compared to virgin materials used in the targeted applications (flexible and rigid packaging). 
+Objective 4. Development and VALIDATION of recycled PET, PO (PE/PP) -based packaging (WP4) ensuring at least the 
+same quality and safety requirements as compared to the value of the initially separated materials.  
+Objective 4.1. To develop and validate a new generation of cost-effective and 100% recycled packaging structures for 
+both (i) flexible and (ii) rigid packaging  applications within the food sector : (i) flow pack  and (ii) bottles, pots  and 
+thermoform trays. These materials will be benchmarked against similar existing virgin -supply solutions in the market 
+to ensure value retention. Food contact safety will be assessed in terms of overall and specific migration tests. 
+KPI: By M29, flexible and rigid recycled packaging validated  by ITC and IM2. Cost reduction up to 10% (in terms of 
+materials and additives), 100% recyclability, food safety assessment and a maximum 10-15% deviation in mechanical 
+properties and barrier properties (oxygen transmission rate (OTR), water vapour transmission rate (WVTR)) compared 
+to similar benchmark structures. 
+Objective 4.2. Demonstrate the circularity of MERLIN‘s processes by reintroducing the developed recycled  multi-layer 
+packaging into the loop of the processes developed  during the project . Thus, it will ensure  its recyclability and a 
+circular end of life. A design-for-recycling approach will be applied. 
+KPI: By M30, design-for-recycling approach in practice and developed packaging will be recycled for a second time  
+with the delamination processes developed by IONIQA and ITENE with a maximum deviation of 15-20% respecting the 
+quality  in the first loop. 
+Objective 5. To assess the environmental, economic, social, legislative and regulatory barriers  (WP5) for the 
+implementation of MERLIN processes and products. 
+Objective 5.1. A Life-Cycle-Thinking approach will be used for the evaluation and optimization of the environmental, 
+economic, social effects of the project across the full supply chain (including design, manufacture, and use of the 
+project results) through Life-Cycle Assessment ( LCA), Life-Cycle Costing (LCC) , Social Life-Cycle Assessment (S -LCA), 
+eco-efficiency analyses. Safe-by-Process Design principles will include risk and exposure and release assessments. 
+KPI: By M20, the interim analysis developed will show preliminary results. By M34, reduced environmental, 
+socioeconomic and safety impact of 5-10% will be demonstrated, by PARTICULA with the LCA, LCC and s-LCA analysis. 
+Objective 5.2. Policy toolbox with recommendations to support the uptake of the resulting processes (derived from 
+results of O5.1), including proposal for improvements of identified European plastic polices of relevance. 
+KPI: By M24, EuPC toolbox will be available to policymakers, including an EU dissemination event. 
+Objective 5.3. Drafting of new standardization work item proposals ( NWIPs) with the results of the pre -regulatory 
+studies, facilitating acceptance and utilization by the market of the project solutions.  In addition, it will include the 
+requirements that a delamination process should include to be validated in terms of quality and sustainability. 
+KPI: By M24 at least 2 interactions with standardization organizations such as CEN/TC 249/WG 9, ISO/TC 61/SC 14, 
+CEN/TC 261 or ISO/TC 122. By M34, regulatory report to foster standardization frameworks. 
+Objective 6. To facilitate sharing and learning of good practi ces on increasing circularity (WP6) in post-consumption 
+multi-layer packaging amongst value chain stakeholders. 
+Objective 6.1. Development of an elaborate Stakeholder Identification and Engagement Plan.  
+KPI: By M10 the baseline study of existing barriers and opportunity to increas e reusing and recycling in plastic waste 
+chain will be conducted together with the identification of  at least 500 relevant stakeholders and a plan for their 
+engagement by CSCP (i.e., inviting them for participation in the Circular Economy and Innovation Exchange Clubs 
+(CEIEC) for consultation and knowledge sharing  
+Objective 6. 2. Collection and sharing of good practices  containing circular design techniques for ensuring optimal 
+sorting and 100% recyclability at the end of life of virgin and recycled multi-layer packaging materials.  
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+6 
+KPI: By M26 recommendation on guidelines developed and later disseminated to 300 stakeholders.  
+Objective 6. 3. Development of a  Decision Support System (DSS)  to inform about the roadmap to follow the best 
+processes and techniques for the circular design of new products from multi -layer materials. This will include 
+optimized recycling process set -up vs. composition, suitable high f unctional recovery applications and potential 
+barriers to be overcome (social, economic, policy, regulation). The specific functions of the DSS will be aligned with 
+relevant stakeholders (end users) in order to maximize applicability and therefore acceptance and usage of the tool. 
+KPI: By M34 the DSS validated and positively ranked by 100 stakeholders. tool by IRIS 
+Objective 6.4. Facilitate information to the consumer regarding the environmental footprint savings and percentage 
+of recyclability material used in the multi -layer packaging by means of a quick response (QR)  code label readable by 
+smart phone. Post-mould labelling (PML) will ensure cost-effectiveness even in low volume operations (ITC). 
+KPI: By M34, an informative label regarding the percentage of recyclable material used in the packaging, emissions 
+saved, and proper management of the packaging after use. 
+Objective 7.  Ensure understanding, use and replicability of the project  (WP7) results by means of effective 
+dissemination, communication, and exploitation activities.  
+Objective 7.1. Deliver targeted communication and dissemination campaigns  to generate understanding and uptake 
+for the project results, communication tailored to each stakeholder group’s individual needs (consumer, producers, 
+retail, recyclers), therefore accelerating the expansion of the circular supply chain across major networks.  
+KPI: By M6, communication strategy in place with planned activities and website launched by ENCO. By M36, at least 
+1 demo video clip; presentation of the project in at least 10 relevant events. 5 project leaflets; several press releases, 
+popular articles, and MERLIN e-newsletter (2/year). At least 8 scientific peer-reviewed open-access articles published.  
+Objective 7.2. Development of a methodology for capitalizing results from MERLIN and similar projects. Clustering 
+with ongoing and future projects, establishing synergies and sharing communication campaigns. 
+KPI: By M36, Clustering with at least 12 projects by the end of the project, leaded by ITENE. 
+Objective 7.3.  To develop effective exploitation and business plans to support the adoption of project results 
+according to different stakeholder needs. Following the responsible research and innovation  (RRI) approach, the 
+project deliverables will be regularly aligned with relevant stakeholders (i.e., via the CEIEC in O6.1 and DSS in O6.2) in 
+order to maximize acceptance and uptake of the results by the markets. 
+KPI: By M36, Business Plans developed by ENCO for MERLIN solution composed by 18 complementary Key Exploitable 
+Results (KER), placed as a reference for a timely transition towards commercialization.
+1.2 Relation to the work programme  
+MERLIN heralds promising and exciting outcomes that are fully aligned with solving some of our key societal 
+challenges from the call Greening the economy in line with the Sustainable Development Goals (SDGs) , and more 
+specifically with the topic SC5-24: Improving the sorting, separation and recycling of composite and multi -layer 
+materials. TABLE 2 details the relation of the proposal to the specific scope addressed by this topic. 
+TABLE 2. RELATION OF MERLIN WITH THE TOPIC CE-SC5-24-2020. 
+Production rejects/existing stock such as material recovered from industrial and municipal landfills. 
+MERLIN will increase the quality and recycling rate of the 3.03 Mt of plastics/year from  multi-layer packaging in 
+post-consumer waste which is currently incinerated or landfilled in Euro pe1,2,3. The solutions developed in 
+MERLIN for sorting, delamination and recovery will be easily extrapolated to post -industrial rejected multi-layer 
+packaging material, because of the similar structures and polymers used. 
+Develop or improve innovative processes for the sorting, separation, recycling and introduction into manufacturing 
+process of multi-layer materials and assess the potential barriers for their implementation. 
+MERLIN offers customized solutions for sorting (objective 1), delamination (objective 2), and recycling (objective 3) of 
+multi-layer packaging materials according to the complexity of their material composition. Objective 4 supports the 
+reintroduction of polymers into the packaging manufacturing processes . Objective 5  will analyse and overcome 
+environmental, economic, social, safety (including food contact), legislative and regulatory barriers. Barriers regarding 
+acceptability will also be addressed by working with stakeholders (waste managers, sorting techn ology providers, 
+recyclers, packaging manufacturers, brand owners, consumers and policy bodies) and by offering solutions to their 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+7 
+needs by means of good practices (objective 6.1)  and a DSS (objective 6.2). The assessment of preliminary expected 
+barriers that may have an adverse effect on the sustainability of MERLIN is explained in the impact section, Table 7 
+Optimize value retention in the economy, rather than downgrading the multi-layer materials. 
+MERLIN will optimize value retention in the packaging industry  creating purified and isolated polymers from multi -
+layer packaging waste and re-introducing them into the manufacturing of new rigid and flexible packaging (trays, pots, 
+bottles, and flow pack). This will be achieved by first increasing the quality and quantity ra tes of multi-layer material 
+recovered in the sorting plant, with the implementation of a combination of photonic techniques that exceed the 
+limits of current NIR technologies to identify multi -layer structures, coupled with robotic actuators for  faster and  
+more selectivity. This sorting will allow reduce the amount of multi -layer waste which is landfilled in EU (1 million 
+tonnes/year) and saving a potential of €48.47 million in landfilling taxes. Second, optimizing delamination focused on 
+chemical recycling, reaching PET depolymerization for rigid multi-layer film, and separation by selective dissolution of 
+target layer for flexible film. Third, thanks to the effective separation of the layers, each non-depolymerized fraction 
+will be mechanically recycled (additivation), or repolymerized (depolymerized PET) and recovered in new packaging 
+with similar quality as virgin material. Thus, this will replace virgin polymers and preserve the value of each material. 
+Provide recommendations for the design of products t hat enables an increase in volume and quality in terms of their 
+recycling, including effective identification and management after use (consumer targeted labelling). 
+MERLIN’s processes will provide us with information which, after an exhaustive analysis, will be translated in to best 
+practices for increas ing recycling rates and future upscaling. Environmental, socio -economic and safety criteria will 
+feed the product design and development phase  through a life cycle analysis (LCA)  and Safety by Process Design 
+(SPD). Best practices will be disseminated to main stakeholders including training and reinforced with a DSS for 
+industry (objective 6.2) and QR labels for consumers (objective 6.3). 
+Environmental, social, health and safety legislation, and the cost of the innovative processes implemented should be 
+assessed in a holistic way, taking the entire life cycle into account. 
+A full LCA study  (including LCC and S -LCA) will be carried out on all the processes and materials produced . Such 
+analyses will consider energy demands, CO 2 emissions and impacts in ter ms of landfill waste reduction and reuse of 
+the materials for the  good of the  environment, economy and society (objective 5). Health and safety effects  for the 
+environment and worker s will also be analysed through risk, exposure, and release assessments  throughout the 
+supply chain. Regarding the recycled material developed, food contact safety will be assessed in terms of overall (EN 
+1186) and specific (EN 13130) migration tests. 
+Potential market impact that the proposed solution s could bring, impacts on current economic actors and consumer 
+acceptance and changes of consumer attitude. Quantitative information on the size of the targeted market is 
+expected. 
+The potential market impact depends on several factors: (i) alignment of the solution with the regulatory framework 
+of each member state (e.g., acceptance o f recycled materials in food products) (ii) regulatory incentives to foster 
+uptake (e.g., via adjust ment of recycling quota s), (iii) necessary invest ment for implementation by the relevant 
+stakeholders (recyclers and producers, addressed via standardization), (iv) end-user acceptance (addressing health 
+and food safety issues). Each of the factors is addr essed within MERLIN, following the RRI approach . A ll relevant 
+stakeholder groups are involved constantly from the start of the project to maximize acceptance. MERLIN will have a 
+clear impact on the European Plastic economy made up of 1.45 million workers, 62,000 companies, with a turnover of 
+€350bn, 2.4% of Gross Domestic Product (GDP), and multiplier effect of 3 in jobs1. A comprehensive market analysis is 
+expected to develop the business plans.  MERLIN will contribute with an economy impact of €11,342 million and  the 
+generation of 50,409 new jobs as explain in section 2 Impact. . 
+Participation of relevant industrial partners (technology providers, end-users, etc.) is important.  
+78% of the partners  in MERLIN come from the private sector within the packaging plastic value chain (industrial and 
+service providers). IRIS and ROVIMATICA offer monitoring and robotic solutions which will be tested in a sorting plant 
+(FERROVIAL). IONIQA and INDORAMA will offer delamination and recycling technologies based on depolymerization 
+and repolymerization. IM2 and ITC will act as end users  of the f lexible and rigid packaging. PARTICULA, CSCP and 
+ENCO are SMEs providing services for the environment, social innovation, policies, business models and 
+dissemination. Finally, the European association EuPC will facilitate access of the project results to its associates in the 
+field of packaging convertors , as well as  working on policies and standardization. As an RIA project, the rest of the 
+activities will be executed by three experienced research centres (ITENE, CEA and UNIBO). However, it is important to 
+note that all the private partners have previous experience in R&D projects, and even dedicate resources to R&D. 
+Moreover, all the activities will be guided by an external advisory board composed of key industrial players. 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+8 
+Activities are expected to reach TRL 5-6 by the end of the project. 
+A set of Time-Oriented performance indicators has been defined for each objective to ensure a proper execution and 
+interconnection of all the activities . First having results at lab scale under controlled environment, and later, after its 
+development and optimization, in real environment. T hus, achieving TRLs 5- 6 in each technology . See Table 3 for 
+detailed information. 
+Support for the European Strategy for Plastics, EU Green Deal, Sustainable development goals (SDG) and clustering.  
+MERLIN‘s objectives have been defined to support the European Strategy for Plastics8 (all plastic packaging should be 
+designed to be recyclable by 2030 ), The Circular Plastics Alliance  (boost the EU market for recycled plastics to 10 
+million tons of recycled plast ics by 2025 ), the EU Green Deal 9 (climate neutrality and mobilizing industry for a clean 
+and circular economy) and SDGs 3, 4, 5, 7, 13 & 19  (more info in section 2.1). Clustering with projects on recyclability 
+and packaging will jointly support these targets (objective 7.2, Table 4. ).
+1.3  Concept and methodology 
+ (a) Concept 
+The MERLIN project presents an innovative and 
+synergic solution for multi-layer packaging waste 
+management. These types of structures are largely 
+used with different polymer combinations based on 
+product needs. These combinations of structures 
+make their detection di fficult in the sorting plant and  
+generate problems in direct mechanical recycling, because of low miscibility between different types of polymers, 
+that result in materials with low processability and poor mechanical properties. There are some cases where it is 
+possible to use compatibilizing agents to improve miscibility between polymers. However, this solution is limited 
+to specific cases where there is a polymer contaminated with low amounts of a certain polymer, which is not the 
+case of multi -layer packaging, where it exists a huge variety of incompatible polymers and other materials (such 
+as Al or paper) present in significant proportions.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+8 https://ec.europa.eu/environment/circular-economy/pdf/plastics-strategy-brochure.pdf 
+9 https://ec.europa.eu/info/sites/info/files/european-green-deal-communication_en.pdf 
+ Application PE, PP PET EVOH Al Adh 
+Cereals Snacks X   
+ 
+X 
+ 
+Processed meat     X   X 
+Single dose X 
+ 
+X   X 
+Snacks X     X X 
+Lid tray X X X 
+ 
+X 
+Trays X X X  X 
+FIGURE 2. MERLIN PROJECT OVERALL CONCEPT. 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+9 
+The following technological areas related to packaging end of life will be involved in MERLIN: (i) development of 
+technology based on packaging identification and characterization for the sorting of multi -layer packaging, (ii) 
+separation and recovery of the constituent multi -layer packaging by delamination and its (iii) recovery and 
+reprocessing for recycling of the delaminated fractions, and finally the (iv) production and validation of upcycled 
+packaging with the materials developed in the project 
+ Sorting. Packaging identification. 
+NIR technology is well -known to waste managers, and it is widely used for the identification of mono material 
+packaging and monolayer films . However,  multi-layer identification with this technology is limited, mainly 
+because of the thickness of the packaging and the composition of the different layers. Due to low penetration 
+capability of NIR technology, only the external layer is  clearly identified. Different approaches will be studied in 
+MERLIN to develop and/or improve current technology. 
+- HSI-NIR/SWIR and/or XRF  technologies are the techniques which  will be use d in order to gain information 
+about the  material composition in  multi-layer packaging waste. These photonic techniques  cover a wide 
+range of spectra, ranging from visible to 1000 nm in the case of NIR, 1000 to 2500 nm for SWIR, and 0,01 to 
+10 nm for XRF . This wide range o f spectra enables the identification of PET, POs , and Al layers in rigid and 
+flexible packaging. MERLIN project will be  focused on tailoring a combination of these photonic techniques 
+and a computer vision detection system based on a Deep Neural Network, in order to identify the presence of 
+multi-layer packaging waste, and the composition of the different layers in the structure. 
+- An artificial intelligence (A.I) powered robot will be coupled with the Deep Neural Network developed in 
+MERLIN. The use of this type of robotized sorting solution enables to reach an average of 2,000 pics per hour, 
+which reduces the operation times in the sorting plant. Also, the combination with the photonic techniques 
+and computer vision detection will allow the efficient sort the multi-layer packaging in the waste flow.  
+- With the industrial proof of concept in relevant environment  of these developments, MERLIN will obtain a 
+new specific stream, which has not previously been segregated at sorting plants, made up of only multi -layer 
+structure packaging, preventing valuable material from being rejected or landfilled. 
+ Delamination. Separation and recovery. 
+Different polymer families have different properties and present low miscibility between them (e.g., PET and PE). 
+Delamination is the process used to separate different layers via different routes, depending on the nature of the 
+packaging: metalized and non-metalized flexible packaging  and rigid packaging . Within MERLIN, a set of 
+separation processes will be used, designed for each type and structure: 
+- Depolymerization is based on chemical recycling of polyesters (PET) via catalysed solvolysi s. The 
+depolymerization process enables the recovery of the polyester layer from rigid packaging structures, as 
+monomers and prepolymers, e.g., terephthalic acid (TPA), ethylene glycol (EG), dimethyl terephthalate (DMT) 
+and bis (hydroxyethyl) terephthalate (BHET), and the  PO layers are non -depolymerized. The solvolysis 
+processes for PET are based on the reduced chain cleavage  into low molecular-weight products, a reaction 
+that could be affected by the presence of other polymers (PE or PP). MERLIN will look into continuous 
+removal and process parameters (e.g., stirring speed), if needed, to reduce interferences. 
+- Green solvent-based processes will be specifically designed to dissolve the required layer in multi -layer film 
+packaging waste, with different approaches . In the case of non -metalized films, where the use of 
+polyurethane (PU) adhesives is extended, MERLIN will study the Hansen solubil ity parameters (HSP) , to 
+reduce the interaction between layer s and achieve delamination via solvents in supercritical conditions (e.g., 
+CO2) in combination with green solvents (i.e., low molecular alcohols and/or aldehydes). After both processes, 
+the different polyester and PO fractions in the structures will be tentatively separated and recovered. 
+- Solvent-based solutions will be used t o metalized films, which contain an Al functional barrier, and will be 
+treated using the dissolution properties of non -polar solvents. Solvents like SHS and biodiesel, whose 
+dissolution of PE has already been demonstrated, preserve Al quality (i.e., preventing its oxidation) and 
+recover it by changing solvent polarity (e.g., CO2 for SHS and sub/super critical CO2 for biodiesel). 
+ Recycling. Recovery and reprocessing of recovered material.  
+The different polyester (PET) and PO (PP & PE) fractions present in the structures will be tentatively separated and 
+recycled in MERLIN depending on the delamination process employed. 
+- Repolymerization. In the repolymerization process, the monomer depolymerized from the PET layer will be 
+used as a raw material for the synthesis of new polyesters via solid state polyconden sation (SSP). The 
+repolymerization will be achieved by transesterification of TPA with EG, followed by a second stage of SSP. 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+10 
+- Recovery and processability improvements  will be implemented in MERLIN for the delaminated recovered 
+fractions, whose properties a re affected by the delamination processes. MERLIN will apply and optimize the 
+processing parameters to improve the quality of the recovered polymers. In addition, specific routes such as 
+reactive extrusion of anhydride maleic  and additives such as chain ex tenders, stabilizers, impact modifiers, 
+fillers and combinations will be used to improve the processability and properties of the different materials, 
+enabling them to reach suitable viscosity and quality for the final processing and application: new rigid  and 
+flexible packaging.  
+ Validation. Upcycled packaging development. 
+The upcyc led and repolymerized fractions will be used for the development and validation of packaging 
+demonstrators, including recyclability and food contact evaluations. 
+- MERLIN will evaluate the performance of the upcycled materials  by producing different packaging 
+prototypes for  both rigid and flexible applications (e.g., bottles, pots , multi-layer trays and films). These 
+solutions will be benchmarked against similar existing virgin -supply solutions in the market to ensure high 
+performance at lower cost. 
+- A risk assessment in food contact of the packaging prototypes developed will also be conducted to study the 
+possibility of their use in contact with food. 
+- Circularity demonstration : It will be assessed the circularity of the different developments in MERLIN 
+through the reintroduction of the packaging demonstrators into the MERLIN project loop. 
+ Technology Readiness Level (TRL) 
+Each of the technologies developed in MERLIN will be validated/demonstrated in a relevant environment (TRLs 5- 
+6) by the end of the project according to Table 3. 
+TABLE 3. TECHNOLOGY READINESS LEVELS OF MERLIN’S MAIN INNOVATION. 
+Technologies TRL Development in MERLIN Final TRL 
+Sorting Identification NIR 5-4 
+XRF 4 
+NIR is widely used for mono -layer films, but not for multi -layer. MERLIN will 
+improve NIR, MIR and LIBS technologies, including the development of the 
+HSI version of each technique, as well as their combination, where needed.  
+NIR 6 
+XRF 6 
+Classification 4 
+A.I robots for multi -layer material will be integrated in to the identification 
+technologies for machine learning techniques, including the design of the 
+robot gripper adapted to waste packaging singularities. 
+6 
+Delamination 
+Supercritical 
+solvent fluids 3 
+Largely used in food and pharma, their use in recycling processes has not 
+been developed  implemented at indus trial scale . A  new supercritical 
+solvent-based (e.g., CO2, ethanol) process will be developed. 
+5 
+Supercritical PET 
+depolymerization 2 
+Chemical recycling of polymers has been demonstrated but not developed 
+for multi -layer structures. Optimiz ation of  operational conditions for the 
+selective depolymerization process of PET in multi -layer structures, solving 
+contaminant interference in the process. 
+5 
+PET 
+depolymerization 3 
+Depolymerization of PET is used but still not applied to multi -layer 
+structures. Optimizations and reduction of interferences caused by non -PET 
+impurities in the reaction kinetics are required. 
+6 
+Solvent base for 
+metalized film 3-4 
+SHS (patented 10) and BLS to separate PE from Al at lab scale. Development 
+of an optimized process to recover Al non-oxidized, and polymeric layers, 
+maximizing the recovery and keeping high quality. 
+5 
+Valorization/Validation PET 
+repolymerization 3 
+PET repolymerization follows the same principle as PET polymerization, but 
+not applied to monomers from depolymerised multi -layer structures. PET 
+obtained from monomers and/or prepolymers purified from multi -layer 
+structures. 
+6 
+Reuse of 
+recovered 
+fractions 
+4 
+Optimization of the additivation of the recovered fractions and processing 
+parameters in twin -screw extrusion processes using pilot/industrial 
+equipment for the improvement of their properties and later production of 
+different packaging demonstrators. 
+5 
+Decision Support 
+System 
+(DSS) 
+4 
+The adaptation of A .I.-based tools that are already in place will be adapted 
+to set up a DSS system for plastic recycling processes and products based on 
+MERLIN data and knowledge advances, aiming to reach relevant waste 
+managers and packaging companies. 
+6 
+ 
+10 PCT/IB2017/056941: Method for separating and recovering polyethylene and aluminium from a polylaminated material. 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+11 
+ Related Projects  
+MERLIN will establish relationships with ongoing and future to achieve common goals established in the European 
+Strategy for Plastics8.  
+TABLE 4. MERLIN INTERACTIONS WITH OTHER PROJECTS (ACRONYM LINKED TO WEBSITE; COORDINATORS OF PROJECT UNDERLINED). 
+Project and partner  Interaction with MERLIN PROJECT 
+PlastiCircle H2002-SC5 
+2016 ( ITENE). 
+SCALIBUR H2020-SC2 
+2018 ( ITENE, IRIS, 
+CSCP) 
+Direct access (without breaking confidentiality issues) to results regarding sorting technology for 
+plastic film. Innovative recovery processes. Engagement methodologies fo r social awareness and 
+joint efforts with BIOWASTE CLUB (Scalibur). Design concepts using biomaterials for packaging: 
+polylactic acid (PLA), polyhydroxyalkanoate (PHA) (Scalibur).  
+SEALIVE H2002-SC2 
+2019 (ITENE)  
+Clustering to maximize the impact of both projects’ results on end -of-life solutions and circularity 
+techniques: recyclable multi -layer single packaging materials from PHAs, PLA and starch, 
+traceability, NIR-based mechanical recycling, controlled biodegradation/composting conditions.  
+ENZYCLE BBI 20019 
+(ITENE, INDORAMA) 
+Study whether a combination of enzymatic treatments (Enzycle) with delamination/recycling 
+processes ( MERLIN) would be possible in future projects. Results from PET polymerization 
+techniques used by INDORAMA.  
+MultiCycle SPIRE 2018 
+(IRIS) 
+Matchmaking of MERLIN processes with Multicycle such as composition monitoring techniques to 
+improve sorting and recycling: plastic -metal laminates, separation of barrier materials, pigments 
+and fillers from PET.  
+DECOAT NMBP26 
+(IRIS)  
+Triggerable smart polymer material systems and the corresponding recycling processes for multi -
+layer. 
+TERMINUS CE-NMBP-
+26- 2018 (UNIBO) 
+Study the po ssibility of using the in -built Triggered Enzymes used in TERMINUS to Recycle Multi -
+layers as an intermediate process for cleaning any potential impurities (e.g., glue) after MERLIN 
+delamination processes.  
+POLYNSPIRE SPIRE 
+2018 (IONIQA, EuPC) 
+Energy reduction in recycling processes of polyamide (PA) waste and mixture with POs (PE, PP) for 
+packaging applications. Advanced additivities and high -energy irradiation to enhan ce recycled 
+plastic quality. EuPC will contact members that already have shown interest in POLYNSPIRE.  
+ZRR for Municipal 
+Waste EIT Climate 
+(FERROVIAL)  
+FERROVIAL will inform about the main barriers faced and parameters already optimized using A.I. 
+robotic technology applied to municipal waste sorting. This info will be used to adapt the robots to 
+the multi material.  
+R2PI H2020CIRC-04-
+2016 (CSCP) 
+The MERLIN Policy toolbox will take into consideration open source methodologies from R2PI 
+regarding its Policy Package to support sustainable business models for the circular economy.  
+NEW_InnoNet H2020 
+Waste-4 2015. (EuPC) 
+EuPC will make use of stakeholders working with multi-layer plastics from the networking platform 
+developed within the project regarding zero European Waste and interested in  MERLIN’s 
+approach. 
+I-MECH  H2020-ECSEL 
+(ROVIMATICA) 
+MERLIN will be supported by the experience reached in intelligent motion control for smart 
+mechatronic systems, which will be transferred to robotic systems for sorting plants.  
+Clustering with other 
+projects in this call 
+and others such as BBI 
+and BIOTECH 
+MERLIN will promote clustering activities with projects about biodegradable multi -layer packaging, 
+enzymatic recycling and decontamination technologies (e.g., USABLE PACKAGING 
+BBI.2018.SO3.R10, MANDALA BBI.2018.SO3.R10, PLAST2bCLEANED CE -SC5-01-2018). Thus, we will 
+join forces working in two different areas: sorting/recycling technologies for current waste flow 
+(MERLIN) and new bio-based material (other projects) to ensure that by 2030 all plastic packaging 
+is designed to be recyclable or reusable. 
+RELICARIO EIT Raw 
+Materials 19-2022 CEA 
+Development to the demonstration scale of a new technology to recycle CFRPs using 
+thermosolvolysis. 
+REVALUE EIT 
+“RawMaterials”, 2017-
+2019 (CEA) 
+Manufacturing process scale-up of eco-innovative composite materials, through optimisation of (i) 
+carbon fibre recycling from thermoplastic composites, (ii) surface modification of fibres, and (iii) 
+thermoplastic compound manufacturing.  
+DISPLAY EIT 
+“RawMaterials”, 2017-
+2020 (CEA)  
+Recycling process of thermoplastics from Waste Electrical and Electronic Equipments; and 
+valorisation of PC/ABS blends recovered from WEEE 
+INN-PRESSME DT-
+NMBP-04-2020 (CEA) 
+Development of biobased compounds composed of natural fibres, for specific applications, 
+including rigid packaging applications . Upgrade of CEA extruders to produce controlled films for 
+packaging applications.  
+ 
+ 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+12 
+(b) Methodology 
+MERLIN is a 36 -month research and innovation programme divided into two major blocks and eight work 
+packages. The first block includes all the research and development activities required to increase the recycling 
+rate, including processes technologies and materi al development, and their validation/demonstration in a real 
+environment (first at lab scale and later in an industrial scenario). The second block includes the activities needed 
+to strengthen the innovation capacity of the project and maximize its impact. 
+- BLOCK ONE: development and optimization of the processes to increase the recycling rate.  
+This block covers the technical development of the project in 4 work packages (WP1 -WP4), and includes all the 
+stages of process development, from the laboratory test to process optimization and scaling up to validation 
+level. To achieve this aim, MERLIN has defined a work package for each type of process developed and aligned 
+with a specific project objective, which will be led by a partner with expertise and previous results in the area. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The project will start (Figure 3) with WP1, led by IRIS,  with the combination of HSI and XRF technologies  to 
+identify polymers, performed by IRIS , followed by integration with a computer vision system based on Deep 
+Learning, by ROVIMATICA, to enhance detection and couple it to A.I. robotics for handling the sorting process. To 
+test the technologies developed in the WP, a specific Design of Experiments (DoE) will be implemented in order to 
+identify boundaries and limitations.  The final steps will include the validation of the developed technologies at 
+FERROVIAL’s sorting plant. Thus, it will reach TRL 6 (technology demonstrated in relevant environmen t) 
+participating in the relevant value chain (technology developers and a sorting plant). 
+Then, in WP2, led by ITENE , the activities will be focused on the delamination of the multi -layer packaging 
+structures based on the following approaches (Figure 4): 
+- PET depolymerization from rigid multi-layer packaging performed by IONIQA. 
+- Delamination process based on the use of solvents in supercritical conditions for non-metalized film by ITENE. 
+FIGURE 3 SCHEME OF THE POST-CONSUMER WASTE SORTING SYSTEM AND INDUSTRIAL VALIDATION 
+FIGURE 4: MERLIN MATERIAL FLOW 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+13 
+- Mild conditions for the separation of Al from polymeric fractions in metalized film by UNIBO.  
+With these recovered fractions, WP3, led by INDORAMA, will implement the techniques for PET repolymerization 
+from the monomers obtained. In parallel, CEA will recover the non -depolymerized fractions (PET, PE, and PP) 
+through compounding and reactive extrusion in twin -screw extruders to improve their processability and 
+mechanical properties. Thus, the optimal characteristics will be guaranteed for their use in a high -value 
+application in WP4. 
+The R&D-performing partners in MERLIN will take the main roles in these WPs. 
+Finally, WP4, led by ITC,  will demonstrate the efficiency of the previous processes in a real environment. This 
+WP will validate the use of the recovered polymer fractions for manufacturing different rigid and flexible 
+packaging demonstrators: (i) PET bottles by injection blow -moulding, (ii) polyolefin pots by injection moulding 
+and IML, (iii) multi -layer trays by extrusion -thermoforming and (iv) multi -layer flow pack by extrusion -
+lamination.  
+The industrial packaging partners, ITC and IM2 will play a central role in this WP, suppo rted by ITENE, as 
+packaging research centre. ITENE will also perform the food contact assessment analysis and , with the support 
+of the partners of the project  will demonstrate the circularity of the overall process developed in the MERLIN 
+project, reintroducing the packaging prototypes into the loop. 
+With this approach, MERLIN expects to achieve the ambitious goal of reaching TRLs 5 -6 at the end of the 
+project. 
+- BLOCK TWO: enhancement of the innovation capacity of the project.  
+This block is made up of three work packages (WP5 -WP7), which will be executed in parallel with the first block, 
+giving and receiving feedback during the entire project.  
+First, PARTICULA (in WP5) will carr y out a full environmental, economic , and social assessment of all the 
+processes and materials developed during the project . This Life Cycle Thinking approach  will include Life-Cycle 
+Assessment (LCA), Life-Cycle Costing (LCC) , Social Life-Cycle Assessment (S -LCA), eco-efficiency analyses. In parallel, 
+health and safety (for the worker and environment) will be ensure d by ITENE through Safe-by-Process Design 
+principles, including risk and exposure and release assessments . Finally, EuPC will evaluate the current EU policies 
+and regulations related to multi-layer packaging, their recycling and upcycling. All these activities will enable us to 
+detect and tackle all the potential barriers of the developed processes. 
+Stakeholder engagement and creation of knowledge is a key factor in MERLIN. Relevant stakeholders (processors, 
+recyclers, policymakers, retailers) will be involved within WP6 in the project from the start, identifying and addressing 
+their individual hurdles in several different formats to maximize uptake of the project results.  Thus, within WP6, CSCP 
+will create a Circular Economy & Innovation Exchange Club (CEIEC)  and stakeholder consultation workshops. During 
+the entire life of the project, technical activities from the block one will be aligned with the main conclusions 
+obtained in the CEIEC . As result , a set of good practices will be developed and disseminated in other to exchange 
+knowledge among the scientific and industrial community. Oth er tools for facilitate the acquisition of knowledge will 
+be the implementation and promotion of a DSS (IRIS, CSCP)  and informative QR codes printed on packaging and 
+easily accessible by consumers. All these activities will follow an RRI approach 
+Last, in WP7, led by ENCO, will facilitate cross-cutting activities and innovation impacts through a communication, 
+dissemination, and exploitation plan.   
+All MERLIN’s partners will have relevant participation in this block, which will be supported by experienced SMEs 
+and an EU innovation management and assessment association. 
+Finally, operability between both blocks will be monitored in  WP8 - MANAGEMENT (led by ITENE) which will 
+ensure the proper execution of the project on time. 
+ Gender dimension  
+MERLIN believes in the methodology for integrating sex and gender into engineering innovation. 1. Evaluating 
+Past Innovation Practices; 2. Building the Design Team; 3. Obtaining User Input; 4. Evaluation and Planning. This 
+four-step process will lead to new pr oducts, processes, and services and identify new markets and business 
+opportunities as well as meeting the needs of complex and diverse user groups. 
+A 2014 socio -demographic analysis  show differences in waste management attitudes and behaviour between 
+FIGURE 5. MERLIN MATERIAL FLOWS. 
+ 
+ 
+ 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+14 
+European women and men and it has also been reported that gender may play a relevant role on the social 
+acceptance of waste management costs 11. It is especially relevant that women are still predominantly involved 
+both in the purchase and waste sorting of packaging at household level. It is therefore essential to perform an 
+analysis so that social innovation initiatives are in line with consumers and to ensure that all actions implemented 
+in MERLIN are gender inclusive. In terms of the societal and environmental impacts of the new materials, an SLCA 
+and LCA will be performed. SSH research offers unique insights into how consumers ’ environmental values are 
+shaped and represented as well as into the symbolism and feelings associated with sustainable and recycled 
+packaging debates. A specific focus on gender will be carried out in Task 6 .1 Stakeholder Engagement  when i) 
+mapping, ii) analyzing, and iii) engaging stakeholders along MERLIN value chain. 
+Gender equality will also be promoted in recruitment following EC guidelines.  The language and design of the 
+exchange formats used in MERLIN (including documents, activities, and website) will be gender inclusive. Within 
+the consortium, the Innovation Manager will oversee that gender issues are effective within the stakeholders ’ 
+engagement and in the execution of the project between the members of the consortium (e.g., no discrimination 
+in decision-making). 
+Gender balance in the partnership has been considered as explain in section 3.3 consortium as a whole.
+1.4 Ambition 
+a) Advances of MERLIN beyond the state-of-the-art 
+As described above, the MERLIN project aims to develop innovative and systemic solutions for all the processes 
+required to increase the quality and rate of recycled multi -layer packaging waste, photonically monitoring the 
+waste, applying machine learning and AI algorithms for data colle ction, and robotizing the sorting guided by a 
+computer vision system based on Artificial Intelligence , chemically delaminating the layers and upcycling them 
+for high-performance applications. The development of these technologies will establish the foundations for the 
+future of multi -layer packaging design and waste management, given that this packaging is currently one of the 
+most complicated packaging waste areas to manage. As mentioned pre viously, multi-layer packaging waste is a 
+challenge. Accordingly, the development and application of the MERLIN project’s technologies bring an 
+improvement to the efficient end of life of packaging waste management. 
+The MERLIN project’s technologies are de scribed in more detail below with the state -of-the-art of the main 
+scientific and technological innovations associated with the management and treatment of multi -layer packaging 
+waste: sorting, delamination and recycling that the consortium aims to achieve during MERLIN. 
+Innovation in SORTING of post-consumer packaging waste in waste management facilities 
+Innovation 1. Monitoring packaging waste composition 
+Packaging material recycling from mixed waste plastics is a challenging process combining different s orting steps 
+such as screening, wind sifting, NIR sorting, and the removal of metals. Currently, the main purpose is to separate 
+the recyclable mono-materials, such as PE, PP and PET for mechanical recycling12. This separation is mainly done 
+with rigid packaging since flexible forms, including monolayer films, are difficult to handle by most recycling 
+systems13, with a higher operational cost.  Equipment to automatically identify plastics is commercially available 
+via spectroscopic identification sy stems including near -infrared, X -ray, colour, laser, and combinations thereof, 
+but many recyclers are still sorting plastics by hand which is unreliable and expensive. As a result, most state-of-
+the-art devices are used to identify the wanted rigid fraction and the rest, including multi-layer items, is normally 
+incinerated or landfilled. Metallic layers present in flexible packaging, mainly Al, are widely used to reduce multi -
+layer material permeability to light, water and oxygen. The encapsulated metal com plex molecules are gradually 
+released into the environment over the service life of the product or when the plastic waste is discarded either by 
+incineration or landfill, reaching the atmosphere or the soil. 
+IRIS has experience in developing fast, customiz ed, online photonic -based solutions for plastic processing 
+monitoring focusing VIS/NIR spectrometry. These tools have been proven to be precise in identifying its 
+composition and traces of unwanted substances. IRIS’ results in the Multicycle project showed  its ability to use 
+NIR HSI to identify the different layers in laminated plastic films 14, and pointed to the high potential of combining 
+chemometrics with machine learning in improving sorting. 
+ 
+11 Attitudes of Europeans towards Waste Management and Resource Efficiency  Waste Manag. 2014 Dec; 34(12):2434-44. 
+12 Coltelli M.B., Aglietto M., (2015) Riutilizzo dei materiali polimeri, Edizioni Nuova Cultura.  
+13 Selke, S. E.. Plastics recycling and biodegradable plastics. At: Harper, C. (2006) Handbook of Plastics Technologies.  McGraw-Hill. 
+14 Automated monitoring of waste composition and PAT platform for process optimization, article from MultiCycle 1st yearly ne wsletter, November 2019. 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+15 
+XRF has been identified as a useful technique for plastic recycling because it can detect metal layers and metal 
+complexes encapsulated in polymer matrixes, though not chemically bound to the polymer with penetration 
+depths beyond 10 mm. 
+Progress beyond the state-of-the-art 
+Innovation 2 Implementation of robotized sorting for waste management 
+Robotic solutions are starting to be applied in waste handling sorting plants. In these plants, sensors continuously 
+monitor the waste stream. With the help of A.I. recognition, the desired materials are identified through a 
+combination of computer vision a nd a photonic system. This information is used by the robotic grippers to pick 
+the materials out. However, they still present deficiencies in the recognition of some materials (e.g., multi -layer) 
+and in gripping. 
+Computer vision has been extensively applie d in waste detection. Waste streams are extremely complex both in 
+terms of detection and manipulation. There are virtually infinite types of objects, sizes, shapes, colours, 
+brightness, etc. and i tems are often dirty, broken, crushed  or overlapped… In this  case, traditional computer 
+vision techniques are not sophisticated enough 15. One of the first initiatives to demonstrate intelligent waste 
+classification was based on a classical pattern recognition methodology: the Bayesian framework 16, though this 
+methodology was not capable of perfect automation because it required hand extracted features. In another 
+area, convolutional neural network architectures made an impressive contribution to object recognition 17. Over 
+the last few years, computer vision has  been considered as a tool to support waste sorting, and deep learning 
+techniques have reached reasonable results. A method using faster region -based convolutional neural networks 
+(R-CNN)18 has been developed to obtain region proposals and object classific ation, categorizing waste into three 
+types (landfill, recycling and paper). 
+Progress beyond the state-of-the-art 
+Innovation in DELAMINATION of rigid and flexible (metalized and non-metalized) multi-layer packaging waste 
+Innovation 3. Polyester depolymerization for rigid multi-layer delamination 
+Depolymerization is the reverse reaction of the polymer formation route, obtaining the original monomers. There 
+are different depolymerization routes by solvolysis such as methanolysis, glycolysis and hydrolysis 19, depending 
+ 
+15 The computer vision waste challenge. HR-Recycler https://www.hr-recycler.eu/the-computer-vision-waste-challenge/ 
+16 C. Liu, L. Sharan, E. H. Adelson, and R. Rosenholtz, “Exploring features in a bayesian framework for material reco gnition,” in Computer Vision and Pattern Recognition (CVPR), 2010 
+IEEE Conference on IEEE,2010, pp. 239–246. 
+17 K. He, X. Zhang, S. Ren, and J. Sun, “Delving deep into rectifiers: Surpassing human -level performance on imagenet classification,” in Proceeding s of the IEEE international 
+conference on computer vision,2015, pp. 1026–1034 
+18 S. Ren, K. He, R. Girshick, and J. Sun, “Faster R -CNN: Towards Real -Time Object Detection with Region Proposal Networks, ”IEEE Transactions on Pattern Analysis and Machine 
+Intelligence, vol. 39, no. 6,pp. 1137–1149, 2017,ISSN: 01628828.DOI: 10.1109/TPAMI.2016.2577031. arXiv: 1506.01497.  
+19 Y. Yang et al, Study on methanolytic depolymerization of PET with supercritical methanol for chemical recycling. Polym. Degrad. Stab. 75, 185-191 (2002). 
+The innovative combination of NIR HSI and XRF for online monitoring of plastics will enable the identification 
+of PE, PP, PET and Al layers in rigid and flexible packaging when they are located with other plastic waste. 
+The addition of artificial vision will be used  in MERLIN project as a complementary criterion for defining the 
+area, perimeter, colour , or shape, and for separating rigid from flexible packaging using a robotic 
+manipulator. All these techniques will be implemented in HSI mode and the combination of the 
+compositional information at each detected packaging item level will be mined with artificial intelligence to 
+minimize the amount of unknown materials. Both the software and the hardware will be optimized and their 
+application extended to the detection of rigid and flexible packaging, integrating artificial vision for object 
+compositional information in real time and enabling the monitoring system to work at a waste treatment 
+facility. 
+Thanks to the combination of the results from photonic monitoring techniques and their integration with 
+computer vision based on deep learning for rigid and flexible packaging, MERLIN will improve the parameters 
+of A.I. algorithms to recognize multi -layer packaging materials from waste streams. The project will also 
+focus on improving the results of the Project ZRR for the Municipal Waste project of the gripping adapted to 
+rigid and flexible multi-layer plastics. 
+The deep learning algorithms developed in the MERLIN project will be based on multi -layer CNN for object 
+detection and in the training phase, an open source database will be created with segmented labelled waste 
+images. 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+16 
+on the chemical agent used in the reactions. In addition, its reactions could be catalysed or not, depending on the 
+use of this substances. 
+PET is a widely recycled polymer, which can be completely depolymerized into monomers 20. The major PET 
+depolymerization method includes solvolysis of the polymeric materials, following different routes, depending on 
+the selected reactive agent 21 (Figure 6), such  as glycols ( glycolysis), alcohols such as methanol and ethanol 
+(alcoholysis), and water, acid, and alkaline (hydrolysis). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+One of the most widely used processes is glycolysis, where ionic liquids, metal salts, and hydrotalcites are used 
+as a traditional catalyst. However, they are often difficult to recover and have poor depolymerization kinetics. 
+Traditionally, this depolymerization process has not been used for heavily contaminated PET streams, because of 
+the lower conversion result, given that products are most ly integrated by oligomers instead of BHET, which are 
+difficult to separate from impurities.22,23 
+Progress beyond the state-of-the-art  
+Innovation 4. Supercritical fluids for multi-layer non-metalized film delamination 
+Supercritical fluids (SCFs) have become of increasing significance in the last 
+few decades, and they are widely used in the industrial field. A SCF has 
+intermediate properties between a gas and a liquid. In this state, their 
+diffusivities approach those of a gas rather than a liquid, which means that 
+they can be easily moved through the material matrixes24. 
+Some SCFs, such as Supercritical carbon dioxide (s -CO2) have been 
+extensively investigated for applications in solvent -free chemistry processes 
+and are common in extraction  processes25, thanks to their miscibility with 
+other solvents and the ir combined dissolution effect 26. This fact makes it 
+possible to select operational conditions for selective dissolution in 
+delamination processes. 
+Under the solubility principle “like dissolves like”, the closer the solvent and 
+the polymer are in polarity, the easier it is to dissolve the polymer in the 
+ 
+20 A. Carné Sánchez et al, The selective recycling of mixed plastic waste of PLA and PET by control of process conditions. Eur. Polym. J. 47, 1970-1976 (2011). 
+21 Leian Bartolome et all, Recent Developments in the Chemical Recycling of PET. 
+22 M. Khoonkari, A. Haghighi, Y. Sefidbakht, K. Shekooki, A. Ghaderian, Chemical Recycling of PET Wastes with Different Catalysts. Int. J. Polym. Sci. (2015). 
+23 H. Wang, Y. Liu, Z. Li, X. Zhang, S. Zhang, Y. Zhang, Glycolysis of poly(ethylene terephthalate) catalyzed by ionic liquids. Eur. Polym. J. 45, 1535-1544 (2009). 
+24 Morrell, J.J., Handbook of Environmental Degradation of Materials (2012).  
+25 Sami Mukheimer et al, Uses of Carbon Dioxide. 
+26 Nikolai et al, Supercritical CO2: Properties and Technological Applications – A Review. 
+MERLIN will obtain raw materials (PET monomers)  from rigid multi-layer plastic waste through the 
+development of a new depolymerization process  for the PET layer . The new process will overcome the 
+limitations of current solvolysis processes , in terms of impurities kinetics interferences, implementing 
+process modifications, as pre-treatment and operational parameters modifications, and the steps needed to 
+improve depolymerization kinetics and the selectivity for BHET. In addition, smart magnetic materials (SMM) 
+will be implemented to improve the depolymerization process results compared with traditional catalysts. To 
+overcome the limitation related to the operational cost of the depolymerization process,  MERLIN will 
+implement the use of magnetic fluids during glycolysis depolymerization in order to fully and actively recover 
+the catalyst used in the process. The recovery of the catalyst will contribute to the development circular and 
+cost-effective process, allowing the reuse of the catalyst. Thus, the MERLIN project will obtain new polymers 
+using just a fraction of virgin plastic while the rest will be recycled plastic in the form of monomers, reducing 
+pollution issues and greenhouse gas emissions. 
+FIGURE 6. DIFFERENT SOLVOLYSIS METHODS FOR PET DEPOLYMERIZATION. 
+FIGURE 7. HSP AND SPHERE FOR POLYMERS AND SOLVENTS.  
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+17 
+solvent. In this way, when the interaction between a polymer and a solvent is higher than the cohesion of the 
+polymer, it is easily dissolved in the solvent. To determine whether a certain polymer will dissolve in a certain 
+solvent, the Hassen Solubility Parameters (HSP)  have been defined , which study the in teraction between 
+molecules related to dispersion forces (δ d), intermolecular forces (δ p), and hydrogen bonds (δ h). The HSP study 
+will provide the starting conditions for carrying out multi-layer film (non-metalized) delamination. 
+Although the use of s -CO2 is known in the industrial sector, its uses are mainly focused on the food sector, 
+because of the efficiency of extractions for different substances with different molecular weights, such as 
+vegetable, animal and mineral oils, and some substances with higher molecular weight, such as waxes. 
+Progress beyond the state-of-the-art 
+Innovation 5. Solvent-based process for multi-layer metalized film delamination 
+Several lab techniques and a fe w pilot plants have been developed for the separation of multi -layer metalized 
+films (e.g., separation of PE from aluminium). The developed approaches can be grouped into thermal, 
+mechanical and chemical processes. The thermal process involves the application of high temperatures to 
+achieve the decomposition of the plastic layer  (and other organic components presents in the packaging waste), 
+recovering the metalized layer.  The mechanical technology (often known as mechanical/chemical process) i s 
+mainly based on the exfoliation of the multi -layer material with the aid of separating fluids/chemicals such as 
+mixtures of water, surfactants and hydro tropes, organic solvents, and acid solutions. Microemulsion ‐based 
+technology is an example of this ap proach, developed by Saperatec 27, which uses a combination of surfactants, 
+lipophilic solvents, chelating agents and stabilizing agents. One of the few plants developed so far based on this 
+technology is a demo plant in China that uses formic acid. Althoug h formic acid is not included in the European 
+Candidate List of Substances of Very High Concern 28, it is well known as a corrosive and flammable compound, 
+and also as a strong reducing agent. 
+The chemical strategy foresees the solubilization of polymeric l ayers and the precipitation of the metal ones, 
+followed by polymer recovery by evaporation of the solvent or after the addition of an anti -solvent. The solvents 
+can effectively dissolve some of the most common polymers found in multi -layer metalized films. However, there 
+are only a few solvents and they are usually “problematic” (e.g., toluene, xylenes). Vegetable oil represents one of 
+the most environmentally friendly options, but chloroform or alcohols are needed to remove oily contaminations 
+from both polymers and their metal counterparts. 
+Progress beyond the state-of-the-art 
+ 
+27 https://www.saperatec.de, Patent: US 2013/0319618 A1  
+28 http://echa.europa.eu/web/guest/candidate-list-table 
+MERLIN aims to use the solvation power of SCFs, which is exponentially proportional to their fluid density 
+and can be modified by changing the operational conditions: pressure and/or temperature. In addition, the 
+use of co -solvent improves the solvation power of SCFs. MERLIN will study the operational conditions, 
+pressure, temperature, contact time, and co -solvents, to maximize the efficiency and selectivity of SCFs for 
+delamination. Hence, the delamination process developed will focus on the use of SCFs and co -solvents for 
+the degradation and/or dissolution of a target layer with accurate polarity (e.g., EVOH) in the structure of 
+flexible multi-layer packaging. 
+In this way, the MERLIN project will move forward in the use of supercritical fluids as a solvent, impro ving 
+knowledge and developing a new process for recycling and recovery, based on selective dissolution with 
+fluids in supercritical conditions. 
+MERLIN will dissolve the polymeric layer/s from the metalized films. As an alternative to common solvents, 
+green solvents are more expensive but are environmentally friendly. In this project, a comparative study 
+between traditional and green solvents, with similar properties, will be carried out. Polymer recovery from 
+the solution will be achieved using CO 2. During the MERLIN project, two green solvents will be triall ed: 
+Switchable Hydrophilicity Solvents (SHS, mainly lipophilic tertiary and secondary amines) and biodiesel. Both 
+of them are characterized by the fact that: i) they can dissolve polymers like PE under mild conditions 
+(temperature ≤ 100 °C); ii) they prese rve Al quality (i.e., preventing its oxidation); iii) they can be separated 
+from the polymers and recovered by changing the solvent polarity (e.g., adding CO 2 to SHS/H2O mixture, or 
+adding sub/super-critical CO2 to solubilize biodiesel. 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+18 
+Innovation in RECYCLING recovered polymers from delamination and REPOLYMERIZATION of polyesters 
+Innovation 6. Polyester Repolymerization from multi-layer waste packaging  
+PET repolymerization is used to obtain new raw material from the monomer. PET polymerization is manufactured 
+following different routes: (i) a transesterification reaction between dimethyl terephthalate (DMT) and EG, (ii) the 
+esterification of terephthalic acid (TPA) with ethylene glycol (EG) and polycondensation of bis (2 -hydroxyl ethyl) 
+terephthalate (BHET), (iii) ring-opening polymerization using different catalysts such as antimony trioxide, 
+titanium (IV) isopropoxide or dibutyltin oxide, and (iv) finally, the polyaddition reaction, which can also be used to 
+obtain PET and other polyesters29.  
+After chemical recycling, PET is totally degraded into monomers such as TPA, DMT, BHET, and EG or partially into 
+oligomers or other materials30. This repolymerization will follow similar principles to conventional polymerization, 
+producing new PET with the same properties as virgin raw materials , but dealing with the possible impurities and 
+interferences. 
+Progress beyond the state-of-the-art 
+Innovation 6. Upcycling/reuse of recovered polymers  
+Plastics, due to their structure, are susceptible to degradation because of factors such as temperature, radiation, 
+and exposure to aggressive media 31. This degradation has negative consequences on their mechanical properties 
+and stability. In the case of recycled materials, this effect is greater because they have been subjected to a 
+recycling process mainly because of the use that has already been given to the original material. The degradation 
+processes and the damage derived from them can be interrupted or repaired in recycled materials by the addition 
+of different compounds such as stabilizers, chain extenders , impact modifiers , fillers and other application-
+specific additives, by compounding or reactive extrusion processes. 
+The use of stabilizers is suitable to avoid degradation from processing in recycled polymers. The most common 
+ones are antioxidants and light stabilizers. 
+Antioxidants (AOs) (such as phenolic compounds, phosphites and phosphonites 32) are used to reduce the 
+thermal-oxidative degradation of plastics due to heat, shear stress or a combination of these factors, among 
+others33 and they can be divided into two main categories : primary AOs, which act as radical scavengers, and 
+secondary AOs, which act as hydroperoxide scavengers. 
+Light stabilizers  (such as benzophenones, benzotriazoles, and salicylates) are used to inhibit polymer photo -
+oxidation, which is the combined result o f the action of light and oxygen, causing material cracking and even 
+disintegration34. Like autoxidation, this is a free radical process. There are two main types of light stabilizers: 
+ultraviolet ( UV) absorbers,  which absorb ultraviolet light and render i t harmless, and hindered amine light 
+stabilizers (HALS), which work by terminating photo-oxidation processes. 
+Chain extenders (such as anhydrides and organophosphorus) are reactive additives added to the polymer during 
+extrusion to increase chain length 35. This results in a reduced melt flow index (MFI) and thus increases viscosity 
+and mechanical properties. Chain extenders are normally only effective in polycondensation polymers such as PET 
+and PA. 
+ 
+29 Amit A Barot, Tirth M Panchal, Ankit Patel, Chirag M Patel . Archives of Applied Science Research, 2019, 11 (2): 1 
+30A. B. Raheem, Z. Zainon Noor, A. Hassan, M. K. Abd Hamid, S. A. Samsudin, A. Hussein Sabeen . Journal of Cleaner Production 225 (2019) 1052e1064  
+31 F. Vilaplana and S. Karlsson, “Quality concepts for the improved use of recycled poly meric materials: A review,” Macromol. Mater. Eng., vol. 293, no. 4, pp. 274 –297, 2008 
+32 BASF, “Process and Thermal Stabilizers for Specialty Polymers.” [Online]. Available: http://www.plasticadditives.basf.com/ev/internet/plastic -
+additives/en_GB/function/conversions:/publish/content/plastic -additives/K_2016/data/Selectionb_Guides_PTS_Polymers_2016_Final.pdf.  
+33 R. Fiorio, D. R. D’hooge, K. Ragaert, and L. Cardon, “A statistica l analysis on the effect of antioxidants on the thermal -oxidative stability of commercial massand emulsion -
+polymerized ABS,” Polymers (Basel)., vol. 11, no. 1, 2018.  
+34 Zweifel, H., Maier, R. D., Schiller, M., & Amos, S. E. (2001).  Plastics additives handbook. 
+35 Dimonie, Doina et al. Overview on Mechanical Recycling by Chain Extension of POSTC -PET Bottles. 10.5772/31841. 2012. 
+The polymerization of PET from pure substrates (EG and TPA) can be carried out by different methods and 
+the result obtained is PET with all the qualities and none of the impurities. The MERLIN project will evaluate 
+the behaviour of depolymerized multi-layered PET (made up of other non-PET polymers, like PU) as the input 
+for the polymerization processes. MERLIN will address the production of PET and guarantee the safety of 
+food packaging products via laboratory tests, using purified PET monomers derived from  depolymerization 
+processes. Therefore, MERLIN will develop a process to obtain high quality PET from a non -homogeneous 
+waste stream, increasing the recycled plastic content in PET (linked to the EU Single-Use Plastics Directive) by 
+looking at multi -layered PET waste streams that are currently being incinerated or going to landfill. This 
+could mean a reduction of fossil-based (virgin) raw materials and a move towards a more circular economy. 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+19 
+Impact modifiers  (such as maleic anhydride (MA) -modified S EBS, EPDM or Ethylene –ethyl acrylate –glycidyl 
+methacrylate terpolymer 36) are generally elastomeric compounds (dispersion of a rubber phase within the 
+polymeric matrix) used for increasing flexibility and impact strength to meet the physical property requirements 
+of rigid parts37. 
+Fillers are usually added in order to improve the mechanical properties of final materials. Nowadays, biosourcing 
+fillers (e.g., lignocellulose plant fibres as hemp, coco and sisal ), are becoming important in the market to replace 
+common fillers such as GF and CF when the application allows this. One of the key issues is to make these polar 
+fibres compatible with non-polar matrices such as POs. 
+MAg on POs aims to modify their surface tension for improving adhesion/affinity w ith polar polymers as PET and 
+fillers3839. Indeed, PET is a polar material with its carboxylic acid and alcohol functions at the end of the chain, for 
+example, whereas POs are known for their apolarity.  The intention is to use more environmentally friendly 
+adhesives and prevent extra processes such as filler sizing. 
+Progress beyond the state-of-the-art 
+Innovation 7. Recovery of metalized layer 
+The recycling of metals without degrading their properties helps to preserve natural resources, as this requires 
+less energy to process them than using virgin raw materials, thus emitting fewer harmful gases and saving 
+money40. Metalized layers from multi -layer packaging materials can be recovered through thermal and 
+mechanical/chemical approaches. Thermal technologies such as incineration, plasma and pyrolysis/microwave -
+pyrolysis41 42 aim to generate energy by breaking the chemical bonds of the polymeric fraction (thus no more 
+recoverable as “raw material”) and to solely recover metal layers. However, their  quality can be hampered by a 
+high level of oxidation (e.g. due to the presence of residual water/developed water during the process) and/or 
+char residue (carbonaceous material, highly enriched into inorganic ashes) . In addition, the use of some specific 
+chemicals (e.g., strong reducing agents)43 and/or the44 conditions under which these chemicals are used (e.g., high 
+temperature) can compromise the quality of metal layers. 
+Progress beyond the state-of-the-art 
+b) Innovation Potential 
+To maximize our innovati on’s commercial potential, beyond the outreach activities, a comprehensive series of 
+measures including user-friendly tools to transfer knowledge to industry and consumers, consumer perceptions, 
+standardization and regulatory aspects, as well as business p lanning and knowledge/intellectual property rights 
+(IPR) management, will be undertaken in WP6 and WP7. The knowledge and IPs generated by the project will be 
+ 
+36 J. Scheirs, Additives for the Modification of Poly(Ethylene Terephthalate) to Produce Engineering -Grade Polymers. 2004. 
+37 J. Markarian, “Impact modifiers: How to make your compound tougher,” Plast. Addit. Compd., vol. 6, no. 3, pp. 46–49, 2004. 
+38 Alexandre Geissler, Elaboration d’une nouvelle catégorie de surfaces adaptatives sensibles à un stimulus mécanique ; universi té de Haute Alsace - 2009. 
+39 Massardier Compatibilité des matières plastiques - Etat de l’art septembre 2001 ; - Laboratoire de Matériaux Macromoléculaires INSA de LYON  
+40 An Introduction to Metal Recycling (June 25, 2019), The Balance Small Business. 
+41 A. Korkmaz, J. Yanik, M. Brebu and C. Vasile, Waste Manage., 2009, 29, 2836.  
+42 J. Haydary, D. Susa and J. Dudáš, Waste Manage., 2013, 33, 1136.  
+43 M. Xie, Q. Qiao, Q. Sun and L. Zhang, Int. J. Life Cycle Assess., 2013, 18, 626.  
+44 D. Yan, Z. Peng, Y. Liu, Q. Huang, M. Xie and Q. Wang, Waste Manage., 2015, 35, 21.  
+Most developments related to recycled plastic upcycling/recovery are focused on virgin plastic or on plastic 
+waste from monomaterial structures, and not on delaminated structures. Because of the delamination 
+processes, the different fractions obtained (PET from flexible packaging and polyolefins from both flexible 
+and rigid packaging)  may experiment higher degradation than the one resul ting from conventional 
+mechanical recycling processes. MERLIN will study specific routes and additives such as reactive extrusion 
+and additivation in twin -screw extrusion processes to enhance the processability and properties of the 
+delaminated recycled fractions so as to obtain structures with a performance that is similar to current 
+benchmark solutions. In addition, the use of more environmentally friendly solutions such as bio -sourcing 
+fillers and adhesives will be considered to further reduce the carbon footprint of the developed solutions. 
+MERLIN will develop a delamination process for metalized multi -layer film which recovers good quality, 
+marketable Al, with a minimum percentage of aluminium oxide. As an alternative to processes based on high 
+temperature (e.g., pyrolysis) or harsh conditions (e.g., strong alkaline or acidic  reagents), green solvents 
+under mild conditions will be applied.  This approach will provide the recovery of not only Al, but also of 
+those polymeric layers soluble into the selected solvents (SHS and BLS). 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+20 
+exploited by each partner in order to improve their competitiveness. This will differentiate thei r products on the 
+market, tapping into increasing market and consumer demand for high -performance environmentally friendly 
+packaging compared to their traditional petroleum -derived counterparts and improved EoL options. Freedom to 
+operate (FTO) has been gi ven due attention as a vital forerunner for the commercial exploitation of the results, 
+and a patent search has been performed around each of our main technologies reflected in the SoA. 
+Table 5 reflects the most relevant patents (including some from partners) and highlights the differences with 
+MERLIN. The prior art is rich but there is space for further innovations beyond the state-of-the-art which could be 
+patented. We expect  to generate at least 4 new patents from the project, especially in the area of sorting and 
+delamination. 
+TABLE 5. RESULTS OF THE PATENT SEARCH FOCUSED ON THE MAIN INNOVATION AREA TO BE GENERATED IN MERLIN. 
+Patent  
+(title, reference, status, owner) Relevance to MERLIN Impact on MERLIN 
+WO2017037260 - Method and 
+device for dismantling multi -
+layer systems including at least 
+one organic component 
+Patented process to delaminate 
+multi-layer systems including a 
+fluid which causes one of the 
+layers to s eparate, and one or 
+more non -reactive liquids (mix of 
+water and acetone) 
+MERLIN will focus on the dissolution or degradation of 
+the targeted layer. The developed process will include 
+different co -solvent/s with different polarities. The 
+patent specified (use o f specific solvents mix) is a 
+different process from MERLIN’s, FTO not a risk. 
+IT201600114545A1 
+Method for separating and 
+recovering polyethylene and 
+aluminium from a polylaminate 
+material 
+UNIBO 
+The invention is based on the use 
+of switchable hydrophilic solvents 
+(SHS) for the separation and 
+recovery of low -density 
+polyethylene (LDPE) and 
+aluminium from food packaging 
+(polycoupled).  
+MERLIN will exploit this technology to recover both 
+polymers and  aluminium from metalized flexible 
+packaging. The fully sustainable method recovers high 
+amounts (> 99% for aluminium and> 80% for 
+polyethylene) of the materials and with good quality (≥ 
+86% of non-oxidized aluminium). 
+KR20170056601A - Polymer 
+compositions 
+Process for improving properties 
+of post-consumer polyethylene by 
+the incorporation of inorganic 
+fillers such as calcium carbonate, 
+clays and talc for the production 
+of pipes. 
+MERLIN will work on the enhancement of properties of 
+post-consumer packaging waste from delaminated 
+multi-layer structures to produce rigid and flexible 
+packaging (films, trays, bottles and pots). As recovered 
+materials may be more degraded due to delamination 
+processes, specific routes will be developed, inclu ding 
+the use of reactive extrusion, and additives such as 
+stabilizers, impact modifiers and fillers.  
+KR101518662B1 - Method for 
+environmental-friendly 
+manufacturing of properties 
+reinforcement recycled PP 
+using engage and nucleating 
+agents 
+Improvement of impact 
+resistance of recycled PP by using 
+thermoplastic PO elastomers and 
+inorganic-free nucleating agents 
+MERLIN will focus on upcycling recovered fractions 
+from multi -layer structures, which may have 
+undergone a higher degree of degradation than usual. 
+Depending on the target application, studies will look 
+into the effect of different additives such as impact 
+modifiers, which will be added by compounding. 
+WO2014142661A2, magnetic 
+fluid, granted 
+IONIQA 
+The invention relates to the 
+catalyst used for PET glycolysis 
+that will be used within this 
+project.  
+Within MERLIN, IONIQA will focus on the recycling of 
+rigid multi-layer packaging, which has a higher degree 
+of contamination than usual PET feedstocks. This 
+catalyst will be tested in the presence of the 
+contaminants. The more complex feedstock challenges 
+the process, and thus purification and catalyst 
+separation might be more complex as well.  
+WO2017111602A1, Improved 
+capture complex and method of 
+degradation of a polymer 
+material, granted IONIQA 
+See above.  See above. 
+WO2017080651A1, PET/PA 
+separation process, granted  
+IONIQA 
+This invention relates to the 
+separation of PA/PET by means of 
+a pre-treatment step prior to the 
+PET depolymerization process.  
+IONIQA will focus on the recycling of rigid multi -layer 
+packaging, which has a higher degree of contamination 
+than usual PET feedstocks. A pre -treatment step might 
+be required to purify the PET stream before it enters 
+the actual depolymerization vessel.  
+ 
+ 
+ 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+21 
+2. IMPACT
+2.1 Expected impacts  
+2.1.1 Expected Impacts listed in the topic 
+The development of the MERLIN project will have a remarkable impact on different aspects related to 
+sustainability developments as  well as on future European legislation and technology developments. MERLIN 
+aims to create promising technologies and processes to improve sorting, delamina tion, and recycling, addressing 
+all the expected impacts that are included in the topic CE-SC5-24-2020. This impact will be achieved by 
+performing research work with the objective of making this concept commercially viable in practice, analysing the 
+potentially successful exploitation pathways, and assessing and managing any related risks. Additionally, MERLIN 
+will contribute to the achievement of the SDGs as discussed below in each relevant impact point ( Table 6) and 
+shown in Figure 8. 
+FIGURE 8. MERLIN CONTRIBUTION TO SDGS. 
+ 
+ ITENE 
+ 
+ 
+TABLE 6. CONTRIBUTION TO THE IMPACTS SET OUT IN THE TOPIC AND TO THE SUSTAINABLE DEVELOPMENT GOALS (SDG). 
+Increased yield and quality in the sorting of products made of multi-layer materials. 
+MERLIN’s technologies will place the waste treatment sector within the Industry 4.0 framework  with the aim of 
+transforming current waste treatment facilities into factories for the production of secondary raw materials. To 
+achieve this, it is necessary to equip current sorting processes with new systems that introduce high efficiency 
+operations to increase waste recovery, both in terms of quantity and the variety of materials, and also ensuring 
+suitable quality for their subsequent recovery.  MERLIN’s sorting technologies, based on photonic and computer 
+vision material identification, A.I. robotics, and deep learning algorithms,  will improve the current solutions in the 
+recycling industry, through a reliable composition -based classification with chemometrics and machine learning 
+model criteria, and a deep learning classifier based on images for types of waste and cost -effective robotic 
+solutions for picking. 
+Robotic sorting solutions  will increase the cost efficiency of sorting and classification . The latest generation of 
+robotic sorting solutions could perform an average of up to 2,000 picks  per hour versus the 800 picks per hour of a 
+worker doing it manually 45. Assuming that one tonne of post -consumer packaging waste could contain an average 
+of 300,000 package units 46, one tonne would be treated in 150 hours as opposed to 250 hours if it were treated 
+only by human. Thus, the use of robotized sorting w ould reduce in an average of 40% the sorting time in sorting 
+plants. Moreover, the implementation of robots will reduce workers’ exposure to post -consumer waste in sorting 
+plants, avoiding potential health risks. 
+In addition, sorting in the specific structure  identification (HIS, NIR/SWIR, XRF)  will increase the quality  of each 
+multi-layer sorted flow by 75%, eliminating misunderstandings by workers over materials that are visually similar.  
+KPI1: Increase of the purity and sorting efficiency in sorting plants by 75% for each multi-layer stream sorted in the 
+project and increasing the purity of other current flows in sorting plants (e.g. HDPE or PET) over 90%. 
+Increased recycling of raw materials from products made of multi -layer materials, in terms of volume and/or 
+quality. 
+Modern economies are highly dependent on plastics in Europe, consuming in the range of 29.1 million tonnes per 
+year of plastics and collecting around 17.8 million tonnes per year of post-consumer packaging1. In spite of the high 
+variability between EU countries 47, the majority of this packaging waste is incinerated (39,5 %) or  is landfilled 
+(18.5%) and only 42% is recycliced1.  
+The EU aims to extend the useful life of food to reduce food wasting has increased the use of multi-layer structures 
+in the packaging sector, because of the high barrier properties of these structures . Thus, The EU consumption of 
+multi-layer packaging structures  is in the range of 3.03 million tonnes per year (17% of total plastic packaging 
+ 
+45 https://www.recyclingtoday.com/article/recycling -robots-ai-sorting/ 
+46 Mapping flexible packaging in a Circular Economy [F.I.A.C.E], Ceflex.eu  
+47 Plastics – the Facts 2017 An analysis of European plastics productio n, demand and waste data, Plastic Europe report  
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+22 
+produced)4, with the majority being incinerated (32%) or landfilled  (68%). Indeed, most of the multi -layer food 
+packaging are currently very difficult to recycle. In the light of the EU’s policy objective  of achieving a resource -
+efficient recycling society, it is hard to accept that we still landfill nearly 40-50% of plastic waste in Europe. 
+The total volume of plastic recycled  in Europe stood at 9.46 million tonnes in 2018. PET was the polymer with the 
+highest market share, with 33.9% (5.5% growth per year), followed by POs (PE, PP), with a 26.3% market share48. 
+MERLIN will focus mainly on the delamination and recovery of these polymers (PET, POs). Recycling 60% of the 
+total amount of multi -layer packaging waste, it is mean 1.8 million tonnes , would imply an increase of more than 
+10% in total current plastic packaging waste recycl ed, from 9.46 to 11.27 million tonnes. This would contribute to 
+reaching the European Plastics Strategy  objective of 55% of packaging recycling in 2030.  In the market, this 
+increase would contribute to reaching the expected amount of total recycled plastic to  18.25 million ton nes in 
+2030 (considering a 5.2% growth per year)49. 
+Considering the global market for recycled plastic  was estimated at €36,5300 million  in 2018 48, the potential 
+European market for recycled plastics from multi-layer packaging structures, 1.8 million tonnes, could be estimated 
+at €6,173 million in 2018, if they had been recycled. 
+With the implementation of the developed technologies in the fields of sorting, delamination, and valorisation, the 
+MERLIN project aims to increase the amount of recovered  plastic, suitable for high value -added applications. This 
+plastic valorised from multi -layer packaging structures reach a potential market, of  €11,342 million of recycled 
+plastic in 2030, reaching 3.51 million of tones of multi-layer packaging recycled (considering an expected 6.5%, and 
+5.2% growth per year respectively)24. 
+• MERLIN is linked to SDG9  on building resilient infrastructure and promoting inclusive and sustainable 
+industrialization. MERLIN will foster innovation within the waste treatment and multi-layer packaging industry 
+with a relevant associated economic impact. 
+KPI2: Recover with high quality at least 60 % of plastic material from multi-layer packaging structures by combining the 
+developed technologies (sorting, delamination, and recycling) 
+KPI3: Recycling of 3.51 million tonnes, with a potential market of €11.342 million in 2030 
+Reduced use of virgin raw materials. 
+The EC’s plastics strategy aims to decouple plastic production from virgin materials, reducing their leakage into the 
+environment, improving the economics and uptake of recycling to support the transition from a linear to a circular 
+economy model . MERLIN technologies will contribute to increase the recycling of post -consumer plastic waste, 
+reaching 60% of multi -layer recycling, which would represent a total of 1.8 Mt/year. This recovered material  (PET 
+and POs), could be used as raw material for high -value performance products , such as food contact applications, 
+reducing the dependence on non-renewable sources. This reintroduction of polymers into the loop will reduce the 
+oil dependence, which will impact positively on the EU’s carbon footprint in plastic production. For virgin PET, the 
+average carbon footprint is estimated at 2.86 kg CO 2 eq/kgmaterial, while the use of PET from recycled sources will 
+reduce the footprint to 2.45 kg CO2 eq/kgmaterial 50. In the case of virgin POs, the estimated average is 1.9-2.01 kg CO2 
+eq/kgmaterial, depending on the type of PO and the quality. Recycled POs, in turn, will save 0.41 kg CO 2 eq/kgmaterial 50. 
+The combined technologies developed during the MERLIN project, applicated in an industrial environment,  are 
+expected to recover a total of 1.8 Mt/year . The recycling of this material  has the potential to reduce carbon 
+footprint by 2.8-4.45 Mt CO2 eq/year. 
+• Merlin is linked to SDG3 on ensuring healthy lives and promotin g well-being thanks to CO 2 eq reduction, thus 
+reducing disease and the mortality rate caused by bad air quality. 
+• Merlin is linked to SDG12 on promoting a sustainable consumption and production, through the design of new 
+high-performance packaging solutions from waste. 
+• Merlin is linked to SDG13  on combating climate change thanks to the reduction of virgin materials and an 
+increase in recycling rates. 
+KPI4: Production of  high-added value packaging  prototypes, as food packaging : rigid (thermoformed trays)  and 
+flexible(flow pack).  
+KPI5: Reduction of, at least, 10-15% of kg CO2 eq by using recovered plastics compared to raw material production. 
+Increased knowledge on “circular design” of products currently made of multi-layer materials. 
+MERLIN promotes collaboration between all partners and stakeholders throughout the entire value chain and 
+ 
+48 Recycled Plastics Market-To Reach USD 66-74 Billion By 2026 Reports And Data - link 
+49  Europe's recycled plastics market 2019 - 2024 - Globe Newswire 
+50 Own calculation based on simulation with SimaPro, Ecoinvent, 2016  
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+23 
+beyond, following an RRI approach. Results include good practices for sorting, designing , and recycling and a DSS 
+informing about best processes for  circular design. Dissemination and consultation workshops will increase the 
+understanding of the opportunity for the economy and environment of designing for recycling. The project will be 
+defined to attract the common goal of stakeholders ( green image, reducing w aste at competitive price ) but also 
+their specific interests: waste managers (high quality secondary raw materials), packaging converters (compatibility 
+with their packaging lines and client requirements), packaging filling and machinery suppliers (compatibility with 
+their industrial lines), brand owners (preventing breakages, spoilage, contamination, increasing shelf -life, safety, 
+and informative labelling), consumers (quality, appearance), policymakers (alignment with strategic plans), I.A. and 
+robotics industry (exploiting new sectors such as waste management). CSCP will oversee their engagement. Special 
+efforts will be made to increase knowledge among EU countries with plastic packaging recycling rates below the 
+average in the EU 28 -2 (42%) such as Roman ia, Cyprus, Poland and Bulgaria 1. MERLIN will hold  at least t en 
+webinars/workshops and dissemination events involving more than 200 stakeholders. 
+• Merlin is linked to SDG4 on ensuring quality lifelong-learning opportunities thanks to the knowledge generated 
+among stakeholders.  
+• Merlin is linked to SDG5 on achieving gender equality since it will ensure end -user acceptance (addressing 
+health and food safety issues) following the RRI approach (including gender aspects). 
+• Merlin is linked to SDG17 on the implementation of and partnerships for sustainable development thanks to 
+clustering with other projects. 
+KPI6: Increase of networking and interaction among stakeholders and standardisation organisation by the participation 
+of at least 20-30 stakeholders in each webinar/workshop. 
+Increased knowledge of the process’ environmental footprint, including the net effects on greenhouse gas emissions, 
+thanks to improved sorting, separation and recycling of multi-layer material. 
+The methodology described above will also be used to increase knowledge  about the environmental footprint 
+associated with our processes based on quantified data from  the LCA, LCC and S -LCA (objective 5). The MERLIN 
+project’s results will include a DSS (objective 6.2), which will facilitate environmental footprint information to 
+industry (waste managers, packaging, recyclers, designers) and QR printed labelling ( objective 6.3) to the 
+consumers in non-technical language. 
+KPI7: Feedback received from 100 stakeholders of the  Good practises developed  and linked with the Decision Support 
+System (DSS), fully operative and correctly implemented in the platform. 
+Cross-cutting priorities: gender and socio-economic science and humanities 
+Socio-economic Science and Humanities (SSH): SSH perspectives are fully embedded in the MERLIN project. SSH 
+disciplines represented in the project include sustainability, management, marketing, consumer science, 
+psychology and anthropology, represented primarily in the partners ENCO, CSCP, ITENE and EuPC. In particular, 
+involvement from SSH experts will be instrumental in ensuring that the outcomes of MERLIN are relevant and can 
+reach maximum imp act at societal level. SSH expertise will also be important to organise dissemination activities 
+(WP7) and to ensure effective stakeholder engagement (WP6) with particular  consideration to European 
+consumers and SMEs. Special efforts will also be made on c apacity building at SME level through technical and 
+personal upskilling. 
+2.1.2 Other Expected Impacts not listed in the topic 
+This section explains the impact of MERLIN in other areas not listed in the topic.  
+ Impact on Economy 
+Through MERLIN’s project, a systematic and multidisciplinary approach will be developed to increase the rates of 
+the recycled material improving the end -of-life of multi-layer packaging. This multidisciplinary approach includes 
+the main elements present in the value chain : waste management , recyclers, raw material producers , and 
+packaging manufactures. Thus, is expected that MERLIN project impacts affect the complete value chain . To this 
+end, quantitative information on the size of the targeted market are shown next.  
+Waste management market  
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+24 
+The European waste management market  was valued at €303 
+billion in 2019 and it is expected to reach €484.4 billion in 
+202551, with a Compound Annual Growth Rate (CAGR) of 6% due 
+to increased environmental concern and rapid industrialization in 
+developing countries, with Europe representing a 30% of this 
+market, with a value of €102.14 billion in 2019 and €144.88 
+billion in 2025. MERLIN will boost this encouragement thanks to 
+our impact on policymakers.  This market has traditionally been 
+divided into three main parts: municipal waste, industrial waste, 
+and hazardous waste. The most important segment is municipal 
+waste, which is expected to reach €57.12 billion in Europe by the 
+end of 2023, growing by 6.1% over the period timeframe. 52 There is a new niche market focused on digital 
+solutions, called Smart Waste Management, which is expected to grow from €0.32 billion in 2019 to €1.73 billion 
+by 2025 in Europe, with a CAGR of 25.68%53 (Figure 9). MERLIN will contribute to expand this emerging smart 
+waste management sector introducing smart technologies in sorting plants 
+Sorting and robotics for waste management  
+Over the last few years, the waste management industry has 
+started to introduce robots in its recycling processes to improve 
+productivity, the recycling capacity and reduce the cost of waste 
+recycling policies54. Globally, robotics applied to sorting is expected 
+to bring a  CAGR of 16.52%, reaching a total of  €10.82 billion in 
+2024 (Figure 10 )55. Geographically, Europe is the fastest growing 
+market with a  growing value from €1.74 billion in 2019 to €4.29 
+billion in 2025, due to the strong presence of large manufacturers 
+of “waste robots ”, such as ZenRobotics (NL) or Sadako 
+Technologies (SP). 56 
+The take -off of th is sector has been limited by the high initial 
+required investment and barriers to find expert technicians. However, lately, the introduction of A.I., machine 
+learning and artificial vision have reduced the required investment and the maintenance risks and costs, as well 
+as enabling new professionals to be trained in the sector. MERLIN process development in sorting  field will 
+combine robotics with these technologies in order to contribute to the market growth and penetration . 
+Technology transfer to industry within MERLIN will help waste management companies to gain competitiveness 
+and will increase the quality of in all the streams in sorting plants, eliminating misunderstandings over materials. 
+Plastic Industry  
+The global plastic market was valued at €500.9 billion in 2019 and is 
+expected to growth at a CAGR of 3.2% from 2020 to 2027. In Europe, 
+production reached almost 62 million tonnes, 17% of the global 
+market share , with packaging being the most important se gment 
+with 39.9%. In terms of materials, PP is the most important (19.3%), 
+followed by PE-LD/PE-LLD (17.5%), PE-HD/PE-MD (12.2%), PVC (10%), 
+PUR (7.9%), PET (7.7%), PS/EPS (6.4%) and other plastics representing 
+the remaining 19% (Figure 11).1 An emerging market within the plastic 
+industry and aligned with  MERLIN is the European recycled plastics 
+sector which present a CAGR of 6.4%, and is expected to increase from 
+€10.9 billion in 2017 to € 14.9 billion in 2022, due to manufacturers ’ 
+preferences in using recycled plastic over virgin plastics.  This is 
+especially demanded by  the packaging sector , especially in the PET 57 
+and Polyolefine sector, which is the focus of MERLIN. 
+ 
+51 Global Waste Management Market Analysis, PR Newswire – Link  
+52 Source: Canadean 
+53 Smart waste management market, Mordor Inteligence – Link  
+54 Trends that will transform the waste management. Industry outlook in 2020, Lichpinseo – Link  
+55 Global Waste Sorting Robots Market Analysis, Market Data Forecast – Link  
+56 Waste sorting robots market analysis, Goldstein Research – Link  
+57 Recycled plastics market, Markets and Markets – Link  
+FIGURE 10. GLOBAL SORTING ROBOTS MARKET GROWTH (2019-
+2024). 
+FIGURE 9. WASTE MANAGEMENT. SEGMENTATION 
+FIGURE 11. PLASTIC INDUSTRY SEGMENTATION. 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+25 
+Multi-layer Rigid Packaging industry 
+In the plastic packaging industry, there is a growing need for materials that can suitably protect products, mainly 
+in the food and beverage industry. This has led to the development and growth of barrier packaging in the last 
+few years, driven by advanced technology and changes in consumer preferences, and especially the growing 
+trend of microwave cooking and ready-to-eat meals. These trends have led the European market to reach a value 
+of €2.87 billion in 2018 and are expected to continue to drive it at a rate of 5.4% CAGR to stand at a total of 
+€4.24 billion in 2025. In terms of materials, the most widely used are PE, PP, PA and EVOH, with the combination 
+of PET and PP accounting for the majority of the market, at the moment.58 
+Multi-layer Flexible Packaging industry 
+Multi-layer flexible packaging, which includes solutions such as 
+bags, pouches, sachets, wrapping films, laminates, liners, and stick 
+packs, etc., has grown enormously during the last couple of years 
+due to its material efficiency, cost -effectiveness, dura bility, and 
+low weight. This is reflected in the European market’s size, which 
+was €30.06 billion in 2016 and is expected to reach €40.40 billion 
+in 2022, with a CAGR of 5.2%  (Figure 12. Multi-layer Packaging 
+Industry.) The drivers that are leading this growth are the need to 
+extend the shelf life of products in order to reduce waste and 
+facilitate transport, the downsizing of packaging, the rise in 
+demand from end users and the technical improvements in global 
+manufacturing activities. 59 
+In terms of end use, the most important segment is food and beverages. It dominates the market and is expected 
+to grow the most in the short term. The food industry is one of the most important markets in the world in terms 
+of revenue, reaching a total of €6,543.60 billion in 2020, and it is expected to grow annually by 3.6% in the next 
+few years, reaching €7,785 billion in 2025. Other markets that are important for MERLIN are those related to 
+mass consumption. For example, the cosmetics industry is expected to grow at a CAGR of 4.3%, reaching €375.59 
+billion in 2022 thanks to a preference shift towards natural and organic beauty products. Another major market is 
+pharma, which had a value of €1,092.35 billion in 2019, and expects to grow to around €1,180 billion in 2024. 
+In tune with the current growth rate of the smart waste management market, our new solutions will meet the 
+growing number of plants that are seeking effective solutions aligned with the EU regulatory framework. MERLIN 
+represents a very timely  development of new sorting, delaminating and recycling solutions for multi -layer 
+packaging based on PET and/or polyolefins, which are cost-efficient and offer high performance to move towards 
+‘green’ waste management systems.  
+This will result in major business opportunities reinforced by current multi -layer rigid and flexible packaging 
+market trends, growth in our target end -use sectors, increased visibility, and policy awareness and support for 
+these solutions. Indeed, we intend to tap into the massive EU plastic business.  
+As explained in impact -2, it is estimated a total volume of 5.85 Mt of multi-layer plastic packaging  waste 
+generated at 2030 . Considering that manufactured products based on recycled plastic have an average market 
+price in the range of €1.8-5/kg1, MERLIN has a potential economic impact of €18,903 million/year by 2030 in the 
+EU and creating around 84,013 new jobs per year, considering a rate of job creation of 1 job per €225,000 of 
+additional turnover6. 
+Being more conservative, and considering that MERLIN solutions could recover an average of 60% of the total of 
+multi-layer packaging waste generated , 3.51 million tonnes  per year could be recovered , reaching a potential 
+economic impact of €11,342 million of recycled plastic in 2030 and creating around 50,409 new jobs. 
+ Impact on job creation and worker quality  
+MERLIN is aligned with the EU 2020 strategy 2 3 on the creation of growth and jobs, with a high impact in health 
+and environment.  As it has been just stated, MERLIN can contribute to the generation o f 50,409 new job  
+positions by 2030 . Moreover, MERLIN will contribute to more EU investment in sorting and recycling 
+infrastructures, which will create more jobs by encouraging innovations in several sectors (i.e., IoT, Robotics, 
+plastic, Packaging, and food). The implementation of automation  in waste sorting will improve the health and 
+ 
+58 Europe represents a 35% of the global market.  Barrier Packaging Market, Globe Newswire – Link  
+59 Flexible Plastic Packaging Market, Markets and Markets – Link  
+FIGURE 12. MULTI-LAYER PACKAGING INDUSTRY. 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+26 
+safety conditions of workers in these industries, reducing direct contact with waste, boosting teleoperation, 
+collaborative robotics, and digitalization. These workers will be trained to carry out other jobs in  the waste 
+treatment facility related to the maintenance and operation of the new technologies, thus promoting their 
+professional development. For this reason, most of the job created will be qualified or high -qualified, offering 
+better conditions and salaries to workers.  
+Finally, within MERLIN consortium, Table 14 from section 2.2, estimates about how partners respectively expect 
+to grow their business and create jobs with the new MERLIN solutions. In total, it has been estimated at 67 jobs 
+positions. Thus, Europe could get a strong foothold in the market here by being the first -to-market with a strong 
+brand that is scientifically backed (as a results of this RIA), with related packaging producers gaining an invaluable 
+head start in the global competition race. 
+ Impact on health  
+The accumulation of plastics waste when 
+they are  landfilled generate substances 
+with long times of degradation, which 
+persist during hundreds of years and  are 
+progressively accumulated in the 
+environment, being able to become  
+introduced in the food chain. These non -
+degradable products will be accumulated 
+in organism tissues, affecting finally to 
+human health. In addition, these products 
+have the potential to affect to the 
+environment (i.e., soil pollution, ground 
+water, seas, global warming, etc.). MERLIN 
+will allo w improving the recycling and 
+valorization of plastic waste , reducing 
+these impacts in the environment  and in 
+human heal th. In addition, the sorting 
+technologies which will be developed during the project will help to reduce the contact of workers with plastics 
+waste, decreasing t he risk to exposure to hazardous or contaminated waste (as postconsumer packaging which 
+could be contaminated with COVID-19 from homes). 
+As mentioned, besides addressing unmet demands for effective high performing approaches for the sorting, 
+separation, recycling of the multi -layer packaging materials highly contributing to the re -introduction into 
+manufacturing processes, MERLIN will also contribute to other environmental and socially important impacts 
+especially in terms of pollution and consumer health. Incontrovertibly, our quality of life is linked to the quality of 
+our environment and measures are needed for lowering the environmental burden of our consumption patterns. 
+Our vision is to lead the transition towards a sustainable post -petroleum society in the plastic sector while 
+decoupling economic growth from resource depletion and environmental impact, providing different solutions for 
+a New Circular Plastics Economy.  According to a report of the Ellen MacArthur foundation 60, only a very low 
+amount of plastic materials is recycled (14%) while high amounts end up in landfills (40%). MERLIN solutions will 
+increase the quantity of multi -layer plastic waste recycled while boosting and influencing the use of recycled 
+materials in value added ap plications, as for food packaging. The demand for our consumer products, MERLIN 
+recycled multi-layer packaging, is expected be driven by green- and health- conscious consumers concerned about 
+the environment61.  
+ Impact on stakeholders and consumer behaviour 
+MERLIN will facilitate the cross -sector collaboration among relevant stakeholder, thus functioning as a dialogue 
+and knowledge exchange platform. It will seek to promote positive behaviour changes among stakeholders by 
+actively involving them in the processes dev eloped within the project, through a number of engagement 
+activities. The engagement activities include the creation of a tailored stakeholder engagement plan as well as the 
+sharing and exchange of good practices on increasing circularity in post -consumption multi -layer packaging. 
+ 
+60 THE NEW PLASTICS ECONOMY RETHINKING THE FUTURE OF PLASTICS, Ellen MacArthur foundation, 2016  
+61 About 80% of European consumers want to buy products with a minimal  impact on the environment (Eurobarometer survey, EC, 2013).  
+FIGURE 13. GLOBAL FLOWS OF PLASTIC MATERIALS. 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+27 
+Participatory activities include consultations on prioritizing actions for increasing the reuse and recycling of multi -
+layer packaging throughout the value chain (e.g. , sorting, recycling, circular product design, etc.) and valida tion 
+workshops for evaluating the related good practices (see task 6.2.2). Thus, MERLIN aims to empower 
+stakeholders by involving them in the decision -making process for adopting the most suitable solutions for them 
+with regard to increasing circular design and the use of packaging in the multi -layer packaging chain. MERLIN will 
+contribute to changing stakeholder and consumer behaviour and improve their perceptions of recycled packaging 
+by assessing and sharing data on safety, health and the sustainability benefits of recycled packaging.  
+MERLIN project will assess the environmental, social and safety benefits by the active involvement of PARTICULA, 
+CSCP and ITENE, which will give the alignment of MERLIN to the consumers’ needs and perceptions. CSCP will 
+ensure a strong coverage at European level and contribute to encourage the knowledge of the positive benefits of 
+recycled multi -layer packaging as well as raising awareness about economic, societal, and environmental 
+challenges 
+ Impact on innovation capacity and acquisition of new knowledge 
+MERLIN will clearly contribute to the innovation capacity of partners and the integration of new knowledge in 
+two main areas: (i) sorting, delamination and recycling of rigid and flexible multi-layer plastic packaging waste and 
+(ii) developing and validating new high -performance packaging solutions (flexible and rigid) for their sustainable 
+introduction on manufacturing processes for the food packaging industry. 
+While the generation of new knowledge is positive, it is in its industrial use that innovation capacity is increased, 
+and impact is realised. As such, to generate true market -replicable innovation, the MERLIN consortium brings 
+together the industry value chain required for market success, and the project includes a number of cross -cutting 
+activities, such as environmental, regulatory, safety and techno -economic assessments, as well as business 
+planning activities to maximize the post -project exploitation of the results. Working closely with and transferring 
+research results to industry , as well as providing informative programmes , are value assets which , when 
+combined with the drive of industry will ensure we bridge the innovation gap that frequently prevents industry 
+adoption of R&D results and outputs. Effective knowledge transfer from technical partners to end users  
+(internally) and third enterprises and end-users (externally) as well as training to consumers will also take place in 
+WP6 and WP7. This is a strategic step for the post -project since it will pave the way towards commercialization, 
+guaranteeing that sufficient knowledge is assimilated and competencies to exploit results are acquired. 
+ Impact on EU policies and strategic initiatives: 
+Besides impact on the SDGs listed in the previous section, MERLIN will have a direct impact on the EU Green 
+Deal9 and the Circular Economy Package.  
+Waste Framework Directive 2008 /98/EC62 encourages recovery over plastic  waste landfilling and incineration. 
+This Directive also establishes that preparing for re -use, recycling, and valorization of household plastic shall be 
+increased to a Minimum of overall 70% by weight by 2020. MERLIN contributes strongly to the objectives aimed 
+at the European Directive since the project is committed to developing solutions enable to improve the recovery 
+of plastic waste from one of the stream s unsorted in waste manager facilities, and with deep technical problems 
+for its valorization. 
+European Strategy for Plastics in a Circular Economy 8, where the roadmap for Europe in the next year, aiming to 
+achieve by 2030, a 100% of packaging which must be reusable, recyclable, or compostable, since only 4 2% of 
+packaging waste is recycled in Europe 1 (7.5 Mt recycled, 3.3 Mt landfilled, and 7 Mt incinerated). MERLIN project 
+solutions will be focused on the development of  innovative solutions which involve all the actors present in the 
+packaging waste end-of-life, in order to increase packaging recycling rates and meet the objectives set for 2030. 
+Plastics Strategy63 since it will boost the demand for recycled plastics and prevent plastic waste  deposition in our 
+environment. The realisation of EU regulations depends on the technological state of the art. N ew regulations 
+need new approaches to be realized. The innovative and systematic solution developed in the MERLIN project will 
+increase the amount of recycled material available in the market, as well as it s quality, in order to meet the new 
+requirement of European plastic industry. These solutions will be validated through the performance of  new 
+packaging which meets the market requirements. 
+ 
+62 https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32008L0098  
+63 https://ec.europa.eu/commission/presscorner/detail/en/IP_18_5  
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+28 
+#EUGreenDeal. The European Green Deal 9 is the EU policy initiative aimed at putting Europe on track to reach 
+net-zero global warming emissions by 205064. To achieve climate neutrality, to preserve our natural environment, 
+and to strengthen our economic competitiveness, a fully circular economy is required. Today, our economy is still 
+mostly linear, with only 12% of secondary materials and resources being brought back into the  economy. There is 
+huge potential to be exploited both for businesses and consumers. The  European Green Deal  unquestionably 
+focuses on the sectors that use the most resources and where the potential for circularity is high: (i) packaging –
+new mandatory requirements for recycled content; (ii) food – new legislative initiative on reuse to replace single-
+use packaging; (iii) waste – new regulatory frameworks to turn waste into high -quality secondary resources that 
+benefit from a well-functioning market for secondary raw materials. Importantly, in terms of Sustainable Product 
+Policy, the EU encourages actions that ensure products are d esigned to last longer, are easier to recycle, and 
+incorporate as much recycled material as possible instead of primary raw materials. MERLIN contributes strongly 
+to these goals by setting up innovative and systemic solutions for all the processes required  to increase the 
+quality and rate of recycled multi -layer packaging waste, photonically monitoring the waste, robotizing sorting, 
+chemically delaminating the layers and valorising them for high -performance recycling. The resulting materials 
+will guarantee the closure of the European multi -layer plastic chain, as a new generation of cost -effective, 100% 
+recycled multi -layer packaging structures for both flexible and rigid applications within food sector will be 
+validated. MERLIN’s solutions will positively influence economic growth, decoupling it from resource use.  
+Circular Economy Package (CEP). Building on the work done since 2015, the new Plan focuses on the design and 
+production of a circular economy, with the aim of ensuring that the resources used are kept in the EU economy 
+for as long as possible. MERLIN hinges on the recycling of fossil -based multi-material post-consumer and post -
+industrial plastic waste like PET/PE, PET/PP, PET/Al/PE, which is non-biodegradable and currently ha s a very low 
+recycling rate (due to difficult recyclability in view of their fouling and /or complex structures). In MERLIN, we 
+provide value-added EoL solutions for plastics which are currently landfilled or incinerated. The recycling solutions 
+proposed enable MERLIN to implement circular economy principles as a new generation of cost -effective, 100% 
+recycled PET/PP and PET/PP multi-layer food packaging structures will be developed, thus closing the loop within 
+the multi -layer food packaging sector. Therefore, MERLIN will be a key enabler for implementing the Circular 
+Economy Package (CEP). Specifically, MERLIN contributes to the implementation directive on packaging and 
+packaging waste, which sets new legally binding targets and fixed deadlines for waste recycling and the reduction 
+of landfilling. In fact, the package includes a common EU target for recycling 65% of packaging waste by 2025, and 
+70% by 2030. In this context, the plastic sector has a separate target of 50% b y 2025 and 55% by 2030. This 
+represents a significant increase over the current target imposed by the Packaging Directive 94/62/EC, which set a 
+recycling target of 22.5%.  
+ Barriers/obstacles 
+Despite the opportunity MERLIN brings and the capabilities of the consortium, there are external factors and 
+barriers that may have an adverse effect on the long -term sustainability of the test bed and associated impact 
+described above. Table 7 describes these barriers and how we will o vercome them. The technical and 
+management risks associated with the workplan are described in section 3.2. 
+TABLE 7. EXPECTED BARRIERS THAT MAY HAVE AN ADVERSE EFFECT ON THE SUSTAINABILITY OF MERLIN. 
+Barriers How MERLIN will overcome the barrier 
+Acceptance of 
+technology by 
+the industry 
+and products 
+by customers 
+MERLIN will seek to improve the acceptance of both technologies and new products among 
+stakeholders (i.e., industry and consumers) through extensive and transparent dialogue. The ongoing 
+stakeholder engagement (WP6) will set the basis for continuous exchange acr oss the multi -layer 
+packaging value chain and strengthen stakeholder collaboration in order to return the value to each 
+stakeholder group, which is at the very center of Circular Economy. 
+Price 
+competition 
+and market 
+The investment needed for transitioning towards the MERLIN multi-layer packaging recycling waste 
+could be a barrier for market uptake but we estimate that it will be effectively counterbalanced by 
+the gain in terms of avoiding incineration and landfilling taxes (e.g., €200/tonne) and collection fees 
+(e.g. 90€/tn 65) despite the high -variability between EU countries , which currently represent an 
+economic burden for these non -sustainable EoL options. In Task 7.3  Business Plan and Replicability, 
+the market will be analyzed in depth and the price will be properly formulated to be competitive at 
+EU level. 
+ 
+64https://ec.europa.eu/environment/circular-economy/pdf/new_circular_economy_action_plan.pdf  
+65 Costs for Municipal Waste Management in the EU , Final Report to Directorate General Environment, European Commission 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+29 
+Barriers How MERLIN will overcome the barrier 
+Safety and 
+regulatory 
+issues 
+MERLIN will guide industry towards safe and efficient use of the materials and processes, especially 
+in waste treatment plants and the packaging industry . The Safe -by-Process-Design concept will be 
+implemented, promoting well -balanced strategies that address the proc esses/material design and 
+functionality, together with the safety aspects for humans and the environment.  
+In addition, materials and articles intended to come into contact with food are regulated at 
+European level by the Framework Regulation (EC) No 1935/2004, which provides a harmonized legal 
+framework by setting out general principles and safety requirements for all kinds of food contact 
+materials (FCM). More specifically, FCMs and articles made out of plastic are covered by Regulation 
+(EU) No 10/2011 an d recycled plastics are covered by Regulation (EU) No 282/2008. This legal 
+framework sets out rules on composition by establishing a positive list of substances approved for 
+use in manufacturing (‘Union list’), laying down restrictions in order to protect consumers’ health (a 
+generic overall migration limit that assures the inertia of the materials as well as specific migration 
+limits for a list of individual substances to guarantee safety). It also establishes restrictions in that the 
+recycling process mus t have been previously evaluated and authorised by EFSA and the EC. 
+Compliance with regulatory demands is essential for putting new packaging materials onto the 
+market. The possible impact of regulatory requirements will be limited by selecting materials, 
+additives and other substances that have been previously approved for such a purpose, and by 
+evaluating alternative applications of the developments depending on their characterization and 
+food contact compliance, including the possibility of incorporating a functional barrier if necessary. 
+Alignment with 
+related 
+standardization 
+MERLIN will interact with standardization committees such as CEN/TC 249/WG 9, ISO/TC 61/SC 14, 
+CEN/TC 261 and ISO/TC 122 presenting the project’s results, so they are aligned with them. 
+Communication tools and channels will be adapted to the needs of the standardization bodie s to 
+facilitate the exchange of information: good practice documentation, webinars, physical workshops, 
+and data exchange through the project website. The Spanish Association for Standardization, UNE, is 
+the national representative and member of the European (CEN, CENELEC and ETSI), International 
+(ISO and IEC) and Panamerican (COPANT) Standards Organizations. UNE has signed a letter of 
+support offering to advice when required, attend workshops and support the project dissemination 
+(letter included in the annex of the project).
+2.2 Measures to maximize impact 
+The exploitation and dissemination of the project results is a key commitment for the consortium. Proper 
+exploitation and dissemination of the project will ensure that it meets the multiple expected impacts, as 
+described in Section 2.1, and more importantly, to transform the results into industrial and commercial solutions. 
+In order to optimize the dissemination and exploitation of the results, two specific WPs have been designed: i) 
+WP6 - Facilitate sharing and learning of good practices on increasing circ ularity in post -consumption multi-layer 
+packaging amongst value chain stakeholders  including activities aimed at engaging potential users. ii) WP7 - 
+Cross-cutting activities and Innovation impacts  - focused on business strategy, showcasing the benefits of the 
+project to potential users , and therefore facilitating the transfer of experience and knowledge needed to 
+replicate the MERLIN approach.  
+a) Dissemination and exploitation of results  
+DISSEMINATION PLAN 
+The goal of dissemination is to spread the non -confidential results generated during the project  to ensure that 
+as many relevant audiences as possible have access to them. The aim underpinning the dissemination strategy is 
+to contribute to knowledge building  and the advancement of innovation in Europe . In order to safeguard the 
+business opportunity, the dissemination activities will be subject to a confidentiality policy. The IPR & Exploitation 
+Manager (Ms Simona Mincione from ENCO) will work closely with the project i nnovators to manage the 
+identification of non-confidential disclosable information that can be published/disseminated.  
+MERLIN approaches both traditional channels,  such as dissemination at conferences, publications in peer -
+reviewed and open access journal s, newsletters and online platforms, as well as more vanguard channels, such 
+as social media platforms (ResearchGate, Academia.edu, SlideShare), project blogs, etc. In addition, the project 
+website will house all the downloadable public deliverables and ou tputs of MERLIN, including the  DSS and a 
+compilation of good practices. Users will be able to rank the most interesting good practices, which will be used 
+as feedback by MERLIN to emphasize or customize the dissemination of these results. 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+30 
+Table 8 summarizes our strategic objectives customized to each target group and the tools used to reach them.  
+Meanwhile  
+Table 9 briefly describe the content of the dissemination plan to be developed in WP7, including the 
+relationship between tools, channels, target groups and expected results.  
+TABLE 8. OVERVIEW OF THE DISSEMINATION PLAN. 
+Target groups  Strategic objective and message Dissemination & Communication tools  
+SMEs and waste, 
+food & packaging 
+industries 
+Technological transfer services for the development, 
+testing & replication of MERLIN processes.  
+To demonstrate the benefits of the new materials and 
+recyclability in new rigid and flexible packaging.  
+Good practices, DSS, workshops, key 
+conferences and fairs, webinars, leaflets 
+& newsletters, product portfolio, open 
+access publications, social media.  
+Experts on plastic 
+packaging and 
+circularity: academia, 
+scientific community  
+To engage the scientific community and share the latest 
+scientific and industrial progress in multi -layer recycling. 
+To contribute to ongoing and future interactions 
+between science, industry, and law. 
+Scientific open access publications, 
+workshops, conference, social media. 
+Clustering activities.  
+EU and national 
+policymakers & 
+standardization 
+bodies  
+To generate interest on and awareness of the limits that 
+law places on recycled products. Contribution to 
+updating standards according to scientific and industrial 
+needs.  
+Direct contacts through formal letters 
+and meetings; workshops; publications, 
+good practices, DSS.  
+Partners from other 
+related EU projects  
+Identification of synergies between projects, improving 
+value chain collaboration and sharing results.  
+Clustering activities 
+Consumers and 
+citizens  
+To increase understanding and change behaviour 
+regarding the responsible use of plastic and recycling. 
+Communicate the expected impacts for society, the 
+economy and the environment.  
+Good practices, QR codes, workshops, 
+events, visits to demo sites, social  
+campaigns (social networks, videos, etc.),  
+ 
+TABLE 9. RELATIONSHIP BETWEEN TOOLS, CHANNELS, TARGET GROUPS AND EXPECTED IMPACT. 
+Channel Tools Target Groups Expected Impact and Results KPI 
+Online 
+MERLIN project 
+website All stakeholders 
+Demonstration of the benefits of 
+circularity, improved safety, 
+better performance 
+Visits > 5000. 50 
+references to MERLIN on 
+search engines. 200 
+external followers on 
+social media 
+Good Practices/ blog Industry, academia, 
+policymakers Demonstration of the benefits of 
+circularity, improved safety, 
+better performance 
+All GP ranked, at least 30 
+posts 
+DSS 
+ Industry, policy At least 150 users (15 per 
+10 EU countries) 
+E-newsletters Industry, academia, 
+policymakers 
+Create awareness of new 
+technologies and promote the 
+impact of the project 
+1500 views (500 
+subscribers/ downloads 
+x3 NW 
+Publications Scientific publications 
+(peer reviews) Academia, experts Advances beyond the state-of-the-
+art and technology performance 12 
+Articles in technical 
+journals Industry 
+Demonstration of the benefits of 
+circularity, improved safety, 
+better performance 
+9 
+Articles in socio-
+economic journals All stakeholders Create awareness of recycling and 
+circularity 9 
+Events and training  
+Workshops Industry, academia, 
+policymakers 
+Familiarization with technical 
+performance and specifics. 
+Sharing results with projects in 
+the same call or focused on 
+similar topics 
+3 
+Webinars Industry, academia, 
+policymakers 
+2 sorting, 
+3 recycling/delamination 
+1 safety/circularity 
+Meetings with 
+standardization 
+Committees 
+Policymakers & 
+standardization 
+bodies 
+Economic, environmental, and legal 
+feasibility of solutions 2 
+Project conferences Academia and 
+industry 
+Expand the knowledge gained 
+through the project 
+2 at EU level (M18 & M36). 
+At least 100 attendees 
+Trade shows Packaging industry Support for placing the technology/ 
+approach onto the market 6 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+31 
+ 
+Events and congresses  
+MERLIN’s partners have already identified the most interesting congresses (Table 10) in which  the impact of 
+MERLIN and its results could be presented. 
+TABLE 10. EVENTS AND CONGRESSES. 
+SECTOR  Events to be attended  Purpose of attending it Who When Where 
+Recycling 
+technologies 
+WCEF World Circular Economy Forum, 
+European Chemical Recycling Congress, 
+International Plastics Processing & 
+Recycling, Chemical Recycling Congress 
+Present how MERLIN supports the 
+circular economy on plastics and 
+compare with innovative alternatives 
+ITENE 
+EuPC 
+2022 
+2023 
+EU 
+Robotics Hanover Messe, Advanced factories 
+(Spain). Motek Messe (trade fair) 
+Present how MERLIN technologies 
+has advanced in waste sorting 
+  IRIS, 
+ROVIMATICA 
+2022 
+2023 
+DE 
+SP 
+Waste 
+Management 
+World's trade fair for water, sewage, 
+waste and raw material management 
+(IFAT). International Solid Waste 
+Association World Congress (ISWA) 
+Present how MERLIN technologies has 
+advanced in waste sorting and how 
+they could foster new facility design. 
+FERROVIAL 2022 
+2023 
+DE 
+Packaging 
+and food  
+ICFPPM 2022: International Conference 
+on Food Packaging and Packaging 
+Materials. Food Processing & Packaging 
+Technology Exhibition. INTERPACK; 
+European Bioplastics conference 
+Present MERLIN innovations in 
+recycling multi-layer rigid and flexible 
+packaging 
+ITENE 
+EuPC 
+UNIBO 
+ITC, EM2 
+2022, 
+2023 
+UK, IT, 
+DE 
+Polymers Compounding World Expo, ICIS Recycling 
+& Sustainability Virtual Festival/ 
+Circularity for Polymers: The ICIS 
+Recycling Conference 
+Present MERLIN results on 
+compounding, recycling and recovery 
+process development 
+ITENE, 
+INDORAMA 
+IONIQA 
+2022, 
+2023 
+DE, EU 
+Innovation 9th International Conference on 
+Innovation Management, 
+Entrepreneurship and Sustainability 
+Showcase how MERLIN manages and 
+catch the innovation to be replicated 
+beyond the project 
+ENCO 2022 
+2023 
+EU 
+Green 
+technologies 
+International Green Chemistry symposium Present MERLIN innovations in 
+recycling multi-layer packaging 
+UNIBO 2022, 
+2023 
+FR 
+Publications: In the case of publications, all peer -reviewed scientific publications (papers) related to MERLIN 
+results will be open-access, through self-archiving (green open access). When a scientific publication or journal of 
+high impact is identified and considered of interest for the project, gold open access will be considered. In that 
+case, the publication will be deposited in the repository mentioned in the data management plan, respecting the 
+embargo period established by the scientific publication or journal publishers. The MERLIN consortium has 
+already outlined a plan for OA publication (Table 11) and has identified journals of high interest for professionals.  
+TABLE 11. MERLIN CONSORTIUM PLAN FOR OA PUBLICATIONS. 
+Topic When  Who Target Audience Example of Publication 
+Robotics and A.I. applied to waste 
+management.  
+Year 2 IRIS, 
+ROVIMATICA, 
+FERROVIAL 
+Waste managers, 
+Waste treatment 
+plants 
+Journal. Waste Management World, 
+InfoEnviro, Plastics & Recycling 
+Technology 
+Delamination of multi-layer 
+structures using solvents 
+Year 3 ITENE, 
+UNIBO 
+Waste treatment 
+plants, packaging 
+converters, 
+recyclers 
+Plastics & Recycling Technology, 
+Advances in Materials Science and 
+Engineering, ACS Sustainable chemistry 
+and engineering , The Journal of 
+Supercritical Fluids. 
+Recyclable packaging made from 
+recycled materials from multi-layers 
+Year 3 ITENE, ICT, 
+IM2, EuPC 
+Packaging 
+manufactures, 
+converters, 
+suppliers. 
+Food Packaging and Shelf Life, Packaging 
+Technology and Science, Packaging 
+Europe, Packaging Journal 
+Routes valorisation of recycled PET 
+and POs. Recycled materials 
+compatibility & biosourcing fillers 
+modified 
+Year 3 CEA Recyclers, 
+suppliers’ 
+materials, 
+Advances in Materials Science and 
+Engineering, International Journal of 
+Polymer Science ; Composites Science 
+and Technology 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+32 
+Knowledge and stakeholder participation : To increase the participation of consumers, industry and waste 
+management companies during and after the project execution, a technology transfer plan has been developed. 
+CSCP will engage consumer representatives for validation workshop. All these stakeholders will be engaged in the 
+Circular Economy & Innovation Exchange Club to maximize the impact of the project and allow them to exchange 
+with each other and share knowledge (WP6). Technological partners will promote technological webinars for each 
+activity in the project. Physical workshops will also take place, especially when the social component and 
+stakeholder participation play a major role. However, online workshops will be a back -up option in case of need 
+due to current COVID-19 situation. Table 12 shows the main activities to be performed in this plan. 
+TABLE 12. KNOWLEDGE PLAN: WORKSHOPS AND WEBINARS TO PROMOTE MERLIN RESULTS. 
+Target Audience  Purpose  Result  Medium  Location  Date Partners 
+industrial and 
+scientific 
+community, 
+consumer 
+representatives 
+Engage all the stakeholders exchange information 
+and knowledge 
+Circular 
+Economy & 
+Innovation 
+Exchange 
+Club (CEIEC) 
+Brussels M12 CSCP 
+facilitate the sharing of 
+learning among 
+stakeholders 
+progress along first 
+workshop. exchange 
+further impressions 
+on the good practices 
+M32 
+Consumer 
+representatives  
+Awareness raising to the 
+evaluation methodology of 
+good practices and increase 
+acceptability of innovations 
+among consumer 
+representatives 
+Greater impact of 
+MERLIN processes 
+(consumers willing to 
+use valorised 
+products) 
+Validation 
+workshop  
+Online/ 
+Brussels 
+M26 CSCP 
+Waste treatment 
+plants 
+Present solutions for 
+sorting 
+Knowledge generated 
+and acquired  
+Workshop 
+And webinar  
+Spain 
+Online 
+M24 
+M28 
+IRIS 
+Rovimatica 
+Recyclers. Waste 
+valorisation  
+Development and 
+adoption of roadmap 
+towards reinforcing 
+recovery, reuse and 
+recycling of packaging 
+waste 
+Stakeholders 
+engaged on roadmap 
+to adopt circular 
+design and business 
+models along the 
+value chain 
+CEIEC / 
+Stakeholder 
+Consultation 
+Workshop 
+Online/ 
+Brussels 
+M16 
+& 
+M32 
+CSCP 
+Packaging 
+convertors, recyclers 
+Promotion and instruction 
+to use DSS 
+DSS promoted and 
+ready to use 
+Webminars Online M28 
+M32 
+IRIS 
+Packaging 
+convertors, recyclers 
+Delamination solutions for 
+multi-layer 
+Stakeholder trained; 
+knowledge shared 
+Webminar 
+Workshop 
+Online 
+Italy 
+M30 
+M32 
+ITENE 
+UNIBO 
+IONIQA 
+Packaging 
+convertors, recyclers 
+Recycling and upcycling 
+solutions for multi-layer 
+Stakeholder trained; 
+knowledge shared 
+Webminar 
+Workshop 
+Online 
+Netherlands 
+M30 
+M32 
+Indorama 
+CEA 
+Packaging 
+Industry 
+Proper use of our 
+guidelines. Show benefits 
+of using recycled materials 
+in multi-layer packaging 
+Stakeholders trained.  
+Recyclability of multi-
+layer demonstrated 
+Training 
+event 
+Spain  
+Online 
+M30 
+ 
+M32 
+ITENE 
+ITC, IM2 
+EuPC 
+Packaging 
+convertors, 
+recyclers 
+Safety and Regulations Stakeholders trained. 
+Awareness. 
+ 
+Training 
+event 
+Online 
+The 
+Netherlands 
+M34 EuPc 
+ITENE 
+ITC, IM2 
+Policy Bodies Contribute to policies 
+development 
+Technical inputs into 
+green policies 
+1 webinar 
+1 workshop 
+Online 
+Brussels 
+M22 
+M34 
+EuPC 
+Standardization explain procedure for the 
+delamination and recycling 
+processes to be valid and 
+meet standards  
+Contribute to new 
+standardization 
+1 webinar 
+1 workshop 
+Online 
+Brussels 
+M22 
+M34 
+EuPC 
+Municipalities, 
+citizens, waste 
+managers and 
+recyclers. 
+Awareness, increase 
+visibility to citizens, 
+demonstrate sorting 
+technologies. 
+In situ demo about 
+benefits of sorting 
+technologies 
+Visit a waste 
+treatment 
+plant 
+Spain 
+(FERRROVIAL 
+facilities)  
+M30 FERROVIAL 
+Other EU project 
+participants 
+Increase collaboration in 
+future projects. Learn.  
+Experience and 
+knowledge shared.  
+Clustering 
+workshop 
+Brussels M35 ITENE 
+All partners 
+industrial and 
+scientific 
+community 
+showcase the project 
+outputs 
+Results of MERLIN 
+disseminated 
+MERLIN’s 
+final event 
+Spain M35 ENCO 
+All 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+33 
+It is important to highlight that  MERLIN will establish synergies and collaboration with other projects (Task 7.4, 
+Table 4). Our project dissemination activities will intersect with the dissemination strategies of platforms and 
+associations in which the project ’s partner s are taking part such as BBI, SUSCHEM, packaging clusters, A.SPIRE 
+(ENCO), SECPHO & EPIC (photonics), the European Technology Platform for Logistics (ALICE), the national 
+association for waste treatment (ASPLARSEM), the Spanish packaging Platform (PACKNET), EDANA (non -woven 
+association), and COFRAC (French certification body). Standardization committees and similar bodies, such as 
+AFNOR, UNE, will be also contacted. 
+EXPLOITATION PLAN 
+A market-oriented approach will drive MERLIN R&D activities, capitalizing on participating recycling technologies 
+(ITENE), sorting and monitoring (IRIS), robotics (ROVIMATICA), waste treatment (FERRO), delamination (UNIBO), 
+depolymerization (IONIQA), repol ymerization (INDORAMA), additivation, purification, upcycling (CEA), as well as 
+rigid (ITC) and flexible (IM2) packaging end -users expertise. Importantly, the inclusion of ENCO with extensive 
+experience in translating R&D output into actual commercialisati on and market penetration, CSCP for effectively 
+engaging stakeholders engagement and sharing good practices, PARTICULA for environmental, cost, social 
+analysis and EuPC for boosting policies and contributing to standardization  is another important added v alue for 
+the consortium and will contribute to ensuring the post -project stage (besides leveraging on Advisory Board 
+members’ expertise). In addition, Task 7.2.2 and Task 7.3.1 ensure that sufficient knowledge will be collated to 
+steer the research towards  delivering solutions with good market potential. Our intention is to explore all the 
+exploitation pathways for the results:  
+• Commercial exploitation: a key exploitation route will be the industrial use of the project knowledge for 
+innovating waste treatme nt facilities by equipping them with disruptive processes for the sorting, 
+delamination and recycling of rigid and flexible multi -layer plastic packaging waste from postconsumer 
+and post-industrial sources and obtain new high -performance packaging solutions (flexible and rigid) for 
+the food packaging industry to deliver high competitiveness and growth impacts . Creation of a spinoff 
+company to exploit the integrated project solution  will be evaluated through a feasibility study, which 
+will assess the overall impact. 
+• Education and training: the use of the new knowledge generated for upskilling and for enriching curricula 
+in European education will have a high impact on raising the European knowledge base to prepare food 
+packaging and recycling industry sectors for smooth transition towards the circular economy;  
+• Further research: planning future spin-off research and development projects especially in areas that will 
+contribute to the transferability of the project results in new applications. 
+• Contribution to standards : workshops, good practices and webinars will be tools promoted by EuPC to 
+show the project results to standardization bodies and police makers. This, in long term contribut ing 
+towards new and/or revised regulations and standards in the field of plastic waste and circularity. 
+Initial Exploitation Plan and Business Model Definition for MERLIN Key Exploitable Results (KERs) 
+Key exploitable results have been identified  (Table 13), and an initial exploitation strategy has been defined for 
+each type of results – out of the exploitation routes available: direct sales, provision of services, licensing  and 
+creation of spin-offs.  
+TABLE 13. MERLIN KEY EXPLOITABLE RESULTS (KNOWLEDGE, PRODUCTS AND TECHNOLOGIES). 
+ Key Exploitable  
+Results (KER) WP Owner Type of IPR 
+protection Type of exploitation  Target Users/Clients 
+KER 1 - Monitoring system 1 IRIS Patent Direct sales Waste treatment plants, 
+recyclers 
+KER 2 - A.I. based robotic sorting 1 ROVIMATICA Patent  Direct sales and 
+engineering services 
+Recyclers, packaging 
+manufacturers and food 
+industry 
+KER 3 - Multi-layer plastics 
+automated sorting device 1 IRIS 
+ROVIMATICA Trade secret Direct sales Waste treatment plants, 
+recyclers. 
+KER 4 - Improvement of sorting 
+plant 1 FERROVIAL Confidential 
+know-how Direct use 
+Buyers of recycled 
+materials: recyclers and 
+converters 
+KER 5 - Rigid packaging 2 IONIQA Patent and Direct sales and services. Waste treatment plants, 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+34 
+ Key Exploitable  
+Results (KER) WP Owner Type of IPR 
+protection Type of exploitation  Target Users/Clients 
+delamination process for 
+polyester depolymerization 
+proprietary 
+know-how 
+recyclers, and packaging 
+manufacturers 
+KER 6 - Green solvent for non-
+metalized film delamination 2 ITENE Trade secret  
+Creation of Spin off. 
+Licensing to interested 
+companies 
+Waste treatment plants, 
+recyclers, and packaging 
+manufacturers 
+KER 7 - Metalized flexible 
+packaging solvent-based 
+delamination 
+2 UNIBO Patent 
+ 
+Creation of spin-offs. 
+Licensing to interested 
+companies  
+Waste treatment plants, 
+Recyclers, and packaging 
+manufacturers 
+KER 8 - Repolymerization of PET. 
+Development of a sustainable 
+PET grad 
+3 INDORAMA Trade secrets Direct sales 
+Industrial companies 
+(recyclers, packaging 
+manufacturers) 
+KER 9 - POs modification to 
+improve rPET/rPE or rPET/rPP 
+multi-layer adhesion and affinity 
+with fillers 
+3 CEA Trade Secret 
+Patent 
+Licensing to interested 
+companies. Tech. 
+transfer 
+Recyclers, compounders 
+and packaging 
+manufacturers 
+KER 10 - Fillers modification to 
+improve mechanical properties 3 CEA Conferences 
+Licensing to interested 
+companies. Tech. 
+transfer 
+Recyclers, compounders 
+and packaging 
+manufacturers 
+KER 11 - Upcycling of 
+delaminated polymers from 
+multi-layer structures through 
+compounding 
+3 ITENE Trade Secret  
+Licensing to interested 
+companies. Tech. 
+transfer 
+Recyclers, compounders 
+and packaging 
+manufacturers 
+KER 12 - Recycled flexible 
+packaging 4 IM2 Commercial Direct sales Food industry 
+KER 13 - Recycled rigid packaging 4 ITC Commercial Direct sales Food industry 
+KER 14 - Environmental 
+assessment for new innovation 
+processes 
+5 PARTICULA Confidential 
+know-how Consultancy services 
+Industrial companies 
+throughout the value 
+chain 
+KER 15 - New knowledge of food 
+contact regulations & food 
+safety risk assessment  
+5 ITENE Confidential 
+know-how Consultancy services 
+Industrial companies 
+throughout the value 
+chain 
+KER 16 - New knowledge based 
+on good practices for circularity 
+and Environmental assessment 
+6 CSCP Confidential 
+know-how Consultancy services 
+Industrial companies 
+throughout the value 
+Chain 
+KER 17 - Decision support system 6 IRIS  
+Commercial 
+Conferences 
+Workshops 
+Licensing  
+Consultancy services 
+Waste treatment plants, 
+recyclers, and packaging 
+manufacturers 
+KER 18 - QR code  6 ITC, ITENE Open access Direct sales Food packaging industry 
+This preliminary exploitation strategy will be reviewed throughout the project and will evolve into the Plan for the 
+Exploitation and Dissemination of the project’s results ( PEDR). The PEDR represent a crucial tool for successful 
+exploitation and will be updated on a regular basis. It will include the following aspects: 
+- Identification of most promising exploitable results 
+- Development of joint business models 
+- Market appraisal 
+- Evaluation of IPR landscape and definition of an IPR strategy 
+- Identification of exploitation interests between partners 
+- Exploitation risks and barriers 
+Furthermore, business models a nd plans will be developed to support the commercialization of key exploitable 
+results. A functional analysis, and a market assessment to identify the value proposition of each results and new 
+market opportunities will form the basis for the development of  the Business Model and Plans developed in WP7  
+- and which will be part of the PEDR. 
+Enhancing innovation capacity of MERLIN´s partners   
+Table 14 shows an overview of how each member of the consortium will enhance its  innovation capacity, how 
+they will contribute  to the value proposition of the project, and the expected market share generated by 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+35 
+MERLIN‘s innovations linked to the current volume of the different SMEs and large industries. In addition, t he 
+resulting growth in staff and turnover has also been estimated66:  
+TABLE 14. EXPLOITATION INTERESTS AND EXPECTED GROWTH OF MERLIN CONSORTIUM. 
+ Enhancing innovation capacity (during the 
+project) from existing background  
+Value proposition & business model Turnover 
+Increase and 
+new jobs 
+ITENE 
+Know-how on delamination processes 
+including traditional and green solvents 
+(as supercritical CO 2), and a mix of them. 
+In addition, ITENE will strengthen its 
+relationship with other chemical recycling 
+experts. 
+It will also develop new knowledge of food 
+contact regulations & food safety risk 
+assessment 
+ITENE’s business model is based on licensing and technology 
+transfer to industry of recycling processes and services 
+about circularity, food safety and migration analyses. It also 
+pursues commercial recovery through the creation of spin -
+offs. MERLIN will allow I TENE to provide solutions to the 
+recycling industry in advanced recycling projects  and to 
+provide services in the area or food contact ). In addition, the 
+project will allow ITENE to increase its  participation in 
+related R&D projects and will improve its positioning as an 
+EU reference partner (promoting further research) 
+€1.1 M  3 
+jobs (2028) 
+€2.4 M 6 
+jobs (2030) 
+€3.9M 10 
+jobs (2033) 
+IRIS 
+Know-how on monitoring systems based 
+on NIR/SWIR HSI and XRF for multi -layer 
+plastic recycling by applying innovative 
+integration of chemometric and machine 
+learning models for identification. 
+Integration with robotic solutions for 
+automatic sorting in real time.  Application 
+of A.I. strategies for the definition of a DSS 
+for the plastic material recycl ing 
+stakeholders. 
+IRIS’ business model will be based on the definition of new 
+product lines  for monitoring waste management facilities.  
+The know-how of robotic actuator integration will be offered 
+as a complementary service for sectors where IRIS is 
+currently present/expected to be present in the mid -term. 
+The DSS capabilities will be offered as complementary 
+capabilities for ICT turnkey solutions development. Possible 
+licensing of the specific DSS system if there is any interest 
+detected during later stages of the project/post-project. 
+€0.5 M 2 
+jobs (2028) 
+€1.2 M 3 
+jobs (2030) 
+€3.1 M 9 
+jobs (2033) 
+ROVIMATICA 
+Know-how on deep learning for object 
+(waste) detection and classification in real 
+time systems to guide a robotic solution. 
+Integration with multispectral imaging 
+and data fusion.  Know-how on 
+development of flexible and robust 
+gripping system for waste picking. 
+ROVIMATICA’s business is based on the development of 
+tailor-made engineering solutions in industrial fields. The 
+know-how acquired in r obotics in MERLIN and the 
+integration with several visual technologies (NIR/SWIR, HIS, 
+deep learning…) will be valuable for future developments. 
+The guided -computer vision based on deep learning 
+developed in the project could be offered as a product to 
+robotic integrators (design of new engineering solutions for 
+direct sale or for the provision of services). 
+€0.5 M 2 
+jobs (2028) 
+€0.9 M 4 
+jobs (2030) 
+€1.5 M 7 
+jobs (2033) 
+FERROVIAL 
+Advanced waste monitoring technolgies 
+to identify and sort the different materials 
+in the flow waste with the potential to 
+become new secondary raw materials. 
+The MERLIN results will strength current 
+know-how for future waste sorting facility 
+design in the framework of 4.0 Industry, 
+transforming today ’s isolated facilities 
+into connected processes, with the 
+upstream collecting process and the 
+downstream recycling sector.  
+FERROVIAL’s business model is based on the design and 
+exploitation of waste treatme nt facilities. FERROVIAL will 
+increase their knowledge of new solutions for the 
+improvement of material recovery and the optimization of 
+health and safety conditions both in new and currently 
+operated facilities. In long term, o nce the project is finished 
+and technologies are further developed up to TRL9, 
+FERROVIAL could implement them in several waste flows of 
+the more than 40 sorting facilities it operates nowadays, as 
+well as in the design of future contracts  (direct use  of the 
+technologies developed).  
+€0.4 M 
+(2028) 
+€2 M 1 job 
+(2030) 
+€4 M  2 jobs 
+(2033) 
+ 
+66 New job figures are calculated based on the assumption that 1 new job will be created for each €230k increase in turnover (ac cording to plastic industry standards in EU). The 
+turnover increase is the foreseen increase 5 years post pro ject as a consequence of the exploitation of the project results compared to the current turnover depending on the 
+business of each partner based on a progressive market introduction starting by niche products.  
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+36 
+ Enhancing innovation capacity (during the 
+project) from existing background  
+Value proposition & business model Turnover 
+Increase and 
+new jobs 
+UNIBO 
+• Know-how improvement of the 
+delamination process for the recovery of 
+polymers and aluminium from flexible 
+metalized multi -layer films without 
+compromising quality in terms of metal 
+oxidation and polymer degradation. 
+Process scale -up and development of 
+fully sustainable methods with c omplete 
+recycling of all employed solvent 
+systems. Interaction with the entire 
+process value chain. 
+UNIBO will pursue commercial recovery through the 
+creation of spin -offs, the protection of intellectual property 
+developed within the project through patent application s 
+and subsequent sale of user licences, the creation of ad -hoc 
+services for companies in the sector, also as training 
+courses. UNIBO will devote efforts towards non -commercial 
+recovery methods through the dissemination of results 
+through workshops / conferences / sector fairs, further 
+research projects, scientific publications, inclusion of 
+research results in university teaching, PhD, seminars, and 
+participation in related projects. 
+Recruiting of 
+new 
+researchers 
+5 in the 
+public 
+university 
+Long term: 
+spin off 
+creation 
+IONIQA • Process for PET depolymerization from a 
+highly contaminated feed (rigid multi -
+layer packaging). 
+IONIQA’s business model is based on the development of 
+licences for the depolymerization technology. MERLIN will 
+help IONIQA to strengthen its licensing position by including 
+the solution for the specific feedstock (rigid packaging). 
+€5-10 M 
+increase/year 
+20 operators 
+By 2030   
+INDORAMA 
+• Better know -how of depolymerization 
+technologies (purification efficiency, 
+product yields), relationship between 
+input streams (quality of feedstock) and 
+output streams (quality of PET 
+monomers), behaviour of PET monomers 
+during repolymerization trials including 
+food safety assessment 
+Chemical recycling allows for the recycling of low quality, 
+hard to recycle, post -consumer PET to virgin -grade resin. 
+INDORAMA will better understand the quality of monomers 
+generated by companies specializ ing in depolymerization 
+processes. To combine thes e monomers with traditional 
+feedstock to make virgin -grade PET with recycle d content 
+will exhibit the circularity of PET by generating new products 
+from post-consumer waste (direct sale). 
+€10-15 M 
+increase/year 
+30 operators 
+By 2030   
+CEA  
+• Know-how on reactive extrusion process 
+based on PE, PP and PET chemical 
+modifications with MAg and molar mass 
+modification. Background on reinforced 
+bio-sourcing fibre composites and their 
+processing and sizing development for 
+increasing their  thermoplastic 
+mechanical properties. 
+CEA’s business model is based on the development of 
+technology transfer  to industry and the development of 
+licences and publications on materials and recycling 
+processes. MERLIN will enable CEA to provide solutions to 
+the recycling polymers i ndustry and their recovery within 
+advanced recycling polymer projects (involved in 4 projects). 
+It will enable CEA to be a leading European collaborator in 
+its fields of interest. 
+€1 M 2jobs 
+(2028) 
+€3 M 3 job 
+(2030) 
+€6 M  6 jobs 
+(2033) 
+CSCP 
+CSCP is involved in numerous stakeholder 
+engagement action s all over Europe and 
+internationally, f acilitating knowledge 
+exchange and learning of good practices 
+on increasing circularity in post -
+consumption multi -layer packaging 
+amongst value chain stakeholders. 
+CSCP will leverage the results of stakeholder consultation 
+and validated technological, social, policy and consumer 
+information innovations for further outreach and 
+mainstreaming activities in its research and innovation 
+projects. Multi-stakeholder and collaborative actions. Scale 
+up of innovative circular products, business models and 
+policy and behaviour change solutions . Transfer of 
+knowledge and mainstreaming solutions in the market 
+€3.5 M 
+ 6 jobs 
+(2030) 
+PARTICULA Environmental model to estimate the 
+environmental impact as a function of 
+parameters including supplies, processes 
+used, type of raw materials among other.  
+PARTICULA envisages increasing the number of consultancy 
+contracts, directly related to the sustainability assessments 
+of sorting and recycling processes and packaging materials, 
+because of MERLIN: minimum of 2 contracts/year, ranging 
+between €20k-40k each. 
+€1M 3 jobs 
+(2028) 
+€1.9M 6 
+jobs (2030) 
+ 
+ITC 
+know-how on making plastic packaging by 
+injection process, design. Development of 
+packaging, moulds and making process. 
+Including eco -design tasks and In -mould 
+labelling (IML) processes. 
+As a lead ing rigid packaging producer, ITC develop s new 
+materials and processes t hat add value to their products. 
+Thanks to MERLIN, ITC will be able to offer new sustainable 
+products to the market produced  with the new materials 
+and processes developed in the project (direct sale). 
+€4.5 M 
+ 9 jobs 
+(2030) 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+37 
+ Enhancing innovation capacity (during the 
+project) from existing background  
+Value proposition & business model Turnover 
+Increase and 
+new jobs 
+IM2 
+Know how on production of multi-layer 
+flexible packaging by extrusion -
+lamination. E valuation of material: 
+mechanical properties , coefficient of 
+friction, heat-sealing strength, etc.    
+IM2 will develop new materials and processes that add value 
+to their products. Thanks to the  MERLIN project, IM2 will 
+offer new sustainable flow-packs to the market produced  
+with the new materials and processes developed in the 
+project (direct sale).  
+€4.5 M 
+ 9 jobs 
+(2030) 
+ENCO 
+Knowledge in communication, business & 
+market analysis. Knowledge in innovation, 
+exploitation and IPR management. 
+experienced advisor for both private 
+companies and public organizations and 
+as a facilitator for business, product, 
+technology and process innovation in 
+different industrial areas. 
+MERLIN will contribute to ensure a systematic and 
+methodological approach to planning for the important 
+post-project stage. At company level, participating in 
+MERLIN is a key opportunity for ENCO to use the knowledge 
+acquired in the food packaging market from further related 
+EU projects – increasing its experience as an IPR and 
+Exploitation Manager - as well as in consultancy services, 
+helping it to extend its client portfolio at EU level. 
+Expected 
+Growth: 8% 
+Jobs: 2 by 
+2024 
+ 
+EuPC 
+Know how on EU policies, standards and 
+regulations related to multi -layer 
+packaging, their recycling and upcycling, 
+to identify barriers and propose solutions 
+to ensure a circular economy for plastics 
+ EuPC and its linked third -party Polymer Comply Europe 
+(PCE) envisages increasing the number of consultancy 
+contracts, directly related to policies, standards and 
+regulations among its associates (packaging convertors) and 
+clients. . 
+PCE: €1M 3 
+jobs (2028) 
+€1.9M 6 
+jobs 2030 
+MERLIN will make sure that the benefits of the demonstrated processes developed within the project will be 
+recognized by the community and, as a consequence, the products will be placed on the market by following a 
+business strategy dedicated to them. The following CANVAS summarises and gives an integral view of where the 
+value is generated and who is going to capitalize it. 
+STRATEGY FOR KNOWLEDGE MANAGEMENT AND PROTECTION  
+The Knowledge Management Strategy is a key component to maximise the impact of the  exploitation and 
+dissemination of the project  results, and to avoid potential disputes. Knowledge management encompasses use 
+Key partners 
+- Waste treatment 
+plants 
+- Sorting and robotics 
+manufacturers 
+- Recyclers and 
+convertors 
+- Delamination and 
+recycling experts 
+- Business  
+- Consumers 
+- Plastic, packaging, 
+food, cosmetics 
+associations  
+- Policy Bodies 
+ 
+ 
+Key Activities 
+R&D: optimize & combine 
+sorting, delamination & 
+recycling technologies 
+- Circularity assessment 
+- Business models, IPR 
+- Stakeholder engagement 
+& behaviour 
+- Transforming results into 
+easily accessible and 
+understandable knowledge 
+for customers and 
+stakeholders 
+Unique value  
+- Increase the quality and 
+rate of recycled multi-
+layer packaging 
+- Increase knowledge 
+and effectiveness in the 
+closure of the European 
+multi-layer plastic chain 
+- Obtain new high-
+performance packaging 
+solutions (flexible and 
+rigid) for the food 
+packaging industry 
+ 
+Customer relationships 
+- Providing proof of evidence, 
+results from pilots/activities 
+- Transforming results into easily 
+accessible and understandable 
+knowledge for customers and 
+stakeholders 
+- DSS with feedback and ranking 
+system from users 
+Customer  
+INDUSTRY 
+- Packaging 
+- Plastics 
+-Waste 
+managers 
+-Sorting 
+technologies 
+- Polymers 
+-Equipment 
+manufacturers 
+ 
+ 
+Key resources 
+-  Sorting plant 
+infrastructure/equipment 
+- Recycling/delamination 
+equipment 
+- Consortium knowledge 
+Channels  
+- Website 
+- DSS and QR codes 
+- Workshops, events, fairs, press, 
+social media, video 
+- Clustering and networking 
+Cost structures  
+- Personnel costs 
+- Infrastructure costs 
+- Fungible costs 
+- Testing and characterization costs 
+ 
+ 
+ 
+Revenue streams  
+- Sales of sorting technologies and maintenance services 
+- Licences for delamination and recycling processes 
+- Waste recovery processes, recycled material sales 
+- Implementation in other countries (replication) 
+- Consultancy services and training  
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+38 
+of background information and use and protection  of foreground knowledge generated during the project. Key 
+results of the project will be protected by patent application, 
+utility model, design rights, tradema rks or through the use of 
+tools such as confidentiality agreements and material transfer 
+agreements to protect confidential know-how and trade 
+secrets. Key results will be reviewed, and the best possible 
+type of protection will be chosen in alignment with the 
+exploitation route envisaged. A preliminary protection 
+strategy is presented in Table 15. 
+On a more operational note, for the success  of the MERLIN 
+project it is essential that all project partners agree on explicit 
+rules concerning IP ownership, access rights  to any 
+background and results for the execution of the project, and 
+how to handle confidential information before the project 
+starts. All these issues will b e regulated in detail within the 
+Consortium Agreement (model DESCA Horizon 2020), which 
+will have to be signed by all partners before the signature of 
+the Grant Agreement. 
+The background IPR necessary to carry out the different tasks foreseen in this proje ct have already been 
+determined but, as the situation could evolve between the submission of the proposal and the start of the 
+project, a final listing of background IPR will be annexed to the consortium agreement to be signed between 
+partners. Partners will retain their ownership rights on their background IPR. 
+If any background IPR belonging to a partner is necessary for the exploitation of the foreground by other partners 
+and clients, ENCO will coordinate the negotiations between these parties.  
+The foreground of the project will be subject to the ownership and access rights provided in the H2020 rules.  
+The IPR strategy is problem -solving oriented, and a flexible, fast and efficient dispute resolution mechanism will 
+be put in place from the start  of the project in order to prevent issues from escalating and blocking the 
+innovation dynamics. 
+During the entire duration of the project, ENCO will update and implement the IPR strategy of the project and 
+provide IPR management and protection services to the consortium members  
+The IPR strategy fully considers the open access  requirements of the H2020 programme and policy objectives of 
+the EU Commission on Open Science 
+How the participants will manage the research data generated and/or collected during the project:  
+MERLIN will use and generate relevant data and therefore will develop a data management plan ( task 8.3  in 
+WP8). The plan will explain how and whether this data will be used, exploited, or made accessible for verification 
+and reuse. Thi s plan will increase MERLIN‘s research efficiency, will save time and resources in the long run and 
+will enhance data security and minimize the risk of data loss (see Table 15).  
+TABLE 15. KEY INFORMATION ABOUT MERLIN’S RESEARCH DATA MANAGEMENT. 
+Type of data 
+to be 
+generated / 
+collected 
+WP1: waste characterization and analysis data, material composition. 
+WP2: Polymer characterization and properties analysis. 
+WP3: Polymer characterization and properties analysis. 
+WP4: Product configuration, material composition, conversion processes, packaging characterization, 
+circularity, safety and migration data. 
+WP5: Safety, regulations, economic and environmental data from industry, migration data. 
+WP6-7: Stakeholders contact. Legal, market, administrative data from end users and partners. 
+Standards to 
+be used 
+CEN/TC 17 - Units of measurement; CEN/TC 42 - Certification of products; DIN EN ISO 3251 - content of 
+involatile fractions; DIN EN ISO 2431 – flow time; CEN/TC 261 - Packaging, coatings; EN 13430 and CEN/TR 
+13688 – Recyclability; CE/1935/2004 and EU/10/2011  (plastic) materials in food contact applications; 
+CEN/TC 182 - safety and environmental requirements; ISO 14040 & 14044 standards (ISO 14042, 2000). 
+Data 
+exploitation. 
+Accessibility 
+for reuse 
+and 
+Data that are confidential (such as contact details for stakeholders or confidential information from all the 
+partners linked to MERLIN) will be preserved with access restricted only by project partners. All data 
+exchange transactions will be made in accor dance with the EU General Data Protection Regulation (GDPR) 
+Non-confidential data will be published as part of the different reports foreseen in the project and will be 
+deposited in the repository https://zenodo.org . https://dmponline.dcc.ac.uk will be used to create, review, 
+FIGURE 14. MERLIN’S PROJECT STRATEGY. 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+39 
+verification  and share data management plans. 
+Data 
+preservation 
+Making back -ups is essential. Data will be curated and preserved in a special repository allocated to t he 
+project, which will be stored in the project coordinator’s servers and accessible only to project partners 
+through the private section of the project’s website. 
+b) Communication activities 
+The main objectives of MERLIN‘s Communication Plan are:  
+- to raise awareness among waste treatment plants and packaging companie s about the importance of 
+adapting their business models and infrastructure to recyclable multi-layer materials; 
+- to push consumers to buy and use packaging from recyclable materials  and manage household waste 
+properly; 
+- to show benefits that project outcomes will bring to society (citizens, services, employment, economy);  
+- to facilitate interaction and information exchange with relevant stakeholders;  
+- to pave the post -project commercial uptake of MERLIN‘s solutions by building a community of interest 
+around the project.  
+An effective communication strategy will be designed to complement and support the dissemination and 
+exploitation activities analysed in the previous section. It will serve to maximize the impact of the project, 
+familiarizing EU citizens with Horizon 2020 and its impact in strengthening the EU economy and social wellbeing. 
+To this end, the communication campaign will be launched by ENCO at the start of the project, including a variety 
+of instruments and relations to communicate the project’s story making te chnical innovation more 
+understandable to the public. Deep engagement processes and participatory strategies with a social innovation 
+approach will be launched by  CSCP. The MERLIN communication campaign will include both a push and pull 
+approach, as outlined in Table 16. 
+TABLE 16. MERLIN COMMUNICATION TOOLBOX AND APPROACH. 
+Approach Tools Target Groups Expected Impact and Results KPI by M36 
+Push 
+Corporate identity All stakeholders Logo and funding logo usage, layouts 
+and guidance for communication 1 logo 
+Brochure/leaflets 
+Industry, 
+academia, 
+policymakers 
+Create awareness of the new 
+technologies and promote the 
+impact of the project 
+1,300 copies distributed 
+(13 partners x 50 copies x 
+2 eds.) 
+Press releases  All stakeholders Create awareness and promote the 
+impact of the project 
+1 per year, published by 5 
+media. 1,000 views per PR 
+Video All stakeholders  Create awareness and promote the 
+impact of the project 
+1 video (Views, shares, 
+likes). 
+QR codes Consumers Create awareness of recycling and 
+circularity 5 scans 
+6-monthly E-
+newsletter  All stakeholders Create community sense & give 
+visibility to events and activities  300 registered mails 
+Pull 
+Project website 
+Industry, 
+policymakers, 
+stakeholders 
+Create awareness, disseminate 
+information about the project. 
+30,000 visits and 500 
+downloads per public 
+deliverable one year after 
+the project’s end 
+News on social media 
+(Twitter, LinkedIn, 
+YouTube) 
+All stakeholders 
+Create awareness of the new 
+technologies and promote the 
+impact of the project 
+36,900 followers/likes 
+Project Conferences Academia and 
+industry 
+Expand the knowledge gained through 
+the project 
+2 EU level (M18 & M36). 
+At least 100 attendees 
+External events, 
+conferences, and 
+networking 
+Packaging 
+industry 
+Support placing the technology/ 
+approach in the market 
+At least 2 events per 
+technological result  
+ 
+ 
+ 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+40 
+3. IMPLEMENTATION
+3.1 Work plan — Work packages, deliverables  
+The MERLIN Consortium has organized the workload by creating a project divided into two main blocks, which are 
+made up eight work packages. 
+FIGURE 15. INTERRELATION BETWEEN MERLIN WORK PACKAGES. 
+ 
+A list of the different Work Packages and a detailed description of each one are shown in Table 17.  
+TABLE 17. LIST OF WORK PACKAGES. 
+WP Work Package Title Name Person 
+Months 
+Start 
+Month 
+End 
+month 
+ 1 Automated SORTING system for multi-layer materials sorting IRIS 103.5 01 28 
+ 2 Development of DELAMINATION processes of each multi-layer structure 
+sorted ITENE 125.5 02 32 
+ 3 Development of RECYCLING processes of the separated fractions and 
+monomers INDORAMA 54.5 14 32 
+ 4 Development and VALIDATION of packaging demonstrators based on 
+recycled PET and Polyolefins (PE, PP) ITC 54 24 36 
+ 5 Assessment of the environmental, economic, social, legislative and 
+regulatory barriers of the developed processes PARTICULA 67 10 36 
+ 6 
+Facilitate sharing and learning of good practices on increasing circularity 
+in post-consumption multi-layer packaging amongst value chain 
+stakeholders 
+CSCP 91.5 01 36 
+ 7 Cross-cutting activities and innovation impacts  ENCO 73 01 36 
+ 8 Project management ITENE 46.5 01 36 
+ 
+ 
+ 
+This proposal version was submitted by Carmen SÁNCHEZ REIG on 03/09/2020 15:45:10 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+41 
+Table 18. Chronogram of MERLIN Project.  
+ 
+ 
+ 
+ 
+ 
+LEAD No WP & Tasks 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36
+IRIS 1 Automated SORTING system for multi-layer materials sorting
+FERROVIAL 1.1 Identification and characterization of multi-layer material streams M
+IRIS 1.2 Design and calibration of a monitoring system D
+ROVIMATICA 1.3 A.I. robot adaptation for multi-layer sorting  D
+IRIS 1.4 Integration of monitoring and robotic solutions for sorting M
+FERROVIAL 1.5 Industrial proof-of-concept for multi-layer sorting D
+ITENE 2 Development of DELAMINATION processes of each multi-layer structure sorted
+2.1 Polyester depolymerization for rigid packaging delamination 
+2.1.1 New depolymerization process development M
+2.1.2 Rigid packaging depolymerization process upscaling M D
+2.2 Non-metalized film delamination: Traditional vs green solvents 
+2.2.1 New process development for non-metalized film M
+2.2.2 Design and development of the upscaled delamination process M D

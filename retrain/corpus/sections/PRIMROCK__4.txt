@@ -1,0 +1,2434 @@
+4. Developing an intelligent Decision Support System for raw material valorisation (RMI -DSS) that analyses 
+physical and chemical properties of mined samples, along with sorting data and valorisation chain requirements,  
+to determine optimal sorting thresholds and enable dynamic decision-making for sorting criteria (T4.3–CIBOS). 
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 
+5. Exploring non-destructive, real-time analysis methodologies using optical sensors, microscopy imaging sensors, 
+and hyperspectral cameras to characterize ore and identify optimal crushing sizes with respect to the valorisation 
+process. Conducting trials wit h lab -scale sorting systems to validate mineral separation and crushing size 
+identification. (T4.4–ICCS).  
+KPIs: sorting accuracy of metal oxides and metal sulphides >95%; Improvement in the overall utilization of mined 
+ores by 40%; Increase classification models computational efficiency by 10%; 10% reduced waste in mined minerals 
+by identifying optimal crushing size; Reduction of electrical energy consumption by 5%; CO2 emissions reduction by 
+5%; Reduction of area/volume needed for pre -sorting by >35%; Laser -based detection 80 -90% over the project 
+duration for size.  
+  
+SO2. Achieve game -changing resource efficiency improvements through new process technologies (KER2) 
+Addressing the issue of dust generation and losses through process gasses, PRIM -ROCK will develop a new, 
+ 
+6  Artemova, A.V .; Maklakov, S.S.; Shiryaev, A.O.; Osipov, A.V .; Petrov, D.A.; Rozanov, K.N.; Lagarkov, A.N. Influence of Hydrog en 
+Reduction Stage Conditions on the Microwave Properties of Fine Iron Powders Obtained via a Spray -Pyrolysis Technique. Magnetism 2023, 
+3, 90-101. https://doi.org/10.3390/magnetism3020008  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 6  
+indirectfired rotary kiln (IFRK) as well as a microwave rotary kiln (MRK), and optimise their design to vastly expand 
+the spectrum of raw material size that can be processed via both the calcination and roasting processes, through: 1. 
+Producing a lab-scale IFRK prototype at TRL4 for operational data generation and model training (T6.1–NTUA).  
+2. Performing advanced physicochemical (T2.3–NTUA, T2.4–ITA) and thermophysical (T2.3–CIRCE, T2.4–BUL) 
+simulations for modelling the microscopic and macroscopic behaviour of the calcination and roasting processes 
+in the IFRKs. Advanced modelling and design of  the MRK (T2.5 –CEIN). Developing physics -based Reduced 
+Order Models based on the outputs of the thermophysical simulations, so that more efficient surrogated models 
+can be obtained from off-line full order simulations to be embeded in higher -level models (larger scales) (T6.2– 
+ITA, CIRCE). Simulating the whole process behaviour to obtain the optimal design architecture (T6.3–NTUA).  
+3. Delivering 2 IFRK prototypes, tailored for calcination and roasting (T6.4 –NTUA) and 1 MRK tailored for 
+sulphide roasting (T6.5–CEIN).  
+KPIs: Design, development and delivery of 1 lab-scale IFRK, 2 pilot-scale IFRKs and 1 pilot-scale MRK; IFRKs: 2m, 
+4-10kg/h, 6 heating zones up to 1200 o; MRK: tube reactors of 5 -12cm diameter, 915MHz, 5 -30kg/h; Technology 
+capable of coupling of process steps (roasting+H 2 reduction); Eliminating reductive smelting and increasing the 
+efficiency of reduction to over 80% for ferronickel; ROMs that can be executed in real time in simple devices and that 
+can reproduce the process KPIs under steady-state conditions with > 90% accuracy; >90% conversion through raw 
+material calcination.  
+  
+SO3. Leverage innovative intensified processes to further improve material efficiency through post -thermal 
+processing treatment (KER3)  
+Adopting a circular and holistic approach the material efficiency is further leveraged utilising breakthrough, 
+technically and economically feasible, and environmentally sound post-processes, through:  
+1. Modelling of a Microwave Induced Plasma (MIP) reactor tailored to transform the of hydrogen sulphide, 
+generated (H2S) during metal sulphide reduction, to Hydrogen (H 2) and Sulphur (S), towards the reutilisation of 
+H2 in the kilns (T2.6–EUT).  
+2. Modelling of a heat exchanger for controlled cooling of the gases coming from the MIP reactor (T2.6–BUL).  
+3. Developing a virtual toolkit for the exploitation of byproduct (enriched CO 2) valorisation in e -Methanol 
+production, supported by technoeconomic analysis to demonstrate investment viability (T9.5–CORE).  
+4. Manufacturing and delivering of the MIP reactor at pilot-scale tailored to sulphide roasting (T6.6–EUT).  
+5. Manufacturing and delivering of the heat exchanger prototype (T6.7–BUL).  
+KPIs: Hydrogen reduction of pure oxide and sulphide minerals at lab -scale at pilot scale (TRL6) with H 2 and S 
+decomposition and recovery of both elements at >95% efficiency; Minimum mineral reduction degree 80%; The effect 
+of the process parameters, including particle size, temperature, hydrogen partial pressure, reaction time, on the 
+process recovery and kinetics, as well as the optimum operation conditions to achieve maximum metal reduction will 
+be studied; Technical target: to achieve >97% reduction effi ciency at optimum conditions), 35% reduced process 
+energy footprint, process time.  
+  
+SO4. Development of digitalisation framework to optimize the resource efficiency of the new processes (KER4) 
+Development and deployment of a flexible, interoperable and scalable digitalisation framework comprised of:  
+1. A complete network of sensing techniques, such as SWIR (Shortwave Infrared), NIR (Near Infrared), VIS 
+(Visible), Raman, Fluorescence and LIBS (Laser Induced Breakdown spectroscopy), coupled with 
+HybridEnsemble Modelling for data fusion that can be readily tailored to pre-process, process, and post-process 
+realtime monitoring requirements. (T3.2–IRIS)  
+2. A Process Control System (PCS) overviewing and managing the different tools in all stages of processing. The 
+process control system embeds horizontal functionalities (e.g., logs, alerts, security and safety measures, and 
+integration with legacy systems) for the smooth management of all stages of the processes. (T3.3, T5.1–MAGG).  
+3. Secure and interoperable multilayer data management platform, providing the resources needed for the planning 
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 and real-time monitoring of the process lifecycle, through a common 
+framework of different spectroscopic process analytical technologies and implementing data fusion (T3.1, T5.3–
+IRIS).  
+4. AI-based data-driven models to identify the optimal parameter space for enhancing the resource efficiency of the 
+IFRKs and MRK (T5.2–SCCH, CORE)  
+5. Decision Support System (DSS) and user-friendly interface for monitoring of the processes in (near) real-time and 
+suggest optimal settings to the user (T5.4–SCCH, CORE)  
+6. 3D visualization of the processes leveraging advanced data interface technologies (T5.5–STAM)  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 7  
+KPIs: Increase the control and therefore the quality of the thermal processes; Improvement in the accuracy of 
+predictive modelling (through the adoption of modern AI-driven models and transfer learning techniques) at 20% or 
+higher, as compared to either existing predictive modelling results or expert-based predictions; Enhanced resource 
+efficiency through process digital optimisation by ~5%.  
+  
+SO5. Deploy and consolidate a technology adoption framework  
+Establish the appropriate baselines and methodologies in the design phase of the project (T1.5–ADMR). Conduct the 
+following types of assessments in the development and integration phase of the project (T6.8–ADMR). Consolidate 
+the assessments in the deployment and finalisation phase of the project:  
+1. Assessment of energy efficiency and intensity, measuring and validating the energy consumption per unit of output 
+across all processes and benchmarking energy use against industry standards and best practices, including a Life 
+Cycle Sustainability Assessme nt (LCSA) and Evaluate Societal and Environmental Impacts: To quantify the 
+broader societal and ecological benefits or risks associated with the project, ensuring alignment with 
+environmental regulations and societal expectations (T9.2–PRINS)  
+2. Technoeconomic assessments for comparative evaluation against existing processes, including cost drivers and 
+financial benefits of the proposed solutions and energy footprint calculation (T9.1–ADMR).  
+3. Assess and improve workplace effects and OHS performance: Develop strategies for workplace improvement and 
+workforce development through capacity building (up/re skilling), addressing skills, organisational change, 
+eliminating hazards and identifying risks (T9.3, T9.4–EUROC).  
+4. Business potential assessment and business plan development: To create a robust business plan that outlines 
+project implementation, market entry, and scaling strategies, ensuring financial sustainability and market 
+competitiveness of the project outcomes (T10.2,11.2,12.2–STAM).  
+5. Develop and implement a comprehensive strategy to identify relevant existing and emerging standards, and utilize 
+insights from this analysis to inform the development process on the hand (e.g. ensuring interoperability for data 
+sharing), as well as for eng aging effectively with standardization bodies to actively contribute to ongoing 
+standardization efforts, focusing on significant contributions to the development or modification of standards that 
+align with the project’s objectives and advancements (T10.3,11.3,12.3–UNE)  
+6. Foster Clustering and Networking, creating synergies with other projects, initiatives, funding programmes and 
+stakeholders in the field, enhancing knowledge exchange, achieving multiplier effects, and fostering innovation 
+ecosystems (T10.1,11.1,12.1–CORE).  
+KPIs: LCA decrease global warm potential GWP100 by >80% (excluding H 2 production), assessments and OHSE 
+carried out for each IUC, DEC KPIs (see Section 2.2).  
+  
+SO6. Establishment and demonstration of two pilot-scale units  
+1. Deployed in Greece (NTUA premises) comprising the RMI system and the IFRK, tailored to calcination.   
+2. Deployed in Spain (EUT premises) comprising an RMI system, IFRK, MRK, MIP and heat -exchanger, tailored 
+to roasting.  
+3. Technological assessment of demonstrations (T8.5–NTUA)  
+IUC1,2 will be demonstrated in the Greek pilot unit, while IUC3,4-5 will be piloted in the Spanish one, with potential 
+additional sample processing for comparative assessment according to initial results.   
+Table 1. Target process efficiency improvements in PRIM-ROCK  
+  Industrial Use case  Pre-processing   Process  Process  Post-process  
+  
+IUC#1 Limestone 
+(CaCO3)  
+>50% reduction of 
+mass lost during 
+handling (4-6% of 
+total mass as 
+fine/ultrafine) through 
+detection (OPSR, 
+XRT) and optimisation 
+of particle size 
+(crushing)  
+>90% reduction in 
+kiln dust losses due to 
+drag (inc. ring  
+formation) that 
+comprise between 5%  
+(for concentrates) and 
+25% of raw material 
+lost or collected in 
+filters (removal of  
+Virtual toolkit for feasibility assessment of Carbon 
+Capture of enriched CO2 produced by calcination 
+and utilisation in e-fuels.   IUC#2 Magnesite  
+(MgCO3)  
+IUC#3 Laterite (Fe, 
+Ni  oxides)  
+Direct reduction with H2 
+to increase efficiency 
+from 45% up to 90% 
+and eliminate pre- or 
+post- reduction steps  
+Recovery of H2 reducing 
+agent through treatment 
+in MIP and utilisation of 
+Gas  
+Cooling Heat Exchanger  
+IUC#4 Sphalerite  
+concentrate (ZnS)  
+ IUC#5 Chalcopyrite  
+concentrate (CuS)  based on process  pelletisation stage). Associated with document Ref. Ares(2024)6673367 - 
+20/09/2024eliminating 95% of  to maximise recovery requirements  losses  >90%.  
+Table 2. Pertinence of project objectives in relation to the call  
+HORIZON-CL4-2024-TWIN-TRANSITION-01-41  SO  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 8  
+To reach ambitious targets regarding resource efficiency, disruptive process technologies must be developed in addition to 
+process efficiency options for existing technologies.  
+1, 2, 3  
+Develop disruptive process technologies to improve resource efficiency, such as those based on process intensification (e.g., 3D 
+printed processes equipment, coupling of process steps, new processes that integrate multiple reaction steps, activation of 
+molecules using renewable energy via alternative processes e.g. microwave, plasma);   
+2, 3  
+or to prevent and minimise waste generation by, e.g. processes that adjust in real time to feedstock changes or that have tig hter 
+processing control solutions to ensure higher yields from complex and fluctuating raw material feeds;  
+1  
+Where relevant advanced process technologies and their combinations need to be developed and supported by advanced 
+materials innovation and the implementation of enabling digital technologies including advanced concepts on process control 
+and data driven Artificial Intelligence.   
+1, 2, 3, 4  
+The proposals should include energy efficiency, techno -economic and life -cycle assessments considering the overall process. 
+This should also include the assessment of possible societal and environmental impact and the effects on the workplaces (skills, 
+organisational change, and others).  
+5  
+Proposals submitted under this topic should include a business case and exploitation strategy, as outlined in the introduction to 
+this Destination.  
+5  
+Research must build on existing standards or contribute to standardisation. Where relevant interoperability for data sharing 
+should be addressed.  
+4, 5  
+All proposals should build on or seek collaboration with existing projects and develop synergies with other relevant European , 
+national or regional initiatives, funding programmes  
+5  
+  
+1.1.2  Ambition  
+Innovations #1,2 Separation and sorting technology toolset as part of RMI (KER1)  
+Separation Technology for Optimal Mineral Crushing Size  
+State of the Art : In the ore sorting process, determining the optimal crushing size for mined minerals is a critical 
+step. This factor greatly influences the efficiency of sensor-based sorting technologies. At the same time, numerous 
+sensing technologies capable of provid ing insightful information and details regarding the materials’ physical and 
+chemical properties (i.e. optical, spectral reflectance/absorption, magnetic properties, etc.) 7 have emerged. In detail, 
+colour-based characterization techniques have been designed and implemented, ample of identifying minerals of 
+distinct colours (e.g. dark-coloured vs light-coloured) with high accuracy8,9. The systems’ accuracy, however, drops 
+drastically, circa 60%, when the samples under examination show colour resemblance (i.e. various tones of same 
+colour). In addition, hyperspectral sensors are used to extract the ores’ unique spectral signatures (up to 2500nm), 
+which are closely related to their molecular vibrational properties, achieving an identification accuracy of up to 90%10. 
+Nonetheless, despite the fast-paced development of the sensing hardware, no extensive analysis has been conducted 
+on the correlation between the size of the input feedstock and the overall performance of the sorting system.  
+Breakthrough: Within PRIM-ROCK an exploratory analysis will be conducted to estimate the optimal, valorisation 
+chain-specific crushing size of minerals, leveraging information acquired by spectroscopic (up to 5000nm) and 
+microscopy sensors and taking into consideration the overall requirements (i.e. feedstock purity, grain size, particle 
+size distribution, etc.) of the valorisation flow with the goal to process these materials further optimally. Certain 
+process parameters, such as the size of crushing of mined minerals, will be correlated with the sorting effectivity.  
+Adaptive Sorting System for Ore Streams  
+State of the Art: Currently developed sorting systems delving into multi-sensory inference, utilizing an ensemble of 
+sensors (e.g. optical RGB sensors, hyperspectral imaging, X-Ray technology, etc.) to enrich the acquired information 
+for analysis11. Common ground to every sorting system is the need for a mechanism to segregate ores based on the 
+output of the characterization process. To this end, various approaches have been proposed to automate the physical 
+sorting of such materials that re -direct them to the respective bins by a) robotic arm 12 , b) pneumatic means 8. 
+Depending on the sensing technology and the materials to be sorted, the separation accuracy of online methodologies 
+ 
+7   X. Luo, K. He, Y . Zhang, P. He, and Y . Zhang, ‘A review of intelligent ore sorting technology and 
+equipment development’, international  Journal of Minerals, Metallurgy and Materials, vol. 29, no. 9, pp. 1647–1655, Sep. 2022.  
+8 C. Bergmann, Developments in Ore Sorting Technologies, Council for Mineral Technology, Randburg, 2009, p. 75.  
+9 C.Y . Xu, The application of photoelectric color separator and the optimization in mineral separation process of some mine, Wo rld Nonferrous 
+Met., 2016, No. 17, p. 31.  
+10 N. Okada, Y . Maekawa, N. Owada, K. Haga, A. Shibayama, and Y . Kawamura, ‘Automated Identification of Mineral Types and Grain Size 
+Using Hyperspectral Imaging and Deep Learning for Mineral Processing’, Minerals, vol. 10, no. 9, 2020.  
+11 D. Peukert, C. Xu, and P. Dowd, ‘A Review of Sensor-Based Sorting in Mineral Processing: The Potential Benefits of Sensor Fusion’, Minerals, 
+vol. 12, no. 11, 2022.  
+12 H.J. Wang, X.P. Liu, G. Wang, and S. Han, Optimization of mobile manipulator sorting path based on improved genetic algorithm, J. Beijing  
+Univ. Posts Telecommun., 43(2020), No. 5, p. 34  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 9  
+ranges from 60% up to 90%8. The design and implementation of ore sorting systems, up to this day, however, focuses 
+on the maximization of commonly used performance metrics, such as accuracy, precision, picks per minute, etc., 
+hence constituting the sorting systems rigid and incapable of adapting dynamically to new sorting criteria. Although 
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 
+these metrics are crucial to quantify the system’s overall capacity to execute fast and accurately the separation task, 
+their maximization does not necessarily contribute towards the optimal valorisation path of ores. Therefore, at present, 
+sorting systems  combine powerful, high -resolution and information -dense sensors to marginally optimize their 
+performance, without taking into consideration the valorisation requirements, the output stream’s characteristics, and 
+the available raw-materials.  
+Breakthrough: PRIM-ROCK ‘s goal is to upgrade the sorting process for mineral ore raw -materials by means of 
+both hardware and software in order to constitute the system versatile and dynamically adaptive to a wider range of 
+criteria, as they are defined by the overall valorisation process’ needs. To this end, a lab scale RMI mechanism and a 
+pilot scale RMI sorting mechanism will be designed and implemented capable of identifying and ultimately sort the 
+raw materials from the mined ore stream, based on dynam ic classification criteria (e.g. size, purity of sorted 
+magnesite, etc.). An innovative intelligent Decision Support System (DSS) will be leveraged to estimate the optimal 
+classification thresholds. Input to the DSS will be the combination of the optimal, valorisation flow-specific crushing 
+size, the raw-materials’ physical and chemical properties, as well as requirements of the upcoming valorisation flow, 
+such as particle distribution, purity of input stream, etc. The classification of the ore streams will  be supported by 
+hyperspectral and microscopy imaging sensors, a pneumatic system will be responsible for the segregation of 
+fine/ultrafine ores into their respective categories, while a delta robot equipped with an end -effector (e.g. gripper, 
+vacuum) will handle coarser, bigger materials of the input stream, with accuracy more than 95%.  
+Innovation #3 New indirect-fired rotary kiln (IFRK) technology for the replacement of direct-fired 
+rotary kilns (DFRK) (KER2)  
+State of the Art : Rotary kilns have become the backbone of many industrial processes, such as in roasting and 
+calcination, particularly in recent years as the pressure to create a circular economy has continued to rise. Nowadays, 
+in thermal processing Direct-fired rotary kilns (DFRKs) are mainly used, which rely on direct contact between the 
+process gas and the material in order to heat the material to the specified temperature 14,15. Direct-fired kilns can be 
+either of the co-current design, or counter current design, referring to the direction that the process gas flows through 
+the drum in relation to the material. While DFRKs are relatively simple in design, operation and maintenance and 
+they are efficient in terms of heat transfer due to the direct conta ct between the material and the combustion gases, 
+they also have some major drawbacks which turn out to be crucial in many applications. By adapting DFRK 
+technology, off-gases flows with an inherent velocity are produced and particles that are too fine can become entrained 
+in the process gas flow and carried out through the exhaust gas system. This results in a high rate of reprocessing and 
+can significantly reduce the overall process efficiency. Dealing with this problem requires the design of the kiln to be 
+centered around permissible gas velocities as opposed to heat transfer requirements. Additionally, DFRKs provide a 
+limited atmosphere control as the atmosphere inside the kiln is essentially the same as the combustion atmosphere, 
+where oxygen is also pr esent. As a result, DFRKs cannot maintain an inert or non -reactive atmosphere and the 
+inevitable oxidizing environment can affect the quality of materials that are sensitive to oxidation. Finally, the direct 
+exposure of the material to the heat leads to a gradient in temperature, with parts of the material closer to the flame 
+being hotter than those further away. This uneven temperature distribution can affect the consistency and quality of 
+the process’s material, leading to a non-uniform final product.  
+Breakthrough: In PRIM -ROCK a technology for electrified indirect -fired rotary kiln (IFRK) will be developed, 
+where the kiln is heated from the outside, using a heat shroud, and the material is heated via contact with the hot kiln 
+shell. Hence, IFRKs are able to treat all granulometry ranges, including finely divided solids as well, as they are not 
+in intimate contact with hot combustion gases. As a result, the raw material losses are minimized. Furthermore, IFRKs 
+can provide the necessary controlled environ ment for effective material processing, like the absence of oxygen at 
+high temperatures and the utilisation of an oxygen free reductive environment. As the heat source is external, the 
+indirect heating method allows for precise control of the temperature a nd provide more uniform heat distribution, 
+minimizing the risk of localized overheating or thermal gradients within the material. Innovation #4 Novel 
+microwave rotary kiln for sulphide roasting (KER2)  
+ 
+State of the Art : Conventional rotary kiln installed in the industry typically rely on direct flames from fossil fuels 
+and boast high capacity of production (around 200t/h) and require a residence time of over 2 hours for a proper heat 
+transfer. Additionally, gases of combustion and reaction are intermixed, leading to uncontrolled atmospheres and non-
+extractable reaction gases. Microwave rotary kilns emerge as a promising solution for downsizing, energy efficiency 
+ 
+101178403 — PRIM-ROCK    Part B, page 10  
+and fast processing time. They aim to bridge the industry gap, as exemplified by patent WO/2016/128596 from CEIN, 
+and through various projects involving CEIN and NTUA, like DAPhNE, DESTINY and RemovAL, some of which 
+have found industrial application. Carbothermal reduction with microwave heating has been  
+14 S. Sarbishei, K.L. Tafaghodi, The effect of sulfur content of rotary kiln fuel on the composition of nickel laterite calcine, Fuel, 280 (2020),   
+Article 118648, 10.1016/j.fuel.2020.118648  
+15 Fu, X.; Chen, Z.; Xu, X.; He, L.; Song, Y . Deposits in Gas-fired Rotary Kiln for Limonite Magnetization-Reduction Roasting: Characteristics 
+and Formation Mechanism. Metals 2019, 9, 764. https://doi.org/10.3390/met9070764  
+thoroughly studied 16 and successfully demonstrated 17 with the process carried out under controlled atmosphere in a 
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 solid-phase flow microwave reactor, reaching TRL4/5 in 
+microwave pilot plants developed during projects such as RemovAL, DESTINY and Sulfometae.  
+Breakthrough: PRIM-ROCK is set to revolutionize the roasting process through electrification, utilizing an ultrafast 
+microwave process intensified by hydrogenation of sulphides. The innovative microwave rotary kiln will operate 
+under a controlled atmosphere, capable of applying hydrogen as a reactant. It features a microwave applicator with 
+electromagnetic modulation along the kiln, facilitating ultra-fast roasting processes and real-time tuning thanks to a 
+unique monitoring and control system. High -power d ensity modulation enables swift material transformation, 
+typically in less than 2 minutes. Precise atmospheric conditions will be maintained using pressure differentials, 
+ensuring adequate residence time for the hydrogen reaction. As the dry, granular mate rial passes through the 
+microwave rotary kiln, it is thermally transformed in the presence of reactive gases at high temperatures into 
+separable, enriched intermediate metal products. Reaction gases will be continuously extracted and collected during 
+the process.  
+Innovation #5 Hydrogen utilisation as a reducing agent for metal reduction from their oxide and 
+sulphide ores  
+State of the Art: Historically, the metallurgical sector has predominantly utilized coal as a source for carbon, due to 
+its abundance and cost-effectiveness. Carbon is used as a reducing agent to extract most metals by eliminating oxygen 
+from oxide ores, releasing substan tial carbon dioxide emissions during the process. As the process industries push 
+towards decarbonisation, a decisive shift from carbon is enabled by the adoption of hydrogen as: (a) hydrogen serves 
+as both a sustainable energy source and an eco -friendly reducing agent in metal production and (b) hydrogen can 
+enhance performance due to many factors. These include the lack of contaminants found in coal and coke, that 
+simplifies metal purification. Moreover, the reduction temperature is lower in H 2 based processes, while simpler, 
+more efficient, and controllable continuous reactors can be utilised. Finally, consistent hydrogen supply through RES 
+is possible, while simultaneously reducing reliance on coal mining and imports. Nonetheless, there are ch allenges. 
+Hydrogen is only commercially utilized in a limited number of refractory metals (i.e., W, Mo) and partly utilized in 
+Ni and Co metals production. Hydrogen reduction of metal oxides has been extensively studied at laboratory scale, 
+particularly in regard to kinetics and reaction mechanism18. The challenge with sulphide ores, a significant source of 
+critical metals, lies in managing the produced hydrogen sulphide gas, unlike in the case of oxide ores that produce 
+water. Thermodynamic analyses indicate the potential for hydrogen to reduce oxides and sulphides of these critical 
+metals. However, industrial-scale application faces hurdles such as: (a) underdeveloped thermodynamic models for 
+solid-gas reactions and gas phase equilibria; (b) limited understanding of gas-solid reaction kinetics and mechanisms; 
+(c) insufficient knowledge on the impact of ore pre -treatment on hydrogen reduction efficiency; (d) lack of 
+comprehensive experimental data for scaling up to pilot and industrial levels; (e) uncertainties around the economic 
+feasibility considering hydrogen costs; and (f) challenges in safely managing toxic gases like H 2S19. The utilization 
+of hydrogen for reducing critical metals from their ores is still in early stages, necessitating further development of 
+fundamental knowledge and resolution of key technical challenges.  
+Breakthrough: The main innovation proposed in this case is the hydrogen reduction of metals oxides and  sulhpides 
+in order to enhance metals recovery and eliminate the use of fossil fuels as all the processes are fully electrified. A 
+breakthrough process for the treat ment of Laterite (Fe, Ni oxides), Sphalerite concentrate (ZnS) and Chalcopyrite 
+concentrate (CuS) with main advantages including: (i) simplification of the highly complex treatment process of ores 
+concentrates and further utilization of low grade sources; (ii) recovery of the used hydrogen positively affecting the 
+cost and sustainability of the overall  sulhpide mineral reduction process; (iii) effectively addressing the conventional  
+sulhpide ore processes environmental problem of SO2(g) generation, through the efficient processing of H2S and the 
+consecutive production of H2 and Sulphur. An efficient method to overcome the thermodynamic barrier and increase 
+the copper yield is to shift the reaction equilibrium continuously to the right by introd ucing sufficiently large 
+quantities of H2 in the system and continuously removing the generated H2S as soon as it is formed. The coupling of  
+sulhpide reduction process with the continuous decomposition of the formed H2S(g) to H2(g) and S(s) will allow the 
+
+ 
+101178403 — PRIM-ROCK    Part B, page 11  
+continuous recycling and feed of the produced H2(g) in sufficient quantities into the system and secure the economic 
+performance of the process without adding excess cost.  
+16 García-Baños, B.; Catalá -Civera, J.M.; Sánchez, J.R.; Navarrete, L.; López -Buendía, A.M.; Schmidt, L. High Temperature Dielectric  
+Properties of Iron - and Zinc -Bearing Products during Carbothermic Reduction by Microwave Heating. Metals 2020, 10, 693. 
+https://doi.org/10.3390/met10050693  
+17 López-Buendía, AM, Brau, E, Sparis, D., Panias, D Davris, P., Balomenos, E. Iron source from bauxite residues by using microwave 
+technology. Proceedings of the 41st international ICSOBA Conference, Dubai, 5 - 9 November 2023. 
+https://icsoba.org/proceedings/41stconference-and-exhibition-icsoba-2023/?doc=88  
+18 Rukini, A., Rhamdhani, M.A., Brooks, G.A. et al. Metals Production and Metal Oxides Reduction Using Hydrogen: A Review. J. Sustain.  
+Metall. 8, 1–24 (2022). https://doi.org/10.1007/s40831-021-00486-5  
+19 Physical Chemistry of Metallurgical Processes, First Edition. M. Shamsuddin. The Minerals, Metals & Materials Society. Published by  
+John Wiley & Sons, Inc, 2016  
+Innovation #6 Hydrogen recovery from roasting by-product gasses through microwave-induced 
+Associated with document Ref. Ares(2024)6673367 - 20/09/1324 plasma (MIP) treatment   
+State of the Art : The state-of-the-art production of critical metals from sulphide ores is highly complex involving 
+many high temperature process stages and is directly associated with the production of sulfuric acid.  The production 
+of sulfuric acid adds significant cost  to the CAPEX and OPEX of the overall metal extraction process and has low 
+market value. In this respect the direct production of critical metals from sulphide minerals with the use of hydrogen 
+is a very attractive process alternative as it significantly reduces the processing steps and considerably simplifies the 
+overall metal production process. A major drawback of the direct reduction of metal sulphides with hydrogen is the 
+formation of unwanted hydrogen sulphide gas (H2S) that is the mai n product of the reaction of the metal sulphides 
+with hydrogen. Hydrogen sulphide is a toxic gas and cannot be emitted to the atmosphere as is. Therefore, a 
+sustainable process for the direct hydrogen reduction of sulphide minerals should involve, as an in tegral part an 
+efficient and economic process of the transformation of hydrogen sulphide to inert, easily manageable, harmless 
+compounds. Some of the plasma systems used in the dissociation of H 2S using plasma include the use of a pulsed 
+corona discharge reactor20, a gliding arc discharge14, and an ozoniser discharge15, in single or coupled magnetrons16. 
+Nonetheless, the challenge remains as H 2 and S recompose when cooling without rapid thermal quenching 17  18 . 
+Breakthrough: To address this challenge, a breakthrough, technically and economically feasible, and 
+environmentally sound technology enabling the transformation of the generated hydrogen sulphide to Hydrogen (H2) 
+and Sulphur (S), is proposed by the PRIM -ROCK project. In the case of sulphide ores, the project proposes a 
+breakthrough technology based on the use of hydrogen on an IFR Κ process to reduce the metal sulphides to metal 
+and hydrogen sulphide which in turn is decomposed either with by a two-step thermochemical decomposition or with 
+decomposition to H2 and Sulphur in a Microwave Plasma reactor. The innovation will be supported by an innovative 
+heat exchanger prototype that controls the cooling effect and inhibits the recombination, via thermal quenching. This 
+enables the produced H 2 to be recycled in the sulphide reaction process and sell the unused H 2 and the produced 
+Sulphur. The proposed process directly addresses all the inherent disadvantages of the conventional production of Ni, 
+Co and Cu from sul phide ores like complexity and many high temperature production stages, unusually high CO 2 
+emissions, successfully addressing the environmental problems and rendering the production process from H 2 
+consumer to H2 producer.  
+Innovations #7,8,9 Digitalisation   
+Multirange Spectroscopic Platform as part of Hybrid-Ensemble Modelling for data fusion   
+To date, there is no popular system that combines spectroscopy with other sensors to improve accuracy by data fusion. 
+For this purpose, we will leverage an innovative Multirange Spectroscopic Platform developed by partner IRIS, 
+ 
+13 G. Zhao, S. John & J.Zhang, "Production of hydrogen and sulfur from the hydrogen  sulhpide in a nonthermal-plasma pulsed corona discharge  
+reactor," Chemical Eng. Science, vol. 62, pp. 2216–2227, 2007.  
+14 K.R. Gutsol, A. Rabinovich & A.Fridman, "Dissociation of H2S in non -equilibrium gliding arc tornado discharge," Int. J. Hydrogen Energy, 
+vol. 34, pp. 7618–7625, 2009  
+15 V . Dalaine, J.M. Cormier, S.Pellerin & P.Lefaucheux, "H2S destruction in 50 hz and 25 khz gliding arc reactors," J. Applied Physics, vol. 84, 
+no. 3, pp. 1215–1221, 1998.  
+16 K. Hadidi and P. Woskov, "Efficient, modular microwave plasma torch for thermal treatment," Plasma Science and Fusion Center Report, 
+MIT.  
+17 https://doi.org/10.1016/j.ijhydene.2012.04.006  
+18 Microwave-Induced Plasma Torch for Thermal Decomposition of H2S into Hydrogen and Sulfur  
+ 
+101178403 — PRIM-ROCK    Part B, page 12  
+whereby different spectroscopic Process Analytical Technologies (PA Ts) have been engineered into a common 
+framework to open the possibility of tackling highly demanding monitoring applications by spectral data fusion in an 
+effective and affordable way. This platform, called VISUM Fusion, is a disruptive framework that leverages all the 
+common elements-power supply, embedded computer, dedicated software, user interface, communication means and 
+regulatory compliance- plus a ‘shared suite’ of the specific sensors/spec trometers, the respective light sources, and 
+the suitable probes, capable of delivering the following sensing techniques: SWIR, NIR, VIS spectroscopy; Raman 
+spectroscopy; LIBS spectroscopy; Fluorescence spectroscopy. The disruption lies in the fact that we  are activating 
+these such techniques through shared spectrometers, as well as common illumination systems (VIS, NIR and SWIR 
+can all use a common halogen lamp), power supplies, software drivers (if the spectrometers are purchased from the 
+same manufacturer) and -in some cases- optical probes. LIBS, as a powerful analytical technique for the simultaneous 
+acquisition of almost all the elements of the periodic table19,27 is of relevance for monitoring applications in minerals 
+processing, and as such will be added to the Fusion set-up by incorporating a pulsed laser (for generating plasma), an 
+excitation probe and an inspection probe. The LIBS implementation also requires VIS high resolution spectrometers, 
+each covering a narrow band to resolve fine peaks. The Fusion -Hybrid-Ensemble effectively addresses the 
+requirement for multiple spectrometers, and just one or two will suffice. In this setup, LIBS will not operate in 
+isolation; other technologies will accompany it, providing ample redundancy to compensate the lack of resolution. 
+This approach  results in a more economical LIBS configuration. This makes the platform ideally suited for 
+experimental work related to the measurement or detection of compounds at low concentration, often in Associated with 
+document Ref. Ares(2024)6673367 - 20/09/2024 complex matrices and with intrinsic barriers that do not match the ideal scenario 
+of any of the traditional technologies.  In the Machine Learning (ML) realm, ensemble modelling is a process where 
+multiple diverse models are created to predict an outcome, either by using many different modelling algorithms or 
+using different training data sets20. The ensemble model then aggregates the prediction of each base model and results 
+in once final prediction for the unseen data. The motivation for using ensemble models is to reduce the generalization 
+error of the prediction. In this project, we will elevate this concept to the next level by incorporating a new paradigm: 
+Hybrid Ensemble, which extends the rather novel concept of ensemble from its original use in ML towards the sources 
+of instrumental data when such sources involve a plurality of different physics. The concept is particularly suitable 
+for implementing data fusion from a combination of spectroscopic analysers such as LBIS, NIR, Raman; it is intended 
+for extracting more sensitive and accurate predictions on chemical composition and physical pr operties than could 
+be retrieved by merely using these analysers alone or even by merging the multivariate data from different sensors to 
+be further modelled under a  
+single common predictive model. Reduced Order Models for the design 
+of the indirect-fired rotary kiln:   
+State of the Art : The physical -chemical processes involved in the process are complex and affected by many 
+variables. Physics -based models can be used for simulation and analysis, but they will inevitably lead to 
+computationally intensive simulations (CFD, FEM, DEM) that cannot be used in real -time, which hinders their 
+usability in the Digital Twin used for process optimisation. Reduced Order Models (ROMs) can be used to achieve 
+real-time ability. Reduced Order Modelling is a mathematical technique to transform complex and computationally 
+costly models into real-time applications that can be integrated in production environments, transforming the complex 
+mathematics running underneath the models into simple operations that can be solved on -the-fly with very low 
+hardware requirements21. An example of state-of-the-art (SoA) implementation of a ROM approach is Twinkle 22, a 
+library for building families of solvers to perform Canonical Polyadic Decomposition (CPD) of tensors, developed 
+by ITA. This library is able to generate parametric ROMs as products of one-dimensional functions, applying tensor 
+factorization techniques on data sets generated by running batches of virtual tests with the original model. It is 
+especially focused on post-processing data from CAE simulation tools.   
+A complex system is usually described by the interaction of different parameters. An output variable of interest will 
+depend on many other input variables, some of which may be intertwined. The 
+approximation builds a modal representation of the multi -parametric model 
+ 
+19 Cécile Fabre, Nour Eddine Ourti, Christophe Ballouard, Julien Mercadier, Jean Cauzid, Handheld LIBS analysis for in situ quantification of 
+Li and detection of the trace elements (Be, Rb and Cs), Journal of Geochemical Exploration, V olume 236, 2022, 106979, ISSN 0375-6742,  27 
+https://libs-info.com/understanding/11/   
+20 Vijay Kotu, Bala Deshpande, Chapter 2 - Data Mining Process, Editor(s): Vijay Kotu, Bala Deshpande. Predictive Analytics and Data  Mining, 
+Morgan Kaufmann, 2015, Pages 17-36, ISBN 9780128014608, https://doi.org/10.1016/B978-0-12-801460-8.00002-1.   
+21  V . Zambrano, R. Rodríguez-Barrachina, S. Calvo, S. Izquierdo , TWINKLE: A digital -twin-building kernel for real -time computer-aided 
+engineering, SoftwareX 11 (2020) 100419  
+22 V . Zambrano, R. Rodríguez-Barrachina, S. Calvo, S. Izquierdo. TWINKLE: A Digital -Twin-Building Kernel for Real -Time ComputerAided 
+Engineering, under revision in Software X, (2019)  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 13  
+solution with separated variables and explicit dependency on model parameters. In other words, the output of the 
+system is described by means of independent functions, one for each variable separately and related to the output 
+variable. The approach is based on the  
+assumption that a problem of N, not necessarily independent, variables can be rewritten as the product of N 
+onedimensional functions, one for each of the variables of the system, as shown in the equation.  
+Breakthrough: Real time, physics -based ROMs will be developed based on the results of high -accurate, but also 
+computationally demanding simulations, of the detailed physics taking place inside the electrified indirect-fired rotary 
+kiln for roasting (i.e. reacting, multiphase flow with heat transfer). These ROMs will be then embedded and executed 
+as a subroutine of higher -level models to enhance its accuracy without increasing the computational effort. ROMs 
+will be implemented under modelling standards as Modelica or as standalone FMUs, so they can easily link to other 
+codes/libraries of higher-level models. The resulting hybrid models will be exploited for analysis of what-if  
+scenarios, and for the optimization of the process parameters. 
+Data-based predictive modelling and model generalization:   
+State of the Art : Industrial processes involve physical phenomena that evolve over time and can be monitored 
+through time-series sensor data. For example, in the lime calcination process 23, the processing time of the material 
+may last over several hours, which increases the complexity of capturing the temporal relations of process 
+parameters/control inputs with the product quality and efficiency. For this reason, calcination processes are o ften 
+studied through fundamental principles of heat and mass transfer equations and CFD simulations24. However, given 
+that the kilns under consideration have major technological differences from others, it is required that specific models 
+are derived, specifically tailored to each kiln and each process. Due to such specialized modelling, a continuous  
+ 
+validation and calibration of these models is necessary which cannot always be automated. In order to automatize the 
+Associated with document Ref. Ares(2024)667 25 67 - 20/09/2024 modelling and optimization of such complex processes, data -based 
+modelling techniques and intelligent methods have been used instead, such as neural networks 33, artificial bee colony 
+and multivariate regression splines for prediction 26 , or machine learning methods such as linear regression, Lasso, 
+support vector regression27. Although machine learning and data-based techniques provide a basis for automatizing the 
+generation of predictive models, several challenges remain, namely a) the proper selection of relevant (or similar) and 
+high-quality historical datasets and b) the proper selection of relevant parameters (features) that can better capture the 
+temporal dynamic phenomena in the time horizon of interest (e.g., when generating predictions). This is because such 
+processes involve nonlinear physical phenomena, thus machine learning models should be trained using data of similar 
+operating conditions (e.g., similar temperature distribution in lime kiln processes 31). However, even under conditions 
+of properly selected datasets and feature parameters, training such AI -based machine learning models may still 
+encounter several challenges, such as insufficient data, and changes in the characteristics (e.g., distributions) of the 
+features used. Note that in many cases the digitization of such industrial plants has often been completed within the last 
+few years, and there may not be sufficiently rich datasets for successfully modelling such processes through AI -based 
+techniques, e.g., neural networks. This often leads to poorly performing models or models that cannot be generalized to 
+new operating conditions (e.g., to small differences in the material composition, fuel properties, and configuration 
+settings). In such cases, transfer learni ng techniques, such as domain generalization 28 and adaptation29 , or model fine 
+ 
+23 Kychkin, A. V ., G. C. Chasparis, and S. Ellero. 2023. “Automated Cross Channel Temperature Predictions for the PFR Lime Kiln Operating 
+Support.” In 2023 31st Mediterranean Conference on Control and Automation (MED), 960–66. Limassol, Cyprus: IEEE. 
+https://doi.org/10.1109/MED59994.2023.10185790.  
+24 Moghaddam, Saied, Pouria Orouji, Ali Mohammad Mirshams, Ehsan Roomizadeh, Yahya Haj Ebne Ali, and Nasim Hamzehloo. 2023. 
+“Investigating the Potentials to Improve the Energy Consumption of a Lime Rotary Kiln Using Measurement and CFD Simulation.” Heat and 
+Mass Transfer 59 (5): 949–70. https://doi.org/10.1007/s00231-022-03309-9.  
+25  Järvensivu, M, K Saari, and S. -L Jämsä-Jounela. 2001. “Intelligent Control System of an Industrial 
+Lime Kiln Process.”   Control Engineering Practice 9 (6): 589–606. https://doi.org/10.1016/S0967-0661(01)00017-X.  
+26 González Suárez, Víctor Manuel, Esperanza García -Gonzalo, Ricardo Mayo Bayón, Paulino José García Nieto, and Juan Carlos Álvarez 
+Antón. 2019. “Predictive Model of Gas Consumption and Air Emissions of a Lime Kiln in a Kraft Process Using the ABC/MARS -Based 
+Technique.” The international Journal of Advanced Manufacturing Technology 100 (5): 1549–62. https://doi.org/s00170-018-2773-4.   
+27 Benchekroun, M. T., S. Zaki and M. Aboussaleh, “Kiln Predictive Modelisation for Performance Optimization,” In Review, preprint, Jan.  
+2023. Doi: 10.21203/rs.3.rs-2462189/v1.  
+28 Zellinger, Werner, Thomas Grubinger, Michael Zwick, Edwin Lughofer, Holger Schöner, Thomas Natschläger, and Susanne SamingerPlatz. 
+2020. “Multi-Source Transfer Learning of Time Series in Cyclical Manufacturing.” Journal of Intelligent Manufacturing  31 (3): 777 – 87. 
+https://doi.org/10.1007/s10845-019-01499-4.  
+29 Xu, Ruijia, Ziliang Chen, Wangmeng Zuo, Junjie Yan, and Liang Lin. 2018. “Deep Cocktail Network: Multi-Source Unsupervised Domain 
+Adaptation with Category Shift.” In 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition, 3964–73. Salt Lake City, UT: 
+IEEE. https://doi.org/10.1109/CVPR.2018.00417.  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 14  
+tuning30, can be used to exploit additional datasets from similar operating conditions or simulation data. However, there 
+has been a limited effort to address these challenges in time-series data in industrial processes36, and to the best of our 
+knowledge such techniques have not been applied in calcination and roasting processes.  
+Breakthrough: Given the absence of sufficiently rich and relevant datasets for modelling calcination and roasting 
+processes through AI -based or data -based techniques, we target the development and implementation of a data 
+processing pipeline that extends current pract ices in these processes by integrating the following main elements a) 
+data pre-processing (involving data quality improvements, filtering, and data aggregations), b) feature engineering 
+(involving the utilization of correlation and temporal cau sal techniques), c) standard and sophisticated AI -based 
+predictive modelling techniques  (e.g., regression models, recurrent neural networks and LSTM, variational 
+autoencoders, and attention networks), d) domain generalization/adaptation techniques for exploiting datasets of 
+different sources, i.e., DT simulations and historical data of similar conditions, and e) model fine tuning or ensemble 
+modelling by utilizing the most recent data or synthesizing hybrid combinations with physics -based models. More 
+specifically, domain generalization, in (d), corrects priorly available datasets (e.g., through optimal parameterization 
+of correction factors or projections) that can retain the validity of the models when the operating conditions change, 
+which provides robust ness in model performance through time. Model fine tuning, in (e), allows for continuous 
+adaptation of the models (e.g., regression models or LSTM) to new operating conditions by incorporating new data 
+in the training process as it becomes available, or by  establishing hybrid model combinations (e.g., with the 
+physicsbased simulation models).  The proposal team has experience in predictive modelling of industrial and 
+calcination processes31, feature engineering32, transfer learning in manufacturing and time series datasets38,36.  
+1.1.3 Positioning    
+Technology  Start  End  
+Lab-scale RMI characterization mechanism : A high accuracy system that identifies and characterizes ore streams to 
+determine the most efficient crushing size  
+4  6  
+RMI sorting mechanism : A high accuracy, high performance sorting system for the segregation of mineral ore streams, 
+while capable of dynamically, on-line adjusting the sorting hyperparameters  
+4  6  
+Estimation technology for optimal, valorisation flow -specific crushing sizeAssociated with document Ref. Ares(2024)6673367 - 20/09/2024: 
+An ore pre-treatment module based on correlation analysis of crushing size and valorisation flow  4 6  
+Intelligent Decision Support System for raw material valorisation: An intelligent tool to estimate the optimal sorting  
+thresholds, based on the calculated crushing size, the physical and chemical properties of minerals and the requirements of 4 6 the overall 
+valorisation flow  
+Indirect-fired rotary kiln (IFRK): An electrified rotary kiln for the efficient calcination and roasting of mineral ores  4  6  
+Microwave rotary kiln (MRK): A microwave kiln for the reduction of metal sulphides  4  6  
+Microwave-induced plasma reactor: Plasma treatment for the recovery of H2 from hydrogen sulphide gasses  4  6 Process 
+Control System (PCS): For the efficient and user-friendly control of the IFRKs  4  6  
+Multirange Spectroscopic Platform: An innovative data infrastructure tailored to  the pilots’ monitoring challenges  4 6 Reduced Order 
+Models: Advanced models for reducing the order of the physicochemical and thermophysical simulation  
+results for the IFRKs, while maintaining accuracy  4  6  
+Data-driven models: AI-based algorithms for the optimization of the IFRKs and MRK resource efficiency  4  6 #§PRJ-OBJ-PO§#
+1.2 Methodology    
+ 
+30 Grubinger, Thomas, Georgios C. Chasparis, and Thomas Natschläger. 2017. “Generalized Online Transfer Learning for Climate Control in 
+Residential Buildings.” Energy and Buildings 139 (March): 63–71. https://doi.org/10.1016/j.enbuild.2016.12.074.  
+31 Kychkin, A. V ., G. C. Chasparis, and S. Ellero. 2023. “Automated Cross Channel Temperature Predictions for the PFR Lime Kiln Operating 
+Support.” In 2023 31st Mediterranean Conference on Control and Automation (MED), 960–66. Limassol, Cyprus: IEEE. 
+https://doi.org/10.1109/MED59994.2023.10185790.  
+32 Luftensteiner, Sabrina, Michael Mayr, and Georgios Chasparis. 2021. “Filter -Based Feature Selection Methods for Industrial Sensor Data: A 
+Review.” In Big Data Analytics and Knowledge Discovery, edited by Matteo Golfarelli, Robert Wrembel, Gabriele Kotsis, A Min Tjoa, and  
+Ismail Khalil, 12925:242–49. Lecture Notes in Computer Science. Cham: Springer international Publishing. https://doi.org/10.1007/978-3030-
+86534-4_23.  
+ 
+101178403 — PRIM-ROCK    Part B, page 15  
+#@CON-MET-CM@# #@COM-PLE-CP@# PRIM-ROCK 
+Concept  
+The PRIM-ROCK project aims to meet the pressing demand for resource efficient mineral processes by introducing 
+innovative solutions with potential applications across various resource -intensive industrial sectors. The project is 
+committed to the transition from fuel-based to electrified thermal processes, advancing both the decarbonisation of 
+the industrial sectors and reduction of the material waste, increasing at the same time the competitiveness of the 
+industries through higher productivity. At its core, PRIM-ROCK focuses on the calcination and roasting processes of 
+mineral ore streams and aims to deliver three state -of-the-art rotary kiln prototypes to replace the highly inefficient 
+conventional methods. These comprise two novel indirect -fired rotary kil ns, one for the calcination of lime and 
+magnesite and the other for the reduction of metal oxides and sulphides, in addition to a microwave rotary kiln 
+specifically tailored for sulphide ores. To further drive decarbonization, hydrogen will be employed as the reducing 
+agent for metal oxides and sulphides. To exploit the full potential of the kilns and maximise resource efficiency, the 
+raw material will be suitably pre-processed through an advanced and automated system, encompassing classification 
+modules, crushing and sorting capabilities. Following a holistic and circular approach, PRIM-ROCK addresses also 
+the post-processing stage by developing a cutting -edge microwave-induced plasma reactor to dissociate hydrogen 
+sulphide produced during the sulphides roasting into hydrogen and sulphur, reclaiming hydrogen for reuse. To prevent 
+recombination of hydrogen sulphide a heat exchanger system will be utilized for controlled cooling before H2 is 
+reintroduced in the kilns. Additionally, a virtual toolkit will be developed for assessing the viability of capturing the 
+enriched CO 2 generated by the calcination process, while utilizing the recovered H2 to produce e -Methanol. The 
+project's innovative approach includes a multifaceted digital framework addressing industrial processes in a highly 
+integrated way. A network of sophisticated sensors will be designed and developed to enable the in-depth and accurate 
+monitoring and understanding of the systems physical behaviour, while a process control system will provide the 
+required access to the critical operational parameters. The project  will consolidate an interoperable and multilayer 
+data management platform, providing the resources needed for the planning and real-time monitoring of the process 
+lifecycle, through a common framework of different spectroscopic process analytical technologies and implementing 
+data fusion. From the design stage, a complete set of simulations will be conducted, including physicochemical, 
+thermophysical, reduced order modelling of their results and process simulations, to obtain the optimal design of the 
+prototypes. Hybrid digital replicas of the prototypes will be consolidated with the utilisation of AI-based data-driven 
+models, along with decision support systems, user-interfaces and 3D visualisation features, to maximise the resource 
+efficiency of processes. Finally, to ensure the industrial adoption and uptake of the PRIMROCK solutions, a complete 
+analysis of the techno-economic feasibility, sustainability and its overall societal and environmental impact will be 
+conducted. The breakthrough technologies wil l be demonstrated in 3 different ASPIRE sections, namely Minerals 
+(Magnesite - TERNAMAG, Laterite – NTUA for exploiting Greek FeNi deposits), Cement (Limestone - FORN) and 
+None-ferrous metals (Sphalerite, Chalcopyrite – KGHM and mixed sulhpide oresHEGOLD).  
+  
+Figure 3. Overall concept of the PRIM-ROCK project  
+  
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 
+ 
+101178403 — PRIM-ROCK    Part B, page 16  
+KER1 – Raw material intelligence system (ICCS, CIBOS)  
+ICCS is set to create an advanced automated system incorporating multiple sensing modules and deep-learning (DL) 
+algorithms. The goal is to efficiently and in real-time identify and separate materials, of various grain sizes, detected 
+in ore streams. Build ing on the knowledge gained from the Horizon Europe MASTERMINE and W2W projects, 
+enhanced DL approaches will be developed to specifically identify and analyze complex non-linear spectral patterns 
+in ore streams. In detail, hyperspectral cameras, ample of densely sampling the EM spectrum up to 5000nm, will be 
+utilized along with an industrial high -speed RGB camera to optically recognize the particle size distribution and 
+chemical composition of each sample, in relation to processing parameters, and hence perform the localization of the 
+sample along the conveyor belt.  
+Moreover, information regarding the colour of the samples, i.e. levels of white, will be extracted in to order to assist 
+the identification process, as well as to characterize it based on that feature. In tandem with the cameras, microscopy 
+imaging sensors will be employed to gain further intel on the microscopic structure. In this manner, the samples’ 
+unique fingerprint will be defined through the combination of spectral, colour (RGB) and micro-spatial features.  For 
+classifying minerals within ore streams, a deep convolutional architecture, such as ViT or GAN, will be employed to 
+extract joint features from both the hyperspectral and the microscopy imaging sources. Specifically, the raw input 
+streams will firstly be treated by mechanical means, such as vibrational separation, cleaning, crushing, etc., ensuring 
+even and uniform distribution along the belt that conveys the samples through the multi -sensory module. Once 
+samples have passed through the multi-sensing module the joint spectro spatial information will be processed by the 
+deep convolutional model to binary classify the samples. Based on the sample’s size, the most prominent actuation 
+sub-system (i.e. delta -type robotic manipulator fitted with either electromechanical or suction -based grasping 
+mechanisms to handle larger samples, or pneumatic separation through pressurized air discharge for finer materials 
+with median particle size below 3mm) will be selected, and guided by the previously extracted geometrical features, 
+to perform the physical separat ion of the samples by placing them in the corresponding container according to the 
+classification results. At the end of the conveyor’s belt, an additional bucket is placed to gather unidentified/unsorted 
+objects, that will be re-introduced to the system in a second iteration of sorting. In case they fail to be sorted again, 
+an offline analysis of those samples will be conducted to identify their specific spectro-spatial properties and provide 
+feedback to the sorting system. In this manner, the DL models will be updated to better fit the ore streams distribution, 
+and hence increase the systems sorting efficiency.  
+A pilot case will be designed, focused on testing 
+and validating two advanced and adaptive 
+automated sorting prototypes, tailored for the 
+calcination and roasting processes, respectively. 
+These will facilitate the pre -processing of the 
+mineral ore streams to a) identify and characterize 
+and b) sort the apparent raw material . Initially an 
+RMI characterization mechanism, will be designed 
+and implemented to take mineral ore streams as 
+input and characterize their content. The pre- 
+treatment unit, responsible for processes such as    
+mechanical pre -sorting, cleaning and crushing, Figure 4. Concept of the Raw Material Intelligence system will be 
+installed prior the characterization system. The treated samples will, afterwards, be analysed using a combination of 
+RGB, hyperspectral and microscopy imaging sensors, while DL models based on SoA architectures, e.g. CNN, Visual 
+Transformers, GANs, etc., will perform the classification task and ultimately the characterization of raw material, 
+based on its optical, i.e. sample’s white levels, and  spectral properties. In this manner, an extensive analysis of the 
+system’s capacity to analyse and characterize both coarse and fine grains will be conducted. The pilotscale RMI 
+sorting prototypes will be developed, in parallel, employing the RMI characte rization mechanism as the basis of its 
+design. Specifically, the proposed sorting systems will utilize and build upon the same multi -sensor module, while 
+incorporating a combination of robotic mechanisms, i.e. delta robot with a gripper or a vacuum endeffe ctor for 
+handling bigger and coarser samples, and a pneumatic system for the separation of fine/ultrafine grains. The sorted 
+output stream will be then forwarded to the IFRKs. The integration of the lab-scale RMI characterization mechanism, 
+post the IFRKs will, also, be investigated. In this manner, an automated characterization method for the products of 
+the processes is proposed, thus a) allowing for better evaluation of the pipeline’s overall efficiency and b) providing 
+further feedback to optimize the crushing and sorting of the ore streams.  
+To increase the system’s versatility an intelligent agent will be trained on data extracted during the sorter’s operation 
+time, to develop a Decision Support System (DSS) that dynamically estimates the optimal separation criteria and 
+adapts on-line the sorted output stream. In detail, the intelligent DSS will leverage information acquired through the 
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 
+ 
+101178403 — PRIM-ROCK    Part B, page 17  
+operational phase of the sorter to select the optimal separation settings based on the properties of the input stream. 
+Different combinations of pre-treatment approaches (e.g. crushing, washing, etc.) and classification schemes will be 
+tested to identify the number of sorting scenarios the DSS may suggest and hence increase the overall performance 
+of the system. Moreover, by utilizing the data collected from both RMI mechanisms,  a continuous analysis of the 
+composition of the input and output stream will be conducted, thus identifying changes in the streams’ composition 
+in terms of minerals and other substances concentration. In this manner, the deep learning classifier model will be 
+regularly updated so that its output will dynamically adapt to circularity and sustainability criteria, such as aspects 
+related to offer vs demand, logistics optimizations, supply chain management, etc. The systems’ performance will be 
+evaluated, based on absolute metrics (e.g. accuracy, picks per minute, etc.), as well as according to multidisciplinary, 
+sustainability criteria, aiming to align the system’s output characteristics with the rest of valorisation chain.   
+  
+KER2 – Intensification technologies for thermal processing (NTUA, CEIN)  
+Indirect-fired rotary kilns for calcination and roasting of mineral ores  
+The process intensification component of the project will design, develop, and validate innovative and efficient 
+technologies. Specifically, NTUA will construct two novel Indirect -fired rotary kilns (IFRKs) to replace the 
+conventional Direct-fired rotary kilns (DFRKs) used in the calcination and roasting processes of mineral ore streams. 
+In order to efficiently control transfer of gases and solids, hoods at feed and discharge ends of the kiln shell will be  
+designed. Special seals between hoods and rotating  shell will minimize ingress air and maintain required process 
+atmosphere. As kiln shell will be heated externally, the selected material must withstand temperature, corrosion, 
+and/or abrasion. Special attention will be given to enshrouding furnace for optimum heating up of the kiln shell with 
+the electric emitters while isolating process gases from environment. Heating zones with electric emitters, insulation, 
+wiring, and junction boxed for fixed kiln length increments will be designed to be easily serviceable, replaceable, and 
+exchangeable. Sensing devices like thermocouples, H 2 mass flow, power meters, etc. will provide dynamic data for 
+system monitoring and control.   
+The ores will be charged from the material bins to the kiln. The hydrogen needed for reduction will be pre-heated in 
+a heat exchanger, before entering the reactor. To ensure a uniform gas distribution inside the reactor, a propriety gas 
+distributor design will be applied. After reduction and final material sampling, the whole material is collected again 
+in the material bins and discharged afterwards into a quenching vessel (cooler). Gas recycling stream will be passed 
+to a heat exchanger and a gas cooler, f or removing the formed water vapor during reduction. Unreacted hydrogen 
+will be recycled and re-used in the process again after passing a recycle gas compressor, the heat exchanger, and the 
+reducing gas furnace. The theoretical hydrogen consumption by the reduction will be added to the process before the  
+ 
+Figure 5. Top: Electrified vertical kiln for microspheres production, Bottom: validated CFD modelling (Contours of air 
+temperature (left) and particles’ concentration) for the electrified furnace33  
+  
+NTUA team has an extensive knowledge, on research and technology development in the field of extractive industries, 
+covering actions for designing, simulation and prototyping sustainable metallurgical routes by utilising H2 and energy 
+ 
+33  Panagiotis M. Angelopoulos, Antonis Peppas & Maria Taxiarchou (2023) Modelling the Thermal 
+Treatment and Expansion of Mineral  Microspheres (Perlite) in Electric Furnace Through Computational Fluid Dynamics (CFD): Effect of 
+Process Conditions and Feed Characteristics, Mineral Processing and Extractive Metallurgy Review, DOI: 10.1080/08827508.2022.2161536  
+heat exchanger.  
+  
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 
+ 
+101178403 — PRIM-ROCK    Part B, page 18  
+efficient processes. The team is also equipped with equipment for physicochemical characterisation like ICP -MS, 
+AAS, XRF, XRD, laser particle analysers, BET, TG, SEM, TEM and others.  
+  
+Microwave rotary kiln for the reduction of metal sulphides  
+The development of the PRIM-ROCK project includes the construction of a microwave kiln for the reduction process 
+of metal sulphides, designed with adjustable electromagnetic fields within the tube and featuring a novel system 
+capable of modulating the signal to accommodate the dynamic changes occurring during the roasting reaction. This 
+innovation is crucial for managing the transition of materials from moderate low dielectric properties to conductive 
+states, necessitating precise control of the electrical field in a reactor designed for metallic materials. An advanced 
+control system will collect thermal and microwave property data, which will be instrumental in developing the 
+algorithms and software necessary for real-time tuning of the process. This level of control is essential for optimizing 
+the roasting reaction and ensuring efficient treatment of materials.  
+  
+Figure 6. Tests with metallic component (left) sulphides (centre). Control system with microwave parameters, with polar 
+Smith chart as base to be used in PRIM-ROCK (right).  
+  
+Direct reduction of metal ores using hydrogen as a reducing agent  
+A breakthrough process for the treatment of metal sulphide concentrates is proposed involving hydrogen reduction 
+of the concentrate in the IFRKs to produce metals and hydrogen sulphide as a result of the reaction between hydrogen 
+with sulphur. The process is intended to be used in tandem with KER3 to achieve the sustainable use of hydrogen. 
+The main advantages of the proposed process include: (i) simplification of the high complexity of metal sulphide 
+concentrates, (ii) recovery of the used hydrogen affect ing the cost and sustainability of the overall process, (iii) 
+solving the environmental problem of SO2(g) generation in the processing of sulphide ores through the production of 
+sulphur. The process is simpler and less energy intensive. Nonetheless, as a new process, there are gaps in fundamental 
+knowledge needed: where available, the results of lab experiments carried out by the project partners or available in 
+the literature will be considered in the experimental design, but a significant number of lab tests will still be needed 
+carried out to fill the gaps in the existing knowledge in terms of refining process kinetics and optimising the 
+parameters of the reduction process. It is important to mention that although there is initial knowledge in the study of 
+pure materials, this knowledge is not considered in many cases complete and needs significant work effort for 
+additional testing. Concerning metal ores/concentrates and tailings very few references are known for the exploitation 
+cases proposed in this project. The main outcomes from lab scale testing include development of proper mathematical 
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 
+models to predict the technical behaviour of pure oxide and sulphide materials as well as ores, concentrates and 
+tailings under variable process conditions; identification of the optimum operation conditions in each of the studied 
+systems; and determination of the quality of each product in terms of metal extraction and product purity. Based on 
+the acquired knowledge from the lab scale testing, continuous operation bench scale tests will be carried out at the 
+optimised conditions to produce adequate quantities (3 – 6 kg) to evaluate the process efficiency, hydrogen and energy 
+consumption and the quality of the targeted metals. Tests will be performed in the modified IFRK. In terms of 
+processing in the IFRK, the process is straightforward: the kiln will be lo aded with sulphide ore, where the 
+preprocessing (particle size, grinding, pelletisation) will be investigated. The optimal heat distribution will be defined 
+across the three heating zones, in addition to other parameters (e.g., staying time, rotation, tilt, H2 pressure). The main 
+outcome of the bench scale tests includes the determination of the optimum conditions in each case studied in terms 
+of process conditions, H 2 consumption and product quality to enable the engineering design of the pilot and 
+demonstration tests. Depending on each case, the produced material can be a marketable ferroalloy, as in the case of 
+nickel laterite treatment, or an intermediate product th at needs to be further processed to extract and purify the 
+contained critical metal. Consi derable research effort will be allocated to the decomposition of the H 2S produced 
+during the hydrogen reduction of sulphides, to H2 gas and solid sulphur, as this process provides significant prospect 
+to considerably enhance the technical and economic viability of the under-development solutions.  
+  
+  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 19  
+KER3 – Post-processing solutions (EUT, BUL, NTUA)  
+Microwave-induced plasma reactor for H2 recovery  
+PRIM-ROCK will demonstrate at TRL6 an integrated and sustainable MIP reactor for the decomposition of H 2S 
+gasses and recovery of H 2(g) and S(s), with subsequent reutilisation of H 2 for direct reduction in the process stage. 
+As described, PRIM-ROCK will employ hydrogen as reducing agent to produce critical (Fe, Ni, Co) and important 
+metals (Zn, Cu) in an environmentally friendly and economically sustainable way. The capacity of processing several 
+materials with the same technology showcases the flexibility and 
+adaptability of the solution. To realise the potential of the 
+technology, it is imperative to generate fundamental knowledge, 
+enriching existing models of kinetics 34  and especially on the 
+plasma thermal quenching effect of the reverse reactions35.   The 
+process to be employed is comprised of the following elements: 
+(1) Reactor supply: To supply the reactor, a mixture of H 2S and 
+an inert gas (e.g., argon) is used. The feed gas composition and 
+supply rate will be extensively studied (projected 70 -100% H2S 
+concentration, at flow rates of 0.53l/sec, preheating temperature). 
+(2) Plasma generation: The feed gas is then introduced into a 
+plasma reactor, where it is subjected to a microwave field. The 
+microwave field ionizes the gas, creating a plasma that 
+dissociates the H2S molecules into H 2 and S. The parameters in 
+this s tage are the power input that also influence the reactor 
+temperature. (3) Product separation: The H 2 and S produced in 
+the plasma reactor are separated from each other using a 
+condenser. The separation process is a critical step in the process, 
+as it determines the purity of the final products.  (4) Product 
+recovery: The H2 and S are then collected in separate  
+containers. This stage is crucial due to the cooling effect, as outside the optimal cooling temperature the original 
+reactant H2S  Figure 7. Microwave Induced Plasma reactor (MIP)   
+gas is reformed. For this stage, a plasma thermal quenching at EUT premises analysis is very important to 
+help design the optimal heat  
+exchanger that will retain the hydrogen and sulphur products, inhibiting recombination. Following the simulations, 
+experimental work first at bench and then arelevant scale is foreseen. Where available, the results of lab experiments 
+carried out by the project partners or available in the literature will be considered in the experimental design.  
+  
+Design of a heat exchanger system to fit the existing reactor  
+ 
+34  Alexander Friedman, Plasma chemistry. Cambridge University Press, 2009, pp. 744–745   
+35 Microwave-Induced Plasma Torch for Thermal Decomposition of H2S into Hydrogen and Sulfur, Mohamed Sassi and Naji Amira, Masdar  
+Institute of Science and Technology  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 20  
+Cooling of a high temperature surfaces (over 2000°C) presents an extremely challenging heat flux values that makes 
+the use of conventional heat exchangers designs unviable. This is mainly due to the nature of suitable coolants for 
+this temperature range that takes the heat exchanger solution to the use of liquid metals as coolants, which brings an   
+extremely demanding safety process that is usually cost - 
+prohibitive in most applications. However, with the 
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 advances in 
+materials science and the adaptation of the heat pipe 
+technology in many high temperature applications, an 
+innovative heat pipe heat exchanger for such high heat 
+flux applications can be a viable, cost effective and safe 
+heat management systems  for the cooling application of 
+such walls. It is also due to the ability to control the heat 
+transfer process withing the heat pipe system (boiling – 
+condensation of the working fluid) through an innovative 
+design for the heat pipe condenser sy stem that twill keep 
+the heat pipe system operating at a lower temperature than 
+the allowed value within its structure to keep the heat 
+transfer process  
+sustained. An example system was developed by BUL  that was tested in a representative environment to cool 
+Figure 8. Heat exchanger used in the silicon industry hot surfaces (1400°C - 2500°C) using a water-cooled (>1500oC) 
+for controlled cooling (BUL) heat pipe system with water as its working fluid. During  
+the operation of the system, the internal working temperature of the heat pipe was 250°C thanks to the innovative 
+condenser design for this heat pipe that facilitated the required active heat removal form eth heat pipe system that 
+was absorbed form eth high temperature wall through radiation. An example of the system can be seen in the photos.  
+  
+CO2 capture and eMethanol production virtual toolkit  
+The Virtual Toolkit will simulate in a dynamic way a promising configuration for the exploitation of enriched CO2, 
+produced via the calcination process of IUC1 (Lime) and 2 (Magnesite). Within the energy system’s boundary 
+conditions, based on the user’s in puts that will set the objective function for each scenario, the recovery of CO2 
+through a virtual CCUS unit will feed a virtual e -Methanol production unit, and the system will be modelled for 
+technoeconomic and environmental analysis. A Mixed-Integer Linear Programming (MILP) will be employed for the 
+operational multi-objective optimization algorithm, while Reinforcement Learning (RL) will also be considered. 
+Black-box models will be employed for the CCUS and e -fuel production unit, meaning that a data-driven approach 
+will be preferred over physical modelling. This will require the collaboration of domain experts. The toolkit will 
+provide reliable energy balance information, including emissions and costs and deliver long -term scenarios for 
+investments according to end-user priorities and constraints.   
+  
+  
+KER4 – Digital process-line optimisation (IRIS, MAGG, ITA, NTUA, CIRCE, BUL, CORE, SCCH, STAM)  
+Scadalytics Industrial IoT data platform  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 21  
+The data from VISUM Fusion platform, and from 
+any other relevant data source is collected in the 
+Scadalytics Data Management Platform that 
+consists of a series of layers. The Communication 
+Interfaces and APIs layer is designed for data 
+integration and interoperability not only with the 
+VISUM Fusion, but can also receive data from 
+SCADA/ERP, PLC, from other analysers,  
+Industrial IoT or field devices and enriched by 
+external data (economic, societal). A data 
+processing layer performs data conditioning prior 
+to its use by the data fusion layer. As discussed, a 
+ ground-breaking  advancement  is 
+ the combination  the  Multirange 
+ Spectroscopic Platform with hybrid-ensemble 
+modelling for implementing  data  fusion. 
+ The  most straightforward approach for 
+implementing data fusion through hybrid 
+ensembling involves  
+identifying optimal pairs of instruments and  Figure 9. High level schematic of based on Multirange  
+machine learning methods within a specific Spectroscopic- Hybrid Ensemble Fusion Platform and Scadalytics ensemble 
+architecture, to achieve both the most data management software  
+robust and accurate predictive algorithm. An instant evident advantage is a reduction in the number of observations 
+(samples) required for developing models that are not prone to undergo overfitting. In fact, the lack of sufficient 
+numbers of different sam ples (as many as required for building useful models) is the most frequent barrier to the 
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 
+wide use of machine-learning-based spectroscopic analysers. The hybrid ensembling concept addresses the limitation 
+of two extreme approaches: on the one hand, modelling the merged data by means of just one weakly optimal 
+algorithm and, on the other hand, applying the machine learning ensemble approach to a dataset that involves limited 
+information provided by just one type of spectroscopic analyser. The outputs from this layer can be either sent directly 
+to the Scada, can be interfaced through a self -contained User Interface, or can be sent up to an upper layer of 
+intelligence for use by predictive models. Indeed, the Scadalytics platform, in combination with the VISUM Fusion, 
+has the potential to move minerals processing towards process automation through m ultivariate process control 
+(MVPC) and software sensors trained on historic process data. Scadalytics can also connect with a higher -level 
+Digital Twin that may be in place or can act itself as the Digital Twin of the productive process that is being monitored.  
+Modelling any novel intensified process or, in general, complex systems such as a plasma reactor entails not only 
+managing a plurality of data sources but also describing processes that cannot be precisely emulated by deterministic 
+approaches. That is the main reason for taking advantage of the combination of both Visum Fusion and Scadalytics 
+for seamlessly acquiring highly informative data and building and hosting data -driven or hybrid digital twins of the 
+involved processes in a common framework.  
+  
+Advanced sensor network for the process and post -process Figure 9 provides a schematic of the 
+complete sensing  
+network. It is based on the VISUM Fusion Multirange Spectroscopic 
+Platform that incorporates several detection techniques (SWIR, NIR, VIS, 
+Raman, Fluorescence and LIBS) in a common hardware platform, which not 
+only allows us to use the optimum technique fo r each measurement 
+requirement, but it also enables seamless data fusion, to obtain dramatic 
+improvements in precision, accuracy, and limit of detection. This self -
+contained portable multirange spectroscopic platform is comprehensive 
+enough  
+to be configured for successfully tackling a high plurality of   
+demanding applications, such as the  in-line monitoring of the Figure 10. VISUM PalmTM: Portable (handheld) NIR 
+processing and refining of minerals and critical raw analyser for at -line control at different points of the materials, 
+while at the same time being highly modular to process, from raw material to final quality control. enable easy 
+simplification as required for targeted applications and for the sake of affordability. To further extend the framework 
+
+ 
+101178403 — PRIM-ROCK    Part B, page 22  
+capabilities, VISUM Fusion can also fuse data provided by off-the-shelf compatible temperature and electrochemical 
+sensors installed in each of the case study pilot plants.  
+  
+Multiscale physics-based simulations towards the optimal prototypes design   
+To obtain the optimal design of the prototypes towards enhancing their resource efficiency PRIM-ROCK introduces 
+a complete set of simulations to vastly analyse their physical behavior on different scales of interest. Special emphasis 
+will be placed at the simulations of the IFRKs to generate knowledge that is currently scarce or underdeveloped in 
+the literature, regarding the reaction kinetics, mechanisms and thermodynamics of the calcination and roasting 
+processes involving ores of different physicochemical nature. First, the kinetics of the reactions will be assessed from 
+molecular dynamics simulations (i.e. atomistic modelling). The simulations will rely on the reactive force field 
+(ReaxFF) interatomic potentials, which allow to model large-scale systems where chemical reactions are occurring. 
+This novelty approach links the quantum mechanics accuracy, which itself is computationally intense and limited to 
+small systems, with the classical Molecular Dynamics (MD) algorithms and scheme to allow for explori ng larger 
+simulation scales and times than DFT methods. The ores will be modelled in the atomic level, considering the 
+crystallographic structure of the selected mineral variety. In the case of roasting, hydrogen will be added to the model 
+considering different concentrations and temperature conditions and allow it to react with the ore to monitor the 
+evolution of the reduction reaction under the ReaxFF force field. Such simulations will allow for monitoring the 
+different chemical species that are formed, o r disappeared, during the chemical reactions, which will help in 
+establishing a detailed reaction mechanism pathway. Besides, the precise monitorization of the concentration of the 
+chemical species involved in each reaction step will allow for determining the kinetic parameters associated (i.e., 
+activation energy, kinetic constant, order of reaction). This will not only help getting a better understanding of the 
+reduction and carburization processes, but also give indications of the limiting physical and ch emical processes. As 
+a second step, the simulations will scale up, implementing a novel methodology to obtain the volumetric reaction rate 
+at the particle level. To this end, the reaction kinetics obtained with ReaxFF will be considered at the gas -particle 
+interface (surface reaction) to predict the overall volumetric reduction rate, as well as the materials properties (particle 
+size, specific surface, porosity) and process parameters (such as residence time). This methodology will be developed 
+using open-source tools such as LIGGGHTS (Discrete Element Method, DEM), OpenFOAM (Finite V olume Method 
+FVM – Computational Fluid Dynamics CFD) and Python. Once the workflow is fully implemented, then it will be 
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 applied to study the calcination and roasting process at the particle 
+scale under a wide range of scenarios (Design of Experiments, DoE), considering the range of the above-mentioned 
+parameters of the process. The simulations are expected to be highly  computationally demanding because of the 
+complexity of the physics involved (multiphase, reacting, heat transfer flow) and thus the further direct application 
+to the reactor scale will be unfeasible. Hence, the results of this physicochemical simulations at the particle level will 
+be postprocessed using reduced order techniques. The resulting ROMs will be able to predict in real -time the 
+volumetric reaction rate of the ore particle depending on the ore properties and operating conditions, and so, could 
+be later used as a source term of the full thermodynamics IFRK simulations. Regarding the latter, a comprehensive 
+CFD-DEM model will be developed, in which steady-state value of different relevant variables will be evaluated all 
+along the dimension of the equ ipment. These include temperature, pressure, heat losses, emissions, calcination 
+reaction rate and conversion, among others. The model will help to evaluate any change in operating conditions, 
+geometry, raw material specifications or boundary conditions, providing a strong support to design phase by allowing 
+virtual testing. The results will, finally, feed the full-scale process simulations, performed through simulators such as 
+ASPEN, to model the whole process behavior and obtain the optimal design of the kilns.  
+  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 23  
+Digital Twinning of the process towards optimization of the resource efficiency (data -driven models, DSS, UI)  
+In PRIM-ROCK an AI-/data-driven 
+modelling  framework  will 
+ be developed  for  supporting 
+ the monitoring and optimization of 
+the calcination and roasting 
+processes. Given that such 
+techniques may require sufficiently 
+large and rich datasets and may fail 
+to generalize to operating conditions 
+or scenarios that are not 
+representative in the historical data, 
+we will develop data-driven models 
+that can be generalized to possibly 
+unseen scenarios/operating 
+ conditions.   
+This would be achieved by utilizing  Figure 11. Concept of data-driven digital twinning towards DSS.  
+a larger range of data sources, particularly data generated through the physics-based simulation framework developed 
+in the project, or data generated by similar industrial use -cases. Such integration of alternative data sources, often 
+referred to as transfer learning and domain generalization/adaptation, is graphically depicted in Figure 11. The upper 
+(process/data pre-processing layer) layer captures a standard data -based modelling framework, also applied here, 
+comprising data quality/pre-processing and feature engineering/selection techniques. These steps would be sufficient 
+for most AI-/data-driven modelling approaches, such as different types of linear/nonlinear regression models or neural 
+networks. However, as discussed earlier, such models may be sens itive to variations in the configuration of the 
+processes. To this end, we augment this framework with the knowledge-transfer layer  that aims at transferring 
+additional knowledge to the model design through a) alternative data sources (e.g., simulations, s imilar processes), 
+and/or b) model fine -tuning. In the first case, a feature/parameter alignment (or normalization) technique is 
+implemented where features of different sources are transformed to become invariant to the details of the industrial 
+process (e.g., dimensions of the kiln, material properties, etc.). This allows for building up significantly larger datasets 
+for training a model that is robust to such variations in the process details. In the second case of model fine tuning, 
+the trained model can  further be adjusted through either i) additional training in the scenario of interest, or ii) 
+hybrid/ensemble modelling, e.g., via combinations with the physics-based models.  
+  
+Process Control System  
+The process control system builds on MIRA, a Digital Twin Enabler platform developed by MAGG, which embeds 
+the functionalities: 1) to model the digital representation of the industrial process, specifying all relevant involved 
+assets, resources, and data, 2) to execute and monitor the operational aspects, 3) to receive data to measure user 
+defined metrics. The features specific to the process control will be implemented on top of MIRA’s native capabilities 
+to implement the process Digital Twin, following emerging trends for the monitoring of industrial systems over their 
+life cycle in the context of estimation and control 36. Besides modelling the real -life system, the underlying digital 
+twin has the ability to operate in parallel with the real-life system and in an offline setting. The latter enables what-if 
+analyses or investigations relating to different scenarios despite their occurrences. The figures below exemplify some  
+of the possible data customizations.   Associated with document Ref. Ares(2024)6673367 - 20/09/2024 
+  
+1.2.1 PRIM-ROCK methodology  
+The project’s implementation will be carried out in three phases from a technological perspective, while DEC 
+activities are distributed in WPs11-13 and Coordination in WP14.   
+P1 Preparatory & design phase (WP1 -3, M1-18): The starting point of PRIM -ROCK is the consolidation of the 
+project’s technological specifications (T1.1), as well as the exact identification of the end -users’ requirements and 
+needs (T1.2) to establish a rigid framework for the development of the soluti ons until M6. This will be achieved 
+through a detailed analysis of the use -cases involved and the characteristics of each novel process to properly align 
+ 
+36  W. Birk, R. Hostettler, M. Razi, K.Atta, R. Tammia; Automatic generation and updating of process 
+industrial digital twins for estimation  and control - A review; Front. Control Eng., 25 August 2022, Sec. Control and Automation Systems, 
+V olume 3 - 2022 | https://doi.org/10.3389/fcteg.2022.954858  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 24  
+the technological focus and investigate the potential for improvements. The critical parameters will also be identified 
+for the smooth implementation of the monitoring and control systems (T1.3). Safety and security issues will be 
+considered in this phase (T1.4) and the baseline for later efficiency calculations and comparisons will be established 
+by M12 (T1.5). Based on these outputs, detailed multi -physics simulations (both on microscopic and macroscopic 
+levels) will be conducted for processes and compone nts to obtain the optimal design configurations towards 
+increasing the overall resource efficiency (WP2). The project’s digitalisation framework will also be designed during 
+this phase, starting with the overall IoT reference architecture (T3.1) and the design of the sensor network (T3.2), as 
+well as the process control and interfaces (T3.3) until M18.   
+  
+  
+Figure 12. Project phases and associated objectives  
+  
+P2 Intelligence development and prototyping phase (WP4-7, M18-36): The second phase marks the progression 
+from conceptual designs to tangible solutions. Key activities include the development and integration of intelligent 
+systems (WP4) that harness the power of advanced sensor networks, AI algorithms, and data processing capabilities. 
+These systems will undergo rigorous prototyping, aiming to refine the accuracy of real -time material sorting and 
+processing. At the same time the Industry 4.0 framework will be deployed in WP5, featuring integration of automation 
+and control systems (T5.1), data integration and orchestration through the project’s IoT platform (T5.3), data-driven 
+model development aligning with the project’s overarching goal of enhancing resource efficiency (T5.2) and, finally, 
+the integration of process digital twins with the associated decision support systems, interfaces (T5.4) and 3D 
+visualisation attributes (T5.5). The IFRKs will be prototyped in WP6, first at lab scale to produce data (T6. 1), and 
+then following the simulation-driven optimisation of the heating mechanisms (T6.2, T6.3) the pilot-scale prototypes 
+will be delivered (T6.4), as well as the microwave rotary kiln for sulphide roasting (T6.5), the microwaveinduced 
+plasma reactor for  H2 reduction (T6.6) and the heat exchanger for controlled gas cooling (T6.7). A preliminary 
+assessment of the process feasibility from the technoeconomic perspective (T6.7). Once all the components are ready 
+by M28, integration and validation will be carried out by M36 (WP7) in two pilot units: one in Greece (NTUA) and 
+one in Spain (EUT).  
+P3 Demonstration phase (WP8-9, M37-48): During the Demonstration Phase, the focus shifts to demonstrating the 
+developed solutions in relevant environment (T8.1, T8.2), accompanied by the various assessments aimed at 
+validating the potential of the technology (T8.3). Simultaneously, a complete a nd comprehensive assessment of the 
+impact of the PRIM-ROCK solutions will be carried out, including technoeconomic analyses, energy and intensity 
+evaluations and societal and environmental studies (WP9).  
+Greek Pilot unit: H2 Living Lab  
+Pilot activities at TRL 6 will be implemented in a H2 Living Lab, where an ATEX IIC classified area is supervised by 
+a Safety and Protection System (SPS). SPS manages signals are collected from different types of detectors like H 2 
+concentration, infrared flame detectors, pneumatic valves, compression status etc., which automatically activating 
+pre-configured safety procedures in case of alarm. H2 equipment is powered by a smart grid (2 PV plants and 6 wind 
+generators, battery banks) operated through an intelligent energy flow monitoring and control system (54 smart 
+meters and 1.800 monitoring nodes). A massive amount of data fromRES and H2 facilities performance data, will be 
+fed on models to be trained through AI.  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 25  
+The Living Lab will create from the beginning of the 
+project an environment, for a methodical approach 
+focused on PRIM -ROCK technologies.  An electrified 
+20kW rotary kiln will be fed with ore samples and H 2 
+produced from PEM electrolyser, where sulphates and 
+oxides reduction rate will be evaluated towards 
+processing parameters. Pilot trial will provide a data flow 
+for evaluating physicochemical and simulation trained 
+models accuracy. From the operational perspective, real-
+time (online) capacity which ensures  
+maximum  uptime  of  green-H2 
+ production  via   electrolysis or other means, which is a function of RES  Figure 13. H2 living lab 
+infrastructure availability, energy pricing and storage SoC will be also validated. Representative reduced ores 
+samples will be smelted for producing alloys to be characterised as intermediate products. Spanish Pilot unit: 
+EUT premises  
+The Spanish pilot will be implemented in the EUT laboratory located in 
+Barcelona. In the dedicated pilot area the MIP torch system is currently 
+installed, which consists of a microwave head, protection and waveguides 
+to deliver energy at the treatment poin t. The treatment point comprises 
+modified waveguides to accommodate a tubular plasma capsule made of 
+ceramic material, through which the material to be treated circulates. The 
+magnetron and shields are water -cooled, while the plasma capsule is 
+cooled by compressed air. There is the possibility of modifying both the 
+waveguides and the plasma capsule to adapt them to different processes. 
+That requires a brand-new design or modifying the current assembly. The 
+ignition and material feeding are currently manual , but there is ongoing 
+research into the possibility of automation. There are currently two 2 kW, 
+2.45 GHz water -cooled generators and a third on with the same 
+characteristics and power, but air-cooled. A fourth generator, with 1.3 kW 
+power, is currently dedicated to emergency  
+support. Additional equipment is available, such as instrumentation,  
+sensors, and data loggers, as well as equipment for material treatment Figure 14. Two microwaves working for before 
+or after the use in the gas flow (sieve, mill, dust handlers, etc.). hydrogen decomposition from water. The entire 
+system has laboratory-level processing capacity, making  
+industrial-level production not possible without scaling for such purposes. The processing of solid materials (powder) 
+is limited to less than g/min, and the gas processing level is at 1 -3 l/min. However, multiple generators can be 
+combined in series or parallel for specific tests. The system is versatile and can be adapted as required. It allows the 
+generation of plasma from various types of gases (air, CO2, oxygen, helium, argon, nitrogen, hydrogen, etc.) and can 
+work with dusty plasmas.  
+1.2.2  Industrial use-cases  
+IUC#1 – Lime production (FORNACI)  
+ 
+ Organisation description: Fornaci Calce Grigolin has been operating for over 55  years in the production of high-
+quality  lime with the aim of guaranteeing 
+its customers a wide and complete range 
+of products for the use of lime in various 
+sectors with different purposes. The 
+company boasts modern plants with high 
+productivity  and  the 
+ continuous production cycle which, 
+thanks to the use of wood sawdust as fuel, 
+is considered zero impact as regards the 
+Kyoto protocol. Another strategic factor 
+guaranteeing continuity of supply is the 
+high availability  
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 
+
+ 
+101178403 — PRIM-ROCK    Part B, page 26  
+of quarries belonging to the Grigolin group  Figure 15. FORN lime production plant.  
+and own deposits of limestone raw material of high 
+quality and homogeneity.   
+Process description: The raw material to obtain lime is limestone: a sedimentary rock mostly composed of calcium 
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 carbonate that is extracted from special quarries. The limestone, coarsely 
+crushed with a size of a few centimetres, is introduced into special furnaces where it is fired at high temperatures 
+between 800 and 900°C. During this phase, a reaction called "calcination" takes place, which leads to the formation of 
+calcium oxide with the release of carbon dioxide. The product thus obtained, also know as quicklime, takes the form of 
+lumps of various grain sizes, which are then subjected to grinding and sifting. For cement industry an indicative material 
+efficiency values for a raw mill, pyro -processing tower, rotary kiln, is 36%, 37% and 34 45. Hydrated lime (or slaked 
+lime) is obtained through the process of hydration of quicklime. The extinguishing of calcium oxide can take place by 
+stoichiometrically dosing the water, with the formation of po wdered hydrated lime, which in turn can be refined with 
+specific wind separators to obtain micro -lime (or lime flower). When quenching takes place with excess water, Lime 
+Putty is obtained, which undergoes suitable seasoning in special tanks.  
+Objectives: (a) improve the calcination process, (b) RMI to optimize kiln performance by removing unwanted 
+materials in the raw material stream, (c) digitalisation framework through dynamic simulation of calcination process 
+based on feedstock changes, data -driven models for the optimization of operational parameters, Reduced Order 
+Models development and Hybrid Digital Twin of the process.  
+Implementation: Activities at FORN will start by deploying a gateway and all relevant infrastructure for data 
+communication. All data relevant to raw materials will be shared, emphasizing in limestone particles size, as well as 
+those relevant to the calcination process. FORN will also provide specifications on the UI and the expectations for 
+results visualisation. Samples of raw materials will be shipped to partners for characterisation and to develop the 
+digital models. The digital twin of the process will  allow FORN to simulate the calcination performance, including 
+kiln health state (e.g. temperature and pressure distribution), anticipating dangerous situations and removing 
+noncompliant feedstock. Non-compliance can mainly consist of very fine limestone, that creates clogs in the kiln and 
+reduces the air flow, and contamination by other materials, which can generate unwanted situations during 
+calcination. Switching from batch to real -time analysis of fuel may also improve the calcination performance, 
+preventing the plant from feeding contaminants in the kiln.   
+IUC #2 – Magnesite production (TERNAMAG)  
+ Organisation description: TMAG is a magnesite and magnesia producer, member of GEK TERNAMAG GROUP, 
+one of the leading business groups in Greece, with €1.2 billion turnover, over 5,000 employees, presence in 16 
+countries and half a century of market activity. It exploits the world-class magnesite deposits in the northern part of 
+Euboea Island (Greece). Its large volume reserves consist of high -purity, boron-free, low -iron, cryptocrystalline 
+magnesite. TERNAMAG currently boasts a high purity and consistency Caustic Calcined Magnesia (CCM) and Dead 
+Burned Magnesia (DMB) products. Through a state-of-the-art beneficiation, calcination and sintering equipment, it 
+can produce and supply a wide range of products, with MgO content up to 97% and customized grades. Its new 
+stateof-the-art rotary kiln has an annual capacity of 60,000 MT 
+sintered/calcined products. Process description: Beneficiation 
+takes place in situ, including crushing, washing, 
+screening/classification and use of magnetic and optical sorters. 
+Hand picking is also used for the  selection of high purity, special 
+material. For the processing, calcination uses LPG fuel. Tailings are 
+being processed with optical and magnetic separators and equal to 
+1.3 mMT. The low-grade magnesite (most of them fines and ultra-
+fines), is about 45% of the total exploiting  
+magnesite and is treated as mine -wastes, generating considerable  
+resource wastes and causing severe environmental consequences46.  
+Objectives: (a) improve the calcination process, (b) production of 
+very clean CO2, (c) Colour detection for optical sorting, (d) 
+digitalisation framework through dynamic simulation of 
+calcination process based on feedstock changes, data-driven 
+models for the optimization of operational parameters and Digital  
+Twin of the process.   
+
+ 
+101178403 — PRIM-ROCK    Part B, page 27  
+Implementation: IUC#2 will adopt the same implementation Figure 16. Top: TERNAMAG plant for methodology as 
+in IUC#1. Key activity in this case is the pre - magnesite production, Bottom: Rotary kiln for processing of the raw 
+material through the RMI system, utilizing magnesite calcination.  
+deep convolutional models to characterize the content and an actuation system for sorting the apparent magnesite.  
+45 Tianming Gao, Litao Liu, Lei Shen, Fengnan Chen, “Analysis of material flow and consumption in cement production process”, 
+Journal of  Cleaner Production 112 (2016) 553-565, Elsevier, http://dx.doi.org/10.1016/j.jclepro.2015.08.054  
+46 Hao-Yu Zhu, Shu-Wen Shao, Ming -Zhi Guo, Shi -Yi Zhang, Yan Zhang, "Engineering properties and sustainability evaluation of 
+crushed low grade magnesite mortars", Journal of Cleaner Production, V olume 425, 2023, 138979, ISSN 0959 -6526, 
+https://doi.org/10.1016/j.jclepro.2023.138979.  
+  
+IUC#3: Ferronickel production (NTUA) Organisation 
+description: Today, one of the biggest EU nickel producers 
+is operating in Greece, producing approximately 20,000 
+tones of Ni contained in Fe -Ni per year. The process 
+involves roasting reduction up to metallic iron in a Rotary 
+Kiln (R/K) and smelting in an Electric Fur nace. Drying, 
+preheating and prereduction of the metallurgical mixture in 
+rotary kilns, from which one is partially used for calcine or 
+dolomitic lime production (needed for the process).  
+Process description:  The development of the LM process 
+emerged as an alternative to the Krupp-Renn method for  
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 
+Figure 17. DFRK used for Ferronickel roasting  
+processing Greek nickeliferous laterites, which proved ineffective. This novel approach included reducing ore to 
+metallic iron through roasting in a Rotary Kiln (R/K), followed by smelting in an Electric Furnace (E/F). The initial 
+ferronickel output from t he E/F, containing about 15% nickel was further refined to 90 -95% nickel in an oxygen 
+converter, before undergoing electrolysis to produce pure nickel. However, the LM process encountered various 
+challenges and was eventually replaced by a new method invol ved a preliminary reduction in R/Ks, with the 
+subsequent smelting of calcine in E/Fs to produce ferronickel (15% Ni), which was then enriched to 20% Ni using 
+an oxygen converter. Over time, numerous technological advancements have been integrated or tailored to enhance 
+the process, establishing its reliability and competitiveness 47. However, it’s worth to mention that in a new FeNi 
+industry (2017) at Republic of Kosovo, during the stages of crushing and calcination only 28% of Nickel contained 
+is lost48. For FeNi production in Greece, 6,5% of raw material fed in rotary kiln is lost in flue gases49.  
+Objectives: (1) Improve sorting of ores based on elements, concentration and particle size, (2) carry out reduction 
+through roasting in H2 atmosphere, replacing C.  
+Implementation: IUC#3 will adopt the overall methodology with the following changes: The main innovation 
+proposed in this case is the hydrogen reduction of nickeliferous laterite in the IFRK to reduce iron, nickel and cobalt 
+oxides, followed by the concentration of the m etallic iron, nickel and cobalt by magnetic separation of the formed 
+metal phase. Then, on industrial process level (beyond the project) production of refined ferroalloy with high nickel 
+content in SAF. This process will eliminate the use of coal in the re duction process and will produce high nickel 
+content ferroalloy, while simultaneously reducing the energy intensity of intermediate and final products. 
+PRIMROCK exploitation strategy for FeNi production will be supervised by NTUA.  
+IUC#4&5 – ZnS and CuS (KGHM, HEGOLD)  
+Organisation description: KGHM is the main producer of Copper in Poland and a significant player among those 
+controlling the world’s copper reserves. The company's share is estimated at 40 million tonnes of copper in situ.  
+ 
+101178403 — PRIM-ROCK    Part B, page 28  
+HEGOLD produces three concentrates, namely, lead/silver concentrate, zinc concentrate, and 
+gold/pyrite/arsenopyrite concentrate which are sold through 
+Greek ports  
+Process description: The deposit KGHM operates includes 
+three main rock types: sandstone, shale and dolomite. 
+Concentrates at Lubin (23,000t/d), Polkowice (22,000t/d) 
+and Rudna (43,500t/d) use a conventional flotation process 
+to produce 25 –26% copper concentrates. The next st ep 
+includes mixing, averaging and drying of copper 
+concentrates mixture in order to be smelted in flash furnace 
+to produce blister copper (99% Cu). The production of 
+copper in the flash smelting process is accompanied with a  
+large amount of copper-rich slag, which has to be treated with the aim of copper recovery. Copper flash smelting Figure 
+18. Copper facilities of KGHM    
+consists of blowing fine, dried copper sulphide concentrate  
+and silica flux with air, oxygen-enriched air or oxygen blast into a hot (≈1200oC) hearth-type furnace. The furnace is 
+equipped with hydrocarbon fuel burners located concentrically in a reaction shaft. Burners are used to adjust 
+temperature, so that the reaction in the shaft is performed properly, that is, a concentrate smelts at a sp ecified rate. 
+The products of the process are: (a) a molten copper-rich Cu-Fe-S matte, 45-65% Cu, which contains almost all of  
+47 Zevgolis, “The evolution of the Greek Ferronickel production process”   
+48 Zarife Bajraktari-Gashi, Behram Halilaj, “Material balance of the technological process in the new foundry of new ferronikel in Drenas 2017”, 
+Journal of Technology and Exploitation in Mechanical Engineering, V ol. 4, no. 1, pp. 29-35, 2018, ISSN 2451-148X  
+49 Skartados, Konstantinos, “Detailed analysis of laterite pre-reduction in rotary kilns, correlated with overall efficiency at smelting. The LARCO 
+case”, PhD dissertation, National Technical University of Athens, 2000.  
+the copper from the concentrate plus unoxidized Fe and S; (b) a molten slag which contains iron oxide from iron Associated 
+with document Ref. Ares(2024)6673367 - 20/09/2024 
+oxidation plus gangue and flux oxides; (c) an off -gas which contains SO 2 from sulphur oxidation and N 2 from the 
+input blast plus CO 2 and H 2O if supplementary fossil fuel is burnt in the furnace.  In general flash smelting a 
+significant amount of low -grade matte is produced which is an intermediate product of metal sulphides where 
+valuable metals like Ni, Cu, and Co have been enriched. In the traditional smelt route, the low metal mattes are further 
+converter blowing to reduce the iron content and other impurities forming the high-grade mattes like nickel‒copper 
+where almost 70 wt % Co and most part Ni, Cu a re transferred to the converter slag, leading to the massive loss of 
+valuable metals. Furthermore, the environmental issues of the emissions of oxy sulhpide gases in the 
+pyrometallurgical process are inevitably. Consequently, developing an efficient and environmentally friendly method  
+to synchronous extraction of nickel, copper, and cobalt from low‒nickel matte is a highlighted issue 37. During the 
+process a massive amount of residue containing critical metals giving a promising alternative as a secondary raw 
+material. HEGOLD built and commissioned in May 2017 a new selective flotation plant to process fresh ore from 
+underground mineS at a throughput of around 400 ktpa. The company is seeking innovative technologies for direct 
+reduction of sulphide concentrates.  
+Objectives: (a) ZnS and CuS roasting through IFRK and MRK, (b) metal reduction in H 2 atmosphere, (c) H2 
+recovery through the MIP reactor, (d) controlled gas cooling via the heat exchanger, (e) reintroduction of recovered 
+H2 to the roasting process. Implementation: IUC#4&5 will adopt the full methodology of PRIM -ROCK, testing 
+the roasting process through both the IFRK and MRK. Samples will be first pre -processed with the RMI system 
+and subsequently sent to the Spanish pilot unit for roasting. The complete pi lot-line will consist of: IFRK/MRK, 
+MIP reactor and the heat exchanger. The utilization of the recovered H 2 in the roasting process, as well as for e -
+Methanol generation will be investigated.  
+1.2.3 Do No Significant Harm  
+The EU Taxonomy Compass was used to perform a preliminary analysis of the activities with the following assessed 
+to their relevance to the 6 areas of the Taxonomy, education, data processing, hosting and related activities, 
+ 
+37 Sun, Q., Cheng, H., Mei, X. et al. Efficient Synchronous Extraction of Nickel, Copper, and Cobalt from Low–Nickel Matte by Sulfation  
+Roasting‒Water Leaching Process. Sci Rep 10, 9916 (2020). https://doi.org/10.1038/s41598-020-66894-x  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 29  
+programming & consultancy. Substantial contribution and DNSH criteria are adhered to. PRIM -ROCK will 
+contribute to 5 of the 6 areas, through the deployment of green processing technologies. In short, climate change 
+adaptation and mitigation will be improved through the PRIM-ROCK. Likewise, water, pollution and circular  
+economy transition will be addressed through the project.  1.2.4 
+Technical robustness of AI systems  
+In recent years AI projects and applications have increased exponentially, becoming one of the foremost strategic 
+priorities. PRIM-ROCK will ensure the reliability, trustworthiness, technical and social robustness, transparency, as 
+well as resilience of th e AI systems (including classical machine learning, deep learning and distributed learning 
+systems) that will be used based on the following measures: (a) Training, validation, and evaluation of alternative 
+and unbiased AI models to identify and select technically robust models and exhibit the required performance of the 
+tasks at hand. To achieve this, the CRISP-DM (Cross Industry Standard Process for Data Mining) methodology will 
+be implemented, which involves the development and evaluation of multiple models, using an agile, iterative 
+approach. Moreover, Exploratory Data Analysis (EDA) and model analysis will be applied in PRIM -ROCK to 
+identify and mitigate potential biases. (b) Development and use of transparent “white glass” mod els wherever 
+applicable/acceptable and explanation of “black -box” models:  In cases where “white glass” models achieve 
+satisfactory performance, they will be preferred over “black-box” models like deep learning. Nevertheless, when the 
+use of “black-box” models is necessary the project will employ XAI (Explainable Artificial Intelligence) techniques 
+in order to interpret the models and enhance their reliability. (c) Use of Data Efficient AI methods applications where 
+there is a lack of adequate quality data: PRIM-ROCK will leverage data assets from its partners for the development 
+of AI/ML systems. In case whereby the available dataset volumes are insufficient to create high performing AI 
+systems, PRIM-ROCK will employ data efficient techniques such as few sho t learning, model pruning, ensuring 
+acceptable performance with smaller training datasets. (d) Compliance with mandatory regulations (e.g., GDPR), as 
+well as the requirements of the AI act, and the proposal of the European Parliament and Council Proposal f or and 
+AI Regulation: PRIM-ROCK’s AI systems adhere to mandatory frameworks and regulations, such as GDPR, and with 
+emerging AI regulations at the European level. Hence, the AI systems will be thoroughly tested in terms of technical 
+and social performance, particularly in high-risk scenarios.  
+1.2.5 Related R&D&I activities  
+In this section we present some of the research and innovation actions that are relevant to PRIM -ROCK and whose 
+results will feed into the project. The partners involved will build upon the expertise gained in these actions and 
+transfer the knowledge obtai ned. KER1 Raw Material Intelligence system (ICCS, CIBOS)  ICCS draws experience 
+from Wood2wood (GA: 101138789), PLASTICE (GA: 101058540), DiginTraCE (GA: 101091801) and REDOL 
+(GA: 101091668) where  
+ 
+they develop intelligent systems for valorisation of various waste streams. Associated with document Ref. Ares(2024)6673367 - 20/09/2024 
+KER2 Intensification technologies for thermal processing (NTUA, CEIN)  The KER2 team will use knowledge 
+generated in previous projects on thermal processes research and prototyping, such as DESTINY (GA:820783), 
+RemovAL (GA:776469) and ENEXAL (GA: 249710).  
+KER3 Post-processing solutions (EUT, BUL, NTUA)  The KER3 team has expertise in the proposed post -process 
+solutions and will leverage results from VIV ALDI (CSIC), ETEKINA (GA: 768772), DREAM (GA: 723641) and 
+H2SUSBUILD(GA: 214395). KER4 Digital process line optimisation (IRIS, MAGG, ITA, NTUA, CIRCE, BUL, 
+CORE, SCCH, STAM)  The KER4 team has expertise in digitalisation of process industries, with involved partners 
+sharing common past and ongoing activities in AMBIANCE (GA:101058406), METAWA VE (GA:101138476), 
+TRINEFLEX (GA:101058174), COGNIPLANT (GA:869931), CAPRI (GA:870062) and TEAMING.AI (GA: 
+957402).  
+KER5 Technology adoption framework (ADMR, PRINS, EUROC, STAM, UNE, VDU) The KER5 team will leverage 
+experience from DiG_IT (GA:869529), INPERSO (GA:101069820), INN-PRESSME (GA:952972), STREAM-0D 
+(GA:723082), FLEXIndustries (GA:101058453), ECOFACT (GA: 958373), SALEMA (GA: 101003785), 
+BEATLES (GA: 101060645), VOLATILE (GA:720777) and AccelWater (GA: 958266).  
+KER6 PRIM-ROCK demonstrator portfolio (FORN, HEGOLD, TERNAMAG, KGHM, NTUA) FORN has participated 
+in COGNIPLANT, HEGOLD in MultiMiner (GA: 101091374) and NETHELIX (GA: 101092365), TERNAMAG in 
+MASTERMINE (GA:101091895) and TERRA VISION (GA: 101138643), KGHM in illuMINEation (GA:869379) 
+and NetHelix (GA: 101092365). As part of the ex trovert R&I strategy (WP10,11&12), PRIM -ROCK will also 
+interface with SPIRE-SAIS51 to exchange expertise and lessons learned with regards to up/reskilling the European 
+
+ 
+101178403 — PRIM-ROCK    Part B, page 30  
+workforce and engaged target groups. Likewise, through interfacing with H4C -ECOP52 and H4C EUROPE the 
+Consortium will gain valuable experience in establishing H4Cs and their precursors.  
+1.2.6 Interdisciplinarity  
+PRIM-ROCK is an ambitious project aiming for the rapid acceleration of the adoption of breakthrough and smart 
+solutions in the process industry ecosystem. This is an effort that by itself requires the harmonious collaboration of 
+disciplines: applied sciences such as Process Engineering (PE), Computer Sciences (CS) with an emphasis on Data 
+Science, Social Sciences & Humanities ( SSH), Economics ( Eco), Environmental Sciences ( ES) and Physics, 
+Chemistry & Mathematics (PCM).  
+WP  PE  CS  SSH  Eco  ES  PCM  Multi- and inter- disciplinary advances in PRIM-ROCK  
+1  ✓  ✓  ✓  ✓  ✓  ✓  Technological specs, process requirements, safety and baseline for 
+assessments  
+2,3,4  ✓  ✓        ✓  
+Simulations and designs of the prototypes, data reference architecture, 
+monitoring & control design, RMI sensors & control systems, sorting 
+prototype, classification, DSS  
+5,7  ✓  ✓  ✓        Data infrastructure, control network, data-driven modelling, DSS, UI, 3D 
+visualisation, Integrated and validated pilots  
+6  ✓  ✓    ✓  ✓  ✓  ROMs, process simulations, prototyping, feasibility assessment  
+8  ✓  ✓          Demonstrations and technological assessments  
+9      ✓  ✓  ✓    TEA, LCA, LCC, LCSA, health, scaleup, regulations  
+1.2.7 SSH dimension  
+In the modern mission-oriented innovation paradigm, a stronger recognition of non-technological aspects and of the 
+added value of an open innovation processes are key 53. This is due to the multiplicative effect of technological 
+innovation when societal, economic and environmental contexts are considered and ultimately aligned. The project 
+will address these issues on multiple levels: (a) on human resource, skills and lab our market level, the project will 
+carry out targeted training activities to up/reskill European workforce in order to improve the acceptance and safety 
+of new technologies (WP8). (b) Moreover, through cooperation with local and regional education and training 
+providers on the regional/local level (within companies and H4C), bridging with sch ools and universities, and 
+developing new teaching materials, part of the project’s extrovert R&I strategy (T8.1). (c) Finally, the project will 
+deliver tools and resources (LCA models, novel business models, governance approaches, mapping reports and other 
+open access results) to contribute to the development of a common tool database of good examples creating social 
+value, ultimately stimulating both inter- and cross-sectoral transfer of innovations.  
+1.2.8 Gender equality strategy, abiding by the principles of diversity and inclusion  
+To fulfil project objectives, as well as to maximise its impact, it is necessary to specifically consider expectations and 
+needs (incl. skills) of women with regards to the PRIM -ROCK results, since women in industries report a male 
+dominated landscape. In this line, PRIM -ROCK will take care of offering a gender -neutral environment, for both 
+contents and framework. User studies will be carried out on gender-balanced user panels. PRIM-ROCK will develop  
+51 https://www.aspire2050.eu/sais     
+52 https://www.h4c-community.eu/the-h4c-ecop-project/   
+53 https://www.cbe.europa.eu/strategic-research-and-innovation-agenda-sria    
+a Gender Equality Plan supported by the results of a co -designed digital survey, engaging the industrial communities 
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 
+involved with its DC and addressing intersectional and context specific challenges. Rethinking the work environment, 
+endorsing successful past approaches and inventing new practices when necessary and combining dedicated training 
+sessions PRIM-ROCK aspires to set out the overall objectives for integrating an equality and inclusivity culture. 
+Complementarily to that, actions to involve women in results exploitation will be sought, namely promoting women 
+entrepreneurship reaching them through relevant Women i n STEM initiatives. Moreover, women Web 
+entrepreneurship is supported and encouraged with close access to the WeHubs, which connects business ecosystems 
+and provides them with mentoring tools to support women entrepreneurs in the digital sector. Integrating an equality 
+culture on training, rethinking the decision-making process and interventions on the built environment and inventing 
+new practices, will be placed in the core of our activities with established methodologies that adhere to the European 
+Institute for Gender Equality (EIGE) guidelines for gender mainstreaming. Furthermore, PRIM -ROCK will stay 
+informed and get inspired by the newly established EC equality platform for the energy sector. The long-term impact 
+
+ 
+101178403 — PRIM-ROCK    Part B, page 31  
+evoked by the project’s equality strategy and actions can contribute to addressing inequalities in the clean energy 
+transition, a need put forward by the Gender Equality Strategy 2020-202538.  
+1.2.9 Open science management  
+Open science practices (OSPs) are intrinsic to the project methodology. Also, the methodology of PRIM -ROCK 
+aligns with the open access policy of the EU to the greatest extent possible, as well as ensures the protection of the 
+financial interests of all participating parties in the consortium, in compliance with the principle “as open as possible, 
+as closed as necessary”. Moreover, the OSPs will contribute to the quality of research within the project by improving 
+its transparency and traceability taking into consideration the project aspects like gender dimension or workers needs 
+and concerns as part of a responsible and inclusive R&I effort. Within PRIM-ROCK the following set of OSPs will 
+be implemented: Early and open sharing of research: To attain PRIM-ROCK objectives, it is crucial to validate research 
+outputs with stakeholders engaged in the mineral processing industry, key early adopters of the breakthrough 
+innovations. PRIM-ROCK will be careful to engage stakeholders from multiple TGs (see Section 2.1) to co-design 
+and co -create the process innovations for roasting and calcination kiln technologies, and the related pre - and 
+postprocessing. PRIM-ROCK will mobilise an inclusive and participatory approach to effectively involve them in 
+the decision-making processes and other activities over the duration of the project. Moreover, in addition to the OSPs 
+contributing to advance research by enhancing its transparency and traceability, the participatory approach can be 
+critical for fostering op portunities for the necessary long -term commitment of key actors. Providing open access to 
+research outputs: PRIM-ROCK partners are fully committed to ensure open access to peer-reviewed publications that 
+adhere to the terms of the Horizon Europe Grant Agr eement, utilizing specific platforms in compliance with 
+OpenAIRE and community’s preferences and requirements. Publications in Open Research Europe (ORE) will be 
+conducted as well as in several relevant open journals and peer -reviewed publications with a C C-BY license or 
+equivalent licenses.  
+1.2.10 Research data management  
+PRIM-ROCK will handle heterogeneous data along the project lifecycle, aiming to provide open access to the data 
+excluding data for commercial purposes or other legitimate interests of beneficiaries. During the PRIM -ROCK 
+project, several data are utilized a nd are exploited which are related to the specifications of the end -users of the 
+project, the critical process parameters relating to the roasting and calcination kiln technologies and processes, and 
+the related pre- and post-processing, as well as the breakthrough process innovations that are developed and promoted 
+by the project. Different openness levels are established in the PRIM-ROCK project: Open (O), Restricted (RE), and 
+Confidential (CO). Crucial technical data remains confidential within the project duration and accessible exclusively 
+for project partners to protect commercial interests. Additionally, the Data Management Plan (DMP)  will be 
+established to define the specifications of data procedures and will be accessible by stakeholders and the community 
+in the form of database records or spreadsheets. The responsibility for data management lies with all project partners, 
+overseen by the Project Coordinator, and reasonable expenses for data management are provisioned in the budget. 
+PRIM-ROCK is deeply committed to complying with the FAIR principles, according to below: Findability: Research 
+data and outputs will be provided with metadata that can be harvested and identified with Digital Object Identifiers 
+(DOIs). Moreover, generic documentation (publ ications, deliverables) will be easily findable through accessible 
+URLs. Open data sets will be shared and linked on the official website of the project or other websites such as 
+ResearchGate, as well as published in repositories like Zenodo, ensuring compliance with OpenAIRE standards and 
+requirements. Accessibility: Open access of data is ensured using Zenodo open-data repository or similar platform. In 
+PRIM-ROCK, accessible formats are widely utilized and have open specifications. Metadata is aimed to persist even 
+when the data are no longer sustainable, as well as promote long -term digital preservation. Regarding confidential 
+data and IPR, these will be stored in a centralized server repository under the latest available version of the Creative 
+Commons Attribution International Public License (CC BY) or Creative Commons Public Domain Dedication (CC 
+0), where partners will share technical documents and data obtained from the research and testing throughout the 
+project. Interoperability: Interoperability is an important consideration and highly relevant for PRIM-ROCK and will  
+ 
+be adhered to through standards and ontologies. Furthermore, open files formats and MIME media types will be Associated 
+with document Ref. Ares(2024)6673367 - 20/09/2024 prioritized, and instructions will be included to define the ways for opening and 
+ 
+38 https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020DC0152   
+
+ 
+101178403 — PRIM-ROCK    Part B, page 32  
+managing the datasets. Reusability: PRIM-ROCK uses datasets that will be linked to relevant publications to streamline 
+their understanding and reusability. Data and metadata follow standard terms. Moreover, the documentation includes a 
+readme file and will be provided to avoid misuse or misinterpretation and keep integrity of data.  
+  
+  
+  
+  
+#@CON-MET-CM@# #@COM-PLE-CP@#   
+2  Impact    
+#@IMP-ACT-IA@#  
+The key outcome of PRIM -ROCK are two pilot -lines for the resource efficient processing of ores for the cement, 
+mineral and non-ferrous industries. The pathway to impact in the project is divided in two periods. The first concerns 
+the time during and shortly after the project, where the uptake of results from TGs creates short and mid-term effects, 
+i.e., outcomes (described in §2.1.2) – and is projected until 2030, enabled by the DEC strategy (§2.2.1). The second 
+period concerns the timeframe beyond 2030, wh ere meaningful impact is expected thanks to an increased adoption 
+of the PRIM-ROCK ecosystem and individual results in a significant number of replication and transferability cases 
+(§2.1.2). The Key Exploitable Results (KERs) and individual results (R) are shown in Table 5, while market related 
+information (e.g., market size, commercialisation cost) is described in §2.2.2.  
+  
+Stakeholder Target Groups (TGs)  
+Five Stakeholder Target Groups (TGs) have been identified as the main beneficiaries of the results:  
+Table 3 Stakeholder Target Groups involved in the project  
+Stakeholder TGs  Main message and strategy  
+TG1 – Industries: Industrial 
+end-users from the P4P 
+sectors. 
+ Industrial associations  
+ Process flexibility is not only about energy and emissions, but also productivity, efficiency,  
+and resilience. D: Advertising, presentation and highlighting the projects innovations in  
+forums and information channels. E: Agreements for tailored system commissioning, 
+patenting, licensing, sales, SaaS, PaaS. Focus on ROI, payback, GHG savings and 
+supportive tools (finance, planning) C: Industrial association and cluster involvement.  
+TG2 - Technology 
+developers: EU OEMs, 
+process sectors that are  
+SME-centric.  
+ Resource efficiency can be a smart investment, both for providers and end-users.  
+ D: Publication of pilot information, methodologies, results and best practices focused on  
+the available results, commercialisation & manufacturing agreements. E: Licensing, PaaS, 
+service and product models. C: Industrial & SME associations and clusters, promotion of 
+the role of SMEs in process industries and decarbonisation.  
+ TG3  –  Research: 
+Research performers 
+such as universities,  
+research organisations 
+and associations.  
+ Research actors are integral in developing the knowledge to accelerate the adoption of  
+new technologies. D: Publication and presentation of the results, methodologies, datasets  
+and other research outputs to relevant instruments and fora. Availability of open -access  
+results. E: Opportunities for collaborative consultation and expert services for replication 
+purposes. C: Clustering, shared activities with other national and EU supported initiatives. 
+TG4 - Financing & 
+Governance: Local, 
+regional, national and  
+international 
+authorities, public 
+procurement.  
+ Ambitious policies are needed to address challenges posed by politico -economic  
+conditions. PRIM-ROCK will provide evidence-driven conclusions to support decisions,  
+investment, analyse risks and opportunities.  
+ D: Publication of pilot information, methodologies, results, best practices and 
+opportunities. C: Networking, policy briefs, interest representation.  
+TG5 - European society : 
+General public, 
+consumers, workforce,  
+associations.  
+ Greening the industry and the economy leads to more and better employment  
+opportunities and quality of life. D: Advantages resulting from the project’s  
+implementation will be disseminated. Positive effects on quality of life, environmental 
+and economic activity will be highlighted via online material, video, TV segments and 
+interviews. E: Opportunities generated as part of the new business models will be 
+highlighted. C: Engagement activities (e.g., workshops) to improve acceptance.  
+  
+  
+  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 33  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+Barrier analysis  
+Each of the results will be exploited according to the exploitation plan (§2.2.1.4). To assess the adoption potential 
+(via DEC) of the results, the collective experience and sector knowledge of the PRIM-ROCK Consortium is distilled 
+into a barrier analysis, as shown below.   
+  
+Table 5. Barrier analysis of the PRIM-ROCK project  
+ Barriers most relevant to PRIM-ROCK  Means of overcoming barriers  
+High upfront costs required for investment in 
+resource efficient, smart and electrified 
+technologies  
+The Industrial Emissions Directive (IED) covers the largest installations 
+producing raw materials in the EU. This directive requires facilities to adopt 
+the so-called Best Available Techniques (BAT) to obtain the operation permit, 
+which is managed by the c ompetent authorities at a national or sub -national 
+level. Only through an integrated value chain approach can real advances in 
+low carbon technologies be understood, achieved and evaluated on a long 
+term. Using a value chain approach would make it easier t o boost the 
+contribution of existing economic activities, but also to create and develop new 
+more efficient low-carbon activities, through the introduction of new materials 
+and investments. The project promotes a comprehensive capacity to emulate 
+process l ines and run pilots (KER6) producing credible and actionable 
+technoeconomic information (R5.1)  
+Table 4. Results of the PRIM-ROCK project  
+( 
+OA: Open-Access, (R)research Output and other information 
+) 
+  
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 
+ 
+101178403 — PRIM-ROCK    Part B, page 34  
+Process industries are intrinsically conservative 
+and hesitant regarding both data sharing and 
+investment in new and unproven technologies.  
+The raw materials sector is sustainable in a low carbon economy. The potential 
+for growth exists and is compatible with the targets of a low carbon economy. 
+The concept of circularity should be part of process design and operation from 
+the very beginning – big data analytics and cross -sector data integration can 
+achieve this ambitious goal. In the future, innovation, increasing energy -cost 
+and CO2 prices, and investment support schemes might make these measures 
+more financially attractive. Digitalisation ap proach will provide reliable data 
+on configuration performance (KER4), by virtue of digital twins, validated 
+through TEA (R5.1), but also through LCA (R5.3), safety (R5.7) and other 
+aspects (KER5).  
+The accelerated technology development is not 
+accompanied by sufficient capacity building for 
+the EU workforce.  
+The consortium will utilise both research and industrial know how for 
+delivering a comprehensive roadmap and tools for accelerating new 
+technologies adaption. The project will support the adoption of new 
+technologies through capacity building (R5.4), and v isualisations (R4.6) used 
+as training tools.   
+Lack of incentives and standards to drive the 
+market towards resource efficiency  Policy and regulatory report (R5.8)
+2.1 Project’s pathway towards impact  Associated with document Ref. Ares(2024)6673367 - 20/09/2024 
+ Contribution to the expected outcomes and impacts  
+EO1 Achieve a step change in the process industry’s green transformation by improving by at least 30 % the 
+industrial processes resource efficiency compared to the state of the art;  
+The PRIM-ROCK project is focused on achieving breakthrough resource efficiency primarily through improvements 
+in the handling and processing of fine and ultrafine materials. The results contributing to this breakthrough are:  
+  
+Conventional processing: Total losses are estimated according to the calculations of S1 and summarized here: In the 
+pre-processing stage losses in the area of 4-6% are reported. In some cases (e.g., laterite) pelletisation is employed, 
+increasing the resource and energy footprint of the process significantly. In the thermal treatment stage, 5-25% mass 
+loss due to drag is observed as a worst -case scenario. For instance, in the cement industry indicative material 
+efficiency values for rotary kilns and similar units’ range between 34%-37%. Within this share, 6-12% as slag or dam 
+ring formation is accounted for. This brings total losses in the range of 21-30% of initial raw material mass. Moreover, 
+in the case of low‒nickel matte blowing (treatment of intermedia te product of nickel sulphide ore), almost 70wt % 
+Co and most part Ni, Cu are transferred to the converter slag, leading to the massive loss of valuable metals, whereas 
+in the magnesite industry, the low grade magnesite (mostly fines and ultra-fines), is about 45% of the total exploiting 
+magnesite and is treated as mine-wastes, generating considerable resource wastes and causing severe environmental 
+consequences .  
+PRIM-ROCK improvements: Conservative estimations for the pre -processing stage indicate that losses can be 
+reduced to 2-3% at pilot scale (TRL6, project end) and at below 2% at TRL9 (3 years post project). This is due to the 
+integration of classification and sorting to the RMI ( KER1) that are tailored to specific process lines, utilising high 
+fidelity process models (KER4), and well trained DSS. Likewise, for the thermal processing (KER2), the capacity to 
+effectively eliminate losses (below 3% at pilot scale  and below 1.5% in commercial scale), is the main enabler for 
+the breakthrough in process efficiency, but also comes with substantial improvements in productivity, intensity and 
+emissions reduction. Moreover, in IUC3 -5, where (a) C is used as a reducing agent and/or (b) multiple reduction 
+stages are conventionally used, the removal of both elements will enable achieving breakthrough status.   
+Process inefficiencies  Limestone  
+(FORN)  
+Magnesite   
+(TERNAMAG)  
+Laterite   
+(NTUA)  
+ Chalcopyrite  
+(KGHM)  
+Zinc   
+(KGHM, HEGOLD)  
+Production (t/a)  120,000  100,000  20,000  341,000  25,000  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 35  
+Total losses (%)  28%  30%  21%  25%  26%  
+Improvement  32%  36%  20%  30%  31%  
+Considering the production metrics for the end -users of the project, it is observed that in each case, the benchmark 
+of 30% is exceeded with the exception of FeNi. In the FeNi (IUC3) however, the focus is on the direct reduction 
+through H2, that will increase the reduction efficiency from 45% up to 90%, achieving a maximum of 100% in process 
+efficiency, with a more conservative projection around the 60% mark until TRL8 where sufficient training and 
+optimisation data will reach close to the theoretical maximum.   
+EO2 Reduce the CO2 intensity of the process industry and contribute to the climate neutrality goal; and EO3 
+Overall positive environmental and if relevant health and safety impact demonstrated;  
+In terms of emissions, these industries generate over 2.2MtCO 2/a, with up to 0.58MtCO2/a associated with material 
+losses. The following factors will contribute to the reduced emissions: (a) the main contributors are the electrified 
+kilns (IFRK and MRK of KER2), where we project the CO 2 footprint to be reduced by 25-43%, depending on each 
+country’s energy mix, and without considering additional renewables. In the case of Zinc production and mainly for 
+the ISF process, the direct emissions constitute the maj or part. In Europe, the ISF technology has suffered due to 
+higher cost constraints since the early 2000’s, which has led to the closure of almost all these plants. Taking into 
+account the production level of the European zinc plants, the amount of electric energy consumed by those plants and 
+the need for a secured continuous supply of this energy, in-house production from renewable resources such as wind 
+or photovoltaic is not a realistic option58. ISF is a carbothermic reduction process which utilises carbon both as a heat 
+source but also as reducing agent. 40% of roasting and calcination processes CO 2 emissions are related to thermal 
+energy from fossil fuels burning55, which will be minimised by IFRK technology utilising green electricity.  (b) the 
+replacement of C as a reducing agent with sustainable H Associated with document Ref. Ares(2024)6673367 - 20/09/20242 will 
+achieve significant reductions in laterite,  
+chalcopyrite and zinc processing, the case of sulphide ores processing, the amount of hydrogen produced from the 
+generated hydrogen sulphide (H 2S) decomposition is about 60 kg per tonne of contained metal, For Zinc case  the 
+metal produced corresponds to 25,000 t/a and to 73,236 t/a of processed  sulhpides, able to reproduce 4.4 t/a of H 2 
+through the microwave-induced plasma reactor. The annual global production of zinc exceeds 13.5 million tons, with 
+the majority (85%) produced from  sulhpide concentrates, which on theoretical level can correspond to over 22,000 
+tons of H2 if sufficient infrastructure were to be installed.  
+Nonetheless, the sustainable H 2 loop will provide an excellent degree of flexibility to the end -user industries. The 
+mass and energy balance of electrified calcination can reduce CO 2 emissions can reduce more than 20% in relation 
+to a coal -fired calciner 57. Moreover, a hybrid system integrating an electrified calciner with an amine -based CO2 
+capture unit using only internal heat integration can completely decarbonize the cement industry. Thus, PRIM-ROCK 
+will generate substantial savings as shown below, in t otal over 770ktCO 2 per year, assuming commercial scale 
+operation in the 3 pilot lines. It should be noted that carbon credits (assumed at a conservative price of 55€/t) 
+contribute to very substantial savings, totalling almost 80M€. State -of-the-art magnesia production proce sses [61] 
+calculates the unavoidable geogenic CO 2 emissions amount equal to 1.09 tn CO 2 /tn MgO, proposing as the only 
+sustainable perspective for this type of emissions the CCU.  
+Process parameters  
+Limestone  
+(FORN)  
+Magnesite   
+(TERNAMAG)  
+Laterite   
+(NTUA)  
+ Chalcopyrite  
+(KGHM)  
+Zinc   
+(KGHM, HEGOLD) 
+Total  
+  
+CO2eq (tCO2/t)  1.50  4.20  13.40  4.10  3.00    
+Process emissions   178,800 tCO2  421,000 tCO2  116,400 tCO2  1,394,690 tCO2  113,412 tCO2  2,224,302 tCO2  
+Energy consumption  150 GWh/y  311 GWh/y  3200 GWh/y  1125 GWh/y  147 GWh/y  4934 GWh/y  
+Material losses (t/a)  33,600 t/a  30,000 t/a  4,200 t/a  86,955 t/a  9,451 t/a  164,206  
+CO2eq (tCO2)  50064 t/a  126300 t/a  24444 t/a  355646 t/a  29487 t/a  585,941tCO2  
+CO2 intensity (final)  0.943 tCO2  2.406 tCO2  4.382 tCO2  2.756 tCO2  1.976 tCO2    
+CO2 savings (t/y)  65,684  180,429  28,761  454,912  41,595  771,380  
+Carbon savings (€/a)   € 6,221,371    € 13,231,429    € 4,820,139    € 51,687,773    € 3,949,956    € 79,910,667   
+Emissions footprint  37%  43%  25%  33%  37%    
+
+ 
+101178403 — PRIM-ROCK    Part B, page 36  
+Data was collected from Eurostat, ASPIRE roadmap, Statista and sector specific reports for lime 39 , ferronickel40 ,41 , zinc42 , 
+copper43 and magnesite 44,61, as well as data provided by end -users and domain experts in the Consortium. With regards to 
+environmental, health and safety the main effects tiggered are shown below:  
+Relevant result  Human health / safety   Environmental   Uptake by 2030  
+Pre-processing line (R1.2)  Automation reducing accidents  >30% reduction of material 
+discharge due to handling  
+TG1: Adopted by >3  
+EIIs in pilot scale  
+IRFK prototype (R2.5)  Reduction of dust discharge >90%, 
+reducing risk to worker health  
+Process waste reduction by over 
+50% per unit of product  
+TG1: Uptake by >5 
+EIIs in TRL7 scale  Microwave rotary kiln (R2.6)  
+Virtual toolkit (R3.4) and 
+visualization (R4.6)  
+Utilisation for upskilling / reskilling 
+purposes, reducing accidents  
+Projections of process footprint 
+and environmental effects  
+TG1 & TG3: Uptake 
+by >5 stakeholders  
+Societal & environmental impact 
+assessment (R5.2) and 
+Workplace IA (R5.3)  
+Definition of effects and improvement 
+measures to facilitate the safe uptake of  
+new technologies  
+Definition of process and 
+product footprint and mitigation  
+TG1&TG4: Used in 
+decision-making by >8 
+stakeholders  
+OHSE Reports and protocols 
+(R5.6)  
+Definition of process risks and new 
+mitigation measures  
+Mitigation to environmental 
+damage due to mishandling  
+TG1&TG4: Decision 
+making in>4 cases  
+Finally, it should be noted that the improvement in process efficiency will reduce by a corresponding amount the 
+need for primary extraction of raw materials. Moreover, as dust loss during the pre-process and process stages is the 
+main contributor to this effect, there are established protocols dealing with health and safety aspects of these 
+materials, that will be directly impacted by the near elimination of this waste stream, as this dusting not only leads to 
+environmental and health issues but also represents a loss of material, with significant economic implications.   
+  
+EO4 Enable the techno-economic feasibility of novel technologies and processes, demonstrated and validated 
+at suitable scale against current industrial processes to produce the same products and EO5 Enable the 
+increase of the competitiveness and resilience of the European process industry;  
+From a technoeconomic perspective, it is important to consider: (a) the upfront costs (CAPEX), (b) the running costs 
+(OPEX) and (c) the improvements on productivity level.   
+  
+  
+  
+The productivity (t of product/h) is listed for each of the end-users, along with investment projections for the adoption 
+of IFRK in IUC1-5 and MFRK in IUC5 to achieve the same level of productivity. Initial designs show that a capacity 
+of 800kg kiln is co mfortably within design specifications for calcination, whereas for processes requiring H 2, the 
+capacity will be half, at 400kg. Due to the efficient, controllable and optimised heating, staying time in the kiln will 
+be reduced by 80% for the IFRK and by 90% for the MFRK, meaning that the IFRK will process 800kg in 7.5 mins 
+compared to the 3t/h of conventional kilns and the MFRK will process 400kg in 6.5mins compared to the 1.5t/h for 
+reduction processes, a productivity increase ranging between 9 -16%. Nonet heless, this increase comes with 
+substantial investment as the CAPEX for switching to IFRK/MFRK at the current production capacity of plants 
+would range between 2.5M€ for a calcination IFRK and 5.5M€ for a roasting MFRK, plus an additional 1M€ for the 
+plasma treatment. If the investment were to be made, however, the payback period would range between 0.3 to 1.84 
+years, rendering PRIM-ROCK an excellent investment opportunity.   
+ 
+39 https://www.eula.eu/wp-content/uploads/2019/02/A-Competitive-and-Efficient-Lime-Industry-Summary_0.pd  f   
+40 Energy Consumption and Greenhouse Gas Emissions of Nickel Products  
+41 Decarbonising the lime industry: State-of-the-art https://doi.org/10.1016/j.rser.2022.112765  
+42 SECTORAL ROADMAP ZINC 2050 - Eurometaux  
+43 Energy efficiency • Energy intensity in copper and gold mining  
+44 Evaluation of GHG emissions from the production of magnesia https://doi.org/10.1016/j.jclepro.2016.06.118 61 
+The European Magnesite/Magnesia Industry – Euromines 2020  
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 
+ 
+101178403 — PRIM-ROCK    Part B, page 37  
+  
+Regarding resilience, PRIM -ROCK will address this major challenge related to the processing of low -grade ores. 
+Currently, there is no economic value (or the value is negative) in low grade ore bodies and industrial residues until 
+new economic methods are provided to extract them. PRIM -ROCK will enable the utilisation of low-grade fines and 
+ultrafine secondary resources for critical metals production. As already mentioned, Magnesite industry utilises mainly 
+high-grade ores while in parallel low -grade ores a re used for backfilling or treated as wastes. PRIM -ROCK will 
+deliver innovative flexible and efficient production routes able to further enhance magnesium’s strong reducibility 
+for replacing rare metals including titanium, zirconium, beryllium, uranium, and hafnium. With the economy growth 
+and ever-increasing demand for higher living quality, the thirst for magnesium products accelerates the widespread  
+exploitation of magnesite ore. Furthermore, in the case of low‒nickel matte blowing (treatment of intermediate 
+product of nickel sulphide ore), almost 70 wt % Co and most part Ni, Cu are transferred to the converter slag, leading 
+to the massive loss of val uable metals. Consequently, developing an efficient and environmentally friendly method 
+like PRIM-ROCK to synchronous extraction of nickel, copper, and cobalt from low‒nickel matte is a issue.  
+Contribution to expected impacts, scale and significance  
+To assess the scale and significance of the impacts, a brief replication study is carried out.  The projection considers 
+the direct replication (directly available cases such as owned plants, units contracted for management such as 
+services) and indirect replication (client networks and collaborations). The replication potential is significant, due to 
+the high added value of the project for stakeholders, and interest in the technologies developed. For the indirect 
+replication, contacts will be engaged through the Advisory Board. As part of business planning and upscaled studies, 
+the replication potential will be refined, and a more detailed analysis will be presented.   
+  
+The PRIM -ROCK Consortium is well placed to address challenges related to the supply of sustainable and 
+costefficient critical raw materials, with end users from Greece, Italy and Poland. The potential critical metal proven 
+and probable reserves in EU represent significant metal ore quantities, including: (i) 220 million tonnes of low-grade 
+nickeliferous/cobaltiferous laterite resources containing 1.7 Mt Ni and 0.1 Mt Co found in Greece; 70 Mt and the 
+reserves at 26.5 Mt of variable grade copper sulphide ores, also containing nickel, cobalt and PGMs, and representing 
+about 3.5% and 3% of the global resources and reserves, respectively. These are mainly found in Poland, Finland, 
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 
+Bulgaria, Sweden, Spain and Greece and contain 41 Mt Cu.  
+  
+To realise the scale and significance of the impacts, the successful conclusion of the project in 2028 is needed, where 
+a TRL6 pilot line will be deployed. Following 1 year (2029), an upscaled (1/20) prototype will be tested, with a 
+fullscale system commissioned in 2030. Market entry will follow on 2031, where at least 3 full-scale systems will be 
+deployed. From there on, it is a matter of upscaling manufacturing capacity (2032) and achieving the status of an 
+established system in the EU market by 2033, whe re cumulatively 15 process lines will host the full PRIM -ROCK 
+system, with production capacity exceeding 1.8Mt/y, generating savings in excess of 275M€/y and associated 
+emissions averted over 2.3MCO2/y. Notably, these innovations will leverage investments over 50M€/y.   
+Contribution to destination impacts  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 38  
+(a) Global leadership in clean, climate-neutral and resilient industrial value chains, (b) circular economy and climate-
+neutral and human-centric digital systems and infrastructures, through (c) innovative production and manufacturing 
+processes and their digitisation, (d) new business models, sustainable-by-design advanced materials and technologies 
+enabling the switch to decarbonisation in all major emitting industrial sectors, including green digital technologies.  
+PRIM-ROCK will contribute to all four aspects of the destination impact, as well as to the P4P KPIs as shown in 
+Table 6  through: (a) the improvement of resource efficiency through electrification and decarbonisation of EU 
+process industries as detailed in the previous sectors, accompanied by significant cost savings and improvements in 
+productivity, addressed through KERs 1 and 2; (b) a comprehensive strategy and framework for digitalisation coupled 
+with capacity building in KERs 4 and 5; (c) a holistic digitalisation pathway, adaptive to the needs of industrial 
+ecosystems and focused on enabling actors to participate in the twin transition (KER4); (d) All of the above, 
+demonstrating the promise of an integrated strategy to resource efficiency and the adoption of the technologies 
+through KER5 and 6. Through these actions, PRIM-ROCK will contribute to the destination impact, as well as KSOs 
+C,A and D.   
+  
+Contribution to P4P KPIs  
+Table 6. PRIM-ROCK contribution to P4P KPIs  
+   P4P KPIs45 63  PRIM-ROCK Contribution  
+  
+001.- Develop new electrified processes and Energy 
+efficiency, ensuring process flexibility and 
+capturing the full potential of renewable energies  
+Contribution to realizing the 100% total CO 2eq emission reduction potential 
+demonstrated at TRL6 sustainable H2 production (KER3), replacement of fossil 
+fuels through electrification of thermal processes (R2.5 and R2.6), and the virtual 
+toolkit for process scalability (R3.4) that will increase investment in this area, 
+supported by the TEA (R5.1) and business plans (R5.4)  002.- Replace fossil fuels and feedstock by  
+Renewable H2 and biomass in processes  
+003.- Develop new efficient CO/CO 2 Capture and 
+purification technologies  
+Virtual simulation toolkit for enriched CO2 capture and utilisation in e-fuels 
+(R3.4)  
+  
+005.- Design processes for maximum resource 
+efficiency, including the development of materials 
+for circularity  
+Contribution to 80% of Wastes reduction potential at TRL6, demonstrated 
+through multiple sectors and processes (R6.1 -4), especially through vastly 
+improved processing technologies (KER2), replacement of C by H2 for reduction 
+(KER2), elimination of process steps through more efficient reduction (KER2), 
+recovery of H2 for sustainable loops (KER3).   
+006.- Develop new processes for circularity of 
+secondary materials from wastes/residues for all 
+industrial processes  
+0010.- Foster new framework conditions to 
+generate  
+ a market for climate neutral solutions  
+Through the Technology Adoption Framework (KER5), covering 
+technoeconomic aspects (R5.1), LCA, LCSA (R5.2) to OHSE protocols (R5.6) 
+and standards (R5.7)   0011- Foster new skills and types of jobs and business 
+development, including SMEs, through P4Planet 
+programs and H4Cs  
+Over 1000 jobs created in industrial engineering and digital, new skills for 
+equipment operation for operators and high-skilled profiles, with at least 1 
+integrated in specific academic curricula and 1 integrated company training 
+programs.  
+  
+Scientific, Technoeconomic and Societal Impacts  
+Scientific: By 2033, through open access results and the systemic approach to engagement of stakeholders across the value chain, 
+important scientific knowledge will be generated, particularly regarding the affordable and sustainable improvement of building 
+operation. The project will generate at least 32 (FWCI~2) publications and 2 in ORE, a wealth of research data, and extensive 
+capacity building in a pool of over 1000 individuals. These results will propagate into impactful research conducted and 
+knowledge generated, projecting uptake by over 100 research organisations using the open tools and data. The new directions 
+in digital services and systems engineering, but also social sciences and humanities will contribute to >100 jobs created in  
+  
+R&D, mainly towards industrial engineering IoT, AI, ML, energy systems specialists, business/economist experts and social 
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 
+sciences.  PRIM-ROCK will ensure Open Access and be efficient, transparent, and responsive to societal challenges aligned with  
+EC´s goals on Open Science.  
+Societal: By 2033, PRIM-ROCK will have contributed to EU policy priorities & global challenges by contributing to the areas  
+highlighted in Error! Reference source not found. . This will be achieved through the extensive work on non -energy costs, 
+market design and integration, digitalisation, policy, governance, and through continued interactions with local, municipal, 
+national, and international stakeholders. Many of the topics will be related to implementations of the REPowerEU pack age. 
+ 
+45 https://efce.info/3rd+European+Forum+on+New+Technologies/_/2%20-%20Ludo%20Diels%20-%20Process4Planet.pdf 63 
+APPENDIX F Processes4Planet Intervention Logic  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 39  
+Moreover, PRIM-ROCK will contribute to the SDGs by reducing process industry energy demand by over 25% and reducing 
+CO2 emissions by over 30%, averting over 2200kt of CO2. The penetration of renewables will be increased by >30% Over  
+25,000 citizens will have been engaged, with 10% participating in 8 H4C and U-IS with over 30 innovations deployed by 
+SMEs.   
+Economical/Technological: By 2033, the cumulative improvements in resources efficiency, electrification and data-driven  
+technologies will contribute to innovation-based growth by reducing energy costs for SMEs and industries, leading to significant 
+savings but also confidence in the security of supply. Process industry productivity will increase by 10% at least. Based on the 
+PRIM-ROCK business plan (§2.2), we project that over 270 M€ will be generated as revenue for end users and over 1100 jobs 
+will be the effects of PRIM -ROCK actions. Over 50 M€ will be leveraged for electrification and decarbonisation. Progress 
+towards zero accidents will be significant.   
+     
+ 
+101178403 — PRIM-ROCK    Part B, page 40  
+  Associated with document Ref. Ares(2024)6673367 - 20/09/2024
+2.2  Measures to maximize impact – Dissemination, exploitation, and communication  
+ (DEC)   
+#@COM-DIS-VIS-CDV@#  
+ 
+PRIM-ROCK features a comprehensive strategy focused on maximising the uptake, diffusion, deployment and/or 
+use of project’s results by EU stakeholders, achieving the projected outcomes, and triggering the desired impacts. 
+The strategy revolves around the DEC actions of WP9 and will be supported by comprehensive engagement activities 
+(WP8). The strategy evolves to match the project’s maturity, as the perception and needs of the Target Groups (TGs) 
+become more apparent, as shown below. The Plan for Dissemination and Exploitation of Project Results (PEDR) is 
+the main resource describing these activities, prepared by CORE as the Dissemination and Exploitation Manager 
+(DEM). Activities will focus on 6 major stakeholder TGs to ensure the active uptake of results: TG1 Process plant 
+owners, TG2 EU industrial ecosystem, TG3 Research community, TG4 Policy makers and financiers, TG5 Workforce 
+and general public, encompassing 3 phases based on the progress of the project:  
+(a) Early Phase (M01 -18, WP10): This phase is committed on building awareness for PRIM -ROCK, making the 
+project visible and recognisable, sharing its objectives, values, and technological innovations. Visual identity and 
+logotype, templates website and social media accounts are set to establish the PRIM-ROCK brand. Initial awareness 
+is also focused on the mapping of key stakeholders and associated financial instruments that will facilitate uptake. 
+(b) Intermediate Phase (M19 -36, WP11):  This phase will conce ntrate on focused activities such as conference 
+participation, workshop and webinar organisation, publications and other instruments added to the DEC toolset. By 
+now, the design phase of the project has been concluded and its results are available, enhanci ng DEC efforts with 
+tangible substance. Leveraging the momentum from the early phase, this phase is intended to further consolidate 
+awareness and to establish meaningful dialogue on the project’s projected value and continuation, especially with 
+regards to the goals of the P4P. These efforts are bolstered by the targeted engagement of the TGs that will provide 
+rapid feedback for the project’s direction. An advantage of PRIM-ROCK is the high replicability potential (see §2.1) 
+of the DC#s, that also involve a high number of influential stakeholders.   
+(c) Final Phase (M37 -48): This phase will focus on maximizing target market and industry awareness about 
+PRIMROCK’s exploitable results. In this phase, with most results gradually available, stronger interfaces with the 
+policy, governance, standardisation bodies and financiers are  forged, in the form of meetings, sessions and policy 
+briefs. This phase is committed to the project’s continuation and longevity, but also to the realisation of projected 
+impacts. During the final 6 months (WP13), with the participation of the TGs engaged, system upscale planning will 
+be achieved with actual market-based feedback.   
+Dissemination and communication activities and instruments  
+The instruments employed for PRIM-ROCK’s dissemination and communication activities are highlighted below.  
+Instruments and KPIs  Time  TGs  
+Publications: Peer-reviewed, open-access, journals (>20)  12-48  3  
+Dissemination and Communication Plan  
+DEC strategy timeline  
+  
+Figure 19 DEC Phases of PRIM-ROCK  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 41  
+Communication materials : Effective communication with the P4P and wide intensive process 
+industry sector and ecosystem: 2 brochures, 2 posters and 1 rollup (>1000 viewers)  
+6-48  1,2  
+Policy briefs: Policy briefs, reports, white papers, communiques (x2-3)  24-48  1,4  
+Newsletters: 1 every year informing regarding the progress of the project, results, opportunities 
+for participation (>200 recipients each)  
+ 15-48  All  
+Conference participation: Participation in relevant conferences, info days, and other events as Associated with document Ref. 
+Ares(2024)6673367 - 20/09/2024 
+specified in paragraph below this table where PRIM-ROCK will be presented, especially events 
+organized by P4P members and Innovation Clusters (est. >15 events)  
+12-48  All  
+Networking and joint events H2020/HEU projects/ initiatives : Networking activities, technical 
+exchange and dissemination activities will be done with relevant R&I projects.  10-20 interactions, 
+joint work on regulatory frameworks, joint D&C, cluster with P4P projects and link with H4Cs.   
+1-48  All  
+Focus groups / local regional stakeholder workshops: A series of focus groups in each pilot 
+location will be done engaging with general public, addressing stakeholder and citizens 
+perspectives and social acceptance. 1 focus groups/workshops per pilot location  
+12-48  5  
+Information, awareness, open-air activities 3 Information and awareness exhibitions : one per 
+pilot and replication case, 100 recipients per information/awareness exhibition.  
+12-48  5  
+Digital/social media presence/networks Posts on social media (2-4 per month, >500 followers on 
+LinkedIn, and Twitter)  
+30-48  3,5  
+Website A dedicated section of PRIM-ROCK website will be targeted to the research and 
+innovation community, industry and public organisations, also including content targeting schools 
+and universities > 75 visits per month and > 2 monthly updates  
+1-48  3,5  
+Videos: 3 videos to disseminate PRIM-ROCK, mainly through the pilot locations. >3000 viewers   3-48  5  
+Capacity building and skills development: These will be centred around the pilots to ensure that 
+operators are trained on the correct and safe functioning of the PRIM-ROCK technologies.  
+12-48  1,5  
+Open Science KPIs:  Early shared pre-prints/presentations/posters >4; open project repository: 1; 
+Articles in ORE 2; Open research outputs: 3; Publications with Open Data: >2; Open data in the 
+repository: >2; Articles in open peer review: 4; Researchers in open peer-review: 4.  
+18-48  All  
+2.2.1 Exploitation of project’s results and business plan  
+Exploitation, market and IPR management activities will be executed and monitored by dedicated WPs (WP11 -13) 
+aiming to ensure future industrial implementation. PRIM -ROCK is directly in line with (a) the EC “Innovation 
+Radar” which aims to identify and support high potential exploitable results, to represent a pathway to enacting, 
+measuring and accelerating commercial and economic outputs and (b) with retaining competitive IP advantages 
+within EU. All exploitation strategies will be described in the PEDR to be submitted as deliverables in M6, M18, 
+M36 and M48 ensuring coherent business planning and sustainability of financing after the end of the project. 
+Opportunities for further funding possibilities including EU, national and regional funding programmes (w ithin 
+Europe) will be mapped, and synergies will be investigated.  
+Business plan: Commercial exploitation of the PRIM -ROCK offering is projected to begin in 2031. Every result is 
+primarily oriented to the wider industry engineering market, but also features significant potential in secondary 
+markets, that are referred. PRIM -ROCK features 30 results, where all will feature different levels of commercial 
+exploitation. For a more robust projection, the analysis is focused on the project’s KERs.  
+KER1 - Raw Material Intelligence system : KER1 provides a complete system for the classification, analysis, 
+preprocessing and segregation of raw materials according to process parameters. It has three main components: RM 
+monitoring and control systems (R1.1), the Pre -processing line (R1.2) and th e RMI DSS (R1.3). It will be 
+commercialised by ICCS and CIBOS as the main beneficiaries. The relevant markets are sensor -based sorting 
+machines for the mining market sector, standing at 110 M€ in 2022 and projected t o reach 250M€ in 2031 46 . 
+Exploitation will be product (hardware) and service-based through sales or leasing, at 1M€/unit at TRL9.   
+KER2 - Intensification technologies for thermal processing : ΚΕΡ2 is comprised of R2.1 Molecular & 
+Physicochemical models, R2.2 Thermophysical models, R2.3 Reduced order models, R2.4 Process models, R2.5 
+ 
+46 Transparency markets, Yahoo Finance, GMI  
+65 
+Credence research  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 42  
+IRFK prototypes, R2.6 Microwave rotary kiln and the R2.7 Control system. NTUA and CEIN will exploit the 
+prototypes and the other partners likewise their results. The global market stands at over 800M€, with 60% in Asia 
+and 17% in the EU 65. The exploitation model will again be product and service based, with licensing and 
+manufacturing agreements with OEMs, at a price of 2,5M€ for a 800kg capacity unit (or 400kg with H2 at 3.5M€).   
+KER3 - Post-processing solutions: KER3 is comprised of different solutions, with R3.1 Multi-physics model of the 
+plasma reactor (EUT) and R3.2 MI -Plasma reactor for H2 recovery (EUT) supported by R3.3 Gas cooling heat 
+exchanger (BUL) and a R3.4 Virtual toolkit (CORE) dealing with the virt ual post -process of CCUS and e -fuel 
+generation. The main market all of these solutions are oriented towards EEIs, a €19.8b market according to the SRIA. 
+Commercialisation will be both product and service based, with tailored systems commissioned at 1M€/unit.  KER4 
+- Digital process-line optimisation: KER4 delivers a scalable and adaptable process for the digitalisation of process 
+industries, and their optimisation. It is comprised of R4.1 Monitoring configuration design (IRIS), R4.2 Data 
+orchestration (CORE), R4.3 AI-based data driven optimisation (SCCH), R4.4 Optimisation DSS & UI (SCCH) and 
+R4.5 Digital Twin development methodology (CORE). The corresponding digital services market is surging at 
+1.5Tn€. Exploitation will be service or product as a service based with a 100,000€ sales price with subscription. KER5 
+- Technology adoption framework : KER5 will deliver a holistic service to support decision -making, investment 
+and operation of project technologies. It is comprised of R5.1 Technoeconomic & energy footprint  
+ 
+assessment (ADMR), R5.2 Societal & environmental impacts (PRINS), R5.3 Workplace Impact Assessment Associated with 
+document Ref. Ares(2024)6673367 - 20/09/2024 
+(EUROC), R5.4 Business plan (STAM), R5.5 Standardisation reports (UNE), R5.6 OHSE Reports and protocols 
+(EUROC), R5.7 Policy and regulatory report (VDU). KER5 is relevant to the consultation market, that exceeds 
+100b€, with technical consulting at ~20%. Exploitation will be service based.  
+KER6 - PRIM-ROCK demonstrator portfolio: KER6 will be used as the whole system product offering, addressed to 
+the process industries, a €19.8b market according to the SRIA.  
+Financial projections: The prospects for the commercialisation of PRIM -ROCK were projected until 2033. By 2031, 
+we expect the project to achieve market readiness, as the project will conclude in Q4 2028. In brief, the opportunity 
+is financially attractive and likely to deliver substantial returns on the investment over the forecasted period. By the 
+end of the 4th year, the cumulative profit stands at €162M, which is a substantial sum, especially considering the 
+initial investment of €10M and commercializati on costs of additional €35M, implying that not only the initial 
+investment is recovered within the four -year period, but also sizeable profit is generated. The table indicates 
+aggressive sales growth year -over-year, with substantial increases in both sales  and profit. The final market share 
+percentages are very low, which suggests that even with the growth, PRIME -ROCK is operating in a large market 
+with considerable expansion potential. Finally, with a new job created for every €120k in sales, over 1360 jobs will 
+be created. The project is well -positioned to offer lucrative returns, while the cumulative profit indicates healthy 
+growth potential. However, it is essential to note that these projections are contingent upon successful execution of 
+StreamSTEP and the realization of the forecasted sales.   
+  
+  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 43  
+2.2.2 Project results and management of intellectual property  
+Project methodology and results will be published, but products and models developed will be evaluated by an IPR 
+committee within the Project Consortium to evaluate any harm to property rights. Regarding Intellectual Property 
+(IP) rules, at proposal stage the fundamental aspects in relation to Background IP, Foreground, Results Ownership, 
+Exploitation strategies and Access Rights have been discussed to ensure the necessary IP framework is understood 
+and robust. During the preparation and signing of Consort ium Agreement the partners will update/confirm their 
+background IP and create an IP baseline. PRIM-ROCK will follow the IPR Management Guidelines from the proposal 
+stage right through to the end of the project and IPR issues will be further elaborated and agreed during the negotiation 
+of the Grant Agreement (GA). Moreover, during project implementation, the Consortium will take address IPR issues 
+and market uptake, as part of the GA sessions. Consortium Agreement (CA):  IP issues will be covered in the CA 
+that will be drawn up based on the DESCA model. All consortium partners will agree and sign acceptance of the CA 
+prior to the signature of the GA. The maintenance of the status of result ownership and rules accessing bac kground 
+knowledge vital to the successful completion and exploitation of the project results by each beneficiary are addressed 
+in WP10-12. Background IP: The Background knowledge of the partners is identified at proposal stage and updated 
+prior to the writing of the CA. Background IPR will remain the property of the Originator Company or organisation. 
+However, where needed, during the period of the project, all background knowledge necessary for carrying out the 
+project will be available for use by any other partner of the consortium, with access rights being granted royalty-free 
+by the owning partner. For post-project exploitation, needed access will be once again granted by the owning partner, 
+either royalty-free or by charging a license fee under reasonab le terms, thereby promoting collaboration and the 
+advancements of the research and innovation employing NDAs as needed. Patents and Knowledge Sharing:  The 
+novel results of the project that are eligible for patenting will be actioned as soon as possible. In cases of joint 
+inventions, the ownership will be shared in accordance with a notified agreement. A framework for access rights for 
+jointly conducted research will also be reported in the DECP. Other IPR tools, such Associated with document Ref. 
+Ares(2024)6673367 - 20/09/2024 
+as trademarks, copyrights, utility models etc. will also be actively assessed for the different aspects of novel 
+innovation, e.g. trademarks will be considered for individual components for branding and commercialization 
+purposes in other industries by the DEM in consultation with the consortium partners. #§COM-DIS-VIS-CDV§#
+2.3 Summary   Associated with document Ref. Ares(2024)6673367 - 20/09/20 24 
+Target groups and needs  Results  DEC Measures  Outcomes (by 2031)  Impacts (by 2033)  
+
+ 
+ 
+TG1 – Industries: Industrial end -users 
+from the P4P sectors. Industrial 
+associations. They are the main 
+beneficiaries of the project’s results. They 
+need to improve the resource efficiency, 
+productivity and resilience of the EIIs. They 
+also need access to new tools and resources 
+to support technological innovation.  
+TG2 - Technology developers: EU OEMs, 
+process sectors that are SME -centric. They 
+need to scale up their operations, expand 
+networks, clients and business, improve 
+resilience and innovate.   
+TG3 – Research: Research performers such 
+as universities, research organisations and 
+associations. The research community needs 
+access to new tools and knowledge, 
+operational data and insights provided 
+directly by the industry and society.   
+TG4 - Financing & Governance : Local, 
+regional, national and international. They 
+need access to clear and actionable 
+information on a high level, particularly 
+with regards to technoeconomic areas, risk 
+of investment, environmental and societal 
+impacts, feedback on policies and 
+regulations.  
+TG5 - European society : General public, 
+consumers, workforce, associations. They 
+need to improve their quality of life through 
+more and better paying jobs, reduced 
+pollution and more resilient societies.   
+ KER1 - Raw Material Intelligence system:   
+ R1.1 RM monitoring and control systems, R1.2 Pre 
+processing line, R1.3 RMI DSS   
+ KER2 - Intensification technologies for thermal  
+processing: R2.1 Molecular & Physicochemical  
+models (ITA), R2.2 Thermophysical models  
+(NTUA), R2.3 Reduced order models (ITA)  
+R2.4 Process models (NTUA), R2.5 IRFK prototype  
+(NTUA), R2.6 Microwave rotary kiln (CEIN), R2.7  
+Control system (MAGG)  
+ KER3 - Post-processing solutions: R3.1 Multi 
+physics model of the plasma reactor (EUT), R3.2 
+MIPlasma reactor for H2 recovery (EUT), R3.3 Gas  
+cooling heat exchanger (BUL)  
+ R3.4 Virtual toolkit (CORE)  
+ KER4 - Digital process line optimisation:  
+ R4.1 Monitoring configuration design (IRIS), R4.2 
+ Data orchestration (CORE), R4.3 AI-based data 
+driven optimisation (SCCH), R4.4 Optimisation DSS  
+& UI (SCCH), R4.5 Digital Twin development  
+methodology (CORE),   
+ 3D Visualisation of process line  
+ KER5 - Technology adoption framework:   
+ R5.1 Technoeconomic & energy footprint  
+assessment (ADMR), R5.2 Societal & environmental  
+impacts (PRINS), R5.3 Workplace Impact 
+Assessment (EUROC), R5.4 Business plan (STAM),  
+R5.5 Standardisation reports (UNE), R5.6 OHSE  
+Reports and protocols (EUROC), R5.7 Policy and  
+regulatory report (VDU)  
+ KER6 - PRIM-ROCK demonstrator portfolio:  
+R6.1 IUC1 Limestone processing (FORN)  
+R6.2 IUC2 Laterite processing (NTUA for Greek 
+FeNi production)  
+R6.3 IUC3 Magnesite processing (TERNAMAG) 
+R6.4 IUC4Zinc processing (KGHM)  
+R6.5 IUC5 Chalcopyrite processing (KGHM)  
+Dissemination: Product 
+/service showcasing and 
+exhibitions, wider energy  
+sector related events,  
+conferences, fairs, scientific  
+publications, technical 
+workshops, meetings with  
+policy makers, technical  
+factsheets, videos. Oriented 
+towards all TGs.  
+Communication:  
+Workshops, interviews,  
+surveys, physical -online 
+communities, collaboration 
+with EU R&I initiatives and 
+energy communities,  
+organisations and  
+partnerships, information  
+awareness, website, forums,  
+networking.  
+Exploitation: Know -how and 
+IP protection, openaccess, 
+licensing, product as a  
+service, replication strategy,  
+introduction into existing  
+service portfolios, packaging,  
+establishment of sales  
+networks, franchising. Smart  
+contracts, shared savings, 
+CO2 tax valorisa tion. 
+Measures apply to all results 
+according to the tables in 2.1.  
+  
+• Adoption of 
+project’s main  result by at 
+least 3 process  industries in 
+operational  scale.   
+• Digitalisation 
+framework  and optimisation 
+applied in  at least 10 plants 
+(mineral,  non -ferrous, 
+cement, ferrous  sectors)  
+• Reduction of losses 
+in raw material handling by 
+over  50%, RMI system 
+adopted  by >3  
+• Reduction of losses 
+in  process stage by over 80%,  
+Electrified Rotating Kiln 
+ (IFRK/MRK) uptake by >5 
+ EIIs in pilot scale  
+• Virtual toolkit used 
+by >5 stakeholders to reduce 
+the  risk of CCUS, TEA 
+applied in >5 industries for 
+process 
+ upgrade  
+• Investment of at 
+least 20M  in upscaling, 
+KER5 used by  at least 12 
+plant owners /  operators  
+  
+  
+   
+• 32 (FWCI~2) publications and 
+2 in  ORE,   
+• Extensive capacity building in a 
+pool of over 1000 individuals.   
+• Uptake by over 100 research  
+organisations using the open tools and  
+data.   
+• The new directions in digital 
+services and systems engineering, but 
+also  social sciences and humanities will  
+contribute to >100 jobs created in R&D 
+• Moreover, PRIM -ROCK will 
+contribute to the SDGs by reducing  
+process industry energy demand by  over 
+25%   
+• and reducing CO2 emissions by 
+over  30%, averting over 2200kt of CO2.   
+• The penetration of renewables 
+will be  increased by >30%   
+• Over 25,000 citizens will have 
+been  engaged.  
+• Process industry productivity 
+will increase by 10% at least.   
+• Over 270M€ will be generated 
+as  revenue for end users and over   
+• 1100 jobs will be the effects of 
+PRIMROCK actions.   
+• Over 50M€ will be leveraged 
+for electrification and decarbonisation.   
+• Progress towards zero accidents 
+will be significant.  
+#§IMP-ACT-IA§#  
+ 
+ 
+101178403 — PRIM-ROCK    Part B, page 39  
+ 
+101178403 — PRIM-ROCK    Part B, page 47  
+  
+  
+3  Quality and efficiency of the implementations  Associated with document Ref. Ares(2024)6673367 - 
+20/09/2024 
+#@QUA-LIT-QL@# #@WRK-PLA-WP@#
+3.1  Work plan and resources  
+  
+Figure 20. WP structure (pert-like)  
+
+ 
+101178403 — PRIM-ROCK    Part B, page 48  
+  
+  
+Figure 21. PRIM-ROCK’s Gantt  
+#§QUA-LIT-QL§# #§WRK-PLA-WP§#   Associated with document Ref. Ares(2024)6673367 - 20/09/2024
+3.2  Capacity of participants and consortium as a whole   
+#@CON-SOR-CS@# #@PRJ-MGT-PM@# Matching 
+of project objectives  
+PRIM-ROCK gathers an inter - and trans-disciplinary 
+Consortium composed of 22 partners from 8 countries, 
+7 Member States (Spain, Greece, Belgium, Italy, 
+Austria, Poland, Lithuania), as well as United 
+Kingdom. The Consortium features 7 SMEs (CORE, 
+IRIS, STAM , ADMR, PRINS, EUROC, CIBOS), 
+along with 6 RTDs (EUT, ICCS, CIRCE, ITA, SCCH, 
+CEIN) and 3 universities (NTUA, BUL, VDU). 
+Moreover, 1 Standardisation Body (UNE), and 5 Large  
+Enterprises  (MAGG,  FORN,  HEGOLD,  
+TERNAMAG, KGHM) round out the partnership. The 
+cohesive  team  of  partners  has 
+been  created  
+considering: a) balanced complementary expertise and capacity, with clear roles and results; b) geographical 
+differentiation adhering to the requirements of the call with regards to pilots but also replicability of results; c) 
+
+ 
+101178403 — PRIM-ROCK    Part B, page 49  
+  
+previous experience, proven expertise and motivation, for an effective and efficient management and execution of 
+the project; d) good representation and involvement of stakeholder Target Groups; e) P4P partnership involvement  
+and f) Newcomers to EU funded research.  3.2.1 
+Access to critical infrastructure  
+Have been described in 1.2.2. All the partners have the infrastructure to carry out development and piloting work.   
+3.2.2 Description of partners and corresponding roles  
+All partners will participate in 
+WP1 and its activities, in WP8 
+and WP9 for demonstrations and 
+technology adoption framework 
+consolidation,  respectively, 
+ as well as WP10-12 for DEC 
+actions and  WP13  with 
+ regards  to reporting as  part 
+ of project management.  
+#1  NTUA  is  the 
+ project’s Coordinator.  They 
+ consolidate technical specs in 
+T1.1, conduct physicochemical 
+modelling of the IFRK for 
+calcination in T2.3, lead WP6 by 
+optimising IFRKs design  
+in T6.3 and construct the prototypes in T6.1 and T6.4, validate them in T7.2, and leads the demonstration WP8 by 
+assessing the technologies in T8.5.  
+#2 CORE is an EL SME. They undertake data -driven optimization of the roasting process via IFRK and MRK in 
+T5.2, lead T5.4 where the process DSS and UI will be developed and conduct the scale-up & expansion study in T9.5. 
+They also lead the CDE WPs (WP10,11,12), overseeing the communication and dissemination activities.  
+#3 EUT is an ES RTD, responsible for conducting the simulations and design of the MIP reactor in T2.5, as well as 
+its prototyping in T6.6 for the recovery of H2. They also lead WP7, undertaking the integration of the prototypes in 
+the pilot units in T7.1 and the validation of the ES pilot in T7.3.  
+#4 ICCS is an EL RTD. They consolidate end-users’ requirements in T1.2 and are responsible for the RMI system. 
+Particularly, they design the system in T2.2 and lead WP4, where they develop the monitoring and control systems 
+for the RMI (T4.1), develop the sorting  prototype in T4.2, the classification DSS in T4.3 and the crushing size 
+identification system in T4.4.  
+#5 CIRCE is an ES RTD. CIRCE leads the simulation and design WP2, where they lead the analysis of the material 
+flow in T2.1, as well as T2.3 conducting the thermophysical simulations of the IFRK and develop the ROMs in T6.2. 
+#6 ITA is an ES technology center. ITA leads T2.5 by conducting the physicochemical modelling of the IFRK for 
+roasting, as well as T6.2 where they develop the associated ROMs.  
+#7 SCCH is an A T RTD. They lead the efforts for the data-driven calcination process optimisation in T5.2 and develop 
+the associated DSS and UI in T5.4.  
+#8 BUL is a UK university, leading the development of a heat exchanger prototype for the controlled cooling of H2 
+and S gasses in T6.7, based on the designs of WP2. Moreover, BUL carries out the thermophysical modelling of the 
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 
+IFRK for the roasting process in T2.4.  
+#9 CEIN is an ES technology provider SME. CEIN leads the design of the MRK for the sulphides roasting process 
+in T2.5 and manufactures the prototype in T6.5.  
+#10 IRIS  is an ES RTD, which leverages their expertise in monitoring and sensor networks, as well as on the 
+associated data integration. IRIS leads T1.3, T3.1 and T3.2, developing the foundation of the digital framework. Then, 
+in T5.3 IRIS integrates the middleware, that is refined in WP7 and demonstrated in WP8.   
+#11 STAM is an IT consulting SME. STAM leads the 3D visualisation of the digital twins in T5.5 and support the 
+integration of industrial IoT sensors in the FORN case for operational data collection. They are also the project’s 
+Exploitation Manager (WP10,11,12).  
+#12 ADMR is an EL SME and the main responsible for the coordination of the technology adoption framework, 
+supporting the individual assessments and other activities. ADMR leads T1.5 and T6.8, coordinating these activities, 
+as well as WP9 and the associated TEA task (T9.1).   
+
+ 
+101178403 — PRIM-ROCK    Part B, page 50  
+  
+#13 PRINS is an EL SME, experts in LCA, LCC and LCSA. They leverage their knowledge leading T9.2.  
+#14 EUROC is a BE SME and the project’s expert on health and safety. They lead T1.4, T9.3 and T9.4, as well as 
+provide support in WPs6, 7 and 8.  
+#15 MAGG is an IT LE and experts in control systems and automation. MAGG leads WP3 and T3.3 designing the 
+control system and interface, develops the system in T5.1, implement in WP7 and demonstrate in WP8.  
+#16 CIBOS is an EL SME. They lead the development and implementation of the RMI-DSS in T4.3.  
+#20 VDU is a LT university, responsible for the legislative monitoring (T9.6) and ethics management (T13.3).  
+#21 UNE is an ES Standardisation Body and will address the standardisation aspects of the project in WPs 10 -12.  
+End users: FORN, TERNAMAG, HEGOLD, FeNi Greek producers (through NTUA) and KGHM will have a 
+similar participation profile. Their role will be to (a) providing requirements, parameters and support for the design 
+of process technologies that will emulate conditions relevant to industrial production. In the case of FORN, STAM 
+will support data collection, in the case of TERNAMAG, sample analysis will also be carried out onsite; (b) Sending 
+raw material samples to the pilot unit for comparative assessment of the process performance.  #§CON-SOR-CS§# #§PRJ-
+MGT-PM§#   
+4  Ethics self-assessment  
+  
+Ethical dimension of the objectives, methodology and likely impact  
+PRIM-ROCK is focused on improving the calcination and roasting processes, thanks to a holistic approach centred 
+around groundbreaking process intensification (PI) and digital technologies. The Consortium commits to upholding 
+the highest ethical standards for research, as delineated in the European Code of Conduct for Research Integrity of 
+ALLEA and ESF, to observe and promote the principles of integrity in scientific and scholarly research. These 
+principles include honesty in communication, reliability in p erforming research, objectivity, impartiality and 
+independence, openness and accessibility, the duty of care, and fairness in providing references. For the 
+Consortium, it is of the utmost importance that ethical issues are appropriately addressed from the outset of the 
+project. To facilitate the practical application of ethical and legal principles the EC has identified key issues that 
+could arise during project's development.   
+PRIM-ROCK entails the collection of meaningful data, with a view to producing insights that will successfully 
+inform the project's activities, enabling evidence-based results. The Consortium is aware and committed to the EU 
+and national legislation regardi ng data protection and data ethics. A Data Management Plan (DMP) will be 
+formulated from the early stages of the project and updated when deemed necessary. It will describe the complete 
+data management life cycle of the data to be collected, processed and/ or generated by the project and will lay out 
+the approach for their sound and FAIR management. All data referring to user groups participating in the demo 
+cases and other project activities (e.g., interviews, surveys, workshops, etc.) will be managed according to specific 
+terms that will be detailed in the DMP, protecting the data subjects' rights and freedoms. All information related to 
+project results and data exchanged in the project will be treated as confidential, thereby providing a first line of 
+protection and security.  
+Artificial Intelligence: The consortium places significant importance on ethics and AI and will take all the necessary 
+steps to ensure that the development, training, and integration of AI is inclusive, explainable, has a positive purpose 
+and use data responsibly. Task 13.4 will cover data lifecycle aspects as well as data governance through the delivery 
+of the DMP and its updates during the project lifetime.  
+Compliance with ethical principles and relevant legislations  
+NTUA, as the project's Coordinator and in close collaboration with the project's Steering Committee will establish 
+the required governance systems to constantly monitor the progress of the project from its legal, ethical, and  
+ 
+101178403 — PRIM-ROCK    Part B, page 51  
+  
+societal dimensions and will record risks identified, mitigation suggestions, and actions taken, regularly reporting 
+Associated with document Ref. Ares(2024)6673367 - 20/09/2024 to the PO and the EC via its multi -version deliverables as described in 
+the implementation plan (Section 3). PRIM -ROCK will comply with data protection acts, directives, and opinions, 
+both at European and at National level. These include:  
+ -  The Convention for the Protection of Human Rights and Fundamental Freedoms, especially its arts. 7 and  
+8.  
+- The Charter of Fundamental Rights of the EU, specifically the article concerning the protection of personal 
+data.  
+- Directive 95/46/EC of the European Parliament and the Council of 24 October 1995 on the protection of 
+individuals with regard to the processing of personal data and on the free movement within the EU/ EEA of 
+such data to be replaced in May 2018 by Regulati on 679/2016 (the General Data Protection Regulation). - 
+Directive 2002/58/EC of 12 July 2002 concerning the processing of personal data and the protection of privacy 
+in the electronic communications sector (Directive on privacy and electronic communicati ons) [2002] OJ 
+L201/37, as modified by the Citizens Rights Directive.  
+- The opinions of the European Group on Ethics in Science and New Technologies in their report Citizens 
+Rights and New Technologies: A European Challenge on the Charter on Fundamental Rights related to 
+technological innovation.  
+- In particular recommendations related to ICT concerning data protection and individuals freedom and 
+autonomy applicable national data protection legislation.  
+- As regards processing personal electronic data, protecting privacy in the electronic communications sector 
+and retaining data generated or processed in connection with the provision of publicly available electronic 
+communications services or of public communications networks (e.g. cloud, big data, open data, cookies 
+etc.),  
+ -  PRIM-ROCK will comply with the relevant legislation:  
+- EU Directive 2002/58/EC of the European Parliament and of the Council of 12 July 2002 concerning the 
+processing of personal data and the protection of privacy in the electronic communications sector 
+(Directive on privacy and electronic communications).  
+- EU Directive 2006/24/EC of 15 March 2006 on the retention of data generated or processed in connection 
+with the provision of publicly available electronic communications services or of public communications 
+networks.  
+Artificial Intelligence: PRIM -ROCK will pay attention to ethical issues related to the way the developed AI 
+operates, in terms of Bias elements caused by model, system, or process inconsistencies. The system will be 
+designed and assessed in a way that ensu res compliance with the recent EU's draft AI Act, the OECD's 
+recommendations on AI, and the Council of Europe's report on the human rights dimensions of Algorithms.

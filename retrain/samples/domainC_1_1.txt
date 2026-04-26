@@ -1,0 +1,54 @@
+=== Domain C: hyperspectral imaging for automated plastic waste sorting in circular economy facilities ===
+=== Section 1_1: Objectives and ambition ===
+
+1.1.3 Objectives and ambition 
+The main objective of the INCUBIS project is to develop a reliable, flexible, and cost-effective plastic sorting solution based on hyperspectral imaging for automated plastic waste sorting in circular economy facilities. The INCUBIS project is structured into the following scientific and technical objectives:  
+•	Design and development of a hyperspectral imaging system (WP1) 
+•	Design and development of a flexible sorting system (WP2) 
+•	Development of sorting algorithms (WP3) 
+•	Integration, testing, and validation of the sorting solution (WP4) 
+•	Project management (WP5)   
+1.1.3.1 S&T objectives  
+Objective 1: Design and development of a hyperspectral imaging system (WP1) 
+Our first objective is to design and develop a hyperspectral imaging system based on the spectral range of 1000-1700 nm, taking advantage of the NIR spectral range. We will develop a new hyperspectral imaging camera based on InGaAs technology with the following specifications:  
+- Spectral range 1000-1700 nm,  
+- Spectral resolution 10-12 nm  
+- Speed 500 fps  
+- Spatial resolution 640x512 px  
+- Frame rate 500 fps,  
+- We will design and develop a light source optimized to the camera spectral range.  
+- We will develop an optimized electronic interface electronics for the designed hyperspectral imaging camera and light source.  
+- We will develop an image processing pipeline to optimize the image quality and reduce the data amount.  
+- We will develop a hyperspectral camera enclosure with an integrated cooling system.  
+- We will develop a hyperspectral imaging system to be used for plastic sorting.  
+- We will identify, characterize, and create a database of the spectral signature for the most common plastics to be sorted, including black plastics.  
+- We will develop a calibration procedure to be implemented in the final sorting solution.  
+Objective 2: Design and development of a flexible sorting system (WP2) 
+Our second objective is to design and develop a flexible sorting system capable of operating on different waste types and with a throughput of 1 t/h for the sorting of plastic fractions. We will develop the sorting system, including the following tasks:  
+- Design and development of a conveyor system with integrated hyperspectral imaging system for the sorting of plastic packaging waste.  
+- Design and development of a conveyor system with integrated hyperspectral imaging system for the sorting of automotive shredder residue fractions.  
+- Design and development of a conveyor system with integrated hyperspectral imaging system for the sorting of building and demolition waste.  
+- Design and development of a conveyor system with integrated hyperspectral imaging system for the sorting of electrical and electronic waste.  
+- Design and development of a conveyor system with integrated hyperspectral imaging system for the sorting of other waste types.  
+- Design and development of a mechanical system for the sorting of different plastic fractions.  
+- Design and development of a pneumatic system for the sorting of different plastic fractions.  
+- Development of an open software and hardware system for the control and operation of the sorting system.  
+Objective 3: Development of sorting algorithms (WP3) 
+Our third objective is to develop robust and flexible sorting algorithms integrated into the software system for the operation and control of the sorting system. We will develop sorting algorithms for different waste types based on the following tasks:  
+- Development of a spectral data processing algorithm.  
+- Development of a classification algorithm for the sorting of plastic packaging waste.  
+- Development of a classification algorithm for the sorting of automotive shredder residue fractions.  
+- Development of a classification algorithm for the sorting of building and demolition waste.  
+- Development of a classification algorithm for the sorting of electrical and electronic waste.  
+- Development of a classification algorithm for the sorting of other waste types.  
+- Development of a software system for the operation and control of the sorting system.  
+Objective 4: Integration, testing, and validation of the sorting solution (WP4) 
+Our fourth objective is to integrate, test, and validate the sorting solution for the sorting of plastic packaging waste and automotive shredder residue fractions. We will integrate, test, and validate the sorting solution based on the following tasks:  
+- Integration of the hyperspectral imaging system and sorting system for the sorting of plastic packaging waste.  
+- Integration of the hyperspectral imaging system and sorting system for the sorting of automotive shredder residue fractions.  
+- Testing of the sorting solution for the sorting of plastic packaging waste.  
+- Testing of the sorting solution for the sorting of automotive shredder residue fractions.  
+- Validation of the sorting solution for the sorting of plastic packaging waste.  
+- Validation of the sorting solution for the sorting of automotive shredder residue fractions.  
+1.1.3.2 Innovation and ambition  
+The INCUBIS project will develop a new hyperspectral imaging camera based on InGaAs technology

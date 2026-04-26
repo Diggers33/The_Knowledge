@@ -1,0 +1,622 @@
+1.4 Ambition 
+(i) Sensor Based Specification (SBS) and Tracer Based Sorting (TBS) – mainly related to WP2 work 
+State-of-the-Art (SoA) and drawbacks:  SoA sorting of packaging uses SBS and relies mainly on the detection of 
+different near -infrared (NIR) absorption bands of the  main polymers such as PE, PP, PS, PET and subsequent 
+separation by air nozzles bars. However, NIR sorting cannot reliably differentiate between different polymer grades 
+of the same type, e.g. food grade PE and non- food PE. In both cases the absorption of PE would give the same 
+response. Furthermore, state of the art sorters do not identify (and sort) different materials present in multi-layer films 
+or packaging containing metalised or carbon black pigments. In the MultiCycle project18 IRIS proposes Hyperspectral 
+Imaging (HSI) in different spectral ranges for detection of  MLC and solutions like Laser Induced Breakdown 
+Spectroscopy (LIBS) for black polymers or the identification of aluminum, AlOx or SiOx. 
+SoA research options to provide sorting by pre-defined fractions include TBS (Fig 4) and Watermark based optical 
+sorting. Watermark recognition relies on picture recognition, precise colour and geometric pattern measurement of 
+the artwork of a packaging article. However, industrial waste sorting means that the packaging articles to be sorted 
+are dirty, dusty, deformed, folded and small, so that the recognition of a specific watermark is uncertain 19. TBS in 
+contrast, uses robust fluorescent sorting tracers that are printed on packaging items and emit an unidirectional signal 
+as soon as the packaging article is moving through laser light. Past R&D of POLY and KIT has proven the feasibility 
+to synthesize suitable inorganic fluorescent materials with different emission spectra which can be comb ined to 
+provide a sorting code system. In addition, the detection and sorting technology development of POLY has shown 
+that both, article and flake sorting by tracers are efficient sorting concepts. As the TBS sorting principle is positive, 
+i.e. tracer mar king indicates pushing into the sorted fraction, resulting purities of ejected items is high (>95%). 
+Furthermore, POLY and KIT have started to develop new fluorescent tracer materials that allow the use of existing 
+NIR sorting machines 20,21. 
+Step beyond SoA: CIRCULAR FoodPack (CFP) will adjust the high potential of the above mentioned innovative 
+sorting concepts to the needs of circular food pack approach, including (i) the increase of target polymers in sorted 
+fractions, (ii) separation of specific components of the flexible packaging waste hampering recycling processes and 
+- with a strong focus – (iii) separation of non-food from food packaging items which is considered as a “door opener” 
+to enable a reuse of PCR in food packaging. As a bridge technology for current non- tracer-marked waste, SBS will 
+enable to detect and monitor different types of packaging films including MLP (multi-layer packaging) and will gain 
+in-line information on the polymer composition of a waste stream. Data analytics based on chemometrics and 
+machine learning will be applied to allow the identification of materials under real-time industrial conditions that are 
+currently not identified by the use  of standard chemometrics (Fig 5). This makes use of the current findings that 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+16 V. V. Iakshmi, D. Aparanjini Niharika, G. Lahari, IOSR J.Business and Management (IOSR-JBM), Volume 19, Issue 8. Ver. V. (August 2017), PP 33-36  
+17 Vivien Procher, University of Wuppertal and RWI; Colin Vance, RWI and Jacob University Bremen, Ruhr Economic Papers #393 
+18 H2020 MULTICYCLE Advanced and sustainable recycling processes and value chains for plastic-based multi-materials (SPIRE 820695) 
+19 https://us.pg.com/blogs/HolyGrail/ called on 31.01.2020. 
+20 A.Turshatov, er al. (2018), Opt. of up-conversion photonic markers based on a La2O3 host for plastics recycling and anti-counterfeiting applications 2018. 
+21 B.S. Richards (2020) Applications of up-conversion: from PV to plastic recycling and anti-counterfeiting, Invited seminar at Univ. Aarhus, Denmark, 2020. 
+Fig 4. Scheme of marking and sorting process with the TBS “complete” concept 
+ 
+
+ 
+[101003806] [CIRCULAR FoodPack] - Part B  [Page 19 of 100] 
+Circular packaging for direct food contact applications 
+Research & Innovation Action addressing CE-SC5-24-2020 
+appropriate sensors can distinguish between PE films, PE based MLP and other flexible packaging items, e.g. PP 
+monofilms or PP MLP. This in-line monitoring helps identifying those sorting streams that are highly qualified for 
+downstream PE recovery due to high shares of PE and PE multi -layers. In such a way SBS selects suitable film 
+fractions for the CIRCULAR FoodPack recycling technologies and will enable production of pure P E fractions for 
+new flexible personal care packaging.   
+In CIRCULAR FoodPack, TBS will step beyond state-of-the-art by (i) increasing the number of sorting codes by 
+further R&D in both tracer materials and detection technology; (ii)  development and validation of efficient tracers 
+for TBS sorting in NIR sorting machines and within the NIR spectrum; (iii) transfer tracer integration via print onto 
+food packaging enabling removal of tracers by deinking; (iv) optimization of an existing sorting machine platform  
+for handling of flexible food packaging articles. The tracer development will include synthesis i.e. of chemically -
+stable oxide -based fluorescent tracers co -doped with lanthanide ions. As material specifications for food -grade 
+packaging plastic are more strict than for other plastics, it is considered a crucial first step to already eliminate non-
+food compliant materials . Within CIRCULAR FoodPack, the tracers will be dispersed in a light -colored or w hite 
+printing ink and applied onto the outer packaging layer. Thus, strongly fluorescent, printable, chemically-stable and 
+non-toxic markers detectable via existing NIR sorting machines are required. The inks used will be tailor -designed 
+to deinking and delamination, to guarantee the high efficient removal of the tracer during the recycling step, and to 
+guarantee that there is no remaining 
+marker residue in PCRs from the 
+previous tracers, PCRs will be 
+subjected to migration analysis.  
+In more detail, the amount of light 
+absorbed by existing tracers will be 
+enhanced by increasing the range of 
+wavelengths absorbed such that the 
+brightness of the downshifting 
+phosphor emission in the NIR goes up. 
+Ideally this is performed in a way that 
+the light source in the NIR machine or 
+a bank of LEDs can be used ( i.e. no 
+lasers required) (Fig 6). It is 
+furthermore foreseen to enhance the 
+number of unique NIR emission wavelengths, finally providing a “NIR palette” of emission wavelengths. That 
+will increase the number of targets (whether polymer types, specific ML structures, food vs non- food use) that can 
+be marked. The number of individual emission wavelengths targeted is 5 (Fig 6c), which assuming combination of 
+markers (25-1) would allow 31 combinations of these emission signatures. The novel markers will be based on the 
+following emitters: Yb 3+, Ho3+, Pr3+, Tm3+ and Er3+. In addition the host material of markers will be optimised in 
+order to increase the quantum yield of th e NIR emission. A range of host materials will be investigated to fulfil 
+the criteria as phonon energy, solubility and size control (to ensure compatibility with printing processes). The latter 
+relates strongly to a tailoring of synthesis pathways including solid-state reaction method, sol-gel synthesis, and co-
+precipitation methods.  
+ 
+Fig 6. (a) Absorption spectra of Nd 3+, Yb 3+ 
+and Cr3+ ions. When three ions are mixed in 
+one host , the energy transfer Cr 3+ 
+→Nd3+→Yb3+ is expected; (b)  Emission 
+spectra of excitation sources used in the 
+project. Yb3+ can be excited with 980 nm laser, 
+Nd3+ with 810 nm laser, Cr 3+ and Nd3+ with 
+white light emitted diode (LED); (c) excitation 
+of Cr 3+ or Nd 3+ results in NIR emission of 
+Yb3+, Nd 3+, Ho 3+, Pr 3+, Er 3+, Tm 3+ due to 
+energy transfer. As luminescence peaks are 
+well resolved, delivery up to 6 different 
+markers is feasible, Nd3+ however will not be 
+considered due to a slight overlap. 
+ 
+Innovation potential: While the marking system is being developed Sensor -Based-Specification (SBS) will be 
+considered as charactersiation tool for packaging items not yet marked to recycle materials for non-food applications, 
+with a high potential for implementation in industrial sorting lines . TBS will contribute to the  circularity of food 
+packaging and provide cost -efficient sorting solutions for packaging items according to pre- defined criteria. This 
+enables positive sorting of food-grade plastics and/or the separation of MLC films with of specific MLC structures.  
+ 
+Fig 5. Data elaboration of multi-layers materials identified with IRIS technologies 
+ 
+
+ 
+[101003806] [CIRCULAR FoodPack] - Part B  [Page 20 of 100] 
+Circular packaging for direct food contact applications 
+Research & Innovation Action addressing CE-SC5-24-2020 
+(ii) Recycling of Flexible Packaging including Multi-layer Materials – mainly related to WP3 work 
+SoA and drawbacks: State-of-the-art treatment of waste packaging separates bulk waste stream into defined fractions 
+using a multi -stage concept that combines mechanical units (sieve drums, hoppers,..) with magnetic, eddy -current 
+and optical sorters for separation of glass, metals, aluminum and different plastics. Rigid plastics are separated by 
+NIR targeting at PE, PP, PS and PET streams departed from flexible packaging, which are in turn divided in a fraction 
+of large pieces (>200 mmx300 mm) and a fraction of smaller items. The flexible streams are usually not sorted very 
+efficiently by polymer type and contain PE and PP mono films and – with a majority in the fraction of smaller items 
+– MLC films. Subsequent treatment of flexible plastics comprise shredding, post -sorting, washing, drying and re -
+compounding steps with or without melt filtration22. As a result, recycled polymers with a purity of around 90% (in 
+terms of polymers) and significant amounts of NIAS and IAS are produced, including odourous volatiles, which can 
+be used in best case in applications such as garbage bags. 23 A particular problem of post -consumer plastic films is 
+the presence of odourous constituents. Such odourous constituents typically have a broad diversity in terms of origin 
+and chemical properties. Furthermore, they are typically not only found on the outer surface, but are also adsorbed 
+deep into the polymer, which make them hard to remove24. Despite the broad chemical variety of odour components, 
+currently implemented washing processes in recycling plants are mainly based on cold or hot water, with or without 
+addition of caustic soda and detergents. These washing media are effecti ve to remove visible dirt and organic 
+contamination present on the plastics, but they are not able to efficiently remove all odour  components, especially 
+since these components typically have a broad range of chemical properties. Both Fraunhofer, as well as UGENT 
+have elaborated analytical procedures to identify odourous constituents and quantify odour removal25, 26, 27.  
+Furthermore, the mix of colors present in flexible packaging waste results typically in production of grey or brown 
+recyclates for dark applications, often by adding carbon black to the recyclate. These properties hinder the reuse in 
+high value applications and lead to downcycling to low quality products. More sophisticated process cascades use 
+sink/float or optical sorting processes to further refine and/or color-sort initial fractions or apply stripping processes 
+at elevated temperatures, e.g. in compounding processes.28 These measures improve qualities partly, and especially 
+also are still difficult for film fractions. Even if sorted, (odourous) NIAS are still present and a loss of mechanical 
+properties is observed. Interest in deinking and delamination procedures is growing rapidly, although the industrial 
+application of effective deinking procedures is limited, or even does not exist, for post-consumer waste. In general a 
+distinction can be made between water/detergent based deinking, as proposed for example by Cadel Deinking 29. 
+Other approaches such as the NOREC process propose solvents such as ethyl acetate30. Recently UGENT developed 
+and patented a deinking procedure as well. Similarly, delamination of multi -layer films can be achieved by 
+withdrawing the adhesive that is used to attach two layers by using a specific solvent31. The use of acids (e.g., acetic 
+acid, propionic acid, formic acid,  butanoic acid) to delaminate is already relatively widely described in scientific 
+literature32. Other endeavours have attempted delamination based on water, with e.g. acetone, or acids 33. However, 
+again implementation at larger scale is limited.  At the moment, there is very little generic insight in which type of 
+delamination and deinking procedures work on which kind of laminate and ink structure, and especially in the reasons 
+why and how these procedures work or don’t work on a plastic film mixture. Simila rly, liquid (solvent) based 
+technologies have been developed in the past years. They enable a separation of multi -layer films either by 
+dissolution/weakening of low volume intermediate layers (e.g. adhesives) or by physically dissolving major layers 
+(e.g. LDPE), with the latter being more effective in cleaning the target polymer. This is due to the effect that 
+delamination separates laminate structures by weakening the adhesive power, but cannot clean adhesives from the 
+substrate completely as most adhesives are duroplasts and do not dissolve. In contrast, dissolution of the target 
+polymer (e.g. LDPE) allows separation of non- target materials (pigments, adhesives, metals) from the dissolved 
+polymer based on solid/liquid and liquid/liquid separation processes . Such a solvent -based polymer recycling 
+technology (CreaSolv®) has been implemented at semi -industrial scale in Indonesia for the recovery of polyolefins 
+from multi-layers, however at a quality level not sufficient for food grade packaging 34. In other rese arch projects 
+CreaSolv® proofed its ability to effectively elimiante NIAS (e.g. brominated dibenzofurans) and IAS like brominated 
+flame retardants from plastics in electronic waste.35 
+Step beyond SoA:  CIRCULAR FoodPack intends to implement purification unit operations in mechanical and 
+solvent based recycling process cascades that enable in total a sufficient reduction of contaminants present in EoL 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+22 K. Ragaert et al., Waste Management 69 (2017) 24-58  
+23 Strangl M. et al. Journal of Cleaner Production 181 (2018) 599-607 
+24 A. Cabanes, et al., A review on VOCs from recycled plastics, Sustain. Mater. Technol. (2020). 
+25 M. Strangl, et al., Charac. of odourous contaminants in pc plastic packaging waste, J. Sep. Sci. (2017).  
+26 M. Strangl, E. Ortner, T. Fell, T. Ginzinger, A. Buettner, Odour characterization along the recycling process of pc plastic film fractions, J. Clean. Prod. (2020. 
+27 R. Demets, et al, Dev. and app. of an analy. method to quantify odour removal in plastic waste recyc. proces., Resour. Conserv. Recycl. 161 (2020) 104907. 
+28 Strangl M. et al,  Resources, Conservation and Recycling 146 (2019) 89-97 
+29 http://cadeldeinking.com/en/, patent EP2832459B1 
+30 https://www.norec-info.com/en/ patent DE4122277A1 
+31 Horodytska, O., Valdés, F. J. & Fullana, A. Plastic flexible films waste management – A state of art review. Waste Management 77, 413–425 (2018). 
+32 Kaiser et al., Recycling 3 (2018) 1-26. 
+33 Example patent nrs: DE 4122705, WO 9304116, EP 599905 , US20040054018A1 
+34 https://www.unilever.com/news/news-and-features/Feature-article/2018/our-solution-for-recycling-plastic-sachets-takes-another-step-forward.html 
+35 Schlummer et al. (2006). Waste Management & Research 24:573-583.  
+ 
+[101003806] [CIRCULAR FoodPack] - Part B  [Page 21 of 100] 
+Circular packaging for direct food contact applications 
+Research & Innovation Action addressing CE-SC5-24-2020 
+packaging plastic, such as NIAS and IAS including printing inks and tracer compounds of TBS concepts (see above) 
+technologies, with innovative purification methods.  
+Related to deodourization , a 
+method of KREYEN  is proposed, 
+which relies on a  highly effective 
+energy transfer system earlier 
+applied in food processing. The 
+process is split up in two phases: 
+First the material is moved through 
+Infrared Dryer (IRD). After this 
+process, the material is moved into 
+a silo, where it is continuously 
+flushed by hot gas (Fig 7 left). The IRD heats up the product in very short times to the necessary temperatures. In 
+this case, temperatures near to the melting point are reached. The infrared technology heats up the material from the 
+inner to the outer surface (Fig 7 middle). Because of this, a partial pressure difference occurs that 
+brings the odours very quick from the inside to the outside. This ensures a quick diffusion of the 
+Volatile Organic Componds (VOC)’s from the Material to the surrounding atmosphere. Due to the 
+continuous movement of the material, the surface area is exchanged frequently in the rotating drum 
+(Fig 7 right). This accelerates the odour removing, because each particle of the material is brought 
+very close to its melting point, accelerating the odour removal.  
+Related to deinking, an innovative deinking technology of UGent (Fig 8) is proposed36. This is the 
+first deinking method able to remove all types of inks, including UV crosslinked inks. Within the 
+project, the UGENT method and existing deinking methods based on detergents and solvents are 
+applied on a set known and unknown samples, which will deliver insight for the first time towards 
+design for deinking guidelines. This allows to adjust printing inks of SIEGWERK to be applied on 
+the PCR products. Also, the delamination and deinking is explored as pretreatment towards 
+CreaSolv®. Potentially robust and cost-effective deinking and delamination can already clean up to 
+a large extent a w hole set of NIAS, even without having the ambition to achieve at that point a 
+100% deinking efficiency. Furthermore, the existing CreaSolv® Technology will be upgraded by a 
+shortly patented cleaning device that improves the elimination of gel droplets (cross- linked PE) 
+and smallest particles from the polymer solution and reduces critical NIAS and IAS from the polymer.  
+Innovation potential:  Two post -sorting pr ocesses, namely deinking and deodour ization will be implemented in 
+existing mechanical treatment cascades and produce pre-cleaned flakes that are for the first time subjected to solvent-
+based recycling (CreaSolv ®) due to its share of MLC. The integrated new purification unit will further reduce 
+deteriorating materials, including gel droplets or volatile and non-volatile NIAS and IAS. These new brick stones in 
+the process concept will boost the current quality level of recycled polymers to a high -purity grade that is intended 
+to comply with food grade specifications. 
+ 
+(iii) Assessment of f ood packaging safety based on effective functional barriers for PCRs’ contaminants – 
+mainly related to WP4 work 
+SoA and drawbacks: For all recyclates in direct food contact, compliance of the recycled materials has to be shown 
+according to the Recycling Regulation (EC) No 282/2008. This compliance evaluation is based on three main parts: 
+(i) the input contamination levels of the recyclates, (ii) the cleaning efficiency of the applied recycling process and 
+(iii) the exposure of potential hazardous substances to the consumer. The latter is based on the application of the food 
+contact material (mainly depending on types of contacting food, filling and storage conditions), resulting in a specific 
+exposure scenario. Part (i)  and (ii) however, are not fixed and can be approached by the applied recycling 
+technologies. Reduced input contamination and increased cleaning efficiency of the recycling process will 
+significantly improve the quality of the recyclates and will highly contribute t o the safety of the recycled polymers 
+and their re -usability. In contrast to PET (where closed loop recycling from bottle to bottle is well established in 
+Europe), recycled polyolefins from post -consumer (pc) origin cannot be used in direct food applications as these 
+recyclates currently do not meet the safety levels and regulatory demands applying to food contact materials. Up to 
+now, none of the recycling processes for pc polyolefins that were evaluated by the European Food Safety Authority 
+(EFSA) were compliant to the set safety criteria37, required to re-use the material in its original direct food contact 
+application (‘closed loop’)38. To date, such recycled plastic materials may only be used behind a functional barrier 
+layer, which must ensure that migration of any contaminants will remain below the levels of toxicological concern 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+36 EP 20167745 Method for deinking plastic material 
+37 EFSA Panel on food contact materials, enzymes, flavourings and processing aids (CEF); Scientific Opinion on the criteria to be used for safety evaluation of 
+a mechanical recycling process to produce recycled PET intended to be used for manufacture of materials and articles in contact with food. EFSA Journal 2011 
+38 EFSA CEF Panel (Food Contact Materials, Flavourings and Processing Aids), 2015. Scientific Opinion on the safety  assessment of the processes ‘Biffa 
+Polymers’ and ‘CLRrHDPE’ used to recycle high-density PE bottles for use as food contact material. EFSA Journal 2015;13(2):4016, 25 pp.  
+Fig 8. Deinking 
+(UGENT) 
+ 
+Fig 7. Deodourization (KREYEN): Silo, the material heated up by IRD, rotating drum 
+ 
+[101003806] [CIRCULAR FoodPack] - Part B  [Page 22 of 100] 
+Circular packaging for direct food contact applications 
+Research & Innovation Action addressing CE-SC5-24-2020 
+during the lifetime of the packaged good. Such levels, e.g. 0.15 µg/kg food required for (potent ially present) 
+genotoxic substances, as described by EFSA39,40 can hardly be established using analytical-instrumental techniques. 
+For the migration evaluation, the tool of mathematical migration modelling is established to predict transfer of 
+molecules from  packaging items into packed food 41. Implementing Fick’s Law together with molecules and 
+packaging material properties, modelled transfer rates reflect experimental migration data with reliable precision. 
+Therefore, migration modelling has been accepted as a powerful tool in assessing risks of human packaging related 
+dietary exposure towards contaminants42. The modelling approach is also considered to be a suitable and powerful 
+tool for assessing the performance of functional barriers, but has not yet been widely applied for this purpose. 
+Step beyond the SoA:  CIRCULAR FoodPack will address the food safety issues of new packaging designs by (i) 
+applying well -defined (TBS and SBS sorted) input streams. (ii) Furthermore, improved sorting and cleaning 
+procedures need to support this goal. However, due to the physic o-chemical properties of polyolefins as high - 
+diffusive polymers, migration of substance from the polyolefins into contacting 
+food is by nature rather high; Regulation (EU) No 10/2011 defines stringent 
+migration threshold limits for NIAS of 10 µg/kg food for chemicals that are not 
+classified as mutagenic, carcinogenic or toxic to reproduction and of 0.15 µg/kg 
+food for genotoxic compounds. Therefore, (iii) highly effective barrier solutions 
+need to be applied in order to reduce contamination down to levels below of 
+any toxicological concern. Performance of such highly effective functional 
+barrier concepts will be evaluated within the project using experimental set-ups 
+such as migration, permeation and lag time experiments. For the assessment of 
+migration bar rier properties and effectivness, modell laminates with an 
+intentionally contaminated PE layer and different barrier options will be used. 
+One model structure is presented in Fig 9, showing a PE film spiked with 
+representative model contaminants, laminated to the functional barrier coated film. These analytical methods will be 
+combined with advanced mathematical migration modelling approaches. As a result, maximal acceptable 
+contaminant levels can be calculated for PCR plastics for given barrier materials, barrier thicknesses and storage 
+conditions (temperature and time). Thus, migration modelling will substantially support and guide the development 
+of the food contact materials with PCR content. As a decision and design tool , it well recommend s maximum 
+contaminant levels in PCR (as a benchmark in recycling) and  a suitable barrier concept. Based on Fraunhofer’s 
+experience on migration and compliance assessments, including petitioning to US -FDA and EFSA for regulatory 
+approval processes on food contact materia ls, food safe design concepts will be integrated. R ecommendations and 
+guidelines will be established for the assessment of the performance of functional barrier layers related to the intended 
+food application, which shall support both food packaging indust ry to fulfil the safety demands as well as the risk 
+assessor (EFSA) and risk manager (EU Commission) to establish safe procedures for the use of pc polyolefins. 
+Innovation potential: CIRCULAR FoodPack addresses the main challenges related to the use of PE PCRs in food 
+grade packaging that currently prevent their re -use in such applications. Accepted methodologies will quantify the 
+food safety benefits of TBS sorting (sort food grade packaging only), of the improved purifying concept in the 
+recycling cascade and of the functional barrier concepts developed in the new packaging designs. Migration 
+modelling will define maximum acceptable levels of NIAS and thus deduct high percentages of purified PCR 
+materials in such new food packaging items. Based on specific migration data for demonstrators built in this project, 
+test methods will demonstrate that food safety concerns are not to be expected.  
+ 
+(iv) Implementation of Circularity into Food Packaging Value Chain – mainly related to WP5 and WP6 work 
+SoA and drawbacks: A typical plastic-plastic multi-layer composite (MLC) structure consists of LDPE applied as a 
+sealing layer, PA or PET for mechanical strength and printing, and (Ethylene vinyl alcohol) EVOH layer (~ 5 µm) 
+as oxygen barrier. Depending on the application and compatibility of the different materials seven or more layers are 
+implemented in a single composite film. Such highly complex and non- recyclable MLC films are subject to 
+progressively increasing EPR fees and general taxes as legislation is becoming more stringent. Some (new) structures 
+are however entering the market that strictly speaking are recyclable, but in fact are not recycled back into food grade 
+packaging materials as these are not sorted in mechanical recycling processes. It is necess ary to design flexible 
+packaging films suitable for collection, sorting and recycling after use to create a circular economy for flexible 
+packaging. Polyolefin based consumer flexible packaging makes up the largest proportion of pc flexible packaging 
+waste-stream (70-80%) and the ability to sort and mechanically recycle polyethylene (PE) is already proven in 
+industrial scale in Europe. Current developments by DOW and Borealis at K-Fair 2019 showed that mono-PE films 
+for stand-up pouches can be produced through the combination of monodirectionally oriented PE films combined 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+39 EFSA CEF Panel (Food Contact Materials, Enzymes, Flavourings and Processing Aids) , 2016. Scientific opinion on recent developments in the risk 
+assessment of chemicals in food and their potential impact on the safety assessment of substances used in food contact materials. EFSA Journal 2016;14(1):4357. 
+40 EFSA (European Food Safety Authority) and WHO (World Health Organization), 2016. Review of the Threshold of Toxicological Concern (TTC) approach 
+and development of new TTC decision tree. EFSA supporting publication 2016: EN-1006. 50 pp. 
+41 E.J. Hoekstra, et al. Practical guidelines on the application of migration modelling for the estimation of specific migration; EUR 27529 EN; doi:10.2788/04517 
+42 Welle, F. A new method for the prediction of diffusion coefficients in poly(ethylene terephthalate). J. Appl. Polym. Sci. 2012, 129, 1845–1851. 
+Fig 9. Model structure of test samples 
+with well-defined contamination levels 
+in PE film for migration tests 
+
+ 
+[101003806] [CIRCULAR FoodPack] - Part B  [Page 23 of 100] 
+Circular packaging for direct food contact applications 
+Research & Innovation Action addressing CE-SC5-24-2020 
+with low melt PE sealing films 43. They have no PCR content. One of the biggest issues is their processability on 
+packaging lines (wrinkling, curling, slow line speeds…) at economically viable processing speeds. Furthermore, the 
+current generation adhesives used for PO lamination causes yellowing of recyclates, while the printing inks are very 
+hard to remove  once applied on the package , causing strong discoloration. No proper technologica l solutions for 
+these issues are available to date. The use of PE recyclates from food packaging for reimplementation into packages 
+and the creation of a closed loop for packaging material to packaging material is therefore not yet possible at scale. 
+In terms of barrier, EVOH, aluminum and metallization are the 3 most common applied barriers, all non-compatible 
+with the PE recycling stream. Inorganic barrier layers are slowly entering the market at high performance alternatives 
+to Aluminum (AlOx, SiOx) and have found commercial applications when biaxially oriented BOPET and/or BOPP 
+are used as the deposition substrates. For PE, not a lot is available and those materials that are, are suffering from 
+poor barrier functionality due to the mismatch in stiffness and topography between the oriented PE film and the 
+inorganic barrier layer. E lectron beam treatment is one possibility to enhance the processability of extruded films 
+from PE PCRs 44, further enhancing the mechanical stability  brought by machine direction o rientation or biaxial 
+oriented stretching of the outer  PE films, while at the same time providing the proper surface topography required  
+for inorganic barrier layer deposition 45, a critical building block needed for  strong permeation barrier without 
+disturbing the recycling streams, thus avoiding the need for thick EVOH layers that are considered incompatible with 
+SOA mechanical recycling. In order to be able to reuse the PE PCRs in food packaging, or even in personal care 
+packagings, the migration of unwanted pc compounds into the packed stuffs must be prevented. SiO x is in addition 
+to its oxygen and water barrier performance has also functional barrier 46,47 potential as it is known from its use in 
+PET bottles againist potential contaminants from pc-recycled PET, but has not been applied on PE PCR films yet as 
+functional barrier.  
+Step beyond SoA: At large scale, processing of polyolefin (e.g. PE) on single-layer extrusion lines, will be possible, 
+by mono-axial stretching process, and thereby their vacuum deposition with a very thin inorganic barrier layer of 
+SiOx (~ 60 nm). The SiO x coated mono-axially oriented 
+PE PCR film (MDO PE PCR) will be laminated onto the 
+extruded PE , resulting in a fi nal structure:  (outside) 
+deinkables (with markers) / MDO PE PCR  / SiO x 
+barrier /  Adhesive / PE (virgin) sealing (facing the 
+food). In case the barrier performance is not sufficient for 
+the selected packaging application, an additional organic 
+gas barrier layer <  1 µm will be considered either before 
+as a primer or after the SiOx coating as a top-coat, or both 
+(Fig 10 (a), top- coat not shown, optional) . This has the 
+advantage that only very thin layers are used, and 
+recycling is not negatively affected . Appropriate 
+conformity and safety assessments are required for all 
+materials (Fraunhofer). As off -set migration during 
+storage (as a reel) is a known  issue, an additional 
+functional barrier layer facing the outside of the package will be considered, effectively sandwiching the PCR. 
+AMCOR-K has much experience in the e -beam assisted deposition of SiO x layers and will use its knowledge to 
+improve the gas and functional barrier performance when 
+deposited on a PE base. A lacquer applied as a primer onto 
+the PE substrate before and/or after SiO x deposition is 
+reasonably ex pected, to further enhance the migration 
+barrier performance by sealing off potential 
+defects/pinholes in the SiOx layer, while, when applied as 
+a primer, it will planarize the PE surface for SiO x 
+deposition, minimizing the presence of any surface 
+defects or contaminants. In case there would be issues to 
+process the PCR on the machine direction orientation 
+(MDO) equipment, an alternative structure is proposed in 
+Fig 11 (b), where the PCR layer remains unstretched and 
+stifness will be provided by a virgin (M DO) PE base 
+layer. To overcome the possible machinability problems 
+by packaging, during sealing, co-extrusion of virgin PE is 
+foreseen, further sandwiching the PCR, improving the overall film quality (but reducing the %PCR in the film). 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+43 EP2585298A1, “Single polymer film structures for use in stand-up-pouches”, DOW and EP1961558A1, „Laminated multi-layer films”, Borealis 
+44 Woods R. J., Pikaev A. K., Applied Radiation Chemistry: Radiation Processing, John Wiley Sons, INC., 1994, 288-307, 349-392 
+45 Biaxial stretching of film, Principles and applications, Edited by Mark T. DeMeuse, Woodheald Publishing Limited, 2011.  
+46 Functional barrier limits the migration of a component into food or food simulant in amounts below an accepted threshold or a migration limit of no concern 
+47 Welle, F. SiOx layer a functional barrier in (PET) bottles againist potential contaminants from pc recycled PET. Food Additives and Contaminants. 25, (2008) 
+Fig 11. Design for Circular Food Packaging 
+Fig 10. Generalised type of a laminate for flexible packagings 
+based on D4 Recyclability 
+
+ 
+[101003806] [CIRCULAR FoodPack] - Part B  [Page 24 of 100] 
+Circular packaging for direct food contact applications 
+Research & Innovation Action addressing CE-SC5-24-2020 
+Further alternatives such as thin AlO x, and also EVOH will be tested as (additional) migration barriers to cover 
+potential off-set issues. 
+SIEGWERK has developed a series of delamination primers for different applications, which are for the time being 
+not yet commercialised, but already tested on a pilot scale (TRL 4) with very good results in terms of matching all 
+requirements. By using deinking conditions as discussed above, the delamination and deinking is taking place in one 
+step during the recycling. It can be applied using a gravure or flexo printing process. SIEGWERK will further develop 
+this primer formulation, as a primer layer for SiOx deposition, in addition, if required also as a top coating. The primer 
+formulation will match (i) to the requirements like adhesion on the used films, and (ii) the requirements of the 
+recycling processes (by deinking). 
+One other innovation will be the application of tracers from KIT and POLY in printing inks of SIEGWERK, that are 
+deinkable. Some possible locations for the printing inks with tracers are presented in Fig 11. The project will chase 
+all the possibilities for finding an all PE laminate, which is completely recyclable, functional, sortable and consists 
+of at least 50% PE PCR in it, by providing design guidelines for circular f ood packaging (Fig 11).T he packaging 
+types are diverse since various food and non-food types are to be packed. This will lead to differences in the laminate, 
+such as the layer thicknesses, barriers used, PE types, inks included, still all to be sortable an d recyclable. A 
+matchmaking is to be performed between the new materials and the final package demonstrators for each targeted 
+packaging product type. The effects of laminate layer sequence on their recyclability will be rated and provided here 
+as guidelines.  
+Innovation potential: We will provide 3 use cases with mono-material multi-layered packaging films that can be 
+completely recycled and are  suitable for food packaging, guaranteeing a sustainable use of resources. The proj ect 
+will demonstrate the full recyclability of this structure, including deinking and its possible reproduction using PCR 
+coming from its own recycling process. The very thin functional barrier, e.g. SiOx, will prevent migration and thereby 
+will allow direct food contact, due to the PCRs being from food grade origin flexible packaging. 
+ 
+(v) Comprehensive sustainability assessment of circular value chains- mainly related to WP7 work 
+SoA and drawbacks: Circularity on its own does not equal sustainability.  Developing sustainable value chains in a 
+Circular Economy requires a holistic sustainability assessment or Life Cycle Sustainability Assessment (LCSA) 48, 
+taking into account environmental, economic and social impacts. Although life cycle-based standards and guidelines 
+exist to assess the environmental (LCA) (e.g., ISO 14044 49, PEF method 50), economic (LCC) ( e.g., SETAC 
+guidance51) and social (s-LCA) (e.g., Handbook for Product Social Impact Assessment; upcoming revised Guidelines 
+by the Social Life Cycle Allia nce) dimensions, their practical implementation is often still challenging (e.g., data 
+availability, lack of reliable methods for certain impact categories, assessment of emerging technologies). Although 
+a holistic standard integrating the three dimensions  is not yet available, a tailor-made sustainability framework 
+covering the three sustainability dimensions focused on waste management in European cities was developed in the 
+H2020 REPAIR project52. Moreover, taking into account Circular Economy priorities is an additional challenge for 
+holistic sustainability assessment. LCA -based indicators were developed to evaluate the circular economy 
+performance of recycling value chains53. Recent reviews54 pointed out that despite the growing number of circularity 
+indicators, important aspects such as value retention over different cycles and product lifetime are not yet fully 
+captured and need further research. LCA of plastic waste management has been widely performed, but most studies 
+focus on mixed plastic waste, mainly rigid plastics, instead of plastic film waste. Generally, these studies identified 
+recycling as the preferred treatment over non -recycling options when the quality of the recycled material is good 
+enough to ensure high virgin material substitution rate 55. However, in order to reveal the environmental benefits of 
+recycling with high-end purposes compared to downcycling, the potential market size of the recyclates, as well as 
+the recyclate quality, should be considered56. Finally, the relationship between packaging design and food waste (and 
+consumer behavior) is an important aspect when developing new packaging concepts57. 
+Step beyond the SoA: CIRCULAR FoodPack will evaluate the sustainability of the newly developed circular value 
+chains in a holistic way, by applying a comprehensive sustainability assessment framework tailor-made by UGENT, 
+taking into account environmental, economic and social impacts, as well as Circular Economy priorities, food waste 
+and compliance to health and safety legislation. To support sustainable decisions by waste managers and processors 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+48 UNEP-SETAC (2011) Towards a LCSA: Making informed choices on products. United Nations En-vironmental Program. DOI: DTI/1412/PA.   
+49 ISO, 2006. ISO 14044: Environmental management - LCA - Requirements and guidelines. International Organization for Standardization, Geneva.  
+50 Zampori L and Pant R (2019) Suggestions for updating the Product Environmental Footprint (PEF) method. Luxembourg: JRC Ispra. DOI: 
+10.2760/424613.   
+51 Hunkeler, D., Lichtenvort, K., & Rebitzer, G. (2008). Environmental life cycle costing. https://doi.org/10.1201/9781420054736. 
+52 Taelman, S.E., Sanjuan-Delmás,D., Tonini, D. & Dewulf, J. (2019). An operational framework for sustainability assessment including local to global impacts: 
+Focus on waste management systems. Resources, Conservation and Recycling, 162. https://doi.org/10.1016/j.rcrx.2019.100005 
+53 Huysveld, S., Hubo, S., Ragaert, K., Dewulf, J, 2019. Advancing circular economy benefit indicators and application on open -loop recycling of mixed and 
+contaminated plastic waste fractions. Journal of Cleaner Production 211, 1-13. 
+54 Moraga, G., Huysveld, S., Mathieux, F., Blengini, G. A., Alaerts, L., Van Acker, K., ... & Dewulf, J. (2019). Circular economy indicators: What do they 
+measure?. Resources, Conservation and Recycling, 146, 452-461. https://doi.org/10.1016/j.rescon-rec.2019.03.045   
+55 Horodytska, O., Valdes, F.J., Fullana, A., 2018. Plastic flexible films waste management - A state of art review. Waste Management 77, 413-425. 
+56 Nessi S., et al., Comparative Life Cycle Assessment (LCA) of Alternative Feedstock for Plastics Production – Part 1, European Commission, Ispra, 2020a 
+57 Yokokawa, N., et al. (2018). Framework for analyzing effects of packaging on food loss reduction by considering consumer behavior. J. of Cleaner Production, 
+174, 26-34. 
+ 
+[101003806] [CIRCULAR FoodPack] - Part B  [Page 25 of 100] 
+Circular packaging for direct food contact applications 
+Research & Innovation Action addressing CE-SC5-24-2020 
+running recovery processes, a digital Decision Support System (DSS) tool for  sustainability optimisation and 
+evaluation of the most feasible process cascade and sector of application  for a certain  secondary material will be 
+developed. A combination of AI-based techniques with special focus on white label approaches, capable of providing 
+understandable feedback to the users will be developed. IRIS previous experience on these systems for other sectors 
+will be applied, combining Rule Induction algorithms for Expert Systems applications. 
+Innovation potential:  The comprehensive sustainability assessment framework developed specifically for 
+CIRCULAR FoodPack will evaluate the sustainability of the newly developed technology and packaging in a way 
+that is: (i)  systematically taking into account the entire life cycle, (ii) performed in a holistic way by considering 
+environmental, economic and social impacts, (iii) addressing also circularity aspects, food waste and compliance to 
+health and safety legislation.  The DSS tool will provide crucial insights in relation to the potential value of the 
+currently unsorted material and will support the uptake of AI -based digital tools as backing for waste managers 
+decision making.  
+ 
+(vi) Market analysis, business and organisational models to ensure commercial uptake - related to WP8 work 
+SoA and drawbacks: More and more large multinational food and packaging companies commit themselves either 
+individually or collectively  in public or private initiatives (EU Circular Plastics Alliance or Ellen MacArthur 
+Foundation’s Global Commitment) to pledges to making their packaging more recyclable or to a percentage of 
+recycled plastics content in packaging products by already 2025. However, market actors emphasize that these 
+pledges are ambitious and only feasible if material is available in sufficient quality and quantity and at competitive 
+prices58. Studies provide additional evidence that business models for a better plastic recycl ing are still facing 
+multifaceted market barriers, e.g. uncertainties regarding supply, higher production costs, initial investment costs, 
+material quality differences compared to virgin plastic and lack of waste segregation by waste generators. 59 The 
+bottleneck for su ccessful business models most of ten lies in the transfer from pilot feasibility to roll- out market 
+feasibility. To overcome these market barriers for an improved sorting, separation and recycling of post consumer 
+food packaging wastes, close co operation and joint activities of current economic actors in the value chains are 
+necessary that also consider market needs and therefore require specific business models.  
+Step beyond the SoA:  CFP will develop business models for implementation of the CIRCULAR FoodPack value 
+chain, suggesting actors and most suitable technological interfaces for sorting, recycling and production of food grade 
+packaging films from post -consumer recycled plastics. These models will be jointly discussed and improved by 
+process providing R&D and industry partners as well as current global/European players. The CIRCULAR FoodPack 
+technologies will be developed based on a stakeholder-driven approach by integrating stakeholders’ preferences and 
+expectations. Economic actors of the whole value chain as well as consumers will be surveyed by qualitative and 
+quantitative market research methods to include stakeholders’ feedback in the development of the CIRCULAR 
+FoodPack technologies and to ensure a quick commercial uptake of the technologies. For the development of business 
+models, it is particularly important to focus not only on the purely economic  feasibility of processes, but rather to 
+include future scenarios e.g. effects of future EPR taxes and innovative business models that coin cide with lower 
+circular value chains costs. In CIRCULAR FoodPack, these scenarios will be included in the SWOT analysis to 
+identify strengths, weaknesses, opportunities  that also will identify actions to be taken to improve the market 
+acceptance. Further on , exploitation plans for 2- 3 most promising scenarios will be developed through a cost and 
+process optimization approach provided by the Business Model Canvas (BMC). 
+Innovation potential: CIRCULAR FoodPack will identify suitable markets and material flows where the critical size 
+for a market roll out can be easily reached. The project will define products that best fit to the CIRCULAR FoodPack 
+technologies and where an improvement of the recycling processes is most necessary from an environmental point 
+of view. Markets and sectors will be identified where the CIRCULAR FoodPack technologies create a value added 
+for business customers and consumers and a possible price premium for the packaging can be generated. The 
+activities in CIRCULAR FoodPack will ensure the coherence of pilot feasibility with market roll -out feasibility by 
+connecting (1) technical and scientific excellence at pilot scale with (2) the access to large markets via the consortium 
+partners to ensure a market roll out and (3) the definition of business models to exploit the potential of technologies 
+generally applicable to other cases and companies in the market. 
+ 
+ 
+ 
+ 
+Freedom to operate within CIRCULAR FoodPack 
+The consortium conducted a patent survey to identify possible opportunities for knowledge and technological 
+advancements (Table 4) . There are no patents that hinder the development and innovation ideas based on the 
+knowledge of the partners. Several project partners own their key patents related to the developments (Table 5). 
+ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+58 European Commission 2019: Assessment report of the voluntary pledges under Annex III of the EU Strategy for Plastics in a Circular Economy. 
+59 Dijkstraa, H., et al., 2020. Business models and sustainable plastic management: A systematic review of the literature. J. of Cleaner Production.  
+ 
+[101003806] [CIRCULAR FoodPack] - Part B  [Page 26 of 100] 
+Circular packaging for direct food contact applications 
+Research & Innovation Action addressing CE-SC5-24-2020 
+Table 4. Results of the patent search focused on main innovation areas of CIRCULAR FoodPack (CFP) 
+ 
+The project  consortium is convinced that the  sorting, deinking, delamination, de odourization, and recycling 
+processes used in flexible packaging is still largely unknown . Especially, in the area of mono -material based 
+laminates with PCRs including functional barriers , the opportunities for patented IP are multiple, including 
+options for expanding and perfecting partners’ existing patents. 
+Table 5. Overview of the most important patents of the CIRCULAR FoodPack Project partners 
+Technology (Patent No) – Title & Short Description Innovation potential 
+Method for sorting and recycling PP articles (EP1966295A1) - Use in PP 
+compositions suitable for production of injection-stretch-blow-moulded bottles. 
+UV tracer to improve the ease and accuracy of sorting PP and PET bottles.  
+CIRCULAR FoodPack aims to sort food and 
+non-food flexible packagings, base on 
+different marker concepts.  
+Deodourizing method of regenerated plastics (JP2007210199A) - Calcium 
+hydroxide (~ 5 wt.%) is added to waste plastics, crushed, melted, extrusion 
+molded into a strand, cut to small lumps, pellet manufactured  
+The technology needs additives, which is not 
+preferable in circular use, and has several 
+processing steps. CFP focuses on the removal 
+of VOC by means of Infrared Dryer 
+Method and apparatus for processing of plastic material (US20110251368A1) 
+- Extrusion system for thermoplastics incuding a suction device for removing 
+volatile components from plastics 
+The technology requires a long residence time 
+depending on the dimensions of the degassing 
+unit. Plastics need to be melted prior to 
+decontamination. 
+Method For Purifying Reclaimed Polypropylene (US20180171095A1): The 
+plastic is brought in contact with a first extracting solvent and then dissolved in 
+a second solvent. The second solution is purified by adding a solid media to 
+produce a third solution comprising purer polymer 
+Different solvents are applied in series, which 
+makes it a technical and energy-intensive 
+technology. 
+Method and apparatus for recycling printed plastic films (EP1419829A1):  
+Consecutive and/or simultaneous soaking phases with non-ionic surfactant, 
+organic solvent, an aqueous mineral base are used as a deinking medium. 
+The recovery of deinking medium is difficult 
+due to use of various solvent and surfactant 
+mixtures. The technology is limited to deink 
+surface printed plastic films.  
+Mult-ilayer Packaging films with recycled PA content. (WO2019231442) - No 
+offensive odour, useful for packaging organoleptically sensitive food.  
+CFP will develop (i) recyclable all PE based 
+mono-material multi-layered laminates for 
+flexible packaging, (ii) including PE PCRs 
+(50% of laminate) with functional barriers, 
+(iii) tracers in “deinkable” inks for sortability. 
+(iv) The laminate will fulfil all the functional 
+requirements, e.g. oxygen, water vapor 
+transmission, sealability, machinability, (v) 
+The functional barrier will profide migration 
+and gas and water vapor barrier performance. 
+All Polyethylene laminate film with barrier adhesive layer (WO2020074688 
+(A1)) - Recyclable, suitable for use in a flexible packaging. 
+Gas barrier transparent film (JP2002321301A) - flexible, gas-barrier with a 
+thin film layer of an inorganic oxide, better in recyclable properties  
+Single polymer film for use in stand-up-pouches (EP2585298A1) - A mono- 
+or a multi-layer film, has acceptable water vapor transmission rate and good 
+tear resistance. 
+Scope CIRCULAR FoodPack – Relevant patents of the partners 
+Tracer based Sorting 
+(TBS) 
+POLY: “Material having a marker and a method for sorting a mixture of materials:”, 
+EP2828053(B1); “Method for recycling materials from used objects”, EP2019731 (B1); “Method for 
+identifying materials”, WO2017220079 (A1)  
+KIT: “New Composition With Enhanced Luminescence”, EP3431570(B1) 
+Sensor Based 
+Specification (SBS) 
+IRIS: “ Device for detecting foreign matter in an edible substance or in a container containing the 
+edible substance and method employing the device” - EP19382101; “An integrated optical system for 
+the examination of sample materials”, EP18198458. 
+Deodourization KREYEN: “Method for decontaminating bulk food and/or feed material”, 10440978. 
+“A new patent for deodourization of recyclates is under application.” 
+Deinking  
+UGENT: “Method for deinking plastic material”, EP 20167745; The present invention relates to a 
+method to deink plastic material, for example plastic waste. The present invention also relates to a 
+method to delaminate and deink plastic material. 
+CreaSolv® 
+Fraunhofer: “Method for treating waste containing plastic”, WO2011082802 A1; “Verfahren zur 
+Anreicherung von mindestens einem Polymer aus einem Polymer-haltigen Abfall und Polymer-
+Recyclat“, DE102013212813A1; „Method for separating and recovering target polymers and their 
+additives from a material containing polymers and use therefore”, EP1311599b1; “Method for 
+recycling polyolefin containing waste”,  EP3305839A1. 
+Recyclable laminates 
+AMCOR has an extensive know how on the production of poly propylene based mono-material 
+based laminates. “Recyclable Films for Product Packaging”, WO19132954; “Recyclable Films and 
+Packaging”, WO20050860; “High-Barrier Recyclable Film”, WO20112148; “Packaging Films with 
+Recycled Polyamide Content”, WO19231442 
+Recyclable, Sortable 
+packs with PCRs NESTLE: No patents on this topic filed currently, but there are patent applications in preparation. 
+ 
+[101003806] [CIRCULAR FoodPack] - Part B  [Page 27 of 100] 
+Circular packaging for direct food contact applications 
+Research & Innovation Action addressing CE-SC5-24-2020 
+2. Impact

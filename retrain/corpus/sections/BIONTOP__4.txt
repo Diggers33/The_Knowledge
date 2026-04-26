@@ -1,0 +1,3447 @@
+4 . Changes of Annex 2 (estimated budget)
+Annex 2 is changed and replaced by the Annex 2 attached to this Amendment.
+1
+Ref. Ares(2021)6845885 - 08/11/2021
+Grant Agreement number: 837761  —  BIOnTop  —  H2020-BBI-JTI-2018/H2020-BBI-JTI-2018
+Amendment Reference No AMD-837761-11
+All other provisions of the Grant Agreement and its Annexes remain unchanged.
+This Amendment enters into force on the day of the last signature.
+This Amendment takes effect on the date on which the amendment enters into force, except where a
+different date has been agreed by the parties (for one or more changes).
+Please inform the other members of the consortium of the Amendment.
+SIGNATURES
+For the coordinator For the JU
+[--TGSMark#signature-999513415_75_210--] [--TGSMark#signature-service_75_210--]
+Enclosures:
+Annex 2
+Annex 1
+2
+ANNEX 1 (part A)
+Bio-based Industries Research and Innovation action
+NUMBER — 837761  —  BIOnTop
+Table of Contents
+1.1. The project summary .................................................................................................................................3
+1.2. The list of beneficiaries ..............................................................................................................................4
+1.3. Workplan Tables - Detailed implementation ..............................................................................................6
+1.3.1. WT1 List of work packages ........................................................................................................... 6
+1.3.2. WT2 List of deliverables ................................................................................................................ 7
+1.3.3. WT3 Work package descriptions .................................................................................................13
+Work package 1 ......................................................................................................................... 13
+Work package 2 ......................................................................................................................... 16
+Work package 3 ......................................................................................................................... 21
+Work package 4 ......................................................................................................................... 25
+Work package 5 ......................................................................................................................... 32
+Work package 6 ......................................................................................................................... 37
+Work package 7 ......................................................................................................................... 42
+Work package 8 ......................................................................................................................... 49
+1.3.4. WT4 List of milestones ................................................................................................................ 53
+1.3.5. WT5 Critical Implementation risks and mitigation actions ........................................................... 56
+1.3.6 WT6 Summary of project effort in person-months ........................................................................60
+1.3.7. WT7 Tentative schedule of project reviews .................................................................................62
+1.1.  The project summary
+Project Number 1 837761 Project Acronym 2 BIOnTop
+One form per project
+General information
+Project title 3 Novel packaging films and textiles with tailored end of life and performance based on
+bio-based copolymers and coatings
+Starting date 4 01/06/2019
+Duration in months 5 48
+Call (part) identifier 6 H2020-BBI-JTI-2018
+Topic
+BBI.2018.SO3.R10
+Develop bio-based packaging products that are biodegradable/ compostable and/or
+recyclable
+Fixed EC Keywords
+Food packaging, Coating and films, Bioremediation, biodegradation, Waste
+management, Waste recycling, Materials engineering (biomaterials, metals, ceramics,
+polymers, composites, etc.)
+Free keywords
+Bioplastic, PLA, copolymers, coatings, barrier, biodegradation, home composting,
+recycling, waste management, end of life, packaging, textile, food, personal care, eco-
+design, circular bioeconomy
+Abstract 7
+Only 31% of plastic is currently recycled and plastic packaging still have a deficient end of life. Thus, improvements
+are needed to provide cost effective solutions with high bio-based contents and suitable performances for demanding
+packaging applications, with a consumption of 19M ton/year, while still achieving compostability in mild conditions.
+Using sustainably sourced comonomers, additives and fillers to formulate novel PLA copolymers and compounds,
+the BIOnTOP project will deliver recyclable-by-design cost competitive packaging solutions that can be mechanically
+recycled, industrially/home composted or even suitable for anaerobic digestion.
+Moreover, the barrier properties of delivered bio-packaging trays, films and derived packaging, will be enhanced using
+removable protein-based coatings and a novel fatty acid grafting technology to decrease permeability and compete
+with fossil packaging.
+In the field of textile packaging , most used coatings are not bio-based and of different nature from the coated fibres,
+making material or organic recycling extremely difficult. New PLA coatings or fatty grafting will allow reprocessing
+without significant loss of properties.
+BIOnTOP packaging, based on >85% renewable resources, will be compatible with a broad range of packaging
+applications’ requirements but also multiple end of Life options. Our materials will be biodegradable in home
+composting conditions but also recyclable for multiple use secondary packaging.
+Based on new circular bioeconomy value chains, BIOnTOP will generate growth for EU bioplastics and end users’
+industries in the food and personal care sectors with potential in many fields: BIOnTOP production is estimated to
+reach close to 9.6 Mton per year by 2030, overall leading to €40 M turnover and 170 new jobs. All in all, reducing
+the environmental footprint of plastics, our new bio-based packaging will have a significant positive social and
+environmental impact.
+Page 3 of 62
+1.2.  List of Beneficiaries
+Project Number 1 837761 Project Acronym 2 BIOnTop
+List of Beneficiaries
+No Name Short name Country Project
+entry date8
+Project exit
+date
+1
+AIMPLAS - ASOCIACION DE
+INVESTIGACION DE MATERIALES
+PLASTICOS Y CONEXAS
+AIMPLAS Spain
+2
+CONSORZIO
+INTERUNIVERSITARIO
+NAZIONALE PER LA SCIENZA E
+TECNOLOGIA DEI MATERIALI
+INSTM Italy
+3
+CENTRE SCIENTIFIQUE &
+TECHNIQUE DEL'INDUSTRIE
+TEXTILE BELGE ASBL
+CTB Belgium
+4 FACHHOCHSCHULE ALBSTADT-
+SIGMARINGEN
+ASU Germany
+5 EUROPEAN BIOPLASTICS EV EUBP Germany
+6 TOTAL CORBION PLA BV Total-Corbion Netherlands
+7 PLANET BIOPLASTICS SRL PLANET Italy
+8
+BIO-MI DRUSTVO
+S OGRANICENOM
+ODGOVORNOSCU ZA
+PROIZVODNJU, ISTRAZIVANJEI
+RAZVOJ
+BioMi Croatia
+9 EMSUR MACDONELL SA EMSUR Spain 30/11/2020
+10 CRISTOBAL MESEGUER SA CMSA Spain
+11 SILON SRO SILON Czech Republic
+12 SIOEN INDUSTRIES NV Sioen Belgium
+13 WEAREBIO OU WEAREBIO Estonia
+14 QUESERIAS ENTREPINARES SA Entrepinares Spain
+15 UBESOL SL UBESOL Spain
+16 ORGANIC WASTE SYSTEMS NV OWS Belgium
+the day
+after the
+notification
+of
+termination
+17 ROMEI SRL Romei Italy
+18 IRIS TECHNOLOGY SOLUTIONS,
+SOCIEDAD LIMITADA
+IRIS Spain
+19 LABORATORI ARCHA SRL ARCHA Italy
+20 ENCO SRL ENCO Italy
+21 MOVIMENTO CONSUMATORI MC Italy
+22 INNOTECH COEXPAN-EMSUR SL INNOTECH Spain 01/12/2020
+Page 4 of 62
+1.2.  List of Beneficiaries
+No Name Short name Country Project
+entry date8
+Project exit
+date
+23 OWS RESEARCH FOUNDATION PS OWS RF Belgium 15/06/2021
+Page 5 of 62
+1.3.  Workplan Tables - Detailed implementation
+1.3.1. WT1 List of work packages
+WP
+Number9 WP Title Lead beneficiary10 Person-
+months11
+Start
+month12
+End
+month13
+WP1
+Definition of specifications for PLA
+derived products with tailored end of
+life and properties
+5 - EUBP 37.00 1 6
+WP2
+Development of copolymers
+and compounds with tailored
+biodegradability
+2 - INSTM 80.97 1 24
+WP3
+Development of multifunctional
+coating solutions with tailored
+properties
+4 - ASU 72.50 5 28
+WP4 Recyclability, Biodegradation and
+Environmental impact assessment 23 - OWS RF 159.99 6 48
+WP5
+Pilot production and validation of
+bio-based mono and multilayer films
+and trays
+22 - INNOTECH 121.09 21 48
+WP6 Pilot production and validation of
+bio-based nets and textile packaging 12 - Sioen 107.00 1 48
+WP7 Market strategy an innovation
+impacts 20 - ENCO 105.94 1 48
+WP8 Project Management 1 - AIMPLAS 46.50 1 48
+Total 730.99
+Page 6 of 62
+1.3.2. WT2 list of deliverables
+Deliverable
+Number14 Deliverable Title WP
+number9 Lead beneficiary Type15 Dissemination
+level16
+Due
+Date (in
+months)17
+D1.1 Report on the state-of-
+the art review WP1 4 - ASU Report Public 4
+D1.2
+Survey of commercial
+biopolymers, additives
+& monomers and
+strategy for further
+improvements needed
+WP1 5 - EUBP Report Public 4
+D1.3
+Specifications for
+bio-based packaging
+materials
+WP1 1 - AIMPLAS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+5
+D2.1
+Development of
+copolymers by batch
+polymerisation and
+reactive extrusion
+WP2 1 - AIMPLAS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+18
+D2.2
+Scale-up and main
+properties of selected
+lactic acid copolymers
+WP2 7 - PLANET Demonstrator
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+22
+D2.3
+Development of
+formulation based on
+raw materials, natural
+fillers, biopolymers
+and additives for
+compounds production
+WP2 2 - INSTM Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+22
+D2.4
+Development of
+formulation based on
+raw materials, natural
+fillers, biopolymers and
+additives for BIOnTOP
+copolymer-based
+compounds production
+WP2 2 - INSTM Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+23
+D2.5
+Development of
+formulations and
+processing parameters
+for the production
+of sheets, films and
+filament
+WP2 2 - INSTM Demonstrator
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+24
+D3.1
+Report on the
+development,
+processing and
+WP3 4 - ASU Report
+Confidential,
+only for members
+of the consortium
+(including the
+21
+Page 7 of 62
+Deliverable
+Number14 Deliverable Title WP
+number9 Lead beneficiary Type15 Dissemination
+level16
+Due
+Date (in
+months)17
+testing of barrier and
+repellence coating
+Commission
+Services)
+D3.2
+Report on the
+processing and testing
+of the barrier and
+repellence coatings for
+BIOnTOP films & trays
+WP3 4 - ASU Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+28
+D3.3
+Report on the different
+application methods
+for PLA coating
+formulations and FA
+grafting conditions on
+textiles
+WP3 3 - CTB Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+28
+D4.1
+Life cycle sustainability
+assessment: interim
+report
+WP4 16 - OWS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+24
+D4.2 Life cycle sustainability
+assessment: final report WP4 23 - OWS RF Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+48
+D4.3
+Biodegradation of
+developed materials
+under home composting
+and anaerobic
+conditions
+WP4 23 - OWS RF Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+40
+D4.4 Material monitoring
+and recyclability WP4 18 - IRIS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+36
+D4.5
+Organic recycling of
+packaging by industrial,
+home composting and
+anaerobic digestion
+WP4 23 - OWS RF Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+48
+D4.6 Predictive
+biodegradation models WP4 18 - IRIS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+48
+Page 8 of 62
+Deliverable
+Number14 Deliverable Title WP
+number9 Lead beneficiary Type15 Dissemination
+level16
+Due
+Date (in
+months)17
+D4.7
+LCA and organic
+recycling of packaging
+by home composting
+and anaerobic digestion
+WP4 23 - OWS RF Report Public 48
+D5.1
+Report on the
+compound upscaling
+for films applications
+WP5 7 - PLANET Demonstrator
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+36
+D5.2
+Report on the
+development
+of packaging
+demonstrator’s
+monolayer films and
+trays
+WP5 8 - BioMi Demonstrator
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+40
+D5.3
+Report on the
+multilayer films and
+trays production
+upscaling
+WP5 22 - INNOTECH Demonstrator
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+42
+D5.4
+Report on the validation
+of food and personal
+care packaging
+WP5 13 - WEAREBIO Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+48
+D5.5
+Report on Food
+packages health &
+safety assessment
+WP5 19 - ARCHA Report Public 48
+D5.6
+Report on properties
+and quality of films
+from secondary
+raw materials and
+recommendation for
+possible applications
+WP5 8 - BioMi Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+48
+D6.1 Report on nets
+processing WP6 10 - CMSA Demonstrator
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+42
+D6.2
+Report on filament
+production and initial
+textile conversion
+WP6 3 - CTB Demonstrator
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+36
+Page 9 of 62
+Deliverable
+Number14 Deliverable Title WP
+number9 Lead beneficiary Type15 Dissemination
+level16
+Due
+Date (in
+months)17
+D6.3
+Report on the validation
+of food packaging
+for nets and textile
+solutions
+WP6 12 - Sioen Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+48
+D6.4
+Report on Food
+packaging for nets and
+textile solutions health
+& safety assessment
+WP6 19 - ARCHA Report Public 48
+D6.5
+Report on textile
+applications and textiles
+from secondary raw
+materials
+WP6 11 - SILON Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+48
+D7.1 Project website WP7 1 - AIMPLAS Report Public 4
+D7.2 Communication Plan WP7 5 - EUBP
+Websites,
+patents
+filing, etc.
+Public 6
+D7.3
+Draft Plan for the
+Exploitation and
+Dissemination of the
+Results
+WP7 20 - ENCO Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+12
+D7.4
+Interim report on
+BIOnTOP value
+chain and consumer
+perception
+WP7 21 - MC Report Public 24
+D7.5
+Final report on
+sustainable business
+models and value
+chains including
+consumer perception
+aspects
+WP7 20 - ENCO Report Public 48
+D7.6
+Final Plan for the
+Exploitation and
+Dissemination of the
+Results
+WP7 20 - ENCO Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+48
+D7.7 Training materials and
+report WP7 5 - EUBP Report Public 48
+D7.8
+Industry, stakeholders
+and policy guidelines
+regarding BIOnTOP
+waste management
+WP7 20 - ENCO Report Public 48
+Page 10 of 62
+Deliverable
+Number14 Deliverable Title WP
+number9 Lead beneficiary Type15 Dissemination
+level16
+Due
+Date (in
+months)17
+D7.9 Reports on results of
+REACH assessment WP7 19 - ARCHA Report Public 48
+D7.10
+Dissemination and
+Communication
+activities carried out
+along the project
+implementation
+WP7 20 - ENCO Report Public 48
+D8.1 Data management plan WP8 1 - AIMPLAS
+ORDP:
+Open
+Research
+Data Pilot
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+6
+D8.2 Project Management
+Plan WP8 1 - AIMPLAS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+2
+D8.3 1st Year Advisory
+Board Report WP8 1 - AIMPLAS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+13
+D8.4 2nd Year Advisory
+Board Report WP8 1 - AIMPLAS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+25
+D8.5 3rd Year Advisory
+Board Report WP8 1 - AIMPLAS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+37
+D8.6 KPI & Impact
+Questionnaire 3 WP8 1 - AIMPLAS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+28
+D8.7 KPI & Impact
+Questionnaire 4 WP8 1 - AIMPLAS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+40
+Page 11 of 62
+Deliverable
+Number14 Deliverable Title WP
+number9 Lead beneficiary Type15 Dissemination
+level16
+Due
+Date (in
+months)17
+D8.8 KPI & Impact
+Questionnaire 5 WP8 1 - AIMPLAS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+48
+Page 12 of 62
+1.3.3. WT3 Work package descriptions
+Work package number 9 WP1 Lead beneficiary 10 5 - EUBP
+Work package title Definition of specifications for PLA derived products with tailored end of life and
+properties
+Start month 1 End month 6
+Objectives
+Objectives
+• To perform an updated review of the technical literature with attention to patents dealing with the target products and
+processes (recyclable, home compostable plastics; degradation enhancement; barrier properties, coatings).
+• To define the requisites of biopolymers and additives keeping with the requirements of converters, recyclers and end
+users and select the most suitable options available on the market in terms of property, price...
+• To establish the specifications for the packaging demonstrators and their manufacturing process including their target
+EoL.
+Description of work and role of partners
+WP1 - Definition of specifications for PLA derived products with tailored end of life and properties [Months:
+1-6]
+EUBP, AIMPLAS, INSTM, CTB, ASU, Total-Corbion, PLANET, BioMi, EMSUR, CMSA, SILON, Sioen ,
+WEAREBIO, Entrepinares, UBESOL, OWS, Romei, IRIS, ARCHA, ENCO
+Description of work (where appropriate, broken down into tasks), lead partner and role of participants.
+Task 1.1 Update review of the state-of-the-art
+An up-to-date review of scientific literature (peer reviewed journals and magazines), patents and company brochures
+will be carried out to ensure that all relevant research in the area is identified and to make certain any developments
+since proposal preparation stage are picked up. This task will complement and update the State-of-the-Art presented
+in Section 2.1.3 and will map any competitive commercial technologies. This will also include a market survey and
+benchmarking of existing solutions and in development state. This task, which will be led by ASU, will be performed
+by each partner in their field and the results obtained will feed into review paper(s) that will be published in open access
+scientific journals of high reputation.
+Leader: ASU. Partners) involved: all.
+Task 1.2 Survey and selection of materials for the new developments
+Among the predefined biopolymer (PLA) of interest for the project, as well as selected diacids (LA, MA) for
+copolymerisation and coating formulations, a survey of commercial grades (from EUBP members as well as possibly
+other manufacturers) that are available in a suitable form/scale for our development will be performed. In the same
+way, the selected additives that can be extracted from biomass (FA; as plasticizers citrates produced by citric acid,
+oligomers of LA, cardanol derivates; organic fillers from wheat, etc.), will be included. The selection will be based
+on functional and mechanical properties, colour, odour, biodegradability or other EoL scenarios, processability, safety
+legislation (especially for food contact applications) & REACH compliance issues and price range. This will allow
+identifying further functionalization, additivation, etc. needed. Selected grades will be ordered to start formulation work
+at lab scale in WP2 and 3.
+Leader: EUBP. Partners involved: AIMPLAS, ASU, INSTM, CTB, TOTAL-CORBION, PLANET, BioMi, SILON,
+ARCHA.
+Task 1.3 Specifications of target bio-based packaging and textiles
+Materials specifications will be defined for each packaging application (defining in further details the demonstrators’
+requirements and types for packing F&V, dairy food, tea, personal care products and for multisector bags) based on the
+participating packaging manufacturers’ as well as end users’ expertise and the properties of the materials currently used
+that will be considered as benchmarks. To achieve this, participating converters’ (PLANET; SILON, BioMi, SIOEN,
+CMSA and EMSUR) as well as end users’ expertise (WEAREBIO, ENTREPINARES, UBESOL) will work together.
+Other specific market requirements for the implementation of new materials will be defined (e.g. cost, regulatory /
+conformity and environmental aspects, etc.).
+Page 13 of 62
+MC will further fuel some insights regarding consumers’ perceptions for sustainable packaging in the initial definition
+of the packaging, that will be later reassessed in their eco-design phase in keeping with the interim results of consumers
+surveys.
+Further building on those and with a sustainable by design approach keeping in mind EoL (requirements to be defined
+by ROMEI, IRIS, OWS) as well as shelf-life as first criteria, the main structures/compositions for each target final
+demonstrator product will be defined as well as those of the semi-finished materials to allow preparing a flow chart of
+the supply chain including required minimum quantities, dimensions, etc.
+A nomenclature will be proposed to have a good traceability of the results among the partners. Based on the parameters of
+interest and quality control methods used by the participating industries, the testing plan for the controls to be performed
+in the subsequent WPs as well as reference materials will be defined so the new material can be compared with well-
+established methods (including standards when available) and the benchmark materials.
+An in-depth mapping of the processing equipment available at RTD level and for later upscaling in the project will be
+made to ensure a smooth transfer of lab results to pilots used in WP5-6.
+Leader: AIMPLAS. Partners involved: ASU, INSTM, CTB, PLANET; SILON, BioMi, SIOEN, CMSA, EMSUR,
+WEAREBIO, ENTREPINARES, UBESOL, ROMEI, IRIS, OWS, MC
+ 
+Participation per Partner
+Partner number and short name WP1 effort
+1 -  AIMPLAS 5.00
+2 -  INSTM 1.00
+3 -  CTB 2.00
+4 -  ASU 3.00
+5 -  EUBP 5.00
+6 -  Total-Corbion 1.50
+7 -  PLANET 1.00
+8 -  BioMi 1.00
+9 -  EMSUR 1.00
+10 -  CMSA 1.00
+11 -  SILON 2.00
+12 -  Sioen 2.00
+13 -  WEAREBIO 1.50
+14 -  Entrepinares 1.00
+15 -  UBESOL 1.00
+16 -  OWS 1.00
+17 -  Romei 1.00
+18 -  IRIS 2.00
+19 -  ARCHA 1.00
+20 -  ENCO 3.00
+Total 37.00
+Page 14 of 62
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D1.1 Report on the state-of-the
+art review 4 - ASU Report Public 4
+D1.2
+Survey of commercial
+biopolymers, additives &
+monomers and strategy
+for further improvements
+needed
+5 - EUBP Report Public 4
+D1.3
+Specifications for
+bio-based packaging
+materials
+1 - AIMPLAS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+5
+Description of deliverables
+D1.1 : Report on the state-of-the art review [4]
+D1.1 Report on the state-of-the art review (M4) – written report including up to date literature (that will feed into
+review paper(s)), patent and commercial information on home compostable bio-based packaging and textiles among
+others.
+D1.2 : Survey of commercial biopolymers, additives & monomers and strategy for further improvements needed [4]
+D1.2 Survey of commercial biopolymers, additives & monomers and strategy for further improvements needed (M4)
+– written report including the material selection (commercially available or tailor made in the project).
+D1.3 : Specifications for bio-based packaging materials [5]
+D1.3 Specifications for bio-based packaging materials (M5) – written report including target properties, and
+processing specifications of the biopolymers to be used for each target application.
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS1
+Specifications for the bio-
+based packaging with
+tailored biodegradability and
+properties
+5 - EUBP 5
+Target properties, analytical
+methods to prove them
+and benchmarks for the
+bio-based products with
+tailored biodegradability
+and performance as well as
+process defined.
+Page 15 of 62
+Work package number 9 WP2 Lead beneficiary 10 2 - INSTM
+Work package title Development of copolymers and compounds with tailored biodegradability
+Start month 1 End month 24
+Objectives
+• To produce copolymers of lactic acid/lactide (LA/LD) and biomass derived acids (malic and succinic) tailoring
+copolymerization reaction conditions in order to achieve copolymers with different comonomers ratios and molecular
+weights providing polymers with low crystallinity favouring in this way their biodegradability rate.
+• To achieve biodegradable copolymers with appropriate mechanical and thermal properties required for selected
+applications (packaging) and upscale their productions.
+• To use selected natural additives, fillers, processing aids and plasticizers to develop compounds with tailored
+biodegradability profile and enhanced barrier properties.
+• To characterise the novel copolymers & compounds developed and their processability to films and fibres.
+Description of work and role of partners
+WP2 - Development of copolymers and compounds with tailored biodegradability [Months: 1-24]
+INSTM, AIMPLAS, CTB, Total-Corbion, PLANET, BioMi, EMSUR, WEAREBIO, OWS, ARCHA, INNOTECH
+Two different LA copolymers will be developed (starting trials at TRL3 scale) in order to increase the biodegradation
+rate of current market available PLA and maintaining its final properties. AIMPLAS will oversee the copolymerization
+reactions and INSTM will lead the compounding. TOTAL-CORBION will select and provide LD and PLA whereas
+REVERDIA (AB) will provide succinic acid (SA) and OENO will provide malic acid (MA). Based on the
+characterization of the different obtained copolymers, a selection of the best ones from the point of view of properties,
+processing and initial biodegradation results from WP4, will be done. The chosen copolymers will be upscaled via
+its best copolymerization route in order to achieve a TRL5. Further optimization of biodegradability will be achieved
+thanks to the preparation of compounds and biocomposites, using specific additives. The neat and filled compounds will
+be tested in film and textile application. The suitable compounds will be upscaled. Resulting materials will be provided
+to OWS in WP4 for biodegradation tests that will guide further developments. In link with WP7, ARCHA will provide
+assessment of raw materials selected in terms of REACH compliance.
+Task 2.1 Preparation of Lactic Acid based copolymers
+Subtask 2.1.1 Synthesis of succinic acid (SA) and lactic acid (LA)/lactide (LD) copolymers. Two different approaches
+will be used also to obtain succinic copolymers. First, LA, SA and a diol [such as 1,4-butanediol (BDO), ethylene glycol
+or propylene glycol] will be reacted through a direct polycondensation with different monomer feed ratios. In that way
+controlled molecular weights and different lengths of the multiblock copolymers will be obtained. This reaction can be
+done in bulk state with catalysts such as titanium (IV) butoxide under vacuum at high temperature (100-180ºC). An
+additional chain extension step will be considered to further increase the molecular weight if required.
+The second one will imply the batch synthesis of a polyester prepolymer of SA and a diol molecule (e.g. BDO) (normally
+prepared also in two steps: first step under nitrogen atm. at temperatures of 160-215ºC and a second step at vacuum
+with a metallic catalyst at 180-230ºC) followed by a ring opening polymerization (ROP) with LD through reactive
+extrusion (REX) or batch copolymerization. In this context, AIMPLAS has developed similar procedures under the
+framework of Biorefine 2G project (FP7-KBBE). Batch reactions will be optimized in terms of catalyst, stirring systems,
+temperature, vacuum and reaction time. For REX reactions different configurations of the extruder, catalysts (as stannous
+octanoate, tin alkoxides, aluminum isopropoxide, calcium reagents as well as organic catalysts), temperatures profiles
+and residence times will be applied in a well-designed twin-screw co-rotating extruder. The first trials will be done in
+a HAAKE™ MiniLab extruder and once the best conditions in terms of overall efficiency have been identified, the
+synthesis will be scaled up in a pilot plant twin screw extruder (subtask 2.3.1). These modifications will allow to obtain
+different monomers distributions, lengths, molecular weights, crystallinities and thermal, mechanical, rheological and
+biodegradabilty properties.
+Subtask 2.1.2 Synthesis of malic acid and lactic acid/lactide copolymers. Due to the presence of a hydroxyl group in
+the MA molecule, the obtention of a polyester is not necessary in this case and a direct polycondensation can be applied
+directly in a glass or steel reactor under reduced pressure at high temperature (130-180ºC). Alternatively, the production
+of a pre-polymer of LA over which the MA will be added. Finally, a third approach will be based on the ROP with
+LD through a batch copolymerization. In this case the protection of MA as a benzyl malolactonate can be required. All
+the reactions will be optimized in terms of catalyst, stirring systems, temperature, vacuum and reaction time to reach
+Page 16 of 62
+copolymers with different ratios MA/LA-LD and molecular weight values that will produce polymers more amorphous
+than the PLA itself.
+In both subtasks, prepolymers will be collected along the synthesis to have the right molecular weight for application
+in PLA based coatings for textiles (ca 10.000 g/mol) in task 3.3. Likewise, in the 2 subtasks, the best conditions will
+be replicated to obtain 2-5 kg of the new copolymers to be characterized and provided for initial biodegradability tests
+in task 4.4.
+Leader: AIMPLAS -Partners involved: INSTM, TOTAL-CORBION, ARCHA.
+Task 2.2 Characterization of copolymers
+Subtask 2.2.1 Monitoring of the copolymerization reactions. To achieve a suitable monitoring of the reactions in progress
+in previous subtasks, different analysis techniques will be applied by AIMPLAS such as infrared spectroscopy (FTIR)
+to evaluate if the expected new chemical bonds are created and viscosity parameters will allow to identify the good
+progress of the copolymerizations. To analyse the thermal properties of the copolymers, differential scanning calorimetry
+(DSC) will be used. For prepolymers, the hydroxyl content will be measured to calculate the LD amount required in
+the following reaction.
+Subtask 2.2.2 Characterization of the developed copolymers. Copolymers will be characterized employing several
+techniques. Identification of the copolymers obtained will be done by FTIR and nuclear magnetic resonance
+spectroscopy (NMR), titration of acid-end groups of a few selected samples and DSC will be used also to determine the
+melting temperature of the developed copolymers, thermogravimetric analysis (TGA) will be employed to evaluate their
+thermal stability, gel permeation chromatography (GPC) to determine their molecular weight (Mw) and polydispersity
+index and finally rheological tests will be very useful to measure their behaviour in melt state that will provide relevant
+information related to processability of these copolymers. AIMPLAS will perform these tests with the support of
+INSTM. Based on the characterization of the different copolymers and their processability, the most suitable ones will
+be selected for each target application.
+Leader: AIMPLAS -Partners involved: INSTM, ARCHA.
+Task 2.3 Upscale of copolymers
+Subtask 2.3.1 Upscaling the best lactic acid copolymers produced by batch polymerization. Based on the optimal
+batch process conditions used at lab scale and the information acquired from the characterization results and initial
+biodegradation tests performed by OWS in task 4.4, the most suitable copolymers and synthesis approaches will be
+selected by AIMPLAS consulting TOTAL-CORBION who will evaluate further industrial transferability of batch
+copolymerization. Characterization will be performed as described in previous tasks. This upscaling will then lead us
+to produce sufficient amounts of the selected new copolymers to perform additional complete biodegradability tests.
+Therefore, up to 25 kg will be produced.
+Subtask 2.3.2 Upscaling the best lactic acid copolymers produced by reactive extrusion. Based on the process conditions
+used at lab scale and the information acquired from the characterization and initial biodegradation tests performed by
+OWS in Task 4.4, the most suitable copolymers and REX configuration will be selected. PLANET will be the responsible
+for scaling-up the copolymerization and improving their properties with reactive extrusion by REX in a large pilot plant
+twin screw extruder leading to in the range of 25-30 kg of new copolymers.
+Leader: PLANET -Partners involved: INSTM, AIMPLAS, OWS, ARCHA.
+Task 2.4 Selection of raw materials and additives to produce compounds meeting specific biodegradation requirements
+To control and tune crystallinity and consequently thermomechanical properties and biodegradability, selected
+nucleating agents, plasticizers, and strengthening agents will be tested by INSTM in cooperation with PLANET. The
+blends will be produced in lab scale in a Haake minilab extruder injecting also tensile specimen which will be used to
+measure mechanical (tensile tests, impact test) and thermal properties (DSC). The work will start with most adequate
+commercial PLA from TOTAL-CORBION and proceed with BIOnTOP copolymers as soon as available from task 2.3.
+Subtask 2.4.1 Selection of plasticizers. The effect of bio-based plasticizers selected among biodegradable and food
+contact approved (for packaging) products (oligomers of LA, esters of adipic acid for PLA, acetyl tributyl citrate or
+biodegradable polyesters) will be investigated. Bio-based, food grade approved reactive plasticizer such as epoxydised
+soy bean oil, or other renewable epoxy derivates will be also used. Their influence on processing parameters, thermal
+properties and stability, brittleness (elongation at break) and crystallinity of the matrix will be studied.
+Subtask 2.4.2 Selection of nucleating agents. A selection of effective nucleating agent, added in small percentages
+(1-5 %), such as talc, calcium carbonate, PDLA, and LAK (a polysulfone from Tagemoto) for PLA will be carried
+out. The effect of content and type of nucleating agent on percent of crystallinity and specific morphology of crystal
+phase will be studied. INSTM will investigate in particular the efficiency of the nucleating agent with processing
+parameters compatible with a possible transfer of technology to industrial film & fibres production, by melt flow index
+and rheological measurements.
+Subtask 2.4.3 Selection of strengthening agents and other additives. In order to control the flow of melt polymer in the
+extruder and optimize properties and stability with ageing and hydrolysis, special additives such as strengthening agents,
+hydrolysis stabilisers, releasing agents for formula to be used for thermoforming and extrusion blowing, etc. will be
+Page 17 of 62
+screened. If possible bio-based alternative to petro-based not biodegradable strengthening agents such as polyacrylates,
+the use of reactive low molecular weight oligomers of eventually functionalised LA will be investigated.
+Leader: INSTM, Partners involved: AIMPLAS, PLANET, BioMI, EMSUR/INNOTECH, CTB, ARCHA
+Task 2.5 Biocomposites with natural fillers fraction from agro-industrial waste
+Subtask 2.5.1 Natural fillers selection, pre-treatment and characterization. During this subtask natural fillers (NF) from
+agrowaste (wheat) available from WEAREBIO’s 3rd party who is a producer of wheat flour, will be characterized
+in terms of morphology (Scanning Electron Microscopy) and thermal stability (TGA). Selected samples of the fillers
+will be pre-treated with waxes-based coatings to improve compatibility with polymeric matrices. To improve adhesion
+between polymeric matrix and natural fillers, bio-based compatibilizers as natural waxes coating on the fillers will be
+considered.
+Subtask 2.5.2 Production of biocomposites. Biodegradable polymeric matrices will be processed with NF form task 2.5.1
+based on PLA and previously developed copolymers compounds by INSTM. The effect of natural fillers on crystallinity
+will be addressed. The material will be processed on lab scale with a Haake Mini Lab, Mini jet, producing dog bone
+shaped specimens
+Leader: INSTM, Partners involved: WEAREBIO, PLANET, ARCHA
+Task 2.6 Selection of the BiontopBIOnTOP compounds and derived biocomposites for films and textiles
+BIOnTOP compounds and derived biocomposites from respectively task 2.4 and 2.5 will be tested to make films
+(at AIMPLAS) and filaments (at CTB) for tensile tests. For the former, AIMPLAS has blown-film and cast-sheet
+co-extrusion equipment suitable to study the processability of the materials developed and to obtain samples to be
+characterised before their industrial scale up. For the filaments, CTB will use a labscale multifilament extrusion process
+allowing to assess the feasibility of the new polymer formulations for filament extrusion. From the most suitable
+formulations, INSTM, in cooperation with PLANET, will produce granules as well as sheets to be thermoformed (few
+kg) in the industrial extruder (Comac) associated with a flat die unit. Resulting films and fibres will be used for coating
+tests in WP3 and for testing EoL in WP4. The specimens will be used for mechanical, thermal and morphological
+characterization (INSTM and CTB) in order to select the best performing formulation which will be proposed for
+compounding scaled up for packaging and textile demonstrators in WP5 and 6.
+Leader: INSTM, Partners involved: AIMPLAS, CTB, PLANET
+ 
+Participation per Partner
+Partner number and short name WP2 effort
+1 -  AIMPLAS 47.00
+2 -  INSTM 10.50
+     UNIPI 4.00
+3 -  CTB 5.00
+6 -  Total-Corbion 1.50
+7 -  PLANET 6.37
+8 -  BioMi 1.00
+9 -  EMSUR 0.66
+13 -  WEAREBIO 1.50
+16 -  OWS 1.00
+19 -  ARCHA 2.00
+22 -  INNOTECH 0.44
+Total 80.97
+Page 18 of 62
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D2.1
+Development of
+copolymers by batch
+polymerisation and
+reactive extrusion
+1 - AIMPLAS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+18
+D2.2
+Scale-up and main
+properties of selected
+lactic acid copolymers
+7 - PLANET Demonstrator
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+22
+D2.3
+Development of
+formulation based on
+raw materials, natural
+fillers, biopolymers and
+additives for compounds
+production
+2 - INSTM Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+22
+D2.4
+Development of
+formulation based on
+raw materials, natural
+fillers, biopolymers and
+additives for BIOnTOP
+copolymer-based
+compounds production
+2 - INSTM Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+23
+D2.5
+Development of
+formulations and
+processing parameters for
+the production of sheets,
+films and filament
+2 - INSTM Demonstrator
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+24
+Description of deliverables
+D2.1 : Development of copolymers by batch polymerisation and reactive extrusion [18]
+D2.1 Development of copolymers by batch polymerisation and reactive extrusion (M18)- report on the batch and
+REX routes tested at TRL3 to produce LA/LD and MA or SA copolymers sent for initial biodegradation tests and
+their characterization
+D2.2 : Scale-up and main properties of selected lactic acid copolymers [22]
+D2.2 Scale-up and main properties of selected lactic acid copolymers (M20) -report on the selection of copolymers
+with tailored biodegradation, their process upscaling at TRL5 as well as suitable copolymers quantities for subsequent
+activities (at least 25kg produced in case of batch mode and 75 kg in case of REX till M25). Contribution to BBI-JU
+KPI8.
+D2.3 : Development of formulation based on raw materials, natural fillers, biopolymers and additives for compounds
+production [22]
+D 2.3 Development of formulation based on raw materials, natural fillers, biopolymers and additives for compounds
+production (M22) –report on the PLA-based formulations, nucleating agents, reactive plasticizers, compatibilizers,
+fillers, sent for initial biodegradation tests
+D2.4 : Development of formulation based on raw materials, natural fillers, biopolymers and additives for BIOnTOP
+copolymer-based compounds production [23]
+Page 19 of 62
+D2.4 Development of formulation based on raw materials, natural fillers, biopolymers and additives for BIOnTOP
+copolymer-based compounds production (M23) –report on the tested copolymers-based formulations sent for initial
+biodegradation tests
+D2.5 : Development of formulations and processing parameters for the production of sheets, films and filament [24]
+D2.5 Development of formulations and processing parameters for the production of sheets, films and filaments
+(M24)- report on the selected process & formula produced in sufficient quantities for producing sheets, films and
+filaments scalable in WP5 and 6 and to provide them to WP 3 for coating trials and WP4 for biodegradation trials
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS3 Copolymers to test
+biodegradation 2 - INSTM 13
+First copolymers will be
+available in enough amount to
+start biodegradation tests
+MS4 Copolymers routes selected
+and upscaling started 2 - INSTM 18
+At least one copolymer for
+which biodegradation can be
+triggered in home composting
+conditions will be identified
+and upscaled for further
+conversion
+MS5
+PLA based compounds
+characterization and films &
+fibres for coatings
+2 - INSTM 22
+Initial PLA based compounds
+will be characterised in view
+of their convertibility into
+the selected applications
+and films and fibres will be
+available for coating trials
+Page 20 of 62
+Work package number 9 WP3 Lead beneficiary 10 4 - ASU
+Work package title Development of multifunctional coating solutions with tailored properties
+Start month 5 End month 28
+Objectives
+• To develop fatty acid (FA) grafted humidity barrier and repellence coating for food & secondary packaging
+applications.
+• To combine the humidity barrier and repellence coatings with bio-based oxygen barrier based on whey protein.
+• To develop a coating for textile substrates using the novel PLA with tailored biodegradability from WP2 or above FA.
+Note: until those from tailored copolymers from the project are available, development work will start with PLA films
+and textile
+Description of work and role of partners
+WP3 - Development of multifunctional coating solutions with tailored properties [Months: 5-28]
+ASU, AIMPLAS, INSTM, CTB, Total-Corbion, EMSUR, SILON, Sioen , IRIS, ARCHA, INNOTECH
+Description of work
+Our barrier coatings will be multifunctional used for barrier, easy emptying and sensory purposes. In terms of barrier
+properties, our coatings will provide barrier to i) oxygen & UV (whey), ii) aroma (polysaccharides like alginates), iii)
+water vapour (FA), iv) grease & liquids (FA for repellence or plastic or PLA coating for textiles). As we work with
+either closed (plastic films) or woven and non woven textiles substrates, the substances, application and thickness used
+to get such effects have to be tailored. In link with WP7, ARCHA will provide assessment of raw materials selected
+in terms of REACH compliance.
+Task 3.1 Development, processing and testing of a new water barrier and repellence coating
+In order to obtain sufficient water vapour barrier and repellence properties (repellence towards water for textile and food
+products for easy emptying properties) bio based fatty acid anhydrides and commercially available fatty acid chlorides
+as benchmarks will be selected and tested for solvent free grafting. The grafting will take place on whey protein-based
+barrier coating (from Task 3.2) as well as on PLA films and textiles. TOTAL-CORBION will supply suitable reference
+PLA substrates for the coating. These FA will be selected and applied to the substrates using a transmitter paper enriched
+with FA reagent or via a gravure printing process initially at TRL3. The most suitable processing will be selected and
+performed at TRL4. The grafting process itself takes place in a convective oven. Lab coating will be used as initial
+application to evaluate and select the most promising processing reagents (different molecular weights of FA) and
+processing parameters (temperature and time). The knowledge gained from these experiments will be used to support
+the upscale of the grafting process in WP5 using a standard printing equipment for the grafting process.
+Leader: ASU, Partners involved: ARCHA
+Task 3.2 Processing and testing of the barrier and repellence coatings for films & trays
+Whey protein-based formulations developed in Wheylayer² and Thermowhey projects will be applied on commercially
+available polymer substrates using a semi-automatic lacquering device. If necessary, minor adjustments, e.g. regarding
+plasticiser, additives or fillers, will be tested to ensure optimal wetting and grafting properties on PLA and BIOnTOP
+films when available. Process modelling and simulation of respectively the patented in process protein denaturation
+and the drying stage will be used as supporting tool for improved performance and up-scalability, with support from
+IRIS who owns a share of the related patent (see table 13). If adhesion is not sufficient, standard substrate pre-
+treatment (Corona) will be performed. These coatings will be grafted with FA using the reagents and process parameters
+developed in task 3.1. The coated and grafted materials obtained will be characterised regarding mechanical and
+barrier properties (checking BIF above 10 is reached for both VWTR at ASU and OTR at IRIS in comparison with
+different substrates previously coated with whey without FA) as well as regarding their thermoformability at EMSUR/
+INNOTECH. Repellence properties will be characterised based on contact angles and surface energy with different
+liquid food simulants. Based on these results the coating formulations as well as coating parameters will be optimized
+in several iterative loops in order to reach the envisaged performance. The data will be used as supporting information
+for upscaling stage in WP5.
+Leader: ASU, Partners involved: EMSUR/INNOTECH, IRIS, AIMPLAS, ARCHA
+Task 3.3 Production and characterisation of PLA and FA coatings for textiles
+Besides the direct grafting of the PLA fibers with FA from task 3.1, also the functionalization of PLA textiles by
+coating with PLA will be developed. We will mainly focus on bio-based solutions for hydrophobic properties with
+Page 21 of 62
+excellent adhesion, sufficient flexibility and cleaning durability to match the needs of the textile food wrap and carrier
+bag demonstrators (see WP6). As starting materials, the plasticized compounds or prepolymers coming from WP2 will
+be used. TOTAL-CORBION will also select and appropriate grades of PLA (final polymers and prepolymers). During
+the coating tests, we will also evaluate the plasticizers selected in task 2.4.1.
+Small scale coating trials are foreseen, and 4 different coating processes will be tested: direct, transfer, hotmelt coatings
+and FA grafting. For each, the processing parameters such as coating thickness, curing conditions, viscosity as a function
+of temperature, etc. will be optimized:
+• For transfer coating (CTB), a film is laminated onto the PLA textile substrate. For the food wrap, we will develop
+(formulation and application method) a low Tg grade PLA adhesive coating that will act as a tie coating for the wet
+lamination of PLA films to PLA textiles. The right crosslinkers (food approved) and plasticizers will be selected to
+improve the mechanical properties of the coating.
+• For the direct coating (CTB), PLA plastisol coatings will be developed (comparable to PVC plastisol coating) and
+applied on PLA textile. A plasticizer suitable for PLA will be selected and mixed in high amounts with low Tg grade
+PLA granules. Further, we will select suitable crosslinkers (e.g. food approved carbodiimides) in order to increase the
+durability of the coatings to make them compatible with the intended use of the product. The crosslinker needs to cure
+at low temperature because high temperatures cause the PLA coating to penetrate through the fabric. This can be used
+for PLA coated shopping bags.
+• For hotmelt coating (CTB), PLA in molten state is coated at elevated temperatures onto a textile. A compatible
+plasticizer, which is not degrading at high temperatures, needs to be selected to improve the flexibility of the PLA
+hotmelt coating and to lower the application temperature (applying PLA hotmelt at too high temperature on PLA fabric
+will cause deformation or melting of the PLA fabric). This type of solution will be used for PLA textile food wrap.
+• For textile grafting by FA (ASU), the esterification process will take place directly on the textile by using a solvent
+free grafting approach. Therefore, bio-based FA anhydrides and FA chlorides as benchmark will be applied via manual
+gravure coating directly on the textile and placed in a convective drying. Process optimization of the gaseous phase
+transport and reaction phenomena will be performed in order to create textiles with super hydrophobic and repellence
+properties.
+The multiple coating approaches followed will maximize the chances for success and lead to a broader vision on the
+applicability of PLA coatings for packaging and textiles, even beyond the specific BIOnTOP applications. For example,
+the hotmelt coating method can be used for heat sealing processes.
+The coated textiles will be fully characterized, which includes measuring abrasion (Martindale, EN ISO 12947-2),
+hydrophobicity [via water repellence (AATCC Test Method 22-2005) and a water/alcohol solution resistance test for
+the aqueous liquid repellence (AATCC Test Method 193-2005)], delamination (ISO 2411), air permeability (EN9237),
+flexibility (EN ISO 7854-C), dimensional stability (EN ISO 5077) and tensile strength & modulus (ISO 13934-1).
+Results will be compared with coatings available in ARCHA portfolio and other fluorinated coatings widely used in
+textile waterproofing.
+Leader: CTB, Partners involved: SIOEN, SILON, ARCHA
+ 
+Participation per Partner
+Partner number and short name WP3 effort
+1 -  AIMPLAS 10.00
+2 -  INSTM 3.00
+3 -  CTB 12.00
+4 -  ASU 24.00
+6 -  Total-Corbion 0.50
+9 -  EMSUR 3.00
+11 -  SILON 2.00
+12 -  Sioen 3.00
+18 -  IRIS 9.00
+19 -  ARCHA 3.00
+Page 22 of 62
+Partner number and short name WP3 effort
+22 -  INNOTECH 3.00
+Total 72.50
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D3.1
+Report on the
+development, processing
+and testing of barrier and
+repellence coating
+4 - ASU Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+21
+D3.2
+Report on the processing
+and testing of the barrier
+and repellence coatings
+for BIOnTOP films &
+trays
+4 - ASU Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+28
+D3.3
+Report on the different
+application methods
+for PLA coating
+formulations and FA
+grafting conditions on
+textiles
+3 - CTB Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+28
+Description of deliverables
+D3.1 : Report on the development, processing and testing of barrier and repellence coating [21]
+D3.1 Report on the development, processing and testing of barrier and repellence coating (M18) – detailed report on
+the most promising FA grafting formulations applied on commercially available polymer substrates
+D3.2 : Report on the processing and testing of the barrier and repellence coatings for BIOnTOP films & trays [28]
+D3.2 Report on the processing and testing of the barrier and repellence coatings for BIOnTOP films & trays (M28)–
+detailed report on the formulations compatible with thermoforming applied on both commercially available polymer
+and adjustments required for initial tests with BIOnTOP substrates, characterisation and process conditions at TRL3-4
+as input for upscaling in WP5.
+D3.3 : Report on the different application methods for PLA coating formulations and FA grafting conditions on
+textiles [28]
+D3.3 Report on the different application methods for PLA coating formulations and FA grafting conditions on textiles
+(M28) – detailed report on the successful application methods and process parameters of PLA coating formulations
+and grafting on textiles including repellence properties will be provided.
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS8 Multifunctional bio-based
+coatings 4 - ASU 28
+Multifunctional coatings are
+available with a bio-based
+content above 95% according
+Page 23 of 62
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+to ASTM D6866, respectively
+with oxygen and humidity
+with BIF > 10 PLA films
+and coated PLA textiles with
+better barrier, tackiness and
+hydrophobicity (water contact
+angle > 120°) properties.
+Page 24 of 62
+Work package number 9 WP4 Lead beneficiary 10 23 - OWS RF
+Work package title Recyclability, Biodegradation and Environmental impact assessment
+Start month 6 End month 48
+Objectives
+• To evaluate the life cycle sustainability of the developed products and processes in terms of environmental impact,
+social impact and economic cost following the life cycle assessment (LCA) approach, combining environmental life
+cycle assessment (e-LCA), social life cycle assessment (s-LCA), and life cycle cost assessment (LCCA).
+• To evaluate material recyclability
+• To determine biodegradation of developed materials under industrial and home composting and under anaerobic
+conditions
+• To evaluate the possibility of organic recycling of developed PLA packaging by industrial and home composting and
+anaerobic digestion
+• To develop biodegradation predictive models depending on the conditions of use of the new materials
+• To set up a system for automatically identifying the developed compounds and coatings and study their recyclability
+Description of work and role of partners
+WP4 - Recyclability, Biodegradation and Environmental impact assessment  [Months: 6-48]
+OWS RF, AIMPLAS, INSTM, CTB, ASU, Total-Corbion, PLANET, BioMi, EMSUR, CMSA, SILON, Sioen ,
+Entrepinares, UBESOL, OWS, Romei, IRIS, ENCO, INNOTECH
+Description of work
+Task 4.1 Life cycle sustainability assessment
+The sustainability of the developed products is evaluated by performing a life cycle sustainability assessment (LCSA).
+The evaluation considers all three “pillars of sustainability” by combining the evaluation of environmental impacts
+(planet), social issues (people), and economic costs (profit) by means of environmental life cycle assessment (e-LCA),
+social life cycle assessment (s-LCA), and life cycle cost assessment (LCCA).
+The LCSA will be used to evaluate the developed packaging and bags for food applications among others throughout
+their life cycle phases: from production, to use and end-of-life. The end-of-life models will take into account the results
+of the biodegradation tests performed in subsequent tasks. The LCSA is performed in four interacting steps, as defined
+in LCA standard ISO 14040: (1) goal and scope definition, (2) life cycle inventory, (3) impact assessment, and (4)
+interpretation.
+During the goal and scope definition phase, the system boundaries and the functional units in which the results will be
+expressed are determined. These play a very important role for the outcome of the study, so the appropriateness and
+feasibility of different options will be discussed and evaluated in cooperation with and based on information provided
+by the other WPs.
+During the life cycle inventory phase, the in- and outputs of the studied processes are mapped. Where possible, these
+are based on measured data provided by the other WPs. When appropriate measurements are unavailable, the data will
+be completed using engineering calculations, literature data, and expert opinions.
+During the impact assessment phase, the gathered data are combined with a number of impact assessment methods to
+calculate environmental, social and economic impacts or costs and their main causes. The environmental impacts will
+be calculated using the ILCD and ReCiPe impact assessment methods and the Ecoinvent database as implemented in
+SimaPro or OpenLCA. These are used to determine midpoint impacts such as climate change and ozone depletion, and
+endpoint impacts such as damage to human health and resource depletion. The social risks will be calculated based on
+the Soca add-on to Ecoinvent in OpenLCA. The following social impact categories will be evaluated in this study: child
+labour, fair salary, forced labour, and safety measures. The economic costs will be calculated in terms of total production
+cost, total life cycle cost, and the main cost contributors.
+During the interpretation phase, the results of the impact assessment are evaluated. The evaluation discusses the total
+impacts and the main impact causes on which improvements during and after the project could focus, as well as the
+competitiveness of the developed solutions relative to current market solutions. The reference scenarios which are used
+for the benchmarking comparison will be discussed with the partners from the other WPs in order to assure that useful
+and appropriate comparisons can be made. The interim results will support the selection of the most sustainable materials
+from WP2-3 to be used in the production of demonstrators in WP5-6. The final LCCA results will be used as input for
+the study of the post-project route to market.
+Page 25 of 62
+Leader: OWS RF. Partners involved: all partners having relevant process and product inputs
+Task 4.2 Material recyclability and reprocessing
+Subtask 4.2.1. Material sorting. The goal is to prove the ability to sort the novel materials developed from other standard
+plastic wastes so they can then be handled through their respectively adequate organic or mechanical recycling stream
+(PLA, copolymers, compounds, etc.), eg. in case of mixed recyclable wastes or of inaccurate initial organic fraction
+separation at the consumer level. Samples will be supplied along the finetuning of the materials in WP2-3 and IRIS
+will use near infrared spectroscopy (NIR), hyper spectral imaging (HSI) and high-definition colour cameras to test the
+accuracy of the distinction among different materials thanks to digital image processing and chemometric analysis of
+the obtained spectra initially established for each system independently. For meeting the requirements of all materials
+under study, the combination of results from different sources is expected to be required (e.g. hyperspectral cameras
+respectively in the visible and NIR ranges). The most suitable approach to implement will be recommended for post
+project implementation in recyclers’ sorting line. Once final materials are available from the validation trials in each
+sector in WP5-6, their correct identification will be verified.
+Subtask 4.2.2. Multilayer recycling. For multilayer materials, procedures developed in previous projects will be applied.
+INSTM will optimise the treatment in laboratory tests allowing to separate the layers while keeping with best potential
+for future industry transfer in terms of best cost-time-efficiency compromise. The separation of the layers was previously
+achieved by washing out the barrier coatings with tepid water and/or water at room temperature with enzymatic
+detergents. Alternatively, hot water, which is used currently for washing processes at ROMEI recycling plant, or water
+containing salts could be used. The layers will be separated by density separation and they will be also evaluated
+concerning re-processing. Tests will be made to compare the properties with virgin polymers and define which treatment
+optimally preserve mechanical properties. Scaling up options and process/products potentialities will be assessed by
+ROMEI on the basis of the achieved results and also specific tests carried out in its laboratory based on known standard
+for plastic recyclates and market requirements.
+Subtask 4.2.3. Material reprocessing. This subtask will apply to the monomaterials or to materials with a “negligible”
+coating fraction. ROMEI, INSTM, PLANET and SILON will evaluate the ability to reprocess compounded pellets and
+coated films from WP2-3 and demonstrators from WP5-6 (to simulate -post-consumer scrap) or production scrap from
+the project. Materials will be cleaned, milled and re-processed via extrusion to pellets. The pellets will be characterised
+and the need to blend them in different amount with similar virgin material will be tested to limit loss of properties
+if needed. Tests will validate if FA grafting, PLA coating on textile, or eventually whey coating on thick film can be
+tolerated by the reprocessing step. The accessible properties of the recycled materials will be proposed.
+Leader: IRIS, Partners involved: PLANET; ROMEI, AIMPLAS, SILON, CTB, and WP5-6 partners for further material
+supply
+Task 4.3 Biodegradation under industrial and home composting and anaerobic conditions
+The compoundsdeveloped in WP2 and WP3, as well as, where relevant, semi-finished materials like monofilaments, will
+be evaluated for biodegradation under industrial and home composting conditions and anaerobic conditions according
+to international standards (compost: ISO 14855, anaerobic: ISO 15985). One of the innovative outcomes of the project
+is to develop a PLA material that is also biodegradable in mild conditions. As biodegradation testing takes time, the
+different developed compounds will be evaluated early in the project to degrade in compost at ambient temperature
+(28°C). The maximum allowed test duration to obtain complete biodegradation is 1 year for home composting. The
+most promising compounds with regard to biodegradation will be evaluated for degradation under marine conditions to
+evaluate the impact by accidental litter but also in soil to understand the potential for further applications like agriculture
+films (applications relevant to EUBP and to our AB).
+The results will be directly communicated to partners of WP2/WP3 in order to evaluate if further modifications of
+the materials are needed to ensure sufficient biodegradation rates. Selected formulations meeting the criteria for home
+composting where applicable for target demonstrators will be recommended for scaling up of the demonstrator solutions
+in WP5 and 6.
+Leader: OWS RF; Partners involved: partners of WP2/WP3 deliver materials
+Task 4.4 Predictive biodegradation modeling as support for eco-design of the new materials applications
+Subtask 4.4.1 Setup and data pre-processing, pre-analysis. IRIS will set up a data base for the partners to centralise all
+relevant information for the modelling task by M3. It will be initially populated with historical data, then complemented
+by results from the previous task in terms of biodegradation profiles both in industrial and home composting conditions.
+Next the available data will be pre-analysed to select the most discriminant variable subsets and to define new factors
+using, for example, PCA (Principal Component Analysis) and Factorial Analysis. This will also rely on support and
+expert know-how of the partners. Pre-processing of data before data modelling will give optimum input sets to the
+machine learning algorithms.
+Subtask 4.4.2 Data modeling and calibration. Next, the data will be modelled by benchmarking different machine
+learning algorithms (such as SVR and RI, see biodegradation/disintegration modelling part in section 1.4) using at
+least two fitness functions as objective output to optimize different aspects of the biodegradation, accounting for the
+Page 26 of 62
+effects of the known parameters influencing the biodegradation and disintegration such as composition and macroscopic
+structural aspects. The characteristic curves will be represented in a “parametric form”, including key values such as
+biodegradation time and biodegradation percentage achieved. As a first approximation (although not limited to), two
+model challenges will be considered:
+1) Biodegradation: testing is done on powders in order to try to link the degree of biodegradation with molecular
+characteristics of the coatings and copolymers e.g. ratio of the different comonomers, additives, molecular weight,
+crystallinity, structure.
+2) Disintegration: depends on e.g. thickness, density, form (weaving or other conversion method) and temperature (e.g.
+it will depend if we target home or industrial composting). The modelling will follow an incremental approach whereby
+in parallel with WP2-3, data on results from powder, pellets and sheets will be initially used (not accounting for some
+structure aspects of the final items), and new data can be incorporated as it becomes available. The resulting predictive
+models will be used, from M30, as a design support tool to select the right formulations for each project demonstrator
+as input for WP5-6 taking into account product specifications for the desired application and EoL scenario. Then, the
+models will be upgraded to be used on full items. Once the models are trained and validated with unitary testing, a
+Monte Carlo method will be developed to calibrate the system input parameters in order to obtain a closest match to
+a desired output (and/or fitness function).
+Subtask 4.4.3 CBR implementation, integration testing resulting in a predictive eco-design tool. Once the calibration
+process is completed, a CBR historical case base and system will be defined, bootstrapped with initial cases, and as real
+cases are processed, they will be incorporated, based on a similarity matching algorithm, which will also be developed.
+Synthetic data can also be generated for the CBR to complement existing empirical results for data modelling needs,
+especially in early phases of the project. Finally, the software (app) and algorithm interface will be prepared and an
+easy to use executable will be delivered.
+Leader: IRIS; Partners involved: OWS (terminated)/OWS RF delivers the degradation data, partners from WP2,3,5-6
+data on formulation, process…
+Task 4.5 Organic recycling of developed packaging by industrial and home composting and anaerobic digestion
+The packaging demonstrators from WP5 and 6 will be evaluated for suitability for organic recycling by industrial
+composting in line with EN 13432 Requirements for packaging recoverable through composting and biodegradation -
+Test scheme and evaluation criteria for the final acceptance of packaging (2000) and by home composting in line with
+NF T 51-800 Plastics – Specifications for plastic suitable for home composting (2015) (no standard on European level
+is yet available), which is similar to the certification systems OK compost HOME of TÜV AUSTRIA Belgium and
+DIN-Geprüft home compostable. This does not only involve biodegradation testing, but also material characteristics
+(mainly heavy metals), disintegration and effect on plant toxicity. Disintegration, which is the physically falling apart
+of a material, is strongly influenced by thickness and density and will be carefully examined and therefore the partners
+will be requested to provide a range of samples with variable attributes. Results will be communicated to WP5 and 6
+partners. Finally, the packaging (optionally including spoiled F&V, tea, etc) will also be evaluated in real life home
+composting conditions. Furthermore, the new concept of organic recycling by treatment in industrial biogasification
+plants will be evaluated. Therefore, not only the biodegradation, but also the disintegration under anaerobic conditions
+will be evaluated with the option of subsequent aerobic composting to represent industrial biogasification plants with
+additional composting step.
+Leader: OWS RF; Partners involved: partners of WP5, 6 deliver packaging items
+ 
+Participation per Partner
+Partner number and short name WP4 effort
+1 -  AIMPLAS 4.00
+2 -  INSTM 7.00
+     UNIPI 4.50
+3 -  CTB 3.00
+4 -  ASU 1.00
+6 -  Total-Corbion 0.50
+7 -  PLANET 1.00
+8 -  BioMi 4.00
+Page 27 of 62
+Partner number and short name WP4 effort
+9 -  EMSUR 0.20
+10 -  CMSA 2.00
+11 -  SILON 3.00
+12 -  Sioen 2.00
+14 -  Entrepinares 1.00
+15 -  UBESOL 1.00
+16 -  OWS 7.22
+17 -  Romei 8.49
+18 -  IRIS 59.00
+20 -  ENCO 0.50
+22 -  INNOTECH 3.80
+23 -  OWS RF 46.78
+Total 159.99
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D4.1
+Life cycle sustainability
+assessment: interim
+report
+16 - OWS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+24
+D4.2 Life cycle sustainability
+assessment: final report 23 - OWS RF Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+48
+D4.3
+Biodegradation of
+developed materials
+under home composting
+and anaerobic conditions
+23 - OWS RF Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+40
+D4.4 Material monitoring and
+recyclability 18 - IRIS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+36
+D4.5
+Organic recycling of
+packaging by industrial,
+home composting and
+anaerobic digestion
+23 - OWS RF Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+48
+Page 28 of 62
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D4.6 Predictive biodegradation
+models 18 - IRIS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+48
+D4.7
+LCA and organic
+recycling of packaging
+by home composting and
+anaerobic digestion
+23 - OWS RF Report Public 48
+Description of deliverables
+D4.1 Life cycle sustainability assessment: interim report (M24) - Interim report on the LCSA including goal and
+scope definition and the initial evaluation of reference scenarios.
+D4.2 Life cycle sustainability assessment: final report (M48) – Report on the LCSA including goal and scope
+definition, life cycle inventory, impact assessment and interpretation of the results for the developed products and of
+the comparison to the reference scenarios.
+D4.3 Biodegradation of developed materials under home composting and anaerobic conditions (M40)- Interim
+report on biodegradation behaviour in different environments, but especially in compost at ambient temperature and
+anaerobic conditions
+D4.4 Material monitoring and recyclability (M36- Report on the capacity to automatically sort the new compounds
+for the correct waste management, properties of recycled material, reprocessing feedbacks and estimation of possible
+applications
+D4.5 Organic recycling of packaging by industrial, home composting and anaerobic digestion (M48- report on
+industrial and home compostability and anaerobic digestion of developed packaging)
+D4.6 Predictive biodegradation models (M48) –predictive biodegradation model and derived app to be used as eco-
+design support tool for selecting the right BIOnTOP formulation and process for target application
+D4.7 : LCA and organic recycling of packaging by home composting and anaerobic digestion [48]
+The deliverable will be a public document which collects the LCA assessment results and the results of the home
+composting and anaerobic digestion performed in the products obtained along the project implementation.
+D4.1 : Life cycle sustainability assessment: interim report [24]
+D4.1 Life cycle sustainability assessment: interim report (M24) - Interim report on the LCSA including goal and
+scope definition and the initial evaluation of reference scenarios.
+D4.2 : Life cycle sustainability assessment: final report [48]
+D4.2 Life cycle sustainability assessment: final report (M48) – Report on the LCSA including goal and scope
+definition, life cycle inventory, impact assessment and interpretation of the results for the developed products and of
+the comparison to the reference scenarios.
+D4.3 : Biodegradation of developed materials under home composting and anaerobic conditions [40]
+D4.3 Biodegradation of developed materials under home composting and anaerobic conditions (M40)- Interim
+report on biodegradation behaviour in different environments, but especially in compost at ambient temperature and
+anaerobic conditions
+D4.4 : Material monitoring and recyclability [36]
+D4.4 Material monitoring and recyclability (M36- Report on the capacity to automatically sort the new compounds
+for the correct waste management, properties of recycled material, reprocessing feedbacks and estimation of possible
+applications
+D4.5 : Organic recycling of packaging by industrial, home composting and anaerobic digestion [48]
+D4.5 Organic recycling of packaging by industrial, home composting and anaerobic digestion (M48- report on
+industrial and home compostability and anaerobic digestion of developed packaging)
+Page 29 of 62
+D4.6 : Predictive biodegradation models [48]
+D4.6 Predictive biodegradation models (M48) –predictive biodegradation model and derived app to be used as eco-
+design support tool for selecting the right BIOnTOP formulation and process for target application
+D4.7 : LCA and organic recycling of packaging by home composting and anaerobic digestion [48]
+The deliverable will be a public document which collects the LCA assessment results and the results of the home
+composting and anaerobic digestion performed in the products obtained along the project implementation.
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS6 Interim LCA/LCC report 16 - OWS 24
+LCA (life cycle analysis),
+social s-LCA and LCC (life
+cycle cost) analysis will be
+performed. The interim LCA/
+LCC results will be used to
+select the materials for the
+demonstrators
+MS9 Compounds’ biodegradation
+in different environments 16 - OWS 34
+The biodegradation of
+the polymers, compounds
+and coatings from WP2
+and 3 meet EN 13432 and
+NF T 51-800 for home
+compostability. Biogas
+potential tested.
+MS10
+Biodegradation models of the
+polymers, compounds and
+coatings
+16 - OWS 36
+Biodegradation models
+will be available to support
+the eco-design of the new
+products by selecting the right
+compound formulation for
+each target.
+MS11
+Sorting methodology and
+recycling procedures for
+BIOnTOP materials
+16 - OWS 36
+The suitable technology
+for identifying each
+developed material and
+their recyclability by
+reprocessing as packaging and
+as textile after sorting will be
+established.
+MS14 Final LCA/LCC report 16 - OWS 48
+Final LCA/LCC report
+will show that the
+products developed reduce
+environmental impact
+vs. selected benchmarks.
+Stakeholders and policy
+waste management
+recommendations will be
+delivered too.
+MS15
+EoL options for the new
+bio-based packaging
+and validation of the
+biodegradation models
+16 - OWS 48
+The new products’
+biodegradability in
+application relevant
+conditions and biodegradation
+models will be validated
+Page 30 of 62
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+(target prediction +/-20%
+accuracy on compounds’ time
+to reach full biodegradation).
+Page 31 of 62
+Work package number 9 WP5 Lead beneficiary 10 22 - INNOTECH
+Work package title Pilot production and validation of bio-based mono and multilayer films and trays
+Start month 21 End month 48
+Objectives
+Objectives
+• To upscale at pilot scale the compound and films production and convert them into further packaging formats
+representing the range of modulable barrier, easy emptying and end of life options developed in the project.
+• To characterize bio-based monomaterial trays and compare to conventional counterparts. To validate them for F&V
+storage.
+• To characterize bio-based multilayer packaging (trays, flow packs/sachets) and compare to conventional counterparts.
+To validate them for dairy and personal care products.
+• To obtain and characterize bio-based monolayer films with significant recycled content into multiple use shopping
+bags.
+• To demonstrate that all the solutions developed at pilot scale show regulatory compliance.
+• To provide recommendations on different techno-economical aspects of scalability for successful transfer and
+sustainable production scale up (TRL will be further matured to reach the market).
+Note: until tailored copolymer compounds from the project are available, development work will start with PLA &
+PLA compounds
+Description of work and role of partners
+WP5 - Pilot production and validation of bio-based mono and multilayer films and trays [Months: 21-48]
+INNOTECH, AIMPLAS, INSTM, ASU, Total-Corbion, PLANET, BioMi, WEAREBIO, Entrepinares, UBESOL,
+Romei, IRIS, ARCHA
+This WP will entail the production of the project packaging demonstrators that will be produced at pilot scale first at
+RTDs to reach a consolidated TRL5 and then preliminary trials for further conversion at TRL5-6 in semi-industrial
+environments will be performed at SMEs and LARGE plastic and packaging converters in the consortium. Food &
+personal care packaging validation will be made at SMEs and LARGE partners with support from ASU in terms of
+sensory analysis with trained panellists. The work will start with an initial eco-design phase (in tasks 5.1 to 3 for
+compounds, mono and multilayer films respectively) that will deepen the initial packaging structures definition in WP1,
+while accounting for WP4 LCA and biodegradation model results to date, with support from OWS and IRIS respectively.
+Task 5.1 Compounding upscaling for films applications
+Based on the optimal process conditions used at lab scale in WP2 and the information acquired from the characterization
+results and biodegradation tests performed in WP4, the most suitable compounds will be selected for each film
+application on the basis of the WP2 results about processability. PLANET will produce in the range of 50 kg of pellets
+in a pilot twin screw extruder (on a Comac co-rotating twin screw extruder EBC 25 HT semi-industrial extruder) of the
+4 selected formula (resp. for flexible and rigid formats to be used in packaging with different EoL target and optionally
+coatings). Compound production will iterate on the basis of the feedback from industrial production of the demonstrators,
+optimising the formula if needed.
+Lead: PLANET; Partners involved: INSTM
+Task 5.2 Development of packaging demonstrator monolayer films and trays
+Subtask 5.2.1. Processing of thin monolayer films and trays from biopolymers. from task 5.1, the compounds will be
+used for the flat film extrusion of monolayer at PLANET to be further used in thermoformed trays based on preliminary
+results from WP3. Additional thin flexible film as lid, film or for wrap packaging technology will be produced on several
+blow extrusion lines at pilot scale at BioMi upscaling preliminary trials at AIMPLAS in WP2.
+Based on previous proof of feasibility in WP3, and support from AIMPLAS, the parameters for the thermoforming to be
+optimized at INNOTECH for each product developed will be: the temperature to obtain the tray, the time and pressure
+used, the pre-blowing step and cooling conditions. In addition, the capabilities of each material to be thermoformed will
+be studied by evaluating the thermoformability into moulds with different complexity and different ratios of drawing.
+After a process optimisation stage, a small series of trays and thin flexible film will be delivered for tasks 5.3, 5.4 and
+for recycling and biodegradation tests in WP4.
+Subtask 5.2.2 Physical-morphological characterization of the monolayer flexible films and the trays obtained. This
+task will include a full characterisation and the evaluation of the developed trays under realistic conditions. Issues as
+Page 32 of 62
+temperature and humidity variations, as expected in retail distribution will be tested. Physical (crystallinity, surface
+energy, tensile strength, elongation at break, etc.) and barrier properties (OTR, N2TR, CO2TR and WVTR) will be
+measured by appropriate methods. The WVTR determinations will be performed according to DIN 53122-1. The OTR,
+N2TR and CO2TR will be measured by according to DIN 53380-2 (GDP/E measuring device) at three temperatures
+in order to be able to determine the activation energy of permeation which will provide important information of the
+usability of the different packaging materials for F&V. Additionally, properties such as heat sealing behaviour will be
+characterized. Results will be compared with standard counterparts. The final selection of the most suitable materials
+for the validation task for each target will take into account not only technical and economic factors. The results will
+also be compared to those achievable by PLA by TOTAL-CORBION.
+Lead: BioMi; Partners involved: AIMPLAS, INNOTECH, ASU, IRIS
+Task 5.3 Multilayer Films and trays production upscaling
+Subtask 5.3.1 Coating, Thermoforming. The goal is to produce different multilayers in keeping with the multilayer
+structures defined in WP1 for each of the target EoL and products to be packed such as cheese trays & flowpacks and
+sachets for personal care products such as wet wipes. The films for the lids and sheets from previous task will be used
+as substrate. Their surface will be activated by a corona treatment to increase surface tension and will then be coated
+with a whey-layer formulation as oxygen barrier and afterwards grafted with FA as water barrier at INNOTECH pilot
+(picture in section 2, KPI8) following the recommendations based on WP3 process modeling. Furthermore, 60- 70
+microns flowpacks will be formed on a flowpacker at INNOTECH. Lamination with a similar copolymer material as the
+substrate could be considered if the sealability is insufficient. EMSUR will perform the scaling up of the thermoforming
+process with support from AIMPLAS. After a process optimisation stage, a small series of packaging will be delivered
+for task 5.4 and biodegradation tests in WP4.
+Subtask 5.3.2 Characterisation. The films, trays and flowpacks will be finally characterised concerning: water vapour
+barrier, oxygen barrier, mechanical strength, bond strength, transparency, sealing behaviour and optimal sealing
+parameters. Machinability of the films will be evaluated, as well as adhesion, printability. The final selection of the most
+suitable materials for food & personal care products will consider technical, as well as economic factors, availability of
+materials, logistics, etc. Liaising with FERRER (AB), the suitability of the multilayer films for their pharma products
+will also be discussed (blisters, sachets).
+Leader: INNOTECH; Partners involved: AIMPLAS, ASU, UBESOL, TOTAL-CORBION
+Task 5.4 Packaging validation for mono & multilayer solutions
+Subtask 5.4.1 Monolayer solutions validation. Trays and films produced in the task 5.2 will be used to pack different
+fresh produce including berries at WEAREBIO. In each case, a benchmark representing the currently used packaging
+material will be used for comparison. The shelf life will be tested (via physical-chemical, microbiological and
+organoleptic studies). At several storage periods, analyses of different parameters (appearance, colour, odour, pH,
+moisture content, lipid-oxidation, etc.) will be carried out. Recommendations for further improvements in tasks 5.2 in
+case shelf life is not reaching our targets will be provided in terms of the process, structure/formulation. Samples still
+containing F&V will be provided to WP4 too to mimic the case of rotten products disposed with the packaging.
+Subtask 5.4.2 Multilayer solutions validation for food. To validate a given film, trays (and optionally pouches)
+packaging of cheese, different assessments to ensure safety, functionality and organoleptic properties will be done by
+ENTREPINARES. Microbiological indicators of health and safety of the packed product will be checked (molds /
+yeasts / Mesophilic Aerobics / Total Coliforms / E. coli / Staphylococcus Aureus / Listeria Monocytogenes) as well as the
+permeability of the material through the study of the evolution of the gas levels in the packaging for MAP and vacuum
+loss in the case of vacuum packaged. The airtightness of the packaging material will be measure through immersion
+tests under vacuum. Sensory analysis of the packaged product will be done to rule out changes in the organoleptic
+parameters of the product due to migration of material (with panel of tasters to check that there are no differences
+between conventional packaging and that of the new material). Physical and chemical parameters variation of food
+throughout its life will be checked to validate the preservation of the nutritional properties of the product (% total dry
+extract, % fatty matter, % protein, % salt, pH). It will also be visually checked (discolorations, deterioration of the
+surface, exudates, mold growth, stickiness of cheese slices and release properties).
+Furthermore, the functionality of the package will be checked (analysis of packaging atmosphere proportion,
+hermeticity, shock resistance, peelability and resealing between lower and upper film, etc.). These analyses will be
+done at the beginning of packaging and on a monthly basis throughout the shelf life of the product between 2 and 6
+months, depending on the type of cheese packed, to check stability and / or evolution. In addition, hydrophobicity and
+easy emptying (repellence) behaviour will be tested by practical packaging realease tests with selected dairy products.
+Measuring the residual product content on the film will provide a valid information on improved repellence and easy
+emptying behaviour of the FA-grafted solutions.
+From above tests, if needed, iterations will be made with packaging manufacturers to improve the available packaging
+for the trials until partners can validate that BIOnTOP biobased barrier solutions allows similar shelf life as non-biobased
+counterparts.
+Page 33 of 62
+Subtask 5.4.2 Multilayer solutions validation for personal care. The validation of the packaging for personal care
+products and in particular wet wipes will be done by UBESOL. The suitability of the product to be used in flowpack
+equipment (type ILAPAK) ensuring the non-generation of flaws such as delaminates, interactions with labels, etc. will
+be confirmed and also their capability to be printed by flexo or other technology of 7-8 colours.
+Different physical measurements will be applied to validate the product: COF (coefficient of friction), grammage,
+thickness, etc. A deep test consisting of the immersion of the material in a hermetic recipient with a solution of an
+alcoholic solvent at 40ºC for 72 h will be also used as well as aging tests to evaluate compatibility aspects along 13
+weeks with periodic revisions at different temperatures (from -5ºC to 50ºC) and at different humidity conditions. The
+performance of all these evaluations, in comparison with current materials, will allow to validate the material to be used
+to package wet wipes.
+Leader: WEAREBIO; Partners involved: ASU, UBESOL, ENTREPINARES
+Task 5.5 Food packages health & safety assessment
+The present activity aims at performing a health & safety risk assessment on new developed products. ARCHA
+will assess the chemical safety and food regulatory compliance of selected representative final packaging materials
+developed within the project considering the regulatory requirements for food contact materials set out by the EC
+Regulation No 1935/2004 and, more specifically, the Plastics Regulation (EU) No 10/2011. The mass transfer properties
+of the selected materials will be assessed using conventional and realistic methods for migration evaluation. This will
+be achieved by studying the migration of a range of representative molecules already present in the basic polymer(s)
+but also of substances not been added for a technical reason during the production process, “non-intentionally added
+substances” (NIAS), such as impurities, reaction and degradation and decomposition products. Migration tests will be
+performed according to EC 10/2011 and establishing analytical methods based on gas- and liquid chromatography (GC
+and HPLC) coupled with suitable detection systems, i.e. mainly mass spectrometry.
+Leader: ARCHA; Partners involved: those who processed/used materials to provide info & samples
+Task 5.6 Films from secondary raw materials
+The post-industrial and cleaned post-consumer wastes from task 5.2 as well as those from task 5.3 after optional coating
+removal step from WP4 will be provided to Bio-Mi. These SRM will be tested alone but also mixed with prime materials,
+if needed, in order to achieve high mechanical properties of recycled films. Tests will be made on several blow extrusion
+lines at pilot scale to produce films (thicker than in task 5.2) and further multiple use shopping bags according to 94/62/
+EC directive on packaging and packaging waste. Developed films will have different ratio of recycled matrix starting
+with 10% of recycled content where we aim to increase this ratio close to 100%. After blown extrusion process, we will
+start with welding/sealing process to obtain final packaging e.g. shopping bags. A comparison with the virgin materials
+will be made in terms of properties to validate if the reuse of the films in similar applications could be technically
+feasible, although it is currently hindered by food contact legislations (unless working in a close collection system or
+after the certification of the overall recycling chain by challenge test which would not make sense at TRL5). To that end,
+also migration tests will be made on these materials in task 5.5. Characterisation of the bags’ mechanical properties will
+be done by tensile and propagation tear resistance tests. At the end of process, we will obtain secondary packaging which
+are bio-based, have high recycled content, are recyclable via mechanical recycling but also via organic recycling which
+is more than acceptable alternative for the currently PE bags which are fossil based and don’t have clear EoL scenario.
+We favoured bag above 50 microns as demonstrator as they have easier waste management and collection, are more
+resistant (reusable) and can accept higher percentage of recycled content (vs. thinner films made from virgin polymer).
+Based on the properties obtained further recommendations will be made in terms of other possible applications.
+Leader: BioMi. Partners involved: AIMPLAS, INSTM, ROMEI to provide materials from WP4
+ 
+Participation per Partner
+Partner number and short name WP5 effort
+1 -  AIMPLAS 25.00
+2 -  INSTM 2.00
+     UNIPI 2.00
+4 -  ASU 6.00
+6 -  Total-Corbion 0.50
+7 -  PLANET 4.00
+8 -  BioMi 19.00
+Page 34 of 62
+Partner number and short name WP5 effort
+13 -  WEAREBIO 4.19
+14 -  Entrepinares 4.00
+15 -  UBESOL 13.00
+17 -  Romei 1.50
+18 -  IRIS 3.00
+19 -  ARCHA 6.00
+22 -  INNOTECH 30.90
+Total 121.09
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D5.1
+Report on the compound
+upscaling for films
+applications
+7 - PLANET Demonstrator
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+36
+D5.2
+Report on the
+development of
+packaging demonstrator’s
+monolayer films and
+trays
+8 - BioMi Demonstrator
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+40
+D5.3
+Report on the multilayer
+films and trays
+production upscaling
+22 - INNOTECH Demonstrator
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+42
+D5.4
+Report on the validation
+of food and personal care
+packaging
+13 - WEAREBIO Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+48
+D5.5
+Report on Food
+packages health & safety
+assessment
+19 - ARCHA Report Public 48
+D5.6
+Report on properties and
+quality of films from
+secondary raw materials
+and recommendation for
+possible applications
+8 - BioMi Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+48
+Description of deliverables
+D5.1 : Report on the compound upscaling for films applications [36]
+Page 35 of 62
+D5.1 Report on the compound upscaling for films applications (M36) – report on the compounding process at TRL6
+of the most 4 promising formula and 200 kg of 4 selected formulas produced till M39
+D5.2 : Report on the development of packaging demonstrator’s monolayer films and trays [40]
+D5.2 Report on the development of packaging demonstrator’s monolayer films and trays (M40)- report on the pilot
+and industrial scale trials for producing different types of films and trays as well as the demonstrators
+D5.3 : Report on the multilayer films and trays production upscaling [42]
+D5.3 Report on the multilayer films and trays production upscaling (M42) – report on upscaling (TRL5-6,
+contributing to BBI-JU KPI8) of the FA +whey coating application, and final multilayer trays & films functional
+properties.
+D5.4 : Report on the validation of food and personal care packaging [48]
+D5.4 Report on the validation of food and personal care packaging (M48)- report on the results of different food and
+personal care products storage in the demonstrators packaging
+D5.5 : Report on Food packages health & safety assessment [48]
+D5.5 Report on Food packages health & safety assessment (M48) – report on the chemical safety and the food
+regulatory compliance of the new packaging
+D5.6 : Report on properties and quality of films from secondary raw materials and recommendation for possible
+applications [48]
+D5.6 Report on properties and quality of films from secondary raw materials and recommendation for possible
+applications (M48)– Optimised Process parameters, properties of recycled films as well as suggestions for possible
+applications
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS12
+Production of bio-based
+monomaterial as well as
+multilayer trays & films at
+pilot scale and use of SRM to
+obtain bags
+22 - INNOTECH 42
+Recyclable bags from SRM,
+trays & films/flowpacks for
+F&V, dairy, personal care are
+available for characterisation
+including biodegradation
+tests.
+MS16
+Validation of BIOnTOP
+monomaterial & multilayer
+trays & films and SRM for
+bags
+22 - INNOTECH 48
+The potential to substitute
+fossil benchmarks of
+the BIOnTOP solutions
+demonstrated
+Page 36 of 62
+Work package number 9 WP6 Lead beneficiary 10 12 - Sioen
+Work package title Pilot production and validation of bio-based nets and textile packaging
+Start month 1 End month 48
+Objectives
+• To upscale the compound production and convert BIOnTOP compounds into biobased nets and fabrics (pilot scale).
+• To characterise nets for F&V produced by extrusion melt spinning.
+• To produce and characterise tea bags (woven monofilament fabric), food wraps (PLA coated woven multifilament
+fabric) and carrier bags (PLA coated non-wovens from SRM).
+• To validate the use of these BIOnTOP solutions for packing food.
+Description of work and role of partners
+WP6 - Pilot production and validation of bio-based nets and textile packaging [Months: 1-48]
+Sioen , AIMPLAS, INSTM, CTB, ASU, Total-Corbion, PLANET, CMSA, SILON, WEAREBIO, Romei, IRIS,
+ARCHA, OWS RF
+Description of work
+This WP will entail the production of nets and textile packaging demonstrators at pilot scale and their validation in
+industrial environments at packaging converters in the consortium. The work will start with an initial eco-design phase
+(in 6.1 and 6.2 and 3 for compounds and textiles respectively) that will deepen the initial packaging structures definition
+in WP1, while accounting for WP4 LCA and biodegradation model results to date, with support from OWS RF and
+IRIS respectively. The most promising materials developed in WP2 and 3 will be evaluated for the processing into
+nets and textile filaments first at pilot scale and after then by industry for the potential implementation in a range of
+optionally coated textile products. Products will be characterized and compared with current standards (both fossil-
+derived and bio-based).
+Task 6.1 Compounding upscaling for biobased nets and textile packaging
+Based on the optimal process conditions used at lab scale in WP2 and the information acquired from the characterization
+results and biodegradation tests performed in WP4, the most suitable compounds will be selected for each textile
+application (processability required by different methods). PLANET and SILON will produce in the range of 50 kg
+of pellets in a pilot twin screw extruder of 4 most promising formula (respectively for nets and textiles). Compound
+production will iterate on the basis of the feedback from industrial production of the demonstrators optimising the
+formula if needed.
+Leader: SILON; Partners involved: INSTM, PLANET
+Task 6.2 Development of packaging demonstrator nets
+Subtask 6.2.1. Processing of nets from biopolymers. CMSA with the support of AIMPLAS will produce nets for fruits
+packaging by a modified Extrusion Melt Spinning (EMS) at industrial level. This process has a very specific die for
+obtaining the extruded non-oriented nets in tubular form. In the project, oriented net will be produced although their
+combination with plastic sheets will be taken into account as a contingency plan (the flexible bag would be produced with
+the material developed for films from WP5) for less exigent applications. The process to obtain oriented nets includes
+a new step after the net formation and cooling consisting on a new heating and stretching step by means of drawing
+rollers to improve their mechanical properties. Additionally, small modifications will be considered in the tooling of the
+spun-process machinery to maximize the stretching of the filaments and the weldability between filaments and between
+nets and sheets.
+Based on the work done during ECOBIONET project where PLA was used, each processing parameter (screw
+temperature, screw speed, annular die rotation speed, die temperature, stretching ratio, etc.) will be analysed in order
+to know their role in the quality of the net and process output with the BIOnTOP materials. The best parameters will
+be optimized to produce enough extruded tubular nets to evaluate the robustness of the process and the average output,
+and to do a complete characterization of the nets as described in tasks 6.1.2.
+Subtask 6.2.2 Characterization of the nets obtained. According to the experience of CMSA customers and the
+recommendations of standard CEN TC 261 ("Packaging") and ISO 2247, different tests will be performed to simulate the
+mechanical and thermal stress that the net suffers from packaging in automatic machines until the product is consumed.
+AIMPLAS & CMSA will evaluate the functionality of the new biodegradable nets, comparing them to the most
+commonly used nets at present and the obtained during ECOBIONET project. The following aspects will be evaluated: i)
+deformation of the nets resulting from packaging process and ii) deterioration of the nets due to environmental conditions
+Page 37 of 62
+(humidity, temperature, etc.). A small series of nets will be delivered for biodegradation tests in WP4 and task 6.4 for
+food storage validation.
+Lead: CMSA; Partners involved: AIMPLAS, WEAREBIO, IRIS.
+Task 6.3 Development of textile fibres, yarns and fabrics for packaging
+Subtask 6.3.1 Melt spinning processing for textile packaging from biopolymers. The compounds from task 6.1 selected
+based on preliminary feasibility trials to obtain filaments in WP2 will be thoroughly evaluated for their processing into
+textile. Depending on the further processing different melt spinning processes will be investigated. Starting conditions
+and dimensions (dtex/diameter of the filaments) will be set-up at CTB in collaboration with the industrial end-users
+SIOEN and SILON.
+• Monofilament / tape extrusion (needing a minimum of 5 kg for one trial day): A monofilament is produced using
+water-bath quenching meaning that hardly any melt drawing is performed. The quenched filament is heated above Tg
+and drawn to the maximum extent (draw ratios between 6 and 10).
+• Staple fibre extrusion (needing a minimum amount of 10 kg for one trial day): The process to obtain staple fibres
+consists of extrusion, drawing, crimping and cutting. This will be done in 1 step (called short spinning, typically at
+lower speeds) and in 2 steps (called long spinning, typically at higher speeds and for finer diameters). Staple fibres will
+be predominantly produced using recycled material fractions.
+Fine-tuning of the extrusion parameters will be done in order to optimize the filament production as well as the
+final mechanical properties. The success of the extrusion process itself will be determined via filament homogeneity,
+production speed, maximum drawing rate, filament breakages and observation of any anomalies. The processing
+conditions that should be evaluated include: extruder and die temperature, throughput, drawing rollers speed and
+temperature, die geometry, shear rate, melt and cold draw ratio, spinfinish application, etc.
+Subtask 6.3.2 Full characterisation of produced filaments. The produced filaments will be fully characterized in order to
+evaluate their further processing and guide potential feedback loops. Characterisation tests include mechanical analysis
+(tensile strength, modulus, elongation at break) – under controlled conditions, determination of the materials density
+(correlated to molecular structure and composition), shrinkage of filaments triggered by heat, and resulting shift in
+mechanical properties, DSC (crystalline structure, melting temperature).
+Furthermore, durability is an important factor for screening new formulations as indication that a certain life time
+of the products can be achieved. Therefore, the tensile strength will be determined after ageing by UV and Xenon
+light and by combined testing of increased heat and humidity in a climate chamber. In cooperation with WP4, the
+biodegradability will also be evaluated at filament level to select filaments with best processing conditions and properties
+for the validation into textile products.
+Subtask 6.3.3 Processing of novel materials into fabrics. Based on the results of the previous sub-tasks, 1 or 2 novel PLA-
+based formulations will be selected for validation by further processing into fabrics (semi-finished products). This will
+require to produce filaments on a larger scale. For the processing into fabrics, we will focus on weaving (as it is relevant
+for teabags and wraps) and on nonwoven (as it is relevant for the carrier bag). For the weaving and nonwoven processes,
+the processing conditions will have to be established to deal with the novel materials and the resulting characteristics.
+A key parameter will be the processing speed and the evaluation of the friction behaviour of the yarns.
+Results of WP3 will be used for adding a functional coating to the fabrics. This will allow to obtain a hydrophobic PLA
+coating by using the coating techniques that were developed in WP3.
+The woven and nonwoven fabrics will be fully characterized and compared with similar current (coated) fabrics (non-
+bio-based, non-biodegradable). This involves the mechanical characterisation of the fabric and the physico-chemical
+analysis of the fabrics, with and without coating. Also the biodegradability (in interaction with WP4) will be investigated.
+The functional performance will be dealt with in a sub-task of 6.5-. Recommendations for post project scale up and
+broader deployment will be provided taking into account techno-economic feasibility. Based on the obtained properties
+and the needs of the consortium and AB partners, potential other applications, besides the ones validated in task 6.4
+will be suggested (e.g. meat absorption pads, meat nets, coffee pads, industrial packaging etc). The results will also be
+compared to those achievable by PLA by TOTAL-CORBION.
+Leader: CTB; Partners involved: CTB (leading 1st 2 subtasks), SILON, ARCHA, OWS RF, IRIS, TOTAL-CORBION
+Task 6.4. Food packaging validation for nets and textile solutions
+Subtask 6.4.1 F&V nets validation. The nets produced at CMSA will be tested in WEAREBIO´s facilities, to evaluate
+their processability and welding in the automatic filling production line, and their behaviour during transport and storage.
+Selected products to be packed in the nets are potatoes or tomatoes depending of harvest season. Afterwards, the ageing
+of these nets will be evaluated using different laboratory technologies in AIMPLAS facilities. Although the shelf life is
+not expected to be influenced in that format, tracking will be made along the storage. Sensory analysis will be performed.
+If needed, recommendations for further improvements in tasks 6.2 will be provided in terms of the process, structure.
+Samples still containing F&V will be provided to WP4 too to mimic the case of rotten products disposed with the
+packaging.
+Leader: WEAREBIO. Partners involved: ASU, AIMPLAS
+Page 38 of 62
+Subtask 6.4.2 Tea bag and food wrap validation. Monofilaments with a fineness of 30 dtex will be produced based
+on the results obtained at pilot scale in task 6.3. These monofilaments will be woven by SIOEN into fine meshed
+fabrics typically used for tea bags which will be filled in collaboration with a customer of SIOEN. Their performance
+(mechanical properties, shelf life, etc) will be tested and compared to the currently available solutions (non bio-based
+and bio-based).
+An important characteristic of the tea bag is the preservation of the flavours and fragrances of the tea. Current available
+solutions work with finely meshed materials to realise this. Within BIOnTOP, we want to do a first screening of the
+addition of a water-soluble coating layer, which will keep the flavours and fragrances during shelf life but release them
+as soon as the tea bag is immersed in hot water. In this way, the aroma barrier properties are enhanced and the shelf life
+of the tea is extended. To this end, the coating of a water-soluble coating such as commercially available polysaccharides
+such as alginates based coatings on top of the woven fabric will be evaluated (or lamination with an edible film thereof).
+Aroma barrier will be measured indirectly by gas permeation measurement methods. Selected samples will be tested
+with sensory panellists at ASU.
+Lead: SIOEN, Partners involved: SIOEN, ASU
+Task 6.5 Food packages health & safety assessment for nets and textile solutions
+ARCHA will perform migration tests on the textile packaging as described in task 5.6.
+Leader: ARCHA. Partners involved: those who processed/used materials to provide info & samples
+Task 6.6 Textiles from secondary raw materials
+The post-industrial and cleaned post-consumer wastes from the project will be provided to SILON (who will have pre-
+evaluated with ROMEI and INSTM the possibility to reprocess the recycled PLA with good properties in WP4). CTB
+and SILON will test the recycled pellets for staple fibre extrusion as this a common way to re-use recycled polymers
+such as PET. The recycled BIOnTOP materials will serve as an alternative for the recycled polyester staple fibres, which
+SILON standardly uses, with the advantage of not only being made from recycled materials but also being bio-based
+and compostable. Work will start at the pilot extrusion line of CTB evaluating the processability to multifilaments of
+the recycled materials and the resulting mechanical properties (mainly tenacity and strain). If required for processing,
+virgin biobased polymers will be added. These staple fibres will be processed to nonwovens.
+A hydrophobic coating (PLA or FA-based) will be applied by lamination on the PLA based nonwoven for final use as
+carrier bags. Characterisation will mainly include mechanical strength, ageing behaviour and hydrophobic properties.
+The recyclability of the coated bags will be tested too for a similar application. Based on the properties obtained further
+recommendations will be made in terms of other possible applications.
+Leader: SILON. Partners involved: SIOEN, STB, ROMEI, INSTM
+ 
+Participation per Partner
+Partner number and short name WP6 effort
+1 -  AIMPLAS 10.00
+2 -  INSTM 2.00
+     UNIPI 2.00
+3 -  CTB 21.00
+4 -  ASU 2.00
+6 -  Total-Corbion 0.50
+7 -  PLANET 2.00
+10 -  CMSA 21.00
+11 -  SILON 14.50
+12 -  Sioen 18.00
+13 -  WEAREBIO 2.50
+17 -  Romei 1.50
+18 -  IRIS 3.00
+19 -  ARCHA 6.00
+Page 39 of 62
+Partner number and short name WP6 effort
+23 -  OWS RF 1.00
+Total 107.00
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D6.1 Report on nets processing 10 - CMSA Demonstrator
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+42
+D6.2
+Report on filament
+production and initial
+textile conversion
+3 - CTB Demonstrator
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+36
+D6.3
+Report on the validation
+of food packaging for
+nets and textile solutions
+12 - Sioen Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+48
+D6.4
+Report on Food
+packaging for nets and
+textile solutions health &
+safety assessment
+19 - ARCHA Report Public 48
+D6.5
+Report on textile
+applications and textiles
+from secondary raw
+materials
+11 - SILON Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+48
+Description of deliverables
+D6.1 : Report on nets processing [42]
+D6.1 Report on nets processing (M42) – report on the pilot and industrial scale trials for producing different nets as
+well as the demonstrators for further testing
+D6.2 : Report on filament production and initial textile conversion [36]
+D6.2 Report on filament production and initial textile conversion (M36)- report on the extrusion parameters and
+filament properties with the new formulations
+D6.3 : Report on the validation of food packaging for nets and textile solutions [48]
+D6.3 Report on the validation of food packaging for nets and textile solutions (M48)- report on the results of different
+food storage in the demonstrators packaging obtained during scale up production trials
+D6.4 : Report on Food packaging for nets and textile solutions health & safety assessment [48]
+D6.4 Report on Food packaging for nets and textile solutions health & safety assessment (M48) – report on the
+chemical safety and the food regulatory compliance of the new packaging
+D6.5 : Report on textile applications and textiles from secondary raw materials [48]
+D6.5 Report on textile applications and textiles from secondary raw materials (M48)- report on the production
+optimisation and validation of the new materials for textile packaging, including recycling (tea bags, food wrap,
+nonwoven carrier bags)
+Page 40 of 62
+D6.1 : Report on nets processing [42]
+D6.1 Report on nets processing (M42) – report on the pilot and industrial scale trials for producing different nets as
+well as the demonstrators for further testing
+D6.2 : Report on filament production and initial textile conversion [36]
+D6.2 Report on filament production and initial textile conversion (M36)- report on the extrusion parameters and
+filament properties with the new formulations
+D6.3 : Report on the validation of food packaging for nets and textile solutions [48]
+D6.3 Report on the validation of food packaging for nets and textile solutions (M48)- report on the results of different
+food storage in the demonstrators packaging obtained during scale up production trials
+D6.4 : Report on Food packaging for nets and textile solutions health & safety assessment [48]
+D6.4 Report on Food packaging for nets and textile solutions health & safety assessment (M48) – report on the
+chemical safety and the food regulatory compliance of the new packaging
+D6.5 : Report on textile applications and textiles from secondary raw materials [48]
+D6.5 Report on textile applications and textiles from secondary raw materials (M48)- report on the production
+optimisation and validation of the new materials for textile packaging, including recycling (tea bags, food wrap,
+nonwoven carrier bags)
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS13 Production of bio-based nets
+and fabrics at pilot scale 12 - Sioen 42
+Nets and fabrics with the
+potential to biodegrade in
+home composting, as well as
+food wrap are available.
+MS17 Validation of bio-based nets
+and fabrics 12 - Sioen 48
+Nets and fabrics, as well as
+food wrap, and textile bags
+from SRM, have suitable
+properties to substitute set
+benchmarks
+Page 41 of 62
+Work package number 9 WP7 Lead beneficiary 10 20 - ENCO
+Work package title Market strategy an innovation impacts
+Start month 1 End month 48
+Objectives
+• To lay down the basis for the establishment of BIOnTOP sustainable circular bio-based packaging value chains and
+set up suitable business models to catch new market opportunities also considering the consumer perception.
+• To maximise the innovation impacts of the project for contributing to the uptake of the project results for growth
+and jobs by properly managing and protecting the BIOnTOP knowledge and results and establish a robust plan for the
+communication, dissemination and exploitation of BIOnTOP results.
+• To connect in a strategic dialogue general public and policy makers to lobby for the set up of new AD and home
+composting standard at the EU level, as well as policy recommendations to incentivise the use of bio-packaging.
+Description of work and role of partners
+WP7 - Market strategy an innovation impacts [Months: 1-48]
+ENCO, AIMPLAS, INSTM, CTB, ASU, EUBP, Total-Corbion, PLANET, BioMi, CMSA, SILON, Sioen ,
+WEAREBIO, Entrepinares, UBESOL, OWS, Romei, IRIS, ARCHA, MC, INNOTECH, OWS RF
+Description of work
+Task 7.1 Innovation Management
+This task, acting as an umbrella for the IPR, exploitation and dissemination activities encompassed in this WP, will
+ensure that an appropriate and systematic approach to Innovation Management is implemented during the project. The
+Innovation manager, from ENCO, will lead this effort. He will ensure that the innovation process (described in Section
+3.2) is appropriately managed. During the meetings of the Innovation Committee he will lead a working session on
+Innovation Management activities.
+As a link between excellent technical results and market demand, the main outcome will consist in identifying real
+business opportunities, the related customer segments and which value propositions they require. The monitoring of
+the evolution of the results towards market readiness via a mapping of the TRL evolution for each KER will also be
+implemented (in link to milestones).
+Leader: ENCO, Partners involved: all
+Task 7.2 Study of consumer perception
+Consumers will be targeted to analyse their perception to drive our development to a future successful packaging and
+to finally assess their confidence in BIOnTOP innovations. This will ensure the sustained alignment of BIOnTOP to
+market real needs to help decreasing time-to-market of the proposed solutions. A survey (questionnaire) will be designed
+and submitted to consumers to get insight into how they perceive the consumption of food packed with our new bio-
+based solutions with optimal conservation properties but also safer for the environment. This will complement societal
+assessment (s-LCA) performed in WP4. Consumers will be surveyed on their habits towards shelf life information,
+packaging format they use, emerging needs, material type and EoL labelling to comprehend their attention to end-of-
+life options for packaging, as well as their reaction regarding the source of our new bio-based materials, the ethical
+concerns they may have regarding material’s origin from food by-products or their potential leak in the environment
+at EoL. The questionnaire will be disseminated among different channels: association offices available nationally both
+from MC and our AB as well as its network; website and social networks; newsletters; Consumer’s magazine; partner
+associations of European Consumers Union, ECU. This last, in particular, will ensure a strong coverage at European
+level, providing a direct insight on consumers attitudes on the issue and their requirements. The project partners will also
+contribute to the survey in their respective value chains. While setting the questionnaire, performing this study as well
+as during the processing of data, gender aspects will be also considered, as environmental/safety/cost-efficient factors
+on packaging selection vary depending on the gender of the consumers. Furthermore, inputs from sensory analysis
+performed in WP5 and 6 will be given for consumer perception study. Results from the questionnaire will be discussed in
+three focus groups, in which associations, companies and institutions will participate. Findings will be used to steer the
+project towards consumers’ requirements/influence. The survey structure will be also taken as baseline for developing
+an information guide for the consumers that will be used for the dissemination of results.
+Leader: MC. Partners involved: Advisory board, OWS(terminated)/OWS RF, ENCO, EUBP
+Task 7.3 Roadmap for the set up of BIOnTOP circular value chains and new cross-sector interconnections in bioeconomy
+clusters
+Page 42 of 62
+This task seeks to boost new bioeconomy value chains based on BIOnTOP results, by strategically providing impetus to
+all the key actors along the value chain. The societal transition towards bioeconomy implies structural remodeling of the
+value chain players (biopolymer producers, packaging converters, waste managers and recyclers) but also reinforced
+connection with end user possible applications. Thus, a stakeholder analysis (identify and prioritize who to mobilise
+and engage with) will be shaped approaching key actors across all stages of the value chains. The analysis will be based
+on a 3-step process: i) Mapping Stakeholders, ii) Recruiting Stakeholders (Acquisition) iii) Managing Stakeholders
+(Retention) considering their knowledge, interests, positions, alliances, relationships, key roles and responsibilities. To
+connect in a collaborative dialogue the identified players along the value chains appropriate measures will be adopted
+as: 1) Workshops, roundtables, open days, action groups to bring together key players in new cross-sectorial value
+chains and maximise their pull effect. 2) Online consultations and pools, surveys and interviews in order to gather
+relevant information to feed into subsequent activities of this WP. Thereafter, a roadmap to create new cross-sector
+interconnections in bio-based economy clusters will be designed to facilitate the establishment of new bonds among
+different sectors that may benefit from BIOnTOP innovation. It will be built on top of the analysis of the following
+settings: i) Economic & Market: insight of bioplastics value chain structure (quantity & quality), demand & supply,
+Users perceptions and new potential business opportunities/ Market drivers/barriers. ii) Socio-cultural aspects with link
+with task 7.2: Public awareness, Environmental awareness, Human health, Specialized knowledge/skills available; iii)
+Policy & Regulation: current political framework for bio-based and biodegradable packaging, beneficial/detrimental
+legislation/initiatives, Government endorsed progressive programmes, Prioritization on political agenda; iv) Finance:
+Mobilisation of capital, Favourable/ adverse environment, Policy incentives, Financial models and instruments.
+Leader: ENCO, Partners involved: EUBP
+Task 7.4 Knowledge and IPR management
+This task intends to capture and effectively manage the IP used in BIOnTOP project and generated by it. Measures
+and rules for knowledge management and protection will be set up to ensure an effective dissemination and a fair
+commercial/non-commercial exploitation of the project results. The IPR management will be carried out all along the
+project schedule to derive the greatest commercial value out of the intangible assets (IA) and intellectual capital (IC).
+Patent watch will be performed periodically to confirm the novelty of the proposed R&I work and guarantee that the
+consortium partners are free to operate. The background information and knowledge held by the partners will be secured
+according to the IPR strategy (IPR ownership, Access rights, Non-Disclosure Agreement /Material Transfer Agreement
+if any 3rd party need to test the novel materials we aim at protecting, etc.). The results generated will be regularly
+screened in terms of novelty, patentability and protection to define the most appropriate IPR scheme to secure the project
+outputs. After assessing the commercial potential, all protectable results will be protected (patent, copyright, trademark,
+etc.) by the owner or joint owners. Business information or valuable know-how that cannot be protected by patents or
+other forms of registered protection will be protected via contractual mechanisms (NDA/MTA) or trade secret. A policy
+on publication of results will be implemented where a clearance procedure will be followed by all parties, to mitigate
+against the risk of publicly disclosing information before patent protection is in place and avoid that presentations/
+publications may hinder/jeopardise patent protection. The IPR Manager will work closely with the knowledge owners
+to assist them in fulfilment of the IPR rules, as well as negotiating any additional agreements that might be necessary
+in line with developments as they unfold (Joint Ownership Agreement(s), etc.). The IPR Manager will also support the
+inventors and knowledge owners in acquiring further insight on to how to deal with their new inventions.
+Leader: ENCO. All partners will be involved.
+Task 7.5 Exploitation and Dissemination Planning
+This task seeks to establish a PEDR to boost the impacts of the BIOnTOP action, paving the way for the broader post-
+project uptake of all tangible and intangible KERs generated. The PEDR will detail how each of the KER will be used in
+commercial/non-commercial direct/indirect exploitation activities for business growth and competitiveness following
+project completion, including training activities. Gender factors will be also contemplated in all stages of this work.
+Subtask 7.5.1. Business and exploitation planning. All the possible potential exploitation routes for each KER will be
+mapped in support of the transition to the post-project phase (to advance the TRLs and reach the market). This plan will
+be drawn up as follow: i) KERs and their applications: development status, SWOT analysis, differences from competing
+products/services, applicable IPR issues in link with task 7.4. ii) Market: from task 7.3, including definition of strategies
+and actions to align the BIOnTOP offers to caught trends. iii) Technology watch: sight towards relevant technological
+developments and innovations from third parties with the aim to timely react to those and turn collected information
+into knowledge to feed the project activities. iv) Financial projections: investment needed for covering the costs, source
+of further funding to be identified focusing on applications where a return on investment is feasible, complementary
+or parallel projects. Decision makers from the European Structural and Investment Funds (ESIF), and other regional
+and national R&I initiatives will be approached so that they are aware of BIOnTOP and it strategic importance for
+transitioning to a more sustainable & bio-based economy. The necessary steps towards funding applications will be
+managed. Pre-commercial procurement as a means to complete market-oriented exploitation processes by creating
+Page 43 of 62
+demand will be also monitored. The avenues for licensing the BIOnTOP concept will be studied as viable option to
+increase production capacity and generate further revenues. Leader: ENCO. Partners involved: All.
+Subtask 7.5.2. Standardisation, certification, policy & regulatory framework. Relevant standardisation and certification
+landscape for BIOnTOP will be permanently assessed at international, EU and national level. BIOnTOP findings will be
+captured by EUBP for fuelling the evolution of the different standard (e.g. regarding biodegradation, bio-based content,
+etc), certification (e.g. sustainable sourcing for bio-based materials) and labelling schemes. An in-depth exchange
+will be established with the relevant standardisation bodies, technical committees (CEN/TC 411- Bio-based products
+and CEN/TC 249 - Plastics), and with the most important independent certifiers in the field of bioplastics (Vinçotte
+and DIN CERTCO). Consulting ISWA (AB), EUPB will curate the provision of policy recommendations regarding
+resource efficiency improvement, waste management, EoL scenarios tuned for specific applications, that could be used
+by standardization bodies in the reflexion about new/ improved standards. The outcome of the evaluation of the project
+results, especially in terms of biodegradation tests and LCA, will also be used in position papers addressed to relevant
+actors identified in task 7.3. New scheme of incentives for biobased plastics with tuned EoL, as well as for their
+proper recycling, will be also proposed and pushed at EU and national level. Leader: EUBP Partners involved: OWS
+(terminated)/OWS RF
+Subtask 7.5.3 Dissemination of results. All non-confidential information and knowledge generated within the project
+will be properly distributed. This will include: Publishing scientific articles and manuscripts in open access journals,
+submitting papers in conferences (subject to the consortium’s policy on publication of results consistent with IP
+protection rules. Organizing dedicated sessions & scientific workshops as a part of 3rd party large events with significant
+impact (in addition to those addressed to consumers in task 7.2). Targeted transmission of articles in relevant trade and
+industry-focussed media outlets. Open labs where BIOnTOP scientists perform the project work. Preferred venues are
+techno poles or orientation day fairs where young future scientist could be reached. Networking with other projects,
+initiatives and networks in EU and beyond, establishing enduring liaisons and synergies. This will guarantee knowledge
+interchange and reuse between previous and future projects. Interaction with the other BBI projects will be particularly
+sought as well as interacting with project partners’ respective regions/value chains. Policy briefs and case studies
+targeting policy makers. Leader: EUBP Partners involved: All
+Subtask 7.5.4 Knowledge transfer activities. A set of training modules will be prepared and delivered among partners
+(onsite training to the new technologies, documents sharing, transfer of knowledge within meetings) for ensuring
+that there is sufficient knowledge and competence transfer opportunity during the project. This also guarantees that
+the consortium is prepared for the future post-project use of the results. Internal training will initially be performed
+involving partners’ R&D but also business departments to “adopt” the innovation and complemented by training of e.g.
+production department in terms of processing aspects. In addition, formal external training sessions will be organised
+and targeted at selected attendees such as scientists, end user industry and policy makers to ensure the BIOnTOP
+knowledge is exchanged, providing foresight at benefits gained from the new solutions. This educational effort will
+facilitate understanding, acceptance and future uptake and exploitation of the results of BIOnTOP. Feedbacks will be
+collected used to feed the project and post-project improvements. These sessions will feature illustrative video, studies
+and best practice materials. RTDs involved in educative actions will include the project results in their lectures and
+involve e.g. PhD students. The developed materials will be freely available. Leader: AIMPLAS, Partners involved: All
+Task 7.5.5 Communication Campaign. An effective communication strategy will be established to connect and engage
+with people around the project topics. This will be designed as a branding campaign where storytelling will be accurately
+designed on top of agreed key messages and conveyed through specific channels. In all cases, messages will be
+shaped on top of the benefits of BIOnTOP, educating the public about the EoL scenarios offered by our project.
+Appropriate measures (reported and Annexed to the PEDR) comprise: Graphics identity (M1). Cornerstone for a public
+communication, original and creative graphics will be developed to allow public to easy identify, and identify with, the
+project. The audiences’ attention will be caught by using visual content, GIFs, icons imagery. Project website (M4).
+Conceived as the permanent reference virtual hub for new bio-based packaging and relevant issues (performances,
+easy emptying, biodegradability, recyclability, compostability), it will present the project brand and circulate relevant
+information about BIOnTOP, easy to understand infographics, links to other relevant websites, project news, educational
+materials, videoclips, etc. It will serve to follow up the development of the project and to spread the non-confidential
+science results leveraging emotion and passion of general public. It will also host the BIOnTOP Green Open Access
+Channel where project public reports, deliverables, publications will be made easily available. Project Roadshow of
+events, scheduling an agenda of EU and international events as trade fairs, exhibitions, round tables, etc., as well as the
+organisation of dedicated BIOnTOP events and competitions. Media campaign (M2) pushing briefings and press releases
+to key media contacts (TV, radio and written press) to amplify our core messages. Social media (M4). An extensive
+social media campaign (Instagram, Pinterest, Twitter, V2020 and LinkedIn) will be implemented, capitalising on the
+extraordinary power of engaging audiences in a two dialogue. Digital and printed material (M2). Project flyers, posters,
+booklets, gadgets will be created and distributed at any events attended in order to support project communication and
+branding actions. E-newsletter. A 6-monthly newsletter will be transmitted to the project audiences. It will contain news
+Page 44 of 62
+and information on the project, upcoming events/conferences attended/organised by partners. BIOnTOP final event
+(M47) will be organised in a key-location to showcase the project outputs. Particular efforts will be paid to approach
+and liaise with general public as well as policy makers, who are recognised as playing a strategic role in amplifying
+the outreach of the project solutions and multiplying the impact of BIOnTOP packaging. Communication will be also
+streamlined through Horizon2020 and BBI communication channels.
+Leader: EUBP. Partners involved: ENCO for website and materials design, organisation of the final event. All
+partners for content, leveraging their communication department via existing corporate newsletters, blogs, social media
+channels…
+Task 7.6 REACH Compliance assessment
+Along all the project development, relevant products information in terms of compositions will be collected as well
+as screening characterisation will be performed in order to assess the absence of substance of very high concern
+(SVHC) and restricted substance (A. XVII) to comply REACH regulation where it applies. Following to the gathering
+of information of raw materials and developed products from material safety data sheets (MSDS) and analyses carried
+out in previous WPs, a complete Chemical Safety Assessment (CSA) including physical chemical, human health and
+environmental hazard assessment will be performed, including classification and labelling (under CLP), in order to
+ascertain the REACH compliance of upscaled products with exploitation potential for industrialization.
+Leader: ARCHA Partners involved: All
+ 
+Participation per Partner
+Partner number and short name WP7 effort
+1 -  AIMPLAS 7.00
+2 -  INSTM 4.50
+     UNIPI 1.50
+3 -  CTB 1.00
+4 -  ASU 2.00
+5 -  EUBP 12.00
+6 -  Total-Corbion 0.50
+7 -  PLANET 1.00
+8 -  BioMi 2.00
+10 -  CMSA 2.00
+11 -  SILON 2.00
+12 -  Sioen 3.00
+13 -  WEAREBIO 1.50
+14 -  Entrepinares 1.00
+15 -  UBESOL 2.00
+16 -  OWS 0.06
+17 -  Romei 1.00
+18 -  IRIS 3.00
+19 -  ARCHA 4.00
+20 -  ENCO 35.69
+21 -  MC 15.25
+22 -  INNOTECH 2.00
+23 -  OWS RF 1.94
+Page 45 of 62
+Partner number and short name WP7 effort
+Total 105.94
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D7.1 Project website 1 - AIMPLAS Report Public 4
+D7.2 Communication Plan 5 - EUBP
+Websites,
+patents filing,
+etc.
+Public 6
+D7.3
+Draft Plan for the
+Exploitation and
+Dissemination of the
+Results
+20 - ENCO Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+12
+D7.4
+Interim report on
+BIOnTOP value chain
+and consumer perception
+21 - MC Report Public 24
+D7.5
+Final report on
+sustainable business
+models and value chains
+including consumer
+perception aspects
+20 - ENCO Report Public 48
+D7.6
+Final Plan for the
+Exploitation and
+Dissemination of the
+Results
+20 - ENCO Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+48
+D7.7 Training materials and
+report 5 - EUBP Report Public 48
+D7.8
+Industry, stakeholders
+and policy guidelines
+regarding BIOnTOP
+waste management
+20 - ENCO Report Public 48
+D7.9 Reports on results of
+REACH assessment 19 - ARCHA Report Public 48
+D7.10
+Dissemination and
+Communication activities
+carried out along the
+project implementation
+20 - ENCO Report Public 48
+Description of deliverables
+D7.1 : Project website [4]
+D7.1 Project website (M4) – Website giving access to the public to the project related news, goals, etc.
+D7.2 : Communication Plan [6]
+D7.2 Communication Plan (M6) - Written report including detailed communication intention and strategy.
+D7.3 : Draft Plan for the Exploitation and Dissemination of the Results [12]
+Page 46 of 62
+D7.3 Draft Plan for the Exploitation and Dissemination of the Results (M12) - Strategy and measures to disclose and
+use the project results.
+D7.4 : Interim report on BIOnTOP value chain and consumer perception [24]
+D7.4 Interim report on BIOnTOP value chain and consumer perception (M24) - Results of the survey of value chains
+where BIOnTOP results could apply and consumers.
+D7.5 : Final report on sustainable business models and value chains including consumer perception aspects [48]
+D7.5 Final report on sustainable business models and value chains including consumer perception aspects (M48)
+-A comprehensive report including a series of case studies, showcasing successes and failures in each area, and
+discussing suitable one for BIOnTOP taking into account the perception in the value chain down to consumers.
+D7.6 : Final Plan for the Exploitation and Dissemination of the Results [48]
+D7.6 Final Plan for the Exploitation and Dissemination of the Results (M48) - Final updated version of D7.3,
+including the business plans, further Research Roadmap as well as report documenting the IPRs and patent
+status, communication & dissemination activities carried out, as well as policy recommendations, with Final Joint
+Ownership Agreements annexed
+D7.7 : Training materials and report [48]
+D7.7 Training materials and report (M48) - Report on the performed training activities annexing all materials used.
+D7.8 : Industry, stakeholders and policy guidelines regarding BIOnTOP waste management [48]
+D7.8 Industry, stakeholders and policy guidelines regarding BIOnTOP waste management (M48)- Report on how to
+optimally manage BIOnTOP waste based on the analysis of the current waste management landscapes, results of EoL
+tests and LCA, annexing policy recommendations and position papers
+D7.9 : Reports on results of REACH assessment [48]
+D7.9 Report on results of REACH assessment (M48). Report including the different recommendations and
+compliance study along the BIOnTOP materials development steps.
+D7.10 : Dissemination and Communication activities carried out along the project implementation [48]
+Collection of all the activities carried out to dissemination and communicate the project results.
+D7.1 : Project website [4]
+D7.1 Project website (M4) – Website giving access to the public to the project related news, goals, etc.
+D7.2 : Communication Plan [6]
+D7.2 Communication Plan (M6) - Written report including detailed communication intention and strategy.
+D7.3 : Draft Plan for the Exploitation and Dissemination of the Results [12]
+D7.3 Draft Plan for the Exploitation and Dissemination of the Results (M12) - Strategy and measures to disclose and
+use the project results.
+D7.4 : Interim report on BIOnTOP value chain and consumer perception [24]
+D7.4 Interim report on BIOnTOP value chain and consumer perception (M24) - Results of the survey of value chains
+where BIOnTOP results could apply and consumers.
+D7.5 : Final report on sustainable business models and value chains including consumer perception aspects [48]
+D7.5 Final report on sustainable business models and value chains including consumer perception aspects (M48)
+-A comprehensive report including a series of case studies, showcasing successes and failures in each area, and
+discussing suitable one for BIOnTOP taking into account the perception in the value chain down to consumers.
+D7.6 : Final Plan for the Exploitation and Dissemination of the Results [48]
+D7.6 Final Plan for the Exploitation and Dissemination of the Results (M48) - Final updated version of D7.3,
+including the business plans, further Research Roadmap as well as report documenting the IPRs and patent
+status, communication & dissemination activities carried out, as well as policy recommendations, with Final Joint
+Ownership Agreements annexed
+D7.7 : Training materials and report [48]
+D7.7 Training materials and report (M48) - Report on the performed training activities annexing all materials used.
+D7.8 : Industry, stakeholders and policy guidelines regarding BIOnTOP waste management [48]
+D7.8 Industry, stakeholders and policy guidelines regarding BIOnTOP waste management (M48)- Report on how to
+optimally manage BIOnTOP waste based on the analysis of the current waste management landscapes, results of EoL
+tests and LCA, annexing policy recommendations and position papers
+D7.9 : Reports on results of REACH assessment [48]
+Page 47 of 62
+D7.9 Report on results of REACH assessment (M48). Report including the different recommendations and
+compliance study along the BIOnTOP materials development steps.
+D7.10 : Dissemination and Communication activities carried out along the project implementation [48]
+Collection of all the activities carried out to dissemination and communicate the project results.
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS2 Communication plan 20 - ENCO 6
+A robust communication plan
+to support the recognition
+of BIOnTOP as a reference
+in the bioplastics market
+place will be available, as
+well as to secure stakeholder
+engagement with the project
+MS7 Interim report of value chains 20 - ENCO 24
+An interim report providing
+an insight on the value chains
+where BIOnTOP results
+could be applied as well
+as robust economically,
+environmentally and socially
+beneficial business models
+will be provided
+MS18
+Final report on value chains,
+economic, environmental and
+business models
+20 - ENCO 48
+The final version of the
+interim report presented on
+month 24 will be delivered
+at M48 including a thorough
+market analysis across the
+involved sectors.
+MS19 Exploitation plan 20 - ENCO 48
+Final plans will be in place
+for the transition to the post-
+project phase to advance the
+TRLs and reach the market,
+sources of further funding
+will be analysed focusing on
+applications where a return on
+investment is feasible based
+on the assessment performed
+in WP7, as well as policy and
+regulatory recommendations
+Page 48 of 62
+Work package number 9 WP8 Lead beneficiary 10 1 - AIMPLAS
+Work package title Project Management
+Start month 1 End month 48
+Objectives
+• To carry out a comprehensive series of project management activities in order to manage and optimise the application
+of resources in this large, multicultural and multidisciplinary consortium by creating an appropriate management
+framework linking together all the project components and ensure that the contractual communication & reporting
+requirements are met
+• To coordinate the bodies involved in the project management structure (see fig. 20 in the next section)
+• To ensure the project management procedures are implemented
+• To coordinate with and report to the European Commission/ BBI-PPP
+Description of work and role of partners
+WP8 - Project Management  [Months: 1-48]
+AIMPLAS, INSTM, CTB, ASU, EUBP, Total-Corbion, PLANET, BioMi, EMSUR, CMSA, SILON, Sioen ,
+WEAREBIO, Entrepinares, UBESOL, OWS, Romei, IRIS, ARCHA, ENCO, MC, INNOTECH, OWS RF
+Description of work
+The structure of the management system is discussed in detail in Section 3.2. It will involve the integration of effort
+between all partners. AIMPLAS will lead this WP and all partners will be involved to ensure smooth running of the
+project.
+Note: this WP does not involve the scientific and technical management of individual WPs. This activity is performed
+as an integral part of each WP.
+Task 8.1: Management of project resources
+The activities that will be involved in the management of the project resources include: i) Coordination and careful
+monitoring of the activities of the project (with the assistance of a project management tool); ii) Organising the
+dates, agenda and documenting the minutes of all the meetings of the General assembly; iii) Overseeing the different
+managerial positions (TMC, Innovation Committee), iv) Ensuring that the Decision making procedures for the different
+management bodies of the management structure (as defined in Section 3.2) are respected at all times; v) Tracking and
+reporting progress; vi) Financial administration of the project and its funds; vii) Administrative management of the
+project; viii) Ensuring all partners adhere to the contractual obligations of the Grant Agreement; iix) Responsibility for
+maintenance of the Consortium Agreement.
+AIMPLAS will lead this task and all partners will be involved to ensure the robust management of resources. Each
+partner must ensure effective use of their own resources through careful internal project management. Internal reports
+will frequently be prepared by WP leaders (at least quarterly) to fuel in the contractual reporting to the EC in Task 8.3.
+Leader: AIMPLAS. All Partners involved.
+Task 8.2: Implementation of the management procedures
+The Project Coordinator will ensure that all partners are fully briefed on their role in its implementation.
+Different critical project management procedures will be managed in dedicated aspects:
+Risk Management- Risk Management procedures will be in place, whereby the stratus of the Critical Risks identified
+in Table 3.2b will be continually reviewed, and additional risks and mitigation strategies will be devised as appropriate.
+Contingency plans will be brought into play in an early and timely fashion, in consultation with the TMC.
+Data management – According to the data management plan set up in section 2.2 that will be further refined during the
+project implementation, all data, both for internal curation (e.g. list of samples, nomenclatures, standards followed and
+testing equipment used, data for modeling activities in WP4 that will be gathered in a dedicated data basis, etc.) will
+be hosted in the project intranet and those benefitting from Open Access (publications, selected LCA and validation
+results among others possibly after anonymisation of the data regarding e.g. the formulations involved) for public
+distributions will be available from the project website as well as in OpenAire or Cordis among others respectively in
+case of publications and deliverables.
+Responsible research and innovation management including ethical aspects involving the following tasks:
+• Overseeing ethical and societal issues related to the research activities conducted within the project (that will
+include the proper handling of data from consumer perception studies- see section 5- and the fulfilment of any ethical
+requirements raised during grant preparation)
+Page 49 of 62
+• Checking the proper implementation of the regulatory aspects pertaining to the validation in WP3-5 and liaising with
+WP7 in terms of checking the proper outreach to policy makers, public and training
+In addition, the proper implementation of the Innovation Management activities will be checked: in link with WP7, the
+Coordinator will assist the IPR Manager, review all progress and proceedings with regard to IPR protection, sharing, etc.
+Leader: IAIMPLAS Partner(s) involved: All
+Task 8.3: Coordination with and Reporting to the EC
+The Coordinator is the sole point of contact between the EC/ BBI-PPP and the project consortium. The Coordinator
+must ensure that all milestones are met and that all reports are prepared and delivered to the EC in accordance with
+contractual requirements. AIMPLAS will execute this task that will be greatly facilitated by the internal management
+plan and reporting described in the previous tasks. In addition, the PC will be in charge to collect partners’ data and
+report on the yearly BBI questionnaire showing the evolution of the project and partners contribution to the KPIs set
+in the BBI SIRA.
+Leader: AIMPLAS. Partner(s) involved: All will assist in reporting
+ 
+Participation per Partner
+Partner number and short name WP8 effort
+1 -  AIMPLAS 16.00
+2 -  INSTM 2.00
+3 -  CTB 1.00
+4 -  ASU 1.00
+5 -  EUBP 2.00
+6 -  Total-Corbion 0.50
+7 -  PLANET 2.00
+8 -  BioMi 1.00
+9 -  EMSUR 0.25
+10 -  CMSA 1.00
+11 -  SILON 1.00
+12 -  Sioen 2.00
+13 -  WEAREBIO 1.00
+14 -  Entrepinares 1.00
+15 -  UBESOL 2.00
+16 -  OWS 0.51
+17 -  Romei 1.00
+18 -  IRIS 3.00
+19 -  ARCHA 2.00
+20 -  ENCO 3.00
+21 -  MC 1.00
+22 -  INNOTECH 1.75
+23 -  OWS RF 0.49
+Total 46.50
+Page 50 of 62
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D8.1 Data management plan 1 - AIMPLAS
+ORDP: Open
+Research
+Data Pilot
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+6
+D8.2 Project Management Plan 1 - AIMPLAS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+2
+D8.3 1st Year Advisory Board
+Report 1 - AIMPLAS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+13
+D8.4 2nd Year Advisory Board
+Report 1 - AIMPLAS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+25
+D8.5 3rd Year Advisory Board
+Report 1 - AIMPLAS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+37
+D8.6 KPI & Impact
+Questionnaire 3 1 - AIMPLAS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+28
+D8.7 KPI & Impact
+Questionnaire 4 1 - AIMPLAS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+40
+D8.8 KPI & Impact
+Questionnaire 5 1 - AIMPLAS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+48
+Description of deliverables
+D8.1 : Data management plan [6]
+D8.1 Data management plan (M6)- defines how the project results will be curated, made accessible where applicable
+D8.2 : Project Management Plan [2]
+D8.2 Project Management Plan (M2) – procedures for the project management and internal communication plan.
+D8.3 : 1st Year Advisory Board Report [13]
+D8.3 1st Year Advisory Board Report (M13) – 1st year feedback from the Advisory Board
+Page 51 of 62
+D8.4 : 2nd Year Advisory Board Report [25]
+D8.4 2nd Year Advisory Board Report (M25) – 2nd year feedback from the Advisory Board
+D8.5 : 3rd Year Advisory Board Report [37]
+D8.5 3rd Year Advisory Board Report (M37) – 3rd year feedback from the Advisory Board
+D8.6 : KPI & Impact Questionnaire 3 [28]
+Questionnaire with both qualitative and quantitative information, indicating the expected results by the end of the
+project or by 2024 (at the earliest), following BBI JU template.
+D8.7 : KPI & Impact Questionnaire 4 [40]
+Questionnaire with both qualitative and quantitative information, indicating the expected results by the end of the
+project or by 2024 (at the earliest), following BBI JU template.
+D8.8 : KPI & Impact Questionnaire 5 [48]
+Questionnaire with both qualitative and quantitative information, indicating the expected results by the end of the
+project or by 2024 (at the earliest), following BBI JU template.
+D8.1 : Data management plan [6]
+D8.1 Data management plan (M6)- defines how the project results will be curated, made accessible where applicable
+D8.2 : Project Management Plan [2]
+D8.2 Project Management Plan (M2) – procedures for the project management and internal communication plan.
+D8.3 : 1st Year Advisory Board Report [13]
+D8.3 1st Year Advisory Board Report (M13) – 1st year feedback from the Advisory Board
+D8.4 : 2nd Year Advisory Board Report [25]
+D8.4 2nd Year Advisory Board Report (M25) – 2nd year feedback from the Advisory Board
+D8.5 : 3rd Year Advisory Board Report [37]
+D8.5 3rd Year Advisory Board Report (M37) – 3rd year feedback from the Advisory Board
+D8.6 : KPI & Impact Questionnaire 3 [28]
+Questionnaire with both qualitative and quantitative information, indicating the expected results by the end of the
+project or by 2024 (at the earliest), following BBI JU template.
+D8.7 : KPI & Impact Questionnaire 4 [40]
+Questionnaire with both qualitative and quantitative information, indicating the expected results by the end of the
+project or by 2024 (at the earliest), following BBI JU template.
+D8.8 : KPI & Impact Questionnaire 5 [48]
+Questionnaire with both qualitative and quantitative information, indicating the expected results by the end of the
+project or by 2024 (at the earliest), following BBI JU template.
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+Page 52 of 62
+1.3.4. WT4 List of milestones
+Milestone
+number18 Milestone title WP
+number9 Lead beneficiary
+Due
+Date (in
+months)17
+Means of verification
+MS1
+Specifications
+for the bio-based
+packaging with tailored
+biodegradability and
+properties
+WP1 5 - EUBP 5
+Target properties, analytical
+methods to prove them
+and benchmarks for the
+bio-based products with
+tailored biodegradability
+and performance as well as
+process defined.
+MS2 Communication plan WP7 20 - ENCO 6
+A robust communication plan
+to support the recognition
+of BIOnTOP as a reference
+in the bioplastics market
+place will be available, as
+well as to secure stakeholder
+engagement with the project
+MS3 Copolymers to test
+biodegradation WP2 2 - INSTM 13
+First copolymers will be
+available in enough amount to
+start biodegradation tests
+MS4
+Copolymers routes
+selected and upscaling
+started
+WP2 2 - INSTM 18
+At least one copolymer for
+which biodegradation can be
+triggered in home composting
+conditions will be identified
+and upscaled for further
+conversion
+MS5
+PLA based compounds
+characterization and
+films & fibres for
+coatings
+WP2 2 - INSTM 22
+Initial PLA based compounds
+will be characterised in view
+of their convertibility into
+the selected applications
+and films and fibres will be
+available for coating trials
+MS6 Interim LCA/LCC
+report WP4 16 - OWS 24
+LCA (life cycle analysis),
+social s-LCA and LCC (life
+cycle cost) analysis will be
+performed. The interim LCA/
+LCC results will be used to
+select the materials for the
+demonstrators
+MS7 Interim report of value
+chains WP7 20 - ENCO 24
+An interim report providing
+an insight on the value chains
+where BIOnTOP results
+could be applied as well
+as robust economically,
+environmentally and socially
+beneficial business models
+will be provided
+MS8 Multifunctional bio-
+based coatings WP3 4 - ASU 28
+Multifunctional coatings are
+available with a bio-based
+content above 95% according
+to ASTM D6866, respectively
+Page 53 of 62
+Milestone
+number18 Milestone title WP
+number9 Lead beneficiary
+Due
+Date (in
+months)17
+Means of verification
+with oxygen and humidity
+with BIF > 10 PLA films
+and coated PLA textiles with
+better barrier, tackiness and
+hydrophobicity (water contact
+angle > 120°) properties.
+MS9
+Compounds’
+biodegradation in
+different environments
+WP4 16 - OWS 34
+The biodegradation of
+the polymers, compounds
+and coatings from WP2
+and 3 meet EN 13432 and
+NF T 51-800 for home
+compostability. Biogas
+potential tested.
+MS10
+Biodegradation models
+of the polymers,
+compounds and
+coatings
+WP4 16 - OWS 36
+Biodegradation models
+will be available to support
+the eco-design of the new
+products by selecting the right
+compound formulation for
+each target.
+MS11
+Sorting methodology
+and recycling
+procedures for
+BIOnTOP materials
+WP4 16 - OWS 36
+The suitable technology
+for identifying each
+developed material and
+their recyclability by
+reprocessing as packaging
+and as textile after sorting
+will be established.
+MS12
+Production of bio-
+based monomaterial
+as well as multilayer
+trays & films at pilot
+scale and use of SRM
+to obtain bags
+WP5 22 - INNOTECH 42
+Recyclable bags from SRM,
+trays & films/flowpacks for
+F&V, dairy, personal care are
+available for characterisation
+including biodegradation
+tests.
+MS13
+Production of bio-
+based nets and fabrics
+at pilot scale
+WP6 12 - Sioen 42
+Nets and fabrics with the
+potential to biodegrade in
+home composting, as well as
+food wrap are available.
+MS14 Final LCA/LCC report WP4 16 - OWS 48
+Final LCA/LCC report
+will show that the
+products developed reduce
+environmental impact
+vs. selected benchmarks.
+Stakeholders and policy
+waste management
+recommendations will be
+delivered too.
+MS15
+EoL options for
+the new bio-based
+packaging and
+validation of the
+biodegradation models
+WP4 16 - OWS 48
+The new products’
+biodegradability in
+application relevant
+conditions and biodegradation
+models will be validated
+Page 54 of 62
+Milestone
+number18 Milestone title WP
+number9 Lead beneficiary
+Due
+Date (in
+months)17
+Means of verification
+(target prediction +/-20%
+accuracy on compounds’ time
+to reach full biodegradation).
+MS16
+Validation of BIOnTOP
+monomaterial &
+multilayer trays &
+films and SRM for
+bags
+WP5 22 - INNOTECH 48
+The potential to substitute
+fossil benchmarks of
+the BIOnTOP solutions
+demonstrated
+MS17 Validation of bio-based
+nets and fabrics WP6 12 - Sioen 48
+Nets and fabrics, as well as
+food wrap, and textile bags
+from SRM, have suitable
+properties to substitute set
+benchmarks
+MS18
+Final report on value
+chains, economic,
+environmental and
+business models
+WP7 20 - ENCO 48
+The final version of the
+interim report presented on
+month 24 will be delivered
+at M48 including a thorough
+market analysis across the
+involved sectors.
+MS19 Exploitation plan WP7 20 - ENCO 48
+Final plans will be in place
+for the transition to the post-
+project phase to advance the
+TRLs and reach the market,
+sources of further funding
+will be analysed focusing on
+applications where a return on
+investment is feasible based
+on the assessment performed
+in WP7, as well as policy and
+regulatory recommendations
+Page 55 of 62
+1.3.5. WT5 Critical Implementation risks and mitigation actions
+Risk
+number Description of risk WP Number Proposed risk-mitigation measures
+1
+Risk: Difficulties in
+the definition of the
+specifications. Probability:
+low. Impact: high
+WP1
+This risk is highly mitigated by the focus on
+applications where partners already have great
+experience. Nevertheless, as the expected
+demonstrators segments are broad, if needed,
+priorities will be set in terms of exact sub-type
+depending of the level of target requirements
+while still matching the broad spectra of EoL
+improvements.
+2
+Risk: Difficulties in
+producing a copolymer
+which biodegradation
+triggers at low temperature.
+Probability: medium, Impact:
+medium
+This risk is mitigated by the number of synergistic
+approaches in WP2 (copolymers, blending with
+different additives, NF, etc) and while it is known
+already by the consortium that some of the
+selected monomers are used in home compostable
+polymers as PBS. As further mitigation, small
+amounts of other biopolymers like PCL could be
+considered in the blends.
+3
+Risk: Melt strength affects to
+material density. Probability:
+low. Impact: medium.
+WP2
+This risk is mitigated by INTSM's experience in
+melt optimisation. Plasticizers and lubricating
+agents (such as natural oils) reduces considerably
+the melt strength. Additives (polymer chain
+extenders) can counteract this.
+4
+Risk: Low adhesion between
+NF and polymeric matrices
+(PLA). Probability: low.
+Impact: medium.
+WP2
+Fillers can be pre-treated, e.g. spray coated with
+natural waxes, as positively tested by INSTM for
+PLA composites production, or ozone or plasma
+treated to increase their surface tension.
+5
+Risk: Economic &
+environmental assessment
+reports low feasibility of the
+new processes and products.
+Probability: low. Impact:
+medium to high.
+WP2, WP3, WP4, WP5,
+WP6
+Low feasibility of BIOnTOP products & processes
+will be analysed by midterm to identify among
+other criteria the best formulations. It is besides
+very probable that the used selected diacids
+comonomers will lower cost as their availability
+becomes actual on a larger scale. Likewise, proofs
+of feasibility are already available to source
+all of them from waste to further improve the
+sustainability. Eco-design, process optimisation
+and selection of the most sustainable benchmark
+alternatives in WP5-6 will also help.
+6
+Risk: FA grafted layer
+does not provide sufficient
+heat-sealing properties.
+Probability: medium, Impact;
+high
+WP3
+Process adjustment and partial grafting
+approaches mitigate this risk. Alternative sealing
+techniques such as ultrasound or laser sealing
+could be alternatively used and due to the nano-
+scale thickness of the grafting layer the sealing
+seam can be accomplished by these techniques.
+7
+Risk: Insufficient grafting
+ratio due to temperature
+limitations on PLA/
+BIOnTOP substrates (films
+and fibres). Probability: low,
+Impact: medium
+WP3
+Temperature sensitivity of PLA could lead
+to limited grafting process temperatures and
+therefore the maximum FA molecular weight.
+However, even low molecular weight FA
+which can be grafted at lower temperatures
+could provide sufficient barrier and repellence
+improvement on films and textiles.
+Page 56 of 62
+Risk
+number Description of risk WP Number Proposed risk-mitigation measures
+8
+Risk: Premature degradation
+of PLA based materials.
+Probability: High, Impact:
+High
+WP4
+The extensive study of copolymers and additives
+is focused to optimise performance and durability.
+By adjusting the formula with additives to
+promote degradability and additives to increase
+crystallinity (slow down the degradation),
+premature degradation should be avoided.
+The produced materials will be validated in
+different conditions of temperature and moisture,
+considering to pack products with limited
+humidity, if needed, which should limit the
+degradation process start.
+9
+Risk: Too slow
+biodegradation of PLA
+at mild conditions to
+reach home composting.
+Probability: medium. Impact:
+high.
+WP4
+This is one of the major innovative aspects of
+the project and as such challenging. We will
+define the range of materials meeting the home
+composting requirements (e.g. max thickness,
+presence of coatings with proteins able to promote
+the biodegradation). The materials could be
+foamed to speed disintegration. See also risk
+1 for WP2 above in terms of formulations
+optimisation. In case insufficient biodegradation
+is reached, the developed products will still be
+industrially compostable according to EN 13432
+(2000), but improved barrier and other packaging
+functionalities vs PLA.
+10
+Risk: LCA results are
+not positive vs. industry
+benchmark at the scale of the
+project. Probability: medium.
+Impact: medium.
+WP4
+This risk has an increased probability due
+to the pilot scale production of the materials
+and packaging and non-full maturity of the
+technologies vs. benchmark technologies being
+optimised and established for decades on the
+market. Nevertheless, the impact of this risk
+is mitigated by the fact that also the technical
+performances such as barrier, hydrophobicity, etc.
+will also be of utmost importance for the adoption
+of our solutions vs. existing ones.
+11
+Risk: Low control of
+processing parameters during
+blown extrusion. Mechanical
+properties of films not
+achieving expectations.
+Probability: medium. Impact:
+high
+WP5
+Decreasing recycled content ratio and blending
+via twin screw extrusion. Adjusting screw zones
+to the thermal properties of BIOnTOP prime or
+SRM and applying co-extrusion system.
+12
+Risk: Packaging do not
+fulfil the requirements for
+food packaging, leaching
+of additives cause problems
+with regulation for food
+contact. Probability: medium.
+Impact: medium
+WP5, WP6
+Additional layer has to be integrated in the
+structure as functional barrier to ensure food
+contact. Grafting of the problematic additive or
+reactive extrusion will be considered. Alternative
+additives will be tested as well.
+13
+New formulations are not
+processable to the envisaged
+textile food packaging
+WP6
+Different processing techniques will be evaluated,
+both for extrusion as well as for coating,
+maximising the success potential. Adaptations
+Page 57 of 62
+Risk
+number Description of risk WP Number Proposed risk-mitigation measures
+materials. Probability:
+medium, Impact: high
+of biopolymer formulations in WP2 (e.g. adding
+flow enhancers, compatibilisers etc).
+14
+Risk: High price of the
+final materials Probability:
+medium, Impact: medium
+WP5
+The risk is reduced by the use of cost effective
+additives and FA grafting. Increasing recycled
+content in matrix for the applications allowing
+the use of SRM like secondary packaging (bags
+used as demonstrators) and amount of NF could
+help. Target applications with greater margins e.g.
+cosmetic packaging.
+15
+Risk: Not enough
+stakeholders involved in
+the sustainable value chain
+analysis or business model
+creation. Probability: low.
+Impact: high
+WP7
+Through the stakeholder register that results
+from T7.3 and the associations in the project it
+will be ensured that the appropriate number of
+stakeholders is involved in order to successfully
+develop the value chains and business models.
+16
+Risk: Confrontation among
+partners for IPR issues.,
+Probability: low. Impact:
+high.
+WP7
+This risk is considered low as it has been
+mitigated by establishing IPR rules at proposal
+stage as is documented in Section 2.2. In addition,
+before project starts, all the partners will sign the
+Consortium Agreement that will address project
+IPR. The IPR manager with support from the
+Project Coordinator, and assistance of consortium
+members, will control the proper exploitation
+planning for project results and associated IPR
+issues and if required a voting procedure is in
+place.
+17
+Risk: Products with similar
+assets reaches the market
+during the project duration.
+Probability: medium, Impact:
+medium
+WP7
+The research pulled by increasingly stringent
+EoL legislation is very active. Though in terms
+of competing with our overall results, this
+risk is mitigated by our combination of novel
+approaches, aimed at being protected which
+design will be facilitated by novel modeling. The
+combined coatings are also differentiating aspects.
+The partners will perform systematic technology
+watch to identify new products early and therefore
+devise if needed areas of intervention to go
+beyond, e.g. by higher technological content or
+lower cost.
+18
+Risk: Discrepancies in
+the technical approaches.
+Probability: low. Impact:
+high.
+WP1, WP2, WP3, WP4,
+WP5, WP6
+Regular communication among WP leaders to
+solve all technical issues. The TC Manager with
+support from the Project Coordinator, with the
+assistance of consortium members, will control
+this issue and when required a voting procedure is
+in place.
+19
+Risk: Problems in respecting
+the planned activities
+and resources allocation.
+Probability: medium. Impact:
+high
+WP1, WP2, WP3, WP4,
+WP5, WP6, WP7, WP8
+This risk will be mitigated by the implementation
+of the Technical Work plan Review and Update
+Procedures.
+20 Risk: Management issues in
+relation to the coordinated
+WP1, WP2, WP3, WP4,
+WP5, WP6, WP7, WP8
+Constitution of a TMC that will be chaired by the
+TM Manager, with relevant representatives of the
+Page 58 of 62
+Risk
+number Description of risk WP Number Proposed risk-mitigation measures
+execution of the technical
+tasks due to the multi-
+disciplinary nature and
+challenging scope of the
+project. Probability: medium.
+Impact: high.
+most relevant disciplines in order to assure the
+required leadership.
+Page 59 of 62
+                                                                          Part B                                                                            
+ 
+Page 45 of 105 
+ 
+to which renewably sourced, bio-based, high-performance, and cost competitive bioplastics can be the more sustainable 
+alternative. The awareness raising actions carried out will aim to generate acceptance and open the path to building trust towards 
+innovative biopackaging solutions, through optimal communication and transparency using appropriate language  enabling EU 
+consumers to make informed purchasing and consumption decisions . A set of key messages will be developed specifically to 
+popularise complex subjects and to bring the issue closer to people’s lives by making it more understandable. The campaign will 
+be rolled out through various channels and tools (figured in Fig. 19), with the following approach: 1. ‘Push’ communication (graphic 
+identity, newsletters, press releases, promotional materials, gadgets, etc.) and 2. ‘Pull’ communication and interaction (website, 
+social media, liaison with other initiatives and projects, joint communication, etc). The fact that our demonstrators are bro adly 
+focused on consumers applications like packaging (which in turn was a prominent reason for their selection) will allow maximising 
+the awareness of the impact of the bioeconomy, and indeed BBI programmes, on their everyday life. 
+ 
+3.  Implementation

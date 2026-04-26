@@ -1,0 +1,2128 @@
+2.1 AE IZCT IZ Circular Textiles Gmbh DE 873039092 
+3 BEN ARIS ARISTENG SARL LU 890617044 
+4 BEN RECY RECYC ELIT SAS FR 898416620 
+5 BEN RESOR REGENERATION BE 893491348 
+6 BEN IOM LEIBNIZ-INSTITUT FUR 
+OBERFLACHENMODIFIZIERUNG EV 
+DE 968926308 
+7 BEN CEF STICHTING CIRCLE ECONOMY NL 939754528
+7.1 AE CGS Circularity Gap Solutions B.V. NL 877344631 
+8 BEN CEA COMMISSARIAT A L ENERGIE ATOMIQUE ET 
+AUX ENERGIES ALTERNATIVES 
+FR 999992401 
+The EU generates 12.6 million tonnes of textile waste per year, with only 22% currently collected for reuse or recycling 
+—the rest often incinerated or landfilled. With mandating separate textile collection across the EU by 2025, the collected 
+amount is expected to increase and we must upscale sorting and recycling capacity and efficiency to ensure sustainable 
+recovery of the material. SORT4CIRC’s overall ambition is to improve value creation and cost efficiency through 
+automated sorting and innovative recycling. This will generate new revenue streams for sorters and recyclers by turning 
+non-re-wearable textiles into valuable feedstock for high -value recycling. The project will strive to unlock the current 
+technological gaps for textile identification and value-chain traceability, while providing an overall sound business case 
+driving circularity within the textile value chain (TVC). The use of modern digital technology in the sorting process will 
+make it easier to achieve comprehensive information of the materials and fabrication process steps and integrate it to 
+automated presorting and sorting for recycling processes. The different & complementary techonolgies are interlinked 
+with each other with interoperable architecture to achieve complete traceability. Results generated are cross-checked to 
+ensure reliability and consistency, to make decision over its optimal channel for reuse or recycling. SORT4CIRC gathers 
+all relevant expertise to develop a systemic transformative solution enabling a traceable, circular textile industry: 
+industrial collector and sorter, design for recycling by allowing disassembly, technology developers (machine learning, 
+Artificial Intelligence (AI), imaging, hyperspectral, NIR, multisensors), recyclers (chemical, thermo -mechanical and 
+mechanical), along with specialists in supply chain traking and tracing, digital passports, blockchain technology and 
+IoT, textile business models, trade and LCC/LCA. 
+Project summary 
+Grant Preparation (General Information screen) — Provide an overall description of your project (including context and overall 
+objectives, planned activities and main achievements, and expected results and impacts (on target groups, change procedures, 
+capacities, innovation etc)). This summary should give readers a clear idea of what your project is about. 
+Use the project summary from your proposal. 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+4 
+ 
+ 
+ 
+ 
+ 
+PARTICIPANTS 
+Grant Preparation (Beneficiaries screen) — Enter the info. 
+Number Role Short name Legal name Country PIC 
+9 BEN SEM SEMSO FR 876371333 
+10 BEN PURFI PURFI MANUFACTURING BELGIUM BE 887835957 
+11 BEN PSB PARIS SCHOOL OF BUSINESS FR 944056866 
+12 BEN TRA TEXTILE RECYCLING ASSOCIATION LIMITED UK 878690991 
+13 BEN IRIS IRIS TECHNOLOGY SOLUTIONS, SOCIEDAD 
+LIMITADA 
+ES 998993786 
+14 BEN REFA reverse.fashion GmbH DE 878874321 
+15 BEN TXHO TEXTILE HOUSE FOR EURO TRADE, S.R.O. SK 870613413 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+5 
+ 
+ 
+LIST OF WORK PACKAGES 
+ 
+Work packages 
+Grant Preparation (Work Packages screen) — Enter the info. 
+Work 
+Package No 
+Work Package name Lead Beneficiary Effort 
+(Person- 
+Months) 
+Start 
+Month 
+End 
+Month 
+Deliverables 
+WP1 Management 1 - CU  1 36 D1.1 – Project Management Plan 
+D1.2 – Data Management Plan 
+D1.3 – Project meeting minutes and 
+decision records M1-M18 
+D1.4 – Data Management Plan M18 
+D1.5 – Project meeting minutes and 
+decision records M18-M24 
+D1.6 – Project meeting minutes and 
+decision records M24-M36 
+D1.7 – Data Management Plan M36 
+WP2 Pre-sorting & textile classification 9 - SEM  1 24 D2.1 – Development of a complete machine 
+for PSFS 
+D2.2 – Sorting system for PSFS 
+D2.3 – Automated detection for a PSFS 
+garment sorting system 
+D2.4 – Usage Guidelines 
+D2.5 – Summaries of Learning and 
+Deployment Insights 
+WP3 Textile recognition for automatic sorting in real- 
+time 
+13 - IRIS  1 24 D3.1 – Report on characterisation of textile 
+samples 
+D3.2 – Report on the selection of best 
+techniques for the recognition of complex 
+garments 
+D3.3 – Multirange Spectroscopic smart 
+sensing system 
+D3.4 – Eco-design guidelines and report on 
+the process to recognise DfD garments 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+6 
+ 
+ 
+ 
+Work packages 
+Grant Preparation (Work Packages screen) — Enter the info. 
+Work 
+Package No 
+Work Package name Lead Beneficiary Effort 
+(Person- 
+Months) 
+Start 
+Month 
+End 
+Month 
+Deliverables 
+      D3.5 – Tests report 
+WP4 Textile DPP 1 - CU  1 36 D4.1 – TTRFID assessment 
+D4.2 – TTRFID design and selection 
+guideline 
+D4.3 – DPP development guidelines 
+D4.4 – DPP smart contract guidelines for 
+PSFS & PSSR compatibility 
+D4.5 – Tokenised Ecosystem framework 
+analysis and development guideline 
+D4.6 – DfD solution development over DPP 
+framework 
+D4.7 – Guidelines for recyclability and 
+reusability 
+WP5 Demonstrator 15 - TXHO  19 36 D5.1 – TTRFID technology deployment 
+D5.2 – DPP Blockchain demonstration 
+deployment with tokenised LCA assessment 
+dashboard 
+D5.3 – Automatised PSFS pilot 
+D5.4 – Upgrade Automatised Sorting Line 
+D5.5 – Validation of Sorted Feedstock 
+D5.6 – Successful recycling of sorted 
+feedstock 
+WP6 Technical and economic feasibility, environmental 
+and social assessment, design and efficiency 
+improvement 
+11 - PSB  1 36 D6.1 – Data collection for SORT4CIRC 
+D6.2 – Report on environmental impact 
+assessment 
+D6.3 – Report on cost-benefit analysis 
+D6.4 – Report on the BM settings 
+D6.5 – Report on the efficient design and 
+operation of the automated sorting system 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+7 
+ 
+ 
+ 
+Work packages 
+Grant Preparation (Work Packages screen) — Enter the info. 
+Work 
+Package No 
+Work Package name Lead Beneficiary Effort 
+(Person- 
+Months) 
+Start 
+Month 
+End 
+Month 
+Deliverables 
+      D6.6 – Holistic technology benchmarking 
+among different textile sorting processes 
+D6.7 – Public report on environmental 
+impact assessment 
+WP7 Communication, Dissemination, and Exploitation 7 - CEF  1 36 D7.1 – Communication, Dissemination, and 
+Exploitation Plan M3 
+D7.2 – SORT4CIRC Brand Book 
+D7.3 – SORT4CIRC website 
+D7.4 – Communication, Dissemination, and 
+Exploitation Plan M12 
+D7.5 – SORT4CIRC policy briefing 
+document M18 
+D7.6 – Communication, Dissemination, and 
+Exploitation Plan M36 
+D7.7 – SORT4CIRC circular textiles 
+toolbox 
+D7.8 – SORT4CIRC policy briefing 
+document M36 
+D7.9 – Report on capacity building 
+webinars 
+D7.10 – Summary of clustering activties 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+8 
+ 
+ 
+Work package WP1 – Management 
+ 
+Work Package Number WP1 Lead Beneficiary 1 - CU 
+Work Package Name Management 
+Start Month 1 End Month 36 
+ 
+Description 
+T1.1: Strategic & technical project management [CU, WP leaders] (M1-M36) 
+This task is dedicated to the strategic and technical management of the project, including the coordination of partners 
+through governing bodies animation, WPs follow-up, progress monitoring (cost and time), assessment of the quality of 
+the results and their impact, and, if necessary, application of contingency plans. It also covers relationships with relevant 
+stakeholders beyond participant organisations (EC, Advisory Board - see 3.2, other projects, etc.), as needed by the 
+project to guarantee its success, impact, and leverage effect. 
+The results of Task 1.1 will be reported in D1.3, D1.5 and D1.6. 
+T1.2: Administrative, financial, and contractual coordination [CU, WP leaders] (M1-M36) 
+This task comprises all legal, financial, and administrative activities within the project, both among the partners and 
+concerning the relationship with the EC. CU will oversee the contractual and administrative management of the project: 
+Management of the Grant Agreement (including amendment requests); Keeping updated the Consortium Agreement, 
+especially know-how and access right management; Managing partner’s access and withdrawal together with governing 
+bodies. 
+CU will also oversee financial reporting: Handling grant provided by EC regarding distribution between partners and 
+activities; A 6M-reporting (both from technical and financial aspects will be proposed) synchronised with annual and 
+mid-year reviews; Maintaining a day-to-day relationship with partners and answering requests regarding cost eligibility, 
+financial reporting, and official process for fund transfer; Ensuring payments to all partners in due time.  
+In addition, the activities of the ethics mentor willbe included in the Periodic technical reports. 
+The results of Task 1.1 will be reported in D1.3, D1.5 and D1.6. 
+T1.3: Internal communication [CU, WP leaders] (M1-M36) 
+In this task, CU will promote efficient communication flows within the consortium. The consortium will have access to a 
+SharePoint platform for efficient project information flow. Official documents, templates, working documents, technical 
+and financial progress reports will be available on that platform. They will be accessible to partners with different levels 
+of responsibility (partner, WP leader, guests, users). 
+The results of Task 1.1 will be reported in D1.3, D1.5 and D1.6. T1.4: 
+Quality assurance, data and risk management [CU] (M1-M36) 
+CU will set a quality management policy covering all aspects related to practical management (document exchanges & 
+internal workflows) of the project. It will rule the risk management plan and associated contingency plans, the critical 
+path of the project monitoring, communication and quality control activities, gender indicators according to the Gender 
+Equality Plan, internal processes related to standards of documents, proof-reading, validation workflow for the approval 
+of deliverables, reports, dissemination, exploitation and IPR items, etc. Key indicators will also be proposed to evaluate 
+the project performance and impact. In parallel, CU will establish data management procedures describing how project 
+data will be handled, what data will be collected, processed, or generated, and methodologies and standards followed  
+Objectives 
+• To ensure smooth collaboration and integration of all partners applying methodologies and tools for efficient 
+implementation of activities as well as ensuring decision-making and steering within governing bodies; 
+• To anticipate, monitor and assess project progress vs. work plan and initiate, if necessary, prompt corrective actions 
+and assure timely reporting and communication with the Project Officer and the EC;  
+• To guarantee a maximised collaborative leverage effect and benefits for the consortium and the EC; 
+• To implement a performing risk and quality management as well as efficient data management. 
+CU will be the Project Coordinator (PCo) and lead global project coordination (strategic, contractual, animation, 
+communication, reporting, etc.). 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+9 
+ 
+ 
+ 
+ 
+ 
+Work package WP2 – Pre-sorting & textile classification 
+ 
+Work Package Number WP2 Lead Beneficiary 9 - SEM 
+Work Package Name Pre-sorting & textile classification 
+Start Month 1 End Month 24 
+ 
+Description 
+T2.1: Maturing AI -based vision detection system for Garment PSFS and developing textile classifications that are 
+interoperable with the second-hand market [REFA, TXHO] (M1-M24) 
+T2.1.1: Automated AI-Based PSFS System for Garment Attributes 
+REFA’s sorting technology accurately scans and identifies garment types, wear conditions, style, brands, colours, fabric 
+construction and sizes through AI -based image analysis. Feeding the conveyor belt with the garments by placing them 
+unfolded on it. This technology will be taken as a basis for this WP. REFA will improve and adapt the AI technology 
+to increase its a ccuracy and efficiency. This will involve refining the AI algorithms, improving image processing 
+capabilities, and enchaining overall system i ntegration. By the end of the project, the AI -based PSFS system will be 
+significantly optimised. This will result in a more efficient, accurate, and scalable solution for garment PSFS, benefiting 
+the sorting and textile industries. 
+T2.1.2: Development of a SKU retrieval system 
+REFA builds on existing AI algorithms and further develops them to recognise individual products and infer their SKU 
+based on image similarity. REFA is creating a database of image feature vectors that links image embeddings to product 
+data. Through the additional product data that can be processed in the sorting decision, the sorting quality can be 
+significantly inc reased. This is particularly useful for sorting unique and high -value garments that would otherwise 
+require economically unfeasible sorting steps. 
+The results of T2.1.1 and T2.1.2 will be reported in D2.3, D2.4 and D2.5. 
+T2.2: Development of an integrated semi-automated garment PSFS [SEM, TXHO] (M1-M20) 
+SEM will develop an integrated automated system design for the PSFS, encompassing both the automatic recognition and 
+separation of garment types. TXHO will contribute to this process by providing access to its logistics and sorting lines 
+for practical testing and supplying a collection of pre-sorted garments across 15 article classes in various quality levels to 
+support the development and validation of the designed system. 
+The results of Task 2.2 will be reported in D2.2. 
+T2.3: Development of a complete machine consisting of PSFS system [SEM, REFA, TXHO] (M1-M12) 
+SEM will combine the components developed for the new type of PSFS and build a compact all-in-one solution 
+from them. The requirements, such as available space and the existing manual sorting line, will be considered. REFA 
+and TXHO will support SEM in integrating their process technology into the overall system with the IT interfaces, 
+documentation of the system control, and technical assistance with the installation of the hardware. 
+The results of Task 2.3 will be reported in D2.1. 
+regarding sharing, duration, and preservation, ensuring full compliance with open science policy. The procedures will 
+be gathered in a Data Management Plan to be submitted to the EC in M6 with regular updates. 
+The results of Task 1.4 will be reported in D1.1, D1.2, D1.4 and D1.7. 
+Objectives 
+• Develop the automatic recognition of garment types further and make detection quality more robust. 
+• Develop models to evaluate the degree of soiling and wear condition with a perspective of interoperability with the 
+second-hand market further. 
+• Develop a SKU retrieval system to access product data without requiring a visible or accessible identifier. 
+• Identifying and addressing data gaps in the textile industry to enhance transparency and traceability throughout the 
+TVC. 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+10 
+ 
+ 
+Work package WP3 – Textile recognition for automatic sorting in real-time 
+ 
+Work Package Number WP3 Lead Beneficiary 13 - IRIS 
+Work Package Name Textile recognition for automatic sorting in real-time 
+Start Month 1 End Month 24 
+ 
+Description 
+Description of work 
+T3.1: Definition of textile typologies to be studied, collection of textile waste samples and characterisation and creation 
+of complex textiles databases [TXHO, RECY, PURFI, CEA] (M1-M06) 
+TXHO will define an action plan to collect the different textile residues, including collection, transportation, storage and 
+logistics. Dirty samples from PCT complex waste (from all types of garments with interest for recyclers) will be collected 
+by TXHO. Clean textile samples will be collected, characterised and used for the tests. CEA will use a database of clean 
+samples from previous projects to develop models capable of estimating the composition of garments and to validate 
+the results obtained through the techniques tested in the following tasks. PURFI and RECY will provide specifications 
+to drive the development of the technology. 
+The results of Task 3.1 will be reported in D3.1. 
+T3.2: Selection of best techniques for the recognition of complex textiles and development of chemometric, AI and ML 
+models [CEA, IOM, IRIS] (M1-M18) 
+T3.2.1: Selection of optical techniques for identification of complex textiles: CEA, IOM and IRIS will study a 
+comprehensive series of spectroscopic techniques for detecting complex parameters in garments. CEA and IOM will 
+focus on certain aspects of the s pectroscopic problems that must be solved. CEA will extensively test the performance 
+of the MWIR camera for carbon black textiles, which is assumed to have potential due to its wavelength range being far 
+away from the VIS range. CEA will optimise the SWIR HSI technique to detect low-content materials (<3%). IOM will 
+test the performance of NIR imaging and spectroscopy and the potential of other spectroscopic techniques, such as 
+Raman. IRIS will study the identification of complex compositions of multilayer garments through NIR hyperspectral 
+imaging and DfD solutions (Smart Stitch ™), i.e. NIR tackled by the project, as well as foreign materials with metallic 
+parts (zippers, buttons, etc.) through LIBS. 
+T3.2.2: Development of chemometric, AI and ML models: CEA, IOM and IRIS will develop chemometric models based 
+on AI and statistical aspects for extracting actionable information from the spectroscopic data capable of accurately 
+identifying complex textile waste through the selected optical techniques selected in subtask T3.2.1.  
+The results of T3.2.1 and T3.2.2 will be reported in D3.2. 
+T3.3: Development of a cost -effective and reliable inline multirange spectroscopic smart sensing system for the 
+recognition of complex textiles in real-time [IRIS, TXHO, CEA, IOM] (M19-M24) 
+T3.3.1: Development of an inline Multirange Spectroscopic smart sensing system: IRIS will develop a multirange 
+spectroscopic platform incorporating the most suitable optical techniques for relevant parameters for proper sorting.  
+CEA, IOM and IRIS will commonly evaluate the specific informative value of the results obtained by the various 
+spectroscopic methods for final decision -making in the sorting process and derive from that evaluation the optimum 
+configuration of methods to be  implemented in the VISUM Fusion multirange spectroscopic platform. Once the 
+chemometric models are built through T3.2.2 and lab -tested and validated through FAT, this task will culminate with 
+the sensing system being installed in the pilot unit in WP5. In addition to multivariate data from spectroscopy analysers, 
+univariate data from available traditional sensors installed in the pilot unit in WP5 will also be assessed to explore the 
+data fusion opportunities. 
+T3.3.2: Data Management platform and predictive modelling: In this task, IRIS, will develop a data management platform 
+whereby data will be acquired from the Multirange Spectroscopic smart sensing system and traditional sensors. IRIS 
+will adapt its current Scadalytics software for the data collection, storage, fusion and processing.  
+Objectives 
+• Studies and selection of the most adequate optical techniques for recognising complex textiles. 
+• Leveraging a novel Multirange Spectroscopic Platform to design and develop the most suitable spectroscopic 
+configuration to be engineered into a compact and affordable inline device for the real -time monitoring of the textiles’ 
+critical parameters, overcoming the limitations of current NIR technology. 
+• Develop a process to recognise DfD garments and sort disassembled pieces. 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+11 
+ 
+ 
+The results of T3.3.1 and T3.3.2 will be reported in D3.3. 
+T3.4. Recognition of DfD solutions of garments with Smart Stitch ™ technology and automated assessment of 
+disassembly efficiency while sorting by composition after smart disassembly [RESO, IRIS]. (M6 -M24) 
+T3.4.1: Recognition of DfD eco -design prototypes: RESO and IRIS will study the best method(s) of identification 
+techniques (RFID, NIR, RGB) that could be coupled with AI for Smart Stitch ™ identification, fulfilling speed and 
+accuracy requirements (500 kg/hour infeed, >95% accuracy) and will work on an effective pre -sorting assessment 
+(categories, integration in the ecosystem chain, automation level). RESO will work as well on a Failure Mode and Effects 
+Analysis (FMEA) and risk assessment, and they will test  the speed, efficiency and accuracy of the system developed 
+and validate the device in the relevant environment. 
+T3.4.2: Automated assessment of disassembly efficiency while sorting by composition after Smart Disassembly ™: 
+RESO will work on the integration of method(s) in machinery after the Smart Disassembly™ process to assess effective 
+disassembly while sorting in mono-material streams. With the support of IRIS, the best method(s) of identification (NIR, 
+RGB with AI, electromagnetic sensors…) that fulfil speed and accuracy requirements (500 kg/h infeed, >95% accuracy) 
+will be studied. The acceptance criteria (sorting categories, purity level, type of flow, speed, accuracy…) will be defined. 
+FMEA and risk assessment will be performed, and the speed, efficiency and accuracy of the system will be tested and 
+validated. 
+The results of T3.4.1 and T3.4.2 will be reported in D3.4. 
+T3.5. Validation by recyclers [RECY, PURFI] (M18-M24) 
+RECY will validate, at a laboratory scale, if the composition of the four families (PET/PA; PET/EA: PET/cotton; 
+multilayers) of feedstocks sorted by TXHO matches the specifications provided in T3.1 (polyester content). Co-materials 
+will be analysed to validate the composition and absence of any contaminants. PURFI will validate if the composition 
+of cotton feedstocks matches with the specifications provided in T3.1. 
+The results of Task 3.5 will be reported in D3.5. 
+ 
+ 
+Work package WP4 – Textile DPP 
+ 
+Work Package Number WP4 Lead Beneficiary 1 - CU 
+Work Package Name Textile DPP 
+Start Month 1 End Month 36 
+ 
+ 
+Objectives 
+• Develop a customised TTRFID tag model specifically for eco-friendly and recyclable textiles. 
+• Design an adaptable/scalable blockchain architecture for the traceability of textile data over the TVC ecosystem. 
+• Integrate DPP data retrieval with automated PSFS & PSSR systems for textile recycling solutions. 
+• Establish a tokenised ecosystem over the TVC to incentivise sustainable practices. 
+• Implement DfD solutions to enhance textile recycling and reuse. 
+Description 
+Description of work 
+T4.1: Development of a TTRFID tag model [CU, PURFI, RECY] (M1-M12) 
+T4.1.1. TTRFID technology assessment and developing design and selection guidelines: CU will assess existing RFID 
+tag technologies to identify the most suitable options for textile applications. This will include a detailed review of 
+available chipless RFID tags (RFID tags without chips and textile recycling compatible material composition), focusing 
+on their eco-friendliness, recyclability, and operational frequency ranges. Various RFID tags, such as those identified in 
+the methodology section (e.g., biopolymer-based, textile-based), will be included for their durability through consumer 
+usage, data storage capacity, and transmission efficiency. Moreover, the implementation and deployment requirements, 
+besides compatibility with current technologies like QR codes, will be developed, as well as the complementary 
+requirements for integration with blockchain technology for dynamic/static public key embedding. CU also investigates 
+innovative solutions like ink -based RFID tags, which offer the  advantage of being less obtrusive and potentially non - 
+irritating for wearers, as survey feedback suggests. 
+T4.1.2. TTRFID design for recycling analysis and assessment: PURFI and RECY focus on analysing the recycling 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+12 
+ 
+ 
+compatibilities of 3 technologies of TTRFID tags (provided by CU). This includes assessing the inclusion of TTRFID 
+in recycling processes at several scales (from lab to pilot) and analysing the impact of TTRFID in recycling outcomes. 
+T4.1.3. TTRFID economic and societal analysis and assessment: T6.4 will provide complementary information for the 
+required readiness for SC configuration for supplying the TTRFID and related ROI analysis. Moreover, the results of 
+the societal study for acceptance of TTRFID -equipped products will also be conducted in T6.4, contributing to the 
+completion of the requ irements for the guidelines. They will integrate the technological assessment in T4.1.1, besides 
+the outcomes of T4.1.2 and T4.1.3, as guidelines for designing and procuring TTRFID models. The guidelines will 
+explain the required technological characterist ics, the economic and feasibility analysis, and the criteria for fulfilling 
+consumer data privacy. The guidelines will explain the processes and methodologies for integrating TTRFID tags 
+into various textiles, such as different textile processing scenarios, including washing and heat exposure. This ensures 
+that the TTRFID tags can be seamlessly integrated into manufacturing processes without compromising the quality or 
+functionality of the textile products. 
+The results of the whole Task 4.1 will be reported in D4.1 and D4.2. 
+T4.2: Design of an eco-friendly blockchain architecture for the DPP with traceability of data over TVC ecosystem [CU] 
+(M1-M12) 
+T4.2.1 Developing Guidelines for Assessment and Selection of Blockchain Platform: CU will develop guidelines for 
+assessing and selecting blockchain platforms based on eco-friendliness, scalability, and support for smart contracts, 
+as described in the methodology section. A comparative analysis of platforms like EBSI, Algorand, IOTA, and Ethereum 
+will be conducted, considering factors such as energy consumption, transaction speed, cost and fulfilment with 
+sustainability criteria for eco-friendly PoS consensus and support for smart contracts. 
+Sub-task 4.2.2 Developing guidelines for fulfilling the DPP solution with Semantic Web framework: CU will focus on 
+the DPP’s interoperability over blockchain with TVC IT solutions. The guideline will be extended to enhance data 
+interoperability and machine readability over the Semantic Web framework. This involves guidelines for data model 
+development using RDF & OWL. A shared vocabulary and data model will be created, ensuring all participants in the 
+TVC ecosystem can uniformly interpret and utilise the data. Mappings to existing data formats (e.g. JSON, XML) will 
+also be developed to facilitate smooth data integration. 
+T4.2.3 Developing guidelines for DPP Semantic Data Format and API Standardisation: CU will extend the DPP 
+development guidelines to support standardised data formats and enable seamless communication between different IT 
+systems within the TVC ecosystem. RESTful APIs requirements will be designed and documented, and data translation 
+layer implementation will be included to ensure compatibility of ERP and MES systems. This will involve defining 
+standardised protocols and data formats for real -time updates and data retrieval based on standards like IEC 62264: 
+(ISA-95) and IEC 62443: (ISA -99), and ISO 27001 certification for data security. The integration will connect the DPP 
+and PSSR technologies with existing ERP and MES systems. This connection will streamline operations by making data 
+from the DPP accessible to relevant stakeholders within the TVC ecosystem. 
+T4.2.4 Developing guidelines for interoperability of DPP with IoT, TTRFID and Web3 Technologies: CU will extend 
+the guideline to enable the communication of IoT and TTRFID technologies with the DPP blockchain system. The 
+guidelines will detail the requirements for IoT-enabled sensors through TVC at key stages of the PSSR. The guidelines 
+also include data container standards like XML headers to ensure data is structured in a standardised format. As detailed 
+in the methodology section, the fulfilment of Web3 technologies will be included in guidelines to facilitate decentralised 
+data exchange and interactions, ensuring secure and transparent operations. 
+T4.2.5 Developing the guidelines for DPP Scalability and Flexibility for TVC: CU will develop the required guidelines 
+for the scalability of DPP over the TVC. This is to enable comprehensive data coverage of the whole TVC ecosystem. The 
+guideline will define the requirements of the DPP model over blockchain technologies for supporting both the increase of 
+volumes of data when the input of textiles clothes increases and when more stakeholders are joining the TVC. Flexibility 
+will be incorporated into the system design for easy updates and adaptations to accommodate new sorting technologies, 
+regulatory changes, and evolving industry practices. Scalability testing criteria will ensure the system's capability to 
+efficiently process growing volumes of textiles, maintaining performance and reliability as demand increases.  
+The results of the whole Task 4.2 will be reported in D4.3. 
+T4.3: Integration of the DPP data retrieval with the automatised PSFS & PSSR solutions [CU, CEA, IRIS, IOM, REFA] 
+(M13-M24) 
+T4.3.1 Developing APIs and Interface interoperability guidelines with PSFS & PSSR technologies: CU will extend the 
+guideline for supporting the seamless connection and communication of technologies developed in PSFS & PSSR 
+technologies with the DPP. This targets the DPP interoperability for data retrieval and communication with automated 
+sorting machines. Efficient  data exchange will be facilitated by utilising APIs and standardised data formats such as 
+JSON or XML. This will allow for real -time updates and retrieval of textile data, ensuring that sorting machines have 
+the necessary information for efficient processing. 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+13 
+ 
+ 
+T4.3.2 Developing Blockchain and Smart Contract Integration guidelines for bidirectional PSSR customised queries: 
+CU will develop guidelines for enabling the design of customised queries over DPP Smart contracts. This includes the 
+possibility of using the DPP smart contract semantic model schema for developing customised queries over different 
+TVC data by using the holonic structure explained in the methodology section ranging from Garment, Yarn, Fabric, 
+Filament, types like Cotton, Synthetic and also the Energy and CO2 emission data. The PSFS & PSSR technologies can 
+develop customised queries to retrieve customised inquiries. The outcomes will be released through DPP smart contract 
+guidelines. REFA, IOM, CEA, and IRIS will develop sample queries for sorting for reuse/recycling technologies in 
+SORT4CIRC deployment, embed them into their data processing technologies, and test and validate the guidelines for 
+integrity in deployment at WP5. 
+The results of the whole Task 4.3 will be reported in D4.4. 
+T4.4: Establishment of a tokenised ecosystem over TVC [CU] (M20-M34) 
+T4.4.1 Token Economy Scenario Design: CU designs the mechanisms for token issuance, distribution, and trading using 
+the methodological approach explained. A comprehensive token economic scenario model will be developed to clarify 
+how tokens are issued, distributed among participants, and traded within the TVC ecosystem. This model will also outline 
+the incentive structures encouraging stakeholders through the TVC and consumers to adopt sustainable behaviours. The 
+scenarios will be analysed from economic aspects, and the sustainability strategies, including energy and CO2 footprint 
+tracking through the DPP model, will be examined to ensure the scalability and sustainability of the token circulation 
+model. 
+T4.4.2 Token Management System Development: CU develops the guidelines for implementing smart contracts for token 
+management through DPP. Smart contracts will be coded to manage token issuance, transfer, and deduction securely. 
+Integration with the DPP blockchain will ensure that all transactions are transparent and immutable. Security measures 
+will be put in place to protect the integrity of the token management system, as well as the scalability of the token model 
+over TVC. The result includes the details of a token exchange over the TVC SC, covering the holistic methodological 
+approach for including tokens including Garment, Yarn, Fabric, Filament, Cotton, Synthetic and even Energy and CO2 
+emission throughout the whole TVC. 
+T4.4.3. LCA, TEF interoperability framework with DPP token economy model: CU establishes guidelines for 
+compatibility of ISO 14040 and ISO 14044 LCA assessment over the token economy model. This will enable the LCA 
+assessment models to use the DPP token as a backbone for assessment. CU develops guidelines for enabling the design 
+of customised queries over the DPP token model and semantic model schema for developing customised queries over 
+different TVC data by using the holonic structure explained in the methodology section ranging from Garment, Yarn, 
+Fabric, Filament, types like Cotton, Synthetic and also the Energy and CO2 emission data. T6.2 and T6.3 outputs will give 
+basis to CU for validating customised queries and activating smart contract actuators for regulatory context mechanisms. 
+This will enable the TVC stakeholder to conduct LCA/TEF assessment and simulate and analyse their token initiation 
+and distribution strategies from a TEF assessment perspective. CU validates the guidelines by designing LCA/TEF 
+assessment scenarios over the DPP token strategy for the WP5 pilot demonstration. 
+The results of the whole Task 4.4 will be reported in D4.5. 
+T4.5: Development of DfD solutions over the DPP model [RESO, CU, RECY, PURFI] (M18-M36) 
+T4.5.1 DfD Principles to eco-design new textile garments with Smart Stitch™ to ensure recyclability: RESO will gather 
+requirements from RECY as well as use insights of previous projects and pilots to write preliminary eco-design guidelines 
+for design-for-disassembly and design-for-recycling that will be used in T4.5.2. RECY will perform tests at lab and pilot 
+scale with 3 families of feedstocks (PET/CO; PET/PA and PET/EA) provided by TXHO to identify the influence of 
+Smart Stitch ™ technology on the recycling of identified textiles. For each famil y, 3 experiments will be done: 1) 
+feedstock alone without any pre-treatment (reference), 2) feedstock with a thermal treatment (done by RESO) simulating 
+the machine required for the disassembly of garments including the RESO’ technology) feedstock + Smart Stitch ™ 
+threads (provided by RESO). Analyses will be done to assess the quality of the obtained monomer and the co-materials 
+to evaluate the impact of the thermal process. The results from the tests done by RECY will be used to define preliminary 
+guidelines taking into account recyclers’ needs. 
+T4.5.2 DfD Principles Extractor Guideline over DPP: CU creates comprehensive guidelines for using DPP historical 
+data over PSSR results. As explained in T4.3.2, the PSSR technologies will have a bi -directional interoperability with 
+DPP. This enables the ca pture of PSSR results in DPP. CU will develop data analytical guidelines to extract insights 
+about clothes' sorting and recycling compatibilities. The guidelines will result in the extraction of DfD principles. RESO 
+will participate in the drafting of the guidelines by leveraging the preliminary guidelines defined in T4.5.1 for DfD rules, 
+which focus on active disassembly methods such as thermally trigger stitching threads and adhesives as well as other 
+non-permanent fastening methods and how they have improved recyclability. This task aims to provide comprehensive 
+guidelines to enhance the recyclability of textile products and explain how DPP is crucial to enabling it. The principles 
+can be used for researching best practices and consulting with industry experts to draft guidelines that prioritise the 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+14 
+ 
+ 
+ 
+ 
+ 
+Work package WP5 – Demonstrator 
+ 
+Work Package Number WP5 Lead Beneficiary 15 - TXHO 
+Work Package Name Demonstrator 
+Start Month 19 End Month 36 
+ 
+ 
+principles, like how the use of non-permanent fastening methods, such as screws, clips, or snaps, instead of adhesives 
+or stitches can improve the recyclability. The guidelines will also cover layering strategies where different materials can 
+be easily separated, ensuring that each layer can be processed individually during recycling. The guidelines will be 
+validated with PURFI. 
+T4.5.3 DfD Technology Development and Integration with DPP: RESO analyses tools and technologies for assisting 
+textile disassembly, like heat -dissolvable bio -based and synthetic stitching threads. This also includes innovating 
+disassembly tools that are efficient and cost-effective and help optimise the time for disassembly and recycling. Research 
+into self-disassembling materials, which change properties under specific conditions, can facilitate easier disassembly 
+will be conducted. Guidelines for detectin g such disassembling materials and related technologies will be embedded 
+into the DPP model for effective PSSR processes by CU. This will be verified by successfully recognising DfD-enabled 
+textile products through PSSR processes in WP5. 
+The results of the whole Task 4.5 will be reported in D4.6 and D4.7. 
+Objectives 
+• Develop a comprehensive layout design for the pre-sorting pilot, integrating technologies. 
+• Set up the pilot plan adjacent to the manual pre-sorting system and run a test using an offline bypass to ensure 
+independent operation. 
+• Replace the manual pre-sorting system with the pilot plant after successful testing and validation. 
+• Establish a data connection to integrated operations' higher-level plant control system. 
+• Equip the system with conveyor belts, stable frames for the mounting measuring devices, and RFID detectors. 
+• Demonstrate the operational capabilities of the advanced sorting line and provide ongoing support for technology  
+integration and measurement geometries. 
+• Develop a token pilot model and demonstrate how textile product separation results in taken circularity. 
+• Coordinate with recyclers to provide sufficient quantities of sorted feedstocks for testing. 
+Description 
+T5.1: Demonstration of an automatised PSFS pilot [SEM, TXHO, IRIS, CEA, REFA] (M19-M36) 
+As gravity is used to transport the material from the pre-sorting line to the sorting line, the developed machine must be 
+supported on a suitable metal frame so that the containers can be positioned under the outlet of the discharge chutes. SEM 
+will design and build this metal frame, considering the spatial conditions of the factory halls at the selected plant. TXHO 
+will support the machine manufacturer in the design of the automatic pre-sorting pilot. TXHO will provide plans for the 
+halls, production facilities, and infrastructure for integrating the demonstrator into the existing sorting line. TXHO will 
+draw up a specification sheet for the demonstrator and provide the machine builder with ongoing advice during the 
+design phase. 
+TXHO will first draw up a diagram of this sorting process so that the mechanical engineers can work out the basic 
+methods for automated sorting. 
+REFA will provide access to its automated sorting software system to detect various product attributes such as product 
+type, wear condition, style, fabric construction, brand, colour, and size. Furthermore, the system will enable sorters to 
+define feedstock requirements for each fraction via a management cockpit, allowing garments to be sorted according to 
+a predefined ruleset. Additionally, REFA will provide the endpoint for the SKU retrieval system developed in WP2 for 
+PSFS. The software system will also be capable of retrieving and processing DPP data.  
+SEM, TXHO, and REFA will conduct a feasibility study to explore how the feeding process of the sorting line, 
+specifically for unfolding garments, can be accelerated. While automation of the feeding process is a possibility, it must 
+not compromise the high sorting quality standards required by second -hand buyers. SEM, IRIS, and CEA will analyse 
+the sorting scheme, jointly determine a suitable arrangement for the measurement technology, and develop the layout 
+for the pilot plant. A suitable position for the test run in bypass operation can be determined based on the hall plans and 
+the dimensions of the production systems installed there. 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+15 
+ 
+ 
+After successful testing, SEM and TXHO will integrate the pilot plant into the production line with its maintenance 
+department and establish a connection to the higher-level plant control system. 
+The results of the Task 5.1 will be reported in D5.3. 
+T5.2: Upgrade, integrate and demonstrate the advanced sorting technologies for recycling into an operational automatised 
+sorting line [TXHO, SEM, IRIS, CEA, IOM] (M25-M36) 
+The Multirange Spectroscopic Platform developed in WP3 by IRIS, which incorporates AI models from IRIS, IOM and 
+CEA, will include the most relevant optical techniques for assessing the garments’ composition. The device consists of a 
+real-time monitoring system prototype that will be coupled to the current TXHO mechanical sorting system. SEM must 
+only establish a data connection to the Supervisory Control and Data Acquisition (SCADA) systems. TXHO will support 
+SEM, IOM, IRIS and CEA in integrating optical measurement technologies into the existing sorting plant and defining 
+the measurement geometries. Additionally, CEA and IRIS will conduct a regression test to validate the performance of 
+the demonstrators developed in WP2-3 on the sorting line. 
+The results of the Task 5.2 will be reported in D5.4. 
+T5.3: Validation of SORT4CIRC DPP blockchain for storage/retrieval of TVC [CU, SEM, TXHO, IOM, CEA, RESO] 
+(M25-M34) 
+T5.3.1. TTRFID technology deployment in pilot demonstrator: CU will adopt TTRFID tags using the results of Del N°: 
+4.1, 4.2 and will deploy demonstration textile samples with attached TTRFIDs. The consolidation of TTRFID 
+infrastructure with PSSR technologies will be assessed and validated by TXHO and deployed in demonstrator. 
+T5.3.2. DPP blockchain technology deployment and integration in pilot demonstrator: CU will adopt the guidelines for 
+DPP blockchain architecture using the results of Del N°: 4.3, 4.4 and will deploy an eco -friendly PoS consensus and 
+smart contract supporting structure. The blockchain architecture for DPP will be empowered by leveraging Semantic 
+Web technologies to enhance data interoperability and machine readability across other technologies in the demonstrator. 
+CU will define the data model using RDF and OWL and fulfil the standardised APIs and data formats to enable seamless 
+communication between different technology systems within the TVC ecosystem. The DPP blockchain will be integrated 
+with TTRFID, and the validation of seamless communication result will be a blockchain DPP token model integrated 
+with TTRFID in the demonstration pilot. The DPP then will be validated for interoperability with the demonstrator pilot 
+PSFS & PSSR technologie s. SEM will test their sample queries for pre -sorting technologies in the SORT4CIRC 
+demonstrator and validate the integrity of effective pre -sorting. REFA, IOM, CEA and IRIS will test their queries for 
+sorting for recycling technologies in SORT4CIRC deploy ment embed and validate the effective distinguishing of the 
+textile parts. RESO will test the DPP to recognise heat-dissolvable bio-based and synthetic stitching threads. SEM will 
+integrate the results through the demonstrator pilot in terms of embedment of PSFS & PSSR queries with the DPP model 
+and successful distinguishing of TTRFID-equipped textile products. 
+T5.3.3. DPP tokenisation realisation and validation in pilot demonstrator: CU will develop the token pilot model. The 
+PSFS & PSSR technology bidirectional communication results will be used to shape the demonstration of how the 
+distinguishing and separation of textile products will result in token circularity. The scenarios released in Del N°: 4.5 will 
+simulated, and the token management system will be demonstrated. CU will present an autonomous and interoperable 
+LCA assessment framework over the DPP tolerised demonstrator. 
+The results of the whole Task 5.3 will be reported in D5.1 and D5.2. 
+T5.4: Validation of SORT4CIRC sorted feedstock for high-value recycling at recyclers facilities [RECY, TXHO, PURFI] 
+(M30-M36) 
+TXHO conducts sorting tests and makes the sorted materials available to all participating recycling companies for 
+analysis and validation. The goal is to integrate the sorted feedstock into existing high -value recycling processes at the 
+recyclers' facilities. TXHO will monitor and document the performance of the feedstock in various recycling operations, 
+such as thermo-mechanical, chemical recycling, and fabric regeneration, and compare the performance of SORT4CIRC 
+sorted feedstock with standard feedstock to identify differences in efficiency, yield, and product quality. The results from 
+the performance validation will be analysed to pinpoint areas for improvement in the sorting process. Detailed feedback 
+will be provided to the SORT4CIRC development team on the performance of the sorted feedstock. Additionally, TXHO 
+will collaborate with the machinery builder, IOM, CEA, and IRIS to implement necessary adjustments and optimise the 
+sorting parameters for better results. 
+Assuming the capacity of the current textile sorting plant is not expanded during the project period and the material 
+composition of the garments for recycling remains the same, TXHO could deliver around 10% of the total sorted material 
+to the recyclers for validation. 
+PURFI will run tests on 3 families of feedstock provided by TXHO (CO/PES, Cotton, Polyester). The first test will 
+determine if the feedstock meets the requirements for closed loop mechanical recycling. Feedback will be provided to 
+TXHO. After approval of test 1 PURFI can go into further testing to see if the desired outcome can be reached.  
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+16 
+ 
+ 
+ 
+ 
+ 
+Work package WP6 – Technical and economic feasibility, environmental and social 
+assessment, design and efficiency improvement 
+ 
+Work Package Number WP6 Lead Beneficiary 11 - PSB 
+Work Package Name Technical and economic feasibility, environmental and social assessment, design and 
+efficiency improvement 
+Start Month 1 End Month 36 
+ 
+Description 
+Description of work 
+T6.1: SORT4CIRC data collection [ARIS, PSB, ALL] (M3-M15) 
+T6.1.1: Process flow -sheeting, inventory data collection and preliminary economic potential and GHG emissions 
+calculations: This task aims to conceptually determine and illustrate the SORT4CIRC process and its value chain. ARIS 
+will develop a flowsheet depicting the sequence of process operations and equipment units, material streams (e.g., raw 
+materials, products, by-products, wastes) and operating conditions (e.g., temperature, pressure, flow rate). The mass and 
+energy balances (LCI) of both the existing (state -of-the-art) and the SORT4CIRC proposed process will be calculated 
+based on data attained from WPs 2 -5 and will provide the basis for estimating all the inventory data required for the 
+techno-economic and environmental impact assessments (Tasks 6.2 and 6.3). A preliminary estimation of the economic 
+potential and the environmental burden will also be performed, and the results will be used in T4.1.3 and T4.4.3, linked 
+to D.4.2 and D.4.5, respectively, to facilitate a technology screening. 
+T6.1.2: Mapping the current textile forward and reverse SC network, physical, information, and financial flows across 
+the EU, including demand and supply side specifications for each stakeholder and connection between them: PSB will 
+(1) map the existing post -consumer value chain of the textile products by identifying the involved entities and 
+stakeholders (consumers, collectors, recyclers, industrial users, second-hand markets, charity shops) as well as existing 
+physical, information and financial flows and exploring potential supply points, and demand markets that can be possibly 
+integrated into the value chain after introducing/implementing the new sorting system; and will (2) identify the existing 
+BMs and practices in the textile reuse and recovery industry and their current effectiveness. All partners will provide 
+necessary and detailed information concerning material, information, and financial flow, as well as existing supply and 
+collection network. 
+The results of the whole Task 6.1 will be reported in D6.1. 
+T6.2: Environmental impact assessment [ARIS, ALL] (M15-M34) 
+To estimate the environmental performance of SORT4CIRC process, ARIS will initially perform an ex -ante, 
+attributional, gate-to-gate LCA study, according to ISO 14040/44 and 14025, to assess the impact of the deployment of 
+the new technologies on the existing sorting process. For this analysis, the system boundaries will include only the sorting 
+processes. Subsequently, ARIS will perform an ex -ante, consequential cradle -to-cradle LCA study, according to ISO 
+14040/44 and 14025, to assess the consequential benefits imposed by the new technologies along the whole value chain of 
+RECY will run text on 4 families of feedstocks provided by TXHO (PET/CO; PET/PA; PET/EA; multilayers with 
+enough PET). For each family of feedstock, 2 test runs will be done by RECY at different scales (from lab to pilot or 
+industrial demonstrator if relevant)1st: feedback to TXHO. 2nd test: 2nd runs to see if what does not work at the 1st has 
+been corrected.) Analyses will be done on monomers and co-materials to validate that the sorted feedstocks fit with our 
+recycling process. 
+The results of the Task 5.4 will be reported in D5.5. 
+Objectives 
+• Determine the LCI of the whole value chain. 
+• Assess the economic and environmental impact of the textile sorting process automation. 
+• Identify and mitigate potential risks associated with the automation project, such as technical challenges, market 
+demand fluctuations, and regulatory compliance. 
+• Evaluate the viability of the CE BM, industrial symbiosis among recyclers, along with social acceptance and consumer 
+welfare. 
+• Optimise the design and operation of the automated sorting system. 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+17 
+ 
+ 
+the textile recycling process. For this analysis, the system boundaries will include all the foreground processes developed 
+in WP2-4 of the SORT4CIRC and downstream (distribution) processes, including waste treatment and all the auxiliary 
+(background) processes needed for the material/energy supply. LCI derived from Task 6.1, will be the basis for the LCA. 
+The environmental impact, emphasising GHG emissions (kg CO2 -eq) and water use (m3 depriv.), will be evaluated 
+based on the Environmental Footprint v3.1 method of the EU Commission. Other relevant environmental impacts that 
+are directly related to (i) minimisation of wastewater stream production (freshwater ecotoxicity and eutrophication), (ii) 
+optimisation of resource use efficiency (resource use, fossils, minerals and metals); and (iii) volatile organic compounds 
+avoidance (i.e. ozone depletion, photo chemical ozone formation, particulate matter and human toxicity), will also be 
+estimated to assess the global environmental burden of the SORT4CIRC. To determine the reliability of the obtained 
+impact results, uncertainty analysis ‒ Monte Carlo random sampling on inventory data probability distributions coupled 
+with multiple iterations for LCA calculations ‒ will be applied. All partners will validate the relevant assumptions 
+concerning the system boundaries. The results will be summarised in D6.2, highlighting the environmental performance 
+of SORT4CIRC and will be used for the benchmarking in T6.6. 
+The results of the Task 6.2 will be reported in D6.2. 
+T6.3: Cost-benefit analysis of SORT4CIRC [ARIS, ALL] (M15-M34) 
+Within this task the TEA of SORT4CIRC will be performed by ARIS. All partners will provide additional data and 
+validate relevant assumptions concerning the pieces of equipment and the system boundary limits. ARIS will perform a 
+cost-benefit analysis based on the LCI obtained in T6.1. Particularly, the operating cost of the sorting process (i.e., 
+labour, capital depreciation, raw materials and utilities, etc.) will initially be estimated. Further, based on the anticipated 
+sales revenue, the economic benefit of SORT4CIRC will be estimated in terms of profit margin, ROI, and payout time. 
+The cost-benefit analysis will determine the SORT4CIRC financial viability and steer it towards a more cost -effective 
+approach. The results will be summarised in D6.3 and benchmarked against the state -of-the-art process in T6.6. 
+The results of the Task 6.3 will be reported in D6.3. 
+T6.4: BM evaluation, industrial symbiosis, social acceptance and consumer welfare [PSB, ALL] (M1-M36) 
+This task evaluates the BMs for SORT4CIRC, focusing on industrial symbiosis, social acceptance, and consumer welfare. 
+It aims to develop viable CE BMs that foster collaboration among producers, collectors, recyclers and other stakeholders. 
+This task addresses the broader business and social implications of the project, as follows: CE Model: PSB evaluates 
+BMs for the CE, with a focus on revenue generation strategies, SC management, and market demand for re-wearable and 
+recycled textiles. Additionally, PSB assesses the impact of introducing DPP technologies in textiles, as well as the effects 
+of EPR regulations on these areas. Collaboration for Efficiency: PSB analyses opportunities for industrial symbiosis, 
+where different companies in the recycling sector can collaborate to enhance resource efficiency and potentially reduce 
+costs. Public Perception: PSB assesses the social acceptance of using DPP technologies in clothes (e.g., TTRFID - 
+equipped clothes) required as an inp ut for WP4, and consumer attitudes towards re -wearable and recycled textiles. 
+Consumer Well-being: PSB evaluates the impact of new processes developed by SORT4CIRC on consumer welfare. 
+This includes the quality, availability, and affordability of re -wearable and recycled textile products. While the initial 
+two points are addressed through analytical techniques, such as game -theoretical approaches, the remaining two are 
+investigated mainly using empirical research methods. All partners provide additional dat a required for the modelling 
+and survey design process, review and verify the validity of the models and surveys designed and assess the credibility 
+of the results. 
+The results of the Task 6.4 will be reported in D6.4. 
+T6.5: Design and operation optimisation of the automated sorting system [PSB, ARIS, TXHO] (M12-M36) 
+This task aims to optimise the design of the sorting system and to ensure a smooth workflow and operations throughout 
+the system. This task involves the development of mathematical models and heuristic approaches to tackle the main 
+design problems, including equipment selection, staff requirements, facility layout planning, and line balancing. This task 
+also includes the development and validation of a fine -grained simulation model using FlexSim© simulation software 
+that allows us to imitate the behaviour of the real system considering detailed system characteristics and operations as 
+well as dynamic and stochastic elements, which helps us measure the system’s KPIs (e.g., throughput, time in the system, 
+etc.), and identify potential bottlenecks, all lead to decide whether the designed system is efficient. We test the system’s 
+performance under various conditions (e.g., supply fluctuation, etc.), and also, based on the insights obtained from the 
+simulation model, we test selected scenarios that could improve the system’s efficiency using the developed simulation 
+model. We also perform comparative studies using simulation modelling to evaluate the existing sorting system against 
+the automated, technology-integrated system SORT4CIRC aims to create. ARIS provides the process flow data collected 
+in T6.1.1. TXHO provides initial design and operations instructions as well as all necessary data that allows us to model 
+the manual and automated sorting processes. TXHO also verifies the validity of models and results and provides input 
+to create and test new scenarios for design and operations improvement. 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+18 
+ 
+ 
+ 
+ 
+ 
+Work package WP7 – Communication, Dissemination, and Exploitation 
+ 
+Work Package Number WP7 Lead Beneficiary 7 - CEF 
+Work Package Name Communication, Dissemination, and Exploitation 
+Start Month 1 End Month 36 
+ 
+Description 
+T7.1: Communication, Dissemination and Exploitation activities [CEF, CGS, TRA, ALL] (M1-M36) 
+Together with all SORT4CIRC partners, CEF and TRA will develop a Communication, Dissemination and Exploitation 
+(CDE) Plan to ensure the successful exploitation of the SORT4CIRC results and to identify opportunities for synergy 
+and guide SORT4CIRC communication and dissemination activities relevant to the project, monitoring procedures and 
+the sustainability of the project beyond its lifecycle. The Key Exploitable Results, as defined in Table 4, will be in 
+responsibility of the individual partners or WPs and the strategy for utilization and exploitation of results and all resulting 
+exploitation activities will be included in the CDE. Considering the three -year project duration, necessary adjustments 
+will be made to the plan on a regular basis, taking into account the evaluation of outreach and communication analytics, 
+as well as successes, lessons learnt and future opportunities that may have emerged since SORT4CIRC’s inception as 
+reported by all project partners. A monthly communications meeting between the partners will be held to keep each other 
+up to date with communications activities and communications opportunities. 
+Along with the Plan, a Brand Book will be established by CEF at the project outset to articulate SORT4CIRC’s visual 
+identity, including logos, colour codes, images, templates (i.e. for web banners, social media visuals, flyers, posters, etc), 
+key messages, and promotional text. CEF will prepare promotional and communication materials (e.g. SORT4CIRC 
+brochures, visual materials for social media, short promotional videos, tailored presentations, flyers, etc.) to support the 
+promotional and communication actions throughout the project. The format of the materials will be adapted to the 
+diverse promotional and communication channels to be used. CGS will provide communications (i.e. social med ia 
+content creation and management) and design support (i.e. visualisations, infographics, website design) to this task.  
+To ensure effective dissemination, the project will rely on continuous dissemination by maintaining an online presence 
+and participating in existing events to regularly update external stakeholders on project progress, as well as punctual 
+communications campaigns designed to give a boost to SORT4CIRC’s dissemination efforts at crucial moments in the 
+project. Project communication and dissemination activities will be implemented via different platforms and channels 
+(i.e. SORT4CIRC website, social networks, media platforms, etc). Social media posts will be shared on SORT4CIRC and 
+partners’ social media accounts, while the news item will be pitched to relevant media and published on SORT4CIRC 
+website. An opinion article will also be pitched to relevant media and/or published on SORT4CIRC website. Relevant 
+media outlets focus on sustainability, SC, and recycling. For effective communication and advocacy, SORT4CIRC will 
+produce a newsletter, and social media posts every year. 
+A dedicated website for SORT4CIRC will be set up in M3 by CEF, which is in line with the DMP. Project partners will 
+develop regular content to be uploaded to the website through short blogs, news, key updates on the project, and other 
+content types. The website will integrate a newsletter signup feature to give the public exclusive access to SORT4CIRC 
+project updates. Following the project, the SORT4CIRC website will be assessed if potential improvements to its features 
+are needed following the development of SORT4CIRC’s activities. 
+The results of the Task 6.5 will be reported in D6.5. 
+T6.6: Technologies benchmarking [ARIS, WP Leaders] (M18-M36) 
+Herein, ARIS will benchmark the developing textile sorting process against its state-of-the-art counterparts with all WP 
+leaders in support. It will indicate (i) the maximum sorting cost this new sorting process can reach and still be competitive 
+and (ii) the positioning of the SORT4CIRC process against the competitors in terms of cost, environmental impact and 
+technical performance. 
+The results of the Task 6.6 will be reported in D6.6 and D6.7. 
+Objectives 
+• Raise awareness of the SORT4CIRC project 
+• Implement training sessions/webinars tailored to each WP theme, key challenges and needs 
+• Disseminate the results and lessons learnt to policymakers, project stakeholders and other interested parties to shape 
+future policies and research agendas on circular textiles. 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+19 
+ 
+ 
+Together with all SORT4CIRC partners, CEF and TRA will contribute to clustering activities (joint kick off, joint events 
+or final events) with other EU projects selected under the same topic. Such activities will aim at identifying synergies, 
+exchanging good practices and providing evidence for EU policy developments. The common activities might include 
+joint dissemination and/or exploitation activities, as well as coordinated deliverables related to policy recommendations. 
+The results of the Task 7.1 will be reported in D7.1, D7.2, D7.3, D7.4, D7.6, D7.7, D7.8 and D7.11. 
+T7.2: Development of knowledge and policy support [CEF, CGS,ALL] (M1 -M36) 
+To ensure that the outcome and impact of SORT4CIRC can also be translated beyond the project timeline, CEF will 
+consolidate all content materials and lessons learnt with the inputs of all project partners throughout the project into a 
+comprehensive, user-friendly toolbox. CGS will provide communications and design support to this tool. This toolbox 
+will ensure that the best practices and approaches implemented in this project are transferable and can be applied 
+by European businesses, start -ups, service providers, as well as academia and public institutions in the future when 
+supporting the establishment and strengthening of a just and transparent CE for textiles in Europe. For future CE projects, 
+the toolbox will be designed to help them avoid duplication of efforts, and build on existing best practices, speed up the 
+knowledge translation process and contribute to the existing body of work on this subject matter as well as inform real-life 
+circular practices. A launch event will be held to further disseminate the toolbox beyond the SORT4CIRC community. 
+A set of policy briefing documents will be dedicated to European, national and regional policymakers with 
+recommendations for support measures promoting the deployment of circular textile solutions. The recommendations 
+will aim to improve existing policy frameworks that impact the CE and will be forward-looking to shape future research 
+agendas and policy measures impacting circular solution implementation. The document will be anchored in results and 
+findings from SORT4CIRC’s WP2-6 activities. 
+The results of the Task 7.2 will be reported in in D7.5 and D7.9. 
+T7.3: Complementary knowledge transfer [CEF, CGS, TRA, ALL] (M1-M36) 
+Furthermore, a comprehensive knowledge sharing and training of five 90 -minute webinars/training sessions will be 
+developed by CEF in collaboration with CGS communication and design experts. The emphasis of each session will be 
+based on needs expressed by project actors and the experience of project actors and include findings and learnings from 
+WP2-WP6. While the content of the webinars will be tailored to the challenges and learnings/insights/interests expressed 
+by SORT4CIRC project actors, other interested parties and other partners within the CCRI network are welcome to join 
+and participate. The content materials used in the webinars will be shared with the project actors, and the webinar will 
+be recorded, edited and shared as an additional resource uploaded to the SORT4CIRC website for future use. All content 
+materials and webinars will be delivered in English. All project partners will support the capacity -building program. 
+CEF will coordinate with the CCRI to align communication efforts. To ensure SORT4CIRC’s visibility, events where 
+the project can be presented to encourage cross-promotion and cross-pollination with other actors within the CE sector 
+will be identified in the Plan. Examples include the ‘Textiles Ecosystem Stakeholders’ event organised by the European 
+Commission’s DG GROW, the ‘Global Fashion Summit’ organised by the Global Fashion Agenda, or the European CE 
+Stakeholder Platform’s Textile Leadership Group events where CEF is a member and strategic partner. CEF is also an 
+Associated Partner to CCRI’s Coordination and Support Office, contributing to multiple Thematic Working Groups such 
+as the Circular Resource Management group (which covers textiles), as well as a co -host of the World CE Forum. We 
+expect to attend/participate in two external events per year (six events total) to i ncrease SORT4CIRC’s visibility and 
+foster networking opportunities within the project partners’ network and externally.  
+Create a standard of pre -sorting categories used by more operators with more than 20% market share. Using TRA's 
+leverage with the CEO being the General Delegate of the Bureau of International Recycling's textiles division and 
+a board member of the textiles division at the European Recycling Industries Confederation, TRA will work with 
+WP partners first to deliver the framework for this categorisation, then using their extensive European network 
+liaise with major European sorters to seek the necessary consensus on delivering this objective. Various cocreation/ 
+participatory approaches will be adopted, including online and in-person workshops, one-to-one meetings, surveys and 
+other appropriate means. TRA will also assist in providing WP partners with necessary garments to establish the data 
+repository and facilitate improving garment recognition and worn-out garments where necessary. 
+The results of the Task 7.3 will be reported in D7.10. 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+20 
+ 
+ 
+STAFF EFFORT 
+ 
+ 
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+21 
+ 
+ 
+LIST OF DELIVERABLES 
+ 
+Deliverables 
+Grant Preparation (Deliverables screen) — Enter the info. 
+The labels used mean: 
+Public — fully open (  automatically posted online) 
+Sensitive — limited under the conditions of the Grant Agreement 
+EU classified —RESTREINT-UE/EU-RESTRICTED, CONFIDENTIEL-UE/EU-CONFIDENTIAL, SECRET-UE/EU-SECRET under Decision 2015/444 
+Deliverable 
+No 
+Deliverable Name Work 
+Package 
+No 
+Lead Beneficiary Type Dissemination Level Due Date 
+(month) 
+D1.1 Project Management Plan WP1 1 - CU R — Document, report SEN - Sensitive 3 
+D1.2 Data Management Plan WP1 1 - CU DMP — Data 
+Management Plan 
+PU - Public 6 
+D1.3 Project meeting minutes and decision 
+records M1-M18 
+WP1 1 - CU R — Document, report SEN - Sensitive 18 
+D1.4 Data Management Plan M18 WP1 1 - CU DMP — Data 
+Management Plan 
+PU - Public 18 
+D1.5 Project meeting minutes and decision 
+records M18-M24 
+WP1 1 - CU R — Document, report SEN - Sensitive 24 
+D1.6 Project meeting minutes and decision 
+records M24-M36 
+WP1 1 - CU R — Document, report SEN - Sensitive 36 
+D1.7 Data Management Plan M36 WP1 1 - CU DMP — Data 
+Management Plan 
+PU - Public 36 
+D2.1 Development of a complete machine for 
+PSFS 
+WP2 9 - SEM DEM — Demonstrator, 
+pilot, prototype 
+SEN - Sensitive 12 
+D2.2 Sorting system for PSFS WP2 9 - SEM DEM — Demonstrator, 
+pilot, prototype 
+SEN - Sensitive 20 
+
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+22 
+ 
+ 
+ 
+Deliverables 
+Grant Preparation (Deliverables screen) — Enter the info. 
+The labels used mean: 
+Public — fully open (  automatically posted online) 
+Sensitive — limited under the conditions of the Grant Agreement 
+EU classified —RESTREINT-UE/EU-RESTRICTED, CONFIDENTIEL-UE/EU-CONFIDENTIAL, SECRET-UE/EU-SECRET under Decision 2015/444 
+Deliverable 
+No 
+Deliverable Name Work 
+Package 
+No 
+Lead Beneficiary Type Dissemination Level Due Date 
+(month) 
+D2.3 Automated detection for a PSFS garment 
+sorting system 
+WP2 14 - REFA DEM — Demonstrator, 
+pilot, prototype 
+SEN - Sensitive 24 
+D2.4 Usage Guidelines WP2 14 - REFA R — Document, report PU - Public 24 
+D2.5 Summaries of Learning and Deployment 
+Insights 
+WP2 14 - REFA R — Document, report PU - Public 24 
+D3.1 Report on characterisation of textile samples WP3 15 - TXHO R — Document, report PU - Public 6 
+D3.2 Report on the selection of best techniques for 
+the recognition of complex garments 
+WP3 8 - CEA R — Document, report SEN - Sensitive 18 
+D3.3 Multirange Spectroscopic smart sensing 
+system 
+WP3 13 - IRIS DEM — Demonstrator, 
+pilot, prototype 
+SEN - Sensitive 24 
+D3.4 Eco-design guidelines and report on the 
+process to recognise DfD garments 
+WP3 5 - RESOR R — Document, report PU - Public 24 
+D3.5 Tests report WP3 4 - RECY R — Document, report SEN - Sensitive 24 
+D4.1 TTRFID assessment WP4 1 - CU R — Document, report SEN - Sensitive 6 
+D4.2 TTRFID design and selection guideline WP4 1 - CU R — Document, report SEN - Sensitive 12 
+D4.3 DPP development guidelines WP4 1 - CU R — Document, report PU - Public 12 
+D4.4 DPP smart contract guidelines for PSFS & 
+PSSR compatibility 
+WP4 1 - CU R — Document, report PU - Public 24 
+
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+23 
+ 
+ 
+ 
+Deliverables 
+Grant Preparation (Deliverables screen) — Enter the info. 
+The labels used mean: 
+Public — fully open (  automatically posted online) 
+Sensitive — limited under the conditions of the Grant Agreement 
+EU classified —RESTREINT-UE/EU-RESTRICTED, CONFIDENTIEL-UE/EU-CONFIDENTIAL, SECRET-UE/EU-SECRET under Decision 2015/444 
+Deliverable 
+No 
+Deliverable Name Work 
+Package 
+No 
+Lead Beneficiary Type Dissemination Level Due Date 
+(month) 
+D4.5 Tokenised Ecosystem framework analysis 
+and development guideline 
+WP4 1 - CU R — Document, report SEN - Sensitive 30 
+D4.6 DfD solution development over DPP 
+framework 
+WP4 5 - RESOR DEM — Demonstrator, 
+pilot, prototype 
+SEN - Sensitive 36 
+D4.7 Guidelines for recyclability and reusability WP4 5 - RESOR R — Document, report PU - Public 36 
+D5.1 TTRFID technology deployment WP5 1 - CU DEM — Demonstrator, 
+pilot, prototype 
+SEN - Sensitive 28 
+D5.2 DPP Blockchain demonstration deployment 
+with tokenised LCA assessment dashboard 
+WP5 15 - TXHO DEM — Demonstrator, 
+pilot, prototype 
+SEN - Sensitive 34 
+D5.3 Automatised PSFS pilot WP5 9 - SEM DEM — Demonstrator, 
+pilot, prototype 
+SEN - Sensitive 36 
+D5.4 Upgrade Automatised Sorting Line WP5 15 - TXHO DEM — Demonstrator, 
+pilot, prototype 
+SEN - Sensitive 36 
+D5.5 Validation of Sorted Feedstock WP5 4 - RECY DEM — Demonstrator, 
+pilot, prototype 
+SEN - Sensitive 36 
+D5.6 Successful recycling of sorted feedstock WP5 4 - RECY R — Document, report PU - Public 36 
+D6.1 Data collection for SORT4CIRC WP6 3 - ARIS R — Document, report SEN - Sensitive 15 
+D6.2 Report on environmental impact assessment WP6 3 - ARIS R — Document, report SEN - Sensitive 34 
+D6.3 Report on cost-benefit analysis WP6 3 - ARIS R — Document, report SEN - Sensitive 34 
+
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+24 
+ 
+ 
+ 
+Deliverables 
+Grant Preparation (Deliverables screen) — Enter the info. 
+The labels used mean: 
+Public — fully open (  automatically posted online) 
+Sensitive — limited under the conditions of the Grant Agreement 
+EU classified —RESTREINT-UE/EU-RESTRICTED, CONFIDENTIEL-UE/EU-CONFIDENTIAL, SECRET-UE/EU-SECRET under Decision 2015/444 
+Deliverable 
+No 
+Deliverable Name Work 
+Package 
+No 
+Lead Beneficiary Type Dissemination Level Due Date 
+(month) 
+D6.4 Report on the BM settings WP6 11 - PSB R — Document, report SEN - Sensitive 36 
+D6.5 Report on the efficient design and operation 
+of the automated sorting system 
+WP6 11 - PSB R — Document, report SEN - Sensitive 36 
+D6.6 Holistic technology benchmarking among 
+different textile sorting processes 
+WP6 3 - ARIS R — Document, report PU - Public 36 
+D6.7 Public report on environmental impact 
+assessment 
+WP6 3 - ARIS R — Document, report PU - Public 34 
+D7.1 Communication, Dissemination, and 
+Exploitation Plan M3 
+WP7 7 - CEF R — Document, report PU - Public 3 
+D7.2 SORT4CIRC Brand Book WP7 7 - CEF R — Document, report SEN - Sensitive 3 
+D7.3 SORT4CIRC website WP7 7 - CEF DEC —Websites, patent 
+filings, videos, etc 
+PU - Public 4 
+D7.4 Communication, Dissemination, and 
+Exploitation Plan M12 
+WP7 7 - CEF R — Document, report PU - Public 12 
+D7.5 SORT4CIRC policy briefing document M18 WP7 7 - CEF R — Document, report PU - Public 18 
+D7.6 Communication, Dissemination, and 
+Exploitation Plan M36 
+WP7 7 - CEF R — Document, report PU - Public 36 
+D7.7 SORT4CIRC circular textiles toolbox WP7 7 - CEF R — Document, report PU - Public 36 
+D7.8 SORT4CIRC policy briefing document M36 WP7 7 - CEF R — Document, report PU - Public 36 
+
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+25 
+ 
+ 
+ 
+Deliverables 
+Grant Preparation (Deliverables screen) — Enter the info. 
+The labels used mean: 
+Public — fully open (  automatically posted online) 
+Sensitive — limited under the conditions of the Grant Agreement 
+EU classified —RESTREINT-UE/EU-RESTRICTED, CONFIDENTIEL-UE/EU-CONFIDENTIAL, SECRET-UE/EU-SECRET under Decision 2015/444 
+Deliverable 
+No 
+Deliverable Name Work 
+Package 
+No 
+Lead Beneficiary Type Dissemination Level Due Date 
+(month) 
+D7.9 Report on capacity building webinars WP7 7 - CEF R — Document, report SEN - Sensitive 36 
+D7.10 Summary of clustering activties WP7 7 - CEF R — Document, report PU - Public 36 
+
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+26 
+ 
+ 
+Deliverable D1.1 – Project Management Plan 
+ 
+Deliverable Number D1.1 Lead Beneficiary 1 - CU 
+Deliverable Name Project Management Plan 
+Type R — Document, report Dissemination Level SEN - Sensitive 
+Due Date (month) 3 Work Package No WP1 
+ 
+ 
+Deliverable D1.2 – Data Management Plan 
+ 
+Deliverable Number D1.2 Lead Beneficiary 1 - CU 
+Deliverable Name Data Management Plan 
+Type DMP — Data Management 
+Plan 
+Dissemination Level PU - Public 
+Due Date (month) 6 Work Package No WP1 
+ 
+ 
+Deliverable D1.3 – Project meeting minutes and decision records M1-M18 
+ 
+Deliverable Number D1.3 Lead Beneficiary 1 - CU 
+Deliverable Name Project meeting minutes and decision records M1-M18 
+Type R — Document, report Dissemination Level SEN - Sensitive 
+Due Date (month) 18 Work Package No WP1 
+ 
+ 
+Deliverable D1.4 – Data Management Plan M18 
+ 
+Deliverable Number D1.4 Lead Beneficiary 1 - CU 
+Deliverable Name Data Management Plan M18 
+Type DMP — Data Management 
+Plan 
+Dissemination Level PU - Public 
+Due Date (month) 18 Work Package No WP1 
+Description 
+Setting up a quality management policy covering all aspects related to practical management (document exchanges & 
+internal workflows) of the project. (related to task 1.4). 
+Description 
+Establishment of procedures describing how project data will be handled and what data will  be collected, processed or 
+generated, methodologies and standards followed regarding sharing, duration, and preservation, ensuring full compliance 
+with Open science policy (related to task 1.4). 
+Description 
+Preparation, distribution and approval of minutes of meetings incl. agenda, decision records, action plan (related to task 
+1.1-3). 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+27 
+ 
+ 
+ 
+ 
+ 
+Deliverable D1.5 – Project meeting minutes and decision records M18-M24 
+ 
+Deliverable Number D1.5 Lead Beneficiary 1 - CU 
+Deliverable Name Project meeting minutes and decision records M18-M24 
+Type R — Document, report Dissemination Level SEN - Sensitive 
+Due Date (month) 24 Work Package No WP1 
+ 
+ 
+Deliverable D1.6 – Project meeting minutes and decision records M24-M36 
+ 
+Deliverable Number D1.6 Lead Beneficiary 1 - CU 
+Deliverable Name Project meeting minutes and decision records M24-M36 
+Type R — Document, report Dissemination Level SEN - Sensitive 
+Due Date (month) 36 Work Package No WP1 
+ 
+ 
+Deliverable D1.7 – Data Management Plan M36 
+ 
+Deliverable Number D1.7 Lead Beneficiary 1 - CU 
+Deliverable Name Data Management Plan M36 
+Type DMP — Data Management 
+Plan 
+Dissemination Level PU - Public 
+Due Date (month) 36 Work Package No WP1 
+ 
+ 
+Deliverable D2.1 – Development of a complete machine for PSFS 
+ 
+Deliverable Number D2.1 Lead Beneficiary 9 - SEM 
+Description 
+Establishment of procedures describing how project data will be handled and what data will  be collected, processed or 
+generated, methodologies and standards followed regarding sharing, duration, and preservation, ensuring full compliance 
+with Open science policy (related to task 1.4). 
+Description 
+Preparation, distribution and approval of minutes of meetings incl. agenda, decision records, action plan (related to task 
+1.1-3). 
+Description 
+Preparation, distribution and approval of minutes of meetings incl. agenda, decision records, action plan (related to task 
+1.1-3). 
+Description 
+Establishment of procedures describing how project data will be handled and what data will  be collected, processed or 
+generated, methodologies and standards followed regarding sharing, duration, and preservation, ensuring full compliance 
+with Open science policy (related to task 1.4). 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+28 
+ 
+ 
+ 
+Deliverable Name Development of a complete machine for PSFS 
+Type DEM — Demonstrator, 
+pilot, prototype 
+Dissemination Level SEN - Sensitive 
+Due Date (month) 12 Work Package No WP2 
+ 
+ 
+Deliverable D2.2 – Sorting system for PSFS 
+ 
+Deliverable Number D2.2 Lead Beneficiary 9 - SEM 
+Deliverable Name Sorting system for PSFS 
+Type DEM — Demonstrator, 
+pilot, prototype 
+Dissemination Level SEN - Sensitive 
+Due Date (month) 20 Work Package No WP2 
+ 
+ 
+Deliverable D2.3 – Automated detection for a PSFS garment sorting system 
+ 
+Deliverable Number D2.3 Lead Beneficiary 14 - REFA 
+Deliverable Name Automated detection for a PSFS garment sorting system 
+Type DEM — Demonstrator, 
+pilot, prototype 
+Dissemination Level SEN - Sensitive 
+Due Date (month) 24 Work Package No WP2 
+ 
+ 
+Deliverable D2.4 – Usage Guidelines 
+ 
+Deliverable Number D2.4 Lead Beneficiary 14 - REFA 
+Deliverable Name Usage Guidelines 
+Type R — Document, report Dissemination Level PU - Public 
+Due Date (month) 24 Work Package No WP2 
+ 
+Description 
+Development of an all -in-one solution for the new type of pre -sorting and advanced sorting technologies, integrating 
+multirange spectroscopic smart sensing, data fusion capabilities, and automated material for optimised textile sorting 
+process (related to task 2.3). 
+Description 
+Development of an automatic sorting system for pre- and fine sorting that uses camera technology and AI methods 
+to determine the type and quality of garments and sort them into defined fractions using a suitable discharge module 
+(related to task 2.2). 
+Description 
+Development of a sorting software system that automatically detects product attributes such as product type, wear 
+condition, fabric construction, brand, colour and sizes, with a SKU retrieval system enabled by similarity detection for 
+integrating DPP and e-commerce information into the sorting process (related to task 2.1). 
+Description 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+29 
+ 
+ 
+ 
+ 
+ 
+Deliverable D2.5 – Summaries of Learning and Deployment Insights 
+ 
+Deliverable Number D2.5 Lead Beneficiary 14 - REFA 
+Deliverable Name Summaries of Learning and Deployment Insights 
+Type R — Document, report Dissemination Level PU - Public 
+Due Date (month) 24 Work Package No WP2 
+ 
+ 
+Deliverable D3.1 – Report on characterisation of textile samples 
+ 
+Deliverable Number D3.1 Lead Beneficiary 15 - TXHO 
+Deliverable Name Report on characterisation of textile samples 
+Type R — Document, report Dissemination Level PU - Public 
+Due Date (month) 6 Work Package No WP3 
+ 
+ 
+Deliverable D3.2 – Report on the selection of best techniques for the recognition of complex 
+garments 
+ 
+Deliverable Number D3.2 Lead Beneficiary 8 - CEA 
+Deliverable Name Report on the selection of best techniques for the recognition of complex garments 
+Type R — Document, report Dissemination Level SEN - Sensitive 
+Due Date (month) 18 Work Package No WP3 
+ 
+ 
+Deliverable D3.3 – Multirange Spectroscopic smart sensing system 
+ 
+Deliverable Number D3.3 Lead Beneficiary 13 - IRIS 
+Deliverable Name Multirange Spectroscopic smart sensing system 
+A set of usage guidelines will be developed to provide instructions on system setup, configuration, and operation in a 
+textile sorting plant. These guidelines will cover key steps for deployment, hardware and software requirements, and 
+best practices for integration to enhance efficiency and accuracy while minimizing disruptions (related to task 2.1).  
+Description 
+A report summarizing key findings from testing and deployment will be delivered. It will highlight performance 
+benchmarks, discuss challenges encountered, and provide troubleshooting strategies and solutions to refine future 
+iterations and optimize textile sorting (related to task 2.1). 
+Description 
+A report will be made on the characterisation of the textile samples that will be used for the development of recognition 
+techniques (related to task 3.1). 
+Description 
+Selection of best techniques for the recognition of complex garments for the identification of black textiles, low content 
+material detection, chemical contaminants, coatings, fabric structure and multilayer garments (related to task 3.2).  
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+30 
+ 
+ 
+ 
+Type DEM — Demonstrator, 
+pilot, prototype 
+Dissemination Level SEN - Sensitive 
+Due Date (month) 24 Work Package No WP3 
+ 
+ 
+Deliverable D3.4 – Eco-design guidelines and report on the process to recognise DfD garments 
+ 
+Deliverable Number D3.4 Lead Beneficiary 5 - RESOR 
+Deliverable Name Eco-design guidelines and report on the process to recognise DfD garments 
+Type R — Document, report Dissemination Level PU - Public 
+Due Date (month) 24 Work Package No WP3 
+ 
+ 
+Deliverable D3.5 – Tests report 
+ 
+Deliverable Number D3.5 Lead Beneficiary 4 - RECY 
+Deliverable Name Tests report 
+Type R — Document, report Dissemination Level SEN - Sensitive 
+Due Date (month) 24 Work Package No WP3 
+ 
+ 
+Deliverable D4.1 – TTRFID assessment 
+ 
+Deliverable Number D4.1 Lead Beneficiary 1 - CU 
+Deliverable Name TTRFID assessment 
+Type R — Document, report Dissemination Level SEN - Sensitive 
+Due Date (month) 6 Work Package No WP4 
+ 
+Description 
+Development of self-contained inline analyser and chemometric models for the recognition of PCT in real-time (related 
+to task 3.3). 
+Description 
+This report will gather eco-design guidelines and a description of the process of recognising DfD garments in a relevant 
+environment (related to task 3.4). 
+Description 
+Report to present the tests carried out and the results obtained with the different feedstocks at RECY and PURFI facilities 
+(related to task 3.5). 
+Description 
+Assessment of the eco-friendly, recyclable RFID tags customised for textiles (related to task 4.1). 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+31 
+ 
+ 
+Deliverable D4.2 – TTRFID design and selection guideline 
+ 
+Deliverable Number D4.2 Lead Beneficiary 1 - CU 
+Deliverable Name TTRFID design and selection guideline 
+Type R — Document, report Dissemination Level SEN - Sensitive 
+Due Date (month) 12 Work Package No WP4 
+ 
+ 
+Deliverable D4.3 – DPP development guidelines 
+ 
+Deliverable Number D4.3 Lead Beneficiary 1 - CU 
+Deliverable Name DPP development guidelines 
+Type R — Document, report Dissemination Level PU - Public 
+Due Date (month) 12 Work Package No WP4 
+ 
+ 
+Deliverable D4.4 – DPP smart contract guidelines for PSFS & PSSR compatibility 
+ 
+Deliverable Number D4.4 Lead Beneficiary 1 - CU 
+Deliverable Name DPP smart contract guidelines for PSFS & PSSR compatibility 
+Type R — Document, report Dissemination Level PU - Public 
+Due Date (month) 24 Work Package No WP4 
+ 
+ 
+Deliverable D4.5 – Tokenised Ecosystem framework analysis and development guideline 
+ 
+Deliverable Number D4.5 Lead Beneficiary 1 - CU 
+Deliverable Name Tokenised Ecosystem framework analysis and development guideline 
+Type R — Document, report Dissemination Level SEN - Sensitive 
+Due Date (month) 30 Work Package No WP4 
+ 
+Description 
+The design/procurement guidelines for TTRFID development, including technological characteristics, the economic and 
+feasibility analysis and data privacy fulfilment criteria for consumers (related to task 4.1).  
+Description 
+Guidelines for developing scalable, eco -friendly blockchain architecture for DPP on platforms (e.g. Algorand, IOTA, 
+Ethereum) as well as the requirements for data interoperability and API support over TVC. Moreover, API requirements 
+for the interoperability of DPP with PSSR technologies will be developed (related to task 4.2).  
+Description 
+Integration of DPP data retrieval with PSFS & PSSR technologies to enable customised retrieval queries from DPP  
+smart contract (related to task 4.3). 
+Description 
+Form a tokenised ecosystem over TVC for managing CO2 emissions, real-time tracking and incentivising sustainable 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+32 
+ 
+ 
+ 
+ 
+ 
+Deliverable D4.6 – DfD solution development over DPP framework 
+ 
+Deliverable Number D4.6 Lead Beneficiary 5 - RESOR 
+Deliverable Name DfD solution development over DPP framework 
+Type DEM — Demonstrator, 
+pilot, prototype 
+Dissemination Level SEN - Sensitive 
+Due Date (month) 36 Work Package No WP4 
+ 
+ 
+Deliverable D4.7 – Guidelines for recyclability and reusability 
+ 
+Deliverable Number D4.7 Lead Beneficiary 5 - RESOR 
+Deliverable Name Guidelines for recyclability and reusability 
+Type R — Document, report Dissemination Level PU - Public 
+Due Date (month) 36 Work Package No WP4 
+ 
+ 
+Deliverable D5.1 – TTRFID technology deployment 
+ 
+Deliverable Number D5.1 Lead Beneficiary 1 - CU 
+Deliverable Name TTRFID technology deployment 
+Type DEM — Demonstrator, 
+pilot, prototype 
+Dissemination Level SEN - Sensitive 
+Due Date (month) 28 Work Package No WP5 
+ 
+ 
+Deliverable D5.2 – DPP Blockchain demonstration deployment with tokenised LCA 
+assessment dashboard 
+ 
+Deliverable Number D5.2 Lead Beneficiary 15 - TXHO 
+Deliverable Name DPP Blockchain demonstration deployment with tokenised LCA assessment dashboard 
+Type DEM — Demonstrator, 
+pilot, prototype 
+Dissemination Level SEN - Sensitive 
+practices, including smart contracts. Moreover, the LCA and TEF interoperability framework will be created (related 
+to task 4.4). 
+Description 
+Set up DfD solutions over DPP seamless communication with PSSR technologies focusing on dismantling techniques 
+(related to task 4.5). 
+Description 
+Guidelines for reusability and recycling (related to task 4.5). 
+Description 
+Upgrading the pilot demonstrator with communication infrastructure with TTRFID (related to task 5.3). 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+33 
+ 
+ 
+ 
+Due Date (month) 34 Work Package No WP5 
+ 
+ 
+Deliverable D5.3 – Automatised PSFS pilot 
+ 
+Deliverable Number D5.3 Lead Beneficiary 9 - SEM 
+Deliverable Name Automatised PSFS pilot 
+Type DEM — Demonstrator, 
+pilot, prototype 
+Dissemination Level SEN - Sensitive 
+Due Date (month) 36 Work Package No WP5 
+ 
+ 
+Deliverable D5.4 – Upgrade Automatised Sorting Line 
+ 
+Deliverable Number D5.4 Lead Beneficiary 15 - TXHO 
+Deliverable Name Upgrade Automatised Sorting Line 
+Type DEM — Demonstrator, 
+pilot, prototype 
+Dissemination Level SEN - Sensitive 
+Due Date (month) 36 Work Package No WP5 
+ 
+ 
+Deliverable D5.5 – Validation of Sorted Feedstock 
+ 
+Deliverable Number D5.5 Lead Beneficiary 4 - RECY 
+Deliverable Name Validation of Sorted Feedstock 
+Type DEM — Demonstrator, 
+pilot, prototype 
+Dissemination Level SEN - Sensitive 
+Due Date (month) 36 Work Package No WP5 
+ 
+Description 
+The DPP Blockchain sample solution is interoperable with TTRFID and PSFS, as well as PSSR technologies in the  
+demonstrator. 
+Demonstrator LCA dashboard website, which will demonstrate the DPP tokenised capabilities to demonstrate the LCA 
+assessment (related to task 5.3). 
+Description 
+Design and demonstration of an automatised pre-sorting pilot (related to task 5.1). 
+Description 
+Upgrade, integrate and demonstrate the advanced sorting technologies into an operational automatised sorting line 
+(related to task 5.4). 
+Description 
+Validation of SORT4CIRC sorted feedstock for high-value recycling at recycler's facilities (related to task 5.4). 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+34 
+ 
+ 
+Deliverable D5.6 – Successful recycling of sorted feedstock 
+ 
+Deliverable Number D5.6 Lead Beneficiary 4 - RECY 
+Deliverable Name Successful recycling of sorted feedstock 
+Type R — Document, report Dissemination Level PU - Public 
+Due Date (month) 36 Work Package No WP5 
+ 
+ 
+Deliverable D6.1 – Data collection for SORT4CIRC 
+ 
+Deliverable Number D6.1 Lead Beneficiary 3 - ARIS 
+Deliverable Name Data collection for SORT4CIRC 
+Type R — Document, report Dissemination Level SEN - Sensitive 
+Due Date (month) 15 Work Package No WP6 
+ 
+ 
+Deliverable D6.2 – Report on environmental impact assessment 
+ 
+Deliverable Number D6.2 Lead Beneficiary 3 - ARIS 
+Deliverable Name Report on environmental impact assessment 
+Type R — Document, report Dissemination Level SEN - Sensitive 
+Due Date (month) 34 Work Package No WP6 
+ 
+ 
+Deliverable D6.3 – Report on cost-benefit analysis 
+ 
+Deliverable Number D6.3 Lead Beneficiary 3 - ARIS 
+Deliverable Name Report on cost-benefit analysis 
+Type R — Document, report Dissemination Level SEN - Sensitive 
+Due Date (month) 34 Work Package No WP6 
+ 
+Description 
+SORT4CIRC sorted feedstock successfully used for high-value recycling at recycler's facilities (related to task 5.4). 
+Description 
+Report on data collection for the SORT4CIRC value chain, including mass and energy balances (related to task 6.1). 
+Description 
+Report on the environmental assessment of SORT4CIRC that emphasises GHG emissions along with other impact
+categories, determining their reliability (related to task 6.2). 
+Description 
+Report on the operating cost of the sorting process and profit margin estimation to determine the economic viability of 
+the project (related to task 6.3). 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+35 
+ 
+ 
+Deliverable D6.4 – Report on the BM settings 
+ 
+Deliverable Number D6.4 Lead Beneficiary 11 - PSB 
+Deliverable Name Report on the BM settings 
+Type R — Document, report Dissemination Level SEN - Sensitive 
+Due Date (month) 36 Work Package No WP6 
+ 
+ 
+Deliverable D6.5 – Report on the efficient design and operation of the automated sorting 
+system 
+ 
+Deliverable Number D6.5 Lead Beneficiary 11 - PSB 
+Deliverable Name Report on the efficient design and operation of the automated sorting system 
+Type R — Document, report Dissemination Level SEN - Sensitive 
+Due Date (month) 36 Work Package No WP6 
+ 
+ 
+Deliverable D6.6 – Holistic technology benchmarking among different textile sorting processes 
+ 
+Deliverable Number D6.6 Lead Beneficiary 3 - ARIS 
+Deliverable Name Holistic technology benchmarking among different textile sorting processes 
+Type R — Document, report Dissemination Level PU - Public 
+Due Date (month) 36 Work Package No WP6 
+ 
+ 
+Deliverable D6.7 – Public report on environmental impact assessment 
+ 
+Deliverable Number D6.7 Lead Beneficiary 3 - ARIS 
+Deliverable Name Public report on environmental impact assessment 
+Type R — Document, report Dissemination Level PU - Public 
+Due Date (month) 34 Work Package No WP6 
+ 
+Description 
+Report describing the analysis and settings of the BM that secures the viability of the business in the long run (related 
+to task 6.4). 
+Description 
+Report including models and recommendations for the efficient design and operation of the automated sorting system 
+(related to task 6.5). 
+Description 
+Comparison of SORT4CIRC against other textile sorting processes based on cost, environmental impact and technical 
+aspects (related to task 6.6). 
+Description 
+Report on the environmental assessment of SORT4CIRC including only non-sensitive data. (related to task 6.2). 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+36 
+ 
+ 
+Deliverable D7.1 – Communication, Dissemination, and Exploitation Plan M3 
+ 
+Deliverable Number D7.1 Lead Beneficiary 7 - CEF 
+Deliverable Name Communication, Dissemination, and Exploitation Plan M3 
+Type R — Document, report Dissemination Level PU - Public 
+Due Date (month) 3 Work Package No WP7 
+ 
+ 
+Deliverable D7.2 – SORT4CIRC Brand Book 
+ 
+Deliverable Number D7.2 Lead Beneficiary 7 - CEF 
+Deliverable Name SORT4CIRC Brand Book 
+Type R — Document, report Dissemination Level SEN - Sensitive 
+Due Date (month) 3 Work Package No WP7 
+ 
+ 
+Deliverable D7.3 – SORT4CIRC website 
+ 
+Deliverable Number D7.3 Lead Beneficiary 7 - CEF 
+Deliverable Name SORT4CIRC website 
+Type DEC —Websites, patent 
+filings, videos, etc 
+Dissemination Level PU - Public 
+Due Date (month) 4 Work Package No WP7 
+ 
+ 
+Deliverable D7.4 – Communication, Dissemination, and Exploitation Plan M12 
+ 
+Deliverable Number D7.4 Lead Beneficiary 7 - CEF 
+Deliverable Name Communication, Dissemination, and Exploitation Plan M12 
+Type R — Document, report Dissemination Level PU - Public 
+Due Date (month) 12 Work Package No WP7 
+ 
+Description 
+CDE plan detailing strategy for activities to be used by the project and partners involved, including activities, strategic 
+events and a tracker to measure and verify KPIs (related to task 7.1). 
+Description 
+Visual identity guidelines, logo, and templates for communication outputs to be used by partners in their respective  
+channels (related to task 7.1). 
+Description 
+SORT4CIRC project website with pages on the project, updates, partners, deliverables and contact details (related to 
+task 7.1). 
+Description 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+37 
+ 
+ 
+ 
+ 
+ 
+Deliverable D7.5 – SORT4CIRC policy briefing document M18 
+ 
+Deliverable Number D7.5 Lead Beneficiary 7 - CEF 
+Deliverable Name SORT4CIRC policy briefing document M18 
+Type R — Document, report Dissemination Level PU - Public 
+Due Date (month) 18 Work Package No WP7 
+ 
+ 
+Deliverable D7.6 – Communication, Dissemination, and Exploitation Plan M36 
+ 
+Deliverable Number D7.6 Lead Beneficiary 7 - CEF 
+Deliverable Name Communication, Dissemination, and Exploitation Plan M36 
+Type R — Document, report Dissemination Level PU - Public 
+Due Date (month) 36 Work Package No WP7 
+ 
+ 
+Deliverable D7.7 – SORT4CIRC circular textiles toolbox 
+ 
+Deliverable Number D7.7 Lead Beneficiary 7 - CEF 
+Deliverable Name SORT4CIRC circular textiles toolbox 
+Type R — Document, report Dissemination Level PU - Public 
+Due Date (month) 36 Work Package No WP7 
+ 
+ 
+Deliverable D7.8 – SORT4CIRC policy briefing document M36 
+ 
+Deliverable Number D7.8 Lead Beneficiary 7 - CEF 
+Deliverable Name SORT4CIRC policy briefing document M36 
+Type R — Document, report Dissemination Level PU - Public 
+Due Date (month) 36 Work Package No WP7 
+ 
+Compilation of communication activities and materials (i.e. newsletter and social media post) used for dissemination 
+and updates on exploitation strategy (related to task 7.1). 
+Description 
+Policy recommendations for regional, national, and European policymakers (related to task 7.2). 
+Description 
+Compilation of communication activities and materials (i.e. newsletter and social media post) used for dissemination 
+and updates on exploitation strategy (related to task 7.1). 
+Description 
+Best practices toolbox for project stakeholders to exploit (related to task 7.1). 
+Description 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+38 
+ 
+ 
+ 
+ 
+ 
+Deliverable D7.9 – Report on capacity building webinars 
+ 
+Deliverable Number D7.9 Lead Beneficiary 7 - CEF 
+Deliverable Name Report on capacity building webinars 
+Type R — Document, report Dissemination Level SEN - Sensitive 
+Due Date (month) 36 Work Package No WP7 
+ 
+ 
+Deliverable D7.10 – Summary of clustering activties 
+ 
+Deliverable Number D7.10 Lead Beneficiary 7 - CEF 
+Deliverable Name Summary of clustering activties 
+Type R — Document, report Dissemination Level PU - Public 
+Due Date (month) 36 Work Package No WP7 
+ 
+Policy recommendations for regional, national, and European policymakers (related to task 7.2). 
+Description 
+Report outlining the sessions, insights and participant results of webinars held (related to task 7.3). 
+Description 
+Clustering activities with sister projects and initatives such as ECOSYSTEX is summarised (related to task 7.1). 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+39 
+ 
+ 
+LIST OF MILESTONES 
+ 
+Milestones 
+Grant Preparation (Milestones screen) — Enter the info. 
+Milestone 
+No 
+Milestone Name Work Package No Lead Beneficiary Means of Verification Due Date 
+(month) 
+1 Completion of mechanical design and 
+validation testing at SEM’s facilities 
+WP2 9 - SEM Successfully finalise the mechanical design and 
+conduct comprehensive validation tests at SEM’s 
+facilities to ensure all design specifications and 
+performance criteria are met 
+10 
+2 Real-time monitoring system for textiles 
+sorting process available for integrating in 
+demonstrator 
+WP3 13 - IRIS The prototype should be capable of detecting 
+materials with abundance <3%, detecting fabric 
+structures with an accuracy >95%, and  
+identifying the material with carbon black 
+pigments. Affordable configuration of 
+spectroscopic techniques integrated into compact 
+hardware based on PoC work with VISUM 
+Fusion platform and data fusion strategy 
+24 
+3 Recognition process to identify eco-design 
+products 
+WP3 5 - RESOR Recognise with an accuracy of >95% of the 
+garments made following eco -design guidelines 
+at a speed of 1 tonne/hour to enable automatic 
+disassembly and sorting. 
+24 
+4 Eco-Friendly DPP Blockchain-based 
+Architecture Framework 
+WP4 1 - CU Design documents, architecture diagrams, initial 
+setup demonstration and white paper. 
+Comprehensive design documents and technical 
+specifications for the scalable and eco -friendly 
+blockchain architecture, incorporating Semantic 
+Web technologies for data interoperability. 
+Releases of Del N° 4.3 
+12 
+5 Integration of DPP Data Retrieval System 
+with PSSR 
+WP4 1 - CU Integration test results, IoT sensor deployment 
+reports, and data retrieval demos. Release of Del 
+N° 4.4 
+24 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+40 
+ 
+ 
+ 
+Milestones 
+Grant Preparation (Milestones screen) — Enter the info. 
+Milestone 
+No 
+Milestone Name Work Package No Lead Beneficiary Means of Verification Due Date 
+(month) 
+6 First validation at lab scale of SORT4CIRC 
+sorted feedstock for high -value recycling at 
+recycler's facilities 
+WP5 4 - RECY Feedstocks provided by TXHO meet the 
+recyclers' specifications, confirmed by analyses 
+of the recycled textile components 
+30 
+7 TTRFID-enabled textile feeding and DPP 
+blockchain interoperability 
+WP5 1 - CU Recognition of TTRFID in demonstrator. 
+Interoperability of PSSR technologies with DPP 
+blockchain 
+32 
+8 Gathering inventory data for mass and energy 
+balances is complete 
+WP6 3 - ARIS Collection of mass and energy balances. Data 
+collection from primary and secondary  data 
+sources through site visits, interviews, 
+questionnaires, desk research, industrial and 
+commercial reports, and academic and grey 
+literature. Completion of D6.1. 
+15 
+ 
+ 
+LIST OF CRITICAL RISKS 
+ 
+Critical risks & risk management strategy 
+Grant Preparation (Critical Risks screen) — Enter the info. 
+Risk 
+number 
+Description Work Package 
+No(s) 
+Proposed Mitigation Measures 
+1 SKU retrieval algorithm cannot distinguish between 
+generic products and specific products due to a large 
+gap between the training data set and data recorded 
+in the industrial process (Likelihood: High, Severity: 
+Medium) 
+WP2 The dataset used for training should be pre-filtered, specifically crafted, and annotated for 
+that purpose. 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+41 
+ 
+ 
+ 
+Critical risks & risk management strategy 
+Grant Preparation (Critical Risks screen) — Enter the info. 
+Risk 
+number 
+Description Work Package 
+No(s) 
+Proposed Mitigation Measures 
+2 Lack of possibility to analyse some of the textiles’ 
+parameters of interest due to the high complexity of 
+samples (Likelihood: Medium, Severity: Low) 
+WP3 A wide range of optical techniques will be considered for the analysis, and simultaneous use 
+of these techniques will be made. Many partners of this consortium are experienced in the 
+use of optical techniques. Moreover, the creation of an extensive database of samples will 
+contribute to mitigating this risk. 
+3 Limited sorting rate due to acquisition and analysis 
+(Likelihood: Medium, Severity: Medium) 
+WP3 Optimise material recognition algorithms to have a near real-time recognition speed 
+4 Over cost in computing power (for developing the 
+ensemble models) (Likelihood: Medium, Severity: 
+Medium) 
+WP3 Migration (if required) to the cloud to use outsourced parallel computing resources. 
+5 Limited sensitivity of the thread recognition 
+(Likelihood: High, Severity: Low) 
+WP3 An identification system at the thread or garment level will be implemented. 
+6 Delays in TTRFID tag development due to technical 
+challenges (Likelihood: Low, Severity: High) 
+WP4 Conduct preliminary research, benefiting from RTL 04 based technologies and experts in the 
+team, and set realistic timelines with buffer periods 
+7 Blockchain architecture not meeting scalability or 
+eco-friendliness requirements (Likelihood: Low, 
+Severity: High) 
+WP4 Focusing on compatible blockchain platforms (e.g., Algorand) with scalability 
+characteristics, conducting testing, consulting with blockchain experts and benefiting from 
+the EBSI infrastructure. 
+8 Integration difficulties between DPP data retrieval 
+system and PSSR technologies (Likelihood: Low, 
+Severity: High) 
+WP4 Fulfilling standards IEC 62264: (ISA -95) and IEC 62443: (ISA -99) and protocols like 
+Collaborate with IoT and automation experts, conducting phased integration, and performing 
+extensive testing and benefiting from CIRPASS-2 outcomes. 
+9 Interoperability Challenges (Likelihood: Medium, 
+Severity: High) 
+WP4 Difficulty in achieving seamless integration with legacy systems, other blockchains, and  
+different IoT devices will be fulfilled with tasks 4.2.2-4 
+10 Validation of sorted feedstock for high -value 
+recycling at recycler’s facilities fails (Likelihood: 
+Medium, Severity: High) 
+WP5 Carry out regular tests, investigate the causes of deviations, draw up plans to optimise the 
+production process and implement them in practice. 
+11 Delayed data mining due to limited experimental 
+progress or confidentiality reasons (Likelihood: 
+Medium, Severity: High) 
+WP6 Use of process simulation tools or literature available data to determine mass & energy 
+balances for implementation in the cost-benefit analysis and LCA model. 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+42 
+ 
+ 
+ 
+Critical risks & risk management strategy 
+Grant Preparation (Critical Risks screen) — Enter the info. 
+Risk 
+number 
+Description Work Package 
+No(s) 
+Proposed Mitigation Measures 
+12 Scarce data of capital expenditure estimation 
+(Likelihood: Medium, Severity: Medium) 
+WP6 A factorial approach will be used: the cost objects are estimated as a function of the purchased 
+equipment cost; the parameters and factors used in those cost objects-purchased equipment 
+cost correlations are obtained from suppliers, vendors or manufacturers and published articles 
+or white papers. 
+13 Access to valid and reliable data sources for value 
+chain mapping and system modelling (Likelihood: 
+Low, Severity: Medium) 
+WP6 Triangulation and cross -verifying the acquired data from multiple sources. These sources 
+may include primary ones, derived from unstructured interviews, and secondary ones, 
+sourced from literature, technical reports, and grey literature. 
+14 Low attendance at the online circular toolbox launch 
+event (Likelihood: Low, Severity: Low) 
+WP7 Start promotion early, leveraging SORT4CIRC and CEF’s connection with the CCRI 
+community to explore potential synergies with other initiatives to organise joint events and 
+maximise the attendance of key players. Relevant presentations of in-person events will also 
+be available online for interested participants who could not attend. 
+15 Lack of relevant content in for the webinars/training 
+sessions for participants (Likelihood: Low, Severity: 
+Low) 
+WP7 Alignment and collaboration with other CCRI networks, ensuring our content is relevant and 
+distinct from existing ones. Leverage existing expertise, networks, partner organisations, and 
+other channels to gain insights into participant needs, validate the relevance of topics for the 
+webinars, and tailor each session to relevant WPs. 
+16 Low awareness of the SORT4CIRC project 
+(Likelihood: Low, Severity: Low) 
+WP7 Leverage connections with initiatives such as the CCRI, DEFINITE -CCRI, CircularInvest, 
+CCRI CSA, SOLSTICE and other projects to build awareness of the project. Participation in 
+external events will also help build the project's profile. 
+Project: 101181988 — SORT4CIRC — HORIZON-CL6-2024-CIRCBIO-02 
+43 
+ 
+ 
+PROJECT REVIEWS 
+ 
+Project Reviews 
+Grant Preparation (Reviews screen) — Enter the info. 
+Review 
+No 
+Timing 
+(month) 
+Location Comments 
+RV1 21 To be confirmed To be confirmed. After the submission of the mid-term technical report. 
+RV2 36 To be confirmed To be confirmed. 
+[101181988] [SORT4CIRC] Page 1 on 42 Confidential 
+ 
+ 
+ 
+#@APP-FORM-HERIAIA@# 
+ 
+TABLE OF HISTORY OF CHANGES 
+ Version 
+(date) 
+Annex 1 Part A 
+Beneficiaries • The Rennes Business School former Beneficiary 11, has been replaced by Paris 
+School of Business (PSB) PIC 944056866, due to the leading researcher (Reza 
+Zanjirani Farahani) changing position to this new institution and Rennes Business 
+School does not have the qualified expertise to carry out the activities 
+• An affiliated entity - Circularity Gap Solutions B.V. PIC 877344631 (CGS) - has 
+been added on beneficiary 7 CEF 
+15/1/25 
+• Following the change in ownership of SOEX, the legal entity of the project 
+coordinator has been changed to Interzero Circular Solutions (IZCS), PIC 
+890257368. In addition, an affiliated entity to the project coordinator has been added 
+IZ Circular Textiles GmbH (IZCT), PIC 873039092. 
+24/2/25 
+• Interzero Circular Solutions Germany GmbH (IZCS) has handed over the project 
+coordination to Constructor University Bremen GmbH (CU). 
+• Interzero Circular Solutions Germany GmbH (IZCS) has been terminated. 
+• IZ Circular Textiles GmbH (IZCT) has been terminated. 
+• Textile House for EURO TRADE, s.r.o. (TXHO) PIC 870613413 has been added to 
+the Consortium and will take over the responsibilities of IZCT. 
+16/7/25 
+Financial 
+information 
+• The project costs of affiliated partner 7.1 CGS have been transferred from 
+beneficiary 7 CEF 
+• ARIS will declare some SME owner unit costs 
+15/1/25 
+• The former SOEX budget has been split between IZCS and IZCT 24/2/25 
+• The full budget allocation for IZCS has been transferred to CU 
+• The full budget allocation for IZCT has been transferred to TXHO 
+16/7/25 
+Researchers • The researchers’ table has been revised, due to a partner change of beneficiary 11 
+and the two people belonging to beneficiary 10 PURFI are not qualified as 
+researchers. 
+15/1/25 
+Workplan • WP7 – affiliated partner 7.1 CGS role has been added to tasks 7.1, 7.2 and 7.3 15/1/25 
+• Task 7.1 has been revised to also include clustering activities 24/1/25 
+• Task 1.2 has been revised to also include reporting on the activities of the ethics 
+mentor. 
+7/2/25 
+• The role of SOEX has been split between IZCS and IZCT 
+o IZCS will carry out WP1 
+o IZCT will take over all other tasks formerly assigned to SOEX in the other 
+WPs 
+24/2/25 
+• Links between tasks and deliverables have been added in the task description 24/03/25 
+• All WP1 Tasks have been handed over from IZCS to CU. 
+• All WP tasks for IZCT have been handed over to TXHO 
+16/7/25 
+Effort • The person months have been revised for beneficiary 7 CEF and affiliated partner
+7.1 CGS 
+• This makes a total of 71,1 PM for WP7 and a total of 574.51 PM for the project 
+15/1/25 
+• The former PM distribution of SOEX has been split between IZCS and IZCT 24/2/25 
+• The PM allocation for WP1 has been transferred from IZCS to CU. 16/7/25 
+Deliverables • One mid-term and final data management plan has been added (D1.7 at M18 and 
+D.11 at M36) 
+15/1/25 
+SORT4CIRC - Intelligent Textile SORTing to enable CIRCularity 
+[101181988] [SORT4CIRC] Page 2 on 42 Confidential 
+ 
+ 
+ • One mid-term policy briefing document has been added at M18 (D7.5) 
+• The dissemination level of D1.3, D1.7, D1.11, D3.1 and D3.4 has been changed to 
+public 
+ 
+• Type of D1.2, D1.4 and D1.7 have been changed to DMP 
+• 2 public deliverables have been added to WP2 (D2.4-5) 
+• Dissemination level of D4.3 and D4.4 has been changed to public 
+• 1 public deliverable has been added to WP5 (D5.6) 
+• 1 public deliverable has been added to WP6 (D6.7) 
+24/1/25 
+• Numbering of WP1 deliverables has been revised due to the grouping of deliverables 
+• Deliverable type changed to Data Management Plans has been revised to DMP (new 
+D1.3, D1.7 and D1.11 
+7/2/25 
+• The deliverables of SOEX have been split between IZCS and IZCT 
+o IZCS will be responsible for all WP1 deliverables 
+o IZCT will be responsible for all other former SOEX deliverables. 
+24/2/25 
+• The Communication, Dissemination, and Exploitation Plan at M24 has been deleted 
+• The Communication, Dissemination, and Exploitation Plans deliverables have been 
+changed to public (D7.4 and D7.6) 
+02/04/25 
+• The Communication, Dissemination, and Exploitation Plans deliverable at M3 have 
+been changed to public (D7.1) 
+04/04/25 
+• The deliverables of IZCS have been transferred to CU and therefore CU will be 
+responsible for all deliverables in WP1. 
+• The deliverables of IZCT have been transferred to TXHO and therefore TXHO will 
+be responsible for all deliverables in WP5. 
+16/7/25 
+Annex 1 Part B 
+All parts • SOEX has been changed to IZCS or IZCT in relevant parts. 24/2/25 
+• IZCS has been replaced by CU in all relevant parts. 
+• IZCT has been replaced by TXHO in all relevant parts. 
+16/7/25 
+Section 1   
+1.1.3 • Ambition 1 has been revised to stress better why manual feeding and unfolding of 
+the garments at the first stage of the pilot system is needed. As the first stage 
+focuses on sorting for the reuse market, the efficiency of AI algorithms for type and 
+quality detection is vital. Although the manual feeding mechanisms are proposed, 
+due to the efficiency of quality detection for the next stages, the rework for manual 
+inspection of clothes will be avoided. So, the throughput of the system will 
+maintain both higher speeds and quality in comparison with other literature 
+solutions like falling models 
+15/1/25 
+1.2.1 • The technical robustness of AI-based systems has been detailed in Challenge 1 and 
+Challenge 2. 
+• Figure 2 has been modified for replacing the layout of TXHO in replacement of 
+IZCT 
+• Figure 3 has been cited for the reference. 
+• Figures 3, 4, 5, 6 has updated to Figures 4, 5, 6, 7 accordingly after updating the 
+figures’ ordering and numbering. 
+15/1/25 
+1.2.2 • TXHO engagement in initiatives and relations with other projects have been added. 16/7/25 
+Section 2 • Figure 7 has updated to Figure 8 and Figure 9 has been added for “Communication 
+& dissemination tools and proposed dissemination” accordingly after updating the 
+figures’ ordering and numbering. 
+16/7/25 
+Section 3   
+3.1.1 • The figure 8 has been updated to consider the partner change of beneficiary 11 15/1/25 
+3.2.1 • The Gantt chart has been revised to consider new deliverables and change of partner 
+for beneficiary 11 
+15/1/25 
+• The Gantt chart has been revised to consider new deliverables 24/1/25 
+[101181988] [SORT4CIRC] Page 3 on 42 Confidential 
+ 
+ 
+ • The Gantt chart has been revised to consider the change in the project coordinator 
+short names 
+24/2/25 
+• The Gantt chart has been revised to consider revised deliverables 7/2/25 
+• The Gantt chart has been corrected to consider links between tasks and deliverables 24/3/25 
+• The Gantt chart has been corrected to consider the erased deliverable 02/04/25 
+• The Gantt chart has been corrected to consider the change of coordination from IZCS 
+to CU. 
+• The Gantt chart has been corrected to consider the change of responsible tasks of 
+IZCT to TXHO. 
+• The Figure caption for Gannt chart has changed from Figure 8 to Figure 11 after 
+ordering the former figures accordingly. 
+• Figure 11 has been modified for replacing the layout of TXHO in replacement of 
+IZCT 
+16/7/25 
+Table 3.1h • Reference to Wolfen has been replaced by the term “sorting plant” 
+• Purchase costs of CEF have been revised 
+15/1/25 
+• Amount of travel costs of CEF have been corrected 7/2/25 
+• Purchase costs of IZCT has been revised 24/2/25 
+• The following statement has been added “The equipment costs reported are 
+depreciation costs only”. 
+• Travel costs of IZCT for face-to-face meetings with each individual Consortium 
+partner has been clarified. These are technical meetings at partner locations and are 
+related to WP3, WP4 and WP5 
+10/03/25 
+• The budget of 1.1 IZCT has been transferred to TXHO. 
+• The Budget of CU has been revised to include the WP1 tasks budget from IZCT 
+former PM tasks. The travel costs have been added to CU table with more detailed 
+information. 
+• The Budget for CEA has been corrected for Travel C.1 Travel and subsistence and 
+C.3 Other goods, works and services 
+16/7/25 
+3.2.1 • Figure 9 has been updated to consider change of partner for beneficiary 11 
+• The affiliated entity Circularity Gap Solutions B.V. has been added in beneficiary 7 
+CEF description 
+15/1/25 
+• The text describing the composition of the partnership has been revised to include 
+the affiliated entity. 
+7/2/25 
+• The text describing the composition of the partnership has been revised to include 
+the additional affiliated entity. 
+• The figure 8 and 9 have been updated 
+24/2/25 
+• The text describing the composition of the partnership has been revised 10/03/25 
+• Figures 11(old version 8) and 12 (old version 9) have been updated to consider the 
+change of project coordination from IZCS to CU and also IZCT to TXHO. 
+• The Figure caption for Gannt chart has changed from Figures 8,9 to Figures 11,12 
+after ordering the former figures accordingly. 
+16/7/25 
+Section 4   
+4.1 • Addition of ethics section 15/1/25 
+• Statement has been added in ethics section 24/1/25 
+• Role of Ethics Mentor has been described 7/2/25 
+• The following statement has been added “The Consortium acknowledge the ethics 
+issues identified in the Summary Report related to HUMANS, PERSONAL DATA, 
+ENVIRONMENT, HEALTH AND SAFETY, and ARTIFICIAL INTELLIGENCE” 
+24/3/25 
+ 
+ 
+Table of contents 
+1 Excellence ............................................................................................................................................................. 6

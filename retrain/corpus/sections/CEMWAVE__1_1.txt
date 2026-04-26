@@ -1,0 +1,228 @@
+1.1 Objectives  
+1.1.1 Rationale 
+In 2018 the European Commission set the s trategy “A Clean Planet for all”, a long -term vision for a European climate neutral 
+economy. In December 2019 the European Green Deal (COM (2019) 640) was published, setting new ambitious priorities and 
+aiming at Europe to become the first climate-neutral continent by 2050. Considerable effort is being made towards reaching this 
+objective, such as research and innovation on technologies that will allow an intense exploitation of renewable energy, 
+improvement of energy efficiency and development of clean, new low-carbon technologies.  
+Renewable energies are, by their very nature, inconsistent, fluctuating and potentially generating extreme conditions (such as the 
+danger of material embrittlement caused by greater use of clean hydrogen). It is thus of outmost importance to adapt current 
+processes to these future changes, to allow increased use of clean and renewable energy for industrial settings. This is particularly 
+true in the so -called energy intensive industries, such as steelmaking. Novel materials able t o sustain variable and harsh 
+Ref. Ares(2020)788849 - 07/02/2020
+CEM-WAVE   
+ 2 
+conditions (high temperature, corrosive environments, etc.) are needed to optimise the shift in energy sources and, at the same 
+time, guarantee high-energy efficiency and high-performance. 
+Materials with high-performance and energy efficient properties that are potentially able to withstand such demanding conditions 
+do already exist but, due to their high production cost, they are currently not used in high energy process industry sectors. These 
+materials are the Ceramic Matrix Composites (CMCs). 
+In CEM-WAVE our aim is to introduce to European industries an innovative CMC production process, based on Microwave 
+assisted Chemical Vapour Infiltration (MW-CVI) technologies. This novel process, while maintaining the excellent properties 
+of the currently used CMCs , will, most importantly, significantly reduce the costs for making components , thus making 
+CMCs sustainable for process industries in energy-intensive sectors such as steelmaking.  
+CEM-WAVE focuses on the application of this i nnovative production process to develop a CMC -based component that will, in 
+turn, allow the creation of a small -scale innovative tube embedded with sensors. The small -scale CMC -based tube will be 
+validated both in laboratory reproducing relevant environments of the envisaged future energy source scenarios and in an actual 
+radiant tube furnace in the steelmaking industry with the aim of substituting the currently employed Inconel/Stainless steel alloys. 
+The research and innovation work will be flanked by AI-aided modelling research to predict the material behaviour. Furthermore, 
+Life Cycle Analysis (LCA), Life Cycle Costing (LCC), Thermoeconomic Analysis (TA), including the the waste management 
+process, will be undertaken to guarantee that the project follows , at every step, the best directions in term of sustainability and 
+future market uptake of the generated results.  
+1.1.2 General and Specific objectives 
+The general objective of CEM-WAVE is to validate (TRL5) an innovative Microwave assisted Chemical Vapour Infiltration 
+technology (MW-CVI) to produce Ceramic Matrix Composites (CMCs) with a significant reduction in production costs.  
+This answers to the need of high-performance materials and components able to withstand fluctuating and extreme future 
+processes conditions that industries are going to experience due to increased use of renewable energy sources.  
+The cost reduction derived from CEM -WAVE technology will make CMCs affordable to a large palette of industrial sectors 
+currently not in condition to make use of this high quality, but currently expensive, material.  
+To reach the general objective the following Specific Objectives (SOs) have been identified. For each technical SOs (SO1-SO6), 
+KPIs and related target values have been identified and detailed aiming at either a) assess the expected improvement in technical 
+/ process indicators, or b) assess the product / process / activity consistency with relevant standards and requirements. 
+SO1 – MW-CVI process optimisation for efficient non-oxide CMC preparation: the objective is to optimise the Microwave assisted 
+Chemical Vapour Infiltration (MW-CVI) technology for non-oxide-based CMC production. In more detail, the expected KPIs related 
+to SO1are: 
+Main indicators for SO1 
+Key Performance Indicators Targeted Metrics 
+● Processing time 
+● Density 
+● Porosity 
+● Fibre content 
+● Elongation at break 
+● Young Modulus 
+● Tensile strength 
+● Flexural strength 
+● Interlaminar shear strength 
+● 40÷50 hours 
+● 2,4÷2,5 g/cm3 
+● < 10% 
+● ~30÷45 vol % 
+● > 0,4 % 
+● 250 GPa 
+● 300 MPa 
+● 400 MPa 
+● 30 MPa 
+Related WPs: 1, 2, 3, 4, 5 
+SO2 – MW-CVI process optimisation for efficient oxide CMC preparation : the objective is to develop and then optimise the 
+Microwave assisted Chemical Vapour Infiltration (MW -CVI) technology for oxide -based CMC production. In more detail, the 
+expected KPIs related to SO2 are:  
+Main indicators for SO2 
+Key Performance Indicators Targeted Metrics 
+● Processing time 
+● Density 
+● Porosity 
+● Fibre content 
+● Elongation at break 
+● Young Modulus 
+● Tensile strength 
+● Flexural strength 
+● Interlaminar shear strength 
+● 25÷40 hours 
+● 3,4÷3,5 g/cm3 
+● 15÷20% for WMCs and <10% for WICs 
+● ~40÷45 vol% 
+● ~0,5÷0,7% for both WMCs and WICs 
+● ~200 GPa (WMCs) and ~300 GPa (WICs) 
+● ~150 MPa (WMCs) and ~300 MPa (WICs) 
+● ~200 MPa (WMCs) and ~350 MPa (WICs) 
+● ~30 MPa (WICs) 
+CEM-WAVE   
+ 3 
+Related WPs: 1, 2, 3, 4, 5 
+SO3 – Effective coating and joining techniques : the objective is to define the most suited protocols to perform first coating and 
+then joining of both oxide- and non-oxide-based CMCs. In more detail, the expected KPIs related to SO3 are: 
+Main indicators for SO3 
+Key Performance Indicators Targeted Metrics 
+● maximum joining process T (non-oxide CMC)   
+● maximum joining process T (oxide-oxide CMC)   
+● maximum joint in service T (non-oxide CMC)   
+● maximum joint in service T (oxide-oxide CMC)   
+● minimum joint strength  
+● maximum joined area 
+● surface complexity 
+● maximum EBC process T (non-oxide CMC) 
+● maximum EBC process (oxide-oxide CMC) 
+● maximum EBC in service (non-oxide CMC) 
+● maximum EBC in service T (oxide-oxide CMC) 
+● 1500°C 
+● 1100°C 
+● 1200°C 
+● 900°C 
+● 15 MPa (or comparable to that of CMCs) 
+● 100 mm2  
+● flat/curved surfaces 
+● 1600°C 
+● 1100°C 
+● 1700°C 
+● 1400°C 
+Related WPs: 4, 6 
+SO4 – AI-assisted multiscale predictive modelling: the objective is to develop a reliable multiscale predictive model of CMC tubes 
+for radiant furnaces using, among others, AI tools. In more detail, the expected KPIs related to SO4 are: 
+Main indicators for SO4 
+Key Performance Indicators Targeted Metrics 
+● Scanning and segmentation of CMC specimens 
+● Micro- and meso-scale geometrical and transfer properties 
+evolution with infiltration 
+● Infiltration simulations 
+● Optimized infiltration conditions 
+● Quality and accuracy of the final numerical meshes 
+● Consistency of results w.r.t. actual measurements 
+(validation) 
+● Validation w.r.t. experimental data on infiltration gradients 
+● Verification of diminished infiltration gradients under 
+suggested optimal conditions 
+Related WPs: 5 
+SO5 – Process analytical technology (PAT) and health monitoring : the objective is to make a profitable use of CEM -WAVE 
+produced CMCs as a sensor, on the basis of the CMC dielectric properties. The sensorial aspect will be two -fold: a) using MW 
+during the CMC production to determine the optimal process conditions. B) during the use of the CMC in radiant tube furnaces  
+(RTF) with combined use of IR imaging and electrical analysis. In more detail, the expected KPIs related to SO5 are: 
+Main indicators for SO5 
+Key Performance Indicators Targeted Metrics 
+● Sensor robustness  
+● Tailored PAT sensors and software   
+● Resist process/use conditions, e.g. temperature >1000ºC 
+● Imaging capabilities to detect defects and 2 versions for 
+process control and health monitoring of CMC embedding 
+data driven models for process optimisation 
+Related WPs: 3, 7 
+SO6 – Small-scale version of the tube (Ox and non-ox CMC) validated in current furnace: the small-scale version of the tube will 
+be produced with a length of around 200 mm, a wall thickness of 3÷9 mm and a diameter of 100 mm. It will display improved 
+properties compared to tubes based on current materials and the technology will be validated to TRL5 in this relevant environment. 
+In addition, the MW-CVI technology will have been upgraded by the use of the latest solid -state sources, which will improve its 
+energy efficiency even further compared to current manufacturing practice. The small-scale tube to be tested will have to fulfil all 
+the following Key Performance Indicators (KPIs): 
+Main indicators for SO6 
+Key Performance Indicators Targeted Metrics 
+● Heat transfer efficiency 
+● Emissivity 
+● Thermal conductivity 
+ 
+● Max Temperature in application 
+● Min Temperature in application 
+● Lifetime 
+● High temperature impact resistance 
+● Corrosion resistance 
+● ≥30% 
+● >0,8 
+● ~20÷30 W/m K (for non-oxide); ~ 2,3÷4,5 W/m K (for 
+oxide); 
+● ~1200°C 
+● ~830°C 
+● >20% (>10 years) 
+● >160 J/m 
+● 0,4 mpy 
+CEM-WAVE   
+ 4 
+● Fatigue resistance ● 10.000 cycles 
+Related WPs: 7 
+SO7 –Sustainable long -term solution : In order to bring the novel composites into the real full -scale market, sustainable 
+environmental and economic solutions are intended to be met through three stages; (i) Initial guidance in material selection based 
+on LCA/LCC analysis, (ii) Encouraging circular economy principles to steer and optimize the development of CEM-WAVE along 
+the value chain including use-phase and end-of-life; and (iii) Risk assessment of the processes with respect to ISO31000 /31050 
+to identify the potential hazards to human health and environment, as well as identification and monitoring of the new and 
+emerging risks posed by such technologies, in order to develop a reliable methodology for better risk management of high -
+performance materials and co mbined components. Proposed sustainable development methodology will enable quantification 
+and measurement of eco-efficiency to identify solutions with low environmental impact and high economic viability. The SO7 will 
+deliver a scenario model to identify suitable paths to market for the current project but also for future development projects, where 
+CEM-WAVE CMCs will aim at higher TRLs. 
+Main indicators for SO7 
+Key Performance Indicators Targeted Metrics 
+● Reduction of CO2 emissions and resource utilisation  
+● Energy reduction  
+● Quantitative risk assessment 
+● 20% decrease 
+● 30% decrease  
+● For minimum 5 alternative solutions 
+Related WPs: 8 
+SO8 Maximise exploitation, dissemination and impact: It is essential for the results of CEM-WAVE to be used effectively for the 
+benefit of European industries. In addition, it is important to position CMCs as competitive solutions for successful future 
+exploitation, through which further business cases in other sectors and for other possible applications will be explored, appropriate 
+IPR protection sought, and dissemination will be implemented as per the plan described in Section 2. Business models and all 
+documentation (marketing, technical, product LCA, etc.) for the future transfer of the CEM-WAVE technology framework to other 
+sectors will be generated. Moreover, a stakeholder group will be formed in the initial stages of CEM-WAVE whose members will 
+act as a continuous sounding board for the development results and as exploitation and replication partners depending on the 
+members’ profile, need and interest. 
+Main indicators for SO8 
+Key Performance Indicators Targeted Metrics 
+● Number and expertise of members in the stakeholder 
+group 
+● Dissemination activities organised and attended 
+ 
+● Meetings with the external AB 
+● Innovative business models developed 
+● At least 50 members in the stakeholder group 
+ 
+● At least 16 conferences and 10 articles in high-impact 
+journals 
+● Organisation of 2 CEM-WAVE workshops 
+● 4 Business models validated  
+Related WPs: 9 
+SO9 Address the barriers and facilitate the i ntegration of the developed processes and materials, primarily in the steelmaking 
+sector but also in other relevant sectors, and assess side -effects and risks: CEM-WAVE (WP8-9) will evaluate the current and 
+optional future gaps that could be barriers for  the inclusion of the results into the steelmaking application field along three main 
+axes: post project financing, technical and political/regulatory barriers. Among such barriers are the lack of internalisatio n of 
+externalities, resource pricing; lack of skills and investment in the steelmaking sector; insufficient enablers to improve cross-cycle 
+and cross-sector performance due to non -alignment of incentives for transformation between actors within and across value 
+chains and so on. A comprehensive risk register will be developed early in the project lifetime and appropriate mitigation strategies 
+will be defined by the consortium members. Ultimately, analysis of post project financing, technical and political/regulatory barriers 
+for steelmaking sectors will be carried out.

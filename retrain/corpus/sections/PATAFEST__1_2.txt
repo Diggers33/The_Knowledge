@@ -1,0 +1,161 @@
+1.2 Methodology 
+1.2.1 Concept and overall methodology  
+PataFEST is a 48-month RIA action project based on the following activities against the presence of CLso pest threat 
+in potato plants and pathogens incidences in postharvest tubers. 
+• Molecular breeding: NEIK will establish a singular and complete catalogue of mapped resistance genes against 
+potato pest and diseases using different tools, starting with the compilation of all already annotated and published 
+RGs on the potato reference genome. This initial compilation will be com pleted by mapping rece ntly published 
+potato resistance genes to the Potato Reference Genome . Besides, t his collection will be extend ed by the 
+compilation of all relevant resistance genes from de PRGdb, searching the potato orthologues ; mapping and 
+validating these genes to the Reference Potato Genome. Furthermore, published Potato Resistance QTLs will be 
+mapped to the reference genome via projection , using collocated probes/primers with known sequences  and 
+identifying the potential collocated RG that caused the QTL. In a second step, a molecular characterization of the 
+working collection of potato accessions will be achieved using SNP GGP V3 Potato array, which contains already 
+many resistance genes. Additional important RG will be analysed for SNP by using innovative and novel targeting 
+sequencing strategies such as SPET or CAPTURE with the Germplasm accessions. Finally, NEIK and INIAP will 
+validate the RG by characterizing the accessions of the Germplasm Collection with respect to their resistance level 
+to important diseases (and pests) using field trails and bioassays. Moreover, Association Studies between observed 
+phenotypic resistance levels and molecular SNP data will be performed for validating important resistance genes. 
+• Early detection and surveillance tools : UPOL will perform correlation of induced plant stress condi tions with 
+data obtained by a photometric system used in PHTS approaches. The system based on RGB cameras, FluorCam, 
+HORIZON-CL6-2022-FARM2FORK-02-02 two stages         
+PataFEST              Page 6 of 10 
+IR, and hyperspectral cameras will allow the study of the phenotyping changes of plant and tubers in non-invasive 
+manner. The studies will be performed in model plants under in vitro and in soil testing in crop -based bioassays 
+confirming the possibility of a biological translation through species. The developed screening approaches will 
+identify and describe the plant response allowing the identification of new targeted biomarkers. A sequence of serial 
+and parallel targeted bioassays based on direct antibacterial and antifungal in vitro testing will be combined with 
+high-throughput plant-based bioassays using different model pathosystems. Complementarily, CRUN will identify 
+VOCs related to the infection of potato tubers with the selected pathogens. For this, the headspace of small potato 
+microcosm experiments will be analysed using chromatography techniques as it allows a high concentrat ion fold 
+of the compounds produced . A full metabolomic approach will done by means of LC -MS/MS to identify non -
+volatile biomarkers, such as phenolic compounds, non-structural carbohydrates, and plant growth regulators, linked 
+to the development of the pathogens during potato postharvest storage. 
+On the other side, IRIS will build up a multilayer digital tool (smartphone or tablet app) which will act as a storage 
+unit and data processing unit for the image analysis. The  inserted data will be processed within  the platform to 
+generate an accurate response in terms of detection.  In addition, artificial intelligence-based models also developed 
+by IRIS will be embedded in the platform to generate results based on the process ing of the data captured by the 
+operator. The digital tool will allow remote acce ss as well as it will be programmed as a self -learning database, 
+meaning that a "low-cost" device could be used for early detections of the desired markers. 
+• Pest and pathogen disease control solutions: TECHN and FUND will work on the development of chemical-free 
+solutions to treat and control plant pests and postharvest pathogens disease, respectively. TECHN will propose to 
+develop non-toxic and sustainable wax sprays  amended with bioactive natural compounds (e.g., essential oils) to 
+render potato plant lea ves super hydrophobicity  properties and provide both repellent and anti -adhesive 
+performance against CLso vector and soil-borne antifungal effect. FUND will formulate water-based biocontrol 
+coatings for postharvest potato  tubers. Enzyme s as lactoperoxidase system (LPS) and antagonist yeasts as W. 
+anomalus will be selected as biocontrol agents and incorporated into formulation . Moreover, hydrocolloids  and 
+lipids will be also part of the formulation to provide high oxygen and water vapour barrier properties to maintain 
+the quality of potato stored.  Besides, UPOL will carry out simultaneous and cross -testing bioassays by the 
+application of PHTS technology to provide a selection of tolerance increasing formulations against both plant pest 
+and postharvest pathogens selected. CHEM as an expert industrial developer of crop protection products, will be in 
+charge to manufacture both solutions at pre -industrial scale (TRL5) and evaluate th e feasibility of their industrial 
+exploitation.  
+CRUN will work on the r espiratory gases (CO 2 and O 2) during long -term postharvest storage; tubers will be 
+subjected to different graduated CA environments and relative humidity to investigate the potential o f this 
+technology to reduce the disease development under commercial conditions. 
+• Soil pest management strategies: UNIBO will obtain carriers from biomasses residues that will be functionalised 
+with several elements and applied directly to the soil in exper imental plots under controlled conditions (pot s in 
+greenhouse). The trials will e valuate the effect of treatments on soil elements bioavailability and microelements 
+contents in leaves and tuber. Moreover, the innovative fertilisation will be tested under CLso infection evaluating 
+the titre of pathogen in potato tissues by molecular analysis using Differential-Display Reverse Transcription-PCR 
+(DDRT-PCR) approach. Tuber pro duced under the described experimental conditions will be also assessed for 
+resistance to postharvest pathogens.  Besides, disease incident trials under different clima te scenarios mimicking 
+predicted extreme rainfall and drought periods will be conducted a t CRUN in a phenotyping glasshouse facility 
+designed to trial crop-soil systems at pilot scale under a multi-sensor gantry. The facility replicates all stages of the 
+whole crop production cycle  plus rotational context (multiple cropping seasons) with predefined soil physical 
+conditions affecting fungal and bacterial movement, and recreates the dynamic interrelationships of soil health,  
+water use, biotic stresses (pathogens, weeds, pests), environmental variables.  
+• Integrated plant management: Several IPM strategies will be considered in PataFEST project. One case of study 
+will be carried out in Ecuador. There, INIAP will host field bioassay trials in their facilities und er real condition 
+(presence of CLso and its vector in potato plant)  evaluating the behaviour of potato varieties already selected for 
+their resistant traits against CLso and its vector. Besides, INIAP will validated in potato plant the capacity of the 
+image analysis digital tools to predict the presence of CLso disease in potato plants in fields. Finally, pesticide-free 
+natural solution performance will be evaluated on potato p lant to study the repellent effectiveness agai nst BC 
+presence and the antifungal properties against soil-borne pathogen in tubers harvested. In Europe, two IPM cases 
+of study will be organized both in UDAPA (Spain) and in BOEH (Germany) potato warehouses for the postharvest 
+technological solutions trials. Biocontrol superficial coating solution combined with CA technology and low-cost 
+sensor device will be tested to early detect and control the pathogen spoilage in potato stored. Finally, UDAPA will 
+also ev aluated aquaculture by-product-based soil treatment application in potato crop un der real cultivation 
+conditions (Spain). Other case of studies for soil management and postharvest IPM strategies will be planned around 
+Europe thanks to the potential involvement of ASAJA and EUPAT associated members. 
+HORIZON-CL6-2022-FARM2FORK-02-02 two stages         
+PataFEST              Page 7 of 10 
+• Citizen science: ECSA and KNEIA will be in charge to involve citizen scientist in the activities that will be organised 
+along the PataFEST project execution. Results obtained will significantly contribute to boost the collaborative efforts 
+to detect and control emerging pest threat and pathogens disease incidence. 
+• Joint Research Center  involvement: As this topic describes, the involvement of the JRC is envisaged once the 
+project is funded. JRC will support the analysis of the potential impact of the studied p ests and the development of 
+economic and environmental solutions. 
+1.2.2 Related research and innovation activities 
+The activities developed in PataFEST linked with many previous and ongoing R&D initiatives described below: 
+Project Main result/knowledge feeding into PataFEST 
+PAPACLIMA (FAO, 2016-2019). 
+Partner: NEIK 
+Detection of candidate genes against fungi. Knowledge and software for 
+performing different association mapping techniques 
+Evaluation of fungal diseases 
+POISE (EIG concert Japan, 2016) . 
+Partner: UPOL 
+Identification of biomarkers related to tolerance level to abiotic stress in 
+tomato and rice plant. 
+QCAP: (Interreg NWE, 2017 -2019). 
+Partner: CRUN 
+Detection and identification of potato spoilage VOC biom arkers under 
+postharvest cold storage conditions. 
+PHOTONFOOD (H2020, 2021 -
+2024). Partner: IRIS 
+Development of the global system control, software and data 
+management and processing platform.   
+ANTISEPTIC-WAX (ERC H2020 -
+PoC, 2018-2020). Partner: TECHN 
+Environmentally friendly wax -spray green technol ogy to eliminate 
+attachment and development of pests on plant leaves surfaces. 
+REPEAR (FP7, 2014-2017). Partner: 
+FUND 
+Development of superficial coatings based on natural additive to reduce 
+respiration rate, c ontrol dehydration, and pathogen s spoilage of 
+postharvest pears. 
+ADAPT (H2020, 20 20-2024). 
+Partner: EUPAT 
+Dissemination of the project objectives and results vi a internal and 
+external communication channels. 
+1.2.3 Gender dimension 
+PataFEST does not include the integration of the gender dimension (sex and gender analysis) in R&I as the topic 
+2022-F2F-02-02 does not require it. Nevertheless, the project has a strong multi-actor participatory approach and 
+involvement of citizen, thus it will commit to address the diverse needs of citizens regardless their gender and sex.  
+1.2.4 Open science practices 
+The project will follow an Open Science Strategy  (OSS). The preliminary type of research data, exploitation route 
+and IP strategy will be outlined in the Exploitation P lan (available at the 2nd stage). This plan will show that some 
+results with commercial and/or industrial important value will be protected as IPR or trade secrets, and thus they will 
+not be included in PataFEST’s OSS. The research results obtained by the work carried out by researchers will follow 
+these Open Science practices: 1) Open Access (OA) to peer-reviewed scientific publications ensuring at least under 
+upon publication, deposition of the author accepted manuscript (AAMs) or version of record (VOR) in a trusted 
+repository and immediate open access via the repository under CC BY or equivalent. Alternatively, some research 
+results will be made available in the Open Research Europe; 2) Early and open sharing of research through pre-
+registration, registered reports, pre-prints or crowd-sourcing; 3) Researchers will participate as much as possible in 
+open peer-review in related topic of PataFEST; 4) Multi-actor approach activities in the co-creation of tasks from 
+the beginning and across the project duration.  
+1.2.5 Research data management and other research outputs 
+The Data Management Plan (DMP) will consider all the data that the project will generate and use and will detail 
+whether and how it will be used, exploited or made accessible for verification a nd re -use; how and under what 
+conditions it will be curated; and how it will be interoperable with regard to specific quality standards. Data refers to 
+any kind of result including statistics, results of experiments, measurements, observations resulting from trials and 
+demonstration, survey results , interview recordings , images and bibliographic metadata  used for the validation 
+publications. According to EC recommendation, as part of making data findable, accessible, interoperable and re -
+usable (FAIR), the DMP will include information on: 1) handling of data during & after  the end of PataFEST 
+project; 2) what data will be collected, processed and/or generated; 3) which methodology and standards will be 
+applied; 4) whether data will be shared/made in OA; 5) how data will be curated and preserved (including post-
+project). DMP will not have impact on IPR, because the decision to publish OA documents come after a more general 
+decision on whether to first seek protection for IPR. The data will be deposited via OA in a trusted repository under 
+the latest available version of the Creative Common s Attribution International Public License (CCBY) or Creative 
+Commons Public Domain Dedication (CC0) or a licence with equivalent rights. 
+HORIZON-CL6-2022-FARM2FORK-02-02 two stages         
+PataFEST              Page 8 of 10 
+1.2.6 Compliance with the ´do no significant harm principle (DNSH)’ 
+All the research activities of PataFEST will comply with DNSH principle under the Recovery and Resilience Facility 
+Regulation of EU. PataFEST fulfils DNSH in different ways: 1) no activity is harming the climate change mitigation 
+as the developed plant health products are fossil-free; 2) no activity is harming the circular economy concept. All 
+the contrary, the project will apply circularity principles in the plant health protection products  leading to more 
+resource efficiency , to zero -waste practices, and to sustainable  and 4) no activity is harming biodiversity and 
+ecosystems as the project enhances potato genetic variety on agricultural land. 
+2 IMPACT

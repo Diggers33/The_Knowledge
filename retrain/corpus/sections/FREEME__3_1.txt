@@ -1,0 +1,948 @@
+3.1 Work plan and resources  
+In line with the objectives that FreeME must achieve in these 48 months project, the work to be accomplished has 
+been structured in nine work packages (Figure 3.1). Each WP has been sub-divided into tasks. WP leaders and task 
+leaders have been assigned based on their core expertise and contribution in the specific tasks, with main purpose to 
+lead and monitor the progress. The reporting and monitoring of the progress and results is  based on a set of 
+Deliverables (Table 3.1c) and Milestones (Table 3.1d). The Deliverables have been scheduled to provide an 
+integrated reporting of the work implemented in WPs and relevant Tasks. Some of them will serve as living 
+documents (i.e. the PEDRC ). Milestones are positioned across the 48 months with the purpose to monitor the 
+achievement of specific goals of the project that will allow the smooth continuation.  
+ 
+Table 3.1a: List of work packages  
+WP 
+No 
+  Work Package Title Lead 
+Par/nt No 
+Lead Par/nt 
+Short Name 
+PMs Start 
+Month 
+End 
+month 
+WP1 Project’s Requirements & Specifications 1 Gaser 42 1 6 
+WP2 Safe & Sustainable by Design Strategy 7 ICCRAM 100 1 48 
+WP3 Sprayable resin process 2 PoliMi 100 5 24 
+WP4 Cr6+ & Pd free metallization process 3 Cnano 68 6 48 
+WP5 Development of supporting technologies 5 IDE 82 1 48 
+WP6 Validation of technologies in end user's 
+test cases 
+10 CRF 100 6 48 
+WP7 Roadmap to market deployment  2 PoliMi 76 1 42 
+WP8 Extroversion and Exploitation activities 8 EXE 104 1 48 
+WP9 Project management 1 Gaser 53 1 48 
+Total 725   
+ 
+ 
+Figure 3.1:. FreeMe PERT diagram . 
+ 
+ 
+ 
+
+ 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FREEME]    [28 of 44] 
+Figure 3.1: Gantt chart of FreeMe project. 
+ 
+  
+ 
+
+ 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FREEME]    [29 of 44] 
+Table 3.1 b: Description of each work package 
+ 
+Work Package 
+Number 
+1 Lead Beneficiary Gaser 
+Work Package Title Project’s Requirements & Specifications 
+Nr. 1 2 3 4 5 6 7 8 9 10 11 12 
+Name Gaser PoliMi Cnano AUTH IDE IRIS ICCRAM EXE INC ARC IAI CRF 
+PMs             
+Start Month 1 End Month 6 
+Objectives 
+WP 1 has the following specific objectives:  
+1. To harmonize the R&I towards REACH compliance chemicals 
+2. To provide specification on the methods and the equipment that will be utilized in the project 
+3. To define the requirements of the end users in terms of materials, properties and standards 
+Description of Work 
+Task 1.1: REACH & RoHS compliance (Task Leader: Gaser), M01-06 
+Supported by: All partners 
+As a leading industrial partner in the surface and finishing industry, with a strong position in the Plating on Plastics 
+field, Gaser will lead the compliance task. In collaboration with the other partners the proposed ch emicals for the 
+development of the technologies will be listed and analyzed. No chemical under the restriction lists of REACH 
+(SVHCs) as well as RoHS will be selected, while data from the REACH (e.g. risks associated with exposure to the 
+selected chemical throughout the lifecycle of the targeted products, including waste and disposal will be reported. 
+Interaction with Task 2.1 will take place. 
+ 
+Task 1.2 Specifications on methods and equipment (Task Leader: PoliMi), M01-06 
+Supported by: All partners 
+In this task the specifications for the methods and the equipment that will be utilized during the project will be 
+provided. Flow charts and diagrams of raw materials, processes and wastes  will be developed, including 
+quantities and potential exposure risks based on data of Task 1.1. Precaution measures for the proper handling of 
+materials and equipment will be also delivered. Finally, dimensioning of l ines will be made in order to cover the 
+needs of the end users’ applications based on data provided by task 1.3 will be made. 
+ 
+Task 1.3 Requirements of end users’ test cases (Task Leader: CRF), M01-06 
+Supported by: All partners 
+In this task the specificati on and requirements of the end user’s applications will be collected and reported. This 
+will include the type of polymeric substrates used, designs of the objects, current pre -treatment and metallization 
+processes, desired properties (e.g. surface hardness , wear and corrosion resistance, aesthetics) will be provided 
+together with the final surface finishing preferences (i.e. the type of the final electroplated metal after the 
+metallization process). Additionally, the QC protocols and standards followed will be also provided.  Strong 
+interactions with Task 2.1 will take place.  
+Deliverables 
+D1.1 Report on specifications. The deliverable will contain specifications and requirements as collected in tasks 
+1.1 and 1.2 and designs and data provided by end users concerning the test cases as well as the standards that 
+will be utilized for the validation of them (Task 1.3). Delivery: M06 by GASER 
+ 
+ 
+Work Package 
+Number 
+2 Lead Beneficiary ICCRAM 
+Work Package Title Safe & Sustainable by Design Strategy 
+Nr. 1 2 3 4 5 6 7 8 9 10 11 12 
+Name Gaser PoliMi Cnano AUTH IDE IRIS ICCRAM EXE INC ARC IAI CRF 
+PMs             
+Start Month 1 End Month 48 
+Objectives 
+WP 2 has the following specific objectives:  
+1. To reduce human and environmental risk avoiding known substances of concern through the assessment of 
+potential safety impacts of prototype candidates. 
+2. To determine the sustainability performance of new PoP processes through life cycle against various dimensions 
+3. To assess the recyclability of the coated plastics 
+ 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FREEME]    [30 of 44] 
+Description of Work 
+Task 2.1: Identification of options for technology delivery (Task Leader: ICCRAM), M01-36 
+Supported by: All partners 
+During this task, the design team defined in the consortium (product designers, material engineers, chemists, 
+toxicologists, and sustainability experts , designers and business developers from end uses ), will consider the 
+functionalities that the FreeMe technologies will deliver in the final products. Based on the specifications provided 
+in WP1 a minimum level of performance will be defined to be the baseline for the development of technologies  
+targeting to prolong the products lifecycle by increasing durability and repairability. Another target of this task will 
+be to reduce the complexity of product’s designs based on the progress of the technical work in WP3, 4 and 5  and 
+thus, to easy the processes of recycling, repairing or reduce the raw materials used, fostering the Green Deal targets. 
+  
+Task 2.2: Assessment of environmental sustainability (Task Leader: ICCRAM), M12-48 
+Supported by: All partners 
+The task aims at supporting the sustainable synthesis and implementation of the proposed PoP processes. Life Cycle 
+Assessment (LCA), Life Cyc le Costing (LCC) and Social Life Cycle Assessment (S -LCA), will be performed to 
+compare: 
+- Sustainability by Design strategies: Based on inputs collected (e.g. materials and energy use, costs, working 
+conditions), the materials and process alternatives leading to the best sustainability performances for the same 
+functionality will be identified to support sustainable-by-design of the metallization technologies. 
+- Market implementation scenarios: Depending on the application envisaged, potential impacts will be compared to 
+benchmarking technologies, to understand the benefits and potential trade -offs of the deployment of the newly 
+proposed technologies (e.g. higher safety for workers but increased carbon footprint). 
+The LCA, LCC and S-LCA evaluations will follow existing standards (e.g. the Product Environmental Footprint) 
+and use the same scope (e.g. compared scenarios, system boundaries, functional unit). Based on the results analysis, 
+recommendations for the Sustainable by Design and the fut ure large -scale deployment of the proposed PoP 
+processes will be drawn. 
+ 
+Task 2.3: Human and environmental safety assessment (Task Leader: ICCRAM), M12-48 
+Supported by: All partners 
+This task will provide evaluations that demonstrate the reduced toxicity o f the new processes developed and 
+materials involved. A set of protocols will be applied in order to measure their potential risk in comparison with 
+SoA equivalent processes. Toxicological potential against human health will be determined employing appropriate 
+cellular models adequate to expected exposure routes for in vitro cytotoxicity and cell viability assays. The 
+ecotoxicity and potential danger for the environment of the new catalysts will be also assessed analysing their impact 
+in the bioluminescent marine bacterium Vibrio fischeri, in the model fungus Saccharomyces cerevisiae, as well as 
+in a set of microbial exoenzymes responsible for different biological functions from eukaryotic and prokaryotic 
+organisms. The proposed toxicological tests will be p erformed employing samples obtained at different process 
+stages. 
+ 
+Task 2.4: Application of the Sustainability and Safe-by-Design strategy (Task Leader: ICCRAM), M24-48 
+Supported by: All partners 
+This task will implement a SSbD innovation approach to ensure that the resulting FREEME’s processes are safe, 
+both for humans and the environment, and sustainable along their life cycle at an early stage, aligned to the EU 
+chemicals strategy for sustainability, including: 
+(i) Safe-by-Design (SbD) strategies, which focus on a) Safe-by-Material Design –SbMD- strategies (that will 
+allow reduce potential risk based on the physicochemical and (eco)toxicological properties of the materials; and b) 
+Safe-by-Process Design -SbPD- strategies, based on the relevant factor s during the processing of the materials in 
+terms of potential exposure to hazardous substances, and  
+(ii) Sustainability-by-Design (SusbD) strategies that can increase the environmental, economic and social 
+sustainability performances of the novel PoP processes. 
+An assessment of the safety and sustainability performances throughout the processes and product’s life cycle will 
+be done for both types of strategies. All the evaluated indicators will be integrated (e.g. via multi -criteria decision 
+analysis) resulting into a SSbD index for each FreeMe process. This will allow the identification of the most safe 
+and sustainable alternatives at the design stage, further translated into recommendations for the implementation of 
+SSbD strategies 
+ 
+Task 2.5: Recyclability and Repairability assessment (Task Leader: PoliMI), M12-48 
+Supported by: Gaser, Cnano,  
+Removal of the metal coatings from plastic substrates for recycling will be investigated by employing one of the 
+following methods: 1) abrasive blasting, 2) cryogenic embrittlement and 3) mechanical crushing. Abrasive 
+ 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FREEME]    [31 of 44] 
+blasting. is the operation of forcibly propelling a stream of abrasive material against a surface under high pressure. 
+Dry ice-blasting is a special type of abrasive blasting where dry ice (solidified carbon dioxide) will be accelerated 
+in a pressurized air stream and directed at a surface in order to clean it. Cryogenic embrittlement may also be used 
+to remove metallic coatings from plastic substrates. The recovery system involves feeding metal-plated plastics into 
+a grinder. The grinder contains a pre-crusher which breaks up the parts into smaller pieces and feeds them into the 
+grinder which subsequently reduces the scrap from half-inch pieces to coarse powder. A magnetic drum separator 
+removes the pieces of metal that have been split off during grinding. The final step contains going through a 
+cryogenic feeder, where liquid nitrogen cools the scrap to almost freezing, creating stresses which cause additional 
+metal to splinter off. Finally, metal-plated plastics, for instance electroplated Cu, Ni and Cr on ABS, could also be 
+separated using mechanical crushing. Coatings could be easily stripped when the items are subjected to shear force 
+and impulsive force. Concerning the repair of partially damaged (scratched) metal-plated plastics, brush plating, a 
+portable method of electroplating without the use of an immersion tank, will be tested and employed. 
+Deliverables 
+D2.1 Report on the outcome of Task 2.1  with recommendations for SSbD for products and processes . 
+Delivery: M18 by ICCRAM and update at M36.(D2.2) 
+D2.3 Initial report containing the outcome on assessment of potential impacts and environmental sustainability 
+(Task 2.2 & 2.4). Delivery by ICCRAM and updated at M48 
+ 
+ 
+Work Package 
+Number 
+3 Lead Beneficiary PoliMi 
+Work Package Title Sprayable Resins process 
+Nr. 1 2 3 4 5 6 7 8 9 10 11 12 
+Name Gaser PoliMi Cnano AUTH IDE IRIS ICCR EXE INC ARC IAI CRF 
+PMs             
+Start Month 6 End Month 36 
+Objectives 
+WP 3 has the following specific objectives:  
+1. To develop appropriate formulations for composite resins containing Ni salts  
+2. To optimize the application of sprayable composite resins in polymer surfaces resulting to excellent adhesion 
+3. To investigate suitable surface treatment methods of hardened resins to facilitate the following metallization step  
+4. To optimize the activation and/or metallization processes for the two types of resins 
+5. To achieve excellent adhesion of metallic coatings on plastics 
+Description of Work 
+Task 3.1: Development and optimization of composite resins (Task Leader: AUTH), M06-36 
+Supported by: PoliMi, Gaser, end users 
+UV curing of epoxy and epoxy-acrylate resins that will be synthesized from biomass -derived platform chemicals, 
+i.e. isosorbide and itaconic acid, as well as of their (nano)composites with nickel salts will be studied and optimized 
+towards the formation of rigid thin (< 2 μm) polymeric films on polymeric substrates (i.e. ABS, PC, etc.). The 
+prepolymer resins will react with mono or multifunctional acrylate monomers, such as tripropyleneglycol diacrylate, 
+trimethylolpropane triacrylate, hexanediol diacrylate, etc, in the presence of appropriate photo initiators, such as the 
+alpha-hydroxy ketone types (e.g. Darocur 1173, Irgacure 184 etc.) in the case of epoxy -acrylates (free radical 
+mechanism) or diaryliodonium and triarylsulfonium salts (e.g. Irgacure 250, Curacure UV6976) for the acidic UV 
+curing mechanism of epoxy resins.  The Ni/epoxy-acrylate composite resins mixture will be characterized for their 
+viscosity (targeting to low values of ca. < 200 cP, that will enable solventless spraying application and abil ity to 
+perform fast UV curing, while the final cross-linked (nano)composites will be characterized a series of techniques, 
+such as SEM, TEM, tensile and impact strength, pull off testing (to measure the adhesion strength of the epoxy -
+acrylate film on the polymeric substrates), TGA/DSC, conductivity, resistance to solvents, etc.  
+ 
+Task 3.2 Application of resins layers in polymer substrates (Task Leader: PoliMI), M08-36 
+Supported by: Gaser, end users 
+A conventional spray gun will be used for the formation of the resin layer on the polymer surface. The whole process 
+will be conducted inside a customized, well ventilated and filtered cabinet to enclose and isolate hazardous fumes 
+and airborne particles. The “pot life” of the composite resin (the amo unt of time the resin will remain in a liquid 
+state) will be optimized by varying temperature, mixing solvent and viscosity of the resin). The spraying pressure 
+will be varied between 1 and 5 bar to optimize the spraying velocity and as a result the durati on of the overall 
+process. Different spraying nozzles (shape and size) and different spraying directions (angled or perpendicular) will 
+also be considered to obtain a homogeneous resin layer. 
+ 
+ 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FREEME]    [32 of 44] 
+Task 3.3 Metallization process of the resin layer (Task Leader: Gaser), M08-36 
+Supported by: All partners 
+Subtask 3.3.1: Metallization of the composite resin layer initially requires the generation of metal nucleation sites. 
+To this end, samples will be immersed into an aqueous NaBH 4 solution to reduce Ni from the cat ionic Ni2+ to the 
+metallic Ni0 state and to roughen the resin surface. A Design of Experiments (DoE) will be implemented to optimize 
+the activation rate and the roughness of the surface, considering the following parameters: (i) NaBH4 concentration 
+(5 to 50 g/L), (ii) immersion time (1 – 30 min) and (iii) temperature (20 – 50 °C). The resulting dispersion of the Ni 
+metal sites and the surface roughness will be validated by SEM and EDX mapping.  
+Subtask 3.3.2: Metallization will be completed by immersing the  activated samples in a Ni-P electroless aqueous 
+bath containing nickel sulfate [Ni(SO 4)2] as the Ni 2+ source, sodium hypophosphite (NaPO 2H2) as the reducing 
+agent, sodium citrate (Na3C6H5O7) as the complexing agent to control the release rate of free Ni2+ cations in solution 
+and an ammonium chloride/hydroxide buffer to adjust the pH. The electroless plating conditions, i.e. pH, time and 
+temperature will be optimized depending on the surface area of the sample and the targeted layer thickness. Based 
+on the obtained results, a finer adjustment of the above parameters will follow.  The morphological and structural 
+properties of the Ni -P layer will be investigated via microscopy (optical digital microscopy, SEM and EDX 
+mapping) and spectroscopy (FT-IR, XRF and XPS). Metal-polymer adhesion will be evaluated via standard “peel” 
+or “pull off” tests. The final metal finishing will be produced via pulse current plating, according to the 
+specifications of the end users (e.g. nickel, nickel alloys, copper, precious metals). 
+The development of this task will be split in two phases: in the 1 st phase, lab-scale experiments will be carried out 
+(baths up to 3 L) whereas in the 2nd phase, scaling up of the process will be explored using Cnano’s pilot line (baths 
+up to 150 L). 
+ 
+Task 3.4 Baths qualification process (Task Leader: Gaser), M14-36 
+Supported by: All partners 
+Baths qualification protocols will be developed in this task as a main part of the SSBD approach. Several methods 
+and techniques will be applied to monitor and adjust in real-time baths parameters as well as to avoid condamintation 
+that have an important effect on the plating process and on the lifetime of the baths. Chemical analysis will be 
+carried out to determine chemical composition of the baths (titration, elementary analysis for organic species). ICP 
+(Inductively Coupled Plasma) spectroscopy will also be used for determination of metals content in the baths. 
+Deliverables 
+D3.1 Intermediate report containing the progress on the activities of WP3 Delivery: M18 by PoliMi  . 
+D3.2 Report including the resins’ formulation and optimized methods for application on polymer surfaces 
+Delivery: M36 by AUTH 
+D3.3 Report on the optimized activation and metallization processes of composite sprayed resins Delivery: M36 
+by Gaser  
+ 
+Work Package 
+Number 
+4 Lead Beneficiary Cnano 
+Work Package Title Cr6+ and Pd free metallization process 
+Nr. 1 2 3 4 5 6 7 8 9 10 11 12 
+Name Gaser PoliMi Cnano AUTH IDE IRIS ICCR EXE INC ARC IAI CRF 
+PMs             
+Start Month 6 End Month 36 
+Objectives 
+WP 4 has the following specific objectives:  
+1. To develop and optimize a Cr6+ free process, based on acids or alkali mixtures 
+2. To replace Pd during the surface activation process with more abundant materials 
+3. To perform metallization of polymers based on the previous process 
+4. To achieve excellent adhesion of metallic coatings on plastics 
+Description of Work 
+Task 4.1: Development of Cr6+ free etching process (Task Leader: Cnano), M06-36 
+Supported by: All partners 
+ABS, PET, PLA and UV -curable resins will be used as polymeric surfaces for electroless metal plating. Surface 
+preparation will begin with surface degreasing during which the samples will be immersed into a soap solution 
+under sonication. Afterwards, Cr 6+-free surface etching will be carried out to create cavities and to install polar 
+groups on the polymeric surface to enhance adhesion. ABS and PET s ubstrates will be immersed into a strongly 
+oxidizing aqueous solution of 30% wt H2O2 / H2SO4 (“piranha solution”). PLA and UV-cured resins will be etched 
+by immersing the samples in highly alkaline solutions of KOH or NaOH. The effect on surface properties of H2O2 
+/ H2SO4 ratio (from 1:1 to 1:7), [OH-] concentration (1 – 5 M) and immersion time (30 s to 2 h) will be investigated, 
+ 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FREEME]    [33 of 44] 
+i.e. roughness (measured by optical microscopy and SEM), hydrophilicity (measured by contact angle analysis), 
+chemical composition (measured by EDX and FTIR). Finally, all surfaces will be neutralized to remove remnants 
+of the etching solutions by rinsing with DI water and/or immersing in an antioxidant solution, such as sodium 
+bisulfite (NaHSO 3). The combined comparative studies wi ll furnish an environmentally benign, time - and cost-
+efficient etching method.  
+ 
+Task 4.2 Development of Pd free activation process (Task Leader: Cnano), M06-36 
+Supported by: All partners 
+Pd and Sn free surface activation will be held via immersing the sam ples into a nickel acetate [Ni(CH 3COO)2] 
+solution and optimizing the concentration (1 - 10 g/L ) and the immersion time (10 – 120 min). Afterwards, surface 
+adsorbed cationic Ni 2+ species will be reduced to metallic Ni 0 nucleation sites by immersing the sam ples into an 
+aqueous NaBH4 solution. NaBH4 is also expected to further roughen the polymeric surface. Although the NaBH 4 
+reduction step resembles the one described in Subtask 3.3.1, the chemical environment around Ni2+ is now different. 
+Therefore, an independent DoE will be implemented to probe the effect of NaBH 4 concentration, immersion time 
+and temperature on the resulting dispersion of Ni 0 metal sites (measured by EDX mapping), surface roughness 
+(measured by SEM) and hydrophilicity (measured by contact angle analysis).  
+ 
+Task 4.3 Metallization process of polymeric activated surfaces (Task Leader: Gaser), M08-36 
+Supported by: All partners 
+Metallization will be completed by immersing the activated samples in a Ni -P electroless aqueous bath. 
+Optimization of the electroless plating conditions (i.e. pH, time and temperature) and validation of the resulting Ni-
+P layer will be caried out following the protocols of subtask 3.3.2. Development will be again split in two phases, 
+i.e. lab-scale experiments using baths up to 1 L(1st phase) and upscale using baths up to 150 L (2nd phase). As above, 
+the final metal finishing will be provided via electroplating based on the end user’s needs.  
+Deliverables 
+D4.1 Intermediate report containing the progress on the activities of WP4 Delivery: M18 by Cnano  . 
+D4.2 Report on the development of a Cr6+free etching process and Pd -free activation step for plastic surfaces 
+metallization including characterization of structures and properties. Delivery: M36 by Cnano 
+ 
+ 
+Work Package 
+Number 
+5 Lead Beneficiary IDE 
+Work Package Title Development of supporting technologies 
+Nr. 1 2 3 4 5 6 7 8 9 10 11 12 
+Name Gaser PoliMi Cnano AUTH IDE IRIS ICCR EXE INC ARC IAI CRF 
+PMs             
+Start Month 6 End Month 48 
+Objectives 
+WP 5 has the following specific objectives:  
+1. To support the development of sprayable resin and chromic acid free etching with in-silico techniques based on 
+multiscale modelling 
+2. To optimize an optical inspection system for monitoring of PoP process. 
+WP leader: IDE 
+Description of Work 
+Task 5.1: Materials and process in-silico modelling (Task Leader: IDE), M06-36 
+Supported by: All partners 
+The objective of this task is to perform the multi-scale modelling activities required to boost the design process of 
+the proposed sprayable composite resins. For this purpose, IDE, will work closely with the rest of the material  
+developers in the project towards the proper modeling of the required materials and interfaces. The specific scale 
+and type of models to be developed will be selected so as to fill the gaps in the information provided by the 
+performed experiments and to o ptimise their design, minimising the required tests. The selected models will be 
+implemented using a combination of ab -initio quantum (QM) and Coarse -Grained (CG) models which will be 
+simulated using molecular dynamics (MD), Monte Carlo (MC) and FEM techni ques to unlock multi -scale 
+modelling advantages. Moreover, the developed models will aim to support the process scale-up by providing key 
+information on their applicability for different applications. The work of this task will be split in two subtasks, 
+T5.1.1 and T5.1.2, which will cover the modeling required for the sprayable composite resins and the  
+ 
+Task 5.2 Development of in-line optical inspection system for coatings (Task Leader: IRIS), M06-48 
+Supported by: All partners 
+ 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FREEME]    [34 of 44] 
+An optical system for inspection of surface, based on spectroscopy principles will be delivered for high-speed inline 
+monitoring of, on the one hand, the coating application processes and, on the other hand, to assess the quality of 
+organic deposits on a range of substrates. Th e selected optical system will be assembled and pre -calibrated in the 
+lab scale on a relevant set of samples for obtaining respectively coatings and deposition in non-continuous modes. 
+It is expected that material dispersed in the resin coatings (i.e. Ni salts or Ni NPs) may lead to scattering, therefore 
+a specific calibration may be needed for the two concluded different formulations as opposed to the absolute values 
+that are expected in case of unfilled coatings or dense layer. In this latter case of depo sition, the speed and time of 
+the process would already bring a certain idea of this data. The overall performance of the system will be validated 
+during a certain period of time at pilot scale.  
+Deliverables 
+D5.1 Intermediate report containing the progress on the activities of WP5 ). Delivery: M18 by IDE and updated 
+at M36 (D5.2) by IRIS 
+D5.3 This deliverable will consist of the implemented multi -scale models. Such models, the data required for 
+replication and the  data produced through simulation will be openly published accordingly to the DMP. 
+Whenever the data requires protection due to the targeted commercialisation, the models will be 
+accompanied by synthetic data (Task 5.1). Delivery: M48 by IDE 
+D5.4 This report will provide the conclusions drawn through the project on the suitability of different multi-scale 
+models for supporting the design of PoP processes. Moreover, it will contain an analysis of the optimisation 
+of the design process achieved through the DoE produced in base of such models (Task 5.1). Delivery: M48 
+by IDE. 
+D5.5 Development, installation and validation of in-line optical inspection system (Task 5.3). Delivery: M48 by 
+IRIS 
+ 
+Work Package 
+Number 
+6 Lead Beneficiary CRF 
+Work Package Title Validation of technologies in end user's test cases 
+Nr. 1 2 3 4 5 6 7 8 9 10 11 12 
+Name Gaser PoliMi Cnano AUTH IDE IRIS ICCR EXE INC ARC IAI CRF 
+PMs             
+Start Month 28 End Month 48 
+Objectives 
+WP 6 has the following specific objectives:  
+1. To demonstrate the sprayable resin route for metallization of plastic surface in real applications 
+2. To demonstrate the Cr6+ and Pd free metallization process on real applications 
+3. To proceed in the qualification of coatings through industrial QC protocols of end users 
+Description of Work 
+Task 6.1: Decorative automotive parts (Task Leader: CRF), M28-48 
+Supported by: All partners 
+The deployment of this taks will be split in two phases. Firstly, tests on non-definitive samples (e.g. flat plaques) 
+will be carried out to ensure quality of the coatings and possibly finely tune the environmentally benign novel 
+technologies, developed in FreeMe. Secondly, will deliver various components for both interi or and exterior use, 
+made mainly of ABS and PC-ABS. Both developed ways will be applied (sprayable -resins and Cr6+-free etching) 
+for the metallization step, depending on the size and the geometry of the parts. Afterwards the layer electroplated 
+layered structured of Ni and trivalent Cr coatings will be followed. CRF will  validate the quality of the produced 
+metallic coatings by performing in -house tests, according to automotive standards and international norms (e.g., 
+ISO, ASTM) and compared the obtained re sults to benchmark performance. These tests include mechanical and 
+physicochemical properties of the coatings such as adhesion, brightness, anti-scratch, impact and UV resistance.. 
+ 
+Task 6.2: EMI shielding on antennas (Task Leader: IAI), M28-48 
+Supported by: All partners 
+IAI will manufacture and deliver to Cnano 3D -printed antenna parts (Figure 1.12.). Cnano will apply a metallic 
+coating following the wet metallization route. Sprayable resin rout will not be investigated due to the complexity of 
+the antennas’ structure. The application of a Ni-P thin layer will be carried out, following the optimization process 
+described in Subtask 3.3.2. The final metal finishing will be provided by pulse current electroplating depending on 
+the needs of IAI. First row transition metals (e.g. Ni and Cu) will be initially used to achieve high conductivity and 
+related EMI shielding values (e.g. 10 -1 S/cm and – 40 dB, respectively). Alternatively, a silver interlayer will be 
+applied to promote conductivity. The morphological (optical microscopy, SEM) and the physicochemical properties 
+of the metallized antennas will be investigated by Cnano (EDX mapping, XRF). The electrical pr operties of the 
+metallized antenna will be investigated by IAI. Special tests regarding mechanical strength and wear resistance in 
+ 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FREEME]    [35 of 44] 
+extreme conditions will be also conducted by IAI  
+ 
+Task 6.3: Applications on washing machine parts (Task Leader: ARC), M28-48 
+Supported by: All partners 
+With the FreeMe project, ARC aims to eliminate chromium from the plating process and develop alternative, 
+less hazardous routes while maintaining the top quality of the final metal finishes. ARC will provide specific 
+plastic par ts of their washing machine production line (e.g. dials and buttons) to PoliMi, Cnano and Gaser 
+for plating via the project’s innovative technologies. Both developed routes will be followed for these parts. 
+ARC will serve as the end user validating the qua lity of the metal coatings. To this end, adhesion, corrosion 
+and aging tests will be carried out to measure properties such as adhesion (100% based on ASTM D3359), 
+thickness (varying between 0.5 and 10 µm, depending on the application), brightness (based o n ASTM 
+D523), humidity resistance test (100% adhesion after 10 days based on ASTM D2247), salt spray test (based 
+on ISO 9227), UV resistance (< 10% brightness loss after 10 days exposure based on ASTM D4587) and 
+thermal cycle tests. Samples should not show  any signs of staining, matting, cracking, bubbling of peeling 
+after the tests.  
+Deliverables 
+D6.1 Report on the results on the demonstration activities. The report will include the PoP process for the 
+demonstration, characterization profiles of the coatings and QC tests of end users Delivery: M48 by CRF 
+D6.2 Public report on the demonstration activities that will include non -confidential results targeting on the 
+functionalities of new coating solution and their wider impact Delivery: M48 by PoliMI 
+ 
+ 
+Work Package 
+Number 
+7 Lead Beneficiary PoliMi 
+Work Package Title Roadmap to market deployment 
+Nr. 1 2 3 4 5 6 7 8 9 10 11 12 
+Name Gaser PoliMi Cnano AUTH IDE IRIS ICCR EXE INC ARC IAI CRF 
+PMs             
+Start Month 1 End Month 48 
+Objectives 
+WP07 has the following specific objectives:  
+1. To facilitate the acceptance and utilization by the market of the developed processes and materials 
+2. To provide benchmark information for the activities of other WPs, ensuring compatibility with standards 
+3. To use standardization system as a tool for dissemination of the project results and interaction with market 
+4. To develop a decision support tool facilitating the SSBD PoP technology by the industry 
+Description of Work 
+Task 7.1: Implementation of standardization activities (Task Leader: PoliMi), M01-48 
+Supported by: All partners 
+By M6 a benchmark analysis of standard and regulations will be performed, based on the needs of the projected 
+research activities and the expected results . Contribution to the ongoing and future standardization developments 
+will be followed after M7, allowing the project to interact with the related standardization technical committees, 
+assessing they type of communication and data share (monitoring their i nformation, attending to TC meetings, 
+establishing formal liaisons, organizing joint events, etc.). FreeMe will also contribute to new standards 
+developments in the field of surface treatment and PoP, promoting the inclusion of the outcomes of the project in 
+new or future standards that can be easily used by the European or international industry, increasing this way the 
+impact of the project. Based on the progress of the standardization sectors at the moment, this can involve providing 
+information, participating in ongoing works, submitting technical manuscripts and promoting the development of 
+new standard documents. 
+  
+Task 7.2: Development of DST (Task Leader: EXE), M01-48 
+Supported by: All partners 
+The core of DST will consist of a dynamic superstructure, whose elements enable representation of technologies 
+and processing steps, their connectivities as well as materials flows, concentrations, and products specifications. In-
+silico models of the indiv idual phenomena are integrated to simulate the different processing steps of the 
+superstructure. Experimental data (from project or user -defined) will systematically be processed for data -driven 
+analysis of flows, concentrations and specifications (on matrices and products) of the superstructure with respect to 
+outputs in operations, safety demands, technologies qualification and products quality control standards. The LCA 
+module holds an environmental factors database for KPIs analysis. The LCC module incl udes fixed (by project) 
+and incoming (by user) economic data on technologies, chemicals, operating and capital costs that are processed to 
+ 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FREEME]    [36 of 44] 
+calibrate cost models and systematically incorporate techno-economic analysis in the optimization procedure. The 
+safety module will be structured by risk factors, methods and descriptive data for risks evaluation and assessment 
+of the simulated operations (based on user-defined inputs) and will offer lists of options to mitigate hazards across 
+the design process consulting industrial users. The overall tool will be constructed as an optimization problem to be 
+programmed with GAMS modelling environment and will hold a user-friendly interface (GUI) to enable interaction 
+with the user. The DST will be provided as a stand-alone tool to use for decision making on the selection and design 
+of best practices for plating on plastics. 
+Deliverables 
+D7.1 Report containing the activities undertaken by the consortium towards the standardization of new processes 
+and liaison with corresponding stakeholders, Delivery: 48, by PoliMi  
+D7.2  Delivery of DST ready to be used by the industry Delivery: 48, by EXE 
+ 
+Work Package 
+Number 
+8 Lead Beneficiary EXE 
+Work Package Title Extroversion and Exploitation activities 
+Nr. 1 2 3 4 5 6 7 8 9 10 11 12 
+Name Gaser PoliMi Cnano AUTH IDE IRIS ICCR EXE INC ARC IAI CRF 
+PMs             
+Start Month 1 End Month 48 
+Objectives 
+WP 8 has the following specific objectives:  
+1. To coordinate of the communication and dissemination activities for the project´s outcomes and results 
+targeting the identified stakeholders and target groups and maximizing, thus, the project´s visibility. 
+2. To define and implement the exploitation strategy based on the key results identified. 
+3. To conduct IPR management seminars to jointly seek ownerships and joint exploitation potentials. 
+4. To carry out training activities responding to the needs and specific requests of identified stakeholders.  
+Description of Work 
+Task 8.1: Dissemination & Communication (Task Leader: EXE), M01-48 
+Supported by: All partners 
+The FreeMe dissemination strategy will ensure an efficient project visibility and that communication actions are 
+measurable, in order to divulge the project. The strategy will also provide recommended channels for scientific 
+dissemination, guideli nes, graphics, and templates to allow a coordinated dissemination of results and news. 
+Dissemination tools (website, brochures, newsletters, posters, videos, press releases etc.) EXE will work closely 
+with all partners to identify, develop and publish diss emination materials. The target is to reach multiple 
+stakeholders, raise their awareness, and encourage the engagement of specialized and general audiences. More 
+specifically, it will include (A) the development of a project identity/brand (logos, colours, font sets, banners, 
+templates etc.), Q&A documents, press releases, infographics, flyers and similar resources to support partners in 
+publicizing the project (B) the establishment of a project website from M3 containing information on the project 
+(weekly progress updates). Social media channels including professional networks (e.g. LinkedIn) and public/ social 
+network (e.g. Facebook, Twitter) will be established at M1 to facilitate the project´s promotion. The preliminary 
+D&C plan has been included in Section 2.2 and a deliverable will be submitted in M6, this will be updated for each 
+reporting period.  
+ 
+Task 8.2: Exploitation and business cases (Task Leader: INC), M01-48 
+Supported by: All partner  
+The exploitation and commercialization strategy will comprise different phases such as product identification, 
+market analysis, preparation of product launch and strategic alliances. The business cases will be analysed versus 
+market landscape of each resul t, definition of values proposition, market competition and value creation (value 
+change, customer relationship, etc.). A financial analysis will be performed to evaluate the profitability of the 
+revenue model, understand future cash flow and highlight the need for additional funding or external investment to 
+reach the first stage. Focus will be given on marketing activities to support the future exploitation of the FreeMe 
+results, to assist in raising the awareness and interests of potential investors to contribute to the financing and growth 
+of the project results, post -project training, dissemination campaigns to the European industry through major 
+exhibitions and shows, additional demonstration work with industry, communication with policy makers and 
+standardization bodies, etc. Knowledge seminars will be organized for the identification, distribution, and 
+representation of knowledge generated. Finally, Freedom to Operate (FTO) assessment will be conducted for the 
+technologies and the results arising of the project to avoid the infringement of third-party intellectual property rights, 
+and to plan the necessary mitigation strategies.  
+ 
+ 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FREEME]    [37 of 44] 
+Task 8.3: Open Science and Research Data Management (Task Leader: PoliMi), M01-48 
+Supported by: All partners 
+A concrete and sustainable IPR strategy will be designed following the exploitation strategy towards the Open 
+Science framework. Crucial to this ef fort will be the development of a Data Management Plan (DMP) that will 
+incorporate the technical and business knowledge produced during the course of the project. It is foreseen that in 
+the first version of DMP will be delivered in M6 and will updated for each reporting period. PoliMi will take 
+responsibility for the collection, management, and sharing of the research data, as well as for the day-to-day quality 
+assessment. The associated data files will be captured using Office software and will be analyzed using appropriate 
+analytic tools. Finally, data will be maintained in an open XML format to enable open re-use of the data. Over the 
+course of the project, data will be collected and entered into databases as described in Section 1.2. Project results 
+and Public Deliverables will be posted on the project website within one month. The site will be established using 
+an appropriate content management system (Drupal or Joomla, etc.) so that data users can participate in adding site 
+content over time, making the site self-sustaining. For preservation, the coordinator will supply periodic copies of 
+the data to “repository”. Data available and cited in publications will follow Open Access principles. 
+ 
+Task 8.4: Training Activities (Task Leader: EXE), M01-48 
+Supported by: All partners 
+The objective of this task is organizing and carrying out a number of training/dissemination workshops. For this 
+purpose, a set of materials, like training manuals and guidelines will be developed. A database of videos and photos 
+will be created, with the assistance of all partners, to facilitate training. The training workshops will be organized 
+for two different targets, internal training (aimed at staff of the project partners) and external training. At least two 
+(2) international and two (2) national training/dissemination workshops are planned. A final workshop with at least 
+50 participants will be implemented in M35. EXE will introduce a training module related to the project results into 
+their standard training packages for plating shops. A final event will be organized, in order to gather all the industry 
+stakeholders from several sectors and present the main results and expected gains of its deployment for the targeted 
+markets, providing for a faster acceptance and integration of the project results. 
+Deliverables 
+D8.1 A report containing the Plan for the Dissemination Exploitation of Results and Communication activities 
+(PEDRC) including training activities Delivery:M6 by EXE. The deliverable will be updated at M18 (D8.3), 
+M36 (D8.4) and M48 (D8.5) by EXE 
+D8.2 Data Management Plan Delivery:M6 by PoliMi 
+D8.6 Report containing the dissemination material and the open training material developed by the partners 
+Delivery:M48 by EXE. 
+ 
+ 
+Work Package 
+Number 
+9 Lead Beneficiary Gaser 
+Work Package Title Project management 
+Nr. 1 2 3 4 5 6 7 8 9 10 11 12 
+Name Gaser PoliMi Cnano AUTH IDE IRIS ICCR EXE INC ARC IAI CRF 
+PMs             
+Start Month 1 End Month 48 
+Objectives 
+WP09 has the following specific objectives:  
+1. Establishment and follow-up of Consortium Agreement and implementation of Grant Agreement 
+2. To overview the financial management. Responsibility for the communication within the consortium. 
+3. Controlling of project advance and time schedules. Review of milestones and deliverables. 
+4. Organization of regular reports and generation of special mid-term reports & summary reports. 
+Description of Work 
+A management team has been defined for the proper monitoring of the project. This consists of: 
+Mr Enrico Galliani from Gaser that will be the Project Manager (PM). Together with his management team will be 
+responsible for the coordination activities and the relationship with the EC and the FreeMe partners. 
+Prof. Luca Magagnin from PoliMi will be the Technical Manager following the research and development activities 
+of the technical WPs and communicating with WP and Task leaders. 
+Mrs Laura Zacares from Incote will be the Innovation Manger responsible for monitoring of the Innovation Strategy 
+of the Project 
+Dr Ioanna Katsavou from Exelisis will be the Dissemination & Communication Manager.  
+ 
+Task 9.1: Administrative and financial project management (Task Leader: Gaser), M01-48 
+ 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FREEME]    [38 of 44] 
+Supported by: All partners 
+Gaser’s Management and Coordination Tasks include: * Communicating between consortium and EC, including 
+the provision of legal and financial information about the partners during the GA and CA preparation phase. * 
+Administrative, financial, legal, and ethical management of the consortium and the resolution of contractual issues 
+during the project. * Manage and define IPR issues in order to submit by the end of the project the Innovation Radar. 
+* Preparation and post-processing of EC reviews from the consortium side, including support in the implementation 
+of any recommendations from the EC and reviewers, with the support of the WP leaders. * Coordination of 
+payments and the distribution of finances; keeping of records and financial accounts, collation of fin ancial 
+statements. *Day-to-day communication with FreeMe project partners, organizing meetings (including the kick-off 
+and six-monthly meetings) and circulating minutes. * Ensuring gender equality and Open Science, collating of the 
+deliverables and milestone reports, and collaborating in strong ties with partners to effectively prepare progress and 
+periodic reports and timely submit deliverables. 
+ 
+Task 9.2 Technical project management (Task Leader: PoliMi), M01-48 
+Supported by: All partners 
+Prof. Luca Magagnin from PoliMi in collaboration with the project coordinator Mr. Franzosi and each WP leader 
+will monitor the technical delivery of all Work Packages applying a day to day management of technical project 
+activities and coordinate activities between Work Package Leaders. A risk log and milestone progress reports will 
+be developed and maintained. The work package leaders will report directly Prof. Magagnin and will be responsible 
+to coordinate the work package specific technical activities and review and man age the according deliverables, 
+milestones and risks. The deliverables will follow an internal peer review process where a partner will be assigned 
+to evaluate the quality of the deliverable versus its objective. Each deliverable will be ready as a draft v ersion one 
+month before the submission and the partners will have time to comment in order to ensure the quality. May results 
+be available for open access publications the papers will be circulated 40 days before its submission in order to 
+receive approval by the partners. 
+Deliverables 
+ The reporting of this WP will be done in the contractual periodic reports. 
+ 
+Table 3.1c: List of Deliverables 
+Deliv. 
+Nr. Deliverable name WP 
+Nr. 
+Lead 
+Partner Type Diss. 
+level 
+Deliv. 
+date 
+D1.1 Report on specifications. 1 Gaser R SEN 6 
+D2.1 Recommendations for SSbD products and processes A 2 ICCRAM R SEN 18 
+D2.2 Recommendations for SSbD products and processes B 2 ICCRAM R SEN 36 
+D2.3 Report on assessment of potential impacts and 
+environmental sustainability 
+2 ICCRAM R SEN 48 
+D3.1 Intermediate report of progress of the activities of WP3  3 PoliMi R SEN 18 
+D3.2 Report including the resins’ formulation and optimized 
+methods for application on polymer surfaces  
+3 AUTH R SEN 36 
+D3.3 Report on the optimized activation and metallization 
+processes of sprayed resins  
+3 Gaser R SEN 36 
+D4.1 Intermediate report of progress of the activities of WP4  4 Cnano R SEN 18 
+D4.2 Report on toxic-free wet process for metallization of 
+plastic surfaces 
+4 Cnano R SEN 36 
+D5.1 First report of progress of the activities of WP5  5 IDE R SEN 18 
+D5.2 Second report of progress of the activities of WP5  5 IRIS R SEN 36 
+D5.3 Multi-scale models for environmentally friendly PoP 5 IDE OTH SEN 48 
+D5.4 Guidelines on in silico models usage for the design of 
+new PoP processes 
+5 IDE R SEN 48 
+D5.5 Development, installation and validation of in-line 
+optical inspection system   
+5 IRIS DEM SEN 48 
+D6.1 Report on the results on the demonstration activities.  6 CRF R SEN 48 
+D6.2 Public Report on demonstration activities 6 PoliMi R PU 48 
+D7.1 Report on standardization activities 7 PoliMi R PU 48 
+D7.2 DST webplatform 7 EXE OTH PU 48 
+D8.1 First PEDRC 8 EXE R SEN 6 
+D8.2 Data management Plan 8 PoliMi R PU 6 
+D8.3 Second PEDRC 8 EXE R SEN 18 
+D8.4 Third PEDRC 8 EXE R SEN 36 
+ 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FREEME]    [39 of 44] 
+D8.5 Final PEDRC 8 EXE R SEN 48 
+D8.6 Dissemination and training material 8 EXE OTH PU 36 
+ 
+Milestones of FREEME  
+The Project Milestones have been targeted planned in order to be used as a valuable tool for evaluating critical 
+performance and determining whether or not the project is on schedule, these additionally have been projected to 
+cover all reporting periods and to be balanced split between them. Milestone reviews will be held at each meeting of 
+the PSC six monthly and a critical review of the outlook for effective exploitation of results will be monitored by the 
+partners. Successful achievement of the targets specified in the milestones will ensure a smooth project 
+implementation and the on-time planning.  
+ 
+Table 3.1d: List of FREEME milestones 
+No Milestone name WP Date Means of verification 
+MS01 Kick off meeting 1 1 Meeting minutes approved by partners 
+MS02 Definition of REACH compliance 
+baths chemistries 2 5 Chemical to be used in baths and Safety Data 
+Sheets approved by the consortium  
+MS03 Integrated safe- and sustainable-by-
+design approach 3 10 Common evaluation framework applicable to 
+the case studies 
+MS04 First successful UV-curing of bio-
+based composite resin in lab 3 14 Report on resin formulation, UV-curing 
+protocol and characterization of hardened resin 
+MS05 Utilization of spray apparatus for 
+application of resin in substrates 3 19 Video from application of resins in the plastic 
+samples 
+MS06 Successful activation utilizing Pd-
+Free baths 4 25 Characterization via SEM and EDS 
+measurement of Ni nuclei and Ni-P laye 
+MS07 Achievement of adhesion value of 4,9 
+N/25mm 3-4 29 Via peel-test configuration, coatings of both 
+routes will be studied 
+MS08 Delivery of demonstrators in Cnano, 
+Gaser and PoliMi premises 6 33 Delivery notes from Arc, CRF and IAI 
+MS09 Recommendations for the 
+implementation of SSbD strategies 
+presented in workshop 
+3 36 
+Report on the materials presented and minutes 
+of meeting from the round table discussion  
+MS10 First successful application of resin 
+based POP process on automotive part 6 40 Full characterization profile of the coating 
+based on end user’s QC protocols 
+MS11 First use of beta version of DST by 
+external user  8 42 Report on the feedback from applicants  
+MS12 Open event for public engagement & 
+Training workshop for industry 9 47 Press release on media for the implementation 
+of the events and interviews from attendees  
+ 
+Risks and Migration Measures  
+All necessary risks and migration measures have been dully foreseen, categorized in terms of managerial, technical 
+and Business/ Exploitation and dissemination. Management related risks will be evaluated and monitored by the PC. 
+In more details, the table below shows the main risks identified, their probability of occurrence, these risk table is 
+intended to be reviewed and the status will be evaluated during each project meeting.  
+ 
+Table 3.1e: Critical risks for implementation (where L: Likelihood, I: Impact) 
+Description of risk WP(s) Proposed risk-mitigation measures 
+Management Risks 
+Management issues  
+L: low. I: high All 
+The proposed working groups that will be chaired by the PM and 
+TM, have relevant representatives of the most relevant disciplines 
+to assure the required leadership. 
+Technical Risks 
+Lack of data from the test cases to 
+model the sustainability 
+performances  
+L: medium I: medium 
+2 
+Bilateral meetings with relevant partners to fill data gaps, use of 
+literature data and sensitivity analysis on key uncertain parameters 
+to understand the influence on the results  
+UV-cured r esin layers result to 
+limited Ni nuclei and thus, low 
+quality metallization 
+L: medium I: high 
+3 
+Instead of using anhydrous salts (i.e., NiCl 2), mixing of Ni 
+nanoparticles with the resin will be tested. Following, an etching 
+process will be applied to expose Ni NPs to the surface which will 
+act as Ni nuclei for the electroless deposition.  
+ 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FREEME]    [40 of 44] 
+Insufficient etching process via the 
+wet route based on piranha sol. 
+L: medium. I: medium 
+4 
+This risk has been foreseen and is specifically connected to the 
+complexity of wet chemistry of the etching process. Use of stronger 
+mixtures (i.e. KMnO4/H2SO4) will be utilized. 
+Pd-free activation process results 
+in limited Ni nuclei 
+L: medium I: medium 
+4 
+A revising of both etching and activation step will be made as they 
+are directly connected. Utilization of more dense Ni solution or of 
+copper salts solution.   
+Required models too complex or 
+computationally intensive 
+P: medium I: medium 
+5 
+Targeting of the modeling activities. Usage of HPC/Cloud services 
+if needed. Usage of surrogate models when required 
+Final finishing coatings are of low 
+quality  
+P: low I: medium 3-6 
+The quality of the final finishing is based on the quality of the 
+metallization step (application of Ni-P layer). Usually this defect is 
+solved by application of Ni-P layers of higher thickness (with a low 
+impact on the duration of the process)  
+Results on demonstration activities 
+do not correspond to lab scale 
+results 
+P: high I: low 
+6 
+During demonstration activities, larger scale components will be 
+used, having as a result the need for a more robust operation and 
+control of parameters. The presences of Gaser in the consortium 
+that has huge experience in plating process will be valuable.  
+Difficulty in matching user defined 
+input data with data required by 
+DST. 
+P: medium I: low 
+7 
+Missing input data will be completed by experimental (generated 
+by the project) and data-driven modelling outputs.  
+ 
+Industrial implementation/Business/ Exploitation and dissemination risks 
+Internal disputes  regarding IPR 
+and exploitation routes 
+P: low I: high 
+WP8 
+CA will define the IPR issues, while at the end of the project the 
+Results Ownership List will be established based on Horizon 
+Europe principles for ownership of results 
+ 
+Summary of staff effort  
+The consortium set up by FreeMe has a clear vision of its objective and therefore is committed to the right allocation 
+of the financial resources. There is an appropriate budget allocated to R&D work, communication, dissemination, IP 
+and knowledge management and business planning activities for impact. Considering that there are 12 partners in the 
+project, and the competitive 48-month work plan, an EC Contribution of 4.834.592,00 € is requested.  
+ 
+Table 3.1f: FREEME Summary of staff effort  
+ Name WP1 WP2 WP3 WP4 WP5 WP6 WP7 WP8 WP9 Total 
+PMs 
+1.  Gaser 7 5 18 21 2 13 4 3 28 101 
+2.  PoliMi 4 11 31 0 2 9 3 10 6 76 
+3.  Cnano 4 5 0 35 3 15 6 5 2 75 
+4.  AUTH 2 2 39 0 3 4 3 2 2 57 
+5.  IDENER 2 5 3 3 40 2 10 3 2 70 
+6.  IRIS 3 2 2 2 25 7 2 2 2 47 
+7.  ICCRAM 2 54 0 0 2 2 2 2 2 66 
+8.  EXE 1 4 0 0 0 2 25 30 2 64 
+9.  INC 3 3 0 0 0 5 13 40 2 66 
+10.  CRF 6 2 2 3 3 15 3 3 2 39 
+11.  Arcelic 4 4 3 2 1 15 3 2 2 36 
+12.  IAI 4 3 2 2 1 11 2 2 1 28 
+Total PMs 42 100 100 68 82 100 76 104 53 725 
+ 
+In the below Figures the other directs costs are analysed for the partners that exceeds the 15% of other direct costs 
+compared to the personnel costs. 
+ 
+Table 3.1h: ‘‘Purchase costs’ items (travel and subsistence, equipment and other goods, works and services) and 
+‘Other costs categories’ items (e.g. internally invoiced goods and services) 
+3. Cnano  Cost (€)  Justification 
+Equipment  14.000€ Peel test for adhesion measurements: 14.000€ 
+Remaining 
+purchase costs 
+(<xx% of pers. 
+48.000€ 
+ 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FREEME]    [41 of 44] 
+Total 62.000€  
+ 
+ 
+4. AUTH  Cost (€)  Justification 
+Equipment  25.000€ Reactor for monomer synthesis/polymerization and parts of it: 20.000€ 
+Components of analytical instruments: 5.000€ 
+Other goods, 
+works and 
+services 
+14.000€ Consumables and raw material (chemical reagents/gases): 8.000€ 
+Services for analytical measurements: 6.000€ 
+Remaining 
+purchase costs 
+(<xx% of pers. 
+28.000€ 
+Total 67.000€  
+ 
+6. IRIS  Cost (€)  Justification 
+Other goods, 
+works and 
+services 
+53.000€ Cost for the manufacturing and integration of sensor (optical component, 
+mechanical supports etc): 53.0000€ 
+Remaining 
+purchase costs 
+(<xx% of pers. 
+18.000€ 
+Total   
+ 
+7. ICCRAM  Cost (€)  Justification 
+Other goods, 
+works and 
+services 
+15.000€ Toxicology Lab consumables: commercial cell lines, cell culture reagents and 
+consumables; microbiology reagents and consumables; buffers and plastic and 
+glass material for laboratory; kits and consumables for toxicity and field assays : 
+15.000€  
+Remaining 
+purchase costs 
+(<xx% of pers. 
+33.250€ 
+Total 48.250€  
+ 
+Table 3.1i: ‘Other costs categories’ items (e.g. internally invoiced goods and services) 
+ 
+Participant Number/Short Name 
+7. ICCRAM Cost (€) Justification 
+Internally invoiced 
+goods and services 
+5.000€ The R+D+i service - Technological Park - of the University of Burgos 
+passed on the researchers, based on usage, all expenses associated with their 
+teams, among which are: NMR, FT -IR, elemental analyzer, electron 
+microscopy scanning, ICP-Masses, High-resolution masses, RAMAN, etc.

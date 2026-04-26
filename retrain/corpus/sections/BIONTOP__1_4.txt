@@ -1,0 +1,1014 @@
+1.4 Ambition  
+Advance beyond the state-of-the-art and the extent to which the proposed work is ambitious 
+The use of bio -based materials is a very interesting way to decrease the environmental impact of end users and packaging 
+industries. However improvements in the functionality and properties of bio-based materials are required to fill performance and 
+price gap with fossil mater ials that generally hampers their replacement. In this sense, BIOnTOP project has the ambition to 
+develop novel packaging products in different formats (trays, films, flowpacks and textiles) using new copolymers based 
+on PLA and other bio -based diacids as well as innovative barrier coatings  that will lead to significant knowledge 
+advancements of the state-of-the-art in packaging materials with tailored end-of-life phase as follows: 
+State of the art in the field of home and industrially compostability and degradation under anaerobic conditions 
+Industrial compostability was the first process of organic recycling for which a test strategy including specific requirement s was 
+developed. This resulted in the harmonized EU standard EN 13432 Requirements for packaging recoverable through composting 
+and biodegradation - Test scheme and evaluation criteria for the final acceptance of packaging (2000) according to which a broad 
+range of products are certified. However, during home composting, the high temperatures (> 50 °C) required by some polymers 
+such as PLA for starting the degradation and obtained during industrial composting processes, are mostly not reached. At lower 
+temperatures, degradation rate is reduced or even limited. Furthermore, in order to be home compost able, a material must 
+demonstrate sufficient biodegradation and disintegration at ambient temperature. This principle was first applied by the OK 
+compost HOME Conformity Mark of certification institute TÜV AUSTRIA Belgium. Currently, also the German Certification Institute 
+has developed a logo: DIN -Geprüft Home Compostable. On a European level, no standard has been established yet for home 
+compostable products, but recently home composting has become an important factor in France, with the ban of convention al 
+lightweight plastic shopping bags, the encouragement of bioplastics compostable at domestic level and the introduction of a 
+French national standard on home compostable materials NF T 51 -800 Plastics – Specifications for plastic suitable for home 
+composting (2015). Moreover, several European companies, such as BASF, BIOTEC, LIMAGRAIN, NOVAMONT, FUTAMURA, 
+etc. have developed polymer resins that are home compostable, but they have limited thermomechanical behaviour and 
+processability. Most of these product s are starch, polyhydroxy butyrate (PHB) or polyhydroxy succinate (PBS) based, although 
+the Ecovio compounds of BASF contain PLA (in low amount when meeting home compostability requirements - rest being non-
+bio-based PBAT). On the market, there is still a l ack of products meeting the needs of the packaging applications (in terms of 
+price, controlled biodegradability and product properties). Moreover, it should be noted that at present, PLA can be in the material 
+formula (although it is not degrading at ambient temperature), as the current test requires that 90% absolute or relative to cellulose 
+biodegradation is reached. However, in line with the International and American specifications for industrial compostable products 
+and DIN-Geprüft Industrial Compostable label, in which it is requested that organic components between 1% and 10% must be 
+tested separately, it is likely that the European standard in discussion follows a similar approach. In that case, materials including 
+ 
+8 Londa Schiebinger (2008). Gendered Innovations in Science and Engineering. ISBN: 978080475814 
+                                                                          Part B                                                                            
+ 
+Page 14 of 105 
+ 
+even minor PLA amounts and currentl y claiming home compostability would fail. In this case, the use of BIOnTOP copolymers 
+would become mandatory.   
+Besides, it is well known that compostability rate is thickness dependent. While it may be possible to compost a specific bioplastic 
+sample used in packaging film, a consumer product such as thick injected cosmetic jar, made from this bioplastic may not compost 
+at a rate sufficient to meet the compostability standard, simply because it is too thick. This is true even for starch derived or PLA 
+based materials at high thickness used for rigid food packaging (trays). For example, PLA for industrial composting conditions is 
+certified up to 2000 µm thicknes s (Total-Corbion), but polybutylene succinate (PBS) up to 68 µm (Xinjian Blue Ridge Tunhe 
+Polyester Co., LTD; China) and polybutylene adipate terephthalate (PBAT) up to 120 µm (BASF, Germany)[9.  
+As biodegradation is also determined by the characteristics of the environment (temperature, moisture content, pH, oxygen 
+presence, microbial population…), specific test procedures were developed to determine biodegradation of plast ics under 
+anaerobic conditions (ISO 15985). However, although AD in biogasification plants is considered in the EU Waste Directive as a 
+valuable treatment method for organic recycling, there is currently no standard existing that defines the specific requirements on 
+biodegradation, disintegration and effect on the digestate that should be fulfilled (similar to EN 13432 for industrial composting). 
+AD has so far only been poorly investigated as an EoL option for bioplastics and packaging. Still, it is an inte resting technology 
+due to additional biogas formation, suitable for electricity or heat production. In fact, the bioplastics can have a positive effect on 
+biogas production due to their high C/N ratio. The results of this project will help to understand th e behaviour of plastics and 
+packaging in these anaerobic systems and can be a basis for development of such a standard.   
+Beyond the state of the art, BIOnTOP will combine several technologies discussed below to reach modular EoL that are currently 
+not achievable with the available materials under control waste management scenario, while still ensuring the material meets the 
+properties required for packaging productions. BIOnTOP will improve the biodegradation of PLA based blends and copolymers 
+in home composting conditions, allowing to apply a higher PLA content and more cost-effective products. Moreover, the behaviour 
+of PLA products in AD systems will be evaluated opening new EoL options, in both cases contributing with tests results towards 
+new harmonised standards. 
+State of the art in the field of PLA, lactide (LD) and lactic acid (LA) based copolymers  
+Among the biodegradable polymers, polylactic acid (PLA)-based polymers are one of the 
+most extensively studied biomass -derived synthetic polymers, used for a wide range of 
+applications covering disposable household items, food packaging, agricultural films, drug 
+delivery systems, and implantable biomedical devices. However, some PLA properties are 
+still insufficient for their breakthrough in more potential applications, mainly due to its lack of toughness and impact resistance.10 
+Generally commercial grade of PLA are co-polymers of L-LA and D-LA or the corresponding lactide (LD) forms.11. The ratio of L 
+to D enantiomers is known to affect th e properties of PLA. Thus, the content of D-LA affects the glass transition of PLA, which 
+decreases progressively, as well as the melting temperature and the crystallization rate, which decrease with the increase in the 
+D units content. In general, in industrial packaging applications, the use of PLA with a content of D units of a 2–6 wt. % randomly 
+distributed is very common as then, the crystallization of PLA is low, favouring the production of amorphous transparent films (in 
+contrast to textiles needing high crystallinity). The crystallinity of PLA interferes with controlled degradation and is an obstacle to 
+the application of PLA as a biodegradable plastic. Therefore, research aims to equip PLA-based polymers with controllable 
+biodegradation profiles , tailored mechanical properties, reactivity for chemical modification, and other functionalities while 
+keeping the favourable characteristics of PLA. In that sense, a promising approach is the introduction of hydrophilic 
+(reactive) segments, other bio-based monomers and/or branched structures into PLA. Currently, the lack of consistency 
+in biodegradability studies, with varying conditions and protocols being applied to different systems, makes it very hard and 
+controversial to compare the biodegradability of plastics and in particular of PLA and derived materials developed in 
+the academic literature.12  
+Biodegradation of PLA 
+As seen previously, the biodegradation of plastics is a complex process involving multiple steps and pathways and is highly 
+dependent on the conditions. The initial degradation step for PLA is to be broken down into monomers or low molecular weight 
+oligomers, where the ester bonds are cleaved hydrolytically to facilitate uptake into microorganisms.13 PLA becomes water soluble 
+when the molecular weight (Mn) is below 20,000 g/mol. 14 The initial degradation into smaller fragments is a rate limiting step in 
+biodegradation processes.15 After uptake into the microorganisms, subsequent metabolic activity breaks the polymers down into 
+metabolic end products such as carbon dioxide and water, while a portion of the carbon is converted into biomass.16 Composting 
+of PLA proceeds efficiently under adequate conditions due to the combined effects of hydrolysis and microbial activity. 17 
+ 
+9 http://www.okcompost.be/data/pdf-document/okc-mate.pdfdincertco.tuv.com/search/categories?category_id=442&locale=en 
+10 Mehta, et al..,Synthesis of poly (lactic acid): a review. J. Macromol. Sci. Polym. Rev., 2005; 45(4): 325–349 (2005) 
+11 http://www.natureworksllc.com/What-is-Ingeo/Where-Ingeo-Comes-From 
+12 Garrison et al.. Review Bio-Based Polymers with Potential for Biodegradability. Polymers 2016, 8, 262; doi:10.3390/polym8070262 
+13 Stlouk et al. Kinetics and mechanism of the biodegradation of PLA/clay nanocomposites during thermophilic phase of composting process. Waste Manag. 2015, 42. 
+14 Gorrasi et al., Effect of PLA grades and morphologies on hydrolytic degradation at composting temperature: Assessment of structural modification and kinetic parameters. 
+Polym. Degrad. Stab. 2013, 98, 1006–1014 
+15 Husárová, et al. Identification of important abiotic & biotic factors in the biodegradation of PLA. Int. J. Biol. Macromol. 2014, 71, 155–162 
+16 Mueller, R.J. Biological degradation of synthetic polyesters-Enzymes as potential catalysts for polyester recycling. Process. Biochem. 2006, 41, 2124–8. 
+17 Ghorpade, et al., Laboratory composting of extruded poly(lactic acid) sheets. Bioresour. Technol. 2001, 76, 57–61. 
+
+                                                                          Part B                                                                            
+ 
+Page 15 of 105 
+ 
+Furthermore, elevated temperatures encountered during composting accelerate the hydrolysis process of PLA, especially when 
+temperatures exceed 50ºC. 18 Extracellular enzymes released by specific microorganisms can cause cleavage of PLA chains, 
+which may contribute to the deg radation process. However, some studies have shown that extracellular enzymes do not 
+significantly accelerate depolymerization. The reaction mechanism for the hydrolysis of polyesters is a bimolecular nucleophi lic 
+substitution reaction (SN2), which may be catalysed with either acids or bases. 19 Furthermore, the reaction rates for hydrolytic 
+degradation are dependent on a number of factors: temperature, size and shape of sample, molecular weight (Mw), crystallinity, 
+and relative humidity. Moreover, polymers that crosslink during irradiation tend to show reduced biodegradation because the 
+higher Mw decreases the ability for uptake by microorganisms.20  
+PLA synthesis 
+The synthesis routines of PLA can be divided into polycondensation reaction from LA and ring op ening polymerization (ROP) 
+from LD via a coordination-insertion mechanism.21,22 
+-Direct polycondensation (DP): DP of LA is usually performed in bulk by distillation of condensation water with or without a 
+catalyst, while vacuum and temperature are progressively increased. A polymer of low Mw and uncontrolled stereoregularity is 
+sometimes obtained being the main disadvantage of DP and restricts its use. The polymer thus possesses inferior mechanical 
+properties. So, this method is normally employed only to obtain polymers of low Mw (e.g. prepolymers for WP2 or coatings).  
+-Ring-Opening Polymerization (ROP) : While DP of LA is cheaper, ROP of LD is the method used commercially. Many 
+researchers have studied this ROP and some patents 23  have been filed (mostly already expired patents not focusing on 
+copolymers as in the present project), however a huge research is still needed. As an example, NatureWorks LLC has developed 
+a solvent-free, low-cost continuous process for the production of PLA from com-derived dextrose. The resulting PLA (Ingeo™) is 
+the first synthetic polymer to be produced from annually renewable resources. The ROP of LD can be initiated by metal complexes, 
+organic compounds or enzymes to yield high Mw PLA in excellent conversion and purity. The benefits of ROP in conjunction with 
+a "living" method have enabled the controlled synthesis of block, graft, and star polymers. It is very important to control the 
+stereochemistry of PLA because it plays a very important role in PLAs’ physico -chemical, mechanical properties and 
+biodegradability. 
+-Reactive Extrusion (REX): REX has emerged as a powerful tool with potential to replace chemical batch reactor in some cases. 
+REX, performed in a well-designed twin-screw co-rotating extruder, is an attractive route for bioplastic processing in order to carry 
+out polymerization. The obvious advantages of an extrusion polymeriz ation are that it is a solvent free melt and a low-cost 
+continuous process, starting from monomers or prepolymers and resulting in polymers, while controlling the chemistry  
+throughout the process. In this regard, REX processing of PLA -based materials has b een investigated mainly at small scale in 
+order to modify their properties. REX can therefore enhance the commercial viability and cost-competitiveness of these materials 
+as already found for biodegradable polymers like PLA 24. 
+Beyond state-of-the-art copolymerization routes of diacids with lactic acid/lactide, throughout the BIOnTOP project we will 
+develop two cost effective environmentally friendly approaches (direct polycondensation and REX synthesis; this latter is currently 
+not well established in the Industry due to insufficient knowledge of its advantages) that will supply tailored EoL such as 
+biodegradability in home composting conditions and increase the sustainability of the bio-based polymer synthesis process. 
+Chemical Structure Influence on Biodegradation 
+Several studies in the literature suggest relationships between the chemical structure of substrates and their degradation ra tes. 
+Likewise, the polymers exhibiting the lowest mechanical properties are also generally the ones with the highest degradation rates 
+and it is also why commercially available solutions for home compostable shopping bags or so are not suitable for higher 
+demanding applications as tackled in the project. High biodegradability rates depend  primarily on (1) the presence of terminal 
+hydroxyl or acyl functional groups to allow for metabolic processes and (2) lower molecular weights. Such findings25,26,27  suggest 
+that in many cases biodegradability may be directed by physico -chemical phenomena , such as the mobility of substrate, 
+availability, mixing, mechanical properties impacting breaking down of the macrostructure, and/or hydrophilicity of chemical 
+species. Bio-based or bio -renewable monomers can lead to materials that may not necessarily be  fully or significantly 
+biodegradable and the biodegradability of a large number of novel bio-based systems has not been investigated yet. Changes in 
+the functional groups of bio-based monomers, crosslink density and co-polymerization with non-biodegradable comonomers can 
+lead to materials that exhibit various degrees of biodegradability, with varying environmental impact.  
+ 
+18 Tokiwa, Y.; Jarerat, A. Biodegradation of poly(L-lactide). Biotechnol. Lett. 2004, 26, 771–777. 
+19 Lyu, S.P.; et al.. Kinetics and time-temperature equivalence of polymer degradation. Biomacromolecules 2007, 8, 2301–10. 
+20 Kijchavengkul, Assessment of aliphatic–aromatic copolyester biodegradable mulch films. Part II Laboratory simulated conditions. Chemosphere 2008, 71, 1607-16 
+21 Garlotta, D. A.,literature review of poly (lactic acid).J. Polym. Environ., 2001; 9(2): 63-84. 
+22 Li, B et al.,Synthesis of poly(lactic acid-b-p-dioxanone) block copolymers from ring opening polymerization of p-dioxanone by poly(L-lactic acid) macroinitiators. Polym. Bull., 
+2008; 61(2): 139-146. 
+23 a) Grubber P. R., Paul St., Hall E. S., et a1. U. S. Pat. 5,142,023 (1992).); b) Enomoto K., Ajioka M., Yamaguchi A U. S. Pat. 5,310,865 (1994); c) Maeda H., Shimizu K., 
+Miyakawa Y., et al. U. S. Pat. 5,866,677 (1999). 
+24 Processing, Characterization and Physical Properties of PLA Chapter 4 2014 on http://pubs.rsc.org | doi:10.1039/9781782624806-00099 
+25 Lu  et al. Isomer-specific biodegradation of nonylphenol in an activated sludge bioreactor andstructure-biodegradability relationship. Water Res. 2015, 68 
+26 Genovese. New eco-friendly random copolyesters based on poly(propylene cyclohexanedicarboxylate): Structure-properties relationships. Express Polym. Lett. 2015, 9, 972 
+27 Beran, E.; Hull, S.; Steininger, M. The relationship between the chemical structure of poly(alkylene glycol)s and their aerobic biodegradability in an aqueous environment. J. 
+Polym. Environ. 2013, 21, 172–180 
+                                                                          Part B                                                                            
+ 
+Page 16 of 105 
+ 
+PLA Copolymers 
+The introduction of different monomers (dicarboxylic acids: DA) in the PLA chain reduces PLA crystallization and the resulting 
+copolymers will display enhanced biodegradability. Furthermore, this modification allows obtaining different lengths and Mw 
+distributions providing a good approach to tune the biodegradation of the final compounds. While the presence of a methylene 
+in position alpha to the carboxylic acid of LA hinders its biodegradation, the selection of polymers without this steric hindrance will 
+favour their biodegradability because the access of the microorganism to the carbonyl group is easier. The choice of ini tiator 
+system, co-initiator as chain control agent, catalyst concentration, monomer -to-initiator ratio and polymerization temperature & 
+time, significantly affects the polymer properties, such as the Mw, degree of crystallinity, and residual monomer content, which in 
+turn affect the physico-mechanical properties and processing temperature range of the polylactide and its copolymers as well as 
+their biodegradation behaviour.28 
+The US Department of Energy identified 12 strategic building block chemicals that can be produced from carbohydrates or sugars 
+via biological or chemical conversions from biomass. 29 Most of them are bifunctional dicarboxylic acids among which BIOnTOP 
+considered itaconic acid, adipic acid, tartaric acid, malic acid, succinic acid, glycolic acid and aspartic acid as potential candidates 
+that can be copolymerized with LA to obtain biodegradable copolymers in suitable conditions. All of them, except glycolic aci d, 
+are bio-produced at low cost. Taking into account their price, bio -based availability in Europe, chemical structure, bibliographic 
+references and patents to prepare copolymers with LA or lactide and their biodegradability, malic and succinic acid have been  
+selected to be copolymerized with lactic acid in WP2. 
+Malic acid (MA): Companies such as Novozymes and Myriant have developed proprietary technologies based 
+on aforementioned fermentation process. Currently, 80% of global malic acid is produced synthetically and 
+the remaining is produced by renewable sources among othe r from fruit waste , as done by OENO 
+(collaborator of INSTM who will act as supplier for WP2 ). Commercialization of bio -based malic acid at competitive pricing as 
+compared to its synthetic counterpart is expected to create immense opportunities to be used as platform chemical in the future. 
+The estimated bio-based MA price is at around 2400€/tonne.30 At the market price of 1.9€/kg, MA production from soy molasses 
+via PMA fermentation offers an economically competitive process. MA is used to produce bio -based polyesters which find 
+application in pharmaceuticals used to treat cancer cells. It has been demonstrated that poly(malic acid -co-L-lactide) acts as a 
+superb degradation accelerator for PLA in physiological conditions due to the superiority of poly(malic acid) vs. PLA to 
+biodegrade.31 Their findings also proved the usefulness to tune the degradation rate. 
+Succinic acid (SA): Nowadays, the bulk of SA is produced at a rate of 25,000 tons per year from maleic 
+anhydride obtained by oxidation of the C4 fractio n (n -butane or butadiene) of crude oil. However, the 
+biotechnological production of SA by fermentation of carbohydrates has attracted recent attention.32 At larger 
+scale (typically 50 kTonnes), and due to lower costs of raw materials, bio-SA has the potential to be cheaper than its fossil-derived 
+product and is expected to open up new markets and applications. Reverdia and Myriant’s production cost for bio-SA is estimated 
+to be lower than 1,040€/MT 33 whereas market prices for petroleum -derived SA are reported between $6,000 and $9,000/MT 34. 
+Building on such advantage, the most conservative market studies estimates 250 ktonnes of bio -based SA will be produced by 
+2020 with high opportunities for growth in EU. Some of the major companies dominating this market are Reverdia (AB), BioAmber 
+and Succinity. As an example of copolymerization synthesis, LA, ethylene glycol and SA were copolymerised with different 
+monomer feed ratios by direct polycondensation. 35 The lack of methyl groups in the succinic molecule should  favour the 
+biodegradation and the biodegradation of its derivatives such as poly(butylene succinate) (PBS) are well demonstrated.36 In fact, 
+PBS is home compostable according to Vinçotte certificate. For that reason, it is an interesting blend partner for  PLA. However, 
+most PBS on the market is not yet bio-based and its market is less established than that of PLA.37 Possibility of terpolymers with 
+adipic acid are interesting solutions to be addressed too.38 
+Beyond state-of-the-art copolymerization strategies, throughout the BIOnTOP project, novel tailor made copolymers of malic 
+and succinic acids with lactic acid/lactide will be developed through different synthetic routines. Moreover, copolymers with  
+different ratios MA or SA/LA, molecular weights, lengths of each segment and crystallinity will be designed which will allow 
+breakthrough in their biodegradation behaviour in mild conditions, e.g. for home composting. In addition, the comparison of the 
+degradability behaviour of different bio-based systems in a consistent manner will allow a systematic understanding of the effect 
+ 
+28 Duda, S. et al, “Polymerizations of ε-caprolactone and L,L-dilactide initiated with stannous octoate and stannous butoxide—a comparison,” Macromolecular Symposia, vol. 
+153, no. 1, pp. 41–53, 2000. D. W. Grijpma et al., “Polymerization temperature effects on the properties of l-lactide and ε-caprolactone copolymers,” Polymer Bulletin, vol. 25, 
+no. 3, pp. 335–341, 1991 
+29 Werpy T, Petersen G (2004) Top value added chemicals from biomass, vol 1. U.S. Department of Energy, Oak Ridge 
+30 https://greenchemicalsblog.com/2012/09/05/novozymes-expands-bio-based-activities/ 
+31 Poly(malic acid-co-L-lactide) as a superb degradation accelerator for Poly(L-lactic acid) at physiological conditions. DOI: 10.1016/j.polymdegradstab.2016.10.016 
+32 www.dsm.com/en_US/downloads/media/12e_09_dsm_and_roquette_commercialize_bio_based_succinic_acid.pdf, www.bio-amber.com/press_releases.php 
+33Paradigms in Green Chemistry and Technology, Angelo Albini,Stefano Protti, Springer 
+34 The National Non-Food Crops Centre 2013 
+35 Biodegradation behaviour of poly(lactic acid) and (lactic acid-ethyleneglycol-malonic or succinic acid) copolymers under controlled composting conditions in a laboratory test 
+system, Oana Cadar et al. Polymer Degradation and Stability 97 (2012) 354e357 
+36 Polymer, Vol. 50, 5, 23, 2009, 1178-1186, A novel biodegradable multiblock poly(ester urethane) containing poly(l-lactic acid) and poly(butylene succinate) blocks;  
+Biotechnol. J. 2010, 5, 1149–1163; G.-Q. Chen (ed.), Plastics from Bacteria: Natural Functions and Applications, Microbiology Monographs, Vol. 14 
+37 http://www.okcompost.be/data/pdf-document/okh-mate.pdf 
+38 X. Zheng, B. Wu , L. Wu, J. Hu, Z. Bu, B. -G. Li; “Poly(l -lactic acid)-block-poly(butylene succinate-co-butylene adipate) Multiblock Copolymers: From Synthesis to Thermo -
+Mechanical Properties”, Ind. Eng. Chem. Res., 2014, 53 (9), pp 3550–3558, DOI: 10.1021/ie403623f 
+
+                                                                          Part B                                                                            
+ 
+Page 17 of 105 
+ 
+of the structure of the end of life behaviour that is currently lacking in the literature and a contribution to biodegradation standards.  
+Use of biomass derivatives and blends for tailoring of biopolymers biodegradability in composting environments 
+As seen, polymer biodegradability is connected with polymer crystallinity, crosslinking and molecular weight. In addition, the 
+selection of proper additives, in particular plasticizers and fillers can significantly speed up the biodegradation of polymer based 
+materials39. Plasticizers lower the glass transition temperature of polymers and promote the rubber state that is easier to 
+biodegrade, as experienced by INSTM and OWS (terminated) on cellulose di-acetate blends plasticized with triacetin40, a GRAS 
+compound according to FDA. In PLA -based blends41 the selection of proper plasticizer type and amount allows promoting the 
+biodegradability. In or der to avoid migration of excessive plasticizers with consequent changes in mechanical properties with 
+ageing and possible contamination in case of packed items, the use of reactive plasticizers and their reaction with the polymeric 
+matrix, possibly in the extrusion step, is an interesting approach. As such, REX will be also used in the preparation of blen ds 
+besides the copolymerisation step. It has been proven by INSTM for the production of PLA based transparent films with epoxy 
+functionalised plasticizers42, recently updated by INSTM with bio -based and for food contact approved epoxydised agro -based 
+derivates plasticizers. In BIOnTOP, INSTM plans to use mainly bio -based plasticizers such as acet yl tributyl citrate and 
+functionalised (epoxy, maleic) oligomers of LA as well as epoxy derived natural oils such as soybean oil derivates. INSTM has  
+also already experienced positively the use of LA oligomers as plasticizers in PLA achieving valuable mechanical properties and 
+compostability. The effect of nucleating agents such as PDLA 43, talc, calcium carbonate or even montmorillonites 44,45,46, etc. will 
+be also studied in order to modulate the biodegradation properties, which are connected with the distr ibution of the PLA 
+amorphous and different crystalline phases. Such inorganic fillers in small amounts also improve processing avoiding sticking on 
+the mould or of blow moulded films. 
+Likewise, biocomposites using natural fibres or fillers (NF) have been r esearched intensively over the last years yielding to new 
+applications due to their processing advantages, biodegradability, low cost, low relative density, high specific strength and  
+renewable nature. Several examples of biodegradable composites are reported in literature using different types of matrixes, e.g. 
+starch based blends and PLA, and natural reinforcements such as fillers from pine, cellulose, potato pulp, rice husk 47. NF 
+considerably reduces the price of the final material since generally natural fillers are cheaper than bio-based polymeric matrices 
+such as PLA. Moreover, if proper compatibility is achieved, fillers can strengthen the material and increase the Young’s modulus, 
+or impact resistance. Besides, composites can promote biodegradability, as the presence of fillers increase the polymer surface 
+available for microbial attack especially when the fillers are based on easily degradable natural components48, such as cellulose 
+or by-products with high content in hemicellulose. The swelling and degradation of the fillers highly promote the disintegration of 
+composite materia l49. The amount of fillers loaded in a composite is limited by weak adhesion at the fibre -polymeric matrix 
+interphase, poor mechanical properties and difficulties in processing 50. Therefore, the use of compatibilizers such as maleic or 
+itaconic anhydride may allow to obtain a higher load of fillers in PLA polymeric matrix. As well as fillers pre-treatment, the amount 
+and properties of the coupling agent are also crucial for the properties of the composites51.  
+In terms of alternative routes, while the polymer blending wit h home compostable polymers like PCL or PBS is limited by low 
+properties/high costs thereof, and, as discussed earlier, the presence of even low amount of PLA can prevent meeting related 
+standards, there is also a significant amount of academic literature regarding the use of enzymes mixed in different polymers 
+showing variable results depending on the matrix. The BIOCLEAN project52 among other studies 53 concluded that none of the 
+tested enzymes showed degradation capability toward tested conventional polymers. In the case of PLA, Carbios, a French 
+company, has developed a pilot technology for embedding an enzyme in plastic at the time of production. 54 In contrast, to avoid 
+issue with the further thermal sensitivity of the enzyme that may lead to a loss of enzyme activity and therefore a slower 
+biodegradation, BIOnTOP will prefer additivation and copolymerisation routes to tune the polymer behaviour.  
+In BIOnTOP, an accurate study of polymer crystallinity will be performed as function of additives and fillers content and processing 
+ 
+39 A.Corti, et al.; “Biodegradation of Poly(vinyl alcohol) in Soil Environment: Influence of Natural Organic Fillers and Structural Parameters”, Macromol.Chem.Phys. 2002, 203, 
+1526-1531; E. Chiellini et al. “Environmentally Degradable Bio-based Polymeric Blends & Composites”Macromolecular Bioscience, 2004, 4, 218-231. 
+40 V.T. Phuong, et al.. “Cellulose Acetate Blends – Effect of Plasticizers on Properties and Biodegradability”, Journal of Renewable Materials, 2014, 2 (1), 35-41, ISSN 2164-
+6371, 2164-6325. 
+41 E. Bugnicourt, P. Cinelli, A. Lazzeri, V. Alvarez; Polyhydroxyalkanoate (PHA): Review of synthesis, characteristics, processing and potential applications in 
+packaging,Express Polymer Letters, 2014, 8(11), 791-808. 
+42 A. Lazzeri, T.V. Phuong, P. Cinelli PCT/IB2013/053302 (WO 2013164743 A1), “Copolymers based on reactive polyesters and plasticisers for the manufacture of 
+transparent, biodegradable packaging film”  
+43 L. Aliotta et al., European Polymer Journal 2017, (Effect of nucleating agents on crystallinity phases, and properties of Poly (lactic acid) (PLA) 
+44 Ray et al.., 2003. New polylactide-layered silicate nanocomposites. 2. Concurrent improvements of material properties, biodegradability and melt rheology. Polymer 44, 857–
+866. Stloukal et al. Kinetics and mechanism of the biodegradation of PLA/clay nanocomposites during thermophilic phase of composting process Waste Mngt 42 (2015) 31–40 
+45 Castiello et al., Comparative study about preparation of poly(lactide)/Organophilic montmorillonites nanocomposites through melt blending or ring opening polymerization 
+methods, J Appl Polym Sci, 2012 
+46 Scatto et al., Plasticized and nanofilled poly(lactic acid)‐based cast films: Effect of plasticizer and organoclay on processability and final properties, J. Appl. Polym. Sci. 2013 
+47 Mohanty A.K. et. al. Compos. Interf., 8 (2001) 313.; W. Surata, I G.A. Kade Suriadi, K. Arnis, “Mechanical Properties of Rice Husks Fiber ReinforcedPolyester Composites” 
+International Journal of Materials, Mechanics and Manufacturing, Vol. 2, No. 2, May 2014 
+48 M Seggiani et al.. “Development of Fibres-Reinforced Biodegradable Composites” Chemical Engineering Transaction, 2015, 43, 1813-1815. 
+49 GUIDANCE DOCUMENT INDUSTRIAL COMPOSTABILITY CLAIMS CHECKLIST, JUNE 2016, The Plastics Industry Trade Association (SPI) Bioplastics Division. PLA and 
+PHA Biodegradation in the Marine Environment, California Department of Resources Recycling and Recovery March 5, 2012 
+50 E.Chiellini, et. al. Biomacromolecules, 2001, 2, 806-811; E. Chiellini et. al., Macromolecular Bioscience, 2004, 4, 218-231. 
+51 M Seggiani et. al., Chemical Engineering Transaction, 2015, 43, 1813-1815 
+52 New Biotechnological approaches for biodegrading and promoting the environmental biotransformation of synthetic polymeric materials 
+53 http://www.ows.be/lab-consulting-services/publications/  
+54 https://carbios.fr/ 
+                                                                          Part B                                                                            
+ 
+Page 18 of 105 
+ 
+conditions55 to address the connection between polymers morphology, mechanical properties and biodegradability. The formula 
+patented42 by INSTM of flexible films based on PLA and reactive plasticizer targeting the production of films for shopping bags 
+will be optimized by REX between PLA (or the new copolymers thereof) and food contact, biodegradable, bio-based plasticizers 
+such as FA based derivatives and modified oligomers of LA or adipic acid, and acetyl tributyl citrate. To tune 
+crystallinity, a proper selection of nucleating and strengthening agents, or low molecular weight oligomers of 
+LA, will be made. For selected packaging formats such as trays , food contact approved natural cellulose 
+based fillers such as wheat milling by -products will be used to tune disintegration and lower material cost. 
+Furthermore, the NF/matrix  interface will be improved with wax coating and coupling agents such maleic 
+anhydride. The combination of NF, copolymers and suitable additives will be optimized to achieve our 
+biodegradability targets. 
+State of the art and progresses in the field of net packaging for fresh produce (F&V) 
+Nets are a widely used packaging format for fruits and vegetables. ECOBIONET project faced up the EoL treatment of plastic 
+nets if mixed with the household waste. The management of this waste causes problems to household 
+waste treatment due to their low apparent density and high strength (i.e. material is difficult to be cut 
+and the nets may get entangled  and collapse treatment machines). The main objective of the project 
+was to industrialize the process and technologies related to the fabrication of different types of 
+biodegradable compostable nets, obtained by extrusion melt spinning process (one-step process), 
+for agriculture and shellfish packaging products. ECOBIONET goal was to manufacture completely 
+biodegradable and compostable packaging nets while being both cost -competitive and technically comparable to current 
+polyolefin-based nets. For this, a new biodegradable compound was obtained, derived from the synergic combination of different 
+immiscible biodegradable polyester materials (including an important percentage of PLA) with plasticizers and compatibilizers . 
+However, ECOBIONET nets are only completely biodegradable in the conditions of a composting plant56.  
+Building on the knowledge regarding the production of industrially compostable PLA -based nets developed by AIMPLAS and 
+CMSA in ECOBIONET project, BIOnTOP will develop suitable formulation for home composting which is an asset due to 
+difficulties in collecting such light packaging, but also for countries with limited composting plants as well as for domesti c 
+valorisation as a fair share of F&V are spoiled in pack.  
+State of the art and progresses in the field of biopolymers and PLA for textile fibres and filaments.  
+The use of biopolymers in textile applications is nowadays only via extrusion and is estimated at 100 kTon per year57, which has 
+the potential to increase strongly in the coming years if broader applicability and better price with adapted polymer formula tions 
+are achieved. Mostly used (partially) bio -based polymers are often “drop -in” variants of the oil -based counterparts such as bio -
+PE, bio-PET, bio-PTT, etc. Current bio-based and biodegradable textiles consist mainly of PLA 58. TPS (thermoplastic starch) is 
+rarely used since its mechanical properties are insufficient for most textile applications. Other (partially) bio -based materials are 
+in research for textile applications as well (e.g. PHA, PBS, PEF and bio -PA). PLA is currently and will be in the near future the 
+only bio-based and biodegradable polymer resulting in high-quality products which is also available in sufficient amounts 
+and at acceptable price . However , although the feedstock is bio -based, for fully environmentally sustainable solutions, 
+improvements are still required for EoL not to be limited to high temperature and humidity composting conditions. As other 
+bottlenecks, PLA is more expensive than fossil-based textiles, PLA processibility is more sensitive (mainly due to hydrolysis) and 
+a better understanding and control of the biodegradation potential are needed.  
+PLA fibres have a number of characteristics that are similar to many other thermoplastic fibres, such as controlled crimp, smooth 
+surface and low moisture regain. The physical properties and structure have been studied by several researchers59, and suitability 
+as textile fibre is already acknowledged. Its mechanical properties are considered to be broadly similar to those of conventional 
+PET60 and, probably due to their lower melting and softening temperatures, comparisons to polypropylene are also appropriated61. 
+PLA filaments are available on an international market, but volumes are still limited. Examples of their producers include Monotex62 
+(Biolene - PLA monofilament), Teijn Fibers63 (Biofront - scPLA), Polisilk64 (Polisilk HT PLA), Diolen65 (Swicofil HT PLA). Also, PLA 
+based textiles for clothing application are being developed66.  
+PLA-based textiles are commercially available: some examples are groundcovers for weed control, textiles for crop protection, 
+ 
+55 Fehri MK et al. “Composition dependence of the synergistic effect of nucleating agent and plasticizer in poly(lactic acid): A Mixture Design study”  eXPREss Polymer Letter 
+2016; 10(4): 274-288; M.L. Di Lorenzo et al. ,Effect of thermal history on the evolution of crystal and amorphous fraction of poly[(R)-3-hydroxybutyrate] upon storage at ambient 
+temperature, Journal of Physical Chemistry B 2013, 117(40) 12303-12311, M.C. Righetti et al..The role of the crystallization temperature on the nanophase structure evolution 
+of poly[(R)-3-hydroxybutyrate],  
+56 http://www.ows.be/wp-content/uploads/2013/10/LAYMAN_ecobionet-report_vfinal.pdf  
+57 http://www.european-bioplastics.org/market/applications-sectors/ 
+58 L. Ruys,  Raf Van Olmen - New developments in agrotextiles based on the results of the FP7 project: “BIOAGROTEX” – Unitex, nr 5, p 4-7, 2012. 
+59 Drumright, R.E., Gruber, P.R. and Henton, D.E., Advanced Materials, 2000, 12 (23), 1841 
+60 Lunt, J. and Bone, J., AATCC Rev., 2001, 1 (9), 20 
+61 Palade, L.I., Lehermeier, H.J. and Dorgan, J.R., Macromolecules, 2001, 34 (5), 1384 
+62 http://monotex.ro/bio.php 
+63 https://www.teijnfiber.com/english/products/specifics/biofront.html 
+64 http://www.polisilk.com/ 
+65 http://www.swicofil.com/diolen.html 
+66 H2020 project ‘Fibfab -Industrialization Of Biobased Textile Fabrics For Clothing Applications’ , see fibfab-project.eu  
+
+                                                                          Part B                                                                            
+ 
+Page 19 of 105 
+ 
+etc. PLA-based materials are also gaining interest in textile domains like apparel and interior textiles where biodegradability is not 
+such an issue as recycling is a more valuable EoL solution. Often these products are mainly to demonstrate the feasibility of a 
+sustainable/bio-based product and they have so far no or only a very limited market share.  
+An example of a more successful introduction of a PLA bio -based textile is being realized by our project partner SIOEN who 
+applies a woven fabric from very fine PLA monofilaments (30dtex) in teabags. The main PLA disadvantage for this application 
+is however the lack of home compostability needed due to disposal with content and difficult collection.  
+PLA coatings for textiles.  Coatings are used on textile s for a number of aesthetic and functional purposes and are generally 
+based on non bio -based materials such as PU and PA. There are multiple applications in which PLA coatings could substitute 
+existing coatings. Indeed, PLA has  an excellent UV -stability and decent flame retardance (FR) properties which makes it 
+applicable for interior and exterior applications for a broad range of items. So, there are several initiatives to develop PLA coatings 
+for textiles, but so far, no suited PLA coating formulations are commercially available. One of the main reasons why PLA coatings 
+have not yet reached the market is their brittleness. This is due to the high molecular weight of commercial PLA (ca 100.000 
+g/mol) vs. what is needed (ca 10.00 0 g/mol) for coatings. As a result, the coatings need the addition of plasticizers as can for 
+example be seen on fig 3. from partner CTB. Therefore, like for compounding, developers of PLA coatings need to look into most 
+suited environmentally friendly (preferably bio -based) 
+molecules available to plasticize PLA. Plasticizers are not 
+always compatible with PLA and issues with migration of 
+the plasticizer arise. This causes not only increased 
+brittleness over time but also an unpleasant feeling of the 
+coating. Migration of the plasticizer can be limited using 
+highly compatible molecules and/or grafting them on PLA.  
+Beyond the state of the art, the development of new tailored copolymers and blends with controlled biodegradability f rom the 
+BIOnTOP project will be applied to extrude PLA filaments that will be further processed into woven fabrics. As applications, we 
+want to develop the first fully home compostable woven teabag as BIOnTOP new formulations have the potential to enhance 
+the biodegradability in mild conditions. We will also look into developing a PLA coating or alternative FA grafting strategie s 
+(discussed below) for PLA fabric to be used in a reusable food wrap that at the end of its life is recyclable or compostable. Those 
+will impart durable hydrophobicity enabling industry to replace fluorocarbons which are now currently used in hydrophobic 
+coatings but are toxic, persistent and bioaccumulative. In addition, the secondary use of the recycled PLA materials will be 
+shown by processing the recycled PLA material into nonwovens, that will be functionalised by our waterproofing coatings 
+and used in a demonstrator carrier bag.  
+State of the art and progresses in the field of bio-based oxygen and aroma barrier coatings and films 
+Protection against oxygen is a key factor for sensitive/fresh food, cosmetic and pharmaceutical products to achieve a suffici ent 
+shelf life. Otherwise colour or taste deviation, oxidation of grease, formation of micro -organisms or degrading nutrients will take 
+place. To achieve low oxygen permeability co -extruded or laminated multilayer plastic films are widely used in the packaging 
+industry whereby mineral oil derived EVOH, or PVDC, are the mostly used oxygen barrier materials. However, theses polyme rs 
+are neither biodegradable nor bio -based. Therefore, research into sustainable packaging materials that barrier maintains the 
+performance has been recently intensified. In recent European67,68 projects with participation of INSTM and IRIS, oxygen barrier 
+coatings based on whey protein have been developed. Whey continues to be a widely available and underutilized (only 40% 
+is valorised and a much lower amount would in fact allow substituting all EVOH for packaging worldwide) by-product 
+from cheese making containing around 13% protein in dry matter. The whey protein-based coatings are formulated using Whey 
+Protein Isolate (WPI) as well as bio-based plasticizers and/or reactive additives such as urea to enhance thermoformability. The 
+whey formulation is subsequently coated on a plastic substrate and dried. In this process step the protein is denatured in order to 
+form a crosslinked network. This patented step is necessary to achieve an oxygen permeability as low as 1.5 cm 3/(m2*d*bar) 
+(Q100). Finally, the coated film is laminated into the final structure and eventually additional conversion processes such as 
+thermoforming, sealing etc. can be carried out to obtain the packaging items. Application of both standard and thermoformable  
+whey coating formulations have been proven in pilot scale in roll -to-roll lacquering and lamination lines. Resulting films were 
+reported to have excellent mechanical as well as gas and UV barrier properties, beyond most existing biopolymers (fig. 3). Whey 
+coatings are thus capable of replacing synthetic oxygen -barrier layers such as EVOH in multilayer packaging. Furthermore, the 
+whey coating is both bio-based and biodegradable. On PLA, based on preliminary tests, barrier improvement factors (BIF) 6 were 
+obtained (although further ones planed here are needed to reach the full potential of the whey coating on this substrate as its 
+intrinsic barrier calculated on PET should have led to a 60 fold improvement vs. PLA). The use of such nitrogen rich material s 
+ 
+67 Wheylayer (Grant Agreement FP7- 218340-2) and Wheylayer 2 (Grant Agreement: FP7- 315743) 
+68 ThermoWhey (EraNet-ManuNet 02PN2020) 
+ 
+Fig. 3: Plasticized (left) vs. unplasticized  PLA coating on woven textile 
+
+                                                                          Part B                                                                            
+ 
+Page 20 of 105 
+ 
+protein coatings on biodegradable based films will not compromise 
+biodegradability but in fact even accelerate it69. Thus, whey protein-
+coating, which are in market introduction phase, represents a new 
+application for an agro-food industry by-product while safeguarding 
+the performance and enabling the recyclability of multilayer films 
+which are generally landfilled. Additionally, the whey protein-based 
+coatings used in multilayer laminates fulfil the requirements of 
+European Commission Regulation (EU) No 10/2011.  
+In addition, bio -based coatings can be used as aroma barrier. 
+Alginate is widely used in various industries such as food, beverage, 
+textile, printing and pharmaceutical as thickening agent, stabilizer, 
+emulsifier, chelating agent, encapsulation, swelling, suspending 
+agent or used to for m gel, film and membrane . Sodium alginate is 
+the most common salt of alginate . It is commercially available and 
+can be applied as coating to serve as aroma and oxygen barrier for 
+products with low relative humidity70. 
+State of the art on nanoscale surface modification by chemical grafting for improved hydrophobicity and to optimize 
+barrier properties 
+As seen, films which are based on protein isolates have excellent oxygen barrier properties due to their polar nature and 
+crosslinked polymer network71, however, the water vapour barrier needs to be improved in order to make this novel b io-based 
+coating suitable for many applications  sensitive as well to humidity uptake or loss ( e.g. dry pharma or food products, or wet 
+products such as wet wipes). To overcome these drawbacks, polar substrates are generally combined with hydrophobic layers, 
+such as polyethylene layers, via wet lamination (with adhesives), extrusion lamination (without  adhesives), wet and extrusion 
+coating. In the “wet” processes, water borne options are favoured for environmental reasons. Such solutions and dispersions of 
+waxes, starches or poly(vinyl alcohol)  are available. Additionally, physical (vacuum deposition) and chemical vapor deposition 
+(plasma coating) are possible on a planarization coating. It can consist in bio-ORMOCER, an organic-inorganic hybrid polymer 
+which is only partially coming from renewable resources and not providing any intrinsic barrier without inorganic coatings . 
+However, the inorganic coatings can be scratch sensitive so protected by another top coat.  
+An innovative approach will improve also the water vapour barrier properties of bio-based films and coatings by green chemical 
+grafting with FA from renewable resources (using palmitoyl chloride as benchmark and the fully bio based fatty acid anhydrides) 
+to monomolecular graft a hydrophobic layer on the protein films72,73. The modified protein films are expected to provide significantly 
+improved barrier properties towards water vapour (unpublished first results showed that water vapour BIF of 6 have been reached 
+on protein based cast film s without process and material optimization). The chemical grafting will be applied on protein based 
+films and coatings by the so -called transfer method which was developed for the surface grafting of PVOH -based films74. The 
+main attractions of this solven t free grafting process are its low cost, its use of existing industrial bio-based reagents and its 
+potential to be applied on a printing machine at high speed and high efficiency. It is also a clean chemistry process that does not 
+give rise to by-products or to polluting effluents. In addition, the FA green grafting is expected to provide easy emptying properties 
+due to significantly reduced surface energy of the grafted surfaces. These rebalance properties are comparable to emerging non 
+bio-based market available solutions such as LIQUIGLIDE™ developed by the Massachusetts Institute of Technology or Toyal 
+Lotus® developed by Toyo Aluminium K.K. or AsahiGuard E-Series developed AGC Chemicals.  
+Beyond the current state of the art, BIOnTOP will develop the no vel combination of the polar whey protein -based oxygen 
+barrier with a non-polar bio-based FA water vapour barrier coating to offer a barrier both against humidity and oxygen. 
+It is expected that grafting process optimization on tailored protein film can lead to similar BIF values as already achieved  on 
+PVOH-films (approx. BIF 20). In addition, this will provide easy emptying functionality and easy product (e.g. packed cheese) 
+release functions which are beyond the current state of the art as non -migrating alternative to existing solutions. The developed 
+formulations and processing parameters will be upscaled to obtain  flexible and thermoformable laminates tailored to the target 
+applications. Furthermore, the project will consider alginate coatings and FA -grafting as a novel route for functionalising textiles 
+respectively for aroma barrier in tea bags and for waterproofing reusable food wraps and bags. 
+State of the art in the field of packaging recycling 
+Plastic packaging sorting 
+The sorting of polymers is of vital importance since even very low amounts of cross contamination can ruin the entire batch.  
+Material recycling from mixed waste plastics is challenging and based on sophisticated process chains combining different sorting 
+ 
+69 P.Cinelli, M. Schmid, E. Bugnicourt, J. Wildner, A. Bazzichi, I.Anguillesi, A. Lazzeri; “Whey protein layer applied on biodegradable packaging film to improve barrier 
+properties while maintaining biodegradability” Polymer Degradation and Stability, 2014, 108, 151-157,  
+70 Jost et al  (2014). "Influence of plasticiser on the barrier, mechanical and grease resistance properties of alginate cast films." Carbohydrate Polymers 110: 309-319. 
+71 schmid et al. Properties of Whey-Protein-Coated Films and Laminates as Novel Recyclable Food Packaging Materials with Excellent Barrier Properties. Int Journ Polymer Sc 
+72 SAMAIN, D. 2002. Method for treating a solid material to make it hydrophobic, material obtained and uses. Google Patents. 
+73 BERLIOZ, S. 2007. Etude de l'estérification de la cellulose par une synthèse sans solvant. Application aux matériaux nanocomposites. Université Joseph-Fourier-Grenoble I. 
+74 SCHMID et al. 2012a. Fundamental investigations regarding barrier properties of grafted PVOH layers. International Journal of Polymer Science, 2012. 
+Fig. 4: Barrier properties of whey -based coating vs. 
+other plastics commonly used in food packaging 
+industry (normalized to 100 μm) 
+                                                                          Part B                                                                            
+ 
+Page 21 of 105 
+ 
+steps like screening, wind sifting, NIR sorting, electro-magnetic removal of different metals and others. Equipment to automatically 
+sort plastics are already widely commercially available (e.g. via spectroscopic identification systems, including near-infrared, X-
+ray, colour, or laser, and combinations thereof ), but currently many recyclers still sort plastics by hand. Such an approach is 
+unreliable, expensive and not suitable for all transparent packaging.  
+Nevertheless, all the used identification techniques require a pre -calibration which has to be developed for innovative materials 
+as BIOnTOP, for which the right identification approach has to be proposed both to allow its subsequent recycling but also allow 
+industry acceptance for new biopolymers  in the main stream of currently recycled materials . According to a study from 
+Natureworks contradicting the initial reluctance from PET recycling facilities, PLA c annot be considered a threat for the current 
+recycling plants as it is easily automatically sorted out from other polymers included PET based on conclusions from Titech (>97% 
+NIR accuracy, consistent with sorting efficiencies for other materials) but also Unisensor (laser efficiency on flakes>96-99%) and 
+MSS which confirmed PLA unique polymeric NIR “signature” to identify it from PET, PE, and other plastics. Furthermore, a study 
+from Tomra sorting solution conclude that automatic sorting of PHB, Starch, TPS, etc. or blends is also possible by NIR75.  
+In the case of multilayer, although plastic/plastic composite films are predominately incinerated, they sometimes end up in material 
+flows of different target fractions e.g. in case there is no automated sorting or if the outer layer of a composite is thick enough to 
+let the sorting systems identify the outer layer only. If the density of the composite material is similar to the density of the target 
+fraction, further floatation system often in place at recyclers will not work either. As such, efforts are n eeded to improve the 
+available systems for the case of multilayer recycling. That will be made more easily when using our new bio -based barrier 
+coatings, which have very specific spectroscopic signatures vs. other plastics. Indeed, in the previous Wheylaye r project, the 
+capacity to detect the protein presence by IR -TF (fig. 7)76 was shown. The FA layer is so thin that it will not need identification 
+even when applied on flexible (e.g. 20 microns) films. IRIS has experience in developing tailored fast online VIS/NIR spectroscopic 
+tools for plastic processing monitoring to lead to identify precisely their 
+composition and traces of unwanted substances 77,78. In case of multilayers, 
+results from IRIS show the capacity using HSI to distinguish colored from natural 
+HDPE and from LDPE from multilayer films including PE among its layers using 
+chemometrics analysis selecting different principal components (fig. 6). 
+ 
+Recycling of the monomaterials of interest 
+Whereas 57% of the petrochemical based PET going  to bottles or containers are recycled in to bottles or textiles mainly , and 
+polyolefins as well as mixed plastics can also be commonly found in recycled grades for downgraded applications at lower cost  
+than the virgin grades they compete with, when it comes to more speciality materials used in packaging (or even less for textiles), 
+there is generally no current industrial solution. Currently some companies dedicated to recycling of plastic materials, as ROMEI 
+in Italy, collect and commercialize post -industrial thermoforming scraps coming from packaging companies after the necessary 
+operations of grinding and eventually compounding. Such SRM were also considered in previous works for applications in the 
+automotive field in the EVOLUTION project 79. The use of recovered PLA in biodegradable blends or composites for durable 
+applications thanks to reactive processing techniques is broadly considered. 
+The recycling of monomaterial PLA via grinding of sheets and trays, washing of the scraps, drying and the processing in extrusion 
+machine to obtain pellets was also studied in PLA4FOOD and BIO4MAP projects 80. The mechanical and rheological results 
+revealed that flowability of the melt and mechanical properties of the materials produced are maintained during several processing 
+cycles and this assures the possibility to use recycled PLA in blend with virgin PLA without loss of material characteristics. In fact, 
+our SME partner ROMEI already performs such activity industrially, collecting PLA scraps from thermoforming comp anies and 
+reprocesses them to technical sheets. Due to its low depolymerization temperature and possible presence of impurity, as an 
+alternative to mechanical recycling, PLA is a good candidate for an environmentally sound chemical recycling as it can be readily 
+hydrolysed with water to form LA, which is then purified and polymerised to remake prime polymer81.  
+ 
+75 http://www.plasticseurope.org/documents/document/20120821135405-new_trends_within_polymer_sorting_to_tackle_for_tomra_sorting_solutions.pdf 
+76 "Processing and Validation of Whey -Protein-Coated Films and Laminates at Semi -Industrial Scale as Novel Recyclable Food Packaging Materials with Excellent Barrier 
+Properties"; E. Bugnicourt et al.; Advances in Materials Science and Engineering, vol. 2013, Article ID 496207, 10 pages, 2013. 
+77 OPTIJECT project (Grant Agreement no. 262623), www.optiject.eu 
+78 B2B contracts for the detection of good batches of recyclates as well as for HSI-based monitoring solution for plastic identification in recycling line 
+79 Phuong, VT et al, Compatibilization and property enhancement of poly(lactic acid)/polycarbonate blends through triacetin-mediated interchange reactions in the melt, Polymer 
+55 (2014) 4498e4513 
+80 Signori, F, Coltelli, MB,  et al., Thermal degradation of poly(lactic acid) (PLA) and poly(butylene adipate-co-terephthalate) (PBAT) and their blends upon melt processing, 
+Polymer Degradation and Stability, 94, 1, 2009, 74-82 
+81 Natural fibers, biopolymers, and biocomposites, Taylor & Francis 2005, Chapter 16, Polylactic Acid Technology, David E. Henton, Patrick Gruber, Jim Lunt, and Jed Randall 
+Fig 7: FT-IR spectra of PET, whey coating 
+and coated PET after 2 h washing  
+Fig 6: Example of chemometrics analysis on NIR HSI results on waste plastics  
+
+                                                                          Part B                                                                            
+ 
+Page 22 of 105 
+ 
+Note that modification strategies such as the FA grafting (the thickness of a C16 FA grafted layer is approx. 2,5nm which would 
+be less than 0.005% (v/v)  vs. a 50 µm multilayer film) or whey protein coating when applied on rigi d packaging, could still be 
+behave as monomaterials. They are for example excluded by “ Der Grüne Punkt – Duales System Deutschland GmbH (DSD) ” 
+which is nowadays the leading provider of take-back systems that considers packaging as monomaterials when other materials 
+are used in content below 5% (w/w). Indeed , such “traces” can be removed in the cleaning stages during reprocessing and do 
+not normally harm the property of the SRM.  
+Multilayer packaging recycling 
+PET/PE bilayer, widely used for packing fresh foo ds could only be recycled by grinding and extrusion. As PET and PE are 
+immiscible, their compatibility must be improved in order to employ them in high -value applications. This is possible by using 
+proper compatibilizers82,83,84 but the resulting cost is not industrially viable although some example of PET/PE recycling in highly 
+performant technical textile applications was achieved in previous works85 thanks to the application of proper REX techniques86,87. 
+Furthermore, it was observed that the degradation of the adhesive between the two layers, often consisting in poly(ethylene-co-
+vinyl acetate) (EVA), can result in yellowing of PET/PE blend granules 88, thus discouraging applications where a light colour is 
+required. Another example is multilayer packaging containing polyolefins and a coextruded barrier layer of EVOH that cannot be 
+separated and is incompatible with PE and PP89 during recycling. While flexible films cannot be recycled at all, only final recycled 
+products with low mechanical properties can be obtained  from such rigid multilayer packages (low EVOH ratio). All in all , for 
+multilayer packaging composites, especially flexible ones, there is no high-quality recycling established currently in Europe, and 
+most material is used for energy recovery only, which is achieved by incineration plants with an average efficiency of 35%, or 
+landfilled depending on the country, which in both cases is counteracting current efforts towards the CE90. 
+In contrast to described direct reprocessing, there are several other approaches to achieve recycling of multilayer films. On e of 
+them is the solvent based CreaSolv® technology91. Specific solvents dissolve one polymer type out of the composite. A multi -
+step procedure separates other components of the multilayer and recovers the polymer in high purity by removal and recirculation 
+of the solvent. Such approach is still in its industrial implementation phase. Another approach addresses the removal/dissolution 
+of the adhesive layers of multilayer packaging. This results in separation of the components of a multilayered polymer composite 
+but requires a subse quent separation of the segregated films by density, NIR or electrostatic. The technology is provided in 
+technical scale by the German company Saperatec GmbH 92 and uses a micro emulsion to separate composite films. However, 
+the application of this concept is not yet universal, as many different adhesives are used in the multilayer market. Likewise, the 
+use of removable barrier layers in multilayer structures is an emerging approach to significantly contribute to increasing 
+the recycling potential for this post-consumer waste (fig. 8)93.This has already been extensively proven at TRL 4 for the whey 
+protein coating, whereby the washing stage of the recycling process needs to be tuned to allow the hydrolysis of the whey coating 
+using enzymes or a temperature of  30-40ºC depending on the needed process speed. This recycling approach for multilayer 
+materials is specific to our bio-based barrier coatings but requires very little changes and investment in the recycling lines which 
+can use their own sorting capabiliti es (when existing, 
+they will only need to be tuned with the right 
+chemometrics package to detect the new materials), 
+shredders, washing baths, and optionally a density 
+separation unit (e.g. in case of multimaterial structures 
+used with the whey coating suc h as PET/barrier/PE)  
+before each material can be reprocessed independently 
+in usual compounding steps. In fact, in recent years 
+other companies have been attempting to use this 
+capacity to remove PVOH to claim recyclability 94. 
+Nevertheless, PVOH is not bio -based so it doesn’t 
+compete directly with our project but the acceptance of 
+such new recycling approach by the recyclers could in 
+fact be synergistic with our proposed process. 
+ 
+82 Coltelli, M.B.; della Maggiore, I.; Savi, S.; Aglietto, M.; Ciardelli, F. Modified styrene-butadiene-styrene block copolymer as compatibiliser precursor in 
+polyethylene/poly(ethylene terephthalate) blends. Polym. Degrad. Stab. 2005, 90, 211–223 
+83 Aglietto et al. Postconsumer polyethylene terephthalate (PET)/polyolefin blends through reactive processing. J. Mater. Cycles Waste Manag. 2004, 6, 13–19 
+84 Yousfi, M.; Soulestin, J.; Vergnes, B.; Lacrampe, M.F.; Krawczak, P. Morphology and Mechanical Properties of PET/PE Blends Compatibilized by Nanoclays: Effect of 
+Thermal Stability of Nanofiller Organic Modifier. J. Appl. Polym. Sci. 2013, 128, 2766–2778 
+85 De Schrijver et al., Supertex-sustainable technical textile from recycled polyester, Chemical Fibers International, 1/2014, 44-46 
+86 Raffa, P., Coltelli, MB,  et al., Chain extension and branching of poly(ethylene terephthalate) (PET) with di- and multifunctional epoxy or isocyanate additives: An 
+experimental and modelling study, Reactive & Functional Polymers 72 (2012) 50–60 
+87 Raffa P., Coltelli MB, et al., Expanding the Application Field of Post-Consumer Poly(ethylene terephthalate) Through Structural Modification by Reactive Blending, J. Appl. 
+Polym. Sci. 2014, 131, 40881. 
+88 Bartoli et al. Conversion of post-industrial PET-PE scraps into compatibilized plastic blends for new applications. AIP Conf. Proc. 2012, 1459, 160 
+89 Wang, Q.; Qi, R.; Shen, Y.; Liu, Q.; Zhou, C. Effect of high-density polyethylene-g-maleic anhydride on the morphology and properties of (high-density 
+polyethylene)/(ethylene–vinyl alcohol) copolymer alloys. J. Appl. Polym. Sci. 2007, 106, 3220–3226 
+90 BUND Wege zu einer nachhaltigen Abfallwirtschaft; 2010. 
+91 Mäurer, A. et al. (2004): Good as new. Recycling plastics from WEEE and packaging wastes. Waste management world Vol 4, May/June, pp. 33-43.  
+92 9.AG, S. http://www.saperatec.de/technology/#technologie_top (accessed 19.07.2018). 
+93 P Cinelli et al., Recyclability of PET/WPI/PE Multilayer Films by Removal of Whey Protein Isolate-Based Coatings with Enzymatic Detergents, Materials 9(6):473, June 2016 
+94 http://www.g-polymer.com/eng/gasubariasei/ 
+Fig. 8: Illustration of the enzymatic removal that allows layers 
+combined with whey coating in multilayer packaging to be recyclable 
+                                                                          Part B                                                                            
+ 
+Page 23 of 105 
+ 
+Furthermore, when applying the whey coating on bioplastic substrates (based on  either cellophane or PLA), fully compostable 
+solutions with improved barrier properties were obtained 95. As such our multilayer structures containing a whey protein -based 
+intermediate layer will benefit from improved both improved material recyclability w hen combined with standard substrates and 
+organic recyclability when combined with biodegradable substrates.  
+Coated textile recycling 
+Many textile materials are treated with a coating or finishing for improving material functionality. These coated textiles currently 
+cannot be recycled because the coating layer is difficult to impossible to separate from the textile substrate material, es pecially 
+as the coating layer is typically cured and therefore not reprocessable. Some possible routes are mentioned in literature such as 
+coatings that debond upon a trigger96 or previously mentioned Creasolv® chemical recycling based on selective extraction. These 
+solutions are however complex, require specific sorting and handling and are thus currently not yet economically feasible. A mono-
+material solution (textile and coating from same polymer class) could therefore be a valuable alternative.   
+BIOnTOP will demonstrate the capacity for recycling all materials under study where such EoL is relevant . To tackle the 
+different challenges related with sorting of new materials , we will optimize the hardware , combining several spectroscopic 
+technologies (possibly NIR and visible HSI), software thanks to advanced chemometrics analysis and possibly data fusion. The 
+reprocessing of BIOnTOP monomaterials (or those with a very thin FA grafting) will be optimised. In addition, the use of a new 
+PLA based coating on top of a PLA textile will allow the recycling of the coating textile material as a whole, without the need of a 
+preceding separating step. Where needed for multilayer packaging, the removal of the whey protein coating will be adjusted to  
+BIOnTOP substrates and overall recycling process upscaled in a pilot scale at ROMEI.  
+State of the art in the biodegradation modelling 
+As previously seen, polymer biodegradation is a poorly controlled and understood mechanism  influenced by the crystallinity, 
+crosslinking, molecular weight, additives, but also by the environment (moisture, temperature, pH, microbial activity…). Whil e 
+different models, such as BIOWIN, BESS, METABOL, etc. exist for the prediction of the biodegrada tion of organic compounds 
+(chemicals), no model is available for the prediction of the biodegradation of polymers.  
+Due to the underlying complexity and number of influencing variables, it seems unrealistic to envisage a mechanistic model that 
+would properly describe the actual behaviour of new bioplastic item in real life conditions. In contrast, data driven approaches can 
+cope with such challenges. Data representing biodegradation profiles both in industrial and home composting conditions can be 
+modelled by benchmarking different machine learning algorithms which use a fitness function as objective output to optimize the 
+biodegradation curve, accounting for the effects of the known parameters influenc ing the disintegration and biodegradation. 
+Therefore, at least two fitness functions can be considered: the first in terms of decomposition time and % decomposition achieved 
+(absolute and/or relative to cellulose); and the second in terms of the time to reach a target decomposition, which is one of  the 
+final quality criteria of the applicable standards. Similar metrics can also be devised for the disintegration process. Two initial  
+definitions of fitness functions for biodegradation are as follows: 
+𝐹𝑖𝑡𝑛𝑒𝑠𝑠1 = ((1 −
+𝑇𝑝
+𝑇𝑚𝑎𝑥 ) ×  𝛼) + ((
+𝑃𝑝
+𝑃𝑚𝑎𝑥) ×  𝛽 )   (1)                   -                   
+Fitness2 = 1 −
+𝑇𝑜
+𝑇𝑚𝑎𝑥 , 𝑤ℎ𝑒𝑟𝑒 𝑃𝑜 = 0.90                     (2) 
+where 𝑇𝑝 is the time to reach the plateau, 𝑇𝑜 is the time to reach 
+90% bio -degradation (set standard requirement),  𝑇𝑚𝑎𝑥 is the 
+maximum time of the standard test , 𝑃𝑝 is the percentage 
+biodegradation when reaches plateau, 𝑃𝑚𝑎𝑥 is the maximum 
+percentage of biodegradation achievable by any method, and 𝛼, 𝛽 
+are two user defined weights. In Fig. 9, two example characteristic 
+bio-degradation curves are shown with their corresponding values 
+for 𝑇𝑝, 𝑇𝑚𝑎𝑥, 𝑃𝑝, 𝑃𝑚𝑎𝑥 and 𝑃𝑜 (where relevant). The number 
+of experiments can be reduced by, for example, employing appropriate statistical techniques such as the Cholesky 
+decomposition97, to generate simulated data to cover a wider distribution range for key variables. Also, a “calib ration” approach 
+can be considered, using a Monte Carlo98 method to generate candidate inputs (the parameter settings, e.g. composition) which 
+give the result which is closest to the desired output (i.e., the optimum values for biodegradation in given condition). Data modelling 
+algorithms will be used such as SVR (Support Vector Regression)  and RI (Rule Induction): the SVR is a black -box technique 
+adequate for numerical data, whereas RI generates a model as explicative rules which can also be used for data interpretation. 
+"Deterministic" controllable test parameters and properties (crystallinity, crosslinking...) and the less controllable enviro nment 
+characteristics (exact compost composition in organic recycling or moisture, temperature, microbial activity in home composter) 
+can be differentiated. The latter may be considered as having a "stochastic" aspect (that is, some random/chance element which 
+cannot be defined in predefined rules). This supports the use of machine learning algorithms which can cope with a certain amount 
+ 
+95 Patrizia Cinelli, Markus Schmid, Elodie Bugnicourt, Jessica Wildner, Agostino Bazzichi, Irene Anuillesi, Andrea Lazzeri, Whey protein layer applied on biodegradable 
+packaging film to improve barrier properties while maintaining biodegradability, Polymer Degradation and Stability. 07/2014 
+96 Patents EP2519596 (B1), EP2519565 (A1), EP2265681 (A2), EP1814935 (B1), EP1611217 (B1), WO2013/189956A1 
+97 Press et al. Cholesky Decomposition: The Art of Scientific Computing, 2nd ed. Cambridge, England: Cambridge University Press, pp. 89-91, 1992. 
+98 N. Metropolis et al., Equation of State Calculations by Fast Computing Machines, The Journal of Chemical Physics, 21, Vol. 6, pp. 1087-1092 
+Fig. 9: Example of bio-degradation Fitness curves  
+
+                                                                          Part B                                                                            
+ 
+Page 24 of 105 
+ 
+of noise and stochastic behaviour. A CBR (Case Based Reasoning) approach can also be adopted in which successful 
+configurations (i.e. environmental parameters and compositions) are stored in a historical database. CBR has been successfully 
+used for relevant bio-industrial applications such as fermentation.99. 
+Beyond the state of the art lacking any model for polymer biodegradation, based on the results of the biodegradation testing 
+performed in different conditions along the formulation development during the first BIOnTOP project midterm, data driven 
+modelling that will account for parameters of composition, process, environmental  use, thickness, etc. will be 
+performed. Machine learning algorithms, able to process complex datasets combining deterministic and stochastic behaviours, 
+will be used to model both biodegradation and disintegration. The resulting predictive models will be a support tool to eco-design 
+packaging that biodegrade according to the target EoL and standard (thickness, composition, etc.). They could also be relevan t 
+for the waste management plants to predict if compostability will be met for given packaging streams  using the data from the 
+previously discussed composition monitoring system used for sorting. 
+Innovation potential  
+While bioplastics100 currently only represent about 1% of the about 300 million tonnes of plastic produced annually, experts predict 
+a fourfold increase in production capacity within the next years 101. According to EUBP data, in 2016 the split between bio -
+based/non-biodegradable and biodegradable (both bio-based, such as PLA, or fossil-based, such as PBAT) was 76.8% vs. 23.2% 
+respectively with a predicted decline for the latter category.  The EU currently has a very low presence in the overall bioplastics 
+manufacturing industry and most of expected novel production sites will be established outside Europe as well. It is anticipated 
+that the current European share (15%) in production capacity will decrease 101. Nevertheless, countries like Germany and Italy 
+have a very good position in the smaller segment of bio -based biodegradable packaging. It is therefore very important to equip 
+Europe with differentiating bioplastic innovations and validate in sectors of high relevance in the EU economy. 
+Bio-based packaging 
+Europe is one of the largest consumers of plastics in the world and around 40% of the material processed is used in packaging102. 
+The food packaging industry is showing an increased interest in the development of new bio-based materials to ensure 
+that the food contained is safe and healthy and have an optimal conservation. Big brand owners have introduced bioplastic 
+packaging, including Danone (Actimel, Activia, Volvic), Coca-Cola (PlantBottle), PepsiCo, Heinz, Tetra Pak and L’Occitane. But 
+currently there is no market available cost-effective home compostable polymer with high bio-content that also complies with the 
+requirements of sensitive products packaging. In 2014, 67.5% of produced biopolymers were used for packaging. The majority of 
+the current bioplastic -packaging (86% according to EUBP data) consist s of bio-based but non -biodegradable plastics such as 
+bio-based PE and bio-based PET. However, there are undoubtedly applications where this feature is desirable (e.g. when food 
+leftovers or material structure make material recycling non -feasible, or when collection is not properly handled). In terms of 
+biodegradable plastic packaging, food packaging controlled more than 70% of the global market which is growing at over 18% 
+CAGR globally from 2013 to 2019 to reach a value of $8,415.20 million103.  
+Mono and multilayer Films and trays. The market driver for growth are new packaging material developments with improved 
+properties, greater availability and lower price, increasing awareness of environmental issues, and the adoption of new regulatory 
+requirements. While being biodegradable, i n keeping with the waste management hierarchy, our solutions would still allow 
+material recycling in the cases where such end of life option would be preferable. Using barrier materials, BIOnTOP also supports 
+one of the general trends in packaging which is the decrease of packaging weight  (thickness) to reduce the environmental 
+impact due to resources efficiency and energy savings in transport. How this trend acts against easy material handling during  
+recycling and further justifies the need for organic rec ycling as preferred EoL. Furthermore, such higher barrier packaging 
+solutions can extend food shelf-life and maintain the initial food nutritional for longer, serving consumer interest in healthy food. 
+This is especially relevant for the target group of or ganic food producers (such as WEAREBIO) who are very limited in terms of 
+use of conservatives therefore request selected bio-sourced packaging, consistent with their products, to be ensure even better 
+food conservation without requiring additives.  
+While the 2010 annual EU consumption was 10 billion pieces of multiuse bags, in the recent years, the case of shopping bags 
+has widely evolved with the banning of single use fossil based non -biodegradable options in most EU countries. Complying 
+94/62/EC Directive on packaging and packaging waste and its amendment 720/2015, our innovative materials will tackle both the 
+needs for bags used as recyclable secondary packaging used in multiple sectors, where thicker films, made out of SRM, will be 
+blown extruded but also thinner films made of virgin BIOnTOP compounds compatible with primary F&V packaging. Indeed, the 
+challenge of ultralightweight bags used to pack F&V still remains and it is estimated that over 10% actually leaks in the 
+environment at EoL due to difficul ties in their collection justifying the need for local home composting where possible (current 
+materials meeting such target have too high cost or poor properties). 
+Textile primary and secondary packaging. A number of textiles are used in the packaging sector, such as nets, sachets, pads, 
+etc. Mainly due to consumers’ preferences in terms of convenience, as opposed to tea in bulk, individual serve tea  bag is the 
+ 
+99 Montague, G., Martin, E., O'Malley, C. (2008) Forecasting for fermentation operational decision making, Biotechnol Prog. 2008 Sep-Oct;24(5):1033-41 
+100  including polymers that are bio-based, biodegradable or both, Entwicklung des Verpackungsverbrauchs nach Branchen. Gesellschaft für Verpackungsmarktforschung, 
+2010, Mainz, 3rd Edition. 
+101 Bioplastics- Facts and Figures, European Bioplastics, 2015, Berlin 
+102 Plastics- The Facts 2015, PlasticsEurope, 2015, Brussels Belgium 
+103 “Biodegradable Packaging Market by Packaging Type, Applications, and Geography– Global Trends & Forecast to 2019, RnRMarketResearch.com  
+                                                                          Part B                                                                            
+ 
+Page 25 of 105 
+ 
+leading format in the EU hot tea market. Tea bags were traditionally made of cellulosic non wovens with PE bags as secondary 
+packaging. Nevertheless, improved materials based e.g. on PET are also used in new formats like pyramids. These pyramid bags 
+are still limited in absolute numbers, e.g. €13million in Germany compared to standard bags (>€550million) 104. However, whereas 
+the revenue from standard bags is decreasing, the pyramid tea bag revenue increased by more than 20% from 2015 to 2016. 
+Project partner SIOEN already supplies woven tea (pyramid) bags from PET and is also offering a biobased alternative from PLA. 
+However, as already mentioned,  that one is  not yet home compostable . To drive the application of (the slightly more 
+expensive) PLA tea bags, biodegradation is key . Further, following the trend for minimizing packaging , by our home 
+compostable tea bags we will remove the need for secondary packaging, that way creating a unique truly sustainable solution.  
+Another driver for packaging innovation is the need for more reusable options. BIOnTOP will 
+contribute to this via a textile based reusable food wrap  (application relevant to AB member 
+RollEat, see figure on the right) which are emerging solutions consumers can tap upon as primary 
+carrier for dry food. The global market for food wrap films was valued at US$ 10,038.6 million 
+in 2017105. The increased demand for on-the-go food across the globe is the key driver for the global 
+food wrap films market. The market is forecast to expand at a CAGR of 2.1% during the forecast 
+period, 2018-2026. Currently, market is dominated by aluminium and plastic wraps, together >80% of market. But, the market is 
+under pressure because of environmental concerns associated with the harmful effects of conventional plastic materials 
+which are not biodegradable. Moreover, the main materials used nowadays pose potential health threats105: (i) the toxic effect 
+associated with plasticizers in PVC  based food wrap fil ms is hazardous for an individual; (ii) LDPE based food wrap films 
+may contain harmful chemicals such as diethylhexyl adipate (DEHA); (iii) the direct contact of food with aluminium-based 
+food wrap films might cause dementia and other adverse effects on the consumer health.  
+Furthermore, BIONTOP will also evaluate the use of SRM from our primary packaging applications into reusable carrier bags 
+among other textiles use. Indeed, food contact is limited by the regulatory framework when working with recycled materials 
+hindering similar applications as for prime material.  
+Besides assisting Europe in the transition towards a green economy in economically extremely important sectors in EU like food 
+and personal care packaging, our innovative new materials will also be enablers for innovation in other sectors such as packaging 
+for other goods which leftover at end of life prevent efficient recycling, o ther agricultural devices, disposable biomedical , non-
+packaging textiles and sanitary applications among others.  
+Overall benchmarking and IP position 
+While PLA is currently the most affordable bio -based and biodegradable polymer, the key BIOnTOP innovation potential arises 
+from improving PLA (or its monomers/prepolymers derived copolymers) formulations to match modular controlled 
+biodegradability requirements under mild conditions as well as from the combination with novel coatings (PLA, whey 
+and FA-based). At the same time, price level reduction can be aimed at, by the introduction of low-cost & low density NF vs. 
+PLA while comonomers are iso cost vs. LA. This can help to bridge the current gap for further uptake in the considered packaging 
+market where the economic aspects are extremely important. Likewise, the EoL issue (further discussed in section 2) is of extreme 
+significance due to the volume gener ate by those single use items. In addition to be almost solely based on renewable  
+resources (>85% based on renewable resources, partly produced from by-product biomass), the waste management scenarios 
+of our new materials will also be improved, contributing from both ends to a future EU circular bioeconomy. In addition, this will 
+on the long -term lead to a significantly reduced landfill (from currently not recyclable packaging) or incineration and 
+environmental burden from plastic derived products (reduced carbon footprint and environment pollution by microplastics). 
+Table 5 shows how we expect  BIOnTOP results to comply with the industry & consumer needs comparing expected cost 
+and performance vs. fossil-based non-biodegradable benchmarks (set at 100% for normalisation when no absolute value is 
+available) and emerging bio-based/biodegradable counterparts based on set project KPIs from section 1.1. 
+Table 5: Benchmarking of our planned innovations vs. other commercial solutions  
+Demo 
+materials 
+Compared 
+properties 
+Standard (fossil) solution Emerging bioplastic solution BIOnTOP solution 
+Monolayer 
+tray &          
+films          
+(F&V) 
+Bio-content 0% (e.g. PP tray and PE lid) Close to 100% (PLA) Close to 100% 
+EoL Limited recycling for rigid ones, 
+landfilling when polluted 
+Industrial composting Domestic and industrial composting, 
+recycling for trays 
+Approx. price /pack 100% 200% 140% 
+Nets (F&V) Bio-content 0% (e.g. PE) Close to 100% (PLA solution 
+developed at TRL6 in EcoBioNet) 
+Close to 100% 
+Tensile properties Resistance:19 MPa 
+Elongation: 680 % with standard 
+material (PE) 
+Resistance:20 MPa; Elongation: 400 
+% with materials developed in 
+ECOBIONET  
+100% /Maintaining the mechanical properties   
+EoL Landfilling Industrial composting Domestic and industrial composting 
+Approx. price /pack 100% 200% 130%102 
+Multilayer tray 
+& film (dairy, 
+personal care)  
+Bio-content 0% (e.g. EVOH based multilayer 
+structures) 
+ 
+Non available yet >95% 
+ 
+104 https://www.mordorintelligence.com:81/images_db/RD_Images/Germany%20Tea%20Revenue%20By%20Packaging%20Type.png  
+105 https://www.transparencymarketresearch.com/food-wrap-film-market.html  
+
+                                                                          Part B                                                                            
+ 
+Page 26 of 105 
+ 
+Food protection 100% - >100% (as UV -barrier is included in the 
+protein coating) 
+EoL Incineration or landfilling - Domestic and industrial composting, 
+recycling for trays 
+Approx. price /pack 100% - 100% (as very material efficient water vapour 
+barrier due to the nano-scale grafting). 
+Textiles tea 
+bags  
+Bio-content 0% (e.g. PET, PP) Close to 100% (PLA) Close to 100% 
+Performance Perfect by melt spinning  Limitations due to sensitivity to 
+humidity and limited mechanical 
+performance - Loss of odours and 
+flavours during shelf life 
+Improved processability with new raw 
+materials, preservation of flavours and 
+odours thanks to water soluble coating.  
+EoL Landfilling/ when polluted difficult to 
+collect 
+Limited industrial composting due to 
+contamination, no home composting 
+Domestic and industrial composting 
+Approx. price /pack 100% 200% 90 – 120 % 
+Reusable 
+textile food 
+wrap 
+  
+Bio-content 0% (e.g . recycled PET  with EVA 
+lining).  
+Close to 100% (cotton based) 100% (PLA based with bio-based coating) 
+Processabilty Good Good, but cotton production has big 
+environmental impact 
+Good thanks to the use of optimised PLA 
+compounds and bio-based coatings 
+EoL Incineration or landfilling Compostable  Home compostable 
+Approx. price /pack 100% 150% 120% 
+Secondary 
+packaging 
+(textile bags) 
+ 
+ 
+ 
+Bio-content 0% (e.g. PE, PP) Close to 100% (cotton based) 100% (PLA based with PLA coating) 
+Processabilty Perfect (e.g. by staple fibre 
+spinning & nonwoven production) 
+Good, but cotton production has big 
+environmental impact 
+Good thanks to the use of optimised PLA 
+compounds and bio-based coatings. 
+EoL Incineration or landfilling Compostable Material & organic recycling 
+Approx. price /pack 100% 150% 150% 
+ 
+ 
+Secondary 
+packaging 
+(extruded 
+blown bags) 
+Bio-content 0%- PE 0% (but from r-PE) 100% 
+Mechanical 
+properties 
+Tensile strength >25Mpa 
+Elongation per break >400% 
+Youngs modulus >350MPa 
+Energy per break >4000KJ/m2 
+50-80% vs. virgin Same as SRM from PE 
+EoL Landfilling, mechanical recycling 
+(only for thick films e.g. 50 microns) 
+Landfilling, mechanical recycling 
+(only for thick films e.g. 50 microns) 
+Composting, mechanical recycling (only for 
+thick films e.g. 50 microns) 
+Approx. price /pack 2€/kg 1,75€/kg- partially recycled content 2,80€/kg- partial recycled content 
+ 
+To maximise our innovation’s commercial potential, beyond the definition of the new value chains and outreach activities, a 
+comprehensive series of measures including consumer perception, standardisation and regulatory aspects, as well as business 
+planning and knowledge /IPR management will be undertaken. The knowledge and IPs generated by the project will be exploited 
+by partner companies, in order to improve their competitiveness, differentiating their products in the market, thereby tapping into 
+increasing market and consumer demand for environmentally friendly packaging and textiles with high performance compared to 
+traditional petroleum-derived counterparts and improved EoL options. The expected derived growth potential in terms of jobs and 
+revenues are discussed in section 2 along the supply and value chain. 
+Freedom to operate was already given a major insight as it is vital for the commercial exploitation of the results, and a pat ent 
+search has been performed around each of the technologies on which our target materials are based by the respective technology 
+holders and experts (further reflected in the state of the art). The prior art is rich for all target applications in the project, and while 
+certain areas are covered by patents which will be taken into account in the project development and the consortium holds several 
+of the required patents that will be used as a basis for the planned advances in the project (see background table 13 in sect ion 
+2), there is space for further innovating beyond the state of the art. Whenever possible, the project will consider not only developing 
+confidential know -how but also results that could be protected by patents after deepening the IP search made in proposal 
+preparation and ascertaining the business opportunity following a methodology further explained in WP7 and sect ion 2. In 
+particular, we expect to derive IP from the specific compositions that meet our EoL target (which will act as enabler for all derived 
+products) and to copyright the biodegradation models (although the patentability of the derived eco -design tool will also be 
+considered). In terms of relevant patents in our main innovation areas, we have reflected some in the following table, which 
+differences with BIOnTOP are also highlighted (when relevant they will be further monitored along our technology watch activities 
+to see the evolution of their approval and enforcement status): 
+Table 6: Results of the patent search focused on the main innovation area of the novel IP considered to be generated in BIOnTOP 
+Patent (reference, title, status) Relevance to BIOnTOP Conclusion in terms of impact on the project 
+US 611033A, PCT/IE1997000031 
+Acidic polylactic polymers, 
+withdrawn in EU 
+Biodegradable polyesters from lactic acid and other 
+hydroxyacids or acids 
+Although this patent is withdrawn and therefore does not affect our 
+freedom to operate (FTO), we will consider different diacids when 
+possible to maximise our copolymer novelty and combine it with 
+other approaches not contemplated in this patent  
+KR20040063236A, Process for 
+producing biodegradable 
+polylactic acid by direct bulk 
+polycondensation, published 
+Process for producing a high Mws PLA, excellent in 
+biodegradability, tensile property, by bulk-
+polycondensation of an organic divalent carboxylic 
+acid selected from a SA, an adipic acid, or a mixture 
+thereof, and a diol. 
+Different comonomers will be applied but in the case of SA our 
+FTO is not affected because this patent is only filled in Korea. 
+BIOnTOP’s novelty will be ensured also by synthesis strategies 
+(REX)  
+CN102786672B, Preparation 
+method of polylactic acid 
+segmented copolymer, published, 
+only filled in China 
+SA and butanediol react to obtain poly(butylene 
+succinate) in a molten condition; and poly(butylene 
+succinate) and lactide react to obtain the PLA 
+segmented copolymer.   
+BIOnTOP will apply direct polycondensation and reactive extrusion 
+(REX) approaches 
+JPH0753685A, Polylactic acid Biodegradable copolymer of lactic acid, dicarboxylic This patent does not affect our FTO, nor our novelty because a 
+
+                                                                          Part B                                                                            
+ 
+Page 27 of 105 
+ 
+copolymer, published, not 
+renewed  
+acid (succinic acid), glycol (ethylene glycol) and/or 
+alpha-oxyacid and/or a cyclic lactone 
+different copolymerization approach is applied involving other 
+comonomers (an additional alpha-oxyacid and/or a cyclic lactone), 
+catalysts and conditions to obtain a low melting copolymer. 
+US6342268B1, Method for 
+treating a solid material to make it 
+hydrophobic, material obtained 
+and uses 
+A solid material is treated, the chemical structure of 
+which defines reactive protogenic hydrophillic 
+functions accessible to gases, applying a gas stream 
+onto a microdispersion of at least 1 grafting reagent. 
+BIOnTOP will partially use the described process which was filled 
+in 1997. Thus, the term of the patent expired already and therefore 
+will not affect our FTO.  
+JPH10101911, Emulsification-
+evaporation technique for PLA 
+coating; only granted in Japan  
+This patent (among other related but none leading to 
+commercial products) describes a possible method 
+for coating PLA. 
+BIONTOP will develop both improved PLA copolymers and 
+formulations with plasticizers allowing the application of a PLA 
+coating on top of a PLA textile but use a totally different technology. 
+ 
+2. Impact

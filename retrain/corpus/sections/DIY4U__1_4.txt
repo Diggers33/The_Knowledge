@@ -1,0 +1,143 @@
+1.4 Ambition  
+DIY4U will bring to bear a truly “Disruptive Business Model” that the FMCG companies fear and want 
+at the same time. It requires digital developments that ultimately enable materials supply to be more 
+distributed than today and in a more open innovati on format that allows consumers to design and 
+customise their own products. This will deliver an unprecedented scale of “designed for me” and 
+“Sustainability” in the FMCG sector, with less waste/transport/CO2 emission and improved efficiency. 
+DIY4U digital  platform combined with its fablab services will be the first integrated digital 
+infrastructure available for non -FMCP experts or consumers to design and manufacture their own 
+particulate/liquid FMCG based on their individual preferences. The nearest current stateof-the-art to our 
+DIY4U approach are Function of Beauty that  has built a software platform to determine precise formulas 
+for both shampoo and conditioner for every customer and Proven that uses data from the world’s largest 
+beauty database and machine learning algorithms to personalize skincare products. Also, paint 
+customization services are offered by manufacturers (e.g. AkzoNobel), supply chain stakeholders (e.g. 
+Riolett Custom Aerosols) and retailers (e.g. B&Q, Halfords). DIY4U surpasses the paint and the beauty 
+customization approaches for the following reasons:  
+● Paint customisation services are only really to customise colour and it is not possible to request 
+other features such as a custom sheen (gloss) level. Moreover, paint customization services only 
+apply to a limited product range (essentially broad wall emulsions). DIY4U will provide 
+unrivalled customization/personalization for a wider range of soft matter FMCG.  
+● DIY4U provides open source tools (via its digital platform) that allow anyone without FMCG 
+formulation expertise to digitally design and test the performance of personalised/customized 
+formulations. Paint and beauty formulation k nowledge is currently locked in proprietary 
+manufacturers’ formulation modelling capabilities or databases that are not necessarily suited 
+for use by non -experts or consumers. DIY4U will provide a user -friendly digital knowledge 
+management open access resource that displays relevant formulation ingredient information and 
+ensures compatibility of modelling and simulation with different process information systems, 
+enabling anyone to formulate new safe and environmentally benign products.  
+● The DIY4U platform capability that allows manufacturers to plug -in their models (e.g. soft 
+matter, process, LCA/LCCA) for consumers, DIYers and SMEs to use for creating bespoke 
+formulations is a key differentiator of DIY4U. Formulation computational modelling including 
+a series of numerical methods will forecast how the formulation will perform in the consumer 
+home, reducing the testing procedures and avoiding a bad experience to the consumer. 
+Formulation process digital twin will virtually create products, mimicking the real  equipment 
+performance. The digital twin will take advantage of CFD tools to digitally analyse and optimize 
+the formulation processes.  
+● DIY4U’s big data analytics/AI capability would allow for real -time tracking and innovation 
+respond to trends in consumer habits and associated stress/strain on upstream supply chain.  
+● Fablabs will be designed such that it can be operated in home, in shop or in small factories by 
+anyone, unlike specialist machines used for paint customisation by trained technicians. 
+Furthermore, the connectivity between DIY4U digital platform and fablabs will e nsure real-
+time analysis of consumers’ demands and facilitate rapid production of particulate/liquid FMCG 
+tailored to meet changing consumers’ needs. This will create business opportunities for new 
+actors, especially SMEs, in the FMCG sector.  
+Data Analytics Innovation Character: The main innovation of the data analytics module is the strong 
+consideration of the human factors such as perception, culture, ontology, semantics and cognitive 
+aspects. The DIY4U project will take into account all these complex pa rameters to define a “systemic 
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    29  
+  
+design”8. Moreover, a smart mix of algorithms and methods will be proposed while keeping the 
+application fast and effective. The developed human-centred application will understand the needs, have 
+the capacity to analyse and extract valuable information from any kind of data (image, text, video, 
+process, thinking and audio …) and support the change of demands in order to ensure sustainability and 
+scalability of the DIY4U project.   
+Modelling and Simulation Innovation Character : DIY4U will deliver innovation of DIY design by 
+implementing the predictive simulation techniques (feed forward) based on multivariate analysis to 
+predict flow, structural and thermal features, and the behaviour of ingredients in the formulation process 
+at each process step. Currently, process systems in formulation fail to generate real -time data sets that 
+enable predictive design, i.e current process optimisation models are not fit for on-demand customization 
+(feedback optimisation only). DIY4U will use Finite Element Analysis (FEA) and Computational Fluid 
+Dynamics (CFD) to provide structural, thermal and fluid analysis of the formulation supported by a 
+digital reproduction of the physical process to optimise cost and environmental performance, taking 
+customer preferences and behaviour change into account. The fablab digital twin (a key innovation 
+feature of DIY4U) will make use of the fablab prototype equipment to ensure the virtual twin is correctly 
+validated with the actual equipment. The developed DIY4 U open source LCA/LCCA modelling 
+capability could be used with any soft matter FMCG to help consumers and SMEs make informed  
+  
+choice based on environmental performance. This is a new innovation to the market that is hoped to 
+positively influence human b ehaviour before committing to the manufacture of goods, by increasing 
+awareness of a product’s sustainability performance, which may drive a change in consumer purchasing 
+habits.  
+Blockchain Innovation Character:  DIY4U will be the first publicly demonstrab le application of 
+blockchain within the formulation/FMCG manufacturing industry and value chain. According to 
+Venture capitalist William Mougayar, blockchain is “the second significant overlay on the internet, just 
+as the web was the first layer back in 1990”. Within the DIY4U platform, blockchain will enable 
+managed access to valuable assets, such as intellectual property, new FMCG formulation inn ovations 
+and payments, without the need for intermediaries such as IP Attorneys/Lawyers. Blockchain/DLT 
+provides an irreversible, secure and time -stamped record, enabling the DIY4U platform to be used for 
+managing access to data and IP provided by multiple  parties in a granular fashion. It can also provide 
+evidence of use of company or individual IP (e.g. formulations, algorithms) and enforce IP licences 
+through smart contracts.   
+DIY4U will also pay close attention to the financial regulations emerging in the EU and G20 around the 
+peer-topeer transfer of value through blockchain. Whilst information currently travels instantly around 
+the globe, the same cannot be said about business transactions and exchange of value. A typical 
+international payment takes 3- 
+5 days to settle, with ≥5% error rate and average cost of €37; €158.34 trillion worth of international 
+payments are made annually at a combined cost of over €1.5 trillion p.a. If EU regulations change during 
+the project to allow this functionality, and ba nks permit API integration with their services, payments 
+for DIY4U could be automatically facilitated by ‘smart contracts’ 9 - code executed on a blockchain - 
+and completed instantly, allowing FMCG value to move globally just like information.  
+ 
+8 Jones, P. “Systemic design principles for complex social systems” volume 1 of the Translational Systems 
+Science Series, pp 91-128, 2014, Springer Japan.  
+9 https://ripple.com/insights/the-internet-of-value-what-it-means-and-how-it-benefits-everyone/  
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    30  
+  
+Fablab Innovation Character: The fablab is in essence an automated liquid or powder mixing and 
+dispensing system that demonstrates self -cleaning and quality assurance. The novelty of such an 
+approach will be embedded in advancing the limits of miniaturisation in  terms of feeding, blending, 
+dosing, and process analytics. While inline product testing using process analytical technology is itself 
+not a new concept, achieving it within an interlinked complex formulation network around a 
+geometrically constrained manu facturing space, combined with a limited analysis time will require 
+innovative approaches. The integration of real -time process monitoring, complemented by decision 
+making algorithms and self-learning neural networks will allow the fablab to provide unriva lled ‘right 
+first time’ small-scale manufacturing machines for soft matter FMCG.  
+Patent/IP Search: A patent and IP landscape review performed by IP experts at STEF and STL suggest 
+that DIY4U digital platform and fablab are novel and patentable; and will h ave no freedom to operate 
+issues. The closest recent patents identified are:  
+- Customized fast -moving consumer goods production system (WO2017014696A1): is the 
+nearest patent to the DIY4U solution but it does not propose a collaborative platform or smart 
+algorithms for formulas.  
+- Custom cosmetic blending machine (US8564778B1): is only devoted to specific cosmetic 
+products and cannot be deployed for wider FMCG or other sectors. It also requires operation by 
+experts.  
+- Additive manufacturing for beauty products  (WO2015132734A1): is an innovative system 
+proposed by L'Oréal, however it is dedicated only for 3D printed nails.  
+This IP analysis proves that there is no system that proposes a large collaborative solution for DIY design 
+and production based on open technologies.  
+IP held by the consortium: Digital Catapult holds IP on methodologies for reducing smart contract 
+computation costs on the public Ethereum blockchain. IRIS holds IP on the IBD® and SHAREBOX 
+platforms that will be adapted and used for DIY4U. EFF  holds IP for methods on decentralized smart 
+agents. RDI hold IP for connected clothes and patent pending for connected medical device. DSC brings 
+extensive knowhow on material and process modelling and simulation. CDY holds IP and knowhow on 
+formulation m anufacturing and related machines and related software. VTT holds IP on relevant 
+miniaturised PAT spectrometers (e.g. NIR). P&G holds IP on detergent and soap/other FMGC 
+manufacturing processes, machines and related modelling and simulation packages. STEF and CPI bring 
+IP and knowhow on operation of small-scale automated equipment for diverse formulation applications. 
+CETEMET hold patents for device and method for laying cables, device and method for processing 
+electrical cables, and knot-tying head.   
+  
+2. Impact  
+DIY4U is a highly impact-driven project, with potential to revolutionise the European FMCG sector and 
+other industries. The project will accelerate and de -risk the development and adoption of open 
+innovation and fablab approaches for the collaborative design and manufacture of customised or 
+personalised products. DIY4U will directly contribute to the expected impacts as set out in the Horizon 
+2020 Work Programme 2018 – 2020 under the work topic DT -FOF-05-205: Open Innovation for 
+collaborative production engineering (IA). DIY4U will ultimately contribute in enhancing European 
+innovation capacity and competitiveness, creating new market opportunities for EU companies and 
+catalysing their growth, leading to socially important impacts (jobs creation and retention). DIY4U will 
+deliver further social and environmental benefits elaborated in this section.  
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    31

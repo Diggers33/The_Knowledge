@@ -1,0 +1,2300 @@
+3.2  CAPACITY OF PARTICIPANTS AND CONSORTIUM AS A WHOLE ........................................................................................... 41 
+4. ETHICS AND SECURITY ....................................................................................................................................................... 42
+4.1 ETHICS ................................................................................................................................................................................... 42 
+ 
+  
+    
+  Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+1. Excellence  
+In line with the European Green Deal, the Processes4Planet partnership and the European initiative for more 
+affordable, secure and sustainable energy (REPowerEU), the RIA proposal POWER2HYPE aims to establish a 
+sustainable route for the hydrogen peroxide production.  Based on air and water as feedstocks, and renewable 
+energy as the sole energy source, the POWER2HYPE route addresses an economically viable and green alternative 
+to the classical energy -demanding anthraquinone oxidation (AO) process. Hydrogen peroxide will be produced by 
+paired electrolysis at both the cathode and anode using an innovative custom -made 200% electrolyzer. Aiming the 
+electrification and decentralization of the chemical industry , the POWER2HYPE concept proposes the TRL 6 
+demonstration of electrolytic hydrogen peroxide production at any given concentration (from 20 to 99 %) at 
+the site where it is needed . With this flexibility of concentration range, hydrogen peroxide could be used from 
+chemical intermediates, sanitation, bleaching to niche markets as propulsion fuels.  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+101091934 - POWER2HYPE - Part B - Page 4 of 45  
+  
+  
+Figure 1: POWER2HYPE concept for electrochemical H2O2 production and downstream process with a final concentration of 20 to 99% H2O2.  
+Hydrogen peroxide (H2O2) is a widely used commodity chemical with a market evaluated at 3.6 billion € in 2020 and 
+forecasted to grow to 4.7 billion € by 2026. 1 It has a strong oxidizing capacity, and releases only H 2O and O 2 as 
+sideproducts. Industrial applications include wastewater treatment,2 bleaching,3 sanitation,4 chemical synthesis5 and 
+aerospace fuels.6 Thus, H2O2 is listed among the 100 most essential chemicals globally .6 The H2O2 production 
+capacity in Europe reached 1.2 million tons (calculated as 100 % H2O2) in 2020, i.e. 35 % of the global production.7 
+Worldwide H2O2 production is expected to continue its growth trend, reaching 7 Mtons/y by 2030.8 POWER2HYPE 
+partner Solvay, as leading global H2O2 producer and supplier, commands half of the current whole European 
+production capacity alone.9   
+The current industrial production of H 2O2 is predominantly (95%) based on the alkylanthraquinone autoxidation 
+process (AO),10 which is considerably energy demanding (4.4 kWh/kg H 2O2,11 mostly coming from fossil fuels 
+and amounting up to 6.2 109 kWh/year of energy consumption), leading to significant GHG emissions represent 2.4 
+million tons CO2, 13 (i.e. 1.8%, to the total GHG of the chemical industry in Europe)12. Additionally, this process is 
+highly centralized in large chemical units, limiting the supply of H2O2 to remote areas. Finally, the process involves 
+sequential hydrogenation and oxidation steps of alkylanthraquinone (AQ) , which is dissolved in a mixture of 
+organic solvents, followed by H2O2 extraction and distillation, with the subsequent generation of waste. Compared 
+to the classical AO process, the new electrochemical route proposed by POWER2HYPE will: (i) achieve better 
+overall energy efficiency (energy demand of 3 kWh/kg of H 2O2), (ii) use sustainable and abundant materials as 
+catalysts and cell components; (iii) leave no subsequent generation of toxic waste /side products (vs. highly 
+hazardous products in AO); (iv) use a low-energy downstream process (DSP) to produce hydrogen peroxide at any 
+given concentration up to 99 wt.%; (v) improve the dynamics/agility of the process and large volume down-stream 
+products (e.g. propylene oxide) in order to adapt to the intermittent availability of renewable electricity quickly; (iv) 
+decentralize the hydrogen peroxide production and even in miniaturized and therefore cost-effective and 
+lowerbudget production lines, taking in account the flexibility of electrochemical devices and its integration with 
+widespread distribution of renewable electricity.  
+  
+ 
+1 Global Hydrogen Peroxide Market Outlook. https://www.expertmarketresearch.com/reports/hydrogen-peroxide-market (accessed 19.03.2022).  
+2 Horová, D. et al., Synthesis of MFI structured iron silicates and their catalytic performance in phenol removal by wet peroxi de oxidation. React. Kinet. Mech. Catal. 2020, 130 (2), 
+1077-1092.  
+3 Hage, R. et al., Applications of transition-metal catalysts to textile and wood-pulp bleaching. Angew. Chem. Int. Ed. Engl. 2005, 45 (2), 206-22.  
+4 Rubio-Romero, J. C. et al., Disposable masks: Disinfection and sterilization for reuse, and non -certified manufacturing, in the face of shortages during the COVID-19 pandemic.  
+Saf. Sci. 2020, 129, 104830.  
+5 Russo, V. et al., Chemical and Technical Aspects of Propene Oxide Production via Hydrogen Peroxide (HPPO Process). Ind. Eng. Chem. Res. 2013, 52 (3), 1168-1178. 6 
+Gohardani, A. S, et al. Green space propulsion: Opportunities and prospects. Prog. Aerosp. Sci. 2014, 71, 128-149.  
+6 Myers, Richard L. The 100 most important chemical compounds: a reference guide . ABC-CLIO, 2007.  
+7 https://eippcb.jrc.ec.europa.eu/sites/default/files/2019-11/JRC109279_LVOC_Bref.pdf   
+8 https://www.marketresearch.com/ChemAnalyst-v4204/Global-Hydrogen-Peroxide-Plant-Capacity-14810413/ (accessed on 19.03.22)  
+9 https://www.solvay.com/en/chemical-categories/peroxygens/hydrogen-peroxide-h2o2  
+10 Edwards, J. K. et al ., Palladium and gold-palladium catalysts for the direct synthesis of hydrogen peroxide. Angew. Chem. Int. Ed. Engl. 2008, 47 (48), 9192-8.  
+11 Hargreaves, J.S.J., et al. "Minimizing energy demand and environmental impact for sustainable NH3 and H2O2 production -A perspective on contributions from thermal, electro -, 
+and photo-catalysis." Applied Catalysis A: General 594 (2020): 117419.  13 Based on 1.19 kg CO2/kg H2O2 (EPA/600/R-16/176, August 2017)  
+12 Bazzanella, A., & Ausfelder, F. (2017). Low carbon energy and feedstock for the European chemical industry: Technology Study . DECHEMA, Gesellschaft für Chemische Technik 
+und Biotechnologie eV.  
+
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 5 of 45
+1.1 Objectives and ambition   
+The POWER2HYPE objective is to develop and demonstrate a new process for hydrogen peroxide production, 
+changing the established, energy-demanding chemical route by a sustainable electrochemical one.   
+  
+1.1.1 Objectives  
+The specific objectives of the project are directly extracted from the necessary improvements necessary for the process 
+State-of-the Art, as can be seen in the following table.  
+  
+Table 1: Anthraquinone and POWER2HYPE processes.  
+AO Process  POWER2HYPE  
+ 
+ 
+Energy demanding (3.8-4.6 kWh/kg H2O2)8  Energy efficient (3 kWh/kg H2O2 - up to 33% energy 
+saving)  
+Noble-metal catalyst materials (palladium-based)  Abundant catalysts and components (carbon-based)  
+Predominantly centralized  Modular  prototype  allowing 
+ flexibility  / decentralization  
+Hydrogenation of AQ with H2 (from methane)  Requires no input of hydrogen (no gases for 
+hydrogenation)  
+Use of organic solvents for AQ dissolution and 
+extraction  Use of only water-based electrolytes  
+Thermal H2O2 distillation to 50 and 70 wt.%  Customized low-energy DSP reaching concentrations of 
+up to 99 wt.% H2O2  
+Waste products (waste stream of quinone -derived 
+byproducts) and emission of alkylated aromatics as 
+volatile organic compounds (VOCs).  
+Possibly only H 2O and O 2 as non -toxic side - or 
+wasteproducts, no use of solvents  
+Risks of overpressure, catalyst breakthrough from 
+hydrogenation, and explosions during oxidation   
+No steps under pressure, no risk of explosions during 
+the process, reaction can be stopped by switching of the 
+electrical power supply  
+Emissions must be controlled associated with the 
+oxidation step, drying of the working solution and the 
+hydrogenation step  
+No intrinsic emissions in the process  
+High CO2 emissions in the overall industrial process due 
+to the use of fossil energy sources  
+ Decrease the release of direct CO 2 emissions by 100% 
+due to the use of renewable energy sources   
+  
+Table 2: Objectives of POWER2HYPE with KPIs.  
+OB1: Development and optimization of cell components for large -scale electrochemical production of hydrogen 
+peroxide  
+• Carbon-based catalysts materials and gas-diffusion layers for the cathodic Oxygen Reduction Reaction (ORR).   
+• Boron-doped diamond layers on low-cost substrates for the anodic Water Oxidation Reaction (WOR).  
+• The novel electrodes should enable a continuous H2O2 production with Faradaic Efficiency (FE) > 80% at each 
+half-cell with current densities J > 400 mA cm-2 for at least 1000 h (prototype-scale).  
+• chemical-resistant and highly conductive ion exchange membranes for the efficient coupling of ORR with WOR 
+resulting in a low energy consumption.  
+OB2: Design, development and integrating a new electrochemical process and reactorAssociated with document Ref. 
+Ares(2022)7691164 - 08/11/2022  
+  
+   
+h 
+y 
+d 
+r 
+o 
+q 
+u 
+i 
+n 
+o 
+n 
+e 
+2 
+- 
+e 
+t 
+h 
+y 
+l 
+a 
+n 
+t 
+h 
+r 
+a 
+q 
+u 
+i 
+n 
+o 
+n 
+e 
+H 
+2 
+ 
++ 
+C 
+O 
+2 
+O 
+2 
+H 
+2 
+O 
+2 
+C 
+H 
+4 
+ 
++ 
+C 
+O 
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+101091934 - POWER2HYPE - Part B - Page 6 of 45  
+  
+The different steps of the process will be:  
+• An electrochemical cell reactor with tailor-made carbon-based components, optimized fluid flow path and 
+manifold scheme, and maximum energy consumption of 3 kWh/kg H2O2.  
+• A paired electrochemical process with cathodic and anodic H2O2 generation with total FE > 160 % in smallscale 
+10 cm2 lab cells as well as in scaled-up and stacked 200 cm2 pilot electrolysers.  
+• A low-energy concentration device, capable of increasing H2O2 concentration from 3-10% to any given 
+concentration up to 99 wt.% H2O2.  
+OB3: Piloting and demonstrating the innovative electrochemical process in a relevant environment  
+To design, produce, install, and commission a pilot scale continuous flow demonstrator capable of producing up to 
+20 kg H 2O2/day (based on 100% H 2O2) in a relevant industrial environment. The prototype will be placed in a 
+container to provide it with mobility and for decentralized operation, and demonstrated in Brussels (Belgium), in  
+Solvay’s Research and Technology labs.   
+OB4: Evaluating the feasibility and sustainability of the new process, from the technical, environmental and  
+(socio-)economic perspectives  
+• A sophisticated Digital Twin (DT)  of the physical pilot will enable monitoring, analyzing and controlling the 
+process by the generation of real -time data of the process parameters. The data generated will pave the way to 
+understand scale-up requirements.  
+• Life-cycle assessment (LCA) and techno-economic analysis (TEA) conducted to validate industrial feasibility and 
+economic viability of the POWER2HYPE process.  
+OB5: Create and implement an exploitation strategy for the project developments  
+• The commercialization of the new process as a whole and all the components designed by POWER2HYPE 
+technology developers. Business plans will be produced in order to develop the business cases presented in the 
+proposal.  
+• The marketability of hydrogen peroxide produced in a sustainable way.  
+• Further research and spin-off projects coming from POWER2HYPE.  
+OB6: Ensure the dissemination of the project results and the promotion of the project, through ad-hoc strategies 
+that target POWER2HYPE audience and key stakeholders.  
+  
+1.1.2 Project ambition & added value vs. state of the art (SoA)  
+The anthraquinone oxidation (AO) process  
+The AO process is a multistep process that requires significant energy input and a well -developed infrastructure. 
+Moreover, it poses substantial risks associated with oxidation steps under pressure and the handling of concentrated 
+hazardous chemicals like H2O2.13 This process can be divided into 4 steps, starting with the (i) hydrogenation of 
+2alkylanthraquinone (AQ) with H 2 to anthrahydroquinone in a mixture of solvents using Pd -based catalysts. The 
+resulting anthrahydroquinone undergoes (ii) oxidation by O2 to generate H2O2 and so is anthraquinone regenerated. 
+This oxidation step is highly hazardous and requires a careful process design for risk mitigation.14 Subsequently, the 
+(iii) extraction with solvents removes H 2O2 and the anthraquinone left in the or ganic solvent is recycled. This 
+extraction step is crucial for the economic viability of the whole process, and unextracted peroxide can account for 
+big losses in the AO process. Finally, (iv) crude H 2O2 is purified and distilled to reach the usual commerc ial grade 
+concentration of 30-70 wt.% H2O2.  
+Considering all the specific steps and the risks involved, besides considerable improvements and high process 
+efficiency in large scales, the production of H 2O2 through this indirect AO process is rather  energy demanding 
+with a consumption of 2.9 - 5.7 MJ/kg H2O2 (0.8 – 1.6 kWh/kg H2O2)15 plus 3.0 kWh/kg H2O2 associated with the 
+generation of H 2.16 Moreover, highly concentrated H 2O2 solutions require special safety measures  for handling, 
+transportation, and storage. In this regard, besides specific applications requiring high concentrated H 2O2, the main 
+use of H 2O2 in bleaching and disinfectant requires 2 -8 wt.% H 2O2 solutions, with the consequence, that H 2O2 is 
+diluted again after shipped at 50 -70%. Transportation in lower (safer) concentrations has the drawback of moving 
+mostly water, thus negatively affecting the carbon footprint and economic viability of the final product. Therefore, 
+the possibility of providing a direct a nd decentralized process for the H 2O2 synthesis would be safer, cheaper, and 
+significantly more sustainable not only for the chemical industry but also for the society.  
+ 
+13 Fortunato, G. V. et al., The oxygen reduction reaction on palladium with low metal loadings: The  effects of chlorides on the stability and activity towards hydrogen peroxide. J.  
+Catal. 2020, 389, 400-408.  
+14 Goor, G. et al., Hydrogen Peroxide. In Ullmann's Encyclopedia of Industrial Chemistry, 2022, pp 1-40.  
+15 Falcke et al., (2017) European Union – Best Availbale Techniques (BAT) Reference Document for the production of Large Volume Organic Chemicals, Page 562.  
+16 Based on the stochiometric use of H2 and an specific energy usage of 50 kWh/kg H 2 by electrolysis (IRENA (2020) Green Hydrogen Cost reduction – Scaling up Electrolysers)  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 7 of 45  
+  
+Although some effort in the decentralization of the AO process has been showcased by Solvay,17 the multistep chemical 
+process has inherent drawbacks, as shown in Table 1.  
+As renewable energy is becoming increasingly affordable, the key challenge is to transform electrical energy into 
+energy-dense chemical bonds. Approaches using photoelectrochemical processes18 are valuable possible routes from 
+fundamental research, however, considering the decarbonization goals of the European 2030 climate and energy 
+framework, 19 it will be particularly challenging to reach industrialization on time due t o their low TRLs, low 
+conversion efficiencies (few % solar-to-chemical) and serious issues with collecting products that are generated over 
+considerable surface areas.  
+Electrochemical production of hydrogen peroxide  
+The electrochemical production of H2O2 is based on water, air, and renewable electric energy as input. Thus, it is also 
+representing an elegant green solution for onsite and on-demand H2O2 production, thereby avoiding risks associated 
+with large-scale storage and transportation of highly concentrated H2O2. There are two electrochemical pathways for 
+H2O2 production: the cathodic oxygen reduction reaction (ORR, Eq. 1) and the anodic water oxidation reaction 
+(WOR, Eq. 2). Both pathways involve a two-electron transfer:20   
+O2 + 2H+ + 2e- ⇌ H2O2  E0 = 0.67 V vs. RHE  (1)  
+2H2O ⇌ H2O2 + 2H+ + 2e-  E0 = 1.76 V vs. RHE  (2)  
+ORR and WOR reactions have already been explored as half -cells. The ambition of POWER2HYPE is to match 
+both into one single electrochemical cell, thereby making optimal use of the electrons and obtaining H2O2 as main 
+product at the anode and cathode.   
+The cathodic pathway (Eq. 1) has already been known for almost 150 years 23 and reached a pre-commercial scale 
+in the 1990s for the on -site production of alkaline H 2O2, utilizing carbon chips coated with a high surface area 
+carbon/PTFE composite. 24 Major disadvantage was the alkaline environment in which H 2O2 decomposes more 
+readily,21 and limits its application due to intensive DSP to obtain pure H 2O2. As for acidic electrolytes, noble 
+metalbased (Pd-Hg, Au-Pd and Au -Pt-Ni) are the most active catalyst materials.  22,23 However, the scarcity of the 
+platinumgroup metals and the environmen tal issues associated with Hg make the use of these type of catalysts 
+questionable regarding sustainability. Carbon -based catalysts show relatively low activity under acidic conditions, 
+however high activity and faradaic efficiency under alkaline condition s,22,26,27 which matches the cathodic 
+environment in a dual membrane configuration. 37 For the improvement of the cathodic catalyst materials,  
+POWER2HYPE aims for catalysts based on carbon with no noble metals. In POWER2HYPE, the interplay between 
+the nature of the carbon, its surface chemistry and porosity, effect of a dopant and non -noble metal species on the 
+performance of the carbon in H2O2 production will be investigated.  
+The ORR involves a ternary interface reaction of gas (O2), liquid (an aqueous electrolyte) and solid (active catalysts). 
+Such ternary interface reactions require the use of gas diffusion layers (GDL) . The majority of commercially 
+available GDL materials are based on wet -laying technologies (carbon paper made from chopped fibers) since this 
+technology features a sufficiently high productivity and the potential to achieve competitive costs.  There are few 
+systematic investigations of GDLs in the cathodic production of H 2O2. The consortium partner SGL Fuel Cell 
+Components GmbH is a leading manufacturer of carbon and graphite materials and will produce custom-made 
+GDLs with tailored adjustments to maximize the three -phase boundary for maximum species conversion at the 
+catalyst sites.  
+The anodic pathway (WOR) has gained considerable interest in the last years. WOR efficiency, selectivity, and 
+stability has remarkably improved, especially due to catalyst and process development.48 Several promising candidate 
+materials for catalysts selective towards WOR have been identified,  including oxides such as BiVO 4, CaSnO3, and 
+ZnO.24-25 Boron-doped crystalline diamond electrodes (BDD)  are nevertheless the most promising electrode 
+material for highly efficient WOR. 26 BDD electrodes can suppress the most common side reactions in aqueous 
+electrolytes: hydrogen and oxygen evolution in the cathode and anode, respectively. Figure 2 shows the BDD 
+overpotential against hydrogen evolution reaction (HER, -1.2 V vs. SHE) and oxygen evolution reaction (OER, +2.5 
+ 
+17 https://www.solvay.com/en/our-company/our-businesses/performance-chemicals/myh2o2-satellite-peroxide-production  
+18 Xue, Yudong, et al., Electrochemical and photoelectrochemical water oxidation for hydrogen peroxide production. Angew. Chem. Int. Ed. 2021, 60 (19), 10469-10480.  
+19 https://ec.europa.eu/clima/eu-action/climate-strategies-targets/2030-climate-energy-framework_de  
+20 Perry, S. C. et al., Electrochemical synthesis of hydrogen peroxide from water and oxygen. Nat. Rev. Chem. 2019, 3 (7), 442-458. 
+23 Traube, M. Über die elektrolytische Enstehung des Wasserstoffhyperoxyds an der Kathode. Ber. Kgl. Akad. Wiss. 2, (1887) 1041 24 
+Pletcher D., Electrosynthesis - Watts New Quarterly Newsletter 4 (1999).  
+21 Navarro et al., J. Chem. Soc., Faraday Trans. 1 (1984), 249.  
+22 Yang et al., Toward the Decentralized Electrochemical Production of H 2O2: A Focus on the Catalysis 2018, 4064-4081  
+23 Bu et al., Carbon-Based Electrocatalysts for Efficient Hydrogen Peroxide Production, Advanced Materials 2021, 2103266  
+24 Siahrostami, S. et al., One- or Two-Electron Water Oxidation, Hydroxyl Radical, or H 2O2 Evolution. J Phys Chem Lett 2017, 8, 1157-1160  
+25 Shi, X. et al., Understanding activity trends in electrochemical water oxidation to form hydrogen peroxide. Nat Commun 2017, 8 (1), 701  
+26 Cobb S. J. et al., Boron Doped Diamond: A Designer Electrode Material for the Twent y-First Century, Annu. Rev. Anal. Chem., 2018, 11, 463-484  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+101091934 - POWER2HYPE - Part B - Page 8 of 45  
+  
+V vs. SHE). The high anodic overpotential can generate OH- radicals directly from water, which instantly 
+oxidize the surrounding electrolyte. Such electrodes are already used industrially and can have a life cycle of several 
+months to years in quite harsh electrolysis medium.27  
+ 
+27 WO 01/25508 A1 Haenni et al. ELECTROCHEMICAL PRODUCTION OF PEROXOPYROSULPHURIC ACID USING DIAMOND COATED ELECTRODES  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 9 of 45  
+  
+Because of their high overpotential for WOR, BDDs lead to remarkable high efficiencies in anodic H 2O2 
+production. Through the design of advanced BDD materials, FAU has pushed outstanding progress in the 
+efficiencies for H2O2 production from WOR,28 with production rates of 74.6 µmol min–1 cm–2 and FEs of 87 % (peak 
+maximum).33 Besides its scientific importance, these reports involving catalysts or parameter screening are primarily 
+carried out in a small scale (H-cell setup). Thus, POWER2HYPE will focus on the use of such robust electrodes in 
+continuous flow cells and stacks setups, aiming the scale up in industry-relevant processes and applications of H2O2. 
+Together with DiaCcon, a leading BDD producer, the technology transfer from lab to pilot scale can be reached 
+within the POWER2HYPE timeline. More recently, FHG has shown a continuous flow process using a commercial 
+BDD electrode in combination with an optimized carbonate-based electrolyte system and have achieved FEs up to  
+78 %, and H2O2 production rate of 79 µmol min–1 cm–2, operating at current densities up to 700 mA cm-2.34  
+  
+Figure 2: Electrochemical potential window for HER and OER on different electrode materials (left), DiaCCon diamond coating machines 
+facilities (middle) and Aquivion® polymer chain from Solvay (right).  
+POWER2HYPE will also address the cell design to achieve maximum H 2O2 production. To produce H 2O2 various 
+cell configurations, undivided and divided by one or two membranes, can be used.26 For water treatment applications, 
+typically an undivided cell is used, 29,30 which can be related to the required low H 2O2 concentration. However, to 
+increase the H 2O2 concentration, decomposition of H 2O2 at the anode is to be avoided, which is normally done by 
+dividing the cell by a proton exchange membrane. 22 In such a configuration a PEM fuel cell approach could 
+continuously produce concentrated H2O2, however, concentrated H2O2 accelerates the cathodic reduction of H2O2 to 
+H2O.26 WR demonstrated efficient H2O2 production utilizing a dual membrane configuration at an industrial relevant 
+current density of 400 mA/cm2 (Figure 3). Using this cell configuration the generated H2O2 is transported away from 
+the cathode, thus avoiding high H 2O2 concentrations near the cathode. Additional advantage is the alkaline 
+environment at the cathode, in which the faradaic efficiency and productivity of (metal -free) carbon -based 
+electrocatalysts are high .22,26,27 The generated H 2O2 is transported into a center compartment via electrodialytic 
+principles resulting in a concentration of 11 % H 2O2, with the anion exchange membranes (AEM) having a limited 
+stability.37 The incorporation of solid polymer electro lyte (SPE) in the center compartment discards the use of 
+supporting electrolyte, resulting in the continuous production of pure H2O2 (about 7%, no salts, not additives) at high 
+FE (>60%) for almost 100 h. 38 More recently, Xia et al. achieved 20 wt.% H2O2 using the same WR configuration, 
+yet at a FE of ~20% and using hydrogen gas as additional feed. 31 A concentration of ~20 wt.% H2O2 or higher is in 
+the range of the AO process before multiple purification steps and subsequent concentration to 50-70% by  
+distillation.17   
+ 
+configuration (right).  
+Membranes have a crucial role in modern electrolytic processes. Proton Exchange Membrane (PEM) electrolysis is 
+now growing in the electrolysis application for large scale green hydrogen production market (up to several GW 
+ 
+28 Mavrikis, S. et al., Boron-Doped Diamond Electrocatalyst for Enhanced Anodic H 2O2 Production. ACS Appl. Energy Mater. 2020, 3 (4), 3169-3173. 
+33 Mavrikis, S. et al., Effective Hydrogen Peroxide Production from Electrochemical Water Oxidation. ACS Energy Lett. 2021, 2369-2377 34 Pangotra, 
+D. et al., Anodic generation of hydrogen peroxide in continuous flow. Green Chem. 2022.  
+29 Sopaj et al., Effect of cathode material on electro-Fenton process efficiency for electrocatalytic mineralization of the antibiotic sulfamethazine. Chem. Eng. J. 2020, 123249.   
+30 Pérez et al., Towards the scale up of a pressurized-jet microfluidic flow-through reactor for cost-effective electro-generation of H2O2, J. of Cleaner Production 2019, 1259-1267. 
+37 Kuehn, C. et al., The Electrolytic Synthesis of Hydrogen Peroxide in a Dual Membrane Cell. J. Electrochem. Soc. 1983 130, 1117 38 WO2017/222382 – Electrochemical 
+Process and Reactor  
+31 Xia, C. et al., Direct electrosynthesis of pure aqueous H 2O2 solutions up to 20% by weight using a solid electrolyte. Science 2019, 366 (6462), 226-231.  
+
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+101091934 - POWER2HYPE - Part B - Page 10 of 45  
+  
+demonstrators today), as a new generation of electrolysers beyond alkaline electrolysis.32 Solvay developed 
+more than 20 years ago 33 its own PEM technology based on perfluorinated polymer backbone (Aquivion®, Figure 
+2),34 to contribute to markets of proton exchange membrane such as redox -flow battery, electrolysis and fuel cell 
+applications (Figure 2). A great advantage of this perfluorinated ba ckbone is its super acid character, which offers 
+very high proton conductivity and outstanding chemical durability.  
+Yet, membranes have an important role not only as ion exchange membranes (IEM) for separation of cathodic and 
+anodic half-cells, as also as membrane electrode assemblies (MEAs). By pressing a GDL onto the anion exchange 
+membrane (AEM), WR successfully demonstrated cathodic H2O2 electrosynthesis at 50 mA/cm2.35 Yet, the influence 
+of MEA fabrication method and composition is unknown. In POWER2HYPE, the influence of the materials 
+composition (membrane, catalyst, binder, ionomer) and MEA coating method (spraying, painting, etc) will be 
+evaluated for achieving stable and long-term electrolytic performance.  
+As part of the MEA, the AEM is of great importance to transport formed perhydroxyl ions (HO2-) towards the center 
+compartment (Figure 3). For the improvement of the AEM, POWER2HYPE aims membranes based on Solvay’s 
+Aquivion® proprietary perfluorinated backbone. Experiments of ORR with more stable commercial AEMs 
+(Neosepta AHA and AMI-7001) resulted in a specific energy loss of 1.3-2.5 kWh/kg H2O2 (100%) attributed to their 
+low conductivity. In contrast, Solvay’s Aquivion® E87 -05S (0.02 Ω·cm 2) results in a considerably lower specific 
+energy loss of 0.01 kWh/kg H2O2. Solvay is a pioneer in AEM R&D36 and new recent synthesis routes led to anionic 
+exchange ionomers from Aquivion® with outstanding performances in ionic conductivity and durability. 37 In 
+POWER2HYPE this anion exchange ionomer will be investigated with different charge carriers and side chains on 
+the perfluorinated backbone to improve mechanical behavior and anion conductivity. Membrane formulation 
+strategies will also be considered to improve membrane lifetime (membrane mechanical reinforcement and chemical 
+stability) under alkaline and concentrated H2O2 conditions.  
+A commercial version of electrochemical ORR to produce H2O2 has already been developed by the Danish company 
+HPNow. Besides its high purity, H 2O2 is generated only in low concentrations (0.15%) 38 in small to medium sized 
+devices, limiting application mainly to aquaculture and (waste)water treatment. In a currently running H2020 project 
+PeroxyPro,3940 HPNow targets the appl ication of the developed system in water treatment and disinfection. It is 
+important to note, that these applications cover only less than 10 % of the current market for H2O2.8   
+Key approach of the POWER2HYPE process is to pair the anodic and cathodic H2O2 generation in one cell using 
+non-critical and abundant materials only. This procedure adds substantial advantages compared to cells utilizing only 
+one of the half -cells for H 2O2 generation, where the second electrolyte cannot be valorized and is often di scarded. 
+The ambition of the POWER2HYPE proposal is to progress to larger -scale H 2O2 production targeting also 
+applications requiring higher H 2O2 concentrations, which are to date not yet commercially addressed with 
+electrochemical H2O2 production. Hence, POWER2HYPE focus specifically on applications where concentrations 
+of 3% and above  are required. The process performance will be enhanced by reducing the specific energy usage, 
+thereby offering an industrially relevant alternative for the AO process. To realize our ambition, POWER2HYPE 
+will build on recent progress made by the project consortium.  
+  
+Table 3: Current research status of POWER2HYPE partners with KPIs for ambition.  
+Partner  Current research status  Ambition through POWER2HYPE  
+WR  Improved cell design for the continuous cathodic 
+production of ‘salt-free’ 7% H 2O2 at 64% FE for 
+almost 100 h  
+Continuous cathodic production of at least 10 % H2O2 
+with 80% FE for 1000 h at ≤ 3 kWh/kg.  
+FHG  Anodic H2O2 production developed in continuous 
+flow at lab-scale with the highest production rate 
+reported to date.48  
+To improve the process with robust, sca lable and 
+economically viable BDD anodes, obtaining 3 wt% 
+H2O2 continuously for 1000 h.  
+FAU  Most stable and efficient BDD anodes reported in 
+the literature for WOR.   
+To produce stable and scalable BDD layers with 
+economically viable electrode supports.  
+ 
+32 Kumar, S. et al., Hydrogen production by PEM water electrolysis – A review. Mater. Sci. Technol. 2019, 2 (3), 442-454  
+33 Arcella, V.; Ghielmi, A.; Tommasi, G. Ann. N.Y. Ac ad. Sci. 2003, 984, 226;   
+34 https://www.solvay.com/en/brands/aquivion-ion-conducting-polymers  
+35 WO 2015/034354 – Electrochemical production of Hydrogen Peroxide  
+36 WO2012/098146 – Liquid compositions of fluorinated anion exchange polymers   
+37 Bonizzoni, S. et al., Facile Chemical Modification of Aquivion® Membranes for Anionic Fuel Cells. ChemElectroChem 2021, 8 (12), 2231-2237.  
+38 https://www.pennyukltd.com/tag/hpnow/, https://www.hpnow.eu/wp-content/uploads/2019/12/hpgen-almeria-case-study.pdf, 
+https://www.rippleaquaplast.co.uk/wpcontent/uploads/hpnow -leaflet.pdf (visited 22-3-2022).  
+39 https://cordis.europa.eu/project/id/960753  
+40 Pangotra, D., et al., Anodic production of hydrogen peroxide using commercial carbon materials. Appl. Catal. B Environ. 2022, 303, 120848.  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 11 of 45  
+  
+DIA  DiaCCon (DIA) already produces electrolysers 
+and BDD anodes, mostly for industrial 
+applications.  
+To expand the portfolio with stacks for applications 
+beside wastewater treatment and develop complex 
+electrolysers using novel electrode and membrane 
+setups   
+Solvay  Solvay as developed and offers cation-exchange  To develop anion-exchange membranes (AEM)  
+Group  membranes (CEM) with excellent lifetime for 
+fuel cells, electrolyzers, and various 
+electrochemical technologies (Aquivion®). It is 
+the leading world supplier of H2O2.  
+suitable for application in electrochemi Associated with 
+document Ref. Ares(2022)7691164 - 08/11/2022cal processes 
+and to enhance current product portfolio and to 
+establish, demonstrate and apply a sustainable process 
+for H2O2 production.  
+WU  WU has vast experience carbon -based catalyst 
+synthesis, characterization and performance. The 
+use of renewable energy to convert sustainable 
+resources is the focus area of application   
+To expand the capability of electrochemical 
+conversions by using carbon catalysts/electrodes.  
+SGL  SGL offers various GDL materials for 
+automotive, stationary and portable fuel cells and 
+PEM electrolysers. Currently the key business 
+lines are FCC (fuel cell components) in the 
+business unit GS (graphite solutions).  
+To develop GDL materials tailored to the application 
+in gas diffusion electrodes (GDEs) for cathodic H2O2 
+electrosynthesis. Fibrous carbon materials or 
+graphite materials will be provided as substrates for 
+deposition of BDD (anodes).  
+TRSA  TRSA has know-how in the cell and stack design, 
+including fluid dynamics studies, the 
+development of zinc-air batteries, as well as in the 
+engineering of pilot plants around that 
+technology.  
+TRSA will contribute to the optimization of the 
+electrochemical cell and stack  efficiency through 
+research on the management of process fluids, 
+assessment of the physicochemical properties of the 
+utilized materials and simulation of the fluid 
+dynamics   
+IRIS  IRIS is a deep -tech engineering company 
+specialized in real time monitoring and industrial 
+artificial intelligence solutions   
+Develop a digital twin aiming for real -time 
+monitoring and control of the H 2O2 electrochemical 
+production process.  
+SLVG  Presently proven & patented concentration 
+process in laboratory scale of 5 kg feedstock, 41 
+along with techniques for scaling up the chemical 
+process, sweeping gas and membrane based. A 
+supply chain has already been formed for 
+sourcing of commercial components for research.   
+To demonstrate a large -scale concentration process 
+capable of producing 20 kg concentrated H 2O2, 
+while maintaining a high process efficiency and gas 
+saturation efficiency of over 80 %.   
+  
+1.1.3 Technology maturity  
+Once key POWER2HYPE key components (currently at TRL3/4) validated at lab scale, they will be integrated in a 
+pilot plant that will be demonstrated in relevant environment at Solvay’s premises (Belgium) (TRL6).  
+  
+Table 4: POWER2HYPE technologies and their rise in TRL over the project duration.  
+Technology  Rationale  Initial TRL  End TRL  
+Direct 
+electrocatalytic  
+reduction of 
+oxygen and in-situ 
+concentration of  
+H2O2  
+Materials and cell design will 
+be optimized to improve the 
+energy efficiency, thus reduce 
+the energy consumption, and 
+improve the productivity, i.e., 
+current density.  
+TRL 3 -4: 7% H 2O2 has 
+been reached by WR in a 
+10 cm 2 single cell at a 
+current density of 50 
+mA∙cm-2 during 5 days of 
+operation  
+After lab scale validation, as 
+part of the paired electrolyser 
+integrated in the pilot this 
+technology will demonstrated in 
+a system (TRL 6).  
+ 
+41 WO2021096353A1 PROCESS AND APPARATUS FOR CONCENTRATING HYDROGEN PEROXIDE TO 98 WT.% OR MORE  
+  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+101091934 - POWER2HYPE - Part B - Page 12 of 45  
+  
+Direct and 
+continuous water 
+oxidation to H 2O2 
+on BDD anodes.  
+Materials, and cell design will 
+be optimized in terms of energy 
+efficiency. The electrolyte 
+composition will be optimized 
+in terms of energy efficiency 
+and interconnection with 
+down-stream processing and 
+the cathodic process.   
+TRL 3-4: Successful tests 
+at 400 mA∙cm -2 in a 10 
+cm-2 flow cell for >2 days  
+Demonstration of the 
+improvement by implementing 
+the newly developed materials 
+and electrolyte composition in a 
+single cell in a laboratory 
+environment. This technology 
+will be demonstra ted in a pilot 
+system (TRL 6).  
+Combined 
+cathodic and 
+anodic H 2O2 
+production 
+(paired 
+electrolysis)  
+The cathodic and anodic H 2O2 
+are integrated in one cell and 
+the paired reactions validated 
+(TRL 3) and subsequently 
+demonstrated on lab-scale  
+(TRL 4)  
+TRL 3: A new concept of 
+paired electrolyzer is 
+developed. The coupling 
+in TRL3 has already been 
+done at FHG.  
+Demonstration and validation of 
+the paired electrolysis in a single 
+cell at lab scale. This paired 
+electrolyser will be upscaled and 
+demonstrated in a pilot plant 
+system (TRL 6).  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+101091934 - POWER2HYPE - Part B - Page 13 of 45  
+  
+Electrolyser 
+stacks comprising 
+of a multitude of 
+cell pairs   
+Design, construction and build 
+of a paired electrolyzer with 
+cell pairs of each 200 cm 2 to 
+produce up to 20 kg per day (10 
+kg per day by anodic and 10 kg  
+per day by cathodic process);  
+  
+TRL 4 : GDLs and BDD 
+Associated with docu 
+electrodes can already be 
+manufactured at 200 cm 2 
+by SGL and DiaCCon. 
+But at this stage only 
+electrolyser cells from 10 
+cm2 single cells have been 
+tested  
+ment Ref. Ares(2022)7691164 - 
+08/11/20222 electrolyser stack  
+The 200 cm 
+will be integrated in a system, 
+where its operation will be 
+validated ( TRL 5 ) and 
+demonstrated over 1000 hours 
+in a demo plant at Solvay to 
+produce up to 20 kg H 2O2/day 
+(TRL 6).   
+Design, 
+integration, and 
+optimization of a 
+DSP to obtain 
+H2O2 at any given 
+concentration.  
+Scaling guidelines for DSP will 
+be devised in order achieve an 
+energy efficient concentrating 
+equipment and to ensure 
+capability of concentrating 200 
+kg feedstock. T he influence of 
+the dynamic production, due to 
+the intermittency of renewable 
+energy, is considered. The 
+surrounding sub -systems will 
+also be sized.   
+TRL 3 : Concentration 
+proven in laboratory pilot 
+scale with feedstock of 
+5kg, with chemical  
+analysis completed  
+Integrated in the demo plant at 
+Solvay, DSP of H 2O2 and its 
+flexibility in terms of user 
+controlled output H 2O2 
+concentration is demonstrated  
+(TRL6)
+1.2 Methodology  
+1.2.1 Concepts and assumptions behind POWER2HYPE  
+While the electrochemical chlorine production is a well-established technology in industry and hydrogen production 
+is already available at pilot scale, electrochemical production routes for other chemicals are currently limited to low 
+TRLs, many times with low efficiencies and low production volumes, and mostly restricted to niche applications. In 
+POWER2HYPE the target is to develop an electrochemical technology to produce hydrogen peroxide, an 
+important bulk chemical, essential for a wide range of applications. In combination with renewable electric 
+energy sources, it aims to set another milestone towards the low-carbon electrification of the process industry.  
+Electrochemical H2O2 production meets all requirements for a "green”, sustainable production process: the required 
+educts are air (oxygen), water, and electricity. Both electrodes of the paired electrolyser generate the target product, 
+and no by-products are generated besides low amounts of O2, H2O and H2. Neither the anode nor the cathode requires 
+any critical or toxic raw materials. The electrolyser is designed for operation at high current densities of at least 400 
+mA cm -2 to enable high production rates per electrode area. Nevertheless, the electrol ytic process with DSP (and 
+downstream derived bulk chemicals) should be flexible to run under part-load or in intermittent operation (switchon 
+and –off within few minutes and mainly determined by the periphery), e.g., when electricity from renewable resources 
+should not be sufficiently available.  
+  
+  
+Climate change targets and European dependence on fossil-based energies  
+The main objective of the European Green Deal is to achieve carbon neutrality in the EU by 2050. As an important 
+milestone towards this goal, the EU’s net greenhouse gas emissions should decrease by at least 55% by 2030. 
+However, as energy prices have dramatically risen due to changes in the geopolitical landscape, the European  
+Commission (EC) proposed on the 8 th of March 2022 an outline of a plan to make Europe independent from 
+Russian fossil fuels well before 2030, starting with gas. This European initiative for more affordable, secure, and 
+sustainable energy ( REPowerEU)42 seeks, among other measures, to rapidly adopt technologies allowing for 
+replacing gas in power generation. Such joint effort can reduce the European demand for Russian gas by twothirds 
+before the end of the year 2022. One of the pillars of the REPowerEU initiative is the fast reduction of fossil fuels 
+utilization in the industry and power system by a) boosting energy efficiency , b) increasing the share of 
+renewables in the energy mix and c) enhancing electrification of industrial processes.  
+The moment for renewable energies in the industry  
+ 
+42 REPowerEU: Joint European action for more affordable, secure and sustainable energy  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 14 of 45  
+  
+Future power generation should include a renewable share of 68% in 2030 and 86% in 2040 (Figure 4).43 The direct 
+connection of industrial production plants to intermittent renewable energy sources (e.g., PV) has emerged as a 
+competitive and cost-effective solution to enable the electrification of chemical processes. Thereby, the chemical 
+industry can strongly benefit from an already enhanced decarbonization of the power sector. The tremendous rise 
+of renewable power generation and the associated drop in production cost, reached costcompetitiveness  with 
+conventional  electricity generation.44 The costcompetitive generation of renewable electricity has opened new 
+possibilities of  ”electrifying” production processes and given new momentum to the  develop-ment 
+ and application of Power-to-X processes in the chemical industry,  i.e.,  to  the "electrification  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ of  the  
+Figure 4: Power generation and consumption for 2021 (left) and 2040 (right). 2030 should achieve  
+a renewable share of 68%, and in 2040 of 86%. Source: Agorameter.   chemical industry”. In this 
+context,  an  important  
+technical requirement arises for technologies and processes to be applied for this “electrification”: As mentioned 
+above, renewable energy sources are typically characterized by a certain intermittency. Thus, new processes and 
+process technologies need to provide a certain load flexibility, being abl e to be safely and stably operated at 
+different load factors, while still providing sufficient performance when running outside of the optimal parameter 
+window. This is an important difference to conventional processes, typically designed for very constant supply of 
+fossil feedstock. Load flexibility is also an important process parameter to be addressed in POWER2HYPE (WP6 
+Demonstration).  
+  
+ 
+1.2.2 Overall methodology  
+The 48-month POWER2HYPE 
+project is divided into a set of 
+distinct,  interlinked 
+ R&D activities running in parallel 
+or in sequence (Figure 5).   
+The main R&D work (WP2-6, 
+Figure  6)  will  start 
+ by investigating the catalysts and 
+materials  in  WP2 
+ (anode, cathode, GDL and 
+membranes) and its performance 
+in each halfcell (cathode & 
+anode). The materials  will be 
+ used for development  of 
+ the electrochemical process in 
+WP3.  
+The processes will be customized Figure 5: Overall work breakdown structure of POWER2HYPE indicating 3 int erlinked project 
+and optimized to be efficiently phases over which the TRL levels are raise from 3 to 5-6.  paired into one electrochemical cell 
+using 10 cm2 cells (TRL3).  
+ 
+43 www.agora-energiewende.de  
+44 IRENA Renewable Cost Database (https://www.irena.org/)   
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+101091934 - POWER2HYPE - Part B - Page 15 of 45  
+  
+The paired process will be scaled up in to 200 cm 2 cells (TRL4) in WP4. The cells w ill be stacked 
+(TRL5) and integrated with a DSP process. The integrated process will be engineered (WP5) and demonstrated 
+(TRL6) in WP6 with renewable (and intermittent) energy supply.  
+Moreover, impact assessments in WP7 will investigate the larger enviro nmental, societal and economic impacts of 
+POWER2HYPE. WP7 keeps monitoring the results of WP2 -6 during the three phases of the project, helping to set 
+and adjust project performance goals. Critical output of the System Level Impact Assessment is the compar ative 
+analysis showing the potential strengths of POWER2HYPE and the milestones this technology must reach to be 
+ultimately economically competitive, environmental beneficial and socioeconomically advantageous. Associated with 
+document Ref. Ares(2022)7691164 - 08/11/2022 In addition to that, non-technical activities will be running continuously, such as 
+project management, exploitation, communication, and dissemination.   
+Phase I – M1-24, TRL 3  
+The first phase of the POWER2HYPE project will address the 
+fundamental aspects of the electrochemical H 2O2 production. 
+SGL, FAU, WU, WR  and RHDO will work on the design, 
+synthesis, and characterization of advanced component 
+materials, such as cathode catalysts, gas diffusion layers/gas 
+diffusion electrodes (GDL/GDE), BDD electrodes, and cation 
+and anion exchange membranes (CEM/AEM). The focus will 
+be on: (i) the efficiency and selectivity of materials (suppressing 
+competing reactions like H 2O2 electro-decomposition, H2- and 
+Figure 6: Electr ochemical activities from WP2 to WP6. O2-evolution); (ii) stability under alkaline conditions and H 2O2 
+concentrations of 20 % (especially challenging for AEM), and (iii) avoiding critical or toxic materials by using mainly 
+carbon-based. Regarding membrane development, Solvay will develop new alternatives ionomer solvents 
+(perfluorinated free) for CEM and will build upon Aquivion® for AEM.   
+The tailored materials will be provided (and when needed adapted) for the development of an efficient electrolytic  
+process for the H 2O2 generation (FHG, WR and SSPI). WR will develop the cathodic 
+oxygen reduction reaction (ORR), whereas FHG will work in the anodic water oxidation 
+reaction (WOR). Both will use cation and anion exchange membranes (CEM and AEM) 
+developed and provided by SSPI. Work on ORR will emphasize on an electrolyte -free 
+process using catalyst coated GDE or a membrane electrode assembly (MEA) 
+configuration to obtain pure H2O2 (no salts, no stabilizers) with concentration of at least 
+10 wt.%. Research o n the anode will be focused towards suppressing the oxygen 
+evolution to favor the H 2O2 formation from water using BDD electrodes. Strong focus 
+is placed on a swift transfer from discovery and screening toward deployment and full 
+single electrolyser-cell design/testing of cathode/anode catalyst formulations in small- 
+scale of 10 cm2 cells. The ORR and WOR processes will be paired with suitable Figure 7: POWER2HYPE electrodes 
+and electrolytes and the TRL3 electrolyser will be used as basis for scaled up KPIs. electrolysis carried out in 
+Phase 2 and 3.   
+Finally, within this phase I, a lab -scale cell (10 -25 cm 2) will be designed and manufactured using input from the 
+previous experimental findings. Corrosion tests for components resistance to H 2O2 will be carried out by DIA. Cell 
+tests will be carried out by FHG, including lab-scaled paired electrolysis.   
+At the end of the first phase, the decision milestone 1 will define the status of the project (explained in more details 
+in 3.1 Work Plan). This decision milestone takes into account a process in lab scale with efficient catalysts (160 % 
+total FE) at a current density of 400 mA/cm 2 consuming less than 3 kWh/kg H2O2 as shown in the target triangle of 
+POWER2HYPE (Figure 7).   
+ Phase II – M24-36, TRL 4-5  
+With the laid foundation for the paired electrolysis working in lab-scale, Phase II of POWER2HYPE will focus on 
+scaling up the electrochemical process and integration with DSP.  
+Important activities will include the scale up of electrolyser cells from 10-25 cm2 to 200-400 cm2 (DiaCCon, SGL) 
+using input from experimental findings obtained from preceding tasks. DiaCCon, FHG, TRSA and SGL will design 
+an electrolysis stack prototype containing feed channels for gas supply/outlet and electrolyte supply/outlet as found 
+appropriate for the electrodes and materials. The stack will be designed to achieve a H2O2 production rate of up to 
+20 kg/d (based on 100 wt.% H 2O2), corresponding to an electrical power of approximately 2.5 kW. The design, 
+which will be supported by TRSA’s and FHG´s simulations on fluid flow and heat management, will involve the 
+
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 16 of 45  
+  
+scale-up of the electrodes (to 200 or 400 cm2 per electrode), development of machined graphite bipolar plates (BPP) 
+with flow fields on GDL side, and the unfolding of the most suitable stack configuration (monopolar or bipolar 
+electrodes, as shown in Figure 8). All supporting infrastructure to ensure both smooth and safe operation of the system 
+will be considered and implemented as part of the entire hardware assembly.  
+  
+Figure 8: Powe2Hype design for a zero-gap electrochemical monopolar cell and stack with internal manifolds.  
+Another important activity will be the development of a low-energy down-stream process (DSP) by SolvGe. The 
+DSP consists of a device for concentrating the 3% and 10% H2O2 streams using the vapor pressure difference between 
+hydrogen peroxide and water molecules. This is achieved by imparting a velocity differential between a gas and the 
+liquid medium to promote a high mass transfer rate. Optimal mass transfer rates allow the process to occur at ambient 
+conditions. The concentration reactor will be designed to ensure a high sweeping gas saturation rate, leading to a low 
+energy consumption of the DSP. The properties of the sweeping gas can be varied to control the concentration rate 
+and maximum output concentration, in a completely automated and flexible manner.  
+TRSA, IRIS, SolvGe and Solvay will focus on the design, integration and testing of the electrolyzer and DSP system 
+with the necessary auxiliary systems, fluid management, control and safety, electricity supply and management to 
+pave the way for the demonst ration of POWER2HYPE pilot plant in Phase III. A digital twin of the demonstration 
+will be designed by IRIS, and the process chain will operate virtually before the physical prototype, thereby finding 
+important bottlenecks in the process. The H2O2 production will be integrated with the DSP to supply a single pilot 
+unit that can be completely operated from one control panel.  
+At the end of the second phase, the decision milestone 8 will define the status of the project . With this decision 
+milestone it will be evaluated if the stacks can produce H2O2 in the targeted amounts (20 kg/d, 3 kWh/kg H2O2, 160 
+% FE, 400 mA cm2) and the integration with DSP is accomplished.  
+Phase III – M36-48, TRL 5-6  
+The last phase of POWER2HYPE will concentrate all efforts into the demonstration of the reaction and process that 
+turns water, air and renewable electricity into the production of H2O2. This activity is covered by Solvay and TRSA 
+and represents the highlight of the POWER2HYPE project. The objective is the demonstration at TRL 5-6 of a 
+viable and integrated electrochemical process in an industrial environment with the capacity of producing 20 kg/day 
+(based on 100 wt.% H2O2). Although there is the potential to concentrate H2O2 up to 99 wt.%, the DSP will tune for 
+a maximum of 70 wt% for storage-safety reasons. The whole process chain is to operate at efficiencies meeting and 
+exceeding those of competing processes. Furthermore, in the European-wide roll-out of the technology, its connected 
+economic, environmental and societal impacts will be assessed by EI, TRSA, IRIS and Solvay. IRIS will transfer the 
+technical data into a virtual demonstration for extensive optimization modeling and predictive robust process 
+integration and upscale. The time-resolved upscale approach provides the ability to follow the dynamics of fluctuating 
+renewable power supply to be taken into account, so that a GHG -neutral process can also be ensured in operation. 
+Technological learning curves considering component co st level will be designed based on literature data and 
+POWER2HYPE results. This learning curve model will serve as input for an early TRL CAPEX, OPEX and 
+economic viability assessment, including sensitivity analyses.  
+  
+1.2.3 National and international research and innovation activities linked to POWER2HYPE  
+The POWER2HYPE project plans to implement networking activities and links with existing projects in order to 
+consider and compare the research and results implemented and include when relevant their results into the project. 
+This task will be facilitated by the fact that several partners in the project are already involved in initiatives using 
+similar technologies, and closely related to the topic of electrochemistry and sustainable processes.  
+Table 5: Related past and current projects of POWER2HYPE consortium partners where outputs feed into the project.  
+Initiative / project   Description  Partner  
+
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+101091934 - POWER2HYPE - Part B - Page 17 of 45  
+  
+CO2EXIDE – (H2020)  CO2-based electro synthesis of ethylene oxide Process 
+development for the anodic H2O2   
+FHG, EI  
+LIBERATE – (H2020)  Lignin biorefinery approach using electrochemical flow  FHG  
+“Electricity as a resource” – 
+FHG Lighthouse intern project  
+Development of electrochemical process, components, and 
+system evaluation  
+FHG  
+FP7 Necobaut  Develop a new concept of battery for automotive based on a 
+new metal/air technology that overcomes the energy density  
+TRSA  
+ limitation of the Li-ion batteryAssociated with document Ref. Ares(2022)7691164 - 08/11/2022   
+EU Life Zaess  Development and demonstration of an innovative zinc -air 
+energy storage technology that can address the challenges of 
+integrating intermittent renewable energy. This innovative 
+zinc-air flow battery combines the advantages of metal -air 
+batteries and flow batteries.  
+TRSA  
+EEA GRANTS SAMER  Development of a proprietary zinc-air flow battery technology 
+for grid scale storage of renewable energy. Zinc -air flow 
+batteries are a low cost, safe and environmentally friendly 
+energy storage technology.  
+TRSA  
+Green  Oxidants  (National  
+funding)  
+Decentralized production of H2O2 focussing on the 2 electron 
+ORR solely.  
+WR  
+Hyper (Dutch science foundation 
+(DSF)  
+  
+Project on the electrocatalytic H 2O2 production via the 2 
+electron ORR using noble metal free catalysts and new 
+membranes.  
+WU,  WR,  
+Solvay  
+Versatile and sustainable energy 
+sources for society (DSF)  
+Proof of concept and development of a H 2O2 concentration 
+system, from laboratory to small pilot scale.  
+SolvGE  
+  
+1.2.4 Interdisciplinarity of the project  
+In POWER2HYPE all the partners have knowledge and expertise revolving 
+around the electro-chemical sector and cover different links of the H2O2 value 
+chain (Figure 9). The consortium is composed by solid, experienced and 
+leading industrial organizations, which possess substantial resources and 
+networks to follow through with the project. The consortium is also counting 
+renowned universities, research institutes and sophisticated technology 
+developers representing the various areas of expertise that contribute to the 
+design and development of the proposed solution with all entities coming 
+from countries all acro ss Europe. Finally, dedicated partner will perform 
+communication to publicity, dissemination and exploitation to stakeholders.   
+  
+1.2.5 Social science and humanities  
+POWER2HYPE contributes to Social Sciences and Humanities (SSH) 
+dimension in three major socio-economic aspects, namely competitiveness, 
+climate change and energy dependency . As the project enables a new Figure 9: The POWER2HYPE consortium . 
+sustainable electrochemical process for H2O2 production, it contributes to decarbonization of the industrial sector by 
+changing an established chemical route. Specifically, the new electrochemical process will achieve a significant 
+reduction in the overall energy efficiency compared to the classical anthraquinone (AO) process (Table 1). In 
+addition, because the design makes use of sustainable and abundant materials as catalysts and cell components, it 
+becomes inherently less burdensome from a resource demand standpoint, which simultaneously contributes to 
+regional strategic economic independence and sector competitiveness.  
+Furthermore, concerning the actual material and energy demands of the POWER2HYPE process, no waste/side 
+product will be generated (side reactions lead to low amounts of O 2, H2O and H 2 only). In another words, the new 
+process will transform this industry into one of Zero-Waste Manufacturing. The new process will also enable a 
+low-energy downstream process to provide pure H2O2 at any desired concentration up to 99 wt.%.  
+
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 18 of 45  
+  
+Finally, it will improve the dynamics/agility of the process by allowing it to adapt and fully rely on the intermittent 
+availability of renewable electricity. Consequently, an additional and very significant advantage will be to enable the 
+decentralized H2O2 production.  
+  
+1.2.6 Gender dimension  
+POWER2HYPE includes the gender dimension at various levels, as it is a transversal matter. The gender, diversity 
+and equality dimension will play a role in the socio -technical analysis in WP7, i.e., in the stakeholder assessment, 
+taking in consideration how the gende r dimension can be of importance in risk perception or acceptance of a 
+technology. Also, the roll-out/commercial setting of a technology potentially influences the attractiveness to people 
+with e.g. different genders or family statuses, as e.g. the locatio n or operational mode of a plant directly influences 
+to whom a working position is attractive. All the partners in the project have gender equality policies that will be put 
+forward and complied with during the project. For instance, Solvay has stated its commitment to be a completely 
+gender-balanced organization by 2030. EI is part of the Equal by 30 initiative 45 and has a gender, diversity and 
+equality plan implemented. The FHG has a goal to increase the proportion of female workers in research and ensure 
+the reconsiliation of work, private and family life. The POWER2HYPE consortium commits to promotion of gender 
+equality throughout its implementation cycle. Specifically, the participation of female scientists in managerial and 
+technical coordination responsibilities in the project will be encouraged, thus pushing their careers. The following 
+female scientists will lead tasks at various levels in the POWER2HYPE project:  
+Table 6: Gender dimension in POWER2HYPE.  
+FHG  Dr. Luciana Vieira (project coordinator), Lisa Wünsche / Jenny Ulrich (administrative).  
+SolvGE  Dr. Jyoti Botchu Vara Siva (CEO) and Larissa Arif (product engineer)  
+EI  MSc. Valerie Rodin performs (TEA & LCA), Dr. Karin Fazeni Fraisl ( LCA and sociotechnical 
+analysis), Dr. Christina Friedl (stakeholder, sociotechnical and STEEP analysis).   
+IRIS  Ana Maria Lopez and Alexandra Poch are project & innovation managers  
+WU  Dr. Guanna Li (team scientist) and Susan Witte (technician)  
+Dia  Dr. Hanadi Ghanem (team engineer for chemistry)  
+   
+Furthermore, most consortium members support the principles as set out in the European Charter for Researchers & 
+the Code of Conduct for their recruitment and are dedicated to responsibly comply with the principles of 
+nondiscrimination, gender balance and the provision of fair framework conditions to all researchers.   
+1.2.7 Open science strategy  
+Open science practices (i.e. an approach based on open cooperative work and systematic sharing of knowledge and 
+tools as early and widely as possible in the process) will be implem ented as an integral part of our proposed 
+methodology and for increasing our chances of delivering our objectives, as follows:  
+• Early and open sharing of research: publications in open access journals ensuring early sharing of publications 
+(pre-prints) to satisfy open access requirements and enabling quick sharing of knowledge via deposit in 
+repositories. Participation in open peer -review will also be encouraged to ensure transparency and support the 
+shift towards Open Science.  
+• Open access to research data  and other related research outputs  (e.g. to software, algorithms) will be 
+promoted following the principle 'as open as possible, as closed as necessary' and our strategy is to ensure that 
+Open Science and IPR Management and closely linked.  
+• Research output management: all research outputs will be documented by the generators (researchers) of the 
+outputs. Aspects as ownership, novelty, IPR protection, etc. will be established in a timely manner, and 
+knowledge, data and information available for open dissemination will be confirmed prior to publication.  
+• Measures to ensure reproducibility of research outputs: relevant technical standards will be adhered to in 
+order to ensure that scientific information, publications, data and other outputs from our project, as well as the 
+metadata about them, is available for re -use in the long term. This will involve the use o f persistent and unique 
+identifiers, of certified repositories that are compliant to the standards of the European Open Science Cloud and 
+in compliance with the FAIR principles for the management of research data produced by projects.  
+ 
+45 https://www.equalby30.org/en  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+101091934 - POWER2HYPE - Part B - Page 19 of 45  
+  
+1.2.8 Data management  
+The POWER2HYPE consortium will deal with different type of data during the project activities: (i) scientific data 
+coming from the project research activity and derived by merging, elaborating and analyzing existing data and (ii) 
+data from press, blogs, forums and social networks.  Scientific data  
+Regarding the intellectual property management and protection of results, the consortium will examine the possibility 
+of protecting the project results (especially those expected to be commercially or industrially exploited) according to 
+the Grant Agreement. In order to monitor this during the project, the consortium has appointed FHG as Innovation 
+and IP manager. The following depicts the preliminary IP strategy of POWER2HYPE:  
+• Research and technology development partners retain the IPR of the technologies they invent and benefit from their 
+eventual industrial uptake as well as expand their scientific excellence.  
+• Technology developers expand their application portfolio and retain the right to commercialize new  application in 
+cooperation with industries (research and technology development).  
+• The end-users are granted priority in applying the novel technologies in cooperation with POWER2HYPE technology 
+providers and the research and technological development partners  
+Background IP and outputs will be identified and agreed by project partners within the Consortium Agreement (CA)  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 20 of 45  
+  
+on base of the common and approved DESCA model. In general, the Consortium is committed in making all research 
+data findable, accessible, interoperable, and reusable (FAIR), in compliance with the  “Guidelines on FAIR Data 
+Management in Horizon Europe”. Data will be periodically stored in reliable facilities that permit recovery and do 
+not compromise their integrity European Open Science Cloud (EOSC).   
+Data from press, blog, forum, and social network  
+Press articles are public and are not associated with any ethical issues. For what concerns data coming from blogs, 
+forums, and social networks, POWER2HYPE will comply with the privacy policy signed by the users for writing 
+information on the blog, forum or social network.   
+Data Management Plan  
+POWER2HYPE will collect and analyze data collected during the project and data that are publicly available or for 
+which agreements will be established during the first months of the project. Data will be formalized in 
+(semi)structured databases for their analysis in the project. Data use, if necessary, will be granted under a specific 
+non-disclosure agreement. Data collected will never include information raising ethical issues (e.g., personal). 
+Additional cases that may arise will be regulated according to the Grant Agreement and the Consortium Agreement.  
+POWER2HYPE recognizes the value of regulating research data management issues and foresees the delivery of a 
+Data Management Plan (DMP). The DMP will define how research data will be handled during the POWER2HYPE 
+lifetime and after it is completed. It will be a dynamic document that will be delivered under the leadership of the 
+coordinator and with a strong involvement of the General Assembly.   
+How will this data be exploited and/or shared/made accessible for verification and re-use?  
+All data will be first made anonymous to remove personal details, and then published in the EOSC. The 
+POWER2HYPE consortium will guarantee the open access to its publications according to the Grant Agreement. It 
+will undertake the follo wing measures: depositing the project publications in a repository selected from the 
+recommended lists of online archives provided by OpenAIRE (http://www.openaire.eu); providing Open Access 
+publishing (“Gold”) to the project publications; ensuring open ac cess to the bibliographic metadata through the 
+identification of the deposited publication via the chosen repository, and; Creative Commons License to the Online 
+Platform / Website under an Attribution-Non-Commercial 4.0 International (CC BY-NC 4.0). How will this data be 
+curated and preserved?  
+Every partner will be responsible for the secure storage of the partner’s own generated data in reliable facilities that 
+permit recovery of lost data and that do not compromise data integrity, such as the intranet of the POWER2HYPE 
+website and OpenAIRE compliant data repositories (once results are published).  
+  
+2. Impact  
+While the EU aims to become to become the first major economy 
+to become “climate -neutral” by 2050, the chemical industry 
+remains an energy intensive industry (612 TWh in fuel and power 
+consumption in 2014, sector -wide, with 120 Mio tons CO 2 in 
+related emissions). A large amount of manufactured chemical 
+products are supplied to virtually all downstream sectors, which 
+range from rubber and plastics, construction, automotive, pulp 
+and paper,  textiles to agriculture. 46 For many processes in the 
+chemical industry and other sectors, defossilization is intrinsically 
+complex considering the use of fossil feedstocks and the challenge 
+to switch to renewable carbon -based feedstocks. Alternative 
+chemical pathways to non-carbonous chemicals are in that sense 
+less complex and can play a frontrunner role in the transition to 
+more sustainable production pathways through “electrification” of 
+their production processes. To significantly contribute to the  
+transition towards a carbon-neutral economy with the milestone Figure 10: Hydrogen peroxide key applications.8 of reaching 
+60% emissions reduction by 2040 and the final target of full carbon -neutrality by 2050, it is vital to realize a 
+technology breakthrough with the focus on bulk chemicals. H 2O2 is a bulk chemical, with a production capacity in 
+Europe of 1.2 million tons, 8 leading to significant GHG emissions of 2.4 million tons CO 2,13 which is 1.8%, to the 
+total GHG of the chemical industry in Europe.14 Electrification of the current H2O2 process is therefore an ideal case 
+ 
+46 https://cefic.org/a-solution-provider-for-sustainability/a-journey-to-sustainability/low-carbon-energy-and-feedstock-for-the-european-chemical-
+industrystudy/   
+
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+101091934 - POWER2HYPE - Part B - Page 21 of 45  
+  
+for the storage of renewable electrical energy in chemical bonds and thereby creating a huge impact given 
+the significant GHG emission reduction potential of the chemical industry in Europe and beyond.   
+  
+Hydrogen peroxide production can be a first -of-a-kind demonstration of a new electrochemical process 
+facilitating a more sustainable future for the chemical sector. The switch from the AO process to POWER2HYPE 
+technology will have an impact on most abovementioned sectors from a life cycle perspective and will also bring 
+benefits to several key H2O2 applications (Figure 10) thanks to technology transfer.   
+If POWER2HYPE is successful, the technology can reach TRL 9 by 2035 and, considering Solvay’s customer 
+portfolio, it has the potential to take a considerable part replacing its 40% of the European predicted production 
+capacity for H 2O2. Following this implementation trajec tory, by 2050 there could be a complete switch of the 
+production model for hydrogen peroxide, as illustrated in Figure 11.  
+  
+  
+Figure 11: Implementation roadmap for POWER2HYPE technology. Following full-scale demonstration of the technology after  
+POWER2HYPE’s end and reaching TRL9 by 2035, market uptake is projected to reach a share of 40% in Europe by about 2040, 
+corresponding to a market volume of 1 billion Euro, and to 80% or more of the global market by 2050.
+2.1 Expected impacts   
+2.1.1 Project outcomes and contribution to key strategic orientations (KSOs) and expected impacts  
+Outcome 1: Electrification of the industrial production process by shifting from the chemical conversion 
+process to an electrochemical conversion process  
+State o f play:  Anthraquinone oxidation (AO) process: multi -step chemo -catalytic process requiring Pd -based 
+catalysts, organic solvents, hydrogen gas, and energy input. Hydrogen gas is still produced mainly by steam 
+reforming of natural gas (CH4). Concentration of raw H2O2 takes place by distillation.  
+POWER2HYPE contribution: The multi-step AO process is replaced by direct electrochemical production of 
+H2O2via paired electrolysis of water and oxygen from air. POWER2HYPE will demonstrate this electrochemical 
+production on pilot-scale and identify possible implementation sites of the process.  
+Main beneficiaries/stakeholders: i) end-users will have a “green” alternative for conventional H 2O2 supply; ii) 
+operators of renewable energy plants who can produce chemicals i n periods of low energy demand; iii) chemical 
+parks with adjacent renewable energy plants; iv) civil and political society through a new technology contributing 
+to a climate-neutral economy and limiting global warming.  
+KPI (associated): Successful demonstration of “electrifying” H2O2 production: POWER2HYPE pilot plant is 
+successfully operated at Solvay, producing up to 20 kg/d of H2O2.  
+Contribution to KSO: C and A  
+Contribution to expected impact in cluster 4: sustainable by design advanced technologies  
+Contribution to specific objectives of the Processes4Planet: S.O. 1 Integrating renewable energy  
+Outcome 2: Efficient integration of renewable electricity to drive the conversion process  
+
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 22 of 45  
+  
+State of play: The energy demand of the AO process is covered by a mix of fossil and renewable energy sources, 
+varying from plant to plant. The hydrogen gas required for the AO process is produced mainly by steam reforming 
+of natural gas.  
+Project contribution:  The POWER2HYPE project will demonstra te highly efficient electrochemical H 2O2 
+production (3 kWh/kgH2O2 at a current density of 400 mA/cm2) using renewable energy sources only. In comparison, 
+an AO process fed with hydrogen gas from electrolysis could cover only 75% of its energy demand by ele ctricity 
+from renewable resources (3 kWh/kg H2O2 out of approx. 4.4 kWh/kg H2O2). To take advantage of intermittency of 
+renewable energy, H2O2 production will be maximized at a surplus availability of electrical energy  
+(low costs) and minimized at a high demand of electrical energy (high costs). As such, the electrochemical 
+process  
+acts as a buffer to store renewable energy in chemical bonds. This Associated with document Ref. Ares(2022)7691164 - 
+08/11/2022coupling with the energy sector envisioned to  
+take place at large scale, as similarly already done with the chlorine-alkali process, but as well as on a decentralized 
+scale making use of an efficient smart grid integration.   
+Main beneficiaries/stakeholders: i) chemical and energy industry through sec tor coupling; ii) H 2O2 end-users 
+with ambitions to minimize their climate footprint; iii) H 2O2 producers being able to offer climate -friendly 
+production technologies; iv) civil and political society through a new technology contributing to a climate-neutral 
+economy and limiting global warming.  
+KPI (associated): Electrochemical H2O2 produced at 400 mA/cm2, FE of at least 160% (both half-cells) and 
+specific energy consumption of 3 kWh/kgH2O2 or less for the electrolytic step, completely driven by renewable 
+electricity.  
+Contribution to KSO: C and A  
+Contribution to expected impact in cluster 4: sustainable by design advanced technologies  
+Contribution to specific objectives of the Processes4Planet: S.O. 1 Integrating renewable energy  
+Outcome 3: Significant reduction of CO 2 emissions of the overall industrial process, including the emissions 
+related to the generation of the electricity  
+State of play:  Indirect CO 2 emissions of the AO process are estimated in 2.49 kg CO 2 per kg H 2O2 produced, 
+corresponding to current annual CO2 emissions of 3 Mt per year in Europe.  
+Project contribution:  The use of only water, air and renewable electricity as sole feedstocks in the 
+POWER2HYPE technology will decrease the CO2 emission of the electrochemical production process to close to 
+zero. CO2 emissions associated with H 2O2 purification and concentration will be kept at a minimum by 
+implementation of a novel concentration technology, also driven by renewable energy.  
+Main beneficiaries/stakeholders: i) H2O2 end-users with ambitions to minimize their climate footprint; ii) H2O2 
+producers being able to offer climate -friendly production technologies; iii) civil and political society through a 
+new technology contributing to a climate-neutral economy and limiting global warming.  
+KPI (associated): Reduction of the CO 2 emission per kg  of H 2O2 in the complete value chain (including 
+concentration) by 90% vs. conventional AO process, i.e. from 2.49 down to <0.25 kg CO2 per kg H2O2.   
+Contribution to KSO: C and A  
+Contribution to expected impact in cluster 4: Clean and climate neutral value chains  
+Contribution to specific objectives of the Processes4Planet: S.O. 3 Moving towards commercially viable climate 
+neutral and circular industry solutions  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+101091934 - POWER2HYPE - Part B - Page 23 of 45  
+  
+  
+Figure 12: POWER2HYPE’s impact roadmap in terms of electricity consumption and CO2-related emissions. Roll-out of the POWER2HYPE 
+technology could result in 38% less fossil energy consumption and 44% less CO2 emissions in the EU by 2040 and in 80% less fossil energy 
+use and CO2 emissions worldwide by 2050, compared to the conventional business-as-usual H2O2 production scenario.   
+  
+Outcome 4: Energy savings compared to the classical production routes  
+State of play: The anthraquinone process consumes 16×106 J/kg = 4.4 kWh/kg, even though the overall process 
+(H2 + O2 → H2O2) is thermodynamically favorable and theoretically requires no additional energy input (ΔG° f = 
+−2.6×106 J kg -1, ΔH° f = −5.5×106 J kg -1). Thus, reducing the energy demand and decreasing the ecological 
+footprint in the production of H2O2 would contribute to sustainable global development.  
+Project contribution:  POWER2HYPE target is an electric energy consumption of 3 kWh/kg for the 
+electrosynthesis step, which means a reduction by more than 30% compared to the classical AO process.  
+Main beneficiaries/stakeholders: H2O2 producers (efficient production)  
+
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+101091934 - POWER2HYPE - Part B - Page 24 of 45  
+  
+KPI (associated): Energy saving of the POWER2HYPE process compared to the AO process, demonstrated on 
+Associated with document Ref. Ares(2022)7691164 - 08/11/2022 pilot scale (target: 30% reduction)  
+Contribution to KSO: C and A  
+Contribution to expected impact in cluster 4: Clean and climate neutral value chains  
+Contribution to specific objectives of the Processes4Planet: S.O. 3 Moving towards commercially viable 
+climate neutral and circular industry solutions  
+Outcome 5: Overall material savings (waste reduction) compared to the classical production routes  
+State of play: The AO process consumes organic solvents (2 – 5 kg per ton of H2O2) and quinone (0.5 - 2.5 kg per 
+ton of H 2O2)8., and has incomplete recovery or regeneration of chemicals. Furthermore, it requires noble metal 
+catalysts (Pd), which cannot be always completely recycled: Losses of 0.1 -0.3 g per ton of H 2O2 correspond to 
+120-360 kg Pd per year. Additionally, H 2O2 producers generate emissions of about 10 g volatile organic 
+compounds (VOC) and 15 m3 waste water with 0.6 kg total organic carbon (TOC) per ton H2O2 produced. These 
+water streams require further treatment.   
+Project contribution: The POWER2HYPE process does not require organic solvents and does not produce any 
+critical waste. Moreover, the utilization of noble-metal-free materials for cathodes rather than palladium will have 
+an impact on the EU competitiveness, as this critical raw material’s supply chain comes from unstable markets 
+such as Russia. Furthermore, environmental burdens through toxic wastes associated with the mining of precious 
+metals are avoided.   
+Main beneficiaries/stakeholders: i) H 2O2 producers being able to offer sustainable and low -waste production 
+technologies; ii) H2O2 end-users with ambitions regarding sustainable supply chains; iii) civil and political society 
+through a new technology contributing to an environmentally friendly economy.  
+KPI (associated): 0% use of organic solvents, noble metal catalysts or other critical materials.  
+Contribution to KSO: C and A  
+Contribution to expected impact in cluster 4: Circular economy  
+Contribution to specific objectives of the Processes4Planet: S.O. 3 Moving towards commercially viable 
+climate neutral and circular industry solutions  
+Outcome 6: Competitive costs of the new process technology and its integration in the processing line, 
+including upstream and downstream  
+State of play: AO process plants comprise infrastructure for H 2 supply (could be replaced by H 2 electrolyzers), 
+chemical reactors for AQ hydrogenation and H2O2 synthesis including the required safety infrastructure, extraction 
+columns, distillation columns for purification and concentration. Operation costs of the AO process are driven by 
+energy costs, by required replacement of the solvents (incomplete recovery), and by catalyst replacement.  
+Project contribution: CAPEX and OPEX of the POWER2HYPE process will be based on the specific application 
+scenario (e.g. plant si ze, local electricity costs). The required system components are limited to the electrolysis 
+stage, possibly a purification step (if H2O2 contains traces of salts, acids or bases), and a concentration stage. The 
+relatively simple set -up results in low manu facturing costs. Operation costs are dominated by electricity costs. 
+Here, the POWER2HYPE approach of co-producing H2O2 in the anodic AND cathodic half -cell lead to doubled 
+faradaic efficiency compared to a single anodic or single cathodic process, thus ha lving operation costs. 
+Additionally, full marketability of the product can be expected due to its 100% “renewability” bonus under CO 2 
+emission trading systems, such as the EU’s ETS, potentially compensating for slightly higher cost of production, 
+when compared to the conventional production pathway. Coupling with the energy sector through “electrification” 
+of chemical production will help creating a stable and balanced renewable energy landscape, with reduced grid 
+violations and hence reduced energy costs for the entire society.   
+Main beneficiaries/stakeholders: i) H2O2 producers; ii) H 2O2 end-users interested in supply with economically 
+competitive sustainable H2O2 or in local (on-site) and on-demand H2O2 production for own use.  
+KPI (associated): Economic competitiveness of the POWER2HYPE technology confirmed by techno-economic 
+assessment, realistically assuming current density of 400 mA/cm2, FE of 160% or more (over both half-cells) and 
+specific energy consumption of 3 kWh/kgH2O2 or less for the electrosynthesis step.  
+Contribution to KSO: C, A and D  
+Contribution to expected impact in cluster 4: new business models  
+Contribution to specific objectives of the Processes4Planet: S.O. 3 Moving towards commercially viable climate 
+neutral and circular industry solutions  
+  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 25 of 45  
+  
+In addition to the impacts and outcomes abovementioned, POWER2HYPE contributes to the following Sustainable 
+Development Goals (SDG):  
+• SDG 6: Clean water and sanit ation: POWER2HYPE technology allows also small -scale and remote H 2O2 
+production, where the product can be used for drinking water treatment, sanitation and disinfection. It is planned  
+to validate the applicability of the H 2O2 produced in Task 6.3 in indus trial processes, in collaboration with 
+industrial end-users as external partners. As part of this validation, it will be tried to also show the applicability 
+in water treatment, sanitation or disinfection, thus validating the potential contribution of the POWER2HYPE 
+contribution to SDG 6.   
+• SDG 7: Affordable and clean energy:  H2O2 is not a useful energy carrier, but electrochemical production 
+contributes to effective coupling of energy sector and chemical industry, thus enabling buffering of load peaks 
+and balancing renewable energy supply over time. Contribution of POWER2HYPE to this SDG to be validated 
+through examination of the load flexibility of the process in Task 6.3.   
+• SDG 12: Responsible consumption and production.  POWER2HYPE technology represents a  totally 
+renewable production pathway, based on the consumption of renewable energy, water and oxygen from air as 
+only raw materials. Problematic waste streams and emissions of hazardous compounds are avoided. It is therefore 
+a technology option for responsible production. Contribution of POWER2HYPE to SDG 12 can be validated at 
+the end of the project through evaluation of the list of raw materials used for the developed process with respect 
+to their toxicity and through evaluation of the KPI for Outcome 5 (0% use of organic solvents, noble metal 
+catalysts or other critical materials).  
+• SDG 13: Climate action.  POWER2HYPE production process is expected to be completely CO 2-neutral. 
+Contribution of POWER2HYPE to SDG 13 can be validated based on the results of Task 7.3 (LCA) and through 
+corresponding evaluation of the KPI with respect to Outcome 3 (reduced specific CO 2 emissions by 90% or 
+more).  
+  
+2.1.2. Framework conditions, regulations, and policies  
+The European Green Deal  
+In line with the European Green Deal, POWER2HYPE shall be a positive force in the European chemical industry’s 
+ambition to become climate neutral by 2050. Reaching this goal will only be possible with the help of climate-neutral 
+and circular economy solutions developed by the industrial players themselves, in our case, the development and 
+implementation of an electricity-based process to produce H2O2 that can benefit from a progressive decarbonization 
+of the power sector.  
+Moreover, the project will contribute to the EU Chemicals Strategy for Sustainability , which is the first step 
+towards a zero-pollution ambition for a toxic-free environment announced in the European Green Deal. In line with 
+the strategy’s aim to significantly increase the protection of human health and the environment from harmful 
+chemicals, POWER2HYPE will develop a flexible technology that will produce H 2O2 on-site at nearly any 
+concentration. This feature will remove the need to handle, transport and store highly concentrated H 2O2 solutions 
+thus increasing substantially the safety of the process. No organic solvents are required in the POWER2HYPE 
+production process and no critical waste streams are generated. A ll materials (including catalysts) are free of noble 
+metals, thus avoiding upstream wastes, e.g. in mining processes.   
+Moreover, the impact of a greener production of hydrogen peroxide on its end -markets will be substantial. As 
+already introduced on Figur e 10, H 2O2 is utilized in several industries with a large carbon footprint that will be 
+decreased thanks to POWER2HYPE. The environmental burden of conventionally produced H 2O2 that is currently 
+propagated to the downstream processes where H2O2 is used, will be drastically reduced by shifting H2O2 production 
+to POWER2HYPE technologies.   
+  
+Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH)  
+Along with the EU Chemicals Strategy for Sustainability, the European Commission has begun to work on a revision 
+of the REACH regulation in January 2022. It is expected, that the electrochemically in POWER2HYPE produced 
+H2O2 can be considered as “drop -in” product, so that no new REACH registration will be necessary. However, if 
+there are any impurities or, e.g., electrolyte salts from the anodic half -cell reaction present in the H 2O2 solutions, a 
+new registration might be required.   
+  
+Regulations and specifications related to specific applications  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 26 of 45  
+  
+The requirements in terms of quality and purity of H2O2 depend on the specific on the targeted application. As the 
+generated H2O2 is expected to be very pure and of high quality, no severe implications regarding to its application 
+are expected. However, the quality and suitability of produced H 2O2 will be validated as part of WP6 
+(Demonstration).  
+   
+2.1.3. Barriers     
+The following potential barriers for the industrial implementation of POWER2HYPE technology have been 
+identified:  
+• Availability of cheap carbon-neutral energy that represents a very substantial part of, or could even exceed, the 
+low-carbon power capacities anticipated by the International Energy Agency (IEA) in 2050. This a general 
+challenge for all Power -to-X technol ogies, also in the context of growing e -mobility and of other sectors 
+transitioning to renewable energy base. This challenge can only be met through intensified scale -up of renewable 
+electricity generation, particularly in regions with favorable solar and wind potentials. This scale-up must be a top 
+priority of policies in the EU and in all member states.   
+• Higher production costs related to using low-carbon technologies. This is also a general challenge for renewable 
+alternative production pathways in comp arison with conventional fossil -based processes. Competitiveness will 
+increase through rising prices of fossil feedstocks (such as currently induced by the Russian war in Ukraine) and 
+common price volatility in fossil markets. Competitiveness will also inc rease through enhanced efficiency from 
+technical learning curves, once the POWER2HYPE technology will be industrially implemented. Furthermore, 
+regulatory frameworks, such as the EU ETS, provide an economic advantage for sustainable production pathways. 
+Finally (but importantly), price premiums for “green” products are to a certain extent accepted by users who 
+advertise the sustainability of their products.   
+• Investment requirement. Large-scale roll-out of new production processes require substantial invest ments. The 
+main barrier in this context is the risk and uncertainty related to such investments. Companies need to have the 
+certainty that there is a stable market for new product, in particular in the light of a cost premium of newly 
+introduced renewable products (compared to conventional fossil-based counterparts). Planning reliability must be 
+provided through stable political and regulatory frameworks, clearly and reliably favoring truly sustainable 
+production processes.   
+• Manufacturing experience and prove of concept on a large industrial scale is missing . Key technologies for 
+POWER2HYPE, such as the specific electrochemical cell, electrodes, membranes and the concentration unit, have 
+not been developed and proven at scale. Even though electrochemical process and reactors in general have already 
+been industrially implemented (e.g. in chlor alkali and water electrolysis), manufacturing of specific 
+POWER2HYPE components has still to be established. To do so (up to pilot-scale) is one of the project’s objective. 
+Beyond POWER2HYPE, more R&D efforts should be dedicated to the development of gas -diffusion electrodes 
+(GDE) and related technologies (membranes, electrochemical cells, etc.), as such technologies are crucial for 
+successful implementation of electroch emical conversion of gaseous educts. More dedicated R&D projects will 
+help to readily provide the technologies when they are needed at relevant scale. An important gap to be filled also 
+is to build a solid knowledge base on the investments cost to be expec ted when scaling the process further up. 
+Techno-economic studies on the relation between CAPEX, OPEX, process performance, market and regulatory 
+boundary conditions are crucial to better understand financial requirements and risks associated to industrial rollout 
+of the POWER2HYPE technology and other electrochemical processes. For this reason, there is an entire work 
+package dedicated to technology impact assessment (WP7) in POWER2HYPE. Such assessment studies should 
+generally be part of all R&D projects on renewable technologies, processes and products.   
+• Social acceptance of sustainable chemicals and awareness creation.  The social acceptance of the 
+POWER2HYPE technology itself is not expected to represent a barrier, as it offers the possibility to replace  a 
+largescale chemical production process that entails environmental risks and GHG emissions by a sustainable 
+carbonneutral process generating now harmful waste streams. However, the POWER2HYPE approach requires 
+substantial input of renewable electric ener gy. Consequently social acceptance of the scale -up of solar and wind 
+power plants in conjunction with the POWER2HYPE approach are  addressed in a sociotechnical analysis to 
+provide policy recommendations for a successful roll-out of the technology.   
+  
+2.2. Measures to maximize impact  
+  
+The actions to be done to properly maximize POWER2HYPE impacts are classified as follow:  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 27 of 45  
+  
+  
+Figure 13: Areas of activities to maximize the impact of POWER2HYPE.  
+This section describes the communication, dissemination, and exploitation activities to maximise the impact of the 
+POWER2HYPE project.   
+  
+2.2.1 POWER2HYPE External Advisory Board (EAB)  
+To consider the key end-user requirements and facilitate the further market uptake of the innovative POWER2HYPE 
+process, early in the project (M6), the project partners will set-up an External Advisory Board, mostly composed of 
+industrial end-users to be involved during the project (see section on exploitation below for more details). The EAB 
+will provide technical support to the project and supervise and validate the accomplishment of objectives. This has a 
+technical intention, but also a commercial and dissemination goal. EAB members will be regularly (at least once per 
+year) join part of the regular consortium meetings where key project findings will be presented and discussed. 
+Advisory Board members give feedback and recommendations to adjust the focus of R&D activities, in agreement 
+with the work plan.   
+  
+2.2.2. Dissemination and exploitation of results   
+2.2.2.1. Dissemination plan  
+As initial activity, relevant external stakeholders and the targeted audience for the POWER2HYPE dissemination 
+activities are identified. The appropriate channels here selected will be fine-tuned during the project and the identified 
+tools will be adapted to the project’s case. The following dissemination plan describes the potential of the 
+POWER2HYPE consortium for outreach at a regional/national and EU levels by support and use of the free-ofcharge 
+services of the EU-funded world’s largest support network for SME, Enterprise Europe Network (EEN).  The key 
+dissemination goals are: i) To make POWER2HYPE results, findings and technologies known to relevant scientific 
+communities, relevant indus trial stakeholders and interested public; to enhance reach of the project at local, 
+national and European and international level; to pave the way for exploitation of POWER2HYPE results, 
+findings and technologies.  
+  
+Key stakeholders and main target audience  
+1. Industries utilizing hydrogen peroxide: This includes various sectors such as other chemical industries, pulp 
+& paper, mining activities, textile industries, food processing & packaging, wastewater treatment processes, 
+electronics, etc. POWER2HYPE main industrial stakeholders and end -users will be approached through 
+associations’ events and also: Participation in scientific and technology/industry conferences introducing new 
+technology developments and the new technology proposed  
+  
+a. Participation in scientific and technology/industry conferences;  
+b. Publications in industry-relevant and scientific journals;  
+c. Participation in fairs related to technologies and final product applications.  
+2. Associations in the chemical sector and end markets:  members and decision -makers of the following 
+associations will be approached:   
+a. CEFIC: the European Chemical Industry Council is the main European trade association for the 
+chemical industry.  
+b. EuChemS: the European Chemical Society is an umbrella organization representing national Chemical 
+Societies and other chemistry-related organizations in Europe.  
+c. Cepi: European association representing the paper industry (with four standing committees, taking 
+longterm strategic perspectives on issues affecting the industry, including environment and safety.  
+d. Euromines: representative of the European metals and minerals mining industry   
+3. Academic and research institutions (including universities and R&D centers, Ph.D. candidates, postdocs, etc.): 
+Scientific activities within a collaborative space where formal and informal teams and networks promote sharing 
+best practices and experiences on electrochemistry and sustainable processes. Synergies, cooperations and vivid 
+
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 28 of 45  
+  
+exchange with other R&D projects thematically related to POWER2HYPE will facilitate advances in the 
+development in the field of electrochemical production processes beyond the state of art.  
+4. European agencies and platforms active in sustainable processes: The project will be in line with the 
+Processes4Planet partnership’s objectives. POWER2HYPE results will be disseminated through participation in 
+key events (conferences, brokerage events etc.), encouragement of knowledge sharing in the platforms’ 
+communities and communication through partners already members of such platforms. The following initiatives 
+will be:  
+a. Processes4Planet (SPIRE members IRIS, FHG and Solvay):   
+b. ECHA: the European Chemicals Agency  
+c. EIT Manufacturing: Innovation Community within the European Institute of Innovation &  
+Technology (EIT) – that connects the leading manufacturing actors in Europe   
+d. Relevant agencies and departments of the  European Commission:  including DG CLIMA, DG 
+CONNECT, DG ENER, CINEA, EISMEA, REA, DG RTD, etc.  
+5. Regulatory/national authorities: The POWER2HYPE pilot plant will be located in one of Solvay’s sites in 
+Belgium. Therefore, regional authorities and the general public in Belgium will be interviewed through surveys 
+to study issues related to social acceptance and socio -economic impact potentials of the POWER2HYPE 
+technologies. Additionally, publications in the general press and pilot visits will be used to raise public awareness, 
+interest and acceptance.  
+6. Third parties/joint ventures:  Relevant stakeholders, including technology developers, engineering services, 
+chemical producers, etc., will be approached in fairs and other events with the objective of involving them in 
+POWER2HYPE events and meetings (WP8) and of initiating joint exploitation activities.  
+7. General public/civil society: The project POWER2HYPE will disseminate and communicate its results to the 
+general public by popularizing the information in national and local media as well as in social media including 
+screen casts and videos.  
+  
+Dissemination channels and related communication actions and tools  
+There are several possible channels for disseminating information and project results. The selection of modalities and 
+ways of channeling information and project image may vary in relation to the communication targets. The different 
+modalities and targeted  audience (initial and non -exclusive selection) that will be used by the POWER2HYPE 
+consortium are depicted in Table 7 below.   
+Table 7: Dissemination and communication actions and tools.  
+Description   Related KPI(s)   Audience   Target(s)   
+Topic discussions   # discussions   All   500   
+Meetings   # meetings   All   50   
+Pilot visits at Solvay’s premises (location of the POWER2HYPE pilot plant)   
+# visits   
+# participants   
+# feedback   
+1, 3, 4, 5, 
+6   
+5   
+10   
+5   
+Events: Conferences, fairs, info sessions (e.g on EU-funded conference like  
+EURONANOFORUM and IndTECH, SusCHEM....)   
+# events   
+# contacts made   All   10   
+50   
+Open access publications   # references   1, 3, 4, 6   500   
+R&D seminars/webinars i.e., EU Green Week 2024   # attendees  
+# feedback   3   10   
+Organization of mid-term and final project symposium  # participants   1, 2, 3, 4, 
+6   20  
+Summer school, Austrian Summer School of Energy Transition ASSET 
+2024   
+# PhD, Master 
+students   1, 3   1-60   
+Popular science articles/ interviews in national and local media   # articles   All   15   
+Progress reports   # reports   EC   4   
+Presentations   # presentations  
+# attendees   All   10-20   
+20-50   
+Policy recommendations   #   1, 2, 4, 5   1   
+Website   website statistics   All   1   
+Social media channels (Twitter, Facebook, Research gate, etc.)   # followers   All   100   
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 29 of 45  
+  
+Scientific papers   # scientific 
+papers   3   14  
+Logo and Templates   # produced   All   1   
+Screencasts and Videos   # produced   All   8  
+  
+The partners will also mention POWER2HYPE on their own website and will, on the project website and their own 
+social media channels, release the projects main results to the targeted audience.   
+- FHG  will  use  their  own  website  (www.igb.fraunhofer.de/en)  as  well 
+ as  LinkedIn  
+(http://www.linkedin.com/company/fraunhofer-igb), Twitter ( https://twitter.com/FraunhoferIGB), Instagram 
+(www.instagram.com/fraunhoferigb) and other channels for dissemination and communication of results. FHG 
+will also provide own scientific publications via their own Open Access repository.   
+- TRSA will use their own website (www.tecnicasreunidas.es) and LinkedIn and Twitter channels to disseminate 
+results: https://www.linkedin.com/company/tecnicas-reunidas/ and https://mobile.twitter.com/tecnicas_reun 
+@Tecnicas_reun.  
+- SGL, DIA, IRIS, Solvay  will use as a main online channel their websites:  https://www.solvay.com/en/ ; 
+www.sigracet.com. www.diaccon.de. https://www.iris-eng.com/.  
+- EI will list POWER2HYPE, include a short description and post news/events of the project in their website:  
+https://energieinstitut-linz.at/. They will also use their account on social media and platforms to disseminate key 
+results of the project, namely:   
+o LinkedIn: https://www.linkedin.com/company/energieinstitut-an-der-jku-linz/mycompany/.  
+o Twitter: https://twitter.com/energie_inst.  
+o Peer-reviewed papers in ResearchGate and various scientific platforms (Google Scholar, Zenodo etc.):  
+https://www.researchgate.net/institution/Energieinstitut_an_der_Johannes_Kepler_Universitaet_Linz - 
+ WU and WR will announce the project on its website (www.wur.eu) and their LinkedIn channel.  
+- WU will use example of the project (after clearance) as case in education  
+- SLVG will announce the results on their website ( www.solvge.com ) as well as on LinkedIn.   
+  
+Pre-defined conferences, fairs and workshops  
+For events out of Europe, the coordinator will verify the eligibility before authorizing the assistance of the partners.  
+Table 8: Selected conferences with planned attendance by POWER2HYPE partners.  
+Partner(s)  Conferences  Date  
+FHG, WR  European Symposium on electrochemical engineering   Annually  
+FHG, WR  Annual Meeting of the International Society of Electrochemistry (ISE)   Annually in summer  
+EI  “Green & Sustainable Energy Conference”, Elsevier  Annually in summer  
+EI  
+“Conference on Sustainable Development of Energy, Water and  
+Environment Systems » (SDEWES). In Germany, Croatia and other EU 
+countries (alternating)   
+Annually in 
+October/November  
+EI  “World Sustainable Energy Days” (WSED), in Wels/Austria:   Annually in spring   
+EI  “Internationale Energiewirtschaftstagung” (IEWT), in Graz/Austria:   Annually in spring   
+EI  “ECEEE Summer Studies”, different locations in Europe:   Annually in summer  
+EI  Ökobilanzwerkstatt, DACH countries  Annually, in 
+September  
+WU  North American Catalysis meeting  Biannually  
+WU  Europacat  Biannually  
+WU, WR  Dutch Chemisty and Catalysis Conference NCCC  Annually  
+DIA, FHG  ACHEMA Fair  2025  
+General  IndTECH, EURONANOFORUM  Annually  
+General  SusCHEM  Annually  
+  
+Planned peer-reviewed publications  
+Gold/green open access will be granted for the publications and related data.   
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 30 of 45  
+  
+Table 9: Publications planned by scientific POWER2HYPE partners.  
+Partner  Publications  
+EI  Three Open Access articles on a) Techo-economic & market perspectives, b) Life Cycle Assessment, c) 
+Overall impact assessment of POWER2HYPE technology   
+FHG  Three Open Access articles on process development of anodic H 2O2 generation, testing novel electrode 
+materials and integration of anodic and cathodic half-cell reaction  
+WR  At least two open access articles on a) ORR of H2O2 at a cathodic MEA, b) production of concentrated  
+H2O2 by paired electrolysis   
+WU  At least three open access articles in journals like journal of catalysis, applied catalysis B, and a PhD 
+thesis   
+FAU  At least three open access articles on the development of new BDD -based electrodes in journals like 
+Energy Materials or Diamond rel. Mat.; 1 PhD thesis  
+Articles will also be submitted to channels of EC, such as CORDIS Wire, and HORIZON RESULTS PLATFORM.  
+In addition to scientific papers, the partners will also place publications in industry journals and magazines to inform 
+potential end-users of the POWER2HYPE applications, and to raise awareness of the general public for its application 
+and benefits.  
+  
+2.2.1.2. Exploitation plan  
+In the following, the exploitation strategy and benefits per partner are depicted, followed by an outline of the project’s 
+business cases that will be further developed during the project.  
+  
+Individual exploitation plan  
+Table 10: Exploitation plan per partner  
+Partner  Result  Benefits and strategy for exploitation  
+FHG  
+Electrochemical  
+WOR process 
+development 
+and integration  
+As the world’s leading applied research organization, FHG acts as a link between 
+basic research and industrial application, supporting innovation processes by 
+developing novel and new technologies to a maturity level, from where it can be 
+further progressed by industrial partners towards commercialization. In 
+POWER2HYPE, FHG will develop the anodic H 2O2 production process and will 
+contribute to the electrochemical cell design and process integration. This  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+101091934 - POWER2HYPE - Part B - Page 31 of 45  
+  
+ 
+  development is highly IP -relevant, and Associated with document Ref. Ares(2022)7691164 - 
+08/11/2022FHG plans to protect the generated IP through patents, where possible, and 
+exploit the IP through i) further own development in the course of future publicly  
+funded projects, ii) collaborative development with industrial partners towards 
+commercial application and iii) through licensing. Furthermore, FHG will disseminate 
+results through scientific publications, such as articles and conference contributions, as 
+well as through exhibitions / fairs. This will also lead to increasing FHG’s reputation 
+and acquiring further publicly funded projects as well as collaborations with industrial 
+partners.  
+WR  
+Electrochemical 
+ORR process 
+development 
+and integration  
+As one of Europe’s largest applied research organizations in agricultural and life 
+sciences, WR acts as a link between fundamental research and industrial 
+application, supporting innovation by developing novel technologies to advanced 
+lab or pilot scale, from where it can be transferred to industrial partners for 
+commercialization. In POWER2HYPE, WR will develop the cathodic H 2O2 
+production process and will contribute to electrochemical cell design and process 
+integration. This development is highly IP-relevant, and WR plans where possible, 
+to protect potential new generated IP through patent applications and will exploit 
+the IP through i) further own development in the course of future publicly funded 
+projects, ii) collaborative development with industrial partners towards 
+commercial application and iii) through licensing. Furthermore, WR will 
+disseminate results through scientific  publications, such as manuscripts and 
+conference contributions, as well as through exhibitions and fairs. The 
+dissemination activities will also allow increasing WR’s reputation and acquiring 
+further publicly funded projects and collaborations with industrial partners  
+WU  
+Design of 
+efficient and  
+stable carbon- 
+based ORR 
+catalyst   
+The mission of WU BCT is to develop catalytic conversion strategies relevant for 
+a sustainable future based on fundamental scientific insights. Electrocatalysis is 
+key to achieve sustainable conversions when renewable electricity is used. Within 
+POWER2HYPE we will develop new carbon based catalysts for the production of 
+hydrogen peroxide from air/oxygen and water using electrocatalysis. The approach 
+of the group is based on developing fundamental knowledge but with an eye to the 
+application. The knowledge g ained in POWER2HYPE on new catalysts and 
+integrating the catalyst with other components of a H 2O2 production cell e.g. gas 
+diffusion layers and membranes will be shared with the other partners and 
+published in scientific papers, and conference contribution s after protecting it by 
+IP (when relevant). IP will be transferred to one of the industrial partners when 
+appropriate and desired, after negotiating proper conditions (WU does not 
+commercialize IP itself). This approach will help WU to keep and expand its  
+scientific and applied profile, which will help in acquiring new projects to 
+contribute further to the mission of the group.  
+FAU  
+Stable, efficient 
+and low-cost  
+BDD electrodes   
+The development of efficient, stable and low-cost boron doped diamond electrodes 
+enables a new wide research area for fundamentally scientific and 
+applicationdriven projects. FAU hopes to increase the scientific skills of personnel 
+and students related to BDD-electrodes. This should help the industry to introduce 
+new electrochemical processes, which replace CO2 generating techniques.  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 32 of 45  
+  
+DIA  
+Electrochemical 
+stack  
+  
+DIA is one of a few producers in the world of diamond electrodes in an industrial 
+scale having 20 years of experience in the technology, as well as in coating 
+technology. Thanks to POWER2HYPE, DIA will enable the transfer of the results 
+regarding electrode  manufacturing to production and commercialization. They 
+will also guide partners in their development regarding feasibility in industrial 
+electrode production.  
+After the POWER2HYPE project, DIA will be able to offer a new portfolio of 
+customized electrol yzers using GDEs, membranes and new types of diamond 
+electrodes. The main customer will be manufacturers using electrochemical 
+synthesis processes.  
+EI  Sustainability 
+assessment  
+EI will oversee all sustainability topics in POWER2HYPE, including the 
+modelling of the upscaling scenarios, the technoeconomic assessment (TEA), 
+LCA and overall impact assessment (including stakeholder/societal acceptance, 
+and ecological aspects). POWER2HYPE will allow EI to gain insight into the  
+  H2O2 markets and the latest technologies in the sector. Associated with document Ref. 
+Ares(2022)7691164 - 08/11/2022 EI will use the project results for refined analyses in 
+subsequent projects, i.e., also to identify further research. Also, some of the published 
+results are planned to add to the dissertation projects of involved EI researchers. The 
+KPIs quantified in WP 7 help with targeted upscale and marketing of POWER2HYPE 
+technology development.  
+Solvay 
+Group  
+H2O2 producer  
+Membrane  
+technologies  
+As a key player in the chemical sector, Solvay is one of the main stakeholders in 
+POWER2HYPE and bring their view as a H2O2 manufacturer. As such, SOLVAY 
+main aim is to explore new production technologies where virtually only water and 
+electricity is needed and, therefore, with a substantially decreased environmental 
+footprint.  
+Furthermore, in POWER2HYPE, Solvay will design and develop new ionomers 
+for membrane and electrodes for more robust electrochemical and fuel cells 
+devices.  
+TRSA  
+Pilot scale 
+integrated 
+electrolyser   
+TRSA is committed with the transition to zero -carbon energy supply by closely 
+working with its stakeholders to achieve the IEA’s Sustainable Development 
+Scenario (SDS). TRSA corporate target is to get increasingly involved in projects 
+with a clear positive impact related to decarbonization and do it as fast and as fair 
+as possible. In line with this, TRSA is collaborating in several initiatives for the 
+escalation of electrolysis technologies and other industrial process electrification. 
+POWER2HYPE increases the portfolio of those initiatives by contributing to the 
+development of a novel electrochemistry -based technology for the industrial 
+production of H 2O2. TRSA acts as technology developers that will exploit the 
+prototype as privative equipment for H 2O2 production. TRSA may also make the 
+electrolyser as part of a technology package for the implementation of a H 2O2 
+production plant, including (pre-)feasibility studies, basic and detail engineering, 
+and eventual EPC.  
+SGL  Gas diffusion 
+electrodes  
+SGL is one of the world leading manufacturers of carbon-fiber based materials for 
+fuel cells, flow batteries and electrolysers. SGL’s vision is to explore new markets 
+for carbon fiber-based materials in view of expanding thei r current portfolio and 
+find new customers in new markets. More specifically to POWER2HYPE, they 
+will learn about the critical design criteria of gas diffusion electrodes for H 2O2 
+production and develop new product types based on the experience gained 
+throughout the project. Their direct client profile will be electrode/stack/system 
+manufacturers that utilize large quantities of hydrogen peroxide.  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+101091934 - POWER2HYPE - Part B - Page 33 of 45  
+  
+SLVG  DSP for H2O2 
+Concentration  
+As a pioneer in the field of concentration of H 2O2, SolvGE strives to make H 2O2 
+accessible to any company at any concentration, enabling several initiatives to 
+transition to green oxidizer chemicals. SolvGE´s technology is able to concentrate 
+H2O2 from low concentrations (3 -10%) to any desired concentration  up to 98%. 
+SolvGE’s goals are in line with this project as it ensures high concentration of 
+H2O2 can be utilized in a variety of industries. SolvGE wants to ensure that 
+electrochemically produced H 2O2 becomes accessible to all industries by 
+processing the raw feedstock into any required product quality.  
+IRIS  
+Electrochemical 
+process digital 
+twin  
+IRIS is a technology developer, offering solutions to make end-users optimize their 
+processes, making them more sustainable and reducing their carbon footprint. In 
+the frame of POWER2HYPE, IRIS will develop new capabilities and competences 
+on Digital Twins to control and monitor chemical processes (such as 
+electrochemical conversion), which work with renewable electricity. This project 
+will allow them to increase their client portfolio in the chemical sector. IRIS will 
+be able to offer monitoring solutions, data acquisition and Digital Twins for 
+process optimization to industries wil ling to switch from chemical to 
+electrochemical production of H2O2.  
+  
+Business case for the POWER2HYPE electrochemical process  
+In a nutshell, the initial POWER2HYPE business case will follow Solvay’s current strategy to sell decentralized small-
+scale units for hydrogen peroxide production based on the AO process 47, with the technology developers of the 
+POWER2HYPE acting as key partners.  
+Table 11: POWER2HYPE initial business case.  
+Key partners  
+Solvay Group  
+TRSA  
+DIA  
+SGL  
+IRIS  
+Key activities  
+Know-how in 
+H2O2 
+production 
+Manufacturing 
+& integration 
+of  
+decentralized 
+production 
+units  
+Value proposition  
+Sustainable product 
+Flexibility of the 
+process (upstream & 
+downstream)  
+CO2-free  
+Safety  
+Independent of 
+unstable markets 
+Decreased timeline of 
+installation due to 
+digital twin  
+Customer  
+relationships  
+Long-lasting expertise 
+in H2O2 production and 
+electrolysis Training of 
+staff  
+Customer segments  
+Pulp & Paper  
+Propylene oxide   
+Aquaculture   
+Aseptic Packaging   
+Chemicals  
+Cleaning in Place  
+Etchant/Photovoltaic   
+Electronics  
+Gas scrubbing  
+Healthcare  
+Homecare   
+Mining   
+Personal Care   
+Soil treatment  
+Textiles  
+Wastewater Treatment  
+Key resources 
+Proprietary 
+technologies & 
+know-how on 
+the market 
+Exploitation 
+partnership  
+Channels  
+Solvay’s portfolio of 
+clients and worldwide 
+presence  
+Other channels coming 
+from experienced 
+partners  
+Cost structure  
+Engineering procurement personnel, integration, testing 
+and commissioning Cost of components  
+Infrastructure  
+Revenue streams Sale 
+of assets  
+ 
+  
+The market for POWER2HYPE48  
+Besides the individual exploitation strategies explained above for each partner, the POWER2HYPE exploitation 
+depends on the market for hydrogen peroxide as commodity. Its market was valued at 5,187.32 kiloton in 2020, and 
+is projected to register a CAGR of over 3% during the forecast period (2021-2026).  
+ 
+47 https://www.solvay.com/sites/g/files/srpend221/files/tridion/documents/myH2O2_Brochure_LR%20%281%29.pdf   
+48 https://www.mordorintelligence.com/industry-reports/hydrogen-peroxide-market/   
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 34 of 45  
+  
+  
+Focus on Europe  
+In general, the market was negatively impacted by COVID -19 in 2020, however, the currently rising demand from 
+the pulp and paper industry and increasing consumption of hydrogen peroxide as raw material for propylene oxide 
+production (HPPO Process) are expected to drive the market growth. In 2018, the global market volume for hydrogen 
+peroxide in the pulp and paper industry was 2,200.93 kiloton, and is estimated to reach about 2,820 kilotons by 2024, 
+with a CAGR of about 5%, which will stimulate the demand for hydrogen peroxide in the coming years and make it 
+one of the key markets for POWER2HYPE. More specifically, the European pulp and paper industry had a production 
+capacity of 43.65 million ton in 2019, with a growth rate of 1.49% compared to the previous year, which, in turn, 
+stimulates the market demand for hydrogen peroxide.  
+In view of this  trend and in line with the POWER2HYPE implementation roadmap (Figure 11), exploitation and 
+implementation activities will focus on these sectors and applications. Assuming that POWER2HYPE technology is 
+applied to cover the newly generated capacity (5% CAG R) from the point in time when it has reached commercial 
+scale (2030), the market share of this new technology can be projected to reach 40% of the total European 
+capacity by 2040 (4.2 Mio tons/year).  
+  
+A global perspective  
+Newer opportunities for hydrogen peroxide in wastewater treatment and the growth of the electronic industry in 
+developing Asian countries are likely to create opportunities for the market in the coming years. Furthermore, the 
+Asia-Pacific region is expecte d to dominate the market and is also likely to witness the highest CAGR during the 
+forecast period.  
+For instance, China is the largest pulp and paper producing nation in the world, producing about 125 million ton of 
+cardboard and paper in 2019, with a growth rate of about 4% compared to the previous year, which, in turn, stimulates 
+the regional market demand for hydrogen peroxide. The electronics industry in China is also the largest in the world. 
+Due to these factors, the market for hydrogen peroxide in the region is expected to have a steady growth during the 
+forecast period.  
+By 2050, counting on having growth still in the European market (taking market share up to 60%), with new adopters, 
+and assuming a conservative market penetration worldwide (taking over less than the new capacity created, 3% Associated 
+with document Ref. Ares(2022)7691164 - 08/11/2022 
+CAGR), we believe that POWER2HYPE technology could nearly displace the AO process, with over 80% of  
+the capacity installed using the project’s technology.  
+Competitors  
+The hydrogen peroxide market is consolidated in nature, with the top five players occupying nearly 70% of the 
+market. The majority of companies are focusing on expanding their production capacities, primarily in the AsiaPacific 
+region. Some of the major players in the market include Solvay (key industrial partner in POWER2HYPE), Evonik 
+Industries AG, Mitsubishi Gas Chemical Company INC, Arkema, and Kemira,, among others.  
+  
+POWER2HYPE SWOT analysis  
+Table 12: POWER2HYPE SWOT Analysis  
+STRENGTHS  WEAKNESSES  
+Partners’ increasing knowledge and developments in 
+new markets and initial customer portfolio is extensive  
+Sustainable product  
+Flexibility of the process (upstream & downstream)  
+CO2-neutral  
+Increased safety compared to the SoA process  
+Independent of unstable feedstock supply (e.g. NG)  
+Decreased timeline of installation due to digital twin  
+Electrosynthesis step alone does not reach the same 
+concentrations levels as the AO process (yet): Up to  
+10% H2O2 compared to up to 40% H2O2   
+Actual overall performance (electrochemical reactions 
+and DSP (concentration)) uncertain and yet to be proven 
+as one of the major outcomes of the project  
+technoeconomic viability to be validated  
+OPPORTUNITIES  THREATS  
+
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+101091934 - POWER2HYPE - Part B - Page 35 of 45  
+  
+EU strategy pushes to move to electrochemical process 
+The current 2050 targets in climate matters need best 
+cases to finance  
+Current geopolitical situation advantageous for the 
+approach as availability and prices of fossil resources 
+are uncertain and volatile; this will trigger “sustainable” 
+investment decisions  
+Labeling of sustainable products are attractive   
+Availability of cheap low -carbon energy may not 
+increase as expected  
+R&D investments are needed and investors my avoid 
+risks associated with less mature technologies  
+Social acceptance of chemicals a nd awareness creation 
+for sustainable produce require extra efforts   
+  
+2.2.1.2. Post project plan  
+  
+Figure 14: POWER2HYPE Post-project plan  
+  
+2.2.2. Communication plan  
+In addition to the plan for dissemination of scientific and technical results, a full communication strategy is introduced 
+(WP8). A corresponding communication plan will be developed and implemented in the course of the project (including 
+with the dissemination plan), also ensuring t hat has continuation beyond the end of the project’s duration. The key 
+communication channels will be the following and will be highly used during key dissemination activities:  
+• Website: The POWER2HYPE project will provide several communication and community tools and will include 
+a website via a web publishing component. The webpage will be constantly maintained and updated to 
+communicate the project progress.  
+• Social Media. Social media campaign will be designed to integrate Online Media (Facebook, Twitter, LinkedIn, 
+YouTube), Paid Media (the vision will be led internally but paid services will be used for marketing automation, 
+among others) and Shared Media. We will adopt a “highly effective impression” strategy, a strongly segmented 
+target by using the different channels for specific targets/objectives.   
+o A detailed ‘Social Media Content Strategy’ will be defined at the beginning of the project defining specific 
+strategies for each social media.  
+o Facebook and YouTube will be used to present the results popularizing the information to be understood 
+by the general public.   
+o LinkedIn: to influence whole market and attract decision makers.   
+o Twitter will be used mainly to alert t he industrial sector, in direct relation with the project’s activities.  o 
+Research Gate will be used to promote the project in the scientific community  
+
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 36 of 45  
+  
+• Events: The large Community Event Programme will also attract the public. The events will provide sess ions 
+(e.g., keynotes, open discussions), which invites European citizens to participate and to discuss with experts in 
+electrochemistry and sustainable processes.  
+• Scientific publications:  in peer -reviewed journals and presentations in relative thematic co nferences and 
+seminars.  
+• Popular science publications:  in national- and local media as well as in online popular science periodical, or 
+university newspapers.  
+  
+2.3. Summary  
+Table 13: Impact Summary  
+SPECIFIC NEEDS  EXPECTED RESULTS  D&E&C  
+Currently H 2O2 
+production relies on 
+non-sustainable process 
+(energy consumption 
+and related CO 2 
+emissions, use of noble 
+metal catalysts, use of 
+organic solvents and 
+related VOC emissions, 
+generation of hazardous 
+wastes). It is also mainly 
+produced in large  
+centralize chemical 
+units, while market 
+would require more 
+decentralized units 
+delivering lower 
+volume.   
+At the end of the project it is expected that the 
+consortium will have developed a process and 
+its key components for an innovative 
+electrochemical r oute to produce H 2O2. The 
+innovative process will be demonstrated at 
+pilot scale in a relevant environment at 
+Solvay’s premises (TRL6) with the following 
+key characteristics: i) carbon -neutral 
+(essentially zero CO2 emissions); ii) no use of 
+organic solvents and critical (rare) materials, 
+only based on carbon catalysts, water, oxygen 
+(air) and renewable electric energy; iii) 
+suitable for decentralized small -scale units 
+and on -demand production; iv) capable of 
+meeting requirements of a broad range of 
+applications, even in niche markets requiring 
+very low (1 -3%) or very high (>70%) H 2O2 
+concentration.   
+The membership of Solvay as main EU 
+H2O2 producer (>50% of EU market) 
+will serve the purpose of disseminating 
+and exploiting the achieved results. The 
+dissemination of project results to the 
+relevant community in the EU will be 
+performed via technical conferences 
+and publications in scientific journal as 
+well as technical ex pert groups. The 
+creation of an external Advisory Board 
+to be composed mainly of industrial 
+stakeholders (such as H 2O2 end-users) 
+will support market uptake of the 
+process. The partners are very active in 
+sharing knowledge and practical 
+experience in the s cientific community 
+and in the H2O2 sector.  
+TARGET GROUPS  OUTCOMES  IMPACTS  
+At the end of the project the 
+electrochemical H 2O2 process will be 
+at TRL6, so industrial development 
+involving consortium members will be 
+required to bring it to TRL9 (by 2035). 
+As expressed in section 2.2, the project 
+outcomes are expected to be 
+commercially exploited primarily by 
+key industrial partners of the 
+POWER2HYPE project that will work 
+in collaboration to mature the new  
+The main outcome of the 
+POWER2HYPE project will 
+be to achieve a sustainable, 
+decentralized, efficient, and 
+flexible electrochemical 
+process to produce H 2O2. 
+This process is expected to be 
+economically viable and the 
+project will identify the key 
+end-user applications that 
+should be targeted after 2030.   
+1. switch from chemo -catalytic 
+process to an electrochemical process for 
+H2O2 production   
+2. a highly sustainable pro cess 
+leading to remarkably reduced CO 2 
+emissions and zero emission of 
+hazardous waste stream. 3. sustainable 
+components without noble metal or 
+critical materials and catalysts  
+4. no use of organic solvents  
+5. economically  viable 
+ renewable  
+energy-based process  
+ 
+process. Solvay will play a key role by 
+proposing the POWER2HYPE to key 
+H2O2 end-users for various 
+applications (key target group) . 
+Other key target groups will be 
+regulatory/ national / EU authorities to 
+move regulation to push for such 
+sustainable electrochemical processes.  
+POWER2HYPE will also 
+lead to findings on more 
+sustainable components for 
+electrochemical stacks that 
+could be used for other 
+cutting-edge applications 
+(fuel cells, electrosynthe sis, 
+etc).   
+Associated with document Ref. Ares(2022)7691164 - 
+08/11/2022 
+ After starting commercialization from 
+2030, POWER2HYPE technology has 
+the potential to supply about 40% of the 
+EU H 2O2 market (4.2 Mio tons/year  
+leading to significant CO 2 emissions 
+savings of approximately 6.7 Mio tons 
+CO2/year)  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+101091934 - POWER2HYPE - Part B - Page 37 of 45  
+  
+  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 38 of 45  
+  
+3. Quality and efficiency of 
+the implementation
+3.1  Work plan and resources   
+  
+This section contains the project’s work 
+plan and it is thus the core of this 
+proposal. POWER2HYPE is divided 
+into eight work packages in line with the 
+project’s approach (see Section 1.3). The 
+project work is divided into 8 work 
+packages (WP) that will be  completed 
+over three distinct project time phases 1 
+to 3, with two milestone decision points 
+between them (Figure 15). All activities related to project management and  
+coordination are bundled in WP1. R&D Figure 15: POWER2HYPE structure of the work pack ages with decision milestones and 
+activities (WP2-WP6), LCA and techno- progressive TRL. The timing depicts the main activities of the WPs. KO = kick off economic 
+analysis (WP7) and exploitation actions, dissemination & communication activities. Each WP pr oduces a set of 
+deliverable, has to achieve critical milestones and follows a well -defined and appropriate timeline, all described in 
+the present work plan.   
+WP2 is dedicated to the development of advanced and industrially viable materials and cell compon ents for the 
+electrochemical process and reactor systems. Specifically, materials-related research in WP2 is devoted to catalysts, 
+gas diffusion layers/electrodes, ion-exchange membranes and BDD anodes.   
+WP3 deals with the development and an efficient cou pling of anodic and cathodic reactions to achieve an optimal 
+convergent paired electrolysis for H 2O2 production. WP4 aims at the design of an electrochemical reactor paired 
+H2O2 production and at the development of the downstream processing for further H2O2 concentration.   
+WP5 will focus on the development, building, commissioning and testing of a pilot plant to produce H2O2 using air, 
+water and electricity. This pilot plant will be explored in WP6 to demonstrate the entire POWER2HYPE process for 
+producing H2O2 under industrially relevant operational conditions, with a focus on technical feasibility, stability, 
+load-flexibility, cost-efficiency and scaling factors, always in view of a future commercialisation. WP6 also includes 
+tests to validate the applica tion of the produced H 2O2 in industrial processes (such as bleaching or epoxidation 
+processes), in collaboration with associated industrial partners (H2O2 users).   
+WP7 is dedicated to technology impact assessment, including prospective lifecycle assessmen t (LCA), 
+technoeconomic analysis (TEA), examination of social acceptance and model-based (in silico) design of a scaled-up 
+production system.   
+  
+
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ 
+  
+  
+
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ 
+101091934 - POWER2HYPE - Part B - Page 33 of 45  
+  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 41 of 45
+3.2  Capacity of participants and consortium as a whole   
+The consortium of POWER2HYPE consists of 15 legal entities located in Germany, Belgium, the Netherlands, 
+Austria, Italy, Spain, Portugal, & France. These partners cover the whole value chain of the H 2O2 production 
+including key components development and production up to construction and operation o f H 2O2 plants. The 
+complementarity of partners’ skills will ensure the upraise of POWER2HYPE technology from TRL3 up to TRL6 
+within the project timeline. Key industrial partners will lead the further steps towards industrialization and 
+commercialization beyond the end of the project.   
+The consortium is composed of two Universities (Wageningen University, WU and Friedrich-Alexander-Universität 
+Erlangen-Nürnberg, FAU) and three research institutions  (Fraunhofer Society, FHG; Wageningen Food & 
+Biobased Research, WR; Energieinstitut an der Johannes Kepler Universität Linz, EI). FHG has vast experience 
+coordinating European projects, communicating with EU project officers and an excellent record of accomplishment 
+in anodic H2O2 production. WR has remarkable experience in ORR. Together, FHG and WR will pave the way for 
+efficiently pair H 2O2 electrosynthesis. EI will communicate with all WPs to monitor and contribute to the 
+sustainability and economic viability of the process. FAU and WU have outstanding experience  in carbon-based 
+materials synthesis and characterization, thereby setting the ground for a sustainable electrocatalytic process. 
+POWER2HYPE has ten companies on board, 6 industries, 3 SMEs and 1 startup. Among the companies are four 
+entities of the indust rial Solvay group  (Solvay SA, SOLVAY; Rhodia Operations, RHDO; Solvay Specialty 
+Polymers Italy SPA, SSPI; Rhodia Laboratoire du Futur, SRLF), bringing in expertise in both membrane 
+development and H 2O2 production. The SME DiaCCon ( DIA) is a specialized developer of electrolyser and 
+industrial-scale BDD electrodes. The company SGL Fuel Cell Components GmbH ( SGL) is one of the world’s 
+leading manufacturers of carbon components as gas diffusion layers and bipolar plates. The SME  Iris Technology 
+Solutions ( IRIS) and the industry Tecnicas Reunidas ( TRSA) support the consortium with strong skills in 
+engineering and digitalization ( IRIS) as well as chemical plant engineering and piloting ( TRSA). The innovative 
+start-up SolvGE (SLVG) is developing H2O2 concentrator units for downstream processing of raw and diluted H2O2 
+streams. Finally, the SME GLOBAZ ( LOBA) provides extensive experience in dissemination and communication 
+activities. More details are shown below in Table 17 on each partner’s key expertise and role within the project.  
+  
+Table 17: Partner key expertise and equipment infrastructure  
+Partner  Key expertise (WP  Key equipment / Infrastructure related)  
+FHG  Collaborative project 
+coordination (WP1); 
+Anodic process (WP2,  
+3,4)  
+Electrochemical equipment (potentiostats, RRDEs, screening systems 
+with 6 parallel cells, flow cells, pumps) and capacity for TRL4 -5 
+experiments. Analytics (GC, HPLC, NMR, etc.). Materials 
+characterization (SEM, XRD, etc.).  
+WU  Cathode Materials (WP2,3)  Electrochemical equipment (Potentiostats, etc. ), analytical facilities (e.g.  
+SEM-EDX, XPS, XRD)  
+WR  Cathodic ORR towards 
+H2O2 (WP2,3)  
+Electrochemical equipment, catalyst preparation equipment (rotary bed , 
+catalyst calcination and reduction reactors) characterization 
+equipment(STEM-HAADF, XPS, XRD, ICP-OES, SEM-EDX, (ATR)  
+FTIR, surface area and porosity analyzer)  
+FAU  CVD coating with diamond 
+and metal 
+nitrides/borides/carbides, 
+PVD metal or metal 
+carbide coatings (WP2,3)  
+5 CVD diamond coating machines, 1 CVD TiNB coating machine, 1 PVD 
+coating machine, electrochemical long -time testing, material 
+characterization (dilatometer, SEM, microprobe, ion mill etc.)  
+DIA  Diamond coating and 
+electro-chemical stack 
+production (WP4,5)  
+4 diamond coating machines, coating thickness measurement tools  
+EI  LCA, TEA, new value  
+chains assessments (WP7)  
+Licence of lifecycle software GaBi® ts 9.5 (LCA)  
+SuperPro Designer® for assessment of production processes  
+An in-house tool CoLLeCT for TEA  
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+101091934 - POWER2HYPE - Part B - Page 42 of 45  
+  
+Toolbox for qualitative socio-technical assessments  
+Solvay 
+(Group)  
+Membrane development  
+(WP2,3)  
+H2O2 production  
+(WP5,6,7)  
+SoA R&D facilities for ionomers development and testing.  
+SoA R&D facilities for H2O2 development, quality and testing  
+TRSA  Engineering of pilot plants  
+(WP4,5,6,7)  
+Lab analysis equipment for chemical characterization   
+Rooms and infrastructure dedicated to construction of pilot plants   
+SGL  Gas diffusion electrodes 
+(WP2)  
+GDL testing, electrochemical labs, & GDL manufacturing lines  
+SLVG  Patented H2O2 concentrator 
+technology (WP4, 5,6)  
+R&D facility for development and scale-up of H2O2 concentrator units 
+Hardware for interfacing H2O2 production and concentration  
+LOBA  Communication, 
+dissemination. &  
+exploitation activities 
+(WP8)  
+Software to develop and provide various communication tools  
+IRIS  Process modelling and 
+monitoring., data mining  
+(WP5)  
+Required software to develop the digital twin of the POWER2HYPE pilot 
+plant.   
+  
+4. Ethics and Security
+4.1 Ethics  
+  
+The Ethics Opinion on the Power2Hype proposal in the Ethics Summary Report sets Ethics clearance (the proposal is 
+'ethics ready').  
+  
+The beneficiaries must ensure that all ethics issues related to activities in the grant are addressed in compliance with 
+ethical principles, the applicable international and national law, and the provisions set out in the Grant Agreement. 
+This includes the ethics issues identified in the Ethics Summary Report (if any) and any additional ethics issues that 
+may emerge in the course of the grant. In case any substantial new ethics issues arise, beneficiaries should inform the 
+granting authority.   
+Table 18: Ethics Issues TableAssociated with document Ref. Ares(2022)7691164 - 
+08/11/2022  
+Section  Yes/ 
+No  
+Comment  
+1. Human Embryonic Stem Cells and Human Embryos    
+Does this activity involve Human Embryonic Stem Cells (hESCs)?  No    
+Does this activity involve the use of human embryos?  No    
+2. Humans    
+Does this activity involve human participants?  No    
+Does this activity involve interventions (physical also including 
+imaging technology, behavioural treatments, etc.) on the study 
+participants?  
+No    
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+ Associated with document Ref. Ares(2022)7691164 - 08/11/2022 
+101091934 - POWER2HYPE - Part B - Page 43 of 45  
+  
+Does this activity involve conducting a clinical study as defined by 
+the Clinical Trial Regulation (EU 536/2014)? (using  
+pharmaceuticals, biologicals, radiopharmaceuticals, or advanced 
+therapy medicinal products)  
+No    
+3. Human Cells / Tissues (not covered by section 1)    
+Does this activity involve the use of human cells or tissues?  No    
+4. Personal Data    
+Does this activity involve processing of personal data?  Yes  The proposed activities include 
+the implementation of interviews 
+and surveys from regional 
+authorities and general public in 
+Belgium to study issues related 
+to social acceptance and 
+socioeconomic impact potentials 
+of the generated technologies. 
+However, we confirm that no 
+personal data will be collected.  
+Does this activity involve further processing of previously collected 
+personal data (including use of preexisting data sets or sources, 
+merging existing data sets)?  
+No    
+Is it planned to export personal data from the EU to non-EU 
+countries? Specify the type of personal data and countries involved  
+No    
+Is it planned to import personal data from non-EU countries into the 
+EU or from a non-EU country to another non-EU country? Specify 
+the type of personal data and countries involved  
+No    
+Does this activity involve the processing of personal data related to 
+criminal convictions or offences?  
+No    
+5. Animals    
+Does this activity involve animals?  No    
+6. Non-EU Countries    
+Will some of the activities be carried out in non-EU countries?  No    
+In case non-EU countries are involved, do the activities undertaken 
+in these countries raise potential ethics issues?  
+No    
+It is planned to use local resources (e.g. animal and/or human tissue 
+samples, genetic material, live animals, human remains, materials of 
+historical value, endangered fauna or flora samples, etc.)?  
+No    
+Is it planned to import any material (other than data) from non-EU 
+countries into the EU or from a non-EU country to another non-EU 
+country? For data imports, see section 4.  
+No    
+Is it planned to export any material (other than data) from the EU to 
+non-EU countries? For data exports, see section 4.  
+No    
+Does this activity involve low and/or lower middle income countries, 
+(if yes, detail the benefitsharing actions planned in the self-
+assessment)  
+No    
+Could the situation in the country put the individuals taking part in 
+the activity at risk?  
+No    
+7. Environment, Health and Safety    
+HORIZON-CL4-2022-TWIN-TRANSITION-01-15  
+101091934 - POWER2HYPE - Part B - Page 44 of 45  
+  
+Does this activity involve the use of substances or processes that 
+may cause harm to the environment, to animals or plants.(during the 
+implementation of the activity or further to the use of the results, as 
+a possible impact) ?  
+Yes  The work carried out at lab scale 
+(gram scale) is safe. The waste 
+generated is disposed according 
+to State legislation. We follow all 
+the safety measures according to 
+the rules of the 
+university/research institute as 
+well as MSDS (Material Safety 
+Data Sheet) of a chemical 
+provided by the supplier. And the 
+samples that are generated  
+are fully tracked in internal 
+management systems, containing 
+MSDS (Material Safety Data 
+Sheet), including for samples 
+resulting from running the 
+prototype.  
+Does this activity deal with endangered fauna and/or flora / protected 
+areas?  
+No    
+Does this activity involve the use of substances or processes that 
+may cause harm to humans, including those performing the 
+activity.(during the implementation of the activity or further to the 
+use of the results, as a possible impact) ?  
+Yes  We follow state legislation for 
+the proper disposal of chemical 
+waste, thus avoiding any harm to 
+humans.  
+8. Artificial Intelligence    
+Does this activity involve the development, deployment and/or use 
+of Artificial Intelligence? (if yes, detail in the self-assessment 
+whether that could raise ethical concerns related to human rights and 
+values and detail how this will be addressed).  
+Yes  AI tools are purely technical and  
+do not relate to activities 
+affecting human rights and 
+values.  
+9. Other Ethics Issues    
+Are there any other ethics issues that should be taken into 
+consideration?  
+No    
+  
+  
+ 
+ 
+Grant Agreement number: 101091934 — Power2Hype — HORIZON-CL4-2022-TWIN-TRANSITION-01 
+Associated with document Ref. Ares(2022)7691164 - 08/11/2022HE

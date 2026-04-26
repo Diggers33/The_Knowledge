@@ -1,0 +1,500 @@
+1.1  Objectives and ambition   
+The main objective of the RECREATE project is to develop a set of innovative technologies aimed at exploiting the 
+potential of End -of-Life (EoL) complex composite waste (mainly carbon fiber reinforced composites CFRC, and 
+glass fiber reinforced composites GFRC) as a feedstock for profitable reuse of parts and materials in the 
+manufacturing industry. The EU composites market size is actually foreseen to grow steadily with an annual growth 
+rate of 7.5% in the next few years. Legislation is progressively banning landfilling in many countries and the amount 
+of composite waste to be recycled and reused will be huge in the near future, with an estimated >80’000 ton in 2025.1 
+On the other side, there is an increasing market demand of high performance fiber materials (especially carbon) at 
+affordable costs, in many sectors like automotive/transportation and in general for the lightweight design field. It is 
+
+ 
+[101058756 - RECREATE]  Annex 1 – Part B  2  
+therefore crucial that new recycling technologies alternative to the more consolidated mechanical grinding and 
+pyrolysis are identified, so as to allow the recovery and reuse of materials and components without compromise to 
+downcycling, and with convincing environmental su stainability and economic profitability. In the light of these 
+considerations, the ambition of RECREATE project is:  
+- to develop and validate in relevant environment (TRL6) novel reuse strategies for current generation, large EoL 
+composite parts (including complex multimaterial composites) based on smart recognition and inspection for 
+sorting (Laser Induced Breakdown Spec troscopy - LIBS), high precision dismantling (laser -shock) and repair, 
+Tassisted reshaping, design for disassembly based on reversible joints, AI-assisted decision support systems;  
+- to develop and validate in relevant environment (TRL6) innovative physico -chemical upcycling technologies 
+(catalyst-assisted green solvolysis, electrofragmentation) allowing simultaneous recovery of high quality, integer, 
+clean fibers and of an organic resin fraction reusable as coating material, at the very end of the multiple reuse 
+processes of parts;  
+- to demonstrate at TRL6 the use of smart and green reversible thermoset resins as enabling materials for the 
+realization of the next generation of fiber -reinforced composites (FRCs) with easier repairability and enhanced 
+reusability, facilitating the transition towards recyclable-by-design composite materials and structures.  
+Moreover, RECREATE will address another key objective, that is the development of a set of new digital tools for:  
+- the quantitative evaluation of the environm ental and economic performance of the proposed technologies 
+(LCA/LCC) as well as their circularity assessment;  
+- the co-design of innovative digital learning resources, including the realization of MOOCS, serious games and 
+digital twins of some specialty technologies developed in the project, with easy adoption and high replicability. 
+The objectives and the ambition of RECREATE are fully compliant with the general requirements of the Horizon 
+Europe - Digital, Industry and Space 2021 Work Programme, and with the specific requirements of the call 
+HorizonCL4-2021-Resilience-01-01, as shown schematically in the following Table 1.  
+Table 1. Project adherence to the work-programme and call: objectives, expected results and means of verifications.  
+Specific  challenge  of  Work  
+Programme. Call HORIZON- 
+CL4-2021-Resilience-01-01  
+Adherence to the call  
+Objectives and expected  
+results  
+Means of verification  (KPI 
+of the technology)  
+Propose innovative dismantling 
+and sorting systems enabling reuse 
+and functional recycling of 
+complex composite materials.  
+RECREATE will adopt and 
+bring to TRL6 innovative, 
+laser-based technologies for 
+dismantling, recognition and 
+sorting, including:  
+- laser-shock dismantling  
+- LIBS  
+Laser-shock dismantling  
+Demonstration at 0.5 m 2 
+scale on one interface, 
+including process and 
+integrity control (TRL6).  
+Post-treatment material 
+integrity (< 10% loss in 
+tensile modulus; < 20% loss 
+in flexural modulus).  
+Laser-induced breakdown spectroscopy - LIBS  
+CFRC/GFRC composite 
+recognition in waste flows 
+(TRL6).  
+Flow rate recognition of 25 
+kg/h.  
+Develop and integrate novel 
+solutions for higher reuse of the 
+whole products and components.  
+RECREATE will develop and 
+adopt different technological 
+approaches for the 
+remanufacturing and reuse of 
+large composite components:  
+- T-assisted reshaping;  
+- laser-based machining;  
+- design for disassembly based 
+on reversible joints;  
+- non-destructive  
+T-assisted reshaping  
+flatten curved composite 
+parts with the following 
+characteristics:  
+- max. GFRC curvature 
+radius: 400 mm;  
+- typ.  GFRC  EoL 
+ part thickness: 2-5 
+mm;  
+- content GF: ≥ 30 wt.%.  
+Deflection on flat panels ≤ 10 
+mm on 1200 mm length.  
+Laser-based machining  
+ 
+ disassembly/reassembly of 
+complex composite parts.  
+Cutting, joining and 
+remanufacturing pathways will 
+Surface manufacturing of 
+FRCs at ply scale.  
+Associated with document Ref. Ares(2022)3823781 - 
+20/05/2022Post-treatment  material 
+integrity (< 10% loss in 
+tensile modulus; < 20% loss 
+in flexural modulus).  
+Design for disassembly  based on reversible joints  
+
+ 
+[101058756 - RECREATE]  Annex 1 – Part B  3  
+be driven by AI-based decision 
+support systems.  
+Efficient T-triggered 
+separation of dissimilar 
+materials; compatibility with 
+current processing 
+equipment and tools.  
+Residual strength < 1 MPa in 
+bonded assembly after < 10 
+min at triggering T; 
+dismantling efficiency > 
+99%.  
+Non-destructive dis-/reasse mbly of complex FRC parts  
+Efficient process via a new 
+process chain demonstrated 
+on wind rotor blades (T5.3).  
+Disassembly time < 6 h per 
+blade; reassembly time < 4 h 
+per blade; 0 % damage to 
+dismantled components.  
+Develop novel, safe, environment 
+friendly and commercially 
+attractive methods of recycling a 
+wide range of composite materials 
+and reuse of secondary raw  
+materials  
+RECREATE will develop 
+novel approaches for recycling 
+complex composite materials 
+and parts based on:  
+- catalyst-assisted 
+ green solvolysis  
+- electrofragmentation  
+RECREATE will also develop 
+new strategies to enable 
+effective use of secondary raw 
+materials through the 
+incorporation of new reversible 
+green resins, adhesives and 
+joints in new generation FRCs.  
+Commercial attractiveness as 
+well as environmental 
+friendliness of these 
+technologies will be 
+demonstrated at TRL6 via 
+dedicated environmental and 
+socio-economic sustainability 
+assessment (WP6).  
+Catalyst-assiste d green solvolysis  
+New green solvolysis process 
+(ambient pressure, moderate 
+T, non -toxic/biobased 
+solvents, polymer -tailored 
+catalyst selection) 
+demonstrated in a relevant 
+operating environment 
+(TRL6).  
+  
+Purity of reclaimed fibers > 
+90%, evaluated by means of 
+thermogravimetric analysis 
+(TGA); recovered organic 
+fraction > 50% vs. matrix 
+weight.  
+Electrofra gmentation  
+Process optimization via 
+DoE tailored for different 
+materials and EoL waste 
+streams (TRL6); process 
+modelling, digital simulation 
+and data acquisition for 
+process control and 
+optimization; process 
+automation.  
+Purity of reclaimed fibers > 
+90%, evaluated by means of 
+thermogravimetric analysis 
+(TGA).  
+Demonstrate at pilot level the 
+feasibility of reuse and/or recycle 
+approaches of composites and its 
+secondary raw materials.  
+RECREATE will develop: 4 
+physical demonstrators based 
+on the reuse of GFRC/CFRC 
+EoL parts after reshaping, 
+repair and reversible a ssembly 
+technologies; 5 physical 
+demonstrators based on the use 
+of innovative upcycling 
+technologies for recovery and 
+reuse of reinforcing fibers and 
+polymer resins.  
+Demonstrators: reuse of  GFRC/CFRC EoL parts  
+Target industrial sectors:  
+- transport;  
+- wind energy; 
+- aviation  
+Please refer to Table 2 for 
+detailed KPIs.  
+Demonstrators: fibers an d resin recovery and reuse  
+Target industrial sectors:  
+- aviation;  
+- sport;  
+- industrial coatings  
+Please refer to Table 2 for 
+detailed KPIs.  
+Develop tools that will enable to 
+demonstrate the circularity and 
+the environmental benefits of the 
+solutions tested.  
+WP6 in RECREATE will be 
+dedicated to development and 
+implementation of digital tools 
+(IoT, b ig data, data analytics) 
+to assess circularity of the 
+proposed technologies. Such 
+tools will be integrated into a 
+freeware to be applied to the 
+demonstrators and after project 
+end will be available to 
+stakeholders under license.  
+Digital tools for circularity  assessment & acceleration  
+A commercial software 
+integrating digital tools for 
+assessing and accelerating 
+circularity of FRC reuse and 
+recycling technologies.  
+Application of the software 
+by all industrial demo -case 
+owners and end -users. 
+Distribution of at least 2 
+software licenses per year 
+during the project.  
+Consider the co-design of learning  WP7 in RECREATE will be  Co-design of learning resources and digital tools  
+ 
+[101058756 - RECREATE]  Annex 1 – Part B  4  
+resources together with local and 
+regional educational 
+organizations for current and 
+future generations of employees.  
+dedicated to the development 
+of innovative learning 
+resources and tools. WP7 will 
+be led by GRIFO and 
+supported by METID unit 
+@POLIMI, ex pert in design 
+and testing tools for learning 
+innovation and faculty 
+development. The tools will be 
+co-designed with the main 
+local education stakeholders, 
+and will be tested and 
+replicated through the network 
+of academic contacts of 
+POLIMI and other partn ers 
+involved in the project.   
+The expected results include: 
+innovative learning 
+resources (e.g., e-tutorials 
+and e-learning modules); a 
+simulation game providing 
+hands-on experience on the 
+reuse of complex composite 
+materials, to be fed with real 
+data; realization of 
+educational digital twins  
+Associated with document Ref. Ares(2022)3823781 - 
+20/05/2022Evaluation tests included in  
+the learning resources; 3 
+experts of the macro-areas 
+related to the topics 
+involved; 2 focus groups 
+organized to test the 
+prototypes leading to digital 
+twin first release; reference 
+standard ISO 9241-11:2018 
+for validation; completion 
+rate over 75%; number of 
+errors below 25%; system 
+usability scale > 75%.  
+The main progress beyond the state-of-the-art for all key technologies in RECREATE is summarized below. 
+Temperature-assisted reshaping . Thermoset polymers like 
+unsaturated polyesters (U -PEs) are known to be not 
+thermoprocessable due to the irreversibility of the chemical 
+crosslinking reaction. However recent research carried out at ICAM 
+has found that it is possible to develop a cost -effective process to 
+reuse large EoL parts made of PEs/vinylester GFRCs with slightly 
+curved geometry, avoiding grinding and crushing (Fig.1).2 The new 
+technology development is based on reshaping large parts of 
+polyester composites with simple geometry using pressure and 
+temperature at maximum resin deformation point. PEs-based cured  
+resins typically exhibit a glass transition  temperature (Tg) ~100°C, which allows the reshaping process without 
+polymer degradation. This reshaping process is affected by several factors: crosslinking density of the resin; chemical 
+structure; type/geometry of composite part and reinforcement (% GFs, orientation, etc.); composite thickness. A deep 
+knowledge of stress relaxation behaviour of materials and associated process variables is essential to fully exploit the 
+potential of this new technology. The reshaping process will be brought up to TRL6 via a multi-step multi-technology 
+approach: T -assisted deformation of the material to the required geometry (through calendering, compression 
+molding); holding at the same temperature for sufficiently long time to release most of the residual stresses withou t 
+thermal degradation; controlled cooling below Tg while maintaining the final planar shape. A further advancement 
+will be the synergistic development of the reshaping technology along with the development and demonstration of 
+new resin systems for future-generation FRC materials (WP4).  
+Reversible adhesives. The traditional methods for joining plastics are mechanical fastening, adhesive joining, and 
+welding. Mechanical joining via fasteners, such as screws, 
+enables EoL disassembly. Unfortunately, its disadvantages 
+include increasing product weight. Furthermore , 
+dismantling fastened products can be expensive and time 
+consuming and often needs to be carried out manually. 
+Adhesive joining has many benefits including process 
+speed, low weight, low cost, design flexibility, improved 
+stiffness of the joint, ability t o damp noise and vibrations, 
+uniform distribution of stresses over the assembled areas, 
+and possibility to join dissimilar materials, as targeted in 
+RECREATE. The most common strategies to obtain 
+adhesive debonding on command are represented by hotmelt 
+adhesives (not suitable for structural applications), modified 
+resins (limited scalability), formulations with debonding fillers like thermally expandable particles. RESCOLL’s 
+patented technology, called INDAR Inside®, is based on custom formulations of adhes ives and primers including 
+blowing agents.3 Such proprietary materials allow high mechanical strength (15-20 MPa on Al) at room T and easy 
+dismantling (residual strength <1 MPa) after heating at a specific T in the 100 -200 °C range, depending on the use 
+Fig.  
+1 
+  
+Preliminary (TRL3) results on T 
+- 
+assisted reshaping  
+of 400mm radius GFRCs to flatter parts using a twin roll. 
+  
+Fig.  
+2 
+  
+Heating patches applied for debonding nautical rear 
+- 
+foils  
+from the engine bonded with INDAR technology (left) and debonded 
+foil (right). 
+  
+
+ 
+[101058756 - RECREATE]  Annex 1 – Part B  5  
+case and the corresponding service temperatures. In RECREATE, RESCOLL will develop a new range of dedicated 
+new INDAR adhesives (or primers) based on on -the-shelf formulations. To avoid any anticipated triggering, 
+premature disassembly and loss of debonding capability, it will be essential to keep a T margin (at least 50 °C) 
+between maximum service T and targeted debonding T. The debonding process will be developed so that no Associated 
+with document Ref. Ares(2022)3823781 - 20/05/2022 residual adhesive remains on one or both surfaces after dismantling. To date, 
+RESCOLL’s technology has been successfully implemented in various applications at lower TRL (Fig.2 is an 
+example of its use in the ship industry for composite foil bonding).   
+Design for disassembly . Successful design for 
+dissasembly is based on three different disciplines: 
+selection and use of materials; geometric design of 
+components, structures or products; selection and use 
+of joints and fasteners (Fig.3). Multimaterial design, 
+with the use of diff erent materials (e.g., metals and 
+GFRCs) in a single component, has been a major 
+research focus in the field of lightweight design in 
+recent years. However, in the framework of circular 
+economy and the highest possible recycling and reuse 
+rates, components made of one material are to be  
+preferred.4 The current challenge is to combine these two conflicting requirements and to enable optimal (hybrid) 
+components and structures that are easy to recycle. Detachable joints, especially adhesive joints, can contribute to the 
+solution. In this way, different materials can be joined together and separated again after the EoL.  
+Laser-based high precision dismantling and machining. Laser dismantling consists in focusing a high power laser 
+(ns, GW/cm2) on the surface of the multilayer structure to create high pressure plasma (GPa) (Fig.4). A shock wave 
+is induced in the material. By playing with the laser propagation length and time, a tensile forces can be produced at 
+any location inside the material with high precision, including at the 
+interface of FRC laminates or multilayer assemblies. The extension of 
+such process to dismantling consists in applying a laser shock over the 
+entire surface of the targeted jointed surface to delaminate the material. 
+No contact and local mechanical tensile stresses ensure material 
+integrity for part re -use or recycling. In addition to be employed as 
+active dismantling tool, high power lasers can also be exploited a source 
+of energy allowing material machining. By controlling the parameters 
+of the laser (duration, wavelength) and of the p rocess (gas assistance, 
+laser beam moving) it will be possible to repair surfaces, assemble 
+materials or cut them in non -contact mode. 5,6 Moreover laser 
+technology can allow highly robotized processes. Effort must also focus 
+on the integrity of the target surfaces for flawless reuse of  
+materials for second -gen structures. In this framework, activities in RECREATE will be directed towards the 
+development at higher TRL of hybrid processes associating delamination by laser shock and laser -based FRC 
+machining. In both cases, modeling of the processes via digital twins will allow optimization and online control of 
+the process with additional sensors.  
+Fig.  
+3 
+  
+Design for disassembly approach followed in RECREATE. 
+  
+Fig.  
+4 
+  
+Representative image of localized laser 
+- 
+based  
+dismantling and delamination of a complex FRC  
+structure. 
+  
+ 
+[101058756 - RECREATE]  Annex 1 – Part B  6  
+Laser induced Breakdown Spectroscopy (LIBS). Industrial sectors as automotive, aviation, nautical etc. are not 
+using yet well -established integrated processes for the recycling of EoL complex 
+GFRC/CFRC composites due to the insufficient and/or ineffective existing recognition 
+solution capacities. Cu rrent technologies for the characterization and analysis of 
+plastics in general are mainly based on optical spectroscopies.7 Vis-NIR spectroscopy 
+and hyper -spectra imaging (HIS) are the most commonly used so far, but these 
+techniques cannot deal for ex. wi th the detection of black materials. Nevertheless, 
+emerging technologies have aroused interest from recycling companies as they have 
+the potential to bridge this gap (MIR-HSI, THz imaging, LIBS etc.). While MIR-HSI 
+system requires a high investment and THz imaging is limited by a low specificity and 
+the available bandwidths, LIBS shows a good compatibility with demanding industrial 
+environments (both batch and inline). 810 However, the similar elemental composition 
+of most polymers results in high similarity  of their LIBS spectra, which makes their 
+discrimination challenging. To address this issue, RECREATE will go beyond the 
+State-of-Art (SoA) by adopting optical spectroscopy techniques combined with 
+powerful artificial intelligence (AI) algorithms and advan ced chemometric models. 
+The current limit of detection, efficiency and inline integrability will be increased. IRIS 
+has already demonstrated the ability to use some of these techniques developing in-line 
+prototypes (e.g., SWIR -HSI for identifying the diffe rent layers in laminated plastic 
+films as well as LIBS for identifying black plastics in the Associated with document Ref. Ares(2022)3823781 - 20/05/2022 
+H2020 Multicycle project). Starting from TRL4, IRIS will aim to further the LIBS technology for inline  industrial 
+applications up to TRL6 (Fig.5).  
+Catalyst-assisted green solvolysis. Solvolysis is a well know technology (classified at TRL 6) for the recovery of 
+high quality fibers from EoL composites. 11 The main disadvantage is the generation of a large a mount of organic 
+waste to be disposed of, mainly by combustion, with generation of large amount of CO 2. Moreover, solvolysis in 
+supercritical or near supercritical fluids (high T and pressure) is needed in order to break-up linkages more recalcitrant 
+to de polymerization. Attempts have been made recently to develop solvolysis in green, biobased solvents like 
+limonene.12 More interestingly, it has been found that catalyst-assisted solvolysis is able to recycle FRCs efficiently 
+at an ordinary pressure and mild T, therefore minimizing costs and fiber damage.13 Research at POLIMI has recently 
+demonstrated at lab level (TRL3/4) the possibility to carry out an efficient solvolysis of CFRCs in optimized 
+conditions to recover simultaneously both high quality fibers a nd an organic fraction reusable as coating. 14 The 
+approach proposed in RECREATE is thus to develop in a relevant operating environment (TRL6) a new green 
+solvolysis process at ambient pressure and moderate T, with a careful selection of catalysts (depending on polymer 
+resin type) and solvents (non-toxic solvents, possibly biobased). The new process will synergistically close the loop, 
+enabling recovery of undamaged clean fibers and use of the liquid organic fraction as component in coating 
+formulations. Solvent selection will be driven by industrial (coating) and environmental requirement. To 
+maximize sustainability of the process, recycling of solvent will be pursued during coating formulation and 
+preparation relying on solvent recirculation/recycling appro aches well-consolidated in the coating industry.    
+Electrofragmentation. One of the innovative recycling technologies valorized during RECREATE is the high 
+voltage electro-dynamic fragmentation (from now on HVF). 15 HVF is an innovative technology, which ex ploits a 
+fast-growing voltage to overcome the dielectric breakdown threshold of the product under recycling and to generate 
+multiple spark channels within the product itself. HVF has been tested with polyester-based GFRCs.16 Experimental 
+results highlight that the process is particularly suitable for the treatment of multiphase complex materials as FRCs. 
+The combination of different effects as the creation of the spark channel nearby the phase border (because of higher 
+electric field variation) and the shockwave driven disaggregation of the components magnified by different acoustic 
+impedances between the phases result in an output composed by cleaner fibres, longer fibre length distribution, higher 
+percentage of fibres at mean fibre length and lower retaine d resin content than composites recycled mechanically. 
+HVF technology could be explored to recover not only reinforcement fibers but also the resin. Despite the HVF 
+technology is quite affirmed today in sectors such as mining and minerals purifications, th e technology is only 
+available at lab scale for recycling at low TRL4 and several researches has to be carried on different fronts. The main 
+advancements addressed in RECREATE will include: possibility to recover also the resin component; process 
+parameter optimization via DoE tailored for different materials and EoL waste streams, in view of the use of HVF to 
+treat entire products and not just parts (TRL6); process modelling, digital simulation and data acquisition leading to 
+process control and optimization; hardware modification, including process automation.  
+Fig.  
+5 
+  
+( 
+top) LIBS setup: a pulsed  
+laser is focused on a sample;  
+( 
+bottom) example of a LIBS  
+spectrum, with peaks corresponding  
+to specific atomic lines. 
+  
+
+ 
+[101058756 - RECREATE]  Annex 1 – Part B  7  
+Vitrimers and reversible green resins. Recent progresses in polymer chemistry offer innovative pathways that may 
+help to improve the EoL and waste management of composites by predictive material des ign. In particular, the 
+incorporation of dynamic crosslinking bonds  in the macromolecular network of polymer resins has been recently 
+introduced as powerful chemical tool to equip thermosets with new thermally -triggered functionalities potentially 
+enabling their repairing, welding, reprocessing and reuse in suitable and controllable moderate temperature ranges.17 
+Accordingly, RECREATE project will exploit this concept to develop new smart polymeric systems to be used as 
+reversible matrix polymers in a new generation of FRCs, more compliant to the principles of circular economy and 
+successfully exhibiting multiple repair, reuse and de/remanufacturing capabilities when heated at specific processing 
+temperatures, without affecting their usability and functional ity. The dynamic covalent chemistry approaches 
+investigated in RECREATE will be based on covalent adaptable networks  (CAN) including reversible 
+dienedienophile Diels-Alder (D-A) dissociative polymers and associative macromolecular vitrimers (Fig.6).18,19  
+  
+Fig. 6 (a) Schematic representation of dissociative (D-A) and (b) associative (e.g., vitrimers) CANs; (c-d) OM images of 
+the thermally-induced scratch healing process of a D-A polymer; (e) dynamic thermosetting epoxy matrix recycling; (f) 
+complete solvolysis of dynamic epoxy matrix and recovery of CFs from CFRC.  
+While being thermosets at working T, such dynamic materials may undergo straightforward solvolysis in specific 
+Associated with document Ref. Ares(2022)3823781 - 20/05/2022 ranges of mild temperatu res (130-160 °C), enabling direct recovery of 
+clean undamaged fibres as well as of reusable resin matrix material. Additionally, the dynamic character of such systems 
+will enable multiple thermally-induced repair and reprocessing cycles, thus extending the ir life span. Both polymeric 
+materials derived from renewable sources and non-toxic (styrene-free/formaldehyde-free) crosslinking systems will be 
+considered as preferential options. In the temperature-enhanced solvolytic demanufacturing process for fibre liberation 
+and resin recovery, industrially relevant (bioderived, when applicable) solvents will be selected, avoiding hazardous 
+substances with critical toxicological profile.

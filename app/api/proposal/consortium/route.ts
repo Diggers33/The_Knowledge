@@ -141,6 +141,15 @@ async function getTavilyPartners(
   const TAVILY_KEY = process.env.TAVILY_API_KEY
   if (!TAVILY_KEY) return []
 
+  // Extract 3 most discriminating topic keywords (skip generic EU terms)
+  const GENERIC = new Set(['horizon','europe','european','project','proposal','funding','grant','research','innovation','digital'])
+  const topicTerms = topicKeywords
+    .toLowerCase().replace(/[^a-z0-9\s]/g, ' ').split(/\s+/)
+    .filter(w => w.length > 4 && !GENERIC.has(w))
+    .slice(0, 4)
+    .join(' ')
+  const topic = topicTerms || topicKeywords.slice(0, 60)
+
   async function tavilySearch(query: string): Promise<string> {
     try {
       const res = await fetch('https://api.tavily.com/search', {
@@ -165,9 +174,9 @@ async function getTavilyPartners(
   }
 
   const [researchResults, industryResults, endUserResults] = await Promise.all([
-    tavilySearch(`Horizon Europe research institute ${topicKeywords} AI process industry consortium partner`),
-    tavilySearch(`SME company ${topicKeywords} AI manufacturing technology EU Horizon Europe`),
-    tavilySearch(`${topicKeywords} process industry end user pilot demonstration Horizon Europe project`),
+    tavilySearch(`Horizon Europe research institute ${topic} consortium partner EU project`),
+    tavilySearch(`SME company ${topic} technology EU Horizon Europe innovation`),
+    tavilySearch(`${topic} end user pilot demonstration site Horizon Europe project industry`),
   ])
 
   const combinedResults = [
@@ -215,7 +224,7 @@ Return ONLY valid JSON, no other text.`
     const data = await res.json()
     const text = data.choices?.[0]?.message?.content || '[]'
     const parsed = JSON.parse(text.replace(/```json|```/g, '').trim())
-    return (Array.isArray(parsed) ? parsed : []).map((p: any) => ({ ...p, fitScore: Math.max(1, p.fitScore || 1), source: 'openaire' as const }))
+    return (Array.isArray(parsed) ? parsed : []).map((p: any) => ({ ...p, fitScore: Math.max(1, p.fitScore || 1), source: 'tavily' as const }))
   } catch (e) {
     console.error('Tavily partner extraction error:', e)
     return []
@@ -312,7 +321,7 @@ function getStaticSuggestions(
       speciality:  p.speciality,
       fitScore:    Math.max(1, p.score >= 3 ? 3 : p.score >= 1 ? 2 : 1),
       fitReason:   p.fitReason,
-      source:      'openaire' as const,
+      source:      'tavily' as const,
     }))
   }
 

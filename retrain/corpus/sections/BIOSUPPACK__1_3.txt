@@ -1,0 +1,464 @@
+1.3 Concept and methodology 
+Overall concept 
+Today resource-efficient plastics are present in an infinite range of products and applications helping us to save 
+energy, carbon dioxide emissions, water and even food. They contribute to circularity, to health and safety and to 
+mitigate climate change.  However, to make the most of these materials, challenges related to the EoL of certain 
+products, and particularly plastic packaging , still need to be addressed.  The increasing use of biopolymers in 
+packaging applications is aligned with this necessity, when alternative EoL to landfilling, incineration or mechanical 
+recycling are considered, like biodegradability or compostability. But bioplastics are not only used for this purpose, 
+but others like the use of non -fossil based raw materials. Linking both purposes and considering the fact that in 
+Europe we still landfill nearly 40-50% of plastic waste15 and only the 25-31% is currently recycled, bioplastics are a 
+good alternative to conventional polymers, covering the current EU´s policies in terms of the use of non-fossil based 
+resources, the recyclability  rate increase of materials and packaging products (when  using non -
+biodegradable/compostable bioplastics) or the look for the most favourable EoL according to the final application . 
+BioSupPack project addresses these EU´s policies through the use of brewery waste, available in large amounts and 
+with a suitable composition for the production of PHA based bioplastics in high yield fermentation processes16, but 
+also goes a step further when considering EoL of the new biobased packaging, as it will boost recyclability of the 
+biobased materials and products, by enzymatic recycling of the packaging waste. This EoL allows getting more value 
+to the packaging materials compared to biodegradability or compostability, as precursors suitable for feeding the 
+fermentation processes or even polymerize PHA, increasing circularity. In addition, BioSupPack addresses also the 
+specific n eed for recyclability of current single use packaging (service packaging ) made of PE coated 
+paper/cardboard, difficult to recycle due to the complex separation of both materials, by the use of PHA based 
+coatings and the use of enzymes that degrade then aft er the packaging life , leaving the paper/cardboard 100% 
+available for recyclability. Being paper and carboard the packaging material with the highest recycling rate in Europe 
+(85,8% across the 28 EU countries)17, the project will allow integrating this waste stream in the recycling loop. 
+The BioSupPack project will: 
+1. Develop and produce at a demonstrative level  a range of  bio-based material formulations  with tailored 
+properties for identified packaging applications, derived from available agri-food by-products (PHA/PHB based 
+compounds) and from commercially available PHAs (wet coatings). 
+2. Validate the use of the resulting biobased materials in several foods, cosmetic, homecare & beverage packaging 
+and their environmental impacts and economic feasibility compared with existing benchmarks.  
+3. Provide recommendations for suitable business approaches  for the new packaging materials and derivates 
+from BSG, from an integrated bio -based value chain perspective including, among others, consumers & end 
+users requesting more sustainable solutions, feedstock logistics and management and waste management bodies 
+through a series of outreach activities exchanging knowledge between the relevant actors. 
+The considered technologies are summarised in Table 2, together with their purpose.  
+Table 2: BioSupPack bio-based materials, packaging and processes innovations to achieve project goals  
+Life Cycle Step Technology to be applied Effect Addressed to 
+Sourcing Non-thermal air cold plasma technology Increased BSG to sugar conversion yields in 
+subsequent enzymatic hydrolysis. Efficient pre-
+treatment at ambient temperature and pressure. 
+Increase efficiency and 
+sustainability of PHB 
+production via enhanced 
+BSG conversion into PHB, 
+no chemical usage for BSG 
+pre-treatment, and reduced 
+energy requirements. 
+Fermentation routes with extremophilic 
+bacteria  
+Reduced risk of contamination and energy 
+demands. 
+Extraction of PHB from bacterial biomass 
+by ‘green’ and recyclable solvents and 
+switchable anionic surfactants   
+PHB extraction of high purity and yield and no 
+Mw reduction via PHB degradation. 
+Packaging 
+production 
+Air cold plasma technology Oxygen and water vapour barrier for food and 
+cosmetic packaging, homecare.  
+Improve packaging 
+performance. 
+PHA wet coating and wet coating grafting 
+on pulp-based substrates 
+Water vapour and fat/liquids barrier for service 
+and prepared food packaging. 
+Tailored PHAs compounds to be applied 
+in packaging production. 
+Squeezable packaging for sauces and cosmetics. 
+Microwable packaging / Hot-filling properties. 
+EoL Combination of several spectroscopic 
+technologies (e.g. NIR and visible HSI) 
+New sorting technology for PHA based 
+BioSupPack packaging waste. 
+Selective separation, 
+increase recycling 
+efficiency. 
+Cold plasma technology Surface modification, reduced Mw of PHA used 
+packaging for enzymatic hydrolysis. Increased 
+used packages to 3HB conversion yields. 
+Increase efficiency and 
+sustainability in enzymatic 
+recycling as EoL, 
+with carbon source 
+recycling and no chemical 
+Exploit existing strains and currently 
+available metagenomics libraries from 
+Production of highly efficient PHB 
+depolymerase for used PHB-based package 
+ 
+15 http://ec.europa.eu/environment/waste/plastic waste.htm 
+16 Mussato, S.I. (2014) Brewer's spent grain: A valuable feedstock for industrial applications. J Sci Food Agric 94(7), 1264-1275. 
+17 EU figures ahead Global Recycling Day 
+  
+BioSupPack                                                 BBI 2020.SO3. D4                                                       
+Page 15 of 112 
+extreme environments for selection of 
+PHB depolymerase 
+hydrolysis into 3HB monomers profitable by the 
+industry. 
+usage for PHA recycling, 
+causing no damage to the 
+environment.  Directed evolution and rational design of 
+enzymes. Use of enzyme cocktails 
+Increased PHA depolymerization rate of 
+selected enzymes and enhanced 3HB production 
+efficiency from used packages. 
+Logistics along 
+the value chain 
+Blockchain Traceability from waste feedstock to end 
+product. Increase transparency to stakeholders. 
+Certify feedstock streams 
+along the supply chain. 
+QR code Tracing the information from the blockchain 
+and the characteristics of the feedstock. 
+Facilitate traceability 
+information access to 
+stakeholders. 
+Eco-driving Reduction in a 20% of GHG generation: 17% 
+due to the efficient conduction system, focusing 
+on a less aggressive driving system and a route 
+optimization; 3% due to an intelligent system by 
+the incorporation of IoT. 
+Reduction on climate 
+impact and optimization of 
+fuel and time consumption 
+in transport operations. 
+ 
+Shared logistics Shared routes and transport resources depending 
+on the feedstock needed, the places where 
+recollecting, and the destiny of the same. 
+Smart management of 
+transport resources. 
+Cloud Platform Centralization of real-time information in a 
+unique platform. 
+Generate the blockchains 
+and provide real-time info. 
+about the available. 
+In BioSupPack, our trans-disciplinary team, formed by 17 partners from 8 countries across Europe, combines all the 
+relevant skills and organisations needed to address the full extent of the challenge of upscaling the production of  
+innovative sustainable bio -based compounds and coatings in plastic packaging solutions. The consortium is very 
+strong with mature suppliers pioneering bioplastic & packaging converting companies, innovative technology 
+companies and RTDs, as well as SME and large end users. The participation of leading industry players proves the 
+actual soundness of the concept to generate large impact and will maximize the consortium capability in creating and 
+accelerating the market uptake of the new biobased materials and packaging.  The participation of key Stakeholders 
+with specific expertise involved in an Advisory Board (AB), will provide high value to the project results and impacts, 
+collaborating in different points of the value chain (details in section 4.5 and support letters annexed to section 5).  
+Positioning of the project  
+Most BioSupPack activities will be implemented starting at TRL5, and even some of them, like plasma technology 
+for improving packaging performance or PHA based compounds production, start with a more advanced TRL6, with 
+a target of a consolidated TRL7 and TRL8 respectively at the project end, when our technologies will be combined 
+in the final project demonstrators to be produced first at RTDs pilot scale and finally at the industrial facilities of the 
+plastic converters, with the subsequent validation by the end-users in operational environment. In the specific cases 
+of the use of extremophilic bacteria in fermentation processes, the development of squeezable packaging, and the use 
+of plasma technology in both BSG and packaging waste pre -treatment as well as the f ermentation routes for PHB 
+production from PHB monomers from recycling, start at TRL4 and they will achieve a TRL6. Proposed innovations 
+are based on prior research from involved partners for the same or other base biopolymers for packaging applications, 
+and on technologies defined at the pilot level or in other industrial sectors, as Table 3 shows. 
+Table 3: Summary of the TRL advancements through BioSupPack project  
+Technology Initial 
+TRL 
+Final 
+TRL 
+Justification of current TRL 
+Plasma technology for BSG pre-
+treatment. 
+5 7 PLT have successfully scaled their plasma power source from their commercialised lab unit 
+(400W) to a commercial scale 5,000W design. This system will facilitate the TRL jump from 5 
+to 7 for the proposed plasma bubble reactor for the pre-treatment of BSG. PLT has demonstrated 
+its plasma -bubble reactor at small pilot scal e (TRL5). Bubble technology is an established 
+technology in the chemical industries which will further support the development. 
+Fermentation routes for PHB 
+production using conventional 
+meshophiles. 
+5 7 AUA has participated in 4 national research projects focusing on PHB production (up to 5 kg) 
+using crude renewable resources  (wheat milling, biodiesel industry  and fruit processing by -
+products, and sugar beet pulp) with Cupriavidus necator and Burkholderia sacchari in 2 to 30 L 
+fed-batch bioreactor cultures involving also technology transfer to industrially relevant 
+environments (TRL5).  NFG has experience with the scale -up of PHB production from used 
+cooking oil in its pilot plant (TRL8) where bioreactor up to 1500 L is used. NFG is involved in 
+other H2020 project where fermentation of PHB from coffee oil will be scaled-up. 
+Fermentation routes for PHB 
+production using extremophilic 
+bacteria. 
+4 6 BUT has experience with utilizing various thermophilic bacteria for PHA production, showing 
+the process feasibility in the lab-scale (5L fed-batch reactor) and the process has been described 
+and published (TRL4). NFG will use its experience as described above to scale-up to TRL 6. 
+Compounding for development 
+and production of PHA based 
+compounds for rigid packaging. 
+6 7 SABIO has already designed and produced formulations suitable for packaging in pilot scale and 
+industrial scale plant. Additionally, the packaging prototype obtained after scale -up, meet 
+requirements validated in industrial environment. 
+Plasma technology for barrier 
+properties improvement. 
+6 8 PLT have successfully scaled their plasma power source from the commercialised lab unit 400W 
+to a commercial scale 5,000W design. PLT is highly experienced in engineering of atmospheric 
+pressure plasma reactors. The system will drive the required treatment to reach TRL8.  
+PHA coating in pulp-based 
+packaging for moisture, liquids, 
+5 7 The patented plastisol technology is established for different applications by CTB at TRL5. It 
+will be tailored to application on fibre-based substrates. Developed coating will be applied in an 
+  
+BioSupPack                                                 BBI 2020.SO3. D4                                                       
+Page 16 of 112 
+fats protection. industrial pilot environment at GPI. 
+Grafting of PHA coating for 
+oxygen protection of pulp-based 
+packaging. 
+5 7 Paper grafting is industrially available. Bio -based grafting solutions currently developed in 
+BionTop project for application on PLA will be tune d to application to paper and PHA coated 
+paper in BioSupPack. Developed grafting will be applied in industrial pilot environment at GPI. 
+Technology for squeezable 
+packaging. 
+4 6 ILAB has dealt with several lightweight projects in both ISBM and EBM technologies, producing 
+packages with very thin layers, to the point of having self -collapsing bottles to empty the bottle 
+by gravity, without compromising its structure.  
+The materials developed from SABIOMATERIALS are already technology validated to produce 
+several packaging items. Thus, developing tailored materials for squeezable packaging will 
+satisfy the TRL jump from 4 to 6. 
+EBM technology for PHA based 
+bottles production. 
+5 6 ILAB has been developing hundreds of bottles through EBM processes for over 20 years, 
+experimenting with different materials, from traditional HDPE and PP to several PHA and PHB. 
+Photonics technology for 
+selective optical sorting of 
+biobased materials. 
+5 7 IRIS has already  developed a prototype for the discrimination of most abundant polymer in 
+multilayer materials for sorting applications. The systems applied advanced data analytics 
+merging ML and chemometrics for the proper data treatment. IRIS will extend the materials 
+range of applications beyond the fossil -based ones and will train and optimize the models to 
+increase the ability of the final device to be used in real industrial environment.   
+Plasma technology for 
+packaging waste pre-treatment. 
+4 6 PLT have successfully scaled their plasma power source from their commercialised lab unit 
+(400W) to a commercial scale 5,000W design. This system will facilitate the TRL jump from 4 
+to 6 for the proposed plasma waste reactor. We have demonstrated our gas p lasma and plasma-
+bubble reactors at small pilot scale (TRL4).  
+PHB depolymerase enzyme 
+selection producing 3HB 
+monomers, engineering, cloning 
+and development of 
+recombinant expression strains. 
+ 
+4 6 AUA and BUT have produced PHB-depolymerizing enzymes using existing microorganisms in 
+lab scale (TRL4). AUA has developed metagenomics libraries from extreme environments 
+containing various organisms, that will be used for the selection of organisms producing PHB 
+depolymerase with 3HB producing ability (TRL4). AUA has expertise in enzyme cloning, 
+expression, engineering and redesign, using rational and combinatorial methods (directed or 
+random evolution approaches), development of recombinant expression systems ( E. coli) and 
+metagenomic technologies in various R&D projects commercially oriented (TRL6).  
+Enzyme production using 
+recombinant expression strains. 
+5 7 ASA has expertise in heterologous enzyme production using E. coli and P. pastoris strains at 
+large scale using a 1.000 L reactor and will carry out enzymatic production in the project (TRL7). 
+Bioprocess development for 
+enzymatic hydrolysis of used 
+PHB-based packages 
+5 6 AUA has established expertise in the development of lab -scale enzymatic hydrolysis (e.g. 
+amylase, protease, lipase, cellulase, xylanase etc.) and enzymatic biocatalysis processes using 
+various crude feedstocks and crude or engineered  enzymes in various R&D projects in many 
+cases commercially oriented (TRL5).  SAV will conduct the enzymatic hydrolysis process to 
+produce at large scale 3HB monomer using a 1.500 L reactor, in an own pre-industrial bioprocess 
+plant. This will allow SAV to set the requirements in an industrial environment (TRL6).  
+Fermentation routes for PHB 
+production from PHB 
+monomers from recycling 
+4 6 AUA has produced PHB from 3 -hydroxybutyric acid at lab -scale cultures (TRL4). NFG will 
+validate the technology in the 300 L fermentor, reaching TRL6 within the project. 
+ 
+National or international research and innovation activities linked to the project 
+BioSupPack will build on prior research activities and IP belonging to several project partners. Table 4 lists the most 
+relevant projects participated by the partners, derived expertise, methods or processes that will feed in this project. 
+Table 4: Relevant research and innovation activities (additional ones can be found in the respective partner profiles) 
+Project Partners 
+involved 
+Opportunity for carryover to BioSupPack 
+LIFE Bread4PLA Demonstration Plan Project to produce Poly-lactic acid 
+(PLA) Biopolymer from waste products of bakery (LIFE+) (2011-2014)  
+AIMPLAS Proofs of feasibility to obtain LA and derived PLA 
+from 3rd generation LA (bread waste). 
+PHBOTTLE New sustainable, functionalize d, competitive PHB material 
+based in fruit by -products getting advanced solutions for packaging and 
+non-packaging applications (FP7-NMP-280831) (2012-2016) 
+ILAB, 
+AIMPLAS 
+New PHB production from the wastewater from juice 
+processing industries to produce PHB bottles, caps and 
+sleeves prototypes. 
+BIOBOTTLE Biodegradable solutions for packaging of liquid dairy 
+products (FP7-SME-606350) (2014-2016) 
+AIMPLAS New biopolymer blends development and processing 
+for dairy packaging applications (pouches and bags). 
+AGRIMAX Agri & food waste valorisation co -ops based on flexible 
+multi-feedstocks biorefinery processing technologies for new high added 
+value applications (H2020-BBI-PPP-720719) (2016-2020) 
+IRIS, 
+AIMPLAS 
+Bio-based blends and composites with PLA, PHAs, 
+bio-based additives and natural fibres. 
+RES URBIS: RESources from URban BIo -waSte (Grant Agreement 
+730349; H2020-CIRC-05-2016) 
+SABIO Integration into a single facility and to use one main 
+technology chain for the conversion of several types 
+of urban bio-wastes into valuable bio -based products 
+(including PHAs polymers), while also minimizing 
+any residual or consequent waste to be disposed of. 
+USABLE PACKAGING (Grant Agreement No. 836884; 
+BBI.2018.SO3.R10) 
+SABIO Development of high -performance plastic packaging 
+through a sustainable and fully circular value chain, 
+where the biomass raw material sourcing derives from 
+food processing. 
+Valor plus: Development of processes for the production of 
+polyhydroxyalcanoates (EC-FB7; 2013 – 2017) 
+ASA Improving of bacterial strains and processes for the 
+synthesis of PHA. 
+  
+BioSupPack                                                 BBI 2020.SO3. D4                                                       
+Page 17 of 112 
+BIOnTop Novel packaging films and textiles with tailored end of life and 
+performance based on bio-based copolymers and coatings (BBI 837761) 
+ASU, IRIS, 
+AIMPLAS, 
+CTB,ENCO 
+Development of novel packaging in different formats 
+using new copolymers based on PLA and other bio -
+based diacids as well as innovative barrier coatings. 
+NENU2PHAR Initiative to upscale production of PHA from renewable 
+carbon sources at a competitive cost. (H2020-BBI-JTI-2019) (2019-2023) 
+CTB Availability of PHA of different types. 
+Utilization of bio -refinery concept for valorization of waste biomass of 
+wood processing industry (COST CZ project LD15031)  
+BUT Experience with conversion of lignocellulose - based 
+substrates for PHA production.  
+Evolutionary Engineering of Polyhydroxyalkanoates Producing Bacteria 
+(Czech Science Foundation Standard Project GA 19-20697S).  
+BUT Experience with development of strain for PHA 
+biosynthesis, extremophiles for PHA production. 
+Transfer of Hydal biotechnology to China (Technology Agency of the 
+Czech Republic TF02000062) 
+BUT, NFG Scale-up of PHA production to pilot scale. 
+WaysTUP! - Value chains for disruptive transformation of urban biowaste 
+into biobased products in the city context (H2020 -SFS-2018-2020) 
+(2019–2023). 
+NFG, SAV Experience in PHA p roduction from coffee oil 
+extracted from spent coffee grounds  (NFG) and in 
+lipids and proteins production from food and 
+fertilizers from SCG (SAV).  
+HOOP Hub of circular cities bo osting platform to foster investments for 
+the valorisation of urban biowaste and wastewater (H2020 -FNR-2020) 
+(2020–2024). 
+NFG, SAV Promoting circular economy through the production 
+of innovative bio-based products. 
+Valorisation of agricultural sugar beet residues and sugar beet pulp for the 
+production of PHA -based biodegradable packaging (2020 -2023, 
+MIS5069983, GSRT. Greece) 
+AUA Bioprocess development for PHB and PHBV 
+production from sugar beet leaves and pulp at 2 to 30 
+L bioreactor scale 
+Valorisation of  wheat milling by -products for the production of PHB -
+based biodegradable and active packaging (2018 -2021, MIS5032796, 
+GSRT. Greece) 
+AUA Bioprocess development for PHB production from 
+wheat milling by-products at 2 to 30 L bioreactor scale 
+TetraSOD® - food supplement enriched in the enzyme superoxide 
+dismutase from microalgae Tetraselmis chui (www.tetrasod.com) 
+AUA AUA has developed various enzyme -based products 
+currently in the market via R&D commercially 
+oriented projects funded by enterprises. Erwinaze(TM) and Pegcrisantaspase used as antileukemic drugs - the 
+recombinant L-asparaginase from Erwinia chrysanthemi  
+AUA 
+SAFEBAG Novel continuous in -pack decontamination system for fresh 
+produce  & MEATPACK A novel packaging system for meat safety and 
+shelf-life extension (FP7-SME)  
+IRIS Use of plasma technology for packaging 
+decontamination and food shelf life extension. These 
+projects allowed forming of PLT as a company. IRIS 
+MULTICYCLE (H2020 SPIRE) Advanced & sustainable recycling 
+processes and value chains for plastic-based multi-materials. 
+IRIS, CTB, 
+AIMPLAS 
+Use of packaging SRM in textile, optical sorting, etc . 
+Dissemination strategy around a Circular Plastic Helix 
+that can help creating synergies. 
+Development of enzymatic and microbial processes for the degradation of 
+plastic compounds (BMWA; 2013 – 2016) 
+ASA Searching for enzymes for the degradation of PET, 
+PLA, PCL, PBS. 
+BiogasEnzymes: Assessment of enzymes for the use in biogas plants from 
+laboratory to industrial scale (BMBF, 2010-2013) 
+ASA Optimization of the depolymerization of biopolymers 
+in BSG. 
+BIOICEP Bio innovation of a Circular Economy for Plastics (H2020 -
+NMBP-BIO-CN-2019) 
+AIMPLAS Pre-treatment methods for further biodegradation. 
+Enzymatic plastic depolymerization. PHB upcycling. 
+4EverGreen industry alliance to boost the contribution of fibre -based 
+packaging in a circular economy. 
+GPI Sustainability strategy especially in terms of 
+substituting plastic coatings by biodegradable 
+solutions. Recycling of fibre-based packaging. 
+VALUEWASTE Unlocking new value from urban biowaste (H2020 CE-
+SFS-25-2018 Grant Agreement 818312) (2018-2022) 
+SAV System development for urban biowaste valorisation 
+through the development of three value chains that can 
+be integrated following a cascading approach.  
+WaysTUP! Value chains for disruptive transformation of urban biowaste 
+into biobased products in city context (H2020 SEP-210494567)  
+SAV, NFG, 
+AIMPLAS 
+Establishment of new value chains for urban bio-waste 
+with pilot demonstrations. 
+HOOP Hub of circular cities bOOsting Platform to foster investments for 
+the valorisation of urban biowaste and wastewater (2020) 
+SAV Implementation of profitable bio -processes from 
+private investments. 
+PlastiCircle Improvement of the plastic packaging waste chain from a 
+circular economy approachGrant agreement ID: 730292 (2018–2021). 
+SAV Develop and implement a holistic process to increase 
+recycling rates of packaging waste in Europe. 
+RECOVER Development of innovative biotic symbiosis for plastic 
+biodegradation and synth esis to solve their end of life challenges in the 
+agriculture and food industries BBI JU (2020-2024) 
+SAV Demonstrate and upscale novel bio -based approaches 
+to dealing with the problem of agri-food waste plastics 
+(AWPs). 
+Overall approach and methodology 
+BioSupPack is a 42-month project. The consortium has designed a work plan structured into 9 work packages (WPs). 
+Figure 5 provides an overview of the content and interrelationships of the respective WPs and overall impact. WP1 
+will upscale the production of new PHA based compounds and coatings. I n WP2, packaging prototypes will be 
+produced at demo level. WP3 will focus on prototypes´ validation by the end-users, with participation of some of the 
+stakeholders, also addressing consumer´s perception and acceptance issues. WP4 is a strategic WP focused on all the 
+logistics aspects regarding the management of the brewery by-product for PHAs production and the new packaging 
+waste for recycling and the creation of the new value chain. WP5 will optimize and demonstrate recycling viability 
+of the new packaging (mechanical and enzymatic recycling) with participation of the stakeholders, and also upcycling 
+of PHAs by reintroduction of derived monomers in the polymers production. The environmental and socio-economic 
+  
+BioSupPack                                                 BBI 2020.SO3. D4                                                       
+Page 18 of 112 
+impacts will be assessed in WP6. WP7, will address the Communication and Dissemination activities foreseen in 
+the project , together wit h the main regulatory concerns . WP8 will manage the exploitation and business model 
+activities, with a perspective of moving towards the commercialization process, based on the contributions of all the 
+industrial partners in the consortium. WP9 will address the overall technical, administrative, legal and financial 
+management of the project, as well as its oversight.  
+ 
+Figure 5. Overview of the interconnected WPs and overall impact of BioSupPack 
+How sex and/or gender analysis is taken into account in the project’s content 
+Gender analysis concept is relevant to the content of the project in several aspects. To this end, innovation will 
+consider the gender dimension and cater for the needs, motivati ons and differences of all genders where possible. 
+Taking gender into account in the innovation activities will help yielding new results and spark creativity, opening 
+new avenues for future research as recognized in the past for those who give it serious attention18. Gender analyses 
+will be highly relevant in consumer perceptions for biobased solutions study (task 3.4) that would differ depending 
+on gender and to the preponderant role of women in household waste pre-sorting. The outcome of the study will be 
+used in the communication and dissemination context to ensure our message is appropriate to reach all genders. For 
+example, the consideration of environmental factors, related to the source of new biobased materials and the new 
+packaging EoL, is likely to vary depending on the gender. Women are predominantly involved both in the purchase 
+and waste sorting of packaging at household level. In addition, female inputs to new business models will also be 
+considered. Indeed, while the presence of females in the plastic converting sectors is traditionally lower than of males, 
+there is a strong presence of females along the value chain of the bioeconomy industries where they play an 
+increasingly prevalent role in consumer decision-making. 
+The gender dimension of our consortium and our measures to align with article 16 of H2020 programme are presented 
+in section 3.3. It will ensure education and training of the next generation of scientists, technologist s and others 
+needed in the EU to foster the future of a circular bioeconomy and maximise its creativity and innovation potential.

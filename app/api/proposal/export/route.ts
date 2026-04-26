@@ -174,6 +174,14 @@ function buildSectionParagraphs(
     if (!exportVerdict.ok) {
       console.warn(`Export guard: sanitised section ${sec.id} — ${exportVerdict.hits.length} hit(s) (${exportVerdict.category})`)
     }
+    // Hard canary: abort export if any meta-prose survives sanitisation
+    const META_PROSE = /please\s+regenerate|drift\s+detector|drifted\s+off.topic|generation\s+error:|section\s+truncated|generation\s+(?:quality\s+)?degraded|rejected\s+by/i
+    if (META_PROSE.test(cleanedText)) {
+      console.error(`Export abort: meta-prose notice found in section ${sec.id} after sanitise`)
+      const err = new Error(`Section "${sec.title}" still contains a generation-error notice. Please regenerate this section and try again.`)
+      ;(err as any).status = 422
+      throw err
+    }
     const { mainText, references, kbSources } = splitSectionAndReferences(cleanedText)
     paras.push(...textToParagraphs(mainText))
 
@@ -383,6 +391,7 @@ export async function POST(req: NextRequest) {
 
   } catch (e: any) {
     console.error('Export route error:', e)
-    return NextResponse.json({ error: e.message || 'Export failed' }, { status: 500 })
+    const status = (e as any).status === 422 ? 422 : 500
+    return NextResponse.json({ error: e.message || 'Export failed' }, { status })
   }
 }

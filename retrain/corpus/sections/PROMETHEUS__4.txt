@@ -1,0 +1,1181 @@
+4. Members of the consortium ......................................................................................................................................... 69 
+4.1. Participants (applicants) ...................................................................................................................................... 69 
+4.2. Third parties involved in the project (including use of third party resources) .................................................. 120 
+5. Ethics and Security ..................................................................................................................................................... 125 
+5.1. Ethics ................................................................................................................................................................. 125 
+5.2. Security .............................................................................................................................................................. 125 
+  
+ 
+5 
+1. Excellence 
+PROMETHEUS will develop a world -leading Rapid Ultra -Short Pulse Laser Surface Texturing technology for the 
+functionalisation of a wide range of materials and products. The PROMETHEUS consortium consists of EU -leading 
+organisations that cover the full value chain for laser surface engineering, with access to all of the necessary resources to 
+develop the technology and provide access to European and global markets. The 4 end-user partners: MAIER, CRF, ARCELIK 
+and JJVC are all recognised in their industrial sectors: Automotive, white goods and fast- moving consumer goods. In order 
+to minimise the ultimate time to market and to maximise exploitation, the demonstration unit will be built by PRIMA who 
+are already suppliers of these integrated systems to the European and global markets. 
+By building on our consortium’s existing technologies and developments, PROMETHEUS will overcome the existing barriers 
+that are currently limiting developments and holding back ultra -short pulse laser texturing from achieving mainstream 
+application, through developing: 
+• USP laser architectures with pulse duration <10ns, powers >1kW and pulse repetition rates above 500Hz. 
+• Direct Laser Interference Patterning (DLIP) technology to achieve multiple length-scale periodic patterns (3- 10µm) 
+with processing speed of 2-5 m²/min. 
+• USP laser architectures of M2 beam quality ≤15 or spatial coherence >15% and coherence length equal to 3mm. 
+• Industrial grade fibre cables that are able to transmit peak power densities above 5GW/cm 2 over a minimum 3m 
+length. 
+• Optical inspection methods for assessing the quality of the produced functional surface textures at the high 
+production speed (up to several m2/min) and respond via process control. 
+In so doing, the PROMETHEUS project will transform our current technologies from the current TRL 4 to create a market 
+leading solution that will have clear advantages over existing solutions and demonstrate those in an industrial relevant 
+environment (TRL 6). 
+PROMETHEUS will directly address and contribute to the wider Europe 2020 targets through increased employment of 20-
+64 years old, increased R&D spending, reduced energy usage and greenhouse emissions, and increased education,  
+especially at third level education as well as the 10 EC priorities for 2015-19 Jobs, growth and investment and the UN 
+Sustainable Development Goals (SDGs). 
+Surface engineering is a critical technology that adds functionality to materials surfaces through texturing, surface 
+modification or coating. Currently, coating solutions dominate due to their higher level of maturity , relatively low cost 
+and higher speed. However, surface coatings have a number of limitations, including: 
+• Limited durability and effectiveness over long-time periods. 
+• Need for potentially harmful chemicals, many of which are regulated through the REACH legislation. 
+• Poor sustainability and resource efficiency due to the chemicals and processes employed. 
+ Enhanced surface functionality through surface texturing  has existed for a number of years. The earliest commercial 
+application demonstrated on cylinder liner honings i,ii, with more recent applications shown for texturing of magnetic 
+storage devices iii,iv and for MEMS devices for overcoming adhesion and stiction problems v. Early work in the 1960s  
+relating to tribologyvi,vii,viii was based on the concept of surface texturing providing micro-reservoirs to enhance lubricant 
+retention or as micro-traps to capture wear debrisix. 
+Current Surface Texturing (LST) methods: 
+• Electron and Ion -Beam lithography for the 
+fabrication of high-resolution surface patterns with 
+small feature sizes down to ~100 nm. However, 
+these techniques are inherently limited to 0.008-
+0.03 cm²/minx which makes them 
+infeasible for many applications.  
+• Conventional micro machining such as micro -
+milling can achieve high processing speeds (e.g. 
+~0.01 m²/min) but at low resolution (e.g. 15 - 100 
+μm) which significantly limits the type of achievable 
+surface features. 
+• Chemical etching is also an option but is restricted 
+due to the use of potentially harmful chemicals and 
+other challenges related to scalability and control make it widely unattractive to end users. 
+ 
+Figure 1 Fabrication speed vs. Feature size 
+
+ 
+6 
+Each of these techniques, typically suffers from low productivity, due to the size and complexity of features required for 
+surface functionality. There is an inevitable a trade-off between resolution / definition and speed. 
+Laser surface texturing (LST) is a highly promising surface engineering technique that offers: Excellent repeatability; 
+Non-contact processing; The ability of achieving small feature size and the possibility of achieving high quality finishing. 
+Over the last decade there has been a large number of academic publications on using LST for the manufacture of 
+hydrophobic, high friction, oleophilic (for oil trapping) surfaces etc. However, despite the promising results, the industrial 
+uptake has been very limited and in most cases the technology has stalled at TRL 4. The reasons identified for this failure 
+to progress beyond TRL is attributed to: 
+i) High cost, 
+ii) Poor productivity and 
+iii) Lack of knowledge. 
+USP lasers are ideally suited for surface texturing and ablation applications on temperature sensitive materials and 
+substrates. Whilst USP laser processes have been widely applied in industrial applications already, their widespread take 
+up has been limited due to four main technical limitations of current laser surface texturing, including: 
+• Heat accumulation and oxidation 
+• Synchronisation of laser pulses 
+• Plasma Shielding effects 
+• Precision at high processing speeds 
+The PROMETHEUS project directly addresses these shortfalls by developing a novel high power 1.5 kW USP laser system, 
+which utilises the average power and repetition rate of the ultrashort pulsed laser source more effecti vely than current 
+methods via spreading the pulses temporally across the component at industrially relevant speeds, whilst ensuring 
+minimal thermal degradation of the component’s surface. 
+The approach uses a direct laser interference patterning (DLIP) tech nique that is uniquely suited to high power 
+applications as the increased power is spread across the interference pattern, enabling high power utilisation whilst 
+maintaining high precision from the interference patterns. Current systems are intrinsically l imited – as the power is 
+increased, the scan rate must also be increased to prevent will melting that results in lower resolution. Increasing 
+scanning rates leads to an inherent loss of resolution and control. 
+This is an innovative solution for high speed surface patterning of periodic structures in a one step process whereby periodic 
+structures can be produced in different materials including metals, ceramics, polymers and coatings in a single step 
+process. This approach will enable our consortium to utili se novel laser texturing methods for superior temperature 
+control and ultra -high processing speeds. The technology has the potential to create functional surfaces with optimal 
+friction, hydrophobic or hydrophilic, anti-corrosion or other properties. 
+The PROMETHEUS solution will build on previous research and development work by the consortium to create: 
+Ultra-Short Pulse (USP) lasers from APL with pulse durations in the nanosecond regime down to the femtosecond regime. 
+The average laser power will be increased to power within nanosecond lasers towards 2-3 kW. We will initially start with 
+pulse durations in the range of 5 -15 ns and then seek to develop to a few hundred picoseconds. The  power may be as 
+much as 25 mJ. This will be combined with an innovative Direct Laser Interference Patterning (DLIP) from FRAUNHOFER. 
+As such a laser system would have to be highly multi -mode (M2~30), a novel M2 transformation beam shaping method 
+based on diffractive optics will be developed and utilised by HOLO-OR to achieve effective interference patterning with 
+a partially coherent source. This approach will build on current similar  novel M2 transformation HOLO-OR systems that 
+have been shown to produced good interference patterns. 
+To allow for process control to be achieved, process monitoring and control from VISUM and AIMEN will also be 
+developed. 
+These will be integrated into a demonstrator system consisting of the laser, M 2 transformation, beam splitting and fibre 
+delivery that can achieve processing speeds of 2-5 m²/min for a range of materials and geometries. 
+This will enable the technology to be demonstrated for the next generation of manufacturing of functional textured 
+surfaces in a broad range of industrial sectors, including: 
+1. Automotive – Exterior chrome-plated bumper trim with self-cleaning properties. Almost planar with some 
+curvature. 330 mm x 30 mm x 20 mm. 
+2. Automotive – laser surface texturing of cylinder piston liners to replace mechanical helical side -honing to 
+ 
+7 
+deliver controlled surface roughness and reduced piston friction. 
+3. Automotive – Improved mould tools with low friction surface to eliminate lubricants for aluminium hot 
+forming process. 
+4. White goods - Hydrophobic texturing for dishwashers and tumble dryer heat exchangers to reduce energy 
+consumption required for drying and condensers. 
+5. Fast moving consumer goods (FMCG) – oleophobic surface texturing of plastic packaging for FMCG 
+application to reduce current practice of overfilling and to enable the customer to extract maximum product. 
+6. Health - antibacterial functionality for PROLENE suture (JJVC) and improved cement adhesion on PEEK 
+orthopaedic implants (JJVC) 
+1.1. Objectives 
+The overall aim of PROMETHEUS is to develop high power ultra-short pulse lasers and the associated optics to enable 
+the precise periodic texturing of surfaces to impart a range of surface functionalities at unprecedented processing 
+speeds. 
+Key Overarching Objectives: 
+The PROMETHEUS project a number of broad qualitative objectives, including; 
+• To manufacture textured functional surfaces utilising fewer raw materials, less energy and less waste. 
+• To improve accuracy, power and control over existing technologies. 
+• To achieve fast materials processing with processing speeds 2-5 m2/min, representing a significant increase 
+on current laser techniques. 
+• To increase achievable precision. 
+• To minimize heat impact on sensitive materials. 
+• To increase productivity. 
+• To increase achievable flexibility and product customization. 
+• Significantly reduce processing costs. 
+In order to achieve those objectives, the specific smart objectives for the research programme have been carefully 
+devised to address the challenges identified in the previous section and are as below: 
+ 
+Table 1.1 PROMETHEUS technical developments and demonstration and commercial exploitation objectives 
+ 
+ No Objective WP 
+Technical 
+Development 
+1 To develop and validate designs for 3 laser architectures with capability to achieve 
+pulse duration <10 ns at powers of 1.5 kW, 2.4 kW and 3.2 kW and pulse 
+repetition rates above 500 Hz by month 17 
+2 
+2 To develop and validate designs for 4 laser architectures to achieve M2 beam quality 
+≤15 or 
+spatial coherence >15% and coherence length > 3 mm, at average powers above 1 
+kW by month 17 
+2 
+3 To develop preliminary seed laser source fibre or YAG based with optimum beam 
+quality 
+characteristics for interference patterning with power up to 400 W by month 20 
+2 
+4 To develop a laser source capable of emitting pulses with duration between 0.8 to 10 
+ns and average power above 1.2 kW with pulse repetition rates between 0.5 to 100 
+kHz by month 24 
+2 
+5 To develop optical fibres that are able to transmit peak power densities above 5 
+GW/cm2, 
+with average power of 2 to 3 kW over a minimum length of 3 m by month 20. 
+2 
+6 To develop optical fibres that are be capable of transferring multimode beams 
+with M2 ranging between 12 and 40 by month 20 
+2 
+7 To develop DOE module to achieve M2 beam quality ≤5 with high efficiency 
+transformation 
+>85% by month 22 
+3 
+8 To achieve multiple length-scale periodic patterns (3-10) with processing speed 
+of 2-5 m²/min using DLIP High-speed Multiplexing and/or Scanner-based High-
+speed DLIP by month 24 
+3 
+9 To realise surface textures on end user materials with 2.5D laser processing 
+methods in order to provide required functionality (increased hydrophilicity and 
+reduced surface friction) with surface features of <15  
+4 
+ 
+8 
+ 10 To deliver textured surface structures using DLIP technology or otherwise to 
+optimise surface functionality to deliver surfaces that exhibit; 
+• Hydrophobic functionality on aluminium 8006 sheet evidenced by water contact 
+angle 
+> 130° and a roll of angle of 20° by month 18 
+• Hydrophobic functionality on PP chrome effect finishes evidenced by water 
+contact angle > 130° and a roll of angle of 20° by month 18 
+• Oleophobic functionality on PP flat plaque evidenced by oil contact angle > 
+130° and a roll of angle of 20° by month 18 
+• Periodic laser grooves exhibiting a honing pattern, with surface finish Rvk 
+between 1.0 
+-3.5 µm and Rpk < 0.1 µm as proved by laser surface profilometry by month18 
+• Low coefficient of friction mould tool surface wrt aluminium work piece as 
+evidenced by a reduction in the coefficient of friction by > 40% as measured by 
+unlubricated strip drawing test at 300°C by month 24 
+periodic textured 3D surfaces using DLIP process  
+4 
+ 11 To deliver an in-line sampling and monitoring control system that measures the 
+DLIP system characteristics with embedded process intelligence and simplified 
+process model. This will consist of diffractographic monitoring of the pattern 
+structure and precise period and image based and scatterometric defect 
+detection and evaluation of pattern homogeneity. 
+5 
+ 12 Closed loop control of key interference controlling optics, working distance and 
+pattern overlap (workpiece feed synchro) 
+5 
+and 
+6  
+ 13 To develop in-line inspection heads capable of achieving 2 µm feature resolution 
+by month 24 
+5 
+ 14 To integrate a 1.5 kW ns laser, M2 transformation, beam splitting, DLIP optics 
+and fibre delivery into a single modified PRIMA unit that can achieve processing 
+speeds of 2-5 m²/min for a range of materials and geometries by month 27 
+6 
+Demonstration and commercial exploitation 
+objectives 
+15 To demonstrate the hydrophobic surface texturing on a PP chrome effect curved 
+surface by month 36 (MAIER case study) 
+7 
+16 To demonstrate the use of PROMETHEUS to laser texture a cylinder piston liner 
+with honing pattern and surface finish Rvk between 1.0 -3.5 µm and Rpk < 0.1 
+µm by month 36 (CRF case study) 
+7 
+17 To demonstrate a hydrophobic aluminium 8006 profiled surface 50cm x 50 cm 
+with water contact angle > 130° and a roll of angle of 20° by month 36 (ARCELIK 
+case study). 
+7 
+18 To demonstrate a controlled hydrophilic and hydrophobic surface onto a heat 
+exchanger fin by month 36 (ARCELIK case study) 
+7 
+19 To demonstrate the manufacture of a oleophobic surface on PP packaging using 
+the DLIP technology with oil contact angle > 130° and a roll of angle of 20° by 
+month 36 (the JJVC case study) 
+7 
+20 To demonstrate that we can manufacture the integrated PROMETHEUS 1.5 kW 
+system 
+commercially for €900k by month 36 
+9 
+ 
+  
+ 
+9 
+1.2. Relation to the work programme 
+The PROMETHEUS project will address the topic ICT-04-2018 “Photonics based manufacturing, access to photonics, 
+datacom photonics and connected lighting”, with focus on the Research and Innovation Actions, Highly Productive Ultra-
+Short Laser Systems for Fast Materials Processing theme. 
+ 
+Table 1.2 How PROMETHEUS will address the specific challenges and scope of the topic 
+ICT-04-2018 Challenge and Scope PROMETHEUS Project Contribution 
+Specific Challenge: 
+Photonics research in Europe is widely 
+recognized for its excellence; 
+researchers however experience 
+difficulties in demonstrating their 
+conceptual breakthroughs. The 
+challenge is to reinforce the innovation 
+ecosystem by providing access to 
+advanced photonics technology to 
+researchers and thereby accelerating 
+the deployment of the next generation 
+of disruptive photonics technologies. 
+PROMETHEUS will enable our research base to directly trial, demonstrate and 
+prove our innovative technology directly to industry, making a significant 
+contribution to overcoming the “Valley of Death” and reinforcing our 
+innovation eco -system. PROMETHEUS will achieve a strong, mutually 
+beneficial and effective collaboration between public sector research 
+performers and private sector commercial companies, directly address the 
+weakness identified as a part o f the EC’s 2012 Policy Communication on the 
+European Research Area. PROMETHEUS will enable our consortium to 
+accelerate the commercial deployment of our next-generation laser texturing 
+approach. 
+Photonic integration combined with 
+cost-effective assembly a nd packaging 
+processes enables a drastic level of 
+miniaturization, reducing  the costs of 
+implementation and energy 
+consumption. To  develop and apply 
+innovative photonics - based 
+manufacturing solutions. 
+PROMETHEUS directly addresses the challenges facing th e materials 
+processing sector that are currently preventing the widespread uptake of laser 
+technologies for functional texturing, namely: high cost and reliable 
+performance. Through the development of innovative photonics technologies 
+centring on the direct laser interference patterning using 
+>1 KW high pico-second lasers and diffractive beam M2 transformation, we will 
+be able to achieve hitherto unachievable speeds of 2-5 m2/minute. The power 
+and simplicity of our approach will reduce the cost of implementation to < 0.75 
+euro/m2, making mass surface texturing with lasers commercially attractive. 
+To create new ways of producing more 
+goods with fewer raw materials, less 
+energy and less waste. 
+Application of PROMETHEUS to a dishwasher application (ARCELIK) has the 
+potential to create hydrophobic/philic surfaces that can potentially increase 
+drying performance and energy usage by 4% per machine – If applied across 
+the whole ARCELIK range, this would equate to global savings of 26.7 GWh/ 
+year. 
+Application of PROMETHEUS to the JJVC, consumer bottle, will prevent the 
+need to overfill bottles (currently 15 -20%), leading to significant savings of 
+(very expensive) materials such as shampoo, skin creams and lotions. 
+Application of PROMETHEUS to the CRF engi ne cylinder / piston can 
+potentially save in excess of 1.1% fuel saving per vehicle, equating to savings 
+on average of 7.7 litres per year of petrol. 
+Application of PROMETHEUS to the MAIER non -stick body trim has the 
+potential to make significant water and energy savings due to reduce cleaning 
+and enhanced aerodynamics. 
+Across all of these products, the use of textured surfaces will be replacement 
+for functional coatings – there is therefore an inherent energy, materials and 
+waste saving as a result of not having to produce and apply coatings. 
+To develop systems which deliver 
+improved accuracy, power and control. 
+PROMETHEUS will allow for patterning with an accuracy of ±1 μm, compared 
+to ±50 μm currently achievable using laser focussed texturing. The use of a 
+very high powered USP laser (2 -3 kW) with beam splitting, allows for the 
+efficient use of a single laser source rather than multiple sources, significantly 
+reducing system cost and making process control inherently more 
+straightforward. 
+ 
+  
+ 
+10 
+ 
+ICT-04-2018 Challenge and Scope PROMETHEUS Project Contribution 
+To enable the next generation of  
+manufacturing in a range of industrial  
+sectors. 
+PROMETHEUS includes end-user partners: ARCELIK, JJVC, CRF & MAIER for use 
+in their next generation of manufacturing. Once proven within these 
+organisations and their sectors (white goods, automotive & FMCG), 
+PROMETHEUS will also be exploited across other industrial sectors. 
+Scope: b) Research and Innovation Actions - Highly Productive Ultra-Short Laser Systems for Fast Materials 
+Processing. To development of ultra-short pulse laser systems with*… 
+Pulse durations in the nanosecond  
+regime down to the femtosecond  
+regime; 
+As a part of PROMETHEUS, APL will create and develop USP laser architectures 
+with pulse duration <10 ns, powers >1 kW and pulse repetition rates above 
+500 Hz. 
+Average beam power levels of at least 1 
+kW; 
+To develop fast materials processing  
+with minimal heat impact  on the work 
+piece. 
+The texturing process will achieve a speed of 2 -5 m2/minute, compared with 
+0.4 m2/minute currently achievable. The very short pulse duration will reduce 
+heat impact, leading to materials ablation rather than melting. 
+To potentially develop related 
+monitoring and closed loop control 
+aspects. 
+The optical monitoring technologies to be developed by AIMEN and IRIS, will 
+initially be a part of a QA process for testing parts that can be used to further 
+optimise the process parameters, together with detail process models. 
+Following o n from PROMETHEUS project, future developments  will aim to 
+integrate these technologies with in-line control. 
+To demonstrate the developed system 
+with a relevant industrial application. 
+PROMETHEUS will be demonstrated for 4 industrially relevant applications: A 
+vehicle body part (MAIER); A engine cylinder/piston  (CRF); A white goods, 
+dishwasher application (ARCELIK) and a implant and antibacterial surface 
+(JJVC). 
+Expected Impact: b) Research and Innovation Actions 
+To strengthen industrial 
+manufacturing based on ultra -short 
+pulse lasers. 
+The USP laser to be developed by APL, coupled with the optical management 
+technologies will make commercial laser texturing competitive in terms of 
+performance and cost against existing technologies. This will lead to 
+strengthened use of USP technologies for materials processing across a range 
+of sectors. 
+To extend field of applications by 
+simultaneous improvement of precision 
+and productivity. 
+productivity for laser texturing will poten tially increase significantly, mainly  
+due to the increase in processing speeds from 0.4 m2/min currently to 2 -5 
+m2/min. 
+Cross-Cutting Activities: 
+PROMETEUS will also address the cross-cutting activities, specifically: 
+• PROMETHEUS brings together and integrates different cross -cutting KETs, including: Nanotechnologies (through  
+surface texturing), advanced materials, advanced manufacturing and processing as well as photonics itself. 
+• These members will interact closely with PHOTONICS21 as an inherent part of the project. 
+• Many of the PROMETHEUS partners are members of PHOTONICS21 (HOLO-OR, FRAUNHOFER, AIMEN, PRIMA, CRF), 
+the Horizon2020 Photonics Public -Private Partnership (PPP) designed to build on the strengths of the European 
+photonics sector and reinforce its competitiveness. These members will interact closely with PHOTONICS21 as an 
+inherent part of the project. 
+• PROMETHEUS aims to foster inclusive and sustainable research and innovation in-line with the Responsible Research 
+and Innovation, RRI. 
+• PROMETHEUS will also address skills needs and shortages related to the developed technology ensuring that the 
+project results are also integrated and used in training of the necessary workforce. 
+  
+ 
+11 
+1.3. Concept and methodology 
+ 
+(a) Concept 
+The PROMETHEUS concept consists of four key 
+elements: 
+• Ultra-Short Pulse (USP) lasers from APL  with 
+pulse durations in the nanosecond regime down 
+to the femtosecond regime. The average laser 
+power will be increased to power within 
+nanosecond lasers towards 2 - 3 kW. We will 
+initially start with pulse durations in the range of 
+5-15 ns and then seek to develop to a few hundred 
+picoseconds. The power may be as much as 25 mJ. 
+• Direct Laser Interference Patterning (DLIP) from 
+FRAUNHOFER. 
+• A novel M 2 transformation beam  shaping 
+method based on diffractive optics by HOLO -OR 
+to achieve effective interference patterning with a partially coherent source. 
+• Process monitoring and control from VISUM. 
+These individual technologies will be integrated into a single demonstration unit that will be used for the regular textural 
+patterning for materials surfaces to achieved required functionality: 
+1. Non-stick / easy to clean chrome plated polypropylene automotive bumper trim with self-cleaning properties. 
+2. Reduced friction for a 316-steel engine cylinder/piston. 
+3. Hydrophobic performance for dishwashers to reduce energy required for drying and further applications to 
+condensers. 
+4. Non-stick / low stick performance for polypropylene bottles for FMCG applications. 
+Positioning of the Project – Table 1.3 describes the key technologies in the PROMETHEUS project and the current 
+technology readiness level of the technologies at project start and where we will take the technology to during the project 
+and Table 1.4 details linked national and international projects. 
+ 
+Table 1.3 PROMETHEUS key technologies, current TRLs and target TRLs 
+ 
+Description / TRL – Project Start Description /TRL – Project End 
+Technology 1 – USP lasers 
+Feasibility of DLIP patterning on aluminium and steel surfaces, 
+with an 800 W, 60 ns APL laser that has shown improvements 
+in hydrophobicity and scalability – TRL 4. 
+0.8 to 10 ns, average power >1.2 kW laser delivered by 
+fibre and combined with DLIP to demonstrated in an 
+industrially relevant environment – TRL 6. 
+Technology 2 – Textural processing 
+Current High-Speed-DLIP approaches with USP laser source 
+from FRAUNHOFER with limited 3D capability – TRL 3 
+Final DLIP approaches from FRAUNHOFER with 2.5D 
+capability – TRL 6. 
+Technology 3 – Process monitoring 
+Laser diffractometry used in NIL, off-line characterization and 
+lab scale setups – TRL 4 
+Micro-photogrametry and more with offline image 
+processing – TRL 4 
+On-line Laser diffractometry for DLIP – TRL 6 Hardware 
+based pattern quality evaluation with real time image 
+processing – TRL 6 
+Technology 4 –M2 transformation 
+TRL 4 – A lab prototype for M2 transformation of highly multi-
+mode beams exists and the concepts has been proven for both 
+355 nm and 532 nm wavelengths. 
+TRL 6 – A complete sub-system for 1064 nm, integrated 
+with the high power pico second laser and DLIP optics 
+ 
+  
+ 
+Figure 2 The overall concept of 
+PROMETHEUS 
+
+ 
+12 
+Linked national and international research and innovation activities 
+All of the consortium members have been involved in National and EU-wide projects which are inherently linked to 
+PROMETHEUS, and PROMETHEUS will build on the knowledge that has been gained from these projects (details for each 
+partner are shown in the partner descriptions in Section 4). Output from these projects will be feed into the PROMETHEUS 
+project allowing our consortium to maximise their impact and minimising the risk of the project. 
+This project is cross sectoral (spanning the Automotive, white good and FMCG sectors) and trans-disciplinary (USP lasers, 
+DLIP Interference Patterning technology, M 2 transformation and Diffractive Optical Elements, fibre delivery and Process 
+monitoring and control). While the project is being demonstrated in our key sectors of spanning the Automotive, white 
+good and fast-moving consumer goods, the system’s capability developed through the PROMETHEUS project will be as 
+relevant to other sectors as the  challenges are universal. A list of the national and international projects for each of the 
+partners are shown in Section 4. The most pertinent EU funded projects are summarised below: 
+ 
+Table 1.4 Relevant funded projects including consortium partners 
+ 
+Project acronym (partners involved) Description Link with PROMETHEUS 
+CIM-Laser (APL, MTC). UK- EPSRC 5-year R&D programme with 5 UK 
+universities, developing laser 
+processing for industry. (TRL 2-3) 
+Fundamental work on laser surface 
+texturing processes and laser beam 
+shaping, forming basis of 
+PROMETHEUS work. 
+“LASER4FUN” European ESRs Network 
+On Short Pulsed Laser Micro/ 
+Nanostructuring Of Surfaces 
+(FRAUNHOFER). MSCA-ITN-ETN. 
+New surface micro/nano- 
+structuring/patterning methods by 
+using SP/USP laser technologies 
+Proof of concept (TRL 3) for DLIP - 
+Generated knowledge will be used to 
+mature / commercialise the 
+technology in PROMETHEUS 
+CLEANSE (MTC, APL). InnovateUK. Development of and adaptive laser 
+micro-machining system for inserts 
+and drills (TRL 3) 
+Laser micromachining for improved 
+coating adhesion, in -process 
+inspection and feedback. 
+DLIP (APL). InnovateUK. Feasibility study in achieving Direct 
+Laser Interference Patterning at very 
+high speed, using a laser source 
+emitting 60 ns long pulses at  average 
+powers between 500 W and 1 kW. 
+Forms phase 1 of PROMETHEUS, 
+demonstrating the capability of the 
+high average power products by APL to 
+achieve interference patterning and 
+the scalability with average 
+power. 
+LASER4SURF - Laser for mass 
+production of functionalised metallic 
+surfaces (VISUM). H2020. 
+Development of laser -based solutions 
+for functionalization of metallic     
+surfaces     with   textures 
+~1 µm in mass production using USP 
+via LIPSS. 
+Surface texture parameters and 
+properties developed will form 
+platform for learning and the use of 
+USP lasers to achieve these. 
+ModuLase – Development and Pilot 
+Line Validation of a Modular re - 
+configurable Laser Process  Head 
+(EWF). H2020 
+Development, validation and 
+demonstration of a rapidly re - 
+configurable laser process head based 
+on intelligent sensor technologies for 
+in-process monitoring. 
+In-process monitoring and control 
+knowledge developed will underpin 
+PROMETHEUS. 
+UltraSurface - Ultra Dynamic Optical 
+Systems for High Throughput Laser 
+Surface Processing (HOLO -OR, EWF).  
+H2020 
+Use of high efficiency Diffractive 
+Optical Element to split and shape laser 
+beams for surface structuring. 
+Increased for laser surf ace processing 
+throughput technologies developed 
+based on optical  concepts will for the 
+based for PROMETHEUS 
+developments. 
+LASHARE: Laser equipment 
+Assessment for high impact 
+innovation in the manufacturing 
+European industry. GA: 609046. 
+(AIMEN, MAIER, HOLO-OR, EWF, 
+CRF, PRIMA, TWI). FP7 project. 
+Develop of robust assessment 
+framework for innovative laser 
+equipment paving the way for new 
+manufacturing applications. 
+Laser technology was applied over its 
+products with an aesthetical purpose. 
+This learning will be extended to 
+functional surfaces. 
+MASHES: Snapshot spectral imager for 
+cost effective IR surveillance - 
+GA645114. AIMEN. H2020 
+Development of robust and cost 
+effective hyperspectral systems and 
+analysis tools for a variety of 
+applications. 
+Combination of image and spectral 
+information in process control and 
+monitoring 
+  
+ 
+13 
+APPOLO: Hub of Application 
+Laboratories for Equipment 
+Assessment in Laser Based 
+Manufacturing (MAIER, CRF, IRIS). 
+FP7 project. 
+Establishes connections between 
+end-users, which have demand for 
+laser technologies for (micro) 
+fabrication and research institutes, 
+universities and manufacturers. 
+Specific USO (1 ps) laser source 
+knowledge and access to APPOLO 
+HUB, a network of laser laboratories 
+that provide laser micro-machining 
+services. 
+ATTRACT - FRAUNHOFER. National 
+Fraunhofer funded project. 
+This project lead by FRAUNHOFER 
+comprised the establishment of the 
+DLIP technology from proof -of- 
+principle up to a relevant 
+technological level. 
+Concepts developed will provide 
+PROMETHEUS with initial 
+information about optical devices for 
+interference patterning. 
+SHARK - Laser surface engineering 
+for new and enhanced functional 
+performance with digitally enabled 
+knowledge base (MTC, JJVC). H2020. 
+Laser texturing to create a broad 
+range of functional surfaces at 
+industrial scale throughputs, and 
+place Europe in an unassailable lead 
+in this key area of manufacturing. 
+Platform knowledge of laser 
+texturing and surface 
+functionalisation that will underpin 
+PROMETHEUIS. 
+BOREALIS – Demonstration of a 
+novel Laser Deposition Machine 
+with high throughput, efficiency and 
+near net shape production 
+capabilities. (PRIMA). H2020 (2014 
+– 2017) 
+The project led by PRIMA among the 
+rest of the developments, focused on 
+the integration ablation technology 
+within LMD machine for surface 
+finishing, micro texturing and micro- 
+holes. 
+Outcomes on the ablation 
+technology will be used during 
+integration and testing activities in 
+order to enhance the operation 
+performance of PROMETHEUS USP 
+laser surface texturing. 
+ 
+(b) Methodology 
+The project flow through the work 
+packages is shown in Figure 3 with the 
+flow moving from requirements and 
+specification in WP1 through to the use 
+case demonstration in WP7. The 
+project is managed by the EWF, with 
+WP8 being dedicated to the Project 
+Management. The project has 4 distinct 
+phases span over a total duration of 36 
+months. There are 4 core development 
+work packages in the PROMETHEUS 
+project (WP2, 3, 4 
+and 5).  
+The commercial exploitation will be led 
+by the EWF through WP9 who will 
+manage the dissemination of 
+information to the wider 
+manufacturing community and also 
+maintain the business plan on behalf of 
+all the members to ensure the project 
+results will be exploited and rapidly 
+commercialised. This approach 
+represents a robust means to deliver  
+ 
+ 
+ 
+Figure 3 Work Plan 
+Methodology 
+the technical developments and also gives a simple but effective management process to control the project 
+continuously and in line with the expected Milestones. This gives the project the maximum chance of delivering an 
+effective demonstrator with a high chance of rapid and successful commercialisation. 
+Table 1.5 PROMETHEUS Phases 
+ 
+Phase Period 
+Phase 1: Determination of the End-user requirements and the specifications M1-M3 
+Phase 2: Consists of two elements in parallel: Development of system component parts and surface 
+texturing studies that aims to determine the optimal surface texturing required to achieve each of 
+the end-user’s requirements. 
+M4-M24 
+Phase 3: PROMETHEUS system integration. M18-M38 
+Phase 4: End user case study developments at ultra-high speed M39-48 
+
+ 
+18 
+Sex and Gender Analysis - There are no gender issues specific to the PROMETHEUS project or technology. The programme 
+of work will not discriminate against persons of any gender and will aim to eliminate any barriers to this objective and to 
+encourage participation of women in the research programme and its outcomes. All efforts will be made to encourage 
+participation by women in the project and to achieve this, appropriate work practices will be instigated to all for work 
+scheduling that allows for reconciliation between work and family life. Active measures will be taken to ensure that 
+women scientists are well represented in the partner’s organisations and that women scientists lead elements of the 
+programme. Opportunities for mobility within the programme will take account of the different needs of women and men 
+in order to enhance participation by women scientists. When the proposed technology is developed it will be equally 
+applicable to males and females. 
+ 
+1.4. Ambition  
+ 
+Current State of the Art 
+Laser Surface Texturing (LST) is a very promising surface engineering technique with that exhibits: Excellent repeatability; 
+Non-contact processing; Small feature size and high-quality finishing. Although a mature process that is comme rcially 
+available through a number of machine tool suppliers, applications have been limited to aesthetic/decorative texturing. 
+To date functional applications are limited. 
+Over the last decade there has been a large number of academic publications on using LST, mainly using expensive USP 
+lasers. LST uses pulsed lasers for removing of material by ablation process and scanning optical systems for movement of 
+the laser beam on the workpiece on predefined trajectories to form desired surface structure xi. L ST is a progressive 
+technology used for: 
+• Tribological properties enhancementxii,xiii,xiv; 
+• Patterning of glass and ceramic materialsxv,xvi; 
+• Light absorption increases on a surfacexvii,xviii; 
+• Formation of hydrophobic or hydrophilic surfaces xvii,xix; 
+• Thermal spray substrate preparationxx; 
+• Biomedical implants preparationxxi; 
+• Reduction of bacteria adhesionxxii; 
+• Self-cleaning xvii; 
+• Adhesive bonding enhancementxxiii; 
+Recent methods being developed for surface texturing for a range of applications are mainly focused on manufacturing 
+micro-textures with a certain pattern on the surface such as dimple shape structuresxxiv, 
+xxv,xxvi,xxvii,xxviii,xxix,xxx. 
+Cold ablation is achieved through USP laser (fs and ps pulse width) where the laser pulse width is much shorter than the 
+thermalisation time for the electron lattice coupling avoiding melting of the materialxxxi. In this process the material  
+removal is confined to the interaction volume of the laser light and hence the features created are directly related to laser 
+beam spot size – smaller features require a smaller beam size. Laser ablation process using a longer pulse width (ns pulse 
+width) will result in a mixture of evaporation and melt pool formation on the material surface. The main advantage of ultra-
+short-pulse laser ablation techniques is that they may be applied to a wide range of materials, with high accuracy and do 
+not require post processing steps. Ultra -short laser pulses are capable of producing high precision 3 -D microstructures, 
+taking advantage of the “cold” ablation process. 
+Despite the promising results, replication of the texture on large surface area had been proven difficult, particularly 
+economically and as a result, industrial uptake has been very limited. This is preventing the technology from moving 
+further to higher technology readiness level (TRL 4-6), due to a number of reasons. 
+  
+ 
+19 
+Technical limitations of the current LST approaches: 
+• Heat accumulation and oxidationxxxii,xxxiii,xxxiv temperature increase from residual heat accumulated in material 
+from many pulses applied in a short time and its effects like material degradation). 
+• Plasma shielding effectxxxv (attenuation or reflection of next laser pulse by plasma produced by previous laser 
+pulse). 
+• Synchronisation of every pulsexxxvi (if precise position of each pulse is necessary, then this limits maximum 
+usable pulse repetition frequency and involves sophisticated hardware). 
+• Precision at high speedsxxxvii (precise laser spot positioning difficult at high speed for complex objects and large 
+amount of data needs to be processed in a short time). 
+• Commercial limitations of the current LST approaches: 
+• Inherently slow processing rates / productivity – To overcome this high average power ultrafast lasers with very 
+high pulse repetition rates are essential. However, these systems necessitate very high-speed scanning techniques 
+e.g. using polygon scanners. Such scanning approaches are somewhat inflexible in comparison with traditional galvo 
+scanner approaches and are difficult or impossible to implement on complex 3D non-planar surfaces. 
+Ultra-short pulse lasers (APL) present a new class within high -performance laser beam sources for industrial 
+applicationsxxxviii,xxxix. With pulse durations <20 ns and pulse energies >2 mJ, peak power density beyond 100kW is achieved 
+giving light-material interaction with most materials. Even though materials processing methods based on USP lasers has 
+been demonstrated in laboratories for the last 3 decades, the rate at which pulses of this nature could be delivered on 
+materials, e.g. the average power of such laser sources was very low. In more recent years, industrial grade sources with 
+average powers between 10 and 50 W appeared in the market, adequate in tackling high  quality marking and high value 
+manufacturing of specific surface profiles. Meanwhile, companies like APL, Lee, Coherent, Trumpf and others were 
+installing industrial lasers with pulse durations between 20 and 200 ns and average powers of a few hundred watts for 
+semiconductor applications.  
+In 2010, the wide industrial impact that these laser sources could achieve was well evident and by 2013 we saw the release 
+of industrial ps pulsed laser sources that broke the barrier of 100 W in average power, thus rendering them cost effective 
+for a wide variety of industrial manufacturing processes. Examples of such systems were the APL Polaris i200, with average 
+power of  200 W, the 
+Edgewave PX at 400 W in the 
+picosecond regime and the 
+Lumentum system built under 
+the APPOLO FP7 project, 
+delivering 100 W, 1ps pulses. 
+Many of these systems 
+including th e Polaris project 
+utilised some  sort of slab-
+based amplifier at one of more 
+amplification stages, as this 
+provided optimum thermal 
+management of the 
+amplifying medium, while the 
+seed laser was a variety of 
+diodes, fibres or other more 
+traditional sources. 
+On a research grade system, 
+FRAUNHOFER demonstrated 
+a 1 kW ps amplifier by 2011, 
+based on the Yb: INNOSLAB 
+technology. 
+ 
+ 
+  
+  
+Figure 4 (Left) Polaris i200, 200W picosecond laser, 0.28mJ pulse energy. 
+(Right) Fraunhofer ILT, Yb:INNOSLAB based 1kW picosecond laser amplifier.  
+ 
+Figure 5 (Left) APPOLO project, 100W, 1ps laser source by Lumentum. (right) 
+400W picosecond laser source by Edgewave. 
+ 
+
+ 
+20 
+Meanwhile, APL has broken the boundary of 1 kW for ns lasers, releasing it’s Rigel i1600 laser system as a proven industrial 
+laser sy stem capable of 1.6 kW average power at 60 ns pulse duration. These systems were quickly absorbed  by the 
+automotive industry, in a 24/7 manufacturing schedule, in the pioneering application of tailor blank aluminium coating 
+removal prior to welding of its steel substrate. Today these lasers have processed hundreds of millions of pieces which 
+found their way into everyday automobiles, increasing safety and durability. 
+ 
+Figure 6 (left) The internal components of the Rigel i1600 laser source. (middle) Tailor Blank ablation in action, 
+(right) Hot stamped TB pieces installed on an automobile frame, strengthening critical sections of the frame.  
+ 
+In 2015, APL, JP Imaging, Technijet and Liverpool John Moores University, have successfully completed t he DLIP  
+collaborative project, a feasibility study, funded by InnovateUK. This allowed to assess the scalability of achieving  DLIP, 
+with average power. The DLIP project demonstrated the generation of interference patterns on aluminium  and steel 
+surfaces, with an 800 W laser by APL, emitting 60 ns long pulses, based  on the company’s HAP400 gain   module 
+technology, thus rendering the process scalable. The long pulse duration and low spatial coherence of  the specific 
+source were found to limit the definition of features. This results from the low intensity contrast  between 
+constructive and destructive interference, due to the quality of the emitted beam. Thus, more  energy  is lost in thermal 
+diffusion into the material over the low inten sity (destructive interference) areas, rather  than  applied on material 
+ablation in the high intensity (constructive interference) areas. Nonetheless,  improvements in hydrophobicity of the 
+processed materials were achieved by approximately 30-50° degrees of contact angle.  
+ 
+It is thus evident that shorter pulse durations than 20 ns and moving towards the 
+sub-ns region will help increase this contrast in pulse intensity. Moreover, by 
+improving beam properties such as spatial coherence beyond 3%, and coherence 
+length beyond 1 mm, the beam interference contrast ration is expected to 
+increase significantly. These improvements in the laser source architecture are not 
+trivial. The current laser resonator is already stressing the limits of material 
+damage thresholds of the optics and amplifier. Any of these improvements will 
+further increase localised beam intensity levels in the resonator and amplifier 
+modules, cons equently advancing beyond the acceptable levels. In addition, 
+thermally managing higher average powers at ultra -high photonic intensities, 
+requires the transition into new thermal management methodologies. An 
+example being the recent achievements by DiPOLE, demonstrating 1 kW average 
+power sources with pulse energies of 100 J. To achieve handling such high rate of 
+power delivery, the amplifier modules had to be cryogenically cooled to 150 oK 
+using helium gas, cryo-amplifiers and very thin laminar amplifying media. Yet, this 
+architecture can only achieve repetition rates of 10 Hz. Industrial applications will 
+require repetition rates beyond 500 Hz, and most likely of several kHz in order to 
+cover large surface areas at high speeds. Increasing pulse repetition  rates in the 
+cryo-amplifiers significantly increases the thermal gradient in the amplifying 
+filaments, thus impacting gain, and possibly endangering the material itself. 
+Therefore, high repetition rates are the key limitation of cryo-amplifiers. 
+  
+ 
+ 
+Figure 6 The DiPOLE  
+helium cooled cryo- 
+amplifier schematic 
+
+ 
+21 
+Systems for high speed laser processing 
+To avoid negative surface effects such as cone like protrusions, surface ripples, plasma interaction and thermal 
+accumulation a dedicated system technology together with an adapted processing strategy is necessary. From the current 
+point of view two different approaches can be seen: 
+• Ultrafast scanning with moderate pulse energies and high repetition rates 
+• Multiple beam processing with moderate fluences in each single beam 
+Both approaches lead to high average ablation rates and can be used to optimize the usage of high power ultra - short 
+pulsed lasers. 
+Direct laser interference patterning (DLIP) Technology (FRAUNHOFER) 
+DLIP is capable of producing both micro - and nanostructured surfaces on a wide variety of mat erials. This is a one step 
+process that has the capability to produce functionalised surfaces. Direct Laser Writing has been used for pattering of 
+several materials with features in the range 5 - 100 μmxl,xli,xlii typically using nanosecond (ns) pulsed lasers. In recent years, 
+picosecond (ps) and femtosecond (fs) pulsed lasers have gained interest from industry scale due to the development of 
+fibre-based systems. Typically, during structuring processing, the surface is scanned with the laser beam using 
+galvanometric mirrors. Achieving resolutions <5 μm requires an increased technical complexity and long processing times. 
+With a laser pulse frequency of 1 MHz for example, 106 structures per second can be written sequentially. With a structure 
+size of 1 μm , this is equivalent to a processing speed of only 6x10 - 5m²/min. Techniques involving large-area surface 
+processing for rapid fabrication of two and three dimensional (2D and 3D) structures are required. One example is Laser 
+Interference Lithography (LIL)xliii, wherein the standing wave pattern existing at the inter -section of two or more laser 
+beams is used to expose a photosensitive layer such as a resist, in a multi-step process. 
+ 
+Figure 7 Principle (a) and pattern geometries of direct laser interference for two- (b) and three (c) sub-beams. 
+ 
+The direct laser interference patterning (DLIP) technology necessitates the overlapping of two or more laser beams on the 
+material surface at a defined overlapping angle 𝜃 (Figure 9). This leads to a periodic modulation of the laser intensity (in 
+a distinct interference volume) which can be used to ablate locally the material at the interference maxima which results 
+in the fabrication of a periodic surface pattern. The laser wavelength and overlapping angle determines the spatial period 
+of the generated structure. Moreover, the structure geometry can be controlled by the number of sub-beams which can 
+result in li ne-like, dot -like and pillar -like surface patterns. In order to meet particular requirements of industrial 
+environments, a High-Speed DLIP concept was developed and patented at FRAUNHOFER. With the existing state of the art 
+it is currently possible to (a) efficiently manufacture multiple length- scale periodic patterns (≥8 µm) and (b) achieve high 
+throughputs of up to 0.36 m 2/min on metals in a one -step process. The High -Speed DLIP setup consists of a cylindrical 
+telescope to expand the laser beam, followed by an arrangement of two bi-prisms for beam splitting and alignment. After 
+that, a cylindrical lens is used for focusing the laser sub -beams in one dimension (Figure 8). In this way, the DLIP setup 
+realizes beam forming to a long draw line in the focused area, which for functional reasons also corresponds to the area 
+of beam overlap. Forming the interfering beams into the shape of long lines has advantage in achieving maximum process 
+speeds which mainly depends on the laser pulse energies and laser  power. For this purpose, the laser energy must be 
+distributed over the largest area achieving an appropriate laser fluence (energy density) over 1 J/cm 2 on metals. The 
+dimensions of the line -like focused laser spot, with width w and the length l, can be v aried by moving the optical 
+components of the cylindrical telescope and the final cylindrical lens (e.g. l = 10 mm x w = 100 µm). The interference pitch 
+𝛬 is determined by the angle of the two splitting prisms (Figure 9) xliv,xlv. 
+  
+ 
+ 
+22 
+ 
+Figure 9 Schematic drawing of the two-beam laser interference setup for high speed patterning 
+ 
+DLIP has a number of clear advantages over existing approaches for surface structuring as it is based on cost- effective 
+ns lasers, leading to significantly reduced capital and operational cost (>50% compared to USP lasers). DLIP  can achieve 
+enhanced productivity (up to 0.5 m2/min) and process efficiency. In addition, DLIP offers increased flexibility, particularly 
+for internal and/or concave cavities and other non-planar surfaces that can be patterned using relatively simple scanning 
+heads and standard fibre optics for beam delivery. Spatial beam-shaping techniques such as phase plates and field 
+mappersxlvi for an additional degree of control by providing e.g. top hat, square, annular or more complex beam patterns 
+are also shown to be effective for LST. 
+In-line inspection process 
+A number of monitoring techniques exist when it comes to characterizing structures in the nano- and micro- metre ranges, 
+and which have been utilised in the development of the high throughput surface fabrication techniques, including SEM 
+(scanning electron microscopy) and AFM (atomic force microscopy) xlvii,xlviii. None of those are compatible with the DLIP 
+setup, or can cope with the surface modification rate targeted by PROMETHEUS.  Optical inspection technologies 
+(noncontact, fast, non-intrusive and non-destructive) comply with the requirements of DLIP process inspection, but the 
+available solutions in the State -of-the-Art demand some additional development to be integrated in the PROMETHEUS  
+system. 
+Optical inspection in micro/nano-structured production processes 
+Current micromachining inspection systems are traditionally based on snapshot high magnification imaging. Due to the 
+high density of features and throughput requirements, inspection focusses on sampling rather than inline inspection or 
+online control. Polarisation sensitive, bright -/dark-field or differential interference contrast imaging, down to confocal 
+imaging and white light interferometry are supported in platforms in the microelectronics industries. The challenges of  
+this project have to do with extending the scope of the inspection and process monitoring and make it compatible with 
+new process regimes and applications proposed in PROMETHEUS. 
+PCB-board production exploits new defect inspection tools for high throughput across large areas (fields up to half square 
+meter) for detecting deviations in highly repetitive patterns (R2R or S2S), rather than precision metrology. Their lateral 
+optical resolution is frequently found in the ~100-20 µm range. To cope with the massive amounts of data, high speed line 
+cameras are integrated into the linear processing stream that deliver 2-20k pixels at line rates of 10 -100 kHz with high 
+dynamic range acquisition, therefore delivering continuous Gbps data streams. 
+Sophisticated systems use custom high -power strobe LEDs (µs -range exposures) in reflection microscopy at different  
+angles, to screen localized defects using LLS (localized light scatterers) analysis. These systems suffer from the restriction 
+of imaging only a limited number of exposure directions, not allowing for complete extraction of the light field and surface 
+orientation information. This leads to the necessity for a priori information of the specimen (i.e.  scattering angles and 
+dynamic range), precise alignment and restriction with to a limited range of flat products. 
+Automated visual inspection solutions in the semiconductor industry still rely on laborious data interpretation xlix. Time 
+consumed in automated visual inspection remains a critical factor for most applications in this field. 
+Inline computational imaging 
+Inline Computational Imaging (ICI) is an emerging field of research that combines novel image acquisition methods with 
+intelligent algorithms in order to obtain information, which would not have  been available via conventional imaging l. In 
+recent years, with ever decreasing prices of parallel computational power, this approach shows an increasing economic 
+viability. Machine vision has experienced a tremendous expansion of depth sensing technologi es with 2D sensor arrays: 
+light sectioning and laser triangulation li, time-of-flight systemslii, to light field systemsliii. These highly computational 
+efficient techniques excel on large scales, but with limited sensitivity to fine surface details on small dimensions. 
+
+ 
+19 
+The performance of these methods is strongly dependent on the material type and the samples individual optical  
+properties. Area scan camerasliv, enable high -speed image acquisition of moving objects, with speed limited to the 
+available light intensitylv. 
+In general, the light field is defined as radiance function of position and directionlvi. The conventional light field acquisition 
+techniques are based in multi-camera (multi/angle) arrays or multilenslvii or microlenslviii arrays on high resolution sensors. 
+Coded aperture imaginglix captures light fields by splitting the optical path using appropriate masks. Depth reconstruction 
+from light field data is usually done making use of an epipolar plane image (EPI)lx. 
+Variational fusion strategies combine advantages of different ICI approaches lxi. Shading, defocus, and correspondence 
+cues from a single light field can be jointly used to generate higher quality depth information. Range scanning data using 
+stripe pattern projection are combined with stereophotometry from multiple fixed light sources lxii, taking into account low 
+and high frequency components of the depth information. Surface normals from polarization cues can also be used for 
+depth refinement lxiii. According to a recent review paper by VISUM lxiv, selected combined optical technologies, such as 
+diffractometry, but also ellipsometry and spectral reflectance provide the opportunity for inline measurement of the 
+thicknesses of nanostructured layers. 
+The main optical techniques currently used are the following: 
+White light Interferometry : Vertically scanning white -light interferometry is a non -contact optical method for surface 
+height measurement on 3-D structures with surface profiles varying between a few micrometers to a few centimetres. 
+Surface features ranging from gradual slopes to vertical steps, with rough or smooth finishes. 
+An inline spectral reflectance system was developed in th e THIME project25 to measure Organic PV films. White light 
+interferometry has been developed into an inline system by Dr Schwablxv for measuring the thickness of spacer and cover 
+layers of Blu-Ray discs but can also be applied to measure the surface topography of reflective materials. However, while 
+this system measures topography with a high level of accuracy (<100 nm), its lateral resolution is limited to tens of 
+micrometres. An inline system has been developed by Nanometrics27 employing spectral  reflectometry in single point 
+scanning arrangement, which enables lateral critical dimension measurement with greater accuracy, but still diffraction 
+limited to the spot size of around 1 micrometre. 
+Scatterometry: is an optical metrology technique designed for the characterization of test samples from lithography. 
+These samples are diffraction gratings with the width of the lines reproducing the critical dimension. Scatterometry 
+consists in ellipsometric measurements of the light diffracted from the  samples in various experimental configurations 
+and the fitting of the data to theoretic predictions. The parameters of the best fit are the most probable values for the 
+parameters of the sample. 
+Figure 10 Approaches for scatterometry: A: white light and spectral scattering signal, and B: 
+monocromatic single scattering angle signal. Right: Wavelength filtered image based coaxial 
+scatterometry setup for inspection of nanostructures. 
+Scatterometry involves optical instrumentation, diffraction theories, and da ta reduction and sensitivity analysis. It  is 
+possible to obtain higher resolution in lateral dimension measurements regarding the ones of SEM and AFM techniques, 
+using optical techniques based on scatterometry and diffractometry, which can be applied to periodic structures of the type 
+being developed in PROMETHEUS. Scatterometry uses the instrumentation of a spectroscopic ellipsometer, along with 
+complex mathematical modelling lxvi and is widely used in the microelectronics industry, for example  the Nanometrics 
+Atlaslxvii, and the Nova T600 lxviii. However, the complex instrumentation and high -power data processing required mean 
+that the technique has not been applied inline. Coherent Fourier Scatterometry has been developed to exploit the smaller 
+spot size that is possible using laser light but is currently not deployed inlinelxix. 
+
+ 
+20 
+ 
+ 
+Figure 11 Use of diffractive (Fourier) optics for quality control of polymer surfaces: a) laser diffraction patterns of 
+rotogravure micropatterned films with good (a.1) and defective (a.2) pattern embossing quality. b) surface texture 
+analysis of pseudorandom textures revealing self-organisation patterns and their spatial characteristics 
+Diffractometry: using multiple diffraction orders imaged in the far-field is a versatile technique that has potential to provide 
+comprehensive information regarding the 3-dimensional features of textured samples shown in Figure 11lxx. Furthermore, 
+when combined with different light source, it covers a broad resolution range: UV light can detect structures with period 
+in the few hundreds nm range, whereas cost competitive blue laser can be used for structures with period between 500 
+and 700 nm. It has been effectively implemented in several versions for characterising the quality of the grooves in DVD 
+and Blu-Ray discs, for example Dr Schwab’s DOMSlxxi. 
+However, there are some barriers to be tackled in order to be able to implement on in -line systems: careful and time -
+consuming sample preparation are still needed, many samples are vulnerable to radiation damage caused by the incident 
+electrons and the optical system is quite complex to be settled in a typical laser equipment. 
+Confocal Microscopy: is an optical imaging technique for increasing optical resolution and contrast of a micrograph by 
+means of adding a spatial pinhole placed at the confocal plane of the lens to eliminate out -of- focus light. It enables the 
+reconstruction of three -dimensional structures from sets o f images obtained at different depths (a process known as 
+optical sectioning) within a thick object. This technique has gained popularity in the scientific and industrial communities 
+and typical applications are in life sciences, semiconductor inspection a nd materials science. It may be used to obtain 
+spatial resolution below the diffraction limit with resolution of 0.09 μm reported lxxii, however once again it is not 
+implemented inline. 
+A more salient feature of this technique is that it provides an image of the surface structure, from which specific, local 
+dimensions can be calculated, whereas for the current technology under development, it is desirable to obtain a general 
+overview of the shape and common dimensions repeated in the periodic pattern, especially where the sizes of individual 
+lines can vary over a range. 
+For this reason, it is more effective to employ a metrology that makes use of the structure periodicity, such as 
+diffractometry or scatterometry, and provides a description of key featu res, including height, width, sidewall slope  and 
+symmetry. Diffractometry is the more attractive option of these two for inline process monitoring since it can provide 
+simple information quickly with less data processing. 
+Data analysis of the surface features: This is normally performed using conventional statistical and geometrical 
+parameterslxxiii. However, often these conventional analysis techniques mean that the result is a statistical property of the 
+entire surface rather than characterising individual surface features (for example the size of a dimple micro-machined into 
+the surface) which is of concern when developing functional surfaceslxxiv (Gavin D. MacAulay, 2016). The implementation 
+of recent standards (ISO 25178 and 16610) have started to shift the focus towards 3D parameters, as well as specific filters 
+such as the regression Gaussian and segmentation filters which can be implemented on datasets to analyse specific 
+features. Costa et al. used these filters to identify pockets and grooves successfully in a laser interferometer scan of an 
+etched steel surfaces. Other post -processing methods for feature recognition have more recently been proposed in the 
+literature, for example using hybrid area parameters such as  Std  (texture  direction),  Vv  (measure  of  void  volume  at  
+various  heights)  and  Str (indication of isotropy)lxxv. MacAulay et al. recommend a new technique for structured surfaces 
+- in which individual surface features are identified and extracted as standalone units, so that they can be subjected to 
+geometric verification; the data used in this study was captured using a focus variation system and gave reasonable results 
+for feature diameters. 
+  
+
+ 
+21 
+Knowledge of temperature and expressions of connecting physical processes during a pulsed laser treatment is crucial for 
+understanding and a control of the processes. Various experimental procedures are us ed for the temperature 
+measurement, which mostly combine different methods. As an example, can be cited (Moon et al, 2002), where authors 
+analysed in detail mechanisms of Si thin film phase change transformations induced by a pulsed laser irradiation. 
+The non-contact methods are based on a detection of a radiation emitted during the process or generated by an external 
+excitation source and influenced by the process. The methods can be categorized based on detection principle: 
+measurement of reflectance or t ransmittance of a laser beam, measurement of radiation (visible, near infra -red, infra-
+red) detection of Raman radiation excited by a testing laser and X-ray diffraction analysis 
+Measurement devices can be based on infrared detectors, photo -detectors X-ray radiation detectors, spectrometers or 
+charge-coupled device (CCD) cameras. A different sorting of the methods can be based on time- or temperature-resolution 
+ranges. 
+The process monitoring and control for laser material processing is intensively studied i n last years. For laser welding  of 
+metals and plastics there exist or are under development several methods (MAShES, 2013; COMBILASER, 2017; RADICLE, 
+2015; Mrna, 2017) but for laser texturing or micromachining based on pulsed processes it is more difficult . The process 
+based on short or ultrashort laser pulses cannot be easily controlled during the laser pulse in nano- or picoseconds. Once 
+the laser pulse is sent, it cannot be controlled. A system based on on-line measurement of surface topography is currently 
+under development in (ADALAM, 2015). A precise noncontact distance measurement in combination with software 
+prediction of targeted distance on the actual position of laser beam should help to increase precision and correct defects. 
+The innovations and Challenges to be addressed by PROMETHEUS. 
+PROMETHEUS will further develop and industrially demonstrate a novel laser texturing method which enables high 
+productivity, precise laser surface texturing with minimal thermal degradation on large area and geometrically complex 
+surfaces. The main Challenge is to achieve texturing large surface areas more quickly whilst still retaining features  
+necessary for advanced functionality. This will be achieved through the innovative application of individual technologies 
+from our consortium partners that will be integrated into a demonstration system: 
+• Ultra-Short Pulse (USP) lasers from EW. 
+• Direct Laser Interference Patterning (DLIP) from FRAUNHOFER. 
+• A novel M2 transformation beam shaping method based on diffractive optics from HOLO-OR. 
+• Process monitoring and control from IRIS. 
+Development of USP Lasers & fibre deliver. 
+The PROMETHEUS project will address key challenges in laser source manufacturing. The current architecture using Nd:YAG 
+rods as amplifying media reaches the peak power density of most optic materials used in the resonator at approximately 
+2 GW/cm2. This takes place simultaneously with the thermal loading of these materials at rates of 10,000 cycles per second 
+and with an excess of 10 kW of thermal energy. Thus, thermal gradient across cooled optics reaches at tens of calories per 
+mm or kilocalories per second. The same conditions are replicated in the fibre delivery cable which at the moment forms 
+another weak point in the system. The maximum capability of the present  industrial grade solid core silica fibre cables 
+presents a limit of 1.2 GW/cm2 that is easily reached with pulse energies of 250 mJ emitted by the EW sources. 
+In order to transcend beyond these limitations, three key-barriers will need to be surpassed. 
+1. Handle more pulse peak power by the laser source components. 
+2. Maintain or reduce thermal gradients on key optical and electro-optic components inside the laser source while 
+emitting at rates of several kHz and average power above 1 kW. 
+3. Increase the capacity of peak power density that can be conveyed by the fibre optic cable beyond the GW/cm2. 
+As the material damage threshold is a physical limitation, architectures that distribute power build up in space are most 
+suitable to transcend the first limitation on pulse peak power. For example, in contrast with the small spot size handled 
+by the EW HAP400 gain modules, the DiPOLE project has expanded the beam over the large facets of the Yb:YAG filaments 
+used in the cryogenic amplifiers consequently reducing power density to 0.25 GW/cm 2 and allowing for further 
+possibilities to continue scaling up pulse energy that can be handled by the system. EW will aim at developing a low pulse 
+energy seed, based on semiconductor and fibre pre-amplification technologies. 
+  
+ 
+22 
+The beam will then be expanded as it progresses to rod based amplifying stages of higher peak power and average power, 
+thus continuously reducing power density as the peak energy increases. For the last stages of amplification, the company’s 
+proprietary z-slab technology will be adopted to a large beam variant, in order to achieve best thermal management of 
+the amplification stage and avoid the material limitations of the rod-based amplification stages used in the current 1600 
+kW product. The z-slab amplifying solution has already been demonstrated by EW as fully scalable in the Polaris product 
+line, effectively transitioning pulse energy capabilities from 100 μJ  to 200 μJ and eventually 400 μJ for custom products, 
+while the model permits pulse energies up to 2 mJ for 10 ps pulses. This will ensure scalability of the PROMETHEUS laser 
+source technology, past the point of 1 kW average power, and opening the opportunity to approach several kW of average 
+power. 
+ 
+Figure 12 (left) A APL HAP200 gain module. (right) A APL fibre pre-amplifier module. 
+Thermal gradients are currently handled by industrial lasers using sophisticated closed loop control systems of de- ionised 
+water or other liquid heat convection media. In order to manage the intense thermal gradients across the optical and 
+electro-optical components of the PROMETHEUS laser source, APL will add a second stage of temperature monitoring and 
+control per component. This will allow for component specific thermal management of all critical components, designed 
+and implemented specifically for the needs of each active or passive material in the component of interest and for the 
+power being handled and dissipated. This step adds a significant amount of further monitoring and control digital circuits, 
+which though becomes necessary in ensuring industrial grade reliability of the source, with planned operation of minimum 
+of 10,000 hours prior to any major maintenance operation. 
+The capability of peak power transmission through the fibre is a key limitation that renders the system deployable in a 
+typical heavy industry manufacturing environment or a science lab. Although the beam can be delivered into the Prima 
+Power system by a sequence of mirrors like the multi-kW CO2cutting laser systems, a fibre delivery cable will allow 
+maximum flexibility of beam delivery on the surface of complex shaped components by the Prima Power system. The 
+current limitation arises from the silica-air interface limitation in light intensity transmission. A relatively straight forward 
+approach is to improve the trace-elemental constituency of the fibre material and increase the core diameter to beyond 
+1 mm. This will allow some  scalability to approximately 4 times the current limit, until the core eventually becomes too 
+rigid to accommodate bending radii necessary during normal robot manufacturing routines. Another approach is to use a 
+hollow core fibre where the beam will be gu ided by Bragg reflection  within an air or vacuum medium. PHOT can 
+manufacture hollow core fibres. These will be tested in small lengths against the APL laser source and then produced to 
+larger lengths of minimum 3 m. An optimum solution will  be to couple the beam into a multi-core fibre. PHOT can  
+manufacture multi-core fibres with 8, 12, 16 and even as many as 32 cores. Such a scenario can permit transmission of up 
+to 6.4 kW average power at the current rate of ns pulse emission by the APL products. APL will utilise its proprietary 
+licensed lenslet beam launching technology to couple the open-air beam into the multi-core fibre. 
+Within the PROMETHEUS project APL will: 
+• Transcend the current thermal and laser architecture limitations that limit  pulse peak power generation to 10 MW 
+and simultaneous average power of 1 kW, with an aim of achieving pulses with peak power beyond 50 MW and 
+simultaneous average power beyond 1.2 kW. 
+• Currently, the laser resonators that can handle such high average power and emit ns pulses are multimode lasers that 
+suffer from low coherence between the modes. APL will improve coherence length of the full laser beam to reach 
+between 1 and 3 mm and the spatial coherence of >10% of the beam profile disk. 
+• The smallest pulse duration feasible from a source emitting average power above 1 kW is currently 30 ns. APL will 
+initially start with pulse durations in the range of 5 -15 ns and then seek to develop the seed laser source to achieve 
+pulse durations between 800 ps and 2 ns. The pulse energy of the final laser source will be a minimum of 40 mJ. 
+
+ 
+23 
+• Beam delivery fibres capable of transmitting the high pulse energy, high average power beam will be developed by 
+PHOT in collaboration with APL. The fibre will have to transmit peak power densities in excess of the current limitation 
+of 1.2 GW/cm2 and in the range of a minimum of 5 GW/cm2 and typically above 10GW/cm2 potentially reaching above 
+50 GW/cm2. 
+• Pulses of such power and intensity will need to be transferre d at rates of 1 kHz and typically reaching 50 to 100 kHz 
+and average power up to 2 kW. Their duration will initially be around 50 ns and subsequently will reach below 2 ns, 
+to potentially 800 ps, while today, no industrial fibre technology exists to accommodate pulse durations below 10 ns 
+when they carry pulse energies above 1 mJ. 
+• The fibres should be capable of transferring multimode beams with M2 ranging between 12 and 40. 
+• Minimum length of the final fibre deliverable will be 3 m, with the possibility to extend to 20 m in length. 
+• The beam will be delivered as multi-mode (mode degeneration is acceptable). 
+Development of high-speed beam delivery system 
+An improvement of the average power and the repetition rates of pulsed laser systems increases the demands for laser 
+beam delivery over the current upper limit of beam deflection when the maximal average power is used. In addition, an 
+increase of the processing speed is in general associated with a decrease of the structuring resolution (increase of feature 
+size) which is linked to a reduced surface function performance. The approach addressed in PROMETHEUS  from the 
+FRAUNHOFER side is an optimal and effective energy delivery for the realization of a highly efficient micro -structuring 
+concept based on interference structuring. FRAUNHOFER aim to break the 1 m²/min processing speed barrier for 
+extensive surface structuring. To date high-speed DLIP structuring has demonstrated the possibility to achieve 0.4 m²/min 
+for metal structuring (based on linear stages). The breakthrough aimed in PROMETHEUS is to reach a processing speed of 
+2-5 m²/min, and this can be reached in two solutions that will be addressed  depending on the requisites (area to be 
+treated, 2.5D topography, heat accumulation) of the specific use case. 
+1. DLIP High-speed Multiplexing: 
+In this approach (front view Figure 13) the main laser beam is delivered in multiple DLIP sub-modules for high-speed 
+processing, aiming: 
+• To distribute the high pulse energy into different optical systems; 
+• Process in parallel a larger area (several centimetres on a line). 
+Each High-Speed DLIP sub-module consists of a Diffractive optical element (DOE), a prism and a cylindrical lens. The sub-
+modules will be spatially displaced from each other (not shown in the figure) in order to achieve compactness and assure 
+a correct simultaneous coverage of the structuring area, theoretically with a speed proportional to the number of the 
+integrated sub-modules. 
+Figure 13 High-speed DLIP Multiplexing Figure 14 Scanner-based High-speed DLIP 
+Although this solution permits to efficiently distribute the laser energy avoiding heat accumulation on the sample, 
+the challenge for this solution is to build an optical head, which inc orporates multiple DLIP -modules, still 
+guaranteeing: 
+• Compactness, in order to be incorporated in real processing environments; 
+• Robustness, in order to minimize the intervention of external operators; 
+• Homogeneous coverage of the treating area. 
+  
+
+ 
+24 
+x y 
+2. Scanner-based High-speed DLIP: 
+In this approach (Figure 14) the conventional DLIP methodology (DOE -prism) is combined with a galvanometer scanner, 
+which delivers the beams to a cylindrical concave mirror and finally to the sample. The sub -beams are scanned  in the 
+direction parallel to the long axis of the cylindrical mirror and focused (and overlapped) in a single direction on the sample 
+plane. A translation stage permits to cover larger area by moving the sample after the completion of a scanner raster. The 
+solution can be considered as an evolution of the linear-stages High-speed DLIP approach, combining the large area 
+structuring with the use of fast galvanometer scanners. 
+Although this combination will guarantee the aforementioned goals in terms of speed, compactness and feasibility, the 
+challenges for this solution are: 
+• To guarantee the correct delivery of the parallel beams into the galvanometer scanner, where the main limiting factor 
+is the size of the mirror’s facets; 
+• Management of the heat accumulation by an “intelligent” scanning approach; 
+• Flexibility in the achievable interference spatial periods; 
+• To require high damage thresholds for the single optical components (DOE, prism, mirrors). 
+Development of M2 Transformation technology 
+The high-power pico second laser envisioned in this project will have a highly multimode beam, with M2 in the range of 25-
+30. Such multimode beams do not generate efficient interference patterns, as the optical modulation depth is very low. 
+This can be seen in the VirtualLab™ interference simulation of a single mode laser Vs an M2=9 laser is shown in Figure 15. 
+ 
+Single mode:

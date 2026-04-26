@@ -1,0 +1,2955 @@
+4. Change of the reporting periods
+The reporting periods are changed.
+This implies the following changes to the Grant Agreement:
+• The reporting periods in Article 20.2 are replaced by:
+- RP1: from month 1 to month 19
+- RP2: from month 20 to month 37
+- RP3: from month 38 to month 55
+5 . Changes of Annex 2 (estimated budget)
+1
+Ref. Ares(2022)540560 - 24/01/2022
+Grant Agreement number: 814505  —  DECOAT  —  H2020-NMBP-ST-IND-2018-2020/H2020-NMBP-ST-IND-2018
+Amendment Reference No AMD-814505-16
+As from 1 August 2019 , Annex 2 is changed and replaced by the Annex 2 attached to this Amendment.
+All other provisions of the Grant Agreement and its Annexes remain unchanged.
+This Amendment enters into force on the day of the last signature.
+This Amendment takes effect on the date on which the amendment enters into force, except where a
+different date has been agreed by the parties (for one or more changes).
+Please inform the other members of the consortium of the Amendment.
+SIGNATURES
+For the coordinator For the Agency
+[--TGSMark#signature-998868171_75_210--] [--TGSMark#signature-service_75_210--]
+Enclosures:
+Annex 2
+Annex 1
+2
+EUROPEAN HEALTH AND DIGITAL EXECUTIVE AGENCY
+(HADEA)
+ 
+ 
+HADEA.B – Digital, Industry and Space
+B.3 – Industry
+ANNEX 1 (part A)
+Research and Innovation action
+NUMBER — 814505  —  DECOAT
+Table of Contents
+1.1. The project summary .................................................................................................................................3
+1.2. The list of beneficiaries ..............................................................................................................................4
+1.3. Workplan Tables - Detailed implementation ..............................................................................................5
+1.3.1. WT1 List of work packages ........................................................................................................... 5
+1.3.2. WT2 List of deliverables ................................................................................................................ 6
+1.3.3. WT3 Work package descriptions .................................................................................................11
+Work package 1 ......................................................................................................................... 11
+Work package 2 ......................................................................................................................... 16
+Work package 3 ......................................................................................................................... 21
+Work package 4 ......................................................................................................................... 26
+Work package 5 ......................................................................................................................... 30
+Work package 6 ......................................................................................................................... 34
+Work package 7 ......................................................................................................................... 39
+Work package 8 ......................................................................................................................... 44
+1.3.4. WT4 List of milestones ................................................................................................................ 48
+1.3.5. WT5 Critical Implementation risks and mitigation actions ........................................................... 50
+1.3.6 WT6 Summary of project effort in person-months ........................................................................51
+1.3.7. WT7 Tentative schedule of project reviews .................................................................................52
+1.1.  The project summary
+Project Number 1 814505 Project Acronym 2 DECOAT
+One form per project
+General information
+Project title 3 Recycling of coated and painted textile and plastic materials
+Starting date 4 The first day of the month after the signature by the Agency
+Duration in months 5 55
+Call (part) identifier 6 H2020-NMBP-ST-IND-2018
+Topic CE-NMBP-26-2018
+Smart plastic materials with intrinsic recycling properties by design (RIA)
+Fixed EC Keywords Materials engineering
+Free keywords coated plastics, coated textiles, recycling, debonding-on-demand, automotive, household
+electronics, outdoor gear
+Abstract 7
+The main goal of DECOAT is to enable circular use of textiles and plastic parts with (multilayer) ‘coatings’, which
+are typically not recyclable yet. These ‘coatings’ comprise functional and performance coatings and paints as well
+as adhesion layers. Therefore, novel triggerable smart polymer material systems and the corresponding recycling
+processes will be developed. The triggerable solutions will be based on smart additives (like microcapsules or
+microwave triggered additives) for the ‘coating’ formulations that will be activated by a specific trigger (heat,
+humidity, microwave, chemical).
+A continuous recycling pilot plant will demonstrate the novel DECOAT principle that allows upgrading existing
+mechanical recycling by adding tools for sorting by and activation of the trigger. The optimal use of the Creasolv®
+process for recycling of coated parts will be assessed. The focus is on recycling of the bulk material, but re-use of the
+coatings materials themselves will also be tackled. Using these recycling processes, circular use of demo cases for
+outdoor gear, household electronics and automotive parts will be validated.
+The novel triggerable DECOAT technologies will create new markets for additives, coatings, paints and adhesives
+fulfilling the recycling need. The concepts will support designers and product developers for making ‘recyclable-by-
+design’ products. This will create direct business opportunities for the DECOAT partners and serve as examples for
+promoting DECOAT solutions to the wider stakeholder community.
+The targeted products (parts) are coated plastic from cars, electrical and electronic equipment and coated textiles
+which produce annually almost 3.5 million tons waste. DECOAT will lead to a decrease in landfilling of ca. 75% and a
+reduction in the carbon footprint by at least 30% for these products. By enabling their recycling, DECOAT is expected
+to generate on medium term a novel market of over 150 million in Europe (or ca 500 jobs).
+Page 3 of 52
+1.2.  List of Beneficiaries
+Project Number 1 814505 Project Acronym 2 DECOAT
+List of Beneficiaries
+No Name Short name Country Project
+entry date8
+Project exit
+date
+1
+CENTRE SCIENTIFIQUE &
+TECHNIQUE DEL'INDUSTRIE
+TEXTILE BELGE ASBL
+CENTEXBEL Belgium
+2
+AIMPLAS - ASOCIACION DE
+INVESTIGACION DE MATERIALES
+PLASTICOS Y CONEXAS
+AIMPLAS Spain
+3
+FRAUNHOFER GESELLSCHAFT
+ZUR FOERDERUNG DER
+ANGEWANDTEN FORSCHUNG E.V.
+Fraunhofer Germany
+4
+FUNDACION PARA LA
+PROMOCION DE LA INNOVACION,
+INVESTIGACION Y DESARROLLO
+TECNOLOGICO EN LA INDUSTRIA
+DE AUTOMOCION DE GALICIA
+CTAG Spain
+5 NATIONAL TECHNICAL
+UNIVERSITY OF ATHENS - NTUA
+NTUA Greece
+6 VAUDE SPORT GMBH & CO KG VAUDE Germany
+7
+PANASONIC LIFE SOLUTIONS
+ELEKTRIK SANAYI VE TICARET
+ANONIM SIRKETI
+Panasonic ES Turkey
+8 MERCEDES-BENZ TURK AS MBT Turkey
+9 MAIER SCOOP MAIER Spain
+10 RESCOLL RESCOLL France
+11 C-TECH INNOVATION LIMITED C-TECH United Kingdom
+12 DEVAN-MICROPOLIS S.A. DEVAN Portugal
+13 IRIS TECHNOLOGY SOLUTIONS,
+SOCIEDAD LIMITADA
+IRIS Spain
+14 ECOMATTERS B.V. ECOMATTERS Netherlands
+15 INNOVATION IN RESEARCH &
+ENGINEERING SOLUTIONS
+IRES Belgium
+16 OPEN SOURCE MANAGEMENT
+LIMITED
+OSM United Kingdom
+17 INTERNATIONAL SOLID WASTE
+ASSOCIATION ISWA Austria 13/10/2021
+18 INTERNATIONAL SOLID WASTE
+ASSOCIATION ISWA NL Netherlands 01/06/2019
+Page 4 of 52
+1.3.  Workplan Tables - Detailed implementation
+1.3.1. WT1 List of work packages
+WP
+Number9 WP Title Lead beneficiary10 Person-
+months11
+Start
+month12
+End
+month13
+WP1 Triggerable materials for coatings 5 - NTUA 102.00 1 46
+WP2 Development of coating debonding
+systems 1 - CENTEXBEL 128.00 1 46
+WP3
+Optical monitoring of debondable
+materials, processing, sorting and
+recycling
+13 - IRIS 91.00 5 46
+WP4 Continuous recycling pilot line 2 - AIMPLAS 125.00 19 49
+WP5 Demonstration circular use 9 - MAIER 126.00 32 55
+WP6 Environment and Safety 15 - IRES 99.00 1 53
+WP7 Exploitation, dissemination and
+communication 18 - ISWA NL 85.50 1 55
+WP8 Coordination 1 - CENTEXBEL 55.50 1 55
+Total 812.00
+Page 5 of 52
+1.3.2. WT2 list of deliverables
+Deliverable
+Number14 Deliverable Title WP
+number9 Lead beneficiary Type15 Dissemination
+level16
+Due
+Date (in
+months)17
+D1.1
+Specifications and
+requirements according
+to the demonstrators
+needs
+WP1 1 - CENTEXBEL Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+4
+D1.2
+Delivery of thermo-
+responsive core-shell
+nanostructured co-
+polymers
+WP1 12 - DEVAN Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+13
+D1.3 Delivery of Super
+Absorbent Polymers WP1 5 - NTUA Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+11
+D1.4 Delivery of microwave
+assisted materials WP1 5 - NTUA Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+22
+D1.5
+Final report on
+synthesis of materials
+and their optimisation
+for incorporation into
+coatings
+WP1 5 - NTUA Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+25
+D1.6
+Upscaling production
+of the most promised
+triggering material
+WP1 12 - DEVAN Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+37
+D2.1
+Report: development
+of coating formulations
+and basic coatings
+WP2 5 - NTUA Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+13
+D2.2
+Protocol for
+determining the
+separation capacity
+WP2 1 - CENTEXBEL Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+19
+Page 6 of 52
+Deliverable
+Number14 Deliverable Title WP
+number9 Lead beneficiary Type15 Dissemination
+level16
+Due
+Date (in
+months)17
+D2.3
+Final report on the
+development of coating
+debonding solutions
+WP2 1 - CENTEXBEL Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+25
+D2.4 Report: broadened
+applications WP2 10 - RESCOLL Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+39
+D3.1 Concepts for inline
+process control WP3 3 - Fraunhofer Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+19
+D3.2
+Selection of sorting
+techniques for each of
+the triggered materials
+WP3 13 - IRIS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+35
+D3.3
+Report on the design
+and building of tailored
+monitoring systems for
+the sorting step in the
+recycling pilot plant +
+the prototype itself
+WP3 13 - IRIS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+39
+D3.4
+Guidelines for widened
+use of the optical
+DECOAT techniques
+WP3 16 - OSM Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+46
+D4.1
+Prototype: mechanical
+and chemical recycling
+pilot line
+WP4 2 - AIMPLAS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+35
+D4.2
+Report: process
+optimisation for the
+different activation
+technologies
+WP4 3 - Fraunhofer Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+40
+Page 7 of 52
+Deliverable
+Number14 Deliverable Title WP
+number9 Lead beneficiary Type15 Dissemination
+level16
+Due
+Date (in
+months)17
+D4.3
+Report: pilot line
+validation and
+performance
+WP4 2 - AIMPLAS Report Public 46
+D4.4
+Report: main properties
+of recycled streams
+and their potential
+applications
+WP4 4 - CTAG Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+49
+D5.1
+Ecodesign of coated
+parts –value chain for at
+least 8 cases
+WP5 8 - MBT Report Public 47
+D5.2 Report on production of
+prototypes WP5 9 - MAIER Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+53
+D5.3 Demonstration Circular
+use cases WP5 2 - AIMPLAS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+55
+D5.4 Guidelines for
+industrial up-take WP5 9 - MAIER Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+55
+D6.1 Risk assessment &
+Safe-by-Design Report WP6 15 - IRES Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+46
+D6.2 Life Cycle Assessment WP6 14 - ECOMATTERS Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+53
+D6.3 Cost evaluation Report WP6 15 - IRES Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+53
+Page 8 of 52
+Deliverable
+Number14 Deliverable Title WP
+number9 Lead beneficiary Type15 Dissemination
+level16
+Due
+Date (in
+months)17
+D6.4
+Risk management Plan
+including Toxicity,
+Release and Exposure
+assessment
+WP6 15 - IRES Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+46
+D6.5
+Online tool for the
+benefits assessment by
+the external parties
+WP6 14 - ECOMATTERS Other Public 53
+D7.1
+Project ‘online’ (social
+media) strategy and
+promotional material
+available - DC1
+WP7 16 - OSM
+Websites,
+patents
+filing, etc.
+Public 4
+D7.2 Updated planning for
+PEDR WP7 1 - CENTEXBEL Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+49
+D7.3
+Strategy and business
+plans for exploitation
+and tech-transfer
+WP7 16 - OSM Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+55
+D7.4
+Organisation of event
+‘call for collaboration’
+- DC2
+WP7 1 - CENTEXBEL
+Websites,
+patents
+filing, etc.
+Public 41
+D7.5
+Final event: Technology
+Transfer Symposium/
+Workshop - DC3
+WP7 18 - ISWA NL
+Websites,
+patents
+filing, etc.
+Public 53
+D7.6
+Report on policy,
+standardisation input
+and liaison activities
+WP7 18 - ISWA NL Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+55
+D8.1
+Quality & Risk
+Manual: definition for
+monitoring risks and for
+internal self-evaluation
+system
+WP8 15 - IRES Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+5
+D8.2 Data Management Plan WP8 15 - IRES
+ORDP:
+Open
+Research
+Data Pilot
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+37
+Page 9 of 52
+Deliverable
+Number14 Deliverable Title WP
+number9 Lead beneficiary Type15 Dissemination
+level16
+Due
+Date (in
+months)17
+D8.3 Periodic progress report
+M1-M10 WP8 1 - CENTEXBEL Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+10
+D8.4 Periodic progress report
+M20-34 WP8 1 - CENTEXBEL Report
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+34
+D8.5 Final report on Data
+Management WP8 15 - IRES
+ORDP:
+Open
+Research
+Data Pilot
+Confidential,
+only for members
+of the consortium
+(including the
+Commission
+Services)
+55
+Page 10 of 52
+1.3.3. WT3 Work package descriptions
+Work package number 9 WP1 Lead beneficiary 10 5 - NTUA
+Work package title Triggerable materials for coatings
+Start month 1 End month 46
+Objectives
+The main objective in this work package is to develop triggerable materials for debonding on demand.
+• Specification and requirements of end user cases on materials
+• Synthesis of microcapsules, nanoparticles and smart hybrid materials, with triggerable response to heat, steam and
+irradiation, for weakening the adhesive strength and facilitating layer separation
+• Thermo-responsive core-shell nanostructured co-polymers
+• Synthesis of SAP based microcapsules (water or solvent swelling). Synthesis of novel multi-structured SAPs
+microcapsules with magnetic nanoparticles to react under MW irradiation.
+• Development of microwave assisted materials (hybrid CNT structures with SiO2 and/or metal nanoparticles)
+• Characterization of developed triggerable materials
+Description of work and role of partners
+WP1 - Triggerable materials for coatings [Months: 1-46]
+NTUA, CENTEXBEL, CTAG, VAUDE, Panasonic ES, MBT, MAIER, RESCOLL, C-TECH, DEVAN, IRES
+Within this WP, all triggerable nano- and micro-materials will be developed and characterised, in order to work upon
+specific stimulus (heat, steam, mechanical, microwave, chemical).
+Task 1.1 – Specifications and requirements for end-use cases - Definition of testing procedures - CTB, NTUA, CTAG,
+VAUDE, PANASONIC, MAIER, DAIMLER (M1-M5) - 15%.
+Within WP1, we will work towards materials that provide a generic solution for de-coating, ie solutions generally valid
+for substrate with a coating of for example PVC, acrylate or TPU. All polymer matrices used within the project will
+be defined. However, to focus the project efforts, we will concentrate on the challenges posed by the use cases that are
+selected by the end-users, see section 2.1.2. Here, we list these parts as well as their basic functional requirements. The
+goal is to further specify these requirements within this task so that a clear picture emerges of the core needs (must haves),
+of the options (nice to have) and of the boundary conditions. Moreover, the requirements during operational conditions
+will be considered, in order to choose the appropriate materials, which will be developed in the following tasks.
+For example, MAIER started to determine the technical requirements of the final demonstrator parts to be developed in
+the project, see table below. At the onset of DECOAT, precise specifications will be defined for the interior and exterior
+part, taking as a reference the standards of automotive OEMs (PSA, Toyota, etc). The main characterizations defined
+by MAIER will be directed to the fulfilment of the specifications especially related to high gloss aesthetic, abrasion and
+scratch resistances of its products determined by the principal OEMs, which are the final users of the products.
+Task 1.2 – Synthesis of microcapsules and nanoparticles with triggerable response to heat and steam for weakening the
+adhesive strength and facilitating layer separation - NTUA, CTB, DEVAN, RESCOLL, CTECH (M4-M25) - 40%.
+In this task, different nano and microstructured materials are proposed for multiple functionalities to coatings. One
+important point that will be considered from the beginning is the compatibility between the nanomaterials and coating
+formulations, that will be tested in WP2. The goal is to make during the first phase of the project, adequate quantities
+of the materials (ca 100g/each), that will be made available to WP2 (coating formulations development & testing) and
+to WP3 for detection.
+Subtask 1.2.1 – Thermo-responsive core-shell nanostructured co-polymers
+Microstructure particles with a melamine formaldehyde, polyurea or acrylate-based shell comprising triggerable
+response active core ingredients will be developed within this sub-task by DEVAN. The active ingredients will be chosen
+on the basis that upon heat treatment, they will expand and break the polymeric microcapsules walls and will be released
+into the coatings, weakening the adhesive strength and facilitate layer separation. In this WP, DEVAN will make use
+of its know-how (see also section 1.4) to enhance the compatibility of nanomaterials with the coating formulations. At
+this point, both the chemical linkage between the nanomaterials and coating formulations will be addressed, but also the
+particle size distribution of the particles in the coating formulations: homogeneous particles have a less negative impact
+in the coating characteristics, such as gloss loss and smoothness, which will be tested within WP2.
+Page 11 of 52
+In this sub-task, different hybrid core-shell nanostructured co-polymers will be also synthesized by NTUA. Organic
+polymers with glass temperature (Tg) in the range of 20oC to 40oC such as poly(propyl methacrylate) and poly(butyl
+methacrylate) will form the core, in order to act as softening points in the primers of RESCOLL which will be
+incorporated. To avoid this function during everyday operation, a protective shell will be applied around the core. The
+shell will consist of copolymers such as poly(4-vinylpyridine-co-methacrylic acid) due to the fact that these polymers
+demonstrate higher Tg (151oC and 220oC, respectively) than the processing and operational temperature of the products,
+as well as the debonding temperature that will be studied in WP2. Furthermore, the presence of methacrylic acid
+structure units in the copolymer shell will impart hydrophilic properties to the nanostructured co-polymers rendering
+them dispersible in water-based solutions (waterborne formulations). Moreover, the polymers that constitute the shell
+will be cross-linked using an appropriate compound such as ethylene-glycol-bismethacrylate. Furthermore, different
+dyes which will be investigated and selected, will be used as the initiator for the aforementioned radical polymerizations
+in order the final product to demonstrate absorption under visible irradiation (in-situ polymerisation with the selected
+dye, in order to enable smart optical sorting in WP3). Finally, iron oxides will be incorporated into the shell that will
+act as magnetic beads into the produced core-shell nanostructured co-polymers, which will be under 100 nm. The aim
+of proposed synthesis is the fabrication of multifunctional materials with smart intrinsic sorting properties that will be
+able to increase their functionality in the presence of a possible magnetic field, due to the presence of inductive heat,
+improving its debonding properties.
+Subtask 1.2.2 –Super Absorbent Polymers (SAP)
+One of the strategies to obtain coatings with debonding properties is to incorporate Super Absorbent Polymers (SAP).
+Cross-linked cores will be fabricated via radical polymerization. Furthermore, organic dyes will be also used in the
+structure of the SAPs, to enable the optical sorting in WP3. Different kinds of agents can be also incorporated within the
+SAPs for additional functionalities, to form hybrid materials that will react onto stimuli such as microwave irradiation.
+End-of-life separation can be achieved by exposure to heat sources (e.g. IR radiation), which leads to the melting of
+the microcapsule shell, along with activation of the inner superabsorbent core by steam (moisture), in the case of water
+swelling. The SAPs will also be used in combination with the Creasolv technique (WP2) where they will swell under
+selective solvents to enhance the debonding functionality.
+Subtask 1.2.3 – Microwave & Rf assisted materials
+NTUA will investigate the synthesis of hybrid microwave and Rf assisted materials, based on metal nanoparticles,
+silicon carbides and multiwalled carbon nanotubes (MWCNTs). Emphasis will be given to the MWCNTs, the growth of
+which will be achieved through the Catalytic Thermal Chemical Vapor Deposition (CT-CVD) method. The MWCNTs
+will be functionalised with metal nanoparticles or will be grown on SiO2 nanoparticles. They will be incorporated in
+the coating in a concentration lower than 1% wt. The aim will be to provide selective heating of the primer layer and
+remove the coating, or to melt the coating itself and remove the coating layer. Heating effect could be tuned by changing
+% of additive or to add MW transparent materials such as silica or alumina to disperse the particles and moderate the
+heating effect.
+In addition, in order to enhance the selective heating and melting properties of the adhesive, enhancement of the
+efficiency of induction to microwave will be examined adding nano-sized metal particles with high dielectric constant,
+e.g. zinc oxide. Zinc oxide has high dielectric constant that could shorten the microwave treatment time needed for
+debonding because of the selective heating of the adhesive in a shorter time by enhancing the heating efficiency of the
+adhesive by the irradiation of microwave.
+Task 1.3 – Triggerable primers for interfacial debonding – RESCOLL (M4-M25) - 10%.
+RESCOLL will develop debonding primers as described in patent EP1611217. These primers will be based on the
+combination of degradation agents (blowing agents) and binders, selected to fit with mechanical properties and thermal
+constraints of the different use cases. Thermal triggering of the primers (in the range of 100 to 200°C) will allow to
+cleanly separate the parts at the location of the primers. The nanoparticles and microcapsules developed in Task 1.2
+will be incorporated in the primer formulations. The formulated primers developed in WP1 will be used as a baseline
+for further adjustments in WP2.
+Task 1.4 – Selection and up-scaling of the most promising process - DEVAN, NTUA (M13-M46) - 25%.
+The most promising core/shell microcapsules that will be developed in the Task 1.2 will be selected for further up-
+scaled production. DEVAN will undertake the up-scaling, to provide enough materials for the demonstration activities
+to the rest WPs. The goal is to provide the amounts required for further testing in WP2, WP3 and especially WP4 and
+WP5. Therefore, DEVAN will upscale the most promising prototypes in its pilot plant micro-encapsulation reactors
+with sizes up to five kilograms. DEVAN will check and prepare guidelines to scale up the production of the successful
+microcapsules prototypes to ton scale.
+Task 1.5 – Characterization of developed triggerable materials - NTUA, (M7-M46) - 10%.
+Page 12 of 52
+The aforementioned produced materials (Task 1.2-1.4) will be characterized with several methods in terms of their
+morphology, structure and composition. The average nanocontainer size and their morphology will be determined
+by Scanning Electron Microscopy (SEM) and Transmission Electron Microscopy (TEM). The coated and hollow
+nanocontainers will be characterised by FT-Infrared Spectroscopy (FT-IR), Thermogravimetric Analysis (TGA),
+Differential Thermal Analysis (DTA), energy dispersive x-ray analysis (EDX), dynamic light scattering (DLS) and X-
+Ray Diffraction (XRD). The magnetic particles to be used in thermoplastic matrix will be characterized in this task by
+means of advanced microscopic techniques.
+ 
+Participation per Partner
+Partner number and short name WP1 effort
+1 -  CENTEXBEL 2.00
+4 -  CTAG 4.00
+5 -  NTUA 38.00
+6 -  VAUDE 1.00
+7 -  Panasonic ES 2.00
+8 -  MBT 2.00
+9 -  MAIER 3.00
+     MTC 2.00
+10 -  RESCOLL 12.00
+11 -  C-TECH 8.00
+12 -  DEVAN 24.00
+15 -  IRES 4.00
+Total 102.00
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D1.1
+Specifications and
+requirements according
+to the demonstrators
+needs
+1 - CENTEXBEL Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+4
+D1.2
+Delivery of thermo-
+responsive core-shell
+nanostructured co-
+polymers
+12 - DEVAN Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+13
+D1.3 Delivery of Super
+Absorbent Polymers 5 - NTUA Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+11
+Page 13 of 52
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D1.4 Delivery of microwave
+assisted materials 5 - NTUA Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+22
+D1.5
+Final report on synthesis
+of materials and
+their optimisation for
+incorporation into
+coatings
+5 - NTUA Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+25
+D1.6
+Upscaling production
+of the most promised
+triggering material
+12 - DEVAN Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+37
+Description of deliverables
+D1.1 Specifications and requirements according to the demonstrators needs (M4, CTB)
+D1.2 Delivery of thermo-responsive core-shell nanostructured co-polymers (M13, DEVAN, NTUA)
+D1.3 Delivery of Super Absorbent Polymers (M11, NTUA)
+D1.4 Delivery of microwave assisted materials (M22, NTUA)
+D1.5 Final report on synthesis of materials and their optimisation for incorporation into coatings (M25, NTUA)
+D1.6 Up-scaling production of the most promised triggering material (M37, DEVAN)
+D1.1 : Specifications and requirements according to the demonstrators needs [4]
+This report will contain the specifications and requirements from the end-users in the consortium to detail the
+demonstrators. The end-users are Vaude, Panasonic, Maier and Mercedes Benz. This document contains the outcome
+of T1.1.
+D1.2 : Delivery of thermo-responsive core-shell nanostructured co-polymers [13]
+This preliminary report describes the synthesis and test results of thermo-responsive core-shell nanostructured co-
+polymers to be used as triggerable debonding additive. This document contains the outcome of T1.2.1 and T1.5.
+D1.3 : Delivery of Super Absorbent Polymers [11]
+The results of the synthesis and testing of Super Absorbent Polymers as debonding additives will be described in the
+preliminary report. This document contains the outcome of T1.2.2 and T1.5.
+D1.4 : Delivery of microwave assisted materials [22]
+This preliminary report gives an overview of the synthesis and test results of additives prone to debonding under
+microwave conditions. This document contains the outcome of T1.2.3 and T1.5.
+D1.5 : Final report on synthesis of materials and their optimisation for incorporation into coatings [25]
+This report gives an overview of the synthesis pathways, analysis and test results of the different debonding additives
+(nanostructured polymers, SAP, microwave assisted and blowing agents). This document contains the outcome of
+T1.2, T1.3 and T1.5.
+D1.6 : Upscaling production of the most promised triggering material [37]
+As validation of the recycling pilot plant (WP4) and production of protoypes (WP5) require larger amounts of
+debonding additives, the most promising technologies will be upscaled. The upscaling process will be documented in
+this report. This document contains the outcome of T1.4.
+Page 14 of 52
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS1
+Requirements defined and
+first dissemination material
+available
+1 - CENTEXBEL 5
+Milestones 1 contains two
+parts: requirement definition
+and preparation of first
+dissemination material.
+The first part involves the
+definition of the requirements
+and specifications for the
+demonstrators of the end-
+users (Deliverable D1.1).
+This will allow to decide
+which way to go for the
+development work in WP1
+and WP2 and to start WP3
+developments. The second
+part relates to dissemination:
+once the consortium agrees
+on first materials (D7.1) and
+on the first actions (D7.2), all
+partners will be able to start
+the DECOAT dissemination
+activities.
+MS2
+Preliminary selection
+of triggerable materials
+for testing in debonding
+processes
+5 - NTUA 13
+The research performed in
+WP1 (D1.1, D1.2 and D1.3)
+and WP2 (D2.1) will lead to
+the most promising debonding
+additives. The wider coating
+research will be narrowed
+down for WP3. Adequate
+material quantities will be
+available for further testing.
+MS3 Selection of debonding
+systems 1 - CENTEXBEL 19
+Based on results obtained in
+WP1 and WP2 (D2.2) and
+the preliminary LCA study
+(D6.2), the most promising
+debonding techniques will be
+selected which can be further
+implemented in the recycling
+line (WP4).
+MS4
+Selection of the most
+promising materials for their
+application in subsequent
+industrial tests
+2 - AIMPLAS 34
+Based on the outcome of
+D1.5 (material synthesis),
+the debonding system
+development (D2.3, available
+M31), the preliminary LCC
+(D6.3 available M28) and the
+preliminary Safety-by-Design
+and risk assessment, the final
+direction of the pilot line will
+be stipulated (T3.3 and T4.2)
+Page 15 of 52
+Work package number 9 WP2 Lead beneficiary 10 1 - CENTEXBEL
+Work package title Development of coating debonding systems
+Start month 1 End month 46
+Objectives
+• Integrate the triggerable materials (from WP1) into coating formulations
+• Develop coating debonding systems on to 2D substrates and a protocol to evaluate the debonding effect
+• Assessment and optimisation of the separation capacity of the coating debonding systems
+• Extend the debonding to a widened set of substrate materials (chemistry and geometry)
+• Tailoring of debonding coating systems in interaction with and according to the needs of WP3, WP4 and WP5
+Description of work and role of partners
+WP2 - Development of coating debonding systems [Months: 1-46]
+CENTEXBEL, AIMPLAS, Fraunhofer, CTAG, NTUA, VAUDE, Panasonic ES, MBT, MAIER, RESCOLL, C-
+TECH, DEVAN
+Description of work
+Task 2.1: Coating formulations, basic coating tests and characterisation - NTUA, CTB, AIMPLAS, CTAG, IVV,
+RESCOLL, DEVAN (M1-M13) - 10%.
+The triggerable materials developed in WP1 will be added to polymeric coating formulations used in textiles (TPU,
+PVC, acrylates) and in plastics (TPU, PVC, epoxy). The goal is to first obtain coating formulations with a relatively high
+loading of the triggerable additives and to maintain the required properties of the coating formulation, typically viscosity,
+wettability, foaming properties. Next, also combinations of different triggers into a single coating will be tested.
+The main challenge will be to obtain coating formulations with a sufficient loading of the additives, that are stable in
+time, i.e. the occurrence of agglomeration or sedimentation should be monitored and prevented.
+Next in this task, simple flat A4-samples will be produced on PES textiles and on PC and ABS plastic plates. The coating
+process will be investigated, e.g. the influence of the triggerable additives on drying time and wettability.
+At this stage, a single layer of coating will be produced in one thickness. These coated A4-samples will be used for
+physico-chemical and mechanical characterisation. This includes chemical and elemental composition will be studied
+by FT-Infrared Spectroscopy (FT-IR) and Energy Dispersive X-Ray Analysis (EDX), respectively. The morphology of
+coatings will be studied with optical microscopy and SEM and AFM measurements (to complement the coating surface
+characterization at nanoscale). The dispersion of the nanoparticles and microcapsules in the final solid state coatings
+will be evaluated with microCT measurements. Also other relevant (nano)mechanical properties will be evaluated, e.g.
+(nano-)scratch tests, microhardness, nanoindentation, roughness.
+The produced coated materials will also be used for defining the protocol for measuring the debonding effect, see next
+task.
+Task 2.2: Development of DECOAT protocol for assessment of debonding - CTB, RESCOLL, IVV, CTAG, AIMPLAS,
+NTUA, MAIER, MBT (M4-M25) - 25%.
+The goal of this task is to define a protocol to determine the debonding or separation capacity of the coatings with
+triggerable additives. Although it might seem fairly easy, this is a crucial step for the project. It will help to assess the
+efficiency of the different options, how they can be compared and optimised.
+This task will start as soon as first results of 2.1 are available, because first triggerable coated substrates are needed
+to debond and to evaluate. We will start from the existing standardised test ASTM D3330 for 180° detachment (peel
+strength test method of adhesive). Goal is to have an objective measurement method to be able to determine if the
+separation is sufficient or not. We will define parameters like the residual bond strength, the maximum amount of
+remaining coating allowed for each material/ end use case in order to be able to recycle the substrate material in a high-
+tech application (circular use). We will also develop basic evaluation for measuring the quality of the substrate material
+after the debonding process and for the ability for rebonding/recoating of substrates.
+The outcome of this task will be the ‘DECOAT protocol’ for measurement of the debonding.
+Task 2.3: Optimisation of the coating debonding system and assessment of the separation capacity – CTB, AIMPLAS,
+IVV, NTUA, CTECH, RESCOLL, MAIER (M8-M31) - 30%.
+Here, we will build on the experience gained in Task 2.1 on the actual coating process. Indeed, we will further tune,
+still using A4-scale flat substrates, the concentration of trigger additive, in order to determine the lowest concentration
+Page 16 of 52
+needed for an effective separation. The additives will be tested via addition into a primer layer (with a trigger-less top
+layer) and added in a single layer coating. The influence of the application method for these layers will be studied,
+e.g. via direct coating or transfer coating in case of knife coating on textiles) as this results in a different degree of
+penetration into the substrate. The latter is expected to have a large influence on debonding effect. So, the difference
+between these coating techniques will be assessed.
+To structure these activities, one can in principle opt for grouping via the triggerable additives or via the external trigger
+applied. Here, we opt to describe as close as possible to how the practical work will be organised, which will be a
+combination of both:
+• To understand the debonding mechanism of the thermally triggered microcapsules their behaviour will be investigated
+by looking at the volume expansion of thermally expansive microcapsules by the heating trigger. The shape and size of
+the particle before and after the heating will be observed using SEM.
+• For the coatings triggered by MW, the main activity will be to develop MW processes to ensure sufficient uniformity
+within the cavity. Therefore, several process parameters will have to be tuned: power, pulse duration, cavity uniformity
+of process,… The main challenge will be to determine the energy input needed for good debonding while ensuring none
+of the materials suffers deterioration, e.g. because of charring. MW will be applied to standard susceptors, the novel
+carbon-based susceptors and SAPs functionalised for MW interaction.
+• For the blowing agent based adhesives and primers (INDAR technology) we will prepare bonded/coated samples for
+comparative assessment of initial mechanical performance vs reference material configurations (i.e. not debondable)
+and residual mechanical performance after triggering (in the debonded state). Mechanical testing will be based on
+international standards, depending on substrates and applications (peel, lap shear, pull out, scratch test for paints).
+Thermal ageing resistance of the debonding formulations will be tested to ensure that no anticipated loss of mechanical
+strength or debonding capability occurs. The blowing agents will also be combined with MW triggering and with
+microcapsule addition to check reinforcing / synergistic effects.
+• The chemical triggering (the Creasolv process) is based on a difference in dissolution of the coating and substrate
+materials. Different types of coating-substrate combinations will be shredded and fed to the process. This will be done
+for standard coatings and for coatings with SAPs functionalised to interact with specific chemical solvents. Further, we
+will investigate the influence of dense versus foamed coatings and the type of coating-substrate interface (from very
+flat towards high roughness). For each material the specific process conditions need to be defined like type of solvents,
+duration of treatment and temperature. Furthermore, specificity of the chosen solvent and dissolution conditions will be
+double-checked with respect to substrate polymers and other plastics types that may be present in real waste streams.
+After solvent based debonding the purity of the obtained fractions will be evaluated by means of e.g. microscopy, IR
+and DSC.
+The separation capacity of the coating debonding systems based on above mentioned various combinations of triggerable
+additives and external triggers will be assessed according to the ‘DECOAT protocol’ (see Task 2.2). Depending on
+the additive, the suitable debonding triggers will be evaluated: thermal (oven, IR, steam), MW and chemical. For each
+additive it needs to be checked whether the suited debonding process actually leads to a separation of the coating layer
+and the substrate. It is expected that this testing will lead to a further refinement of our testing protocol, so this task
+will run in strong interaction with Task 2.2.
+The measurement protocol will also reveal, after the debonding step, how much residual coating will still be present on
+the textile or plastic. The ‘cleanliness’ of the substrate will be evaluated via microscopy or IR. If a considerable amount
+of impurities is still present, an additional step in the Creasolv process can be considered to dissolve these impurities,
+see also Task 4.3.
+Task 2.4: Broadening the application field of the coating debonding system - RESCOLL, DEVAN, CTB, CTAG,
+MAIER, MBT, PANASONIC, VAUDE (M19-M41) - 25%.
+Up to here all research will be performed on flat substrates of specific chemistry (PES, PC, ABS). Here we extend: in real
+life coated items are not flat, but 3D objects (especially for plastics). The coating technique will need to be adapted to
+be able to coat 3D objects. Further, the triggerable coatings will also be applied onto standardly used substrate materials
+like PA for textile and PUR, PE and PP for plastics. The geometry and chemistry will have an influence on the separation
+capacity, so the most promising combinations of triggerable material and external trigger will be here assessed again.
+In real life coatings are having a functional performance (see T1.1), which cannot be compromised by the addition of the
+triggers. The developed coating will therefore be assessed for these properties like waterproofness, abrasion resistance,
+weldability (typical for textile substrates) and scratch resistance, gloss and anti-corrosion (typical for plastic substrates).
+The outcome of this task will be a portfolio of coating debonding solutions. A solution in the portfolio will be specified
+by the triggerable material, the external trigger, the coating matrix, the substrate material and geometry, the need for a
+primer layer or not, and an evaluation of separation capacity (energy and time needed, cleanliness of substrate).
+Page 17 of 52
+Task 2.5: Tailoring of most promised debonding systems for further processing in WP3, WP4 and WP5 - DEVAN,
+AIMPLAS, CTB, RESCOLL, NTUA, IVV (M19-M46) - 10%.
+According to the results of previous tasks and request, samples for WP3, WP4 and WP5 will be prepared when the
+other WP2 tasks are finished.
+Within tasks 2.2, 2.3 and 2.4, a whole range of materials (combinations) will be developed. Key element will thus be the
+selection and development of solutions ideally suited for the subsequent steps of sorting, (large scale) debonding, actual
+recycling and re-use of the materials. A selection of the most interesting solutions will be made based on mechanical
+properties, processability and performance in the final coated parts (tests will be done in the framework of WP5). In
+addition, focus will be given to the tailoring of the coating properties facilitating their further use for the specific end-
+user parts. A close interaction with WP3, WP4 and WP5 will be established to allow constant feedback.
+ 
+Participation per Partner
+Partner number and short name WP2 effort
+1 -  CENTEXBEL 18.00
+     CTB-SERVICES 6.00
+2 -  AIMPLAS 10.00
+3 -  Fraunhofer 18.00
+4 -  CTAG 10.00
+5 -  NTUA 12.00
+6 -  VAUDE 1.00
+7 -  Panasonic ES 2.00
+8 -  MBT 3.00
+9 -  MAIER 9.00
+     MTC 5.00
+10 -  RESCOLL 14.00
+11 -  C-TECH 12.00
+12 -  DEVAN 8.00
+Total 128.00
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D2.1
+Report: development of
+coating formulations and
+basic coatings
+5 - NTUA Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+13
+D2.2 Protocol for determining
+the separation capacity 1 - CENTEXBEL Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+19
+Page 18 of 52
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D2.3
+Final report on the
+development of coating
+debonding solutions
+1 - CENTEXBEL Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+25
+D2.4 Report: broadened
+applications 10 - RESCOLL Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+39
+Description of deliverables
+D2.1 – Report: development of coating formulations and basic coatings (M13, NTUA)
+D2.2 – Protocol for determining the separation capacity (M19, CTB)
+D2.3 – Final report on the development of coating debonding solutions (M25, CTB)
+D2.4 – Report: broadened applications (M39, RESCOLL)
+D2.1 : Report: development of coating formulations and basic coatings [13]
+The triggerable additives developed in WP1 will be incorporated into different basic textile and plastics coatings. The
+developed coatings will be analysed and documented in this report. This document contains the outcome of T2.1.
+D2.2 : Protocol for determining the separation capacity [19]
+A protocol will be developed to be able to perform an objective assessment of the debonding capacity. This document
+contains the outcome of T2.2.
+D2.3 : Final report on the development of coating debonding solutions [25]
+The parameters to produce the most efficient debondable coating are documented. The production of larger coating
+samples (to be used in WP3, 4 and 5) will be described.
+D2.4 : Report: broadened applications [39]
+The coating and seperation process of the most promising additives will be adapted to 3D object and other textile
+and plastic substrates. The functional performance of the developed coatings will be analysed and documented. This
+document contains the outcome of T2.4.
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS1
+Requirements defined and
+first dissemination material
+available
+1 - CENTEXBEL 5
+Milestones 1 contains two
+parts: requirement definition
+and preparation of first
+dissemination material.
+The first part involves the
+definition of the requirements
+and specifications for the
+demonstrators of the end-
+users (Deliverable D1.1).
+This will allow to decide
+which way to go for the
+Page 19 of 52
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+development work in WP1
+and WP2 and to start WP3
+developments. The second
+part relates to dissemination:
+once the consortium agrees
+on first materials (D7.1) and
+on the first actions (D7.2), all
+partners will be able to start
+the DECOAT dissemination
+activities.
+MS2
+Preliminary selection
+of triggerable materials
+for testing in debonding
+processes
+5 - NTUA 13
+The research performed in
+WP1 (D1.1, D1.2 and D1.3)
+and WP2 (D2.1) will lead to
+the most promising debonding
+additives. The wider coating
+research will be narrowed
+down for WP3. Adequate
+material quantities will be
+available for further testing.
+MS3 Selection of debonding
+systems 1 - CENTEXBEL 19
+Based on results obtained in
+WP1 and WP2 (D2.2) and
+the preliminary LCA study
+(D6.2), the most promising
+debonding techniques will be
+selected which can be further
+implemented in the recycling
+line (WP4).
+MS4
+Selection of the most
+promising materials for their
+application in subsequent
+industrial tests
+2 - AIMPLAS 34
+Based on the outcome of
+D1.5 (material synthesis),
+the debonding system
+development (D2.3, available
+M31), the preliminary LCC
+(D6.3 available M28) and the
+preliminary Safety-by-Design
+and risk assessment, the final
+direction of the pilot line will
+be stipulated (T3.3 and T4.2)
+Page 20 of 52
+Work package number 9 WP3 Lead beneficiary 10 13 - IRIS
+Work package title Optical monitoring of debondable materials, processing, sorting and recycling
+Start month 5 End month 46
+Objectives
+The main objectives in this work package are :
+- To select a suitable technique for identifying each of the debonding triggers developed within WP1 to direct end of
+life products to the suitable recycling process
+- To monitor the processing related to the trigger: synthesis of triggerable materials, coating and debonding step,
+determination of the actual separation performance
+- To develop the monitoring approach for the recycling pilot line
+- To design an optical sorting and control system to detect and single out the triggerable parts from a waste stream
+Description of work and role of partners
+WP3 - Optical monitoring of debondable materials, processing, sorting and recycling [Months: 5-46]
+IRIS, Fraunhofer, NTUA, RESCOLL, C-TECH, OSM
+Description of work
+Task 3.1 Monitoring of the microcapsule production and coating and debonding processes - IVV, IRIS, NTUA,
+RESCOLL (M5-M22) - 35%.
+Within this task, we will develop the optical methods that will help to control the crucial processes of DECOAT:
+microcapsules production (T3.1.1), coating process (T3.1.2) and the debonding process (T3.1.3).
+Throughout this task, samples will be provided by WP1 and WP2, together with reference measurements results, to
+calibrate the planned photonic techniques.
+Subtask 3.1.1. Microcapsules monitoring via selected dyes
+In line with WP1, IRIS and IVV will work with NTUA to define a range of dyes to be used in the core or shell of the
+microcapsules. Those will be selected in terms of the wavelength they emit, the detection threshold, the cost and the
+compatibility with the coating matrix and substrate material.
+Those dyes will be added during the synthesis process. NIR and measurements based on fluorescence dyes (referred to as
+POLO technique) will be tested to monitor the thickness of the shell (via the ratio with the core and size measurement),
+but also of the crosslinking ratio (as allowed by specific dyes selected for POLO system), where applicable. Indeed both
+parameters are determining the microcapsule response to the respective stimuli for debonding.
+Subtask 3.1.2. Primer and nano/micro-composite coating monitoring
+A method based on hyperspectral imaging (HSI) will be developed by IRIS to monitor the thickness and distribution
+of primer on the substrate where it is applied in case of INDAR modified materials to ensure that the proper debonding
+can then take place.
+In terms of coatings containing either microcapsules or metallic nanoparticles, a dispersion monitoring system will be
+set up based on respectively fluorescence spectroscopy imaging or diffractometry.
+Subtask 3.1.3. Debonding process monitoring
+The key step for DECOAT is the actual debonding. Within Task 1.1 we will define the requirements for ‘purity’, in Task
+2.2.2 we will work out a protocol for determining, off-line, the debonding capacity. Here, we will develop the optical
+method to monitor the debonding process online.
+Samples with various degrees of removed coatings will be provided to assess the capability to quantify residual coating
+material. This is needed as such contaminations caused by residual coating material can affect the further reprocessing.
+Hence, the optical monitoring can provide the necessary quality control. This will be based on POLO for materials
+containing the fluorescent dyes or on HSI.
+Task 3.2 Selection of the identification techniques for triggerable materials - IRIS, IVV, RESCOLL, DEVAN, NTUA
+(M10-M35) - 20%.
+This task deals with the identification in a waste flow of the parts that include the triggered materials developed in the
+project. Test will begin with single-point measurement before shifting to imaging solutions that can deal with macro-
+scale objects. It is relevant to automatized waste sorting facilities but also as the triggered materials may only be locally
+discernible in section views (e.g. in case of primer/adhesives as opposed to coatings, especially for bonded parts, level
+1 disassembly) or in case a spatial distribution of thickness/residual coating is needed. Tests will initially start with
+Page 21 of 52
+monomaterials of triggered materials and then continue with coated substrates (case that will be validated in WP4-5)
+and bonded materials.
+For the microcapsules dispersed in a coating or adhesive, we will rely on detecting the dyes that were selected in the
+previous task independently of the matrix polymer to which they are added. Related inputs from IVV obtained during
+task 3.1 will be provided as a basis. Fluorescence spectroscopy coupled with an HSI camera will be used as most
+versatile technique but alternative techniques could be considered in case of insufficient resolution or for post project
+exploitation in more specific cases to lower the investment such as: (i) Fluorescence spectroscopy single point in tandem
+with a conventional (unfiltered) machine vision camera; (ii) Filters and grey-scale camera with a set of narrow band-
+pass filters in tandem with a conventional (unfiltered) machine vision camera; (iii) RGB camera (only if dyes emit in
+the Visible range and can be distinguished).
+For the INDAR primer or MW triggerable materials nanocomposites, we will respectively use NIR based technique
+and fluorescence spectroscopy (optionally X ray or simple fluorescence in case also fluorescence dyes are grafted to
+the particles).
+The techniques will be calibrated with a relevant set of samples from WP2. For each case where several options are
+possible, the most suitable one will be selected depending on cost, detection level, versatility (e.g. to detect several of
+our triggers), etc.
+Task 3.3 Sorting prototype concept and prototyping - IRIS, IVV (M20-M46) - 35%.
+Subtask 3.3.1. Design and building of the hardware systems
+Based on the results of the offline trials performed in the previous task and in interaction with the design of the pilot line
+from WP4 (Task 4.2), the architecture of the system hardware will be conceptualized. The needs (and linked suitable
+positioning) for the inspection systems will be defined. In principle we need the initial detection and post coating removal
+verification. That will be the basic hardware system. Two variations will also be considered: the option without the
+monitoring of the removal and the option to identify triggerable parts before the assembly/grinding.
+The optical systems, as well as the enclosure and other optomechanical parts will be designed using mechanical CAD
+tools (e.g. SolidWorks) with inputs from ray-tracing software (e.g. ZEMAX) or Maxwell solvers when appropriate. The
+components (light source, beam shaping and imaging optics, detector and data acquisition hardware) will be selected
+from commercially available options whenever possible and be customised when necessary.
+Subtask 3.3.2 Software development
+The software is needed for driving the instruments, processing the data by means of predictive models and delivering
+the results through the user interface and towards the pilot line operators. Hardware drivers and the raw data acquisition
+layer will be set up for the core device used in the previous subtask. The right modelling package will be embedded. The
+initial software version, which will include the required mathematical treatment of the images/spectra, will be delivered
+for the lab test rig for each of the triggered materials type.
+The final version of the software, adapted for semi-continuous sorting, will be built upon the initial version while
+incorporating additional functions required by the recycling pilot line (WP4) operator. In particular, the software will
+integrate in a single front end the software modules required for each of the core devices. A simple user friendly
+Graphical User Interface will be set up by IRIS with guidance from AIMPLAS and the recyclers in the Advisory and
+Support Group.
+Subtask 3.3.3 Hard- and software validation
+Using the hardware and software from T3.3.1 and T3.3.2 respectively, the imaging capabilities will be validated before
+transferring and integrating the system into the pilot line. The hardware, software and calibration models will be adjusted
+as needed. A user manual including operational guidelines will be delivered. Factory Acceptance Test (FAT) procedure
+will be implemented following ISO 9001:2008 processes.
+Task 3.4 Guidelines for use of optical techniques for monitoring and quality control in coatings and textiles and plastics
+processing – OSM, IRIS, IVV (M29-M46) - 10%.
+Within tasks T3.1, T3.2 and T3.3 several techniques will be tested and applied to plastics and textiles processing. Indeed,
+we will develop solutions for the process control of the microcapsules production, of coating thickness and uniformity,
+of the debonding. We will also determine the level of contamination (from the left-over coating) on plastics and textiles
+as well as the presence of specific markers within waste streams.
+These results will be used to provide guidelines for required process monitoring systems to be implemented in line
+during the post project upscaling phase to support constant production quality. However, these results will be also be
+useful beyond the applications foreseen within DECOAT. Therefore, we will also compose guidelines for use next to
+DECOAT.
+ 
+Participation per Partner
+Page 22 of 52
+Partner number and short name WP3 effort
+3 -  Fraunhofer 12.00
+5 -  NTUA 3.00
+10 -  RESCOLL 6.00
+11 -  C-TECH 1.00
+13 -  IRIS 61.00
+16 -  OSM 8.00
+Total 91.00
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D3.1 Concepts for inline
+process control 3 - Fraunhofer Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+19
+D3.2
+Selection of sorting
+techniques for each of the
+triggered materials
+13 - IRIS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+35
+D3.3
+Report on the design
+and building of tailored
+monitoring systems for
+the sorting step in the
+recycling pilot plant + the
+prototype itself
+13 - IRIS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+39
+D3.4
+Guidelines for widened
+use of the optical
+DECOAT techniques
+16 - OSM Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+46
+Description of deliverables
+D3.1 Concepts for inline process control (M19, IVV)
+D3.2 Selection of sorting techniques for each of the triggered materials (M35, IRIS)
+D3.3 Report on the design and building of tailored monitoring systems for the sorting step in the recycling pilot plant
++ the prototype itself (M39, IRIS)
+D3.4 Guidelines for widened use of the optical DECOAT techniques (M46, OSM)
+D3.1 : Concepts for inline process control [19]
+The microcapsule production and coating will be monitored, as the debonding process. The concepts used will be
+described. This document contains the outcome of T3.1.
+D3.2 : Selection of sorting techniques for each of the triggered materials [35]
+Page 23 of 52
+The report deals with the identification in a waste flow of the parts that include the triggered materials developed in
+the project. Tests will start with monomaterials of triggered materials and then continue with coated substrates and
+bonded materials. This document contains the outcome of T3.2.
+D3.3 : Report on the design and building of tailored monitoring systems for the sorting step in the recycling pilot
+plant + the prototype itself [39]
+The architecture of the sorting system hardware will be conceptualized, based on the outcome of T4.2. Optical
+systems, software and hardware needed to run the sorting line will be developed and validated. A prototype of the
+sorting line at Aimplas will be set-up. This document contains the outcome of T3.3.
+D3.4 : Guidelines for widened use of the optical DECOAT techniques [46]
+Guidelines will be provided for required process monitoring systems to be implemented in line during the post project
+upscaling phase to support constant production quality. This document contains the outcome of T3.4.
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS1
+Requirements defined and
+first dissemination material
+available
+1 - CENTEXBEL 5
+Milestones 1 contains two
+parts: requirement definition
+and preparation of first
+dissemination material.
+The first part involves the
+definition of the requirements
+and specifications for the
+demonstrators of the end-
+users (Deliverable D1.1).
+This will allow to decide
+which way to go for the
+development work in WP1
+and WP2 and to start WP3
+developments. The second
+part relates to dissemination:
+once the consortium agrees
+on first materials (D7.1) and
+on the first actions (D7.2), all
+partners will be able to start
+the DECOAT dissemination
+activities.
+MS2
+Preliminary selection
+of triggerable materials
+for testing in debonding
+processes
+5 - NTUA 13
+The research performed in
+WP1 (D1.1, D1.2 and D1.3)
+and WP2 (D2.1) will lead to
+the most promising debonding
+additives. The wider coating
+research will be narrowed
+down for WP3. Adequate
+material quantities will be
+available for further testing.
+MS3 Selection of debonding
+systems 1 - CENTEXBEL 19
+Based on results obtained in
+WP1 and WP2 (D2.2) and
+the preliminary LCA study
+(D6.2), the most promising
+debonding techniques will be
+selected which can be further
+Page 24 of 52
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+implemented in the recycling
+line (WP4).
+MS4
+Selection of the most
+promising materials for their
+application in subsequent
+industrial tests
+2 - AIMPLAS 34
+Based on the outcome of
+D1.5 (material synthesis),
+the debonding system
+development (D2.3, available
+M31), the preliminary LCC
+(D6.3 available M28) and the
+preliminary Safety-by-Design
+and risk assessment, the final
+direction of the pilot line will
+be stipulated (T3.3 and T4.2)
+MS5
+Prototype system for
+monitoring of pilot line
+available
+13 - IRIS 37
+Based on the optical detection
+prototype (D3.3) and the
+updated exploitation plan
+(D7.3), the pilot line will
+be validated (T4.3) and the
+demonstration activities will
+be started (WP5).
+Page 25 of 52
+Work package number 9 WP4 Lead beneficiary 10 2 - AIMPLAS
+Work package title Continuous recycling pilot line
+Start month 19 End month 49
+Objectives
+• Set up of pilot plant to recycle coated textiles and coated plastic parts for mechanical and for chemical recycling
+• Evaluation of the coating debonding systems using the pilot recycling lines
+• Validation of the pilot recycling lines using a well-defined waste stream of coated textile and plastic materials
+• Quality analysis of the recycled materials and evaluation of their potential use
+Description of work and role of partners
+WP4 - Continuous recycling pilot line [Months: 19-49]
+AIMPLAS, CENTEXBEL, Fraunhofer, CTAG, NTUA, Panasonic ES, MBT, MAIER, RESCOLL, C-TECH, IRIS,
+IRES
+Task 4.1 Set-up and implementation of the recycling pilot line - AIMPLAS, CTECH, IVV, IRES, IRIS (M19-M37) -
+35%.
+Although in practice, the chemical and mechanical part can be combined, the so-called mechanical recycling line will
+be located at AIMPLAS and the so-called chemical recycling line at partner IVV. This is due to practical reasons: the
+chemical part cannot easily be transported and requires a non-explosive environment.
+Based on the results obtained in Tasks 2.3 and 2.4 and in WP3, this task will be focused on designing, implementing,
+controlling and optimizing the components of the recycling pilot plant.
+Subtask 4.1.1 Mechanical line.
+The following devices will be installed and adapted to set up the mechanical pilot recycling line:
+1) Optical sorting: to remove the non-suitable parts in the waste stream and to show the identification of the triggers
+2) Grinding: reduction of the size of the plastic parts for improving the efficiency of the activation system and for more
+easy feeding the waste into the centrifuge and the recycled plastics into the extruder,
+3) Activation: this is the unit where the triggers (IR, heat, MW) can be applied to loosen the (primer layer of the) coating
+to ease separation. The key activity here is the building of dedicated MW equipment: cavity design, selection of energy
+range, feeding system.
+4) Separation: actual physical separation of coatings and plastic parts. Two options: (i) ‘spinning’ the material in a
+high speed centrifuge – this is expected to be the most general technique; (ii) density separation for some material
+combinations like coatings on a TPU foam (for example the MBT use case).
+5) Melt pelletising: final extrusion step to obtain recycled pellets free of coatings to be reused for new applications. The
+melt extrusion process will be assisted by Sc-CO2 cleaning technology for removal of VOCs and odors.
+In addition, IRIS will install the monitoring systems delivered in WP3 in the selected points of the recycling process
+for sorting and coating removal control. They will train AIMPLAS staff and attend the initial trials to verify the correct
+monitored results.
+Subtask 4.1.2 Chemical line.
+The plant (size of 10kg batches) will include a grinding unit, dissolution unit, a separation unit, that allows separating
+dissolved coating from undissolved substrates, as well as drying unit for both undissolved and dissolved materials and a
+final extruder incorporating degassing, which will produce recycled granules. If degasification problems occur, grinded
+materials from the separation units will be introduced in the AIMPLAS melt compounding unit with Sc-CO2 cleaning
+technology.
+Task 4.2 Activation system dependent process optimization (Creasolv, MW and IR) at laboratory level - IVV, AIMPLAS,
+CTAG, CTECH, NTUA (M19-M40) - 35%.
+For each of the coated waste streams that we consider, a selection needs to be made to identify which of the proposed
+debonding systems, developed in WP2, is the most suitable activation technology. This selection will be based on an
+analysis with respect to their effectiveness in activating the triggers in the distinct applications among different materials.
+This needs to be done for the triggered mechanical and chemical type of recycling. This work builds further on the
+activities from WP2 (especially Tasks 2.2 and 2.3) and will be implemented in interaction with Task 2.4. In other words:
+the lab-scale findings of WP2 will be upscaled and translated towards industrial equipment. The outcome of task 4.2
+will be established processing parameters for the different activation systems.
+Subtask 4.2.1 Mechanical line.
+Page 26 of 52
+Using tests specimens with coatings with various percentages of MW susceptors (prepared in WP2) and discontinuous
+laboratory MW and standard ovens, the capacity of the melting of the primer layer will be evaluated. With the help
+of a DoE methodology, the materials with susceptors will be subjected to different MW and heating doses (taking
+into account as main parameters of the equipment: frequency, voltage power and time of exposure). The increase of
+temperature of the specimen during the test will be monitored by an infrared camera. The objective is to reduce the
+time inside the oven to less than 5 minutes without matrix degradation. The goal is that the process does not modify
+the final properties of the matrix. The properties of removed coating material will be measured using DSC and/or TGA
+tests. The amount of remaining coating on the plastic part will be evaluated according to protocol defined in Task 2.2.2.
+The activation technologies will be characterised using parameters such as: not affecting the properties of the substrate
+material, residence time in the oven and the energy and materials required for the coating removal.
+Subtask 4.2.2 Chemical line.
+The Creasolv® Process will be used for a selective dissolution of coatings and for initial sample production. This may
+be done a) by dissolution of the coating itself, or b) in case of presence of a primer layer by dissolving that layer only.
+Whereas a) would allow a solid/liquid separation of dissolved coating from undissolved substrate directly, b) implies
+a subsequent separation of coating films from substrate matter. It is expected that coating material and substrate will
+exhibit differences in density, thus separation of both after removing the primer layer will be performed by density
+separation in liquids exhibiting a density between the densities of both materials. This in order to obtain a stream with
+components that can be separated by density or other separation technologies. Dissolved coatings will be separated
+from the solvent and the solvent will be completely re-used in the process. The coating polymer will be recovered and
+evaluated for a suitable second life application in Task 4.4.
+Task 4.3 Validation of the recycling pilot line performance using well-defined waste streams made with flat test-
+specimens - AIMPLAS, IVV, MAIER, MBT, PANASONIC (M31-M46) - 15%.
+The goal is to validate the two recycling pilot lines. For this purpose, specific test samples will be produced. The test
+samples will be a combination of coating material, triggerable additive and substrate. The task will validate the recycling
+pilot plants (mechanical at AIMPLAS and Creasolv at IVV) for at least two types of substrates (plastic object and textile
+fabric).
+Each of the defined process parameters will be optimized for each waste stream to minimize energy/material
+consumption per kilogram of treated material and maximize the final properties of the final recycled products.
+Task 4.4 Maximising the application potential of the recycled materials - CTAG, AIMPLAS, PANASONIC, MAIER,
+MBT, IVV, CTB, NTUA (M31-M49) -15%.
+Here, we will characterise the recycled materials coming from Task 4.3. First, we need to determine the purity
+of the material, see also Task 2.2.2, to check if we get in the scaled up line the same levels as on smaller scale.
+Second, we need the classical characterisation to determine the quality of the recycled materials and to determine the
+recycling yield, using the most suitable techniques (for example Electronic microscopy, DSC, DMTA, rheological tests,
+thermal behaviour, ageing behaviour). NTUA can support this task with: SEM/EDX, TGA, rheology measurements,
+hardness measurements, microCT analysis. The purity of the substrate material will be investigated by specific analysis
+(microscopy, FTIR, DSC, REM). CTAG can test the recycled material following end-user standards: climate ageing,
+UV and IR resistance, resistance to different chemicals, fatigue, impact, tensile strength. The quality of the recycled
+materials will be determined following the suitable EN/ISO standards to assess if we are above or below the maximum
+level of damage that the coating can withstand and considering the different types of materials.
+On top of that, we will study the selection of suitable additives to upgrade the recycled polymer materials, eg by
+protecting from degradation during recycling with the goal to widen their lifespan (e.g. thermal protection, antioxidants,
+compatibilizers, chain extenders, UV stability, etc.). For this, we will use the state-of-the-art at that moment as this is a
+field in full progress. The goal is to optimise the substrate material during recycling for maximising the circular use.
+Based on the characterisation and ‘upgrading’ of the recycled material, an analysis of the potential uses of the recycled
+materials will be done. This will depend on the purity of the materials we can get. This is crucial as the re-use of the
+recycled materials might not be necessarily for the same applications as the original one, but might be more suited for
+other applications. We will investigate that, making sure that these other applications go for the highest added value
+as possible.
+ 
+Participation per Partner
+Partner number and short name WP4 effort
+1 -  CENTEXBEL 2.00
+Page 27 of 52
+Partner number and short name WP4 effort
+2 -  AIMPLAS 40.00
+3 -  Fraunhofer 18.00
+4 -  CTAG 16.00
+5 -  NTUA 3.00
+7 -  Panasonic ES 4.00
+8 -  MBT 4.00
+9 -  MAIER 4.00
+     MTC 2.00
+10 -  RESCOLL 3.00
+11 -  C-TECH 22.00
+13 -  IRIS 3.00
+15 -  IRES 4.00
+Total 125.00
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D4.1
+Prototype: mechanical
+and chemical recycling
+pilot line
+2 - AIMPLAS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+35
+D4.2
+Report: process
+optimisation for the
+different activation
+technologies
+3 - Fraunhofer Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+40
+D4.3
+Report: pilot line
+validation and
+performance
+2 - AIMPLAS Report Public 46
+D4.4
+Report: main properties
+of recycled streams
+and their potential
+applications
+4 - CTAG Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+49
+Description of deliverables
+D4.1 Prototype: mechanical and chemical recycling pilot line (M35, AIMPLAS)
+D4.2 Report: process optimisation for the different activation technologies (M40, IVV)
+D4.3 Report: pilot line validation and performance (M46, AIMPLAS)
+D4.4 Report: main properties of recycled streams and their potential applications (M49, CTAG)
+D4.1 : Prototype: mechanical and chemical recycling pilot line [35]
+Page 28 of 52
+The prototype of the recycling line will be available including optical sorting, grinding, trigger activation, separation
+and melt pelletizing. Both a chemical line based on dissolution and a mechanical line (based on microwave or heat)
+will be set-up. This document contains the outcome of T4.1.
+D4.2 : Report: process optimisation for the different activation technologies [40]
+Depending on the trigger additive, specific parameters will need to be adjusted to improve the efficiency of the
+recycling line. The optimization process will be described. This document contains the outcome of T4.2.
+D4.3 : Report: pilot line validation and performance [46]
+The report gives a describtion of the validation of the two recycling lines using a plastic and textile substrate. Energy
+and material consumption will be minimised. This document contains the outcome of T4.3.
+D4.4 : Report: main properties of recycled streams and their potential applications [49]
+The quality of the produced recycled materials will be analysed, next to a study determining the suitable additives
+to upgrade the recycled materials. Also the potential uses of the recycled material will be described. This document
+contains the outcome of T4.4.
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS3 Selection of debonding
+systems 1 - CENTEXBEL 19
+Based on results obtained in
+WP1 and WP2 (D2.2) and
+the preliminary LCA study
+(D6.2), the most promising
+debonding techniques will be
+selected which can be further
+implemented in the recycling
+line (WP4).
+MS4
+Selection of the most
+promising materials for their
+application in subsequent
+industrial tests
+2 - AIMPLAS 34
+Based on the outcome of
+D1.5 (material synthesis),
+the debonding system
+development (D2.3, available
+M31), the preliminary LCC
+(D6.3 available M28) and the
+preliminary Safety-by-Design
+and risk assessment, the final
+direction of the pilot line will
+be stipulated (T3.3 and T4.2)
+MS5
+Prototype system for
+monitoring of pilot line
+available
+13 - IRIS 37
+Based on the optical detection
+prototype (D3.3) and the
+updated exploitation plan
+(D7.3), the pilot line will
+be validated (T4.3) and the
+demonstration activities will
+be started (WP5).
+MS6
+Recycling pilot line
+operational and final risk
+assessment and management
+plan completed
+2 - AIMPLAS 46
+Once the pilot line is
+validated (D4.3 - M46)
+and the risk assessment
+is performed (D6.1 final
+and D6.4 - M46), the
+demonstration of the
+circularity can be started
+(T5.3)
+Page 29 of 52
+Work package number 9 WP5 Lead beneficiary 10 9 - MAIER
+Work package title Demonstration circular use
+Start month 32 End month 55
+Objectives
+• Make prototype of a ‘circular coated part’ for at least 4 actual parts – one for each end-user
+• Demonstration of circular use for at least 1 plastics and 1 textile based part
+• Prepare for industrial take-up
+Description of work and role of partners
+WP5 - Demonstration circular use [Months: 32-55]
+MAIER, CENTEXBEL, AIMPLAS, Fraunhofer, CTAG, NTUA, VAUDE, Panasonic ES, MBT, RESCOLL, C-
+TECH, DEVAN, ECOMATTERS, IRES
+Description of work:
+Task 5.1: Eco-design of use case products in view of project technological developments - MBT, MAIER, CTAG,
+PANASONIC, ECOMAT, VAUDE (M34-M47) - 15%.
+Activities of this task aim at selecting the most appropriate materials and processing, among those developed in previous
+WPs, to be used for the manufacturing of the final prototypes. The primary selection criterion will be the level of
+compliance to the requirements of each end use case, as specified in WP1, both in terms of materials properties and in
+terms of production parameters. Interim results of the LCA, LCC and safety analysis (WP6) will also be considered as
+well as the updated intelligence on exploitation (WP7).
+Where needed a redesign of the (coating of the) part will be performed to make the recycling easier. This could mean
+for example the addition of a tie layer to introduce the required debonding adhesives or using a different type of coating
+material.
+The redesign will also have to take into account that materials need to be used that can go through several cycles of use.
+We will consider the full cycle of processes the parts / products need to go through. This means that based on
+the developments made in WP1 to WP4, the full value chain for making the product circular cycle will be made.
+This includes the use of the debonding technology developed. That way, we will make a realistic assessment of the
+disassembly, the triggered mechanical recycling and/or the Creasolv recycling steps that will be needed to obtain the
+substrate material, and potentially also the coated material, again as a secondary raw material. If the initial requirements,
+defined in Task 1.1 can be met, the materials could be fully used for the same application again. In the case not all
+requirements can be fulfilled, the most likely scenario, alternative solutions will have to be sought, eg addition of virgin
+material, use of the materials for alternative but also high value applications, perhaps adding an extra cleaning/recycling
+step/…
+The outcome of this task will be a report describing for at least 8 material combinations (which will be based on the use
+case of the end users) the value chain and technologies to reach circularity. These 8 cases will act as examples and the
+goal is to make this public, to inspire and stimulate external partners.
+Task 5.2: Manufacturing of prototypes - MAIER, MBT, CTAG, PANASONIC, AIMPLAS, CTB (M37-M53) - 35%.
+Manufacturing of at least 4 prototypes, ideally one for each end-user (VAUDE, MAIER, DAIMLER, PANASONIC)
+to show the proof of principle for ‘circular’ use.
+The goal of the task is to show that products can be produced meeting the necessary requirements and that the coating
+can be removed. This means that apart from the actual coated part, (some of) the other parts of the product need to be
+made, to be able to show the full disassembly, decoating and recycling process.
+The goal is to manufacture these four prototypes out of the following list of the use cases, see section 2.1.2.
+Comprehensive testing will be done, according to the specifications of each prototype, by the end-users (VAUDE,
+PANASONIC, MAIER and MBT) in collaboration with the RTD partners.
+Task 5.3 Implementation of circular use cases - AIMPLAS, MAIER, MBT, PANASONIC, CTAG, VAUDE (M46-M55)
+- 35%.
+For at least two of the use cases (one for plastics substrate and one for textiles substrate), we will show ‘multiple circular
+use’ for a coated part. For showing this, we will use: (i) the pilot recycling developed in WP4; (ii) the optical sorting
+and monitoring systems developed in WP3. For the pilot plant recycling trials, we aim for at least 10-15kg of material
+to be processed in a batch process. Given that the use case products we target (see section 2.1.2) typically weigh some
+Page 30 of 52
+kilograms, it implies that we aim for showing circularity on products sets of some tens of pieces. We will focus on
+the debonding step, i.e. the so-called 2nd level (see also section 1.3(a)). Where also the 1st level, i.e. the disassembly,
+is needed, this will be done manually. Goal is to show the use of the materials for at least two cycles, with minimum
+addition of virgin material.
+Further, we want to show the circular use of two generic items: one coated textile and one coated (injection moulded)
+plastic part. For each of them, we will aim for at least 5 cycles of material use, with minimum addition of virgin material.
+This will require the selection of coating and substrate materials that allow being recycled. For these trials, we need to
+focus on material combinations (coating and substrate) that are able to go through several recycling cycles. For textiles,
+a logical candidate could be a PES fabric with a PVC or TPU coating. For plastics, an ABS substrate painted with PUR,
+epoxy or acrylic.
+Task 5.4 Evaluation & Guidelines for further industrial take-up – MAIER, MBT, PANASONIC, CTAG, IRES, VAUDE
+(M46-M55) - 15%.
+From the technical side, and with the help of WP6, the guidelines will include elements like which trigger to add to
+which coatings/substrates, practical debonding systems, set-up of recycling lines, recommendation for further scale up,
+…. Other aspects to be considered will be the practical handling of the materials (eg shelf life), safety aspects where
+needed,…
+This will help “production” and “marketing” to consider new strategies to promote the debondable coatings and to
+compensate for the anticipated (slightly) higher cost of the new DECOAT-based products.
+ 
+Participation per Partner
+Partner number and short name WP5 effort
+1 -  CENTEXBEL 2.00
+2 -  AIMPLAS 14.00
+3 -  Fraunhofer 6.00
+4 -  CTAG 20.00
+5 -  NTUA 3.00
+6 -  VAUDE 3.00
+7 -  Panasonic ES 18.00
+8 -  MBT 12.00
+9 -  MAIER 19.00
+     MTC 11.00
+10 -  RESCOLL 3.00
+11 -  C-TECH 4.00
+12 -  DEVAN 4.00
+14 -  ECOMATTERS 3.00
+15 -  IRES 4.00
+Total 126.00
+Page 31 of 52
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D5.1
+Ecodesign of coated parts
+–value chain for at least 8
+cases
+8 - MBT Report Public 47
+D5.2 Report on production of
+prototypes 9 - MAIER Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+53
+D5.3 Demonstration Circular
+use cases 2 - AIMPLAS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+55
+D5.4 Guidelines for industrial
+up-take 9 - MAIER Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+55
+Description of deliverables
+D5.1 Ecodesign of coated parts –value chain for at least 8 cases (M47, MBT)
+D5.2 Report on production of prototypes (M53, MAIER)
+D5.3 Demonstration Circular use cases (M55, AIMPLAS)
+D5.4 Guidelines for industrial up-take (M55, MAIER)
+D5.1 : Ecodesign of coated parts –value chain for at least 8 cases [47]
+This report describes how different products can be adjusted in their design to reach circularity, taking into account
+the mode of action of the developed debonding additives. This document contains the outcome of T5.1.
+D5.2 : Report on production of prototypes [53]
+Manufacturing and testing of at least 4 prototypes, ideally one for each end-user (VAUDE, MAIER, DAIMLER,
+PANASONIC) to show the proof of principle for ‘circular’ use. This document contains the outcome of T5.2.
+D5.3 : Demonstration Circular use cases [55]
+A plastic and textile product will undergo multiple recycling steps, to demonstrate circularity. This report contains the
+technical data collected during these steps. This document contains the outcome of T5.3.
+D5.4 : Guidelines for industrial up-take [55]
+Technical, safety and pratical guidelines will be listed to promote debondable coatings. This document contains the
+outcome of T5.4.
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS5
+Prototype system for
+monitoring of pilot line
+available
+13 - IRIS 37
+Based on the optical detection
+prototype (D3.3) and the
+updated exploitation plan
+Page 32 of 52
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+(D7.3), the pilot line will
+be validated (T4.3) and the
+demonstration activities will
+be started (WP5).
+MS6
+Recycling pilot line
+operational and final risk
+assessment and management
+plan completed
+2 - AIMPLAS 46
+Once the pilot line is
+validated (D4.3 - M46)
+and the risk assessment
+is performed (D6.1 final
+and D6.4 - M46), the
+demonstration of the
+circularity can be started
+(T5.3)
+MS7 Demonstration of ‘circular
+use’ 1 - CENTEXBEL 55
+The final reports on circular
+demo (D5.3-test report &
+D5.4-guidelines), final LCA
+(D6.5) & LCC (D6.3) and the
+final exploitation plan (D7.3)
+lead to the demonstration of
+circular use, supported by
+LCA and the eco-design tool
+(WP6).
+Page 33 of 52
+Work package number 9 WP6 Lead beneficiary 10 15 - IRES
+Work package title Environment and Safety
+Start month 1 End month 53
+Objectives
+• Life cycle assessment (LCA) will analyse environmental aspects and impacts of product systems and will assess how
+the developed products and processes will affect the environment, and human health, in their life cycle perspective.
+• Cost evaluation: Economic and market analysis refers not only to the cost of the formed materials but also contains
+the wider implications of technology selection on company performance.
+• Risk assessment and Safe-by-Design (SbD) approach will be applied in the early stages of DECOAT project. During
+the R&D and design phases of the proposed technologies SbD approaches will be introduced and used as a result of
+a continuous evaluation.
+• Health risks assessment by performing in vitro toxicity tests.
+• An innovative eco-design tool will be developed to identify benefits and strategies to support the industrial sectors.
+Description of work and role of partners
+WP6 - Environment and Safety [Months: 1-53]
+IRES, CENTEXBEL, AIMPLAS, Fraunhofer, CTAG, NTUA, VAUDE, Panasonic ES, MBT, MAIER, RESCOLL,
+C-TECH, DEVAN, IRIS, ECOMATTERS, OSM
+Description of work:
+Task 6.1: Risk assessment & Safe-by-Design principles - IRES, NTUA & ALL PARTNERS (M1-M46) - 20%.
+A Safe-by-Design approach will be applied in the early stages of DECOAT project and will emphasize on the decision
+making process regarding design, materials used and methods in order to enhance the safety of final products and control
+the related health risks. Safe-by-Design aims at addressing safety issues already during the R&D and design phases of
+the proposed technologies. Safe by Design approaches will be employed to minimise health hazards, environmental and
+economic impacts. One of the key elements for establishing a safety management system and implementing Safe by
+Design principles into the DECOAT project, is to ensure that risks associated with hazards are evaluated and managed
+within acceptable safety requirements, via risk assessment techniques and methods. DECOAT project aims to set
+out specific duties applying to employers and manufacturers focusing on risks associated with the use of hazardous
+substances. Special attention will be given to the description of properties, health hazards, precautions for use (e.g.
+REACH) and safe handling of hazardous substances, providing vital information not only to the employers but also to
+end-users. Finally, the aim of this task is to supervise safety procedures at the early stage and update them periodically
+while toxicological information received from Task 6.4 (from nanomaterials synthesis to the final disposal) becomes
+available.
+Task 6.2: Life Cycle Assessment - ECOMAT, IRES & ALL PARTNERS (M13-M53) - 25%.
+Life cycle assessment studies will be implemented in order to evaluate the environmental impacts of the product systems
+incorporating the developed coatings and the respective recycling processes, as well as determine the environmental
+performance improvements of the suggested processes compared to the current end-of-life scenarios (landfilling or
+energy recovery). Life Cycle Assessment (LCA) is a structured, comprehensive and internationally standardised method
+for environmental impacts of product systems. LCA takes into consideration products’ full life cycle, beginning from
+the extraction of resources, continuing with the production, use, recycling and ending with the disposal of remaining
+waste. It is distinguished from other environmental assessment methods by two unique features: the analysis from
+‘cradle-to-grave’ and the ‘functional unit’. Specific guidelines and standards, such as ISO 14040 and 14044, provide
+the indispensable framework for Life Cycle Assessment (LCA). DECOAT project will take advantage of this decision
+support tool, using commercial software, in order to develop competitive and sustainable innovative products.
+By M13 the four most prominent applications (coated material + coating) will be chosen for serving as a base for the
+assessment within the project as case study parts (1 coated textile, 1 coated electronics part, 2 automotive parts). The
+assessment of environmental impacts of the product systems will be based on the functional units of a service provided
+by a respective part to the main end user over a period of one year.
+The assessments will run from M13 on and in the beginning (estimated TRL3-TRL4) would include screening LCA
+studies with identification of the hotspots for the materials and production choices at the moment of assessments on
+the laboratory or experimental scale, as well as the assessment of the base level product systems scenarios. These
+Page 34 of 52
+will make a significant contribution to the development of the technology, incorporating eco-design strategies to the
+product development. Once the technology development reaches the point of a reasonable certainty about the production
+processes (TRL5) and allows to decide about the type of coating material and product recycling technology for each
+of the trial parts, a full LCA will be implemented. As a result, four full LCA studies will be reported covering each of
+the study case part with the chosen coating material and recycling technology. Sensitivity analysis is to be implemented
+for the final full LCA studies in order to evaluate the performance from the perspectives of different scenarios of
+the products’ future, and to validate the improvements independently on the analyses methodological choices. Special
+attention will be paid to evaluation of the impact of methodological choices regarding the product systems’ end-of-life,
+including landfilling, incineration, bulk material recycling, and coating material recycling.
+Data collection will be conducted continuously throughout the project. It will include regularly primary data collection
+for the processes under investigation with involvement of technical experts in workshops and questionnaires and
+supported by the secondary data collection with use of internationally recognised databases, including specialized on
+the process data in coating industry.
+Task 6.3 Life Cycle Costing - IRES, NTUA, ECOMAT & ALL PARTNERS (M19-M53) - 25%.
+Life Cycle Costing (LCC) is an assessment of all costs related to a product or service, over the entire life cycle,
+from production over use until disposal. IRES will combine LCC with LCA in order to provide a holistic approach
+regarding Life Cycle Cost. This combination will lead to the estimation and the same time minimisation of the economic
+impact arising from the applied processes and the material used. As a general pillar of this WP economic analysis
+will include material costs, manufacturing costs, operation costs and maintenance costs of developed multifunctional
+systems. A comparison among all these costs, regarding DECOAT’s innovative materials and traditional ones, will be
+made. Main focus of this task will be the economic sustainability and the competitiveness of both the final materials and
+the developed processes. In this framework, LCC will be applied in order to ensure that the evolution of the produced
+materials will be evaluated on time to match with the commercial life of recycling products. In addition, issues related to
+the evolution that technology and the market can be submitted, giving a competitive advantage that will boost the EU’s
+circular economy. Thus, the economic analysis which will take place into DECOAT project refers not only to the cost of
+materials and manufacturing but also includes the wider implications of technology selection on project’s performance.
+Task 6.4 Toxicity, Release and Exposure assessment - NTUA, IRES, CTB, AIMPLAS, CTAG, CTB, IVV (M7-M46)
+- 10%.
+Due to that fact that safe by design always includes a compromise between functionality and safety, residual health risks
+cannot be excluded in DECOAT proposal, where a variety of nanomaterials is synthesized in WP1. In this task, this
+residual health risk will be assessed by performing in vitro toxicity tests initially on the developed hybrid nanomaterials,
+which have not been extensively studied. Moreover, release tests will be executed to the final formulations and
+representative specimens, to ensure that the nanomaterials are embedded in the adhesives, without any risk of mitigation.
+Finally, exposure assessment will be conducted to identify, characterise and quantify releases in the recycling processing
+activities (WP4) that may present an exposure risk, through open source software. The activities undertaken will
+allow the development of best practice risk management, to minimise and control the health risks for researchers,
+manufacturers and end-users involved with the project.
+Task 6.5 Eco-design tool - ECOMAT, IRES, OSM (M13-M53) - 20%.
+To make use of the results of the assessments of the WP6, and to facilitate dissemination of DECOAT technological
+solutions, Task 6.5 will develop an eco-design tool for benefits and strategies identification. The tool aims to support the
+industrial sectors (both Project partners and external parties) to identify eco-design strategies for new products based
+on the DECOAT solutions (qualitative module), as well as to quantify the benefits of using the DECOAT solutions
+in their businesses (quantitative module). To increase accessibility of the tool, it will be developed in the form of a
+web tool available for use by the external parties at the website of the DECOAT project. The scope will focus on one
+generic combination of a coated material and a coating solution, and thus would be applicable to multiple products
+within different sectors. The exact materials and coatings will be identified and selected in M13 based on the preliminary
+assessment results on the most prominent and elaborated combination.
+The tool will be developed in three main stages. At the first stage (M13-M19) internal and external research will be
+implemented to identify the functionality of the tool and the scope of the required output information. At the end of the
+stage, the conceptual design of the tool will be developed, including structure, features and functionality. The second
+stage (M20-M40) will focus on translating the conceptual design into a qualitative and quantitative assessment tool
+with the main purpose of communicating the tangibility of DECOAT results. As this stage the basic architecture of the
+tool will be developed. The tool will exploit first the preliminary screening LCA results, and will be digitalised as a
+web-based tool that went through technical and functional testing. The qualitative outputs will identify the main user’s
+opportunities to benefit from including DECOAT solutions into own product design or value chain. At the final stage
+Page 35 of 52
+(till M55) the tool will be adjusted to the quantitative higher certainty results of full LCA and LCC studies, incorporating
+the qualitative assessment of the potential benefits to exploit the DECOAT solutions.
+ 
+Participation per Partner
+Partner number and short name WP6 effort
+1 -  CENTEXBEL 3.00
+2 -  AIMPLAS 4.00
+3 -  Fraunhofer 1.00
+4 -  CTAG 3.00
+5 -  NTUA 10.00
+6 -  VAUDE 1.00
+7 -  Panasonic ES 3.00
+8 -  MBT 2.00
+9 -  MAIER 2.00
+     MTC 1.00
+10 -  RESCOLL 1.00
+11 -  C-TECH 1.00
+12 -  DEVAN 2.00
+13 -  IRIS 3.00
+14 -  ECOMATTERS 28.00
+15 -  IRES 26.00
+16 -  OSM 8.00
+Total 99.00
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D6.1 Risk assessment & Safe-
+by-Design Report 15 - IRES Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+46
+D6.2 Life Cycle Assessment 14 - ECOMATTERS Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+53
+D6.3 Cost evaluation Report 15 - IRES Report
+Confidential, only
+for members of the
+consortium (including
+53
+Page 36 of 52
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+the Commission
+Services)
+D6.4
+Risk management Plan
+including Toxicity,
+Release and Exposure
+assessment
+15 - IRES Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+46
+D6.5
+Online tool for the
+benefits assessment by
+the external parties
+14 - ECOMATTERS Other Public 53
+Description of deliverables
+D6.1. Risk assessment & Safe-by-Design Report (prelim M25 ; final M46, IRES)
+D6.2. Life Cycle Assessment (prelim M19, final M53, ECOMAT)
+D6.3. Cost evaluation Report (prelim M25, final M53, IRES)
+D6.4. Risk management Plan including Toxicity, Release and Exposure assessment. (M46, NTUA, IRES)
+D6.5 Online tool for the benefits assessment by the external parties (qualitative test version M40, final M53,
+ECOMAT)
+D6.1 : Risk assessment & Safe-by-Design Report [46]
+Report on safety procedures to enhance the safety of final products and control the related health risks and minimise
+environmental and economic impacts. A preliminary report will be drafted in M24. This document contains the
+outcome of T6.1.
+D6.2 : Life Cycle Assessment [53]
+LCA studies will be implemented to evaluate the environmental impacts of the product systems incorporating the
+developed coatings and the respective recycling processes, as well as determine the environmental performance
+improvements of the suggested processes compared to the current end-of-life scenarios (landfilling or energy
+recovery). A preliminary version will be drafted in M18. This document contains the outcome of T6.2.
+D6.3 : Cost evaluation Report [53]
+This report will contain the assessment of all costs related to a product or service, over the entire life cycle, from
+production over use until disposal, resulting from an LCC analysis. A preliminary version will be drafted in M24.
+This document contains the outcome of T6.3.
+D6.4 : Risk management Plan including Toxicity, Release and Exposure assessment [46]
+Health risk will be assessed by performing in vitro toxicity tests initially on the developed hybrid nanomaterials
+(WP1) and later on, release tests will be performed on the coated parts and during the recycling processes (WP4).
+This document contains the outcome of T6.4.
+D6.5 : Online tool for the benefits assessment by the external parties [53]
+A web based tool will be developed for benefits and strategies identification. The tool aims to support the industrial
+sectors to identify eco-design strategies for new products. A first version will be available in M36. This deliverable
+will be based on the work of T6.5.
+Page 37 of 52
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS2
+Preliminary selection
+of triggerable materials
+for testing in debonding
+processes
+5 - NTUA 13
+The research performed in
+WP1 (D1.1, D1.2 and D1.3)
+and WP2 (D2.1) will lead to
+the most promising debonding
+additives. The wider coating
+research will be narrowed
+down for WP3. Adequate
+material quantities will be
+available for further testing.
+MS3 Selection of debonding
+systems 1 - CENTEXBEL 19
+Based on results obtained in
+WP1 and WP2 (D2.2) and
+the preliminary LCA study
+(D6.2), the most promising
+debonding techniques will be
+selected which can be further
+implemented in the recycling
+line (WP4).
+MS4
+Selection of the most
+promising materials for their
+application in subsequent
+industrial tests
+2 - AIMPLAS 34
+Based on the outcome of
+D1.5 (material synthesis),
+the debonding system
+development (D2.3, available
+M31), the preliminary LCC
+(D6.3 available M28) and the
+preliminary Safety-by-Design
+and risk assessment, the final
+direction of the pilot line will
+be stipulated (T3.3 and T4.2)
+MS6
+Recycling pilot line
+operational and final risk
+assessment and management
+plan completed
+2 - AIMPLAS 46
+Once the pilot line is
+validated (D4.3 - M46)
+and the risk assessment
+is performed (D6.1 final
+and D6.4 - M46), the
+demonstration of the
+circularity can be started
+(T5.3)
+MS7 Demonstration of ‘circular
+use’ 1 - CENTEXBEL 55
+The final reports on circular
+demo (D5.3-test report &
+D5.4-guidelines), final LCA
+(D6.5) & LCC (D6.3) and the
+final exploitation plan (D7.3)
+lead to the demonstration of
+circular use, supported by
+LCA and the eco-design tool
+(WP6).
+Page 38 of 52
+Work package number 9 WP7 Lead beneficiary 10 18 - ISWA NL
+Work package title Exploitation, dissemination and communication
+Start month 1 End month 55
+Objectives
+• Professional dissemination and communication, including definition of target groups
+• Setup and implement exploitation and IP strategy to protect and leverage DECOAT results
+• Develop documents for policy input to promote the industrial take-up of DECOAT developments
+• Ensure DECOAT complies with relevant standards and interact with standardisation bodies to promote standardisation
+• Create liaisons with relevant EU Clusters, EU projects and external bodies for leveraging DECOAT impact
+Description of work and role of partners
+WP7 - Exploitation, dissemination and communication [Months: 1-55]
+ISWA NL, CENTEXBEL, AIMPLAS, Fraunhofer, CTAG, NTUA, VAUDE, Panasonic ES, MBT, MAIER,
+RESCOLL, C-TECH, DEVAN, IRIS, ECOMATTERS, IRES, OSM, ISWA
+Description of work:
+Task 7.1 Update and evaluation of outreach strategy - CTB, OSM, ISWA (NL), ECOMAT, ALL PARTNERS (M1-
+M49) - 10%.
+The goal of this task is to extend the initial PEDR and to have a first more detailed plan, collecting input from ALL
+partners, by M6. Afterwards, the PEDR will be regularly (i.e. 12-monthly) updated, ad hoc updates will be done as
+needed. This frequent updating is considered needed for optimising the activities among the partnership.
+When implementing our outreach activities, we will focus on 3 main areas:
+(i) exploitation & technology transfer, preparing for further (industrial) uptake and leveraging of DECOAT outcome
+(ii) dissemination to ‘peers’ and wider stakeholder community
+(iii) communication to EU citizens – waste & recycling, especially of the thematic of textiles and plastics recycling as
+this topic is ‘living’ among the wider public in several European countries. Via DECOAT we want to convey the message
+that science and technology can bring valuable solutions for environmental issues (and is not only causing them).
+Within the PEDR we will also include evaluation activities: at least yearly, and also after major events (eg after press
+release or an event).
+Task 7.2: Exploitation and technology transfer - OSM, ECOMAT, ALL partners (M1-M55) - 35%.
+Exploitation activities will cover the assessment of the market and of the exploitation/business potential by the SMEs
+and the industrial partners. It will start with a cost benefit analysis identifying its particular possibilities for production
+and commercialization. The exploitation plan will study in detail the different exploitation strategies for the project
+outcomes and those to be involved after the end of DECOAT. Major input to the effort will be provided by the SME
+and industry partners involved in the technical and economic aspects. Barriers that may prevent the market penetration
+(see also section 2.1.4) of the DECOAT solutions into the manufacturing industry will be identified and strategies
+to overcome them outlined. The industrial partners will further develop preliminary business plans for the relevant
+DECOAT outcome, elaborating the preliminary draft plans for exploitation provided at proposal stage (see section D2
+of the PEDR). Such updates will be done at M19, M37 and M49.
+Throughout the project the Exploitation and Innovation Manager (EIM, see also section 3.2.1.1) will also have the task
+to identify (potentially) patentable results generated by the partners and ensure they are protected. At the end of the
+technical development of each use case, a specific IP study will be conducted in order to highlight the new knowledge
+acquired during the study and to better determine the degree of innovation of the product or the process. When an
+exploitable (potentially patentable) result is identified, a working group of relevant partners will be established under
+coordination of the EIM. After a thorough study, suggestions will be made regarding the scope and type of the patent
+according to the stakes and the strategies of the involved partners, while keeping in mind the Consortium Agreement
+regulations. This IP study will focus on the ownership; the nature of the knowledge, and its perceived potential for
+exploitation; the agreed status of the item concerning access rights, plans to use the knowledge in exploitation, or plans
+to disseminate it outside the consortium; measures required, or in place, to ensure protection of IP for the item.
+Technology transfer. Since technological innovation will be generated within DECOAT, partners will be committed to
+serve as sites of technology transfer. Additionally, the Enterprise Europe Network will be used for technology transfer as
+it is the largest European Innovation Transfer Network and it reaches especially small businesses. The network includes
+chambers of commerce and industry, technology centres, universities and development agencies.
+Page 39 of 52
+Task 7.3: Dissemination & communication - ISWA (NL), ALL PARNTERS (M1-M55) - 35%.
+Website, logo and newsletter. A distinctive logo of DECOAT is already created and will be used on the website (will
+be setup and designed by OSM) and all project promotional material. The public section of the website will offer
+general information on the project and the technology area, as well as all public deliverables and other public documents
+produced in the framework of the project. Electronic newsletters with the progress of workflow will be available every 4
+months. Special attention will be given to the quality of the web pages: ISWA (NL) will be in charge of their development
+and frequent updating. ALL PARTNERS will be expected to contribute to the content for the newsletters and report on
+their activities and (partial) results. ISWA (NL) will disseminate project news, including to its members and partners,
+and incorporate the developments in their own bimonthly Newsletter.
+Continuous dissemination. Presentation of work progress of DECOAT and of its results to the most relevant target groups
+will rely on participation to international meetings. It is anticipated that from ca. 12 months on, DECOAT presentations
+should be given regularly by partners at relevant events. For these events, ISWA (NL) will piggyback on important
+conferences on this topic taking place at the city/municipality level, helping keep the costs low and reach a wider
+audience. Appropriate events (conferences, fairs, workshops) have been identified, see table in section 2.2 and also in
+the partners description (Section 4). ALL PARTNERS are expected to contribute to the content for the presentations
+and report on their activities and (partial) results.
+Dissemination campaigns (DC). An important part of this task is the implementation of the 3 DCs. These DCs aim to
+give a boost to the dissemination at specific timings over the project. More specifically the first DC wants to increase
+the awareness of the project while with the second DC the cooperation with partners outside DECOAT is stimulated.
+Finally DC3 will serve as ‘final event’ to promote the final project results and to aid the continuation of DECOAT after
+the project end. Part of the DCs will be the communication activities, including the press releases for DC1 and DC3.
+See also section 2.2.
+Task 7.4 Policy input and standardisation - ISWA (NL), AIMPLAS, CTB, CTAG, ECOMAT (M13-M55) - 10%.
+Life Cycle Costing (LCC) performed in WP6 is an assessment of all costs related to a product or service, over the entire
+life cycle, from production over use until disposal. Thus, the economic analysis which will take place into DECOAT
+project refers not only to the cost of materials and manufacturing but also includes the wider implications of technology
+selection on project’s performance.
+Standardization activities bridge the gap between research and the introduction to the market, which will in turn
+bring significant economic benefits. The standardization activity within DECOAT will address: i) Identification of
+current standards that fall within the scope of the project, especially those addressing the “Sustainability Analysis”; ii)
+Identification of the need for standardization; iii) Organization of workshops within identified technical committees; iv)
+Evaluation of how the innovative products from the project meet ongoing regulatory requirement such as REACH but
+also OECD guidance, especially those in the WPMN (Working Party on Manufactured Nanomaterials; e.g. Life Cycle
+Studies applied for nanomaterials) or in the WPRPW (Working Party on Resource, Productivity and Waste) (e.g. waste
+management of nanomaterials such as landfill, recycling or incineration).
+We will closely work with national and European standardisation bodies, see also the inclusion of CEN-CENELEC,
+ELOT and UNE in the Advisory and Support Group. One of the DECOAT aspects that can open a new field of
+standardisation related to recycling is the definition and protocol for ‘debonding’, see also task 2.2.2. For further
+acceptance and take-up by the industry such protocols are of high relevance. DECOAT is well-placed as several of
+its partners are involved in standardisation matters. Examples: AIMPLAS is participating in the follow committees
+of standardization: AEN / CTN 53 / SC 8 on "Recycled Materials"; AEN / CTN 53 / SC1 AEN / CTN 53 / SC6 on
+"Raw material specifications and test methods"; CTB participates for example in CEN TC248 WG4 ‘Textiles – coated
+fabrics’ (convenor of this WG is part of the DECOAT ASG, see also section 4.1).
+Task 7.5 Liaison with EU Clusters, EU projects and external bodies - CTB, IRES, IRIS, NTUA, ALL PARTNERS
+(M13-M55) - 10%.
+This task will facilitate the engagement with EU Clusters, in the areas of exposure and risk assessment being addressed
+in the work package and across the project. A couple of concrete anticipated activities:
+• CFPC – the Carbon Fibres and Advanced High Performance Composites, via IRES who is chairing its Working Group
+of Safety and Standardisation. Goal: share experienced-based good practices on hazard and exposure data.
+• EU Nano-Safety Cluster, via partner NTUA who is chairing the Materials and Standards Working. Goal: share best
+practices, learn from other (in parallel running) projects.
+• EMCC - European Materials Characterisation Council, via partners NTUA and IRES who are in its Organisational
+Management Board. Goal: interaction for the characterisation of the nanomaterials.
+• Vision2020 – Helix on Circular Plastics: is being built by partner AIMPLAS; is expected to mobilise a number of
+stakeholders that could be relevant for / reached via DECOAT.
+Page 40 of 52
+• European (H2020) projects running in parallel, for example MULTICYCLE (SPIRE-10-2018) being coordinated by
+IRIS, that will start fall 2018. It is dedicated to the recycling of composites and is naturally linked with DECOAT. Also
+interest to align with other projects from that call (SPIRE-10-2018) and from this call (NMBP-26-2018). Goal: exchange
+latest results & information, create synergies, search for common dissemination & communication activities.
+ 
+Participation per Partner
+Partner number and short name WP7 effort
+1 -  CENTEXBEL 6.00
+2 -  AIMPLAS 3.00
+3 -  Fraunhofer 1.00
+4 -  CTAG 3.00
+5 -  NTUA 6.00
+6 -  VAUDE 2.00
+7 -  Panasonic ES 2.00
+8 -  MBT 1.00
+9 -  MAIER 2.00
+     MTC 1.00
+10 -  RESCOLL 1.00
+11 -  C-TECH 3.00
+12 -  DEVAN 0.00
+     DEVAN-CHEMICALS 3.00
+13 -  IRIS 3.00
+14 -  ECOMATTERS 4.00
+15 -  IRES 3.00
+16 -  OSM 24.00
+17 -  ISWA 4.00
+     ISWA-GMBH 0.50
+18 -  ISWA NL 13.00
+Total 85.50
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D7.1
+Project ‘online’ (social
+media) strategy and
+promotional material
+available - DC1
+16 - OSM
+Websites,
+patents filing,
+etc.
+Public 4
+D7.2 Updated planning for
+PEDR 1 - CENTEXBEL Report Confidential, only
+for members of the 49
+Page 41 of 52
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+consortium (including
+the Commission
+Services)
+D7.3
+Strategy and business
+plans for exploitation and
+tech-transfer
+16 - OSM Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+55
+D7.4
+Organisation of event
+‘call for collaboration’ -
+DC2
+1 - CENTEXBEL
+Websites,
+patents filing,
+etc.
+Public 41
+D7.5
+Final event: Technology
+Transfer Symposium/
+Workshop - DC3
+18 - ISWA NL
+Websites,
+patents filing,
+etc.
+Public 53
+D7.6
+Report on policy,
+standardisation input and
+liaison activities
+18 - ISWA NL Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+55
+Description of deliverables
+D7.1 - Project ‘online’ (social media) strategy and promotional material available – DC1 (M4, OSM)
+D7.2 – Updated planning for PEDR (prelim M5 + updates M19, M31, M49, CTB)
+D7.3 – Strategy and business plans for exploitation and tech-transfer (prelim M5, update M19 & M34, final – M55,
+OSM)
+D7.4 – Organisation of event ‘call for collaboration’ - DC2 (M41, CTB)
+D7.5 - Final event: Technology Transfer Symposium/Workshop - DC3 (M53, ISWA NL)
+D7.6 - Report on policy, standardisation input and liaison activities (M55, ISWA NL)
+D7.1 : Project ‘online’ (social media) strategy and promotional material available - DC1 [4]
+The first dissemination campaigne aims at raising awareness of the project. The project website will be available for
+consulting and promotional material like leaflets will be available. This relates to T7.3.
+D7.2 : Updated planning for PEDR [49]
+The plan for exploitation and dissemination of results will de drafted in M7, and will periodically updated in M19,
+M31 and M43. This document contains the outcome of T7.1.
+D7.3 : Strategy and business plans for exploitation and tech-transfer [55]
+Exploitation activities will cover the assessment of the market and of the exploitation/business potential by the SMEs
+and the industrial partners. Potentially patentable results will be identified and an IP study will be done on each use
+case. Technology transfer will be done via Enterprise Europe Network. This document contains the outcome of T7.2.
+D7.4 : Organisation of event ‘call for collaboration’ - DC2 [41]
+The second Dissemination campaign aims to boost the cooperation with partners outside DECOAT. This event relates
+to T7.3.
+D7.5 : Final event: Technology Transfer Symposium/Workshop - DC3 [53]
+A final event will be organised to promote the final project results and to aid the continuation of DECOAT after the
+project end. This event relates to T7.3.
+D7.6 : Report on policy, standardisation input and liaison activities [55]
+Page 42 of 52
+Interaction with standardisation bodies to establish definition and protocol for ‘debonding’. To enlarge the impact of
+DECOAT, liaisons with EU clusters and projects and external bodies will be entered into. This document contains the
+outcome of T7.4 and T7.5.
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+MS1
+Requirements defined and
+first dissemination material
+available
+1 - CENTEXBEL 5
+Milestones 1 contains two
+parts: requirement definition
+and preparation of first
+dissemination material.
+The first part involves the
+definition of the requirements
+and specifications for the
+demonstrators of the end-
+users (Deliverable D1.1).
+This will allow to decide
+which way to go for the
+development work in WP1
+and WP2 and to start WP3
+developments. The second
+part relates to dissemination:
+once the consortium agrees
+on first materials (D7.1) and
+on the first actions (D7.2), all
+partners will be able to start
+the DECOAT dissemination
+activities.
+MS5
+Prototype system for
+monitoring of pilot line
+available
+13 - IRIS 37
+Based on the optical detection
+prototype (D3.3) and the
+updated exploitation plan
+(D7.3), the pilot line will
+be validated (T4.3) and the
+demonstration activities will
+be started (WP5).
+MS7 Demonstration of ‘circular
+use’ 1 - CENTEXBEL 55
+The final reports on circular
+demo (D5.3-test report &
+D5.4-guidelines), final LCA
+(D6.5) & LCC (D6.3) and the
+final exploitation plan (D7.3)
+lead to the demonstration of
+circular use, supported by
+LCA and the eco-design tool
+(WP6).
+Page 43 of 52
+Work package number 9 WP8 Lead beneficiary 10 1 - CENTEXBEL
+Work package title Coordination
+Start month 1 End month 55
+Objectives
+• Efficient management at administrative and technical level: taking appropriate actions to meet the project objectives
+and assuring the continuing commitment of the DECOAT partners.
+• Day-to-day coordination: ensuring integration of all activities, organising the information flow, GA meetings, etc.
+• Provide detailed activity reporting and planning, enabling the EC to properly review the project progress.
+• Data Management: The efficient data management will ensure that research data will be easily discoverable, accessible,
+assessable and intelligible, usable beyond the original purpose for which they were collected, interoperable to specific
+quality standards, whenever relevant.
+Description of work and role of partners
+WP8 - Coordination [Months: 1-55]
+CENTEXBEL, AIMPLAS, Fraunhofer, CTAG, NTUA, Panasonic ES, MBT, MAIER, RESCOLL, C-TECH,
+DEVAN, IRIS, ECOMATTERS, IRES, OSM, ISWA, ISWA NL
+Description of work:
+Task 8.1: Efficient management at the administrative level - CTB, IRES, ALL PARTNERS (M1-M55) - 20%.
+The task consists of the accounting and distribution of the budget, the analysis of project expenditure and the collection
+of cost statements. It includes communication with the EC and partners in the synthesis and distribution of periodic
+financial reports. The periodic reports (progress reports and periodic activity reports) will be consolidated by the
+coordinator, supported by the Quality Manager.
+Task 8.2: Day-to-day coordination - CTB, IRES (M1-M55) - 50%.
+The day to day coordination will be realised through the structures and procedures as described in section 2.1:
+• The Coordinator (CTB) will maintain an overview of the project and will directly report to the EC project officer,
+• The Project Steering Committee (PSC) will take major project related decisions and report them to the Coordinator
+and the workpackage leaders. The PSC is composed of the Quality Manager (IRES), the Exploitation & Innovation
+Manager (OSM), the Demonstration Manager (DEVAN) and the Research and Technology Manager (NTUA). The role
+of each manager is described in section 3.2.1.1.
+The coordination includes also the development of the overall layout and updating of the internet based Collaborative
+Work Platform will optimize the management and the progress of the project (coordinator and Dissemination Manager).
+This task comprises also the organisation of the nearly 6-monthly General Assembly (GA), see exact timings in the
+Gantt chart, and the technical meetings, the communication strategy, risk management and conflict management (see
+also section 3.2.1).
+Task 8.3: Detailed activity reporting and updating of the planning and project risks - IRES, CTB, ALL PARTNERS
+(M1-M55) - 10%.
+The task comprises collecting and reporting the results as well as setting up a detailed work plan containing the
+description of the subtasks. A set of indicators which will provide an instrument to monitor the progress of each task
+and of the project activities will be defined by Month 4. These indicators will be specific, measurable and scheduled in
+time. This task will be undertaken by the coordinator CTB and Quality Manager (IRES).
+This task of planning involves also the risk management, which will be carried out by considering the main steps of
+risk assessment (risk identification, risk analysis, risk evaluation) together with monitoring and communication. The
+preliminary risk identification has been developed at proposal stage (see section 3.2.4) and will be regularly updated
+during the project. The assessment of risks will be developed through project internal workshops and surveys, with
+inclusion of the ASG members. The evolution of the identified risks as well as the early warnings from possible emerging
+risks related to the new technologies will be constantly monitored. Strategy for monitoring and mitigating risks will
+be developed to support the coordination of the project as a whole. The identification of the risks of the project will
+cover the following areas:
+• Technological risks (specific materials and process research related barriers)
+• Market risks (market adoption and acceptance, cost/time over runs, raw material supply)
+• IPR issues and exploitation (patents and scientific knowledge management)
+Page 44 of 52
+• Environment, regulations and safety (challenges in Policy, Regulation and Law according)
+The overview of the DECOAT project risks will be updated regularly and will be integrated in the progress reports.
+Task 8.4: Data Management - IRES, OSM, ALL partners (M1-M55) -20%.
+Throughout DECOAT, large amounts of Data are expected to be generated. IRES will be responsible for the Design and
+Implementation of a solid Plan for the collection, storage, evaluation and exploitation of the data that will be produced
+during and after DECOAT. Openness, accessibility to beneficiaries and reusability of the produced Data will also be
+ensured by the Data Management Plan, in order to open the road for the Open Innovation Environment (OIE). The Data
+Management Plan includes all the necessary steps for efficient collection, safe storage, deep exploitation and evaluation
+of the data. These steps involve the Data Repository for sharing data and the Design and Implementation of a process,
+which will integrate data coming from different sources (Data Mapping) and securely store them. IRES will also take
+action for Metadata Handling and Sensitive Data Handling. Furthermore, Data produced throughout DECOAT will be
+shared among open European Research Databases. The project will comply with the newly imposed rules concerning
+data quality, sharing and security (also GDPR principles will be applied).
+A Data Management Plan will be produced by M13 and updated at the project midterm and end. We will ensure that:
+research data will be easily discoverable, accessible, assessable and intelligible, usable beyond the original purpose for
+which they were collected, interoperable to specific quality standards, whenever relevant. The database will be used as
+a first basis for exploitation of results and further exchange of knowledge and expertise.
+ 
+Participation per Partner
+Partner number and short name WP8 effort
+1 -  CENTEXBEL 24.00
+2 -  AIMPLAS 1.00
+3 -  Fraunhofer 1.00
+4 -  CTAG 1.00
+5 -  NTUA 4.00
+7 -  Panasonic ES 1.00
+8 -  MBT 1.00
+9 -  MAIER 1.00
+10 -  RESCOLL 1.00
+11 -  C-TECH 1.00
+12 -  DEVAN 4.00
+13 -  IRIS 1.00
+14 -  ECOMATTERS 1.00
+15 -  IRES 8.00
+16 -  OSM 4.00
+17 -  ISWA 1.00
+18 -  ISWA NL 0.50
+Total 55.50
+Page 45 of 52
+List of deliverables
+ 
+Deliverable
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16
+Due
+Date (in
+months)17
+D8.1
+Quality & Risk Manual:
+definition for monitoring
+risks and for internal self-
+evaluation system
+15 - IRES Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+5
+D8.2 Data Management Plan 15 - IRES
+ORDP: Open
+Research
+Data Pilot
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+37
+D8.3 Periodic progress report
+M1-M10 1 - CENTEXBEL Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+10
+D8.4 Periodic progress report
+M20-34 1 - CENTEXBEL Report
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+34
+D8.5 Final report on Data
+Management 15 - IRES
+ORDP: Open
+Research
+Data Pilot
+Confidential, only
+for members of the
+consortium (including
+the Commission
+Services)
+55
+Description of deliverables
+D8.1 - Quality & Risk Manual: definition for monitoring risks and for internal self-evaluation system (IRES, M4)
+D8.2 - Data Management Plan (IRES, M12, updated on M37)
+D8.3 - Periodic progress report in the middle of the first reporting period (CTB, M10).
+D8.4 - Periodic progress report in the middle of the second reporting period (CTB, M34).
+D8.5 – Final report on Data Management (IRES, M55)
+D8.1 : Quality & Risk Manual: definition for monitoring risks and for internal self-evaluation system [5]
+This deliverable includes planning of the project and risk management, which will be carried out by considering the
+main steps of risk assessment, together with monitoring and communication. Strategy for monitoring and mitigating
+risks will be developed to support the coordination of the project. This document contains the outcome of T8.3.
+D8.2 : Data Management Plan [37]
+A plan will be designed and implementated for the collection, storage, evaluation and exploitation of the data that will
+be produced during and after DECOAT. A first version will be drafted in M12. This document contains the outcome
+of T8.4.
+D8.3 : Periodic progress report M1-M10 [10]
+This deliverable is the periodic progress report covering the activities performed in DECOAT for period M1-M10.
+This relates to T8.1.
+D8.4 : Periodic progress report M20-34 [34]
+This deliverable is the periodic progress report covering the activities performed in DECOAT for period M20-M34.
+This relates to T8.1.
+Page 46 of 52
+D8.5 : Final report on Data Management [55]
+The final plan will be designed and implementated for the collection, storage, evaluation and exploitation of the data
+that will be produced during and after DECOAT. This document contains the outcome of T8.4.
+Schedule of relevant Milestones
+ 
+Milestone
+number18 Milestone title Lead beneficiary
+Due
+Date (in
+months)
+Means of verification
+Page 47 of 52
+1.3.4. WT4 List of milestones
+Milestone
+number18 Milestone title WP
+number9 Lead beneficiary
+Due
+Date (in
+months)17
+Means of verification
+MS1
+Requirements defined
+and first dissemination
+material available
+WP1,
+WP2,
+WP3,
+WP7
+1 - CENTEXBEL 5
+Milestones 1 contains two
+parts: requirement definition
+and preparation of first
+dissemination material.
+The first part involves the
+definition of the requirements
+and specifications for the
+demonstrators of the end-
+users (Deliverable D1.1).
+This will allow to decide
+which way to go for the
+development work in WP1
+and WP2 and to start WP3
+developments. The second
+part relates to dissemination:
+once the consortium agrees
+on first materials (D7.1) and
+on the first actions (D7.2), all
+partners will be able to start
+the DECOAT dissemination
+activities.
+MS2
+Preliminary selection
+of triggerable materials
+for testing in debonding
+processes
+WP1,
+WP2,
+WP3,
+WP6
+5 - NTUA 13
+The research performed
+in WP1 (D1.1, D1.2 and
+D1.3) and WP2 (D2.1) will
+lead to the most promising
+debonding additives. The
+wider coating research will
+be narrowed down for WP3.
+Adequate material quantities
+will be available for further
+testing.
+MS3 Selection of debonding
+systems
+WP1,
+WP2,
+WP3,
+WP4,
+WP6
+1 - CENTEXBEL 19
+Based on results obtained in
+WP1 and WP2 (D2.2) and
+the preliminary LCA study
+(D6.2), the most promising
+debonding techniques will be
+selected which can be further
+implemented in the recycling
+line (WP4).
+MS4
+Selection of the most
+promising materials
+for their application in
+subsequent industrial
+tests
+WP1,
+WP2,
+WP3,
+WP4,
+WP6
+2 - AIMPLAS 34
+Based on the outcome of
+D1.5 (material synthesis),
+the debonding system
+development (D2.3, available
+M31), the preliminary LCC
+(D6.3 available M28) and the
+preliminary Safety-by-Design
+and risk assessment, the final
+direction of the pilot line will
+be stipulated (T3.3 and T4.2)
+Page 48 of 52
+Milestone
+number18 Milestone title WP
+number9 Lead beneficiary
+Due
+Date (in
+months)17
+Means of verification
+MS5
+Prototype system for
+monitoring of pilot line
+available
+WP3,
+WP4,
+WP5,
+WP7
+13 - IRIS 37
+Based on the optical detection
+prototype (D3.3) and the
+updated exploitation plan
+(D7.3), the pilot line will
+be validated (T4.3) and the
+demonstration activities will
+be started (WP5).
+MS6
+Recycling pilot line
+operational and final
+risk assessment and
+management plan
+completed
+WP4,
+WP5,
+WP6
+2 - AIMPLAS 46
+Once the pilot line is
+validated (D4.3 - M46)
+and the risk assessment
+is performed (D6.1 final
+and D6.4 - M46), the
+demonstration of the
+circularity can be started
+(T5.3)
+MS7 Demonstration of
+‘circular use’
+WP5,
+WP6,
+WP7
+1 - CENTEXBEL 55
+The final reports on circular
+demo (D5.3-test report &
+D5.4-guidelines), final LCA
+(D6.5) & LCC (D6.3) and the
+final exploitation plan (D7.3)
+lead to the demonstration of
+circular use, supported by
+LCA and the eco-design tool
+(WP6).
+Page 49 of 52
+1.3.5. WT5 Critical Implementation risks and mitigation actions
+Risk
+number Description of risk WP Number Proposed risk-mitigation measures
+1 Lower response of the
+materials to the triggers. WP1
+Higher loading of additives needed.
+Reconsideration of additive types, combine
+additives for higher response.
+2 Difficulties in up-scaling the
+promising materials WP1 Although less efficient, commercial available
+materials can be considered for certain cases
+3
+Debonding system results
+in substrate material with
+too high impurity level
+(insufficient removal of
+coating material)
+WP2
+Multi-step recycling process needs to be designed,
+e.g. by combining triggered debonding with
+subsequent Creasolv step. Alternative cleaning,
+e.g. water jet or ultrasonics.
+4
+Developed triggers not
+compatible with coating
+formulation or coating
+process
+WP2
+Re-plan work of WP1 and WP2: development
+of novel triggers Closer interaction between
+WP1 and WP2 Limit application cases to
+certain coating chemistries, scout for alternative
+opportunities
+5 Optical detection requires
+more time to develop WP3 Increase WP3 efforts, better alignment with WP4
+will be needed
+6
+Equipment failure regarding
+the evaluation of recycled
+materials
+WP3 Contingency plans for back-up services within the
+consortium members.
+7
+R&D work requires much
+more sampling & testing as
+planned
+WP1, WP2, WP3, WP4,
+WP8
+Re-plan activities, earlier selection limiting
+number of tests (eg via earlier decisions for MS3
+and/or MS4); redistribute resources
+8 Prototype pilot line unable to
+meet expectations WP4
+Search for alternative pilot line components (eg
+other heating), find less demanding use cases.
+Would have high impact but unlikely to occur.
+9
+Prototyping of some coated
+parts /products not feasible
+with DECOAT solutions
+WP5
+Need to redefine the prototypes that can be made,
+will cost extra time but alternative options should
+exist
+10
+Delay of data collection for
+LCA, LCC, SbD; responses
+not received in time
+WP6, WP8 Personal communication with ‘missing partners’,
+redefine scope of eco-design tool
+11
+IPR issues: disagreement on
+ownership rules, rejection of
+patent application, external
+patent publication with
+competing solution
+WP7, WP8
+IP studied (Task 7.2), risk management in Task
+7.3 with focus on IPR issues to early detect and
+tackle potential problems. Would have high
+impact but considered a very low probability.
+12 Changes in industry needs /
+external market conditions. WP5, WP7
+If needed, project use cases will be adjusted to
+re-align with end-user needs. Constant watch on
+market needs, eg via ASG members.
+Page 50 of 52
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 41 of 127 
+3 Implementation 
+ 
+‘If you skilfully follow the multidisciplinary path, you will never wish to come back.’  
+(Charlie Munger, investor)

@@ -1,0 +1,197 @@
+1.3 Concept and approach 
+(a) Overall concept underpinning DECOAT 
+The playing field. Increasing recycling is crucial, especially for plastics and textiles, as illustrated by the recently published 
+European strategy on plastics6 or the voluntary engagement of the plastics industry to recycle 50% by 20407. However 
+large the need and however impressive the targets, today only 6% of new plastic materials used stems from recycling8. Also 
+within the textile industry the use of recycled material is limited: for clothing only about 1% is closed loop, ca 12% cascade 
+recycling3. A great deal of work is underway to improve this (also via European projects), focussing on technical, economic and 
+logistical aspects. As a result, we assume in the near future well-established networks throughout Europe where waste is 
+collected and brought to local recycling facilities. At first, this network will deal with the current generation of products and 
+materials that are not made for recycling. Consequently, only a small fraction of all materials is being recycled because the cost 
+to the yield and quality ratio is too high compared with the one of virgin materials. Therefore, the next steps are products 
+designed for recycling and made of intrinsically recyclable materials. This concept is being developed, e.g. for high added 
+value applications like aerospace. However, for vast application areas this principle is not very advanced yet.  
+The identified need. DECOAT will implement a solution for a specific class of hard to recycle items: textiles and plastics 
+parts with (multilayer) ‘coatings’. For plastics, these can be found eg in automotive, construction and electronics consumer 
+goods. For textiles, typical uses are for technical textiles (outdoor gear, protective clothing, automotive applications and 
+construction) and interior textiles (e.g. upholstery, mattress covers or curtains). The coating can be added for performance or 
+aesthetics reasons. Coating, paints or adhesives have to possess excellent adhesion because of the durability of the coated 
+product, and as such cannot easily be removed. Consequently, full objects are discarded, even though the coating often 
+only comprises some % of the total weight. With DECOAT we will reduce the amount of waste material to the specific adhesive. 
+This holds for end-of-life products but it is also one of the types of production scraps that are not efficiently recycled yet. Within 
+this larger topic of debonding an emerging specific challenge is how to deal with scrap and end-of-life parts containing 
+integrated electronics (from smart textiles, smart plastics and 
+wearables).  
+DECOAT proposed solution: enable the recycling of coated 
+parts, which refers to a two-level approach: (i) ‘disassembly’ 
+is separating the connections among the different physical parts; 
+(ii) ‘debonding’ or ‘removal’ refers to the removal of coatings or 
+tie layers from the fabric or plastics object. This 2-step approach is 
+illustrated in the figures for a backpack. These two steps can be 
+performed separately (or simultaneously in some cases) during the 
+recycling process. DECOAT triggerable separations mechanisms 
+will be suited for both steps and fill the missing gap for circular use 
+of coated parts (see sketch in section 1.1). Within DECOAT, we 
+will focus mostly on the 2nd level, i.e. the removal of coatings. But, 
+the same principle of triggered debonding enables the disassembly 
+step. So, DECOAT developments are relevant for both steps and 
+we will refer to the processes as ‘debonding’.  
+Interdisciplinary aspects: DECOAT combines expertise and knowledge from several disciplines: polymer chemistry, physics, 
+coatings and paints, textiles and plastics processing, recycling, design, and environmental science. This is needed and 
+allows tackling the interdisciplinary issues required for reaching circularity. One such key issue is to tune the existing knowledge 
+on triggerable materials to industrial requirements for coated textiles and plastics.  
+Stakeholder involvement: interaction with the stakeholders is deemed crucial, especially with the waste actors. 
+Therefore, ISWA (NL) has been added as partner, a worldwide association of solid waste actors that promote sustainable 
+waste management and perform dissemination and policy work. For further strong interaction with a wide group of stakeholders, 
+the DECOAT Advisory and Support Group (ASG) has been established, containing 17 members from coating and recycling 
+companies, industry associations, a public authority, standardisation bodies and a publisher, see also section 3.2.1.1f and section 
+4 for a detailed description. 
+ 
+6 http://ec.europa.eu/environment/circular-economy/pdf/plastics-strategy.pdf  
+7 https://www.plasticsconverters.eu/single-post/2018/01/16/European-Plastics-Industry-works-towards-50-plastics-waste-recycling-by-2040   
+8 https://ec.europa.eu/commission/sites/beta-political/files/plastics-factsheet-industry_en.pdf  
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 6 of 127 
+Societal engagement: DECOAT results will create a new market of recycling coated textiles and plastics, which will lead to 
+job creation. Of special interest is (partial) disassembly which enables repair, e.g. in small local workshops.  
+Positioning of DECOAT: Main technology elements, starting and targeted TRL are summarized in the table below: 
+Technology element – assessment of status Start Target 
+Microwaveable (MW) additives exist but manufacturing and design methodologies need to be 
+developed for integration in coatings and paints for the DECOAT applications. Rely on triggering of 
+MW additives for fast curing thermoset resins and polyester annealing, which is well-established. 
+3 5 
+Microcapsules for debonding coatings: concepts based on heat, steam, microwaves are shown at lab 
+scale (CTB and NTUA). R&D needed to validate debonding in relevant environments. 
+3 5 
+Bonding/debonding adhesives: industrially available (e.g. INDAR) for applications with metals and 
+ceramics but needs to be transferred to polymeric/textile materials 
+4 5-6 
+CreaSolv® process was developed for recycling of soluble thermoplastics. It will be applied to 
+dissolve polymeric coatings from textiles and polymer surfaces. After separation, the coating 
+polymer can be recovered from the solvent. Suitable solvents need to be developed for specific 
+coating chemistry. 
+3 5 
+Trigger assisted mechanical recycling: mechanical recycling as established in paper industry will be 
+modified to treat plastic parts and textiles that contain coatings and/or paints by incorporating 
+additional elements (debonding system & sorting technology) and redesign other ones (grinding & 
+drying system) 
+4 5-6 
+Automatic sorting technology: is used in the plastic recycling sector, based on a number of monitoring 
+technologies. The right technology is to be selected and calibrated for novel DECOAT triggerable 
+materials. 
+3 5 
+Summarized: we start from technologies with TRL 3 (-4) and target TRL5 (-6) by the end of DECOAT. As much as possible 
+conventional processing technologies will be used, which eases scaling up. We will continuously monitor the performance of 
+the technologies along the project to ensure reaching TRL 5, as first steps towards future commercialization. 
+Linked (inter)national research and innovation actions. 
+Project Acronym (type of project) - Link with DECOAT Partner 
+(C=Coord) 
+EcoMeTex (FP7) - Separation layer for carpets based on expandable microspheres, will be further developed 
+as one of the separation technologies 
+CTB 
+RADIACAM (UK) - Microwaveable yarn for disassembly of mattresses and car seats CTECH 
+MARKERS (BE) – Markers for better sorting towards recycling CTB (C) 
+RECYCOAT (BE) – recycling of coated materials, eg separation by means of steam or infrared using additives CTB (C) 
+FiberEUse (H2020) – Large scale demonstration of new circular economy value-chains based on the reuse of 
+end-of-life fibre reinforced composites 
+MAIER 
+SMARTFAN (H2020) - Development of smart composites with self-healing capsules and carbon 
+nanomaterials/ smart recycling activities 
+NTUA 
+BYEFOULING (FP7) - Synthesis, functionalization and up-scaling of nanoparticles for marine coating 
+applications. Encapsulation based on Layer Double Hydroxides (LDH), Carbon Nanotubes (CNTs) and 
+Polyoligomeric silsesquioxanes (POSS) for controlled release of antifouling compounds 
+NTUA 
+LORCENIS (H2020) - Synthesis of carbonaceous nanomaterials and super absorbent polymers9 NTUA 
+SHELL (GR) - Synthesis of carbon nanotubes and nano-/micro capsules for coating applications NTUA 
+INNOVIP (H2020) – Solvent based separation of composite films applied in vacuum isolation panels (VIP) in 
+order to recycle film components during End of life treatment.  
+IVV 
+FORCYCLE (DE) – CreaSolv® process has been used to separate polymer/polymer and polymer/metal 
+composites by dissolving one polymeric component of the composite  
+IVV (C) 
+FOURMI (FR): Development of thermo-strippable paints for the selective paint removal of aircrafts RESCOLL  
+ 
+9 Kanellopoulou I.A., Karaxi E.K., Karatza A., Kartsonakis I.A.., Charitidis C.A, Hybrid superabsorbent polymer networks based on crosslinked poly (methacrylic acid) 
+encapsulated with Si02 for novel applications, 5th International Conference of Engineering Against Failure, 20 - 22 June 2018 - Chios Island, Greece 
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 7 of 127 
+Wear2™ (UK) – The innovative Wear2 technology provides the capability to easily disassemble garments with 
+the application of a simple end-of-life treatment using MW technology. 
+CTECH 
+REBIOFOAM (FP7) – The development of a flexible and energy-efficient pressurised microwave heating 
+process to produce 3D-shaped renewable bio-polymer foams for a novel generation of transportation packaging.  
+CTECH 
+LIBRE (H2020): Novel precursor fibre materials from blends of modified lignin and biopolymers for carbon fibre. 
+Includes use of dielectric susceptors to enhance the heating efficiency using MW or Rf energy.  
+CTECH, CTB 
+ECODISM (FP7) - development of debondable glazing adhesives for ELVs RESCOLL 
+ECOBULK (H2020) – Circularity in automotive sector (among others) IRIS 
+URBANREC (H2020) New approaches for the valorisation of URBAN bulky waste into high added value 
+RECycled products  AIMPLAS(C)
+CTB 
+EXTRUCLEAN (LIFE+): Demonstrative Project for the removal of hazardous substances during the recycling 
+process of polyethylene hazardous waste packages, employing supercritical carbon dioxide (sc-CO2)  
+AIMPLAS(C) 
+eCircular - The EIT Climate KIC eCircular Flagship programme will accelerate the circularity of plastic-based 
+material systems and dematerialisation of plastic demand, with the vision of a reaching a carbon-neutral material 
+system by 2050. The Flagship thrives for digital innovations for waste prevention and their up-scaling. 
+ECOMAT 
+ 
+(b) Overall Methodology:  
+For describing the general DECOAT methodology, we group the DECOAT activities according to lab-scale, pilot scale and 
+demonstration. The supporting activities are mentioned separately. 
+Materials and material structures R&D at lab scale  
+‘Triggerable materials’: R&D on the microcapsules, nano-additives, their integration in coatings, characterisation of their effects 
+when triggered. We will develop a portfolio of techniques, each will be characterised, listing the strengths and weaknesses for the 
+respective application domains. Integration in a coating system, directly in the coating or via a primer.  
+Triggerable debonding coating solutions both for the ‘disassembly’ of parts (‘1st level) and for the ‘removal’ of the coating from 
+the substrate (2nd level).  
+Process development at pilot scale:  
+Sorting technology: Research on 
+sorting to discriminate post-consumer 
+and post production waste based on 
+type of debonding trigger to ensure the 
+materials can be identified & guided to 
+the fitting recycling technique. 
+Piloting of a recycling line for 
+coated parts: conception, design and 
+building of an actual pilot line, 
+performing test runs on generic coated 
+textiles and plastic parts, validation via 
+the recycling of the use cases 
+prototypes. 
+Demonstration of circularity via use 
+cases (see sketch): The novel 
+coatings will be applied in the existing 
+processes by the manufacturers/ end-
+users via three use cases. The (small 
+scale) production of products will 
+undergo the recycling process, the 
+recovered materials will be 
+characterised and re-used. Evaluation 
+of the reprocessed products. 
+ 
+Transversal activities: 
+
+Smart plastic materials with intrinsic recycling properties by design 
+Research & Innovation Action addressing CE-NMBP-26-2018 
+ 
+814505 - DECOAT – Part B  Page 8 of 127 
+Environmental & safety assessment: detailed assessment of environmental (full LCA) aspects and development of an 
+ecodesign tool. Ensure Safety-by-Design implementation via use of non-hazardous substances, e.g. for microcapsules or solvents 
+(EC Regulation No. 1272/2008). Apply proper recycling and waste treatment (Directive 2008/98/EC).  
+Innovation management: Economic assessment (full cost of ownership, business plans); dissemination: raise awareness from 
+early on to maximise wide uptake of DECOAT results; communication to promote public awareness of circular economy values; 
+focus on interaction with wider stakeholders and with the ASG.  
+Coordination: efficient project implementation, project risk management. 
+Gender analysis. We will follow gender driven innovation and develop gender neutral demonstrators. DECOAT partners 
+have a strong focus on women’s employment (e.g. at VAUDE 65% women, including the CEO and 33% of executive positions)10. 
+Further, our innovation activities will consider the gender dimension and consider the needs, motivations and differences of 
+females where applicable, inspired by how taking gender into account has yielded new research results and sparked creativity11. 
+DECOAT will consider the relevance of the gender dimension in communication & training.

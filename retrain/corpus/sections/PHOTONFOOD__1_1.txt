@@ -1,0 +1,344 @@
+1.1 Objectives 
+PHOTONFOOD’s aim is to provide a portable solution for flexible farm -to-fork sensing of microbial and 
+chemical contamination in food products and along the food production chain. PHOTONFOOD will develop 
+an integrated solution that combines innovations in mid-infrared (MIR) sensing with smart paper-based sample 
+treatment, and advanced data analysis. This solution will be developed for the detection of microbial and  
+chemical contamination, validated and demonstrated in real scenarios along the food value chain (Fig. 1). 
+Novel light emitting diode (LED) light sources, as well as interband and quantum cascade lasers (ICL/QCL), 
+will be combined with sophisticated waveguide technology to transform MIR sensing from existing lab 
+solutions into a portable solution. The combination of MIR sensing with a paper microfluidic sample handling 
+device is especially powerful, as it provides an easy and affordable means to measure purified extracts of 
+contaminants. Purified extracts are necessary if one wants to achieve quantitative spectroscopic determination 
+of levels of chemical and microbial contamination in food matrices at relevant detection limits. 
+PHOTONFOOD will develop and demonstrate a photonic based monitoring solution for highly important 
+contamination problems in the food production chain, namely (i) fungal and water mo uld (oomycetes) 
+contamination and mycotoxins in wheat, nuts, dried fruits and aquaponic-based herbs, and (ii) pesticides 
+and antibiotics in aquaponic-based herbs. Hence, the applicability of the developed portable devices will be 
+demonstrated on-site at the end user level  (farms and retail) , including aquaponics as a novel type of food 
+production system. We will demonstrate that the PHOTONFOOD solution is highly flexible and can be easily 
+diversified: it can be used at the most critical control points in the production and distribution of these products, 
+ 
+Figure 1: Overview of the PHOTONFOOD project . (a) The use of the MI -FI device for daily monitoring , and (b) the HI-FI 
+device for reference analysis along the value chain. Compared to existing testing off-site, considerably more data will be collected. 
+(c) The transfer of the data to platforms such as Food Trust™ and d ata integration will define a new paradigm fo r food safety 
+control and reduction of food waste, and thereby represent a disruptive technology in agronomy and food industries.  (d) 
+PHOTONFOOD devices will feature two different types of photonic technologies (IC-LED and ICL/QCL), and (e) a paper-based 
+microfluidic sample handling unit, for detection of minute concentrations of contaminants. 
+
+PHOTONFOOD 
+ 
+4 
+ 
+such as the entry point of the European Union for products produced outside the EU, at the farm level 
+(traditional farming, novel forms of farming and on-farm vending), at the distributer level, and the level of the 
+retailer.  
+The solution is based on two innovative photonic devices, that are suitable for a wide range of application 
+scenarios. Both photonic devices  will have integrated low-cost paper -based microfluidics  for sample 
+collection, pretreatment, and analyte preconcentration, as well as an integrated data analysis platform (see 
+Fig. 1). The first photonic device will be low-cost and handheld, delivering medium-fidelity data ( MI-FI 
+device see Fig. 1)  by incorporation of innovative MIR light emitting diode (LED) light sources  based on 
+interband cascade (IC) technology. The second photonic device will be medium-cost and portable, delivering 
+high-fidelity data ( HI-FI device, see Fig. 1)  by incorporation of  interband and quantum cascade lasers 
+(ICL/QCL). The HI-FI device will provide high-fidelity molecular signatures that can be used for reference 
+measurements. The handheld MI-FI device is tailored for daily monitoring along the whole food chain and 
+even retail, which is feasible due to  its low envisioned price. The HI-FI spectra will allow the quantification 
+of contaminations at relevant detection limits  and will provide sufficient precision for accreditation of the 
+method. Advanced data analysis will be used to calibrate the MI-FI and HI-FI spectral data. The obtained data 
+will be further utilized by transferring it to and integrating it into platforms such as the block chain-based IBM 
+Food Trust™ data platform for tracing food contamination and improving food quality. The availability of big 
+data on food safety and the integration of the data into food block chain platforms will define a new paradigm 
+for food safety control and waste reduction (see Fig. 1). 
+The importance of detecting fungal and mycotoxin contamination.  Fungi are among the most resilient 
+spoilage microorganisms and  can be missed  by the most advanced  control safety measures utilized in food 
+industry1. Fungi are rapidly dispersed by water and air, can survive under extreme ly demanding conditions 
+such as thermal, detergent - and preservatives -based processing regimes used in modern farm -to-fork 
+production2. Approximately 25% of the global food  supply is wasted or lost because of postharvest fungal 
+spoilage1. In a survey of food manufacturers in the United States and Europe, 94% of the surveyed producers 
+reported fungal spoilage in the ﬁnished product as a frequent problem1. The majority of cases were related to 
+nuts (70%), followed by fruits and vegetables (12%), herbs and spices (8%) and cereals (4%). The main food 
+spoilage fungi secrete toxic secondary metabolites, so -called mycotoxins of which the immunosuppressive 
+deoxynivalenol and the  carcinogenic aflatoxins are among the most prevalent 1. The European Commission 
+pointed out that 5 –10% of global crop s produced are lost annually  due to mycotoxin contamination. 
+Considering that the EU produces about 133 million tons of wheat annually, about €1.2-2.4 billion can be lost 
+for wheat alone3. Mycotoxins are the most frequently notified food safety hazard in the EU 1. During the last 
+five years, the number of mycotoxin notifications has been increasing at an average rate of 15% per year, thus 
+highlighting the severity of the problem1. During this five-year period, the EU´s Rapid Alert System of Food 
+and Feed (RASFF) reported more than 300 alerts relating to aflatoxin levels exceeding legal limits in peanuts 
+imported into the EU3. Moreover, fungal and fungal-like oomycetes (water mould) contaminations constitute 
+an increasingly urgent problem in aquaponics and vertical farming, a rapidly developing novel plant and 
+vegetable production systems 4. Characteristic to aquaponic and hydroponic plant culture is the continuous 
+presence of water in the production system , where the humid or aquatic environment suits most fungal and 
+oomycetes plant pathogens4. Strikingly, our partner, the aquaponic company BIGH reported direct losses of 
+aromatic herbs of around 5000 pots. BIGH estimates that it could increase the production by additional 20 000 
+pots if they were not forced to reduce  their production density due to contamination by oomycetes (downy 
+mildew). Currently, mycotoxins and fungal detection is addressed by laborious reference analytical methods, 
+whereby for fungal detection methods based on culturing with subsequent genetic analysis are applied. 
+Mycotoxins are usually detected vi a sophisticated lab -based LC -MS/MS-based multi -metabolite methods. 
+Immunoassays (ELISA) are also applied for the rapid determination of a few regulated mycotoxins, especially 
+in industrial settings. However, ELISA protocols still require several sample preparation steps, are not flexible, 
+can hardly be used on -site, and are still prone to matrix effects due to cross reactivities of the employed 
+antibodies. Among of the more rapid methods, lateral flow strips coul be  used even on sites but their price is 
+ill far away from being optimal. The relevant limit of detection (LOD) for mycotoxins will vary depending on 
+ 
+1 Cinar A, Onbaşı E: Mycotoxins: The Hidden Danger in Foods. In: Mycotoxins and Food Safety. IntechOpen; 2019. 
+2 AW Gazai, F. Yildiz. Review of high pressure processing in foods. Cogent Food and Aquaculture. 2019, 5(1) 
+3 Krska, R; et al. World mycotoxin J. 2016; 9(4): 487-495 
+4 Stouvenakers G, et al. In: Aquaponics Food Production Systems. Springer; 2019: 353-378. 
+PHOTONFOOD 
+ 
+5 
+ 
+the type of mycotoxin, for example the case of deoxynivalenol (DON) the LOD is around 1000 ppb. Therefore, 
+prevention and control of the se toxic secondary metabolites remains difficult , and the agriculture and food 
+industries continue to be vulnerable to problems of contamination. 
+The importance of detecting pesticide residuals in cereals, vegetables and fruits.  Pesticides are used in 
+agriculture to satisfy a continuously increasing consumer demand for agricultural products by minimizing the 
+pre- and post -harvest losses. While agriculture productivity is increasing, pesticides represent hazards to 
+consumers since  their residues accumulate in different fractions in agriculture products such as  cereals, 
+vegetables and fruits. The persistence of pesticides has been reported for  wheat products, where milling 
+distributes pesticide residues in different fractions in the bran, germ, and endosperm . In addition, pesticide 
+residues could be detected in flower and in bread 5. In general, food processing allows decrease in pesticide 
+levels. However, in some cases, residue levels  of pesticides  even increased in the final product due the 
+processing of the raw materials 6. This can be related to water removal, for example in the production of dry 
+fruits such as raisins, prunes and apricots 6. The control of pesticides residues in such novel productions as 
+aquaponics has a particular importance, since pesticides and herbicides are toxic for fish7. 
+Today, the detection of pesticides residues is time-consuming and performed by the traditional instrumental 
+chemistry techniques , such as gas chromatography (GC) , liquid chromatography (LC) or capillary 
+electrophoresis (CE), coupled to different detectors, especially to mass spectrometers (MS). While s everal 
+biosensors were developed for the quick detection of pesticides, none of them have been accredited for the lab 
+use and they are not broadly available on the market. The main reason for that is that relevant detection limit 
+for pesticides is in 0.1 µkg/g which is not achievable by novel biosensors. 
+The importance of detecting antibiotics in aquaponics. Aquaponics integrates recirculating aquaculture 
+producing fish and hydroponics producing plants. In standard aquaculture, antibiotics are regularly used for 
+fish production in order to eliminate the risk of fish disease. However, antibiotics are not allowed in aquaponics 
+because they may impact plant growth , as well as  quality and the maintenance of nutrient solubilizing 
+microorganisms. Therefore, the control of the presence of antibiotics in water circulating in aquaponics farms 
+is of significant importance.  
+Currently, detection of antibiotics residues is performed by the EU four -plate (EU4PT) in an ampoule or 
+tube test or the Premi®Test (DSM) method which is based on microbiological assessment8. Both tests are time 
+consuming. During the last decade, a series of high-throughput rapid methods for detecting antibiotics residues 
+in food were developed , most of which are based on immunoassays, microbiological tests and biosensors . 
+Despite their throughput, the detection limit is still above the requirements9.  
+Up to date, only few photonic techniques have been adopted for the routine detection of contaminations 
+such as fungi, mycotoxins, pesticides and antibiotics10,11,12, despite their potential for detecting microbial and 
+chemical contaminants, their modularity, and their easy adaptability to a wide range of deployment scenarios. 
+Among the optical/ spectroscopic methods, MIR spectroscopy has proven to be by far the most reliable 
+analytical technique for probing molecular fingerprints of microbial and chemical contaminations via 
+molecular spectral signatures13,14. The Norwegian University of Life Sciences (NMBU) has developed a fully 
+automated laboratory system for spectroscopy-based analysis of fungi. The research is based on the R4SME 
+FP7 project FUST, which was coordinated by the PI  (see Table 4) . Ulm University (UULM), BOKU and 
+IRIS have developed a MIR sensing platform for lab-based analysis of mycotoxins in the MYCOSPEC FP7 
+project coordinated by IRIS  (see Table 4 ). Both projects demonstrate d that laboratory -based MIR 
+spectroscopy can be used for monitoring fungi and mycotoxins in different food processing e nvironments. 
+However, portability and analysis of trace concentrations of contaminations in food matrixes remains a 
+challenge to be solved. While few studies report the detection of food contaminants at low concentrations by 
+indirect detection (detection of food matrix changes) , a reliable detection of contamination at low 
+ 
+5 M.A. Randhawa, et al. In Wheat and Rice in Disease Prevention and Health, 2014, pp. 263-277. 
+6 A. Özbey et al. GIDA/The Journal of Food, 2017, vol. 42(2), pp.204-209. 
+7 P. Nicolopoulou-Stamati et al. Frontiers in public health, 2016, vol. 4 (148) 
+8 M.G Pikkemaat et al. Food Additives and Contaminants, 2010, 28 (1), pp.26.  
+9 C. Cháfer-Pericás, et al. TrAC Trends in Analytical Chemistry, 2010, Vol. 29(9), pp. 1038-1049. 
+10 Goenka C et al. Lasers Surg Med. 2019. vol. 51(2), pp. 201‐207. 
+11 Hyunjung Min, Byoung-Kwan Cho, J. of Biosystems Engineering, 2015; vol. 40(1), pp. 67-77. 
+12 Xing F et al. Crit Rev Food Sci Nutr. 2019, vol. 59(1), pp. 173‐180. 
+13 Janotta M, Karlowatz M, Vogt F, Mizaikoff B. J Analytica Chimica Acta 2003, vol. 496(1-2), pp. 339-348. 
+14 Janotta M, Katzir A, Mizaikoff B. J Applied spectroscopy, 2003, vol. 57(7), pp. 823-828. 
+PHOTONFOOD 
+ 
+6 
+ 
+concentrations (e.g. at ppm level) is theoretically not possible. Slightly varying food matrices introduce 
+molecular signatures that completely obscure the levels of contaminations that need to be detected and that are 
+at the parts per million level. Therefore, a pre-concentration of the contaminants is necessary in order to achieve 
+the detection levels needed for most of the contaminants , and , eventually, to develop a portable photonic 
+solution for detecting food contaminants on farms  and in food pro duction lines , wholesale , and retail.  
+Wageningen University is currently developing user-friendly and inexpensive devices based on 3D printing 
+and paper microfluidics in the EU ETN project FoodSmartphone (see Table 4). Such solutions can be further 
+developed for pre-concentration of tiny amounts of contaminants in food matrices.  
+PHOTONFOOD will build on the development of photonic components, modules and subsystems pioneered 
+in FUST, MYCOSPEC and MIRACLE  (see Table 4 ), and user -friendly sample handling from 
+FoodSmartphone. PHOTONFOOD will develop a flexible portable solution for the detection of microbial and 
+chemical contamination. The solution will include high-fidelity (HI-FI) and mid-fidelity (MI-FI) MIR photonic 
+devices, coupled to paper -based sample preparation module, and will be benchmarked against state-of-the-
+art laboratory platforms. Advanced data analysis will be used for calibrating the spectral MI -FI and HI-FI 
+data and for exploiting the obtained data for food safety and waste reduction. The developed PHOTONFOOD 
+photonic solutions are broadly adaptable for usage along the entire food production value chain , from the 
+farmer and distributer, to the importer, and up to the supermarket and consumer level.  
+The research will be performed by a multidisciplinary team with globally acknowledged leading expertise in 
+the field of IR spectroscopy, light source and waveguide development, paper-based on-site chemical analysis, 
+food spoilage microbiology, and data science. The project will involve collaboration with leading mycotoxin 
+analysis laboratories, an aquaponics farm, a distributor of dry foods , farms with on-site food processing and 
+vending, and a producer of a digital platform for food safety.  
+The PHOTONFOOD solution will be validated and demonstrated  in real settings for the detection of fungal 
+and chemical contaminations by involving relevant major stakeholders in the food value chain, an international 
+analytical laboratory specialized on mycotoxins and the Hungarian Food Safety Laboratory , and achieve a 
+Technology Readiness Level (TRL) of 6. This will allow the developed photonic solution to have a short and 
+direct way into the market after the project completion. The developed solution will in future allow t he 
+detection of contamination points in the food value chain and reduce food producti on losses and food waste. 
+The development of core photonics  and microfluidic technologies in the PHOTONFOOD project will in 
+addition facilitate innovation in other application areas and – next to food safety - harness Europe at the 
+forefront of photonics innovation and sensing/monitoring technology. 
+ 
+Specific objectives and related key success criteria 
+ 
+The main objective of the PHOTONFOOD project is to develop and demonstrate in real settings a flexible 
+MIR photonic solution for the detection of microbial and chemical contaminations based on innovative 
+photonic devices, paper-based sample handling and advanced data mining solutions. 
+The transfer of the same core technology (i.e., MIR photonics) from the labor atory bench to a flexible 
+portable solution enables broad usage on farms, in food processing, wholesale and retail  with the unique 
+advantage of providing the same analytical signatures, at  two different levels of ‘fidelity’, (i) a HI-FI device 
+that can be used for on -site reference analysis and (ii) a MI-FI device that can be used for contamination 
+monitoring. This implies that several technical challenges involving efficient microfluidic sampling, 
+extraction and preconcentration combined with  advanced MIR readout technologies, tailored light 
+sources and waveguides, adaptable photonic devices, and data processing/mining tools for the detection 
+of fungal/mycotoxin and chemical  contaminations must be overcome. The current technical challenges 
+will be addressed as follows:  
+ 
+Table 1: PHOTONFOOD specific technical challenges, specific objectives (SO) and key success criteria. 
+ 
+Paper-based microfluidic preconcentration and separation 
+Challenge: Due to the detection limits defined by the EU regulations, the PHOTONFOOD solutions would 
+need to have a detection limit for microbial and chemical contaminants at EU regulation levels and it would 
+be essential to obtain purified and enriched solutions of  contaminants for spectroscopic detection. 
+PHOTONFOOD will deliver smart, cheap and user -friendly paper microfluidic devices to extract, 
+separate and preconcentrate chemical and microbial contaminants  prior to spectroscopic analysis. 
+This solution can be adapted to allow for trace analysis of any food contaminant. 
+PHOTONFOOD 
+ 
+7 
+ 
+SO1: To develop paper microfluidic sampling, extraction and pretreatment for food contaminants from hard 
+and soft commodities (WP2, WP6). 
+Key success criteria: 
+ Sampling strategies defined for hard and soft samples and delivered as a report (D2.1 M24). 
+ Purification and enrichment device for one target mycotoxin (DON) in one commodity (wheat)  
+demonstrated in real settings (D2.1 M24). 
+ Diversification of approach to at least a second target contaminant in a second commodity demonstrated 
+(D2.1 M48). 
+3D printed interface for microfluidics and optical surfaces 
+Challenge: In order to optimize the measured signal by the portable MIR sensing solution, the contact 
+between the separated analytes and the MIR sampling surfaces and the detection area of the paper -based 
+microfluids needs to be optimized. 3D-printed cartridges will be iteratively designed and produced to 
+ensure alignment in the interface between the paper microfluidic strip and the optics for readout. The 
+technology will be universally applicable for any chemical signal enhancement in optical measurements in 
+medical and life sciences. 
+SO2: To develop a functionalized cartridge for the paper microfluidic devices that allows robust and user-
+friendly interfacing with spectroscopic detection (WP1, WP2).  
+Key success criteria: 
+ Report on strategy for coupling optical components, and the paper microfluidic interface (D2.1 M24). 
+ Fully integrated device for analysis of one target mycotoxin (DON) in one commodity (wheat) available 
+(D2.2 M48). 
+ Diversification of approach to at least a second target contaminant in a second commodity  finalized 
+(D2.3 M48).. 
+HI-FI ICL/QCL light source for 1500-1800 cm-1 range spectral range 
+Challenge: In order to develop a high-fidelity (HI-FI) portable MIR spectroscopic device providing the 
+level of sensitivity and selectivity needed for the detection of relevant fungal and mycotoxin contamination 
+at defined detection limits in food/commodity matrices, the brightest possible MIR light sources are required 
+covering a broad spectral window. PHOTONFOOD will develop monolithic interband/quantum cascade 
+laser ( ICL/QCL) technologies with the required coverage of  a broad wavelength window. A 
+monolithic QCL or ICL is one of the major photonics innovations of PHOTONFOOD and will be useful 
+for a plethora of applications within the field of photonics. 
+SO3: To develop tunable ICL/QCL MIR lasers for measurements with high precision and sensitivity (WP3). 
+Key success criteria: 
+ Broadly tunable lasers based on Vernier effect demonstrated for the 1500-1800 cm-1 wavelength range 
+(D3.2 M26). 
+ Tunable ICLs/QCLs available and validated in operation within the HI-FI device (D4.3 M24). 
+MI-FI IC-LED light sources for 1500-1800 cm-1 range spectral region 
+Challenge: For low-cost handheld mid-fidelity (MI-FI) analyzers, a low-cost powerful light source in the 
+MIR needs to be developed. PHOTONFOOD will develop MIR light emitting diodes (MIR-LEDs) with 
+significantly lower production cost with lesser spectral brightness and a broader emission linewidth as trade-
+off. The availabili ty of MIR  IC-LED technology across the MIR spectral window would provide a 
+breakthrough alternative to single mode laser technology facilitating low-cost hand-held analyzer platforms 
+with numerous applications across a wide range of monitoring scenarios.  
+SO4: To develop IC-LED light sources for low-cost contamination detection (WP3). 
+Key success criteria: 
+ IC-LEDs (Interband cascade light emitting diodes)  for integration into MI-FI device available (D3.1 
+M18). 
+ IC-LEDs available and validated in operation within MI-FI devices (D4.2 M30).  
+HI-FI MIR portable photonic device in the 1500-1800 cm-1 range 
+Challenge: For the on -site detection and reference analysis of the level of microbiological and chemical 
+contaminants in food commodities, portable label -free MIR photonics read -out devices are needed .  
+PHOTONFOOD will develop a high-end portable ICL/QCL laser-based device (HI-FI) based on thin-
+film nanocrystalline diamond waveguides to provide MIR molecular signatures of commodity matrix 
+changes and contaminants with maximum spectral resolution, sensitivity and precision at a reference level. 
+PHOTONFOOD 
+ 
+8 
+ 
+In addition to the food sector, the portable devices will be applicable for a broad range of applications, such 
+as wastewater or liquid fertilizer analysis.  
+SO5: To prototype a HI-FI MIR photonic sensing device and integrate ICL/QCL light sources (WP3).  
+Key success criteria: 
+ Thin-film GaAs waveguide- based photonic sensing platform demonstrated (D4.1 M18). 
+ Robust sensing interface using on -chip nanocrystalline diamond thin -film waveguide technology 
+established (D4.1 M18). 
+ One portable HI-FI ICL/QCL analyzer platform (1500-1800 cm-1) validated, tested and demonstrated  
+(D4.3 M24). 
+MI-FI MIR handheld photonic device for the 1500-1800 cm-1 range 
+Challenge: For daily monitoring of contamination a low-cost handheld device is needed. PHOTONFOOD 
+will develop a low-cost monolithic dispersive MIR device (MI-FI) using MIR IC-LEDs obtaining rapid 
+medium-resolution MIR molecular signature s with satisfactory precision and sensitivity . The handheld 
+device will be applicable to a wide range of applications outside the food sector , such as monitoring of 
+wastewater, process fluids, as well as surface and ground water. 
+SO6: To prototype MI-FI MIR photonic sensing devices and integrate MIR IC-LED light sources (WP1, 
+WP4, WP6). 
+Key success criteria: 
+ MIR IC-LEDs (1500-1800 cm-1 range) tested for MIR sensing applications (D4.3 M30). 
+ Hand-held MIR IC-LED (1500-1800 cm-1 range) monolithic grating spectrometer prototype assembled 
+and lab tested (D4.3 M30). 
+ Five MI -FI MIR  IC-LED (1500 -1800 cm -1) hand -held photonic sensing devices validated and 
+demonstrated (D4.3 M30). 
+Advanced data analysis platform 
+Challenge: The use of a narrow spectral window (1500-1800 cm-1 range) provides a substantial challenge 
+for the data processing . Further, the prediction of multiple contaminants obtained from multiple 
+commodities requires stable calibration procedures . PHOTONFOOD will innovatively resolve this by 
+developing specific pre-processing tools and establishing robust calibration models for MI-FI and HI-
+FI data covering a narrow but very discriminative spectral range. The developed approaches will serve 
+as a platform for future photonic sensor applications based on IC-LEDs and ICL/QCL data.  
+SO7: To use advanced data analysis to calibrate MI -FI and HI-FI solution for detection of microbial and 
+chemical contaminants in food (WP5, WP6). 
+Key success criteria: 
+ Pre-processing approaches for spectroscopy data of MIR  IC-LED and ICL/QCL light sources  
+established (D5.1 M36). 
+ Machine-learning based calibration and classification tools established (D5.2 M36). 
+ Calibration and classification tools validated and demonstrated (D5.2 M36). 
+PHOTONFOOD software application for data analysis for mobile and laptop 
+Challenge: The toolbox of data processing algorithms needs to be accessible through a PC and a mobile 
+application. The data analysis models will be established in a cloud service and provided as application 
+for a laptop and a mobile pho ne for the MI -FI and HI -FI instrumentation. This will allow the 
+demonstration of the broad applicability of the solution at the end of the project  and enable fast 
+commercialization of the solution after the project period. During the project period, PHOTONFOOD will 
+develop a strategy for data integration into the IBM’s Food Trust™ block chain. This will in future allow 
+rapid mitigation of contamination events and is expected to reduce associated food waste considerably. 
+SO8: To provide user-friendly interface, intuitive decision support tools and data integration strategy (WP1,  
+WP5). 
+Key success criteria: 
+ Collection of user requirements summarized in a report (D1.1 M24). 
+ Architecture design validation fulfilled (D5.4 M36). 
+ Software platform demonstration and end-user acceptance (D5.5 M40). 
+Validation and demonstration 
+SO9: To validate and demonstrate the PHOTONFOOD solutions in real settings (WP1, WP6). 
+Key success criteria: 
+PHOTONFOOD 
+ 
+9 
+ 
+ PHOTONFOOD solutions demonstrated for fungal contamination and mycotoxins in wheat, nuts, dry 
+fruits and aquaponic-based herbs (D1.2 M40, D6.3 M46, D6.4 M46). 
+ The applicability of the PHOTONFOOD solution to pesticides and antibiotics in aquaponic-based herbs 
+demonstrated (D1.2 M40, D6.3 M46, D6.4 M46). 
+Dissemination of the PHOTONFOOD solution to stakeholders 
+SO10: To assess marketability for the PHOTONFOOD solution. (WP1, WP7) 
+Key success criteria: 
+ Cost assessment in line with target levels (D1.3 M36). 
+ Positive initial feedback from end-user groups obtained (D1.4 M48). 
+ Positive attitude among key stakeholder groups assessed in stakeholder survey (D1.4 M48). 
+ TRL 6 reached. The device is accepted by end-users and key corporate decision-makers in immediately 
+relevant market segments (D1.4 M48). 
+Exploitation of the application of the developed components in other sectors 
+SO11: To strengthen Europe’s leadership in photonics (WP1). 
+Key success criteria: 
+ Positive assessment of the applicability of the technology to other value chains beyond those in which 
+the device is being validated (D1.4 M48). 
+ Positive attitude among key stakeholder groups assessed in stakeholder survey (D1.1 M24).

@@ -1,0 +1,229 @@
+4. Personal Data Page
+Does this activity involve processing of personal data? Yes No
+Does this activity involve further processing of previously collected personal data (including 
+use of preexisting data sets or sources, merging existing data sets)?
+Yes No
+Is it planned to export personal data from the EU to non-EU countries? Specify the type of 
+personal data and countries involved
+Yes No
+Is it planned to import personal data from non-EU countries into the EU or from a non-EU 
+country to another non-EU country? Specify the type of personal data and countries involved
+Yes No
+Does this activity involve the processing of personal data related to criminal convictions or 
+offences?
+Yes No
+5. Animals Page
+Does this activity involve animals? Yes No
+6. Non-EU Countries Page
+Will some of the activities be carried out in non-EU countries? Yes No 1
+Switzerland, UK
+In case non-UE countries are involved, do the activities undertaken in these countries raise 
+potential ethics issues? Yes No
+It is planned to use local resources (e.g. animal and/or human tissue samples, genetic material, 
+live animals, human remains, materials of historical value, endangered fauna or flora samples,
+etc.)? 
+Yes No
+Is it planned to import any material (other than data) from non-EU countries into the EU or 
+from a non-EU country to another non-EU country? For data imports, see section 4. Yes No
+Administrative forms
+Page 174 of 177
+Proposal ID 101069820
+Acronym INPERSO
+Horizon Europe ver 1.00 20210928 Last saved 19/10/2021 16:03
+Is it planned to export any material (other than data) from the EU to non-EU countries? For 
+data exports, see section 4. Yes No
+Does this activity involve low and/or lower middle income countries, (if yes, detail the benefit-
+sharing actions planned in the self-assessment) Yes No
+Could the situation in the country put the individuals taking part in the activity at risk? Yes No
+7. Environment, Health and Safety Page
+Does this activity involve the use of substances or processes that may cause harm to the 
+environment, to animals or plants.(during the implementation of the activity or further to the 
+use of the results, as a possible impact) ?
+Yes No
+Does this activity deal with endangered fauna and/or flora / protected areas? Yes No
+Does this activity involve the use of substances or processes that may cause harm to humans, 
+including  those performing the activity.(during the implementation of the activity or further 
+to the use of the results, as a possible impact) ?
+Yes No
+8. Artificial Intelligence Page
+Does this activity involve the development, deployment and/or use of Artificial Intelligence? (if 
+yes, detail in the self-assessment whether that could raise ethical concerns related to human 
+rights and values and detail how this will be addressed).
+Yes No 27
+9. Other Ethics Issues Page
+Are there any other ethics issues that should be taken into consideration? Yes No
+I confirm that I have taken into account all ethics issues above and that, if any ethics issues apply, I will complete the 
+ethics self-assessment as described in the guidelines How to Complete your Ethics Self-Assessment
+Administrative forms
+Page 175 of 177
+Proposal ID 101069820
+Acronym INPERSO
+Horizon Europe ver 1.00 20210928 Last saved 19/10/2021 16:03
+Ethics Self-Assessment
+Ethical dimension of the objectives, methodology and likely impact
+INPERSO will use AI for optimization of construction/renovation processes in the project but no human-based data or process 
+of personal data is involved in INPERSO activities. The data will be acquired from from sensors, machine and process controls. Then by 
+application of AI, this data will be processed in order to provide relevant information regarding further optimization of these 
+processes and decision making. 
+The AI developments within this project have been designed accordingly with the trustworthiness guidelines for all the AI-based 
+techniques/systems made in Europe. All the developments performances will be properly quantified and tracked ensuring the 
+possible detection of deviations from expected behavior. Considering the scope of this project, only strictly necessary data will be 
+captured and processed. Considering the level of interaction of the proposed developments with humans, the work proposed here, 
+does not go into conflict with any fundamental right of individuals, safety or discrimination.
+Remaining characters 3978
+Compliance with ethical principles and relevant legislations
+INPERSO will be undertaken in accordance with commonly agreed standards of good practice, as laid down, for example, in the 
+European Group on Ethics in Science and New Technologies, the Declaration of Helsinki, the Economic and Social Research Council 
+(ESRC) Research Ethics Framework. INPERSO ensures trustworthy and ethical AI within the project's activities, the consortium partners 
+are committed to follow and fully comply with the Ethics Guidelines for Trustworthy Artificial Intelligence that was presented by the 
+European High-Level Expert Group on AI on the 8th of April 2019. 
+According to these Guidelines, trustworthy AI should be: 
+1. Lawful, meaning that it respects all applicable laws and regulations, 
+2. Ethical, in the sense that it respects ethical principles and values; and, 
+3. Robust from a technical perspective while considering its social environment. 
+The Guidelines put forward a set of 7 key requirements that AI systems should meet in order to be deemed trustworthy: 
+- Human agency and oversight. 
+- Technical Robustness and safety. 
+- Privacy and data governance. 
+- Transparency. 
+- Diversity, non-discrimination and fairness. 
+- Fostering diversity. 
+- Societal and environmental well-being. 
+- Accountability. 
+INPERSO will carry out an assessment of the project's activities to verify the application of each of the key requirements as according 
+to 
+the specific assessment list that the Guidelines has established. This assessment list for the ethical AI has gone through a pilot test 
+until December 2019, however, INPERSO commits to follow-up on any possible modifications or adaptions of the same. Furthermore, 
+a 
+collaboration will be established with the European AI Alliance to provide continuous possibility feedback and best practices, as well 
+as with the AI4EU Observatory on Society and Artificial Intelligence (OSAI) that supports the distribution and the discussion of 
+knowledge about the Ethical, Legal, Socio-Economic and Cultural issues of AI (ELSEC-AI) within Europe . 
+INPERSO will ensure compliance with all related legal standards, namely: 
+- Ethics Guidelines for Trustworthy Artificial Intelligence that was presented by the European High-Level Expert Group on AI 
+on the 8th of April 2019; 
+- Directive 2000/31/EC of the European Parliament and of the Council of 8 June 2000 on certain legal aspects of information 
+society services, in particular electronic commerce, in the Internal Market (Directive on Electronic Commerce)
+Remaining characters 2537
+Administrative forms
+Page 176 of 177
+Proposal ID 101069820
+Acronym INPERSO
+Horizon Europe ver 1.00 20210928 Last saved 19/10/2021 16:03
+Security issues table
+1. EU Classified Information (EUCI)2 Page
+Does this activity involve information and/or materials requiring protection against 
+unauthorised disclosure (EUCI)? Yes No
+Does this activity involve non-EU countries? Yes No
+2. Misuse Page
+Does this activity have the potential for misuse of results? Yes No
+3. Other Security Issues Page
+Does this activity involve information and/or materials subject to national security restrictions? 
+If yes, please specify: (Maximum number of characters allowed: 1000)
+Yes No
+Are there any other security issues that should be taken into consideration? 
+If yes, please specify: (Maximum number of characters allowed: 1000)
+Yes No
+2According to the Commission Decision (EU, Euratom) 2015/444 of 13 March 2015 on the security rules for protecting EU classified information, “European Union 
+classified information (EUCI) means any information or material designated by an EU security classification, the unauthorised disclosure of which could cause varying 
+degrees of prejudice to the interests of the European Union or of one or more of the Member States”. 
+3Classified background information is information that is already classified by a country and/or international organisation and/or the EU and is going to be used by the 
+project. In this case, the project must have in advance the authorisation from the originator of the classified information, which is the entity (EU institution, EU Member 
+State, third state or international organisation) under whose authority the classified information has been generated. 
+4EU classified foreground information is information (documents/deliverables/materials) planned to be generated by the project and that needs to be protected from 
+unauthorised disclosure. The originator of the EUCI generated by the project is the European Commission.
+Administrative forms
+Page 177 of 177
+Proposal ID 101069820
+Acronym INPERSO
+Horizon Europe ver 1.00 20210928 Last saved 19/10/2021 16:03
+5 - Other questions
+Two-stage calls
+The full stage-2 proposal must be consistent with the short outline proposal submitted the to stage 1 - in particular with respect to the 
+proposal characteristics addressing the concepts of excellence and impact
+Are there substantial differences compared to the stage-1 proposal? Yes No
+Essential information to be provided for proposals including clinical Trials / studies / investigations
+Clinical study means, for the purpose of this document, any systematic prospective or retrospective collection and analysis of health data obtained 
+from individual patients or healthy persons in order to address scientific questions related to the understanding, prevention, diagnosis, monitoring or 
+treatment of a disease, mental illness, or physical condition. It includes but it is not limited to clinical studies as defined by Regulation 536/2014 (on 
+medicinal products), clinical investigation and clinical evaluation as defined by Regulation 2017/745  (on medical devices), performance study and 
+performance evaluation as defined by Regulation 2017/746 (on in vitro diagnostic medical devices).
+Are clinical studies / trials / investigations included in the work plan of this project? Yes No
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 1/70 
+HORIZON-CL5-2021-D4-01-02: Industrialisation of deep 
+renovation workflows for energy-efficient buildings (IA) 
+ 
+INdustrialised and PErsonalised Renovation for Sustainable sOcieties 
+# Participant organisation name Acronym Country Type 
+1 Technological Institute of Aragon: ITAINNOVA ITA RTD ES 
+2 Universitat Politècnica de València - Instituto Universitario de Restauración 
+del Patrimonio UPV-IRP RTD ES 
+3 CORE Innovation Centre NPO CORE RTD EL 
+4 TAMPEREEN KORKEAKOULUSAATIO SR TAU RTD FI 
+5 FUNDACION CARTIF CARTIF RTD ES 
+6 MIRTEC S.A. MIRC LE EL 
+7 Instituto Valenciano de la Edificación IVE RTD ES 
+8 R2M Solution SRL R2M SME IT 
+9 UAB MODERNIOS E-TECHNOLOGIJOS METS SME LT 
+10 IRIS Technology Solutions S.L.  IRIS SME IE 
+11 DEMO Consultants BV DMO SME NL 
+12 EUROCORE Consulting sprl EUROC SME BE 
+13 Ventive LTD VENT SME UK 
+14 Advanced Management Solutions AMS SME EL 
+15 AUMSA - Actuacions Urbanes Municipals S.A AUMSA NPO ES 
+16 Stichting Monumentenwacht Noord-Brabant MWNB NPO NL 
+17 DIMOS VARIS - VOULAS - VOULIAGMENIS DVVV NPO EL 
+18 ACCIONA CONSTRUCCION SA ACCIO LE ES 
+19 VIAS Y CONSTRUCCIONES SA VIAS LE ES 
+20 University of Applied Sciences and Arts of Southern Switzerland SUPSI RTD CH 
+21 iWin - innovative Windows IWIN SME CH 
+22 École polytechnique fédérale de Lausanne EPFL RTD CH 
+ 
+Table 1 Nomenclature 
+Means of Verification: MoV Milestone #: MS# Building & Construction: B&C 
+Wireless Sensor Networks: WSN Data Acquisition: DAQ Indoor Environment Quality: IEQ 
+Machine Learning: ML Integrated Result: IR Product as a Service: PaaS 
+Energy Management System: 
+EMS 
+Construction & Demolition Waste : 
+CDW 
+Occupational health and safety 
+environment: OHSE 
+Augmented Reality: AR Heating, Ventilation, Air 
+Conditioning and Cooling: HVAC 
+Artificial Intelligence: AI 
+Building Integrated Photovoltaics 
+BIPVs 
+Demo Case #: DC#  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 2/70 
+1 Section 1: Excellence 
+Introduction 
+The building & construction (B&C) sector is a key pillar of the EU economy, accounting for 18 million jobs and 
+contributing to almost 9% of the GDP1. The B&C industry’s size and importance renders sectoral challenges all the 
+more important: competitiveness, labour shortage, productivity, gender balance, resource and energy efficiency exert 
+significant pressures on the sector. For instance, B&C sector productivity grew over the past two decades, but only 
+at around a quarter of the rate of the manufacturing sector (1.0% vs. 3.6% respectively)2. Construction and demolition 
+waste (CDW) remains the largest waste stream in terms of mass, generating 374 million tonnes per year in the EU3, 
+and construction workers face the highest accident incidence rate at 3,319 events per 100,000 persons employed4. In 
+the near future, increasing demand for infrastructure and accommodation due to urban sprawl necessitates rapid and 
+sustainable adaptation in the shortest timeframe possible, while increase the safety levels. In this context, affordability 
+and quality of construction works, especially in renovation, adds another layer of complexity. Buildings account for 
+40% of final energy consumption and 36% of greenhouse gas emissions in Europe 5, a result of the age of European 
+building stock6 but also the stagnating rates of renovation (1-1.5% with deep renovation even lower, at 0.2%7). 
+The integration of digital technologies in the B&C sector has been established as a key enabler in addressing these 
+multifaceted and interconnected challenges. Yet, the construction sector is one of the least digitalised sectors i n the 
+economy8,9, with only Building Information Modelling (BIM) being widely adopted, primarily by large enterprises10.

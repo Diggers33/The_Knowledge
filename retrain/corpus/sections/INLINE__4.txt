@@ -1,0 +1,1535 @@
+4. Members of the consortium ......................................................................... ................................................... ......................... 28
+4.1 Participants .................................. ................................................... ................................................... .................................... 28
+4.2 Third parties involved in the project (including use of third party resources) ...................................................................... ........ 31
+4.3 Subcontracting- Best value for money ............................................................. ................................................... ..................... 31  
+5. Ethics and Security ............................ ................................................... ................................................... ............................... 31
+5.1 Ethics ........................................ ................................................... ................................................... ....................................... 31
+5.2 Security ...................................... ................................................... ................................................... ...................................... 31  
+ANNEX 1- LETTERS OF INTENT  .................................................. ................................................... ............................... 32  
+Annex 2- Business Model Canvas ....................................................................... ................................................... ..................... 33  
+ANNEX 3- SEAL OF EXCELLENCE  .................................................. ................................................... ........................... 34  
+ 
+  
+SMEINST-07-2016-2017                     
+3 | P a g e  
+ 
+1.  EXCELLENCE
+1.1 OBJECTIVES 
+INTRODUCTION TO THE BUSINESS NEED 
+Over the past 5 to 10 years we have seen important advances in Infrared (IR) spectroscopy technology, with the arrival on the market of 
+low-cost, miniature, fit-for-purpose sensors that can replace bulky systems in R&D, in the field, and in manufacturing environments. While 
+such sensor advancements are undoubtedly helping to increase industry use of NIR-based systems for in process monitoring, the key 
+to unlocking the floodgates for mainstream adoption lies in facilitating the successful integration of IR sensors into processing 
+lines  and seamlessly providing the acquired process data to industry in the form of knowledge or intelligence.  
+Let’s consider first of all the hardware integration. This is not just general engineering; this is specialised optical engineering and proper 
+sampling . Sampling is key to the ability to take accurate readings from the material being processed and basically means optimising the 
+interaction between light and sample in order to dr aw relevant information free of interferences and a rtefacts. If the sampling fails, you 
+have fallen at the first hurdle irrespective of the performance of the spectrophotometer. There are no general solutions for sampling; cost-
+effective trade-offs cannot reliably tackle all the practical cases unless the sampling devices are being prepared by-design to be adapted 
+to a board variety of practical cases.  
+And then there’s the whole data side of things. Robust mathematical tools (i.e. chemometric modelling) are absolutely vital for converting 
+readings into accurate measurements . While a major advantage of NIR spectroscopy techn ology is its sensitivity to the sample 
+matrix , this same advantage makes NIR difficult to work with in that measurements are affected by changes in the sample matrix related 
+to particle size, density, humidity, and temperature. Moreover, if we consider the context of food matrices and pharmaceutical excipients, 
+these can be affected by seasonal, geographical, an d other sources of change that can result in differ ences in the physicochemical 
+compositions of the material, which can have a direct impact in the NIR spectral features. Critically, the development of algorithms based 
+on an understanding of the absorption and scatterin g behaviours of diffuse reflectance and transmittan ce can enable the removal of 
+matrix effects and improved model robustness.  
+The market reality is that today there are not so m any players who are specialising in the development  and customisation of fully 
+integrated and customised in-process monitoring solutions and that can deal with the installation challenges that the technology is facing, 
+such calibration of the optical device, addressing fouling, the influence of external factors affecting the system such as temperature, etc.; 
+we tend to have instrument providers on the one side and manufacturers and processors on the other. So there is a clear ‘integration 
+gap’ . Industries willing to take the step to shift thei r laboratory analysis to the line (and this step in volves an almost philosophical and 
+cultural shift in the company, as opposed to merely a technological investment), cannot reasonably do so without a reliable integration, 
+customisation and maintenance service that. A typical food or pharmaceutical manufacturer (irrespective of their size) will not be equipped 
+with the in-house engineering and programming team to get NIR spectroscopy sensors reliably integrated  and deployed in their 
+processing lines. In fact, there is a general lack of availability of engineers and scientists with su fficient expertise working with 
+spectroscopy. Consequently, companies that want to use NIR cannot find qualified people to help them do it.  
+Our vision through the VISUM® platform is to bridge this integration gap . Our game changing flexible hardware and software (figure 
+1 below, and the architecture is described in Table 4 in Section 1.3) equips engineers that do not require a specialization in spectroscopy 
+in the food, pharmaceutical and process industries to perform the rapid, easy, and cost-effective integration of robust, bespoke solutions 
+that are reliable and stable in manufacturing and processing environments. The VISUM® platform is based on an ‘integrated-by-design’ 
+approach that has been born out of a mission to unblock the bottlenecks of the cost and complexity of integration of IR-based ‘mini-PAT’ 
+solutions in processing lines.  
+SMEINST-07-2016-2017                     
+4 | P a g e  
+ 
+FIGURE 1- THE VISUM PLATFORM 
+We are on the edge of a wave that is about to take the industry by storm; that will see many applications that were formerly reserved for 
+research-grade instruments being transferred to rea l-time, in-line monitoring and intelligent process control. The VISUM® platform will 
+enable industries (large and small) from the food, pharmaceutical and other process sectors, to successfully ride this wave and benefit 
+from greater process efficiencies (and cost savings), higher quality products, reduce waste and environmental impact.  
+SPECIFIC OBJECTIVES OF THE PROJECT  
+Building on the successful outcome of our Phase 1 p roject, we are now moving on to the Phase 2 SME Ins trument, with the aim of 
+accelerating the final stages of development and ge aring up for the commercialisation of an  affordable IR-spectroscopy-based 
+platform for enabling the rapid, easy integration a nd customisation of in-process chemical monitoring solutions in the food 
+and pharmaceutical industries, resulting in improved process control, product quality, and safety .  
+As such, the specific objectives that will be fulfilled over the course of a 27-month work plan are as follows:  
+1.  To build 5 application cases for the VISUM product in the dairy, snack food, meat and pharmaceutical industries.  
+The cooperation of test customers allows us to have an application-oriented product development as follows:  
+a) ALMIRALL: Pharmaceutical sector (secondary produ ction). An inline installation on a blender to moni tor the mixing process 
+for of the APIs and predict when the process end point is reached. The expected (required) precision is as low as 2% of nominal 
+value. 
+b) DAIRYGOLD: Dairy products. An inline installation in a pipe will continuously monitor specific composition of dairy products. 
+c) METALQUIMIA: Snack products. Installation in a d ry oven monitoring the moisture content of produce on a feed through 
+conveyor belt. 
+d) SALGOT: Meat based products. An inline system in stalled at the output of the stuffer line. Target p arameters: Moisture, fat 
+content and protein content 
+e) DEC Pharma/ food processing equipment provider. End point of blending process defined by this end user’s clients. 
+Performance indicator:  By M3, the 4 application cases in dairy, olive oil , meat and pharmaceuticals are defined, along with the 
+respective integration strategies for the VISUM in each of the 4 industry facilities. Key Performance Indicators (KPIs) for validating 
+the success of the industry trials are agreed with each test site. 
+2.  To develop the chemometric predictive models for each application.   
+Using the feasibility prototype system in VISUM, in itial tests with product samples sets from our four  beta testing clients will be 
+performed for obtaining test data for the developme nt project and for model development. An initial se t of lab-scale ready-to-use 
+predictive chemometric models will be developed, va lidated, and pre-installed in the respective VISUM units to be validated. 
+Promising not widely already adopted chemometric me thods (MCR -multivariate curve resolution- and MLR –multivariate linear 
+regression- improved with wavelengths selection pre-treatment –genetic algorithms- as well as robust c lassification methods like 
+SVM –support vector machines-) will be implemented for improving accuracy in relation to standard meth ods like Partial Least 
+Squares (PLS) or PLS-DA, for example. Performance indicator:  By M7, digital files for the first versions of each model are ready 
+for laboratory validation and by M9, optimised versions are delivered for coding into the system software. 
+
+SMEINST-07-2016-2017                     
+5 | P a g e  
+ 
+3.  To design and build the platform hardware layers  
+In keeping with the VISUM architecture (figure 1 and Table 4) and the system specifications that were defined in the Phase 1 SME 
+Instrument project, the following hardware (HW) layers will be designed and built: a) Tailor-made probe-sample interfaces improved 
+with “anti-fouling” windows; b) Standard customisab le plug-in sampling unit for on-line version of VIS UM for cases whereby the 
+antifouling window is not suitable; c) Core instrum ent: IR spectrophotometer (whereby VISUM will be de signed for versatility to 
+enable compatibility with a variety of commercially  available SWIR OEMs); d) System casing suited for ‘click-in’ integration of 
+different IR spectrophotometers (depending on the measurement requirements of the application) as well as built-in computer that 
+is capable of communicating with a selected variety  of spectrophotometers firmware; e) Built-in data m anagement HW. 
+Performance indicator:  By M4, an up to date portfolio of OEM SWIR spectrophotometers is complete so that we can ensure the 
+VISUM designs are compatible with each; By M6 a dossier with the designs of the Standard probe-sample interfaces, the on-line 
+sampler, housing and built in data management hardw are is ready. By M10, HW units are built and ready for integration with 
+system software. 
+4.  To design and develop the platform software layers and to build the cloud infrastructure  
+Again, in keeping with the VISUM architecture and t he system specifications that have been defined in the Phase 1 project, the 
+following software (SW) layers will be designed and  developed: a) Built-in data management software; b ) Ad-hoc chemometric 
+models development environment; c) Flexible multiplatform data interface; d) User programmable decision rules, offering mini-PAT 
+(Process Analytical Technology) capability. In keep ing with the Industry 4.0 paradigm, the VISUM will be cloud enabled to allow 
+the option of connecting sensor data to the cloud (as required) so that historical data can be analysed (Big Data), along with a web 
+application (that will be accessible over all mobil e platforms) to allow remote monitoring of networks  of installed VISUMs. 
+Performance indicator:  By M10, the beta SW including the modelling code has been validated in the lab and debugging confirms 
+readiness for integration with the system HW. By M11, the cloud database and Application Programming Interfaces are built. 
+5.  To integrate the system hardware and software and t o perform in-house testing to ensure proper functio ning of the 
+integrated VISUM and effective communication with t he cloud. Performance indicator:  By M12, tests with the integrated 
+system confirm readiness for industry installation work to commence- Factory Acceptance Test (FAT) according to ISO 2001:9008 
+is approved. 
+6.  To install and test the VISUM system in the processing facilities of our participating test customers . 
+The VISUM system will be installed at the following end user sites: a) SALGOT- meat processing (to monitor salamis and sausages 
+filling mixtures at the output of the stuffer line) ; b) DAIRYGOLD-dairy processing (to monitor milk qu ality parameters as flows 
+through the pipes); c) METALQUIMIA-snack food produ ction (to determine moisture content in a drying pr ocess) and, d) 
+ALMIRALL- pharmaceutical manufacturing (in a blende r), e) DEC- pharmaceutical manufacturing (in a blen ding line in order to 
+validate/optimise the pre-defined integration strategies and confirm the ease of rapid integration (which is a key selling proposition 
+of the VISUM) Production trials will be performed i n order to validate the transferability of the cali bration models and the 
+performance and reliability of the VISUM technology vs. conventional monitoring methods. The VISUM will be interfaced with the 
+existing process control system for the implementation of closed loop control either by means of the VISUM built-in control routines 
+or using the existing control routines in the machi nery (PLCs). Performance indicator: By M22, the systems are successfully 
+installed at SALGOT, DAIRYGOLD, METALQUIMIA, ALMIRALL and DEC. By M22, correct operational performance is confirmed 
+according to the pre-established KPIs and Site Acce ptance Test (SAT) approval is obtained from each of  the sites. By M27, the 
+impacts of monitoring and controlling the process with the VISUM in-line system are quantified.    
+7.  To translate the validated prototype designs to pro duct  through the creation of the manufacturing document ation package 
+using the engineering information and specification s and to establish the manufacturing. Performance indicator: By M19, the 
+product manufacturing documentation packages are passed to purchasing and production engineering to enable manufacture. By 
+M23, the first 5 product units pass the quality assurance tests. 
+8.  To further develop the VISUM Business Plan and Business Models  for the commercialisation of the instrumentation (hardware) 
+and data services. Performance indicator: By M22, our Business Plan is investor ready and we have fully detailed and verified 
+our business models for realising the full potentia l of our VISUM platform in the European and global food, pharmaceutical and 
+other markets.   
+9.  To gear up to market- This will involve establishing and training the  VISUM Sales Team and Application Team (for supporting the 
+Sales Team), the finalization of the pricing structure and policy, and establishing the commercial/distribution networks for delivering 
+on the sales targets in the key European and international markets. Performance Indicators:  By M22 the Application Team is in 
+place and trained, the first tier of our distributi on network is in place and our pricing has been val idated for timely progression to 
+the Commercialisation Phase.   
+PROBLEM OR BUSINESS OPPORTUNITY AND HOW THE SOLUTIO N SOLVES THE PROBLEM OR AVAILS OF 
+THE BUSINESS OPPORTUNITY 
+In line with the Industry 4.0 paradigm, there is in creasing industry interest in shifting from laborat ory-based or post-production quality 
+SMEINST-07-2016-2017                     
+6 | P a g e  
+ 
+control to in-line monitoring of product and proces s parameters during processing. The main drivers fo r this interest are the need to 
+improve product quality (or to obtain standardised quality) and safety, to increase process efficienci es, to reduce waste and 
+off spec product discard , as well as increasing awareness of the imperative of ICT adoption to remain competitive in  our new 
+Digital data-driven era . There is an enormous business opportunity for pro viding even small and mid-tier enterprises with acc ess to 
+rapid and reliable in-process detection techniques that can keep pace with modern processing speeds an d throughputs and which are 
+suitable for: (i) assembly in the production line a nd operating under a realistic environment; (ii) en abling early detection of possible 
+failures; (iii) performing permanent monitoring of the conditions; (iv) providing an assessment of con ditions at any desired time 1. The 
+introduction of spectroscopic sensors for real-time process monitoring is enabling industry to gradually move from inferential monitoring 
+and control toward continuous measurement of core quality parameters 2.  
+VISUM, in line with the objectives of H2020’s Leade rship in Enabling Technologies (LEIT) work programm e, leverages photonics and 
+ICT KETs (Key Enabling Technologies) to drive forwa rd the PAT  (Process Analytical Technologies) paradigm within the wider Industry 
+4.0 framework for improved industrial competitiveness.  
+Over the past 30 years, on/in-line near infrared spectroscopy (NIRS)  (based on the absorption of electromagnetic radiat ion at 
+wavelengths in the range 780–2500 nm) has proven to  be one of the most efficient and advanced tools fo r continuous monitoring and 
+control of process and product quality in the food processing industry. 3 NIR spectra of foods and pharmaceuticals comprise broad bands 
+arising from overlapping absorptions corresponding mainly to overtones and combinations of vibrational modes involving C–H, O–H, and 
+N–H chemical bonds 4, making it very feasible for measurements to be ma de in organic and biological systems such as meat, fish, fruit 
+and vegetables, grain and grain products, dairy pro ducts, oils, beverages, Active Pharmaceutical Ingre dients (APIs) and excipients, 
+among others. However, despite the operating cost of NIRS being low, to date the instruments themselves have been costly , which 
+has limited practical application 3. Moreover, calibration models based on NIR spectroscopy, and especially for on-line applications, 
+tend to require a significant economical effort and are not reliable and stable enough when used practically 3.  
+Our VISUM platform breaks down the cost and complex ity barriers of NIR technology adoption for real-ti me process monitoring 
+applications, by providing food and pharmaceutical processors (irrespective of their size or technolog ical capability) with access to the 
+necessary flexible hardware and software to allow f or rapid, easy, and cost-effective integration of r obust, customised IR solutions that 
+are reliable and stable in manufacturing and proces sing environments. The aim is to ensure that integr ation can be performed even by 
+non-specialised engineers. This is a timely develop ment in view of the emergence of new compact, highl y affordable IR spectroscopy 
+sensors, such as those that are offered by Finnish technology company, Spectral Engines OY, which can be purchased for <€1k. Their 
+business models are centred selling high volumes of  sensors. The key now to mass adoption lies in faci litating the integration of these 
+sensors in industry. (It is important to highlight that since we have commenced the VISUM development we have witnessed dramatic 
+price drops for IR sensors from €5/6 to just under €1k- for orders of 10 units)   
+The VISUM platform will capitalise on this business  opportunity by bringing to market the first  IR spectroscopy integration platform  
+that offers the following Unique Selling Propositions (USPs):  
+ Affordability- the use of the new wave of extremely affordable MEMS-NIR sensors to enable disruptive cost reductions (~up to 4-
+5 times cheaper) for fully customised in-process monitoring systems.  
+ Ease of integration and reliability- In relation to the reliability of the calibration m odels, the VISUM platform will incorporate a 
+robust multivariate-models development environment and a clever ‘calibration transfer program’, thus eliminating the need for a full 
+recalibration. This will be a fundamental feature i n making the VISUM platform readily customisable fo r reliable use in many 
+analytical measurement scenarios in industry.  
+ Low maintenance- A major practical problem that continues to pose great challenges in relation to in-line spectroscopy is biofouling 
+and contamination of the optical window, caused by the environment in which the device is operating. V ISUM offers two solutions 
+(depending on the requirements of the application) for ensuring resistance to fouling- and thereby inc reasing the robustness and 
+reliability of the device and dramatically reducing the maintenance of the hardware and extending its useful life-: a) a layer of specific 
+polymers (non-polar compounds) coated on the surface of the optical window (tests during our Phase 1 Feasibility Study revealed 
+positive results 5) for preventing fouling. Thin PTFE layers were suf ficiently transparent in the SWIR wavelengths and r educed the 
+probability of fouling as PTFE is a chemical compound with very low polarity; b) an online sampler concept (validated in the Phase 
+1 Feasibility Study for grape juice, which is a very difficult liquid product/sample) as an alternative solution to the inline approach for 
+use with difficult aqueous samples prone to foul optical windows: a 2-stages tangential filter -which provides continuous operation-, 
+a CIP (cleaning-in-place) circuit and an ad hoc the rmostatic photometer that operates at a challenging  wavelength (280 nm) was 
+developed and will be replaced by a NIR spectrophot ometer during this Phase 2 project (note: the short er wavelength, the more 
+difficult to deal with turbidity, fouling and other artefacts, as such if the system is capable of work at 280 nm, it will at work at NIR).  
+                                                        
+1 Pemen, A.J.M. et. al. 1998. On-line detection of partial discharges in stator windings of large turbine generators. IEE colloquium on discharges in larg e machines, 3/1–3/4. 
+2 van den Berg, F., et al., Process Analytical Techn ology in the food industry, Trends in Food Science & Technology (2012), doi:10.1016/j.tifs.2012.04.007  
+3 Haibo Huang et. al. (2008). Near infrared spectroscopy for on/in-line monitoring of quality in foods and beverages: A review. Journal of Food Engineerin g 01/2008; DOI: 10.1016/j.jfoodeng.2007.12.022 
+4 Osborne, B.G., 2000. Near infrared spectroscopy in  food analysis. BRI Australia Ltd, North Ryde, Aust ralia. Copyright 2000 Wiley, New York, pp. 1–14 (Ch apter 1). 
+5 As reported in the Technical Feasibility Report th at was submitted at the end of the VISUM SME Instru ment Phase 1 project (Grant Agreement number: 68476 7).  
+SMEINST-07-2016-2017                     
+7 | P a g e  
+ 
+Our VISUM platform will mainstream the industry adoption of IR-based reliable and robust on/inline monitoring systems that are readily 
+tailored to the specific measurement requirements and environments and suited to the real-time measurement of physical and chemical 
+parameters in a multitude of food and pharmaceutical applications. The affordability and easy of set up of the VISUM in-line monitoring 
+systems will also open up the power of IR technology to the SME sector.  
+OBJECTIVES AND EXPECTED OUTCOME OF THE INNOVATION B USINESS PROJECT  
+From a business perspective, VISUM Ltd., through VISUM®, is gearing up for a high growth business opportunity. VISUM® will be a key 
+product under the IRIS brand. Over the last 4 years  IRIS has positioned itself as an emerging player i n the advanced monitoring and 
+control space, whereby we have been making progress in offering the customization of real-time monitoring solutions and the associated 
+integration services on an ad hoc basis to clients in the food, and more recently the pharmaceutical, industry. The expected outcome 
+from this project is to have the VISUM® hardware, s oftware and cloud infrastructure developed to product level by the end of Phase 2, 
+to have the manufacturing set up with the first pro duct units manufactured and quality approved, to ha ve finalized our pricing structure 
+and product positioning. The Phase 2 project enables us to accelerate this work so that we can be ready for market launch in 2019; this 
+acceleration allows us to seize the market opportunity as early as possible and to be first to market with the world’s first IR spectroscopy 
+integration platform . In parallel to the product development itself, we will gear up and prepare for the commercialization phase, whereby 
+we will build and train our Sales team and we will also establish an Application Team (a technical tea m that will support sales and 
+deployment activities: testing materials, performing detailed site visits, installing the systems, provide training and handling both site and 
+remote customer support, etc.). We establish our first-tier international distribution network to cover the following geographical markers: 
+Ireland & UK, Spain, Germany and Central Europe, the US and China. We will verify and plan for the realization of our sales objectives-
+1300 units being sold (in Europe and worldwide) during the first 5 years of commercialization (rational provided in Section 2.2), which will 
+translate into a cumulative turnover of over €42 M (generated from 2019 to 2023) and will enable 39 ne w jobs to be created in VISUM 
+Ltd. over that same period.
+1.2 RELATION TO THE WORK PROGRAMME  
+Phase 2 VISUM project relates to the agri-food and bio-based sectors of the SMEInst-07-2016-2017 work programme topic  ‘Stimulating 
+the innovation potential of SMEs for sustainable and competitive agriculture, forestry, agri-food and bio-based sectors’ .
+1.3 CONCEPT AND APPROACH  
+CURRENT STAGE OF DEVELOPMENT OF THE BUSINESS INNOVA TION PROJECT 
+A VISUM hardware feasibility prototype device was b uilt consisting of a diffuse 
+transreflectance arrangement associated to a SWIR MEMS-based spectrophotometer. This 
+feasibility prototype has been successfully used in a pilot study with a local company for the 
+determination of moisture (dispersed water) in oliv e oil and oil concentration in olive marc 
+(alperujo), whereby chemometric models for fine tun ing the spectroscopic readings have 
+been developed on the basis of the popular PLS meth od. The metrological capabilities of 
+the prototype were validated in terms of precision of the predictions: Prediction errors below 
+0.2% w/w demonstrated that the system offers perfor mance comparable with equivalent 
+more expensive commercial systems. These tests were carried out in order to confirm the 
+applicability of the VISUM concept for online real-time monitoring of an industrial centrifuge 
+(decanter) for yield optimization (PAT).  In  the Phase 1 SME Instrument additional trials 
+were performed with two providers of spectrophotometers, RADIANTIS  (900-1700 nm) 
+and Spectral Engines (1550-1950 nm), spectrophotometers in terms of generic performance 
+as well as the adequacy of the prototype for measuring key parameters in palm oil for pastry 
+manufacturing, as well as in meat, olive oil, milk and grape must. Key features such as 
+signal-to-noise ratio (S/N) at relevant wavelengths, spectral resolution, short-term and mid-
+term spectra stability –in both signal and waveleng th-, mechanical and optomechanical stability, and a ccuracy of the predicted results 
+with representative samples were determined for bot h spectrophotometers. In terms of key features both  devices behaved in a similar 
+way even though the one from Spectral Engines showe d slightly better both S/N ratio and spectral resol ution, while its spectral range 
+was definitively shorter. In the case of oil for example, the transreflectance geometry was confirmed as the most suitable for measuring 
+semi-transparent liquids, whereby the spectra of 10 0 different samples from a real process were acquir ed with VISUM (based on the 
+RADIANTIS SWIR device) and the respective reference  analysis were carried out to build quantitative an d qualitative (classificatory) 
+models. Predictive models were successfully validated for the following parameters: Total Acidity, Polar-compounds Concentration and 
+identification of degraded (overheated) oil. The Radiantis device results to be more suitable for generic applications –that require wider 
+spectral range- while Spectral Engines spectrophotometer is more suitable for specific applications –that allow narrower spectral ranges 
+and perhaps better S/N- once the respective ideal spectral region has been identified.  
+FIGURE 2- IMAGE OF VISUM 
+PROTOTYPE HARDWARE AND 
+USER INTERFACE  
+SMEINST-07-2016-2017                     
+8 | P a g e  
+ 
+In relation to solutions towards addressing the challenge of the biofouling or contamination of the optical window , which is a major 
+challenge for in-line monitoring in food and pharma ceutical applications, during the Phase 1 SME Instr ument project we performed a 
+technical feasibility study into the suitability of three approaches:  
+1.  Nanotexturisation coating:  A structure of nanometric “pillars” keep the fluid s and the solid bodies (microscopic and macroscopic  
+particles) far enough from the surface to avoid stable Van de Waals bonds. In this way, the chance of persistent adherence (fouling) 
+would significantly decrease. Nanotexturisation tre atment is under development in the Dr. Pruneri’s Gr oup at the Institute of 
+Photonics Science (ICFO) (Dow Corning Cathedra) and  they provided treated and control samples for a fe asibility study. Results 
+with the current nanotexturised windows performed on water, milk and powder (flour), revealed positive results for reducing fouling 
+in the case of certain powders such as flour, but c urrently would not be suitable for use for reducing  fouling in the case of water-
+based solutions or lipid-based emulsions (such as m ilk). ICFO is still working with the technology and  we will work together in the 
+future in order to find a robust solution for the industry. However, due to insufficient TRLs this work will not form part of the Phase 2 
+SME Instrument. The results are summarised in Table 1.  
+2.  Antifouling polymer layer coating:  A layer of specific polymers (non-polar compounds)  is coated on the surface to reduce the 
+probability of fouling. In particular, a thin PTFE layer would be transparent enough in the SWIR wavelengths and would reduce the 
+probability of fouling because PTFE is a chemical c ompound with very low polarity. The results of feas ibility tests performed in the 
+Phase 1 project, a Dupont AF Teflon disk (approx. 200 microns thick) was placed on a 1 inch diameter 2-mm thick sapphire optical 
+window and held on it by means of a mechanical hold er. The transmittance along a wide spectrum (400 to 2000 nm) resulted over 
+93% -which is perfectly suitable for optical applic ations such as VISUM inline windows. PTFE is an alm ost perfect non-polar 
+substance with excellent antifouling properties and chemically is very inert in relation to the most of the chemicals. Likewise, PTFE 
+is very stable in a wide range of temperatures (<25 0 C). The sapphire substrate is needed for providin g mechanical robustness to 
+the PTFE film; the Teflon layer is a barrier between the analysed product and the sapphire window. As in the nanotexturised window 
+feasibility study, the PTFE-AF-coated window was tested against water, milk and powder (flour). The tests were carried out according 
+to the same scheme that was used with the nanotexturised widows, i.e., pouring the tests substance on the PTFE layer and flipping 
+the set up vertically after 5 min. The results were  significantly better because no persistent fouling  took place even without any 
+cleaning process (refer to Table 1). In conclusion the PTFE film on a sapphire glass presents a suitable solution for addressing the 
+majority of the cases of VISUM Inline applications) . During the Phase 2, we will develop a coupling so lution for holding the thin 
+polymer layer in touch with the glass (sapphire) window if required. 
+TABLE 1- SUMMARY TABLE OF THE RESULTS OF ANTIFOULIN G COATING FEASIBILITY STUDIES 
+Sample  Test  Nanostructured layer s PTFE -AF coated sapphire  Control (bare sapphire)  
+Water  Discrete drops  + + - 
+20 ml water flow  + + - 
+Immersed in water during 3 h  + + - 
+Pouring water drops after 2 days (immersed during 3  h 
+and then dried)  
+- + - 
+Milk   Discrete drops  - + - 
+Corn flou r  Powder layer  - + - 
+3.  Online sampler:  The option of on-line sampling has 
+been also considered. In many cases, inline real-time 
+measurements are not absolutely necessary; on the 
+contrary, in such cases, a sample can be 
+automatically taken from the pipe in order to analy se 
+it by means of an external online setup, properly 
+attached to the pipe. It allows using ad hoc cleani ng 
+systems (CIP) that remove any fouling from the 
+windows without interacting with the product within  
+the pipe. To study the feasibility of such an approach, 
+an automated online sampler for liquid samples was 
+designed, built and successfully tested by means of  
+an especially challenging or difficult liquid 
+product/sample: grape must. In fact, grape juice ca n 
+be considered an extreme case due to its high sugar 
+content (>200 g/L), very high turbidity (>4000 NTU) , 
+protein-based colloids content- which easily causes  
+clogging in almost any filtering system- and last b ut 
+not least, its proclivity to be easily transformed by microorganisms such as yeast -which implies high  CO2 concentration (bubbles 
+occurrence) and biofouling too. Such a kind of samp le represent a worst case scenario for food industr y applications because 
+
+SMEINST-07-2016-2017                     
+9 | P a g e  
+ 
+combines several drawbacks associated to the samples that are typical in such a sector. The sampler was provided with a 2-stages 
+tangential filter -which provides continuous operation-, a CIP (cleaning-in-place) circuit and an ad hoc thermostatic photometer which 
+operates at a difficult wavelength: 280 nm. Such a short wavelength is particularly sensitive to turbidity and any kind of fouling hence 
+it resembles the worst case scenario. The photos above (left) show the online sampler lab system and ( right) the sampler installed 
+in the lab in an ad hoc test rig for simulating real conditions: the grape must be continuously pumped through a closed-loop pipe and 
+samples are continuously taken out by means of the sampler to be properly conditioned (filtered) and characterized by means an ad 
+hoc photometer. A summary of the parameters that have been obtained are shown in Table 2. We conclude that the online sampler 
+concept implemented in the test rig is suitable as an alternative solution to the inline approach for difficult aqueous samples prone 
+to foul optical windows and will be implemented in Phase 2.  
+TABLE 2- SUMMARY OF THE PARAMETERS OBTAINED WITH TH E SAMPLER UNIT 
+Turbidity after the filtration procedure (starting > 2000 NTU)  < 10 NTU  
+Repeatability of optical absorbance @ 280 (2σ)  < 1%  
+Warm -up time of the system  80 min  
+Delay of the measurement  1 min.  
+Equilibrium temperature of the photometer housing  24.5 ± 0.5 ºC  
+From a market feasibility perspective , we performed significant industry engagement prior to and during the VISUM Phase 1 project, 
+whereby we participated in the following trade exhibitions: Murcia Food Brokerage 2015 (14-15 May), BTA Barcelona Food Technologies 
+(May 21-24 2015), Global Food Safety 2015 in Amster dam (September 8-9, 2015), Anuga Food Congress in C ologne (October 10-14 
+2015), and PharmaProcess in Barcelona (October 27-29, 2015), III International Food Safety Congress, Murcia (25- 27 Nov 2015), IFPAC 
+(Conference on Process Analytical Technology (PAT), QbD, Process Understanding & Control, and Real-Time Analytics) US (Jan 24-27 
+2016). Extensive industry engagement has confirmed very strong industry interest in the VISUM platform and its value proposition. We 
+have generated 106 new leads in our CRM (79 from th e food industry and 27 from pharma) and from them w e have recruited four 
+companies to collaborate with us in the Phase 2 as ‘first beta clients’: SALGOT (meat processing); DAI RYGOLDPASCUAL (dairy 
+processing); METALQUIMIA (olive oil production); and d) ALMIRALL (pharmaceuticals).  
+During the Phase 1, face-to-face meetings were held with the R&D+I, Production and Quality Managers at each site in order to a) become 
+familiar with their facilities and processes to be monitored, b) define the user requirements (using a  Kano Survey), c) implement the 
+Quality Function Deployment (QFD) method to determine how and where priorities identified through the Kano Survey are to be assigned 
+in product development, d) define the derived syste m specifications for the VISUM system, which is the  starting point of this Phase 2 
+project for designing and manufacturing a mainstream VISUM platform that will be flexible enough to ensure rapid customization for tailor-
+made VISUM solutions. These user requirements, which have fed into the system specifications (outputs from Phase 1) are summarised 
+in Table 6 in Section 2.1. 
+POSITIONING OF THE BUSINESS INNOVATION PROJECT 
+In the Phase 2 we will advance the TRLs from the cu rrent TRL6/7, whereby the VISUM prototype has alrea dy been successfully 
+demonstrated in a relevant environment, to hardening up the hardware and building the software to perform validation and demonstration 
+work in the industry (TRL7) and arriving at a compl ete and qualified system, which will be CE marked ( TRL8), and through continued 
+case studies in the industry, the fully industriali sed systems will be proven in an operational enviro nment (TRL9). We will also get to 
+Manufacturing Readiness Level 10 in order to be in a position to serve market demand when we launch in January 2019.  
+TABLE 3- SUMMARY OF THE TRL ADVANCEMENTS THROUGH TH E PHASE 2 
+Key element  Current 
+TRL 
+Final 
+TRL 
+Comments  
+NIR Spectrophotometer  8/9  9 VISUM is based on of -the -shelf spectrophotometers  that may involve some minor OEM adaptations  
+Antifouling window  6 8/9  Optimized and tested for the most typical types of compatible samples  
+Lighting  6 9 Amelioration in terms of geometry  (variable beam diameter), filtered spectra –to reduce sample heating - as well as 
+pre-heating the lamps to reduce warm up time and improving stability 
+Software  6 8/9  Improvements in terms of usability and robustness as well as regulatory compliance (11 CFR 21)  
+Casing  7 9 Optimization of size, thermal stability and regulatory compliance (ATEX, CE, etc.)  
+Data exchange interface  7 9 Comp atibility with the most common standards (Modbus, Profibus, Fieldbus, etc.)  
+“miniPAT” control 6 9 Completing a set of basic con trol routines and methods (PID, MSPC, etc.) 
+Online sampler  6 9 Optimized and tested for the most typical types of compatible sa mples  
+Cloud database  8 9 Communication between the VISUM devices and cloud will be verified.  
+THE VISUM CONCEPT  
+NIR is a non-destructive, reliable and accurate tec hnique for monitoring chemical and physical paramet ers during food and 
+pharmaceutical processing. At present, NIR is widel y accepted as one of the most promising on/in-line process control techniques. 
+Moreover, the appearance of fibre optic probes sign ificantly improves the ability of NIR techniques to  monitor and control processes 
+especially using remote on/in line detection. However, as was seen, there are currently gaps preventing the mainstreaming of NIR in the 
+industry: 1) typical NIR lab analysers are expensiv e (~40-80K€) and they require specialised staff to operate them, along with costly 
+maintenance; 2) they often require time-consuming, costly and complex predictive models development an d their further recalibration 
+SMEINST-07-2016-2017                     
+10 | P a g e  
+ 
+(model maintenance); 3) Generic systems do not properly fit to each particular product line or monitoring challenge and these mismatches 
+are the source of major errors; 4) on-line NIR optical interfaces are prone to biofouling and contamination which is a major limitation for 
+accurate measurements and leads to high maintenance requirements.  
+The VISUM platform (the architecture layers are outlined in Table 4 below) is designed to overcome each of these limitations and thereby 
+contribute to the mainstreaming of NIR-based technology in the European and global food and pharmaceutical industries as an enabler 
+for improved product quality and safety, as well as  improved process understanding and control for a f irst tier Process Analytical 
+Technology (PAT) tool. By ensuring that the VISUM platform can be customised to real-time industrial solutions at a cost to the client of 
+on average ~€10-35k depending on the final applicat ion, we will enable a totally disruptive costing structure that will ma instream 
+the adoption of NIR-based technology in the Europea n and global food and pharma industries, making it fully accessible to 
+SMEs. Moreover, as was discussed we will ensure VISUM is enabled by cloud computing in line with the Interne t-of-Things and the 
+Industry 4.0 paradigm.   
+TABLE 4- ARCHITECTURE OF THE CLOUD-ENABLED VISUM PL ATFORM  
+VISUM HARDWARE LAYERS  
+VH.1  Tailor -made probe -sample int erface (‘design for operation’)  
+A set of basic arrangements aimed at the seamless ad aptation (integration) to the most common/standard user situations, as we ll as to specific needs in 
+terms of sampling (probe-sample interaction). Gener ic systems do not properly fit to each particular p roduct line or monitoring challenge and these 
+mismatches are the source of major errors. To overc ome problems associated with biofouling and contami nation of the optical window from powders or 
+viscous liquids, an antifouling polymer layer coati ng technology feature suited for most inline applic ations, and an online sampler unit with CIP feature s for 
+other applications, will provide practical and affordable solutions  for preventing fouling and increasing the reliability of in-line solutions, as well as dramatically 
+reducing system maintenance and extending performance life.  
+VH.2  Core instrument: IR spectrophotometer with antifouling nanotexturised coating  
+The standard VISUM core device is a MEMS -based spectrophotometer that wo rks i n the SWIR range (0.9 -1.7 µm). MEMS technology guarantees not only 
+affordability [unit price can now be as low as 1 k€  depending on requirements] but also robustness –in  terms of being suitable for applications in harsh 
+environments- as well as reduced both size [volume < 100 mL] and power consumption [<10 W]. This core device shows good signal/noise ratio [better than 
+2500:1], which is sufficient for the majority of th e typical applications. In addition, the platform i s also highly scalable and offers the possibility f or a “by-
+design” option enabling the use of additional devic es depending in the specialised requirements of the  end-user and also for ensuring the VISUM platform 
+can be seamlessly updated and upgraded in line with the evolution of MEMSNIR technology.  
+VH.3  Built -in data management hardware  
+Miniaturized embedded computer  
+VISUM SOFTWARE LAYERS  
+VS.0  Cloud  database  and Application Programming Interfaces (APIs)  
+The secure cloud infrastructure will allow the data from the VISUM devices to be sent to the cloud (op tional service) and acc essible over a web application 
+(for PC and mobile interfacing)  to enable r emote access , and whereby the historical data can be mine d using data analytics tools .   
+VS.1  Built -in data management software  
+For driving the core instrument, data processing [c hemometrics modelling and prediction] communication  and the built -in interf ace, when necessary. The 
+proprietary software will be compatible with popular chemometric packages –e.g. SOLO [Eigenvector] and Unscrambler [CAMO]- in terms of easy integration 
+of predictive models generated by them if necessary. It allows users to independently build and maintain the chemometric models. For pharma applications 
+the system is pre -validated according to the regulations ( e.g. 11 CFR 21).    
+VS.2  Ad -hoc chemometrics modelling  
+While the models can be developed by the Client by using high -end th ird -party  software, the platform is intended for working on t he basis of automated 
+tailor-made robust multivariate calibration models in order to guarantee the maximum reliability and a ccuracy as well as reducing the cost for the end us er. 
+Automated assisted modelling solves the main drawbac k of applying chemometrics to process control: the intrinsic significant cost related to the predictiv e 
+models development. The system includes the latest model transfer procedures.  
+VS.3  Flexible multiplatform data inte rface  
+The result outputs (analytical data) can be sent to the Client’s data management system through a variety of methods (wifi, s tandard databuses, etc.)  
+VS.4  User programmable decision rules  
+This offers “mini -PAT” built -in capability, whereby the use r (client) is allowed to code (“scripting”/macro) its own decision rules in order to provide the decision 
+system with “action-type” data. Close-loop control can be easily implemented by the industry end users  without incurring extra costs and according their 
+production criteria through standard protocols like MODBUS or TCP/IP which easily interface with the facilities’ control syst em (SCADA).  
+APPROACH/ACTIVITIES THAT WILL BE IMPLEMENTED DURING  THE PROJECT  
+Our VISUM project follows an application-oriented product development approach , which will involve  a tight co-creation between the 
+development team and our target client base. A number of first clients have agreed to participate in the project as early adopters to permit 
+the project to either, on the one hand, use real product samples as a basis for the development, and/or provide access to their facilities 
+for industrial trials (a summary of the target applications is provided in Table 5).  
+TABLE 5- TARGET APPLICATIONS FOR THE PHASE 2 
+Company  Sector  Target  Products  Participation 
+Level 
+Parameters to be measured  Installation  
+SMEINST-07-2016-2017                     
+11 | P a g e  
+ 
+ALMIRALL  Pharmaceuticals  SEKISAN (liquid)  Provide 
+samples for 
+model 
+building 
+Target compounds: Cloperastine fendizoate [3.5 mg/m L]; Nipagin [1.22 mg/mL]; 
+Nipasol [0.18 mg/mL] 
+Blender  
+Dosage 
+filling 
+machine 
+ACECLOFENAC 
+(solid form) 
+Provide 
+samples for 
+model 
+building 
+- Dissolution test  
+- Moisture 
+- Hardness and degradation by-products 
+- Target compounds: Aceclofenac [488 mg/g] 
+ALGIDOL (solid 
+form 
+Access to 
+facilities for 
+industry trials 
+- Blending end-point 
+- Moisture 
+- APIs content 
+- Target compounds: paracetamol [300 mg/g], codeine [4.5 mg/g], ascorbic acid 
+[227 mg/g]  
+CALIDAD 
+PASCUAL 
+Dairy Smoothies (liquid) Provide 
+samples for 
+model 
+building 
+- Mixing end-point In-pipe 
+Fruit juices (liquid)  Pro vide 
+samples for 
+model 
+building 
+- pH, glucose, fructose and total acidity  
+Milk (liquid)  Provide 
+samples for 
+model 
+building 
+- Water content [expressed as cryoscopic point from 0.510 to 0.530 mK, 
+precision at 0.002 mK] 
+- Fat [0 to 7.4 %w/w] 
+- Proteins [2 to 4 %w/w] 
+ACESUR  Olive oil (and 
+olive-oil-based 
+products) 
+Sauces (liquid)  Provide 
+samples for 
+model 
+building 
+- Brix and end -point of CIP process  In -pipe (in 
+the bottling 
+line) 
+Mayonnaise (semi-
+liquid) 
+Provide 
+samples for 
+model 
+building 
+- Fat content [65% w/w] 
+Olive oil 
+(liquid) 
+Provide 
+samples for 
+model 
+building 
+- Fat content 
+- Moisture [0.04 to 0.08 %w/w, precision at 0.01% w/w] 
+SALGOT  Meat  Salamis and 
+sausages filling 
+mixture 
+Access to 
+facilities for 
+industry trials  
+- Moisture  
+- Fat content 
+- Protein content 
+At t he output 
+of the stuffer 
+line 
+DAIRYGOLD  Dairy  Milk  Access to 
+facilities for 
+industry trials  
+- Fat [0 to 7.4 %w/w]  
+- Proteins [2 to 4 %w/w] 
+In= -pipe  
+METALQUIMIA  Food 
+Processing 
+Snack Food  Access to 
+facilities for 
+industry trials  
+-  Conveyor 
+oven 
+DEC  Pharmace uticals  APIs (Confidential)  Access to 
+facilities for 
+industry trials   
+- Blending end -point  
+- Moisture 
+- APIs content  
+Blender in -
+pipe 
+Using the feasibility prototype system that is avai lable in VISUM we will undertake an initial demonst ration of the system on the 
+applications to provide test data for the development project. An iterative product development cycle will be implemented to design and 
+produce beta prototype systems that will be installed at each of our end-user sites as test cases for performance verification, the success 
+of which will confirm the acceptance of the prototy pe designs. Having validated these designs, we will  translate the prototypes to 
+product  through the creation of the manufacturing documentation package using the engineering information and specifications and we 
+will set up our manufacturing facilities and produce and quality approve the first units. In relation to methodologies that will be used during 
+the development work, our teams operate under agile frameworks, whereby Kanban is employed for hardware developments, and Scrum 
+and Test Driven Development (TDD) for software developments. Whenever creative thinking is needed, particularly for ideating specific 
+solutions that cannot be addressed by finding a simple trade-off among several technical constraints, the development will be based on 
+TRIZ (Theory of the resolution of invention-related tasks), which is a widely recognized methodology for accelerating and simplifying the 
+search for inventive and innovative solutions and a  scientifically founded approach to the forecasting  of the evolution of technological 
+systems, products and processes 6. The VISUM TRIZ Team has been properly trained by recognized members of ETRIA (European TRIZ 
+Association 7) for undertaking creative challenges associated to R&D tasks. The TRIZ approach will be particularly convenient for finding 
+flexible (versatile) designs compatible with the most of the applications to be addressed by VISUM.  
+                                                        
+6 TRIZ. Innovation and Inventive Problem Solving Han dbook", Pavel Livotov and Vladimir Petrov ©TriS Eur ope, Berlin 2014. www.tris-europe.com 
+7 http://etria.eu/portal/  
+SMEINST-07-2016-2017                     
+12 | P a g e  
+ 
+In parallel, we will implement market development activities, whereby we will further develop our business plan ( building from a 
+Business Model Canvas) and, based on planning within the framework of the classical and proven 4 Ps (Product, Pricing, Promotion and 
+Place) Marketing Mix, we will perform comprehensive activities to gear up for the Commercialisation phase.  
+HOW THE PROJECT CONCEPT AND OBJECTIVES FIT INTO THE  OVERALL PLAN TO REACH THE MARKET  
+This SME Instrument project is fundamental for real ising our overall plan for reaching the market by 2 019. VISUM® is a development 
+that requires acceleration. To date, through own internal R&D funds, we have invested ~30 months and ~€220K of our internal resources 
+in getting to TRL6/7. The ability to leverage public funds to complement our private investment will provide the acceleration platform that 
+is needed to complete the development and bridge the valley of death in going from TRL6/7-TRL9 and into the market. Through the SME 
+Phase 1 Instrument we have had the opportunity to perform a feasibility study in relation to tackling the biofouling problem and we have 
+defined the most appropriate solution to be develop ed, we have also gained greater market insights, fo rmulated a clear business 
+proposition and identified our market positioning. We have also recruited 4 beta testing end-user companies and together with them we 
+have researched their requirements and defined the system specifications. The design, engineering, model development, validation and 
+demonstration work that will be performed in the Phase 2 Project in order to test and verify the reliability, repeatability, and robustness of 
+the system hardware, software and models, as well as the operational and industrial-level performance of the VISUM® development, in 
+addition to the certification, manufacturing and co mmercialisation planning/market development work th at will be performed, are all 
+important steps of a product development on its way towards commercialisation. With an injection of funds, and by gearing up right from 
+system specifications, through design, prototyping, industry trials in compliance with all industry standards and regulatory requirements, 
+we will ensure that there are no user-, technical-, market- or regulatory- obstacles to the uptake of the technology in the marketplace. 
+HOW THE PROJECT DEVELOPS SOMETHING NEW TO EUROPE AN D ADDRESSES EU-WIDE CHALLENGES  
+VISUM® is the first flexible IR integration platfor m of its kind that will enable the affordable custo misation of PAT-oriented NIR-based 
+real-time monitoring and quality control solutions targeted at the European and global food and pharmaceutical industries (and sufficiently 
+affordable and easy to use and maintain to open up the SME sector). The ability to leverage the SME In strument to accelerate the 
+transformation of new knowledge for industry to conceive and develop new products, industrial processes and services, is an important 
+tool for creating a true Innovation Union: a Europe an Union that thanks to its research and innovation  performance can support 
+sustainable growth. 
+From the technology side , photonics is regarded as a driver of innovation and plays an important “enabler” role for many industrial and 
+customer markets. With a worldwide market value pro jected to hit €615 billion in 2020 and to remain st ronger than the gross domestic 
+product (GDP), photonics has moved from a niche application to a key enabling technology, according to Photonics Industry Report 2013. 
+The European photonics industry holds about 55 % of the world market in production technology. VISUM ® is an enabling platform that 
+will significantly increase spectroscopy adoption in industry, and in doing so it will leverage and st rengthen existing European expertise 
+in MEMs-IR spectroscopy (from European sensor providers, such as Spectral Engines from Finland and Radiantis from Spain) which will 
+help Europe to retain its leading position at the front of the field, whereby we are currently ahead of Asia or North America in sensing and 
+spectroscopy. VISUM will contribute to European lea dership in the sensing revolution by bringing a ‘Ma de-in-Europe’ solution that 
+combines all the existing technology platforms (suc h as affordable MEMs sensors, chemometrics, IoT and  cloud computing) to further 
+increase EU leadership in the photonics field.  
+From the perspective of the end-user industries , increasing emphasis on product quality and safety, and on production processes and 
+process efficiency- and on the relationship between  the two- has fuelled research and industry interes t in the development of on-line 
+detection techniques that enable detection of quali ty changes of raw materials and final product under  steady process conditions 
+3, as 
+well as fraud and counterfeit early detection. Indeed, Process Analytical Technologies are increasingly being used in the Pharmaceutical 
+industry, along with an increasing number of proces s industries, such as Food and Chemical Processing,  as enablers for in-process 
+monitoring and control, providing real time informa tion to the engineer and reducing the need for off- line laboratory Quality Assurance 
+(QA) facilities. They also provide invaluable proce ss data for increasing process understanding and kn owledge, and are an enabler for 
+the transition from batch to continuous processing,  whereby real-time monitoring is required. The pote ntial for VISUM to advance the 
+European process industries towards continuous, more flexible processing to respond to market trends for customized products as well 
+as bringing process industries into the smart manuf acturing Industry 4.0 revolution would have high im pacts for European industrial 
+competitiveness. This is in line with H2020 goals for an Innovation Union, whereby the EC is working hard to stimulate job creation and 
+prosperity as an exit from a severe economic and financial crisis. VISUM® will serve as a flagship project for contributing to these goals 
+and for the generation of much needed wealth, growth and jobs, which is Horizon 2020’s ambitions8.  
+HOW GENDER ANALYSIS IS TAKEN INTO ACCOUNT IN THE PR OJECT’S CONTENT  
+VISUM® product development will consider gender related design features to ensure the needs of female engineers and line operators 
+are analysed and any gender singularities are embedded in the design. During the co-creation process that was implemented in Phase 
+                                                        
+8 Brussels, 30.11.2011. COM(2011) 808 final. Horizon 2020 - The Framework Programme for Research and Innovation  
+SMEINST-07-2016-2017                     
+13 | P a g e  
+ 
+1, female engineers/developers and female business professionals from the technology, food and pharma industry were involved and 
+their opinions and contributions gathered. Moreover, in relation to  business behaviour and decision making, gender analysis will also be 
+important, especially in view of growing trends and  commitments to see more women occupy high level an d decision-making positions 
+in industry. The Project Manager for the project is  a female Marie Callanan) as are numerous other mem bers of the team (see section 
+4.1). With regard to the employment opportunities that will be generated in VISUM for the implementation of the innovation project, and 
+subsequent jobs through the commercialisation of th e project outputs, a recruitment policy will be in place designed to ensure a 
+reasonable level of balance between the sexes.
+1.4 AMBITION 
+NOVELTY OF THE INNOVATION BUSINESS PROJECT 
+Optical techniques using near-infrared spectroscopy (NIRS)  have received considerable attention as a means fo r non-destructive 
+sensing of food and pharmaceutical quality and safety. Compared to other non-destructive techniques, NIRS spectroscopy does not need 
+any sample preparation, allowing for simple and rap id analysis, which is a requirement for on-line app lication 3. It can simultaneously 
+measure several constituents or multiple quality at tributes . Moreover, the relatively weak absorption due to w ater enables high-
+moisture products to be analyzed 4. All these properties make the NIRS technique wide ly accepted as one of most promising on/in line 
+detection methods in food, pharmaceuticals and other areas. By plugging the ‘integration gap’, whereby we shift the emphasis from NIR 
+device to fully integrated NIR-based in-online proc ess monitoring solution tailored to the process, ou r ambition is to mainstream the 
+uptake of NIR in process industries of all sizes (including SMEs, and one of our first beta clients is a meat producing SME, SALGOT), in 
+order to enable the implementation of real-time pro cess monitoring and control for bringing the proces s industries into the Industry 4.0 
+revolution and knowledge based process manufacturing.  
+An underlying uniqueness in the VISUM platform for the European and global food and pharmaceutical ind ustries is that it is based on 
+“solution” vs. “device/instrument”, which will resonate well with production and quality managers. This is a fundamental shift in business 
+approach, whereby having a platform in place that i s readily adaptable and customisable to the process ing realities of each particular 
+industry user scenario will break the mould in terms of monitoring systems, in that the current market offering requires the user to adapt 
+their internal scenario to the constraints of the device. Some of the ‘out of the box’ solutions that are coming on the scene in recent years 
+pose problems when the samples to be predicted are measured on a different instrument or under differi ng environmental factors from 
+those used to build the prediction models, whereby the changes in spectral variations between the two conditions can make the model 
+invalid for prediction in the new system 9, requiring a complete recalibration, which is time-consuming and costly. Oftentimes this service 
+is not provided by the device provider, who special ises in the commercialisation of instruments as opp osed to solutions, providing an 
+additional barrier for end-user industries. VISUM o vercomes one of the greatest challenges/risks preve nting the adoption of in-line 
+monitoring systems in the industry, and in particul ar in the SME community- that of affordable integration . In doing so we open up a 
+major opportunity to tap into a SME market that has currently been left unattended by the larger device manufacturers.  
+EXPECTED MARKET APPLICATION THAT DIFFERENTIATES THE  PROJECT AND PROVIDES THE HIGHEST 
+ADDED VALUE 
+In relation to the key market applications, we are targeting the food and pharmaceutical process industries initially (and Table 4 
+summarises the first applications that the VISUM wi ll be validated for), and our intention is to targe t other process industry (chemical 
+processing, ceramics, minerals…) and agriculture ap plications in the post-project phase. To open up th ese applications, VISUM will 
+remove the high doorstep that traditionally prevents the adoption of NIR technology:  
+- high equipment costs  (which will be overcome by the implementation of very low-cost MEMS-NIR core sensor);  
+- complex, time-consuming and costly re-calibrations  (overcome by the VISUM calibration transfer models);  
+- challenges posed by differing and oftentimes hostile or tricky operating environments  (overcome by our tailor-made probe-
+sample interface for optimal probe-sample interaction, to avoid mismatches that can lead to major errors) 
+- fouling and device maintenance  (overcome by our novel antifouling polymer layer coating technology or online sampler unit with 
+CIP features depending on the application) 
+- integration (which requires specialised knowledge in spectroscopy and chemometrics for ensuring reliable operation in/on-line and 
+overcome by our ‘integrated-by-design’ approach to the platform that will ensure integration can be performed by engineers that do 
+not require a specialisation in spectroscopy)  
+In order to open up the tremendous benefits of NIR- based in/on-line monitoring technology to mainstrea m applications in the food and 
+pharmaceutical industry, and especially for the SME sector, VISUM is hinged on a number of key advancements:  
+1.  The integration of the latest developments in affordabl e (e.g. Spectral Engines now offers a price point of just under €1k for 
+orders of 10 sensors) , compact and reliable MEMSNIR sensors  with no macroscopic moving parts, signal/noise ratio better than 
+                                                        
+9 Robert N. Feudale, Nathaniel A. Woody, Huwei Tan, Anthony J. Myles, Steven D. Brown, Joan Ferre (2002). Transfer of multivariate calibration models: a review. Chemometrics and Intelligent Laboratory Systems 
+64 (2002) 181 – 192  
+SMEINST-07-2016-2017                     
+14 | P a g e  
+ 
+5000:1 in the most significant spectral region, spe ctral range which covers SWIR (from 0.9 to 1.7 µm),  minimum size (a few 
+centimetres) and low power consumption (<4 W).  
+2.  The tools for easily achieving better multivariate calibration models will comprise the latest advances readily implement ed in a 
+software suite that will maximize the model quality in a totally automated environment. Chemometrics will play a major role in giving 
+accurate results, by acting as a "noise rejection" filter, where the "noise" here is the sum total of all the extraneous effects that act 
+on the instrument, and through it, on the data. The  implementation of the newest chemometric algorithm s and tools in the VISUM 
+software -like efficient variable selection by Recu rsive Weighted Partial Least Squares (rPLS), the Ti khonov Regularization for ill-
+conditioned data as well as model transfer (standardization) by Stacked Partial Least Squares (SPLS) regression- will address more 
+robust predictive capabilities without increasing t ime, efforts and related cost. It is widely known t hat providing the right training 
+dataset is the most relevant cost source in IR spectroscopic-based monitoring. More powerful and efficient chemometric techniques 
+would dramatically simplify the need of collecting a huge number of spectra and their related reference values by traditional methods. 
+The end user will be capable  of automatically building excellent predictive models without requiring any expertise in Chemometrics. 
+Particularly, the Platform will comprise: a) Automa ted routines for selecting the most suitable method  among the best ones (PCR, 
+PLS, SVM, ANN, etc.) for each “training” dataset; b) Intuitive “wizards” for guiding the user along the modelling and standardization 
+(model transfer) processes; c) Automated routines for outlier detection and rejection; d) User access to define the automation settings 
+and criteria –other than the default ones 
+3.  Anti-fouling solutions based on: a) a novel layer of Thin PTFE specific polymers (non-polar compounds) coated on the surface of 
+the optical window; b) an online sampler concept fo r difficult aqueous samples. These solutions would represent a step change in 
+overcoming the fouling and contamination of the optical window, resulting in dramatically lower (~<80%) maintenance requirements 
+and replacements, as required with traditional optical windows.   
+4.  Ready-to-install capabilities : The VISUM Platform is provided with the adaptations for the most frequent sampling cases –readily 
+implemented in both hardware and software. This will result in a dramatically reduced cost (~up to 4-5  times cheaper than existing 
+commercial systems) for a fully integrated solution, which could be performed by non-spectroscopy specialized engineers.  
+EXPECTED PERFORMANCE/IMPACT ON DEFINED NEEDS  
+Companies are under increasing pressure to ensure product quality and safety and increase efficiencies. There is a big market opportunity 
+for affordable, robust and reliable real-time monit oring technology to assist EU and global food, phar ma and other manufacturers to 
+respond. When VISUM is deployed in industry and in use, it will enable reliable real-time process control based on on/inline monitoring 
+of the Critical Control Parameters (CCPs) and the Critical Quality Attributes (CQAs). The impacts for end-users against which a Return 
+on Investment will be measured include (depending on the application): ■ability to control the process and reliably determine end-point 
+(which will avoid extending processing time and red ucing or eliminating traditional QC laboratory anal ysis which stop and delay the 
+production cycle); ■ reduced dependence on laboratory off-line and post-p roduction analysis that are time consuming and requ ire 
+specialized staff; ■ standardized (or increased) product quality; ■ increased batch yields; ■ reduced process down-time (due to 
+processing problems); ■ reduced incidences of process deviations and off-spec product (leading to reduced discard and minimized risk 
+of supply of off-spec to the market); ■ greater assurance for regulatory bodies/market; ■ increased process understanding and the ability 
+to implement Quality-by-Design to increased process efficiencies.  
+As is discussed in Section 2 (and summarized in Table 7), the current commercial offering of leading NIR providers such as Foss, Thermo 
+and others, centres on the sale of devices suited t o solving universal monitoring needs that respond t o a wide market and cannot be 
+easily tailored to specific challenges faced by ind ividual processors, as they lack the necessary robu stness in relation to the calibration 
+models. Moreover, their business models are centred as instrument providers, and not as tailored solutions providers- the vast majority 
+of the instrument providers in the market do not offer integrated solutions, i.e. they do not perform integration work, nor do they develop 
+or validate the chemometric models, as their core business the sale of instrumentation. This places an important and costly challenge on 
+the end-user industry to get the device operating reliably in their line; posing a prohibitive barrier for many SMEs. Their integration services 
+in a PAT context are aimed at large projects related to huge facilities or extreme added value production lines. Consequently, an important 
+market segment –industrial SMEs needing affordable turnkey solutions- cannot access such technologies.  Furthermore, the biggest 
+players have been slow to upgrade their technologie s and adapt their pricing structure to the new cont ext; most probably given that a 
+‘business as usual’ scenario serving the higher end, more costly applications is very profitable. That said, they are beginning to take note, 
+and FOSS, for example, has recently launched the Pr oFoss in-line NIR system for dairy applications. However, end-users need an off-
+line FOSS device to calibrate the in-line system on sampling, which means that it is more than likely existing FOSS customers who will 
+upgrade to the new in-line system.  
+In conclusion, the main advantages of our VISUM® so lution with respect to competing solutions is that it provides ‘by-design’ a unique 
+solution that combines a complete set of PAT functionalities in a “plug & play” probe with an affordable price. However, as every product 
+is subject to a lifecycle including a growth phase followed by an eventual period of decline as the product approaches market saturation, 
+in order to retain the competitiveness of VISUM in the market, we will plan continuous product extensions though innovation. For example, 
+the flexible VISUM platform will be able to evolve in tune with the latest developments in terms of MEMS spectroscopy and advancements 
+SMEINST-07-2016-2017                     
+15 | P a g e  
+ 
+in chemometric knowledge to continually improve. Mo reover, our initial product is based on SWIR (1000- 1700 nm), which offers an 
+optimum trade-off between price, maturity, penetrab ility and chemical sensitivity. We will also develo p a NIR (800-1000 nm) VISUM 
+product, which will bring advantages for extended applications, whereby for example, due to the relatively weak absorption due to water, 
+NIR enables high-moisture products to be analyzed 4 as well as E-SWIR (1000-2500 nm) for extending the applications to more complex 
+matrixes. Moreover, by ensuring VISUM is cloud enabled, we have the ability to offer data services in relation to the mining and analysis 
+of historically stored data- the adoption the Big D ata paradigm in the context of process data- and as  a central enabler for Quality-by-
+Design, greater process understanding and more efficient processes.  
+2. IMPACT
+2.1 EXPECTED IMPACTS  
+A) USERS / MARKET 
+USER NEEDS THAT ARE BEING MET  
+VISUM® is the world’s first IR technology integration platform  for enabling the cost-effective and ready customisation of robust and 
+reliable in-process monitoring solutions in food an d pharmaceutical processing applications, among oth ers. It responds to an industry 
+need for improved process and quality control that requires a move away from time consuming and costly  laboratory-based 
+quality measurements and post-production quality control (QC) that do not provide processors with acce ss to information in 
+real-time, thereby delaying action that can lead to product discard, with cost and environmental implications. 
+VISUM is a timely and relevant product development,  as industry leaders and decision makers- in respon se to market, regulatory, 
+sustainability and competitive pressures- are starting to take note of the importance of real-time monitoring technology as an enabler for: 
+■process efficiencies; ■process flexibility; ■ product quality standardisation (the ability to arrive at consistent product quality that meets 
+with market expectations every time); ■reduced dependency on time consuming and off-line analytical measurements; and ■ accurate 
+determination of process end-point to avoid over-processing (which not only leads to higher production costs and increased energy use, 
+but can also result in spoiled or down-valued end-p roduct or even incidences of e.g. lumber (solid mat erials in pipes and reactor)). All 
+these benefits can have multibillion euro annual im pacts for industries. David Scott from DuPont Resea rch 10  sums it up well: “ As 
+manufacturing processes become increasingly complex , industry must rely on advanced sensor technology and process control to 
+improve efficiency and product quality. Processes now need a variety of on-line measurements ”. Given the need to achieve better control, 
+measurement of process parameters in real time is s een as vital to process understanding, industry nee ds access to fast, reliable and 
+accurate tools and methods for providing in-situ measurements 10 . 
+Beyond the holistic needs, and in order to look deeper at the specific application-centred requirements of industry in relation to in/online 
+analytical technology, during the Phase 1 SME Instr ument VISUM project, an analysis of the industry re quirements was carried out by 
+means of a Kano Survey (which was reported in the T echnical Feasibility Report at the end of the Phase  1 and was used to define the 
+system specifications) among the 4 beta clients/early adopters who cooperated with us in the Phase 1 (ACESUR, CALIDAD PASCUAL, 
+SALGOT, ALMIRALL). These and the addition early ado pters that we are now engaging with cover a represe ntative variety of liquid, 
+semi-liquid and solid foods and drugs, measurement parameters and integration scenarios (blender, in-pipe, etc.)- refer back to Table 5- 
+and they are also presentative of large, medium and  small companies. Kano is part of the Quality Funct ion Deployment (QFD) 
+methodology that we have used to collect and priori tise client expectations and needs without missing any important details. The main 
+benefit of using this methodology is the direct cor relation from customer’s language to a “black and w hite” language for developers. A 
+universal requirement- that was confirmed through t he Kano Surveys- is the need to have NIR probes tha t are suitably matched to the 
+particular circumstances of each facility. However, we also identified numerous similarities that can be exploited in terms of adapting a 
+generic solution, which is in line with the spirit of the VISUM, and that will enable us to design, fo r example, a universal sampling 
+approach  (based on similar requirements or constraints in t erms of speeds and sampling geometry (diffuse refle ctance) and common 
+challenges in relation to bubbles, foam, lumps, etc.), universal chemometrics (as the nature of the samples- powders, semi-solid and 
+turbid liquids- is similar), data exchange through an Ethernet cable is compatible with each client  and, likewise, all of them require the 
+same ingress protection (IP) grade, standard coupli ng formats can be used for the mechanical integrati on in the production lines 
+(“Triclamp” is mainly used in pharma while NW or DIN is commonly found in the food sector), among others. All these conclusions confirm 
+that there is a very real opportunity to standardize to a significant extent and consequently achieve the main goals of the VISUM platform. 
+In relation to the user needs or requirements that will be met upon completion of the project, the 20 most significant requirements from 
+the KANO Survey are provided in Table 6- each of wh ich will be fulfilled by the VISUM platform and hav e been contemplated in the 
+system specifications.   
+TABLE 6- REQUIREMENTS FOR FULFILLING CUSTOMER EXPEC TATIONS 
+                                                        
+10  Scott, D., M., 2008, Industrial process sensors. CRC Press 
+SMEINST-07-2016-2017                     
+16 | P a g e  
+ 
+No.  Requirement 
+Type of customer 
+factor Type of requirement Value 
+Importance 
+rating (0-5) 
+1 Success in classification  Basic  Non -functional performance requirement  > 90 %  3 
+2 Confidence interval in classification  Basic  Non -functional performance requirement  95%  5 
+3 Spectral range  Basic  Non -functional performance requirement  900 -1700nm  3 
+4 Measurement period will be minimized Linear Non-f unctional performance requirement <20 s for on -line 
+sampler; 1 s for inline 4 
+5 Weight lower than 3 kg (in -pipe attachment) and not 
+relevant for fixing at architectural structures  Linear Non-functional system requirement Yes (<3kg)  3 
+6 Minimum IP (ingress protection)  Linear  Non -fu nctional system requirement  IP65  3 
+7 Food grade materials in the interface with produc ts Basic Non-functional performance requirement Yes  5 
+8 Environment temperature  Basic  Non -functional system requirement  -5 to 60 ºC  5 
+9 System withstands process pressure Basic Non-func tional system requirement 6 Bar 5 
+10 System withstands process pH  Basic  Non -functional system requirement  2-12  5 
+11 Sampling port for aliquots (reference samples for 
+modelling, validation or calibration) Basic Non-functional system requirement Yes 4 
+12  HMI via software installed in PC  Basic  Non -functional implementation requirement  Yes  4 
+13 Control software will show instant measurements in 
+graphs together with acceptance limits Basic Non-functional performance requirement Yes 3 
+14  Sy stem will include data log  Basic  Non -functional performance requirement  5 Years  3 
+15  Embedded –PC wired communication s (Ethernet)  Basic  Non -functional implementation requirement  Yes  4 
+16 Models and prediction machine operate in the built -in 
+computer (probe) Excitement Functional requirement Yes 2 
+17  Software 21CFR part 11 compliance  Basic  Functional requirement  Yes  5 
+18 Software designed to allow the user to include more  
+models in the future  Basic Non-functional performance requirement Yes 4 
+19 At least prepared to measure in diffuse reflectance  
+geometry  Basic Non-functional implementation requirement Yes  3 
+20  Wireless data link for blenders  Linear  Non -functional implementation requirement  Yes  4 
+VISUM, by enabling the deployment of cost-effective and easy to install NIR-based in/on/at line monitoring solutions that through the new 
+chemometric and calibration models offered by the system, will represent a step-change in terms of reduced set-up costs and complexity 
+and will allow for true ‘out-of-the-box’ NIR soluti ons that can be installed by engineers with no need  for specialized spectroscopic 
+knowledge. This will respond to the needs of small, mid-tier and large manufacturers alike. Closing the gap between need and solution 
+should see significant uptake in on-line analysis 11 and it is in closing this gap that VISUM® will seize a very important market foothold.  
+MAIN ECONOMIC BENEFITS FOR THE USERS AND UNIQUE SEL LING POINTS 
+The main economic benefits for users, and which would drive them to invest in the VISUM® solution, are derived from: 
+• VISUM will be compatible with the most standard production machines, devices and structures. SMEs will not need to change their 
+existing equipment, devices or structures due to incompatibilities. 
+• Cost reductions due to reduced time, labour and cost intensive laboratory-based testing and manual quality inspection (which will 
+also lead to higher throughput) 
+• High improvements in production performance; VISUM provides on-line information to the operators or au tomated machines to 
+work continuously at the maximum efficiency 
+• Cost and space reductions by being able to remove/reduce stocks; companies will reduce (and in some cases completely remove) 
+the need for lab analysis of raw materials and will be able to introduce the raw material in the production chain as soon as VISUM® 
+verifies the pre-defined quality parameters are met. 
+• Savings through the effective elimination of end-of-line defects and faulty or contaminated products 
+• Savings through automated final inspection processe s to increase production efficiency, preventing the  costs associated with 
+common or repeat mistakes caused by human error  
+• Economic returns through brand idealisation and increased market share by continually ensuring the high quality of the products 
+and consequently protecting the brand.  
+If we consider the quantification of these financia l savings through analytical headcount reduction, e limination of analysis time / 
+instrumentation and reduced manufacturing cycle tim e, in the pharmaceutical industry as an example the se could be greater than 
+€400,000 for a typical pharmaceutical manufacturing facility with circa 30 batches manufactured per annum. Moreover, VISUM could go 
+a long way towards reducing rejections in the pharm aceutical industry, the impact of which is in the o rder of billions of euro, especially 
+as waste or rejection rate of 10%, unacceptable in most other industries, is considered good in the ph armaceutical industry (according 
+to Centre for Drug Evaluation and Research or CDER)12 . Batch rejects that result from process problems can be higher than 20% , the 
+root cause being a lack of process understanding and control . Batch rejects can be a major issue as some APIs c an be worth as 
+much as $1million / kg.  
+                                                        
+11  Robert N. Feudale, Nathaniel A. Woody, Huwei Tan, Anthony J. Myles, Steven D. Brown, Joan Ferre (2002). Transfer of multivariate calibration models: a review. Chemometrics and Intelligent Laboratory Systems 
+64 (2002) 181 – 192 
+12  Contamination in the Pharmaceutical Industry. Risk News. Issue 18, February 2006 
+SMEINST-07-2016-2017                     
+17 | P a g e  
+ 
+The Unique Selling Points (USPs) of the VISUM platform vs. the current commercial offering , that will spur users (SME decision 
+makers, and Quality Manager and Production Managers  from large corporations) to invest in a real-time monitoring solution are: 
+■Affordability  (~ €10-35k for a standard unit, which is highly co st competitive for bringing the power of a lab-NIR into the production 
+line); ■ Tailor-made solution (whereby ‘solution’ means completely customised to the clients requirements and verified as ‘fit for 
+purpose’); ■Robust and reliable (the offering of a tailor-made ‘probe-sample’ interface to overcome the limitations of generic systems  
+that do not adequately fit/match each particular product line or monitoring challenge leading to mismatches that are the source of major 
+errors); ■ No biofouling (via a novel layer of Thin PTFE specific polymers ( non-polar compounds) coated on the surface of the optical 
+window or an online sampler concept for difficult aqueous samples). 
+DESCRIPTION OF THE MARKET 
+Our VISUM IR-in/on-line monitoring solution is targ eted at the European and global food and pharmaceutical (initially), as well  as 
+chemical and other process industries . These are high growth industries that are being i nfluenced by global drivers such as the 
+population increase, raw material demands coupled with the commercial need to deliver year on year growth and efficiency savings, and 
+the increasing realisation that while emerging econ omies strive for growth through low cost manufactur ing, western or established 
+economies must compete through productivity and new  technology 13 . In addition to competing, global economies must b ecome more 
+sustainable and less wasteful of natural resources in order to be sustainable 13 .  
+Looking specifically at the Food and Drink industry , in the Europe alone, there are an estimated 310,0 00 companies generating an 
+annual turnover in excess of €965 billion and provi ding employment to >4 million people. 14  Globally the industry is expanding rapidly to 
+keep up with growing demand. Key to the competitiveness of the industry is the ability to maintain a high level of food safety and quality 
+standards 15  in line with consumer, market and regulatory requi rements. In order to improve the performance of foo d manufacturing 
+processes and the quality of food products, there i s growing industry interest in process sensors and in model-based monitoring and 
+control methodologies 16 . This highlights the enormous market opportunity t hat is open for the adoption of the VISUM inline so lution, 
+especially as it will deliver an affordable, easy to use and reliable system to this highly price sensitive market. Improvements in process 
+efficiency, reduced product variability, enhanced t raceability, process understanding, and decreased r isk of contamination are some of 
+the benefits that will arise from the introduction of the VISUM in food processing. During the industry case studies that will be performed 
+in 3 food processing companies through our Phase 2 Project, Return-on-Investment cases will be made.  
+Similarly, in the context of the pharmaceutical industry , which is one of the fastest growing industry sect ors in the world today 17 , EU 
+and International 18  regulatory bodies are encouraging the drug lifecycle concept that links product and process development, qualification 
+of the commercial manufacturing process, and mainte nance of the process in a state of control during r outine commercial production, 
+whereby access to real-time on-line measurements is  fundamental. The “Process Analytical Technology” ( PAT) paradigm that is being 
+promoted by the FDA (Food and Drug Administration in the US) and the EMA (European Medicines Authority) is based on improving final 
+product quality by process design through knowledge of the fundamental scientific principles behind it, and continuous online control of 
+a process. The worldwide market is very lucrative for pharmaceutic al producers and also for equipment suppliers, serv ice 
+providers and consultants 19 . VISUM will play a major role as a PAT technology for pharmaceutical applications. The advent of generic 
+drugs has changed the paradigm of high margins asso ciated to IP rights; therefore, drug manufacturers have to base their profits on 
+savings such as the ones enabled by PAT. Moreover, the drive towards continuous manufacturing in the p harma sector (which lags 
+behind other industries, with significant emphasis on batch processing) lends itself to increased adop tion of in-process monitoring and 
+control systems, such as VISUM. The VISUM system co uld also have benefits for R&D in the pharma sector , whereby online analytics 
+in pilot facilities could accelerate developments. Given that the cost of researching and developing a  new chemical or biological entity 
+was estimated at € 1,172 million in 2012 20 , the drivers to invest in robust technology to reduce R&D costs are certainly there.  
+Finally, if we look at the chemical industry (which  will be a post-project target market for the VISUM ), in Europe the industry has a 
+production value of €527 billion, within a worldwid e total estimated by CEFIC as €3.1 trillion (2012).  These industries contribute to 
+European economy through an export share of 43%. Since the Process Analytical market supports this market growth, VISUM will have 
+a knock on effect. While European sales values have  doubled, its global market share has halved due to  competition from developing 
+low cost economies, hence there is a specific EU ma rket need to become more competitive through techno logy. In conclusion, we are 
+targeting lucrative and global markets through our initial (and post project) applications 21  and the drivers to invest in the VISUM open up 
+an attractive business opportunity.  
+                                                        
+13  Richard, J. Tweedie. Process Analytical Instrument ation, the challenges for in-situ characterization of Complex Particulate Materials. Procedia Engineer ing 102 ( 2015 ) 1714 – 1725. The 7th World Congres s on 
+Particle Technology (WCPT7) Process 
+14  Nurturing the competitiveness of the European food  industry (07.10.10) Enterprise & Industry magazine  (http://ec.europa.eu/enterprise/e_i/index_en.htm), © EU, 2008 - 2010 
+15  Commission Decision No 2008/359/EC of 28 April 200 8. 
+16  Process Analytical Technology for the Food Industr y (2014). Editors: O'Donnell, Colm P., Fagan, Colette, Cullen, P.J. (Eds.). Springer (2014) 
+17  http://www.efpia.eu/uploads/Figures_2014_Final.pdf  
+18  FDA, Guidance for Industry, Process Validation: Ge neral Principles and Practices 
+19  Pharma Plant Engineering: Trend To Disposables in Biopharmaceutical Manufacturing. Pharma Times-Vol 4 1- No.11- Nov. 2009 
+20  Mestre-ferrandiz et al, Office of Health Economics , December 2012 
+21  http://www.companiesandmarkets.com/r.ashx?id=55F9K2 034700353   
+SMEINST-07-2016-2017                     
+18 | P a g e  
+ 
+MAIN COMPETITORS AND THEIR COMPETITIVE SOLUTIONS 
+In the field of ‘all-purpose’ NIR lab-analysers, there are numerous big players such as Thermo, Foss, ABB, Sartorius, Bruker, PerkinElmer 
+and Buchi, each with years of experience and a larg e customer base. Very recently, a number of manufac turers are offering NIR 
+spectrometers sold as “out of the box” solutions (T able 7), which are marketed as solutions whereby th e user only has to switch the 
+equipment on, select an application, present the sample and press the run button and out comes the predictions.  However, these solutions 
+have been designed for solving common monitoring ne eds for wide markets and cannot be painlessly adapt ed to new more specific 
+challenges, as they lack the necessary robustness i n relation to the calibration models. Even in cases  offering more flexible and non-
+specific configurations, the economical effort associated with the integration can be barriers for SMEs.  For example, FOSS has recently 
+launched the ProFoss in-line NIR system for dairy a pplications. However, it requires an off-line FOSS device to calibrate the in-pipe 
+device.  VISUM overcomes this through the automated/assisted , but high quality, model builder , which is a must in terms of providing 
+affordable integration capabilities within non-specialised work.  
+TABLE 7- VISUM PLATFORM- COMPARATIVE ANALYSIS OF MA IN COMPETITORS 
+Manufactu 
+rer  
+Model  Target 
+Applications  
+Built -in 
+computing  
+Integrated 
+chemometric  tools  
+Built -in process 
+control interface  
+Wireless 
+comm.  
+Power 
+autonomy  
+Antifouling 
+solution  
+Price  
+Büchi  NIR -Online  All  No  No  No  No  No  Blower  50 k € 
+NDC  On -Line NIR  All  No  No  No  No  No  No  45 k € 
+Bühler  Multi Online 
+Analyzer 
+MYRG  
+Food -for Bühler 
+machinery only  
+No  No  Yes  No  No  No  40 -50 k € 
+Foss  ProFoss  Pharma and 
+food (dairy)  
+No  Yes  Yes (OPC)  No  No  No  55 k € 
+Thermo  Antaris 
+Target  
+Pharma 
+(blendin g)  
+Yes  No  Yes  Yes  Yes  No  45 k€ 
+Sentronic  SentroPAT 
+FO 
+ 
+All  Yes  No  No  No  Yes  No  50 k€ 
+Perten  
+PerkinElmer  
+In -line DA 
+7300  
+Food (grains, 
+flours)  
+Yes  No  No  No  No  No  45 k € 
+Bruker  Matrix -F All  No  Yes  No  No  No  No  50 -80 k € 
+Kemtrak  DCP007 -NIR  All  Yes  No  Yes  No  No No  30 -40 k € 
+VISUM  Online  All  Yes  Yes  Yes  Yes  Yes  Yes  10 -35 k € 
+From Table 7, we can see that VISUM is the most complete and flexible offering (the green cells highlight positive features) compared to 
+competing solutions and aims to offer an excellent price-functionality/feature ratio: ■it is not close d in terms of applications; ■the 
+instrument housing comprises the spectrometer and a  standalone computer for generating the ultimate ou tputs to the production-line 
+control system; ■a complete, updated and easy-to-us e chemometric package is integrated into the built- in computer for allowing the 
+users to develop their own models; ■ no prior background in chemometrics is needed as the user is guided step-by-step; ■ the computer 
+can automatically generate actions –according to the predictions- in order to drive the process in a c losed-loop; ■ the system can two-
+directionally communicate with external devices through a wireless channel; ■ the system is powered by  batteries whenever needed –
+especially for standalone use on moving machinery; ■ the window is protected against fouling; ■ the system comprises a customizable 
+online sampler if sample conditioning is needed (we  will aim to develop a “template” suitable for some  common cases to be defined in 
+WP1. Such a template would be case-wise upgraded according to the client needs (in the commercialization stage). 
+MOST RELEVANT MARKET SEGMENTS FOR INTRODUCTION OF T HE NEW SOLUTION 
+The VISUM will be fully deployed in our ‘beta clien t’ group (METALQUIMIA, DAIRYGOLDPASCUAL, SALGOT, ALMIRALL) during the 
+Phase 2. These companies will serve as powerful end orsers of the VISUM® in the meat, dairy, olive oil and pharmaceuticals industry. 
+Thanks to our ability to leveraging these application case studies (and to have lighthouse clients in each of these food segments and in 
+the pharma industry), in Phase 3 Commercialisation phase (from Jan 2019 onwards) we will commence the active targeting of additional 
+food segments and pharmaceutical applications in Sp ain, Ireland, and other selected markets as discuss ed below, and progressively 
+from 2020 onwards we will enter other EU and global markets.  
+MARKET BARRIERS TO BE OVERCOME 
+The main barriers preventing uptake of NIR in the industry for in-process monitoring are  complexity and cost of integration, and calibration 
+and model maintenance. Evidence-based application notes (including ROI quantifications), whitepapers and publications from the project 
+will be powerful documents for demonstrating how VI SUM® overcomes these technical barriers. From a reg ulatory context, the most 
+significant market barriers to entry will be standards and validation requirements and in particular in pharma applications. In Phase 1 we 
+analysed all regulatory requirements with our first  beta clients and as such we will ensure pre-valida tion according to regulations (e.g. 
+CFR 21, Part 11…) as discussed in Section 2.2).  
+TARGET USERS AND HOW THEY WILL BE REACHED 
+The targeted users of the final VISUM solution are food, pharmaceutical (and chemical companies in the post-project phase), including 
+from SMEs to large enterprises. This is a global an d growing market. Our first effort will focus on ac tively targeting the headquarters 
+SMEINST-07-2016-2017                     
+19 | P a g e  
+ 
+(HQs) of large-size companies in the Food, Pharma and Chemical industry , which have been defined as the early innovator group , 
+due to a) their high production volume justifying an investment in an in-line monitoring solution; b) the probability of follow-on contracts is 
+high for large-size companies: once first in-line m onitoring units are successfully tested, the probab ility is high that they ask for further 
+units to roll-out inline monitoring in their international production plants. VISUM will establish direct contact with HQs as they are usually 
+in charge of implementing new technologies and proc ess improvements. The HQ locations of the Top100 co mpanies in the food 22 , 
+pharma 23 , and chemical 24  (3)  industry are presented in Table 8. The majority of  HQs for all three sectors are located in the EU (m ainly 
+Germany, Switzerland, France, UK and Italy), North America (US and Canada) and Asia (mainly Japan and India, and China). 
+TABLE 8- HQ LOCATIONS OF TOP100 FROM FOOD, PHARMA A ND CHEMICAL PROCESSING INDUSTRIES 
+ 
+Selling VISUM INLINE involves selling the hardware equipment, the device calibration (acquiring spectra of client samples, conducting 
+laboratory referential analysis and elaboration of predictive models) and integration in the production line (engineering). Due to a relatively 
+high service proportion, direct contact with important clients will be crucial.  For this purpose, IRIS has plans to open regional offices (and 
+we already have offices in Dublin, Barcelona, New Y ork and San Francisco) to acquire high-priority cli ents, establish agreements with 
+distributors, manage distributors and deliver the service part during and after the acquisition process. Distribution roll-out will take place 
+in two phases as is described below under the heading ‘Strategy plan for commercialisation of the business innovation project’ . IRIS has 
+an experienced Sales and Marketing Department and the experience to effectively reach the decision makers (Plant Managers, Quality 
+Managers, Production Managers, R&D and Innovation D irectors) in the process industries is present. Tar geted communication 
+campaigns to companies from VISUM existing client-b ase and networks (which include such large industri es as GSK, SANOFI, 
+ALMIRALL, DSM, P&G, MEGARA RESINS, DAIRYGOLD, NESTLE, DAWN MEATS, among others) and new prospective customers will 
+be designed (via electronic mailings, paper mailing s, personal/face-to-face communication…), and throu gh the channels of our 
+distribution/sales agents (discussed below). Prospe ctive customers will be found using a combination o f technical presentations at 
+conferences and exhibitions and our website with application note/examples, among others (listed in the Communication section below).  
+B) COMPANY  
+RELEVANCE, RATIONAL AND ALIGNMENT OF THE INNOVATION  BUSINESS PROJECT WITH OUR BUSINESS 
+STRATEGY  
+The VISUM innovation project is at the core of our strategy to becoming a world leading provider of ad vanced monitoring solutions for 
+the food, pharma and other process industries. Sinc e its beginnings, VISUM has been active in the tran sitioning of spectroscopic lab 
+analysers to on-line applications for real-time mon itoring within the framework of European R&D projec ts, and as part of B2B bespoke 
+solutions for food and pharmaceutical companies in Spain and Ireland. Based on extensive engagement with industry over the years, we 
+have identified a clear market opportunity for customised monitoring technology that shifts the emphasis from “device” to “fully 
+integrated solution”  based on tailoring the device to the line and to the specific operating environment of the client. Central to the ability 
+to mainstream customised and affordable monitoring solutions for industry, is a flexible and reliable technology platform based on state-
+of-the-art low-cost MEMS spectroscopic probes, combined with built-in data management software and the latest in chemometric model 
+advancements for facilitating rapid calibration of the VISUM hardware for easy set-up and customisatio n to the client monitoring needs 
+and industrial environment. The VISUM solutions are a major opportunity for us to grow our company, which specialises in spectroscopy 
+solutions. The project has the full backing of our Management Board and is considered as a strategic project for advancing our technology 
+development roadmap, the implementation of which is intrinsic to ensuring the future growth of our com pany. The Board has approved 
+further internal funds for VISUM ® for investing the necessary 30% co-funding required to supplement the SME Phase 2 Instrument and 
+ensuring we have funds to cover the commercialisati on phase. A Business Model Canvas has been provided  in Annex 2 (which 
+summarises our current business plan, which will be built on through Task 5.2).  
+GROWTH POTENTIAL OF THE SOLUTION 
+During the Phase 1, we dedicated considerable effor t to developing our business plan for the VISUM® pr oduct. During this period, we 
+engaged in extensive field research, whereby we attended exhibitions and conferences (BTA Barcelona Food Technologies, Global Food 
+Safety 2015, ACHEMA 2015, Anuga Food Congress, PharmaProcess, IFPAC), made individual company visits and conducted face-to- 
+face meetings with future clients. We also attended the Photonics West Exhibition in San Francisco earlier in the year in order to review 
+                                                        
+22  http://www.foodengineeringmag.com/global-top-100-food-&-beverage-companies 
+23  https://www.google.com/fusiontables/DataSource?docid=1uEZuNGJlP68Imym7zAVT-XHXwhHdvs2lT5L6iNs#rows:id=1   
+24  ICIS Chemical Business 
+Area % Area Main countries % Area Main countries % Area M ain countries % Area Main countries 
+EU 31% FR(7), DE(5), UK(5) 36% DE(6),CH(6), FR(4), IE(4 ), IT(4) 30% DE(11),CH(7) 32% DE(7),CH(5), FR(5), UK(3) , IT(3) 
+North America 41% US(37), CA(4) 23% US(22) 32% US(29) 32% U S(29), CA(3) 
+Asia 21% JP(16), China(3) 38% JP(26), India(7) 34% JP(15) , SKorea(5) 31% JP(19), India(3) 
+South/CentralAmerica 6% BR(3), MX(3) 1% 3% 3% 
+Other 1% 2% 1% 2% 
+TOTAL 100% 100% 100% 100% 
+FOOD + PHARMA + CHEMICAL FOOD PHARMA CHEMICAL 
+SMEINST-07-2016-2017                     
+20 | P a g e  
+ 
+current spectroscopy technology and others, such as fluorescence. We also brought a world renowned NIR expert, Dr. Emil Ciurczak 25  
+(widely known as the ‘NIR Prof’ and internationally recognized) over to us from New York in June 2015 in order to spend 3 days mentoring 
+senior management in relation to market strategy an d the business aspects of NIR-based solutions comme rcialisation, whereby he 
+advised us on such aspects as pricing, and gave expert insights into the status of Process Analytical Technology adoption in the industry, 
+as well as current regulatory frameworks. He also p rovided training courses to our engineering staff i n aspects such as engineering 
+challenges, sampling, integration, etc. All these e xperiences and the feedback that we have had from i ndustry have strengthened our 
+belief in the VISUM offering and the associated business opportunity.  
+Since 2011 we have commenced our strong specialization in spectroscopy-based advanced monitoring solutions by developing ad hoc 
+solutions for clients in the food and now more rece ntly the pharmaceutical industry. The VISUM platfor m concept is born out of our 
+industry experience and an understanding of the cha llenges and opportunities in relation to a revoluti on in real-time monitoring and 
+advanced control that is undoubtedly going to take place as Industry 4.0 concepts take a real foothold  in the process industries- which 
+primarily include food & beverages, pharmaceuticals , chemicals, oil & gas, among others. Increasing ma rket demand for high quality, 
+consistent or uniform end products in process industries, as well as for value added and customized products (which involve increasingly 
+complex processes and also require increasing flexi bility in manufacturing procedures), as well as ind ustry need to reduce downtime, 
+and to ensure safety and security for plant operators, are all fuelling the growth of the Sensing, Monitoring and Control market. The Global 
+Sensing, Monitoring and Control market was estimated to be worth €377 BN in 2015, with the European market being worth €122 BN 26 . 
+With a projected growth of 7% per year in the Monit oring and Control segment and 6% in the Sensing seg ment, projections to 2020 
+estimate the Global Market to reach €524 BN by 2020, with Europe reaching €171 BN. These volumes are highly achievable, in view of 
+a huge and growing market opportunity for robust, r eliable, affordable, and readily integratable IR sp ectroscopy based chemical 
+monitoring solutions.  
+We have defined our sales target for the first 5-year commercialisation period (i.e. from 2019 to 2023). Over that period, we aim to install 
+~1000 units in processing lines/facilities in food, pharma and other process industries in Europe and globally (Table 8). Based on market 
+analysis work we performed during the Phase 1 proje ct, we can confirm that this is an achievable and r ealistic target, considering the 
+strong industry demand for real-time monitoring and QC systems (and also considering that some of the larger clients will acquire multiple 
+units for multiple lines, processes and sites. It is expected that the global market will offer high growth potential for the medium to long-
+term as our international distribution networks kick in (with high growth markets in the longer term being Asia where increasing processing 
+activity and rising standards will drive market demand for affordable solutions), whereby we expect a situation beyond 2023 that will see 
+2:1 international vs. European sales. The maintenance contracts and chemometric upgrades (known as ‘models maintenance’) will also 
+be an area for sustained growth, as will revenue se cured through offering data analytics services (to mine the historical data stored on 
+the cloud).  
+By 2023, we expect to have generated a cumulative t otal (Table 9) of €29.25M from unit sales and €13.3 5 M in service contracts (data 
+services, model development, maintenance contracts,  etc.). These figures have been calculated based on  an average sale value of 
+standard installed VISUM solution being €22.5k. Rev enue will also be generated from Lifetime Maintenan ce Contract costs per unit 
+(based on typical averages for industrial analytical instrumentation), and income from data services (data analytics contracts and model 
+building), which will be a high growth area for the future. Based on a present day turnover of € 4.8 M in IRIS, VISUM® will allow IRIS to 
+increase its turnover >4-fold by 2023 and grow its workforce by an additional ~39 staff. An average 35 % gross margin will yield gross 
+profits for period of almost €13.7 M, which will provide revenue for further investment in technological improvements and new applications 
+for further growth in relation to widening the rang e of specifications for accessing to a larger varie ty of applications. In this sense, it is 
+envisaged that the VISUM specs could be extended in terms of higher and lower environment temperature limits (e.g. from -20 to 90 C), 
+sampling rate (faster, e.g. <1 mS acquisition time) , and simultaneously keeping or improving S/N- to b e used in intensified processors, 
+which require faster PAT tools, wider wavelength ra nge (from SWIR (0.0-1.7 um) to E-SWIR (0.9-2.5 um)) , ability to acquire more 
+chemical information and consequently extending the applicability to more “difficult” samples and, finally, more sophisticated chemometric 
+tools, by including the latest mathematical achievements derived from the development of machine learning (artificial intelligence) state-
+of-the-art, with algorithms such as SVM (support vector machine) and SGD (Stochastic Gradient Descent). 
+TABLE 9- VISUM UNITS DEPLOYED IN EU AND GLOBALLY & REVENUE GENERATION 2019-2023  
+  
+                                                        
+25  Emil Ciurczak since works with IRIS as an in-house consultant and his CV is included in Section 4.1 
+26  Jorge Perieia (2007). Monitoring and Control. Toda y’s market and its evolution till 2020. Final Report of the Study SMART 2007/047. European Commission Information Society and Media.  
+2019 2020 2021 2022 2023 Total 
+New 
+Jobs Margen 
+Number of units sold in Europe 20 60 130 230 360 800 
+Number of units sold in US 5 25 70 140 260 500 Installed system (based on average for fully standa rd installation 
+@€22.5 k) € 562,500 € 1,912,500 € 4,500,000 € 8,325,000 € 13,95 0,000 € 29,250,000 27 €9,371,250 
+Service contracts: data servcies, additional models , software upgrades, 
+maintenance contracts € 168,750 € 669,375 € 1,800,000 € 3,746,250 € 6,975,000 € 13,359,375 12 €4,382,438 
+Total € 731,250 € 2,581,875 € 6,300,000 € 12,071,250 € 2 0,925,000 € 42,609,375 39 €13,753,688 
+SMEINST-07-2016-2017                     
+21 | P a g e  
+ 
+HOW THE COACHING SERVICES OF THE SME INSTRUMENT WIL L BE USED 
+During the Phase 1 project, experts at Enterprise I reland (EI) performed an Innovation Diagnostic on o ur company that yielded above 
+average results (which was to be expected based on the vast innovation management planning and continuous improvement approach 
+of our company in the preparation for securing- and  now for maintaining - ISO 9001:2008 and UNE-EN-ISO 166002: Management 
+Systems R&D&I certification ). The VISUM Management team in conjunction with the E I experts, consider that coaching services 
+focussed on commercialisation activities would be very valuable. This coaching would focus on defining the ‘Compelling Value Proposition’ 
+and the Promotion, Placing and Pricing aspects. Thi s information would help design and drive a focusse d marketing campaign for 
+VISUM®. 
+FUNDING REQUIREMENTS FOR REACHING COMMERCIALISATION  STAGE 
+There are 3 key stages to 
+the commercialization: 1) 
+Start selling  (we will 
+leverage the Phase 2 
+project to gear up to this so 
+that first sales can 
+commence in the 
+immediate post-project 
+phase); 2) Expand the 
+sales effort and 
+applications support and 
+rapidly increase 
+distribution network ; 3) 
+Going global - creating a network of centres and support. Table 10 provides an overview of the costs in the 1
+st  year post-project . The 
+financial mix will be own funding and mainly revenu e from first sales, whereby based on targeted sales  of 25 units (i.e. 2019), we will 
+generate a sales revenue of an estimated €731k. How ever, if first year sales to do match targets, our financial mix will be own funds 
+combined with other external funds (bank loan, regional funds (e.g. ESIF smart specialisation funding) or an investment round if needed).
+2.2 MEASURES TO MAXIMISE IMPACT 
+A) DISSEMINATION AND EXPLOITATION OF RESULTS  
+KEY STAKEHOLDER INVOLVEMENT FOR SUCCESSFUL EXPLOITA TION  
+The following stakeholders have been identified for  their possibility to add value and to facilitate t he commercial exploitation of the 
+VISUM® platform: ■ Additional beta clients from different food segments, pharmaceutical proces sing (and chemical industries) who 
+will enable us to create additional application stu dies and Business User Cases;  ■ Reputable and effective distributors and sales 
+agents for building our European and global commercial net work, along with OEMs  (e.g. Metalquimia) that could be interested in 
+integrating VISUM into their equipment to create a ‘smart’ or ‘intelligent’ equipment offering; ■ Industry Associations and Clusters who 
+can provide a very powerful pathway to their member s. They also enable active engagement with policy m akers and in helping the 
+industry and policy-makers to work together towards common goals in relation to process efficiency, quality, safety, sustainability, etc. ■ 
+MEMS-NIR sensor providers , whereby VISUM® provides them with an integration partner to mainstream the adoption of their sensors 
+in in-process industry applications. ■Equipment certification consultants to facilitate all the steps involved in obtaining c ertifications; 
+■ Renowned academics and industry influencers  who can independently test the VISUM platform and publish/disseminate the results.  
+FURTHER STEPS NEEDED BEFORE THE RESULTS ARE MARKET READY  
+Our approach to the planning the steps to being market ready has centred on the well-established 4 Ps Marketing Mix- Product, Price, 
+Promotion, Place  (Table 11), which we have used as a framework to m ap out the necessary actions and measures to ensure  we are 
+well prepared to successfully reach the market with our VISUM product (based on past experience we know this is a robust and complete 
+approach to planning a pathway from product to market). Through WP5-Gear up to market , we will implement, build on and further detail 
+plan of activities.  
+TABLE 11- 4 PS MARKETING MIX APPLIED TO THE VISUM P HASE 2 AND THE POST-PROJECT PHASE 
+4 Ps Marketing Mix  Related Project activities  Related Post -project activities  
+Product  (product 
+functionality and 
+features, services, 
+brand, etc.)  
+■ Structure the value proposition of our  new product (to validate and 
+improve our value propositions we have formulated).  
+■ Draw up the product datasheets that will outline the key information 
+■ Plan and implement a Roadmap of 
+product/service improvements and additional 
+features for effective product lifecycle 
+management  
+TABLE 10 - FUNDING RE QUIREMENTS FOR REACH ING COMMERCALISTAION  PHASE  
+Setting up the manufacturing and warehousing facili ty (conditioning work in IRIS facilities) €35,000 
+35 units will be built in the post-project year to serve first orders and build up a stock inventory ( average manufacturing cost is 6k/unit) €210,000 
+Additional costs associated with securing certifica tions, validations, etc. (ISO, ATEX, CE mark) €15,000 
+Building the extended sales and distribution channe ls €22,000 
+Product marketing/promotion (including product laun ch and exhibitions) €80,000 
+Investment in the first sales effort (travel client  visits, sales support costs, e.g. lab tests, etc.) €30,000 
+Staff costs (full and part-time production team, ap plication team, sales team, management team) €500,00 0 
+Overhead costs (contribution to rent, admin, utilit ies, etc.). €100,000 
+Shipping, packaging, insurance costs for deliveries  to serve orders €6,250 
+Expected installation costs associated with first y ear units sold (approx.25 units envisaged in 2019) € 58,500 
+After sales support on units installed €29,250 
+Total costs in first year of commercialisation €1,08 6,000 
+SMEINST-07-2016-2017                     
+22 | P a g e  
+ 
+■ Create product brochures outlining applications (th e applications that 
+have been validated in this project and additional applications), 
+highlighting the benefits, etc.  
+■ Define the services that support the product (main tenance service, 
+customisation services, upgrades to the software an d models, data 
+services and consultancy based on sensor use and data understanding). 
+ 
+■ Brand building activities to strengthen brand identify.  
+■ Implement new applications development plan 
+(additional foods and beverages, additional 
+pharmaceutical applications, chemical industry, 
+bioprocessing, etc.) 
+Price (price lists, 
+discounts, margin, 
+credit terms, etc.)  
+■
+ Finalise and validate 2019 price list based on our manufacturing and 
+logistics costs, required margin to have a profitable business, necessary 
+margin for distributors/sales agents, and desired pricing positioning vis-
+à-vis market tolerance and competitors (we have ini tially estimated the 
+expected price for an average installed unit at €10 -35k- based on our 
+existing technology and market experience).  
+■ Define our pricing policy in relation to discounts, credit terms, etc.  
+■ Review and maintain pricing .  
+Promotion 
+(Communication, 
+Advertising, Sales 
+Promotion, etc.)   
+■Exhibition at 4 tra deshows ( e.g. Alimentaria, FoodTech , ANUGA , 
+ACHEMA, EXPOQUIMIA, etc.) 
+■ Presentations at 2 exhibitions/conferences (e.g. Global Food Safety 
+Conference, Annual European Food Manufacturing & Sa fety Summit, 
+Pharma Process, APACT, EuPAT…);  
+■Publishing at least 4-6 articles in industrial/sec toral channels 
+(technical/sectoral magazines, etc.) and in peer reviewed journals (2-3). 
+■Publishing at least 2 whitepapers and at least 4 a pplication notes on 
+the product page of our website, etc.;  
+■ Write 4 own blogs that will be published on our website and promoted 
+via our social media accounts and write at least 2 feature blogs as guest 
+bloggers on relevant on-line sources  
+■ Design and implementation of a social media campa ign (whereby we 
+will for example publish regular tweets- at least 1 per week, whereby we 
+are disseminating our own content or related content of third parties- e.g. 
+content in relation to product quality and safety, Industry 4.0, PAT, etc.). 
+■ Preparation of at least 3 press releases over the course of the project 
+(one at project launch and 2 more to coincide with key milestones).  
+■ Creation of promotional materials (webpage, leaflet, posters, banners, 
+QR code, video and virals, etc.)  
+■ Organise o fficial product launch (along with a 
+press conference) 
+■ Roadshow of exhibitions and tradeshow 
+■ Presentations at conferences 
+■Publishing regular articles in industrial/sectoral 
+channels and in peer reviewed Journals 
+■Publishing regular whitepapers and additional 
+application notes on website, etc.;  
+■Advertising via digital ad campaigns  
+■Sponsorship of selected industry focussed 
+conferences/events;  
+■ Active PR campaigns (e.g. whereby we will 
+aim to reach out to industry influencers who 
+could be a powerful source of reviews) 
+■ Regular publishing of feature blogs as guest 
+bloggers in on-line sources;  
+■ Sales promotion: e.g. we will use this tool for 
+our launch campaign- discount for companies 
+that place orders during the launch period, sales 
+promotions linked to exhibitions, etc.    
+Place (Distribution 
+Channels, 
+Coverage, 
+Inventory, Logistics, 
+etc.) 
+■
+ Establish manufacturing and associated logistics (Task 4.4) -the first 5 
+product units will be produced and quality assured. 
+■ Establish and train internal Sales Team (Our sales  staff will play a 
+major role in promotion (see above) of the product,  and in the Phase 2 
+they will be trained fully on the VISUM. 
+■ Establish Application Team (who will support the Sales Team)  
+■ Set up First Tier Distribution network (identification and negotiation) 
+■ Establish agreements with shipping companies for transportation and 
+insurance companies  
+■ Build product stocks  
+■ Set up warehousing inventory 
+■ Set up second tier distribution network 
+STRATEGY PLAN FOR COMMERCIALISATION OF THE BUSINESS  INNOVATION PROJECT  
+Our commercial strategy  is to commercialise the VISUM system through own commercialisation . Marketing process sensors is a 
+specialist business. In-situ process sensors typica lly have an extended sales pipeline, with considera ble upfront customer interaction, 
+evaluation and testing, and due to the nature of the process manufacturing industries, process analytical systems require some level of 
+customisation, and they also need to be integrated (and especially as we are offering a turnkey solution) and ongoing support has to be 
+ensured. Even while the VISUM platform will facilitate the integration work (and this is one of its Ke y Value Propositions), some degree 
+of installation and ongoing support has to be ensured. As such, there are two key aspects of the business plan: a) the creation a specialist 
+Application Team  (to support Sales) and, b) the upfront development  of a Network of Distributors and Agents  to open up sales in 
+European and international markets.  
+Under the leadership of the CEO, the core Sales Team in  VISUM will be nominated and trained. In parallel, the Application Team  will 
+be created and will be composed of dedicated engine ers who will provide support to the sales team by t esting materials (e.g. samples 
+from prospective clients and for building new appli cation notes), performing detailed site visits, whe re required, providing advice and 
+support during system installation, providing training, and handling both site and remote customer support. In relation to our own current 
+and planned geographical presence (figure 3), VISUM  currently has production and commercial facilities  in Ireland (which allows us to 
+serve UK as well) and Spain (which enables us to se rve Portugal and Italy), and as part of our further  internationalisation strategy we 
+SMEINST-07-2016-2017                     
+23 | P a g e  
+ 
+have recently opened 
+technical/sales offices in US 
+East Coast (New York City) and 
+West Coast (San Francisco). 
+Our plans for 2016/2017 are to 
+open offices in Germany (that 
+will also serve Switzerland and 
+Austria), France (which will 
+serve Benelux), Japan (for our 
+Asian presence) and Mexico. In 
+relation to establishing a 
+network of distributors and 
+agents to help us build sales, 
+and to provide a 
+local/regional point of 
+contact for customers and 
+follow up on the sales 
+process , we will focus first of all 
+on securing distributorships 
+(and agent agreements) in the regions where we have  identified as Priority 1 by end of 2018 (1 
+st  Phase), i.e.: Europe, US, Japan and 
+Mexico. This work will involve identifying and negotiating agreements (e.g. exclusivity or not, margins, etc.). By 2020, we will expand to 
+include Distributors in other key markets. Our dist ributors and agents will initially be supported by our own internal Sales Team and 
+Applications team. However, the longer-term plan is to see these relationships being long term partnerships and ultimately growing these 
+into regional centres of expertise able to deliver complete solutions. Hence over time these regional centres will develop local application 
+teams and the local sales support will be complimen ted by the establishment of regional integration agreements with engineering 
+companies  to directly support our commercial and technical centres. Agreements will also be established with global OEMs for delivering 
+built-in VISUM systems in their equipment (e.g. METALQUIMIA, GLATT, GEA among others).  
+Time to first sales is Jan 2019, whereby we will commence the sale of first units to our beta clients in the immediate post-project phase 
+and we will build out our sales effort from there. The end-user involvement in the Phase 1 and Phase 2 of this Innovation Project, through 
+our ‘beta clients’ or early adopters from the food and pharmaceutical industry will provide a quick ro ute to first sales if industry trials at 
+each site are successful. 
+B) INTELLECTUAL PROPERTY, KNOWLEDGE PROTECTION AND REGULATORY ISSUES  
+INDUSTRIAL PROPERTY RIGHTS ASSETS  
+VISUM owns the VISUM® brand and all the know-how behind the development to date. VISUM will own all the knowledge items that 
+will be generated through this SME Instrument . We have agreed to grant our early adopters (METALQUIMIA, SALGOT, DAIRYGOLD, 
+SALGOT) with preferential use of the results (free industrialisation of the first VISUM system installed in their plants in exchange for them 
+acting as validators of the system). In relation to our freedom to operate, we have performed periodic patent reviews in parallel with our 
+developments to date, which have all concluded that no existing patent directly competes with the envisaged VISUM® system as a whole.  
+MEASURES FOR ENSURING COMMERCIAL EXPLOITATION  
+As a measure for ensuring commercial exploitation of the project results, a systematic Technology Watch task will be implemented over 
+the course of the work plan (through T5.1) to ensure we keep up to date of relevant competing developments. In addition, every 6 months 
+a patent review will be performed to reconfirm our ‘freedom to operate’ and to ensure we are not infringing on the IPR of a third party. A 
+SWOT analysis will be prepared at M6 of the project by the VISUM Management Board and it will be reviewed and updated each quarter 
+in relation to the VISUM ® solution strengths and w eaknesses and in the context of the market opportun ity and any threats to realising 
+commercial exploitation. A major effort we have made in order to pave the way forward for commercial exploitation has been lining up a 
+powerful group of “early adopters”, through our 4 first beta client companies of different sizes, representing different segments of the food 
+industry (dairy, olive oil and meat) and the pharmaceutical industry. These will allow us to gain serious endorsement value from the Phase 
+2 project and to document impactful case studies/business cases in the use of VISUM ® for in-process monitoring applications.   
+KNOWLEDGE MANAGEMENT AND PROTECTION STRATEGY  
+A patent search has been performed to confirm our freedom to operate. The last patent search was performed on March 21 st  2016 using 
+the World Intellectual Property Organisation (WIPO) PATENTSCOPE database (https://patentscope.wipo.int/search/en/search.jsf) using 
+the key words: ALLTEXT: NIR + measuring; ALTEXT: pr ocess analytical technology; ALLTXT: online probe s pectroscopy. The results 
+revealed that no patent exists that would affect th e VISUM development. In fact, many of them are asso ciated to specific processors 
+FIGURE 3 - TIMELINE FOR IMPLEM ENTATION OF COMMERCI AL STRATEGY  
+
+SMEINST-07-2016-2017                     
+24 | P a g e  
+ 
+such as drum coaters, sorters as well as specific b odies -such as tablets- or substances -such as flou r or crude oil- while VISUM is 
+intended for generic applications no matter the spe cific nature of the processor or the product to be monitored. Likewise, a relevant 
+number of patents are associated to Raman spectroscopy while VISUM is designed on the basis of IR spectroscopy. In this set of patents, 
+the following are particularly relevant: FOSS ELECT RIC A/S: EP0935749: A METHOD AND FLOW SYSTEM FOR SP ECTROMETRY 
+AND A CUVETTE FOR THE FLOW SYSTEM, which is particu larly focused in milk and dairy products; BUEHLER A G and PERTEN 
+PETER: EP0539537: PROCESS AND DEVICE FOR THE IN-LIN E NIR MEASUREMENT OF POURABLE FOODSTUFFS, which is 
+focused in grains. However, there are some patents that are too generic because many of their claims w ere not novel enough at the 
+application date. A further in-depth analysis of po ssible conflicts should be undertaken. As examples of such kinds of patents: 
+WO1999058959: NEAR INFRARED SPECTROMETRY FOR REAL T IME ANALYSIS OF SUBSTANCES; WO2000020834: MULTI-
+COMPONENT PROCESS ANALYSIS AND CONTROL. Basically, we can conclude that there are no evident IP conflicts between VISUM 
+and existing (patented) similar systems because, on the one hand, the most of the related patents are constrained to specific applications 
+and, on the other hand, IR spectroscopy has been used during the last 50 years for process monitoring; there is no room for novelties in 
+terms of IP blocking.  
+In relation to the novelty of our VISUM development, in line with the design and development work that will be performed in the Stage 2 
+we will analyse all outputs for their novelty and f or their protectability through Patents, Trademark,  Industrial design, Copyright, Trade-
+secret, or Confidentiality, as appropriate (i.e. th e form which offers the most adequate and effective  protection for each type of result). 
+We envisage that we will gain IPRs through a number of aspects of the development (all of which will be confirmed and pursued as the 
+developments unfold): ■ The designs for the self-calibration feature, whereby the specific combination of optomechanical solutions with 
+ad hoc procedures could be protected as key knowhow; ■ The designs for a universal sampling unit will imply developing novel setups 
+aimed at facilitating plug & play features which are not currently available; ■ The optical setup will be specifically designed for optimizing 
+signal/noise ratio and reducing the drawbacks assoc iated to scattering due to the sample nature; such a novel design will be also 
+protected in some way (knowhow or patent); ■The self-calibrating models, which will be protected by copyright in Europe and could be 
+patent protectable in the US will necessarily involve radically new approaches in terms of artificial intelligence (deep learning) tools that 
+have not previously used in traditional chemometrics. As addressing the ideation of such solutions will be tackled according to the TRIZ 
+methodology, it is envisaged that some of the outpu ts could be novel and specific enough for being pat ented. In fact, one of the 
+advantages of using such a methodology is its productivity in terms of novelties. During the Phase 1, we submitted a trademark application 
+for protecting the VISUM brand name and its logo. D uring the Phase 2, we will study deeper the registr ation of the MINI-PAT concept, 
+which is consists in having a complete set of basic PAT (Process Analytical Technology) tools integrated into the one instrument whereby 
+the probe is designed for plug and play use. The MINI-PAT concept has the potential to be the Holy Grail of the PAT movement in industry. 
+It is our intention to also register the “Get in line” commercial tag line.  
+REGULATORY AND/OR STANDARD REQUIREMENTS TO BE FULFI LLED  
+All EC and national regulations that could influence on the commercialisation of the project outputs will be studied and their influence on 
+the development or the future use of VISUM platform  will be taken into account. The requirements in re lation to adherence to: ASTM 
+E1655-97; ASTM E1866-97; ASTM E1790-04; IUPAC Guide lines for Calibration in Analytical Chemistry; 
+EMEA/CHMP/CVMP/QWP/17760/2009 Rev2; 11 CFR Part 35; 21 CFR Part 11, EC Machinery Directive and food-processing equipment 
+(EU 98/37/EC Directive), etc.) and standards (e.g. EN45011 or ISO65 quality standards and all manufacturing standards set by ISO and 
+to the GMP regulations, as well as to compliance wi th the CE Mark, will be given particular attention during the design stages of the 
+system. ATEX certification requirements will also be fulfilled. Through Task 1.2, the regulatory and standard requirements will be studied 
+with the end-users to ensure that all necessary actions that need to be performed during the development work in Phase 2 are carefully 
+planned. During Task 4.1, certification applications will be made and the appropriate steps will be in itiated towards obtaining approvals 
+by the standards bodies and to ensure compliance with guidelines, standards and regulations so that VISUM® can be sold and used in 
+food and pharmaceutical processing in Europe and internationally.  
+MEASURES TO PROVIDE OPEN ACCESS TO PEER-REVIEWED SC IENTIFIC PUBLICATIONS 
+It is our intention to publish aspects of the proje ct results in peer-reviewed scientific publications, and these will be made available free 
+of charge through Green Open access publishing. Our  intention is to have publishable results from the validation of the chemometric 
+models from T1.4, among other publication opportunities.  
+C) COMMUNICATION  
+In line with the Promotion part of our 4Ps Marketing Mix described in Table 11, the communication activities that will be performed over 
+the course of the project will have the principal o bjective of communicating the benefits and value of our VISUM p roduct to our 
+future clients . As such, a big emphasis will be on communication activities to increase awareness about the product and its benefits to 
+our target segments. We know from past experience t hat the strongest promotional tool is successful applications . Early testing 
+provides material for early promotion. Building our  product development around ‘beta clients’ gives th e product the evidence to prove 
+SMEINST-07-2016-2017                     
+25 | P a g e  
+ 
+capability and the push to have strong growth from day one. This will provide us with engaging and pow erful content for our 
+communication campaign towards our future clients.  
+We intend to build the brand identity and promote the product actively through standard means such as the project web, leaflet, poster, 
+etc., as well as through more vanguard and dynamic tools such as blogs, social media (LinkedIn and twi tter), Infographics, etc. We will 
+also produce white papers as an impactful communica tion tool. Digital marketing will also be employed for reaching users. In Internet 
+marketing, storytelling is a potent method of converting sales prospects to customers. As such, we will use the ‘business stories’ technique, 
+whereby we will document case studies from our early adopters (no sensitive processing information will be disclosed and only relevant 
+non-confidential information will be used) to communicate the business benefits of investing in the VISUM system in an impactful, creative 
+and engaging way in order to effectively connect wi th industry decision makers. We will showcase and e xhibit results at 4 
+exhibitions/tradeshows over the course of the proje ct ( e.g. Alimentaria (Barcelona), FoodTech- formerly BTA - (Barcelona), ANUGA 
+(Cologne), ACHEMA, EXPOQUIMIA, ANALYTICA etc.)  and in at least 4 conferences (e.g. Global Food Safety Conference, Annual European 
+Food Manufacturing & Safety Summit, Pharma Process (Barcelona), APACT, EuPAT, etc. ). We will also publish 4-6 articles in 
+industrial/sectoral channels (technical/sectoral ma gazines, etc.). Publications of non-confidential an d protect results in peer reviewed 
+journals (e.g. J. of Spectroscopy, J. of Food Processing, J. of Process Control, J. of Process Analytical Chemistry, etc.) are considered 
+as very powerful marketing tools to the industries,  such as pharma, food, chemical and other process i ndustries, as well as to policy 
+makers and standards bodies, and will aim for at least 2-3 papers resulting from the project. We will mobilise our membership in networks 
+and cluster memberships to promote the VISUM soluti on and to participate in events/workshop, etc. that  would enable us to present 
+VISUM and disseminate the successful case studies: SPIE (International Society for Optics and Photonic s), A. SPIRE (Sustainable 
+Process Industries), SECPHO (Southern European Photonics Cluster), among others. In short, our communication activities will ensure 
+we maximise the future dissemination and exploitation of the project results.  
+Finally, as we are benefitting from tax-payers contributions, and given the high societal relevance of KETs that help to ensure food/pharma 
+quality and safety, there is scope through social media to make the general public aware of the VISUM development and the associated 
+societal benefits, e.g. contribution to improved industrial competitiveness, job creation, prosperous regions, access to high quality, safe 
+and affordable products, the ability to enjoy healthy environments; these are all benefits that contribute to our quality of life as EU citizens.  
+3. IMPLEMENTATION
+3.1 WORK PLAN – WORK PACKAGES, DELIVERABLES AND MIL ESTONES  
+OVERALL STRUCTURE OF THE WORK PLAN 
+We envisage a 24-month work plan and 6 
+work packages as follows (The Gantt Chart 
+(below) and the Pert (Figure 4) show the 
+timings and interdependencies between the 
+different WPs and tasks): WP1 will 
+commence by preparing samples from each 
+of the end-users so the feasibility prototype 
+system available in VISUM we will undertake 
+an initial demonstration of the system on 
+these applications to provide test data for the 
+model development. An integration strategy 
+for each installation will also be defined. 
+Based on the system specifications that were 
+defined in a co-creation approach with these 
+end-users (and output from the Phase 1 
+project), designs of the VISUM® system 
+hardware and software layers can 
+commence (WP2) , and the hardware 
+prototypes units will be manufactured. The 
+integrated VISUM hardware and software will 
+be integrated and pre-validation tests will be 
+performed, prior to integration in the industry. The VISUM prototypes will then be installed and beta tested  on the selected applications 
+at the end user sites by the end users and supported by the development team to validate the design  (WP3) . Having validated the design, 
+we will translate the prototype to a product (WP4)  through the creation of the manufacturing documentation package using the engineering 
+information and specifications. This will be passed  to purchasing and production engineering to enable  manufacture. Deployment of 
+these first products will be in our participating e nd-users and to additional selected Beta customers to enable early refinement and 
+FIGURE 4 - PERT DIAGR AM OF WORK PLAN  
+
+SMEINST-07-2016-2017                     
+26 | P a g e  
+ 
+troubleshooting support by the Application Team. In  parallel with the product development work, we wil l further develop our business 
+development plan (WP5) . As part of this activity the 4 Ps marketing plan will be implemented and we will build our internal Sales Team, 
+Application Team, along with the first tier of our international distribution network for reaching key markets. Finally, a project management 
+framework will be implemented through WP6  and the 1-page Gantt is an effective tool for high -level project control and a helicopter 
+overview for effective project management. 
+TIMING OF THE DIFFERENT WORK PACKAGES AND THEIR COM PONENTS   
+ 
+GRAPHICAL PRESENTATION OF THE COMPONENTS SHOWING HO W THEY INTER-RELATE 
+See Pert Diagram (Figure 4) in the work plan introduction.
+3.2 MANAGEMENT STRUCTURE AND PROCEDURES  
+■ ORGANISATIONAL STRUCTURE AND DECISION-
+MAKING - As this is a single entity project, the organisat ional 
+structure (Figure 5) is practical and simple, yet highly effective. 
+The Project Manager (PM) is  Marie Callanan . She will be 
+responsible for ensuring that the work programme ad heres to 
+its schedule, fulfils its objectives (according to the principles of 
+on-time, on-budget and to high quality), and that t he project 
+meets the requirements of the company. The Project 
+Milestones (Table 3.2 a) will be used as a valuable  tool for 
+determining whether or not the project is on schedule. She will 
+be responsible for the management of the internal p roject 
+development team, as well as in managing the relationship with 
+stakeholders (beta clients) system from the VISUM existing client base) who will be involved at different stages of the work plan. She will 
+be active in steering the evolution of the project by closely monitoring and controlling the progress of the work, as well as the engagements 
+and contributions from the stakeholders. She will be responsible for ensuring that the project is managed in adherence with the internal 
+project management procedures that are certified by ISO 9001:2008 and UNE-EN-ISO 166002: Management Systems for R&D&I, and 
+with support from the VISUM Project Management Offi ce (PMO). Marie will also be the interface with the  sponsors (the European 
+Commission) on behalf of VISUM, and she will ensure that all contractual obligations are fulfilled. Marie CV in Section 4.1 highlights her 
+proven experience and track record in managing and participating in product developments, and her outstanding academic achievements 
+whereby she graduated with a. B.Sc. in Engineering and went on MBA. 
+No WPs and Tasks Del. & 
+Milestones 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 
+1 Integration strategies and model building ML1, ML3 # #
+1.1 Sample preparation and laboratory activities
+1.2 Definition of the integration strategies 
+D1.1 ■
+1.3 Model building D1.2, D1.3 ■ ■
+1.4 Model validation D1.4 ■
+2 System hardware and software development ML2, ML4, ML5 # # #
+2.1 Design and building of the system hardware D2.1, D2.2 ■ ■
+2.2 Development of the system software D2.3

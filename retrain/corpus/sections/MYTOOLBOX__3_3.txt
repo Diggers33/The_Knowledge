@@ -1,0 +1,2032 @@
+3.3 Consortium as a whole ......................................................................................... 62
+3.4 Resources to be committed ..................................... Error! Bookmark not defined. 
+Table 3.4a: Summary of staff effort ..................... Error! Bookmark not defined. 
+Table 3.4b: Other direct costs items (travel, equipment, other goods 
+and services, large research infrastructureError! Bookmark not defined. 
+ 
+ 
+ 
+  
+ SFS-13-2015 
+ 
+ MyToolBox 3 
+1. Excellence
+1.1 Objectives  
+Introduction 
+The occurrence of fungal and subsequently, mycotoxin contamination in various crops is of major concern since it 
+has significant implications for food and feed safety, food security and international trade. The EU produces yearly 
+about 133 million tons (MT) wheat (~M€ 29038), 68 MT maize (~M€ 13571) and 8 MT oats (~M€ 1543)1,2. Results 
+using latest state-of-the-art multi-analyte methods show that almost 100% of the crops is contaminated with one or 
+more mycotoxins3. With annual losses due to mycotoxins estimated at 5 -10%, this equates to €1.2 -2.4 billion (Bn) in 
+lost income for wheat alone, a reduction in these losses of only 1% wou ld save €12 -24 Mio. Moreover with ‘’one in 
+eight persons worldwide suffering from chronic undernourishment’’ 4; there is clearly a moral obligation to curb these 
+significant food and feed losses.  
+Grain and foods based on these grain  (e.g. pasta, bread, bakery products) account for the largest contribution to 
+mycotoxin exposure in all age classes of the EU population, in particular due to the mycotoxins produced by Fusarium 
+spp. (deoxynivalenol [DON], T-2/HT-2 toxins, zearalenone [ ZEN], ochratoxin A [OTA] and fumonisins). Despite huge 
+research investments prevention and control of these toxic secondary metabolites remain s difficult and the agriculture 
+and food industries continue to be vulnerable to problems of contamination: In February–March 2013 Romania, Serbia 
+and Croatia, reported aflatoxin M 1 contamination of milk. Severe droughts in Serbia in 2012 resulted in 70% of the 
+maize crop being contaminated with aflatoxins 5. Use of this maize to feed dairy cattle led to the high levels of  
+aflatoxin M1 in milk, up to twice the EU legal limit. The milk scandal was fuelled when the permitted level of aflatoxin 
+M1 in milk in Serbia was temporarily raised to 0.5 µg/kg milk, 10 times the EU legal limit. In recent years, a dramatic 
+increase in DON contamination in Nordic countries  has been observed. The Norwegian Scientific Committee for 
+Food Safety concluded in a study published in 2013 that “ The estimated mean and high (95 -percentile) exposures to 
+DON ...were in the range of, or exceeded the T DI by almost 2 times in 1 -year-old infants and 2-year-old children 
+and up to 3.5 times  in years with high DON levels which has been especially true for oat based products 6. On the 
+other hand the catastrophic floods and the rainy summer in 2014 resulted in low levels of aflatoxin B1 with high levels 
+of DON. Obviously, extreme weather conditions as a result of  climate change is increasingly affecting the mycotoxin 
+map in Europe and also world-wide. In 2013 the EU’s RASFF7 (Rapid Alert System for Food and Feed) showed that of 
+the total rejections at the EU borders, 18.7% were due to mycotoxin contamination exceeding the EU legislative  
+limits8. The RASFF notification system also reveals that among the susceptible fruit imported into the EU, the 
+commodity with th e highest risk for aflatoxin contamination  was dried figs. In addition, over the last five years 
+RASFF reported 292 alerts relating to aflatoxin levels exceeding legal limits in peanuts imported from China. 
+Exposure of livestock to mycotoxins may lead to substantial economic losses (Wu & Munkvold 2008) 9. While 
+mycotoxicoses in agricultural animals are regularly reported (Jovanović et al. 2015)10, it is difficult to get an accurate 
+estimate of the burden of market loss associated with animal health and produ ctivity, and loss of animal feed. 
+However, several publications from different parts of the world provide some insight into the potential magnitude of the 
+problem. In the USA, Vardon et al. (2003)11 estimated a loss of 225 million US$ per annum for feed mai ze due to 
+contamination with aflatoxins, and an additional loss of livestock of 4 million US$ per annum . Wu and 
+Munkvold (2008) estimated the losses due to decreased weight gain in pigs resulting from fumonisin contamination of 
+DDGS in the USA at 147 million US$ annually (20% DDGS in the diets and market penetration is 100%). A study 
+                                                        
+1 EUROSTAT, Selling prices of crop products (absolute prices) - annual price (from 2000 onwards). 
+http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=apri_ap_crpouta&lang=en. 
+2 EUROSTAT, Crops products - annual data. http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=apro_cpp_crop&lang=en. 
+3 Berthiller F. et al. (2014) Developments in mycotoxin analysis: an update for 2012-2013. World Mycotoxin J 7: 3-33. 
+4 Schmale III D.G. and Munkvold G.P. 2009. Mycotoxins in Crops: A Threat to Human and Domestic Animal Health. 
+https://www.apsnet.org/edcenter/intropp/topics/Mycotoxins/Pages/EconomicImpact.aspx,  
+5 http://www.allaboutfeed.net/Process-Management/Feed-Safety/2013/3/EU-Aflatoxin-contaminated-feed-1196477W/ 
+6 VKM, Risk assessment of mycotoxins in cereal grain in Norway. Norwegian Scientific Committee for Food Safety (VKM) http://www.vkm.no/dav/eee04d10c4.pdf, 2013 
+7 EU (2014) The Rapid Alert System for Food and Feed 2013. Annual Report. RASFF 2013: p. 45. 
+8 http://www.allaboutfeed.net/Process-Management/Feed-Safety/2014/7/Mycotoxin-alerts-in-EU-have-gone-down-1568614W/ 
+9 Wu F. & Munkvold GP. 2008. Mycotoxins in ethanol co-products: Modeling economic impacts on the livestock industry and management strategies. J Agric Food Chem. 
+56: 3900-3911. 
+10 Jovanović M. et al. 2015. An outbreak of fumonisin toxicosis in horses in Serbia. World Mycotoxin J. Accepted for publication, DOI 10.3920/WMJ2014.  
+11 Vardon PJ. et al. 2003. Potential economic costs of mycotoxins in the United Sates. CAST report: Mycotoxins; Risks in Plant, Animal and Human Systems. Task Force 
+Report no. 139, CAST, Ames, Iowa. USA 
+ SFS-13-2015 
+ 
+ MyToolBox 4 
+conducted in Thailand (Lubulwa et al. 2015)12 revealed that aflatoxins in maize can be expected to cause losses for 
+the livestock sector between 7 and 110 million US$ per annum.  These estimates, though limited to aflatoxin and 
+fumonisin in 2 countries only, show that on a worldwide basis and taking account of other commodities and other 
+mycotoxins as well, the losses in the livestock sector will be multiple. 
+There is a pressing n eed to mobilise the wealth of knowledge that exists from the mycotoxin research in Europe and 
+internationally conducted over the past 25 -30 years and to perform cutting -edge research where knowledge gaps still 
+exist. This knowledge needs to be integrated into practical and affordable tools that can be used by farmers and 
+food processors along the chain in order to reduce the risk of mycotoxin contamination of crops, feed and food, to 
+prevent losses and waste along the food chain, and to provide traceability  information to the supply chain and 
+consumers using mainstream ICT technology. Exisiting knowledge combined with novel findings need to be adapted 
+and integrated to provide the vehicle needed to practically implement this knowledge into tools for use along the chain: 
+this is the mission of the MyToolBox project.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1- Overview of the MyToolBox project approach  
+                                                        
+12 Lubulwa GAS. et al. 2015. Estimating the burden of market loss due to aflatoxins in maize: methods and estimates for Thailand. World Mycotoxin J.  In press, DOI 
+10.3920/WMJ2014.1836 
+
+ SFS-13-2015 
+ 
+ MyToolBox 5 
+Objectives 
+The overall objective of the MyToolBox project is to develop a series of integrated measures, which will enable a 
+significant reduction in losses of crops due to fungal and mycotoxin contamination. Depending on the commodity 
+and the type of intervention, the achievable reduction s range from 20-90%. MyToolBox will not only pursue a field -to-
+fork approach along the food and feed chain , but will also consider safe use options of mycotoxin contaminated 
+batches such as microbial energy conversion to efficiently produce biogas and bioethanol . The consideration of t he 
+entire chain ( soil-field-crop-food processing -waste management -alternative energy)  to ensure food & feed 
+security and safety within a sustainable economic environment, is a major motivation behind MyToolBox.  The project 
+will specifically address biological contamination from fungal infection and subsequent events leading to the formation 
+of mycotoxins. The innovative pre - and post-harvest interventions resulting from the research undertaken within the 
+MyToolBox project will build on and integrate the wealth of knowledge resulting from the substantial EU - and 
+nationally and internationally funded research  previously conducted on mycotoxin prevention and control . Our 
+goal will be to implement exisiting knowledge and novel findings and technologies developed in the MyToolBox project 
+into a comprehensive series of tools and applications. These will provide the end users along the whole food and feed 
+chain with the recommended measures for mycotoxin reduction an d will be accessible via a dynamic web -based 
+MyToolBox e- platform (MyToolBox-figure 1). Information and decision support tools will be developed for each level of 
+the chain and will be integrated into the ergonomic and secure web-based MyToolBox platform that will also be 
+accessible over all mobile platforms. As such, the MyToolBox platform will guide the end user to the most effective 
+measure(s) to reduce biological contamination in crops, and will  provide the necessary  intelligence to ensure these 
+measures take into account the prevailing conditions such as geographical location, meteorological conditions, land -
+use, crop management, storage and intended end use with relevance to specific crops. The mycotoxin commodity 
+combinations that will be addressed a re the most prevalent Fusarium mycotoxins (DON, T-2/HT-2 toxins, ZEN and 
+fumonisins) in wheat, oats, maize and animal feed chains, ochratoxin A in wheat and aflatoxins in maize, peanuts and 
+dried f ruit (figs) . We have mobilised a comprehensive multi -actor approach behind a Pan -European-Sino effort 
+towards reducing risk due to mycotoxin contamination in crops all along the feed and food chains, involving pre -
+harvest interventions undertaken at farm level, together with post -harvest interventions undertaken from storage 
+through to food processing into the finished food or feed product. Within this multi -actor approach partners from 
+industry ( 43% of consortium) including 5 end users  from the farming community  (including individual farm ers), 
+agronomists and professionals working in agriculture and food manufacturing have already been  involved in the 
+project planning and  will collaborate closely with the Technology SMEs and partners from academia  at all 
+stages of the various work packages.  
+As demanded in the Call SFS -13-2015, the MyToolBox project will also anticipate legislative implications  of the 
+project outputs and work with relevant bodies such as EFSA and DG Santé for standard setting. The project will also 
+aim to develop a sound scientific basis for standard settings in China for authorisation of mycotoxin detoxi fying 
+feed additives, and consequently improve market access of relevant EU products.  The variety of  complementary 
+approaches to be pursued in the MyToolBox project address all the specific challenges mentioned in the EU-Call 
+SFS-13-2015 and will increase the productivity and competitiveness of the EU -agri-food and feed sector whilst 
+securing safe food crops at minimum mycotoxin leve ls. In order to achieve our overall objective, the following 
+specific objectives will be fulfilled over the course of our 48-month project:  
+Pre-harvest objectives 
+ To implement alternatives to conventional fungicides (suitable for organic farming) for small grain cereals to 
+achieve comparable or better performance to conventional fungicides in reducing levels of biological 
+contamination and mycotoxins by 50% (WP1). 
+ To integrate cultural control protocols targeting the  Fusarium inoculum within crop debris using 
+biofumigation and accelerated biodegradation combined with minimum tillage (50% reduction, WP1) 
+ To achieve a 70 -90% reduction of aflatoxin contamination in EU maize  through a) the selection and 
+application of resistant plant cultivars in field conditions (70%) and b) the use of atoxigenic Aspergillus strains to 
+outcompete toxigenic Aspergillus strains (90%) (WP1). 
+ To develop forecasting models  to predict potential fungal contamination of small grain cereals at an early 
+growth stage so that pre-emptive action can be taken to reduce both infection and mycotoxin formation (WP3). 
+Post-harvest objectives 
+ To develop real-time post-harvest environmental monitoring systems for storage of cereals and peanuts to 
+facilitate effective integrated control of moulds and mycotoxins and provide an early warning of risks, enabling 
+effective prevention/remedial actions to be implemented (WP2).  
+ SFS-13-2015 
+ 
+ MyToolBox 6 
+ To develop non-invasive real time sorting of dried fruit (figs)  for mycotoxins using visibl e and NIR spectral 
+imaging and appropriate algorithms to achieve significant improvements compared to manual sorting with 5% or 
+less probability of the batch average concentration of aflatoxin B1 failing to meet the EU limits (WP2). 
+ To integrate novel down -stream processing approaches such as innovative (pre -)milling for accurate 
+separation of grain tissues with different mycotoxin levels and to minimise the mycotoxin content in the final 
+wheat based food products (up to 50% reduction) (WP2). 
+ To develop novel baking procedures  at industrial scale  to reveal the thermal processing  factors which are 
+relevant for the reduction of mycotoxins and the ir transformation into modified forms (incl. conjugated toxins) 
+(WP2). 
+ Utilising a novel generation of mycotoxin degrading enzymes for environmentally sustainable use of 
+contaminated batches using fermentation technologies for the production of biofuels (bioethanol and biogas) 
+(WP2). 
+Throughout the food & feed chain 
+ To design, build, test and validate an integrated, dynamic, MyToolBox e-platform for decision support in 
+mycotoxin management, which provides users with information, tools and guidance concerning actions that can 
+be taken to reduce fungal contamination and lead to reduction in levels of mycotoxins in the f ood and feed 
+chains. The web -based MyToolBox e-platform will be accessible to farmers, food processors and other actors 
+along the chain through all mainstream interfaces (PCs, tablets or smartphones) (WP3). 
+ To maximise  uptake of the web -based MyToolBox e-platform by the stakeholders  in the project and 
+beyond, t he intent of  actors will be determined by  their perceptions  of risks of  mycotoxin contamination  
+(= perception of probability consequences) and their perception of  the possibilities to reduce  these risks in the 
+most reliable and cost-effective way by using the MyToolBox e-platform (WP3). 
+ To draw up Good Agricultural Practice (GAP) and Hazard Analysis Critical Control Point (HACCP)  based 
+protocols for prevention  and control of mycotoxins that can be applied throughout the entire food & feed chain 
+(WP3). 
+ To adapt and integrate cost-effective sampling and monitoring strategies  for mycotoxin management over 
+the entire chain (WP3). 
+ To establish international cooperation in research and innovation for mycotoxins and in particular with partners 
+from China across all WPs including the initiation of a formal EU-China dialogue  through an EU -China 
+Mycotoxin Forum as part of the MyToolBox activities (WP5). 
+Dissemination activities 
+ To create a project website including a public dissemination part and a portal for inter-consortium sharing of 
+information, databases and knowledge management (WP5). 
+ To disseminate information  about the project and  its results to actors and stakeholders  along the food 
+supply chain, to opinion leaders/regulators, the media, farmers, professionals working in agriculture and food 
+manufacture, educators, and other multipliers, food and drink industries (including SMEs),  consumer 
+organisations, the scientific community and the general public (WP5). 
+ To facilitate collaboration, information exchange and interaction between different actors  and 
+organisations involved in the control and management of mycotoxins in the food su pply chain through training, 
+consultations and webinars (WP5). 
+ To develop exploitation plans, including a business model, to ensure the use of the project outputs  
+among the farming and industry end users, opinion leaders, decision makers, etc. and to estab lish and verify a 
+robust business model for the MyToolBox e-platform (WP5). 
+ SFS-13-2015 
+ 
+ MyToolBox 7
+1.2 Relation to the work programme  
+MyToolBox relates to H2020 topic ‘ SFS-13-2015 Biological contamination of crops and the food chain ’ and 
+addresses all the specific challenges in the Call, as well as the full scope of this Call as explained in table 1:  
+Table 1: Relation to the Work Programme  
+SFS-13-2015  MyToolBox 
+The occurrence of 
+biological contami-
+nation in various 
+crops is of major 
+concern ….. 
+…effectively monitor 
+…. the incidence of 
+mycotoxin 
+contaminants. 
+MyToolBox addresses the issue of biological contamination of crops arising from both pre - 
+and post -harvest fungal infection. Pre -harvest infection of crops causes large reductions in 
+yields and losses du e to poor quality. During drying and subsequent storage, further fungal 
+infection can occur, which can lead to further losses. MyToolBox focuses on prevention and 
+minimising pre-harvest fungal infection at different stages in the plant growth cycle, through 
+selection of fungal resistant crop varieties, minimising reservoir sources of fungal infection for 
+the growing plant, and applying novel biopesticides. MyToolBox will monitor crops during 
+storage, measuring real -time parameters such as CO 2 levels, which are indicative of fungal 
+growth enabling remedial action to be taken to reduce losses from biological 
+contamination. Moreover, improved forecasting models  to predict contamination  of 
+wheat and maize with fungi and mycotoxins at early growth state will be developed.  
+Proposals should aim 
+at reducing the risk 
+of mycotoxin 
+contamination in 
+crops and all along 
+the feed and food 
+chains. 
+ 
+ 
+Besides the economic losses from fungal infection, there is also the potential for mycotoxin 
+contamination of crops with risks to human and animal health. However, mycotoxin formation 
+is not inevitable, even if crops are infected with toxigenic fungal stra ins. To predict mycotoxin 
+formation, MyToolBox will develop models based on historical data, which will utilise 
+measurement of parameters in real -time that will be used to model when fungi are most likely 
+to produce mycotoxins. Such predictions will be use d to optimise harvesting times or 
+optimise the use of biopesticide treatment to reduce contamination . Competitive  
+biocontrol measures using non-toxigenic fungi isolated locally will be developed for use in the 
+EU, based on well -established techniques already in use in the US and Africa. Sophisticated 
+sorting techniques using vision imaging will be implemented to selectively remove 
+contaminated units from dried f ruit. Innovative  (pre-) milling techniques will result in 
+reductions in levels of mycotoxins in wheat. Innovative baking strategies will be optimised to 
+study the fate of mycotoxins in finished products. 
+Integrated 
+approaches… are 
+required to effectively 
+control the incidence 
+of mycotoxins in 
+crops and reduce 
+contamination 
+throughout the feed 
+and food chains. 
+MyToolBox recognises the substantial progress already made worldwide  in the area of 
+prevention and control of mycotoxins and thus builds on this existing knowledge . Several 
+recognised agricultural strategies including crop rotation, tillage practices, resistance breeding, 
+fungicide application and less susceptible plant cultivars will be integrated to reduce the impact 
+of fungal infection of crops and subsequent mycotoxin formation. As none of these strategies 
+by themselves are able to reduce the impact of fungal infection, an integrated approach will 
+be pursued, which also takes climate change factors into account . Pre- and post-harvest 
+interventions will be assembled in a web -accessible MyToolBox platform in a way that will 
+guide actors in the food and feed chains to identify and implement the most relevant strategies. 
+The web-based MyToolBox platform will also  integrate HACCP and GAP protocols  
+specifically addressing wheat, oats, maize, peanuts, dried fruit and animal feed. 
+Reducing the risk of 
+mycotoxin 
+contamination ….. 
+bringing technical, 
+management and 
+organisational 
+solutions, incl. 
+HACCP. 
+MyToolBox will develop a series of decision support tools  which will be able to forecast 
+potential fungal infection and subsequent mycotoxin occurrence, enabling actions such as 
+early harvesting or fungicide spraying to be undertaken at the optimum time  during the 
+cereal growth cycle. A number of factors relevant to fungal infection and mycot oxin formation 
+are already well-known and Good Agricultural Practice (GAP) combined with Hazard Analysis 
+Critical Control Points  (HACCP), have already been developed in some food and feed 
+chains. Some of the technical innovations will require changes to ex isting standards to be able 
+to fully benefit from the developments, and such changes will be sought as part of the project. 
+… …. and also deal 
+with the safe use of 
+contaminated 
+batches. 
+Existing EU Regulations, set maximum limits or guideline values for m ycotoxins in animal 
+feed. Contaminated batches above these limits must be destroyed and are an economic loss. 
+In MyToolBox we will test the performance of specific mycotoxin -degrading microorganism 
+strains and enzymes, on the process-efficiency and degradation of mycotoxins  during 
+biogas and bioethanol production. This will allow the safe use of contaminated batches for 
+both, the efficient production of biofuels and of safe DDGS (Dried Distillers Grains with 
+ 
+ SFS-13-2015 
+ 
+ MyToolBox 8 
+SFS-13-2015  MyToolBox 
+Solubles), to be used as a protein rich source in animal feed. 
+Proposals should …. 
+fall under the concept 
+of 'multi-actor 
+approach and allow 
+for adequate 
+involvement of the 
+farming sector. 
+Innovative science alone will not achieve the desired outcomes , as it also  requires the 
+commitment of all actors along the food and feed supply chain  to implement change . The 
+multi-actor approach in MyToolBox is exemplified by involvement of five prominent end 
+users representing the food industry (Barilla, Italy), food and crop energy (S üdzucker, 
+Germany), grain industry (Agro LV, Ukraine with operations in Poland), Dried fruit  industry 
+(TARIS, Turkey) and the maize based feed industry (D.O.O. Agrocentrum Becej, involving also 
+individual farmers from Serbia). Hence, through our consortium end users from the farming 
+community, agronomists, actors along the food & feed supply chains and professionals 
+working in agriculture and food manufacturing will collaborate closely with the Technology 
+SMEs and with our partners from academia. Formal evaluations of specific interventions will 
+be conducted as well as beta testing of the web-based MyToolBox platform at an early stage of 
+development to ensure user -friendly and fit -for-use design. Furthermore, economists will be 
+involved in assessing the cost -effectiveness of specific interventions , and the 
+involvement of sociologists in assessing potential barriers to acceptance. This multi -
+disciplinary project uniquely involves a diversity of actors along the entire food and f eed chains 
+essential to ensure that the practical objectives of substantial reductions in biological 
+contamination and reductions in mycotoxin levels are achieved. 
+Proposals should 
+benefit conventional 
+and organic supply 
+chains…. 
+Technical interventions , primarily developed pre -harvest, will be applicable to both 
+conventional and organic supply chains . Novel biopesticides such as salts, botanical 
+extracts, plant defence elictitors and biocontrol agents, also suitable for use in the organic 
+supply chain, will be investigated as alternatives to conventional triazole fungicides. Novel 
+cultural control mechanisms  will focus on studying crop debris management, applicable in 
+organic as well as conventional production  systems. This will include microbial agents to 
+colonise and exclude Fusarium inoculum from plant debris and the use of biofumigation of 
+crops as a novel cultural control strategy. The conventional and organic farming 
+community will be involved as partners, stakeholders and end users . MyToolBox will 
+connect with appropriate organic food certification bodies such as the ‘Soil Association’ to 
+ensure that proposed interventions are organic-farming compliant.  
+…contribution to 
+legislation… 
+MyToolBox will anticipate legislative implications of the project  outputs and work with 
+relevant bodies such as European Food Safety Authority (EFSA) and DG SANCO for standard 
+setting (see 2.1. Expected Impacts). Moreover, the MyToolBox project aims to contribute to the 
+standard setting for authorisation of mycotoxin -detoxifying feed additives in China  in 
+cooperation with FEFANA, the Chinese Ministry of Agriculture (MOA) and CAAS -FRI as an 
+important aspect for the registration of mycotoxin detoxifying feed additives from the EU. 
+In line with the 
+objectives of the EU 
+strategy for 
+international 
+cooperation in 
+research and 
+innovation and in 
+particular with the 
+implementation of the 
+EU-China dialogue, 
+proposals are 
+encouraged to 
+include third country 
+participants, 
+especially those 
+established in 
+China. 
+MyToolBox has EU partners from Austria (Coordinator), Netherlands, Germany, United 
+Kingdom, Spain and Italy, from associated countries of Norway, Serbia, Turkey and 
+Ukraine (with additional operations in Poland) and two partners from China: The Chinese 
+Academy of Agricultural Sciences (CAAS)  a national, integrative agricultural scientific 
+research organization with over 5,000 professional employees and the Academy of State 
+Administration of Grain (ASAG). From CAAS two institutes will b e involved as partners: 
+The Feed Research Institute  (CAAS-FRI) and the  Institute of Agro -Products Processing 
+Science and Technology  (CAAS-IAPPST). Especially t he latter will link its current research 
+projects dealing with mycotoxin formation and its preven tion and control in grains and cereals 
+with MyToolBox. CAAS, ASAG and their partners from the Chinese grain and peanut 
+industry will contribute to the overall delivery of the MyToolBox , as well as making 
+specific technical contributions to three work packa ges (WP1, 2 & 3)  and to the practical 
+implementation and standard setting in WP4 . Some technologies (e.g. CO 2 sensing during the 
+storage and DON forecasting) developed in MyToolBox will be evaluated by these partners in 
+cooperation with end users in China, which will ensure that the MyToolBox e-platform meets 
+international aspirations in terms of scope and ease -of-use and may be “transplanted” to 
+China. Chinese partners have extensive networks within their research community, and we 
+propose to build on these networks to form an EU-China Mycotoxin-Forum (WP5). 
+Moreover, through the Project A dvisory Board and partner ICC , numerous organisations 
+and experts from third countries, such as USA and Tanzania are involved in MyToolBox.  
+ SFS-13-2015 
+ 
+ MyToolBox 9
+1.3 Concept and approach 
+Overall concept underpinning the project  
+Based on a thorough screening of existing measures to reduce moulds and mycotoxins  in the feed and food 
+chain, a consortium with leading experts from 2 3 partner organisations representing 11 countries (including 2 from 
+China) and 43% industry participation (farmers, technology SME s, food/feed industry, incl. 5 end users) have 
+recognised significant gaps in the current knowledge and management strategies at different points of interventions for 
+various food & feed commodities and have jointly developed the MyToolBox proposal. Previous studies have shown 
+the combination of more than one control strategy in an integrated system to have a synergistic positive effect (i.e. the 
+combined effect is greater than the sum of the parts) 13. By combining the developed control strategies with one 
+another, in combination with other known control mechanisms in a fully integrated mycotoxin management system 
+will allow for maximum reductions in mycotoxins in food and feed. A s a result, MyToolBox is not only based on a 
+complete field -to-fork approach ranging from biocontrol and novel cultural control protocols (suitable for organic 
+farming) at a farmer´s level to novel thermal processing procedures performed by a major end use r from the food 
+industry. MyToolBox goes beyond the field -to-fork concept  and also considers safe use options of mycotoxin 
+contaminated batches, such as microbial energy conversion to efficiently produce biogas and bioethanol in 
+combination with safe DDGS.  The consideration of the entire chain soil-field-crop-food processing -waste 
+management-alternative energy  to ensure food & feed security and safety within a sustainable economic 
+approach, is a major motivation behind MyToolBox. The project will not only i mplement and develop a series of 
+innovative integrated measures, which will enable a significant reduction in losses of crops due to fungal and 
+mycotoxin contamination. Depending on the commodity and the type of intervention the achievable reduction in losses 
+ranges from 20 -90%. The  main idea  of MyToolBox, distinguishing this proposal from previous efforts in the 
+area mycotoxin reduction, is to provide the recommended measures to the end users along the whole food and feed 
+chain in a web-based MyToolBox platform. Th is unique e-platform will be an internet -based decision tool that 
+provides users with access to static and dynamic information (see figure 1) concerning actions that can be taken to 
+reduce fungal contamination and lead to reduction in levels of mycotoxins in the food and feed chains.  
+These actions will be based on existing knowledge as well as on the novel information/results obtained within 
+the MyToolBox project . The ergonomic and user centred MyToolBox e-platform will be accessible through a PC, 
+tablet and all commonly used mobile interfaces. Through a dedicated and experienced smart systems development 
+team an interactive user -friendly platf orm will be designed to meet the needs of all actors along the food chain, 
+whether these be farmers, processors, feed suppliers or manufacturers from the food and feed industry. Sound 
+management of the innovation cycle will ensure that end users and stakeh olders are mobilised in a co -creation 
+approach, to ensure the MyToolBox e -platform is tailored to meet the needs of each and every end user by 
+establishing a specific set of individual circumstances rather than simply providing generic advice. MyToolBox is  
+dedicated to the cereal (wheat, oats, and maize) and dried fruit ( fig) supply chain in Europe and the peanut 
+supply chain in China. By step-wise interrogation of the end user, the crop of interest, the relevant stages in the food 
+& feed chain, geographica l location, storage conditions, transport and end -use will all be established. The web-
+accessible MyToolBox will prioritise possible actions (interventions) that can be taken, giving priority to recommending 
+those actions which give the maximum possible reductions in mycotoxin levels at the lowest cost, i.e. focussing on the 
+most cost-effective. The developed web-tool is not an endpoint but will be flexible and will continuously be improved. 
+MyToolBox will make use existing safety and agricultural  models, C odex Alimentarius CoP, HACCP and 
+GlobalGap. These models are based on science, are well established and, moreover, are already accepted by actors 
+in the food and feed supply chain. HACCP and GlobalGap evolve in time and will thus allow the MyToolBox e-platform 
+to stay up-to-date. The implementation of the well -established and accepted PDCA Deming cycle (plan -do-check-act) 
+approach will allow the continuous improvement of the MyToolBox e-platform even beyond the duration of the project. 
+To secure continuity and user acceptance, the platform will be designed for compatibility with all commonly used 
+mobile device and the most popular operating systems (android, iPhone, windows). Access to the platform will be 
+freely available to end users during the lifetime of the project, and its sustainability will be achieved through a robust 
+business model that will be  developed during the project (that coul d involve levying a nominal membership fee to 
+users) and maintenance through the participating commercial ICT-related enterprise. 
+Based on preliminary market analysis  and dialogue with our industrial partners, especially with end users and 
+stakeholder associations, we know that there is strong interest among the majority of actors along the food and feed 
+                                                        
+13 Blandino et al. 2012. Integrated strategies for the control of Fusarium head blight and deoxynivalenol contamination in winter wheat. Field Crops Res 133:139-149. 
+ SFS-13-2015 
+ 
+ MyToolBox 10 
+chains in a platform of scientifically validated tools such as those proposed by MyToolBox, as increasingly all actors 
+in the food supply chain are aware of and dedicated to the reduction of mycotoxins. There is an increasing culture of 
+cooperation and inf ormation sharing along the food/feed supply chain in the context of addressing the mycotoxin 
+challenge. 
+The MyToolBox web-platform will be used on -site by all partners in the supply chain. This means that scientific 
+information must be translated to clear unambiguous instructions. The transdisciplinary challenges will be tackled 
+by the project team including scientific groups from the field of both agronomy and social sciences. Furthermore, end 
+users (farmers, food industry, etc.) and stakeholders will be i nvolved in each step of the project , which will be 
+enabled through a professional communication campaign including training in cooperation with major stakeholder 
+associations that will be designed in order to mobilise and secure the ‘buy -in’ of the necessa ry targets. The project 
+partners have access to relevant data on crop growth, food processing, microbiology, climate, economics, human -
+decision-making, and communication in the European setting.  Pictograms, photographs, diagrams and other imagery 
+will be used extensively in the MyToolBox e-platform, both as an aid to achieving a ‘user -friendly’ product, as well as 
+minimising the needs for extensive translation i.e. to open up access to a community that is not always necessarily 
+English speaking. 
+ 
+Overall approach and methodology 
+Our ground breaking research activities will be undertaken within 6 Work Packages (WP). The  mycotoxin-commodity 
+combinations that will be addressed are the most prevalent Fusarium mycotoxins (deoxynivalenol (DON), T -2 and 
+HT-2 toxins, zearalenone ( ZEN) and fumonisins)  in wheat, oats, maize and animal feed chains (incl. DDGS) and 
+aflatoxins in maize, peanuts and dried figs. However, the project  will also impact on other mycotoxins, such as 
+ochratoxin A in wheat  and emerging mycotoxins, such as enniatins. The overall approach, depicted in figure 1, 
+involves pre-harvest interventions undertaken at farm level, together with post -harvest interventions undertaken from 
+storage through to food processing into the finished food or feed pr oduct each with a set of specific objectives. Due to 
+our comprehensive integrated approach and the required field trials, a project duration of 4 years  is considered 
+appropriate. The chosen approach will integrate scientific knowledge, translate and commun icate it, apply it in 
+cooperation with the end users and incorporate it in the simultaneously developed web-based MyToolBox platform, for 
+use by all actors in the food and feed supply chain for the reduction of mycotoxin contamination in food and feed. Thi s 
+approach requires the input of scientific data, (anticipation of) legal requirements, but also the involvement of 
+sociologists in assessing potential barriers for acceptance of the developed measures incl. the web-based My-ToolBox 
+by the stakeholders.  
+The central part of this project is the development of the MyToolBox e-platform: an interactive, internet based tool 
+that will facilitate optimal decision making for mycotoxin management (prevention, control, monitoring) in European 
+feed and food chains.  This decision support web platform is intended for use by various actors in the chain, including 
+farmers, millers, processors and feed/food producers, as well as governmental authorities , whereby it provides these 
+users with multiple information, tools and guidance concerning actions that can be taken to prevent and reduce fungal 
+contamination and lead to reductions in levels of mycotoxins in the food and feed chains. MyToolBox will be 
+configurable to the activities of each particular actor within the chain , and when there is no other option will enable the 
+actor to direct contaminated batches to safe-use options (see figure 1). 
+In a co-creation approach, MyToolBox will be designed, built and tested in close collaboration with the end users 
+including farmers  and the  multiple stakeholder groups  involved in the project through ICC and the Advisory 
+Board, such to ensure it fulfils all their needs. Via an interactive User Interface, which will be accessible overall all 
+mainstream interfaces (PCs, tables and smart phones), each of these actors can easily navigate and access 
+the required information and decision support, as well as input and output information from the system.  
+The web-based MyToolBox will be highly flexible and scalable so that it can be extended to  other mycotoxins and 
+other food and feed chains beyond the scope of the project. Over the course of the project, a business plan for future 
+exploitation of the MyToolBox platform will be developed in order to arrive a sustainable business model.  
+The MyToolBox platform itself (figure 2) will integrate currently available information and make it readily accessible to 
+the user. In relation to its architecture, the core elements will consist of: 
+a) web platform back -end (or engine), which consists of a cloud database (Postgres 9.3) housing both static 
+content and dynamic content, as well as a security layer;  
+b) web-based User Interface (coded in HTML5 and JQuery -Javascript) that will be accessible over a standard 
+PC and all mobile platforms (tablets, smartphones- iphone, android, windows…); 
+ SFS-13-2015 
+ 
+ MyToolBox 11 
+c) Application Programming Interface  (API)- (PHP5) that enables data from the tools and applications 
+developed in other work packages and tasks, as well as other external sources, to be in tegrated in the 
+MyToolBox platform. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 2: MyToolbox e-platform architecture 
+ 
+As can be seen, the MyToolbox platform consists of static and dynamic components as follows: 
+Static parts: 
+- Synthesised existing guidelines as e.g. published by the FAO for Good Agricultural Practice (GAP), Good 
+Manufacturing Practices (GMP), as well as protocols for Hazard Analysis Critical Control Point (HACCP), 
+sorting, milling and baking for mycotoxin management (prevention and control)  in small grain cereals, maize 
+and figs (WP3), both pre-harvest and post-harvest. 
+- Potential corrective actions and recommendations for alternative safe use in case certain action levels or EU 
+legal limits are exceeded.  
+- Guidelines for cost -effective sampling and monitoring strategies for mycotoxin management by actors in the 
+entire chain. These includes points in the chain at which samples need to be taken, amounts of samples, 
+extent of pooling of samples, and types of measurement (dipstick, ELISA, chromatographic methods) to be 
+used (WP3). 
+Dynamic parts (via the API): 
+- Optimal storage conditions, by using real-time sensing DSS (WP2&3). 
+- Forecasting models to predict fungal and mycotoxin contamination of small grain cereals and maize at early 
+growth stages, for optimal application of biofungicides and optimal harvest time (WP1&3).  
+- Information from external sources, such as weather stations. 
+During the first year of the project, the web-based MyToolBox will make use of existing  official information, guidelines 
+and data, and will present this to the user in an easy -to-understand, interactive and synthesised format. As the results 
+from WP1 -4 become available during the project, they will be added and hence the MyToolBox e-platform will be 
+updated. MyToolbox has an easy to set up User Administration page , whereby the user identifies himself, selects 
+the crops and stage of chain, and the required information he/she wants to obt ain from the system. The MyToolB ox 
+engine consists of static and dynamic components. The for mer includes GAP/GMP guidelines, HACCP protocols , 
+and any other relevant information, presented in a practical and engaging format, by using images, visuals and videos 
+whenever possible. Minimal text will be used making the system user -friendly irrespectiv e of different language 
+constraints. The latter relates to the dynamic real time (or very recent) data that is being entered into MyToolBox via 
+an application programming interface (API) that will be built to allow MyToolBox to accept data from the other p roject 
+developed applications- i.e., real time post-harvest storage management systems (WP2) and forecasting models for 
+crop management (WP3), as well as their party systems, e.g. for obtaining up-to-date environmental data.  
+In the design and development of the MyToolBox, the so -called ‘problem of implementation’ of available information 
+and the agricultural decision support systems (DSSs) (i.e., under-utilization due to both technical limitations of the 
+DSSs and to user’s attitude towards DSSs) will be sp ecifically addressed by a very robust approach to Innovation  
+Management (discussed in Section 3.2) to ensure that we work effectively with our end -user and stakeholder groups 
+in order to deliver user centric and market-oriented results, whereby we will be: 
+
+ SFS-13-2015 
+ 
+ MyToolBox 12 
+(i) Focusing on the important problems of the complete chain with a systems approach; 
+(ii) Using automation and integration in data collection, and supporting flexible input efforts by the user; 
+(iii) Developing and validating fit-for-purpose, mathematical models;  
+(iv) Designing a user -friendly interface with navigation facilities within the web-based MyToolBox functionalities 
+(e.g., decision trees) and providing complete and easy-to-understand information;  
+(v) Delivering MyToolB ox through the Web and thereby enabling both cont inuous updating by the provider and 
+flexible access by the user; 
+(vi) Cloud databases with the ability to handle large volumes of data and to enable interfacing with the MyToolbox 
+platform over all mobile interfaces  
+(vii) Designing the MyToolBox e -platform with the goal  of assisting the decision maker (by providing necessary 
+information) rather than replacing the decision maker; 
+(viii) Involving potential users during the MyToolBox development and testing so as to obtain insight into how users 
+make decisions (stan dard methodologies to engage with the users will be used, such as Focus Groups, 
+Usability Tests, Card Sorting and Accessibility Analysis). This end -user involvement, and in particular farmers,  
+in different stages of design, building and testing of MyToolbox is part of WP4;  
+(ix) Communicating the benefits of the web-accessible MyToolBox platform via seminars and demonstration; 
+(x) Involving all the potential stakeholders; and 
+(xi) Developing a two-way communication mode with the end-users, i.e., by combining “push” and “pull” systems. 
+Finally, in relation to our development methodologies, the software development of the MyToolbox e-platform will be 
+following agile Scrum and Test Driven Development methodologies . Scrum is a highly powerful methodology for 
+keeping the end-user engaged and with influence over the software development process and in particular to ensure 
+user experience and interaction with the system is guaranteed. The Test Driven Development method is used for 
+efficiently developing “almost-bug-free” software platforms because it is a programming methodology oriented to code 
+“reliable-by-design” software.  
+Positioning of the project  
+In relation to where our project is positioned on the Technology Readiness Levels (TRLs), table 2 below provides a 
+summary of t he starting TRL of each of the different core project components and the expected TRL advance come 
+the end of the action. 
+Table 2: TRLs advancement for the major knowledge/technology components of the project 
+Description WP TRL at 
+project 
+start 
+TRL at 
+project 
+end 
+Explanation 
+Crop management using 
+biopesticides 
+1 TRL4 TRL6 Crop management advice for the use of 
+biopesticides based on large field trials 
+Crop management using 
+biofumigation 
+1 TRL3 TRL5 Crop management advice for the use of 
+biofumigation based on large field trial 
+Atoxigenic Aspergillus strains for 
+crop management in Serbia 
+1 TRL3 TRL5 Atoxigenic Aspergillus strains isolated from the 
+area, available for use in maize 
+CO2 silo monitoring solution  2 TRL4 TRL6 An integrated platform will be field validated in silos 
+Innovative fig sorting 2 TRL3 TRL5 Sorting technique validated in pilot plant 
+Innovative milling solution 2 TRL3 TRL5 Milling techniques validated in pilot plant 
+Novel enzymes in biofuel production 2 TRL4 TRL6 Mycotoxin degrading enzymes and microorganisms 
+tested for efficient production of safe DDGS and 
+biofuels  
+Web-based cloud platform- 
+MyToolBox DSS 
+3 TRL5 TRL6/7 The MyToolBox e-platform will be built and scaled 
+up from alpha to a beta version that will be validated 
+with the target group under real conditions  
+Forecasting models available for 
+mycotoxin  prediction in cereals 
+(including maize) 
+3 TRL3 TRL5 Forecasting models validated with data collected in 
+project 
+ 
+Linkage with national and international research 
+The MyToolBox consortium will not work in isolation . The project will build on the positive achievements of the 
+substantial EU -funded research previously conducted on mycotoxin contamination in the food and feed chain. 
+ SFS-13-2015 
+ 
+ MyToolBox 13 
+Several of MyToolBox consortium members have coordinated previous EU mycotoxin -related projects or led major 
+WPs- in projects such as MYCORED (http://www.mycored.eu), QSAFFE (www.qsaffe.eu), EMTOX14 and MYCOSPEC 
+(http://mycospec.eu/de/). The consortium has also got strong linkages in research and innovation with many other 
+national, European and international projects around the world . Some 40 countries are represented through the 
+participation of partner 3 (ICC) and via the linkage to the International Society for Mycotoxicology  (ISM), of which 
+the MyToolBox Coordinator is secretary and 2016 President-Elect.  
+Thanks to the numerous national research and innovation activities the MyToolBox consortium members  are 
+currently involved in, the project will benefit from valuable input. E.g. to identify key components of Good Agricultural 
+Practice to reduce mycotoxins in primary crops (UK national funding) and to determine field trial settings for 
+Aspergillus isolates on the basis of Serbian agroclimatic conditions (Serbia national funding ); t hrough the Austrian 
+project FUSARIUM (led by BOKU) state-of-the-art multi-toxin-methods for verification of the efficacy of the developed 
+interventions at a mycotoxin level acro ss WP1-3 will be available and new insights into wheat -Fusarium-interactions 
+using novel Genomics and Metabolomics tools  (WP1) will be provided to MyToolBox; insight into the metabolism of 
+mycotoxins in plants and animals and the bioavailability of masked/ conjugated mycotoxins will be considered for t he 
+studies on conjugation and reduction of mycotoxins through thermal processing and safe -use option fermentation 
+processes in WP2 (Austria, national Christian Doppler Foundation through BOKU).  
+The Project Advisory Board (AB) will include various international organisations (who already agreed to join the 
+MyToolBox AB – see 3.3 and LOIs in the Annex) representing the European food and feed industry (e.g. Copa-
+Cogeca, FEFAC, EUFETEC, INC, FEFANA, Global Food Safety Partnership ) as well as international experts  on 
+mycotoxin prevention and control (e.g. from USDA, EFSA, FAO, CODEX, DG SAN TE, ISM). The AB will link this 
+project to other international networks facilitating further scientific and practical advice t o MyToolBox. e.g. advisory 
+board member Peter J. Cotty (USDA & University of Arizona) will allow us to access USDA´s expertise on atoxigenic 
+strains of A. flavus  as biological control agents and its projects funded by the Bill & Melinda Gates Foundation, 
+relevant to WP1; CAAS and its Institute of Agro -Products Processing Science and Technology  (CAAS-IAPPST), will 
+link the results of their current research projects (~€8 Mio national funding), dealing with mycotoxin formation and its 
+prevention and control in  grains and cereals, to the research carried out in WP1 and 2.  New relations and 
+collaborations will be forged with other relevant projects over the course of the project with the view to maximising 
+synergies and establishing an enduring scientific relationship with China. 
+Positioning of the project 
+The proposed innovative pre - and post-harvest reduction strategies along with the developed measures throughout 
+the entire food and feed chain will be tested and validated in the field by end users . Moreover, th e web-based 
+decision support system (DSS) MyToolBox Platform will be deployable on -line and accessible through all mobile 
+interfaces. It will be accompanied by precise procedures for the stakeholders on how to maintain and update the 
+content of the MyToolBox e -platform in future. A major strength of the web-accessible MyToolBox  is that it is not 
+designed as an end-point but as a flexible system based on the ’continuous improvement’ approach. This means that 
+relevant new data can be included at any time to ensure that the system makes use of the newest insights. By the end 
+of the project, the MyToolBox e-platform will provide all actors in the food/feed supply chain with solutions on how to 
+control mycotoxins and on safe use options for contaminated batches. 
+Gender analysis 
+Gender issues are important in that women's work and women's lives all over the world have long been intertwined 
+with food. To this end, in relation to business behaviour, gender analysis will also be important, especially in view of 
+growing trends and commitments to see more women occupy high level and decision -making positions in industry. 
+Consequently, sex and gender analyses will be addressed throughout our work plan , especially in relation to co -
+creation opportunities and ensuring femal es are included in the innovation cycle to give input and feedback to shape 
+the research and its outputs where required. More specific attention will be paid to gender issues in WP2 in case of 
+introduction of automated sorting techniques for figs in Turkey. Traditionally this work is carried out by hand by women 
+and the required work circumstances, in the dark under UV light, is potentially harmful to their health.  If we are 
+successful with automated sorting techniques it would improve the health and safety  of the female workforce. 
+However, automation might push women out of work and, therefore, specific attention will be paid to involving 
+women in the operating of the automatic sorting systems.  
+                                                        
+14 http://www.moh.gov.cy/moh/sgl/emtox.nsf/emtox01_en/emtox01_en?OpenDocument 
+ SFS-13-2015 
+ 
+ MyToolBox 14 
+Moreover, we understand that inventions and developments that incorporate the smartest aspects of gender can open 
+new markets and enable innovation in products, processes, services, or infrastructures. Indeed, products that meet the 
+needs of complex and diverse user groups enhance global competitiveness and sustainab ility15. Inspired by how 
+taking gender into account has yielded new research results and sparked creativity, opening new avenues for future 
+research for those who give it serious attention16. During the work plan, gender analysis will be addressed in relation to 
+the User Interface of the MyToolBox e-platform, whereby graphic designs of the interface will be consulted with both 
+men and women during the design phase in WP3, and posterior alpha and beta versions will be trialled by both sexes. 
+Females are also key decision makers in relation to household consumption patterns in many households, and as 
+such communication activities targeting the general public and consumers will need to consider gend er aspects. It is 
+important to highlight that within the consortium itself, there is a balanced mobilisation of women and men across 
+the work packages , working both in senior and early career positions. Moreover, a number of key management 
+positions in the  consortium are occupies by females: Scientific Manager, IPR Manager, Dissemination Manager, WP 
+Leaders and Task Leaders. Gender issues will also be addressed during recruiting of new staff and in regard to career 
+progression.
+1.4 Ambition 
+Ground-breaking nature of concept and approach 
+The MyToolBox project will not only pursue mycotoxin reduction in the field-to-fork approach, specifically addressing 
+wheat, oats, maize, peanuts and dried figs, but will also go beyond that by considering safe use options of  mycotoxin 
+contaminated batches such as microbial energy conversion to efficiently produce biogas, bioethanol and safe DDGS . 
+Up to now, different agricultural strategies including crop rotation, tillage practices, fungicide application and the use of 
+resistant plant cultivars have been used to reduce the impact of fungal infection of crops and subsequent mycotoxin 
+formation. As none of these strategies by themselves have been able to efficiently reduce the impact of fungal 
+infection, a novel integrated appr oach will be pursued, which also takes climate change into account. Consequently, 
+MyToolBox will combine a series of integrated pre- and post-harvest measures (see “beyond state -of-the-art” below), 
+which shall enable a 20 -90% reduction (depending on the ty pe of commodity and intervention) in losses of 
+crops due to fungal and my cotoxin contamination.  The consideration of the entire chain (soil-field-crop-food 
+processing-waste management-alternative energy) to ensure food & feed security and safety within a sustainable 
+economic environment, is the major ambition behind MyToolBox. The outcomes of the project including novel 
+interventions will be assembled in a web -accessible MyToolBox e -platform that provides multiple information  to 
+support decision-making in mycotoxin management by all actors along the food chain (farmers, processors, feed 
+suppliers or manufacturers from the food and feed industry). The  constant loop back to the MyToolBox end users 
+representing SME and large agricultural industries (Agrocentrum Becej and Agro LV., resp.) as well as the  food 
+(Barilla) and feed sector (end user & partner Agrocentrum and FEFANA as member of the Advisory Board) and the 
+crop energy industry (Suedzucker) accompanied by an established world-wide communication platform (ICC) will 
+ensure maximum interaction and practical applicability of the developed techniques and measures. 
+The web-based MyToolBox platform is based on the latest ICT technologies and platforms, as well as computational 
+tools, and makes it possible to: a) integrate multiple and asynchronous information/data sources, both dynamic and 
+static; a) perform complex analyses based on these multiple sources and advanced modelling techniques; and c) 
+transform this complexity into simple and intuitive information to final users to support the decision -making process. 
+The first dynamic component of the platform  is based on crop monitoring at the single plot level . The crop 
+environment is continuously monitored by sensors (e.g., weather and soil sensors) that send the environmental data to 
+the remote MyToolBox server. At the same time, growers and advisors (i.e., the users) use handheld devices (such as 
+tablets or smartphones) to monitor the status of the crop and look at the outbreaks  of relevant pest and diseases. 
+These data, together with plot-specific information (such as the variety, the previous crop, etc.), are used as inputs for 
+mathematical models capable of predicting Fusarium Head blight (FHB) development and potential mycotoxin 
+contamination. The model outputs are provided in real -time to users via an easy -to-use web-based user interface for 
+informed decision-making about the optimal use of external inputs (e.g., fungicides) in such a way to preserve farm 
+income and red ucing the negative impacts on the environment. Prediction of mycotoxin contamination also provides 
+information for the dynamic design of optimised sampling plans for: a) determination of mycotoxins in grain batches at 
+the reception in the storage centre; and b) managing the post-harvest handling of grains accordingly. 
+                                                        
+15 http://ec.europa.eu/research/science-society/gendered-innovations/index_en.cfm 
+16 Schiebinger L. 2008. Gendered Innovations in Science and Engineering. ISBN: 978080475814. 
+ SFS-13-2015 
+ 
+ MyToolBox 15 
+The second dynamic component  also involves the post -harvest handling of grains. This component is based on 
+real-time monitoring of the environment in storage facilities  by means of a wireless sensor network (e.g., 
+temperature, humidity, CO 2). The CO 2 production is a more sensitive early indicator of the grain moisture content  
+(moisture content  [m.c.], wet weight basis) than temperature and intergranular relative humidity. Where grain/nut 
+moisture contents are above the safe levels (>15%; >8.0% m.c. respectively) CO 2 will increase due to grain, mould 
+and/or pest activity where hygiene is poor. The measured e nvironmental data are transmitted to the MyToolBox 
+central server and used to feed mathema tical models predicting the potential dynamics of mycotoxin contamination 
+under the specific storage conditions. These predictions are available for the user so that correct actions can be 
+implemented to reduce the potential risks. 
+Interventions based on G AP and HACCP derived CCPs (as well as action limits and corrective measures for these 
+CCPs) are the main component of the static part of the MyToolBox plaform. Information from multiple external 
+sources, such international standards, and the relevant EU and China legislation is also part of the static component. 
+By using MyToolBox, users can all easily access recommendations on the best choice of preventive and corrective 
+measures, as well as useful information for decision -making about the management of specific problems such as, for 
+instance, the potential corrective measures in case action levels or legal limits are exceeded, or recommendations for 
+alternative safe use in case of mycotoxin contamination above certain limits.  MyToolBox will also contain modelling 
+software that will calculate potential financial savings for the end user.  Access to the MyToolBox decision 
+support e-platform will be freely available to end users during the lifetime of the project, and its sustainability will be 
+achieved through a robust business model that will be developed during the project (that could be that of levying a 
+nominal membership fee to users) and maintenance through the participating commercial ICT-related enterprise. 
+MyToolBox advance beyond state-of-the-art 
+The advances provided by MyToolBox are beyond the state-of-the-art pre- and post-harvest interventions as explained 
+in table 3: 
+Table 3: MyToolBox - Advance beyond the state-of-the-art 
+Status quo  MyToolBox – Advance beyond the state-of-the-art 
+Minimum tillage, to minimise energy use 
+and soil erosion,  increases Fusarium 
+inoculum within cereal rotations resulting in 
+increased mycotoxin levels in harvested 
+grains compared to ploughing17. 
+More sustainable crop production using minimum tillage while 
+maintaining a high organic matter within the soil. Most promising 
+available novel cultural control strategies will be explored targeting 
+the Fusarium inoculum within crop debris with a) Brassica for 
+biofumigation18 and b) accelerated biodegradation 19 by using an 
+extract or competitive fungi20. 
+No adequate prevention of Fusarium 
+infection and the  risk of fungicide resistance 
+when using ( triazole) fungicides, and the 
+risk for endocrine disruption effects in 
+humans21. 
+The current strategy will be replaced by a combined approach for the 
+sustainable use of recently developed biopesticides 22 (permitted 
+within organic production systems) combined with agro -management 
+tools such as water and soil conservation. 
+Appropriate biocontrol agents to reduce 
+aflatoxin contamination in maize  are not 
+available for local use in South -East Europe. 
+To face climate change and thus aflatoxin contamination in EU maize, 
+a) appropriate genotypes of maize will be selected with various traits 
+(drought resistance, early mature plant cultivars) in field conditions  that 
+                                                        
+17Edwards SG. 2004. Influence of agricultural practices on fusarium infection of cereals and subsequent contamination of grain by trichothe cene mycotoxins. Toxicology 
+Letters 153, 29-35; Bernhoft A. et al. 2013. Risk Assessment of Mycotoxins in Cereal Grain in Norway; Opinion of the Scientific Steering Committee of the Norwegia n 
+Scientific Committee for Food Safety: Oslo, Norway; Ulen B. et al. 2010. Soil tillage methods to control phosphorus loss and pote ntial side-effects: a Scandinavian 
+review. Soil Use and Management, 26:94-107. 
+18 Ngala BM. et al. 2015. Biofumigation with Brassica juncea, Raphanus sativus  and Eruca sativa for the management of field populations of the potato cyst nematode 
+Globodera pallida. Pest Management Science  71:759-769; Perniola OS. et al  2014. Biological control of Fusarium graminearum : use of Trichoderma spp. and 
+biofumigation with aerial part of Brassica juncea. Revista De La Facultad De Ciencias Agrarias 46:12. 
+Hofgaard IS.  2012 Reduction in the inoculum potential of F. graminearum  on residues after treatment with Biowish crop or Trifender after sowing in spring 
+(unpublished). 
+20 Matarese F. et al . 2012. Biocontrol of Fusarium head blight: interactions between Trichoderma and mycotoxigenic Fusarium. Microbiology 158: 98-106; Palazzini JM. Et 
+al. 2013. Biocontrol and population dynamics of Fusarium spp. on wheat stubble in Argentina. Plant Pathology 62: 859–866. 
+21 Under Regulation 1107/2009 on the Placing of Plant Protectio n Products on the Market; Klix MB. et al. 2007.  Comparison of the declining triazole sensitivity of 
+Gibberella zeae and increased sensitivity achieved by advances in triazole fungicide development. Crop Protection, 26:683-690; Edwards SG & Godley NP . 2010. 
+Reduction of Fusarium head blight and deoxynivalenol in wheat with early fungicide applications of prothioconazole. Food Additives and Contaminants Part A- 27:629-
+635; Hillocks RJ. 2012. Farming with fewer pesticides: EU pesticide review and resulting challenges for UK agriculture. Crop Protection, 31:85-93. 
+22 Forrer HR. et al. 2014 Fusarium Head Blight control and prevention of mycotoxin contamination in wheat with botanicals and tannic acid. Toxins, 6:830-849. 
+ SFS-13-2015 
+ 
+ MyToolBox 16 
+Status quo  MyToolBox – Advance beyond the state-of-the-art 
+Due to global warming there is also a need 
+for drought resistant maize23 in South-East 
+Europe. Very limited information is availab le 
+for European maize genotypes. 
+are lik ely to reduce aflatoxin contamination and b) atoxigenic 
+Aspergillus strains will be used to outcompete toxigenic Aspergillus 
+strains. This will be a novel adaptation within Europe  of proven 
+technology developed in the USA and Africa and aided by collaboration 
+with the international experts from those continents.  
+At present only temperature, and sometimes 
+relative humidity (RH) are measured in silos 
+periodically or in some cases r emotely as an 
+aid to post-harvest management of stored 
+grain and other commodities24. 
+The development of a real time post -harvest Decision Support 
+System (DSS) based on a sensitive indicator of CO 2 (+ temp and RH) 
+will provide silo managers, for the first t ime, with accurate information 
+to make informed decisions  immediately based on this platform 
+technology. This component will be linked to the ICT dynamic part of the 
+MyToolBox e-platform and will become an effective post -harvest tool to 
+minimise losses from mycotoxins. 
+Sorting of dried figs  to remove 
+contaminated units is traditionally carried out 
+by hand 25. The required work 
+circumstances, in the dark under UV light, is 
+potentially harmful to the health of the 
+employees26. 
+Non-invasive real time sorting of dried figs  for mycotoxin 
+contamination, using visible and NIR spectral imaging and appropriate 
+algorithms on lab -scale, will be refined and up -scaled in practice to 
+achieve significant improvements compared to manual sorting with 5% or 
+less probability of the batch average concentration of aflatoxin B 1 failing 
+to meet the EU limits. It will also improve work circumstances 
+dramatically. 
+Milling strategies, such as debranning and 
+micronisation are efficient but individual 
+tissues of the grains are often not 
+homogeneous and not well separated.  
+By-products, usually intended for animal 
+feed but also exploitable for wholegrain food 
+products, contain about 15% proteins, 40% 
+starch and 40% fibre with levels of 
+mycotoxins which can exceed legal limits27.  
+Innovative pre -milling and milling strategies, will be  combined, up 
+scaled and implemented in MyToolBox and will allow more accurate 
+separation of grain tissues with characterized (different) mycotoxin 
+contamination levels. The synergistic potential of debr anning, 
+micronisation and dry- or wet -turbo separation  will minimise the 
+mycotoxin concentration in raw materials and the final wheat products 
+destined for the consumer.  We hypothesize a decontamination degree 
+of about 50% for each component that could then be safely employed to 
+produce any kind of cereal -based foods. Bread, pasta or biscuits could 
+therefore be added with increased fibre content, ranging from 1 to 10% 
+according to the technological requirements. 
+EFSA published terminology on masked/ 
+modified mycotoxins in 2014 and the need 
+to obtain further data on the fate of these 
+forms during food and feed processing 28. 
+Most studies conducted on the fate of 
+mycotoxins, are on lab-scale with 
+artificially contaminated material  at high 
+levels that do not ref lect practical 
+conditions29.  
+The fate of mycotoxins (incl. modified forms) in naturally contaminated 
+raw materials (with simultaneous co-occurrence of different metabolites) 
+will be monitored during thermal food processing at an industrial scale (at 
+end user Barilla) to a) obtain structural information of altered 
+chemical structures  (using newest LC -HRMS and metabolomics  
+techniques30 and to b) develop novel bakery production protocols,  
+controlling for instance fermentation, temperature/time and recipes , to 
+develop a sound basis to establish process factors for risk assessment 
+as part of a post-harvest intervention strategy. 
+ 
+                                                        
+23 Guo B. et al. 2008 Drought stress and preharvest aflatoxin contamination in agricultural commodity: genetics, genomics and proteomics. J Integrative Plant Biol. 50:1-
+31. Williams WP. et al. 2011. Ear rot, aflatoxin accumulation, and fungal biomass in maize after inoculation with Aspergillus flavus. Field Crops Research 120:196–200; 
+Gardner HD. et al. 2007 Diallel analysis of aflatoxin accumulation in maize. Field Crops Research 102:60–63; Abbas HK. et al. 2006. Aflatoxin and fumonisin 
+contamination of corn (maize, Zea mays) hybrids in Arkansas. Crop Protection 25:1–9. 
+24 McIntosh RB. & Casada ME. 2008 Fringing field capacitance sensor for measuring the moisture content of agricultural commoditi es. IEEE sensors J. 8, 240 -247; 
+Agrolog Temperature Monitoring System: DAN-CORN A/S, Mimersvej 5, DK-8722 Hedensted, Denmark ( www.dancorn.com). 
+25 Patel KK. et al. 2012. Machine vision system: a tool for quality inspection of food and agricultural products. J Food Sci Tec hnol. 49:123–141; Ozluoymak OB. et al. 
+2014. Development of a UV-based imaging system for real-time detection and separation of dried figs contaminated with aflatoxins. J Agric. Sciences 20:302-316,2014; 
+Benalia S. et al. Automatic sorting of dried figs based on computer vision system, VII Congreso Ibérico de Agroingeniería y Ciencias Hortícolas 
+26 Ichihashi M. et al. 2003. UV-induced skin damage. Toxicology. 189:21–39; Lavker RM et al. 1995. Cumulative effects from repeated exposures to suberythemal doses 
+of UVB and UVA in human skin . J American Academy of Dermatology. 32:53 –62, 1995; Kammeyer A.& Luiten RM. 2015. Oxidation events and skin aging. Ageing 
+Research Reviews. 21:16–29. 
+27 Delcour JA. et al. 2012. Technologies for enhanced exploitation of the health-promoting potential of cereals. Trends in Food Science & Technology 20, 1-9. 
+28 European Food Safety Authority (EFSA) 2014. Opinion of the Scientific Panel on Contaminants in the Food Chain on a request fr om the Commission related to the 
+presence of modified forms of certain mycotoxins in food and feed. The EFSA Journal, 12(12), 3916 
+29 Valle-Algarra FM. et al. 2009. Changes in ochratoxin A and type A and type B trichothecenes contained in wheat flour during dough fermentation and bread mak ing. 
+Food Addit Contam Part A.  26:896-906; Voss KA. & Snook ME. 2010. Stability of the mycotoxin deoxynivalenol (DON) during the production of flour -based foods and 
+wheat flake cereal. Food Addit Contam Part A. 27:1694-1700; Meca G. et al. 2013. Beauvericin degradation during bread and beer making. Food Control 34:1-8. 
+30 Kluger B. et al. 2014. A novel stable isotope labelling assisted workflow for improved untargeted LC–HRMS based metabolomics research 10:754-769. 
+ SFS-13-2015 
+ 
+ MyToolBox 17 
+Maize based DDGS can be contaminated 
+with high levels and a broad spectrum of 
+mycotoxins31 resulting in losses in feed 
+production. Micro -organisms can degrade 
+mycotoxins but the adequacy for a safe use 
+to efficiently produce biogas32 and 
+bioethanol33 by fermentation of mycotoxin 
+contaminated batches must still be given. 
+The performance of specific mycotoxin -degrading microorganism 
+strains34 and novel enzymes provided by partner Biomin, on the 
+detoxification of DON , ZEN and fumonisins  (Commission Implementing 
+Regulation (EU) Nr. 1016/2013) during biogas and bioethanol production 
+will be evaluated. Recently available, novel enzymes  will b e used in 
+technical scale fermentation processes  to study the use of 
+mycotoxin contaminated batches in biofuel production  (partner: end 
+user Suedzucker)  and to investigate the effect on the (decreased) 
+mycotoxin content in the DDGS by-product. 
+Previous projects and standards (GAP, 
+HACCP) in the area of crop production 35 and 
+mycotoxin reduction provided either isolated 
+solutions rather than integrated 
+approaches or have not involved end 
+users representing the major food/feed/crop 
+energy/ fruit and grain in dustry as full 
+partners. 
+A fully integrated multi-actor approach with end user involvement is 
+envisaged: The outcomes of the MyToolBox project with novel 
+intervention strategies will be assembled in the web-accessible 
+MyToolBox decision support system (DSS ) or e -platform based on 
+new ICTs, which provides multiple information to support decision -
+making in mycotoxin management by all actors along the food chain and 
+enables to integrate multiple and asynchronous information/data sources, 
+both dynamic and stati c. The incentives of all actors in the food/feed 
+supply chain will be studied and used to build MyToolBox to maximise 
+the opportunities for practical use of the platform by the stakeholders in 
+and beyond the project. 
+Weather-driven forecasting models have 
+been developed in some countries 36, mostly 
+to predict Fusarium head blight  and/or 
+DON contamination in wheat. Most of these 
+models are empirical, and few are 
+mechanistic37. Some models for mycotoxin 
+contamination in maize were also developed 
+within the  EU-project MYCORED on which 
+MyToolBox will build on. DONCast is 
+available in Europe but only accessible to 
+end users linked to one specific 
+agrochemical company  (www.doncast.eu/). 
+These models were validated to a limited 
+extent, mainly in the regions where they have 
+been developed38. 
+For DON in wheat and aflatoxins in maize, available  forecasting models 
+will be evaluated for performance, and extended such they cover the 
+most important wheat and maize growing areas in Europe. Enlargement 
+of existing models  to include  additional regions, cereals (oats), fungi 
+and mycotoxins.  
+Effective integration of both existing empirical and mechanistic 
+models (see this table) and their extensive cross -validation to provide 
+the end users with a real time decision support system based on a 
+multiple-model platform  and novel monitoring techniques. This 
+forecasting system will allow both short term decision regarding fungicide 
+application and harvest timing, as well as long term planning. 
+Innovation potential 
+                                                        
+31  Zachariasova M. et al. 2014. Occurrence of multiple mycotoxins in European feedingstuffs, assessment of dietary intake by farm animals. Anim Feed Sci Tech 
+193:124–140; Renewable fuels association (2014) URL: http://www.ethanolrfa.org/ (accessed 20.11.2014); Wu F. and Munkvold G.P. (2008) Mycotoxins in ethanol co-
+products: modeling economic impacts on the livestock industry and management strategies. J Agric Food Chem 56:3900-3911; Zhang Y. and Caupert J. (2012) Survey 
+of mycotoxins in U.S. distiller’s dried grains with solubles from 2009 to 2011. J Agric Food Chem 60:539-543; Schaafsma, AW et al. 2009 Mycotoxins in fuel ethanol co-
+products derived from maize: A mass balance for deoxynivalenol,. J.Science of Food and Agriculture. 89: 157-1580 . 
+32 Hanschmann G.  2008. Versuch zum Verhlaten von DON in einer Biogasanlage 
+http://www.landwirtschaft.sachsen.de/landwirtschaft/download/DON_Belastg_inBGA_2008BfUL.pdf 
+33 Kłosowski G. 2010 The influence of raw material contamination with mycotoxins on alcoholic fermentation indicators; Bioresource Technology 101: 3174-3152. 
+34 Vekiru E. et al. 2010. Cleavage of Zearalenone by Trichosporon mycotoxinivorans to a Novel Nonestrogenic Metabolite. Applied and Environmental Microbiology, 76, 
+2353-2359. 
+35 Coceral/Cogeca. 2010. European Good Hygiene Practices Guide for the collection, storage, trading and transport of cereals, oilseeds  and protein crops, 95 pp.; Codex 
+Alimentarius CAC/RCP 51 -2003 Code of Practice for the Prevention and reduction of mycotoxin conta mination in cereals, including Annexes on ochratoxin A, 
+zearalenone, fumonisins and tricothecenes; EU Recommendation (EU) No 583/2006 on the prevention and reduction of Fusarium toxins in cereals and cereal products; 
+HGCA. 2002. Practical guidelines to minimise mycotoxin development in UK cereals, in line with forthcoming EU legislation, using the correct agronomic techniques and 
+grain storage management. Project report No.289, 65 pp.; Van der Fels-Klerx HJ. & Booij CJH. 2010. Managing mycotoxins in the cereal supply chain using geographic 
+information. J Food Prot. 73:1153-1159. 
+36 Van der Fels-Klerx HJ et al. 2012. A model to estimate deoxynivalenol contamination of wheat in north western Europe for use in climate change impact assessment. J 
+Food Prot 75:1099 -1106; Van der Fels -Klerx HJ. et al. 2010. Descriptive modeling to predict deoxynivalenol in winter wheat in The Netherlands. Food Add. Contam. 
+Part A 27:636-643; Rossi V. et al. 2003. A model estimating the risk of Fusarium head blight on wheat. Bull. OEPP/EPPO Bull. 33:421–425; Landschoot S. et al. 2012. 
+Ordinal regression models for predicting deoxynivalenol in winter wheat. Plant Pathology 62:1319-1329. Hooker DC. et al. 2002. Using weather variables pre- and post-
+heading to predict deoxynivalenol content in winter wheat. Plant Disease. 86:611 –619; Schaafsma AW. & Hooker DC. 2007. Climatic models to predict occurrence of 
+Fusarium toxins in wheat and maize. Int. J. Food Microbiol. 119:116–25. 
+37 Van der Fels-Klerx HJ & Booij CJH. 2010. Managing mycotoxins in the cereal supply chain using geographic information. J. Food Prot. 73:1153-1159; Van Asselt ED et 
+al. 2012. Modeling mycotoxin formation by Fusarium graminearum in maize in the Netherlands. Food Addit. Contam. A 29:1572-1580. 
+38 Prandini A. et al. 2009. Review of predictive models for Fusarium head blight and related mycotoxin contamination in wheat. Food Chem. Toxicol. 47: 927–31.  
+ 
+ SFS-13-2015 
+ 
+ MyToolBox 18 
+The MyToolBox project has high innovation potential and will produce new products and services that can be 
+marketed and patented, as it will lead to:  
+ A user-friendly and sustainable multi -actor decision support system (DSS) to reduce mycotoxin contamination in 
+the food and feed supply chain, that takes into consideration the user requirements and desired user experience of 
+our target end -users (that will include farmers, grain silo managers, food and feed production managers, among 
+others) 
+ Effective production and applic ation of atoxigenic fungal strains to use for biocompetitive exclusion of toxigenic 
+strains in the field in the EU. 
+ Application of “next generation” advanced models to forecast fungal growth and mycotoxin formation in the field. 
+ Procurement of alternatives  to conventional fungicides (bio -pesticides), to effectively combat fungal growth in the 
+field. 
+ Availability of real-time environmental monitoring systems in storage facilities for post-harvest mycotoxin control.  
+ Applicability of innovative sorting, milling and baking strategies to increase the safe use of mycotoxin-contaminated 
+batches for food and feed. 
+ Insight into the fate of mycotoxins during industrial milling and baking operations to facilitate science -based 
+decisions about possible derogations and fine-tuning of current EU-legislation on mycotoxins. 
+ Optimised processes for mycotoxin reduction in DDGS, to enable better valorisation of these materials for feed use 
+and efficient production of biofuels. 
+ Updated standards for Good Agricultural Practice and safe food and feed storage and production. 
+Exploitation of the project results is the most direct way of gaining commercial benefits, such as new 
+products/services, increased profitability and industry growth, as well as socio -economic benefits suc h as 
+sustainability, jobs and competitiveness. A strong impact -oriented approach to our project ensures that from the 
+outset activities are in place to plan for the future use and sustainability of the project’s outputs. As such, a sound 
+business model wil l be developed  in order to ensure the viability of the proposed platform as a sustained 
+MyToolBox e-platform that will be used for many years to come in the European crop production, food and feed supply 
+chains and this will be fundamental for ensuring the long-term impacts of the project. 
+To conclude, MyToolBox is clearly an ambitious proposal  with many goals set at different points of possible 
+interventions at the pre- and post-harvest levels and through-out the food chain. It is our intention to co-operate with 
+and to avoid duplication of research carried out in running major mycotoxin reduction programmes  (especially 
+in the area of resistance breeding against Fusarium Head Blight) and to come up with a proposal in cooperation with 
+major end users and SME s which addresses commonly identified scientific and technical gaps in mycotoxin 
+reduction in various stages within the food and feed chain as identified by the end users . We are aware of the 
+ambitious nature of our project goals but are convinced that all  the goals defined in the proposed project 
+MyToolBox are re alistic for 3 major reason s: 1) The multi -actor based consortium involves the relevant 
+international experts from farming, industry and academia, 2) the current state -of-the-art and the knowledge gained in 
+recent (inter-)national projects will be taken into account and cooperation will be realised with other ongoing activities 
+in the area of mycotoxin reduction and 3) for nume rous objectives set in MyToolBox we will not have to start from 
+scratch but will build on existing knowledge and achievements of the project partners being involved in 
+MyToolBox as e.g., a pre -selection of biopesticides (partner Axeb), significant expertis e and high -performance 
+industrial instrumentation in pre -milling (Barilla) or novel enzymes to be employed in biofuel production as a safe 
+option of contaminated batches (Biomin , Südzucker) – all being available to MyToolBox from the very beginning 
+of the project. 
+2. Impact
+2.1 Expected impacts  
+MyToolBox mobilises a multi-actor partnership  (farmers, technology SMEs, food and feed industry, policy 
+stakeholders and academia) to develop novel interventions aimed at achieving a 20 -90% reduction in crop losses 
+due to fungal and mycotoxin contaminatio n. MyToolBox will not only pursue a field -to-fork approach but will also 
+consider safe use options of contaminated batches, such as the efficient production of biofuels. A major component 
+of MyToolBox, which also distin guishes this proposal from previous efforts in the area mycotoxin reduction, is to 
+provide the recommended measures to the end users along the food and feed chain in a web-based MyToolBox. 
+Cutting edge research will result in new interventions, which will be integrated together with existing measures in the 
+ SFS-13-2015 
+ 
+ MyToolBox 19 
+MyToolBox that will guide the end user as to the most effective measure(s) to be taken  by farmers to reduce crop 
+losses. We will focus on small grain cereals, maize, peanuts and dried figs, applicable to agricultural conditions in EU 
+and China. Crop losses using existing practices will be compared with crop losses after novel pre -harvest 
+interventions including investigation of genetic resistance to fungal infection, cultural control, the use of novel 
+biopesticides (organic-farming compliant), competitive biocontrol treatment and development of forecasting models to 
+predict mycotoxin contamination. Res earch into post -harvest measures including real -time monitoring during storage  
+(on farm grain silos, silo stores in food processing plants, silo centres, etc.) , innovative sorting of crops using vision -
+technology and novel milling technology will enable ce reals with higher mycotoxin levels to be processed without 
+breaching regulatory limits in finished products. Research into the effects of baking on mycotoxin levels will provide a 
+better understanding of process factors which influence both the mycotoxin levels and the formation of conjugated and 
+other modified forms of these toxic secondary metabolites.  Involvement of leading institutions from China is aimed at 
+establishing a sustainable cooperation in mycotoxin research between the EU and China. 
+The MyToolBox project will contribute to each of the expected impacts of SFS-13-2015 as follows: 
+a) A toolkit (plant resources, management tools, technologies) to effectively monitor and reduce the 
+incidence of mycotoxin contaminants in crop production as well as in the food and feed supply chains 
+MyToolBox mobilises a multi-actor and multi-disciplinary partnership throughout the food and feed chain (with 43% 
+industry participation including 5 end users and Chinese institutions who collaborate closely with farmers and other 
+relevant stakeholders from the industry ) to develop novel interventions aimed at achieving an increased volume of 
+safe food and feed in the EU by a reduction in crop losses due to biological (fungal) and mycotoxin contamination, 
+of at least 20% and up to 90% - depending on the type of commodity and point of intervention - due to biological 
+(fungal) and mycotoxin contamination. Cutting edge research will result in n ew and adapted interventions, which will 
+be integrated together with existing measures in a web -based MyToolBox platform. It will represent a one-stop-shop 
+MyToolBox web-based platform and will consist of information and advisory modules, management tools, as well as 
+technologies that equip farmers and all other actors in the food and feed supply chain with systematic/pro -active, cost 
+effective, affordable approaches for effective monitoring and reducing the incidences of mycotoxin 
+contaminants in crops , fo od and feed, and reducing the dependence on expensive, wasteful end -point 
+testing/segregation. Since MyToolBox will be a sustainable web-based platform that will be readily accessible by all 
+actors in the EU food and feed chain beyond the project, this impact will last for many years to come in the EU and 
+will ensure the long-term impacts of the project.  
+The pre-harvest impact will be measured by comparing the achieved reduction in mycotoxin content and increase in 
+yield in field trials between the convent ional agricultural systems to the new designed systems. The use of 
+biopesticides and biofumigation or debris treatment in EU field trials should each reduce the deoxynivalenol 
+level in wheat by  50%39, the combined effect is yet unknown. In EU field trials t he aflatoxin content of resistant 
+maize cultivars will be compared to the aflatoxin content of susceptible cultivars, which is expected to be lower than 
+the 70% achieved by other s40. The aflatoxin contents of maize (EU) and peanuts (China) after treatment with 
+atoxigenic fungal strains will be compared to non-treated crops in field trials. The aim is to achieve a 90% reduction in 
+aflatoxin contamination41. 
+The post-harvest impact will be measured by comparing the achieved reduction in mycotoxin content of cereals in 
+trials in grain silo’s using real -time sensors compared to conventional practices. This would contribute to approx. 15% 
+savings (~ 100 Mio Euro/year). While it is impossible to accurately determine the reduction in costs, it is estimated that 
+cost for monitoring will be reduced by at least 30% in all stages of the food and feed supply chain. This impact will 
+be measured by comparing the estimated current cost for monitoring by EU governments and industry to the new 
+designed monitoring models.  
+The novel non -invasive real time sorting of dried fruit (figs)  will achieve a 5% or less probability of the batch 
+average concentration of aflatoxin B 1 failing to meet the EU limits as compared to conventional sorting. The 
+developed innovative milling and baking techniques will result in, resp. 50 and 15% mycotoxin reductions in the 
+finished food products. The effect of the use of enzymes on mycotoxin reduction  during biofuel production will be 
+assessed in trials with and without adding the enzymes. Impact will be a reduction of the DON and fumonisin content 
+to 4% of the mycotoxin level (DON) achieved by conventional production (Project ENERCYCLE). 
+b) Contribution to legislation and standard setting  
+                                                        
+39 Paul P.A. et al. 2008 http://apsjournals.apsnet.org/doi/abs/10.1094/PHYTO-98-9-0999. 
+40 Windham G.L. and Williams W.P. (1998) http://apsjournals.apsnet.org/doi/abs/10.1094/PDIS.1998.82.3.281. 
+41 Dorner J.W. 2004. http://informahealthcare.com/doi/abs/10.1081/TXR-200027877. 
+ SFS-13-2015 
+ 
+ MyToolBox 20 
+At a European level , MyToolBox will anticipate potential legislative implications of the project outputs  and 
+therefore work with relevant bodies such as EFSA, DG SAN TE and the Chinese Ministry of Agriculture (MOA) for 
+standard setting. Compliance assessment will be undertaken of maximum levels in the feed/food chain for selected 
+examples which will lead to identification of points to be changed in legislation/standards in order to implement the 
+MyToolBox e-platform and analysis/discussion of benefits and drawbacks and making regulatory impact assessment. 
+Our pan-European approach will have impact on European cohesion, in particular in raising food safety standards in 
+New Member States, as well as in candidate Countr ies, such as Serbia which faced severe food safety and social 
+problems due to aflatoxin contamination in maize in 2013. Our pre-harvest research on maize will help Serbian 
+farmers to conform to EU legal limits, and hence aiding Serbia's aim to increase foo d and feed safety and to 
+facilitate entry to the EU. 
+The project will also provide new information on the presence of mycotoxins and their modified forms that are formed 
+during food processing which will be forwarded to EFSA as a relevant contribution for the overall risk assessment of 
+mycotoxins in foods. 
+Together with our partner CAAS-FRI from the Chinese Academy of Agricultural Sciences  and the Chinese 
+Ministry of Agriculture  (MOA), under the auspices of FEFANA, we aim to contribute to the standard setti ngs for 
+authorization of mycotoxin -detoxifying feed additives in China. Current guidelines (e.g. from EFSA) for the 
+registration of detoxifying feed additives in the European Union will serve as examples for possible adaptions 
+of Chinese legislation.  As a basis in vivo experiments will be performed to assess the efficacy of detoxifying feed 
+additives under local Chinese conditions  based on the guidelines established in the EU . Thus, our activities will help 
+European producers of mycotoxin-degrading feed additives to gain broader access to the Chinese market as well as 
+to contribute to an improvement of Chinese legislation. 
+c) Safe use options for contaminated batches 
+Implementing MyToolBox will reduce the number of incidents and crises in EU related to mycotoxin contamination in 
+crops, food and feed, thus limiting crop losses because it enables all actors in the  farming, food and feed supply chain 
+to effectively monitor contamination and use the decision support tools to take immediate actions to prevent further 
+deterioration and to direct contaminated batches to appropriate use. Use of MyToolBox in countries exporting to the 
+EU will lead to less border rejections in EU, thus saving food and feed, besides from improving food and fe ed 
+sustainability in the country of export. Despite increased crop production with an increased part of food and feed 
+quality, a certain volume of crop will remain unfit for consumption. Part of this volume can be brought to food or feed 
+quality by applying the novel sorting and milling techniques developed in MyToolBox. The impact will be measured 
+by comparing the volume fit for food/feed between the conventional and novel processing techniques. The still 
+remaining volume of mycotoxin contaminated grains unfit for further physical processing for food/feed will be subjected 
+to innovative bioethanol production  using e.g. novel mycotoxin degrading enzymes  to allow the DDGS by-
+product still to be used as feed  component. Impact of this measure will be a 10-30% improved efficiency of the 
+biofuel production due to the improved fermentation process which will at the same time lead to low levels or even 
+mycotoxin free DDGS . The outcome of these MyToolBox studies could also positively contribute to the current 
+food vs fuel debate as mycotoxin contaminated batches could then be safely employed to produce biofuels on the 
+one hand and high quality DDGS on the other hand. 
+d) Reduced occurrence of mycotoxin contamination in crops in order to improve productivity and 
+competitiveness of European agriculture and food sectors 
+Maintaining the competitiveness of the industry at European -level is critical for economy, growth and jobs in many 
+rural locations that are dependent on a healthy agro -food industry. Increasing the c ompetitiveness in the food and 
+agricultural sector is of key strategic interest to the EU, which in 2010 invested €43.8 billion into Agricultural 
+expenditure and direct aid 42. Moreover, by 2050, food production will need to be 70% higher  than at present to 
+satisfy the world demand, whilst faced with a limited increase in arable land and other natural resource constraints 43. 
+Productivity therefore needs to be increased. Currently, the economic consequences of mycotoxins in terms of food 
+and feed losses, increase of the cost of inspection and analyses, etc., are considerable, and lead to costs in  billions of 
+€ annually to the European and global food supply chain44,45,46. 
+                                                        
+42 http://ec.europa.eu/budget/library/publications/budget_in_fig/dep_eu_budg_2010_en.pdf. 
+43 http://www.ecpa.eu/event/food/outlook-eu-agriculture-causes-constraints-and-challenges-productivity 
+44 Waller M. and Williams G. (1996) Mycotoxin economics. Feed Manag 47: 23-25. 
+45 USDA (1999) Grain fungal diseases and Mycotoxin. Reference pp 6-28. 
+ SFS-13-2015 
+ 
+ MyToolBox 21 
+Without doubt, the pan -European deployment of the outputs of the MyToolBox project will have a marked impact on 
+improving the productivity  of our EU agriculture and food and feed sector, by providing pre -harvest interventions 
+undertaken at farm level, toge ther with post-harvest interventions undertaken from storage through to processing into 
+the finished food or feed product to prevent yield and monetary losses due to mycotoxin contamination, through 
+prevention, reduction and reuse strategies. In economic a nd job creation terms, should the deployment of MyToolBox 
+achieve a reduction of 5% of the annual EU losses due to mycotoxins (estimated at €2 bn), we could save the 
+industry and the economy €100 million per year, the equivalent of 830 jobs directly  (based on average capital 
+intensity in the industrial sector of €120k per job per annum 47). To this end, from 2020 (when the MyToolBox platform 
+will be widely deployed) to 2030, the project could have contributed to reductions in EU mycotoxin losses of €1 bn, 
+safeguarding over 8300 jobs. In relation to wealth and new job creation attributed to growth, should the EU be able to 
+add even 1 cent per ton to the value of the cereals it produces, this would generate €28.5 M per annum, which would 
+yield €285 M by 2030, le ading to the creation of some 2375 new jobs (based on the 2010 volumes of cereals 
+produced- 285.2 million tons of cereals). 
+If we consider, for example, that  wheat and maize  account for 68% of cereals grown within the EU with an annual 
+production of over 200 million tons. With annual losses due to mycotoxins estimated at 5-10%, this accounts for a loss 
+of €1.2-2.4 billion for wheat alone. A reduction of losses  of even 1% would save €12 -24 million annually, but would 
+also provide an additional 66 -133 thousan d tons of wheat, which would have major implications for improved 
+productivity, food security, as well as reduce the carbon footprint of EU agriculture. With average reduction by 20 -
+50% of current losses in wheat due to Fusarium mycotoxins alone, which is the impact achievable through 
+MyToolBox for wheat,  yielding cost savings in the multi -millions € per year. The effects as a result of unexpected 
+contamination of maize with aflatoxins can be even more severe: the long term costs for aflatoxins contaminated  
+maize based feed are estimated to cost Serbia hundreds of millions € per year. It is expected that post-harvest 
+losses, due to mould spoilage and mycotoxins, pests in food/feed chains, in the EU will be reduced by at least 15%, 
+representing value of £75M-100. In addition, the achievable impact of MyToolBox could reduce the border rejections 
+by at least 30%  due to prevention of moulds/mycotoxins during shipping transport (current mould/mycotoxins 
+represent 30-40% of all EU border rejections, representing a losses of ca. 30-40 Mio€ per annum).  
+In 2013 about 5.2 million m³ of bioethanol were produced in Europe (and 88.8 million m³ worldwide), with almost 
+exclusively grains as a feedstock, resulting in a production of about 4.2 million tons of DDGS in Europe. We estimate 
+the losses in feed production due to mycotoxin contaminated DDGS to be in the range of €15 -20 million 
+annually for the swine industry alone. The major end user,  Suedzucker, one the world´s greatest producers of 
+sugar and operating one of Europe´s largest bioethanol production plants, participates in MyToolBox based on the 
+expected impact of reduced waste  by a) significantly lowering mycotoxin levels in DDGS, b) 10-30% improved 
+efficiency of the bioethanol production c) increased market value (>10%) of mycotoxin free DDGS. In short, the 
+potential for reducing mycotoxin-related yield- and economic- losses in the EU agriculture and food sector will directly 
+impact on  productivity and competitiveness and will open up the potential for further investments and 
+innovation in these sectors as a result of increased profitability.  
+e) Reduced risks for human and animal health, and thus increase consumer confidence in agro -food 
+products 
+The impact of MyToolBox will be a decreased risk for human and animal health in the EU,  due to a reduction of 
+the mycotoxin levels in food and feed and, at the same time an increase in volume of safe food and feed  
+produced in the EU. The benefits of MyToolBox for consumer and market confidence in agro-food products will be 
+high due to effective communication of the results of this project to the general public, retailers, policy makers and 
+stakeholders. With between 25 and 50% of global food and fe ed sources affected by mycotoxin contamination, this is 
+a major food safety hazard. As food safety is the key criteria by which consumers judge quality 48, it needs to be 
+safeguarded from farm-to-fork. 
+Impacts of MyToolBox will be  the reduced number of incidents and more transparent supply chain , due to 
+improving pre- and post-harvest measures and a more reliable monitoring of crops for mycotoxin contamination and, 
+most important, better communication among the EU -28. The impact will lead to a reducti on in RASFF notifications 
+thus saving a lot of effort and money on control and issue management. Moreover, it will improve consumer trust in 
+imported food and feed. EFSA will be member of the advisory board to safeguard the interests of the consumer. 
+                                                                                                                                                                                             
+46 Swamy H.V.L.N. et al. 2004. Effects of feeding blends of grains naturally contaminated with Fusarium mycotoxins on growth and immunological parameters of broiler 
+chickens. Poultry Sci 83: 533-543. 
+47 Apel R. 2004. http://larouchepub.com/other/2004/3135germany_jobs.html. 
+48 Anonymous 2005. http://www.foodproductiondaily.com/Safety-Regulation/Consumer-trust-vital-says-Czech-food-safety-head. 
+ SFS-13-2015 
+ 
+ MyToolBox 22 
+If we consider the negative impacts for animal health, and indeed the directly related economic losses, the US pork 
+industry alone is estimated to sustain an annual loss of 147 Million USD from reduced weight gain as a result of swine 
+feed that is contaminated with AF, ZEN, DON, FB and OTA 49. Estimates of the annual economic impacts of economic 
+impacts of livestock losses in the developing world (Philippines, Thailand and Indonesia) as a consequence of 
+aflatoxins alone are ~200 Million USD 50. Beyond these economic  losses, there are also the negative animal welfare 
+impacts of poor animal health. MyToolBox will contribute to reducing the economic losses and increasing the wellbeing 
+of livestock.  
+f)  Contribution to long-term collaboration with China on food safety 
+As p art of our long -term China collaboration strategy, we will exchange information and share experiences on the 
+production, formulation and application of biocontrol agents  (partner CAAS-IAPPST), forecasting models and on the 
+use of on -line sensing for enviro nmental factors during the storage of grains and peanuts. This will contribute to the 
+impact of creating transparent supply chains for food and feed both in the EU and in China. In cooperation with the 
+Coordinator, o ur Chinese partner  Prof. Liu Yang  (CAAS-IAPPST), who chairs the Division of Mycotoxicology  of the  
+Mycological Society of China will set up an EU-China-Mycotoxin Forum as a dialogue platform between China and 
+the EU to provide building -blocks for further EU -China dialogue across a wider rang e of food safety topics. The EU-
+China Mycotoxin -Forum will be chaired by Prof. Yang and the MyToolBox coordinator Prof. Krska and will receive 
+support from ICC and its current president Prof.  Fengcheng Wang (Partner 3). Cooperation will be sought with the 
+International Society for Mycotoxicology (ISM )- the MyToolBox -Coordinator is General Secretary of ISM  - and the 
+Division of Mycotoxicology, Mycological Society of CAAS. It will draw together research achievements on mycotoxin 
+prevention and control, and su bsequently provide building -blocks for further EU -China dialogue on mycotoxin 
+prevention. Measures will be implemented to ensure that the EU-China Forum is sustainable beyond the lifetime of the 
+project. Our EU -Sino partnership will also contribute to the standard settings for authorization of mycotoxin -
+detoxifying feed additives in China, whereby current EU guidelines for the registration of detoxifying feed additives 
+will serve as examples for possible adaptions of Chinese legislation.  This is important a s currently, ~475 million pigs 
+are farmed in China, representing nearly 60% of the world´s total pig population. Since up to 24% of complete feed for 
+pigs have exceeded even the maximum limits set for DON levels by the Chinese authorities 51, the potential o f 
+mycotoxin-degrading feed additives on the Chinese market is clearly recognizable. A need for more than 54,000 
+metric tons of detoxifying agents can be estimated in China. The EU-China partnerships established through the 
+MyToolBox project will contribute  to creating transparent supply chains for food and feed imported in the EU and 
+exported to China, which will have far reaching implications for food safety and consumer confidence. 
+Improving innovation capacity and the integration of new knowledge  
+Innovations in pre- and post-harvest strategies and safe use options will be developed in the MyToolBox project. These 
+innovations and new knowledge will be combined with recently developed innovations, into new innovations and insights 
+that are translated  to clear instructions in the MyToolBox decision strategies. T his strategy will be applicable beyond 
+the project and to other areas where contaminants play a role. 
+MyToolBox makes innovations for mycotoxin prevention available to all actors in the food and feed chain, thus 
+strengthening the competiveness and growth of the companies while meeting the needs for EU and global markets. 
+The increase in available high quality food and feed will result in more jobs available in the EU and increased export of 
+food and feed. Moreover, the export of mycotoxin binders is expected to increase thus leading to world -wide 
+improvement of food and feed. 
+Key to improving the innovation and the integration of new knowledge in the EU crop and f ood production and supply 
+chain in order to better equip farmers and the industry to reduce crop and food losses due to mycotoxin contamination 
+is our post-project strategy for the dissemination and exploitation of all the results generated during the project. As 
+will be discussed in the next section, t he MyToolBox consortium has a clear vision and strong capacity to bring the 
+project innovations to the market. The consortium has strong industrial European partners from all relevant parts of the 
+food and feed chain. Furthermore, the members of the scientific advisory board and the stakeholders are strong 
+representatives of the food and feed sector . MyToolBox will develop a sound business case to take the MyToolBox 
+e-platform to the market beyond the project period. The aim is to develop a sustainable business model that enables the 
+deployments, maintenance and further develop ment and expansion of  the MyToolBox e -platform in future.  The 
+MyToolBox consortium has good participation of industrial representatives from along the value chain, who will ensure 
+                                                        
+49 Wu and Munkvold, 2008. J. of Agric. Food Chem 2008.  
+50 Lubulwa and Davis, 1994. Cited in Wu 2004. 
+51 Li X.Y. et al. 2014. Occurrence of mycotoxins in feed ingredients and complete feeds obtained from the Beijing region of China. J Animal Sci Biotechnol 5: 37-44. 
+ SFS-13-2015 
+ 
+ MyToolBox 23 
+that the MyToolBox and the business plan are relevant and viable. The involvement of both the industrial partners and 
+the stakeholders will guarantee quick acceptance of the MyToolBox by other partners beyond the project. The project 
+fully addresses the ma rket and societal needs and will significantly contribute to further implementation of safe use 
+options in regulatory context in EU as well as in China.  
+Barriers and obstacles, and any framework conditions (such as regulation and standards), that may 
+determine whether and to what extent the expected impacts will be achieved 
+The MyToolBox consortium recognises the difficulties of acceptance of new agricultural practices and detoxification 
+procedures by farmers and regulators and the complexity of multiple stakeholder dialogues. To this end, w ithin WP4 
+(T4.1) we will identify a nd engage with farmers, retailers, regulators, quality managers of multiple food and feed 
+suppliers and consumers in order to establish their needs and constraints. Besides assessing potential strength, 
+weaknesses opportunities, and threats (SWOT), from the stakeholders’ perspective, the level of understanding and 
+acceptability of different developed safe use concepts and perceived information needs will also be explored, as will any 
+regulatory impacts. A SWOT analysis will help to understand the barriers  and will identify the conditions for maximal 
+acceptance. Importantly, MyToolBox already benefits from an existing cooperation with DG SANTE and the European 
+Food Safety Authority and a number of partners have experience in relation to the application process for seeking 
+regulatory approvals. Furthermore, WP4 will be fully dedicated to the involvement of all stakeholders  to ensure 
+acceptance by the proposed farmer and industrial partners in the food and feed chain. The achievement of the expected 
+impacts will be monitored throughout the project. The impacts have been clearly defined with measures for monitoring.  
+It is noteworthy that the MyToolBox results will be an enabler to the adhere to the EU crop and food production and 
+supply chain to comply with  EU Regulations and Recommendations 1881/2006, 1126/2007, 165/2010 and 165/2013 
+that set maximum levels for mycotoxins. This should contribute favourably to numerous EU policies and Directives that 
+outline requirements guaranteeing the standards of all European products. Moreover, this project will contribute to Rural 
+Development, Food Security and Sustainability policies, and it will support an emerging strategy: a move  from food 
+security to self-sufficient food security, one of the long terms goals of the Treaty of Rome. To ensure wide dissemination 
+of the results, and to plan for post -project exploitation, work package (WP5) is aim ed at targeted dissemination of 
+MyToolBox results to the relevant international discussions and committees, including China , and to developing a 
+sustainable business model to ensure the continuity and growth of the MyToolBox e-platform.
+2.2 Measures to maximise impact 
+Dissemination and exploitation of results and outline of dissemination plan 
+The MyToolBox project will develop a series of integrated measures that will be combined in the decision model, which 
+enables a significant reduction in losses of crops due to fungal and mycotoxin contamination. The exploitation potential 
+of the project results is very promising. As such , our project is backed with very sound strategies for the 
+dissemination and the exploitation  of the project results , to maximise the societal, innovation and competitive 
+impacts. 
+Our dissemination plan encompasses a comprehensive series of actions to diffuse the non-confidential results that are 
+generated during the project to as wide and relevan t an audience as possible in order to heighten awareness about 
+the results, to contribute to knowledge building in Europe, as well as to ensure that as many actors from the crop 
+and food chains and consumers/citizens as possible have access to these result s. This includes farmers/crop 
+producers, collectors, food processers, retailers, consumers, as well as scientists, policy makers, mass media (TV, 
+radio and the written press) and multipliers for addressing the general public, early stage researchers , including young 
+people. In keeping with the general profile of each target audience, the most appropriate dissemination tools and 
+channels will be selected for targeting each and the expected impacts of our dissemination activities have 
+been defined (table 4). 
+Table 4: Outline of the MyToolBox Dissemination Plan  
+Target Audience  Tools & Channels Expected Impacts 
+Farmers/Crop 
+producers  
+Crop 
+collectors/storage 
+Food processors  
+Retailers and 
+consumers 
+Project corporate identity tools (logo, label) 
+Project Website 
+Project Leaflets 
+Project Posters 
+Video clip (for YouTube, project website, etc.) 
+Powerpoint Presentations 
+Generation of awareness about 
+MyToolBox and its benefits for 
+reducing crop and food losses due to 
+mycotoxin contamination among EU 
+farmers, crop and food production and 
+supply chain and other industry 
+stakeholders in order to stimulate 
+interest in the project results and to 
+ SFS-13-2015 
+ 
+ MyToolBox 24 
+Industry Multipliers- 
+Sectoral Associations 
+(e.g. Copa Cogeca, 
+also member of the 
+stakeholders group, 
+Standardisation 
+bodies and policy 
+stakeholders, national 
+food safety authorities, 
+EFSA, EC, national 
+governmental bodies, 
+ICC, AACCI, CEN, 
+ISO, WHO, FAO, 
+CODEX 
+General public and 
+Mass media 
+Research and 
+academic 
+stakeholders 
+Early stage 
+researchers 
+Government & policy 
+makers Innovation 
+programs 
+Educational 
+stakeholders and 
+students 
+Other cross-cutting 
+H2020 projects and 
+international/ national 
+projects 
+Other innovation 
+programs and 
+initiatives (e.g. COST, 
+LIFE, etc.) 
+Press releases 
+Trade fairs and exhibitions: Alimentaria (ES)); 
+Anuga (DE); The Cereals Event (UK); SIMA (FR); 
+GrainTech (EG), Agrotech (PL); Growtech (TR), GFIA 
+(AE). Agritech 2017 (IL); Agritech 2016 (IN); 
+Conferences, seminars and workshops: ICC 
+International conferences; Conferences of the 
+International Society for Mycotoxicology; MoniQA 
+International Conferences; European Fusarium 
+seminar, Annual World Food and Innovation Forum; 
+Nordic Baltic Fusarium Seminar; World Mycotoxin 
+Forum, European Association of Agricultural 
+Economics; Annual World Food and Innovation 
+Forum; European Commission Mycotoxin Forum; 
+IUPAC Symposia; Gordon Conference on Mycotoxins 
+and Phycotoxins; Food Mycology Workshops; 
+International Mycological Congres; British Mycological 
+Society; Association of Applied Biologists; British 
+Society of Plant Pathology; in the course of 2016-2019 
+in China: Chinese cereals and oils association annual 
+congress; China International Food Safety & Quality 
+(CIFSQ) Conference; China International Food Safety 
+Technology & Innovations Expo: participation in 
+organising, scientific committees, with poster, paper, 
+presentation, or chairing. 
+Magazines: Milling & Grain; Miller Magazine, Farmers 
+Weekly, Grain Journal; National magazines: VMT 
+(NL), De Molenaar (NL). 
+Open Access Journal Articles: J. of Food 
+Engineering; J. Agric. Food Chem., J. of Stored 
+Products Research; J. of Environmental Monitoring 
+and Assessment; PlosOne; Food Additives and 
+Contaminants; World Mycotoxin Journal; International 
+J Food Microbiology; Journal of the Chinese Cereals 
+and Oils Association (Journal of Food Safety and 
+Quality Science and Technology of Cereals oils and 
+Foods) 
+ 
+Involvement in networks/clusters: Mycotoxin 
+Stakeholder Groups ( UK); Food4Life; EIP-
+AGRIHome-Grown Cereals Authority events; NABIM 
+(UK and Irish Millers Association); GAM (European 
+Millers Association 
+Features in Newsletters and e-bulletins All About 
+Feed- www.allaboutfeed.net; ICC News Alerts 
+Visibility on Web portals e.g. Food Production Daily 
+Inclusion in EU dissemination resources such as 
+the EU Horizon Magazine and the EIP Agri Website 
+http://ec.europe.eu/eip/agriculture 
+Mass media, e,g. Euronews  
+Social media 
+Programme meetings 
+Policy roundtables  
+develop novel interventions to 
+increase volume of safe food and feed 
+in the EU. 
+Effective knowledge sharing among 
+the research and scientific 
+communities, which will contribute to 
+the ERA, and to the EU recovery 
+package and the EU 2020 strategy for 
+smart, sustainable and inclusive 
+growth. 
+Sound communication towards policy-
+makers to increase the influence of 
+the project and its results in 
+policymaking (which will be reinforced 
+by the presence of our expert partner 
+in standards setting, BfR).  
+Communication to retailers and 
+consumers about the efforts being 
+made along the chain to increase food 
+safety and quality and to reduce 
+biological contamination  
+The general public should also feel 
+they are getting value for money from 
+public funded research that will 
+ultimately benefit them as consumers, 
+by understanding how MyToolBox 
+contributes to food safety, food 
+security and environmental benefits, . 
+More young people will be attracted to 
+scientific and research careers, their 
+curricula will be enriched by 
+knowledge from the project. Early 
+stage researchers inspired by the 
+results, will be motivated to remain in 
+EU- research and possibly work in 
+areas that are beneficial for society, 
+sustainability and innovation. 
+New jobs generated by the industrial 
+partners as well as EU suppliers due 
+to the development of new business 
+opportunities. 
+Special attention will be paid to 
+dissemination in China. At least one of 
+the stakeholder meetings will be held 
+in China, preferably with a 
+dissemination to involve Chinese 
+stakeholders. Scientific meetings will 
+be held in China following the 
+networks to form an EU-China 
+Mycotoxin-Forum. 
+Sustainable EU-China dialogue on 
+mycotoxin occurrence, detection and 
+reduction of mycotoxins and new 
+business opportunities the area of 
+pre- and post-harvest techniques for 
+EU-partners in China 
+ SFS-13-2015 
+ 
+ MyToolBox 25 
+ 
+Within the framework of Task 5.4 - Dissemination to a wide audience, the partners will build on and execute this 
+dissemination plan following a process of analysing: Why – the purpose of the dissemination action; What will be 
+communicated – the message; To whom  – the audience; How – the method; When – the timing. Performance 
+indicators will be established as part of the upgraded plan, such as number of citations (for publ ications), number of 
+hits on web, number of downloads (for electronic documents/materials), number of industry consultations (from 
+tradeshows/exhibitions), number of policy-maker engagements, etc.  
+Importantly, as part of our dissemination strategy, the “ MyToolBox Roadshow” of events will be organised, which will 
+consist of an agenda of events that will be planned for the 48 month duration of the project, where in order to 
+maximise resources and to bring mutual benefit to events being organised by third par ties, we will schedule out the 
+trade fairs, exhibitions, workshops, seminars, conferences, round tables, etc. of relevance in Europe and 
+internationally that MyToolBox consortium members can attend (e.g. Alimentaria (ES); Anuga (DE); The Cereals Event 
+(UK); SIMA (FR); GrainTech (EG); Agrotech (PL); among others). Our target will be to have M yToolBox present in at 
+least 40 events in Europe and internationally  over the course of the project. A philosophy of ‘not wasting’ any 
+dissemination opportunities will b e instilled in the consortium and partners will be encouraged to capitalise on the 
+relevant marketing and dissemination events they are attending or organising to plan a dissemination activity for 
+MyToolBox. In addition, a number of dedicated MyToolBox events will be organised (it is envisaged 1 per year), of 
+which one will be in China, whereby the culmination of the Roadshow will be the Final MyToolBox 
+Workshop/Conference in conjunction with a major Mycotoxin Event, such as the IUPAC conference on mycot oxins 
+that will be organised to coincide with the end of the project.  
+Our dissemination channels (which will be complemented by a professional communication campaign discussed 
+below) will cover all the traditional channels such as dissemination at confere nces (papers and posters), publications 
+in peer -reviewed journals, dissemination in industry magazines, newsletters and on -line platforms, as well as more 
+vanguard channels, such as social media platforms, project blogs and videos, etc. An important dissemination platform 
+for the project will also be the project website that will be built during T5.3.2, which will serve as an enduring internet 
+site for promoting the project and housing all the downloadable public deliverables and outputs of the project, and  it 
+will also house our ‘MyToolBox Green Channel’ for open access to the peer-reviewed publications of the project. It will 
+be widely disseminated across Europe and worldwide to generate visitors and traffic to the site.  It is noteworthy that 
+we have already registered the www.mytoolbox.eu domain name. 
+In addition, our project dissemination activities will link with the broader dissemination strategies of the European 
+Technology Platform, Food For Life , as well as with those of Meetings of EIP -AGRI, EU Arable Farmers network, 
+International Association for Cereal Science & Technology, EU Crop Protection Association, and other initiatives, etc. 
+to contribute to efficient coordination and dissemination of the project outputs across the relevant European, Chinese 
+and international communities to promote the project.  Moreover, the dissemination strategy will also consider how it 
+can best be used to maximise the future exploitation of the results of the research. 
+In order to protect the commercial opportunity, a confidentiality policy will underpin our dissemination activities . 
+The consortium experience in collaborative projects points towards the most effective default position being that all 
+information is confidential u nless otherwise agreed as non -confidential. This is the clearest starting point. However, 
+that said, the academic participants in the consortium aim to publish results  (publications being considered very 
+positive success indicators by all the consortium, a lso serving as peer reviewed documents towards the industry, 
+standards bodies and policy stakeholders as discussed above), and the industry partners and market actors are also 
+eager to showcase and exhibit results at tradeshows and exhibitions and through other industrial channels  
+(technical/sectoral magazines.). As such, the IPR Manager  (Dr. Mirta Pinilla from IRIS) will work closely with the 
+Dissemination Manager  (Dr. Michaela Pichler from ICC) to manage the identification of non -confidential 
+publishable/discloseable information that can be available for dissemination activities.  
+Initial business and exploitation plans 
+Over the course of the project we will integrate existing and new knowledge in relation to technical, management and 
+organisational solutions that are effective for mycotoxin reduction, into practical and affordable management strategies 
+that can be used by farmers and food processors along the chain in order to reduce the risk of mycotoxin 
+contamination of crops, feed and food, to prevent losses and waste along the food chain, and to provide traceability 
+information to the supply chain an d consumers using mainstream ICT technology. As such, the project outputs are 
+highly relevant for future market exploitation.  
+Critically, all the expected impacts from this project as discussed in Section 2.1 can only be realised through a robust 
+post-project exploitation strategy. Our intention is to realise all the exploitation pathways for the results:  
+ SFS-13-2015 
+ 
+ MyToolBox 26 
+a) Commercial exploitation - the industrial use of the project knowledge and outputs for increased 
+competitiveness and growth will deliver high innovation and growth impacts. 
+Our initial plan for the post -project exploitation of the MyToolBox web-based platform is to use it for the 
+development of a new data service for the value chain, whe reby the proposed Business Model (which will be 
+further developed and validated over the course of the project) will be a subscription model (typical for Software 
+as a Service platforms) for advanced use of the platform (access to the dynamic components), the pricing of 
+which will be studied during the project. A freemium model will allow the static component of the platform to be 
+readily used for free by farmers, food and feed producers and all stakeholders. A detailed guideline will 
+accompany the MyToolBo x platform for the periodic reviewing of the content and incorporation of new 
+knowledge. This will ensure that as a wide a community of actors from the value chain can benefit from the 
+results of this project for high competitive and social impact in the industry.  
+However, in order to ensure that the results that have a high commercial value can be commercially exploited, a 
+subscription model will be studied to contribute to the economic and business impacts of the project. During 
+Subtask 5.5.1 Business and exploitation plans, we will ensure that we arrive at a robust pricing strategy that is 
+based on market research among our target groups  (farmers, grain store operators, food and feed producers, 
+etc.) in order to establish the value they perceive for the different dynamic components of the platform and to 
+establish the price tolerance to ensure we deliver a high value for money subscription model. It is noteworthy 
+that IRIS has expertise in the development of SaaS (software as a service) marketing plans an d 
+commercialisation strategies.  
+Striking this balance between free dissemination of the results and capitalising on those that have commercial 
+value is a winning formula for sustainably tackling societal challenges.  
+In addition to the business model for exploiting the MyToolBox platform, for each of the commercially exploitable 
+outputs of the project (Table 5 provides a starting point), we will draw up an individual business plan.  
+b) Education and training - the use of the new knowledge generated for upskill ing and for enriching curricula in 
+European education will have a high impact for raising the European mycotoxin knowledge base  among the 
+farming sector, as well as along the food and feed supply chain. 
+c) Further research - planning future spin -out research a nd development projects especially in areas that will 
+contribute to the transferability of the project results to new applications , such as for example  the large-scale 
+integration of mycotoxin degrading enzymes in biofuel plants and the metabolomics approa ches optimised in 
+MyToolBox to study the effect of novel baking procedures on the fate of mycotoxins to other areas of food and 
+feed processing. 
+d) Contribution to standards - the project results can contribute to improved standards in relation to the 
+prevention and control of mycotoxins in the Europe and internal food and feed chains.  The project will also aim 
+to enable standard settings in China for authorisation of mycotoxin detoxifying feed additives produced in the EU 
+and consequently improve market access  of relevant EU products . As has been discussed , during the  project 
+we will work with relevant bodies such as EFSA and DG SANTE for standard setting, and we will continue these 
+efforts in a post -project phase . Moreover, we aim  to contribute to the standard  setting for authorisation of 
+mycotoxin-detoxifying feed additives in China in cooperation with FEFANA, the Chinese Ministry of Agriculture 
+(MOA) and CAAS -FRI as an important aspect for the registration of mycotoxin detoxifying feed additives from 
+the EU. These are medium to long-term ambitions that will be followed through as part of our exploitation plans. 
+Each partner has summarised their broad exploitation expectations ( table 5). These statements showcase the 
+exploitation ambitions of each of the partne rs considering the contribution of the results to patents, to new or existing 
+products, services, infrastructures, knowledge bases and standards, to ensure the project innovations are delivered to 
+the market. During the project, and through Subtask 5.5.1 Business and exploitation plans in-depth plans will be drawn 
+up, whereby partners will collectively and individually (based on joint or individual ownership of the different exploitable 
+aspects of the project results) create business plans (or exploitation plans) for how they intent to use the results 
+(based on the summarised intentions outlined in table 5).  
+ SFS-13-2015 
+ 
+ MyToolBox 27 
+Table 5: Summary of exploitation intentions of the MyToolBox partners 
+nº Short 
+Name 
+Intention for use of project results 
+ ALL Promote the use MyToolBox to governments and stakeholders in the respective countries for 
+reduction of losses due to fungal infection and mycotoxins. 
+1 BOKU Use of knowledge from Task 2. 5 for intensifying know-how in the field of inhibition processes during 
+biogas and bioethanol production and degradation of contaminants by microbiology  will directly be 
+exploited for industrial applications. This includes the use of mycotoxin contaminated batches in 
+biogas and bioethanol production, the production of safe and high quality DDGS and the efficient 
+production of biofuels.  
+2 DLO-
+RIKILT 
+Use the expertise collected and gained through the project in interaction with national government 
+and food safety authority, as well as private companies, through the running of national projects on 
+related topics. Use for international activities, in and outsid e EU, e.g. training given by  DLO-RIKILT 
+personnel. 
+3 ICC Use of project knowledge and results to develop internationally -accepted standard methods to 
+facilitate the trade of grains and grain -based food products within and between countries. Use of the 
+project knowledge to offer training activities to future stakeholders and end users. Dissemination of 
+the gained knowledge worldwide. 
+4 HAU Use the knowledge from Task 1.1,  Task 1.2 and Task 3.1 on alternative and cultural control of 
+Fusarium and in the development of an integrated management strategy to reduce Fusarium and 
+mycotoxins in UK cereals. 
+5 FLI Feedback from end -users and stakeholders  (Task 4.1) will be used to progressively improve the 
+design of MyToolBox and ensure that it meets end -user needs and is therefore more likely to be 
+widely employed along the food and feed chains. The results of experimental work undertaken with 
+feed additives will b e used as a basis for establishing criteria by authorities for market acceptance in 
+China. 
+6 BARILLA Use of the knowledge from Task 2.1 to test the efficiency of a real time monitoring system for 
+improving storage management solutions for mycotoxins in st ored wheat and from Task 3.3 to 
+validate the DSS system with different stored cereals as a management tool; Use of the knowledge 
+from Task 2.2 to validate an innovative screening technology on suitable commodities; Use of the 
+knowledge from  Task 2.3 and Task 2.4 for the development of pre -/milling and food processing 
+(especially baking) techniques to mitigate mycotoxin contaminations in the finished food products; 
+Use of the knowledge from Task 3.1 and Task 4.1 to synthesi se information to provide guideline s 
+(GAP, GMP, HACCP protocols) to control mycotoxin contamination evaluating at the same time the 
+real application on the field of the MyToolBox e-platform along the entire chain up to the end -user 
+level. 
+7 CRAN 
+FIELD 
+Use of platform technology in Task 2.1 and Task 3.3 of the DSS post -harvest management tool to 
+potential user stakeholders via Home -Grown Cereals Authority events; NABIM (UK and Irish Millers 
+Association); GAM (European Millers Association), Soil Association, presentations at National Cereals 
+Symposia, Research aspects via Symposia organised by British Mycological Society, Association of 
+Applied Biologists and British Society of Plant Pathology and at the Biannual World Mycotoxin Forum 
+and Gordon Conference on Mycotoxins and Phycotoxins. Task 3.1 on integrated HACCP tools will 
+have wider benefits at both a national (HGCA) and European level and be of benefit as components 
+of the static platform for industry and for agricultural and food  related organisations (FSA (UK); EFSA 
+(EU); European Commission; ILSI Europe). 
+8 IRIS Use of the knowledge from Task 2.1 for the development of a real time monitoring system for 
+improving grain storage management solutions for mycotoxins in stored cereal s and nuts; Use of the 
+knowledge from Task 3.5 for the production and deployment of a SaaS DSS platform for mycotoxin 
+reduction in conjunction with HORTA 
+9 UNS Use the knowledge from Task 1.3, Task 1.4 and Task 3.1 in the development of an integrated 
+management strategy to reduce Fusarium and mycotoxins in maize in Serbia and Italy.  Use the 
+knowledge in training purposes in academic courses on integrated crop management. 
+10 HORTA Use of results from Task 3.2 for improvement of the small-grain cereals and maize models inserted in 
+the HORTA’s web platform for farmers in Italy and used in the MyToolBox as external dynamic 
+component (i.e., a component residing in the HORTA’s platform and linked to the MyToolBo x via web 
+services for exchanging numerical inputs and outputs); Use of the DSS developed in Task 3.5 for 
+future exploitation based on the agreements developed within the Consortium during the project. 
+ SFS-13-2015 
+ 
+ MyToolBox 28 
+nº Short 
+Name 
+Intention for use of project results 
+11 BfR Knowledge gained in studying food processing factors and in new developments coming from work on 
+milling and food processing from WP2 will be used to provide a sound scientific basis for setting of 
+mycotoxin limits in processed foods and refining existing limits where appropriate. 
+12 SDU Designs of novel sorting system will be patented and exploitation will be pursued from pilot scale 
+sorting of figs to full commercialisation through an existing SME enterprise previously established by 
+SDU. The developed sorting system will also be extended to other dried fruits, nuts, chili peppers and 
+pistachios. 
+13 WU Knowledge gained from the survey on the end -users’ potential motivational barriers to implement 
+MyToolBox (Task 4.2) and from the cost-effectiveness analyses (Task 3.4 and Task 4.2) will be used 
+in running socio -economic research projects (national and international) on related topics as well as 
+for training purposes  in academic  courses on Decision Science and/or Risk management in food 
+supply chains 
+14 BIOFORSK Use the knowledge from  Task 1.1, Task  1.2 and Task 3.1 in the development of an integrated 
+management strategy to reduce Fusarium and mycotoxins in Norwegian cereals 
+15 CAAS- 
+IAPPST  
+Use the knowledge from MyToolBox in the development of an integrated management strategy to 
+reduce Fusarium and mycotoxins in cereals, maize and peanuts in China.  
+16 BIOMIN BIOMIN intends to secure foreground -IP of Task 2.5 by supporting a quick and reasonable patent 
+filing to not hinder scientific communication of the MyToolBox project results. BIOMIN intends use 
+these results -IP, especially the developed methods and protocols to reduce mycotoxins in the 
+bioethanol or bi ogas production process for increased process performance and DDGS safety, to 
+enlarge the existing BIOMIN business segment of mycotoxin deactivation from the feed additive 
+industry towards the biogas and bioethanol industries worldwide. That will allow org anic economic 
+growth of the company and strengthen especially the EU BIOMIN entities as being the major 
+producers of the mycotoxin deactivating product portfolio. Furthermore , existing labour force will be 
+secured and, in addition, new jobs in research, de velopment and marketing (>30) will be created 
+within BIOMIN as well as by its distributors. To globally spread the benefits of these results within a 
+contemporary manner, BIOMIN is willing to out-licence the generated foreground-IP, preferably to the 
+relevant industry partners of MyToolBox, so that it may become a standard in industry. 
+17 ASAG Use of the knowledge from  Task 2.1 for the development of a real time monitoring system for 
+improving grain storage management solutions for preventing and reducing mycotoxin contamination 
+in stored cereals and peanuts in China. 
+18 SÜD-
+ZUCKER 
+Use of knowledge to improve management of contaminated grains in bioethanol and animal feeding 
+production. This will add to the companies sustainability aim to d evelopment new, sustainable 
+production processes and products and better resource management to bring by-products on the feed 
+market, an area where currently the US is the leading nation. By implementing the us e of novel, 
+effective enzymes and processes, the EU could beco me the new market leader. The existing labour 
+force will be secured and, in addition, hundreds of new jobs could be created in the EU as well. 
+19 AXEB Use of the knowledge of WP1 and Task 3.1 (pre-harvest reduction strategies for mycotoxins) for an 
+expansion of our commercial portfolio with specific products for pre -harvest control of mycotoxins in 
+cereals. 
+20 AGRO-LV Advice to the farmers to implement debris management technologies and use of MyToolBox to 
+increase high quality crop production. 
+21 TARIS Pilot scale sorting equipment will be critically compared in terms of efficiency and performance with 
+existing manual sorting under UV light. Providing cost -effective manufacture is achieved uptake will 
+be consider on a commercial scale. 
+22 AGROCEN
+TRUM 
+Implement crop management strategies for the growing of cereals (except rice), leguminous crops 
+and oil seeds in Serbia. 
+23 CAAS-FRI Use the gained knowledge on mycotoxin detoxifiers and the related legal issues  for proper standard 
+setting in cooperation with the EU and  to develop strategies for safe use options for contaminated 
+batches in China. 
+ 
+ SFS-13-2015 
+ 
+ MyToolBox 29 
+How the proposed measures will help to achieve the expected impact of the project 
+Our multi-actor and vertical integration approach (i.e. including the whole value chain)  supported by collateral 
+implementation channels (such as socio -economic and legal analyses, etc.) will contribute to the achievement of the 
+expected impacts of the project. A f undamental strategy for success, is that of enabling actors and stakeholders from 
+along the farming/crop and food production and supply chains to enter the research -development-innovation cycle 
+linked to mycotoxin reduction to ensure more, safer/higher quality food and feed, social innovation is fostered, 
+improved technical, management and organisational solutions are exploited, developed and implemented, as well as  
+the development of new business models. To realise this there is a strong innovation dimension/cycle  in our 
+approach with a view to promoting early  stakeholder participation, adoption of the project results, and 
+continuity of the MyToolBox initiative/movement for impact.  
+In short, sound management of the knowledge generated during the project (discussed below), act ive planning in 
+relation to post-project exploitation activities for industrialisation of the most market ready results, and further research 
+work for escalating along the TRLs, as well as a solid communication strategy to disseminate the non -confidential 
+aspects of the result to the European, Chinese and international industry from the crop and food production and supply 
+chain, as well as to market actors and multipliers, and policy makers, will all contribute to achieving the expected 
+impacts of the proje ct. It is worthy of mention that partner ICC, will provide a pathway to implementation that is not 
+available through the normal commercial (market) channels, thus providing a global footprint for MyToolBox. 
+How the participants will manage the research data generated and/or collected during the project 
+The MyToolBox project will participate in the Open Research Data Pilot initiative . Effective exploitation of data 
+depends upon proper data management and curation and as such as Data Management Plan will be drawn up and 
+managed through Task 5.2 - Data Management . A formal data plan  will be drawn up and implemented during the 
+project that will include: which data will be generated during the research; metadata, standa rds and quality assurance 
+measures; plans for sharing data; copyright and intellectual property rights of data; data storage and back -up 
+measures; data management roles and responsibilities; costing or resources needed. Indeed, data management will 
+be embedded in the wider knowledge management of the project, and it will follow the Guidelines on Open Access to 
+Scientific Publications and Research data in Horizon H2020.  
+Strategy for knowledge management and protection 
+To pave the way forward for commercial exploitation and dissemination of the project results, the consortium will 
+implement an integral strategy for the effective management of this knowledge.  
+Background IPR and access rights 
+Background- information and knowledge (including inventions, databas es, etc.) held by the participants prior to their 
+accession to the EC grant agreement, as well as any intellectual property rights which are needed for carrying out the 
+project or for using foreground 52 held by the consortium, or indeed by third parties - is defined in the proposal 
+preparation phase (pre -Grant Agreement). The current status of the Background being brought to the project by the 
+consortium has been included in each participant’s profile description in section 4.1, whereby each beneficiary has 
+provided a background statement (which will also be included in the Consortium Agreement that will be sig ned by all 
+partners in the eventuality of a successful grant application) . Access to Background that is, or will be found to be, 
+necessary for the implementation of the project will be granted royalty free  and background needed to use the 
+results of the project will be provided either royalty free or under fair and reasonable conditions. 
+A comprehens ive review of “prior art” and patents ( Section 1.4 ) has revealed that to date there is no relevant 
+Background held by third parties  that is needed for implementing the research or using the project results. In order 
+to ensure that the intended MyToolBox R&D effort does not trespass into the owned knowledge space of a third party, 
+and to mitigate against expensive infringement claims, during Task 5.1- Knowledge Management Activities, up-to-date 
+patent reviews will be performed periodically to confirm the nov elty of the proposed research and the freedom to 
+exploit the results. 
+Results definition, protection, ownership and access rights  
+The expected results from the project are listed in table 6 below, and will be continually assessed in terms of novelty, 
+patentability and protection  as part of Task 5.1, as part of an effective knowledge management strategy. Results 
+shall be owned by the participant generating the se52. However, the consortium realizes that it is unethical to withhold 
+                                                        
+52 REGULATION (EU) No 1290/2013 Of The European Parliament And Of The Council  of 11 December 2013 laying down the rules for participation and dis semination in 
+"Horizon 2020 - the Framework Programme for Research and Innovation (2014-2020)" and repealing Regulation (EC) No 1906/2006 
+ SFS-13-2015 
+ 
+ MyToolBox 30 
+innovations or management practices that can provide more and safer food from all actors in the food chain. To avoid 
+doubt or confusion over ownership, a protocol of proc edures will be defined, which will be followed by each partner to 
+clearly show the development of the generation of knowledge or results. In cases where the results are generated 
+jointly (i.e. where the separate parts of some result cannot be attributed to  different participants), it will be jointly 
+owned. The allocation and the terms of exercising this joint ownership will be agreed in Joint Ownership Agreements 
+that will be established during our knowledge management activities in T5.1 . However, an overriding principle will be 
+that the participating industry partners are always provided with the access that they need to the results to 
+exploit them in keeping with the needs and strategy of their business. As such, access rights to results for 
+implementing the project will be granted on a royalty -free basis. Access rights for use purposes will be granted either 
+royalty-free, or on fair and reasonable conditions  to be agreed in Exploitation Agreement(s). Table 6 provides an 
+overview of the expected scenarios of results ownership and access rights.  
+Table 6: Expected Results Ownership and Access Rights 
+WP Description of the 
+Expected Result 
+Envisaged   
+IPR Tool 
+Owner(s) Partners to which access rights 
+will be granted and conditions 
+WP1 Real time monitoring system 
+for improving grain storage 
+management solutions for 
+mycotoxins in stored cereals 
+and nuts 
+Patent or Know 
+How secured 
+through 
+confidential design 
+IRIS, 
+CRANFIELD 
+Preferential use to BARILLA and 
+ASAG (early access and cost price 
+in first units purchased) 
+WP1 Biofumigation product/s for 
+mycotoxins control in cereal 
+crops 
+Know How 
+secured through 
+confidential design 
+AXEB Access rights to partners that 
+require access to be negotiated 
+under Fair and Reasonable 
+conditions 
+WP1 Biopesticide for Fusarium 
+control 
+Patent or know 
+How secured 
+through 
+confidential 
+formulation 
+HAU, 
+BIOFORSK, 
+AXEB 
+Access rights to partners that 
+require access to be negotiated 
+under Fair and Reasonable 
+conditions 
+WP1 Atoxigenic biocontrol agent Patent UNS, 
+AGROCENTRUM 
+Preferential use to partners that 
+require access under Fair and 
+Reasonable conditions 
+WP2 Innovative (pre -) milling 
+strategies for accurate 
+mycotoxin separation and for 
+minimization of their content 
+in final wheat based food  
+products 
+Patent or Know 
+How secured 
+through 
+confidential design 
+BARILLA Preferential use to partners that 
+require access under Fair and 
+Reasonable conditions 
+WP2 Novel food processing 
+procedures to develop a 
+sound basis to establish 
+process factors for risk 
+assessment 
+Patent or Know 
+How secured 
+through 
+confidential design 
+BARILLA, BOKU Preferential use to partners that 
+require access under Fair and 
+Reasonable conditions 
+WP2 Final risk assessment of 
+mycotoxins (free/modified 
+forms) during food 
+processing through “in -
+process stable isotopic 
+labelling” 
+Patent or Know 
+How secured 
+through 
+confidential design 
+BARILLA, BOKU Preferential use to partners that 
+require access under Fair and 
+Reasonable conditions 
+WP2 Real time monitoring system 
+for improving grain storage 
+management solutions for 
+mycotoxins in stored cereals 
+and nuts 
+Patent or Know 
+How secured 
+through 
+confidential design 
+IRIS, 
+CRANFIELD 
+Preferential use to Barilla and 
+ASAG (early access and cost price 
+in first units purchased) 
+WP2 Product compositions 
+including product 
+formulations -IP suitable for 
+reducing the toxicity and / or 
+Patent 
+ 
+Trade secret, if 
+patenting does not 
+BIOMIN Access to University partners for 
+scientific use only. No access 
+rights will be provided to industry 
+partners for commercial use. No 
+ SFS-13-2015 
+ 
+ MyToolBox 31 
+WP Description of the 
+Expected Result 
+Envisaged   
+IPR Tool 
+Owner(s) Partners to which access rights 
+will be granted and conditions 
+the amounts of mycotoxins 
+within the biogas and / or 
+production bioethanol 
+processes including DDGS. 
+Methods and protocols for 
+applying above mentioned 
+products-IP within the biogas 
+and / or production 
+bioethanol processes. 
+seem to be 
+possible 
+rights for scientific use outside the 
+project. Distribution or licensing 
+agreements will be negotiated 
+under Fair and Reaso nable 
+conditions 
+WP2 Pilot scale automated sorting 
+system for removal of 
+aflatoxin contaminated figs.  
+Patent or Know 
+How secured 
+through 
+confidential design 
+SDU Preferential use to Barilla and 
+TARIS 
+WP3 Models for to predict fungal 
+infection and mycotoxin 
+accumulation in wheat, 
+barley and maize.  
+None DLO-RIKILT, 
+HORTA 
+Free access to all partners via the 
+MyToolBox Platform 
+WP3 MyToolBox web -based 
+platform 
+Know-how through 
+software 
+development 
+secured by code 
+HORTA, IRIS, 
+DLO-RIKILT 
+Free access to all partners.  
+Open access to peer-reviewed scientific publications  
+The two ways authors can provide open access are (1) by self -archiving their journal articles in an open access 
+repository, also known as 'green' open access, or (2) by publishing in an open access journal, known as 'gold' open 
+access.53 It is envisaged that green open access will be the preferred option in this project, whereby the partners will 
+publish in peer-reviewed scientific publications and then self -archive a version of the article for free public use in their 
+institutional repository, in a central repository, or on some other open access website.  The project website (or Internet 
+Portal) will house a ‘MyToolBox Green Channel’ for open access to the peer -reviewed publications of the project. In 
+relation to expected publications from the project, these include and are not limited to : “Alternative control of Fusarium 
+mycotoxins in small grain cereals” to be published in Quality Assurance and Safety of Crops and Foods;  “Conjugation 
+and reduction of mycotoxins during thermal processing ” in Food Additives and Contaminants ; DSS System post -
+harvest: Real time monitoring systems for improving grain storage management solutions for mycotoxins in stored 
+cereals and nuts in the Journal of Agriculture and Food Chemistry ; and Development of a mycotoxin mitigation 
+strategy exploiting food processing effects to be published in the World Mycotoxin Journal, etc. 
+Communication activities 
+Communication activities are considered to be an important aspect of this project, to ensure that we effectively 
+promote our project and its outputs, as well as its benefits and impacts to the stakeholders that we want to reach. It is 
+relevant that citizen s are aware of the development and its potential societal impacts, especially in the context of its 
+positive impacts for food security, food quality and safety (and ultimately consumer safety). Indeed effective social 
+engagement is particularly important  in the case of this project given that consumer confidence has been 
+negatively impacted in recent years as a result of quite a number of highly publicised failings in the food supply chain 
+to deliver high quality and safe products. Efforts to increase consu mer trust in the food supply chain would be very 
+positive, especially as consumers have a central and crucial role to play as a key engine for future prosperity. 
+Strengthening consumer confidence in the safety of the products they buy is fundamental for st rengthen the European 
+food supply and value chains. Moreover, it is important to communicate the societal benefits as the project is 
+benefiting from tax-payers contributions. Through our communication activities we have an opportunity to ensure that 
+citizens are informed and feel like they are getting value for money.  
+Additionally, as one of the key’s to successfully gaining impact is through our ability to secure stakeholder ‘buy -
+in’, i.e. the cooperation or positive participation of our key stakeholders,  they will also be the target of our 
+                                                        
+53 Jeffery, Keith G. 2006. "Open Access: An Introduction". Ercim News, 64, January 2006. 
+ SFS-13-2015 
+ 
+ MyToolBox 32 
+communication activities - a) farmers; b ) food and feed producers and food processors; c) multipliers (Collectives, 
+Associations, etc.); d) OEMs and engineering companies (who install food processing plants); e) policy makers, etc. 
+Through Task 5.3 Communication activities and multi -actor engagement we will plan out our communication activities 
+and develop the necessary communication tools (project website, leaflet, posters, social media accounts, video, etc.) 
+building on and complementing table 4 above, whereby communication activities will be effectively intertwined with the 
+project dissemination effort to ensure that we engage, stimulate the interest and support, and motivate the 
+collaboration of actors along the value chain in order to benefit our action and to increase its impacts for the benefit of 
+consumers and the value chain.  
+As such, we will develop a communications plan, which will consist of the following steps: 
+1. Identify and list all possible stakeholders- the target audiences of our dissemination activities will be used as 
+the starting point (in addition to any other stakeholders that might be considered important). 
+2. Organise our stakeholders - following a stakeholder analysis, the target audience of our communication 
+activities will be categorised into “communities of support” for helping MyToolBox to realising its ambition, goals 
+and objectives.  
+3. Development of the MyToolBox brand – in order to help us in engaging with our stakeholders the principles 
+behind the MyToolBox brand ( visually identified through its logo and a tagline, which will both be trademarked) 
+will be further elaborated and documented.

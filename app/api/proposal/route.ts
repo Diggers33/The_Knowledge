@@ -1728,29 +1728,31 @@ Do NOT write a generic paragraph — every sentence must name a specific role, b
       iris_role: `Write one paragraph per partner (4-6 sentences). For IRIS: start with the WP leadership, name the specific tasks IRIS leads, name the IRIS technologies being deployed, reference 1-2 previous IRIS projects as evidence of capability. For each other partner: organisation type, country, specific expertise, role in this project, and why they are the best choice. Close with a paragraph on consortium complementarity — how the partners collectively cover the full value chain from research to demonstration to market. Write in first person plural for IRIS tasks, third person for other partners' descriptions. Do not use bullet points.`,
 
       // 1.3 Methodology — research phases + Gantt description + risk table + TRL
-      methodology: `Write Section 1.3 Methodology structured as follows:
+      methodology: `Write Section 1.3 Methodology structured as follows. Each sub-section must be substantive — do not write placeholder or skeleton text.
 
 ### Research design
-1 paragraph (100 words): explain the overall approach — what type of research this is (applied/experimental/pilot), how the work is organised into phases that map to WPs, and how the approach ensures reproducibility and validation.
+2–3 paragraphs (200–250 words): explain the overall research approach — what type of research this is (applied/experimental/pilot), the epistemological basis for the approach (why this methodology and not an alternative), how the work is organised into phases that map to WPs, and how the approach ensures reproducibility and validation. Name specific standards or protocols used.
 
 ### Technical approach
-For each research phase (Phase 1: Foundation, Phase 2: Development, Phase 3: Validation/Pilots), write one sub-section with:
+For each research phase (Phase 1: Foundation, Phase 2: Development, Phase 3: Validation/Pilots), write a dedicated sub-section of 150–200 words covering:
 - **Phase N: [Name]** (TRL ${brief?.trlStart ?? '?'} → TRL X, months M1–MY)
-- 2–3 sentences on the specific activities
+- Specific technical activities and methods (name instruments, algorithms, datasets)
 - Lead partner and contributing partners (IRIS leads phases involving NIR/spectroscopy)
-- Key technical challenge and mitigation
+- Key technical challenge, root cause, and concrete mitigation
 
 Reference specific IRIS technologies: ${(brief?.irisTechnologies || ['NIR spectroscopy', 'AI/ML']).join(', ')}.
-For pilot demonstrations: ${(brief?.pilots || []).join(', ')}.
+For pilot demonstrations: ${(brief?.pilots || ['pilot site TBD']).join(', ')}.
 
 ### Risk assessment
-A markdown table with at least 5 technical risks: | Risk | Phase | Likelihood | Severity | Mitigation measure |
+A markdown table with at least 6 technical risks: | Risk | Phase | Likelihood | Severity | Mitigation measure |
+After the table, add 1 paragraph discussing how risks are monitored (e.g., internal review gates, Go/NoGo criteria).
 
 ### Timeline (Gantt description)
 A markdown table showing work packages against months: | WP | Lead | M1-M6 | M7-M12 | M13-M18 | M19-M24 | M25-M30 | M31-M36 | etc. Use ●●● for active periods. If duration is 48 months, extend columns accordingly.
+After the table, 1 paragraph describing the critical path and key milestones.
 
 ### TRL progression
-1 paragraph explicitly stating: starting TRL is ${brief?.trlStart ?? '?'}, end-of-project TRL target is ${brief?.trlEnd ?? '?'}. Describe what must be demonstrated at each pilot site to reach that TRL, referencing the Technology Readiness Level definitions.`,
+2 paragraphs: (a) explicitly state starting TRL ${brief?.trlStart ?? '?'} and end-of-project TRL target ${brief?.trlEnd ?? '?'}, describing what TRL means in this domain context; (b) describe what must be demonstrated at each pilot site to reach that TRL, referencing the Technology Readiness Level definitions and linking each pilot activity to a TRL gate.`,
 
       // 2.1 Expected outcomes — KPI mapping table per call outcome
       outcomes: `Do NOT open with a project summary or preamble paragraph. Start immediately with the first outcome: "A primary outcome of the project is...". Do NOT close with a TRL summary paragraph — that belongs in Section 1.1.
@@ -2000,8 +2002,10 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
     const model = SECTION_MODEL_ENV[section] || 'gpt-4o'
     console.log(`Proposal model: ${model} (section: ${section})`)
     // Scale max_tokens to the section's word target (1.4 tokens/word + 20% headroom)
-    // Prevents methodology (2400 words) being truncated by a flat 2000-token cap
+    // Methodology gets +800 extra tokens for Gantt + risk tables which inflate token count.
+    const isMethodologySection = normalizedSection === 'methodology' || normalizedSection === 'iris_methodology'
     const sectionMaxTokens = isWorkplanSection ? 4500
+      : isMethodologySection ? Math.min(4096, Math.max(2800, Math.round(maxWords * 1.6)))
       : isSotASection ? 3500
       : Math.min(4096, Math.max(2000, Math.round(maxWords * 1.4)))
 
@@ -2135,24 +2139,61 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
             }
           }
 
-          // ── List-explosion guard — catches synonym ladders and SI-prefix runs ───
-          // Catches: "hubs, clusters, parks, zones, districts, corridors, networks…"
-          // and "megaverses, gigaverses, teraverses, petaverses, exaverses…"
+          // ── List-explosion / degeneracy-chain guard ──────────────────────────────
+          // Catches: comma chains, SI-prefix ladders, ordinal sequences, and
+          // length-monotonic token chains that signal runaway generation.
           {
-            const tail = fullGeneratedText.slice(-1500)
-            const listExploded =
-              // ≥8 consecutive comma-separated single words
-              /(\b\w{4,20},\s+){7,}\w{4,20}/.test(tail) ||
-              // Two consecutive SI-prefix words ("gigaverse, teraverse…")
-              /(?:mega|giga|tera|peta|exa|zetta|yotta)\w*,\s*(?:mega|giga|tera|peta|exa|zetta|yotta)/i.test(tail) ||
-              // 4+ "verse" / "sphere" / "cosm" tokens
-              ((tail.match(/\w+(?:verse|sphere|cosm)s?\b/gi) || []).length >= 4)
+            const tail = fullGeneratedText.slice(-2000)
+            const tailTokens = (tail.match(/\b\w{3,}\b/g) || [])
+
+            // ≥8 consecutive comma-separated words
+            const commaChain = /(\b\w{4,20},\s+){7,}\w{4,20}/.test(tail)
+
+            // ≥3 consecutive SI-prefix tokens (kilo/mega/.../yotta)
+            const SCALE_PREFIXES = ['kilo','mega','giga','tera','peta','exa','zetta','yotta','nano','micro','milli']
+            const scaleLadder = (() => {
+              let streak = 0
+              for (const tok of tailTokens) {
+                if (SCALE_PREFIXES.some(p => tok.toLowerCase().startsWith(p))) {
+                  if (++streak >= 3) return true
+                } else streak = 0
+              }
+              return false
+            })()
+
+            // ≥4 ordinals in sequence (first, second, third, fourth…)
+            const ORDINALS = ['first','second','third','fourth','fifth','sixth','seventh','eighth','ninth','tenth']
+            const ordinalLadder = (() => {
+              let streak = 0
+              for (let k = 0; k < tailTokens.length - 1; k++) {
+                const a = ORDINALS.indexOf(tailTokens[k].toLowerCase())
+                const b = ORDINALS.indexOf(tailTokens[k + 1].toLowerCase())
+                if (a >= 0 && b === a + 1) { if (++streak >= 3) return true }
+                else streak = 0
+              }
+              return false
+            })()
+
+            // ≥5 consecutive tokens each strictly longer than the previous (length-monotonic)
+            const lengthMonotonic = (() => {
+              let streak = 1
+              for (let k = 1; k < tailTokens.length; k++) {
+                if (tailTokens[k].length > tailTokens[k - 1].length) { if (++streak >= 5) return true }
+                else streak = 1
+              }
+              return false
+            })()
+
+            // 4+ "verse" / "sphere" / "cosm" / "eon" suffix tokens
+            const suffixRepeat = (tail.match(/\w+(?:verse|sphere|cosm|eons?|epochs?|aeons?)s?\b/gi) || []).length >= 4
+
+            const listExploded = commaChain || scaleLadder || ordinalLadder || lengthMonotonic || suffixRepeat
 
             if (listExploded) {
-              console.warn('List-explosion detected in tail — truncating to last clean sentence')
+              console.warn('List-explosion/degeneracy detected in tail — truncating to last clean sentence')
               const explosionStart = Math.max(
-                fullGeneratedText.length - 1500,
-                fullGeneratedText.lastIndexOf('\n\n', fullGeneratedText.length - 1500)
+                fullGeneratedText.length - 2000,
+                fullGeneratedText.lastIndexOf('\n\n', fullGeneratedText.length - 2000)
               )
               const safePart = fullGeneratedText.slice(0, explosionStart)
               const lastSent = Math.max(safePart.lastIndexOf('. '), safePart.lastIndexOf('.\n'))
@@ -2160,16 +2201,48 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
             }
           }
 
-          // ── Word-salad guard — detects free-association degeneration ────────────
-          // "relief efforts poverty alleviation education access equality justice…"
-          // has high unique-token ratio and no repeated n-grams, so the guards above
-          // miss it. Detect by checking semantic drift: scan 30-word windows and
-          // count how many contain at least one topic keyword. If a 60-word stretch
-          // has zero keyword hits, the model has left the topic — truncate there.
+          // ── Tail 3-gram dedup — catches closing-paragraph repetition ────────────
+          // If any 3-gram appears ≥3 times in the last 200 words, the final paragraph
+          // is degenerate — regenerate it by dropping from the last paragraph break.
           {
-            const topicWords = new Set<string>(
-              (callText || '').toLowerCase().replace(/[^a-z\s]/g, ' ').split(/\s+/).filter((w: string) => w.length > 4).slice(0, 20)
-            )
+            const allWords = fullGeneratedText.split(/\s+/)
+            const tailWords = allWords.slice(-200)
+            if (tailWords.length >= 10) {
+              const gramCounts = new Map<string, number>()
+              for (let k = 0; k <= tailWords.length - 3; k++) {
+                const g = tailWords.slice(k, k + 3).join(' ').toLowerCase()
+                gramCounts.set(g, (gramCounts.get(g) || 0) + 1)
+              }
+              const maxGram = gramCounts.size > 0 ? Math.max(...gramCounts.values()) : 0
+              if (maxGram >= 3) {
+                console.warn(`Tail 3-gram repetition detected (max=${maxGram}) — dropping final paragraph`)
+                const lastParaBreak = fullGeneratedText.lastIndexOf('\n\n', fullGeneratedText.length - 2)
+                if (lastParaBreak > fullGeneratedText.length * 0.5) {
+                  fullGeneratedText = fullGeneratedText.slice(0, lastParaBreak).trim()
+                }
+              }
+            }
+          }
+
+          // ── Word-salad guard — detects free-association degeneration ────────────
+          // Scans 30-word windows for topic keywords. ≥3 consecutive misses = drift.
+          // topicWords is broad: call keywords + brief tech terms + IRIS vocabulary
+          // to avoid false-positives on technical methodology sections.
+          // Notice is NOT appended to body text — truncation is silent to prevent
+          // meta-prose from leaking into the .docx export.
+          {
+            const callKeywords = (callText || '').toLowerCase()
+              .replace(/[^a-z\s]/g, ' ').split(/\s+/).filter((w: string) => w.length > 4).slice(0, 20)
+            const briefTechWords = (brief?.irisTechnologies || [])
+              .flatMap((t: string) => t.toLowerCase().split(/\s+/)).filter((w: string) => w.length > 3)
+            const IRIS_VOCAB = [
+              'iris','spectroscopy','sensor','calibration','measurement','spectral',
+              'detection','analytical','optical','monitoring','analysis','system',
+              'approach','method','phase','project','partner','results','data',
+              'technology','process','model','application','validation','pilot',
+              'instrument','chemometrics','spectra','raman','photonic','nir',
+            ]
+            const topicWords = new Set<string>([...callKeywords, ...briefTechWords, ...IRIS_VOCAB])
             if (topicWords.size > 0) {
               const words = fullGeneratedText.split(/\s+/)
               const WINDOW = 30
@@ -2180,18 +2253,17 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
                 const hasTopicWord = [...topicWords].some((kw: string) => windowText.includes(kw))
                 if (!hasTopicWord) {
                   consecutiveDriftWindows++
-                  if (consecutiveDriftWindows >= 2 && driftStart === -1) driftStart = j
+                  if (consecutiveDriftWindows >= 3 && driftStart === -1) driftStart = j
                 } else {
                   consecutiveDriftWindows = 0
                   driftStart = -1
                 }
               }
               if (driftStart > 80) {
-                console.warn(`Word-salad drift detected at word ${driftStart} — truncating`)
+                console.warn(`Word-salad drift detected at word ${driftStart} — truncating silently`)
                 const cutText = words.slice(0, driftStart).join(' ')
                 const lastSent = Math.max(cutText.lastIndexOf('. '), cutText.lastIndexOf('.\n'))
-                fullGeneratedText = (lastSent > 50 ? cutText.slice(0, lastSent + 1) : cutText)
-                  + '\n\n*[Draft truncated: generation drifted off-topic. Please regenerate.]*'
+                fullGeneratedText = lastSent > 50 ? cutText.slice(0, lastSent + 1) : cutText
               }
             }
           }

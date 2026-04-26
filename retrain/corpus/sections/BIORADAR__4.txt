@@ -1,0 +1,205 @@
+4. Personal Data Page
+Does this activity involve processing of personal data? Yes No
+Does this activity involve further processing of previously collected personal data (including 
+use of preexisting data sets or sources, merging existing data sets)?
+Yes No
+Is it planned to export personal data from the EU to non-EU countries? Specify the type of 
+personal data and countries involved
+Yes No
+Is it planned to import personal data from non-EU countries into the EU or from a non-EU 
+country to another non-EU country? Specify the type of personal data and countries involved
+Yes No
+Does this activity involve the processing of personal data related to criminal convictions or 
+offences?
+Yes No
+5. Animals Page
+Does this activity involve animals? Yes No
+6. Non-EU Countries Page
+Will some of the activities be carried out in non-EU countries? Yes No
+In case non-EU countries are involved, do the activities undertaken in these countries raise 
+potential ethics issues? Yes No
+It is planned to use local resources (e.g. animal and/or human tissue samples, genetic material, 
+live animals, human remains, materials of historical value, endangered fauna or flora samples,
+etc.)? 
+Yes No
+Is it planned to import any material (other than data) from non-EU countries into the EU or 
+from a non-EU country to another non-EU country? For data imports, see section 4. Yes No
+Is it planned to export any material (other than data) from the EU to non-EU countries? For 
+data exports, see section 4. Yes No
+Does this activity involve low and/or lower middle income countries, (if yes, detail the benefit-
+sharing actions planned in the self-assessment) Yes No
+Could the situation in the country put the individuals taking part in the activity at risk? Yes No
+7. Environment, Health and Safety Page
+Administrative forms
+Page 59 of 63
+Proposal ID 101112457
+Acronym BIORADAR
+Horizon Europe ver 1.00 20220919 Last saved 22/09/2022 18:02
+Does this activity involve the use of substances or processes that may cause harm to the 
+environment, to animals or plants.(during the implementation of the activity or further to the 
+use of the results, as a possible impact) ?
+Yes No
+Does this activity deal with endangered fauna and/or flora / protected areas? Yes No
+Does this activity involve the use of substances or processes that may cause harm to humans, 
+including  those performing the activity.(during the implementation of the activity or further 
+to the use of the results, as a possible impact) ?
+Yes No
+8. Artificial Intelligence Page
+Does this activity involve the development, deployment and/or use of Artificial Intelligence? (if 
+yes, detail in the self-assessment whether that could raise ethical concerns related to human 
+rights and values and detail how this will be addressed).
+Yes No 4-24
+9. Other Ethics Issues Page
+Are there any other ethics issues that should be taken into consideration? Yes No
+I confirm that I have taken into account all ethics issues above and that, if any ethics issues apply, I will complete the 
+ethics self-assessment as described in the guidelines How to Complete your Ethics Self-Assessment
+Administrative forms
+Page 60 of 63
+Proposal ID 101112457
+Acronym BIORADAR
+Horizon Europe ver 1.00 20220919 Last saved 22/09/2022 18:02
+Ethics Self-Assessment
+Ethical dimension of the objectives, methodology and likely impact
+The project will combine qualitative and quantitative data collection to gain a deep understanding of industrial bio-based systems. 
+Specifically, the project will conduct a quantitative survey ; may conduct qualitative interviews and/or focus groups; as well as 
+representatives of bio-based transition initiatives, NGOs/CSOs; policymakers; local businesses and bio-based industry representatives; 
+and scientists/researchers. Coordination and support action will be carried out in use-cases in bio-textile, bio-fertliser, and bio-
+packaging. Any cross-border transfers of identifiable information will be subject to appropriate safeguards per GDPR Article 46. 
+The BIORADAR' Ethics Policy sets out in detail the ethics principles that govern universal research involving bio-based industrial 
+stakeholders, their data namely principles of safety and well-being, consent, anonymity, confidentiality, and data protection. The 
+fundamental principles that govern research involving people are enshrined in the Council of Europe’s ‘Convention for the 
+protection of human rights and dignity of the human being regarding the application of biology and medicine: Convention on 
+human rights and biomedicine’. 
+ 
+Does this activity involve the development, deployment and/or use of Artificial Intelligence-based systems? 
+ 
+In this project the partner IRIS aims to develop an AI-matchmaker engine for AI-driven benchmarking analytics platform with data in 
+sustainability and circularity of industrial bio-based systems collected and available in the BIORADAR WP1 and WP2. The 
+development of the AI-engine will include the generation of synthetic datasets to train the engine and the demonstration of the 
+engine. Besides, we will validate the tool with anonymised real data coming from the use-cases. The partner Yaghma will be 
+responsible for the ethical assessment 
+during the development of the AI tool. 
+ 
+Could the AI based system/technique potentially stigmatise or discriminate against people? 
+ 
+The data that will be collected will include only process relevant information, such as meta-data on the sustainability aspects of bio-
+based products and systems (environmental, economic, and social). Following the principles of data minimisation and 
+privacy by design no personal information will be collected. The risk of biased data will be mitigated at the early stage, when training 
+data will be carefully selected for the AI algorithm. 
+ 
+Does the AI system/technique interact, replace or influence human decision-making processes? 
+ 
+The benchmark analytics tool does not aim to replace the human decision maker, but to automatically suggest decisions, and thus 
+it will considerably shorten the time require by human to design and match different resources. 
+Extensive evaluation of the models during the project aims to accurately estimate their future performance. Summaries of the inputs 
+and outputs of the model will be logged to allow traceability and auditability. If the performance of the deployed model is 
+considered suboptimal, human users will be able to replace the model by manual machinery matching. 
+Human users will be informed as part of their training about the abilities and limitations of the AI models, the logic behind the 
+models, how they can control the output, and how they can turn them on or off. 
+ 
+Does the AI system/technique have the potential to lead to negative social consequences? 
+ 
+As no personal information will be collected, there is no risk of bias in the input data or algorithm design. Neither human rights or 
+freedoms will be affected by the proposed methods. 
+Remaining characters 1419
+Compliance with ethical principles and relevant legislations
+A review of current national and European legislation identified no immediate restrictions on how researchers propose to deploy AI 
+technologies during the project. Researchers of the partner Yaghma will continuously monitor the regulatory agenda including EU AI 
+Act for any future development which may impact the future development or deployment of AI-based BIORADAR technologies. 
+During their review, researchers noted the publication of the “Ethics Guidelines for Trustworthy AI” (August 2019) by the European 
+Commission’s High-level Expert Group on Artificial Intelligence, and as a result will incorporate these recommendations into their AI 
+model development process. The following section sets out how researchers intend to accommodate these guidelines during the 
+Administrative forms
+Page 61 of 63
+Proposal ID 101112457
+Acronym BIORADAR
+Horizon Europe ver 1.00 20220919 Last saved 22/09/2022 18:02
+project: 
+(1) Human Agency & Oversight: AI-based BIORADAR technologies will not make decisions on behalf of human operators at any point. 
+This will be achieved by sensitively integrating the technology into supporting established and trusted decision-support processes 
+and 
+ensuring the primacy of the human operator’s agency at all steps, e.g., the UI operators used to configure machine tools prior to 
+manufacturing. 
+(2) Privacy & Data Governance: The design of the data architecture and infrastructure underpinning the BIORADAR system 
+guarantees the highest level of privacy and data protection through the system’s lifecycle. It also ensures compliance with 
+international laws 
+regarding the collection, processing, and storage of data. Furthermore, the architecture/infrastructure is continuously monitored and 
+updated to ensure the highest level of security and compliance by utilizing a commercial level data handling platform. 
+(3) Transparency: All calculations generated by the BIORADAR AI models will be mathematically interpretable to human users. 
+Furthermore, prior to first deployment during the demonstration programme, users will be given a briefing on the safe and 
+proper use of the BIORADAR technology – this includes a briefing on the technology’s limitation. 
+(4) Fairness, diversity, and non-discrimination: Best possible efforts will be made to avoid unfair basis being engendered in the 
+models derived through the AI solutions. The accessibility of future BIORADAR applications will be ensured through user centric 
+design 
+methodologies and the involvement of diverse design specialists. 
+(5) Societal and Environmental Well-being: The deployment of AI solutions in BIORADAR is driven by the desire to improve the 
+environmental footprint of the bio-based industry through the intelligent use of industrial data to enable the reuse of secondhand 
+machines. This is well aligned with both EU and UN objectives for adverting climate disasters precipitated by GHG emissions 
+resulting from industrial operations. 
+(6) Accountability: All researchers directly involved in the development and deployment of AI solutions during the BIORADAR project 
+will take responsibility for future applications of the future technology and its consequences. A robust and transparency project 
+governance structure ensures the highest level of research accountability. The constant ethical analysis during the project will ensure 
+that accountability principles regarding the use of AI in BIORADAR are being adhered to.
+Remaining characters 1720
+Administrative forms
+Page 62 of 63
+Proposal ID 101112457
+Acronym BIORADAR
+Horizon Europe ver 1.00 20220919 Last saved 22/09/2022 18:02
+Security issues table
+1. EU Classified Information (EUCI)2 Page
+Does this activity involve information and/or materials requiring protection against 
+unauthorised disclosure (EUCI)? Yes No
+Does this activity involve non-EU countries which need to have access to EUCI? Yes No
+2. Misuse Page
+Does this activity have the potential for misuse of results? Yes No
+3. Other Security Issues Page
+Does this activity involve information and/or materials subject to national security restrictions? 
+If yes, please specify: (Maximum number of characters allowed: 1000)
+Yes No
+Are there any other security issues that should be taken into consideration? 
+If yes, please specify: (Maximum number of characters allowed: 1000)
+Yes No
+Security self-assessment
+Please specify: (Maximum number of characters allowed: 5000)
+Remaining characters 5000
+2According to the Commission Decision (EU, Euratom) 2015/444 of 13 March 2015 on the security rules for protecting EU classified information, “European Union 
+classified information (EUCI) means any information or material designated by an EU security classification, the unauthorised disclosure of which could cause varying 
+degrees of prejudice to the interests of the European Union or of one or more of the Member States”. 
+3Classified background information is information that is already classified by a country and/or international organisation and/or the EU and is going to be used by the 
+project. In this case, the project must have in advance the authorisation from the originator of the classified information, which is the entity (EU institution, EU Member 
+State, third state or international organisation) under whose authority the classified information has been generated. 
+4EU classified foreground information is information (documents/deliverables/materials) planned to be generated by the project and that needs to be protected from 
+unauthorised disclosure. The originator of the EUCI generated by the project is the European Commission.
+Administrative forms
+Page 63 of 63
+Proposal ID 101112457
+Acronym BIORADAR
+Horizon Europe ver 1.00 20220919 Last saved 22/09/2022 18:02
+5 - Other questions
+HORIZON-JU-CBE-2022-S-01 Developing and validating monitoring systems of environmental sustainability and circularity: collection of best practices and benchmarks  
+BIORADAR   1 
+ Monitoring system of the environmental and social sustainability and circularity of industrial bio-based systems   List of Participants No. Participant Organisation Name Type Country 1. Yaghma  B.V. (YAG) (Coordinator) SME Netherlands 2. Hamburg University of Applied Sciences (HAW) Research Germany 3. IRIS Technology (IRIS) SME Spain 4. Next Technology Tecnotessile (NTT) Research Italy 5. KNEIA (KNEIA) SME Spain  6. Ente Italiano Di Normazione (UNI)  Standardisation body Italy 7. CETENMA (CETENMA) Research Spain 1. Excellence 1.1 Objectives and ambition It is year 2030. Ana is the procurement manager of a packaging company. Ana receives the information about a new generation of bio-based packaging products that will be manufactured at suppliers. Her job together with the company sustainable manager, Johnny, is to evaluate those bio-based products against environmental, social, economic and circularity aspects and select the right supplier. Ana and Johnny cannot simply order packaging materials from any of suppliers due to their company business strategy to be branded as a circular and sustainable bio-based company. Ana turns to BIORADAR - the monitoring system for bio-based industry to support her company's need for a universal and consistent way to measure bio-based products’ circularity, environmental sustainability, and their social impacts. By purchasing a monthly licence of the BIORADAR digital monitoring tool and its Circularity-as-a-Service (CaaS) consulting scheme, Ana has access to a one-stop-tool digital solution for monitoring bio-based products, access to collection of best practices and benchmarks indicators, access to regulations and access to extensive instruction and interpretation on the bioeconomy across all indicators and process steps. The tool is highly automatized and relies on the data-cloud, allowing Ana and her colleague Johnny to check the circularity, environmental sustainability, and social aspects of bio-based products and services with just a few clicks. After monitoring and benchmarking is finished, Ana orders materials from a supplier with the best benchmark.  1.1.1 Challenge to be addressed A bio-based system covers all sectors that rely on biological resources, processes, and principles. The development of a bio-based economy has been emphasised in European Green Deal to decrease dependency on non-renewable energy and material resources, maintain food security, and decarbonize the economy1. However, considering limited land and biological resources in the EU, sustainable and just development of industrial bio-based systems call for special attention to resource consumption and the environmental, economic, and social impacts of such systems on the EU and beyond. There is a perceived need for a project which examines the connections between bio-based systems and their applications. It is against this background that the project BIORADAR, a monitoring system of the environmental and social sustainability and circularity of bio-based systems, is being proposed. In the BIORADAR system vision (Figure 1), industrial bio-based systems are composed of four phases: production of (biological) resources, (biological) processes, transportation, and end-of-life of bio-based products. BIORADAR takes a system perspective to fill the indicator gap in material circularity, environmental impacts, and social impacts of industrial bio-based systems and develop a digital monitoring tool for bio-based industries, policymakers, certificate companies, traders and investors. First, BIORADAR assesses environmental impacts caused during biological resource production, transportation, and bio-based processes. Environmental Impact Assessment (EIA) will be continued by revealing opportunities for environmental impact reduction, including carbon emission and iLUC risks. BIORADAR aims to develop frameworks and metrics to evaluate carbon emission and capture and utilisation potential, develop methods to evaluate iLUC risks of bio- 1 https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_en 
+
+BIORADAR    2 
+based systems, and explore climate change mitigation and opportunities for adopting the whole supply chain of industrial bio-based systems through a life cycle perspective.  In parallel, BIORADAR evaluates the circularity of generated products and by-products/ wastes over (biological) processes and products' end-of-life and uncovers opportunities for closing or optimising material loops. EU bio-based systems must be resilient to material price fluctuations, material supply, and water and land limitations. A Circular Bio-based Economy (CBE) aims to decouple the development of bio-based systems from consuming finite resources by unlocking the full potential of all sustainably sourced biomass, crop residues, industrial side-streams, and wastes by converting them into value-added products. BIORADAR identifies circularity opportunities in industrial bio-based systems through biological and technical loops. Circularity Indicators at governments (macro), industrial symbiosis (meso), companies (micro) and products (nano) levels will be assessed to show how well a bio-based system performs in the context of a circular economy. BIORADAR evaluates existing circularity indicators and develops novel indicators to incorporate circularity as design criteria in developing new bio-based systems, from material choice to new business models. Such indicators will also allow policymakers to investigate the transition of bio-based systems from linear to circular. Circularity assessment includes an extensive study of end-of-life issues of bio-based products. Moreover, industrial bio-based systems influence five main stakeholder groups (worker, consumer, local community, society and value chain actors). BIORADAR aims to identify social development objectives, formulate action plans for social impact assessment through Social Life Cycle Assessment (S-LCA), and gather required data from international sources such as the International Labour Organisation. The project will also perform institutional analysis to investigate rules and regulations in selected exporting countries and assess current policies' social and legal feasibility toward circular bio-based industries.  A digital monitoring tool integrates different aspects of sustainability, defines the best performing bio-based sectors, leverages investments, and ensures competitive edge solutions. However, the monitoring tool would not be helpful for policymakers and investors if the economic impacts of circularity and environmental impact improvement opportunities are not considered in the evaluation. Therefore, cost evaluation of proposed environmental impact reduction and circularity enhancement solutions will be conducted. Use-cases will be analysed to identify scientifically robust metrics and performance benchmarks and best performing industrial bio-based systems.  BIORADAR outcomes will create solutions for bio-based products, enhance circular bio-based systems to operate according to planetary boundaries and deepen our understanding of how circularity and environmental and social sustainability metrics could be incorporated into industrial bio-based systems and related policies and regulations. 1.1.2 Objectives of the proposed work The main aim of the BIORADAR project, as a coordination and support research action, is to develop a comprehensive monitoring system for transition Indicators, metrics for environmental sustainability, circularity, and social impacts of (industrial) bio-based systems. The momentum to step toward a bio-based economic model is growing, and we see both the private and public sectors begin setting ambitious circular targets in this realm. Transparency and alignment are critical to establishing a common language across bio-based industry and governments. For this reason, BIORADAR’s vision is to develop a universal and transparent framework to measure environmental sustainability, circularity, sustainable trade and social impact of bio-based industry. The Bio-based systems Transition Indicators (BTI) is a simple, objective, and quantitative framework that can be applied to bio-based businesses of all sizes, value chain positions and geographies. The framework aims to be comprehensive yet flexible, complementary to a company’s existing sustainability efforts and agnostic as to material, sector or technology across bio-based industry.  The partners define the BIORADAR BTI as a novel monitoring system that goes beyond currently established approaches. BTI with its systemic perspective provides industries, policy makers, investors, traders and certification companies with a common language to use for internal decision-making and communicating to key stakeholders. The BTI framework, and online tool are the main results of BIORADAR project. Integrating and demonstrating three real bio-based industrial testbeds (packaging, textile, and fertiliser) in a combination of innovative and symbiotic digital tools as key enabling technologies behind the BIORADAR BTI, ultimately enables assessing (self-assess), monitoring, and benchmarking bio-based industry, and develop standardized solutions and guidelines for policymakers and certification institutes. 
+Figure 1 The BIORADAR systems vision 
+BIORADAR    3 
+Figure 2 presents the BIORADAR BTI idea at a glance. The BTI comes accompanied by a step-by-step approach for applying them in bio-based industry. This approach outlines four process cycles that cover one assessment cycle. The assessment cycle is continuous and does not stop after a single assessment, but instead encourages frequent assessments to monitor progress in the bio-based transition. These four process cycles guide the companies, traders, investors, policymakers, and certification companies from determining the scope (cycle one) and selecting the indicators for the assessment (cycle two) through the data collection and calculation of the results towards contextualising and interpreting the results and formulate an actionable plan for improvement (cycle four). The innovative digital tools developed in BIORADAR (cycle three) acting as enabler of the project concept. The main project aim will be achieved by a set of specific objectives, which are described in Table 1:  Table 1: Project objectives. Objective A: Assessing the environmental impacts, iLUC risks, and carbon emission of industrial bio-based systems.  Measures of success:  ● Exploring existing industrial bio-based systems within the EU and beyond to prepare a preliminary inventory of systems;  ● Evaluating existing methods/metrics to assess environmental impacts, iLUC risks, and carbon emission of selected industrial bio-based systems;  ● Assessment of Life Cycle Cost for the selected bio-based systems and Social LCA assessment; ● Critical assessment of the existing environmental impact indicators of industrial bio-based systems;  ● Exploring opportunities to improve environmental performance of industrial bio-based systems. Means of verification:  ● D1.1. Bio-based value systems for selected industrial bio-based systems (Textile, Fertiliser, and Packaging) (M6) ● D1.3. and D1.4. Life-cycle costs and social LCA assessment indicators (M24) ● D1.5. List of indicators for carbon removal potential and iLUC risks of bio-based solutions (M18) Objective B: Identifying opportunities for closing and optimising the loops, defining material circularity indicators, and developing a circularity assessment framework for industrial bio-based systems. Measure of success:  ● Critical assessment of the existing circularity indicators of industrial bio-based systems;  ● Evaluating existing metrics/methods to assess circularity of selected industrial bio-based systems;  ● Exploring opportunities to promote circularity of industrial bio-based systems. Means of verification:  ● D2.1. Circularity indicators list for industrial bio-based systems (M9) ● D2.3. End-of-life indicators of circular bio-based products (M24) Objective C: Conducting economic assessment for closing the loops and Climate change mitigation and adoption in industrial bio-based systems. Measure of success: ● Measure and analyse the capital, operational costs and cost variations resulting from applying the proposed technologies for each of the stages in the materials life cycle and bio-based product’s supply chain, performing Life Cycle Cost analysis (LCC). ● Evaluating investment and operation costs required for closing the loops in industrial bio-based systems. ● Evaluating investment and operation cost required for integration of CCS/CCUS (Carbon Capture, Utilisation and Storage) into industrial bio-based systems. Means of verification: ● D2.4. List of economic indicators of circular bio-based products (e.g. investment costs, operation costs, prices) (M24) Objective D: Defining social impact indicators, implementing Social LCA (S-LCA), and evaluating the trade-offs and synergies with economic and social objectives Measure of success: ● Addressing indicator gaps in social impact assessment and promoting social fairness and sustainable trade conditions and harness social and ecosystem resilience. ● Assessing the trade-offs and synergies with economic and social objectives of bio-based systems in the scope of CBE and with competing and adjacent economy sectors in the bioeconomy. ● Establish the social categories that will be evaluated in the S-LCA, taking into consideration the most important/relevant categories (according to the geographical location of the value chains). ● Identify potential social hotspots in order to determine the processes within the value chains that may have a higher chance of resulting in negative social impacts, and propose measures to reduce the risk of negative social impacts. ● Compare value chains within each bio-industry, ranking them from best to worst in terms of social performance, following the SLCA methodology. The value chains will be ranked in terms of social performance before and after the proposed.  
+Figure 2 The BIORADAR at a glance 
+BIORADAR    4 
+Means of verification: D1.4. Social Life Cycle Assessment (S-LCA) Report and indicators (M24) Objective E: Developing a digital monitoring system (with a set of integrated digital tools) to evaluate the trade-offs and the interconnectivity of all assessed impacts in objectives B, C, and D as a multicriteria decision-making tool for different stakeholders.   Measure of success: ● Develop a detailed conceptual framework consists of indicators, metrics, and strategies to transit from linear fossil-based systems to circular bio-based systems.  ● Develop a user-friendly, interactive Self-Assessment tool and its dashboard, which will provide easy access for multiple stakeholders and allow for selective extraction of data based on user needs and interests; ● Develop Data-driven benchmarking and analytics platform, which uses an AI agent for benchmarking that makes it easy to manage reporting for users. The platform will help measure and evaluate the impacts of bio-based systems, and to learn about the environmental, economic, social, and circularity aspects.  ● Develop a bio-based systems’ Regulatory Tracker Tool, a unique, one-source reference for the latest policy developments tied to environmental impacts, iLUC risks, carbon removal potential and circularity of bio-based systems.  Means of verification: ● Create a bio-based system monitoring dashboard for three selected bio-based sectors (bio-packaging, bio-textiles, and bio-fertilizer) (could be expanded to cover other domains after the lifetime of the project) ● D3.1. BIORADR AI-driven benchmark and analytics platform (M33) ● D3.2. BIORADAR self-assessment tool (M28) ● D3.4 BIORADAR regulatory tracker tool (M30) Objective F: Upscaling and replication, benchmarking, and policy recommendations Measure of success: ● Identifying and analysing patterns of benefits of circular bio-based industry transition frameworks quantitatively through selected use cases; ● Use-cases implementation and Benchmarking; ● Harmonise and exploit the project’ outcomes as well as transfer information and services with government agencies, cities, industry, and professionals, aiming to create a long-lasting thematic knowledge and cooperating platform on bio-based industry ● Develop cooperation initiatives and scaling up the best practices from the use-cases.  ● Policy recommendations and building a preliminary set of benchmarks or references for best-performing industrial systems.   ● Enhance synergies between EU projects and government and non-government agencies.   Means of verification: ● D4.1 BIORADAR replication facility (M10) ● D4.2 BIORADAR  implementation scorecard (M18) ● D4.3 Circularity-as-a-Service (CaaS) servitisation service 1.1.3 Progress beyond state of the art (SOA) The BIORADAR progress beyond SOA can be presented on two levels: the individual digital tool level and the project level. Table 2 below presents the SOA progress on the individual digital tool level, pointing to the scientific breakthroughs the partners aim at achieving in this Coordination and Support Action (CSA). It is then followed by a presentation of the SOA progress on the project level. Table 2. Comparison of BIORADAR to state of the art at individual digital tool level. DIGITAL TOOL STATE OF THE ART BIORADAR PROGRESS BEYOND SOA 
+ Self-assessment 
+‘Dashboard for Cross Country Measurement of EU Bioeconomy: An Input-Output Approach’2 developed by biomonitor project provides detailed information on EU Bioeconomy at industry level. It covers 28 EU member states between 2005 and 2015, and each industry defined by International Standard Industrial Classification. The main results are EU Bioeconomy value added, EU Bioeconomy shares,Upstream and Downstream value added. 
+BIORADAR will build upon the biomonitor dashboard and other resources e.g. BioSTEP3 and propose a novel approach to extend biomonitor towards covering aspects related to the environmental impacts, iLUC risks, carbon removal potential and circularity of bio-based systems. BIORADAR self-assessment enables a range of industrial bio-based systems’ stakeholders to measure their performance on Environmental, Economic, Social, and Circularity impacts with the set of KPIs identified, tested, and validated within the project. 
+ Data-driven benchmarking and analytics platform 
+The (manually) benchmarking is challenging and not complete. it does NOT allow bio-based companies to proactively identify emerging risks, dynamically monitor their evolution over time, and integrate those insights in business strategy. To the best of our knowledge, a fully automated solution for benchmarking  environmental sustainability and circularity of bio–based system does NOT exist. 
+The BIORADAR AI-driven benchmarking tool will build upon mathematical programming models to deliver complex benchmarking exercises combining multiple variables related to the characteristics of bio-based industry. Besides the goal of conducting a dynamic AI-driven analysis of metrics and indicators, the benchmarking will aim at maximising trust by comprehensive collection of corporate reports, hard and soft laws, online news, etc. about bio-based industry.  
+ 2 https://biomonitor.eu/technical-insights/  3 https://www.bio-step.eu/fileadmin/BioSTEP/Bio_documents/Barrier-free_BioSTEP_D2.2_Impacts_of_the_bioeconomy.pdf  
+
+BIORADAR    5 
+Global bio-based systems regulatory tracker tool to understand the most important policy-related issues worldwide 
+Addressing the environmental impacts, iLUC risks, carbon removal potential and circularity of bio-based systems become an essential requirement, as the associated compliance, financial and reputational risks intensify. 
+BIORADAR introduces the Global Bio-based Industry Regulatory Tracker: a unique, one-source reference for the latest policy developments tied to environmental impacts, iLUC risks, carbon removal potential and circularity of bio-based systems. The Tracker combines collection of hard laws and soft norms. It provides corporate and entities executives with unique, data-driven insights to help them proactively address bio-based regulatory risks and opportunities in the risk management and due diligence processes.  BIORADAR will move beyond SOA on the project level by creating a BTI that is enabled by a combination of monitoring service- and business model innovations. The main innovations of the BIORADAR BTI are: ● BTI framework - Metrics for every step of the monitoring bio-based systems against environmental sustainability, circularity, and social aspects: BIORADAR metrics aid the search for and identification of circular bio-based solutions most suited to a range of stakeholders (see Fig. 3)—They assess the potential of the solutions and build business cases to ensure implementation at scale. BIORADAR metrics will also measure and report upon a businesses progress in becoming more circular and environmentally and socially sustainable. Thus, for every step of the innovation process, BIORADAR provides different metrics to point us in the direction of new or improved products and services that are beneficial from an economic, social, circularity, and environmental viewpoint. There are these three types of metrics to be provided: 1. Strategic/core indicators: These metrics are focused on providing users with a verdict: how well are they performing against? A limited amount of indicators are used. 2. Performance indicators: These metrics are focused on assessing the physical processes underlying bio-based systems performance. Indicators should include all stages of the value chain, such as share of secondary materials used and recycling rates. 3. Process indicators: These metrics are focused on monitoring the transition process at users organisation towards bio-based systems. By definition, many different indicators are needed to highlight different aspects of change processes. ● Open/Transparent: Compared to other metric frameworks available (e.g. biomonitor and BioStep), the BTI is more open and transparent as it is a framework where the methodology will be co-developed with industry partners and remains publicly available. BTI could be applied within a high variety of bio-based industries; with assessments on company, business unit, site and product level. Open BTI environment aimed at maximising interoperability of bio-based systems resources. ● One-stop-tool digital solution for monitoring bio-based products: by integrating the individual digital tools such as ‘global bio-based systems regulatory tracker’, ‘AI-driven benchmarking’ and ‘self-assessment’ into one service offering (to be integrated by the partner YAGHMA) the BIORADAR consortium aims at providing bio-based industry with a first-of-a-kind one-stop-tool for monitoring bio-based products, access to collection of best practices and benchmarks indicators, access to regulations and access to extensive instruction and interpretation on the bioeconomy across all indicators and process steps, and doing so in a highly automatised way. ● BTI Lab: The BTI lab is a knowledge database. It offers exclusive services and content to help you learn more about the Bio-based Transition Indicators, the BTI Toolkit and how both can support industrial bio-based systems. The services consists of: 1. BTI capacity building: (1) Connecting stakeholders active in bio-based industry: BIORADAR will become truly an ecosystem focused on bio-based systems monitoring, engaging both the internal and external stakeholders. (2) Organisation of two European and worldwide international industrial bio-based system forums and conferences to attract and connect stakeholders active in bio-based industry with international and local investors 2. BTI use-cases: It has been agreed to select three industrial bio-based systems (Bio-Packaging, Bio-fertiliser (Bio-Chemical), and in Bio-based Textile) to be able to test and validate the BTI framework and BTI toolkit. With input in BTI toolkit, use-cases show circular baseline and allow different stakeholders to get a first overview of the current circular bio-based systems’ performance. As use-cases continue on their sustainability journey BTI tool will help them track their progress. In the partner’s understanding selecting three industrial use-cases still fulfils the topic’s requirement of a demonstration in “Collect and analyse the best available industrial bio-based systems in the scope of CBE JU within the EU in terms of environmental and circular performances”, which has been also confirmed by a National Contact Point. 
+Figure 3 BTI framework dimensions 
+BIORADAR    6

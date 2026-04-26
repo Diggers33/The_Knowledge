@@ -1,0 +1,150 @@
+3.3 CONSORTIUM AS A WHOLE ............................................................................................................................... 65 
+3.3.1 Consortium ................................................................................................................................................. 65 
+3.3.2 Industrial / Commercial commitment.......................................................................................................... 67 
+3.3.3 Other countries and international organisations ........................................................................................ 68
+3.4 RESOURCES TO BE COMMITTED ........................................................................................................................ 68 
+3.4.1 Table 3.4a: Number of required person months ......................................................................................... 68 
+3.4.2 Table 3.4b: Other Direct Costs ................................................................................................................... 69 
+ 
+AIDPATH     3 
+1 Excellence 
+Personalized cell & gene therapies are transformative novel treatments , but at the same time introdu ce 
+unprecedented challenges in manufacture and clinical use. The most clinically advanced embodiment of these 
+advanced therapies are CAR-T cells. In this cell therapy, immune cells (T lymphocytes) are engineered to 
+express a synthetic chimeric antigen receptor (CAR) and are thereby redirected to seek and destroy cancerous 
+cells in the patient’s body. CAR-T cell therapy is indeed a transformative new treatment in haematology with 
+clinical proof -of-concept in patients with acute leukaemia, lymphoma (lymph nod e cancer) and multiple 
+myeloma (bone marrow cancer)2. A conceptual appeal of this treatment is that the patients’ own immune cells 
+are redirected – providing a personalized treatment - and that a single infusion of CAR-T cells can be sufficient 
+to eliminate the cancerous cells and to establish immunological memory that protects the patient from tumour 
+relapse (‘living drug paradigm’). CAR-T cell therapy in acute leukaemia and lymphoma is now an approved 
+treatment that is highly demanded by patients and caregivers, and in the focus of attention of bio entrepreneurs, 
+policy makers and regulators. Intriguingly, the success of CAR -T cell therapy as a role model for gene -
+engineered cellular immunotherapy in haematology and oncology, has spurred the development of  this 
+treatment for novel applications in infectious diseases (targeting viral infections and fungal infections), chronic 
+and autoimmune diseases.   
+The challenge with engineered T -cell therapies is that they require a sophisticated process of manufacturin g 
+(i.e. sourcing, gene-engineering and expanding the cell product) and clinically use (i.e. preparing the patient, 
+administering the cell product, monitoring the patient). Small alterations in either manufacturing and/or clinical 
+use typically trigger a ro und of regulatory re -review and approval because they can change the safety and 
+efficacy of the manufactured cells. This poses an enormous challenges for the hospitals that find themselves 
+in the epicentre of this CAR-T & cell therapy revolution: with their specialized health care infrastructure and 
+highly trained health care providers they are the prime centres of choice for administration of the  novel 
+treatments. Accordingly they are suddenly responsible for the complex tasks and logistics while still bei ng 
+                                                      
+2 Nature. 2017 May 24; 545(7655): 423–431. doi:10.1038/nature22395. 
+AIDPATH (Artificial Intelligence-driven, Decentralized Production for Advanced Therapies in the 
+Hospital) is a high -energy EU consortium, dedic ated to enable and to augment the next -generation of 
+personalized medicine with gene -engineered immune cells at EU hospitals through the use of AI 
+technology. The exemplary embodiment of gene -engineered immune cells in AIDPATH will be T cells 
+modified to express a synthetic chimeric antigen receptor (CAR -T) that are already a revolutionary novel 
+treatment in hematology and oncology, and will also be useful fo r treating infections and autoimmune 
+diseases. Conventional CAR-T therapy is complicated by complex logistics and supply from centralized 
+manufacturing facilities, and inflexible manufacturing and clinical use schemes that disregard patient and 
+cell product characteristics, thereby limiting patient access and therapeutic outcome. 
+AIDPATH will apply top-notch AI technology to integrate patient-specific data and biomarkers in CAR-T 
+therapy, and apply flexible manufacturing schemes to obtain CAR-T cell products with optimal fitness and 
+anti-tumor potency. AI technology will also be applied in pre - and in -process control s to optimize 
+scheduling and resource planning to reduce cost and hospital resource utilization and to augment patient 
+access. AIDPATH will establish a role model that integrates the hospital environment in a smart manner, 
+incorporating also aspects of logistics, capacity planning, data management and cybersecurity  by design. 
+The project is designed to enable the smart ‘bedside’ provision of personalized treatments directly at the 
+‘point-of-care’, and to accomplish end-to-end automation of hospital -based CAR-T manufacture. A key 
+deliverable in AIDPATH will be an integrated software and hardware package that allows rapid 
+dissemination of the ‘smart CAR-T manufacturing and clinical use’ concept to hospitals throughout EU 
+member states.  
+AIDPATH brings together a world -class consortium, consisting of key opinion leaders in science and   
+translational medicine, innovative biotech SMEs  and commercial par tners, patient advocates, policy 
+makers and regulatory experts. The consortium members are well -positioned to engage into a productive 
+dialogue with regulators and patients to ensure acceptance and rapid implementation, adoption by EU 
+hospitals and industry. A strategic aim in AIDPATH is to contribute to the sustainability and well-being of 
+the EU health care systems, to place the EU at the fore-front (ahead of the US and Asia) of the global CAR-
+T movement and to ensure that EU citizens will continue to have access to excellent health care.  
+AIDPATH     4 
+subject to enormous pressure to operate efficiently and economically. A ‘smart hospital of the future’ offering 
+engineered T-cell therapy to their patients has to provide a sophisticated infrastructure, internal operations 
+scheme and highly-trained dedicated staff that is proficient both in the manufacture and clinical use of these 
+novel treatments . Only this way, clinical sites can  ensure patient safety, positive clinical outcomes, and 
+compliance with the socioeconomic demands of EU health care systems.  
+A critical and vulnerable component for a ‘smart hospital of the future’ in cellular immunotherapy is the ability 
+to carry out the GMP (good manufacturing practice) process. In conventional approaches, manufacturing is 
+done manually with the assistance o f some automation platforms. There is also the fact that variability from 
+patient to the patient means that the optimal manufacturing procedures can vary from batch to .  Unlike 
+centralised manufacturing there is no economy of scale and there are multiple i ndividualised manufacturing 
+efforts happening in parallel3. The difficulties in decentralized engineered T-cell manufacturing has led to the 
+consideration of ‘off-the-shelf’ allogeneic third party cell products and cell lines that can be administered to 
+any patient. However, these allogeneic approaches carry a significant risk of graft versus host disease where 
+the foreign immune cells attack non -malignant cells. The patient's immune system may also recognize the 
+therapeutic cells as foreign which may lead to product rejection and limited therapeutic efficacy. Product 
+rejection in the allogeneic setting may be mitigated by the use immune system suppressing medications – 
+which is however undesired as this would compromise the patient’s immunocompetence and increase the rate 
+of infections.  
+Artificial intelligence (AI), combined with process automation technology, has the potential to increase the 
+efficiency and the quality of engineered cell therapy to a point the equals or excels what can be achieved with 
+centralized manufacturing. AI approaches also have the potential to substantially increase the personalization 
+of therapies through deep learning and the use of digital twinning concepts. This changes the role of hospitals: 
+instead of just receiving and admin istrating drugs, they assume an active role in the manufacturing of 
+therapeutics. Smart hospitals of the future will evolve into decentralized but interconnected hubs that offer 
+development, manufacture and administration of personalized advanced therapies such as CAR-T cells from a 
+single source.AIDPATH introduces a trustworthy, AI powered approach that allows automated and intelligent 
+production of the therapy in the hospital and bolstering the capacity of centralized manufacturing while 
+ensuring manufacture is reproducible, safe and economically viable.  This project paves the way towards a 
+future where engineered cell therapies are not limited by the challenges and inefficiencies of a complicated 
+manufacturing process. 
+Vision for the smart hospital of the future 
+It is April 2027 and Stephanie, a young soccer player develops a nose bleed during a match. The ball or any 
+other player has not hit her. The coach and her parents rush to her side when they see that it is not letting 
+up. Her parents have noticed that she has been more fatigued and complaining of feeling cold all the time. 
+Later that night in the Emergency Room, her parents are startled when not just the nurse enters the room. A 
+whole group enters, including a kindly doctor. The blood test shows th at their daughter has leukaemia. A 
+day later, once their confusion and fear have transformed into a firm resolve to overcome this leukaemia, 
+they are back in the hospital clinic. 
+Further evaluation shows that the young girl has acute lymphoblastic leukaemia. They listen intently as the 
+doctor explains to them what her diagnosis means. The concerned look on the faces of her parents eases a 
+bit when they hear that there is an effective therapy consisting Stephanie’s own immune cells (T cells) 
+engineered to ex press a chimeric antigen receptor (CAR) that recognizes a surface molecule on the 
+leukaemia cells and destroys them. A nurse draws more of her blood.  That blood sample is packed in ice 
+and taken down the hall to the AIDPATH system. The blood samples are attached to a machine which takes 
+them up, and the technician enters in the patient's name which pulls up her medical record which the 
+technician checks to make sure that all the relevant data fields are complete. Unbeknown to the patient, a 
+complex AI analysis and logistical manufacturing chain is set into operation, just a couple of stories below 
+her. The artificial intelligence that examined the patient and cell characteristics suggests a process sequence 
+that is tailored precisely to the patients profile to provide the much desired CAR-T cell therapy. At the same 
+time, all material and resources needed to produce the CAR -T cell batch is requested from central storage 
+and allocated for by an intelligent software program. A trained person equips the machinery, which checks 
+that everything is in place and correctly inserted. The process is triggered, T cells are extracted, and the 
+                                                      
+3 Wang Molecular Therapy — Oncolytics (2016) 3, 16015; doi:10.1038/mto.2016.15 
+AIDPATH     5 
+process of modifying using a viral -vector free process starts. Then, the CAR -T cells are expanded in a 
+bioreactor equipped with sen sors that performs completely autonomously - even samples are taken and 
+analysed automatically in a small robotic chamber. The results are fed back into an intelligent system 
+control, which makes sure that the cells are manufactured fast and efficiently, and are provided in the highest 
+quality. The only thing that the trained personnel has to do is to stand by, supervise the suggestions of the 
+AI displayed through the system software and to monitor the process performance online. Finally, the 
+modified set of CAR-T cells is produced and then undergoes a set of standard analytical testing which have 
+been developed and promoted by the Innovative Medicine Initiative (IMI) projects imSAVAR and 
+T2EVOLVE. Fourteen days after the blood was drawn, the automated syste m produces a CAR -T cell 
+therapy product that is ready to be infused. The system also notifies the treating haematologist that the young 
+girl has an elevated risk for cytokine release syndrome. Here therapy is administered in the ICU with close 
+monitoring and appropriate treatment ready in the case she develops CRS. She does not and she has a 
+complete response to the therapy. Her response and her data, clinical and manufacturing, are recorded and 
+placed in a database.  
+The treating haematologist presents Stephanie’s data along with a whole series of other data from this and 
+other hospitals as part of the AIDPATH stakeholder community meeting. In addition to results, hospital 
+administrators are presenting how the AIDPATH system has been implemented in their ho spital and is 
+saving costs. Most exciting are the presentations about new types of therapies and new indications for CAR-
+T cell therapy where the attendees brainstorm on how the AIDPATH system needs to be adapted to broaden 
+out the success seen in haematology to other areas of medicine.
+1.1 Objectives 
+The overall AIDPATH objectives are to: 
+1. Define and develop an automated robotic, modular manufacturing platform for hospital -based 
+production of multiple batches in parallel of engineered T -cell therapies that is (i) adaptable (ii) 
+incorporates extensive fully automated at-line analytics and (iii) allows for GMP compliant production 
+that is efficient and reliable; 
+2. Produce a set of artificial intelligence solutions capable of supporting the manufacturing process, as  
+well as the resource and product management using the concept of ‘digital twins’ so that engineered 
+cell therapies for cancer treatment are optimized and personalised for patient characteristics increasing 
+therefore efficiency of hospital operations and ensuring viability.  
+3. Establish a data architecture to support the AI  solutions and a continual learning and optimization  
+process of automated engineered cell therapy manufacturing providing an end-to-end capability

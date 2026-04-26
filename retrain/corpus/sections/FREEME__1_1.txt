@@ -1,0 +1,267 @@
+1.1 Objectives and ambition  
+1.1.1 FreeMe objectives 
+The industrial use of plastics  worldwide has increased remarkably over the last 30 years by virtue of their 
+exceptional properties such as low density , lightweight , low cost, versatility, flexibility, strength, and easy 
+machinability. Many plastic parts require a protective metallic coating  to enhance their wear and corrosion 
+resistance and to provide a shiny, polished, aesthetically pleasing final surface. The electrodeposition of metals 
+on solid substrates (electroplating) is widely considered as the most efficient strategy for producing metal coatings. 
+However, plating on plastics (PoP)  via the application of an external electric potential is practically not feasible 
+because most plastics are non-conductive. PoP of common, non-conductive plastics (polymers) such as ABS, PET, 
+PLA, Nylon blends and 3D printed resins requires the initial deposition of a thin metal film  (metallization) via a 
+process called “electroless plating” [1] during which metal cations are chemically reduced to metal inside a liquid 
+bath. Therefore, metal deposition on the polymer surface proceeds in the absence of an external source of electrical 
+power. Importantly, the surface of the polymeric substrate must undergo a specific pre -treatment before the 
+metallization step that includes two crucial steps: 
+• etching to increase the hydrophilicity and roughness of the surface that will have a vital role in the 
+adhesion of the metallic film on plastic 
+• surface activation to “seed” the surface with a catalyst  which in turn creates nucleation sites for the 
+final electroless metallization step.  
+Substrate pre -treatment is key to obtain a homogeneous and dense metal coating during the metallization step . 
+Surface etching enhances metal adhesion whereas surface activation provides finely dispersed nucleation sites for 
+ensuing electroless metal deposition. Currently, industrial PoP processes utilize Cr6+ based solutions (e.g., chromic 
+acid) for surface etching. With respect to surfa ce activation, Sn-Pd colloidal baths  are currently employed. 
+Palladium is an exceedingly rare, precious metal which significantly raises costs. Concluding the current industrial 
+processes for PoP  present the following significant disadvantages in respect to environmental sustainability, 
+occupational safety, and quality of coatings: [2] 
+ 
+a. A mixture of Chromic (Cr6+) and sulfuric acids bath solution is used as the SoA process for plastic etching. The 
+bath should operate at a temperature between 50 -70oC making the process of high risk  in relation to the 
+occupation safety and environment as Cr6+ is a recognized carcinogenic and highly toxic compound.  
+b. Palladium (in solutions with tin salts) is used to catalyze the reduction of copper or nickel to form a continuous 
+conductive layer. This layer is necessary for the deposition of the final electroplated coating in the surface of 
+ 
+1 A. Equbal, and A. K. Sood, Investigation on metallization in FDM build ABS part using electroless deposition method, Journal of 
+Manufacturing Processes 19, 22-31 (2015) 
+2 J. Margolis, “Metallic Plating and Coating on Plastics”, Conductive Polymers and Pla stics. Springer, Boston, MA. 
+https://doi.org/10.1007/978-1-4613-0851-5_3 
+
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [2 of 44] 
+the plastic component. Pd is a Critical Raw material (CRM) as its use is strongly depended in imports (i.e.from 
+Russia). Replacement of Pd from processes with more abundant materials is highly desirable. 
+c. The plating result  is highly dependent on the composition of the plastic component . Inhomogeneities in the 
+final coating or bad adhesion may occur, degrading the aesthetics as well as its functionalities.  
+ 
+   
+Figure 1.1 a: Gasers PoP baths 
+based on SoA technology 
+Figure 1.1b: Metal coated plastic 
+articles by Gaser baths 
+Figure 1.1c: Coated and uncoated 
+3D printed artifact (Cnano) [3] 
+ 
+FreeMe project will investigate two revolutionaries approaches  for the metallization of polymeric (plastic or 
+resins) surfaces, alternative to the SoA, without the use of hexavalent chromium and palladium.  
+The first approach is based on the use of sprayable resins (e.g. epoxy-acrylate resins) with the additions of suitable 
+nickel based precursors (i.e. anhydrous nickel salts). This composite resin can be deposited uniformly in the surface 
+of the plastic object by spray deposition methods. The nickel precursors are afterwards reduced utilizing appropriate 
+reduction agents creating the necessary nuclei for the next step of electroless deposition and the formation of the 
+conductive layer. The second technology is based on a  Cr6+ & Pd free pre-treatment of the polymer s urface 
+followed by incorporation of nickel active sites via reduction of nickel salts in the surface of the polymer. Similarly, 
+to the first technology the electroless step follows. For both cases the final step is to apply the desired metal coating 
+for the final metal finishing (i.e. nickel, copper, chromium or even precious metals) . The proposed methodologies 
+are based on results of four partners (Gaser, PoliMi, AUTH and Cnano) obtained by in-house, national and EC funded 
+research project. The FreeMe project main objectives are: 
+ 
+Elimination of use of Cr6+ and Pd from the PoP process. The FreeMe technologies will be based on REACH 
+compliant chemicals, avoiding toxic compounds, and thus ensuring the long-term sustainability of the process. 
+ 
+To increase the maturity of the proposed FreeMe technology to TRL 5 and bring it closer to market applications the 
+following specific objectives should be achieved. 
+1. Deployment and implementation of a safe and sustainable by design  (SSBD) strategy concerning the 
+development of the new FreeMe technologies for PoP that will cover the whole lifecycle (from raw materials to 
+recycling of the plated component). This will be based on selection of REACH compliant chemicals, evaluation 
+of processes and materials relate d to safety in operational environment, end application and end -of life 
+scenarios (e.g. recycling) and assessment of the overall sustainability of the technology.  
+2. Development of a metallization technology of plastic surfaces (i.e. ABS, PET, PLA, Nylon blends and 3D 
+printed resins,) with a technology based on green REACH compliant sprayable UV-curable composite bio-
+based resins: Sprayable bio-based epoxy or epoxy-acrylate resins containing anhydrous nickel salts, i.e. NiCl2 
+particles with size lower than 1 ,5μm, in concentrations of 0.5-2%wt will be produced. The Ni salt particles in 
+the resin’s surface will be chemically reduced forming Ni nuclei, acting as catalysts for the following electroless 
+process. 
+3. Development of Cr6+ free etching technologies for plastics (i.e. ABS, PET, PLA, Nylon blends and 3D printed 
+resins) pretreatment. The technology is based on the use acids or alkali mixtures to micro-etch the surface and 
+prepare it for the activation steps utilizing Ni-based salts and reduction of them  For the 3D printed resins to 
+used mixtures of alkali to micro-etch the surface, followed by the activation step 
+For both the objectives 2 and 3, the ultimate target is to achieve excellent adhesion of the coatings in the 
+plastic surface (4,9 N/25mm) based on peel tests 
+4. Development of in -silico techniques (simulation and modelling ) facilitating both the development and the 
+synthesis and application of the sprayable composite resins and on the optimization of plastic surface etching 
+based on multi-scale models, ranging from atomic to mesoscopic scales.  
+5. Development of a fast and accurate inspection method based on spectroscop ic imaging ellipsometry and 
+optical coherence tomography for micro -scale monitoring (up to 3 μm) for the QC of the process (KPI: to 
+monitor up to 3μm scale resolution, with 99% probability of defect detection) 
+ 
+3 https://www.3dplate.gr/electroless-metallization-of-a-3d-printed-resin-object/ 
+
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [3 of 44] 
+6. Demonstration of the FreeMe technologies in automotive, aerospace and home appliances demonstrators by 
+applying metallic coatings on plastic components and proceed in validation of them 
+7. Assessment of the recyclability of coated polymers  based on the current SoA technologies for recycling (i.e. 
+abrasive blasting, cryogenic embrittlement and mechanical crushing).  
+8. Development of a data driven Decision Support Tool combining data from SSBD assessment, in -silico 
+approaches, experimental/manufacturing results (i.e. operational parameters, structural and morp hological 
+characterization, properties), LCA/LCC assessment and specification/requirement of test cases, for serving 
+industrial end users, including SMEs, on the selection, development and application of the most suitable PoP 
+technology.  
+9. To facilitate the acceptance of the new technologies by the market defining the standardization landscape and 
+contribution to future standards development. 
+10. To prepare business plans and define exploitation routes  for the partners of the project based on the results 
+and to enhance their impact by undertaking targeted dissemination and exploitation activities, including 
+training course for the PoP industry 
+ 
+1.1.2 Relation of FreeMe objectives with the topic and realistic feasibility 
+The proposed technologies of FreeMe project aims on revolutionizing the PoP surface treatment industry. By 
+eliminating the use of Cr6+ (a toxic and carcinogenic compound) and the use of Pd (a platinum group metal), FreeMe 
+will offer a safe and sustainable solution that can dominate the market. The novel processes will deliver high quality 
+coating systems that will provide protection of plastic surfaces from corrosion and wear, increase the surface 
+hardness, promote multifunctionality  (i.e. electromagnetic shielding)  and high aesthetics (appearance). A basic 
+requirement to achieve these properties is the excellent adhesion of the coating on the plastic surface. [4] Poor 
+adhesion will lead to premature failure of the coating and consequently of the coated polymer components. A main 
+part of the research activities of the project focuses on the achievement of excellent bonding of the coating systems 
+with the plastic substrate. Finally, in respect to the targets of the European Green Deal, a SSbD strategy will be set 
+up and implemented across the project so that:  
+(a) chemicals, materials and products designed, produced and used in the FreeMe project will not harm people 
+and the environment (i.e. decrease pollution, achieve toxic-free productions and promote circular economy)  
+(b) give a boost to the European surface finishing industry  that struggles to survive between the stricter EC 
+regulatory framework and the increased competition from Asian countries (e.g. China, India). [5] 
+The involvement of industrial partners covering the supply chain of the PoP sector enhances the market orientation 
+of the research activities, based on industrial standards and methodologies. Fin ally, the FreeMe technology will be 
+validated in demonstrators covering industries such as automotive, aerospace and home appliances.  
+ 
+1.1.3 Advancements in relation to the SoA 
+The last decades a series of new technologies were oriented towards novel metallization routes . The following 
+paragraph briefly presents the most important of them. 
+1. Vacuum Metallization (Physical Vapor Deposition). In this process a metal coating is deposited on prepared 
+surfaces (washed, etched). A metal (usually aluminum) is evaporated in a vacuum chamber and the vapor 
+condenses onto the surface of the plastic part. The main disadvantage s of the process are the high cost of the 
+technology, the thorough pre -treatment process, and the use of aluminum layer, a difficult to plate metal for 
+providing the final metal finishing of the component. [6] 
+2. Flame/arc spraying. A low-cost metallization process in which liquid metal is sprayed onto a plastic part. The 
+produced layer is thick compared to other metallization methods. Main drawbacks of the technology are that the 
+coatings prepared by these methods are quite porous, coating adhesion is lower, and the surface roughness is 
+relatively high. [7] 
+3. Sputtering metallization. It is a process in which metal atoms are transferred from a metal target via inert gas 
+plasma to the plastic surface. The technology presents a better a dhesion compared to the previous mentioned 
+due to higher kinetic energy of the metal atoms. Main disadvantages are the high cost of the method and the low 
+production rate that makes it not suitable for mass applications [8] 
+4. Direct electroplating in conduc tive polymers . The use of conductive polymers that will be directly 
+electroplated has attracted the interest of research community. This can be achieved either by intrinsic 
+ 
+4 Boipai B. et.al, “ Improvement in Adhesion of Electroless Coating on Plastic Substrates: A Review”, Recent Advances in Manufacturing 
+Processes. Springer, 2021, Singapore. https://doi.org/10.1007/978-981-16-3686-8_15 
+5 “Asia-Pacific metal finishing market – growth, trends, COVID-19 impact and forecasts (2021-2026), Mordor Intelligence, 2021 
+6 J.G. Drobny, “Application of Fluoropolymer Films”, Plastic Design Library, William Andrew, 2020, https://doi.org/10.1016/B978 -0-12-
+816128-9.00001-5 
+7 R. Gonzalez “A review of thermal spray metallization of polymer based structures”, Journal of Thermal Spray T echnology 25, 2016, 
+http://dx.doi.org/10.1007/s11666-016-0415-7 
+8 J. Liebeskind, “Plasma spraying for selective metallization of 3D polymer surfaces” 22 nd International Symposium on Plasma Chemistry, 
+July 5-10 2015, Antwerp, Belgium 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [4 of 44] 
+conductors (i.e conductive polymers) or by extrinsic conductors (i.e. composite conductive polymers) in which 
+the conductivity is due to the inclusion of conductive fillers in the polymer matrix. [9] While the first class of 
+polymers is very expensive and cannot be used in large volume applications, the latter case is a promising 
+technology for commercial applications. In the FreeMe project a variation of this technology is used in the case 
+of sprayable composite resins. The advantage of FreeMe proposed solution is that instead of utilizing a bulk 
+conductive polymer, only a thin layer will be sprayed in the surface of the polymer part making the process less 
+expensive and not creating doubts about the feasibility of recyclability of coated part as it will be later explained.  
+5. Cr6+ free etching process. The etching step in PoP has two purposes: to make the surface hydrophilic and to 
+form microscopic holes in the surface of the plastic to provide the anchoring sites for activation and metal 
+deposition. These sites are needed for adhesion between the plastic and the metal. The etching or dissolving of 
+the butadiene phase in ABS requires strong oxidizing agents and an acidic medium. The last decade a high R&I 
+effort has been devoted in developing etching process without the use chromic acid.  FreeMe project wil l 
+upscale such a technology . Utilizing modelling and DoE, mixtures of REACH compliant acids will be 
+investigated in combination with the main polymers used by the industry today.  
+ 
+Relevant Patent Search and commercial products 
+The consortium carried out a patent analysis in the field of toxic-free metallization of plastics. WIPO, EPO, and 
+PatSnap platforms were used for the identification of the number of patents and other useful information. The targets 
+of the patent search are on one hand to investigate the current technology landscape (Figure 1.2a) and freedom to 
+operate (FTO) study and on the other hand to obtain useful insights facilitating the market uptake of the technologies 
+and the R&D strategy to be followed within the FreeMe project. A detailed patent mapping landscape showcases the 
+patent value, the Top Assignees, the Top Classification Patent Codes (CPC) and other data. An initial ‘’bottom-up’’ 
+approach was followed starting from the more general concept of “Plating on Plastics” (utilizing similar keywords) 
+and ending up with the “non-toxic plating on plastics”. Based on the relevant low number of patents (Table 1.1), it is 
+evident that there is an innovation space for the development of the FreeMe concept. A first study of these patents 
+showed that there are not direct overlaps with the FreeMe propose technologies.  The patent landscape of the 
+relative “non- toxic plating on plastics” was further analyzed and the Top Assignees Countries (Figure 1.2b) are 
+presented. Among the Top Assignees, China, United states, and Germany have leading positions. The patent mapping 
+information will also enhance the business planning activities by defining the associated geographical market strength 
+and possible IP holders for collaboration and networking. In most cases the research and development activities are 
+associated with the market analysis. Patent mapping analysis will be updated during the project.                                                                                       
+ 
+  
+Figure 1.2a: Technology landscape of patent search Figure 1.2b: Top assingees countries 
+ 
+Table 1.1: Patent mapping 
+Patent Mapping No of 
+Patents 
+Keywords search on PatSnap 
+Platting on plastics  26,271 TAC_ALL:(metallization or metallization or ''plating on plastic'' or ''plating on 
+plastics'') 
+Electroless plating on 
+plastics 
+3,793 TAC_ALL:(metallization or metallization or ''plating on plastic'' or ''plating on 
+plastics'') AND TAC_ALL:(electroless or electroplating) 
+Toxic-free 
+Electroless plating on 
+plastics 
+99 (Metallization OR "plating on plastics" OR "plating on plastic") AND 
+TAC:(electroplating OR electroless) AND TAC:(" hexavalent chromium " OR " 
+chromic acid " OR "Cr6+ free" OR "non-toxic" OR "toxic free" OR "toxic-free") 
+ 
+ 
+9 P. Augustyn, “A review on the direct electroplating of polymeric materials”, Journal of Materials Science, 56, 2021, 
+https://doi.org/10.1007/s10853-021-06246-w  
+
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [5 of 44] 
+ 
+1.1.4 R&I maturity  
+In the following table the  R&I maturity of the main proposed technologies is presented. The starting and targeted 
+TRL is also provided as an indication of the expected progress in terms of lab to market: 
+1. Sprayable resin technologies.    Start TRl: 3 End TRL: 5 
+The manufacture of epoxy-based (nano)composite resins with different types of nano-additives and fillers is a mature 
+technology in various industrial sectors, e.g. automotive, aerospace, packaging, etc. [ 10] Sprayable resins are 
+attracting increased interest  as they can facilitate continuous processes of thin coatings formation on metals, 
+plastics and other surfaces. However, the viscosity of the epoxy prepolymer to be sprayed and the possible need for 
+use of organic solvenst may in some cases limit the industrial application of spraying technologies. Furthermore, the 
+effect on Ni-salts fillers (i.e NiCl2) on the viscosity and UV curing process, along with the desired propert y of thin 
+epoxy-based polymeric films, are still under development. FreeMe aims to bring this technology from TRL 3 to 5 
+and demonstrate the feasibility of the proposed approach. The utilization of biomass derived platform chemicals, 
+such as isosorbide and itaconic acid, as the starting chemicals to synthesize novel UV curable bio-based epoxy (and 
+epoxy-acrylate) monomers and resins, along with their mixing with Ni Salts will be systematically investigated to 
+evolve from the experimental proof of concept to technology validated in relevant environment (TRL5). Furthermore, 
+recent results on the labs of PoliMi have shown that the reduction of Ni salts particles in resins is feasible and thus 
+the formed nuclei can act as activation sites for the next step of electroless nickel application.  
+2. Cr6+ free etching and Pd free surface activation Start TRl: 3 End TRL: 5 
+Cnano has studied chromic acid and Pd free technologies in the Greek national funded project 3Dplate. Both ABS, 
+PET and PLA polymers as well as 3D printed resins have been treated in lab scale apparatus with different mixtures 
+of chemicals (i.e. piranha solutions, caustic soda solutions etc) achieving very promising results in terms of etching 
+process and adhesion of the coating in the surface. The novel etching processes were followed by successful Pd free 
+activation of the surface utilizing nickel salts. In the framework of FreeMe project, the technology will be optimized 
+in the laboratory with the contribution of the multi-scale modelling activities and then will be upscaled to the use of 
+pilot line (150 lt volume)  
+3. In-silico approaches     Technology transfer 
+The proposed methods for multi-scale modelling activities within FreeMe are more than validated in the modelling 
+industry and have been widely used to support research and design activities in the material modelling area. The tools 
+used to perform such modelling activities as NWChem, Gaussian, SIESTA, LAMMPS, Gromacs or COMSOL are 
+also widely validated for both research and commercial activities. However, the specific models to be developed 
+within FreeMe are innovative in terms of the materials used and the targeted applications. 
+4. Surface inspection methods    Technology transfer 
+IRIS has studied and developed optical methods for inline real-time thickness monitoring of coatings and lamination, 
+compounding, injection/co -injection and electrospray Nano deposition. This activity took place at the 
+OPTINANOPRO project (H2020, GA Nr: 686116). The sensors are based on spectral reflectance and ellipsometry, 
+designed to measure thickness in coating and na no deposition processes. Within FreeMe project, IRIS aims to 
+optimize the technology measuring resins in lab scale and then to upscale it in the pilot line, introducing a real-time 
+acquisition of data.

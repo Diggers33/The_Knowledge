@@ -1,0 +1,210 @@
+1.4 OTHER KEY ASPECTS OF THE PROPOSED WORK 
+In addition to the prMRF development discussed above, a number of complementary activities are envisaged which 
+address the requirements of the HORIZON-CL4-2021-DIGITAL-EMERGING-01-09 call, as summarized below. 
+Training Programs. RECLAIM will organize training programs focu sed on state -of-the-art waste management 
+technologies (WP1, Task1.5). Besides being open to the public, these programs will be mainly designed for partners 
+ION, HRRC, AIMPLAS, AXIA, ISWA that are staffed with waste management experts who need to know more 
+about the differences of RGB and hyperspectral imaging, the power and the limitations of AI and Deep Learning, the 
+available mechanical/ robotic systems involved in the automated treatment of waste, etc.  
+Open Science Practices . The RECLAIM partners fully support the Open Science practices in the sharing of 
+knowledge, data and tools as early as possible in the project’s lifetime. To this end, RECLAIM includes the 
+implementation of the following actions:  
+o Use of open research infrastructures for knowledge an d data sharing, such as the European Open Science 
+Cloud (EOSC) that provides seamless access, FAIR (Findability, Accessibility, Interoperability and 
+Reusability) management, and reliable reuse of research data and all other digital objects produced along the 
+research life cycle (e.g. methods, software and publications).  
+o Early and open sharing of research data and results, through preprints, or informal publications in the 
+project’s website and public repositories. 
+o Direct and open sharing of research data collected by citizens with the help of recycling data-games through 
+public repositories. 
+o Open access to research results and reports, either by publishing them with full open access in established, 
+highly popular peer-reviewed scientific publications, or by rapidly sharing them at no cost, through focused 
+publications in the Open Research Europe Publishing Platform (OREPP).  
+o Data Management Planning following the “as open as possible as closed as necessary” principle, which will 
+ensure data and results are deposit in trusted repositories, they are physically or digitally accessible, they are 
+licensed for public free use (e.g. under “CC BY”), with potential exceptions clearly specified.  
+Further to these general directions, RECLAIM already includes concrete ac tions that promote Open Science. In 
+particular, to increase the quality, efficiency and impact of research and innovation activities, and accelerate 
+responsiveness to societal challenges related to recycling, the RGB and hyperspectral waste imaging data wi ll be 
+made publicly available to create multiplicative effects in EU research focused on digital waste processing and 
+particularly the automated identification and categorization of recyclables. The data will be supplemented with 
+benchmarks so that develop ers can compare the performance of the ir newly developed algorithms. The relevant 
+repositories will be elaborated in the Data Management Plan deliverable , D1.1. Moreover, to boost societal 
+engagement in research and innovation and increase the trust of soc iety in science , the citizen-annotated data via 
+recycling data games will be made directly and openly available to their creators and the wider public for exploitation 
+and re-use.  The above actions are in full agreement with the Horizon Europe Key Impact Pathways that address open 
+science practices, namely the ‘Fostering diffusion of knowledge and open science’ pathway focused on scientific 
+impact, and the ‘Strengthening the uptake of R&I in society’ pathway focused on societal impact. 
+Management of data a nd other research outputs.  The preparation of a Data Management Plan (DMP) and will 
+ensure that research datasets will be managed in line with the FAIR principles (Findable, Accessible, Interoperable, 
+Reusable). The DMP will follow the “as open as possible  as closed as necessary” principle, which will ensure data 
+and results are deposited in trusted repositories, are digitally (if necessary physically) accessible, and are licensed for 
+public free use (e.g. under “CC BY”) with potential exceptions clearly specified. 
+Types of data/research output: the project will collect, manage, and generate the following types of datasets: (i) waste 
+imaging data with the use of RGB / hyperspectral cameras and annotations on these data gathered via recycling data 
+games, (ii) the recycling data games and statistics on the use of these games , (iii) AI/Deep Learning models 
+accomplishing the identification, localization and categorization of targeted recyclable materials appearing on these 
+images, (iv) outputs regarding the perfor mance of these models to be used as benchmarks for future research , (v) 
+operational scenarios and performance statistics of the RoReWo Team and the complete equipment of the material 
+recovery chain installed in the prMRF, (vi) videos of training programs on the use of digital and smart technologies 
+for material recovery and citizen engagement. 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 17 of 45 
+ 
+Findability: the above dataset s will be published as open data in relevant open repositories where a dedicated 
+project space will be established, e .g. European Open S cience Cloud (EOSC) and OpenAIRE’s Zenodo. The 
+datasets will be published following the FAIR Digital Object Framework. The project will use globally resolvable 
+persistent identifiers that enable metadata indexing, such as Handles/DOIs for the FAIR indexing  of data objects 
+and the specification of data access and management policies associated with them. 
+Accessibility: The datasets will be made available on well -recognized repositories (e.g. EOSC, OpenAIRE’s 
+Zenodo) that ensure reliable access to research d ata relevant digital objects. Further to the above, recycling data-
+games will be freely accessible and usable through focused gaming networks and repositories (e .g. OS Game 
+Clones, GitHub). Other physical project developments will be easily and freely acce ssible by interested 
+stakeholders and the wider public. 
+Interoperability: To ensure the interoperability of published datasets, the project will design structure and publish 
+the data using digital data models based on standards and ontologies (e .g. Industrial Ontologies Foundry). The 
+project will also consider the introduction of new data types, in communication with Data Type Registries (e.g. 
+Cordra, ePIC). 
+Reusability: The datasets will be made available for public access and reuse under Creative Commons Attribution
+4.0 International Public License (CC BY 4.0) or a license with similar access permissions. 
+Curation and storage/preservation costs:  The project aims to utilize zero -cost data repositories (EOSC, 
+OpenAIRE’s Zenodo. Moreover, the project coordinator has access to infrastructures that allow the hosting of data 
+and the immediate, fast access to it. In any case, the project coordinator will bear all ongoing costs to dataset 
+curation operations. 
+Dissemination/Communication. All partners will actively disseminate the expected/accomplished project results to 
+the relevant stakeholders and target audience (see section 2.2.1). Additionally, with the support of all partners, ISWA 
+will exploit the already established global communication channels to highlight , from project day -one, the ne w 
+opportunities provided by prMRF for highly effective, distributed material recovery. 
+Relation to the `do no significant harm' principle (Article 17 of Regulation (EU) No 2020/852) . The proposed 
+work provides a clear and direct support to the fourth and f ifth objectives of the EU Taxonomy Regulation, in 
+particularly the "Transition to a circular economy" and the "Pollution prevention and control". Moreover, it provides 
+an indirect support to the other four objectives of the same regulation without being against or h arming any of the 
+objectives by any means. Accordingly, RECLAIM fosters environmentally sustainable activities that contribute to 
+the EU’s environmental objectives, promotes sustainable investments and ultimately supports the implementation of 
+the European Green Deal. 
+Gender Issues. Project planning and activities are compliant with Council Resolution 1999/C 201/01 which states 
+that “the gender mainstreaming of research policy is not limited to promotion of women as research workers but 
+should also ensure that research meets the needs of all citizens and when necessary contributes to the understanding 
+of gender-relevant issues”. The main research stream of RECLAIM focuses on material recovery with the minimum 
+possible human intervention and therefore, it does not address research or technology topics related to human gender. 
+In particular, upon successful completion of the project, all people regardless of gender, will be equally treated by 
+the developed prMRF. On the other side, the recycling data-game work plan assumes active participation of users for 
+testing and refinement. Besides the fact that the envisioned games do not assume any kind of functional differentiation 
+between the sexes, RECLAIM will carefully and equally promote the game into men and women , considering the 
+recruitment of a gender balanced mix of users, to provide unbiased guidance for planned developments.   
+Moreover, the consortium will balance the gender distribution of the research and technical staff involved in the 
+project by following non-discriminating hiring practices and trying to address the EC goal of 40% participation of 
+women at all levels, in implementing and managing EU-funded programmes. 
+Multidisciplinarity. RECLAIM ties together complementary technologies to promote and support the goals of the 
+EU Green Deal. To accomplish its objectives, the proposal adopts a multidisciplinary approach combining expertise 
+from different fields such as Data science, AI, robotics, mechanical engineering, optics, scientific gaming, 
+environmental science, industrial management, innovation management, governmental authorities, citizen science to 
+develop novel still feasible and directly applicable solutions on material recovery and to increase social awareness 
+on recycling and the circular economy. The RECLAIM interdisciplinary approach is summarized in Table 1.3.  
+ 
+ 
+ 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 18 of 45 
+ 
+Table 1.3 Overview of the multidisciplinary approach adopted in RECLAIM  
+Discipline Elements Involved in RECLAIM Objective Relevant Partner 
+Data Science Data Collection & Annotation, Data Analytics Obj.3, 5 IRIS, FORTH, RBNS, 
+KUL 
+Artificial 
+Intelligence 
+Computer Vision, Convolutional Neural 
+Networks, ML/DL technology  
+Obj.3,4  FORTH, IRIS, KUL 
+Robotics Real Time Control, Task level Programming, 
+RoReWo Units, RoReWo Teams 
+Obj.2, 4 RBNS, FORTH, KUL 
+Mechanical 
+Engineering 
+Pneumatic & Electric Grippers, Vacuum 
+Technologies, Waste Pre/Post Processing  
+Obj.2, 4 KUL, AIMPLAS, HER 
+Optics Hyperspectral Imaging, Computer Vision Obj.3, 4 IRIS, FORTH 
+Scientific 
+Gaming 
+Human Computation Games, Data Games, 
+Citizen Science 
+Obj.5 UoM 
+Environmental 
+science 
+Waste management, Waste economics, Material 
+Recovery Automation, Logistics 
+Obj.1, 4 AIMPLAS, HER, RBNS, 
+ISWA 
+Innovation 
+Management 
+Research Result Commercialization, Exploitation 
+Plan, Circular Economy Business Model 
+Obj.6 AXIA 
+Industrial 
+Management 
+Waste Processing Chain, Operational Predictive 
+Analytics 
+Obj.1, 4 ION, HER, AIMPLAS,  
+Governmental 
+Authorities 
+Solid Municipal Waste Treatment, System 
+Sustainability, Citizen Engagement 
+Obj.1, 5, 6 ION, ISWA 
+Readily available contributions from previous projects. The participants in the RECLAIM consortium bring into 
+the project significant expertise from their past and ongoing projects. Several already available and successful 
+outcomes from relevant nati onal/international research and innovation activities will be exploited and further 
+advanced to realize the objectives of RECLAIM. The following Table contains a list of indicative relevant projects, 
+while further information is provided in the individual partner profile. 
+Table 1.4 European projects relevant to RECLAIM 
+InterRecycle (Interreg) http://interrecycle.eu  FORTH 
+InterRecycle develops RoReWo Teams for material recovery deployed in two industrial MRFs, in Cyprus and 
+Greece.  RECLAIM will exploit the know-how on the RoReWo technology, the RGB image based computer vision 
+for material identification, localization and categorization, the use of multiple grippers.  
+FELICE (H2020) https://www.felice-project.eu FORTH 
+FELICE aims at increasing the agility of manufacturing production lines with the use of robots. RECLAIM will 
+capitalize on operational analytics methods to link the characteristics of incoming waste streams with the 
+optimization of the RoReWo Team configuration.  
+ANASA (GSRT) https://anasasorter.com/ FORTH, RBNS 
+ANASA has implemented delta-robot technology for material recovery driven by computer vision and hyperspectral 
+imaging, which is applied with paired robots into Chania and Heraklion MRFs. RECLAIM will exploit the expertise 
+on robot control, computer vision and hyperspectral imaging, vacuum gripping. 
+AUSOM (H2020) https://www.ausomproject.eu/ KU Leuven  
+AUSOM develops a robust cost effective robotic sorter based on deep learning, computer vision and laser induced 
+breakdown spectroscopy (LIBS) for sorting shredded scrap metal. RECLAIM will exploit the AI categorization 
+and robotic gripper technologies to accomplish advanced material recovery. 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 19 of 45 
+ 
+ACROGRIP https://acrogrip.be/ KU Leuven 
+The ACROGRIP has examined developed and tested robotic grippers for different application domains. The  latter 
+resulted in a wide variety (50+) of both commercial and in house developed robotic grippers which are available to 
+be tested/used in the RECLAIM project. 
+ENVISAGE (H2020) http://www.envisage-h2020.eu/ UoM 
+ENVISAGE implemented and tested a d ata-driven approach to design, adapt, revise and evolve virtual labs. 
+Technologies and best practices for gamifying and monitoring virtual labs will be exploited to effectively design 
+gamified applications for social awareness and human computation in RECLAIM. 
+AI4MEDIA (H2020) https://www.ai4media.eu/ UoM 
+AI4Media creates a centre of excellence and a wide network of researchers across Europe, with a focus on delivering 
+core AI advances to serve the key sector of Me dia. RECLAIM will exploit the open -sourced AI algorithms 
+developed under AI4Media for computer vision, data monitoring and co-creation. 
+ROSSINI (H2020) https://www.rossini-project.com/ IRIS  
+IRIS has devel oped and implemented cognition layers for the identification and tracking of different objects in 
+manufacturing environments, while human and robots are collaborating in the same area. In RECLAIM, the object 
+recognition experience gained from ROSSINI will be used for material identification in the wild. 
+MULTICYCLE (H2020) http://multicycle-project.eu/ IRIS, AIMPLAS, AXIA, ISWA 
+MULTICYCLE develops and advanced and sustainable recycling processes and value chain s for plastic -based 
+multimaterials. RECLAIM will capitalize the lessons learned on hyperspectral monitoring of multimaterial 
+packaging and complex composites from the automotive sector (IRIS), the pre- and post-processing technologies in 
+recycled materials treatment (AIMPLAS), business cases development (AXIA) and proper dissemination (ISWA) 
+to be applied in the context of this proposal. 
+DECOAT (H2020) http://decoat.eu/project/ IRIS, AIMPLAS 
+A continuous recycling  pilot plant demonstrates the novel DECOAT principle that allows upgrading existing  
+mechanical recycling by adding tools for sorting by and activation of the trigger. RECLAIM will learn of advanced 
+monitoring system deployment for textiles and painted plastic parts recycling (IRIS and AIMPLAS). 
+SOLREC2 (H2020) https://cordis.europa.eu/project/id/101003532 AIMPLAS 
+Development and implementation of ground-breaking strategies for improving the sorting, separation and recycling 
+of pharma blister packs and laminate consumer packaging waste consisting of multiple layers of polymers and 
+aluminum. RECLAIM will learn of advanced sorting system deployment for identification and separation of plastic 
+packages containing aluminum. 
+  
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 20 of 45 
+ 
+2 IMPACT

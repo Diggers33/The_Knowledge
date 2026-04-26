@@ -1,0 +1,1512 @@
+4. Starting date 
+Unless a specific (fixed) starting date is duly justified and agreed upon during the preparation of the Grant Agreement, the 
+project will start on the first day of the month following the entry into force of the Grant Agreement (NB : entry into force = 
+signature by the Commission). Please note that if a fixed starting date is used, you will be required to provide a written 
+justification. 
+5. Duration 
+Insert the duration of the project in full months. 
+6. Call (part) identifier 
+The Call (part) identifier is the reference number given in the call or part of the call you were addressing, as indicated in the 
+publication of the call in the Official Journal of the European Union. You have to use the identifier given by the Commission in 
+the letter inviting to prepare the grant agreement. 
+7. Abstract 
+8. Project Entry Month 
+The month at which the participant joined the consortium, month 1 marking the start date of the project, and all other start dates 
+being relative to this start date. 
+9. Work Package number 
+Work package number: WP1, WP2, WP3, ..., WPn 
+10. Lead beneficiary 
+This must be one of the beneficiaries in the grant (not a third party) - Number of the beneficiary leading the work in this work 
+package 
+11. Person-months per work package 
+The total number of person-months allocated to each work package. 
+12. Start month 
+Relative start date for the work in the specific work packages, month 1 marking the start date of the project, and all other start 
+dates being relative to this start date. 
+13. End month 
+Relative end date, month 1 marking the start date of the project, and all end dates being relative to this start date. 
+14. Deliverable number 
+Deliverable numbers: D1 - Dn 
+15. Type 
+Please indicate the type of the deliverable using one of the following codes: 
+ 
+768636 Laser4Surf – Part B – Page 50 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+ R Document, report 
+DEM Demonstrator, pilot, prototype DEC Websites, 
+patent fillings, videos, etc. 
+OTHER 
+ETHICS Ethics requirement 
+ ORDP Open Research Data Pilot 
+16. Dissemination level 
+Please indicate the dissemination level using one of the following codes: 
+ PU Public 
+ CO Confidential, only for members of the consortium (including the Commission Services) 
+EU-RES Classified Information: RESTREINT UE (Commission Decision 2005/444/EC) 
+EU-CON Classified Information: CONFIDENTIEL UE (Commission Decision 2005/444/EC) EU-SEC 
+Classified Information: SECRET UE (Commission Decision 2005/444/EC) 
+17. Delivery date for Deliverable 
+Month in which the deliverables will be available, month 1 marking the start date of the project, and all delivery dates being 
+relative to this start date. 
+18. Milestone number 
+Milestone number:MS1, MS2, ..., MSn 
+19. Review number 
+Review number: RV1, RV2, ..., RVn 
+20. Installation Number 
+Number progressively the installations of a same infrastructure. An installation is a part of an infrastructure that could be used 
+independently from the rest. 
+21. Installation country 
+Code of the country where the installation is located or IO if the access provider (the beneficiary or linked third party) is an 
+international organization, an ERIC or a similar legal entity. 
+22. Type of access 
+ VA if virtual access, 
+TA-uc if trans-national access with access costs declared on the basis of unit cost, 
+TA-ac if trans-national access with access costs declared as actual costs, and 
+TA-cb if trans-national access with access costs declared as a combination of actual costs and costs on the basis of unit 
+cost. 
+23. Access costs 
+Cost of the access provided under the project. For virtual access fill only the second column. For trans-national access fill one of 
+the two columns or both according to the way access costs are declared. Trans-national access costs on the basis of unit    
+4. MEMBERS OF THE CONSORTIUM
+4.1 PARTICIPANTS  
+  
+4.1.1 ASOCIACIÓN CENTRO TECNOLÓGICO CEIT-IK4 (CEIT-IK4)  
+  
+http://ceit.es/en/   
+  
+4.1.1.1 DESCRIPTION OF THE LEGAL ENTITY AND ITS MAIN TASKS  
+Ceit-IK4 is a private multidisciplinary non-profit RTO closely connected to TECNUN, the Faculty of Engineering of the 
+University of Navarra (Spain). Its mission is to provide the industry with services through the development of 
+ 
+768636 Laser4Surf – Part B – Page 51 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+technical research projects and to form young researchers and PhD students. Ceit -IK4 promotes excellence in 
+applied research by publishing non confidential results and participating in scientific and technical forums. This RTO 
+also has a comprehensive doctoral teaching program in the industrial area.   
+  
+Ceit-IK4 has a staff of 249 employees and 51 PhD students and an annual budget over 15,3 M€. It consists of three 
+vertical divisions (Materials and Manufacturing, Transport and Energy, Water and Health) and a fourth additional 
+horizontal division (ICT).   
+  
+Ceit-IK4 has been involved in 15 FP6 projects (having the role of coordinator in 2 of them), in 32 FP7 projects (having 
+the role of coordinator in 10 of them) and is currently involved in 10 H2020 projects (being the coordinator in one 
+of them).   
+  
+Additionally, Ceit-IK4 is member of the IK4 Alliance, which covers a total of 1,400 people and has a turnover of 
+around 100 M€. The IK4 Alliance was formed in 2005 in line with a federal model, whereby its members share 
+strategies and combine capacities without giving up their sovereignty. Through a shared strategy, the sum of the 
+capacities of the nine RTOs provides the alliance with the flexibility it needs to adapt to the characteristics of any 
+company. Today, IK4 is a benchmark on the European scene and is among the continent's premier private, scientific 
+and technological corporations. Attention should be drawn to IK4's leading role in the European Union's 7th 
+Framework Programme, in which it has participated in over 200 research projects and led 63 of them.  
+  
+CEIT-IK4 will participate in LASER4SURF project through the Additive Manufacturing and Laser Group of the 
+Materials and Manufacturing division. The activity of the Additive Manufacturing and Laser Group focuses, among 
+other on:   
+ the use of laser systems to process the material surface for a range of applications, including solar cells, 
+semiconductor lasers and biomaterials.   
+ The development of optical of free space or integrated optical sensors using waveguides and diodes.  
+The Data Analysis and Information Management of the Information and Communications Technologies Division of 
+CEIT will participate as well on the project, dedicated to transforming data into valuable information through: data 
+processing, statistical analysis, determination of probabilistic algorithms, etc…  
+  
+CEIT-IK4 will be involved in several WPs and tasks of the LASER4SURF project. From the most technical point of view, 
+Ceit-IK4 will lead WP4- Modelling for tools for LIPSS processes and parameter selection. The main tasks within this 
+WP will rely on the development of a software platform that will enable industrial end -users to select the process 
+parameters that give rise to a desired functionality, without a need to deeply understand the LIPSS generation 
+process. This duty is absolutely aligned with the expertise and experience of Ceit-IK4, as can be seen in the following 
+sections.   
+  
+In line with this WP4, the team will also be involved in:  
+  
+ WP2- Design and development of a prototype for controlled LIPSS. The expertise of Ceit-ik4 in the development 
+of LIPSS processes for advanced functionalities will be determinant in the definition of the requirements of the 
+prototype   
+ WP3- Design and development of an in-line monitoring unit.  
+ WP5- Integration of the developed tools. As this WP will cover the integration of the modelling tools developed 
+in WP 4, Ceit will decisively contribute to define the interfaces between subsystems and to test and optimize the 
+interoperability of all of them.  
+  
+On the other hand, as Coordinator partner of the project, CEIT -IK4 will be in charge of the coordination and 
+management of the whole project at its different levels: technical development, IPR management, regulatory issues, 
+ 
+768636 Laser4Surf – Part B – Page 52 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+dissemination of the results, e tc. Additionally, Ceit -IK4 will lead WP7 Gathering experience and new scenario 
+definition with the aim of maximising the future impact of the project results.  
+  
+4.1.1.2 CV OF THE PERSONS  
+ Dr. Ainara Rodriguez  (female) is a researcher in the Additive Manu facturing and Laser Group of CEIT. She 
+received her degree in Telecom Engineering from the University of the Basque Country in 2006 and her PhD 
+from the University of Navarra in 2010. Since 2006, her research interests have been focused on laser material 
+processing, including ultrafast processes in materials and Laser Interference Lithography. In this last field, she 
+took part in the European Project “Development of lithography technology for nanoscale structuring of materials 
+using laser beam interference” (EU FP6 ICT), as a result of which 7 scientific papers, 14 conference papers and 3 
+patent applications were obtained. She is also a lecturer of Optoelectronics and Optical Communications, 
+courses of the degree in Telecom Engineering in the School of Engin eering of the University of Navarra. During 
+the last 10 years, she has been involved in 12 national and international research projects covering both basic 
+and applied research and is co -author in more than 40 peer -reviewed papers and communications in 
+conferences. She is also co-applicant in 3 patents.  
+ Dr. Santiago M Olaizola  (male) is a researcher in the Additive Manufacturing and Laser Group of CEIT. He 
+received his degree in Engineering in 1996, and PhD in Engineeering in 2000 from the University of Na varra. 
+Later he received his PhD in Physics from the University of Sheffield in 2004. Since 2003, he has lead the 
+Photonics Team from the Unit of Micosystems. He has focused in the field of micro/nanofabrication using pulsed 
+and ultrafast laser sources. In  this area, he has developed a 4 -beam interference tool for industrial laser 
+processes and currently he is also involved in the development of robust surface micro/nanofabrication 
+processes using ultrafast laser sources. He routinely works in close contact  with local Basque and Spanish 
+companies in applications such as metrology, industrial manufacturing (polishing, plastic injection, ...) and 
+optical sensors. He has been involved in 25 national and international research projects covering both basic and 
+applied research and is co-author in more than 100 peer-reviewed papers and communications in conferences. 
+He is also co-applicant in 7 patents.   
+ Dr. Mikel Gómez (male) received his MSc in Electrical, Electronic and Control Engineering from Tecnun (School 
+of Engineering of the University of Navarra) in 2003. He completed his final degree project at the R&D 
+department of the Telecontrol Division of IKUSI. After holding different posts at several industrial companies in 
+which he took part in several research projects, in 2011 he completed his MSc in Biomedical Engineering at the 
+University of Navarra. In January 2014, he received his PhD in Engineering from the same institution through his 
+work on the development and microfabrication of microsensors with integr ated microfluidic structures. 
+Currently he is a researcher in the Additive Manufacturing and Laser Group of CEIT and his research interest 
+includes laser interference lithography and laser induced surface modifications for industrial applications.  
+ Dr. Jesús Gutiérrez-Gutiérrez (male) is an Associate Professor at Tecnun (University of Navarra) and a researcher 
+at CEIT. He received his degree in Mathematics from the University of Granada, Spain, in 1999 and his Ph.D. in 
+Electronics and Communications from the University of Navarra, Spain, in 2004. His research interests include  
+Statistical Signal Processing, Information Theory, and distributed computation in Wireless Sensor Networks. He  
+is author of more than 20 scientific publications in international journals and has participated in more than 10 
+research projects.  
+ Dr. Xabier Insausti (male) received his Telecommunication Engineering degree, MSc. in applied Engineering an 
+PhD. in Telecommunications Engineering in 2009, 2011 and 2013 respectively from the University of Navarra. 
+He studied at Massachusetts Institute of Technology (MIT) for the academic year 2008 -2009, where he 
+completed his Final project. He received this degree with the h ighest average mark of the class. In 2014 he 
+received his MSc. in advanced Mathematics from the UNED. He is currently a lecturer at TECNUN (University of 
+Navarra) and a researcher in Information Theory, Coding & Compression Schemes for Communication System s 
+and in distributed computation in Wireless Sensor Networks.  
+  
+ 
+768636 Laser4Surf – Part B – Page 53 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+4.1.1.3 LIST OF RELEVANT PUBLICATIONS  
+ M. Martínez-Calderon, M. Manso-Silván, A. Rodríguez, M. Gómez-Aranzadi, J. P. García-Ruiz, S. M. Olaizola, R. J. 
+Martín-Palma, “Surface micro- and nano-texturing of stainless steel by femtosecond laser for the control of cell 
+migration”, Scientific Reports 6, 36296 (2016)  
+ M Martínez -Calderon, A Rodríguez, A Dias -Ponte, MC Morant -Miñana, M Gómez -Aranzadi, SM Olaizola, 
+“Femtosecond laser fabrication of hig hly hydrophobic stainless steel surface with hierarchical structures 
+fabricated by combining ordered microstructures and LIPSS”, Applied Surface Science 374, 81-89, 2016  
+ Ainara Rodríguez, Maria Carmen Morant -Miñana, Antonio Dias -Ponte, Miguel Martínez -Calderón, Mikel 
+GómezAranzadi, Santiago M. Olaizola, “ Femtosecond Laser -Induced Periodic Surface Nanostructuring of 
+Sputtered Platinum Thin Films”, Applied Surface Science 351, 135-139 (2015)   
+ A. Pan, A. Dias, M. Gomez -Aranzadi, S. M. Olaizola, A. Rodriguez,  “Formation of laser-induced periodic surface 
+structures on niobium by femtosecond irradiation”, Journal of Applied Physics 115 173101 (2014)  
+ X. Insausti, F. Camaro, P. M. Crespo, B. Beferull -Lozano and J. Gutiérrez -Gutiérrez, “Distributed Pseudo-Gossip 
+Algorithm and Finite-Length Computational Codes for Efficient In-Network Subspace Projection” in IEEE Journal 
+of Selected Topics in Signal Processing, vol. 7, no. 2, pp. 163-174, April 2013.  
+  
+4.1.1.4 LIST OF RELEVANT PREVIOUS PROJECTS  
+ DELILA: “Development of lithography technology for nanoscale structuring of materials using laser beam 
+interference”, EU FP6 IST (2006-2009)   
+ LASERHUESO: “Laser fabrication of Surface micro/nanopatterns for the optimization of osteocells regeneration 
+potential”, CYCIT 2014 (Spanish Science Foundation)   
+ ECOGRAB: Design of a prototype for industrial engraving of diffraction/phase gratings for encoders applications 
+using lasers (Spanish Science Foundation 2016-2018)   
+ Foundations and Methodologies for Future Communi cation and Sensor Networks (COMONSENS), Spanish 
+Ministry of Science and Innovation - CONSOLIDER Project (Top Excellence Programme across all disciplines in 
+Spain), PI: P. M. Crespo. Duration: 15/12/2008 - 14/12/2013.  
+ Radio Access Techniques for Heterogene ous Wireless Networks (RACHEL), Spanish Ministry of Economy and 
+Competitiveness, PI: P. M. Crespo and J. Gutiérrez-Gutiérrez. Duration: 01/01/2014 - 31/12/2016.  
+  
+4.1.1.5 DESCRIPTION OF ANY SIGNIFICANT INFRASTRUCTURE  
+CeitT-IK4 owns an ultrafast laser mic romachining station for material processing that includes a Ti: Sapphire laser 
+system consisting of a mode-locked oscillator and a regenerative amplifier which is used to generate 130 fs pulses 
+at a central wavelength of 800 nm, with a 1 kHz repetition rat e. The laser beam is focused on the samples using 
+microscope objectives. This objective together with a CCD camera is used for online monitoring of the structuring 
+process. A three dimensional translational stage moved the sample under the beam with differ ent scan speeds 
+allowing a variable overlap of pulses per spot. This setup has been used for surface functionalization of materials in 
+order to produce superhydrophobic surfaces, decorative effects and optical devices.  
+  
+Additionally, Ceit-IK4 counts on the equipment and facilities for the characterization of micro and nanostructures 
+as well as for the characterization of specific functionalities. Some of the most relevant equipments are:  
+ SEM scanning electron microscope for the topographic characterisation of the patterned surfaces  AFM Atomic 
+Force Microscope for the characterization of the depth of the generated nanopatterns.  
+ Optical characterization lab for optical properties determination (reflectivity, absorbance, diffraction)  
+ Focused Ion Beam (FI B) and Transmission Electron Microscope (TEM) for detailed microstructural 
+characterization.  
+ Built-in setup for Water Contact Angle measurements  
+ Climatic chamber for the characterization of the anticondensation behaviour of surfaces  
+  
+     
+ 
+768636 Laser4Surf – Part B – Page 54 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+4.1.2 LASER ENGINEERING APPLICATIONS SA (LASEA)  
+  
+  
+  
+www.lasea.eu   
+  
+4.1.2.1 DESCRIPTION OF THE LEGAL ENTITY AND ITS MAIN TASKS  
+Created in 1999, LASEA is a high-tech Belgian SME which has a unique expertise in the design, manufacture and use 
+of laser systems for industrial purposes. More specifically, LASEA offers cutting edge laser solutions capable of 
+responding to the needs of companies whose production lines include plastic we lding, marking, and surface 
+treatments.   
+  
+Its laser products and services are: expertise and prototype development, OEM systems, laser workstations, turnkey 
+machines. Equipped with 18 laser sources (CO2, high power diode lasers, diode pumped solid state  lasers (DPSS) 
+and fiber laser in cw, ns, ps and fs ranges), robots (6 -axis and XYZC1C2 tables), as well as various measurements 
+systems (pyrometer, power-meter and vision systems). LASEA is able to develop and validate its new process and 
+systems before industrial integration.   
+  
+LASEA is based on the Liège Science Park allowing it to have strong partnership with regional Universities and the 
+Space Centre. With presently 40 people, LASEA has manufactured laser production lines all over the world (Europe, 
+US, Australia ...). Certified ISO9001:2008, LASEA has 3 patents in the field of laser processing. For example, LASEA 
+has developed since 1999 a method for locally removing a coat applied on a translucent or transparent substrate 
+(patent EP1263538).  
+  
+LASEA has already worked in several European Projects like FP6 Naginels, FP7 Sfera, FP7 PMJoin, Era-NET+ Plasma, 
+Era-NET+ Sinead and regional projects Ecolas OLED, CZTS and SIMULAS. Currently LASEA is working in FP7 LASHARE, 
+H2020 HIPERDIAS, H2020 POLAROLL, EUROSTARS HYIBIRD, MANUNET DE COAT and regional projects MICROLAB, 
+GLASSLAS-3D, IMPLANTS-3D and MICROLAS.   
+  
+LASEA’s activity consists in implementing laser solutions in its laser station range. This range of stations is dedicated 
+to particular applications according to the will of th e customer: micromachining, texturing, plastic welding, 
+decoating, engraving…. Therefore, the design and development of these stations is fitted to the special solution 
+developed by LASEA’s engineers for the customer’s application.  
+  
+LASEA has years of ex perience in laser processing including laser plastic welding, marking and micromachining. 
+Therefore, LASEA will play a key role in the development of LASER4SURF project, contributing in the development 
+of the Laser Texturing prototype mainly from the engineering aspects of the technology.  
+  
+4.1.2.2 CV OF THE PERSONS  
+ Ir. Axel Kupisiewicz (m): founded LASEA in 1999. Chief Executive and Managing Director of LASEA. 17 years of 
+experience in laser processing including laser plastic welding, marking and surface treatment. Technical manager 
+of two European Projects and 3 regional R&D projects. Management of the company that is already exploiting, 
+among other, the results of previous developed international projects.   
+ Dr. Jose Antonio Ramos de Campos (m) joined LASEA in 2013. Manager of the R&D department of LASEA. Broad 
+experience of more than 25 years on lasers materials processing (cutting, welding, marking and micro-marking, 
+ 
+768636 Laser4Surf – Part B – Page 55 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+micromachining, cladding, etc.). Participation in various previous research projects, for example: STREP – 
+FANTASIA (Flexible and Near-Net-Shape Manufacturing Chains and Repair Techniques for Complex Shaped Aero  
+Engine Parts), CRAFT - CUSTOCER (Mass Customisation of Ceramic and Glass Decoration: a Contribution to the 
+Future Manufacturing Industries), CRAFT – InART (Innovative Laser Based System and Technologies for In-Situ 
+Cleaning of Paiting Artworks), amongst others.   
+ Dr. David Bruneel (m) joined LASEA in 2015. Member of the R&D staff of LASEA. A good experience of lasers 
+processing (cutting, drilling, milling, marking, trepanning, etc.) and system development with different types of 
+lasers (fiber lasers, ns, ps, and fs, using different wavelengths). Experience of several years in the Laboratoire 
+Hubert Curien and Fr aunhofer IBMT in developing USP process optimisation and systems’ setups. 3 years of 
+experience involved in previous R&D projects targeted at valuable commercially future applications SLIDE 
+(Savings at Lubricated Interfaces Emission), OLED, CZTS (CZTS based photovoltaic solar cells).  
+  
+4.1.2.3 LIST OF RELEVANT PUBLICATIONS Relevant 
+publications:   
+ M. Alvarez, A. Henrottin, J.A. Ramos de Campos, P. Guaino, B. Heusdens, “Ablation de couches minces par 
+impulsions (ultra-) courtes pour la production de composants photoniques”, Journées Nationales des Procédés 
+Laser pour l’Industrie, 2014.   
+ Henrottin, M. Alvarez, J.A. Ramos -de-Campos, F.J. Navas, M.A. Jimenez, G. Morales -Cid, “Microtexturation by 
+laser for hybrid metal polymer joining”, Journées Nationales des Procédés Laser pour l’Industrie, 2014.   
+ “Ultra-short pulse fiber laser parameters optimization for CdTe thin film solar cells processing and fiber laser 
+design”, Fiber Laser Applications, OSA, 2011.   
+ E. Mottay; A. Kupisiewicz; G. Detroux; X. Costet; A. Simmons; U. Vivarelli; P. Lemaire; J. Lopez, “Industrial 
+ultrafast internal engraving laser system for anti-counterfeiting applications”, Proc. SPIE 6881, 2008.   
+ B. Neuenschwander, B. Jaeggi, M. Schmid, V. Rouffiange  and P-E. Martin (2012), “Optimization of the volume 
+ablation rate for metals at different laser pulse -durations from ps to fs”; Proc. SPIE 8243, Laser Applications in 
+Microelectronic and Optoelectronic Manufacturing, 824307  
+  
+Relevant patents:   
+ Kupisiewicz, Axel: “Method for locally removing a coat applied on a translucent or transparent substrate”. 
+Wallonia Space Logistics December 11, 2002: EP1263538-A1.   
+ Kupisiewicz, Axel, Mottay Eric: “Method for internal laser marking”. Trackinside Société Anonyme,  Kupisiewicz 
+Axel, Mottay Eric March 29, 2007: WO/2007/033445.   
+ Kupisiewicz, Axel, Mottay Eric: “Method for internal laser marking in transparent materials and device for 
+implementing said method”. Laser Engineering Applic, Ks Tech, Amplitude Systems, Cos tet S, Solos 
+Identificazione E Protez, Total Brand Security. 2008: EP1926603-A1.   
+  
+4.1.2.4 LIST OF RELEVANT PREVIOUS PROJECTS  
+Project acronym/description/website  Scope  End Year  
+PMJOIN: Development of a direct laser joining of hybrid plastic-metal components 
+for industrial applications http://www.pmjoin.eu/  EU-FP7  2016  
+LASHARE: Laser equipment assessment for high impact innovation in the 
+manufacturing European industry https://www.lashare.eu/  EU-FP7  2017  
+ 
+768636 Laser4Surf – Part B – Page 56 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+HYBRID: Development of an innovative laser system, introduced in a laser 
+workstation prototype, able to join dissimilar materials of different organic and 
+inorganic chemical nature like thermoplastics (or composites) and metals.  
+https://www.eurostars-eureka.eu/project/id/9775  
+EUROSTARS  2019  
+HIPERDIAS: High throughput laser processing of diamond and silicon 
+http://www.hiperdias.eu/  
+EU-H2020  2019  
+PoLaRoll: Polygon scanner based ultra-short pulse laser processing in roll-to-roll 
+manufacturing http://cordis.europa.eu/project/rcn/205597_es.html  
+EU-H2020  2019  
+  
+  
+4.1.2.5 DESCRIPTION OF ANY SIGNIFICANT INFRASTRUCTURE  
+LASEA is equipped with 18 laser sources (CO2, high power diode lasers, diode pumped solid state lasers (DPSS) and 
+fiber laser in cw, ns, ps and fs ranges), robots (6 -axis and XYZC1C2 tables), various measurements systems 
+(microscopes, pyrometer, power-meter and vision systems). Some of those resources are described below.   
+ Kyla software:  LASEA develops software allowing the creation of tridimensional designs with an automatic 
+definition of the laser drawing. Importation of dxf (2D) or stl (3D) files is also possible. The structures able to be 
+created with the software can be very complex and may also allow the study of the laser parameters of different 
+types of materials by the use of matrices of parameters. Its ease of use and the fact that all the laser (power, 
+energy, repetition rate,…) and the scanner (trajectories, speed,…) parameters can be managed in one unique 
+software allows a high productivity in terms of tests or in terms of production.   
+ Femtosecond experimental setups: for high precision applications, LASEA has the possibility to use an innovative 
+technology: a laser which has p ulse duration near of 400 femtoseconds (fs). The interaction of these types of 
+beams with almost every type of material (even transparent to the wavelength of the laser) is so short that the 
+ablation is almost athermal. This allows very precise, selective and very nice quality micro -machining. This 
+technology may be used with a lot of different configurations and focalization systems to reach different 
+processes.   
+ Confocal microscope: LASEA dispose of a high precision confocal for analyzing the laser -material interaction at 
+the basically point of view of the pulses, lines drawn or at the higher scale of the channels and surfaces. This is 
+particularly interesting in the case of the analysis of the micro -structuration of materials. Its resolution can go 
+up to 10nm in the z axis and its resolution in the x and y axis may reach 0.12μm.  
+ Low tracking error scanners:  The movement of the laser beam on a piece is obtained by passing through a 
+scanner head, which consist in two motors on which are placed coated mirr ors. The reaction time of a servo 
+system is never zero (because of inertia) and the real positioning of the mirrors of the scanner has always a delay 
+compared to the order. This delay in the case of the scanners dedicated to the applications of laser marki ng in 
+the market is often included between 200 and 300μs, which doesn’t allow a precise positioning at high speeds. 
+LASEA uses a scanner technology called “Lorentz force” scanners: the performances are increased in the 
+objective to reduce the tracking error to 70μs, which allows speeds up to some meters per seconds, depending 
+of the application (micro -machining, ablation…). Moreover, these scanners have a low current consumption, 
+resulting in a low heating and a low thermal drift: (on 8h) 24μrad compared to most scanners of the market (+/- 
+600μrad). This increases a lot the reproducibility and the precision for example in the case of laser 
+micromachining.   
+ Precision XYZ axis: the field size of the scanners, depending principally of the focal distance and the type of focal 
+lens which is used, is limited, most of the time in values near of 50x50mm². Axes allow extending this field. With 
+the Kyla software it is possible to cut automatically a dxf file in scanner zones linked one with each other with a 
+movement of the axes. A synchronisation between the two types of the movements at the same time is also 
+possible. In the x and y axes, a movement of 400mm is allowed at high speeds (up to 2000mm/s); in the z axis 
+movement of 300mm is allowed. The resolution of positioning of both axes can be up to 1,5μm, what is perfect 
+for laser micromachining, knowing that the “beam tool” itself, characterized among others by its diameter, may 
+value about 10-15μm.  
+ 
+768636 Laser4Surf – Part B – Page 57 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+  
+  
+    
+4.1.3 MULTITEL ASBL (MULTITEL)  
+  
+www.multitel.be/photonics   
+  
+4.1.3.1 DESCRIPTION OF THE LEGAL ENTITY AND ITS MAIN TASKS  
+MULTITEL is a non-profit organisation private research centre. The activities of MULTITEL include signal processing, 
+wireless networks, railway certification, image processing and applied photonics.   
+  
+The activities of MULTITEL include the following five R&D areas: The activities of MULTITEL include signal processing, 
+wireless networks, railway certification, image processing and applied photonics.  
+  
+Its activities include fibre lasers design and proto typing, laser micro -machining, optical sensors and terahertz 
+imaging and spectroscopy.   
+  
+The activities related to fibre lasers and micromachining include in particular the design and application of ultrafast 
+lasers in various materials processing like thin films photovoltaics processing, surfaces texturization, glass refractive 
+index modification. Other possible examples of applications are the glass processing (cutting, drilling, surface and 
+embedded marking) or the polymer processing (particularly by resonant infrared ablation).  
+  
+Due to its vast experience in ultrashort pulse lasers, in LASER4SURF project, MULTITEL will be addressing the beam 
+shaping issues, in particular, through the leading of WP2. Besides, it will collaborate in the integration of the optical 
+module into the processing unit developed in WP5.   
+  
+4.1.3.2 CV OF THE PERSONS  
+ Dr. Hernandez Yves (Male): Dr. Hernandez joined the Applied Photonics Department of Multitel in May 2003. 
+He previously worked with Alcatel Optronics in France as responsible of the product development, regarding the 
+reliability of Semiconductor Laser Diodes. From 2003, Dr. Hernandez leads the Fiber Laser Group of the Applied 
+Photonics Department. Since May 2013, Dr. Hernandez is Head of the Applied Photonics Depart ment. He was 
+coordinator of the FP7 Project CHARMING.   
+ Dr. Jean-Bernard Lecourt, (Male): Dr. Jean-Bernard Lecourt joined the Applied Photonics Department of Multitel 
+in January 2007 after graduating from Université de Rouen (France) with a Ph.D. thesis on Femtosecond Lasers 
+based on Saturable Absorbers (Etude et réalisation de lasers à fibre auto -impulsionnels à base d’absorbants 
+saturables). At present time Dr. Lecourt is involved on R&D activities on design and prototyping of femtosecond 
+fibre lasers and  chirped-pulse amplifiers. Dr. Lecourt will take care of the activities related to ultrashort fibre 
+lasers beam shaping and frequency conversion in WP2.  
+ Mr. Julien Dupuy, (Male): Ir. Julien Dupuy joined the Applied Photonics Department of Multitel in February 2014. 
+He previously worked as an opto-electronics engineer in a french PME specialized in fiber optic system during 8 
+years. At present time Mr. Dupuy is in charge of the ultrafast laser micro -machining platform, for research and 
+industrial purpose. He is also involved on R&D activities of fiber optics sensors, and prototyping of femtosecond 
+ 
+768636 Laser4Surf – Part B – Page 58 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+fibre lasers. Ir. Dupuy will take care of the validation of the optical beam shaping systems in the current 
+micromachining MULTITEL platform before integration in LASEA system.  
+  
+4.1.3.3 LIST OF RELEVANT PUBLICATIONS  
+ A. Bertrand, Y. Hernandez “Exploring new avenues for laser micromachining”, SPIE Newsroom, 10 May 2016, 
+DOI: 10.1117/2.1201603.006363  
+ Jean-Bernard Lecourt ; Simon Boivinet ; Anthony Bertrand ; Didier Lekime ; Yves Hernandez “High -energy 
+picosecond hybrid fiber/crystal laser for thin films solar cells micromachining”, Proc. SPIE 9513, High -Power, 
+High-Energy, and High-Intensity Laser Technology II, 951303 (May 12, 2015); doi:10.1117/12.2180234  
+ S. Boivinet ; J.-B. Lecourt ; Y. Hernandez ; A. A. Fotiadi ; M. Wuilpart ; P. Mégret “Impact of chromatic dispersion 
+and spectral filtering in an all-fiber mode-locked ytterbium laser”, Proc. SPIE 9344, Fiber Lasers XII: Technology, 
+Systems, and Applications, 934421 (March 4, 2015); doi:10.1117/12.2078865  
+ S. Boivinet, J.-B. Lecourt, Y. Hernandez, A. Fotiadi, P. Mégret “948 kHz repetition rate, picosecond pulse duration, 
+all-PM 1.03 μm mode -locked fiber laser based on nonlinear polarization evolution”, Photonics Europe 2014, 
+Session 12: Mode-Locked Lasers, paper 9135-55  
+ Yves Hernandez, Charles Duterte, Erwin Lotter, Alessio Bosio, Marc Hueske, and Stefano Selleri “Picosecond fiber 
+laser applied to solar cells scribing, Anthony Bertrand”, International Laser Applications Symposium (ILAS) 2013,  
+  
+4.1.3.4 LIST OF RELEVANT PREVIOUS PROJECTS  
+Regarding micromachining, Multitel has worked in process optimization for sol ar cells in the FP7 projects ALPINE, 
+IMPROV and LASHARE. In the CORNET project ADOPT, Multitel develops a machining system coupled with online 
+monitoring. Multitel coordinated the INTERREG project ECOLASERFACT related to laser micromachining promotion 
+in North West Europe.  
+ ADOPT “ADaptive laser micro machining of multi -layer surfaces with inline OPTical metrology” (CORNET, 
+convention n°1510569)  
+ LASHARE “Laser equipment ASsessment for High impAct innovation in the manufactuRing European industry” 
+(FP7-2013-NMP-ICT-FOF, Grant Agreement n°609046, www.lashare.eu )  
+ ECOLASERFACT “ECO-efficient LASER technology for FACTories of the future” (Interreg IV B NWE, 
+www.ecolaserfact.eu)   
+ECOLASERFACT aims to transfer to North -West Europe based SMEs the most recently developed laser 
+micromanufacturing processes for fast, flexible, high -precision, reduced cost and ecological friendly 
+manufacture of goods. ECOLASERFACT aims to federate actors involved in laser micromanufacturing leading to 
+an efficient transnational Network or Expertise. With the help and services provided by the Network of Expertise, 
+the consortium supports SMEs with the latest laser manufacturing technologies to produce highly functional 
+and innovative products by an easy and cost effective access to on-demand processing equipments.   
+ ALPINE “Advanced Lasers for Photovoltaic INdustrial processing Enhancement” (FP7-NMP-2008-LARGE-2, Grant 
+Agreement n° 229231, www.project-alpine.eu)   
+ IMPROV “Innovative Mid -infrared high Power source for resonant ablation of Organic based photovoltaic 
+devices” (FP7-ICT-2009-5, Grant Agreement n°257894, www.fp7project-improv.eu ).   
+  
+4.1.3.5 DESCRIPTION OF ANY SIGNIFICANT INFRASTRUCTURE  
+Multitel laser micromachining platform provides infrastructure and technical equipment to serve the objectives of 
+the project. It offers the following:   
+ Facilities:  
+ Two clean rooms  
+ Flexible micromachining platform  Lasers available:  
+ Amplitude S Pulse/Central wave length 1030nm/Pulse duration 540fs -10ps/Av. Power 3.5W/Pulse energy 
+35µJ/Rep rate100kHz max  
+ Amplitude S Pulse/1030nm/250ps/3.5W/150µJ/25kHz max  
+ 
+768636 Laser4Surf – Part B – Page 59 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+ Amplitude S Pulse/515nm/540fs/1.5W/15µJ/100kHz max  
+ Amplitude S Pulse/515nm/250ps/2W/80µJ/25kHz max  
+ Amplitude S Pulse/343nm/250ps/500mW/20µJ/25kHz max  
+ Amplitude S Pulse/257nm/540fs/300mW/3µJ/100kHz max  
+ Amplitude S Pulse/257nm/250ps/300mW/12µJ/25kHz max  
+ IPG YLPN-1-4x200/1064nm/8-200ns/20W/1mJ/20kHz-100kHz  
+ Multitel 30ps/1064 nm& 532 nm/ 100 µJ / 5W  
+ Multitel 1 ps/1030 nm/ 100µJ – burst mode laser  
+ Multitel  ns/1040nm/40ns/20W/0.25mJ/80kHz  
+ Multitel CW/1064nm/CW/100W  
+ Scanners/translation stages available:  
+ Three galvanometric heads with mirrors at 355nm, 515nm, and 1030nm  
+ Adapted f-theta lenses and microscope objectives  
+ Translation stages Aerotech (max speed 3m/s, Travel X 500mm/Y 200mm/Z 35mm, XY resolution 10µm, Z 
+resolution 5µm)  
+ Means of characterization:  
+ Microscope (objectives X5 X10 X20 X100 X150)  
+ Optical profilometer (XY resolution 5µm, Z resolution 100nm)  
+ Access to Scanning Electron Microscope (SEM)  
+  
+4.1.3.6 OTHER DOCUMENTS  
+  
+     
+ 
+768636 Laser4Surf – Part B – Page 60 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+  
+4.1.4 VISUM LTD. (EX. IRIS ADVANCED ENGINEERGING LIMITED) - VISUM  
+  
+  
+  
+www.seeingnewdata.com  
+  
+4.1.4.1 DESCRIPTION OF THE LEGAL ENTITY AND ITS MAIN TASKS  
+Visum Ltd.(Ex. IRIS Advanced Engineerging Limited) (VISUM) www.seeingnewdata.com is an optical engineering 
+company from Dublin that specializes in the development and commercialization of Near Infrared Spectroscopy 
+(NIRS)-based portable and inline analyzers and meas urement systems for process monitoring and quality control 
+applications in the food, pharmaceutical and chemical applications. The company was established in 2014 and 
+currently employs 9 staff from its facilities in Nexus UCD (technology park at the University College Dublin campus). 
+In 2016, the company launched the VISUMPalm (a handheld NIR measurement instrument) and has secured first 
+sales. An integration platform (VisumNIR) for the inline version is currently under development in cooperation with 
+early adopter clients from the food processing industry (dairy, meat and olive oil) and pharmaceutical industries. 
+VISUM Ltd. is an SME Champion -awarded a Phase 1 and a subsequent Phase 2 Grant under H2020’s SME 
+Instrument.  
+  
+The optical engineering and smart systems teams at VISUM Ltd. have specialized expertise in sensor integration, 
+optical engineering, chemometrics, data analytics, cloud infrastructures and data management systems.  
+  
+VISUM will be responsible for the WP3 Design and development of an in-line monitoring unit, which addresses the 
+development of the in -line quality control system of the laser texturing prototype. Moreover, will contribute on 
+defining the optical technology suitable for nanometric surface features quality control. Developing a f unctional 
+prototype suitable for industrial settings use and testing and validating the new nano-metrology prototype surface 
+functionalities and performance. Furthermore, transversal contributions will be given to the consortium in terms of 
+Exploitation and Dissemination aspects.  
+  
+4.1.4.2 CV OF THE PERSONS  
+ Dr. Timothy Kehoe  (Male) PhD in Engineering, University College Cork, Ireland - developed an IR photometric 
+measurement system for thermal diffusivity in anisotropic materials. Masters in Optoelectronic s, Queens 
+University Belfast. Designed an Echelle spectrometer while based at Andor Technology Ltd. Worked at Tyndall 
+National Institute, Cork, and Catalan Institute of Nanotechnology, Barcelona, developing diffractive optical and 
+acousto-optical metrology  techniques for nanotechnology applications, in particular for characterisation of 
+nanoscale structures fabricated by nanoimprint lithography and directed self -assembly. Other research 
+activities: quantification of ordering in self -assembled structures by image analysis techniques and optical 
+sensors using hydrogel materials. Tim is the VISUMPalm Product Manager, as well as the Technical Lead at 
+VISUM Ltd. and he brings vast optical integration and device instrumentation expertise.   
+ Dr. Severine Philippe (Female) graduated with a 1st class Hons. B.Sc. in Applied Sciences (Physics and Physics 
+Technology) from Dublin Institute of Technology, Ireland, in 2002 and received her PhD in Physics from Trinity 
+College Dublin in 2007, for the study of polarisation effects in semiconductor optical amplifiers (SOA). She went 
+on to work on the development and characterization of low noise SOAs, as well as THz generation by multimode 
+lasers and their detection using four wave mixing in SOA, both in the Semiconductor Photo nics Group, Trinity 
+College Dublin, and the School of Electronic Engineering, Dublin City University. She previously worked as a R&D 
+technician for the plastics industry and in quality control for electronic appliances. She joined VISUM in 2014 as 
+ 
+768636 Laser4Surf – Part B – Page 61 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+an optic al engineer and is currently involved in projects including various microscopy techniques, planar 
+waveguide technologies and MIR spectroscopy.   
+ Nikolina Mikulcic  (Female) User Interface Designer. Nikolina comes from web design and development 
+background with more than 15 years of experience in this field and she is an expert on UI/UX design strategy 
+and front-end development (CSS/HTML). She studied graphic design and she started to learn web design due to 
+her deeply interested for digital world. Since join ing VISUM in September 2016, she has been creating a new 
+User Interface for the VISUM product lines. Prior to VISUM, she has an extensive experience in the online world, 
+having worked in companies such as EuroArt93 – digital agency, BlueBOX IT, Biroval. She also was a founder of 
+design studio In Love With Blue and she worked as Project Manager, UI/UX designer and front -end developer. 
+She was leader numerous digital projects for different clients as Erste Bank, Unicredit Bank, Telenor Bank, Komb 
+Bank, ZAMP etc.  
+ Chris Dermody  (Male) Software Developer. Bachelor’s degree in Product Design from Dublin Institute of 
+Technology. Chris excels in creative problem -solving, using the latest technologies to transform ideas into real 
+opportunities that provide exponential value to business operations. With a keen eye for user experience, Chris 
+builds robust, responsive applications that stand the test of time. Since joining VISUM, Chris has been hard at 
+work developing both front and backend features that push the VISUM product lines forward. Prior to VISUM, 
+Chris enjoyed working across the full spectrum of business, founding startups and overseeing product 
+development throughout the lifecycle of many successful businesses.  
+ Dr. Idoia Martí Aluja (female) is a Senior Scientist. She received her PhD in Chemistry at the Universitat Rovira i 
+Virgili (Spain). Her thesis was focused on the establishment of novel analytical methods for the study of different 
+processes by infrared spectroscopy and chemometrics techniques. After her thesis, she expanded her 
+knowledge in spectroscopic techniques working as a Technician in the Spectroscopic and Kinetics Unit (SKU) at 
+the Institut Català d'Investigació en Química (ICIQ, Spain). She was in charge of the calibration and maintenance 
+of the instruments of the unit (UV -Vis, NIR, FTIR, FT -Raman, Circular Dichroism, Fluorescence spectra and 
+polarimetry). Moreover, she worked as a PostDoct at the Institute of Photonic Sciences (ICFO, Spain), leading a 
+project whose aim was to develop a new and novel infrared instrument based on a high power laser source with 
+direct emission in the mid- to long-wave infrared for chemical microspectroscopy of biological samples. She was 
+using chemometrics techniques to extract meaningful information from the recorded data. She also worked as 
+Material Science Engineer at Zobele Spain, being in charge of the selection, testing and validation the most 
+adequate raw materials, with particular focus on the interaction between chemical products (mainly perfumes, 
+solvents and detergents) and materials.  
+  
+4.1.4.3 LIST OF RELEVANT PUBLICATIONS  
+ Development and commercialisation of the VISUM instruments - NIR spectroscopy devices- in-pipe, handheld   
+Publication in relation to Innovation Management: O. Mc Nerney, A. Stachowicz, P. Czuprynski, E. Philpott, D. 
+Kolman, D. Martin, E. Herrmann (2010). “Strategic Guide to Successful Use and Dissemination of the Results of  
+Research and Development Projects” 1st edition, Steinbeis-Edition Stuttgart 2010. ISBN 978-3-941417-27-4  
+On 08/02/2016, VISUM was awarded the Seal of Excellence form the European Commission  
+  
+4.1.4.4 LIST OF RELEVANT PREVIOUS PROJECTS  
+ PREVIEW “PREdictiVe system to recommend Injection mo ld sEtup in Wireless sensor networks”. (Grant 
+Agreement number: 636892).   
+PREVIEW aims to develop cutting edge wireless technological solutions for injection moulding setup and process 
+optimisation using recommended machine parameters to minimise manufact uring downtime. VISUM Ltd. is 
+responsible for the development of the Data Acquisition System and in developing the Signal Conditioning, its 
+integration with the ARM main board, as well as implementing a prototype.  
+ Phase 1 SME Instrument : An IR -spectroscopy-based platform for the rapid integration and customisation of 
+affordable, real-time monitoring solutions for the food and pharmaceutical industry (Grant Agreement number: 
+684767).  
+ 
+768636 Laser4Surf – Part B – Page 62 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+ Phase 2 SME Instrument: Cloud-enabled IR spectroscopy platform for the rapid integration and customisation 
+of affordable, real-time chemical monitoring solutions for food and pharmaceutical industries (Grant Agreement 
+number: 731043)  
+ Development of a portable LIDAR device for the detection of pesticides for the University of Lerida in Spain (B2B 
+contract)  
+ Development of a NIR device for at-line measurement of quality of oil in industrial frying equipment for bakery 
+products (B2B contract).  
+  
+4.1.4.5 DESCRIPTION OF ANY SIGNIFICANT INFRASTRUCTURE  
+VISUM has the following infrastructures that will be used in the project:   
+  
+Spectroscopic Laboratory: equipped with several instruments, namely, an FTIR -ATR (Interspectrum), two UV -VIS 
+(PerkinElmer and Ocean Optics), one Extended -SWIR (StellarNet) and one NIR (Mightex) sp ectrophotometers as 
+well as a SWIR Hyperspectral imager (Specim-Xenics). The associated staff are trained and skilled in chemometrics 
+modelling by using a commercial suite (SOLO+MIA from Eigenvector) as well as ad hoc non -commercial 
+chemometric tools (Matlab and Python toolboxes).   
+  
+Electronics, mechanical and optical workshops: equipped with up -to-date hardware and tools: signal generators, 
+wide band oscilloscopes, PCB design [Altium] and building tools, development kits for programming 
+microcontrollers, CNC-milling machines for electronic and mechanical prototyping, and CAD software [SolidWorks], 
+among others. ZEEMAX software for the design of optical systems and design setup by means of advanced optical 
+components and facilities (optical tables, windows, lenses, lasers and light sources and related “opticalware”).  
+  
+     
+ 
+768636 Laser4Surf – Part B – Page 63 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+4.1.5 CENTRO DE INVESTIGACIÓN COPERATIVA DE ENERGÍAS ALTERNATIVAS FUNDACIÓN (CICe)  
+  
+www.cicenergigune.com   
+  
+4.1.5.1 DESCRIPTION OF THE LEGAL ENTITY AND ITS MAIN TASKS  
+CICe is a non-profit energy research centre based in the Basque Country (Spain), funded in 2011. CICe’s mission is 
+to play a leading role on th e international scientific stage focused on basic research in energy related materials 
+oriented to storage applications, contributing to industrial competitiveness through: excellent and breakthrough 
+research; transfer of technology and knowledge to industry; coordination of basque technology and research efforts 
+in energy storage field. CICe plays an important role in the strong Basque Network of Science, Technology and 
+Innovation (RVCTI). The centre has the backing of public institutions, administrations and of companies directly 
+related to the energy sector. Its objectives are strongly aligned with the Basque Country RIS3 priorities and the 
+Energibasque strategy, which identifies storage as the central key to solve the future energy needs.  
+  
+In the project, besides all the administrative and dissemination and exploitation tasks, CICe will mainly participate 
+in WP4 and WP6 with the following tasks:  
+ Participation in the elaboration of a database with LIPSS processes and resulting functionalities. The role of CICe 
+will be focused on the processes associated to metals typically used in batteries. Moreover, CICe and CEGASA 
+(third party) will participate in the definition of the pattern for battery current collector.  
+ Fabrication of Li-ion battery electrodes to test the capabilities of current collectors processed by LIPSS. CICe will 
+elaborate the electrode formulation with the input provided by CEGASA, electrodes will be casted and 
+assembled in half cells and full cells for subsequent electrochemical testing th at will be used to determine the 
+improvement obtained after the LIPSS processing. Finally, pouch cells will be assembled to prove the scalability 
+of the process.  
+ Characterisation of the current collectors and electrodes. Advanced characterisation will be performed on cycled 
+electrodes that will help us to determine the influence of the LIPSS processing in the electrochemical 
+performance, lifetime and stability of the electrodes. CEGASA will provide valuable input when defining the 
+testing protocols and experimental conditions.  
+  
+4.1.5.2 CV OF THE PERSONS  
+ Dr. Miguel Ángel Muñoz  (Male) PhD from Warwick University in 2005. He is now associate researcher at the 
+Structure & Surface Analysis Group. His research focuses on the understanding of the mechanisms tha t drive 
+surface and interface reactions in electric energy storage components. Miguel Ángel is an experienced scientist 
+active in the area of surface/interface characterization (XPS, STM/AFM, AES), thin film and cluster growth under 
+UHV conditions.   
+ Mr. Aitor Villaverde (Male). He is the Platform Manager for the Dry Room and Prototyping Facility at CICe. Aitor 
+has over 10 years experience in industry (GUASCOR FOTON S.L., BATZ cooperative). He began his career in 
+renewables energies as a technical electronic engineer in 2004, in Mexico where he collaborated in the design 
+and installation of an electronic control system for energy storage in photovoltaic systems. In 2005 Aitor received 
+clean room training in California and The Institute of Microelectronic Tec hnology (TiM) at the San Mamés 
+Industrial Engineering School.  
+ Dr.Laida Otaegui , (Female). PhD in Industrial Engineering from Tecnun, Universidad de Navarra. During her 
+undergraduate period, her research was focused in the fabrication and electrochemical/microstructural 
+characterization as well as their long-term stability at high temperature and corrosive environments of different 
+high temperature energy conversion and storage systems such as Solid Oxide Fuel Cells (SOFC) and High 
+ 
+768636 Laser4Surf – Part B – Page 64 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Temperature Metal-Air Batteries (HTMAB). She is now a post-doc researcher at the Device Engineering Group in 
+which she is working in the development of Na-ion battery electrode formulations and battery prototypes.  
+  
+4.1.5.3 LIST OF RELEVANT PUBLICATIONS  
+ Composition and Evolution of the Solid-Electrolyte Interphase in Na2Ti3O7 Electrodes for Na-Ion Batteries: XPS 
+and Auger Parameter Analysis. M.A. Muñoz-Márquez et al. ACS Appl. Mater. Interfaces 7, 7801−7808 (2015). A 
+combination of photoemission techniques was used to determine the evolution of the electrode -electrolyte 
+interphase in Na -ion batteries which provided new insights on the stability and capacity fade of this type of 
+electrodes.  
+ Direct observation of electronic conductivity transitions and solid electrolyte interphase stability of Na2Ti3O7 
+electrodes for Na -ion batteries. M. Zarrabeitia et al. J.  Power Sources 330, 78 -83 (2016). Impedance 
+spectroscopy studies and photoemission techniques were combined to deliver an answer regarding the 
+transport properties of promising anodes for Na-ion batteries.  
+ Local Structure and Stability of SEI in Graphite and ZFO Electrodes Probed by As K ‑Edge Absorption 
+Spectroscopy. S. J. Rezvani et al. J. Phys. Chem. C 120, 4287−4295 (2016). Use of X-ray absorption spectroscopy 
+to characterize the evolution of the electrode-electrolyte interphase in Li-ion batteries.  
+ Effect of the electrolytic solvent and temperature on aluminium current collector stability: A case of sodium-ion 
+battery cathode. L. Otaegui et al. J. Power Sources 297, 168−173 (2015). Differences on the Na -ion battery 
+current collector stability related to the use of carbonated and ionic liquid solvents for NaFSI based electrolytes 
+studied by means of electrochemical and SEM analysis.  
+ Performance and long term stability of a liquid-tin anode metal-air solid electrolyte battery prototype. L. Otaegui 
+et al. Electrochimica Acta 214, 192-200 (2016). Development and electrochemical/structural characterization of 
+a high temperature liquid -tin anode metal-air solid electrolyte battery using galvanostatic cycling, impedande 
+spectroscopy and SEM/EDAX.  
+  
+4.1.5.4 LIST OF RELEVANT PREVIOUS PROJECTS  
+ MAT4BAT “Advanced materials for batteries” (FP7 -GC.NMP.2013-1, Grant Agreement No. 608931). 
+Development of advanced electrode formulations screening a wide variety of binder and stabilizing agents.  
+ SIRBATT “Stable Interfaces for Rechargeable Batteries” (FP7-ENERGY-2013-7-3-3, Grant Agreement No. 608502). 
+Influence of battery interfaces in the cycle life and safety of Li-ion batteries.  
+ LINABATT “Li -ion and Na -ion battery technologies for grid and transport applications.” (Retos Investigación 
+MINECO, Grant No. ENE2013-44330-R). Improvement of energy density, safety and cycle life of Li-ion batteries 
+and development of new materials.  
+ Energigune14 “Development of research activities in electrochemical and thermal energy storage.” (Proyectos 
+de Investigación con Alto Potencial Industrial, Grant No. IE14-388). Development of materials and cells for Naion 
+battery technology.  
+ BATNALAE “Design, fabrication and test of Na-ion batteries for emergency luminary applications.” (Proyectos de 
+Investigación Estratégica, Grant No. KK -2016/00098). Development of Na -ion battery prototypes for luminary 
+applications.  
+  
+4.1.5.5 DESCRIPTION OF ANY SIGNIFICANT INFRASTRUCTURE The 
+following infrastructures will be used in the project:  
+ Dry Room / Prototyping Facility: The dry room at CIC energigune is a 55 m2 laboratory in which humidity and 
+temperature conditions are continuously controlled. Humidity levels as low as -60 ºC dew point a t a 21 ºC can 
+be reached in this platform. Moreover, the laboratory is fully equipped with the machinery required for different 
+levels of battery prototype manufacturing, either coin cells or pouch cells. Due to the moisture sensitivity of 
+most of the batt ery components this constitutes the perfect environment to build the cells which will be 
+developed in this project.   
+ Surface Analysis Platform: This platform integrates state of the arte equipment devoted for advances studies 
+on surfaces and interfaces. A  high resolution XPS with 2D detector will allow to perform photoemission 
+ 
+768636 Laser4Surf – Part B – Page 65 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+experiments at different X-ray energies while probing diferent surface regions. The system is coupled to a Raman 
+spectrometer fitted in a electrochemical cell that enables us to carr y out all characterisation under controlled 
+conditions without exposing the battery components to air. This is a very important point since the majority of 
+battery systems are moisture sensitive.  
+ Electron Microscopy Platform: The scanning electron microscope is also equipped with a transfer system that 
+allows sample handling without air exposure. This technique will be used to study the surface morphology of 
+the electrodes and, with a special sample holder, cross -sectional studies of the electrode -current collector 
+interface.  
+  
+     
+ 
+768636 Laser4Surf – Part B – Page 66 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+4.1.6 FAGOR AUTOMATION S. COOP (FAGOR)  
+  
+  
+www.fagorautomation.com   
+  
+4.1.6.1 DESCRIPTION OF THE LEGAL ENTITY AND ITS MAIN TASKS  
+FAGOR AUTOMATION is a company with great experience in the development and manufacturing of products for 
+machine automation and control. It excels by its capability to develop software and the versatility of its productive 
+process to offer solutions tailored to the needs of their customers. Historically, FAGOR AUTOMATION has focused 
+their efforts on the machine-tool sector where we are one of the world leaders. Besides, its wide technical and sales 
+network spread out in more than 50 countries through its own branch offices and distributors. FAGOR 
+AUTOMATION career has been so successful thanks to our investing efforts in R&D+i (Research, Development and 
+innovation) and in infrastructure that made it possib le for us to tackle projects of high strategic relevance. An 
+example of this, are the new facilities for photolithography to produce engraved glass that is used in our linear 
+feedback systems.  
+  
+Traditionally, the company has dedicated more than 10% of its turnover to R&D+i; it currently has 85 R&D engineers 
+and 6 doctors dedicated to developing new automation and optics technologies integrated into the products 
+developed by FAGOR AUTOMATION.  
+  
+An important part of their product portfolio is the position measuring systems. Fagor Automation has been 
+manufacturing high quality linear and rotary encoders using precision optical technology for more than 30 years. 
+Over the years Fagor has created, developed and patented systems, components and technologies that allow us to 
+offer best quality and features over the complete range of product utilizing innovative production methods.   
+  
+In order to ensure quality and reliability in all its products Fagor Automation utilizes the most advanced technology 
+and testing a nd manufacturing facilities. From centralized computer control temperature monitoring, cleanliness 
+and relative humidity control, a must for the feedback system manufacturing process, to laboratories for climate, 
+vibration and EMC testing to certify the designs.  
+  
+Fagor Automation will be one of the end users that will validate the use of the developed laser texturing prototype, 
+particularly, for the functionalization of optical encoders. The proposed technology will be an alternative to the 
+present photolithography that Fagor is using. During this project Fagor Automation will contribute to stablish an 
+adequate target for the technology.  
+  
+4.1.6.2 CV OF THE PERSONS  
+ Dr. Tomás Morlanes (M): He is a Doctor in Physics (by Universidad Complutense de Madrid) s pecialized in the 
+optics field. He has always developed his work in the Research & Development department of Fagor. Now he is 
+the Optics Technology Manager in Fagor. He works in the field of optical linear and rotary encoders.  
+ Mr. Haritz Anduaga , (M): The  academic profile of Haritz Anduaga a Master in Mechanical Engineering by 
+Mondragón Unibertsitatea. He began their work in Fagor like technical in the Manufacturing department. Now 
+he is the Industrialization Manager of Feedback Systems.  
+  
+ 
+768636 Laser4Surf – Part B – Page 67 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+4.1.6.3 LIST OF RELEVANT PUBLICATIONS  
+In the following links, 2 examples of products that will be obtained using the proposed products can be found:  
+http://www.fagorautomation.com/en/product/feedback-systems/linear-and-angular-encoders-for-cnc-
+machinesand-high-accuracy-applications/incremental/serie-l/   
+  
+http://www.fagorautomation.com/en/product/feedback-systems/open-linear-encoders/absolutos/   
+  
+4.1.6.4 LIST OF RELEVANT PREVIOUS PROJECTS  
+The following project is connected to the subject of LASER4SURF:   
+ LASERHUESO: “Laser fabrication of Surface micro/nanopatterns for the optimization of osteocells regeneration 
+potential”, CYCIT 2014 (Spanish Science Foundation)   
+  
+4.1.6.5 DESCRIPTION OF ANY SIGNIFICANT INFRASTRUCTURE  
+The following equipment will be used in the project:  
+  
+Equipment for Product Qualification  
+ Climatic Room 1-60ºC  
+ 2 Humidity and temperature Chambers  
+ Induced interference Generator  
+ Electrostatic discharge generator  
+ Radioelectric perturbations generator/receiver  
+ GETEM camera for radioelectric perturbations susceptibility/emission measurements  
+  
+Equipment for Functional tests of Products   
+ Laser precision stations for displacements measurements  
+ Confocal Microscope for thin film measurements (down to 15 nm)  
+ Digital oscilloscopes  
+ Optical Laboratory  
+  
+4.1.6.6 OTHER DOCUMENTS  
+NO  
+    
+4.1.7 RESCOLL TECHNOLOGY CENTRE OF MATERIALS – RESCOLL  
+  
+https://rescoll.fr/rescoll/  
+  
+4.1.7.1 DESCRIPTION OF THE LEGAL ENTITY AND ITS MAIN TASKS  
+RESCOLL is an innovative SME, best defined as a research company for materials, specialized in composites and 
+polymers. RESCOLL’s activities are industrial research and development of innovative products and processes. 
+RESCOLL is conducting innovation research in the field of industrial applications of polymers (composites, resins, 
+ 
+768636 Laser4Surf – Part B – Page 68 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+adhesives, varnish, coatings, etc.) and related fields: bonded assemblies, materials fire behavior and 
+environmentally friendly surface treatments  
+  
+RESCOLL currently has 80 employees, including PhDs, engineers and technicians with sales of 10 M€ in 2016.  
+RESCOLL does more than 25% of its sales in the medical industry.  RESCOLL has been at the origin of more than 40 
+patents in the field of polymers and composites.  RESCOLL has ISO 17025 and NADCAP accredited laboratories and 
+is specialized in the fields of polymer formulation, vibroacoustic testing, mechanical characterization, 
+nondestructive control, fire testing, thermo mecha nical analysis, spectrometry and chromatography and surface 
+analysis and accelerated ageing.  
+  
+RESCOLL also participates in several European projects including project within the scope of FP6 and FP7.  In 
+addition, RESCOLL has participated in several Clean Sky and CORAC projects.  
+  
+RESCOLL also has extensive experience in the development of and testing of medical devices and sol -gel coatings.  
+As a result, RESCOLL possesses considerable expertise in the characterization of the electrical properties of suc h 
+system, and will use this expertise in the characterization of the insulating materials.  
+  
+Its technical skills, quality system and the scope of its material means (technologically advanced equipment) make 
+RESCOLL one of the state-of-the-art laboratories in the field of materials testing on the European level.  
+  
+  
+4.1.7.2 CV OF THE PERSONS  
+ Ing. Florent Deliane: technical manager. He is Head of Surface Technology Materials business unit managing 6 
+researchers. Ing. Florent Deliane has more than 10 years  experience in surface technology, coating and sol -gel 
+process. He was involved in the management of several partnership project dedicated to optics, corrosion, 
+tribology, adhesion, catalysis concerning application in aeronautics, medical device, transport , or energy. 
+Patents and product commercialization have been carried out for some of these projects.  
+ Etienne Lecomte (male): commercial manager. Mr. Lecomte has over 14 years’ experience dealing with products 
+and services destined for the public market and industry.  He currently manages a team of 3 people.  He serves 
+for the account manager for large industrial groups such as AIRBUS, SAFRAN, and AREVA.    
+ Mrs. Magali Clavé -Henry (female): marketing manager. Magali graduated with an engineering diploma and  a 
+specialization in Fine Chemistry from the National Institute of Applied Sciences (Rouen – France) in 2005.  She 
+then worked for 3 years in the R&D department of a chemical group based in The Netherlands on the 
+development of resins and dispersions for a dhesive applications.  In 2009, she joined a consulting company 
+specialized in innovation management. Her areas of expertise include collaborative project development, 
+market intelligence and advising innovative companies. She will be joining Rescoll as of the 1st of June 2015 and 
+will be in charge of conducting market research and supporting strategic planning.  
+  
+4.1.7.3 LIST OF RELEVANT PUBLICATIONS  
+RESCOLL provide with services in medical implant design and manufacturing. Therefore, this knowledge can be very 
+useful for the project, specially to evaluate the replication potential of LASER4SURF technology in different products 
+and/or applications of RESCOLL expertise fields.  
+  
+4.1.7.4 LIST OF RELEVANT PREVIOUS PROJECTS  
+ H&M is a French national program focused on the development of innovative coatings for hip and knee implants.  
+ MED FAB LAB is a French regional project (Aquitaine) for an additive manufacturing platform for medical devices 
+and applications.  
+  
+ 
+768636 Laser4Surf – Part B – Page 69 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+4.1.7.5 DESCRIPTION OF ANY SIGNIFICANT INFRASTRUCTURE  
+MED FAB LAB medical device additive manufacturing platform. It focuses on implementing additive manufacturing 
+techniques for medical applica tions, notably for difficult -to-use materials such as PEEK and materials with 
+customized properties.  
+  
+  
+     
+ 
+768636 Laser4Surf – Part B – Page 70 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+4.1.8 EUROPEAN SCIENCE COMMUNICATION INSTITUTE (ESCI) GGMBH - ESCI  
+  
+www.sciencecommunicators.eu   
+4.1.8.1 DESCRIPTION OF THE LEGAL ENTITY AND ITS MAIN TASKS  
+The European Science Communication Institute (ESCI) is a not-for-profit organisation that empowers scientists and 
+engineers, helping them to communicate with a non -expert audience to bridge the gap between science, 
+technology and society.   
+  
+ESCI supports national and international research and innovation initiatives i n communicating effectively and 
+leveraging their dissemination potential. In addition to providing up-to-date media training, ESCI has put together 
+a compelling set of dissemination tools specifically with different stakeholders and target audiences in mind. Their 
+multi-skilled team can ensure that the message not only tells, but sells. The ESCI offer includes: optimising web 
+communication, producing state -of-the-art videos, harnessing social media, organising workshops and engaging 
+with end-users to maximise outreach and impact of these initiatives.  
+  
+As a truly European organisation, ESCI draws on key contributors from across the continent. Their senior science 
+communicators work in France, Belgium, the UK and Germany. The European Science Communication Institute also 
+enjoys close ties with science communication specialists in almost every EU country, which enables it to deliver 
+locally adapted solutions in different languages.  
+  
+ESCI will lead the communication and dissemination in close cooperation with  the exploitation leader. The aim of 
+this activity is to identify the communication needs for the specific audiences and find and use the channels of 
+communication needed to fulfil this task. The ESCI team has experience in web, social media, print, audio-visual and 
+direct 1:1 communication to accomplish a successful mix of communication and dissemination activities. This 
+includes also the tracking of this activity to be able to measure the impact of the communication and dissemination 
+measures in order to adapt it, if necessary.  
+  
+At ESCI, we believe that the success of a new technology is not only dependent on the technology itself, but also on 
+the way it is communicated and disseminated to the relevant target groups and exploitation channels. For the 
+LASER4SURF project, ESCI see plenty of opportunities to use its creativity and expertise to work together with a 
+strong consortium for a successful communication, dissemination and exploitation of the project.  
+  
+4.1.8.2 CV OF THE PERSONS  
+ Elmar Bartlmae (male). Mr. Elmar BARTLMAE holds a MSc in Science Communication (1995), Imperial College 
+London and a BSc in Physics with Management (1994) from King’s College London. In 2016 he co -founded ESCI 
+and became its Managing Director. Elmar has been involved in dif ferent communication and dissemination 
+activities in more than 20 European research projects, including in projects with a focus on complex technologies 
+(Nano-TV, HIPSTER). Initially, Elmar was responsible for video production activities and later got invo lved all 
+other communication activities, including social media, print and web communication and their dissemination. 
+Elmar is also an award-winning film producer, specialising in science documentaries. In 2016 his co -production 
+The Origami Code on modern mathematics and engineering won the Grand Prix of PARISCIENCE and a Jackson 
+Hole Science Media Award.   
+ Alec Walker-Love (male). Mr. Alec WALKER -LOVE has received a BA in Politics & Modern Languages from the 
+University of Manchester (2003). For the last 15  years, Alec has been managing dissemination and 
+ 
+768636 Laser4Surf – Part B – Page 71 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+communication activities of a range of European funded projects including CITyFiED and DIRECTION. Alec is a 
+communication professional, recognised for strategic and original thought. He is passionate about t he 
+conversations happening inside and outside organisations and connecting them to the goals of the organisation 
+or project.  
+ Naomi Halbach (female). Ms. Naomi HALBACH holds a BA in Cultural Anthropology/Media Sciences, University 
+of Tübingen (2013) and a BSc in Geosciences, University of Bremen (2016). As science media producer, Naomi 
+has been responsible for a number of videos and multi -media web stories on European research projects, 
+including R2CITIES, MeeFS and HIPSTER. She is also engaged in the publi c relations activities of the Max -
+PlanckInstitute of Marine Biology in Bremen.  
+  
+4.1.8.3 LIST OF RELEVANT PUBLICATIONS  
+ Services: CITyFiED (www.cityfied.eu) is a European project on smart cities, that has been running since 2014. 
+ESCI experts are responsible for large parts of the communication and dissemination activities, including video 
+production, social media and citizen engagement.   
+ Services: HIPSTER (www.hipster-project.eu ) is a European innovation project on food processing, that has been 
+running since 2015. ESCI experts are managing the communication and dissemination WP, that includes web 
+communication, video production, and targeted communication to stakeholders.    
+ Publicastions/Services: For R2CITIES (www.r2cities.eu ), a European demonstration project on the renovation 
+of bu ildings to a high level of energy efficiency, ESCI experts have implemented a new way of multimedia 
+storytelling tool called pageflow. www.science-stories.com/lavatrici .  
+ Publications/Services: For the European Research Project MeeFS (www.meefs -retrofitting.eu), ESCI sci ence 
+media producers have created the final video on the project. https://t.co/9LF33lOhKD   
+ Achievement: The Origami Code is a science documentary produced for 3SAT/Franc e5, which won the most 
+prestigious international prizes in science television, including the Grand Prix AST at the PARISCIENCE Film 
+Festival 2016, and the Science Media Award of Jackson Hole 2016 in the Category “Innovation”. This popular 
+science programme was co-produced by Elmar Bartlmae, co-founder and director or ESCI.  
+  
+4.1.8.4 LIST OF RELEVANT PREVIOUS PROJECTS  
+ESCI experts have designed and implemented several Communication and Dissemination plans for EC -funded 
+research and demonstration projects and were also involved in several CSAs. These activities included the design of 
+brochures, posters, production of videos and journalistic articles, their dissemination to science media outlets 
+(mainly for web and TV), communication training for scientists and also the design and implementation of  strategies 
+for social media and/or citizen engagement. For the LASER4SURF project, the following five projects had the most 
+similar challenges, in terms of communicating about sophisticated technology projects and ensuring their successful 
+exploitation.    
+ Nano-TV (www.youris.com/nano/nanotv) – Enhancing public awareness on the results of EUropean research 
+actions on nanosciences and nanotechnologies through the profesional use of television media.  
+ HIPSTER (www.hipster-project.eu) – Deployment of High PreSsure and TempeRat ure food processing for 
+sustainable, safe and nutritious food with fresh-like quality.   
+ PIMMS (http://www.birmingham.ac.uk/research/activity/pimms-itn/index.aspx) –  Proton Ionization Molecular 
+Mass Spectrometry (Communication Training only)  
+ CommFABNet (www.commnet.eu) – Comunication of Food, Fishery, Agriculture and Biotechnologies research 
+– a network to support EU-funded research projects  
+ DIRECTION (www.direction-fp7.eu) – Demonstration of very low energy new buildings  
+  
+4.1.8.5 DESCRIPTION OF ANY SIGNIFICANT INFRASTRUCTURE  
+No special technical equipment or infrastructure is needed for the proposed activities of ESCI in the LASER4SURF 
+project.  
+  
+  
+ 
+768636 Laser4Surf – Part B – Page 72 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+4.1.8.6 OTHER RELEVANT INFORMATION  
+The European Science Communication Institute was founded in July 2016, and has therefore only  a limited official 
+track record of projects or activities to this date. However, the communication experts of ESCI have an impressive 
+experience working in similar projects. As communication and dissemination is a people’s business, we have 
+included projects and activities in the sections above that ESCI’s founding partners or staff have been responsible 
+for.
+4.2 THIRD PARTIES INVOLVED IN THE PROJECT  
+For all the subcontract activity foreseen in this project the identification of the respective subcontracts will be done 
+on the basis of the best value offer. According to the GA regulation on sub -contracting the criteria used by the 
+partners to assess the “best value” of the different potential subcontractors will be done and proposed on the base 
+of: market tendering, partners' standard practices, commercial agreements already in place. Whatever will be the 
+criteria used by the concerned partner for the respective subcontract, a clear justification of the “best value” will 
+be provided to the Commission in advance of the subcontract finalisation.   
+  
+CEIT  YES/NO  
+Does the participant plan to subcontract certain tasks (please note that core tasks of the 
+project should not be sub-contracted)  
+If yes, please describe and justify the tasks to be subcontracted  
+NO  
+ Does the participant envisage that part of its work is performed by linked third parties  NO  
+If yes, please describe the third party, the link of the participant to the third party, and describe and justify the foreseen tasks 
+to be performed by the third party  
+Does the participant envisage the use of contributions in kind provided by third partie s 
+(Articles 11 and 12 of the General Model Grant Agreement)  
+If yes, please describe the third party and their contributions  
+NO  
+  
+LASEA  YES/NO  
+Does the participant plan to subcontract certain tasks (please note that core tasks of the 
+project should not be sub-contracted)  
+If yes, please describe and justify the tasks to be subcontracted  
+NO  
+ Does the participant envisage that part of its work is performed by linked third parties  NO  
+If yes, please describe the third party, the link of the participant to the third party, and describe and justify the foreseen tasks 
+to be performed by the third party  
+Does the participant envisage the use of contributions in kind provided by third parties 
+(Articles 11 and 12 of the General Model Grant Agreement)  
+If yes, please describe the third party and their contributions  
+NO  
+  
+MULTITEL  YES/NO  
+Does the participant plan to subcontract certain tasks (please note that core tasks of the 
+project should not be sub-contracted)  
+If yes, please describe and justify the tasks to be subcontracted  
+NO  
+ Does the participant envisage that part of its work is performed by linked third parties  NO  
+Does the participant envisage the use of contributions in kind provided by third parties 
+(Articles 11 and 12 of the General Model Grant Agreement)  
+NO  
+  
+VISUM  YES/NO  
+Does the participant plan to subcontract certain tasks (please note that core tasks of the 
+project should not be sub-contracted)  
+If yes, please describe and justify the tasks to be subcontracted  
+NO  
+ 
+768636 Laser4Surf – Part B – Page 73 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+ Does the participant envisage that part of its work is performed by linked third parties  YES  
+If yes, please describe the third party, the link of the participant to the third party, and describe and justify the foreseen tasks 
+to be performed by the third party  
+Description of the third party:  
+ 
+768636 Laser4Surf – Part B – Page 74 of 83   
+LASER4SURF 
+  
+YES/NO 
+  
+Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+VISUM  
+IRIS (Innovació i Recerca Industrial i Sostenible, S.L.) will be involved as third party of VISUM.   
+  
+IRIS is an advanced engineering company that specialises in process monitoring and 
+control, and process optimisation. Its commercial division offers advanced monitoring and 
+control solutions based on: NIR chemical monitoring (handheld device and in -line 
+solutions); hyperspectral imaging solutions for foreign body detection and chemical 
+composition analysis; data management solutions for data processing, decision support, 
+automation and data analysis (big production data). The research division has three cor e 
+research lines: 1. Optical and spectroscopy technologies (e.g. MEMs spectrophotometers, 
+fluorescence and Raman) for process monitoring for on-line and PAT applications in food, 
+pharmaceuticals and the process industries. 2. Novel processing technologies (ultrasound, 
+plasma, microwave…) for process intensification and non -thermal decontamination. 3. 
+Sustainable processing technologies: waste valorisation strategies, biocompounds and 
+biopackaging for the circular economy   
+  
+The company was established in 2 007 and currently employs 56 staff with a turnover of 
+€3.8M. It is equipped with engineering workshops (3), food testing and wet chemistry 
+laboratory, optics labs (2), and an electronics/telecommunications lab. IRIS is ISO 
+9001:2008 certified and also is certified under UNE-EN-ISO 166002: Management Systems 
+R&D&i.   
+  
+Link of the participant to the third party: VISUM is mainly participated by IRIS  
+  
+Describe and justify the foreseen tasks to be performed by the third party:  
+The involvement of IRIS will allow to increase the level of excellence of the technical work 
+planned in the project as IRIS staff are familiar with validation of the monitoring devices 
+performance and control systems development.   
+  
+While VISUM is specialised in optical engineering, IRIS has instruments and specific skills for 
+supporting VISUM in the validation of the developed sensors and in creating control 
+systems.   
+  
+Key staff at IRIS who will be involved in carrying out this work:   
+ Mr. David Montes Monteserin. (male) BSc in Mechanical Engineering (2011), 
+Polytechnic University of Catalonia (UPC), Barcelona. Prior to joining the Production 
+Processes group at IRIS as Mechanical Design Engineer, he gained wide experience in 
+product design and developmen t, including dosing systems for the chemical industry 
+and both industrial and domestic appliances for the water treatment sector. He has also 
+held positions as Engineering Team Manager, applying renewable energies to 
+industrial-sized drinking water plants among other projects. He is specialised in design 
+for manufacturing and is proficient in SolidWorks, design software which has taught to 
+several companies as a freelancer.   
+ MSc. Alejandro Rosales  (male) has a M. Sc. in Physics from the Universidad de La 
+Habana (1986). His background comprises theoretical and technical skills in several 
+scientific and technological areas: optics, lasers, high vacuum, colorimetry, UV -VIS-
+NIRMIR spectroscopy, chemometrics and design of measurement instruments. He has 
+extensive practical experience in programming, electronics and mechanical CAD design 
+as well as R&D methodology and management. His career has included positions as 
+ 
+768636 Laser4Surf – Part B – Page 75 of 83   
+LASER4SURF 
+  
+YES/NO 
+  
+Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+researcher applications engineer, design engineer, business developer and R&D 
+manager. In 2000s, he worked in the FTIR spectroscopy field applied to quality control 
+VISUM  
+in the agro -food (wine) industry, whereby he developed two new measurement 
+instruments for wine analysis. His career as industrial physicist has been focused in 
+applying his wide expertise to provide solutions for industrial problems. Since 2011, he 
+has been the Technical Manager in IRIS, leading a staff of 20 engineers and researchers 
+involved in R&D projects aimed at developing novel high -end solutions for industry. 
+Currently, he is the Science & Technology Manager in IRIS.   
+ Dr. Laura Rodríguez Turienzo.  (female) B.S in Food Science & Technology (2008) 
+Masters in Innovation in Safety & Food Technologies (2010), PhD in Biological Sciences 
+(2011), all from University of Santiago de Compostela (USC), Spain. She has participated 
+in a number of R&D regionally and nationally funded projects aimed at developing and 
+validating new bio-based active edible packaging, physico-chemical characterization of 
+novel foods and valorisation of food industry wastes. She is author of several papers in 
+peer-reviewed journals and has participated in different national and international 
+conferences.    
+  
+The total estimated budget of the linked third party is 158.875 €.   
+  
+Does the participant envisage the use of contributions in kind provided by third parties 
+(Articles 11 and 12 of the General Model Grant Agreement)  
+If yes, please describe the third party and their contributions  
+NO  
+  
+CICe  YES/NO  
+Does the participant plan to subcontract certain tasks (please note that core tasks of the 
+project should not be sub-contracted)  
+If yes, please describe and justify the tasks to be subcontracted  
+NO  
+ Does the participant envisage that part of its work is performed by linked third parties  YES  
+If yes, please describe the third party, the link of the participant to the third party, and describe and justify the foreseen tasks 
+to be performed by the third party  
+Description of the third party:  
+CEGASA Portable Energy (CPE) started working on 28 January 2015 after acquiring several 
+production units of CEGASA Group, a company that definitely disappeared in January 2016. 
+The new company, CPE, was created with the challenge of becoming a global compa ny 
+with a high technological content. For this purpose and from the very beginning, it focused 
+on two areas:  
+ Production of manganese dioxide with a high level of purity, which allows its application 
+in the manufacture of alkaline batteries  
+ And the design and manufacture of energy storage systems based on two different 
+technologies zinc-air and lithium-ion.  
+Furthermore, the area of energy storage systems has reinforced the productive capacity 
+of zinc-air batteries that has made the company t he first producer at European level and 
+moreover it has implemented an automated production line of Lithium ion batteries which 
+together with the technological capability, allows CEGASA to be a leading company in this 
+technology in Spain and be at the forefront at European level.  
+Besides the productive investments made in 2015, it is planned to develop an ambitious 
+investment plan worth 4.5 million euros for the years 2016, 17 and 18. Thanks to this 
+ 
+768636 Laser4Surf – Part B – Page 76 of 83   
+LASER4SURF 
+  
+YES/NO 
+  
+Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+investment effort CEGASA Portable Energy has developed a range of energy storage 
+systems based on lithium-ion technology that allows to have applications in:  
+ Mobile systems for buses, vans, motorcycles, etc.  
+ Stationary systems for residential, UPS, communication stations, industrial 
+applications, etc.  
+ Large-scale systems as part of smart grids and renewable energy plants.  
+CICe  
+To achieve these technological developments, CPE in addition to its own resources, usually 
+collaborates with technology centres, universities and other companies  
+  
+Link of the participant to the third party: CIC and CEGASA form part of the same trust.  
+  
+Describe and justify the foreseen tasks to be performed by the third party:  
+The involvement of CEGASA as industrial partner will allow to demonstrate the 
+development of the LASER4SURF project. CIC will work on the validation of the 
+functionalisation as well as on the necessary study to implement the technology for other 
+products like pouch cells.  
+Key staff at CEGASA who will be involved in carrying out this work:   
+ Dr. Igor Cantero (R&D Manager, m): Ph.D. in Chemistry (University of the Basque 
+Country, Spain). Since 2000, he has been responsible for the New Technologies R&D 
+Department at CEGASA. Dr. Cantero has authored 8 book chapters and 24 papers 
+published in national and international scientific journals. He also holds 5 patents, has 
+participated in 35 research projects and gave over 30 conference presentations. As 
+responsible of the department, he works in the development of primary lithium, 
+lithium-ion, fuel cel l, supercapacitor, rechargeable zinc -air and Li -S or Li -Air 
+technologies.  
+ Ion Pinedo (Innovation manager, m): Mechanical and Industrial Organisation Engineer 
+by the University of Mondragon (Spain). He starts his activities in CEGASA in 1998 in 
+different alkaline cell production departments and in 2010 he moved to the New 
+Technologies Department. From 2013, he is the responsible of innovation projects. He 
+is involved in the final integration (final assembly + Test and Commissioning) of every 
+energy storage products (lithium batteries and hydrogen fuel cells). He has supervised 
+the entire production chain from the specifications settings to customer’s approval 
+such as Abengoa, Repsol, Ingeteam, Jema, Endesa, etc.  
+ Fernando Perez (Product Homologation Manager , m): Degree in Chemistry by the 
+Autonomous University of Madrid in 1987, also has a Master in Business Administration 
+at the University of Kent. He was responsible for product certification and approval 
+Karey Plastics SA in 1989 until 1992. In 1993 he joi ned CEGASA being responsible for 
+development of the alkaline battery including product qualification and suppliers. Since 
+1995, he is a member of EPBA (European Portable Battery Association). In 2010 begins 
+its activities in the Department of New Technolog ies focusing on the accreditation of 
+suppliers of lithium-ion cells. Currently, he also develops activities of characterization 
+and standardization of the product developed in the department and the tasks 
+associated with LCA.  
+The total estimated budget of the linked third party is 101.125 €.  
+  
+ 
+768636 Laser4Surf – Part B – Page 77 of 83   
+LASER4SURF 
+  
+YES/NO 
+  
+Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Does the participant envisage the use of contributions in kind provided by third parties  
+(Articles 11 and 12 of the General Model Grant Agreement)  
+If yes, please describe the third party and their contributions  
+NO  
+  
+FAGOR  YES/NO  
+Does the participant plan to subcontract certain tasks (please note that core tasks of the 
+project should not be sub-contracted)  
+If yes, please describe and justify the tasks to be subcontracted  
+NO  
+ Does the participant envisage that part of its work is performed by linked third parties  NO  
+If yes, please describe the third party, the link of the participant to the third party, and describe and justify the foreseen tasks 
+to be performed by the third party  
+FAGOR  
+Does the participant envisage the use of contributions in kind provided by third parties 
+(Articles 11 and 12 of the General Model Grant Agreement)  
+If yes, please describe the third party and their contributions  
+NO  
+  
+RESCOLL  YES/NO  
+Does the participant plan to subcontract certain tasks (please note that core tasks of the 
+project should not be sub-contracted)  
+  
+The task to be subcontracted are the following:  
+RESCOLL will need to subcontract the biological validation of the surface t exturing of 
+implants. Specifically related to evaluating the effect of the structuring on the rate of 
+biofilm formation, as this is one of the key issues (especially) with dental implants and their 
+rejection rate in the body.  
+RESCOLL has the rights accreditations to design and develop Medical Devices (ISO 13485) 
+and to test them (several tests qualified ISO 17 025 and the capacity to perform most of 
+the tests related to the ISO 10993 -17 and -18 (Chemical and physicochemical 
+Biocompatibility)), however, th ey don´t the required means to develop in vivo and vitro 
+test.  
+The estimated amount corresponding to the tasks to be subcontracted is 37.460 €.  The 
+test to be perform are the following:  
+ In vitro test.   
+ In vivo test. In vivo test with little animals to test the subcutaneous screening and the 
+implant.  
+ In vivo test. In vivo test with big animals (sheep or dogs).  
+YES  
+ Does the participant envisage that part of its work is performed by linked third parties  YES  
+If yes, please describe the third party, the link of the participant to the third party, and describe and justify the foreseen tasks 
+to be performed by the third party  
+Description of the third party:  
+Rescoll Manufacturing will be involved as Third Party of Rescoll.   
+  
+RESCOLL is a group of companies, concerning this project the important ones are two: 
+RESCOLL and RESCOLL MANUFACTURING (Medical Devices Original Manufacturer). 
+RESCOLL MANUFACTURING belongs 100% to RESCOLL and both RESCOLL and RESCOLL 
+Manufacturing are SMEs (independently and consolidated). RESCOLL Manufacturing is 
+80% dedicated to manufacture medical devices (ISO 13 485 for manufacturing activities).  
+  
+ 
+768636 Laser4Surf – Part B – Page 78 of 83   
+LASER4SURF 
+  
+YES/NO 
+  
+Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+RESCOLL Manufacturing is an independent, privately owned, for-profit SME specialized in 
+the manufacturing of medical devices using traditional methods such as multiaxis milling 
+and turning. Originally known as X -Medical, it was purchased by RESCOLL in 2012 and 
+rechristened RESCOLL Manufacturing.  
+  
+RESCOLL Manufacturing currently produces a w ide variety of implantable materials for 
+different clients in the orthopedic, spinal, and maxillofacial domains, and works with a 
+wide variety of materials.  These materials include titanium alloys, chrome -cobalt alloys, 
+surgical stainless steel, and PEEK.  In 2016 RESCOLL manufactured more than 80.000 
+implants. Rescoll Manufacturing offers a wide range of services to control and 
+manufacture medical devices and instruments. We produce a variety of custom implants 
+for orthopaedic, maxillofacial, dental and cardiac fields. Our team's medical knowledge as 
+RESCOLL  
+well as the understanding of your requirements and expectations allow us to provide a high 
+level service conducted in an ISO 13485 certified environment.  
+ Spine  
+ Knee  
+ Hip  
+ Maxillofacial  
+ Cardiac  
+ Dental  
+ Ancillary  
+Rescoll Manufacturing offers a large integrated and qualified technological range (swiss 
+turning machining, 3 - to 5 -axis machining centers, finishing workshop, laser marking, 
+metrology laboratory…) allowing us to meet your expectations w ithin very short delays. 
+All control and manufacturing stages are conducted in an ISO 13485 certified environment.  
+ Swiss Turning  
+ Milling  
+ Multiaxis Milling / Turning  
+ Polishing  
+ Laser Marking  
+ Cleaning  
+ Packaging  
+ Metrology  
+Rescoll Manufacturing machin es all medical grades of implantable and non -implantable 
+medical devices using titanium, stainless steel, steel, cobalt -chrome (phynox…) and 
+polymers including Peek, polyethylene, radel and composite including carbon 
+fiberreinforced PEEK.  
+ Titanium  
+ Stainless Steel  
+ Steel  
+ Refractory  
+  
+Link of the participant to the third party: RESCOLL Manufacturing belongs 100% to RESCOLL  
+  
+Describe and justify the foreseen tasks to be performed by the third party:  
+ 
+768636 Laser4Surf – Part B – Page 79 of 83   
+LASER4SURF 
+  
+YES/NO 
+  
+Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+RESCOLL Manufacturing will be one of end -user test case of the LASER4SURF system, 
+particularly on dental implants. It will provide its expertise in medical device design and 
+manufacturing.  
+Key staff at RESCOLL manufacturing who will be involved in the project:   
+ Mr. Fréderic Combarnous  (m), Mana ger of RESCOLL Manufacturing. Mr. Combarnous 
+manages a team of twelve highly-skilled specialists in medical device manufacturing, and has 
+experience in the organization and execution of multipartner projects through his previous 
+experience at RESCOLL.  His  expertise in the domain of multipartner projects and medical 
+devices, coupled with the team of technicians under his management, means that RESCOLL 
+Manufacturing is ideally equipped to undertake the LASER4SURF project.  
+  
+The total estimated budget of the linked third party is 25.000 €.  
+Does the participant envisage the use of contributions in kind provided by third parties 
+(Articles 11 and 12 of the General Model Grant Agreement)  
+If yes, please describe the third party and their contributions  
+NO  
+ 
+768636 Laser4Surf – Part B – Page 80 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+  
+ESCI  YES/NO  
+Does the participant plan to subcontract certain tasks (please note that core tasks of the 
+project should not be sub-contracted)  
+If yes, please describe and justify the tasks to be subcontracted  
+NO  
+ Does the participant envisage that part of its work is performed by linked third parties  NO  
+If yes, please describe the third party, the link of the participant to the third party, and describe and justify the foreseen tasks 
+to be performed by the third party  
+Does the participant envisage the use of contributions in kind provided by third parties 
+(Articles 11 and 12 of the General Model Grant Agreement)  
+If yes, please describe the third party and their contributions  
+NO  
+     
+ 
+768636 Laser4Surf – Part B – Page 81 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+5. ETHICS AND SECURITY
+5.1 ETHICS  
+The following ethics issues have been identified:  
+ Environmental protection and safety:  
+According to the Ethics Summary Report, during the process of laser tests, the project will cover a representative 
+panel of metal materials (Aluminium, Cop per, Titanium and Stainless steel), functionalisation and check thermal 
+conductivity. This can raise the health and safety issue in regard to staff.  
+  
+In This regard, a specific deliverable D9.1 will be prepared and submitted in M6 providing information related to:   
+ Further information about the possible harm to the environment and staff caused by the research and state the 
+measures that will be taken to mitigate the risks.  
+ Confirmation that facilities authorisations have been obtained (e.g . security classification of laboratory), and 
+are kept on file.  
+ Ensure  that  appropriate  health  and  safety  procedures  conforming  to  relevant 
+ local/national guidelines/legislation are followed for staff involved in this project.
+5.2 SECURITY  
+  
+ Activities or results raising security issues NO  
+ EU-classified information' as background or results NO  
+  
+     
+ 
+768636 Laser4Surf – Part B – Page 82 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+6. APPENDIX I - FIGURES FROM WORK PACKAGES DESCRIPTION  
+  
+FIGURES INCLUDED IN WP2  
+  
+Task 2.2 Preparation of the experimental laboratory set-up and tests  
+  
+ 
+FIGURE 13: CURRENT SET-UP FROM MULTITEL TO BE ADAPTED FOR THE PROJECT  
+  
+Task 2.4 Implementation and test of the optical modules.  
+  
+ 
+  
+  
+Sample under test 
+Laser 
+ HWP 
+ PBS 
+Lens 
+ SHG  
+crystal 
+Lens 
+Galvanometric 
+Head 
+DOE 
+ra 
+me 
+Ca 
+Beam  
+Dump 
+Beam  
+Dump 
+Wedge 
+Wedge 
+HR  
+Mirror 
+HR  
+Mirror 
+DC 
+Mirror 
+BE 
+Beam  
+Dump 
+Spatial beam shaping module 
+Scanning module 
+SHG module 
+ 
+768636 Laser4Surf – Part B – Page 83 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017

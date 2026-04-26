@@ -1,0 +1,779 @@
+1.2 Methodology  
+1.2.1 Concept idea 
+There are hundreds of plating on plastics lines producing millions of chromium or other metals plated parts every 
+day. The vast majority of these lines are using chemical processes based on chromic acid etching and subsequent Pd 
+based catalysed deposition of electroless nickel or copper, technologies that have been developed and designed 
+decades ago for a specific group of plastic substrates (e.g. ABS).  However, the plating on plastics  market has evolved 
+and now includes a broader range of substrates  while huge increases in selective plating demand  is also observed. 
+[11] As an example, biobased composite PLA reinforced with hemp or carob, is a promising alternative to ABS when 
+it comes to 3D printing processes. [12] FreeMe aims to provide a holistic approach for PoP covering a range of 
+plastic substrates (i.e. ABS, PET, PLA, nylon or UV printable Resins) 
+The general concept of the FreeMe project  is presented in Figure 1.2. In the upper part a simplified SoA plating 
+on plastic process is depicted. The main part of concern is the grey area, where the chromic acid etching and Pd 
+based activation take place. The FreeMe aspires to replace this process sequence with safer and more sustainable 
+technologies utilizing REACH compliant chemicals and at the same time, meeting the needs for excellent adhesion 
+of coatings.  
+ 
+10  
+11 D. Wyaness, “Is it time to revisit your Plastic Metallizatio Process?”, Products and Finishing, August 2018 
+12 M. Gali et.al, “A new generation of bio-composite thermoplastic filaments for a more sustainable design of parts manufactured by FDM”, 
+Applied Sciences, August 2020 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [6 of 44] 
+ 
+ 
+Figure 1.2: FreeMe concept 
+ 
+1.2.2 FreeMe methodology and implementation phases 
+Following the R&I concept presented in the previous paragraph, in the following the overall methodology is 
+described with references in previous results of the partners, updated literature review and basic models and 
+experimental design and assumptions considered in the project. In each part the main research challenges are analyzed 
+and the projected activities to overcome these are presented. 
+ 
+1.2.2.1  Safe & Sustainable by Design Strategy 
+FREEME will  embrace the Safe Innovation Approach (SIA),  which encompasses the concepts of Safe and 
+Sustainable by Design (SSbD) and Regulatory Preparedness (RP), to ensure that the whole R&D process of the new 
+proposed PoP technologies follows a systemic approach. It will employ different tools (e.g., Life Cycle Sustainability 
+Assessment, Safe by Design and Sustainability by Design strategies, toxicology assessment, legal analysis, etc.) to 
+guarantee that the developed products are safe, sustainable, cost -effective, regulatory -compliant, accepted by 
+consumers and, most notably, meet the required technical functionality. FreeMe will apply a safe and sustainable by 
+design approach in the applications . A  pre-market design phase to improve product safety, reduce human and 
+environmental risk as well integrating circularity and sustainability principles in line with Europe´s transition to a 
+circular and low-carbon economy will be implemented. Product design will be affected by technical performance, 
+product service, chemical function, circular-by-design and will run in parallel to step-wise safety and sustainability 
+assessment. Thus, by applying SIA tools in the development of FreeMe innovative plating on plastic processes, the 
+consortium is ensuring a faster market uptake after the end of the project, with interested parties having developed a 
+process that is safe, environmentally friendly, competitive and that answers a clear market demand. Moreover, the 
+development of sectoral guidelines and replicability studies will facilitate the knowledge transfer into new products 
+and markets, maximizing the project’s expected outcomes and impacts.  
+ 
+1.2.2.2 Metallization through sprayable composite resins 
+The main concept of this technology is depicted in the following Figure 1.3. 
+ 
+ 
+Figure 1.3: Composite sprayable resins approach for plastic metalization 
+
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [7 of 44] 
+Anhydrous Ni salt  (i.e. NiCl2) is pulverized in size smaller tha n 1,5μm through milling. The powder is mixed in 
+resins mixtures and the resulted composite resin is applied in thin layers (~2 μm) in the polymer surface. Various type 
+of polymeric surfaces will be used (i.e. ABS, PC, PPA, nylon and UV-curable resins) aiming to develop a technology 
+not dependable on the type of the substrate. A key part for this is to achieve excellent adhesion of the sprayable resin 
+in the substrates.  Reduction of the nickel salts in the surface of the resin layer is followed with the use of a reducing 
+agent and thus, Ni nuclei that will serve as catalyst for the following electroless step are created.  
+ 
+Main research/technological 
+challenges 
+FreeMe activities to overcome challenges 
+Excellent adhesion of Resin 
+in plastic substrate.  
+Design of resins with good wetting properties based on the presence of -COOH 
+groups, regardless of the substrate surface energy – chemical bonding 
+Reinforcing particles will be 
+inactive due to the resin layer 
+on their surface 
+Το achieve the reduction of Ni salts to Ni nuclei as catalysts for the electroless 
+step, the hardened resin in their surface should be removed. Mild, chromic acid 
+free etching process will be used. 
+Not to affect the recyclability 
+of the plastic part 
+The application of a resin layer in a plastic object might make the recycling more 
+complicated. To avoid this, a very thin (~2μm) layers should be applied. 
+ 
+A. Preparation of composite resins  
+The Ultraviolet (UV) curing technology has been increasingly used in the last decades as a sustainable way of cross-
+linking polymerization of monomers/oligomers towards the continuous production of epoxy-based coatings. The 
+aim of FreeMe is to optimize the UV curing process of epoxy or epoxy -acrylate resins towards rigid thin (< 2μm)  
+applied on the above-described substrates (i.e. ABS, PLA, etc.). Importantly, the conventional bisphenol A (BPA) 
+based epoxy resins will be replaced by biomass -based epoxy resins, since BPA is considered as highly toxic 
+and is listed among the Substances of Very High Concern (SVHC) and its use is subjected to authorization. 
+The proposed green epoxy alternatives will be based on biomass-derived isosorbide and itaconic acid, which are 
+considered among the most important emerging bio-based platform chemicals within the concepts of Biorefining 
+[13]. Amongst their diverse application in the polymer, fine chemicals and fuel indust ry, isosorbide and itaconic 
+acid may be utilized to produce epoxy monomers/oligomers via glycidylation reaction, as shown in Figure 1.4a, for 
+the case of isosorbide [ 14,15]. The epoxidized bio -based monomers can further react with (meth)acrylic acid to 
+produce the respective isosorbide-based epoxy-acrylates (Figure 1.4b), in analogy to the production of BPA-based 
+epoxy acrylates [16]. Alternatively, isosorbide-based (meth)acrylates may be synthesized by direct esterification of 
+isosorbide by reacting with m ethacryloyl chloride or methacrylic anhydride and a base catalyst [ 17], as shown in 
+Figure 1.4c. Similar reaction paths towards the synthesis of itaconic acid -based epoxy or the respective acrylates 
+will be also investigated, in accordance with recently efforts in the literature [18,19]. 
+a)  
+b)  
+ 
+13 F. Aricò, Isosorbide as biobased platform chemical: Recent advances, Current Opinion in Green and Sustainable Chemistry 2020,  21:82–
+88 
+14 C. Musa et. al, “Ultrasound -Assisted Heterogeneous Synthesis of Bio -Based Oligo-Isosorbide Glycidyl Ethers: Towards Greener Epoxy 
+Precursors”, Molecules, 24 (2019) 1643. 
+15 S. K. Bobade et al., Bio -based Thermosetting Resins for Future Generation: A Review, Polymer -plastics Technology and Engineering, 
+2016, Vol. 55 (17), 1863–1896. 
+16 T.C. Canak et al., “Boron containing UV-curable epoxy acrylate coatings", Progress in Organic Coatings, 77 (2014) 1911–1918. 
+17 D.N. Lastovickova et al., Resin, cure, and polymer properties of photopolymerizable resins containing bio-derived isosorbide, J Appl Polym 
+Sci. 2021;138:app50574 
+18 T. Robert et al.,“Itaconic acid – a versatile building block for renewable polyesters with enhanced functionality”, Green Chem., 18 (2016) 
+2922-2934 
+19 J. Huang et al., “Self-healing, high-performance, and high-biobased-content UV-curable coatings derived from rubber seed oil and itaconic 
+acid”, Progress in Organic Coatings, 159 (2021) 106391 
+
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [8 of 44] 
+c)  
+Figure 1.4. (a) Glycidylation of biomass-derived isosorbide, (b) reaction of epoxidized isosorbide with acrylic acid 
+to epoxy-acrylates, (c) direct esterification of isosorbide towards isosorbide (meth)acrylates   
+ 
+UV curing of the bio -based epoxy and acrylate resins can be conducted via the two classical routes, i.e. the free 
+radical curing for the acrylate resins and the cationic (acidic) cur ing for the epoxy resins [20]. UV curing 
+mechanism of the epoxy-acrylate resins is based on free radicals which are provided by appropriate photo initiators 
+that break apart into radicals when exposed to UV light, such as the alpha-hydroxy ketone types (i.e. Darocur 1173, 
+Irgacure 184). In order to overcome high viscosity issues that will limit the spray process to be applied in the project, 
+the prepolymer resin can be mixed with mono or multifunctional acrylate monomers that are acting also as reactive 
+diluents, such as tripropyleneglycol diacrylate, trimethylolpropane triacrylate, hexanediol diacrylate, mono-acrylated 
+isosorbide, etc. [21]. In the case of cationic curing of neat (not acrylated) bio -based epoxy resins, different type of 
+photoinitiators will be used, which can be activated by light or heat, forming a cationic “super acid” bearing a proton 
+(H+) that induces ring opening polymerization reaction (ROP) of the epoxy. Typical initiators can be diaryliodonium 
+or triarylsulfonium salts like Irgacure 250 and Curacure UV6976, respectively [ 22]. The distinct differences in the 
+mechanism of radical vs. cationic UV curing leads to variations in the required curing time and sensitivity to the 
+presence of oxygen (in radical curing), as well as they affect th e properties of the cured resins, such adhesion, 
+shrinkage, resistance to solvents, storage, post-curing, etc. These effects will be investigated towards the optimization 
+and development of fast, reproducible and high quality UV curable bio-based resins. 
+As the ultimate goal, is to prepare epoxy (acrylate) polymer nanocomposite films with embedded Ni precursors, a 
+thorough study of the incorporation of NiCl2 salts as well as on their effect on the viscosity of the resin mixture and 
+the fast UV curing proce ss will be conducted. A series of characterization techniques will be applied to determine 
+the final dispersion of the Ni sources (also after reduction of NiCl2 by NaBH4) and physicochemical properties of the 
+nanocomposites, such as SEM, TEM, tensile and impact strength, pull off testing (to measure the adhesion strength 
+of the epoxy-acrylate film on the polymeric substrates), TGA/DSC, conductivity, resistance to solvents, etc.  
+B. Application of composite resins on plastic surfaces 
+Prior to the application of the resin the plastic substrates should be pre -treated to achieve good wetting conditions 
+and excellent adhesion. Τo do so, the surface tension of the resin coating should be less that the surface energy for 
+the substrate. It is  found that the surface energy of the substrates should be ~10 dynes/cm higher than the resin to 
+obtain optimal adhesion. [24] Plastics are comprised of long chain non -polar materials with inherently low surface 
+ 
+20 S. Brännström et al., Biobased UV-curable coatings based on itaconic acid, J. Coat. Technol. Res., 14 (4) 851–861, 2017 
+21 D. Yu et al., “Mono-acrylated isosorbide as a bio-based monomer for the improvement of thermal and mechanical properties of poly(methyl 
+methacrylate)”, RSC Adv., 9 (2019) 35532 
+22 P. Bednarczyk et al., “Photocurable Epoxy Acrylate Coatings Preparation by Dual Cationic and Radical Photocrosslin king”, Materials, 14 
+(2021) 4150 
+23 T. Robert et.al, . Itaconic acid – a versatile building block for renewable polyesters with enhanced functionality. Green Chem., 2016, 18, 
+2922–2934. 
+24 Dr. Stefan Meets, How to Coat Plastics with UV Curable Resin, Cytec Surface Specialties, Radtech Europe 2005 4 
+To increase the adhesion with plastic 
+surfaces, both types of proposed resins should 
+have reactive -COOH groups. For this reason, 
+acrylic acid will be used in the case of acrylate 
+epoxy resins at different concentrations for 
+radical polymerization and itaconic acid will be 
+used in the case of glycidylised isosorbide 
+(Figure 1.5). UV-light induced crosslinking 
+epoxy-itaconante resign will be easily 
+produced in the presence of  
+diethoxyacetophenone (DEAP), which is a 
+photoinitiator commonly used in biomaterials. 
+[23] The final resin will be consisted of epoxy 
+and itaconate crosslinked bonds, having also 
+lots of free -OH and -COOH groups (Figure 
+1.5) that both can increase the adhesion of 
+formed thin layer film with plastic surfaces. 
+ 
+ 
+ Figure 1.5 Proposed UV curable epoxy-itaconic acid resign.  
+
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [9 of 44] 
+energies. [25] However, the presence of -COOH in the resins described previously will ensure the excellent adhesion.  
+The application of the resin in the surface can be achieved through spaying. It is important to apply a thin layer 
+(~2μm) so as not to affect the recyclability of the polymer. For example, application of such a 2μm layer of resin 
+in an ABS component of a total volume of 1 lt and total surface of 1000cm 2 will result in a resin concentration of 
+less ~2ppm in the whole component. Figure 1.6 depicts SEM images of the surface of an ABS sample in which resin 
+containing NiCl 2 have been applied. In higher magnifications NiCl 2 particles of ~2 μm size are detected. During 
+FreeMe project milling processes will be utilized in order to further decrease  the size of the Ni salts particles and 
+achieve a homogenous distribution in the resin. In -silico models will provide guidance on the proper concentration 
+and size of the nickel salts particles for optimum distribution across the surface after the spraying step.  
+ 
+  
+Figure 1.6: SEM image and EDS analysis of spayed resin in the surface of ABS. NiCl2 particulates are detected 
+across the surface 
+ 
+C. Reduction and metallization steps 
+By utilizing reducing agents (i.e. NaBH 4) a dual positive effect can be achieved, On one hand the resin is etched 
+and cavities are formed in the surface while at the same the NiCl2 is reduced to Ni nuclei (Figure 1.7) 
+ 
+ 
+ 
+Figure 1.7: SEM image and EDS analysis of activated surface of ABS. Ni nulei are detected across the surface 
+ 
+ 
+ 
+Figure 1.8: SEM image and EDS analysis of metallize surface of ABS 
+ 
+ 
+25 Surface Energies of Polymers. The Sabreen Group. Retrieved January 23, 2006,  
+http://www.sabreen.com/energies_polymers.htm 
+
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [10 of 44] 
+The final steps for the metallization process is to apply a thin Ni-P layer through an electroless Ni bath (Figure 1.8). 
+ 
+In the FreeMe project optimization of the process will take place in all the steps of the process. It is important the 
+spayed resin to act as an intermediate layer that will provide both adhesion and the Ni nuclei for the development of 
+the Ni-P layer via the electroless process. The thickness of the layer is of high importance. It should be thick enough 
+to form a continuous layer across the substrate enhancing the adhesion of the system. On the other hand, during the 
+etching/reduction step (Figure 1.7) the NiCl2 salts should be reduced at the maximum possible percentage. This will 
+allow to have a uniform Ni-P layer across the surface.  
+ 
+1.2.2.3 Development of novel toxic free metallization processes 
+The second alternative method is based on the use of REACH compliant chemicals for etching of polymeric surfaces 
+(chromic acid free process) and for the activation step (Pd free process). The research activities will cover the 
+treatment of the main industrial used substrates i.e. ABS , PPA, PC as well as 3D printable resins and the emerging 
+bio-based polymer PLA.  
+ 
+Main 
+research/technological 
+challenges 
+FreeMe activities to overcome challenges 
+Avoid the use chromic 
+acid in the etching process 
+Being the core of the research activities for this metallization path, mixtures of acids 
+or alkali will be utilized. Based on promising results, the etching process will be 
+optimized and customized based on the exact type of polymer substrate 
+Achieve excellent 
+adhesion 
+A double approach for achieving high adhesion level will be deployed: 
+- Mechanical interlocking due to cavities in the etched surface 
+- Chemical forces due to polar groups created in post-etched plastic surface 
+Extend the lifetime of 
+baths 
+Degradation of bath’s performance happens due to contaminants from drag out 
+(transfer of chemicals from previous steps of the process) or other sources. In FreeMe 
+project, activities related to process control and contamination reduction techniques 
+will be implemented.  
+ 
+A. Development of novel, Cr6+ free surface etching 
+Chromic acid has been used in a broad range of industrial sectors for more than 50 years. The outstanding technical 
+advantages of Cr 6+ make it substitution difficult. Various approaches have been made utilizing acidic or alkaline 
+permanganate, phosphoric acid with persulfate, trichloroacetic acid, nitrosyl sulfuric, etc. [26,27]. Out of these a very 
+promising solution turns to be the mixture of sulfuric acid and hydrogen peroxide in various ratios. [28,29] 
+Indeed, in thermoplastic polymers such as ABS [poly(acrylonitrile-butadiene-styrene)], etching of the surface may 
+be carried out using a “ piranha solution”, a strongly oxidizing, aqueou s solution of 1:4 H 2O2 / H 2SO4. Piranha 
+solutions are widely used for removing organic residues from surfaces via oxidative degradation. Immersing of the 
+ABS substrate into a piranha solution also leads to the hydroxylation of polybutadiene and polyacrylonitrile parts of 
+the surface. [30] This chemical modification is vital because it increases the wettability of the surface  due to the 
+presence of highly hydrophilic groups (-COOH) and it creates holes for subsequent incorporation of nucleation 
+sites (activation).   Based on the type of plastic substrate he following surface modifications can take place utilizing 
+various mixtures of alkali or acids. 
+ 
+ABS based substrates 
+Poly-butadiene: –(CH2CH=CHCH2)–  
+𝑝𝑖𝑟𝑎𝑛ℎ𝑎
+→       –(CH2CH=O) + (O=CHCH2)–  
+𝑝𝑖𝑟𝑎𝑛ℎ𝑎
+→       2 –(CH2COOH) 
+ 
+Poly-acrylonitrile: –[CH(C≡N)]–  
+𝑝𝑖𝑟𝑎𝑛ℎ𝑎
+→       –[CH(CONH2)]– 
+ 
+PET substrate 
+P-ethylene terepthalate:  -(O(C=O)-Ph-(CO)OCH2CH2)-n  
+𝑝𝑖𝑟𝑎𝑛ℎ𝑎
+→       HCOO-Ph-(CO)OH + -CH2-CH2-OH 
+ 
+ 
+ 
+26 J. McCaskie et.al, “New hexavalent Cr free etch for ABS and ABS/PC electroplated plastics”, Plating and Surface Finishing, April, 2008 
+27 D. Akhouri, “A review on the plating process of FDM built parts”, Materials Today: Proceedings, 26, 2020, 
+https://doi.org/10.1016/j.matpr.2020.02.461 
+28 S. Whitmore “Consumable Spacecraft Structures with Integrated, 3 -D Printed ABS Thrusters” AIAA 2017 -4707, Session: Additive 
+Manufacturing for Propulsion Systems II, 2017, https://doi.org/10.2514/6.2017-4707 
+29 E. Correa et. al., “Activation, Initiation, and growth of electroless nickel coatings”, Taylor & Francis Group, 1 st Edition, 2019. eBook 
+ISBN9780429466274 
+30 X. Tang, C. Bi, C. Han, and B. Zhang, A new palladium-free surface activation process for Ni electroless plating on ABS plastic, Materials 
+Letters 63, 840-842 (2009) 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [11 of 44] 
+The treated substrate should be rinsed with water and immersed into a sodium bisulfite aqueous solution (NaHSO3), 
+a common industrial reducing agent and antioxidant food additive to remove any piranha residues.  [31] The whole 
+etching and cleaning process is a relative fast process that can be easily upscaled.  
+Concerning UV-Curable resins (i.e. polyutethane acrylate resins)  & bio-based substrates (PLA): The surface 
+etching of these materials is carried out using an aqueous solution of potassium hydroxide (KOH). [32] The time and 
+cost of the etching process has been optimized via a compara tive study. Alkaline KOH  or other alkali solutions 
+partially hydrolyze the ester and carbamate bonds of the resin to form a hydrophilic, rough surface which promotes 
+metal adhesion. The resin substrates are subsequently rinsed with water. The whole etching process  lasts 
+approximately 30 min. 
+ 
+UV-curable resins 
+P-acrylate: –(R1-COO-R2)–  
+𝑂𝐻−/𝐻2𝑂
+→        –(R1-COOH) + (HO-R2)–  
+P-urethane: –(R3-NHCOO-R4)–  
+𝑂𝐻−/𝐻2𝑂
+→        –(R3-NHCOOH) + (HO-R4)–  
+ 
+PLA substrate 
+ 
+P-lactic acid: -(CH3)CCOOR)-n  
+𝑂𝐻−/𝐻2𝑂
+→       -(CH3)CCOOH  + ROH 
+ 
+B. Development of novel, Pd free activation processes 
+The surface activation step is a crucial part of the PoP process. This can be achieved by using a nickel acetate/sodium 
+borohydride solution. [Ni(CH3COO)2] is significantly cheaper than PdCl 2 and less toxic than Sn salts.  [33] Finely 
+dispersed nucleation sites are generated by the reduction of Ni2+ by NaBH4, as follows (Figure 1.9):  
+ 
+4 Ni2+ + BH4– + 8 OH– → B(OH)4– + 4Ni0 + 4 H2O 
+ 
+Metallization of the ABS substrate is completed by immersing the pre-treated substrate into a Ni electroless plating 
+bath containing nickel sulfate as the Ni2+ source and sodium hypophosphite (NaPO2H2) as the reducing agent.33 The 
+release rate of free Ni(II) cations in the solution is controlled by co -addition of sodium citrate (Na 3C6H5O7) as a 
+complexing agent. [34] A fine Ni-P metal homogeneous coating is produced, shown in Figure 1.10.  
+ 
+Ni2+ + 3 H2PO2– + 3 H2O → Ni0 + 3 H2PO3– + 2 H+ + 2 H2      
+ 
+ 
+ 
+Figure 1.9: EDS mapping activated surface Green dots represents Ni 
+Nuclei 
+Figure 1.10: Cross section after EN 
+ 
+C. Baths Qualification and maintenance  
+Spent baths, i.e. baths that can no more be used in the plating process due to low efficiency, are a main source of 
+waste streams of the surface finishing industry. Spent baths are either treated in-house or transferred to off-site waste 
+treatment installations, increasing  thus chemical use for treatment, and generating sludges and leading to higher 
+operation costs and environmental/safety risks. Thus, extension of the lifetime of baths is of crucial importance for 
+the SSBD strategy of FreeMe technologies. There are a number of factors that leads to the degradation of a bath 
+ 
+31 A. Equbal, N. K. Dixit, and A. K. Sood, Electroless metallization of ABS plastic: a com parative study, International Journal of Rapid 
+Manufacturing 5, 3-4, 255-274 (2016) 
+32 R. Bernasconi, C. Credi, M. Tironi, M. Levi, and L. Magagnin, Electroless Metallization of Stereolithographic Photocurable Resins for 3D 
+Printing of Functional Microdevices, Journal of The Electrochemical Society 164, 5, B3059-B3066 (2017) 
+33 R. Suman, D. Nandan, A. Haleem, S. Bahl, and M. Javaid, Experimental study of electroless plating on acrylonitrile butadiene styrene 
+polymer for obtaining new eco-friendly chromium-free processes, Materials Today: Proceedings 28, 3, 1575-1579 (2020) 
+34 V. K. Bulasara, H. Thakuria, R. Uppaluri, and M. K. Purkait, Nickel -ceramic composite membranes: Optimization of hydrazine based 
+electroless plating process parameters, Desalination 275, 1-3, 243-251 (2011) 
+
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [12 of 44] 
+performance: (a) depletion of chemical species (b) not balanced bath chemistries (c) contamination from other 
+chemical species (i.e. drag out: transfer of droplets from previous steps to the tank of concern). [35] In the framework 
+of the FreeMe project, qualification protocols for the various types of baths used will be delivered. This will be based 
+on SoA technologies for such protocols as well as measurements for decreasing the baths contamination.  
+ 
+1.2.2.4 Application of final finishing 
+After the metallization process (i.e. the application of electroless thin coating on the surface of the activated polymer) 
+the final finishing is applied via electroplating  method. This final layer is deposited according to the specifications 
+provided by the end users. The most common finishes are decorative chromium (applied through trivalent chromium 
+baths), nickel and nickel alloy s, and copper. For specific applications o ther type of metals can also be plated (i.e. 
+gold, silver). In the FreeMe project the final finishing will be arranged by the three end users.  
+ 
+1.2.2.5 In silico approaches for optimization of FreeMe processes 
+ 
+Main research/technological 
+challenges 
+FreeMe activities to overcome challenges 
+Complete modelling of material 
+and  processes related to interfaces 
+Modeling and simulation activities will be selected to answer the key product 
+development questions rather than pure research-oriented modelisation. 
+ 
+The overall goal of the in -silico approach proposed in the FreeMe project is two -fold: First, the in silico activities 
+will target the support of the proposed components design, covering the sprayable composite resins and the etching 
+process. This will be done by developing multi-scale simulations ranging from Ab Initio, Atomistic, Mesoscale and 
+Continuum modelling of the involved materials and processes to provide a proper Design Of Experiments (DOE). 
+Second, such developed models will be used to support the further analysis of the suitability of the proposed processes 
+to specific applications. These modelling activities will be done in parallel and in strong collaboration with the 
+proposed experiments to provide a continuous improvement process of both the developed models and the efficiency 
+of the experimental campaigns. 
+In the case of the sprayable composite resins, the scope of the simulation activities is to understand the capability 
+of the produced resin to adhere to the target materials, analyse the distribution of the Ni nuclei into the target surface 
+and the later efficiency of the final plating process. To do this, ab initio quantum mechanics (QM) tools and classical 
+molecular dynamics (MD) will be used to determine the interfacial interactions and th e corresponding adhesion 
+properties of the different analysed resin compounds. These analyses will allow gathering further conclusions on the 
+material experiments and the results of the SEM image and EDS analyses, specially related to adsorption sites and 
+geometry of the resin molecules and the adhesion extent. The different methods proposed for increasing the surface 
+energy of the plastic parts (e.g. surface oxidation of the polymer chains) will also be taken into account through 
+Monte Carlo simulations. Such models will be then combined with coarse-grained and continuous models to analyse 
+the influence of the concentration and size of nickel salts particles within the proposed resin to ensure a suitable 
+distribution of the nuclei across the surface. 
+Regarding the plastic surface etching process, the overall objective of the in silico activities is to support the design 
+and selection of the different researched piranha solutions. To do so, a combination of Chemical, Molecular 
+Dynamics, Monte Carlo and Computational Fluid Dynamics (CFD) models will be used.  
+ 
+1.2.2.6 Development of Inspection technologies 
+A number of monitoring techniques exist when it comes to characterizing structures during the inspection and quality 
+control in R2R environment for organic solar cells & OLED displays; in the nano - and micro-meter ranges, which 
+have been utilised in the de velopment of the LIPSS fabrication technique, including SEM (scanning electron 
+microscopy) and AFM (atomic force microscopy) 36,37. Fourier transform analysis of the SEM images have been used 
+to quantify the periodicity of the structures. This approach enables a global value of spatial period to be quickly 
+calculated, rather than estimating line thickness and spacings line by line, and  generating a mean value, which is a 
+more laborious process.  
+However, most commonly used techniques at this dimensional scale are in fact implemented off line and require 
+sample preparation, Optical techniques offer the best opportunity for inline process  monitoring, as they are non -
+contact, non-destructive and can be applied to samples as they are without pre-treatment. According to a review paper 
+ 
+35 W. Wallace, “An introduction to electroplating in engineering and manufacturing” SAT Plating, October 2020.  
+36 A. Rodriguez, M.C. Morant.Minana, A. Dias-Ponte, A. Martinez-Calderon, M. Gomez-Aranzadi, S.M. Olaizola, Femtosecond laser-induced 
+periodic surface nanostructuring of sputtered platinum thin films, Applied Surface Science 351 (2015) 135-139   
+37 A. Martinez -Calderon, A. Rodriguez, A. Dias -Ponte, M.C. Morant.Minana, M. Gomez -Aranzadi, S.M. Olaizola, Femtosecond laser 
+fabrication of highly hydrophobic tainless steel surface with hierarchical structures fabricated by combining ordred microstructures and LIPSS, 
+Applied Surface Science 374 (2016) 81-89 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [13 of 44] 
+by IRIS 38, selected combined optical technologies, such as diffractometry, but also ellipsometry and spectral  
+reflectance provide the opportunity for inline measurement of the thicknesses of micro structured layers. 
+ 
+Main research/technological 
+challenges 
+FreeMe activities to overcome challenges 
+Difficulties on measuring coating 
+thickness due to light scattering of 
+particles 
+The combination of various techniques and optimal calibration off-line of 
+the system will allow to overcome this challenge. The speed and time of the 
+process would already bring a certain idea of this data. 
+Relation between quality of the 
+layer and process parameters 
+Correlation between Real-time data gathered and parameters for further 
+processing. 
+ 
+1.2.2.7 Development of Decision Support Tool 
+The Decision Support Tool will be a solution for industrial end-users to optimally select and/or re-engineer existing 
+plating production lines  by considering te chnical, economic, safety, environmental and sustainability 
+constraints and criteria to maximize efficiencies in terms SSBD. The tool will also propose tuning solutions of the 
+everyday production with respect to the variable input specifications of plastic matrices. The user will be capable of 
+inserting unit operations, materials and products specifications as well as experimental data providing a complete 
+profile of the existing production line. The DS T processes the data structuring a dynamic process representation to 
+be optimized considering alternative SSBD technologies ( Cr6+etching and spraying), tuning conditions and 
+downstream processing that should be appropriately designed and adapted to the existing lines. For this purpose, the 
+DST exploits in-silico models, experimental data and products/production specifications ensuring SSBD, as prepared 
+in contexts of FreeMe, building a technological database to simulate the overall plating operations of the alternative 
+etching and spraying technologies and test their performance in front of user requirements. Data driven models will 
+correlate experimental data with performance of the plating processes and contribute to fitting and optimizing 
+operating conditions (i.e. method of plating, type of coatings ) with respect to user -defined input specifications for 
+plastic matrices ( type of polymer, adhesion values, hardness, wear resistance etc. ) and the desired end -product 
+specifications. The DST also holds three m odules for safety, LCA and LCC analyses that will translate process 
+simulation outcomes into mid - and end -point environmental indicators (e.g. human toxicity, climate change, 
+resources depletion), techno -economic results (CAPEX, OPEX, ROI, etc) and safety issues – based on Common 
+Safety Methods (Article 6 of Directive (EU) 2016/798) – like metals concentrations in the factory, baths’ lifetime, 
+Number of Reported Accidents. The overall analysis is based on a dynamic superstructure that holds options for the 
+user-defined operations (e.g. the existing industry) and the candidate SSBD p lating options of FreeMe. The 
+optimization framework examines the alternative designs and tuning options (e.g. nozzles diameters, spraying 
+concentrations and flows, type of acids or alkali and concentration, qualification of baths) and offers optimal solutions 
+and guidelines to revamp and adapt an existing technological environment with new technologies ensuring SSBD 
+PoP and following safety, life cycle and sustainability criteria (objectives in optimization). 
+ 
+1.2.2.8 Validation and demonstration activities 
+A. Automotive: Decorative applications for car components (CRF) 
+PoP is a technology of high importance for the 
+automotive industry since the ‘60s. CRF has introduced 
+various plastic components in its automobile production 
+lines which are lighter but equally robust with their 
+metallic counterparts. A variety of these interior (i.e. 
+instrument frames, steering wheel decoration, door 
+handle) and exterior  parts (e.g. door handle, bumpers) 
+are made from ABS, PC -ABS and PA  polymeric 
+materials. CRF applies various “Cr 6+ based processes” 
+for both protective and decorative functions depending 
+on each plastic component’s position and utility. The 
+chromium coatings typically consist of more than one 
+Cu- and/or Ni-based interlayers, deposited underneath  
+ 
+Figure 1.11:. Interior decorative high contactable 
+components by CRF.  
+the final Cr layer.  However, the process requires a starting etching of the surface using Cr 6+ solutions and Pd/Sn 
+colloidal solutions for surface activation. CRF is seriously interested in developing Cr 6+-free processes for 
+metallization of bio-based, virgin or recycled grade plastic materials. 
+ 
+ 
+ 
+38 E. Bugnicourt, T. Kehoe , M. Latorre, C. Serrano, S. Philippe and M. Schmid, Recent Prospects in the Inline Monitoring of Nanocomposites 
+and Nanocoatings   
+
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [14 of 44] 
+B. Aerospace: Electromagnetic shielding of 3D printed component (IAI) 
+The use of electric components and electromagnetic 
+interference (EMI) shielding in the aerospace industry is 
+growing rapidly. This includes antenna components, higher 
+power requirements that need to be electrically isolated by 
+shielding. In addition, particular antenna components require 
+a complicated albeit highly ordered structural arrangement 
+which in turn requires the assembly of multiple individual 
+parts. On top of that, these parts must meet the most common 
+and strict necessity of the aerospace industry, low weight, as 
+low as possible. As a result, aerospace engineers need to shave 
+every possible gram from every component as excess weight 
+ 
+Figure 1.12: Drawings of 3D printed antenna parts  
+accumulates rapidly. To this end, the replacement of even a single metal component with a plastic one could be key 
+to reduce weight and final cost. Moreover, employment of additive manufacturing techniques (by far less expensive 
+and efficient for polymers compared to metals) can significantly reduce the number of the individual parts needed 
+for the final assembly and decrease the manufacturing time of complicated arrays. Therefore, metal plating on plastics 
+is key for the application of a protective and con ductive metallic layer to enhance both lifetime and EMI shielding. 
+FreeMe will develop a plating process for 3D-printed antenna depicted in Figure 1.12.   
+ 
+C. Home Appliances: Washing machine frames (ARC) 
+Home electrical appliances and consumer electronics go vern almost every aspect of our lives. The 
+incorporation of inexpensive plastic components can reduce cost and lower weight, therefore enabling 
+manufacturers to offer their goods at more competitive prices.  In addition, plastic parts may serve as electrici ty 
+and heat insulators for certain home appliances such as a washing machine which in turn mitigates health and 
+safety risks. Innovative plating on plastics aims to provide a decorative and protective metal finish on such 
+components. Metal coatings enhance  corrosion resistance and improve external appearance, therefore 
+generating added value. For instance, ARC applies nickel, nickel -chromium and multi -layer (nickel -copper -
+chromium) coatings on the door, the handle and the buttons of washing machines. However, in all cases the 
+metallization process involves etching process with chromic/sulfuric acid and activation with Pd. Shifting to 
+more environmental processes, the company wants to replace this process.  
+ 
+  
+Figure 1.13:. Arcelik’s washing machine (left) and SEM image of a multi -layer chrome plating application 
+on ABS.  
+ 
+1.2.2.9 Recyclability of plated plastic components – EoL scenarios 
+Removal of the metal coatings from plastic substrates is well established technology, especially for coatings applied 
+in the automotive industry, that is part of the dismantling process. [ 39] In general three methods are applied.  1) 
+abrasive blasting, 2) cryogenic embrittlement and 3) mechanical crushing. Abrasive blasting. is the operation of 
+forcibly propelling a stream of abrasive material against a surface under high pressure. Dry ice-blasting is a special 
+type of abrasive blasting where dry ice (solidified carbon dioxide) will be accelerated in a pressurized air stream and 
+directed at a surface to clean it. Cryogenic embrittlement may also be used to remove metallic coatings from plastic 
+substrates. The recovery system involves feeding metal -plated plastics into a grinder.  The grinder contains a pre -
+crusher which breaks up the parts into smaller pieces and feeds them into the grinder which subsequently reduces the 
+scrap from half-inch pieces to coarse powder. A magnetic drum separator removes the pieces of metal that have been 
+ 
+39 E.van Westing et.al, “Recycling of metals from coatings”, Materials innovation institute M2i, November 2013  
+
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [15 of 44] 
+split off during grinding. The final step contains going through a cryogenic feeder, where liquid nitrogen cools the 
+scrap to almost freezing, creating stresses which cause additional metal to splinter off. Finally, metal-plated plastics, 
+could also be separated using mechanical crushing. Coatings could be easily stripped when the items are subjected 
+to shear force and impulsive force. Concerning the repair of partially damaged (scratched) metal -plated plastics, 
+brush plating, a portable method of electroplating without the use of an immersion tank, will be tested and employed. 
+In the framework of FreeMe project, the recyclability of the plated plastic parts will be validated utilizing the SoA 
+recycling methods. 
+ 
+1.2.3 Relevant research and potential synergies 
+The FreeMe project will either be based on results of previous project or will create synergies with such projects. 
+The following table presents these projects and analyse the links with the FreeMe project.  
+ 
+Table 1.2: National and International projects correlating with FreeME  
+Project Link to FreeMe 
+PureNano 
+(821431, H2020) 
+Gaser, PoliMi, Cnano , Gaser The project focuses on the development of an in -house 
+system for plating baths purification of plating lines. Cnano, ISQ, Gaser and PoliMi, 
+partners of the project, will transfer this technology to TreeMe, targeting to a more 
+sustainable and environmentally friendly lines. 
+3DPlate  
+(National) 
+Cnano is already providing a range of 3D printing services using environmentally benign 
+and sustainable solutions to artists and designers. Importantly, collaboration with the 
+famous Greek artist Costas Gaϊtis has already been established and Cnano is currently  
+producing Ni metal coatings for some of the artist’s resin-based medium-size sculptures. 
+PROCETS 
+(686135, H2020) 
+PoliMi Cnano  has a major role in the project targeting the delivery of a sustainable 
+electroplating method for applying hard protective coatings. 
+LightMe  
+(814552, H2020) 
+PoliMi are collaborating in the OITB LightMe that is dealing with the upscale of 
+production processes of lightweight alloy composites. LightMe is a test bed that will 
+interact with FreeMe targeting the optimization of lightweight metal surfaces. 
+INFUCOMP  
+(FP7, 233926) 
+IAI The project focused on the development of simulation -based solutions for the 
+industrial manufacture of large infusion composite parts, covering all popular Liquid Resin 
+Infusion (LRI)  methods used in the Aerospace industry. IAI was one of two aircraft 
+manufacturers that were participating in the project. 
+DIAGONAL  
+(953152, H2020) 
+ICCRAM, Cnano DIAGONAL addresses nanotechnology safety issues by developing 
+SbD tools and guidelines. ICCR AM is the coordinator of the project and contributes to 
+activities related to modelling, risk assessment and sustainability. ISQ will perform 
+exposure assessments to the various industrial demonstrators. IRIS is involved as a pilot 
+line. Cnano is an industrial case for data generation and output validation. 
+SafeMarble  
+(co-funded, EU & 
+National) 
+AUTH is involved in the project related to the improvement of the properties of 
+commercial protective agents/ epoxy polymers using (nano)additive materials 
+OLEDSOLAR 
+(820789, H2020) 
+IRIS brings its knowledge for the development of in -line monitoring techniques for the 
+OLED and thin film and organic photovoltaic industries. 
+NANOGENTOOLS 
+(691095, H2020) 
+ICCRAM has a major role in the project targeti ng the development and implementation 
+of a new generation of nanosafety assessment tools.  
+  
+1.2.4 Inter-disciplinary approach 
+It is obvious that an interdisciplinary approach is necessary to deliver the project’s objectives, covering aspects of 
+chemistry, physics, modelling, engineering, data driven algorithms and sustainability. The FreeMe consortium 
+comprises R&I experts in the above disciplines, as well as industrial partners in the PoP field. The first 
+interdisciplinary dimension (IDD1) stems  from the collaboration between AUTH (organic chemistry – polymers) 
+with PolyMi (materials chemistry – plating on plastics) to deliver the biobased sprayable resin. IDD2 connects the 
+above world -leading research institutions with two chemical engineering o riented SMEs (Gaser, Cnano) whose 
+expertise lies in PoP and nanotechnology to produce high -quality PoP coatings. This will be guaranteed by IDD3, 
+running in parallel with IDD2, which brings together the disciplines required for the in-line monitoring (physics and 
+spectroscopy, IRIS) and the in-silico optimization (computational modelling, IDENER) of the PoP processes. IDD4 
+will establish a two-way communication between sustainably experts (ICCRAM) with all partners of the consortium 
+to adopt SSbD principles, perform necessary LCAs and ensure compliance with REACH directives. IDD5 encloses 
+three different and highly competitive industrial sectors (i.e. automotive, aerospace and home electric appliances) 
+that will validate FreeMe’s disruptive techonology. Fina lly, IDD6 concerns the Dissemination, Commercialization 
+and Exploitation of the project results (Exelisis). 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [16 of 44] 
+ 
+1.2.5 Gender considerations  
+Within the FreeMe project, special consideration will be paid regarding the gender dimension in the research and 
+innovation process. Identification of gender differences in the working environment is crucial for the implementation 
+of the necessary measures to ensure the health and safety of the researchers and workers. Utilization of Plating on 
+Plastics process in Fr eeMe requires the careful handling of chemical substances. Sex and gender analysis will be 
+performed during the implementation of the project and key factors are already identified from the proposal stage. 
+Under this scope, the magnitude and duration of an  employee’s exposure to chemical substances can be gender -
+depended, as social and occupational roles of women and men might differ. Women were mistakenly considered to 
+undertake less hazardous tasks and might not be properly included in the risk assessment  of specific procedures, or 
+not received the proper size of personal protective equipment (PPE). [40] FreeMe will ensure that all researches will 
+be equally approached in terms of personal safety, with appropriate PPE that will ensure the protection and re duce 
+the risk of exposure to Nickel and corrosive substances, such as H 2SO4/H2O2 and KOH. Another aspect that will be 
+examined is the impact of exposure to the above-mentioned chemicals on both sexes. Biological characteristics differ 
+between women and men, leading to different health effects of toxic chemicals. In particular, Nickel can induce skin 
+allergies, contact dermatitis and hand eczema, which are statistically more common in women. [41] Additionally, it 
+is more likely to be stored in female tissues and bioaccumulate. What is more, special attention is required to female 
+workers during childbearing years and pregnancy. Women are affected dramatically during this period by even lower 
+doses of chemicals. Finally, data on occupational carcinogens have p resented an increase in cancer rates of female 
+workers in chemicals, raising concerns about the different cellular response to oxidative stress among sexes. [ 42] 
+Partners of FreeMe will adopt a responsible approach regarding the gender dimension on health and safety matters.  
+ 
+1.2.6 Open science Practices 
+Adopting Open Science Practices in EU-funded research and innovation has been a fundamental and unnegotiable part of 
+research ethics in these programs, ensuring transparency and accessibility to public funding outcomes. There is a number of 
+benefits to be taken into account, from providing information to the society about the research and innovation process and its 
+particular results to assuring the general public and in particular European citizens and taxpayers of a evidently transparent, 
+well-guided and efficient R&D policy on a European level. From the perspective of academics and researchers, those open 
+science practices can have significant impacts on the ability of our society to innovate, surpassing barriers and rendering 
+research outcomes and technological developments findable, accessible, interoperable and reusable (FAIR). In the last 
+decades, adoption of open science practices has benefited in terms of quality, efficiency, transparency and social acceptance 
+of research in Europe, in addition to making scientific progress faster and with more integrity. FreeMe is adopting and strongly 
+supporting Open Science practices to the maximum extent. In particular, scientific publications (papers) produced within the 
+project will be published as open access (gold or green access), in full compliance with the Horizon Europe guidelines. In 
+addition to that, an Open Access Data Repository like Zenodo (https://zenodo.org/) will be used in order to store and maintain 
+publicly available all open access material (as it will be also mentioned in the next section). Zenodo, upon acknowledgement 
+of the HE grant, is automatically connected with OpenAire (https://www.openaire.eu/) and with the Open Research Europe 
+platform (https://open-research-europe.ec.europa.eu/browse), adding more visibility to the project public results. The goal is 
+to guarantee the validity, the integrity and the reproducibility of the results, while also facilitating any derivative or relevant 
+works that will be free to use, integrate and/or build on FreeMe’s public results. FreeMe is also aiming to invest quite a lot in 
+citizen engagement as part of its open science practices. The public will be engaged through various communication and 
+dissemination channels (see section 2.2) where an integral part of this approach is to also receive feedback and integrate the 
+general public into the research and development decision making. Actions like visits to local educational institutions, creating 
+public polls, and engagement with consumers of end-products will be taken into consideration on a central level. Furthermore, 
+a key aspect of open science adoption in FreeMe is its Safe and Sustainable by Design approach (SSbD). The SSbD 
+assessments involve open science concepts by default and as part of FreeMe’s exploitation planning, as they aim to the 
+applicability of their designs and guiding principles to other applications by extension or adoption of this work. Work 
+containing SSbD criteria, best practices and relevant results will be released as open as possible to ensure boosting to the 
+project’s  commercial exploitation but also to support open science principles and facilitate the above mentioned benefits. As 
+a matter of fact, this is a key aspect of the project and a critical factor for its successful implementation and impact 
+maximization. Moreover, the academic partners (RTDs) of FreeMe have a long history of performing research activities using 
+open science practices and integrating state-of-the-art methodologies and advancements in educational modules for students 
+and/or researchers. This approach will be further boosted in FreeMe. Within the project’s dissemination, communication and 
+exploitation measures, partners will integrate ideas and novel methodologies to educational activities, hire and train young 
+ 
+[40] http://gender-chemicals.org/chemical-safety-at-work#_ftn1  
+[41] https://www.undp.org/content/dam/aplaws/publication/en/publications/environment-energy/www-ee-library/chemicals-
+management/chemicals-and-gender/2011%20Chemical&Gender.pdf  
+[42] Ali I, Hö gberg J, Hsieh JH, Auerbach S, Korhonen A, Stenius U, Silins I. Gender differences in cancer susceptibility: role of oxidativ e 
+stress. Carcinogenesis. 2016 Oct;37(10):985-992. doi: 10.1093/carcin/bgw076. Epub 2016 Jul 31. PMID: 27481070; PMCID: PMC6276900.  
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [17 of 44] 
+researchers, creating a highly skilled specialized workforce and motivating young researcher to further explore these 
+advancements. At the same time, (in detail in section 2.2) 3 workshops will be held to promote the advancements of FreeMe 
+and contribute to its open science activities , openly engaging with the community and relevant stakeholders.  
+ 
+1.2.7 Research data management 
+To manage the research data generated, collected, and processed during FreeMe multi-disciplinary project requires 
+careful consideration. Different types of data will req uire unique data governance procedures, including technical 
+and open-science policy requirements for data collection, management, preservation and sharing. A data management 
+plan (DMP) defining the governance of each types of data, including standards, for mats, requirements and 
+responsibilities will be delivered at M6 in the corresponding deliverable and will be updated with the progress of the 
+project. In the following the main aspects of this DMP as presented as a draft version . FreeMe in general will use 
+common and non -proprietary data formats to enable interoperability within the project across other data sets. The 
+project will need to consider the governance of each of the different datasets in relation to legal and policy issues. 
+IPR issues will be raised in relation to the ownership of data supplied as well as the ownership of data in the FreeMe 
+project. The pa rtners will use the CA as an initial plan to manage the ownership of the data generated within the 
+project. Issues related to research ethics, privacy and legislation will also be considered. The DMP will include which 
+data should be collected, obtaining i nformed consent and governing how the data should be processed, stored and 
+shared. The DMP will evaluate the extent to which the data can be made openly accessible to other researchers and 
+stakeholders via an open access repository. FreeMe will make use of the Open Research Europe platform to freely 
+share publicly available research data as described in the previous section. To aid the preservation and re-use of the 
+FreeMe data, the Zenodo repository connected to the OpenAIRE platform will be used ensuring the integrity and 
+replicability of publicly available project data and results at the early stage of the project. The consortium will follow 
+standardized guidelines in relation to authoring appropriate and useful metadata incorporating them into the DMP. 
+Standardized formats for data sharing, and non -proprietary formats where possible – for example, .txt in respect of 
+interview transcripts originally produced in Microsoft Word. As such, will avoid access barriers related to proprietary 
+software will be avoi ded. DMP will include metadata information regarding all relevant datasets, addressing the 
+aforementioned descriptive information (e.g. ownership, type, origin, purpose, availability, reusability, relation with 
+project objectives and WPs etc.) and all FAIR  aspects of the enlisted datasets, while the DMP will also take into 
+consideration all GDPR guidelines. Finally, the DMP will align with FreeMe’s exploitation plan aiming to best 
+accommodate the (post-project) data exploitation. The DMP will use these as a starting point to outline which partners 
+can exploit the data, how the data can be exploited and also find possible additional ways in which data of FreeMe 
+could be exploited beyond the initial confines of the project – e.g., using data for new and unforeseen purposes.  
+ 
+Table 1.3: Draft DMP 
+Core information to be provided in 
+detail within the DMP Draft research data management plan provision of metadata 
+Types of data/research outputs Data on: Naming, definition, description, type, purpose and 
+connection with WP. All this metadata to be publicly available 
+Findability of data/research outputs: All data are to be FAIR, with the exceptions imposed only by 
+particular commercialization interests, when properly justified and in 
+compliance with the guidelines of the Horizon Europe.  All this 
+metadata to be publicly available. 
+Accessibility of data/research outputs 
+Interoperability of data/research 
+outputs 
+Reusability of data/research outputs 
+Curation and storage/ preservation 
+costs 
+Data on: Storage, preservation, curation, associated costs, quality 
+protocols. All this metadata to be publicly available. 
+ 
+Table 1.4: Draft data generating processes assessment 
+WP Processes Type of data Purpose 
+1 Specs and Requirements Texts, tables numeric ranges,  SSbD, material and process development 
+2 Sustainability, recyclability, 
+tech. design Designs, data basis SSbD, material and process development 
+and optimization, tech. development 
+3 Resin development Numeric tables, images, raw 
+data from instruments, texts 
+Assessment of experimental protocols, 
+feeding process simulation 4 Metallization development 
+5 Process modelling Data basis, numeric, models Process optimization, SSbD 
+6 Product validation Images, videos, Numeric, 
+Comparative report 
+End-user exploitation, certification, 
+specs and requirements 
+7 Standardization, DST Models, Process reports SSbD, policymaking, Market uptake 
+ 
+Call: HORIZON-CL4-2021-RESILIENCE-01-12 — Safe- and sustainable-by-design metallic coatings and engineered surfaces  
+ 
+[FreeMe]   [18 of 44] 
+2. Impact

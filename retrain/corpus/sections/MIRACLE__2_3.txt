@@ -1,0 +1,2499 @@
+2.3 Probe waveguide technology
+WP3 Imaging MIR-ATR arthroscopy probe
+3.1 Diamond ATR arthroscope probe
+3.2 Diamond Atr probe surface modification
+3.3 Arthorscopy probes towards imaging
+WP4 Data analysis and software development
+4.1 Pre-processing
+4.2 Wavelength selection and multivariate discrimination
+4.3 Model validation
+4.4 Global Control System (GCS) and software development
+4.5 Development of Decision Support concepts, tools and integration in the user interface 
+WP5 Prototype development
+5.1 MIR-ATR arthroscope probe optimization and manufacturing
+5.2 MIR-ATR arthroscopy system: testing and fine tuning
+5.3 MIR-ATR arthroscopy system: prototyping
+WP6 Demonstration and validation in clinical settings
+6.1 Pre-validation via in vitro studies
+6.2 Clinical demonstration and validation I: ex vivo
+6.3 Clinical demonstration and validation II:  ex-vivo
+6.4 Clinical demonstration and validation III: in vivo 
+WP7 Dissemination, Exploitation and Standardization
+7.1 Project Visibility, Web, Social Media Presence and Communication Toolkit
+7.2 Stakeholder Engagement, liaison with other EU funded projects
+7.3 Intellectual Property management
+7.4 Endorsement of Key deliverables, Exploitation and Sustainability
+7.5 Standardization activities 
+WP8 Coordination and Management
+8.1 Administrative, Financial and Legal Management and Reporting to EC
+8.2 Risk Management
+8.3 Quality Management
+8.4 Innovation Management
+MS6
+MS4MS3MS2MS1 MS5 MS7MS8
+MS9 MS10
+MS11
+780598  MIRACLE   Part B Page 48 of 96
+3.2 Management structure, milestones and procedures  
+3.2.1 Organizational structure overview 
+The MIRACLE project will be executed by a consortium of 14 partners from 6 different EU Member States combining 
+partners with previous EU frameworks projects experience, as well as partners who are participating in EU projects for the 
+first time. The MIRACLE consortium will use a simple but effective management structure ( Figure 22) with well-defined 
+responsibilities ensuring smooth daily operation and maintaining the project progress. By choosing a simple structure, each 
+partner has clear understanding of his duties and may focus on addressing the challenges, deliver results, and 
+disseminate/exploit new knowledge according to schedule and proposal. In addition, An External Expert Advisory Board 
+will be invited to follow up and provide feedback on the project progress. The detailed responsibilities and roles of the project 
+bodies will be defined in the Consortium Agreement (CA) that will be based on the DESCA 2020 ver. 1.2 model and 
+concluded prior the project start.  
+ 
+Figure 22. MIRACLE project organizational structure 
+3.2.3 Management bodies within the project 
+Table 13. Project management bodies 
+Level Management 
+Body 
+Composition Main Responsibilities 
+WP WP Leader One person from 
+partner leading the WP 
+▪ Coordinate, plan and monitor the WP according to the overall 
+work plan. 
+▪ Support and cooperate with task leaders.  
+▪ Report WP work progress to the Project Manager. 
+▪ Ensure that deliverables and reports from correspondent WP 
+follow the proposed schedule. 
+▪ Organize online meetings within tasks leaders when necessary.  
+Task Leader One person from 
+partner leading the task 
+▪ Follow up the work proposed on the task within other partners. 
+▪ Coordinate the practical/technical work to be developed in the 
+task. 
+▪ Communicate with WP leader and provide the material for 
+deliverables and reporting according project plan.  
+Project 
+as a 
+whole 
+General 
+Assembly 
+One representative 
+from each partner, 
+Chairman of the 
+General Assembly: 
+Adj. Prof. Gabriela 
+Lorite (UOULU) 
+▪ Main decision-making body of the project 
+▪ Responsible for all legal issues arising during the project, 
+including IPRs. 
+▪ Make strategic decisions on major changes 
+▪ Reviewing and approving project reports and milestones and 
+monitoring over-all quality 
+▪ Adopt any corrective measures wherever necessary as well as in 
+any major conflict 
+
+780598  MIRACLE   Part B Page 49 of 96 
+Executive 
+board 
+WP leaders and Project 
+Manager 
+▪ Operational project management 
+▪ Monitor the satisfactory progress of the project in its technical 
+and planning aspects. 
+▪ Make strategic decision regarding project coordination, 
+direction, overall management and planning. 
+▪ Monitor the challenges achievements and manage the projec t 
+risks. 
+▪ Prepares general assembly meetings and proposes decisions 
+Coordinator 
+(UOULU) 
+Project Manager and 
+support team (see 3.2.4) 
+▪ Act as administrative interface between European Commission 
+and general assembly and/or executive board. 
+▪ Implement decisions made by the executive board and/or 
+general assembly.  
+▪ Assist all other management bodies. 
+▪ Ensure the communication in the consortium as well as project 
+progress in its technical, financial and planning aspects. 
+▪ Manage the overall day-to-day project coordination.  
+3.2.4 Project Manager and the Support Team 
+University of Oulu will have the role of Project Coordinator as well as the responsibility for the overall management of the 
+project. The project manager of MIRACLE will be Dr. Gabriela Lorite who has been leading her own Academy of Finland 
+post-doctoral p roject and participating in project management of previous EU Framework Programme (SusFoFlex, 
+HIPPOCAMP). In addition, she has strong experience on multidisciplinary research due her background as physicist and 
+previous work experience in the biomedical department with physicians. She will be assisted by Prof. Krisztian Kordas who 
+has been participating and coordinating several national and international projects including previous EU Framework 
+Programme (SANES, THEMA-CNT, SusFoFlex, NAPEP, INSTANT, HIPPOCAMP). Prof. Simo Saarakkala will support 
+the team for medical issues. This will ensure a smooth management and an effective bridging the gap between different fields 
+involved in this proposal. In addition, for financial and legal issues Dr. Lorite will be s upported by the Office for Research 
+and Innovation Services of the University of Oulu.  
+The main responsibilities of the support team are: 
+▪ Implement and follow up the progress of the project cost as planned. 
+▪ Adjust focus and coordination of technical work as the project evolves.  
+▪ Support and advice project participants on any document (administrative or technical) requested by the Commission.  
+▪ Follow up the project progress, report, results, deliverables according to schedule and plan. 
+▪ Organize of general and regular meeting, review meetings and events. 
+▪ Maintain ease of communication within the Consortium and facilitate the access to project documents.   
+3.2.5 Ethics committee and External Expert Advisory Board  
+The project will appoint a three-person External Expert Advisory Board (EEAB) consisting of medical device 
+for orthopaedics, photonics and orthopaedic surgery experts not  directly involved in the project as partners’ 
+representatives. The EEAB shall assist and facilitate the decisions made  by the GA. The Coordinator will ensure 
+that a non-disclosure agreement is executed between all Parties and each EEAB member. The EEAB will convene 
+once a year during the project in connection with the GA meetings for reviewing the project outcomes and pla ns 
+for the next phases from a scientific perspective. The EEAB will report its findings and recommendations to the 
+GA. The Coordinator shall write the minutes of the EEAB meetings and prepare the implementation of the 
+EEAB's suggestions. The EEAB members shall be allowed to participate in GA meetings upon invitation but have 
+not any voting rights. As EEAB representatives in the fields of medical devices, photonics and orthopaedic surgery 
+the consortium has invited: Giles Melsom  (MBA, Co -Founder and Sharehol der of Fixus BV and COO of 
+JointSphere Bv), Prof. Dr.  Gottfried Strasser (Director of the Center for Micro- and Nanostructures, Technical 
+University in Austria) and Dr. Richard Glaab (Head of the Physician Sports Traumatology, Kantonsspital Aarau, 
+Switzerland). The Letter of Support to the MIRACLE proposal can be found in Sec 4-5, Annex I (pages 38-40).  
+To ensure that the all the project activities and deliverables comply with the et hical principles and guidelines of 
+H2020 Programme  and relevant national, EU and international legislation, an Ethics Committee  will be 
+established. The Committee that will advise the work of the Consortium will consist of external experts who will 
+780598  MIRACLE   Part B Page 50 of 96 
+sign non-disclosure agreements. The Chair of the Ethics Committee will be an ex officio a member of the EEAB. 
+The Committee will review the project work and deliverables annually. Committee’s work is included in the Task 1.1. 
+3.2.6 Decision-making mechanisms 
+Decisions will be handled in different levels according to the decision-impact in the project (Table 14). As general principle, 
+MIRACLE will try to achieve the decisions using common sense and informal means. Formal procedures such as voting will 
+be used only when essential. All decisions with major impact in the project progress will be documented via meeting minutes 
+or other formal ways when necessary. Details regarding voting procedures are clearly defined in the Consortium Agreement.  
+Table 14. Decision-making mechanism summary 
+Decision-kind Level Decision Mechanism 
+Minor impact (e.g. changes on the work plan 
+to accomplish tasks goal, alternative 
+approach to a technical issue)   
+WP Verbal consensus  
+Continuous communication via email and regular 
+online meetings 
+Medium to major impact (e.g. delivery date 
+change, changes which will reflect in other 
+WPs work plan) 
+Executive Board Verbal consensus 
+Vote (if necessary) by simple majority 
+Communication whenever necessary 
+Online Meetings every 3 month 
+Major impact (e.g. partner leaving the 
+Consortium, milestone changes) 
+General Assembly  Voting mandatory by simple majority 
+Face-to-face meetings every 6 months  
+3.2.7 Conflict Management 
+All project participants are responsible to identify any conflicts which may arise during the project. Detailed conflict resolution 
+will be defined in the Consortium Agreement. The conflict resolution protocol will be established according to the follow 
+guidelines:  
+▪ Partners should notify any sign of disagreement to the WP leader or project manager (according to the case).  
+▪ The manager (WP leader or coordinator) will mediate the conflict by separately contacting all parties to identify the 
+viewpoints. It is  highly recommended to avoid email on this situation which often leads to rapid escalation of 
+disagreements. Based on the clarifications, the manager need propose a solution.  
+▪ If no agreement is achieved with the manager mediation, the Executive Board must  be called to discuss and vote the 
+matter (at a special meeting if necessary).  
+▪ If the Executive Board measure fails, the issue will be taken up to the GA at a special meeting where the partner 
+representatives must vote on the matter.  
+▪ Conflicts will be resolve within the framework of MIRACLE consortium and not be moved to legal and courts disputes.  
+▪ Project manager must act according to the majority vote decision on the Executive Board and/or GA. 
+▪ Conflict resolution measure must NOT contradict the project contract, Consortium agreement and/or any national and 
+Commission regulations.  
+▪ If the issue reaches the Executive Board or GA, all discussions and decisions must be documented.  
+▪ It is expected that all partner participants use the good sense to avoid any conflicts.  
+3.2.8 Innovation and risk management 
+Innovation management 
+The MIRACLE project offers opportunities for new innovations. Innovations are partly generated within the consortium as 
+a joint effort and partly as individual partners’ in-house process. Innovation performance is one of the key indicators for the 
+success of the project and requires an understanding of both market and technical problems, with a goal of successfu lly 
+implementing appropriate creative ideas. Innovation management is in the proposed project understood as a continuously 
+evolving activity, adjusted during the project implementation. The focus of innovation management in this project is to allow 
+the consortium to respond to an external or internal opportunity, and use its creative efforts to introduce new ideas, services, 
+processes or products.  
+Innovation management is included in the project in the task 8.4 lead by UOulu. The key innovation management activities 
+are monitoring of innovation actions, supporting partners in enhancing their innovation capacity and integration of new 
+knowledge. However, important are also the project tasks related to exploitation and defining the exploitable results (task 
+7.4), and ownership / IPR (task 7.3) that allow all partners to build their innovations in a manner that explicitly protect their 
+IPR. For joint innovations, the boosting is done at several levels. Also, the measures for disseminating and communicating 
+the project’s innovative elements to external groups are considered as a part of the innovation management. Innovation 
+potential of MIRACLE is described under the section  1.5 of the proposal, and IPR management under section 2.2. The 
+780598  MIRACLE   Part B Page 51 of 96 
+innovation process will be  regularly monitored through interim management reports, meetings and telcos, the EC’s 
+innovation questionnaire, etc. 
+Communications in the project 
+The project participants will be encouraged to active telephone, video-conferencing and e-mail communication for ensuring 
+effective knowledge transfer. The project’s different meetings will be important forums for communication and exchange of 
+experiences. An electronic document repository and exchange to facilitate the sharing of written information is implemented. 
+In addition, the project will set up a portal which will include the project web pages and an intranet part. It will be used for 
+internal and external communications and distribution of different types of materials and include also a discussion forum for 
+the use of consortium members. Further communication can be handled via variety of channels: e -mail (distribution lists) 
+and teleconferencing, social media and other innovative means. Dissemination and communication Work Package (WP7) 
+establishes the communication infrastructure. 
+3.2.10 Risk Management 
+As a cutting edge research, the project carries some potential risks, thus the success of this proposal relies on: (1) Outstanding 
+skills and know-how from the consortium; (2) Consistence of proposed work packages and different approaches to be carried 
+out; (3) Multidisciplinary team and expertise of the partners combined to achieve several objectives in their own field but 
+committed to one main goal; (4) The ability of the Project Coordinator  and support team to manage EU projects and 
+multidisciplinary research. The main risks were identified, the likelihood evaluated and mitigation measures proposed to avoid 
+or overcome the risks (Table 18).
+3.3 Consortium as a whole  
+MIRACLE consortium has a good geographical, and also cultural coverage across the Europe from north to south and east 
+to west. This naturally provides to the project an understanding on different business and healthcare cultures, while enables 
+to access several stakeholders and e nd-users providing wide feedback and promoting the project. Table 15 summarize the 
+partner profile and main role in the project; please refer to section 4 for individual partner profiles.  
+Table 15. Consortium profile and main role in MIRACLE 
+Organization 
+Type 
+Partner 
+Short 
+Name/ 
+#No. 
+Profile Main Role in MIRACLE 
+Project 
+Coordinator 
+ 
+Higher 
+Education 
+UOULU 
+#1 
+Finnish Higher Education focusing 
+on functionalization and surface 
+modification (MIC) and spectroscopy 
+techniques applied to osteoarticular 
+disease diagnosis (MIPT) 
+Leader of WP8, focusing on validation of 
+the MIR-based diagnostic system to knee 
+injury and  OA diagnosis and project 
+management 
+ 
+ 
+ 
+Higher 
+Education 
+UULM 
+#2 
+German Higher Education focusing 
+on optical chemical sensor technology 
+in the mid-infrared (MIR) spectral 
+range. 
+Major contributions in WP2 and WP3 
+focusing on the development of an MIR 
+arthroscopy probe for in depth joint tissue 
+evaluation and OA diagnosis. Contributor 
+to WP4, WP5, and WP6 focusing on the 
+development of the MIR -ATR 
+arthroscopy probe prototype , 
+chemometric data analysis, and probe 
+system testing/application. 
+UEF 
+#3 
+Finnish Higher Education focusing 
+on research related on musculoskeletal 
+disease and diagnostic tools. 
+Key role in WP6, focusing on ex -vivo 
+validation of the MIR -based diagnostic 
+system for arthroscopy. 
+NMBU 
+#4 
+Norwegian Higher Education 
+focusing on  
+biophysics with a background in 
+multivariate analysis, theoretical 
+physics and experimental biophysics. 
+Major contribution in WP4 providing data 
+analysis where protocols for spectral pre -
+processing will be obtained t ogether with 
+optimal variable selection and models for 
+discriminant analysis 
+780598  MIRACLE   Part B Page 52 of 96 
+Hospital KUH 
+#5 
+Finnish university hospital with 
+strong clinical and scientific focus in 
+musculo-skeletal diseases. 
+Key role in WP2, focusing on in vivo 
+testing of the MIR-probe. Provider of the 
+end-user (surgeon) input in designing of 
+the probe. 
+UU 
+#6 
+Dutch Veterinary University 
+Hospital, one of the global leaders in 
+equine orthopaedic research with a 
+strong track record in translational 
+regenerative medicine.  
+Major contribution in WP6, first clinical in 
+vivo use of the MIR -probe. Use of the 
+probe for long -term monitoring of 
+cartilage defect r epair, so showing both 
+feasibility to do so and validating the probe 
+for in vivo assessment of well -
+characterized lesions. 
+SME NP 
+#7 
+German SME, world leader position 
+on laser sources for gas sensing 
+applications, focusing on novel QCL-
+based emitter for medical diagnostics 
+Leader of WP2, focusing on the 
+development of the mid -infrared laser 
+sources for broad wavelength coverage 
+and supports the implementation of the 
+source in WP5. 
+OP 
+#8 
+German SME focusing on optical 
+sensing solutions for industrial and 
+medical applications 
+Leader of WP5 focusing on MIR -ATR 
+arthroscopy probe system prototyping 
+IRIS 
+#9 
+Spanish advanced engineering 
+SME focusing on digitalisation and 
+software development for process 
+industry and medical applications 
+Leader of WP4 developing the Global 
+Control System Platform, enabling data 
+management tools for acquiring data from 
+the different case studies.  
+AP 
+#10 
+German SME, world leader position 
+on special optical fibers for MIR 
+systems, focusing on fiber optics 
+solutions for industrial and biomedical 
+applications 
+Leader of WP3 focusing on MIR -ATR 
+arthroscopy probe prototyping 
+Dissemination  
+Manager 
+ 
+ 
+INEB 
+#11 
+Portuguese private non-profit 
+institute focusing on dissemination 
+and communication 
+WP7 will lead the communication, public 
+information, contacting stakeholders and 
+dissemination activities 
+Standardization 
+Body 
+UNE 
+#12 
+Spanish standardization body 
+participating in the development of 
+national, European and international 
+standards. 
+UNE will advise, manage and develop all 
+the activities related with standardization 
+aimed at contributing to the exploitation of 
+the project results.  
+Cluster PF #13 Finnish photonics cluster with 
+establish channels for dissemination  
+PF will contribute in the dissemination of 
+the novel photonics-based components. 
+Exploitation 
+manager  
+UCP #14 Portuguese university focusing on 
+knowledge transfer and exploitation 
+activities  
+Leader of WP7 focusing on  contacting 
+stakeholders and exploitation activities. 
+ 
+  
+780598  MIRACLE   Part B Page 53 of 96
+3.4 Resources to be committed 
+Table 20  summarizes the allocation of person -month (PM) effort by work packages and partners. The allocations were 
+defined based on partners’ responsibilities and the resources estimated for achieving their assigned tasks. The overall effor t 
+of the project is 718 person months over the 3.5 project years.  
+ 
+As specified by H2020 application guidelines, applicants must only provide details on “other direct costs” when those exceed 
+15% of the personnel costs for that participant. This information can be found in Table 16.  
+Table 16. Other direct costs justification 
+1. UOULU Cost (€) Justification 
+Travel  63,500 UOULU MICROELECTRONICS (UOULU MIC): 16 trips @ 1,562.50  Euros (project 
+meetings, conferences, technical meetings) =25,000€, Advisory board travel costs: 3 persons 
+x 3 meetings x 1 ,500 € / meeting trip = 13 ,500€. TOTAL 3 8,500€  
+UOULU Medical Imaging, Physics and Technologies (UOULU MIPT): 16 trips @ approx. 
+1,562.50 Euros (project meetings, conferences, technical meetings). TOTAL 25,000€. 
+Equipment  31,800 UOULU MIC: Laminar flow cabinet 6,000€, incubator 21,000€, autoclave 4,800€ - these 
+values are based on depreciation time of 5 years. 
+Other goods 
+and services 
+87,000 UOULU MIC: Consumables (35 ,000€/entire project) required for surface bio -
+functionalization development and evaluation (for example: AFM probes, antibodies (it can 
+costs 1,000 euros/microgram), silicon wafer /NCD film, diamond ATR probe); fees to access 
+SEM, TEM, XPS, XRD ( 7,000€/entire project ); expenses related to project meet ings 
+(10,000€/entire project), 1  financial audits (2,500€) TOTAL: 54 ,500€ 
+UOULU MIPT: Consumables related to in vitro validation (enzymes, (immuno)histochemical 
+stains, laboratory chemicals). TOTAL 32,500 € 
+Total 182,300  
+ 
+2. UULM Cost (€) Justification 
+Travel  30,000 Collaborative research at partner laboratories; presentation of results at international 
+scientific conferences and workshops, participation in project meetings (20 trips @ 1,500€). 
+Equipment  90,000 IR spectrometer module (Bruker Alpha OEM or IRcube; approx. 20k); IR imaging camera 
+for characterization of probe waveguides, iBEAM, and probe prototype (approx. 60k); IR 
+detectors and detector arrays (approx. 10k). All purchased instruments will be 
+modified/customized specifically for the needs in this project, and thus cannot be used or are 
+available for any other purpose. Hence, full prices have to be budgeted on these items. 
+Other goods 
+and services 
+122,000 iBEAM development (approx. 60k):  GaAs wafers coated with waveguiding layers for 
+iBEAM basic waveguide structure optimization; various III-V wafers with waveguide coatings 
+for alternative on -chip waveguide materials (e.g., MCT, etc.); on -chip microfabrication, 
+microstructuring, and processing at cleanroom facility (incl. masks, photolithography, ICP, 
+etc.); FIB prototyping of iBEAM d esigns; characterization of iBEAM materials and devices 
+(e.g., FIB/SEM, imaging EDX, imaging EBSD, XPS, etc.); waveguide coating materials (e.g., 
+DLC, SiN, etc.); etc.  Optical components (approx. 30k): focusing and coupling optics for 
+AgX fibers, hollow w aveguides, and on -chip waveguide structures; optical positioners for 
+alignment of prototypes and coupling of probe to FTIR; HWG waveguides; polarization 
+rotators; MIR filters; etc.  Diamond probe (approx. 25k):  NCD chips for prototyping of 
+diamond structures and coating strategies; customized probe tips made from diamond (e.g., 
+conical, cylindrical, hemispherical) for point probe and imaging probe; special coupling 
+interface structures an coatings; anti -reflectance coatings; microfabrication of specific 
+coupling structures (i.e., with I/O waveguides and fiber bundle); etc. 
+Financial audits (approx. 5k). Expenses to host one project meeting (2k). 
+Total 242,000  
+ 
+ 
+ 
+ 
+ 
+780598  MIRACLE   Part B Page 54 of 96 
+3. UEF Cost (€) Justification 
+Travel  22,500 15 trips @1,500 Euros (project meetings, conferences, technical meetings) 
+Equipment  --   ---------------- 
+Other goods 
+and services 40,000 
+Consumables related to biomechanical, biochemical and histological testing of human 
+connective tissue samples (38k). Expenses to host one project meeting (2k) 
+Total 62,500  
+ 
+5. KUH Cost (€) Justification 
+Travel  15,000 Project meetings, technical meetings, conference (10 trips @ 1,500€) 
+Equipment  ----   ------- 
+Other goods 
+and services 8,000 
+Consumables related to surgeries. 
+Total 23,000  
+ 
+6. UU Cost (€) Justification 
+Travel  15,250 Utrecht NL to UEF FI (Tissue biomechanical measurements), participation in 2 
+conferences, two annual face-to-face project meetings during the project. (10 trips @1,525€) 
+Equipment  -----   ------- 
+Other goods 
+and services 
+16,441.63 Costs of purchase, preparation and facilities for ex vivo experiments (14441.63€). Expenses 
+to host one project meeting (2000€). 
+Total 31,691.63  
+ 
+7. NP Cost (€) Justification 
+Travel  10,050 Travel costs for project progress meetings (10 trips at 650 €) and review meetings (2 attendees) 
+(3 trips at 750 €), FLAIR and SPIE Photonics Europe (1 attendee) (2 trips at 650 €) 
+Equipment  95,350 Depreciation for: 1. sputter coater (72,000 €), required for development of suitable passivation 
+and coating layers; 2. mask aligner  (9,600 €) , needed for high quality multi -section QCL 
+processing; 3. FTIR (13,750 €), required for multi-section QCL characterization 
+Other goods 
+and services 
+95,037 Consumables for QCL development including e.g. InP wafers, process chemicals, gases and deposition 
+materials for 40 process runs including test samples for process development; laser mounts and 
+accessories for assembly (Total 92,537 €). Certificate on the financial statements (2,500 €) 
+Total 200,437  
+ 
+8. OP Cost (€) Justification 
+Travel  25,000 Face to face meetings and joint lab experiments (16 trips @1,562.50€) 
+Equipment    
+Other goods 
+and services 
+130,000 Customized mechanical parts and specially designed electronics  to build test set-ups and first 
+demonstrators (Total 127,500 EUR). Financial audit (2,500 EUR) 
+Total 155,000  
+ 
+9. IRIS Cost (€) Justification 
+Travel  18,000 6 Project Meetings (6k); 12 Technical Meeting (12k) 
+Equipment  15,000 Software Licenses 
+Other goods 
+and services 
+35,000 
+Materials (sensors, optomechanics, casing, etc.)(3K);  IPR fees and patent costs (1K); audit 
+certificate (3K); Certification services (5K); Communication materials- video, leaflets, 
+banners, posters, brochures (1K);  Cloud hosting and server services (20k); Expenses to 
+host one project meeting (2k). 
+Total 68,000  
+ 
+10. AP Cost (€) Justification 
+Travel  
+15,000 
+Participation in the conferences (Photonics West, Photonics Europe, etc.); Milestone 
+meetings; research visits of consortium members. (10 trips @1,500€). 
+Equipment  
+50,000 
+License for Ray tracing software 11,500 €; License for SOLIDWORKS Professional 2016 
+7,500 €; Volumetric Dispenser 4,500 €; Laminar Flow Box 5,500 €; Clean room part costs 
+21,000 € 
+780598  MIRACLE   Part B Page 55 of 96 
+Other goods 
+and services 55,000 
+Polycrystalline crystals for fibers 1kg 5,000 €; Diamonds 20,000 €; Other materials for 
+probes development 10,000 €; Probes medical certification 20,000 € 
+Total 120,000  
+ 
+11. INEB Cost (€) Justification 
+Travel  18,000 Costs of travelling for project meetings and for meetings with stakeholders. (12 trips @ 1,500€) 
+Equipment  1,500 Computer/informatics equipment for personnel working in the project 
+Other goods 
+and services 
+48,500 Project website and dissemination materials, dissemination events and other dissemination 
+costs, stakeholder meeting, organisation of project events. Services from Hospital de São 
+João, Porto (Total 52000 €). One financial audit (2500 €) . Expenses to host one project 
+meeting (2000€). 
+Total 68,000  
+ 
+12. UNE Cost (€) Justification 
+Travel  12,000 Management and standardization travels (12 travels in total @1,000€) 
+Equipment  ---   ---------- 
+Other goods 
+and services 1,000 
+Provision of relevant standards to the consortium 
+Total 13,000  
+ 
+13. PF Cost (€) Justification 
+Travel  
+20,000 
+Costs of travelling for conferences, workshops, project meetings and meetings with stakeholders. 
+(13 trips @ 1,538.46€) 
+Equipment  ---   ---------- 
+Other goods 
+and services 8,000 
+Dissemination materials, participation in events, organization of project events.  
+Total 28,000  
+ 
+  
+780598  MIRACLE   Part B Page 56 of 96 
+4. Consortium 
+University of Oulu (UOulu)                            Partner #1 (Finland) 
+ 
+The organization: 
+The University of Oulu (UOulu) was founded in 1958 and is among the largest universities in Finland with 16 000 
+students and 3500 staff members working in ten faculties. UOulu has high -quality research environments for 
+international research groups. UOulu has been involved in the EU R&D Framework programs since FP4, and has 
+participated in more than 250 projects and networks, of which over 20 have been coordinated by UOulu.  UOulu 
+has a highly skilled and experienced support staff helping research groups and principal investigators to successfully 
+carry out coordination projects. The faculties and the specialized research units of UOulu form a foundation for 
+multi- and interdisciplinary research, innovation and training of experts for demanding professional tasks. Two 
+Research Units are joining LIFE iPrO project: Microelectronics (MIC) Research Unit and Medical Imaging, Physics 
+and Technologies (MIPT) Research Unit.  These research units will add different backgrounds to the project as 
+described below.  
+Microelectronics Research Unit (MIC) 
+ 
+The organization: 
+Microelectronics Research Unit is an internationally recognized, high excellence team with significant scientific 
+impact in the fields of micro and nanosystem technologies. The education and research fields are materials, devices 
+and their manufacturing te chnologies with special emphasis on electronics, photonics and telecommunication 
+applications. Recent projects have also expanded the research to biotechnology and biomedical applications. The 
+research is carried out in several multidisciplinary research g roups in close co-operation with top research groups 
+in Europe, Asia and USA and global and domestic industrial partners. The work is being carried out in collaboration 
+with other research groups within the University, national and international research o rganizations and industrial 
+partners in the framework of European, Tekes and Academy of Finland projects.  
+Relevant skills/experience/technologies: 
+MIC focuses on applications that exploit the advantageous properties of nanostructured materials. The group 
+gathers young scientists with background in physics, chemistry and electrical engineering to meet the prerequisite 
+of interdisciplinary research. The main focus of the research is on the synthesis and application of functional 
+nanomaterials, structures and  assemblies that are implemented in electrical, electrochemical, optical and sensing 
+devices as well as in environmental control, biotechnology and biomedical applications.  
+Role in the project: 
+UOulu/MIC is the Project Coordinator and will lead WP7 Manage ment. UOulu/MIC will also contribute with 
+some tasks in the following WPs: 
+▪ WP1: Task 1.3 Specifications and requirements for MIR-ATR arthroscopy system and user interface  
+▪ WP3: Task 2.2 Diamond ATR probe surface modification 
+▪ WP5: Task 5.1 MIR-ATR arthroscopy system: testing and fine tuning    
+▪ WP6: Task 6.1 Pre-validation via in vitro studies 
+Key Personnel: 
+Dr. Gabriela S. Lorite, Postdoctoral researcher, Academy of Finland fellow since 2015. She received her Ph.D. 
+in Science (2011) and M.Sc. in Physics (2007) degrees at the Department of Applied Physics, State University of 
+Campinas. After 2-years as postdoctoral researcher at Anatomy and Cell Biology Department, University of Oulu, 
+
+780598  MIRACLE   Part B Page 57 of 96 
+she has joined to the Microelectronics Research Unit. She has been project manager of two FP7 projects: 
+HIPPOCAMP (2013 – 2016) and SusFoFlex (2013- 2014). She has extensive experience in AFM including probe 
+functionalization for bio-sensing. Her research so far focused on multidisciplinary field combining material science 
+and bioscience as evidenced by 15 publications in scientific journals.  
+Prof. Krisztian Kordas, M.Sc. Physics and Chemistry (1998, U niv. Szeged), Dr. Tech. Microelectronics, Docent 
+of Nanotechnology, Professor (2002, 2005, 2012, Univ. Oulu). Prof. Kordas has supervised or participated in more 
+than 20 national and international research projects, published 130+ papers in refereed scient ific journals and co-
+authored 4 book chapters. Under his supervision, six doctoral students graduated. His research is focused on 
+synthesis, structural and electrical characterization, and implementation of nanostructured materials for electronics, 
+sensors and catalyst applications. 
+Profile:  
+Relevant publications/patents/products/services 
+Bibikova, O; Popov, A; Bykov, A; Prilepskii, A; Kinnunen, M; Kordas, K; Bogatyrev, V; Khlebtsov, N; Vainio, S; Tuchin, V; 
+Optical properties of plasmon-resonant bare and silica-coated nanostars used for cell imaging J. Biomed. Opt. 20 (2015) 076017.  
+Lin, JF; Kukkola, J; Sipola, T; Raut, D; Samikannu, A; Mikkola, JP; Mohl, M; Toth, G; Su, WF; Laurila, T; Kordas, K; 
+Trifluoroacetylazobenzene for optical and electrochemical detection of amines, Journal of Materials Chemistry A, 3 (2015) 468 7-
+4694. 
+Sainio, S; Palomaki, T; Rhode, S; Kauppila, M; Pitkanen, O; Selkala, T; Toth, G; Moram, M; Kordas, K; Koskinen, J; Laurila, T; 
+Carbon nanotube (CNT) forest grown on diamond-like carbon (DLC) thin films significantly improves electrochemical 
+sensitivity and selectivity towards dopamine, Sensors and Actuators B 211 (2015) 177-186. 
+K. Kordás, T. Mustonen, G. Tóth, J. Vähäkangas, A. Uusimäki, H. Jantunen, A. Gupta, K. V. Rao, R. Vajtai, P. M. Ajayan, 
+Magnetic-field induced efficient alignment of carbon nanotubes in aqueous solutions, Chemistry of Materials 19 (2007) 787. 
+K. Kordás, T. Mustonen, G. Tóth, H. Jantunen, M. Lajunen, C. Soldano, R. Vajtai, P.M. Ajayan, Ink -jet printing of electrically 
+conductive patterns of carbon nanotubes, Small 2 (2006) 1021. 
+Relevant research projects 
+HIPPOCAMP [FP7 EU, project coordinator]: High-power pulsed plasma process operations for the creation of advanced 
+metallic parts 
+SusFoFlex [FP7 EU, project coordinator]: Smart and sustainable food packaging utilizing flexible p rineted intelligence and 
+materials technologies 
+Thema-CNT [FP7 EU, project coordinator]: Thermal management with carbon nanotube architectures  
+HyNa [Academy of Finland, 2014-2016]: Hybrid Nanocarbon Materials for Biosensors  
+CNT4Tissue [Academy of Finland, 2015-2018]: 3D hierarchical scaffold based on bio-decorated carbon nanotubes for bone 
+and cartilage tissue engineering 
+Existing Infrastructure 
+MIC has access to an extensive laboratory infrastructure of University of Oulu which can be relevant t o accomplish the involved 
+tasks such as AFM, XRD, TEM, SEM, FIB, XPS, FTIR microscopy etc.   
+Does the participant plan to subcontract certain tasks N 
+Does the participant envisage that part of this work is performed by linked third parties  N 
+Does the participant envisage the use of contributions in kind provided by third parties  N 
+Medical Imaging, Physics and Technologies Research Unit 
+ 
+The organization: 
+MIPT Research Unit is an internationally recognized team that works in the fields of biomedical imaging, physics 
+and technology. The education and research fields of MIPT are medical physics, medical and biomedical imaging, 
+biomechanics, medical technology and radiation protection. The research is carried out in collaboration with other 
+research groups within the University of Oulu, University of Eastern Finland, and international research 
+
+780598  MIRACLE   Part B Page 58 of 96 
+organizations in e.g. Sweden, USA and Canada. The external research funding comes mainly from the Academy of 
+Finland, European Research Council and TEKES (national funding agency for technology and innovation). 
+Relevant skills/experience/technologies: 
+MIPT Research Unit has extensive experience in world -class research related to diagnostics of musculoskeletal 
+diseases, focusing especially on spectroscopy, ultrasound diagnostics, computed tomography, and histology. The 
+group leader, Associate Professor S imo Saarakkala, Ph.D., is primarily focused on working within European 
+Research Council (ERC) funded project that focuses on development a novel 3D histopathological evaluation of 
+osteoarthritis based on contrast -enhanced micro -computed tomography. This ER C project relies heavily on 
+spectroscopic characterization of osteochondral tissues as it provides invaluable reference information about the 
+biochemical composition of the tissues.  
+Role in the project: 
+UOulu/MIPT will have a major contribution in WP6 by leading the Task 6.1 Pre-validation via in vitro studies and 
+as well contribute for: 
+▪ WP1: Task 1.1 Ethics, Task 1.2 Clinical protocol development  
+▪ WP4: Task 4.1 Pre -processing, Task 4.2 Wavelength selection and multivariate discrimination, Task 4.3 
+Model validation 
+Key Personnel: 
+Dr. Simo Saarakkala, Doctor of Philosophy, Associate Professor. He has over 15 years’ experience in medical 
+physics and biomedical engineering with particular emphasis on osteoarthritis research. He has been a visiting 
+scientist at The Hong Kong Polytechnic University (Hong Kong, China). He has authored over 85 scientific papers 
+published in peer -reviewed international journals (+3 book chapters). Dr. Saarakkala has h -index of 28 and his 
+publications have been cited over 2400 times (Google Scholar). He has given talks at several international research 
+conferences, primarily in Orthopaedic Research Society ( www.ors.org). He has been supervisor of undergraduate 
+and postgraduate student and responsible leader of national and European-level research projects. 
+Dr. Lassi Rieppo , Doctor of Philosophy, Postdoctoral researcher. He received his Ph.D. in Applied Physics 
+(2012) and M.Sc. in Medical Physics (2010) degrees at the Department of Applied P hysics, University of Eastern 
+Finland. After one year as postdoctoral researcher at the Department of Applied Physics, University of Eastern 
+Finland, and one year working in his own data analytics company, he started working as a post-doctoral researcher 
+in Associate Professor Saarakkala’s research group. He has extensive experience in infrared spectroscopy and 
+spectroscopic imaging, particularly in osteoarthritis research. He has published 16 publications in scientific journals 
+and co-authored two book chapters. 
+Ms. Tarja Huhta, Laboratory technician. A skilled professional, who has experience in different tasks in laboratory 
+work, including histology. Histology is a key element also in this application, as many reference techniques, e.g. 
+FTIR imaging, polarized light microscopy and histopathological grading of tissues, depend on skilful preparation 
+and staining of the histological sections. 
+ 
+ 
+Profile: 
+Relevant publications/patents/products/services 
+L Rieppo. S Saarakkala. JS Jurvelin. J Rieppo. Optimal variable selection for Fourier transform infrared spectroscopic analysis of 
+articular cartilage composition. J Biomed Opt 2014. 
+L Rieppo. T Närhi. HJ Helminen. Jurvelin JS. S Saarakkala. Rieppo J. Infrared spectroscopic analysis of human and bovine 
+articular cartilage proteoglycans using carbohydrate peak or its second derivative. J Biomed Opt 2013.  
+L Rieppo. S Saarakkala. JS Jurvelin. J Rieppo. Prediction of compressive stiffness of articular cartilage using Fourier transform 
+infrared spectroscopy. J Biomech. 2013. 
+L Rieppo. S Saarakkala. T Närhi. HJ Helminen. JS Jurvelin, J Rieppo. Application of second derivative spectroscopy for increasing 
+molecular specificity of Fourier transform infrared spectroscopic imaging of articular cartilage.Osteoarthritis Cartilage 2012. 
+S Saarakkala, P Julkunen, P Kiviranta, J Mäkitalo, JS Jurvelin, RK Korhonen. Depth-wise progression of osteoarthritis in human 
+articular cartilage: investigation of composition, structure and biomechanics. Osteoarthritis Cartilage 2010. 
+780598  MIRACLE   Part B Page 59 of 96 
+Relevant research projects 
+European Research Council (ERC) Starting Grant project, 2014-2018: "Development of 3D Histopathological Grading of 
+Osteoarthritis” 
+Academy of Finland Research Fellow project, 2013-2018: "Establishment of 3D histopathological grading of osteoarthritis” 
+Existing Infrastructure 
+MIPT has access to an extensive laboratory infrastructure of University of Oulu which can be relevant to accomplish the invol ved 
+tasks such as AFM, XRD, TEM, SEM, FIB, XPS, FTIR microscopy etc.   
+Does the participant plan to subcontract certain tasks N 
+Does the participant envisage that part of this work is performed by linked third parties  N 
+Does the participant envisage the use of contributions in kind provided by third parties N 
+ 
+Ulm University (UUlm)                             Partner #2 (Germany) 
+ 
+The organization: 
+UULM is among the leading young universities (<50 years) ranked #1 in Germany, and #6 in the world (Times 
+Higher Education ranking) educating 10,000+ students in (i) Natural Sciences, (ii) Mathematics & Economics, (iii) 
+Engineering, Computer Science and Psychology, and (iv) Medicine. The Institute of Analytical and Bioanalytical 
+Chemistry (IABC; uni-ulm.de/iabc) at UULM is chaired by Prof. B. Mizaikoff, and comprises 3 lead Professors 
+next to 8 permanent technical and scientific staff members. Currently, 28 Ph.D. students and several Postdoctoral 
+Fellows (incl. two Humboldt Fellows) are employed at IABC. IABC a lso operates the Elemental Analysis Center 
+and the Focused Ion Beam Center UULM for Micro/Nano Fabrication/Characterization. 
+Relevant skills/experience/technologies: 
+The current research activities at IABC include (i) miniaturized chem/bio/biomimetic sensor systems for molecule 
+specific gas phase and liquid phase analysis using FT -IR spectroscopy and quantum cascade laser spectroscopy 
+applied in environmental analysis, process monitoring, and biomedical diagnostics; (ii) development of advanced 
+mid-infrared waveguide technology; (iii) functional materials and synthetic receptors for environmental/food/bio-
+analysis based on molecularly templated polymers applied in sensing and separations; (iv) multifunctional 
+(nano)analytical techniques for biomedical applications and systems biology; (v) deep sea IR spectroscopy for in -
+situ determination of VOCs and gas hydrates; and (vi) focused ion beam based micro- and nanofabrication. Since 
+1996, Mizaikoff has been a lead researcher in 5 EU -projects related to the develo pment of novel mid -infrared 
+chem/bio sensing technologies (EWALD, SOFIE, IMSIS, MISPEC, MENDOS), and is currently involved in three 
+EU-projects evolving various infrared sensing technologies (MYCOSPEC, SCHEMA, TROPSENSE). At Georgia 
+Tech, he has been the l ead PI in projects funded by the National Institutes of Health (NIH), the US Geological 
+Survey (USGS), and the US Department of Energy (DOE) next to industrial sponsors (e.g., ExxonMobil) on the 
+development of advanced mid -infrared sensor and waveguide tec hnologies for environmental monitoring, deep -
+sea applications, and biomedical diagnostics. Since 2007 (first at Georgia Tech, now at UULM), he is continuously 
+sponsored by Lawrence Livermore National Laboratory (Livermore, CA, USA) on the development of ne xt-
+generation substrate-integrated hollow waveguides (iHWGs) enabling advanced IR sensors. 
+Role in the project: 
+UULM will be predominantly involved in WP2 and WP3, and will be responsible for the fundamental development, 
+integration, optimization, and evolution of the QCL-based MIR-ATR catheter system with specific focus on (i) the 
+on-chip beam combiner (iBEAM), and (ii) the imaging probe development (incl. I/O and imaging waveguides, and 
+miniaturized diamond ATR) probe for in-situ and in-depth OA diagnosis. Furthermore, UULM will contribute to 
+the following WPs: 
+
+780598  MIRACLE   Part B Page 60 of 96 
+▪ WP4: contribution to wavelength selection, data pre -processing, and multivariate algorithm selection 
+strategies tailored to MIR data (task: 4.1 and 4.2). 
+▪ WP5: contribution to the laboratory and clinical prototype design, laboratory trials, and prototype 
+development/manufacturing (task 5.1-5.3). 
+▪ WP6: assistance during operation and validation of the MIR catheter probe in preclinical and clinical 
+settings (task: 6.1-6.3). 
+Key Personnel: 
+Prof. Boris Mizaikoff,  Chaired Professor and Director IABC since 2007. He received his Ph.D. in Analytical 
+Chemistry in 1996, his Habilitation in 2000 – both at the Vienna University of Technology (Austria) - and has then 
+been a faculty member at the G eorgia Institute of Technology (Atlanta, USA) prior to joining UULM. He is 
+author/co-author of 240+ peer-reviewed publications and 17 patents. Under his leadership, IABC has established 
+an acknowledged track record of collaborations with small and large in dustrial partners including ExxonMobil, 
+Agilent/Keysight, Boehringer-Ingelheim, Bruker Optics, nanoplus, OptoPrecision, etc. He has been elected Fellow 
+of the American Association for the Advancement of Science (AAAS) for “building bridges with industry through 
+academic research in sensors, and for facilitating technology transfer between academia and industry” in 2006. He 
+is also Associate Editor Europe of Analyst (RSC), a premium peer-reviewed journal in the analytical sciences.  
+PhD-student Andreas Wilk at IABC is currently working on mid -infrared waveguide -based approaches for 
+advancing IR sensing platforms. He has developed innovative IR waveguide technologies (e.g., substrate-integrated 
+hollow waveguides; iHWGs). He is also an expert in designing and modelling IR sensing systems (i.e., spectral ray 
+tracing), as well as simulating the spectral response function of IR sensing systems. 
+PhD-student Pei Wang at IABC is currently researching advanced IR sensing approaches for label-free cartilage 
+and protein analysis. Her thesis research is focusing on advanced multivariate statistics for analysing complex IR 
+tissue data, and on IR -ATR studies at cartilage, and specifically meniscus (sheep and human) for evaluating 
+degradation stages. 
+Profile: 
+Relevant publications/patents/products/services 
+L. Wang, J. Chapman, R. A. Palmer, T. Alter, B. Hooper, O. Van Ramm, B. Mizaikoff, Classification of Atherosclerotic Rabbit 
+Aorta Samples with an Infrared Attenuated Total Reflection Catheter and Multivariate Data Analysis, Appl. Spectrosc. 60, 1121-
+1126 (2006) 
+L. Wang, J. Chapman, R. A. Palmer, O. Van Ramm, B. Mizaikoff, Classification of Atherosclerotic Rabbit Aorta Samples by 
+Mid-Infrared Spectroscopy and Multivariate Data Analysis, J. Biomed. Opt. 12, 0240061-11 (2007) 
+M. Sieger, F. Balluff, X. Wang, S.-S. Kim, L. Leidner, G. Gauglitz, B. Mizaikoff, On-Chip Integrated Mid-Infrared 
+GaAs/AlGaAs Mach-Zehnder Interferometer, Analytical Chemistry 85, 3050-3052 (2013) 
+X. Wang, M. Karlsson, M. Sieger, L. Oesterlund, F. Nikolajeff, B. Mizaikoff, Diamonds are a Spectroscopist’s Best Friend: Thi n-
+Film Diamond Mid-Infrared Waveguides for Advanced Chem/Bio Sensors, Analytical Chemistry 86, 8136−8141 (2014) 
+R. Lu, B. Mizaikoff, W.-W. Li, A. Katzir, Y. Raichlin, G.-P. Sheng, H.-Q. Yu, High Sensitivity IR-ATR Sensors for In-situ Multi-
+component Detection of Volatile Organic Compounds, Nature Protocols 11, 377-386 (2016) 
+Relevant research projects 
+MENDOS [EU project #QLK4-CT-2002-02323]: Biomimetic Optical Sensors for Environmental Endocrine Disruptor 
+Screening 
+MYCOSPEC [EU project #314048]: Novel Infrared Spectroscopic Tools for Mycotoxin Determination in Foodstuffs for 
+Increased Food Safety 
+SCHEMA [EU project #614002]: Integrated In-Situ Chemical Mapping Probes 
+TROPSENSE [EU project #645758]: Development of a Non-Invasive Breath Tests for Early Diagnosis of Tropical Diseases 
+APOSEMA [BMBF project #13N13085]: Advanced Photonic Sensor Materials 
+Existing Infrastructure 
+IABC provides ample laboratory infrastructure (1,000+ m 2), and operates instrumentation including FTIR, QCL, AFM, SECM, 
+HPLC, etc. IABC also operates the Elemental Analysis Center (ICP-OES, CHNS, etc.) and the UUlm Focused Ion Beam Center 
+for micro/nano prototyping, fabrication, and characterization (2 dual beam FIB -SEM systems incl. cryo, EDX, EBSD). B. 
+780598  MIRACLE   Part B Page 61 of 96 
+Mizaikoff is member of the directorate at the UULM Cleanroom Facility with unrestricted access to microfabrication and 
+lithography technologies for thin-film waveguide (e.g., iBEAM) development. 
+Does the participant plan to subcontract certain tasks N 
+Does the participant envisage that part of this work is performed by linked third parties N 
+Does the participant envisage the use of contributions in kind provided by third parties   N 
+ 
+University of Eastern Finland                Partner #3 (Finland) 
+ 
+The organization:  
+The University of Eastern Finland (UEF) is one of the largest universities in Finland, and home to approximately 
+15,000 students and 2,800 members of staff. We have extensive international relations and are involved in several 
+international networks. Our teaching and research staff and students are active in participating in various mobility 
+programmes. We have concluded bilateral agreements of cooperation with approximately 100 universities abroad. 
+Furthermore, we are involved in several international networks and discipline-specific projects. Together with our 
+networks, we support the well-being and positive development of eastern Finland. Our goal is to be ranked among 
+the leading 200 research universities in the world and, in the strong research areas, a mong the world's leading 50 
+research universities. In this project the Department of Applied Physics has a key role.  
+The Department of Applied Physics employs 10 professors and some 70 researchers working in the research fields 
+of Environmental Physics, Medical Physics and in Applied and Computational Physics. We publish more than 100 
+peer-reviewed scientific articles in international journals annually. We consume over 4 million euros of research 
+funding per year from the sources like Academy of Finland, EU Frame work programs, TEKES (national funding 
+agency for technology and innovation), and several foundations. There are two Centers of Excellence in Research 
+appointed by the Academy of Finland operating in our department and two European Research Council  (ERC) 
+starting grants.  
+Relevant skills/experience/technologies: 
+The BBC group, led by Professor Juha Töyräs, is one of the global leaders in cartilage and bone biophysics. The 
+group comprises of 30-35 researchers with various backgrounds. BBC group applies a wide range of experimental, 
+theoretical, and clinical methods, including mechanical testing, ultrasound, optical coherence tomography, MRI, 
+CT and infrared spectroscopy, for the development of novel diagnostics for degenerative articular cartilage and  
+bone disorders. We publish approximately 35 scientific articles each year, many of them reaching highly ranked 
+journals in the ﬁeld. Furthermore, during the last ﬁve years, the BBC group has produced >20 doctoral theses in 
+the ﬁeld of musculoskeletal research. The BBC group is networked through various international programmes and 
+it collaborates with about dozen other research groups. 
+Role in the project: 
+UEF has a major contribution in ex vivo testing of equine and human tissues along with the Ethics lea d of the 
+project (WP 1: Task 1.1 & WP 6: Task 6.2). Furthermore, UEF works in close collaboration with Utrecht University 
+(WP 6: Task 6.3) and Kuopio University Hospital (WP 6: Task 6.4) on the clinical assessment of the MIR probe in 
+equine and human joints. 
+Key Personnel: 
+Professor Juha Töyräs , PhD (age 41), has 19 years of experience in biophysics related diagnostics of various 
+musculoskeletal conditions. He has published >190 peer reviewed scientific papers (H -index=36, Scopus) and 
+supervised 28 PhD-theses. Currently, he acts as Professor of Medical Physics and Engineering in the Department 
+of Applied Physics, UEF. He also serves as Chief Physicist at the Diagnostic Imaging Center, Kuopio University 
+Hospital. He runs the BBC research group (3 Professors, 1 Academy fellow, 8 post-docs and >20 PhD-students). 
+The group has solid funding (e.g. ERC and Academy of Finland) and one of the major research topics is related to 
+application of near infrared spectroscopy to arthroscopic diagnostics of cartilage degeneration and injuries. 
+
+780598  MIRACLE   Part B Page 62 of 96 
+Post-Doctoral Fellow Isaac Afara, PhD (age 34 yrs), has expertise in optical and spectroscopic characterization 
+of soft tissues, and is a leading researcher in NIR spectroscopic assessment of articular cartilage for diagnostics of 
+various musculoskeletal conditions. He has published >32 high impact peer reviewed journal and conference 
+papers. He has acquired the title of docent in biomedical spectroscopy and currently supervises several PhD -
+students along with his own research interests in the BBC-group, UEF. His research interests centre around real -
+time non-destructive evaluation of soft tissues (including articular cartilage) using fast optical techniques, and novel 
+application of multivariate statistical and analytical methods for synthesis of information from optical data in order 
+to improve decision-making during surgery. He has secured, or directly assisted in securing, grants of over a quarter 
+of a million euros in the last 5 years, including funding for studies that involv e development and clinical trial of a 
+novel near infrared arthroscopic probe for real -time diagnostics of articular cartilage, subchondral bone and 
+meniscus injuries and degeneration. 
+PhD-student Jaakko Sarin, MSc (Tech) (age 29) has strong optical background with years of experience in optical 
+research (Applied Optics, Tampere University of Technology) and interest in medical imaging. Currently, he is 
+working in the BBC research group in University of Eastern Finland. He is focused in research and writing 
+publications for his thesis “Smart arthroscope with automated software for quantitative diagnostics of cartilage 
+injuries and degeneration” which aims to improve the reliability of arthroscopic surgeries by implementing 
+quantitative multimodal imaging. Jaakko has assured the funding for his thesis with the doctoral school position of 
+University of Eastern Finland, with two grants from Kuopio University Hospital (VTR project 5041744) and one 
+grant from Orion Research Foundation sr. 
+PhD-student Mithilesh Prak ash, MSc (Tech) (age 29), Biomedical Engineering graduate from Tampere 
+University of Technology, Finland. He has research work experience in Tampere University Hospital in CBCT 
+domain, internship experience at Nokia TECH and has over 4 years of professiona l software development 
+experience. Currently he works as a PhD student in BBC group at UEF. His research focuses on application of 
+infrared spectroscopy for arthroscopic diagnostics of cartilage degeneration. Mithilesh has assured funding for his 
+thesis from Instrumentarium Science Foundation. 
+Profile: 
+Relevant publications/patents/products/services 
+Ala-Myllymäki J, Honkanen JT, Töyräs J, Afara IO: Optical spectroscopic determination of human meniscus composition. J 
+Orthop Res. 2016 Feb;34(2):270-8 
+Afara IO, Hauta-Kasari M, Jurvelin JS, Oloyede A, Töyräs J: Optical absorption spectra of human articular cartilage correlate with 
+biomechanical properties, histological score and biochemical composition. Physiol Meas. 2015 Sep;36(9):1913-28. 
+Puhakka PH, Te Moller NC, Afara IO, Mäkelä JT, Tiitu V, Korhonen RK, Brommer H, Virén T, Jurvelin JS, Töyräs J: Estimation 
+of articular cartilage properties using multivariate analysis of optical coherence tomography signal. Osteoarthritis Cartilag e. 2015 
+Dec;23(12):2206-13. 
+te Moller NC, Brommer H, Liukkonen J, Virén T, Timonen M, Puhakka PH, Jurvelin JS, van Weeren PR, Töyräs J: Arthroscopic 
+optical coherence tomography provides detailed information on articular cartilage lesions in horses.  Vet J. 2013 Sep;197(3):589-95. 
+Niemelä T, Virén T, Liukkonen J, Argüelles D, te Moller NC, Puhakka PH, Jurvelin JS, Tulamo RM, Töyräs J: Application of 
+optical coherence tomography enhances reproducibility of arthroscopic evaluation of equine joints.  Acta Vet Scand. 2014 Jan 
+10;56:3. 
+Relevant research projects 
+Academy of Finland (project 267551, Multimodal arthroscopic imaging of cartilage and meniscus injuries and degeneration)  
+The Research Committee of the Kuopio University Hospital Catchment Area for the State Research F unding (Project 5041744: 
+Smart Arthroscope with Automated Software for Quantitative Diagnostics of Cartilage Injuries and Degeneration).  
+The Research Committee of the Kuopio University Hospital Catchment Area for the State Research Funding (Project 504175 0, 
+Near Infrared Spectrocopy for Arthroscopic Diagnostics of Cartilage and Meniscus Degeneration).  
+ 
+Existing Infrastructure 
+At UEF we have state of the art laboratories and reference techniques for all planned preclinical and laboratory experiments. For 
+example, we have biomechanical testing facilities from organ to nano-scale, full range of imaging modalities: µCT, dual-energy CT, 
+CBCT and MRI (0.18T – 9.4T). Moreover, ultrasound microscopy, OCT and infrared spectroscopy facilities are a vailable. In 
+addition we have a long tradition in collaboration with KUH in testing of novel techniques in arthroscopic environment.  
+Does the participant plan to subcontract certain tasks N 
+Does the participant envisage that part of this work is performed by linked third parties N 
+Does the participant envisage the use of contributions in kind provided by third parties  N 
+ 
+780598  MIRACLE   Part B Page 63 of 96 
+ 
+Norwegian University of Life Science (NMBU)                            Partner #4 (Norway) 
+ 
+The organization: 
+NMBU is Norway’s largest Life sciences university with 5200 students; 1700 employees; 800 scientific staff; 580 
+PhD students; approx. 100 PhD degrees per year. NMBU’s main strategy is to help people all over the world to 
+tackle big challenges regarding human health, environment and resources management. NMBU has been involved 
+in the EU programs since FP3, and it currently participates in 20 projects financed under FP7 and Horizon 2020, 
+of which three multi-partner projects are coordinated by NMBU. In addition, the university participates in projects 
+within JPI, COST, INTERREG, ERA-net and other European research. The university has signed the “European 
+Charter for Researchers” and the “Code of Conduct for the Recruitment of Researchers” (Charter and Code) and 
+is a HRS4R Acknowledged Institution. NMBU has a highly skilled and experienced staff in biophysics and 
+spectroscopy as well as mathematics and multivariate statistics to successfully ca rry out the project plan. NMBU 
+has several spectroscopy labs as well as bioengineering facilities for multi - and interdisciplinary research thus 
+enabling us to deliver all the necessary results in the project. The department of Mathematical Sciences and 
+Technology (IMT) will be a partner in the project carrying out the task identified in the project description. 
+Relevant skills/experience/technologies: 
+The department of Mathematical Sciences and Technology (IMT) is an engineering department with a strong focus 
+on physics and mathematics. IMT has spectroscopy facilities and highly trained staff to operate them. The group 
+at IMT involved in the project consists of chemists, physicists, biologists, bioengineers and mathematicians – a 
+highly multidisciplinary team with a strong expertise in biospectroscopy and data analysis. 
+Role in the project: NMBU will have major contribution in the WP4 Data analysis and software development as 
+a leader of Tasks 4.1-4.3 providing data analysis including protocols for spectral pre-processing, variable selection, 
+and the model for discriminant analysis. NMBU will further contribute to the development of the software 
+prototype (Task 4.4). In addition, NMBU will participate in WPs 3, 5 and 6, regarding MIR -ATR arthroscopy 
+probe’s development, optimization and validation. 
+Key Personnel: 
+Achim Kohler is a professor in physics at RealTek/NMBU. Prof. Kohler has a background in multivariate analysis 
+and biophysics. He has more than 15 years’ experience in development of measurement technology within 
+biospectroscopy, and multivariate data modelling. Prof. Kohler has more than 100 publications, several patents, 
+successfully supervised 12 PhD students and is currently supervising 9 PhD students in the field of FTIR 
+spectroscopy and multivariate analysis. He has extensive experience in the management of research projects related 
+to biospectroscopy, energy physics and biorefinery. He has led several successful research projects developing 
+spectroscopic techniques for industry and founded two companies in the field of biospectroscopy. 
+Valeria Tafintseva is a postdoctoral researcher at NMBU. She received her M.Sc. in Mathematics (2008) degrees 
+at the Department of Mathematics, Physics and Informatics, Tambov State University in Ru ssia and a Ph.D in 
+Applied Mathematics and Data Analysis at RealTek/NMBU in 2013. Her research interests are focused on 
+multivariate data analysis and data pre-processing. She has published 6 articles in scientific journals. She is actively 
+participating in several national research projects as well as national and EU projects writing. 
+Boris Zimmermann is a researcher at NMBU. He received both his M.Sc. in chemical engineering (2001) and 
+Ph.D. in physical chemistry (2008) from the University of Zagreb. He h as been awarded with six research grants, 
+including a Marie Skłodowska -Curie fellowship (FP7), and has been involved in ten projects, including four as a 
+project leader. During the last decade, he has been working on spectroscopic characterisation and mult ivariate 
+analysis of a variety of inorganic, organic and biological systems, resulting with 24 publications in scientific journals.  
+ 
+ 
+
+780598  MIRACLE   Part B Page 64 of 96 
+Profile: 
+Relevant publications/patents/products/services 
+Konevskikh T, Lukacs R, Blümel R, Ponossov A, Kohler A (2016) Mie scatter corrections in single cell infrared 
+microspectroscopy, Faraday Discuss., 187, 235-257. 
+Zimmermann B, Tafintseva V, Bağcıoğlu M, Høegh Berdahl M, Kohler A (2016) Analysis of Allergenic Pollen by FTIR 
+Microspectroscopy. Analytical Chemistry, 88, 803-511.  
+Konevskikh T, Ponossov A, Blumel R, Lukacs R, Kohler A (2015) Fringes in FTIR spectroscopy revisited: understanding and 
+modelling fringes in infrared spectroscopy of thin films, Analyst, 140, 3969-3980. 
+Karaman I, Nørskov NP, Yde CC, Skou Hedemann M, Bach Knudsen KE, Kohler A (2015) Sparse multi-block PLSR for 
+biomarker discovery when integrating data from LC-MS and NMR metabolomics. Metabolomics 11, 367-379. 
+Karaman I, Qannari M, Martens H, Skou Hedemann M, Bach Knudsen KE, Kohler A, (2013) Comparison of Sparse and Jack-
+knife partial least squares regression methods for variable selection. Chemometrics and Intelligent Laboratory Systems. 122, 65-
+77. 
+Relevant research projects 
+2012-2016: Project leader for the ISP-project ‘Hyperspectral imaging in biophysics and energy physics’ funded by the Norwegian 
+Research Council at IMT/UMB, grant Nr. 216687) (Total grant: 4 400 000 NOK). 
+2013-2015: Kohler was coordinator for the EU project (Marie Curie Actions— Intra-European Fellowships (IEF)) entitled 
+‘Pollen— Plant Phenotyping by Vibrational Spectroscopy of Pollen’ European Union’s Seventh Framework Programme (FP7 -
+PEOPLE-2012-IEF). European Commission, Research Executive Agency (FP7-PEOPLE-2012-IEF, project Nº. 328289). (EU 
+funding:  291 840 Euros). 
+2012-2014: Kohler was coordinator for the EU project (FP7-SME-2012 ‘Research for the Benefit of SMEs’) entitled ‘Source 
+tracking and monitoring of mould contamination in food production’ with acronym ‘FUST’ in European Union’s Seventh 
+Framework Programme managed by REA-Research Executive Agency (FP7-SME-2012-315271-FUST) Ranged as number 8 
+among approx. 150 funded projects. (EU funding:  1 130 050 Euros). 
+Existing Infrastructure 
+Fully equipped spectroscopy lab with equipment for FTIR microspectroscopy and high -throughput measurement 
+Does the participant plan to subcontract certain tasks N 
+Does the participant envisage that part of this work is performed by linked third parties N 
+Does the participant envisage the use of contributions in kind provided by third parties  N 
+ 
+Kuopio University Hospital (KUH)                          Partner #5 (Finland) 
+ 
+The organization: 
+Kuopio University Hospital (KUH) is one of the five university hospitals in Finland. It is publicly owned and 
+financed by the municipalities of the North Savo Hospital District (Pohjois-Savon sairaanhoitopiirin kuntayhtymä). 
+It is responsible for the speci al health care in Eastern Finland. KUH closely collaborates with the University of 
+Eastern Finland in education, training and research. KUH has all medical specialities for which it acts as a teaching 
+hospital. KUH is the largest trainer of medical doctors  in Finland with its 1000 doctor trainees and 1000 trainees 
+for other specialities.  
+KUH`s vigorous scientific research activity is respected nationally and internationally. KUH is an important 
+provider of training for physicians and other health -care personnel. KUH`s strengths also include a skilled staff 
+committed to the best possible patient care, and health-care technology that is undergoing constant development. 
+KUH offers specialized medical care in all fields of medical specialization. In comparisons  performed by the 
+National Institute for health and Welfare, KUH has repeatedly been found to be Finland`s most productive 
+university hospital. 
+In its research activity, KUH aims for results that will be respected internationally. For example, in gene ther apy 
+for blood vessels and brain tumours, KUH has been a world pioneer. Furthermore, KUH has extensively 
+contributed on the clinical research of the musculoskeletal disorders. Other strong research areas include chronic 
+endemic diseases such as diabetes, musculoskeletal disorders, Alzheimer`s disease, and obesity.  
+
+780598  MIRACLE   Part B Page 65 of 96 
+Department of Orthopaedics and Traumatology, Kuopio University Hospital, is serving as a clinical center for the 
+study. The study subjects with joint disorders will be operated (arthroscopy) on this center. 
+Relevant skills/experience/technologies: 
+Department of orthopaedics and traumatology (KUH) and Kuopio Musculoskeletal Research Unit (KMRU) 
+http://www2.uef.fi/en/crc/kmru) UEF, both headed by Prof. Heikki Kröger, form a multi -disciplinary research 
+organization in Kuopio campus. The core of the KMRU is the globally recognized Kuopio OSTPRE Study. Several 
+prospective randomized clinical trials and clinical follow -up studies are conduc ted in our unit and hospital 
+departments. KMRU consists of a strong team of senior and junior researchers with a high level of expertise in 
+their research field. Our research focuses on improving understanding of the pathophysiology of osteoporosis and 
+osteoarthritis, recognizing risk factors for those diseases and developing imaging and modeling tools, thereby 
+improving diagnostics and patient-specific prediction of the disease progression. Innovative methods enable new 
+and cost-effective treatment paths in primary and special health care.      
+Role in the project: 
+Kuopio University Hospital (Dept. of Orthopaedics and Traumatology) is leading the WP1 related to clinical 
+applicability. Major contribution is given in WP 6 in the task 6.3 and 6.4 related to demonstration in clinical setings.   
+Key Personnel: 
+Prof. Heikki Kröger  is the head of Kuopio Musculoskeletal research Unit (KUH). He has published over 330 
+scientific papers in international peer review journals (H -index=58) and supervised 23 PhD theses in 
+musculoskeletal research. He is the chief orthopaedic surgeon at the Dept Orthopaedics & Traumatology, KUH. 
+Together with the orthopaedic surgeons Debuty Prof. Antti Joukainen and Assistant professor Joonas Sirola, 
+he is responsible for the clinical part of this project.  
+ 
+Profile: 
+Relevant publications/patents/products/services 
+Mustonen AM, Nieminen P, Joukainen A, Jaroma A, Kääriäinen T, Kröger H, Lázaro -Ibáñez E, Siljander PR, Kärjä V, 
+Härkönen K, Koistinen A, Rilla K. First in vivo detection and characterization of hyaluronan -coated extracellularvesicles in 
+human synovial fluid. J Orthop Res. 2016 Feb 25. doi:10.1002/jor.23212. [Epub ahead of print] 
+Karjalainen JP, Riekkinen O, Töyräs J, Jurvelin JS, Kröger H. New method for point -of-care osteoporosis screening and 
+diagnostics. Osteoporos Int. 2015 Nov 10. [Epub ahead of print]. 
+Tong X, Burton IS, Isaksson H, Jurvelin JS, Kröger H. Cortical bone histomorphometry in male femoral neck: the investigation 
+of age-association and regional differences. Calcif Tissue Int. 2015 Apr;96(4):295-306 
+Jakkula E, Melkoniemi M, Kiviranta I, Lohiniva J, Raina SS, Perala M, Warman ML, Ahonen K, Kroger H, Goring HH, Ala -
+Kokko L. The role of sequence variations within the genes encoding collagen II, IX and XI in non -syndromic, early-onset 
+osteoarthritis. Osteoarthritis Cartilage. 2005; 13(6):497-507. 
+Laine CM, Joeng KS, Campeau PM, Kiviranta R, Tarkkonen K, Grover M, Lu JT, Pekkinen M, Wessman M, Heino TJ, 
+Nieminen-Pihala V, Aronen M, Laine T, Kröger H, Cole WG, Lehesjoki AE, Nevarez L, Krakow D, Curry CJ, Cohn DH, Gibbs 
+RA, Lee BH, Mäkitie O. WNT1 mutations in early-onset osteoporosis and osteogenesis imperfecta. N Engl J Med. 2013 May 
+9;368(19):1809-16. 
+Relevant research projects 
+Smart Arthroscope with Automated Software for Quantitative Diagnostics of Cartilage Injuries and Degeneration). 
+Prospective randomized study of knee osteotomy in patients with osteoarthrosis (OHTO -study) 
+Novel clinical approaches in musculoskeletal imaging with a dedicated extremity cone -beam CT (cadaveric study) 
+Existing Infrastructure 
+At KUH we have state of the art research facilities and modern operating rooms for all planned clinical experiments. We have a 
+long tradition and experience in testing novel arthroscopic techniques and instruments in collaboration with UEF physicists.  
+Does the participant plan to subcontract certain tasks N 
+Does the participant envisage that part of this work is performed by linked third parties  N 
+Does the participant envisage the use of contributions in kind provided by third parties  N 
+ 
+Utrecht University (UU)                         Partner #6 (The Netherlands) 
+ 
+The organization: 
+
+780598  MIRACLE   Part B Page 66 of 96 
+Utrecht University (UU) is an international university of the highest quality and the alma mater of many leading 
+names, academics and scientists who have made an important contribution to the quality of society. The challenge 
+to develop a sustainable society is one of the greatest facing Society in the 21st century. Utrecht University is 
+committed to fulfilling its social responsibility in this area. Utrecht Univer sity is comprised of 7 faculties which 
+collectively cover the full spectrum of research and education.  The Faculty of Veterinary Medicine of Utrecht 
+University has a unique position in the Netherlands. Not only is this the only institution where veterinar ians are 
+trained, researchers are also working together on innovative scientific research. In addition, the faculty provides 
+specialist clinical care in the largest academic veterinary hospital in Europe. Thanks to this position, the Faculty of 
+Veterinary Medicine is a point of contact for all veterinary matters, both nationally and increasingly internationally. 
+Role in the project: 
+UU will be have major contribution in WP6 (tasks 6.2) regarding the in vivo testing in an equine model and proof 
+of principle as monitoring device for cartilage repair. In addition, UU will contribute in the clinical protocols and 
+device requirements in WP1.  
+Key Personnel: 
+Prof. P.R(ené) van Weeren DVM, PhD, Dipl. ECVS: After many years of clinical activities as first a large animal 
+surgeon and later an exclusively equine surgeon, René van Weeren is now almost exclusively involved in research 
+activities and the supervision of PhD students, apart from administrative duties such as being chair of the 
+Department of Equine Sciences. Special areas of interest are the influences of exercise on the (development of) 
+the musculoskeletal system, research on joint homeostasis and cartilage regeneration, tendon disorders and 
+biomechanics. He enjoys working in these areas within a translationa l framework together with colleagues from 
+human medicine and as part of large (international) collaborative networks. He is of the opinion that in these 
+activities the coaching of young people and helping them to find develop themselves as critical, indepe ndent and 
+truly academic researchers is the most rewarding aspect. He has authored or co-authored over 250 publications in 
+peer-reviewed journals and more than 15 book chapters. He is an associate editor of Equine Veterinary Journal, 
+which is the leading journal in the field. 
+Associate Prof. H(arold) Brommer, DVM, PhD, Dipl. ECVS: Harold Brommer is working as an Equine 
+Surgeon at the division of surgery and orthopaedics of the Department of Equine sciences. He is both diplomate 
+of the Royal Netherlands Veterinary Association (Specialist KNMvD, Equine Surgery) and diplomate of the 
+European College of Veterinary Surgeons (Dipl. ECVS). Besides clinical work, he is also involved in the education 
+of students and in research. Harold Brommer is involved the research line 'Regenerative Medicine and Stem Cells' 
+in which he focusses on equine joint disease and more specifically on aspects of early degenerative changes of 
+articular cartilage. In this field he collaborates with the research group Biophysi cs of Bone and Cartilage of the 
+University of Eastern Finland (UEF, head: prof. Toyras). 
+ 
+Profile: 
+Relevant publications/patents/products/services  
+Sarin, J. K., Brommer, Harold, Argüelles, D., Puhakka, P. H., Inkinen, S. I., Afara, I. O., Saarakkala, S. & Töyräs, J. 
+Multimodality scoring of chondral injuries in the equine fetlock joint ex vivo. Osteoarthritis and Cartilage 2016  
+Sarin, Jaakko K, Amissah, Michael, Brommer, Harold, Argüelles, David, Töyräs, Juha & Afara, Isaac O (2016). Near Infrared 
+Spectroscopic Mapping of Functional Properties of Equine Articular Cartilage. Annals of Biomedical Engineering, 44 (11), (pp.  
+3335-45). 
+Te Moller, N.C.R., Brommer, H., Liukkonene, J., Viren, T., Timonen, M., Puhakka, P., Jurvelin, J.S., van Weere n, P.R. & Toyras, 
+J. (2013). Arthroscopic optical coherence tomography provides detailed information on cartilage lesions in horses. Veterinary 
+Journal, 197, (pp. 589-595) (7 p.). 
+Brommer, H., Laasanen, Mikko S., Brama, P.A.J., van Weeren, P.R., Helminen, H.J. & Jurvelin, J.S. (2006). In Situ and Ex Vivo 
+Evaluation of an Arthroscopic Indentation Instrument to Estimate the Health Status of Articular Cartilage in the Equine 
+Metacarpophalangeal Joint. Veterinary Surgery, 266, (pp. 259-266) (8 p.). 
+Brommer, H., Laasanen, Mikko S., Brama, P.A.J., van Weeren, P.R., Helminen, H.J. & Jurvelin, J.S. (2005). Functional 
+consequences of cartilage degeneration in the equine metacarpophalangeal joint: quantitative assessment of cartilage stiffnes s. 
+Equine Veterinary Journal, 37 (5), (pp. 462-467) (6 p.). 
+780598  MIRACLE   Part B Page 67 of 96 
+Relevant research projects 
+Dutch Organisation for Scientific Research (NWO) and Dutch Arthritis Foundation (2 themes) : Theme 1 is focusing on studies 
+to explore the cellular basis of intrinsic cartilage repair and the role of biomechanics: This could be either stem cell populations 
+residing in the joint but might also be chondrocyte subpopulations or alternative cell sources. Once identified we will aim a t two 
+strategies that can exploit these cell populations: i) development of bioactive scaffolds that in a cell-free manner can induce 
+regeneration of lost cartilage tissue by activating these resident stem or progenitor cell populations; ii) controlled releas e 
+strategies that release bioactive components that activate the regenerative potential of these cells. Theme 2 is focusing on studies 
+to explore the molecular basis of joint homeostasis by assessing the composition of synovial fluid in opposing conditions 
+(catabolic versus anabolic conditions). This may lead to new diagnostics but also to new drugs / biologicals that can restore joint 
+homeostasis. 
+HydroZONES (the European Union Seventh Framework Programme) - Bioactivated hierarchical hydrogels as zonal implants 
+for articular cartilage regeneration: HydroZONES represents an interdisciplinary consortium that adopts a strategy to regenerate 
+articular cartilage based on biofunctional hydrogel-based implants that mimic the tissues zonal structure and function. Yet, 
+despite intensive research, no clinical therapy is available that leads to healing of cartilage defects. Treatment to achieve hyaline 
+cartilage regeneration and not only formation of fibrous repair tissue that only delays prosthesis remains a great challenge.  
+Current cartilage implants cannot establish the hierarchical tissue organisation that appears critical for normal cartilage function. 
+We hypothesise that a biomimetic zonal organisation of the implants themselves is critical to induce native tissue hierarchy and 
+thus achieve regeneration of functional hyaline cartilage. Degradable and clinically used thermoplastic polymers will be applied 
+for mechanical reinforcement of the hydrogels. HydroZONES will follow and compare cell -free and cell-loaded hydrogels, 
+comparing chondrocytes and bone marrow derived mesenchymal stem cells for their efficacy. Three-dimensional printing 
+techniques will be employed for the automated assembly of the implants to guarantee reproducibility. Scaffolds that pass our 
+stringent and well-documented in vitro and in vivo screening will undergo long-term pre-clinical testing in minipigs and horses, 
+which will set a new international standard for pre-clinical testing of cartilage implants. 
+Existing Infrastructure 
+A. Facilities surgical and orthopaedic department (new since 2007): 
+ 
+a. Surgical theatres: 
+• Surgical theatre 1 (OR1): + down flow facility (clean procedures) 
+• Surgical theatre 2 (OR 2): clean contaminated, contaminated, infected procedures)  
+• Surgical theatre 3 (OR 3): standing surgery room (laparoscopy, dental surgery)  
+• All the facilities are equipped with high-tech recording and endoscopy systems, Telgte surgical tables, 3 scrub rooms, 1 
+room for preoperative patient preparation and induction, hoist system 
+ 
+b. Anaesthetic and critical care equipment: 
+separate anaesthetic monitoring room, 2 round padded recovery rooms (with assisted recovery possibilities) 
+Monitoring: 
+• In surgical theatre and in a separate room 
+• Monitoring in and outside recovery 
+• anaesthetic machines for large horses and for smaller horses/foals (< 150 kg) + IPPV (intermittent Positive Pressure 
+Ventilation) 
+• medical gas, O2 and CO2 monitoring (Rapid Lab, Siemens) 
+ 
+c. Surgical instruments 
+• 4 castration kits, 6 laparotomy kits, 4 large and 6 small wound repair kits, 2 kits for hernia surgery, 2 kits vascular surge ry, 2 
+ophthalmology kits 
+• Endoscopy equipment: arthroscopy (2 kits) + tower (Arthrex, new 2015), laparoscopy (2 kits), upper respiratory tract 
+surgery, reproductive tract surgery 
+• Equipment for dental surgery 
+• Laser surgery (diode laser) 
+• AO/ASIF (osteosynthesis) equipment (Synthes) 
+• Other equipment: Versajet, Ligasure, Electrosurgical equipment 
+ 
+d. Sterilization: 
+• Separate sterilization unit: contaminated/infected and clean area separated  
+• Steam autoclave (1 large and 1 small), desinfection machine (Oxivario, Miele), washing machine 
+• Pack preparation and storage room 
+ 
+e. Other facilities: 
+780598  MIRACLE   Part B Page 68 of 96 
+• Farriery: 2 certified farriers 
+• Facilities for orthopaedic examinations: indoor hall with hard surface for walking and trotting horses on straight line and 
+on a circle, indoor arena with soft (sand) surface,  force plate instrumentation and computed analysis of equine locomotion 
+(QHorse, Qualysis), paddocks outdoor 
+• Five waiting rooms for orthopaedic and soft tissue consults 
+• Room for ophthalmologic examinations, examination room for endoscopy upper respiratory tract and laser surgery 
+• 2 padded boxes for colic horses 
+• One padded room with hoist for hospitalization of neurologic horses 
+• Intensive care unit (6 boxes) 
+• Box stables surgical and orthopaedic department (46 boxes) 
+• Isolation unit (6 boxes) 
+ 
+f. Staff division of Equine Surgery and orthopaedics: 
+• 7 Diplomates ECVS 
+• 1 resident ECVS 
+• 5 interns (rotating between divisions of surgery and orthopaedics, internal medicine, anaesthesia and intensive care)  
+• Assistant personnel: administration, sterilization unit, surgery unit, hospitalization and stable unit 
+ 
+B. Diagnostic Imaging service 
+a. Department of Diagnostic Imaging (small animals & equine) 
+Personnel: 
+• 6 Diplomates ECVDI 
+• 2 residents ECVDI 
+• Assistant personnel 
+ 
+b. Facilities: 
+• High-field 1.5 T MRI (new 2014) 
+• 64 slice CT-scanner for standing horses (new 2015) 
+• Digital radiography 
+• Ultrasonograhpy / Doppler/UTC 
+• Fluoroscopy 
+• 2 separate viewing rooms at the Department of Diagnostic Imaging 
+• Extra viewing room at the Department of Equine Sciences (Agfa Impax Client system) 
+ 
+C. Emergency lab: 
+a. haematology 
+b. clinical chemistry 
+c. cytology 
+ 
+D. University Veterinary Diagnostic Laboratory (UVDL) 
+a. haematology 
+b. clinical chemistry 
+c. cytology 
+d. hormone and endocrinology analyses 
+ 
+E. Pathology services: 
+a. Veterinary Pathology Diagnostic Centre (VPDC) 
+Facilities include necropsy rooms, tissue processing/histology laboratory, electron microscopy laboratory, immunostaining 
+laboratory, microscopy facilities including a 5-headed microscope, digital gross and microscopic photography facilities, 
+histomorphometry equipment. 
+b. Veterinary Microbiological Diagnostic Centre (VMDC) 
+ 
+F. Medical records 
+a. Medical records are maintained by an automated veterinary medical programme, VETWARE, in which  it is possible to obtain 
+all necessary information for each individual case. 
+b. Supplementary recording of all incoming patients (personal patient data) 
+ 
+G. Medical library 
+a. Digital library (web access) of Utrecht university (http://www.uu.nl/en/university-library) 
+780598  MIRACLE   Part B Page 69 of 96 
+b. Main library of Utrecht University (nearby faculty of veterinary medicine) 
+c. Library at Faculty of Veterinary Medicine, Utrecht university  
+d. Library at the Department of Equine Sciences 
+Does the participant plan to subcontract certain tasks No 
+Does the participant envisage that part of this work is performed by linked third parties  No 
+Does the participant envisage the use of contributions in kind provided by third parties  No 
+ 
+nanoplus (NP)                                           Partner #7 (Germany) 
+ 
+ 
+The organization: 
+NANOPLUS is an SME which was founded 1998 as spin off from Würzburg University. The company focuses 
+on the development of customer specific optoelectronic devices for sensor applications. The company with 
+currently 65 employees, has two clean room facilities with 250 m2 (Gerbrunn, Germany) and 650 m2 (Meiningen, 
+Germany), respectively. A complete process line for semiconductor laser fabrication is available, comprising mask 
+aligners for optical lithography as well as systems for electron beam lithography, different dry etch systems, sputter 
+systems, evaporators, laser mounting facilities, etc. Key products of NANOPLUS are complex coupled distributed 
+feedback (DFB) laser diodes. In these lasers complex coupling is obtained by combining a ridge waveguide with 
+metal gratings on top of the waveguide layer on both sides of the laser ridge. DFB lasers realized by this technique 
+in various material systems have a high single mode yield (>90%), high sidemode suppression ratio (>40dB) 
+combined with low back reflection sensitivity and thresholds and efficiencies, which correspond to those of Fabry 
+Perot lasers realized from the same layers.  
+NANOPLUS manufactures and sells DFB and Fabry -Perot laser diodes in the wavelength range from 0.7 up to 
+3.0 μm for sensing and spe ctroscopic applications. As base material for the lasers GaAlAs/InGaAs, InGaAsP, 
+GaInAsN and GaInAsSb heterostructures are used. In addition, NANOPLUS offers interband cascade laser (ICL) 
+DFBs from 3 -6 μm and quantum cascade laser (QCL) DFBs at certain wav elengths between 7 and 14 μm for 
+specific applications. Previous work within national and international cooperations has allowed NANOPLUS to 
+acquire significant experience in long wavelength device processing based on Quantum Cascade as well as 
+Interband C ascade material. nanoplus has e.g. coordinated the European research projects SENSHY 
+(www.senshy.eu) for the development of GaSb based devices in the 3.0 – 3.6 μm wavelength range for which the 
+company was awarded the Prism Award for Green Photonics and Sustainable Energy in 2012. 
+Relevant skills/experience/technologies: 
+nanoplus Nanosystems and Technologies GmbH, Germany is an ISO 9001:2008 and ISO 14001:2009 certified 
+supplier of semiconductor devices and one of the leading manufacturers of lasers for gas  sensing applications. 
+NANOPLUS is currently supplying mono mode DFB lasers in different types of packages at various wavelengths. 
+Some typical DFB devices and their performance figures based on different material systems can be found at 
+www.nanoplus.com. 
+NANOPLUS has significant experience with DFB lasers in the GaAs and InP, but also the GaSb material system 
+and associated challenges like water -free chip processing. Based on this material system, NANOPLUS has e.g. 
+supplied long -wavelength DFB lasers for the NASA Mars Science Laboratory MSL mission (isotope ratio 
+measurements on-board the Mars Rover Curiosity). The company holds the current long -wavelength record for 
+mono mode type I GaSb -based laser diodes, as well a s the current long -wavelength record for mono mode 
+Interband Cascade Lasers. MIR laser sources based on DFB and multi-section BSG ICL devices with performance 
+defining the current state -of-the-art have been demonstrated. Researchers from NANOPLUS also made  various 
+important contributions in the field of Quantum Cascade Laser device development.  
+
+780598  MIRACLE   Part B Page 70 of 96 
+NANOPLUS will in particular contribute to the MIRACLE project by bringing in capabilities and related expertise 
+in the field of QCL technology. 
+Role in the project: 
+NP main task is the developments of quantum cascade laser based MIR in WP2 Quantum cascade laser and 
+iBEAM. NP will also support the WP5 Prototype development. NANOPLUS will in particular contribute to the 
+Life iPrO project by bringing in capabilities and  related expertise in the field of QCL technology. nanoplus is a 
+leading supplier of semiconductor laser sources for gas sensing applications and has already been able to provide 
+a variety of innovations (as discussed above) into this field. Having a high interest to maintain a strategic position 
+with respect to emerging technology and related market opportunities concerning infrared emitters in the medical 
+field as for IR catheter probes in osteoarticular disease diagnosis, nanoplus is fully committed to t he project and 
+the related investigations for future device applications in biophotonics. 
+Key Personnel: 
+Dr. Caroline Kistner (Principal Investigator, female) was born in Würzburg, Germany in 1981. She graduated 
+in Physics from the University of Konstanz, Germany in 2007. In 2011 she received her PhD degree for her 
+thesis on the spectroscopy of electronically contacted micro-cavities from the University of Würzburg. Following 
+her studies Ms. Kistner joined the product development team of OSRAM Opto Semiconductors GmbH as 
+Project Manager Engineering, where she led a variety of international product development projects concerning 
+opto-electronical components. In 2016 Ms. Kistner joined the R&D division of nanoplus as development 
+engineer where she is in charge of project management for novel laser sources and modules.  
+Dr. Marc Fischer  (Co-Investigator, male) was born in Tettnang, Germany in 1972. He graduated in Physics 
+from the State University of New York and Würzburg University in 1997 and 1999, respectively. During his 
+PhD, he worked on the MBE growth of GaInNAs structures and developed EELs and VCSELs in this GaAs 
+based material system for future telecom applications, realizing for example the first GaInNAs LD in the 1500nm 
+wavelength range. In 2003, he received his PhD degree from Würzburg University. In 2002 he joined nanoplus 
+Nanosystems and Technologies GmbH, where he is cu rrently leading the R&D division and is responsible for 
+the development of novel devices and related process technology development. At NANOPLUS, he also 
+contributed to various national and international research activities on novel laser sources and serve d e.g. as 
+project manager for the EU project SensHy. He is author or co -author of around 150 publications concerning 
+novel semiconductor material and devices. 
+Profile: 
+Relevant publications/patents/products/services 
+L. Naehle, C. Zimmermann, S. Belahsene, M. Fischer, G. Boissier, P. Grech, G. Narcy, S. Lundqvist, Y. Rouillard, J. Koeth, M. 
+Kamp and L. Worschech, “Monolithic tunable GaSb-based lasers at 3.3 μm“, Electronics Letters 47, 1092 (2011) 
+M. v. Edlinger, J. Scheuermann, R. Weih, Ch. Zimmermann, L. Nähle, M. Fischer, J. Koeth, 
+S. Höfling,and M. Kamp, "Monomode Interband Cascade Lasers at 5.2 μm for Nitric Oxide Sensing", Photonics Technology 
+Letters, Volume 26 , Issue: 5 (2014) 
+M. von Edlinger, J. Scheuermann, R. Weih, L. Naehle, M. Fischer, S. Höfling, J. Koeth, M. Kamp, Widely-tunable interband 
+cascade lasers for the mid-infrared“, Photonics West 2015, February 7-12, 2015, San Francisco, USA 
+J. Koeth, M. von Edlinger, J. Scheuermann, L. Nähle, L. Hildebrandt, M. Fischer, R. Weih, M. Kam p, „Distributed feedback 
+interband cascade lasers for applications in research and industry“, Photonics West 2015, February 7 -12, 2015, San Francisco, USA 
+P. Fuchs, J. Friedl, S. Höfling, J. Koeth, A.Forchel, L. Worschech, and M. Kamp, “Single mode quantu m cascade lasers with 
+shallow-etched distributed Bragg reflector”, Optics Express, Vol. 20, Issue 4, pp. 3890-3897 (2012) 
+Relevant research projects 
+SENSHY [FP7 EU]: develop high quality ICL material for device processing and since then commercially exploit the project 
+results ( only commercial manufacturer worldwide to offer ICL based DFB lasers).  
+WIDELASE [FP7 EU]: special monolithic widely tunable ICL devices are currently investigated for the first time.  
+QUIP [German Federal Ministry of Education and Research]: tunable QCL based devices around 14 µm.  
+Existing Infrastructure 
+For advanced device processing within Life iPro, state-of-the-art clean room facilities will be used at NANOPLUS with proven 
+track records on the production of high performance and high reliability sensing lasers at various wavelengths. MBE growth 
+780598  MIRACLE   Part B Page 71 of 96 
+equipment as well as a complete semiconductor process line is available (comprising systems for optical and ebeam lithography, as 
+well as various dry etch systems, sputter systems, evaporators etc.) together with corresponding equipment for structural ana lysis 
+(by electron microscopy SEM, profilometers etc.). In addition NANOPLUS possesses a fully integrated laser mounting and 
+packaging line, including for example systems for die bonding, wire bonding, fibre coupling (incl. PM fiber packages) in 
+combination with high-precision optical alignment systems. Besides the technical background in semiconductor device processing, 
+NANOPLUS has extensive expertise in the mounting and integration of a variety of laser types and related components in many 
+different laser packages. NANOPLUS will validate the performance of the newly developed laser sources and modules for sensing 
+and has its own dedicated equipment and highly skilled personnel to ensure fast progress. Equipment for advanced laser 
+characterization for sensing applications in the NIR and MIR includes specialized spectroscopic equipment. These characterization 
+capacities are flanked by equipment for aging and reliability studies, which enable NANOPLUS to perform reliability tests and  to 
+evaluate device lifetime. 
+ 
+ 
+Some examples of processing equipment available at nanoplus:  
+JEOL JBX 6300FS 100 kV ebeam lithography system (left) and Oxford Plasmalab 100  
+RF Plasma etching system (right) 
+ 
+Does the participant plan to subcontract certain tasks N 
+Does the participant envisage that part of this work is performed by linked third parties N 
+Does the participant envisage the use of contributions in kind provided by third parties  N 
+ 
+OptoPrecision (OP)                                                     Partner #8 (Germany) 
+ 
+The organization: 
+The OptoPrecision GmbH is a small yet leading company in research, development, and production of high quality 
+optical sensing devices. With 12 engineers and physicists providing many years of work experience in the fields of 
+trace gas sensin g, laser driver electronics, and system design, they will contribute to the collaborative project in 
+terms of developing electronics and software for the implementation of the novel sensing technologies proposed 
+herein for the development of a dedicated analyzer, which will also be constructed and produced in house.Relevant 
+skills/experience/technologies: 
+With 12 engineers and physicists providing many years of work experience in the fields of trace gas sensing, laser 
+driver electronics, and system design, we will contribute to the collaborative project in terms of developing 
+electronics and software for the implementation of the novel sensing technologies proposed herein for the 
+development of a dedicated analyzer, which will also be constructed and produced in house. 
+Role in the project: 
+OP will lead the WP5 Prototype development which main focus is the prototyping of the MIR -ATR catheter 
+probe based system. Among the several tasks, the main objectives are:  
+
+780598  MIRACLE   Part B Page 72 of 96 
+▪ Development of appropriate microcontroller -based electronics and software to drive the lasers, detect 
+the measurement signals and to stabilize via control loops the whole system. 
+▪ Mechanical construction of the analyser, manufacturing of first demonstrators. 
+Key Personnel: 
+Dr. Markus Nägele, Physicist, has 19 years of work experience in the field of laser-based trace gas sensing using 
+mid-infrared lasers (e.g., CO 2 -lasers, quantum-cascade-lasers). 
+Dr. Gerald Schubert, Electrical engineer, has 27 years of work of experience in the field high -speed electronics 
+and ultra -sensitive detectors and amplifiers. He is also very experienced in the development of software for 
+measurement and control loops. 
+Michael Baumgarten, Mechanical engineer, has 9 years of work experience in the field mechanical system design 
+(e.g., robust and reliable optical devices for weather forecast satellites). 
+Profile: 
+Relevant publications/patents/products/services 
+Product: GasMo: Gas Monitor to measure trace gases (in the ppbv range) in industrial applications  
+Product: LiMo: Liquid monitor to measure traces of chemical impurities [in the ppmV range) in different liquid solvents  
+Recent publication (submitted): iHWG-ICL: Methane Sensing with Substrate-Integrated Hollow Waveguides Directly Coupled 
+to Interband Cascade Lasers, E. Tütüncü, M. Nägele, M. Fischer, B. Mizaikoff, ACS Sensors 2016  
+Recent publication: Liquid analysis of traces of Isocyanat in Butyl acetate using a novel MIR laser photometer, M. Nägele, M. 
+Theuer, S. Hennig, W. Kasten, tm –Technisches Messen 2016, DOI 10.1515/teme-2015-0103 
+Publication: Quantum cascade laser spectroscopy for monitoring of ppb-concentration levels of phosgene, talk and poster at the 
+EuroPACT2014 trade fare in Barcelona, 2014 
+Relevant research projects 
+APOSEMA[EU M-era.Net]: Advanced Photonic Sensor Materials – Development and test of first demonstrators:, Running 
+since 2012 
+OIFA [German Federal Ministry of Education and Research]: Optical inline fluid analysis, Development of gas and liquid 
+sensors to measure traces of carbon monoxid and butylacetat, 2012-2015 
+QUINGAP [German Federal Ministry of Education and Research]: Quantum-cascade laser systems for industrial gas sensing 
+and process control, 2006- 2010 
+Existing Infrastructure 
+Ray-tracing software to simulate optical systems 
+Several CAD workplaces to construct sophisticated new optical sensing solutions 
+All hard- and software tools to develop, realized and test electronic circuits  
+incl. electromagnetic compatibility and thermal characterization 
+In-house machine shop to build all needed mechanical parts 
+Different software languages/compiler to realize embedded software and human-machine interfaces for new self-made devices 
+Workplaces to assemble and test new devices   
+Does the participant plan to subcontract certain tasks N 
+Does the participant envisage that part of this work is performed by linked third  parties N 
+Does the participant envisage the use of contributions in kind provided by third parties  N 
+ 
+Innovacio I Recerca Industrial I Sostenible SL (IRIS)                                              Partner #9 (IRIS)  
+ 
+The organization:  
+IRIS was established in Barcelona in 2007 as an advanced engineering and R&D company, specialising in the field 
+of process engineering. IRIS has expertise in the following fields of engineering: Production Processes (with a 
+
+780598  MIRACLE   Part B Page 73 of 96 
+strong specialisation in novel technologies); Smart Systems; and Optical Systems, combined with a knowledge and 
+research capacity in food technology, materials science and environmental science. IRIS applies its knowledge and 
+expertise to develop solutions for industry in the fields of a dvanced monitoring and control, surface activation, 
+decontamination and biocompounds, as well as to provide contract research services to the food, agriculture, 
+chemical and pharmaceutical industries, among others. The company has a policy of continuous in vestment for 
+growth, and currently employs 48 staff based in two sites (Barcelona and Dublin) which are equipped with 
+engineering workshops (3), food testing and wet chemistry laboratory, optics labs (2), and an 
+electronics/telecommunications lab. IRIS is ISO 9001:2008 certified and also is certified under UNE -EN-ISO 
+166002: Management Systems R&D&i. 
+Relevant skills/experience/technologies: 
+In terms of programming and advanced ITs capabilities, IRIS has a specialized staff (software and 
+telecommunication engineers with programming experience) that work on the basis of the Agile methodology and 
+philosophy a (scrum and kanban) for developing complex applications that include hardware interfaces, SQL and 
+No-SQL databases (MySQL, PostgresDB, Couchbase among others) and advanced and user-friendly graphic user 
+interfaces not only for computers (using Windows Presentation Foundation) but also for smartphones (Android, 
+iOS) or web-based access (HTML 5). Our software engineers are skilled in a wide variety of languages and operating 
+systems as well as 
+low-level programming (microcontrollers). 
+ 
+Role in the project: 
+IRIS will act as partner and they have extensive expertise at this level, and in particular in the context of industry -
+driven FP7 and H2020 projects, and pri vate contacts with the industry. In addition, they will contribute WP4, 
+whereby, they will be responsible for the development of the Global System Control, software and data 
+management. IRIS will also have minor contribution in WP5 during prototype phase.  
+ 
+Key Personnel: 
+MSc. ALEJANDRO ROSALES (Male) has a M. Sc. in Physics from the Universidad de La Habana (1986). His 
+background comprises theoretical and technical skills in several scientific and technological areas: optics, lasers, 
+high vacuum, colorimet ry, UV -VIS-NIR-MIR spectroscopy, chemometrics and design of measurement 
+instruments. He has extensive practical experience in programming, electronics and mechanical CAD design as 
+well as R&D methodology and management. His career has included positions as researcher applications engineer, 
+design engineer, business developer and R&D manager. In 2000s, he worked in the FTIR spectroscopy field applied 
+to quality control in the agrofood (wine) industry, whereby he developed two new measurement instruments for 
+wine analysis. His career as industrial physicist has been focused in applying his wide expertise to provide solutions 
+for industrial problems. Since 2011, he has been the Technical Manager in IRIS, leading a staff of 20 engineers and 
+researchers involved in R&D projects aimed at developing novel high -end solutions for industry. Currently, he is 
+the Science & Technology Managerin IRIS. 
+ 
+IVAN PAQUICO RODRIGUEZ. (Male) Telecommunications Degree in UPC (Barcelona) and a Joint Degree 
+in Multimedia  Development in LUAS (Finland). His final thesis, 'Augmented Reality Chess and Application to 
+Detect Chess Moves', implemented by using Computer Vision, Augmented Reality and Artificial Intelligence 
+techniques, has won several awards, such as the best final thesis of t he UPC and the best final thesis of Spain 
+(received from Vodafone Spain and Universia foundation). He is an official iOS and Android Developer since 
+2010, creating a social network for iPhone called: 'BeThere' developed by iOS SDK from Apple and used 
+Couchbase technology for the database. He also has experience in different programming languages such as C, 
+C++, Objective C or Java, 8 bits embedded and real time systems. He has expertise in multimedia methodologies 
+ranging from Virtual Reality programming techniques to 3D/2D modelling software such as OpenGL, Quest3D, 
+Autodesk Maya, Autodesk 3DS Max or Adobe Photoshop. 
+ 
+DAVID NETTLETON (Male). Data Mining Analyst. Has a Ph.D in Artificial Intelligence from the Universitat 
+Politécnica de Catalunya, Barcelona, Spain, M.Sc. In Computer Software and Systems Design from the University 
+of Newcastle upon Tyne, U.K., and B.Sc. (Hons) Computer Science from the University of Wolverhampton, U.K. 
+780598  MIRACLE   Part B Page 74 of 96 
+Has over 20 years experience of applying data mining algorithms (including n eural networks, rule induction) and 
+statistical techniques (including ANOVA, regression, principal components) in a diversity of data analysis and 
+modeling projects, such as medical diagnosis/prognosis, fraud detection, customer loyalty and segmentation, online 
+user web search behaviour and data privacy. As well as commercial projects, he has conducted research and lectured 
+at two universities. He has published a diversity of articles in specialized data analysis journals/congresses and three 
+books. He has participated in several competitive multi -partner research projects and has a European patent 
+application for a graph matching algorithm. His IT Industrial experience includes project management, 
+consultancy, programming and analysis, database development and business startups. He has developed software 
+with a diversity of programming languages, (including Java, C++ and COBOL/CICS/DB2), database systems 
+(such as Oracle, Ingres, MySQL) and data mining systems (IBM Intelligent Miner, Clementine, Weka). In IRIS he 
+is currently involved in two major European projects (OpenMind and Sharebox), as a data mining specialist. The 
+work in OpenMind involves modeling a complex industrial production process for producing high precision 
+medical instruments. The work in Sha rebox involves building a symbiosis system for industrial collaborations 
+between companies for the recycling of waste products using case based reasoning and agent modeling. 
+Profile: 
+Relevant publications/patents/products/services 
+1. Development of a commercial system for real-time monitoring of moisture, CO2, temperature and filling level of grains in 
+industrial silos. It comprises a network of multi-sensor probes and a data management subsystem. B2B project (private contract 
+research). 
+2. System for real-time on-line multipoint monitoring the olive oil extraction (centrifuge) in order to optimize the yield and 
+reducing wastes. B2B project (private contract research). 
+3. A platform for in-field multi-point monitoring of salinity in rice paddies in order to optimize the water consumption 
+(AgriBox, in IRIS products line) 
+4. A database-based system for decision support to ensure quality of ready-to-eat foods production (from FP7 project Startec: 
+Decision Support Tools to ensure safe, tasty and nutritious Advanced Ready -To-Eat foods for healthy and vulnerable 
+Consumers, Grant Agreement no: 289262. 
+5. VIS and NIR-based on-line QC control in plastic injection process and DDS using chemometrics, as well as high temperature 
+and pressure reflectrance and transmittance probes relevant to ProPAT (from FP7 OPTIJECT: A novel NIR -based instrument 
+for in-line monitoring during injection moulding , GA nº 262623) 
+Relevant research projects 
+OptiNanoPro, Project full name: Processing and control of novel nanomaterials in packaging, automotive and solar panel 
+processing lines, H2020- NMP-PILOTS Grant Agreement no: 686116, 2015-2018- 7M€, www.optinanopro.eu 
+OpenMind, On-demand production of entirely customised minimally invasive medical devices, H2020- FoF Grant Agreement 
+no: 680820, 2015-2018, 5M€, www.openmind.eu 
+ProPAT, Robust and affordable process control technologies for improving standards and optimising industrial operations, 
+Grant Agreement no: 637232, H2020- SPIRE, 2014-2018, 5M€, www.pro-pat.eu 
+Existing Infrastructure 
+  
+Does the participant plan to subcontract certain tasks NO 
+Does the participant envisage that part of this work is performed by linked third parties  NO 
+Does the participant envisage the use of contributions in kind provided by third parties  NO 
+ 
+art photonics GmbH (AP)                                                                                   Partner #10 (German y) 
+ 
+The organization:  
+Art photonics (AP) is a privately owned SME founded by Dr Artyushenko in 1998 in Berlin to develop and 
+produce specialty fiber products for very broad spectral range – from 200nm to 16µm, including 3 product lines 
+now:  
+
+780598  MIRACLE   Part B Page 75 of 96 
+FlexiRay® line consists of silica, chalcogenide IR -glass and unique Polycrystalline IR (PIR -) Silver Halide fibers 
+and cables or bundles assembled from them. FlexiRay® Laser Cables can deliver laser power at any wavelength 
+from UV up to 10,6µm and could combine power from many lasers by bundles of unique metal coated fibers. 
+FlexiSpec® Fiber Optic Probes can eliminate sampling for lab spectrometers and enable real time remote process 
+spectroscopy for reaction monitoring, industrial process control and medical diagnostics in clinics. 
+Brand new FlexiSens® line premieres spectral fiber Moisture Sensor (MoiSens) – small LED-sensor to control 
+moisture in media with fiber probes. FlexiSens® platform allows to control various components in customized 
+application for low cost process-control in pharma, food, chemical and other industries with remote data analysis 
+via specific IP-address of each sensor. Biomedical sensors are under constant development. 
+Relevant skills/experience/technologies: 
+Art photonics is the world's leading manu facturer and supplier of InfraRed chalcogenide and polycrystalline 
+specialty optical fibres, spectroscopy fibre probes & fibre bundles, high power fibre cables for industrial and 
+medical applications. Art photonics GmbH is an ISO 9001:2008 certified suppli er of development and 
+manufacturing of special optical fibers and various fiber systems. 
+The Company's unique technology experience accumulated over 30 years allows to design, develop, and 
+manufacture the highest quality, cost -effective optical fiber solutions of a broad spectral range (from 200nm to 
+18µm) for industrial and OEM market. The flexible design of fiber probes enables multi -spectral analysis of any 
+process by different spectroscopy methods over the broad range of spectra including middle IR  range. The 
+possibility to design disposable or serializable probes allows to integrate probes in vivo in clinics. 
+Role in the project: 
+AP will be leading WP2 Imaging MIR-ATR arthroscopy probe and in cooperation with UUlm will be responsible 
+for the fundamental design, development, optimization, and evolution of the diamond ATR arthroscopy probe, 
+and imaging MIR-ATR arthroscopy catheter probe with specific focus on (i) polycrystalline fibers; (ii) monofiber 
+probe; (iii) the catheter diamond ATR probe for in -situ and in -depth OA diagnosis. Furthermore, AP will have 
+major contribution to the WP5 in prototype phase and minor contribution to WP2.   
+Key Personnel: 
+Dr Viacheslav Artyushenko PhD, President & CEO of ART PHOTONICS is a physicist. His PhD from 1981 
+was focused on pioneering development of polycrystalline fibers for Mid IR-range: 3-18µm. Multiple publications/ 
+patents were devoted to fiber optic technologies & applications in a broad spectral range from UV to Mid IR, 
+including laser medicine, process-spectroscopy, optical sensing & diagnostic. In 1998 he founded art photonics in 
+Berlin to spin -off his unique technology of polycrystalline fibres to industrial production and to develop and 
+produce various fibre probes for process-spectroscopy. Dr. V. Artyushenko is a member of SPIE since 1985, OSA, 
+SAS, EPIC, SPECTARIS, Optec-BB, Photonics-BB, GDCh-DECHEMA; CPACT & CLIRSPEC.  
+Dr Tatiana Sakharova PhD , PhD in Technology, Since 1987 work in the area of infrared semiconducto r 
+detectors, holds more than 20 papers and patents in semiconductor materials technology. Experience in crystal 
+growth, semiconductor films technology, analytical methods and research, material science of infrared materials, 
+electrical and optical test methods. Since 1998 works in fiber optics technology. Holds more than 10 papers in fiber 
+optic technology and research. Experience in optical fiber production, manufacturing and testing of fiber optic 
+cables and probes, fiber spectroscopy, technology development.  
+Dr. Olga Bibikova  PhD, PhD in bio physiscs (Russia). PhD student of International PhD Programme in 
+Molecular Medicine within Oulu (Finland) and Ulm (Germany). She is a specialist in fields in optical spectroscopy 
+methods including FT -IR, NIR, fluorescence, Raman spectroscopy; cells and tissue culture methods; data and 
+image processing; chemical synthesis of nanoparticles, optical coherency tomography; light, electron and confocal 
+microscopy. Organizer and the first President of the SPIE Student Chapter of Oulu University  Author and co -
+author of 11 publications in peer-reviewed and scientific journals and conference proceedings; 25 presentations at 
+major international conferences and workshops (oral and poster) 
+Profile: 
+Relevant publications/patents/products/services 
+780598  MIRACLE   Part B Page 76 of 96 
+US Patent No. 7,956,317 Fibre Optic Probe 
+US Patent No. 6,564,587 B2 Method of producing an optical fiber by gath-ering material from a molten bat 
+US Patent Application No. 09/944,825 Optical fiber and method of pro-ducing 
+European Patent Application EP 1184339 A3 Optische Faser und Herstellungsverfahren für eine optische Faser 
+V. Artyushenko, F. Schulte, U. Zabarylo, H.-P. Berlien, I. Usenov, T. Saeb-Gilani, H. Eichler, L. Pieszczek, A. Bogomolov, H. 
+Krause. O. Minet, “Spectral fiber sensors for cancer diagnostics in vitro, Proc. Of SPIE Vol. 9537, 2015;  
+Relevant research projects 
+Fiber Optic Molecular Sensor [FOMoS], European Regional Development Fund - ERDF 
+Multimodal Spectroscopic Investigation for inline determination of cell viability [Multispec], Federal Ministry of Educati on and 
+Resarch, Germany; Technologie centrum, Germany   
+Miniaturized Mir Sensors for Biorefinery process [MEMS-BIOPRO], Federal Ministry for Economic Affairs and Energy; ZIM 
+program for SMEs 
+Existing Infrastructure 
+ART PHOTONICS owns the needed research facilities, infrastructure and equipment to cover the project tasks, including 
+spectrometric systems, biological samples, fibre probes.  
+Equipment Manufacturer Type and details Comments  
+FTIR spectrometer 
+Matrix MF 
+Bruker Optics Mid IR range 5000 -500cm-1, 
+sensitive LN -cooled MCT 
+detector,  
+For fiber 
+optics only 
+FTIR spectrometer 
+Nicolet 6700 
+Thermo Scientific Mid IR range 5000 -500cm-1, 
+room temperature DTGS 
+detector and sensitive LN -cooled 
+MCT detector 
+Equipped 
+with fiber 
+optic coupler 
+Raman spectrometer 
+Ventana 
+Ocean Optics 785nm laser For fiber 
+optics only 
+ATR fiber optic probes art photonics Different ATR crystals and fibers 
+to cover mid IR range from 2 to 
+17 microns 
+ 
+Equipment and facilities for development and production of fiber optic spectroscopy probes of all 
+types: transmission, reflection, diffuse reflection, ATR, Raman 
+Dewar system for liquid nitrogen storage and sample containing. 
+Freezer for biological 
+samples 
+Arctico    
+ 
+Does the participant plan to subcontract certain tasks N 
+Does the participant envisage that part of this work is performed by linked third parties  N 
+Does the participant envisage the use of contributions in kind provided by third parties  N 
+ 
+ 
+Instituto Nacional de Engenharia Biomedica (INEB)                                        Partner #11 Portugal  
+ 
+The organization: 
+INEB - Instituto Nacional de Engenharia Biomédica – INEB is a private non -profit association with the 
+statute of public interest, founded in June 1989 by six institutions, including the University of Porto (UPorto).  
+In 2008 INEB established the consortium i3S – Instituto the Investigação e Inovação em Saúde, together with the 
+University of Porto, the Institute for Molecular and Cell Biology (IBMC) and the Institute of Molecular Pathology 
+and Immunology of UPorto (IPATIMUP). In 2014, i3S was among t he 11 national institutions rated as 
+“Exceptional” by the national Foundation for Science and Technology. 
+
+780598  MIRACLE   Part B Page 77 of 96 
+The Mission of INEB is to generate knowledge, by promoting research, advanced training and technology transfer 
+in biomedical engineering. INEB’s Visio n is to be an international reference in the application of integrated 
+engineering solutions to improve human health. INEB is an internationally recognized interdisciplinary research 
+institute, where integrative engineering solutions are applied to improve  human health, involving specialists in 
+biomaterials, tissue regeneration, nanomedicine, bioimaging, medical signals, geoepidemiology, biology and 
+medicine. Several clinicians, based at Porto’s largest hospital (Hospital de São João), have joined INEB in t he 
+specialities of Orthopaedics (including surgeons), Obstetricians and Nephrologists, with the latter creating the 
+Nephrology and Infectious Diseases Research Group  (NG), devoted to clinical and translational research in 
+chronic kidney disease (CKD), with competencies in several additional pathologies.  
+About 200 persons work at INEB (58 PhDs and 100 post -graduate students). INEB is a dynamic institute with a 
+large majority of young researchers (79% of researchers with less than 40 years old), including cl inician and MDs 
+doing their PhD theses at INEB.  
+In the past 10 years INEB’s researchers have generated 12 patents, 40 prototypes, 6 commercial products and 3 
+spin-offs and has licenced several technologies to global companies. In addition, in the last 5 y ears, INEB’s 
+researchers have published more than 300 scientific publications in high impact peer reviewed journals. The 
+excellence of research performed at INEB is regularly recognized through international and national prizes, 
+including the George Winter Award and Jean Leray Award (from the European Society of Biomaterials) and the 
+L'Oreal-UNESCO Award for Women in Science (three awardees).  
+INEB is a member of the following European Networks: ETPN - European Technology Platform – 
+Nanomedicine, the European Institute for Biomedical Imaging Research (EIBIR), is a member of the Portuguese 
+Cluster for Health (Health Cluster Portugal), and has collaborations with almost 100 institutions worldwide. INEB 
+integrates actively the European Innovation Partnership on Active and Healthy Ageing. INEB is qualified by the 
+National Strategic Reference Framework to provide consultancy and services in research a nd technology 
+development (RTD) to support innovative SMEs.  
+INEB has participated and coordinated EC projects under FP4, FP5, FP6 and FP7 (as well as other European and 
+international funding schemes), including FP7-NMP213904-Disk Regeneration and Marie Curie ITN-EID 317052 
+IB2 – Industrial Biological Biomaterials project in partnership with Grifols, SA.  
+Additional details at http://www.ineb.up.pt.  
+Instituto de Investigação e Inovação em Saúde (i3S) 
+The Institute for Research and Innovation in Health, i3S, headed by the University of Porto (UPorto), brings 
+together four institutions and researchers from several schools of UPorto. i3S results from the long -term 
+collaboration between INEB, IBMC (Instituto de Biologia Mol ecular e Celular), and IPATIMUP (Instituto de 
+Patologia e Imunologia Molecular da UPorto) and several research groups from Faculdade de Medicina da UPorto 
+(FMUP), encompassing joint projects, co -supervision of PhD students, sharing of large equipment and 
+employment of research staff under coordinated policies. 
+The research unit i3S (Ref UID/BIM/04293/2013) was evaluated in 2014 by an international panel, and was 
+among the 11 national institutions rated as “Exceptional” by FCT (Fundação para a Ciência e a Tecnologia).  
+i3S focuses on 3 Integrative Programs: 
+• Cancer; 
+• Host Response and Interaction; 
+• Neurobiology and Neurologic Disease. 
+The trans-disciplinary character of i3S is achieved through these Integrative Research Programs and by promoting 
+projects addressing questions that require participation of basic and applied sciences, such as: 
+• The development of effective and reliable in vitro diagnostic tools (for early detection of gastric cancer and 
+bacterial infection, combining molecular targets and nanotechnologies, with emphasis on in vivo bioimaging); 
+• The development of carriers, scaffolds and cell isolation, and manipulation technologies for effective cell 
+therapies and tissue engineering strategies in neurological diseases and trauma, pa rticularly for elderly and 
+diabetic patients; 
+780598  MIRACLE   Part B Page 78 of 96 
+• The development of fundamental research to solve basic biological questions will be a priority and it lays the 
+groundwork for future advancements; it will also be a guiding principle in hiring new researchers. 
+ 
+The i3S consortium is strategically located in a campus with a strong focus of Health, next to the largest hospital 
+in the Region and the Oncology Institute of Porto (IPO) as well as the Faculty of Medicine (and other scientific 
+institutions of the region, including INESC). Moreover, i3S has long and fruitful collaborations with local hospitals, 
+as demonstrated by collaborative projects and the fact that several i3S members also work at CH São João, including 
+some integrating this Program. Thus, i3S has a well-established environment and experience to foster transfer and 
+translation of technologies from the bench to the bedside.  
+i3S also has a Program for Scientific Culture, with the main objective of dissemination of scientific culture among 
+students and the general public. 
+Relevant skills/experience: 
+ 
+ 
+INEB has considerable experience not only in the management and participation in European projects and 
+networks, but also on the valorisation and exploitation of scientific results and competences in the life, materials 
+and health sciences. INEB has a vast  experience in knowledge transfer and in the valorization of scientific 
+knowledge and competences: in the past 10 years INEB’s researchers have generated 12 patents, 39 prototypes, 6 
+commercial products and 3 spin-offs, and has licenced several technologies to global companies, including Baxter 
+Healthcare and CAE Healthcare.  
+INEB and i3S have launched the RESOLVE Programme (www -resolve-health.pt). RESOLVE is a health 
+technology-based Program designed to provide support and management tools to early -stage projects and start-
+ups in the health sector, focused on the transformation of innovative research into profitable ventures. The aim is 
+to foster the transfer of knowledge, ultimately leading to licensing patents or launching start -ups by teams of 
+researchers and entrepreneurs involved in this area. RESOLVE is hosted at i3S and is funded by 
+NORTE2020/FEDER. The knowledge and channels accrued will be made available to the MIRACLE 
+consortium.  
+Role in the project: 
+INEB will  be the WP7 Leader. As such, INEB will be responsible for overseeing all tasks related to the 
+dissemination and exploitation of the project results, as well as to implement IP monitoring and management in 
+MIRACLE and the implementation and continuous impro vement of the MIRACLE Business Plan, the 
+Exploitation Plan and the Dissemination Plan. In addition, INEB will also lead the task 1.4 regarding the pathway 
+for regulatory approvals.  
+Key Personnel:  
+The project will be mainly carried out within INEB’s Technology Transfer and International Projects Office, 
+integrated in the Technology Transfer and Programmes Unit of i3S. The participants are actively engaged in the 
+RESOLVE Programme, a project dedicated to technology transfer of Health-related technologies with TRL 3 and 
+above.  
+ 
+Sofia Esteves (female) has graduated in Biology at University of Porto (2007) following by a master in Molecular 
+Genetics at University of Minho (2010). During this period, she also worked as a molecular geneticist in the Medical 
+Genetic Center (CGM-INSA) and as a researcher at IPATIMUP. She recently obtained her PhD in Health Sciences 
+at University of Minho (2016), Life and Health Science Research Institute (ICVS) focusing in t herapeutic 
+approaches and pre -clinical trials for neurodegenerative disorders. She published 9 peer review scientific papers 
+and submitted a patent. She joined INEB in 2016 and is currently working as a Project Manager of the RESOLVE 
+Program at Technology Transfer and Programmes Unit at i3S. Her main interests are related with translational 
+research and health science entrepreneurship projects and activities. 
+
+780598  MIRACLE   Part B Page 79 of 96 
+Nuno Neves (male) graduated in Medicine in 1997 at the Faculty of Medicine of the University of Por to, and 
+became a specialist in Orthopedics and Traumatology in 2006. He trained at the Hospitals Pitié -Salpétrière e 
+Armand Trousseau, Paris, France (2004) and Rothman Institute, Jefferson University, Philadelphia, USA (2008). 
+He is a PhD researcher at INEB and the Faculty of Medicine of the University of Porto. He practices at Hospital 
+Cuf Porto, Porto, and Centro Hospitalar de S. João, Porto. He has published more than 40 scientific articles in 
+national and international peer reviewed journals.   
+Profile: 
+Relevant publications/patents/products/services 
+Vasconcelos DM, Cortez J, Lamghari M. 2016. Technical Standards and Legislation for Implants and Implantable Medical 
+Devices. Reference Module in Materials Science and Materials Engineering. http://dx.doi.org/10.1016/B978-0-12-803581-
+8.04059-5  
+Cortez J, Vorobieva E, Gralheira D, (...), Gomes P, Franco R. Bionanoconjugates of tyrosinase and peptide-derivatised gold 
+nanoparticles for biosensing of phenolic compounds. 2011. Journal of Nanoparticle Research. 13 (3), pp. 1101-1113. 
+Lopes F, Esteves S, et al.. Identification of novel genetic causes of Rett syndrome-like phenotypes. 2016. Journal of Medical 
+Genetics. 53 (3), pp. 190-199.  
+Vasconcelos, D, Neves N et al. Fibrinogen scaffolds with immunomodulatory properties promote in vivo bone regeneration. 
+Biomaterials, 2016. 111:163-178. DOI: 10.1016/j.biomaterials.2016.10.004 
+Prothesis of the patella. Silva M, Rodrigues P, Antunes A, Monteiro E, Neves N, Oliveira P. Comparative study in knee 
+arthroplasties. Rev. Port. Ortop. Traum. 2013(21):2  
+Relevant research projects  
+RESOLVE-Respostas Eficazes para Superar Obstáculos que Limitam a Valorização Eficaz; SIAC NORTE -01-0246-FEDER-
+000018 (2016-2018) 
+ 
+Existing Infrastructure 
+INEB has access to advanced equipment for undertaking research in the fields of nanomedicine and biomaterials, and in 
+particular the state-of-the-art facilities Centre in Bioimaging (www.bimage.ineb.up.pt), which include confocal Raman 
+microscopy, atomic force microscopy, with the possibility of exploring the combination with inverted fluorescence microscopy,  
+imaging cytometry, microultrasounds for in vivo, confocal microscopy, imaging ellipsometer and fluorescence microscopy with 
+time-lapse. Others apparatus and facilities include: FTIR/RAMAN spectroscopy, scanning electron microscopy, XPS, QCM -D, 
+surface energetics, electro kinetics, GPC/SEC, DMA, DSC, advanced light microscopy facilities, cell culture and animal 
+(including P3) facilities, histology and electron microscopy services for advanced tissue analysis, advanced flow cytometry 
+facilities, genotyping and metabolomics. 
+These can be made accessible to the project partners if and as necessary.  
+Does the participant plan to subcontract certain tasks N 
+Does the participant envisage that part of this work is performed by linked third parties  N 
+Does the participant envisage the use of contributions in kind provided by third parties  N 
+ 
+Asociación Española de Normalización (UNE)                             Partner #12 (Spain) 
+ 
+The organization: 
+The Spanish Association for Standardization (UNE) is a non profit-making, private, independent and multisectoral 
+organisation, recognised at National, European and International level. Through the development of technical 
+standards helps improve the quality and competitiveness of companies, products and services. 
+As standardization body, UNE is the national representative and member of the European (CEN/CENELEC), 
+International (ISO/IEC) and Panamerican (COPANT) Standards Organizations, and member of the European 
+Telecommunications Standards Institute (ETSI). 
+
+780598  MIRACLE   Part B Page 80 of 96 
+More than 30000 standards in catalogue, 200 national technical committees and 150 responsibilities (chairpersons, 
+secretariats, convenors) in international standardization committees are a sample of the experience developed as 
+national standards body during the last 30 years. 
+Relevant skills/experience/technologies: 
+UNE is the National Standardization Body of Spain, member of CEN, CENELEC, ISO, IEC and ETSI. 
+UNE is participating in many Research and Innovation projects (Horizon 2020, FP7, Life+, CIP etc., see examples 
+here) representing the European Standardization Organizations CEN and CENELEC to support and manage the 
+integration of standardization activities in the projects, fostering the dissemination of their results to the relevant 
+European stakeholders and facilitating their introduction into the market. It is also an active member of the CEN-
+CENELEC Strategic Group ‘STAIR’ (STAndardization, Innovation and Research), which develops the guidelines 
+for the practical integration of standardization and research. 
+Role in the project: 
+UNE will advise, manage and develop all the activities related with standardization in WP7. European 
+Standardization Organizations, CEN and CENELEC do not participate directly in research and innovat ion 
+projects, delegating this participation into their national members. 
+Key Personnel: 
+Fernando UTRILLA (Mr)  
+Mechanical Engineer (University of Zaragoza). Master Degree on Innovation Management (UNE). 
+Since 2012, Head of Research and Innovation Unit at the Standardization Department of UNE, coordinating the 
+participation of UNE as National Standards Body in research projects and proposals, including Horizon 2020, 
+FP7, Life+, CIP programmes. Spanish representative in CEN -CENELEC ‘STAIR’ (Standardization, Innovation 
+and Research) Group. Secretary of CEN/TC 389 “Innovation Management”. Previously worked for 11 years as 
+Standardization Programme Manager in UNE, giving support and carrying the Secretariat of several national and 
+European Technical Committees in  the engineering and innovation sectors. Previous experience in metal 
+transforming industry, as Production Manager. 
+Cristina HERNÁN (Ms) 
+Degree in Pharmacy (Complutense University of Madrid). Master degree in Pharmaceutical and 
+Parapharmaceutical Industry (CESIF). 
+Since 2006, Standardization Programme Manager on Health. Secretariat of the Committee AEN/CTN 179 
+"Quality and safety in health care facilities", Giving support to several national standardization committees related 
+to the health sector such as optical, dental, medical devices, information and communication technologies for the 
+health, assistive products for persons with disability or implants for surgery. Previous experience in the medical 
+device industry as Quality Manager and as a technical guarantor. 
+José Antonio JIMÉNEZ (Mr) 
+Electronic Engineer - Specialization in automation and electronics (University of Málaga) 
+Currently Program Manager of Electronics and ICT at the Standardization Department of UNE (since 2007), 
+giving support and carrying the Secretariat of several national Technical Committees mainly on the fields of Electric 
+equipment and automatic systems for industry, Luminaries, lamps and related equipment, and Electronic 
+equipment. 7 years of previous experi ence working as responsible for the maintenance of telecommunication 
+network equipment and network management systems. 
+Profile: 
+Relevant publications/patents/products/services 
+UNE has a specific national standardization technical body related with photonics, CTN 209/SC 76 "Laser and electro-optical 
+equipments, installations and systems". More than 50 published standards are directly related with these committee, covering 
+terminology, test methods, determination of key parameters, etc. Additionally, UNE has national standardization committees 
+related with medical and electromedical devices such as CTN 209/SC 62 "Electromedical equipment"and CTN 111 "Surgical 
+and medical devices".  More than 250 published standards are directly related with these commi ttee 
+The total number of standardization committees in UNE is over 200, involving more than 10000 experts and having published 
+more than 30000 standards. 
+Relevant research projects 
+780598  MIRACLE   Part B Page 81 of 96 
+BRIDGIT- Bridging the gap between research and standardization – FPA – 2013-2014 – 1.640.000€ – 
+http://www.cencenelec.eu/research/BRIDGIT/Pages/default.aspx 
+PHOCNOSIS- Advanced nanophotonic point-of-care analysis device for fast and early diagnosis of cardiovascular diseases– 
+H2020 PHC 10 – 4.146.000 €–https://phocnosis.eu/–(Subcontractor) 
+ELASTISLET - Tailored Elastin-like Recombinamers as Advanced Systems for Cell Therapies in Diabetes Mellitus: a Synthetic 
+Biology Approach towards a Bioeffective and Immunoisolated Biosimilar Islet/Cell Niche – H2020 NMP-10-2014 - 2015- 2019 
+– 6.718.000€–http://www.elastislet.eu/en/–(Subcontractor) 
+SCAFFOLD - Innovative strategies, methods and tools for occupational risk management of manufactured nanomaterials 
+(MNM) in the construction industry – FP7 NMP – 2012-2015 - 3.763.000€ - http://scaffold.eu-vri.eu/ 
+REEMAIN - Integration of Renewable Energy Sources at Factory Environment – FP7 FoF - 2013-2017 – 12.200.000€ - 
+http://www.reemain.eu/ 
+Existing Infrastructure 
+UNE, as member of the European/International standardization system, has full access to its entire internal information 
+infrastructure which will be required to fulfil the relevant tasks in the project. 
+Does the participant plan to subcontract certain tasks No 
+Does the participant envisage that part of this work is performed by linked third parties  No 
+Does the participant envisage the use of contributions in kind provided by third parties No 
+ 
+Photonics Finland                                                  Partner #13 (Finland) 
+ 
+The organization:  
+Photonics Finland is a technology oriented association that drives the photonics industry in Finland. It connects 
+photonics companies, research centres and public authorities. Photonics Finland is a national photonics platform 
+and cluster.  
+Relevant skills/experience/technologies:  
+Photonics Finland was founded in June 2014. Photonics Finland develops new business and research opportunities 
+and helps realise the full potential of the photonics industry in sectors like health care, energy efficiency, safety,  
+manufacturing and sustainability. Photonics Finland team has experience in communication and marketing in the 
+field of photonics and new technologies.  
+Role in the project: 
+Photonics Finland will contribute in WP7 in the dissemination of the novel photoni cs components developed in 
+MIRACLE, including to establish communication channels, organize events and participate in relevant events in 
+the field.  
+ 
+Key Personnel: 
+Juha Purmonen (male) is executive director of the Photonics Finland association. He is an executive director at 
+Photonics Finland. With both scientific and business background, Juha has over 10 years’ experience in a variety 
+of projects, e.g. development and sales experience from the wide global business sectors. Juha started his carrier as 
+software engineer focused on cryptography solutions. Later on, he concentrated spectral color research and was 
+spectral color researcher at University of Eastern Finland. Juha is a c o-founder of SoftColor Ltd that won the 
+president of Finland granted INNOFINLAND prize in 2005. He is responsible for the development of photonics 
+and nanotechnology business activities. He is one of the co -founders of Photonics Finland Cluster. Juha has 
+participated in several European projects and has a lot of experience in national development projects. 
+Tuukka Pakarinen (male) is a communication manager of Photonics Finland association. He is also a project 
+coordinator at Joensuu Science Park in Finland.  His main responsibilities are to produce and develop 
+communication and marketing communication in the fields of photonics and new technologies as well as events. 
+With his background, Bachelor of Media specialised in Producing and Video and a Philosophy Ma ster degree 
+
+780598  MIRACLE   Part B Page 82 of 96 
+specialised in Media and Communication, Tuukka has been an entrepreneur doing photography and video 
+productions with many companies and has experience in communication development cases and in producing a 
+variety of projects. 
+Profile: 
+Relevant publications/patents/products/services 
+Photonics Finland supports the development of the photonics field from basic research through to the employment and 
+market launch of products.  
+Existing Infrastructure 
+Photonics Finland has over 80 member organisations that operate together in seven multidisciplinary work groups. It has 
+established channels to disseminate the project results in the field of photonics.  
+Does the participant plan to subcontract certain tasks No 
+Does the participant envisage that part of this work is performed by linked third parties No 
+Does the participant envisage the use of contributions in kind provided by third parties  No 
+ 
+Universidade Católica Portuguesa (UCP)                                                                                        Partner #14 Portugal 
+ 
+The organization:  
+Universidade Católica Portuguesa (UCP) is a research university committed to contribute to knowledge and to the 
+well-being of society. It is a national university with 4 regional campi (Lisbon, Porto, Braga ,Viseu) with strong 
+inter-sectoral ties. The University is recognized for the social impact of its research agenda and for its contribution 
+to the formulation of policy. 
+UCP is privately funded and recognized by the Portuguese State as an autonomous university institution of public 
+utility. In line with the University’s Research Strategy UCP2020, UCP aims to foster interdisciplinary and 
+transversal research and potential candidates will preferentially work across disciplines to address complex social 
+challenges. UCP is committed to foster a supportive and productive research environment anchored in diversity 
+and equality, offering ample opportunities that involve a ll scholars regardless of their nationality, ethnicity, class, 
+or gender. UCP is committed to disseminating its research outcomes both nationally and internationally. As such, 
+in line with UCP’s open access policy, the University encourages all researchers  to deposit their dissertations and 
+accepted manuscripts in its open access repository Veritati (http://repositorio.ucp.pt/), which is part of the 
+national scientific repository in open access RCAAP.  
+The Faculty of Biotechnology of the Universidade Católica Portuguesa (ESB-UCP) has a respected and recognized 
+position in higher education on biotechnology, with particular emphasis on the agro-food and environmental areas 
+and their interfaces with health and well -being. Its research centre, the Centre for Bio technology and Fine 
+Chemistry – CBQF, holds disciplinary competencies essentially based on biosciences, bioengineering, biomaterials 
+from biological origin, nutrition and analytical chemistry, applied to thematic challenges focused on the Health and 
+Well-being of the Citizen and the Competitiveness of the Agricultural and Food Systems. Fundamental and applied 
+research are developed in close partnership with Portuguese and international R&D partners and companies. 
+CBQF as a Research Centre was evaluated by an international jury as Excellent (highest rank), following the 2018 
+evaluation implemented by the Portuguese Science Foundation (FCT). More than 120 researchers, 66 holding a 
+PhD degree, 50 PhD students and several research fellows, currently work at CBQF -UCP. CBQF is strongly 
+involved in national and international R&D+I and educational projects developed in partnership with R&D 
+Centres, Universities and Companies (more than 100 in the past five 5 years where 50% were in collaboration with 
+industry). In th e last 5 years, CBQF has published more than 550 peer reviewed papers, submitted 22 patents, 
+collaborated with 130 HE institutions and research centres from approximately 50 countries, and is active in 35 
+international education and research networks (e.g. , ISEKI_Food, EULAFF, SPESS, Erasmus +, REAL, 
+INOVAR).  
+
+780598  MIRACLE   Part B Page 83 of 96 
+Relevant skills/experience: 
+CBQF-UCP is equipped with different thematic advanced platforms serving the research activities and extension 
+services: Bioactives Characterization, Molecular Biology and Cell Culture, Analytical Chemistry, with the capability 
+of designing and using prototypes and pilot scale equipment in the food, environmental and health R&D+I 
+activities. The scientific and technological developments have promoted more competi tive companies and 
+contributed to the internationalization of solutions and companies. The CBQF connection to key stakeholders is 
+achieved by transfer of knowledge and technology with the direct application of results, services or project 
+implementation, with the exploitation of the acquired patents and by promoting qualified entrepreneurship. 
+CBQF’s track record includes ca. 35 business projects in the area of biotechnology (startups), developed in the 
+framework of pre -incubation and incubation activities.  CBQF has an office for Research and Funding Advice, 
+headed by João Cortez, a Knowledge Transfer and Partnerships Platform and will have the support of the Business 
+School of UCP, based at the same Campus in Porto. 
+Role in the project: 
+Responsible for the Exploitation Tasks in MIRACLE (Task 7.4) and WP7 Leader.  UCP will assist the industrial 
+partners in supporting the partners in innovation activities and activities to ensure the exploitation of key 
+exploitable results in MIRACLE. 
+Key Personnel:  
+Dr. João Marques Cortez (male) graduated in Chemistry at the University of Coimbra and obtained his PhD in 
+Textile Chemistry in 1999 at De Montfort University, UK. His post -doc work was carried out at the Nottingham 
+Trent University, where he became Senior Research Fellow in 2006. In 2008 he started a Ciência 2007 position at 
+the Faculty of Science and Technology of Universidade Nova de Lisboa (PT), in nanotechnology applications in 
+biosensors and in textiles. Since graduation, his research involved collaborations wi th industry, and the 
+development of products and processes, resulting in 3 patents. He was Head of the International Projects and 
+Business Development Office at INEB for 7 years and Head of the i3S Research Funding Office for 3 years, with 
+responsibilities as coordinator of the tech transfer project RESOLVE. He has considerable experience both as 
+researcher and in the management of European projects. He managed the FP7 Marie Curie ITN-EID project IB2 
+coordinated by INEB, was the PI of H2020 ICT -30: 780598 p roject MIRACLE at INEB/i3S (Exploitation 
+Manager), and was participant of the H2020 RESTORE project (814558), as Exploitation Manager. He is now 
+Research and Innovation Advisor at CBQF and the Porto Campus of UCP. ORCID: 0000-0002-8227-0754  
+Profile: 
+Relevant publications/patents/products/services 
+Vasconcelos DM, Cortez J, Lamghari M. 2016. Technical Standards and Legislation for Implants and Implantable Medical 
+Devices. Reference Module in Materials Science and Materials Engineering. http://dx.doi.org/10.1016/B978-0-12-803581-
+8.04059-5 
+Cortez J, Vorobieva E, Gralheira D, (...), Gomes P, Franco R. Bionanoconjugates of tyrosinase and peptide derivatised gold 
+nanoparticles for biosensing of phenolic compounds. 2011. Journal of Nanopartic le Research. 13 (3), pp. 1101-1113. 
+Relevant research projects  
+Participation in NMBP-22-2018 project RESTORE: 814558; (User-centred smart nanobiomaterial-based 3D matrices for 
+chondral repair). João Cortez worked as Exploitation Manager.  
+RESOLVE: Respostas Específicas para Superar Obstáculos que Limitam a Valorização Eficaz. Project NORTE -01-0246-
+FEDER-000018. This was an ignition program to promote seed projects and start-ups in the health sector, boosting the 
+translation of innovative ideas into business ventures and value creation. João Cortez was Head of the team of 5 people 
+implementing the project at i3S (www.resolve-health.pt). 
+Organiser of WARP: the first conference for accelerator programmes dedicated to the health sector.  
+Founder of the i3S-Hovione Capital Innovation Prize, an international award aimed at distinguishing innovative ideas in the 
+health sector. This 35k€ prize brings together an innovation institute and a health solutions dedicated investor.  
+HIRF Innovation Fellowship (UK, £27,000), to bring to market an enzyme-based solution for textiles, in partnership with Marks 
+& Spencers (UK) and Ajinomoto (JP). 
+ 
+780598  MIRACLE   Part B Page 84 of 96 
+Existing Infrastructure 
+ UCP has extensive experience in collaborating with the industry in developing market-led R&D&I. CBQF’s portfolio includes 
+30 active patents, several licensing agreements undergoing and has been involved in the co -development of products currently in 
+the market. The Team’s direct access to the expertise in the UCP Business School, in the same Campus, will also ensure the 
+correct and timely delivery of the tasks assigned.  
+CBQF-UCP has dedicated laboratory equipment and supporting facilities for research unde rtaken within areas such as 
+microbiology, molecular biology, cell culture, fine chemistry and biochemistry, food technology and packaging. CBQF is 
+equipped with the most advanced scientific resources in the areas of chemistry, biology, molecular biology, p hysical and sensory 
+analysis, dedicated to basic science, food and environmental technology and human nutrition  
+Does the participant plan to subcontract certain tasks N 
+Does the participant envisage that part of this work is performed by linked third par ties N 
+Does the participant envisage the use of contributions in kind provided by third parties  N 
+ 
+5. Ethics and Security
+5.1 Ethics 
+The MIRACLE consortium ethics self-assessment recognizes the ethical issues regarding to three particular points: 
+(i) Humans and (ii) and Human cells/tissues and (iii) Equines. The follow sub -sections presents the ethics self -
+assessment realized during proposal phase.   
+5.1.1 Ethical self-assessment for humans  
+5.1.1.1 General aspects 
+It is stated in Declaration of Helsinki - Ethical Principles for Medical Research Involving Human Subjects general 
+principles ‘The primary purpose of medical research involving human subjects  is to understand the causes, 
+development and effects of diseases and improve preventive, diagnostic and therapeutic interventions (methods, 
+procedures and treatments)’. Accordingly, MIRACLE’s purpose of involving human subjects is to validate 
+the novel diagnostic method in order to improve joint tissue evaluation promo ting better tools for 
+therapeutic decision making.  
+  
+The validation in the clinical setting in MIRACLE will be carrie d out in accordance with the following main 
+principles: 
+Common principles: 
+▪ The subjects will not be exposed to any extra danger or complications. 
+▪ The arthroscopic techniques to be used in the study are comparable with routine clinical arthroscopic 
+techniques.   
+▪ The study will be submitted to the appropriate Ethics Committee once the project is granted and before 
+the Grant Agreement conclusion.  
+Humans: 
+▪ The rights, safety and wellbeing of clinical investigation subjects will be protected consistent with the 
+ethical principles laid down in the Declaration of Helsinki. 
+▪ All regulations and measures of confidentiality and data security will be strictly enforced according to 
+the University guidelines, national legislation and in accordance with Declaration of Helsinki. 
+▪ All study subjects must provide a written informed consent. In MIRACLE, no children or other vulnerable 
+subjects will be recruited. 
+▪ The validation in the clinical setting will be performed by highly qualified orthopaedic surgeons.  
+ 
+ 
+780598  MIRACLE   Part B Page 85 of 96 
+5.1.1.2 EU Directives and International Organization for Standardization (ISO) for Human subjects 
+EU Directives 2001/20/EC  and 2005/28/EC state the laws, principles and regulations regarding to the 
+implementation of good clinical practice in the conduct of clinical trials on medicinal products for human use. 
+Although these documents emphasis are related to ‘investigation in human subjects intended to discover or verify 
+the clinical, pharmacological and/or other pharmacodynamics effects’, general good clinical practices will be 
+adopted during MIRACLE validation in clinical settings as follow: 
+▪ Ensure protection of human rights and the dignity of the human being during the clinical trials. 
+▪ Follow the proper legal instruments to obtain the human subject legal consent to the clinical investigation. 
+Persons who are incapable of giving legal consent to clinical trials should be given special protection. 
+▪ Ensure that the person information is treated as strictly confidential and is not made publicly available. 
+▪ Follow all ethical and scientific quality requirements which must be observed for designing, conducting, 
+recording and reporting clinical trials that involve the participation of human subjects. 
+▪ Provide assurance that the rights, safety and well -being of trial subjects are protected, and that the results of 
+the clinical trials are credible. 
+ 
+Important to emphasize that although these directives are regarding clinical trials, MIRACLE will NOT carry out 
+clinical trials (which are extensive clinical validation on humans) but ONLY perform system prototype testing and 
+validation in conditions of cl inical environment, on real samples/subjects and involving highly competent users 
+i.e. orthopaedic surgeons. The aim of the ‘validation in clinical settings’ is to establish that the developed diagnostic 
+system in MIRACLE accomplish its full functionality in real medical use i.e. arthroscopy procedure. In this sense, 
+the EU Directive 90/385/EEC and 93/42/EEC (as amended by  2007/47/EC) regarding medical devices 
+defines additional regulations to MIRACLE validation in clinical settings which we can highlight t he follow 
+practices: 
+▪ Assess the safety and clinical performance of the device in question and evaluate whether the device is suitable 
+for the purpose(s) and the population(s) for which it is intended. 
+▪ Clinical investigation should be carried out in an adequate human clinical environment. 
+▪ Clinical investigation should be carried out by qualified medical practitioner or authorized person with 
+accepted equivalent qualification. 
+▪ Prototype design and manufacture should ensure system quality, safety and clear ins tructions regarding the 
+device. 
+▪ Follow a proper risk management procedure to avoid undue risks. 
+▪ Be compliant to all relevant legal and regulatory requirements. 
+▪ Follow appropriate ethical principles.  
+In addition, it is a good practice to follow international standardization on clinical investigations of medical devices 
+as for example: 
+▪ Clinical Investigation of Medical Devices for Human Subjects – General requirements (EN ISO 14155-1:2009) 
+▪ Clinical investigation of Medical Devices for Human Subjects – Clinical Investigation Plan (EN ISO 14155 -
+2:2009) 
+▪ Application of risk management to medical devices (EN ISO 14971:2009) 
+The Council Directive above does not apply to human tissue collection. For this case, EU Directive 2004/23/EC 
+governs the handling of tissues and specific rules must be followed which we can highlight the follow aspects: 
+▪ Ensure donor protection and confidentially. 
+▪ Obtain free and fully legal consent from the donor. 
+▪ Handle the tissue collection by highly competent medical practitioner. 
+▪ Ensure quality management of tissue by well establish protocols for preparation, processing, labelling, 
+packaging and storage. 
+▪ Keep track of the origin of the tissues that are collected and obtain the necessary authorisation for using 
+properly the generated results. 
+780598  MIRACLE   Part B Page 86 of 96 
+5.1.1.3 Humans subjects 
+MIRACLE will address the validation in clinical settings of the novel diagnostic system via clinical environment 
+testing on human cadaver knees (task 6.2) and in vivo human patients (task 6.4). Table 17 provides the relevant 
+information on human subject clinical validation in the context of MIRACLE project.  
+Table 17: Relevant information on ethics self-assessment regarding human 
+Human cadaver 
+Nature of disease/condition/disability Not applicable to human cadaver.  
+Details on recruitment, inclusion and 
+exclusion criteria, informed of consent 
+procedures 
+Recruitment and inclusion/exclusion criteria will be define when preparing the 
+documents regarding ethics approval for this specific project. The documents will be 
+prepared based on previous project.  
+All study subjects provide a written informed consent.  
+Details of consent procedure will be defined during ethics approval request phase. 
+The consent form will be prepared based on previous project. 
+Details on your policy for incidental 
+findings 
+Not applicable to human cadaver.  
+Methodology to be used during research Simulation of in vivo arthroscopy on human cadaver knee in order to evaluate joint 
+tissues (articular cartilage, meniscus and ligaments).  
+After the measurements, cadaver knee joints will be opened and tissue samples will 
+be detached from the measurement locations for reference measurements via 
+conventional methods. 
+Impact of the research Provide feedback information from the end user (i.e. orthopaedic surgeons) 
+regarding the design and technical features of the developed diagnostic system durin g 
+arthroscopic conditions before actual in vivo application.   
+Evaluate the functionality and capabilities of the system for further technological 
+development.   
+Responsible to conduct the research The partners in charge of clinical investigation will be Kuopio University Hospital 
+(KUH) and University of Eastern Finland (UEF).  
+The researchers in charge will be Prof. Heikki Kröger (chief orthopaedic surgeon at 
+the Dept Orthopaedics & Traumatology, KUH) and Professor Juha Töyräs (chief 
+Physicist at the Diagnostic Imaging Center, KUH and Professor of Medical Physics 
+and Engineering, UEF).  
+They are both highly qualified to perform the clinical investigations due their 
+previous experience in clinical settings and trials.  
+Ethics Approval All regulations and measures of confidentiality and data security will be strictly 
+enforced according to the University guidelines, national legislation and in 
+accordance with Declaration of Helsinki. 
+MIRACLE clinical seetings will be submitted to the Ethics Committee of the 
+Hospital District of North Savo for Ethics Approval for this particular project.  
+The ethics approval will be request specifically for MIRACLE clinical settings once 
+the project is granted and before the Grant Agreement conclusion.  
+Similar clinical investigation has been conducted by this team in previous projects 
+evidencing the awareness regarding the ethics assessment as well as the submission 
+of ethics approval to the competent national authorities. 
+Human patients 
+Nature of disease/condition/disability Patients undergoing total knee replacement surgery and patients undergoing routine 
+arthroscopy due to ligament or meniscal injury. 
+The subjects will not be exposed to any extra danger or complications. 
+Details on recruitment, inclusion and 
+exclusion criteria, informed of consent 
+procedures 
+Recruitment and inclusion/exclusion criteria will be define when preparing the 
+documents regarding ethics approval for this specific project. . The documents will 
+be prepared based on previous project.  
+No children or other vulnerable subjects will be recruited. 
+All study subjects provide a written informed consent.  
+Details of consent procedure will be defined during ethics approval request phase. 
+The consent form will be prepared based on previous project. 
+780598  MIRACLE   Part B Page 87 of 96 
+Details on your policy for incidental 
+findings 
+Not applicable to this study. This project focuses on the applicability of the 
+technology for in-depth diagnosis. Therefore, no conclusions can be made about the 
+health of an individual patient during the measurements. Clinical trials will be 
+necessary in further steps. In addition, since the studied patients are either already 
+going to total knee replacement surgery or are being arthroscopically investigated due 
+to a known existing injury, it is unlikely that our study reveals any additional 
+incidental findings.  
+Methodology to be used during research The arthroscopic techniques used in the study are comparable with routine clinical 
+arthroscopic techniques.  
+For patients undergoing to total knee replacement surgery, after the total knee 
+replacement, cartilage tissue and meniscus will be harvested from the removed bone 
+ends of the knee joint. Tissue samples will be detached for reference measurements. 
+After thorough biomechanical testing histological stainings for collagen and 
+proteoglycans will be used for evaluation of the tissue integrity and histopathological 
+grading of osteoarthritis in the tissue. 
+For patients undergoing routine arthroscopy due to ligament or meniscal injury, 
+magnetic resonance imaging (MRI) will be performed before arthroscopy. MRI 
+serves as a reference for MIR probe measurements, and results from multivariate 
+models will be compared with MRI-based grading of tissue degeneration. 
+Impact of the research Provide feedback information from the end user (i.e. orthopaedic surgeons) 
+regarding the design and technical features of the developed diagnostic system during 
+real medical use. 
+Evaluate the functionality and capabilities of the system for further technological 
+development.   
+Responsible to conduct the research The partners in charge of clinical investigation will be Kuopio University Hospital 
+(KUH) and University of Eastern Finland (UEF).  
+The researchers in charge will be Prof. Heikki Kröger (chief orthopaedic surgeon at 
+the Dept Orthopaedics & Traumatology, KUH) and Professor Juha Töyräs (chief 
+Physicist at the Diagnostic Imaging Center, KUH and Professor of Medical Physics 
+and Engineering, UEF).  
+They are both highly qualified to perform the clinical investigations due their 
+previous experience in clinical settings and trials.  
+Ethics Approval All regulations and measures of confidentiality and data security will be strictly 
+enforced according to the University guidelines, national legislation and in 
+accordance with Declaration of Helsinki. 
+MIRACLE clinical seetings will be submitted to the Ethics Committee of the 
+Hospital District of North Savo for Ethics Approval for this particular project.  
+The ethics approval will be request specifically for MIRACLE clinical settings once 
+the project is granted and before the Grant Agreement conclusion.  
+Similar clinical investigation has been conducted by this team in previous projects 
+evidencing the awareness regarding the ethics assessment as well as the submission 
+of ethics approval to the competent national authorities. 
+ 
+5.1.1.4 Human cells/tissues 
+MIRACLE will also address the validation in clinical settings of the novel diagnostic system via human tissue in 
+vitro testing (task 6.1).  TT provides the relevant information on human tissue collection in the context of 
+MIRACLE project.  
+ 
+Human tissues  
+Details on tissue types Knee joint tissues (articular cartilage, meniscus and ligaments) 
+Details the source of materials, 
+the amount to be collected, the 
+procedure of collection 
+Both healthy and intact samples from cadavers as well as naturally diseased samples from 
+patients undergoing total knee replacement surgery will be investigated (see 1.1 for human 
+cadavers and human patient ethics self-assessment). 
+The subjects will not be exposed to any extra danger or complications. 
+No children or other vulnerable subjects will be recruited. 
+780598  MIRACLE   Part B Page 88 of 96 
+Details on the duration of 
+storage and what you will do 
+with the material after the 
+research ends 
+Until the end of the project, formalin fixed human tissue samples will be stored in 70% 
+ethyl alcohol, and samples not fixed will be immersed in phosphate-buffered saline and 
+stored in a deep freezer at -70°C. According to Finnish law, the biologic samples will have 
+to be destroyed when the respective research project has ended without a justification. 
+Therefore, the biologic samples collected during this project will be cremated within 1 year 
+of completion of the project. 
+Informed consent forms All study subjects provide a written informed consent.  
+Details of consent procedure will be defined during ethics approval request phase. 
+Impact of the research Human tissues will provide information about the sensitivity of the developed MIR-based 
+diagnostic system for in-depth tissue-level changes during different phases of osteoarthritis. 
+The results will be compared with traditional methods (e.g. histological stainings, FTIRI, 
+PLM and biochemistry) in order to fully evaluate the spatial composition and structure of 
+the tissue samples. 
+Responsible to conduct the 
+research 
+Human tissue collection will be collected by KUH and UEF (Prof. Heikki Kröger, chief 
+orthopaedic surgeon at the Dept Orthopaedics & Traumatology, and Professor Juha 
+Töyräs, chief Physicist at the Diagnostic Imaging Center) according to the human cadaver 
+and human patients ethics described in 1.1).   
+The tissue evaluation will be conducted by Dr. Simo Saarakkala, (Associate Professor at 
+Medical Imaging, Physics and technology, UOulu). He has over 15 years’ experience in 
+medical physics and biomedical engineering with particular emphasis on osteoarthrit is 
+research.  
+Ethics Approval 
+ 
+Accreditation/designation/ 
+authorisation/ licensing for 
+using processing or collecting 
+the human tissues 
+All regulations and measures of confidentiality and data security will be strictly enforced 
+according to the University guidelines, national legislation and in accordance with 
+Declaration of Helsinki. 
+MIRACLE human tissue evaluation will be submitted to the Ethics Committee of the 
+Northern Ostrobothnia Hospital District for Ethics Approval for this particular pro ject.  
+The ethics approval will be request specifically for MIRACLE clinical settings once the 
+project is granted and before the Grant Agreement conclusion.  
+Similar clinical investigation has been conducted by this team in previous projects 
+evidencing the awareness regarding the ethics assessment as well as the submission of 
+ethics approval to the competent national authorities. 
+ 
+5.1.2 Ethics self-assessment: Equines 
+5.1.2.1 General aspects 
+The animal experiments will be reviewed and authorised by the local animal experimentation committee. All 
+experiments will be performed by authorised and specifically educated personnel only and will respect rules of 
+ethical and medico-ethical committees of the given country. During local approvals professional statisticians will 
+be consulted to determine minimum animal numbers, sufficient for statistically significant results, to validate the 
+experiments. The animals will be housed in specialised facilitie s that conform to the local animal research 
+regulations. Only authorised and qualified personnel will attend animals and health parameters will be monitored 
+regularly.  
+5.1.2.1  Relevant national and EU regulations relating to the use of animals 
+National Regulations (and local regulations) for ANIMAL STUDIES 
+Netherlands • National Guidelines for Animal Experimentation (Experiments on Animals, 
+act amended 2003) 
+Relevant EU legislation and directives 
+• Directive 2003/65/EC of the European Parliament and of the Council of 22 July 2003 amending Council 
+Directive 86/609/EEC on the approximation of laws, regulations and administrative provisions of the 
+Member States regarding the protection of animals used for experimental and other scientific purposes 
+780598  MIRACLE   Part B Page 89 of 96 
+National Regulations (and local regulations) for ANIMAL STUDIES 
+• Directive 86/609/EEC of 24 November 1986 on the protection of Animals used for Experimental and 
+other Scientific purposes 
+ 
+5.1.2.2 Measures to minimise pain, distress and other suffering  
+An Ethical Advisor will monitor all animal experiments regularly. All invasive procedures (e.g. surgery and in vivo 
+imaging) will be performed under general anaesthesia. These and other procedures will be carried out to minimise 
+pain and distress. Partners will work in accordance with the European Union Council’s directive 86/609/EEC), as 
+well as NIH guidelines on animal care and experimentation. Partners will adhere to the Society of Neuroscience’s 
+Policies on the Use of Animals and Humans in Neuroscience Research 
+(http://www.sfn.org/index.aspx?pagename=guidelinesPolicies_Use Of AnimalsandHumans).  
+The Consortium carefully considered the possibility of restricting studies to humans or cellular models. Equine 
+studies were deemed necessary, however. First, because the horse is a target animal in itself with great and unmet 
+clinical need for earlier and better diagnosis of joint disorders. This means that the species itself can benefit from 
+the outcome of the project and that in terms of valorisation the equine  sector can be a commercially attractive 
+second market for the device. Second, because the species offers a unique opportunity for the clinical validation of 
+the MIR-probe as a tool to monitor healing of standardized lesions, which cannot be done in human subjects. This 
+is important to evaluate the potential of the device for future clinical application. 
+At the end of the in vivo experiments, animals will be euthanized by procedures that are considered acceptable 
+(Appendix A of the European Convention for t he Protection of Vertebrate Animals used for Experimental and 
+other Scientific Purposes, ETS No. 123), by overdose of barbiturates after sedation and proper induction for 
+anaesthesia. 
+5.1.2.3 Measures to minimise the number of animals used in experiments (reduce)  
+The pilot studies with horses (estimated number needed for these: 3 horses), as described in WP6 will be performed 
+on animals that will be sacrificed for educational purposes anyhow. For this reason, no additional animals are 
+necessary for these pilot experiments.  
+The total number of horses to be used by UU for the clinical trial is 8. This will allow for testing a state-of-the-art 
+regenerative therapy for cartilage defect repair against micro-fracture as the current clinical standard of care (using 
+both femoropatellar joints with the animal as its own control). If invasive procedures are to be performed and 
+general anaesthesia is necessary (e.g. in case of arthroscopy) this will be combined with other interventions (such 
+as arthrocentesis) to reduce as much as possible any negative effect on animal welfare.  
+ 
+Non-invasive procedures that do not require any form of analgesia or additional medication include radiography 
+and kinetic and kinematic analyses (the animals will be accustomed to the treadmi ll before the start of the 
+experiment). The repeated arthrocentesis is minimally invasive and may require sedation, depending on the 
+character of the horse, but will not require anaesthesia or other forms of analgesia. Only for the arthroscopic 
+interventions at 2 and 4 months general anaesthesia will be necessary.  
+For the in vivo animal experiments, selection of the number of animals to be used in the trials is based on statistical 
+calculations. The number of animals needed with 95% reliability (p<0.05), a power of 0.90 and an expected effect 
+of 20% is 7. Eight is convenient as it accounts for inadvertent loss of animals that may occur during a long -term 
+experiment.  
+To prevent redundancy in experimental work, all scientific data will be available online to all Consortium partners 
+(non-restricted) via the HydroZONES’s dedicated website (intranet). Results will be published with as little delay 
+as possible in peer-reviewed journals. 
+5.1.2.4 Identification of ethical committees and regulatory organisations involved in the animal experiments  
+▪ Instituut voor Dierwelzijn (IVD, Institute for Animal Welfare), Utrecht, 
+780598  MIRACLE   Part B Page 90 of 96 
+▪ Dierexperimentencommissie (DEC, Comittee for Animal Experimentation), Utrecht  
+▪ Centrale Commissie Dierexperimenten (CCD; Central Committee on Animal Experimentation), national.  
+The UU research group possesses a licence, granted by the CCD after prior approval by the DEC and IvD, to 
+perform the type of experiments as envisaged in WP6. For the specific experiment only a work protocol will have 
+to be approved by the local Instituut voor Dierwelzijn (IVD, Institute for Animal Welfare).   
+5.1.3 Ethical Advisors 
+MIRACLE will nominate two Ethical Advisors (Kuopio, Utrecht) to evaluate the ethical performance during the 
+project. The nominated advisors may be employees of a MIRACLE partner but may not be directly involved with 
+the work performed within the project or  paid by the project. The mandatory actions required include the 
+submission of ethical evaluation statement for the 1) mid -term review and 2) the final review of the project. The 
+ethics advisors will be invited to select project management committee meetin gs to follow the progress related to 
+the validation in clinical settings.  
+5.1.4 Validation in clinical settings overview plan 
+MIRACLE validation in clinical settings will take in consideration the scientific principles underlying the collection 
+of clinical data along with accepted ethical standards surrounding the use of equine and human subjects. Objectives, 
+methods, risk assessment, data evaluation and device performance produced during validation in clinical settings 
+will be documented and reported in t he correspondent deliverables and reports (WP1 related). Details on the 
+patient nature of disease/condition, recruitment and inclusion/ exclusion criteria will be establish during applying 
+for Ethics Approvals. The number of test cases will be limited ONLY  to what is needed for validating of the 
+functionality of developed diagnostic system and demonstrated its capabilities to fulfil the application objectives.  
+5.1.5 Ethics Approval  
+The ethics approval will be request specifically for MIRACLE clinical sett ings once the project is granted and 
+before the Grant Agreement conclusion. Task 1.1 will focus on the ethics approval documents. 
+5.1.6 Ethics self-assessment: other issues 
+MIRACLE will also address the validation in clinical settings of the novel diagnost ic system via equine tissue in 
+vitro testing (task 6.1). In this case, knee joint tissues (articular cartilage, meniscus and ligaments) will be collected 
+and measured with the developed MIR-based diagnostic system in vitro. Healthy, intact tissue samples will be used 
+as controls to represent normal joint tissues. The equine tissues are obtained from a local slaughterhouse from 
+animals that are slaughtered for the meat production. The slaughters are routinely carried out in the slaughterhouse 
+in accordance w ith the national legislation. The tissue samples that are used in the study would otherwise go to 
+waste.
+5.2 Security: N/A 
+  
+780598  MIRACLE   Part B Page 91 of 96 
+Annex I External Expert Advisory Board – Letter of  Support 
+ 
+
+780598  MIRACLE   Part B Page 92 of 96 
+ 
+
+780598  MIRACLE   Part B Page 93 of 96 
+ 
+ 
+
+780598  MIRACLE   Part B Page 94 of 96 
+Annex II Response to the Ethical Summary Report 
+Ethics Opinion 
+Current status:      Ethics assessment recommended 
+ 
+The main issues are: 
+ 
+1) Some inconsistencies with regard to the clinical studies undermining the credibility of the proposed studies. For 
+example: 
+a. S1, page 16: The final clinical validation will be performed during arthroscopy surgery in real patient (two 
+patients). 
+b. S3, page 54: groups of patients undergoing routine arthroscopy due to ligament or meniscal injury (B) will be 
+investigated. 
+ 
+[Response] We apologize for this inconsistency, and have revised the Final Application by readjusting the total number 
+of patients to twenty, therefore ensuring the precision and reliability of the multivariate model. Ten patients undergoing 
+a total or unicompartmen tal knee arthroplasty (with unicompartmental osteoarthritis) will be measured to enable 
+prevalidation and optimization of the multivariate model built based on cadaveric data (arthroscopic MIR -ATR & 
+reference measurements). Furthermore, the final validation of the optimized multivariate model will be performed in ten 
+patients undergoing an ACL reconstruction. Please find below corrections, and alterations on the Application. 
+[S1, Page 8] Demonstrated for ex vivo (cadavers) and in vivo (patients) 
+[S1, Page 1 0] Since large clinical trials are not included, the MIRACLE consortium agreed that 8 equine cases and 
+twenty (10 + 10) human patient cases should be enough for validation the functionality of the system and for showing 
+its capabilities to fulfil the application objectives. 
+[S3, Page 45] To validate the multivariate model built based on cadaver measurements, human patients undergoing a 
+total knee replacement surgery (A, n=10) and an ACL reconstruction (B, n=10) will be investigated. In group A, joints 
+of patients with unicompartmental osteoarthritis will be arthroscopically measured with the MIR-ATR probe prior to the 
+knee replacement surgery, followed by osteochondral and menisci sample harvesting. Arthroscopic assessment of the 
+joint is routinely assessed prior to a knee replacement surgery. The measurement locations are tracked throughout the 
+experiment to ensure accurate location matching for the reference measurements (biomechanics, microscopy and 
+biochemistry). The objective of this task is to prevalidate and optimize the multivariate model built based on the cadaver 
+measurements. In the group B, pre-operative magnetic resonance imaging (MRI) will be performed prior to arthroscopic 
+MIR-ATR measurements and repair surgery. MRI is utilized as reference met hod for MIR-ATR probe measurements, 
+and results from multivariate models will be compared with MRI-based grading of tissue degeneration. 
+[S3, page 54]  The human tissue samples will be subjected to similar reference measurements as the equine samples 
+described in Task 6.1, including biomechanical testing and histological staining for collagen and proteoglycans. 
+[S3, page 53]  
+iii) Clarify and provide technical feedback to WP3 related to use of the MIR-ATR probe during arthroscopic conditions 
+(task: 6.2, 6.3). 
+iv) Apply the MIR-ATR probe during arthroscopy in vivo (task: 6.4). 
+[S3, page 54]  In this task, the MIR -ATR probe will be tested clinically during in vivo arthroscopy. To validate the 
+multivariate model built based on cadaver measurements, human pati ents undergoing a total knee replacement surgery 
+(A, n=10) and an ACL reconstruction (B, n=10) will be investigated. In group A, joints of patients with unicompartmental 
+osteoarthritis will be arthroscopically measured with the MIR-ATR probe prior to the knee replacement surgery, followed 
+by osteochondral and menisci sample harvesting. Arthroscopic assessment of the joint is routinely assessed prior to a  
+knee replacement surgery. The measurement locations are tracked throughout the experiment to ensure accurate location 
+matching for the reference measurements. The reference measurements will include biomechanical testing, histological 
+staining for collagen and proteoglycans, FTIRI, PLM and biochemistry. These reference measurements will enable the 
+evaluation of tissue integrity, the biomechanical competence and spatial composition and structure of the tissue samples. 
+Furthermore, the histological staining will be used for the histopathological grading of OA. This will enable the 
+prevalidation and optimization of the multivariate model built based on the cadaveric data.  
+780598  MIRACLE   Part B Page 95 of 96 
+Final multivariate models will be validated in this task to obtain information about the disease status of various joint 
+tissues during in vivo arthroscopy. In the group B, pre-operative magnetic resonance imaging (MRI) will be performed 
+prior to arthroscopic surgery. MRI is utilized as reference method for MIR-ATR probe measurements, and results from 
+multivariate models will be compared with MRI-based grading of tissue degeneration. 
+[S5, Page 32] MIRACLE will address the validation in clinical settings of the novel diagnostic system via clinical 
+environment testing on human cadaver knees (task 6.3) and in vivo human patients (task 6.4). 
+[S5, Page 35] All study patients provide a written informed consent prior to the surgery.  
+ 
+2) The studies in horses and ponies raise serious ethical concern, especially as these animals are described as "teaching 
+material" undergoing several invasive procedures after which they are euthanized as no longer necessary. 
+The applicants write that the number of animals needed in the trials is based on statistical calculations, which however 
+is far from clear (sample size calculation on what outcome?). 
+The applicants quote directive 86/609/EEC "on the approximation of laws, regulations and administrative provisions of 
+the Member States regarding the protection of animals used for experimental and other scientific purposes" and 
+directive 2003/65/EC amending the former, but do not seem to be aware that directive 86/609/EEC was repealed and 
+replaced by directive 2010/63/EU "on the protection of animals used for scientific purposes" in 2010. 
+ 
+[Response] First we apologize for not having cited the most recent EU directive on the use of animals for scientific 
+procedures. However, the proposed procedures are in line with directive 2010/63/EU, as they comply with current 
+guidelines in the Netherlands. 
+ 
+Recommendations (preliminary) 
+1. Detailed study protocols should be provided with clear inclusion and exclusion criteria. 
+2. Detailed information must be provided on the informed consent procedures that will be implemented. 
+ 
+[Response to Recommendations 1 & 2] 
+Human tissues 
+Adult cadaveric donors of various ages will be recruited for Task 6.3. Donors with non -diagnosed and advanced joint 
+conditions will be selected to ensure comprehensive sampling for the multivariate model building. The arthroscopies will 
+be performed by experienced orthopaedic surgeons along routine practice. Briefly, an access point will be created on the 
+medial and lateral side of both knees to enable the simultaneous use of the MIR-ATR probe and the arthroscopic camera. 
+The mapping system demonstrated by Brittberg et al. (2003, “Evaluation of cartilage injuries and repair”, Fig. 7) will be 
+utilized in the cartilage measurements. Additionally, menisci and ligaments will be mapped during the arthroscopy. The 
+measured sample locations are extracted after the arthroscopy and subjected to extensive reference measurements, such 
+as biomechanics, microscopy and biochemical analysis.  
+All the investigators working with cadaveric tissue will take appropriate personal protection measures (vaccinations, 
+gloves, gowns, etc.).  
+Human patients 
+The human patients required for Task 6.4 will be volunteers who do not belong in any of the following groups: disabled, 
+underaged, pregnant, nursing women or prisoners. Additionally, patients with debatable voluntarily (military serv ice, 
+people involved in the research and medical students) will be excluded. An orthopaedic surgeon will select suitable 
+patients from people undergoing a knee replacement (with unicompartmental osteoarthritis) or an ACL reconstruction.  
+The surgeon provid es the suitable patients with a research handout and a consent form, and explains the study in a 
+separate appointment prior to arthroscopy day. In the day of the arthroscopy, the patients are requested to shortly explain 
+study procedure and its consequence s (increase of operation time ~10 minutes, no clinical benefits at this stage). 
+Additionally, patients are encouraged to ask questions involving study and ensured to know that they are free to drop out 
+of the study without explanations. 
+Legislation of Finland demands patients to have indemnity insurance or other insurance to cover costs of any accidents. 
+The recruited patients belong under the patient indemnity insurance of Kuopio University Hospital. 
+780598  MIRACLE   Part B Page 96 of 96 
+3. Details about data protection procedures that will be implemented in the project. 
+ 
+[Response to recommendation #3] The data concerning human patients will be first stored to password protected hard-
+drives. Along ethical guidelines of the Kuopio University Hospital, the data collected on humans will be stored without 
+information enabling donor identification. The identifier information will only be stored at the safe of Kuopio University 
+Hospital with the senior physician Heikki Kröger as the records keeper. The anonymized raw data and daily modification 
+during data processing will be backed up daily to network drivers provided by Department of Applied Physics of Eastern 
+Finland. 
+ 
+4. More information is needed on ethical issues with regard to the experiments in horses and ponies. 
+[Response to recommendation #4] 
+It should be clear that the horses (or ponies) that will be used for the project consist of two groups of animals.  
+The first group concerns 2 to 3 animals for pilot studies in which the practical clinical applicability for standard 
+arthroscopic intervention in the horse of the MIR-ATR probe that has been developed within the MIRACLE consortium 
+will be tested. Depending on the outcome, it may be necessary to make modifications, which will be done in WP5 
+(prototype development). For these pilot studies that do not need standardization or a statistically sufficient number of 
+animals, use can be made of horses that are listed for surgical training of students. This surgical training is a regular part 
+of the curriculum of students doing the master equine veterinary science at Utrecht University. For this training animals 
+are used that have been donated by their owners for this purpose or that are destined for slaughter anyhow. They are 
+anaesthetised, undergo various surgical procedures by the students and are at the end of the training euthanized without 
+waking up first. They are therefore not euthanized “as no longer necessary”, but to avoid unnecessary suffering. As said, 
+this is a standard procedure within the Utrecht curriculum for which of course ethical permission exists and has to do 
+with clinical training and nothing with MIRACLE or any other research project. These same animals are, however, 
+sometimes used in the weeks before the practical training as pilot animals for various types of r esearch. In those cases 
+they undergo the procedure and will wake up after anaesthesia and are just treated as patients would be. Additional ethical 
+permission is needed for such use and will also be sought in the case of MIRACLE. Normally, this permission is easily 
+granted, as such use reduces the total number of experimental animals that is used. This procedure complies with point 
+(25) in the preamble of EU directive 2010/63/EU and what is stated in Article 16 of this directive on the reuse of animals. 
+The second group of animals concerns 8 adult Shetland ponies. This study focuses at evaluating the performance of the 
+newly developed MIR -ATR probe for the assessment of osteochondral defects and the longitudinal (over time) 
+monitoring of repair of these. This can best be done in a study in which standardized artificial osteochondral defects are 
+made, treated in two different ways, followed over time with the probe (i.e. through relook arthroscopy) with the outcome 
+at the end compared to the gold standard, whi ch is histology. The situation is different than with the pilot studies here, 
+as we need a homogeneous group of animals, standardized lesions and a well-described and strict protocol of monitoring 
+of these lesions (and of the final processing of the sample s). These animals are euthanized too, which is necessary if 
+histology and other techniques (such as micro-CT, biochemical and biomechanical assessment) are to be performed, thus 
+again not because of “being no longer necessary”. Also other monitoring techni ques such as kinetic and kinematic gait 
+analysis will be performed during the course of the experiment (see also original proposal). In this case statistics do play 
+a role. Group sizes are forcibly limited in large animal studies. For this reason this type of study is almost invariably set 
+up in a way that animals are their own control, in this case by using both stifle (knee) joints. This is done to reduce the 
+effect of inter -individual variation which is more important in large animal experiments that mak e use of outbred 
+populations than when using specific strains of often strongly inbred laboratory species; the advantage of the procedure 
+is that this situation is much more representative of  the human clinical situation. In large animal experiments a gro up 
+size of 8 is often used (which is based on an estimated variation coefficient of 10% and a relative effect size of 20%, 
+leading to n=7 with a safety margin of 1 animal). Partner UU has ample experience with this type of study and has 
+published various papers on the osteochondral defect model in the equine stifle.74 
+ 
+74 Benders, K.E.M et al.. (2013) Extracellular matrix scaffolds for cartilage and bone regeneration. Trends in Biotechnology 31, 169-176.; Vindas 
+Bolaños, et al.(2017) The use of a cartilage decellularized matrix scaffold for the repair of osteochondral defects: the importance of long-term 
+studies in a large animal model. Osteoarthritis and Cartilage, 25, 413-420.; Mancini, I.A.D et al. Fixation of hydrogel constructs for cartilage 
+repair in the equine model: a challenging issue. Tiss. Eng. Part C., accepted for publication.

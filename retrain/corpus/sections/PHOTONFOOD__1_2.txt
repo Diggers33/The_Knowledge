@@ -1,0 +1,87 @@
+1.2 Relation to the work programme  
+ 
+The project addresses topic ICT-37-2020 Advancing photonics technologies and application driven photonics 
+components and the innovation ecosystem : Sub-topic Flexible Farm -to-Fork Sensing. Table 2 outlines how 
+PHOTONFOOD fits to the specific topic challenge and scope, and to other relevant parts of the “Towards 
+2020: Photonics Driving Economic Growth in Europe – Multiannual Strategic Roadmap 2014-2020”. 
+ 
+Table 2: Contribution of PHOTONFOOD to the ICT-37-2020 call and the Photonic Strategy Roadmap 
+ 
+Challenge I as defined in ICT-37-2020 call 
+"To develop and apply core photonics technology for the next generation of devices (including components, 
+modules and sub-systems) in order to drive innovation in key application areas , which are significant for 
+current or future markets and where photonics can bring a key competitive advantage." 
+PHOTONFOOD contribution 
+PHOTONFOOD will design, develop and validate next-generation MIR photonic sensing devices, based on 
+innovative MIR light emitting diode ( IC-LED) light sources and ICL/QCL lasers combined with novel 
+waveguides, for the detection of microbial and chemical contamination in food and commodities along the 
+food value chain. 
+Challenge II as defined in ICT-37-2020 call 
+"Innovative photonic sensing solutions can contribute to reducing food production losses and food wastes, 
+estimated in Europe at about 300 kg per capita, and to increasing food safety for the end consumer along 
+the food production chain from farm to fork." 
+PHOTONFOOD contribution 
+PHOTONFOOD will provide more and better data on contamination along the food production chain, since 
+on-site monitoring data from the MI-FI device and reference data from the HI-FI device will be connected 
+to existing data platforms such as the Food Trust™. The use of the PHOTONFOOD data about microbial 
+and chemical contamination will in future allow detect ing the weak points of the food chain . Thus, it will 
+make a considerable contribution to the reduction of food wastes, where the reduction of wastes in cereals 
+production and import of nuts and dry fruits will be ab out 40% and 60% in aquaponic herbs production of 
+the existing losses associated with the fungal and mycotoxin contaminations. 
+Scope I as defined in ICT-37-2020 call 
+"Development of an innovative smart photonic sensor solution, utilizing an appropriate bandwidth between 
+the ultraviolet (UV) and the far -infrared spectral range for monitoring food quality with respect to 
+microbiological and chemical contamination along the farm-to-fork food production chain." 
+PHOTONFOOD contribution 
+PHOTONFOOD will provide the first low -cost hand-held MIR sensing solution (MI -FI) and a high -end 
+portable MIR device (HI-FI) enabling flexible microbial and chemical analysis of food products on farms, 
+PHOTONFOOD 
+ 
+10 
+ 
+in food processing, wholesale and retail. The MIR region was chosen as the appropriate band widths since 
+it has proven to be the most discriminative region for determination of chemical and microbial contaminants. 
+The photonics sensing solution will contain an innovative smart paper -based microfluidic sampling pre-
+concentration allowing the detection of tiny amounts of contaminants.  
+Scope II as defined in ICT-37-2020 call 
+"The targeted solution should combine photonic sensing technology with advanced data analysis techniques 
+and be portable, easy -to-use, flexible, and broadly adaptable for usage on farms, in food processing, 
+wholesale and retail." 
+PHOTONFOOD contribution 
+PHOTONFOOD will innovatively combine the developed photonic sensing devices with advanced data 
+analysis approaches for mining specific fungal and mycotoxin contaminants in the pre -concentrated and 
+analyte-separated samples. PHOTONFOOD will develop robust calibration modelling strategies for the data 
+obtained by the proposed photonic solutions using the most advanced pre-processing, machine learning and 
+deep learning tools. The calibration models for the cases demonstrated in PHOTONFOOD will serve as a 
+template for further developments bey ond the project period as they will set standards in the data pre -
+processing and methodology to detect and utilize specific molecular signatures. The models will be 
+established in a cloud service and provided as application for a laptop (HI -FI device), and as a mobile app 
+(MI-FI device). PHOTONFOOD will further develop a strategy for data integration into existing platforms 
+such as the Food Trust™ Block Chain. The developed technology will be validated and demonstrated for 
+the usage on farms, food processing, wholesale and retail through involvement of the relevant partners.  
+Scope III as defined in ICT-37-2020 call 
+"Actions should focus on the following areas: (1) food production by small/medium-sized farms; (2) novel 
+types of food production, such as aquaponics; (3) on -site food processing and vending (e.g. on farms or 
+local food markets)."  
+PHOTONFOOD contribution 
+PHOTONFOOD focuses on (1) sma ll/medium-sized cereal farms through NEBIH, nuts and dried fruit 
+production farms through the distributor Seeberger; (2) novel type aquaponic and on -site food producer 
+BIGH. PHOTONFOOD will perform extensive demonstration of HI -FI and MI-FI devices by Seeberger, 
+end-user ROMER, food -safety authority N EBIH and aquaponics  company BIGH. As a food safety 
+authority, N EBIH has direct contact with more than 3000 small and medium sized farms in Hungary, 
+therefore the photonic solution can be tested under various field conditions. 
+Strategic Objective as defined in Photonic Strategic Roadmap 
+"The European photonics industry must now continue working with the European Commission and national 
+policy makers to coordinate a joint approach to innovation, and to pool investments for enabling the rapid 
+development of new products and minimising times to market.  This to market approach needs to include 
+the entire value chain, from advanced research through to technology take -up, pilot lines, and 
+manufacturing platforms." 
+PHOTONFOOD contribution 
+The PHOTONFOOD consortium represents the entire “photonics value chain”, from advanced research 
+partners (UULM, BOKU, WU, NMBU) to component manufacturers (NP), systems engineering and 
+manufacturing companies (HS, IRIS), laboratory analytics service providers (ROMER) , end-users among 
+food businesses (BAMA, BIGH, Seeberger), food control authorities (NEBIH), and provider of large-scale 
+integrated traceability solutions (IBM in advisory role). Customer and stakeholder involvement, prototype 
+development, pilot production, on -site validation, end -user testing, market scanning and further business 
+development can be seamlessly coordinated in the consortium, ensuring minimal time-to-market and rapid 
+scale-up.

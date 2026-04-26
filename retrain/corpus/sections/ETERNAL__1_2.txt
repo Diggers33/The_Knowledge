@@ -1,0 +1,898 @@
+1.2 Methodology 
+Overall methodology 
+Description of the overall methodology,  including the underpinning concepts, models  & assumptions 
+According to the Pharmaceutical Strategy for Europe : A new EU approach is needed to ensure we have a strong, fair  
+competitive and green industry that delivers for patients, and which draws on the potential of the digital transformation of 
+health and care, driven by technological advances in fields such as artificial intelligence and computational modelling. 
+We need well-functioning international supply chains and a well performing single market for pharmaceuticals, through 
+an approach that covers the entire lifecycle of pharmaceutical products, from production to distribution, 
+consumption and disposal. ETERNAL will mobilize a multi-stakeholder (industry, research, academia,  policy, SMEs 
+and citizens) and inter-disciplinary approach (green chemistry, mechanochemistry, process engineering,  environmental 
+engineering, environmental chemistry, ecotoxicity, biobased materials, circular economy, digitalization,  scientific and 
+regulatory affairs, social sciences and humanities) in order to address the increasing problem of environmental pollution 
+due to pharmaceuticals throughout their life cycle and to pioneer  a new competitive and  leadership opportunity for 
+Europe in the field of Green Pharmaceuticals. 
+Technological innovation for increasing sustainability along the entire lifecycle of pharmaceutical products: 
+The technological innovations that will be researched and developed over the course of the ETERNAL project, and 
+which focus on three pillars: 1) Green Chemistry; 2) Mechanochemistry; and 3) Digitalisation, as key enabling 
+technologies for increasing the sustainability of the entire lifecycle of pharmaceutical products. 
+Green chemistry: Green chemistry is the concept of developing chemical products and processes that minimize the 
+use and generation of hazardous substances, reduce waste, and reduce demand on diminishing resources. Paul  
+Anastas and John Warner introduced the concept, which means during the application of chemistry techniques and 
+the methodology, always we need to thi nk about the possible option to reduce or eliminate the generation of products,  
+feedstock, byproducts, reagents, and solvents etc. which are hazardous to both humans and environments. In  
+synthesis, the solvents are used in a large quantity and to overcome this situation, the feasible way is to reduce hazard 
+
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 9 of 45 
+ 
+ 
+related to them by substituting with the safer option. Anastas and Warner developed the framework that has served 
+as the foundation for the green chemistry movement. That framework proposes 12 complementary principles around 
+resource efficiency and risk (human health and environmental) minimization, targeting a lifecycle perspective (e.g., 
+raw materials extraction, chemical production, and end -of-life bioaccumulation and biodegradation). Ultimately,  
+these 12 principles were adopted by the Green Chemistry Institute (GCI)(2) at the American Chemical Society (ACS).  
+The 12 principles are as follows: (1) waste prevention, (2) atom economy, (3) less hazardous synthesis, (4) design of 
+benign chemicals, (5) use of benign solvents and auxiliaries, (6) energy efficiency, (7) use of renewable feedstocks, 
+(8) reduce derivatives, (9) use of catalysis, (10) design for degradation, (11) real -time analysis for pollution  
+prevention, and (12) accident prevention Mill  
+                          -first Quantitative Green Chemistry Evaluator that evaluates the relative 
+greenness of chemicals and chemical processes against the 12 Principles of Green Chemi 
+scientists now have access to calculate the green scores of their own processes and products. 
+The manufacture of drugs generates more waste and by -products in comparison to the oil refining, bulk, and fine  
+chemicals industries. Pharmaceutical industries need to reduce their E -factor through the replacement of toxic or  
+fossil-based solvents. A life cycle study of waste produced from many Active Pharmaceutical Ingredient (API)  
+manufacturing facilities estimated that up to 80% of their waste is solvent related. Addressing the selection, use, 
+recovery, and disposal of solvents will contribute dramatically to alleviating this problem. While not the only means 
+for greening pharmaceutical manufacture, solvent considerations will appear frequently in the case histories of drug 
+process development. The Green Chemistry Expert System (GCES) offers guidelines and support information for 
+devising a green-chemistry process. Some solvents such as acetic acid, 1 -butanol, propyl acetate, water have  
+been recognized as green selection and provide a means for choosing environmentally friendly solvents for 
+manufacture. Several case studies of green processes in pharmaceutical development have been described in recent 
+years (e.g. phosphodiesterase (V) inhib  
+as the last step and utilized the relatively benign reagents t-butanol and its potassium base, while the chlorosulfonation 
+was moved earlier into the synthesis. This permitted the inherent purification of the workups in the steps after the  
+sulfonation to remove the toxic residues. The final step could now also be run in high concentration, further  
+minimizing solvent waste. 
+Mechanochemistry: 25% of pharmaceuticals produced in the chemical industry contain an amide bond. Such 
+pharmaceuticals include e.g. drugs for the treatment of cardiovascular diseases (atorvastatin or Lipitor), analgesics 
+(Ibuprofen analogs), antibiotics (penicillin and chloramphenicol or Oftan Akvakol), as well as cancer drugs  
+(methotrexate and, inter alia therapeutic peptides such as carfilzomib (KYPROLIS)). Until now, such drugs have  
+conventionally been produced in the chemical industry using solvents. A mechanochemical process involves grinding 
+of chemical substances without the need to use solvents. This means, however, that no toxic waste characteristic of 
+solvent-based production is generated, and in addition, the whole process can take place tens of times faster (e.g. the 
+required active ingredient is created within an hour, whereas the analogous solvent -based reaction requires 24 -hours). 
+Carcinogenic impurities: Another problem is the possibility of capturing carcinogenic impurities like nitrosamines, 
+that can get incorporated into the drug substance and drug product basically through process formation 
+Digitalization as an enabler for competitive and scalable methods of continuous manufacturing and 
+production: Three key areas of opportunity that will be advanced during the ETERNAL project: 
+Digitisation of data flows in chemical process design and manufacturing with CDMOs: Many scientific companies 
+outsource packages of research to contract development & manufacturing organizations (CDMOs). During such  
+projects a high volume of primary data is produced by the CDMO but the data transfer process is not standardized, 
+requiring significant resource for processing and reporting. Often data transfers are still manual, requiring drag and 
+drop of files via shared folders, or in some cases transcription of key results into reports. Too much time can be spent 
+on just transferring data and not stopping to analyze and understand the results. This carries the potential for loss of 
+some primary data. When new manufactures are required but team members have changed at both companies the  
+corporate memory can be incomplete resulting in repeated work and missed opportunities. 
+There is an opportunity to digitize this process to ensure that data generated are transferred in real time and to ensure 
+that all data generated is F.A.I.R. (Findable, Accessible, Interoperable, Reusable) minimizing the need for any  
+experiments to be repeated. Greater control over data should result in more sustainable faster development of scalable  
+methods of production. Da ta from every experiment can contribute to the fundamental understanding of our  
+processes, supporting the formation of digital twins and predictive modelling. 
+To develop a well-defined digital work flow for data transfer we will build guidelines for effective and generalizable 
+digital data transfer. Implementation of the digital workflow will be via a software toolkit enabling application across the 
+pharmaceutical development industry. 
+Process Analytical Technology as enabling technology for Quality-by-Design and Continuous Manufacturing: As 
+opposed to using batch-based systems, the future of many processes within complex manufacturing industries lies in 
+continuous processing- which is characterised by connected operations, during which each unit immediately 
+
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 10 of 45 
+ 
+ 
+feeds the following one without any interruption22. The implementation of a continuous manufacturing strategy 
+requires the adoption of a holistic, quality centric Quality by Design (QbD) approach to product development and 
+process design for transitioning from batch to continuous processing. As opposed to the traditional Quality by Testing  
+(QbT) approach, which involves testing the material being processed after every manufacturing stage to ensure that 
+the critical quality attributes (CQAs) are in line with specifications (involving the lengthy stoppage of production to 
+collect samples for offline testing in analytical  laboratories make it impossible to implement  a continuous 
+manufacturing process), QbD is a responsive system, featuring the real-time monitoring of product CQAs and 
+adjustment of critical process parameters (CPPs) , allows plant operators to o btain consistent and quality  
+compliant products while reducing the likelihood of rework or rejects. 
+QbD is based on the principle that product quality should be designed into the process, rather than tested in stages 
+and corrected afterwards; it requires a scientific yet pragmatic approach that considers both the process and product 
+to enable the design of effective, real -time quality control strategies 22. In this way, it is possible to achieve a  
+predefined quality objective; that is, delivering products that consistently meet or exceed the required quality  
+standards. A key enabler for QbD is PAT, as it provides a systematic structure for measuring product quality in real- 
+time, facilitating process understanding and ultimately controlling the process to ensure product quality. PAT uses a 
+range of spectral (multivariate)- based on photonics analyzers located at multiple points within a continuous process- 
+and univariate data sources together with prediction engines to make real-time product quality predictions to achieve 
+a holistic, QbD quality system. In ETERNAL the paradigm will also be extended to incorporate, in addition to product  
+quality, -by-  principles for ensuring that greener synthesis routes can be designed and once established  
+(and validated), in the manufacturing stage, the process can be controlled in real-time to also ensure the process stays 
+within these greener routes, while at the sa me time ensuring product quality. In a novel approach, environment 
+impact KPIs will be merged with the process control parameters in order to use the digital twin (discussed below) 
+for a comprehensive optimization (optimizing not only the process but also the impact in a common framework). As 
+such, an optimization engine will be implemented as a module, based on Monte Carlo, Variational Calculus or  
+Lagrange Multipliers, as the best way to identify efficient trade-offs. 
+The PAT tools will either be the proprietary IRIS NIR analyzers, a combination of monovariate sensors in a common 
+machine learning framework (soft -sensing), the integration of third parties analyzers or a combination of any of these  
+scenarios. For example: in the Reig Jofrè case study, a particle size distribution analyzer from a third party could be 
+the main PAT resource; a combination of soft-sensors, and an IRIS' NIR analyzer could be the right PAT solution in 
+Quotients case study; a NIR analyzer or Raman analyzer will be used for the AZ case study. 
+Digital Twin technology as a means of improving process times, the use of raw materials and the energy consumption for 
+greater environmental efficiency: A Digital Twin is a virtual model of a process, product, or service23. The pairing of 
+the virtual and physical worlds enables the analysis of data and monitoring of systems, and of process performance so 
+that optimizations can be made at low risk and cost, and that data and monitoring systems can be analysed to avoid  
+problems before they even occur thereby preventing downtime. Digital Twins can also allow new developments and 
+process innovations to be modelled by using digital simulations, to foster new opportunities23. 
+By integrating in-line sensors at each step in the process, data can be collected that allows an understanding of what 
+is happening in a process in real -time. By combining this data with physical, chemical and biological models a digital  
+twin of a pharmaceutical process can be built, which is a live virtual replica of the physical process that enables  
+optimization of operations and the simulation of changes, providing new insights for development and full control 
+over the pharmaceutical manufacturing process. 
+Traditional simulation models are mainly based on mathematical expressions derived from first principles and rather 
+simple empirical data. While such simulations work very well in the case of systems that are governed by the Laws 
+of Physics, that are incapable of comprehending the full complexity of systems that behave according to more  
+complex laws, such as those in biochemistry. A multivariate data driven approach (which may also be combined 
+with some first -principles-based expressions in a hybrid concept) is more fit -for-purpose for developing more  
+reliable models. Indeed, this is what a digital twin is.  In the widest sense, a digital twin can be capable of  
+comprehending highly complex systems by splitting the entire system model in "agents", i.e., agent-based digital 
+twins. For example, simulation of the chemical mixing process enables multiple variants to be monitored, ensuring 
+that the right mix is always used in live production, reducing waste, driving significant cost savings and also helping 
+to bring new drugs to market faster. 
+The Holonic Manufacturing Systems (HMS) approach will be used in the ETERNAL Digital Twin developments. 
+A HMS is formed by autonomous entities that cooperate proactively to reach a common goal. These entities are  
+labelled holons and, through aggregation relationships, they can form groups to form the so-called holarchies. The 
+grouping of various holons or holarchies with the objective of carrying out a productive process is called a Holonic 
+Production Unit (HPU). The principal attributes of holons are: autonomy, cooperation, proactiveness, and reactivity. 
+Other key characteristics are the distribution of intelligence and self-similarity to build complex structures from 
+ 
+22 https://manufacturingchemist.com/news/article_page/Why_you_need_PAT_to_move_from_batch_to_continuous_processing/153593  
+23 Taylor, C. (2018) What is bioprocessing digital twin?, Exputec, at: https://exputec.com/what-is-a-bioprocess-digital-twin/ 
+
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 11 of 45 
+ 
+ 
+simpler systems. Essentially HMS represents a methodology, tools and norms to design manufacturing control  
+systems that are flexible and reconfigurable. HMS is already showing evidence of application in industrial systems. 
+While the largest volume of research is centred on discrete manufacturing systems, and there have been only a few 
+works in which the holonic approach was applied in the Process Industries or in continuous processes, the flexibility 
+and simple reconfigurability afforded by the bottom -up design philosophy and distributed control of HMS holds  
+tremendous opportunity for its adoption for Digital Twinning in complex continuous manufacturing processes in the 
+Pharmaceutical industry, and could play a key role in helping the industry respond to the challenges not only of more 
+sustainable manufacturing and the efficient use of energy and resources, but also faster time to market, mass  
+production personalisation trends, rapid response times, shorter product life cycles, among others, which require  
+greater flexibility, agility, reconfigurability, decentralisation and also supplier integration. In ETERNAL, we will  
+define a new Holonic Reference Architecture in the field of Intelligent Manufacturing Systems (IMS) specially 
+tailored for continuous manufacturing processes (and also suited to semi-continuous and batch processes), the 
+methodology of which will be promoted as a standard for holonification procedures in industry. On the other hand, 
+we will develop a holonics -based digital twin builder platform based on holonification and multi -agent based  
+software tools in order to facilitate the adoption of the digital twin concept in the pharmaceutical manufacturing  
+industry and map out how the sector can take advantage of this particular crest of the digital transformation wave, 
+identifying the requirements, barriers and opportunities. 
+In addition, we have selected from among the case studies, for example, due to the complexity and multivariability 
+of the development and scale up of membrane technology in pharmaceutical processing (Case study VI) for the  
+energy efficient recovery and purification of solvents, and for purification to remove potential mutagenic impurities, 
+we will build a Digital Twin of the process in order to demonstrate how it can facilitate process scale -up and 
+optimisation (and it will also enable future monitoring and control of the process when it goes into live production). 
+Likewise with Case Study V  (Modular flow reactors continuous systems) and Case Study III ( Rapid microfluidic 
+mixing combined with Diafiltration). 
+Cocreation Lab of Industry case studies:  We will implement a Cocreation Lab for ensuring an industry/application  
+oriented R&D effort that allows for a full innovation cycle of codesigning (research-industry-compliance codesign) 
+the green innovations, scaling up, testing and validating them in the pharmaceutical industry, as well as performing 
+an environmental and business KPI impact assessment, as well as defining the optimization work and 
+recommendations of the future post-project scale up towards commercial adoption and market deployment Testimony to 
+the very strong pharmaceutical industry participation and interest in the ETERNAL project, we have planned 6  
+industry case studies in our work plan, each of which is presented in a summary factsheet as follows: 
+ 
+CASE STUDY I (ANGELINI PHARMA): Continuous Manufacturing method. HME  Hot Met Extrusion. 
+Aim: Asessing the feasibility of producing the medicinal products containing Ibuprofen and Trazodone through a continuous 
+process that uses hot melt extrusion technology. The schematic shows the steps avoided using this technology. 
+Business drivers for applying this process & expected KPIs: To reduce 
+energy consumption. Energy saving is to be calculated during the project,  
+by comparing the traditional process vs continuous process using HME  
+(Preliminary information based on similar processes 
+analysed in literature): 
+significant reduction of production steps (as per 
+schematic above) 
+shorter processing times  
+smaller facilities 
+reduction/elimination of water 
+increased worker health & safety  
+simplified formulation recipe (less 
+raw materials) 
+improvement of fundamental 
+properties of drug and finished 
+medicinal product 
+real-time monitoring using 
+PAT tools 
+Main activities: Pre-formulation & formulation development; Analytical 
+development & pre-stability studies; Exploration of an inline NIR analyzer as a PAT tool 
+Main result: Prototype ready for scale-up (expected TRL 5-6) 
+ 
+CASE STUDY II (ANGELINI PHARMA): Solvents & green chemistry (at Industrial Operations/APIs production plant in 
+Aprilia) 
+Aim: Investigating better use of solvents (increased quantity and quality of recycled solvents) in the 
+manufacturing process for the production of trazodone 
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 12 of 45 
+ 
+ 
+ 
+Business drivers for applying this process & expected KPIs: To reduce the environmental impact (Energy KPI //Co2 KPI 
+/Cost KPI / Toxicity KPI). 
+Increased amount of isobutyl alcohol acetone recycled and reused in  
+the production process of trazodone (from  50% to 65%, which 
+corresponds to 118 tons)- using the International Protocol for 
+Measurement & Verification (IPMVP)  
+Increased amount of acetone Isobutyl alcohol recycled & reused in  
+the production process of trazodone (from 90% to 95%). 
+Future replacement of 100% of current actual solvents (acetone and 
+Isobutyl alcohol) by greener (e.g. Ethylene lactate, methyl acetate  
+et) options or biobased  solvents. 
+Capture impurities and unreacted formulation components during  
+production and in waste  products. 
+Main activities: Preliminary study; Laboratory trials: from lab to pilot; Project engineering & production; Plant Implementation 
+& testing of the new process in industrial environment; Impact & feasibility assessment  
+Main result: New process tested in industrial environment (expected TRL6) 
+ 
+CASE STUDY III (Reig Jofre): Solvent's purification & continuous manufacturing. Better user of solvents (reduction or  
+elimination) in the Liposome manufacturing (encapsulation of valpronic acid and other hydrophilic APIs) process at the pilot  
+plant located in Sant Joan Despi, Barcelona. 
+Aim: To replace discontinuous by continuous  
+process and reduce energy consumption, waste  
+generated, and to use less environmentally 
+harmful solvents during the production of 
+greener nanoparticles.  
+Business drivers for applying this process &  
+expected KPIs:  As nanotechnology emerges  
+from discovery to the real application phase,  
+environmental impact and greener scale up 
+methods need to be developed. Targets: Use of  
+harmful organic  solvents should  be a voided; 
+Greener and continuous new methods require  
+less production  steps; Diafiltration allows to 
+separate and capture non encapsulated drug, 
+organic solvent and  excipients; Optimization 
+through PAT technology (particle size analyzer) 
+& digital twin to enable the development of greener by design methods; Reduced excretion of active ingredients by increasing 
+bioavailability thanks to nanoencapsulation;  Reduction of dosage and reduction of the active ingredient consumption. 
+Main activities: Production of nanoparticles in pilot plant by greener continuous methods, study of their physico-chemical 
+characteristics to assure the nanoparticle quality, and evaluation of the production waste ecotoxicological profiles. 
+Main result: Greener nanoformulation methods, ready to scale up (expected TRL 5)). 
+ 
+ CASE STUDY IV (Quotient Sciences): Continuous processing and solvent purification and 
+ greener-by-Design synthesis methods (optimized through digital twin & and PAT technology)  
+AIM: Transform multi step discontinuous process into 
+continuous processing systems, to enable greener kilo scale 
+production of novel APIs. To boost the change in multi-step synthesis through robust 
+continuous processing to synthetize novel APIs. 
+Business drivers for applying 
+this process & expected 
+KPIs:Scale up to kilo scale the  
+multi-step production of API 
+using modular continuous 
+processing with automated control; Optimization through digital twin  
+& and PAT technology allow to enable the development of Greener - 
+by-Design methods. 
+Main activities:  Scale up of Modular flow reactors in a continuous  
+system; Develop a robust process and  development platform to enable  
+the generation of a Digital Twin (combined from a process model and  
+a library of equipment models) which is used to control the small scale, 
+kilo production of new drug substances (Integrate appropriate PAT 
+technology into QS library of continuous manufacturing equipment such as NIR; Create virtual Digital Twins for example API 
+synthesis from QS a hybrid digital twin will comprise of first principle models with data driven models; Demonstrate utility  of 
+Digital Twin to control & monitor kilo scale manufacture of API at QS) 
+Main result: Kilo scale multi-step production of API using modular continuous processing with automated control. 
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 13 of 45 
+ 
+ 
+ 
+CASE STUDY V (MyBiotech) Continuous 
+Manufacturing method - Develop a platform for  
+decreasing toxic and bioactive side products during
+ fermentative         production of 
+pharmaceuticals and to develop a green 
+downstreaming process by using continuous 
+technologies 
+AIM: Using genome engineering to remove 
+biosynthetic genes and gene clusters responsible for  
+the synthesis of toxic side products in the fermentation  
+broth of rapamycin producer Streptomyces 
+rapamycinicus. 
+Business drivers for applying this process & 
+expected KPIs: Most of the natural bioactive 
+ingredients producers synthesize the number of 
+undesired toxic side products, which need to be 
+removed during the purification process using organic solvents and multistep chromatography. E.g. rapamycin apart from the  
+valuable target compound synthesizes over 50 complex, often hazardous small molecules (e.g. nigericin, azalomycin, 
+steffimycin, granaticin, lydicamycin and many others) which need to be removed during purification process involving hundreds of 
+tons of organic solvents. Moreover, after purification these molecules are released in the environment causing toxic effects  to 
+nature. This is possible to reduce the volume of organic solvents during the purification process of rapamycin via cleaning  the 
+metabolic profile of the producer. In addition, after the deletion of corresponding gene clusters producer strains having less 
+metabolic burden and have much better growth and production characteristics. This enables to shorten the fermentation time  
+and volume and thus save the energy as well. For downstreaming, we will use our proprietary Micro -Jet Reactor (MJR)  
+technology. This is a continuous downstreaming technology for simultaneous cell rupture and extraction. We will use the  
+fermentation broth without any pre -processing step. We can specifically adjust process parameter such as pressure, flow rate,  
+temperature and nozzle diam eter to obtain the most ecological, economical and efficient process. Due to the small reaction  
+room, we can significantly reduce the solvent amount, but also the extraction steps. Further downstreaming processes to purify 
+rapamycin will include flash chromatography, cross-flow filtration and crystallization of rapamycin. 
+Main activities: Lab scale metabolic profiling of the rapamycin producer strain;  Technology adaptation for genome engineering 
+of S.rapamycinicus; Removing at least 10 hazardous side pr oducts using genome engineering; Development of simplified  
+downstream processing  with less organic solvents on a lab scale; Pilot scale demonstration of the technology 
+Main result: New strain and process tested on the pilot scale environment (expected TRL5-6) 
+ 
+ CASE STUDY VI (AstraZeneca): The application of membranes to pharmaceutical processing  
+Aim: Develop the use of membranes in pharmaceutical 
+processing for: i) The energy efficient recovery and purification 
+of solvents; ii)  Applying membrane purification to remove  
+potential mutagenic impurities; iii) The recovery of product  
+from waste streams reducing ecotoxicity 
+Business drivers for applying this process & expected 
+KPIs:Distillations are used in pharmaceutical manufacturing to 
+reduce solvent volumes in reactors and to purify solvents for  
+further use through fractionation. These unit operation are 
+highly inefficient requiring long plant residence time, and high  
+amounts of energy for heating and cooling. Options for using  
+distillation to purify solvents can also be limited where 
+contaminants have a similar boiling point to the solvent. 
+Replacing distillations has the potential to dramatically lower  
+energy consumption for solvent recovery and purification, 
+while presenting new options to remove impurities (literature examples of 200 fold reduction in energy use) 24. The use of  
+membranes is also compatible with continuous processing. 
+As the quality of APIs is extremely important to guarantee patient safety, it is key that potential mutagenic impurities (PMI s) 
+are avoided and can be removed or purged during purification. The use of membranes offers an orthogonal approach to  
+crystallisation and chromatography. Crystallisation can occlude structurally similar fragments or elemental impurities that could be 
+removed by membranes. It is estimated that chromatographic purification generates >300kg/kg of solid waste compared to  a 
+membrane purification. 
+Waste streams from production  e.g., mother liquors from crystallisations or aqueous waste from washes  can often still contain 
+high amounts of API. Membranes can be applied to both recover the valuable API, while reducing the toxicity of the  waste 
+streams. 
+KPIs: Energy reduction for solvent recovery of >95%; Reduction of residual API in waste streams by >90%; Process Mass  
+Intensity reduction for purification process by >90%; Quality of solvents recovered  suitable for reuse in a pharmaceutical  
+process; Roadmap for translation of the technology to AZ commercial products, produced on >1Mt scale. Projected savings of 
+>50Mt of solvent per Mt API produced for each project. 
+Main activities:  A suitable project will be identified to develop and exemplify the use of membranes as follows: Lab based  
+research on the processes to introduce  membrane solvent recovery, purification and product recovery; Development of digital 
+ 
+24 Livingston, A. G. et al. Sustainability assessment of organic solvent nanofiltration: from fabrication to application. Green Chem., 2014, 16, 4440 4473 
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 14 of 45 
+ 
+ 
+ 
+twins for the membrane processes; Exploration of spectroscopy-based PAT tools for controlling the process in terms of yield 
+increasing and waste reduction; Lab scale trial of the processes as proof of concept; Translation to kilo lab scale productio n. 
+Main result: Our initial research and trial will validate the use of membranes at a lab scale. The translation to kilo manufacture 
+will demonstrate the use of membranes in an industrially relevant environment (TRL5). 
+Taking the environment, from a lifecycle perspective, more into account through the design and 
+manufacturing stages: It has been well documented that in the last two decades, increases in pharmaceuticals  
+consumption can be partially attributed to climate changes25. Such increases in pharmaceutical consumption will 
+drive an increase in their manufacture. Eventually, in the absence of risk management and associated measures, this 
+is likely to result in increasing levels of APIs, metabolites and by-products in aquatic and terrestrial environments,          
+due          for example to   partial/incomplete   removal in wastewater treatment plants26. 
+Concerns regarding  interest 
+in sustainable development, have impelled the industry to incorporate green engineering and chemistry in  their 
+pharmaceutical production processes. 
+Gaps: Many pharmaceuticals lack measured fate, exposure, and effect parameters relevant for environmental risk 
+assessment, and for deriving characterization factors in life cycle assessment. Lack  of knowledge on, and  
+consideration      of, compound      modes      of      action (e.g. endocrine      disruption,      antimicrobial resistance) 
+within risk assessment. Little to no consideration of the influence of environmental chemistry (e.g. aquatic 
+pH and organic matter) on exposure and impacts. Little to no cons ideration of whole life cycle  approaches to 
+environmental risk within current assessment procedures. Little to no consideration of the influence of time-variable 
+exposure in surface waters on ecological impacts. 
+ETERNAL aims to contribute to sustainable development of pharmaceutical manufacture, use and disposal, by using and 
+promoting full life cycle approaches covering design, manufacture, usage and disposal, assessing the environmental 
+risks of not only the API and residues/metabolites, but other chemicals and byproducts of the production process. 
+This type of approach is essential to take into consideration the types of green manufacturing  approach under 
+consideration by the pharmaceutical industry, as evidenced by the range and scope of case studies being undertaken 
+within ETERNAL. Specific application of our risk and life cycle assessment approaches to the  ETERNAL case 
+studies is a key element of the proposed work and will provide industry and policymakers with key examples of how 
+whole life cycle assessment may be used to evaluate the changes in environmental impacts expected  due to the 
+introduction of green manufacturing processes. 
+New approach methodologies for fate, ecotoxicity and risk asse ssment: Since the early 1990s, knowledge of  
+increasing pharmaceutical inputs to the environment has driven collaboration between environmental chemists and 
+toxicologists to develop assessment approaches to address the risks posed by such compounds to human  and 
+environmental health27. The European Union noted the need to address water contamination from pharmaceuticals 
+in Water Framework Directive (WFD) and Environmental Quality Standards Directive. As such, the European  
+Medicines Agency (EMA) has created guidelines for the environmental risk assessment (ERA) of medicinal products for 
+the aquatic environment and human health protection. Current development of ERA strongly relies on traditional trial 
+and exposure testing methods. Though most ecotoxicity studies follow standards required for ERA approaches (e.g. 
+OECD), advances in research require new types of exposure-response relationships. 
+Within the ETERNAL project, we will: a) Develop and/or update tools for assessing the environmental fate, hazard 
+and risk of pharmaceuticals that take account of the most up to date scientific knowledge on compound behavior in 
+the environment, including approaches for regulatory assessment and environmental management. These tools will 
+support effective assessment of pharmaceutical fate under different environmental conditions, appraisal of species 
+vulnerability to c ompounds, and prediction of the impact of compound mixtures; c) Deploy ecotoxicity tools  
+(bioassays) to allow a quantitative assessment of potential  harmful effects of pharmaceuticals present in the  
+environment by using existing test guidelines or assisting in the development of new ones (OECD Draft TG for the 
+assessment    of    endocrine    disrupting     chemicals     using     invertebrates) to provide a     collection of data on 
+pharmaceuticals (aiming at filling in the identified gaps, e.g. endocrine disruption), thus supporting data -driven 
+predictions from experimental data. 
+Mobilisation of a multi -stakeholder approach: ETERNAL brings together academia and technology institutes, the  
+private sector, civil society participation and pathways to policy in an effective multi-stakeholder approach, whereby 
+each stakeholder is complementary and mutually responsive to each other in addressing the complex development 
+challenges and catalyzing an enduring Green Pharmaceuticals movement that will have a h igh impact on the  
+environment, people and society as a whole. Key to ensuring the success and endurance of a multi -stakeholder 
+approach is the ability to obtain a collective-impact approach, where each party has its return of investment  
+aligned with a shared mission. 
+The ETERNAL multi-actor approach on the one hand addresses pharmaceutical industry (ANGELINI, RJ, QS, AZ, 
+including SMEs-MYB) needs by ensuring they are mobilized in an application/Case Study oriented cocreation with 
+the research (AIMPLAS, BOKU, USAAR, UKCEH, UAVR, as well as  with whom 
+we have established an engagement) and the technological and service SME partners (IRIS, BRITEST, 
+ 
+25 https://link.springer.com/article/10.1007/s11270-014-1896-y 
+26 https://www.sciencedirect.com/science/article/pii/S0147651315300038?via%3Dihub 
+27 https://www.springerprofessional.de/en/fate-and-effects-of-anticancer-drugs-in-the-environment/17534290 
+
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 15 of 45 
+ 
+ 
+ENVIROEYE)- (who benefit from the development of new solutions for the pharmaceutical industry) to ensure that 
+deployable technical solutions are researched and developed, and then deployed at each industry site in order to fulfill  
+manufacturing and business KPIs. In turn, the regulatory compliance and standards requirements (ASPHALION, 
+UNE) are assessed  to ensure the solutions are commercially deployable in the 
+future, and that findings in relation to a favourable regulatory environment for promoting the uptake of the  
+innovations are communicated to regulatory bodies and policy makers for long -term impact. The environmental  
+impact- ecotoxicity (UKCEH, UAVR), carbon footprint- (ENVIROEYE) of the innovations are assessed to confirm 
+the KPIs established at the outset, and also taking into account the public health perspective (JRC). In addition, data 
+in relation to ecotoxicity studies (UKCEH, UAVR) is openly made available (via Open Science and robust Data  
+Management- Inlecom) for informing pharmaceutical and policy priorit ies and decision making. Finally, via an  
+External stakeholder group, we are complementing the consortium with important actors, such as water treatment 
+companies (Letters of Intent- LOI- have been signed with FACSA- integral cycle of water and Global Omniu m- 
+wastewater treatment company, and UKCEH also have an established record of conducting research on behalf of UK  
+Water Industries Research Ltd, an industry body supporting research and innovation jointly owned by the major UK 
+regional water companies). We will also engage with solvent recycling companies for ensuring extended pathways 
+to impact for the project outputs. We have also a LOI with SIGRE- NGO that guarantees the proper environmental 
+management of household packaging and leftover medicines and raises public awareness about the risks stemming 
+from the inappropriate disposal of pharmaceutical waste. 
+Change Labs:  added-value in the ETERNAL approach for fomenting participation in positive multi - 
+stakeholder behavioural change: A unique feature of our project is the Change Labs, whereby we will promote and 
+facilitate social innovation, participation and behavioural change  involving our  different multi -stakeholders. 
+Complementing the   technological innovations towards more sustainable manufacture and use of 
+pharmaceuticals, ETERNAL will also catalyze behavioural change at the business/industry, policy, practitioner and 
+consumer levels. Our project communication activities will be focused on effectively engaging these groups, creating  
+awareness about the negative environmental impacts of pharmaceuticals across their entire lifecycle, as well as  
+informing about the role th at each of these actors can play in the Green Pharmaceuticals movement for positive  
+impact. The ETERNAL Change Lab will develop a roadmap (elements of which will be piloted) for EU -wide 
+behavioural change, defining the steps and infrastructure needed, and scoping/piloting initiatives and campaigns for 
+action including Letters of Intent (Business), Participation in Working Groups (Policy), Pledges/Ambassadors  
+(Practitioners), and Consumers Participation Challenge. We will leverage expertise from the Social S ciences and 
+Humanities (SSH) disciplines in order to understand social innovation aspects, in relation to how to effectively  
+communicate, engage and mobilise the different actors in impactful and sustained behavioural change. As such, one 
+of the work packages of our work plan is dedicated to the management, implementation, and impact tracking of the 
+social innovation Change Lab, which will consist of the following broad activities and expected impacts: 
+Table 5- ETERNAL Change Labs of social innovation (SI) case studies and their potential impacts 
+Social Innovation Case study Description 
+Business: Green Pharmaceuticals and CSR : Influencing pharmaceutical industry decision makers towards adopting and  
+investing in the ETERNAL technological innovations: a) Generating awareness among industry decision makers (production  
+managers, sustainability managers, etc.) about the ETERNAL techn ological innovation Case Studies and their strategic and  
+environmental impacts. A key approach will be to create a powerful association between the Green Pharmaceuticals and Corporat e 
+Social Responsibility (CSR); b) Disseminating the results of the ecotoxi city and environmental assessment of pharmaceuticals  
+towards industry decision makers to inform action planning, prioritization and decision making with regard to green 
+pharmaceutical innovation and investments 
+Expected impacts: 500 decision makers will be  targeted from the EU pharma industry - reached through a mix of channels (email,  
+LinkedIn, face to face engagements through meetings, conferences, exhibitions)- leads added to (GDPR compliant) database for 
+continued engagement; Interested leads further engaged with to participate in demos/webinars/events ; 20 EoIs from industry  
+decision makers interested in further involvement  (future pilots, scale up, pre-orders, etc.) 
+Policy makers: regulatory  as an enabler vs. a barrier to green innovation: Influencing policy  
+ 
+Engagement with policy makers (via participation in Working Groups, and through pathways that will be paved via the JRC,  
+Asphalion and UNE) in order to 1) provide scientific evidence and approaches to support understanding of the environmental  
+exposure and ecotoxicity of pharmaceuticals (including the impacts of mixtures in the environment) and 2) promote change in 
+- 
+processes towards greener routes (without impacting on consumer safety). 
+Expected impacts: Scientific evidence base for assisting policy makers in prioritizing future regulatory approaches for 
+pharmaceutical and prioritization of substances for screening and detailed assessment; Organization 
+; Evidence of progress towards removal of one of the biggest 
+obstacles blocking investment in green innovation- the regulatory hurdles in validating process modifications 
+Healthcare practitioners: ambassadors for Green Pharmaceuticals and Sustainable Use & Disposal: As key influencers on 
+pharmaceutical use, we will target a pilot group of healthcare practitioners (via organizations e.g. SIGRE & Healthcare Without 
+Harm,) to raise awareness about ETERNAL and highlight the tremendous potential of practitioners as advocates for positive  
+environmental impacts through patient education. With this group we will co-design a Greener Pharmaceuticals Pledge/Safe 
+Disposal Ambassadors program geared towards a) educating patients as to the importance of safe disposal of unused medication, 
+
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 16 of 45 
+ 
+ 
+ 
+ 
+b) prescribing green pharmaceuticals (where available and in keeping with safety & prescription requirements), c) responsible 
+prescribing of drugs, and in particular antibiotics (to mitigate hazards posed by increased Antimicrobial Resistance).  
+Expected impacts: 30 practitioner pilot group will be recruited to co-design a Greener Pharmaceuticals  Pledge / Safe Disposal 
+Ambassadors program toward patients/consumers  
+Consumers: towards a Safe Med Disposal Challenge:  As negative environmental impact of pharmaceuticals ca n arise from  
+the incorrect disposal by patients/consumers of unused pharmaceuticals, this Change Lab will bring together academic experts in 
+behavioral change and social media, with pharma and healthcare industry voices, CSOs/NGOs (such as SIGRE) and members of 
+ 
+about the issue, informing/educating about safe medical disposal schemes, safe disposal points, etc. We will also engage with  
+existing campaigns such as #medsdisposal (EU healthcare, industry and student organizations) that raises awareness on how to  
+dispose of unused or expired medicines appropriately in EU, bringing information on current EU disposal schemes in one place. 
+Expected impacts: Co-design focus groups, workshop and campaign concepts 
+: User -centric development and validation  
+can play an important role in speeding up effectively the innovation process through addressing the actual  
+user needs (European Commission, 2009). Whereas users are typically seen as a subject in traditional resear ch, 
+they are seen as co-creators of innovation in a Living Lab approach . Our approach ensures that we bring the  
+research and the industry partners together in the creative process from the outset in order to discover new and  
+emerging requirements, expectations, industry decision making and investment motivations, regulatory requirements, 
+among others. In this way, we will pave the way forward for bridging the innovation gap between technology  
+development and the uptake of new products and services involving all relevant players of the value network through 
+engagement between the innovation creators (RTOs and technology SMEs), the innovation adopters (pharma  
+industry), stakeholders (regulatory bodies and policy makers) as well as citizens (consumers). We will also allow for 
+the early assessment of the environmental and socio -economic implications of the outputs by performing impact  
+assessment work. 
+In compliance with the  
+principle, Table 6 outlines how our project activities contribute to 5 of the 6 environmental 
+objectives listed in the Regulation (EU) 2020/852 of the European Parliament and of the Council of 18 June 2020 on 
+the establishment of a framework to facilitate sustainable investment, and amending Regulation (EU) 2019/2088  
+(Taxonomy Regulation), and we also confirm that our action does not significantly harm any of the 6 environmental 
+objectives. ETERNAL contributes to the EU  in the Environment (which is 
+a cross cutting priorities of this call topic) and in particular with Section 5.2 of COM(2019) 128 final that aims to 
+ 
+ 
+ 
+ 
+How ETERNAL makes a substantive contribution to the 6 Environmental Objectives 
+Climate change mitigation 
+reduce greenhouse (GHG) emissions along the pharmaceutical value chain, and in particular in improving energy efficiency, 
+especially thanks to intensified processes. 
+Climate change adaptation: ETERNAL will make a positive contribution to climate change adaptation by promoting the 
+adoption of greener pharmaceutical processes, in contributing recommendations to policy makers towards a more favorable 
+regulatory framework in order to break down the barriers to innovation in the industry, as well as by inciting social  
+innovation in relation to positive behavioral change at the industry, practitioner and consumer levels. 
+Sustainable use and protection of water and marine resources: Between 30-90% of an oral dose can be excreted as an 
+active substance in urine and faeces 28. We will contribute to preventing pharmaceuticals and their residues entering the  
+water supply and spreading to surface wa ters and agricultural lands through wastewater effluent and sludge materials. When  
+present in water and soils, released pharmaceuticals can end up in drinking water and transfer to and accumulate in plant  
+and animal species (include those used for human consumption). Through these routes, humans can be unintentionally  
+exposed by consuming contaminated water and food. As well as human exposure,  concentrations of pharmaceuticals present  
+in the environment can have adverse effects on plants, animals and microorganisms. Given the biologically active nature of 
+pharmaceutical there is concern regarding the effects of continuous, long -term exposure of humans and wildlife to low  
+concentrations of pharmaceuticals that enter into the environment. 
+Transition to a circular economy: ETERNAL will integrate circular economy in the product life cycle including materials 
+and product design, manufacturing, and supply. It will focus on the product design using PAT and digital twin (selection of 
+less harmful raw materials, study of alternative routes of synthesis etc.) new ways of minimizing waste and turning waste 
+into resources (application of purification technologies for solvents, membranes and green substances to capture impurities 
+and reagents (AZ, JR, Angelini), changing manufacturing technologies by continuous ones to reduce energy consumption 
+and raw materials (Angelini, JR, QS, MyB) maximize medicines' value, studying their quality and stability using, and enable 
+sustainability throughout the entire supply chain. All pharmaceutical companies have also included in their environmental 
+Strategies the reduction of CO2 emissions, energy, water and gas consumption etc. 
+Pollution prevention and control: The majority of pharmaceutical residues from industry production- leftovers not 
+ 
+28 https://ec.europa.eu/health/files/environment/study_environment.pdf 
+manufactur 
+  
+Table 6- 
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 17 of 45 
+ 
+ 
+ 
+properly disposed of or those that pass through the human body-end up in wastewater treatment facilities. At present, most 
+wastewater treatment facilities are not able to completely degrade or retain these substances, the remainder, even if heavily 
+diluted, can find their way into rivers or agriculture fields and cause permanent damage to organisms. Moreover, antibiotics 
+in the environment can promote the development of antibiotic-resistant pathogens. ETERNAL will contribute to reducing 
+this pollution at th                                 
+pharmaceuticals that degrade more readily, to harmless substances, in wastewater treatment plants and the  environment; 
+2) increase the understanding of & reduce the impact of pharmaceutical substances on the environment; 3) tackle improper 
+disposal of antibiotics through social innovation, consumer awareness and the meds disposal campaign for high impact, e.g. 
+each year in UK alone some d medicines go unused and are ultimately discarded29. 
+Protection and restoration of biodiversity and ecosystems : Loss of nature is also increasing our vulnerability to  
+pandemics, undermining efforts to tackle the climate crisis, and threatening livelihoods. There is overwhelming evidence  
+that traces of pharmaceuticals in the environment, in particular in water and soil, could have an adverse impact on wildlife 
+such as fish, birds, and insects and knock -on effects on wider ecosystems, including antimicrobial resistance 30. With  
+thousands of pharmaceuticals in use globally, many of which are designed to have biological effects at low concentrations, 
+pharmaceuticals have the potential to have potent effects on wildlife and ecosystems. Animals and other organisms that are 
+exposed to pharmaceuticals in water, soil, or even by feeding on medicated animals can experience behavioral, 
+physiological, and histological effects. For example, a decline in populations of dung beetles is thought to be at least partly 
+attributable to the use of anti -parasitic pharmaceuticals, including ivermectin in livestock. This has consequences for  
+nutrient cycling, and other indirect effects on ecosystems including rare bat and bird species may also be significant . By 
+promoting and enabling an enduring Green Pharmaceuticals movement anchored in technological innovation (as well as  
+future roadmap for continuity towards industry adoption of the innovations), increased pharmaceutical ecotoxicity data,  
+compliance and policy contributions, and social innovation, ETERNAL will make a lasting contribution to protecting our 
+ecosystems from the adverse impacts of pharmaceutical manufacture and use. 
+Challenges and how they will be overcome: A key challenge to a codesign/cocreation approach, for performing 
+ERA and LCA in relation to the case stud production process and API changes and also to relates to the potential  
+unwillingness of industry to share product/process information and data that is considered business sensitive. In order 
+to overcome this, our approach is to only share industry information that is needed to perform the research and with 
+the core actors (research -technology-industry) involved in each case study. As such, our Cocreation approach will be  
+implemented at a single company level in terms of the scoping sessions to codesign the solutions for each specific 
+Case Study. That said the industry partners are willing to identify sufficient information that is non-confidential in 
+order to communicate the results/impacts in an Open Science approach and to contribute to the Open Data generated 
+by the project. 
+In addition from a technical perspective, we could meet challenges in relation to the membrane technology for solvent  
+swaps, purification, and product recovery not providing the expected quality, and we will strive to overcome by  
+improving the purification steps and incorporating membranes with a special coating to increase their selectivity.  
+Knowledge of companies, technology centers and universities makes it possible to overcome this challenge.  
+Moreover, it might be the case that the encapsulation effectiveness does not reach the expected target, in the synthesis 
+of Liposome nanoparticles to encapsulate APIs. Different technologies will be tested based on microfluidics,  
+including Microjet reactor technology, to help to overcome this lack of effectivity should it occur. 
+Feed in from national or international research and innovation activities: Work across Europe is ongoing on a 
+variety of interlinked topics, from greener manufacturing, and pollution abatement over a reduced use of veterinary 
+pharmaceuticals to enhanced wastewater treatment. The Pharmaceutical Strategy for Europe focuses on availability, 
+affordability, sustainability and security of supply of pharmaceuticals, as well as enabling innovation. It also includes  
+actions referring to the environmental aspects of production, use and disposal of medicines. In March 2019, the  
+Commission adopted the European Union Strategic Approach to Pharmaceuticals in the Environment (PiE), which 
+focuses on actions to address the environment al implications of all phases of the lifecycle of (both human and  
+veterinary) pharmaceuticals, from design and production through use to disposal. In addition, we will build on  
+existing efforts that are generating data and data tools in the area of Pharmaceuticals in the Environment (PIE). For 
+example, the European Medicines Agency is updating guidelines on Environmental Risk Assessment for human  
+medicinal products (Section 5.3.1). 
+Importantly, as expected by the call topic we will cooperate with the   
+Centre (through a dedicated task in the work plan- Task 4.5). At proposal stage, preliminary meetings have been 
+held with two senior scientists from the JRC from the fields of ecotoxicity (and in particular in relation to the mix of 
+chemicals) and scientific evidence for policy making (including new approach methods to regulatory authorities). 
+During the project, we will cooperate with the JRC in the field of new approach methodologies for ecotoxicity  
+assessment (and it is noteworthy that one of our contacts in the JRC is the European Coordinator of a network of 35 
+GLP compliant laboratories from across the EU). 
+Table 7 provides a non-exhaustive list of national and international research and innovation activities whose 
+results will feed into the project. Links with projects will be established via the ETERNAL partner who forms part 
+ 
+29 https://discovery.ucl.ac.uk/id/eprint/1350234/1/Evaluation_of_NHS_Medicines_Waste web_publication_version.pdf 
+30 https://ec.europa.eu/environment/water/water-dangersub/pdf/Progress_Overview%20PiE_KH0320727ENN.pdf 
+
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 18 of 45 
+ 
+ 
+of these project teams, as well as via the Coordinators (managed through Task 6.3- Links with relevant national and 
+international research and innovation activities). 
+Table 7- National and international research and innovation activities that will be linked with ETERNAL 
+Intelligence-led Assessment of Pharmaceuticals in the Environment (iPiE): Develop frameworks that utilize information from  
+toxicological studies, pharmacological mode of action and in silico models to support intelligence-based environmental testing 
+of pha rmaceuticals in development and to prioritise legacy pharmaceuticals (those authorized prior to 2006 enactment of  
+Medicines Agency requirements) for targeted environmental risk assessment and/or environmental (bio) monitoring. Published 
+databases on environmental risks of pharmaceuticals. 
+Prioritisation and Risk Evaluation of Medicines In the EnviRonment ( PREMIER). Funded under IMI (Innovative Medicines  
+Initiative). Ongoing: 01/09/2020- 31/08/2026: A framework for assessing and characterizing the environmental risks of APIs, 
+which could be used to prioritize   
+Assessment (ERA), as well as for picking up potential environmental risks in new APIs that are still under development. 
+Development of a publicly available database. 
+One Health European Joint Programme (OHEJP)- . Partnership between 44 acclaimed 
+food, veterinary & medical laboratories and institutes across 22 EU 
+approach to addressing the existing and emerging threats of antimicrobial resistance , whereby several antimicrobial  
+(antibiotic & antifungal) pharmaceuticals from the treatment of humans and animals have been found in water and soil: their  
+presence may play a role in accelerating th e development, maintenance and spread of resistant bacteria and fungi. One Health  
+approach had previously already taken account of the interconnection between human& animal health, now also encompasses 
+the environmental dimension, recognizing it as another link between diseases in humans & animals & potential source of new 
+resistant microorganisms. 
+NanoHarmony- Towards harmonized test methods for nanomaterials. H2020 project. Ongoing: 01/04/2020-31/03/2023: 
+Focusses on OECD TGs and GDs, the collection and use of available data and information to support the finalization of the test 
+method development and to organize a sustainable network for the needed exchange, also for future regulatory development 
+needs. Method development coming out will be used for the ecotoxicological assessment of nanoparticles/drug delivery systems from 
+the case studies work. 
+CHRONIC- Chronic exposure scenarios driving environ -Curie, Ongoing: 
+01/03/2021-28/02/2025: Support improved decision -making in risk assessment based on uncertain and potentially conflicting  
+information, and in the development of scientifically -based monitoring strategies. CHRONIC will link in its paradigm shift in  
+ERA methods and practices needed to deal with current and future contaminant challenges, and we will have access to its tools 
+and approaches to identify relevant non-standard modes of toxicity for low chronic chemical exposure and integrate these with 
+environmental stressors, laying the basis for an integrated approach to environmental risk assessment that includes non-standard 
+yet ecologically relevant endpoints and low chronic exposure as key elements. 
+EMPHASIS Effects of marine pharmaceuticals in zebrafish and ZFL cell line, Funded by FCT -Fundação para a Ciência e  
+Tecnologia. Ongoing: 20/07/2018-19/07/2022: Provide information on the ecotoxicological effects of clinic pharmaceuticals  
+(antineoplastics) and potential novel compounds with anticancer properties using in vitro and in vivo models, as well as provide 
+robust information linking different organizational levels for use in regulatory risk assessment. 
+VitroTox Linking in vitro to in vivo toxicity of pharmaceuticals: an integrative approach. Funded by FCT. Ongoing: 
+29/03/2021-28/03/2024: Develop chromatographic methodologies for the quantification of specific groups of pharmaceuticals 
+(antineoplastics, antibiotics) in aquatic and biological samples, assess the joint ecotoxicological effects of such pharmaceuticals 
+and advance in the use of predictive toxicology using modelling approaches as well as, assist in the implementation of 
+antineoplastics and antibiotics EU regulations. 
+ERCITE Emerging Risk of Chemical in the Environment. Funded by UKRI/NERC. Ongoing. 01/09/19-30/06/2023: The 
+Emerging Risks of Chemicals in the Environment program aims to conduct research to predict how the environment and its 
+ 
+effects of mixtures, the second on the large-scale risk of trace chemical and pharmaceutical in wastewater for biodiversity. 
+We will also engage and network with other important and relevant initiatives, such as the AMR Industry Alliance 
+(one of the largest private sector coalitions set up to provide sustainable solutions to curb antimicrobial resistance, 
+with over 100 biotech, diagnostics, generics and research-based pharmaceutical companies and associations joining 
+forces), the Pharmaceutical Supply Chain Initiative (a group of pharmaceutical and healthcare companies who share 
+a vision of better social, health, safety and environmental outcomes in the communities where they buy), the Eco- 
+Pharmaco-Stewardship (EPS) initiative 
+(Inter-Association Initiative on 
+Pharmaceuticals in the Environment (IAI 
+PIE) combining the expertise of the 
+Association of the European Self -Medication 
+Industry (AESGP), the European Federation 
+of Pharmaceutical Industries and 
+Associations (EFPIA), the European Generic  
+and Biosimilar medicines association (EGA), 
+and the IChemE, IMechE and ISPE 
+Sustainability in Pharma joint initiative in  
+order to address the emerging environmental 
+concerns, considering the entire life-cycle of 
+the medicine and addresses the roles and  
+responsibilities of all parties involved 
+
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 19 of 45 
+ 
+ 
+including public services, the pharmaceuticals industry, environmental experts, doctors, pharmacists, and patients). 
+Interdisciplinarity: ETERNAL mobilizes 
+expertise and methods from numerous 
+distinct disciples to expand the frontiers 
+Fig. 2-   Interdisciplinary approach 
+of knowledge. While interdisciplinary R&D improves creative performance and the potential for breakthrough  
+innovations being generates (they often result from bringing together previously unrelated ideas and recombining  
+them in new ways to create original products or processes), interdisciplinary R&D projects are more complex to 
+manage31. The disciplines that are being brought together and integrated in the ETERNAL project are as follows  
+(Fig. 2): API production, Green Chemistry, Mechanochemistry, Digitalization, Regulatory Compliance, 
+Environmental Risk & Lifecycle Assessment, Ecotoxicity, Policy, and Social Science & Humanities. In order to 
+include an Interdisciplinary Strategic Committee, involving senior researchers from each of the different expert 
+teams. This Committee will be responsible for the definition of the internal working strategies for the consolidation 
+of the interdisciplinary R&D program with the aim of by minimizing redundancy, balancing diversity and 
+complementarity, and capitalizing on synergies in information, knowledge, cultures and techniques. This 
+Committee will overcome communication barriers, ensure the seamless transfer of strategic information across the 
+disciplinary teams, improve the risk management and Scientific and Technical decision-making process. As such, 
+Rob Peeling as a Senior Innovation Specialist from Britest, with a strong process and cross-disciplinary 
+understanding and with 30+   as a specialist in capturing manufacturing process understanding 
+through guided facilitations, makes an ideal chair of this Committee (supported by the Project Coordinator). 
+Moreover, this role is very compatible with Britest s role as leaders of the cocreation process (research-industry- 
+compliance) that will be a pillar of the project methodology. Regarding the tools and methods that we will employ 
+in order to enable the fluid convergence and intersection of these disciplines towards the successful accomplishment 
+of the project objectives are: codesigned work plan (all teams and disciplines have been involved in defining the 
+work plan, and in identifying the necessary interactions required among the various disciplinary teams) and the 
+subsequent cocreation/codesign approach that will be implemented in the project using the Living Lab methodology 
+that will involve codesign/scoping sessions and other tools to ensure cross-disciplinary of knowledge and information 
+from industry to the research and technology providers to ensure we arrive at technically deployable solutions that 
+meets the expectations of industry digital collaboration and knowledge management tools (for merging formal- 
+dynamic Gantt and project task, milestone, risk and output management in line with the workplan), and informal 
+collaboration methods (communication tools, chats, forums, shared repositories, document collaboration tools) 
+plenary meetings (every 6 months); thematic working sessions (at least monthly); informal breakout meetings and 
+sessions (as often as needed)- agile minutes template to be completed for every meeting and session) knowledge 
+exchange, demonstration and training sessions- internal sessions for promoting cross-disciplinary knowledge 
+exchange & training across the different interdisciplinary teams. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gender dimension: Gendered Innovations harness the creative power of sex, gender, and intersectional analysis for 
+innovation and discovery, and considering these approaches may add valuable dimensions to research, in that they 
+may take research in new directions (which would have not have unveiled themselves had we not have considered 
+ 
+31 https://core.ac.uk/download/pdf/15567027.pdf 
+32 https://leru.blogg.lu.se/files/2015/06/LERU-Note-2013-Essential-SSH-Research-for-the-Societal-Challenge-Secure-clean-and-efficient-energy.pdf 
+Integration of social sciences and humanities: 
+environmentally responsible manner is not only an important technical challenge, but also devising the industry and 
+consumer motivation, policies, legislation and economic tools that will enable this to be done in an effective and  
+politically, socially, culturally and ethically acceptable manner is an equally great challenge. Research in social  
+sciences and humanities is essential to probe these deeper issues and develop the tools for tackling them. Indeed, the 
+challenges Europe faces are fundamentally human in nature  understanding individual and collective human  
+behaviour is therefore crucial32. As such, socio-economic science and humanities (SSH) are identified as a cross - 
+cutting priority in this call topic. The ETERNAL project, as part of a holistic approach, mobilizes SSH disciplines in 
+the running of a Change and Participation Living Lab (WP5) which cross-cuts the work plan as a cross-cutting issue 
+to green pharmaceutical investments, as well as how policy/the regulatory landscape influences decision - 
+making. Indeed, as discussed regulatory compliance is a key barrier to innovation, and there is an opportunity to 
+-validation of 
+greener routes is encouraged (without compromising patient safety), which will involve behavioral change at the  
+policy and the industry level. Social sciences and humanities can also provide better understanding of how  
+can be positively influenced. This work will include contributions from the social and behavioral sciences 
+non-vocational and 
+vocational subjects), Business and administration (management, investment analysis marketing, public relations, 
+. SSH will also be used in the Gender dimension work. 
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 20 of 45 
+ 
+ 
+gender dimension). We include a   in our project (man aged in Task 5.4). We will  
+employ methods of sex, gender, and intersectional analysis as a possible source for new knowledge creation, to ensure  
+that important aspects such as gender equity and a gender perspective are considered, whereby the role of women in 
+the Greening of the Pharmaceutical industry will be empowered and acknowledged, in terms of female scientists,  
+researchers and engineers involved in the innovation generation process, female senior business professionals  
+involved in industry decision making, and female leaders from the value chain and from stakeholder organizations 
+and initiatives, and female participation, capacity building and influence over policy and financial mechanisms. 
+We will perform a Gender Analysis (which will involve SSH disciplines) to study how, from the Social Sciences 
+and Humanities perspective, the behavioral implications as a result of the participation of women in decision-making 
+and leadership positions and how this may influence investments  in environmentally sustainable pharmaceutical 
+developments, and how it could also influence on paving the way to truly equitable healthcare. Indeed, the business 
+case for promoting gender equity is now widely accepted; diversity has been a focus for compa nies and investors 
+alike for nearly a decade, with e.g. the UK's 30% Club having been launched in 2010, and France having gender  
+quotas for boards since 2011. As such, the implications of gendered decision-making in sustainable innovation would be 
+valuable and pioneering to study. Any potential effects of pharmaceuticals and ecotoxicity aspects that could have 
+different health implications and effects based on gender (e.g. pregnancy and nursing mothers) will also be  
+considered, and will inform our research and the future research roadmap that will result from this project. Our D&E 
+(Dissemination and Exploitation) outputs will ensure gender inclusive language and images, as well as specific 
+results and which are or should be taken into account in its applications. Gender stakeholders in the field, as well as 
+women from intersectional groups from the pharmaceutical industry and stakeholder and value chain will be  
+considered as participants and targets of the D&E activities. We will produce a publicl y available Gender dimension 
+Report (D5.5) that will describe how gender dimension has been integrated into the project across all its stages and 
+what the main results and outcomes from a gender perspective have been. 
+Open Science Practices: Open science practices (i.e. an approach based on open cooperative work and systematic 
+sharing of knowledge and tools as early and widely as possible in the process) will be implemented as an integral  
+part of our proposed methodology and for increasing our chances of delivering our objectives, as follows: 
+Early and open sharing of research: Publications will be made in open access journals (as opposed to hybrid  
+journals) and we will ensure early sharing of publications (pre-prints) to satisfy open access requirements and to enable 
+a faster way of sharing knowledge via deposit in repositories. Participation in open peer-review will also be encouraged. 
+Open access to research data and other related research outputs (e.g. to software, algorithms) will be promoted  
+following the principle 'as open as possible, as closed as necessary' (and our strategy is to ensure that Open Science and 
+IPR Management and closely linked, whereby we will aim to timely identification and protection of sensitive IP) and  
+operated in parallel with a robust strategy for ensuring commercial exploita tion, protection of personal data or  
+confidentiality/security are not jeopardized. 
+Research output management: All research outputs will be documented by the generators (researchers) of the outputs 
+and aspects such as ownership, novelty, IPR protection, etc. will be established in a timely manner and knowledge, data 
+and information that is available for open dissemination will be confirmed. 
+Measures to ensure reproducibility of research outputs: Relevant technical standards will be adhered to in order to 
+ensure that scientific information, publications, data and other outputs from our project, as well as the metadata about 
+them, is available for re-use in the long term. This will involve the use of persistent and unique identifiers, of certified 
+repositories that are compliant to the standards of the European Open Science Cloud and in compliance with the FAIR  
+principles for the management of research data produced by projects. 
+Involving all relevant knowledge actors including citizens, civil society and end users in the co-creation of content, 
+as well as Citizen Science: a key feature of our workplan is our Change Living Lab, whereby we aim to involve Citizen  
+participation for impact in relation to the important role of the citizen in preventing the unsafe disposal of unwanted 
+drugs- citizens will be made aware of their important role in positive change, they will be educated as to the impacts  
+and empowered to be shareholders through behavioral change. 
+Data Management and management of other research outputs:  Data Management is  an integral part of the  
+research process for our project and Table 8 provides an overview of how data/ research outputs will be managed in 
+line with the F.A.I.R. principles (Findable, Accessible, Interoperable, Reusable). Building on this outline, we will 
+develop a full Data Management Plan (DMP) that will be ready by M6 as Deliverable 6.2 of the project. It will be a 
+living document in which information can be made available on a finer level of granularity through updates as the 
+implementation of the project progress and when significant changes occur. Our plan will essentially specify what 
+data is generated by the project (purpose of the data collection/generation and its relation to the objectives of the  
+project), whether and how it will be exploited or made accessible for verification and re -use, and how it will be  
+curated and preserved to ensure our data/research outputs are findable, accessible, interoperable, and reusable.  
+Moreover, in view that many scientific companies outsource packages of research  to contract development &  
+manufacturing  (CDMOs), this involves a high volume of primary data being produced by the CDMO. 
+Currently the data transfer process is not standardized, requiring significant resource for processing and reporting. 
+Often data transfers are still manual, requiring drag and drop of files via shared folders and potential loss of some 
+primary data. In ETERNAL (through Task 2.2), we will digitize this process to ensure that data generated are 
+
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 21 of 45 
+ 
+ 
+transferred in real time, and ensuring that all data generated is F.A.I.R. This will minimize the need for any  
+experiments to be repeated, and greater co ntrol of data should result in more sustainable faster development of  
+scalable methods of production. 
+Table 8- Summary of data management and management of other research outputs 
+Types of data/research outputs and their estimated size: We will describe the types and formats of data the project will 
+generate/collect (e.g. indicators of stress (measurable factors); The origin of the data; Expected size of the data; From  
+whom it might be useful ('data utility'). Data outputs from our project will include experimental data, observational data, 
+images text and numerical data, and combination with, and provenance of, existing data as relevant. Of relevance for our 
+project, are e.g. the four domains of master data in pharmaceutical regulatory processes: substance, product, organisation 
+and referential (SPOR) master data. 
+Findability of data/research outputs We will ensure we make the data readily findable through trusted repositories, 
+and we will define types of persistent and unique identifiers (e.g. digital object identifiers). 
+Accessibility of data/research outputs We will ensure we make the data openly accessible, as early as possible in the 
+project & in keeping with robust IPR management (data that is linked to IP will be available after IP protection mechanisms 
+are in place). Provisions will be made for providing controlled access to restricted data for verification purposes. 
+Interoperability of data/research outputs We will ensure the interoperability of the data through standards, format and 
+vocabularies for data and metadata, e.g. the standards developed by European and international standardization 
+organizations like CEN and ISO) for the identification of medicinal products (IDMP). The participation of UNE 
+(representing CEN & CENELEC), in our consortium is a significant asset. 
+Reusability of data/research outputs Increase data re-use (through clarifying licenses). Where relevant we will allow 
+data sharing and reuse through Creative Commons and Open Data Commons licenses. Use of tools/ software/ models for 
+data generation and validation/interpretation /re-use. 
+Curation and storage/preservation costs Through Task 6.2 we will perform Data Management work under the leadership 
+ 
+experienced IT Senior Executive, who spent 25+ years at IBM, Mr. O 
+perform this role of data management and quality assurance. Moreover, all partners have allocated resources (personnel  
+involvement and costs for making data FAIR) in their budgets to participate in Data Management under the guidance of  
+the Data Manager. In  relation to long -term preservation of the data we have budgeted a reasonable amount for this to  
+contribute to long term preservation. 
+Data Security We will ensure (through the use of trusted repositories) that data is secure: including mechanisms for data 
+recovery, as well as secure storage and transfer of sensitive data. 
+Regulatory and Ethical aspects  We will ensure all regulatory and ethical aspects in relation to Data Management are  
+fulfilled. Compliance requirements for industry in relation to data will be adhered to all times (and the presence of  
+ASPHALION-who are experts in the field of regulatory and compliance in the pharmaceutical industry- in the consortium 
+is a key asset). We will also ensure full compliance with General Data Protection Regulation for any personal data gathered. 
+2. Impact

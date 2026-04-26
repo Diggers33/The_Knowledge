@@ -1,0 +1,954 @@
+1.3  Concept and methodology; quality of the measures  
+1.3.1 Concept and approach   
+AI-CUBE concept  
+  
+The AI-CUBE concept – as visualised more in detail in Figure 3 above – is based on a tri-axial mapping of 
+AI and BD technologies  in the different process industry sectors and macro -application-process areas. It 
+allows to map and visualise the STATUS of AI & BD use and penetration per SPIRE sector (cement, ceramics, 
+chemicals, engineering, minerals and ores, non -ferrous metals, steel and 
+water) and per macro -application- process areas (e.g. research and 
+innovation management and planning,  process control, supply chain 
+management, predictive maintenance, product customization). These 
+application areas and related AI & BD technologies, will be pre -defined 
+based on literature research, including research on previously funded 
+projects, but cyclically updated during the project, when most promising 
+business cases to be defined through a bottom -up engagement process 
+with industry stakeholders, become clear. As confirmed by research9 57% 
+of companies expect AI to have an impact on ‘business areas ’ that are 
+entirely unknown to us today, indicating that value drivers, pre-defined macro-application areas and future AI 
+& BD business cases, are currently merely indicative.   
+The ‘cube concept’ allows to set the stage for the development and integration of four sets of key results which 
+are key to drive the opportunity assessment and take -up of AI and BD by the European process 
+industries:   
+   
+1. MLA: A novel AI and BD Maturity Assessment Level model based on five activities: inception, 
+elaboration, construction, deployment and maintenance.   
+  
+2. The AI-CUBE tool: to be used as mapping tool by individual industries or the secto r to assess their 
+state of advancement in AI and BD, and needs for further development  
+3. A set of inspirational AI and BD Business Cases in the process industries and a AI -CUBE 
+Business Model Game: to be used by industries or the sector, to stimulate reason ing about how AI 
+and BD can change their Business Models and Value Chains for the future, and hence what actions to 
+take  
+4. Roadmaps and Infographics: A set of several roadmaps and easy to consult Infographics, that outline 
+the path towards:   
+a. transferring good AI & BD practices form one SPIRE sector to another  
+b. further developing and taking-up technology solutions towards AI & BD Business Cases of 
+the future for the different SPIRE process industry sectors.  
+ 
+9 EY Report “Artificial Intelligence in Europe. Outlook for 2019 and beyond  
+  
+
+ 
+  
+  
+The AI-CUBE Approach  
+The methodological AI-CUBE approach (see Figure 4), uses the “cube -concept”, to assess and visualise the 
+AI and BD STATUS (3.1.) based on literature research and stock-taking with SPIRE industries stakeholders 
+(1.1. and 2.1.). Based on the initial STATUS assessment in the first phase of the project, the definition of 
+future AI and BD business cases in the second phase, resulting from the MAMCA stakeholder engagement 
+process, as well as a detailed gap -analysis, in the third phase a set of actions to realise the targeted AI and 
+BD strategies and roadmaps will be developed (4.3.).   
+  
+  
+Figure 4. The AI-CUBE Approach  
+  
+Once the AI and BD STATUS  has been established, a Maturity Level Assessment (MLA) method and 
+standards will be developed (2.2.) by the AI-CUBE team, and validated with the stakeholders’ group through 
+a series of interviews and Workshops (2.1.) following a Multi-Actor Multi-Criteria Analysis methodology. 
+This methodology (see 1.3.3.1) will be used to obtain a widely supported and consensus -based action plan 
+for the industrial consultation including a broad stakeholder community representing the main industry actors 
+throughout all the SPIRE sectors. This stepwise and scientific approach allows AI -CUBE to involve a large 
+group of stakeholders and interested actors in the process. The project consortium has strong connections with 
+SPIRE industries and will use its support and experience to integrate all the sectors and reach all the involved 
+actors by engaging strong and committed stakeholders. Several large process industries have already expressed 
+their support to the AI -CUBE project (see letters of Support) and will be engaged in the process. The 
+MultiActor Multi-Criteria Analysis (MAMCA) approach will be used to define the business areas, business 
+cases and models, related organisational core processes and related AI &BD technologies, in relation to where 
+the largest impact of AI and BD technologies is expected by the stakeholder communities, as well as gap 
+analysis and validation of development requirements.  
+Based on an initial stock-taking and status assessment (the “CUBE”), together with industry stakeholders, the 
+most promising AI and BD Business Cases of the future (4.1.) will be developed, taking into account both 
+industrial competitiveness and sustainability objectives (SPIRE 2050 and Green Deal). A Business Model 
+Innovation Game, developed and validated within the previous INSPIRE CSA, will be adapted for AI-CUBE 
+to engage the industry stakeholders through a “serious game approach”, to define the impact of AI and BD 
+on their process industries. Using the CUBE, promising business cases and models will be mapped against 
+STATUS (3.1) and a gap analysis will be carried out (4.1.). This will allow for the identification of AI and 
+BD development areas, as well as those solutions for which good practices already exist in other SPIRE process 
+industries, which can be adapted and transferred (3.2.). Methods to transfer and better exploit AI and BD 
+will be defined (3.3.), and the impact (3.3.) of these potential developments will be assessed together with 
+stakeholders through a series of Workshops with stakeholders (2.1.). The promising AI and BD Business Cases 
+for the future, will be further analysed through case-studies and business models (4.2.) will be discussed with 
+the stakeholder community, as input for the final results: the development of individual roadmaps for each 
+
+   
+  
+SPIRE process se ctor to progress towards these targeted AI and BD business cases. Finally, to foster 
+dissemination and take -up of results, the AI -CUBE partners will design easy to use and digest AI and BD 
+Infographics, to help realise one of the key final challenges of CS A type projects, to transfer the acquired 
+knowledge and tools towards the wider (process industry) stakeholder community.   
+The AI-CUBE roadmaps will investigate:   
+  How to identify the major business problems/opportunities and develop AI business strategie s, based on 
+the long-term strategic issue faced by the process industry in Europe? What type of AI to deploy, given 
+the uncertainty regarding which technology will become widespread?    
+  How to make use of the lessons learned from the implementation of AI s olutions so far (most likely in 
+technology-focused firms) in process industry? What would be the major/particular challenges that the 
+process industry would face in deploying AI? AI-CUBE will analyse success stories and failures in similar 
+settings and industrial applications (e.g., targeted marketing, dynamic pricing, manufacturing automation) 
+to answer the question: How to manage AI related risks?   
+  What kind of new technologies should be coupled with AI in sectors with heavy assets and long production 
+cycle times, such as some sectors in process industry? The purpose is to identify the potential of such 
+technologies (e.g., machine and deep learning, image recognition) in facilitating the implementation of the 
+recommendations from AI solutions for achieving meaningful impact on different value chain functions 
+(i.e., design, innovation, sourcing, making, storage, delivery, marketing, sales, use, after -sales, 
+recycling/remanufacturing). This would help decision makers in process industry to take full advantage of 
+AI, to close the “AI gap” and not to fall behind technology-focused industries.  
+  What are the available methods/tools/processes to acquire relev ant data? How can the companies in the 
+process industry establish processes to identify the type of information necessary to improve 
+financial/operational/environmental performance and how AI can contribute to the collection and analysis 
+of such data/information? How to increase the involvement of data science in the decision-making process 
+at higher levels?  
+  How to scale deployment of AI technologies across industries/locations? What kind of AI ecosystems 
+need to be established (e.g., IoT infrastructure, I T expertise, top AI talent)? How would this benefit not 
+only single firms, but also value chains or industrial parks (e.g., industrial symbiosis, supply chain 
+coordination)? How to guarantee that the process industry workforce is adequately trained in applying and 
+benefiting from the use of data-driven technologies, such as AI and BD? How to recruit employees with 
+the proper digital skill set?  
+  How to determine the tasks/decisions that need to be automated? What would be the process governing 
+the human-machine interaction (e.g., how would the recommendations from the AI solutions be handled, 
+under what conditions would the human decision maker accept or reject the decision proposed by the AI 
+solution)?   
+  What would be the impact of the deployment of such AI technologies and BD on different stakeholders in 
+a value chain? Would some players (e.g., freight forwarder or a distributor in a supply chain, humans  
+in individual firms) run the risk of being disintermediated because of AI solutions? Do the AI solutions  
+have the potential to create all-win solutions?  
+  
+1.3.2 State of the art   
+1.3.2.1 State of art: Data driven technologies  
+In recent years, digitalization has become more and more important, so that it has a high significance in the 
+manufacturing and planning processes of the process industry.   
+Europe is indeed the third country at world level for what concerns AI players and investments (see fig. 5) 
+with a growing shift of investments both from the public and private sector.  
+  
+In 5 years from now (see fig. 6), the market is expected to grow almost ten times compared to the market 
+revenues in 5 years and, according to a study by IDG Research Services10, up to 25% of companies would like 
+to deal with the topic of artificial intelligence and machine learning in the coming years, so that it can be said 
+that these topics already have a high influence in the economy today and their importance for future economic 
+success is very present.  
+  
+ 
+10 Reder B (2018) Studie Machine Learning/Deep Learning.  
+ 
+  
+ 
+Figure 5. Top 10 world geographic areas by n. of AI players: Absolute&Relative to GDP (€ bn), 2009-2018.  
+  
+  
+Figure 6. Expected growth of AI market revenue worldwide 2018-202511  
+Borrowing the definition from the report “ Accenture Technology Vision 2018: Intelligence Enterprise 
+Unleashed”, AI can be defined as “any form of machine learning”. The ultimate goal is to obtain predictions 
+and recommendations based on big data. “Deep learning” and “reinforcement learning” are two growing areas 
+of machine learning, according to the same report (Accenture, 2018). These learning methods aim to recognize 
+patterns in structured/unstructured data (e.g., images, text, videos, quantitative data) and make predictions and 
+continuously improve (retrained prediction models) the performance by analysing new large data sets.  
+  
+  
+AI is considered a tool with great potential that will enable the firms increase profits in general. In fact, the 
+results from a survey of over 3,000 business leaders in 2017, show that 85% of the respondents believes that 
+AI will make their businesses remain competitive. Despite the promising solutions AI might provide, not all 
+the businesses have fallen for the hype yet. Adoption rates are still quite low, around only 23% adopting some 
+AI technology and a mere 5% having extensively deployed AI solutions and mostly in support functions such 
+as IT and customer service12.  
+  
+Nevertheless, there are success stories in regards to the deployment of AI, not only in back -end IT solutions, 
+but also core business functions (e.g., sourcing decisions, storage, deliver y, design). In what follows, it is 
+discussed how the AI technologies have been used and the generate impact in different industries:   
+• Use of AI powered automated machines by Abundant Robotics 14 to harvest apples, increasing the 
+efficiency of the physicall y demanding apple picking process and avoiding issues with low labour 
+supply,  
+• Use of AI (Salesforce Einstein) that prioritizes leads with a higher likelihood of converting to a sale, 
+enhancing the sales process via enabling sales people to focus on the right leads increasing conversion 
+rate in U. S. Bank,  
+ 
+11 Statista, https://www.statista.com/study/68108/artificial-intelligence-in-italy  
+12 Sam Ransbotham, David Kiron, Philipp Gerbert, and Martin Reeves, “Reshaping Business With Artificial Intelligence,” MIT 
+Sloan Management Review and The Boston Consulting Group, September 2017, p. 1. 14 https://www.abundantrobotics.com 
+(accessed June 26, 2018).  
+  
+  
+  
+
+   
+  
+• AI allowing Stitch Fix to analyse customer taste (data on colour, pattern) and purchasing behaviour 
+(style), and consequently propose new personalized product designs that will match customer needs 
+faster,   
+• Use of reinforcement learning by Airbus/Autodesk to make airplane partitions that are 45% lighter by 
+applying patters for slime mould and mammal bones,   
+• Use of machine learning to provide customized products in less than 3 days, analysing customer photos 
+and skin tones by Shiseido/MatchCo,   
+• Use of AI by IBM’s Watson as a result of end -to-end visibility from data across systems, to spot 
+obsolete parts identifying product changes and recommend procurement managers to order 
+new/different parts leading to lower inventory levels and scrapping costs, as well as predicting which 
+components have a risk of supply shortage to minimize disruption risks,   
+• Use of machine learning to improve maintenance and increase uptime of wind turbine machines by 
+predicting ne ar time failures from sensors placed on turbines by MidAmerican Energy 
+Company/Uptake,  
+• Use of machine learning by Big River Steel/Noodle.ai to increase profitability by estimating prices of 
+scrap and finished steel and projecting demand,   
+• Use of machine learning by OhmConnect to analyse house-hold level energy usage data, demographics 
+and weather forecasts to optimize customer segmentation improving the efficacy of energy saving 
+campaigns.  
+  
+Artificial intelligence and machine learning have the potential  to transform the management and structure of 
+global value chains. New technologies in critical areas such as natural language processing, sensors, robotics, 
+edge computing, machine and deep learning, and image recognition, provide significant opportunitie s to 
+improve how products and services are designed, made, delivered, marketed, and used. Industry applications 
+include targeted marketing, dynamic pricing, product design, manufacturing automation, and supply chain 
+coordination.  
+  
+  
+Since data is so central to contemporary AI development, several data-related concerns are frequently raised 
+during debates about AI. AI engineers spend as much time thinking about data as algorithms. They need lots 
+of good quality data to perform effective ML, and even more to test the results. 'Data mining', is a field of 
+computation focused on the automated identification of patterns and anomalies in datasets. The dataset could 
+be anything from text posted on social media to precise measurements of underground geological formations, 
+and the mining process could deploy ANNs, statistics and modelling to identify useful features. 'Big data' 
+refers to datasets that are so large and complex – including content from different sources, in different 
+formats, and with different degrees of authenticity and accuracy – that they cannot be stored or processed in 
+the same way as smaller datasets. Figure 5 shows the different steps of implementing big data within a 
+company. This reaches from ensuring the 
+necessary infrastructure up to the involvement 
+of the staff to prepare and enable a  proper 
+ human-machine-interaction environment. 
+Fig. 7 shows the early information activities to 
+be conducted before actually implementing the 
+first big data project.  
+  
+Figure 7. Implementation of Big Data in a company13  
+  
+ 
+13 IBM Global Business Services. Analytics: Big Data in der Praxis, Oxford 2012  
+  
+
+ 
+  
+Despite the potential of AI in helping companies create smart, resilient, and agile value chains, there are several 
+reasons why no abundance of successful implementations of AI technologies can be found yet. Bel ow, we 
+present some of the main barriers against the widespread deployment of AI:   
+  
+• Lack of AI expertise in areas such as data collection and preparation (disaggregation and formatting), 
+data analysis, model training,   
+• Lack of IT infrastructure, talent,  technologies and financial support for deployment of such 
+technologies,   
+• Lack of AI solutions relevant for particular business needs (especially core functions),   
+• Existence of traditional systems with heavy assets and/or long production cycles, in which  adopting 
+AI solutions and integrating with the system is not as straightforward,   
+• Change management (especially when AI solutions introduce significant changes to the processes)  
+• Uncertainty regarding AI being a job creator or job destroyer, from a socia l welfare perspective for 
+policy makers,   
+• Risk of AI -based decisions not always being well understood or justified, creating difficulties in 
+decision making and accountability issues,  
+• Difficulties in implementing AI solutions in heavily regulated sectors  (e.g., healthcare and financial 
+technology), under strong data protection laws and privacy issues in relation to accessing and 
+processing data,    
+  
+  
+  
+Fig. 8 shows the adoption of AI in different 
+sectors.   
+  
+Apparently, some sectors are leading in the 
+deployment of AI (e.g. high tech and telecom) 
+whereas some, such as construction industry, 
+have had limited use of AI to improve operations 
+and manufacturing (see Fig. 6).   
+  
+Our objective in this industry is to research what 
+the role of AI could be for the SPIRE community 
+in particular, and how the adoption rates could 
+be improved for the process industry at large.   
+  
+  
+Figure 8. Sectors leading in AI adoption (source www.mckinsey.com)  
+  
+Technological Gaps for AI  
+Early AI adopters are from sectors already investing at scale in related technologies, such as cloud services 
+and big data. Those sectors are also at the frontier of digital assets and usage 14. This suggests that the 
+ 
+14 MGI, M. G. I., 2016. Digital Europe: Pushing the frontier, capturing the benefits.  
+
+   
+  
+technological gap will increase due to AI since there is limited evidence of sectors and firms catching up when 
+it comes to digitization, as each new generation of tech builds on the previous one.  
+  
+Independently of sectors, large companies tend to invest in AI faster at scale, also typical of digital adoption. 
+Early adopters are not specializing in one type of technology. They go broader as they adopt multiple AI tools 
+addressing a number of different use cases at the same time.  
+  
+Companies investing at scale do it close to their core business. Early adopters that adopt at scale tend to be 
+motivated as much by the upside growth potential of AI as they are by cutting costs. AI is not only about 
+process automation, but is also used by companies as part of major product and service innovation. This has 
+been the case for early adopters of digital technologies and suggests that AI -driven innovation will be a new 
+source of productivity and may further expand the growing productivity and income gap between 
+highperforming firms and those left behind15.  
+  
+Sectors leading in AI adoption today also tend to grow their investment the most. AI technology early adopters 
+are industries with long histories of digital investment. Automotive and assembly was one of the first sectors 
+that implemented advanced robotics at scale for manufacturing, and today is also using AI technologies to 
+develop self-driving cars.  
+A major gap of AI is that the used algorithms have difficulties to un derstand the context of the data that they 
+are handling. The patterns and correlations found by the algorithms often go unnoticed to human experts, so 
+that decisions may even confound the engineers who created the algorithms16.   
+For some AI systems missin g creativity might also be a problem and steps need to be done for improving 
+capability of natural language processing17. The high costs of implementation are also a key gap for AI.   
+  
+  
+The need for specialised workforce is growing, but statistical, tec hnical and IT skills  related to AI and data 
+science are still rare when considering the entirety of computer science specialisations.18,21 For these reasons, 
+the lack of human experts with specialised knowledge need to be investigated also in process industry and new 
+paths need to be defined in order to fill the skill gaps.  
+  
+Implementation Challenges for AI   
+Important issues for AI are the data collection, access and processes therefore very much in relation with BD 
+handling. AI algorithms work best when there are vast quantities of data, available in real -time. Therefore, a 
+high data quality and availability and the implementation of the right algorithms and learning processes, are 
+the biggest challenges for AI 19. In many cases, process industries do not have enough data available to apply 
+machine learning techniques in a suitable way. New technologies must be developed which are able to work 
+with a significantly lower amount of data to produce similar results. Evolution from “Big Data techniques” to 
+“Smart Data methodologies” combining process modelling and AI learning. Furthermore, even “Smart Data” 
+are not available due to the difficulty of generating data points; for instance, when it requires building physical 
+prototypes for testing, or complex simul ations that may take days to run. In these cases, it is desirable to be 
+able to start building models with very few data points, here called “Small Data”, and continue learning as 
+new data become available.  From a social point of view, the automation or “ robotisation” is another 
+implementation challenge not only for process industry but in general for societies and governments to jointly 
+ 
+15 Zeebroeck, J. B. a. N. v., 2017. The right response to digital disruption. MIT Sloan Management Review.  
+  
+16 Dickson,  B.  (2017),  “Artificial  Intelligence  has  to  deal  with  its 
+ transparency  problems”,  available  at: https://thenextweb.com/artificial-intelligence/2017/04/23/artificial-
+intelligence-has-to-deal-with-its-transparency-problems/  
+17 Vosloo, S. (2018), “Alexa, When Will Natural Language Processing Revolutionize ICT4D? Your Weekend Long Reads”, available 
+at: https://www.ictworks.org/natural-language-processing-revolutionize-ict4d/#.WuHUzG4vz3g  
+18 Smit, J., Kreutzer, S., Moeller, C. and Carlberg, M., Industry 4.0, European Parliament's Committee on Industry, Industry, Research 
+and Energy (ITRE). Brussels: Policy departments A: Economic and Scientific Policy 21 
+https://www.worldmanufacturingforum.org/key-recommendations-2019  
+19 Wuest, T., Weimer, D., Irgens, C. and Thoben, K. -D. (2016), “Machine learning in manufacturing: advantages, challenges, and 
+applications”, Production & Manufacturing Research, Vol. 4 No. 1, pp. 23–45  
+ 
+  
+develop mechanisms to adapt to these changes and some steps for understanding the ethical implication of this 
+approach are already in place but need to be developed and customised for the process industry context20.  
+  
+Technology Gaps for BD  
+Another technology gap is the collection, storage and processing of the vast amounts of data itself. Terabytes 
+of data will take larg e amount of time to get uploaded in cloud. Moreover, this data is rapidly changing 
+rendering it hard to be uploaded in real-time. Most data storage technologies provide a different interface and 
+abstraction as relational databases, which increases the comp lexity in adapting existing applications also in 
+process industry. At the same time, the cloud's distributed nature is also problematic for big data analysis. 
+Heterogeneous and incomplete data are big problems as the algorithms expect homogeneous data and cannot 
+understand nuances. Therefore, it is not possible to devise absolutely fool proof, fully reliable, fault tolerant 
+machines or software. When talking about BD, it is also important to consider the related problems of 
+cybersecurity.  
+  
+Implementation Challenges for BD  
+Regarding the technology gaps, the main implementation challenges are the reduction of the probability of 
+failure to an acceptable level, and the creation of storage and processing capabilities for the vast amounts of 
+data. Therefore, the definition of the IT architecture, the easy access to and use of data sources are decisive 
+[207]. The testing of the data-intensive algorithms and systems will also be a big challenge21 .  
+As the application of data science increases the complexity in data and computation governance, the control 
+of data integrity, security and distribution, as well as the development of standards are other important 
+challenges for implementation.  
+  
+Data/information sources and data/information collection methods and practices – Big data to support 
+AI  
+  
+All AI methods are highly dependent on the necessary input information. This information is in many cases a 
+large amount of data but could also be several forms of knowledge like rules or semantic descript ions of 
+knowledge domains. The ways and means to collect all this information and to store it in a suitable way are of 
+high importance for the success of all AI technologies22.  
+  
+70% 
+60% 
+50% 
+40% 30% 
+20% 
+10% 0% 
+ 
+20 Wright, Scott A., and Ainslie E. Schultz. "The rising tide of artificial intelligence and business automat ion: Developing an ethical 
+framework." Business Horizons 61.6 (2018): 823-832.  
+  
+21 Big Data Value Association (BDVA) (2018), “Big data challenges in smart manufacturing Discussion Paper on Big Data challenges 
+for BDVA and EFFRA Research & Innovation roadmaps alignment”. Available at: http://bdva.eu .  
+22 Source: Kurgan LA, Musilek  P (2006) A survey of Knowledge Discovery and Data Mining process models. The Knowledge 
+Engineering Review 21:1–24.  
+Understanding of 
+Domain 
+Understanding of 
+Data 
+Data Preparation 
+ Data Mining 
+ Evaluation of 
+Results 
+Deployment of 
+Results 
+   
+  
+1.3.2.2 State of art: Data-driven technologies in the process industry  
+In its position paper regarding the view of AI in the process industry 23, SPIRE PPP identified the potential of 
+AI technologies to support the Process Industry. Nevertheless, it also highlighted the fact that process industry 
+was lagging behind in terms of AI implementation.   
+  
+While different SPIRE projects funding by Horizon 2020 have focused on areas such as advanced process 
+control, digital platforms or industrial symbiosis, next steps in R&D for process industry should tackle AI 
+applied to Process Industry.  
+  
+Indeed, data driven technologies have the potential to support process industry companies to adapt to disruptive 
+transformations in different industrial processes (product development, plant and supply chain operation).  
+   
+The following general AI application areas in the process industry can be identified up to now:   
+• Modelling of static and dynamic systems while coping with uncertainty  
+• Detection of causality and correlation (e.g., of quality defects)  
+• Realisation of smart sensors (e.g., in the field of vision, as inputs for higher level  systems like 
+PLCcontrollers)  
+• Intelligent plant and process monitoring  
+• Online process control and optimisation  
+• Supervisory control such as through-process product quality control  
+• Control of industrial robots ensuring their capability for collaborative work together with human 
+operators  
+• Decision Support Systems for repetitive tasks which require higher level cognitive operations (e.g.  
+situation awareness) in combination with complex data processing tasks • 
+ Applications in predictive maintenance.  
+  
+All these applications are oriented to the technical processes and their control and optimisation. Furthermore, 
+there are applications which do not differ from other industries such as manufacturing industry and which deal, 
+for example, with process mining of business processes or machine learning techniques to analyse future 
+behaviour of customers based on intelligent analysis of information sources like the World Wide Web. 
+However, the required processing of raw data, or even of information, refers to specific ontologies and issues.  
+ 
+23 Artificial Intelligence in the Process Industry – A view from the SPIRE PPP (2019)  
+  
+ 
+  
+The above-mentioned application areas are driven by AI technologies which do 
+not differ from AI applications in other technological fields, such as other 
+industrial areas or telecommunication or social networks, for example. 
+Nevertheless, there are significant differences, not in the technologies 
+themselves, but more in the preparation of the necessary input information like 
+data or knowledge, and in the way to implement them in a complex environment 
+for online purposes.   
+The most commonly used AI technologies are (see fig. 10):  
+• the different forms of machine learning such as supervised (e.g. deep 
+learning neural networks or random forest of decision trees or Support 
+Vector Machines, etc.) and unsupervised (e.g. clustering techniques like  
+SOM/DBSCAN or dimension reduction techniques like AutoEncoder)  
+• reinforcement learning (e.g. Deep Q Network or Q-Learning, etc.)  
+• all the techniques of machine-based reasoning, like Expert System 
+Technologies (rule-based knowledge description in combination with 
+inference mechanisms) or other knowledge driven techniques  like 
+Ontologies (semantic knowledge descriptions) also in combination with 
+inference machines  
+• an emerging field is the combination of AI methods with other 
+technology like Multi-Agent-Systems, which can help to solve 
+different kinds of optimisation problems in complex environments 
+because they can be excellently adapted to the needs of the highly 
+distributed systems used in industrial production.  
+  
+For process industries, it is important is to be able to combine different AI methods with more classical ways 
+of modelling (like 1st principal or statistical models) or other IT techniques.  
+The European Commission (EC) has put in place several initiatives on the AI landscape and a deep 
+understanding of how it can impact on socio -economic system, offering useful insights for possible policy 
+initiatives. The analysis identified six non-mutually exclusive thematic key areas within the AI technological 
+domain, used to describe the strengths of econom ic players and geographical areas in AI subdomains. These 
+thematic areas are: (i) Natural Language Processing (NLP); (ii) Computer Vision, (iii) Machine Learning 
+(ML), (iv) Robotics and Automation, (v) Connected and Automated Vehicles (CAVs), (vi) AI Appli cations 
+and Services.  
+The analysis implemented in the EC AI watch project24 is conceived as an analytical framework and replicable 
+methodology to analyse and describe the dynamics of specific ecosystems, by exploiting different types of 
+factual data inclu ding non -official heterogeneous sources. This approach helps mapping AI technologies, 
+monitoring and benchmarking its main players, their locations and R&D activities. One of the results is the 
+creation of the thematic profile per each geographical area considering the distribution of the activities related 
+to the six areas between 2009 and 2018. The analysis maps the ecosystem of AI in Europe compared with 
+major competitors worldwide. This can be a starting point for the technology assessment in the AI -CUBE 
+project that has to consider the activities and applications of AI and BD in the SPIRE sectors: cement, ceramics, 
+chemicals, engineering, non-ferrous metals, minerals, steel, water.  
+  
+A lot has been told on the role of AI in manufacturing, logistics, a nd other value chain phases, and about 
+organizations’ future plans to deploy the technology. Even so, current information on the actual AI technology 
+ 
+24 The AI Techno-Economic Segment Analysis. 
+https://publications.jrc.ec.europa.eu/repository/bitstream/JRC118071/jrc118071_the_ai_techno-economic_segment_analysis_1.pdf  
+Figure  
+10 
+. 
+  
+Most  
+commonly used AI  
+   
+  
+deployment in the industry is limited and survey data show that this deployment is low, particularly in SM E 
+and industries where information technology is not core to the business 25. AI adoption is greatest in sectors 
+that are already strong digital adopters. At the same time, AI and BD technologies are being planned, piloted 
+and deployed increasingly in all sectors, including the process and manufacturing sectors (see fig. 11 with an 
+assessment of the status of AI maturity, as analysed by EY in a recent Report “Artificial Intelligence in Europe 
+Outlook for 2019 and beyond”) 61% of companies is still in the planning or piloting phase.  
+  
+Figure 11. Assessment of the status of AI maturity  
+Fig. 12 provides a summary of how AI technologies can create value by driving process efficiency, process 
+enhancement, and/or product process innovation:   
+  
+Figure 12. Summary of value drivers: AI creates value by driving process efficiency, process enhancement, or 
+product/process innovation26.  
+  
+ 
+25 Hau L. Lee, H. M. S. R. L. B., 2018. Value Chain Innovation: The Promise of AI. Value Chain Innovation Initiative 2018.  
+  
+26 Hau L. Lee, H. M. S. R. L. B., 2018. Value Chain Innovation: The Promise of AI. Value Chain Innovation Initiative 2018.  
+
+ 
+  
+1.3.3 Methodologies  
+AI-CUBE will explore data driven technologies, AI and BD applications and maturity levels in process 
+industry sectors, based on a combination of different methodologies  that will lead to key results including 
+the drafting and validation of a roadmap and guidelines to drive the implementation of AI and BD technologies 
+across mentioned sectors.   
+  
+1.3.3.1 Data-driven innovation intelligence and stakeholder analysis  
+The starting point of the exploration activities within AI-CUBE will be the systematic analysis of technological 
+trends and stakeholder landscape across the eight process industry sectors of SPIRE. Partners will conduct 
+indepth systematic literature reviews  to systematize extant knowledge in the fields and identify potential 
+technological trends to be explored. The output of this first search will be an overview of the main research 
+and innovation trends in the field of data -driven technologies in the process industry. This will be compiled 
+using not only the review and analysis of scientific and sectorial literature, but also carrying out a data-driven  
+analytical assessment on AI and BD relevant projects funded by the EU, European Countries, the US and 
+Canada, as well as patents granted in the last 5 -10 years. Partners will make use of PNO’s propr ietary 
+dataanalysis tool, WheesBee (see Fig. 13), featuring more than 500.000 publicly funded projects from various 
+EU programmes (incl. FP7, H2020) as well as various national RD&I funding programmes from EU member 
+states, the United States and Canada.   
+  
+Figure 13. PNO’s data-driven Innovation Intelligence tool with globally funded RD&I projects  
+The statistics will show how the number of funded projects and granted patents varies over time and in different 
+countries. These analyses will be complemented by the exploration of the European process industry 
+stakeholder scenario, in order to identify relevant actors and potential best practices and case studies (to be 
+explored in T4.2) in the application of / R&D on AI and BD technologies. The go al is to shed light on what 
+data-driven technologies are applied, in which industrial sector and/or process, by who and where; which are 
+the drivers for and barriers to technological development and application, and how they can be boosted. These 
+analyses will provide elements to be assessed in terms of levels of penetration and maturity, and the results 
+will therefore allow populating the AI-CUBE framework presented above, in Fig. 3.   
+  
+Additionally, AI-CUBE will encompass the following specific methodologies:  
+   
+- Multi-Actor Multi-Criteria Analysis  
+- Maturity Level Assessment (MLA) Model  
+- ELSI (Ethical, Legal and Social Implications)  
+
+   
+  
+  
+1.3.3.2 Multi-Actor Multi-Criteria Analysis  
+In order to obtain a widely supported and 
+consensus–based action plan, the Multi-Actor  
+Multi-Criteria  Analysis  (MAMCA) 
+methodology27 is used to consult a broad 
+stakeholder community representing the main 
+sectors of the SPIRE industry in Europe. This 
+stepwise and scientifically sound approach allows 
+the consortium of the project to involve a large 
+group of stakeholders in the process of analysis if 
+the AI and BD technologies implemented in the 
+SPIRE industry.  
+  
+MAMCA enables the evaluation of different 
+alternatives (policy measures, business concepts, 
+scenarios, technologies, etc.) by explicitly taking  
+into account the objectives and framework conditions of the actors involved in the decision -making process. 
+MAMCA thus develops a separate value tree for each stakeholder instead of just one value tree for all 
+stakeholders (MCDA), which allows an individual view of the results for each stakeholder.   
+In order to get a more detailed understanding of the MAMCA method , the seven phases shown in fig. 14 are 
+briefly described.  
+• Step 1: Definition of the problem and the identification of the alternatives  
+• Step 2: Stakeholder identification and in-depth understanding of each stakeholder group’s objectives  
+• Step 3: Definition of criteria and their weights   
+o Criteria: goals and objectives of the stakeholder o 
+Weights: importance  
+• Step 4: Creation of indicators (evaluation criteria) o Step 5: Construction of an evaluation matrix, 
+aggregating each alternative contribution to the objectives of all stakeholders  
+• Step 6: Sensitivity analysis  
+• Step 7: Implementation and feedback loop  
+In Step 1, AI-CUBE will define the specific problems around maturity of AI and BD in the process industry; 
+after that, the project will customize th e steps 2 to 7 to the specific stakeholders involved (process industry, 
+ICT community) and the relevant criteria (aligned with the Maturity Level Assessment described below).  
+There are other evaluation methods such as CBA (Cost/Benefit Analysis), CEA (Cost-Effectiveness Analysis) 
+or EEA (Economic Effects Analysis); however, these methods put the economic effects in the focus, so that 
+the MAMCA method results to follow a more holistic perspective.    
+1.3.3.3 Maturity Level Assessment (MLA) Model  
+The definition of the Maturity Level Assessment (MLA) Model is based on five activities: inception, 
+elaboration, construction, deployment and maintenance28. The model can be used for three purposes29:  
+  
+1. to assess the as-is situation of the organization/process;  
+ 
+27 Macharis, Cathy & Witte, Astrid & Ampe, Jeroen. (2009). The Multi-Actor, Multi-Criteria Analysis Methodology (MAMCA) for the 
+Evaluation of Transport Projects: Theory and Practice. Journal of Advanced Transportation. 43. 183 - 202. 10.1002/atr.5670430206.  
+28  Garcia-Mireles, G.A., Moraga, M.A., Garcia, F.: Development of maturity models: a systematic literature review. In: 16th 
+International Conference on Evaluation Assessment in Software Engineering (EASE 2012), pp. 279–283 (2012)  
+29 De Carolis, A., Macchi, M ., Negri, E., & Terzi, S. (2017, September). A maturity model for assessing the digital readiness of 
+manufacturing companies. In IFIP International Conference on Advances in Production Management Systems  (pp. 13-20). Springer, 
+Cham.  
+Figure  
+14 
+. MAMCA methodology 
+1 
+. 
+  
+ 
+  
+2. to approach maturity improvement in order to positively affect business value;  
+3. to enable benchmarking across companies; in particular, a model of this nature would be able to compare 
+similar practices across organizations.  
+  
+In the literature, there are some MLA models to evaluate the overall digital maturity level of a company, where 
+it is possible to obtain the digitalisation level of a company with a benchmark comparison to the rest of the 
+population analysed. These are systems that gain importanc e as far as they manage to involve larger number 
+of cases. For example, the assessment of the DREAMY model (Digital REadiness Assessment MaturitY 
+model), developed by the Industry 4.0 observatory of Politecnico di Milano, is based on business processes 
+grouped in strategic areas for the digital transformation: (1) Design and Engineering; (2) Production 
+Management; (3) Quality Management; (4) Maintenance Management; and (5) Logistics Management. Each 
+of these processes is evaluated based on different analysi s dimension: Process, Monitoring and Control, 
+Technology and Organization. The model has 5 levels of maturity named: initial, managed, defined, integrated 
+and interoperable, and digital oriented.  
+  
+Another important model is the Industry 4.0 Maturity Model developed by  Schumacher et al. 33, including a 
+total of 62 maturity items which are grouped into nine company dimensions: strategy, leadership, customers, 
+products, operations, culture, people, governance, technology. The definition of maturity level is based on the 
+mathematical relationship between the considered factors and the related weights given by the community 
+under consideration.   
+To go beyond these maturity level models for digitalization, there are already some specific initiatives related 
+to AI and BD: McKinsey has developed an AI readiness index to compare the adoption and diffusion of AI at 
+country level (considering in EU and USA). The system is based on the measurement of an AI Readiness 
+Index34 based on: the number of AI startups per capita, automation potential of job activities, digital maturity, 
+the availability of scientists and engineers, ICT business model creation, R&D expenditure, ICT 
+connectedness.   
+  
+Capgemini has developed a tool to map the readiness and the performance of the countries in the AI field. The 
+AI readiness is the extent to which a country and its institutions & businesses have the ability to reap the 
+benefits of AI; the dimensions considered are: (1) institutional environment, (2) IT maturity and  (3) IT Skill 
+Advancement. Five components have been defined as the foundation of AI performance: (1) Personnel, (2) 
+Monetary Impact, (3) Competitiveness, (4) Research & Education and (5) Technology. [1]  
+  
+All these MLA models will be analysed in details and a new framework specifically for AI and BD 
+penetration on the process industries will be developed to: (i) provide an impartial and complete evaluation 
+system updated with the state -of-the-art; (ii) understand the industrial needs in terms of technolog ies (iii) 
+identify a cross-sectorial comparative system to define maturity level and furthermore suggest new actions for 
+improvement. The framework will take into consideration the technological maturity of a company weighting 
+the level of usage with the level of diffusion in the company culture and with the awareness of the workers. A 
+special session of the model will consider also criteria to evaluate maturity towards ELSI (Ethical, Legal, 
+Social Issues). This framework will be developed in WP2, and used and applied in WP3.  
+Within the cube approach, some dimensions to be taken into consideration to evaluate the readiness to AI of a 
+company, and then of a sector, are related to: (1) Strategy definition, (2) Smart factory, (3) Smart operations, 
+(4) Smart products, (5) Data-driven services, (6) Employees, and (7) Supply Chain.   
+  
+  
+33 Schumacher, A., Erol, S., & Sihn, W. (2016). A maturity model for assessing Industry 4.0 readiness and maturity of manufactur ing 
+enterprises. Procedia Cirp, 52, 161-166  
+34 McKinsey Global Institute (2019). Notes from the AI frontier: Tackling Europe’s gap in digital and AI.  
+https://www.mckinsey.com/~/media/mckinsey/featured%20insights/artificial%20intelligence/tackling%20europes%20gap%20in%20 
+digital%20and%20ai/mgi-tackling-europes-gap-in-digital-and-ai-feb-2019-vf.ashx  
+   
+  
+  
+[1] Capgemini Consulting (2018). Artificial Intelligence Benchmark. https://www.capgemini.com/wp-
+content/uploads/2018/07/AIReadiness-Benchmark-POV.pdf   
+1.3.3.4 AI and BD ELSI (Ethical, Legal and Social Implications)  
+Artificial intelligence and big data technologies will significantly impact society, values and human rights30. 
+What will change for the better, and what will change for the worse? Which values could change and who 
+will be most affected?  
+  
+The EDPS Opinion reflected in the Ethics Advisory Group Report 2018, identifies several technological trends 
+that require a rethinking of the relation between technology and human values, thus calling for the formulation 
+of a ‘new digital ethics’: big data generated from a variety of sources, from public administrations and private 
+companies, social networks and other  online platforms, the internet of things and networked sensors, cloud 
+computing, and artificial intelligence, in particular machine learning. These digital technologies require what 
+the Opinion calls a ‘big data protection ecosystem’: an interactive and a ccountable assemblage of 
+‘futureoriented regulation’, ‘accountable controllers’, ‘privacy -conscious engineering’, and ‘empowered 
+individuals’.  
+  
+  
+Figure 15. ELSI impacts36   
+  
+The right to data protection is key to regulating a digitised industry. In li ght of recent technological 
+developments, such a right appears insufficient to understand and address all the ethical challenges brought 
+about by digital technologies.  
+AI-CUBE will revise the ethical, legal and social implications of AI and BD development s, considering the 
+values encoded in algorithms, the need to evaluate outcomes, and issues of bias and transferability, data 
+ownership, confidentiality and consent, and legal, moral and professional responsibility. The potential effects 
+for clients and different actors in the supply chain, including confidentiality.  
+  
+1.3.4 Relation to previous initiatives  
+The AI-CUBE project will exploit the strong synergies existing with the A.SPIRE project INSPIRE (H2020, 
+Grant Agreement n°723748), focused on the development of new business models for flexible and sustainable 
+manufacturing value chains, along with the definition of guidelines to measure these business models 
+performance in different scenarios. INSPIRE greatly involved the stakeholders of the process ind ustry and 
+discrete manufacturing both in the design of the innovative business model and their performance assessment 
+in different scenarios. This way, European process industry and discrete manufacturing sector would be 
+ 
+30 Whittlestone, J. Nyrup, R. Alexandrova, A. Dihal, K.  Cave, S. (2019) Ethical and societal implications of algorithms, data, and 
+artificial intelligence: a roadmap for research. London: Nuffield Foundation. 3636 https://www.sienna-project.eu/robotics/elsi/  
+  
+
+ 
+  
+enabled in flexibly adapting to the proposed paradigms and catching value from highly dynamic future trends. 
+AI and BD are among these trends and, building on the results and methodologies developed by INSPIRE, the 
+AI-CUBE project will conduct an effective and comprehensive assessment of th e state of maturity and 
+penetration of AI and BD within the different levels of process industry organizations. Moreover, AI-CUBE  
+  
+will also involve stakeholders into the consolidation of this assessment and, finally, the identification and 
+validation of guidelines for a cross -sectoral implementation and diffusion of AI and BD technologies. The 
+AICUBE project aims at creating synergies with and leverage on the INSPIRE European Process Industry 
+Forum, in order to actively involve stakeholder f rom the more than 100 European Industrial Parks that 
+INSPIRE partners already approached individually. The AI -CUBE project plans to tap into this existing 
+platform to reach effective collaboration with interested stakeholders of process industry sectors, b ut also 
+dissemination and communication targets.  
+  
+Concerning the macro-area Supply chain (SC), the project will benefit of the results of NEXT -NET project 
+(H2020, Grant Agreement No. 768884), where a set of SC strategies have been identified and related research 
+and innovation priorities as well, where some of them are strictly related to AI&BD. The paths identified in 
+NEXT-NET will be further developed and specified specifically for the process industry.   
+  
+AI-CUBE will also build upon the results of the following projects:  
+  
+Table 1. Projects related to data driven technologies and process industry already identified by AI-CUBE.  
+ Project name  SPIRE sectors  Description   
+ 
+   
+ 
+Innovative Nanoinformatics models 
+and tools: towards a Solid, verified 
+and Integrated Approach to 
+Predictive (eco)Toxicology  
+(NanoSolveIT)  
+CHEMICALS  Ground-breaking in silico Integrated Approach to Testing 
+and Assessment (IATA) for the environmental health and 
+safety of Nanomater ials (NM). Decision support system 
+packaged as a standalone open software and a Cloud 
+platform  
+X          
+ 
+Intelligent Open Test Bed for 
+Materials Tribological  
+Characterisation Services  
+ENERGY  
+STEEL  
+CHEMICALS  
+IT-platform for materials and tribological data 
+harmonisation, management, analytics, sharing and 
+mining. Lab -to-field upscaling tools combining testing 
+with computation   
+X          
+ 
+From discovery to scale up of cluster 
+based electrolytes for Ultra -high 
+energy storage flow batteries  
+CHEMICALS  AI driven discovery system of the ERC Advanced Grant 
+SMART-POM to discoveR new metal oxide molecular 
+polyoxometalate (POM) clusters  X          
+ 
+Artificial-Intelligence Driven 
+Discovery and Synthesis of  
+Polyoxometalate Clusters  
+CHEMICALS  New platform for the preparation, understanding, and 
+exploitation of precisely defined nano -molecules / 
+polyoxometalates using automated intelligent feedback  X          
+ 
+Combination of AI techniques and 
+software with advanced reactor 
+equipment for efficient kinetics 
+analysis in the chemical industry  
+CHEMICAL  Combination of AI techniques and software with 
+advanced reactor equipment for efficient kinetics 
+analysis in the chemical industry  X          
+ 
+Optimization and performance 
+improving in metal industry by digital 
+technologies  
+STEEL  
+NON FERROUS  
+High-level supervisory control systems for different 
+production plants to enable autonomous operation of 
+the processes based on embedded cognitive reasoning.    X        
+
+   
+  
+ 
+MOdel based coNtrol framework for 
+Site-wide OptmizatiON of 
+dataintensive processes  
+STEEL  Multi-scale model based predictive controls on 
+predictive monitoring of plotlines, targeting early 
+detection of anomalies and potential optimization gains    X    X    
+ 
+Future Directions of Production 
+Planning and Optimized Energy- and  
+Process Industries  
+CHEMICALS 
+WATER  
+Machine learning tools for diagnostics, data 
+reconciliation, and decision support, production 
+planning and process optimization including model -
+based control  
+  X    X    
+ 
+Energy-aware Factory Analytics for 
+Process Industries  
+STEEL  ML and analytical tools at different level to create a 
+cognitive factory to understand the behaviour of 
+complex process systems  
+  X    X    
+ 
+ Project name  SPIRE sectors   Description   
+ 
+   
+ 
+Improved energy and resource 
+efficiency by better coordination of 
+production in the process industries  
+CHEMICAL  Methods and tools for process monitoring and optimal 
+dynamic planning, scheduling and control of plants, 
+industrial sites and clusters under dynamic market 
+conditions  
+  X  X      
+ 
+Cognitive platform to enhance 360º 
+performance and sustainability of the 
+European process industry  
+CHEMICAL  
+STEEL  
+Advanced data analytics to extract valuable information 
+from processes and their effect on production plant’s 
+overall performance     X        
+ 
+Implementation of a smart 
+RETROfitting framework in the 
+process industry towards its 
+operation with variable, biobased 
+and circular FEEDstock  
+CERAMIC  
+CEMENT  
+STEEL  
+Decision support system able to perform a diagnosis of 
+the impact in the process of different retrofitting 
+solutions so plant managers and operators can decide on 
+the most suitable retrofitting action for their companies  
+  X    X    
+ 
+Robust and affordable process 
+control technologies for improving 
+standards and optimising industrial 
+operations  
+CERAMIC  
+STEEL  
+MINERALS  
+Versatile global control platform for data acquisition, 
+data processing & mining and User Interface to measure 
+properties of process streams and products, accurately 
+and in real-time (self-learning & predictive )  
+  X        
+ 
+cognitive plants through proactive 
+self-learning hybrid digital twins  
+STEEL  Digital twin of the process used to develop models with 
+cognitive capability for self -learning and predictive 
+maintenance  
+  X    X    
+ 
+ Hyperconnected  Architecture  for  
+High Cognitive Production Plants  
+CEMENT  
+CHEMICAL  
+STEEL  
+Hyper-connected network of digital nodes to catch 
+outstanding streams of data in real -time with high 
+computing capabilities  
+  X  X      
+ 
+Secure Management Platform for 
+Shared Process Resources  
+CERAMIC  New analysis and optimisation tools for flexible energy 
+use and material flow integration to optimising symbiosis     X  X      
+ 
+Open Innovation Digital Platform and 
+Fablabs for Collaborative Design and 
+Production of personalised / 
+customised FMCG  
+CHEMICALS  Web-based portals to allow users to design their own 
+products from home with a broad range of performance 
+attributes and then have these produced and delivered 
+in a “designed for you” way  
+    X    X  
+ 
+ Advanced  Data  Modeling  and  
+Analysis Applied to next Generation 
+Industry 4.0 settings and the Internet 
+of Things  
+ENG  Modelling and analysis of data coming from complex 
+industrial and organizational applications to identify 
+hidden casuistic relationships to calibrate production and 
+organizational control systems  
+    X    X  
+ 
+ RObot  enhanced  SenSing,  
+ INtelligence  and  actuation  to  
+Improve job quality in manufacturing  
+ALL  Enhanced robot sensing capabilities for the deployment 
+of AI to optimise productivity and safety, and natively 
+collaborative manipulation technologies    X        
+ 
+Smart tomographic sensors for 
+advanced industrial process control  
+ALL  Fundamentals of integrating imaging sensors into 
+industrial processes and functional feasibility 
+demonstration  
+x  x           
+
+ 
+  
+ 
+High accuracy water leakage and 
+apparent loss detection  
+WATER  Intelligent BD Analytics solutions to reduce Water Losses, 
+or Non -Revenue Water (NRW) and for related 
+applications   
+         x  x  
+ 
+ Blockchain  Platform  to  Track  
+Chemicals along the Value Chain  
+CHEMICALS  Open-source global blockchain platform to transfer 
+information on hazardous chemicals along the value 
+chain  
+   x  x        
+ 
+Predictive  Cognitive  Maintenance 
+Decision Support System   
+ALL  Sensors with BD analytics to track machine -tool 
+performance forp redictive cognitive maintenance 
+decision-support system  
+x        x     
+ 
+ Distributed  Digital  Twins  for  
+industrial SMEs: a big-data platform  
+ALL  Testbeds for digital twins in manufacturing and facility 
+management sectors, integrating data from APIs, 
+historical, embedded sensors and open data  
+   x     x     
+ 
+Seamless and safe human - centred 
+robotic applications for novel  
+collaborative workplaces  
+ALL  Soft robotics collaborative Production Station. Novel 
+human – centred interaction, collaboration and  
+awareness (AI enabled cognition)  
+x  x           
+1.3.5 Gender dimension  
+The consortium supports gender balance and integrates the gender dimension in the ELSI implications.  
+2. Impact

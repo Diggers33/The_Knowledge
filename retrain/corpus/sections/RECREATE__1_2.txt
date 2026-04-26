@@ -1,0 +1,566 @@
+1.2  Methodology   
+1.2.1 Overall methodology  
+The proposed methodology in RECRE ATE involves the cooperation between academic institution, research and 
+development centers, SME recycling companies, technology -oriented SMEs and large industries as well as 
+associations, following a multi-level approach and targeting several technological and non-technological actions. The 
+Consortium has been carefully built covering all the needed expertise. Two technological recycling SMEs (COBAT 
+COMPOSITI and Carbon Cleanup) in the project have been involved . Their role in the project will be the 
+mapping at EU level of existing composite waste, and the selection and supply to other partners of EoL parts 
+(including complex multimaterial FRCs) in suitably agreed geometries/sizes to allow subsequent remanufacturing 
+activities. In addition, they will also be involved in technology and recycled materials validation, benchmarking the 
+RECREATE project results with solutions currently present on the market (e.g., quality of CF fibers from solvolysis 
+vs. pyrolysis).  
+Parts supplied by the recycling companies will  be successively investigated with 
+complementary non-destructive techniques (NDT) by IRIS and FRAUNHOFER, in 
+particular by LIBS and active/passive thermography, X -ray CT, ultrasound -based 
+and radar-based technologies (Fig. 7). The objective here will be to  understand the 
+nature and composition of complex multimaterial composites and to evaluate their 
+structural integrity in view of their possible reuse. IRIS will develop and build a 
+recognition monitoring prototype unit (TRL6) bringing together LIBS, engine ering 
+aspects (e.g., conveyor belts, samples positioning), advanced AI and chemometric  
+techniques embedded in a customized software, for a future use as a smart sorting unit in continuous processes.  
+ collaborating robot (FRAUNHOFER).Fig. 7 Active thermography using a   
+
+ 
+[101058756 - RECREATE]  Annex 1 – Part B  8  
+An AI-based decision support system (AI-DSS, developed as a digital platform at POLIMI) will serve as digital tool 
+for the selection of the most convenient disassembly/cutting strategy, and of the parts directed to remanufacturing 
+and reuse. In the case of excessive damage and/or degradation of the EoL part, the latter will be instead exploited for 
+fiber liberation and matrix recovery, using innovative technologies aimed at obtaining clean fibers with a minimal 
+physical damage (namely, usin g catalyst -assisted green solvolysis and electrofragmentation). Both recycling 
+activities will be undertaken at POLIMI. Retention of the mechanical response (modulus, strength) of the liberated 
+recycled fibers will be tested and validated at TAU using a unique, high-sensitivity set-up for single fiber mechanical 
+testing (microbond technique, by Fibrobotics™) available from a TAU spin-off company.  
+Disassembly, cutting and – in some cases – repair of parts to be remanufactured will be carried out at CNRS through 
+advanced approaches based on high-precision, tunable laser-shock and laser-machining techniques.  
+The main strategies and technological approaches 
+used for the realization of the demonstrators will 
+includeAssociated with document Ref. Ares(2022)3823781 - 20/05/2022 
+(Fig.8):   
+• Strategy A1: reuse of current generation, EoL 
+GFRC and CFRC parts, through photonic-
+based material identification and sorting 
+techniques, high precision laser-based 
+dismantling and machining, NDT for 
+investigation of structural integrity, T-assisted 
+reshaping, design  and application of 
+reversible joints;  
+• Strategy A2: fiber liberation and reusable 
+matrix recovery, through catalyst-assisted green 
+solvolysis and electrofragmentation;  
+• Strategy A3: design and demonstration of 
+nextgen FRCs from recycled fibers and smart 
+polymer matrices.  
+In particular, different routes for composite r euse and 
+innovative recycling technologies  will be validated up to 
+TRL6 through the realization of 9 demonstrators, 
+schematically listed in the following Table 2.  
+Table 2. Demo-case description, key technology involved, leading partner and relevant KPIs.  
+Democase  Strategy / sector  Output product  Key technologies  Leader  KPIs  
+1  Reuse of GFRC  
+parts for transport  Technical boards  
+LIBS, NDT  
+Laser shock dismantling 
+T-assisted reshaping  
+GAIKER  
+Bending strength 30-40 MPa;  
+Bending modulus > 7000 MPa; 
+Weight < 12 kg/m2 (6-12 mm 
+thick).  
+30% reduction of CO2 emissions  
+2  
+Reuse of CFRC  
+parts for mobility  
+Structural parts 
+for body-inwhite 
+in vehicles  
+LIBS, NDT  
+Laser shock dismantling  
+Reversible joints  
+EDAG  
+> 80% crash performance compared 
+to classic design with parts made of 
+virgin material.  
+3  Reuse of CFRC 
+parts for energy  
+New concept 
+wind turbines  
+LIBS, NDT  
+Laser Shock dismantling  
+Reversible joints  
+REST UG  
+Full mechanical properties 
+retention; ≥ 50% substitution of 
+virgin fibers; 30% reduction of CO2 
+emissions; 20% cheaper/faster 
+repair process (vs. reference rotor 
+blades).  
+Fig.  
+8 
+  
+Reuse 
+/remanufacturing  
+and recycling 
+/reprocessing 
+  
+strategies 
+. 
+  
+
+ 
+[101058756 - RECREATE]  Annex 1 – Part B  9  
+4  
+Reuse of GFRC 
+and CFRC parts 
+for aviation  
+Seat back-rest 
+and cabin panels  
+LIBS, NDT  
+Laser Shock dismantling  
+Reversible joints  
+GEVEN SPA  
+8%÷12% weight-saving vs. 
+marketavailable standard; 5%÷10% 
+RC cost-saving vs. reference 
+process; 12%÷25% fracture 
+toughness increase vs. reference 
+CFRCs. 30% reduction of CO2 
+emissions  
+5  Recycled GF/CF 
+for aviation  
+Cabin sidewall 
+window panels  
+Catalyst-assisted 
+solvolysis  
+Electrofragmentation  GEVEN SPA  
+8%÷12% weight-saving vs. 
+marketavailable standard; 5%÷10% 
+RC cost-saving vs. reference 
+process.  
+6  
+Smart  
+recognition/sortin 
+g systems  
+Operating 
+sorting/recogniti 
+on prototype  
+LIBS  IRIS  
+CFRC/GFRC composite  
+recognition in waste flows. Flow 
+rate recognition of 25 kg/h.  
+7  Recycled CF for 
+sport  
+Padel/pickleball 
+rackets  
+Catalyst-assisted 
+solvolysis  
+Electrofragmentation 
+Reversible polymer 
+matrices  
+HEAD Sport 
+GmbH  
+Fatigue test passed (cycle load of 
+10.000 ball impacts).  
+8  
+Recycled GF for 
+sport  Ski parts  
+Catalyst-assisted 
+solvolysis  
+Electrofragmentation  
+HEAD Sport 
+GmbH  
+Processability on prepreg line: resin 
+uptake > 50 g/m2.  
+9  Industrial coatings  Anticorrosion 
+primer  
+Catalyst-assisted 
+solvolysis  BENASEDO  
+Pencil hardness > B; cross cut 
+adhesion 100%; corrosion 
+resistance > 1000 h salt fog test.  
+The aim of the demonstrators (Fig.9) will be the synergistic integration of all key technologies developed in the 
+Associated with document Ref. Ares(2022)3823781 - 20/05/2022 project, which will be demonstrated in relevant environment at TRL6. 
+In parallel, a widespread involvement of companies in this part of the project will ensure direct relation and immediate 
+relevance with market opportunities.  
+Fig. 9 Representative images of demo-cases developed in RECREATE in WP5 (from left to right: transport, mobility, 
+wind, aviation, sport).  
+A relevant part of the scope of RECREATE will also be the implementation of non-technical objectives aimed at:   
+• the quantitative evaluation of socio-economic and environmental performance of proposed solutions;  
+• the co-design, realization and validation of innovative educational and learning instruments.  
+More specifically, the methodology proposed and followed in this part of the project is reported in detail as follows. 
+Strategy B1: Development of new digital tools for circular economy and sustainability assessment and  
+acceleration. The methodology followed will consist in:  
+• development of dedicated digital tools such as the Internet of Things (IoT), big data and data analytics to enable 
+the assessment and acceleration of the circular economy principles in six different ways: overcoming logistical 
+roadblocks around raw material collection for reuse and recycling; sorting high-quality feedstock and tracking the 
+quality of the EoL and recycled materials; separating and recycling mixed/complex-material products; enhancing 
+yield and stability of reuse and recycling processes; designing composite parts for reuse and rec ycling; using 
+emerging digital business models to enable reuse and recycling;  
+• an integrated environmental and socio -economic sustainability assessment  (ESESA) to address the 
+environmental, economic and social benefits from the reuse, recycling and remanuf acturing processes proposed 
+in RECREATE. The ESESA will be based on the following major steps: 1. perform a detailed literature overview 
+on materials and processes to gather data regarding the cost, the environmental footprint and the health -safety 
+effects of the materials used; 2. define the goal and scope of the ESESA for the specific applications and selection 
+of the key technologies to be evaluated from WP2 and WP3; specific requirements to ensure that the processes 
+meet the ESESA will be defined and directed to WP1; 3. define and quantify the functional units to be used in the 
+comparison of the key technologies (in collaboration with the end -users); 4. analyze the overall system which 
+
+ 
+[101058756 - RECREATE]  Annex 1 – Part B  10  
+includes the entire life-cycle, manufacturing and the EoL of the demonstrators; 5. perform an inventory analysis 
+at which the material-, energy- and monetary flows of all processes within the system boundaries will be recorded; 
+6. assess the environmental, social and economic impacts using the SLCA and the LCC methods; 7. p erform a 
+final evaluation to compare novel and conventional processes, based on the analyzed sustainability indicators.   
+• the definition of new dedicated circular business models , associated to two main strategies, namely composite 
+part reuse and composite recycling and remanufacturing. Technology concepts will be verified in a controlled 
+environment designed in tailored inno vation workshops organised to engage all participating actors for each 
+strategy, building hypothetical scenarios and 
+designing testing pathways. A circularity 
+assessment tool will be developed. The 
+assessment tool will be based on the review of 
+the innovat ive technology concepts and on a 
+comprehensive questionnaire aimed at 
+evaluating the degree of circularity of a target 
+business model at each stage of a pre -defined 
+value chain with the respective relevant 
+industrial environments.   
+Strategy  B2:  Co-design, 
+ realization  and validation  of 
+ innovative  educational  and learning 
+ instruments  through  digital 
+technologies. An array of learning resources 
+related to the broad interdisciplinary field of composite  
+circularity will be designed, developed and va lidated. The learning resources will aim at transferring to current and 
+future generations of employees as well as undergraduate students the core skills needed for the uptake of the 
+resilience solutions developed in the project, with a particular attention to technological processes, as well as social 
+skills, management competences and soft skills, enabling a highly cross -sectorial educational approach. The 
+methodology (Fig.10) will involve:  
+• the co-design of learning resources together with subject matter experts (academic and RTO partners in Associated 
+with document Ref. Ares(2022)3823781 - 20/05/2022 
+RECREATE) as well as with representatives of regional institutional bodies (e.g., through the involvement of the  
+Directorate for Research, Innovation and University of Lombardy Region), with partner universities external to 
+the Consortium, with other local educational organizations. This will lead to the production of the RECREATE 
+“Teaching Methodologies and Strategies” guidelines. Starting from an in-depth analysis of the objectives of the 
+learning and the specific needs of the different categories of learners identified (current and future professionals, 
+undergraduates), this document will define the active and problem-driven approach to learning, considering also 
+the requirements of modularity and flexibility of the components of the learning resources;   
+• the definition of the digital tools to be used to implement such learning resources. The learning resources will be 
+delivered through a gamification platform that will embed them in a specific storytelling, so that learners are 
+stimulated to complete the learning pathways following intrinsic rewarding mechanisms and experiential learning. 
+The use of gamification tools will facilitate the understanding of the key aspects of the subject matters, and support 
+the engagement of learners. The simulation system developed as part of the learning resources will also become 
+a digital twin. The simulator will eventually be able to incorporate open data or output data from real tests, in 
+order to make the simulations even closer to reality;  
+Fig.  
+10 
+  
+Co 
+- 
+design  
+strategy  
+of learning resources in  
+RECREATE 
+. 
+  
+
+ 
+[101058756 - RECREATE]  Annex 1 – Part B  11  
+• the validation and replication of such learning resources. The learning resources will be primarily tested through 
+the MOOC platform managed by POLIMI. The modular characteristics of the learning resources developed will 
+allow to assemble and arrange a number of learning paths with different objectives and target audiences. The 
+MOOC will implement an active approach using a mix of synchronous and asynchronous activities (and tools), 
+such as: video lectures, forum discussions , quiz for formative and 
+summative assessments, single or group project works (asynchronous); 
+theoretical and practical webinars (synchronous). The MOOC will be 
+available on the POLIMI Open Knowledge platform  
+(http://www.pok.polimi.it, currently populated with around 80 courses 
+and 127.000 unique users, and with a specific MOOCs “for teachers”). 
+All the videos produced for the MOOC will also be uploaded on  
+ POLIMI  Open  Knowledge  YouTube  channel  
+(https://www.youtube.com/channel/UCOKtBGblWKlkE-KIf-S0Fvg), 
+making them widely available to broader community. Finally, the 
+possibility to include such modules in existing or to -be-developed 
+curricula for undergraduate studies will be assessed, with the 
+involvement of some of the European university networks POLIMI and 
+the other academic partners are currently part of (e.g., ENHANCE, 
+IDEA League, Alliance4Tech).  
+The overall concept is schematically represented in Fig.11.  
+1.2.2 Relation to national and international research and innovation activities  
+Table 3 lists a selection of relevant ongoing H2020 projects participated by some the Consortium partners and related 
+to the topic of this application. Synergies and cooperation with these initiatives and with other EU projects dealing 
+with materials circularity (including the other projects funded under HORIZON -CL4-2021-RESILIENCE-01-01) 
+will be fostered during RECREATE and implemented within a specific task (T9.4).  
+Table 3. International funded initiatives related to the main pillars of RECREATE.  
+List of related projects and initiatives  Summary of topics and exploitable synergies  
+FiberEUse (2017-2021, ongoing) - 
+H2020, GA 730323. “Large scale 
+demonstration of new circular 
+economy  
+value-chains based on the reuse of end-of-life fiber 
+reinforced composites” Involved partners : 
+POLIMI, TAU, FRAUNHOFER, HEAD Sport 
+GmbH, INVENT, EDAG.  
+The FiberEUse project aims at integrating in a holistic approach different 
+innovation actions enhancing the profitability of composite recycling and 
+reuse in value-added products. As FiberEUse will act as reference point for 
+circular economy in the composite sector, the partners of RECREATE will 
+interact with FiberEUse to define synergies and exploitation potential in 
+higher TRL phases.  
+Alma (2021-ongoing) – H2020, GA 
+101006675.  “Advanced 
+ Light  
+MAterials and processes for the eco -design of 
+electric vehicles”. Involved partners: RESCOLL.  
+The project will adopt circular economy principles through the application 
+of eco-design strategies to create a novel recyclable and affordable battery 
+electric vehicle platform. Synergies with RECREATE will be implemented 
+concerning the activities undertaken by RSC and other technology providing 
+Consortium partners, which will find potential alternative exploitation 
+routes on different markets.  
+DeCOAT (2019-ongoing) –  
+H2020,  GA  814505.  
+This project will develop a solution to ensure the circular use of textiles and 
+plastic parts with (multilayer) coatings, based on the development of  
+“Recycling of coated and painted textile and plastic 
+materials”. Involved partners: RESCOLL, IRIS.   
+triggerable smart polymer material systems and appropriate recyclingAssociated 
+with document Ref. Ares(2022)3823781 - 20/05/2022 processes. Synergies with 
+RECREATE will include the identification of new exploitation routes for 
+RESCOLL and other RECREATE partners involved in the development of 
+advanced material solutions for composites circularity.  
+MULTICYCLE  (2018- 
+ongoing)  -  H2020,  GA  
+820695. “Advanced and sustainable recycling 
+processes and value chains for plastic -based 
+multimaterials”. Involved partners: IRIS.  
+MultiCycle aims to deliver an industrial recycling pilot plant for recovering 
+the components from thermoplastic multilayer packaging and fibre 
+reinforced composites. IRIS is the coordinator of this project and it is 
+involved in the development of monitoring systems for the fibre reinforced 
+composites, enhancing the competences in fiber recognition area.  
+Fig 
+.  
+11 
+  
+Overall concept in RECREATE. 
+  
+
+ 
+[101058756 - RECREATE]  Annex 1 – Part B  12  
+REMADYL (2019-ongoing), H2020, 
+GA 821136. “Removal of Legacy 
+Substances from polyvinylchloride  
+(PVC) via a continuous and sustainable extrusion 
+process”. Involved partners: IRIS.  
+REMADYL aims at recycling PVC additivated with hazardous legacy 
+substances (LS) su ch as phthalate plasticisers (mainly DEHP) and heavy 
+metal-based stabilisers (mainly lead). In this context, IRIS develops a LIBS 
+system to black PA and PP parts, acting as reference point to identify other 
+black plastic component in RECREATE.  
+CarE-Service (2017-ongoing) – 
+H2020, GA 776851. “Circular  
+Economy Business Models for 
+innovative hybrid and electric mobility through 
+advanced reuse and remanufacturing technologies 
+and services”. 
+Involved partners: FRAUNHOFER, POLIMI.  
+The CarE -Service project aims at demonstrating Innovative Circular 
+Economy Business Models based on advanced mobility services exploiting 
+hybrid and electric vehicles. Such business models will entail re -use, 
+remanufacturing and recycling of components and materials of hybrid and 
+electric vehicles for applications in the automotive sector as well as in other 
+sectors. CarE-Service will give important input regarding re -use, 
+remanufacturing and selective recycling of techno-polymeric components  
+CASTLE (2016-2022, ongoing), H2020, GA 
+699777. “CAbin Systems design Toward passenger 
+welLbEing”. Involved partners : GEVEN SPA, 
+INVENT.  
+The CASTLE project aims at improving passenger cabin environment by 
+means of an innovative and integrated design approach including both 
+human factors and environmentally friendly materials. RECREATE partners 
+will interact with CASTLE to define synergies in higher TRL phases.  
+FIBREGY (2021-2023, ongoing),  
+H2020, GA 952966. “Development, 
+engineering, production and life cycle 
+management of improved FIBRE-based material 
+solutions for the structure and functional 
+components of large offshore wind enerGY and 
+tidal power platforms”. Involved partners: 
+AVK.  
+The overall objective of the FIBREGY project is to enable the extensive use 
+of FRC materials in the structure of the next generation of large Offshore 
+Wind and Tidal Stream (OWTS) platforms. The project will develop, qualify 
+and audit innovative FRC materials for offshore applications. AVK will serve 
+as direct link with this initiative, evaluating potential synergies especially 
+concerning the foreseen end of life of such novel OWTS structures.  
+1.2.3 Interdisciplinarity  
+The RECREATE Consortium is built upon a vast group of participants from a broad variety of backgrounds, spanning 
+academic and industrial research, higher education, technology development, small, medium and large industrial 
+entrepreneurship, stakeholders’ representation, business management and innovation. The knowledge base is highly 
+interdisciplinary combining competences in materials science and engineering, industrial manufacturing, product 
+design and engineering, physics and optics, chemical engineerin g, chemistry, mechanical engineering, business 
+management and implementation, cyberphysics, environmental engineering, education sciences, digital technologies, 
+computer graphics and design. The success of the project relies on the interaction of expertise from different scientific, 
+technological and industrial sectors, with each fundamental step of the project representing a field for cross -
+fertilization as a result of beneficial synergies and interactions among different disciplines. Materials engineering as 
+well as materials manufacturing are per-se fields of intersections and intimately require synergetic collaboration 
+between many different fields of knowledge. However, other more specific interactions and collaborations across 
+diverse yet complementary  disciplines will be required for the achievement of the proposed scientific and 
+technological innovations: i) dismantling and sorting technologies – key disciplines: physics, photonics, mechanical 
+engineering, materials and manufacturing engineering; ii) composite part reuse and remanufacturing  – key 
+disciplines: materials engineering, product design, mechanical engineering, cyber -physics, laser physics; iii) 
+sustainable and profitable recycling technologies for composite materials  – key disciplines: chemical engineering, 
+production engineering, chemistry, mechanical engineering, process engineering, business engineering; iv) pilot level 
+demonstration of reuse/recycle approaches  – key disciplines: production engineering, materials engineering, 
+chemical engineering, prototyping, chemistry, manufacturing engineering, business engineering; v) digital tools for 
+circularity and sustainability assessment – key disciplines: chemical engineering, environmental engineering, 
+software engineering, business engineering and management; vi) co-design of learning resources – key disciplines: 
+education sciences, pedagogy, software engineering, graphic design, computer graphics. Throughout the project, the 
+Consortium will promote the engagement of actors from different scientific and technological disciplines and diverse 
+business sectors implementing specific actions fostering continuous knowledge exchanges between partners (see 
+Section 2.2 for detailed measures to maximize impact).   
+1.2.4 Integration of social sciences and h umanities  Associated with document Ref. Ares(2022)3823781 - 20/05/2022 
+One of the important objectives of the RECREATE project is the design of innovative learning/teaching resources to 
+enable the implementation of lifelong learning programmes for curren t employees active in the cross-sectorial area of 
+circularity of composite materials, in addition to targeting the future generation of workers by interacting with local and 
+regional educational organization at undergraduate level. To successfully address these aspects, competences in the 
+
+ 
+[101058756 - RECREATE]  Annex 1 – Part B  13  
+fields of pedagogy, education sciences as well as learning sciences and technologies  are essential. Such skills will 
+be implemented within the RECREATE project through the active participation of the “ Innovation in Teachin g and 
+Learning” task-force (METID) of partner POLIMI. METID@POLIMI specializes in designing and testing tools and 
+methods for learning innovation and faculty development, and will lead the activities related to the definition of 
+innovative learning/teaching methods (T7.1) and to their modular replication and validation (T7.4). These activities will 
+be undertaken in the framework of a WP entirely dedicated to the co-design and validation of learning resources 
+(WP7), led by partner GRIFO whose core digital expertise is in the development and technological implementation of 
+e-learning/gamification solutions at different educational levels.  1.2.5 Considerations on gender dimension  
+The different activities foreseen in RECREATE will require specific considerations on sex/gender dimension and on 
+how this issue will be taken into account at each level of the project development. In this respect, the Consortium has 
+identified three distinct levels of scrutiny and interven tion. LEVEL 1 – PRACTICAL IMPLEMENTATION OF  
+SCIENTIFIC AND TECHNOLOGICAL TASKS PLANNED IN THE PROJECT. The practical implementation of 
+the scientific and technological activities planned in RECREATE is assumed to be equally perceived and participated 
+by male and female subjects and no gender/sex -based differences are expected in the development, demonstration 
+and validation of the proposed technologies. No specific sex/gender analysis related to the execution of such activities 
+is deemed relevant for RECREATE. Should the sex/gender dimension become relevant in this respect as advised by 
+the Consortium partners or externally, appropriate measures will be implemented to ensure full consideration in 
+project activities in line with EC guidelines.20 LEVEL 2 – DISSEMINATION OF PROJECT RESULTS. The project 
+will take particular care of the sex/gender inclusion topic by designing dissemination material free from 
+discrimination of any kind, by stimulating the participation and involvement of individuals with arbitrary gender 
+orientation in the project activities and outcomes, and by taking specific dissemination actions in synergy with 
+associations and organizations that regularly deal with these issues such as e.g. Valore D , Society of Women 
+Engineers, IEEE Women in en gineering and Parks. It is widely recognized that in the area of science, technology, 
+engineering and mathematics (STEM) there is still prevalent gender unbalance as well as a large underrepresentation 
+of e.g. women.21,22 Access to STEM fields both at high er-education/academic level and at professional level is still 
+held back by discrimination, prejudice, social norms, and expectations that make these fields less accessible for 
+women and those with different gender orientations. For these reasons, attention to the use of language in these and 
+other contexts becomes a key element in creating a new vision of society, and particular attention needs to be given 
+to sex- and gender-inclusive language. It is through language that we get an idea of our society and the values we 
+want to uphold. Teachers and trainers need to have a constant and strong commitment in this respect, not only using 
+conscious and consistent language, but also raising participants' awareness and attention to this aspect. Indeed, the 
+model proposed by the teacher constitutes a key starting point for reflection on this matter. Building upon these 
+considerations, the RECREATE Consortium will take full responsibility in disseminating project results using an 
+inclusive language, free from sex/gend er stereotypes. The partners will implement dissemination activities using 
+gender neutral language (e.g., avoiding the use of masculine forms/pronouns/nouns in a universal meaning). 
+Particular attention will also be given to the visual language in the creation of dissemination materials such as social 
+posts, newsletters, graphic images or videos, where people/gender diversity and sex parity will be constantly sought 
+and ultimately ensured. LEVEL 3 – CO-DESIGN AND VALIDATION OF LEARNING RESOURCES. The issue 
+of how to develop an inclusive digital language in the broad field of STEM education is crucial for enabling a 
+measurable qualitative and quantitative impact of such disciplines on society. Within this context, POLIMI is actively 
+involved in the FOSTWOM project, a three-year (2019-2022) initiative co-funded by the EC's Erasmus+ for Higher 
+Education program in which the inclusive potential of massive open online courses (MOOCs) is capitalized on to 
+enable STEM subjects free of gender -based stereotypes. The main objective of such MOOC development platform 
+is to raise awareness around gender balance indicators and ultimately enable a more inclusive MOOC design, thus 
+reaching a wider learning audience. Based on this experience, RECREATE will take advantage of th e direct 
+involvement of POLIMI in FOSTWOM to co-design teaching and learning resources for lifelong training of current 
+and future professionals in the broad field of composite circularity, following the guidelines outlined in FOSTWOM 
+for inclusive content , free of gender stereotypes. Additionally, MOOCs and digital learning approaches will be 
+employed in RECREATE as strategic means for actively promoting a culture of inclusion. In this context, a 
+representative example is the MOOC "Embracing Diversity" created as part of the IN2IT Erasmus+ project23 in which 
+POLIMI was involved, now available in open -access mode to interested users on the Open Knowledge portal of 
+POLIMI.24 These previous experiences will constitute the informed background for RECREATE to embrace diversity 
+Associated with document Ref. Ares(2022)3823781 - 20/05/2022 as key means to develop talents, foster creativity and boost 
+innovation in academia, society and business. 1.2.6 Open science  
+
+ 
+[101058756 - RECREATE]  Annex 1 – Part B  14  
+Open Science practices  will be implemented at differ ent levels and different stages during the project to ensure 
+cooperative and systematic sharing of the produced knowledge and tools, in agreement with the IPR protection 
+strategy outlined in Section 2.2.3. In the early dissemination of the scientific results, pre-print scientific publications 
+in suitable open access online databases and repositories (e.g., ChemRxiv, arXiv) will be considered for immediate 
+knowledge sharing with the community, thus promoting effective scientific and technological advancement . 
+Additionally, institutional repositories (e.g., Re.Public@Polimi, Trepo@TAU) will be used for immediate access 
+to research outputs through univocal persistent identifiers (PIDs), at the latest at the time of publication. Similarly, 
+scientific articles based on the outcomes of the RECREATE project will be published in open access mode (either 
+“green” or “gold”) and made available to the readership under CC -BY, CC-BY-NC/ND or equivalent publishing 
+licenses. When available from the selected publisher, the open peer-review model will be pursued. Beneficiaries and 
+authors will need to retain sufficient IPR when complying with such open access requirements. To this end, sensitive 
+information subjected to IPR protection will be managed according to the IPR strategy outlined in Section 2.2.3, and 
+in the case project results are eligible for patenting, actions will be taken at the earliest possible date. A preliminary 
+agreement has been reached among the project partners to investigate the possibility of opting for the open-source, 
+license-free and maintainable model for the developed technologies (including software-based) in order to ensure 
+re-use, maintainability and further development by the entire research and industrial community. Project results that 
+will be provided as open-source components will be protected under open source licenses; analogously, project results 
+that will be commercially exploited will be copyright-protected. In order to ensure clear and efficient knowledge 
+management and exchange within the Consortium, the Project Coordinator (PC) will establish internal web resources 
+for communication among the partners and for the dissemination and transfer of knowledge and information as 
+required. All Consortium members will co -operate in order to reach  the most efficient process of knowledge 
+management as well as data management (see Section 1.2.7). The know-how exchanged between the partners may 
+include, in certain cases, background knowledge. The Consortium has agreed on the principles for the managem ent 
+of IP, as preliminarily set out in Section 2.2.3.  
+Active engagement of relevant knowledge actors including citizens, civil society and appropriate stakeholders will 
+be continuously promoted throughout the project with dedicated actions, such as the pa rticipation in dedicated 
+dissemination events and the organization of tailored dissemination activities (see Section 3 - WP8 and Section 2.2 
+for a detailed description of the preliminary Communication, Dissemination and Exploitation plan). In addition, 
+specific actions will be implemented in the co-design of learning resources  for professionals as well as for 
+undergraduate students to promote lifelong learning in the field of composite materials circularity, based on the 
+scientific and technological outputs of RECREATE. To this end, WP7 will be entirely dedicated to these activities, 
+which will be led by partner GRIFO with the direct support of METID@POLIMI, the “ Innovation in Teaching and 
+Learning” task -force @POLIMI. The activities in this context will fol low the recommendations provided by 
+UNESCO for open educational resources (OER) as “learning, teaching and research materials in any format and 
+medium that reside in the public domain or are under copyright that have been released under an open license, th at 
+permit no-cost access, reuse, repurpose, adaptation and redistribution by others”. 25 In particular, MOOCs will be 
+extensively exploited in RECREATE as an effective strategy to enable broad accessibility to the learning material, 
+with great potential for modular replicability, scalability and world-wide openness. 1.2.7 Data management plan  
+The Consortium partners have considered issues related to the management of data and research outputs as they want 
+to ensure them to be findable, accessible, interoperable and reusable (FAIR), ultimately enabling data security, 
+accessibility and reproducibility. A Data Management Plan (DMP) will be implemented as part of a concrete research 
+data management strategy which will minimize possible duplication of effort and the risk of data loss and will offer 
+integrity to the data (first draft at M06, updated at M24/36/48). Furthermore, this approach will enable increased 
+efficiency of research and development activities, time and resources savings in the long term, and compliance with 
+best practices in higher TRL phases. G_MEDIA as Communication, Dissemination and Exploitation Manager 
+will coordinate the DMP activities and will take responsibility for the collection, management, sharing and curation 
+of the data, as well as for the day -to-day quality assessment. The DMP will describe plans for creating, organizing, 
+documenting, storing and sharing data. It will take into account issues such as data protection and confidentiality, 
+data preservation and data curation, and will provide a framework that  will support researchers and their data 
+throughout the course of their research activities and beyond. It will be periodically updated describing what type of 
+data will be generated (e.g., experimental, numerical, graphical) and what policies apply to the  data (i.e., data 
+accessibility). Specific unique persistent identifiers  (PIDs) including Archival Resource Keys (ARKs), Digital 
+Object Identifiers (DOIs) and Handle System Uniform Resource Names (URNs) will be considered to ensure Associated 
+with document Ref. Ares(2022)3823781 - 20/05/2022 findability of data and research outputs. Funding and legal policies as well as 
+data management practices  such as backups, storage, access control, archiving will be defined in the DMP. 
+ 
+[101058756 - RECREATE]  Annex 1 – Part B  15  
+Moreover, the Consortium partners will clearly describe which data will retain value after the end of the project, how 
+their reuse will be enabled, and how the long-term preservation of such data will be ensured after the original research 
+is completed, to ensure effective data and research output reusability. Partners will share the generated research 
+data allowing other partners to replicate, validate, or correct their results, thereby improving the scientific record and 
+ensure knowledge advancement. This will increase research integrity and replication as Fig. 12 Data management plan 
+strategy in RECREATE. those who make use of their data and cite them in their own research  
+will disseminate the results possibly in other disciplines, sectors, and countries. Partners will not share sensitive parts 
+of their research data whenever the achievement of the main objectives of the project may be jeopardized by making 
+those specific parts of the research data openly accessible. The methodology and standards, whether and how these 
+data will be shared and/or made open, as well as how they will be curated and preserved, will be defined in the DMP 
+by the Consortium during project implementation. For each dataset generated, the DMP will be based on the following 
+essential implementation steps (Fig.12):  
+✓ Data set reference and name: identifier for the produced data.  
+✓ Data set description: description, nature, scale, information about integration and reuse etc.  
+✓ Standards and metadata: reference to the standards that will be used and how the metadata will be created.  
+✓ Data sharing: access procedures and license (e.g. Creative Commons, Open Data Commons), software or other 
+tools needed for access, repository, reasons for confidential data.  
+✓ Archiving and preservation: procedures for the long-term preservation of the data, estimated end volume.  
+  
+     
+ 
+[101058756 - RECREATE]  Annex 1 – Part B  16  
+2.  Impact   Associated with document Ref. Ares(2022)3823781 - 20/05/2022

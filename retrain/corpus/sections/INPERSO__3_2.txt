@@ -1,0 +1,316 @@
+3.2 Capacity of participants and consortium as a whole 
+In Figure 19 the main roles of the participants are shown, correlated with the six integrated results of the project: 
+IR1- RE SUITE integrated platfor m, IR2 - Low-Carbon Renovation Models (LCRM) , IR3 - Retrofit – Kit, IR4- 
+Façade 3D printer, IR5- Energy & Comfort Optimisation Interface (ECOI) and IR6- INPERSO completed system. 
+Each of the results is connected to the correspondi ng objective in §1.1. As shown in the next sections, each of the 
+partners is fully capable in excelling in their respective roles: The INPERSO team is comprised by experienced RTOs, 
+ambitious SMEs, Large Enterprises and NPOs.  
+ 
+Figure 19 INPERSO participants and activities 
+3.2.1 Matching of project objectives 
+There are eight (8) r esearch organisations (ITA, UPV, CORE, TAU, IVE, CART, SUPSI and EPFL) from Spain, 
+Greece, Finland and Switzerland. INPERSO also comprises 8 SMEs (R2M, METS, IR IS, DMO, EUROC, VENT, 
+AMS and IWIN, from Italy, Lithuania, Ireland, the Netherlands, Belgium, UK, Greece and Switzerland). SMEs will 
+claim 41% of the funding. Three LEs participate: ACCIO, VIAS, MIRC, two from Spain and one from Greece, as 
+well as 3 NPOs: MWNB, VVV and AUMSA, corresponding t he three demonstrations. Moreover, in each of the 
+project’s activities, RO- and IN-TSPs work together to facilitate knowledge transfer and accelerate innovation. Open 
+science will be integral to the project, with multiple results (Table 3, DEC KPIs in §2.2) generated through the project, 
+mainly through the work of TAU, IVE, EPFL, SUPSI and CART . SSH is one of the three pilla rs of the project, 
+complementing the “green” and “digital” dimensions and is mainly described in WPs6&7. While gender equality is 
+not m andated in this topic, it is  still a matter of priority for the Consortium, as an integral part of the inclusive 
+workspaces envisioned in the just transition and will also be addressed in WP6 (EUROC). 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 66/70 
+  
+Table 3.1f Summary of staff effort 
+3.2.2 Access to critical infrastructure 
+3. CORE Within CORE premises, a High -Performance Computing infrastructure is installed, taking advantage of 
+the SOA advancements in hardware evolution. The multithreaded architecture can parallelise many tasks (AMD 
+EPYC), while allowing for memory intensive model ling and simulation approaches (512GB ECC RAM). This, 
+combined with the latest in Graphical Processing Unit architectures (nVidia Volta V100) allows for the development 
+of highly complex Deep Neural Network architectures, end -to-end data ingestion, preproc essing and Machine 
+Learning pipelines, as well as efficient hyperparameter optimisation, essentially accelerating the whole data sci- ence 
+package. Furthermore, the FP64 capability of the HPC infrastructure, allows the simulation of complex physics 
+phenomena using FEA and CFD solvers. 
+4. TAU: The FSD (Finnish Social Science Data Archive) is hosted by TAU which also offers access to the CESSDA 
+ERIC (Consortium of European Social Science Data Archives) to be used for background and s tatistical research 
+data. The Human-Technology Interaction Labs Faculty of Information Technology and Communication Sciences 
+hosts five fully equipped laboratory spaces for various types of user studies of novel technologies. Moreover, the 
+Low Carbon and H ealthy Buildings In-situ Diagnostics Kit   by the Faculty of Built Environment offers access to 
+field work equipment (e.g. temperature, air -flow, CO2 and Relative Humidity sensors to monitor indoor 
+environmental quality and thermal comfort conditions, etc.). 
+5. CART: CART offers access to three-dimensional measurement systems, Concrete 3D printing systems, Long & 
+short Range Scanning, Structural Dynamic Assessment and Inspection equipment. The equipment includes 3D laser 
+scanners, laser profilometers and photogrammetric systems and surveying equipment such as robotic total station and  
+differential GPS devices.3D printers developed by CARTIF use various construction materials (cement, plaster, 
+mortar) able to print on horizontal and vertical surfaces with an approximate printing area of 2 x 2 meters. 
+6. MIRTEC: MIRTEC owns accredited labs for testing & validation of building materials and preparation of 
+samples, physical, mechanical and microstructural properties characterizations of materials used for building 
+products. (e.g.Compression-Bending strength machine, Vibrating table concrete mixer drum type, moulds, sieving 
+equipment, MZ2 Laboratory easy to clean Z -Blade mixer, ageing chambers XRD, XRF, SEM, etc.). Their 
+infrastructure offers labs & open areas for demonst rators’ production, as wel l as appropriate premisses for 
+dissemination actions. 
+7. IVE: IVE will contribute with their access to monitoring equipment to measure energy consumption and IEQ 
+conditions (air temperature, globe temperature, air speed, humidity, CO2 concentration, level of illuminance, level 
+of noise). 
+10. IRIS: IRIS is equipped with engineering workshops (3), food testing and wet chemistry laboratory, optics labs 
+(2), and an electronics & telecommunications lab.  
+13. VENT: VENT will contribute offering their R&D  Design Office provi ding a c utting edge mechanical design 
+facility kitted with appropriate workstations, as well as their R&D Workshop (F-Gas compliant and refrigerant safe) 
+designed to assemble and test various refrigerant and high pressure systems for the needs of their INPERSO activities. 
+18. ACCI: Acciona have their own R&D Technological Centre  in Madrid composed by a multidisciplinary an d 
+international team of more than 60 highly qualified researchers from a wide range of disciplines. Main research areas 
+are Sust ainable Buildings, Materials (Concrete, New Materials), Construction Processes (Roa ds, Railways and 
+Tunnels, Maritime Works and Structures) and Digital Innovation. 
+Name WP1 WP2 WP3 WP4 WP5 WP6 WP7 WP8 PMs Budget %
+ITA 2 42 0 0 18 2 2 20 86 5.65%
+UPV 4 20 0 2 30 1 4 18 79 3.54%
+CORE 6 0 31 2 25 21 19 3 107 5.10%
+TAU 3 0 5 34 19 11 4 3 79 4.95%
+CART 3 45 4 0 12 4 3 3 74 3.34%
+MIRTEC 2 14 0 14 3 3 26 3 65 3.49%
+IVE 18 2 0 18 6 12 4 3 63 2.83%
+R2M 5 0 30 14 10 12 5 1 77 4.27%
+METS 2 12 0 2 9 2 4 3 34 2.34%
+IRIS 7 0 33 0 17 0 2 0 59 3.93%
+DMO 4 0 27 12 24 2 4 3 76 6.78%
+EUROC 4 0 0 6 23 14 4 3 54 3.03%
+VENT 2 24 11 2 10 2 4 3 58 5.65%
+AMS 2 27 8 2 42 2 4 3 90 9.23%
+AUMSA 7 0 0 6 20 5 1 1 40 5.19%
+MWNB 4 0 0 2 14 2 4 3 29 2.43%
+DVVV 2 0 0 1 18 1 2 1 25 0.84%
+ACCIO 3 0 14 0 27 2 4 3 53 2.58%
+VIAS 2 13 0 2 5 1 4 3 30 2.40%
+SUPSI 8 30 3 12 6 0 0 1 60 5.49%
+IWIN 2 34 2 6 14 2 4 3 67 9.44%
+EPFL 2 0 39 2 20 2 4 3 72 7.49%
+Total 94 263 207 139 372 103 112 87 1377
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 67/70 
+19. VIAS : VIAS´ Machinery Base , l ocated in Pancorbo, Burgos has 27,675 m2 total area, with 1,390 m2 of 
+workshops, with a reserved area for pilot test demonstrators. Resources, equipment and material are available for the 
+testing. The machinery base is connected to the Spanish conventional rail network 
+ 
+3.2.3 Partner description 
+1. ITA is a non-profit technology centre aiming to promote competitiveness in the industrial sector by means of the 
+development, acquisition, adaptation and transfer of innovative technologies. ITAINNOVA offers its services with 
+a clear market orientation, providing real and innovative solutions from its lines of research and development, which 
+transform and ac celerate the technological p rocesses of companies or new challenges in o ur society. ITA’s 
+mechatronic and robotics group is expe rienced in robotization and advanced automation applied to construction 
+machinery also leading the working group “Robotization a nd Automation of Machinery” in PTEC (Spanish 
+Construction Technology Pla tform). They are a reference partner for ANMOPYC (The Sp anish Manufacturers´ 
+Association of Construction, Public Works and Mining Equipment) and collaborate with CECE (Committee for 
+European Construction Equipment). ITAINNOVA is leading the Aragón DIH “HPC-Cloud & Cognitive Systems for 
+Smart Manufacturing, Robotics and Logistics”. In INPE RSO, ITAINNOVA will be the coordinator partner; it has 
+participated in almost 60 European Research projects in the FP7 and H2020 framework, coordinating 17 of them and 
+it h as the required expertise and structure to play the role  in administrative matters, being supported by UPV in 
+building and edification aspects. In terms of technical activity, ITAINNOVA will use their machinery, mechatronics 
+and robotics knowledge and meth odologies to design and develop the 3D façade printing s ystem, integrating the 
+extrusion head from other partners. 
+2. UPV-IRP Instituto Universitario de Restauración del Patrimonio of the Universitat Politècnica de València (ES) 
+is a public institution was established in 2000 comprising more than 100 researchers and is dedicated to promoting 
+heritage conservation research and practice. IRP works to advance conservation research and practice in the fine arts, 
+architecture and sites. IRP aims to develop and to exploit new conservation techniques and approaches, to disseminate 
+the cultural heritage conservation research results, and to train profe ssionals. In INPERSO UPV-IRP will focus on 
+3D printing constructive process require ments, BIM integration, and their relation to  the INPERSO renovation 
+workflows. 
+3. CORE is a non-profit RTO, subsidiary of CORE In novation & Technology OE , aiming to provide individuals, 
+industries and companies with opportunities  to reach their true potential,  to make industries smarter and greener, 
+more sustainable and more socially inclusive. Industry 4 .0 is where CORE chooses to focus our research and 
+innovation efforts. Advances in a range of technologies i.e. IoT, big data, machine and deep learning, edge and cloud 
+computing are deployed to maximise the potential of both people and entities in multiple sectors. CORE builds upon 
+their extended experience leading D&C activities in multiple H2020 projects, showcasing a large portfolio of digital 
+identity material (e.g. H2020 project websites, logos, videos) as well as highly impactful channels of communication 
+in multiple platforms  and will be the leaders o f INPERSO DEC activities. CORE will also lead the efforts in the 
+development of MuSECS focusing on state of the art  Machine Learning and Deep Learning algorithms to provide 
+meaningful energy management insights. 
+4. TAU Faculty of Built Environment, Architecture (FI) will lead the post-occupancy feedback and optimisation task, 
+contributing on three main aspects: (i) performance gap analysis and consequence minimisatio n; (ii) coordination 
+and mon itoring building performa nce; (iii) human -centric dimension. This contribution is based on the 
+interdisciplinary research groups Sustainable Housing Design (ASUTUT) and Human-Centered Technology (IHTE) 
+groups: ASUTUT combine thr ee areas of expertise (Agile , Ecological, and Inclusi ve design) to re -define what 
+sustainable housing design is, opening up new design solutions that enhance living environments and spatial qualities 
+and peoples’ well-being. IHTE’s areas of expertise are based on user experience of smart mobility solutions, human-
+centered design of artificial intelligence applications, social colla borative robots, and digital participation for 
+sustainable and inclusive society. 
+5. CART is a prominent Applied Research Centre leading technology transfer activities since 1994 employing more 
+than 170 researchers. The Industrial and Digital Systems Division of CART  is one is one of the three main fields of 
+knowledge and activity. CA RTIF participation in intern ational activities has be en materialised in the current 
+participation in more than 45 on -going inter national projects, including 25 projects from H2020 (6 of them 
+coordinated). Additionally, CARTIF is one of the founding members  and main promoters of the S mart City VyP 
+initiative carried out in the Spanish cities of Valladolid and P alencia. Their role in  3d printing will focus on the 
+integration of an extrusion head  industrial robot arm appropriate for façade material printing as the pumping system 
+and their control. 
+6. MIRC is a multi -sectoral-Technological company , active in Applied Re search & Technological Innovation, 
+Quality Control and Certification in a wide range of Industrial materials & products. It operated under the supervision 
+of the Ministry of Development and among its shareholders are dynamic companies of the construction sector. MIRC 
+has a key role in the ecosystem of the construction industry in Greece and is “a single-point lab” for the construction 
+sector, as it operates in the entire value chain: Research & Development - Networking & Clustering- Quality Control 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 68/70 
+& Certification. It is a Notified Body in European Union for construction products (Notif. No. 0437) and a Technical 
+Assesment Body (TAB) for the issuance of European Technical Assessment documents under the Regulation (EU) 
+No 305/2011 - Construction Products. It o perates independent and privately owned accredited (EN ISO 17025) 
+laboratories and is also member of Netwo rks IQNet, Oeko-Tex, IECEE CB (ENEC, CCA & HAR Group) . Today, 
+the company is working for more than 20 European/International/National R&D projects (funded and private) and is 
+the Facilitator of Cluster e-CODOMH (“Cluster of companies for Efficient and sust ainable Construction, buildings 
+& infrastructure”). 
+7. IVE- Valencian Building Institute (ES) is a public interest foundation, established in 1986, IVE’s mission includes 
+improving the processes related to  building and urban space, p romoting research and improving the training of 
+professionals, to achieve levels of quality, sustain ability, safety, accessibility and durability in accordance with the 
+needs of society, also specialising in the economic valuati on of construction processes based on the analysis of the 
+resources allocated and the expected returns. In INPERSO IVE’s main ro le lies within identifying end -user needs, 
+along with the engagement of multiple stakeholders. 
+8. R2M is an engineering and consultancy company offering services to the energy and construction sectors. R2M 
+has proved expertise and services in BIM models creation and management, support to the adoption of digitalisation 
+solutions across the building lifecycle, and f or different types of sustainability certification. R2M will lead BIM 
+model development tasks, capacity building activities and will offer its outstanding experience in accompanying the 
+innovation transition into the market, to support exploitation planning and market uptake. 
+9. METSOL (LT) is a manufacturer of tailor -made solar panel solutions specialising in innovative design and 
+development as well as bepoke power and electrical solutions for a variety of solar projects integration. In the project 
+their design and development team will modify their panels’ visual and textural features through heritage compliant 
+prototypes and lead the integration efforts of their roof /façade BIPV modules contributing to the INPERSO Retrofit 
+Kit. 
+10. IRIS (ES) is a technology SME established 20 07 currently  employing 56 people and specializes in the 
+manufacture and integration of Process Analy tical Technology (PAT)-based real-time quality monitoring solutions 
+for the process industries and IoT systems for smart manufacturing, predominantly target ed at the fo od, 
+pharmaceutical and chemical industries. In addition to photonics -based analysers, they also work with IoT sensor s 
+for enabling equipment and  machinery for smart manufacturing and transitioning industry to the Industry4.0 
+paradigm. Their sol utions are c loud-based for mobility, remote monitoring and multi -site applications. IRIS 
+Innovation Division is experienced in w orking in collaborative R&D projects in H2020 (both as coordinators and 
+partners) and principally in the SPIRE, FoF, and BBI programmes. IRIS is certified under ISO 9001:2008  and UNE-
+EN-ISO 166002: Management Systems R&D&i.  
+11. DMO is an in dependent consultancy (SME) specialized in Real Estate Information Management combining 
+consulting, software, and research to support their clients in making optimal choices for developing and managin g 
+real estate. DMO employees are building engineers, real estate specialists, researchers, and IT specialists. DEMOC 
+produces innovative software products f or the development and management of buildings and civil i nfrastructure 
+(e.g.  the Real Estate Suite)  and expert systems with user friendly apps, dashboards, and numerous practical features. 
+Their RE Suite comprises BIM, GIS, IoT, Big Data, VR/AR, and Art ificial Intelligence technologies. In INPERSO 
+DEMOC will advance the features of RE Suite into an overall deep renovation IoT platform including a social aspect 
+to embrace all INPERSO subsystems and processes based on RE Suite’s high interoperability. 
+12. EUROC is a member of the GEP Group of companies ( www.gepgroup.gr ), is a young,  and fast -growing 
+company providing multi-sectoral expert consultancy and professional technical support to modern business, with 
+special focus on the fields of occupational health & safety and environment. EUROC also specialise s in Energy 
+Efficiency and R enewable Energy Sources, Environmental Impacts and Protection, Sustainable Management of 
+Resources and Eco-Applications, coupled with the relevant investing, business -doing and development consulting 
+aspects. EUROC’s main role in the project lies within developing protocols for safe deep renovation worksites, while 
+also leading Standardisation, certification and regulatory monitoring activities.  
+13. VENTI is a pioneer SME in the design of naturally intelligent ventilation systems to deliver fresh air at minimal 
+energy cost. VENT collaborate with top researchers and publishes academic papers that expand their knowledge base 
+gaining numerous awards for their innovation and commitment to sustainable architecture including the Best Startup 
+at the Lloyds TSB Enterprise Awards and more than 20 sustainability, retrofit and innovation awards).In INPERSO 
+VENT aim to deliver an integrated ventilative HVAC as a component of the Retrofit Kit. 
+14. AMS is a technical consulting SME established in 2004 with the goal to provide state -of-the- art services 
+inextricably linked with the Research, Development & Production of novel energy efficient procedures & materials 
+contributing to the constantly i ncreasing demand of “eco -friendly”, energy efficient and “value for money” novel 
+products to a rapidly forward moving  world. AMS has been active in 11 EU Funded Projects mainly focused in 
+energy efficiency either thro ugh the dev elopment of new materials or  new processes with very promising results. 
+AMS will advance their Smart Wall solution within the INPERSO Retrofit Ki t by integrating on-board monitoring 
+and controls with the platform and EMS also delivering new sustainable and materials heritage complying prototypes. 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 69/70 
+15. AUMSA is an urban society established in 1986 by the City Council o f Valencia with the corporate purpose to 
+carry out urban studies and carry out municipal project management (PM) and own project execution works. AUMSA 
+PM focusing on infrastructure works (urbanizations, collectors, etc.), landscaping, expropriations, drafting of urban 
+plans, housing construction, emblematic buildings, ornamental fountains, participation, management and monitoring 
+of major projects and archaeology. Their own building pro jects entail land management actions, promotion and 
+execution of homes and car parks. In INPERSO AUMSA will provide the Calle Estrella building     for the 
+demonstration needs of the project. 
+16. MWNB (NL) is a non-profit  public organization funded in 2001 to support owners in the quality maintenance 
+of their heritage buildings and monuments .They specialise in heritage building inspection, engineering, green 
+monuments, providing  inspection reports and advice for maintenance.  In INPERSO MWNB will lead the Trinity 
+complex demo activities. 
+17. VVV is a large municipality in southern Attica representing the third INPERSO demo case as they are the building 
+owners of the Litous Street Social Shelter, in Vouliagmeni, Athens. Their Organisation and Programming Unit and 
+the Department of City Planning & Building Permits are very active in retrofitting and urban projects aiming at the 
+energy efficiency of the Municipality and they will be leading the demonstration activities in Greece. 
+18. ACCIO is s a global g roup that develops and manages sustainable inf rastructure solutions, especially in 
+renewable energy. Their business spans the entire value chain, from design and construction through to operation 
+and maintenance. ACCIONA’s goal is to lead t he transition to wards a low -carbon economy, bringing technical  
+excellence and innovation to all of its projects to design a better planet. With a presence in more than 40 countries 
+and sales of €6,472 billion in 2020, the company is committed to contributing to the economic and social development 
+of the communities in which it operates. In INPERSO ACCIONA is leading the activities in monitoring the energy 
+footprint of the renovation process also supporting demos 1,2  to assess and optimise construction works. 
+19. VIAS is a construction firm tha t belongs to one of the world's largest construction and services groups (ACS 
+group), with over 85 years' experience. Headquartered in Madrid (Spain), VIAS ha ve offices in Poland, United 
+Kingdom, Portugal, Canada and the U.S. in order to boost their international expansion. VIAS’ general construction 
+business focuses primarily on major projects for railways, motorways and roads, airports, water works, coastal works 
+and ports, industrial works and urba n development, environme ntal works, buildings,  etc. have an extensive 
+experience in the construction of buildings for residential and administrative uses, and in terms of turnover and 
+profitability, it is one of Spain's' l argest construction firms.  In the project VIAS will focus on the preparation of 
+façade 3D printing requirements, last generation materials selection, the 3d printing system validation and product 
+exploitation. 
+Role of associated partners 
+INPERSO features three partners from Switzerland, an associated country, represented by SUPSI, IWIN and EPFL. 
+SUPSI and IWIN are committed to the commercialisation of the solar window, which is a product very compatible 
+with the INPERSO approach, as it can be integrated in a wide variety of frames, addressing the heritage requirement 
+in a unique way. EPFL is focusing in IEQ, which is a crucial part of the project, but the differentiating factor is the 
+inclusive and affordable approach, that is at the core of the INPERSO project. Moreover, all three partners have 
+established collaborations with Cantonal Organisations in Lausanne and Geneva, aimed at replicating field trials.  
+20. SUPSI (CH) is s one of the nine professional universities recognised by the Swiss Confederation. Their Institute 
+for Applied Sus tainability to the Built Environment (ISAAC)  covers the research areas associated with renewable 
+energies, the rational use of energy, the refurbishment and maintenance of buildings and also energy planning at the 
+regional and local levels. SUPSI will support iWin with their system development. SUPSI will support the product 
+technology development throug the identification of user needs and archtypes defini tion in which the photovoltaic 
+windows and BIPV element could be integrated and installed. SUPSI will support the validation and development 
+products and systems (iWin and METSOLAR) and TRL enhancement through the definition of specific quality and 
+testing plan needed in relation to LVD (low voltage directive) and CPR (construction pr oduct regulation). The  
+performance validation of the innovative window, defined on TRL5-6 i-Win functional prototypes, will be tested at 
+SUPSI PVlab (according to IEC PV -related standards, by assessing the product quality before the implementation 
+into the demo-site in WPXX. The relevant façade typologies identified in WPYY will be taken into account in relation 
+to the architectural integration scenarios. Moreover, the technology will be subjected to some extended performance-
+based tests, in relation to mechanical and electrical safety, by adapting the test set-up to BIPV combined requirements 
+for the product typology. SUPSI will support the manu facturing process by providing all the needed specifications 
+in order to ensure representative samples/prototypes. The functional product prototypes, mounting instructions, etc. 
+will be provided by i-Win and METSOLAR. 
+21. iWin – innovative Windows Sagl (CH) is a privately held company founded in 2019 as a start-up of University 
+of Applied Sciences and Arts of Southern Switzerland (SUPSI) . iWin have a strong domain expertise integrating 
+photovoltaics into custom building integrated photovoltaic (BIPV) solutions. iWin’s pioneering solution applies 
+photovoltaic blinds inside insulated glass unit and responds to the unique challenge and market opportunities in 
+transforming conventional and existing buildings into smart infrastructures by offering renewable energy production, 
+HORIZON-CL4-2021-TWIN-TRANSITION-01-21   
+  Page 70/70 
+solar protection and glare and solar heat gain control in a single construction element.  iWin has developed a novel 
+photovoltaic wi ndow and equally unique manufacturing processes to proof the concept of the technology. Key 
+success has included achieving a technology readiness level TRL 5-6 using copper indium–gallium selenide (CIGS) 
+solar cells. This latest result and its potential has been unprecedented. IN INPERSO iWIN will further advance their 
+system as part of the Retrofit Kit to reach a TRL8 market ready product. 
+22. EPFL The École polytechnique fédérale de Lausanne (EPFL) is a research and innovation institute and university 
+in Lausanne, Switzerland, that specializes in natural sciences and engineering. It is one of the two Swiss Federal 
+Institutes of Technology, and it has three main missions: education, research and technology transfer at the highest 
+international level. EPFL is widely regarded as a world leading university. The QS World University Rankings ranks 
+EPFL 12th in the world across all fields in their 2017/2018 ranking, and 14th in 2021; whilst Times Higher Education 
+World University Rankings ranks EPFL as the world's 11th best school for Engineering and Technology.The Human-
+Oriented Built Environment Lab (HOBEL) is the research laboratory of Dr. Dusan Licina, whose focus is centered 
+on advancing the knowledge of the intersections between people and the built environment with an aim to ensure 
+high indoor environmental quality for building occupants. The key mission of HOBEL is to improve the knowledge 
+in the domains of indoor air quality, advanced ventilation systems and controls, tools and methods for enhanced  
+building environmental monitoring, thermal comfort of humans and their behavior. The HOBEL has contributed to 
+activities of organizations such as International Society for Indoor Air Quality and Climate (ISIAQ), American 
+Society of Heating, Refrigerating and Air -Conditioning Engineers (ASHRAE), World Green Building Council, 
+International WELL Building Institute, and has been collaborating with corpo rations such as Honeywell, Velux, 
+Estia, WindowMaster and others. 
+This proposal version was submitted by Carlos Bernad on 19/10/2021 15:46:24 Brussels Local Time. Issued by the Funding & Tenders Portal Submission System.
+ 
+ 
+Commission européenne/Europese Commissie, 1049 Bruxelles/Brussel, BELGIQUE/BELGIË - Tel. +32 22991111 
+ 
+ 
+  
+ 
+This electronic receipt is a digitally signed version of the document submitted by your 
+organisation. Both the content of the document and a set of metadata have been digitally 
+sealed. 
+This digital signature mechanism, using a public -private key pair mechanism, uniquely 
+binds this eReceipt to the modules of the Funding & Tenders Portal of the European 
+Commission, to the transaction for which it was generated and ensures its full integr ity. 
+Therefore a complete digitally signed trail of the transaction is available both for your 
+organisation and for the issuer of the eReceipt. 
+Any attempt to modify the content will lead to a break of the integrity of the electronic 
+signature, which can b e verified at any time by clicking on the eReceipt validation 
+symbol. 
+More info about eReceipts can be found in the FAQ page of the Funding & Tenders 
+Portal.  
+(https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/support/faq)

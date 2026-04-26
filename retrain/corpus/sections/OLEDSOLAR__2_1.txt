@@ -1,0 +1,450 @@
+2.1 Expected impacts  
+Project contribution to the expected impacts:  
+IMPACT 1: 15% yield improvement because of the introduction of new sensor equipment, related metrology 
+and automatic non-destructive control:  
+The proposed processes in OLEDSOLAR including (1) optimised, enhanced and scaled up manufacturing processes 
+for OLEDs, OPVs and CIGs targeted at high yield, low cost produc tion, (2) Development of methodology for the 
+automatization of the opto -electrical characterization of solar cells and OLEDs , (3) Optimisation of  inspection  
+methods (hardware and software) for in -line monitoring, inspection and quality control in R2R envi ronment for 
+(CIGS and organic) solar cells & OLED displays ,(4)Development of an hybrid measurement optical module 
+(Photoluminescence, optical diffraction, Raman spectroscopy, Spectroscopic ellipsometry) and  (5) automated 
+manufacturing process and enhanced  machine learning defect analysis being developed in project will not only 
+increase the yield of production by efficient production process but also will increase product lifetime, efficiency and 
+performance of opto-electronic devices. 
+In summary Production yield improvement factors and relevant OLEDSOLAR proposed solutions are summarised 
+below: Table 5: Impact on production yield and OLEDSOLAR relevance 
+Production Yield Criteria of OLEDs, OPVs and 
+CIGs (Process yield × Product yield) 
+OLEDSOLAR proposed solution and Impact on Yield 
+(>15%) 
+Process Yield 
+ Deposition quality (thickness, composition, 
+uniformity)  
+ Encapsulation quality 
+ Thickness and linewidth 
+ Manufacturing quality and uniformity of 
+layers 
+ Glass Cleanliness 
+ Broken/Cracked panels 
+ Advance high speed, cost effective SALD and 
+PESALD deposition processes resulting in 
+efficient barrier coatings and encapsulation. 
+ Optical inspection for thickness measurement, 
+manufacturing quality analysis and layers 
+uniformity check, 
+ NDT for cracks and mechanical defects testing 
+ Photo-Luminescence testing for optical 
+performance testing 
+ 
+40 
+OLEDSOLAR  
+ Shorted Panels 
+ Planarization quality  
+ Optical performance 
+Product Yield: 
+ Mechanical defects 
+ Back-End module assembly 
+ Electrical connections quality  
+ Efficacy 
+ Lifetime 
+ 
+ Functional testing and printing quality testing and 
+measurements, 
+ AI driven machine learning based defect analysis 
+and processing software, 
+ Sensors system for automation and control of 
+manufacturing sequences. 
+ Sensor based modules performance testing 
+Automatic registration systems will reduce the number of 
+misaligned components in the start-up phase and thus 
+reduce the time when changing the component type. 
+IMPACT 2: 15%-time reduction for reconfiguration of key process tools in a production line due to change of 
+type of component : OLEDSOLAR proposed solution will involve intelligent decision management software 
+enabled by AI that will fed devices requirements into production process in fast and effective way to allow adjustment 
+of inspection and manufacturing steps sequence. Further, automated material handling and manufacturing equipment 
+being optimised in OLEDSOLAR e.g. Click and Coat system being developed by Coatema for opto -electronic 
+devices manufacturing has the po tential to allow process reconfiguration time reduction by 40%. This will allow 
+industrial partners to customise their products and run different components batches in effective way without 
+production downtime. 
+Table 6: Impact relevance to OLEDSOLAR project 
+Process Reconfiguration Requirements based on 
+devices changing specification 
+OLEDSOLAR proposed solution Impact (15% reduction 
+potential in process reconfiguration) 
+ Change of layers thickness 
+ Requirements of customisation 
+ Adaptability of process 
+ Demand based processing tooling 
+ Intelligent resource efficient production 
+route 
+ High speed processes and inspection 
+ Low defect rates 
+ Low tooling maintenance 
+ High uptime of equipment 
+ Less processing steps 
+OLEDSOLAR proposed solution involve intelligent decision 
+management software capable of planning production plan for 
+set of b atches of opto -electronic components. Based on 
+requirements tooling and setups can be devised and reduced 
+depending upon need and process can be reconfigured quickly. 
+Tooling for deposition, automation in production line and 
+sensor enabled monitoring will allow faster and productive 
+manufacturing. 
+In-line inspection will reduce offline quality testing,  post 
+treatment and pre-treatment setups. 
+Automated Click and Coat system for OLEDs and solar cells 
+manufacturing 
+IMPACT 3: A tangible part (> 10%) of the production cost of the parts should originate from recycled 
+products and materials: 
+Development of green-solvent-processable OPVs in terms of design considerations, material application and solvent 
+selection; Fabrication of efficient organic solar cell utilizing scalable deposition methods using halogen-free solvents. 
+OLEDSOLAR project propose and compare recycling techniques for opto-electronic parts and will devise repair and 
+re-use strategies allowing recycling of more than 98% of discarded devices and components resulting in more than 
+10% of production cost covered through recycling into the production line . Material challenges will be addressed, 
+and halogen free options will be considered to reduce waste material. 
+ASPF, SOLIBRO AND INURU has strategic objective of reducing production waste and developing resource 
+efficient product development strategy. 
+Impact on Project End Users:  
+The topic relevant impact on project end users and on their devices/ production lines is detailed below: 
+Table 7: Impact of OLEDSOLAR on End users 
+ End Users Relevant Impact on their production and devices manufacturing through OLEDSOLAR 
+ASPF 
+(for OPVs) 
+IMPACT 1-Current production yield of ASPF for OPVs is 85-90% which result in 10% 
+total production loss due to quality issues, absence of inline metrology and manual 
+manufacturing processes. By implementing patterning, coating, automation of processes 
+and encapsulation techniques developed in OLED SOLAR, it will result in yield 
+improvements of more than 15% for OPVs production of ASPF achieving their targeted 
+yield of >98%. 
+IMPACT 2-Laser structuring allow ASPF customisation of devices but other process e.g. 
+manual screen printing and semi -automated production line result in significant process 
+reconfiguration. The desired automated manufacturing process and AI enabled decision 
+ 
+41 
+OLEDSOLAR  
+management software being developed in OLEDSOLAR will allow process adjustments 
+as per devices need thus reducing process reconfiguration time by more than 15%. 
+IMPACT 3- ASPF losses 5-10% of total production cost due to faulty parts and devices 
+manufacturing and requires printed silver in OPVs to be recycled. OLEDSOLAR 
+proposed processes will allow to recycle and re -use more than 98% of parts into the 
+production line resulting  in production cost being covered through recycled parts and 
+materials by 10%. 
+Solibro 
+(for CIGs) 
+IMPACT 1- Solibro is working into developing new materials-based CIGs as well beside 
+traditional material layers, this requires inline metrology to achieve h igh yield and 
+production efficiency of manufactured solar cells. OLEDSOLAR proposed photo -
+luminescence, spectroscopic techniques and NDT techniques will help Solibro to achieve 
+high yields improvement (>15%) 
+IMPACT 2 - Automated system and intelligent sof tware will help Solibro’ s current 
+production setup to adjust processes as per devices need and demand resulting in more 
+than 15% reduction of process reconfiguration. 
+IMPACT 3 - Solibro’ s target is to achieve 100% recycling or repair process in their 
+production line, the developed processes in OLEDSOLAR will support CIGs defected 
+devices recycling and generation of more than 10% of production cost through recycling 
+and re-use saving resulting in production efficiency and operating cost. 
+DTF  
+(for thin films) 
+IMPACT 1- Current production yield is 50% for their films, due to failure in meeting 
+specification resulting production losses and complaints. By implementing inline 
+metrology system as proposed in OLEDSOLAR this issue will increase yield by more 
+than 15% for film manufacturing to achieve their targeted production yield of >65%. 
+IMPACT 2- Average time for process reconfiguration for DTF is 1 day, the configuration 
+can be done quickly depending upon quality aspects of films if monitored accurately, thus 
+there is a potential of reducing it by more than 15% through inline metrology, automation, 
+barrier film qualification and defect recognition software proposed in OLEDSOLAR. 
+IMPACT 3- Due to waste DTF loss 4500 euros/10.000m2 on films, as currently, the film 
+quality is compromised frequently due to lack of quality inspection system inline capable 
+to analyse faults, OLEDSOLAR proposed inline metrology will enable DTF to achieve 
+their targeted more than 90% recycling of films resulting in creating more than 10% of 
+production cost through recycling and re-use. 
+INURU 
+(for OLEDs) 
+IMPACT 1 -Current production yield is 90% with a need to achieve more than 95% 
+production yield. OLEDSOLAR proposed solution will allow the to enhance their yield 
+through improved inkjet process, improved barrier foils and inline metrology resulting in 
+achieving their targeted production yield and reduction of cost per device. 
+IMPACT 2 - Due to various application and type of OLED devices INURU is 
+manufacturing in their production line, significant time is spent in process reconfiguration 
+as per devices need and specification. The automated tool kit including intra equipment 
+automation and Ai based decision management software reading devices requirement will 
+select and run process automatically resulting in process adaption and reduction of process 
+reconfiguration time by 15%.  
+IMPACT 3- Due to high value devices, INURU wants to recycle and re -use 100% of 
+faulty parts through improved recycling techniques and repair procedures. OLEDSOLAR 
+proposed solution of recycling will enable OLED devices to achieve their target and 
+generate more than 10% of production cost through recycling. 
+Project outcome and contributing factors to achieve targeted impact figures: 
+Impact factor on scale of 1-5 is considered for every outcome: 
+Table 8: Impact Matrix with expected impact and project objectives 
+OLEDSOLAR Project Outcome Impact 1 Impact 2 Impact 3 
+Adaptive material handling system (Objective 1) 2 5  
+Optimised printing process for solar cells (Objective 2) 4   
+Deposition processes (Objective 3,4,5) 5   
+Automated lamination and coating 
+processes,(Objective 6) 
+3 5  
+ 
+42 
+OLEDSOLAR  
+Optimised manufacturing process and validation of 
+barrier films (Objective 7,11) 
+4   
+Optimised inline hybrid inspection system (Objective 
+8,10) 
+5 3 3 
+Optimised in-line NDT testing (Objective 9) 3 2 3 
+Functional testing and measurements (Objective 12,13) 3 2 2 
+Machine learning based inspection data processing and 
+automated defect detection software(Objective 14)  
+5 4  
+Sensor-based network for automation and monitoring 
+(Objective 15) 
+4 5  
+Intelligent AI based decision management and control 
+software (Objective 16) 
+4 5 3 
+Scalable recycling solution including pre-treatment 
+strategy, sorting and re-use strategies(Objective 17) 
+2  5 
+Repair and re-use strategies (Objective 18) 2  5 
+Total Impact 
+(Cumulatively the 
+impact figures will be 
+higher because of 
+interlinked objectives 
+and impacts) 
+Minimum Improvements >15% Yield 
+improvement 
+>15% process 
+reconfiguration 
+time reduction 
+>10% the 
+production cost of 
+the parts from 
+recycled products 
+and materials 
+Cumulative improvements 
+ 
+>40% Yield 
+improvement 
+>25% process 
+reconfiguration 
+time reduction 
+>20% the 
+production cost of 
+the parts from 
+recycled products 
+and materials 
+Enhancing Innovation Capacity: 
+The main value proposition of the OLEDSOLAR is based on the possibility to manufacture personalized and 
+customized, flexible, more functional materials opto -electrical products e.g. OLEDs,  CIGs and OPVs for different 
+application using efficient, adaptive and cost -effective manufacturing processes and quality testing techniques. 
+Improved manufacturing processes and 
+inline of the manufacturing process 
+will improve the yield and reduce the 
+final cost of the products. The stake i s 
+major for Europe: relocate some tech 
+industries by decreasing the production 
+cost of high-performance components.  
+The OLEDSOLAR project will be 
+focused on innovating critical 
+manufacturing processes along with 
+advanced inline quality control and 
+NDT sys tems development for 
+production of efficient optoelectronics 
+parts, which will be a major 
+opportunity for European SMEs and 
+industries to acquire high yield and less 
+costly production processes. Allowing 
+the possibility for companies of all 
+sizes to develo p and fabricate high -
+performance opto-electronics products 
+at low cost with a high reproducibility 
+and reliability will lead to many 
+innovations in Europe. 
+The OLEDSOLAR technology will 
+allow production of individual or small 
+series opto -electronics parts with a 
+simplified and shorter supply chain. This 
+would be a major benefit for SMEs to slot into a value chain currently locked by big companies. By reducing the 
+Figure 49 Project scope and application 
+ 
+43 
+OLEDSOLAR  
+number of operations, simpl ifying manufacturing process and its control, and reducing the number of appliances 
+required to manufacture and inspect opto -electronic product with the right features, we will be able to spread the 
+technology at table-top level for the European companies. 
+The methodologies developed in the OLEDSOLAR project in terms of manufacturing, quality assurance & control 
+will strongly improve the quality, the reliability and the cost 
+of the products which is essential for a successful 
+implementation of the OLEDSOLAR technologies. 
+Creation of market opportunities, strengthening of 
+competitiveness and growth of companies: 
+OLEDSOLAR solution will enable high quality 
+manufacturing of OLED devices that have numerous existing 
+and emerging applications as depicted in figure  . The 
+outcome of this project will enable further, adaption and 
+feasible cost effective production of rigid and flexible 
+OLEDs for various application: 
+Some of the market application of OLEDs with market share 
+is depicted below. 
+OLED market is expected to be valued at 40 Billion euros by 2023, growing at a CAGR of 15.2% between 2017 
+and 2023 42. Commercialisation and exploitation of proposed production systems in OLEDSOLAR will allow 
+involved partners to capture market share in potentially emerging market. Considering the fact that OLEDSOLAR is 
+aligned to address market success factors for successful commercialisation as depicted in figure  below: 
+ 
+ 
+Figure 51 OLEDs market success factors and how OLEDSOALR addressing those factors  
+INURU being end user and manufacturer of 
+OLEDs will be able to improve its processes 
+and develop better OLED product enabling 
+them to enhance their sales through 
+reduction in cost of manufactured devices 
+and extension in lifetime and efficiency. 
+Solar Cell Technology:  Further, in solar 
+cells technology including thin film and 
+organic solar cells , the demand of such 
+application is increasing due to need of 
+creation of eletricity through renewable 
+sources. The figure below shows the demand 
+and supply situation and emerging 
+efficiencies of potential solar cell 
+technologies .e.g. CIGs. 
+The development of inline metrology and optimized manufacturing processes of OLEDSOLAR will enable to 
+achieve higher efficiencies in solar cell, Solibro (End user in OLEDSOLAR consortium) has broken efficiency 
+records – double glass CIGS solar modules at 18.72 percent and sputtering CIGS solar modules on flexible substrate 
+at 17.88 percent . Their issues related to metrology, absorber layers and induction of new material in their cell 
+                                                 
+42 https://www.marketsandmarkets.com/PressReleases/global-OLED-market.asp 
+OLEDSOLAR addressing those factors: 
+ OLEDSOLAR proposed activities will help 
+to reduce cost of production resulting in 
+highly efficient, durable and light weight 
+devices. 
+ Dedicated WP7 activities will disseminate 
+the project thus raising awareness of 
+developed technology and adoption, 
+ Recycling and re-use activities proposed 
+will result in environmental friendly 
+product development, 
+ 
+ 
+Figure 50 OLED applications 
+Figure 52 Solar cells potential (Source: IEA solar PV roadmap) 
+ 
+44 
+OLEDSOLAR  
+technology requires inline advanced metrology systems as proposed in OLED SOLAR to achieve even higher 
+efficiencies in solar cells. Further, CIGS market share is expected to exceed 6 billion euros by 202443. Which presents 
+an opportunity for exploitation of OLEDSOLAR solution to emerging industry where, EU can create a competitive 
+position. 
+Moreover, Organic Photovoltaics (OPV) market is expected to reach €350 million by 202144. The specific printing 
+processes, automation , inspection and quality control and packaging techniques proposed in OLEDSOLAR will 
+enable high efficiency pro duction of OPVs and will enable ASPF (end user in project and OPVs manufacturer) to 
+improve their devices  by product diversification , production cost reduction and customisation. 
+One of the most emerging application of solar cells is in the Building-integrated photovoltaics (BIPV). According to 
+market report BIPV technologies will grow from $2.4 billion in 2016 to $4.3 billion by 2021 with a compound annual 
+growth rate (CAGR) of 12.2% for the period of 2016-202145.  
+This presents a potential opportunity allowing solar cell manufacturing partners in OLEDSOLAR  (ASPF, Solibro) 
+and V industry in EU to diversify products and exploit benefits of OLEDSOLAR solution enabling high yield, high 
+efficiency and low cost manufcaturing of solar cells.  The proposed solut ion will also enable commercialisation 
+partner(SMIT TS,IRIS,COATEMA,ADVENT) to capture potential OPVs production and inspection systems market 
+share. 
+The market opportunity shows significant potential of OLEDSOLAR solution in manufacturing high value products 
+and devices in cost effective and productive way resulting in increasing capacity, innovation potential and economic 
+benefit for companies and partners involved in the value chain. 
+Financial projection of sales of OLEDSOLAR systems: 
+OLEDSOLAR systems will be further, scaled up post project and as forecasted below in 5 years of commercialisation 
+will generate economical returns for the consortium. OLEDSOLAR commercialisation will generate 117 million 
+euros in revenues, with 52 million euros in gross profits within 5 years considering profit margin of 45%. Return of 
+investment (ROI) on EC investment will be 5:1. 
+Table 9: Financial projection of OLEDSOLAR 
+Years 2026 2027 2028 2029 2030 Total 
+Year 1 Year 2  Year 3 Year 4 Year 5   
+OLEDSOLAR Systems Price (€) approx.  1,560,000  1,560,000  1,560,000   1,560,000  1,560,000    
+Deposition Equipment (€) 1,000,000  1,000,000  1,000,000    1,000,000   1,000,000    
+Inline hybrid Inspection System (€)  150,000   150,000   150,000  150,000   150,000    
+Inline NDT systems (€)  100,000  100,000   100,000   100,000  100,000    
+Automation hardware and sensor kit (€)  50,000   50,000   50,000   50,000   50,000    
+Software license (€) 10,000  10,000   10,000   10,000   10,000    
+Printing and coating equipment (€) 250,000  250,000   250,000    250,000   250,000    
+Targeted Market Share 0.50% 1% 1.50% 2.00% 2.50%   
+Targeted number of sales 5 10 15 20 25 75 
+Sales (million €) 7 15 23 31 39 117 
+Profit Margin 45% 45% 45% 45% 45%   
+Gross Profit (million €) 3 7 10 14 17 52  
+Jobs created in consortium (/100k profit) 35 70 105 140 176 527 
+Forecast of Revenue, Profit and Jobs creation and growth post commercialisation of OLEDSOLAR 
+                                                 
+43 https://www.gminsights.com/industry-analysis/thin-film-solar-cells-market 
+44 http://www.marketresearchstore.com/report/global-organic-photovoltaics-opv-market-rport-2017-154896 
+45https://www.bccresearch.com/market-research/energy-and-resources/building-integrated-photovoltaics-markets-report-
+egy072C.html 
+ 
+45 
+OLEDSOLAR  
+ 
+Social Impact (Healthier work environment): OLEDSOLAR solution will enable less potential safety risks in the 
+factory floor due to a reduced need for human interventions. Human interventions are risky, as injuries may occur 
+when a machine stops. Less human involvement in the shop floor, means less e xposure to a harmful environment. 
+Less creation and handling of waste also contributes to a safer and healthier workplace. 
+EU Competitiveness and SMEs: 
+Taking into consideration the global aspects and specificity of the companies. OLEDSOLAR project  aims to  
+Strengthen the Competitiveness and Growth of Companies  through developed Innovative developments also 
+addressing and meeting the needs of EU and global consumer Markets providing a competitive advantage to Europe. 
+The impact on the competitiveness of all the manufacturing industry will be important since there are other sectors 
+with similar circumstances and using similar manufacturing processes and inspection systems. So , at the end the 
+impact will spread to the manufacturers of opto-electronic products. 
+ Barriers/Obstacles and framework conditions: 
+Table 10: Barriers to effect impact achievement 
+Barriers/Obstacles, framework 
+conditions 
+Effect on achievement of the 
+OLEDSOLAR Impacts 
+OLEDSOLAR measures to address 
+Negative Impact factors 
+High costs of innovation activity, 
+the lack of an appropriate source 
+of finance and perceived excessive 
+commercial risks are recognized 
+barriers for every solution. 
+OLEDSOLAR project market 
+penetration will get effected in 
+short term 
+Overcoming these limits by developin g 
+a more effective and efficient 
+technological solution both in terms of 
+quality, resource efficiency and energy 
+consumption, with a high coefficient of 
+market exportability and replicability. 
+OLEDSOLAR solution can be 
+characterised/ adapted according to 
+industrial/market need and the price 
+customers are willing to pay. 
+OLEDSOLAR system is highly 
+innovative and diverse and often 
+production methods are based 
+upon experience rather than 
+technology. 
+Initial inertia to adapt the system 
+in production line. 
+Low cost, high speed and high reliability 
+manufacturing and inspection system 
+will attract end users to adapt the 
+OLEDSOLAR system in production 
+operations. 
+Certification, standards and safety 
+regulations on factory floors and 
+production facilities 
+Can be exp ensive and time 
+consuming and decrease the 
+extent of industrial exploitation. 
+OLEDSOLAR proposed system from 
+design to scale up phase is being 
+developed considering standards, 
+regulations and any certification that 
+maybe required. OLEDSOLAR project 
+will feed standards of factory and 
+workers safety as well as opto-electrical 
+devices process architecture.

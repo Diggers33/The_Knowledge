@@ -1,0 +1,266 @@
+4. Personal Data Page
+Does this activity involve processing of personal data? Yes No
+Does this activity involve further processing of previously collected personal data (including 
+use of preexisting data sets or sources, merging existing data sets)?
+Yes No
+Is it planned to export personal data from the EU to non-EU countries? Specify the type of 
+personal data and countries involved
+Yes No
+Is it planned to import personal data from non-EU countries into the EU or from a non-EU 
+country to another non-EU country? Specify the type of personal data and countries involved
+Yes No
+Does this activity involve the processing of personal data related to criminal convictions or 
+offences?
+Yes No
+5. Animals Page
+Does this activity involve animals? Yes No
+6. Non-EU Countries Page
+Will some of the activities be carried out in non-EU countries? Yes No
+In case non-UE countries are involved, do the activities undertaken in these countries raise 
+potential ethics issues? Yes No
+It is planned to use local resources (e.g. animal and/or human tissue samples, genetic material, 
+live animals, human remains, materials of historical value, endangered fauna or flora samples,
+etc.)? 
+Yes No
+Is it planned to import any material (other than data) from non-EU countries into the EU or 
+from a non-EU country to another non-EU country? For data imports, see section 4. Yes No
+Is it planned to export any material (other than data) from the EU to non-EU countries? For 
+data exports, see section 4. Yes No
+Does this activity involve low and/or lower middle income countries, (if yes, detail the benefit-
+sharing actions planned in the self-assessment) Yes No
+Could the situation in the country put the individuals taking part in the activity at risk? Yes No
+7. Environment, Health and Safety Page
+Administrative forms
+Page 134 of 136
+Proposal ID 101057765
+Acronym GREEN-LOOP
+Horizon Europe ver 1.00 20210901 Last saved 23/09/2021 21:50
+Does this activity involve the use of substances or processes that may cause harm to the 
+environment, to animals or plants.(during the implementation of the activity or further to the 
+use of the results, as a possible impact) ?
+Yes No
+Does this activity deal with endangered fauna and/or flora / protected areas? Yes No
+Does this activity involve the use of substances or processes that may cause harm to humans, 
+including  those performing the activity.(during the implementation of the activity or further 
+to the use of the results, as a possible impact) ?
+Yes No
+8. Artificial Intelligence Page
+Does this activity involve the development, deployment and/or use of Artificial Intelligence? (if 
+yes, detail in the self-assessment whether that could raise ethical concerns related to human 
+rights and values and detail how this will be addressed).
+Yes No 17
+9. Other Ethics Issues Page
+Are there any other ethics issues that should be taken into consideration? Yes No
+I confirm that I have taken into account all ethics issues above and that, if any ethics issues apply, I will complete the 
+ethics self-assessment as described in the guidelines How to Complete your Ethics Self-Assessment
+Administrative forms
+Page 135 of 136
+Proposal ID 101057765
+Acronym GREEN-LOOP
+Horizon Europe ver 1.00 20210901 Last saved 23/09/2021 21:50
+Ethics Self-Assessment
+Ethical dimension of the objectives, methodology and likely impact
+To guarantee a trustworthy AI, GREEN-LOOP dedicates special attention to each pilar and apply a human-centric during the 
+development of the AI.  Following the guidelines presented by the EU commission, in T2.6, where the specifications of the models are 
+defined, will also be included the technical specifications to develop a robust AI: human agency and oversight, technical robustness 
+and safety, privacy and data governance, transparency and accountability. On the other side, the ethical and lawful pillars will be 
+addressed in T7.3 by innovation and AI experts. Concerning the ethic, it will be constantly monitored that the four main principles 
+(respect for human autonomy, prevention of harm, fairness and explicability) are fulfilled. Regarding the laws, in the first place, there 
+will be identified the appliable to GREEN-LOOP, following will subsequently be checked for compliance during the whole 
+development.  Ensuring these three pillars will prevent and minimise the risks of the AI, consequently maximising the benefits 
+offered by AI systems during all its life cycle.
+Remaining characters 3917
+Compliance with ethical principles and relevant legislations
+In recent years AI projects and applications have increased exponentially, becoming one of the top strategic priorities.  Around 50% 
+of the companies are increasing their usage of AI and the dedicated budget; moreover, 52% got at least one-use case applying AI . 
+This tendency has also been reflected in European programs (FP7, H2020 and Green Deal). Nevertheless, besides the high potential of 
+AI, there are also risks, such as privacy, widening socio-economic inequality, malicious use and jobs opportunity decrement, among 
+others . Hence is crucial to assure its proper use having in mind its trustworthiness, as recently stated by the European Commission in 
+the Ethics Guidelines for Trustworthy AI . Following the guideline, the trustworthiness of the AI is based on three pillars. The AI must 
+be lawful, ensuring compliance with all applicable laws and regulations; ethical, providing faithfulness to ethical principles and 
+values; and robust, both from technical and social. 
+Remaining characters 4018
+Administrative forms
+Page 136 of 136
+Proposal ID 101057765
+Acronym GREEN-LOOP
+Horizon Europe ver 1.00 20210901 Last saved 23/09/2021 21:50
+Security issues table
+1. EU Classified Information (EUCI)2 Page
+Does this activity involve information and/or materials requiring protection against 
+unauthorised disclosure (EUCI)? Yes No
+Does this activity involve non-EU countries? Yes No
+2. Misuse Page
+Does this activity have the potential for misuse of results? Yes No
+3. Other Security Issues Page
+Does this activity involve information and/or materials subject to national security restrictions? 
+If yes, please specify: (Maximum number of characters allowed: 1000)
+Yes No
+Are there any other security issues that should be taken into consideration? 
+If yes, please specify: (Maximum number of characters allowed: 1000)
+Yes No
+2According to the Commission Decision (EU, Euratom) 2015/444 of 13 March 2015 on the security rules for protecting EU classified information, “European Union 
+classified information (EUCI) means any information or material designated by an EU security classification, the unauthorised disclosure of which could cause varying 
+degrees of prejudice to the interests of the European Union or of one or more of the Member States”. 
+3Classified background information is information that is already classified by a country and/or international organisation and/or the EU and is going to be used by the 
+project. In this case, the project must have in advance the authorisation from the originator of the classified information, which is the entity (EU institution, EU Member 
+State, third state or international organisation) under whose authority the classified information has been generated. 
+4EU classified foreground information is information (documents/deliverables/materials) planned to be generated by the project and that needs to be protected from 
+unauthorised disclosure. The originator of the EUCI generated by the project is the European Commission.
+HORIZON-CL4-2021-TWIN-TRANSITION-01-05    Manufacturing technologies for bio-based materials 
+   Sustainable manufacture systems towards novel bio-based materials  Page 1 of 45 
+ 
+          Sustainable manufacture systems towards novel bio-based materials 
+ 
+Participant No. Participant Organization Name Participant  
+Acronym Country 
+1 (Coordinator) IDENER RESEARCH & DEVELOPMENT IDE ES 
+2 NATIONAL COMPOSITE CENTER NCC UK 
+3 NATIONAL INSTITUTE OF CHEMISTRY NIC SI 
+4 UNIVERSITY OF BRISTOL UBRIS UK 
+5 SLOVENIAN NATIONAL BUILDING AND CIVIL E. I. ZAG SI 
+6 (Technical 
+Coordinator) 
+FRAUNHOFER GESELLSCHAFT ZUR FOERDERUNG DER 
+ANGEWANDTEN FORSCHUNG E.V FHF DE 
+7 LABRENTA SRL LBRT IT 
+8 MIXCYCLING SRL MYX IT 
+9 NERO SU BIANCO NSB IT 
+10 GERACE MARIA CRISTINA - TERRE DI ZOE’ TDZ IT 
+11 IRIS TECHNOLOGY SOLUTIONS, SOCIEDAD LIMITADA IRIS ES 
+12 GLOWNY INSTYTUT GORNICTWA GIG PL 
+13 AACHEN UNIVERISTY: PROCESS CONTROL ENGINEERING AAU DE AACHEN UNIVERISTY: INSTITUTE OF SOCIOLOGY 
+14 AUSTRIAN STANDARDS INTERNATIONAL ASI AT 
+15 INSTITUTO DE SOLDADURA E QUALIDADE ISQ PT 
+16 AXIA INNOVATION UG AXIA DE 
+17 ASOCIACIÓN DE INVESTIGACIÓN METALÚRGICA DEL 
+NOROESTE AIMEN ES 
+Brief Summary of the proposal  
+GREEN-LOOP addresses novel  bio-based materials 
+solutions, tackling the problem from a circular-business 
+thinking perspective, which will enable overcoming the 
+barrier for new manufacture tools, energy efficiency 
+improvements and sustainable value chains. The main goal 
+of GREEN-LOOP is to design and optimise 3 innovative 
+bio-based materials and components for industrial 
+sectors: construction, packaging, food, beverage, 
+appliances and tooling. 1) multifunctional panels rubber 
+panels with fire resistance and vibrational applications, 2) 
+bioplastic bottle closures  for oil and fruit juice, 3) wood 
+composites bearings  for plastic injection machine s. The 
+value chain of each product is optimised from raw material 
+source to End Of Life o f products, ensuring the circular 
+economy. All manufacturing lines are retrofitted to adapt 
+to the new enhanced bio compoundings using Artificial 
+Intelligence.. Ultrasound improvement is included in the 
+lignin production and rubber manufacture , and 
+Microwaves improve preheating of bioplastic on injection 
+moulding and curing of wood composites. The whole process is monitored and presented in a virtual platform that 
+includes KPI evaluation, business optimization in real time, training (webinars), and social engagement.  
+Figure 1 Graphical abstract of the proposal 
+                 
+                                                                  
+            
+         
+          
+                 
+              
+           
+                 
+                 
+                  
+                
+                     
+              
+            
+         
+          
+         
+           
+              
+                 
+                                                                  
+            
+         
+          
+                 
+              
+           
+                 
+                                       
+                            
+                                         
+           
+       
+           
+       
+           
+       
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-05    Manufacturing technologies for bio-based materials 
+   Sustainable manufacture systems towards novel bio-based materials  Page 2 of 45 
+ 
+1. Excellence  
+Background and motivation  
+There is only one planet, Earth, yet by 2050, the world will be consuming as if there were three1. Global consumption 
+of biomass, fossil fuels, metals and minerals is  expected to double in the next 40 years2, while annual waste 
+generation is projected to increase by 70% by 2050 3. This scenario is not a pessimistic vision; this is happening 
+and sadly amplified by the COVID 19 crisis. This catastrophe is not just a pandemic but a demand to change how 
+the production chain works in Europe .  The need to reduce dependencies with third  countries has been exposed 
+and strengthen European industry from the ground up. However, there is also a requirement to protect our citizens, 
+delivering products and services of the highest quality, ensuring sustainability throughout the production chain 
+(Green Manufacture). The goal is to achieve a green and 
+digital transformation based on European values  by 
+protecting, maintaining and enhancing the natural capital of 
+the E.U. Since the current linear take-use-dispose model 
+has failed , th ere is a real urgency in transforming our 
+consumer behaviour to reduce waste  and keep resources 
+longer in the value chain4. This industry transformation will 
+contribute to the Union’s climate neutrality challenge by 
+2050 and, to  some extent, to the achiev ement of the 
+Circular Economy. In this context, bio-based products will 
+be developed with green techniques to substitute 
+traditional materials with high environmental footprint. 
+As stated in the 2020 Circular Economy Action plan, a big 
+effort will be made in making sustainable products the norm 
+in the E.U., which can also contribute to the Blue Economy 
+by reducing the harmful effects of activities on the world’s  
+oceans by rethinking, reusing and recycling  materials and 
+products5. Additionally, using microwaves and ultrasounds 
+technologies ( electrification) in the production chain has 
+huge potential in efficiency, time and cost savings. These 
+technologies allow delivering the exact amount of energy to the exact physical point at a particular instant of time.  
+The challenge we face is multidisciplinary, combining efforts from very different backgrounds – Physics, 
+Engineering, Chemistry, Biology and Material Science. Interdisciplinary actions will contribute to the expectation 
+of optimising and improving smart m anufacturing processes, unlocking the full potential of bio -based materials. 
+Furthermore, GREEN -LOOP will develop and optimise sustainable business models for materials sourcing and 
+recycling, so the economy will also be involved. Developing these technologies is not the only thing that matters, but 
+also to ensure that personnel in the industry are qualified to apply them. Therefore, training will be developed in all 
+stages of the process, ensuring that the most appropriate transfer of knowledge is achieved for each task involved. 
+Consequently, a very positive social impact will be achieved to enable society to adapt to the changes  here 
+proposed. In addition, s tandardisation activities of bio -based materials, adapted characterisation methods , and 
+quality controls will be addressed and performed . There will be three different bio -products to demonstrate the 
+concept and accomplish the following criteria:  
+ 
+A) Sustainability and circularity by design in all stages 
+of production, consumption, and use. 
+B) Manufacture transformation to green and smart 
+factories.  
+C) Electrification of manufacture through microwaves 
+and ultrasounds enhancement. 
+D) 3 final users and replicability activities to ensure the 
+spread of project results after its end.  
+ 
+1 Sustainable Development Goals . Unitied Nations.  [accessed on May 
+2021] 
+2 OECD (2019), Global Material Resources Outlook to 2060. 
+3 A Global Snapshot of Solid Waste Management to 2050. World Bank. 
+2018. 
+4 Lerwen Liu,et al. An Introduction to Circular Economy. Belgium: 
+Springer. 2020 
+5 Sustainability criteria for the blue economy. European Commission, 
+2021. 
+Figure 2. Actions to enhance European manufacture. 
+
+HORIZON-CL4-2021-TWIN-TRANSITION-01-05    Manufacturing technologies for bio-based materials 
+   Sustainable manufacture systems towards novel bio-based materials  Page 3 of 45

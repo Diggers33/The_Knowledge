@@ -1,0 +1,1915 @@
+3.3 Consortium as a whole .......................................................................................................................................................30
+3.4 Resources to be committed................................................................................................................................................30 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.  
+ 
+ 
+ 
+1. Excellence 
+ 
+MoniTank Product fast track commercialisation aims at providing continuous condition monitoring system for underground 
+storage tanks applications in order to avoid risk, structural failures and losses associated to tanks leakage and corrosion. 
+ 
+The underground storage of petrol in tanks, especially in close vicinity of urban 
+and rural environment (petrol fuel station), may pose se veral risks e.g. 
+fire/explosion, environmental damage, health effects when handled by 
+individuals. Because of the large volumes of petrol used daily (only in EU >400 
+million litres) and large service stations network (>100,000 only in  EU) and 
+storage capacity surface and subsurface releases are likely to occur.1  Petrol 
+gives off highly flammable vapour even at very low temperatures. Because of 
+the flammability of pet rol vapours, serv ice sta tions carry a ri sk of fire or 
+explosion not common to other types of retail outlets. Petrol vapour is heavier 
+than air and tends to sink to the lowest possible level of its surroundings and 
+may gather in tanks, cavities, drains,  pits or other low points and will travel 
+across the ground due to gravity (down-hill) or may be carried in the direction 
+of the wind. Petrol vapours can find their way into basements of buildings and Figure 1 Fuel station explosion due to UST failure 
+public drains with serious consequences should the vapours come into contact with an ignition sour ce. If released into  the 
+environment, petrol and diesel may also pollute the soil and water supplies. Whenever petrol escapes from an underground 
+storage tank (UST) or pipelines, it can travel significant distances. 
+ 
+Leaking underground storage tanks are the most numerous sources of MTBE contamination (Fogg et al., 1998). It is estimated 
+that 10-35% of underground storage tanks in the USA are leaking or fail to pass a tightness test (Page, 1989). In one 
+survey of 3,500 tanks, only 2% of the tanks were leaking while 10% failed to pass the tightness test. However, in about 
+9% of the service stations surveyed petrol was found on the top of groundwater in close proximity to station (Page 
+report, 1989).Beside that almost 2702 accidents between 1958  to 2007 in France occurred to due to USTs failure(ARIA 
+database, Ministère de l'Ecologie, du Développement durable et de l'Energie, FR). The level of risk associated with fuel leakage 
+means early detection of leaks is essential. The very high cost of fuel also means the monetary loss caused by fuel leakage 
+should be of concern to businesses, as a 10,000 litre loss =13,500 Euros3. These problem challenges and losses create an 
+opportunity and need of continuous condition monitoring system MoniTank a system developed to address needs of monitoring 
+and inspection of underground storage tanks. SHELL operates 14000 fuel stations4  and deploy USTs in filling stations in EU 
+has shown interest in a commercial MoniTank system. 
+ 
+Consortium behind this action aims to commercialize MoniTank system (already proven at TRL6, received positive feedback 
+from potential clients) a low cost monitoring system that actively monitors the underground storage tanks(USTs) online and can 
+flag changes in condition before leakage occurs(99% Probability of detection ( POD)accuracy). It will offer an innovative 
+system for the early detection of leakages through the assessment of the structural integrity of USTs (tightness, corrosion) in 
+order to predict their maintenance using a combination of  Risk Based Assessment (RBA), continuous Structural Health 
+Monitoring (SHM) and Quantitative Risk Assessment (QRA) taking advantage of key enabling technologies of acoustic emission 
+and guided waves. The system will be meet the ASTM and BS standards of inspection and NDT and will be in full compliance to 
+the Environmental Protection Agency (EPA) mandatory UST monitoring protocols. Commercialisation of MoniTank will create 
+€24 million in revenues, €11 million in gross profits and will create 112 direct jobs within 5 years of commercialisation 
+for consortium. 
+ 
+Integrity NDT has developed the system internally with TWI and BUL and demonstrated it at Flotek tanks a commercial 
+manufacturer and supplier of underground storage tanks, the proved system at TRL6 planned to be tailored in this project as 
+per feedback of potential customers mainly filling stations in terms of ease of operation and scaled up monitoring. Consortium 
+has been established by bringing in IRIS an advance engineering SME expert in developing cloud based, IoT enabled system 
+and software to finalise a commercial version of MoniTank at TRL9, with the aim to enter market within 3 years of start of this 
+project. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1http://echa.europa.eu/documents/10162/5602401f-1d75-4931-aa77-abd37d436dc9 
+2www.aria.developpement-durable.gouv.fr, in the “Analysis andFeedback” section. 
+3Class 1 LeakDetection - The ultimate protection, PetrolPlaza Technology Corner (August 2012, Thompson Jamie) 
+4 http://www.retail-index.com/Sectors/PetrolRetailersinEurope.aspx 
+MoniTank 2 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.
+1.1 Objectives 
+ Specific Objectives: 
+Specific Objectives of MoniTank Project are as follows: 
+Table 1: Specific Objectives 
+Scale up, Testing and Demonstration Objectives 
+Specific Objectives Tasks Deliverable / Means of Verification/WP 
+MoniTank system scale up to commercial 
+version considering commercial value, 
+manufacturability and end user 
+requirements. (by Month 8)TRL 7 
+System optimisation, scaling up 
+performance, communication 
+system and signal processing 
+Scaled up hardware for commercial 
+version (Activities to be done in WP1) 
+Risk based inspection algorithm fine tuning 
+and defect recognition software with 
+updated graphical user interface(GUI) (by 
+month 10) TRL 7 
+Full integration, bug fixing and user 
+friendly GUI update 
+Fully functional integrated GUI interface 
+Software of MoniTank system ( Activities 
+to be done in WP1 & WP2) 
+Validation of MoniTank predictive 
+accuracy(Pre-Production commercial ready 
+product) (by month 24)TRL8 
+Build reporting functionality within 
+the MoniTank software, allowing for 
+bespoke as well as standard reports 
+to be produced 
+Fully functioning commercial system 
+(Activities to be done in WP2) 
+Minimisation of MoniTank’s system costs 
+and market ready MoniTank Product 
+packaged system (by month 24)TRL 9 
+Industrial testing, Site and field trials 
+and demonstrations at commercial 
+scale 
+All trials and tests completed in Flotek 
+USTs for three month and results 
+analysed (Activities to be done in WP1 & 
+2) 
+Certification of the MoniTank system(by 
+month 24)TRL 9 
+The system should obtain the CE 
+marking, ISO/IEC certification and 
+the API 581 (Plants operating 
+Standard) 
+Certification: allows MoniTank users to 
+comply with legislation and inspection 
+protocols. 
+Commercial Objectives 
+Specific Objectives Tasks Deliverable / Means of Verification/WP 
+Production of Training Manuals, User 
+Guides and Training Programmes (by month 
+18) 
+Development of full training 
+collateral to support the MoniTank 
+product usage. 
+Training Materials produced, training 
+courses developed (Activities to be done 
+in WP3) 
+Launch of online advertising campaign, 
+marketing and sales strategy 
+implementation and pre-launch clients 
+engagement (by month 24) 
+Developing online marketing 
+campaign to build audience before 
+launch, development of complete 
+sales and marketing plan before 
+and after launch of MoniTank 
+Advertising material developed, 
+campaign prepared and customers 
+engaged before launch(Activities to be 
+done in WP4 & 5) 
+Development of full commercialisation 
+roadmap and sales agents network 
+extension(by month 24) 
+Produce full commercialisation and 
+investor ready business plans. 
+Sales agent network extension and 
+product training 
+Draft and final business plans produced. 
+Commercialisation plan including pre- 
+contract agreements (Activities to be 
+done in WP4 & 5) secured) 
+Secure initial contract for sales of MoniTank 
+(by month 24) 
+Engage with Tier 1 customers 
+during the final phases of the action 
+to secure contracts for MoniTank to 
+be implemented following the 
+completion of the action 
+Engagement with Tier 1 customers 
+undertaken 
+Pre-agreements in place 
+2 sales Contracts secured 
+(Activities to be done in WP 5) 
+ 
+Project Outcome: Continuous sensor based cond ition m onitoring s ystem cap able of transmitting con dition of  underground 
+storage tanks online and on defect recognition software in hands of operators making it possible to inspect underground storage 
+tanks without need of decommissioning or downtime monitoring activity. 
+ 
+Novelty of Product: Automatic and continuous condition monitoring system based on acoustic emission and guided waves for 
+structural health assessment of underground storage tanks in petrol filling stations and oil/gas production facilities integrated 
+with digital technology of Internet of things gateways, clo ud based data collection and storage, wireless sensor network and 
+innovative risk based inspection algorithm and software for informed decision and preventive maintenance of USTs. 
+ 
+ 
+ 
+MoniTank 3 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.  
+ 
+ 
+ 
+Problems and Project relations: In Underground storage tan ks most 
+damaging leaks are likely to occur with tank failure. The mo st common 
+cause is corrosion. Most tanks are steel, which has a natural tendency to 
+corrode. Corrosion is a natural electrochemical process, and any factor in 
+the design or installation of a tank system that enhances this process can 
+result in accelerated corrosion and premature tank failure. For example, 
+corrosion may be accelerated by the following: the use of corrosive or 
+non-homogeneous backfill; the use of d issimilar m etals in the tank  or 
+piping; the pres ence of sha llow groundwater or  temporary water around 
+the tank; dam age to corrosion control coatings; and stray currents from 
+electrical power sources. Leaking USTs are one of the leading causes of 
+groundwater contamination. They pose the greatest threat in rural areas, 
+where normally 95 perc ent of the  population depe nds on well water for 
+drinking in EU. As a result, local governments, businesses, and private 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 2 UST failure contamination underground 
+citizens face substantial costs to comply with regulations covering both the tanks and potential clean-up, in case there is a 
+problem. Where the average cost for cleaning up a spill or leak is more than €70k. Detailed surveys, interviews done by 
+Integrity NDT and TWI with SHELL, TOTAL, BP, ESSO, ENI that operate majority of stations across EU and worldwide 
+has expressed an interest in MoniTank as currently, there is a lack of robust continuous condition monitoring system. 
+Table 2: Challenges vs. Proposed Solution 
+Challenges to be addressed Project solution and value innovation 
+Industrial: Increasing transportation and log istics 
+needs result in having 132k filling station only in EU 
+increasing at 3. 5% CAGR containing more  than one 
+underground storage tank at a  station will require 
+continuous monitoring system for critical fuel storage 
+tanks for performance and cost efficiency. 
+MoniTank will increase re liability and performance of  USTs at fu el 
+stations  making  them  more  secure,  and  cost  efficient  in  terms  of 
+operation and as a result of reduced cost of inspection overall by 75%. 
+MoniTank will be able to detect all struc tural faults in ta nks and will 
+transmit mon itoring data v ia sen sor network to c entral cloud ba sed 
+software  that  will  show risk  profile,  faults  and  maintenance  priority 
+areas of tanks. 
+Economical: The l evel of r isk associated with fuel 
+leakage mea ns early  detection of lea ks is e ssential. 
+The very high co st of fuel also means the monetary 
+loss caused by fuel l eakage should be of concern to 
+businesses, as a 10,000 litre loss =13,500 Euros5. 
+MoniTank will reduce c ost of inspection by 75% and will minimise the 
+chances of USTs failures un detected by more than 90% providing a 
+preventive maintenance avoiding leakages and fuel losses. 
+Social: Risk of incidents due to leakage or explosion 
+in underground storage tanks can  affect citizens on 
+fuel stations. 
+MoniTank system will enhance safety as at any time operators of fuel 
+storage tanks can see the condition of tanks and avoid any leakages or 
+failures before occurrence. 
+Legislative: EPA and e nvironmental regulatory 
+authorities m ake it mandatory to ha ve continuous 
+monitoring of duel storage tanks underground. 
+MoniTank will be in co mpliance with standards and leg islations by 
+providing 9 9% accurate probability of defect recognition more than as 
+asked by  compliance of mon itoring sy stem for USTs(98% is 
+requirement). 
+Relevance to Horizon 2020 and EU wide Impact: With three industrial companies in the consortium (Integrity NDT, IRIS, 
+FLOTEK), the MoniTank action will directly address the European need to support SME’s to innovate in the market pla ce. 
+Integrity NDT will use the MoniTank product to rap idly accelerate gro wth in the company and the introduction of furt her new 
+products, based on European IP and manufacturing in Europe. For IRIS, the action will enable access to new markets in the oil 
+and gas industry based on proven integration technology. The main beneficiaries will be European companies. Oil and gas 
+production and storage plant operators and provision of maintenance technologies are major European industries exporting 
+technology into global markets with much of the infrastructure and engineering based within Europe. Through this direct impact 
+on the European economy, the action addresses H2020 priorities of encouraging SME participation and economic growth as 
+well as priorities in securing safer, cleaner, more secure energy product supplies. MoniTank addresses the EU Societal Energy 
+Challenge, which aims at supporting “the transition to a  reliable, su stainable and co mpetitive ener gy sy stem”6. The ef fective 
+maintenance of ageing infrastructure using the MoniTank will reduce leakages and damages in storage tanks in more efficient 
+energy provision and a safer and more secure environment.  The wider European Impacts and relation to H2020 objectives are 
+summarised in Table 3. 
+ 
+ 
+ 
+ 
+ 
+ 
+5Class 1 LeakDetection - The ultimate protection, PetrolPlaza Technology Corner (August 2012, Thompson Jamie) 
+6http://ec.europa.eu/programmes/horizon2020/en/h2020-section/secure-clean-and-efficient-energy 
+MoniTank 4 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.  
+ 
+ 
+ 
+Table 3: European Impacts and Relation to H2020 Objectives 
+ 
+Employment MoniTank will create new employment opportunities (112 new jobs within 5 years) for  the 
+European consortium and those involved in inspection of UST structures in fuel stations with high 
+potential for future growth. 
+Fuel stations and 
+public safety 
+MoniTank  will  strengthen  energy  safety  by  ensuring  the  integrity  of  tank  structures,  and 
+guaranteeing supply of fuel/petrol/gas without disruptions or threats to environment, health or life. 
+Meeting increasing 
+energy demand 
+MoniTank will allow more cost effective operation of USTs with reduced inspection cost, increasing 
+available capacity and throughput. 
+Innovation Introduction of MoniTank will cement the reputation of the commercial partners in the consortium 
+for bringing to market innovative new products for this important industrial market, allowing them to 
+finance and sell further new products and services. This will reinforce the position of European 
+industry, and the strong innovation capacity of European SMEs, to bring new technologies to 
+market and remain competitive in the global market, ahead of strong competition from the US, 
+Asia Pacific and Middle East. 
+Table 4: Project solution and associated values 
+How Project outcomes solve stated 
+Problem 
+Buyers Value(End Users) Business Opportunity Sellers 
+Value (Consortium) 
+MoniTank will prov ide an automatic structural 
+monitoring platform for underground storage 
+tanks failure mon itoring which represent the 
+most number of failures in UST structures. By 
+preventive maintenance and monitoring data 
+of su ch ta nks maintenance operations will be 
+scheduled   before   failure   or   any   damage 
+occurs ultimately, enh ancing fuel stations 
+operations productivity and reliability, reducing 
+failure   risks   and   protecting   environment, 
+public and workers. 
+Tank operators will be able to 
+ Increase safety by75% 
+ Reduce downtimes and 
+maintenance cost by 60% 
+ Reduce Failure Risks by 90% 
+ Significant improvement in 
+USTs maintenance compliance 
+ 90% reduction in inspection time 
+MoniTank commercialisation will 
+create for consortium €24 million 
+revenues; generating €11 million 
+gross profits and creating 112 
+jobs over 5 years post action 
+completion.
+1.2 Relation to the work programme 
+Relation to topic of the developed commercial product is as follows: 
+Table 5: Topic expectation vs. Project relevance 
+Topic: Fast Track to Innovation of the Work Programme 
+Topic Expectation How Project addresses the stated expectations 
+Technological innovation 
+starting at least at TRL 6 
+MoniTank prototype has  already been developed, tested, vali dated and demonstrated in a 
+relevant en vironment on a ctual undergro und storage ta nks. This work has been under taken 
+through investment allocated by private and public sources The system’s performance proved 
+the high business potential and prompted us to follow through with additional investment in 
+order to fully commercialise it. 
+Relation to "Leadership in 
+enabling and ind ustrial 
+technologies" and/or to  any of 
+the  specific  objectives  under 
+the prior ity "S ocietal 
+challenges" 
+MoniTank, as explained above, is set to greatly reduce accidents and contribute to increasing 
+the safety and operation of storage tanks in fuel station and process industry while advancing 
+cost-effectiveness by reducing the maintenance costs. Thus it is perfectly in line with the high- 
+level EC objectives of Industrial leadership offering a competitive, cost effective structural 
+health m onitoring s ystem with a strong po tential of generating e xport r evenues and 
+competitiveness of EU companies involved in its commercialisation. 
+Clear  and  detailed  business 
+and market analysis 
+We have formulated a detailed business plan founded upon market research. As presented in 
+Section  2.1  our  plan  addresses  the  market  structure  and  competitive  landscape  while 
+articulating the IP exploitation process and the resulting economic benefits for each member of 
+the value chain (as shown in section 2.1) and the course that will be followed in delivering the 
+product to market from manufacturing to distribution. 
+High Industrial participation Our consortium is industry dominated, as it includes 2 industrial partners forming a value 
+chain set to deliver a quick and successful market take-up for MoniTank. INT NDT, are 
+committed to see ing the c ommercialisation process through leveraging their established 
+positions and their supplier connections across Europe. Moreover, TWI and BUL have a 
+strong network of industrial alliances and members to leverage the sales of MoniTank. Flotek 
+is one of the large end user, they will be the potential client for MoniTank system and it’s 
+testing during validation process. Flotek will endorse the MoniTank System and will be the 
+first customer to buy the commercial system. 
+MoniTank 5 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.
+1.3 Concept and approach 
+Overall Concept and Methodology: 
+The concept of MoniTank is shown in figure. Acoustic Emission (AE) and Guided Wave (GW) ultrasonic techniques are proven 
+for screening pipelines for corrosion and erosion, with long lengths (typically 30m) of pipes being screened from a single 
+location  for GW. This  capability  will be extended into condition monitoring  of the UST by permanent installation of the 
+transducers. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 3 MoniTank Product Concept 
+This Project aims to commercialize, MoniTank a low cost monitoring system that actively 
+monitors the tank online and can  flag changes in condition before leakage occurs. An 
+innovative system for the e arly detection of  leakages through the assessment of  the 
+structural integrity of USTs (tightness, corrosion) in order to predict their maintenance 
+using a com bination of Risk Based Assessment(RBA), Structural Health Monitoring(SHM) 
+and Quantitative Risk Assessment(QRA). The data coming from the AE sensors are 
+transmitted wireless to the master control unit and collected and analysed in the control 
+centre.  A  continuous  risk-level  classification  (EN15856)  allows  immediate  notification 
+when warning or crit ical levels are reach ed. This automatic fault recognition allows 
+operators to predict failures and  leakages before they happen  and to predict the 
+maintenance of tanks optimizing the maintenance plan. A method for online condition- 
+based m onitoring ( CBM) prov iding a diagn ostic and pre dictive tank  model based on 
+historical data and tank operation data. 
+This SHM process will be low cost using a small number of  sensors, and will give an 
+indication of the condition of the tank without the need for any invasive inspection. 
+The  proposed  SHM  strategy  will  combine  liquid  level  and  corrosion  monitoring  with 
+detection of sedimentation. A simplified solution to SHM of buried storage tanks including 
+a combined GW and AE based strategy will be implemented. Table below shows typical 
+inspection of tan ks and associated cost, where MoniTank can reduce 75% of the c ost by 
+providing a standalone system of monitoring. 
+Table 6: Typical USTs inspection process and associated cost 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 4 MoniTank Product trials 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 5 MoniTank Demo site 
+Process 
+Step 
+Description Estimated cost (€) 
+1 Prepare recipient Tank (tank that will store the product until inspection is finished) 30,000 
+2 Move products to recipient Tank 30,000 
+3 Open and degas  tank 60,000 
+4 Clean tank (labour- and capital-intensive process requiring equipment) 120,000 
+5 Non-Destructive Testing -  Magnetic Flux Leakage technique (semi-automated) 70,000 
+6 Non-Destructive Testing -  UT technique (manual) 60,000 
+7 Close and Seal tank after NDT is carried out 40,000 
+8 Refill tank with product (from recipient tank) 30,000 
+9 Check seals, vents, hoses etc. 10,000 
+10 Paper work, safety checks, management & supervision of above process 10,000 
+The above process will typically last for about four weeks and incur an overall cost ranging within €500k to €1m 
+Key Enabling Technology application to create commercial value of MoniTank System: 
+Key enabling technologies considered to create commercial value of MoniTank system are as follows: 
+ 
+MoniTank 6 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.  
+ 
+ 
+ 
+Table 7: KETs vs. Commercial Value 
+Commercial Value/ 
+Business Targets 
+Technology Enablers 
+Automated Continuous Condition Monitoring Optimised Preventive Maintenance 
+Safety Automated  continuous  condition  monitoring  will  improve 
+safety of fuel stations and environment. 
+In service failures will be eliminated. 
+Performance & 
+Reliability 
+Continuous monitoring of USTs will improve performance 
+and reliability of filling stations. 
+Targeted maintenance will reduce 
+variability in service. 
+Cost Efficiency Condition monitoring of underground assets will improve 
+availability and reduce cost ultimately enhancing efficiency. 
+Failure prediction will reduce asset cost 
+of ownership. 
+A prototype (TRL6) has already been developed and tested with the transducer permanently mounted on a UST. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 6 MoniTank System validated at TRL 6 
+The following features and enabling technologies has already been developed as shown in figure above: 
+ Selection of the suitable wave modes and frequencies. 
+ Numerical modelling of the transducer array design and performance evaluation. 
+ Validation of the choice of the sensors including the validation of either: the conventional piezo-electric or the flexible fibre 
+composite. 
+ Signal processing routines to improve the signal to noise ratio. 
+ The transducers have been installed permanently on a UST. This raised specific requirement with regard to the long-term 
+ultrasound coupling to the tank wall, and the packaging of the transducers. 
+ Assemble of the electronics. TWI’s BIP has been utilised to deliver the hardware prototype which required specific software 
+development to drive the transducer arrays and to meet the site conditions. 
+Once the UST structure, specifications and techniques have been analysed, a specific array of sensors has been designed as 
+well as the selection of the most appropriate hardware: 
+ The prototype comprises multichannel AE capabilities for characterization and localization of acoustic emission sources 
+with signal filtering within the frequency range 50-250kHz; 
+ Unlike AE which captures signals passively, GW hardware includes an active unit which induces energy. The pulser- 
+receiver on the GW flaw detection application requires power to output high voltage signals of approximately ±150V. The 
+prototype operate in normal operation at frequencies between 10kHz and 100kHz 
+Project Positioning: Activities done so far and to be achieved in this project are listed below: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MoniTank 7 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.  
+ 
+ 
+ 
+Measures in concept development for effective market take-up: 
+MoniTank product development measures planned in this project for effective market take-up include following tasks: 
+ Condition  Monitoring  &  Inspection  Cost  Reduction:  System  performance  to  optimise  to  achieve inspection  cost 
+reduction by 75%, inspection process time by 60% and inspection labour time by 40%. (Activities in WP1,WP2) 
+    Cost  Reduction  of  the  System:  In  order  to  optimise  the  system  cost  during  scaling  up  the  system,  a  detailed 
+components/suppliers/parts availability analysis will be c onsidered, and most co st eff ective, e asily available and high 
+performance components will be  used to finalise commercial version of MoniTank. Supply cha in will be sorted for 
+manufacturing of MoniTank carefully considering cost and value. (Activities in WP 4) 
+    Enhancement of commercial value of the product by extending the performance and application of the system: 
+100% automatic , continuous cond ition monitoring, 99% defects recognition accuracy and long lasting sensor network 
+functionality(Activities in WP1,2,3) 
+ Compact and portable design: Intrinsic safe electronic packaging will be developed in MoniTank weighing overall system 
+offering a compact system for operators for ease of use and operations. (Activities in WP2) 
+ Easy to operate system with user friendly GUI: To enhance market uptake of MoniTank system for customers, a user 
+friendly GUI, with detailed product manual, training guidelines and user/operator training on sale of system is planned in 
+project concept development as well. (Activities in WP1,3) 
+ 
+European dimension of proposed Innovation and added value for Europe: 
+MoniTank system will address EU-wide challenges by creating more job op portunities in NDT sector. It will offer an innovative 
+solution for quality inspection of underground tanks in all kinds of plants specifically in fuel stations before occurrence of any 
+crucial problems avoiding accidents and losses thus; will contribute to the environmental and workers safety. The system will be 
+distributed and sold to global mar kets as detailed in section 2 resulting in incre asing export revenues for Europe as  well 
+contributing to EU competitiveness and economic impact. 
+Table 8: EU Impact and Relevance to H2020 
+Job Creation MoniTank will create new employment opportunities (112 new jobs within 5 years between 
+consortium members) for the European consortium and those involved in NDT inspection of tanks. 
+The solution provides opportunities in other industries (petrochemical, chemical etc.). 
+Environmental Safety MoniTank  will  strengthen  energy  safety  by  ensuring  the  integrity  of  tanks,  and  guaranteeing 
+continued fuel stations operations without neither disruptions nor threats to health or life. MoniTank 
+will be in compliance with ASTM, BS standard about ensuring the integrity of process tanks systems 
+in the Oil & Gas industry is a key issue with respect to the  process, business, safety, and the 
+environment7. 
+Energy and cost 
+efficiency 
+MoniTank will directly impact energy cost by protecting fuel storage tanks that are vulnerable to 
+leakage, loss of fuel, corrosion and safety of filling stations. 
+Innovation Introduction of  MoniTank technology will cement the rep utation of  the commercial partners in the 
+consortium  for  bringing  to  market  innovative  new  products  for  this  important  industrial  market, 
+allowing them to finance and sell further new products and services. This will reinforce the position of 
+European industry, and the strong innovation capacity of European SMEs, to bring new technologies 
+to market and remain competitive in the global market, ahead of strong co mpetition from the US, 
+Japan and China. 
+Gender Analysis: 
+MoniTank will develop and implement a Gender Action Plan to promote gender equality in all possible forms within the project 
+ensuring gender equality, promotion of women recruitment and maintaining gender balance.
+1.4 Ambition 
+Through commercialisation of MoniTank product we aim to create €24 million in revenues, €11 million in gross profits and 
+will create 112 direct jobs within 5 years of commercialisation for consortium. 
+State of the art: Currently, the most advanced approach to  tank inspection is by internal inspection using manual non- 
+destructive testing (NDT) techniques. This requires removing the tank from service, removing the contents, then venting and 
+cleaning it to make it safe for manual access. Existing monitoring systems on the market such as manual gauging, inventory 
+control and leak detection systems only rely on the tank leaking before it can be detected. The EPA requires the tank to be 
+monitored for a leak at least once every 30 days using interstitial monitoring8. For many years in Europe the most utilized 
+Secondary Containment with Interstitial Monitor has been the class 2 liquid system (operating using a liquid filled interstitial 
+space) but there has been a move in recent years by environmentalists and responsible at oil companies to the Class 1 system 
+(using air or nitrogen pressure or by pulling a vacuum on the interstitial space). 
+This change is based on a variety of reasons: 
+ 
+ 
+7 file:///C:/Users/InnoTecUK/Downloads/process_piping_guide_R2.pdf 
+8https://www.gpo.gov/fdsys/pkg/FR-2015-07-15/pdf/2015-15914.pdf 
+MoniTank 8 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.  
+ 
+ 
+ 
+    In environmentally sensitive areas, even the leak detection fluid is considered a hazard to the groundwater 
+    When leaks occur the detection fluid in the interstice has to be disposed of 
+    Economy - the cost of leak detection fluid adds to the cost of tank manufacture 
+    Operators are taking environmental issues seriously and are changing to the more environmentally friendly systems 
+Pressure and vacuum leak detection systems for double wall tanks and pipes have been operating in Europe for over 35 years. 
+There are over 700,000 such installations in use monitoring tank and pipes. They detect a small number of leaks each a year, 
+around 1% of those being monitored. 75% of those leaking have a leak in the outer wall and 25% in the inner wall. There are no 
+existing standalone monitoring system capable to detect leakage in both outer and inner wall of underground storage tank as 
+proposed innovation in MoniTank. 
+Table 9: Beyond state of the Art and MoniTank Product advantages 
+MoniTank 
+Technology 
+SOTA (State Of The Art) Beyond SOTA; Product 
+Differentiation 
+Product Advantages Related to Market 
+AE sensor platform 
+integrated with GW 
+and RBI techniques 
+Sensor separate from the 
+processing functionalities. 
+MCU integrated into the smart 
+sensor platform 
+The AE sensors can send a result and 
+can be configured for different CM 
+application. 
+Wireless 
+communication 
+Very well established Wireless integration to direct 
+transmission to the cloud 
+Send results or data to the cloud 
+Cloud for Condition 
+Monitoring system 
+Not used yet CM data travelling by the cloud Data available to correlate results from 
+different sensors from different sites. 
+CM software to 
+cloud management 
+Not existing for CM 
+systems 
+Development of a new type of 
+software 
+Data management from different sites 
+and costumers. 
+There are more visual inspection NDT services available on market for USTs inspection and there is lack of systems for 
+condition mon itoring of unde rground tanks which makes MoniTank an attr active product to  capture not very m uch saturated 
+market.                                                          Table 10: Competitive Overview 
+ 
+Product and Service on Market Limitations Differentiation and value added benefits of 
+MoniTank 
+SGS ,UK 
+ Conventional internal 
+inspection: Magnetic Flux 
+Leakage / Ultrasonic Testing 
+Typical   NDT   service   requires 
+decommissioning, down time and 
+high labour cost of insp ecting 
+tanks, 
+ MoniTank is a standalone condition monitoring 
+system capable of  detecting structural flaws in 
+underground stora ge tan ks   with 9 9% POD, 
+capable to monitor metallic double wall structures 
+of  tanks,  will  use  cloud  based  communication 
+and data a cquisition s ystem so  will be  easy for 
+operators to mon itor and inspect co ndition of 
+underground ta nks anytime without extra 
+inspection time or labour cost. 
+ MoniTank    will    reduce    cost    of    inspection 
+significantly by 7 5% as once inst alled on  tanks 
+sensors will transmit condition of tanks which will 
+be analysed using advance risk based inspection 
+techniques to give a detailed risk cur ve for 
+operators and maintenance personal. 
+MISTRAS,USA 
+ TankPac Acoustic Emission 
+Inspection for Tanks 
+ Manufacturer of Acoustic 
+Emission testing equipment 
+Limited output of inspection only 
+detects   condition   of   structure 
+walls  and  not  able  to  provide 
+high thickness low size defects 
+data. 
+BMS Group, UK 
+Veeder-Root is the world's leading 
+supplier of automatic tank gauging 
+and fuel management systems and 
+one of the few companies in the 
+industry to design, manufacture and 
+service its own products. 
+Not      offering      a     complete 
+standalone s ystem but  offer 
+different monitoring gauges, not 
+able to det ect corrosion and 
+internal tank faults. 
+ 
+Table 11: Techniques comparison 
+Analysis/ 
+Technique 
+Application Limitations MoniTank Technique relevance for 
+USTs condition monitoring 
+Infrared 
+Thermography 
+Infrared   thermography   (IRT) 
+has become a matured a nd 
+widely accepted condition 
+monitoring tool where t he 
+temperature   is   measured   in 
+real time in a  non-contact 
+manner. 
+Limited    to    temperature 
+based monitoring, more 
+relevant for heated o bjects 
+condition monitoring. 
+MoniTank is based on acoustic emission 
+and  gu ided  wave  t echnique.  AE 
+techniques emanate from the practice of 
+sorting good parts from ‘clunkers’ by hitting 
+them and listening to them ring  (hence 
+other commonly used related defe cts that 
+have led to me tal to met al conta cts (i. e. 
+lubrication breakdown).AE u ses higher 
+frequency detection. Metallic USTs in i ts 
+working condition produce acoustic signal 
+and    this    signal    is    a    characteristic 
+Ferrography Ferrography is a  technique for 
+analysing the part icles present 
+in      fluids      that      indicate 
+mechanical wear. 
+Limited to fluid based 
+condition monitoring. 
+ 
+MoniTank 9 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.  
+ 
+ 
+ 
+Ultrasonic 
+condition 
+monitoring 
+Ultrasonic condition monitoring 
+(UCM) is a technique that uses 
+airborne (no n-contact) a nd 
+structure      borne      (contact) 
+ultrasound     instruments     to 
+receive high f requency 
+ultrasonic em issions prod uced 
+by opera ting e quipment, 
+electrical emissions and le aks 
+etc. to monitor the condition of 
+equipment under test. 
+High freque ncy, c omplex 
+and c ostly co ndition 
+technique used for la rge 
+application and systems. 
+signatures of that structure which does not 
+change over time. However, in  cases of 
+structural or fun ctional anomaly or fa ilure, 
+the  dynamic characteristics of  the  USTs 
+change which is reflected in its acoustic 
+signals. The nature of the developing fault 
+has unique a coustic characteristics which 
+can be com pared with the acoustics 
+signatures of the tanks working u nder 
+normal operating condition. By using 
+innovative si gnal analysis algori thm 
+developed   in   Mo niTank   device,   it   is 
+capable to determine the  exact 
+category/type of fault and then transmit the 
+data wireless to the cloud platform that can 
+be accessed on site, central control unit or 
+any other location remotely to  analyse 
+underground tanks performance. 
+Lubrication oil 
+Analysis 
+Lubrication oil is used in 
+electrical and me chanical 
+machines to reduce fri ction 
+between moving surfaces. The 
+lubrication o il is i mportant 
+source of  information for early 
+machine failure detection. 
+Lubrication oil based 
+condition   mo nitoring, 
+limited to par ticular 
+application                where 
+lubrication oil is used. 
+ 
+Table 12: Expected key market applications and differentiation factor for Potential customers 
+Project Result/outcome Key Market Application Differentiation Factor(Added value for potential customers) 
+Structural health condition 
+monitoring system for 
+underground storage tanks 
+-Fuel/Petrol Station 
+-Chemical Plants 
+-Process Industries 
+-Storage warehouses 
+Etc. 
+ Cost Effective and 99% POD accurate system 
+ Remote access to condition monitoring data 
+ Detailed risk profile and failure localisation 
+ No need to shut down tanks operation 
+ Wireless  sensor  network  and  flexibility  to  place  point  of 
+interest in tanks 
+Patent search shows there are no standalone systems available, some com panies have developed set of different system to 
+monitor condition of underground tanks but MoniTank will offer one system capable to detect all structural faults in USTs. 
+Product Lifecycle and Positioning: 
+Initial developments in project as shown in the figure depicts higher cost of innovation and low sales, but with time and 
+complete market trans fer of Mon iTank the sales and profit will rise as detailed in se ction 2 and c ost will be  reduced due to 
+production of the system. Some of the profit will be re-invested in further, development of MoniTank2 second generation 
+product for competitive and sustainable advantage. Integrity NDT with partners will continuously seek innovation aspects in the 
+product obtaining feedback of clients and their needs and tailoring the system for sustainable competitive advantage. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 8 MoniTank Product Positioning Figure 7 MoniTank Product Lifecycle
+2.1 Expected impacts 
+Expected Impact under the relevant Topic: 
+2. Impact 
+The expected impact of MoniTank Project in regards to topic is as follows: 
+Table 13: Impact expectation and project relevance 
+Expected Impact under the relevant topic Project Impacts 
+“Fast   development,   commercial   take-up   and/or 
+wide deployment of sustainable innovative solutions 
+in enabling and industrial technologies and/or for 
+The project foreseen a fast development, commercial take-up and wide 
+deployment of an innovative solution to increase the safety of petrol 
+stations and reduce their impact on the environment by detecting in real 
+ 
+MoniTank 10 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.  
+ 
+ 
+ 
+tackling societal challenges.” time the risk of leakages and fire/explosion. It will solve social challenges 
+by reduction of ri sks and accidents related to le akages and vapour 
+emissions, by providing guideline to oil companies and local authorities 
+in  determining  the  safe  boundary  of  petrol  station  and  improving 
+confidence    in    petrol    stations    security    and    in    particular    in 
+unmanned/virtual assisted stations. 
+“Time to initial market take-up no later than 3 years 
+after the beginning of the FTI project.” 
+Based on the market and competition research, we have developed an 
+extremely detailed business plan targeting one of the biggest sectors in 
+the world’s energy market and we are perfectly positioned to penetrate it. 
+The project will last for 24 months and the time to initial market take-up 
+will be within 3rd year after the beginning of the FTI project. 
+“Enhanced competitiveness and growth of business 
+partners in the consortium, measured in terms of 
+turnover and job creation.” 
+MoniTank will enhance the competitiveness and growth of partners by 
+generating €24 million revenues, €11 million in gross profit and creating 
+112 direct jobs within consortium. 
+“Leveraging mo re pri vate in vestment i nto re search 
+and/or innovation. And In creased indu stry 
+participation, including SMEs, and more in dustry 
+first-time applicants to Horizon 2020.” 
+Our project will bring together diverse competences and ba ckgrounds 
+from the research (TWI, BUL) to the industrial (Integrity NDT, IRIS) to the 
+commercial (Flotek) field. 
+Our consortium includes 2 industrial partners with solid positions in the 
+condition mon itoring market, 2  RTOs and 1 Underground storage tank 
+manufacturer Flotek. 
+“Where appropriate, addressing transnational 
+value-chains and/or EU-wide or global markets.” 
+The project addresses transnational value-chains and targets one of the 
+biggest sectors in the world’s energy market. 
+ 
+Project Innovation meeting needs of European and Global Market needs: MoniTank product commercialisation meet the 
+technological and economical needs of EU and Global markets, as shown in figure 9 the market for NDT systems have risen to 
+600 million dollars in 2016 globally and it is still growing which creates MoniTank system relevant in NDT equipment market. 
+Further,  NDT  market  is  being  segmented  on  the  basis  of  NDT  application  (e.g.,  flaw  detection),  technology  (e.g.,  AE 
+technology), end-users (e.g., Oil & Gas), and geography. The surface techniques are an established and matured market, with 
+ultrasonic testing having an increasing usage as it provides the advantage of indicating flaw depth. The Oil & Gas industry 
+specifically is  highly  dependent  on  NDT  to  ensure  quality  and 
+maintain a safe operating environment and remains the largest 
+end user for the NDT market. The global NDT market for the Oil & 
+Gas industry was $273 million in 2014 and is estimated to grow at 
+a  compounded  annual  growth  rate  of  3.30%  to  reach  $331.7 
+million by 2020. Figure 10 shows the estimated market size of 
+NDT in the Oil & Gas market from 2014 to 2027 as shown in 
+figure.  Growth  of  the  global  NDT  market,  both  in  terms  of 
+production  and  maintenance,  is  driven  by  (1)  Stringent 
+government   safety   regulations.   In   Oil   &   Gas   industry,   an 
+increasing number of assets need  to be inspected in order to 
+prevent any hazards due to leakage and spillage of oil or failures. 
+(2) Ageing infrastructure in  developed countries and resultant 
+deterioration i ssues. There is a need to extend the usual life of 
+existing infrastructure in order to prevent it from deteriorating further. 
+The average life of assets such as tanks in Europe is estimated to 
+be 40 years; still these assets are required to run at high c apacities. 
+(3) Growing demands for NDT from the en d-users to opt imise 
+maintenance and ensure safe and efficient operation. Regular 
+maintenance of tanks, through their usable life, is required in the Oil 
+& Gas industry to avoid unexpected and catastrophic failures due to 
+fatigue. 
+However, a number of facts that impose significant challenges on 
+the NDT market growth, the most important are (1) Impact of 
+macroeconomic shocks. A major hurdle by most NDT companies is 
+providing high quality service at competitive prices. The end users of 
+Figure 9 NDT equipment Market Trend and Growth 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 10 NDT Market Trend and Growth 
+NDT are highly price conscious; hence, it becomes difficult for NDT companies to provide quality service at lower prices. Thi s is 
+exaggerated in the event of macroeconomic shocks that affect the economy of the country and thus their spending capacity, 
+such as in Asia-Pacific locations where end users are extremely price sensitive. (2) Lack of skilled labour. The lack of 
+availability of skilled technicians is the biggest challenge affecting the NDT market. Considering this fact, it is clear that the 
+ 
+MoniTank                                                                                             11 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.  
+ 
+ 
+ 
+number of people taking up NDT inspection has significantly lowered over time. Stricter government regulations and increasing 
+sophistication of NDT methods has led to an increase in demand of skilled inspectors. This demand is currently outweighing the 
+supply. Since the NDT industry relies on skilled technicians for revenues, their shortage poses significant problems for growth. 
+Global growth of storage tanks by regions is shown in figure 11. MoniTank Project will create a positive and economical impact 
+in meeting needs of EU and global NDT market needs as well as storage tanks inspection problems and challenges.SHELL and 
+BP has shown intentions of buying commercial MoniTank System as well 
+as Malaysian university wants to deploy the system for fuel stations in 
+Malaysia run by government. 
+Competitiveness  and  growth  of  Industrial  legal  entities  in  the 
+consortium: 
+The consortium members will benefit in terms of growth due to a higher 
+level of  competitiveness from the  innovative uniqueness p rovided by  the 
+MoniTank system. The integration of new knowledge from the action will 
+be as a result of (i) enhanced monitoring system to monitor the condition 
+Figure 11 Global Underground Storage Tanks by Regions 
+of underground storage tanks. Scaling up the system will lead to (ii) Evolved condition monitoring platform. The System platform 
+will be developed to incorporate a full reporting mechanism which will have the added functionality of being user bespoken, 
+depending upon the requirements of individual operators. Through the delivery of this action and the commercialisation of the 
+system, the consortium members will experience knowledge growth as well as commercial/business growth. 
+Improving innovation capacity and integration of new knowledge: 
+MoniTank will overall enhance and improve the innovation capacity of partners and will commercialise the system where there 
+is a limited research work available. Partners including IRIS, INT NDT and TWI will be able to enhance their innovation capacity 
+in engineering solution development, BUL will be able to enhance its services and knowledge, FLOTEK will endorse the system 
+and will enhance its operational performance of storage operations. 
+Environmental and Social Impact: 
+Environmentally MoniTank offers a tool to ensure safety and security of underground pressure vessels and through preventive 
+maintenance will secure the environment from damages that can occur due to tanks rupture or breakdown ultimately not only 
+protecting the environment but also the soil from hazardous exposure. 
+Table 14: User Needs vs. Project outcomes: 
+User Needs MoniTank solution Differentiation factor with state of 
+the art methods 
+ Reduce risk of catastrophic failure. 
+ Reduce risk of low-level leakage and 
+environmental damage 
+ Reduce environmental impact from 
+leaks 
+ Enable compliance with EU directives 
+(SEVESO III Directive 2012/18/EU, 
+Directive 2006/11/EC, Dangerous 
+Substances Directive) and local safety 
+and environmental regulations. 
+Sensor fusion ena bles continuous in- 
+service mo nitoring for rap id early 
+warning  of  problems  and  forecast 
+data to ensure timely maintenance 
+Visual or ultr asonic inspection is of 
+limited effectiveness, part icularly floor 
+bottom  corrosion.  Internal  inspection 
+can only be done infreq uently because 
+of cost. 
+Demonstrate compliance with EU 
+directives (SEVESO III Directive 
+2012/18/EU, Directive 2006/11/EC, 
+Dangerous Substances Directive) and local 
+safety and environmental regulations. 
+Cloud-based service au tomates 
+collection, analysis, arc hiving, and 
+presentation   of   data   for   efficient 
+reporting and  auditing of sa fety and 
+environmental management. 
+Current manual  inspection r ecords are 
+error-prone and  time co nsuming to 
+manage  especially  over  a  20  year 
+lifespan of a tank 
+Co-ordinate and s hare information with 
+other     sites,     other     operators,     and 
+government  agencies  to  share  be st 
+practice and experience and meet new 
+SEVESO III requirements 
+Cloud-based platform for data 
+management  allows  tailored  access 
+and  sha ring  of  inspection, 
+maintenance and i ncident inf ormation 
+to  improve  risk  a ssessment  a nd 
+spread best practice. 
+One of the main causes of accidents is 
+poor communication and coordination 
+within the company and bet ween 
+organisations. Currently in spection a nd 
+maintenance data are held l ocally with 
+no off site access. 
+Improve business efficiency through 
+accurate  scheduling  and  coordination  of 
+internal inspections and maintenance 
+MoniTank   sensor   fusion   provides 
+improved forecasting a ccuracy for 
+timely sc heduling of inte rvention to a 
+maintenance plan that m inimises risk 
+and makes efficient use of test and 
+Outside    of    infrequent    time-based 
+inspection, ma intenance is done 
+reactively as problems occur. This 
+increases  risk  of  environmental 
+damage   or   accidents   and   makes 
+ 
+MoniTank 12 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.  
+ 
+ 
+ 
+ maintenance resources scheduling of maintenance difficult. 
+Improve bu siness efficiency by  integrating 
+inspection and maintenance into  site 
+management processes 
+MoniTank  pr ovides  s ystemised 
+records of i nspection re sults and 
+forecasts, available enterprise-wide. 
+Current manual  inspection r ecords are 
+kept locally and not integrated with site 
+management systems. 
+Reduce costs of inspection and 
+maintenance programmes 
+Performing costly internal inspection 
+and  repair  only  when  needed  can 
+provide cost savings of €50 000  p.a. 
+per tank. 
+Tank inspection based on time alone 
+means that many internal inspections 
+(€500 000 per inspection) are 
+unnecessary or premature. 
+Targeted Market (size, trends, and growth rate) and Project Consortium Strategy: 
+There were over 132,136 pet rol stations in the EU, 
+Norway, Switzerland and Turkey operating in 2014, fuelling 
+some  230  million  cars  and  o ver  30  million  trucks  on 
+Europe’s roads. The USA had 114,474 filling stations (gas 
+stations) in 2012, according to  the U.S. Census Bureau. 
+NDT Inspection in Oil and Gas, currently rated $8,1 billion, 
+is expected to grow from 2015 with a global CAGR of 4,6% 
+to  reach  $10,2  billion9   in  2020.  We  believe  economic 
+growth will push this number even higher. Most of the oil 
+and gas structures are owned and operated by large oil and 
+gas companies and a great ma jority of these comp anies 
+outsource the ir i nspection re quirements to SME ins pection 
+companies. The insp ection market in Europe is  dominated 
+by SMEs. 
+By overcoming the safety issues and data limitations of 
+current inspection techniques and systems we will access 
+this market with a new product, which will bring benefits for 
+the whole value chain (from manufacturing to operation). 
+Verdict’slatest data shows that the totalvalue of fuelsoldat 
+service  stationsacross  Europe  (based  on  29  European 
+countries) will be close to €600bn by the end of 2018, as a 
+result of high fuelprices and a marginal rise in fuelvolumes. 
+From  a  studyconducted  by  STI/  SPFA  –  Steel  Tank 
+Institute/ Steel PlateFabricatorsAssociation10  on typical tank Figure 12 Targeted Filling station by EU countries 
+purchase by station owners a typical store own two 12,000 gallon tanks and one 20,000 gallon tank (44,000 gallons 
+total).Some petroleum marketers anticipate fluctuating fuel prices and install more capacity so they can buy and store additional 
+fuel when itis offered at lower prices—for example, two 20,000 gallon tanks, one 15,000 gallon tank, and one 12,000 gallon tank 
+(67,000 gallonstotal).Small mom-and-pop stores i nstall less capacity, perhaps two 12,000 gallon tanks (24,000 gallonstotal).In 
+extremely rural areas, a single 20,000 gallon tank with multi-compartments might be installed. 
+With these data we can estimate: 
+a) a total of: 132136 (petrol stations in EU) x 3 tanks (2X 12,000 gallon tanks + 1X 20,000 gallon) = 390,000 tanks in EU 
+b) a total of: 10,234 (unmanned petrol station in EU) x 3 tanks = 30,702 tanks inside unmanned petrol stations (growing market) 
+Primary Targeted Market Total Market Size Growth Rate Market Trends 
+EU Filling Stations 132316 3.5% Increasing  trend  due  to  high  demand  of  transportation 
+vehicles and logistics 
+Main Selling Point: 
+Main selling points are based on following features for customers: 
+• Measures and displays on-line AE activity 
+• 4” touch sensing display (not needed here as data will be transmitted wirelessly) 
+• Integrated AE sensor signal conditioning circuitry 
+• 8GB storage space on internal SD card 
+• Wireless data downloading capability 
+• Long-term, unattended operation possible by providing power through a DC supply connected to mains or PV module 
+• Low cost (4655 euros price) 
+ 
+ 
+ 
+9Frost&Sullivan, 2015 
+10http://www.atlasoil.com/Blog/Fuel-storage-capacity-at-service-stations 
+MoniTank 13 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.  
+ 
+ 
+ 
+Primary Targeted Market 
+Size (No. Of 
+companies) 
+Market Share 
+(For MoniTank) 
+Number of Targeted 
+Customers 
+EU Petrol/Fuel Stations 132136 3% 3967 
+EU Underground storage tanks manufacturers 1539 9% 133 
+EU Tanks operators/storage production facilities 1500 8% 115 
+EU NDT Service Companies 1500 10% 157 
+Secondary  Targeted Market Size Market Share Targeted Customers 
+Global NDT Service Companies 5000 5% 250 
+Global Petrol/Fuel Stations and tanks operators 
+(USA, Canada, China, Japan) 
+ 
+274000 
+ 
+0.1% 
+ 
+274 
+Global underground storage tanks manufacturers 3000 1% 30 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Technical:   The   commercial   deployment   of   MoniTank 
+System represents a major technical achievement that will 
+ 
+ 
+ 
+ lay the foundations for new technology developments e.g. 
+monitoring  and  risk  assessment  of  pressure  vessels and 
+ 
+ 
+ 
+ structural integrity of underground storage assets.  
+Social: The main social benefits will be in jobs creation (112 
+new jobs within the consortium) and in improved safety of 
+ 
+ 
+ 
+ operation of the underground storage operations.  
+Environmental:  The  direct  environmental  impact  will  be  to Figure 14 Cost Breakdown of MoniTank System 
+ 
+ 
+Most Relevant Segment for initial introduction of new solution: 
+Segmentation, Targeting, Positioning (STP) model of MoniTank, Targeted market represent share we plan to capture in each of 
+customer group: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 13 STP Model and Marketing Mix of MoniTank 
+Primary and Secondary Targeted Market and Market share in 5 years of post-commercialisation: 
+Table 15: Targeted Market 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Scientific and Technological Impact of the Project: 
+The expected impacts in on technology, socially and environmental 
+are: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MoniTank 14 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.  
+ 
+ 
+ 
+improve the safety and reliability of fuel stations reducing the occurrence or likelihood of environmentally 
+damaging leakages. MoniTank will contribute to the overall reliability and safety of petrol/fuel st ations, thus 
+enhancing  the prospects  for safe  sustainable  storage  operations  without disruption  or loss  of  fuel due to 
+structural failures. 
+Pricing Strategy: is depicted in figure hereby with breakdown of cost, price and profit margin. 
+Economic Relevance of the proposed Solution and Financial projections of consortium Members: 
+Table 16: Financial forecasting of product sales and partners turnover 
+Forecast Year 2019 Year 2020 Year 2021 Year 2022 Year 2023 total 
+MoniTank Product Sales Price (1% inflation rate is considered in yearly pricing) 
+MoniTank System (€) 4655 4701 4747 4793 4839  
+MoniTank Service Package (€) per 
+tank 
+12000 12120 12241 12364 12487  
+Expected Sales to Targeted Customers 
+EU Petrol/Fuel Stations 26 132 661 1323 1825 3967 
+EU Underground storage tanks 
+manufacturers 
+6 15 25 39 48 133 
+EU Tanks operators/storage production 
+facilities 
+8 16 25 27 39 115 
+EU NDT Service Companies 7 20 30 48 52 157 
+Global NDT Service Companies 8 28 38 78 98 250 
+Global Petrol/Fuel Stations and tanks 
+operators 
+2 36 59 75 102 274 
+Global underground storage tanks 
+manufacturers 
+0 2 5 8 15 30 
+Total Potential customers 57 249 843 1598 2179 4926 
+Total MoniTank Unit Sales (in € ) 228,095 1,095,333 3,883,046 7,529,803 10,355,460 23,091,737 
+Total MoniTank Systems + Services 
+Sales(in € ) 
+96,000 193,920 306,030 333,818 487,003 1,416,770 
+Total Revenue (€ p.a.) 324,095 1,289,253 4,189,076 7,863,621 10,842,463 24,508,507 
+Profit Margin= 45% on System and 55% on system+ service package, Cost of Unit = €3210 
+Total Gross Profit (€million p.a.) 155442 599555 1915687 3572010 4927808 11170505 
+Total Annual Cumulative Profit- 
+Initial Investment 
+ 
+-2144557 
+ 
+-1545001 
+ 
+370685 
+ 
+3942696 
+ 
+8870505 
+ 
+Net Profit (After Tax /VAT, Average 
+Values) 
+ 
+108809 
+ 
+419689 
+ 
+1340981 
+ 
+2500407 
+ 
+3449465 
+ 
+7819353 
+Job creation estimation (1 job per 100k profit) 
+Total New jobs Created(p.a.) 2 6 19 36 49 112 
+Turnover of consortium Partners (Values in € p.a.) 
+Integrity NDT(70% profit share) 108809 419689 1340981 2500407 3449465 7819353 
+RIS(20% profit share)Software License 15544 59955 191568 357201 492780 1117050 
+BUL(5% profit share) 12435 47964 153254 285760 394224 893640 
+TWI(5% profit share) 12435 47964 153254 285760 394224 893640 
+FLOTEK as end user and consumer will be given 5% discount on MoniTank System, and will have access to non-commercial 
+exploitation of MoniTank demos and development results 
+New Jobs created per partner INT NDT(78),  IRIS(11), BUL(9),  TWI(9), Flotek (5) 
+Return on Investment for EC considering 2.3 million budget 
+Return of Investment for EC 11:1 in 5 years Post commercialisation 
+Return on Investment for consortium on 5 years of sales of MoniTank 
+Return of investment for on sales of 
+MoniTank Units 
+ 
+15:1 
+For Consortium, calculated considering consortium investment and net 
+profit in 5 years, 
+MoniTank 15 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.  
+ 
+ 
+ 
+Graphical depiction of economical and job growth through MoniTank Sales for 5 years 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Capital Investment Plan for three years of operation and Funding Mix and relevant Project Activities: 
+ Total project eligible costs including FTI funding (€2 million) + consortium partner internal cost input (€500k) = €2.5million 
+ Further  funding  requirement  for  first  2  year  period  following  project  completion  from  internal  partner  funding/bank 
+facility/venture capital and income inflow from licensing + support fees = €0.5million. 
+ Sales of product and associated services to tanks operators will yield above average income returns due to product/service 
+uniqueness and attractiveness to the end-users based on benefits on all fronts, i.e. economic, safety, environmental and 
+societal. 
+Barriers/obstacles/framework Condition and MoniTank Strategy to address: 
+Table 17: Barriers and mitigation plan 
+Barriers/obstacles and 
+framework conditions 
+MoniTank strategy to address barriers 
+State of the art methodologies of 
+visual inspection and other NDT 
+techniques 
+MoniTank  through  effective  communication,  marketing  and  clients  engagement  will 
+demonstrate the efficiency of MoniTank and will gain confidence of end users in investing 
+in innovative monitoring system for millions of savings( as calculated above) 
+Certification and Standardisation 
+requirement for su ch monitoring 
+and inspection products 
+Certification and st andardisation process will start in early stage to ha ve approved quality 
+software in compliance with plant  operation and ma intenance. Storage tanks/pressure 
+vessel legislative requirements and protocols will be addressed in MoniTank as well. 
+Table 18: PESTLE Analysis: shows dynamics of market of MoniTank 
+POLITICAL 
+ The involvement of partners from different EU countries will result in a widespread application of the project’s technology 
+which means all countries will benefit. 
+ Fossil fuel consumption forecast to increase until 2050, increasing demand for safe storage. Liquid and gas fuels (bio-fuels, 
+hydrogen) will remain important particularly in the transport sector. 
+Integrity NDT will provide a guideline to oil companies and local authorities in determining the safe boundary of petrol station 
+ECONOMICAL 
+ Enhanced competitiveness in the European and global market (USA, ASIA, etc.) 
+ Enhanced competitiveness in the  EU growing market of unmanned/virtual assisted petrol stations 
+SOCIO-CULTURAL 
+ Reduction of risks and accidents related to leakages and vapour emissions, improved safety of petrol stations (workers, 
+citizens) 
+ Improve confidence in petrol stations security and in particular in unmanned/virtual assisted stations 
+ Reduced need for internal inspections improves worker safety and reduces pollution. 
+ New High skill jobs in the EU. 
+TECHNOLOGICAL 
+ High performance, innovative and low cost monitoring system for USTs, providing real time data on the structural integrity 
+of the tanks 
+ New methodology based on Risk Based Assessment(RBA) + Structural Health Monitoring(SHM) + Quantitative Risk 
+Assessment(QRA) 
+ Predictive maintenance of USTs 
+LEGAL/LEGISLATION 
+The leak detection standards (EN 13160 1-7): Leak detection systems. General requirements and test methods for interstitial 
+spaces, leak protecting linings and leak protecting jackets 
+The Water Quality Framework Directive (WQFD) adopted by European Parliament on July 18th 2000. 
+AE standards: 
+ ASTM E 1930 Standard Practice for Examination of Liquid-Filled Atmospheric and Low-Pressure Metal Storage Tanks 
+MoniTank 16 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.  
+ 
+ 
+ 
+Using Acoustic Emission. 
+    ASTM E 1211 Standard Practice for Leak Detection and Location Using Surface-Mounted Acoustic Emission Sensors. 
+ BS EN 15856 Non-Destructive Testing. Acoustic Emission. General Principles of AE Testing For the Detection of Corrosion 
+within Metallic Surrounding Filled With Liquid. 
+    HPIJ, A Recommended Practice for Acoustic Emission Testing For Corrosion in the Bottom Plate of Aboveground Tanks, 
+2005. 
+    BS EN 14584 Non-Destructive Testing. Acoustic Emission. Examination of Metallic Pressure Equipment during proof. 
+ENVIRONMENTAL 
+    Minimising the environmental impact and sustainability of human activity. 
+    Reduction of risks of soil and water supplies pollution, environmental damages caused by fire and explosions.
+2.2 Measures to maximise impact 
+a) Dissemination and exploitation of results 
+Dissemination and Exploitation Plan: 
+MoniTank consortium is already working with European 
+NDT companies (the problem sol vers), and the stor age 
+tanks/pressure v essels manufacturers a nd tan ks 
+operators (the problem owners). They have provided us 
+with considerable information about their requirements 
+and expectations of our sy stem. We will continue this 
+dialogue and introduce, MoniTank as a potential solution 
+for monitoring of underground pressure ve ssels. Our 
+demonstrations at end-user sites FLOTEK will be critical 
+to provide confidence that investment in the MoniTank 
+will provide a return on their investments. The decision- 
+making processes require high levels of proof; one of 
+the outcomes of MoniTank will be the development of 
+the   investment   cases   for   users,   tailored   to   their 
+approach.  The  market  analysis  for  MoniTank  has 
+ 
+been and will cont inuously be performed 
+initially in  EU countries. MoniTank has  the 
+commercial potential to reach glo bal mar kets, 
+mainly the North America and Asia Pacific; 
+these  markets  will  be  approached  in  first 
+phase and rest of the world at a later stage, 
+focusing on cri tical success factors for 
+deployment. 
+Credible  path  of  Innovation  delivery  to 
+Market:  Supply chain and Business Model of 
+MoniTank is shown in figure 15, 16. 
+Dissemination and exploitation measures: 
+INT NDT as coordinator will lead the 
+development of the e xploitation and 
+commercialisation strat egy with commercial 
+partner IRIS and  other members; it will be 
+based on the following activities (Activities to 
+be implemented in WP5): 
+ 
+ 
+Dissemination Measures: 
+ 
+Figure 15 Supply Chain of MoniTank 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 16 MoniTank Business Model 
+The project will take a pragmatic approach to the dissemination of MoniTank, as it is seen as central to success. The main 
+dissemination activities will be undertaken by INT NDT (in WP5) as mentioned below: 
+ MoniTank project website will be the most important dissemination channel during the project. The MoniTank Web 
+presence will serve as a central point of entry for all public materials. This site will also be integrated with social media. 
+Marketing tools will be used to direct potential clients to the website. 
+ Participation in EU and global activities such as NDT technical groups, conferences(e.g. World Conference on Non- 
+Destructive Testing(WCNDT),BI NDT,ECNDT 2017,ASNT 2018 etc.) and concentration meetings(pressure vessels Group) 
+ 
+ 
+MoniTank 17 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.  
+ 
+ 
+ 
+ Cooperation with other projects and initiatives will bring valuable expertise and resources to the project, and will also 
+be a key opportunity for advertising the MoniTank activities. 
+ Technical papers and Trade Journals will be published in conference proceedings and journals. Special emphasis will be 
+given to publishing in peer-reviewed reputable journals and trade journals. 
+ By means of newsletters and project innovation briefs, the project will reach out to a wide audience and contribute to 
+relevant EU policy developments in the area of international cooperation for research and innovation. 
+ Publication of project results in trade journals and international conferences (such as European NDT Conference in 
+Europe and the International Conference of NDT). 
+ Preparing marketing material including project brochures directed both towards potential users and to other relevant 
+organisations, e.g. Global and the European Institutes of NDT and European standards organisations. 
+ 
+Exploitation Measures: 
+ Route-to-Market:  The  customers  will  initially  be  storage  tanks  manufacturers,  fuel  station  operators  and  inspection 
+companies) and NDT services systems suppliers. As a product and inspection services supplier company(INT NDT), we 
+will  directly  approach  customers  with  their  stations  operating  USTs  in  EU  mainly;  Shell(14,000),  Total(11,500), 
+BP(8,900) ,Esso (7,100), ENI(6,400), Orlen (2,800), AVIA(    2,600), OMV(2,500), Lukoil (2,500),Statoil(2,000). 
+ Exploitation and Business models: There are several ways to ensure a positive return on investment from the MoniTank 
+and its IP. However, we want to ensure maximum dissemination and exploitation of the technology without compromising 
+our overall IP position or revenue potential. The development of a flexible licence model is vital for this. This approach 
+would encompass: (i) An IP licence for market segment and territory, (ii) Regional supplier licenses for franchise operators 
+of the MoniTank solution, (iii) licensed benchmarking and optimisation consultancies. 
+ Marketing and sales: We will identify our first customers, many of whom we are already in discussion with in Tier 1 
+market. We expect to license the sales of the software to agents in North America, Asia Pacific and US beside direct sales 
+in EU. 
+ Agents and Distributors: INT NDT, IRIS and TWI distributors and agents will be engaged to enable sales of MoniTank, 
+agents list is detailed in section 4. 
+Table 19: Project potential uses and relevance 
+Potential Users and uses MoniTank Relevance 
+Technological Sector 
+and Research 
+Community 
+MoniTank provides research community knowledge being generated through the development of 
+RBI algorithms and bringing applied research to commercial usage via MoniTank offering NDT 
+research community progress beyond state of the art monitoring tool for tanks. 
+Commercial Commercialization of Mon iTank will result in potential benefit for users inc luding maintenance 
+service provider companies, fuel stations operators, tank manufacturers and process industry as it 
+will   directly   impact   by   reducing  maintenance   cost,   downtime,   decommissioning  due   to 
+maintenance, structural failures and leakages offering overall cost efficient and safe environment 
+by doing preventive real time monitoring of underground storage tanks. MoniTank consortium will 
+obtain €24 million in sales of MoniTank in first five years of commercialisation. 
+Social MoniTank  system  offers  a  profit  margin  of  45%  thus  providing  an  attractive  opportunity  for 
+investors to take economic benefit by investing in such an innovative technology. 
+Environmental Contribution to safety by reducing possibility of accidents due to structural failure, fatigue in pipes 
+thus creating safer workplace and environment for workers. 
+Policy Making and 
+Standards 
+MoniTank will provide inputs to industrial standards legislations, emerging standards, policies 
+regarding  inspection  protocols  and  needs  of  regular  monitoring  of  heavy  equipment  piping 
+system. 
+Skills and Educational 
+Training 
+MoniTank provides research community knowledge being generated through the development of 
+RBI algorithms and bringing applied research to commercial usage via MoniTank offering NDT 
+research community progress beyond state of the art monitoring tool. 
+ 
+Key Stakeholders for commercial exploitation: External stakeholders to be involved in the latter end commercial exploitation 
+of the project innovation will include EU and overseas Trade and Industry Associations, EU and global Chambers of Commerce 
+and overseas trade delegations, fuel stat ions associations fr om EU countries. NDT inspection companies will be potential 
+stakeholders for co mmercial e xploitation of Mon iTank System as well. Flot ek will play a  key role in  engaging their group 
+companies globally for su ccessful market penetration of MoniTank. Integrity NDT will engage its distribution ne twork for 
+successful exploitation. 
+TWI has clients in drilling, production, storage and overland piping facility operators and owners. (as mentioned in members list, 
+www.twi-global.com/membership/our-industrial-members ),BUL is providing research and technology development services to 
+oil industry, Integrity NDT is NDT service and product development SME active on many sectors including tanks inspection and 
+monitoring, IRIS is facilitating digital system for monitoring application in production industry. Flotek is tank manufacturer having 
+distribution and sales of tanks all across EU. All consortium members of MoniTank are providing services or products to the 
+MoniTank                                                                                             18 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.  
+ 
+ 
+ 
+supply chain companies of inspection of tanks, targeted in MoniTank, thus will leverage the network for engaging clients and 
+sales of MoniTank. Table 20: Competitiveness and Innovation capacity development of Consortium Members 
+Partners Corporate Strategy Benefit to the competitiveness and Innovation 
+Capacity 
+INT NDT A  specialist  provider  of  innovative  inspection  services 
+and solutions, our quality is highly valued by ourselves 
+and our client customers. From small local manufacturers 
+to international companies worldwide, we are committed 
+to  delivering  cost  effective  Inspection  Solutions  and 
+Technical Assurance of the integrity of p lant equ ipment 
+and fabrications to our  clients, regulatory and insu rance 
+bodies alike. Our qua lity systems are unde rpinned by 
+ISO9001 certification. 
+MoniTank  system development  and 
+commercialisation will enable I NT NDT company to 
+expand its product and services portfolio, enhance its 
+revenues,  create  internally  more  jobs  and  expand 
+new  markets  and  regions  for  sales  of  MoniTank 
+system. 
+IRIS To improve industry by creating and integrating profitable 
+high-end technologies and solutions. 
+MoniTank will directly impact competitiveness of IRIS 
+as software and  communication mod ule being 
+optimised by IRIS will create return on investment as 
+well as will enhance prod uct com petencies and 
+knowledge of condition monitoring applications. 
+TWI TWI is one of the world’s foremost independent research 
+and technology organisations, with expertise in materials 
+joining and engineering processes as applied in industry. 
+TWI aims to be the leader in  innovation, kno wledge 
+transfer and in  solving prob lems across all aspects of 
+manufacturing, fabrication and  whole-life integ rity 
+management. 
+MoniTank system will expand the inspection systems 
+and services portfolio of TWI; will strengthen their 
+expertise   in   investigating   and   monitoring   critical 
+assets of age ing storage tanks. It will benef it TWI to 
+enhance their ser vices of inspection as well as fuel 
+stations integrity. 
+BUL Brunel Innovation centre has been dedicated to close the 
+gap between academic research and industrialisation of 
+technology. BUL is dedicated to technology transfer and 
+industrial impact of research. 
+BUL utilises its expertise in NDT systems, 
+development of algorithm and software platforms and 
+will expand its resources, experiences and staff to 
+have  more  provision  of  development  contracts  as 
+innovation centre and technology developer. 
+Flotek To provide high quality product, to manufacture products 
+in  house  and  export  worldwide,  expand  markets  and 
+business  through  in  house  product  development  and 
+continuous innovation of high quality standards 
+MoniTank    system    application    on    underground 
+storage tanks being manuf actured by FLOTEK will 
+help  them  to  enhance  its  life  by  integrating  such 
+monitoring system with their tanks; we will be ab le to 
+offer tan ks with condition m onitoring system another 
+revenue stream. 
+Beside activities already explained other steps before taking MoniTank to market will be: 
+ IP protection of results/foregrounds: 
+Technological development and scal ed 
+up systems,    algorithms,    sensors, 
+system architecture will be patented 
+before commercialising the system. 
+ Production  Plan:  In  order  to  reach 
+targeted cost, manufacturing proce ss 
+will be opt imised and c ost eff icient 
+components sel ection will be made. 
+Further, prod uction partner agreements 
+will be secured. 
+ Business       Development       Team 
+Training: Business development, sales 
+team  and  distribution  repr esentatives 
+of  INT  NDT  will  be  trained  about 
+product f eatures and applications to 
+facilitate     marketing     and     client’s 
+awareness. 
+ Product Initial Introduction in Events 
+and Marketing: INT NDT will attend NDT exhibitions 
+ 
+Figure 17 MoniTank Branding Strategy 
+and relevant stakeholders’ events for initial feedback, response and interest of potential clients in MoniTank system.B2B 
+meetings will be organised with interesting stakeholders to obtain customer feedback and purchase interest as well. 
+MoniTank 19 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.  
+ 
+ 
+ 
+ Distributor’s agreements finalisation: INT NDT will formulate agreements with existing and new distributors globally for 
+MoniTank. 
+ Product  Packaging: INT NDT  will  develop  and fabricate  intrinsically safe enclosure/box  required  for electronic 
+devices for packaging of MoniTank System. 
+ Product Branding: INT NDT will develop and implement MoniTank product branding strategy as shown in figure below. 
+ 
+Market Positioning, commercial strategy and Marketing/Sales Efforts: planned strategy is depicted in fig 18. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 18 MoniTank Marketing and Sales Effort Plan 
+ 
+Table 21: Future Competitiveness Strategy 
+Expected Results Further Development Strategy Measures of Future Competitiveness 
+MoniTank st ructural he alth 
+monitoring s ystem for 
+underground storage tanks 
+The system will be further, de veloped to extend its 
+application to above ground s torage tanks, connected 
+pipes, ve ssels and valves and all other equipment 
+under different environmental conditions. The second 
+generation  system  will  be  IoT  enabled  and  cloud 
+based and will be  launched after 5 years of 
+commercialising and sales of first version of MoniTank 
+product. 
+MoniTank product will be opt imised 
+regularly as per c ustomer fe edback a nd 
+continuous  upgradation and 
+performance improvements will be done 
+in     the     product     for     sustainable 
+competitive advantage. 
+ 
+Other Measures to enhance Impact: In addition to the fu ll suite of dissemination activities as previously described, the 
+consortium will be publicising information surround the MoniTank system, its developments and the project results through a 
+number of industry specific journals and publications. Examples of these publications include, but would not be limited to: - 
+NDT Magazines, Industrial Engineering, Future tanks storage Technologies, Computerworld, Global Trading Magazine, I EEE 
+journals. During the course of this action, all dissemination activities undertaken will focus on the advancement of the MoniTank 
+system  from  TRL6  to  TRL9.  Once  the  action  is  complete  and  the  MoniTank  system  is  commercialised,  the  ongoing 
+dissemination activities will be targeted at  enhancing exposure of the product to a wider market.  These actions will include but 
+not be limited to (i) Agent demonstrations in Non-EU territories (ii) Direct engagement with petrol station Operators (iii) Case 
+studies of MoniTank system and its operational results (iv) Downloadable content through the MoniTank website. 
+ 
+b) Intellectual Property, knowledge protection and regulatory issues 
+IPR Management: Specified IP required for sell the MoniTank product will be with Integrity NDT. This provides freedom for 
+Integrity NDT to operate in the underground storage tanks market and to access capital required for further growth. An initial 
+patent sea rch has be en con ducted which indicates that t here are no infring ement i ssues with other I P. This will be updated 
+during the course of the action. IP generated during the a ction will reside with the company generating the IP, and where 
+necessary for commercial exploitation of MoniTank. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MoniTank 20 
+This proposal version was submitted by Onur YALIM on 25/10/2016 15:18:13 Brussels Local Time. Issued by the Participant Portal Submission Service.  
+ 
+ 
+ 
+These IP arrangements are summarised in Table below: 
+Table 22: IPR Management 
+ 
+Background IP Ownership Freedom to Operate Foreground IP Ownership 
+Systems Integration, instrumentation Integrity NDT Freedom to operate 
+for project 
+development work 
+Manufacturing process 
+of complete MoniTank 
+system (patent) 
+ 
+ 
+ 
+ 
+ 
+ 
+Integrity 
+NDT 
+Will own the 
+complete 
+system and 
+will share 
+profit as per 
+agreed in 
+project 
+consortium 
+and IP 
+ownership 
+agreement, 
+AE sensors configuration, know-how on 
+CM and sensor deployment, signal and 
+image processing of AE-GW techniques, 
+pattern recognition algorithms, electronic 
+design of systems for AE and vibration 
+analysis. 
+TWI Freedom to operate 
+for project 
+development work 
+Integrated system of 
+MoniTank (patent) 
+Signal processing and data analysis BUL Freedom to operate 
+for project 
+development work 
+Sensors validation, 
+machine learning tool, 
+training material and 
+standards 
+Software, communication and cloud 
+based system 
+IRIS Freedom to operate 
+for project 
+development work 
+Copyright of User 
+interface software and 
+data analysis algorithms 
+Measures to ensure Commercial Exploitation: 
+In order to ensure commercial exploitation of developed IPs, the 
+most important task will be  to prote ct the developed system via 
+patent before exploitation; this will be done by coordinator with 
+the support of other partne rs. Other m easures will include B2B 
+meetings with potential clients, marketing of product in regions of 
+interest and establishing a strong network of distribution agents 
+and affiliate mar keter to engaged potential clients and boo st 
+product sales. Fig 19 sho ws SWOT of Mon iTank where strengths 
+and opportunities will be e xploited to cater e xternal threats and 
+weaknesses will be countered by mitigation plan as proposed in 
+section 3. 
+Knowledge Management and Protection Strategy: 
+Publishing scientific papers about the results is also one way 
+to be used for MoniTank dissemination. All the publications will be 
+identified as the result of  research of the project, which is 
+supported by the European Commission (Horizon 2020 – SME 
+instrument). General dissemination activities will include (i) the 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 19 MoniTank SWOT Analysis 
+inclusion of project results on the partner’s web sites. (ii) The publication of project results in technical papers, trade journals 
+and conferences. (iii) Disclosure of information through project brochure to relevant associations (e.g. The National, European 
+NDT  associations  and/  or  SHM  Users  Associations).  The  partners  will  publish  papers  on  the  application  of  MoniTank 
+technology. 
+Scientific knowledge and open access: 
+With regards to scientific publications, the Project coordinator will compile all the papers draft and the indication from the 
+authors about the selected journals for publication. Coordinator will identify and propose green access solutions for all  the 
+scientific papers that will be written. Whether it will not be possible to reach the gold open access standard, the PC will define 
+with the authors of the paper a good scientific journal that will allow the highest visibility possible. Besides, the PC in 
+associations with the External stakeholders Board, will be engaged to use the green open access standard (e.g. USIEGEN), in 
+order to have an online repository of the manuscripts. If the already existing academic repository for green open access will not 
+be sufficient, the PC will decide to create a specific USIEGEN repository following the green open access standards. 
+Regulations/Standards Requirements before commercial exploitation: 
+Table 23: Relevant Directives to MoniTank 
+EC Directives Details 
+Council Directive 96/82/EC1 
+(will  become  2012/18  from 
+1st June 2015) 
+MoniTank will contribute to managing the risk of operating proce ss plants as covered in this 
+Directive on the Control of Ma jor Accident Hazards inv olving d angerous sub stances (T he 
+COMAH Directive). 
+ 
+MoniTank 21 
+ 
+ 
+ 
+Directive  96/62/EC,  part  of 
+2008/50/EC 
+MoniTank will support this EU legislation on  pollution control as it prop oses to eliminate the 
+requirement to empty and clean the sto rage tanks that releases huge amounts of hazardous 
+fumes into the atmosphere. 
+Directive  1999/92/EC,  with 
+later amendments 
+MoniTank will support this Directive setting the European minimum requirements for improving 
+the safety and health protection of workers potentially at risk from explosive atmospheres. 
+Directive  89/391/EEC,  with 
+later amendments 
+Also known as the Framework Directive that introduced measures to encourage improvements 
+in the safety & health of workers at work will also be supported by MoniTank. 
+Directive  2000/60/EC,  with 
+later amendments 
+This Directive established a framework for community action in the field of leakage of oil and 
+the project will achieve the latter by offering more reliable storage tank inspection enabling the 
+avoidance of hazardous liquid leakage into the ground. 
+ 
+c) Communication 
+With regard to external communication, in order to ensure a maximum outreach and impact of the MoniTank project, we will 
+follow a multi-channel dissemination strategy in order to gain maximum visibility including academia, the industry, welfare and 
+end-user organizations, policy makers, and the general public. These activities will be covered in WP5. 
+ 
+The communication strategy will focus on: 
+ Distributing relevant results among stakeholders and potential customers 
+ Propagating research results in the form of new technologies, prototypes, and interactive concepts to the respective 
+industry branches and public and corporate audiences; 
+ Organizing seminars and workshops to disseminate knowledge on the methodology and technology used and the results 
+obtained in the project to professional and non-professional social inclusion actors; 
+ Informing the general public of the project results through a dynamic website with high-quality content explaining the idea of 
+the system and the guidelines for the evaluation of technology; and 
+ Development of an appropriate social media strategy aimed at academics; potential users of MoniTank and related third 
+parties such as journalists, bloggers etc. 
+ 
+TWI and BUL will publish and present the main publishable technical findings in refereed high impact journals, 
+proceedings of international conferences and workshops, such as: 
+ EUROCORR (Annual Conference organised by the EFC), NDT&E International 
+ World and European Conference on Non Destructive Testing 
+ International Journal of Condition Monitoring (BINDT publication) 
+ Conferences of American Society of Non Destructive Testing

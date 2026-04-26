@@ -1,0 +1,328 @@
+acronym,grant,call_id,section_id,word_count,char_count,source_pdf,extracted_text
+AGRO2CIRCULAR,101036838,,4,15802,112890,AGRO2CIRCULAR__Proposal-SEP-210722197.pdf,retrain\corpus\sections\AGRO2CIRCULAR__4.txt
+AGRO2CIRCULAR,101036838,,3.2,22457,162248,AGRO2CIRCULAR__Proposal-SEP-210722197.pdf,retrain\corpus\sections\AGRO2CIRCULAR__3_2.txt
+AGRO2CIRCULAR,101036838,,1.4,88146,617965,AGRO2CIRCULAR__Proposal-SEP-210722197.pdf,retrain\corpus\sections\AGRO2CIRCULAR__1_4.txt
+AICUBE,,,1.1,355,2321,AICUBE__Public DoA AI-CUBE General Info.pdf,retrain\corpus\sections\AICUBE__1_1.txt
+AICUBE,,,4,1413,9209,AICUBE__Public DoA AI-CUBE General Info.pdf,retrain\corpus\sections\AICUBE__4.txt
+AICUBE,,,1.2,503,3434,AICUBE__Public DoA AI-CUBE General Info.pdf,retrain\corpus\sections\AICUBE__1_2.txt
+AICUBE,,,1.3,8176,56813,AICUBE__Public DoA AI-CUBE General Info.pdf,retrain\corpus\sections\AICUBE__1_3.txt
+AICUBE,,,2.1,1269,8902,AICUBE__Public DoA AI-CUBE General Info.pdf,retrain\corpus\sections\AICUBE__2_1.txt
+AICUBE,,,2.2,2466,16880,AICUBE__Public DoA AI-CUBE General Info.pdf,retrain\corpus\sections\AICUBE__2_2.txt
+AICUBE,,,3.1,483,3054,AICUBE__Public DoA AI-CUBE General Info.pdf,retrain\corpus\sections\AICUBE__3_1.txt
+AICUBE,,,3.2,1784,12235,AICUBE__Public DoA AI-CUBE General Info.pdf,retrain\corpus\sections\AICUBE__3_2.txt
+AICUBE,,,3.3,657,4512,AICUBE__Public DoA AI-CUBE General Info.pdf,retrain\corpus\sections\AICUBE__3_3.txt
+AICUBE,,,4,6760,49377,AICUBE__Public DoA AI-CUBE WPs_Partners Info.pdf,retrain\corpus\sections\AICUBE__4.txt
+AIDPATH,,,3.3,2094,14786,AIDPATH__010203_ADPATH_Excellence_Impact_Implementation_v5pdf.pdf,retrain\corpus\sections\AIDPATH__3_3.txt
+AIDPATH,,,4,39442,266582,AIDPATH__010203_ADPATH_Excellence_Impact_Implementation_v5pdf.pdf,retrain\corpus\sections\AIDPATH__4.txt
+ASTEP,,,4,970,6405,ASTEP__Proposal-SEP-210598117.pdf,retrain\corpus\sections\ASTEP__4.txt
+ASTEP,,,3.3,77722,523743,ASTEP__Proposal-SEP-210598117.pdf,retrain\corpus\sections\ASTEP__3_3.txt
+BIOGEMSE,101178022,HORIZON-CL4-2024-TWIN-TRANSITION-01-TWO-STAGE,3.1,29642,221488,BIOGEMSE__PUBLIC DOA BIOGEMSE.pdf,retrain\corpus\sections\BIOGEMSE__3_1.txt
+BIOGEMSE,101178022,HORIZON-CL4-2024-TWIN-TRANSITION-01-TWO-STAGE,3.2,1115,7759,BIOGEMSE__PUBLIC DOA BIOGEMSE.pdf,retrain\corpus\sections\BIOGEMSE__3_2.txt
+BIOMAC,,,4,28705,196275,BIOMAC__Public DoA General Info.pdf,retrain\corpus\sections\BIOMAC__4.txt
+BIOMAC,,,4,24820,161829,BIOMAC__Public DoA WPs and Partner Info.pdf,retrain\corpus\sections\BIOMAC__4.txt
+BIOMAC,,,3.1,1463,9536,BIOMAC__Public DoA WPs and Partner Info.pdf,retrain\corpus\sections\BIOMAC__3_1.txt
+BIOMAC,,,3.3,56663,407758,BIOMAC__Public DoA WPs and Partner Info.pdf,retrain\corpus\sections\BIOMAC__3_3.txt
+BIOMAC,,,4,314,2366,BIOMAC__Public DoA_BIOMAC_Sec.1-3_WP description.pdf,retrain\corpus\sections\BIOMAC__4.txt
+BIOMAC,,,3.3,51368,347509,BIOMAC__Public DoA_BIOMAC_Sec.1-3_WP description.pdf,retrain\corpus\sections\BIOMAC__3_3.txt
+BIOMAC,,,4,53254,387297,BIOMAC__Public DoA_BIOMAC_Sec.4-5_Partners profile.pdf,retrain\corpus\sections\BIOMAC__4.txt
+BIONTOP,,,1.1,478,3442,BIONTOP__BIONTOP Public DoA- General Info.pdf,retrain\corpus\sections\BIONTOP__1_1.txt
+BIONTOP,,,4,2584,17857,BIONTOP__BIONTOP Public DoA- General Info.pdf,retrain\corpus\sections\BIONTOP__4.txt
+BIONTOP,,,1.2,2839,19536,BIONTOP__BIONTOP Public DoA- General Info.pdf,retrain\corpus\sections\BIONTOP__1_2.txt
+BIONTOP,,,1.3,3251,23244,BIONTOP__BIONTOP Public DoA- General Info.pdf,retrain\corpus\sections\BIONTOP__1_3.txt
+BIONTOP,,,1.4,13440,95216,BIONTOP__BIONTOP Public DoA- General Info.pdf,retrain\corpus\sections\BIONTOP__1_4.txt
+BIONTOP,,,2.1,10036,68990,BIONTOP__BIONTOP Public DoA- General Info.pdf,retrain\corpus\sections\BIONTOP__2_1.txt
+BIONTOP,,,2.2,6262,45452,BIONTOP__BIONTOP Public DoA- General Info.pdf,retrain\corpus\sections\BIONTOP__2_2.txt
+BIONTOP,,,3.1,875,5719,BIONTOP__BIONTOP Public DoA- General Info.pdf,retrain\corpus\sections\BIONTOP__3_1.txt
+BIONTOP,,,4,25016,167640,BIONTOP__BIONTOP Public Doa- WPs and Partners Info.pdf,retrain\corpus\sections\BIONTOP__4.txt
+BIONTOP,,,3.1,1007,6667,BIONTOP__BIONTOP Public Doa- WPs and Partners Info.pdf,retrain\corpus\sections\BIONTOP__3_1.txt
+BIONTOP,,,3.3,30258,215526,BIONTOP__BIONTOP Public Doa- WPs and Partners Info.pdf,retrain\corpus\sections\BIONTOP__3_3.txt
+BIORADAR,101112457,,4,5317,37730,BIORADAR__Proposal-SEP-210881309.pdf,retrain\corpus\sections\BIORADAR__4.txt
+BIORADAR,101112457,,1.2,9011,64069,BIORADAR__Proposal-SEP-210881309.pdf,retrain\corpus\sections\BIORADAR__1_2.txt
+BIORADAR,101112457,,2.3,7809,53917,BIORADAR__Proposal-SEP-210881309.pdf,retrain\corpus\sections\BIORADAR__2_3.txt
+BIORADAR,101112457,,3.2,745,5211,BIORADAR__Proposal-SEP-210881309.pdf,retrain\corpus\sections\BIORADAR__3_2.txt
+BIOSPRINT,,,4,922,6145,BIOSPRINT__Proposal-SEP-210602753.pdf,retrain\corpus\sections\BIOSPRINT__4.txt
+BIOSPRINT,,,3.3,92706,670599,BIOSPRINT__Proposal-SEP-210602753.pdf,retrain\corpus\sections\BIOSPRINT__3_3.txt
+BIOSUPPACK,,,1.1,1915,13365,BIOSUPPACK__Public DoA General Info.pdf,retrain\corpus\sections\BIOSUPPACK__1_1.txt
+BIOSUPPACK,,,4,5126,35468,BIOSUPPACK__Public DoA General Info.pdf,retrain\corpus\sections\BIOSUPPACK__4.txt
+BIOSUPPACK,,,1.3,3936,27947,BIOSUPPACK__Public DoA General Info.pdf,retrain\corpus\sections\BIOSUPPACK__1_3.txt
+BIOSUPPACK,,,1.4,6582,47118,BIOSUPPACK__Public DoA General Info.pdf,retrain\corpus\sections\BIOSUPPACK__1_4.txt
+BIOSUPPACK,,,2.1,10699,73987,BIOSUPPACK__Public DoA General Info.pdf,retrain\corpus\sections\BIOSUPPACK__2_1.txt
+BIOSUPPACK,,,2.2,6630,47501,BIOSUPPACK__Public DoA General Info.pdf,retrain\corpus\sections\BIOSUPPACK__2_2.txt
+BIOSUPPACK,,,3.1,294,2011,BIOSUPPACK__Public DoA General Info.pdf,retrain\corpus\sections\BIOSUPPACK__3_1.txt
+BIOSUPPACK,101023685,,4,23666,161173,BIOSUPPACK__Public DoA WPs and Partners Info.pdf,retrain\corpus\sections\BIOSUPPACK__4.txt
+BIOSUPPACK,101023685,,3.1,35319,250036,BIOSUPPACK__Public DoA WPs and Partners Info.pdf,retrain\corpus\sections\BIOSUPPACK__3_1.txt
+BIOUPTAKE,101057049,HORIZON-CL4-2021-TWIN-TRANSITION-01,4,13738,100937,BIOUPTAKE__Proposal-SEP-210768061-BIOUPTAKE.pdf,retrain\corpus\sections\BIOUPTAKE__4.txt
+BIOUPTAKE,101057049,HORIZON-CL4-2021-TWIN-TRANSITION-01,2.2,20789,147943,BIOUPTAKE__Proposal-SEP-210768061-BIOUPTAKE.pdf,retrain\corpus\sections\BIOUPTAKE__2_2.txt
+CEMWAVE,,,4,19597,138838,CEMWAVE__1PROPOSAL_958170-CEM-WAVE-H2020-NMBP-ST-IND-2020-singlestage-PART_B_Section_2.pdf,retrain\corpus\sections\CEMWAVE__4.txt
+CEMWAVE,,,1.1,2024,13396,CEMWAVE__3PROPOSAL_958170-CEM-WAVE-H2020-NMBP-ST-IND-2020-singlestage-PART_B_Section_1.pdf,retrain\corpus\sections\CEMWAVE__1_1.txt
+CEMWAVE,,,1.2,1070,7477,CEMWAVE__3PROPOSAL_958170-CEM-WAVE-H2020-NMBP-ST-IND-2020-singlestage-PART_B_Section_1.pdf,retrain\corpus\sections\CEMWAVE__1_2.txt
+CEMWAVE,,,1.3,4454,30028,CEMWAVE__3PROPOSAL_958170-CEM-WAVE-H2020-NMBP-ST-IND-2020-singlestage-PART_B_Section_1.pdf,retrain\corpus\sections\CEMWAVE__1_3.txt
+CEMWAVE,,,1.4,6778,43940,CEMWAVE__3PROPOSAL_958170-CEM-WAVE-H2020-NMBP-ST-IND-2020-singlestage-PART_B_Section_1.pdf,retrain\corpus\sections\CEMWAVE__1_4.txt
+CEMWAVE,,,4,4004,26719,CEMWAVE__3PROPOSAL_958170-CEM-WAVE-H2020-NMBP-ST-IND-2020-singlestage-PART_B_Section_1.pdf,retrain\corpus\sections\CEMWAVE__4.txt
+CEMWAVE,,,2.1,4980,33159,CEMWAVE__3PROPOSAL_958170-CEM-WAVE-H2020-NMBP-ST-IND-2020-singlestage-PART_B_Section_1.pdf,retrain\corpus\sections\CEMWAVE__2_1.txt
+CEMWAVE,,,2.2,9675,67099,CEMWAVE__3PROPOSAL_958170-CEM-WAVE-H2020-NMBP-ST-IND-2020-singlestage-PART_B_Section_1.pdf,retrain\corpus\sections\CEMWAVE__2_2.txt
+CEMWAVE,,,3.1,13652,88656,CEMWAVE__3PROPOSAL_958170-CEM-WAVE-H2020-NMBP-ST-IND-2020-singlestage-PART_B_Section_1.pdf,retrain\corpus\sections\CEMWAVE__3_1.txt
+CEMWAVE,,,3.2,3561,23825,CEMWAVE__3PROPOSAL_958170-CEM-WAVE-H2020-NMBP-ST-IND-2020-singlestage-PART_B_Section_1.pdf,retrain\corpus\sections\CEMWAVE__3_2.txt
+CEMWAVE,,,3.3,4824,33724,CEMWAVE__3PROPOSAL_958170-CEM-WAVE-H2020-NMBP-ST-IND-2020-singlestage-PART_B_Section_1.pdf,retrain\corpus\sections\CEMWAVE__3_3.txt
+DATAMINE,,,4,17270,120161,DATAMINE__Proposal-SEP-210372160.pdf,retrain\corpus\sections\DATAMINE__4.txt
+DECOAT,,,4,984,6288,DECOAT__Public DoA DECOAT - General Info 01-12-2018.pdf,retrain\corpus\sections\DECOAT__4.txt
+DECOAT,,,3.2,31440,219498,DECOAT__Public DoA DECOAT - General Info 01-12-2018.pdf,retrain\corpus\sections\DECOAT__3_2.txt
+DECOAT,,,3.3,1068,7327,DECOAT__Public DoA DECOAT - General Info 01-12-2018.pdf,retrain\corpus\sections\DECOAT__3_3.txt
+DECOAT,120029828,,4,19530,140578,DECOAT__Public DoA DECOAT - WPs _ Info Partners 01-12-2018.pdf,retrain\corpus\sections\DECOAT__4.txt
+DECOAT,120029828,,3.3,55268,384770,DECOAT__PUBLIC DOA DECOAT PROPOSAL.pdf,retrain\corpus\sections\DECOAT__3_3.txt
+DECOAT,120029828,,4,19492,140650,DECOAT__PUBLIC DOA DECOAT PROPOSAL.pdf,retrain\corpus\sections\DECOAT__4.txt
+DECOAT,,,1.1,684,4776,DECOAT__Public DoA General Info.pdf,retrain\corpus\sections\DECOAT__1_1.txt
+DECOAT,,,1.2,537,3809,DECOAT__Public DoA General Info.pdf,retrain\corpus\sections\DECOAT__1_2.txt
+DECOAT,,,1.3,1997,14338,DECOAT__Public DoA General Info.pdf,retrain\corpus\sections\DECOAT__1_3.txt
+DECOAT,,,1.4,8834,61985,DECOAT__Public DoA General Info.pdf,retrain\corpus\sections\DECOAT__1_4.txt
+DECOAT,,,2.1,7911,52779,DECOAT__Public DoA General Info.pdf,retrain\corpus\sections\DECOAT__2_1.txt
+DECOAT,,,2.2,6914,48377,DECOAT__Public DoA General Info.pdf,retrain\corpus\sections\DECOAT__2_2.txt
+DECOAT,120029828,,4,20357,133570,DECOAT__Public DoA WPs and Partners Info.pdf,retrain\corpus\sections\DECOAT__4.txt
+DECOAT,120029828,,3.1,26834,192716,DECOAT__Public DoA WPs and Partners Info.pdf,retrain\corpus\sections\DECOAT__3_1.txt
+DICIM,101091536,,4,8098,57046,DICIM__Annex 1 - Description of the action _part B_.pdf,retrain\corpus\sections\DICIM__4.txt
+DICIM,101091536,,1.1,12838,90726,DICIM__Annex 1 - Description of the action _part B_.pdf,retrain\corpus\sections\DICIM__1_1.txt
+DIGINTRACE,101091801,HORIZON-CL4-2022-RESILIENCE-01,3.1,564,7759,DIGINTRACE__PUBLIC DOA DIGINTRACE.pdf,retrain\corpus\sections\DIGINTRACE__3_1.txt
+DIGINTRACE,101091801,HORIZON-CL4-2022-RESILIENCE-01,4,28343,204730,DIGINTRACE__PUBLIC DOA DIGINTRACE.pdf,retrain\corpus\sections\DIGINTRACE__4.txt
+DIY4U,,,1.1,1126,8359,DIY4U__Public DoA DIY4U General Info.pdf,retrain\corpus\sections\DIY4U__1_1.txt
+DIY4U,,,1.2,1267,9081,DIY4U__Public DoA DIY4U General Info.pdf,retrain\corpus\sections\DIY4U__1_2.txt
+DIY4U,,,1.3,10080,69491,DIY4U__Public DoA DIY4U General Info.pdf,retrain\corpus\sections\DIY4U__1_3.txt
+DIY4U,,,1.4,1750,12207,DIY4U__Public DoA DIY4U General Info.pdf,retrain\corpus\sections\DIY4U__1_4.txt
+DIY4U,,,2.1,3156,22451,DIY4U__Public DoA DIY4U General Info.pdf,retrain\corpus\sections\DIY4U__2_1.txt
+DIY4U,,,2.2,6986,48924,DIY4U__Public DoA DIY4U General Info.pdf,retrain\corpus\sections\DIY4U__2_2.txt
+DIY4U,,,3.2,1590,10831,DIY4U__Public DoA DIY4U General Info.pdf,retrain\corpus\sections\DIY4U__3_2.txt
+DIY4U,,,3.3,1296,8691,DIY4U__Public DoA DIY4U General Info.pdf,retrain\corpus\sections\DIY4U__3_3.txt
+DIY4U,,,4,16599,119375,DIY4U__Public DoA DIY4U WPs_Info Partners.pdf,retrain\corpus\sections\DIY4U__4.txt
+ENERGIZE,101167570,,4,53487,371959,ENERGIZE__Proposal-SEP-210996005.pdf,retrain\corpus\sections\ENERGIZE__4.txt
+ETERNAL,,,1.1,5836,42067,ETERNAL__ETERNAL Public Proposal_to share_V2.pdf,retrain\corpus\sections\ETERNAL__1_1.txt
+ETERNAL,,,1.2,10976,78734,ETERNAL__ETERNAL Public Proposal_to share_V2.pdf,retrain\corpus\sections\ETERNAL__1_2.txt
+ETERNAL,,,2.1,5732,41197,ETERNAL__ETERNAL Public Proposal_to share_V2.pdf,retrain\corpus\sections\ETERNAL__2_1.txt
+ETERNAL,,,3.1,11715,84254,ETERNAL__ETERNAL Public Proposal_to share_V2.pdf,retrain\corpus\sections\ETERNAL__3_1.txt
+ETERNAL,,,3.2,1018,7211,ETERNAL__ETERNAL Public Proposal_to share_V2.pdf,retrain\corpus\sections\ETERNAL__3_2.txt
+EXPLOIT4INNOMAT,101092339,HORIZON-CL4-2022-RESILIENCE-01,4,18276,125146,EXPLOIT4INNOMAT__PUBLIC DOA EXPLOIT4INNOMAT.pdf,retrain\corpus\sections\EXPLOIT4INNOMAT__4.txt
+EXPLOIT4INNOMAT,101092339,HORIZON-CL4-2022-RESILIENCE-01,1.3,203,3012,EXPLOIT4INNOMAT__PUBLIC DOA EXPLOIT4INNOMAT.pdf,retrain\corpus\sections\EXPLOIT4INNOMAT__1_3.txt
+EXPLOIT4INNOMAT,101092339,HORIZON-CL4-2022-RESILIENCE-01,3.2,25055,174243,EXPLOIT4INNOMAT__PUBLIC DOA EXPLOIT4INNOMAT.pdf,retrain\corpus\sections\EXPLOIT4INNOMAT__3_2.txt
+FOODPACK,101003806,,1.4,7911,57881,FOODPACK__Amendment - AMD-101003806-5 - CFP - Excellence and impacts.pdf,retrain\corpus\sections\FOODPACK__1_4.txt
+FOODPACK,101003806,,2.1,2545,19180,FOODPACK__Amendment - AMD-101003806-5 - CFP - Excellence and impacts.pdf,retrain\corpus\sections\FOODPACK__2_1.txt
+FOODPACK,101003806,,1.2,6128,45994,FOODPACK__Amendment - AMD-101003806-5 - CFP - Excellence and impacts.pdf,retrain\corpus\sections\FOODPACK__1_2.txt
+FOODPACK,101003806,,2.2,6860,50490,FOODPACK__Amendment - AMD-101003806-5 - CFP - Excellence and impacts.pdf,retrain\corpus\sections\FOODPACK__2_2.txt
+FOODPACK,101003806,,3.1,1951,13001,FOODPACK__Amendment - AMD-101003806-5 - CFP - Excellence and impacts.pdf,retrain\corpus\sections\FOODPACK__3_1.txt
+FOODPACK,101003806,,3.2,2984,19854,FOODPACK__Amendment - AMD-101003806-5 - CFP - Excellence and impacts.pdf,retrain\corpus\sections\FOODPACK__3_2.txt
+FOODPACK,101003806,,3.3,774,5385,FOODPACK__Amendment - AMD-101003806-5 - CFP - Excellence and impacts.pdf,retrain\corpus\sections\FOODPACK__3_3.txt
+FREEME,101058699,HORIZON-CL4-2021-RESILIENCE-01,4,1129,7330,FREEME__Proposal-SEP-210789959.pdf,retrain\corpus\sections\FREEME__4.txt
+FREEME,101058699,HORIZON-CL4-2021-RESILIENCE-01,1.1,3268,22410,FREEME__Proposal-SEP-210789959.pdf,retrain\corpus\sections\FREEME__1_1.txt
+FREEME,101058699,HORIZON-CL4-2021-RESILIENCE-01,1.2,8214,56885,FREEME__Proposal-SEP-210789959.pdf,retrain\corpus\sections\FREEME__1_2.txt
+FREEME,101058699,HORIZON-CL4-2021-RESILIENCE-01,2.1,3260,21847,FREEME__Proposal-SEP-210789959.pdf,retrain\corpus\sections\FREEME__2_1.txt
+FREEME,101058699,HORIZON-CL4-2021-RESILIENCE-01,2.2,2778,19096,FREEME__Proposal-SEP-210789959.pdf,retrain\corpus\sections\FREEME__2_2.txt
+FREEME,101058699,HORIZON-CL4-2021-RESILIENCE-01,2.3,496,3563,FREEME__Proposal-SEP-210789959.pdf,retrain\corpus\sections\FREEME__2_3.txt
+FREEME,101058699,HORIZON-CL4-2021-RESILIENCE-01,3.1,8923,58581,FREEME__Proposal-SEP-210789959.pdf,retrain\corpus\sections\FREEME__3_1.txt
+FREEME,101058699,HORIZON-CL4-2021-RESILIENCE-01,3.2,1726,11966,FREEME__Proposal-SEP-210789959.pdf,retrain\corpus\sections\FREEME__3_2.txt
+GIANTLEAPS,,HORIZON-CL6-2021-FARM2FORK-01-12,1.1,2078,15115,GIANTLEAPS__GIANT LEAPS Public Proposal.pdf,retrain\corpus\sections\GIANTLEAPS__1_1.txt
+GIANTLEAPS,,HORIZON-CL6-2021-FARM2FORK-01-12,4,717,5151,GIANTLEAPS__GIANT LEAPS Public Proposal.pdf,retrain\corpus\sections\GIANTLEAPS__4.txt
+GIANTLEAPS,,HORIZON-CL6-2021-FARM2FORK-01-12,1.2,8531,61238,GIANTLEAPS__GIANT LEAPS Public Proposal.pdf,retrain\corpus\sections\GIANTLEAPS__1_2.txt
+GIANTLEAPS,,HORIZON-CL6-2021-FARM2FORK-01-12,2.1,3466,24999,GIANTLEAPS__GIANT LEAPS Public Proposal.pdf,retrain\corpus\sections\GIANTLEAPS__2_1.txt
+GIANTLEAPS,,HORIZON-CL6-2021-FARM2FORK-01-12,2.2,2335,16743,GIANTLEAPS__GIANT LEAPS Public Proposal.pdf,retrain\corpus\sections\GIANTLEAPS__2_2.txt
+GIANTLEAPS,,HORIZON-CL6-2021-FARM2FORK-01-12,3.3,11702,80714,GIANTLEAPS__GIANT LEAPS Public Proposal.pdf,retrain\corpus\sections\GIANTLEAPS__3_3.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01-05,1.1,5694,40453,GREENLOOP__Amendment - AMD-101057765-10 - GREENLOOP - Excellence and impacts.pdf,retrain\corpus\sections\GREENLOOP__1_1.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01-05,1.2,6249,43363,GREENLOOP__Amendment - AMD-101057765-10 - GREENLOOP - Excellence and impacts.pdf,retrain\corpus\sections\GREENLOOP__1_2.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01-05,2.2,2427,16461,GREENLOOP__Amendment - AMD-101057765-10 - GREENLOOP - Excellence and impacts.pdf,retrain\corpus\sections\GREENLOOP__2_2.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01-05,2.3,593,4475,GREENLOOP__Amendment - AMD-101057765-10 - GREENLOOP - Excellence and impacts.pdf,retrain\corpus\sections\GREENLOOP__2_3.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01-05,3.2,1298,9182,GREENLOOP__Amendment - AMD-101057765-10 - GREENLOOP - Excellence and impacts.pdf,retrain\corpus\sections\GREENLOOP__3_2.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01-05,4,336,2250,GREENLOOP__Amendment - AMD-101057765-10 - GREENLOOP - Excellence and impacts.pdf,retrain\corpus\sections\GREENLOOP__4.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01-05,4,15617,110059,GREENLOOP__Amendment - AMD-101057765-21_GREENLOOP - Excellence and impacts_Jul2024.pdf,retrain\corpus\sections\GREENLOOP__4.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01-05,1.1,5698,40454,GREENLOOP__Amendment - AMD-101057765-7 - GREENLOOP - Excellence and impacts.pdf,retrain\corpus\sections\GREENLOOP__1_1.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01-05,1.2,6247,43364,GREENLOOP__Amendment - AMD-101057765-7 - GREENLOOP - Excellence and impacts.pdf,retrain\corpus\sections\GREENLOOP__1_2.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01-05,2.2,2430,16464,GREENLOOP__Amendment - AMD-101057765-7 - GREENLOOP - Excellence and impacts.pdf,retrain\corpus\sections\GREENLOOP__2_2.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01-05,2.3,593,4475,GREENLOOP__Amendment - AMD-101057765-7 - GREENLOOP - Excellence and impacts.pdf,retrain\corpus\sections\GREENLOOP__2_3.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01-05,3.2,1298,9182,GREENLOOP__Amendment - AMD-101057765-7 - GREENLOOP - Excellence and impacts.pdf,retrain\corpus\sections\GREENLOOP__3_2.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01-05,4,336,2250,GREENLOOP__Amendment - AMD-101057765-7 - GREENLOOP - Excellence and impacts.pdf,retrain\corpus\sections\GREENLOOP__4.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01,4,2152,15221,GREENLOOP__Proposal-SEP-210770174.pdf,retrain\corpus\sections\GREENLOOP__4.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01,1.1,5294,38469,GREENLOOP__Proposal-SEP-210770174.pdf,retrain\corpus\sections\GREENLOOP__1_1.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01,1.2,6318,44737,GREENLOOP__Proposal-SEP-210770174.pdf,retrain\corpus\sections\GREENLOOP__1_2.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01,2.2,2455,17021,GREENLOOP__Proposal-SEP-210770174.pdf,retrain\corpus\sections\GREENLOOP__2_2.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01,2.3,599,4569,GREENLOOP__Proposal-SEP-210770174.pdf,retrain\corpus\sections\GREENLOOP__2_3.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01,3.1,9530,63516,GREENLOOP__Proposal-SEP-210770174.pdf,retrain\corpus\sections\GREENLOOP__3_1.txt
+GREENLOOP,101057765,HORIZON-CL4-2021-TWIN-TRANSITION-01,3.2,1390,9843,GREENLOOP__Proposal-SEP-210770174.pdf,retrain\corpus\sections\GREENLOOP__3_2.txt
+H2O4ALL,101081953,HORIZON-CL6-2022-ZEROPOLLUTION-01-04,1.3,217,1569,H2O4ALL__Annex 1 - Description of the action _part B_.pdf,retrain\corpus\sections\H2O4ALL__1_3.txt
+H2O4ALL,101081953,HORIZON-CL6-2022-ZEROPOLLUTION-01-04,1.4,4351,29843,H2O4ALL__Annex 1 - Description of the action _part B_.pdf,retrain\corpus\sections\H2O4ALL__1_4.txt
+H2O4ALL,101081953,HORIZON-CL6-2022-ZEROPOLLUTION-01-04,2.2,2832,20011,H2O4ALL__Annex 1 - Description of the action _part B_.pdf,retrain\corpus\sections\H2O4ALL__2_2.txt
+H2O4ALL,101081953,HORIZON-CL6-2022-ZEROPOLLUTION-01-04,2.3,3615,25399,H2O4ALL__Annex 1 - Description of the action _part B_.pdf,retrain\corpus\sections\H2O4ALL__2_3.txt
+H2O4ALL,101081953,HORIZON-CL6-2022-ZEROPOLLUTION-01-04,3.2,1177,8257,H2O4ALL__Annex 1 - Description of the action _part B_.pdf,retrain\corpus\sections\H2O4ALL__3_2.txt
+HOUSEFUL,,,4,3447,25662,HOUSEFUL__PUBLIC DOA - HOUSEFUL General Info.pdf,retrain\corpus\sections\HOUSEFUL__4.txt
+HOUSEFUL,,,1.2,33526,233845,HOUSEFUL__PUBLIC DOA - HOUSEFUL General Info.pdf,retrain\corpus\sections\HOUSEFUL__1_2.txt
+HOUSEFUL,,,3.1,4419,30352,HOUSEFUL__PUBLIC DOA - HOUSEFUL WPs _ INFO Partners.pdf,retrain\corpus\sections\HOUSEFUL__3_1.txt
+HOUSEFUL,,,4,22780,168048,HOUSEFUL__PUBLIC DOA - HOUSEFUL WPs _ INFO Partners.pdf,retrain\corpus\sections\HOUSEFUL__4.txt
+HYPERA,,,4,19011,131770,HYPERA__HYPERA-Public DoA Part B.pdf,retrain\corpus\sections\HYPERA__4.txt
+HYPERA,,,2.3,1210,8986,HYPERA__HYPERA-Public DoA Part B.pdf,retrain\corpus\sections\HYPERA__2_3.txt
+INCUBIS,,,4,798,5217,INCUBIS__PUBLIC DOA INCUBIS.pdf,retrain\corpus\sections\INCUBIS__4.txt
+INCUBIS,,,1.1,205,1441,INCUBIS__PUBLIC DOA INCUBIS.pdf,retrain\corpus\sections\INCUBIS__1_1.txt
+INCUBIS,,,3.1,338,2259,INCUBIS__PUBLIC DOA INCUBIS.pdf,retrain\corpus\sections\INCUBIS__3_1.txt
+INCUBIS,,,3.3,38367,270919,INCUBIS__PUBLIC DOA INCUBIS.pdf,retrain\corpus\sections\INCUBIS__3_3.txt
+INLINE,,,4,21082,139708,INLINE__Annex 1 - Description of the action _part B_ _1_.pdf,retrain\corpus\sections\INLINE__4.txt
+INLINE,,,2.3,4195,27882,INLINE__Annex 1 - Description of the action _part B_ _1_.pdf,retrain\corpus\sections\INLINE__2_3.txt
+INPERSO,101069820,HORIZON-CL5-2021-D4-01,4,2110,14131,INPERSO__Proposal-SEP-210803236.pdf,retrain\corpus\sections\INPERSO__4.txt
+INPERSO,101069820,HORIZON-CL5-2021-D4-01,1.1,1550,11415,INPERSO__Proposal-SEP-210803236.pdf,retrain\corpus\sections\INPERSO__1_1.txt
+INPERSO,101069820,HORIZON-CL5-2021-D4-01,1.2,25495,173145,INPERSO__Proposal-SEP-210803236.pdf,retrain\corpus\sections\INPERSO__1_2.txt
+INPERSO,101069820,HORIZON-CL5-2021-D4-01,2.2,4097,28559,INPERSO__Proposal-SEP-210803236.pdf,retrain\corpus\sections\INPERSO__2_2.txt
+INPERSO,101069820,HORIZON-CL5-2021-D4-01,3.1,14991,98903,INPERSO__Proposal-SEP-210803236.pdf,retrain\corpus\sections\INPERSO__3_1.txt
+INPERSO,101069820,HORIZON-CL5-2021-D4-01,3.2,4376,29003,INPERSO__Proposal-SEP-210803236.pdf,retrain\corpus\sections\INPERSO__3_2.txt
+IS2H4C,101138473,HORIZON-CL4-2023-TWIN-TRANSITION-01,3.2,1257,9294,IS2H4C__PUBLIC DOA IS2H4C.pdf,retrain\corpus\sections\IS2H4C__3_2.txt
+IS2H4C,101138473,HORIZON-CL4-2023-TWIN-TRANSITION-01,4,13388,94561,IS2H4C__PUBLIC DOA IS2H4C.pdf,retrain\corpus\sections\IS2H4C__4.txt
+IS2H4C,101138473,HORIZON-CL4-2023-TWIN-TRANSITION-01,2.1,4014,27639,IS2H4C__PUBLIC DOA IS2H4C.pdf,retrain\corpus\sections\IS2H4C__2_1.txt
+IS2H4C,101138473,HORIZON-CL4-2023-TWIN-TRANSITION-01,2.2,5612,39595,IS2H4C__PUBLIC DOA IS2H4C.pdf,retrain\corpus\sections\IS2H4C__2_2.txt
+IS2H4C,101138473,HORIZON-CL4-2023-TWIN-TRANSITION-01,2.3,5149,36034,IS2H4C__PUBLIC DOA IS2H4C.pdf,retrain\corpus\sections\IS2H4C__2_3.txt
+LASER4SURF,,,4,28208,195118,LASER4SURF__Public DoA LASER4SURF - General Info 01-10-2018.pdf,retrain\corpus\sections\LASER4SURF__4.txt
+LASER4SURF,,,1.3,14399,96324,LASER4SURF__Public DoA LASER4SURF - WPs and Info Partners 01-10-2018.pdf,retrain\corpus\sections\LASER4SURF__1_3.txt
+LASER4SURF,,,4,14198,98323,LASER4SURF__Public DoA LASER4SURF - WPs and Info Partners 01-10-2018.pdf,retrain\corpus\sections\LASER4SURF__4.txt
+LIGHTME,,,4,1829,11248,LIGHTME__Annex 1 - Description Of Action _part B_ _9_.pdf,retrain\corpus\sections\LIGHTME__4.txt
+LIGHTME,,,3.3,84554,589008,LIGHTME__Annex 1 - Description Of Action _part B_ _9_.pdf,retrain\corpus\sections\LIGHTME__3_3.txt
+MAGNO,,HORIZON-CL6-2023-ZEROPOLLUTION-01-7,4,13923,96842,MAGNO__PROPOSAL_101135258-MAGNO-HORIZON-CL6-2023-ZEROPOLLUTION-01-PART_B_Section_1.pdf,retrain\corpus\sections\MAGNO__4.txt
+MAGNO,,HORIZON-CL6-2023-ZEROPOLLUTION-01-7,2.2,5336,36277,MAGNO__PROPOSAL_101135258-MAGNO-HORIZON-CL6-2023-ZEROPOLLUTION-01-PART_B_Section_1.pdf,retrain\corpus\sections\MAGNO__2_2.txt
+MERLIN,,,4,1067,7191,MERLIN__Proposal-SEP-210687606.pdf,retrain\corpus\sections\MERLIN__4.txt
+MERLIN,,,3.3,26586,184088,MERLIN__Proposal-SEP-210687606.pdf,retrain\corpus\sections\MERLIN__3_3.txt
+MERLIN,,,2.3,40018,272897,MERLIN__Proposal-SEP-210687606.pdf,retrain\corpus\sections\MERLIN__2_3.txt
+MIRACLE,,,4,24478,171167,MIRACLE__Annex 1 - Description Of Action _part B_ _4_.pdf,retrain\corpus\sections\MIRACLE__4.txt
+MIRACLE,,,2.3,26411,185723,MIRACLE__Annex 1 - Description Of Action _part B_ _4_.pdf,retrain\corpus\sections\MIRACLE__2_3.txt
+MONITANK,,,4,13064,93559,MONITANK__Public DoA MONITANK - General Info 26-07-2018.pdf,retrain\corpus\sections\MONITANK__4.txt
+MONITANK,,,3.3,12783,89184,MONITANK__Public DoA MONITANK - General Info.pdf,retrain\corpus\sections\MONITANK__3_3.txt
+MONITANK,,,4,8829,63457,MONITANK__Public DoA MONITANK - WPs and Info Partners 26-07-2018.pdf,retrain\corpus\sections\MONITANK__4.txt
+MULTICYCLE,143452466,,4,369,2463,MULTICYCLE__820695_Annex 1 - Description Of Action _part B_.pdf,retrain\corpus\sections\MULTICYCLE__4.txt
+MULTICYCLE,143452466,,3.3,77261,535188,MULTICYCLE__820695_Annex 1 - Description Of Action _part B_.pdf,retrain\corpus\sections\MULTICYCLE__3_3.txt
+MULTICYCLE,143452466,,4,77247,534809,MULTICYCLE__AMD-820695-23_Annex 1 - DoA _part B_-draft.pdf,retrain\corpus\sections\MULTICYCLE__4.txt
+MULTIPLE,,,3.3,1308,9622,MULTIPLE__Public DoA Multiple - General Info.pdf,retrain\corpus\sections\MULTIPLE__3_3.txt
+MULTIPLE,,,4,51506,360810,MULTIPLE__Public DoA Multiple - General Info.pdf,retrain\corpus\sections\MULTIPLE__4.txt
+MYTOOLBOX,,,3.3,22508,152211,MYTOOLBOX__PBMO027 - MyToolBox Public DoA.pdf,retrain\corpus\sections\MYTOOLBOX__3_3.txt
+MYTOOLBOX,,,4,22279,149323,MYTOOLBOX__PBMO027 - MyToolBox Public DoA.pdf,retrain\corpus\sections\MYTOOLBOX__4.txt
+NANOBLOC,101057597,HORIZON-CL4-2021-RESILIENCE-01-20,1.1,273,1781,NANOBLOC__101057597_Annex 1 - Description of the action _part B_.pdf,retrain\corpus\sections\NANOBLOC__1_1.txt
+NANOBLOC,101057597,HORIZON-CL4-2021-RESILIENCE-01-20,1.3,200,1206,NANOBLOC__101057597_Annex 1 - Description of the action _part B_.pdf,retrain\corpus\sections\NANOBLOC__1_3.txt
+NANOBLOC,101057597,HORIZON-CL4-2021-RESILIENCE-01-20,1.4,1699,11369,NANOBLOC__101057597_Annex 1 - Description of the action _part B_.pdf,retrain\corpus\sections\NANOBLOC__1_4.txt
+NANOBLOC,101057597,HORIZON-CL4-2021-RESILIENCE-01-20,4,26455,185685,NANOBLOC__101057597_Annex 1 - Description of the action _part B_.pdf,retrain\corpus\sections\NANOBLOC__4.txt
+NANOPAT,,,4,30709,218275,NANOPAT__Annex 1 - Description Of Action _part B_ _2_.pdf,retrain\corpus\sections\NANOPAT__4.txt
+NANOPAT,,,2.3,31633,224334,NANOPAT__Annex 1 - Description Of Action _part B_ _2_.pdf,retrain\corpus\sections\NANOPAT__2_3.txt
+NEMOSINE,,,4,376,4500,NEMOSINE__Annex 1 - Description Of Action _part B_.pdf,retrain\corpus\sections\NEMOSINE__4.txt
+NEMOSINE,,,3.3,58361,400791,NEMOSINE__Annex 1 - Description Of Action _part B_.pdf,retrain\corpus\sections\NEMOSINE__3_3.txt
+NEURICE,,,4,1186,7922,NEURICE__NEURICE_Proposal-SEP-210268294.pdf,retrain\corpus\sections\NEURICE__4.txt
+NEURICE,,,3.3,55944,378228,NEURICE__NEURICE_Proposal-SEP-210268294.pdf,retrain\corpus\sections\NEURICE__3_3.txt
+OLEDSOLAR,179056156,,4,1439,10833,OLEDSOLAR__Public DoA General Info.pdf,retrain\corpus\sections\OLEDSOLAR__4.txt
+OLEDSOLAR,179056156,,1.2,600,4443,OLEDSOLAR__Public DoA General Info.pdf,retrain\corpus\sections\OLEDSOLAR__1_2.txt
+OLEDSOLAR,179056156,,1.3,10420,70716,OLEDSOLAR__Public DoA General Info.pdf,retrain\corpus\sections\OLEDSOLAR__1_3.txt
+OLEDSOLAR,179056156,,1.4,5067,35293,OLEDSOLAR__Public DoA General Info.pdf,retrain\corpus\sections\OLEDSOLAR__1_4.txt
+OLEDSOLAR,179056156,,2.1,3230,23217,OLEDSOLAR__Public DoA General Info.pdf,retrain\corpus\sections\OLEDSOLAR__2_1.txt
+OLEDSOLAR,179056156,,2.2,3799,27858,OLEDSOLAR__Public DoA General Info.pdf,retrain\corpus\sections\OLEDSOLAR__2_2.txt
+OLEDSOLAR,,,4,14969,102215,OLEDSOLAR__Public DoA WPs and Partner Info.pdf,retrain\corpus\sections\OLEDSOLAR__4.txt
+OLEDSOLAR,,,3.1,22394,164907,OLEDSOLAR__Public DoA WPs and Partner Info.pdf,retrain\corpus\sections\OLEDSOLAR__3_1.txt
+PATAFEST,,HORIZON-CL6-2022-FARM2FORK-02-02,1.1,3242,22498,PATAFEST__PROPOSAL_101084284-stage1-PATAFEST-HORIZON-CL6-2022-FARM2FORK-02-two-stage-PART_B_Section_1.pdf,retrain\corpus\sections\PATAFEST__1_1.txt
+PATAFEST,,HORIZON-CL6-2022-FARM2FORK-02-02,1.2,2129,14563,PATAFEST__PROPOSAL_101084284-stage1-PATAFEST-HORIZON-CL6-2022-FARM2FORK-02-two-stage-PART_B_Section_1.pdf,retrain\corpus\sections\PATAFEST__1_2.txt
+PATAFEST,,HORIZON-CL6-2022-FARM2FORK-02-02,2.1,2098,14682,PATAFEST__PROPOSAL_101084284-stage1-PATAFEST-HORIZON-CL6-2022-FARM2FORK-02-two-stage-PART_B_Section_1.pdf,retrain\corpus\sections\PATAFEST__2_1.txt
+PATAFEST,,HORIZON-CL6-2022-FARM2FORK-02-02,3.2,14411,99739,PATAFEST__PROPOSAL_101084284-stage2-PATAFEST-HORIZON-CL6-2022-FARM2FORK-02-two-stage-PART_B_Section_1.pdf,retrain\corpus\sections\PATAFEST__3_2.txt
+PATAFEST,,HORIZON-CL6-2022-FARM2FORK-02-02,4,18812,128867,PATAFEST__PROPOSAL_101084284-stage2-PATAFEST-HORIZON-CL6-2022-FARM2FORK-02-two-stage-PART_B_Section_1.pdf,retrain\corpus\sections\PATAFEST__4.txt
+PERCAL,130719967,,4,924,6776,PERCAL__Public DoA PERCA.pdf,retrain\corpus\sections\PERCAL__4.txt
+PERCAL,130719967,,3.1,19775,136292,PERCAL__Public DoA PERCA.pdf,retrain\corpus\sections\PERCAL__3_1.txt
+PERCAL,130719967,,1.2,32704,230306,PERCAL__Public DoA PERCA.pdf,retrain\corpus\sections\PERCAL__1_2.txt
+PERCAL,,,4,37850,266169,PERCAL__Public DoA PERCAL - WPs and Info Partners 01-10-2018.pdf,retrain\corpus\sections\PERCAL__4.txt
+PHOTONFOOD,,,1.1,4158,28588,PHOTONFOOD__Public DoA- General Info.pdf,retrain\corpus\sections\PHOTONFOOD__1_1.txt
+PHOTONFOOD,,,1.2,981,6831,PHOTONFOOD__Public DoA- General Info.pdf,retrain\corpus\sections\PHOTONFOOD__1_2.txt
+PHOTONFOOD,,,1.3,2463,16575,PHOTONFOOD__Public DoA- General Info.pdf,retrain\corpus\sections\PHOTONFOOD__1_3.txt
+PHOTONFOOD,,,4,3711,26114,PHOTONFOOD__Public DoA- General Info.pdf,retrain\corpus\sections\PHOTONFOOD__4.txt
+PHOTONFOOD,,,1.4,8952,60434,PHOTONFOOD__Public DoA- General Info.pdf,retrain\corpus\sections\PHOTONFOOD__1_4.txt
+PHOTONFOOD,,,2.1,2227,15185,PHOTONFOOD__Public DoA- General Info.pdf,retrain\corpus\sections\PHOTONFOOD__2_1.txt
+PHOTONFOOD,,,2.2,5973,41244,PHOTONFOOD__Public DoA- General Info.pdf,retrain\corpus\sections\PHOTONFOOD__2_2.txt
+PHOTONFOOD,,,3.1,429,3094,PHOTONFOOD__Public DoA- General Info.pdf,retrain\corpus\sections\PHOTONFOOD__3_1.txt
+PHOTONFOOD,101016444,,3.1,11649,77238,PHOTONFOOD__Public DoA- WPs and Partners Info.pdf,retrain\corpus\sections\PHOTONFOOD__3_1.txt
+PHOTONFOOD,101016444,,3.2,3459,23172,PHOTONFOOD__Public DoA- WPs and Partners Info.pdf,retrain\corpus\sections\PHOTONFOOD__3_2.txt
+PHOTONFOOD,101016444,,3.3,1358,9318,PHOTONFOOD__Public DoA- WPs and Partners Info.pdf,retrain\corpus\sections\PHOTONFOOD__3_3.txt
+PHOTONFOOD,101016444,,4,13145,90110,PHOTONFOOD__Public DoA- WPs and Partners Info.pdf,retrain\corpus\sections\PHOTONFOOD__4.txt
+POMATO,101181658,HORIZON-CL6-2024-FARM2FORK-02,4,21852,154597,POMATO__PUBLIC DOA POMATO.pdf,retrain\corpus\sections\POMATO__4.txt
+POWE2HYPE,101091934,HORIZON-CL4-2022-TWIN-TRANSITION-01,4,5801,39694,POWE2HYPE__PUBLIC DOA POWER2HYPE.pdf,retrain\corpus\sections\POWE2HYPE__4.txt
+POWE2HYPE,101091934,HORIZON-CL4-2022-TWIN-TRANSITION-01,3.2,20422,143179,POWE2HYPE__PUBLIC DOA POWER2HYPE.pdf,retrain\corpus\sections\POWE2HYPE__3_2.txt
+PRESERVE,,,4,1092,7059,PRESERVE__PRESERVE_Proposal-SEP-210659280 _2_.pdf,retrain\corpus\sections\PRESERVE__4.txt
+PRESERVE,,,3.3,31756,222914,PRESERVE__PRESERVE_Proposal-SEP-210659280 _2_.pdf,retrain\corpus\sections\PRESERVE__3_3.txt
+PRESERVE,,,2.3,63920,441138,PRESERVE__PRESERVE_Proposal-SEP-210659280 _2_.pdf,retrain\corpus\sections\PRESERVE__2_3.txt
+PRIMROCK,101178403,HORIZON-CL4-2024-TWIN-TRANSITION-01,3.2,1953,14344,PRIMROCK__PUBLIC DOA PRIM ROCK.pdf,retrain\corpus\sections\PRIMROCK__3_2.txt
+PRIMROCK,101178403,HORIZON-CL4-2024-TWIN-TRANSITION-01,4,27461,191119,PRIMROCK__PUBLIC DOA PRIM ROCK.pdf,retrain\corpus\sections\PRIMROCK__4.txt
+PROMETHEUS,101834917,,4,11600,78431,PROMETHEUS__825503_Annex 1 - Description Of Action _part B_.pdf,retrain\corpus\sections\PROMETHEUS__4.txt
+PROMETHEUS,101834917,,1.2,46544,324474,PROMETHEUS__825503_Annex 1 - Description Of Action _part B_.pdf,retrain\corpus\sections\PROMETHEUS__1_2.txt
+PROMETHEUS,101834917,,4,11606,78455,PROMETHEUS__Annex 1 - Description Of Action _part B_ _4_.pdf,retrain\corpus\sections\PROMETHEUS__4.txt
+PROMETHEUS,101834917,,1.2,46523,324350,PROMETHEUS__Annex 1 - Description Of Action _part B_ _4_.pdf,retrain\corpus\sections\PROMETHEUS__1_2.txt
+PROPAT,,,4,42226,306100,PROPAT__PROPAT Amendment - Annex 1 Part B.pdf,retrain\corpus\sections\PROPAT__4.txt
+PROPAT,,,2.1,10859,79740,PROPAT__PROPAT Amendment - Annex 1 Part B.pdf,retrain\corpus\sections\PROPAT__2_1.txt
+RECLAIM,101070524,HORIZON-CL4-2021-DIGITAL-EMERGING-01,4,1471,9840,RECLAIM__Proposal-SEP-210784142.pdf,retrain\corpus\sections\RECLAIM__4.txt
+RECLAIM,101070524,HORIZON-CL4-2021-DIGITAL-EMERGING-01,1.1,6482,45643,RECLAIM__Proposal-SEP-210784142.pdf,retrain\corpus\sections\RECLAIM__1_1.txt
+RECLAIM,101070524,HORIZON-CL4-2021-DIGITAL-EMERGING-01,1.2,575,3989,RECLAIM__Proposal-SEP-210784142.pdf,retrain\corpus\sections\RECLAIM__1_2.txt
+RECLAIM,101070524,HORIZON-CL4-2021-DIGITAL-EMERGING-01,1.3,4145,28111,RECLAIM__Proposal-SEP-210784142.pdf,retrain\corpus\sections\RECLAIM__1_3.txt
+RECLAIM,101070524,HORIZON-CL4-2021-DIGITAL-EMERGING-01,1.4,2326,16880,RECLAIM__Proposal-SEP-210784142.pdf,retrain\corpus\sections\RECLAIM__1_4.txt
+RECLAIM,101070524,HORIZON-CL4-2021-DIGITAL-EMERGING-01,2.1,4024,28906,RECLAIM__Proposal-SEP-210784142.pdf,retrain\corpus\sections\RECLAIM__2_1.txt
+RECLAIM,101070524,HORIZON-CL4-2021-DIGITAL-EMERGING-01,2.2,3041,21980,RECLAIM__Proposal-SEP-210784142.pdf,retrain\corpus\sections\RECLAIM__2_2.txt
+RECLAIM,101070524,HORIZON-CL4-2021-DIGITAL-EMERGING-01,3.1,7345,49397,RECLAIM__Proposal-SEP-210784142.pdf,retrain\corpus\sections\RECLAIM__3_1.txt
+RECLAIM,101070524,HORIZON-CL4-2021-DIGITAL-EMERGING-01,3.2,1161,8121,RECLAIM__Proposal-SEP-210784142.pdf,retrain\corpus\sections\RECLAIM__3_2.txt
+RECOVER,,,1.1,1911,13274,RECOVER__Public DoA- General Info.pdf,retrain\corpus\sections\RECOVER__1_1.txt
+RECOVER,,,1.2,2198,14726,RECOVER__Public DoA- General Info.pdf,retrain\corpus\sections\RECOVER__1_2.txt
+RECOVER,,,1.3,2738,19577,RECOVER__Public DoA- General Info.pdf,retrain\corpus\sections\RECOVER__1_3.txt
+RECOVER,,,1.4,10161,72815,RECOVER__Public DoA- General Info.pdf,retrain\corpus\sections\RECOVER__1_4.txt
+RECOVER,,,2.1,10541,72801,RECOVER__Public DoA- General Info.pdf,retrain\corpus\sections\RECOVER__2_1.txt
+RECOVER,,,2.2,6354,45040,RECOVER__Public DoA- General Info.pdf,retrain\corpus\sections\RECOVER__2_2.txt
+RECOVER,,,3.1,323,2160,RECOVER__Public DoA- General Info.pdf,retrain\corpus\sections\RECOVER__3_1.txt
+RECOVER,,,4,19076,129596,RECOVER__Public DoA- WPs and Partners Infoo.pdf,retrain\corpus\sections\RECOVER__4.txt
+RECOVER,,,3.1,914,6004,RECOVER__Public DoA- WPs and Partners Infoo.pdf,retrain\corpus\sections\RECOVER__3_1.txt
+RECOVER,,,3.3,25820,182906,RECOVER__Public DoA- WPs and Partners Infoo.pdf,retrain\corpus\sections\RECOVER__3_3.txt
+RECREATE,101058756,,1.1,3627,25529,RECREATE__Public DoA- General info.pdf,retrain\corpus\sections\RECREATE__1_1.txt
+RECREATE,101058756,,1.2,5300,37777,RECREATE__Public DoA- General info.pdf,retrain\corpus\sections\RECREATE__1_2.txt
+RECREATE,101058756,,2.1,5874,40520,RECREATE__Public DoA- General info.pdf,retrain\corpus\sections\RECREATE__2_1.txt
+RECREATE,101058756,,2.2,6146,44307,RECREATE__Public DoA- General info.pdf,retrain\corpus\sections\RECREATE__2_2.txt
+RECREATE,101058756,HORIZON-CL4-2021-RESILIENCE-01,3.2,12224,85331,RECREATE__Public Doa- WP.Partners info.pdf,retrain\corpus\sections\RECREATE__3_2.txt
+RECREATE,101058756,HORIZON-CL4-2021-RESILIENCE-01,1.1,3625,25746,RECREATE__RECREATE PUBLIC DOA.pdf,retrain\corpus\sections\RECREATE__1_1.txt
+RECREATE,101058756,HORIZON-CL4-2021-RESILIENCE-01,1.2,5288,38066,RECREATE__RECREATE PUBLIC DOA.pdf,retrain\corpus\sections\RECREATE__1_2.txt
+RECREATE,101058756,HORIZON-CL4-2021-RESILIENCE-01,2.1,5878,40871,RECREATE__RECREATE PUBLIC DOA.pdf,retrain\corpus\sections\RECREATE__2_1.txt
+RECREATE,101058756,HORIZON-CL4-2021-RESILIENCE-01,2.2,6154,44900,RECREATE__RECREATE PUBLIC DOA.pdf,retrain\corpus\sections\RECREATE__2_2.txt
+RECREATE,101058756,HORIZON-CL4-2021-RESILIENCE-01,3.1,215,1508,RECREATE__RECREATE PUBLIC DOA.pdf,retrain\corpus\sections\RECREATE__3_1.txt
+RECREATE,101058756,HORIZON-CL4-2021-RESILIENCE-01,3.2,1420,11388,RECREATE__RECREATE PUBLIC DOA.pdf,retrain\corpus\sections\RECREATE__3_2.txt
+REDOL,101091668,HORIZON-CL4-2022-TWIN-TRANSITION-01-10,4,25151,170607,REDOL__Amendment - AMD-101091668-4-REDOL - PUBLIC DOA-Excellence and impacts.pdf,retrain\corpus\sections\REDOL__4.txt
+REDOL,101091668,HORIZON-CL4-2022-TWIN-TRANSITION-01,4,38869,260111,REDOL__Proposal-SEP-210848083-REDOL.pdf,retrain\corpus\sections\REDOL__4.txt
+REMADYL,,,4,659,4350,REMADYL__Public DoA_Remadyl.pdf,retrain\corpus\sections\REMADYL__4.txt
+REMADYL,,,3.3,50388,348823,REMADYL__Public DoA_Remadyl.pdf,retrain\corpus\sections\REMADYL__3_3.txt
+RESCHAPE,101061729,HORIZON-CL2-2021-TRANSFORMATIONS-01,1.1,9646,66223,RESCHAPE__PUBLIC DOA RESCHAPE.pdf,retrain\corpus\sections\RESCHAPE__1_1.txt
+RESCHAPE,101061729,HORIZON-CL2-2021-TRANSFORMATIONS-01,3.2,7841,53352,RESCHAPE__PUBLIC DOA RESCHAPE.pdf,retrain\corpus\sections\RESCHAPE__3_2.txt
+RESCHAPE,101061729,HORIZON-CL2-2021-TRANSFORMATIONS-01,2.2,11103,79450,RESCHAPE__PUBLIC DOA RESCHAPE.pdf,retrain\corpus\sections\RESCHAPE__2_2.txt
+RETAIN,101181056,HORIZON-CL6-2024-CIRCBIO-02,4,11850,82664,RETAIN__PUBLIC DOA RETAIN.pdf,retrain\corpus\sections\RETAIN__4.txt
+RETAIN,101181056,HORIZON-CL6-2024-CIRCBIO-02,2.1,8865,61369,RETAIN__PUBLIC DOA RETAIN.pdf,retrain\corpus\sections\RETAIN__2_1.txt
+RETAIN,101181056,HORIZON-CL6-2024-CIRCBIO-02,2.3,582,4010,RETAIN__PUBLIC DOA RETAIN.pdf,retrain\corpus\sections\RETAIN__2_3.txt
+RETAIN,101181056,HORIZON-CL6-2024-CIRCBIO-02,3.2,2082,14159,RETAIN__PUBLIC DOA RETAIN.pdf,retrain\corpus\sections\RETAIN__3_2.txt
+RIVER,101193563,,4,50252,362457,RIVER__PROPOSAL_101254362-RIVER -RFCS-2025-CSP-PART_B_Section_1.pdf,retrain\corpus\sections\RIVER__4.txt
+ROSSINI,,,3.3,13150,90405,ROSSINI__Annex 1 - Description of Action _part B_ - Sept 2020.pdf,retrain\corpus\sections\ROSSINI__3_3.txt
+ROSSINI,,,4,32375,232375,ROSSINI__Annex 1 - Description of Action _part B_ - Sept 2020.pdf,retrain\corpus\sections\ROSSINI__4.txt
+SCALIBUR,,,4,979,6565,SCALIBUR__Proposal-SEP-210503393 _1_.pdf,retrain\corpus\sections\SCALIBUR__4.txt
+SCALIBUR,,,3.3,81539,567724,SCALIBUR__Proposal-SEP-210503393 _1_.pdf,retrain\corpus\sections\SCALIBUR__3_3.txt
+SECUREFOOD,,HORIZON-CL6-2023-FARM2FORK-01-15,1.1,16018,114897,SECUREFOOD__PROPOSAL_101136583-SecureFood-HORIZON-CL6-2023-FARM2FORK-01-PART_B_Section_1.pdf,retrain\corpus\sections\SECUREFOOD__1_1.txt
+SECUREFOOD,,HORIZON-CL6-2023-FARM2FORK-01-15,2.2,3371,24864,SECUREFOOD__PROPOSAL_101136583-SecureFood-HORIZON-CL6-2023-FARM2FORK-01-PART_B_Section_1.pdf,retrain\corpus\sections\SECUREFOOD__2_2.txt
+SECUREFOOD,,HORIZON-CL6-2023-FARM2FORK-01-15,2.3,548,4193,SECUREFOOD__PROPOSAL_101136583-SecureFood-HORIZON-CL6-2023-FARM2FORK-01-PART_B_Section_1.pdf,retrain\corpus\sections\SECUREFOOD__2_3.txt
+SECUREFOOD,,HORIZON-CL6-2023-FARM2FORK-01-15,3.1,10125,69608,SECUREFOOD__PROPOSAL_101136583-SecureFood-HORIZON-CL6-2023-FARM2FORK-01-PART_B_Section_1.pdf,retrain\corpus\sections\SECUREFOOD__3_1.txt
+SECUREFOOD,,HORIZON-CL6-2023-FARM2FORK-01-15,3.2,799,5380,SECUREFOOD__PROPOSAL_101136583-SecureFood-HORIZON-CL6-2023-FARM2FORK-01-PART_B_Section_1.pdf,retrain\corpus\sections\SECUREFOOD__3_2.txt
+SHAREBOX,,,4,55175,384506,SHAREBOX__SHAREBOX Annex 1 - Part B - 27032018.pdf,retrain\corpus\sections\SHAREBOX__4.txt
+SOLUTIONS,,,4,1484,10087,SOLUTIONS__Proposal-SEP-210560696 5G-SOLUTIONS1.pdf,retrain\corpus\sections\SOLUTIONS__4.txt
+SOLUTIONS,,,3.3,120383,842188,SOLUTIONS__Proposal-SEP-210560696 5G-SOLUTIONS1.pdf,retrain\corpus\sections\SOLUTIONS__3_3.txt
+SORT4CIRC,101181988,HORIZON-CL6-2024-CIRCBIO-02,2.1,17016,116718,SORT4CIRC__SORT4CIRC PUBLIC DOA.pdf,retrain\corpus\sections\SORT4CIRC__2_1.txt
+SORT4CIRC,101181988,HORIZON-CL6-2024-CIRCBIO-02,3.2,18102,132843,SORT4CIRC__SORT4CIRC PUBLIC DOA.pdf,retrain\corpus\sections\SORT4CIRC__3_2.txt
+SORT4CIRC,101181988,HORIZON-CL6-2024-CIRCBIO-02,3.3,3153,20815,SORT4CIRC__SORT4CIRC PUBLIC DOA.pdf,retrain\corpus\sections\SORT4CIRC__3_3.txt
+SPRING,,,4,9051,61613,SPRING__PUBLIC DOA SPRING.pdf,retrain\corpus\sections\SPRING__4.txt
+SPRING,,,3.3,10232,72724,SPRING__PUBLIC DOA SPRING.pdf,retrain\corpus\sections\SPRING__3_3.txt
+SUPREME,,,4,31282,208569,SUPREME__Proposal-SEP-210407747.pdf,retrain\corpus\sections\SUPREME__4.txt
+SUPREME,,,3.3,38418,252930,SUPREME__Proposal-SEP-210407747.pdf,retrain\corpus\sections\SUPREME__3_3.txt
+SUSALGAEFUEL,,HORIZON-CL5-2023-D3-02-08,4,18342,128632,SUSALGAEFUEL__PROPOSAL_101147601-SusAlgaeFuel-HORIZON-CL5-2023-D3-02-PART_B_Section_1.pdf,retrain\corpus\sections\SUSALGAEFUEL__4.txt
+SUSALGAEFUEL,,HORIZON-CL5-2023-D3-02-08,2.2,2667,19360,SUSALGAEFUEL__PROPOSAL_101147601-SusAlgaeFuel-HORIZON-CL5-2023-D3-02-PART_B_Section_1.pdf,retrain\corpus\sections\SUSALGAEFUEL__2_2.txt
+SUSALGAEFUEL,,HORIZON-CL5-2023-D3-02-08,2.3,11474,78739,SUSALGAEFUEL__PROPOSAL_101147601-SusAlgaeFuel-HORIZON-CL5-2023-D3-02-PART_B_Section_1.pdf,retrain\corpus\sections\SUSALGAEFUEL__2_3.txt
+SUSALGAEFUEL,,HORIZON-CL5-2023-D3-02-08,3.2,2578,17619,SUSALGAEFUEL__PROPOSAL_101147601-SusAlgaeFuel-HORIZON-CL5-2023-D3-02-PART_B_Section_1.pdf,retrain\corpus\sections\SUSALGAEFUEL__3_2.txt
+SUSTAINEXT,101023256,,4,22180,150790,SUSTAINEXT__PROPOSAL_101112434-SUSTAINEXT-HORIZON-JU-CBE-2022-PART_B.pdf,retrain\corpus\sections\SUSTAINEXT__4.txt
+SUSTAINEXT,101023256,,3.3,23891,160261,SUSTAINEXT__PROPOSAL_101112434-SUSTAINEXT-HORIZON-JU-CBE-2022-PART_B.pdf,retrain\corpus\sections\SUSTAINEXT__3_3.txt
+THESEUS,101178059,HORIZON-CL4-2024-TWIN-TRANSITION-01,3.2,15449,114717,THESEUS__PUBLIC DOA THESEUS.pdf,retrain\corpus\sections\THESEUS__3_2.txt
+THESEUS,101178059,HORIZON-CL4-2024-TWIN-TRANSITION-01,2.1,11319,81274,THESEUS__PUBLIC DOA THESEUS.pdf,retrain\corpus\sections\THESEUS__2_1.txt
+THESEUS,101178059,HORIZON-CL4-2024-TWIN-TRANSITION-01,2.3,3929,28853,THESEUS__PUBLIC DOA THESEUS.pdf,retrain\corpus\sections\THESEUS__2_3.txt
+UPSKILL,101070666,HORIZON-CL4-2021-HUMAN-01,4,9575,65614,UPSKILL__UP-SKILL PUBLIC DOA.pdf,retrain\corpus\sections\UPSKILL__4.txt
+UPSKILL,101070666,HORIZON-CL4-2021-HUMAN-01,1.2,17016,122411,UPSKILL__UP-SKILL PUBLIC DOA.pdf,retrain\corpus\sections\UPSKILL__1_2.txt
+UPSKILL,101070666,HORIZON-CL4-2021-HUMAN-01,3.2,1005,7040,UPSKILL__UP-SKILL PUBLIC DOA.pdf,retrain\corpus\sections\UPSKILL__3_2.txt
+URBIOFIN,,,4,663,4429,URBIOFIN__Public DoA 745785-URBIOFIN.pdf,retrain\corpus\sections\URBIOFIN__4.txt
+URBIOFIN,,,3.3,57456,405158,URBIOFIN__Public DoA 745785-URBIOFIN.pdf,retrain\corpus\sections\URBIOFIN__3_3.txt
+URBIOFIN,,,4,61461,439894,URBIOFIN__Public DOA _part B_ _1_ _1_ aug2020.pdf,retrain\corpus\sections\URBIOFIN__4.txt
+VISS,101091536,,4,8098,57046,VISS__Annex 1 - Description of the action _part B_.pdf,retrain\corpus\sections\VISS__4.txt
+VISS,101091536,,1.1,12838,90726,VISS__Annex 1 - Description of the action _part B_.pdf,retrain\corpus\sections\VISS__1_1.txt
+W2W,101138789,HORIZON-CL4-2023-TWIN-TRANSITION-01,4,30197,214749,W2W__W2W PUBLIC DOA.pdf,retrain\corpus\sections\W2W__4.txt
+WHITECYCLE,101059639,HORIZON-CL6-2021-CIRCBIO-01,4,2442,16491,WHITECYCLE__Proposal-SEP-210765929-WHITECYCLE.pdf,retrain\corpus\sections\WHITECYCLE__4.txt
+WHITECYCLE,101059639,HORIZON-CL6-2021-CIRCBIO-01,3.2,33305,223224,WHITECYCLE__Proposal-SEP-210765929-WHITECYCLE.pdf,retrain\corpus\sections\WHITECYCLE__3_2.txt

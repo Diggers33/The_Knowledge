@@ -1,0 +1,109 @@
+3.3 Consortium as a whole  
+The consortium consists of 13 complementary members including research institutes, SMEs and 
+a leading FMCG company. For effective management of the project and to listen to everyone’s 
+voice, formation of a high -level board consisting representative of each  member of the 
+consortium is a must. Hence, a Project Board is appropriate for such a big consortium. As this is 
+a high-level board and senior officials from each partner organisation are involved, twice a year 
+meeting is quite appropriate for this board.  The creation of role of a Project Coordinator, who 
+will chair the project board is very vital for successful implementation of such a project. The 
+responsibility of this position is to coordinate between the consortium and the fund provider, EC. 
+This position is important as the consortium must have to submit several reports regularly to the 
+EC. They will also have to inform important decision taken in the project board meeting to the 
+EC. For these regular and some critical jobs such a position is very cru cial. Two other key 
+management positions i.e. Project Technical Manager and Project Exploitation, Dissemination 
+and Communication manager are very crucial as their roles have been discussed previously. 
+Finally, the WP leaders’ roles are vital as they will work in the grassroots level and they are 
+responsible for delivering the actual deliverables of the project.  
+Partner  Role in the Project  
+STEF  SINTEF (Leading Norwegian RTO with extensive capabilities in soft matter processing and 
+modelling & simulation) will be be the project coordinator for DIY4U project. STEF, along with CPI, 
+ 
+ will lead WP8 (Demonstration of Fablab and Integrated DIY4U Services), acting as MDF for the one 
+of the two fablabs to be developed. STEF will provide crucial end -user input (WP2) that will feed 
+into platform and fablab design/development (WPs 3 -6) and support DSC and CTM in the 
+development of relevant soft matter modelling and process simulation capabilities for DIY4U.  
+P&G  
+P&G (Leading global manufacturer of FMCGs including detergents and soaps) will guide the projects 
+technical developments (WP3 -WP8), ensuring that it remains industry -relevant and commercially 
+viable. P&G will lead the manufacture and supply of base formulations (WP7) that will be customised 
+in the MDFs (WP8). As a key exploitation partner, P&G will work with PIC and the other partners 
+to develop the DIY4U business model and commercialization plan.  
+CPI  
+CPI  (Part of the UK’s High Value Manufacturing Catap ult, hosting the National Formulation Centre with 
+capabilities in the processing of complex particle, complex liquids and other material formulations, as well as 
+capabilities in modelling and process engineering) will, similarly to STEF, lead WP8 ( Demonstration of 
+Fablab and Integrated DIY4U Services), acting as MDF for the one of the two fablabs to be 
+developed, and  provide crucial end -user input (WP2) that will feed into platform and fablab 
+design/development (WPs 3 -6). CPI will additionally employ a com bination of its formulation, process 
+engineering and modelling & simulation capabilities to lead the development of the LCA/LCCA model 
+subplatform (WP4) and support DSC and CTM in the development of soft matter modelling & simulation 
+capabilities and digital twin.  
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    58  
+  
+VTT  
+VTT (Leading European RTO with PAT, data analytics and automation expertise and capabilities) 
+will act as the leader of PAT activities in the project, developing integrated, miniaturised and lowcost 
+PAT methods and devices for the Fablabs based on near -infrared spectroscopy, camera -based 
+measurements and other techniques. VTT will also develop calibration methods and data analysis for 
+the PAT devices.  
+CTM  
+Cetemet (robotic and automation expert, with process modelling expertise) will co-lead the extension 
+of platform functionalities and testing, developing a digital twin and deploying a soft matter 
+modelling and simulation for using it to provide an open access collaborative production. Cetemet 
+will enhance the simulation of soft matter by simulating it at the macroscopic level and correlate the 
+results obtained at a microscopic level and analysing its interaction with the equipment that contains 
+it. For this, it will carry out flow simulations with fluid particles to analyze their behavior and 
+interaction with the structure through which the flow circulates by means of structural and fluid 
+dynamics simulations with finite elements. The results will be implemented in the virtual twin in the 
+platform and will contribute to the testing of the same. In addition , Cetemet will support the design 
+and development of the fablab prototypes, using 3D CAD systems to obtain 3D models and drawings 
+according to the requirements that will contribute to the development of the system. This activity will 
+also involve the use of FE simulations for the assurance of the material resistance and the structural 
+stability of the prototype.  
+IRIS  
+IRIS will function as the main software developer of the consortium, responsible for the programming 
+and deployment of the KMC platform which will act as core controller and provide the backend and 
+frontend for the whole DIY4U platform. IRIS will therefore be also responsible for the integration of 
+the various advanced tools in the form of modules of the platform. IRIS will collaborate closely with 
+EFF and DCC and the partners developing the extension functionalities/modules as well as fablab 
+users (STEF and CPI) and the rest of the consortium.  
+DCC  
+Digital Catapult, as the blockchain expert of the consortium, will contribute to the understanding of 
+user needs and requirements to then lead on the platform architecture design, having into account 
+both the c entralised and decentralised elements of the solution to enable efficient and trusted 
+relationships between the different stakeholders involved in the fabrication of detergents. DCC will 
+also have an advisory role during the development process of the plat form, making sure the design 
+proposed is being met. Moreover, DCC will support the dissemination and exploitation actions 
+(specially with the blockchain and manufacturing communities) and will run the FMCG Open 
+Innovation Community with the purpose to brin g relevant stakeholders together and find research 
+and business opportunities. Moreover, DCC will run workshops to identify new business models 
+emerging for start -ups and collaborators and will produce reports from the results for knowledge 
+sharing and to raise awareness of DIY4U.  
+PIC  
+PICOM (French innovation cluster working for the retail industry) will lead use case definition and 
+business model definition as well as evaluation, ensuring that they address both customers, brands, 
+retailers, services providers and technology providers' needs. PICOM will also provide strong support 
+ to open calls management and dissemination.  
+CDY  
+Cody (robotic and automation solution provider with expertise in manufacturing automated 
+equipment) will lead the Fablab design and development. Cody will contribute with their knowledge 
+within machine development, product development, machine safety, operator interface and interface 
+between machines and platform. Cody will also lead the Fablab replication and DIY4U training.  
+RDI  
+RDI will analyse  Market and segment sectors related to the DIY4U. Ensure data repository and 
+analytics in order to valuable information and non-trivial correlation between parameters, assess the 
+human behaviour and needs. Also, RDI will create Machine Learning to evaluate  created formulas 
+and make decisions.  
+ Associated with document Ref. Ares(2019)6093268 - 02/10/2019 
+870148: DIY4U – Part B    59  
+  
+STL  Stelar (“Privacy -by-Design” experts with legal background) will contribute legal data privacy 
+requirements analysis and GDPR/other regulations compliance support monitoring, ensuring that 
+DIY4U complies with relevant regulations.  
+EFF  Effective Decisions, actively involved in the blockchain space in the last 4 years, will contribute 
+with high-level architecture perspective and development expertise for the decentralized modules, 
+distributed ledger technologies and privacy preserving features of the DIY4U platform.  
+DSC  DSC (soft matter modelling and process simulation experts) will lead the development of relevant 
+soft matter models and support CTM with the development of the Fablab digital Twin, working in 
+close collaboration with STEF, CPI and the rest of the consortium.

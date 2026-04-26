@@ -12,7 +12,7 @@ export interface Partner {
   speciality: string
   wps?: string[]
   previousWork?: string
-  source: 'kb' | 'openaire' | 'manual'
+  source: 'kb' | 'tavily' | 'manual'
 }
 
 export interface ProjectBrief {
@@ -90,5 +90,5 @@ export interface PartnerSuggestion {
   fitScore: number
   fitReason: string
   previousWork?: string
-  source: 'kb' | 'openaire'
+  source: 'kb' | 'tavily'
 }

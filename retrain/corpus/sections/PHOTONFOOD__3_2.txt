@@ -1,0 +1,376 @@
+3.2 Management structure, milestones and procedures  
+ 
+Project Management Organisation structure and decision-making procedures  
+The coordination tasks defined in WP8 concern the overall coordination of the technological and scientific 
+developments within the different WPs to ensure alignment of the developed products and scientific findings. 
+The Coordinator, Prof. Dr. Achim Kohler (NMBU), will be responsible for the robust coordination of the 
+PHOTONFOOD consortium and ensuring that the project is within scope, is delivered on time, within budget 
+and to a high quality to ensure impact. Prof. Kohler is a well-renowned and well-respected academic from the 
+MIR spectroscopy and data analysis field globally. Prof. Dr. Kohler has been involved in many international 
+projects and has been successful co-founder of three spin-off companies of his university. He is an ideal figure 
+to lead such a project and he also has the organisation and leadership skill-sets to effectively perform this role, 
+which is demonstrated through his role as the Head of the Biospectroscopy and D ata Modelling group  at 
+NMBU with a team of 20 researchers under his leadership. Prof. K ohler will also be responsible for 
+communicating all results, scientific and financial, and related issues with the EU representative. 
+The Coordinator will be assisted by a Project Manager and a Scientific Manager (Deputy Coordinator) 
+from NMBU. The Project Manager will assist the Coordinator in administrative issues related to reporting and 
+finance. The highly experienced Project Manager Stine Brekke Vennemo (NMBU) will be responsible for 
+the timely delivery of draft scientific and financial reports to the Coordinator. Stine Brekke Vennemo has her 
+background in data engineering and will further be responsible for the data management in the project.  She 
+will also act as data protection officer and be responsible for managing all personal data according to GDPR 
+described in section 5.1 (https://gdpr.eu/). The Scientific Manager Assoc. Prof. Volha Shapaval (NMBU) will 
+monitor the progress of the milestones (see table 3.2a) and deliverables (see table 3.1c) and will (pre-)review 
+all project reports. The Dissemination Manager Dr Johannes Ripperger (accelCH) will be responsible for 
+leading the consortium in further planning and  implementation of the project communication and 
+dissemination activities, and ensuring the project reaches out to different audiences in the most effective way. 
+PHOTONFOOD 
+ 
+64 
+ 
+The Innovation Manager Prof. Dr Scholderer (NMBU) will be responsible for knowledge  management 
+within the consortium. He will lead the consortium in protecting the project results where appropriate, and in 
+maintaining confidentiality of the results until the IP is protected to safeguard the innovation impacts. Prof. 
+Scholderer has vast  experience in relation to knowledge management in collaborative projects. He has 
+experience of leading patent  applications, open access publications, etc. in past projects.  The Exploitation 
+Manager Dr Julian Haas (HS) will lead the exploitation of the proj ect results. Dr. Haas has experience from 
+other projects (e.g. H2020 MIRACLE , see Table 4 ) on how to identify stakeholder demands and market 
+opportunities. 
+Each WP is led by a WP leader who take routine decisions communicate those with the Coordinator, 
+monitor progress of output and budget according to the work plan, and prepare all documents related to their 
+WP. 
+ 
+Table 3.2a: List of milestones  
+Milestone  Milestone name Related 
+WP 
+Date Means of verification 
+MS1.1 Component-level user requirements 
+update presented to WP leaders 
+All WPs M25 Feedback to the development WPs (WP2-5) about 
+the updated requirements 
+MS1.2 System-level user requirements 
+update presented to WP leaders 
+All WP M37 Report on system-level user requirements 
+MS2.1  Portable Microfluidics Pre-
+prototype 
+WP2 M24 Evaluation of specifications and design   
+MS2.2  Portable Microfluidics Prototype WP2 M36 Validation with MI-FI & HI-FI prototypes in lab 
+validation 
+MS3.1 IC-LEDs optical components WP3 M18 Evaluation of the spectral target coverage (1800-
+1500 cm-1) 
+MS3.2 Monolithic tuneable lasers  WP3 M28 Evaluation of the spectral target coverage (1800-
+1500cm-1) 
+MS 4.1 Five handheld MI-FI analyzer 
+prototypes for demonstration 
+WP4, 
+WP3 
+M30 Evaluation of MI-FI analyzer prototype design and 
+performance on real samples 
+MS 4.2 One portable HI-FI analyzer 
+prototype for demonstration 
+WP4, 
+WP3 
+M24 Evaluation of HI-FI analyzer prototype design and 
+performance on real samples 
+MS 5.1 Software Alpha release  WP5 M36 Pre-processing and calibration models validated in 
+lab 
+MS 5.2 Software Beta release  WP5 M48 Pre-processing and calibration models validated 
+during demonstration 
+MS 6.1 Portable HI-FI solution validated  WP6 M48 Performance validated in field and end users 
+feedback implemented MS 6.2 Handheld MI-FI solution validated  WP6 M48 
+ 
+Two project management bodies are envisaged  (see Fig. 17): The Executive Board (EB), which is an 
+executive management body of the project, and the General Assembly (GA), which is the strategic steering 
+and decision-making body. Day-to-day decision making will be the responsibility of the Executive board, 
+chaired by th e Coordinator, whose membership will comprise the Coordinator (chair), Scientific Manager 
+(Deputy Coordinator),  Project manager and WP leaders. The Executive board  will meet as frequently as 
+required with a  minimum of every 6 months. In general, occasions will be sought to combine activities to 
+minimise travel costs. The decision-making body on major strategic decisions will be the General Assembly, 
+chaired by the Coordinator, whereby each partner organisation will appoint one representative . The GA will 
+in addition include the  Coordinator (chair), the Scientific Manager, the Project Manager, the Exploitation 
+Manager, the Innovation Manager, and the Dissemination Manager). Each partner is assigned one  vote to 
+ensure a democratically run project (2/ 3 majority voting). Major strategic decisions will be made by the 
+General Assembly, such as change of scope, IPR related decisions, conflicts, budget related decisions, etc. All 
+matters of a strategic nature will be floated to the General Assembly and will aim to be accompanied by a  
+recommendation from the Executive board. The GA suggests refocusing of research directions, proposes the 
+publication plan and decides on conflicting issues such as prioritizing samples in case of a temporary 
+breakdown or other c ontingency situation and subsequent mitigating actions (see table 3.2b). The General 
+Assembly will meet once per year. 
+In addition, a voluntary Advisory Board has been established that will provide guidance and advice to the 
+consortium through its international experts in themes of high relevance for the project. To this end, the 
+Advisory Board (AB) of  PHOTONFOOD involves two experts from the field of photonics (Prof. Gottfried 
+PHOTONFOOD 
+ 
+65 
+ 
+Strasser from TU Vienna, Austria, expert in light sources  and Prof. Goran Mashanovich from University of 
+Southampton, an expert in waveguides) . IBM as a global cloud platform and cognitive solutions company  
+represented by Loek Vredenberg who will be part of Advisory Board to engage with their blockchain based 
+Food Trust platform and supporting skills. IBM will contribute to developing an interface between the 
+PHOTONFOOD software and the IBM Food Trust platform for integrating data and utilizing data for 
+improving food safety and reducing waste along the food chain.  The Directorate General for Health and Food 
+Safety/European commission in Brussels represented by Frans Verstraete will participate in the advisory board 
+as a policy maker  organization. The Advisory  Board will provi de an important mechanism for providing 
+guidance on the General Assembly. It is noteworthy that the Advisory Board is a voluntary body. The Advisory 
+Board will sign a confidentiality agreement with the Coordinator in order to safeguard the confidential aspects 
+of the project that they might be exposed to. The members of the Advisory Board will have no decision-making 
+capacity in the project. The AB will meet three times with the GA. Two times by video meetings and two times 
+in person. A budget for this is foreseen in the NMBU budget.  All advisory board members have expressed 
+their willingness to join the Advisory Board (LOIs available, see Annex) should the PHOTONFOOD project 
+be selected for funding. The advisory board members will provide additional ‘reality checks’ from the outset 
+of the project. Since the consortium of PHOTONFOOD has a broad coverage of stakeholders that are strongly 
+involved in the user acceptance and validation and demonstration activities, the advisory board was chosen to 
+cover and policy maker members and scientific members to have further reality checks for the technological 
+developments in the project. 
+ 
+Meetings 
+There will be 5 meeting 
+points in the project during 
+which one or several groups 
+meet (Meetings are  
+indicated in the GANTT 
+Chart). The first of five 
+Executive board  (EB) 
+meetings will take place 
+during the Kick-off meeting 
+(M1) in Norway . NMBU 
+will present the decision -
+making and financial 
+procedures and will put the 
+corresponding 
+documentation on the 
+internal website. The other 
+four EB meetings will take 
+place in months M 12, M22, M30, M48. Comprehensive progress reports and pla ns for the next 4 -6 months 
+will be presented by the WP leaders. These  meetings serve to solve practical and scientific issues of non -
+strategic nature and to discuss immediate actions to be  taken case milestones or deliverables cannot be 
+delivered on time.  
+The four General Assembly (GA) meetings will take place during the kick-off meeting in M1 and in months 
+M12, M30 and M48. At the GA meetings, major strategic decisions are made, the progress of the entire project 
+is discussed in detail in cooperation with the Advisory Board (see below) and plans for the next period are 
+reported. The General Assembly will verify that the project meets both deliverable and milestone targets. If  
+there is a major decision point in a WP which could affect the scope of the work for example, the issue will be 
+brought first to the Executive board and then to the General Assembly for decision making. The Project General 
+Assembly will have an agenda which covers at least the following points: i) Update of progress against  
+implementation plan; ii) Update on next stage of implementation; iii) Financial issues; iv) Contractual issues; 
+v) Intellectual property issues; vi) Update on meetings stakeholders; vii) Gender  implementation plan; viii) 
+Dissemination of project results . 
+The Advisory Board (AB) meetings will take place in months M1, M22 and M48. In addition, annual 
+videoconferences will be organised between the General Assembly and the Advisory Board.  Each meeting 
+will be held at the location of one of the WP leaders. The host will provide meeting rooms, lunches and  one 
+formal dinner for all attendants. The meeting in Month 12 will be held at UULM. The meetings at M30 and 
+ 
+Figure 17: Management structure. 
+
+PHOTONFOOD 
+ 
+66 
+ 
+M48 will be held in connection with end user meetings. Other meeting locations will be decided at  the kick-
+off meeting. Videoconferencing will be used to address specific issues that might arise during the project or  
+where specific decisions are required. WP leaders will also need to hold separate ad -hoc meetings of those 
+partners involved in activities, and again these will be combined wherever possible with other meetings.  The 
+Coordinator will chair each meeting and  will produce written minutes of each meeting, which shall be the 
+formal record of all decisions taken. Minutes of each meeting will be distributed by e -mail to all project 
+partners within a week. All Executive board Members and General Assembly members can suggest topics for 
+the meeting  agenda. Additionally, it is expected that WP leaders could be invited to specific stakeholder 
+association meetings to describe  specific commodity related aspects of the project. The Agenda will be a 
+mixture of progress reports from WPs where there are non-confidential scientific and innovation achievements 
+to report and items generated by the Project  General Assembly  that require end -user input.  Reporting 
+Procedures: In addition to formal deliverables identified in table 3.1c, WP leaders will provide the Coordinator 
+with bi-annual and annual internal progress reports as follows: (i) bi-annual reports summarising progress on 
+milestones and deliverables, unexpected results , and future strategies , and (ii) annual report on progress, 
+highlighting any planning issues and also providing a summary of financial resources for the WP. The internal 
+reports will feed into the Contractual reports required by the Grant Agreement. 
+In addition, all partners will contribute to the  formal project progress reports and will submit formal 
+financial statements as appropriate in line with the requirements of the Grant Agreement. Communication 
+amongst the consortium will be enabled through a secure section of the PHOTONFOOD website (by password 
+access), which will also serve as a  structured repository for project documents and will be the main project 
+platform for internal exchange of information.  
+ 
+Appropriateness of the organisational structure and decision-making mechanisms 
+This consortium includes European members that have a remit to address a pressing societal challenge in a 48-
+month work plan through the delivery of a series of ambitious scientific and technological  advances and 
+ensuring high impact. To this end, we are confid ent that a core project management unit made up of the  
+Coordinator, Scientific Manager and Project Manager, each with key roles and responsibilities is a realistic 
+and robust approach. This core unit and the supporting Executive board provide a sufficiently decentralised 
+leadership to enable this ambitious project highly manageable. In the interest of a democratic and inclusive 
+project for all  partners, the existence of a General Assembly that can focus o n the strategic direction of the 
+project will ensure that all partners have a voice in how the project is run and all are afforded an opportunity 
+to steer the project  ensuring it delivers impacts for all partners and for the wider stakeholder communities 
+through external engagements and interaction with a highly relevant and influential Advisory Board. 
+ 
+Innovation Management 
+Since PHOTONFOOD intends to deliver innovations with a real impact on  food safety, it is crucial that the 
+academic and industry partners in the consortium work in close collaboration with end-users and stakeholders. 
+This has been taken carefully into account in the design of and the interaction between the project WPs. I n 
+WP1 and WP6, end-users are directly involved as project partners, defining user requirements, participating 
+in the demonstrations, and providing access to facilities and materials. Ultimate success, however, will require 
+uptake by much larger parts of the food and agribusiness sector. Therefore, WP1 will engage also customers, 
+users and stakeholders from outside the project already at an early stage. This will ensure that the project can 
+respond rapidly to changes in customer needs, user requirements, market conditions, regulatory initiatives, and 
+complementary or competing technological developments. The PHOTONFOOD prototypes will be ready in 
+M24 and M36, respectively . The  validation, demonstration and systematic feedback-gathering activities 
+involving customers, end-users and stakeholders will ensure a market-oriented and user -centric approach, 
+substantially increasing the likelihood of commercial success of the developed solutions . Together, these 
+mechanisms will establish an effective market feedback loop for our project.  
+ 
+In order to ensure that the that the innovations and market opportunities are optimally managed, the project 
+has created t wo special roles. The Innovation Manager (Prof. Scholderer, NMBU) will be responsible for 
+knowledge management within the consortium  during the project’s lifetime. He will lead the consortium in  
+protecting the project results where appropriate, maintaining confidentiality of the results until the IP is 
+protected to safeguard the innovation impacts , and developing the IP strategy of the consortium . The 
+Exploitation Manager (Dr Haas, HS)  will be responsible for the planning and initiation of the 
+commercialisation and further business development activities after the end of the project’s lifetime . The 
+Innovation Manager and the Exploitation Manager will work in tandem, ensuring (a) that the interests of the 
+consortium members are properly balanced against the interests of the parties which will commercialise the 
+PHOTONFOOD 
+ 
+67 
+ 
+technology, and (b) that the  IP strategy of the consortium provides support and leverage to  the further 
+exploitation and business development plans. Both will be part of the Management Support Team, ensuring 
+that innovation and exploitation are prioritised in all decisions made by the project.  
+ 
+Risk management 
+During the project, we will systematically analyse and manage risks that could jeopardise the implementation 
+of the project, its scientific and technological outcomes, as well risks in relation to IPR, or the ability to deliver 
+the projects innovation and long -term impact. The tasks and the organisational structure were analysed for 
+their specific risks per WP. The severity of each risk was analysed and a plan for a solution was suggested. In 
+case a r isk does happen, the partner will immediately inform the work package leader who will inform the 
+Coordinator. The Coordinator will directly inform the EU representative. Solutions will be discussed between 
+the coordinator, the WP leader and the partner and proposed to the EU representative and only be implemented 
+after discussion with and written approval of the EU representative. Consequences for distribution of budget 
+will be identified and agreed upon with EU representative before the implementation of the proposed solution. 
+At proposal stage, a number of critical risks have been identified and discussed in table 3.2b below including 
+details on risk mitigation action to be taken. 
+ 
+Data management 
+A data management plan will be developed in WP 8 according to the Guidelines on Data Management in 
+Horizon 2020 (D8.7 M6). Although the DMP is not a fixed document and will evolve during t he lifespan of 
+the project. It covers the following elements: 1) Data set reference and name, 2) Data set description, 3) 
+Standards and metadata, 4) Data sharing, 5) Archiving and preservation (incl. storage and backup). Details on 
+the agreed standards for  data collection, data exploitation (accessibility/shared), data preservation and 
+dissemination of data results are provided in the Impact sections. 
+Table 3.2b: Critical risks for implementation  
+Description of risk (likelihood: 
+Low/Medium/High) 
+WP(s)  Proposed risk-mitigation measures 
+Time 
+Planned project activities cannot 
+be realized in time as planned / M 
+All Proper planning and tight regular follow up of the 
+project work during the implementation phase. 
+Several activities will start in parallel. 
+Cost 
+Project activities cannot be completed 
+within the budget / L 
+All Careful planning and up-date follow up of the budget 
+during the project period. 
+Management 
+Key person(s) leave the partner 
+organisations / M 
+All Every key person has a competent named deputy in 
+each WP. 
+Management 
+One of the partners leaves the 
+consortium / L 
+All Motivation of partners by allocating suitable roles for 
+them in the consortium. Re-allocating the partner’s 
+tasks to the other partners, or if not possible, recruiting 
+a replacing partner according to the rule 
+Management 
+Partners are reluctant to IP sharing / L 
+All Carefully prepared Consortium Agreement that sets 
+the IP sharing principles. 
+Implementation   
+Technical 
+User acceptance of the new photonic 
+solution is low/L 
+WP1- 
+WP5 
+User requirements and acceptance data from WP1 will 
+be continuously feed to the WPs responsible for 
+technology development to mitigate this risk 
+Technical 
+Investment cost and unit cost of 
+laboratory tests will exceed the 
+estimated threshold / L 
+WP1- 
+WP5 
+Alternative technical scenarios have been identified 
+during the project proposal development to mitigate 
+this risk. The HI -FI and MI-FI solutions all bear 
+marketing opportunities that could be exploited. 
+PHOTONFOOD 
+ 
+68 
+ 
+Technical 
+WP2: The desirable preconcentration 
+clean-up effect is insufficient for the 
+application/L 
+ 
+ 
+WP2: The development of a fully 
+integrated device could take long, which 
+would result in delays in other WPs/L. 
+WP2 
+ 
+ 
+ 
+We have elaborated three strategies, based on existing 
+research/concepts, for selective enrichment. In case of 
+failure, there are back-up options readily available. 
+The development of the different modules of the 
+PHOTONFOOD solution is done in parallel. The 
+modules will be combined in various stages of 
+completion to ensure compatibility. Thus, if one 
+modulus is delayed, the other WPs can still be 
+achieved in time, whilst still assure that an integrated 
+solution can be offered towards the end of the project. 
+Technical 
+Delays due to unscheduled down-times 
+of equipment/L 
+ 
+ 
+Light sources do not meet expected out-
+put powers and wave-lengths/M 
+WP3 Standardized preventive maintenance plans for all 
+critical machines and tools to minimize and avoid 
+unscheduled down-times. establishment of alternative 
+processing routes where possible, e.g. on 2 nd tools 
+ 
+1) Usage of established simulation tools to start with 
+refined structures and early tests of gain structures by 
+fast test processes e.g. via broadboard area lasers to 
+enable quick feedback for improvement. 2) Careful 
+time-planning to allow for 2-3 iterations minimum 
+Technical 
+Calibration models having not sufficient 
+sensitivity/specificity/M.  
+WP5 Mitigation measure: more measurements required  in 
+WP6. 
+Management 
+Recurring COVID-19 outbreaks in 
+European countries result in restrictions 
+on travel and of events and project 
+meetings / M 
+WP7, 
+WP8 
+Should it be required, project meetings can be held via 
+video conferencing. The live demonstrations (D7.5) 
+could be postponed or turned into short videos 
+published online. The Final Scientific Symposium 
+(D7.7) would have to be turned into an online event. 
+Technical 
+Access to labs is restricted or limited as 
+result of recurring COVID-19 outbreaks. 
+/ M 
+WP1-
+WP6 
+The possibility to carry out work in laboratories of 
+another partner will be assessed. During periods of 
+restricted access to labs, focus on theoretical work, 
+documentation, reporting and communication tasks. If 
+needed, seek solution with Project Officer, e.g. 
+postponing tasks and extending the project.

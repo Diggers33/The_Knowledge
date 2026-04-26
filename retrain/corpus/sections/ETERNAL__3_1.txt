@@ -1,0 +1,1180 @@
+3.1 Work plan and resources 
+Brief presentation of the overall structure of the work plan 
+The ETERNAL workplan has been designed to allow us, over the course of 4 years, and in an application-oriented 
+approach to develop, test, optimize, scale-up and validate (from TLR3 to TRL6), the following innovative and 
+scalable technologies that are -by-    -by-                          -  
+pharmaceutical manufacture (and that are also less environmentally harmful during use and disposal): HME (hot 
+melt extrusion); Discontinuous Synthesis (batch reaction) using Isobutyl and acetone; Rapid microfluidic mixing 
+combined with Diafiltration; Modular flow reactors continuous systems; Genome engineering for strain 
+optimization, bioprocessing intensification and microjet reactor technology (MJR) for downstreaming processes; 
+Membrane purification. 
+WP1 (Green innovation in pharmaceutical manufacturing) focuses on the R&D phase to bring the technologies 
+from TRL3-4, and WP3 (Industry cocreation lab: Pilots) will further scale up to TRL5-6. WP2 (Digitalisation for 
+competitive & scalable methods of production) will develop digital technologies (digital work flows for chemical 
+data, PAT and Digital Twins) to facilitate the process develop and understanding. In parallel, WP4 (Environmental 
+assessment & ecotoxicity studies) will, in addition to performing environmental risk and life cycle analysis within 
+ETERNAL case studies, will also bridge the current knowledge gaps in relation to the environmental concentration 
+and resulting levels of risk of pharmaceuticals already in use, and in particular, building knowledge of the impact 
+of molecules on the environment through the eco-toxicity studies for improved management of environmental risk 
+and for designing of new molecules.  From a multi -stakeholder and a social innovation perspective, WP5 
+(Communication, Dissemination &  Change labs),  will ensure  we engage decision -makers from the  wider 
+pharmaceutical industry, public authorities, healthcare practitioners as well as citizens themselves towards an  
+integrated movement behind catalysing not only the adoption of green pharmaceutical technologies, but also  
+promoting an enabling regulatory environment, as well as paving the way forward for changing social norms for 
+save consumption and disposable of pharmaceuticals (and also considering gendered innovation aspects). Finally, 
+WP6 (Project Management and Pathway to impact) will ensure we encase the project in a robust and 
+comprehensive project management framework, that in addition to project monitoring, tracking and risk 
+management, also encompasses data management, management of Open Science, Standardization activities, as  
+well as preparation for the post-project exploitation phase towards further scale up industrial deployment of the  
+results, and ensuring wide adoption a cross the EU of the ETERNAL outputs for environmental and competitiveness  
+impacts across the European pharmaceutical industry. 
+Graphical presentation of the components showing how they interrelate (Pert chart or similar) 
+ 
+
+ 
+ 
+ 
+ 
+  
+                                           
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                           
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                           
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+ 
+ 
+ 
+ 
+ 
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+ 
+ 
+                                         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                         
+ 
+ 
+                
+ 
+ 
+                        
+ 
+
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 32 of 45 
+ 
+ 
+Table 3.1a: List of work packages 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Table 3.1b: Work package description 
+ 
+ 
+ 
+ 
+ 
+ 
+Objectives: Goal is to perform R&D work TRL3-TRL4 of the project case studies in preparation for the piloting of the 
+technological innovations in industry in WP3 (there will also be an inter-relationship with WP2, whereby the aim will 
+be to develop PAT and digital twins to understand the processes and facilitate their upscaling); To apply continuous 
+methods to reduce energy consumption and solvents,  both in the synthesis of APIs and medicines production; To  
+improve or develop new purification routes for solvents recovery (recycling). To develop greener nanoparticle  
+manufacturing methods that provide nano formulations of the same quality as classic methods. WP1 is linked to Task 
+2..6 Compliance by design. 
+Description of work (where appropriate, broken down into tasks), lead partner and role of participants 
+ 
+Task 1.1.1. Preliminary evaluation & status quo on HME. A review of the state of the art will be performed with the 
+intention to apply this technology to more pharmaceutical products owned by Angelini (to go beyond the case study 
+developed). Chemical -physical properties of the compounds will be investigated to verify suitability for HME  
+technology. Current manufacturing processes medicines that contain Ibuprofen and Trazodone will be analysed in depth for 
+changing to continuous manufacturing (HME). In addition to the study on the active ingredient, research activities on 
+polymers, excipients and plasticizers potentially usable in extrusion processes will be carried out. Task 1.1.2  
+Preformulating trials and formulation trials:  First laboratory tests p erformed on Ibuprofen and Trazodone:  
+Compatibility studies (API and excipients); Thermal characterization of API: polymer: plasticizer mixtures; Extrusion 
+trials of different preliminary mixture (DoE based on screw configuration, screw speed, throughput and temperature 
+profile); Chemical-physical analyses on preliminary extrudates; Definition of the composition; Stress tests; Trials of 
+tablet compression or filling in capules;12 month prestability study. Task 1.1.3.Analytical development & stability 
+studies: develop new pharmaceutical process regarding new formulations, dedicated analytical support (both physical 
+and chemical) focused on trials and analysis is needed. Indeed, analytical data on the quality and properties of the  
+product are necessary to gain the detailed process knowledge. Several instruments such as HPLC, Dissolution  
+apparatus, X-ray diffractometer, will be used for this study. Main analytical activities include Analytical development; 
+In parallel analytical methods will be developed, depending on product specifications. The analytical procedures will 
+provide an acceptable accuracy & precision over the specified range ; Raw materials, half -processed and finished  
+products will be analysed and selected prototypes will be also investigated using a stress test protocol; Stability-At the 
+end of the previous studies, 12 months prestability of drug product will be performed at ICH conditions. 
+ 
+This task will focus on the synthesis of trazodone (antidepressant API) T1.2.1. Recycling Solvents: the synthesis of 
+trazodone implies the use of 2k tons of solv ents per year. The solvents used in the process are acetone and isobutyl  
+alcohol. To improve the current system for the distillation and to capture impurities and reagents (Angelini will follow 
+the ICH quality guidelines), the following steps will be carried out: Preliminary in silico assessments and simulations 
+of the distillation ; Laboratory trials (using equipment and pilot/real mixtures): considering previous simulations,  
+AIMPLAS will implement at laboratory scale the better combination of filters to separate both solvents and to capture 
+the impurities (including Chitosan for capturing impurities). Together with BOKU, the degradation of those substances 
+will carry out using enzymatic steps. The  quality of purified solvents will be evaluated by Angelini by gas 
+chromatography (GC) optimizing the filtering sequence if it is needed. T1.2.2. Greener alternatives: The synthesis of 
+trazodone at laboratory scale using more sustainable alternatives will be carried out. Biobased solvents will be studied 
+(e.g. ethyl lactate, to replace acetone, 2-methyltetrahydrofuran (2-MeTHF) to replace isobutyl). Biobased alternatives, 
+e.g. acetone could be supplied by Caldic -produced through fermentation of sugars from renewable resources, and free 
+of all carcinogenic aromatic impurities (e.g. benzene) that are commonly found in traditionally sourced materials. Trials will 
+be done at AIMPLAS facilities & Angelini will oversee quality evaluation of obtained trazodone (HPLC analysis). 
+Task 1.2. Case Study II (Angelini Pharma): Better use of solvents (recycled and Greener alternatives) (Leader: 
+Angelini Pharma Participants: AIMPLAS, BOKU). 
+Task 1.1 Case Study I-(Angelini Pharma) : Continuous manufacturing method-Reduction in energy 
+consumption (Leader: Angelini Pharma Participants: AIMPLAS, EE). 
+
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 33 of 45 
+ 
+ 
+ 
+Task 1.3 Case Study III (RJ): Better use of   solvents   (reduction   or   elimination). (Leader:   Reig 
+Jofre Participants:AIMPLAS, BOKU, UAVR). RJF will oversee developing greener methods to produce Liposomes at 
+laboratory scale. Using liposomes, the bioavailability of API is achieved. This results in a reduction of the required 
+dose to achieve the same pharmacological effect. Reducing the dose and increasing bioavailability increases drug 
+absorption and reduces excretion from the gastrointestinal tract. On a large scale this leads to a reduction of metabolites 
+excreted into the environment. One of the objectives of this task is to increase the encapsulation efficiency of the API, 
+selected, valpronic acid and other hydrophilic drugs. The increase of encapsulation efficiency could be achieved by 
+the proper selection of formulation excipients, optimization of process parameters and the selection of more advance 
+manufacturing methods. T1.3.1. Microfluidic manufacturing methods: JF will focus on this technology as it allows 
+continuous and scale-up-reproducible production of liposomes, using ethanol as organic solvent. Also, the 
+encapsulation efficacy of this production technique is usually higher, around 50-60% for hydrophilic compounds. RJF 
+will test the micro mixing technologies from MyBiotech and will compare them with other microfluidics technologies 
+available on the market. The integration of an on-line particle size analyser at the exit of the microfluidic device and 
+before the entry in the diafiltration device will improve the continuous process production (developed in T2. 5); T1.3.2. 
+Liposome production with greener solvents: the propose is to test the use of a better toxicological and safety profile 
+(ethyl lactate, ethyl piruvate, DMC, etc.) during liposome production, to check if they are able to keep the liposome 
+desired properties (i.e. hydrodynamic diameter, encapsulation efficiency..). One of the final steps on the liposome 
+production is their purification, where the organic solvent, the non-encapsulated drug, and excipients (i.e. excess of 
+surfactants, coating agents) are eliminated. T1.3.3. Physico-chemical characterization: An extensive Physico- 
+chemical characterization will be performed at RJF in terms of: Encapsulation efficiency of different active 
+pharmaceutical ingredients by liquid chromatography (HPLC); Hydrodynamic diameter and surface charge or Z- 
+potential of nanosystems by Dynamic Light Scattering (DLS);- Study of different thermal events by Differential 
+Scanning Calorimetry (DSC). Analysis of residual solvents by Gas Chromatography (GC); Other analytical techniques 
+(TEM, ICP- ; T1.3.4. Treatment of the aqueous solution residue: this residue from the diafiltration could be 
+recycled in the following loops of nanoparticle purification to reduce even more the waste generated. Alternatively, this 
+aqueous solution with the unloaded drug, solvent residues, and nanoparticle excipients, could be extracted with 
+AIMPLAS methodologies using Chitosan or functionalized SBA-15 or MCM-41 to reduce the environmental impact. 
+The previous standard manufacturing methods, the optimized production methods and the generated waste will be sent 
+to UAVR to compare the ecotoxicological profiles. Once determined, the best formulation will be produced in a higher 
+scale in WP3 and by continuous production, with the particle size analyser and the diafiltration technologies coupled. 
+Task 1.4 Case Study IV (QS): Continuous Greener-by-Design synthesis methods (Leader: QS Participants: 
+AIMPLAS, BOKU)  
+The multistep case study will need some improvements in following processes at low TRL to scale up afterwards in 
+WP3.Task 1.4.1. Intensification of Bromination reaction: this process will be improved reducing the use of toxic and 
+corrosive reagents and the high risk of runaway reactions as well as the initial % of Br. On the other hand, the stirring 
+parameters (speed, temperature etc) will be adjusted, and the outlet purified.  Task. 1.4.2. Amination reaction:  the 
+reactor configuration (type and geometry), flow rate, solvent ratio/NH3 and residence time will be optimised . Task 
+1.4.3. Thermal Rearrangement: this step it is difficult to control and will need special attention. Other problem faced 
+will be the by-product formation and the low yield. 
+Task 1.5 Case Study V (MyB): Continuous manufacturing: greener synthesis of toxic side products 
+(Leader: MyB. Participants: AIMPLAS, BOKU).  
+T1.5.1 Strain characterization: MyB will use established protocols by SAAR for the cultivation of Streptomyces 
+rapamycinicus following strain optimization via genome sequencing. First, precultures are set up in 100 ml flasks in 
+batch operation. Main cultures (250 ml flasks) are inoculated from these, which are then cultivated for  several days. 
+Samples are taken regularly to analyze oxygen consumption, growth, substrate consumption, by-product and product 
+formation. T1.5.2 Process development fermentation:  the process optimization will include the use of  alternative 
+substrates, the feeding of supplements, temperature, pH and feeding strategies. New findings as well as from  product 
+purification are continuously incorporated into the process design, as some process strategies may be implemented on 
+a laboratory scale but are not scalable or can  make purification more difficult. MyB will test various methods of 
+purifying Rapamycin to avoid high solvent volumes and to achieve the highest possible purity (using e.g 
+chromatographic methods: Ion exchange chromatography, flash chromatography). Attempts are also being made to  
+isolate rapamycin using membrane filtration and low-temperature crystallization. The efficiency, yield and capacity of 
+the methods are compared and analyzed from an ecological and economical point of view. The industrial upscaling is 
+already planned at this level and the production and energy costs of an industrial system are calculated. With the help 
+of these evaluations, an SOP for the purification of Rapamycin is created. T1.5.3 Fermentation: The fermentation 
+process at lab scale will be transferred to pilot scale (15L) and used to produce 100 mg of pure rapamycin . The process 
+will be documented and benchmarked (iterative process optimization will be done if it is needed). Parameter to be  
+studied will be stirring speed, pH, feeding strategies and media compositions. MyB will include economic aspects in 
+the up scaling. In the next step, on a larger scale, direct and indirect measurements provide information about the current  
+state of the production culture, which is eminently important for assessing the strains and the production process. This 
+data is analyzed and the parameters in the process are further optimized so that an efficient, ecological, economical and 
+largely automated production process is designed. The parameters to be examined here are pH value, oxygen  
+concentration, nutrient composition, stirring speeds, culture duration, temperature as well as inoculation quantities and 
+cell phenotype. At the same time, the findings of product purification are included and integrated into the process. 
+Further down streaming processes to purify rapamycin will include flash chromatography, cross-flow filtration and 
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 34 of 45 
+ 
+ 
+crystallization of rapamycin. Quantification of rapamycin and eventual by-products/impurities will be performed by 
+HPLC analysis. 
+ Task 1.6. Case Study VI (AZ): solvents purification (Leader: AZ Participants: AIMPLAS, AUVR, BOKU)             
+Task 1.6.1. Case Study Selection: AstraZeneca will identify a suitable project that would traditionally use the approach 
+of distillation to remove solvent and a crystallization to form the pure product. The initial process will be assessed for: 
+energy consumption; solvent use in volumes (PMI metric); % of theoretical product yield in waste streams. The process 
+will be assessed for switching to greener solvents or those from a bio-based source. The life cycle assessment of solvents 
+will  be  considered  to  include  the  full  CO2  footprint  of  each  solvent.;  Task  1.6.2. Membrane  Selection and 
+Modelling: A range of membranes will be tested for use in organic solvent nanofiltration (OSN) to assess their 
+suitability for the removal of solvent and purification of product. We envisage that several different membranes will be 
+required with differing molecular weight cut-off (MWCO) ranges. An initial membrane is required to retain the API 
+and reject the solvent and impurities. Lower MWCO membranes will be required to purify the solvent ready for reuse. 
+Process Analytical Technologies (PAT) e.g. IR or Raman- will be developed in T2.4 for analysing the raffinate and 
+filtrate to develop an efficient continuous OSN process. A digital twin of the membrane processes will be developed in 
+Task 2.3 to help inform the development and scale up of the process; Task 1.6.3. Evaluation of recovered 
+solvent: Solvent recovered from the membrane process will be fully analyzed and compared to the purchase 
+specification to understand how it has changed throughout the reaction and recovery process. The solvent will be 
+subjected to the reaction/membrane recovery iteratively n times (n defined by point at which solvent cannot be used or 
+stop at 10 cycles if solvent is still valid). Throughout the iterative cycle the yield of the main reaction, the quality of the 
+API and the quality of the solvent (impurity level) will be tracked. This will inform the theoretical number of times 
+solvent can be reused to remain acceptable to regulatory authorities and inform the KPI on sustainability improvement. 
+Task 1.7 Technologies to reduce the impact of the end-of-life pharmaceuticals (Leader: BOKU Participants: 
+AIMPLAS) Various enzymatic systems developed by BOKU, alone, and in combination with chemical mediators will 
+be implemented to purify wastewater and organic media from residual synthesis byproducts and end of life 
+pharmaceuticals. This technology will avoid the dispersion of residual pharmaceuticals in the environment while 
+allowing the reuse of the water stream or organic media thanks to the selective removal of the undesired 
+compounds. This task will be supported by AIMPLAS using green degradation and capturing routes. 
+Deliverables: D1.1 Report on Case Study I: Continuous manufacturing method -Reduction in energy consumption  
+(M12/24); D1.2 Report on Case Study II: Better use of solvents (recycled and greener alternatives) (M12/24); D1.3 
+Report on Case Study III: Better use of solvents (reduction or elimination) (M12/24); D1.4 Report on Case Study IV: 
+Continuous Greener-by-Design synthesis methods (M12/24); D1.5 Report on Case Study V: Continuous 
+manufacturing- greener synthesis of toxic side products (M12/M24) ; D1.6 Report on Case Study VI: Solvents  
+purification (M12/M24): D1.7 Report on technologies for reducing impact of the end of life pharmaceuticals (M30) 
+ 
+Objectives: (1) Review of SoA of PAT and Digital Twin adoption in European Pharmaceutical industry and create a 
+SWOT analysis to feed into an Opportunities Roadmap that also takes account of the regulatory hurdles, as well as  
+recommendations for a favorable/enabling regulatory framework, without compromising safety. (2) Develop a digital 
+workflow for efficient chemical process data transfer between organizations to reduce the Full Time Equivalent (FTE) 
+effort required in the processing and documentation of this work. (3) Define Holonic Reference Architecture in the field 
+of Intelligent Manufacturing Systems (IMS) specially tailored for continuous manufacturing processes (promoted as a 
+standard for holonification procedures in pharma).(4) Architect and build the Holonics multi-agent based Digital Twin 
+builder tool and to use the tool to build Digital Twins of the selected processes that are being researched in WP1 &  
+scaled up in industry in WP3.(5) Develop PAT+ML platform for enabling real-time monitoring of the selected case 
+studies & develop respective chemometric/Machine Learning models for each. 
+Description of work (where appropriate, broken down into tasks), lead partner and role of participants 
+ Task 2.1 Opportunities and Barriers for Digitalization of the European pharmaceutical industry  
+We will perform an up-to-date review of the current state of the art in relation to the adoption of Process Analytical  
+Technology (PAT) and Digital Twin technology in the European Pharmaceutical industry. Based on the findings we 
+will perform a SWOT (Strengths, Weaknesses, Opportunities and Threats) in relation to the digitalization innovation 
+in the industry in Europe as a means for developing and implementing greener processes. The more optimized process 
+and the more accurate process control, the less waste generation. In particular, we will map the opportunities and their 
+potential impacts. In addition, an assessment of the regulatory implications and hurdles currently posing a barrier t o 
+digitalization. Recommendations will be made towards a more favorable/enabling regulatory framework, without  
+compromising access to safe and effective medicinal products. Leader: IRIS. P: QS, AZ, ASPHALION, Britest 
+ Task 2.2 Digitization of data flow in chemical process design & manufacturing (Leader: IRIS. P: AZ, QS)  
+A well-defined digital workflow for efficient chemical process data transfer between organizations will be developed, 
+whereby we will implement a data-integrity-compatible shared database suitable not only as a structured data repository but 
+also as a source of cured data for any further data mining task and provided with smart contracts capabilities. The 
+workflow will be mapped to digital solutions which will be developed and assessed to reduce the FTE effort required 
+in the processing and documentation of this work, and data analytics tools will be developed to enable effective  
+collaboration between organizations enabling efficient and effective project management and ensuring by-design full 
+ 
+
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 35 of 45 
+ 
+ 
+compatibility (user-friendly) with the audit procedures according to the regulatory framework, in agreement with Task 
+2.6. As such, un this task we will: build guidelines for effective and generalizable digital data transfer; implement the 
+digital workflow in a software toolkit enabling application across the pharmaceutical development industry; test the  
+digital workflow between ETERNAL partners enhancing the collaboration; AZ test workflow with CDMO partner on 
+pharmaceutical development projects over 2-year period. 
+ 
+The key requirements for monitoring and control of continuous processes will be studied, taking into account: system 
+structure, production objectives/constraints, process coupling, product routing variables, controlled/manipulated  
+variables, production control strategy, and typical industry cases. With these requirements in mind a thorough state of 
+the art review will be conducted in order to analyze the most influential and referent works in the HMS research and 
+industrial field, whereby flexibility, diagnosability, scalability and integrability will be key features. The metamodel 
+for HRA will be de fined together with the set of holonification strategies required for building digital twins of  
+continuous manufacturing processes using the proposed HRA. The HRA will be inspired by ANEMONA type of holons  
+but extended with continuous process key requirements. The specific holons and relations will be designed to support 
+process industry plant/unit specification, and provide the capabilities for diagnosability, scalability and integrability. A 
+set of guidelines or holonification strategies will be defined in order to help the system developer during the design of 
+continuous process manufacturing systems. These strategies will rule how the industry plant/unit components together 
+with data flows, plant wide and local control objectives, mathematical and optimization tools, and communication with 
+PLCS-SCADA, DSCs, Process Analytical Technology and LIMS, Enterprise Information Systems, any external  
+databases, etc. should be virtualized by means of holons and relations provided by the HRA. U sing the HRA, the  
+software tools required for the holonification of the continuous processing components in a Digital Twin builder will 
+be implemented. The tools will follow the specification of the HRA and will provide the software encapsulation  
+facilities in order to virtualize the industrial plant/continuous process. 
+ 
+Using the Digital Twin builder tool from T2.3, Digital Twins of the industry case studies that are being researched and 
+developed in WP1 and scaled in industry in WP3 will be built (on the data availability and the real correlation between 
+the variables), namely: digital twin of the membrane processes for AZ (Case Stud y VI) will be developed in  
+coordination with Tasks 1.6.2 and Task 3.7. for informing the development and scale up of the process. Data from lab 
+development trials with a range of membranes and flow rates can be used to support building of the digital twin together  
+with fundamental understanding of the underlying physics. The goal of the digital twin will be to allow efficient scale 
+up of the membr ane process further reducing the energy requirement. A Digital Twin will be developed of the RJ  
+process (Case Study3 developed in Task 1.3 and upscaled in Task 3.4), in order to reduce the probability of out of  
+specifications failures in batches in a futur e industrial process, shorten batch release times, and reduce the use of organic  
+solvents and energy required in the manufacturing process. Finally, a Digital Twin of the Continuous Greener -by- 
+Design synthesis methods of QS (Case Study 4) will be developed in conjunction with Task 1.4 and 3.5. 
+ 
+Based on the Quality-by-Design (QbD) and Continuous Manufacturing requirements of the industry partners that will 
+be studied in Task 3.1, the enabling PAT solutions will be developed, whereby the most appropriate photonics analyzers 
+(IR, Raman) and third party analyzers (e.g. particle size distribution analyzer) will be selected and adapted by IRIS in 
+keeping with the monitoring requirements and the industrial integration requirements (optical engineering, building of 
+probes, etc.) for real-time and simultaneous measurement of diverse Critical Quality Attributes (CQAs) and Critical 
+Control Parameters (CCPs). Appropriate Machine Learning and Deep Learning techniques will be defined for building 
+models that process the multivariate data from the selected analyzers, which may also be fused with data from  
+monovariate sources sensors (traditional sensors, such as e.g. pressure) and for running the Digital Twin of the selected 
+processes. This task will develop the PAT solutions: for analyzing the raffinate and filtrate to develop an efficient  
+continuous OSN process for AZ linked with Task 1.6.2 (based on inline IR or Raman); the improvement of the  
+continuous process production an on-line particle size analyzer will be integrated at the exit of the microfluidic device 
+and before the entry in the diafiltration device (for RJ linked with T1.3.1); PAT will also be implemented in the QS  
+case study (link T1.5) 
+ 
+This task will inform the development work in relation to the regulatory compliance implications regards future live 
+production as such as will ensure that we adopt a compliant-by-design approach to the development work in a cocreation 
+process related not only to the digitalization innovations of this work package, but also the green chemistry,  
+mechanochemistry and continuous manufacturing innovations that will be researched and developed in WP1 and scaled 
+up to Pilots in WP3. As such, information on the latest developments in the scientific review, regulation and marketing 
+-by- 
+strategy in relation to the developments as part of the ETERNAL cocreation process. 
+Deliverables: D2.1 Roadmap for adoption of PAT and Digital Twin Technologies (including regulatory compliance 
+requirements) (M9); D2.2                                    -by- -drivers and roadmap of the possible 
+regulatory pathways or relevant regulatory framewo  -by- ; D2.3 
+Report on HRA and holonification strategy (M15)- Metamodel specification of the HRA with the set of holonification 
+guidelines/strategies required for designing continuous process digital twins ; D2.4 Digital workflow in a software  
+toolkit (M18/M45); D2.5 Holonics multi-agent based Digital Twin builder tool (M20) - Software tools set for the  
+holonification/virtualization of the processing plant components; D2.6 Digital Twin of selected ETERNAL processes 
+(M24/M45); D2.7 PAT+ AI Tools 
+Task 2.6 Compliance-by-Design (Leader: Asphalion; Paticipants: Angelini, RJ,AZ,QS,MyB)) 
+Task 2.5 Process Analytical Technology (PAT) and Machine Learning (ML) platform (Leader: IRIS. 
+Participants: AZ, RJ, QS) 
+Task 2.4 Development of Digital Twins linked to the Case Studies (Leader: IRIS. Participants: AZ, RJ, QS) 
+Task 2.3 Holonics multi-agent based Digital Twin builder tool (Leader: IRIS. Participants: Britest, Pharma) 
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 36 of 45 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Objectives: Goal of this WP is to upscale the R&D case studies from WP1 (facilitated by the PAT and Digital Twin 
+enablers from WP2) to pilots that are implemented (TRL5 -6) at the industrial sites of the participating pharma  
+companies Facilitate the sharing of technical and scientific understanding between researchers and industry partners 
+in a cocreation approach and coordinate the implementation of each of the industry case studies (pilots) Define and 
+6 Complete a scale-up risk assessment for each 
+Description of work (where appropriate, broken down into tasks), lead partner and role of participants 
+ 
+ 
+This task will manage the industry -research co-creation process, which is a key driver of our project approac h, as 
+described in Section 1.2. It will ensure the smooth coordination, implementation, tracking and reporting of each of the 
+6 Industry Case Studies or Pilots that will be implemented in the subsequent tasks of this WP. Ground rules for pre - 
+competitive engagement between industry partners and demarcation between the case studies will be agreed. Then we 
+will define and manage the systematic engagement and actions between the researchers and industry partners to 
+ensure the research effort in WP1 is led and guided by the needs, manufacturing process understanding and specification  
+inputs from the industry partners according to their requirements. Guided facilitation sessions will be organized, with 
+the first one in month 3 (and at least every quarter thereafter) to define and review the action plans, manufacturing  
+process understanding and methodology for co -design, and for implementing industry inputs in WP1 for the R&D phase  
+and for managing the upscaling to Pilots that will be implemented in this WP3. A whole system approach will be taken 
+to ensure that additional impacts arising from e.g. product changeovers are considered by researchers and industry  
+partners. As far as practicable, the session will be run as virtual meeting to minimize carbon footprint from task 3.1  
+activities. Task 3.1 w ill extract common shareable science and lessons from across the case studies. From an  
+operational perspective, this task will schedule access to facilities for process upscaling, monitoring and optimization 
+for the smooth and timely implementation of each of the Pilots. From a strategic and business perspective, the success 
+KPIs for each Pilot will be defined, the fulfillment of which will be tracked for each during the validation and impact 
+assessment phase. Finally, the future scale-up risks and barriers associated with each of the Industry Pilots will be 
+considered so that future mitigation strategies can inform the Business Plans for post-project exploitation that will be 
+drawn up in T6.4. 
+ 
+Task 3.2.1. Processing scalability: The formulation/s selected in WP1 will be scaled up to a pilot plant machine and 
+theoretical scalability studies will be carried out at an industrial level, both from the point of view of product quality 
+(specific mechanical energy and residence time) and energy calculation. Angelini will be supported by AIMPLAS and 
+EE in processing scalability and energy consumption calculations respectively. The most promising semi -processed 
+product will be produced in tablet form or filled in capsules. Manufacturing parameters will be investigated and  
+optimized to get the best final prototype in term of physical -chemical properties and performance; Task 3.2.2.  
+Analytical development & stability studies: Analytical development will continue during the phases of the sca le-up 
+following same protocol as described in WP1. At the end of the previous studies, an evaluation of the stability could be 
+carried out to confirm data obtained during the pre-stability study performed in the Pre-formulation trials (WP1). 
+ 
+Based on WP1 results, Angelini  will perform the necessary engineering steps of the distillation unit and the  
+implementation in the company, involving the following steps: Project engineering: this phase will be aimed at 
+through typical mechanical and electric-instrumental changes in the column (i.e. by replacing the feeding pans, solvent 
+recovery apparatus, etc.); Plant implementation: in this phase we plan to implement what engineered, through the  
+collaboration with external providers.Testing of the n ew process in an industrial environment: by testing the new  
+process, we expect to verify that the column correctly works, also through blank tests, and then by using real solvents' 
+mixture. The new 
+distillation unit will be used and tested at pilot scale for the synthesis of trazodone: the solvent(s) recycled will be used 
+to produce trazodone on a lab scale, to test the final product quality, obtained through recycled solvent(s). 
+ 
+RJF will produce the final nanoformulated optimized in WP1 and produce them in a bigger scale. The feasibility of the 
+purification process by diafiltration will also be studied by purifying the nanoparticles on a larger scale. These methods 
+will involve a reduction of solvent and/or energy requirements, as well as the use of less environmentally harmful  
+solvents. Thanks to diafiltration, the used organic solvent and other impurities (surfactant, non-loaded drug substance) 
+will be separated. The separated solvent and impurities will be sent to AIMPLAS in order to capture the impurities (for 
+example non-encapsulated active ingredient). RJF will also perform the purification of nanoparticles produced by  
+sonication. The ecotoxicity of the aqueous waste will be compared between classic and greener optimized methods 
+Task 3.4 Industry Pilot III (RJ): Better use of solvents (reduction  or elimination).  (Leader: Reig Jofre 
+Participants:AIMPLAS, BOKU) 
+Task 3.3 Industry Pilot II (Angelini ): Better use of solvents (recycled solvents and solvent substitution) 
+(Leader: Angelini .Participants: AIMPLAS, BOKU). 
+Task 3.2 Industry Pilot I-(Angelini) : Continuous manufacturing method-Reduction in energy consumption 
+(Leader: Angelini Pharma Participants: AIMPLAS, EE). 
+Task 3.1 Management of cocreation cycle: Industry requirements, codesign, success KPIs & validation, Impact 
+Assessment, Future Scale-up Risks & Barriers (Leader: BRITEST. Participants: Angelini, RJ, QS, AZ, AIMPLAS, 
+BOKU, EE, IRIS) 
+
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 37 of 45 
+ 
+ 
+Based on the information obtained in WP1, RJF will apply the PAT (developed in Task 2.5) and digital twin  
+technologies (built in Task 2.4) with IRIS and the use of these technologies will be a step forward in the safe by design 
+(SbD) and quality by design (QbD) of the process. 
+ Task 3.5 Industry Pilot IV (QS): Embed green chemistry into the synthesis (Leader: QS. P: AIMPLAS, BOKU) 
+Target is the production of >1 kg/day of the substance (HNK) at a concentration of 2.0 M for daisy chaining; this  
+amount is representative of the rate of production targeting for application of flow chemistry, appropriate in size design 
+and efficient because of the exploitation of their remaining stocks of materials for long process robustness trials.  
+Previous work, fruit of Flowinova project, has allowed to evaluate the critical points: In the stage 1 of bromination, the 
+focus has been on the quenching which undergoes incompletely, and Zaiput separation which is not efficient for high 
+flow rates; In the stage 2 of amination, which consist in a series of steps, several limitations and optimizations have  
+been identified, i.e. (i) the selection of a suitable reactor which allows a perfect mixing is crucial so both design and  
+flow have to be perfectly defined, (ii) t he ratio substrate/ammonia has to be also optimised taken into account that  
+higher ratios have shown greater conversions being a concentration of 2.4 M an interesting staring point although some 
+precipitation of solids has been observed in product collection so this aspect is something to evaluate and improve. The 
+increase of the residence time has been also evaluated but darker colouration and more problems in the separation stage 
+have been identified: In the stage 3 of solvent swap, a cascade of CSTRs are required in which dichloromethane and 
+ve been 
+evaluated and the empirical data have been compared with theoretical values generated by modelling. The design of 
+the modular flow reactors in Eternal project will be based on Flow Chemistry fully monitored and it will consist of:  
+Self-contained system with its own PLC and safety systems; Typically 2 pumps, one TCU & one reactor; Aim for the 
+ 
+length in a temperature controlled bath so we can finetune residence time. 
+Task 3.6 Industry Pilot V (MyB): Continuous manufacturing: greener synthesis of toxic side products (Leader: 
+MyB. Participants: AIMPLAS) 
+MyB will generate final manufacturing protocol and a batch record to produce Rapamycin with optimized fermentation 
+and downstreaming methods in WP1 and produce them in a bigger scale. The demonstration of high purity Rapamycin 
+production by using only water as solvent during biotechnological process and the feasibility of the recovery and  
+purification process (downstreaming) by MJR will also be studied at larger scale. These methods will yield reduced use of 
+solvent and/or energy, as well as the use of less environmentally harmful solvents. The organic solvent waste and  
+other impurities from downstreaming will be separated. Fo r batch release, MyB will rely on its already existing  
+pharmaceutical quality management system based on GMP regulations where the IPC, QC and batch release methods 
+developed will be employed. 
+ Task 3.7. Industry Pilot VI (AZ): Better use of solvents (recycling) (Leader: AZ. Participants: AIMPLAS)  
+Task 3.7.1 Process translation to an industrial setting: The membrane processes defined in WP1 will be scaled up to 
+a Kilo lab scale using the digital twin from WP2 to support the translation to an industrial setting. The process  
+performance will be monitored using P  
+energy consumption will be collected. Task 3.7.2 Reuse of solvents: The quality of the recovered solvent at the kilo 
+scale will be fully assessed with particular scrutiny regarding any potential genotoxic impurities. The recovered solvent 
+will be used in a second Kilo batch, with attention on any changes in the process performance or product quality. The 
+amount of solvent recovered and the number of times it can be recycled will be defined informing a full life cycle  
+analysis of the solvent in the process, and subsequent energy and waste savings. 
+Deliverables: D3.1 Report on the initial (month 3) guided facilitation sessions capturing objectives for Pilots, current state 
+of process understanding, gaps and actions required (M4); D3.2 Summary of quarterly progress against actions, KPI tracking 
+(from M9); D3.3 Report on Pilot I: Continuous manufacturing method-Reduction in energy consumption (M45); D3.4 Report 
+on Pilot II: Better use of solvents (recycled and greener alternatives) (M45): D3.5 Report on Pilot III: Better use of solvents 
+(reduction or elimination) (M45); D3.6 Report on Pilot IV: Continuous Greener-by-Design synthesis methods (M45); D3.7 
+Report on Pilot V: Continuous manufacturing- greener synthesis of toxic side products (M45); D3.8 Report on Pilot VI: 
+Solvents purification (M45); D3.9 Scale-up risk assessments for each Pilot (M46) 
+ 
+Objectives: Review the approaches used for the environmental risk assessment (ERA) and life cycle assessment (LCA) 
+of pharmaceuticals within the EU in the context of the most up to date scientific knowledge, and to identify novel  
+scientific aspects that may be incorporated into assessment tools; Use existing ERA tools, monitoring data &  
+environmental hazard information to conduct a ranking exercise to identify the current in -use pharmaceuticals that 
+present the greatest & widest risk to aquatic & terrestrial ecosystems & to identify the usage, life cycle, fate & hazard 
+drivers of risk for these highest ranked substances; Assess & incorporate novel scientific aspects (e.g. environmental 
+medium impacts on fate) into ERA tools & approaches & conduct specific comparative modelling exercises to assess 
+the usefulness of such novel aspects; Provide experimental and modelling support, via comparative ERA and LCA, for 
+the project case studies; Engage with the European Commission's Joint Research Centre (JRC) in the field of new 
+approach methodologies for ecotoxicity assessment. 
+Description of work (where appropriate, broken down into tasks), lead partner and role of participants 
+ Task 4.1 Knowledge gap identification & prioritization strategy (Leader: UKCEH. Part.: UAVR, ASPHALION)  
+We will conduct an assessment of the approaches used for the environmental risk assessment (ERA) and life cycle 
+ 
+
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 38 of 45 
+ 
+ 
+ 
+assessment (LCA) of pharmaceuticals and their production processes within the EU, in the context of the most up to 
+date scientific knowledge of the factors influencing pharmaceutical impacts in the environment. The workflow will: 1) 
+Review current ERA requirements for pharmaceuticals and assess approaches against the most up to date scientific  
+knowledge on aspects of pharmaceutical exposure and effects, e.g. influence of  pH on dissociation and consequent  
+bioavailability/exposure mechanisms; 2) Assess life-cycle approaches for evaluating the overall toxicological footprint 
+for the production, use and disposal of pharmaceuticals and other chemical classes, to assess their v alue for comparative  
+green chemistry assessment; 3) Undertake a gap analysis of current ERA and LCA frameworks based on the knowledge  
+gained in 1) and 2), and identify areas where new knowledge could be used to improve existing tools and approaches 
+for regulation; 4) Develop a research roadmap for the integration of scientific and regulatory knowledge into  
+pharmaceutical risk assessment for fate modelling, bioavailability assessment and receptor identification, for regulatory  
+testing and assessment. 
+ Task 4.2 Exposure and ecotoxicological gap filling (Leader: UKCEH. Participants: UAVR):  
+Conduct a set of focused studies to assess the impact of integrating new scientific knowledge into the ERA and LCA 
+of pharmaceuticals. Key aspects to be addressed will cover known emerging gaps in current ERA and LCA  
+methodologies, including gaps identified in T4.1. We will conduct 1) Targeted fate and exposure modelling studies to 
+assess data availability and model suitability for pharmaceutical fate and transport for exposure assessment using  
+existing modelling tools and approaches. The assessment will include identify the current knowledge based on releases 
+from different usage scenarios including point source release to wastewater, distributed releases and direct 
+environmental input; 2) Studies to assess how new scientific knowledge (e.g. on endocrine disruption, mixture effects) 
+on pharmaceutical exposure, uptake and risk identified in Task 4.1 may be integrated into ERA and LCA, including  
+where appropriate the generation of new experimental data to support this; 3) Develop an environmental mode of action  
+(MoA) catalogue for common pharmaceuticals & assess MoA conservation across species, using knowledge of species 
+traits (including receptor conservation derived from genome sequence data) and develop a simple open-source pipeline 
+for MoA assessment for ecotoxicological species. 
+ Task 4.3 Risk assessment of existing pharmaceutical compounds (Leader: UKCEH. Participants: UAVR)  
+We will use selected spatiotemporal exposure and effects modelling tools (identified in Task 4.1), existing monitoring 
+data available from national river and groundwater monitoring programs available in Europe (e.g. UK and Portuguese 
+chemical investigation programs, NORMAN Network datasets) and published environmental hazard data for 
+pharmaceuticals, to conduct a ranking exercise to identify the in -use pharmaceuticals that present the greatest and widest  
+risk to aquatic (and where possible terrestrial) ecosystems. To conduct this ranking exercise we will: 1) collate usage 
+information and metabolism data to model the environmental fate of high -use pharmaceuticals at European scale to 
+model predicted environmental concentration (PEC) ranges for water, sediment and soil environments; 2) Catalogue 
+existing surface and groundwater monitoring data and compare these measured to modelled concentrations to derive 
+the best reasonable assessment of median and 90 th percentile concentrations for each assessed pharmaceutical; 3) collate  
+available hazard information to catalogue the relative toxicity o f pharmaceuticals for different taxa in relation to  
+receptor-based predictions of MoAs for taxa based on receptor conservation; 4) Integrate the available modelling and 
+monitoring data, hazard information and MoA into a mixture effect modelling framework to assess the contribution of 
+individual pharmaceuticals and similar compounds to mixture risks in the environment. 
+ Task 4.4 Environmental risk and life cycle analysis within ETERNAL case studies Leader: UAVR. P: UKCEH). 
+Work here task will provide relevant ERA & CLA analyses of the case studies to provide information on degree of  
+change to environmental & life cycle impacts possible from adoption of proposed process modifications. Includes 1) 
+experimental studies to gap -fill data requirements for ERA/LCA of active ingredients & byproducts in case study  
+processes, 2) comparative application of existing ERA/LCA approaches to analyse risks & impacts of current  
+production & use scenarios & scenarios incorporating changes to production processes proposed in the case studies, 3) 
+comparative applic. Of adjusted ERA/LCA approaches developed in T4.2 & applied to existing compounds in T4.3. 
+Gaps in data requirements for ERA/LCA of existing & proposed case study processes will be addressed by generation 
+of new characterisation and ecotoxicity datasets where necessary, for new proposed compounds, and where appropriate for 
+production byproducts. Generate data and follow workflows according to the guidance provided by the European 
+Medicines Agency (EMA) on ERA of medicinal products for human use. Take all compounds through both Phase I & 
+Phase II risk assessments, to provide data for performing more advanced fate and impact modelling according to  
+T4.3.Tests we will conduct comprise: 1) physico-chemical property tests: water solubility (following OECD TG 105), 
+octanol/water partitioning (OECD 107), dissociation in water (OECD 112), adsorption-desorption in soil and sludge 
+(OECD 106), biodegradability (OECD 301), degradation in soil (OECD 307) as well as the ultraviolet -visible 
+absorption spectrum (OECD 101) and vapour pressure (OECD 104) tests if appropriate; 2) aquatic and sediment toxicity  
+tests: algae growth inhibition using Raphidocelis subcapitata and following OECD 201 with adaptations and the  
+methodology described in Eisentraeger et al. ( 2003); Daphnia sp. reproduction (Daphnia magna, OECD 211); fish 
+early life stage toxicity ( Danio rerio Fish Embryo Toxicity test to assess egg unviability & malformations , OECD 236); 
+sediment-water toxicity (Chironomus riparius, OECD 218); 3) activated sludge respiration inhibition test (OECD 209). For 
+aquatic toxicity, Fish Sexual Development Test (OECD 234) will be deployed for early life-stage effects and potential 
+adverse consequences, and Daphnia Multigeneration Test (Draft OECD TG) for multigenerational impacts. Also 
+perform tests in soil (chronic earthworm toxicity test, OECD 222, and a soil microbial diversity assay conducted using 
+an established amplicon sequencing approach (Read et al 2016). Soil testing will provide hazard data relevant to an 
+exposure pathway resulting from the input of human pharmaceuticals to land via sewage sludge application. Further 
+work on physicochemical characterisation will be performed if outcomes of gap analysis in T4.1 indicate that such  
+additional characterisation is useful for performing more advanced exposure/fate assessment. In particular, if 
+knowledge of dissociation constants is indicated for a dissociating compound, we will quantify these using UV-visible 
+adsorption spectroscopy and/or potentiometric titration, as appropriate. For each case study, we will derive, in 
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 39 of 45 
+ 
+ 
+consultation with industrial partners, usage and emissions estimates for environmental fate estimation of active  
+ingredients, byproducts and associated solvents for current production processes, and for production modified according 
+to the goals of the case study work. We will then use the existing and adjusted ERA and LCA approaches outlined in 
+T4.3 to provide comparative risk and life cycle assessments for each case study. This will provide both state of the art 
+and beyond state-of-the- 
+ (Leader: AIMPLAS. Participants: 
+UKCEH, UAVR, ASPHALION) 
+ 
+senior scientists from JRC from fields of ecotoxicity (& in particular in relation to the mix of chemicals) & scientific 
+evidence for policy making (including new approach methods to regulatory authorities). Fluid collaboration with the 
+JRC will ensure we build on existing JRC work in relation to ecotoxicity testing of pharmaceuticals (it is noteworthy 
+that one of our contacts in the JRC is the European Coordinator of a network of 35 GLP compliant laboratories from 
+across the EU). Involvement of the JRC will centre on capacity building, knowledge building, advisory capacity, and 
+communication with policy makers. 
+Deliverables: D4.1 Research roadmap and inventory of tools for the integration of existing knowledge into pharma 
+risk assessment (M15); D4.2 ; D4.3 Report on exposure and 
+ecotoxicological gap filling: targeted modelling and experimental studies, mode of action catalogue (M36); D4.4 
+Report on environmental risk assessment of existing pharmaceutical compounds (M42); D4.5 Report on 
+environmental risk assessment & life cycle analysis within ETERNAL case studies (M48) 
+ 
+Objectives: A targeted, tailored external communication campaign raising awareness with and engaging target  
+stakeholder groups, to catalyze participation for change: Timely and effective dissemination of the project  publishable 
+results, making them openly available for use in the academic, research and industrial communities; Define a roadmap 
+for and to pilot elements of coordinated measures catalyzing behavioral change in industry, regulatory, healthcare and 
+public actors towards sustainable provision and use of medicines; Effectively manage a ed  
+and produce a public report on Gender Dimension impacts of our approach 
+Description of work (where appropriate, broken down into tasks), lead partner and role of participants 
+Task 5.1 Communication activities for engaging and mobilising the participation of our target groups (Leader: 
+BRITEST. Participants: All partners will contribute) 
+A comprehensive communication plan will be elaborated for the project duration and beyond. Physical and digital  
+communication assets will be based upon a defined brand identity (logo, fonts, usage guidelines). These will include 
+the project website, key facts presentations and infographics, leaflets, an exhibition banner and posters, press releases 
+at kick-off, mid-term and at end of project, regular news updates as blog articles, and annual project newsletters.  
+Communications resources will be housed in an electronic repository in the project website (D5.1) for use by all  
+partners. Communication campaigns will be delivered to our identified target audiences (Pharmaceutical industry,  
+Citizens, Policy Makers, Research Community, Healthcare Services/Practitioners). A public-facing on-line catalogue 
+of content (blog articles, press releases, public deliverables, etc.) will be available on the website and will be diffused 
+through our social media channels (LinkedIn, Twitter) supported by the Marketing and Communication Departments 
+of the partners. Full use will be made of EC channels (e.g., Horizon Results Platform, CORDIS Success Stories), and 
+we engage with other relevant EC funded projects working under this call, and any other related topics and themes to 
+identify synergies in communications activities in order to increase audience reach and impact. 
+Task 5.2 Dissemination of the project results to industry, research and policy makers ( Leader: BRITEST.  
+Participants: All partners will contribute) 
+The primary goal of the dissemination activities will be the diffusion of the project results into the academic, research 
+and industrial communities. participation in prioritized dissemination and networking events will be actively mapped, 
+monitored and evaluated through a shared database of dissemination activity (face to face and virtual, trade f airs, 
+exhibitions, workshops, seminars, scientific conferences, round tables, etc.) One special conference session and at least 
+one scientific/technical workshop will be (co-)organised as part of identified high profile conferences over the project 
+lifetime. Scientific publications will be prepared for submission to open access peer reviewed journals and conferences 
+(at least 8-10 conferences papers and 10-12 peer reviewed publications are expected over the project lifetime). Project 
+results will be made available for use in teaching (for example through visiting industrial lecturers), in course material 
+and as a subject for theses in universities. Industry training materials will be developed and training sessions will be 
+delivered to industry to coincide with the implementation of the industry upscaled processes and demonstrators. 
+Targeted placement of articles and features in relevant trade & industry focussed publications and mainstream popular 
+press will be undertaken. A targeted stakeholder engagement event aimed at the priority triple axis of pharma industry, 
+regulatory bodies, and healthcare authorities will be arranged by the end of M18 to introduce the 
+ 
+Task 5.3. Final project public dissemination project event for all interested stakeholders will be held at M42. 
+ Task 5.3 Change Labs (Leader Britest. All partners involved).  
+In this task, we will run a series of Change Labs targeted at promoting behavioral change among business decision 
+makers, policy makers, healthcare practitioners and consumers in view of their potential role in sustainable 
+ 
+
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 40 of 45 
+ 
+ 
+manufacturing, facilitation, use and disposable practices in line with a green pharmaceuticals strategy. Each Change 
+lab will be managed in its own subtask, as follows: Subtask 5.3.1 Business: Green Pharmaceuticals and CSR We will 
+target and manage engagement with at least 500 decision makers from across the European Pharmaceutical industry 
+from promotion/generation of awareness about ETERNAL and the role that they can play towards responsible green 
+pharmaceutical strategies in their companies (embedded in their wider CSR). Leads will be developed to participants 
+in demos/trainings/one-on-one follow-ups and    -project 
+exploitation phase, whereby we aim to have secured at least 20 Expressions of Interest from the pharma industry for 
+varying levels of involvement in scale-up/out work, additional pilots,       - of the technological innovation 
+outputs of the project, or other involvement in our Future R&D+I Green Pharmaceuticals Roadmap. Leader: BRITEST. 
+Participants: All partners will contribute . Subtask 5.3.2 Policy makers: regulatory as an enabler vs. a barrier to green  
+innovation We will reach out to and engage with policy makers and standards bodies. The overall goals are to ensure 
+a regulatory framework that enables green innovation, and to ensure that the new/additional science base generated in 
+relation to the ecotoxicity and the environmental impact of pharmaceuticals can have an impact in forming policy  
+priorities and decision making processes. We will formulate content in the shape of policy whitepapers, and we will 
+to promote policy behavioral 
+compromising patient/consumer safety). Leader: 
+ASPHALION. Participants: UNE, BRITEST Subtask 5.3.3 Healthcare practitioners: ambassadors for Green 
+Pharmaceuticals, Sustainable Use & Disposal We will reach out to the healthcare system and practitioners in view of 
+their pivotal role in pharmaceutical use (prescriptions) and as key influencers towards informing and educating  
+consumers towards safe disposal. Leveraging the reach of organizations like Healthcare Without Harm we will work 
+with a pilot study group to codesign a Greener Pharmaceuticals Pledge / Safe Disposal Ambassadors program geared 
+towards educating patients as to the importance of safe disposal of unused medication, prescribing green 
+pharmaceuticals (where available and in keeping with safety and prescription requirements), responsible prescribing of 
+drugs, and in particular antibiotics (in order to mitigate the hazards posed by increased Antimicrobial Resistance).  
+Leader: BRITEST. Participants: all. Subtask 5.3.4 Consumers: social innovation and behavioural change for  
+sustainable and safe use & disposal Discovering what current behaviors, facilities & arrangements are in place for  
+consumers to safely dispose of unused medicines; running focus groups to understand the barriers/challenges, raise  
+awareness of the negative impact of incorrect disposal and generate practical ideas of how to improve things; piloting 
+these ideas and others to determine feasibility and potential impact; identifying the elements of a future social media 
+                         , and performing a pilot social media campaign with  
+impactful infographics, with cooperation with SIGRE (NGO working  in promoting the proper environmental 
+management of household leftover medicines & raise public awareness of risks stemming from the inappropriate  
+disposal of pharmaceutical waste), as well as engagement with initiatives such as #medsdisposal; and delivering a  
+roadmap for larger scale deployment of effectives initiatives. Leader: BRITEST. Participants: IRIS 
+ Task 5.4 Gendered Innovation (Leader: AIMPLAS. Participants: All partners contribute)   
+In this cross-cutting task we will focus on managing and implementing a approach to the work 
+plan (as discussed in Section 1.2), whereby we will employ methods of sex, gender, and intersectional analysis as a 
+possible source for new knowledge creation. Public interest Gender dimension Report (D5.5 on how gender  
+dimension has been integrated across all project stages and the main results and outcomes from a gender perspective. 
+Deliverables: D5.1 Project identity, website, and social media presence (M3); D5.2 Plan for dissemination and 
+exploitation including communication activities (M6); D5.3 Progress report on implemented communication activities 
+and Dissemination Plan updates (M18/36/48); D5.4 Change Labs Impacts- publication showcasing the Change Labs, 
+participation, and impact (M42); D5.5 Gender Dimension Report (M44) 
+ 
+Objectives: (1) Manage project resources, risk & contingency planning, and ensure the work is delivered to the highest 
+quality in fulfilment with the project objectives and in keeping with the planned budget and schedule, and promote fluid  
+collaboration, facilitate cross-team, interdisciplinary collaboration and communication among the internal team; (2)  
+Manage and implement an IP strategy for protection of our novel results through patents, utility models, trade secrets, 
+as well as trademarking the ETERNAL brand; (3) Draw up, maintain & implement a robust Data Management Plan 
+that complies with FAIR practices; (4) Ensure the project adheres to the principles of Open Science; (5) Manage the 
+collaboration and linkage with the relevant research and innovation projects, initiatives and networks for mutual impact and 
+for avoiding R&I duplication and overlap: (6) Design a post-project exploitation strategy for further scale up of the project 
+results, in planning the Go to Market (GTM) strategy, the business models for monetization, business plans and target 
+Time to Market (TTM) for the commercially exploitable resu lts; (7) Draw up Future Research and Innovation  
+Roadmap for continuing the greening of the European Pharmaceutical industry and for contributing to its 
+competitiveness; (8) Provide starting information to other WPs to ensure compatibility & interoperability with what 
+already exists in the market through standards; (9) Contribute to development of new standards to facilitate market 
+acceptance of the project results. 
+Description of work (where appropriate, broken down into tasks), lead partner and role of participants 
+Task 6.1 Project Management: structure and procedures (Leader: AIMPLAS. Participants: ALL): AIMPLAS will 
+lead partners in project monitoring & control (to ensure workplan is delivered according to schedule, budget and 
+ 
+
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 41 of 45 
+ 
+ 
+ 
+expected quality), risk management (based on the initial risk identification reported in Table 3.1e, which will be  
+managed and updated based on a continuous culture of risk management for early identification and risk mitigation), 
+as well as fulfilment of contractual requirements with the EC. AIMPLAS will lead this task and all partners will be  
+involved to ensure the robust management of resources. Each partner will ensure effective use of their own resources 
+through careful internal project management. Int ernal reports will frequently be prepared by WP leaders (every 6  
+months) to fuel the contractual reporting to the EC. To ensure sound governance of the project, a Project Management 
+Board (PMB) will be appointed (with one senior representative of each part ner). This Board will be chaired by the  
+Project Manager, Dr. Raquel Llorens Chiralt from the Health Group of AIMPLAS, and will meet every 6 months 
+to manage project oversight, review, and planning, as well as for taking decisions of strategic importance to the  
+consortium (each Partner will be assigned a vote, and decisions will be taken based on simple majority). The Project 
+Management Board will manage the engagement with the External Stakeholders Group of additional multiactors 
+(water treatment companies, solvent recycling companies, Novartis, JRC). As described in Section 1.2, to promote the 
+seamless integration of the inter-disciplines mobilised in our workplan, an Interdisciplinary Strategic Committee (ISC), 
+involving senior researchers from each of the different expert teams across the partners will be established and will  
+assume responsibility for the definition of the internal working strategies for the consolidation of the interdisciplinary 
+R&D programme with the aim of by minimising redundancy, balancing diversity and complementarity, and capitalizing 
+on synergies in information, knowledge, cultures and techniques. The ISC will be chaired by the experienced Senior 
+Innovation Specialist, Rob Peeling (Britest), & report to the Project Management Board every 6 months. 
+Task 6.2 IPR Management, Data Management & Open Science. (Leader: INLECOM. Participants: ALL): This task 
+is divided into three inter-related subtasks: Subtask 6.2.1 IPR Management and Technology Watch: The outputs/results 
+generated by the project will be analysed as they emerge. Up-to-date reviews of the state-of-the-art and patents will be 
+performed periodically to continually confirm Freedom to Operate (FTO) and the novelty of the Key Exploitable  
+Results (KERs). A review and analysis of the most appropriate IPR tools to protect the different research results will 
+ 
+Subtask 6.2.2 
+Data Management and FAIR compliance: Sound data management in compliance with FAIR practices. A formal FAIR 
+and GDPR compliant data management plan (DMP) (D6.2) will be drawn up, maintained and implemented, which will 
+outline: which data will be generated during research; metadata, standards and quality assurance measures; plans for 
+sharing data; copyright and intellectual property rights of data; data storage and back-up measures; data management 
+roles and responsibilities. The DMP will evolve during the lifetime of the project in order to present the status of the 
+project's reflections on data management. Subtask 6.2.3 Open Science: Management of the adherence of our project to 
+the principles of 'open science', whereby we will ensure: 1) Early and open sharing of research; 2) Promote open access 
+to research data and other related research outputs; 3) effective research output management; 4) implementation of  
+measures to ensure reproducibility of research outputs; 5) the meaningful involvement of all relevant knowledge actors 
+including citizens, civil society and end users in the co-creation of content, as well as Citizen Science 
+Task 6.3 Collaboration and Linkage with other relevant projects ( Leader: AIMPLAS. Participants: ALL) : 
+ETERNAL will outline and enlarge the list of European projects related to Green Pharmaceuticals calls in order to find 
+synergies and collaboration opportunities. Additionally, any partner participating or cooperating in national or  
+international projects related to the lines and impacts of this project will notify the Project Coordinator (Dr. Raquel  
+Llorens, AIMPLAS) & Dissemination manager (John Henderson, Britest) 
+Task 6.4 Exploitation and business planning (Leader: INLECOM. Participants: ALL: exploitation strategies will be 
+further developed for each of the case studies and technological innovations and corresponding business plans will be 
+drawn up. The Business Model Canvas (BMC) will be used as a lean tool for facilitating business model development. 
+A first draft of a BMC has been created at proposal stage (see Table 12). However, this current version has bundled all 
+the business cases into one BMC, and as such during project implementation phase, each business case owner will  
+further develop their own BMC and will iterate out to a more complete business plan, which will also consider the  
+financing route towards deployment to ensure a competitive Time to Market (TTM). 
+Task 6.5 Recommendations for a Future Research and Innovation Roadmap (Leader: AIMPLAS. Participants: 
+ALL).: Map out Roadmap for post project scale up of the technological innovations from the project, & the further  
+research and innovation opportunities identified over the 4 years of the ETERNAL project, along with the future funding  
+and investment requirements and plans, the regulatory and other barriers that still need to be addressed, with a few to 
+ensuing the continuity and extension of the ETERNAL R&D efforts for long-term impact. 
+ Task 6.6 Standardization activities (Leader: UNE. Participants: ALL)  
+Subtask T6.6.1: Analysis of the applicable standardization landscape (M1-M6): Based on the needs and activities of 
+the WPs, the relevant standardization landscape together with applicable standards will be identified. The results of this 
+subtask will be the basis for the contribution to standardization and the dissemination of the project and its results. 
+Subtask T6.6.2: Contribution to the ongoing and future standardization developments (M7-M48): The possibility and 
+the extent to which a contribution to standardization can be made will be investigated through interacting with the  
+relevant technical standardization committees, disseminating the project and getting feedback from their members. The 
+main outcome is contribution to the development of new standards in topics related to green solvents and 
+their production. Depending on the ongoing works of the committees around the midpoint of the project, this may  
+involve providing information, participating in ongoing works, submitting proposals for the modification of existing 
+standards or promoting the elaboration of new standards like technical specifications (TS). The development of fast- 
+track standards like CEN Workshop Agreements (CWA) is usually the best-suited option in the frame of a Horizon 
+Europe project. 
+Deliverables: D6.1 Project Management Tool (M1)- online collaboration tool; D6.2 Data Management Plan (M6)- 
+contractual deliverable; D6.3 Internal Project Progress Report- including Risk indicators and Risk assessment (M9)- 
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 42 of 45 
+ 
+ 
+ 
+internal reports delivered at M9/18/27/36/48 thereafter- will feed into the formal contractual reporting to the EC; D6.4 
+IPR, Data Management and Open Science Report (M24/48); D6.5 Business Plans for the key exploitable results 
+(M24/M48); D6.6 Future Research and Innovation Roadmap (M48); D6.7 Report on the standardization landscape and 
+applicable standards (M6); D6.8 Report on the contribution to standardization (M12, M30, M48) 
+Table 3.1c: List of Deliverables. 
+Del. # Deliverable name WP 
+number 
+Lead 
+participant Type Dissemi- 
+ation level 
+Delivery 
+date 
+D1.1 Report on Case Study I: Continuous manufacturing method-Reduction in energy consumption 1 ANGELINI R RES M12/24 
+D1.2 Report on Case Study II: Better use of solvents (recycled & greener alternatives) 1 ANGELINI DEM RES M12/24 
+D1.3 Report on Case Study III: Better use of solvents (reduction or elimination) 1 RJ DEM RES M12/24 
+D1.4 Report on Case Study IV: Continuous Greener-by-Design synthesis methods 1 QS DEM RES M12/24 
+D1.5 Report on Case Study V: Continuous manufacturing- greener synthesis of toxic side products 1 MyB DEM RES M12/24 
+D1.6 Report on Case Study VI: Solvents purification 1 AZ DEM RES M12/24 
+D1.7 Report on technologies for reducing impact of the end of life pharmaceuticals 1 BOKU DEM RES M12/24 
+D2.1 Roadmap for adoption of PAT and Digital Twin Technologies (including regulatory compliance 
+requirements) 2 IRIS R PU M9 
+D2.2 -by- -drivers and roadmap of the possible regulatory 
+-by- 2 IRIS R PU M12 
+D2.3 Report on HRA and holonification strategy 2 IRIS R RES M12 
+D2.4 Digital workflow in a software toolkit 2 IRIS DEM RES M18/45 
+D2.5 Holonics multi-agent based Digital Twin builder tool 2 IRIS DEM RES M20 
+D2.6 Digital Twin of selected ETERNAL processes 2 IRIS DEM RES M24/M45 
+D2.7 PAT + AI Tools 2 ASPH. DEM RES M30 
+D3.1 Report on the initial (month 3) guided facilitation sessions capturing objectives for Pilots, 
+current state of process understanding, gaps and actions required 
+3 BRITEST R RES M4 
+D3.2 Summary of quarterly progress against actions, KPI tracking 3 BRITEST R RES M9 
+D3.3 Report on Pilot I: Continuous manufacturing method-Reduction in energy consumption 3 ANGELINI DEM RES M45 
+D3.4 Report on Pilot II: Better use of solvents (recycled and greener alternatives) 3 ANGELINI DEM RES M45 
+D3.5 Report on Pilot III: Better use of solvents (reduction or elimination) 3 RJ DEM RES M45 
+D3.6 Report on Pilot IV: Continuous Greener-by-Design synthesis methods 3 QS DEM RES M45 
+D3.7 Report on Pilot V: Continuous manufacturing- greener synthesis of toxic side products 3 MyB DEM RES M45 
+D3.8 Report on Pilot VI: Solvents purification 3 AZ DEM RES M45 
+D3.9 Scale-up risk assessments for each Pilot 3 BRITEST  RES M46 
+D4.1 Research roadmap and inventory of tools for the integration of existing knowledge into pharma 
+risk assessment 
+4 UKCEH R PU M15 
+D4.2  4 AIMPLAS R PU M24/48 
+D4.3 Report on exposure and ecotoxicological gap filling: targeted modelling and experimental 
+studies, mode of action catalogue 
+4 UKCEH R PU M36 
+D4.4 Report on ERA of existing pharmaceutical compounds 4 UVAR R PU M42 
+D4.5 Report on environmental risk assessment and life cycle analysis within ETERNAL case studies 4 UKCEH R PU M48 
+D5.1 Project website 5 BRITEST DEC PU M3 
+D5.2 Plan for dissemination and exploitation including communication activities 5 BRITEST R SEN M6 
+D5.3 Progress report on implemented communication activities and Dissemination Plan updates 5 BRITEST R CO M18/36/48 
+D5.4 Change Lab Impacts summary 5 BRITEST OTHER PU M42 
+D5.5 Gender Dimension Report 5 AIMPLAS R PU M44 
+D6.1 Project Management Tool 6 AIMPLAS OTHER CO M1 
+D6.2 Data Management Plan (DMP) 6 INLECOM DMP PU M6 
+D6.3 Internal Progress Report, including Risk indicators and Risk assessment 6 AIMPLAS R PU M9/18/27/36 
+/48 
+D6.4 IPR, Data Management and Open Science Report 6 INLECOM R CO M24/48 
+D6.5 Business Plans for the key exploitable results 6 INLECOM   M24/48 
+D6.6 Future Research and Innovation Roadmap 6 AIMPLAS   M48 
+D6.7 Report on the standardization landscape and applicable standards 6 UNE R PU M6 
+D6.8 Report on the contribution to standardization 6 UNE R PU M12/30/48 
+Table 3.1d: List of milestones 
+Ml # Milestone name Related 
+WP(s) 
+Due 
+date 
+Means of verification 
+1 Pilot KPIs revised in line with process understanding, 
+gaps and actions required 
+WP3 M4 Consensus between industry and research partners on reports (D3.1) 
+from initial guided facilitation sessions 
+2 Compliance implications of Case Studies/Pilots WP1, 2, 3 M12 Report on the regulatory and compliance requirements (D2.2) 
+3 Existing knowledge integrated into pharma risk 
+assessment 
+WP4 M15 Research roadmap & tools for fate modelling, bioavailability 
+assessment & receptor identification, regulatory testing & 
+assessment (D4.1) 
+4 6 Green Innovation Case Studies scaled to TRL4 WP1 M24 All technologies successfully validated at lab scale (D1.1-D1.6) 
+5 1st iterations of Digital Twins for 3 case studies WP2 M24 Virtual replicas of Case Studies 3, 5 and 6 
+6 First iterations of the Business Plans for the Key 
+Exploitable Results 
+WP6 M24 Business Model Canvas and first iteration of business plan 
+completed by each commercial partner in the project 
+7 Effective technologies validated for reducing impact of 
+the end of life pharmaceuticals 
+WP1, WP4 M30 Verified through ecotoxicity assessments 
+8 Ranking of in-use pharmaceuticals posing greatest & 
+widest risk to aquatic (and terrestrial) ecosystems 
+WP4 M42 Reports on ERA of existing pharmaceutical compounds 
+9 Scientific evidence effectively communicated to 
+relevant policies and strategies 
+WP5 M42 Participation in consultations reported (via Change Lab impact 
+reports- D5.4) 
+10 The 6 ETERNAL Green Innovations have been 
+successfully piloted to TRL6 
+WP3 M45 Technologies demonstrated in industrially relevant 
+environment at each Pharma site 
+11 Roadmap for post-project scale up towards 
+commissioning and deployment 
+WP2, WP4, 
+WP6 
+M48 Risk assessments, compliance and environmental impact reports 
+qualify each Pilot for further scale up 
+Table 3.1e: Critical risks for implementation.  
+Description of risk (indicate level of (i) likelihood, and 
+(ii) severity: Low/Medium/High) 
+WP (s) 
+involved 
+Proposed risk-mitigation measures 
+Failure to accomplish deadlines and EC procedures leading 
+to delays (likelihood: low, severity: medium) 
+All Experienced Coordinator that will keep continuously updated about new procedures. Use 
+digital tools to facilitate engagement, cooperation & visibility 
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 43 of 45 
+ 
+ 
+ 
+ 
+Complexities and challenges posed by the R&D phase of the 
+ETERNAL green technologies pose delays that have a 
+knock on effect in WP3 (or prevent implementation  of 
+industry Pilots). (likelihood: medium, severity: medium) 
+1, 3 Early identification of problems or challenges will ensure that the multi -disciplinary 
+research-industry teams can have working sessions to discuss how to overcome 
+problems/challenges. Modifications to timings will be made as appropriate. The digital  
+twinning will help to mitigate such challenges by helping to understand (and predict 
+behavior) of complex processes with multivariate parameters. 
+Lack of available process data for building the digital twins 
+(likelihood: medium, severity: medium) 
+2 Use of dummy data for developing a first version of the models to make them ready to 
+process real data when available from WP1 & subsequently WP2. 
+Regulatory compliance poses challenges/barriers for the 
+future developments (likelihood: low, severity: high) 
+1, 2, 3 Early assessment of compliance implications will ensure timely identification of barriers. 
+Meetings will be held with the experts from Asphalion and researchers to review 
+compliance issues and plan out research requirements. It is already confirmed that none 
+of the technologies will present a No/Go. 
+Inability to achieve effective and timely information an 
+feedback flows (likelihood: low, severity: high) 
+3, 1 Mitigated by Cocreation Management in M3 that from project outset will organize 
+working sessions. Individual meetings between pharma companies and research team will 
+foment focused channels for information flow. 
+Cooperation does not materialise with JRC 
+(likelihood: low; severity: medium) 
+4 We already had a working meeting with JRC and identified key researchers who are aware 
+of ETERNAL and have confirmed their interest in being involved. Early engagement 
+with JRC prior to signature of Grant Agreement should ensure timely 
+cooperation with JRC. 
+Insufficient open availability of usage and life data, e.g. 
+disposal amounts) for medicinal products 
+(likelihood: low; severity: medium) 
+4 Open and maintain communication and networking channels with industrial partners and 
+to leverage the assistance of partners in obtaining required data, including the generation 
+of specific confidentiality agreements regarding data use if and when appropriate 
+Lack of participation of target actors in the Change Labs 5 Improved information campaigns will be designed (in consultation with the behavioral 
+/marketing/humanities experts Britest has reserved subcontracting budget for) 
+IPR/innovation conflicts which could hinder cooperation as 
+well as post project exploitation (likelihood: low, severity: 
+high) 
+5 IPR rules already understood and principles agreed. Solid Consortium Agreement will be 
+signed clear rules, Background included/excluded, clear IPR ownership & consensus and 
+conflict resolution mechanisms through the IPREB, external arbitration if necessary. 
+Partners not committed, under-performing, lack capabilities 
+or leaving leading to delays or work not done (likelihood: 
+low, severity: medium) 
+6 Partners have a strong network of contacts that can replace such a partner and the RTOs 
+have broad capabilities to fill any temporary gaps. Regular communication & monitoring 
+of consortium status: early anomaly detection 
+Insufficient cooperation among Partners, and inability to 
+effectively manage the inter-disciplinary opportunity 
+(likelihood: low, severity: medium) 
+6 Frequent meetings to keep partners connected. Strong and proven Organizational 
+structure to ensure workflow, with then inclusion of the Interdisciplinary Strategic 
+Committee (ISC) and experienced Chair. 
+Project outcomes are not compatible with existing market 
+procedures expressed through standards. 
+(likelihood: low, severity: high) 
+6 A detailed overview on the relevant standards will be prepared at early project stage and 
+will considered throughout the development of the tools and processes. 
+Future standards will exclude or limit the applicability of the 
+new tools and processes. 
+(likelihood: low, severity: high) 
+6 The project and its results will be disseminated to the relevant standardization technical 
+committees. Based on the planned project outcomes, a broad contribution to future 
+standardization will be made. 
+Table 3.1f: Summary of staff effort 
+ 
+ 
+Participant Number/Short Name: 7/BRITEST 
+ 
+ 
+ Description of tasks and justification 
+Subcontracting 61,400 Hire of specialist consultant facilitation and human behavioural expertise to deliver subtasks 5.3.3 and 5.3.4 
+services) 
+ 
+       
+ 
+ 
+  
+ 
+  
+     
+     
+ 
+ 
+  
+ 
+  
+     
+     
+     
+
+ETERNAL (HORIZON-HLTH-2021-IND-07-01) 
+Page 44 of 45 
+ 
+ 
+       
+ 
+ 
+  
+ 
+  
+     
+     
+       
+     
+     
+       
+ 
+ 
+     
+     
+   
+ 
+ 
+ 
+   
+ 
+     
+     
+ 
+ 
+ 
+    
+    
+ 
+     
+     
+e.g., internally invoiced goods and services)- Not applicable.

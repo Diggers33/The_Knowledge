@@ -1,0 +1,772 @@
+3.1 WORK PLAN - WORK PACKAGES, DELIVERABLES 
+AND MILESTONES 
+3.1.1 Components and interdependencies  
+The work planned in RECLAIM will be 
+articulated in 7 work packages. The work 
+breakdown into work packages is based  on 
+gathering related work, to ensure synergistic 
+cohesion between related tasks and maximise the 
+efficiency of the R&D work. Figure 3.1 provides 
+a graphical representation of the interactions 
+among work packages which are further discussed 
+below.  
+Project Planning - Timeline and Effort 
+Distribution. The project duration will be 36 
+months. As already discussed in Section 1.2, the 
+project development will be based on early 
+prototyping, followed by iterative 
+“implementation and real -world testing” spins 
+that will ensure we build the right tools the right 
+way, and finally the system assessment, 
+consolidation and asset exploitation. This is 
+reflected to the work package structure 
+summarized below. An overview of how the different parts of the planned work span over time is shown in the Gantt 
+chart (Figure 3.2).  
+It is reminded here that the first use case scenario “Material recovery from  mixed recyclables streams ” will be 
+addressed during t he whole du ration of the project, the second scenario “Cleaning of citizen separated, material -
+specific streams” will be considered in the second and third project years, while the third scenario “Immediate, close 
+to source material recovery” will be addressed in the last semester of the project (see Box 2). 
+ 
+ 
+Figure 3.2. The RECLAIM Gantt Chart 
+ 
+Additionally, a summary of effort distribution in the work packages is provided bellow, in Table 3.1a. 
+ 
+ 
+Figure 3.1. The interaction of work packages in RECLAIM. 
+
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 33 of 45 
+ 
+Table 3.1a. List of RECLAIM Work Packages (WPs). 
+WP 
+No 
+ 
+WP Title 
+Lead 
+Part. 
+No 
+Lead 
+Particip. 
+Person 
+Months 
+Start 
+Month 
+End 
+month 
+WP1 Project management 1 FORTH 30 M1 M36 
+WP2 Application requirements and system specification 7 AIMPLAS 40 M1 M6 
+WP3 Recyclable waste detection and categorization 5 IRIS 73 M1 M30 
+WP4 RoReWo-Team for material recovery 3 KUL 71 M1 M30 
+WP5 prMRF implementation, demonstration & assessment 1 FORTH 99 M1 M36 
+WP6 Recycling Data-Games 2 UoM 51 M1 M36 
+WP7 Project impact maximization 8 AXIA 80 M1 M36 
+Total person months 444  
+ 
+The work included in each work package is summarized in the Tables bellow. 
+Table 3.1b. RECLAIM work package description. 
+WP Number 1 WP Leader FORTH Start Month 1 End Month 36 
+WP Title Project Management 
+Participant Νο 1 2 3 4 5 6 7 8 9 10 
+Participant Name FORTH UoM KUL HRRC IRIS  RBNS AIMPLAS AXIA ISWA  ION 
+PMs/Participant 9 2 2 4 3 2 2 2 2 4 
+Objectives 
+The first WP will monitor and coordinate project activities with the following objectives:  
+• Implement and maintain an effective management infrastructure for monitoring and controlling progress. 
+• Manage resources to achieve the overall project objectives and implement quality management procedures. 
+• Coordinate and communicate with the European Commission on the status of the project, including 
+financial reports and all documentation necessary to meet the contractual obligation of the project. 
+• Oversee and coordinate implementation risks and ethical and privacy issues related to RECLAIM. 
+• Organization of training activities for the consortium partners and the general public.  
+Description of Work 
+T1.1 Scientific, technical and administrative management [M1-M36] FORTH, All 
+This task is dedicated to ensuring collaboration between partners and high quality of all project outpu ts. It includes: 
+(a) coordinating the joint efforts of the consortium to ensure smooth progress of the work plan and the fulfillment of 
+the consortium’s contractual obligations, (b) providing the necessary liaisons between the consortium and the EU, 
+and (c) monitoring the progress of the project according to the project schedule and all related resource usage, and 
+budget allocations, (d) ensuring the on -time completion of the project objectives, milestones, and deliverables. 
+Project coordination meetings an d technical meetings will be organized regularly. At least two technical meetings 
+are foreseen every year to review and agree on project developments. Extensive use of teleconferencing facilities will 
+be adopted in all cases where physical meetings are hard to realize, such as the current COVID-19 pandemic crisis. 
+To ensure smooth and successful implementation of the project, distinct managerial roles have been identified and 
+assigned to participants with significant experience in European projects. The Pro ject Coordinator (Dr. Michail 
+Maniadakis - FORTH) will be responsible for overseeing the entire project, (administrative, technical, and scientific 
+coordination). The Exploitation Manager (Dr. Ioanna Deligkiozi -AXIA) will co-ordinate the exploitation activities 
+of the project. The Ethics & Privacy Manager (Ioannis Kakogiannos - IRIS) will oversee data protection strategy on 
+data collection, storage and processing procedures, to ensure compliance with GDPR requirements.  
+T1.2 Quality assurance and risks management [M1-M36] AIMPLAS, All 
+This task aims at periodically comparing the performance of the prMRF with the KPI metrics described in Section 1 
+Obj 1, 4, to assure that the project objectives are fully accomplished. Risks will be linked to s pecific parts o f the 
+project as, for instance, tasks, deliverables or milestones, in order to make it easier to monitor them. This will help 
+potential problems to be identified early and addressed promptly and effectively without the risk increasing and 
+shifting to the next stages of the project. Foreseen risks regarding the management and technical WPs are discussed 
+in Section 3.1.3. Moreover, RECLAIM considers the use of an External Advisory Board (EAB) that will be actively 
+involved in the strategic steering of the project’s innovation endeavors. Three high profile experts in areas relevant 
+to RECLAIM have committed their active support to the project with Letters of Intent, provided in the Appendix. 
+T1.3 Ethical and privacy issues on data collection [M1-M36] IRIS, All 
+This task is responsible for ensuring that any ethical or privacy concerns occurring during the implementation and 
+evaluation of technical developments that involve user data (mainly from playing RDG) are addressed appropriately, 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 34 of 45 
+ 
+with full respect to EU regulat ions. This task that spans the whole duration of the project will oversee (1) the 
+compliance of RECLAIM data collection and usage to user privacy regulations (2) the preservation of the 
+confidentially of personal data (3) the achievement of a high -level security regarding potential risks (mainly from 
+using the RDG).  
+T1.4 Open data and benchmarking [M1-M36] IRIS, RBNS, FORTH 
+This task aims to benchmark technology results achieved in the project in order to provide a testbed for comparing 
+and assessing future works targ eting the recognition of recyclable materials in difficult real -world conditions. The 
+consortium aims to make the collected data and the developed AI models that accomplish the identification, 
+localization and categorization of targeted recyclable material s, available for open use. It is expected that the data 
+and benchmark created in RECLAIM will be established as the standard for future works to compete, in relation to 
+well-specified performance indicators. To support benchmarking activities RECLAIM will seek collaboration with 
+the EU DataBench project. 
+T1.5 Open training on digital waste management [M7-M12] [M31-M36] ION 
+RECLAIM will organize training programs that present the latest developments in AI, Robotics, Data exploitation, 
+Hyperspectral imaging and socially sensitive gaming, how they can support circular economy, and how Trustworthy 
+AI can support B2B interactions and joined innovation endeavors. The training programs will invite renowned 
+experts from the CSA projects funded under the call Human -Centered and Ethical Development of Digital and 
+Industrial Technologies (Horizon -CL4-2021-Human-01-02) that focus on the adoption of AI technologies in the 
+public and private domain. The training programs will be open to the public but designed with a focus  on the ION, 
+HRRC, AIMPLAS, AXIA, ISWA staff who are non -experts in these topics but would like to know how they can 
+exploit state-of-the-art technologies. RECLAIM will incorporate two different training programs, one in the first six 
+months of the project  to make people aware of what they can expect from RECLAIM and one at the end of the 
+project, to discuss recent advancements of and future opportunities from smart digitization. 
+Deliverables 
+D1.1: Data management plan and ethics/privacy manual [IRIS; M6, M36; (T1.3, T1.4)] Report documenting the 
+consortium’s data management plan in compliance with the EC “Guidelines on Data Management in Horizon 
+Europe” and ethics/privacy manual to be consulted over all project stages to ensure privacy and security of data and 
+subjects. 
+D1.2: 1st Periodic Project Report [FORTH; M18; (T1.1, T1.2, T1.5)] Report on technical progress, dissemination 
+and resource usage and cost claims for the first contractual reporting period. 
+D1.3: Final Project Report  [FORTH; M36; (T1.1, T1.2,  T1.5)] Report on technical progress, dissemination and 
+resource usage and cost claims for the final contractual reporting period. 
+ 
+WP Number 2 WP Leader AIMPLAS Start Month 1 End Month 6 
+WP Title Application Requirements and System Specification 
+Participant Νο 1 2 3 4 5 6 7 8 9 10 
+Participant Name FORTH UoM KUL HRRC IRIS  RBNS AIMPLAS AXIA ISWA  ION 
+PMs/Participant 5 4 4 5 3 4 6 2 2 5 
+Objectives 
+The main purpose of this WP is to prepare the ground for the development and innovation WPs, through the: 
+• Definition of the prMRF requirements for processing waste on all use case scenarios. 
+• Specification of the characteristics of the prMRF units comprising the material recovery chain. 
+• Definition of the RDG operation, connectivity and usability requirements. 
+• Specification of the RDG data collection procedures and user interface. 
+Description of Work 
+T2.1 Requirement analysis for prMRF and Recycling Data Games [M1-M4] HRRC, All 
+Analysis of the waste streams in each deployment site to determine the seasonal characteristics and the daily volume 
+of the waste flows, the variance of waste, the percentages of each material type, the deformation of waste during 
+transport to the sorting site, and the frequency that new unknown materials may appear. Specify the operational 
+requirements and priorities in each site, to design sustainable solutions with maximum social impact after taking into 
+account the environmental burden of existing practices. 
+T2.2 prMRF & Recycling Data Games specification and design [M3-M6] AIMPLAS, All  
+Design of the prMRF to be developed in the Ionian islands , considering the individual characteristics and 
+requirements of the three application scenarios assuming intensified waste processing (T2.1). Consider alternative 
+methods for the pre- and post-post processing of the waste streams and definition of mechanical processes to ensure 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 35 of 45 
+ 
+that the requirements for robotic material sorting are met and efficient cooperation along the processing chain is 
+accomplished. As part of this task the prMRF equipment will be specified and purchased.  
+Moreover, this task involves the specification and design of playful activities that increase social awareness regarding 
+recycling and solicit data annotation from citizens. The design efforts will involve all partners through a nu mber of 
+project-wide workshops in order to collect requirements and discuss affordances of how games can assist other 
+objectives and tasks in RECLAIM. In addition, we will solicit end-users’ feedback in terms of interaction paradigms 
+and preferences through dedicated focus groups with gaming enthusiasts and citizen scientists. Therefore, the design 
+process will follow a user-centered and participatory design approach, including all relevant stakeholders.  
+Deliverables 
+D2.1: prMRF and RDG requirements and sy stems specification [AIMPLAS; M6; (T2.1, T2.2)] Report on the 
+operational requirements of the prMRF and the RDG, and their specified (targeted) characteristics. 
+ 
+WP Number 3 WP Leader IRIS Start Month 1 End Month 30 
+WP Title Recyclable Waste Detection and Categorization 
+Participant Νο 1 2 3 4 5 6 7 8 9 10 
+Participant Name FORTH UoM KUL HRRC IRIS  RBNS AIMPLAS AXIA ISWA  ION 
+PMs/Participant 13 9 4 4 27 6 5   5 
+ 
+Objectives 
+This WP will develop perception mechanisms which will process flows of RGB and/or Hyperspectral images to 
+recognize recyclable materials. Its objectives are: 
+• Exploit state of the art Deep Learning (DL) methods that address the instance segmentation problem 
+• Create DL modules for material identification, localization, categorization on RGB & hyperspectral images 
+• Design and implement methods for the systematic advancement of the DL modules. 
+• Implement sensors network to monitor full-prMRF performance  
+Description of Work 
+T3.1 RGB-imaging for waste detection and categorization [M1-M18] FORTH, IRIS,RBNS 
+Exploit the extensive image data collected in T6.1 for the development of a RGB -based visual recognition system 
+for recyclable materials, using modern AI and machine learning techniques. Comparison and optimization of 
+alternative CNN solutions in identifying, categorizing and localizing recyclable materials in waste stream, in real and 
+difficult environments. The inference results of the model will guide the actions of the RoReWo Team in simplified 
+operational scenarios (see for example scenario 2, Box 2 ) and will provide the basis for implementing the quick 
+annotation tool to be used for the annotation of collected data. In particular, early CNN models will be employed as 
+part of the annotation tool engine, which will allow the collection/annotation of new data. Then, the collected data 
+will be used to improve CNN models, which will enable better annotation and so on.  
+T3.2 Hyperspectral imaging for waste detection and categorization [M1-M18] IRIS, FORTH, 
+The task considers the implementation of a prototype based on optical and spectroscopic techniques to correctly 
+detect and categorize materials. In particular, NIR/SWIR-HSI and XRF systems will be designed and assembled on 
+a conveyor test bench. Different configuration modes will be tested such as absorption, diff use reflectance, 
+interactance and transflectance. The selected core devices will be acquired using commercial components that have 
+been optimized to identify the main target materials in terms of spectral and dimensional resolution, lighting system, 
+scanned size, speed, etc. Samples of all recyclable materials materials of interest will be collected and supplied 
+together with their offline composition characterization results. Using these reference samples, IRIS will develop 
+hybrid models based on chemometr ic and machine learning principles to provide compositional information about 
+the materials. Different frame rates of the cameras, conveyor speed, camera-conveyor distances and collection times 
+will be tested to maximize the accuracy of the distinction between different materials. 
+T3.3 Repeating AI-ILC advancement & Deep Learning quality assurance [M13-M30] RBNS, FORTH, IRIS  
+Τo ensure the viability of prMRF, a process of gradual expansion of the material identification capabilities is 
+necessary, so that the visual system can recognize materials that have not been processed so far (e.g. new commercial 
+products). To this end, this task will develop procedures that facilitate the collection of data and the training of CNN 
+models by non-AI and robotics users. The process will be based on the tool already developed by RBNS for the fast 
+annotation of waste images. The tool will be extended in terms of handling hyperspectral data and improved in terms 
+of usability and interfacing to the CNN training. In parallel to the above FORTH will design, implement and test 
+quality assurance methods for DL outputs that examine the automatically derived behavior after training (i.e. without 
+logical design by engineers). The method will provide a means to compare past/new candidate so lutions to assure 
+satisfactory performance. 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 36 of 45 
+ 
+T3.4 Smart Monitoring and Operational Predictive Analytics [M19-M30] IRIS, HRCC, AIPLAS, FORH 
+The data to be acquired by the systems developed during the previous tasks provide significant information about 
+how much waste is created and processed in a determined period of time, what kind of plastic is used the most etc. 
+The current task aims to ensure long-term, high quality performance for prMRF. It will leverage the extensive volume 
+of data processed every day to perform joint oper ational analytics on waste streams and prMRF performance to 
+actively and informatively reconfigure prMRF to maximize productivity and facilitate predictive maintenance (e.g. 
+suction cups will soon need replacement). To this end, a data acquisition platform  will be developed. All the data 
+gathered will be cleared, visualised  and then combined and analyzed to return valuable insights regarding the 
+production while providing predictions for future incoming waste streams in the short and long term.  
+Deliverables 
+D3.1: Material recognition based on RGB and Hyperspectral imaging  [IRIS; M18; (T3.1, T3.2)] Report on DL 
+methods for recyclable material recognition applied on RGB and Hyperspectral images. 
+D3.2: prMRF operation monitoring and repeating advancement  [FORTH; M30; (T3.3, T3.4)] Report on smart 
+sensors and processes to assure long -term high quality prMRF performance for both RGB and Hyperspectral 
+imaging. 
+ 
+WP Number 4 WP Leader KUL Start Month 1 End Month 30 
+WP Title RoReWo-Team for Material Recovery 
+Participant Νο 1 2 3 4 5 6 7 8 9 10 
+Participant Name FORTH UoM KUL HRRC IRIS  RBNS AIMPLAS AXIA ISWA  ION 
+PMs/Participant 14 2 20 5 2 18 5   5 
+Objectives 
+The WP considers the implementation of the modular robotic system to undertake the physical separation and sorting 
+of recovered materials. The planned work is driven by the following objectives:  
+• Assess market-available and newly developed gripping mechanisms in picking recyclables of different type 
+• Implement and test in the filed fully functional RoReWo units amenable to mount several grippers 
+• Adopt a multi-robot/multi-gripper approach to compose RoReWo-Teams that recover multiple materials 
+Description of Work 
+T4.1 Implementation of complementary gripping mechanisms [M1-M18] KUL, FORTH 
+The nature of wa ste sorting tasks is significantly different compared to most grasping tasks in industry and 
+agriculture, as the grasp can be destructive, placing accuracy is unimportant and variation is significant in both 
+geometry and material properties. Novel gripping solutions will be investigated, prototyped and tested in the direction 
+of combined gripping mechanisms, such as the use of both vacuum (or high flow lifting) and finger gripping for 
+picking, and use of blowing for fast release.  
+T4.2 RoReWo implementation and control [M1-M18] RBNS, FORTH 
+Implementation of low-cost cartesian robot-based RoReWo units, which use closed loop motion control in a single 
+axis to achieve precise movements across the width of the conveyor belt that carries the waste, and use of a v ertical 
+motion piston to approach and pick materials (see operational prototype). This task will also explore how RoReWo 
+behavior should be adjusted according to the operation of the grippers (see T4.1), so that together they efficiently 
+recover recyclable materials. The required adjustments will be encoded in parameterized ready to use behaviors, 
+which are expected to significantly facilitate the synthesis of RoReWo -Teams and their integration to prMRF 
+operation. 
+T4.3 Configuration of the multi-robot/multi-gripper RoReWo-Team [M7-M30] KUL, RBNS, FORTH  
+This task will improve flexibility and sorting efficiency of the prMRF by facilitating a quick and easy customization 
+to respond to changes in the material supply and waste characteristics. For this purpose, different methods to 
+characterize the geometry of the waste stream based on the images of the computer vision system will be explored 
+and the suitability of different grippers considering these characteristics will be mapped. Considering that multiple 
+robots will cooperate for sorting, we will investigate methods to define the optimal combination of grippers to be 
+used. To obtain the required data and to validate these methods a looping system will be implemented to measure the 
+rates of successful gripping for different RoReWo configurations, as well as the influence of other systems settings, 
+such as the conveyor belt speed. 
+Deliverables 
+D4.1: Gripping mechanisms and RoReWo units for material recovery [KUL; M18; (T4.1, T4.2)] Report on the 
+implementation of material grippers, RoReWo units and their combination. 
+D4.2: Multi -robot/multi-gripper RoReWo -Team configuration  [RBNS; M30; (T4.3)] Report on the dynamic 
+configuration of RoReWo-Teams according to the type of materials to be recovered. 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 37 of 45 
+ 
+WP Number 5 WP Leader FORTH Start Month 1 End Month 36 
+WP Title prMRF implementation, demonstration and assessment 
+Participant Νο 1 2 3 4 5 6 7 8 9 10 
+Participant Name FORTH UoM KUL HRRC IRIS  RBNS AIMPLAS AXIA ISWA  ION 
+PMs/Participant 17 2 15 9 10 15 15 2 2 12 
+Objectives 
+This WP aims at the implementation of the complete prMRF through the integration of all relevant enabling 
+technologies. The objectives of the WP are: 
+• Implementation of the complete waste processing chain for smart and automated material recovery. 
+• Provision of a complete and fully functional prMRF for validation in challenging real world conditions 
+• Exploitation of feedback gained by verification tests to fine-tune the modules and the system. 
+• Definition of maintenance strategy for sustainable prMRF operation beyond RECLAIM. 
+Description of Work 
+T5.1 Early prMRF development and on-site deployment [M1-M9] FORTH, ION, ALL  
+Early installation of purchased mechanical equipment (T2.2) and integration of the software and robotic technology 
+already available to RECLAIM partners to develop two semi-functional prMRF prototypes powered by hybrid eco-
+friendly technology (e.g. solar panels). The prMRF will enable extensive image and hyperspectral data collection in 
+particularly realistic conditions in both deployment sites (T6 .1). This early version of the prMRF will complete by 
+the end of the first project phase (section 1.3) providing an end-to-end implementation of the waste treatment chain.  
+T5.2 prMRF iterative implementation-testing-optimization [M10-M30] FORTH, IRIS, KUL, RBNS  
+The prMRF implemented in T5.1 will operate as industrial experimental platforms that enable the direct integration 
+and testing of the newly developed AI-ILC (WP3) and RoReWo-Team technologies (WP4) with real waste streams. 
+The incremental integration of the gradual ly advanced AI -ILC and RoReWo -Team in the prMRF and their direct 
+evaluation in material recovery in real conditions, will reveal potential risks and will guide informed iterative 
+optimizations to improve the robustness of the integrated system. By the end of this task a fully functional prMRF 
+will be developed, properly customized in terms of AI -ILC training and RoReWo -Team configuration, to meet the 
+needs of each application scenario. 
+T5.3 Optimization of RoReWos Team performance [M13-M36] KUL, RBNS, HRRC, AIMPLAS 
+Implement ef ficient collaborative behaviors for multi -robot/multi-gripper RoReWos Teams. This includes the 
+distribution of roles and tasks among the available RoReWos and the management of shared resources (e.g. use of 
+timed valves in common vacuum supply) in a way that maximizes global efficiency and balances the work and wear 
+of the different grippers and robots. Compare alternative approaches for creating highly efficient collaborative work 
+plans (spatial waste characteristics, waste location, proximity to collection bin, RoReWos/grippers ordering, common 
+RoReWos roles, commercial value of recovered materials).  
+T5.4 On-site prMRF assessment and long-term sustainability [M13-M36] FORTH, IRIS, KUL, RBNS, HRRC  
+The implemented prMRF will be evaluated on material recovery according to the KPIs described in section 1.1. This 
+latest version of the prMRF, is considered the Minimum Viable Product (MVP) of the project, featured with highly 
+desirable characteristics, such as easy portability, fast installation, readily operation and eco-effectiveness regarding 
+waste management for material recovery. The current task will demonstrate both the expandable capacity of the AI-
+ILC to recognize new materials of interest and the modularity of the RoReWo-Team, as well as the informed, waste 
+stream driven on-the-fly reconfigurability of the individual RoReWos. This task will also demonstrate the ease of 
+use of prMRF by non-robotics experts, in order to promote it as a stand-alone solution capable of covering the need 
+for remote material recovery. 
+Deliverables 
+D5.1: Early prMRF development based on available enabling technologies [FORTH; M9; (T5.1)] Report on the 
+development of a first prMRF prototype to set the ground for subsequent implementation steps. 
+D5.2: Preliminary assessment of prMRF performance [FORTH; M18; (T5.2, T5.3, T5.4)] Report on the repeating 
+implementation-testing spins targeting the optimization of the prMRF. 
+D5.3: Final assessment of prMRF and sustainability plan  [KUL; M36; (T5.2, T5.3, T5.4)] Report on the final 
+assessment of prMRF performance on each deployment site and plan for sustainable prMRF use beyond RECLAIM. 
+ 
+ 
+ 
+ 
+ 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 38 of 45 
+ 
+WP Number 6 Lead beneficiary UoM Start Month 1 End Month 36 
+WP Title Recycling Data-Game 
+Participant Νο 1 2 3 4 5 6 7 8 9 10 
+Participant Name FORTH UoM KUL HRRC IRIS  RBNS AIMPLAS AXIA ISWA  ION 
+PMs/Participant 4 23  3 4 6 2 2 2 5 
+           
+Objectives 
+WP6 considers the implementation of a gamified approach for user participation in recycling data collection, in order 
+to facilitate the training of DL models. The planned work is driven by the following objectives.  
+• Collect and exploit real waste RGB and Hyperspectral imaging for the development of the RDG. 
+• Pipeline deep learning and gaming algorithms to create repeatedly new gaming experiences for users. 
+• Implement an RDG that is easy to use and engaging for citizens of diverse age, gender, and background. 
+ 
+Description of Work 
+T6.1 On site, waste data collection [M1-M18] RBNS, UoM, IRIS, HRRC 
+The early development of the targeted prMRF (T5.1), will allow the direct visual and hyperspe ctral examination of 
+waste streams under the same conditions as the final operation of the prMRF after considering constant and efficient 
+lighting on the waste. Open source versioning tools (e.g. DVC) will be used to efficiently organize the data captured 
+along iterative data collection procedures, to assure quality results. It is planned that data collection will be carried 
+out periodically every 2 months for at least a whole year to meet the expected seasonal characteristics in the 
+appearance of waste (e .g. raindrops in winter, dust in summer). The tool developed in T3.3 will be used by 
+experienced workers to quickly annotate the collected data to be used for RDG development and train the early 
+versions of the AI-ILC module. 
+T6.2 Algorithms and pipelines for recycling data-games [M3-M30] UoM, ION 
+This task will create a recycling data -game pipeline for re -using and improving real -world data through human 
+annotations. In this novel paradigm which advances research in game generation (an indicative scenario is provided 
+in Box 3). This will leverage already available machine learning techniques for user modelling, procedural content 
+generation and recommender systems. The algorithmic advances will be integrated into intuitive and simple to use 
+games that can be depl oyed on many platforms and devices, focusing on web -based solutions. Established game 
+engines such as Unity 3D will be used for development, as they are powerful and can deploy to a broad range of 
+platforms such as windows, android, web, etc. To ensure that RDG evaluation in T6.3 is carried out to best effect, a 
+series of usage analytics will be implemented so that they can be collected online while the users play. 
+T6.3 Deployment and evaluation of environmental games [M13-M36] UoM, ION, ISWA 
+This task will validate t he RDG, through a series of dedicated pilots with focus groups as well as in -the-wild 
+experiments carried out online. This will allow (a) targeted and specific feedback regarding the incremental 
+advancement of AI-ILC, and rising recycling awareness (through focus groups) and (b) test RDG usability and data 
+collection potential at scale (through in-the-wild experiments) and the exploitation of gathered data by other project 
+developments (T3.3). Focus groups studies will use a combination of quantified metric s collected during 
+playthroughs and qualitative feedback through semi -structured interviews before and after the playthrough. In -the-
+wild experiments will deploy the games online to engage a large set of users through broad -scale dissemination 
+campaigns. Evaluation in these large-scale experiments will focus on quantified game analytics collected within the 
+game, and will also explore how the user annotations have impacted AI -ILC performance and the circulating user -
+RDG interaction.   
+Deliverables 
+D6.1: Waste Data for material recognition and Recycling Data Game [UoM; M9, M18; (T6.1)] Report on the 
+on-site data collection procedures. Data available for internal and public use. 
+D6.2: Algorithms and pipelines for Recycling Data Games [UoM; M9, M18, M30; (T6.2) ] Report on the 
+implementation of the RDG and its interaction with other project activities.  
+D6.3: Assessment of the Recycling Data Game [UoM; M18, M36; (T6.3)] Report on the assessment of the RDG, 
+plan for its supportive role on prMRF use beyond RECLAIM.  
+ 
+ 
+ 
+ 
+ 
+ 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 39 of 45 
+ 
+WP Number 7 WP Leader AXIA Start Month 1 End Month 36 
+WP Title Project impact maximization 
+Participant Νο 1 2 3 4 5 6 7 8 9 10 
+Participant Name FORTH UoM KUL HRRC IRIS  RBNS AIMPLAS AXIA ISWA  ION 
+PMs/Participant 6 6 5 4 4 6 5 28 12 4 
+Objectives 
+This WP will develop RECLAIM outreach activities with the following objectives:  
+• Develop a plan for and implement dissemination and communication activities, including target groups and 
+channels, to facilitate the outreach of project results. 
+• Develop a plan for and implement innovation and exploitation activities, demonstrating the potential 
+business opportunities of RECLAIM results.  
+• Develop an IPR strategy, including actions to preserve the IPR generated within the project. 
+• Carry out networking/clustering activities with other relevant projects and DIHs  
+• Provide performance metrics and results to benchmark RECLAIM solutions 
+Description of Work 
+T7.1 Dissemination and communication activities [M1-M36] ISWA, All 
+This task will monitor the progress of the d issemination and communication strategy summarized in Section 2. 
+Communication activities will start from the very beginning of the project and will continue with concrete actions 
+(images, posts, blogs, articles, presentation, videos etc.) until the end of RECLAIM. In addition to the broader picture 
+of the project, the obtained results in all four innovation pillars, will have their own dissemination and communication 
+identity. Noticeably, ISWA has well established contacts with multiple recycling organizat ions and enterprises all 
+over the world, which will help promote the idea of prMRF-powered distributed material recovery and will help the 
+project achieve substantial global impact. 
+T7.2 Liaising with other projects and DIHs [M13-M36] AXIA, FORTH, All 
+This task will focus on establishing and coordinating links with projects and initiatives in AI, Data and Robotics in 
+Horizon Europe and other programmes (e.g. Networks of excellence centres, DIHs, pilots, data platforms), in view 
+of sharing knowledge, developing synergies, and coordinating efforts (e.g. organization of joint events). It is expected 
+that many initiatives will express their interest in both the AI-powered robotic material recovery and the RDG, as 
+tangible examples to promote public awareness and addressing acceptability and trustworthiness of AI. RECLAIM 
+will highlight the value generated by the combination of AI, data and robotics in the GreenDeal and the circular 
+economy in particular, to showcase the contribution of state-of-the-art technologies to social welfare and 
+sustainability. Within this frame, particular efforts will be made in order to establish and refine 
+standardization protocols among the relevant projects. Besides the general public, RECLAIM will target the 
+business community, with a particular focus on SMEs and governmental authorities to foster vast deployment of 
+prMRF for distributed, decentralized material recovery and additionally the broader domain of smart high-tech 
+solutions. 
+T7.3 Innovation assets exploitation and commercialization [M13-M36] AXIA, ISWA, ALL 
+The exploitation plan will be presented in M6 and updated throughout the project implementation, to guide the efforts 
+of the consortium in demonstrating the potential of RECLAIM solutions to meet market needs. The business plan 
+report that will be prepared to highlight the business opportunities for the Key Results Owners, will include: (i) the 
+identification of the exploitation routes that partners want to pursuit, (ii) the identification of market segments, (iii) 
+a competition analysis, (iv) a patent mapping analysis, using PatSnap platform, (v) a risk analysis and (vi) a financial 
+analysis. The exploitation activities will take into consideration the need to raise awareness of potential investors and 
+reach out to interested stakeholders, policy-makers and public bodies. In addition, a strategy for the protection of IPR 
+and knowledge management will be established. All IPR principles will be managed from an early stage, through the 
+Consortium Agreement (CA) and the Grant Agreement (GA), where o wnership, access rights, publications, 
+confidentiality and liability will be examined. However, a concrete IPR strategy will clarify the ownership of the 
+results and identify the most promising exploitation routes that will secure the collaboration among partners.  
+Deliverables 
+D7.1: Plan for the dissemination and communication activities [ISWA; M6, M18, M36; (T7.1)] Report on the 
+implemented and planned dissemination and communication activities to ensure a substantial impact both at the EU 
+level and international level. 
+D7.2: Plan for the innovation and exploitation activities [AXIA; M6, M18, M36; (T7.2, T7.3)] Report on the 
+implemented and planned innovation and exploitation activities including Open Data and Benchmarking, IPR 
+management and patent mapping analysis. 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 40 of 45 
+ 
+Table 3.1c. List of RECLAIM Deliverables in order of delivery dates. 
+Del. Del. Name WP  Lead Type Level Month 
+D1.1 Data management plan and ethics/privacy manual WP1 IRIS DMP + 
+ETHICS  
+PU M6, Μ36 
+D2.1 prMRF and RDG requirements and systems 
+specification 
+WP2 AIMPLAS R EU-R Μ6 
+D5.1 Early prMRF development based on available enabling 
+technologies 
+WP5 FORTH R+DEM PU M9 
+D6.1 Waste Data for material recognition and Recycling Data 
+Game 
+WP6 RBNS R+ 
+DATA 
+PU M9, M18 
+D1.2 1st Periodic Project Report WP1 FORTH R PU M18 
+D3.1 Material recognition based on RGB and Hyperspectral 
+imaging 
+WP3 IRIS  R+O PU M18 
+D4.1 Gripping mechanisms and RoReWo units for material 
+recovery 
+WP4 KUL R+DEM PU M18 
+D5.2 Preliminary assessment of prMRF performance WP5 FORTH R+DEM PU M18 
+D6.2 Algorithms and pipelines for Recycling Data Games WP6 UoM R  PU M9, M18, 
+M30 
+D7.1 Plan for the innovation and exploitation activities WP7 ISWA R+ DEC SEN M6, M18, 
+M36 
+D3.2 prMRF operation monitoring and repeating advancement WP3 FORTH R+O PU M30 
+D4.2 Multi-robot/multi-gripper RoReWo-Team configuration WP4 RBNS R+DEM PU M30 
+D5.3 Final assessment of prMRF and sustainability plan WP5 KUL R+DEM PU M36 
+D6.3 Assessment of the Recycling Data Game WP6 UoM R+DEM PU M18, M36 
+D7.2 Plan for the innovation and exploitation activities WP7 AXIA R+ DEC EU-R M6, M18, 
+M36 
+D1.3 Final Project Report WP1 FORTH R PU M36 
+3.1.2 Milestones 
+There are five major milestones in RECLAIM, listed in Table 3.1d.  These work as checkpoints in order to verify 
+that research and development is progressing in the right direction. 
+ 
+Table 3.1d List of RECLAIM Milestones. 
+No Milestone Related 
+WP(s) 
+Due 
+Date 
+Means of 
+verification 
+MS1 Consortium and project start up : Partner responsibilities 
+specified, repository procedures establishe d, project e -presence 
+& website, dissemination commenced, prMRF & RDG 
+requirement analysis and specifications complete. 
+WP1, WP2 
+ALL WPs 
+M6 D1.1, D2.1 
+MS2 Early integration of available technologies  - RECLAIM 
+Phase I complete:  Semi-functional prMRF implem entations, 
+data management plan and ethics/privacy manual available 
+WP5, WP6 M9 D5.1, D6.1 
+MS3 Key computer-vision and robotic components available and 
+tested in the wild.  AI-ILC complete, RoReWos and grippers 
+complete, prMRF & RDG implementation in good progress, 
+data publicly available, preliminary innovation exploitation. 
+WP1-WP7 
+ 
+M18 D1.2, D3.1, 
+D4.1, D5.2, 
+D6.2, D7.1 
+MS4 Early integration of available technologies  - RECLAIM 
+Phase II complete: Smart production monitoring complete, 
+RoReWo Team complete , prMRF & RDG complete and ready 
+for final assessment.  
+WP3, WP4 M30 D3.2, D4.2 
+MS5 RECLAIM Sustainability and asset Exploitation. prMRF and 
+RDG refined and assessed, open access pilot demonstrations 
+finalized, sustainability plan, project assets ready fo r 
+exploitation and commercialization. Project End. 
+WP1, WP5 
+WP6, WP7 
+M36 D5.3, D6.3, 
+D7.2, D1.3 
+ 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 41 of 45 
+ 
+3.1.3 Project risks 
+An initial list of identified risks is presented in Table 3.1e; more detailed assessment of risks will regularly be carried 
+out during the execution of the project. As a general prevention measure, the consortium will closely monitor the 
+progress of the project in order to detect and react early to any problems that may occur. 
+ 
+ 
+Table 3.1e. Identified RECLAIM project risks and mitigation measures. 
+Risk Description 
+(Likelihood/Severity) 
+WP(s) 
+involved Risk-mitigation measures 
+Technical Risks 
+The development of prMRF 
+faces limitations in the 
+formation of the production 
+chain (L:low/S:med) 
+WP5 FORTH is experienced in implementing compact recycling units (see 
+Figure 1.3 ). The parallel development of two slightly different 
+versions of prMRF will facilitate the exchange of know -how and 
+good practices to ensure the efficient performance of the mechanical 
+R-Eq across the production chain. 
+The operation o f prMRF 
+requires equipment that could 
+not have been foreseen at 
+proposal submission 
+WP5, 
+WP3, 
+WP4 
+This is rather unlikely due to the experience of FORTH in 
+implementing similar compact robotic material recovery units. The 
+end-user ION is fully committed to the project and will provide any 
+minor equipment that might be needed, undertaking the expenses. 
+The AI -ICL module 
+underperforms in terms of 
+accuracy (Lamed/S:med) 
+WP3, 
+WP5 
+Mitigation will try to find a trade -off between performance and 
+complexity. Instead of targeting the categorization of many material 
+types the problem will be simplified, targeting the recovery of less 
+types to increase accuracy rates. 
+Newly developed grippers do 
+not improve picking skills 
+(L:med/S:low) 
+WP4, 
+WP5 
+RECLAIM has already av ailable many material specific grippers 
+that perform successfully in material picking. New grippers will focus 
+on universality (i.e. be applicable in many materials). If this is not 
+possible, the available classic grippers will be used to showcase 
+successful prMRF performance. 
+RoReWos underperform in 
+material picking due to single 
+axis motion. (L:high/S:low) 
+WP4, 
+WP5 
+This is a known issue that appears due to the simplified very-low-cost 
+RoReWo architecture. This issue is mitigated by slightly slowing -
+down the conveyor belt to significantly increase RoReWo picking 
+success. 
+Material flow is too high and 
+the RoReWos -Team can 
+recover only a part of it 
+(L:High/S:med) 
+WP5 Due to the modularity of the RoReWo Team this issue can be easily 
+mitigated by adding more RoReWos in the operating Team. 
+To assess that, we will gather all (eight) RoReWos in a single prMRF 
+to assess the performance of the extended RoReWo Team. 
+Delays in the developm ent of 
+individual tools. The complete 
+solution is not sufficiently 
+tested and complete 
+(L:Low/S:med) 
+WP3, 
+WP4, 
+WP5, 
+WP6 
+RECLAIM aims at implementing a functional prMRF very early in 
+the project. Interim versions of the tools will be integrated 
+continuously so that it does not hinder the development of other parts 
+and even if the final version of a tool is not yet ready, a tested version 
+can still be included in the solution. 
+Not many citizens engage with 
+the use of the RDG 
+(L:Low/S:low) 
+WP6, 
+WP3 
+RDG will be assessed and refined to ensure user friendliness and 
+usability. The RDG will be actively promoted in social media to gain 
+popularity. All participant organizations will encourage their 
+employees to use the game. UoM, KUL, FORTH has direct access to 
+a large pool of students who are potential users of the RDG  
+The RDG does not cont ribute 
+as expected in the collection of 
+annotated data (L:med/S:low) 
+WP6, 
+WP3 
+A major part of data collection is planned very early in RECLAIM.  
+AIMPLAS, HRRC and ION staff will annotate this data to enable AI-
+ILC training and satisfactory performance. If necessary, additional 
+resources will be allocated to data collection & annotation. 
+Nevertheless, citizen data will help in the optimization of the AI-ILC, 
+but prMRF can be effective even without them.   
+Management Risks 
+Communication problems may 
+cause delays in the delivery of 
+results (L:low/S:med) 
+WP1-7 Kick-off meeting will be held to establish personal contacts. Regular 
+monthly communication between WPs  will be established . To do 
+Handbook for the day -to-day management of the project  will be set 
+up. 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 42 of 45 
+ 
+Lack of resources for a partner 
+(L:low/S:high) 
+WP1-7 The issue will be mitigated either by rearranging resources among the 
+partners, or re -planning work distribution to support the partner in 
+need of resources. 
+Personnel changes may impact 
+the quality  of t he outcomes  
+(L:low/S:high) 
+WP1-7 Multiple staff members from each partner are involved in R&D 
+disciplines, ensuring smooth transition for the newly hired staff. 
+Additional support will be provided by partners working in closely 
+related areas. 
+COVID-19 Pan demic 
+(L:med/S:high) 
+WP1-7 Consortium partners will utilize online services to launch the project 
+and collaborate in project tasks. prMRF implementation will proceed 
+in slower steps with all partners contributing their parts one after the 
+other for integration in the main platform. 
+We don’t foresee any negative impact of Covid-19 to RDG activities. 
+ 
+3.1.4 Summary of effort and costs 
+A summary of the overall effort is provided in Table 3.1f. The table presents the distribution of person months over 
+the duration of the project for each WP and for each Participant. 
+Table 3.1f. Summary of RECLAIM staff effort. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3.1.5 Subcontracting costs  
+None of the partners in the consortium intend to use subcontracting to carry out project tasks. 
+3.1.6 Purchase costs  
+RECLAIM regards the construction of complete prMRF unit, which assumes increased costs in terms of purchasing 
+and integrating the recycling equipment used for waste pre- and post- processing, the waste monitoring units and the 
+RoReWo team, into a container box. Additionally, travel costs are occasionally high due to frequent travels of the 
+technical partners to the on -site implementation, testing and deployment sites.  Accordingly, for some partners, the 
+budget of “Other Costs” is exceeding the 15% of the personnel costs. For these partners, Table 3.1g provides details 
+on how the relevant “Other Costs” have been determined.  
+Table 3.1g. Other direct cost’ items (travel, equipment, other services, infrastructure). 
+1 FORTH Cost (€) Justification 
+Travel and subsistence 45,000 Multiple long travels for on-site prMRF implementation, deployment, 
+assessment + participation to project meeting, technical meetings and 
+conferences + travel of the External Advisory Board 
+Equipment 40,000 PC + Hyperspectral camera + lighting 
+Other goods/works/services 15,000 Open Access Fees + Consumables + Audit 
+Total 100,000  
+ WP1 WP2 WP3 WP4 WP5 WP6 WP7 Total PMs  
+1 FORTH 9 5 13 14 17 4 6 68 
+2 UoM 2 4 9 2 2 23 6 48 
+3 KUL 2 4 4 20 15  5 50 
+4 HRRC 2 5 4 5 9 3 4 32 
+5 IRIS 3 3 27 2 10 4 4 53 
+6 RBNS 2 4 6 18 15 6 6 57 
+7 AIMPLAS 2 6 5 5 15 2 5 40 
+8 AXIA 2 2   2 2 28 36 
+9 ISWA 2 2    2 16 20 
+10 ION 4 5 5 5 12 5 4 40 
+Total PMs 30 40 73 71 99 51 80 444 
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 43 of 45 
+ 
+ 
+4 HRRC Cost (€) Justification 
+Travel and subsistence 12,000 Travel costs for on-site prMRF implementation and testing + 
+participation to project meetings, technical meetings, dissemination 
+events 
+Equipment 130,000 Container box + Mechanical r ecycling equipment to be integrated 
+with the prMRF (e.g. trommel, flip-flop sorter, conveyor belts, waste 
+press) 
+Other goods/works/services   
+Total 142,000  
+ 
+ 
+ 
+5 IRIS Cost (€) Justification 
+Travel and subsistence 18,000 Travel costs for project meetings, technical meetings , dissemination 
+events 
+Equipment   
+Other goods/works/services 88,000 Materials and consumables for building the prototype real -time 
+monitoring solution: camera, electromechanical parts, electronics, PC, 
+software licensing etc. + consumables +  Open access fees  + 
+dissemination events services 
+Total 106,000  
+ 
+ 
+ 
+6 RBNS Cost (€) Justification 
+Travel and subsistence 30,000 Multiple long travels for on-site prMRF implementation, deployment, 
+assessment + participation to project meeting, technical meetings and 
+conferences  
+Equipment 40,000 Robotic equipment used for implementing the RoReWo Team . For 
+each RoReWo includes linear positioning unit + motor drive system + 
+gripper. For the whole team includes PC + air blower + valves  
+Other goods/works/services 20,000 Robotic and other consumables , which includes mainly: p iping for 
+pneumatic gripping, screws, suction cups, I/O communication hubs, 
+wiring, sensors (vacuum, temperature, power consumption) and more. 
+Total 90,000  
+ 
+ 
+ 
+9 ISWA Cost (€) Justification 
+Travel and subsistence 20,000 Travel costs to disseminate RECLAIM achievements + participation 
+to project meetings and conferences 
+Equipment 0  
+Other goods/works/services 12,000 Services for organizing demo s in major international  events + 
+dissemination material 
+Total 32,000  
+ 
+ 
+ 
+10 ION Cost (€) Justification 
+Travel and subsistence 20,000 Travel costs for project meetings + technical meetings + participation 
+to live prMRF demos 
+Equipment 15,000 Supporting e quipment to facilitate  prMRF deployment  and 
+assessment in three different use case scenarios 
+Other goods/works/services 35,000 Consumables + prMRF setup services + services for waste collection 
+& transport to testing sites + se rvices for prMRF transport to demo 
+sites and conferences 
+Total 70,000  
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-09: AI, data and Robotics for the Green Deal (IA) [RECLAIM]                                 Page 44 of 45

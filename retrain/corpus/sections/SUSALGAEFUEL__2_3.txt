@@ -1,0 +1,896 @@
+2.3 Summary 
+Specific Needs  Expected Results  D & E & C Measures  
+• Current SAF supply is low at <0.05% of total EU 
+aviation fuel use. To meet sustainability targets, 
+SAF supply must be increased (~2.3 Million 
+Tonnes by 2030, 28.6 MT by 2050).  
+• SAFs are currently more expensive than fossil -
+based jet fuel.  
+• Algae biofuels are currently not sustainable and 
+cost-competitive due to a range of factors:  
+-  High biomass production cost (& limited 
+feedstock availability) due to lack of access to 
+cheap and abundant supply of nutrients.  
+- Culture crash due to bacterial contamination 
+-  High biorefinery cost due to high energy 
+requirements associated with cell disruption 
+and high solvent requirements.  
+-  Low fuel conversion efficiency due to limited 
+understanding of the thermochemical routes for 
+conversion of biomass compone nts to SAFs 
+and the required purification steps.  
+A more sustainable, cost-competitive and efficient process 
+for the production of algae SAFs via technologies that enable 
+production of microalgae on cheap and abundant CO2 and 
+waste nutrients from the AD sector: 
+- Autotrophic growth strategy on digestate  
+- Membrane system for CO2 delivery to microalgae culture  
+- In-line sensor for bacterial detection/enumeration  
+- UV irradiation system for bacterial control  
+- Low-energy cell disruption based on autolysis  
+- Lipid extraction strategy to minimise solvent usage 
+- Multifunctional catalysts with H 2 looping route for 
+conversion of algal lipids to HEFA-SPK 
+- Algae-specific HEFA-SPK purification method 
+- Route for the conversion of microalgae biomass residue to 
+TCR-HDO oil (kerosene mixture) 
+- Algae-specific TCR-HDO purification method  
+- Pilot plant for full-system process (TRL4 /5) of converting 
+digestate to microalgae-based aviation fuel  
+- Process simulations, business- modelling, life -cycle 
+analysis and policy assessment/recommendation. 
+Dissemination measures:  20+ Industry Workshops, 
+networking events, webinars, and seminars;  
+Workshops at pilot-scale algae fuel facility on AD 
+site; 10+ open-access publications; >12 presentations 
+and >2 conference workshops; Microalgae Fuel 
+Summer Research School; Technical brochures;  
+Policy white paper; SusAlgaeFuel Final Conference. 
+Exploitation measures:  
+■ IP protection for new technologies followed by 
+open-access publications and open-science repository 
+according to Data Management Plan;  
+■ BMCs and Business/commercialisation plans;  
+■ Policy white paper;  
+■ RSB certification  
+Communication measures:  SusAlgaeFuel public 
+website and social -media channels; Communication 
+training programme; Promotional contents 
+(infographics, leaftets, posters, project videos),  
+Journalistic content (e.g. interviews, press release); 
+Women-in-Science campaign. 
+Target Groups   Outcomes  Impacts  
+- AD operators as technology adopters  
+- Algae producers as technology providers  
+- Fuel/SAF producers  
+- Aviation sector: Aircraft manufacturers; Leasing 
+facilities; Airports & airlines 
+- By-product users: Biofertiliser & feed producers  
+- Sensor manufacturers  
+- Fuel certification authorities  
+- Industry associations 
+- Academic community / researchers  
+- EU projects in related area  
+- Policymakers and MPs (national & EU^) 
+- Investors in green technology 
+- University students (undergraduate, master, PhD) 
+- General public/air passengers 
+- Further innovative/disruptive research in microalgae and 
+SAF production on the basis of our findings, leading to IP 
+generation, licenses, and spin-outs. 
+- Commercialisation plan for post -project scale up  of 
+SusAlgaeFuel process & adoption by SAF producers, AD 
+operators & businesses along aviation fuel supply chain 
+- Robust mechanisms and research to increase the scale and 
+reduce the cost of algal biofuels to <35 €/MWh by 2030 
+according to SET plan 8 mandate, in creasing the 
+efficiency, and decreasing GHG emissions of  algae SAFs. 
+- Positive policy changes  at national and EU levels in 
+relation to SAF adoption, phasing out of fossil fuels and 
+creating subsidies/incentives for SAF commercialization 
+- Greater awareness of the importance of SAF amongst the 
+general public, with an effective focus on air passengers 
+- Scientific and technological: Groundbreaking 
+innovative approaches that work in tandem to enable 
+a more cost -
+competitive, efficient, and circular 
+production of microalgae SAFs, complemented with 
+process simulations, techno- economic and LCA to 
+assess scalability and identify process 
+improvements.  
+- Energy security in the EU and economic :  
+Delivering world’s 1 st microalgae HEFA -SPK 
+and TCR -HDO fuels  tested for compliance to 
+ASTM jet -fuel specifications as microalgae 
+substitute aviation fuel with potential to annually 
+treat 172 Mt of digestate for the production of 1 Mt 
+of HEFA -SPK (equivalent to 20% of Europe’s 
+projected SAF requirements of 5 Mt in 2030). 
+ 
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+30 
+3 QUALITY AND EFFICIENCY OF IMPLEMENTATION #@QUA-LIT-QL@# #@WRK-PLA-WP@# 
+3.1.Work Plan and Resources                                                                                                                        
+SusAlgaeFuel is divided into eight interconnected WPs which work to complement each other in delivering an 
+integrated technology, business model, sustainability and polic y solution for algal aviation fuel development in the 
+EU. The interconnectivity between the WPs is illustrated in Figure 3.1a. WPs 1-4 will provide core technology 
+development at bench scale, while WP5 will use the information obtained in these WPs to assess commercial and 
+socio-environmental scalability of the system. Each WP is further divided into  several Tasks to address specific 
+objectives. In WP6, the processes developed in WPs 1-4, complemented with process optimisation based on WP5, 
+will be transferred to pilot scale to demonstrate scalability, culminating in the production of sufficient SAF for ASTM 
+compliance test at the end project of lifetime. The project will adopt a staggered approach, with WP6 starting only in 
+Month 25 (2nd phase of the project), allowing investigation in WPs 1-4 to reach sufficient maturity prior to scale-up. 
+WP7 provides blueprint for results dissemination, commercialisation and policy guidance.  
+Figure 3.1a: SusAlgaeFuel’s approach and interconnectivity between WPs  
+Management Structure: The Executive Board (EB) assumes the overarching leadership for the project. It decides 
+on the general policy and strategic orientations of the project to ensure that milestones and deliverables are achieved 
+according to the timeline. EB is responsible for monitoring the overall progress of the project and designing corrective 
+actions or authorising the execution of risk mitigation strategies when significant project delay/deviation is observed. 
+The EB comprises all WP l eaders and the project coordinator. The experienced Project Coordinator (UCD,) has 
+the overall responsibility to manage and execute the project. They also act as an intermediary between European 
+Commission, Advisory Board (which currently consists of Boeing and CityJet), EB and rest of the consortium. WP 
+Leaders are in charge of: (a) implementing decisions taken by the EB for their WPs , (b) coordinating the activities 
+within their WPs and monitoring progress, (c) reporting to Project Coordinator, and (d) organizing and chairing 
+online WP meetings. The Project Office (PO) at UCD will manage the daily logistics of coordination activities on 
+behalf of Project Coordinator, including the organisation of on-site consortium meetings at M1, M18, M36 and M48   
+Table 3.1a: List of Work Packages 
+WP  
+No. WP Title Lead 
+Part.No 
+Lead  
+Partner  
+Person-
+Months 
+Start 
+Month 
+End 
+Month 
+1 High-density cultivation through biogenic CO2 
+capture and waste utilisation  
+1 UCD 39.5 1 36 
+2 Sensor system for bacterial detection and culture 
+purification  
+3 IRIS 42.0 1 36 
+3 Cascading biorefinery for biomass purification  5 KIT 63.0 1 36 
+4 High-efficiency fuel conversion and purification  6 UCAM 70.7 1 36 
+5 Process integration and whole life-cycle analysis 8 SFS 38.0 13 48 
+6 Pilot scale-up, fuel testing and digital twin 3 A4F 154.0 25 48 
+7 Communication, policy and exploitation roadmap 9 ESCI 46.7 1 48 
+8 Project coordination  1 UCD 29.7 1 48 
+
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+31 Figure 3.1b: Gantt chart for SusAlgaeFuel
+Milestones (ML) and 
+Deliverables (D) M2 M4 M6 M8 M10 M12 M14 M16 M18 M20 M22 M24 M26 M28 M30 M32 M34 M36 M38 M40 M42 M44 M46 M48
+ML1.1, D1.1 ML D
+ D1.2 D
+ML1.2 ML
+D1.3 D
+D.2.1 D
+D2.2 D
+D2.3 D
+ML3.1, D3.1 ML D
+ML3.2, D3.2 ML D
+ML4.1, D4.1 ML D
+ML4.2, D4.2 ML D
+ML4.3, D4.3 ML D
+ML4.4, D4.4 ML D
+ML4.5, D4.5 ML D
+ML5.1, D5.1 ML D
+D5.2 ML D
+ML6.1, ML6.2 ML ML
+ML6.3, ML6.4,  D6.1, D6.2 ML D ML D
+ML6.5, D6.3 ML D
+ D6.4 D
+ D7.1, D7.2, D7.3 D D D D
+D7.4 D
+D7.5, D7.6 D, D
+D8.1 DT8.3: Data management and open science
+Year 4Year 1 Year 2 Year 3
+WP3: Cascading biorefinery for biomass purification 
+T3.1: Autolytic cell-wall disruption for direct processing of wet microalgae 
+T1.1: Digestate characterisation and pre-treatment
+T1.4:  Hybrid cultivation integrating direct CO2 capture and digestate bioremediation
+WP2: Sensor system for bacterial detection and culture purification 
+T1.2: Development of cultivation procedures on digestate
+T2.1: In-line sensor technology to monitor bacterial level 
+T3.2: Solvent screening, recycling and emulsion management 
+WP4: High-efficiency fuel conversion and purification 
+T4.2: Chemical looping to reduce hydrogen and energy during HEFA-SPK synthesis
+T1.3:  Novel membrane system for the delivery of biogenic CO2 to aqueous solution
+WP1: High-density cultivation through biogenic CO2 capture and digestate utilisation
+WP8: Project coordination 
+T6.1: Design, build, and commission of a pilot-scale system comprised of cultivation and biorefinery 
+units
+T6.4: Digital twin of the pilot system 
+T7.1: Communication, dissemination and exploitation strategy 
+T7.5: Policy analysis 
+WP7: Communication, policy and exploitation roadmap
+WP5: Process integration and whole life-cycle analysis
+T5.1: Techno-economic assessment and identification of major cost drivers
+T5.2: Life-cycle analysis and identification of socio-environmental hotspots 
+T4.5: Algal TCR-HDO fuel purification
+T7.2: Communication activities
+T2.2: UV irradiation for bacterial management
+T8.2: Risk management and contingency planning
+T6.2: Operation of pilot system for production of lipids and biomass residue 
+T6.3:Pilot fuel production, purification and  testing for compliance with ASTM standards 
+T8.1: Scientific, administrative and financial coordination
+T2.3: Symbiotic algae/bacteria interaction and adaptive growth
+WP6: Pilot scale-up, fuel testing and digital twin 
+T7.3: Stakeholder engagement and networking
+T7.4: Exploitation pathways and business-model development 
+T4.3: Algal HEFA-SPK fuel purification
+T4.4: TCR-HDO treatment for the conversion of microalgae residue to kerosene mixture
+T4.1: Multifunctional catalyst for hydrotreatment conversion of microalgae lipids into HEFA-SPK
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+32 
+Table 3.1b: Work package description 
+Work Package No.  1 Lead: UCD 
+Work Package Title  High-density cultivation through biogenic CO2 capture and digestate utilisation 
+Start Month 1 End Month 36 
+Objectives:  To develop high-density microalgal cultivation strategies by capturing biogenic CO 2 and recovering 
+waste nutrients from digestate. 
+We will a) formulate a cultivation medium based on liquid fraction of digestate that minimises or overrides the need 
+for artificial nutrients (Task 1.1), b) develop autotrophic cultivation strategies for the investigated oleaginous species 
+(Task 1.2), c) develop a novel membrane system for the efficient delivery of CO 2 into microalgae culture, and d) 
+integrate CO2 delivery system with cultivation strategies on digestate in a single system and optimise this hybrid 
+system to attain biomass concentration > 3 g biomass/L and lipid content >30 wt% of biomass (Task 1.4). 
+Description of work:  
+In this WP, A4F  and UCD will work together to establish optimum cultivation strategies for each investigated 
+species (C. pyrenoidosa, A. protothecoides, N. salina) at bench scale (2 – 10 L culture). Cultivation will utilise the 
+liquid fraction of anaerobic digestate (supplied by partner BIAE) as N and P source and CO2 as carbon source. The 
+characteristics and consistency  of the supplied digestate in terms of physical, biochemical and microbiological 
+properties will first be analysed. The digestate will then be subjected to a range of pre-treatment steps (e.g. dilution, 
+filtration) to generate liquid medium with dissolved nutrients configurations suitable for algal growth. Afterwards, 
+the three species will be cultivated on the digestate-based medium under different growth parameters and the ability 
+of each species in recovering nutrients will be analysed. For the CO 2 delivery system, UCD will develop a non-
+porous membrane CO2 delivery (or carbonation) system and compare their performance to standard methods for 
+delivering CO2 into microalgae culture (e.g. sparging). The membrane carbonation system will then be integrated 
+with cultivation strategies on digestate medium and optimised for maximum CO 2 utilisation, biomass productivity 
+and lipid accumulation. The results and technologies obtained in this WP will be used for techno-economic and LCA 
+in WP5 and transferred to the pilot scale-up in WP6.   
+Task 1.1:  Digestate characterisation and pre-treatment (M1 – 8). Lead: UCD. Participants: A4F . 
+An initial characterisation of digestate supplied from BIAE will be carried out in terms of total N (by colorimetric 
+methods), NH 4-N (by colorimetric methods), total P (by colorimetric methods), volatile fatty acid (VFA) 
+concentrations (by GC), turbidity, micronutrient  concentrations (by ICP -AES), and total solid content. 
+Microbiological contaminants (by plate count) and potential growth inhibitors, such as heavy metals (by ICP-AES), 
+will be identified. The digestate will be partitioned into solid and liquid fractions via a series of pre-treatment steps 
+that include settling and centrifugation. The liquid fraction isolated from centrifugation will be analysed through the 
+same set of characterisations as above before being subjected to further pre -treatments using a combination of 
+microfiltration, ultrafiltration ,or two-step filtration, in tangential flow configurations for removing solid particulates 
+and bacteria and producing filtrate wi th accessible nutrients for microalgal growth. The filtrate will then undergo 
+the same set of characterizations as raw digestate and isolated liquid digestate. The sequences of pre-treatment steps 
+and parameters (e.g. transmembrane pressure for filtration)  will be optimised to achieve maximum nutrient 
+extraction. This task will guide A4F in the formulation of cultivation medium from digestate, minimizing the use of 
+artificial nutrients in Task 1.2. Different batches of digestate received from BIAE will be  analysed for their 
+consistency in physical properties and chemical compositions and the effect of inter-batch variation on pre-treatment 
+efficiency and filtrate composition.  
+Task 1.2:  Development of cultivation procedures on digestate (M9 – 24). Lead: A4F. Participants: UCD.  
+In this task, cultivation procedures will be implemented at lab scale for achieving high biomass concentration and 
+lipid content on pre-treated liquid digestate obtained Task 1.1. A microalgae cultivation medium with the pre-treated 
+liquid digestate will be formulated by including the digestate in standard medium at different dilution ratios (ranging 
+from no dilutions to digestate:standard medium ratio = 1:8 v/v), testing the effects on the three microalgae species 
+selected, using lab-scale controlled conditions. The effect of digestate concentration on microalgae growth rates and 
+on lipid accumulation will be assessed and the best dilution for each species will be identified. Specifically, the 
+potential influence of carboxylic acids present in the digestate on the lipid profile will be investigated using GC-MS 
+analysis.
+ The need for supplementing the growth medium with crucial microelements will also be assessed. The pre-
+cultivation and post -harvest medium will be subjected to same set of biochemical characterization to assess the 
+extent of nutrient utilisation by microalgae. The achieved medium formulation will be used for all strains growth 
+and improvements on light, temperature, pH conditions will be performed to achieve maximum bioma ss 
+concentration and lipid content. Final standard operation protocols (SOPs) will be prepared for the cultivation of the 
+three species using the developed strategy. The best performing strain will be used in Task 1.4 and WP6. 
+Task 1.3:  Novel membrane system for the delivery of biogenic CO2 to aqueous solution (M1 – 24). Lead: UCD. 
+Participants: A4F. 
+The membrane carbonation system for CO 2 delivery into aqueous solution will first be designed and operated at 
+bench scale without the presence of microalgae. In order to achieve maximum CO2 transfer into aqueous solution, 
+the performance of the system will be optimised in terms of membrane types, membrane configurations, CO2 partial 
+pressure and pH of the solution. In terms of membrane configurations, we will first use a composite hollow -fibre 
+membrane made of a nonporous polyurethane dense core as shown in Figure 1.2a but will explore other options as 
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+33 
+the Task progresses. The mass transfer of molecular CO2 across the membrane is dependent on intrinsic permeability 
+of the membrane, the difference in CO 2 concentration between the supplied gas and the solution (as indicated by 
+CO2 partial pressure), and solution pH7,55. The membrane system will be equipped with an automated pH controller 
+to correct pH levels within optimal range throughout operation. The rate of CO 2 delivery into the solution will be 
+determined by the difference between total carbon and total organic carbon in the solution (with a TOC analyser).  
+Task 1.4: Hybrid cultivation integrating direct CO2 capture and digestate bioremediation (M19 – 36). Lead: 
+UCD. Participants: A4F 
+In this Task., we will combine the membrane carbonation system developed in Task 1.3 with the digestate 
+bioremediation strategies investigated in Task 1.2 at bench scale. The Task is divided into two stages where we will 
+first operate the membrane carbonation system in microalgae culture grown on standard medium before transferring 
+into dual system with digestate.  
+The membrane system is integrated into a 2L photobioreactor and its effectiveness in delivering CO2 to microalgae 
+culture grown standard medium is evaluated using the best performing strain found in Task 1.2. The mass transfer 
+of CO
+2 in the integrated system is driven by a carbon -concentration gradient maintained through the continuous 
+photosynthetic uptake of CO 2(aq) and HCO 3- by microalgal cells 7,55,56. The rate of photosynthesis, i n turn, is 
+dependent on cultivation parameters, such as nutrient availability (N and P), light intensity, pH and growth 
+phase9,57,58. The performance of the system will be measured in terms of biomass productivity and CUE, calculated 
+as the ratio of carbon assimilated in the biomass (measured with CN analyser) to the amount of carbon delivered 
+into the microalgae suspension (measured w ith a flow meter). In addition to carbon mass balance, nitrogen and 
+phosphorus mass balances (by colorimetric methods and ICP-AES) will also be developed to understand the limiting 
+factors in the system. Mass- transfer model to describe the kinetics of carb on transport across the membrane and 
+subsequent carbon utilisation by microalgae will be developed and solved using MATLAB.  
+Once fundamental mass transfer of the system is understood, the dual system will be operated using digestate 
+medium derived from Ta sk 1.1 with dilution ratio found in Task 1.2, bringing together a full system where 
+microalgae growth (optimum strain from Task 1.2) is supported using CO2 delivered by the membrane system and 
+N, P and micronutrients supplied by the digestate. The performa nce of the system will be assessed in terms of 
+biomass productivity, and bioremediation (or nutrient utilisation) of the digestate. The system parameters (e.g. light 
+intensity, pH, growth phase and harvest time) will be optimised to maximise CUE (> 90%), f inal biomass 
+concentration (> 3 g biomass / L) and biofuel-lipid accumulation (>30 wt% of biomass), while achieving complete 
+bioremediation. The neutral lipid content and fatty acid composition of the biomass will be determined using total 
+lipid extraction (Bligh and Dyer) followed by SPE and transesterification/GC-MS analysis respectively.   
+ 
+Work Package No.  2 Lead: IRIS 
+Work Package Title  Sensor system for bacterial detection and culture purification 
+Start Month 1 End Month 36 
+Objectives: To develop effective strategies (for the in-line monitoring and management of bacterial contamination 
+in algal culture , based on: a) developing rapid in-situ methods based on advanced NIR and Raman spectroscopy 
+coupled with machine learning algorithm to quantify the level of bacteria in microalgae culture  (Task 2.1), and b) 
+using the findings from the sensor system to develop a selective UV irradiation system f or reducing bacterial level 
+(Task 2.2),  and c) refine cultivation strategies that favour the growth of beneficial bacteria (Task 2.3). 
+Description of work:  
+In this WP, IRIS and UCD will work together to develop effective sensor technologies for in- line monitoring of 
+bacterial growth in algae culture and, using these technologies, to develop an effective  digestate pre-treatment and 
+cultivation management strategies to control bacterial growth during algal cultivation on digestate -based medium 
+(thus preventing culture crash). Alternative approaches will be investigated that will aid in overcoming challenges 
+associated with bacterial contamination during algal cultivation in digestate-based medium , such as 2 -stage 
+illumination using UV at different wavelengths and directed adaptation with symbiotic bacteria. WP1 and WP2 will 
+be pursued in parallel with each other, enabling findings from WP2 to be directly integrated into work in WP1.  
+Task 2.1:  In-line sensor technology to monitor bacterial level (M1 – 24). Lead: IRIS. Participant: UCD.  
+IRIS will leverage a novel Multirange Spectroscopic Platform designed and engineered as a test rig to deliver the 
+most suitable from the following sensing techniques from the one comprehensive platform: SWIR spectroscopy, 
+NIR spectroscopy, VIS spectroscopy, Raman spectroscopy, Fluorescence spectroscopy. This self -contained 
+multirange spectroscopic platform will allow the most successful configuration of techniques for tackling the 
+demanding application of the monitoring of bac terial contamination in algal culture (optical techniques for 
+parameters such as pH, biomass concentration, glucose and/or other bacteria metabolites such as butyric acid, 
+fluorescence-based techniques to monitor chlorophyll content, which provides an indication of algal photosynthetic 
+condition), as well as enable seamless data fusion, to obtain dramatic improvements in precision, accuracy, and limit 
+of detection. As such, the platform will be used for measuring the predefined critical parameters and bacte rial 
+ 
+55 DOI: 10.1039/C5EE02005K  
+56 DOI: 10.1016/j.biotechadv.2019.107444.  
+57 DOI: 10.1111/tpj.12823.   
+58 DOI: 10.1016/j.algal.2015.12.020  
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+34 
+indicators and verified against the flow cytometry reference methods that have recently been optimised at UCD for 
+the analysis of bacterial levels. Based on the results, the optimum spectral data fusion techniques will be defined for 
+their configuration into a reliable and cost effective in-line monitoring solution based on a smart sensing device with 
+automated data  acquisition system and machine learning algorithms to enable real- time data analysis and early 
+warning systems when abnormal bacterial gr owth or contamination is detected, so that the system can trigger 
+appropriate responses such as adjusting culture conditions, initiating mitigation measures, or isolating affected 
+batches. Data gathered from this task will be employed in Task 2.2 for the d evelopment of bacterial management 
+toolkit and WP6 for the building of the Digital Twin of the system (Task 6.4).   
+Task 2.2: UV irradiation for bacterial management (M1 – 24). Lead: UCD. Participant: IRIS. 
+Recent studies have demonstrated that bacteria and microalgae can acclimatise differently to UV irradiation , there 
+the same treatment that inactivates bacteria was found to be ineffective for microalgae5. Based on these findings, we 
+plan develop a 2- stage illumination system where we first expose the digestate growth medium (before algal 
+inoculation) to UV irradiation to inactivate bacteria in the medium and then subject microalgae culture grown on 
+the sterilised digestate to a range light quality sources (e.g. artificial day light, standard white light) and UV 
+irradiation under different wavelength ranges and regimens (e.g. red/blue light supplementation at 662nm/430 nm, 
+red/blue light mix, continuous and pulsed) in order to maintain low bacterial count, while boosting algal growth and 
+lipid accumulation. The system thus has a dual purpose, enabling the sterilisation of bacteria on the digestate in the 
+first stage while suppressing the growth of native bacteria present in the culture, and enhancing microalgae growth 
+in the second stage. The efficiency of bacterial inactivation will be assessed using standard baseline methods (e.g. 
+CFU count and flow cytometer) as well as in -
+line sensors developed in Task 2.1. Lipid content and fatty acid 
+composition during growth in the 2nd stage will be assessed using standard gravimetric and GC -MS methods, 
+allowing for assessment of the effect of targeted UV illumination on lipid accumulation.  UV Parameters to optimise 
+during the bacteria inactivation: wavelength, duty cycle, mode and energy efficiency. IRIS will contribute as a 
+designer/provider of the engineered solution for UV irradiation with tailor-made UV LED lamps.  
+Task 2.3: Symbiotic algae-bacteria interaction and adaptive growth (M19-36). Lead: UCD. Part.: IRIS. 
+To further reduce the chances of bacterial proliferation leading to culture crash, the algae-bacteria interactions during 
+algal growth on digestate will be studied at lab scale. Bacteria present in the algal culture can be divided into 
+contaminant bacteria present in the digestate as well as native bacteria present in algal inoculum. The presence of 
+contaminant bacteria is expected to be signif icantly reduced if the digestate based medium  has been previously 
+subjected to microfiltration (Task 1.1) or UV irradiation (Task 2.2); however, native bacteria in the culture derived 
+from inoculation can also pose risk of culture crash if they proliferate aggressively under nutrient-rich conditions 
+afforded by the digestate medium. Hence, it is important to distinguish different sub -populations of bacteria and 
+their roles in affecting algal growth. The algae species selected in Task 1.2 will be cultivated on standard medium, 
+digestate medium or treated digestate medium and the bacteria community at these different conditions will be plated 
+in universal media for the isolation of colonies. The bacterial species will be identified by 16S rDNA, and the main 
+ba
+cteria found will be inoculated with axenic algal cells to understand the symbiotic/beneficial or harmful relations 
+between the algae and bacteria. Based on these results, culture conditions will then be adapted to favour the growth 
+of beneficial bacteria, while reducing the growth of the harmful ones. An enriched cultivation with the beneficial 
+bacteria will be also carried out to assess a possible improvement in algae growth. Flow cytometry and spectroscopic 
+platform developed in Task 2.1 will be used to map the dynamics between algae and bacteria populations. 
+ 
+Work Package No.  3 Lead: KIT 
+Work Package Title  Cascading biorefinery for biomass purification 
+Start Month 1 End Month 36 
+Objectives:  To develop a cascading biorefinery for low -energy and low-solvent fractionation of wet microalgae 
+slurry at high biomass concentration (100 – 200 g biomass / kg slurry) into aviation-fuel precursors (i.e. biofuel -
+convertible lipids and cellulosic biomass residue) and food/feed components (i.e. protein-rich serum).  
+We will a) investigate microalgal ability to self weaken (or autolysis) as the basis for efficient cell disruption (Task 
+3.1) and b) develop extraction strategy using solvents (including bio-based solvents) which can be easily separated 
+from wet algae biomass and enable solvent recycling. Overall, we aim to achieve a biorefinery with a target energy 
+demand for cell disruption < 1 MJ/kg biomass and target solvent usage for lipid extraction < 3.5 L/kg biomass.  
+Description of work: In this WP , KIT and UCD will work together at bench scale ( 10 – 100 g slurry ) to first 
+investigate different combinations of autolytic incubation with mechanical and chemical cell disruption (Task 3.1). 
+This will then be followed by the identif ication of  the best we t processing pathway for  cost-effective solvent 
+extraction of lipids at low solvent usage. To achieve this objective, we will specifically investigate the use of non -
+polar or low-polar solvents with high affinity to neutral lipids and capacity to form bi-phase with water. In order to 
+achieve high purity lipid extracts, solvent systems will additionally be selected for low solvability to proteins and 
+carbohydrates or to components from cultivation medium. Once the best extraction solvent has been selected an d 
+the process is optimised to achieve the target lipid yield, WP3 will also investigate different methods to mitigate 
+emulsion formation (e.g. mixer type) to facilitate optimum solvent recovery (target solvent recovery > 95%).  
+Task 3.1: Autolytic cell -wall disruption for direct processing of wet microalgae (M1 – 18). Lead: UCD. 
+Participants: KIT.  
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+35 
+Task 3.1 will investigate the development of low -energy cell disruption for wet microalgae biomass. For both 
+saltwater species (N. salina) and freshwater species ( C. pyrenoidosa, A. protothecoides), the coupling of autolytic 
+incubation with a range of mechanical (HPH and HSM) and chemical methods (acid hydrolysis) will be investigated. 
+The parameters associated with autolytic incubation  (degree of anoxia, temperature) will be optimised to achieve 
+maximum cell-wall weakening. The use of autolytic incubation as a pre -treatment that weakens microalgae cell 
+walls is intended to reduce the intensity of operating conditions for mechanical or c hemical disruption (i.e. lower 
+pressure configuration and less number of passes for HPH, milder pH for acid disruption) and thus the operating 
+cost of biorefinery. The parameters for mechanical and chemical steps (e.g. pressure configuration for HPH) will be 
+initially selected based on literature. The extent of cell disruption after the combinatorial treatment (or hybrid 
+treatment) are to be assessed with a combination of light microscopy (cell counting + staining), flow cytometry and 
+protein leakage in the  supernatants. The performance of the hybrid treatments will also be compared against 
+standalone disruption treatments (e.g. HPH only, HSM only and acid hydrolysis only). The hybrid treatments that 
+lead to the highest disruption for each species (as indica ted by flow cytometry) will be further parametrically 
+optimised (e.g. pressure configuration, number of passes for HPH; rotation speed, temperature for HSM; pH, acid 
+requirements for acid hydrolysis) to achieve maximum disruption (90 – 100%). Central composite factorial design 
+complemented with response surface methodology (RSM) approach will be used to reduce the number of 
+experiments and develop predictive mathematical models.  
+For the freshwater species (C. pyrenoidosa, A. protothecoides), the combination of autolytic incubation with PEF-
+treatment will be investigated in parallel. As autolytic incubation is known to increase cell wall permeability, a 
+combination with PEF can be a promising approach to reducing disruption energy demand. In our previous studies 
+on A. protothecoides, KIT has already shown that typical energy demands are of max. 1.5 MJ/kg biomass and can 
+reasonably be reduced to 0.5 MJ/kg b iomass by optimizing the processing pathways. Similar protocols will be 
+transposed to C. pyrenoidosa and efficiency of the treatment will be assessed by flow cytometry. Results from 
+autolytic incubation + PEF hybrid treatment will be compared to those obtained for the other combinations and only 
+the most optimum treatment will be used in T3.2 and, more importantly, transferred to scaling activities in WP6.  
+The protein released into the aqueous medium of the microalgal slurry as a result of the hybrid treatment (i.e. 
+autolytic incubation + HPH or autolytic incubation + PEF) will be measured via spectrophotometric methods and 
+protein yield quantified in terms of total water -soluble protein in the biomass, demonstrating the cascading 
+biorefinery potential of the approach for the production of both fuels and feed. The application of protein, however, 
+will not be further investigated given the fuel focus of the project.  
+Task 3.2: Solvent screening, recycling and emulsion management (M13 – 36). Lead: KIT. Participant: UCD. 
+Solvent selection: screening will be performed on biomass that has been submitted to optimal disruption conditions 
+as determined in Task 3.1. The solvents will be chosen among non- polar solvents and solvents of low -polarity. 
+Solvents which are highly problematic for health, environment and safety issues are excluded. Possible candidates 
+to be considered are: hexane, heptane, cyclohexane, ethyl-acetate, MTBE and 2-MeTHF. Disrupted wet microalgae 
+slurry will be mixed with the selected solvents at  increasing biomass concentrations to achieve different solvent 
+usage (2 – 10 L/kg biom ass). The mixture will be centrifuged, solvent phase collected and evaporated, and lipid 
+yield measured gravimetrically. The extracted lipids will be further fractionated using solid- phase extraction and 
+quantity of neutral lipids measured via both gravime try and GC -MS analysis. Lipid extraction efficiency will be 
+calculated as a percentage of neutral lipids available in the biomass, determined via total lipid extraction (Blight and 
+Dyer) followed by solid- phase fractionation. The best solvents for each species are those able to achieve lipid 
+extraction efficiency >80% at low solvent -to-biomass ratio (<5 L / kg biomass). The extraction conditions using 
+these solvents (e.g. extraction duration and agitation level) will be further optimised to reduce solvent usage to < 3.5 
+L/kg biomass. This target seems reasonable since hexane extraction from PEF-treated wet A. prototheorids biomass 
+at KIT and HPH-treated wet Nannochloropsis biomass at UCD have been demonstrated to successfully extract up 
+to 80% of the lipids with 2-3 L of solvent per kg biomass.  
+Under the same development boundary conditions as described above, the use of green or bio- based solvents (D-
+limonene, ethyl lactate and methyl soyate) will also be tested. First, the technical boundary conditions will be 
+established through comprehensive literature survey. If green solvents appear to be economically promising (based 
+on the volumetric cost of the solvent and yield considerations), they will be included in the solvent screening. 
+Emulsion mitigation to enable recycling: The issue of solvent/water emulsion formation resulting in solvent losses 
+during centrifugation step of solvent recovery has not been extensively investigated in literature. The phenomenon, 
+however, is difficult to observe and measure at b ench scale. For this reason, once extraction conditions have been 
+optimised at bench scale, the best extraction systems will be tested at intermediate scale, i.e. an increase by two 
+orders of magnitude with typically 30 g of biomass (ca. 300 g of wet slurr y). The amount of solvent that can be 
+recovered from the extraction process will be monitored and methods that minimize the trapping of solvent in 
+solvent/water emulsions will be investigated and optimised, such as adjustment of pH, temperature or ion stre ngth 
+of the extraction mixture as well as agitating the extraction mixture at different speed and cycles. Methods that do 
+not minimise emulsions and ultimately achieve solvent recovery to >95% will be disregarded. 
+ 
+Work Package No.  4 Lead: UCAM 
+Work Package Title  High-efficiency microalgal fuel conversion and purification 
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+36 
+Start Month 1 End Month 36 
+Objectives: To develop and optimise catalytic pathways for high -efficiency conversion of microalgae biomass 
+components (lipids and biomass residue) to aviation fuels and to develop purification methods for the production of 
+high-quality fuels capable to achieving aviation specifications. 
+WP4 will a) develop tailored multifunctional catalytic pathways and chemical looping process for 
+hydrotreatment/hydrocracking of microalgae lipids into HEFA -SPK (Task 4.1, 4.2), b) investigate the application 
+of thermo- catalytic reforming + hydro- deoxygenation (TCR -HDO) treatment for the conversion of microalgae 
+biomass residue to a kerosene fuel (Task 4.4), and c) investigate purification methods of the fuel molecules for the 
+synthesis of high-quality aviation fuels meeting ASTM specifications (Task 4.3 and Task 4.5).  
+Description of work:  
+In this WP, UCAM and Fraunhofer UMSICHT will work together at bench scale ( 1-20 g lipids and biomass 
+residue) to develop advanced fuel conversion and purification technologies for microalgae biomass components. 
+Task 4.1:  Multifunctional catalyst for hydrotreatment conversion of microalgae lipids into HEFA-SPK (M1 
+– 24). Lead: UCAM. 
+Previous studies producing SPK from algal oils have indicated problems with yields and catalyst deactivation due 
+to the high content of oleic acid and metals in algal lipids Error! Bookmark not defined. , which suggests  that dedicated 
+catalysts and lipid extraction methods can help optimise the hydroprocessing route with the algal feedstock.  
+UCAM will start with catalyst development for two-step and one-step hydrotreatment of algae lipids. The two-step 
+process will use transition metal (Ni, Mo, Co, Cu, Fe) -based catalysts for hydrodeoxygenation and Pt -C for 
+isomerisation and hydrocracking, comparing to published results for other feedstocks59. The use of transition metals 
+has been demonstrated beneficial for the deoxygenation of oleic acid 60, while the effective removal of other 
+heteroatoms with Pt-based catalysts helps improve the hydrocracking yield from algal-lipids61. 
+After learning from the proposed two-step hydrotreatment route, we will then work on developing an algae-specific 
+bi-functional catalyst using transition metals -based catalysts on mild/medium -acidic supports 62 (mesoporous 
+zeolites, silicoaluminophosphates, alumina, graphitic and a ctivated carbon) for one-step hydrotreatment, with and 
+without the addition of sulphidation agents63 (e.g. dimethylsulphide). Acidic surfaces suppress decarboxylation and 
+affect metal-support interaction; thus, the acidity levels of supports will be contro lled by dedicated support pre -
+treatment steps. The development of bifunctional catalysts will progress systematically, varying Ni -Mo-Co-Cu-
+Fe/support combinations, with the optimal composition established by employing machine learning (ML) methods. 
+The catalysts will be characterised through temperature -programmed desorption and reduction (TPD -NH3, TPR), 
+gas adsorption analysis (BET), X-ray diffraction, thermo-gravimetric analysis, SEM, TEM, and EDX.   
+The hydroprocessing steps will be conducted in a bench- top micro-reactor (Autoclave Engineers BTRS, 5 MPa, 
+650ºC) with a 30 cm-long tubular reactor, operating in a continuous down-flow mode, with two gas-liquid separators 
+(hot and cold) for product fractio nation. The composition of the collected fractions will be assessed with GC and 
+LC/MS, with results used to identify main reaction routes (hydrodeoxygenation, decarboxylation) by looking at the 
+product distributions and length of alkane hydrocarbons. Deconvolution of the possible pathways will be conducted 
+using multivariant correlations (principle-component analysis) supported with ML- algorithms for data predictions. 
+Apparent or single -step kinetics will be assessed for selected catalysts in a Carberry Sp
+inning Basket Reactor 
+(Autoclave Engineers, continuous flow, up to 50 bar).  
+Results from small-scale experiments will reveal (1) the best single-functional catalysts for a two-step process, and 
+(2) the best bifunctional catalysts for a single -step HEFA-SPK process. We will then try the final approach: a 
+combination of the catalytic material in one reactor (i.e. multilayer catalytic bed) for a novel combinatory single -
+step algae-lipid HEFA-SPK conversion process.  
+In months 1-36 of the project, in anticipation of a shortage of microalgal lipids generated within the project, HEFA-
+SPK experiments at the mL -production scale will first be carried out with in- house blended lipids that mimic the 
+algal lipid composition. The blend will be created by mixing differen t vegetable oils at various ratios to produce 
+fatty acid compositions similar to those extracted with low -polar solvents from the three microalgae species 
+investigated in SusAlgaeFuel. Lipid composition results from WP3 will guide the blending process. The lipids will 
+also be enriched in metals (Mg, Ca, Cu)  to assess their effect on catalyst deactivation in the HEFA conversion steps. 
+Task 4.2: Chemical looping to reduce H2 and energy requirements during HEFA-SPK synthesis (M13 – 36). 
+Lead: UCAM. 
+Small-scale experiments in Task 4.1 will provide information on catalysts and reaction mechanisms in 
+hydrotreatment. In the next step, we will innovate the hydrotreatment process route by introducing a Cambridge -
+developed flagship process to produce hydrogen via a c hemical looping route from propane (a by- product from 
+HEFA hydrotreatment). An iron- containing oxide, exposed to the gas product stream from the HEFA route, will 
+reduce while consuming propane. In a separate step, the reduced oxide will be regenerated with steam, producing 
+H2. This H2 will be recycled to the HEFA-SPK process, making it more self-sufficient (Figure 1.2b).  
+ 
+59 DOI: 10.1016/j.biombioe.2017.07.008  
+60 DOI: 10.1016/j.renene.2019.03.030.  
+61 DOI: 10.1021/ef301977b.   
+62 DOI: 10.3390/catal9121063 
+63 DOI: 10.1016/j.apcata.2014.11.007  
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+37 
+During Task 4.2, first, we will assess the achievable H 2 yields, dependable on the propane stream parameters and 
+applied temperatures. Th en, we will investigate the heat requirements and heat release in both chemical looping 
+steps, searching for possible heat integration opportunities. Finally, we will assess the influence of impurities in the 
+HEFA-propane stream on the longevity of the che mical looping oxide. Task 4.2 will produce a novel HEFA -SPK 
+route with renewable H2 sourced internally. Information on the optimised process parameters in HEFA -only and 
+HEFA-H2 configurations will enable further integration work and the sustainability asse ssment of algal-dedicated 
+pathways to SPKs in subsequent WPs. 
+Task 4.3: Algal HEFA-SPK fuel purification (M13 – 36). Lead: UCAM.  
+SPK samples from Tasks 4.1 will be assessed for their carbon distribution in normal, iso and cyclo- paraffins, and 
+remaining content of other types of hydrocarbons and heteroatoms, as property indicators. The analysis will be based 
+on high-throughput gas and liquid-chromatography, combined with mass spectroscopy and CHNS. Impurities at a 
+lower level (metals, halogens) can still af fect the fuel performance, thus, will be investigated using ICP -MS. 
+Physicochemical properties from thermogravimetric experiments (thermal stability, volatility) will be correlated to 
+the obtained results for composition. We will then consider suitable purification techniques, assessing the potential 
+routes depending on the required level of separation. Those will include further hydrothermal treatment (polishing 
+and refining) using the equipment from Task 4.1, caustic treatment in batch experiments, and co mmonly used 
+separation methods, mainly filtration and distillation. For the latter, we will device a microdistillation, microfluidic 
+unit, suitable to work with the small feedstock of samples produced in Task 4.1. After the purification steps, samples 
+will be again assessed for their composition and physicochemical properties, comparing the obtained results to the 
+literature and state-of-the-art SPKs that fulfil ASTM requirements. If the property indicators proposed here suggest 
+that ASTM requirements canno t be met directly after the purification steps, further discussions will consider 
+potential fuel blending. The large set of data from Task 4.3 will enable us to devise a decision toolbox, proposing 
+appropriate purification steps tailored to algal-derived fuels. 
+Task 4.4:  TCR -HDO treatment for the conversion of microalgae residue to kerosene mixture (M13 – 36). 
+Lead: UMSICHT. 
+Fraunhofer UMSICHT will purchase algae biomass residue from commercial suppliers to carry out preliminary 
+TCR investigation and devel op specific experimental protocols for microalgae biomass (M19 – 36). The specific 
+activities to be carried for this Task are: 1) pre investigations of the pyrolysis condition in microscale using 
+thermogravimetric analysis (TGA) and/or differential scanning colorimetry (DSC), 2) in lab scale, pelletisation of 
+algal biomass to make sure that they are compatible with the TCR reactor (TCR2 plant), 3) screw modification of 
+TCR reactors to algal feedstock and adaptation of the TCR’s post -reforming section (fitting the height of the char 
+bed) to ensure the right gas velocity and gas residence time within the bed, 4) optimisation of TCR operation through 
+several trials to produce maximum oil yield from residue, 5) analyses of products: oil, gas and char in terms of their 
+higher heating value (HHV), water content, elemental and mineral contents (ICP), and composition (gas online and 
+gas calorimeter online), 6) hydro- deoxygenation or hydro treatment of oil fraction using different catalysts to 
+produce drop- in biofuel comprising a mixture of  petrol, kerosene and diesel with physical and chemical 
+characteristics that, after purification, are compliant with requirements according to EN590 and EN228 standards.  
+Activities 4-6 will be repeated on the biomass residue feedstock obtained in WP6 using the procedure optimised on 
+commercial biomass in Task 4.3. 
+Task 4.5: Algal TCR-HDO fuel purification (M13 – 36). Lead: UMSICHT.  
+After the TCR-HDO steps of the algae residues, the purification of the generated hydrocarbons will be carried out. 
+For standard hydrocarbons, a distillation will be the required method, while in certain cases, an extraction with non-
+polar solvents e.g. pentane might be required. Distillation will generate several fractions that will be isolated 
+according to boiling temperature (petrol fraction from room temperature to 170 °C; kerosene fraction from 170 °C 
+to 230 °C, and diesel fraction from 230 to 350 °C. The residue with boiling point higher than 350 °C can be recycled 
+to the TCR plant for further thermal degradation. Extraction of fuel molecules with non-polar solvents is needed if 
+there are still heterocompounds remaining in the hydrogenated fuel (e.g. sulfonated compounds due to a lack of 
+hydrogenation). In this case, the solvent will be applied to extract the fuels out of the hydrogenated product.  
+The content of aromatic compounds in aviation fuels is an important indicator of the overall quality of the fuel. As 
+they are required to swell the gaskets in the tank of the aviation, a certain amount aromatic  compounds are needed 
+in the (post purified) kerosene fraction. If the concentration of aromatics in the kerosene fraction falls below 
+certification requirements, we can extract additional aromatics from the petrol fraction or diesel fraction and used 
+the extracts to enrich the chemical profile of the kerosene fraction. 
+ 
+Work Package No.  5 Lead: SFS 
+Work Package Title  Process integration and whole life-cycle analysis 
+Start Month 1 End Month 48 
+Objectives: To assess the commercial scalability, well-to-tank social, environmental and GHG-emission impacts of 
+the investigated microalgae biofuel production strategies in relation to systemic constraints.  
+WP5 will a) use process simulations for the assessment of commercial  scalability (Task 5.1), and b) carry out a 
+comprehensive Whole Life Cycle Analysis (including social LCA) to assess the sustainability of the process (Task 
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+38 
+5.2). This WP will use results obtained fr om bench-scale development in WPs1-4 for their analysis  and provide 
+feedback to the WPs to enable iterative improvement. WP5 results will also guide decisions for scale-up in WP6.  
+Description of work: In this WP, UCD and SFS will work together to conduct a rigorous evaluation of techno -
+economic and socio-environmental impacts of the proposed value chain.  
+Task 5.1: Techno-economic assessment and identification of major cost drivers (M13 – 36). Lead: UCD. 
+UCD will use various process simulation software (e.g. Aspen Hysis, Pro -II) as well as open -source models to 
+project the scalability of the proposed system if operated to produce 10,000,000 kg of algae HEFA-SPK per annum. 
+The plant design will be based on the methods developed in WPs 1–4 utilising the data generated in the laboratory 
+studies (such as growth rates, yields, water, energy and chemical requirements) to validate the model assumptions. 
+We will utilise generally accepted cost models for CAPEX an d OPEX for current biorefineries. Two integrated 
+process plant models will be created, one using a commercial refinery simulation software and the other an open -
+source approach to enable a comparison with other standard refinery models and afford the flexi bility to evaluate 
+uncertainty and improve optimisation. The production of algal biomass, the extraction of lipids from biomass, and 
+the conversion of lipids to fuel will be simulated and the costs per litre of SAF determined. An optimization analysis 
+and uncertainty analysis will also be carried out to allow for the identification of major cost sensitivities and provide 
+early feedback to focus laboratory efforts in other WPs during bench-scale experiments.  
+When developing the cost model, we will also inve stigate other means of enhancing the techno- economic and 
+commercial viability of the biorefinery processes, including the recycling of water (e.g.  reusing water obtained after 
+biomass harvest for subsequent cultivation cycles) and heat recovery within the biorefinery. We will also carry out 
+a sensitivity analysis to measure the impact of process variations (e.g. growth conditions during cultivation and 
+solvent-to-biomass ratio during lipid extraction) and uncertainty in the supply chain (e.g. availability of digestate, 
+availability of water and transport distance for raw materials/nutrients) on the yield and overall cost of production 
+of fuels. The task will provide a roadmap for cost reduction beyond project lifetime.  
+Task 5.2: Life-cycle analysis and identification of socio-environmental hotspots (M13 – 48). Lead: SFS. 
+The Whole Life Cycle Analysis (W-LCA) process encompasses four key components: goal definition and scoping, 
+inventory analysis, impact assessment, and interpretation. Additionally, W -LCA incorporates a Social Life Cycle 
+Analysis (S-LCA) as an integral part of the full system Life Cycle Assessment (LCA). Standardisation is a crucial 
+part of the LCA process for SusAlgaeFuel. This Task ensures cross -party standardisation for the first two LCA 
+components: boundary conditions (goal definition and scoping) and inventory analysis for microalgae -based SAF 
+production. Establishing robust cooperation among various WPs is crucial for attaining accurate and reliable results. 
+In this Task, SFS will conduc t a comprehensive assessment of the environmental and sustainability impact of the 
+proposed microalgae value chain. The evaluation will utilise the latest approaches and simulations in life -cycle 
+analysis (LCA) at both individual stages (microalgae cultiva tion, biorefinery, and fuel conversion) and the full 
+system level, with a strong focus on carbon mass balance. A well -to-wake Life Cycle Analysis will be carried out 
+following EU RED II (Plus upcoming RED III) and ICAO's CORSIA methodology, utilising SimaPro LCA software 
+with EcoInvent's latest databases. The objective is to determine the CO2-eq/MJ value of the neat and blended algal 
+SAF, including core LCA values and separately assess induced land -use effects (ILUC).  The LCA will compare 
+the environmental impact of the proposed system to conventional microalgae systems, including cultivation using 
+digestate and direct CO2 capture from AD industry. A wide range of environmental indicators, such as climate -
+change, air-quality, water-quality, and non-renewable energy indicators, will be considered, providing results on a 
+full range of Characterization Factors using CML 2001 methodology.  
+To establish specific emission values of the blended SAF produced, the Greenhouse gases, Regulated Emissions, 
+and Energy in Transportation (GREET) software (USA) will be utilised. Empirical verification will be conducted in 
+partnership with an aircraft/engine Original Equipment Manufacturer OEM from the ATM D4054 test facility index. 
+SFS will apply the RSB's 12 Principles of sustainability during WP5 to help align fuel production with international 
+best practice and obtain ‘RSB EU RED Fuel' Certification. This certification is recognised by the European 
+Commission, demonstrating compliance with the EU RED and RSB's stringent sustainability principles. 
+Identification of opportunities for improvements in microalgae fuel production will involve calculating hotspots, 
+calculated using bench- scale results from WP s 1-4 in the initial phase of the project (M13 – M36), and later 
+derived/validated using project results from the scaling activities in WP6, as well as relevant information from 
+existing literature. These findings will be fed back to the WPs to facilitate informed improvement and optimization. 
+The final CO2 -eq/MJ value for the i nvestigated microalgal value chain will be compared with ICAO CORSIA 
+default LCA values for similar SAF pathways and microalgae SAF pathways by other pathways. The WP will 
+establish the final LCCA, including the full levelized cost of energy (LCOE). 
+In parallel, a social LCA (sLCA) will be carried out to explore the social impacts and sustainability of the developed 
+products and technologies, and their actual and potential positive as well as negative impacts along the life cycle. 
+We will conduct a social assessment of the developed process and the pilot scale facility (built in WP6) to identify 
+the main social risks and social impact categories (e.g working conditions, health and safety impact) associated with 
+the process. Social analysis is important for a ll value chain actors. Key stakeholder groups will be identified, in 
+collaboration with stakeholder engagement strategy activities in WP7, and accordingly social impacts will be 
+assessed through sLCA study parameters. Limitations will be determined by considering that all stakeholders such 
+as employees, raw-material suppliers and end users will be affected in the project value chain. 
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+39 
+ 
+Work Package No.  6 Lead: A4F 
+Work Package Title  Pilot scale-up, fuel testing and digital twin 
+Start Month 25 End Month 48 
+Objectives:  To demonstrate the technical scalability of the technologies developed in WP1-WP4 to TRL4/5 through 
+the build of a pilot-scale system an AD operator site (BIAE) and the operation of the system for the production and 
+quality test of algal HEFA-SPK and TCR-HDO fuels according to ASTM standards.  
+WP6  will a) build a pilot-scale algal production facility with the capacity of producing 10 kg of algal lipids p.a. on 
+BIAE site (Task 6.1), b) operate the pilot system to produce sufficient lipids for the manufacture of 1 kg of algal 
+HEFA-SPK (Task 6.2), c) convert the generated algal lipids and biomass residues to 1 kg of HEFA-SPK and TCR-
+HDO fuels respectively, purify the fuels and test them for compliance with ASTM standards (Task 6.3), and d) 
+develop a digital twin of the integrated fuel production system as a decision toolbox (Task 6.4).  
+Description of work: A4F, BIAE, and UCD will first build/procure, and commission pilot -scale infrastructure 
+comprised of cultivation and biorefinery unit operations on partner BIAE site (Kilshane, Ireland) according to the 
+optimum technologies/specifications found in WP1-WP3. The work will demonstrate a scalable closed-loop system 
+where microalgae growth is supported using waste nutrients directly derived from on-site AD operation. Once built, 
+the pilot-scale system will be operated semi -continuously throughout Year 4 by the UCD team, after a period of 
+training supplied by A4F. The operation will provide the lipid and biomass residue needed for fuel conversion and 
+testing. Once sufficient amounts of lipids have been accumulated for the production of 1 kg of algal HEFA -SPK, 
+both lipid and biomass residue will be dispatched to UCAM and UMSICHT for fuel conversion via the HEFA-SPK 
+and HDO-TCR pathways, respectively. Rather than building a new pilot-scale infrastructure, fuel conversion will 
+utilise large-scale infrastructure that already exists at UCAM and UMSICHT capable of processing the required fuel 
+targets (1 kg of HEFA-SPK from the lipids and a minimum 1 kg of TCR-HDO oils from biomass residue) to reduce 
+project costs. These infrastructures will be modified according to the specific requirements for algae as investigated 
+in WP4. The resulting fuel molecules will then be purified according to the methods developed in WP4 and assessed 
+for compliance to ASTM st
+andard. In parallel, IRIS will develop a digital twin of the integrated system to simulate 
+production performance under different scenarios/conditions, serving as a decision toolbox to guide stakeholders. 
+Budget lines for building and commissioning of pilot-scale infrastructure have been distributed between BIAE, A4F 
+and UCD, while appropriate budget for modifying fuel-conversion rigs has been allocated to UCAM & UMSICHT. 
+Task 6.1: Design, build, and commission of a pilot-scale system comprised of cultivation and biorefinery units 
+(M25 – 36). Lead: A4F. Participants: BIAE, UCD, IRIS. 
+In this task, the detailed engineering design of the microalgae cultivation system will be developed by A4F according 
+to the developments of WP1. This includes the photobioreactor for autotrophic cultivation (1,000 L), a pre-treatment 
+system (microfiltration unit and/or UV irradiation system) to treat digestate and remove contaminating bacteria as 
+developed in WP1 and WP2, a membrane-based CO2 delivery system to directly capture flue CO2 from biomethane 
+upgrading facility as investigated in WP1, and a PAT spectroscopic sensor system to monitor bacterial level in the 
+culture as developed in WP2.   BIAE will carry out the civil engineering work needed to prepare their site for algae 
+infrastructure, before building and commissioning the system with the help and guidance of A4F. Unit operations 
+needed biorefinery fractionation will be designed and sized by UCD according to the development in WP3. The 
+system will include a cell disrupti on unit (selected based on performance in WP3), a lipid extraction unit, a phase 
+separation unit, and a solvent recovery system with an integrated heat recovery system. The individual units will be 
+purchased from commercial suppliers and assembled by UCD Workshop on BIAE site, adjacent to cultivation unit.  
+Task 6.2: Operation of pilot system for production of lipids and biomass residue (M37 – 44).                                      
+Lead: UCD. Participants: BIAE, A4F. 
+After receiving training from A4F, UC D will operate the pilot -scale system built on BIAE site semi -continuously 
+for 3 – 8 months in order to generate the lipids and biomass residue needed for fuel production in Task 6.3. Only 
+one species will be selected for the operation; the selection of wh ich will be made based on findings from bench-
+scale experiments in WP1. Growth and biorefinery conditions identified in WP1 and WP3 will be initially adopted, 
+but will be further optimised in order to achieve maximum final biomass concentration (>3 g bioma ss/L) and lipid 
+accumulation (> 30wt% biomass) within short harvest cycle (7-14 days) for the growth system and the recovery of 
+>80% lipids at energy demand < 1 MJ/kg biomass for the biorefinery system at pilot scale. The performance of in-
+line optical sensors in analysing bacteria/microalgae population dynamics will be analysed using real data obtained 
+from the operation of the pilot system and compared against baseline methods (e.g. flow cytometer + staining). 
+System performance data of the pilot system (e.g. energy and water requirements, solvent requirement) will be fed 
+to WP5 (Task 5.2) for iterative life-cycle analysis and projection of environmental impacts of the proposed system, 
+and to Task 6.4 for the development of a digital twin. The extracted lipids and biomass residues will be stored at -
+20℃ until sufficient amounts have been generated for Task 6.3.  
+In parallel to the biorefinery work carried out in the pilot -scale facility, A4F will investigate bead milling for wet 
+cell disruption as baseline/standard method to provide direct performance comparison to the system in Task 6.1.  
+Task 6.3:  Pilot fuel production, purification and testing for compliance with ASTM standards (M31 – 48). 
+Lead: UCAM. Participant: UMSICHT. 
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+40 
+From month 25, the team at UCAM we will start designing a new rig/modifying our existing rig at UCAM to scale 
+up the production of algae -derived HEFA-SPK. Conclusions from Tasks 4.1, 4.2 and 4.4 will guide the design, 
+primarily including the hydrotreatment and purifications steps. If the scale up is successful, H2 production using our 
+chemical looping approach will be added, connecting the new scaled up HEFA rig to our existing fixed bed reactors 
+for thermochemical water splitting. The main goal of designing and building the scaled up pilot is to achieve 1 kg 
+of HEFA-SPK product from the lipids generated in pilot-scale production in Task 6.2.  
+The biomass residue generated from pilot -scale production will be processed at UMSICHT for the production of 
+TCR-HDO oil. UMSICHT can operate a TCR 2 plant with a throughput of 2 kg of biomass ( currently available at 
+UMSICHT site from previous project TOSYNFUEL). Drying and pelletisation of the algae residue will be required 
+beforehand. The oil will then be hydrotreated and distilled/extracted by solvents.  
+The resulting HEFA-SPK product (UCAM) and final TCR-HDO biocrude oil (UMSICHT) will be purified using 
+the methods developed in Task 4.3 and 4.5 respectively before being analysed for compliance with ASTM D7566 
+& DEFSTAN 91-91 standards by accredited service provider. Parameters to measure include acid number, content 
+of aromatics and sulphur, density at 15°C, flash point, freezing point, viscosity at 20°C, heat of combustion, smoke 
+point, naphthalenes, corrosion copper strip, thermal stability, metal content, halogens, N content, water content. 
+Task 6.4:  Digital twin of the pilot system (M37 – 48). Lead: IRIS.  
+IRIS will develop a digital twin of the pilot-scale facility based on an agent-based approach. The digital team from 
+IRIS will engage with the design team from Task 6.1, to understand the design and operation of the pilot-scale algal 
+SAFs production system and its various components, processes, equipment, and their interactions. The critical 
+variables and parameters that affect the production process and performance will be identified  (e.g. algal growth 
+rate, nutrient levels, and any other relevant factors). A detailed model of the pilot -scale system will be built, and 
+each component, process and identified variables and parameters will be represented with appropriate equations, 
+models, or algorithms (agent Interactions): and incorporated into the model. Real-world data from the operation of 
+the pilot-scale production system in T ask 6.2 will be implemented into the digital twin for both ‘calibrating’ the 
+parametrizable features and buildin g reduced -
+scope (dedicated) models, when required, to define the agents 
+behaviour. The model's accuracy will be validated by comparing its predictions with actual production data from 
+the pilot plant. A series of different scenarios (such as varying nutrie nt inputs, light conditions, or different 
+operational strategies) will be defined to explore the behaviour of the production system under different conditions,. 
+The simulation outputs, i.e. the result from running the whole digital twin under certain param etrization (such as 
+algal biomass production, SAFs yield), will be analysed to understand the impact of each scenario on production 
+performance and to help in optimising the process and identify potential bottlenecks. 
+ 
+Work Package No.  7 Lead: ESCI 
+Work Package Title  Communication, policy and exploitation roadmap 
+Start Month 1 End Month 48 
+Objectives: To develop and implement successful strategies for dissemination, communication and engagement 
+with stakeholders in order to maximise the impact of the project outcome and ensure its legacy. 
+WP will a) implement a comprehensive communication and dissemination strategy to reach relevant stakeholders  
+(Task 7.1-7.3), b) manage IPs and explore exploitation pathways for results commercialisation  (Task 7.4), and c) 
+produce policy recommendations on algae SAFs at EU levels (Task 7.5). 
+Description of work:   
+Task 7.1: Communication, dissemination and exploitation strategy (M1-48). Lead: ESCI. Participants: All. 
+The Dissemination; Exploitation and Communication Master Plan (DECMP) (D7.1) as outlined in section 2.2 will 
+outline the multi-layered activities to maximise impact of the project results. Dissemination, Com munication and 
+Exploitation actions will be monitored using MATOMO (a GDPR friendly version of Google Analytics) and 
+BRANDWATCH for online activities, and questionnaires for events. Monitoring results will feed into Best Practices 
+of Communication, Dissemi
+nation and Dialogue Actions (D7.2; M18). The first version of D7.2 will be used to 
+update the CDMP in M20. ESCI will train partners (2 courses) on maximising impact with social media.  The 
+consortium will produce open- access peer -reviewed articles in high -impact scientific journals and present their 
+results in relevant conferences and workshops. Within the last three months of the project, a final event will be held 
+to present the project results to 100+ stakeholders. The Conference will include open sessions, round tables and 
+workshops to enable different groups to get engaged during the event. UCD and ESCI will also produce a 
+comprehensive Technical Brochure in an easy-to-understand language (D7.3). Research training will be offered on 
+microalgae-related research, including an algae fuel summer research school for undergraduate students. 
+Task 7.2: Communication activities (M1-48). Lead: ESCI. Participants: All. 
+A variety of editorial, promotional and visual content will be developed to share on the project’s channels and media 
+multipliers. The SusAlgaeFuel website and social media channels (e.g. Twitter, Linkedin) will become a meeting 
+place for all stakeholders and establish links with other relevant projects and initiatives. Furthermore, promotional 
+communication materials promoting the project and/or key results will be developed, including  leaflet, infographics; 
+journalistic articles and interviews with technology and environment experts, end -users and other stakeholders. In 
+addition, 3 videos will be produced, an introductory project video and one final summarising results, and 1 Video 
+News Releases to be distributed through ESCI’s network of 250+ broadcast journalists to ensure broadcasting in 3 
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+41 
+national TV stations across Europe. Project visibility will  be enhanced with a Women -in-Science campaign 
+promoting female scientists on SusAlgaeFuel.   
+Task 7.3: Stakeholder engagement and networking (M1-48). Lead: ESCI. Participants: SFS, All. 
+A mapping exercise will be initially carried out to identify key stakeholders relevant to the project. ESCI will extract 
+this list from publications, media partners, CORDIS database, and websites across Europe. Of particular importance 
+is creating a data set of previous/current EU/H2020/HE projects that have been funded in areas under CSA or RIA 
+call topics related to microalgae biofuels or sustainable aviation. This includes other projects funded under the call 
+topics HORIZON- CL5-2023-D3-02-08, HORIZON -CL5-2022-D3-03-07, HORIZON -CL4-2021-RESILIENCE-
+01-16. Based on identification and mapping of relevant stakeholders for the project, SusAlgaeFuel will connect with 
+other EU projects in the area to regularly exchange information and results, cooperate at workshops, conferences, 
+and promote mutual project activities, such as joint webinars/seminars and cross-fertilisation activities. Additionally, 
+SusAlgaeFuel will carry out regular demonstration workshop at our pilot-scale production facility (after the build is 
+completed in M36) and invite key stakeholders relevant to the project from both Ireland and the EU to the workshops 
+in order to increase awareness and promote pathways for commercialisation. SFS, UCAM and BIAE will also send 
+communication bulletins to their wider network of fuel-industry and AD stakeholders, including SkyNRG, Avolon, 
+Boeing, Orix Aviation, Marshall Group, Phillips 66.  
+Task 7.4: Exploitation pathways and business-model development (M1-M48). Lead: UCD. Participants: all. 
+Building from Section 2.2.3, UCD will draft the Consortium Agreement in M1 (to be signed by all project partners) 
+outlining the project’s IP management strategy. A review and analysis of the most appropriate IP tools to protect 
+potential research results w ill be carried out and catalogued during the preparation of the DECMP plan. The 
+Agreement will also outline the procedure to determine ownership of foreground IPs generated during the project, 
+allowing each partner to patent their own set of results, and e xploit IPs. UCD, through its experienced technology 
+transfer office (TTO) and innovation hub NovaUCD, will leverage its expertise in supporting the partners in 
+managing their IP and commercialisation activities. Project results will be analysed by the respective partners as 
+they emerge for Freedom to Operate (FTO), patentability and protectability with up-to-date reviews.  
+UCD will lead partners in developing a roadmap for commercial -scale deployment of the proposed value chain in 
+the EU according to feedstock availability and distribution, and (anticipated) policy direction in renewable energy. 
+On the one hand, the Business Model Canvas (BMC) will be used as a lean tool for facilitating business model 
+development for each of the industrial partners (A4F, BI AE, IRIS, SFS) to define the core aspects of the 
+commercialisation of their results. These BMC will then be iterated out to a more complete 
+business/commercialisation plan, which will also consider financing route for the post project development lifecycle 
+as well as the funding of the market entry towards TRL9 activities, in order to ensure a competit8ive Time to Market 
+(TTM). On the other hand, because the proposed system will combine several stakeholders (AD operator, microalgae 
+producers, sensor technology developer, fuel producer, various aviation stakeholders) in separate sectors within a 
+single value chain, the financial benefits of the system for the individual stakeholders need to be verified. Of 
+particular importance is understanding the potential market and revenue stream of the systems for each stakeholder 
+and how this can translate to a profitable undertaking/model for all stakeholders in the future. This task will involve 
+carrying out research/market interviews with industry stakeholders and lea d to the publication of a 
+commercialisation plan outlining strategies for adoption by stakeholders (D7.4). 
+Task 7.5: Policy analysis (M25 – M48). Lead: SFS.  
+SFS will provide up-to-date information on the EU policy landscape over the project lifetime to greatly improve the 
+environmental and commercial viability of the SAF, as policy compliance can be assured from an early stage. 
+Attention will be given to advanced biofuel targets, energy multipliers and certificates awarded, as well as incentives 
+and mandates to de-risk potential investment in microalgae biofuels. Furthermore, SFS will contribute to national 
+government consultations to promote the introduction of advanced biofuels and accelerate the phase -out of fossil 
+fuels. A membership of the Roundtable of Sustainable Biomaterials (RSB) through SFS offers the project access to 
+a real-life sustainability framework. Through networking, webinars and exclusive RSB Platforms for SAF and policy 
+discussion, the project aims to achieve RSB certification (D7.5), re cognised by the EC to meet stringent RED 
+requirements. This RSB certification will underpin the case for up-scaling and trading the final SAF product within 
+the EU, advancing the business case for future investors. At the end of the project, SFS will publi sh a white paper 
+consisting of policy recommendations to promote algae SAFs based on project findings (D7.6). 
+ 
+Work Package No.  8 Lead: UCD 
+Work Package Title  Project coordination 
+Start Month 1 End Month 48 
+Objectives: To implement effective project management for timely achievement of milestones and deliverables: a) 
+To coordinate all scientific, gender, administrative and financial activities (Task 8.1) ; b) To identify risks and 
+implement mitigation (Task 8.2); c) To manage data according to FAIR and open-science principles (Task 8.3). 
+Description of work:   
+Task 8.1: Scientific, administrative, and financial coordination (M1 – M48). Lead: UCD. Participants: All. 
+The Executive Board EB (comprised of Project Coordinator and WP leaders) will effectively coordinate the 
+interdisciplinary project activities according to the proven project management structure outlined in Section 3.1 and 
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+42 
+monitor the overall project progress to ensure timely a chievement of milestones and deliverables . The Project 
+Coordinator (Dr. Halim, UCD) support by Project Manager (hired at UCD) will be responsible for all aspects related 
+to financial management, includ ing payments to the partners and financial reports to t he EC, and project 
+administration, which includes the preparation of the Consortium Agreement, the timely delivery of project reports 
+to the EC, preparation/implementation of Data Management Plan (D8.1), and consortium meetings. UCD is 
+experienced in inclusive project coordination and will ensure effective management of gender and ethics aspects.  
+Task 8.2: Risk management and contingency planning (M1 – M48). Lead: UCD. Participants: All. 
+The EB will continuously monitor the project progress and, in the event of significant project delay/deviation, design 
+corrective actions or authorise the execution of risk mitigation strategies described in Table 3.1e. The EB can also 
+propose an amendment to the project plan and deliverables in cases when risk mitigation s trategies were 
+unsuccessful in resolving risks. The EB will meet online every three months to discuss contingency planning.  
+Task 8.3: Data management and open science (M1 – M48). Lead: UCD. Participants: All. 
+The project will adopt a sound data management strategy in compliance with FAIR practices as proposed in Section 
+1.2.8. The project coordinator (UCD) will draft a full DMP by month 6 (D8.1). SusAlgaeFuel will champion an 
+open-science practice as described in Section 1.2.7, including open- access public ations for all journal papers 
+resulting from the project via the ΄gold΄ or ‘green’ open access route and curation of data in open-access repositories. 
+Table 3.1c: List of Deliverables 
+No. Deliverable Name Short Description WP  Lead 
+ Part 
+Type  Deliv
+ery

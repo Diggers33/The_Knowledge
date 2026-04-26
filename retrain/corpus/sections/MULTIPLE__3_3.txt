@@ -1,0 +1,99 @@
+3.3 Consortium as a whole ................................ ................................ ................................ ................... 54
+3.4 Resources to be committed ................................ ................................ ..... Error! Bookmark not defined. 
+4 Members of the consortium........................................................................................................ 55
+4.1 Participants ................................ ................................ ................................ ................................ ... 55
+4.2 Third parties involved in the project (including use of third-party resources) ...............................  99 
+5 Ethics and Security .................................................................................................................. 104
+5.1 Ethics ................................ ................................ ................................ ................................ ........... 104
+5.2 Security ................................ ................................ ................................ ................................ ........ 106 
+ 
+  
+ICT-05-2019  
+871783 MULTIPLE – Part B  3 
+1 Excellence 
+MULTIPLE will bring together snapshot mosaic filters, OLED -based sensors,  and state -of-the-art machine 
+learning to deliver breakthrough and cost effective snapshot hyperspectral imaging and spectrometric solutions 
+covering a broad spectral range and suited to actual industrial monitoring and control needs.  MULTIPLE 
+multimodal monitoring systems will be  IoT native, exploiting open source cloud, big data, and deep learning  
+technology. A fast orchestrated deployment of data-driven AI-based models will foster production optimization. 
+The affordability of monolithic uncooled CMOS and CCD sensors sensitive in the visible (VIS) and part of the near 
+infrared (NIR) range has fuelled the spread of machine vision and photonic sensors throughout machinery and 
+production lines. They are necessary elements of any automated production line we can imagine, monitoring a wide 
+variety of magnitudes and providing feedback for optimising manufacturing processes and product quality. Europe 
+has played a clearly leading role in the field with key suppliers  of sensors (e.g. AMS), cameras (e.g. Basler, JAI, 
+PhotonFocus), software (e.g. MVTec) and a vibrant network of SMEs and midcaps delivering turnkey solutions for 
+process monitoring and control to virtually any manufacturing sector.  
+While hybrid and cooled sensor and FPA technologies (e.g. InGaAs, InSb, MCT) have been traditionally regarded 
+as expensive and bulky, the high demand and technical advances on InGaAs FPAs have cut down their cost making 
+them attractive for the industrial vision market. Relevant camera suppliers in this segment like PhotonFocus already 
+market InGaAs cameras with tag prices under the 10,000€ barrier, with the expectation of further cuts in the short -
+medium term. Besides, new technologies like OLED sensors are set to make a breakthr ough in terms of cost and 
+performance and have already shown a big potential in chemometric applications.  
+The last years have seen a research boom in hyperspectral imaging (HSI) and spectroscopy measurement 
+technologies, especially in a spectral range tha t spans the visible, short -wavelength infrared (SWIR), and mid -
+wavelength infrared (MWIR). This part of the optical spectrum has proved as a privileged proxy to material 
+properties, especially suited to non-destructive monitoring. It avoids the damage and risks of ionising radiation, and 
+also the environmental noise of thermal radiation. Compared to widespread panchromatic or trichromatic systems, 
+spectrally resolved technology has demonstrated far higher accuracy and specificity, key to address more and mo re 
+scenarios of industrial monitoring and control, across many different sectors.  
+This context explains the optimistic forecasts on the hyperspectral imaging systems market, projected to reach USD 
+21.33 bn by 2023 from USD 8.14 bn in 2017, at a strong CAGR of 17.5%1. Hyperspectral imaging -i.e. sensing with 
+a crowd of finer spectral bands - has been associated to bulky and expensive spectrometers only capable of push -
+broom imaging, not suitable to take snapshots, while the term snapshot has been largely associated to a few spectral 
+bands, with configurations other that Bayer-based or filter-based solutions both bulky and expensive. 
+Mosaic pixel-level filters by IMEC have set a breakthrough in the field, enabling snapshot hyperspectral imaging in 
+the visible range first, and in the SWIR range more recently. This technology -as a coating process - is suitable for 
+volume production and does not alter the compactness of imagers. That is, it is suited to deliver low SWaPC (size, 
+weight, power and cost) solutions.  
+Moreover, the maturity of computational imaging for dual and multi -aperture optics -already empowering many 
+smartphone cameras- brings a clear opportunity. Combined with the feasibility of cost effective snapshot HSI camera 
+cores in the SWIR and VIS range, it sets the conditions to deliver novel snapshot HSI VIS/SWIR imagers with killing 
+price and capabilities. The promise of bringing to the market broadband highly selective hyperspectral imaging  
+covering what is likely the most important spectral range for process and product monitoring is only a collaboration 
+away. A collaboration of few European organisations. 
+The use of low cost high performance OLED sensors, together with advanced laser -based concepts, in the context 
+of chemometric analysis offers clear opportunities to deliver novel on -line and in situ analysers in an even broader 
+spectral range with a big impact on process and product quality. 
+The development of models for measurement and classification is still prone to handcrafted engineering workflows 
+(costly and slow). Desktop software libraries and small sets of data are the main and most usual resources used for 
+modelling, building, and testing. When faced to high dimensional data (e.g. hyperspectral imaging) this burden is 
+likely to discourage t he development effort. It is for a reason that most results reported on HSI have an academic 
+source and few commercial solutions are available yet compared to the wide adoption of standard vision systems.  
+The recent success of  data-driven approaches and deep neural networks -especially for image analysis - enables a 
+faster development of models with better regression, classification, or segmentation accuracy. While the scarcity of 
+suitable data for training has remained a barrier for adoption, new cloud-based architectures have demonstrated the 
+capability to collect, store, and annotate big data, enabling the training of new models in a fraction of time.  
+ 
+1 Markets&Markets. Hyperspectral Imaging System Market 2017-2023. 
+ICT-05-2019  
+871783 MULTIPLE – Part B  4 
+Moreover, the orchestration of large sets of data sensors in other sectors -like video surveillance for security or data 
+analytics in omnichannel retail- are successfully exploiting cloud services and big data technology for data collection 
+and analytics and large scale training and deployment of deep neural models. 
+Current monitoring systems mostly work in isolation to monitor or control a given specific operation. The 
+combination of last edge technology and cloud-services for the orchestration of sensors (e.g. HSI sensors), big data 
+collection and analysis, and large -scale training and deployment of deep neural models on the edge, enables the 
+integral management of data and their use for process optimization and analytics. 
+ 
+Figure 1. MULTIPLE concept. 
+MULTIPLE will deliver breakthrough and cost-effective snapshot HSI cameras  in the broad VIS/SWIR range, 
+complemented with cost effective OLED-based and laser-based chemometric analysers.  On top of these sensors, 
+MULTIPLE will develop novel multimodal monitoring systems that will be IoT native, by combining them with 
+open source cloud, big data, and deep learning technology. An agile development and orchestration of complex AI-
+based models that optimize production will accelerate innovation schemes in relevant manufacturing scenarios.
+1.1 Objectives 
+The main goal of MULTIPLE is the de velopment of cost effective multimodal monitoring solutions with a 
+breakthrough impact on production quality and efficiency. Key technology features pursued by MULTIPLE are a 
+broader spectral range with snapshot hyperspectral capabilities, and an IoT native approach to the development and 
+deployment of machine learning models (i.e. statistical and deep learning models) for overall monitoring and control 
+of production lines. 
+With this aim, MULTIPLE will pursue the following technical goals: 
+1. The development o f cost -effective HSI SWIR (0.9 -1.7µm wavelength) camera cores ready for volume 
+production, covering a missing offer highly demanded by the market.  
+2. The development of dual aperture snapshot HSI imagers combining snapshot CMOS and InGaAs hyperspectral 
+sensors based on mosaic filters, delivering breakthrough snapshot hyperspectral imaging (HSI) capabilities in 
+the whole VIS/SWIR range (0.4-1.7µm wavelength). 
+3. The development of novel spectrometric solutions for accurate highly specific chemometric analysis in an 
+extended VIS/MWIR (0.4 -5µm wavelength) range. Innovative concepts in OLED sensors, laser -based 
+spectroscopy, and signal processing will be combined in MULTIPLE to deliver new spectrometric solutions with 
+breakthrough sensitivity and performance.

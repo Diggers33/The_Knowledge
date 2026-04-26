@@ -1,0 +1,1764 @@
+1.3 IPR Management Plan. (M6) 
+D1.1 : Project Management Handbook [3] 
+This deliverable will summare all the information required for an optimum management  of the project (in terms of 
+administrative forms, procedures, templates, financial aspects, communication procedures, deliverable schedules, 
+reporting periods, contacts, etc.), and conflicts resolution. 
+D1.2 : Data Management Plan. [6] 
+This deliverable will include details about the data management plan defined. 
+D1.3 : IPR Management Plan [6] 
+This deliverable will include information about the IPR Management Plan.  
+  Schedule of relevant Milestones   
+       
+Milestone 
+number18 Milestone title 
+ 
+Lead beneficiary 
+Due 
+Date (in 
+months) 
+Means of verification 
+Work package number 9 WP2 Lead beneficiary 10 3 - MULTITEL 
+Partner number and short name 
+ WP1 effort 
+Total 
+List of deliverables 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 17 of 46 
+Work package title DESIGN AND DEVELOPMENT OF A PROTOTYPE FOR CONTROLLED LIPSS  
+Start month 1 End month 24 
+Objectives 
+The main objective of this WP is the development of an easy to integrate and control, compact and low cost optical 
+module for the Laser Texturing Prototype. This objective is divided in the following specific objectives:  
+- To determine the detailed specifica tions of the optical module required for each application (material and 
+functionalization required) to obtain the optimum performance for each one. 
+- To define the best beam shape(s) characteristics to cover a broad range of applications.  
+- To define the interfaces between the future optical modules and the Laser Texturing Prototype.  
+- To develop the optical module(s) to be integrated in WP5 
+Description of work and role of partners 
+WP2 - DESIGN AND DEVELOPMENT OF A PROTOTYPE FOR CONTROLLED LIPSS  [Months: 1-24] 
+MULTITEL, Ceit-IK4, LASEA 
+In this WP the consortium (leaded by MULTITEL) will work to develop the optical module of the Laser Texturing 
+Prototype. This optical module is the responsible to control the parameters that determine the LIPSS formation: optical 
+power, beam profile, polarisation orientation, and even the operation wavelength of the micromachining system.  
+Task 2.1 Definition of the System Architecture. 
+Lead Partner: MULT - Participant Partners: LASEA, CEIT, VISUM, FAGOR, RESCOLL and CICe - Task duration: 
+M01-M06 
+The partners involved in this task will work on determining the detailed specifications required for each material/ 
+functionalization combination defined for the development of the Prototype, in order to obtain the optimum 
+performance in ter ms of LIPSS formation quality and process time for each one. The more relevant specifications 
+include: (i) Determination of the minimum and maximum line width, that is the width covered with LIPSS with a 
+specific orientation. (ii) Determination of the rang e of energy densities necessary to cover the materials and 
+functionalization combinations. (iii) Determination of the beam profile/shape. (iv) Determination of the polarization 
+requirements (linear, circular, elliptical,…) (iv) Determination of the laser wavelength. 
+Taking into account the specifications defined, MULTITEL and LASEA will make a preliminary definition of the Laser 
+and optic architecture needed to adequately cover the range defined. 
+Task 2.2 Preparation of the experimental laboratory set-up and tests. 
+Lead Partner: MULTITEL - Participant Partners: CEIT, LASEA - Task duration: M01-M15 
+In this task, an experimental laboratory set -up will be defined with the aim of testing and defining more precisely the 
+parameters of the future optical module(s) defined in Task 2.1. 
+The goal will be to define the best beam shape(s) characteristics to cover a broad range of applications (materials and 
+functionalities). Top-hat beam shape will be certainly the mostly used but depending on the applications requirements 
+like working dista nce, spot size and depth of field, the exact characteristics of the top -hat profile may be adapted. In 
+particular, the steepness and the homogeneity of the beam shape are of great importance. To define the best beam 
+shape(s), MULTITEL will upgrade its current system. 
+The system that MULTITEL currently uses (see figure 13) is based on a milliJoule femtosecond IR source coupled to 
+high speed galvanometric (scanning module). It comprises a spatial beam shaping module that includes a beam shaping 
+based on a Dif fractive Optical Element (DOE) and a polarization part, which permits to manually orientate the linear 
+polarisation state of the beam at the input of the beam shaper (spatial beam shaping module).  
+See FIGURE 13 CURRENT SET-UP FROM MULTITEL TO BE ADAPTED FO R THE PROJECT in Appendix I of 
+part B. 
+In order to set the required parameters, it is necessary to address a wide range of optical configurations. Therefore, 
+flexibility is the most important parameter regarding the beam shaping method to be used, regardle ss of integration 
+losses and handling power. In this regard, to carry out the experimental tests the currently system used by MULTITEL 
+will be upgraded to obtain a more flexible system by: 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 18 of 46 
+- The implementation of a spatial light modulator (SLM) based polarization and beam shaper for producing 
+controlledpolarized beams: linearly, circular, azimuthally and radially polarized beams. An optical arrangement 
+including a SLM component will permit a more flexible control of the polarization, not limited to linear state. As for 
+beam shaper, the use of use SLMs instead of DOEs will allow to change the beam shape, obtaining a flexible and 
+dynamic beam shaping and control. 
+- The implementation of multi-beam splitting functions. 
+Based on this flexible and dynamic beam shaping and control system, the following experimental test will be carried 
+out to define the exact parameters of the optical modules required for achieving the specifications defined in task 
+2.1: - First, for each material (Aluminium, cooper, titanium and stainless steels) the beam profile and polarization 
+orientation to obtain different ripples will be defined (in terms of depth and periods) by: test of Gaussian, Super 
+Gaussian and Tophat with different steepnesses combined with different polarization modes. 
+- Then, for each application (materials and functionalities) the best beam profile in terms of depth of focus, 
+overlappingand sensitivity to stitching issues will be defined. For instance, to m ake hydrophobic surfaces, it is 
+important to be very careful about stitching issues and in this case, a precise overlap control with well -defined 
+homogeneous beam is required. 
+A series of at least 20 samples of 10* 10 cm² from each material will be used for these tests. 
+From the two series of experiments, a trade-off will be defined between optical module impact on process sensitivity. 
+Once the exact beam shape parameters have been defined, then for the development of the optical module (task 2.4) 
+a passive solution will be preferred for cost and power handling aspects.  
+Outcomes: Exact optical configuration of the optical module(s). 
+Task 2.3 Definition of the optical, electrical and mechanical interfaces of the optical modules 
+Lead Partner: LASEA - Participant Partners: MULT, CEIT - Task duration: M15-M18 
+The aim of this task is to define the interfaces between the future optical modules and the Laser Texturing Prototype. 
+This includes software interface, electrical control, optical properties of the laser source in and out of the optical 
+module and mechanical characteristics. 
+The different parameters to be defined are: 
+- Input beam cha racteristics: Beam size, Gaussian shape, M², spectral bandwidth, power and energy. Some 
+requirementsdepend directly on the applications (like ablation thresholds will impose energy) but others are only 
+dependant on the quality of the laser source. Although  the optical module must be very robust to input laser 
+parameters, some limits will be defined here. These limits will be settled from experimental tests at MULTITEL on 
+the influence of the input beam shape on the output shape from the optical module.  
+- Mechanical dimensions of the optical module: This module will be integrated in the laser path for the 
+galvanometricscanner. The weight, size and fixing/interfacing with the scanner will be defined here. A trade-off will 
+have to be found between MULTITEL and LASEA regarding the compactness of the future system. 
+- Electrical interfacing: This corresponds mainly to the way that the polarization state will be driven and 
+controlled. Theinput and output signals from/to the optical to/from the machine will be also defin ed between 
+MULTITEL and LASEA. 
+The control panel will be integrated in LASEA global software. 
+Outcomes: Interfaces of the optical module. 
+Task 2.4 Implementation and test of the optical modules. 
+Lead Partner: MULT - Participant Partners: LASEA, CEIT - Task duration: M18-M24 
+In this task MULTITEL will construct a single universal optical module, able to address the whole panel of 
+applications (materials/functionalities) defined for the project. The objective of the task is to obtain a low cost, 
+compact solution, easy to integrate and control. In this case, dynamic flexibility will not be the main parameter for 
+what concerns the beam shaping solution. As in most of industrial processes, dynamic beam shape is not required 
+and induces extra-costs and can reduce the robustness of the system. If a generic beam profile can be found to cope 
+with most of the applications, this will be the preferred industrial solution. 
+The aim of this task is to develop a low loss method, able to sustain high power and energy laser op eration and 
+robust to the input laser parameters fluctuation like in particular polarisation. Therefore, instead of Dynamic 
+solutions, which can involve an important cost for beam shaping, Passive methods are going to be use in this solution. 
+Among the dif ferent passive methods, diffractive optics will be probably used for beam shaping because of its 
+compactness, robustness and easiness of integration. Nevertheless, if on the preliminary test performed in task 2.2 
+it is proven that a dynamic beam shaper is the most sensitive solution to cover the whole panel of applications, then 
+at the begging of this task will take place a study about the economic impact of dynamic beam shape, analysing its 
+cost against its potential market to determine its use. 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 19 of 46 
+The beam s haping element will be combined with a polarization rotating element that will be externally driven for a 
+remote control of the beam polarization state. A schematic view of the system can be seen in Appendix I of part B.  
+More than one module may be constructed depending on the applications requirements. A maximum of three versions 
+will be prepared in order to cover the whole panel of applications defined. If during the definition phase it is identified 
+that more than three  versions are necessary, then the potentiality to implement a dynamically flexible beam shaping 
+solution instead of optical modules based on passive beam shaping methods will be considered. In this case, the static 
+solutions will be analysed during WP7 for  the replication guidelines for specific applications where the requirements 
+are less restrictive. This will be an important milestone of this WP at M18. The decision will depend on LASEA, 
+MULTITEL and CEIT and will be based on solution costs, easiness of integration and robustness. 
+The optical module(s) developed will be evaluated in the laboratory experimental set-up prior integration in WP5. The 
+evaluation will consist on texturing the same samples as in task 2.2 and comparison with previous results.  
+Outcomes: Optical module(s) to be integrated in WP5. 
+  
+Participation per Partner 
+Partner number and short name  WP2 effort  
+1 -  Ceit-IK4    
+2 -  LASEA    
+3 -  MULTITEL    
+ Total   
+List of deliverables 
+  
+Deliverable 
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16 
+Due 
+Date (in 
+months)17 
+D2.1 
+Report on detailed 
+specifications from all 
+the applications 
+2 - LASEA Report 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+6 
+D2.2 
+Report on optical 
+configuration of the 
+optical module(s) 
+3 - MULTITEL Report 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+15 
+D2.3 
+Report on definition 
+of the interfaces of 
+the optical module 
+2 - LASEA Report 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+18 
+D2.4 
+Optical modules 
+prototypes to be 
+integrated in WP5 
+3 - MULTITEL Demonstrator 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+24 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 20 of 46 
+Description of deliverables 
+D.2.1: Report on detailed specifications of the optical module (M06) 
+D.2.2: Report on optical configuration of the optical module(s) (M15) 
+D.2.3: Report on definition of the interfaces of the optical module (M18) 
+D.2.4: Optical modules prototypes to be integrated in WP5 (M24) 
+D2.1 : Report on detailed specifications from all the applications [6] 
+This deliverable will include details of the specifications of all the applications 
+D2.2 : Report on optical configuration of the optical module(s) [15] 
+This deliverable wil give details about the optical configuration of the optical module(s)  
+D2.3 : Report on definition of the interfaces of the optical module [18] 
+It will include information about the interfaces of the optical module 
+D2.4 : Optical modules prototypes to be integrated in WP5 [24] 
+Optical modules prototypes to be integrated in WP5 
+Schedule of relevant Milestones 
+  
+Milestone 
+number18 Milestone title Lead beneficiary 
+Due 
+Date (in 
+months) 
+Means of verification 
+MS1 
+Identification of the type of 
+beam shaping to be used 
+(dynamic or passive) 
+3 - MULTITEL 18 
+Conclusions about analysis of 
+costs, easiness of integration 
+and robustness 
+MS2 Optical module 3 - MULTITEL 24 
+Validation of the module by 
+laboratory experimental test 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 21 of 46 
+Work package number 9 WP3 Lead beneficiary 10  4 - VISUM 
+Work package title DESIGN AND DEVELOPMENT OF AN IN-LINE MONITORING UNIT  
+Start month 1 End month  24 
+Objectives 
+WP3 addresses the development of the in-line quality control system, following the idea that the industrial measurement 
+technologies should progress in parallel to the manufacturing advancements.  
+The specific aims of the WP are: 
+- Developing the core optical technology suitable for nanometric surface features quality control.  
+- Developing the beta-version of the analysis software. 
+- Developing the functional prototype suitable for industrial settings use. 
+- Testing and validating the new nano-metrology prototype functionalities and performance. 
+Description of work and role of partners 
+WP3 - DESIGN AND DEVELOPMENT OF AN IN-LINE MONITORING UNIT [Months: 1-24] 
+VISUM, Ceit-IK4, LASEA, MULTITEL 
+Task 3.1 Core optical system development 
+Lead Partner: VISUM - Participant Partners: CEIT, LASEA - Task duration: M01-M07 
+Using surface textured samples that are available from previous research projects from CEIT and VISUM, VISUM will 
+start very early in the project to work on the offline trials with a benchtop diffractometry test rig incorporating different 
+illumination sources (Different wavelengths, visible and non -visible light) and polarisations, and compact optical 
+designs with high numerical aperture collection optics, to validate the suit able set up for measuring samples, while 
+manufacturing process analysis will be advanced in parallel. CEIT and LASEA will use their previously existing setups 
+to fabricate and provide samples in order to cover the whole range of all the different material/ functionality 
+combinations. This means different LIPSS periods, depths and orientation as well as different materials.  
+Tests will be performed in the lab scale in non -continuous punctual mode on a relevant set of samples (between 20 -30 
+samples will be anal ysed) for obtaining the textures’ features of interest, on planar and curved surfaces. CEIT and 
+VISUM will test the reference samples by electron microscopy and analysed by image analysis, including FFT (Fast 
+Fourier Transform) to calibrate the optical sys tems. Where possible, simple and direct correlations will be made 
+between structural features and diffracted light patterns, to accelerate the analysis process, for example relating 
+diffracted order orientation with the direction nano-scale lines on the surface. 
+Outcomes: Identification of the optimum optical technology system to develop  
+Task 3.2 Data acquisition and processing software development 
+Lead Partner: VISUM (Third party IRIS) - Participant Partners: CEIT - Task duration: M06-M21 
+The software is intended for driving the instrument, processing the data by means of predictive models and delivering 
+the results through the user interface and towards the production line operators. This task will be performed together 
+with CEIT. 
+Hardware drivers and the raw data acquisition layer will be set up for the core device used in the previous task.  
+The right modelling package must extract the dimensional data from the diffractometry analysis performed in task 3.1. 
+Optical modelling of the diffraction behaviour fo r TE (Transverse Electric) and TM (Transverse Magnetic) polarised 
+light will be carried out using Rigorous Coupled Wave Analysis. A beta version including the required mathematical 
+treatment of the spectra will be delivered for the lab test rig for each of the pattern types. 
+The final version, adapted for inline configuration, will build upon this initial version while incorporating all specific 
+detailed analysis of the nano properties to analyse by a plant operator for being used as a user friendly inline monitoring 
+tool to control the correct part quality. As such, a Graphical User Interface will be set up. The data from the monitoring 
+software will feed in the models regarding the process influence on the textures. In order to establish the same 
+communication channels, there will be an interaction with WP4 to assure the compatibility of the codes. This task will 
+be done together with CEIT. 
+Upon post project integration (WP5), long term robustness trials, and further control system development, the 
+communication capabilities for sending information to external systems (SCADAs, PLCs, etc.), for example, the 
+production line rejection system, or process optimisation routines could be integrated in close loop. 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 22 of 46 
+Outcomes: User interface and software analysis for data acquisition 
+Task 3.3 Functional prototype development 
+Lead Partner: VISUM (Third party IRIS) - Participant Partners: LASEA - Task duration: M10-M21 
+Based on the results of the offline trials performed in task 3.1 but also on the final specifications of the upscaled LIPSS 
+processes that will have been developed in parallel in WP5 on the LASEA premises, eg. in terms of part size, patterning 
+speed, etc., the architecture of the system hardware will be conceptualized fulfilling the system specifications. The 
+optical systems will be designed using ray -tracing software (e.g. ZEMAX). In addition, the enclosure and other 
+optomechanical parts will be designed using mechanical CAD tools (e.g. SolidWorks). The components (detector, light, 
+data acquisition hardware) will be selected among commercially available options whenever possible and be customised 
+when necessary. 
+Flexible sample mounting and st abilisation platforms will be designed by IRIS to orient the samples in a suitable 
+configuration to the diffractometry optics, including tailored inserts for the screw parts.  
+The possibility of developing a maximum of two different prototypes tailored to t he different resolution needs will be 
+considered, so that different in -line demonstrators will be obtained to perform functionality trials. This will prevent 
+over-design and contain final measuring system costs for surface functionalisation of products where patterns are above 
+500 nm range, thereby enabling the use of inexpensive 405nm lasers which are a factor of 300 cheaper than UV lasers. 
+The use of TE and TM polarised 405nm light is the preferred option to characterise structures smaller than 500nm, with 
+a cost increase due to optical design complexity. Independently of the solution required for the LASER4SURF project, 
+in WP7, the rest of alternatives will be included in the replication guidelines for less/more restrictive conditions.  
+Outcomes: Optical system prototype built based on initial specifications 
+Task 3.4 Nano-metrology lab testing and validation 
+Lead Partner: VISUM - Participant Partners: CEIT, LASEA - Task duration: M18-M24 
+Using the system from the previous task, and data processing algorithm s developed based on task 3.1 off line trials, 
+further tests will be done using a test rig for continuous/dynamic trials at VISUM This will allow acquiring new data 
+for the final version of the software to account for the influence on the continuous measur ement and of the part 
+curvature, and to provide a sampling refresh rate required to provide sufficient coverage of the surface, sampling of 
+small patterned areas, and the speed of the process. The models will be adjusted as needed to provide final calibrat ion 
+before its integration of the global prototype. Any other improvement required from the test will be performed both in 
+terms of hardware and software. A user manual will be delivered together with the systems. Acceptance Test procedure 
+will be implemented prior to the validation test work in WPs 5 and 6 
+Outcomes: In line quality control system built test and validated for the different user cases  
+  
+Participation per Partner 
+Partner number and short name  WP3 effort 
+1 -  Ceit-IK4   
+2 -  LASEA   
+3 -  MULTITEL   
+4 -  VISUM   
+     IRIS   
+ Total  
+List of deliverables 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 23 of 46 
+Deliverable 
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16 
+Due 
+Date (in 
+months)17 
+D3.1 
+Design and delivery of 
+the system for lab testing 
+(hardware and software) 
+4 - VISUM Demonstrator 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+7 
+D3.2 User Manual of the 
+monitoring system 4 - VISUM Report 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+24 
+D3.3 
+In-line monitoring 
+module prototype to be 
+integrated in WP5 
+4 - VISUM Demonstrator 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+24 
+Description of deliverables 
+D3.1 Design and delivery of the system for lab testing (hardware and software) (M07)  
+D3.2 User Manual of the monitoring system (M24) 
+D3.3 In-line monitoring module prototype to be integrated in WP5 (M24) 
+D3.1 : Design and delivery of the system for lab testing (hardware and software) [7]  
+System for lab testing (hardware and software) 
+D3.2 : User Manual of the monitoring system [24] 
+User Manual of the monitoring system 
+D3.3 : In-line monitoring module prototype to be integrated in WP5 [24] 
+In-line monitoring module prototype to be integrated in WP5 
+Schedule of relevant Milestones 
+  
+Milestone 
+number18 Milestone title Lead beneficiary 
+Due 
+Date (in 
+months) 
+Means of verification 
+MS3 In-line monitoring module 4 - VISUM 24 
+Validation of the module by 
+comparison with external 
+characterization methods. 
+Work package number 9 WP4 Lead beneficiary 10  1 - Ceit-IK4 
+Work package title 
+MODELLING FOR TOOLS FOR LIPSS PROCESES AND PARAMETER 
+SELECTION 
+ 
+Start month 1 End month  24 
+Objectives 
+The aim of this WP is to develop a software tool that enables process parameters selection based on a database of LIPSS 
+processes and their resultant functionalities. The specific objectives are the following:  
+- To generate a database of LIPSS processes and resulting functionalities as a function of laser system parameters  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 24 of 46 
+- To define an analytical expression of the LIPSS properties as a function of process parameters  
+- To design and develop a software platform that p rovides the process parameters as a function of the desired 
+functionality- To validate the software application for process parameter selection  
+Description of work and role of partners 
+WP4 - MODELLING FOR TOOLS FOR LIPSS PROCESES AND PARAMETER SELECTION  [Months: 
+1-24] 
+Ceit-IK4, LASEA, CICe, FAGOR, RESCOLL 
+The aim of this WP is to develop the necessary tools that enable industrial end -users to select the process parameters 
+that give rise to a desired functionality, without a need to deeply understand the LIPSS generation process. This 
+objective implies for m ain steps, as sketched in the next figure. Each of the tasks detailed below corresponds to each 
+specific step in the modelling tool development. 
+It is important to highlight that, the modelling tool developed in this WP intends to be a general tool that can be upgraded 
+upon finalization of the tool and/or project ending. This way, new product functionalities and materials can be added 
+to the tool. To demonstrate this upgradable capability, WP7 will include additional LIPSS experiments for the new 
+products/sectors identified for potential replication of the technology. 
+Task 4.1 Generation of a database of LIPSS processes and resulting functionalities  
+Lead Partner: CEIT - Participant Partners: LASEA, MULTITEL, CICe, FAGOR, RESCOLL - Task duration: M1-M24 
+The g eneration of LIPSS on metallic materials and their properties depend both on laser process parameters 
+(wavelength, energy per pulse, pulse duration, number of accumulated pulses per area, polarization, scanning velocity 
+…) and material properties (initial roughness, electric properties, optical properties …). As a result, LIPSS with 
+different periods, depths and orientations can be obtained. Therefore, the first step of the software development is the 
+generation of database that contains the obtained LIPSS geometries and their related functionalities, together with the 
+process parameters used. 
+This will require the fabrication of LIPSS on the surface of the target materials (aluminium, copper, titanium and 
+stainless steel) as well as a characterization of the resulting geometries and functionalities: 
+- First of all, an experimental matrix will be defined for each of the 4 selected materials and functionality pair. 
+Eachmatrix will contain at least 7 values for each of the parameters affecting LIPSS formation (en ergy per pulse, 
+number of pulses, scanning speed, beam polarization, etc. ) These values will be selected according to end -user 
+recommendations for the use cases (CICe, CEGASA, FAGOR, RESCOLL) and according to previous results and 
+bibliographic search for the rest of functionalities. A series of 5 samples will be manufactured by CEIT for each 
+combination of parameters. - The structural characterization of the resulting surfaces will be done by Scanning electron 
+microscopy (SEM) and atomic Force microscopy in order to analyse the period, depth and orientation of the LIPSS by 
+CEIT and CICe. A Fourier analysis of the SEM images will enable an accurate determination of the mean period of the 
+structures and it will be performed by CEIT. 
+- The characterization of those samples specifically related to the project use cases will be evaluated according to 
+eachspecific application (batteries, encoders and/or implants) by the partners involved in each of them according to 
+their specific procedure s (CICe, Fagor, RESC) in order to assess the resulting functionality. As the functionalization 
+for batteries is performed in the current collectors and a number of fabrication steps are need afterwards, the evaluation 
+of this particular case requires a deeper analysis. This particular evaluation will be performed as follows: 
+The characterization for the Batteries application field will include surface tension and wettability studies (against 
+electrode slurry) to be carried out by CEIT and CICe in order to evaluate the coating ability of the slurries on the current 
+collector surface. Untreated current collectors will also be characterized in order to evaluate the improvements obtained 
+by LIPSS processing against untreated current collectors. CEGASA will define the best suited electrochemical testing 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 25 of 46 
+conditions required for the selected electrode materials to proof the concept and will also provide a detailed initial 
+anode and cathode formulation and negative to positive mass/capacity ratio. Using this formulation as the starting point, 
+CICe will work on the optimisation of electrode formulation with the help of CEGASA. The slurry preparation, 
+electrode casting and calendering will be performed at CICe Dry Room facility considering the input provided by 
+CEGASA whilst the electrochemical characterisation will require the participation of CICe and CEGASA. Discs will 
+be punched from the different laminates for their electrochemical characterization which will be performed at CICe as 
+half cells at a coin cell level. Once the half-cells are characterised the fabrication of full cells in coin cell format will 
+start (CICe with advice from CEGASA); reference cells with non -structured and also with treated current collectors 
+will be prepared. The electrochemical characteri zation for both half -cells and full cells will include C -rate capability 
+tests, Cycle life tests and some tests at high temperature and different C-rates will be complemented by CEGASA when 
+needed. Besides, structural, compositional and surface and interfa ce analysis of pristine and cycled electrodes will be 
+carried out by means of: SEM, XRD, Raman, FTIR and XPS. So as to understand the electrode evolution during 
+electrochemical cycling and establish eventual correlations. 
+- The characterization for those s amples related to other general functionalities will be evaluated at CEIT, CICe and 
+FAGOR facilities. This includes the characterization of: 
+(i) Water contact angle for hydrophobic and anticondensation properties (CEIT)  
+(ii) Optical properties such as reflectance, absorbance, diffraction (FAGOR) (iii) Adhesion 
+increase/decrease (CEIT, CICe) 
+Outcomes: Database of LIPSS processes and resulting functionalities as a function of laser system parameters  
+Task 4.2 Statistical analysis of the influence of process parameters on the obtained LIPSS and functionalities 
+Lead Partner: CEIT - Participant Partners: - Task duration: M6-M24 
+The information contained in the database generated in task 4.1 will be statistically analysed by CEIT in order to 
+determine a) an analytical expression of the target properties of LIPSS (period, depth, orientation …) as a function of 
+the process parameters; and b) the parameters that are more/less relevant to the structuring process and therefore to the 
+resultant functionality. 
+Outcomes: Analytical expression of the LIPSS properties as a function of process parameters. Set of relevant and 
+nonrelevant process parameters. 
+Task 4.3 Design and development of a software platform for parameter selection  
+Lead Partner: CEIT - Participant Partners: LASEA, MULTITEL- Task duration: M10-M18 
+Based on the results obtained in Task 4.2, a software platform will be designed  and developed in order to enable 
+parameter selection to industrial end -users. This SW application will ask the users for a desired functionality in a 
+specific material and will provide the set of parameters necessaries for a successful process according t o the study 
+previously performed. The required parameters will be graphically presented to the user and will also be storage in a 
+file that can be afterwards transmitted to the prototype tool in order to automatically program it.  
+Although other possibiliti es will be explored during the project, the mathematical capabilities and graphic user 
+interfaces of Matlab© make this software a suitable candidate for the development of the tool.  
+The SW development will be mainly carried out by CEIT, although close coll aboration with MULTITEL and 
+LASEA will be necessary in order to establish the interfaces between subsystems and the way the information must 
+be storage and transferred to the main control SW (the SW that controls the Optics module and the whole prototype)  
+Outcomes: A software platform that provides the process parameters as a function of the desired functionality.  
+Task 4.4 Pre-validation of the software tool 
+Lead Partner: CEIT - Participant Partners: LASEA, MULTITEL - Task duration: M19-M22 
+The software tool developed in task 4.3 will be pre -validated before its integration in the whole prototype. A set of 
+target functionalities will be selected and introduced in the developed application. The process parameters determined 
+by the application will then be configured in a laser processing equipment and the resultant LIPSS will be compared 
+with the target ones. This pre-validation will be useful to detect possible mismatches before the integration in the final 
+prototype and therefore minimizing risks in it. 
+Outcomes: Optimized and validated software application for process parameter selection.  
+  
+Participation per Partner 
+Partner number and short name  WP4 effort  
+1 -  Ceit-IK4    
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 26 of 46 
+2 -  LASEA    
+5 -  CICe    
+     CEGASA    
+6 -  FAGOR    
+7 -  RESCOLL    
+ Total   
+List of deliverables 
+  
+Deliverable 
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16 
+Due 
+Date (in 
+months)17 
+D4.1 
+Database of LIPSS 
+processes and related 
+functionalities 
+1 - Ceit-IK4 Other 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+24 
+D4.2 Report on process 
+parameter determination 1 - Ceit-IK4 Report 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+24 
+D4.3 
+Preliminary Software 
+platform for parameter 
+selection 
+1 - Ceit-IK4 Other 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+22 
+D4.4 Optimized and validated 
+software platform 1 - Ceit-IK4 Other 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+24 
+Description of deliverables 
+D.4.1 Database of LIPSS processes and related functionalities (M24) 
+D.4.2 Report on process parameter determination (M24) 
+D.4.3 Preliminary Software platform for parameter selection (M22) D.4.4 Optimized and validated software platform 
+(M24) 
+D4.1 : Database of LIPSS processes and related functionalities [24] 
+Database of LIPSS processes and related functionalities 
+D4.2 : Report on process parameter determination [24] 
+This deliverable will include details about process parameter determination  
+D4.3 : Preliminary Software platform for parameter selection [22] 
+Software platform that provides the process parameters as a function of the desired functionality. 
+D4.4 : Optimized and validated software platform [24] 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 27 of 46 
+Software application for process parameter selection 
+Schedule of relevant Milestones 
+  
+Milestone 
+number18 Milestone title Lead beneficiary 
+Due 
+Date (in 
+months) 
+Means of verification 
+MS4 
+Optimized and Validated 
+Software platform for 
+parameter selection 
+1 - Ceit-IK4 22 Functional validation prior to 
+integration 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 28 of 46 
+Work package number 9 WP5 Lead beneficiary 10  2 - LASEA 
+Work package title INTEGRATION OF THE DEVELOPED TOOLS  
+Start month 1 End month  33 
+Objectives 
+The aim of this task is to develop a system that will merge in one single machine the optical module, inspection unit 
+and modelling tool. The specific objectives are the following: 
+- To define the specifications at mechanical, optical and electric level of the integrated prototype.  
+- To ingrate the three modules developed in the previous WPs into a global system to validate the new concept 
+ofmachine proposed in the project. 
+- To test the system and validate it. 
+Description of work and role of partners 
+WP5 - INTEGRATION OF THE DEVELOPED TOOLS [Months: 1-33] 
+LASEA, Ceit-IK4, MULTITEL, VISUM, CICe, FAGOR, RESCOLL 
+The integration of the different modules will be done using an already existing setup of LASEA. It consists of a granite 
+based setup with a gantry. It can be equipped with a femtosecond laser emitting at 1030 nm with pulse durations of 
+about 400 fs or with  a nanosecond laser with wavelengths of 1064nm or 532 nm and pulse durations of about 100ns 
+down to 15ns, bringing flexibility to the possibilities of the setup. 
+In this WP, the specifications for the integration of each module in the current setup will be  defined for the different 
+modules, taking into account the current technical aspects of the setup such as mechanical dimensions. This information 
+will be gathered and communicated to other partners prior to the building of the modules in order to be taken  into 
+account in their designs. 
+Due to their roles and technical characteristics, the flexibility in the integration of the different modules will be different 
+for each module. For instance, the module developed in WP2 is an inline module and will have the strictest limitations 
+in terms of integration, directly related to the already existing configuration such as the dimensions of the granite, the 
+gantry, which will bring some limitations on the possibilities of change on the mechanical parts such as the p osition of 
+mirrors mounts and so, limitations on the change of the optical beam path. Regarding the monitoring module developed 
+in WP3, those restrictions are less strict as this module is off beam path, and so there is more flexibility to integrate it 
+on the setup, but still, in accordance with the configuration of the setup and the dimensions of the module, its location 
+will be chosen depending on mechanics and optics aspects that will have to be defined accurately.  
+Those difficulties will be overcome thanks to a close collaboration between LASEA and the different partners involved 
+in the WP2, WP3 and WP4. 
+Task 5.1 Study of the integration 
+Lead Partner: LASEA - Participant Partners: MULT, VISUM (and its Third party IRIS), CEIT, FAGOR, RESCOLL, 
+Cegasa (TP of CICe) - Task duration: M01-M12 
+In this task LASEA will work on the design of the integration of the different modules to be developed in the WPs 2, 3 
+and 4 on the already existing setup. 
+For each module, an exchange of technical information between LASEA  and those partners in charge of the 
+development of the modules (MULT, VISUM and CEIT) will be done, in order to take into consideration the different 
+interfaces between the modules and the station at mechanical, electrical, optical and software level. A d ocument 
+gathering all this information will be established. In this document, LASEA will determine the different technical 
+aspects of the interfaces, which will be considered for the development of each module in WP2, WP3 and WP5 as well 
+as for the development of the required changes in the existing setup: 
+- Mechanical: design and description of the components, their dimensions, their position, weight and way of fixing 
+willbe described. Technical drawings will need to be exchanged between the partners in charge of the modules and 
+LASEA. At the end, the complete design of the setup including the different modules will be defined. 
+- Optical: the characteristics of the beam will be provided such as the pulse energy, pulse duration, average 
+power,positions and size of the waists, beam path. 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 29 of 46 
+- Electrical: this interface includes the power supply to be provided by the setup to the different modules, and the 
+setup’selectrical interfaces. It also includes the communication protocols that it will be necessary to establish between 
+the setup and the different modules. The way  of control every functionality of the modules will be described both in 
+terms of electronics and software requirements. 
+- Software: This interface includes the control of the different functionalities of every module integrated into the 
+homemade software. It describes the way the different components are controlled such as the protocol of 
+communication, commands to be sent, I/O, etc. 
+Industrial end-users’ point of view will be also taken into consideration, as their recommendations and restrictions 
+for their particular use cases will provide a worst case scenario for the LASER4SURF prototype. This will include 
+aspects such as operational environment and operators perspectives among others. 
+Outcomes: Document defining the specifications of the setup, the optical module and monitoring modules. Technical 
+documents of the integration: electrical drawings, mechanical design, software control for all modules. 
+Task 5.2 Integration of the different modules 
+Lead Partner: LASEA - Participant Partners: MULT, VISUM (and its Third party IRIS), CEIT - Task duration: 
+M06- 
+M27 
+The goal of this task is to add the different modules to the existin g setup following the design defined in task 5.1 
+determined by the different partners. As said in the task 5.1, some restrictions due to the use of an already existing 
+setup might have been highlighted, leading to the necessity to design and modify some me chanical parts. 
+Subtask 5.2.1: Adaptation of the mechanical design, electrical and software 
+New elements of the existing setup will be designed according to the requirements defined in the T5.1 in order to 
+adapt all the elements of the different modules. T his will be done in close collaboration with the different partners 
+in charge of the WP2, 3 and 4 and according to what will have been defined as necessary in those WPs. The software 
+aspect will require a lot of development. Indeed, it will be necessary to control the different modules from WP2 and 
+3 and to integrate them into the home-made software Kyla, which is already included in all the setups and machines 
+of LASEA. This LASEA made software combines the different controls for the different devices incl uded on every 
+setup and machine made in LASEA. 
+Subtask 5.2.2: Technical integration of the modules 
+In this subtask, once the adaptations of the current setup have been done, the different modules will be added. Some 
+checks to the different elements will b e performed to verify every functionality of each module at technical level. 
+Those checks will allow to compare the specifications of each module (already integrated in the global setup) with 
+the specifications defined in the WPs 2, 3 and 4. Due to the use  of a different setup with a different configuration 
+than the ones used to develop the modules in WP2, WP3 and WP4, some difficulties to repeat the specifications of 
+every module are expected to be encountered at the first time. Several iterations with the task 5.1 might be necessary 
+in order to adapt every module to the setup in terms of mechanics, optics, software, during which the technical 
+changes will be guided by the difference of specifications obtained in WPs 2, 3 and 4 and in this task.  
+Outcomes: Integration of the three modules in an already existing working station (integrated prototype)  
+Task 5.3 Tests and validation 
+Lead Partner: LASEA - Participant Partners: MULT, VISUM (and its Third party IRIS), CEIT - Task duration: 
+M18- 
+M33 
+In this task a se ries of tests will be performed and carried out with the goal of qualifying and establishing the 
+reliability of the different parts of each module. This set of tests will reproduce the same tests as those carried out 
+for the validation of each module: 
+- For the optical module, the same tests than the qualification tests of T2.2 will be reproduced and compared to 
+theresults obtained in the same task. An analysis of this comparison will be done to point out any difference with 
+the results obtained at MULTITEL in WP2. 
+- For the inline monitoring unit, the same tests than in tasks 3.1 and 3.4 will be performed after the integration 
+of theunit on the setup. A comparison with the results obtained in WP3 will be done in order to assess on the 
+performances of the module. 
+- The database created in WP4 will be validated by CEIT, testing the process parameters provided for certain 
+predefinedsets of substrates and process results. The suitability with the laser system control software of Lasea 
+(Kyla®), in order to be able to ach ieve an automated supply of process parameters into the machine jobs, will be 
+verified by LASEA. 
+Once the integration of the different modules has been validated, the prototype will be used to carry out the 
+functionalisation of the products of each use cases foreseen in WP6. 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 30 of 46 
+Based on the results of the validation tests that will be done in WP6 to analyse the functionalisation obtained, LASEA, 
+MULT, VISUM and CEIT in collaboration with the end -users will evaluate in this task if any technical adjustment is 
+required on the global prototype. 
+Outcomes: Validation of the integrated prototype. The independent and combined control of the different modules on 
+the integrated prototype validated. 
+  
+Participation per Partner 
+Partner number and short name  WP5 effort  
+1 -  Ceit-IK4    
+2 -  LASEA    
+3 -  MULTITEL    
+4 -  VISUM    
+     IRIS    
+5 -  CICe    
+     CEGASA    
+6 -  FAGOR    
+7 -  RESCOLL    
+ Total   
+List of deliverables 
+  
+Deliverable 
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16 
+Due 
+Date (in 
+months)17 
+D5.1 
+Definition of setup 
+specifications of the 
+modules in the global 
+prototype 
+2 - LASEA Report 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+12 
+D5.2 
+Integration of the three 
+modules in an already 
+existing working station 
+2 - LASEA Demonstrator 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+24 
+D5.3 Report on Tests and 
+validation 2 - LASEA Report 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+33 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 31 of 46 
+D5.4 
+Public report Conclusions 
+on 
+LASER4SURF system 
+validation 
+2 - LASEA Report Public 33 
+Description of deliverables 
+D5.1: Definition of setup specifications of the modules in the global prototype (M12)  
+D5.2: Integration of the three modules in an already existing working station (M24)  
+D5.3: Report on Tests and validation (M33) 
+D5.4: Public report - Conclusions on LASER4SURF system validation (M33) 
+D5.1 : Definition of setup specifications of the modules in the global prototype [12]  
+This deliverable will include information about the setup specifications of the modules in the global prototype  
+D5.2 : Integration of the three modules in an already existing working station [24] 
+Integration of the three modules in an already existing working station 
+D5.3 : Report on Tests and validation [33] 
+This deliverable will explain the tests performed to qualify and establish the reliability of the different parts of each 
+module and to validate the integrated prototipe. 
+D5.4 : Public report - Conclusions on LASER4SURF system validation [33] Public report  with the conclusions on 
+LASER4SURF system validation. 
+Schedule of relevant Milestones 
+  
+Milestone 
+number18 Milestone title Lead beneficiary 
+Due 
+Date (in 
+months) 
+Means of verification 
+MS5 Operational validation of the 
+global prototype 2 - LASEA 27 
+Functional test validation prior 
+to carried out use case 
+functionalization. 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 32 of 46 
+Work package number 9 WP6 Lead beneficiary 10  6 - FAGOR 
+Work package title TECHNOLOGY VALIDATION IN THREE FIELDS  
+Start month 18 End month  36 
+Objectives 
+The aim of this WP is to demonstrate the feasibility of the proposed laser texturing prototype in a set of 3 products of 
+different sectors: Machine tool industry, healthcare sector and batteries. The specific objectives are the following:  
+- To obtain a current collector with enhanced adhesion and roughening using the laser texturing prototype - 
+To obtain a dental implant with adhesion and osteointegration properties using the laser texturing prototype 
+- To obtain an optical encoder with enhanced optical properties of reflection. 
+Description of work and role of partners 
+WP6 - TECHNOLOGY VALIDATION IN THREE FIELDS [Months: 18-36] 
+FAGOR, Ceit-IK4, LASEA, CICe, RESCOLL 
+Each of the task detailed below includes the specific activities that will be necessary to carry out to validate the product 
+surface functionalisation on each use case. 
+It is important to highlight that the samples will be manufactured in LASEA premises and will be sent to the 
+corresponding use cases partner who will carried out the necessary test to validate the functionalisation obtained. At 
+least two sets of samples will be fabricated for each use case, although additional sets can be manufactured if necessary 
+for the functionality validation tasks. The results of the different tests that will be performed in each task will be transfer 
+to WP5, in order to analyse them and take into consideration any possible changes that would be required to guarantee 
+the feasibility of the prototype. 
+Task 6.1 Technology Validation in Energy Storage. 
+Lead Partner: CICe - Participant Partners: CEGASA (third party), LASEA - Task duration: M18-M36 
+Subtask 6.1.1 Fabrication of structured current collectors for pouch cell prototypes  
+Lead Partner: CICe - Participant Partners: LASEA, CEGASA - Task duration: M18-M33 
+In this task LASEA will fabricate structured current collectors from commercial rolls used in battery industry following 
+input from CICe and CEGASA. The total structured surface will allow for the fabrication of a battery prototype in 
+pouch cell format. 
+Subtask 6.1.2 Monolayer pouch cell fabrication and electrochemical characterization . 
+Lead Partner: CICe - Participant Partners: CEGASA (third party) - Task duration: M22-M33 
+CICe will prepare monolayer pouch cells using electrodes which will be prepared using the structured current collector 
+and also non-structured as reference. For this several parts of CICe’s prototyping line will have to be adjusted. Coated 
+area will be increased by a factor of ca. 20, which will represent a significant increase in the capacity delivered by the 
+cell. Pouch cells are one of the different cell designs which are commercially available together with the cylindrical and 
+prismatic configurations. Building pouch cells involves processing steps different from those to build coin cells such 
+as rectangular electrode notching, ultrasonic welding, pouch sealing, degassing… which are common processing steps 
+for commercial battery fabrication. Therefore, building a monolayer pouch cell will constitute a step ahead towards the 
+fabrication of cells with standardized configuration and processing techniques to which it wi ll be a closer comparative 
+in terms of capacity and processing. 
+Subtask 6.1.3 Characterisation of pouch cell electrodes 
+Lead Partner: CICe - Participant Partners: CEGASA (third party) - Task duration: M31-M36 
+The electrodes to be used for the pouch cells w ill be initially characterised to ensure they meet the required standard 
+and also to check reproducibility from coin cell up to pouch cell level. In addition, cycled pouch cells will be 
+disassembled after use so as to study the electrode evolution. This characterisation will include visual inspection of the 
+electrode and also some advanced characterisation such as SEM and XPS.  
+Outcomes: Current collector with enhanced adhesion and roughening, leading to:  
+- Improvement of a 30% in the life cycle of battery electrodes, compared to electrodes casted on conventional 
+currentcollectors. 
+- Increase the battery C-rate capability by 20% when cycling at 1C and by 60% when cycling at 2C.  
+Task 6.2 Technology Validation in Biomedical Implants 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 33 of 46 
+Lead Partner: RESCOLL - Participant Partners: LASEA - Task duration: M18-M36 
+Subtask 6.2.1 Fabrication and dimensional characterization of modified implants  
+Lead Partner: LASEA - Participant Partners: RESCOLL - Task duration: M18-M33 
+The developed prototype will be used to modify the surface finishing of an implant fabricated with standard techniques 
+(RESCOLL). The dimensional characterization of the surface performed by the in -line monitoring unit will be 
+compared to the one performed  by optical and scanning electron microscopes. The implants to be treated will be 
+produced by RESCOLL Manufacturing in titanium allow (Ti6Al4V) using standard milling and cutting methods. 
+RESCOLL Manufacturing will validate the samples prior to treatment u sing its standard QA/QC protocols (visual 
+inspection using a KEYENCE IM-6225, non-contact dimensional measurement using a MMT VERTEX). 
+Subtask 6.2.2 Mechanical and chemical analysis and validation of the modified implants  
+Lead Partner: RESCOLL Participant Partners: -; - Task duration: M28-M36 
+The modified implants resulting from task 6.2.1 will be analysed and validated with the same techniques used for 
+nonmodified implants in order to ensure that the effect of surface modi fication on the mechanical and chemical 
+properties of the implants remain within the required ranges. Surface characteristics will be validated using profilometry 
+and MEB, and compared to baseline implants prepared using traditional methods.  
+The validation of the implants insofar as mechanical and chemical properties will be performed in accordance with 
+industry standards. The screws will be validated in accordance with ISO 18130, ISO 13498, and ISO 14801.  
+Subtask 6.2.3 Biological validation of the added functionality 
+Lead Partner: RESCOLL - Task duration: M30-M36 
+Subcontracted to Phycher, a risk assessment of the modified implants as compared to that of the standard implants will 
+be undertaken. Particular attention will be made to biofilm formation, and whe ther or not there is an effect upon the 
+rate of biofilm formation by the laser texturization. In addition, osteoblast/osteocyte compatibility will be validated in 
+order to elucidate the effect (if any) of the laser texturization upon osteointegration.  
+Outcomes: Cellular adhesion and osteointegration of implants. 
+Task 6.3 Technology Validation in Linear Encoders 
+Lead Partner: FAGOR - Participant Partners: CEIT, LASEA - Task duration: M19-M36 
+Subtask 6.3.1 Design and Implementation of a validation setup 
+Lead Partner: FAGOR - Participant Partners: - Task duration: M19-M27 
+A testing setup actually located at Fagor’s facilities and dedicated to the development of new products will be adapted 
+in order to validate the application of LIPSS to linear encoders’ fabrication. It will be necessary to add a reading terminal 
+in a reflection configuration, instead of the actual one, based on transmission. 
+Subtask 6.3.2 Fabrication and dimensional/optical characterization of diffraction gratings  
+Lead Partner: LASEA - Participant Partners: FAGOR, CEIT - Task duration: M28-M36 
+The laser prototype resulting from WP5 will be used for the fabrication of diffraction gratings in order to validate it in 
+the metrology application field. The fabricated gratings will be dimensionally and  optically characterized, both with 
+the developed in -line monitoring (LASEA) unit and with external equipment: optical microscopy will be done by 
+FAGOR and SEM/AFM, done by CEIT. 
+Subtask 6.3.3 Validation of the fabricated gratings in optical encoders 
+Lead Partner: FAGOR - Participant Partners: CEIT - Task duration: M28-M36 
+The functionality of the fabricated gratings will be tested in the validation setup developed in task 6.3.1. FAGOR will 
+evaluated the more relevant parameters for each grating: obtained s ignal intensity, contrast and an estimation of the 
+precision achieved with the grating. CEIT will correlate the gratin properties with the surface LIPSS.  
+Outcomes: Optical encoders with enhanced optical properties for reflection, leading to:  
+- To increase twofold the tolerances of distances between the grating and the optical head 
+- To eliminate the background light of the gratings 
+  
+Participation per Partner 
+Partner number and short name WP6 effort 
+1 -  Ceit-IK4  
+2 -  LASEA  
+Partner number and short name  WP6 effort  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 34 of 46 
+5 -  CICe    
+     CEGASA    
+6 -  FAGOR    
+7 -  RESCOLL    
+     RMG    
+ Total   
+List of deliverables 
+  
+Deliverable 
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16 
+Due 
+Date (in 
+months)17 
+D6.1 
+Current collector 
+functionalized and 
+validated 
+5 - CICe Demonstrator 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+36 
+D6.2 
+Dental implant 
+functionalized and 
+validated 
+7 - RESCOLL Demonstrator 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+36 
+D6.3 
+Optical encoder 
+functionalized and 
+validated 
+6 - FAGOR Demonstrator 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+36 
+D6.4 Summary report on test 
+performed on batteries 5 - CICe Report 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+36 
+D6.5 Summary report on test 
+performed on implants 7 - RESCOLL Report 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+36 
+D6.6 Summary report on test 
+performed on encoders 6 - FAGOR Report 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+36 
+Description of deliverables 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 35 of 46 
+D6.1: Current collector functionalized and validated (M36) 
+D6.2: Dental implant functionalized and validated (M36) 
+D6.3: Optical encoder functionalized and validated (M36) 
+D6.4: Summary report on test performed on batteries (M36) 
+D6.5: Summary report on test performed on implants (M36) 
+D6.6: Summary report on test performed on encoders (M36) 
+D6.1 : Current collector functionalized and validated [36] 
+Current collector functionalized and validated 
+D6.2 : Dental implant functionalized and validated [36] 
+Dental implant functionalized and validated 
+D6.3 : Optical encoder functionalized and validated [36] 
+Optical encoder functionalized and validated 
+D6.4 : Summary report on test performed on batteries [36] This deliverable will detail the test performed on batteries.  
+D6.5 : Summary report on test performed on implants [36] 
+This report will detail the test performed on implants 
+D6.6 : Summary report on test performed on encoders [36] 
+This deliverable will detail the test performed on encoders 
+Schedule of relevant Milestones 
+  
+Milestone 
+number18 Milestone title Lead beneficiary 
+Due 
+Date (in 
+months) 
+Means of verification 
+MS6 
+Feasible surface 
+functionalization of use cases 6 - FAGOR 36 
+Tests completed and approved 
+related to each use case. 
+Work package number 9 WP7 Lead beneficiary 10  1 - Ceit-IK4 
+Work package title GATHERING EXPERIENCE AND NEW SCENARIO DEFINITION  
+Start month 25 End month  36 
+Objectives 
+With the aim of maximising the future impact of the project results, this WP aims to compare the results obtained with 
+the expected results in order to define new strategies for an effective replication of the process developed in other areas 
+of application within the sectors covered by the use -cases as well as in other sectors. The specific objectives are the 
+following: 
+- Create replication guides 
+- Identify potential replication sectors 
+- Maximize the impact of the project results 
+Description of work and role of partners 
+WP7 - GATHERING EXPERIENCE AND NEW SCENARIO DEFINITION [Months: 25-36] 
+Ceit-IK4, LASEA, MULTITEL, VISUM, CICe, FAGOR, ESCI 
+Task 7.1 Use case analysis 
+Lead Partner: CEIT - Participant Partners: CICe, LASEA, MULTITEL, CEGASA (TP of CICe), RESCOLL, FAGOR 
+- Task duration:M25-M33 
+In this task, we will benchmark the results from WP5 and WP6 against state-of-the-art technology. The benchmark will 
+include technical and economic aspects of the targeted cases: 
+- Technical parameters: 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 36 of 46 
+(i) Batteries: C-rate and increase of life cycles (analysis performed by CICe and CEGASA)  
+(ii) Implants: polarizability of cells and increase of cell density (analysis performed by RESCOLL)  
+(iii) Metrology: Increase in signal contrast and increase in positioning tolerances between the gratings of the 
+system(analysis performed by CEIT and FAGOR). 
+- Economic aspects: three parameters will be calculated for the techno-economic evaluation: 
+(i) The total cost of the addition of the new process will be calculated for the 3 cases analysis in WP6 (analysis 
+performedby LASEA and CEIT). 
+(ii) The marginal increase in performance per euro will be calculated (analysis performed by RESCOLL, FAGOR,  
+CEGASA) 
+(iii) The required minimum performance for commercialization will be evaluated (analysis performed by RESCOLL,  
+FAGOR, CEGASA) 
+The results of these analysis will be discussed in terms of technical maturity (TRL), degree of achievement of the 
+objectives and further economic requirements (if any). 
+Task 7.2 Identification of potential replication sectors 
+Lead Partner: LASEA - Participant Partners: CEIT, CEGASA, RESCOLL, FAGOR - Task duration: M28-M32 
+Two different approaches for potential replication and future applications will be identified here: 
+- Application of LASER4SURF technology to other sectors than the targeted ones (LASEA, CEIT).  
+The replication of the technology for building, transport and manufacturing sectors will be analysed with special 
+attention. The different applications and potential replication sectors will be identified according to the following 
+parameters: (i) Accessib ility; (ii) Additional functionality; (iii) Added value of the process; (iv) Economic impact. - 
+Further applications in the three targeted areas (Energy, Biomedical, Metrology) will be considered (CEGASA, 
+RESCOLL, FAGOR). 
+Based on the results on WP6, and taking into account the technical aspects of the prototype and the processes that have 
+been developed and implemented, the end-users will evaluate the replication potential of LASER4SURF technology in 
+different products and/or applications of their expertise fields. 
+Task 7.3 Replication guides 
+Lead Partner: CEIT - Participant Partners: MULTITEL, VISUM, LASEA - Task duration: M32-M36 
+In this task a technical analysis will be performed and a recommended guide will be developed to further target the 
+most interesting sectors identified in task 7.2. The analysis will include the target materials, the typical dimensions and 
+shape of the pieces, fabrication tolerances and requirements. Although the functionalization prototype developed in the 
+first phase of the project will be a general prototype covering a wide range of functionalities and specifications, certain 
+modifications of the developed modules (optical module and control, monitoring unit and parameters selection tool) 
+may be required for the new target produ cts and sectors, and therefore a guideline for these modifications will also be 
+defined. The necessary modifications may include: 
+- Optics Module: Different laser wavelengths, repetition rates and/or energies may be required for certain 
+applicationsand/or materials in order to reach specific processing times. Therefore, optical components like lenses and 
+mirrors should be replaced. This study will be performed by MULTITEL  
+- Monitoring Unit: A replacement of the light source may be necessary in order to adapt th e module to different 
+structuressizes. This will also require an adaptation in the processing software. This study will be performed by VISUM 
+- Parameter Selection Tool: the developed tool will be an upgradable solution and therefore will enable the 
+modificationof the database in order to provide a solution for materials and functionalities different from the ones 
+studied in WP4. In this context, additional experimental work will be performed (following the experimental description 
+of tasks 4.1 and 4.2) in or der to extend the database to metallic alloys and functionalities determined in task 7.2. This 
+study will be performed by CEIT and CICe. 
+  
+Participation per Partner 
+Partner number and short name  WP7 effort  
+1 -  Ceit-IK4    
+2 -  LASEA    
+3 -  MULTITEL    
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 37 of 46 
+4 -  VISUM    
+5 -  CICe    
+6 -  FAGOR    
+8 -  ESCI    
+ Total   
+List of deliverables 
+  
+Deliverable 
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16 
+Due 
+Date (in 
+months)17 
+D7.1 
+Benchmark tables and 
+analysis of the use cases 1 - Ceit-IK4 Report Public 33 
+D7.2 
+List of potential 
+replications sectors and 
+new applications 
+1 - Ceit-IK4 Report Public 36 
+Description of deliverables 
+D7.1: Benchmark tables and analysis of the use cases (M33) 
+D7.2: List of potential replications sectors and new applications. Description of the applications and discussion of the 
+market and technical opportunity, including the guidelines for replication (M36)  
+D7.1 : Benchmark tables and analysis of the use cases [33] 
+Public deliverable with benchmark tables and analysis of the use cases  
+D7.2 : List of potential replications sectors and new applications [36] 
+Public deliverable with the list of potential replications sectors and new applications  
+Schedule of relevant Milestones 
+  
+Milestone 
+number18 Milestone title Lead beneficiary 
+Due 
+Date (in 
+months) 
+Means of verification 
+MS7 
+Potential replications sectors 
+and new applications 
+identified 
+1 - Ceit-IK4 36 Replication guides agreed and 
+prepared 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 38 of 46 
+Work package number 9 WP8 Lead beneficiary 10 2 - LASEA 
+Work package title DISSEMINATION AND 
+EXPLOITATION 
+ 
+Start month 1 End month 36 
+Objectives 
+This WP pursues two parallel objectives: preparing the exploitation of the project knowledge and informing about the 
+project and its achievements. To this end, this WP will: 
+- Detail the future exploitable results of the project and develop exploitation strategies for each of them...  
+- Guarantee an optimum knowledge management including IPR aspects. 
+- Disseminate project results to relevant stakeholders in industry, academia and pol icy making circles. 
+Description of work and role of partners 
+WP8 - DISSEMINATION AND EXPLOITATION [Months: 1-36] 
+LASEA, Ceit-IK4, MULTITEL, VISUM, CICe, FAGOR, RESCOLL, ESCI 
+Task 8.1. Exploitation 
+Lead Partner: LASEA - Participant Partners: CEIT, MULT, VISUM, FAGOR, RESCOLL, CIC - Task duration: M7- 
+M36 
+The task will implement a specific methodology provided by the partner (LASEA) based on a series of specific tasks 
+that will enable the optimization of the exploitation possibilities of the project results. 
+Subtask 8.1.1 Identification of key results and functional analysis of each key result. (LASEA, CEIT, MULTITEL,  
+VISUM, FAGOR, RESCOLL, CIC) 
+This task will carry out a series of workshops aimed at i dentifying the most promising results for exploitation. The 
+project outputs with the greatest potential for exploitation are already identified at this proposal stage, but the workshops 
+will make the revision of these expected outputs adjusting them (if ne cessary) to the reality of the R&D being 
+performed, and already keeping in mind the exploitation objectives of the running project.  
+After the identification of the key results, the task will carry out a functional analysis of each of the identified results . 
+This functional analysis will identify what is the characteristic or ability of the different outputs to meet the end users’ 
+needs according to their feedback (the presence in the consortium of industrial partners such as RESCOLL, FAGOR 
+and CEGASA (Third party of CICe) will help). The reason for making this analysis is to ensure that the project delivers 
+results that match the purpose for which they have been designed, adequately answering the needs of the end users. The 
+task will identify and characterise the functions that the project outputs should offer to meet the needs of the users.  
+Subtask 8.1.2: Value innovation analysis and market analysis. (LASEA) 
+After the functional analysis of the key results, a value innovation analysis will be carried out, which means identifying 
+the features, benefits and advantages of the key outputs. The objective of the project is to provide a product that 
+maximizes these advantages to be compelling to the end user. Moreover, the characteristics of the product should make 
+it competitively distinctive, so that the commercial exploitation possibilities are maximized. According to this, the value 
+innovation analysis will try to set the stage for answering the next question “How to make the project outputs 
+significantly unique or competitively advantageous?” 
+Within the task, the real value of the expected outputs for the users will be examined in detail. It is necessary to compare 
+the value of the project outputs with the potential market competitors, and this is why a market analysis will be carried 
+out. In the framework of this market analysis, the following subtasks will be considered: Analysis of the potential 
+customer demands, Identification and characterisation of the potential customers, why and how they would buy the 
+product or service?; Market size, trends and opportunities; Analyse competing solutions; What are the competing 
+solutions available on the market today?; How well do they match the functional requirements that we have identified?; 
+What is their customer price? 
+Subtask 8.1.3: Value proposition and value proposition testing. (LASEA, CEIT, MULT, VISUM, FAGOR, RESCOLL, 
+CICe) 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 39 of 46 
+Once the value innovation analysis has been completed, the next task will be to make a new innovation value proposition 
+for the expected project outputs, which optimizes the value of the project outputs in comparison with potential 
+competitors. This means building and proposing a “compelling” and competitively distinctive value curve so that we 
+make sure that the project outputs stand out of the competition while still being outputs achievable within the project 
+scope. 
+The value proposition will be built with the objective of making the project outputs significantly unique or 
+competitively advantageous. For this, four directions will be explored for making the value innovation proposal:  
+- To cancel value: Which of the value components that competitors take for granted should be eliminated?  
+- To reduce value: Which value components can be reduced below the actual standards of industry?  
+- To increase value: Which value components must be increased above the actual standards or industry?- Which 
+value components, that competitors have never offered, should be created?  
+Within this task, it will be decided which combination of the described directions will be taken in order to make the 
+project value innovation proposition. 
+Once the va lue innovation proposition has been established, this will be tested with potential end users or early 
+adopters to assure that it will answer their needs and expectations. This will be accomplished through interviews and 
+questionnaires to a set of identifi ed potential end users. The result of this testing will be fed -back to the value 
+proposition in order to tune it according to the end users’ requirements. 
+Subtask 8.1.4: IPR analysis of the new knowledge and project outputs. (LASEA, CEIT, MULT, VISUM, FAGO R, 
+RESCOLL, CIC) 
+This task will deal with the IPR issues related to the project exploitation, and includes: (i) The definition of pre -
+existing knowledge of the project partners (Background), including a mapping of existing patents and potentially 
+overlapping IPR; (ii) An assessment of the knowledge generated in the project (Foreground). (ii) A proposition of 
+optimal IPR protection options, in line with the selected business model options (to be selected in the next task); (iii) 
+A mapping of existing relevan t standards and of standards in development; (iv) Considerations with regards to the 
+standardisation strategy (e.g. get involved in on -going standardisation technical committees or develop a new 
+standard…) 
+Subtask 8.1.5: Development of business models, bus iness plans and exploitation action plans. (LASEA, CEIT, 
+MULT, VISUM, FAGOR, RESCOLL, CIC) 
+Within this task the different business options for the project results will be investigated, establishing the preliminary 
+business models. These potential business  model options may include: Take -up by one of the partners (or a joint -
+venture of partners) and commercialisation of the output by this partner with adequate distribution channels; 
+Patenting of the output with third -party licensing; Direct commercialisation of the output; Integration of the output 
+in another solution. According to the selected business models, the task will build the exploitation action plans for 
+each of the results of the project. The structure of the exploitation plans will include: The c onsortium and the 
+opportunity; The solution and value proposition; Market and competition analysis; Business model options and 
+marketing plan (distribution architecture / sales channels, customer relationship); Resources for implementing 
+exploitation (key activities and value chain, key capabilities, partners); Financial planning (cost and revenues); 
+Timeline; Risk management and contingencies; IPR strategy + Standardisation strategy.  
+Task 8.2. Communication & Dissemination 
+Lead Partner: ESCI - Participant Partners: All partners - Task duration: M1-M36 
+This task includes the following subtasks: 
+Subtask 8.2.1. Communication Master Plan (LASEA, CEIT, MULT, VISUM, FAGOR, RESCOLL, CIC)  
+The ‘Communication Master Plan’ outlines the communication and dissemination activities planned by the 
+LASER4SURF partners for the whole project duration. Produced in M3, this document describes the overall 
+communication strategy for the consortium, and functions as a guide for project partners when speaking about or on 
+behalf of the project. This baseline document for communication and dissemination activities will be updated once 
+during the project lifetime in M20. Additional information about the issues included in the “Communications Master 
+Plan” is provided in section 2.2.1. 
+Outcomes: Communication Master Plan defined and distributed among partners.  
+Subtask 8.2.2. Visual Identity (ESCI) 
+A logo and payoff will be developed in the very initial phase of the project to create an identity that will be 
+specific for LASER4SURF actions and partners, and to distinguish the project from other projects. Outcomes: 
+Visual identity defined. 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 40 of 46 
+Subtask 8.2.3. Creation of original content (ESCI, LASEA, CEIT, MULTITEL, VISUM, FAGOR, RESCOLL, CIC) 
+A variety of editorial and visual content will be developed to share on LASER4SURF channels, media multipliers and 
+social media. By focusing on the message, not the  medium we will help create a credible, sustainable interest for 
+largescale adoption of LASER4SURF results and solutions. The following content (see detail in section 2.3) will be 
+produced: - Interviews: Every year, three to five people internal and extern al to the project consortium (technical 
+experts, end users and stakeholders) will be interviewed and a total of 12 interviews will be produced.  
+- Original journalistic articles: As LASER4SURF gains momentum, a series of six original journalistic articles 
+willprofile the skills, experiences, credibility and performance of the demonstration use cases and project in more 
+detail. - Info-graphics: six info -graphics demonstrating key concepts, interoperability issues and results will be 
+prepared. These are highly u seful in many scenarios, including twitter, presentations, postcard flyers and posters. 
+An initial series of three info-graphics focused on key concepts of the project will be defined to help attract audiences 
+and build on the first social media actions. A further three will be produced towards the end of the project to profile 
+key results. 
+- Brochure: A project’s brochure will be designed in M6 in order to provide additional information on printed 
+materialfor fairs and conferences. 
+- Audiovisual products: Two audio-visual products will be produced in professional HD broadcast standard to 
+promotethe project. First, a short, concise and creative introductory video using animation will be developed within 
+the first four months and will be used to capture and keep the attention of targeted audiences to stay informed about 
+the project. The second one (produced at the end of the project) will show the results of the project, becoming an 
+important tool also for the exploitation of project’s results. 
+- Peer-reviewed scien tific papers and poster presentation: different peer -reviewed scientific papers will be 
+preparedduring the project lifetime to promote project results, as well as technical papers or poster presentations (see 
+section 2.3 for further details). ESCI will support the LASER4SURF partners in this task, in particular in the creation 
+of compelling poster presentations, and will use their online channels to disseminate these publications to the 
+relevant target groups. Open access channels and platforms such as Rese archgate will be used to support 
+transparency and share insight. 
+Outcomes: Production of different editorial and visual content to share on LASER4SURF channels, media 
+multipliers and social media. 
+Subtask 8.2.4 Online dissemination channels (ESCI, LASEA, C EIT, MULTITEL, VISUM, FAGOR, RESCOLL, 
+CIC) This subtask is devoted to plan and implement all the activities related to online dissemination channels:  
+- Project website: this subtask will include the design, development and continuous update of the project website. 
+It willbe regularly updated with information about the advance of the project, articles, project highlights and 
+deliverables. As describe in section 2.2.2, to facilitate collaboration among partners, a protected space will feature 
+appropriate working documents, reporting and non-public deliverables. 
+- Social network profile management: The project will have profiles in professional and social online networks 
+suchas LinkedIn (to feed with project news and developments and targets invited to follow), tw itter (to distribute 
+original content and enhance and amplify presence before, during and after workshops and other events) and youtube 
+(to host videos about the project). Besides LASER4SURF editorial content will be pushed to a number of websites 
+for science, technology and specialist media. LASER4SURF will remain open to using any appropriate social media 
+network or tool to meet the right target audience. Particular attention will be paid to social broadcasting tools like 
+Periscope, Facebook 
+Live or USTREAM. 
+Outcomes: Project website and social media activities are ongoing. 
+Subtask 8.2.5 Print media and offline dissemination channels (ESCI, LASEA, CEIT, MULTITEL, VISUM, 
+FAGOR, RESCOLL, CIC) 
+This subtask comprises the development of printed communication and dissemination materials to be used to support 
+face to face meetings, at events, workshops and conferences and to extend exposure to LASER4SURF actions 
+through poster sessions and other static displays. In this regard, brochures and info-graphics defined in subtask 8.2.3 
+will be developed for offline dissemination activities. Besides, a clear call to action for targeted audiences will be 
+developed. Besides, to respond to the many opportunities for static display or visual support, an A1 poster with key 
+facts and outputs of the project will be available for all consortium members. 
+Outcomes: Printed communication and dissemination materials available. 
+Subtask 8.2.6 External Workshops (ESCI, LASEA, CEIT, MULTITEL, VISUM, FAGOR, RESCOLL, CIC) 
+The workshops will be organised and managed by LASEA, and supported by all the other partners.  
+To ensure optimum outreach, at least three events will be organised back to back or in the context of other larger 
+relevant sector-specific events such as LASYS, World of Photonics or the AILU workshops in order to attract a high 
+number of stakeholders. 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 41 of 46 
+Outcomes: Workshops related to issues covered in LASER4SURF organised.  
+Subtask 8.2.7 Final Conference (LASEA, CEIT, MULTITEL, VISUM, FAGOR, RESCOLL, CIC, ESCI)  
+In M36, a final event will be organised at the end of the project to present all the final results of LASER4SURF. It will 
+be open to a wider audience including stakeholders, public authorities, potential end -users and European institutions 
+and will be organised in conjunction with the demonstration activity at the end of the project.  
+Outcomes: Final conference about LASER4SURF result open to all the targeted groups of LASER4SURF (Industry, 
+scientific and academic community, public bodies and general public). 
+Subtask 8.2.8 Monitoring (ESCI, LASEA) 
+ESCI will define the relevant tools in the Communication Master Plan to monitor the impact of LASER4SURF’s 
+communication and dissemination activities. As online communication takes an important role in this project, and as it 
+is such a fast moving environment, ESCI will study the impact of the dissemination measures every six months and 
+review its dissemination success and adjust it if needed in M20. 
+Outcomes: Disseminations activities are analysed. 
+  
+Participation per Partner 
+Partner number and short name  WP8 effort  
+1 -  Ceit-IK4    
+2 -  LASEA    
+3 -  MULTITEL    
+4 -  VISUM    
+     IRIS    
+5 -  CICe    
+     CEGASA    
+6 -  FAGOR    
+7 -  RESCOLL    
+8 -  ESCI    
+ Total   
+List of deliverables 
+  
+Deliverable 
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16 
+Due 
+Date (in 
+months)17 
+D8.1 Business models and 
+exploitation plans 2 - LASEA Report 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+12 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 42 of 46 
+D8.2 IPR management 1 - Ceit-IK4 Report 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+36 
+D8.3 Communication Master 
+Plan 8 - ESCI Report 
+Confidential, only for 
+members of the 
+consortium 
+(including 
+3 
+List of deliverables 
+  
+Deliverable 
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16 
+Due 
+Date (in 
+months)17 
+    the Commission 
+Services) 
+ 
+D8.4 Project website and 
+social media channels 8 - ESCI 
+Websites, 
+patents 
+filling, etc. 
+Public 4 
+D8.5 Introductory project 
+video 8 - ESCI 
+Websites, 
+patents 
+filling, etc. 
+Public 4 
+D8.6 Brochure 8 - ESCI 
+Websites, 
+patents 
+filling, etc. 
+Public 6 
+D8.7 Final project video 8 - ESCI 
+Websites, 
+patents 
+filling, etc. 
+Public 36 
+D8.8 
+Interim report on 
+dissemination and 
+communication activities 
+8 - ESCI Report 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+20 
+D8.9 
+Final report on all 
+dissemination and 
+communication activities 
+8 - ESCI Report 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+36 
+Description of deliverables 
+D8.1 Business models and exploitation plans (M12, M24, M36): This report will describe the overall exploitation 
+strategy of the project results to be discussed and agreed during the project (Initial version and updates)  
+D8.2. IPR management (M36) - This deliverable will include the IPR management rules agreed upon the project.  
+D8.3. Communication Master Plan (M3) 
+D8.4. Project website and social media channels (M4) 
+D8.5. Introductory project video (M4) 
+D8.6. Brochure (M6) 
+D8.7. Final project video (M36) 
+D8.8. Interim report on dissemination and communication activities (M20)  
+D8.9. Final report on all dissemination and communication activities (M36)  
+D8.1 : Business models and exploitation plans [12] 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 43 of 46 
+This report will describe the overall exploitation strategy of the project results to be discussed and agreed during the 
+Project. The deliverable will be updated in M24 and M36. 
+D8.2 : IPR management [36] 
+This deliverable will include the IPR management rules agreed upon the project. 
+D8.3 : Communication Master Plan [3] 
+This report will outline the communication and dissemination activities planned by the LASER4SURF partners for the 
+whole project duration. 
+D8.4 : Project website and social media channels [4] 
+Project website and social media channels 
+D8.5 : Introductory project video [4] 
+Introductory video developed to capture and keep the attention of targeted audiences to stay informed about the project 
+D8.6 : Brochure [6] 
+Brochure to provide additional information on printed material for fairs and conferences.  
+D8.7 : Final project video [36] 
+Video with the results of the project. 
+D8.8 : Interim report on dissemination and communication activities [20]  
+This deliverable will detail the dissemination and communication activities carried out. 
+D8.9 : Final report on all dissemination and communication activities [36]  
+This report will summarized the dissemination and communication activities carried out.  
+Schedule of relevant Milestones 
+  
+Milestone 
+number18 Milestone title Lead beneficiary 
+Due 
+Date (in 
+months) 
+Means of verification 
+MS8 
+Presentation of project 
+website 8 - ESCI 3 Operational website 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 44 of 46 
+Work package number 9 WP9 Lead beneficiary 10 1 - Ceit-IK4 
+Work package title Ethics requirements  
+Start month 1 End month 36 
+Objectives 
+The objective is to ensure compliance with the 'ethics requirements' set out in this work package.  
+Description of work and role of partners 
+WP9 - Ethics requirements [Months: 1-36] 
+Ceit-IK4 
+This work package sets out the 'ethics requirements' that the project must comply with.  
+  
+List of deliverables 
+  
+Deliverable 
+Number14 Deliverable Title Lead beneficiary Type15 Dissemination level16 
+Due 
+Date (in 
+months)17 
+D9.1 EPQ - Requirement No. 1 1 - Ceit-IK4 Ethics 
+Confidential, only for 
+members of the 
+consortium 
+(including the 
+Commission 
+Services) 
+6 
+Description of deliverables 
+The 'ethics requirements' that the project must comply with are included as deliverables in this work package.  
+D9.1 : EPQ - Requirement No. 1 [6] 
+The applicant must provide further information about the possible harm to the environment and staff caused by the 
+research and state the measures that will be taken to mitigate the risks. The applicant must confirm that f acilities 
+authorisations have been obtained (e.g. security classification of laboratory), and are kept on file. The applicant must 
+ensure that appropriate health and safety procedures conforming to relevant local/national guidelines/legislation are 
+followed for staff involved in this project. 
+  Schedule of relevant Milestones   
+       
+Milestone 
+number18 Milestone title 
+ 
+Lead beneficiary 
+Due 
+Date (in 
+months) 
+Means of verification 
+1.3.4. WT4 List of milestones 
+Milestone 
+number18 Milestone title WP 
+number9 Lead beneficiary 
+Due 
+Date (in 
+months)17 
+Means of verification 
+MS1 
+Identification of the 
+type of beam shaping 
+to be used (dynamic or 
+passive) 
+WP2 3 - MULTITEL 18 
+Conclusions about analysis of 
+costs, easiness of integration 
+and robustness 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 45 of 46 
+MS2 Optical module WP2 3 - MULTITEL 24 
+Validation of the module by 
+laboratory experimental test 
+MS3 In-line monitoring 
+module WP3 4 - VISUM 24 
+Validation of the module by 
+comparison with external 
+characterization methods. 
+MS4 
+Optimized and 
+Validated Software 
+platform for parameter 
+selection 
+WP4 1 - Ceit-IK4 22 Functional validation prior to 
+integration 
+MS5 Operational validation 
+of the global prototype WP5 2 - LASEA 27 
+Functional test validation 
+prior to carried out use case 
+functionalization. 
+MS6 
+Feasible surface 
+functionalization of use 
+cases 
+WP6 6 - FAGOR 36 Tests completed and approved 
+related to each use case. 
+MS7 
+Potential replications 
+sectors and new 
+applications identified 
+WP7 1 - Ceit-IK4 36 Replication guides agreed and 
+prepared 
+MS8 
+Presentation of project 
+website WP8 8 - ESCI 3 Operational website 
+1.3.5. WT5 Critical Implementation risks and mitigation actions 
+Risk 
+number Description of risk WP Number Proposed risk-mitigation measures 
+1 A partner leaves the Project. 
+Level of likelihood: Low WP1 
+The PMC will analyse two main options: 1) the 
+substitution of the partner by another one of 
+similar characteristics 2) the assumption and 
+redistribution of tasks among the partners of 
+the project. 
+2 
+Delays on deliverables and 
+results not meeting project 
+objectives. Level of 
+likelihood: Medium 
+WP1, WP2, WP3, WP4, 
+WP5, WP6, WP7, WP8 
+The defined coordination and management 
+structures have established mechanisms to react 
+against possible delays. A project management 
+handbook will be issued in M3. Regular WP 
+and technical meetings will be held to ensure 
+that activities are streamlined and learnt lessons 
+shared. 
+3 
+Changes on planning 
+execution. Level of 
+likelihood: Medium 
+WP1, WP2, WP3, WP4, 
+WP5, WP6, WP7, WP8 
+The structure of the management of the project 
+will allow changes and it is designed to permit 
+adaptations and modifications to the project 
+execution if this proves improvements for results’ 
+achievement. 
+4 
+Beam splitting and shaping 
+results on a too cumbersome 
+system, with too many spots 
+to be deflected by the mirrors 
+of the galvo-scanner and then 
+too difficult to handle with 
+one single scanner. Level of 
+likelihood: Medium. 
+WP2, WP5 
+The alternative might be to use two or three 
+scanners in parallel to be still able to use all the 
+different beams and total power from the laser 
+and then still guarantee a sufficient process 
+throughput. This would imply more integration 
+and programming work from LASEA/MULT. 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 46 of 46 
+5 
+Need to use steep TopHat 
+beams to guarantee a 
+sufficiently homogeneous 
+process resulting in a 
+limited depth of focus 
+optical system, very 
+sensitive to working 
+distance variations. Level of 
+likelihood: medium 
+WP2, WP5 
+An autofocus will have to be implemented on the 
+scanner to correct the distance between the sample 
+and the scanner and guarantee always the same 
+working distance. 
+6 
+Insufficient accuracy of the 
+texturized surface monitoring 
+system. Level of likelihood: 
+Medium. 
+WP3 
+Other optical techniques will be considered to 
+optimize the core device. The mechanical 
+sampling system would also be equipped with 
+stabilization system to reduce the noise 
+affecting the measurements. 
+7 
+The process parameters 
+selected by the SW tool give 
+rise to LIPSS that differ from 
+the target ones. Level of 
+likelihood: Medium. 
+WP3, WP4, WP5 
+A feedback from the in-line monitoring system 
+will be used to optimize and validate the selection 
+of the parameters 
+8 
+The modified products do 
+not fulfil the required 
+operation. 
+Level of likelihood: Medium. 
+WP5, WP6 Modifications will be made in the whole system 
+and/or required modules 
+9 
+There are no suitable 
+commercial electrode 
+materials compatible with 
+WP4, WP6 
+Alternative non-commercial materials synthesized 
+in-house will be chosen. If needed, a specialist 
+company for materials scale-up will be contacted. 
+ 
+Risk 
+number Description of risk WP Number Proposed risk-mitigation measures 
+ the selected structuration 
+pattern. Level of Likelihood: 
+Medium. 
+  
+10 
+Wrong definition of the 
+interfaces of the sub 
+elements of the laser system. 
+Level of likelihood: Medium. 
+WP5 
+To assure a good communication and 
+collaboration between to the partners involved 
+in the development of the different modules that 
+have to be integrated later on between them. 
+11 
+The impossibility to 
+reproduce the results 
+obtained at other labs with 
+the laser system integrating 
+all modules.Level of 
+Likelihood: Medium. 
+WP5 
+To collaborate in the DOE and preliminary 
+trials testing first the reproducibility of those 
+preliminary results. 
+12 
+Partners do not agree on the 
+IPR of the results of the 
+Project. Level of 
+Likelihood: 
+Low. 
+WP8 
+An exploitation plan will be developed within the 
+first steps of the project, identifying the expected 
+results (foreground), and who will be the owner. 
+In addition, a Consortium Agreement will be 
+signed by all partners before the project starts, 
+establishing the basic rules for the management of 
+the IPR issues regarding project results. 
+13 
+Partners are not committed 
+to dissemination and 
+communication actions. 
+Level of likelihood: Low. 
+WP8 
+Regular 1:1 phone calls or audio conferences with 
+project partners to explain and motivate the need 
+to communicate 
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+Page 47 of 46 
+14 
+A partner is reluctant to 
+communicate about the 
+project, as they fear to unveil 
+information to competitors. 
+Level of likelihood: Medium. 
+WP8 
+An experienced science communicator would 
+meet with this partner to help to define methods 
+and terms how it is still possible to communicate 
+effectively on the project without revealing any 
+sensitive details. 
+15 
+Low interest in the 
+workshops and the final 
+conference. Level of 
+likelihood: Medium. 
+WP8 Hook on other events and send out very target 
+invitation in sufficient numbers. 
+ 
+ 
+Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+1.3.6. WT6 Summary of project effort in person-months 
+ 
+Page 45 of 46 
+
+ 
+768636 Laser4Surf – Part B – Page 49 of 83   
+LASER4SURF 
+  
+ Associated with document Ref. Ares(2017)3062700 - 19/06/2017 
+1.3.7. WT7 Tentative schedule of project reviews 
+Review 
+number 19 
+Tentative 
+timing 
+Planned venue 
+of review Comments, if any 
+RV1 18 Brussels to be confirmed during the project 
+RV2 36 Brussels to be confirmed during the project 
+Page 46 of 46 
+1. Project number 
+The project number has been assigned by the Commission as the unique identifier for your project. It cannot be changed. The 
+project number should appear on each page of the grant agreement preparation documents (part A and part B) to 
+prevent errors during its handling. 
+2. Project acronym 
+Use the project acronym as given in the submitted proposal. It can generally not be changed. The same acronym should 
+appear on each page of the grant agreement preparation documents (part A and part B) to prevent errors during its 
+handling. 
+3. Project title 
+Use the title (preferably no longer than 200 characters) as indicated in the submitted proposal. Minor corrections are possible if 
+agreed during the preparation of the grant agreement.

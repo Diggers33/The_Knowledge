@@ -1,0 +1,1075 @@
+4. Starting date 
+Unless a specific (fixed) starting date is duly justified and agreed upon during the preparation of the Grant Agreement, the project will 
+start on the first day of the month following the entry into force of the Grant Agreement (NB : entry into force = signature by the 
+Commission). Please note that if a fixed starting date is used, you will be required to provide a written justification. 
+5. Duration 
+Insert the duration of the project in full months. 
+6. Call (part) identifier 
+The Call (part) identifier is the reference number given in the call or part of the call you were addressing, as indicated in the 
+publication of the call in the Official Journal of the European Union. You have to use the identifier given by the Commission in the 
+letter inviting to prepare the grant agreement. 
+7. Abstract 8. Project Entry Month 
+The month at which the participant joined the consortium, month 1 marking the start date of the project, and all other start dates being 
+relative to this start date. 
+9. Work Package number 
+Work package number: WP1, WP2, WP3, ..., WPn 
+10. Lead beneficiary 
+This must be one of the beneficiaries in the grant (not a third party) - Number of the beneficiary leading the work in this work package 
+11. Person-months per work package 
+The total number of person-months allocated to each work package. 
+12. Start month 
+Relative start date for the work in the specific work packages, month 1 marking the start date of the project, and all other start dates 
+being relative to this start date. 
+13. End month 
+Relative end date, month 1 marking the start date of the project, and all end dates being relative to this start date. 
+14. Deliverable number 
+Deliverable numbers: D1 - Dn 
+  
+   
+  
+760528 - MoniTank                                           29  Part B  
+15. Type 
+Please indicate the type of the deliverable using one of the following codes: 
+ R Document, report 
+DEM Demonstrator, pilot, prototype DEC Websites, patent 
+fillings, videos, etc. 
+OTHER 
+ETHICS Ethics requirement 
+ ORDP Open Research Data Pilot 
+16. Dissemination level 
+Please indicate the dissemination level using one of the following codes: 
+ PU Public 
+ CO Confidential, only for members of the consortium (including the Commission Services) 
+EU-RES Classified Information: RESTREINT UE (Commission Decision 2005/444/EC) 
+EU-CON Classified Information: CONFIDENTIEL UE (Commission Decision 2005/444/EC) EU-SEC Classified 
+Information: SECRET UE (Commission Decision 2005/444/EC) 
+17. Delivery date for Deliverable 
+Month in which the deliverables will be available, month 1 marking the start date of the project, and all delivery dates being relative to 
+this start date. 
+18. Milestone number 
+Milestone number:MS1, MS2, ..., MSn 
+19. Review number 
+Review number: RV1, RV2, ..., RVn 
+20. Installation Number 
+Number progressively the installations of a same infrastructure. An installation is a part of an infrastructure that could be used 
+independently from the rest. 
+21. Installation country 
+Code of the country where the installation is located or IO if the access provider (the beneficiary or linked third party) is an 
+international organization, an ERIC or a similar legal entity. 
+22. Type of access 
+ VA if virtual access, 
+TA-uc if trans-national access with access costs declared on the basis of unit cost, 
+TA-ac if trans-national access with access costs declared as actual costs, and 
+TA-cb if trans-national access with access costs declared as a combination of actual costs and costs on the basis of unit cost. 
+23. Access costs 
+Cost of the access provided under the project. For virtual access fill only the second column. For trans-national access fill one of the 
+two columns or both according to the way access costs are declared. Trans-national access costs on the basis of unit cost will result 
+from the unit cost by the quantity  
+    
+  
+  
+ 4. Members of the Consortium   
+  
+   
+  
+760528 - MoniTank                                           30  Part B  
+4.1. Participants  
+ 
+  
+Participant Number 1  
+  
+  
+  
+Organisation Name: INTEGRITY NDT MUHENDISLIK SAN. TIC. VE LTD.  
+(Integrity NDT) Website: www.integrityndt.com  
+  
+Profile:  
+Integrity NDT Mühendislik (INDT) was formed in 2010 in Ankara, Turkey to provide NDT (non-destructive 
+testing) services, inspection management services and asset management software to fabrication, power 
+and process plant engineers.  
+  
+Location and Contact   
+INTEGRITY NDT MÜHENDİSLİK SANAYİ VE TİCARET LİMİTED 
+ŞİRKETİ MelihGökcek Bulvarı EminelİşMerkezi  
+18/94 IV  
+OGSAN/ANKARA   
+Tel: (+90) 3123944331 
+Fax: 03123944332  
+www.integrityndt.com.tr  
+  
+INDT is an SME with 11 full time employees.  
+  
+INDT, certified to ISO 9001:2008, has become a key service provider and approved supplier to the likes 
+of GDF Suez, TUPRAŞ (Turkish Petroleum Refineries), SABUL Refineries (KSA), Ipragaz LPG and 
+PETKIM Refinery, delivering costeffective inspection management, advanced inspection application, and 
+asset management and software solutions, combined with over 35 years’ experienced engineers in 
+planning and carrying out all aspects of NDT in fabrication, power and process plant worldwide.  
+  
+INDT staff has a suite of independent inspection qualifications conforming to ISO 9712 standards Levels 
+II and III in all major NDT methods including eddy current, Magnetic particle inspection, liquid penetrant 
+inspection, radiography, ultrasonic inspection, weld inspection and metallurgical inspection. Additionally 
+INDT specialise in automated ultrasonic testing including phased array (PAUT) and time of flight 
+diffraction (TOFD) inspections and developing, verifying and certifying inspection solution applications.  
+
+  
+   
+  
+760528 - MoniTank                                           31  Part B  
+  
+INDT also provides commercial inspection management software tools; Clients in the power generation, 
+oil & gas and petrochemical industries utilise INDT inspection systems. These systems are also applied 
+in-house to contracts run by INDT, ensuring accurate QA/QC reporting and efficient project management.  
+  
+INDT also have experience of selling in -house developed products such as our software systems, AUT 
+system scanners and specialist application scanners and accessories.  
+  
+Commercially available software systems include:-  
+QUARTZ: is a web based inspection management solution developed for planning and maintaining 
+records over the pre and in- service life of a plant asset. The management of industrial plant is reliant on 
+detailed system drawings, with unique identification assigned to critical items, for example, high pressure 
+systems pipework; welds, hangers, and bends, etc.  From available plant drawings and site surveys, 
+Quartz links scaled 3D CAD pipework modelling, through ‘live’ on screen tags, to a bespoke database of 
+inspection records and a document management system, with the ability to attach original construction 
+related documentation, as well as records of associated ongoing inspections and system management 
+documentation. Providing engineers with a powerful means for planning inspection regimes and result 
+management, it facilitates the easy consolidation and analysis of reported inspection results and data.  
+  
+QUARTSITE: We provide commercial outage management software ‘QUARTSITE’ into which we 
+upload the  
+shutdown/outage programmed inspection activities. The software is designed specifically to manage and 
+track individual task status, and control stored outage QA/QC requirements. Throughout the project 
+duration, ‘QUARTSITE’ provides vital up-tothe-minute inspection status reports for every inputted activity, 
+through to the final detailed test reports produced at project close-out.  
+  
+The use of this software to control and manage work scope activities creates real efficiencies in 
+the following areas; 
+  Defines the precise inspection work scope and the tests to be applied.  
+• Provides ‘Work Pack’ Instructions to Inspection Personnel, including specification of the 
+procedures and techniques to be applied.  
+• Monitors and controls the progress and status of inspections, providing the client and other 
+site teams with regular reports on progress, status and any items with commercial 
+implications.  
+• Processes results through established acceptance criteria or through metallurgist or plant 
+specialists  
+• Ensures that all activities are completed, the QA ‘loop’ is closed out, and the plant made 
+available for service in the desired timescales  
+• Produces comprehensive controlled electronic inspection reports.  
+  
+  
+  
+   
+  
+760528 - MoniTank                                           32  Part B  
+  
+Mission and Objectives  
+INDT specialise in the inspection management of power plant outages and refinery shutdown ‘turnarounds’. 
+Through our industry wide experience of NDT we deliver a range of services in our approach to plant 
+inspection and asset management, including a range of metallurgical analysis and materials testing. We also 
+supply commercial inspection management software; it is the use of our in- house developed software systems 
+which significantly adds value to our asset management approach to project management from outset to 
+delivery.  
+  
+A specialist provider of innovative inspection services and solutions, our quality is highly valued by ourselves 
+and our client customers. From small local manufacturers to international companies worldwide, we are 
+committed to delivering cost effective inspection solutions and technical assurance of the integrity of plant 
+equipment and fabrications to our clients, regulatory and insurance bodies alike. Our quality systems are 
+underpinned by ISO9001 certification.  
+  
+Investing in our Engineering team is our investment in our future and what supports our integrity to our clients, 
+and we are committed to a continual training programme. Our team of engineers supports our integrity and 
+commitment to our clients. Across our team of engineers, INDT hold independent inspection qualifications 
+conforming to ISO9712 standard, levels II and III in all methods; magnetic particle, liquid penetrant, eddy 
+current, ultrasonic and radiographic inspection. Additionally INDT specialise in advanced ultrasonic testing 
+TOFD and phased array. We have a clear focus is on the future and continual investment in technology in our 
+field, in alignment with our commitment to our clients and their requirements is our priority.  
+  
+Centred in Ankara Turkey we have; offices, workshops, metallurgy/development and training facilities.  
+Role in Project:  
+At the Phase 1 - Feasibility Study stage, INDT will be the single SME in the project and will act as Project 
+Coordinator. The company directors/senior managers will make all of the decisions relating to the project as 
+follows:- (a) All contact with the EC project officer/representative  
+(b) The day to day running of the project according to the work plan  
+(c) All dealings with prospective subcontractors  
+(d) Resolution of any problems that arise  
+Reasons for Participation:  
+INDT specialise in advanced NDT applications in the energy industry sector including oil &gas and petrochemical 
+as well as power generation. They are therefore enthusiastic to explore the market potential for this specific 
+technology application of LNG Tank inspection as they see significant EU and global market potential. Having 
+significant experience in AUT on Tank inspections and  
+  
+existing commercial links, are well positi oned to commercialise and exploit the TANK -TEST system following 
+Phase 2 engineering design, build, validation and demonstration should the Phase 1 Feasibility Study and 
+Business Plan justify it.  
+Existing Customers/End Users:  
+GDF Suez  
+HUBCO HubPower Power Plant Energy Generation (Pakistan)  
+STANWELL Energy (Australia)  
+TUPRAŞ (Turkish Petroleum Refineries)  
+SABUL Chemical Manufacturing (KSA), Ipragaz LPG 
+(Turkey) PETKIM Refinery (Turkey)  
+Key Personnel:  
+  
+  
+   
+  
+760528 - MoniTank                                           33  Part B  
+Görkem Bayten BSc Physics Engineering, MSc MBA.  
+Görkem has been involved in NDT and Inspection Management for 8 years and holds a BSc Honours degree plus 
+a suite of Level II qualifications in NDT and Weld Inspection,He specialises in Automated UT application including 
+Phased Array, TOFD and the development of ‘solutions’ to specialist applications. Combined with extensive 
+experience in devising and advising on asset management software solutions to plant operators.Görkem is also 
+experienced in managing software develop ment with regard to client requirements and the business 
+development/marketing/distribution and systems management, for an existing and growing client base utilising 
+Integrity NDT Software products.  
+  
+Özgen Bulut BSc Physics Engineering.  
+Özgen has been involved in NDT and Inspection Management for 8 years and holds a BSc Honours degree plus 
+a suite of Level II qualifications in NDT and Weld Inspection combined with extensive experience in devising and 
+advising on asset management software solutions to pla nt operators. He also covers all other areas of the 
+business, from outage inspection management to specialist ultrasonic testing applications such as TOFD, Phased 
+Array, and High Frequency boiler tube Oxide Thickness measurements, and EMATs. He also worked  on design, 
+manufacture and sale of basic ultrasonic testing accessories such as probe splitters and umbilicals.  
+  
+Onur Yalim BSc Physics Engineering.  
+Onur has been involved in NDT and Inspection Management for 2 years and holds a BSc Honours degree plus  
+Level II qualifications in NDT and Weld Inspection. He is experienced in shutdown/outage inspection applications 
+including AUT TOFD.  
+  
+John Stephenson IMechE, MInstNDT, LEP.  
+John has been involved in NDT and Inspection Management for 30 years. He is a former employee of the Central 
+Electricity Generating Board and Nuclear Electric and holds a suite of Level II and III qualifications in non -
+destructive testing. He specialises in outage or plant shutdown inspection management, and to date has managed 
+inspection activities on over twenty Alstom 13E2 Gas Turbine and Steam Turbine shutdowns around the world. 
+Additionally, John is highly experienced in carrying out semi and fully automated ultrasonic inspections and has 
+designed and manufactured Integrity NDT semi-automated TOFD (Time Of Flight Diffraction) and Phased Array 
+Scanner systems, as well as bespoke scanners for one-off special application solutions.  
+Software Systems - John has been involved in the design/development of Integrity NDT Software products for over 
+10 years, and has experience of marketing/sales and distribution to an existing client base.  
+  
+    
+Participant Number 
+2  
+  
+  
+  
+  
+  
+Organisation Name: INNOVACIO I RECERCA INDUSTRIAL I SOSTENIBLE 
+SL (IRIS)  
+Website:www.iris-eng.com  
+
+  
+   
+  
+760528 - MoniTank                                           34  Part B  
+Organisation Description:  
+IRIS (www.iris.cat ) is a technology SME that was established in Barcelona in 2007 and specialises in photonics 
+(spectroscopy) and sensor technology integration and SMAC (Social, Mobile, Analytics and Cloud) Technology 
+for the development of advanced monitoring and control so lutions and for IoT -enabling equipment and 
+machinery for transitioning industry to  the  Industry4.0 paradigm. To date, our target sectors are the food 
+industry, agriculture, pharmaceutical and chemicals.  
+We have engineering and production facilities in S pain and in 2016 we opened Commercial Offices in San 
+Francisco and New York, as part of our international commercialization expansion strategy. We have a sister 
+company in Dublin, VISUM Ltd. that specialises in the development of NIR spectroscopy -based measurement 
+systems, and we also have a shareholding in a technology start -up in Finland that specialised in time -gated 
+Raman (Timegate Instruments OY).  
+We are ISO 9001:2008 certified and we are one of the few Spanish companies to also have UNE -EN-ISO 
+166002: Management Systems R&D&I certification.  
+We currently employ 50+ staff and have a turnover of approx. € 4 M + IRIS is a member of the following networks: 
+SPIE (International Society for Optics and Photonics), SECPHO (Southern European Cluster of Photonics), 
+SPIRE (Sustainable Process Industries). IRIS is an SME Champion (has an SME Instrument award - Phase 2 
+project).  
+Relevant Publications:  
+▪ IRIS provides advanced monitoring solutions to the industry: www.iris.cat In terms of its market expertise, 
+since 2011, IRIS has been building a portfolio of private B2B contracts and has developed advanced 
+monitoring solutions and products for a number of companies, predomi nantly from Catalonia, but also 
+serving some international companies, with references such as:GESCASER, TORRES, ESTRELLA 
+DAMM, OLLER, ITPSA, ALMIRALL PRODESFARMA, NESTLE, ETC.  
+▪ E. Gaston (2013). Hyperspectral imaging (HSI) - an emerging platform technology  that is set to 
+revolutionise process monitoring and quality control. Pharmaprocess 2013, Innovation Forum in 
+Pharmaceutical Process. Barcelona, 20 October 2013.  
+▪ E. Sola, C. Jumilla (2011). Composting monitoring: a real world challenge for WSNs, 4th Intel liCIS 
+Workshop, Vilanovai la Geltru (Barcelona), Spain between 13-14 June 2011.  
+▪ "Wireless Sensor Network for Smart Composting Monitoring and Control".Oscar Casas, MargaLópez, 
+Marcos Quílez, Xavier Martinez-Farre, Gemma Hornero, Carlos Rovira, Mirta R Pinilla, Pedro M Ramos, 
+Beatriz Borges, Hugo Marques, Pedro Silva GirãoMeasurement 01/2014; 47:483 - 495.  
+▪ “Delivery of courses to industry in chemometrics tools for Process Analytical Technologies (PAT), e.g.: 
+“Chemometric tools forprocess analytical technologies. ChemoPAT”, University of Tarragona 16-18 July 
+2014; PAT: Innovando en tecnología de controlde procesos farmacéuticos (Asociación de Químicos e 
+Ingenieros del IQS)- May 28th 2015.  
+Relevant Projects:  
+  
+HYPERA: Disruptive detection Technology Grant Agreement 726572, SME Instrument Phase II, on-going) IRIS 
+Coordinator.  
+IbD: Intensified by design.Grant Agreement 680565. H2020 SPIRE, on-going) IRIS Coordinator.  
+Propat: Tackling the future of plant operation – How to integrate online data-analytics, process control, and PAT 
+for optimal plant operation. Grant Agreement 637232. H2020 SPIRE, on-going) IRIS Coordinator.  
+ShareBox: Secure management platform for shared process resources (Grant agreement no.: 680843, H202 0 
+SPIRE, on-going) IRIS Coordinator.  
+WASTE2FUELS. Sustainable production of next generation biofuels from waste streams. (Grant Agreement no: 
+654623 Horizon 2020-LCE-11, on-going). IRIS Coordinator  
+  
+   
+  
+760528 - MoniTank                                           35  Part B  
+ 
+  
+Infrastructure/Equipment:  
+  
+IRIS is equipped with a Spectroscopic Laboratory equipped with several instruments, namely, an FTIR-ATR 
+(Interspectrum), two  
+UVVIS(PerkinElmer and Ocean Optics), one Extended -SWIR (StellarNet) and one NIR (Mightex) 
+spectrophotometers as well as a SWIRHyperspectral imager (Specim-Xenics). The associated staff are trained 
+and skilled in chemometrics modelling by using a commercialsuite (SOLO+MIA from Eigenvector) as well as ad 
+hoc non-commercial chemometric tools (Matlab and Python toolboxes). Electronics, mechanical and opti cal 
+workshops and laboratories equipped with up -to-date hardware and tools: signal generators,wide band 
+oscilloscopes, PCB design [Altium] and building tools, development kits for programming microcontrollers, CNC-
+millingmachines for electronic and mechani cal prototyping, and CAD software [SolidWorks], among others. 
+ZEEMAX software for the designof optical systems and design setup by means of advanced optical components 
+and facilities (optical tables, windows, lenses, lasersand light sources and related “opticalware”).  
+In addition IRIS has an INNOVATION HUB with its own co -creation area that has floor -to-ceiling blackboards 
+for brainstorming andconceptualisation, a demo and presentation area, a sprint room. In addition, IRIS has an 
+auditorium for more formal presentations and training.  
+Profile of Main Persons  
+MSc. ALEJANDRO ROSALES . Male. M. Sc. in Physics from the Universidad de La Habana (1986). His 
+background comprises theoretical and technical skills in several scientific and technological areas: optics, lasers, 
+high vacuum, colorimetry, UV -VIS- NIRMIR spectroscopy, chemometrics and design of measurement 
+instruments. He has extensive practical experience in programming, electronics and mechanical CAD design as 
+well as R&D methodology and management . His career has included positions as researcher applications 
+engineer, design engineer, business developer and R&D manager. In 2000s, he worked in the FTIR 
+spectroscopy field applied to quality control in the wine industry, whereby he developed two new measurement 
+instruments for wine analysis. His career as industrial physicist has been focused in applying his wide expertise 
+to provide solutions for industrial problems. Knowledge in PAT, QbD, DoE and he has delivered numerous 
+courses to industry in the f ield of practical PAT adoption. Knowledge in leading the building of chemometrics 
+and multivariate analysis modelling tools. He is the Science and Technology Manager in IRIS. During this project, 
+Alejandro will act as the Innovation Manager and he will also work closely with the engineering team in IRIS.  
+  
+  
+  
+   
+  
+760528 - MoniTank                                           36  Part B  
+DR. TIMOTHY KEHOE. Male PhD in Engineering, University College Cork, Ireland- developed an IR photometric 
+measurement system for thermal diffusivity in anisotropic materials. Masters in Optoelectronic s, Queens 
+University Belfast. Designed an Echelle spectrometer while based at Andor Technology Ltd. Worked at Tyndall 
+National Institute, Cork, and Catalan Institute of Nanotechnology, Barcelona, developing diffractive optical and  
+acousto-optical  metrolo gy  techniques  for  nanotechnology applications, in particular for characterisation of 
+nanoscale structures fabricated by nanoimprint lithography and directed self- assembly. Other research activities: 
+quantification of ordering in self -assembled structures by image analysis techniques and optical sensors using 
+hydrogel materials.  
+OONAGH MC NERNEY Female Director and Co-founder of IRIS. Hons. Degree in International Business (1992), 
+Uni. of Stirling, Scotland. Prior to establishing IRIS in 2007, she spent 15 years working in the industry, technology 
+institutes and Business Development Agencies in the areas of technology transfer, innovation, business 
+development and industry foreign direct investment. Expertise in new product development, leadership of applied 
+R&D, commercialisation, branding and marketing.  
+COLM DIGBY. Male. General Manager and Co -Founder of IRIS. B.Sc. Hons. in Applied Computing and a 
+Diploma in Industrial Studies from the University of Ulster, Magee College, N.Ireland. Prior to IRIS he worked in 
+the IT sector throughout Europe holding positions at IBM Europe in Paris, European Space Agency in Rome and 
+Picas SA in Barcelona, where he was involved in many trans -European projects involving the sharing of data 
+across international borders. With PICIS he has been involved in the implementation and support of PICIS Health 
+Care system around Europe and the US.  
+JOAN PUIG LAGO. MALE.  Operations Director at IRIS. Engineering Degree in Electronics from 
+UniversitatPolitecnica de Matar óand in Industrial Organization from Escola UniversitatPolit écnicad’Enginyers 
+Industrials de Terrassa. Executive Education inProgram for Management Development from ESADE. 12 years 
+industry experience in automation of industrial processes for the main automoti ve & aeronautics companies: 
+Mercedes, VW, SEAT, EADS, BOEING, etc. Solid knowledge in definition of strategies and targets, and aligning 
+systems and workflows, according to the operations schedules and within agreed costs and high quality levels. 
+Extensive experience in managing Technical Departments and Operations such as organization and monitoring 
+of production and processes, development of operational plans, and giving guidance in the design and in the 
+implementation of the final solutions  
+  
+.  
+  
+  
+IRIS SALES TEAM, DISTRIUTION CHANNELS AND 
+PRODUCTION  
+FACILITIES INFOGRAPHICS  
+  
+   
+  
+760528 - MoniTank                                           37  Part B  
+  
+  
+ 
+Participant Number 
+3  
+  
+ 
+Organisation: TWI Ltd.  
+Website:www.twi-global.com  
+Organisation Description:  
+TWI Ltd (TWI) works across all industry sectors with expertise in key aspects of materials, materials joining, 
+structural integrity, static and dynamic testing and Non -Destructive Testing (NDT) and Non -Destructive 
+Evaluation (NDE). The majority of TWI’s activities (65%) are contracts, funded by industry and built around 
+the development of advanced technologies. TWI is also an active participant in collaborative programs in 
+Europe. TWI has a substantial fee paying industrial membership of around 3000 members from 70 countries 
+centered mainly in energy-related business sectors such as oil & gas, petrochemical, process plant, power 
+generation and their support industries (e.g. oil & gas plant maintenance and NDT). Also, in the 
+transportation industry sector of aerospace/air-transport, marine/shipping, rail and automotive and their 
+support manufacturing and maintenance organizations. This extensive network with the industry and its 
+state-of-the-art facilities makes TWI a perfect partner for the SmartSense optimization & validation and 
+commercialization process, creating a direct connection with international markets and targeted industries. 
+TWI has a continued growth reaching €80M revenues and assets for over €100M in 2014. Currently with 
+€8M of financial surplus and more than 1000 employees, TWI is one of the most successful RTO in the 
+world. TWI has been involved in over 90 European framework projects, many of which have been in the 
+field of NDT and Condition Monitoring involving ultrasonic testing. Projects of this type are usually targeted 
+at the aerospace, oil & gas and energy related industries. TWI, therefore, has the ideal credentials to deliver 
+a successful project on time and within budget. TWI will be heavily involved in SmartSense exploitation at 
+the end of the project and particularly where the project developments are highly relevant to their industrial 
+membership that is currently around 3000 organisations in over 70 countries.  
+Role in the project:  
+• Leading Project management as Coordinator of the SmartSense product optimization using 
+TWI’s expertise in product development, NDT and optimization.  
+• Risk management plan for both commercial and technical SmartSense (WP7)  
+• Customization of SmartSense for customer applications and adjustment of SmartSense  
+system for precommercial application.  
+
+  
+   
+  
+760528 - MoniTank                                           38  Part B  
+Relevant Publications:  
+• Lee Smith, Mike Gittos and Philip Threadgill, 1999. High quality and productivity joining 
+processes and procedures for titanium risers and flowlines. Titanium Risers and Flowlines' 
+Trondheim, Norway, 17 February 1999; published by SINTEF, Trondheim, Norway, 1999.  
+• J R Rudlin, C R A Schneider and G R Razmjoo, 2004. Reliability of inspection for root 
+flaws in riser girth welds 23rd International Conference on Offshore Mechanics and Arctic 
+Engineering OMAE, Vancouver, Canada 20-25 June 2004.  
+• Graham R Edwards, 2007. Detection of corrosion in offshore risers using guided 
+ultrasonic waves. 26th International Conference on Offshore Mechanics and Arctic 
+Engineering, OMAE 2007, San Diego, California, 10-15 June 2007. Paper no. 29407.  
+• Amir Bahrami, 2009. Fatigue performance of riser girth welds for deep-water applications. 
+Deep Water Technology Conference, Asia, Kuala Lumpur, Asia.  
+• Colum M. Holtam (TWI North America LLC), David P. Baxter (Atkins Oil & Gas), 2001. 
+Fatigue performance of sour deepwater riser welds: crack growth vs. endurance. ASME 
+30th International Conference on Ocean, Offshore and Arctic Engineering, OMAE 2011, 
+Rotterdam, The Netherlands, June 19-24, 2011.  
+  
+   
+  
+ 
+  
+  
+
+  
+   
+  
+ 
+760528 - MoniTank                                           35  Part B 760528 - MoniTank                                           
+36  Part B  
+  
+  
+TWI facilities.  
+Profile of Main Persons  
+Name: Angela Angulo  Gender: Female  
+Role: Project coordinator  Education:BSc, MSc Structural Integrity  
+Infrastructure/Equipment:  
+Extensive laboratory facilities enable products to be assembled from very small geometry electronics and medical 
+diagnostics devices to large power generation and cooling systems. TWI’s national and international networks also allow 
+it to source suitable suppliers of materials, machining, assembly, inspection and control equipment. It can also provide 
+training and post production back‐up in terms of the production line and product troubleshooting and additi onally, it 
+can assist in product upgrading and life extension.  
+• Full‐scale pipe bend test rig  
+• Full‐scale pressure and burst test facilities  
+• Seven resonance test rigs for full‐scale accelerated fatigue testing of pipes  
+• Weld corrosion testing facilities  
+• Sweet and sour service testing capability at high temperatures and pressures  
+• High‐pressure hydrogen testing facilities  
+• Small, medium and large‐scale testing in H2S  
+• Testing facilities to supply NDT, mechanical and corrosion testing  
+• Rapid decompression testing  
+• Fluid compatibility testing  
+  
+   
+  
+ 
+Ángela is a Condition Monitoring Project Leader at TWI. Ángela has a master’s degree in Industrial 
+Engineering from the University of Navarra, and she is pursuing further study in the technical area of 
+Structural Integrity. She started her career development at Advanced Technologies Inspiralia, on the 
+development of electronic control systems, mechanics, hardware and commun ications software 
+development area. She was also working in collaboration with the business development strategy, 
+validation of concepts, identification of partners and report development. On January 2013 Ángela joined 
+TWI, Integrity Management Group, whic h provides costs savings and reliability assurance through the 
+development and application of advanced innovative inspection, assessment and risk management 
+solutions for Oil & Gas or any other industry. Within the Condition Monitoring Section, Ángela works on the 
+following areas of expertise: SHM using vibration analysis, acoustic emission, modal analysis and guided 
+ultrasonic waves, LRUT, novel ultrasonic techniques (emats, magnetostrictive transducers) and NDT 
+performance demonstration.  
+Name: Graham Edwards  Gender: Male  
+Role: WP2 leader  Education: C. Eng, BSc Hons.  
+Graham Edwards has over 40 years of experience in Non -Destructive Testing (NDT). Along with several 
+other graduates, he started his career in NDT with the Unit Inspection Company, where he received training 
+in all aspects of NDT and weld inspection. In 1973, he was one of the first ultrasonic test technicians to gain 
+CSWIP approval. For the next four years, he worked in the N. Sea offshore oil, the French nuclear power 
+and Middle Eastern petrochemical industries. In 1977, he joined Baugh and Weedon Ltd. as an Applications 
+Engineer and was involved in the development of the award-winning ‘Seaprobe’ underwater ultrasonic test 
+equipment. In 1981, he became a lecturer in the School of Applied  NDT at The Welding Institute (TWI), 
+before moving over to the NDT Research department in 1986. There, his research projects included NDT 
+of plastics and composites, expert systems, and acceptance criteria in BS5500 for ultrasonic testing. He 
+also set up the specialist site services team. While at TWI, he collaborated with the French Welding Institute 
+on the NDT of fillet welds and was seconded to the Edison Welding Institute in the USA for two years to set 
+up the NDT section there.  
+  
+760528 - MoniTank                                           37  Part B  
+  
+   
+  
+760528 - MoniTank                                           42  Part B  
+Participant 
+Number 4  
+  
+  
+  
+Organisation Name: FloteksPlastikSanayiveTicaret A.Ş. (Floteks)  
+Website: www.floteks.com.tr  
+Organisation  Description:  
+FLOTEKS, since 1983, is a fully integrated Rotational Moulding production plant and is the first of its kind in 
+Turkey. It is located in Bursa, the heart of Turkish Automobile Industry; 20 km from one of the biggest seaports 
+in Turkey, Gemport. Floteks emp loys 17 engineers and 23 technicians within its 146 people staff in order to 
+maintain leading technologies that enable customers around the world to build safer, lighter, durable plastic 
+articles for vehicles, infrastructure, municipalities, FMCG, storage, gardens, homes, etc. Through memberships 
+in many professional and trade associations, as well as extensive QC, research and development facilities, 
+Floteks has been successful in supplying many complicated technical and difficult to produce products to th e 
+market. Plastic liner parts of some of the newly introduced composite fuel tanks in the market are products of 
+Floteks. The company has certifications ISO 9001, EN 16949, EN 14001, 16949, 14001, EN 13589, EN 1176, 
+OHSAS 18001001, obtained from organisati ons such as TÜV, BSI and TSE and a fully equipped Plastic 
+Products R&D lab. For the last 8 years, Floteks has developed its own infrastructure of products using the 
+TUBITAK framework and has successfully sold the  know -how of  these  products  to India  (V ectus Inc.,  
+www.vectus.in ) and made a license agreement for 7 years.  
+• Production Pallett: 70 % of the production for automotive industry, main customers OEM’s, 
+Mercedes, Suzuki, CNH, Ford, Hyundai, Renault… Diesel tanks, Ad Blue tanks, air ducts, water 
+tanks of various sizes, roofs being among the main products. Complying with all the product 
+standards of the main automotive OEM’s  
+• 30 % of the production various rotomolded articles, from 1 kg weight to 700 kg weight. Floteks is 
+touching a wide variety of sectors. From water, chemical, rain harvesting tanks, for both 
+underground and above ground storage, manholes for infrastructure, sewage systems, 
+playgrounds, trash containers, both underground and above ground… Production complying with 
+many EU standards e.g. EN 13598, EN 1176, etc. Customers  
+
+  
+   
+  
+ 
+  
+  
+
+  
+760528 - MoniTank                                           44  Part B  
+ 
+  
+760528 - 
+                                          39  
+ MoniTank  
+ Part B  
+Relevant Publications:  
+ 
+  
+ “An ERP system for Rotomolding” by Mehmet Beysel, Rotoworld, Volume X Issue 4, 2014, P.56  
+ 
+  
+ “Maintaining QC and QA as a Rotomolder” by Celal Beysel, Rotoworld, Jan / Feb 2015  
+ 
+  
+ EU Funding for Rotomolders Facilitates R&D and Innovation by CelalBeysel, May / June 2015  
+ 
+  
+ Various presentations with various topics by Celal Beysel throughout the world in Associations of Rotomolders, since over 15 
+years for example in Cairns/ Australia, Minneapolis / USA, Lyon / France, Ostend/ Denmark, New Delhi / India, Goa / India and 
+lately, the presentations in ARMO event Sept. 2015 in Nottingham, GB: “Can a Rotomolder Afford to Research and Innovate?” 
+and in STAR India event in Goa, February 2016, “ Do You Know Your costs” and “NDT Systems for Rotomolders”.  
+  
+Product Range:  
+Floteks has designed various products with IP rights, from playgrounds to tanks and also has many patent applications, both in 
+Turkey and abroad.  
+• 
+  
+ Both Vectus and PDL are acting as agents in their respective countries, Vectus already selling some products in India. 
+• 
+  
+ Various distributors in Iraq and Saudi Arabia.  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+ 
+    
+  
+Underground container  
+   
+  
+ 
+  
+Patent applications  
+ 
+
+  
+760528 - MoniTank                                           46  Part B  
+  
+  
+ Some services that Floteks provides:    
+  
+  
+  
+PRODUCT TESTS  
+ 
+  
+Regulation tests  
+ 
+  
+  
+  
+    
+CONSTRUCTION & DEVELOPMENT  
+  
+Moulds  
+   
+  
+
+  
+   
+760528 - MoniTank                                           47  Part B  
+ Relevant Projects:  
+• Floteks has completed 5 different R&D projects using TUBITAK/Turkey funds successfully. Utilising the knowledge attained from 
+one of the TUBITAK Projects, links have been established with Vectus Ltd in India for manholes and a licensing agreement with the 
+company for 7 years has been created. Total Commercial Value of know how transfer, licence and mould sales to Vectus: over 
+€900,000.  
+• Research for a Rotomoldable PP developed by an Australian company, PSD ( www.plasticsales.com.au).As a result of this project, 
+inspecting mould ability, weldability, low temperature and long term creep behaviour of the PP have developed further, with 
+funding provided by PSD. Prof. Yusuf Menceloglu ( yusufm@sabanciuniv.edu ) from Sabanci University in Turkey is the advisor in 
+this project. Commercial value up‐to‐now for the PP research: over €100,000.  
+• Manufacturing trial productions of LFRT (Long Fiber Reinforced Thermoplastics) with twin‐screw extruder, using PP and testing the 
+effects of LFRT in Rotomoulded products, self funded.  
+• Participated in various EU Projects such as: Partner in F7 Project DeiceUT (concluded in August 2015) and Coordinator SME partner 
+in FP7 “SafeHPower” project ( to be concluded in February 2016).  
+• Successfully submitted the H2020 SME‐I Project “LeakFree” as  the sole beneficiary and Coordinator. The Project started in June 
+2015. The aim is to detect leakage of tanks for OEM’s after production, using acoustic emission.  
+  
+   
+760528 - MoniTank                                           48  Part B  
+ 
+
+  
+   
+760528 - MoniTank                                           49  Part B  
+  
+Profile of Main Persons  
+Name:V.CelalBeysel 
+Gender: Male  
+Background:  
+CelalBeysel founded Floteks in 1977, as a small company with 4 personnel. He has developed the company to be the 
+leading rotomolder, known worldwide. Besides being an entrepreneur, he has been chairman of major business associations 
+both local and nationwide (4 years BUSIAD and 5 years TURKONFED). Celal has worked as the president of a respected 
+foundation for Vocational Education in Turkey (5 years BEGEV), having written many articles on  Vocational Education, 
+SME’s, R&D and Innovation, published in Turkish newspapers and magazines in Turkey and abroad.  
+  
+Education:  
+Chemical Engineer graduated from Zurich Technical University ETH, speaks English, German and French.  
+  
+Work Experience:  
+President of the Board and Founder of Floteks, a major plastics manufacturer in Turkey using Rotational Moulding 
+Technology.  
+  
+Product Development Experience:  
+• Constructed his own rotomolding machines in 1983, which the company used till 2000, until he decided to go over 
+to state of the art German designed machinery  
+• Personally constructed pulverisers used for rotomolding production in 1983, which are still in use, after some 
+renovations.  
+• Constructed the extruders used in the company for compounding, making renovations when necessary.  
+• Has led the design team to design products and moulds for production in Floteks, since the beginning.  
+• All product development, R&D and Innovation efforts for products, raw materials and finishing jigs/devices in 
+Floteks are lead, advised and controlled by CelalBeysel.  
+• Currently leads the automation efforts in the company, for welding and NDT mostly.  
+• Has developed the technical knowledge for manholes and infrastructure products for Floteks.  
+• Has introduced the know-how of manholes to India and sold knowledge/ license to a major company, with a 
+commercial value of €900,000.  
+• Has developed underground garbage collection system for a municipality in Bursa, achieved a sales value of 
+€600,000.  
+• Has bought up the idea for the EU project “Leakfree” and helped in writing the project proposal.  
+• Has led the PP development and testing efforts for Australian company PSD, sales value over €100,000.  
+  
+Intellectual Property Management:  
+CelalBeysel is leading the IP rights applications and management in the company. The IP Protection i n Floteks started in 
+the 1990’s, when Floteks introduced Rotomoulded Playgrounds to the Turkish market, but was severely copied. Starting in 
+2000, when the company managed the “Quantum Jump” to be a Co-designer for Automotive OEM’s, the competition started 
+to copy technical articles as well. CelalBeysel has been instrumental in defending Floteks’ rights with patents.  
+  
+Innovation Management:  
+Floteks, being a supplier to the automotive OEM’s, has to stay a technological leader and innovation / R&D champion, to 
+be able to protect its position as market and technology leader within the very competitive automotive world. Therefore, 
+CelalBeysel, as the founder of  the company, has left the daily concerns of the company to the experienced Floteks team 
+and is occupied with developments needed for the future of Floteks.  
+  
+   
+760528 - MoniTank                                           50  Part B  
+CelalBeysel is known to the rotomolding world, as he is attending many meetings of the rotomolding associations 
+throughout the  
+  
+ 
+  
+  
+   
+760528 - MoniTank                                           51  Part B  
+world, for networking and also presenting his ideas / know how / leadership. This way, he was able to 
+commercialise the manhole know how of the company, achieved by doing a research project with the Turkish 
+funds of the organisation TUBITAK, also persuade the Australian PP developer to use Floteks’ premises and 
+knowhow for testing the material. Receiving SME-I Phase 2 Funding for the Project LEAKFREE for his company 
+FLOTEKS was his last success.  
+Name: Ali Balcı 
+Gender: Male  
+Background:  
+Has knowledge in the use of Catia V5R16, Autocad, Ansys FEA, Solidworks. He has training and Certificates 
+for Control Apparatus Design, Design Seminar on Rotational Moulding Technology, Metrolog XG VER 9.002, 
+Geomagic Studio, Patran Training, Statistical Process Control, A.P.Q.P. an P.P.A.P. , ISO/TS 16949:2002, MSC 
+M arc – Patran Nonlinear FEA Training, ANSYS Nonlinear Training, Training in Efficiency and Cost Reduction 
+Techniques, CNC Milling, CastAluminum and Sheet Metal Mold Design and Production Training. He is the most 
+experienced mechanical engineer in the company, having an insight in CAD, CAM, FEA, mold design, product 
+design, production and engineering analysis.  
+  
+Education:  
+Mechanical Engineer graduated from Uludağ University Bursa (2004), speaks English. Attended many courses 
+in CATIA, ANSYS,  
+ROBOTICS, Mitsubishi and Siemens PLC’s, Festo Academy.  
+  
+Work Experience  
+2 Years AKTAS Holding, a major EPDM compounder and producer for Air Springs for 
+Vehicles in Turkey 10 years Floteks, a major Plastics manufacturer in Turkey using 
+Rotational Moulding Technology  
+  
+Product Development Experience:  
+In charge of the R&D Lab in Floteks. With his education, training and long years of experience, he is designing 
+and producing automation devices for Floteks, also programming the PLC’s assembled in these machines.  
+  
+Intellectual Property Management:  
+Ali is one of the major contri butors within the firm for writing patents; additionally he is responsible for creating 
+the designs of the products to be patented.  
+  
+Innovation Management:  
+Leads mechanical innovation and R&D activities, makes FEA’s for new products.  
+Name: Mehmet Beysel 
+Gender: Male  
+  
+   
+760528 - MoniTank                                           52  Part B  
+Background:  
+Started life as an entrepreneur, Mehmet gained significant international experience selling the products of his 
+company Flopark throughout the world, including: Sudan, USA, GB, Germany, Russia and Israel. Later, he 
+handed Flopark over to a professional team, however he stayed on as the president of the board whilst taking 
+over the daily running of Floteks. He speaks English and  
+German.  
+  
+Education:  
+Graduated in 2000 from Duke University, Durham / USA,  Major in International relations, Minor in Economics  
+  
+Work Experience:  
+Took over the company, Flopark, a Playground production company, in 2001. The company grew to make a 
+turnover of €2 million per year, selling Playgrounds in Turkey and exporting. In 2010, he became the Automotive 
+Sales Director at Floteks, before becoming the General Manager in 2013. Through his work in making the 
+automotive operation more productive and competitive, he was able to expand Floteks’ automotive business 
+and export products to a variety of countries. His success in introducing Floteks to Hyundai, will double the 
+turnover of Floteks per year within 2017. Floteks achieved the Innovative Company of the Year award under his 
+management.  
+  
+Product Development Experience:  
+The new products he has introduced to Floteks will show their effects in 2017. He was able to double the orders 
+from Mercedes Benz, which will reach €1,000,000 turnover in 2017. Furthermore, he persuaded H yundai to 
+choose Floteks as their Adblue tank provider starting in 2015, reaching a turnover of €7 million per year in 2017. 
+The Leakfree project was initiated with the future need of doubling the leakage control of the tanks produced in 
+Floteks.  
+  
+Innovation Management:  
+The Hyundai tank was actually a blow moulded tank. It needed some changes in design, to make the tank with 
+rotomolding technology. It has cost Floteks two visits to the Hyundai technical team in South Korea to persuade 
+them to change over to rotomolding and also a lot of development efforts between both parties.  
+Name: Canan ERAT 
+Gender: Female  
+  
+   
+760528 - MoniTank                                           53  Part B  
+Education:  
+Chemistry graduated in 1994 from Gemlik  High School Bursa, speaks English. Attended many courses in 
+Microsoft office, Quality Management Systems and many plastics test applications.  
+  
+Work Experience:  
+5 years Floteks, a major Plastics manufacturer in Turkey using Rotational Moulding Technology, as a technician. 
+She is using laboratory equipment of Floteks, to make the required daily tests. DSC, Tensile Strength, QUV, 
+Drop and Impact Test, Density, MFI, Ring Stiffness, Vacuum Test  devices,  polarised  Microscope  and  
+Ultrasound  thickness  Ga uge  are  the  devices  she  uses. She has been working on the SME -I Project 
+LEAKFREE since she started working in Floteks.  
+  
+Product Development Experience: She has an experience for testing 
+plastic products using the necessary equipment..  
+  
+Innovation Management:  
+She works on R&D activities and product development as a laboratory technician.  
+Name: EmreAkbay  
+Gender: Male  
+Education:  
+Automotive Engineer graduated in 2012 from Marmara University Istanbul , speaks English. Attended many 
+courses in Solidworks, Catia, ANSYS.  
+  
+Background:  
+He has training in CAM and engineering analyses. He is fluent to use Catia V5R16, Solidworks and ANSYS.  
+  
+He is also using laboratory equipment:  DSC, Tensile Strength, QUV, Drop and Impact Test, Density, MFI, Ring 
+Stiffness-Control the Temperature monitoring, Vacuum Test devices.  
+  
+Work Experience:  
+4 years at Floteks, a major Plastics manufacturer in Turkey using Rotational Moulding Technology. He worked 
+2 years as a manufacturing process engineer .He has been working as a research engineer since 2014.He has 
+been working on the SME-I Project LEAKFREE since he started working in Floteks.  
+  
+Product Development Experience:  
+Technical Designer and Research Engineer in the R&D Department of Floteks.  
+He is also designing new underground products and fixtures and making the FEA’s. He has an experience for 
+testing plastic products.  
+He is also defining process parameters of new products and improvement existing products using temperature 
+monitoring system.   
+  
+   
+760528 - MoniTank                                           54  Part B  
+  
+  
+ 
+  
+Participant 
+Number 5  
+  
+  
+  
+  
+  
+Organisation Name: Brunel University London (BUL)  
+Website: www.brunel.ac.uk/BUL  
+
+  
+   
+760528 - MoniTank                                           55  Part B  
+Organisation Description:  
+Brunel University London has been highly successful in creating an industrial innovation research resource, 
+named Brunel Innovation Centre (BUL), which sits between the knowledge base and industry, supporti ng 
+partners in industry to transfer academic research into industrial application. Brunel has a wide range of 
+knowledge and expertise in the following research areas: (i) Power ultrasonics; detection, cleaning of fouling and 
+fouling prevention techniques n on-invasively software (ii) Smart NDT; autonomous devices, miniaturised 
+multifunction systems for NDE in bespoke environments; marine, high temperature, aerospace, pattern 
+recognition hardware / software, (iii) Active SHM and Condition Monitoring (iv) Desi gn of associated hardware 
+and software (v) Signal and image processing and numerical modelling - Noise reduction, signal condition and 
+control (including active vibration control), data interpretation and analysis, (vi) Automation and robotics of 
+inspection system, (vii) Improved or new and robust sensors (Piezoelectric, Electromagnetic) e.g. high 
+temperature inspection, transduction (viii) Electronics - Low power consumption for multiple channels, wireless, 
+high speed, wideband, fast bps, energy harvesting . In year 2015, BUL has received the Highly Commended 
+Innovation Awards from The Institution of Engineering and Technology (IET) for two award categories: (i) 
+Measurement in Action and (ii) Manufacturing Technology. The collaborative European project (FP7)  was put 
+forward to the competition and was chosen from over 300 entries from 28 countries (globally).  
+  
+ 
+  
+
+  
+   
+  
+760528 - MoniTank                                           56  Part B  
+  
+  
+Role in the Project:  
+BUL will lead the Certification, Quality and Maintenance, and Training Development work package and produce 
+training manuals and product documentation. BUL will bring their expertise in developing complete, concise and 
+organised documentation for best practices. Relevant training materia l including Getting started section, user 
+guide, examples, screen cast tutorials and FAQs will also be embedded in Help section of the software itself. 
+BUL will coordinate the Awareness and Promotion events as part of the Dissemination, Exploitation and 
+Communication work package. This will include interaction with end -users in power sector through newsletters 
+and press releases. BUL will assist TWI in coordinating the project by managing financial, regulatory and 
+operational risks in the service of innovation by analysing statistics, reports and market trends.  
+ 
+Relevant Projects:  
+• Adapted Composite Repair Tooling for in -situ wind turbine blades structural rehabilitation 
+(CORETO), funded by FP7. Project website: http://coreto-project.eu/index.php  
+• Automated  Ultrasonic  Inspection  of  Aerospace  Composites  with  Enhanced  Defect  Detection  
+Probabilities  Aided  by Gantry Deployed, CAD Controlled Robotics (AutoDISC), funded by Innovate 
+UK. Project website: http://autodisc-project.com/  
+• Radio Frequency Sensing for Non -Destructive Testing of Carbon Fibre Reinforced Composite 
+Materials for Structural Health Monitoring (Comp -Health), funded by FP7. Project 
+website:http://comphealth.eu/  
+• An ICT Enabled Approach to Optimising the Reliability of Manual Ultrasonic Non-Destructive Testing 
+(ICARUS), funded by FP7. Project website:http://www.icarus-project.eu/home/index.jsp  
+• Continuous monitoring systems for the SAFE storage, distribution and usage of Hydrogen Power 
+for transport  
+Main Partners & Collaborations: 
+  
+  
+   
+  
+760528 - MoniTank                                           57  Part B  
+  
+Infrastructure/Equipment:  
+• Management, administration and accounting department  
+• Design and development of signal processing and pattern recognition software  
+• Data management and handling software  
+• NDT and Condition Monitoring hardware i.e. Acoustic Emission and Ultrasound equipment  
+• Power amplifier, oscilloscope and impedance analyser  
+• Optical tracking device and High resolution cameras  
+• Several powerful work-stations including signal and image processing software  
+• State of the art 3D Laser scanning vibrometer for: wave propagation; transducer analysis; 
+ultrasonic detection / cleaning; ultrasonic anti-fouling; condition monitoring purposes  
+Experimental industry specific set -up rigs for detection and cleaning of fouling, rotating machinery; mock -ups; 
+inspection, monitoring systems demonstrated in full scale.  
+ 
+Profile of Main Persons  
+Name: Dr Alvin Chong  
+Gender: Male  
+Qualifications: BEng (Hons), PhD, CEng, IntPE (UK), MIET, MIOA, MIEEE  
+Experience/ Career History: Dr Alvin Chong graduated with a BEng (Hons) degree from University of Hull (UK) 
+in Electronic Engineering. He holds a PhD from  Open University (UK) where he researched on acoustic wave 
+propagation in periodic structures (sonic crystal). He joined BUL in March 2012 and currently he holds the 
+responsibility as a Research Fellow Team Leader for the Smart Non -Destructive Testing (NDT ) team. His 
+research in BUL predominately focused on the novel NDT methods for the aerospace applications.  
+Work Experience: Dr Alvin Chong undertook the roles as Project Coordinator and Project Leader for various 
+European Commission (EC) Seventh Framework Program (FP7), Clean Sky and Innovate UK research projects. 
+Many of which have either been successfully completed or research in progress.  
+Product Development Experience: In light of his research activities in BUL, he has developed various functional 
+prototypes demonstrated to mid-tier Technology Readiness Level (i.e. TRL 4 to 6).   
+Innovation Management: He has published more than 25 papers in international refereed journals and 
+conferences on ultrasonic NDT, electromagnetic NDT, laser system, acoustic b and gap material, structural 
+analysis, local resonance material and computational modelling based on finite element method.  
+Name: Liang Chen  
+Gender: Male  
+  
+   
+  
+760528 - MoniTank                                           58  Part B  
+  
+Qualifications: BSc, MSc, PhD, MIEEE  
+Experience/ Career History: Dr Liang Cheng received the B.Sc. degree in electronics from Peking University, 
+Beijing, China, in 2007, the M.Sc. degree in communications and signal processing from Imperial College 
+London, London, U.K., in 2008and the Ph.D. degree in failure models and life cycle assessment of wind turbine 
+systems at Newcastle University, U.K in 2013.  
+He has involved several EPSRC and FP7 projects for development of electromagnetic, thermographic and 
+ultrasonic NDT systems. In 2013, He received PhD degree from Newcastle University, UK. His research topic 
+is non-destructive evaluation for carbon fibre reinforced plastic wind turbine blades using eddy current pulsed 
+thermography (ECPT). During the PhD study, part-time RA at Newcastle and the exchange in China, Dr Cheng 
+developed and re -designed the ECPT sensing system and was also involved design of eddy current and 
+magnetic flux leakage system with colleagues. He developed ECPT technique for both composite and metallic 
+components  for  the detection and quantification of crack,  corrosion,  de lamination  and  impact damage  
+through  both simulation and experiment. Signal/image processing algorithms were developed using Matlab for 
+feature extraction and defect detection, classification, quantification. From 2013, he joined Brunel Innovation 
+Centre. His current research interests cover electromagnetic acoustic transducer design for absorb tubes used 
+in concentrating solar power, guided wave transducer for de-icing of wind turbine blades, guided wave modelling 
+for complex geometric structure such as power cables, nuclear piping etc.  
+Work Experience: Dr Liang Cheng undertook the roles as Project Leader or got actively involved in European 
+Commission (EC) Seventh Framework Program (FP7) and Innovate UK research projects. Many of which have 
+either been successfully completed or research in progress.  
+Product Development Experience: In light of his research activities in BUL, he has developed electromagnetic 
+acoustic transducer prototypes for monitoring of absorber tubes in solar plants at high temperature, eddy current 
+pulsed thermography NDT&E system for composites and metallic structures, phased array on time -of-flight-
+diffraction configuration for high temperature pipes, demonstrated to mid-tier Technology Readiness Level (i.e. 
+TRL 4 to 6).  
+Name: Jiangtao Sun  
+Gender: Male  
+  
+   
+  
+760528 - MoniTank                                           59  Part B  
+  
+Qualifications: BSc, MSc, PhD, MIEEE  
+Experience/ Career History: Dr Jiangtao Sun received his BSc and MSc degrees in Measurement Technology 
+and Instrumentation from Xidian  University (China) in 2008 and 2010, respectively. His PhD was awarded in 
+Electrical and Electronic Engineering from University of Manchester (UK) in 2014, specialized in electrical 
+tomography for industrial applications. In September 2014, he joined BUL as a research fellow in Smart Non -
+Destructive Testing (NDT) team. He is currently working on automated defect recognition based on X -ray 
+radiography, X-ray CT and ultrasonic C-Scan imaging. Dr Jiangtao Sun is currently involved in several Innovate 
+UK projects as technical leader, including “automated in-line inspection and quality control of net shape powder 
+metallurgy components using microfocus three dimensional x ray computed tomography imaging (Qualinet)”, 
+“automated,100% production quality assurance of  net shape manufactured components using in line micron 
+resolution x -ray sterographic imaging”, and “automated ultrasonic inspection of aerospace composites with 
+enhanced defect detection probabilities aided by gantry deployed, CAD controlled robotics (AutoDISC)”.  
+Product Development Experience: He successfully developed an embedded system for the locking of a 
+second-class frequency standard to the reference signal from GPS, including hardware and software design, 
+during his master study. He is currently d eveloping an image processing toolbox suitable for industrial X -ray 
+radiographic and CT imaging using Matlab.  
+Innovation Management: He has published more than 10 papers in peer -reviewed international journals and 
+conferences, mainly focusing on electrica l tomography sensor design and image reconstruction for industrial 
+applications and image processing for non- destructive testing and evaluation using tomographic methods.  
+Name: Dr Haitao Zheng  
+Gender:Male  
+Experience/ Career History: Dr Haitao  Zheng studied Engineering Mechanics as an undergraduate and 
+postgraduate at Tongji University, Shanghai, China. During his doctoral study at Keio University, Yokohama, 
+Japan, his research focused on the application of system identification and time series  analysis to structural 
+health monitoring. He had significant work and research experiences on structural health monitoring, NDT and 
+condition monitoring, monitoring system implementation, and transforming research results to viable algorithms 
+and application software.  
+Work Experience: Dr Haitao Zheng undertook the roles as Project Leader for various European Commission 
+(EC) Seventh Framework Program (FP7) and Innovate UK research projects. Many of which have either been 
+successfully completed or research in progress.  
+Product Development Experience: In light of his research activities in BUL, he has developed various functional 
+prototypes demonstrated to mid-tier Technology Readiness Level (i.e. TRL 4 to 6).  
+Innovation Management: He has 22 published pape rs in international refereed journals and conferences on 
+structural health monitoring, structural dynamic analysis, reflection seismology, wave propagation in structures, 
+novel NDT in civil engineering etc.  
+Name: Maria Tyler  
+Gender: Female  
+Experience/ Career History: Maria received a BCom (Hons) degree in Accounting and Finance from the 
+University of Birmingham. She joined Brunel Innovation Centre (BUL) in May 2014 as Project Coordinator. She 
+has experience in portfolio management, client projects, contract negotiation and project management. She is 
+responsible for the effective administration and coordination of BUL.  
+  
+ 
+ 
+  
+4.2. Third parties involved in the action
+ (including use of third party resources)  
+  
+ 
+  
+  
+Does the participant plan to subcontract certain tasks  (please note that core tasks of the 
+action should not be sub-contracted)  
+Yes  
+The common view of the consortium following various discussions is that there is 
+considerable room for improving the end product.   
+More specifically:   
+• The design of the 3-channel boards including wiring should be reviewed by an 
+experienced electronics company whose core business is equipment development and 
+manufacturing (Task 1.1).  •  Firmware should be improved in order to increase the 
+speed of signal post-processing (Task 1.1).   
+• Software, Graphical User Interface should also be reviewed and improved in the 
+light of discussions with potential end-users, (Kadoil and Shell being development 
+partners in this project) (Task 1.2).   
+• The overall product structure needs to be optimized considering also cooling of 
+the equipment (Task 1.1).  
+• The product should be packaged professionally with due consideration differing 
+operational conditions. Ideally, different models of the product should be made available 
+to the market depending on specific operational needs (Task 1.1).  
+Therefore, this work scope mainly related to WP1 will be subcontracted to Arlentus 
+Control and it is expected from Arlentus Control that the first working prototype will be 
+delivered to the Consortium to be tried during the site trials in Bursa and Ankara.  
+It was confirmed that the cost of subcontracting will be 20,000 EUROS.  
+The consortium has gone through the Best Value for Money (BVM) procedure and 
+collated three proposals. Arlentus proposal was the proposal chosen by the consortium 
+to be the best proposal for value to the expected outcome. On the 8th May 2018, it was 
+agreed by a unanimous decision that the total value of subcontracting will be equally 
+shared by the five members of the consortium.  
+  
+Does the participant envisage that part of its work is performed by linked third parties  N  
+Does the participant envisage the use of contributions in kind provided by third parties 
+(Articles 11 and 12 of the General Model Grant Agreement)  
+N  
+Does the participant envisage that part of the work is performed by International 
+Partners [2] (Article 14a of the General Model Grant Agreement)?  
+N  
+  
+  
+Commission européenne/Europese Commissie, 1049 Bruxelles/Brussel, BELGIQUE/BELGIË - Tel. +32 22991111

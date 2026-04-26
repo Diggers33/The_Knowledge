@@ -1,0 +1,278 @@
+4. Homogeneous and heterogeneous (gas-solid) reactions, mostly at the internal surface of the hottest parts of the preform. 
+5. Porous medium structural evolution , which has an influence on heat tra nsfer properties, internal gas flow, and the 
+effective reaction rates; it results in less volume for the homogeneous reactions and more or less surface for the 
+heterogeneous reactions. This structural evolution is in most cases much slower than the preceding ones. Accordingly, 
+a usual assumption is to treat all heat and gas-related phenomena (transport and reactions) as being in a quasi-steady 
+state; the porous medium properties may then be updated from knowledge of the latter. 
+Preform-scale (or macro-scale) models [93] have to be fed with several material properties related to internal geometry, heat and 
+mass transfer, and, in the case of MW-CVI, complex electrical permittivity. This has to be achieved for several states of infiltration, 
+which means that the porous medium evolution also has to be simulated [87]. Simple, analytical models were initially produced 
+but have been progressively replaced by image -based models, first using a -priori image synthesis [94,95], then using direct X -
+ray CMT 3D images [96,97]. This requires some image analysis, in particular fiber and tow detection, the latter obtained, for 
+example using local texture orientation analysis [98]. Efficient AI-based tools have been developed successfully for woven SiC -
+CEM-WAVE   
+ 19 
+fiber composite preforms [99], as seen in Fig. 1.5. The approach developed consists in a variational segmentation that combines 
+μCT with a prior geometric model that is iteratively improved thanks to a specific optimization process. The fidelity of the models 
+with respect to the input μCT is evaluated using a measure of similarity including both gray levels and local directions. This method 
+allowed building realistic numerical models of woven fabrics that preserve the prescribed weaving pattern, and that are free of 
+interpenetration, which makes them compatible with further numerical simulations. Using our approach, models of complex woven 
+fabrics, but also of woven composites, could be consistently generated from μCT and can serve as reference models, e.g. to 
+analyze in situ tests by providing digital twins.  For the simulation of matrix infiltration by isothermal Chemical Vapour Infiltration 
+(I-CVI), a two-scale approach has been developed, based on X-ray CMT images or on synthesized 3D images discretized on a 
+regular voxel grid [96], as illustrated in Fig. 1.6. An intra-tow code allows for the precise simulation of the matrix deposition [100]; 
+the deposit thickness variations are shown to depend on: (i) the diffusion -reaction competition, which implies a smaller deposit 
+thickness in small pores, and (ii) the pore network connectivity. The results are interpreted as local laws for effective parameters 
+(diffusivity, bulk reactivity) [101] in a large-scale solver based on Brownian motion [102], capable of simultaneously computing 
+the matrix phase amount in the to ws and the seal-coat matrix thickness outside the tows. This code accepts the local values of 
+the volume fraction and of the orientation of the fibers. Both codes have been validated with respect to experimental data [103] 
+in the case of carbon-carbon composite fabrication. So far, detailed image-based models have focused on I-CVI; more attention 
+needs to be paid in the future on the heat transfer laws and the evolution of the effective complex permittivity as the prefo rm is 
+progressively filled by the matrix. 
+1.4.1.7 Joining techniques of CMCs 
+Joining techniques remain a critical tool for reducing assembly time, cost and excessive use of materials. Japan and the USA 
+have intensive activity on joining and testing of dissimilar materials; the Joining and Welding Research Institute in Japan, Pacific 
+Northwest National Laboratory and NASA Glenn Research Center in USA are specialized in joining technologies and the testing 
+of advanced materials. On the contrary, expertise on joining in EU is unnecessarily fragm ented and confined in academia or 
+private companies, seldom in contact to each other, limited by non -disclosure constraints, with consequent loss of efficiency, 
+duplication of research and waste of money. A strong EU expertise in joining is particularly needed for the new type of lightweight 
+composites (such as CMCs) for optimization of existing components, but also for the development of new products and new 
+design solutions. In particular, the development of suitable joining processes fits into the context of developing high-performance 
+and high efficiency components fo r the European steel industry. If the issues related to joining CMCs to themselves and to 
+dissimilar materials are solved, they will be much more extensively used to produce both new components and ‘hybrid’ structures, 
+the latter constructed of two or more different types of materials where each contribute its own unique properties that complement 
+the properties of the other(s). Such components can be used for a range of applications in industries that include, aerospace, gas 
+turbines for energy production, wind energy, furnace technologies, automotive, etc. Non-oxide CMCs are now more often used in 
+components for energy production, defense, space and  many other high-performance applications and have great potential to 
+replace conventional materials such as metals and superalloys in many applications. However, the joining of CMC to themselves 
+or to other materials remains a critical issue. The manufacturing of net-shape and ready to use ceramic components for advanced 
+design solutions require large and complex parts, which can be built by joining and integrating discrete units of similar or dissimilar 
+ceramics. Thus, joining of ceramics, and their integration remain fundamental issues to be addressed for the efficient use of these 
+materials in many applications, whereas they could help in reducing fuel consumption, air pollution and in the optimization o f 
+existing components.Many techniques have been developed so far to join non-oxide CMCs, among them: mechanical fasteners 
+[104],  metallic brazing [105-109], diffusion bonding [107], glass-ceramic joining [110], the use of MAX -phases [111], transient 
+Figure 1.6 - Macro-scale (top) and micro-scale (bottom) infiltration modelling 
+by random walkers. Depending on the physicochemical conditions, there 
+appear matrix thickness gradients at small scale (bottom right). The macro -
+scale code simultaneously handles intra -tow infiltration and seal -coat 
+deposition (top right). 
+Figure 1.5 - Illustration of the capabilities of our approach. 
+μCT (left) and correspond ing segmented model (right) for 
+an infiltrated oxide/oxide composite (top) and for a fully 
+woven CMC junction (bottom) [99]. 
+CEM-WAVE   
+ 20 
+eutectic [112] and spark plasma sintering  [113-114], Liquid Silicon Infiltration (LSI) [115], Affordable Robust Ceramic Joining 
+(ARCJoint TM) [116], Solid State Displacement Reactions (SSDR) [117], and Transient-Liquid-Phase Bonding (TLPB) [118]. 
+The “RM-Wrap” (RM= Refractory Metals, i.e. Mo, Nb, Ta, Zr) is a novel brazing technique where the refractory metal, shaped as 
+a wrap, is used to contain one or more silicon foils. It is a pressure-less joining process performed at 1450°C in an inert, flowing 
+argon, environment [109,119]. The wrap is necessary to prevent the molten silicon spreading too fast and  leaking outside the 
+joined region during the joining process. The joining materials are in-situ formed composites made of refractory metal disilicides 
+including MoSi2, NbSi2, TaSi2 or ZrSi2 embedded in a silicon -rich matrix. Disilicides have high melting temperatures and good 
+oxidation resistance at elevated temperature, making them a suitable choice to join ceramics. MoSi 2 has already tested as 
+component of a brazing mixture for joining dense sintered SiC samples [120] following a pressure-less joining method based on 
+the use of a Mo -silicides mixture. The RM-Wrap process is quick, free from undesired phases and has excellent reproducibility 
+and versatility; the quantity of each metal can be modified and more than one refractory metal can be used in the sa me wrap. 
+RM-Wrap has been proven to be very effective in joining SiC-based ceramic matrix composites and highly porous SiC substrates 
+(SiC foams).  In the case of ox/ox CMCs, the joining material must be oxidation resistant and able to perform well at high 
+temperatures (e.g. > 800°C) without any degradation during service life. Furthermore, the selected joining material must have  
+suitable wetting properties and a matching coefficient of thermal expansion (CTE), retain its strength at higher temperatures and 
+should not react deleteriously with the composite during its service life. Several commercial metallic alloys, including silv er and 
+zirconium-based brazing materials, exhibit good wetting and joining behavior with ox/ox CMCs. However, they have a lower 
+mechanical strength and poor oxidation resistance at 550°C in air [121], which is much lower than the expected working 
+temperatures of ox/ox CMCs (1000°C – 1200°C). Diffusion bonding, on the other hand, requires the use of high pressures, which 
+limits the shapes of the components that can be joined [122]. Furthermore, the joining temperature used with MAX phases present 
+as the bonding phase is higher than the sintering temperature of ox/ox CMCs [111]. Therefore, there is a great demand for the 
+development of reliable oxidation resistant, high-temperature, stable joining materials that will allow designers and engineers to 
+successfully employ these CMCs in high-performance structures. Glass-ceramic materials have better oxidation resistance than 
+brazing alloys [121] and can withstand higher temperatures for longer times in air [123-125]. To avoid thermal stresses, their CTE 
+can be tailored according to the CTE of the substrate. Moreover, by selecting an appropriate glass composition, their volatilization 
+in steam can be reduced and they are therefore a good choice for air, wet H2 and steam operating conditions at high temperatures 
+[126]. While existing joining technologies will not be ignored, the emphasis will be on new compositions, new processing routes 
+as well as new joining strategies; new frontiers of research in joining activity are focused on tailoring of joining materials and 
+joining processes for specific CMC (oxide or non-oxide) and precise applications. Research activity will look at bonding techniques 
+based on pressure-less, high-temperature, tailored glass-ceramic sealant, brazing by “in situ” high T composite joining materials 
+suited for the bonding of non-oxide and oxide/oxide CMCs and ceramics. To reduce the detrimental influence of thermal stresses, 
+functionally-graded joints approaches could also be investigated.  In addition, advanced surface engineering methods such as 
+nanostructuring of surfaces by plasma etching or laser treatment, mechanical machining, thermal selective modification, etc., will 
+all be studied. The combination of these techniques with innovative joining materials/processes will be exploited to maximize the 
+interfacial strength of the joints. 
+1.4.1.8. Coating techniques of CMCs 
+Despite their remarkable suitability for high -temperature lightweight applications, SiC -based components suffer from rapid 
+recession when used in combustion environments above 1100°C. This is due to the fact that volatile Si(OH)x species are formed 
+when the superficial SiO2-layer is in contact with hot water vapor, which is formed during the combustion of hydrocarbons and/or 
+hydrogen. Therefore, Environmental Barrier Coatings (EBCs) especially on non -oxide CMCs are generally required to increase 
+the resistance to water vapor corrosion  [127,128]. EBCs generally comprise multiple layers, usually one bond -coat layer, up to 
+several intermediate layers, and one top layer. The respective materials have to be carefully selected regarding their coeffi cient 
+of thermal expansion (in order to have a high thermo-mechanical stability), chemical compatibility (in order to have a good bonding 
+to the substrate and each other and to avoid contact corrosion), and phase stability. The latter is especially crucial for th e top 
+layer, which has to have a high hydrothermal stability, low diffusivity and a high resistance against CMAS (calcium-magnesium-
+alumosilicate species) corrosion. In addition to their chemical protection purpose, EBCs  can also serve as Thermal Barrier 
+Coatings (TBCs), providing a temperature gradient between the coating surface and the substrate surface and therefore raising 
+the application temperature of SiC f/SiC components even further. Present EBC s systems for SiC f/SiC composites comprise a 
+silicon bond coat, mullite -based intermediate layers and a rare earth s ilicate top coat  [129]. Currently, the most common 
+application technique for EBCs is atmospheric plasma spraying (APS) [130]. Nevertheless, APS is not applicable to coat complex 
+shapes, as it is a line -of-sight process. Furthermore, the resulting microstru cture usually exhibits cracks and a lamellar porous 
+structure. In addition, volume changes due to shrinkage, crystallization or phase transitions during thermal cycling are like ly to 
+cause cracks  [131,132]. Therefore, chemical  [133,134] or physical vapor d eposition [135,136] and slurry -based coating 
+techniques are of increasing interest. The former allow s for the production of well-defined layers, but is usually time-consuming 
+and expansive. Slurry-based coating techniques like dip-coating, spraying or brushing, in contrast, are a cost-efficient, simple and 
+economical approach to apply defined EBCs coatings [137,138]. Their main drawback, however, is the necessity to densify the 
+respective layers in several thermal treatment cycles, which increases the thermal load on the substrate material and can lead to 
+residual stresses. 
+CEM-WAVE   
+ 21 
+In the framework of CEM-WAVE, burner operating parameters will be optimized in a way SiC is in the range of passive oxidation, 
+guaranteeing long-term operation. In fact, making the SiC f/SiC radiating pipe operating at surface temperatures higher than 
+1300°C is not expected to be convenient, due to increased production of NOx. 
+At the FHF, EBCs will be deposited on selected oxide and non-oxide CMC samples via a slurry coating technique. The formulation 
+of the slurries will be developed and the rheological properties adjusted for the coating process. The EBCs will be multilaye r 
+systems free of metallic silicon, comprising at least one bond coat and one top coat. The EBC will be designed to minimize thermal 
+stresses during thermal cycling by adjusting the coefficient of thermal expansion to the CMCs substrate. The bond coat needs to 
+be chemically compatible with the underlying CMC substrate. For non-oxide CMCs, the FHF has great experience in mullite- and 
+zirconium titanate-based bond coat systems. As top coats, rare earth silicates will be considered. The top coats will be designed 
+to raise the gas-tightness, which is an important requirement for good corrosion protection. This can be achieved b y minimizing 
+cracks in the top coat and by designing the microstructure of the coatings with closed porosity. The thermal treatment will b e 
+designed to minimize thermal stress to the substrate material. The overall objective is to provide an EBC system that protects the 
+underlying CMC from corrosion during use. 
+1.4.1.9 Steelmaking industry & radiant tube furnaces 
+The industrialization has been powered by fossil fuels. In the steel industry this has involved using coal-based products, such as 
+coke, to reduce iron ore in the blast furnace (BF). Although steel is less carbon-emitting per application than many other materials 
+from primary sources, the sheer scale of global steel production means the industry contributes over three gigatons of CO 2 to 
+global emissions annually. Global steel demand is forecast to increase from 1.7 billion tonnes in 2018 to over 2.6 billion tonnes 
+by 2050 under current consumption patterns. Primary steel is produced by using two types of raw materials: hot metal or pig iron, 
+and steel scrap, and through two types of processes: basic oxygen furnaces (BOF) or basic oxygen steelmaking and electric arc 
+furnaces (EAF). In BOF steelmaking, about 75% of iron comes from the hot metal produced by BF process, the remaining 25% 
+of the raw materials is steel scrap. EAF process uses 100% steel scrap in general, however,  in some plants significant share of 
+direct reduced iron (DRI) is used [139]. In steel processing lines, indirect heating of products in protective atmosphere is carried 
+out with radiant tubes equipped with gas-fired burners [140]. One of the limiting factors for processing lines performances is the 
+radiant tubes damage. This potential damage results from a combination of many parameters  such as operating conditions 
+(combustion performances, depending on burner design and control, furnace control,  fuel quality and stability…) and design 
+(material selection, geometry, manufacturing…). In current operating  conditions, radiant tubes are exposed to severe thermal 
+loading: 
+• High temperature up to material temperature limit; 
+• Heterogeneous thermal field resulting from combustion; 
+• Thermal cycles resulting from furnace control for various production and burner control; 
+These stresses account for the observed damage on radiant tubes resulting from  coupled phenomena such as  creep, thermal 
+fatigue, and corrosion. The temperature increase needed to reach expected metallurgical performances for new advanced high-
+strength steels grades is limited by the mechanical strength of metallic material used for radiant tube. 
+Another issue is the efficiency of the radiant tubes. In  all types of radiant tubes, the combustion takes place  within the tube and 
+the flue gas leaves the tube at the flue gas outlet. The efficiency of radiant tubes depends on the flue gas outlet temperature. The 
+lower the flue  gas temperature the higher is the efficiency of a combustion  system [141]. The lifetime of radiant tubes and 
+maintenance costs are also important for t he economical application of the technology in heat treatment appli cations. 
+Experimental investigations of radiant tubes in laboratory furnaces and under practical conditions in field tests are important in 
+order to develop and improve radiant tubes. Now that the unintended consequences of using fossil fuels have become clear, the 
+world needs to find a new way that enable further economic and social development , while minimizing environmental damage. 
+This means we need to significantly reduce the carbon footprint of steel, which requires finding new ways to make steel in l ess 
+emissions-intensive processes [142]. The BF process has been for the past two centuries the dominating  ironmaking route to 
+provide the raw materials for steelmaking industry. Nowadays, over 93% of the total iron production from ores is taking place via 
+BF route. Actually, the reduction of iron ore to iron is predominantly achieved using high temperature carbon monoxide (CO), 
+sourced from fossil fuels – coke and pulverized coal – which is also used as an affordable source of energy. The most important 
+alternatives that are being investigated are : deriving CO from circular forms of carbon  (bio-based and plastic wastes from 
+municipal and industrial sources and agricultural and forestry residues), applying the process of electrolysis, or increase the use 
+of high-temperature hydrogen gas (as reducing agent with respect to carbon monoxide in DRI process). The latter two pathways 
+require vast amounts of electrical energy, which would all need to come from clean sources.  In this hypothetical and yet very 
+likely future, the most convenient fuel available in a steelmaking plant would be hydrogen or mixtures of hydrogen and biomethane, 
+which will require materials not only able to sustain extreme conditions, such as high temperature or corrosive environments, but 
+also phenomena like hydrogen embrittlement for metals and hydrothermal attack for ceramics. CEM-WAVE aims at substituting 
+currently metallic alloys employed in radiant tube furnaces with CMC-based components which displays better thermo-mechanical 
+properties, both in high temperature and corrosive atmospheres, as well as improved thermal efficiency and lifetime. A small -
+scale version of a tube exploiting the benefits of both non -oxide CMCs (higher thermo-mechanical properties) and oxide CMCs 
+(inherent oxidatio n resistance and lower cost) will be produced by MW -CVI process to find the better performance/cost 
+compromise and validating it in relevant environment expected by the increasing future use of renewable energy sources. 
+CEM-WAVE   
+ 22 
+1.4.2 Innovation potential and coverage of the value chains 
+Furthermore, additional innovation potential results from the improved processes developed along the project, - using cutting 
+edge technologies in the field of sensors, data analytics & modelling and AI that will be used as KER furt her detailed following 
+each partner’s exploitation intention.The knowledge and IPs generated by the project will be exploited by partner companies, in 
+order to improve their competitiveness, differentiating their products in the market, thereby tapping into increasing market demand 
+for high-performance CMCs. 
+Table 1.5 - Progress of the CEM-WAVE project compared to other previously funded projects. 
+Freedom to operate was al ready given a major insight as it is vital for the commercial exploitation of the results, and a patent 
+search has been performed around each of our main technologies reflected in the SoA. An online worldwide patent search has 
+been performed using the European patent office Esp@cenet engine covering the following combined search terms: CMC, MW-
+CVI, etc. The most relevant patents identified are reported in Table 1. 6. It reflects most relevant patents in our main innovation 
+areas highlighting differences with CEM-WAVE. The prior art is rich but there is space for further innovating beyond the state of 
+the art that could be patented. The below mentioned patents will be taken into account during the project in two different wa ys: 
+Using some of them and evaluate their applicability in the optimization of some approaches of our proposal; Improving and 
+overcoming some of them as a result of the success of the CEM-WAVE project. 
+Table 1.6 - Results of the patent search focused on the main innovation area of the novel IP considered to be generated in CEM-WAVE 
+Project Name, approach and technology Differences versus CEM-WAVE 
+C³HARME (Next Generation Ceramic Composites for 
+Combustion Harsh Environments and Space) funded 
+under the H2020 NMP-19-2015 call. The main purpose of 
+C³HARME is the design, development, manufacturing and 
+testing of a new class of Ceramic Matrix Composites 
+based on ultra -high temperature ceramic matrices 
+reinforced with SiC or C fibers suitable for application in 
+severe aerospace environments. 
+ 
+The innovation proposed in CEM -WAVE is related to the 
+obtainment of high -performance CMCs capable of operating in 
+various extreme conditions (high temperatures, corrosive 
+environments, etc.). In fact, in a not so distant future, energy -
+intensive indu stries (e.g. steelmaking) will have to reduce CO 2 
+emissions, fossil fuels consumptions and waste production. As a 
+consequence, these industries will have to operate with new 
+mixtures of biogas/clean H 2 that will cause more operative 
+extreme and fluctuating conditions. The materials currently used 
+are not able to withstand future conditions. In CEM-WAVE, thanks 
+to the use of solid state microwave technology and new joining 
+techniques, by reducing the process time, it will be possible to 
+obtain high and impro ved performance CMCs with lower costs. 
+The lower costs will allow new market possibilities, widening the 
+use of CMCs in a large number of sectors. 
+SIMUTOOL funded under FP7 -SME (gran t agreement 
+number 286717) developed  a simulation platform for the 
+manufacturing of composites through microwave (MW) 
+heating. The simulation will include an electromagnetic 
+field coupled with heat transfer mechanisms that take 
+place during the production process. One of the major 
+outputs of the simulation platform has been the successful 
+design of a ceramic matrix composite tool with a MW 
+absorbing layer, in order to maximize the energy saving 
+potential of the MW heating process.  
+SIMUTOOL focuses on macro -scale modeling of laminates and 
+does not address the chemical vapor infi ltration technique. In 
+CEM-WAVE, in addition to modeling the electromagnetic reactor 
+cavity, one of the main innovations in terms of modelling activities 
+will be the AI -assisted modeling at both the micro and macro -
+scale level of the CMC obtained with the MW-CVI process. This 
+will allow obtain ing and predict ing the final properties of the 
+processed material. 
+ROLL-IT H2020-SME1 (Radically innovative technology 
+for efficient manufacturing of preforms for ceramic matric 
+composite (CMC) brake disks) aims to in dustrialize and 
+commercialize a fully automated additive manufacturing 
+techniques for shaping of near-to-shape preforms for CMC 
+brake disks. 
+Thanks to the technology that will be developed in CEM -WAVE, 
+it will be possible to obtain high -performance CMCs, e ven in 
+complex shapes, assembled thanks to the new joining techniques 
+that will also bring to an overall cost reduction of the CMC pieces. 
+Patent Description CEM-WAVE differences 
+US2020024200 (A1)  
+-  Ceramic Composite 
+Materials and 
+Methods 
+Methods of making ceramic matrix composite 
+materials are provided. The techniques include 
+infiltrating a carbon nanoscale fiber network with a 
+ceramic precursor, curing the ceramic precursor, 
+and/or pyrolyzing the ceramic precursor. The 
+infiltrating, curing, and pyrolyzing steps may be 
+repeated one or more times. Composite materials 
+also are provided that include a  ceramic material 
+and carbon nanoscale fibers. 
+Although CEM-WAVE also uses precursors for 
+the CMC production, there is a fundamental 
+novelty in the heating process that leads to the 
+formation of SiC. Thanks to the use of the new 
+solid-state microwave techn ology, it will be 
+possible to obtain an enhanced heating of the 
+material and therefore a greater reaction 
+efficiency. Furthermore, there is an energy cost 
+CEM-WAVE   
+ 23 
+2 Impacts

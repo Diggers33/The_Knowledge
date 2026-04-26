@@ -1,0 +1,503 @@
+1.4 Ambition 
+The alternative approaches and limitations vs. OLEDSOLAR competitive advantage is detailed in table below: 
+Table 3: Competitive comparison of OLEDSOLAR with other techniques for targeted devices 
+Devices issues Limitations of alternate devices and processes  
+OLED: OLED suppliers claim the technology 
+offers far more colours, brightness and contrast 
+with less motion blur than LCD, especially 
+against cheaper LCD models 
+LCD/Plasma: Limits in brilliance, resolution and colour 
+ranges due to their inherent structures and physical 
+processes of displaying images. 
+OLED: Power and luminescent efficiency are 
+higher as OLEDs do not use light from a 
+backplane backlight (the transmissive mode) but 
+from the polymer (emissive mode).  
+LCD/Plasma: Power requirements that are difficult to 
+reduce further, owing to the need for a backlight for LCD, 
+despite the move to large LEDs, or physical discharge for 
+plasma 
+OLED: Inherent physical properties of polymers 
+enable flexib le displays to be made and this 
+widens the applications base enormously. 
+LCD/Plasma: The mainstream technologies in LCD and 
+plasma do not produce flexible types of displays. 
+OLED: The display’s weight can be lower as 
+there is no backlight and the whole unit can also 
+be made thinner, of the order of a few millimetres 
+thick. 
+LCD/Plasma: Weights that are difficult to reduce further 
+because of the need for complex substrates 
+and backlighting planes. 
+OPV: Emerging photovoltaic cells are made 
+from an assortme nt of inexpensive materials, 
+including organic polymers, small molecules, 
+and various types of inorganic compounds, 
+which can be fabricated on flexible supports via 
+inexpensive solution -phase techniques such as 
+high-speed roll-to-roll printing. 
+Silicon solar cell: Because silicon does not absorb sunlight 
+strongly, silicon cells contain a relatively thick layer of 
+silicon, which is brittle and therefore must be supported on 
+a rigid, heavy piece of glass, adding cost and limiting 
+applications. 
+OPV: Low-temperature manufacture enables 
+plastic or virtually any smooth support layer to 
+be used 
+Silicon solar cell: High temperature during fabrication 
+requires metal or glass support layer. 
+                                                 
+22 COM(2010) 491 final. 
+
+ 
+33 
+OLEDSOLAR  
+OPV: Solar cells are lightweight, flexible and 
+rugged 
+Silicon solar cell: Solar cells are heavy, rigid and fragile  
+OPV: Solar cells can be any color and semi -
+transparent 
+Silicon solar cell: Solar cells are black or blue 
+Thin-film encapsulation (CVD):  We will be 
+looking at integrate Atomic Layer Deposition 
+process into R2R CIGS photovoltaics production 
+sequence for complete protection of cells against 
+humidity; 
+ 
+ 
+-CVD has no inherent control of the film thickness using 
+surface chemistry 
+-CVD can reach a limited degree of control only by 
+extremely careful control of reaction time, reactant 
+exposure and reaction temperature 
+-CVD does not deposit conformally; rather deposition is 
+determined by reactant flux 
+-Reactants may react in the gas phase during CVD; 
+consequently, particles may deposit on the surface resulting 
+in a granular, nonconformal film 
+OLESOLAR Solution 
+benefits 
+ 
+For roll -to-roll production of these components, the correlation between all 
+parameters (materials, production, inspection) and the final device performance needs 
+to be determined as early as possible. For instance, the performance of organic solar 
+cells and organic LEDs is highly dependent on the thicknesses of the constituent layer 
+materials composing the device. The lack of accurate information about the thickness 
+of the thin films would prevent the detection of components that not perform well 
+against design specifications. Without real-time thin film thickness measurements, or 
+continuous yield monitoring directly integrated in the production line, the capacity of 
+optimizing the production process becomes very limited and costly. 
+Benefits to industry  
+ 
+OLED – Industrial application (automotive) (opto-electrical part): 
+Energy savings/Fuel efficiency: As OLED light uses less power compared to LEDs 
+and other lighting solutions, the low-power usage will be the most attractive feature 
+to car-makers and owners. Moreover, the low-weight OLED light panels will bring 
+energy savings and increase fuel efficiency. 
+Design flexibility: OLED light panels are also non-glaring, which means reflectors, 
+light guides or similar optical components are not required. A thin (0.8mm - 1.5mm) 
+OLED lighting strip stretched across any of the aerodynamically optimised surfaces 
+could open a number of exciting new options. This will expand the design 
+possibilities of car lights and provide design freedom to designers.  
+Luminance quality: The uniformity of light output from an OLED panel is also 
+advantageous as it will reduce the need for reflectors, which are necessary with 
+other lighting techniques. Ultimately, automotive OLED lights printed on 
+transparent plastics could also be fitted to the windows of cars too. On the other 
+side, OLED light offers totally uniform, smooth and visually comfortable light with 
+low-glare and low-shadow features. These characteristics of OLED light reduce eye 
+fatigue and let people comfortably enjoy the light; 
+OPV (opto-electrical part):  
+Thin film photovoltaic cells based on solution processable organic semiconductors 
+have attracted remarkable interest as a possible alternative to conventional, 
+inorganic photovoltaic technologies. The following key advantages of organic 
+photovoltaic (OPV) devices have been identified: Low weight and flexibility of the 
+PV modules; Semitransparency; easy integration into other products; new market 
+opportunities, e.g. wearable PV; significantly lower manufacturing costs compared 
+to conventional inorganic technologies; Manufacturing of OPV in a continuous 
+process using state of the art printing tools; Short energy payback times and low 
+environmental impact during manufacturing and operations23. 
+State of the art spatial ALD 
+                                                 
+23 Efficiency of bulk-heterojunction organic solar cells 
+ 
+34 
+OLEDSOLAR  
+The first example of application of spatial ALD process has been the adoption of an Al 2O3 layer as backside 
+passivation film in crystalline silicon solar cell.  Two companies, Levitech and SoLayTec  focus on this technology 
+to meet the industrial requirement of processing 3000 wafers/h, are currently selling commercial spatial ALD tools.1–
+3 Flexible electronics such as light emitting diodes (OLED) as well as thin film photovoltaics are moving from the 
+lab scale towards the production, and several challenges are still to be tackled. Most of the materials used in these  
+devices are sensitive to O2 and H2O, and therefore encapsulation strategies which are economically viable, compatible 
+with high-throughput and low cost deposition methods on large area are strictly required. For OLEDs, water vapor 
+transmission rates (WVTRs) as low as 10-6 g·m-2·day-1are typically needed. For thin film photo-voltaic modules the 
+WVTR  is expected to be less stringent (depending on type of by one or two orders of magnitude) but still far beyond 
+the simple polymer encapsulation foils (1 g·m-2·day-1). Conventional solutions such as glass-glass encapsulation are 
+not compatible with flexible PV applications, and suffer from relative 
+high weight. ALD layers such as Al2O3, multilayer stacks of Al2O3/TiO2, 
+combination of inorganic/organic layers have been already proven in lab 
+scale as valid solution with excellent WVTR values. 4–10 Spatial ALD 
+approach combined with a roll to roll (R2R) line can potentially meet the 
+requirement of high throughput low cost barrier/encapsulation.  
+Spatial ALD Al 2O3 50 nm thick film has been deposited on glass 
+substrates of an industrially relevant size (370 × 470 mm 2). The film 
+exhibits a WVTR below the detection limit of the MOCON test (3 x 10-3 
+g·m-2·day-1 at 20°C/50 %RH).11 Spatial ALD Al2O3 and SnO2 have been 
+demonstrated on a lab scale test as valid gas permeation barrier using 
+oxygen plasma (PE -s-ALD) as oxidative source instead of  the 
+conventional water vapour. A 100nm thick Al 2O3 layer deposited at 150 
+°C exhibits  a WVTR of  5 x 10-5 g·m-2·day-1 (at 60°C/60 %RH, and of 
+2 x 10-4 g·m-2·day-1 (at 60°C/60 %RH) when the deposited at 100C.12 In 
+the case of 110 nm SnO 2 a value of 7 x 10 -4 g·m-2·day-1 (at 60°C/60 
+%RH) has been measured for the SnO2 deposited at 150 °C, but one order of magnitude in WVTR has been achieved 
+using a lower temperature (100 °C).13 
+TNO already tested  spatia l ALD layers on the own R2R pilot line. Depositing only 20 nm of Al 2O3 by roll to roll 
+atmospheric pressure spatial ALD on PET foil ( 30cm x 2m ) without any pretreatment and/or planarization layer, 
+drastically improves the WVTR value up to 2 x 10 -5 g·m-2·day-1 (at 20°C/50 %RH) and 4 x 10 -4 g·m-2·day-1 (at 
+60°C/90 %RH). Still improvements can be achieved developing “ad hoc” solutions/strategies.  
+Al2O3 layer has been successfully deposited also in the large area S2S-ALD tool, with an impressive uniformity (less 
+than 0.5% relative thickness) over the entire glass plate (deposition area of 300 x 300 mm). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Furthermore, the same Al 2O3 layer has been adopted as inorganic layer in the thin film encapsulation approach on 
+flexible PET foil. This strategy, has been developed using plasma enhanced chemical vapour deposited (PECVD) 
+SiNx layer in combination with organic printed layers. The th in film encapsulation which include large area Al 2O3 
+spatial ALD layer in alternative to the PECVD SiNx, exhibited no visible degradation after more than 1100 hrs 
+of test at 60 oC / 90 % RH, which corresponds to an equivalent time of 2.5 years at ambient conditions. 
+Next to the barrier layers required for the OLED and solar cells, in the field of thin film photovoltaics, spatial ALD 
+technique can be adopted to deposit functional layers in the device architectures. TNO developed a low temperature 
+zinc oxysulfide (Zn (O,S)) process which has been used to fabricate an efficient buffer layer in cadmium-free CIGS 
+device. By co-injecting the vaporized H 2O and H 2S gas in the same deposition zone a low temperature (120 °C) 
+buffer layer has been implemented on the CIGS stack, exhibiting similar performance with respect to CIGS device 
+Figure 48 Example of Al2O3 deposited on large area S2S s-ALD reactor tool (on the left) 
+and the thickness uniformity over the glass plate (on the right). 
+Figure 47 Water vapour transmission rate 
+(WVTR) as a function of Al2O3 film 
+deposited via roll to roll atmospheric pressure 
+spatial ALD on PET foil. 
+ 
+35 
+OLEDSOLAR  
+including the traditional chemical bath deposited CdS. The result proves the viability of spatial ALD as a new 
+manufacturing technique to deposit and engineer functional layers in thin fi lm solar cells. The low temperature 
+enabled  the application of the Zn(O,S) buffer layer on the roll-to-roll spatial ALD tool for flexible CIGS solar cells. 
+Progress beyond the state of the art 
+The results with lab-scale tools and large area deposition prototypes demonstrate that atmospheric spatial ALD layer 
+is a promising technique to deposit barrier layers, as well as functional films for PV devices. However, several aspects 
+in the parameters processing requires further investigations, improvements and o ther solutions can be explored. At 
+the same time, it is necessary to evaluate the deposition yield, potentially in situ diagnostic, control of the coating, 
+and the particle number which is detrimental to obtain pinhole free films. 
+It is necessary to identify the lowest requirements in terms of temperature and speed deposition in correlation with 
+the barrier properties in order to upscale the process for mass production.  While reducing the thermal budget of the 
+s-ALD processes generally lower the quality barrier properties, alternative approaches to the single Al2O3 film such 
+as nanolaminate, precursor mixing, introduction of organic layer (MLD), as well as use of atmospheric plasma 
+technology might be a viable route to provide even better performance in terms of WVTR barrier properties. Being 
+the barrier applied for flexible and potentially even rolled applications, the barrier needs to withstand mechanical 
+stress without failures.   
+On the R2R -ALD prototype tool at TNO, barrier deposition is without p lasma enhancement. Potential steps in 
+OLEDSOLAR to enlarge capabilities for this or the envisaged bench (at Smit Thermal Solutions) are, to achieve in 
+cooperation with metrology partners: 
+ Enlarge range of coating options beyond current one of Al2O3 and TiO2 
+ Development of R2R-ALD test bench with plasma enhanced deposition  
+ Particle controls 
+ Integration with pre/post processing (e.g. application of planarization/protection polymer coatings)  
+ In-line inspection of coatings such as ellipsometry, Raman, PL for automatic adjustment of process settings (for 
+enhanced process control) 
+ Re-cycling of gasses, exhausts, excess of precursors “ 
+ In-line inspection process state of the art and progress beyond state of the art: 
+State of the art:  
+A number of monitoring techniques exist when it comes to characterizing structures during the inspection and quality 
+control in R2R environment for organic solar cells & OLED displays; in the nano - and micro-metre ranges, which 
+have been utilised in the de velopment of the LIPSS fabrication technique, including SEM (scanning electron 
+microscopy) and AFM (atomic force microscopy) 24,25. Fourier transform analysis of the SEM images have been used 
+to quantify the periodicity of the structures.  This approach enab les a global value of spatial period to be quickly 
+calculated, rather than estimating line thickness and spacings line by line, and generating a mean value, which is a 
+more laborious process. 
+However, most commonly used techniques at this dimensional scale  are in fact implemented off line and require 
+sample preparation, Optical techniques offer the best opportunity for inline process monitoring, as they are non -
+contact, non-destructive and can be applied to samples as they are without pre -treatment.  Accord ing to a recent 
+review paper by IRIS 26, selected combined optical technologies, such as diffractometry, but also ellipsometry and 
+spectral reflectance provide the opportunity for inline measurement of the thicknesses of nanostructured layers. 
+White light Interferometry: An inline spectral reflectance system was developed in the THIME project27 to measure 
+Organic PV films.  White light interferometry has been developed into an inline system by Dr Schwab28 for measuring 
+the thickness of spacer and cover layers of Blu-Ray discs, but can also be applied to measure the surface topography 
+of reflective materials.  However, while this system measures topography with a high level of accuracy (<100nm), 
+it’s lateral resolution is limited to 10s of micrometres.  An inline  system has been developed by Nanometrics 29 
+employing spectral reflectometry in single point scanning arrangement, which enables lateral critical dimension 
+measurement with greater accuracy, but still diffraction limited to the spot size of around 1 micrometre. 
+                                                 
+24 A. Rodriguez, M.C. Morant.Minana, A. Dias-Ponte, A. Martinez-Calderon, M. Gomez-Aranzadi, S.M. Olaizola, Femtosecond laser-induced periodic surface 
+nanostructuring of sputtered platinum thin films, Applied Surface Science 351 (2015) 135-139 
+25 A. Martinez-Calderon, A. Rodriguez, A. Dias -Ponte, M.C. Morant.Minana, M. Gomez -Aranzadi, S.M. Olaizola, Femtosecond laser fabrication of highly 
+hydrophobic tainless steel surface with hierarchical structures fabricated by combining ordred microstructures and LIPSS, Applied Surface Science 374 (2016) 
+81-89 
+26 E. Bugnicourt, T. Kehoe , M. Latorre, C. Serrano, S. Philippe and M. Schmid, Recent Prospects in the Inline Monitoring of Nanocomposites and Nanocoatings 
+by Optical Technologies, Nanomaterials 2016, Review, 6(8), 150; doi:10.3390/nano6080150 
+27 THIME, Thinfilm measurements on organic photovoltaic (OPV) layers; FP7Grant Agreement no: 315665; 2012 -2014 
+28 dr. schwab GmbH, IQPC – Integrated Quality and Process Control. http://www.schwabinspection.com/index.php?puid=1&pageid=39  
+29 Nanometrics Impulse, http://www.nanometrics.com/products/IMPULSE.html  
+ 
+36 
+OLEDSOLAR  
+Scatterometry: It is possible to obtain higher resolution in lateral dimension measurements using optical techniques 
+based on scatterometery and diffractometry, which can be applied to periodic structures of the type being developed 
+in OLEDSOLAR.  Sca tterometry uses the instrumentation of a spectroscopic ellipsometer, along with complex 
+mathematical modelling30 and is widely used in the microelectronics industry, for example the Nanometrics Atlas31, 
+and the Nova T60032. However, the complex instrumentation and high-power data processing required mean that the 
+technique has not been applied inline. Coherent Fourier Scatterometry, has been developed to exploit the smaller spot 
+size that is possible using laser light, but is currently not deployed inline33. 
+Diffractometry: Diffractometry using multiple diffraction orders imaged in the far-field is a versatile technique that 
+has potential to provide comprehensive information regarding the 3 dimensional features of textured samples. 
+Furthermore, when combined wit h different light source, it covers a broad resolution range: UV light can detect 
+structures with period in the few hundreds nm range, whereas cost competitive blue laser can be used for structures 
+with period between 500 and 700 nm. It has been effectively implemented in several versions for characterising the 
+quality of the grooves in DVD and Blu-Ray discs, for example dr. schwab DOMS34, and Singulus Mastering B.V.35 
+However the optical system is quite complex and so it hasn’t been employed in an inline configuration. 
+Confocal Microscopy: may be used to obtain spatial resolution below the diffraction limit with resolution of 0.09um 
+reported36, however once again it is not implemented inline. 
+Another salient feature of this technique is that it provides an image of the surface structure, from which specific, 
+local dimensions can be calculated, whereas for the current technology under development, it is desirable to obtain a 
+general overview of the shape and common dimensions repeated in the periodic pattern,  especially where the sizes 
+of individual lines can very over a range.  For this reason, it is more effective to employ a metrology that makes use 
+of the structure periodicity, such as diffractometry or scatterometery, and provides a description of key fea tures, 
+including height, width, sidewall slope and symmetry.  Diffractometry is the more attractive option of these two for 
+inline process monitoring since it can provide simple information quickly with less data processing. 
+Inline inspection of a huge variety sample parameter of interest ends their spatial distribution. Common technologies 
+for the evaluation of barrier performance are extremely time consuming. Reliable measurements of the WVTR of 
+ultra-barrier webs using diode laser spectroscopy (HiBarSens®) need days or some weeks (10-6 g m-2 d-1). Totally new 
+concepts based on HSI are just demonstrated for a fast prediction of the performance of barrier webs (in the range of 
+10-2 g m-2 d-1) with sufficient accuracy.37 
+Progress beyond the State of the art: 
+The challenge to progress beyond the state of the art will be to effectively implement diffractometry for inline process 
+monitoring.  This will require the design of compact, high numerical aperture optics to capture the maximum number 
+of orders possible.  Similar optical systems have been used to apply sub-wavelength optical diffraction metrology38,39 
+to charactrise structures as small as 50nm in periodic patterns. 
+As such, IRIS will start by calibrating the system on parts of known geometries with several p atterns required for 
+obtaining the effects for each application. Variations of the basic system may be developed, having adjusted light 
+sources and optics to the resolution and spot size needed, and for compatibility with flat surfaces, used in OLED and 
+OPV industries.  These will be integrated in the related production lines to provide dimensional information on the 
+structures in real time. Resulting data can be used to feed the processing models where appropriate.  
+The transfer of the lab -scale approach of HSI based barrier evaluation to a continuous inline evaluation of barrier 
+webs is highly ambition. Beside the hardware implementation (camera, lighting) the development of reliable robust 
+prediction models (based on combination of deep learning algorithm s and imaging processing) are extremely 
+challenging. It should also be noted that the approach has to be developed and tested for ultra-barrier webs (10-4 g m-2 
+d-1 and better) with corresponding ground truth measurements. The inline HSI implementation will be accompanied 
+with large area calcium mirror tests and large area OLED coatings on to be evaluated barrier films in roll -to-roll 
+fabrication. The direct correlation of the device degradation behaviour and OLED lifetime performance from classical 
+storage climate chamber will be applied as an input for the inline HSI algorithm. Yield and device reliability relevant 
+                                                 
+30 http://www.dfm.dtu.dk/index.php?id=309&L=-1%27 
+31 Nanometrics Atlas, http://www.nanometrics.com/products/atlas-II.html 
+32 Nova T600, http://www.novameasuring.com/t600.html 
+33 S.Roy, A.C. Assafrao, S.F. Pereira, H.P. Urbach, Coherent Fourier Scatterometry for detection of nanometer -sized particles on a planar substrate surface, Optics Express 22 (2014) 
+13251 
+34 Dr. schwab DOMS XE-blu, http://www.schwabinspection.com/index/dr.schwab+Inspection+Technology/DOMS+Optical+Disc+V2.html 
+35 http://www.singulus.com/en/innovative-technology/surface-engineering/crystalline.html 
+36 Sensofar S Line, http://www.sensofar.com/metrology/sneox/ 
+37 P. Wollmann, F. Gruber, W. Grählert; „Anordnung zur Bestimmung der Permeationsrate einer Probe“, 2015, Patent, erteilt; 
+DE 10 2015 213 974; CT/EP2016/067019 
+38 Kehoe, Microelectronic Engineering, 86, 1036 (2009) 
+39 Silver, Appl. Opt., 46 (20), 4248 (2015).  - Kreuzer, Proc. SPIE 9424, 942426 (2015); Kreuzer, Proc. SPIE 9628, 96281Q (2015)-957 (2005) 
+ 
+37 
+OLEDSOLAR  
+issues caused by the barrier films substrate and top encapsulation will be carefully validated and in close r elation 
+with the HSI inspection system. 
+ 
+Progress beyond state of art in automation and control:  
+The challenge to progress beyond the state of the art will be to effectively implement smart sensors for inline 
+process monitoring and control them in closed loop. 
+ 
+These will be integrated in the related production lines to provide critical parameters information on the 
+components in real time. Resulting data can be used to feed the processing models where appropriate. 
+ 
+Thanks to the application of the novel inline monitoring system, OLEDSOLAR project will reduce the current 
+processing cost and time to achieve a cost-effective process, up scalable 
+to mass production.  
+State of the art and Progress beyond state of the art: (for recycling and re-use) 
+Optimisation and understanding of advanced products such as OLED and organic solar cell recycling requires deep 
+systemic knowledge and understanding of the physics -based link between product design, material applications, 
+potential reuse of components and combinations with the final treatment process technologies in the entire recycling 
+system or chain. Rapidly changing product design and product replacement poses challenges to physical recyclers to 
+have recycling technology keeping pace with rapidly changing product p roperties and material usage, which poses 
+different demands on sorting technology development and plant configuration in order to most optimally recover 
+materials40.Today, limited information is available on the internal reuse and recycling of components al ong the 
+manufacturing process of commercial photovoltaic panels already installed at European scale. However, all 
+photovoltaic modules available on the European market can be disposed of, notwithstanding the type of technology 
+used. Most parts of a solar module can be recycled, including glass, semiconductor materials, ferrous and non-ferrous 
+metals. The modules present on today’s market belong to two different categories, silicon and non -silicon based, 
+which determine the recycling process to be used41. 
+ For silicon-based modules, aluminium frames and junction boxes are dismantled manually at the beginning of 
+the process. The module is subsequently crushed, and its several components are separated, allowing recovering 
+up to 80% of the panel. 
+ Non-silicon-based panels require the use of diverse recycling technologies. Cadmium telluride (CdTe) panels 
+e.g. – a particularly common type – are first crushed into different fractions, much like non-silicon modules. But 
+they also use chemical baths to separate the various semiconductor materials, allowing for the recovery of 95% 
+such components. Recycling technologies for this type of panels have been widely increasing in recent years. 
+For copper indium selenide (CIS) and Copper indium gallium (di)selenide (CIGS) photovoltaic modules similar 
+chemical bath treatments apply. 
+Even different EU funded projects have been focused in the development of new OLED and flexible solar products 
+at pilot and semi-industrial scale (such as FLEXOLIGHTING, IMOLA or PI-SCALE) by using techniques such as 
+vacuum thermal evaporation and shadow masking, organic vapour phase deposition (OVPD), transfer - printing 
+and/or inkjet printing, the recyclability and reusability potential of novel OLED and flexible solar products, materials 
+and components will be tackled in OLEDSOLAR project by using an innovative approach aimed at (1) defining the 
+optimal reusability route for valuable wastes along the manufacturing process as well as (2) the evaluation and 
+selection of the most feasible recycling solution according to the industrial needs.   
+Innovation Potential:As an alternative to the current attempts to identify opto -electronics devices faults through 
+largely inefficient empirical and visual methods, OLEDSOLAR is based on the idea of mul ti-system reliability and 
+control theory: model -based process approach; however, the project clearly advances the state of the art by 
+introducing a series of new models, algorithms and technologies enabling the application to OLEDs and solar cells 
+development processes with a degree of complexity never handled before. This return to ‘basics’ or ‘first principles’ 
+approach, on regard to accurate measurement and control, coupled with the utmost knowledge and expertise of the 
+consortium on latest manufacturing , inspection, machine learning and automation technologies will enable 
+OLEDSOLAR to give a truly innovative response to a long, well established problem of our industry.In fact, 
+OLEDSOLAR will introduce radically new methodologies in the design and set up of control systems for 
+                                                 
+40 E. Worrell and M. A. Reuter (2014) Handbook of recycling. State -of-the-art for practitioners, analysts and scie ntists. ISBN: 
+978-0-12-396459-5. 
+41 http://www.solarwaste.eu/collection-and-recycling/ 
+ 
+38 
+OLEDSOLAR  
+manufacturing processes. If until now, control systems are specifically developed for each machine, by ad hoc trained 
+personnel, OLEDSOLAR will leverage the expertise of multidisciplinary consortium from the start of the 
+development. This will enable the introduction of new control concepts to target variables critical for production, 
+concepts which will be efficiently implemented through advanced techniques of automation and control, including 
+special optical measurements.Ultimately, this well enhance technological knowledge enabling a new framework of 
+relationships between customers and manufacturers, since system will be able to accurately program and schedule 
+the manufacturing operations to respond to the requirements, whereas the first will be able to rely that customer’s 
+expectations are met in good quality and time. This benefit will be invaluable within the framework of markets of 
+ever growing competitiveness (for instance, for automotive, healthcare, aerospace), in which normally, the handling 
+of inefficiencies during set up and production represent the border between failure and success.Hence, the successful 
+demonstration of the architecture in this multi -physics scenario will enable the OLEDSOLAR architecture to be 
+applied to other processes in the future aiding its penetration in our manufacturing market even further. 
+Relevant Projects Comparison: 
+Table 4: Relevant projects comparison with OLEDSOLAR approaches 
+Relevant Projects Differences vs. OLEDSOLAR 
+PI-SCALE (H2020)-Bringing flexible organic electronics 
+to pilot innovation scale -(PI-SCALE) is dedicated to 
+integrating existing European infrastructures into a 
+“European flexible OLED pilot line”, which will operate in 
+an open access mode and serve customers from along th e 
+value chain with individual product designs, validation of 
+upscaling concepts, and system -level flexible OLED 
+integration. 
+OLED specific activities in PI -SCALE project and 
+limited from inspection and metrology point of view, 
+where OLEDSOLAR solution will  provide 
+optimised processes, metrology and automation for 
+OLEDs (both rigid and flexible) within R2R and S2S 
+setup as well as for solar cells manufacturing. The 
+development activities from PI-Scale project will be 
+transferred and fed into OLEDSOLAR propos ed 
+activities. 
+CLEAN4YIELD (FP7)-Contamination and defect control 
+for increased yield for large scale R2R production of OPV 
+and OLED-The overall objective of Clean4Yield has been 
+the development and demonstration of technologies and 
+tools for nano -scale d etection, cleaning, prevention and 
+repair of defects and contaminations in nano -scale layers 
+within R2R production processes for OLED and OPV. 
+Inspection specific project activities with surface 
+defects detection, where OLEDSOLAR proposed 
+inspection system  will cover the manufacturing 
+chain considering interlayer inspection, correlations 
+of measurements and device level NDT. A hybrid 
+system will allow to monitor and inspect many 
+parameters allowing end user to reduce waste and 
+increase product yield. 
+Flex-o-Fab (FP7) -Pilot-scale hybrid roll to roll/sheet to 
+sheet manufacturing chain for flexible OLEDs-The overall 
+objective of the Flex-o-Fab project is the demonstration of 
+a reliable manufacturing process for OLED lighting foils 
+based on the manufacturing of glass-based bottom emissive 
+small molecule OLEDs and use these as a basis to develop 
+a pilot series manufacturing process for flexible OLEDs.  
+OLEDSOLAR is dedicated to OLED displays and 
+solar cells high yield production. The processes 
+proposed will also allow process reconfiguration 
+time reduction as well as significant recycling. The 
+project will b e built upon existing R2R and S2S 
+process steps at TRL4 and will develop TRL6 
+systems for final scale up and market transfer. 
+LOMID (H2020) - Large cost -effective OLED micro 
+displays and their applications -The project will define 
+pathways for the manufact uring of flexible OLED micro -
+displays with large area (16 mm x 20 mm, screen diagonal 
+of 25.4 mm) at yields (>65%). This will be achieved by 
+developing a robust silicon -based chip design allowing 
+high pixel counts (1024x1280 (SXGA)) and high spatial 
+resolution (pixel sizes of 10 µm x 10 µm corresponding to 
+2000 ppi).  
+Th proposed technologies in OLEDSOLAR will 
+allow manufacturing of large display OLEDs with 
+improved barrier performance, reduced permeation 
+and high quality and devices lifetime. 
+The proposed metrology systems proposed in project 
+will allow high level of product reliability and 
+quality as well. 
+FLEXOLIGHTING (H2020) - The flexo -lighting 
+programme is focussed on research and innovations on 
+materials, processes and device technology for OLED 
+lighting with the intention of building a supply chain within 
+Europe. The aim is to realise OLED devices over a large 
+area/surface with high brightness, high uniformity and 
+long-life time. A demonstrator will be built and delivered 
+at the end of the project.  
+OLEDSOLAR project is focused on production and 
+manufacturing processes and metrology systems that 
+will ultimately allow development of long -life 
+OLED devices and efficient solar cells. 
+The most critical steps in production and metrology 
+has been targeted i n the project with an impact on 
+yield, process reconfiguration time and recyclability. 
+ 
+39 
+OLEDSOLAR  
+Fast2Light (FP7)- High-throughput, large area and cost -
+effective OLED production technologies -The overall 
+objective of Fast2Light is to develop novel, cost-effective, 
+high-throughput, roll -to-roll, large area deposition 
+processes for fabricating light -emitting polymer -OLED 
+foils for intelligent lighting applications. The scope of the 
+project comprises all the layers that are part of an OLED 
+lighting foil. 
+OLEDSOLAR project offers a novel, cost-
+effective, high-throughput, roll-to-roll as well as 
+S2S, large area deposition processes for barrier 
+films for OLEDs, beside doing performance 
+analysis and qualification of barrier performance. 
+The scope of the project involves metrology, 
+inspection and quality assurance system for OLEDs 
+fabrication process as well. 
+Patent search: 
+The patent search has been carried out showing some of the relevant patents below: 
+ US20050172897A1-A method and apparatus is described using atomic layer deposition to form a barrier 
+layer onto a substrate. The coated substrate exhibits reduced permeation to oxygen and water vapor. 
+ US20110033957A1-nvention generally relate to systems, apparatuses, and methods used to form solar cell 
+devices using processing modules adapted to perform one or more processes in the formation of the solar 
+cell devices. 
+ US20080264477A1-Methods for manufacturing three-dimensional thin-film solar cells 
+ US20070227586A1-Detection and ablation of localized shunting defects in photovoltaics 
+ US20100197051A1-Metrology and inspection suite for a solar production line 
+ US20120103383A1-Photovoltaic Device and Method and System for Making Photovoltaic Device 
+ US6063995A-Recycling silicon photovoltaic modules 
+ US20050253142A1-Solar cell and its manufacturing method 
+ US20080251120A1-Thin Film Solar Cell and Manufacturing Method 
+ US5241482A-Monitoring system for automated assemblies 
+The analysis shows OLEDSOLAR proposed solutions are not in conflict allowing the freedm to operate, and also 
+innovative nature is proved considering not many integrated solutions are developed to achieve targeted performance 
+set in OLEDSOLAR. 
+ 
+2  Impact

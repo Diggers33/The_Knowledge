@@ -1,0 +1,339 @@
+3.2 Lipid extraction strategy  Report: low-polar solvent screening, solvent 
+consumption, recycling and emulsion mitigation 
+3 KIT R  
+(SEN) 
+M36
+4.1 Algae-specific HEFA -
+SPK conversion route 
+Report: C-product distribution, mechanisms for algal 
+HEFA-SPK route (>50% conversion) 
+4 UCA
+M 
+R 
+(SEN) 
+M24
+4.2 Chemical looping 
+system to reduce H2 
+Report: performance of the chemical looping for H 2 
+production from propane.  
+4 UCA
+M 
+R 
+(SEN) 
+M36
+4.3 Algae-specific HEFA -
+SPK purification 
+Report: c omposition and properties of fuels before 
+and after purification steps.  
+4 UCA
+M 
+R 
+(SEN) 
+M36
+4.4 Algal specific TCR -
+HDO conversion route 
+Report: mass and energy balance of the conversion 
+process and yield of hydrogenated product  
+4 UMS
+ICHT 
+R 
+(SEN) 
+ M36
+4.5 Algal specific TCR -
+HDO purification 
+Report: method development for purification of TCR-
+HDO oil to produce hydrocarbons for drop-in fuels. 
+4 UMS
+ICHT 
+R 
+(SEN) 
+M36
+5.1 Commercial scalability  
+assessment  
+Report: techno-economic assessment of the proposed 
+value chain for production of algal SAF 
+5 UCD R(PU) M36
+5.2 Environmental and 
+social impacts 
+Report: the well-to-tank environmental and social 
+impact assessment of algal SAF (LCA, S-LCA) 
+5 SFS R(PU) M48
+6.1 Production of biomass 
+using pilot facility 
+Report: the performance and resource needs for pilot-
+scale production of microalgae biomass. 
+6 BIAE R(PU) M42
+6.2 Production of protein, 
+lipids and residue using 
+pilot facility  
+Report: the performance and resource requirements 
+of pilot-scale production of microalgae lipids and by-
+products  
+6 UCD R(PU) M44
+6.3 Production of fuel using 
+pilot facilities  
+Report: P roduction of algal HEFA -SPK and TCR -
+HDO fuels, assessment of quality (ASTM standards). 
+6 UCA
+M 
+R(PU) M48
+6.4 Digital twin simulations Report: development and performance of digital twin  6 Iris R(PU) M48
+7.1 DEC Master Plan Provides overarching strategy on communication, 
+dissemination, and exploitation activities 
+7 ESCI R(PU) M6,  
+M20
+7.2 Best Practices of DEC  Report: key DEC activities of Month 0-18. 7 ESCI R(PU) M18
+7.3  Technical Brochure Provide overview of project results  7 UCD R(PU) M48
+7.4 Commercialisation plan Comprehensive commercialisation / research 
+exploitation plan for project results 
+7 UCD R(PU) M48 
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+43 
+Table 3.1d: List of Milestones 
+Table 3.1e: Critical Risks for Implementation #@RSK-MGT-RM@# 
+Description of Risk WP Risk Mitigation Measures  
+Task 1.1: Digestate was found to be toxic for 
+microalgae. Likelihood: low, severity: medium 
+1 After identification of toxic compounds, strategies to 
+reduce toxicity will be used (e.g. fed-batch feeding). 
+Task 1.4: Slow rate of CO2 delivery into microalgae 
+culture by the membrane carbonation system. 
+1 Operating pH of microalgae culture to be optimised to 
+drive the forward equilibrium of CO2 dissolution. Light 
+intensity to be optimised to maximise photosynthesis. 
+Task 2.1: Algae create a fouling layer of “kamikaze” 
+cells that block any harmful light. Likelihood: high, 
+severity: high 
+2 Effective probe design utilising multiple spectroscopic 
+methods. 
+Task 2.3: Plating medium favours another class of 
+bacteria compared to liquid medium. Likelihood: 
+medium, severity: medium. 
+2 16S rDNA will also be conducted on the liquid media 
+and alternative plating media will be proposed. 
+Task 3.1: Different species exhibiting varying degree 
+of cell-wall weakening during autolytic incubation. 
+Likelihood: medium, severity: low.  
+3 Conditions for autolytic incubation will be made more 
+extreme to induce cell-wall weakening (e.g. longer 
+incubation time, N2 sparging) 
+Task 3.2: Stirring forms emulsions resulting in 
+significant solvent loss (<95% solvent recovery 
+target). Likelihood: low, severity: medium 
+3 Milder mixing technologies and other techniques to 
+minimize solvent trapping (e.g. pH adjustment) will be 
+simultaneously investigated and combined.   
+Task 4.1: Low yield of suitable hydrocarbon chains 
+from HEFA-SPK reactions with algal lipids. 
+Likelihood: medium, severity: medium  
+4 Multiple strategies in hydrotreatment steps, using 
+separate hydrodeoxygenation, isomerisation, cracking 
+catalysts, and catalysts will be pursued. 
+Task 4.2:  Unsuccessful integration of HEFA-SPK 
+with H2 production. Likelihood: low, severity: 
+medium. 
+4 Separate the two subprocesses to produce SPK, propane 
+and H2 independently; this will still allow the new route 
+to be more self-sufficient. 
+Task 4.3:  Algae TCR oil leads to low-quality fuel. 
+Likelihood: medium, severity: medium 
+4 A more drastic set of temperature and pressure to be 
+applied during hydrotreatment. 
+Task 4.4: Purification steps are too complex and 
+costly.  Likelihood: low, severity: high. 
+4 Change the hydrotreatment steps in Task 4.1 to minimise 
+purification requirements. 
+Task 5.2:  Lack of accurate available data for each 
+stage of life cycle, particularly from real world SAF 
+manufacturing facilities (due to limited access to 
+commercial-scale plant or IP restrictions). 
+Likelihood: medium, severity: low 
+5 SFS is currently partnered with the leading global SAF 
+development company SkyNRG conducting a feasibility 
+study for commercial scale SAF manufacturing in Ireland, 
+providing direct access to accurate data in SAF 
+manufacturing. 
+Task 5.2: Project carrying out activities which are not 
+in-line with the RSB Certification. Likelihood: 
+medium, severity: low.  
+5 Task 5.2 will start in M1 so help align project activities 
+with RSB EU RED Certification standards from project 
+commencement.
+7.5 RSB EU RED Fuel 
+Certification 
+Attain the RSBs EU RED Certification to achieve 
+internationally recognised sustainability standards  
+7 SFS R(PU) M48
+7.6 Policy advice White paper promoting algae SAFs in the EU 7 SFS R(PU) M48
+8.1 Data Management Plan 
+(DMP) 
+A FAIR-compliant plan on how to collect, store and 
+share data/research outputs 
+8 UCD R(PU) M6 
+No. Milestone Name WP Due 
+Date   
+Verification
+1.1 Digestate-based culture media formulated for autotrophic growth 1 M6 Method running
+1.2 Build and operation of membrane system for CO2 delivery 1 M12 > 90% CUE
+3.1 Demonstration of autolytic cell disruption  3 M12 <1 MJ/kg biomass
+3.2 Demonstration of wet processing pathway for recovery of lipids 3 M24 <3.5L/kg biomass
+4.1 Efficient HEFA-SPK catalysts and process configurations  4 M12 >50% conversion
+4.2 High conversion of propane and H 2 production corresponding to 
+>90% of attainable FeO to Fe3O4 conversion. 
+4 M24 Method running
+4.3 Minimal combination of required purification steps to reach 
+properties and proxy indicators for ASTM quality standards. 
+4 M30 Method running
+4.4 Process for conversion of algae to TCR crude oil to hydrogenated oil  4 M22 Method running
+4.5 Kerosene fraction from hydrogenated algae oil 4 M30 Method running
+5.1 Accurate Life Cycle Inventory 5 M22 Method running
+6.1 Design of pilot plant completed  6 M27 Method running
+6.2 Build of pilot plant completed on AD site 6 M36 Infrastructure
+6.3 Production of wet microalgae slurry using selected species and 
+optimum cultivation strategies  
+6 M42 ca. 5 kg biomass
+6.4 Production of microalgal lipids using optimum biorefinery  6 M44 >1 kg lipid
+6.5 Production of 1 kg of microalgal HEFA -SPK and a minimum of 1 
+kg of microalgal TCR-HDO oil using optimum conversion systems 
+6 M46 >1kg HEFA and 1kg 
+TCR-HDO 
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+44 
+Task 6.1: Delay in the construction and build of 
+pilot-scale cultivation and biorefinery facility. 
+Likelihood: medium, severity: high.  
+6 A4F will recommend other workshops from their 
+network for the build of photobioreactor. UCD will 
+source equipment from other suppliers.  
+Task 6.2: Malfunctions in pilot facility delay lipid 
+production. Likelihood; low, severity: high.  
+6 Prioritise repair before proceeding with WP. In the 
+interim, purchase biomass from commercial suppliers.  
+Task 6.3:  Scaled up production cannot reach the 
+target 1 kg output of HEFA-SPKA. 
+6 Extend operational duration of pilot-scale facility in 
+Task 6.2. Alternatively, purchase external biomass  
+#§RSK-MGT-RM§# 
+Table 3.1f: Summary of Staff Effort (in person months)  
+Table 3.1g: ‘Subcontracting Cost’ Items 
+Table 3.1h: ‘Purchase Cost’ Items 
+Table 3.1i: ‘Other Costs Categories’ Items   
+#§QUA-LIT-QL§# #§WRK-PLA-WP§# 
+ WP1 WP2 WP3 WP4 WP5 WP6 WP7 WP8 Total per 
+partner 
+UCD   18 18 24 0 12 24 4 20 120.0 
+A4F 21 0 1 0 2 40 4 2 70.0 
+BIAE 0.5 0 0 0 0 9 0 0.5 10.0 
+IRIS 0 24 0 0 0 24 1 1 50.0 
+KIT 0 0 38 0 0 0 2 1 41.0 
+UCAM 0 0 0 49.7 0 49.7 0.7 0.7 100.8 
+UMSICHT 0 0 0 21 0 6.8 0.5 1 29.3 
+SFS 0 0 0 0 24 0 10 1 35.0 
+ESCI 0 0 0 0 0 0 24.5 2.5 27.0 
+Total per WP 39.5 42.0 63.0 70.7 38.0 154.0 46.7 29.7 483.1 
+Item Cost (€) Description of Tasks and Justification 
+Partner 9/SFS  
+Policy cross check 5,000 WP5, Task 5.2: Third party audit/verification of LCA 
+Item Cost (€) Justification 
+Partner 1/UCD 
+Goods & services 113,922 Purchase of materials, build, & assembly of pilot-scale biorefinery at BIAE site in 
+Kilshane, I E (€70k), purchase consumables for experiments and pilot -facility 
+operation (€40k) (WP1-3, 6), audit (€3,922). 
+Remaining Costs 74,800 Total Purchase Costs: €188,722 
+Partner 2/A4F 
+Travel, subsistence 22,000 Multiple travels to pilot-scale demo site by A4F’s team (PT - IE) (WP6) 
+Goods & services 66,500 Consumables (€48,500) (WP1,WP6), ‘Solidwork’ software (€18,000) (WP6) 
+Remaining Costs 31,500 Total Purchase Costs: €120,000 
+Partner 3/BIAE 
+Goods & services 281,000 Purchase of materials, service cost to build & assembly pilot -scale cultivation 
+system (1,000L photobioreactor, centrifuge, feeding system) at BIAE site, Kilshane, 
+IE (WP6), based on A4F estimate.  
+Remaining Costs  4,000 Total Purchase Costs: €285,000 
+Partner 4/IRIS 
+Goods & services 80,000 Purchase of optomechanical components for spectroscopy analysers (WP2) 
+Remaining Costs 28,000 Total Purchase Costs: €108,000 
+Partner 6/UCAM 
+Travel, subsistence 25,000 Travel and conference at ca. €2,000/person/year for 3 persons (WP4, 6, 7) 
+Goods & services 78,000 Modification of HEFA-SPK rigs for high -pressure H2 delivery (€45k), production 
+of multiple batches of catalysts for bench and pilot experiments (€33k) (WP4, WP6)  
+Remaining Costs  32,800 Total Purchase Costs: €135,800 
+Partner 7/UMSICHT 
+Goods & services 81,000 Purchase of catalysts (€51,000) (WP4, WP6) , an alysis of TCR-HDO products: 
+(€20,000) (WP6), adaptation of TCR rig for algae (€10,000) (WP4, WP6)  
+Remaining Costs 27,000 Total Purchase Costs: €108,000 
+Partner 9/ESCI 
+Travel, subsistence 11,700 Travel of camera crew for video production (WP7) 
+Goods & services 6,000 Room hire/catering for final conference (WP7) 
+Remaining Costs 28,000 Total Purchase Costs: €45,700 
+ Cost (€) Justification 
+Partner 1/UCD 
+Internally invoiced 
+goods and services 
+16,000 Access cost to shared high-spec facilities at UCD for digestate, biomass and 
+culture analysis, e.g. ICP, HPLC, GC, flow cytometer.  
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+45
+3.2 Capacity of Participants and Consortium as a Whole #@CON-SOR-CS@# #@PRJ-MGT-PM@#          
+SusAlgaeFuel will foster an international, multidisciplinary and multisectoral partnership between three universities, 
+one research organisation, and five SMEs across five European countries (Ireland, Germany, Spain, Portugal, UK) 
+(Figure 3.2a), with inclusion of relevant industry stakeholders providing direct pathways to commercialisation. The 
+consortium also counts on the participation of Boeing and CityJet in its Advisory Board. 
+University College Dublin (UCD) is Ireland’s largest university with 
+a global research portfolio in sustainability and circular bioeconomy. 
+UCD has dedicated research support units for administration, finance, 
+legal, HR, ethics, and IP managemen t (NovaUCD), all of which will 
+be availed for SusAlgaeFuel. Dr. Halim’s Group  is currently leading 
+several projects to harness the power of microalgae in valorising waste 
+products from agri -food sectors (dairy processing, brewery and AD 
+operation). The  flow cytometer methods described in WP2 and  
+autolytic incubation proposed in WP3 have been directly derived from 
+the group’s findings. The Halim Group will transfer their technical 
+know-hows in microalgae wastewater treatment, bacterial analysis and 
+biorefinery processing to WPs1-3, WP6. The Group has access to core 
+infrastructure in microscopy, flow cytometr y, chromatography. Dr. 
+Syron’s Group has e xpertise in upscaling research for commercial 
+deployment through the spin-out OxyMem. They will apply t his 
+knowledge to process integration in WP5.  
+ALGAFUEL SA ( A4F), Portugal, is a bioengineering company with over 20 years of experience in the Design, 
+Build, Operation and Transfer (DBOT) of microalgae biotechnology. A4F  has an extensive  track record in 
+microalgae, including the installation of the largest tubular photobioreactor units in Europe and successful 
+coordination of FP7 & H2020 projects in microalgae biofuels (e.g. BIOFAT). A4F will apply their extensive technical 
+know-hows in the production of microalgae at lab and pilot scales under autotrophic regimes to WP1 and WP6.  
+Bia Energy Ltd (BIAE), Ireland, is a commercial AD operator with the capacity to process 99 ktonne p.a of organic 
+waste for the production of 4.8 MW of renewable electricity. Dr. Nolan will lead BIAE’s participation and provide 
+his expertise on AD systems optimisation. SusAlgaeFuel will benefit BIAE by providing a  potential commercial 
+outlet for their CO2-rich effluent (from biogas upgrading) and digestate liquid fraction, both of which are significant 
+pain points in their operation. There is currently no suitable outlet for the CO2 effluent in Ireland, while the significant 
+volume of digestate generated  from biogas production (ca. 100 ktonnes p.a.) requires considerable land bank to 
+adhere to EU Nitrates Directive (91/676/EEC) and thus accrue significant cost to the business. BIAE will contribute 
+anaerobic digestate (200 kg p.a.) and provide the site for the construction of pilot-scale algal production facilities.   
+IRIS Technology Solutions, S.L.  ( IRIS), Spain, is a manufacturer of real -time process monitoring solutions 
+specialising in spectroscopy and artificial intelligence technology for engineering customised solutions for inline and 
+online applications to transition food processing, chemical and biobased industries to Industry 4.0. IRIS has 
+developed its own line of SWIR (shortwave infrared), hyperspectral imaging and Raman devices, in addition to data 
+management and predictive software (Scadalytics). IRIS will use their multidisciplinary expertise in optica l 
+engineering, chemometrics, electronics, and data science for the development of smart sensors in WP2 and WP6.   
+Karlsruhe Institute for Technology (KIT) (Dr. Frey), Germany, has been involved in H2020 and national projects 
+on cell-component recovery from microalgae (e.g. Sabana). The team will transfer their expertise in PEF treatment 
+and microalgal biorefinery systems to WP3 in SusAlgaeFuel. The lab is fully equipped to accomplish the work , 
+including bench-scale downstream processing auxiliaries (centrifuges up to 12 L capacity, disc separator STC 3-06-
+107, HPH and bead-milling, freeze dryer), and diverse PEF-facilities (0.5 L/h up to 1,000 L/h).  
+The University of Cambridge ( UCAM) (Dr. Marek) , UK, will apply their expertise in fuel synthesis and 
+technologies on the development of algae HEFA-SPK route in WP4 and WP6. UCAM has the infrastructure needed 
+to support WP4 activities and analysis for WP6, including two continuous high-pressure reactors and a batch reactor 
+vessel operating up to 50 bar and at high temperatures , a separate rig for chemical looping production of H 2 and 
+operation of up to 10 g of Fe-based catalyst, and material characterisation facilities (STEM, BET, XRD, TGA).  
+Fraunhofer Gesellschaft is Europe’s largest research organisation  (Germany). The Umwelt-, Sicherheits- und 
+Energietechnik (UMSICHT) division ( Dr. Apfelbacher)  will apply their expertise in  fuel transformation of 
+lignocellulosic biomass by  TCR-HDO (TOSYNFUEL project) on microalgae biomass residue in WP 4 and WP6. 
+UMSICHT houses specially built TCR reactors for hydrogenation at 400°C/200 bar at various scales (up to 500 kg/h).  
+Sustainable Flight Solutions Ltd (SFS), Ireland, was founded in 2020 to promote the decarbonisation of the aviation 
+sector through the development of SAF markets. SFS is perfectly positioned to lead the sustainability assessments in 
+WP5 and disseminate project results, with an extensive network in the av iation industry, comprised of  SkyNRG, 
+Avolon, Boeing, Orix Aviation, various Irish airlines and airport authorities.  
+European Science Communication Institute  gGmbH (E SCI), Germany, is a not -for-profit organisation that 
+empowers scientists to communicate with a non-expert audience using a message that not only tells, but also sells.  
+They have accumulated significant experience in science communications, particularly in microalgae, through 
+participation in various H2020/HE programme. They will lead the communication strategy of the project (WP7). 
+#§CON-SOR-CS§# #§PRJ-MGT-PM§#  
+Figure 3.2a: Partner’s Locations

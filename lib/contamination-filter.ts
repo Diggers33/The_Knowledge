@@ -52,6 +52,12 @@ const SELF_REF_RULES: Array<[string, RegExp]> = [
   ['draft_incomplete_notice',     /\*?\[Draft incomplete[^\]]*\]\*?/gi],
   ['generation_degraded_notice',  /\*?\[Generation (?:quality degraded|contaminated)[^\]]*\]\*?/gi],
   ['retry_needed_marker',         /\*\[RETRY_NEEDED:/i],
+  // Broader catch-all: any bracketed notice containing drift/regenerate/rejected keywords
+  ['any_bracket_meta_notice',     /\*?\[[^\]]*(?:regenerate|drift|rejected|degraded|truncated|contaminated)[^\]]*\]\*?/gi],
+  // Plain-text variants (no brackets) — e.g. workplan generation error, drift detector prose
+  ['plain_please_regenerate',     /please\s+regenerate\b/gi],
+  ['generation_error_notice',     /\bGeneration error:\s*[^\n.]+[.\n]/gi],
+  ['drift_detector_prose',        /(?:drift detector|drifted off.topic|rejected by the drift|section was rejected)/gi],
 ]
 
 export function checkContamination(

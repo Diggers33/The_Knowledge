@@ -1,0 +1,1497 @@
+4. Objective 4  (WP4): To develop and optimise catalytic pathways for high -efficiency conversion  of 
+microalgae biomass components (lipids and biomass residue) to kerosene m ixture and to develop 
+purification methods for the production of high-quality SAFs capable to achieving aviation specifications. 
+a) To develop hydrotreatment and hydrocracking pathways for conversion of microalgae lipids into HEFA -SPK  
+capable of achieving >50% conversion through the use of tailored catalytic composites comprising transition 
+metals (Ni-Mo-Co-Cu-Fe) and mild/medium acidic supports (Task 4.1).  
+b) To couple the HEFA-SPK catalytic pathways with a flagship chemical looping process developed at UCAM 
+to minimise hydrogen consumption and investigate heat-integration opportunities (Task 4.2). 
+c) To investigate the application of novel thermo-catalytic reforming + hydro-deoxygenation (TCR-HDO) pathways 
+patented by Fraunhofer UMSICHT for conversion of microalgae biomass residue to kerosene fuel (Task 4.4). 
+d) To develop purification methods for the resulting HEFA -SPK and TCR -HDO fuel molecules to enable the 
+production of high-quality aviation fuels meeting ASTM specifications (Task 4.3 and Task 4.5). 
+
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+4 
+5. Objective 5 (WP5): To continuously assess the commercial scalability, well -to-tank social, environmental 
+& GHG-emission impacts of the investigated microalgae fuel production strategies  to enable i terative 
+optimisation 
+a) To use process simulations for the investigated process to assess commercial scalability of the value chain, 
+identification of major cost drivers and further optimization opportunities (Task 5.1).  
+b) To carry out a comprehensive Whole Life Cycle  Analysis (WLCA) utilising innovative socio- technical system 
+approach (STS) at the complete system level  to fully assess the social effects, environmental impact and 
+sustainability of the proposed algae-fuel value chain, and to identify socio-environmental hotspots (Task 5.2). 
+The techno-economic and LCA results will provide technology development in WPs 1-4 with iterative feedback 
+and the SusAlgaeFuel team with the most optimal option for scaling up during pilot production in WP6.  
+6. Objective 6: To demonstrate the technical scalability of SusAlgaeFuel process (at TRL5) through the build, 
+commission, and operation of a pilot-scale system on BIAE site with the capacity for direct capture of CO2 
+from biogas upgrade, treatment of liquid digestate and production of microalgal lipids.  
+a) To build a pilot-scale algal production facility comprised of optimum cultivation and biorefinery unit operations 
+developed in WP1-WP3 with the capacity of producing 10 kg of algal lipids p.a. (Task 6.1). 
+b) Using the optimum species found in WP1, to operate and optimise the pilot system under semi -continuous 
+strategy (for 2 -3 months) to produce sufficient lipids for the manufacture of 1 kg of HEFA-SPK (Task 6.2).  
+c) Using the conversion and purification technologies developed in WP4, to produce 1 kg of HEFA -SPK from the 
+lipids and 1 kg of TCR-HDO oil mixture from the cellulose-rich biomass residue obtained in Task 6.2, and to test 
+the resulting fuels for compliance with ASTM standards. (Task 6.3). 
+d) To develop a digital twin of the integrated system as a decision toolbox to guide future stakeholders (Task 6.4). 
+7. Objective 7: To implement successful strategies for dissemination, communication and exploitation.  
+a) To develop and implement a comprehensive communication strategy to reach stakeholders (Task 7.1-7.3).  
+b) To disseminate impactful results, including workshops on pilot-scale infrastructure built in WP6 (Task 7.1-7.3). 
+c) To collaborate with other EU initiatives in the same area to share knowledge and boost outreach (Task 7.1-7.3). 
+d) To manage IPs and explore exploitation pathways for commercial utilization of results (Task 7.4). 
+e) To produce policy recommendations for algae usage in aviation fuels at national and EU levels (Task 7.5). 
+A primary innovation that SusAlgaeFuel will bring about to enhance the sustainability, circularity and feedstock basis 
+of microalgae SAFs is the utilisation of AD by -products (liquid digestate and CO2 emission from biogas upgrading 
+process) as nutrients for microalg ae growth, linking the two sectors together in a win -win synergy which provides 
+mutual benefits (by- products valorisation for AD and a cheap and abundant nutrient supply for microalgae). AD 
+harnesses the power of microorganisms to convert agricultural and food waste to biomethane. The process is expected 
+to play a critical role in EU’s long- term pursuit for energy independence and decarbonisation, as one of the few 
+technologies able to supply drop-in replacement for natural gas, the supply for which the EU is so heavily reliant on 
+imports. The AD process, however, generates two principal by- products for which there is either no outlet for 
+utilisation (i.e. CO2-rich gas effluent from biogas upgrade to form biomethane) or the current pathway for valorisation 
+yields a low -value product (i.e. full digestate as very dilute fertilisers) with large distribution costs due to the EU 
+Nitrates Directive (91/676/EEC)  resulting in significant costs to AD operators . The process envisaged in 
+SusAlgaeFuel will enable  the development of a green strategy for nutrient recovery from both AD by- products, 
+leading to the production of nutrient-dense biofertilisers (from digestate’s solid fraction after phase separation) and 
+microalgae biomass (from digestate’s liquid fraction and CO2 effluent).  
+The technologies investigated in SusAlgaeFuel have the potential to generate step reduction in the cost of algal SAFs. 
+This will be achieved through a series of cost-cutting innovations in each processing step, including: 
+• cost of nutrients during cultivation (by using AD by-products instead of commercial CO2 and fertilisers) 
+• cost of energy during biorefinery (by investigating cell disruption that relies on microalgae self-lysing properties) 
+• cost of solvent during biorefinery (by using a solvent system that enables facile recovery and maximum recycling),  
+• cost of hydrogen during HEFA-SPK conversion (by developing a flagship chemical looping process).  
+SusAlgaeFuel will adopt a staggered approach, where technological development/optimisation at bench scale will 
+take place in the first three years of the project before being transferred into the building and commissioning of 
+a pilot-scale system on an AD operator site (production capacity = 10 kg lipids/year) on the BIAE site in Ireland 
+in the final year. The scale up is intended to demonstrate technical scalability (up to TRL 5) while also generating 
+sufficient final fuel products fuel-quality assessment and certification according to ASTM standards.  
+1.1.3. Beyond State-of-the-Art   
+SusAlgaeFuel will introduce nine innovative approaches/technologies which individually push beyond the current 
+state-of-the-arts at different s tages in microalgae value chain (cultivation WP1, culture purification  WP2, 
+biorefinery/biomass purification WP3 and fuel conversion/purification  WP4).to produce a cohesive system for a 
+more cost-competitive, efficient, and circular production of microalgae SAFs. These approaches will be developed 
+with an integrated techno-economic and life-cycle analysis (WP5) to facilitate improvement and scale-up (WP6). 
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+5 
+A novel membrane system for an effective delivery of CO2 to microalgae culture with high carbon utilisation 
+efficiency or CUE (>90%), enabling direct capture of CO2 from biogas upgrade (Objective 1//WP1).  
+Current state:  All conventional methods to directly deliver gaseous CO 2 into microalgae culture involve the 
+conversion of CO2 into bubbles (e.g. sparging, microbubblers, and sumps3,4). The short residence time (0.022 – 55s 
+at 0.3 m pond depth)  associated with bubble delivery means that s ignificant amounts of CO 2 escape into the 
+atmosphere before they can be captured by microalgae via photosynthesis, leading to a low CUE and higher energy 
+cost associated with CO 2 delivery. Advancement: In WP1, we will investigate a novel CO 2 delivery system using 
+dense membrane to achieve bubbleless CO2 delivery into microalgae culture (and thus high utilisation efficiency), 
+enabling effective CO2 capture from direct point source. System will be validated with CO2 mass transfer model. 
+A cultivation system capable of direct capture of CO2 emissions from biogas upgrade and digestate treatment 
+to achieve high biomass concentration (Objective 1//WP1).   
+Current state: Microalgal cultivation on full digestate can often lead to a highly turbid medium which requires 
+significant dilution to support autotrophic growth. Using the full digestate as growth medium also precludes the  
+application of excess nutrients as valuable bi ofertilisers. SusAlgaeFuel, will focus on using only the supernatant 
+obtained after phase separation (referred to as ‘liquid digestate’) for algal growth, enabling the formation of nutrient-
+dense biofertilizer from the solid fraction of digestate after phase separation (or ‘solid digestate’) as a co -product 
+(Figure 1.1). Advancement: In WP1, we will establish a comprehensive strategy for supporting algal growth on liquid 
+digestate by a) using a multi-step filtration process at different pore sizes to remove solid particles and bacteria from 
+liquid digestate  and b) employing extensive chemical characterisatio n to determine  minimum dilution and 
+requirements of micronutrients addition. Once growth on liquid digestate has been optimised, we will combine the 
+growth strategy with the CO2 membrane delivery system, enabling the development of a hybrid cultivation system 
+that is able to directly capture CO 2 emission while recovering nutrients from digestate to achieve high biomass 
+productivity (target final biomass concentration > 3 g biomass/L) and lipid content (target > 30wt% of biomass).   
+A-first-of-a-kind multirange spectroscopic sensor platform capable of bacterial detection and enumeration 
+in microalgae culture (Objective 2//WP2). 
+Current state: The presence of undesired bacteria in microalgal culture can often lead to costly culture crashes. There 
+is currently no known in-line monitoring system able to analyse bacterial population dynamics in microalgae culture 
+in-situ and provide early warning for catastrophic contamination level to enable corrective actions; such a detection 
+system is particularly critical for culture grown on wastewater or nutrient-rich waste products (e.g. liquid digestate). 
+Advancement: In WP2, we will leverage an innovative Multirange Spectroscopic Platform  developed at IRIS to 
+investigate a modular, rapid, and affordable sensor system able to distinguish bacterial cells from microalgae cells 
+and enumerate the level of bacterial contamination. The fusion platform will simultaneously utilise SWIR, NIR; VIS, 
+Raman; and Fluorescence spectroscopy and be coupled with machine learning to enable future automation.  
+A bacterial management system that uses selective UV irradiation (Objective 2//WP2). 
+Current state:  Recent s tudies have shown that  microalgal cells and bacterial cells can react differently to UV 
+irradiation, with the same treatment often resulting in bacterial inactivation while maintaining algal growth (and often 
+boosting lipid accumulation)5. Such differential acclimatisation can potentially be exploited as means of managing 
+bacterial population in microalgal culture, particularly those grown on waste products or nutrient-rich waste medium. 
+Advancement: In WP2, we will develop a targeted 2-stage UV illumination regime for the investigated microalgae 
+species under different wavelengths  to a) sterilise growth medium (as a complement to filtration systems) and b) 
+favour the growth of microalgae cells and symbiotic native bacteria in the culture over harmful bacteria  to enable 
+productivity boost. The effectiveness of the UV system will be validated with the developed spectroscopic platform.   
+A first-of-a-kind biorefinery which harnesses microalgal intrinsic capacity for self-weakening (or autolysis) 
+for the development of low-energy biomass fractionation (Objective 3//WP3). 
+Current state: Biomass drying is highly energy intensive with the amount of energy required for complete water 
+removal (10.9 MJ/kg biomass) exceeding the full lipid- energy potential of the biomass (10.1 MJ/kg biomass for 
+biomass containing 30 wt% lipids). Drying must therefore be avoided to ensure a positive energy balance for fuel 
+application. Wet biorefinery systems, how ever, require cell disruption which is either chemical intensive  (e.g. 
+enzymatic or chemical) or energy intensive (e.g. mechanical methods). Autolysis,  a self -decomposition process 
+where cells use their own endogenous enzymes to degrade /weaken their cell walls, can be coupled with externally 
+applied cell disruption to reduce the intensity of these methods. Advancement: In WP3, we will leverage the discovery 
+that PI Halim (UCD) recently made on the expression of autolysis in highly concentrated microalgae slurry (100 – 
+200 mg biomass/g slurry) to develop a novel biorefinery system able to fractionate biomass into lipid, protein and 
+carbohydrate at low energy requirements (target energy demand for disruption < 1 MJ/kg biomass). 
+ 
+3 DOI: 10.1016/j.biortech.2015.12.066  
+4 DOI: 10.1016/j.cjche.2018.07.013  
+5 DOI: 10.1007/s10811-018-1687-8    
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+6 
+A lipid extraction strategy that minimises solvent usage through the use of non -polar solvents, emulsion 
+mitigation and optimisation of solvent recycling (Objective 3/WP3).  
+Current state: Our calculations show that the direct purchase cost of solvent and the indirect cost of energy associated 
+with solvent recovery can account for up to 42 % the operating cost of  a microalgal biorefinery. Optimal solvent 
+choice that allows for maximum lipid extraction at minimum solvent usage is therefore critical in achieving 
+commercial viability of algal fuel s. Polar solvents (e.g. ethanol, isopropanol) form monophase with water during 
+extraction from wet biomass and are difficult to recover, leading to high solvent requirements. Advancement: In WP3, 
+we will screen a range of non-polar. and low-polar solvents (e.g. hexane, cyclohexane, ethyl-acetate) for selective 
+extraction of HEFA-SPK convertible lipids, and develop strategies t o reduce solvent usage through mitigation of 
+emulsion and optimisation of solvent recycling (target solvent usage < 3.5 L/kg biomass). 
+A flagship microalgal-specific multifunctional catalytic pathways using transition metals and H2 looping route 
+for efficient hydrotreatment conversion of microalgae lipids into HEFA-SPK (Objective 4/WP4).  
+Current state: The conversion pathways for algae lipids to HEFA-SPK are not well understood, with early reports 
+indicating accelerated catalyst ag ing compared to  HEFA routes with vegetable oils and low SPK yields. Since 
+microalgal lipids contain a higher fraction of oleic acids (C18:1) compared to plant oils, they are not very reactive to 
+Pt-based catalysts. Advancement:  In WP4, we will develop a  novel algae-specific bifunctional catalyst using 
+transition metals (Ni-Mo-Co-Cu) on mild/medium-acidic supports (e.g. mesoporous zeolites) to improve conversion 
+efficiency and introduce a flagship chemical-looping process (recently developed at UCAM) to minimise hydrogen. 
+A flagship microalgal-specific thermocatalytic reforming + hydro-deoxygenation (TCR-HDO) treatment for 
+the conversion of microalgae biomass residue to kerosene mixture suitable for aviation (Objective 4/WP4). 
+Current state: Pyrolysis of biomass (like algae) generates a dark brown oil consisting of more than 100 different 
+compounds, including oxygenated compounds (e.g. aldehydes or carbonic acids ), nitrogenated cyclic compounds, 
+and sulfonated compounds. This oil mixture  is not suitable for engine application, in addition to the exhausts of 
+sulphur and nitrogen oxides. In contrast to conventional pyrolysis techniques , TCR produces a thermally stable oil 
+that can then be subjected to hydrogenation or HDO (at 400 °C and 120 bars) to remove the hetero atoms O, N, S in 
+form as H2O, H2S, NH3 and generate saturated olefines. The resulting product is a mixture of hydrocarbons comprised 
+of diesel, kerosene and petrol fraction s that can conform to  ASTM standards upon purification. Advancement: In 
+WP4, we will demonstrate for the first time  that the TCR-HDO configurations patented by Fraunhofer 
+UMSICHT (WO2015158732A1) can be applied for the conversion of cellulose-rich algae biomass residue to fuel.  
+Tailored purification methods for algal fuel molecules to generate SAFs that meet international standards.  
+(Objective 4/WP4).  
+Current state: SAFs must fulfil ASTM standards  to ensure safe operations during flight . Fuel properties directly 
+correlate to composition and the level of impurities . The amounts of impurities can be minimised through refining 
+steps and fuel purification. Advancement: In WP4, we will investigate the combination of possible fuel upgrading 
+steps that are most optimal for the algal-derived SAFs. Our goal is to correlate the key physical properties (thermal 
+stability, volatility) with carbon distribution in the fuel components and the content of inorganics to define a minimum 
+set of purification steps. Separate purification pathways for HEFA-SPK and TCR-HDO oils will be investigated 
+Continuous assessment of the commercial scalability  and environmental impact  of technologies being 
+developed using process simulations and the latest approach in Whole Life Cycle Analysis (Objective 5/WP5)  
+In WP5, we will complement technology development in WPs1- 4 with continuous and iterative use of process 
+simulations (e.g. Aspen Hysys) to assess commercial scalability of the value chain  and identify major cost driver   
+and a comprehensive Whole Life Cycle Analysis (WLCA) utilising innovative socio -technical system approach 
+(STS) at the complete system level to fully assess the social and environmental sustainability of the value chain. 
+A fully integrated prototype pilot-scale system on an AD operator site as demonstration of technical scalability 
+for SusAlgaeFuel process with the capacity for the production of 10 kg lipids/year and direct carbon capture 
+and digestate remediation from the AD plant (TRL4/5) (Objective 6/WP6). 
+SusAlgaeFuel will culminate with the building and commissioning of a pilot-scale facility on BIAE site that integrates 
+the technologies developed/ investigated at bench scale throughout WP1- WP4 as a proof -of-concept of process 
+scalability beyond project lifetime. The pilot- scale facility will be operated for a minimum of 3 months to produce 
+sufficient algal HEFA -SPK and TCR -HDO fuels for testing agai nst international fuel standards.  The pilot-scale 
+facility will serve as an exploitation tool for the project; where we will showcase the technologies to stakeholders 
+and investors via on-site workshops.  
+INDUSTRY4.0 for the manufacture of a lgal SAFs: The concepts of data-driven analysis and next generation 
+computer technology are deeply embedded in SusAlgaeFuel technological development, with the view of preparing 
+microalgae productions for an autonomous and AI-driven manufacturing in the future. These include the integration 
+of machine learning algorithms in the development of spectroscopic biosensor platform (WP2), use of multivariant 
+correlations supported by machine learning algorithm for d econvolution of the possible fuel conversion pathways 
+(WP4) and the development of a digital twin inegrating real-time data from pilot-scale prototype (WP6).  
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+7 
+1.1.4. Project Maturity  
+Table 1.1: The Maturity of SusAlgaeFuel Technologies #§PRJ-OBJ-PO§#  
+1.2. Methodology  #@CON-MET-CM@# #@COM-PLE-CP@#                                                               
+1.2.1. Approach 
+HEFA-SPK pathway vs FT-SPK or ATJ-SPK pathways 
+Microalgae biomass can be converted to jet fuels through various pathways, including full -biomass gasification 
+routes (FT-SPK or ATJ-SPK). The HEFA pathway offers a commercially mature route for short-term deployment to 
+address immediate fuel shortage and has thus been selected as SusAlgaeFuel’s primary approach.  
+Route to Market:  Existing commercial-scale HEFA facilities  can readily accept raw algae- derived lipids, 
+streamlining the manufacturing process. EU SAF Mandates:  The European Commission recognizes HEFA for 
+Sustainable Aviation Fuel (SAF), where algae-derived lipids could supplement constrained UCO and tallow supply. 
+Valuable Co-products: Algae HEFA-SPK biorefinery route leads to generation of valuable co- products, such as  
+high-quality proteins and biofertilisers, that can offset cost of fuel production rather . Fuel quality: HEFA -SPK 
+pathway produces jet fuel with high cetane number and low sulphur content. 
+Overview: SusAlgaeFuel is divided into eight WPs designed to complement each other in delivering an integrated 
+solution for microalgae jet fuel production. In the first phase of the project  (M1–36), WPs 1 -4 will focus on 
+overcoming critical bottlenecks in microalgae fuel production (as outlined in Section 1.1) through the development 
+of scalable core technologies for three lipid-rich microalgae species (C. pyrenoidosa, A. protothecoides, N. salina). 
+The results from bench experiments in WPs 1-4 will then be transferred to the build of a pilot -scale facility in the 
+second phase of the project (WP6 ‘Pilot scale-up, fuel testing and digital twin’, M30-48) to provide demonstration 
+of the technical scalability of the investigated process and generate high- quality fuels for ASTM quality analysis. 
+The number of species and technological options deployed in WP6 will be narrowed down according to the results 
+of WPs1-4 and the feedback provided by WP5 ‘Process integration and whole life -cycle analysis’. WP5 runs in 
+parallel to core technology development and pilot s cale-up throughout project lifetime, using results from the 
+respective WPs to continuously carry out process integration and environmental assessments and relaying these 
+results back to the WPs in a circular loop to enable iterative optimisation. Consolidated results obtained in WP5 will 
+then be used to guide decisions  and inform best practice/parameters for scale- up in WP6. To provide clear 
+exploitation pathways from the lab to industry, WP7 ‘Communication, policy and exploitation roadmap’ will develop 
+a business/commercialisation plan (that takes into account inputs from Stakeholders within the consortium and wider 
+sectors) and policy guidance, both rooted in the EU market. WP8’Project coordination’ will tie all scientific, 
+administrative and financial activities together while identifying risk and implementing mitigation measures.  
+WP1: Membrane system for efficient CO2 delivery to microalgae, enabling direct CO2 capture AD 
+Challenges facing direct CO 2 capture from point emission by microalgae. The capacity for c arbon capture from a 
+point emission source is one of the key benefits of microalgae cultivation. Conventional methods to directly deliver 
+gaseous CO2 into aqueous microalgae suspension ( e.g. sparging, microbubblers, and sumps), however, involve the 
+conversion of the CO2 into bubbles (1–5 mm in diameter) or microbubbles (0.02– 0.1 mm). A primary drawback of 
+bubble-based delivery is its short residence time in aqueous suspension (0.022–55s at 0.3 m pond depth)3,4 meaning 
+that the majority of CO2 delivered into the culture from point source is lost to the atmosphere before it can be captured 
+by the microalgae via photosynthesis. This leads to a low Carbon Utilisation Efficiency (defined as the proportion of 
+delivered CCO2 that is converted to biomass) and high energy cost associated with gas compression to deliver excess 
+CO2. CUE averages at 40% for bubbles and 70% for microbubbles4.  
+Key Technologies WP Pre-project TRL Post-project TRL 
+Autotrophic growth strategy on liquid digestate 1 3 4 -5 (via pilot scale up) 
+Membrane system for CO2 delivery to microalgae 1 2 4 - 5 (via pilot scale up) 
+In-line sensor to monitor bacteria in culture  2 2 4 - 5  
+Selective UV irradiation for culture purification 2 2 4 - 5 (via pilot scale up)  
+Autolytic cell disruption for low-energy 
+fractionation of wet microalgae biomass 
+3 2 4 - 5 (via pilot scale up) 
+Lipid extraction strategy to minimise solvent 3 2 – 3 4 – 5 (via pilot scale up)  
+Multifunctional catalytic process with H2 looping 
+route for conversion of algal lipids to HEFA-SPK  
+4 1-2 4 – 5 (via pilot scale up) 
+Algae-specific HEFA-SPK purification method  4 1 4  
+Process for the conversion of microalgae biomass 
+residue to TCR-HDO oil  
+4 1 – 2 4 – 5 (via pilot scale up) 
+Algae-specific TCR-HDO purification method  4 1 4  
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+8 
+Membrane system for CO 2 delivery. Recent studies have reported an 
+alternative delivery system using non -porous membranes to increase 
+CUE3,4,6,7. In these studies, a composite membrane with a thin dense core 
+membrane layer was employed to enable the diffusion of individual CO 2 
+molecules from vapour state (CO2(g)) into the aqueous microalgae suspension 
+in bubbleless form (CO 2(aq))3, 7, 8. (Figure 1.2a) The approach was able to 
+achieve >90% CUE and resulted in 15- 20x increase in biomass productivity 
+compared to sparging. Membrane carbonation, however, is still in its infancy 
+and has so far only been investigated for the delivery of pure CO 2 into 
+microalgae culture. CO2 effluent from AD is a mixture comprised not only of 
+CO2 (~85 vol%) but also other constituents (such as CH4) and will thus require 
+a different membrane system to retard CH 4 permeation and selectively 
+transmit CO29. The lack of optimisation of the membrane system and mass-
+transfer models to describe the transport of CO 2 across the membrane and then diffusion into the microalgae cells 
+have made it difficult to predict system performance and control CO2 flux in the system.  
+Development of membrane system for efficient CO2 delivery to microalgae. In WP1 (Task 1.3), we will investigate 
+the development of a novel membrane system for the efficient delivery of CO2 into microalgae culture. The system 
+will be optimised in terms of membrane types, membrane configurations, CO2 partial pressure and pH of the solution 
+to achieve high CUE (> 90%). The performance of the CO 2 delivery system will initially be assessed for aqueous 
+solution (without microalgae) to understand the CO2 dissolution/equilibrium process.  In WP1 (Task 1.4), the CO2 
+delivery system will be  integrated into a microalgae  cultivation on digestate, allowing for  complex interaction 
+between CO2 delivery, CO2 uptake by photosynthesis, and nutrient utilisation by microalgae to be characterised. The 
+development will leverage existing research on microalgal CO2 capture system at UCD for the project ‘EirAlgae’. 
+Mass transfer model to describe the kinetics of carbon transport across the membrane and subsequent utilisation by 
+microalgae will be developed based on first principles, validated using experimental data and solved using MATLAB 
+to facilitate performance forecast during scale up.  
+WP1: Autotrophic growth strategy on liquid digestate and direct capture of CO2 emission from AD 
+Species selection. The three species we have selected, C. pyrenoidosa, A. protothecoides, N. salina, are well-known 
+lipid accumulators, able to achieve a lipid content of up to 37 wt% of biomass when grown on nutrient-rich digestate. 
+Findings obtained for N.salina are directly transferrable to other oleaginous species within the genus.  
+Critical barrier to achieving low -cost cultivation for biofuels. Large-scale autotrophic cultivation of microalgae for 
+biofuel application continues to suffer from a critical barrier: a) the high cost of commercial nutrients which in turn 
+increases cultivation cost (OPEX) and limits biomass availability, and b) slow onset of lipid accumulation resulting 
+in sub-optimal biomass lipid contents  which in turn increase subsequent costs of cultivation and biorefinery. 
+Triglyceride accumulation is achieved under N starvation which forces cells to funnel photosynthetic carbon into 
+lipid synthesis. Light attenuation due to self -shading effect  in algal culture  and CO2 mass-transfer limitation  
+associated with sparging, however, can negatively affect photosynthetic rate and thus limit lipid accumulation.   
+Table 1.2a: Performance of autotrophic cultivation of investigated species on digestate 
+Utilisation of AD effluents and overview of process development. To address the high cost of nutrients, SusAlgaeFuel 
+will examine the utilisation of both AD effluent streams to support microalgae growth: digestate’s liquid fraction (as 
+N and P source ) and biogenic CO2 emission. The full scope of investigation on AD waste will adopt a multi-stage 
+approach, with Task 1.1 and 1.2 (WP1) concentrating on cultivation strategies on digestate,  and Task 1.3 (WP1) 
+developing a membrane system for CO2 delivery. Once the individual methods have been developed, they will both 
+combined in single hybrid system to achieve both digestate utilisation and CO2 capture (Task 1.4, WP1). All initial 
+technological development in WP1 will take place at bench scale ( and use commercial CO 2 supply as proxy for 
+biogenic CO2 emission). In WP6, the hybrid system will be scaled up through the build and operation of pilot-scale 
+infrastructure on AD operator site for which real biogenic CO2 emission from AD plant will be used for CO2 capture.  
+ 
+6 DOI: 10.1016/j.algal.2020.102070  
+7 DOI: 10.1016/j.memsci.2019.117389  
+8 DOI: 10.1016/j.jcou.2019.06.008.   
+9 DOI: 10.1016/j.biortech.2019.121804  
+Species Dilution 
+ratio  
+Final biomass concentration             
+(g biomass/L) 
+Lipid content 
+(wt% of dry biomass) 
+Refs 
+C. pyrenoidosa  1 – 8x 0.3 - 4.8 9.6 – 22 13, 16 
+A. protothecoides 1 – 4x 0.5 - 3.5 22.2 - 36.3 11, 14, 15, 17 
+N. salina 4 - 33x 0.7 - 0.9 20 – 35 12 
+Figure 1.2a: Schematics of 
+integrated membrane delivery / 
+microalgae growth system 
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+9 
+Development of growth strategies on digestate.  Liquid digestate contains NH4+-N (139-3,456 mg/L), PO43--P (7-381 
+mg/L), and micronutrients (596-5,905 mg/L)10 to support microalgae growth. Previous studies have shown that the 
+three microalgae species investigated in the study can achieve high biomass concentration  when cultivated in 
+autotrophic mode (up to 4.8 g biomass/L, Table 1.2a) on liquid digestate  with minimum nutrient 
+supplementation11,12,13,14,15,16,17. Challenges associated with growing algae on liquid digestate include a) limited 
+light penetration due to high turbidity and b) the presence of toxic components (e.g. heavy metals) and recalcitrant 
+microorganisms from AD process exert ing inhibitory effect on microalgae growth, both of which are generally 
+resolved in previous studies through significant dilution with water. In Task 1.1 and 1.2., we plan to overcome these 
+challenges through extensive characterisation of digestate  using state-of-the-art methods (such as GC for Volatile 
+Fatty Acids or VFA analysis and ICP-AES for heavy metals) before subjecting the digestate to a multi-step filtration 
+process at different pore sizes18. The filtration process will allow for a) the removal of solids and microbes which  
+consequentially reduce turbidity and b) reduction in the level of toxic components. We will then formulate growth 
+medium at different dilution ratios for each species and test the effects on growth under lab-scale controlled 
+conditions, with the objective to formulate optimal growth medium at minimum dilution ratio and nutrient 
+supplementation. Nutrient mass balance will be carried out to determine level of required micronutrient 
+supplementation. In addition, we will also track the assimilation of Volatile Fatty Acids (VFAs) during algae growth 
+on digestate and their effect of the fatty acid profile of the biomass. If the filtration pre-treatment was found to be 
+inadequate in reducing to toxicity level in the digestate, we will develop an appropriate detoxification strategy (e.g. 
+fed-batch feeding) to make sure that the level of toxic contaminants remains below threshold at all times in the growth 
+cycle. The development of growth strategies in WP1 is made possible only through the combination of A4F and 
+UCD’s experience in autotrophic microalgal growth and BIAE’s expertise in AD characterisation. 
+Combination of algal growth on digestate and direct CO2 capture. In WP1 (Task 1.4), the membrane system for CO2 
+delivery will be integrated into microalgal growth strategies on digestate to attain simultaneous digestate treatment 
+and CO2 capture. Efficient CO2 delivery by the membrane system is expected to intensify nutrient utilisation in the 
+digestate-based medium, leading to rapid depletion of N in the medium  which then allows for early onset of lipid 
+accumulation in the biomass. The level of CO 2 in the system will be carefully controlled through pH and light 
+optimisation. The performance of the hybrid system will be optimised to maximise final biomass concentration (>3 
+g biomass/L) and lipid accumulation (> 30wt% biomass) within short harvest cycle (7-14 days). 
+Pilot scale-up of hybrid system on AD site to demonstrate digestate remediation and direct capture of CO2emission. 
+In WP6 (Task 6.1), the hybrid system investigated in WP1, guided by techno-economic and LCA in WP5, will be 
+scaled up to 1,000 L on partner BIAE site (AD operator) to demonstrate scalability. The facility will be the first pilot 
+microalgal infrastructure reported to -date able to simultaneously remediate digestate and directly capture CO 2 
+emission from biogas upgrading process. The membrane system developed in SusAlgaeFuel is a platform technology 
+that can easily be adapted for microalgae-based CO2 capture system in other industries requiring CO2 capture from a 
+flue gas (e.g. breweries). In Task 6.2, the pilot infrastructure will be operated and further optimised to maximise final 
+biomass concentration & lipid content. Sufficient biomass will be generated for the production of 1 kg HEFA-SPK.  
+WP2: In-line sensor to monitor bacterial population in culture  
+Costly culture contamination. A necessity for process commercialisation is the identification of fast, precise, cost-
+effective, and easy-to-apply methods to monitor the quality of the microalgal cultures. Microbial contamination 
+in algal culture is a serious problem hampering the cultivation process, often resulting in culture crash and leading to 
+considerable economic and time losses19. As such, early detection and culture monitoring are crucial. However, this 
+is highly challenging due to the complexities of algae's interactions with other microorganisms.  
+In-line culture monitoring system. On-line and in-line monitoring using Process Analytical Technology (PAT) is a 
+promising tool 20, with high-selectivity and the capability of monitoring several analytes and parameters ( pH, 
+dissolved oxygen, temperature, and biomass concentration, as well as certain pollutants which could jeopardize 
+optimum conditions) simultaneously , for improving product quality, productivity, and process automation of 
+microalgal culture and biorefinery. Moreover, as one of the classic indicators of low biomass quality is a high level 
+of chlorophyll degradation leading to the formation of phaeophytins, chlorophyllides and pheaophorbides, a measure 
+ 
+10 DOI: 10.1016/j.tibtech.2015.12.010  
+11 DOI: 10.1016/j.biortech.2019.122445  
+12 DOI: 10.1016/j.apenergy.2013.03.056  
+13 DOI: 10.1016/j.biortech.2014.11.099  
+14 DOI: 10.3390/atmos12091099 
+15 DOI: 10.1016/j.jbiotec.2004.01.013  
+16 DOI: 10.1016/j.chemosphere.2022.136177  
+17 DOI: 10.1016/j.algal.2020.102129  
+18 DOI: 10.1016/j.wasman.2020.08.037  
+19 DOI: 10.1007/s00253-021-11396-7 
+20 DOI: 10.1080/07388551.2017.1398132   
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+10 
+of chlorophyll degradation could be used as an indicator of cellular health and damage in photosynthetic organisms. 
+Fluorescence-based techniques can be used to monitor chlorophyll content, providing an indication of algal health. 
+Spectroscopic platform for bacterial analysis. In WP2 (Task 2.1), we will investigate the development of multirange 
+spectroscopic methods for rapid and portable in-situ analysis and quantification of bacterial population dynamics in 
+microalgae culture, enabling accurate monitoring of bacterial level in culture and the provision of early warning for 
+catastrophic contamination level as well as effective bacterial management system. The approach that we will use is 
+to leverage an innovative Multirange Spectroscopic Platform  (recently developed at IRIS ) whereby different 
+spectroscopic PAT technologies have been engineered into a common framework to open up the possibility of 
+tackling highly demanding monitoring applications by spectral data fusion in an effective and affordable way. This 
+platform, called VISUM Fu sion, is a disruptive framework that delivers the following sensing techniques  (SWIR 
+spectroscopy; NIR spectroscopy; VIS spectroscopy; Raman spectroscopy; and Fluorescence spectroscopy) through 
+shared spectrometers (Raman uses a VIS or a NIR spectrometer and fluorescence a VIS spectrometer), as well as 
+common illumination systems (VIS, NIR and SWIR can all use a common halogen lamp), and -in some cases- optical 
+probes. This makes the platform ideally suited for experimental work related to the measurement o r detection 
+of compounds at low concentration, often in complex matrices and with intrinsic barriers that do not match 
+the ideal scenario of any of the traditional technologies , such as the bacterial/microalgae system we are 
+investigating in SusAlgaeFuel. Through Fusion, having several techniques in a common platform not only allows us 
+to use the optimum technique for each measurement requirement but also enables seamless data fusion, to obtain 
+dramatic improvements in precision, accuracy, and limit of detection. To further extend the framework capabilities, 
+Fusion could also fuse data provided by off -the-shelf compatible temperature and electrochemical sensors. The 
+combination of PAT and machine learning techniques has the potential to move microalgae produ ction towards 
+process automation through multivariate process control (MVPC) and software sensors trained on “big data”. 
+WP2: Selective UV irradiation for culture purification 
+Impact of light quality on algae growth and composition. Light quality can have an effect on microalgae growth e.g. 
+(i) the ability to modulate Scenedesmus sp nutrient removal from wastewater using different ratios of red and blue  
+light (ii) Spirulina (Arthrospira platensis) growth increase under red light . Light quality was also shown to impact 
+biomass composition in Chlorella vulgaris, by changing the relative proportions of C16:0 and C18:321.  
+Differential response between microalgae and bacteria cells to UV irradiation. Recent studies have show n that the 
+application of UV-LED treatments (particularly UVB and UVC) can successfully inactivate bacteria in digestate22,23. 
+UVB irradiance at 52.5 mJ.cm-2, for example, was found to be able to reduce the growth of several bacterial species 
+by 36-58% in less than 1 minute, while UVC is routinely used in wastewater treatment (at multiple wavelengths), as 
+a replacement for chlorine , to prevent bacteria reactivation. Interestingly, a study on phytoplankton inactivation 
+highlighted the difference in bacteria and microalgae response  to UV irradiation, showing that the same treatment 
+that inactivates bacteria is ineffective for microalgae.  Microalgae cells require a higher UV dose  (60 mJ cm−2) to 
+reduce the initial concentration by 4 orders of magnitude (D4)  compared to faecal bacteria and marine bacteria (19 
+and 44 mJ cm −2) 5,23 . These differences in UV acclimatisation, if applied at the correct dosage, sequences, and 
+wavelength, can be exploited as a low-cost means to purify culture during cultivation (particularly on waste products), 
+selectively deactivating bacteria, while boosting the growth/lipid composition of microalgae cells. A more target ed 
+UV approach can even potentially distinguish harmful bacteria from beneficial bacteria, allowing for adaptive growth 
+that favours the proliferation of beneficial bacteria to symbiotically interact with microalgae cells.  
+Development of UV irradiation system for culture purification and lipid induction. In WP2 (Task 2.2), we plan to 
+develop a 2- stage illumination system where we first expose the  liquid digestate growth medium (before algal 
+inoculation) to UV irradiation to inactivate bacteria in the medium (as a supplement to the filtration system developed 
+in Task 1.1) and then subject microalgae culture grown on the sterilised digestate to a range light quality sources (e.g. 
+artificial day light, standard white light) and UV irradiation under different wavelength ranges and regimens (e.g. 
+red/blue light supplementation, continuous and pulsed) as in-line purification method to maintain low bacterial count 
+arising from native bacteria in the algal inoculum , while boosting algal growth and lipid accumulation for biofuel 
+production. The system thus has a dual purpose, enabling the sterilisation of bacteria on the digestate in the first stage 
+while suppressing the growth of native bacteria present in the  original/inoculum culture, and enhancing microalgae 
+growth in the second stage. In WP2 (Task 2.3), we plan to take the system one step further. We will sequence native 
+bacteria in each species (via 16S rDNA) and study their symbiosis through re-inoculation in axenic culture. Once a 
+set of beneficial bacteria have been identified, the parameters of the UV irradiation system will be adapted to favour 
+the growth of beneficial bacteria (over harmful ones), enabling further improvement in algal growth. WP2 will 
+contribute novel science in algal-bacterial interaction and directed adaptation.  
+WP3: Autolytic cell disruption for low-energy fractionation of wet microalgae biomass   
+ 
+21 DOI: 10.1016/j.biortech.2014.03.092  
+22 DOI: 10.1111/1541-4337.12645.  
+23 DOI: 10.1016/j.watres.2019.114875  
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+11 
+The ‘correct’ water concentration of biomass for  fuel production from algae:  Biomass drying must absolutely be 
+avoided when processing algae biomass for fuel production, with the amount of energy needed to completely remove 
+water from algal concentrate  (10.9 MJ/kg biomass) exceeding the full lipid- energy potential of the biomass (10.1 
+MJ/kg biomass at 30 wt% lipids). Dilute culture, however, must also be dewatered in order to avoid energy penalty 
+of processing large water volume. The ideal biomass state is as slurry or concentrate at 100 – 200 g biomass/kg slurry. 
+Wet processing route, however, leads to unique challenges associated with cell disruption and product liberation. 
+Energy-intensive c ell disruption . Microalgal 
+products, including lipids for HEFA conversion, 
+are intracellular in nature, encapsulated within the 
+biomass by multilayered cell walls which confer the 
+cells with formidable defence against external 
+processing (such as in the case of 
+Nannochloropsis). Microalgal slurry thus needs to 
+be subjected to external cell disruption to liberate 
+products for subsequent conversion. Enzymatic 
+disruption is simply too expensive for low -value 
+products (such as fuel). Chemical treatments using 
+acids are possible options, but they often need to be 
+applied at extreme pH and temperature  (> 150℃) 
+leading to degradation. Mechanical methods  (such as bead milling) are effective and rapid, but generally accrue 
+significant energy demand (Table 1.2b). Our calculations suggest that, even in optimistic scenario, the energy spent 
+for cell disruption alone (using HPH) can account for up 25% of the total energy demand of algal biofuel production, 
+often contributing to negative energy balance and an Energy Return on Investment ( EROI) value < 1 (Section 2.1 
+EO2 for calculations). For fuel production, a crucial criterion for the choice of cell disruption is the capacity to be 
+deployed in an industrial scale at both reasonable cost and low energy requirements.   
+Autolysis as means to reduce the energy demand of cell disruption . Autolysis is a self -decomposition process 
+whereby cells use their own endogenous (or internal) enzymes to degrade/weaken their cell walls, thus reducing the 
+amount/intensity of external process that needs to be applied in order to achieve complete cell disruption.  The 
+underlying mechanism that drives autolysis is not well understood and, until recently, there were no known methods 
+to induce autolysis in microalgae slurries suitable for large-scale processing. PI Halim (UCD) recently reported a 
+method to induce autolysis in dense microalgae (Nannochloropsis) slurries under scalable conditions without the 
+need of chemical agents32. The method involved incubating concentrated slurries under dark and anaerobic incubation 
+at mildly elevated temperature (37℃) for 8-12 h. During the treatment, Nannochloropsis cells were found to activate 
+self-fermentation pathways which thinned their cell walls by 40- 50%, rendering the biomass more susceptible to 
+subsequent externally applied cell disruption (e.g. by HPH) and eventually leading to 50% reduction in energy 
+demand for attainment of complete cell disruption  (from 0.7 to 0.35 MJ/kg biomass) . Despite the groundbreaking 
+potential of the treatment, we have not investigated autolysis on other species or with combination of other disruption.  
+Low-energy biorefinery fractionation based on autolysis. In WP3 (Task 3.1), we will leverage PI Halim’s discovery 
+in autolysis to develop a l ow-energy cascading biorefinery for the fractionation of microalgae biomass (as slurry) 
+into HEFA-convertible lipids, protein serum and biomass residue. We will investigate the co upling of autolytic 
+incubation with a range of mechanical and chemical disruption steps. By getting the cells to weaken themselves prior 
+to externally applied cell disruption, we expect to be able to achieve complete disruption at milder operating 
+conditions (i.e. lower pres sure for HPH or lower speed for HSM), thus reducing the energy footprint and cost 
+requirement for cell disruption. Since it will be unrealistic to screen every type of disruption, we will limit our 
+investigation to processes known for having relatively low energy demand to start with (Table 1.2b): PEF, HPH and 
+HSM. These selections are well aligned with KIT’s findings as biorefinery WP leader in SABANA project, which 
+shows bead milling, microwave and ultrasound to have an energy demand as high as 10x that of PEF and HPH. The 
+combination of autolysis with dilute acid treatment will also be investigated because of its potential to attain very 
+low energy demand as long as autolysis pre-treatment successfully reduced the pH requirements.  
+ 
+24 DOI: 10.1016/j.algal.2023.103056.  
+25 DOI: 10.3390/pr9020369 
+26 DOI: 10.1016/j.procbio.2022.06.014  
+27 DOI: 10.1016/j.biortech.2017.05.012  
+28 DOI: 10.3390/fermentation8070301 
+29 DOI: 10.1016/j.biortech.2015.12.012  
+30 DOI: 10.1016/j.algal.2017.03.024  
+31 DOI: 10.1016/j.renene.2019.10.133  
+32 DOI: 10.1039/C8GC03186J  
+Common Mechanical Cell 
+Disruption 
+Energy 
+demand 
+(kWh/kg 
+biomass) 
+References 
+Ultrasonic 50-206.7 24 
+Microwave 1-117 25,26 
+Bead milling 0.4-8.9 27,28 
+Pulsed Electric Field (PEF) 0.5-2.5 29,30 
+High-Pressure Homogenisation 
+(HPH) 
+0.3-5.5 27, 28 
+High Shear Mixing (HSM) 0.4-1.4 31 
+Table 1.2b: Energy demand for mechanical disruption 
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+12 
+Energy target and process optimisation: Our target is to develop a biorefinery system capable of achieving 100% 
+disruption (and thus complete fractionation) at energy demand of < 0.3 kWh/kg biomass (or 1 MJ/kg biomass). By 
+capping the energy demand of cell disruption at 0.3 kWh/kg biomass, our calculations show that we will reduce the 
+OPEX of cell disruption from ca. 1.61 to 0.56 $/kg HEFA, thus contributing to achieving our overall ambition of a  
+HEFA cost of 6.30 $/kg ( Section 2.1 EO2). Even though this target is at the lower range of cell disruption energy 
+demand, it is not unrealistic and can likely be achieved through pa rametric optimisation of the combined autolysis 
+and mechanical/chemical disruption biorefinery, especially given that UCD has previously demonstrated the low 
+energy demand of their autolysis HPH process and KIT has shown that they can reduce the energy con sumption of 
+PEF to 1- 2 MJ/kg biomass even without autolysis  coupling. The biorefinery developed in WP 3 will be the first 
+reported cell disruption that has specifically been tailored to process wet biomass cultivated on digestate, enabling 
+novel development of sciences in the impact of growth conditions on cell-wall configurations and disruption.  
+Protein release:  As part of the cascading biorefinery development, we will also analyse the amount of protein released 
+by the biomass into the medium after cell disruption and phase separation as a separate product stream.  
+WP3: Lipid extraction strategy that allows for maximum solvent recycling and minimises solvent cost   
+High solvent demand during lipid extraction. Lipid extraction is a critical bottleneck in microalgae fuel production, 
+requiring substantial solvent usage (or solvent-to-biomass ratio) ranging from 3 to 200 L/kg biomass  (Table 1.2c). 
+Many studies have selected their solvent usage arbitrarily, based on analytical amounts needed for total lipid 
+extraction rather than consideration of scalability, thus contributing to the significant range observed in Table 1.2c. 
+High solvent usage exerts double negative effect on OPEX, firstly through the direct cost of solvent  purchase and, 
+secondly, through the high energy cost associated with solvent evaporation (to separate solvent from extracted lipids). 
+A critical strategy t o reduce solvent usage is through effective solvent recycling. This, however, requires careful 
+consideration to the solvent choice, as wet processing route entails complex interactions between water and solvents.   
+Table 1.2c: Solvent usage for lipid extraction 
+System  Solvents  Solvent usage [L/kg 
+biomass]  
+References  
+Monophasic  Chloroform:methanol (2:1), ethanol, 
+hexane:methanol, hexane:ethanol, hexane: IPA (3:2) 
+3 – 200 33,34,35,36, 
+37,38,39,40, 
+41   Biphasic Hexane 1.5 – 60 
+Solvent selection. Solvent forms complex interaction with water molecules surrounding the cells  during lipid 
+extraction from wet biomass. Solvent system can be divided into two categories: the ‘monophasic’ approach in which 
+the solvents are perfectly miscible with water so that the whole extraction mixture forms a single phase and the 
+‘biphasic’ approach where non-water-miscible solvent i.e. a non- polar solvent (e.g. hexane, heptane) or solvent of 
+very low polarity ( ethyl-acetate, methyl tert-butyl ether MTBE) is used and the extraction mixture retains separate 
+water and solvent phases. The monophasic approach generally uses a polar solvent which is then difficult to separate 
+from water after extraction42. In the worst case, the solvent can form an azeotrope with the water ( in the case of 
+ethanol), which considerably increases the separation costs  through fractional distillation. The difficulty associated 
+with separating monophasic solvent from water means that solvent recycling will be very energy intensive , making 
+it nearly impossible to effectively recycle solvent and thus to minimise solvent usage. On the other hand,  for the 
+biphasic approach, low-polar solvents do not form a single phase with water and can thus be separated from water in 
+the slurry using a less energy -intensive phase separation step (e.g. centrifugation), facilitating effective solvent 
+recycling and reduction in solvent usage. Additionally, biphasic solvent systems are more selective towards neutral 
+lipids, the form desirable for HEFA conversion, preventing co-extraction of polar lipids and proteins.  
+Development of  lipids extraction using biphasic solvent and solvent usage target. In WP 3 (Task 3.2), we will 
+investigate non-polar or low-polar solvent systems for biphasic extraction of lipids from treated/disrupted algae slurry 
+obtained in Task 3.1. We will first screen different solvents for the three investigated species, determining  which 
+solvent or solvent system resulted in maximum lipid recovery  from treated/disrupted microalgal slurry . Once the 
+solvent system has been selected, we will systematically reduce the solvent  usage for the specific species through 
+parametric optimisation  of the extraction step (e.g. agitation level, duration, number of equilibrium stages)  and 
+gradual increase in biomass concentration (from 100 to 200 g biomass / kg slurry)  with the goal of extracting a 
+ 
+33 DOI: 10.1016/j.rser.2018.05.012   
+34 DOI: 10.1021/acs.jafc.5b00241  
+35 DOI: 10.1016/j.algal.2016.11.005  
+36 DOI: 10.1016/j.biombioe.2011.09.003  
+37 DOI: 10.3844/ajbbsp.2011.70.73  
+38 DOI: 10.1186/1475-2859-13-14  
+39 DOI: 10.1007/s10811-013-0189-y    
+40 DOI: 10.1007/s10811-020-02037-z  
+41 DOI: 10.1016/j.biortech.2015.03.126.  
+42 DOI: 10.1016/j.apenergy.2016.06.002  
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+13 
+minimum of 80% available lipids. In Section 2.2, w e have calculated the cost of algal HEFA based on an average  
+solvent usage of 15 L/kg biomass and fuel target of 10 Mt/year. The cost of lipid extraction step was found to be 
+2.4$/kg HEFA, while the energy demand of lipid extraction was 20.6 kWh/kg HEFA, largely driven by the need for 
+solvent evaporation . Our aim in WP3 is thus to cut down solvent usage to 3.5 L/kg biomass, enabling OPEX 
+associated with lipid extraction to be reduced to 0.57$/kg HEFA and energy demand  of solvent evaporation to  
+decrease to 6.51 kWh/kg HEFA . This amount of reduction is needed in order to achieve our ambition of  a HEFA 
+cost of 6.30 $/kg and favourable EROI (>1). This target seems reasonable since both KIT and UCD have previously 
+demonstrated that hexane extraction from PEF -treated A. prototheorids  wet biomass and HPH -treated wet  
+Nannochloropsis biomass32 respectively can achieve 80% lipid extraction at 2-4 L solvent /kg biomass. 
+Emulsion mitigation  to enable solvent recycling . In theory biphasic solvent system should lead to facile phase 
+separation of solvents from water  (via centrifugation) , enabling effective recycling  and reduced solvent usage . 
+However, in reality, amphiphilic interactions between solvents, water and extracted lipids can often result in the 
+formation of stable emulsion which traps solvents and leads to solvent losses. We have reported on this before for 
+the hexane system32 but literature remains scarce and data from soybean processing industry suggests that solvent 
+losses between 0.05 and 0.3% of solvent is expected. The phenomenon, however, is difficult to observe and measure 
+at bench scale. For this reason, once extraction conditions have been optimised at bench scale, we will test the best 
+extraction systems at intermediate scale  (ca. 300 g of wet slurry)  and measure the level of emulsion formation. 
+Methods to minimise emulsions will be investigated (e.g. pH adjustment) to achieve 95% solvent recycling. 
+Pilot scale -up of autolysis-based cell disruption and b iphasic lipid extraction . In WP6 (Task 6.1), optimum cell 
+disruption and lipid extraction process es (for the selected species) as discovered in WP3 , and guided by techno-
+economic and LCA in WP5, will be scaled up on partner BIAE site. In WP6 (Task 6.2), the pilot -scale biorefinery 
+will be operated for the extraction of sufficient lipids for conversion to 1 kg of HEFA-SPK 
+WP4: Multifunctional catalytic process for hydrotreatment conversion of microalgal lipids to HEFA-SPK   
+Lack of optimum catalyst for algal HEFA conversion. Algae oils are well positioned as HEFA feedstock thanks to 
+the high content of high-carbon-length lipids suitable for HEFA conversion. However, implementation of algal oils 
+in commercial HEFA installations has been shown to lead to accelerated catalyst deactivation and low yields of SPK-
+type alkanes; this is likely attributed to the lack of reactivity of oleic acid (C18:1), a major fatty acid in algal lipids, 
+to Pt-based catalysts used in the conversion process43.  
+Development of algae-specific catalysts and HEFA-conversion process. In WP4 (Task 4.1), we aim to achieve high 
+HEFA conversion from algal lipids by developing novel multifunctional catalysts (based on transition metals) 
+specifically tailored to handle alga l lipid compositions. We will tap into UCAM’s extensive experience in fuel 
+catalyst development to first benchmark a two -step and single-step HEFA process using current understanding of 
+hydroprocessing routes with hydrodeoxidation, isomerisation, hydrocracking reactions based on common catalysts; 
+then, we will develop new, algal-specific catalysts, designed to work with high content of oleic acid in algal lipids. 
+We will control the oxygen- removing mechanism by using transition metal catalysts (Ni, Mo, Co, Cu, Fe)  and 
+promote selective hydro -isomerisation with 
+mild/medium-acidic supports (zeolites, alumina) . 
+Those two steps will be investigated using separate, 
+single-function catalysts, optimised for their sp ecific 
+roles, and a combined bi -functional catalyst for a one -
+step HEFA treatment. Our goal is to significantly 
+improve the yields of SPK components, with an 
+overarching ambition to characterise algae lipid- to-HEFA conversion process and understand the cat alytic 
+mechanisms that pro  mote the production of SPK -desired C9 -C15 alkanes from algal feedstocks. This will be 
+achieved by analysing high-granularity experimental data obtained for varied feedstock composition/catalyst/support 
+combinations in single- and two-step process approach.  
+Cost reduction during HEFA conversion. In addition to algae -specific catalyst development to facilitate high 
+conversion, in WP4 (Task 4.2), we will be investigating innovative ways to reduce the cost associated with HEFA 
+conversion process from algal lipid feedstock. In this case, we will develop a chemical looping system that allows 
+for the production of green H
+2 from the HEFA waste stream containing propane at ~500ºC and the recycling of the 
+generated H 2 for chemical rea ction (Figure 1.2b ). Hydrogen is the key component in HEFA (required for 
+hydrooxidation and hydrocracking), but most H2 for the process is currently produced from energy-intensive steam-
+reforming, thus increasing the energy requirements and OPEX of HEFA conversion. Under the proposed system, 
+UCAM will design a new, chemical looping reactor, filled with inexpensive Fe -based material, that will react with 
+waste propane producing water and CO2. The H2-production step will be conducted by regenerating the Fe-material 
+ 
+43 DOI: 10.1016/j.renene.2016.05.075  
+Figure 1.2b: HEFA route loop modification 
+
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+14 
+with water, leading to H 2O splitting in a thermochemical reaction. Adding in- house generation of H2 will improve 
+the economics of HEFA production; while contributing transferable innovation in HEFA processing beyond algae.  
+Pilot scale-up. The investigated route will be scaled up and validated in WP6 (Task 6.3) to produce 1 kg of HEFA. 
+WP4: Process for the conversion of biomass residue to TCR-HDO fuel   
+TCR-HDO as promising fuel conversion pathway. Cellulosic biomass can be converted to fuel intermediates through 
+pyrolysis, hydrothermal technologies or gasification routes. However, there are still to-date no direct commercially 
+mature routes for the application of pyrolysis oil (after modification) in fuel applications.  Pyrolysis generates a dark 
+brown oil consisting of 100+  different compounds (including oxygenated compounds , nitrogenated cyclic 
+compounds, and sulfonated compounds) which lack thermal stability and are thus unsuitable for engine application. 
+TCR, on the other hand,  produces a thermal ly stable oil that can be subjected to subsequent hydrogenation step 
+(HDO) for the removal of hetero atoms O, N, S  (in form as H2O, H2S, NH3 ) and upgrade to saturated olefines. In 
+WP4, we will investigate the full TCR-HDO pathway as a possible route for the production of hydrocarbons (diesel, 
+kerosene and petrol fraction) from deproteinated and delipidated microalgae biomass residue. Even though TCR 
+reforming is a relatively mature technology (TCR = 7), the subsequent hydrogenation step needed to upgrade the oil 
+to petrol/diesel equivalence remains at a lower TRL level (TRL = 4). In the context of microalgae, no TCR 
+investigation has ever been carried out on microalgae biomass or residue, underscoring the project novelty. 
+Development of TC R-HDO for microalgae residue.  By investigating TRC+HDO conversion of algae biomass 
+residue, additional energy from microalgae biomass can be generated beyond lipid extraction and conversion. This 
+will increase the overall energy efficiency of SusAlgaeFuel process. In WP4  (Task 4.4), Fraunhofer UMSICHT 
+will adapt their patented TCR -HDO flagship process (WO2015158732A1) previously developed for other 
+biomass (e.g. sewage sludge) for algal application. A tailored hydrotreatment step (HDO) for algal biomass will be 
+developed through optimisation of catalyst composition, temperature, pressure and gas velocity in order to maximise 
+oil production (and minimise syngas and char production). The syngas generated from TCR process will be internally 
+recycled as H
+2 source for the hydrotreatment step, thus reducing overall conversion cost. 
+WP4: Purification of fuel molecules for the production of high-quality HEFA-SPK and TCR-HDO fuels 
+Development of purification methods for algae fuels. Sustainable aviation fuels must fulfil ASTM standards, which 
+condition the minimum physical and chemical properties required to ensure safe operations during flight. Fuel 
+properties directly correlate to their composition and the level of common impurities (usually water, metals and 
+sulphur), the levels of which can in turn be controlled through refining and purification steps. The process needed to 
+upgrade algal derived SAFs to achieve aviation specifications has never been previously reported. In WP4 (Task 4.3 
+and Task 4.5) , we will leverage UCAM’s and UMSICHT’s extensive experience and infrastructure in fuel 
+development and upgrading to investigate the combination of possible fuel upgrading steps that a re most optimal 
+for the algal -derived SAFs. Separate purification pathways will be investigated for HEFA -SPK (by UCAM) and 
+TCR-HDO oil (by UMSICHT) to facilitate the development of customized purification for the specific fuel types. 
+Our overarching goal for the purification process is to minimise the intensity and cost requirements of unit operations. 
+This will be achieved by first correlating the key physical properties of the fuel (thermal stability, volatility) with 
+carbon distribution in the fuel components and the content of inorganics. Then, we will use the correlation to define 
+the minimum set of purification and refining steps, assessing possible experimental combinations. Dedicated 
+microfluidic devices will be designed and built as necessary in order to reduce the amount of requisite fuel feedstock 
+for purification steps (in the case that a large number of combinations needs to be investigated and we have limited 
+fuel availability in the early phase of the project). For HEFA -SPK, the purification/upgrading strategies to be 
+investigated include caustic treatment, filtration, and distillation. For TCR -HDO, we will investigate distillation, 
+polar solvent extraction, and aromatic compound enrichment. Blending and additives will be considered if the 
+proposed purification strategies appear insufficient. We will then create a decision toolbox (fed to WP5), connecting 
+the purification steps with the achieved fuel composition and energy requirements.  
+WP5: Process simulations, techno-economic and social life-cycle analysis 
+Holistic techno-economic and life-cycle analysis. The integration tasks foreseen here are instrumental in developing 
+a step-change solution for producing sustainable fuels from microalgae . From the start of the project, experimental 
+research on algae cultivation, culture purification, biorefinery fractionation, and fuel production and purification will 
+be supported by simulations, techno- economic and environmental assessments. All proposed processes will be 
+studied separately in bench-scale setups before being integrated using simulations in a single process train, looking 
+for synergies in process integrations (e.g. water recycling in biorefinery, heat transfer in HEFA reactions) for large-
+scale production under realistic set of process conditions. The design of the optimised configuration will be presented 
+in a virtual biorefinery plant with the capacity of 10,000,000 kg SAF p.a. (WP5, Task 5.1 ), with the process and 
+material flowsheeting directly linked with the environmental assessments using Life Cycle Analysis (LCA) (WP 5, 
+Task 5.2). Uncertainty analysis and techno- economic assessment will be carried out in WP 5 to identify major cost 
+drivers and assess commercial scalability  of the proposed approaches. The LCA modelling in WP 5 will require a 
+number of new models to be developed for assessing the carbon and environmental footprint of SusAlgaeFuel 
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+15 
+methods. The techno-economic and LCA results will be combined with experimental results from WPs1-4 to inform 
+the SusAlgaeFuel team of the most optimal option for scaling up during pilot production in WP6.  
+Social analysis. Social LCA (sLCA) will also be carried out in WP5 (Task 5.2) to explore the social impacts of the 
+developed products/ technologies along the life cycle  and derive holistic multi-actor assessments of process 
+sustainability. We will identify the main social impact categories (e.g working conditions, health and safety impact), 
+the key stakeholder groups that will be affected by value chain (e.g. employees, raw-material suppliers, people who 
+live near AD plant) and evaluate the impact levels for each category/stakeholder group. The techno-economic, LCA 
+and sLCA results from WP5 will be used to propose policy recommendations and business model in WP7. 
+1.2.2 Compliance with ‘Do No Significant Harm’ DNSH Principles 
+SusAlgaeFuel will comply with the DNSH Principles  and align itself with  the targets and mandates of major EU 
+policies pertaining to the green bioeconomy (e.g. European Green Deal, Farm to Fork), waste management (e.g. EU 
+2019 New Waste Framework Directive ), climate protection and renewable energy (e.g. RED II, Fit for 55 ) by: a) 
+exploiting waste products from AD as nutrients for microalgae cultivation , thus providing bioenergy sectors with a 
+more sustainable (and potentially more commercially viable) means of valorising their waste products  while 
+complying with EU-wide directives in waste management (e.g. Nitrate Vulnerable Zone legislation for AD)18 and b) 
+developing wet algal biorefinery which bypasses the need for drying and reduces GHG emission.    
+1.2.3. National and International Research Activities 
+SusAlgaeFuel will build on the technical  know-hows and infrastructure acquired by project partners through 
+participation/coordination in ongoing/completed EU and national research programmes (Table 1.2d).  
+Table 1.2d: Synergies of SusAlgaeFuel with other EU and national projects involving consortium partners  
+Project Summary and Synergies with SusAlgaeFuel 
+MICRO-LYSIS: ‘Cell-Wall Autolysis for the 
+Scalable Fractionation of Microalgae into Biofuels 
+and Novel Food Products’, UCD, Irish Research 
+Council, ongoing, 2022-2026  
+Micro-lysis plans to exploits autolysis for scalable and low-energy 
+fractionation of several industria lly important microalgae species 
+for food and fuel applications. Autolytic incubation will be 
+investigated in WP2.  
+EIRALGAE: ‘Exploring the synergies between 
+anaerobic digestion and microalgae for the 
+development of energy independence, food-security 
+and carbon neutrality in Ireland’, UCD, Sustainable 
+Energy Authority of Ireland, ongoing, 2023 – 2027.  
+EirAlgae aims to develop s calable biorefinery processes using 
+Nannochloropsis to valorise AD waste into ω-3 PUFAs and protein 
+for feed application. UCD will build on their knowledge of  
+autotrophic growth on digestate and CO2 capture system in WP1. 
+BIOFAT: ‘Biofuels from Algae Technologies’, 
+A4F, FP7-ENERGY, completed, 2011-2016 
+A4F coordinated demonstration project with a farming area of 10-
+ha, gaining knowledge of autotrophic growth for WP1. 
+BioSPRINT. ‘ Improve biorefinery operations 
+through process int ensification and new end 
+products’, IRIS, H2020, BBI, Ongoing.  
+In this project, IRIS is  developing a photonics -based monitoring 
+solution to analyse compounds in the biomass residue  from sugar 
+biorefinery; this knowledge will be employed in WP2. 
+SABANA: ‘ Sustainable Algae Biorefinery for 
+Agriculture and Aquaculture’, KIT, H2020, 
+completed, 2016-2021 
+SABANA compared conventional microalgae pretreatment 
+technologies (HPH, bead milling) to PEF treatment. KIT has gained 
+significant experience in microalgae processing to advance WP3. 
+TOSYNFUEL: ‘ Turning sewage sludge  
+into fuels and hydrogen’, UMSICHT, Horizon 
+2020, completed, 2017-2022. 
+UMSICHT coordinated TOSYNFUEL to demonstrate the 
+conversion of sewage sludge to petrol using TCR. Methodologies 
+and infrastructure will be transferred to WP4 & WP6.  
+1.2.4. Interdisciplinary Nature  
+SusAlgaeFuel will adopt a multidisciplinary approach in the intersection of microalgae biotechnology, bioprocess 
+engineering/biorefinery, fuel conversion, economic, sustainability, and policy analysis. Indeed, the consortium will 
+collaborate together in an interdisciplinary approach, converging knowledge clusters from the following fields across 
+the work plan:  microalgae, wastewater treatment, CO 2 capture, AD system (UCD, A4F, BIAE) for microalgae 
+cultivation work (WP1); microalgae and fundamental biology, sensor development, machine learning (IRIS, UCD) 
+for the real -time monitoring of bacterial contamination (WP2); bioprocess engineering, biorefinery system (KIT, 
+UCD) for the biomass purification work (WP3); fuel engineering/chemical engineering, fuel chem istry, meta(data) 
+analysis (UCAM, UMSICHT)  for the fuel conversion/purification work (WP4); process simulations, LCA and 
+sustainability (SFS, UCD) for the process integration (WP5); microalgae, bioprocess engineering, fuel engineering, 
+fuel testing, digita l twins (BIAE, A4F, UCD, UCAM, UMSICHT, IRIS) for the pilot scale up work (WP6), and 
+finally expertise in science dissemination, research commercialisation, policy analysis (ESCI, UCD, SFS) necessary 
+for the communication, exploitation and policy efforts that will be performed in WP7..   
+1.2.5. Social Sciences and Humanities Aspects  
+Our methodology integrates social sciences and humanities (SSH) aspects, whereby the technology development will 
+be complemented with techno -economic and life -cycle analyses to assess  scalability from economic, social and 
+environmental perspectives and identify process improvements . As such, economic, environmental and social 
+experts from UCD and SFS will work together to conduct a rigorous evaluation of the techno-economic and socio-
+environmental dimension of the results generated from the project and its impacts for the proposed value chain  
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+16 
+(WP5), and the conclusions will in turn inform the technical  and scientific R&D work in a circular loop to enable 
+process improvements and iterative optimisations. Importantly, the social LCA (sLCA) that will be carried out to 
+explore the social impacts and sustainability of the developed products and technologies, and their actual and 
+potential positive as well as negative impacts along the life cycle, is still relatively novel but is becoming increasingly 
+important in holistic sustainability assessments.  In WP7, business expertise will be mobilised to develop a 
+business/commercialisation model to map out potential exploitation pathways for different project results by the 
+relevant stakeholders using methodologies such as one-to-one interviews and consultation with industry stakeholders 
+in microalgae, AD, fuel production, aviation, and policy-making beyond the current consortium partners and lead to 
+a joint publication outlining the roadmap for adoption by each of the relevant stakeholders (D7.4). During this 
+process, GDPR -compliant data -collection principles on ques tionnaires preparation and unbiased interview 
+techniques will be strictly implemented. Marketing and communications experts will also work with the consortium 
+in the most effective way of engaging with, mobilising, and securing the buy-in of stakeholders.    
+1.2.6. Gender Dimension  
+The direct outcome of SusAlgaeFuel will be a more sustainable and cost -competitive algae biofuel. While this 
+outcome will apply to both males and females indiscriminately, there are gender dimensions that impact various 
+aspects of the technology and its implementation. Efforts to promote gender diversity in our own team can lead to 
+a broader range of perspectives and innovative solutions. In our engagements beyond the consortium, in our one-to-
+one interviews and consultation with industry stakeholders , we will aim to secure inclusive and gender balanced 
+participation to incorporate unbiased gender perspective in industry leadership, policy decision making, consumer 
+perceptions and preferences. SusAlgaeFuel is also committed to championing women in STEM and STEM research. 
+To this end, we will conduct a Women -in-Science Campaign as part of our communication actions ( Section 2.2). 
+In this campaign, ESCI  will interview the women in our consortium  and provide them with a platform to tell the 
+journey of their scientific careers and how they overcome societal challenges. The interview will then be featured in 
+SusAlgaeFuel dedicated social-media channels to inspire young adults to pursue a career in science.   
+1.2.7. Open Science 
+SusAlgaeFuel will develop a proactive Open-Science approach to promote the accessibility and transparency. 
+Databases and publications will be preserved in open -access repositories: After appropriate IP protection is in 
+place, results will be published in international open access journals via the Green Open-Access route. They will also 
+be archived and made available in trusted open-access repositories (e.g., Open Research Europe and DRYAD Digital 
+Repository). This practice will ensure the latest discoveries can be searched by other actors in relevant fields. 
+Registered pre-prints will be employed to ensure the early and open sharing of the research.  Data sets, supporting 
+data, experimental materials, methods , and design will also be archived together with written reports, allowing 
+information to be re-analysed, replicated, and reused. Research output management Project outputs will be made 
+accessible to the public through a range of activities: the project’s website and social-media (Section 2.2). The Data 
+Management Plan (Section 1.2.8) provides details on how research outputs will be managed through FAIR principles.  
+1.2.8. Data Management  
+Overview: Data management is an integral part of project implementation. All data management practice will strictly 
+adhere to the FAIR principles to ensure that the data are Findable, Accessible, Interoperable, and Reusable. Moreover, 
+a full Data Management Plan (D8.1) will be delivered within the first six months of the project.  
+Types of data/ research output, their findability, and accessibility:  Project data/research outputs are comprised 
+of quantitative and qualitative data, generated through both primary (i.e. experimental results) and secondary (i.e. 
+policy assessment) research. Data will be deposited into open access repositories such as Dryad Digital Repository, 
+which will be findable using keyword selection, versioning, and a standard identification mechanism (i.e., Digital 
+Object Identifiers). Deposition of commercially sensitive data will not occur until the necessary steps to protect the 
+commercial values of the data have been undertaken. Data sharing with institutions/researchers external to the 
+consortium may occur on an ad-hoc basis at the discretion of SusAlgaeFuel’s Executive Board.  
+Interoperability and Reusability of data/research outputs: Data and metadata produced during the project will be 
+made interoperable through the use of a formal, accessible, widely -used, and broadly applicable vocabulary for all 
+research outputs. Data files will be delivered in a non -proprietary open fi le format dictated by the Dryad Digital 
+Repository (i.e. tabular data stored as Comma- separated values (CSV) and images as .jpeg) accompanied by a 
+README file providing a clear and concise description of all components of the data set and software used to ensure 
+it is reusable. Where necessary, data and metadata will include qualified references to other data/metadata. For 
+datasets shared on public repositories, we will apply a Creative Commons Attribution license to ensure reusability. 
+Curation and storage /preservation costs: In order to minimise the risk of confidentiality breach: data storage, 
+handling and retention will be carefully planned by each partner in compliance with the legislation on data protection 
+(GDPR) within their member state. Prior to curation in open-access repositories, research outputs from all WPs will 
+first be catalogued and deposited into the secure UCD -run Google-drive servers and held as temporary soft copies 
+by each partner to assure data preservation. After project completion, all research outputs will be securely stored for 
+at least 10 years in secure and dedicated open-access repositories (managed by UCD). 
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+17 
+ #§CON-MET-CM§# #§COM-PLE-CP§# #§REL-EVA-RE§#  
+2. IMPACT #@IMP-ACT-IA@# 
+2.1. Project’s Pathways towards Impact                                                                                                      
+2.1.1. Unique Contributions towards Expected Outcomes and Wider Impacts 
+SusAlgaeFuel combines a holistic and innovative approach for microalgae Sustainable Aviation Fuels (SAFs) 
+covering: a) direct capture of CO 2 emissions from biogas upgrading and utilisation of waste digestate as a widely 
+available and low-cost nutrient source to support algae growth; b) novel in- line PAT complemented with machine 
+learning and selective UV irradiation to monitor and purify bacterial contamination from algae culture; c) cascading 
+biorefinery that relies on autolysis (self-disruption) and maximises solvent recycling in order to fractionate biomass 
+into lipids, protein serum and cellulose-rich biomass residue at low energy and solvent requirements; and d) algae -
+specific thermocatalytic pathways for the efficient conversion of algae -lipids to HEFA-SPK and residue to bio- oil, 
+followed by a range of purification methods for fuel refinement to meet aviation standards and certification.  
+This innovation has been carefully designed address the HORIZON- CL5-2023-D3-02-09 Call comprehensibly. 
+Through the succession of innovative ideas bringing about the transformative step-change in each process unit across 
+the whole algae- to-fuel process train,  SusAlgaeFuel is positioned to concretely deliver 3 out of 6 call-specific 
+Expected Outcomes (EO1, EO2, EO4).  
+EO1 Availability of disruptive sustainable renewable fuel technologies in order to accelerate the replacement 
+of fossil-based energy technologies in aviation and/or shipping. 
+Through innovative strategies SusAlgaeFuel will bring to market the first certified algal SAF  to propel the shift 
+from fossil-based aviation energy to sustainable alternatives, with the potential to deliver 20% of the EU’s projected 
+SAF requirements of 5 Mt in 2030.  
+At its core, SusAlgaeFuel champions circular production , making use of waste digestate from AD as a nutrient 
+source for microalgae growth (WP1). This not only minimizes waste but also broadens the sources of feedstock for 
+microalgae cultivation, promoting resource efficiency and sustainability. In alignment with the European Green Deal, 
+the initiative actively captures CO 2 emissions from biogas upgrading and uses them to support microalgae growth  
+(WP1 followed by WP6) . This dual -purpose approach not only curbs carbon emissions but also transforms waste 
+CO2 into a valuable resource for fuel production, contributing to climate change mitigation.  
+Ensuring the consistent health of microalgae cultures is vital for sustainable fuel production . SusAlgaeFuel is 
+developing groundbreaking Process Analytical Technology (PAT) combined with Machine Learning, along with 
+selective UV irradiation (WP2) to monitor and purify bacterial contamination, effectively preventing costly culture 
+crashes and ensuring a stable and reliable supply of microalgae for fuel production. 
+The cascading biorefinery approach (WP3), which leverages energy-saving a utolysis and allows for maximum 
+solvent recycling, minimizes energy and solvent requirements while efficiently fractionating biomass into valuable 
+components, enhancing overall process sustainability . Microalgae biofuel technology will be significantly 
+advanced by developing low-energy technologies to disrupt microalgae cells and free intracellular lipids and proteins. 
+Indeed, the proposed wet-processing pre-treatment methods are the potential game-changers, offering a solution to a 
+long-standing need for biomass drying.  
+Additional improvements in biofuels production will come from the algal -specific process routes to HEFA -SPK, 
+improving the attainable yield  of energy- dense aviation fuels by advancing  two separate pathways for fuel 
+conversion: lipid hydrotreatment and thermochemical reforming of process waste, i.e. algal residue.(WP4) . Quality 
+assurance is paramount, and SusAlgaeFuel will develop purification methods to ensure our microalgal SAF meet s 
+international aviation standards and certification requirements (WP4). 
+SusAlgaeFuel doesn't stop at technical innovations. It conducts rigorous assessments of the commercial scalability 
+and the social and environmental impacts of its production strategies  (WP5). This holistic evaluation provides 
+valuable insights into the broader feasibility and sustainability of our  microalgae biofuel production strategies to 
+enable iterative optimisation. To demonstrate the real-world applicability of the integrated technologies, we will build 
+a pilot-scale system capable of producing 10 kg of algal lipids per year (WP6). This system, located at an AD operator 
+site of partner BIAE  in Ireland, allows for the production and quality testing of 1 kg of algal HEFA -SPK within 
+project lifetime. This hands-on demonstration serves as a practical showcase of the scalability and performance of 
+SusAlgaeFuel's disruptive technologies, and ensures we credibly assess the commercial scalability. Furthermore, 
+SusAlgaeFuel is harnessing the power  of digital technology. Encapsulating all the knowledge, knowhow and data 
+generated in a digital twin of the integrated fuel production system  will be a major asset in allowing us  to project 
+production performance under different scenarios/conditions, s erving as a decision toolbox to guide future 
+stakeholders, and facilitating a faster adoption thereby  accelerating the replacement of fossil-based aviation energy 
+technologies. Lastly, SusAlgaeFuel recognizes the pivotal role of policy support. Actively engaging in policy 
+discussions, it provides concrete policy recommendations at the EU level  (WP7). These recommendations aim to 
+foster and promote advanced algal biofuels, aligning with sustainability and climate goals.  
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+18 
+Scale and Significance of the contribution to EO1 
+We have made initial scaling calculations to assess the potential long -term impact of SusAlgaeFuel on AD 
+operation (i.e. digestate treatment) and SAF production in the EU, taking into account the availability of digestate 
+in the EU, the uptake of N by microalgae, the projected growth of AD and projected growth of SAF demand. We 
+have used the innovations outlined in SusAlgaeFuel to calculate potential SAF yield from microalgae production.   
+Methodology and assumptions: REPowerEU has set a target of 35  BCM of sustainable Biomethane produced 
+from AD in Europe by 2030. This is proposed to be achieved through a combination of 4,000 new smaller/medium 
+AD Plants producing 4M m 3 per annum (@€80MWH) (~5MW) and 1,000 larger AD pl ants producing 16M m3 
+per annum (@€55MWH)(~20MW). At least 56% (19.6 BCM) of the sustainable Biomethane potential is from 
+animal manure and agricultural residues44 . The European Biogas association (EBA) has estimated 492 Mtonnes 
+of digestate production in Europe in 203044 . The use of digestate varies depending on the feedstock from which it 
+is derived, so not all of them will be availed for microalgae valorisation (e.g. d igestate from animal by-products 
+or containing heavy metals are not compliant with EU directives for use in food production).  Based on the EBA 
+projected digestion production, assuming 50% of digestate is economically available for algal cultivation and 70% 
+of that is remaining as liquid digestate fraction after solids removal, we have assumed that 172 Mt of digestate is 
+available in Europe as nutrient source for algal cultivation. Since nitrogen is likely to be the limiting nutrient for 
+algal growth (considering there is only 0.361% N in the digestate45 ), we have calculated our biomass productivity 
+(and subsequent HEF A yield) based on the amount of N available for algal uptake in the digestate. Other 
+assumptions: lipid content = 30 wt% biomass, protein content = 35 wt% biomass, sugar content = 35 wt% biomass.  
+Results: As shown in Table 2.1a, using SusAlgaeFuel process, we have calculated that each medium -scale and 
+large-scale AD plant has the capacity to produce up to 955 and 3,910 tonnes of SAF per annum respectively (as 
+HEFA). When scaled across all AD plants in Europe , SusAlgaeFuel process has the potential to treat 172 Mt 
+digestate per annum and generate 6.2 Mt of algal biomass per annum, leading to the production of 1 Mt of 
+HEFA-SPK per annum (or 20% of Europe’s projected SAF requirements of 5 Mt in 2030). The process will 
+also lead to the co-production of 2.2 Mt of protein for feed application and 2.2 Mt of biomass residue that can 
+be further converted to SAF via TCR-HDO pathway.  
+Table 2.1a: Potential impact of SusAlgaeFuel to the European AD and SAF industries 
+ 
+  
+Medium AD Large AD Europe 
+~5MW ~20MW   
+Digestate produced Tonnes p.a        217,308         889,315         492,000,000 
+Liquid digestate available for algae growth Tonnes p.a        152,115         622,521         172,200,000  
+N content of liquid digestate % 0.361 0.361 0.361% 
+N fraction of algal biomass % 10 10 10% 
+Algal Biomass produced (dry weight) Tonnes p.a             5,491           22,473             6,216,420  
+HEFA-convertible lipid fraction of algal 
+biomass (SusAlgaeFuel process) % 30 30 30 
+HEFA to SAF conversion (SusAlgaeFuel) % 58 58 58 
+HEFA-SPK yield (as primary SAF) Tonnes p.a                955              3,910             1,081,657 
+Protein yield (for feed) Tonnes p.a 1,922 7,866 2,175,747 
+Biomass residue yield (for TCR-HDO 
+conversion as secondary SAF) Tonnes p.a 1,922 7,866 2,175,747 
+The impacts on the associated value chain  of disruptive SusAlgaeFuel SAF will also be a boost for industrial 
+competitiveness and leadership as outlined below.  
+Impact on the European SAF industry: The SAF industry in Europe is in its infancy. Aviation as an industry faces 
+a mounting challenge to decarbonise in line with, or even above, set targets. In the foreseeable future there are three 
+energy carriers capable of powering aircraft sustainably: hydrogen, electricity and liquid hydrocarbons (i.e., SAF). 
+Without disruptive technology development, liquid hydrocarbons are the only solution for medium/long- range 
+aircraft, SAF is, therefore, crucial to the EU's future socio-economic development. EU SAF demand in 2030 will be 
+5 Mt, increasing to 41 Mt by 2050. SAF production analysis by SkyNRG indicates that approx. 1 Mt of SAF capacity 
+ 
+44 EBA, Tracking biogas and biomethane deployment across Europe. 2022 
+45 AFBI, 27 MONTHS PERFORMANCE SUMMARY FOR ANAEROBIC DIGESTION OF DAIRY COW SLURRY AT 
+AFBI HILLSBOROUGH. 2011. 
+
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+19 
+will be operational in the EU by 20271, representing significant shortcoming to meet demands. The majority of SAF 
+in Europe is manufactured from feedstocks such as waste fats, oils and greases utilising HEFA conversion pathways. 
+The need to find sustainable alternatives for aviation is clear, but challenges remain in its production, with significant 
+price difference to conventional jet fuel as key barrier to large-scale SAF production in Europe . SusAlgaeFuel is a 
+gamechanger for the EU’s SAF industry as it will enable the production of 1 Mt of SAF (or 20% of Europe’s projected 
+SAF requirements in 2030), and already this potential has sparked commitment of aviation giant Boeing and CityJet, 
+who have both agreed to act as advisory panel to the project, and position themselves as early adopters.   
+Impact on the European microalgae industry: The EU algae sector has historically been dwarfed by larger markets 
+in Asia, accounting for <1% of global algae production, estimated at 32.67 Mt in 2016. Regardless, the EC has 
+steadily introduced policies to promote long-term growth of algal industry (EU Bioeconomy Strategy 2018, EU Blue 
+Growth Strategy 2012) and recently announced 23 actions plans to unlock the potential of algae in healthier diets, 
+lowering CO2 emissions, and addressing water pollution (11/2022). This is expected to be a driver for the growth of 
+the industry at a compound annual growth rate  (CAGR) of 5.8% from 2023 to 2030, reaching US $ 355.48 million 
+(M) by 2030, up from USD 228.66 M in 2022 46,47,48. SusAlgaeFuel will create a more sustainable and  cost-
+competitive EU algae industry through the development of transferrable technologies that can lower the cost of 
+microalgae cultivation (WP1-2) and biorefinery (WP3), while increasing feedstock availability through synergy with 
+AD. The SusAlgaeFuel technologies can add to the arsenal of innovative technologies for microalgae sectors beyond 
+the fuel remit of the current project. Insights into bacteria-microalgae interaction (WP2) can be applied to the growth 
+of other algae species on various agri-food effluents (e.g., brewery waste) for wastewater application. Wet biorefinery 
+using autolysis in WP3 can provide gentle, non- degradative and low -cost extraction methods for higher -value 
+products in nutraceutical applications (e.g., ω- 3 lipids) . SusAlgaeFuel will also confer direct benefits to A4F  
+(microalgae technology provider) by diversifying their service using waste rather than commercial nutrients. 
+Impact on the European AD industry: The total AD market size was valued at ca. USD 47 billion in 2020, growing 
+at a CAGR of 7.55%, and projected to reach about USD 84 billion by 2028. Currently, the EU is the global leader 
+in AD with >17,400 plants 9,49,50. AD is expected to play a critical role in EU’s long -term pursuit for energy 
+independence and decarbonisation, being one of the few processes able to supply drop -in replacement for 
+renewable gas without the need for infrastructure upgrade. EU-wide Directives such as RED II and EU 2030 Climate 
+and Energy Framework actively promote AD. Yet, one of the primary bottlenecks associated with AD adoption is 
+the high initial investment required to set up the plant. As such, it is critical that any potential revenue stream in the 
+process is exploited. While the full digestate has found valuable use as a biofertilizer, there is significant distribution 
+cost to deliver the product to end users, and excessive land spreading of digestate can lead to nutrient leaching into 
+groundwater (resulting in soil acidification and eutrophication)  and NH3 volatilisation9,Error! Bookmark not defined. ,Error! 
+Bookmark not defined.. A potential solution to this problem is to fractionate the digestate into liquid and solid fractions and 
+develop novel applications for the li quid fractions, while the nutrient- dense solid fraction (now smaller in volume 
+and suitable for long-distance transport) can continue to be applied as a biofertiliser. SusAlgaeFuel will cement EU 
+leadership in the AD industry through the development of novel strategies/technologies for microalgae treatment of 
+digestate nutrients and direct capture of biogenic CO2 emission from point source, enabling the valorisation of their 
+waste products into nutrient- dense biofertilisers and valuable microalgae biomass. This creates new commercial 
+circular bioeconomy avenues to diversify income for AD operators and de-risk investment, which in turn can boost 
+AD deployment in the EU.     
+EO2 Reduced cost and improved efficiency of sustainable microalgae-based and/or direct solar renewable fuel 
+technologies and their value chains. 
+Aligned with the important relevant key priority in SET Action 8 to reduce the cost of algae advanced fuel to <35 
+€/MWh (or 0.49 $/kg HEFA) by 2030, SusAlgaeFuel aims to reduce the cost of microalgae SAF from the anticipated  
+12.3 $/kg HEFA  to 6.3 $/kg HEFA (equivalent to a decrease of 4 9%), thus directly addressing the economic 
+barrier that has hindered the widespread adoption of renewable aviation fuels.  
+Our innovation will achieve improv ements in the overall cost of algae fuels through the circular use of cheap 
+wastes digestate from AD as a low-cost nutrient source for microalgae growth which in turn reduces/eliminates the 
+need for expensive commercial nutrients and direct capture of CO 2 emissions from biogas upgrading to support 
+microalgae growth providing a low -cost source of CO 2 (WP1). The novel in-line PAT combined with machine 
+learning and selective UV irradiation, by effectively monitoring and purifying bacterial contamination, will prevent 
+costly culture crashes.  The cascading biorefinery design, which relies on autolysis  in wet biomass slurry (thus 
+bypassing the need for drying while minimising the energy requirements for cell disruption)  coupled with direct 
+solvent extraction whic h allows for facile solvent separation and thus maximizes solvent recycling, will directly 
+reduce energy and solvent requirements, and results in lower operational costs while efficiently producing multiple 
+valuable components from biomass  (i.e. protein se rum for feed) . The development of optimised algae -specific 
+ 
+46 DOI: 10.3389/fnut.2018.00058.  
+47 Commission, E. Commission proposes action to fully harness the potential of algae in Europe for healthier diets, lower CO2 
+emissions, and addressing water pollution. 2022 
+48 DataBridge. Europe Microalgae Market – Industry Trends and Forecast to 2030. 2023  
+49 DOI: 10.1016/j.rcrx.2019.100029.  
+50 DOI: 10.1016/j.biortech.2018.07.100.  
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+20 
+thermocatalytic pathways for converting algae lipids into HEFA -SPK and residue into TCR- HDO oil ensures 
+efficient fuel production with higher yields, contributing to cost reduction and improved ove rall efficiency 
+(WP4). SusAlgaeFuel will also assess the efficiency and commercial scalability of the entire process train as well as 
+individual sub-process (WP5). This holisti  approach addressing multiple stages of the value chain contributes to 
+streamlining the entire microalgae-based renewable fuel production process, enhancing overall efficiency and cost -
+effectiveness. Importantly, the pilot production of SPKs i n WP6 brings the chance to reassess the cost estimates 
+and/or validate approaches, offering more confidence in the cost predictions for the 10,000,000 kg p.a. biorefinery. 
+The Energy Return on Investment (EROI) measures the efficiency of fuel production an d is defined the ratio of 
+final energy produced by the biofuel to energy expended in its production along the entire value chain, The EROI of 
+microalgal biofuels to-date remains unfavourable, hindering their swift development. This is contributed by several 
+factors, including low biomass productivity during cultivation, high energy demand associated with cell disruption, 
+high solvent requirements leading to high energy demand for lipid extraction, and low conversion efficiency of HEFA 
+reactions (<50%). SusAlgaeFuel will improve EROI through a) the development of cultivation strategies  using 
+nutrient-rich liquid digestate and direct CO 2 capture capable achieving high lipid accumulation using oleaginous 
+species (WP1), b) the development of a biorefinery using autolysis with the capacity to reduce the energy demand 
+for cell disruption by 50%, (WP3), c) the selection of low-polar solvents for facile separation from water (facilitating 
+effective solvent recycling which further reduces solvent usage) (WP 3), d) development of HEFA -SPK catalytic 
+pathways tailored for microalgal lipids enabling high conversion efficiency (WP4).  
+Scale and Significance of the contribution to EO2 
+We have carried out preliminary calculations to assess the potential impact of SusAlgaeFuel on the cost and EROI 
+of microalgae SAF production. A baseline process and the SusAlgaeFuel process were compared for the production 
+of 10,000,000 kg HEFA-SPK/year. The baseline process has been assumed based o n conventional experimental 
+process as there is currently no commercially operating microalgal SAF production process.   
+Methodology and assumptions : Baseline process consists of cultivation in  photobioreactors using artificial 
+nutrients (NH3 for nitrogen, DAP for phosphorus) and commercial-grade CO2, harvesting via flocculation followed 
+by filtration, cell disruption with HPH, lipid extraction with hexane, fuel conversion and purification to HEFA -
+SPK. SusAlgaeFuel process is comprised of cultivation in photobioreactors using digestate and CO2 capture from 
+AD, harvesting via flocculation followed by filtration, cell disruption with autolysis + HPH, lipid extraction with 
+hexane at maximum recovery and with emulsion mitigation, fuel conversion and purification to HEFA -SPK via 
+flagship method developed at UCAM. To estimate HEFA-SPK cost, we have calculated a full mass balance and 
+energy balance for both baseline and SusAlgaeFuel processes on the basis of 10,000,000 kg HEFA-SPK/year 
+with the following calculation assumptions:  Equipment lifetime = 20 years. Cultivation: final biomass 
+concentration = 1 g biomass/L. Cell disruption: biomass concentration in slurry = 250 g biomass/kg slurry, 90% 
+rupture, 6 pass, 1500 bar. Lipid extraction consists of an extraction unit, a centrifugation unit and an evaporation 
+unit. Lipid yield = 80%. Energy content of HEFA-SPK = 47 MJ/kg. The mass balances are shown in Figure 2.1a 
+and 2.1b, while the results for cost estimates and energy demand are shown in Table 2.1b and 2.1c.                  
+Results: Cost calculations in Table 2.1b show 
+that the SusAlgaeFuel process can lead to a step-
+change reduction in the production cost of algae 
+SAFs, reducing the potential cost per kg  of 
+HEFA-SPK from 12.3$ to 6.3$ (equivalent to 
+a decrease of 49%). The reduction is primarily 
+driven by a decrease in operating cost (a 56.8% 
+decrease in OPEX) brought about by a series of 
+enabling innovations investigated in each 
+process step along the value chain. The main 
+contributors to the reduced OPEX are: the use of 
+liquid digestate during cultivation as N an d P 
+source to replace (as much as possible) costly 
+artificial nutrients, the effective capture of CO 2 from AD during cultivation to replace (as much as possible) 
+commercial CO2, the reduction in energy cost of cell disruption due to co-development with autolysis, the dramatic 
+decrease in solvent usage during lipid extraction due to effective solvent recycling and emulsion mitigation 
+strategies, and increased lipid- to-HEFA conversion yield coupled with reduced H 2 consumption during fuel 
+conversion due to the  use of multifunctional catalyst and looping process. Even though the anticipated cost of 
+HEFA at project completion ($6.3/kg HEFA) is still significantly higher than the cost of conventional jet fuel ($0.7 
+– 1.4/kg), it compares relatively well with SAFs derived from other feedstocks ($1.9 – 7.7/kg SAF)1, towards the 
+attainment of cost competitiveness beyond the project lifetime through process improvement, scale-up, and 
+government subsidies. EROI calculations in Table 2.1c show that the innovations investigated in SusAlgaeFuel 
+can lead to a significant reduction in the energy requirements for microalgal HEFA production  (up to 66% 
+decrease), consequentially improving the energy balance of the value chain and dramatically altering the EROI of 
+microalgae SAFs to make the process energetically favourable.   
+Figure 2.1a: Mass balance of baseline process (10M kg HEFA-
+SPK/year) 
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+21 
+ 
+51 DOI: 10.1021/acs.iecr.8b03999  
+52 DOI: 10.1016/j.biortech.2013.02.091.  
+                                                                                 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 2.1b: Mass balance of SusAlgaeFuel process (10M kg HEFA-SPK/year). 
+Table 2.1b: Cost comparison between baseline and SusAlgaeFuel process (Production basis: 10M kg HEFA-SPK/year). 
+Process Step  
+ 
+Baseline  
+Process 
+($/kg 
+HEFA-SPK) 
+SusAlgaeFuel  
+Process 
+($/kg HEFA-
+SPK) 
+ 
+% 
+Change 
+Enabling innovation driving cost reduction in 
+SusAlgaeFuel 
+Cultivation  
+CAPEX 0.35 0.22 -36.3 N/A^ 
+OPEX 2.32 0.47 -79.6 
+WP1, WP5, WP6: N and P cost reduced to 20% 
+due to use of digestate. CO2 supply cost reduced to 
+20% due to direct capture from AD. Lipid content 
+increased from 21 to 30 wt%.   
+Harvesting 
+CAPEX 0.64 0.64 0.0 N/A^ 
+OPEX 0.93 0.65 -30.2 N/A^ 
+Cell 
+disruption 
+CAPEX 0.25 0.25 0.0 N/A^ 
+OPEX 1.61 0.56 -65.2 WP3, WP5, WP6: energy cost of HPH reduced 
+from 0.6 to 0.3 kWh/kg biomass due to autolysis 
+Lipid 
+extraction 
+CAPEX 0.12 0.08 -35.8 N/A^ 
+OPEX 2.28 0.49 -78.4 
+WP3, WP5, WP6: solvent usage reduced from 15 
+L/kg biomass to 3.5 L/kg biomass. Solvent 
+recycling increased from 65% to 95% due to 
+emulsion mitigation. 
+Fuel 
+conversion 
+(HEFA) & 
+purification 
+CAPEX 0.84 0.76 -9.1 N/A^ 
+OPEX 2.92 2.17 -25.6 
+WP4, WP5, WP6: HEFA conversion yield 
+increased from 47% to 58%. H2 consumption 
+decreased from 0.34 to 0.25 kg H2/kg HEFA-SPK 
+CAPEX 2.19 1.94 -11.3  
+OPEX 10.10 4.40 -56.8  
+Sum  12.30 6.30 -48.6  
+CAPEX includes equipment cost, land cost, and indirect cost. OPEX includes the cost of energy, nutrients, water and labour. 
+Formulas inError! Bookmark not defined.,51,52 were used for calculations.  
+^ No specific innovation on the cost category. Reduction incurred indirectly due to improvement in other categories (e.g. less 
+usage of solvent during lipid extraction reduces OPEX but also allows for a smaller extraction unit that reduces CAPEX). 
+Table 2.1c: Energy-demand comparison between baseline process and SusAlgaeFuel process for HEFA production.  
+Process Step  
+ 
+Baseline  
+Process 
+(kWh/year) 
+SusAlgaeFuel  
+Process 
+(kWh/year) 
+% 
+Reduction 
+Enabling innovation driving energy-
+demand reduction in SusAlgaeFuel 
+Cultivation  11,357,522 7,185,817 -36.7 WP1: CO2 delivery using membrane  
+Harvesting 7,471,169 4,726,951 -36.7 N/A 
+Cell disruption 75,987,842 24,038,462 -68.4 WP3: Autolysis 
+Lipid extraction 205,844,732 65,132,212 -68.4 WP3: Less solvent usage leading to less 
+energy spent in solvent evaporation   
+Fuel conversion 2,063,830 1,705,644 -17.4 WP4: Heat integration  
+Sum of energy demand 302,725,094 102,789,085 -66.0  
+Energy output* 130,555,556 130,555,556 0  
+EROI 0.43 1.27   
+ 
+
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+22 
+EO4 Enhanced sustainability of aviation and/or shipping fuels, taking fully into account circular economy, 
+social, economic and environmental aspects in line with the European Green Deal priorities. 
+SusAlgaeFuel directly delivers this expected outcome on multiple levels . Waste digestate from AD as a nutrient 
+source for microalgae growth exemplifies a circular economy approach, thereby minimizing waste, reducing the 
+environmental footprint, and promoting resource efficiency and direct capture of biogenic CO 2 emissions from 
+biogas upgrading to support microalgae growth, reducing GHG emissions and contributing to carbon neutrality 
+(WP1, WP6). Overall, the proposed system will enhance the commercial profitability of AD operation, enabling the 
+valorisation of both of their waste streams (CO 2 effluent and digestate) into valuable microalgae biomass and 
+biofertilizer, which in turn have multiplier impact in promoting AD deployment in the EU, sustainable waste 
+management and displacement of GHG-intensive chemical fertilisers. Production of microalgae-based SAFs via our 
+innovative process leads to a direct reduction in carbon emissions compared to traditional fossil-based fuels.  
+The cascading biorefinery approach, which involves fractionating biomass into lipids, protein serum, and cellulose-
+rich biomass residue, demonstrates the utilization of multiple components of the biomass, contributing to maximize 
+the value extracted from the feedstock and promoting circularity (WP3, WP4). Indeed, the production of protein-rich 
+serum from biorefinery (WP3) can contribute to food security in Europe through the development of locally 
+produced feed ingredients, partially alleviating the EU’s dependence on imported soya meal feed and reducing 
+the carbon footprint associated with soy plantation (estimated at 20% of anthropogenic global CO
+2 emissions).  
+Our entire approach is underpinned by a comprehensive Whole Life Cycle Analysis to assess sustainability (WP5) , 
+and our emphasis on reducing carbon emissions, resource consumption, and waste generation directly aligns with 
+the priorities of the European Green Deal and contributes to Europe's commit ment to becoming climate-neutral 
+and fostering a sustainable and circular economy, offering tremendous potential in driving a sustainable aviation 
+sector. Once the certified SusAlgaeFuel SAF is market available, adoption by the aviation industry will have radical 
+emissions reduction impacts, which have already attracted the attention of Boeing and CityJet. The stakes are high 
+in that the CO
+2 emissions of all flights departing from EU27+EFTA airports reached 147 MT in 2019, which was 
+34% more than in 2005 53. In 2050, it is predicted that in -sector measures could reduce CO2 emissions by 69% to 
+59 million tonnes  compared to a  business-as-usual “technology freeze” scenario53. 37% of this re duction could 
+come from SAF 53, and with SusAlgaeFuel gearing up with potential to occupy 20% of the market  (discussed in 
+EO1), it can play a pivotal role in realising this. 
+Scale and Significance of the contribution to EO4 
+We have carried out an initial life cycle analysis (SimaPro) on the proposed SusAlgaeFuel HEFA-SPK pathway 
+to establish a ‘well to wake’ gCO2-e/MJ of neat SAF produced to ASTM D1655 standard.  
+Methodology and assumptions: The boundary conditions were defined to ensure compliance with the core 
+boundary conditions that ICAO CORSIA approved SAFs use: Feedstock Cultivation – Feedstock Harvesting – 
+Feedstock Processing & Extraction – Feedstock Transportation – HEFA Jet Fuel Conversion – Jet Fuel 
+Transportation – Jet Fuel Combustion. Allocation to co-products is included on a conservative mass balance basis. 
+LCA model was built on the mass and energy balances obtained in Figure 2.1b. The following LCA assumptions 
+were made: Power supply = 80% AD powered via biogas consumption, 20% Grids Main powered. CO2 intensity 
+Irelands Grid at 345gCO2/kWh. Heat supply = 80% biogas, 20% Mains electricity. Allocation: 50% to lipid, 50% 
+to protein co-product. Actual mass ratios are 1:1.458. (LIPID: Protein). Conservative 1:1 allocation is used until 
+RSB RED Certification is reviewed. HEFA conversion step = 10g CO2/MJ for the HEFA Process. Estimated based 
+on ICAO standards. Lipid to SAF conversion assumed at 1.47:1. Shipping and road transport = Dublin-Rotterdam-
+Sky NRG DSL 01 Plant-EHAM Schipol Fuel Tank Farm. The conversion of biomass residue to TCR -HDO fuel 
+has not been considered in thi s LCA analysis due to lack of literature data. The process will likely improve the  
+gCO2-eq/MJ value for SusAlgaeFuel. 
+Results: The initial results predict an LCA figure of 
+32.73 gCO2-eq/MJ of SAF produced on a ‘well to 
+wake’ basis; it should be noted that further reductions 
+are expected when a detailed LCA is carried out. This 
+analysis indicates that algal HEFA -SPK produced 
+using SusAlgaeFuel innovations can lead to a 63.6% 
+reduction in g  CO2-eq/MJ compared with 
+conventional Jet Fuel  (90 gCO2-eq/MJ). The algal 
+SAF also compares favourably with others SAFs as 
+can be seen in Figure 2.1c, performing better 
+compared to HEFAs derived from high ILUC 
+feedstock such as  soybean and palm oil.                                                                                                      
+ 
+53 European Aviation Environmental Report 2022.  
+Figure 2.1c: Initial LCA results for SusAlgaeFuel HEFA 
+
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+23 
+Contributions to EO3, EO5 and EO6 
+By concretely delivering EO1, EO2 and EO4, SusAlgaeFuel will consequently play a contributory role in EO6, EO3:   
+■ Increase the European energy security and reliability by enlarging the renewable feedstock basis for aviation 
+fuels as well as maintaining and fostering the European global leadership in affordable, secure and sustainable 
+microalgae-based fuel renewable energy technologies (EO6). As can be seen, SusAlgaeFuel's circular production 
+model has the per annum potential to treat 172 Mt of digestate and generate 6.2 Mt of algal biomass, leading to the 
+production of 1 Mt of HEFA-SPK (or 20% of EU’s projected SAF requirements of 5 Mt in 2030) at a reduced cost 
+per kg of algal HEFA-SPK of 6.3$ (a decrease of 49%  from estimated 12.3$). The approach of utilizing waste 
+digestate and capturing CO2 emissions for microalgae cultivation significantly expands Europe's renewable 
+feedstock basis, reducing reliance on fossil fuels and thereby enhancing energy reliability even in times of supply 
+disruptions. Attaining affordability as we scale the technologies, building from the TRL4-5 platform of this project, 
+ensures energy accessibility while reducing the vulnerability of European industries to energy price fluctuations.  
+■ Increase technology leadership, competitiveness and technology export potential of European industry in 
+possibly game -changing microalgae and/or direct solar renewable fuel technologies (EO3) . SusAlgaeFuel's 
+pioneering technologies will position Europe at the forefront of SAF innovation. This leadership not only enhances 
+EU’s competitiveness but also strengthens the region's role, credibility, and influence  in shaping global efforts to 
+combat climate change. Underpinned by an IP strategy (Task 7.4) to protect our novel innovations, there will be real 
+opportunity for licensing of these game changing technologies worldwide as global demand for SAF grows.  
+Finally, inspired by EO5 Reinforced European scientific basis and European export potential for renewable 
+energy technologies through international collaborations , through Task 7. 3 Stakeholder engagement and 
+networking, we will outreach to and explore collaborations for sharing knowledge  and expertise with relevant 
+stakeholders, including other EU projects funded in the area of sustainable fuel and aviation.  
+Contributions to the wider impacts of the ‘Sustainable, secure and competitive energy supply’ destination: 
+SusAlgaeFuel will contribute to diversifying the portfolio of sustainable solutions for difficult -to-
+decarbonise/electrify transportation sectors , fostering European global leadership in affordable, secure and 
+sustainable renewable energy technologies.  Developing a whole algae value chain is crucial to achieving climate-
+neutral energy carriers that are cost-competitive with incumbent solutions. The innovation- driven and diverse 
+approach adopted by SusAlgaeFuel sets the stage for European industry leadership in game-changing renewable fuel 
+technologies, positioning Europe  as a technological leader in microalgae- based renewable fuel production. This 
+leadership has the potential to catalyse future partnerships and investments, further driving efficiency agenda. 
+SusAlgaeFuel objectives overlap with Destination-specific Impacts: (1) Improving the availability of disruptive 
+renewable fuel technologies. SusAlgaeFuel will help make algal fuels a reality, bringing innovative ideas to improve 
+cost-effectiveness, sustainability and range of product portfolio (two jet fuels, a protein serum as feed, a biofertiliser) 
+that is resilient to future market changes. (2) Reducing costs and improving the efficiency of the whole technology. 
+SusAlgaeFuels will tackle the hardest problems in algae technologies, namely the costs of biomass processing and 
+low product yields. One of the most significant cost reduction s will come from wet algae biorefinery (employing 
+autolysis) and choice of extraction solvents  enabling solvent recycling. (3) Derisking of renewable fuel 
+technologies. This overlaps with the disruptiveness of the SusAlgaeFuel solutions, where the aim  is to develop a 
+multi-product approach (four different products), with production adapting to the market needs, thus, de-risking the 
+whole biorefinery chain, the same way petrochemical refineries work today. (4) Enhanced sustainability of 
+renewable fuels through dedicated work in relation to life -cycle assessments (WP5) and business -model 
+development (WP7), that aligns development with the European Green Deal priorities. (5) More effective market 
+uptake. The SusAlgaeFuel team brings together academics, SMEs, industry partners and non-profit organisations all 
+interested in the early commercialisation of the proposed solutions. SusAlgaeFuel will work towards effective 
+technology rollout from the start of the project, increasing the chance for success by implementing feedback from 
+discussions with industry stakeholders within the consortium, as well as those reached by C&D activities, to develop 
+a dedicated business canvas/commercialisation model (WP7). (6) Accelerating Carbon Capture, Use and Storage 
+through the development of new enabling technology for effective and low -energy delivery of CO 2 to microalgae 
+culture, thus facilitating direct capture of CO2 from CO2 emission point source.  
+2.1.2. Target Groups  
+Table 2.1d: Target stakeholders for SusAlgaeFuel 
+No. Target stakeholders 
+(Examples) 
+Why SusAlgaeFuel is important to 
+stakeholders 
+How adoption of results contributes to 
+impact achievement 
+1 AD operators as 
+technology adopters 
+(e.g. BIAE*) 
+Microalgae as a sustainable strategy 
+for AD waste valorisation  
+- Adoption by AD operators will increase 
+algae fuel feedstock availability which in 
+turn ‘improves the availability of disruptive 
+sustainable fuel technologies’  2 Algae producers, 
+technology providers  
+Novel technologies for reducing cost 
+of algae production and processing 
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+24 
+(e.g. A4F*) - Direct CO2 capture by microalgae will 
+accelerate ‘Carbon Capture, Use and 
+Storage’ & lead to 'reduced cost and 
+improved efficiency of sustainable 
+microalgae-based fuel technologies & their 
+value chains’. 
+- Adoption by stakeholders will create a full 
+value chain which ‘derisks renewable fuel 
+technologies’ 
+Adoption will ready the aviation industry in 
+the future for algae fuel and ‘accelerates the 
+replacement of fossil-based energy 
+technologies in aviation’ 
+3 Fuel/SAF producers 
+(e.g. Neste) 
+Technologies to produce algal 
+HEFA-SPK and TCR oil at low cost 
+and at scale 
+4 Aviation sector: 
+Aircraft manufacturers 
+(e.g. Boeing^), Leasers 
+(e.g. Avolon^), 
+Airports & airlines 
+(e.g. Aer Lingus^) 
+Possibility of cost competitive al gal 
+SAF in the near future and 
+preparation for adoption in the 
+aviation industry (e.g. engine 
+modification). Opportunity to build 
+their strategies and brand around 
+sustainability and attract a growing 
+market share. 
+5 By-product users: 
+Biofertiliser producers,  
+Animal-feed producers  
+Digestate solid fraction and protein 
+serum as novel ingredients for 
+biofertilisers and animal feed  
+Side products enable income diversification 
+which ‘increases resilience of energy system’ 
+and ‘derisks renewable fuel technologies’.  
+6 Sensor manufacturers 
+(e.g. IRIS*) 
+Manufacture of in-line sensor for 
+monitoring algae culture  
+Adoption will ‘speed up new digital 
+technologies in the energy sector’. 
+7 Fuel certification 
+authorities (e.g. RSB^) 
+A new SAF feedstock based on 
+algae for certification 
+Certification enables mass production and 
+‘improves the availability of disruptive fuel 
+technologies’ 
+8 Industry associations: 
+microalgae (EABA),  
+AD (EBA), aviation & 
+SAF (EASA) 
+Novel technologies in AD waste 
+valorisation, algae biotechnology, 
+SAF conversion and purification for 
+adoption in wider sector 
+Expand the reach of the project which in turn 
+catalyses wider adoption in the respective 
+industries and ‘improves the availability of 
+disruptive sustainable fuel technologies’  
+9 Academic community  Novel sciences in algae SAF value 
+chain 
+Results to catalyse further research that can 
+further ‘reduce the cost of renewable fuel 
+technologies’. Joint activities with EU 
+projects can promote adoption by 
+Stakeholders 
+10 Related EU projects 
+(REFOLUTION, 
+FLITE)  
+Synergies in project scope and 
+results for collaboration and joint 
+activities 
+11 Policymakers and MPs 
+(national & EU^) 
+New algae SAF value chain 
+contributing to EU directives/policy: 
+Fit for 55, ReFuelEU, REDIII  
+Evidence-based algae SAF technologies lead 
+to enactment of policies and carbon trade-offs 
+that accelerate ‘the replacement of fossil-
+based energy technologies’.  
+12 Investors in green 
+technology  
+Potentially profitable undertaking in 
+disruptive algal SAF validated in a 
+pilot with credible upscale potential  
+Adoption can lead to investment to further 
+‘reduce the cost of renewable fuel 
+technologies’  
+13 University students  Understanding of algae SAFs Training of future generation of scientists  
+14 General public/air 
+passengers 
+Sustainable and eco-friendly fuels 
+for air travel.  
+Better understanding of sustainable fuels a 
+allows more informed travel choice. 
+*Consortium members in SusAlgaeFuel, ^ through SFS network and SusAlgaeFuel advisory panel  
+2.1.3. Barriers and Mitigation 
+A key driver for adoption of SusAlgaeFuel is the global aviation industry targets to be carbon neutral by 2050. 
+This will be further fuelled by impending legislation, whereby for example, the European Commission has proposed 
+a SAF blending mandate for fuel supplied to EU airports, with minimum shares of SAF gradually increasing from 
+2% in 2025 to 63% in 2050Error! Bookmark not defined. . Despite the tremendous opportunities this opens for SAF, a series 
+of barriers exist:  
+■ Availability of abundant and inexpensive nutrients: This is a major barrier in algal cultivation. In SusAlgaeFuel 
+it will be solved by marrying microalgae farming under different  autotrophic regimes with critical AD operation  
+(WP1), thus leading to an increase in the availability of algal feedstock while decreasing cost of cultivation. 
+■ Cost of SAFs: SusAlgaeFuel aims to make a more cost-competitive microalgae biofuel. If successful in delivering 
+our technical innovations, as calculated in Section 2.1.1, we can reduce the cost of algal SAFs to 6.3$/kg, in line with 
+SAFs from other feedstocks ($1.9 – 7.7/kg SAF). Despite this improvement, however, algal will remain significantly 
+more expensive than petroleum diesel (ca.  $0.7 – 1.4/kg), meaning that multiple step -change innovations in algae 
+fuel production beyond the project will still be needed to achieve technology rollout. This step change can be brought 
+about by continuing R&Ds which build on SusAlgaeFuel technologies through larger-scale demonstration and 
+subsequent process improvement or complement them with new paradigms (e.g. genetic engineering).  
+■ Scale: Another major hurdle faced by algal biofuels, such as the proposed SusAlgaeFuel, is that of scale54. Current 
+SAF production facilities are tiny compared to the economies of scale available to fossil fuels. Unless we can achieve 
+ 
+54 Digest, B. The Next Big Step for Algae and Sustainable Aviation Fuels. 2022 
+[HORIZON-CL5-2023-D3-02-08] [Development of microalgae fuel production and purification technologies for advanced aviation fuels] 
+25 
+meaningful production, the goals so many have set for a low carbon aviation industry will be impossible to meet. To 
+the end, the current call topic rightly calls for proposals to ‘also address systemic constraints and opport unities for 
+scaling-up algae-based and/or solar fuel technologies’. To address the fundamental limitations of scale, in addition 
+to investigating improved cultivation techniques, advanced technology, and effective process integration as a blend 
+of approaches , we have also introduced an Industry 4.0 grade Process Analytical Technology  (PAT) driven 
+Digital Twin  (WP6) to assist in understanding the deve loped processes and simulating their behaviour towards 
+optimisation and predicting capacities at industrial scales. Indeed, a PAT-enabled Quality by Design (QbD) approach 
+can help improve scale-up by combining real-time monitoring, advanced analytics, and systematic optimization to 
+ensure consistent product quality, process efficiency, and successful scale -up. Developing a comprehensive 
+understanding of the relationships between these parameters will lead to the identification of critical process 
+parameters (CPPs) and critical quality attributes (CQAs).  The ability to apply M odel Predictive Control (MPC)  
+strategies that use real-time data and predictive models to adjust process parameters during scale up would help to 
+maintain optimal conditions and mitigate disturbances.  
+■ Lack of financing: A major barrier to the adoption of our results will be the continuing need for investment beyond 
+project lifetime through either industry/private or government mechanisms at global/EU/national levels. Outreach to 
+investors and venture capital firms to secure a future funding pathway for technology commercialization will be an 
+important endeavour. To facilitate this, a series of strategies will be pursued: 
+• By combining PAT with Digital Twin technology, we have the ability to simulate process performance and yields 
+in scaled up scenarios, to provide data-driven insights and information for investors. Also, bringing the technology 
+successfully to TRL5 with a physical pilot demonstrator at an AD facility in Ireland thanks to a high- profile 
+Horizon Europe research-industry partnership that can validate pilot scale production, backed by PAT -enabled 
+digital twin technology, can prove to potential investors that the scaled up technology will work.  
+• Moreover, analysis of resulting fuel products in compliance with ASTM fuel property specifications (WP6), will 
+be another great asset.  RSB certification will underpin the case for production, up- scaling and trading the final 
+SAF product within the EU, advancing the business case for future investors.  
+• Wide dissemination of the  SusAlgaeFuel results amongst relevant stakeholders, coupled with verified business 
+models to ensure post-project scale up and route to market so the results can be exploited by potential end users  
+(WP7), underpinned by multi-faceted dissemination and exploitation strategies to maximise impact (Section 2.2). 
+• We have also added policy analysis as an integral component of WP 7, aiming to engage policy decision makers 
+(through SFS expanded network) early in the project to further promote the inclusion of algae fuels and 
+carbon/emission trading schemes in future EU and national directives. This will facilitate a more conducive 
+funding environment for the commercialisation of algae SAFs beyond SusAlgaeFuel. 
+■ Cooperation challenges in building a new value chain: A further barrier to our results uptake is the requirement 
+for multiple stakeholders to come together in a new value chain to commercialise the results (e.g. AD operator, 
+algae farmers, fuel/SAF producers, sensor manufacturers), each having different market needs and business models. 
+To mitigate this risk, our consortium includes representatives  from the industry value chain (A4F as an algae 
+technology provider, BIAE as an AD operator, and IRIS as a sensor developer and real-time monitoring and digital 
+expert), who are each motivated to secure a competitive advantage in these businesses through participation in this 
+project. Moreover, we have integrated business -model development into our core activities in WP7, the aim of 
+which is to establish m ultiparty dialogue for the development of mutually beneficial commercialisation plan. 
+Excellent and validated technologies that can deliver a certified SAF at the necessary future scales and cost, and the 
+interest of flagship early adopters (e.g. Boeing, C ityJet) who sit at the demand end of the value chain can have a 
+positive impact for mobilising a new microalgae SAF value chain in Europe

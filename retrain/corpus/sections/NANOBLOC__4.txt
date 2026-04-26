@@ -1,0 +1,2574 @@
+4. Ethics Self-Assessment ......................................................................................................................................... 44 
+ 
+ 
+  
+ 
+101057597 - NANOBLOC - Part B - Page 7 of 45 
+1. Excellence
+1.1 Objectives and ambition  
+Introduction: The respiratory illness coronavirus disease 2019 (COVID-19) that has gripped the world in a global 
+health and economic crisis since early 2020, is caused by an enveloped RNA virus known as severe acute respiratory 
+syndrome coronavirus 2 (SARS-CoV-2). Despite strict lockdowns and confinement measures that were quickly put 
+in place, the disease has spread across the globe; to date World Health Organization (WHO) reports > 228 million 
+confirmed cases of COVID -19 and nearly 4.7 million deaths . The enduring pandemic has thrown the global 
+economy into its worst economic crisis since World War II, with crippling impacts on healthcare and socioeconomic 
+costs.  
+Potential routes of infection according to the WHO are droplet, contact, fomite (contaminated surfaces, whereby 
+SARSCoV-2 remains stable on these surfaces for many hours) and airborne (aerosol) transmissions. In the case of 
+aerosol transmission, the air filtration and  disinfection efficiency of air filtration/circulation units plays an 
+important role in minimizing the virus transmission, especially in areas with limited external air supply (e.g., 
+public transportation vehicles) or in clinics and nosocomial settings 1. On the other hand, in the case of fomite 
+transmissions, laboratory studies have discovered that the SARS -CoV-2 remains active on soft plastic 
+materials up to 72 h2, and on the surfaces of metals, plastics, cottons, or surgical masks for tens of hours to even 7 
+days3. Beyond laboratory evidences, studies in controlled hospital environments4 and common environments, 
+showed that SARS-CoV-2 with infectious capacity can be found in furniture elements in the environments of 
+infected people. Beyond SARS-CoV-2, other viruses, such as norovirus, have proven their ability to transmit 
+by fomites5 and the WHO estimates that millions of patients each year around the world are affected by nosocomial 
+infections (mostly bacterial) while receiving healthcare in hospitals. It is therefore vital to improve the protection 
+for our healthcare systems, including workers and patients. 
+The race to reduce the spread of the virus has catalysed research and development in the field of antiviral 
+nanocoating developments, which has seen  a wave of antimicrobial/virucidal coating s and coated products 
+entering the market making numerous claims in relation to effectiveness and durability. However, the reality is 
+that current products are marketed without a robust science -based evidence in relation to their real efficiency, 
+durability in relevant environments for the applications or other effects such as toxicity; at best, testing is based on 
+current standards that cannot clearly define or guarantee the claimed properties of the products. Even when 
+supported by standard tests, some commercial claims are obscure and doubtful  as there is simply insufficient 
+evidence to support some claims in relation to the functionality on applications. 
+ 
+In this context, NanoBloc’s aim is to provide reliable Antimicrobial, Antiviral, and Antifungal Nanocoatings, 
+by sustainable synthesis methods, suitable for application on all surfaces and textiles. 
+To do so, NanoBloc® is mobilising a n interdisciplinary (materials, coating processes, microbiology & AI) 
+cocreation alliance between 4 world-class universities & institutes, and 5 leading industrial companies (3 
+SMEs & 2 large enterprises) who together will cocreate, develop and upscale (from TRL3 to TRL6) reliable 
+‘Made in Europe’ antimicrobial, antifungal and antiviral coatings manufactured with industrially scalable, 
+versatile and green technologies suitable for application on a variety of different substrates : filter materials 
+(air filtration units, face masks), textiles (protective clothing, mattress covers, aprons, wallpaper), and also on diverse 
+high-traffic solid surfaces (door knobs, handles, handrails, sanitaryware-taps, etc.).  
+Building on previous encouraging results obtained by the consortium partners, NanoBloc® coatings will be 
+tested in working co nditions for each envisaged application, with particular emphasis on their health & 
+environment safety. 
+NanoBloc® and HORIZON-CL4-2021-RESILIENCE-01-20 are a unique opportunity for Europe to take the 
+lead in the development of r eliable Antimicrobial, Antiviral, and Antifungal Nanocoatings that respond to 
+market needs in terms of efficiency, durability and sustainability/ecofriendly properties, and that are backed with 
+claims that are validated by solid science -based evidence on a ntimicrobial and virucidal mechanisms of 
+nanocoatings. In doing so we will help Europe to build resilience against future global health crises.  
+ 
+Figure 1 below presents a schematic overview of the R&D work that will be performed during the 36 months 
+duration of the project to advance the technology readiness levels of our chosen coating technologies. It also maps 
+the involvement of the consortium of research-industry partners and illustrates the products that will be the focus of 
+                                                      
+1 Verdenelli, M.C. et al. (2003). Efficacy of antimicrobial filter treatments on microbial colonization of air panel filters. J. Appl. Microbiol. 2003, 94, 9 –15 
+2 Van Doremalen, N. et al. (2020) Aerosol and Surface Stability of SARS-CoV-2 as Compared with SARS-CoV-1. N. Engl. J. Med. 2020, 382, 1564–1567 
+3 Chin A.W.H., Chu J.T.S., Perera M.R.A., Hui K.P.Y., Yen H., Chan M.C.W., Peiris M., Poon L.L.M. Lancet Microbe. 2020;1 
+4 Liu, Jie, et al. "The duration of SARS-CoV-2 positive in the environments of quarantine rooms: a perspective analysis." Intl. Journal of Infectious Diseases (202 1). 
+5 Canales, Robert A., et al. "Modeling the role of fomites in a norovirus outbreak." Journal of occupational and environmental hygiene 16.1 (2019): 16-26. 
+ 
+101057597 - NANOBLOC - Part B - Page 8 of 45 
+this application -oriented R&D cocreation partnership. We will pursue a n exciting  series of groundbreaking 
+research lines to develop industrially scalable, versatile and green technology in order to obtain innovative products 
+that will be brought to market by our industry participants. 
+ 
+Figure 1- Schematical overview of the Nanobloc® Project 
+ 
+Measurable and verifiable objectives that are pertinent to the call topic and realistically achievable 
+Within the framework of this ambitious overall goal, the experienced and relevant consortium has codesigned 
+NanoBloc establishing a series of 8 objectives and 5 measurable and verifiable Key Performance Indicators (KPIs) 
+to be fulfilled within the project timeline  (Table 1), and which will allow the long term expected outcomes also 
+beyond Nanobloc project (discussed in Impact section). 
+ 
+Table 1- Project objectives and Key Performance Indicators 
+Specific Objectives (O) Key Performance Indicators  
+O1-To develop new nanocoatings and processing routes: build on 
+previous work in obtaining coatings effective against a range of pathogens 
+(including virus & bacteria) using a novel and versatile platform of diverse 
+nanocoating technologies - namely Physical Vapour deposition (PVD) 
+nanocoatings (RF co -sputtering nanoAg/Silica,  Sputtering & Cathodic 
+arc of Ag doped nitrides, Cathodic arc, magnetron sputtering & HIPIMs 
+for Cu doped nitrides and oxides), Organic/inorganic nanocomposite 
+coatings ( Nanoparticle doped UV lacquers) , Wet Chemistry coatings 
+(Electrophoretic d eposition of biobased formulations, Sol -Gel hybrid 
+coatings)-, enabling application on a variety of substrates relevant for 
+different applications incl. metallic, plastic & textiles. 
+O2-To acquire a deeper understanding of the mechanisms of 
+antiviral, antibacterial and antifungal effects: to be able to reach O1 by 
+tuning the coating properties to a) act fast against pathogens, b) have 
+adequate durability for the application, and, c) avoid toxicological effects 
+or environmentally harmful releases.  
+O3-To acquire and apply new knowledge to guarantee the durability 
+and functionality of the coatings: by characterizing structural, 
+compositional and morphological features of the coatings and testing 
+under different ageing and wear conditions to feedback t he development 
+of coatings and how ageing affects the functionality. 
+O4-To obtain scientific evidence of impact of the new Nanobloc 
+coatings in relevant environments: although many biocide coatings 
+have proven their efficiency in laboratory testing, their  real impact on 
+KPI1- High effectivity coatings 
+against different pathogens in 
+laboratory tests. 
+Target: High reduction of a wide 
+range of pathogens , including virus 
+(enveloped & not -enveloped), 
+bacteria (Gram positive and negative) 
+& fungi, with target values of 
+99.9999% reduction (log 6). 
+KPI2- High durability and safety of 
+the coatings functionality. 
+Target: Biocide functiona lity in 
+laboratory tests must remain at  high 
+
+ 
+101057597 - NANOBLOC - Part B - Page 9 of 45 
+relevant environments has never been tested for coatings and has only 
+been poorly addressed for Cu alloys 6. It is therefore necessary to 
+demonstrate the relevance of laboratory results in terms of impact on 
+relevant environments. As such, NanoBloc will deploy a 1-year campaign 
+to perform validation trials in relevant environments such as hospitals and 
+shared areas in workplaces (toilets, meeting rooms…) to gather evidence 
+(and open data) of the real effectivity of the coatings. 
+O5-To demonstr ate the viability of industrialization and the 
+application of the new NanoBloc coatings in relevant substrates & 
+products: by scaling  up the selected processes and technologies in 
+industry for the development of effective & durable biocidal/virucidal 
+coatings. Contribution to generate new standards will support these 
+industrial applications. 
+O6-To boost developments, reliability & sustainability of the 
+processes ‘by-design’: by using data-driven strategy enabled by Process 
+Analytical Technology (PAT) -based real-time monitoring for obtaining 
+critical material composition and process data, using Machine Learning 
+techniques for predictive model control for process optimization, as well 
+as for Life Cycle Analysis inventory to ensure the sustainability. 
+O7-To pro duce relevant demonstrators for different substrates & 
+applications: applying the new effective & durable biocidal/virucidal 
+coatings on porous filter materials (air filtration units, face masks), textiles 
+(protective clothing, mattress covers, aprons, wallpaper), on diverse high-
+traffic solid surfaces (doorknobs, handles, handrails, sanitaryware-taps).  
+O8-To validate the developments under relevant conditions & 
+environments: by assessing the performance of the demonstrators over a 
+12 month period by testing under standards for each application, as well 
+as testing performance in application environments ( San Luigo Hospital 
+that hosts the UNITO laboratory , high traffic areas - air filtration units 
+(POLITO, UNITO), Offices and toilets (TEKNIKER) -, to vali date 
+efficiency, durability, environmental friendliness and that there are no 
+toxic effects for health & ecotoxicity impacts for the environment. 
+levels of reduction - 99.99% (log4) - 
+after long -term exposure to relevant 
+aging and wear conditions for the 
+applications.  
+KPI3- Rapid action. 
+Target: Reduce the possibility of 
+infection in between routine cleani ng 
+procedures and or increase the time of 
+use of disposable personal protection 
+equipment- reach 99.99% (log 4) 
+reduction of pathogens in less than 15 
+minutes and 99.9999% (log 6) in 1 
+hour. 
+KPI4- Non-toxic and Ecotoxic 
+effects of the coatings. 
+Target: Demonstrated toxicological 
+safety for human health <30%  cells 
+dying on viability cell assays & non -
+ecotoxicity >50% survival of 
+luminescent algae, following 
+standards 
+KPI5- Proven effectivity and 
+durability in relevant 
+environments. 
+Target: >70% reduction in pathogen 
+load vs. non -coated controls in 
+surfaces in relevant environments 
+while ensuring the durability of the 
+effect over a 1 -year long testing 
+campaign. following successful lab -
+based weathering trials to guarantee 
+their safe validation in situ. 
+Table 2 shows how these objectives respond to the call topic requests and how they are realistically achievable. 
+Table 2- Mapping of the call requests vs. the Nanobloc objectives and how they are realistically achievable 
+Pertinence with WP topic  How this is realistically achievable 
+‘Sustainable synthesis of 
+nanocoatings/nanocomposites 
+(including bio -based materials) with 
+effectiveness against a range of 
+pathogens’: 
+KPI1 High effectivity against 
+different pathogens in laboratory 
+tests 
+KPI3 Rapid action 
+KPI4 Non-toxic and Ecotoxic effects 
+of the coatings 
+O1 To develop new nanocoatings 
+and processing routes 
+O2 To acquire a deeper 
+understanding of the mechanisms of 
+antiviral & biocidal effects 
+O6 To boost development, reliability 
+& sustainability of the processes 
+• One of the selected technologies for the synthesis of nanocoatings/  
+nanocomposites is Physical Vapour Deposition, considered one of the 
+“greenest” and environmentally friendly coating technology, due to 
+the lack of waste products to be disposed, to the “dry” process 
+characteristics (no liquid involved) and to the low consumption of 
+starting materials (coatings are few nanometres thick). 
+• All coatings proposed in NanoBloc® have been already 
+demonstrated effective against several bacteria and fungi.  
+• POLITO’s Ag/silica co-sputtered coating is effective on viruses 
+including respiratory syncytial virus (RSV), influenza virus A 
+(FluVA)7. The POLITO Ag/silica co -sputtered coating 8 & 
+TEKNIKER Cu based coatings have already been tested & resulted 
+effective against SARS-CoV2  
+• Use new knowledge on antiviral mechanisms to select the most 
+suitable technology for each application. 
+• We will develop and/or scale up new synthesis (including bio-based 
+materials) with a specific concern to process sustainability. 
+• Up-scaling of  the selected technologies in industry for the 
+development of effective & durable biocidal/virucidal coatings w ill 
+be facilitated by Process Analytical Technology (PAT)-based real-
+                                                      
+6 CHYDERIOTIS et al. New insights on antimicrobial efficacy of Cu surfaces in the healthcare environment: a systematic review. Clin Microbio  Infec, 2018, 24 (11) 1130-1138. 
+7 Nanostructured composite coating endowed with antiviral activity against human respiratory viruses deposited on fibre -based air filters. C. Balagna, R. Francese , S. Perero , D. 
+Lembo, M. Ferraris, Surface & Coatings Technology 409 (2021) 12687. https://doi.org/10.1016/j.surfcoat.2021.126873  
+8 Virucidal effect against coronavirus SARS-CoV-2 of a silver nanocluster/ silica composite sputtered coating  
+Cristina Balagna, Sergio Perero , Elena Percivalle, Edoardo Vecchio Nepita ,Monica Ferraris, Open Ceramics 1 (2020) 100006, https://doi.org/10.1016/j.ocera m.2020.100006 
+ 
+101057597 - NANOBLOC - Part B - Page 10 of 45 
+time monitor ing & Machine Learning for predictive model 
+control for process optimization 
+‘Application methods (both on 
+surfaces and textiles)’: 
+O1 To develop new nanocoatings and 
+processing routes 
+O5 To demonstrate the viability of 
+industrialization and the application 
+the new Nanobloc coatings in 
+relevant substrates & products  
+O7 Produce relevant demonstrators 
+for different substrates& applications 
+• All coatings proposed within NanoBloc® have been alrea dy 
+successfully applied to several surfaces and textiles. 
+• Thanks to the participation of a very strong and relevant industrial 
+value chain, we will be able to apply coatings on surfaces and textiles 
+thanks to the expertise in: coating and surface technology (PRIREV); 
+coating equipment provider ( INTERPANE); air filtration and face 
+masks producer (GVF; industrial textiles coatings (SIOEN) for 
+mattresses, protective clothing, UV coatings for wallpaper and 
+furniture; coatings for high-traffic objects- handles, handrails, etc., and 
+sanitaryware-taps, etc. (PRIREV).  
+‘Surface adhesion and durability via 
+assessing performance against wear 
+(e.g. abrasion, washing, etc.) and 
+degradation in the application 
+environments on a variety of surfaces 
+(e.g. glass , metals & various alloys, 
+copper & steel, marble & stone slabs, 
+ceramics & tiles, textiles & plastics)’: 
+KPI2 High durability of the coatings 
+functionality 
+KPI5 Proven effectivity and 
+durability in relevant environments 
+O3 To acquire and apply new 
+knowledge to guarantee the 
+durability and functionality of the 
+coatingsO4 To obtain scientific 
+evidence of impact of the new 
+Nanobloc coatings in relevant 
+environments 
+O5 To demonstrate the viability of 
+industrialization and the application 
+the new Nanobloc coatings in 
+relevant substrates & products 
+O8 Validate the developments under 
+relevant conditions & environments 
+• Some coatings (e.g. POLITO Ag/silica co -sputtered coating) have 
+been already tested against abrasion and washing and 
+degradation in working conditions  on several substrates (glass, 
+metal, polymers, ceramics, wood, textiles)  for different 
+applications (food processing tools, mobile phones, medical vests, 
+face masks, air filters, biomedical devices,… ), giving very 
+encouraging results. They can withstand temperatures up to 450 °C 
+without altering their antimicrobial properties, thereby suited for 
+thermal regeneration9. 
+• In NanoBloc®, we will perform exhaustive studies to produce 
+relevant demonstrators and to assess their performance by testing 
+under standards for each application, as well as testing performance 
+in application environments, with the guidance of the end -users 
+actively participating in NanoBloc®. Moreover, we will develop new 
+testing protoc ols that will serve as base to contribute to the 
+development of new standards. 
+• In NanoBloc®, thanks to the participation of a very strong and 
+relevant industrial value chain, we will be able to produce 
+prototypes that will allow us to perform testing and v alidation work 
+to assess the performance of the coating against wear and degradation 
+in their working environment.   
+• Demonstrators will be porous filter materials (air filtration units, 
+face masks), textiles (protective clothing, mattress covers, aprons, 
+wallpaper), and also high-traffic solid surfaces (doorknobs, handles, 
+handrails, sanitaryware-taps, etc.).  
+‘Toxicity of nanocoatings’ 
+KPI4 Non-toxic and Ecotoxic effects 
+of the coatings 
+O2 To acquire a deeper understanding 
+of the mechanisms of antiviral & 
+biocidal effects 
+ 
+• Some coatings (e.g. POLITO Ag/silica co -sputtered coating) have 
+been already demonstrated completely environmental - and 
+human health - safe: Ag nanoparticles are safely embed ded in a 
+strong silica matrix. These coatings allow a gradual release of ions 
+without dispersing the nanoparticles in the surrounding environment. 
+Studies on skin penetration have been done, demonstrating no 
+permeation of Ag nanoparticles both in health and wounded skin10. 
+• We will perform exhaustive studies to ensure there is no negative 
+impact of NanoBloc® nanocoatings on human health or the 
+environment, and in particular to substantiate with an evidence base 
+of the corresponding Unique Selling Points of the NanoBloc® 
+coating system  being completely safe for human health and 
+environmentally friendly.   
+Going beyond the state-of-the-art   
+STATE-OF-THE-ART BASELINE  
+Antibacterial and biocide coatings ha ve been a very active field of research due to their interest for applications 
+such as implants and antifouling. The incorporation of biocidal agents in the coatings is also one of the most used 
+strategies to inhibit the biocontamination of various materials , as the  agents can be gradua lly released into the 
+surrounding environment and minimize or inhibit the colonization of microorganisms on its surface 11.Various 
+additives and biocidal agents have been studied in order to avoid biocolonization of surfaces . These include 
+antibiotics, quaternary ammonium ions, inorganic compounds and particles ( e.g., Ag, ZnO, TiO2, nano carbon, 
+                                                      
+9 Chemical, Mechanical, and Antibacterial Properties of Silver Nanocluster –Silica Composite Coatings Obtained by Sputtering, Monica Ferraris et al, Adv Eng Mat 2010, 12, (7). 
+10 Antimicrobial functionalization of cotton fabric with silver nanoclusters/silica composite coating via RF co -sputtering Technique. Irfan et al.a, Cellulose (2017) 24:2331–2345 
+11 Olmo et al (2020). Antibacterial coatings for improving the performance of biomaterials. Coatings, 10(2), 139.  
+ 
+101057597 - NANOBLOC - Part B - Page 11 of 45 
+graphene oxide, SiO2, carbon nanotubes, etc...) 12.  The use of nanomaterials is also an option, such as silver 
+nanoparticles, zinc oxide, titanium oxide, iron, gra phene, copper oxide and metallic nanocomposites 13.Although 
+significant efforts have been made to develop antibacterial surface coatings, the literature remains scarce for 
+a systematic study on broad -range antiviral coatings . The scientific literature on bio cidal coatings is mostly 
+based on antibacterial mechanisms; there are only a few pre -pandemic results on viruses . Copper alloys have 
+shown potential to inactivate Murine Norovirus in less than an hour14 and can be effective for eliminating human 
+coronavirus 229E15 in the range of minutes. A few approaches in the literature have explored the possibilities of 
+using coatings with biocidal agents to eliminate virus. In this sense,  cold spray has also shown its effectiveness 
+against influenza virus 16 and the potential of Cu, Ag and Zn combined as dopants embedded on sol-gel coatings 
+against enveloped virus17 have been shown to be effective in reducing the time in which the virus remains active on 
+the surfaces. POLITO, who is leading NanoBloc®, has developed Ag/Silica nanocoatings by PVD co-sputtering 
+and demonstrated their efficiency (99.99%) to inactivate viruses, including SARS-CoV-2, which is just one 
+of the innovations in our nanocoatings technology platform.    
+Products in the market with doubtful claims unacceptable shortcuts & gaps on their development cycle 
+While there have been no significant previous research effort s focused on coatings to be specifically effective 
+against viruses, the global COVID-19 pandemic has attracted considerabl e attention towards innovative methods 
+and technologies for suppressing the spread of viruses, and the past 18 months has seen a range of antiviral coatings 
+reach the market. As examples, Table 3 provides an overview of a selection of these products classified according 
+to technology type. The testing of most of these products has been performed against known antibacterial agents 
+with positive results and consequently products have been promoted to market based on a number of basic standard 
+tests, sometimes  including testing against virus es. Standard tests, while they do give an indicator about the 
+effectivity, are not enough18: more solid evidence is necessary to have reliable coatings, to support the claims 
+and to offer guarantees on a solid base. 
+A few of these products have been tested against SARS-CoV-2, according to different protocols; most of them claim 
+antibacterial/antiviral properties. However, while they do provide antiadhesion properties, i.e. microorganisms do 
+not adhere on their surfaces, they are not killed ; and this is a very important limitation.  In other cases , their 
+claims on efficiency against virus, although supported by lab oratory reports, do not clearly show the efficiency 
+when compared to controls . They acknowledge durability of less than 1-2 years, or simply stat e that they are 
+durable without providing any support- or poor justification- of durability claims. 
+ 
+Table 3- Nanotechnology-based antiviral products 
+Technology Brand Country Applications 
+Silver ion 
+technology 
+Biomaster  UK Textiles, Plastic, Surfaces, Coatings - e.g. SafeTouch (masterbatch, 
+liquid and powder formulations) 
+Microban®/ SilverShield® USA Simple spray application 
+Italtherm Italy Air filtration systems  
+Serge Ferrari Group  Italy Composite membrane to be applied to various substrates 
+Copper-
+based 
+technology 
+HeiQ MetalliX 
+ 
+Switzerland Vapour deposition process suitable for application on textiles only- 
+air filters, medical gowns, curtains, drapes; clothing, upholstery, 
+mattresses 
+Sonovia Technology Israel Ultrasound application that impregnates fabrics with Cu and Zn 
+oxides suited for textile finishing 
+Bio-BlocXTM Israel Face masks  
+MedCu  Israel Face masks 
+Pharm2Farm Pro-Larva UK Face masks 
+Other 
+technologies 
+Maya Sticker  Israel Adhesive film for application on face masks composed of nano -
+fibres soaked with the antiviral agent povidone iodine 
+ViriMASK  Israel Face masks based on mechanical multilayer filtration 
+AIRDAL®  Germany Coating based on silica 
+Ti-energy® yarn  Italy Textiles  (zinc oxide nano particles in yarn fibers). 
+Although supported with some laboratory tests, none of these products on the market have been validated in relevant 
+environments (TRL6), such as hospitals, as such studies have so far only been done with copper alloys. Such shortcuts 
+to introduce products in the market have been driven in pursuit of short term benefits, and marketing impact & 
+positioning; this would never be accepted in sectors such as automotive or aeronautics, where the development 
+cycle and careful steps to validate each TRL for the specific application and use are always mandatory.  
+ 
+                                                      
+12 Zhang E, Zhao X, Hu J, Wang R, Fu S, Qin G. Bioactive Materials Antibacterial metals and alloys for potential biomedical impl ants. Bioact Mater 2021;6:2569–612. 
+13 CLOUTIER, Maxime; MANTOVANI, Diego; ROSEI, Federico. Antibacterial coatings: challenges, perspectives, and opportunities. Trends in biote c, 2015, 33 (11), p. 637-652. 
+14 Warnes SL et al. Inactivation of murine norovirus on a range of copper alloy surfaces  is accompanied by loss of capsid integrity. Appl Environ Microbiol. 2015;81(3):1085 -1091 
+15 Warnes SL, Little ZR, Keevil CW. Human Coronavirus 229E Remains Infectious on Common Touch Surface Materials. mBio. 2015;6(6) :e01697-15. 5 
+16 Sundberg et al (2015). Effectiveness of nanomaterial copper cold spray surfaces on inactivation of influenza A virus. Journal of Biotechnolo gy & Biomaterials, 5(4), 1 
+17 Hodek et al. Protective hybrid coating containing Ag, Cu and Zn cations effective against human immunodeficiency virus and other enveloped viruses. BMC Microbiol. 2016;16  
+18 Pietsch, Franziska, et al. "Selection of resistance by antimicrobial coatings in the healthcare setting." Journal of Hospital  Infection 106.1 (2020): 115-125. 
+ 
+101057597 - NANOBLOC - Part B - Page 12 of 45 
+There is currently a knowledge gap in the understanding of the inactivation mechanisms, the optimal application 
+conditions, the effect of the nanocoating in the virus inactivation process, and the effects and damages on materials 
+exposed to these coatings. Three basic mechanisms are responsible for the antibacterial properties of the coatings19, 
+namely: Anti-Adhesion/Bacteria-Repellence; Antibacterial Agent Release ; and, Contact-Killing. Most of the 
+developments are limited by the early release of the biocidal agents incorporated in the coatings, which reduces 
+their protection over time. Also, since biocidal agents pass into the environment, their release rate is a key parameter 
+that determines their environmental impact, their potential effects on health, and the rate of onset of antimicrobial 
+resistance. As a result, the use of biocides and the corresponding concentrations is restricted.  
+Understanding how the properties of coatings and biocides determine their release rate is crucial to understanding 
+their durability and enabling the development of effective and safe new products. Erich et al.20 have carried out a 
+study with the aim of establishing this connection through modeling of the release process  and some studies show 
+works focused on the design of new coatings capable of modulating the release rate of biocidal agents by using 
+different technologies 21,22,23. Contact-killing mechanisms have been recently proposed and are a field of active 
+research as they have a great potential for higher durability and lower environmental impact. The main ones are 
+associated with covalent anchoring of chains on the surface or Cu on the surface.  In the first case, mechanisms of 
+action are based on membrane interactions, such as physical lysing or charge disruption, and the most effective 
+compounds for contact-killing coatings have been either cationic compounds (Quaternary Ammonium chains, 
+chitosan, etc.) or enzymes24. In the case of Cu, the oxidation of Cu generates Reactive Oxygen Species (ROS) that 
+are able to kill bacteria even without attacking the membrane 25. Although some studies have analyzed this 
+approach, contact killing mechanisms are still not clear and must be differentiated from ion release mechanisms. 
+ 
+NANOBLOC®: A GROUND -BREAKING NANOCOATING  TECHNOLOGY PLATFORM   
+We are advancing the state-of-the-art via our exceptional ground-breaking R&I in the field of innovative virucidal, 
+biocidal and antifungal nanocoatings:  
+Physical Vapour Deposition: Scalable, versatile and green technology 
+A key technology that will be used in this project is the industrially scalable, versatile in terms of composition / 
+shape of the surface to be coated and of the composition of the coating and green co-sputtering technology.  
+ 
+Figure 2- PVD technology and market pathways: example for Ag/silica Co-sputtering 
+                                                      
+19 CLOUTIER, Maxime; et al.. Antibacterial coatings: challenges, perspectives, and opportunities. Trends in biotechnology, 2015, vol. 33, no 11, 637 -652. 
+20 Erich SJF, Baukh V. Modelling biocide release based on coating properties. Prog Org Coatings 2016;90:171–7. 
+21 Sikder et al. Development of single-phase silver-doped antibacterial CDHA coatings on Ti6Al4V with sustained release. Surf Coat Tech 2018;342:105 –16 Xu Q et al. 
+Antibacterial coatings based on polycaprolactone and polyurethane with prolonged release of ciprofloxacin. Sur f Coat Tech 2021;405:126584 
+22 Liu  et al. Polyelectrolyte multilayer coatings for short/long-term release of antibacterial agents. Surf Coat Tech 2020;393:125696  
+23 Zhang et al A sol–gel based silver nanoparticle/polytetrafluorethylene (AgNP/PTFE) coating with enhanced antibacterial and anti-corrosive properties. Appl Surf Sci 2021;535:147675. 
+24 Babutan, Iulia et al. “Antimicrobial Polymeric Structures Assembled on Surfaces.” Polymers vol. 13,10 1552. 12 May. 2021  
+25 VINCENT, M., et al. Contact killing and antimicrobial properties of copper. Journal of applied microbiology, 2018, vol. 124, no 5, p. 1032-1046. 
+ 
+
+ 
+101057597 - NANOBLOC - Part B - Page 13 of 45 
+ 
+POLITO has patented (PCT/IB2018/057639, POLITO) an 
+industrially scalable, versatile and green co -sputtering 
+technology that is suitable for deposition on a variety of 
+different solid surfaces (metals, glasses, ceramics, polymers), 
+porous materials, filters, and textiles. The thin coating (less than 
+200 nm) is composed of Ag nanoclusters well embedded into a 
+SiO2 matrix. The coating composition can be adapted to the 
+application requirements. It is charac terized by a proven 
+antimicrobial/virucidal effect and a gradual controlled metallic 
+ion release without the dispersion of nanoclusters into the 
+surrounding environment or human skin. The coating prevents 
+the contamination and proliferation of bacteria, fungi, moulds and it is able to inactive numerous viruses (respiratory 
+syncytial virus and influenza virus A, and also towards SARS-CoV226 with a study on disposable FFP3 masks ) 
+and withstands up to 450°C (suitable for high-temperature cleaning metallic/ceramic/glass substrates; metallic air 
+filters, etc.) retaining its biocidal properties. 
+TEKNIKER has developed PVD coatings with different technologies (HIPIMS, sputtering, and Cathodic arc) 
+based on metallic nitrides using Cu as biocidal agent, showing that high antibacterial antiviral effects can be obtained 
+for applications such as imp lants (avoiding toxicological effects) 27 and high traffic object s28. PRIREV has 
+developed PVD formulations containing Ag with antibacterial properties certified by Hohenstein (PRIREV AB20), 
+that still require adaptation to different substrates to guarantee durability. It is being applied in door handles and is 
+under certification process for food contact to use in cutlery items (to meet hotels and catering demand). The coating 
+is currently in “inox” colour and is necessary to develop films with other colours, requested for decorative purposes 
+such as Black, Gold, Copper and Dark Chocolate. The same properties need to be achieved in substrates commonly 
+used in faucets area, and which are very different in relation to deposition conditions.  
+ 
+Organic/inorganic nanocomposite coatings 
+Sioen Chemicals has more than 20 years of experience in formulating radiation curable coatings. Radiation curable 
+coatings dry (= polymerize) after exposure to UV-light or Electron Beam radiation. This ecofriendly system is free 
+of volatile organic solvents, all components stay within the film. Antibacterial products have also been developed 
+                                                      
+26 BALAGNA, Cristina, et al. Virucidal effect against coronavirus SARS -CoV-2 of a silver nanocluster/silica composite sputtered coating. Open Ceramics, 2020, vol. 1, p. 100006. 
+27 “Desarrollo de una solución superficial antimicrobiana, personalizada y durable que prevenga los procesos infecciosos en impl antología dental: IMPLANTIBAC”. IDI-20191339 
+28  “Materiales multifuncionales de GRAN área basados en la combinación de REcubrimientos y teXturización de superficies: GRAN -REX”. IDI-20171116 
+Fig. 3- Technology and market pathways for Wet Chemistry approaches & Nanoparticle doped UV-lacquer with self-
+disinfecting properties 
+ 
+ 
+✓ 99.99% effectivity against SARS-CoV2 and other 
+respiratory viruses, bacteria & fungi. 
+✓ High temperature resistance 
+✓ Nanoclusters not dispersed in the environment 
+✓ Do not penetrate the human skin 
+✓ Successfully sputtered and validated face masks 
+(published results) 
+✓ Suitable for application on a wide variety of substrates 
+✓ Green Technology 
+
+ 
+101057597 - NANOBLOC - Part B - Page 14 of 45 
+employing inorganic loads in the polymeric matrix for textile products. 29 Traditionally, additives with biocidal 
+properties can be added as a liquid or solid into the co ating system. Conventional products like triclosan, zinc -
+pyrethion, quaternary ammonium -based products, carbamates, nano -based Ag, all have disadvantages when it 
+comes to durability in the end product application  as they wash out or lose their efficiency after contact with 
+cleaning chemicals. 
+ 
+Wet-chemistry coatings 
+FAU has longstanding experience researching on wet-chemistry coatings using technologies such as Electrophoretic 
+deposition (EPD) and Sol -Gel processing to obtain antibacterial properties. As recent examples, they have 
+developed Cu(II)-Chitosan30 and Ga(III)-Chitosan31 complex coatings deposited by EPD with high antibacterial 
+activity and mechanical stability. In the case of Sol -gel coatings, they have developed hybrid coatings containing 
+borosilicate glass particles that show good antibacterial properties (with and without Cu) and good corrosion 
+resistance32. TEKNIKER has also developed sol -gel coatings that have proven their capability to kill bacteria and 
+virus using Cu as biocide element33. The combination of sol-gel coating method and EPD has also been introduced 
+by FAU as a promising strategy to achieve antibacterial coatings on planar and non-symmetric surface geometries34. 
+ 
+Although the NanoBloc® partners have top level state-of-the art results, further research is necessary in order to 
+guarantee the desired biocide functionality, with adequate durability  for the expected conditions of the 
+applications and with a non-harmful effect. In this sense, NanoBloc® will advance the SoA via our exceptional 
+ground-breaking R&I in the field of innovative virucidal and biocidal n anocoatings by means of a cocreation 
+approach that overcomes the main problems of current products in the market while generating solid 
+scientific knowledge on the relation between materials science and microbiological behaviour. 
+ 
+Thanks to a powerful cocreation approach and to new knowledge that will be generated during the project in 
+relation to the formulation of coatings connected with antiviral, and biocidal and antifungal efficacy of the 
+coatings over time and in operating conditions with a higher durability, we will select the most suitable 
+technology from our versatile nanocoatings platform  for each industrial application (based on industrial 
+specification and market requirements) and develop and up-scale more effective and durable biocidal coatings 
+(compared to the state of the art) to relevant demonstrators that will impact the market in a wide variety of 
+innovative new products and applications for the prevention of airborne infectious disease: porous filter materials 
+(air filtration units, face masks), textiles (protective clothing, mattress covers, aprons, wallpaper), and also on a 
+variety of high-traffic solid surfaces  (door knobs, handles, handrails, sanitaryware -taps, etc.) , which will be 
+validated in the application environments, including a hospital (San Luigi Hospital that hosts the UNITO laboratory) 
+As such, as part of a Cocreation Lab that will be established and run throughout the project, we will drive forward 
+an application oriented -development that combines bottom-up with top -down approaches to bridge the gap 
+between science and market needs in order to develop new NanoBloc® coatings with scientifically proven 
+superior and reliable properties in terms of efficiency, durability, and eco-friendliness. A key innovative feature 
+of our project is to implement a ‘Quality -by-Design’ approach to create a Digital Twin of each process for  (i) 
+increasing the process understanding thanks to Process Analytical Technology (PAT)-based real-time monitoring 
+for obtaining critical material composition and process data , (ii)  using Machine Learning techniques for 
+predictive model control for process optimization, which will facilitate the process development and upscaling 
+process, and will also provide the template for a PAT-based process monitoring and control platform for ensuring 
+the standardized processing of the nanocoating during the future (post project) production stage.  
+This science-base in terms of coatings and the Artificial Intelligence enhanced understanding of process 
+parameters (also inspired in the PAT -based Quality -by-Design approach), in addition to materials science 
+properties testing and microbiological behaviour will generate the comprehensive knowledge needed to inform the 
+selection, scaling-up and validation of the most suitable technology for delivering reliable, robust and functional 
+products for the intended applications. This will ensure that we can make high ly credible and scientifically 
+substantiated claims compared to the current State-of-the-Art, whereby many of the current market entrants 
+have been developed to serve a sudden market demand (without sufficiently taking into account the specific 
+needs to each product/application), and test ed and validated using simple standards lea ding to products 
+flooding the market with doubtful claims on functionality.  
+                                                      
+29 https://sioen.com/en/news/technical-textiles-save-lives-mattress-covers  
+30 AKHTAR, Muhammad Asim, et al. Electrophoretic Deposition of Copper (II)–Chitosan Complexes for Antibacterial Coatings. Int J Mol Sci, 2020, vol. 21, no 7,  2637. 
+31 Akhtar, et al. "Electrophoretic deposition and characterization of functional coatings based on an antibacterial gallium (III )-chitosan complex." Coatings 10.5 (2020): 483. 
+32 Balestriere, et al. Sol-gel coatings incorporating borosilicate bioactive glass enhance anticorrosive & surface performance of stainless steel implants. J Electroanal Chem 876 (2020): 114735. 
+33 https://umbrellatch.com/productos/umbrella-zero/. Coating developed by TEKNIKER and transferred to the company: Internal track of background is kept by  TEKNIKER. 
+34 Ballarre, Surf. Coat. Technol. 2020, 381, 125138 
+ 
+101057597 - NANOBLOC - Part B - Page 15 of 45 
+R&I Maturity   
+In line with the call requirements in relation to Technology Readiness Levels (TRLs), the technologies addressed 
+in the project are currently situated at TRL3 (i.e. experimental proof of concept) and will be scaled to TRL4 (i.e. 
+technology validated in lab), and then through a Living Lab approach in cocreation with the industrial technology 
+upscale partners will be brought TRL5 (i.e. validat ion in an industrially relevant environment) and then in 
+collaboration with the early adopters to TRL6 (i.e. technology demonstrated in application relevant environment). 
+A key feature of our project is that we are incorporating an AI-driven Quality-by-Design approach to facilitate the 
+process development and upscaling process. Table 4 shows TRL levels of the core components of our NanoBloc® 
+Technology Platform, with current TRL levels, versus that expected at project completion. Further details on how 
+each TRL level is addressed are shown in the methodology section. 
+ 
+Table 4- TRL positioning of the work 
+Technology TRL at project start TRL at project end 
+Ag/silica co-
+sputtered 
+coating 
+TRL4: POLITO has developed the Ag/silica coatings prove to be antiviral 
+& antibacterial and already deposited in face masks at laboratory level. 
+TRL6 Selected coatings 
+based on their 
+performance on go/non-
+go decisions will be 
+validated under specific 
+product specifications 
+& shown to be still 
+effective under ageing 
+conditions, & proven 
+performance on 
+relevant environments 
+such as hospital 
+environment & shared 
+areas in working 
+environments (meeting 
+rooms, toilets). Prior to 
+the down selection for 
+final demonstration all 
+the technologies will be 
+validated for up-scaling 
+at relevant 
+environments at TRL5  
+PRIREV 
+AB20-based 
+coatings 
+TRL4: Prirev has developed AB20 antibacterial coating in inox colour for 
+stainless steel substrates, however films with other colours and in other 
+substrates need further research 
+Cu based PVD 
+coatings 
+TRL3: TEKNIKER has developed PVD coatings based on nitrides and 
+oxides that are effective against bacteria and virus. Further research needed 
+to develop new coatings compositions & architectures guarantee durability 
+and non-toxicological effects 
+Self-
+disinfecting 
+Nanoparticle 
+doped UV-
+lacquer 
+TRL3: SIOEN has developments on antibacterial UV -curing lacquers for 
+textiles applications. Conventional products like triclosan, zinc-pyrethion, 
+quaternary ammonium -based products, carbamates, nano -based Ag, all 
+have durability problems in the end product application  as they wash out 
+or lose their efficiency after contact with chemicals.  
+Coatings 
+based on SiO2 
+& Ag 
+nanoparticles 
+by EDP  
+TRL3: FAU has designed multi -structured coatings consisting of 
+PEEK/BG layers deposited via EPD and coated with Ag/SiO2 nanoclusters. 
+Although the slow release of Ag ions resulted in strong antibacterial 
+properties and cytocompatibility, further inves tigations against various 
+pathogens are required.  
+Wet chemical 
+sol-gel process 
+TRL3: FAU has developed antibacterial  sol-gel organic-inorganic hybrid 
+coatings with borosilicate or Cu -doped borosilicate bioactive glass 
+particles. Long-term antimicrobial efficacy of coatings still to be verified.
+1.2 Methodology  
+Overall methodology.  
+Cocreation Lab- industry-research codesign innovation 
+approach: A key strength of the NanoBloc® project is 
+that (through the project partners/consortium) we are 
+mobilising a research -industry codesign approach that 
+will be implemented via a Cocreation Lab. Cocreation 
+relates to strategies of open innovation that actively 
+involve the participation of customers in the design and 
+construction of goods and services, in which ideas are 
+produced, valued by organizations and the customers 
+themselves, i.e. cocreation is the  participation with 
+customers in order to get value. Our NanoBloc® 
+codesign approach  (that can be readily applied to any 
+technology) is underpinned by a pioneering ‘cocreation 
+cycle’ (figure 4) that will be implemented in the NanoBloc ® project in 3 development loops ( refer to figure 9 in 
+section 3.1). A key value of this approach is that it is underpinned by research to gain an advanced understanding 
+of the interactions between process parameters, coating composition and architecture, biocidal properties and 
+mechanisms, in addition to the durability and other properties of the coating . A major advance will be the 
+encapsulation of this knowledge in self -learning algorithms based on data analytics and machine learning, which 
+will lead to an enhanced understanding and predictive capability over time.  Since a digital twin -in comparison to 
+traditional models and simulation s that are mainly based in first principles and simple empirical data - is a data-
+driven multivariate model, particularly suitable for describing complex systems , such an approach is of 
+extreme value in the case of processes that involve n ano-scale interactions, which are, by their very nature, too 
+ 
+• NanoBloc© cocreation process initiates with an application-
+oriented development philosophy (products ‘ask’). It informs 
+the selection of the best assessment of the most suitable 
+nanocoating technology in each case.  
+• Scientific & inter-disciplinary knowledge in relation to Process 
+Parameters/Coatings, Materials Science properties testing, & 
+Mechanical Behaviour enables the most suitable technology 
+and process to be defined (science ‘answers’). 
+• The selected process in scaled up, engineered and validated 
+(engineering ‘implements’). 
+• The most suitable & adapted technology can deliver reliable, 
+robust & superior functionality products for the intended 
+applications (‘technology delivers’) to supply the ‘market’.  
+ 
+101057597 - NANOBLOC - Part B - Page 16 of 45 
+complex to be easily described by merely using first-principles-based quantitative descriptions. 
+ 
+ 
+ 
+Figure 4- The NanoBloc® cocreation cycle 
+In terms of the running of our Cocreation Lab, it will be inspired in t he ‘Living Lab approach’, whereby in our 
+codesign and scoping sessions (which will be organised at regular intervals throughout the workplan), in addition 
+to the established theories of innovation, which distinguish two forces - ‘technology push’ and ‘marke t pull’-, we 
+will also take into account a third force- the ‘contextual push’ or the ‘people insights push’. This ensures that we 
+will not only gain the evaluative power (prove/disprove a hypothesis or idea) of our Cocreation Lab, but will also 
+benefit from generative value (i.e. that we gain access to insights not yet known to the researchers). For running 
+our Cocreation Lab (which will cross -cut our entire R&D workplan through Task 4.1), we will follow the best 
+practices of the Living Labs  Harmonization Cube35, which covers the 6 dominant Living Lab perspectives: user 
+involvement, service creation, infrastructure, governance, innovation outcomes, and methods & tools. 
+Implementation of the NanoBloc® methodology : We will implement the NanoBloc ® methodology (i.e. our 
+cocreation cycle) to enable the selection of the most suitable technology for each industrial application (based 
+on industrial specification and market requirements). It will also facilitate the development and upscaling of 
+more eff ective and durable biocidal coatings (compared to the state of the art), resulting in relevant 
+demonstrators that will impact the market in a wide variety of innovative new products and applications for the 
+prevention of airborne infectious disease.  
+1) Product demands properties 
+We will produce a comprehensive suite of demonstrators and the performance requirements of each will be 
+defined by the industry end -users in keeping with market requirements . This information will establish the 
+KPIs that need to be ve rified by our testing and characterization work. Table 5 provides an overview of these 
+demonstrators as well as the expected performance requirements of each product as defined by the industry 
+partners. We also indicate the envisaged coating technologies to be applied in each case from among the versatile 
+NanoBloc platform of technologies (and which will be verified during the project cocreation cycle).  
+ 
+Table 5- Demonstrators and performance requirements 
+Applic. Product Performance Requirements 
+Air 
+filtration 
+Metallic or 
+glass based 
+filtering 
+devices  
+▪ Reusable filters made of woven/nonwoven metallic or  glass with proper HEPA 
+characteristics and suitable thermal resistance 
+▪ Capable of withstanding thermal regeneration procedures from 130-350 °C.  
+▪ Antipathogen properties are superior to market available products, especially temp. 
+resistance (regeneration after heating up to 450 °C).  
+▪ Effective in killing bacteria, yeasts, moulds, and virus  
+                                                      
+35 Mulder, Ingrid & Velthausz, Daan & Kriens, Martijn. (2008). The Living Labs Harmonization Cube: Communicating Li ving Lab's Essentials. 
+
+ 
+101057597 - NANOBLOC - Part B - Page 17 of 45 
+▪ No ecotoxic release of nanoparticles into environment 
+Face masks  ▪ Reusable face masks made of woven/nonwoven textiles  
+▪ Antipathogen properties are superior to those already existing on the market  
+▪ Effective in killing bacteria, yeasts, moulds and virus 
+▪ No release of nanoparticles into environment 
+Textiles Protective 
+clothing 
+▪ Biocidal according to ISO 21702 (antiviral), ISO 27447 & 22196:2007 (antibacterial) 
+▪ Maintain biocidal properties for 3-5 years 
+▪ Temperature/UV stability to hot Xenon testing (black panel temperature of 100°C)  
+▪ UV stability by means of QUV-A testing for outdoor applications 
+▪ Biocidal properties are compliant with at least 50 washing cycles at 60°C (protective 
+clothing) or 95°C (medical applications) 
+▪ Chemical resistance against disinfecting agents such as ethanol, bleach, etc. 
+▪ Homogeneous biocidal properties at every cm2 over the whole coating width 
+Mattress covers 
+Aprons 
+Wallpaper  
+High 
+traffic 
+solid 
+surfaces 
+Door knobs ▪ Effective in killing bacteria, yeasts, moulds and virus 
+▪ No release of nanoparticles into environment 
+▪ Resistance to chemicals (cleaning procedures). 
+▪ Resistance to oxidation (humid environments) 
+▪ Scratch resistance   
+▪ Biocidal properties according to ISO 21702 (antiviral) and ISO 27447 (antibacterial) 
+▪ Biocidal properties for at least 10 years 
+▪ Temperature stability (hot Xenon testing black panel temperature of 100°C) 
+▪ Ageing resistance of matrix for at least 10 years 
+▪ Chemical resistance against solvents, cleaning and disinfecting agents 
+▪ Homogeneous biocidal properties at the cm2 over the whole surface 
+Handles 
+Handrails 
+Sanitaryware-
+taps 
+Window glass 
+Cutlery (buffet/ 
+catering items) 
+Tiles/ 
+Flooring 
+ 
+2) Preselection of process candidates 
+The NanoBloc® project will research and develop innovative virucidal, biocidal and antifungal nanocoatings 
+that will provide a technology platform that can be codesigned and scaled up according to industry specifications 
+and market requirements. A key value of our project, is that our technology platform is versatile in that it covers 
+the most promising (i.e. multiple industrially relevant) coating technologies. The cocreation cycle approach will 
+aim to verify the most suitable technology for the different applications . Importantly, our consortium includes the 
+necessary scientific and technological partners to validate these technologies in line with  their suitability to 
+deliver product specifications and industry & market requirements, ensuring a technology and market pathway. 
+The preselection of process candidates has been performed to cover a wide range of technologies on the basis of the 
+previous experience and good results obtained in past research efforts performed by the NanoBloc® (Table 6). 
+ 
+Table 6- NanoBloc technologies 
+Physical Vapour Deposition Organic/inorganic 
+nanocomposite coatings 
+Wet-chemistry coatings 
+RF co-sputtered Ag/Silica (POLITO) 
+Sputtering & Cathodic arc of Ag doped nitrides 
+(PRIREV) 
+Cathodic arc, magnetron sputtering & HIPIMs 
+for Cu doped nitrides and oxides (TEKNIKER) 
+Nanoparticle doped UV 
+lacquers (SIOEN, POLITO) 
+Nanoparticle doped PU & PVC 
+coatings (SIOEN) 
+Electrophoretic deposition of 
+biobased formulations (FAU) 
+Sol-Gel hybrid coatings (FAU, 
+TEKNIKER) 
+ 
+3) R&D stage (TRL 3-4): understanding the links between process parameters & coating composition/ architecture, 
+microbiological mechanisms & biocidal properties, & coating material properties (durability, etc.) 
+The properties and functionality of the coatings are determined by their chemical composition, their morphological 
+features, their structure and architecture. In this sense, the physico-chemical characteristics of the coating determine 
+the mechanical and corrosion resistance while the amount and location (at the surface and/or embedded) of biocide 
+elements will determine their antipathogenic functionality in terms of effectivity, depending on the  different 
+mechanisms involved, and therefore on the durability and time required to eliminate the pathogens.  The physico-
+chemical features of the coatings are in turn dependent on preci se tuning of process parameters  and strategy to 
+define architecture (gradient, multilayer, etc.) and to guarantee good adhesion. Some key process parameters for the 
+technologies addressed in NanoBloc® are defined in the following table. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+101057597 - NANOBLOC - Part B - Page 18 of 45 
+Table 7- Key process parameter for the NanoBloc technologies 
+Physical Vapour Deposition Organic/inorganic 
+nanocomposite coatings 
+Wet-chemistry coatings 
+Target power & co-evaporation 
+ratios of the different elements in 
+coating composition,  frequency 
+& pulse length of the applied 
+power, amount of reactive 
+gasses, temperature, bias 
+voltage, or pre -treatments with 
+ion sources for adhesion, etc. 
+Type & % of nanofillers, 
+dispersion methods, curing 
+strategy: radiation curable coating- 
+either 100% UV-system (curing by 
+“traditional” UV -lamps and/or 
+Excimer curing) or water -based 
+UV-system (traditional UV or 
+LED-curing), etc. 
+Electrophoretic deposition : particle size, 
+dielectric constant of liquid, conductivity & 
+stability of suspension, Zeta potential, 
+deposition time, applied voltage, substrate 
+conductivity, … 
+Sol-Gel hybrid coatings : chemical 
+precursors, nanoparticle dispersion, 
+extraction speed (dipping), curing temp, etc. 
+ 
+Figure 5. POLITO co-sputtering coatings different composition and morphology leads to different biocide results on SARS-CoV-2 
+ 
+Figure 5 shows POLITO’s results on Ag/silica nanocoatings on face masks and how composition (more - Ag5W- 
+or less -Ag3W- silver amount) and morphology lead to different results. Moreover , process parameters influence 
+the growth morphology of the coatings leading  to changes on the structure and morphology of the coatings, as 
+illustrated in Fig. 6. While both coatings lead to good biocide properties, the one with densified layers is expected 
+to have better mechanical properties.  
+In order to understand the relation between process parameters and coating physico -chemical features, R&D on 
+new coating developments (which will be performed in  WP1) will be fed with the results on testing against 
+different mechanical and ageing conditions (WP3)  as defined by the applications (WP4), to determine the 
+durability of the coatings, as well as the results on biocide functionality before and after ageing (WP2).  
+Moreover, an important contribution of NanoBloc® is to understand the mechanisms of antiviral & biocidal effect 
+(WP2) of our coatings in order to improve their efficiency against pathogens, to understand the characteristics that 
+allow them to be wide spectrum antimicrobial coatings and to identify the best fields of application. 
+ 
+Figure 6. TiNCu biocidal coatings by TEKNIKER. Bilayer structure with different process parameters: Growth morphology is determined 
+by process parameters, leading to nanoparticulated layers(left) or densified layers (center).  Scheme (right) of electrocatalytic effect and 
+nanoroughness features of contact killing by generation of ROS. 
+NanoBloc aims also to focus on the adequate coating durability or the application and on the absence of toxicological 
+effects or environmentally harmful releases. Again, the process parameters and strategies will lead to different 
+morphologies and architectures. As an example, the different surface nanomorphologies of the coatings in Figure 6  
+lead to different contact angles, and therefore will influence antiadhesion mechanisms, while a control of the coating 
+composition and architecture can provide contact killing by positioning the biocide elements as the Cu at the surface 
+or generating a layered or gradient structure for controlled ion -release. In turn, surface nanomorphology and 
+composition influences electrocatalytic generation of reactive oxygen species (ROS) can kill pathogens by contact36. 
+To this end, WP2 will not only feed the development of coatings taking into account their efficiency against 
+pathogens before and after ageing, but also on the different mechanisms acting by employing variations of standard 
+testing to understand touch transfer of bacteria and ion release rates, as well as testing on toxicology and eco-toxicity 
+testing of the formulations to ensure that they are safe. By looping between WP1, WP2, and WP3 a fine tuning of 
+the coatings will be achieved while generating a deep knowledge on the properties and mechanisms acting that will 
+be used to down select the best coatings & processes candidates on go/non-go decisions and selection of strategies 
+for up-scaling and validation for each application. 
+                                                      
+36 D. Monaghan et al. Highly biocidal vacuum deposited transparent coatings for touch surfaces to help in the fight of COVID19&HCAI. SVC bulletin.2020 
+
+ 
+101057597 - NANOBLOC - Part B - Page 19 of 45 
+ 
+4) Up-scaling & validation stage (TRL5-6): process & properties validation in relevant environments 
+Thanks to the industry participation in this project, we will mobilise an industry-driven and application-oriented 
+development that will not only inform and guide the work performed in the R&D phase, it also affords the 
+opportunity to scale up the processes in industry for testing, validating and demonstrating. 
+ 
+Up-scaling and production of demonstrators 
+The selected coatings and processes from previous stages will be promoted to up-scaling in order to be validated in 
+industrial environments in terms of technologies (TRL5) and to prepare demonstrators to be tested in relevant 
+environments for the applications (TRL 6). For this purpose, the selected technologies and coatings will be up -
+scaled according to the targeted application, and different approaches will be used depending on the 
+substrates and geometries . Thus, different types of processes will be used to optimize the coatings on the 
+demonstrators. In the case of 3D dimensional objects, batch processes will be used, and processes parameters will 
+be fine-tuned to guarantee the homogeneity of the coatings over the surface of complex shapes such us door handles. 
+It will be necessary to study how positioning and orientation of the samples affect the coating homogeneity, and to 
+design specific sample holders and ancillary tools to guarantee the homogeneity. On the other hand, roll -to-roll 
+processes will be used for 2D applications such as textiles. In this case, controlling web speed together with 
+deposition parameters is key to controlling the homogeneity of PVD and Sol -gel coatings. The methodology of 
+transferring coating is of utmost importance in the case of nanocomposite coatings for high stretch textiles (knitted 
+fabrics and others). In this process, a liquid coating system is applied onto a release paper (temporary carrier) and 
+in the last stage of the process the textile is bonded with an adhesive layer onto the “skin layers”.  
+Table 8 summarizes the types of up -scaling processes in relation to the different technologies addressed in the 
+project and the partners in NanoBloc. 
+Table 8- NanoBloc Upscaling processes  
+Batch processing: 3D applications Roll-to roll processing: 2D applications 
+-PVD sputtering/cathodic arc/HIPIMS (PRIREV-TEKNIKER) 
+- Sol-Gel (TEKNIKER) 
+- EDP (FAU-TEKNIKER) 
+- PVD Sputtering (INTERPANE) 
+- Sol-Gel (TEKNIKER) 
+- Nanocomposite coatings & lacquers (SIOEN) 
+ 
+In order to speed up the adaptation of process parameters to industrial environment up-scaling and to guarantee the 
+quality of coatings a data-based strategy using digital twins, in-line process monitoring and machine learning will 
+be used, on the basis of the data obtained from the earlier stages of the project. 
+Digital twin approach: In-line process monitoring for closed loop control and quality standardisation  
+A key innovative feature of our project is to implement a ‘Quality-by-Design’ approach to create a Digital Twin of 
+each process for increasing the process understanding thanks to Process Analytical Technology (PAT)-based real-
+time monitoring for obtaining critical material composition and process data . Machine Learning techniqu es will 
+also be used for predictive model control for process optimization, which will  facilitate the process development 
+and upscaling process and will provide the template for a PAT -based process monitoring and control platform for 
+ensuring the standardized processing of nanocoatings during the future (post project) production stage.  
+Based on advances in manufacturing and processing technologies, a key innovation is planned under the Digit al 
+Twin/Industry 4.0 paradigm. A digital twin is a digital replica -mainly built on the basis of multivariate empirical 
+data- of an artefact, process or service that is so accurate that it can be used as basis for taking decisions 37. The 
+concept of the digital twin is one of the big game -changers in manufacturing allowing companies to significantly 
+increase their global competitiveness. It further securitizes IP by adding a control layer that relies on decentralized 
+decision-making, to support (or even replace) human intervention. Our intention is to implement Digital Twin 
+technology for ensuring that the scaled-up processes are optimally controlled based on predictive models or 
+protocols that will be developed for the target end products.  
+The ‘nano’ tends to ‘live’ at a holistic level that cannot be accessed directly with  spectroscopy (except for very 
+specific cases). However, this holistic level in turn influences higher levels, which are accessible through 
+spectroscopy and other ‘extensive’ techniques. In order to develop a digital twin for macroscopic levels (i.e., for 
+production purposes), it would be very valuable to have access to microscopic information, for which  nanoscale 
+characterization techniques provide data source on different physics and insights on nanoscale features. 
+A Process Analytical Technology (PAT) en abled control platform (based on the IRIS Scadalytics software 
+platform) will incorporate Artificial Intelligence and Machine Learning  modular engines for keeping the 
+process under optical conditions. It holds significant potential for further improving process resource and energy 
+efficiency, and for ensuring that a standardised quality product is obtained based on the production protocols.  
+                                                      
+37 https://www.change2twin.eu/digital-twin/  
+ 
+101057597 - NANOBLOC - Part B - Page 20 of 45 
+The concept is to design, analyse, and control manufacturing processes through the measurement of identified 
+Critical Control Parameters that govern product variability, as well as real-time in-line monitoring of analytical 
+quality attributes of nanocoating being processed. This concept is enabled by installing PAT tools, particularly 
+infrared spectroscopy, in the proces sing equipment. The philosophy behind the PAT initiative is the Quality-by-
+Design principle , whereby the design of the process relies on a sound and scientific understanding of the 
+relationship between Critical Quality Attributes of the product itself and the control parameters (See Table 7). 
+The quality attributes make the product safe and efficacious, and the control parameters influence product quality 
+inside the acceptable process limits. In -line monitoring and control of these parameters can better ass ure product 
+quality during manufacturing. The quality attributes of a product are directly determined by the control parameters, 
+and as such, the quality of products can be incorporated by process design and not by postproduction quality testing. 
+Furthermore, a data fusion approach—i.e., combining spectroscopy with traditional parameters and relating them 
+to quality parameters of the production —will provide a more robust mathematical model automatic control  of 
+processes, improving yields, reducing time, waste and energy consumption, and for predictive maintenance. In 
+short, based on real -time data provided by the PAT system in relation to the quality attributes of the nanocoating 
+material, the control parameters governing product variability are modified in real-time based on the models to 
+ensure optimal product quality with efficient process conditions. Data from the PAT analysers will be processed 
+with chemometric (Machine Learning) models in order to extract usable information from the spectral data, and i t 
+will be fused with the data from the traditional sensors and processed with advanced models for closed-loop process 
+control. It provides information for improved decision making, sending alerts to operators, as well as using data 
+historian about the process for improved process understanding, optimisation, predictions, & anomaly detection.  
+Validation of demonstrators in relevant environments 
+Once the up -scaling stage is optimized, the coatings will be deposited on demonstrators for the different 
+applications. These demonstrators will be validated against the specific standards of each application but 
+additionally, the NanoBloc solutions will be tested in relevant environments (TRL6) to show their effectiveness and 
+durability over 1 year trial campaigns. This will be done by placing coated elements (such as doorknobs) in specific 
+places (toilets, meeting rooms, etc) in a hospital (San Luigo Hospital that hosts the UNITO laboratory) and working 
+environments- toilets, meeting rooms, etc. (TEKNIKER, POLITO). The elements and samples will be periodically 
+analysed by extracting and/or swabbing both coated samples and non-treated samples in equivalent places to analyse 
+if there are significant statistical differences on the pathogens found on treated and non -treated surfaces. Cleaning 
+procedures will be kept as usual in the chosen environments in order to study the durability under normal operations, 
+and in this sense evidence of degradation due to oxidation, cleaning procedures or normal use will be obtained. 
+HOW THE METHODOLOGY W ILL ENABLE DELIVERY OF THE PROJECT ’S OBJECTIVES  
+User-centric development and validation can play an important role in speeding up effectively the innovation 
+process through addressing the actual user needs (European Commission, 2009). Whereas users are typically 
+seen as a subject in traditional research, they are seen as co-creators of innovation in a Living Lab approach . 
+Our approach ensures that we bring the industry partners and target end-users into the creative process early 
+in order to discover new and emerging requirements, expectations, behaviours and user patterns. In this way 
+we will bridge the innovation gap bet ween technology development and the uptake of new products and 
+services involving all relevant players of the value network through engagement between the innovation creators 
+(from our RTOs and coating industry), the innovation adopters (end-user industries, including hospitals), as well as 
+citizens (consumers), and enabling stakeholders (standards bodies and policy makers). We will also allow for the 
+early assessment of the socio -economic implications of the outputs by performing impact assessment work.  In 
+conclusion, the advantages of our methodology  are as follows:  More reliable coatings/products with better 
+properties; Potential to define new , future-oriented, ‘fit-for-purpose’ standards for validation ; Potential to easily 
+adapt to new demands once key R&D testing are defined, and processing and fundamental knowledge of coatings 
+is developed and shared in Open Science practices and databases ; Better social engagement: customer will know 
+that products are based on strong knowledge basis and methodology through dissemination actions to wide public.  
+From a project management perspective, we will implement the most appropriate methodology in view of our 
+Cocreation approach to the implementation of our project. As it is appropriate for our research -industry 
+codesign/cocreation approach, we will adopt a hybrid-approach to our project management methodology , 
+whereby we will combine both the ‘predictive’ and ‘adaptive’ project management approaches. In the predictive 
+approach (also referred to as ‘waterfall’), the project scope, time and cost are defined in the early phases of the 
+life cycle (and this is the case for our project), and then any future changes to the scope are dynamically 
+managed. While this approach is effective for managing the carefully planned an d budgeted project plan that has 
+been drawn up and defined based on a strong base of experience of the project consortium in designing and 
+executing large -scale multidisciplinary, multi -actor and multifaceted collaborative R&D projects, in situations 
+where projects are dynamic in nature, involve some potentially unknown user requirements, potentially unknown 
+cause and effect interdependencies, and complexity, it can present difficulties in responding quickly. To this end, 
+ 
+101057597 - NANOBLOC - Part B - Page 21 of 45 
+when we are presented with these situations, we will blend in the adaptive (agile) approach38, whereby the detailed 
+scope is defined and approved before the start of each iteration. This approach is very fitting for managing the 
+implementation of the 3 development and innovation cycles that will be executing during our workplan. Our hybrid 
+approach will ensure that for those elements of the project that are well known, we can follow a robust 
+predictive life cycle (waterfall), however (and this is important for the dynamic Cocreation Lab approach), 
+for those elements that are still evolving, we have the agility to follow an adaptive life cycle . Such a hybrid 
+approach will ensure we can achieve the best outcome.  
+HOW THE METHODOLOGY C OMPLIES WITH THE ‘DO NO SIGNIFICANT HA RM’ PRINCIPLE  
+In compliance with the ‘do no significant harm’ (DNSH) principle, Table 9 outlines how our project activities 
+contribute substantively to the 6 environmental objectives listed in the Regulation (EU) 2020/852 of the European 
+Parliament and of the Council of 18 June 2020  on the establishment of a framework to facilitate sustainable 
+investment, and amending Regulation (EU) 2019/2088 (Taxonomy Regulation) . Thus, we confirm that our action 
+does not significantly harm any of the 6 environmental objectives  and contributes to reach them. However, 
+we will continually monitor this to ensure full compliance, and in particular this will be assessed in Task 2.3 Toxicity 
+& ecotoxicity. We will also leverage the expertise of regulatory partner UNE.  
+Table 9- Compliance with the ‘do no significant harm’ principle 
+No. Enviromental objs.  How NanoBloc® contributes substantively? 
+1 Climate change 
+mitigation 
+Longer life time of products means a reduction of the processes and materials used having 
+an impact in the reduction of emissions due to manufacturing processes.  
+2 Climate change 
+adaptation 
+As many of the root causes of climate change also increase the risk of pandemics, the 
+NanoBloc® innovation will help Europe build resilience in relation to these risks.  
+3 Sustainable use and 
+protection of water and 
+marine resources 
+• PVD technology is a green & eco-friendly method, based on inert gases, and in the absence 
+of solvents, wastewater or potentially toxic precursors with health and environmental risk.  
+• Nanocomposite and wet chemistry technologies addressed are solvent free solutions. 
+• Ecotoxicity testing to ensure no harm caused to marine species (see point 6 below). 
+4 Transition to a circular 
+economy 
+Waste prevention is key for circular economy . One of the main aims of NanoBloc ® is to 
+deliver durable coatings. This will extend the operative life and of products such as face 
+masks and air filters reducing waste of disposable filters and textiles. Ag/silica coating that 
+can be easily regenerated by thermal treatments, will make some products reusable (e.g. air 
+filters), decreasing the quantity of waste to be processed as special waste. 
+5 Pollution prevention 
+and control  
+• PVD technology is an extremely green technology. Anti-bio-pollutant properties have been 
+proven effective in preventing contamination and proliferation of biopollutants such as 
+bacteria, fungi, moulds & viruses.  Radiation-curable coatings dry ( i.e. polymerize) after 
+exposure to e.g. UV-light or Electron Beam radiation. As all components stay within the film 
+it is free of volatile organic solvents.  
+6 Protection and 
+restoration of 
+biodiversity and 
+ecosystems 
+Gradual controlled release of ions without dispersing the nanoparticles in the surrounding 
+environment is on the targets in the project. Ecotoxicity testing for marine species will be 
+performed and any ion release will be strictly analysed for toxicological effects & ecotoxity 
+to reduce potential harmful ions & reach a balance between the biocide effect against 
+pathogens, while ensuring that no harm is caused in terms of toxicity and ecotoxicity. 
+CHALLENGES AND HOW TH EY WILL BE OVERCOME  
+The objectives and methodology proposed in NanoBloc are ambitious, in that a methodology that is sufficiently 
+versatile for different technologies, coatings and applications is addressed. While such an approach has the 
+advantage of covering a diversity of technological solutions , minimizing risks and delivering high value for the 
+money invested, it does have a number of inherent challenges to be overcome, as summarized in Table 10. 
+Table 10- Challenges associated with our chosen methodology and how they will be overcome 
+Challenges NanoBloc approach 
+To deliver effective 
+and durable coatings 
+for a wide range of 
+different applications 
+and substrates 
+Having different applications and substrates implies that there are different requirements. 
+While the pre-selected technologies have shown great potential, not all of them may be 
+finally su itable for the applications in a reasonable time. As such, NanoBloc has pre -
+selected the most promising ones, and the proposed R&D stage of the methodology 
+looping characterization against specific needs  (which will be facilitated by the Quality -
+by-Design approach) will allow to down select the most suitable technology/coating for 
+each application. 
+To handle the In order to be able to work on different coatings/technologies and to obtain the expected 
+                                                      
+38 Böhmer, et al (2015) Open Innovation Ecosystem - Makerspaces within an Agile Innovation Process. ISPIM Innov. Summit, Int Soc Innov Manag, 1-11 
+ 
+101057597 - NANOBLOC - Part B - Page 22 of 45 
+development of a 
+wide range of 
+coatings/technologies 
+in project lifetime 
+results within the lifetime of the project, leading scientific and technological organizations 
+will work on the different technologies, with wide experience and building on previous 
+good results on each specific technology  (e.g. POLITO: Co -sputtering, TEKNIKER: 
+HIPIMS, FAU: sol-gel and EDP, SIOEN: radiation curing, etc.).  
+To characterize a 
+high number of 
+coatings during 
+development. 
+Having different technologies and types of coatings could lead to bottlenecks in the 
+characterizations to feedback the developments. In this sense, all the partners have basic 
+characterization tools (such as adhesion) to pre -screen their coatings prior to be ing sent 
+for more complex testing with lower availability. Additionally, laboratory characterization 
+techniques such as SEM, XRD, etc. are available at different partners (POLITO, 
+TEKNIKER, FAU…), and will be used to cover the physico-chemical characterizations 
+loads of all partners. The characterization loops will have a hierarchical structure based on 
+the complexity and availability of testing rigs .  Pre-screening and down select ion by 
+go/non-go decisions will be used to only promote the best performing coatings in wider 
+available simple r tests for further testing. Thus, a ntiviral effectivity  and toxicology 
+(UNITO) will be tested on good antibacterial  pre-screened samples (done in parallel by 
+TEKNIKER, POLITO and FAU for different coatings).  
+To up-scale of a wide 
+range of 
+coatings/technologies 
+in the life time of the 
+project 
+The characterization loops with coating development will allow to down select the most 
+appropriated formulations to be up-scaled. On the other hand, as in the case of the coatings 
+development stage, the same is appli cable to the up -scaling stage for which there are 
+existing pilots and industrial facilities for the different technologies among the partners in 
+NanoBloc, so each technology can be up -scaled in parallel by different partners 
+(INTERPANE- sputtering roll -to roll, PRIREV - batch PVD processing, SIOEN - 
+nanocomposite coatings, TEKNIKER- sol-gel coatings). The up-scaling process will be 
+accelerated by the use of data from earlier stages of development in the project  and 
+machine learning strategies (in a QbD approach), especially as simulation tools capable of 
+producing reliable predictions about the process behavio ur in larger scales. However, as 
+no realistic data from a scaled-up process will be available in the earlier stages, the models 
+for such scaling-up simulations should also comprehend first -principle-based algorithms 
+robust enough to handle any scale-dependent behaviour.   
+To validate and 
+demonstrate the 
+effectivity and 
+durability of the 
+coatings for different 
+applications on 
+relevant 
+environments 
+This is one of the main challenges addressed by NanoBloc is validation in relevant 
+environments. This is one of the main advances regarding the state -of-the-art, as current 
+products in the market have not been correctly validated. The cocreation approach is one 
+of our key tools to address this challenge, as developments will be driven from application 
+requirements to establish the relevant testing, and the results will be continuously 
+monitored using hybrid management to address the go/n o-go decisions on each 
+coating/technology/application, enabling solid results on the final validation stage, where 
+trials will be done to demonstrate the performance of the coatings on relevant working 
+environments. 
+Feed in from national or international research and innovation activities 
+Table 11 summarizes some of the key EU & national/regional research & innovation activities that are feeding 
+knowledge and results (background) into the NanoBloc® project. In addition, we will also promote links 
+between our project and the other projects funded under this topic (and other relevant Horizon Europe topics), 
+in order to establish a common approach with them in relation to defining certain data sets (to guarantee that they 
+are interoperable), to identify the synergies for  joint dissemination actions (workshops, events, etc.) and mutually 
+leveraging our communication channels towards the general public and common target groups. These links will 
+be managed throughout the workplan leaded by POLITO, supported by all the partners. 
+Table 11- Relevant projects and the link with NanoBloc®  
+Brief outline of the results that are feeding in will be used in NanoBloc®  
+BIOKILLER – antiBIOpollutant coating for reusabLe filter", Manunet III Transnational Call (2018)  Deposition 
+and characterization of Ag/SiO2 antipathogen nanostructured coatings via co -sputtering for air filters and metalcutting 
+filters (GVF coordinator; POLITO partner; TEKNIKER and UNITO R&D subcontractors) 
+FLEXPOL: Antimicrobial FLEXible POLymers for its use in hospital environments (H2020 -721062) TEKNIKER 
+was a partner in this project in which they have generated knowledge in roll -to-roll production systems for cost-efficient 
+manufacturing of extensive antimicrobial adhesive films. 
+NABLA: Nanostructured antibacterial layers, Piedmont Region Call Study and characterization of Ag/SiO2 
+antibacterial nanostructured coating deposited several substrates for aerospace inflatable modulus, biomedical implants 
+and mobile phone (POLITO, coordinator) 
+NASLA: Nanostructured antiseptical  layers, EU 7 th FP project  Study and characterization of Ag/SiO2 antiseptic 
+nanostructured coating deposited via co -sputtering on several substrates as biomedical implants, cheese container food 
+ 
+101057597 - NANOBLOC - Part B - Page 23 of 45 
+handling equipment and textiles used for personnel protective systems (POLITO, coordinator) 
+POLYBIOSKIN: High performance functional bio -based polymers for skin -contract products in the biomedical, 
+cosmetic and sanitary industries. H2020 -BBI- 745839 Among its objectives was de velopment & scale up of nano -
+structured highly skin -compatible textiles for wound dressings. IRIS  (who also coordinated)  will link in knowledge in 
+monitoring of distribution & quantification of nanoparticles applied on new textile films using Hyperspectral Imaging.  
+MARTe: Antibacterial coating for textiles, Piedmont Region Call:  Development and characterization of Ag/SiO2 
+antibacterial coatings deposited via co-sputtering on cotton and high-performance technical textile materials (Kevlar and 
+Vectran) for aerospace and civil applications. (POLITO, partner) 
+EcoPUR, GreenWin (Belgium): Research into PU coatings for synthetic textile (specifically for hospital mattresses) in 
+accordance with future environmental and health legislation and to anticipate future production standards . Project aimed 
+to replace organic substances with more sustainable (nano) alternatives. 
+ 
+Interdisciplinarity 
+A key feature of our project is the mobilisation technology, scientific, engineering, product and market expertise 
+from interdisciplinary fields, along with the cocreation of research and industry partners. Thus, in order to reach 
+NanoBloc objectives it is necessary to bring together different disciplines such as coatings, thin film and 
+nanotechnologies for new coatings development; microbiology for biocide mechanisms and effectivity and 
+toxicological testing; materials science for phys ico-chemical and  durability characterization ; engineering, AI & 
+digitalization to ensure the process up -scaling; and industrial partners and end -users to establish and validate the 
+requirements for the applications. Importantly, NanoBloc® also pools together complementary expertise and 
+competencies of partners representing industrial and academic/research excellence in their respective fields.  
+Interdisciplinary R&D, while it improves creative performance and the potential for breakthrough innovations  to 
+be generated, is complex to manage. In order to promote the seamless integration of these disciplines during the 
+project, the organization structure will include an Interdisciplinary Strategic Committee , involving senior 
+researchers from each of the di fferent expert teams. This Committee will be responsible for the definition of the 
+internal working strategies of the Thematic Working Groups  from each WP, and for the consolidation of the 
+interdisciplinary R&D programme with the aim of by minimising redun dancy, balancing diversity and 
+complementarity, and capitalizing on synergies in information, knowledge, cultures and techniques.  This 
+Committee- which will be chaired by a Scientific Manager, Dr. Borja Coto, an  experienced researcher and 
+scientific coordinator from TEKNIKER and expert in Multifunctional Surfaces, industrial processes and scale up-
+will overcome communication barriers, ensure the seamless transfer of strategic information across the disciplinary 
+teams, improve the risk management and Scienti fic and Technical decision -making process. Moreover, the tools 
+and methods that we will employ in order to enable the fluid convergence  and intersection of these disciplines 
+towards the successful accomplishment of the project objectives are as follows: co designed work plan (all teams 
+and disciplines have been involved in defining the work plan, and in identifying the necessary interactions required 
+among the various disciplinary teams); Cocreation Methodology (as discussed), digital collaboration and knowledge 
+management tools; holistic plenary meetings (every 6 months); Thematic Working Group sessions (at least 
+monthly); informal breakout meetings and sessions (as often as needed) - with an agile minutes template to be 
+completed for every meeting and session); Internal knowledge exchange, demonstration and training workshops.   
+ 
+Integration of social sciences and humanities: Not applicable for this call topic.  
+ 
+Gender dimension 
+Gendered Innovations harness the creative power of sex, gender, and intersectional analysis for innovation and 
+discovery, and considering these approaches may can add valuable dimensions to research, in that they may take 
+research in new directions (which would not have  unveiled themselves had we not have considered gender 
+dimension). As such, we will include a ‘gendered innovation’ approach in our project, and throug h Task 7.4, we 
+will employ methods of sex, gender, and intersectional analysis as a possibl e source for new knowledge creation. 
+We will produce a publicly available Gender dimension Report (D7.5) that will describe how gender dimension 
+has been integrated into the project across all its stages and what the main results and outcomes from a gender  
+perspective have been. Key areas where gender dimension has been integrated into the content of our project are: 
+• Sufficient (at least 40% representation) participation of female stakeholders, citizens and end -users in the 
+codesign and cocreation toward facilitating innovative solutions; this will ensure the different needs of women 
+and men groups is reflected in the cocreation process for developing the NanoBloc® technologies. 
+• Perform a gender analysis to consider if there are any differences in how e.g. NanoBloc® coated masks or 
+textile clothing may perform differently through use and different behaviour of women versus and men.  
+• D&E (Dissemination and Exploitation) outputs will ensure gender inclusive language and images, as well as 
+specific attention to women’s and men’s (potential) different characteristics, interests, roles, etc., revealed by 
+the project results and which are or should be taken into account in its applications. Gender stakeholders in the 
+ 
+101057597 - NANOBLOC - Part B - Page 24 of 45 
+field, as well as women from intersectional groups related to the project application sectors will be considered 
+as participants and targets of the D&E activities. 
+ 
+Open Science Practices 
+Open science practices (i.e. an approach based on open cooperative work and systematic sharing of knowledge and 
+tools as early and widely as possible in the process) will be implemented as an integral part of our proposed 
+methodology and for increasing our chances of delivering our objectives, as follows:  
+• Early and open sharing of research: Publications will be made in open access journals and we will ensure 
+early sharing of publications (pre -prints) to satisfy open access requirements and to en able a faster way of 
+sharing knowledge via deposit in repositories. Participation in open peer-review will also be encouraged.  
+• Open access to research data and other related research outputs will be promoted following the principle 
+'as open as possible, a s closed as necessary' and operated in parallel with a robust strategy for ensuring 
+commercial exploitation, protection of personal data or confidentiality/security are not jeopardized. 
+• Research output management: use of lab books and effective (and digitized where possible) documentation 
+procedures and effective packaging of research results. 
+• Measures to ensure reproducibility of research outputs: Mandatory technical standards will be adhered to 
+in order to ensure that scientific information, publications, data and other outputs from our project, as well as 
+the metadata about them, is available for re -use in the long term. This will involve the use of persistent and 
+unique identifiers, of certified repositories that are compliant to the standards of the European Open Science 
+Cloud and in compliance with the FAIR principles for the management of research data produced by projects. 
+• Involving all relevant knowledge actors including citizens, civil society and end users in the cocreation 
+of content, as well as Citizen Science: we will organize a series of webinars/focus groups seminars targeted 
+at Civil Society Organisations (consumer-oriented) and to a wider audience with open sessions for addressing 
+questions and concerns of the citizens that can be taken into account in the cocreation circle.  
+ 
+Data Management and management of other research outputs 
+Data Management is an integral part of the research process for our project. Table 12 provides an overview of how 
+data/ research outputs will be managed in line with the FAIR principles (Findable, Accessible, Interoperable, 
+Reusable). A full Data Management Plan (DMP)  will be ready by M6 as D7.2 (it will be updated  as project 
+implementation progresses and when significant changes occur). It will specify what data is generated by the project 
+(purpose of the data collection/generation and its relation to the objectives of the project), whether and how it will 
+be exploited or made accessible for verification and re-use, and how it will be curated and preserved to ensure our 
+data/research outputs are findable, accessible, interoperable  and reusable. In line with FAIR principles, our DMP 
+will address research outputs other than data & will consider aspects related to the allocation of resources, data 
+security & ethical aspects. 
+ 
+Table 12- Summary of data management and management of other research outputs 
+Types of data/research outputs and their estimated size In our work plan in Task 4.3, we will be acquiring key data 
+in relation to process parameters (for process monitoring purposes), and we will also be implementing an AI, applying 
+machine learning techniques for model predictive control. In this sense, the man agement of process parameters data, 
+which is a highly valuable project output, will be addressed. In addition, we will also gather valuable data from the 
+experiments in WP2 and WP3, and the testing protocols themselves . While we may not be able to disclose  sensitive 
+process data, we can show ordered data on the results of testing e.g. experimental images, text, numerical, etc. 
+Findability of data/research outputs  We will ensure we make the data readily findable. Using different types of 
+persistent and unique identifiers (e.g. digital object identifiers) and trusted repositories. 
+Accessibility of data/research outputs We will ensure that the data is deposited in a trusted repository and we make 
+the data openly accessible, as early as possible in the project and in keeping with robust IPR management (data linked 
+to IP will be available after IP protection mechanisms are in place: the aim is making research data available as soon as 
+possible). Provisions will be made for providing controlled access to restrict ed data for verification purposes, and we 
+will also make provisions for providing access to the EC if requested by the EC in response to states of emergency. 
+Interoperability of data/research outputs  We will use open, international and public available st andards, e.g. the 
+standards developed by EU and international standardization organizations like CEN and ISO, such as ISO 10303 (for 
+CAD, CAE/Simulations, PLM and sensor data (IoT) integrations, in addition to data storage for AI/ML applications) 
+that: inc rease interoperability of information technology, addressed by data exchange & sharing solutions; enable 
+common enterprise -wide views of information, addressed by data integration solutions; address obsolescence of 
+information technology by data archiving solutions; promote freedom from vendor lock -in, addressed by open data 
+solution. The participation of UNE (representing CEN and CENELEC) in our consortium is a significant asset. 
+Moreover, other proposals approved in the topic (and other relevant Horizon E urope topics) will be contacted to 
+establish common definitions on data sets and guarantee their interoperability. 
+Reusability of data/research outputs Where possible, we will make the data produced in the project usable by third 
+ 
+101057597 - NANOBLOC - Part B - Page 25 of 45 
+parties including after the end of the project. We will provide the documentation needed to validate data analysis and 
+facilitate data re-use (e.g. readme files with information on methodology, codebooks, data cleaning, analyses, variable 
+definitions, units of measurement, etc.).  Where possible, data will be made freely available in the public domain to 
+permit the widest re-use possible. The aim will be for data to be licensed using standard reuse licenses  (e.g. Creative 
+Commons, Open Data Commons) . The provenance of the data will  be thoroughly documented using the appropriate 
+standards, and all relevant data quality assurance processes will be described. 
+Curation and storage/preservation costs Research data/output management will be managed through Task 7.2 (Data 
+Management and FAIR compliance)- these costs are for the most part personnel costs for the experts involved. A core 
+team with prior expertise in Data Management (and data quality assura nce) will be mobilised under the leadership of 
+Dr. David Nettleton from IRIS (a senior Data Scientist) as the Data Manager for the project. A reasonable budget has 
+been planned under ‘Other Costs, Works and Services’ for making data FAIR and for long term preservation. 
+Data Security The data will be safely stored in trusted repositories for long term preservation and curation. Provisions 
+will be made for data recovery as well as secure storage and transfer of sensitive data. 
+Regulatory and Ethical aspects  e.g. compliance with GDPR (General Data Protection Regulation) for any personal 
+data gathered during the project. 
+ 
+2. Impact
+2.1 Project’s pathways towards impact 
+ 
+Unique contribution of project results to (1) the outcomes specified in this topic, and (2) the wider impacts, in 
+the longer term, specified in the destinations in the work programme  
+ 
+1. Outcomes and impacts of our project 
+ 
+Table 13- How NanoBloc®  contributes to the outcomes specified in HORIZON-CL4-2021-RESILIENCE-01-20 
+Expected outcomes: NanoBloc®  contribution  
+Minimise the risk of 
+spread of infections from 
+harmful pathogens arising 
+from everyday  
+human activities 
+ 
+- All the coatings proposed in the NanoBloc® platform of Physical Vapour 
+Deposition (PVD), Organic/inorganic nanocomposite coating and Wet -chemistry 
+coating technologies  have already  been demonstrated effective against several 
+bacteria, fungi and viruses . In particular, POLITO Ag/silica co-sputtered coating 
+has been tested and  is effective on a wide range of bacteria and fungi & viruses 
+including respiratory syncytial virus, influenza virus A39 and SARS-CoV240, and 
+PRIREV AB20 coating was tested against adenovirus and proved to be antiviral. 
+- When applied on everyday life, high traffic objects and air filtration systems, they 
+will contribute to minimising the risk of spread of infections from harmful 
+pathogens arising from everyday human activities thanks to a scientifically proven 
+ability to deliver long-term protection and reduction of risks of infection  after being 
+validated in critical  environments, such as hospital and healthcare facilities, 
+workplaces, …  
+Create a healthier living 
+and working environment 
+and offer holistic 
+solutions to people  with a 
+diminished immune 
+system 
+- We will produce relevant demonstrators and assess their performance in living 
+and working environment, specifically focused  on people with a diminished 
+immune system, such as in hospitals, but targeting future  applications on elderly 
+people care residences, kinder gardens, schools, public transportation,… 
+- We are offering holistic solutions as d emonstrators will cover all porous filter 
+materials (air filtration units, face masks), textiles (protective clothing, mattress 
+covers, aprons, wallpaper, furniture, flooring), and also high-traffic solid surfaces 
+(doorknobs, handles, handrails, sanitaryware-taps, etc.).  
+Improve citizen health 
+and enhance the EU’s 
+reputation as a public 
+health best practice  
+Region 
+- Nanobloc methodology based on cocreation approach that combines functionality, 
+durability in relevant conditions and toxicological/ecotoxicological effects has the 
+potential to develop new to protocols to be promoted as new standards, something 
+that is clearly recognized as a need41. Thus, direct results from NanoBloc can provide 
+a wider impact on the future adoption of self -disinfecting surfaces. The knowledge 
+generated during the project will contribute to defining new and better standards 
+for validation and will position Europe as a science -based leader on the world 
+stage in the field of assessing performance of antimicrobial and antiviral 
+                                                      
+39 Nanostructured composite coating endowed with antiviral activity a gainst human respiratory viruses deposited on fibre-based air filters.Balagna et al, Surf Coat Tech 409 (2021)  
+40 Virucidal effect against coronavirus SARS-CoV-2 of a silver nanocluster/ silica composite sputtered coating.  Cristina Balagna et al. Open Ceramics 1 (2020) 100006 
+41 Pietsch, Franziska, et al. "Selection of resistance by antimicrobial coatings in the healthcare setting." Journal of Hospital Infection 106.1 (2020): 115-125. 
+ 
+101057597 - NANOBLOC - Part B - Page 26 of 45 
+nanocoatings and will guide consumers, manufacturers, researchers and policy 
+makers. 
+- Nanobloc coatings developed during the project will serve as a scalable, versatile 
+innovation enabling platform for the development of Antimicrobial, Antiviral, and 
+Antifungal nanocoated products in the future, whereby the NanoBloc ® registered 
+trademark will become synonymous  with trusted levels of high efficiency, 
+durability, safe and environmentally friendly coatings.  
+Enhance economic 
+benefits through reduction 
+of lost hours of work 
+through illness 
+The NanoBloc® coatings will provide antimicrobial/antiviral face masks, air 
+filtration, textiles and high traffic objects  that will be applicable in workplaces to 
+prevent the spread of illness amongst workers , thus enhancing economic benefits 
+through reduction of lost hours of work through illness. Additionally, the potential 
+to reduce illness due to nosocomial infections is huge as quantified in section c below. 
+Boost research, 
+development and 
+innovation in the EU 
+ 
+-All the coatings proposed in the NanoBloc® platform are will have been 
+cocreated by all-European research, design, production and (future) 
+commercialization of innovative products, ensured by a very strong and relevant 
+industrial value chain, including: Coating eq uipment ( INTERPANE) Coating 
+suppliers (PRIREV); and End -users for air filtration and face masks (GVF) ; 
+chemicals producers & industrial textiles (SIOEN ). -Open Science and Data 
+Management strategies in NanoBloc are targeting a widespread use of NanoBloc  
+results by the scientific and industrial community to ensure a wider impact of the 
+project outcomes. Public reusable and interoperable data regarding durability of the 
+functionality of the coatings under different conditions are a key requirement in order 
+to develop new Quantitative structure−activity relationships (QSAR) models 42 
+enabling Quality-by-Design fast developments in the future.   
+Provide business 
+opportunities especially 
+for SMEs 
+- 3 technology and manufacturing SMEs are actively present in NanoBloc®: 
+GVF, PRIREV and IRIS. 
+- Results obtained by NanoBloc® will be intensely disseminated to reach  other 
+SMEs interested in the application of the NanoBloc® coatings in their products.  
+Pathways to SMEs will be established via outreach to materials and deep tech 
+regional, national and European -level Associations and Clusters, such as the 
+EuraMaterials cluster , European Advanced Textile Materials’ Cluster, Cat alan 
+Advanced Textiles Cluster, among others.  
+Sustainable synthesis of 
+nanocoatings (including 
+bio-based materials) 
+especially with  
+effectiveness against a 
+range of pathogens 
+- Technologies for the synthesis of nanocoatings/  nanocomposites in NanoBloc® 
+such as PVD, is considered one of the most environmentally friendly coating 
+technologies, due to the lack of waste products, to the “dry” process characteristics 
+(no liquid involved) and to the low consumption of starting materials (coatings are 
+few nanometers thick). 
+-Wet chemistry:  we will develop and/or scale up new synthesis (including bio-based 
+materials) with specific focus on process sustainability (solvent-free processes).  
+Research areas should 
+address new antiviral and  
+antibacterial nanocoatings 
+for a range of applications 
+on both surfaces of high-
+traffic objects (door & 
+window handles in public 
+places, public transport, 
+hospitals, public 
+buildings, elderly homes 
+etc) & coatings for 
+textiles (protective 
+clothing […], laboratory 
+coats, face masks, etc.) 
+- New antiviral & antibacterial nanocoatings for a range of applications addressing 
+use on both surfaces of so called high -traffic objects and coatings for textiles based 
+on POLITO Ag/silica co -sputtered coating (published results), PRIREV &  
+TEKNIKER Cu coatings are inorganic nanomaterial based coatings with 
+demonstrated and enhanced antimicrobial and antiviral activity. 
+- NanoBloc® will push toward the highest TRL the co-sputtered Ag/silica & Cu 
+based coatings and biobased (chitosan) antiviral and antibacterial nanocoatings 
+- Prototypes will be provided, tested & demonstrated to TRL6 in working 
+environments for high-traffic objects : door handles, sanitaryware-taps, etc. 
+(PRIREV) and coatings for textiles such as mattresses, protective clothing, coatings 
+for wallpaper & furniture (SIOEN) and air filtration and face masks  (GVF). 
+Validation in real but controlled environments in the project (Hospital & shared 
+facilities in offices) will open the path to future applications in public places, (public 
+transport & buildings, hospitals, schools, elderly homes) and other  applications as 
+food processing plants and others. 
+2. Wider impacts, in the longer term, specified in the respective destinations in the work programme 
+                                                      
+42 Ambure et al. QSAR-Co: An open source software for developing robust multitasking or multitarget classification -based QSAR models. J Chem Inf Mod 59.6 (2019):2538-2544. 
+ 
+101057597 - NANOBLOC - Part B - Page 27 of 45 
+NanoBloc® will make a clear contribution to the destination described in the topic: ‘Increased autonomy in key 
+strategic value chains for resilient industry’- NanoBloc will contribute to advanced materials value chains that 
+are high performance, safe, and sustainable ‘by design’, contributing both health and wellbeing benefits for society 
+(reduced spread of bacterial/viral/fungal infections), as well as contributing to meet the challenges of climate 
+neutrality, transition to a circular economy and a zero-pollution Europe (as described in Table 9 in Section 1.2). In 
+particular, NanoBloc® contributes with a credible pathway to expected impact of Cluster 4: ‘Global leadership in 
+clean and climate -neutral industrial value chains, circular economy and climate -neutral digital systems a nd 
+infrastructures (networks, data centres), through innovative production and manufacturing processes and their 
+digitisation, new business models, sustainable-by-design advanced materials and technologies  enabling the 
+switch to decarbonisation in all major emitting industrial sectors, including green digital technologies.’  
+ 
+In particular, and as outlined in the Destination theme in the work programme topic, the COVID-19 crisis has 
+shown that global competitiveness and resilience are two sides of the same coin. Considering viral infections 
+alone, the world has encountered a number of viral pandemics in recent history (viral infections such as SARS, 
+MERS, and the ongoing COVID -19) that have caused tremendous morbidity and fatality, and morbidity among 
+people and communities. NanoBloc® will help Europe to be better equipped to withstand and cope with shocks, 
+thanks to scientifically validated antiviral, antibacterial and antifungal nanocoatings that can prevent the spread of 
+infections, using technology that is green, durable and versatile to ensure wide uptake. Moreover, by being able to 
+extend the durable life of protective clothing (such as masks and gowns) we will contribute environmental, cost and 
+supply security benefits.  Common surfaces are used regularl y by the public and therefore can be repeatedly 
+contaminated following each use . Disinfection of contaminated surfaces using bleaches or similar chemicals  
+requires frequent repetition, making it an expensive process that also releases irritant gases (certain disinfectants 
+can also trigger asthma and can be linked to other chronic respiratory conditions43), and generates potentially unsafe 
+disposal of contaminated plastics and containers after use. It is imperative on the longer term to be able shift to the 
+large scale use of self -cleaning surfaces in our everyday life . As most of the available antiviral surfaces only 
+work temporarily, our focus is the development of surfaces with long-term stability and durability. 
+Thanks to a relevant research-industry cocreation, our NanoBloc®  project includes the scientific, technological and 
+commercial actors needed to codesign and provide the key technology and market pathways to ‘New sustainable-
+by-design [antiviral, antibacte rial and antifungal nanocoating]  materials with enhanced functionalities 
+[reliable, robust, durability] and applications in a wide range of industrial processes [PVD, EPD, sol-gel, UV-
+curable coatings]  and consumer products  [face masks, air filtration syst ems, clothing, matresses, wallpaper, 
+furniture, door knobs, handrails, sanitaryware].’  
+Likewise, we provide a pathway to European  ‘Leadership [based on new scientific validation standards  for 
+assessing performance of biocide nanocoatings for guiding consu mers, manufacturers, researchers and policy 
+makers] in producing materials that provide clean, toxic/pollutant free environment  solutions[self-cleaning 
+surfaces based on a green technology that uses inert gasses, metal and ceramic bulks, nor any chemical precursor 
+or solvents or waste critical solutions], decarbonising industry, and safeguarding civil infrastructures.  
+We will also contribute to  ‘Leadership in circular economy [use of bio -based materials, e.g. chitosan ] that 
+strengthens cross-sectorial cooperation along the value chain and enable SMEs to transform their activities 
+and business models.’, as well as to  ‘Increased adoption of key digital and enabling technologies [Photonics 
+and Artificial Intelligence based Digi tal Twin and real-time process monitoring technology] in industrial value 
+chains and strategic sectors, paying particular attention to SMEs  and start-ups [3 SMEs in our consortium 
+and we will create new commercial opportunities for a wider SME-base including startups].’ 
+ 
+Target groups that will benefit 
+The target groups that will benefit from the outputs/results of our project are summarized in Table 14: 
+ 
+Table 14- Target groups of the NanoBloc®  project 
+Target Group Benefit 
+Coating manufacturers & surface treatment 
+companies 
+Scaled up and validated technologies and processes 
+Medical and healthcare systems  New products that are coated with tested and validated antibacterial, 
+antimicrobial and antifungal properties with outstanding performance to 
+protect patients and healthcare workers from infection & increase resilience 
+of our healthcare systems. 
+                                                      
+43 Dumas et al..Association of occupational exposure to disinfectants with incidence of chronic obstructive pulmonary disease among US female nurses,” JA MA Network Open 2(10),  (2019) 
+ 
+101057597 - NANOBLOC - Part B - Page 28 of 45 
+End-users (incl. SMEs): e.g. indoor hygiene 
+(retail, hotel s, workplace s, homes… ), 
+sanitary, textiles, etc.  
+New products that are coated with tested and validated antibacterial, 
+antimicrobial and antifungal properties with outstanding performance. Greater 
+resilience, less impact from sick leave impacts to their workforce.  
+Consumers  Science-based claims about the virucidal and biocidal effectiveness, duration, 
+safe and environmentally friendly properties of the new protective products  
+Standardisation bodies Scientific evidence to inform new standards relevant for virucidal testing. 
+Scientific/Research community  (field of 
+nanocoatings) 
+New knowledge in relation to improved testing methods for validating R&D 
+in virucidal effectiveness 
+Society, Healthcare workers, Patients, 
+Citizens & governmental stakeholders 
+ 
+According to a  study published in ‘Science, Ecology and Economics for 
+Pandemic Prevention’ some economists predict that the economic & mortality 
+costs of responding to the COVID -19 pandemic could reach $10 -20 trillion. 
+The global adoption of the NanoBloc® coatings for air filtration & microbe 
+/virus free  surfaces will help  reduce risk of infection and reduce such 
+devastating impacts in the future.  
+ 
+b. Requirements & barriers that may determine whether the desired outcomes and impacts are achieved 
+ 
+Table 15 summarises the requirements and potential barriers that could determine the achievement of the desired 
+outcomes and impacts of the project and provides mitigating measures in the case of each.   
+ 
+Table 15- Requirements/Barriers and Mitigating measures  
+Requirements/ 
+Barriers 
+Mitigating measures 
+Other R&I work 
+in & beyond HE  
+Continuous literature/patent update, technology watch, participation to conferences and fairs, 
+in order to implement mitigation strategies to avoid duplication and to foster collaboration. 
+Regulatory &  
+standards 
+requirements 
+Regulatory issues related to validation of the proposed nanocoatings will be duly assessed 
+during via the cocreation work that will be performed with industry in Task 4.1 Cocreation for 
+an application-oriented development, as well as in WP5 - Validation and Impact. We have a 
+regulatory partner (UNE) in our consortium: their role is to address regulatory issues related to 
+validation of the proposed nanocoatings.  In the event of regulation prohibiting e.g. metal 
+nanoclusters, NanoBloc® proposes a wide range of coatings and we have a range of alternatives 
+available. On the enabling side however, a tightening of standards in relation to e.g. antiviral 
+validation (which could be promoted by NanoBloc scientific evidence and protocols would 
+give us a competitive advantage.       
+User behaviour  
+& social norms 
+towards 
+preventing 
+infections 
+Given the current Covid-19 situation, we have seen a marked shift in user behavior towards 
+new social norms (e.g. majority of the population protecting themselves and others against the 
+virus). With further pandemics and health risks foreseen by WHO, it seems likely that f ace 
+masks and in general protections against bacteria, fungi and viruses are here to stay  and will 
+form part o f the New Normal. Indeed,  from the start of this pandemic, there was a dramatic 
+drop in flu & other seasonal diseases44,45.   
+Existing 
+commercial 
+products 
+There is a vast number of available commercial products claiming their effectiveness against 
+viruses & bacteria, which rapidly came on the market to service urgent demand due the 
+pandemic. As shown in section 1.2 , the claims made by these products have not been 
+sufficiently scientifically validated. NanoBloc® aims to develop a scientifically founded and 
+versatile platform of antimicrobial/virucidal/antifungal nanocoatings , with scientifically 
+validated and demonstrated effectiveness, stability and environmental friendliness, for a wide 
+range of innovative applications by a world-class European consortium.  
+ 
+c. Scale and significance of the project’s contribution to the expected outcomes and impacts 
+Key assumptions based on current knowledge and baseline for NanoBloc expected outcomes 
+The European Centre for Disease Prevention and Control  (ECDPC) estimates that HAI (health care -associated 
+infection) burden in Europe has sig nificant health & economic impacts, affecting >4.5 million people each year, 
+leading to meaning 16 million extra days of hospital stay at a direct cost of €7 billion/annum and € 30 billion  
+associated indirect costs 46. Moreover , 147000 deaths /annum in E U are attributable to HAIs  (directly or 
+contributing). One of the main concerns is Antimicrobial Resistance (AMR) related to antibiotic resistance 
+developed by pathogens that makes it necessary to apply different strategies to reduce HAIs47,48. 
+                                                      
+44 https://www.hsph.harvard.edu/news/hsph-in-the-news/a-sharp-drop-in-flu-cases-during-covid-19-pandemic/  
+45 https://www.the-scientist.com/news-opinion/the-pandemic-crushed-the-flu-what-happens-when-it-returns-68951  
+46 Murphy et all Reduction of HAIs with antimicrobial inorganic nanoparticles incorporated in medical textiles: an economic assessment."  Nanomaterials 10.5 (2020): 999. 
+47 https://www.ecdc.europa.eu/en/news-events/ecdc-calls-continued-action-address-antimicrobial-resistance-healthcare-settings 
+48 Hall, Thomas J., et al. "A call for action to the biomaterial community to tackle antimicrobial resistance." Biomaterials Sci ence 8.18 (2020): 4951-4974. 
+ 
+101057597 - NANOBLOC - Part B - Page 29 of 45 
+Although there is laboratory evidence of effectivity of biocidal coatings against a range of pathogens, there are little 
+data available about effectiveness of antibacterial coatings in healthcare environments and potential reduction of 
+HAIs49. Studies on copper surfaces50 on real environments account for up to 80% of reduction of bacteria compared 
+to control surfaces in real environments and leading a 50% reduction in the risk of acquiring HAIs 51, by placing 
+antibacterial copper surfaces in high-traffic surfaces on specific areas of Intensive Care Units. Nevertheless, other 
+studies point that only 30% transmission events are environmental, including air52. Specific studies for antibacterial 
+textiles in healthcare environment provide values between 20 -40% reduction of HAIs. On the basis of these data, 
+and taking into account that NanoBloc targets all high traffic objects, textiles and air filtration , we can assume 3 
+scenarios by using biocidal surfaces on specific sites  in healthcare environments: Conservative (20% reduction of 
+HAIs), (Medium: 35% HAIs reduction) and Optimistic (50% HAIs reduction). Table 16 shows how w idespread 
+adoption of biocidal surfaces for bacteria alone could contribute to a reduction of HAIs, deaths and costs. 
+ 
+Table 16- Reduction of HAIs, associated deaths and costs due to adoption and use of biocidal surfaces 
+Scenario Affected people 
+millions /per year 
+Deaths Cost (€ billion) 
+Current 4.5 147000 (direct + indirect) 37 (direct + indirect) 
+conservative  reduction of HAIs 0.9 reduction 29400 reduction 7.4 savings 
+medium reduction of HAIs 1.57 reduction 51450 reduction 12.95 savings 
+optimistic reduction of HAIs 2.25 reduction 78500 reduction 18.5 savings 
+ 
+The ECDPC has so far reported 36,307,572 COVID19 cases and 750,921 deaths in the EU 53. The number 
+hospitalizations needs to be estimated as reporting differs in different countries: taking as a baseline the 2nd and 3rd 
+waves peaks in Spain 54, the cases/hospitalizations rate was around 7.5% and hospitalization/deaths about 20%. 
+Studies on nosocomial COVID19 infections are scarce and differ55 but ranges between 44% and 0.1%56 (1% baseline 
+assumed for calculation) with 30% of nosocomial COVID19 infections ending in death . Studies also differ on 
+COVID19 hospitalized people acquires a bacterial/fungi HAI during their stay in the hospital, but data ranges from 
+50%57 to 8%58 with 5 times higher mortality in HAI affected patients.  That would mean around 65,000 deaths 
+occurring in Europe in healthcare environments due to nosocomial COVID19 or combined with other HAIs. 
+There are no data about antiviral surfaces efficacy on healthcare environment but assuming similar scenarios as in 
+bacteria, that would mean between 13,000 and 32,500 lives of COVID19 European patients saved if we had biocidal 
+surfaces to prevent nosocomial infections against virus and bacteria in healthcare environments alone.  
+While it is impossible to estimate the overall impact of such bio cidal surfaces being also available in nursing 
+homes, public transport, schools and other public places, rough figures for healthcare environments alone give 
+an initial quantitative idea on the potential impact of widespread adoption of effective biocidal surfaces in the 
+healthcare system. With the above mentioned assumptions between 40,000 and 110,000 deaths could have 
+been prevented in Europe since the beginning of the pandemic, while direct reduction of workforce loss 
+preventing illness and hospitalizations attributed to HAIs could also be calculated. 
+ 
+Scale of NanoBloc impact and outcomes 
+Table 17- Direct scale/capacity of the NanoBloc partners 
+Application Partner Scale brought by the NanoBloc partners  
+Textiles and 
+air filters  
+(R2R 
+processing) 
+SIOEN World market leader in coated textiles with 60+% EU market share on coated textiles 
+for e.g. truck tarpaulins and a production capacity of 100+ million square meters/per 
+year. Specifically on medical textiles (mattress covers & aprons) provide 5-8 mio m² 
+to the market. This corresponds with ~30% of global market and ~50% of European 
+market.  
+GVF Current capability of 200k filter elements intended for air treatment. Main markets are 
+Europe, Middle East and Russia 
+INTERPANE INTERPANE is currently manufacturing equipment for large area coating  and for 
+glass, are coating about 50 million m2 per annum worldwide. 
+High Traffic 
+objects 
+(Batch 
+PRIREV Currently has 9 PVD chambers and are providing coatings for aesthetics purposes on 
+parts such as sanitary taps and door handles to different countries in the European 
+market with capability to coat 3000 sanitary water taps or door handles per day while  
+                                                      
+49 https://www.hygiene-in-practice.com/antimicrobial-coatings-a-new-opportunity-for-reducing-nosocomial-infections/  
+50 CHYDERIOTIS S et al. New insights on antimicrobial efficacy of copper surfaces in  healthcare environment:a systematic review. Clin Microbio l  Inf 2018,24(11) 1130-1138 
+51 Salgado et al. "Copper surfaces reduce the rate of healthcare -acquired infections in the intensive care unit." Infection Control & Hospital Epidemiology 34.5 (2013): 4 79-486. 
+52 Danceret al. Tracking Staphylococcus aureus in the intensive care unit using whole -genome sequencing. J Hosp Infect 2019; 103(1):13-20 
+53 https://www.ecdc.europa.eu/en/cases-2019-ncov-eueea. Data at 31/08/2021. 
+54 https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasA ctual/nCov/situacionActual.htm  
+55 Baccolini et al. The impact of the COVID-19 pandemic on HAIs in intensive care unit patients: a retrospective cohort study." Antim icrob Res & Inf Con 10.1 (2021): 1-9. 
+56 Rhee, Chanu, et al. "Incidence of nosocomial COVID-19 in patients hospitalized at a large US academic medical center."  JAMA network open 3.9 (2020): e2020498-e2020498. 
+57 Cox, Michael J., et al. "Co-infections: potentially lethal and unexplored in COVID-19." The Lancet Microbe 1.1 (2020): e11. 
+58 Moreno-Torres, Víctor, et al. "Bacterial infections in patients hospitalized with COVID -19." Internal and Emergency Medicine (2021): 1-8. 
+ 
+101057597 - NANOBLOC - Part B - Page 30 of 45 
+processing) TEK- 
+NIKER 
+Has i ndustrial chamber to add 2500 door handles /day. Previous experience 
+transferring turnkey solutions for decorative coatings on door handles  delivered 
+capacity to coat around 5000 door handles/day < 1 € additional cost for the coating.  
+SIOEN Applications in the sanitary flooring and furniture markets are estimated to 250 T 
+coating per year (at approx.10 €/kg) 
+ 
+In 2018 there were 2.4 million hospital beds59 in EU distributed across some 12500 hospitals60. Although no data is 
+available on square meters consumption of hospital textiles, reference data on daily dirty laundry weight/bed61 can 
+provide an indication of the amount of non-disposable textiles to be 18 m2/bed/day with would translate to 86 million 
+m2 as the minimum textile surface required to cover all needs in Europe (assuming a minimum of one set of textiles 
+in use while another one is in the laundry). If we take into account current capabilities on R2R processing of SIOEN 
+and INTERPANE shown in table 17 could potentially cover a significant part of the overall demand in Europe.  
+The same is applicable for batch processing and high traffic objects. the supply required to provide each hospital in 
+EU with door handles and sanitary taps tabs (baseline estimation: 2 beds/room; 2 doors/room, 2 handles/door, 2 
+sanitary taps/room) would be 4.8 million door handles and 2.4 million sanitary taps. Current PRIREV capability of 
+supply is > 1 million door handles or tabs per year (to which TEKNIKER capabilities or licenses to third companies 
+could be added), so taking into account that these solutions would be long-lasting the demand for all patient rooms 
+in Europe could be covered by the NanoBloc consortium in <5 years. 
+Therefore, even with rough numbe rs, the consortium capabilities are enough to provide a wide significant 
+impact. Even if it is not realistic thinking that all the market share will be dominated by NanoBloc partners or would 
+dedicate all their capabilities to this single market, it is clear that covering the potential demand in Europe is 
+realistic, as it also assumes the growth and expansion of the NanoBloc companies to meet demand (generating 
+increased turnover and jobs). As previously mentioned, further supply outside the consortium could be achieved 
+by licensing (and in particular creating opportunities for SMEs ) or by taking advantage of new protocols and data 
+from NanoBloc, but also by other technologies that will be up-scaled in NanoBloc, such EDP (no current production 
+capabilities in consortium, but this will provide new opportunities for European industry, with a particular 
+focus on SMEs, as we pave out pathways to exploitation through Task 6.4) 
+Significance of NanoBloc impact and outcomes 
+Key needs to adopt antimicrobial surfaces &  technology adoption cycle: Penetration in the market is a key aspect 
+for reaching the expected impact. Market expectations are good, as pandemics are forecast to drive demand for 
+antimicrobial coatings in the coming years62: the global market is expected to duplicate from 2019 (>3.2 billion $) 
+to 2026 (6.3 billion $). It is noteworthy that big shares of this market correspond to silver antimicrobial coatings, 
+healthcare applications and indoor air quality markets; all are addressed by NanoBloc. Importantly, additional costs 
+due to the coatings are lower than additional cleaning operations to guarantee disinfection as calculated by Schmidt 
+et al.63 for copper surfaces and even for biocide textiles when compared to expenditure on antiseptics64.  
+In order to realize this potential and growth in the coming years and thereby yield real impact on health, it is vital 
+that new products that are brought to market  are solidly built in terms of performance.  Although the potential of 
+biocidal surfaces has b een proven at laboratory scale through standard tests, professionals and researchers of 
+healthcare systems clearly point to the need of having more data on their real impact on relevant environments 
+and their durability and resistance specially to cleaning chemicals and to avoid the need of reapplication 65, as 
+well as risk assessment of potential toxicity and ecotoxicity66. All these needs are addressed in our project, so 
+it is reasonable to foresee wide acceptance of the NanoBloc  solutions. Although, NanoBloc targets TRL6, the 
+advantages of the cocreation approach, and up-scaling and demonstration activities should accelerate further steps 
+upwards in the TRL scale after the termination of the project, towards product commercialization  (which will be 
+formalised in professional business plans that will be prepared in Task 6.4). The Nanobloc partners are committed 
+to a competitive Time to Market (TTM)- 3 to 5 years, depending on the technology and product. Assuming typical 
+normal distribution on innovation adoption67, considering that Nanobloc partners are ready to cover a big share of 
+demand in Europe in terms of production required, we can consider that Innovators (2.5%) could adopt NanoBloc 
+solutions during the fi rst 5 years after commerciali zation ( expected year 8-10 after project  termination), those 
+experiences would help to build key dynamics on diffusion of innovation68 such us demonstrate Relative advantage 
+                                                      
+59 https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Healthcare_resource_statistics_ -_beds#Hospital_beds 
+60 https://hospitalhealthcare.com/latest-issue-2020/hope/hospitals-in-europe-healthcare-data/ 
+61 Lopes, Catia Milena, et al. "Analysis of sustainability in hospital laundry: The social, environmental, and economic (cost) risks."  Resources 8.1 (2019): 37. 
+62 https://www.gminsights.com/industry-analysis/antimicrobial-coatings-market-report 
+63 Schmidt et al. November 2019 Appl. Environ. Microbiol. doi:10.1128/AEM. 01886-19 Copyright © 2019 American Society for Microbiology  
+64 Murphy et al. Reduction of  HAIs with antimicrobial inorganic nanoparticles incorporated in medical textiles: an economic assessment."  Nanomaterials 10.5 (2020): 999. 
+65 Ellingson et al. Impact of a Novel Antimicrobial Surface Coating on HCAI and Environmental Bioburden at 2 Urban Hospitals.  Clin Inf Dis 71.8 (2020): 1807-1813. 
+66 Ahonen, et al. "Proactive approach for safe use of antimicrobial coatings in healthcare settings: opinion of the COST action networ k AMiCI." Int J Env Res Pub He 14.4 (2017): 366. 
+67 Balas, E. Andrew, and Wendy W. Chapman. "Road map for diffusion of innovation in  health care." Health Affairs 37.2 (2018): 198-204. 
+68 Cain, Mary, and Robert Mittman. "Diffusion of innovation in health care." (2002). 
+ 
+101057597 - NANOBLOC - Part B - Page 31 of 45 
+of the innovation, Observability of the solution perme ating through Homophilous groups (i.e. those with similar 
+characteristics), Compatibility to coexist with current systems and Infrastructure availability to implement the  
+solutions. Thus, we can consider that Early adopters (a further 13.5%) could be covered after another 5 years, and 
+Early Majority (additional 34%) by year 18-20 after finishing the project. 
+Under that assumptions and scale defined previously for EU , Table 18 shows estimations on NanoBloc potential  
+impact, assuming 2030 as TTM deadline, from Conservative to Optimistic scenarios in terms of performance of 
+the solutions preventing HAIs. Calculations were done only for non-pandemic scenario (typical bacteria and fungi 
+HAIs): virus were not considered for the calculations as  each potential pandemic could have their own 
+characteristics and there is no way to preclude consistent data on real impact. 
+As many assumptions have been made, and due to uncertainties on some basic data, the figures can be considered 
+as an estimation of the potential significance of the NanoBloc results and how this potential can be achievable on 
+the basis of current production capabilities in the consortium and the scarce current knowledge of potential impact 
+of biocide coatings in reducing HAIs in real environments. Moreover, these significance data calculations have been 
+made considering only Healthcare systems (hospitals) w ithout pandemic virus scenario or other targeted 
+applications such as nursery homes, public transport or other public places that were not considered due to lack of 
+consistent initial data for assumptions. As such, even if some of the mentioned figures could be overestimated, the 
+overall potential impact will be significantly higher considering other applications. 
+ 
+Table 18- Estimated impact in EU of Nanobloc Outcomes 
+Scenario Impact metrics 2035 
+Innovators 
+2.5% 
+2040 
+Early adopters 
+16% 
+2045 
+Early Majority 
+50% 
+Conservative 
+(20% HAI 
+reduction) 
+Patients HAIs affected avoided/ year 22,500  144,000 450,000 
+Lives saved/ year 735 4704 14700 
+€ billion saved on healthcare / year 0.185 1.184 3.7 
+Medium 
+(35% HAI 
+reduction) 
+Patients HAIs affected avoided/ year 39,250  251200 785,000 
+Lives saved/ year 1286 8232 25,725 
+€ billion saved on healthcare / year 0.323 2.072 6.475 
+Optimistic 
+(50%  HAI 
+reduction) 
+Patients HAIs affected avoided/ year 56,250  360000 1,1125,000 
+Lives saved/ year 1962 12560 39250 
+€ billion saved on healthcare / year 0.465 2.96 9.25
+2.2 Measures to maximise impact - Dissemination, exploitation and communication  
+ 
+First version of the ‘Plan for the dissemination and exploitation including communication activities 
+We outline hereunder our planned measures to maximise the impact of our project through our initial ‘Plan for the 
+dissemination and exploitation, including communication activities’ (hereafter DE&C Plan). Due to the 
+dynamic nature of EU collaborative projects (and also considering the time lapse between proposal preparation and 
+implementation), this first version of the Plan will be further detailed in Deliverable 6.2 (at M6) . As a central 
+element of our project methodology is the cocreation between the research and the industry partners to ensure that 
+science meets industry requirements, our DE&C Plan will be periodically updated according to the progress 
+and emerging results of the project. 
+ 
+Continuous results assessment and value proposition design : The results of our project will be considered as any 
+tangible or intangible output of the action, such as data, knowledge and information- whatever their form or 
+nature, whether or not they can be protected - and which can create impact during and/or after t he EU 
+funding procedure. An ongoing activity that will accompany the R&D work will be to continually assess and 
+catalogue the project outputs as they emerge, and to consider the value and potential unique selling points (USPs) 
+of the key results towards our different target groups. 
+ 
+Communication Plan and Toolbox: While the specific details of the communication activities to be implemented 
+will be appropriate with the nature of each of the final outputs of our project  and in line with the progress of 
+the de velopment of the action, we have defined a strategically planned, holistic approach that will govern the 
+different ad-hoc efforts. First of all, we have defined clear communication goals and objectives:  
+To reach out to society as a whole- there is an important opportunity to inform the public of the research-industry 
+effort being leveraged towards delivering innovative products to the market that will play a high value role in 
+protecting the public against the spread of infectious diseases and viruses than ks to high performance and 
+scientifically validated new antibacterial, antiviral and antifungal coatings.  We will organize a series of 
+ 
+101057597 - NANOBLOC - Part B - Page 32 of 45 
+webinars/focus groups seminars targeted at Civil Society Organisations (consumer -oriented) and to a wider 
+audience with open sessions for addressing questions and concerns of the citizens that can be taken into account in 
+the cocreation circle. Well known initiatives such as, European Researcher nights, Pint of science festivals and/or 
+Local TEDex talks will be contacted to promote talks on NanoBloc results on their events to reach a wider audience. 
+ 
+• To establish synergies with external bodies such as standardization bodies (& contribute to improved science-
+based standards), & national/international industry associations (reach adopters of NanoBloc® innovations) 
+• To achieve high visibility through the scientific community 
+• To show the relevance (in our current Covid -19 era) of our project with the pandemic and its value of 
+contributing to mitigate future risks and to demonstrate how EU funding contribut es to tackling the 
+societal challenge in relation to our vulnerability in general to bacteria, mould and viruses, and how we can 
+protect citizens from such risks, also highlighting socio-economic impacts, and environmental contribution. 
+ 
+We will design and build a Communication Toolbox for achieving our communication goals and objectives:  
+• Visual identity and brand (e.g. we have already worked on a project logo during the bid preparation phase, 
+and during project implementation we will invest effort in building brand identity and particularly in relation to 
+the association of NanoBloc® with trusted science-validated claims; we will work on a brand ‘claim’ or tag 
+line that effectively communicates a trustworthy brand value) 
+• Project website as an important vehicle for the project Communication (and dissemination) effort, hosting 
+project public deliverables and also hosting blog content (e.g. Thought Leadership articles and whitepaper (e.g. 
+in relation to the importance of standards, the impa cts of research-industry cocreation), at least 6 newsletters, 
+etc., which will also be disseminated via our social media channels (LinkedIn and Twitter (whereby we will 
+create campaigns for our different target audiences).   
+• Informative material in printable (banners, posters, flyers) & multimedia (videos, digital flyers) formats 
+• Engagement with industry- participation in at least 3 tradeshows/exhibitions, face2face meetings, mailings… 
+• Achieve at least 6 commercial publications in online/offline magazines and blogs. 
+• PR strategy- well timed and prepared Press Releases to coincide with key development milestones and 
+outputs (issued through relevant press channels, including the European Commission News Section). 
+ 
+Dissemination of the Project Results: In line with our Open Science Strategy, we will ensure the early and wide 
+dissemination or public disclosure of all the non-confidential project results, via appropriate means, including 
+scientific publications. As such, our Dissemination strategy will: Identify the results to disseminate and transfer 
+the knowledge and results to the stakeholders that can best make use of it; Identify the appropriate dissemination 
+channels; Maximize the impact of research, whereby we enable the value of  our results to be potentially wider 
+than the original focus; and, Monitor and evaluate the effects of the dissemination activities.  
+ 
+The main dissemination tools, among others, that we will use are:  
+ 
+• Scientific publications (at least 15) in relevant journals- e.g. Journal of Coatings Technology and Research; 
+Nano Convergence; Surface and Coatings Technology, Applied Surface Science 
+• Participate (presential & virtual attendance) in at least 10 international conferences- oral/poster/papers, e.g. 
+World Congress on Materials Science & Engineering; 10 th International Conference on Smart Materials & 
+Nanotechnology; Annual ICACC -International Conference & Expo on Advanced Ceramics & Composites. 
+• Share results on online media (research data, software, reports)  
+• Organize at least 2 training and workshop sessions 
+• Mid/Final project event to demonstrate to potential users/customers. 
+ 
+Standardization activities : Standardization in R&I projects supports the translation of the R&I findings into 
+marketable solutions. NANOBLOC will build upon existing standards during the development of the novel 
+processes and validation protocols ensuring compatibility with market conditions and increasing transparency for 
+prospective customers. NANOBLOC will be linked with ongoing standardization work like, e.g., in ISO/TC 229 
+‘Nanotechnologies’, ISO/TC 107 ‘Metallic and other inorganic coatings’, ISO/TC 201 ‘Surface chemical analysis’ 
+and ISO/TC 194 ‘Biological and clinical evaluation of medical devices’. This will support the dissemination of the 
+project and its results, getting feedback from the stakeholders organized in standardization and to contribute to the 
+development of new standards by forwarding inputs from NANOBLOC developed protocols. UNE, representing 
+CEN-CENELEC, will lead these activities. 
+ 
+ 
+101057597 - NANOBLOC - Part B - Page 33 of 45 
+Exploitation actions: The main goal of the exploitation plan is to make use of the results for commercial/business, 
+societal, scientific, contribution to standards & even political purposes (e.g. value & impact of NanoBloc® for 
+protecting against the future virus threats and building resilience). Envisaged exploitation actions include (and table 
+21 at the end of this section summarises the Exploitation intentions of each member of the consortium): 
+ 
+• Developing, creating & marketing a product or process , or creating and providing a service . The global 
+COVID-19 crisis has greatly increased industry demand for antimicrobial & antiviral coatings, especially for 
+high touch surfaces in healthcare centres and long-term care facilities, public transport, schools, hotels, offices, 
+etc to reduce human exposure and mitigate the spread of infectious pathogens. A clear ambition of the project 
+is to bring the NanoBloc® technologies to market.  
+• Patent publications (target for at least 3) 
+• Utilizing the project results in further research activities other than those covered by the concerned project 
+(or use of the results for academic purposes (PhD, post-PhD...) 
+• Contribution to new standards- (as discussed above).  
+ 
+Business Model and Go -to-Market strategy: We have used the Business Model Canvas (BMC) approach to 
+focus our draft plan of the dissemination and exploitation of the outputs of the NANOBLOC® project.  This first 
+version of the BMC (Table 19) is a common Canvas for the project, howeve r in Task 6.4 each of the industry 
+partners (INTERPANE, PRIREV, IRIS, GVF, SIOEN) will develop their own BMC based on the results that 
+they will be commercialising or adopting. These BMCs will be delivered at Project Interim and in the latter phase 
+of the project they will be further elaborated into Business Plans that will be delivered at the end of the project. 
+ Table 19- Business Model Canvas 
+ 
+ 
+ 
+Strategy for IP Management: Our strategy for the management of intellectual property (IP) to ensure Freedom to 
+Operate (FTO)  and to adequately protect our results as relevant to ensure the commercial exploitation of the 
+project. We have conducted a first patentability study (using patent libraries- EPO and WIPO) to identify potential 
+IPR issues with existing technologies and patents, and we have established our FTO and differentiation points. We 
+have a clear understanding and agreement among the partners in relation to Background IP - ownership of 
+Background remains with the current owners and is not affected by t he project  & access rights to 
+Background needed to implement the project is provided royalty free, and if needed for exploitation of the 
+project results it will be either royalty free or under fair and reasonable conditions. Each partner has declared 
+their Background IPR (will be formalised in the Consortium Agreement) and necessary access rights to e.g. Polito 
+
+ 
+101057597 - NANOBLOC - Part B - Page 34 of 45 
+patent (PCT/IB2018/057639- Novel technique for the deposition of a nanostructured coating with virucidal, 
+antimicrobial and antifungal properties via co-sputtering technique). No Background IPR is needed from any Third 
+Parties external to the consortium. Our strategy for knowledge management and protection  is to file new patents 
+that will come as a result of the project,  with a clear ownership strateg y- developers own their results, and 
+joint development will result in jointly owned patents. If one of the parties participating in the project wishes to 
+proceed with the protection of the results through a patent or other forms of industrial property rights, the others, if 
+not interested in co-ownership, will transfer their share of ownership of the patent under conditions to be defined 
+on a case-by-case basis. We will also follow other protection paths as appropriate , such as trademarks, copyright, 
+Knowhow, Trade Secrets, etc. Table 20 summarises the key knowledge items that we expect will be generated 
+during the project, the foreseen protection measures , the owner(s) and access rights to this key knowledge ( to 
+be included in a consortium agreement that will be generated and signed by all partners if our project is selected for 
+funding, and the final Results Ownership List will be updated in the Final Periodic Report). 
+Table 20- Summary of the IP strategy 
+Knowledge Item Protection Owner(s) Access Rights 
+New methodologies & protocols for study 
+of the biocide mechanism of action  
+Open Access  UNITO 
+TEKNIKER 
+Open Access: Disseminated in peer-
+reviewed journals & open databases 
+New processes & coating compositions for 
+maximizing adhesion, durability, biocidal 
+effect, specific for application/product 
+New patent or 
+Trade secret 
+POLITO 
+TEKNIKER 
+other partners 
+Preferential access to partner end 
+users & licensing outside consortium 
+Process parameters of co-sputtering 
+coatings, transferred to upscaling facilities  
+New patent or 
+Trade secret 
+POLITO 
+INTERPANE 
+End users  
+New compositions and process parameters 
+of RF co-sputtered coatings 
+New patent(s) POLITO End users 
+Process parameters of Sputtering & 
+Cathodic arc of Ag doped nitrides  
+New patent or 
+Trade secret 
+PRIREV Licensing to Third Parties  
+Process parameters for PVD Cu doped 
+nitrides and oxides 
+Open access TEKNIKER Open Access: Disseminated in peer-
+reviewed journals & open databases 
+Process parameters of Nanoparticle doped 
+UV lacquers  
+New patent or 
+Trade secret 
+SIOEN 
+POLITO 
+Own commercialisation and 
+Licensing to Third Parties 
+Process parameters of electrophoretic 
+deposition of biobased formulations   
+Open Access FAU Open Access: Disseminated in peer-
+reviewed journals & open databases 
+Process parameters of Sol-Gel hybrid 
+coatings 
+Open Access FAU 
+TEKNIKER 
+Open Access: Disseminated in peer-
+reviewed journals & open databases 
+Nanoparticle doped UV-lacquer with self-
+disinfecting properties 
+EU patent SIOEN Under license 
+New knowledge on Toxicity and 
+Ecotoxicity of biocide formulations  
+Open Access UNITO 
+TEKNIKER 
+Open Access: Disseminated in peer-
+reviewed journals & open databases 
+Real-time PAT monitoring solutions and 
+Digital Twins of the processes 
+Knowhow in 
+software code 
+IRIS Preferential access to process owners 
+Exploitation intentions of the consortium: Table 21 summarises the core exploitation intentions of each partners. 
+Table 21- Exploitation Intentions of the partners 
+Partner Exploitation Intentions 
+POLITO New publications on reputable international scientific journals: New knowledge/know how about antiviral 
+/antimicrobial/antifungal coatings aimed at: students for updating the lectures contents; researchers for new 
+collaborations; industrial partners for new collaborations and funded projects 
+TEK-NIKER New publications on international scientific journals. IP Protection (patenting coatings and/or processes and 
+industrial secret).  Technology transfer to industry: industrial projects for different applications and 
+environments (ceramic tiles, automotive, implants, food processing plants). Licensing agreements & coating 
+services. 
+UNITO  Dissemination of the results to the scientific community and to operators in the sector of antimicrobial 
+materials through publications in peer -reviewed scientific journals and presentations at specialized 
+congresses in this field. The knowledge generated with the project will be also employed for upda ting the 
+lecture contents for students and for the search of new scientific collaborations and funds 
+FAU  Development of antiviral & antibacterial nanocoatings by EPD and sol-gel method and their characterization 
+GVF  Effective application of a virucidal , antimicrobial and antifungal coating on filtration systems hence 
+improving products quality and reliability. 
+SIOEN To market coated textiles (incl. protective clothing, mattresses, and mouth masks), radiation -curable 
+lacquers and varnishes for high-traffic objects & surfaces. 
+PRIREV Upscaling of antibacterial/antiviral PVD films for high -traffic objects. Commercialization of the coating 
+service for high traffic objects producers. 
+IRIS Real-time nano-characterization Process Analytical Technologies (PAT) inline device to be added to our 
+portfolio of photonics analysers for commercialisation, in addition to new AI models that can be integrated 
+into our Scadalytics platform giving us access to a new cli ent base in nanocoating production and 
+application. Post-project we will continue work towards system prototype demonstration in operational 
+ 
+101057597 - NANOBLOC - Part B - Page 35 of 45 
+environment (TRL7), progressing to a complete and qualified system (TRL8) for which we can commence 
+commercialisation. 
+INTERPANE Post project scale-up, market deployment and commercialization of the industrial coating equipment for the 
+final users of the developed coating. 
+UNE Participation of UNE as standards body intends to increase the exploitation possibilities for the other 
+partners by using the benefits of standardization. This will reinforce the relevance of the European 
+standardization system and its recognition as an effective exploitation channel towards the European R&I 
+community. 
+ 
+101057597 - NANOBLOC - Part B - Page 36 of 45
+2.3 Summary 
+SPECIFIC NEEDS EXPECTED RESULTS D&E&C MEASURES 
+• Covid-pandemic has triggered demand for new antiviral 
+and antibacterial nanocoatings  that offer virucidal 
+effectivity, extended durability during use, are safe and 
+environmentally friendly, and are suited for a range of 
+applications addressing use in air filtration systems, in 
+porous textiles (e.g. protective clothing in food processing 
+plants, laboratory coats, face masks, etc.), and on surfaces 
+of high-traffic objects (e.g. door and window handles in 
+public places, public transport, hospitals, public buildings, 
+schools, elderly homes etc). 
+• Current testing standards are not enough to guarantee 
+durability or functionality o n rea l application  
+environments. This has led to numerous products reaching 
+the market since the covid pandemic making claims that 
+are not fully supported by science -based testing and 
+validation methods.  
+ 
+• Reliable Antimicrobial, Antiviral, and Antifungal 
+Nanocoatings that respond to market needs in terms of 
+efficiency, durability and sustainability/ecofriendly 
+properties, with claims that are validated and backed by 
+solid science -based evidence on antimicrobial and 
+virucidal mechanisms of nanocoatings, to build resilience 
+against future global health crises. 
+• Scaled up processes of PVD, Wet Chemistry and 
+Organic/Inorganic nanocomposite coatings  
+• AI-augmented PAT process monitoring and control 
+platform for facilitating process understanding and 
+quality control 
+• Demonstrator products:  NanoBloc® porous filter 
+materials (air filtration units, face masks), textiles 
+(protective clothing, mattress covers, aprons, wallpaper), 
+and high -traffic solid surfaces ( doorknobs, handles, 
+handrails, sanitaryware -taps, etc.), the virucidal 
+effectivity and durability of which have been  proven 
+with new fit-for-purpose testing protocols  
+Dissemination towards the scientific community, industry 
+and health care environments : Scientific publication s with 
+laboratory results and demonstration trials on relevant 
+environments. Dissemination of the protocols to relevant 
+standardization work groups. Participating in conferences and 
+fairs; Participation in EC project portfolios to disseminate the 
+results as part of a group and maximise the visibility vis-à-vis 
+companies. 
+Exploitation of the new product:   Patenting the 
+antimicrobial antiviral new products : air filters  (GVF) and, 
+textiles (SIOEN) and new coatings equipment and technology 
+(INTERPANE). Patenting new coatings for high tr affic 
+objects (PRIREV, TEKNIKER). Direct exploitation of 
+coatings services (PRIREV) . Direct commercialisation of 
+Real-time Process Monitoring and Digital Twins to support 
+commercial adoption of the NanoBloc® technologies (IRIS).  
+Communication towards citizens: Specific communication 
+publications for wider audience. Participation on events such 
+as Researchers Nights, Pint of science, and TEDex. Specific 
+events for general public  to show how the outcomes of the 
+action are relevant to our everyday lives. 
+TARGET GROUP OUTCOMES IMPACTS 
+Coating manufacturers and surface treatment companies 
+(access to innovative coating technology that is founded on a 
+deep scientific base) 
+End users industries for NanoBloc® antimicrobial, antiviral, 
+and antifungal nanocoatings, which include: textiles (masks 
+and protective clothing -PPE, aprons, work overcoats, 
+mattresses, etc.), sanitary, interiors/high traffic surfaces (e.g. 
+household, retails, hotels, workplace, business environments), 
+indoor hygiene, medical & healthcare, plastics packaging etc. 
+Research/Scientific community (field of nanocoatings) 
+Standards bodies  (new scientific -evidence to inform 
+improved standards) 
+Healthcare workers, Patients, Citizens (less risk of catching 
+infections) 
+Business community and  workplaces (greater resilience, 
+less impact from sick leave impacts to their workforce) 
+Scaled up processes that can be applied in industry:  
+• Batch processing:  3D applications: PVD 
+sputtering/cathodic arc/HIPIMS (PRIREV -
+TEKNIKER); Sol -Gel (TEKNIKER); EDP (FAU -
+TEKNIKER) 
+• Roll-to roll processing:  2D applications (PVD 
+Sputtering ( INTERPANE); Sol -Gel (TEKNIKER); 
+Nanocomposite coatings & lacquers (SIOEN) 
+Business plans for the development of at least 9 new 
+‘NanoBloc® protected’ product lines - air filtration systems 
+(GVF), face masks, mattresses, wallpaper, aprons (SIOEN), 
+coating of doorknobs, taps and sanitaryware, handrails 
+(adoption by PRIREV’s client-base). 
+New knowledge on virucidal and biocidal mechanisms for 
+informing new and improved standards (engagement with 
+standardization bodies will be commenced) 
+High use of the new scientific knowledge (measured with the 
+relative rate of citation index of project publications) 
+Scientific: New knowledge on virucidal and biocidal 
+mechanisms  
+ 
+Economic: Increased resilience to the spread of infections 
+leading to less sick leave, reduced healthcare costs, rescued 
+confinements, all of which are devastating to the economy. 
+ 
+Technological: more effective, versatile and reliable 
+antimicrobial/virucidal coatings respect vs. what is on the 
+market; high temperature resistant antimicrobial/virucidal 
+coatings for thermal re -generation of filters and other coated 
+surfaces 
+ 
+Societal: protection of citizen health and wellbeing against 
+the spread of harmful viruses, bacteria and fungal infections  
+(reduced incidences of aerosol and fomite infections) . 
+Increased consumer confidence in product claims that are 
+backed by robust science.   
+ 
+101057597- NANOBLOC – Part B- Page 37 of 45 
+3. Quality and efficiency of the implementation
+3.1 Work plan and resources  
+Brief presentation of the overall structure of the work plan 
+Our workplan has been designed to coherently enable us over the course of 3 years to  develop, test, optimize, 
+scale-up and validate (from TLR3 to TRL6), innovative, high performance new antiviral, antibacterial 
+and antifungal coatings . These industrially scalable, versatile and green technologies are suitable for 
+application on a variety of different substrates: porous filter materials (air filtration units, face masks), textiles 
+(protective clothing, mattress covers, aprons, wallpaper), and high -traffic solid surfaces ( doorknobs, handles, 
+handrails, sanitaryware-taps, etc.). We will also plan and prepare for the post-project impact pathways. 
+The workplan is divided into 7 inter -related work packages , each with its own tasks deliver ing outputs 
+(deliverables) and culminat ing in a series of milestones that will establish the project critical path and will help 
+facilitate project monitoring and management. In Fig. 9 an overview of the development loops in the 3 years of the 
+technical activities (or WPs) is shown. 
+Figure 9- Development loops to advance the TRLs 
+In year 1 of the project, in WP1 (Synthesis of new coatings) and through Tasks 1.1- 1.3, we will develop coatings 
+by a) RF co -sputtering and other Physical Vapour Deposition (PVD) such as arc evaporation and combination of 
+them b) Doping UV cured lacquers and varnishes with nanoparticles, and c) through other promi sing coating 
+technologies, such as sol -gel, Electrophoretic Deposition (EPD) on substrates selected by end users  and the 
+development process will be codesigned and guided in close conjunction with the industry upscalers and end-users 
+from Task 4.1 (Cocreation for an application -oriented development) . In order to verify the behaviour  of the 
+coatings, through WP2 (Understanding of virucidal & biocidal mechanisms and toxicology assessment)  we will 
+perform assessment the antiviral & biocidal properties, toxicity & ecotoxicity of the newly developed coatings, as 
+well as characterize their physico-chemical, mechanical, chemical resistance and ageing performance through WP3 
+(Characterisation) in a complete development loop.  
+In year 2, once we have the first loops of development with WP2 and WP3 , we will start with T4.2 up-scaling in 
+WP4 (Industry Cocreation and Process Upscaling) . We are looping here T1.4 (coating optimization), T2.4 (we 
+will also be able at this point to combine durability and biocide effectivity assessment), T4.2 (process upscaling), 
+as well as standards testing (T5.1), to fine tune the coatings formulations & parameters taking into account the 
+results from durability+effect (T2.4) and results from up -scaling in which some problems could arise tha t may 
+require optimization, and also with data from the machine learning activities from T4.3 (PAT enabled process 
+monitoring and digital twinning). 
+In year 3, we will continue with the new optimization in task 1.4 and on process upscaling in T4.2, as well as testing 
+under standards for each application, testing of performance in application environments , as well as impact 
+assessment & verification (WP5-Validation).  
+We have depicted these development loops in the schematic above (Figure 9). Cross-cutting the workplan, we will 
+perform comprehensive activities to deliver a Pathway to Impact (WP6) for the project outputs via a communication 
+and dissemination of the project outputs, IP management, as well as business plan and defining a post-project plan 
+for further scale -up towards market entry of the innovations.  Finally, we will ensure a well -run project through 
+WP7- Project Management & RRI , which encompasses, in addition to project monitoring, tracking and risk 
+management, data management, management of Open Science, as well as Inclusiveness and Gender Dimension.   
+
+ 
+101057597- NANOBLOC – Part B- Page 38 of 45 
+Timing of the different work packages and their components (Gantt chart or similar) 
+ 
+ 
+
+ 
+101057597- NANOBLOC – Part B- Page 39 of 45 
+Graphical presentation of the components showing how they interrelate (Pert chart or similar) 
+ 
+ 
+ 
+Table 3.1g: ‘Subcontracting costs’ items  
+No subcontracting is envisaged.  
+ 
+Table 3.1h: ‘Purchase costs’ items (travel and subsistence, equipment and other goods, works and 
+services) and ‘Other costs categories’ items (e.g. internally invoiced goods and services) 
+ 
+1 POLITO Cost (€) Justification 
+Travel  21300 Travel fund to cover travel & subsistence for: 2 people @ 1 presential project meeting per 
+year (supplemented with virtual meetings)- about €9K; 2 people @ 1 or more International 
+conference/exhibition per year (EU or outside EU)- about €12K;  
+Equipment  4000 Depreciation cost of equipment for the coating and prototype characterization 
+Other goods, works and 
+services 
+72600 Targets for co-sputtering, technical gases, laboratory consumables, chemicals, 
+consumables for antibacterial tests (22000 €); Registration fees for participation in 6 
+conferences (average value 600 €: 3600 €); open access publication (5000 €); spare parts 
+of sputtering equipment (2000 €); IP cost (2000 €); audit (5000 €); service contract for a 
+technician specialized in co-sputtered coating (30000 €) 
+Total 97900  
+2 TEKNIKER Cost (€) Justification 
+Travel  
+15000 
+Travel fund to cover travel & subsistence for: 2 people @ 1 presential project meeting per 
+year (supplemented with virtual meetings)- €6K; 2 people @ 1 International 
+conference/exhibition per year (EU or outside EU)- €6K; attendance at national events & 
+travel to partner sites & labs (€3k) 
+Equipment      
+Other goods, works and 
+services 
+107000 
+WP1: Cu, Cr, Ti, Zr targets for PVD coatings (19k€) & Magnetron sputtering (45k€) for 
+Cu evaporation to be incorporated in KSA Cathodic arc existing equipment. It is necessary 
+to carry out the combination of Cathodic arc Nitride evaporation and Cu magnetron 
+sputtering to allow better control on the Cu % in the formulations; WP2 (bio, toxi, biocide 
+test): consumables for toxicity tests (different kits, daphnia, algae, v.fischeri) 5k€, 
+chemical reactives (2k€), kits for biocide assessment (6k€); WP3 (ageing): consumables 
+for mechanical-tribological-ageing lab (5k€), samples preparation (4k€), holders for 
+mechanical/ageing configurations (6k€); WP4 ancillary tools 6 substrate holders for 
+upscaling (5k€) sol-gel chemicals & precursors (5k€); WP5 (LCA): software license and 
+database access (2k€); WP7: audit certificate (3k€) 
+Total 122000  
+3 UNITO Cost (€) Justification 
+Travel 15000 
+Travel fund to cover travel & subsistence for: 2 people @ 1 presential project meeting per 
+year (supplemented with virtual meetings)- €6K; 2 people @ 1 International 
+conference/exhibition per year (EU or outside EU)- €6K; attendance at national events & 
+travel to partner sites & labs (€3k) 
+
+ 
+101057597- NANOBLOC – Part B- Page 40 of 45 
+Equipment 25000 
+Depreciation cost of Lab equipment for the establishment of a supplementary dedicated 
+supply chain: CO2 incubator for cell line culture, virus production and antiviral 
+experiments incubation; -80°C refrigerator for viral stock and cell lines conservation; 
+biosafety cabinet level II for the execution of the antiviral assays; -20°C refrigerator for 
+stock of cell culture reagents; supercentrifuge for the production of viral stocks;  
+multimode microplate reader for cytotoxicity assays 
+Other goods and services 124300 
+Laboratory consumables (flasks, pipets, 96 well plates, gloves, ultracentrifuge tubes, 
+scrapers, 50ml and 15ml tubes, eppendorf...) (€ 85000), Reagents for cell culture (cell 
+culture medium, fetal bovine serum, antibiotics, trypsin, glutamine, aminoacids) (€ 8000), 
+Feline calicivirus and cell line for virus production and antiviral assays (the other 5 viruses 
+and cell lines are still available in the UNITO Lab)(€ 1300), antibodies for 
+immunocitochemistry assays (€ 3000), MTT kit for cytotoxicity assays (€ 5000), reagents 
+for TEM analysis (€ 8000), Instrument Maintenance (€ 10000), audit certificate (€ 4000) 
+Total 164300   
+4 FAU Cost (€) Justification 
+Travel  
+9000 
+Travel fund to cover travel & subsistence for: 2 people @ 1 presential project meeting per 
+year (supplemented with virtual meetings)- €6K; 1 people @ 1 International 
+conference/exhibition per year (EU or outside EU)- €2K; attendance at national events & 
+travel to partner sites & labs (€1k) 
+Equipment      
+Other goods, works and 
+services 28600 
+Consumables (substrates and solvents for EPD and sol-gel method); Open Science costs 
+(4k); Registration fees for participation in 6 conferences (average value €600x6= €3600) 
+Total 37600  
+5 GVF Cost (€) Justification 
+Travel  
+10000 
+Travel fund to cover travel & subsistence for: 2 people @ 1 presential project meeting per 
+year (supplemented with virtual meetings)- €4K; 2 people @ 1 International 
+conference/exhibition per year (EU or outside EU)- €4K; attendance at national events & 
+travel to partner sites & labs (€2k) 
+Equipment      
+Other goods, works and 
+services 40000 
+Sintered fibers, wire mesh, Spunbound/Meltblown PP textile, special alloys any raw 
+materials and consumables for filters manufacturing. 
+Total 50000  
+6 SIOEN Cost (€) Justification 
+Travel  
+15000 
+Travel fund to cover travel & subsistence for: 2 people @ 1 presential project meeting per 
+year (supplemented with virtual meetings)- €6K; 2 people @ 1 International 
+conference/exhibition per year (EU or outside EU)- €6K; attendance at national events & 
+travel to partner sites & labs (€3k) 
+Equipment  6000 Light cabinet with different wavelengths (depreciated cost) 
+Other goods, works and 
+services 
+105000 
+Lab consumables (10k€); Glassware (5k€); Extra tests with ceramic beads at Netzsch 
+(8k€); external sourcing NPs (5k€): wear testing (12k); excimer test (15k) Standardized 
+assay services for product validation (TRL5) (47k); audit certificate (3k) 
+Total 126000  
+7 PRIREV Cost (€) Justification 
+Travel  
+15000 
+Travel fund to cover travel & subsistence for: 2 people @ 1 presential project meeting per 
+year (supplemented with virtual meetings)- €6K; 2 people @ 1 International 
+conference/exhibition per year (EU or outside EU)- €6K; attendance at national events & 
+travel to partner sites & labs (€3k) 
+Equipment  68800 Calotest: 7 500€; Microhardness Tester: 27 000€; LIS (Linear Ion Source): 31 875€ 
+Other goods, works and 
+services 
+144375 
+Sputtering rotatable targets (length 1334mm, diameter 70mm; materials: Ag, Cr, Ti, Zr)- 
+35k; Cathodic Arc Targets (diameter 100mm; Cr, Ti, Zr, Cr-Ag, Ti-Ag)- 20k, Gases (Ar, 
+N2, CH4, C2H2, O2)-6k; consumables to clean surfaces pre-PVD deposition (solvents 
+(ethanol, acetone, propanol), alkaline ultrasonic cleaning products, shot blasting raw 
+materials)-12k ; chemical decoating products-6k ; Substrate holders- 12k; Consumables for 
+characterization equipments (reagents, silicon wafers, abrasives)-3k. External 
+characterization services provided by laboratories equipped with advanced and more 
+suitable instrumentation for the evaluation of coating properties 50k€ 
+Total 228175  
+8 IRIS Cost (€) Justification 
+Travel  
+15000 
+Travel fund to cover travel & subsistence for: 2 people @ 1 presential project meeting per 
+year (supplemented with virtual meetings)- €6K; 2 people @ 1 International 
+conference/exhibition per year (EU or outside EU)- €6K; attendance at national events & 
+travel to partner sites & labs (€3k) 
+Equipment      
+Other goods, works and 
+services 
+103000 
+Analysers - 50 k; QT SOFTWARE LICENSE FOR THE DEVELOPMENT OF THE 
+APPLICATIONS USED IN THE MONITORING PROTOTYPE - 10K€ Optomechanical 
+materials - 10k; computing for prototype (5k); software licenses (4k); Audit certificate 
+(4k); IP cost (Patent lawyer & patent application) - 8k; subscription to events & exhibition 
+space - 6k; Data Management Cost (6k) 
+Total 118000  
+ 
+101057597- NANOBLOC – Part B- Page 41 of 45 
+9 INTERPANE Cost (€) Justification 
+Travel  
+15000 
+Travel fund to cover travel & subsistence for: 2 people @ 1 presential project meeting per 
+year (supplemented with virtual meetings)- €6K; 2 people @ 1 International 
+conference/exhibition per year (EU or outside EU)- €6K; attendance at national events & 
+travel to partner sites & labs (€3k) 
+Equipment  50000 Depreciation of plant coating equipment 
+Other goods, works and 
+services 
+405000 
+Hardware costs: cathode co-sputtering (cathode lid, TMPs, MFCs, control cards, PLC and 
+automation, cooling system/chiller, feedthrough, shields, cables, pipes and tubes, valves, 
+foreline line modification, end blocks (in case of rotable cathode), etc.) - €297k; power 
+supply (PSU + power cable + etc.) - €25k; silver target - €60k; silicum target- €10k; 
+Sensors - €10k; Audit Certificate -3k 
+Total 470000  
+10 UNE Cost (€) Justification 
+Travel  7000 Travel to consortium meetings and travel to attend dissemination events 
+Equipment    
+Other goods, works and 
+services 
+4000 Free access to standards for consortium partners; fee for registration of CWA(s) at CEN 
+Total 11000  
+ 
+Table 3.1i: ‘Other costs categories’ items (e.g. internally invoiced goods and services)  
+No partners have budgeted costs under this category.
+3.2 Capacity of participants and consortium as a whole  
+ 
+Consortium description, complementarity, access to critical equipment and industry involvement  
+ 
+The NanoBloc® consortium unites a world-class team of 10 partners from 5 European countries (fig. 10)- 
+Italy, Spain, Portugal, Germany, Belgium. Pooling together complementary expertise and competencies from 
+industrial leaders across a complete European industry value chain and scientifically excellent academic/research 
+universities and institutes, the NanoBloc ® consortium converges the different disciplines needed for successfully 
+cocreating, developing and v alidating ground -breaking reliable, high performance and scientifically validated 
+antiviral, antibacterial and antifungal nanocoating technologies . The NanoBloc ® team has the ambition through 
+research, development and innovation to establish European industrial leadership in the field of high performance 
+nanocoatings that can help Europe protect its citizens, its healthcare system and its economy from the devastating 
+effects of infectious illnesses, such as the current Covid-19 pandemic 
+Figure 10- The Nanobloc consortium from 5 European countries 
+- RF co-sputtering of Ag/silica (and other metal/ceramics) and their characterization (POLITO) 
+- EPD and sol-gel (FAU) 
+ 
+
+ 
+101057597- NANOBLOC – Part B- Page 42 of 45 
+- HiPIMS, Cathodic arc, and sputtering PVD coatings, sol -gel coatings development and up -scaling and 
+tribological/durability characterization (TEKNIKER) 
+- Cathodic arc evaporation & sputtering (PRIREV) 
+- UV-lacquers coated technical textiles (SIOEN) 
+- Antimicrobial/antiviral testing (UNITO) 
+- Coating equipment upscale (INTERPANE) 
+- Filtration systems, production and commercialization (GVF) 
+- Photonics & Artificial Intelligence key enabling technologies for digitization of industrial processes (IRIS). 
+- Standardization activities (UNE) 
+This is an integrative consortium that includes, four world class universities and institutes (POLITO, UNITO, 
+TEKNIKER, FAU), who are leaders in their respective scientific and technological fields , in addition to two 
+large enterprises (INTERPANE, SIOEN) and 3 SMEs (IRIS, GVF, PRIREV) and a standardization body (UNE), 
+who together will provide a technology upscaling and market pathway for the projects results. The NanoBloc® 
+team of partners unites the necessary infrastructure, knowledge, expertise, and industry value chain to succeed 
+in delivering on the project’s objec tives to realise the expected impacts of the topic ‘HORIZON -CL4-2021-
+RESILIENCE-01-20: Antimicrobial, Antiviral, and Antifungal Nanocoatings’.  
+ 
+As a condition to generate growth, NanoBloc®  is an industry-oriented project. The industrial/commercial 
+involvement spans a complete value chain of industrial actors (figure 11), 3 of which are SMEs (IRIS, PRIREV, 
+GVF), is imperative for allowing us to implement a research -industry cocreation in our project (according to th e 
+methodology described in Section 1.2). Each industry participant will be able to grow their businesses  and 
+improve their competitiveness in line with their position on the value chain. This involvement ensures a 
+technology pathway for the project upscaling (INTERPANE, IRIS, PRIREV), and a route to market (GVF, 
+SIEON and PRIREV); a complete value chain for the exploitation, post-project scale up and commercialisation of 
+the projects results. In short, the industry participants have been instrumental in helping to shape this proposal, 
+and NanoBloc® is considered a highly strategic for assisting them in gaining a competitive edge and in being 
+a pioneering group in driving forward new antiviral, antibacterial & antifungal nanocoating innovations of 
+high socio-economic & strategic impact. 
+ 
+In addition, the consortium unites a strong understanding of gender issues and inclusiveness , and also has an 
+equitable Gender dimension , whereby there is a strong participation of female researchers , technologists, 
+industrialists, business experts and entrepreneurs, as well as policy influencers. Moreover, the majority of our 
+partners either have a formal Gender Equality Plan (GEP) in place or are in the process of implementing one, and 
+all partners have equality opportunities policies in relation to recruitment and internal promotions. Moreover, our 
+Project Coordinator (Prof. Monica Ferraris), is an accomplished, award-winning female scientist- she is a Full 
+Professor of Science and Technology of Mat erials at POLITO, with over 200 hundred peer -reviewed journal 
+publications and 14 patents.  She is also featured in Successful Women Ceramic and Glass Scientists and 
+Engineers: 100 Inspirational Profiles69. She acted as Project Coordinator or Principal Investigator of 27 National 
+and EU projects on ceramics, glasses and composite, from 1992 to present: among them, 17 are EU projects, 8 of 
+them as Project Coordinator. In relation to open science practices, our research partners have considerable expertise 
+in this area, and they are active publishers in open science journals, and also committed to seeing scientific results 
+                                                      
+69 Lynnette D. Madsen. 2015 The American Ceramic Society and John Wiley & Sons, Inc. Published 2015 by John Wiley & Sons, Inc (page 175-179) 
+Figure 11- Industrial Value Chain 
+ 
+
+ 
+101057597- NANOBLOC – Part B- Page 43 of 45 
+being exploited by industry for building competitiveness, growth, jobs, resilience and societal impact.  
+ 
+How each member contributes to the project with a valid role and with the necessary resources  
+The table below summarises the core role of each of the partners in the project.  
+Table 22- Role of each partner  
+Partner Role 
+POLITO Coordinate Project. WP1 & WP7 leader. Participant in WP2, WP3, WP4, WP5, WP6. Core role: Co-sputtering 
+provider of Ag/silica coatings (and other compositions) . Contributing background in n ovel technique for the 
+deposition of a nanostructured coating with virucidal, antimicrobial and antifungal  properties via co -sputtering 
+technique, patented by POLITO (PCT/IB2018/057639).  Also perform routine characterization on own samples 
+and partners samples upon request. Leader of Open Science and Gendered Innovation approach.  
+TEK-
+NIKER 
+WP3 leader. Participant in WP1, WP2, WP4, WP5, WP6, WP7. Core role:  Contribute vast experience on 
+tribological, wear and ageing (UV, Corrosion, oxidation, etc .) behaviour & characterisation for different 
+applications, on antibacterial performance & marine ecotoxicity testing, on coatings with biocide behaviour and 
+durability (medical implants, anti-fouling) and experience on Life Cycle Analysis (LCA). Leadership of coatings 
+characterization (WP3); contribute to R&D on new PVD coatings containing Cu (WP1) using different 
+subtechnologies & combinations (cathodic, arc, sputtering, HIPIMS) ; antibacterial testing & ecotoxicity tests 
+(WP2); collaborate on up-scaling of PVD batch processing for high traffic objects & Sol -gel upscaling (WP4); 
+Validation in relevant environments & LCA (WP5). Role of Scientific Manager to support interdisciplinary mgt. 
+UNITO WP2 leader: Participant in WP6, WP7. Core role: Contribute their expertise in the study of the mechanism of 
+action of new antiviral molecules and in the study of molecule cytotoxicity to lead the evaluation of the antiviral 
+properties of different coatings produced  in the project and the study of their mechanism of antiviral action and 
+cytotoxicity. They will also evaluate the influence of ageing processes on the antiviral properties of the coatings.  
+FAU Participant in WP1, WP3, WP6, WP7. Core role: Thanks for their world-class experience in the field of bioactive 
+materials, coatings and electrophoretic deposition method, FAU will lead the development and characterisation 
+of antiviral and antibacterial nanocoatings by EPD and sol-gel method, & the incorporation of bio-based materials.  
+GVF WP5 leader. Participant in WP1, WP2, WP3, WP4, WP6, WP7. Core role: As experts in the design, development 
+and production of industrial filtration elements, equipment and systems, GVF will work on the effective 
+application of a virucidal /antimicrobial/ antifungal coating on filtration systems for improving product quality 
+and reliability (WP4). In addition to leading WP5, they themselves will test NanoBloc® on air filtering materials 
+following standards and monitoring performance, and measure the impact and success to demonstrate the new 
+nanocoating technologies in relevant working environments. Plan post-project pathway to market (WP6). 
+SIOEN Participant in WP1, WP3, WP4, WP5, WP6, WP7. Core role: Contribute their experience in the formulation of 
+different nanoparticle dispersions for technical textile coatings  & radiation-curable lacquers and varnishes, and 
+lead the work in relation to the doping UV cured lacquers & varnishes with nanoparticles to obtain self -
+disinfecting properties (Task 1.2). Test & demonstrate the technology (WP5) on coated textiles (incl. protective 
+clothing, mattresses, and mouth masks), lacquers, and varnishes. Plan post-project pathway to market (WP6). 
+PRIREV Participant in WP1, WP4, WP5, WP6, WP7. Core role: Contribute their 20+ years of PVD coating expertise to 
+the up scaling of the deposition process for antibacterial/antiviral coatings  in line with their R&D roadmap to 
+develop innovative new products such as the recent development of AB20- a new antibacterial coating, inox 
+colour, for stainless steel substrates with antibacterial activity certified by Hohenstein Institute. Main goal is to  
+now develop coatings in other colours with antibac terial/antiviral properties, for different substrates (brass, 
+zamak, polymers) compliant with the envisaged applications of high traffic objects , and plan pathway to market.  
+IRIS WP6 leader. Participant in WP4, WP7. Core role: As an advanced engineering company specialising in PAT 
+(Process Analytical Technology) and Artificial Intelligence real-time process monitoring solutions for Industry 
+4.0, lead the work in T4.3 in relation to measuring the Critical Process Parameters and the target Critical Quality 
+Attributes of the selected processes, and building Digital Twins based on the data historian for improved process 
+understanding (based on Quality-by-Design approach) and predictability. They will also occupy the role of Data 
+Managers for the project. Lead implementation of the Cocreation Cycle in the project  (T4.1). Lead IP 
+Management (T6.3), Exploitation & Business Planning (T6.4) for planning timely routes to market.   
+INTERP
+ANE 
+WP4 Leader. Participant in WP5, WP6, WP7. Core role: Upscaling of the R2R processes: engineering studies, 
+hardware modifications for co -sputtering Ag nanoclusters in a silica matrix. Install & commission the modified 
+hardware in R2R demo unit & co -sputtering coating deposition on substrates selected by end u sers. Plan post-
+project equipment TRL7-9 scale up and market deployment.     
+UNE Participant in WP6, WP7. Core role: Leading Standardization activities and procedures 
+ 
+Critical infrastructure. Major items include: POLITO- fully equipped laboratories for research on glasses, glass-
+ceramics, ceramics, composites, surface functionalization and nanostructured coatings ; UNITO-Laboratory of 
+Molecular Virology and Antiviral Research ; access to San Luigo Hospital (that hosts UNITOs lab) for validation 
+work; TEKNIKER-advanced national laboratory in PVD technology , surface chemistry laboratory for Sol -Gel 
+coatings, clean room with UV photolithography equipment, plasma etching and electroplating systems, equipment 
+for Hot embossing / Nanoimprint and R2RNIL machine, etc., & Tribology laboratory; FAU- facilities for processing 
+ 
+101057597- NANOBLOC – Part B- Page 44 of 45 
+and characterisation of biomaterials, including mesoporous materials and composites , powder technology and 
+biomaterial preparation and characterisation suitable chemistry laboratories are availab le for sol -gel; 
+INTERPANE- Roll-to-roll PVD & PECVD coater for maximum width of 1.6 meter ; Material characterisation 
+equipment; PRIREV- PVD deposition chambers (incl. Cathodic arc and sputtering technologies). SIOEN- UV & 
+Led-curing equipment , Extrusion co ating lines, calandering lines, overcoat lines, direct coating lines, transfer 
+coating lines, dip coating lines, lamination coating lines etc. Hot Xenon UV weathering equipment; GVF- Pleating 
+machine, Tig welding machine , Microplasma welding machine , Rolling machine; IRIS- platform of IR (SWIR) 
+analysers.  
+Adequate resources to fulfil their role, each partner is experienced in building budgets and in planning forward 
+required resources and there is a logical budget distribution among the partners. Each has mobilised the necessary 
+personnel resources/person months  (Table 3.1f: Summary of staff effort ) that reflect the realistic staff effort 
+required to deliver the project objectives . Personnel budget is based on actual costs for researchers, engineering,  
+developers and other professionals for each partner organisation . These costs are in line with average staff costs 
+within the sectors and reflect differences in cost of living between the participating EU regions, whereby staff costs 
+in Northern Europe (namely, Belgium and Germany) are higher versus Southern Europe (namely, Portugal, Spain, 
+Italy) and this difference is particularly pronounced for the private sector. Equipment costs included in the project 
+are for depreciation only, and as relevant partner s have budgeted and itemised this equipment in Table 3.1h: 
+‘Purchase costs’ items (travel and subsistence, equipment and other goods, works and services) . A reasonable 
+budget has been allocated under travel and subsistence (a flat travel fund of €15k has b een for each partner) to 
+allow for mobility of developers and industrialists between sites, which is important for knowledge exchange and 
+building excellence among multidisciplinary and international teams, as well as for practical on -site testing across 
+partners. (Importantly, our intention is to facilitate and enable a high level of virtual engagement among the project 
+team, to supplement the annual presential/onsite project meetings (as allowed) . In this way we will have high 
+resilience to any future travel restrictions, confinements and lockdowns. Moreover, promoting virtual interactions 
+and engagements will be positive for our contribution as a project to carbon emissions reduction). No partners have 
+budgeted for subcontracting costs, as they each have access to the internal resources and knowledge to perform the 
+work. Partners have budgeted for diverse goods and services , e.g. funds for Laboratory and Prototyping 
+consumables, publish ing in Open Journals, Patenting fees (attorney and application costs), Subscription to 
+Conferences and Events, Open Data Storage, among others (as detailed and itemised in Table 3.1h). Noteworthy is 
+€350k by INTERPANE materials for the scale-up cathode co-sputtering cost. This is an important cost that covers 
+the price for the PVD lid (material + manufacturing) which is used to close the R2R and fix the cathode targets and 
+other parts. Other parts are mainly: MFCs + control system related; TMPs + control sy stem related; Electrical 
+feedthrough; Water cooling system for TMPs and cathodes; Shields for cathodes and R2R; Various valves (inline, 
+venting, bellows, etc.); PLC and automation system (e.g. Beckhoff); Cables and related; Stainless steel pipes and 
+plastic tubes; End blocks (in case of rotatable cathode, etc.). This budget item has been given careful assessment 
+collectively by the consortium and it is considered necessary and relevant for delivering a high-end system for 
+NanoBloc®. In short, the partners h ave worked very closely together to codesign the workplan and its associated 
+budget. All partners are bringing a clear value to the project, are performing a synergising and complimentary role, 
+and with the necessary resource to be able to implement this r ole and each partner is highly motivated with a core 
+role category as either a knowledge creator  (POLITO, UNITO, TEKNIKER, FAU), a technology upscaler  
+(INTERPANE, FAU, PRIREV) or as an innovation adopter (GVF, SIOEN), and a standardization facilitator 
+(UNE).  
+Other countries and international organisations: Not applicable 
+ 
+4. Ethics Self-Assessment 
+In relation to the Ethics Self Assessment table, while the overall ‘Ethics Opinion’ in the Ethics Summary Report 
+concluded ‘Ethics clearance (the proposal is ‘ethics ready’)’, its ‘Analysis of the ethical dimension’ concluded the 
+following: 
+‘The ethics issues relating to Section 4 - Personal Data, Section 7 - Environment, Health & Safety (nanomaterials) 
+and Section 8 - Artificial Intelligence are not clearly identified in the self -assessment form, and the beneficiaries  
+should consider any potential ethics issues under these sections. In addition, it is not clear whether the mammalian 
+cells used in task 2.3 will be human cells which raises ethical issues.’  
+The NANOBLOC  consortium confirms that compliance with the ethical principles and the applicable EU, 
+international, and national laws for the ethics issues identified in the Ethics Summary Report any ethics issues that 
+may emerge in the course of the grant, will be ensured , and for any applicable ethics issue, the guidance provided 
+in the European Commission Ethics Self -Assessment Guidelines will be rigorously followed.  In relation to the 
+mammalian cells used in task 2.3, we clarify that the term “mammalian cells” includes human cells that we will use 
+ 
+101057597- NANOBLOC – Part B- Page 45 of 45 
+in the project. However, it must be pointed out that only widely used (commercial) human cell lines will be used. 
+They are purchased from cells banks, such as ATCC (the world’s largest and most extensive product catalogue of 
+human and animal cell lines for research purposes ). We will not derive any cells from human donors during the 
+project.

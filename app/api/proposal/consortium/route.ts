@@ -394,9 +394,25 @@ export async function POST(req: NextRequest) {
     })
 
     // Geographic gap analysis — EU/EEA countries only (exclude CH, UK, NO, IS, etc.)
+    const COUNTRY_NAME_TO_ISO: Record<string, string> = {
+      'AUSTRIA':'AT','BELGIUM':'BE','BULGARIA':'BG','CROATIA':'HR','CYPRUS':'CY',
+      'CZECH REPUBLIC':'CZ','CZECHIA':'CZ','DENMARK':'DK','ESTONIA':'EE','FINLAND':'FI',
+      'FRANCE':'FR','GERMANY':'DE','GREECE':'GR','HUNGARY':'HU','IRELAND':'IE',
+      'ITALY':'IT','LATVIA':'LV','LITHUANIA':'LT','LUXEMBOURG':'LU','MALTA':'MT',
+      'NETHERLANDS':'NL','POLAND':'PL','PORTUGAL':'PT','ROMANIA':'RO','SLOVAKIA':'SK',
+      'SLOVENIA':'SI','SPAIN':'ES','SWEDEN':'SE','SWITZERLAND':'CH','UNITED KINGDOM':'UK',
+      'UK':'UK','NORWAY':'NO','ICELAND':'IS','LIECHTENSTEIN':'LI','TURKEY':'TR',
+      'SERBIA':'RS','NORTH MACEDONIA':'MK','MONTENEGRO':'ME','ALBANIA':'AL',
+      'BOSNIA AND HERZEGOVINA':'BA','KOSOVO':'XK','UKRAINE':'UA','MOLDOVA':'MD',
+      'GEORGIA':'GE','ARMENIA':'AM','AZERBAIJAN':'AZ','ISRAEL':'IL',
+    }
+    const normalizeCountry = (raw: string): string => {
+      const upper = raw.toUpperCase().trim()
+      return COUNTRY_NAME_TO_ISO[upper] || upper
+    }
     const NON_EU = new Set(['CH','UK','NO','IS','LI','TR','RS','MK','ME','AL','BA','XK','UA','MD','GE','AM','AZ','IL'])
     const confirmedCountries = new Set<string>(
-      (brief.partners || []).map((p: any) => (p.country || '').toUpperCase()).filter(Boolean)
+      (brief.partners || []).map((p: any) => normalizeCountry(p.country || '')).filter(Boolean)
     )
     confirmedCountries.add('ES') // IRIS is always ES (coordinator)
     const euCountries = new Set([...confirmedCountries].filter(c => !NON_EU.has(c)))

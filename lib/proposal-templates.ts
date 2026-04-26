@@ -534,6 +534,9 @@ export function detectTemplate(callText: string): ProposalTemplate {
   if (/\binnovation action\b/i.test(text) && !/\bresearch and innovation action\b/i.test(text)) actionType = 'IA'
   // Explicit IA marker in call title or type field: "(IA)", "Action Type: IA", "-IA-"
   if (/\(\s*IA\s*\)|\baction\s+type[:\s]+IA\b|-IA-/i.test(text) && actionType !== 'CSA') actionType = 'IA'
+  // Extract call identifier from "Call: HORIZON-..." line and check for -IA- segment
+  const callIdLine = callText.match(/^Call:\s*(HORIZON[-\s][^\n]+)/im)?.[1]?.toUpperCase() || ''
+  if (callIdLine && /-IA-/.test(callIdLine) && actionType !== 'CSA') actionType = 'IA'
   if (lower.includes('eic accelerator')) actionType = 'EIC'
 
   // Detect stage

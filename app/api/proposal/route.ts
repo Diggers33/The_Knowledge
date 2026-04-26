@@ -1441,10 +1441,13 @@ Instructions:
   md.push(`### Work package list\n\n| WP no. | WP title | Lead beneficiary | Person-months | Start month | End month |\n|--------|----------|-----------------|---------------|-------------|----------|\n${wpRows || '| WP1 | [TBC] | [TBC] | [TBC] | M1 | M${duration} |'}`)
 
   // Deliverables table
+  const wpLeadMap: Record<number, string> = {}
+  wps.forEach((wp: any) => { wpLeadMap[wp.number] = wp.lead })
   const allDels = wps.flatMap((wp: any) => (wp.deliverables || []).map((d: any) => ({ ...d, wpNum: wp.number })))
-  const delRows = allDels.map((d: any) =>
-    `| ${d.id} | ${d.title} | WP${d.wpNum} | TBC | ${d.type} | ${d.dissemination} | M${d.dueMonth} |`
-  ).join('\n')
+  const delRows = allDels.map((d: any) => {
+    const lead = (d.lead && d.lead !== 'TBC') ? d.lead : (wpLeadMap[d.wpNum] || 'IRIS')
+    return `| ${d.id} | ${d.title} | WP${d.wpNum} | ${lead} | ${d.type} | ${d.dissemination} | M${d.dueMonth} |`
+  }).join('\n')
   md.push(`### Deliverables\n\n| D-no. | Deliverable title | WP | Lead | Type | Dissemination | Due month |\n|-------|------------------|----|------|------|---------------|-----------|\n${delRows || '| D1.1 | [TBC] | WP1 | [TBC] | Report | PU | M12 |'}`)
 
   // Milestones table
@@ -1476,11 +1479,13 @@ Instructions:
     const sep = `|---------|${wps.map(() => '-----').join('|')}|-----------|`
     const rows = allPartners.map(partner => {
       const cells = wps.map((wp: any) => {
-        if (wp.lead === partner) return 'TBC-L'
-        if ((wp.participants || []).includes(partner)) return 'TBC'
+        const dur = Math.max(1, ((wp.endMonth || 12) - (wp.startMonth || 1) + 1))
+        if (wp.lead === partner) return String(Math.round(dur * 0.8))
+        if ((wp.participants || []).includes(partner)) return String(Math.round(dur * 0.25))
         return '—'
       })
-      return `| ${partner} | ${cells.join(' | ')} | TBC |`
+      const total = cells.reduce((sum, c) => sum + (c === '—' ? 0 : (parseInt(c) || 0)), 0)
+      return `| ${partner} | ${cells.join(' | ')} | **${total || 'TBC'}** |`
     })
     md.push(`### Person-month summary\n\n${hdr}\n${sep}\n${rows.join('\n')}`)
   }
@@ -1727,6 +1732,28 @@ Do NOT write a generic paragraph — every sentence must name a specific role, b
 
       iris_role: `Write one paragraph per partner (4-6 sentences). For IRIS: start with the WP leadership, name the specific tasks IRIS leads, name the IRIS technologies being deployed, reference 1-2 previous IRIS projects as evidence of capability. For each other partner: organisation type, country, specific expertise, role in this project, and why they are the best choice. Close with a paragraph on consortium complementarity — how the partners collectively cover the full value chain from research to demonstration to market. Write in first person plural for IRIS tasks, third person for other partners' descriptions. Do not use bullet points.`,
 
+      // 2.3 Communication — public outreach (NOT dissemination or exploitation)
+      communication: `Write Section 2.3 Communication structured as follows:
+
+### Target audiences
+One concise paragraph identifying 3-4 distinct target audiences (e.g. industry end-users, policy makers, scientific community, general public). Describe each in 1-2 sentences.
+
+### Communication channels and activities
+A markdown table: | Channel | Target audience | Activity | Frequency | Responsible partner | KPI |
+Include NO MORE THAN 5 specific channels. Do not list every social media platform — name at most 2 (e.g. LinkedIn and X/Twitter). Each row must be specific and measurable.
+
+### Key messages
+3-4 bullet points: the core narrative the project will communicate, adapted per audience segment. Each bullet is one sentence.
+
+### Communication timeline
+One paragraph describing when major communication activities take place across the project lifecycle (launch, mid-term, final).
+
+RULES:
+- Name at most 5 communication channels total across the table
+- Do NOT enumerate a comprehensive list of social media platforms
+- Do NOT repeat content already in Section 2.2 (dissemination/exploitation)
+- Total length: 300-500 words`,
+
       // 1.3 Methodology — research phases + Gantt description + risk table + TRL
       methodology: `Write Section 1.3 Methodology structured as follows. Each sub-section must be substantive — do not write placeholder or skeleton text.
 
@@ -1761,7 +1788,7 @@ Write Section 2.1 Expected Outcomes and Impacts structured as:
 
 ### Contribution to call expected outcomes
 For each call expected outcome listed in the call text, write:
-- One sentence stating what the project delivers toward that outcome
+- 2-3 sentences (50-80 words) stating what the project delivers toward that outcome and why this approach is effective
 - One sentence quantifying the contribution (specific metric + reasoning: "based on X, we project Y%")
 - One sentence naming the pilot/demonstration context
 
@@ -1776,7 +1803,7 @@ Then write a markdown table: | Call expected outcome | Project contribution | Ta
 ### Societal and environmental impact
 1 paragraph: sustainability benefits (quantified where possible), workforce upskilling, regulatory contribution.
 
-Hard maximum: 1,600 words. Do not include task descriptions, methodology, or consortium detail.`,
+Target length: match the template word count for this section. Do not include task descriptions, methodology, or consortium detail.`,
 
       // 2.2 Dissemination — Communication/Dissemination/Exploitation table
       dissemination: `Write Section 2.2 Dissemination, Exploitation and Communication structured as follows:

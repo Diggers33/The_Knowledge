@@ -17,7 +17,7 @@ import {
 } from 'docx'
 import type { ProjectBrief } from '@/lib/proposal-types'
 import type { ProposalTemplate } from '@/lib/proposal-templates'
-import { checkContamination, sanitiseInPlace } from '@/lib/contamination-filter'
+import { checkContamination, sanitiseInPlace, replaceCorpusNarrators } from '@/lib/contamination-filter'
 
 // ─── TYPOGRAPHY CONSTANTS ─────────────────────────────────────────────────────
 // HE Part B template: Arial 11pt body, line spacing 1.15, 15mm margins
@@ -169,8 +169,10 @@ function buildSectionParagraphs(
     }
 
     const rawText = sections[sec.id] || ''
-    const exportVerdict = checkContamination(rawText, { acronym: brief.acronym, callId: brief.callId })
-    const cleanedText = exportVerdict.ok ? rawText : sanitiseInPlace(rawText)
+    // Corpus-narrator replacement runs first (targeted substitution, not strip)
+    const denarrated = brief.acronym ? replaceCorpusNarrators(rawText, brief.acronym) : rawText
+    const exportVerdict = checkContamination(denarrated, { acronym: brief.acronym, callId: brief.callId, section: sec.id })
+    const cleanedText = exportVerdict.ok ? denarrated : sanitiseInPlace(denarrated)
     if (!exportVerdict.ok) {
       console.warn(`Export guard: sanitised section ${sec.id} — ${exportVerdict.hits.length} hit(s) (${exportVerdict.category})`)
     }

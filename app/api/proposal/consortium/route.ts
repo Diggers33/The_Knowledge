@@ -393,15 +393,18 @@ export async function POST(req: NextRequest) {
       }
     })
 
-    // Geographic gap analysis
+    // Geographic gap analysis — EU/EEA countries only (exclude CH, UK, NO, IS, etc.)
+    const NON_EU = new Set(['CH','UK','NO','IS','LI','TR','RS','MK','ME','AL','BA','XK','UA','MD','GE','AM','AZ','IL'])
     const confirmedCountries = new Set<string>(
       (brief.partners || []).map((p: any) => (p.country || '').toUpperCase()).filter(Boolean)
     )
-    confirmedCountries.add('ES') // IRIS is always ES
+    confirmedCountries.add('ES') // IRIS is always ES (coordinator)
+    const euCountries = new Set([...confirmedCountries].filter(c => !NON_EU.has(c)))
 
     const geographicGaps: string[] = []
-    if (confirmedCountries.size < 3) {
-      geographicGaps.push('Fewer than 3 EU countries represented — add partners from DE, FR, IT, or NL')
+    if (euCountries.size < 3) {
+      const detected = [...euCountries].join(', ') || 'ES only'
+      geographicGaps.push(`Fewer than 3 EU countries (detected: ${detected}) — add partners from DE, FR, IT, or NL`)
     }
     if (!confirmedCountries.has('DE') && !confirmedCountries.has('FR')) {
       geographicGaps.push('Consider adding a German or French partner — evaluators favour major EU country coverage')

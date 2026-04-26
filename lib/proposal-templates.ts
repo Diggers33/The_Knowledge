@@ -526,11 +526,15 @@ export const TEMPLATES: Record<string, ProposalTemplate> = {
 export function detectTemplate(callText: string): ProposalTemplate {
   const text = callText.toLowerCase()
 
-  // Detect action type
+  // Detect action type (case-insensitive)
+  const lower = text.toLowerCase()
   let actionType: ActionType = 'RIA'
-  if (text.includes('coordination and support action') || text.includes('(csa)')) actionType = 'CSA'
-  if (text.includes('innovation action') && !text.includes('research and innovation')) actionType = 'IA'
-  if (text.includes('eic accelerator')) actionType = 'EIC'
+  if (lower.includes('coordination and support action') || lower.includes('(csa)')) actionType = 'CSA'
+  // IA: "Innovation Action" present but NOT in the phrase "Research and Innovation Action"
+  if (/\binnovation action\b/i.test(text) && !/\bresearch and innovation action\b/i.test(text)) actionType = 'IA'
+  // Explicit IA marker in call title or type field: "(IA)", "Action Type: IA", "-IA-"
+  if (/\(\s*IA\s*\)|\baction\s+type[:\s]+IA\b|-IA-/i.test(text) && actionType !== 'CSA') actionType = 'IA'
+  if (lower.includes('eic accelerator')) actionType = 'EIC'
 
   // Detect stage
   let stage: Stage = 'single'

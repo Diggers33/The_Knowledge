@@ -22,7 +22,7 @@ import {
 } from '@/lib/iris-kb'
 import type { ProjectBrief } from '@/lib/proposal-types'
 import type { ProposalTemplate } from '@/lib/proposal-templates'
-import { checkContamination, sanitiseInPlace } from '@/lib/contamination-filter'
+import { checkContamination, sanitiseInPlace, replaceCorpusNarrators } from '@/lib/contamination-filter'
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY! })
 
@@ -1642,7 +1642,7 @@ If retrieved context mentions CIRCULAR FoodPack, SORT4CIRC, PHOTONFOOD, PRESERVE
 
     // ── Section-specific instructions ────────────────────────────────────────
     const SECTION_INSTRUCTIONS: Record<string, string> = {
-      objectives: `Structure as follows:\nPARAGRAPH 1 (3-4 sentences): Establish the problem and opportunity. What is the industrial/societal challenge this project addresses? Why is it urgent now? What does the call specifically seek to solve? Do NOT start with "The [ACRONYM] project will...".\n\nPARAGRAPH 2 onwards: State each objective as a short declarative sentence followed by the measurable target or validation approach. Use transitions: "A first objective is to...", "We will further...", "A third objective concerns...". Never use "Objective 1:", "Objective 2:" as labels. Maximum 400 words total.\n\nWrite specific, measurable project objectives in first person plural. Use 4-6 objectives, each introduced with a short declarative sentence then expanded with technical detail and measurable targets. Each objective must map to a named call expected outcome. State the TRL journey explicitly: starting at TRL ${brief?.trlStart ?? '?'}, achieving TRL ${brief?.trlEnd ?? '?'} by project end. This section covers ONLY project objectives — do not include impact, dissemination, or market content.\n\nSCOPE BOUNDARY: Cover ONLY the project's technical and scientific objectives. Do NOT include: publications targets, open access plans, commercialisation pathways, market size figures, workforce impact, standardisation activities, societal impact. Those sections exist separately. Stay within 400 words.`,
+      objectives: `Structure as follows:\nPARAGRAPH 1 (3-4 sentences): Establish the problem and opportunity. What is the industrial/societal challenge this project addresses? Why is it urgent now? What does the call specifically seek to solve? Do NOT start with "The [ACRONYM] project will...".\n\nPARAGRAPH 2 onwards: State each objective as a short declarative sentence followed by the measurable target or validation approach. Use transitions: "A first objective is to...", "We will further...", "A third objective concerns...". Never use "Objective 1:", "Objective 2:" as labels.\n\nWrite specific, measurable project objectives in first person plural. Use 5-7 objectives, each introduced with a short declarative sentence then expanded with technical detail and measurable targets (2-4 sentences per objective). Each objective must map to a named call expected outcome. State the TRL journey explicitly: starting at TRL ${brief?.trlStart ?? '?'}, achieving TRL ${brief?.trlEnd ?? '?'} by project end. This section covers ONLY project objectives — do not include impact, dissemination, or market content.\n\nSCOPE BOUNDARY: Cover ONLY the project's technical and scientific objectives. Do NOT include: publications targets, open access plans, commercialisation pathways, market size figures, workforce impact, standardisation activities, societal impact. Those belong in later sections.`,
       sota: `Write a rigorous, evidence-grounded State of the Art section structured as FIVE sub-sections with ### headings. Do NOT emit any section number — the number will be added automatically.
 
 ### Current landscape
@@ -1886,9 +1886,9 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
 
     let finalSystemPrompt = enrichedSystemPrompt + STYLE_ENFORCEMENT
 
-    if (['objectives', 'outcomes'].includes(section)) {
-      const hardLimit = section === 'objectives' ? 400 : 800
-      finalSystemPrompt += `\n\nHARD STOP: This section must be UNDER ${hardLimit} words. Count your words as you write. Stop immediately when you reach ${hardLimit} words. Do not cover dissemination, commercialisation, societal impact, or scientific publications in this section — those belong in later sections.`
+    // Scope boundary hint for objectives — no hardcoded word cap (template targetWords governs length)
+    if (section === 'objectives') {
+      finalSystemPrompt += `\n\nSCOPE BOUNDARY: Do NOT include publications targets, open-access plans, commercialisation pathways, market size figures, workforce impact, standardisation activities, or societal impact in this section — those belong in §2.1 Outcomes, §2.2 Dissemination, and §4 Business Case.`
     }
 
     // Parse source papers for post-generation citation validation
@@ -2041,36 +2041,48 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
           fullGeneratedText = fullGeneratedText.replace(/■\s*/g, '- ')
 
           // ── Contamination guard (comprehensive) ─────────────────────────────
-          const filterCtx = { acronym: brief?.acronym, callId: brief?.callId }
+          const filterCtx = { acronym: brief?.acronym, callId: brief?.callId, section: normalizedSection }
           let verdict = checkContamination(fullGeneratedText, filterCtx)
           if (!verdict.ok) {
             console.warn(`Contamination (${verdict.category}) on first attempt — ${verdict.hits.length} hit(s):`, verdict.hits.slice(0, 3))
-            // Retry with gpt-4o (no fine-tune bias), non-streaming
-            try {
-              const fallback = await openai.chat.completions.create({
-                model: 'gpt-4o',
-                messages: [
-                  { role: 'system', content: finalSystemPrompt },
-                  { role: 'user', content: userMessage }
-                ],
-                max_tokens: sectionMaxTokens,
-                temperature: 0.5,
-              })
-              const fallbackText = fallback.choices[0]?.message?.content?.trim() || ''
-              const fallbackVerdict = checkContamination(fallbackText, filterCtx)
-              if (fallbackVerdict.ok && fallbackText.length > 200) {
-                fullGeneratedText = fallbackText
-                verdict = fallbackVerdict
-                console.log('Fallback generation clean — using fallback text')
-              } else {
-                // Last resort: sanitise rather than send a rejection string to the draft
-                console.warn('Fallback also contaminated — sanitising in place')
+
+            // Corpus-exemplar narration: replace protagonist past-project names with current acronym
+            if (verdict.category === 'corpus_exemplar' && brief?.acronym) {
+              fullGeneratedText = replaceCorpusNarrators(fullGeneratedText, brief.acronym)
+              verdict = checkContamination(fullGeneratedText, filterCtx)
+              console.log(`Corpus narrator replacement applied — still contaminated: ${!verdict.ok}`)
+            }
+
+            // If still contaminated, retry with gpt-4o (no fine-tune bias), non-streaming
+            if (!verdict.ok) {
+              try {
+                const fallback = await openai.chat.completions.create({
+                  model: 'gpt-4o',
+                  messages: [
+                    { role: 'system', content: finalSystemPrompt },
+                    { role: 'user', content: userMessage }
+                  ],
+                  max_tokens: sectionMaxTokens,
+                  temperature: 0.5,
+                })
+                const fallbackText = fallback.choices[0]?.message?.content?.trim() || ''
+                const fallbackVerdict = checkContamination(fallbackText, filterCtx)
+                if (fallbackVerdict.ok && fallbackText.length > 200) {
+                  fullGeneratedText = fallbackText
+                  verdict = fallbackVerdict
+                  console.log('Fallback generation clean — using fallback text')
+                } else {
+                  // Last resort: sanitise in place then replace any remaining corpus narrators
+                  console.warn('Fallback also contaminated — sanitising in place')
+                  fullGeneratedText = sanitiseInPlace(fullGeneratedText)
+                  if (brief?.acronym) fullGeneratedText = replaceCorpusNarrators(fullGeneratedText, brief.acronym)
+                  verdict = checkContamination(fullGeneratedText, filterCtx)
+                }
+              } catch (e) {
+                console.error('Fallback generation error — sanitising in place:', e)
                 fullGeneratedText = sanitiseInPlace(fullGeneratedText)
-                verdict = checkContamination(fullGeneratedText, filterCtx)
+                if (brief?.acronym) fullGeneratedText = replaceCorpusNarrators(fullGeneratedText, brief.acronym)
               }
-            } catch (e) {
-              console.error('Fallback generation error — sanitising in place:', e)
-              fullGeneratedText = sanitiseInPlace(fullGeneratedText)
             }
           }
 

@@ -43,11 +43,15 @@ const PROMPT_LEAK_RULES: Array<[string, RegExp]> = [
   ['prompt_negative_constraint',   /Do not repeat content already covered/i],
 ]
 
-// 4. Self-reference / control-flow leakage
+// 4. Self-reference / control-flow leakage (any in-body notice strings)
 const SELF_REF_RULES: Array<[string, RegExp]> = [
-  ['contam_truncated_notice',  /Section truncated: retrieved context contained/i],
-  ['regenerate_directive',     /Please regenerate this section/i],
-  ['retry_needed_marker',      /\*\[RETRY_NEEDED:/i],
+  ['contam_truncated_notice',     /Section truncated: retrieved context contained/i],
+  ['regenerate_directive_long',   /Please regenerate this section/i],
+  ['regenerate_directive_short',  /Please regenerate\.\]\*/i],
+  ['draft_truncated_notice',      /\*?\[Draft truncated[^\]]*\]\*?/gi],
+  ['draft_incomplete_notice',     /\*?\[Draft incomplete[^\]]*\]\*?/gi],
+  ['generation_degraded_notice',  /\*?\[Generation (?:quality degraded|contaminated)[^\]]*\]\*?/gi],
+  ['retry_needed_marker',         /\*\[RETRY_NEEDED:/i],
 ]
 
 export function checkContamination(

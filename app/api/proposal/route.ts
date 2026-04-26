@@ -60,7 +60,10 @@ Use bold task labels with partner attribution.
 Format: **Task X.Y: [Task name]** (Lead: PARTNER; Partners: A, B, C)
 Then describe the task in 3-5 sentences of flowing prose.
 
+TASK DESCRIPTION VARIETY: Each task description must begin differently. Rotate through these openers (never repeat the same opener twice in a row): "This task...", "Building on...", "The objective of...", "Led by...", "Through...", "A core challenge...". Never open a task with "In this task, we will" — vary the construction.
+
 FORBIDDEN PHRASES — never use under any circumstances:
+- in this task, we will (use varied openers instead)
 - poised to deliver
 - transformative outcomes
 - holistic approach
@@ -1952,12 +1955,32 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
       ? `NUMBERED SOURCE LIST (use [N] for inline citations):\n${sourcePapers.slice(0, 15).map((p, i) => `[${i + 1}] ${p.authors} (${p.year}). ${p.title}.${p.url ? ' ' + p.url : ''}`).join('\n')}\n`
       : ''
 
+    // ── 1.4 ALREADY_WRITTEN guard — inject 1.1 as context to prevent copy-paste ──
+    const alreadyWrittenBlock = (normalizedSection === 'innovation' && sessionSections['objectives'])
+      ? `<<ALREADY_WRITTEN — Section 1.1 Objectives>>\n${sessionSections['objectives'].slice(0, 1200)}\n<<END ALREADY_WRITTEN>>\nDo NOT repeat any sentence, claim, or figure from the above. Section 1.4 extends and deepens — it does not summarise or restate Section 1.1.`
+      : ''
+
+    // ── 3.3 partner-count block — prevents confabulation of partner/WP numbers ──
+    const partnerCountBlock = (normalizedSection === 'consortium' && brief?.partners?.length)
+      ? (() => {
+          const ps = brief.partners
+          const byType: Record<string, number> = {}
+          ps.forEach((p: any) => { byType[p.type || 'other'] = (byType[p.type || 'other'] || 0) + 1 })
+          const typeLines = Object.entries(byType).map(([t, n]) => `  ${n}× ${t}`).join('\n')
+          const wpSection = sessionSections['workplan'] || ''
+          const wpCount = (wpSection.match(/\bWP\s*\d+\b/g) || []).reduce((acc: Set<string>, m: string) => { acc.add(m.replace(/\s/,'')); return acc }, new Set<string>()).size
+          return `CONSORTIUM FACTS — copy these numbers exactly into the text:\nTotal partners: ${ps.length}\nPartner breakdown:\n${typeLines}\nPartner list: ${ps.map((p: any) => `${p.name} (${p.country}, ${p.type})`).join('; ')}\n${wpCount > 0 ? `Work packages (from Section 3.1): ${wpCount}` : ''}`
+        })()
+      : ''
+
     const userMessage = [
       `Call topic / objectives:\n${callText}`,
       additionalContext ? `Additional context:\n${additionalContext}` : '',
       numberedSourceList,
       contextBlocks.join('\n\n'),
       brief ? `BINDING BRIEF VALUES — use these exactly, do not substitute:\nProject: ${brief.acronym || 'UNNAMED'} | TRL: ${brief.trlStart ?? 3}→${brief.trlEnd ?? 6} | Action: ${brief.actionType || 'RIA'}` : '',
+      alreadyWrittenBlock,
+      partnerCountBlock,
       `Write the ${SECTION_LABELS[section] || section} section:`
     ].filter(Boolean).join('\n\n')
     // Per-section fine-tuned models — falls back to gpt-4o if not set
@@ -1976,6 +1999,12 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
     }
     const model = SECTION_MODEL_ENV[section] || 'gpt-4o'
     console.log(`Proposal model: ${model} (section: ${section})`)
+    // Scale max_tokens to the section's word target (1.4 tokens/word + 20% headroom)
+    // Prevents methodology (2400 words) being truncated by a flat 2000-token cap
+    const sectionMaxTokens = isWorkplanSection ? 4500
+      : isSotASection ? 3500
+      : Math.min(4096, Math.max(2000, Math.round(maxWords * 1.4)))
+
     const stream = await openai.chat.completions.create({
       model,
       messages: [
@@ -1983,7 +2012,7 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
         { role: 'user', content: userMessage }
       ],
       stream: true,
-      max_tokens: isWorkplanSection ? 4500 : isSotASection ? 3500 : 2000,
+      max_tokens: sectionMaxTokens,
       temperature: isWorkplanSection ? 0.5 : 0.4,
       frequency_penalty: isWorkplanSection ? 0.7 : 0.6,
       presence_penalty:  isWorkplanSection ? 0.4 : 0.4,
@@ -2020,7 +2049,7 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
                   { role: 'system', content: finalSystemPrompt },
                   { role: 'user', content: userMessage }
                 ],
-                max_tokens: isSotASection ? 3500 : 2500,
+                max_tokens: sectionMaxTokens,
                 temperature: 0.5,
               })
               const fallbackText = fallback.choices[0]?.message?.content?.trim() || ''
@@ -2103,6 +2132,31 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
                   ? keepText.slice(0, lastSentEnd + 1)
                   : keepText
               }
+            }
+          }
+
+          // ── List-explosion guard — catches synonym ladders and SI-prefix runs ───
+          // Catches: "hubs, clusters, parks, zones, districts, corridors, networks…"
+          // and "megaverses, gigaverses, teraverses, petaverses, exaverses…"
+          {
+            const tail = fullGeneratedText.slice(-1500)
+            const listExploded =
+              // ≥8 consecutive comma-separated single words
+              /(\b\w{4,20},\s+){7,}\w{4,20}/.test(tail) ||
+              // Two consecutive SI-prefix words ("gigaverse, teraverse…")
+              /(?:mega|giga|tera|peta|exa|zetta|yotta)\w*,\s*(?:mega|giga|tera|peta|exa|zetta|yotta)/i.test(tail) ||
+              // 4+ "verse" / "sphere" / "cosm" tokens
+              ((tail.match(/\w+(?:verse|sphere|cosm)s?\b/gi) || []).length >= 4)
+
+            if (listExploded) {
+              console.warn('List-explosion detected in tail — truncating to last clean sentence')
+              const explosionStart = Math.max(
+                fullGeneratedText.length - 1500,
+                fullGeneratedText.lastIndexOf('\n\n', fullGeneratedText.length - 1500)
+              )
+              const safePart = fullGeneratedText.slice(0, explosionStart)
+              const lastSent = Math.max(safePart.lastIndexOf('. '), safePart.lastIndexOf('.\n'))
+              fullGeneratedText = lastSent > 100 ? safePart.slice(0, lastSent + 1) : safePart
             }
           }
 

@@ -26,20 +26,23 @@ function extractRequirements(
 ): CallRequirement[] {
   const reqs: CallRequirement[] = []
   const text = callText.toLowerCase()
+  const isCsa = template.actionType === 'CSA'
 
-  // ── TRL journey ──────────────────────────────────────────────────────────
-  reqs.push({
-    id: 'trl_start',
-    text: `TRL start level (${brief.trlStart}) mentioned`,
-    mandatory: true,
-    checkPattern: `trl ${brief.trlStart}|trl${brief.trlStart}|technology readiness level ${brief.trlStart}`,
-  })
-  reqs.push({
-    id: 'trl_end',
-    text: `TRL end level (${brief.trlEnd}) mentioned`,
-    mandatory: true,
-    checkPattern: `trl ${brief.trlEnd}|trl${brief.trlEnd}|technology readiness level ${brief.trlEnd}`,
-  })
+  // ── TRL journey — skipped for CSA (no TRL targets in CSA calls) ──────────
+  if (!isCsa) {
+    reqs.push({
+      id: 'trl_start',
+      text: `TRL start level (${brief.trlStart}) mentioned`,
+      mandatory: true,
+      checkPattern: `trl ${brief.trlStart}|trl${brief.trlStart}|technology readiness level ${brief.trlStart}`,
+    })
+    reqs.push({
+      id: 'trl_end',
+      text: `TRL end level (${brief.trlEnd}) mentioned`,
+      mandatory: true,
+      checkPattern: `trl ${brief.trlEnd}|trl${brief.trlEnd}|technology readiness level ${brief.trlEnd}`,
+    })
+  }
 
   // ── Stage 1 blind evaluation ──────────────────────────────────────────────
   if (brief.stage === 'stage1') {

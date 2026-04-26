@@ -373,19 +373,40 @@ export async function POST(req: NextRequest) {
 
     const allDynamic = [...kbPartners, ...webPartners]
 
+    // CSA-preferred org types: associations, DIHs, NGOs, policy bodies, municipalities/networks
+    const CSA_PREFERRED_TYPES = new Set(['association', 'cluster', 'dih', 'ngo', 'policy_institute', 'municipality', 'network', 'standards_body'])
+    const CSA_DOWNWEIGHT_TYPES = new Set(['research_institute', 'university', 'end_user', 'large_company'])
+
+    function csaTypeScore(p: PartnerSuggestion): number {
+      const t = (p.type || '').toLowerCase()
+      if (CSA_PREFERRED_TYPES.has(t)) return 2
+      if (CSA_DOWNWEIGHT_TYPES.has(t)) return 0
+      return 1
+    }
+
     // Group by role, merge dynamic + static (deduped)
     const suggestions = roles.map(role => {
-      const dynamic = allDynamic
+      let dynamic = allDynamic
         .filter(p => {
           const pr = ((p as any).role || '').toLowerCase()
           const rl = role.toLowerCase()
           return pr.includes(rl.split(' ')[0]) || rl.includes(pr.split(' ')[0])
         })
-        .slice(0, 3)
+
+      // For CSA: sort dynamic candidates by org-type fitness before slicing
+      if (isCsa) {
+        dynamic = dynamic.slice().sort((a, b) => csaTypeScore(b) - csaTypeScore(a))
+      }
+      dynamic = dynamic.slice(0, 3)
 
       const staticForRole = staticSuggestions[role] || []
       const seen = new Set(dynamic.map(p => p.name.toLowerCase()))
-      const uniqueStatic = staticForRole.filter(p => !seen.has(p.name.toLowerCase()))
+      let uniqueStatic = staticForRole.filter(p => !seen.has(p.name.toLowerCase()))
+
+      // For CSA: sort static candidates by org-type fitness too
+      if (isCsa) {
+        uniqueStatic = uniqueStatic.slice().sort((a, b) => csaTypeScore(b) - csaTypeScore(a))
+      }
 
       return {
         role,

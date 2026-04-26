@@ -607,14 +607,15 @@ export default function ProposalPage() {
       ]
       const isDirtyNotice = CONTAMINATION_NOTICE_MARKERS.some(m => cleanDraft.includes(m)) &&
         cleanDraft.split(/\s+/).length < 50
-      if (!isDirtyNotice) {
+      if (!isDirtyNotice && cleanDraft.length > 50) {
         setSections(prev => ({ ...prev, [sectionId]: cleanDraft }))
         if (kbBlock?.trim()) {
           setKbSources(prev => ({ ...prev, [sectionId]: kbBlock.trim() }))
         }
-      } else {
+      } else if (isDirtyNotice) {
         setWriteError('Generation was contaminated — please try again.')
       }
+      // If cleanDraft is empty but no contamination: keep the streaming value already in state
     } catch (e: any) {
       setWriteError(e.message || 'Generation failed')
     }

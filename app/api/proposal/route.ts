@@ -551,7 +551,7 @@ function stripContaminatedOutput(text: string, currentAcronym?: string): string 
 
 // Drop paper blocks whose title+abstract share no keywords with the call topic.
 // Prevents off-domain papers (e.g. cybersecurity, 6G) from polluting SotA sections.
-function filterPaperBlocksByKeywords(sourceText: string, topicKeywords: string, minMatches = 1): string {
+function filterPaperBlocksByKeywords(sourceText: string, topicKeywords: string, minMatches = 2): string {
   if (!sourceText || !topicKeywords) return sourceText
   const kwSet = new Set(topicKeywords.toLowerCase().split(/\s+/).filter(k => k.length > 3))
   if (kwSet.size === 0) return sourceText
@@ -559,15 +559,34 @@ function filterPaperBlocksByKeywords(sourceText: string, topicKeywords: string, 
   const blocks = sourceText.split(/\n\n+/)
   const filtered = blocks.filter(block => {
     const lower = block.toLowerCase()
+
+    // Title-level check: if block has a "Title:" line, it must match at least 1 keyword
+    const titleLine = block.match(/^Title:\s*(.+)$/im)?.[1]?.toLowerCase() || ''
+    if (titleLine) {
+      const titleHit = [...kwSet].some(kw => titleLine.includes(kw))
+      if (!titleHit) {
+        // Extract identifiers for logging
+        const doi = block.match(/DOI:\s*\S+/i)?.[0] || block.slice(0, 60).replace(/\n/g, ' ')
+        console.log(`[citation-filter] dropped (title-miss) "${titleLine.slice(0, 80)}" — no topic keyword in title`)
+        return false
+      }
+    }
+
+    // Body-level: require minMatches distinct keyword hits
     let hits = 0
     for (const kw of kwSet) {
       if (lower.includes(kw)) { hits++; if (hits >= minMatches) return true }
+    }
+    if (titleLine && hits > 0) return true // title passed + any body hit = keep
+    if (hits < minMatches) {
+      const doi = block.match(/DOI:\s*\S+/i)?.[0] || ''
+      console.log(`[citation-filter] dropped (body-miss score=${hits}/${minMatches}) ${doi}`)
     }
     return false
   })
 
   if (filtered.length < blocks.length) {
-    console.log(`Citation filter: dropped ${blocks.length - filtered.length}/${blocks.length} off-topic paper blocks`)
+    console.log(`[citation-filter] dropped ${blocks.length - filtered.length}/${blocks.length} off-topic paper blocks`)
   }
   return filtered.join('\n\n')
 }
@@ -1434,10 +1453,26 @@ Instructions:
   // Overview
   md.push(`### Work package overview\n\n${structured.overview || '[Work package overview to be completed by consortium]'}`)
 
-  // WP list table
-  const wpRows = wps.map((wp: any) =>
-    `| WP${wp.number} | ${wp.title} | ${wp.lead} | ${wp.personMonths} | M${wp.startMonth} | M${wp.endMonth} |`
-  ).join('\n')
+  // Pre-compute per-WP PM totals from partner allocations
+  const allPartnersForPM = [...new Set(wps.flatMap((wp: any) => [wp.lead, ...(wp.participants || [])]))]
+    .filter((p: any) => p && p !== 'TBC' && !String(p).includes('['))
+  const wpPmTotals: Record<number, number> = {}
+  for (const wp of wps) {
+    const dur = Math.max(1, ((wp.endMonth || 12) - (wp.startMonth || 1) + 1))
+    let total = 0
+    for (const partner of allPartnersForPM) {
+      if (wp.lead === partner) total += Math.round(dur * 0.8)
+      else if ((wp.participants || []).includes(partner)) total += Math.round(dur * 0.25)
+    }
+    wpPmTotals[wp.number] = total
+  }
+
+  // WP list table — replace TBC/null person-months with computed totals
+  const wpRows = wps.map((wp: any) => {
+    const rawPM = wp.personMonths
+    const pmValue = (rawPM && rawPM !== 'TBC' && rawPM !== 'null') ? rawPM : String(wpPmTotals[wp.number] || 'TBC')
+    return `| WP${wp.number} | ${wp.title} | ${wp.lead} | ${pmValue} | M${wp.startMonth} | M${wp.endMonth} |`
+  }).join('\n')
   md.push(`### Work package list\n\n| WP no. | WP title | Lead beneficiary | Person-months | Start month | End month |\n|--------|----------|-----------------|---------------|-------------|----------|\n${wpRows || '| WP1 | [TBC] | [TBC] | [TBC] | M1 | M${duration} |'}`)
 
   // Deliverables table
@@ -1471,13 +1506,12 @@ Instructions:
   ).join('\n')
   md.push(`### Critical risks and mitigation\n\n| Risk | WP | Likelihood | Severity | Mitigation measure |\n|------|----|------------|----------|--------------------|\n${riskRows || '| [TBC] | WP1 | Medium | Medium | [TBC] |'}`)
 
-  // Person-month summary table
-  const allPartners = [...new Set(wps.flatMap((wp: any) => [wp.lead, ...(wp.participants || [])]))]
-    .filter(p => p && p !== 'TBC' && !p.includes('['))
-  if (allPartners.length > 0 && wps.length > 0) {
+  // Person-month summary table (uses pre-computed wpPmTotals and allPartnersForPM)
+  if (allPartnersForPM.length > 0 && wps.length > 0) {
     const hdr = `| Partner | ${wps.map((wp: any) => `WP${wp.number}`).join(' | ')} | **Total** |`
     const sep = `|---------|${wps.map(() => '-----').join('|')}|-----------|`
-    const rows = allPartners.map(partner => {
+    const partnerTotals: number[] = []
+    const rows = allPartnersForPM.map(partner => {
       const cells = wps.map((wp: any) => {
         const dur = Math.max(1, ((wp.endMonth || 12) - (wp.startMonth || 1) + 1))
         if (wp.lead === partner) return String(Math.round(dur * 0.8))
@@ -1485,9 +1519,12 @@ Instructions:
         return '—'
       })
       const total = cells.reduce((sum, c) => sum + (c === '—' ? 0 : (parseInt(c) || 0)), 0)
-      return `| ${partner} | ${cells.join(' | ')} | **${total || 'TBC'}** |`
+      partnerTotals.push(total)
+      return `| ${partner} | ${cells.join(' | ')} | **${total}** |`
     })
-    md.push(`### Person-month summary\n\n${hdr}\n${sep}\n${rows.join('\n')}`)
+    const projectTotal = partnerTotals.reduce((a, b) => a + b, 0)
+    const totalsRow = `| **PROJECT TOTAL** | ${wps.map((wp: any) => `**${wpPmTotals[wp.number] ?? 'TBC'}**`).join(' | ')} | **${projectTotal}** |`
+    md.push(`### Person-month summary\n\n${hdr}\n${sep}\n${rows.join('\n')}\n${totalsRow}`)
   }
 
   return md.join('\n\n')
@@ -2055,10 +2092,22 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
         try {
           // Buffer full generated text before any post-processing so we can
           // replace it with a cleaned version if unverified citations are found.
+          const genStart = Date.now()
           let fullGeneratedText = ''
+          let finishReason = 'unknown'
+          let completionTokens = 0
           for await (const chunk of stream) {
-            const delta = chunk.choices[0]?.delta?.content || ''
+            const choice = chunk.choices[0]
+            const delta = choice?.delta?.content || ''
             if (delta) fullGeneratedText += delta
+            if (choice?.finish_reason) finishReason = choice.finish_reason
+            if ((chunk as any).usage?.completion_tokens) completionTokens = (chunk as any).usage.completion_tokens
+          }
+          const elapsedMs = Date.now() - genStart
+          const promptWordEst = Math.round(finalSystemPrompt.length / 4)
+          console.log(`[section-gen] id=${normalizedSection} model=${model} maxTokens=${sectionMaxTokens} completionTokens=${completionTokens} finishReason=${finishReason} outputWords=${fullGeneratedText.split(/\s+/).length} elapsedMs=${elapsedMs}`)
+          if (finishReason === 'length') {
+            console.warn(`[section-gen] TRUNCATED id=${normalizedSection} — hit max_tokens=${sectionMaxTokens}, output likely incomplete`)
           }
 
           // ── Post-processing: normalize section number and bullet style ──────
@@ -2082,6 +2131,7 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
 
             // If still contaminated, retry with gpt-4o (no fine-tune bias), non-streaming
             if (!verdict.ok) {
+              console.log(`[section-gen] retry=1 id=${normalizedSection} reason=contamination category=${verdict.category}`)
               try {
                 const fallback = await openai.chat.completions.create({
                   model: 'gpt-4o',
@@ -2093,14 +2143,16 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
                   temperature: 0.5,
                 })
                 const fallbackText = fallback.choices[0]?.message?.content?.trim() || ''
+                const fallbackFinish = fallback.choices[0]?.finish_reason || 'unknown'
+                console.log(`[section-gen] retry=1 id=${normalizedSection} fallbackFinishReason=${fallbackFinish} fallbackWords=${fallbackText.split(/\s+/).length}`)
                 const fallbackVerdict = checkContamination(fallbackText, filterCtx)
                 if (fallbackVerdict.ok && fallbackText.length > 200) {
                   fullGeneratedText = fallbackText
                   verdict = fallbackVerdict
-                  console.log('Fallback generation clean — using fallback text')
+                  console.log('[section-gen] fallback clean — using fallback text')
                 } else {
                   // Last resort: sanitise in place then replace any remaining corpus narrators
-                  console.warn('Fallback also contaminated — sanitising in place')
+                  console.warn('[section-gen] fallback also contaminated — sanitising in place')
                   fullGeneratedText = sanitiseInPlace(fullGeneratedText)
                   if (brief?.acronym) fullGeneratedText = replaceCorpusNarrators(fullGeneratedText, brief.acronym)
                   verdict = checkContamination(fullGeneratedText, filterCtx)

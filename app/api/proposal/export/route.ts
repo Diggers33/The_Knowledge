@@ -146,6 +146,39 @@ function textToParagraphs(text: string): (Paragraph | Table)[] {
   return result
 }
 
+// ─── WORKPLAN TABLE LABEL INJECTOR ───────────────────────────────────────────
+// Inserts EC-mandated table labels (3.1a–3.1d) before each pipe table in §3.1
+
+const WORKPLAN_HEADING_TO_LABEL: Array<[RegExp, string]> = [
+  [/work package list/i,    'Table 3.1a: Work package list'],
+  [/deliverables/i,         'Table 3.1b: List of deliverables'],
+  [/milestones/i,           'Table 3.1c: List of milestones'],
+  [/person.month summary/i, 'Table 3.1d: Person-months per work package'],
+]
+
+function injectWorkplanTableLabels(text: string): string {
+  const lines = text.split('\n')
+  const out: string[] = []
+  let lastHeading = ''
+  let tableStarted = false
+  for (const line of lines) {
+    const headMatch = line.match(/^###\s+(.+)/)
+    if (headMatch) {
+      lastHeading = headMatch[1]
+      tableStarted = false
+    }
+    const isTableLine = line.trimStart().startsWith('|')
+    if (isTableLine && !tableStarted) {
+      tableStarted = true
+      const entry = WORKPLAN_HEADING_TO_LABEL.find(([re]) => re.test(lastHeading))
+      if (entry) out.push(`*${entry[1]}*`)
+    }
+    if (!isTableLine) tableStarted = false
+    out.push(line)
+  }
+  return out.join('\n')
+}
+
 // ─── SECTION PARAGRAPHS BUILDER ───────────────────────────────────────────────
 
 function buildSectionParagraphs(
@@ -184,7 +217,8 @@ function buildSectionParagraphs(
       ;(err as any).status = 422
       throw err
     }
-    const { mainText, references, kbSources } = splitSectionAndReferences(cleanedText)
+    const { mainText: rawMainText, references, kbSources } = splitSectionAndReferences(cleanedText)
+    const mainText = sec.id === 'workplan' ? injectWorkplanTableLabels(rawMainText) : rawMainText
     paras.push(...textToParagraphs(mainText))
 
     // Append external reference list if present
@@ -377,6 +411,27 @@ export async function POST(req: NextRequest) {
 
           // ── Section content ────────────────────────────────────────────────
           ...buildSectionParagraphs(cleanSections, template, brief),
+
+          // ── AI usage acknowledgement (mandatory per EC guidance) ────────────
+          new Paragraph({
+            border: { top: { style: 'single' as const, size: 6, color: 'CCCCCC' } },
+            spacing: { before: 480, after: 120 },
+            children: [],
+          }),
+          new Paragraph({
+            children: [new TextRun({
+              text: 'Statement on the use of AI tools',
+              bold: true, ...RUN_SMALL, color: '444444',
+            })],
+            spacing: { after: 80 },
+          }),
+          new Paragraph({
+            children: [new TextRun({
+              text: 'This proposal was drafted with the assistance of AI writing tools. All content — including technical claims, partner descriptions, objectives, and budgetary information — has been reviewed, verified, and approved by the proposal team. The applicants take full and sole responsibility for the accuracy, originality, and completeness of this submission.',
+              ...RUN_SMALL, color: '555555',
+            })],
+            spacing: { after: 80 },
+          }),
         ],
       }],
     })

@@ -326,3 +326,21 @@ VISS,101091536,,1.1,12838,90726,VISS__Annex 1 - Description of the action _part 
 W2W,101138789,HORIZON-CL4-2023-TWIN-TRANSITION-01,4,30197,214749,W2W__W2W PUBLIC DOA.pdf,retrain\corpus\sections\W2W__4.txt
 WHITECYCLE,101059639,HORIZON-CL6-2021-CIRCBIO-01,4,2442,16491,WHITECYCLE__Proposal-SEP-210765929-WHITECYCLE.pdf,retrain\corpus\sections\WHITECYCLE__4.txt
 WHITECYCLE,101059639,HORIZON-CL6-2021-CIRCBIO-01,3.2,33305,223224,WHITECYCLE__Proposal-SEP-210765929-WHITECYCLE.pdf,retrain\corpus\sections\WHITECYCLE__3_2.txt
+VISUM,,,1.2,4391,31263,PartB_VISUM-LRS_final.docx,retrain\corpus\sections\VISUM__1_2.txt
+VISUM,,,2.1,3293,22684,PartB_VISUM-LRS_final.docx,retrain\corpus\sections\VISUM__2_1.txt
+VISUM,,,2.2,1045,7271,PartB_VISUM-LRS_final.docx,retrain\corpus\sections\VISUM__2_2.txt
+VISUM,,,2.3,1056,7321,PartB_VISUM-LRS_final.docx,retrain\corpus\sections\VISUM__2_3.txt
+VISUM,,,3.1,530,3803,PartB_VISUM-LRS_final.docx,retrain\corpus\sections\VISUM__3_1.txt
+VISUM,,,3.2,455,3248,PartB_VISUM-LRS_final.docx,retrain\corpus\sections\VISUM__3_2.txt
+VISUM,,,3.3,11767,78271,PartB_VISUM-LRS_final.docx,retrain\corpus\sections\VISUM__3_3.txt
+PHOTONX,101130159,HORIZON-CL4-2025-04-DIGITAL-EMERGING-01,1.2,6649,48865,PhotonX_PartB_upload2.docx,retrain\corpus\sections\PHOTONX__1_2.txt
+PHOTONX,101130159,HORIZON-CL4-2025-04-DIGITAL-EMERGING-01,2.1,3408,25219,PhotonX_PartB_upload2.docx,retrain\corpus\sections\PHOTONX__2_1.txt
+PHOTONX,101130159,HORIZON-CL4-2025-04-DIGITAL-EMERGING-01,2.2,2480,18715,PhotonX_PartB_upload2.docx,retrain\corpus\sections\PHOTONX__2_2.txt
+PHOTONX,101130159,HORIZON-CL4-2025-04-DIGITAL-EMERGING-01,3.1,284,2001,PhotonX_PartB_upload2.docx,retrain\corpus\sections\PHOTONX__3_1.txt
+PHOTONX,101130159,HORIZON-CL4-2025-04-DIGITAL-EMERGING-01,3.2,25547,185056,PhotonX_PartB_upload2.docx,retrain\corpus\sections\PHOTONX__3_2.txt
+NEXTSTEEL,,,1.1,2324,16858,NEXTSTEEL_PartB-FINAL.docx,retrain\corpus\sections\NEXTSTEEL__1_1.txt
+NEXTSTEEL,,,1.2,4934,34536,NEXTSTEEL_PartB-FINAL.docx,retrain\corpus\sections\NEXTSTEEL__1_2.txt
+NEXTSTEEL,,,2.1,3188,23436,NEXTSTEEL_PartB-FINAL.docx,retrain\corpus\sections\NEXTSTEEL__2_1.txt
+NEXTSTEEL,,,2.2,1657,12317,NEXTSTEEL_PartB-FINAL.docx,retrain\corpus\sections\NEXTSTEEL__2_2.txt
+NEXTSTEEL,,,3.1,576,4121,NEXTSTEEL_PartB-FINAL.docx,retrain\corpus\sections\NEXTSTEEL__3_1.txt
+NEXTSTEEL,,,3.2,59703,400927,NEXTSTEEL_PartB-FINAL.docx,retrain\corpus\sections\NEXTSTEEL__3_2.txt

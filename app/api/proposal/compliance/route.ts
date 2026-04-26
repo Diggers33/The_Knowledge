@@ -54,11 +54,11 @@ function extractRequirements(
     })
   }
 
-  // ── Gender dimension ─────────────────────────────────────────────────────
+  // ── Gender dimension — mandatory for RIA/IA per EC template ─────────────
   reqs.push({
     id: 'gender',
-    text: 'Gender dimension addressed',
-    mandatory: false,
+    text: 'Gender dimension addressed (mandatory for RIA/IA)',
+    mandatory: !isCsa,
     checkPattern: 'gender|gender dimension|sex-disaggregated|gender-sensitive',
   })
 
@@ -79,6 +79,16 @@ function extractRequirements(
     mandatory: false,
     checkPattern: 'open access|open science|openaire|zenodo|data management plan|dmp',
   })
+
+  // ── Data Management Plan — mandatory deliverable for RIA/IA ──────────────
+  if (!isCsa) {
+    reqs.push({
+      id: 'dmp',
+      text: 'Data Management Plan (DMP) committed as deliverable by M6',
+      mandatory: true,
+      checkPattern: 'data management plan|dmp|d\\d+\\.\\d+.*data management|data management.*deliverable',
+    })
+  }
 
   // ── Required partnerships ────────────────────────────────────────────────
   const partnershipKeywords: Array<{ id: string; label: string; pattern: string }> = [

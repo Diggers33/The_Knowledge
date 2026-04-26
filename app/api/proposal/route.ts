@@ -1401,6 +1401,14 @@ Rules:
   const risks: any[] = structured.risks        || []
   const duration: number = structured.duration ?? 48
 
+  // Ensure Project Management WP is always the last work package
+  const mgmtIdx = wps.findIndex((wp: any) => /project\s*management/i.test(wp.title))
+  if (mgmtIdx !== -1 && mgmtIdx !== wps.length - 1) {
+    const [mgmtWp] = wps.splice(mgmtIdx, 1)
+    wps.push(mgmtWp)
+    wps.forEach((wp: any, i: number) => { wp.number = i + 1 })
+  }
+
   // ── Pass 2: prose descriptions per WP, in parallel ──────────────────────────
   const styleHint = wpStyleExamples
     ? `\n\nHorizon Europe IRIS task description examples (match this level of technical detail):\n${wpStyleExamples.slice(0, 1200)}`
@@ -1711,7 +1719,24 @@ IMPORTANT CONSTRAINTS:
 - Do not open with a sentence about the EU programme or Horizon Europe
 - Total length must be 1,800–2,200 words`,
       innovation: `Focus on what is genuinely novel — not incremental improvement but breakthrough potential. Compare explicitly to existing approaches and state what they cannot do. Ground in IRIS's demonstrated capabilities from the KB context.`,
-      consortium: `CRITICAL: Use ONLY the partners listed in the PROJECT IDENTITY block above. Do not invent, substitute, or omit any partner. Write one paragraph per partner (4-6 sentences each). For each partner: full name, country, type, specific expertise relevant to this call, their specific role and tasks in this project, and why they are uniquely qualified. Do not use bullet points — flowing prose per partner. Close with a paragraph on consortium complementarity, geographic balance, and sector coverage.`,
+      consortium: `Write Section 3.3 Consortium using the following structure:
+
+### Partner descriptions
+CRITICAL: Use ONLY the partners listed in the PROJECT IDENTITY block above. Do not invent, substitute, or omit any partner. Write one paragraph per partner (4–6 sentences each). For each partner: full legal name, country, organisation type (university / RTD / industry / SME / public body), specific expertise relevant to this call, their specific role and tasks in this project, and why they are uniquely qualified. Write in first person plural for IRIS tasks; use third person for all other partners. Do not use bullet points — flowing prose per partner only.
+
+### Consortium complementarity
+One paragraph (80–120 words): explain how the partners collectively cover the full value chain from research to demonstration to market. Reference geographic balance (countries represented) and sector coverage (academia, industry, SME, public body). Identify any deliberate gap left open and why it is acceptable.
+
+### Social sciences and humanities (SSH)
+One paragraph: explain whether and how SSH expertise contributes to the project (e.g. user behaviour, adoption barriers, policy design, social impact assessment). If no SSH partner is present, state what SSH-relevant questions the natural-science partners address and how.
+
+### Open science and gender aspects of R&I
+One paragraph: describe how the consortium will implement open science practices (open access, FAIR data, software sharing). Then address the gender dimension at the consortium level — describe the gender balance of the team where known, any gender equality plan (GEP) required under HE rules, and how gender is considered in the research design and outcomes of the work.
+
+RULES:
+- Do NOT invent partners or roles not in the brief
+- Do NOT use bullet points in the partner descriptions
+- Gender and open science paragraphs are MANDATORY — never omit them`,
       business_case: `Structure as: market context → IRIS's commercial pathway → partner exploitation routes → investment and revenue model → timeline to market. Reference specific sectors: ${(brief?.pilots || []).join(', ')}. Be specific about who will buy what — avoid generic statements.`,
       workplan: `Write a complete Horizon Europe Part B Section 3.1 Work Plan. Structure EXACTLY as follows, using these ### headings:
 
@@ -1791,32 +1816,40 @@ RULES:
 - Do NOT repeat content already in Section 2.2 (dissemination/exploitation)
 - Total length: 300-500 words`,
 
-      // 1.3 Methodology — research phases + Gantt description + risk table + TRL
-      methodology: `Write Section 1.3 Methodology structured as follows. Each sub-section must be substantive — do not write placeholder or skeleton text.
+      // 1.3 Methodology — narrative research approach (no task/WP detail — that belongs in §3.1)
+      methodology: `Write Section 1.3 Methodology as a NARRATIVE. This section describes HOW the project will conduct its research — the approach, concepts, and methods. Do NOT describe individual tasks or work packages (those belong in §3.1 Implementation). Each sub-section must be substantive prose, not placeholder text.
 
-### Research design
-2–3 paragraphs (200–250 words): explain the overall research approach — what type of research this is (applied/experimental/pilot), the epistemological basis for the approach (why this methodology and not an alternative), how the work is organised into phases that map to WPs, and how the approach ensures reproducibility and validation. Name specific standards or protocols used.
+### Research approach and design
+2–3 paragraphs: explain the overall research methodology — what type of research this is (applied/experimental/demonstration), the conceptual and theoretical basis for the approach (why this methodology rather than alternatives), how the approach is organised into logical phases, and how reproducibility and validation are ensured. Reference specific standards, protocols, or frameworks used. Explain how the approach responds directly to the call expected outcomes.
 
-### Technical approach
-For each research phase (Phase 1: Foundation, Phase 2: Development, Phase 3: Validation/Pilots), write a dedicated sub-section of 150–200 words covering:
-- **Phase N: [Name]** (TRL ${brief?.trlStart ?? '?'} → TRL X, months M1–MY)
-- Specific technical activities and methods (name instruments, algorithms, datasets)
-- Lead partner and contributing partners (IRIS leads phases involving NIR/spectroscopy)
-- Key technical challenge, root cause, and concrete mitigation
+### Technical methodology
+2–3 paragraphs describing the technical methods being applied. For each major research phase (Foundation, Development, Validation), describe: the specific methods and tools (name instruments, algorithms, analytical techniques), how results will be validated, and the TRL progression from TRL ${brief?.trlStart ?? '?'} to TRL ${brief?.trlEnd ?? '?'}. Reference specific IRIS technologies: ${(brief?.irisTechnologies || ['NIR spectroscopy', 'AI/ML']).join(', ')}.
 
-Reference specific IRIS technologies: ${(brief?.irisTechnologies || ['NIR spectroscopy', 'AI/ML']).join(', ')}.
-For pilot demonstrations: ${(brief?.pilots || ['pilot site TBD']).join(', ')}.
+### Interdisciplinary approach
+1–2 paragraphs: explain how expertise and methods from different disciplines are integrated (e.g., photonics + machine learning + domain science). Where applicable, explain how social sciences and humanities (SSH) perspectives inform the methodology. Describe how methods from different disciplines are brought together to address the research objectives.
+
+### Gender dimension
+1 paragraph: explicitly address how sex and/or gender analysis is integrated into the research content (not just team composition). Explain what sex/gender variables are relevant to the technology or application domain (e.g., user behaviour, health outcomes, occupational exposure). If the gender dimension is not applicable, provide a clear scientific justification.
+
+### Open science practices
+1 paragraph: describe the open science approach — open access publications (target ≥60% open access via Zenodo/OpenAIRE), FAIR data principles (Findable, Accessible, Interoperable, Reusable), data management plan (DMP) as mandatory deliverable by M6, software/code sharing strategy, and any pre-registration plans. Show how open science is integral to the methodology, not an afterthought.
+
+### National and international research context
+1 paragraph: describe any national or international research and innovation activities that this project builds on, complements, or explicitly goes beyond. Reference relevant EU programmes, Partnerships (e.g., Processes4Planet, AI Data & Robotics), and national funding schemes where applicable.
 
 ### Risk assessment
-A markdown table with at least 6 technical risks: | Risk | Phase | Likelihood | Severity | Mitigation measure |
-After the table, add 1 paragraph discussing how risks are monitored (e.g., internal review gates, Go/NoGo criteria).
+A markdown table with at least 6 technical risks: | Risk | Likelihood | Severity | Mitigation measure | Contingency |
+After the table, 1 paragraph on how risks are monitored (internal review gates, Go/NoGo criteria at project milestones).
 
 ### Timeline (Gantt description)
-A markdown table showing work packages against months: | WP | Lead | M1-M6 | M7-M12 | M13-M18 | M19-M24 | M25-M30 | M31-M36 | etc. Use ●●● for active periods. If duration is 48 months, extend columns accordingly.
-After the table, 1 paragraph describing the critical path and key milestones.
+A markdown table showing work packages against months: | WP | Lead | M1–M6 | M7–M12 | M13–M18 | M19–M24 | M25–M30 | M31–M36 | etc. Use ●●● for active periods.
+After the table, 1 paragraph on the critical path and key decision points.
 
-### TRL progression
-2 paragraphs: (a) explicitly state starting TRL ${brief?.trlStart ?? '?'} and end-of-project TRL target ${brief?.trlEnd ?? '?'}, describing what TRL means in this domain context; (b) describe what must be demonstrated at each pilot site to reach that TRL, referencing the Technology Readiness Level definitions and linking each pilot activity to a TRL gate.`,
+IMPORTANT CONSTRAINTS:
+- Do NOT describe individual tasks or sub-tasks — those belong in §3.1
+- Do NOT list deliverables or milestones — those belong in §3.1
+- This section IS the scientific/technical narrative: explain the WHAT and WHY of the approach
+- Gender dimension is MANDATORY — never omit it, never say it is not relevant without justification`,
 
       // 2.1 Expected outcomes — KPI mapping table per call outcome
       outcomes: `Do NOT open with a project summary or preamble paragraph. Start immediately with the first outcome: "A primary outcome of the project is...". Do NOT close with a TRL summary paragraph — that belongs in Section 1.1.

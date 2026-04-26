@@ -150,7 +150,7 @@ function checkCompliance(
       const orgNames = brief.partners.map(p => p.name.toLowerCase())
       found = !orgNames.some(name => name.length > 3 && excellenceText.includes(name))
     } else if (req.checkPattern.startsWith('_SECTION_')) {
-      const sectionId = req.checkPattern.replace('_SECTION_', '').replace('_', '')
+      const sectionId = req.checkPattern.replace('_SECTION_', '').replace(/_$/, '')
       found = !!(sections[sectionId]?.trim())
     } else {
       found = req.checkPattern

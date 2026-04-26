@@ -402,6 +402,11 @@ export default function ProposalPage() {
   }
 
   function selectConcept(concept: Concept) {
+    // If this concept is already the active brief, just open the edit form
+    if (brief?.acronym === concept.acronym) {
+      setEditingBrief(true)
+      return
+    }
     const tpl = template || detectTemplate(callResolved?.description || callText)
     setBrief({
       callId:                  callResolved?.callId || 'CUSTOM',
@@ -591,9 +596,24 @@ export default function ProposalPage() {
 
       // After stream ends, separate main draft from KB sources block
       const [mainDraft, kbBlock] = text.split('<<<KB_SOURCES>>>')
-      setSections(prev => ({ ...prev, [sectionId]: mainDraft.trim() }))
-      if (kbBlock?.trim()) {
-        setKbSources(prev => ({ ...prev, [sectionId]: kbBlock.trim() }))
+      const cleanDraft = mainDraft.trim()
+
+      // Never persist contamination notices or retry markers to draft state
+      const CONTAMINATION_NOTICE_MARKERS = [
+        '[Section truncated:',
+        '[Generation contaminated',
+        '[RETRY_NEEDED:',
+        'Please regenerate this section',
+      ]
+      const isDirtyNotice = CONTAMINATION_NOTICE_MARKERS.some(m => cleanDraft.includes(m)) &&
+        cleanDraft.split(/\s+/).length < 50
+      if (!isDirtyNotice) {
+        setSections(prev => ({ ...prev, [sectionId]: cleanDraft }))
+        if (kbBlock?.trim()) {
+          setKbSources(prev => ({ ...prev, [sectionId]: kbBlock.trim() }))
+        }
+      } else {
+        setWriteError('Generation was contaminated — please try again.')
       }
     } catch (e: any) {
       setWriteError(e.message || 'Generation failed')
@@ -1324,7 +1344,7 @@ export default function ProposalPage() {
                       {brief?.acronym} · {partners.length} partners confirmed
                     </p>
                   </div>
-                  <button onClick={() => setPhase('concept')} style={{ ...btn('ghost'), marginLeft: 'auto', fontSize: '12px' }}>
+                  <button onClick={() => { setPhase('concept'); setEditingBrief(true) }} style={{ ...btn('ghost'), marginLeft: 'auto', fontSize: '12px' }}>
                     <ChevronLeft size={12} /> Back
                   </button>
                 </div>

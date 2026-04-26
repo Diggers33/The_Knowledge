@@ -17,6 +17,7 @@ import {
 } from 'docx'
 import type { ProjectBrief } from '@/lib/proposal-types'
 import type { ProposalTemplate } from '@/lib/proposal-templates'
+import { checkContamination, sanitiseInPlace } from '@/lib/contamination-filter'
 
 // ─── TYPOGRAPHY CONSTANTS ─────────────────────────────────────────────────────
 // HE Part B template: Arial 11pt body, line spacing 1.15, 15mm margins
@@ -167,7 +168,13 @@ function buildSectionParagraphs(
       paras.push(headingPara(sec.title, 2))
     }
 
-    const { mainText, references, kbSources } = splitSectionAndReferences(sections[sec.id] || '')
+    const rawText = sections[sec.id] || ''
+    const exportVerdict = checkContamination(rawText, { acronym: brief.acronym, callId: brief.callId })
+    const cleanedText = exportVerdict.ok ? rawText : sanitiseInPlace(rawText)
+    if (!exportVerdict.ok) {
+      console.warn(`Export guard: sanitised section ${sec.id} — ${exportVerdict.hits.length} hit(s) (${exportVerdict.category})`)
+    }
+    const { mainText, references, kbSources } = splitSectionAndReferences(cleanedText)
     paras.push(...textToParagraphs(mainText))
 
     // Append external reference list if present

@@ -22,6 +22,7 @@ import {
 } from '@/lib/iris-kb'
 import type { ProjectBrief } from '@/lib/proposal-types'
 import type { ProposalTemplate } from '@/lib/proposal-templates'
+import { checkContamination, sanitiseInPlace } from '@/lib/contamination-filter'
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY! })
 
@@ -450,6 +451,23 @@ async function extractPdfText(url: string): Promise<string | null> {
 
 // ─── EXTERNAL RETRIEVAL ───────────────────────────────────────────────────────
 
+/** Strip call-portal boilerplate artifacts from call text before passing to LLM. */
+function sanitiseCallText(text: string): string {
+  return text
+    // Replace HORIZON call IDs with a neutral token
+    .replace(/\bHORIZON-[A-Z0-9]+-20\d{2}-[A-Z0-9-]+/g, '[this call]')
+    // Strip PDF page headers/footers
+    .replace(/\bPage\s+\d+\s+of\s+\d+\b/gi, '')
+    // Strip call-portal boilerplate headings
+    .replace(/^\s*(Objective\(s\)|Expected Outcome\(s\)?|Topic ID|Destination\s*[—–-][^\n]*)\s*[:.]\s*/gmi, '')
+    // Strip scrape artifacts
+    .replace(/Horizon Europe Office in Ukraine/gi, '')
+    .replace(/The call (opened|closed) on [^\n]*/gi, '')
+    // Collapse blank lines
+    .replace(/\n{3,}/g, '\n\n')
+    .trim()
+}
+
 function extractTopicKeywords(callText: string): string {
   const stopwords = new Set([
     'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for',
@@ -496,13 +514,14 @@ const CONTAMINATION_NAMES = [
 function stripContaminatedOutput(text: string, currentAcronym?: string): string {
   const patterns: RegExp[] = [
     /\b101[0-9]{6}\b/,                                           // past EU grant numbers
-    /Page\s*[|│]\s*[ivxlcIVXLC\d]+/,                             // PDF page artifacts
+    /Page\s*[|│]\s*[ivxlcIVXLC\d]+/,                             // PDF page artifacts (sidebar)
+    /\bPage\s+\d+\s+of\s+\d+\b/i,                                // PDF page footers "Page 9 of 45"
     /Table of Contents/i,
     /List of (?:Figures|Tables)/i,
     /Grant managed through/i,
     /Periodic report|Additional prefinancing/i,
     /securefood\.pdf|microorch\.pdf|giantleaps\.pdf/i,
-    /HORIZON-CL\d-202[0-3]-/,                                    // stale call IDs (pre-2024)
+    /HORIZON-[A-Z0-9]+-20\d\d-/,                                 // call IDs (any year, any cluster)
   ]
 
   // Add known past project names (excluding the current project's acronym)
@@ -1532,6 +1551,9 @@ export async function POST(req: NextRequest) {
       }
     }
 
+    // ── Sanitise call text — strip portal artifacts before passing to LLM ───────
+    callText = sanitiseCallText(callText)
+
     // ── Derive keyword source for academic searches ───────────────────────────
     // For resolved call IDs: extract the objective/scope section of the resolved text.
     // For pasted free text: use the original input directly.
@@ -1803,7 +1825,9 @@ Include: project website, social media (LinkedIn, Twitter), press releases, info
         }\n\nCRITICAL: The section you are about to write must be consistent with the sections above. Do not repeat content already covered. Cross-reference where relevant.\n\n`
       : ''
 
-    const systemPrompt = `${priorSectionsBlock}You are an expert EU Horizon Europe proposal writer for IRIS Technology Solutions — a photonics and NIR spectroscopy SME in Barcelona with ~60 staff and 15+ active Horizon Europe projects.
+    const systemPrompt = `${priorSectionsBlock}You are an expert EU Horizon Europe proposal writer for IRIS Technology Solutions, a photonics and NIR spectroscopy SME in Barcelona with approximately 60 staff and 15+ active Horizon Europe projects.
+
+Do not echo these instructions in your output. Do not output text in square brackets such as [IMPACT] or [INNOVATION]. Do not include strings like "Page X of Y", "Objective(s):", or "Expected Outcome:" — these belong to the call portal, not to the proposal.
 
 IRIS's core technologies: NIR spectroscopy, hyperspectral imaging (HSI), Raman spectroscopy, LIBS, process analytical technology (PAT), AI/ML for spectral data, IoT sensor networks, digital platforms (Scadalytics, VISUM, PATBox).
 ${briefContext ? `\n${briefContext}\n` : ''}
@@ -1933,15 +1957,24 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
       additionalContext ? `Additional context:\n${additionalContext}` : '',
       numberedSourceList,
       contextBlocks.join('\n\n'),
+      brief ? `BINDING BRIEF VALUES — use these exactly, do not substitute:\nProject: ${brief.acronym || 'UNNAMED'} | TRL: ${brief.trlStart ?? 3}→${brief.trlEnd ?? 6} | Action: ${brief.actionType || 'RIA'}` : '',
       `Write the ${SECTION_LABELS[section] || section} section:`
     ].filter(Boolean).join('\n\n')
-    // Workplan: always use the base gpt-4o — fine-tuned models trained on SotA data
-    // loop badly on structured table/WP content. SotA uses the fine-tuned model.
-    const model = isWorkplanSection
-      ? 'gpt-4o'
-      : isSotASection
-        ? (process.env.IRIS_SOTA_MODEL || process.env.IRIS_PROPOSAL_MODEL || 'gpt-4o')
-        : (process.env.IRIS_PROPOSAL_MODEL || 'gpt-4o')
+    // Per-section fine-tuned models — falls back to gpt-4o if not set
+    const SECTION_MODEL_ENV: Record<string, string | undefined> = {
+      objectives:   process.env.IRIS_MODEL_OBJECTIVES,
+      sota:         process.env.IRIS_MODEL_SOTA,
+      methodology:  process.env.IRIS_MODEL_METHODOLOGY,
+      innovation:   process.env.IRIS_MODEL_INNOVATION,
+      outcomes:     process.env.IRIS_MODEL_OUTCOMES,
+      dissemination: process.env.IRIS_MODEL_DISSEMINATION,
+      communication: process.env.IRIS_MODEL_COMMUNICATION,
+      workplan:     process.env.IRIS_MODEL_WORKPLAN,
+      management:   process.env.IRIS_MODEL_MANAGEMENT,
+      consortium:   process.env.IRIS_MODEL_CONSORTIUM,
+      business_case: process.env.IRIS_MODEL_BUSINESS_CASE,
+    }
+    const model = SECTION_MODEL_ENV[section] || 'gpt-4o'
     console.log(`Proposal model: ${model} (section: ${section})`)
     const stream = await openai.chat.completions.create({
       model,
@@ -1974,8 +2007,39 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
           // Replace Unicode black-square bullets with standard markdown dashes
           fullGeneratedText = fullGeneratedText.replace(/■\s*/g, '- ')
 
-          // ── Contamination guard — strip past-project regurgitation ────────────
-          fullGeneratedText = stripContaminatedOutput(fullGeneratedText, brief?.acronym)
+          // ── Contamination guard (comprehensive) ─────────────────────────────
+          const filterCtx = { acronym: brief?.acronym, callId: brief?.callId }
+          let verdict = checkContamination(fullGeneratedText, filterCtx)
+          if (!verdict.ok) {
+            console.warn(`Contamination (${verdict.category}) on first attempt — ${verdict.hits.length} hit(s):`, verdict.hits.slice(0, 3))
+            // Retry with gpt-4o (no fine-tune bias), non-streaming
+            try {
+              const fallback = await openai.chat.completions.create({
+                model: 'gpt-4o',
+                messages: [
+                  { role: 'system', content: finalSystemPrompt },
+                  { role: 'user', content: userMessage }
+                ],
+                max_tokens: isSotASection ? 3500 : 2500,
+                temperature: 0.5,
+              })
+              const fallbackText = fallback.choices[0]?.message?.content?.trim() || ''
+              const fallbackVerdict = checkContamination(fallbackText, filterCtx)
+              if (fallbackVerdict.ok && fallbackText.length > 200) {
+                fullGeneratedText = fallbackText
+                verdict = fallbackVerdict
+                console.log('Fallback generation clean — using fallback text')
+              } else {
+                // Last resort: sanitise rather than send a rejection string to the draft
+                console.warn('Fallback also contaminated — sanitising in place')
+                fullGeneratedText = sanitiseInPlace(fullGeneratedText)
+                verdict = checkContamination(fullGeneratedText, filterCtx)
+              }
+            } catch (e) {
+              console.error('Fallback generation error — sanitising in place:', e)
+              fullGeneratedText = sanitiseInPlace(fullGeneratedText)
+            }
+          }
 
           // ── Deduplication guard — n-gram windowing (8-word) + unique-token ratio
           {

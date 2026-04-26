@@ -263,6 +263,18 @@ const STATIC_PARTNERS: Record<string, StaticPartner[]> = {
     { name: 'Quantis',                     acronym: 'QUANTIS',         country: 'FR', type: 'sme',                speciality: 'LCA and environmental impact assessment',            fitReason: 'Specialised sustainability consultancy, HE active',                                                keywords: ['sustainability', 'lca', 'environment', 'impact', 'carbon', 'emission'] },
     { name: 'Fraunhofer IBP',              acronym: 'Fraunhofer-IBP',  country: 'DE', type: 'research_institute', speciality: 'Environmental and sustainability assessment',         fitReason: 'Fraunhofer sustainability institute, LCA and circular economy expertise',                           keywords: ['sustainability', 'environment', 'circular', 'energy', 'emission', 'lca'] },
   ],
+  'Digital Innovation Hub / Training Provider': [
+    { name: 'EIT Manufacturing',      acronym: 'EITM',       country: 'DE', type: 'dih',         speciality: 'Manufacturing innovation and training',            fitReason: 'Pan-European DIH network, training and knowledge transfer for manufacturing SMEs',              keywords: ['manufacturing', 'training', 'digital', 'industry', 'sme', 'innovation'] },
+    { name: 'FIWARE Foundation',      acronym: 'FIWARE',     country: 'DE', type: 'association',  speciality: 'Open digital platform ecosystem',                  fitReason: 'Large European open-source ecosystem, digitisation of industry dissemination reach',             keywords: ['digital', 'platform', 'data', 'iot', 'open', 'ecosystem'] },
+    { name: 'DIH2',                   acronym: 'DIH2',       country: 'BE', type: 'dih',         speciality: 'Digital Innovation Hub network for manufacturing', fitReason: 'EU DIH network with direct SME outreach channel',                                                keywords: ['digital', 'innovation', 'manufacturing', 'sme', 'training'] },
+    { name: 'ETSI',                   acronym: 'ETSI',       country: 'FR', type: 'association',  speciality: 'European standardisation body',                    fitReason: 'Standardisation authority — critical for CSA standardisation workpackages',                       keywords: ['standard', 'interoperability', 'iot', 'digital', 'certification'] },
+  ],
+  'Industry Association / Cluster': [
+    { name: 'PHOTONICS21',            acronym: 'P21',        country: 'BE', type: 'association',  speciality: 'European photonics industry association',          fitReason: 'IRIS sector association — direct link to photonics/biophotonics industrial stakeholders',         keywords: ['photonics', 'optics', 'laser', 'nir', 'spectroscopy', 'sensing'] },
+    { name: 'EuroPharma',             acronym: 'EPHARM',     country: 'BE', type: 'association',  speciality: 'Pharmaceutical manufacturing industry association', fitReason: 'Pharma end-user sector body for dissemination of PAT / spectroscopy adoption',                    keywords: ['pharma', 'pharmaceutical', 'manufacturing', 'pat', 'quality', 'process'] },
+    { name: 'FoodDrinkEurope',        acronym: 'FDE',        country: 'BE', type: 'association',  speciality: 'Food and beverage industry association',           fitReason: 'European food industry body for food quality and safety technology dissemination',               keywords: ['food', 'beverage', 'quality', 'safety', 'manufacturing', 'process'] },
+    { name: 'CEMBUREAU',              acronym: 'CEMBUREAU',  country: 'BE', type: 'association',  speciality: 'European cement industry association',             fitReason: 'Cement process industry body — relevant for decarbonisation and AI process control',             keywords: ['cement', 'material', 'process', 'sustainability', 'emission', 'manufacturing'] },
+  ],
   'Dissemination / Standardisation': [
     { name: 'SPIRE',                       acronym: 'SPIRE',           country: 'BE', type: 'association',         speciality: 'Process industries association — Processes4Planet', fitReason: 'Direct link to Processes4Planet partnership, process industry dissemination network',               keywords: ['process', 'industry', 'chemical', 'sustainability', 'manufacturing'] },
     { name: 'EFFRA',                       acronym: 'EFFRA',           country: 'BE', type: 'association',         speciality: 'Manufacturing research association',                 fitReason: 'Factories of the Future association, manufacturing sector dissemination',                           keywords: ['manufacturing', 'factory', 'industry', 'digital', 'robot', 'automation'] },
@@ -324,7 +336,14 @@ export async function POST(req: NextRequest) {
       (brief.irisTechnologies || []).join(' '),
     ].join(' ').slice(0, 200)
 
-    const roles: string[] = rolesNeeded?.length ? rolesNeeded : [
+    const isCsa = (brief.actionType || '').toUpperCase() === 'CSA'
+    const roles: string[] = rolesNeeded?.length ? rolesNeeded : isCsa ? [
+      'AI/ML Research Institute',
+      'Digital Innovation Hub / Training Provider',
+      'Industry Association / Cluster',
+      'Sustainability / LCA',
+      'Dissemination / Standardisation',
+    ] : [
       'AI/ML Research Institute',
       'Process Industry End User',
       'Industrial Automation / OT-IT Integration',
@@ -382,11 +401,14 @@ export async function POST(req: NextRequest) {
     // Profile warnings
     const confirmedTypes = (brief.partners || []).map((p: any) => p.type)
     const profileWarnings: string[] = []
-    if (!confirmedTypes.includes('end_user')) {
-      profileWarnings.push('No end user in consortium — essential for RIA with TRL 6 demonstration requirement')
+    if (!isCsa && !confirmedTypes.includes('end_user')) {
+      profileWarnings.push(`No end user in consortium — essential for RIA with TRL ${brief.trlEnd ?? 6} demonstration requirement`)
+    }
+    if (isCsa && !confirmedTypes.some((t: string) => ['association', 'cluster', 'dih'].includes(t))) {
+      profileWarnings.push('CSA calls benefit from industry associations, DIHs, or VET providers to maximise dissemination reach')
     }
     if ((brief.partners || []).length < 4) {
-      profileWarnings.push('Fewer than 4 partners — typical competitive RIA has 6-10 partners')
+      profileWarnings.push(`Fewer than 4 partners — typical competitive ${isCsa ? 'CSA' : 'RIA'} has ${isCsa ? '4-8' : '6-10'} partners`)
     }
     if (!confirmedTypes.includes('research_institute') && !confirmedTypes.includes('university')) {
       profileWarnings.push('No research organisation — needed for scientific credibility and peer-reviewed outputs')

@@ -99,6 +99,70 @@ DEGENERACY GUARD: If at any point you detect yourself entering a word or phrase 
 UNIQUENESS REQUIREMENT: No sentence or 6+ word phrase may appear more than once in your output. Before writing each sentence, verify it does not restate something already written.
 `.trim()
 
+// ─── MULTI-PASS SECTION SCAFFOLDS ────────────────────────────────────────────
+// Canonical subsection structure for long sections. Each entry defines the
+// anchor ID, display title (used as ### heading), and per-subsection word target.
+// Titles for methodology are aligned to METHOD_SUBHEADS in the export route
+// so the scaffold-injection fallback never fires.
+
+interface SubsectionDef { anchor: string; title: string; targetWords: number }
+
+const SECTION_SCAFFOLDS: Record<string, SubsectionDef[]> = {
+  methodology: [
+    { anchor: 'overall_methodology', title: 'Overall methodology and concepts',                                targetWords: 1100 },
+    { anchor: 'rdm',                 title: 'Research data management and FAIR principles',                    targetWords:  500 },
+    { anchor: 'open_science',        title: 'Open science practices',                                          targetWords:  500 },
+    { anchor: 'gender',              title: 'Gender dimension in research and innovation content',             targetWords:  450 },
+    { anchor: 'ai_use',              title: 'Use of artificial intelligence in the methodology',               targetWords:  400 },
+    { anchor: 'dnsh',                title: 'Compliance with the do-no-significant-harm principle',           targetWords:  400 },
+    { anchor: 'ethics',              title: 'Research ethics and security aspects',                            targetWords:  350 },
+    { anchor: 'ssh',                 title: 'Social sciences and humanities integration',                      targetWords:  300 },
+  ], // total 4 000
+
+  objectives: [
+    { anchor: 'overall_aim',         title: 'Overall aim and ambition',                    targetWords:  300 },
+    { anchor: 'specific_objectives', title: 'Specific, measurable objectives',             targetWords:  500 },
+    { anchor: 'beyond_sota',         title: 'Beyond the state of the art',                 targetWords:  400 },
+    { anchor: 'trl_progression',     title: 'TRL progression and ambition',                targetWords:  200 },
+    { anchor: 'call_alignment',      title: 'Alignment with call expected outcomes',       targetWords:  200 },
+  ], // total 1 600
+
+  pathways: [
+    { anchor: 'expected_outcomes',   title: 'Expected outcomes',                           targetWords:  500 },
+    { anchor: 'scientific_impact',   title: 'Scientific impacts',                          targetWords:  400 },
+    { anchor: 'economic_impact',     title: 'Economic and technological impacts',          targetWords:  500 },
+    { anchor: 'societal_impact',     title: 'Societal impacts',                            targetWords:  400 },
+    { anchor: 'theory_of_change',    title: 'Theory of change and KPIs',                   targetWords:  400 },
+    { anchor: 'scale_significance',  title: 'Scale and significance',                      targetWords:  200 },
+  ], // total 2 400
+
+  measures: [
+    { anchor: 'dissemination',       title: 'Dissemination plan and target audiences',     targetWords:  500 },
+    { anchor: 'exploitation',        title: 'Exploitation strategy and key exploitable results', targetWords: 600 },
+    { anchor: 'communication',       title: 'Communication activities',                    targetWords:  400 },
+    { anchor: 'ipr',                 title: 'IPR strategy and freedom to operate',         targetWords:  300 },
+    { anchor: 'business_case',       title: 'Business case and market uptake',             targetWords:  200 },
+  ], // total 2 000
+
+  capacity: [
+    { anchor: 'consortium_overview', title: 'Consortium composition and complementarity',  targetWords:  500 },
+    { anchor: 'partner_profiles',    title: 'Partner profiles and roles',                   targetWords:  900 },
+    { anchor: 'gender_balance',      title: 'Gender balance and SSH expertise',             targetWords:  300 },
+    { anchor: 'open_science_capacity', title: 'Open science track record',                  targetWords:  300 },
+  ], // total 2 000
+}
+
+// Quality guardrails appended to every per-subsection prompt.
+const QUALITY_RULES = `
+QUALITY RULES (mandatory — this subsection only):
+1. Every paragraph must contain at least one project-specific noun phrase: a technology name, partner acronym, deliverable code, TRL value, regulation reference, or quantified metric.
+2. Do NOT write meta-commentary ("this subsection will cover…", "as described above…").
+3. Do NOT write closing or transition paragraphs ("In summary…", "Looking ahead…").
+4. Do NOT restate content that belongs in a sibling subsection.
+5. Forbidden filler: "plays a crucial role", "in today's world", "paradigm shift", "cutting-edge", "leverage synergies", "holistic approach", "unprecedented", "state-of-the-art" (use "beyond the current state of knowledge" instead).
+6. If you cannot reach the target word count with substantive new content, STOP — do not pad.
+`.trim()
+
 // ─── SECTION CONFIGURATION ────────────────────────────────────────────────────
 
 const SECTION_MODE = {
@@ -1340,6 +1404,97 @@ function convertLatexToMarkdown(text: string): string {
     .replace(/\\hline/g, '')
 }
 
+// ─── SECTION MULTI-PASS GENERATOR ────────────────────────────────────────────
+// Mirrors the workplan multi-pass pattern for methodology, objectives, pathways,
+// measures, and capacity. Runs one GPT call per subsection in parallel, then
+// applies a per-subsection fill-to-target retry if output < 70% of sub-target.
+
+async function generateSectionMultiPass(
+  sectionId: string,
+  sectionLabel: string,
+  scaffold: SubsectionDef[],
+  systemPrompt: string,
+  userContext: string,
+  model: string,
+  openaiClient: { chat: { completions: { create: (...args: any[]) => Promise<any> } } }
+): Promise<string> {
+  const siblingTitles = scaffold.map(s => s.title)
+
+  // Pass 2: per-subsection prose in parallel (no Pass 1 outline — scaffold is static)
+  const rawProse: string[] = await Promise.all(
+    scaffold.map(async (sub, idx) => {
+      const siblings = siblingTitles.filter((_, i) => i !== idx).map(t => `"${t}"`).join(', ')
+      const subInstruction = [
+        `Write ONLY the "${sub.title}" subsection of Section ${sectionLabel} for this Horizon Europe proposal.`,
+        `Target: ${sub.targetWords} words of substantive prose.`,
+        `Do NOT write a heading — the assembler adds headings.`,
+        `Do NOT introduce content that belongs in sibling subsections: ${siblings}.`,
+        QUALITY_RULES,
+        `Write "${sub.title}":`,
+      ].join('\n\n')
+
+      const resp = await (openaiClient as any).chat.completions.create({
+        model,
+        messages: [
+          { role: 'system', content: systemPrompt },
+          { role: 'user',   content: `${userContext}\n\n---\n${subInstruction}` },
+        ],
+        max_tokens: Math.min(8000, Math.round(sub.targetWords * 1.7)),
+        temperature: 0.4,
+        frequency_penalty: 0.6,
+        presence_penalty: 0.5,
+      })
+      const text = resp.choices[0]?.message?.content?.trim() || ''
+      const words = text.split(/\s+/).filter(Boolean).length
+      console.log(`[multi-pass] ${sectionId}.${sub.anchor} words=${words} target=${sub.targetWords}`)
+      return text
+    })
+  )
+
+  // Per-subsection fill-to-target retry (threshold 0.70, max 1 retry each)
+  const filledProse: string[] = await Promise.all(
+    scaffold.map(async (sub, idx) => {
+      let prose = rawProse[idx]
+      const words = prose.split(/\s+/).filter(Boolean).length
+      if (words >= sub.targetWords * 0.70) return prose
+      const shortfall = sub.targetWords - words
+      console.log(`[multi-pass] retry ${sectionId}.${sub.anchor} words=${words} shortfall=${shortfall}`)
+      try {
+        const cont = await (openaiClient as any).chat.completions.create({
+          model,
+          messages: [
+            { role: 'system', content: systemPrompt },
+            { role: 'user',   content: `${userContext}\n\n---\nWrite "${sub.title}" subsection of ${sectionLabel}.` },
+            { role: 'assistant', content: prose },
+            { role: 'user',   content: `This subsection is ${words} words; target is ${sub.targetWords}. Add ~${shortfall} more words on a NEW angle within "${sub.title}" not yet covered above. Do NOT repeat anything already written. Do NOT add a closing paragraph. Do NOT introduce content from sibling subsections.` },
+          ],
+          max_tokens: Math.min(6000, Math.round(shortfall * 1.7)),
+          temperature: 0.45,
+          frequency_penalty: 0.7,
+          presence_penalty: 0.5,
+        })
+        const extra = cont.choices[0]?.message?.content?.trim() || ''
+        if (extra.split(/\s+/).filter(Boolean).length >= 40) {
+          prose = prose.trimEnd() + '\n\n' + extra
+          console.log(`[multi-pass] retry ${sectionId}.${sub.anchor} added ${extra.split(/\s+/).filter(Boolean).length} words`)
+        }
+      } catch (e) {
+        console.warn(`[multi-pass] retry failed for ${sectionId}.${sub.anchor}:`, e)
+      }
+      return prose
+    })
+  )
+
+  // Assembly: ### heading + prose per subsection
+  const assembled = scaffold
+    .map((sub, i) => `### ${sub.title}\n\n${filledProse[i]}`)
+    .join('\n\n')
+
+  const totalWords = assembled.split(/\s+/).filter(Boolean).length
+  console.log(`[multi-pass] ${sectionId} assembled totalWords=${totalWords}`)
+  return assembled
+}
+
 // ─── WORKPLAN MULTI-PASS GENERATOR ───────────────────────────────────────────
 // Generates Section 3.1 in two passes to prevent degenerate token loops:
 //   Pass 1 — structured JSON: WP list, deliverables, milestones, risks tables
@@ -2124,11 +2279,55 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
     console.log(`Citation validation: ${sourcePapers.length} source papers parsed from external context`)
     console.log(`Source papers with DOIs: ${sourcePapers.filter(p => p.url).length}/${sourcePapers.length}`)
 
+    // ── Section multi-pass generation path (methodology / objectives / pathways / measures / capacity)
+    const isSotASection = normalizedSection === 'state_of_the_art' || normalizedSection === 'innovation' || normalizedSection === 'sota'
+    const multiPassScaffold = SECTION_SCAFFOLDS[normalizedSection as keyof typeof SECTION_SCAFFOLDS]
+    const sectionLabelForPrompt = SECTION_LABELS[normalizedSection] || SECTION_LABELS[section] || section
+
+    if (multiPassScaffold) {
+      const encoder = new TextEncoder()
+      const readable = new ReadableStream({
+        async start(controller) {
+          try {
+            let fullGeneratedText = await generateSectionMultiPass(
+              normalizedSection,
+              sectionLabelForPrompt,
+              multiPassScaffold,
+              finalSystemPrompt,
+              userMessage,
+              model,
+              openai as any
+            )
+
+            // Corpus-narrator + contamination guard
+            const filterCtx = { acronym: brief?.acronym, callId: brief?.callId, section: normalizedSection }
+            if (brief?.acronym) fullGeneratedText = replaceCorpusNarrators(fullGeneratedText, brief.acronym)
+            let verdict = checkContamination(fullGeneratedText, filterCtx)
+            if (!verdict.ok) {
+              console.warn(`[multi-pass] contamination (${verdict.category}) — sanitising in place`)
+              fullGeneratedText = sanitiseInPlace(fullGeneratedText)
+              if (brief?.acronym) fullGeneratedText = replaceCorpusNarrators(fullGeneratedText, brief.acronym)
+            }
+
+            controller.enqueue(encoder.encode(fullGeneratedText))
+            if (kbSourceBlock) {
+              controller.enqueue(encoder.encode(`\n\n<<<KB_SOURCES>>>\n${kbSourceBlock}`))
+            }
+          } catch (e: any) {
+            console.error('[multi-pass] section generation error:', e)
+            controller.enqueue(encoder.encode(`Generation error: ${e.message}. Please regenerate.`))
+          } finally {
+            controller.close()
+          }
+        }
+      })
+      return new NextResponse(readable, { headers: { 'Content-Type': 'text/plain; charset=utf-8' } })
+    }
+
     // ── Workplan: multi-pass generation path ─────────────────────────────────
     // Two-pass approach prevents the degenerate synonym loops seen with single-call
     // generation at 2800+ word targets. Pass 1 = structured JSON tables, Pass 2 =
     // per-WP prose (~450 words each, parallel), assembled into clean markdown.
-    const isSotASection = normalizedSection === 'state_of_the_art' || normalizedSection === 'innovation' || normalizedSection === 'sota'
     // isWorkplanSection is already declared above
 
     if (isWorkplanSection) {
@@ -2548,11 +2747,11 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
           }
 
           // ── P0: Length-retry loop — append continuation if section is under-filled ──
-          // Fires if generated words < 60% of target. Cap at 2 attempts.
+          // Fires if generated words < 75% of target. Cap at 3 attempts.
           // Continuation is appended as a new paragraph, not a replacement.
           {
-            const LENGTH_RETRY_THRESHOLD = 0.60
-            const MAX_LENGTH_RETRIES = 2
+            const LENGTH_RETRY_THRESHOLD = 0.75
+            const MAX_LENGTH_RETRIES = 3
             const SUBTOPIC_HINTS: Record<string, string> = {
               objectives:   'additional measurable project objectives, TRL progression justification, and mapping to remaining call expected outcomes',
               pathways:     'quantified scientific and societal impacts, additional KPIs with measurement methods, and pilot demonstration context',

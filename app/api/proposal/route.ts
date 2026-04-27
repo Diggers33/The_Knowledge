@@ -1339,7 +1339,7 @@ IRIS TECHNOLOGIES: ${technologies}
 TRL JOURNEY: TRL ${trlStart} → TRL ${trlEnd} by project end
 PILOTS: ${pilots}
 
-${additionalContext ? `WP OUTLINE PROVIDED BY CONSORTIUM:\n${additionalContext.slice(0, 2000)}\n\nUse this outline as the authoritative source. Do not deviate from any WP numbers, titles, or partner assignments given.` : 'No WP outline provided — generate a plausible 5-WP structure for a 48-month project.'}
+${additionalContext ? `WP OUTLINE PROVIDED BY CONSORTIUM:\n${additionalContext.slice(0, 2000)}\n\nUse this outline as the authoritative source. Do not deviate from any WP numbers, titles, or partner assignments given.` : 'No WP outline provided — generate a plausible WP structure (typically 5–8 WPs for a 36–48 month project, up to 10 for large consortia).'}
 
 Output ONLY valid JSON matching this exact schema (no preamble, no markdown fences):
 {
@@ -1378,7 +1378,7 @@ Output ONLY valid JSON matching this exact schema (no preamble, no markdown fenc
 }
 
 Rules:
-- Generate exactly 4–6 WPs; at least 2 tasks per WP; at least 1 deliverable per WP; at least 6 milestones total
+- Generate 4–10 WPs (match the consortium size and project scope); at least 2 tasks per WP; at least 1 deliverable per WP; at least 6 milestones total
 - Include exactly 5 risks: one each for technical, partner/consortium, data/IP, regulatory, and market risk
 - String values for unknown numbers must be "TBC" (not null, not 0)`
 
@@ -1388,7 +1388,7 @@ Rules:
       model: 'gpt-4o',
       response_format: { type: 'json_object' },
       messages: [{ role: 'user', content: pass1Prompt }],
-      max_tokens: 3500,
+      max_tokens: 5000,
       temperature: 0.3,
     })
     structured = JSON.parse(p1.choices[0].message.content || '{}')

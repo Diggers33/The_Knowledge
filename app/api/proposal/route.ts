@@ -91,6 +91,14 @@ Vague: "significant improvements in efficiency"
 Specific: "a reduction in process variability from ±8% to ±2%, based on NIR calibration models validated in the HYPERA project"
 `
 
+// ─── DEGENERACY / UNIQUENESS GUARDRAILS ───────────────────────────────────────
+// Prepended to every section system prompt to prevent runaway loops.
+const BASE_GUARDRAILS = `
+DEGENERACY GUARD: If at any point you detect yourself entering a word or phrase loop — examples include "forevermore... worldwide... today... tomorrow... forevermore", "scalability... affordability... sustainability... scalability...", or any abstract cyclical sequence — STOP immediately. Start a new paragraph on a concrete technical point drawn from the provided context. Never use temporal abstractions (forevermore, evermore, perpetually, eternally) or scope abstractions (worldwide, universal, omnipresent, all-encompassing) in sequence. If you have covered all available technical content, close the section with a single forward-looking sentence — do not loop.
+
+UNIQUENESS REQUIREMENT: No sentence or 6+ word phrase may appear more than once in your output. Before writing each sentence, verify it does not restate something already written.
+`.trim()
+
 // ─── SECTION CONFIGURATION ────────────────────────────────────────────────────
 
 const SECTION_MODE = {
@@ -1441,6 +1449,21 @@ Rules:
     wps.forEach((wp: any, i: number) => { wp.number = i + 1 })
   }
 
+  // Pre-compute per-WP PM totals from task durations — used in Pass 2 prompt (to resolve TBC)
+  // and again in assembly for the PM summary table.
+  const allPartnersForPM = [...new Set(wps.flatMap((wp: any) => [wp.lead, ...(wp.participants || [])]))]
+    .filter((p: any) => p && p !== 'TBC' && !String(p).includes('['))
+  const wpPmTotals: Record<number, number> = {}
+  for (const wp of wps) {
+    const dur = Math.max(1, ((wp.endMonth || 12) - (wp.startMonth || 1) + 1))
+    let total = 0
+    for (const partner of allPartnersForPM) {
+      if (wp.lead === partner) total += Math.round(dur * 0.8)
+      else if ((wp.participants || []).includes(partner)) total += Math.round(dur * 0.25)
+    }
+    wpPmTotals[wp.number] = total
+  }
+
   // ── Pass 2: prose descriptions per WP, in parallel ──────────────────────────
   const styleHint = wpStyleExamples
     ? `\n\nHorizon Europe IRIS task description examples (match this level of technical detail):\n${wpStyleExamples.slice(0, 1200)}`
@@ -1452,17 +1475,20 @@ Rules:
         .map((t: any) => `${t.id} "${t.title}" (Lead: ${t.lead}): ${t.description}`)
         .join('\n')
 
+      const resolvedPM = (wp.personMonths && wp.personMonths !== 'TBC' && wp.personMonths !== 'null')
+        ? String(wp.personMonths)
+        : String(wpPmTotals[wp.number] || 'TBC')
       const wpPrompt = `Write the detailed prose description for WP${wp.number}: ${wp.title} in a Horizon Europe proposal for project ${acronym} (call topic: ${callText.slice(0, 200)}).
 
 WP metadata:
-- Lead: ${wp.lead} | Participants: ${(wp.participants || []).join(', ')} | Duration: M${wp.startMonth}–M${wp.endMonth} | PM: ${wp.personMonths}
+- Lead: ${wp.lead} | Participants: ${(wp.participants || []).join(', ')} | Duration: M${wp.startMonth}–M${wp.endMonth} | PM: ${resolvedPM}
 - Objective: ${wp.objectives}
 - Tasks:
 ${taskSummary}
 
 Instructions:
 - Write in first person plural ("we will", "our approach")
-- Open with 1 italic metadata line: *Lead: ${wp.lead}; Participants: ${(wp.participants || []).join(', ')}; Duration: M${wp.startMonth}–M${wp.endMonth}; Person-months: ${wp.personMonths}*
+- Open with 1 italic metadata line: *Lead: ${wp.lead}; Participants: ${(wp.participants || []).join(', ')}; Duration: M${wp.startMonth}–M${wp.endMonth}; Person-months: ${resolvedPM}*
 - Then 1 sentence stating the WP objective
 - Then for each task, write: **Task ${wp.number}.X: [title]** (Lead: PARTNER; Partners: A, B) on its own line, followed by 3–4 sentences of prose
 - Reference IRIS technologies where applicable: ${technologies}
@@ -1492,20 +1518,6 @@ Instructions:
 
   // Overview
   md.push(`### Work package overview\n\n${structured.overview || '[Work package overview to be completed by consortium]'}`)
-
-  // Pre-compute per-WP PM totals from partner allocations
-  const allPartnersForPM = [...new Set(wps.flatMap((wp: any) => [wp.lead, ...(wp.participants || [])]))]
-    .filter((p: any) => p && p !== 'TBC' && !String(p).includes('['))
-  const wpPmTotals: Record<number, number> = {}
-  for (const wp of wps) {
-    const dur = Math.max(1, ((wp.endMonth || 12) - (wp.startMonth || 1) + 1))
-    let total = 0
-    for (const partner of allPartnersForPM) {
-      if (wp.lead === partner) total += Math.round(dur * 0.8)
-      else if ((wp.participants || []).includes(partner)) total += Math.round(dur * 0.25)
-    }
-    wpPmTotals[wp.number] = total
-  }
 
   // WP list table — replace TBC/null person-months with computed totals
   const wpRows = wps.map((wp: any) => {
@@ -1861,10 +1873,10 @@ RULES:
 1–2 paragraphs: explain how expertise and methods from different disciplines are integrated (e.g., photonics + machine learning + domain science). Where applicable, explain how social sciences and humanities (SSH) perspectives inform the methodology. Describe how methods from different disciplines are brought together to address the research objectives.
 
 ### Gender dimension
-1 paragraph: explicitly address how sex and/or gender analysis is integrated into the research content (not just team composition). Explain what sex/gender variables are relevant to the technology or application domain (e.g., user behaviour, health outcomes, occupational exposure). If the gender dimension is not applicable, provide a clear scientific justification.
+1 paragraph (MINIMUM 80 WORDS — mandatory, never omit): explicitly address how sex and/or gender analysis is integrated into the research content (not just team composition). Explain what sex/gender variables are relevant to the technology or application domain (e.g., user behaviour, health outcomes, occupational exposure, calibration model bias). If the gender dimension is genuinely not applicable, provide a clear scientific justification in ≥80 words explaining why.
 
 ### Open science practices
-1 paragraph: describe the open science approach — open access publications (target ≥60% open access via Zenodo/OpenAIRE), FAIR data principles (Findable, Accessible, Interoperable, Reusable), data management plan (DMP) as mandatory deliverable by M6, software/code sharing strategy, and any pre-registration plans. Show how open science is integral to the methodology, not an afterthought.
+1 paragraph (MINIMUM 100 WORDS — mandatory): describe the open science approach. MUST include ALL of the following: (1) open access publication target (≥60% open access via Zenodo/OpenAIRE), (2) FAIR data principles (Findable, Accessible, Interoperable, Reusable), (3) a named DMP deliverable (e.g. D0.1 Data Management Plan) due M6, (4) software/code sharing strategy (e.g. GitHub under open licence), and (5) any pre-registration or registered report plans. Show open science as integral to the methodology, not an afterthought.
 
 ### National and international research context
 1 paragraph: describe any national or international research and innovation activities that this project builds on, complements, or explicitly goes beyond. Reference relevant EU programmes, Partnerships (e.g., Processes4Planet, AI Data & Robotics), and national funding schemes where applicable.
@@ -1881,7 +1893,9 @@ IMPORTANT CONSTRAINTS:
 - Do NOT describe individual tasks or sub-tasks — those belong in §3.1
 - Do NOT list deliverables or milestones — those belong in §3.1
 - This section IS the scientific/technical narrative: explain the WHAT and WHY of the approach
-- Gender dimension is MANDATORY — never omit it, never say it is not relevant without justification`,
+- TRL trajectory is MANDATORY in Technical methodology: state TRL ${brief?.trlStart ?? '?'} (start) → TRL ${brief?.trlEnd ?? '?'} (end) with justification
+- Gender dimension is MANDATORY (≥80 words) — never omit, never claim not applicable without ≥80-word justification
+- Open science sub-section is MANDATORY (≥100 words) — must name a DMP deliverable due M6`,
 
       // 2.1 Expected outcomes — KPI mapping table per call outcome
       outcomes: `Do NOT open with a project summary or preamble paragraph. Start immediately with the first outcome: "A primary outcome of the project is...". Do NOT close with a TRL summary paragraph — that belongs in Section 1.1.
@@ -2098,7 +2112,7 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
       }
     }
 
-    let finalSystemPrompt = enrichedSystemPrompt + STYLE_ENFORCEMENT
+    let finalSystemPrompt = enrichedSystemPrompt + STYLE_ENFORCEMENT + '\n\n' + BASE_GUARDRAILS
 
     // Scope boundary hint for objectives — no hardcoded word cap (template targetWords governs length)
     if (section === 'objectives') {
@@ -2234,10 +2248,9 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
     // Scale max_tokens to the section's word target (1.4 tokens/word + 20% headroom)
     // Methodology gets +800 extra tokens for Gantt + risk tables which inflate token count.
     const isMethodologySection = normalizedSection === 'methodology' || normalizedSection === 'iris_methodology'
+    // Scale linearly with word target (1.6 tokens/word for headroom); cap at 16k for gpt-4.1-mini
     const sectionMaxTokens = isWorkplanSection ? 4500
-      : isMethodologySection ? Math.min(4096, Math.max(2800, Math.round(maxWords * 1.6)))
-      : isSotASection ? 3500
-      : Math.min(4096, Math.max(2000, Math.round(maxWords * 1.4)))
+      : Math.min(16000, Math.max(2000, Math.round(maxWords * 1.6)))
 
     const stream = await openai.chat.completions.create({
       model,
@@ -2288,11 +2301,14 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
           if (!verdict.ok) {
             console.warn(`Contamination (${verdict.category}) on first attempt — ${verdict.hits.length} hit(s):`, verdict.hits.slice(0, 3))
 
-            // Corpus-exemplar narration: replace protagonist past-project names with current acronym
-            if (verdict.category === 'corpus_exemplar' && brief?.acronym) {
+            // Corpus-exemplar narration OR past-project name: replace with current acronym.
+            // More surgical than sanitiseInPlace (which strips the word entirely).
+            // past_project hits (PRESERVE, SORT4CIRC etc.) use the same narrator substitution
+            // before falling back to gpt-4o retry.
+            if ((verdict.category === 'corpus_exemplar' || verdict.category === 'past_project') && brief?.acronym) {
               fullGeneratedText = replaceCorpusNarrators(fullGeneratedText, brief.acronym)
               verdict = checkContamination(fullGeneratedText, filterCtx)
-              console.log(`Corpus narrator replacement applied — still contaminated: ${!verdict.ok}`)
+              console.log(`Corpus narrator replacement applied (${verdict.category}) — still contaminated: ${!verdict.ok}`)
             }
 
             // If still contaminated, retry with gpt-4o (no fine-tune bias), non-streaming

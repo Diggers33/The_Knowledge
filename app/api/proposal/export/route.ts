@@ -186,6 +186,14 @@ function injectWorkplanTableLabels(text: string): string {
       lastHeading = headMatch[1]
       tableStarted = false
     }
+
+    // P1-B: inject "Table 3.1b: Work package description (WPn)" before each #### WPn: heading
+    const wpH4Match = line.match(/^####\s+WP(\d+)\s*:/i)
+    if (wpH4Match) {
+      out.push(`*Table 3.1b: Work package description (WP${wpH4Match[1]})*`)
+      labelsPresent.add('3.1b')
+    }
+
     const isTableLine = line.trimStart().startsWith('|')
     if (isTableLine && !tableStarted) {
       tableStarted = true
@@ -245,8 +253,8 @@ function buildSectionParagraphs(
     const level: 1 | 2 = isH1 ? 1 : 2
     paras.push(headingPara(sec.title, level))
 
-    // EC anchor code after H1 (P3)
-    if (isH1 && EC_ANCHORS[sec.id]) {
+    // EC anchor code after H1/H2 (P3 + P2-A: methodology anchors go after H2)
+    if (EC_ANCHORS[sec.id]) {
       paras.push(new Paragraph({
         children: [new TextRun({ text: EC_ANCHORS[sec.id], ...RUN_SMALL, color: 'BBBBBB', italics: true })],
         spacing: { after: 80 },

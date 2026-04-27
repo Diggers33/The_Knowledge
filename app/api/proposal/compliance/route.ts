@@ -72,12 +72,18 @@ function extractRequirements(
     })
   }
 
-  // ── Open access ───────────────────────────────────────────────────────────
+  // ── Open access — requires named OA repository, not just keyword match ───
   reqs.push({
     id: 'open_access',
-    text: 'Open access / open science plan mentioned',
+    text: 'Open access plan names a specific repository (Zenodo, OpenAIRE, or institutional repo)',
     mandatory: false,
-    checkPattern: 'open access|open science|openaire|zenodo|data management plan|dmp',
+    checkPattern: 'zenodo|openaire|open research europe|institutional repositor|figshare|dryad|dataverse',
+  })
+  reqs.push({
+    id: 'open_access_target',
+    text: 'Open access publication target stated (e.g. ≥60% open access)',
+    mandatory: false,
+    checkPattern: '\\d+\\s*%\\s*open.access|open access.*\\d+\\s*%|at least.*open access|minimum.*open access',
   })
 
   // ── Data Management Plan — mandatory deliverable for RIA/IA ──────────────

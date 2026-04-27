@@ -2174,6 +2174,12 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
               }
             }
 
+            // P2-1: log prose-only word count (excluding table lines) for diagnostics
+            const proseLines = wpText.split('\n').filter((l: string) => !l.trimStart().startsWith('|') && l.trim())
+            const proseWords = proseLines.join(' ').split(/\s+/).filter(Boolean).length
+            const totalWords = wpText.split(/\s+/).filter(Boolean).length
+            console.log(`[workplan] totalWords=${totalWords} proseWords=${proseWords} tableWords=${totalWords - proseWords} targetWords=${3600}`)
+
             controller.enqueue(encoder.encode(wpText))
             if (kbSourceBlock) {
               controller.enqueue(encoder.encode(`\n\n<<<KB_SOURCES>>>\n${kbSourceBlock}`))
@@ -2537,6 +2543,59 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
                 const cutText = words.slice(0, driftStart).join(' ')
                 const lastSent = Math.max(cutText.lastIndexOf('. '), cutText.lastIndexOf('.\n'))
                 fullGeneratedText = lastSent > 50 ? cutText.slice(0, lastSent + 1) : cutText
+              }
+            }
+          }
+
+          // ── P0: Length-retry loop — append continuation if section is under-filled ──
+          // Fires if generated words < 60% of target. Cap at 2 attempts.
+          // Continuation is appended as a new paragraph, not a replacement.
+          {
+            const LENGTH_RETRY_THRESHOLD = 0.60
+            const MAX_LENGTH_RETRIES = 2
+            const SUBTOPIC_HINTS: Record<string, string> = {
+              objectives:   'additional measurable project objectives, TRL progression justification, and mapping to remaining call expected outcomes',
+              pathways:     'quantified scientific and societal impacts, additional KPIs with measurement methods, and pilot demonstration context',
+              measures:     'exploitation strategy per partner, dissemination channels, communication activities with timelines',
+              capacity:     'individual partner expertise and track record, consortium complementarity, SSH and gender aspects of R&I',
+              methodology:  'validation approaches, DNSH compliance rationale, and research data management specifics',
+              sota:         'additional research gaps, limitations of current approaches, and evidence for why this project is timely',
+              summary:      'target groups, expected outcomes, and dissemination and exploitation activities in the impact canvas format',
+              innovation:   'the specific breakthroughs beyond state of the art and how they advance TRL',
+            }
+            const subtopicHint = SUBTOPIC_HINTS[normalizedSection] || SUBTOPIC_HINTS[section] || 'the technical approach, validation strategy, and project-specific evidence'
+
+            for (let attempt = 0; attempt < MAX_LENGTH_RETRIES; attempt++) {
+              const currentWords = fullGeneratedText.split(/\s+/).filter(Boolean).length
+              if (currentWords >= targetWords * LENGTH_RETRY_THRESHOLD) break
+              const shortfall = targetWords - currentWords
+              console.log(`[length-retry] attempt=${attempt + 1} words=${currentWords} target=${targetWords} shortfall=${shortfall}`)
+              try {
+                const continuation = await openai.chat.completions.create({
+                  model,
+                  messages: [
+                    { role: 'system', content: finalSystemPrompt },
+                    { role: 'user', content: userMessage },
+                    { role: 'assistant', content: fullGeneratedText },
+                    { role: 'user', content: `This section is only ${currentWords} words — the target is ${targetWords} words. Continue elaborating from where you left off, going deeper into ${subtopicHint}. Add approximately ${shortfall} more words of new content. Do NOT repeat anything already written. Do NOT add a closing or conclusion paragraph. Continue the section directly:` },
+                  ],
+                  max_tokens: Math.min(8000, Math.round(shortfall * 1.7)),
+                  temperature: 0.4,
+                  frequency_penalty: 0.6,
+                  presence_penalty: 0.5,
+                })
+                const extra = continuation.choices[0]?.message?.content?.trim() || ''
+                const extraWords = extra.split(/\s+/).filter(Boolean).length
+                if (extra.length > 100 && extraWords > 50) {
+                  fullGeneratedText = fullGeneratedText.trimEnd() + '\n\n' + extra
+                  console.log(`[length-retry] appended ${extraWords} words — total now ${fullGeneratedText.split(/\s+/).filter(Boolean).length}`)
+                } else {
+                  console.warn(`[length-retry] attempt=${attempt + 1} returned too little (${extraWords} words) — stopping`)
+                  break
+                }
+              } catch (e) {
+                console.error(`[length-retry] attempt=${attempt + 1} failed:`, e)
+                break
               }
             }
           }

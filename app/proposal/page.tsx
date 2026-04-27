@@ -11,6 +11,7 @@ import {
   FileCheck, RefreshCw, FileText, Edit3,
 } from 'lucide-react'
 import type { ProjectBrief, Partner, Concept, ResolvedCall, ComplianceResult, PartnerSuggestion } from '@/lib/proposal-types'
+import { migrateDraftSections } from '@/lib/proposal-templates'
 import type { ProposalTemplate, SectionTemplate } from '@/lib/proposal-templates'
 import { TEMPLATES, detectTemplate } from '@/lib/proposal-templates'
 
@@ -235,6 +236,8 @@ export default function ProposalPage() {
   const [complianceLoading, setComplianceLoading] = useState(false)
   const [exporting, setExporting] = useState(false)
   const [exportError, setExportError] = useState('')
+  const [selectedAnnexes, setSelectedAnnexes] = useState<Set<string>>(new Set())
+  const [exportingAnnex, setExportingAnnex] = useState<string | null>(null)
 
   // ── UI state ───────────────────────────────────────────────────────────────
   const [clearConfirm, setClearConfirm] = useState(false)
@@ -273,10 +276,29 @@ export default function ProposalPage() {
       if (d.scopeSelected) setScopeSelected(d.scopeSelected)
       if (d.brief)         setBrief(d.brief)
       if (d.partners)      setPartners(d.partners)
-      if (d.sections)      setSections(d.sections)
       if (d.phase)         setPhase(d.phase)
       if (d.concepts)      setConcepts(d.concepts)
       if (d.activeSection) setActiveSection(d.activeSection)
+
+      // Schema v1 → v2 migration: remap old section IDs to canonical Part B structure
+      if (d.sections) {
+        const OLD_IDS = ['sota', 'innovation', 'outcomes', 'dissemination',
+                         'communication', 'business_case', 'management', 'consortium']
+        const needsMigration = (d.schemaVersion ?? 1) < 2 &&
+          OLD_IDS.some((id: string) => id in d.sections)
+        if (needsMigration) {
+          const migrated = migrateDraftSections(d.sections)
+          setSections(migrated)
+          // Persist migrated draft immediately so reload doesn't re-migrate
+          try {
+            localStorage.setItem('iris_proposal_draft', JSON.stringify({
+              ...d, sections: migrated, schemaVersion: 2,
+            }))
+          } catch {}
+        } else {
+          setSections(d.sections)
+        }
+      }
     } catch {}
   }, [])
 
@@ -285,6 +307,7 @@ export default function ProposalPage() {
       localStorage.setItem('iris_proposal_draft', JSON.stringify({
         callText, callResolved, stageSelected, scopeSelected,
         brief, partners, sections, phase, concepts, activeSection,
+        schemaVersion: 2,
       }))
     } catch {}
   }, [callText, callResolved, stageSelected, scopeSelected, brief, partners, sections, phase, concepts, activeSection])
@@ -672,6 +695,31 @@ export default function ProposalPage() {
       setExportError(e.message)
     }
     setExporting(false)
+  }
+
+  async function downloadAnnex(annexType: string) {
+    if (!brief) return
+    setExportingAnnex(annexType)
+    try {
+      const res = await fetch('/api/proposal/annex', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ annexType, brief: { ...brief, partners } }),
+      })
+      if (!res.ok) throw new Error('Annex export failed')
+      const blob = await res.blob()
+      const url  = URL.createObjectURL(blob)
+      const a    = document.createElement('a')
+      a.href     = url
+      const cdh  = res.headers.get('Content-Disposition') || ''
+      const match = cdh.match(/filename="([^"]+)"/)
+      a.download = match ? match[1] : `IRIS_${(brief.acronym || 'PROPOSAL').replace(/\s+/g, '_')}_Annex.docx`
+      a.click()
+      URL.revokeObjectURL(url)
+    } catch (e: any) {
+      setExportError(e.message)
+    }
+    setExportingAnnex(null)
   }
 
   function clearDraft() {
@@ -1988,6 +2036,52 @@ export default function ProposalPage() {
                   </div>
                 )
               })()}
+
+              {/* P2-B: Optional Annexes picker */}
+              <div style={card}>
+                <span style={label}>Optional Annexes</span>
+                <div style={{ fontSize: '13px', color: C.muted, marginBottom: '14px' }}>
+                  Select any annexes required by the call. Each downloads as a separate skeleton .docx to complete and attach.
+                </div>
+                {[
+                  { id: 'clinical_trials', label: 'Clinical Trials', desc: 'Studies on human participants — regulatory framework, GCP, consent' },
+                  { id: 'fstp',            label: 'Financial Support to Third Parties (FSTP)', desc: 'Cascade funding / open calls — eligibility, selection criteria, max €60k per recipient' },
+                  { id: 'security',        label: 'Security Aspects', desc: 'Classified information, dual-use, access control, publication restrictions' },
+                  { id: 'ethics',          label: 'Ethics Self-Assessment', desc: 'Human participants, GDPR, DURC, animal research, AI ethics' },
+                ].map(({ id, label: aLabel, desc }) => {
+                  const checked = selectedAnnexes.has(id)
+                  return (
+                    <div key={id} style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', padding: '10px 12px', borderRadius: '8px', background: checked ? 'rgba(0,196,212,0.07)' : C.input, border: `1px solid ${checked ? 'rgba(0,196,212,0.25)' : C.border}`, marginBottom: '8px', cursor: 'pointer' }}
+                      onClick={() => setSelectedAnnexes(prev => { const s = new Set(prev); checked ? s.delete(id) : s.add(id); return s })}>
+                      <div style={{ width: '16px', height: '16px', borderRadius: '4px', border: `2px solid ${checked ? C.cyan : C.border}`, background: checked ? C.cyan : 'transparent', flexShrink: 0, marginTop: '2px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        {checked && <span style={{ color: '#000', fontSize: '10px', fontWeight: 700, lineHeight: 1 }}>✓</span>}
+                      </div>
+                      <div style={{ flex: 1 }}>
+                        <div style={{ fontSize: '13px', fontWeight: 600, color: C.text, marginBottom: '2px' }}>{aLabel}</div>
+                        <div style={{ fontSize: '11px', color: C.muted }}>{desc}</div>
+                      </div>
+                      {checked && (
+                        <button
+                          onClick={e => { e.stopPropagation(); downloadAnnex(id) }}
+                          disabled={exportingAnnex === id}
+                          style={{ ...btn('ghost', exportingAnnex === id), fontSize: '11px', padding: '5px 10px', flexShrink: 0 }}
+                        >
+                          {exportingAnnex === id ? <><Loader2 size={11} className="spin" /> Generating...</> : <><Download size={11} /> Download</>}
+                        </button>
+                      )}
+                    </div>
+                  )
+                })}
+                {selectedAnnexes.size > 1 && (
+                  <button
+                    onClick={async () => { for (const id of selectedAnnexes) await downloadAnnex(id) }}
+                    disabled={exportingAnnex !== null}
+                    style={{ ...btn('secondary', exportingAnnex !== null), marginTop: '8px', fontSize: '12px' }}
+                  >
+                    <Download size={12} /> Download all selected annexes ({selectedAnnexes.size})
+                  </button>
+                )}
+              </div>
 
               {/* Export options */}
               <div style={card}>

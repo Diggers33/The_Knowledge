@@ -18,6 +18,94 @@ export interface ProposalTemplate {
   sections: SectionTemplate[]
 }
 
+// ─── Canonical Part B sections (RIA + IA combined, v3.3 Sep 2023) ─────────────
+// Used by both RIA_stage2 and IA_stage2; totalPages = 45 (50 for lump-sum)
+const CANONICAL_STAGE2_SECTIONS: SectionTemplate[] = [
+  {
+    id: 'excellence',
+    title: '1. Excellence',
+    pages: 14,
+    words: 5600,
+    mandatory: true,
+    description: 'Objectives, ambition and methodology',
+    evaluationCriteria: 'Clarity of objectives; soundness of methodology; gender dimension; open science; AI use',
+  },
+  {
+    id: 'objectives',
+    title: '1.1 Objectives and ambition',
+    pages: 4,
+    words: 1600,
+    mandatory: true,
+    description: 'Project objectives, ambition and how they go beyond the state of the art',
+  },
+  {
+    id: 'methodology',
+    title: '1.2 Methodology',
+    pages: 10,
+    words: 4000,
+    mandatory: true,
+    description: 'Overall methodology, concepts, models, assumptions; DNSH; AI use; gender dimension; open science; RDM',
+  },
+  {
+    id: 'impact',
+    title: '2. Impact',
+    pages: 13,
+    words: 5200,
+    mandatory: true,
+    description: 'Pathways to impact, dissemination, exploitation, communication, summary canvas',
+    evaluationCriteria: 'Credibility of pathways; scale and significance; measures to maximise impact',
+  },
+  {
+    id: 'pathways',
+    title: "2.1 Project's pathways towards impact",
+    pages: 6,
+    words: 2400,
+    mandatory: true,
+    description: 'Expected outcomes, scientific/economic/societal impacts, ToC, KPIs, scale and significance',
+  },
+  {
+    id: 'measures',
+    title: '2.2 Measures to maximise impact — Dissemination, exploitation and communication',
+    pages: 5,
+    words: 2000,
+    mandatory: true,
+    description: 'Dissemination plan, exploitation strategy and KERs, communication activities, business case where relevant',
+  },
+  {
+    id: 'summary',
+    title: '2.3 Summary',
+    pages: 1,
+    words: 250,
+    mandatory: true,
+    description: 'Impact canvas: specific needs, expected results, target groups, D&E&C activities',
+  },
+  {
+    id: 'implementation',
+    title: '3. Quality and efficiency of the implementation',
+    pages: 14,
+    words: 5600,
+    mandatory: true,
+    description: 'Work plan, resources, consortium capacity',
+    evaluationCriteria: 'Quality and effectiveness of work plan; capacity of participants and consortium',
+  },
+  {
+    id: 'workplan',
+    title: '3.1 Work plan and resources',
+    pages: 9,
+    words: 3600,
+    mandatory: true,
+    description: 'Work plan narrative, Tables 3.1a–3.1j: WP list, WP descriptions, deliverables, milestones, risks, staff effort, subcontracting, purchase, other costs, in-kind. Project Management is always the final WP.',
+  },
+  {
+    id: 'capacity',
+    title: '3.2 Capacity of participants and consortium as a whole',
+    pages: 5,
+    words: 2000,
+    mandatory: true,
+    description: 'Consortium composition, complementarity, partner profiles, role of each participant. Must address SSH expertise, open science practices, and gender aspects of R&I.',
+  },
+]
+
 export const TEMPLATES: Record<string, ProposalTemplate> = {
 
   'RIA_stage1': {
@@ -31,32 +119,16 @@ export const TEMPLATES: Record<string, ProposalTemplate> = {
         pages: 7,
         words: 2800,
         mandatory: true,
-        description: 'Objectives, ambition, state of the art, methodology',
+        description: 'Objectives and ambition',
         evaluationCriteria: 'Soundness of concept, quality of objectives, credibility of proposed approach',
       },
       {
         id: 'objectives',
         title: '1.1 Objectives and ambition',
-        pages: 1,
-        words: 400,
+        pages: 4,
+        words: 1600,
         mandatory: true,
-        description: 'Clear, measurable objectives. Why this is beyond current state of the art.',
-      },
-      {
-        id: 'sota',
-        title: '1.2 State of the art and innovation',
-        pages: 3,
-        words: 1200,
-        mandatory: true,
-        description: 'Current landscape, recent advances, gaps, why the proposed approach is novel',
-      },
-      {
-        id: 'methodology',
-        title: '1.3 Methodology',
-        pages: 3,
-        words: 1200,
-        mandatory: true,
-        description: 'Research design, technical approach, risk mitigation, TRL progression. Must include gender dimension and open science practices sub-sections.',
+        description: 'Specific, measurable objectives. Ambition beyond the state of the art.',
       },
       {
         id: 'impact',
@@ -64,24 +136,24 @@ export const TEMPLATES: Record<string, ProposalTemplate> = {
         pages: 3,
         words: 1200,
         mandatory: true,
-        description: 'Expected outcomes, contribution to EU goals, dissemination plan',
+        description: 'Pathways to impact and measures to maximise impact',
         evaluationCriteria: 'Expected outcomes and impacts, quality of measures to maximise impact',
       },
       {
-        id: 'outcomes',
-        title: '2.1 Expected outcomes and impacts',
+        id: 'pathways',
+        title: "2.1 Project's pathways towards impact",
         pages: 2,
         words: 800,
         mandatory: true,
         description: 'How the project contributes to the call expected outcomes. Quantified where possible.',
       },
       {
-        id: 'dissemination',
-        title: '2.2 Dissemination and exploitation',
+        id: 'measures',
+        title: '2.2 Measures to maximise impact — Dissemination, exploitation and communication',
         pages: 1,
         words: 400,
         mandatory: true,
-        description: 'How results will be shared, exploited, and standardised',
+        description: 'How results will be shared, exploited, and communicated',
       },
     ],
   },
@@ -89,346 +161,29 @@ export const TEMPLATES: Record<string, ProposalTemplate> = {
   'RIA_stage2': {
     actionType: 'RIA',
     stage: 'stage2',
-    totalPages: 43,
-    sections: [
-      {
-        id: 'excellence',
-        title: '1. Excellence',
-        pages: 15,
-        words: 6000,
-        mandatory: true,
-        description: 'Full scientific and technical excellence case',
-        evaluationCriteria: 'Soundness of concept, quality and credibility of methodology',
-      },
-      {
-        id: 'objectives',
-        title: '1.1 Objectives and ambition',
-        pages: 2,
-        words: 800,
-        mandatory: true,
-        description: 'Specific, measurable, achievable objectives. Links to call expected outcomes.',
-      },
-      {
-        id: 'sota',
-        title: '1.2 State of the art and innovation',
-        pages: 5,
-        words: 2000,
-        mandatory: true,
-        description: 'Comprehensive analysis of current landscape, gaps, and how the project advances beyond SotA',
-      },
-      {
-        id: 'methodology',
-        title: '1.3 Methodology',
-        pages: 6,
-        words: 2400,
-        mandatory: true,
-        description: 'Research design, technical work plan overview, risk assessment, TRL progression from start to end. Must include gender dimension and open science practices sub-sections.',
-      },
-      {
-        id: 'innovation',
-        title: '1.4 Ambition and innovation',
-        pages: 2,
-        words: 800,
-        mandatory: true,
-        description: 'What makes this genuinely novel. Breakthrough potential. Links to partnerships.',
-      },
-      {
-        id: 'impact',
-        title: '2. Impact',
-        pages: 8,
-        words: 3200,
-        mandatory: true,
-        description: 'Full impact case — scientific, economic, societal',
-        evaluationCriteria: 'Expected outcomes and impacts, quality of exploitation and dissemination plan',
-      },
-      {
-        id: 'outcomes',
-        title: '2.1 Expected outcomes and impacts',
-        pages: 4,
-        words: 1600,
-        mandatory: true,
-        description: 'Detailed mapping to call expected outcomes. Quantified KPIs. Pathways to impact.',
-      },
-      {
-        id: 'dissemination',
-        title: '2.2 Dissemination, exploitation and communication',
-        pages: 3,
-        words: 1200,
-        mandatory: true,
-        description: 'Open access plan, IPR strategy, exploitation roadmap, communication activities. Note: EC page limit for §2.2 covers §2.2 and §2.3 combined.',
-      },
-      {
-        id: 'communication',
-        title: '2.3 Communication',
-        pages: 1,
-        words: 400,
-        mandatory: true,
-        description: 'Target audiences, channels, key messages. Counted within the §2.2 combined page limit.',
-      },
-      {
-        id: 'implementation',
-        title: '3. Implementation',
-        pages: 14,
-        words: 5600,
-        mandatory: true,
-        description: 'Full work plan, management, consortium',
-        evaluationCriteria: 'Quality of work plan, appropriateness of consortium',
-      },
-      {
-        id: 'workplan',
-        title: '3.1 Work plan and work packages',
-        pages: 6,
-        words: 2400,
-        mandatory: true,
-        description: 'Tables 3.1a–3.1d: WP list, WP descriptions, deliverables, milestones. Gantt chart. Critical risks. Project Management is always the final WP.',
-      },
-      {
-        id: 'management',
-        title: '3.2 Management structure',
-        pages: 3,
-        words: 1200,
-        mandatory: true,
-        description: 'Governance, decision-making, risk management, quality assurance',
-      },
-      {
-        id: 'consortium',
-        title: '3.3 Consortium',
-        pages: 5,
-        words: 2000,
-        mandatory: true,
-        description: 'Partner profiles, roles, complementarity. Must address SSH expertise, open science practices, and gender aspects of R&I.',
-      },
-      {
-        id: 'business_case',
-        title: '4.1 Business Case and Exploitation Strategy',
-        pages: 3,
-        words: 1200,
-        mandatory: true,
-        description: 'Market analysis, commercialisation pathway, investment needs, revenue model',
-      },
-    ],
+    totalPages: 45,
+    sections: CANONICAL_STAGE2_SECTIONS,
   },
 
   'RIA_single': {
     actionType: 'RIA',
     stage: 'single',
-    totalPages: 37,
-    sections: [
-      {
-        id: 'excellence',
-        title: '1. Excellence',
-        pages: 14,
-        words: 5600,
-        mandatory: true,
-        description: 'Full scientific and technical excellence case',
-        evaluationCriteria: 'Soundness of concept, quality and credibility of methodology',
-      },
-      {
-        id: 'objectives',
-        title: '1.1 Objectives and ambition',
-        pages: 2,
-        words: 800,
-        mandatory: true,
-        description: 'Specific, measurable, achievable objectives. Links to call expected outcomes.',
-      },
-      {
-        id: 'sota',
-        title: '1.2 State of the art and innovation',
-        pages: 5,
-        words: 2000,
-        mandatory: true,
-        description: 'Comprehensive analysis of current landscape, gaps, and how the project advances beyond SotA',
-      },
-      {
-        id: 'methodology',
-        title: '1.3 Methodology',
-        pages: 5,
-        words: 2000,
-        mandatory: true,
-        description: 'Research design, technical work plan overview, risk assessment, TRL progression. Must include gender dimension and open science practices sub-sections.',
-      },
-      {
-        id: 'innovation',
-        title: '1.4 Ambition and innovation',
-        pages: 2,
-        words: 800,
-        mandatory: true,
-        description: 'What makes this genuinely novel. Breakthrough potential.',
-      },
-      {
-        id: 'impact',
-        title: '2. Impact',
-        pages: 8,
-        words: 3200,
-        mandatory: true,
-        description: 'Full impact case — scientific, economic, societal',
-        evaluationCriteria: 'Expected outcomes and impacts, quality of exploitation and dissemination plan',
-      },
-      {
-        id: 'outcomes',
-        title: '2.1 Expected outcomes and impacts',
-        pages: 4,
-        words: 1600,
-        mandatory: true,
-        description: 'Detailed mapping to call expected outcomes. Quantified KPIs.',
-      },
-      {
-        id: 'dissemination',
-        title: '2.2 Dissemination, exploitation and communication',
-        pages: 3,
-        words: 1200,
-        mandatory: true,
-        description: 'Open access plan, IPR strategy, exploitation roadmap. Note: EC page limit covers §2.2 and §2.3 combined.',
-      },
-      {
-        id: 'communication',
-        title: '2.3 Communication',
-        pages: 1,
-        words: 400,
-        mandatory: true,
-        description: 'Target audiences, channels, key messages. Counted within the §2.2 combined page limit.',
-      },
-      {
-        id: 'implementation',
-        title: '3. Implementation',
-        pages: 14,
-        words: 5600,
-        mandatory: true,
-        description: 'Full work plan, management, consortium',
-        evaluationCriteria: 'Quality of work plan, appropriateness of consortium',
-      },
-      {
-        id: 'workplan',
-        title: '3.1 Work plan and work packages',
-        pages: 6,
-        words: 2400,
-        mandatory: true,
-        description: 'Tables 3.1a–3.1d: WP list, WP descriptions, deliverables, milestones. Gantt chart. Critical risks. Project Management is always the final WP.',
-      },
-      {
-        id: 'management',
-        title: '3.2 Management structure',
-        pages: 3,
-        words: 1200,
-        mandatory: true,
-        description: 'Governance, decision-making, risk management, quality assurance',
-      },
-      {
-        id: 'consortium',
-        title: '3.3 Consortium',
-        pages: 5,
-        words: 2000,
-        mandatory: true,
-        description: 'Partner profiles, roles, complementarity. Must address SSH expertise, open science practices, and gender aspects of R&I.',
-      },
-    ],
+    totalPages: 45,
+    sections: CANONICAL_STAGE2_SECTIONS,
   },
 
   'IA_stage2': {
     actionType: 'IA',
     stage: 'stage2',
-    totalPages: 40,
-    sections: [
-      {
-        id: 'excellence',
-        title: '1. Excellence',
-        pages: 12,
-        words: 4800,
-        mandatory: true,
-        description: 'Objectives, innovation, methodology focused on deployment and demonstration',
-        evaluationCriteria: 'Quality and soundness of concept, innovation potential',
-      },
-      {
-        id: 'objectives',
-        title: '1.1 Objectives and innovation',
-        pages: 2,
-        words: 800,
-        mandatory: true,
-        description: 'Innovation objectives linked to market and deployment targets',
-      },
-      {
-        id: 'sota',
-        title: '1.2 State of the art',
-        pages: 4,
-        words: 1600,
-        mandatory: true,
-        description: 'Technology baseline, competitive landscape, and innovation gap',
-      },
-      {
-        id: 'methodology',
-        title: '1.3 Methodology and demonstration',
-        pages: 6,
-        words: 2400,
-        mandatory: true,
-        description: 'Technical approach, demonstration plan, TRL progression to TRL 7–8',
-      },
-      {
-        id: 'impact',
-        title: '2. Impact',
-        pages: 10,
-        words: 4000,
-        mandatory: true,
-        description: 'Market impact, commercial pathway, exploitation plan',
-        evaluationCriteria: 'Market potential, scale-up credibility, exploitation plan',
-      },
-      {
-        id: 'outcomes',
-        title: '2.1 Outcomes and market impact',
-        pages: 4,
-        words: 1600,
-        mandatory: true,
-        description: 'Commercial outcomes, market size, KPIs, pathways to market',
-      },
-      {
-        id: 'dissemination',
-        title: '2.2 Dissemination and exploitation',
-        pages: 3,
-        words: 1200,
-        mandatory: true,
-        description: 'IP strategy, exploitation roadmap, standards and regulation',
-      },
-      {
-        id: 'business_case',
-        title: '2.3 Business case',
-        pages: 3,
-        words: 1200,
-        mandatory: true,
-        description: 'Revenue model, investment needs, route to market',
-      },
-      {
-        id: 'implementation',
-        title: '3. Implementation',
-        pages: 14,
-        words: 5600,
-        mandatory: true,
-        description: 'Work plan, consortium, management',
-        evaluationCriteria: 'Quality and efficiency of implementation',
-      },
-      {
-        id: 'workplan',
-        title: '3.1 Work plan',
-        pages: 6,
-        words: 2400,
-        mandatory: true,
-        description: 'Tables 3.1a–3.1d: WP list, WP descriptions, deliverables, milestones. Gantt chart. Critical risks. Project Management is always the final WP.',
-      },
-      {
-        id: 'management',
-        title: '3.2 Management',
-        pages: 3,
-        words: 1200,
-        mandatory: true,
-        description: 'Governance, IP management, quality plan',
-      },
-      {
-        id: 'consortium',
-        title: '3.3 Consortium',
-        pages: 5,
-        words: 2000,
-        mandatory: true,
-        description: 'Partner profiles, roles, industrial leadership. Must address SSH expertise, open science practices, and gender aspects of R&I.',
-      },
-    ],
+    totalPages: 45,
+    sections: CANONICAL_STAGE2_SECTIONS,
+  },
+
+  'IA_single': {
+    actionType: 'IA',
+    stage: 'single',
+    totalPages: 45,
+    sections: CANONICAL_STAGE2_SECTIONS,
   },
 
   'CSA_single': {
@@ -471,16 +226,16 @@ export const TEMPLATES: Record<string, ProposalTemplate> = {
         evaluationCriteria: 'Expected outcomes, dissemination and communication plan',
       },
       {
-        id: 'outcomes',
-        title: '2.1 Expected outcomes',
+        id: 'pathways',
+        title: "2.1 Project's pathways towards impact",
         pages: 4,
         words: 1600,
         mandatory: true,
         description: 'Policy impact, community building, standardisation outcomes',
       },
       {
-        id: 'dissemination',
-        title: '2.2 Dissemination and communication',
+        id: 'measures',
+        title: '2.2 Measures to maximise impact — Dissemination, exploitation and communication',
         pages: 4,
         words: 1600,
         mandatory: true,
@@ -488,7 +243,7 @@ export const TEMPLATES: Record<string, ProposalTemplate> = {
       },
       {
         id: 'implementation',
-        title: '3. Implementation',
+        title: '3. Quality and efficiency of the implementation',
         pages: 12,
         words: 4800,
         mandatory: true,
@@ -497,23 +252,15 @@ export const TEMPLATES: Record<string, ProposalTemplate> = {
       },
       {
         id: 'workplan',
-        title: '3.1 Work plan',
+        title: '3.1 Work plan and resources',
         pages: 6,
         words: 2400,
         mandatory: true,
-        description: 'WPs, tasks, deliverables, Gantt',
+        description: 'WPs, tasks, deliverables, Gantt. Project Management is always the final WP.',
       },
       {
-        id: 'management',
-        title: '3.2 Management',
-        pages: 3,
-        words: 1200,
-        mandatory: true,
-        description: 'Governance, decision-making, quality assurance',
-      },
-      {
-        id: 'consortium',
-        title: '3.3 Consortium',
+        id: 'capacity',
+        title: '3.2 Capacity of participants and consortium as a whole',
         pages: 3,
         words: 1200,
         mandatory: true,
@@ -526,20 +273,14 @@ export const TEMPLATES: Record<string, ProposalTemplate> = {
 export function detectTemplate(callText: string): ProposalTemplate {
   const text = callText.toLowerCase()
 
-  // Detect action type (case-insensitive)
-  const lower = text.toLowerCase()
   let actionType: ActionType = 'RIA'
-  if (lower.includes('coordination and support action') || lower.includes('(csa)')) actionType = 'CSA'
-  // IA: "Innovation Action" present but NOT in the phrase "Research and Innovation Action"
+  if (text.includes('coordination and support action') || text.includes('(csa)')) actionType = 'CSA'
   if (/\binnovation action\b/i.test(text) && !/\bresearch and innovation action\b/i.test(text)) actionType = 'IA'
-  // Explicit IA marker in call title or type field: "(IA)", "Action Type: IA", "-IA-"
   if (/\(\s*IA\s*\)|\baction\s+type[:\s]+IA\b|-IA-/i.test(text) && actionType !== 'CSA') actionType = 'IA'
-  // Extract call identifier from "Call: HORIZON-..." line and check for -IA- segment
   const callIdLine = callText.match(/^Call:\s*(HORIZON[-\s][^\n]+)/im)?.[1]?.toUpperCase() || ''
   if (callIdLine && /-IA-/.test(callIdLine) && actionType !== 'CSA') actionType = 'IA'
-  if (lower.includes('eic accelerator')) actionType = 'EIC'
+  if (text.includes('eic accelerator')) actionType = 'EIC'
 
-  // Detect stage
   let stage: Stage = 'single'
   if (
     text.includes('two-stage') || text.includes('two stage') ||
@@ -550,4 +291,56 @@ export function detectTemplate(callText: string): ProposalTemplate {
 
   const templateKey = `${actionType}_${stage}`
   return TEMPLATES[templateKey] || TEMPLATES['RIA_stage2']
+}
+
+// ─── Draft schema migration (v1 → v2) ────────────────────────────────────────
+// Maps old section IDs (pre-canonical) to new canonical IDs.
+// Returns migrated sections object and schemaVersion: 2.
+
+export function migrateDraftSections(
+  oldSections: Record<string, string>
+): Record<string, string> {
+  const s = { ...oldSections }
+  const out: Record<string, string> = {}
+
+  // Pass through sections that exist in both schemas unchanged
+  for (const id of ['objectives', 'methodology', 'workplan', 'implementation',
+                     'excellence', 'impact', 'pathways', 'measures', 'summary',
+                     'capacity']) {
+    if (s[id]) out[id] = s[id]
+  }
+
+  // sota (old 1.2) → prepend into objectives
+  if (s.sota) {
+    out.objectives = s.sota + (out.objectives ? '\n\n' + out.objectives : '')
+  }
+
+  // innovation (old 1.4) → prepend into objectives as ambition narrative
+  if (s.innovation) {
+    out.objectives = (out.objectives || '') + (s.innovation ? '\n\n' + s.innovation : '')
+  }
+
+  // outcomes (old 2.1) → pathways
+  if (s.outcomes && !out.pathways) out.pathways = s.outcomes
+
+  // dissemination (old 2.2) → measures
+  if (s.dissemination && !out.measures) out.measures = s.dissemination
+
+  // communication (old 2.3) → append into measures
+  if (s.communication) {
+    out.measures = (out.measures || '') + (s.communication ? '\n\n' + s.communication : '')
+  }
+
+  // business_case → append into measures under exploitation sub-heading
+  if (s.business_case) {
+    out.measures = (out.measures || '') + '\n\n### Exploitation and business case\n\n' + s.business_case
+  }
+
+  // management + consortium → merge into capacity
+  const capParts: string[] = []
+  if (s.management) capParts.push(s.management)
+  if (s.consortium) capParts.push(s.consortium)
+  if (capParts.length && !out.capacity) out.capacity = capParts.join('\n\n')
+
+  return out
 }

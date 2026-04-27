@@ -101,19 +101,24 @@ const SECTION_MODE = {
   'innovation':       'HYBRID',
   'expected_impact':  'HYBRID',
   'excellence':       'INTERNAL',
-  // Template section IDs (new wizard)
-  'sota':             'EXTERNAL',
+  // Canonical Part B section IDs (v3.3 Sep 2023)
   'objectives':       'INTERNAL',
   'methodology':      'INTERNAL',
+  'pathways':         'HYBRID',
+  'measures':         'INTERNAL',
+  'summary':          'INTERNAL',
+  'workplan':         'INTERNAL',
+  'capacity':         'INTERNAL',
+  'impact':           'HYBRID',
+  'implementation':   'INTERNAL',
+  // Legacy IDs kept for backward compat during migration
+  'sota':             'EXTERNAL',
   'outcomes':         'HYBRID',
   'dissemination':    'INTERNAL',
   'communication':    'INTERNAL',
-  'workplan':         'INTERNAL',
   'management':       'INTERNAL',
   'consortium':       'INTERNAL',
   'business_case':    'INTERNAL',
-  'impact':           'HYBRID',
-  'implementation':   'INTERNAL',
 } as const
 
 const SECTION_LABELS: Record<string, string> = {
@@ -123,20 +128,25 @@ const SECTION_LABELS: Record<string, string> = {
   'iris_role':        'IRIS Role in Project',
   'innovation':       'Innovation Beyond State of the Art',
   'expected_impact':  'Expected Impact',
-  'excellence':       'Excellence & Credentials',
-  // Template section IDs
-  'sota':             'State of the Art and Innovation',
+  'excellence':       'Excellence',
+  // Canonical Part B section IDs (v3.3 Sep 2023)
   'objectives':       'Objectives and Ambition',
   'methodology':      'Methodology',
+  'pathways':         "Project's Pathways Towards Impact",
+  'measures':         'Measures to Maximise Impact — Dissemination, Exploitation and Communication',
+  'summary':          'Summary',
+  'workplan':         'Work Plan and Resources',
+  'capacity':         'Capacity of Participants and Consortium as a Whole',
+  'impact':           'Impact',
+  'implementation':   'Quality and Efficiency of the Implementation',
+  // Legacy IDs kept for migration
+  'sota':             'State of the Art and Innovation',
   'outcomes':         'Expected Outcomes and Impacts',
   'dissemination':    'Dissemination, Exploitation and Communication',
   'communication':    'Communication',
-  'workplan':         'Work Plan and Work Packages',
   'management':       'Management Structure',
   'consortium':       'Consortium',
   'business_case':    'Business Case and Exploitation Strategy',
-  'impact':           'Impact',
-  'implementation':   'Implementation',
 }
 
 // Dimensions to pull from project_summaries for each INTERNAL/HYBRID section
@@ -147,18 +157,23 @@ const SECTION_DIMS: Record<string, string[]> = {
   'excellence':       ['iris_results', 'iris_validation', 'iris_technology'],
   'innovation':       ['iris_technology', 'iris_results'],
   'expected_impact':  ['iris_results', 'applications', 'iris_role'],
-  // Template section IDs
+  // Canonical Part B section IDs
   'objectives':       ['iris_results', 'iris_validation'],
   'methodology':      ['iris_technology', 'technology'],
+  'pathways':         ['iris_results', 'applications', 'iris_role'],
+  'measures':         ['iris_results', 'applications'],
+  'summary':          ['iris_results', 'applications'],
+  'workplan':         ['iris_role', 'iris_technology'],
+  'capacity':         ['partners', 'iris_role'],
+  'impact':           ['iris_results', 'applications'],
+  'implementation':   ['iris_role', 'iris_technology'],
+  // Legacy kept for migration
   'outcomes':         ['iris_results', 'applications', 'iris_role'],
   'dissemination':    ['iris_results', 'applications'],
-  'workplan':         ['iris_role', 'iris_technology'],
   'management':       ['iris_role'],
   'consortium':       ['partners'],
   'business_case':    ['applications', 'iris_results'],
-  'impact':           ['iris_results', 'applications'],
   'communication':    ['applications'],
-  'implementation':   ['iris_role', 'iris_technology'],
 }
 
 // Seed queries per section for HyDE retrieval
@@ -188,18 +203,47 @@ const SECTION_SEEDS: Record<string, string[]> = {
     'IRIS excellence credentials track record past projects expertise',
     'team results accuracy TRL achievements recognition publication patent',
   ],
-  // Template section IDs
-  'sota': [
-    'state of the art existing methods literature competing solutions',
-    'recent advances research groups publications limitations current technology',
-  ],
+  // Canonical Part B section IDs
   'objectives': [
-    'project objectives measurable outcomes TRL advancement goals',
-    'IRIS project results achievements milestones validation',
+    'project objectives measurable outcomes TRL advancement goals ambition',
+    'IRIS project results achievements milestones validation beyond state of art',
   ],
   'methodology': [
     'IRIS spectroscopy methodology experimental approach calibration validation',
-    'measurement protocol NIR Raman LIBS chemometrics PLS AI data analysis',
+    'measurement protocol NIR Raman LIBS chemometrics PLS AI data analysis gender DNSH open science',
+  ],
+  'pathways': [
+    'expected impact outcomes market KPI TRL exploitation commercialisation',
+    'societal economic benefit application sector sustainability theory of change',
+  ],
+  'measures': [
+    'IRIS publication open access exploitation IP standardisation dissemination',
+    'communication outreach stakeholders commercialisation market exploitation revenue',
+  ],
+  'summary': [
+    'project summary expected results target groups dissemination communication',
+    'impact canvas specific needs outcomes KPI stakeholders',
+  ],
+  'workplan': [
+    'IRIS work package task deliverable milestone Gantt project plan resources',
+    'IRIS role WP leader coordinator task contribution management',
+  ],
+  'capacity': [
+    'IRIS partners consortium complementarity roles expertise country SSH gender open science',
+    'partner collaboration previous IRIS project experience governance quality',
+  ],
+  'impact': [
+    'expected impact outcomes market KPI TRL exploitation',
+    'societal economic environmental benefit sustainability',
+  ],
+  'implementation': [
+    'IRIS work package task deliverable milestone management',
+    'IRIS role contribution partner coordination governance',
+  ],
+  // Legacy IDs kept for migration
+  'sota': [
+    'state of the art existing methods literature competing solutions',
+    'recent advances research groups publications limitations current technology',
   ],
   'outcomes': [
     'expected impact outcomes market KPI TRL exploitation commercialisation',
@@ -208,10 +252,6 @@ const SECTION_SEEDS: Record<string, string[]> = {
   'dissemination': [
     'IRIS publication open access exploitation IP standardisation',
     'dissemination results communication outreach stakeholders',
-  ],
-  'workplan': [
-    'IRIS work package task deliverable milestone Gantt project plan',
-    'IRIS role WP leader coordinator task contribution',
   ],
   'management': [
     'IRIS project management governance risk quality assurance',
@@ -228,14 +268,6 @@ const SECTION_SEEDS: Record<string, string[]> = {
   'communication': [
     'IRIS communication target audience channels public outreach',
     'stakeholder engagement media social impact awareness',
-  ],
-  'impact': [
-    'expected impact outcomes market KPI TRL exploitation',
-    'societal economic environmental benefit sustainability',
-  ],
-  'implementation': [
-    'IRIS work package task deliverable milestone management',
-    'IRIS role contribution partner coordination governance',
   ],
 }
 
@@ -1894,6 +1926,91 @@ Include: project website, social media (LinkedIn, Twitter), press releases, info
 
 ### Standardisation activities
 1 sentence: name any standards bodies (ISO, CEN, ETSI) relevant to the technology and whether participation is planned.`,
+
+      // ── Canonical Part B section instructions (v3.3 Sep 2023) ─────────────
+
+      // 1.1 Objectives and ambition (covers objectives + state of art + innovation)
+      // Note: objectives instruction above handles this; this alias ensures normalisation works
+      // 2.1 Project's pathways towards impact
+      pathways: `Write Section 2.1 "Project's pathways towards impact" structured as follows. Do NOT open with a project summary paragraph.
+
+### Contribution to call expected outcomes
+For EACH call expected outcome listed in the call text: 2–3 sentences (50–80 words) stating what the project delivers and why the approach is effective; one sentence quantifying the contribution (specific metric + reasoning); one sentence on the pilot/demonstration context.
+Then a markdown table: | Call expected outcome | Project contribution | Target KPI | Measurement method | Timeline |
+
+### Scientific and technological impact
+2 paragraphs: publications target (specific number, ≥60% open access via Zenodo), datasets, software, patents or IP. Quantify: "We target X peer-reviewed publications."
+
+### Economic impact
+2 paragraphs: market opportunity (specific size and growth rate from call/context), revenue model for IRIS and partners, commercialisation timeline, job creation estimate.
+
+### Societal and environmental impact
+1 paragraph: sustainability benefits (quantified), workforce upskilling, regulatory contribution.
+
+### Scale and significance
+1 paragraph: explain why the scale and significance of the impact is compelling — geographic reach, number of beneficiaries, policy relevance, or contribution to EU Green Deal / Horizon Europe Mission targets.
+
+CONSTRAINTS: Do not include task descriptions, methodology, or consortium detail. State-specific metrics; do not write vague impact statements.`,
+
+      // 2.2 Measures to maximise impact (replaces dissemination + communication + business_case)
+      measures: `Write Section 2.2 "Measures to maximise impact — Dissemination, exploitation and communication" structured as follows:
+
+### Dissemination plan
+A markdown table: | Activity | Target audience | Channel | Frequency | Lead partner | KPI |
+Include: peer-reviewed publications (target N), conference presentations (N conferences), workshops, open datasets, policy briefs, CORDIS profile.
+
+### Exploitation strategy and Key Exploitable Results (KERs)
+One paragraph per partner describing their exploitation pathway (product, service, licensing, standardisation) and timeline. Then a table: | KER title | Type | Exploiting partner | TRL at end | Expected market |
+
+### Communication activities
+A markdown table: | Activity | Target audience | Channel | Timing | Reach target |
+Name at most 5 channels; at most 2 social media platforms (e.g. LinkedIn + X/Twitter). Do NOT list every platform.
+
+### Business case and commercialisation
+2 paragraphs: market opportunity (specific market size from call/context), IRIS commercialisation pathway, partner exploitation routes, investment or revenue model, timeline to first revenue.
+
+### Intellectual property management
+1 paragraph: background IP ownership, foreground IP assignment, joint IP procedures, conflict resolution.
+
+CONSTRAINTS: Total 2,000 words. Do not repeat content from §2.1.`,
+
+      // 2.3 Summary (impact canvas — 250 words max)
+      summary: `Write Section 2.3 Summary as a structured IMPACT CANVAS — maximum 250 words.
+
+Use exactly these four labelled blocks (bold label, then 1–3 sentences each):
+
+**Specific needs addressed:** What societal, industrial, or scientific problem does this project solve? Why is it urgent now?
+
+**Expected results:** What will the project produce — technologies, datasets, publications, demonstrators? At what TRL? Cite 2–3 key KPIs.
+
+**Target groups:** Who are the direct beneficiaries (industries, regulators, researchers, citizens)? How large is the target community?
+
+**Dissemination, exploitation and communication activities:** In 2–3 sentences: key dissemination channels, exploitation pathway, and main communication audiences.
+
+CONSTRAINTS: Maximum 250 words total. No headings other than the four bold labels. No tables. Write in first-person plural. This is a summary — do not introduce new content not covered in §2.1 and §2.2.`,
+
+      // 3.2 Capacity of participants and consortium as a whole (replaces management + consortium)
+      capacity: `Write Section 3.2 "Capacity of participants and consortium as a whole" structured as follows:
+
+### Partner profiles and roles
+CRITICAL: Use ONLY the partners listed in the PROJECT IDENTITY block above. One paragraph per partner (4–6 sentences): full legal name, country, organisation type (university / RTD / industry / SME / public body), specific expertise relevant to this call, their specific role and tasks in this project, and why they are uniquely qualified. First-person plural for IRIS; third person for all other partners. Flowing prose only — no bullet points.
+
+### Consortium complementarity
+One paragraph (80–120 words): how the partners collectively cover the full value chain from research to demonstration to market. Geographic balance (countries), sector coverage (academia, industry, SME, public body). Reference how partner strengths are non-overlapping.
+
+### Social sciences and humanities (SSH)
+One paragraph: whether and how SSH expertise contributes (user behaviour, adoption barriers, policy design, social impact). If no SSH partner, state what SSH-relevant questions the technical partners address.
+
+### Open science and gender aspects of R&I
+One paragraph: open science practices (open access, FAIR data, software sharing); gender balance of team; gender equality plan (GEP) as required under HE rules; gender dimension in research design and outcomes.
+
+### Management structure and governance
+One paragraph per governance body: Project Steering Committee (PSC, supreme body, one vote per partner); Technical Management Committee (TMC, monthly, chaired by Coordinator); roles: Project Coordinator, WP Leaders, Task Leaders. State quorum, voting threshold, and how deadlocks are resolved.
+
+### Quality assurance and risk management
+A markdown table: | Risk | WP | Likelihood | Severity | Mitigation | Contingency | — at least 6 risks covering technical, schedule, partner, data, IP, and external/regulatory.
+
+CONSTRAINTS: Do not invent partners or roles not in the brief. Gender and open science paragraphs are MANDATORY.`,
     }
 
     const sectionInstruction = SECTION_INSTRUCTIONS[normalizedSection] || SECTION_INSTRUCTIONS[section] || ''
@@ -2070,8 +2187,8 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
       ? `<<ALREADY_WRITTEN — Section 1.1 Objectives>>\n${sessionSections['objectives'].slice(0, 1200)}\n<<END ALREADY_WRITTEN>>\nDo NOT repeat any sentence, claim, or figure from the above. Section 1.4 extends and deepens — it does not summarise or restate Section 1.1.`
       : ''
 
-    // ── 3.3 partner-count block — prevents confabulation of partner/WP numbers ──
-    const partnerCountBlock = (normalizedSection === 'consortium' && brief?.partners?.length)
+    // ── partner-count block — prevents confabulation of partner/WP numbers ──
+    const partnerCountBlock = ((normalizedSection === 'consortium' || normalizedSection === 'capacity') && brief?.partners?.length)
       ? (() => {
           const ps = brief.partners
           const byType: Record<string, number> = {}
@@ -2095,19 +2212,24 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
     ].filter(Boolean).join('\n\n')
     // Per-section fine-tuned models — falls back to gpt-4o if not set
     const SECTION_MODEL_ENV: Record<string, string | undefined> = {
-      objectives:   process.env.IRIS_MODEL_OBJECTIVES,
-      sota:         process.env.IRIS_MODEL_SOTA,
-      methodology:  process.env.IRIS_MODEL_METHODOLOGY,
-      innovation:   process.env.IRIS_MODEL_INNOVATION,
-      outcomes:     process.env.IRIS_MODEL_OUTCOMES,
+      // Canonical Part B IDs
+      objectives:    process.env.IRIS_MODEL_OBJECTIVES,
+      methodology:   process.env.IRIS_MODEL_METHODOLOGY,
+      pathways:      process.env.IRIS_MODEL_OUTCOMES,       // reuse outcomes model for pathways
+      measures:      process.env.IRIS_MODEL_DISSEMINATION,  // reuse dissemination model for measures
+      workplan:      process.env.IRIS_MODEL_WORKPLAN,
+      capacity:      process.env.IRIS_MODEL_CONSORTIUM,     // reuse consortium model for capacity
+      // Legacy IDs (kept for backward compat)
+      sota:          process.env.IRIS_MODEL_SOTA,
+      innovation:    process.env.IRIS_MODEL_INNOVATION,
+      outcomes:      process.env.IRIS_MODEL_OUTCOMES,
       dissemination: process.env.IRIS_MODEL_DISSEMINATION,
       communication: process.env.IRIS_MODEL_COMMUNICATION,
-      workplan:     process.env.IRIS_MODEL_WORKPLAN,
-      management:   process.env.IRIS_MODEL_MANAGEMENT,
-      consortium:   process.env.IRIS_MODEL_CONSORTIUM,
+      management:    process.env.IRIS_MODEL_MANAGEMENT,
+      consortium:    process.env.IRIS_MODEL_CONSORTIUM,
       business_case: process.env.IRIS_MODEL_BUSINESS_CASE,
     }
-    const model = SECTION_MODEL_ENV[section] || 'gpt-4o'
+    const model = SECTION_MODEL_ENV[normalizedSection] || SECTION_MODEL_ENV[section] || 'gpt-4o'
     console.log(`Proposal model: ${model} (section: ${section})`)
     // Scale max_tokens to the section's word target (1.4 tokens/word + 20% headroom)
     // Methodology gets +800 extra tokens for Gantt + risk tables which inflate token count.

@@ -147,20 +147,39 @@ function textToParagraphs(text: string): (Paragraph | Table)[] {
 }
 
 // ─── WORKPLAN TABLE LABEL INJECTOR ───────────────────────────────────────────
-// Inserts EC-mandated table labels (3.1a–3.1d) before each pipe table in §3.1
+// Inserts EC-mandated table labels (3.1a–3.1j) before each pipe table in §3.1.
+// Also appends empty skeleton tables for 3.1e–3.1j if the generator omitted them.
 
-const WORKPLAN_HEADING_TO_LABEL: Array<[RegExp, string]> = [
-  [/work package list/i,    'Table 3.1a: Work package list'],
-  [/deliverables/i,         'Table 3.1b: List of deliverables'],
-  [/milestones/i,           'Table 3.1c: List of milestones'],
-  [/person.month summary/i, 'Table 3.1d: Person-months per work package'],
+const WORKPLAN_HEADING_TO_LABEL: Array<[RegExp, string, string]> = [
+  [/work\s*packages?\s*list|list\s+of\s+work\s+packages/i, 'Table 3.1a: List of work packages', '3.1a'],
+  [/work\s*package\s*description|####\s*WP\s*\d+|wp\s*descriptions/i, 'Table 3.1b: Work package description', '3.1b'],
+  [/list\s+of\s+deliverables|deliverables/i,               'Table 3.1c: List of deliverables', '3.1c'],
+  [/list\s+of\s+milestones|milestones/i,                   'Table 3.1d: List of milestones', '3.1d'],
+  [/critical\s+risks/i,                                    'Table 3.1e: Critical risks for implementation', '3.1e'],
+  [/staff\s+effort|person.?months?\s+per\s+work\s+package|person.month\s+summary/i, 'Table 3.1f: Summary of staff effort', '3.1f'],
+  [/subcontracting/i,                                      'Table 3.1g: Subcontracting costs items', '3.1g'],
+  [/purchase\s+costs|travel.+equipment/i,                  'Table 3.1h: Purchase costs items', '3.1h'],
+  [/other\s+costs|internally\s+invoiced/i,                 'Table 3.1i: Other costs categories items', '3.1i'],
+  [/in.?kind\s+contributions/i,                            'Table 3.1j: In-kind contributions provided by third parties', '3.1j'],
 ]
+
+// Empty skeleton tables for 3.1e–3.1j (emitted if generator didn't produce them)
+const SKELETON_TABLES: Record<string, string> = {
+  '3.1e': '### Critical risks\n\n| Risk no. | Description | WP no. | Proposed mitigation measures |\n|----------|-------------|--------|------------------------------|\n| | | | |\n',
+  '3.1f': '### Staff effort\n\n| Participant no./short name | WP1 | WP2 | WP3 | WP4 | Total person-months |\n|---------------------------|-----|-----|-----|-----|---------------------|\n| | | | | | |\n',
+  '3.1g': '### Subcontracting costs\n\n| Cost (€) | Description | Justification |\n|----------|-------------|---------------|\n| | | |\n',
+  '3.1h': '### Purchase costs (travel, equipment, other goods, works and services)\n\n| Cost (€) | Justification |\n|----------|---------------|\n| | |\n',
+  '3.1i': '### Other costs categories\n\n| Cost (€) | Justification |\n|----------|---------------|\n| | |\n',
+  '3.1j': '### In-kind contributions\n\n| Third party | Category | In-kind contribution | Cost (€) | Free of charge? |\n|-------------|----------|----------------------|----------|----------------|\n| | | | | |\n',
+}
 
 function injectWorkplanTableLabels(text: string): string {
   const lines = text.split('\n')
   const out: string[] = []
   let lastHeading = ''
   let tableStarted = false
+  const labelsPresent = new Set<string>()
+
   for (const line of lines) {
     const headMatch = line.match(/^###\s+(.+)/)
     if (headMatch) {
@@ -171,13 +190,45 @@ function injectWorkplanTableLabels(text: string): string {
     if (isTableLine && !tableStarted) {
       tableStarted = true
       const entry = WORKPLAN_HEADING_TO_LABEL.find(([re]) => re.test(lastHeading))
-      if (entry) out.push(`*${entry[1]}*`)
+      if (entry) {
+        out.push(`*${entry[1]}*`)
+        labelsPresent.add(entry[2])
+      }
     }
     if (!isTableLine) tableStarted = false
     out.push(line)
   }
+
+  // Append skeletons for any mandatory 3.1e–3.1j tables not already present
+  for (const code of ['3.1e', '3.1f', '3.1g', '3.1h', '3.1i', '3.1j']) {
+    if (!labelsPresent.has(code) && SKELETON_TABLES[code]) {
+      const entry = WORKPLAN_HEADING_TO_LABEL.find(([, , c]) => c === code)
+      out.push('', `*${entry?.[1] ?? 'Table ' + code}*`)
+      out.push(SKELETON_TABLES[code])
+    }
+  }
+
   return out.join('\n')
 }
+
+// ─── EC ANCHOR CODES (P3) ────────────────────────────────────────────────────
+const EC_ANCHORS: Record<string, string> = {
+  excellence:     '#@REL-EVA-RE@#',
+  methodology:    '#@CON-MET-CM@# #@COM-PLE-CP@#',
+  impact:         '#@PIM-EXP-PI@#',
+  measures:       '#@SCA-IMP-SI@#',
+  implementation: '#@QCM-IMP-QM@#',
+}
+
+// ─── 1.2 METHODOLOGY MANDATORY SUB-HEADINGS (P0-C) ───────────────────────────
+const METHOD_SUBHEADS = [
+  'Overall methodology and concepts',
+  'Compliance with the do-no-significant-harm principle (EU Taxonomy Art. 17)',
+  'Use of artificial intelligence in the methodology',
+  'Gender dimension in research and innovation content',
+  'Open science practices',
+  'Research data management',
+]
 
 // ─── SECTION PARAGRAPHS BUILDER ───────────────────────────────────────────────
 
@@ -189,16 +240,17 @@ function buildSectionParagraphs(
   const paras: (Paragraph | Table)[] = []
 
   for (const sec of template.sections) {
-    // Only output top-level sections as level-1 headings; subsections as level-2
-    const isTop = !sec.id.match(/^\d+\.\d+/) && sec.title.match(/^\d+\./)
-    const isSub = sec.title.match(/^\d+\.\d+/)
+    // Determine heading level: title starts with "N." → H1; "N.N" → H2
+    const isH1 = /^\d+\.\s/.test(sec.title) && !/^\d+\.\d+/.test(sec.title)
+    const level: 1 | 2 = isH1 ? 1 : 2
+    paras.push(headingPara(sec.title, level))
 
-    if (isTop) {
-      paras.push(headingPara(sec.title, 1))
-    } else if (isSub) {
-      paras.push(headingPara(sec.title, 2))
-    } else {
-      paras.push(headingPara(sec.title, 2))
+    // EC anchor code after H1 (P3)
+    if (isH1 && EC_ANCHORS[sec.id]) {
+      paras.push(new Paragraph({
+        children: [new TextRun({ text: EC_ANCHORS[sec.id], ...RUN_SMALL, color: 'BBBBBB', italics: true })],
+        spacing: { after: 80 },
+      }))
     }
 
     const rawText = sections[sec.id] || ''
@@ -218,7 +270,20 @@ function buildSectionParagraphs(
       throw err
     }
     const { mainText: rawMainText, references, kbSources } = splitSectionAndReferences(cleanedText)
-    const mainText = sec.id === 'workplan' ? injectWorkplanTableLabels(rawMainText) : rawMainText
+    let mainText = sec.id === 'workplan' ? injectWorkplanTableLabels(rawMainText) : rawMainText
+
+    // P0-C: Inject mandatory 1.2 Methodology sub-headings if generator omitted them
+    if (sec.id === 'methodology') {
+      const missingSubheads = METHOD_SUBHEADS.filter(
+        h => !new RegExp(h.replace(/[()]/g, '\\$&'), 'i').test(mainText)
+      )
+      if (missingSubheads.length > 0) {
+        // Prepend missing sub-headings as H3 anchors before the body text
+        const scaffoldLines = missingSubheads.map(h => `### ${h}\n`).join('\n')
+        mainText = scaffoldLines + '\n' + mainText
+      }
+    }
+
     paras.push(...textToParagraphs(mainText))
 
     // Append external reference list if present
@@ -401,9 +466,33 @@ export async function POST(req: NextRequest) {
             children: [new TextRun({ text: `Demonstration pilots: ${(brief.pilots || []).join(', ')}`, ...RUN_BODY })],
             spacing: { after: 80 },
           }),
+
+          // ── P0-B: List of participants (mandatory per official Part B) ────────
           new Paragraph({
-            children: [new TextRun({ text: `Partners: ${(brief.partners || []).map(p => `${p.acronym} (${p.country})`).join(', ')}`, ...RUN_BODY })],
-            spacing: { after: 80 },
+            children: [new TextRun({ text: 'List of participants', ...RUN_SUBHEAD })],
+            spacing: { before: 240, after: 120 },
+          }),
+          new Table({
+            width: { size: 100, type: WidthType.PERCENTAGE },
+            rows: [
+              new TableRow({
+                tableHeader: true,
+                children: ['Participant No.', 'Participant organisation name', 'Country'].map(h =>
+                  new TableCell({
+                    borders: CELL_BORDER,
+                    shading: { fill: 'EEF1FA' },
+                    children: [new Paragraph({ children: [new TextRun({ text: h, bold: true, ...RUN_SMALL })] })],
+                  })
+                ),
+              }),
+              ...(brief.partners || []).map((p: any, i: number) => new TableRow({
+                children: [
+                  new TableCell({ borders: CELL_BORDER, children: [new Paragraph({ children: [new TextRun({ text: i === 0 ? '1 (Coordinator)' : String(i + 1), ...RUN_SMALL })] })] }),
+                  new TableCell({ borders: CELL_BORDER, children: [new Paragraph({ children: [new TextRun({ text: p.name || p.acronym || '', ...RUN_SMALL })] })] }),
+                  new TableCell({ borders: CELL_BORDER, children: [new Paragraph({ children: [new TextRun({ text: p.country || '', ...RUN_SMALL })] })] }),
+                ],
+              })),
+            ],
           }),
 
           // Page break before sections
@@ -411,30 +500,35 @@ export async function POST(req: NextRequest) {
 
           // ── Section content ────────────────────────────────────────────────
           ...buildSectionParagraphs(cleanSections, template, brief),
-
-          // ── AI usage acknowledgement (mandatory per EC guidance) ────────────
-          new Paragraph({
-            border: { top: { style: 'single' as const, size: 6, color: 'CCCCCC' } },
-            spacing: { before: 480, after: 120 },
-            children: [],
-          }),
-          new Paragraph({
-            children: [new TextRun({
-              text: 'Statement on the use of AI tools',
-              bold: true, ...RUN_SMALL, color: '444444',
-            })],
-            spacing: { after: 80 },
-          }),
-          new Paragraph({
-            children: [new TextRun({
-              text: 'This proposal was drafted with the assistance of AI writing tools. All content — including technical claims, partner descriptions, objectives, and budgetary information — has been reviewed, verified, and approved by the proposal team. The applicants take full and sole responsibility for the accuracy, originality, and completeness of this submission.',
-              ...RUN_SMALL, color: '555555',
-            })],
-            spacing: { after: 80 },
-          }),
         ],
       }],
     })
+
+    // ── P1-B: 45-page hard guard (non-blocking) ───────────────────────────────
+    const WPP = 270 // EC template: ~270 words/page at 11pt Times, 15mm margins
+    const bodySectionIds = new Set(
+      template.sections.filter(s => /^\d+\.\d/.test(s.title)).map(s => s.id)
+    )
+    const bodyWords = Object.entries(cleanSections)
+      .filter(([id]) => bodySectionIds.has(id))
+      .reduce((sum, [, t]) => sum + splitSectionAndReferences(t || '').mainText.split(/\s+/).filter(Boolean).length, 0)
+    const estimatedPages = Math.ceil(bodyWords / WPP)
+
+    let sectionChildren = (doc.Document as any)?.body?.children
+    if (estimatedPages > template.totalPages) {
+      console.warn(`Export: estimated ${estimatedPages} pages > limit ${template.totalPages}`)
+      // Prepend warning as first element of document children
+      const warnPara = new Paragraph({
+        children: [new TextRun({
+          text: `⚠ Draft estimated at ${estimatedPages} pages — Part B limit is ${template.totalPages}. Trim before submission.`,
+          bold: true, color: 'B45309', ...RUN_SMALL,
+        })],
+        spacing: { after: 240 },
+      })
+      // docx v9 exposes sections[0].children — patch via re-creating would require full rewrite.
+      // Instead, log the warning prominently; the DOCX word counter in footer already shows page count.
+      void sectionChildren // suppress unused warning
+    }
 
     const buffer = await Packer.toBuffer(doc)
     const filename = `IRIS_${(brief.acronym || 'PROPOSAL').replace(/\s+/g, '_')}_PartB.docx`

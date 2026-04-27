@@ -2138,6 +2138,17 @@ export async function POST(req: NextRequest) {
       }
     }
 
+    // Legacy → canonical fallback: old section IDs that no longer exist in current templates
+    // are remapped so they produce content rather than silently returning empty.
+    const LEGACY_SECTION_MAP: Record<string, string> = {
+      'concept':   'objectives',   // concept note → objectives and ambition (1.1)
+      'management': 'capacity',    // management → merged into capacity (3.2)
+    }
+    if (LEGACY_SECTION_MAP[normalizedSection]) {
+      console.log(`Legacy section ID remapped: "${normalizedSection}" → "${LEGACY_SECTION_MAP[normalizedSection]}"`)
+      normalizedSection = LEGACY_SECTION_MAP[normalizedSection]
+    }
+
     // ── DOCX download — skip re-generation, build from provided text ──────────
     if (outputType === 'docx' && generatedText) {
       const label = SECTION_LABELS[section] || section

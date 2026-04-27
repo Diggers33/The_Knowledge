@@ -278,7 +278,12 @@ export default function ProposalPage() {
       if (d.partners)      setPartners(d.partners)
       if (d.phase)         setPhase(d.phase)
       if (d.concepts)      setConcepts(d.concepts)
-      if (d.activeSection) setActiveSection(d.activeSection)
+      // Validate restored activeSection against the current template; fall back to first writable section
+      if (d.activeSection) {
+        const tpl = d.brief?.template ? TEMPLATES[`${d.brief.template.actionType}_${d.brief.template.stage}`] : null
+        const validIds = new Set((tpl?.sections ?? []).filter(isSubsection).map((s: any) => s.id))
+        setActiveSection(validIds.has(d.activeSection) ? d.activeSection : (tpl?.sections.filter(isSubsection)[0]?.id ?? d.activeSection))
+      }
 
       // Schema v1 → v2 migration: remap old section IDs to canonical Part B structure
       if (d.sections) {
@@ -753,7 +758,12 @@ export default function ProposalPage() {
       if (d.sections)      setSections(d.sections)
       if (d.phase)         setPhase(d.phase)
       if (d.concepts)      setConcepts(d.concepts)
-      if (d.activeSection) setActiveSection(d.activeSection)
+      // Validate restored activeSection against the draft's template; fall back to first writable section
+      if (d.activeSection) {
+        const tpl = d.brief?.template ? TEMPLATES[`${d.brief.template.actionType}_${d.brief.template.stage}`] : null
+        const validIds = new Set((tpl?.sections ?? []).filter(isSubsection).map((s: any) => s.id))
+        setActiveSection(validIds.has(d.activeSection) ? d.activeSection : (tpl?.sections.filter(isSubsection)[0]?.id ?? d.activeSection))
+      }
       setDraftId(id)
       setSaveStatus('saved')
       setShowDrafts(false)

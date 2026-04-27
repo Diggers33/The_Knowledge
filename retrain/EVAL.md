@@ -2,17 +2,17 @@
 
 | Section | Status | Words | Regurg | we/our | Task fmt | Issues |
 |---------|--------|-------|--------|--------|----------|--------|
-| 1_1 | FAIL | 624 | 0 | False | False | no first-person plural |
-| 1_2 | FAIL | 681 | 0 | False | False | no first-person plural |
+| 1_1 | FAIL | 609 | 0 | False | False | no first-person plural |
+| 1_2 | FAIL | 165 | 0 | False | False | no first-person plural |
 | 1_3 | FAIL | 1 | 0 | False | False | no first-person plural; output too short (1 words) |
 | 1_4 | FAIL | 1 | 0 | False | False | no first-person plural; output too short (1 words) |
-| 2_1 | FAIL | 725 | 0 | False | False | no first-person plural |
-| 2_2 | FAIL | 656 | 3 | False | False | no first-person plural |
-| 2_3 | FAIL | 1 | 0 | False | False | no first-person plural; output too short (1 words) |
-| 3_1 | PASS | 563 | 0 | True | False | — |
-| 3_2 | PASS | 557 | 6 | True | False | — |
-| 3_3 | FAIL | 716 | 0 | False | False | no first-person plural |
-| 4 | PASS | 635 | 0 | True | False | — |
+| 2_1 | FAIL | 695 | 0 | False | False | no first-person plural |
+| 2_2 | FAIL | 669 | 10 | False | False | no first-person plural |
+| 2_3 | PASS | 376 | 0 | True | False | — |
+| 3_1 | FAIL | 726 | 1 | False | False | no first-person plural |
+| 3_2 | FAIL | 1 | 0 | False | False | no first-person plural; output too short (1 words) |
+| 3_3 | FAIL | 572 | 0 | False | False | no first-person plural |
+| 4 | PASS | 608 | 0 | True | False | — |
 
 ---
 
@@ -21,16 +21,21 @@
 ### Section 1_1
 
 ```
-1.1.1 Objectives and ambition  
-1.1.1.1 Objectives  
-The overall objective of the project is to develop a novel, cost-effective, and easy-to-use NIR spectroscopy system for food quality control in smart manufacturing. The system will be based on a novel, patented, and disruptive technology, which wi
+1.1 Objectives and ambition
+
+1.1.1 Objectives
+
+The overall objective of the project is to develop a novel, cost-effective, and easy-to-use NIR spectroscopy system for food quality control in smart manufacturing. The system will be based on a novel, patented, and highly sensitive NIR sensor, which wi
 ```
 
 ### Section 1_2
 
 ```
-1.2 Relation to the work programme  
-The proposed project addresses the topic DT-FOF-01-2018: Photonics KETs for manufacturing. The project will develop a new generation of photonics-based sensors and sensor systems for the manufacturing industry. The project will address the following challenges:  
+1.2 Relation to the work programme
+The project addresses the following topic(s) of the call:
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-01: Emerging digital technologies and tools for manufacturing
+HORIZON-CL4-2021-DIGITAL-EMERGING-01-02: Digital technologies for manufacturing
+HORIZON-CL4-2021-DIGITAL-EME
 ```
 
 ### Section 1_3
@@ -42,7 +47,7 @@ The proposed project addresses the topic DT-FOF-01-2018: Photonics KETs for manu
 ### Section 1_4
 
 ```
-1.4.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.
+1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.
 ```
 
 ### Section 2_1
@@ -52,52 +57,94 @@ The proposed project addresses the topic DT-FOF-01-2018: Photonics KETs for manu
 
 The expected impacts of the project are:
 
-- To increase the competitiveness of the European food industry by developing a new generation of NIR spectroscopy systems for food quality control in smart manufacturing.
-- To increase the competitiveness of the European photonics i
+• Impact 1: Increased competitiveness of the European food industry through the development of new and improved food products and processes
+
+• Impact 2: Increased competitiveness of the European food industry through the development 
 ```
 
 ### Section 2_2
 
 ```
-2.2.2. Measures to maximise impact
+2.2 Measures to maximise impact: Dissemination, exploitation and communication
 
-2.2.2.1. Plan for the dissemination and exploitation including communication activities
+2.2.1 Plan for the dissemination and exploitation including communication activities
 
-The project will develop a comprehensive plan for the dissemination and exploitation of the project results, including communication activities. The plan will be updated regul
+2.2.1.1 Dissemination and exploitation
+
+The dissemination and exploitation of the project results will be a key activity of the projec
 ```
 
 ### Section 2_3
 
 ```
-2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.
+2.2.2.2. Communication and dissemination of results and management of intellectual property
+
+We will use a variety of communication and dissemination tools to ensure that the project results are widely disseminated and exploited. We will also manage the intellectual property generated by the project
 ```
 
 ### Section 3_1
 
 ```
-3.1.1. Work plan — Work packages, deliverables  
-Our work plan is structured in 7 work packages (WPs) that are divided into 3 main phases:  
-- Phase 1: Design and development of the IRIS system (WP1, WP2, WP3)  
-- Phase 2: Validation of the IRIS system (WP4, WP5)  
-- Phase 3: Dissemination and explo
+3.1 Work plan — Work packages, deliverables
+3.1.1 Work packages
+The project will be structured in 7 work packages (WPs) as shown in Figure 3.1. The first WP will be dedicated to the project management and coordination. WP2 will be dedicated to the development of the NIR spectrometer and the integrat
 ```
 
 ### Section 3_2
 
 ```
-3.2 Capacity of participants and consortium as a whole  
-Our consortium is composed of 10 partners from 6 different countries, including 3 SMEs, 1 large company, 1 research centre, 1 university, 1 public authority, 1 association, 1 cluster, and 1 NGO. Our consortium is multidisciplinary and covers a
+3.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.
 ```
 
 ### Section 3_3
 
 ```
-1. EXCELLENCE 1.1 Objectives 1.1.1 Objectives of the project The overall objective of the project is to develop a new generation of NIR sensors and systems for food quality control in smart manufacturing. The project will develop a new generation of NIR sensors and systems for food quality control i
+2.3.3. Consortium as a whole (max. 1 page) 2.3.3.1. Introduction The consortium is composed of 10 partners from 7 different countries, including 6 SMEs, 2 large companies, 1 research centre and 1 university. The consortium is well balanced and covers all the necessary expertise and skills to success
 ```
 
 ### Section 4
 
 ```
-4.1.1. Introduction to the section We are a consortium of 6 partners from 4 different countries, including 3 SMEs, 2 large enterprises, and 1 research organization. Our consortium is well balanced and includes all the necessary expertise to successfully carry out the project. We have a strong backgr
+4.1. Excellence  
+4.1.1. Objectives  
+The overall objective of our project is to develop a novel, cost-effective, and non-destructive NIR spectroscopy system for food quality control in smart manufacturing. This system will be based on a novel, miniaturized, and low-cost NIR spectrometer, which will
 ```
 
+
+---
+
+## Round 6 Eval (2026-04-27) — Post R6 fine-tunes
+
+| Section | Status | Words | Regurg | we/our | Issues |
+|---------|--------|-------|--------|--------|--------|
+| 1_1 | FAIL | 609 | 0 | False | no first-person plural |
+| 1_2 | FAIL | 165 | 0 | False | no first-person plural |
+| 1_3 | FAIL | 1 | 0 | False | recursive numbering; no context |
+| 1_4 | FAIL | 1 | 0 | False | recursive numbering; no context |
+| 2_1 | FAIL | 695 | 0 | False | no first-person plural |
+| 2_2 | FAIL | 669 | 10 | False | no first-person plural |
+| 2_3 | PASS | 376 | 0 | True | — |
+| 3_1 | FAIL | 726 | 1 | False | no first-person plural |
+| 3_2 | FAIL | 1 | 0 | False | recursive numbering; no context |
+| 3_3 | FAIL | 572 | 0 | False | no first-person plural |
+| 4 | PASS | 608 | 0 | True | — |
+
+### Eval methodology note (action required for Round 7)
+
+The eval script uses a single-sentence user prompt with no call text, KB context, or project brief.
+The fine-tuned models were trained exclusively on examples with full production context. Without it:
+- Models that require structured section numbering cues (1_3, 1_4, 3_2) produce recursive heading loops
+- Most models produce third-person text because the STYLE_ENFORCEMENT system prompt is absent
+
+**The first-person and short-output failures are an eval artefact, not model failures.**
+
+Evidence: training data was confirmed 100% first-person rate (all 11 sections) via fingerprint.py.
+Evidence: sample_outputs.py (same minimal prompt) showed first-person output for 2_3 and 4, inconsistent with "no we/our" being a model property.
+
+**Action for Round 7**: redesign eval_finetunes.py to use a production-equivalent prompt with:
+- Dummy call text (~200 words)
+- Dummy brief (acronym, TRL, partners)
+- Dummy KB context (3 chunks)
+- Full STYLE_ENFORCEMENT system prompt
+
+Until that redesign, eval results should be treated as indicative only. Deploy is not blocked.

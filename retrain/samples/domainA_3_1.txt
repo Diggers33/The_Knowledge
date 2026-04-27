@@ -1,39 +1,35 @@
 === Domain A: NIR spectroscopy for real-time food quality control in smart manufacturing lines ===
 === Section 3_1: Work plan and work packages ===
 
-Work plan and Deliverables
-
-Work plan and Deliverables
-
-Work package number 1
-Start date or starting event: 01.03.2021
-Work package title
-Work package
-NIR spectroscopy for real-time food quality control in smart manufacturing lines
-Objective
-To improve the quality and safety of food products while minimizing costs and environmental impact.
-Participant number
-1,2,3,4,5,6,7,8,9,10,11,12
-Participant short name
-IRIS, CRE, USTUTT, BOKU, AIT, TAU, ATOS, ITENE, HUNOVA, MINERVA, IAP, UNIBO
-Person-months per participant
-12 11 9 12 7.5 11 15 13 12 10 8 7.5
-
-Work package description
-Objectives
-• To develop new NIR sensors and miniaturized HARMS for the real-time monitoring of food safety and quality parameters
-• To develop NIR-based methods to assess accurately the critical quality parameters of meat, bakery and dairy products in real-time.
-• To provide innovative solutions for the compensation of the effects of temperature and sample heterogeneity on the NIR measurement and to ensure robustness of the measurement.
-• To develop a flexible control platform for smart manufacturing lines based on the NIR quality parameters and the process conditions.
-• To improve the quality and safety of food products while minimizing costs and environmental impact.
-Description of work
-Task 1.1. Requirement analysis for the real-time monitoring of food quality in smart manufacturing lines
-The requirements for the real-time monitoring of food quality in smart manufacturing lines will be identified by using a customer-centric approach and a digital technology adoption approach. The requirements will be collected at three levels: at the sensor level, at the manufacturing line level and at the industrial level. The documents of the EU project AgriChemWhey will serve as a starting point for the requirement analysis. The requirements will be collected by using two tools: a survey and interviews. The survey will be performed by using a webbased tool and will be mainly used for the collection of requirements at the industrial level. The survey will be performed by IRIS and will be distributed by the consortium members. The survey will include questions on the current measurement solutions used for quality control, on the critical parameters to be controlled, on the type of sensors to be used, on the requirements for the measurement in terms of sampling frequency, reliability, robustness, and interfaces. The interviews will be mainly used for the collection of requirements at the sensor and manufacturing line levels. The interviews will be performed by the partners responsible for the development of the sensors and the manufacturing lines. The interviews will be performed by using a predefined script that will be developed by IRIS. The collected requirements will be analysed by IRIS and CRE and will be used as a basis for the development of the NIR sensors, the HARMS and the flexible control platform. The requirements will be validated by the industrial partners by using the MoSCoW method (Must have, Should have, Could have, Won’t have).
-Deliverables
-D1.1. Requirements for the real-time monitoring of food quality in smart manufacturing lines
-Task 1.2. Design of NIR sensors and miniaturized HARMS
-The design of the NIR sensors and the miniaturized HARMS will be performed by IRIS, USTUTT and HUNOVA. The design will be based on the requirements identified in Task 1.1 and will be supported by modelling and simulation tools. The design will be performed in an iterative manner and will include three steps: preliminary design, detailed design, and final design. The preliminary design will include the definition of the measurement principle, the selection of the components, and the definition of the measurement head. The detailed design will include the detailed design of the measurement head, the definition of the communication interfaces, and the definition of the mechanical interfaces. The final design will include the final definition of the measurement head, the definition of the communication interfaces, and the definition of the mechanical interfaces. The design will be documented in a technical report that will be shared with the partners responsible for the development of the NIR sensors, the HARMS and the flexible control platform.
-Deliverables
-D1.2. Design of the NIR sensors and the miniaturized HARMS
-Task 1.3. Development of NIR-based methods for the assessment of critical quality parameters
-The development of the NIR-based methods for the assessment of critical quality parameters of meat, bakery and dairy products will be performed by CRE, BOKU, USTUTT and IAP. The methods will be based on the requirements identified in Task 1.1 and will be supported by modelling and simulation tools. The development will be performed in an iterative manner and will include three steps: preliminary development,
+3.1 Work plan — Work packages, deliverables  
+The work plan is the implementation plan of the project and it consists of the following elements:  
+• List of work packages  
+• Deliverables, milestones  
+• Detailed work package description  
+• Overview of effort  
+• List of milestones  
+• List of deliverables  
+• Gantt chart  
+• PERT chart  
+3.1.1 List of work packages  
+Table 3.1.1.1: List of work packages  
+3.1.2 List of deliverables  
+Table 3.1.2.1: List of deliverables  
+3.1.3 Work package description  
+Table 3.1.3.1: Work package 1  
+Table 3.1.3.2: Work package 2  
+Table 3.1.3.3: Work package 3  
+Table 3.1.3.4: Work package 4  
+Table 3.1.3.5: Work package 5  
+Table 3.1.3.6: Work package 6  
+Table 3.1.3.7: Work package 7  
+3.1.4 Overview of effort  
+Table 3.1.4.1: Effort per partner and work package  
+Table 3.1.4.2: Effort per person (person/month) per work package per partner  
+3.1.5 Gantt chart  
+Figure 3.1.5.1: Gantt chart  
+3.1.6 PERT chart  
+Figure 3.1.6.1: PERT chart  
+3.1.7 List of milestones  
+Table 3.1.7.1: List of milestones  
+3.1.8 Table 3.1.8.1: List of deliverables

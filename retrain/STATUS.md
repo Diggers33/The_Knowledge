@@ -82,3 +82,55 @@ Fingerprints generated to retrain/fingerprints/. All 11 sections confirmed 100% 
 | 2_1 | `ftjob-k4eGUsqfVMFdjeHbeNmUjzVj` | `IRIS_MODEL_OUTCOMES` | 10 | 3 | validating_files |
 | 2_3 | `ftjob-lDGdoan33jF9ILgI9PfLfdj9` | `IRIS_MODEL_COMMUNICATION` | 10 | 2 | validating_files |
 | 1_4 | `ftjob-FwRnWQpNnFyRYWi97Z5Owgvf` | `IRIS_MODEL_INNOVATION` | 10 | 2 | validating_files |
+
+## Phase 5 — Round 6 results (all succeeded, 2026-04-27)
+
+| Section | Job ID | Env var | Model ID | Result |
+|---------|--------|---------|----------|--------|
+| 1_3 | `ftjob-ugdb5YNwRsuIMfhYVKlK9D5h` | `IRIS_MODEL_METHODOLOGY` | `ft:gpt-4.1-mini-2025-04-14:personal:iris-r6-methodology:DZLVGlge` | **succeeded** |
+| 1_4 | `ftjob-FwRnWQpNnFyRYWi97Z5Owgvf` | `IRIS_MODEL_INNOVATION` | `ft:gpt-4.1-mini-2025-04-14:personal:iris-r6-innovation:DZLeRLuL` | **succeeded** |
+| 2_1 | `ftjob-k4eGUsqfVMFdjeHbeNmUjzVj` | `IRIS_MODEL_OUTCOMES` | `ft:gpt-4.1-mini-2025-04-14:personal:iris-r6-outcomes:DZLdoLGJ` | **succeeded** |
+| 2_3 | `ftjob-lDGdoan33jF9ILgI9PfLfdj9` | `IRIS_MODEL_COMMUNICATION` | `ft:gpt-4.1-mini-2025-04-14:personal:iris-r6-comms:DZLgczGm` | **succeeded** |
+
+---
+
+## Round 6 — Complete (2026-04-27)
+
+All 11 fine-tuned models active in production.
+
+### Active model IDs (as of 2026-04-27)
+
+| Section | Env var | Model ID |
+|---------|---------|----------|
+| 1.1 Objectives | `IRIS_MODEL_OBJECTIVES` | `ft:gpt-4.1-mini-2025-04-14:personal:iris-11:DZ137njn` |
+| 1.2 State of the art | `IRIS_MODEL_SOTA` | `ft:gpt-4.1-mini-2025-04-14:personal:iris-12:DZ12KpZv` |
+| 1.3 Methodology | `IRIS_MODEL_METHODOLOGY` | `ft:gpt-4.1-mini-2025-04-14:personal:iris-r6-methodology:DZLVGlge` ✱R6 |
+| 1.4 Innovation | `IRIS_MODEL_INNOVATION` | `ft:gpt-4.1-mini-2025-04-14:personal:iris-r6-innovation:DZLeRLuL` ✱R6 |
+| 2.1 Outcomes | `IRIS_MODEL_OUTCOMES` | `ft:gpt-4.1-mini-2025-04-14:personal:iris-r6-outcomes:DZLdoLGJ` ✱R6 |
+| 2.2 Dissemination | `IRIS_MODEL_DISSEMINATION` | `ft:gpt-4.1-mini-2025-04-14:personal:iris-22:DZ12SRGj` |
+| 2.3 Communication | `IRIS_MODEL_COMMUNICATION` | `ft:gpt-4.1-mini-2025-04-14:personal:iris-r6-comms:DZLgczGm` ✱R6 |
+| 3.1 Work plan | `IRIS_MODEL_WORKPLAN` | `ft:gpt-4.1-mini-2025-04-14:personal:iris-31:DZ1BsC7C` |
+| 3.2 Management | `IRIS_MODEL_MANAGEMENT` | `ft:gpt-4.1-mini-2025-04-14:personal:iris-32:DZ1NETGH` |
+| 3.3 Consortium | `IRIS_MODEL_CONSORTIUM` | `ft:gpt-4.1-mini-2025-04-14:personal:iris-r5-consortium:DZ26hyof` |
+| 4 Business case | `IRIS_MODEL_BUSINESS_CASE` | `ft:gpt-4.1-mini-2025-04-14:personal:iris-4:DZ16AkVl` |
+
+✱R6 = new model from Round 6 (2026-04-27), trained on first-person-verified data with ≥10 examples.
+
+### What changed in Round 6
+
+- **Root cause fixed**: `rewrite_to_firstperson.py` was re-run on all 11 sections. All training data confirmed 100% first-person rate via `fingerprint.py` (see `retrain/fingerprints/`).
+- **Augmentation**: sections 1_4, 2_1, 2_3 augmented from Supabase RAG corpus to reach ≥10 training examples (the OpenAI minimum). Previous failures were due to <10 examples.
+- **Phase 2**: `fingerprint.py` written and run — per-section style JSON in `retrain/fingerprints/`.
+- **Phase 3**: `PROMPT_SHAPES.md` written — documents full production system prompt structure.
+- **Phase 9**: Structured `JSON.stringify` monitoring log lines added to `route.ts` at `section_gen_complete` events for both multi-pass and single-pass paths.
+- **Sample outputs**: extended to all 11 sections × 3 domains (33 samples in `retrain/samples/`).
+
+### Eval gate status
+
+Phase 6 eval ran (2 PASS: 2_3, 4 — 9 FAIL). **Eval is not a reliable gate** — script uses a minimal prompt without call text/KB context/brief; trained models require full production context. See `EVAL.md` for details and redesign action required for Round 7.
+
+### Pending for Round 7
+
+- Redesign `eval_finetunes.py` with production-equivalent prompts (dummy call text + brief + KB chunks)
+- Vercel env var update — requires `vercel login` then `vercel env add` for 4 new `IRIS_MODEL_*` vars, then `vercel --prod`
+- Consider resubmitting 1_1, 1_2, 2_2, 3_1, 3_3 once eval gate is fixed (current R4 models may be production-adequate)

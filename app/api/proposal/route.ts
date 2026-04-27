@@ -2754,6 +2754,8 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
               if (brief?.acronym) fullGeneratedText = replaceCorpusNarrators(fullGeneratedText, brief.acronym)
             }
 
+            console.log(JSON.stringify({ event: 'section_gen_complete', path: 'multipass', section: normalizedSection, model, wordCount: fullGeneratedText.split(/\s+/).filter(Boolean).length, contaminated: !verdict.ok, contaminationCategory: verdict.category ?? null }))
+
             controller.enqueue(encoder.encode(fullGeneratedText))
             if (kbSourceBlock) {
               controller.enqueue(encoder.encode(`\n\n<<<KB_SOURCES>>>\n${kbSourceBlock}`))
@@ -3139,6 +3141,7 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
           // ── P0: Length-retry loop — append continuation if section is under-filled ──
           // Fires if generated words < 75% of target. Cap at 3 attempts.
           // Continuation is appended as a new paragraph, not a replacement.
+          let lengthRetryCount = 0
           {
             const LENGTH_RETRY_THRESHOLD = 0.75
             const MAX_LENGTH_RETRIES = 3
@@ -3177,6 +3180,7 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
                 const extraWords = extra.split(/\s+/).filter(Boolean).length
                 if (extra.length > 100 && extraWords > 50) {
                   fullGeneratedText = fullGeneratedText.trimEnd() + '\n\n' + extra
+                  lengthRetryCount++
                   console.log(`[length-retry] appended ${extraWords} words — total now ${fullGeneratedText.split(/\s+/).filter(Boolean).length}`)
                 } else {
                   console.warn(`[length-retry] attempt=${attempt + 1} returned too little (${extraWords} words) — stopping`)
@@ -3282,6 +3286,7 @@ ${fullGeneratedText}`
           }
 
           // Stream the (potentially cleaned) main text
+          console.log(JSON.stringify({ event: 'section_gen_complete', path: 'single', section: normalizedSection, model, wordCount: finalText.split(/\s+/).filter(Boolean).length, targetWords, lengthRetries: lengthRetryCount, contaminated: !verdict.ok, contaminationCategory: verdict.category ?? null }))
           controller.enqueue(encoder.encode(finalText))
 
           // ── Reference block (external sources) ─────────────────────────────

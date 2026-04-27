@@ -62,3 +62,23 @@ Base model: `gpt-4.1-mini-2025-04-14`, n_epochs=2
 | Section | Job ID | Env var | Suffix | Train | Val | Status |
 |---------|--------|---------|--------|-------|-----|--------|
 | 1_3 | `ftjob-TWBESuwbqRzPRWkocZMmHQw5` | `IRIS_MODEL_METHODOLOGY` | `iris-r5-methodology` | 10 | 1 | validating_files |
+
+## Phase 5 — Round 6 (1_3, 1_4, 2_1, 2_3 — post first-person rewrite, 2026-04-27)
+
+All training data rewritten to first-person plural via rewrite_to_firstperson.py.
+Fingerprints generated to retrain/fingerprints/. All 11 sections confirmed 100% first_person_rate.
+
+| Section | Job ID | Env var | Suffix | Train | Val | Status |
+|---------|--------|---------|--------|-------|-----|--------|
+| 1_3 | `ftjob-ugdb5YNwRsuIMfhYVKlK9D5h` | `IRIS_MODEL_METHODOLOGY` | `iris-r6-methodology` | 10 | 1 | validating_files |
+| 1_4 | `ftjob-AfxUVAVQnlNeku479Lh98sYy` | `IRIS_MODEL_INNOVATION` | `iris-r6-innovation` | 5 | 2 | validating_files |
+| 2_1 | `ftjob-4MYiX5Gup41bscZm8rB3b3bX` | `IRIS_MODEL_OUTCOMES` | `iris-r6-outcomes` | 9 | 3 | validating_files |
+| 2_3 | `ftjob-YScpyJPl6sF2TqfP9E2ADHmp` | `IRIS_MODEL_COMMUNICATION` | `iris-r6-comms` | 6 | 2 | validating_files |
+
+## Phase 5 — Round 6 resubmit (2_1, 2_3, 1_4 — after augmentation to ≥10 examples)
+
+| Section | Job ID | Env var | Train | Val | Status |
+|---------|--------|---------|-------|-----|--------|
+| 2_1 | `ftjob-k4eGUsqfVMFdjeHbeNmUjzVj` | `IRIS_MODEL_OUTCOMES` | 10 | 3 | validating_files |
+| 2_3 | `ftjob-lDGdoan33jF9ILgI9PfLfdj9` | `IRIS_MODEL_COMMUNICATION` | 10 | 2 | validating_files |
+| 1_4 | `ftjob-FwRnWQpNnFyRYWi97Z5Owgvf` | `IRIS_MODEL_INNOVATION` | 10 | 2 | validating_files |

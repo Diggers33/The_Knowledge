@@ -24,11 +24,17 @@ DOMAINS = {
 }
 
 SECTION_MODELS = {
-    "1_1": (os.environ.get("IRIS_MODEL_OBJECTIVES"),   "Objectives and ambition"),
-    "1_3": (os.environ.get("IRIS_MODEL_METHODOLOGY"),  "Methodology and approach"),
-    "2_1": (os.environ.get("IRIS_MODEL_OUTCOMES"),     "Expected outcomes and impacts"),
-    "3_1": (os.environ.get("IRIS_MODEL_WORKPLAN"),     "Work plan and work packages"),
-    "3_3": (os.environ.get("IRIS_MODEL_CONSORTIUM"),   "Consortium as a whole"),
+    "1_1": (os.environ.get("IRIS_MODEL_OBJECTIVES"),    "Objectives and ambition"),
+    "1_2": (os.environ.get("IRIS_MODEL_SOTA"),          "State of the art and innovation"),
+    "1_3": (os.environ.get("IRIS_MODEL_METHODOLOGY"),   "Methodology and approach"),
+    "1_4": (os.environ.get("IRIS_MODEL_INNOVATION"),    "Ambition and innovation beyond the state of the art"),
+    "2_1": (os.environ.get("IRIS_MODEL_OUTCOMES"),      "Expected outcomes and impacts"),
+    "2_2": (os.environ.get("IRIS_MODEL_DISSEMINATION"), "Dissemination, exploitation and communication"),
+    "2_3": (os.environ.get("IRIS_MODEL_COMMUNICATION"), "Communication and open science"),
+    "3_1": (os.environ.get("IRIS_MODEL_WORKPLAN"),      "Work plan and work packages"),
+    "3_2": (os.environ.get("IRIS_MODEL_MANAGEMENT"),    "Management structure and procedures"),
+    "3_3": (os.environ.get("IRIS_MODEL_CONSORTIUM"),    "Consortium as a whole"),
+    "4":   (os.environ.get("IRIS_MODEL_BUSINESS_CASE"), "Business case and exploitation strategy"),
 }
 
 SYSTEM = """You are an expert EU proposal writer for IRIS Technology Solutions, a photonics and NIR spectroscopy company. Write in first-person plural (we/our). Use precise technical language. Follow EU Horizon proposal conventions: numbered tasks (**Task X.Y**), clear objectives, evidence-based claims."""

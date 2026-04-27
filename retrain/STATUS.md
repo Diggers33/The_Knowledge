@@ -52,7 +52,13 @@ Base model: `gpt-4.1-mini-2025-04-14`, n_epochs=2
 
 ## Phase 5 — Round 5 (§1.3 methodology + §3.3 consortium, gender/SSH augmented)
 
-| Section | Job ID | Env var | Suffix | Train | Val |
-|---------|--------|---------|--------|-------|-----|
-| 1_3 | `ftjob-9oZxxRyynhJcndPYYHrsq9Fr` | `IRIS_MODEL_METHODOLOGY` | `iris-r5-methodology` | 9 | 1 |
-| 3_3 | `ftjob-uoK3TomAsIUvuQLd7EQGTWTQ` | `IRIS_MODEL_CONSORTIUM` | `iris-r5-consortium` | 12 | 1 |
+| Section | Job ID | Env var | Suffix | Train | Val | Result |
+|---------|--------|---------|--------|-------|-----|--------|
+| 1_3 | `ftjob-9oZxxRyynhJcndPYYHrsq9Fr` | `IRIS_MODEL_METHODOLOGY` | `iris-r5-methodology` | 9 | 1 | **failed** — <10 examples |
+| 3_3 | `ftjob-uoK3TomAsIUvuQLd7EQGTWTQ` | `IRIS_MODEL_CONSORTIUM` | `iris-r5-consortium` | 12 | 1 | **succeeded** → `ft:gpt-4.1-mini-2025-04-14:personal:iris-r5-consortium:DZ26hyof` (active in .env.local) |
+
+## Phase 5 — Round 5 retry (§1.3, 10 examples)
+
+| Section | Job ID | Env var | Suffix | Train | Val | Status |
+|---------|--------|---------|--------|-------|-----|--------|
+| 1_3 | `ftjob-TWBESuwbqRzPRWkocZMmHQw5` | `IRIS_MODEL_METHODOLOGY` | `iris-r5-methodology` | 10 | 1 | validating_files |

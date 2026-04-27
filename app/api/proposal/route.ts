@@ -163,6 +163,277 @@ QUALITY RULES (mandatory — this subsection only):
 6. If you cannot reach the target word count with substantive new content, STOP — do not pad.
 `.trim()
 
+// ─── SUBSECTION EXTENSION HINTS ───────────────────────────────────────────────
+// Used by the fill-to-target retry when a subsection is below 0.85× its word target.
+// Each value is a comma-separated list of fresh sub-topics the continuation must cover.
+
+const SUBSECTION_EXTENSION_HINTS: Record<string, string> = {
+  // ── 1.1 Objectives
+  'objectives.overall_aim':
+    'long-term vision beyond project end, alignment with EU Green Deal / Digital Decade / Industry 5.0, ' +
+    'how the aim addresses a specific destination expected outcome with quantified scope',
+  'objectives.specific_objectives':
+    'one additional measurable objective with explicit baseline metric, success threshold, ' +
+    'measurement method, responsible WP, and verification deliverable',
+  'objectives.beyond_sota':
+    'comparison table-style prose contrasting at least three competing approaches against ours ' +
+    'on quantitative axes (accuracy, throughput, cost, TRL, energy intensity)',
+  'objectives.trl_progression':
+    'evidence base for the starting TRL claim (prior TRL-3/4 demonstration, publication, deliverable), ' +
+    'mid-project TRL gates, and end-state TRL validation environment',
+  'objectives.call_alignment':
+    'one-to-one mapping of project objectives to each call expected outcome and call impact, ' +
+    'with named deliverables that satisfy each',
+  // ── 1.2 Methodology
+  'methodology.overall_methodology':
+    'concrete experimental protocols, sample sizes, statistical power calculations, ' +
+    'reference standards, and inter-laboratory validation plan',
+  'methodology.rdm':
+    'specific data types collected, file formats, metadata schemas (e.g. Dublin Core, DataCite), ' +
+    'repository (Zenodo / B2SHARE / domain-specific), retention period, license (CC-BY 4.0), DMP delivery in M6',
+  'methodology.open_science':
+    'green vs gold open access strategy, named OA journals, preprint server use (arXiv / bioRxiv / EarthArXiv), ' +
+    'open peer review participation, citizen science engagement plan',
+  'methodology.gender':
+    'sex/gender variables relevant to the technology under development, ' +
+    'how they will be analysed in test campaigns, and intersectionality considerations',
+  'methodology.ai_use':
+    'specific algorithm families, training data provenance, bias mitigation procedures, ' +
+    'AI Act risk classification, model card publication, human-in-the-loop verification',
+  'methodology.dnsh':
+    'climate mitigation and adaptation impact, water use, circular economy contribution, ' +
+    'pollution prevention, biodiversity protection — assessed against each of the six EU Taxonomy environmental objectives',
+  'methodology.ethics':
+    'GDPR compliance, informed consent procedures, dual-use review, ethics advisory board composition, ' +
+    'export control screening, ERB approval timeline',
+  'methodology.ssh':
+    'named SSH discipline (sociology / behavioural economics / STS), specific SSH partner contribution, ' +
+    'qualitative methods (focus groups / Delphi panels / co-creation workshops), SSH-specific deliverables',
+  // ── 2.1 Pathways to Impact
+  'pathways.expected_outcomes':
+    'quantified short-term (M0–M24), medium-term (M24–M60 post-project), long-term (5–10 years) outcomes, ' +
+    'each with named user community and adoption metric',
+  'pathways.scientific_impact':
+    'expected publications by topic, target high-impact journals, anticipated citations using comparable benchmarks, ' +
+    'doctoral theses produced, follow-on Horizon proposals enabled',
+  'pathways.economic_impact':
+    'TAM/SAM/SOM analysis, projected revenue or cost-saving figures, jobs created (direct + indirect), ' +
+    'spin-off or licensing potential, time-to-market estimate post-project',
+  'pathways.societal_impact':
+    'specific user communities benefiting, equity and inclusion dimensions, contribution to SDG targets, ' +
+    'public health / safety / environment quantified benefits',
+  'pathways.theory_of_change':
+    'explicit assumptions linking outputs → outcomes → impacts, ' +
+    'each with risk of breakage and mitigating activity, plus the KPI that detects success',
+  'pathways.scale_significance':
+    'European-scale uptake mechanism (EU mission / partnership / platform), ' +
+    'replicability across at least three Member States, scalability constraints and how they are addressed',
+  // ── 2.2 Measures to Maximise Impact
+  'measures.dissemination':
+    'audience-specific dissemination per stakeholder group, conference targets per year, ' +
+    'open-access publication count by WP, dissemination KPI baselines and end-targets',
+  'measures.exploitation':
+    'individual KER list (≥4 KERs) with exploitation route, ownership, IPR position, ' +
+    'lead exploiter partner, exploitation timeline post-project, follow-on funding strategy',
+  'measures.communication':
+    'public-engagement events count and venues, social-media reach KPIs, video / podcast outputs, ' +
+    'school / citizen engagement, co-creation workshop targets, press releases per year',
+  'measures.ipr':
+    'background IP per partner, foreground ownership rules, joint-ownership protocols, ' +
+    'access rights for use and exploitation, FTO analysis schedule, patent filings expected',
+  'measures.business_case':
+    'specific market need with quantified pain point, ' +
+    'pricing model, customer acquisition channel, unit economics, break-even projection',
+  // ── 3.2 Capacity
+  'capacity.consortium_overview':
+    'value chain coverage from raw input to end-user, geographical spread (named regions, not just countries), ' +
+    'public-private balance, large industry / SME / RTO / academic distribution',
+  'capacity.partner_profiles':
+    'one additional partner profile elaborated to ~120 words: name, type, location, mission, ' +
+    'specific equipment / facilities, three relevant prior projects, two key personnel with H-index or industry credentials',
+  'capacity.gender_balance':
+    'WP-leader gender split, work-package-level distribution, named senior women researchers, ' +
+    'partner gender equality plans (mandatory for HEIs / RTOs since 2022), gender pay-gap reporting',
+  'capacity.open_science_capacity':
+    'partner-by-partner open science track record (OA publication rates, repository deposits, ' +
+    'open-source software contributions, FAIR-data audit results, citizen-science prior experience)',
+  // ── Fallback for single-pass sections
+  'concept':   'additional concept-level detail, technology readiness baseline, prior IRIS demonstrations',
+  'summary':   'specific quantitative entries for the impact canvas: target groups, expected results, D&E&C',
+  'sota':      'additional research gaps, named limitations of state-of-the-art with citation evidence, why this project is timely now',
+  'workplan':  'WP-internal task breakdown, intra-WP deliverable timeline, risk-to-task mapping',
+}
+
+// ─── BASE SUBSECTION GUARDRAILS ───────────────────────────────────────────────
+// Used as the system prompt for per-subsection calls, replacing the generic section prompt.
+
+const BASE_SUBSECTION_GUARDRAILS = `
+You are a senior Horizon Europe proposal writer for IRIS Technology Solutions, a photonics and NIR-spectroscopy SME based in Barcelona. You are writing ONE subsection of a Part B proposal — not the whole section. The other subsections will be generated separately and concatenated.
+
+QUALITY RULES (strict):
+1. Every paragraph must contain at least one project-specific noun phrase: a technology name, partner acronym, deliverable code (Dx.y), milestone code (MSx), KPI value with unit, TRL number, regulation reference (e.g. AI Act Art. 6), or named standard (e.g. ISO 27001).
+2. Do NOT write meta-commentary ("this subsection covers…", "as we will see…", "as discussed above").
+3. Do NOT write closing or transition paragraphs ("In summary…", "In conclusion…", "Overall…").
+4. Do NOT write the subsection heading — the assembler adds it.
+5. Citation density: include at least one [N] citation per ~250 words for any factual claim about the state of the art.
+6. Forbidden filler phrases: "plays a crucial role", "in today's world", "paradigm shift", "cutting-edge", "leverage synergies", "holistic approach", "unprecedented", "game-changer", "unlock the potential", "ever-evolving landscape".
+7. Do NOT introduce content that belongs in a sibling subsection (see CROSS-SECTION BOUNDARIES in the user message).
+8. If you cannot reach the word target with substantive content, STOP at a natural endpoint. The retry pass will extend you with new sub-topics — do not pad to hit the count.
+9. Use British English spelling throughout.
+10. Acronyms: define on first use, reuse thereafter without redefinition.
+`.trim()
+
+// ─── SUBSECTION SYSTEM BLOCKS ─────────────────────────────────────────────────
+// Appended to BASE_SUBSECTION_GUARDRAILS as the system prompt for each subsection.
+// Key format: "{sectionId}.{sub.anchor}"
+
+const SUBSECTION_SYSTEM_BLOCKS: Record<string, string> = {
+  // ── Objectives
+  'objectives.overall_aim': `
+SUBSECTION FOCUS: Overall aim and ambition (~300 words).
+MUST INCLUDE: the high-level scientific/technological aim in one sentence; the long-term vision; explicit alignment with one named EU policy framework (Green Deal / Digital Decade / Industry 5.0 / Mission); a quantified scope statement.
+CROSS-SECTION BOUNDARIES: Do NOT list the specific objectives (that is the next subsection). Do NOT describe methodology or workplan. Do NOT discuss exploitation or impact pathways.`,
+
+  'objectives.specific_objectives': `
+SUBSECTION FOCUS: Specific, measurable objectives (SMART) (~500 words).
+MUST INCLUDE: 4–6 numbered objectives (O1, O2, …); each objective stated as one sentence; each followed by a baseline metric, target metric, measurement method, responsible WP, and verification deliverable code.
+CROSS-SECTION BOUNDARIES: Do NOT compare against the state of the art (that is "beyond_sota"). Do NOT discuss TRL progression separately. Do NOT list call expected outcomes.`,
+
+  'objectives.beyond_sota': `
+SUBSECTION FOCUS: Beyond the state of the art (~400 words).
+MUST INCLUDE: at least three competing approaches named with citations; comparison on quantitative axes (accuracy / throughput / cost / TRL / energy); explicit statement of the gap this project closes; novelty claim grounded in recent (≤3 years) literature.
+CROSS-SECTION BOUNDARIES: Do NOT restate the project objectives. Do NOT discuss methodology details. Do NOT discuss commercial competitors (that belongs in business_case).`,
+
+  'objectives.trl_progression': `
+SUBSECTION FOCUS: TRL progression and ambition (~200 words).
+MUST INCLUDE: starting TRL with evidence (prior project / publication / deliverable); intermediate TRL gates by milestone; end TRL with validation environment described per ISO 16290 / EC TRL definitions.
+CROSS-SECTION BOUNDARIES: Do NOT describe the validation methodology in detail. Do NOT discuss commercial readiness (that is exploitation).`,
+
+  'objectives.call_alignment': `
+SUBSECTION FOCUS: Alignment with call expected outcomes (~200 words).
+MUST INCLUDE: a one-to-one mapping table-style prose: each call expected outcome → which project objective addresses it → which deliverable evidences it.
+CROSS-SECTION BOUNDARIES: Do NOT discuss broader EU policy alignment (that is overall_aim). Do NOT describe the impact pathways (that is Section 2.1).`,
+
+  // ── Methodology
+  'methodology.overall_methodology': `
+SUBSECTION FOCUS: Overall methodology, concepts, models and assumptions (~1100 words).
+MUST INCLUDE: the conceptual framework; named experimental approach (e.g. design of experiments, factorial design, Bayesian optimisation); sample sizes with statistical power justification; reference standards; inter-laboratory validation plan; key assumptions and how they will be tested.
+CROSS-SECTION BOUNDARIES: Do NOT discuss data management (that is RDM). Do NOT discuss open science, gender, AI use, DNSH, ethics, or SSH (each has a dedicated subsection).`,
+
+  'methodology.rdm': `
+SUBSECTION FOCUS: Research data management and FAIR principles (~500 words).
+MUST INCLUDE: specific data types collected; file formats and standards; metadata schema (e.g. Dublin Core, DataCite); chosen repository (Zenodo / B2SHARE / domain repository) with named instance; retention period; data licence (CC-BY 4.0 default); DMP delivery commitment in Month 6 as deliverable Dx.y.
+CROSS-SECTION BOUNDARIES: Do NOT discuss open access publication (that is open_science). Do NOT discuss software sharing (that is open_science).`,
+
+  'methodology.open_science': `
+SUBSECTION FOCUS: Open science practices (~500 words).
+MUST INCLUDE: open access publication target (≥60% gold or green); named target OA journals; preprint server commitment (arXiv / bioRxiv / EarthArXiv); software sharing strategy with named licence (Apache 2.0 / MIT / GPL); citizen science / open peer review where applicable.
+CROSS-SECTION BOUNDARIES: Do NOT repeat data management content (that is RDM). Do NOT discuss exploitation IPR strategy (that is Section 2.2 IPR).`,
+
+  'methodology.gender': `
+SUBSECTION FOCUS: Gender dimension in research content (~450 words).
+MUST INCLUDE (mandatory, never omit): how sex and/or gender analysis is integrated into the research content (NOT just team composition); specific sex/gender variables relevant to the technology; intersectionality considerations; what data will be disaggregated by sex/gender; named SAGER / Gendered Innovations methodology reference.
+CROSS-SECTION BOUNDARIES: Do NOT discuss gender balance of the consortium (that is capacity.gender_balance). Do NOT discuss gender pay gap or HR practices.`,
+
+  'methodology.ai_use': `
+SUBSECTION FOCUS: Artificial intelligence and algorithmic systems (~400 words).
+MUST INCLUDE (mandatory under HE 2023+): specific algorithm families used (CNNs / transformers / random forests / PLS regression / etc.); training data provenance and licensing; bias-mitigation procedures; AI Act risk classification (minimal / limited / high); model-card publication commitment; human-in-the-loop verification.
+CROSS-SECTION BOUNDARIES: Do NOT discuss data management (that is RDM). Do NOT discuss algorithmic ethics broadly (that is ethics).`,
+
+  'methodology.dnsh': `
+SUBSECTION FOCUS: Do No Significant Harm assessment (~400 words).
+MUST INCLUDE (mandatory under HE 2023+): explicit assessment against each of the six EU Taxonomy environmental objectives — climate mitigation, climate adaptation, water/marine, circular economy, pollution prevention, biodiversity. For each: stated impact (positive/neutral/negative) with brief justification. Reference Regulation (EU) 2020/852.
+CROSS-SECTION BOUNDARIES: Do NOT discuss broader sustainability narrative (that is pathways.societal_impact). Do NOT discuss ethics review (that is ethics).`,
+
+  'methodology.ethics': `
+SUBSECTION FOCUS: Research ethics and security aspects (~350 words).
+MUST INCLUDE: GDPR compliance procedures; informed consent if human subjects involved; dual-use review procedure; ethics advisory board composition; export control screening; ethics deliverable code (e.g. D8.1 Ethics Self-Assessment in Month 6); commitment to Annex 5 Ethics Self-Assessment.
+CROSS-SECTION BOUNDARIES: Do NOT discuss DNSH (that is dnsh). Do NOT discuss data management (that is RDM).`,
+
+  'methodology.ssh': `
+SUBSECTION FOCUS: Social sciences and humanities integration (~300 words).
+MUST INCLUDE: which natural-science/technology problem the SSH partner(s) address; named SSH discipline (sociology / STS / behavioural economics); specific qualitative methods (focus groups / Delphi / co-creation workshops); named SSH partner with role; SSH-specific deliverable.
+CROSS-SECTION BOUNDARIES: Do NOT discuss general consortium composition (that is capacity).`,
+
+  // ── Pathways to Impact
+  'pathways.expected_outcomes': `
+SUBSECTION FOCUS: Expected outcomes (~500 words).
+MUST INCLUDE: quantified short-term (M0–project end), medium-term (project end +5y), and long-term (+10y) outcomes; named user community for each; adoption metric for each; explicit mapping to call expected outcomes.
+CROSS-SECTION BOUNDARIES: Do NOT discuss scientific or economic impacts in detail (those are dedicated subsections). Do NOT discuss the theory of change explicitly (that is theory_of_change).`,
+
+  'pathways.scientific_impact': `
+SUBSECTION FOCUS: Scientific impacts (~400 words).
+MUST INCLUDE: expected publication count by topic; target high-impact journal names with impact factors; anticipated citation counts using comparable-project benchmarks; doctoral theses produced; follow-on Horizon proposals enabled; new research questions opened up.
+CROSS-SECTION BOUNDARIES: Do NOT discuss economic spin-offs (that is economic_impact). Do NOT discuss dissemination plan tactics (that is Section 2.2).`,
+
+  'pathways.economic_impact': `
+SUBSECTION FOCUS: Economic and technological impacts (~500 words).
+MUST INCLUDE: TAM/SAM/SOM with figures; projected revenue or cost-saving in EUR; jobs created (direct + indirect); spin-off or licensing potential; time-to-market estimate post-project; named industrial uptake pathway.
+CROSS-SECTION BOUNDARIES: Do NOT discuss the business case in commercial detail (that is Section 2.2 business_case). Do NOT discuss exploitation IPR strategy.`,
+
+  'pathways.societal_impact': `
+SUBSECTION FOCUS: Societal impacts (~400 words).
+MUST INCLUDE: specific user communities benefiting; equity and inclusion dimensions; quantified contribution to at least two named SDG targets; public health / safety / environmental benefits with units.
+CROSS-SECTION BOUNDARIES: Do NOT discuss DNSH (that is methodology.dnsh). Do NOT discuss communication activities (that is measures.communication).`,
+
+  'pathways.theory_of_change': `
+SUBSECTION FOCUS: Theory of change and KPIs (~400 words).
+MUST INCLUDE: explicit assumption chain output → outcome → impact; for each link: assumption, risk of breakage, mitigating activity, KPI that detects success with baseline and target value.
+CROSS-SECTION BOUNDARIES: Do NOT restate the expected outcomes (that is expected_outcomes). Do NOT discuss broader workplan risks (that is Section 3.1).`,
+
+  'pathways.scale_significance': `
+SUBSECTION FOCUS: Scale and significance (~200 words).
+MUST INCLUDE: European-scale uptake mechanism (EU mission / partnership / EIT KIC / platform); replicability across at least three named Member States; scalability constraints and mitigation.
+CROSS-SECTION BOUNDARIES: Do NOT repeat societal impact narrative. Do NOT discuss communication.`,
+
+  // ── Measures to Maximise Impact
+  'measures.dissemination': `
+SUBSECTION FOCUS: Dissemination plan and target audiences (~500 words).
+MUST INCLUDE: audience-segmented dissemination (scientific / industrial / policy / civil society); named target conferences per year; open-access publication count by WP; dissemination KPI baseline and end-target.
+CROSS-SECTION BOUNDARIES: Do NOT discuss exploitation (that is exploitation). Do NOT discuss communication to general public (that is communication).`,
+
+  'measures.exploitation': `
+SUBSECTION FOCUS: Exploitation strategy and Key Exploitable Results (~600 words).
+MUST INCLUDE: at least 4 named KERs with: KER title, lead exploiter partner, exploitation route (commercial / standardisation / open-source / policy), IPR position, ownership, exploitation timeline post-project, follow-on funding strategy.
+CROSS-SECTION BOUNDARIES: Do NOT repeat dissemination tactics. Do NOT restate the business case in detail (that is business_case). Do NOT discuss IPR mechanisms in detail (that is ipr).`,
+
+  'measures.communication': `
+SUBSECTION FOCUS: Communication activities (~400 words).
+MUST INCLUDE: public-engagement events count and venues; social-media reach KPIs; video / podcast outputs; school / citizen engagement targets; co-creation workshops; press releases per year; named communication lead partner.
+CROSS-SECTION BOUNDARIES: Do NOT discuss scientific dissemination (that is dissemination). Do NOT discuss exploitation routes.`,
+
+  'measures.ipr': `
+SUBSECTION FOCUS: IPR strategy and Freedom to Operate (~300 words).
+MUST INCLUDE: background IP per partner; foreground IP ownership rules; joint-ownership protocols; access rights for use and exploitation; FTO analysis schedule and lead partner; expected patent filings by Month X.
+CROSS-SECTION BOUNDARIES: Do NOT restate the KER list (that is exploitation). Do NOT discuss commercial market detail.`,
+
+  'measures.business_case': `
+SUBSECTION FOCUS: Business case where relevant (~200 words).
+MUST INCLUDE: specific market need with quantified pain point; pricing model; customer acquisition channel; unit economics; break-even projection in months post-project.
+CROSS-SECTION BOUNDARIES: Do NOT repeat economic impact figures (that is pathways.economic_impact). Do NOT restate exploitation pathways.`,
+
+  // ── Capacity
+  'capacity.consortium_overview': `
+SUBSECTION FOCUS: Consortium composition and complementarity (~500 words).
+MUST INCLUDE: value-chain coverage from raw input to end-user; geographical spread (named regions, not just countries); public-private balance; large-industry / SME / RTO / academic distribution count; complementarity narrative explaining why each partner type is essential.
+CROSS-SECTION BOUNDARIES: Do NOT list partner profiles (that is partner_profiles). Do NOT discuss gender balance (that is gender_balance).`,
+
+  'capacity.partner_profiles': `
+SUBSECTION FOCUS: Partner profiles and roles (~900 words for 9 partners ≈ 100 words each).
+MUST INCLUDE: for each partner: legal name, type (HEI/RTO/SME/large/NGO), location, mission in one sentence, specific equipment / facilities relevant to this project, three relevant prior projects with brief outcome, two key personnel with role and credential (H-index / industry position / patents).
+CROSS-SECTION BOUNDARIES: Do NOT discuss the consortium-level complementarity narrative (that is consortium_overview). Do NOT discuss gender balance.`,
+
+  'capacity.gender_balance': `
+SUBSECTION FOCUS: Gender balance and SSH expertise (~300 words).
+MUST INCLUDE: WP-leader gender split with numbers; project-level women researcher percentage; named senior women researchers; partner Gender Equality Plans (mandatory for HEIs/RTOs since 2022); SSH expertise present in consortium with named partner.
+CROSS-SECTION BOUNDARIES: Do NOT discuss gender dimension in research content (that is methodology.gender). Do NOT repeat partner profiles.`,
+
+  'capacity.open_science_capacity': `
+SUBSECTION FOCUS: Open science track record (~300 words).
+MUST INCLUDE: partner-by-partner OA publication rate; repository deposit count over last 3 years; open-source software contributions; FAIR-data audit results if available; prior citizen-science engagement.
+CROSS-SECTION BOUNDARIES: Do NOT restate the open science methodology (that is methodology.open_science). Do NOT restate partner profiles.`,
+}
+
 // ─── SECTION CONFIGURATION ────────────────────────────────────────────────────
 
 const SECTION_MODE = {
@@ -1420,23 +1691,31 @@ async function generateSectionMultiPass(
 ): Promise<string> {
   const siblingTitles = scaffold.map(s => s.title)
 
-  // Pass 2: per-subsection prose in parallel (no Pass 1 outline — scaffold is static)
+  // Per-subsection: build a focused system prompt from BASE_SUBSECTION_GUARDRAILS + specific block
+  const subsectionSystemPrompt = (sub: SubsectionDef): string => {
+    const key = `${sectionId}.${sub.anchor}`
+    const block = SUBSECTION_SYSTEM_BLOCKS[key] || ''
+    return block
+      ? `${BASE_SUBSECTION_GUARDRAILS}\n\n${block.trim()}`
+      : systemPrompt
+  }
+
+  // Pass: per-subsection prose in parallel (scaffold is static — no Pass 1 outline needed)
   const rawProse: string[] = await Promise.all(
     scaffold.map(async (sub, idx) => {
       const siblings = siblingTitles.filter((_, i) => i !== idx).map(t => `"${t}"`).join(', ')
       const subInstruction = [
         `Write ONLY the "${sub.title}" subsection of Section ${sectionLabel} for this Horizon Europe proposal.`,
-        `Target: ${sub.targetWords} words of substantive prose.`,
+        `Target: ${sub.targetWords} words of substantive prose (acceptable range ${Math.round(sub.targetWords * 0.85)}–${Math.round(sub.targetWords * 1.15)}).`,
         `Do NOT write a heading — the assembler adds headings.`,
-        `Do NOT introduce content that belongs in sibling subsections: ${siblings}.`,
-        QUALITY_RULES,
+        `Sibling subsections (do NOT introduce their content here): ${siblings}.`,
         `Write "${sub.title}":`,
       ].join('\n\n')
 
       const resp = await (openaiClient as any).chat.completions.create({
         model,
         messages: [
-          { role: 'system', content: systemPrompt },
+          { role: 'system', content: subsectionSystemPrompt(sub) },
           { role: 'user',   content: `${userContext}\n\n---\n${subInstruction}` },
         ],
         max_tokens: Math.min(8000, Math.round(sub.targetWords * 1.7)),
@@ -1452,21 +1731,26 @@ async function generateSectionMultiPass(
   )
 
   // Per-subsection fill-to-target retry (threshold 0.70, max 1 retry each)
+  // Uses SUBSECTION_EXTENSION_HINTS to steer continuation onto fresh angles.
   const filledProse: string[] = await Promise.all(
     scaffold.map(async (sub, idx) => {
       let prose = rawProse[idx]
       const words = prose.split(/\s+/).filter(Boolean).length
       if (words >= sub.targetWords * 0.70) return prose
       const shortfall = sub.targetWords - words
+      const hintKey = `${sectionId}.${sub.anchor}`
+      const hint = SUBSECTION_EXTENSION_HINTS[hintKey]
+        ? `Cover these NEW angles not yet addressed above: ${SUBSECTION_EXTENSION_HINTS[hintKey]}.`
+        : 'Add new substantive content not yet covered above.'
       console.log(`[multi-pass] retry ${sectionId}.${sub.anchor} words=${words} shortfall=${shortfall}`)
       try {
         const cont = await (openaiClient as any).chat.completions.create({
           model,
           messages: [
-            { role: 'system', content: systemPrompt },
+            { role: 'system', content: subsectionSystemPrompt(sub) },
             { role: 'user',   content: `${userContext}\n\n---\nWrite "${sub.title}" subsection of ${sectionLabel}.` },
             { role: 'assistant', content: prose },
-            { role: 'user',   content: `This subsection is ${words} words; target is ${sub.targetWords}. Add ~${shortfall} more words on a NEW angle within "${sub.title}" not yet covered above. Do NOT repeat anything already written. Do NOT add a closing paragraph. Do NOT introduce content from sibling subsections.` },
+            { role: 'user',   content: `This subsection is ${words} words; target is ${sub.targetWords}. Add ~${shortfall} more words. ${hint} Do NOT repeat anything already written. Do NOT add a closing paragraph. Do NOT introduce content from sibling subsections.` },
           ],
           max_tokens: Math.min(6000, Math.round(shortfall * 1.7)),
           temperature: 0.45,

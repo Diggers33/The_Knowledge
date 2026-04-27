@@ -84,6 +84,14 @@ FORBIDDEN PHRASES — never use under any circumstances:
 - well-positioned to
 - revolutionize
 - revolutionise
+- cutting-edge (use "advanced" or the specific technology name)
+- leverage / leveraging (use "use", "build on", or "apply")
+- state-of-the-art as an adjective (use "state of research" or the specific technology)
+- seamless / seamlessly (use "integrated" or "without interruption")
+- revolutionary (use "significant" or describe the specific advance)
+- game-changer / game-changing (be specific about the impact)
+- synergies / synergistic (describe the specific complementarity)
+- robust (use the specific property: "reliable", "reproducible", "fault-tolerant")
 
 NUMBERS AND SPECIFICITY:
 Use real, specific numbers where available from the project brief and KB context.
@@ -123,15 +131,15 @@ interface SectionPassOneCtx {
 
 const SECTION_SCAFFOLDS: Record<string, SubsectionDef[]> = {
   methodology: [
-    { anchor: 'overall_methodology', title: 'Overall methodology and concepts',                                targetWords: 1100 },
-    { anchor: 'rdm',                 title: 'Research data management and FAIR principles',                    targetWords:  500 },
-    { anchor: 'open_science',        title: 'Open science practices',                                          targetWords:  500 },
-    { anchor: 'gender',              title: 'Gender dimension in research and innovation content',             targetWords:  450 },
-    { anchor: 'ai_use',              title: 'Use of artificial intelligence in the methodology',               targetWords:  400 },
-    { anchor: 'dnsh',                title: 'Compliance with the do-no-significant-harm principle',           targetWords:  400 },
-    { anchor: 'ethics',              title: 'Research ethics and security aspects',                            targetWords:  350 },
-    { anchor: 'ssh',                 title: 'Social sciences and humanities integration',                      targetWords:  300 },
-  ], // total 4 000
+    { anchor: 'overall_methodology', title: 'Overall methodology and concepts',                                targetWords:  990 },
+    { anchor: 'rdm',                 title: 'Research data management and FAIR principles',                    targetWords:  450 },
+    { anchor: 'open_science',        title: 'Open science practices',                                          targetWords:  450 },
+    { anchor: 'gender',              title: 'Gender dimension in research and innovation content',             targetWords:  405 },
+    { anchor: 'ai_use',              title: 'Use of artificial intelligence in the methodology',               targetWords:  360 },
+    { anchor: 'dnsh',                title: 'Compliance with the do-no-significant-harm principle',           targetWords:  360 },
+    { anchor: 'ethics',              title: 'Research ethics and security aspects',                            targetWords:  315 },
+    { anchor: 'ssh',                 title: 'Social sciences and humanities integration',                      targetWords:  270 },
+  ], // total ~3 600 (−10% from 4 000)
 
   objectives: [
     { anchor: 'overall_aim',         title: 'Overall aim and ambition',                    targetWords:  300 },
@@ -142,13 +150,13 @@ const SECTION_SCAFFOLDS: Record<string, SubsectionDef[]> = {
   ], // total 1 600
 
   pathways: [
-    { anchor: 'expected_outcomes',   title: 'Expected outcomes',                           targetWords:  500 },
-    { anchor: 'scientific_impact',   title: 'Scientific impacts',                          targetWords:  400 },
-    { anchor: 'economic_impact',     title: 'Economic and technological impacts',          targetWords:  500 },
-    { anchor: 'societal_impact',     title: 'Societal impacts',                            targetWords:  400 },
-    { anchor: 'theory_of_change',    title: 'Theory of change and KPIs',                   targetWords:  400 },
-    { anchor: 'scale_significance',  title: 'Scale and significance',                      targetWords:  200 },
-  ], // total 2 400
+    { anchor: 'expected_outcomes',   title: 'Expected outcomes',                           targetWords:  425 },
+    { anchor: 'scientific_impact',   title: 'Scientific impacts',                          targetWords:  340 },
+    { anchor: 'economic_impact',     title: 'Economic and technological impacts',          targetWords:  425 },
+    { anchor: 'societal_impact',     title: 'Societal impacts',                            targetWords:  340 },
+    { anchor: 'theory_of_change',    title: 'Theory of change and KPIs',                   targetWords:  340 },
+    { anchor: 'scale_significance',  title: 'Scale and significance',                      targetWords:  170 },
+  ], // total ~2 040 (−15% from 2 400)
 
   measures: [
     { anchor: 'dissemination',       title: 'Dissemination plan and target audiences',     targetWords:  500 },
@@ -433,9 +441,19 @@ MUST INCLUDE: value-chain coverage from raw input to end-user; geographical spre
 CROSS-SECTION BOUNDARIES: Do NOT list partner profiles (that is partner_profiles). Do NOT discuss gender balance (that is gender_balance).`,
 
   'capacity.partner_profiles': `
-SUBSECTION FOCUS: Partner profiles and roles (~900 words for 9 partners ≈ 100 words each).
-MUST INCLUDE: for each partner: legal name, type (HEI/RTO/SME/large/NGO), location, mission in one sentence, specific equipment / facilities relevant to this project, three relevant prior projects with brief outcome, two key personnel with role and credential (H-index / industry position / patents).
-CROSS-SECTION BOUNDARIES: Do NOT discuss the consortium-level complementarity narrative (that is consortium_overview). Do NOT discuss gender balance.`,
+SUBSECTION FOCUS: Partner profiles and roles (~900 words).
+
+HARD RULES — VIOLATION = OUTPUT REJECTED:
+1. Do NOT invent personnel names. If a partner's key personnel are not specified, write only: "Key personnel for [PARTNER] will be confirmed at grant preparation; the consortium has identified senior staff with the relevant expertise." Do NOT fill with fabricated names.
+2. Do NOT invent H-indices, citation counts, patent counts, awards, or any numeric claim about a person's CV. If no numeric metric is provided for a person, omit it entirely.
+3. Do NOT invent organisations. Only name organisations explicitly listed in the consortium. If you need a generic reference, use "an external advisory board member" or "a partner-nominated officer" — never a fictitious institution name.
+4. Do NOT cite "Final Reports", "Grant Agreements", or project deliverables that are not explicitly listed in the context provided. The Grant Agreement does not exist at proposal stage.
+5. Do NOT use any partner acronym that is not in the ALLOWED ORGANISATION ACRONYMS list below.
+
+ALLOWED ORGANISATION ACRONYMS: Only use acronyms for partners explicitly listed in the PROJECT IDENTITY block. If you need to refer to any other organisation, use a generic descriptor.
+
+MUST INCLUDE: for each partner: legal name, country, organisation type (HEI/RTO/SME/large/NGO), core mission in one sentence, equipment or facilities relevant to this call (from context only — do not invent), relevant prior projects (from context only — if none provided, omit), and roles in this project.
+CROSS-SECTION BOUNDARIES: Do NOT discuss consortium-level complementarity (that is consortium_overview). Do NOT discuss gender balance.`,
 
   'capacity.gender_balance': `
 SUBSECTION FOCUS: Gender balance and SSH expertise (~300 words).
@@ -1239,14 +1257,21 @@ async function retrieveExternalContext(query: string, keywordSource: string): Pr
 
 // ─── STYLE EXAMPLES FROM DoA/PROPOSAL CHUNKS ─────────────────────────────────
 
-async function retrieveStyleExamples(query: string): Promise<string> {
+async function retrieveStyleExamples(query: string, excludeProjectTag?: string): Promise<string> {
   try {
     const shortQuery = query.slice(0, 500)
     const embedding = await embed(shortQuery)
-    const chunks = await searchChunks(embedding, shortQuery, 10, undefined)
+    const chunks = await searchChunks(embedding, shortQuery, 15, undefined)
     const filtered = (chunks as any[]).filter(c => {
       const src = (c.source_file || '').toLowerCase()
-      return src.includes('doa') || src.includes('proposal') || src.includes('part_b')
+      if (!(src.includes('doa') || src.includes('proposal') || src.includes('part_b'))) return false
+      // P0-B: exclude chunks whose project_tag matches the current draft's project to prevent cross-contamination
+      if (excludeProjectTag && c.project_tag) {
+        const tag = String(c.project_tag).toUpperCase()
+        const excl = excludeProjectTag.toUpperCase()
+        if (tag === excl || src.includes(excl.toLowerCase())) return false
+      }
+      return true
     })
     if (!filtered.length) return ''
     return filtered.slice(0, 5)
@@ -1586,6 +1611,7 @@ interface SourcePaper {
 
 function parseSourcePapers(externalCtx: string): SourcePaper[] {
   const papers: SourcePaper[] = []
+  const seenUrls = new Set<string>()  // P1-D: dedupe identical URLs across entries
   // Split on lines starting with "Title:" to get per-paper blocks
   const blocks = externalCtx.split(/\n(?=Title:)/)
   for (const block of blocks) {
@@ -1595,11 +1621,14 @@ function parseSourcePapers(externalCtx: string): SourcePaper[] {
     const urlMatch = block.match(/(https?:\/\/(?:doi\.org|arxiv\.org)\/\S+)/)
     // Also check DOI: line format from Crossref
     const doiLineMatch = block.match(/DOI:\s+(https?:\/\/\S+)/)
+    const url = doiLineMatch?.[1] ?? urlMatch?.[1]
+    if (url && seenUrls.has(url)) continue  // skip duplicate URL entries
+    if (url) seenUrls.add(url)
     papers.push({
       year:    titleLine[2],
       title:   titleLine[1].trim(),
       authors: authorMatch[1].toLowerCase(),
-      url:     doiLineMatch?.[1] ?? urlMatch?.[1],
+      url,
     })
   }
   return papers
@@ -1655,6 +1684,107 @@ async function extractAndFormatReferences(sectionText: string, sourcePapers: Sou
   })
   console.log(`References: ${refs.length} cited sources formatted`)
   return refs.join('\n')
+}
+
+// ─── PARTNER FABRICATION GUARD (P0-A) ────────────────────────────────────────
+
+function buildPartnerAllowlist(brief: any): Set<string> {
+  const allowed = new Set<string>(['IRIS'])
+  for (const p of brief?.partners || []) {
+    if (p.acronym) allowed.add(p.acronym.toUpperCase())
+    // Also allow common EU institution abbreviations that appear in methodology text
+    ;['EC', 'EU', 'WP', 'PM', 'DOI', 'IPR', 'IP', 'SME', 'RTO', 'KPI', 'TRL', 'HE', 'RIA', 'IA', 'CSA',
+      'PAT', 'NIR', 'AI', 'ML', 'IoT', 'DMP', 'NDA', 'MOU', 'DOA', 'SOP', 'ICT', 'GDP', 'OA', 'FAQ',
+      'RDM', 'SSH', 'FAIR', 'DNSH', 'EAB', 'PSC', 'TMC', 'WPL', 'PC', 'UE', 'FP', 'ETL', 'API',
+    ].forEach(a => allowed.add(a))
+  }
+  return allowed
+}
+
+function buildPartnerGuardPrompt(brief: any): string {
+  const acronyms = (brief?.partners || []).map((p: any) => p.acronym).filter(Boolean)
+  if (!acronyms.length) return ''
+  return `\nPARTNER NAMES: Use ONLY these partner acronyms: ${acronyms.join(', ')}. Do NOT invent or substitute other organisation acronyms. If a task lead is unknown, write "TBC".`
+}
+
+const FABRICATED_ACRONYM_RE = /\b([A-Z]{3,6})\b/g
+
+function scrubFabricatedAcronyms(text: string, allowlist: Set<string>): string {
+  // Replace any uppercase 3–6-letter acronym not in the allowlist with [PARTNER]
+  // Only fire when the acronym looks like an organisation name (surrounded by whitespace/punctuation,
+  // not part of a word, and appears in a context suggestive of partner attribution).
+  // We gate on "(Lead:" or "(Partners:" context to avoid false positives in general prose.
+  const leadPattern = /(\((?:Lead|Partners?|Coordinator):?\s*)([A-Z]{3,6})(\b)/g
+  return text.replace(leadPattern, (_m, pre, acronym, post) => {
+    if (allowlist.has(acronym)) return _m
+    console.warn(`[partner-guard] fabricated acronym "${acronym}" replaced with TBC`)
+    return `${pre}TBC${post}`
+  })
+}
+
+// ─── PERSONNEL FABRICATION VALIDATORS (P0) ───────────────────────────────────
+
+function detectPersonnelFabrication(text: string, suppliedNames: string[]): string[] {
+  const allowedNames = new Set(suppliedNames.map(n => n.toLowerCase()))
+  const personRe = /(?:Dr\.?|Prof\.?|Mr\.?|Ms\.?|Mrs\.?)\s+([A-Z][a-zA-Zé\-']+\s+[A-Z][a-zA-Zé\-']+)/g
+  const fabricated: string[] = []
+  let m
+  while ((m = personRe.exec(text)) !== null) {
+    if (!allowedNames.has(m[1].toLowerCase())) fabricated.push(m[0])
+  }
+  return fabricated
+}
+
+function detectMetricFabrication(text: string): string[] {
+  const flags: string[] = []
+  if (/H[- ]index\s+\d+/i.test(text))                     flags.push('H-index claim')
+  if (/\(\s*\d+\s+patents?\s*\)/i.test(text))              flags.push('patent-count claim')
+  if (/Industry Leader [Aa]ward/.test(text))               flags.push('"Industry Leader Award" filler')
+  if (/Grant Agreement Annex/i.test(text))                 flags.push('non-existent Grant Agreement reference')
+  if (/Final Report.*\(20\d\d\)/i.test(text))             flags.push('fabricated final-report citation')
+  return flags
+}
+
+function stripFabricatedPersonnel(text: string, suppliedNames: string[]): string {
+  const fabricated = detectPersonnelFabrication(text, suppliedNames)
+  if (!fabricated.length) return text
+  let result = text
+  for (const name of fabricated) {
+    // Remove the sentence(s) containing the fabricated name
+    const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+    result = result.replace(new RegExp(`[^.!?]*${escaped}[^.!?]*[.!?]`, 'g'), '')
+    console.warn(`[personnel-guard] stripped sentence containing fabricated name: "${name}"`)
+  }
+  return result.replace(/\n{3,}/g, '\n\n').trim()
+}
+
+function validateReferencesBlock(text: string, sourcePapers: SourcePaper[]): string {
+  // Find a References / Bibliography block at the end of the text
+  const refBlockMatch = text.match(/\n---\n\*\*(?:References|Bibliography)\*\*\n([\s\S]+)$/)
+  if (!refBlockMatch) return text
+  // Check if entries have any backing in sourcePapers (by partial URL or year+author match)
+  const block = refBlockMatch[1]
+  const entryRe = /^\d+\.\s+(.+)$/gm
+  let hasUnsupported = false
+  let m
+  while ((m = entryRe.exec(block)) !== null) {
+    const entry = m[1].toLowerCase()
+    const supported = sourcePapers.some(p =>
+      (p.url && entry.includes(p.url.toLowerCase())) ||
+      (p.year && p.authors && entry.includes(p.year) && entry.includes(p.authors.split(',')[0].toLowerCase()))
+    )
+    if (!supported) { hasUnsupported = true; break }
+  }
+  if (hasUnsupported && sourcePapers.length === 0) {
+    // No source papers at all — strip the whole references block
+    console.warn('[ref-validator] stripping unsupported references block (no source papers provided)')
+    return text.slice(0, refBlockMatch.index).trim()
+  }
+  return text
+}
+
+function detectBracketMismatch(text: string): boolean {
+  return /\[\d+\}|\{\d+\]/.test(text)
 }
 
 // ─── LATEX → MARKDOWN CONVERTER ──────────────────────────────────────────────
@@ -1858,6 +1988,21 @@ async function generateSectionMultiPass(
 
   const totalWords = assembled.split(/\s+/).filter(Boolean).length
   console.log(`[multi-pass] ${sectionId} assembled totalWords=${totalWords}`)
+
+  // P2-B: 5-gram repetition check — detect call-text echo or filler loops
+  const words5 = assembled.toLowerCase().replace(/[^\w\s]/g, '').split(/\s+/).filter(Boolean)
+  const gramCounts5 = new Map<string, number>()
+  for (let i = 0; i <= words5.length - 5; i++) {
+    const gram = words5.slice(i, i + 5).join(' ')
+    gramCounts5.set(gram, (gramCounts5.get(gram) || 0) + 1)
+  }
+  const overRepresented = [...gramCounts5.entries()].filter(([, count]) => count > 5)
+  if (overRepresented.length > 0) {
+    overRepresented.slice(0, 3).forEach(([gram, count]) =>
+      console.warn(`[5gram-check] "${gram}" repeated ${count}× in ${sectionId}`)
+    )
+  }
+
   return assembled
 }
 
@@ -1939,8 +2084,10 @@ Output ONLY valid JSON matching this exact schema (no preamble, no markdown fenc
 }
 
 Rules:
-- Generate 4–10 WPs (match the consortium size and project scope); at least 2 tasks per WP; at least 1 deliverable per WP; at least 6 milestones total
+- Generate 7–10 WPs minimum (NEVER fewer than 7 for a RIA; 7 matches the standard Part B section structure: Foundation, Development, Validation/Demonstration, Dissemination/Exploitation, Management, plus 2 technical WPs); at least 2 tasks per WP; at least 1 deliverable per WP; at least 6 milestones total
+- If a WP outline is provided, add generic WPs to reach 7 if needed (e.g. "WPn: Project Management and Coordination", "WPm: Ethics and Open Science")
 - Include exactly 5 risks: one each for technical, partner/consortium, data/IP, regulatory, and market risk
+- Person-month totals across all WPs should sum to at least max(200, budget_millions × 90) PM — for a typical €3–6 M RIA, target 350–500 PM total
 - String values for unknown numbers must be "TBC" (not null, not 0)`
 
   let structured: any = { overview: '', workPackages: [], risks: [], duration: 48 }
@@ -1961,6 +2108,33 @@ Rules:
   const wps: any[]   = structured.workPackages || []
   const risks: any[] = structured.risks        || []
   const duration: number = structured.duration ?? 48
+
+  // P1-A: enforce minimum 7 WPs
+  const WP_FLOOR = 7
+  if (wps.length < WP_FLOOR) {
+    console.warn(`[workplan] only ${wps.length} WPs generated — padding to ${WP_FLOOR}`)
+    const defaults = [
+      { title: 'Ethics, Gender and Open Science', lead: 'IRIS', objectives: 'Ensure ethical compliance, gender mainstreaming, and open science practices throughout the project.' },
+      { title: 'Data Management and FAIR Compliance', lead: 'IRIS', objectives: 'Implement FAIR data principles and maintain a living Data Management Plan.' },
+      { title: 'Project Management and Coordination', lead: 'IRIS', objectives: 'Coordinate all project activities, manage finances, and ensure timely delivery.' },
+    ]
+    let padIdx = 0
+    while (wps.length < WP_FLOOR && padIdx < defaults.length) {
+      const def = defaults[padIdx++]
+      if (!wps.some((w: any) => w.title.toLowerCase().includes(def.title.toLowerCase().split(' ')[0]))) {
+        wps.push({
+          number: wps.length + 1, title: def.title, lead: def.lead,
+          participants: [], personMonths: 'TBC',
+          startMonth: 1, endMonth: duration,
+          objectives: def.objectives,
+          tasks: [{ id: `T${wps.length + 1}.1`, title: def.objectives.split(' ').slice(0, 5).join(' '), lead: def.lead, partners: [], description: def.objectives }],
+          deliverables: [{ id: `D${wps.length + 1}.1`, title: `${def.title} Plan`, type: 'Report', dissemination: 'PU', dueMonth: 6 }],
+          milestones: [],
+        })
+      }
+    }
+    wps.forEach((wp: any, i: number) => { wp.number = i + 1 })
+  }
 
   // Ensure Project Management WP is always the last work package
   const mgmtIdx = wps.findIndex((wp: any) => /project\s*management/i.test(wp.title))
@@ -2079,12 +2253,19 @@ Instructions:
   ).join('\n')
   md.push(`### Critical risks and mitigation\n\n| Risk | WP | Likelihood | Severity | Mitigation measure |\n|------|----|------------|----------|--------------------|\n${riskRows || '| [TBC] | WP1 | Medium | Medium | [TBC] |'}`)
 
-  // Person-month summary table (uses pre-computed wpPmTotals and allPartnersForPM)
+  // Person-month summary table (P1-B): partner_acronym | partner_name | WP1..WPn | total
+  // Build acronym → full name lookup from brief
+  const acronymToName: Record<string, string> = {}
+  for (const p of brief?.partners || []) {
+    if (p.acronym) acronymToName[p.acronym] = p.name || p.acronym
+  }
+
   if (allPartnersForPM.length > 0 && wps.length > 0) {
-    const hdr = `| Partner | ${wps.map((wp: any) => `WP${wp.number}`).join(' | ')} | **Total** |`
-    const sep = `|---------|${wps.map(() => '-----').join('|')}|-----------|`
+    const hdr = `| Acronym | Partner | ${wps.map((wp: any) => `WP${wp.number}`).join(' | ')} | **Total** |`
+    const sep = `|---------|---------|${wps.map(() => '-----').join('|')}|-----------|`
     const partnerTotals: number[] = []
     const rows = allPartnersForPM.map(partner => {
+      const fullName = acronymToName[String(partner)] || String(partner)
       const cells = wps.map((wp: any) => {
         const dur = Math.max(1, ((wp.endMonth || 12) - (wp.startMonth || 1) + 1))
         if (wp.lead === partner) return String(Math.round(dur * 0.8))
@@ -2093,10 +2274,10 @@ Instructions:
       })
       const total = cells.reduce((sum, c) => sum + (c === '—' ? 0 : (parseInt(c) || 0)), 0)
       partnerTotals.push(total)
-      return `| ${partner} | ${cells.join(' | ')} | **${total}** |`
+      return `| ${partner} | ${fullName} | ${cells.join(' | ')} | **${total}** |`
     })
     const projectTotal = partnerTotals.reduce((a, b) => a + b, 0)
-    const totalsRow = `| **PROJECT TOTAL** | ${wps.map((wp: any) => `**${wpPmTotals[wp.number] ?? 'TBC'}**`).join(' | ')} | **${projectTotal}** |`
+    const totalsRow = `| | **PROJECT TOTAL** | ${wps.map((wp: any) => `**${wpPmTotals[wp.number] ?? 'TBC'}**`).join(' | ')} | **${projectTotal}** |`
     md.push(`### Person-month summary\n\n${hdr}\n${sep}\n${rows.join('\n')}\n${totalsRow}`)
   }
 
@@ -2235,7 +2416,7 @@ export async function POST(req: NextRequest) {
       mode === 'EXTERNAL' || mode === 'HYBRID'
         ? retrieveExternalContext(fullQuery, keywordSource)
         : Promise.resolve(''),
-      retrieveStyleExamples(fullQuery)
+      retrieveStyleExamples(fullQuery, brief?.acronym)
     ])
 
     // Assemble context blocks
@@ -2646,6 +2827,11 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
 
     let finalSystemPrompt = enrichedSystemPrompt + STYLE_ENFORCEMENT + '\n\n' + BASE_GUARDRAILS
 
+    // P0-A: inject partner acronym allowlist into finalSystemPrompt when brief is present
+    if (brief?.partners?.length) {
+      finalSystemPrompt += '\n\n' + buildPartnerGuardPrompt(brief)
+    }
+
     // Scope boundary hint for objectives — no hardcoded word cap (template targetWords governs length)
     if (section === 'objectives') {
       finalSystemPrompt += `\n\nSCOPE BOUNDARY: Do NOT include publications targets, open-access plans, commercialisation pathways, market size figures, workforce impact, standardisation activities, or societal impact in this section — those belong in §2.1 Outcomes, §2.2 Dissemination, and §4 Business Case.`
@@ -2743,6 +2929,31 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
               openai as any,
               passOneCtx
             )
+
+            // P0-A: scrub fabricated partner acronyms
+            if (brief?.partners?.length) {
+              const allowlist = buildPartnerAllowlist(brief)
+              fullGeneratedText = scrubFabricatedAcronyms(fullGeneratedText, allowlist)
+            }
+
+            // P0 personnel fabrication guard for capacity sections
+            if (normalizedSection === 'capacity') {
+              const suppliedPersonnel = (brief?.partners || [])
+                .flatMap((p: any) => (p.keyPersonnel || []).map((kp: any) => ({ name: kp.name || '' })))
+              fullGeneratedText = stripFabricatedPersonnel(fullGeneratedText, suppliedPersonnel.map((kp: any) => kp.name))
+              const metricFlags = detectMetricFabrication(fullGeneratedText)
+              if (metricFlags.length > 0) {
+                console.warn(`[personnel-guard] metric fabrication detected: ${metricFlags.join(', ')}`)
+              }
+              // Bracket-mismatch detection
+              if (detectBracketMismatch(fullGeneratedText)) {
+                console.warn('[bracket-mismatch] bracket mismatch detected — stripped affected markers')
+                fullGeneratedText = fullGeneratedText.replace(/\[\d+\}|\{\d+\]/g, '')
+              }
+            }
+
+            // Validate and strip unsupported references block
+            fullGeneratedText = validateReferencesBlock(fullGeneratedText, sourcePapers)
 
             // Corpus-narrator + contamination guard
             const filterCtx = { acronym: brief?.acronym, callId: brief?.callId, section: normalizedSection }
@@ -3283,6 +3494,17 @@ ${fullGeneratedText}`
             } catch (e) {
               console.error('Citation cleanup error (using original text):', e)
             }
+          }
+
+          // P1-D: bracket-mismatch guard ([13} {14] etc.)
+          if (detectBracketMismatch(finalText)) {
+            console.warn('[bracket-mismatch] stripping malformed citation brackets')
+            finalText = finalText.replace(/\[\d+\}|\{\d+\]/g, '')
+          }
+
+          // P0-A: scrub fabricated partner acronyms from single-pass output
+          if (brief?.partners?.length) {
+            finalText = scrubFabricatedAcronyms(finalText, buildPartnerAllowlist(brief))
           }
 
           // Stream the (potentially cleaned) main text

@@ -508,6 +508,20 @@ export async function POST(req: NextRequest) {
 
           // ── Section content ────────────────────────────────────────────────
           ...buildSectionParagraphs(cleanSections, template, brief),
+
+          // ── P1-C: AI acknowledgement footer ───────────────────────────────
+          new Paragraph({ children: [new PageBreak()] }),
+          new Paragraph({
+            children: [new TextRun({ text: 'Preparation note', ...RUN_SUBHEAD, color: '64748B' })],
+            spacing: { after: 160 },
+          }),
+          new Paragraph({
+            children: [new TextRun({
+              text: `This document was drafted with AI assistance (IRIS KB proposal writer, powered by OpenAI GPT-4.1). All content has been reviewed and approved by IRIS Technology Solutions. The final submitted version must be verified by the proposal coordinator for factual accuracy, partner details, and compliance with the call conditions prior to submission.`,
+              ...RUN_SMALL, color: '64748B', italics: true,
+            })],
+            spacing: { after: 80 },
+          }),
         ],
       }],
     })

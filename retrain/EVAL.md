@@ -148,3 +148,97 @@ Evidence: sample_outputs.py (same minimal prompt) showed first-person output for
 - Full STYLE_ENFORCEMENT system prompt
 
 Until that redesign, eval results should be treated as indicative only. Deploy is not blocked.
+
+---
+
+## Eval — production-equivalent prompt
+
+| Section | Status | Words | Regurg | we/our | Task fmt | Issues |
+|---------|--------|-------|--------|--------|----------|--------|
+| 1_1 | FAIL | 1 | 0 | False | False | recursive heading degeneration; output too short (1 words); no first-person plural |
+| 1_2 | PASS | 1012 | 0 | True | False | — |
+| 1_3 | PASS | 575 | 0 | True | False | — |
+| 1_4 | PASS | 635 | 0 | True | False | — |
+| 2_1 | PASS | 956 | 0 | True | False | — |
+| 2_2 | PASS | 1054 | 3 | True | False | — |
+| 2_3 | PASS | 753 | 0 | True | False | — |
+| 3_1 | FAIL | 794 | 3 | True | False | recursive heading degeneration |
+| 3_2 | PASS | 1013 | 1 | True | False | — |
+| 3_3 | PASS | 664 | 0 | True | False | — |
+| 4 | PASS | 952 | 0 | True | False | — |
+
+### Output Previews
+
+#### Section 1_1
+
+```
+1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.
+```
+
+#### Section 1_2
+
+```
+We have identified a clear need for inline quality control in manufacturing processes, which is currently addressed by offline sampling methods that are time-consuming and prone to errors. Our approach to addressing this need is to develop advanced photonic sensing systems that integrate miniaturised NIR and Raman spectroscopy with AI-driven chemometric models for real-time decision-making on prod
+```
+
+#### Section 1_3
+
+```
+We will develop a comprehensive methodology that integrates miniaturised NIR and Raman spectroscopy with AI-driven chemometric models to achieve real-time quality control in sustainable manufacturing. Our approach is structured around three key phases: technology development, integration and validation, and industrial demonstration and exploitation. Each phase is designed to address specific chall
+```
+
+#### Section 1_4
+
+```
+We will develop a photonic sensor system that integrates miniaturised NIR and Raman spectroscopy with AI-driven chemometric models for real-time decision-making on production lines. Our approach will enable inline quality control with >95% classification accuracy, validated at TRL 6 in at least two industrial pilot environments. We will reduce material waste by at least 20% compared to current off
+```
+
+#### Section 2_1
+
+```
+We will develop photonic sensor systems achieving >95% classification accuracy for inline quality control. Our approach will integrate miniaturised NIR and Raman spectroscopy with AI-driven chemometric models for real-time decision-making on production lines. We will validate our approach at TRL 6 in at least two industrial pilot environments. We will reduce material waste of at least 20% compared
+```
+
+#### Section 2_2
+
+```
+We will develop a comprehensive plan for the dissemination, exploitation and communication of the project results, which will be updated and refined throughout the project lifetime. Our plan will be based on the following principles:
+
+- We will ensure that the project results are disseminated to the relevant stakeholders, including the scientific community, the industry, the policy makers and the 
+```
+
+#### Section 2_3
+
+```
+We will develop a comprehensive communication and dissemination strategy to ensure the visibility and impact of our project. Our approach will be based on the following principles:
+
+- We will use a variety of communication channels and tools to reach different audiences, such as social media, newsletters, press releases, scientific publications, conferences, workshops, webinars, and exhibitions.
+-
+```
+
+#### Section 3_1
+
+```
+3.1.1. Work plan — Work packages, deliverables, milestones
+3.1.1.1. Overall structure of the work plan
+The work plan is structured in 6 work packages (WPs) as shown in Figure 1. WP1 will focus on the development of the photonic sensor systems, including the integration of miniaturised NIR and Raman spectroscopy with AI-driven chemometric models. WP2 will focus on the development of the AI-driven c
+```
+
+#### Section 3_2
+
+```
+We will establish a clear and effective management structure to ensure the successful implementation of our project. Our project will be coordinated by IRIS Technology Solutions, a Spanish SME with extensive experience in managing EU projects. We will be responsible for the overall management of the project, including financial management, reporting, and communication with the European Commission.
+```
+
+#### Section 3_3
+
+```
+We are a consortium of five partners from four European countries, with complementary expertise in photonics, spectroscopy, chemometrics, and manufacturing. We have a proven track record of successful collaboration in EU projects, such as SORT4CIRC, NANOBLOC, and PRESERVE, where we developed and validated NIR spectrometers and chemometric models for real-time quality control in food and feed produ
+```
+
+#### Section 4
+
+```
+We will develop a novel photonic sensor system for real-time quality control in sustainable manufacturing. Our system will integrate miniaturised near-infrared (NIR) and Raman spectroscopy with AI-driven chemometric models for inline decision-making on production lines. We will validate our system at TRL 6 in two industrial pilot environments, achieving >95% classification accuracy and reducing ma
+```
+

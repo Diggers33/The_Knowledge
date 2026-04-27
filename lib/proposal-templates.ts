@@ -56,7 +56,7 @@ export const TEMPLATES: Record<string, ProposalTemplate> = {
         pages: 3,
         words: 1200,
         mandatory: true,
-        description: 'Research design, technical approach, risk mitigation, TRL progression',
+        description: 'Research design, technical approach, risk mitigation, TRL progression. Must include gender dimension and open science practices sub-sections.',
       },
       {
         id: 'impact',
@@ -122,7 +122,7 @@ export const TEMPLATES: Record<string, ProposalTemplate> = {
         pages: 6,
         words: 2400,
         mandatory: true,
-        description: 'Research design, technical work plan overview, risk assessment, TRL progression from start to end',
+        description: 'Research design, technical work plan overview, risk assessment, TRL progression from start to end. Must include gender dimension and open science practices sub-sections.',
       },
       {
         id: 'innovation',
@@ -180,7 +180,7 @@ export const TEMPLATES: Record<string, ProposalTemplate> = {
         pages: 6,
         words: 2400,
         mandatory: true,
-        description: 'Tables 3.1a–3.1d: WP list, WP descriptions, deliverables, milestones. Gantt chart. Critical risks.',
+        description: 'Tables 3.1a–3.1d: WP list, WP descriptions, deliverables, milestones. Gantt chart. Critical risks. Project Management is always the final WP.',
       },
       {
         id: 'management',
@@ -245,7 +245,7 @@ export const TEMPLATES: Record<string, ProposalTemplate> = {
         pages: 5,
         words: 2000,
         mandatory: true,
-        description: 'Research design, technical work plan overview, risk assessment, TRL progression',
+        description: 'Research design, technical work plan overview, risk assessment, TRL progression. Must include gender dimension and open science practices sub-sections.',
       },
       {
         id: 'innovation',
@@ -303,7 +303,7 @@ export const TEMPLATES: Record<string, ProposalTemplate> = {
         pages: 6,
         words: 2400,
         mandatory: true,
-        description: 'Tables 3.1a–3.1d: WP list, WP descriptions, deliverables, milestones. Gantt chart. Critical risks.',
+        description: 'Tables 3.1a–3.1d: WP list, WP descriptions, deliverables, milestones. Gantt chart. Critical risks. Project Management is always the final WP.',
       },
       {
         id: 'management',
@@ -410,7 +410,7 @@ export const TEMPLATES: Record<string, ProposalTemplate> = {
         pages: 6,
         words: 2400,
         mandatory: true,
-        description: 'Tables 3.1a–3.1d: WP list, WP descriptions, deliverables, milestones. Gantt chart. Critical risks.',
+        description: 'Tables 3.1a–3.1d: WP list, WP descriptions, deliverables, milestones. Gantt chart. Critical risks. Project Management is always the final WP.',
       },
       {
         id: 'management',

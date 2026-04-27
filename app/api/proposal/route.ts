@@ -2656,8 +2656,70 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
     console.log(`Citation validation: ${sourcePapers.length} source papers parsed from external context`)
     console.log(`Source papers with DOIs: ${sourcePapers.filter(p => p.url).length}/${sourcePapers.length}`)
 
-    // ── Section multi-pass generation path (methodology / objectives / pathways / measures / capacity)
+    // ── Declarations that must precede ALL ReadableStream blocks to avoid TDZ ──
+    // ReadableStream's start() is called synchronously by the constructor, so any
+    // const/let referenced inside start() must be initialised BEFORE the constructor
+    // call — otherwise the JS engine throws a Temporal Dead Zone ReferenceError.
+
     const isSotASection = normalizedSection === 'state_of_the_art' || normalizedSection === 'innovation' || normalizedSection === 'sota'
+
+    // Numbered source list for SotA sections (enables [N] inline citations)
+    const numberedSourceList = (isSotASection && sourcePapers.length > 0)
+      ? `NUMBERED SOURCE LIST (use [N] for inline citations):\n${sourcePapers.slice(0, 15).map((p, i) => `[${i + 1}] ${p.authors} (${p.year}). ${p.title}.${p.url ? ' ' + p.url : ''}`).join('\n')}\n`
+      : ''
+
+    // Already-written guard — injects §1.1 Objectives as context for §1.4 Innovation
+    const alreadyWrittenBlock = (normalizedSection === 'innovation' && sessionSections['objectives'])
+      ? `<<ALREADY_WRITTEN — Section 1.1 Objectives>>\n${sessionSections['objectives'].slice(0, 1200)}\n<<END ALREADY_WRITTEN>>\nDo NOT repeat any sentence, claim, or figure from the above. Section 1.4 extends and deepens — it does not summarise or restate Section 1.1.`
+      : ''
+
+    // Partner-count block — prevents confabulation of partner/WP numbers
+    const partnerCountBlock = ((normalizedSection === 'consortium' || normalizedSection === 'capacity') && brief?.partners?.length)
+      ? (() => {
+          const ps = brief!.partners
+          const byType: Record<string, number> = {}
+          ps.forEach((p: any) => { byType[p.type || 'other'] = (byType[p.type || 'other'] || 0) + 1 })
+          const typeLines = Object.entries(byType).map(([t, n]) => `  ${n}× ${t}`).join('\n')
+          const wpSection = sessionSections['workplan'] || ''
+          const wpCount = (wpSection.match(/\bWP\s*\d+\b/g) || []).reduce((acc: Set<string>, m: string) => { acc.add(m.replace(/\s/, '')); return acc }, new Set<string>()).size
+          return `CONSORTIUM FACTS — copy these numbers exactly into the text:\nTotal partners: ${ps.length}\nPartner breakdown:\n${typeLines}\nPartner list: ${ps.map((p: any) => `${p.name} (${p.country}, ${p.type})`).join('; ')}\n${wpCount > 0 ? `Work packages (from Section 3.1): ${wpCount}` : ''}`
+        })()
+      : ''
+
+    const userMessage = [
+      `Call topic / objectives:\n${callText}`,
+      additionalContext ? `Additional context:\n${additionalContext}` : '',
+      numberedSourceList,
+      contextBlocks.join('\n\n'),
+      brief ? `BINDING BRIEF VALUES — use these exactly, do not substitute:\nProject: ${brief.acronym || 'UNNAMED'} | TRL: ${brief.trlStart ?? 3}→${brief.trlEnd ?? 6} | Action: ${brief.actionType || 'RIA'}` : '',
+      alreadyWrittenBlock,
+      partnerCountBlock,
+      `Write the ${SECTION_LABELS[section] || section} section:`
+    ].filter(Boolean).join('\n\n')
+
+    // Per-section fine-tuned models — falls back to gpt-4o if not set
+    const SECTION_MODEL_ENV: Record<string, string | undefined> = {
+      // Canonical Part B IDs
+      objectives:    process.env.IRIS_MODEL_OBJECTIVES,
+      methodology:   process.env.IRIS_MODEL_METHODOLOGY,
+      pathways:      process.env.IRIS_MODEL_OUTCOMES,
+      measures:      process.env.IRIS_MODEL_DISSEMINATION,
+      workplan:      process.env.IRIS_MODEL_WORKPLAN,
+      capacity:      process.env.IRIS_MODEL_CONSORTIUM,
+      // Legacy IDs (kept for backward compat)
+      sota:          process.env.IRIS_MODEL_SOTA,
+      innovation:    process.env.IRIS_MODEL_INNOVATION,
+      outcomes:      process.env.IRIS_MODEL_OUTCOMES,
+      dissemination: process.env.IRIS_MODEL_DISSEMINATION,
+      communication: process.env.IRIS_MODEL_COMMUNICATION,
+      management:    process.env.IRIS_MODEL_MANAGEMENT,
+      consortium:    process.env.IRIS_MODEL_CONSORTIUM,
+      business_case: process.env.IRIS_MODEL_BUSINESS_CASE,
+    }
+    const model = SECTION_MODEL_ENV[normalizedSection] || SECTION_MODEL_ENV[section] || 'gpt-4o'
+    console.log(`Proposal model: ${model} (section: ${section})`)
+
+    // ── Section multi-pass generation path (methodology / objectives / pathways / measures / capacity)
     const multiPassScaffold = SECTION_SCAFFOLDS[normalizedSection as keyof typeof SECTION_SCAFFOLDS]
     const sectionLabelForPrompt = SECTION_LABELS[normalizedSection] || SECTION_LABELS[section] || section
 
@@ -2778,61 +2840,6 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
     }
 
     // ── Stream response ───────────────────────────────────────────────────────
-
-    // For SotA sections, prepend a numbered source list so the model can cite [N] inline
-    const numberedSourceList = (isSotASection && sourcePapers.length > 0)
-      ? `NUMBERED SOURCE LIST (use [N] for inline citations):\n${sourcePapers.slice(0, 15).map((p, i) => `[${i + 1}] ${p.authors} (${p.year}). ${p.title}.${p.url ? ' ' + p.url : ''}`).join('\n')}\n`
-      : ''
-
-    // ── 1.4 ALREADY_WRITTEN guard — inject 1.1 as context to prevent copy-paste ──
-    const alreadyWrittenBlock = (normalizedSection === 'innovation' && sessionSections['objectives'])
-      ? `<<ALREADY_WRITTEN — Section 1.1 Objectives>>\n${sessionSections['objectives'].slice(0, 1200)}\n<<END ALREADY_WRITTEN>>\nDo NOT repeat any sentence, claim, or figure from the above. Section 1.4 extends and deepens — it does not summarise or restate Section 1.1.`
-      : ''
-
-    // ── partner-count block — prevents confabulation of partner/WP numbers ──
-    const partnerCountBlock = ((normalizedSection === 'consortium' || normalizedSection === 'capacity') && brief?.partners?.length)
-      ? (() => {
-          const ps = brief.partners
-          const byType: Record<string, number> = {}
-          ps.forEach((p: any) => { byType[p.type || 'other'] = (byType[p.type || 'other'] || 0) + 1 })
-          const typeLines = Object.entries(byType).map(([t, n]) => `  ${n}× ${t}`).join('\n')
-          const wpSection = sessionSections['workplan'] || ''
-          const wpCount = (wpSection.match(/\bWP\s*\d+\b/g) || []).reduce((acc: Set<string>, m: string) => { acc.add(m.replace(/\s/,'')); return acc }, new Set<string>()).size
-          return `CONSORTIUM FACTS — copy these numbers exactly into the text:\nTotal partners: ${ps.length}\nPartner breakdown:\n${typeLines}\nPartner list: ${ps.map((p: any) => `${p.name} (${p.country}, ${p.type})`).join('; ')}\n${wpCount > 0 ? `Work packages (from Section 3.1): ${wpCount}` : ''}`
-        })()
-      : ''
-
-    const userMessage = [
-      `Call topic / objectives:\n${callText}`,
-      additionalContext ? `Additional context:\n${additionalContext}` : '',
-      numberedSourceList,
-      contextBlocks.join('\n\n'),
-      brief ? `BINDING BRIEF VALUES — use these exactly, do not substitute:\nProject: ${brief.acronym || 'UNNAMED'} | TRL: ${brief.trlStart ?? 3}→${brief.trlEnd ?? 6} | Action: ${brief.actionType || 'RIA'}` : '',
-      alreadyWrittenBlock,
-      partnerCountBlock,
-      `Write the ${SECTION_LABELS[section] || section} section:`
-    ].filter(Boolean).join('\n\n')
-    // Per-section fine-tuned models — falls back to gpt-4o if not set
-    const SECTION_MODEL_ENV: Record<string, string | undefined> = {
-      // Canonical Part B IDs
-      objectives:    process.env.IRIS_MODEL_OBJECTIVES,
-      methodology:   process.env.IRIS_MODEL_METHODOLOGY,
-      pathways:      process.env.IRIS_MODEL_OUTCOMES,       // reuse outcomes model for pathways
-      measures:      process.env.IRIS_MODEL_DISSEMINATION,  // reuse dissemination model for measures
-      workplan:      process.env.IRIS_MODEL_WORKPLAN,
-      capacity:      process.env.IRIS_MODEL_CONSORTIUM,     // reuse consortium model for capacity
-      // Legacy IDs (kept for backward compat)
-      sota:          process.env.IRIS_MODEL_SOTA,
-      innovation:    process.env.IRIS_MODEL_INNOVATION,
-      outcomes:      process.env.IRIS_MODEL_OUTCOMES,
-      dissemination: process.env.IRIS_MODEL_DISSEMINATION,
-      communication: process.env.IRIS_MODEL_COMMUNICATION,
-      management:    process.env.IRIS_MODEL_MANAGEMENT,
-      consortium:    process.env.IRIS_MODEL_CONSORTIUM,
-      business_case: process.env.IRIS_MODEL_BUSINESS_CASE,
-    }
-    const model = SECTION_MODEL_ENV[normalizedSection] || SECTION_MODEL_ENV[section] || 'gpt-4o'
-    console.log(`Proposal model: ${model} (section: ${section})`)
     // Scale max_tokens to the section's word target (1.4 tokens/word + 20% headroom)
     // Methodology gets +800 extra tokens for Gantt + risk tables which inflate token count.
     const isMethodologySection = normalizedSection === 'methodology' || normalizedSection === 'iris_methodology'

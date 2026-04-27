@@ -2008,27 +2008,38 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
             let wpText = await generateWorkplanMultiPass(brief, callText, additionalContext || '', wpStyleExamples)
             wpText = convertLatexToMarkdown(wpText)
 
-            // n-gram deduplication (8-word windows)
-            const words = wpText.split(/\s+/)
-            if (words.length > 100) {
+            // n-gram deduplication (8-word windows) — guards against LLM output loops
+            // Threshold > 6 (not 3) because workplan tables have inherently repetitive structure
+            const ngWords = wpText.split(/\s+/)
+            if (ngWords.length > 100) {
               const gramCounts = new Map<string, number>()
-              for (let j = 0; j <= words.length - 8; j++) {
-                const gram = words.slice(j, j + 8).join(' ').toLowerCase()
+              for (let j = 0; j <= ngWords.length - 8; j++) {
+                const gram = ngWords.slice(j, j + 8).join(' ').toLowerCase()
                 gramCounts.set(gram, (gramCounts.get(gram) || 0) + 1)
               }
               const maxGram = gramCounts.size > 0 ? Math.max(...gramCounts.values()) : 0
-              if (maxGram > 3) {
+              if (maxGram > 6) {
                 console.warn(`Workplan n-gram loop detected (max=${maxGram}) — truncating at first repeat`)
-                // Find the position of the first repeated gram beyond its 2nd occurrence
                 const seen2 = new Map<string, number>()
-                let cutWord = words.length
-                for (let j = 0; j <= words.length - 8; j++) {
-                  const gram = words.slice(j, j + 8).join(' ').toLowerCase()
+                let cutWord = ngWords.length
+                for (let j = 0; j <= ngWords.length - 8; j++) {
+                  const gram = ngWords.slice(j, j + 8).join(' ').toLowerCase()
                   const count = (seen2.get(gram) || 0) + 1
                   seen2.set(gram, count)
                   if (count > 2) { cutWord = j; break }
                 }
-                wpText = words.slice(0, cutWord).join(' ')
+                // Walk the original text character-by-character to find the cut point,
+                // preserving newlines and all whitespace in the kept portion
+                let wi = 0, ci = 0
+                while (ci < wpText.length && wi < cutWord) {
+                  if (/\S/.test(wpText[ci])) {
+                    while (ci < wpText.length && /\S/.test(wpText[ci])) ci++
+                    wi++
+                  } else {
+                    ci++
+                  }
+                }
+                wpText = wpText.slice(0, ci)
               }
             }
 

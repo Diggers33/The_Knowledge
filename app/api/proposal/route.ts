@@ -107,6 +107,20 @@ UNIQUENESS REQUIREMENT: No sentence or 6+ word phrase may appear more than once 
 
 interface SubsectionDef { anchor: string; title: string; targetWords: number }
 
+interface OutlineEntry {
+  anchor: string
+  title: string
+  focusBullets: string[]
+  targetWords: number
+}
+
+// Lightweight context passed to Pass 1 outline generator
+interface SectionPassOneCtx {
+  acronym: string
+  callId: string
+  callText: string
+}
+
 const SECTION_SCAFFOLDS: Record<string, SubsectionDef[]> = {
   methodology: [
     { anchor: 'overall_methodology', title: 'Overall methodology and concepts',                                targetWords: 1100 },
@@ -1675,10 +1689,61 @@ function convertLatexToMarkdown(text: string): string {
     .replace(/\\hline/g, '')
 }
 
+// ─── PASS 1: OUTLINE GENERATOR ───────────────────────────────────────────────
+// Returns project-specific focusBullets per subsection (3–5 bullets each).
+// Uses gpt-4o with JSON output — one cheap call (~400 tokens) per section.
+
+async function generateSectionOutline(
+  sectionId: string,
+  scaffold: SubsectionDef[],
+  ctx: SectionPassOneCtx,
+  openaiClient: { chat: { completions: { create: (...args: any[]) => Promise<any> } } }
+): Promise<OutlineEntry[]> {
+  const outlinePrompt = `You are planning the "${sectionId}" section of a Horizon Europe Part B proposal.
+
+Project acronym: ${ctx.acronym}
+Call reference: ${ctx.callId}
+Call text excerpt: ${ctx.callText.slice(0, 1500)}
+
+The section will be written as ${scaffold.length} subsections. For each subsection below, return 3–5 focusBullets describing SPECIFIC project-relevant content to cover. Bullets must reference the actual technology, partners, deliverables, or KPIs of this project — not generic Horizon Europe boilerplate.
+
+Subsections:
+${scaffold.map(s => `  - ${s.anchor}: "${s.title}" (${s.targetWords} words)`).join('\n')}
+
+Return JSON: { "outline": [{"anchor": "...", "title": "...", "focusBullets": ["...", "...", "..."], "targetWords": 0}, ...] }`
+
+  try {
+    const r = await (openaiClient as any).chat.completions.create({
+      model: 'gpt-4o',
+      response_format: { type: 'json_object' },
+      messages: [{ role: 'user', content: outlinePrompt }],
+      max_tokens: 1500,
+      temperature: 0.3,
+    })
+    const parsed = JSON.parse(r.choices[0]?.message?.content || '{}')
+    if (Array.isArray(parsed.outline) && parsed.outline.length > 0) {
+      // Merge targetWords from scaffold (outline response may have 0/wrong values)
+      return scaffold.map(s => {
+        const match = parsed.outline.find((o: any) => o.anchor === s.anchor)
+        return {
+          anchor: s.anchor,
+          title: s.title,
+          targetWords: s.targetWords,
+          focusBullets: match?.focusBullets ?? [],
+        }
+      })
+    }
+  } catch (e) {
+    console.warn(`[outline] Pass 1 failed for ${sectionId}:`, e)
+  }
+  // Fallback: empty bullets — Pass 2 still runs with subsection system blocks
+  return scaffold.map(s => ({ ...s, focusBullets: [] }))
+}
+
 // ─── SECTION MULTI-PASS GENERATOR ────────────────────────────────────────────
-// Mirrors the workplan multi-pass pattern for methodology, objectives, pathways,
-// measures, and capacity. Runs one GPT call per subsection in parallel, then
-// applies a per-subsection fill-to-target retry if output < 70% of sub-target.
+// Pass 1: project-specific outline (focusBullets per subsection).
+// Pass 2: parallel prose per subsection using focused system prompt + focus bullets.
+// fillToTarget: per-subsection length retry at 0.85× threshold.
 
 async function generateSectionMultiPass(
   sectionId: string,
@@ -1687,7 +1752,8 @@ async function generateSectionMultiPass(
   systemPrompt: string,
   userContext: string,
   model: string,
-  openaiClient: { chat: { completions: { create: (...args: any[]) => Promise<any> } } }
+  openaiClient: { chat: { completions: { create: (...args: any[]) => Promise<any> } } },
+  passOneCtx?: SectionPassOneCtx
 ): Promise<string> {
   const siblingTitles = scaffold.map(s => s.title)
 
@@ -1700,15 +1766,28 @@ async function generateSectionMultiPass(
       : systemPrompt
   }
 
-  // Pass: per-subsection prose in parallel (scaffold is static — no Pass 1 outline needed)
+  // Pass 1 — project-specific outline (focusBullets per subsection)
+  let outline: OutlineEntry[] = scaffold.map(s => ({ ...s, focusBullets: [] }))
+  if (passOneCtx) {
+    console.log(`[multi-pass] ${sectionId} Pass 1: generating outline…`)
+    outline = await generateSectionOutline(sectionId, scaffold, passOneCtx, openaiClient)
+    console.log(`[multi-pass] ${sectionId} Pass 1 done: ${outline.filter(o => o.focusBullets.length > 0).length}/${scaffold.length} subsections with focus bullets`)
+  }
+
+  // Pass 2 — per-subsection prose in parallel
   const rawProse: string[] = await Promise.all(
     scaffold.map(async (sub, idx) => {
+      const entry = outline.find(o => o.anchor === sub.anchor) ?? { ...sub, focusBullets: [] }
       const siblings = siblingTitles.filter((_, i) => i !== idx).map(t => `"${t}"`).join(', ')
+      const bulletBlock = entry.focusBullets.length > 0
+        ? `\n\nCover these focus points (you may add others if substantive):\n${entry.focusBullets.map((b, i) => `  ${i + 1}. ${b}`).join('\n')}`
+        : ''
       const subInstruction = [
         `Write ONLY the "${sub.title}" subsection of Section ${sectionLabel} for this Horizon Europe proposal.`,
         `Target: ${sub.targetWords} words of substantive prose (acceptable range ${Math.round(sub.targetWords * 0.85)}–${Math.round(sub.targetWords * 1.15)}).`,
         `Do NOT write a heading — the assembler adds headings.`,
-        `Sibling subsections (do NOT introduce their content here): ${siblings}.`,
+        `Sibling subsections (do NOT introduce their content here): ${siblings}.` + bulletBlock,
+        `Begin directly with the substantive prose. Stop at the natural endpoint when content is exhausted.`,
         `Write "${sub.title}":`,
       ].join('\n\n')
 
@@ -1730,19 +1809,19 @@ async function generateSectionMultiPass(
     })
   )
 
-  // Per-subsection fill-to-target retry (threshold 0.70, max 1 retry each)
+  // fillToTarget — per-subsection retry at 0.85× threshold
   // Uses SUBSECTION_EXTENSION_HINTS to steer continuation onto fresh angles.
   const filledProse: string[] = await Promise.all(
     scaffold.map(async (sub, idx) => {
       let prose = rawProse[idx]
       const words = prose.split(/\s+/).filter(Boolean).length
-      if (words >= sub.targetWords * 0.70) return prose
+      if (words >= sub.targetWords * 0.85) return prose
       const shortfall = sub.targetWords - words
       const hintKey = `${sectionId}.${sub.anchor}`
       const hint = SUBSECTION_EXTENSION_HINTS[hintKey]
         ? `Cover these NEW angles not yet addressed above: ${SUBSECTION_EXTENSION_HINTS[hintKey]}.`
         : 'Add new substantive content not yet covered above.'
-      console.log(`[multi-pass] retry ${sectionId}.${sub.anchor} words=${words} shortfall=${shortfall}`)
+      console.log(`[fillToTarget] ${sectionId}.${sub.anchor} words=${words} target=${sub.targetWords} shortfall=${shortfall}`)
       try {
         const cont = await (openaiClient as any).chat.completions.create({
           model,
@@ -1758,12 +1837,15 @@ async function generateSectionMultiPass(
           presence_penalty: 0.5,
         })
         const extra = cont.choices[0]?.message?.content?.trim() || ''
-        if (extra.split(/\s+/).filter(Boolean).length >= 40) {
+        const extraWords = extra.split(/\s+/).filter(Boolean).length
+        if (extraWords >= 50) {
           prose = prose.trimEnd() + '\n\n' + extra
-          console.log(`[multi-pass] retry ${sectionId}.${sub.anchor} added ${extra.split(/\s+/).filter(Boolean).length} words`)
+          console.log(`[fillToTarget] ${sectionId}.${sub.anchor} +${extraWords} words`)
+        } else {
+          console.warn(`[fillToTarget] ${sectionId}.${sub.anchor} retry returned only ${extraWords} words — keeping original`)
         }
       } catch (e) {
-        console.warn(`[multi-pass] retry failed for ${sectionId}.${sub.anchor}:`, e)
+        console.warn(`[fillToTarget] retry failed for ${sectionId}.${sub.anchor}:`, e)
       }
       return prose
     })
@@ -2573,6 +2655,11 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
       const readable = new ReadableStream({
         async start(controller) {
           try {
+            const passOneCtx: SectionPassOneCtx = {
+              acronym: brief?.acronym ?? '',
+              callId: brief?.callId ?? '',
+              callText,
+            }
             let fullGeneratedText = await generateSectionMultiPass(
               normalizedSection,
               sectionLabelForPrompt,
@@ -2580,7 +2667,8 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
               finalSystemPrompt,
               userMessage,
               model,
-              openai as any
+              openai as any,
+              passOneCtx
             )
 
             // Corpus-narrator + contamination guard

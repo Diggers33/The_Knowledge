@@ -1,7 +1,7 @@
 'use client'
 import { useState, useRef, useCallback } from 'react'
 import Sidebar from '@/components/Sidebar'
-import { Loader2, Download, ChevronRight, ChevronLeft, FileText, Check, RefreshCw, Plus, X } from 'lucide-react'
+import { Loader2, Download, ChevronRight, ChevronLeft, FileText, Check, RefreshCw, Plus, X, Upload, AlertTriangle } from 'lucide-react'
 
 // ─── TYPES ────────────────────────────────────────────────────────────────────
 
@@ -14,6 +14,19 @@ interface KPI {
   result: string
   status: 'met' | 'partial' | 'missed'
   notes: string
+}
+
+type SourceCategory = 'measurements' | 'report' | 'spec' | 'reference' | 'other'
+
+interface SourceFileEntry {
+  fileName: string
+  category: SourceCategory
+  wordCount: number
+  pageCount?: number
+  tableCount: number
+  figureCount: number
+  status: 'extracting' | 'ready' | 'failed'
+  errorMessage?: string
 }
 
 interface DeliverableSetup {
@@ -33,6 +46,8 @@ interface DeliverableSetup {
   reviewers: string
   acceptanceCriteria: string
   annexes: string
+  sourceDocId: string | null
+  sourceFiles: SourceFileEntry[]
 }
 
 interface SectionConfig {
@@ -157,13 +172,32 @@ function runComplianceChecks(
     warning: estPages < 8 || estPages > 25,
   })
 
-  // P1-C: No system-prompt leak
-  const SYSTEM_LEAK_PATTERNS = [/^#+\s*Your Task/m, /^#+\s*Relevant Document Chunks/m, /^\[1\]\s+\(undefined\)/m, /Target length:\s+approximately \d+ words/m]
-  const hasSystemLeak = SYSTEM_LEAK_PATTERNS.some(re => re.test(allText))
+  // P1-C: Prompt-echo guard (mirrors server-side PROMPT_ECHO_PATTERNS)
+  const PROMPT_ECHO_PATTERNS = [
+    /^Deliverable:\s+D\d/i,
+    /^Project:\s+\w+\s*\|\s*Work Package:/im,
+    /\bACCEPTANCE CRITERIA \(address each one\)/i,
+    /^Task:\s*Write/im,
+    /Write approximately \d+ words\.?\s*$/im,
+    /^Additional Context:/im,
+    /=== METADATA ===|=== PRIMARY SOURCE MATERIAL ===|=== SECONDARY CONTEXT/i,
+    /Begin the section now\. Do not echo/i,
+    /^#+\s*Your Task/m,
+    /^#+\s*Relevant Document Chunks/m,
+    /Target length:\s+approximately \d+ words/m,
+  ]
+  const failingSections = Object.entries(sections)
+    .filter(([, text]) => {
+      const head = text.slice(0, 300)
+      return PROMPT_ECHO_PATTERNS.some(re => re.test(head))
+    })
+    .map(([id]) => id)
   checks.push({
     id: 'no_system_leak',
-    label: 'No system-prompt or corpus-prefix tokens in output',
-    pass: !hasSystemLeak,
+    label: failingSections.length > 0
+      ? `Prompt-template tokens in output — check: ${failingSections.join(', ')}`
+      : 'No prompt-template or scaffold tokens in output',
+    pass: failingSections.length === 0,
   })
 
   // P1-D: No foreign organisation tokens
@@ -209,7 +243,10 @@ export default function DeliverablePage() {
     reviewers: '',
     acceptanceCriteria: '',
     annexes: '',
+    sourceDocId: null,
+    sourceFiles: [],
   })
+  const [sourceCacheMiss, setSourceCacheMiss] = useState(false)
   const [sections, setSections] = useState<Record<string, string>>({})
   const [kpis, setKpis] = useState<KPI[]>([])
   const [generating, setGenerating] = useState<string | null>(null)
@@ -230,6 +267,102 @@ export default function DeliverablePage() {
   const removeKpi = useCallback((index: number) => {
     setKpis(prev => prev.filter((_, i) => i !== index))
   }, [])
+
+  // ── Source upload ───────────────────────────────────────────────────────────
+
+  const handleSourceFiles = useCallback(async (files: FileList | File[]) => {
+    const fileArray = Array.from(files).slice(0, 10)
+    const ALLOWED_EXTS = ['.pdf', '.docx', '.doc', '.xlsx', '.xls', '.csv', '.md', '.txt', '.json']
+    const MAX_BYTES = 30 * 1024 * 1024
+
+    for (const file of fileArray) {
+      const fileExt = file.name.slice(file.name.lastIndexOf('.')).toLowerCase()
+      if (!ALLOWED_EXTS.includes(fileExt)) continue
+      if (file.size > MAX_BYTES) {
+        setSetup(p => ({
+          ...p,
+          sourceFiles: [...p.sourceFiles.filter(f => f.fileName !== file.name), {
+            fileName: file.name, category: 'other', wordCount: 0, tableCount: 0, figureCount: 0,
+            status: 'failed', errorMessage: 'File exceeds 30 MB limit',
+          }],
+        }))
+        continue
+      }
+
+      setSetup(p => ({
+        ...p,
+        sourceFiles: [...p.sourceFiles.filter(f => f.fileName !== file.name), {
+          fileName: file.name, category: 'other', wordCount: 0, tableCount: 0, figureCount: 0, status: 'extracting',
+        }],
+      }))
+
+      try {
+        const form = new FormData()
+        let preExtractedText = ''
+        let pageCount = 0
+
+        if (fileExt === '.pdf') {
+          // Client-side PDF extraction (mirrors proposal upload pattern)
+          const ab = await file.arrayBuffer()
+          const pdfjsLib = await import('pdfjs-dist')
+          pdfjsLib.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.mjs'
+          const pdf = await pdfjsLib.getDocument({ data: new Uint8Array(ab) }).promise
+          pageCount = pdf.numPages
+          const pages: string[] = []
+          for (let i = 1; i <= pdf.numPages; i++) {
+            const page = await pdf.getPage(i)
+            const content = await page.getTextContent()
+            pages.push(content.items.map((it: any) => ('str' in it ? it.str : '')).join(' '))
+          }
+          preExtractedText = pages.join('\n\n')
+          form.append('preExtractedText', preExtractedText)
+          form.append('pageCount', String(pageCount))
+        }
+
+        form.append('file', file)
+        form.append('category', 'other')
+        form.append('sourceDocId', setup.sourceDocId || '')
+        form.append('projectCode', setup.projectCode.toUpperCase())
+        form.append('deliverableRef', setup.deliverableRef)
+
+        const res = await fetch('/api/deliverable/source', { method: 'POST', body: form })
+        if (res.status === 410) { setSourceCacheMiss(true); return }
+        if (!res.ok) throw new Error((await res.json()).error || 'extraction_failed')
+
+        const data = await res.json()
+        setSetup(p => ({
+          ...p,
+          sourceDocId: data.sourceDocId,
+          sourceFiles: p.sourceFiles.map(f => f.fileName === file.name
+            ? { ...f, status: 'ready', wordCount: data.file.wordCount, tableCount: data.file.tableCount, pageCount: data.file.pageCount }
+            : f
+          ),
+        }))
+      } catch (e: any) {
+        setSetup(p => ({
+          ...p,
+          sourceFiles: p.sourceFiles.map(f => f.fileName === file.name
+            ? { ...f, status: 'failed', errorMessage: e.message || 'Extraction failed' }
+            : f
+          ),
+        }))
+      }
+    }
+  }, [setup.sourceDocId, setup.projectCode, setup.deliverableRef])
+
+  const updateSourceCategory = useCallback((fileName: string, category: SourceCategory) => {
+    setSetup(p => ({
+      ...p,
+      sourceFiles: p.sourceFiles.map(f => f.fileName === fileName ? { ...f, category } : f),
+    }))
+  }, [])
+
+  const removeSourceFile = useCallback(async (fileName: string) => {
+    if (setup.sourceDocId) {
+      await fetch(`/api/deliverable/source?sourceDocId=${encodeURIComponent(setup.sourceDocId)}&fileName=${encodeURIComponent(fileName)}`, { method: 'DELETE' })
+    }
+    setSetup(p => ({ ...p, sourceFiles: p.sourceFiles.filter(f => f.fileName !== fileName) }))
+  }, [setup.sourceDocId])
 
   // ── Generation ──────────────────────────────────────────────────────────────
 
@@ -252,9 +385,11 @@ export default function DeliverablePage() {
           deliverableTitle: setup.deliverableTitle,
           additionalContext: setup.additionalContext,
           acceptanceCriteria: setup.acceptanceCriteria.split('\n').map(s => s.trim()).filter(Boolean),
+          sourceDocId: setup.sourceDocId ?? undefined,
         }),
       })
 
+      if (res.status === 410) { setSourceCacheMiss(true); return }
       if (!res.ok) throw new Error(await res.text())
       const text = await res.text()
       setSections(prev => ({ ...prev, [sectionId]: text }))
@@ -395,6 +530,101 @@ export default function DeliverablePage() {
                   rows={5}
                   placeholder="Paste WP description, task objectives, KPIs, or any specific results to include..."
                   style={{ ...inputStyle, resize: 'vertical' }} />
+              </div>
+
+              {/* Source Material Upload */}
+              <div style={{ borderTop: `1px solid ${C.border}`, paddingTop: 24, marginBottom: 28 }}>
+                <p style={{ fontSize: 13, fontWeight: 600, color: C.text, marginBottom: 4, marginTop: 0 }}>
+                  Source Material
+                </p>
+                <p style={{ fontSize: 12, color: C.muted, marginBottom: 14, marginTop: 0 }}>
+                  Upload the lab data, internal reports, specs, and KPI sheets this deliverable should be written from. The writer will use these as the primary evidence.
+                </p>
+
+                {sourceCacheMiss && (
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '8px 12px', marginBottom: 12, background: 'rgba(217,119,6,0.08)', border: `1px solid ${C.amber}`, borderRadius: 8, color: C.amber, fontSize: 12 }}>
+                    <AlertTriangle size={14} />
+                    Source files were uploaded earlier but the server has cleared them. Re-upload to continue.
+                  </div>
+                )}
+
+                {/* Drop zone */}
+                <label style={{
+                  display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
+                  gap: 6, padding: '18px 20px', marginBottom: 12,
+                  border: `2px dashed ${setup.sourceFiles.length > 0 ? C.cyan : C.border}`,
+                  borderRadius: 9, cursor: 'pointer', background: C.input,
+                  color: C.muted, fontSize: 13, textAlign: 'center',
+                }}
+                  onDragOver={e => e.preventDefault()}
+                  onDrop={e => { e.preventDefault(); handleSourceFiles(e.dataTransfer.files) }}
+                >
+                  <input type="file" multiple accept=".pdf,.docx,.doc,.xlsx,.xls,.csv,.md,.txt,.json"
+                    style={{ display: 'none' }}
+                    onChange={e => { if (e.target.files) handleSourceFiles(e.target.files) }} />
+                  <Upload size={18} color={C.cyan} />
+                  <span>Drop files here, or click to upload</span>
+                  <span style={{ fontSize: 11, opacity: 0.7 }}>PDF, DOCX, XLSX, CSV, TXT, MD — up to 30 MB each, max 10 files</span>
+                </label>
+
+                {/* File rows */}
+                {setup.sourceFiles.length === 0 && (
+                  <p style={{ fontSize: 11, color: C.muted, fontStyle: 'italic', margin: 0 }}>
+                    Optional but strongly recommended — sections will be much stronger with source files attached.
+                  </p>
+                )}
+
+                {setup.sourceFiles.map(f => (
+                  <div key={f.fileName} style={{
+                    display: 'flex', alignItems: 'flex-start', gap: 10,
+                    padding: '10px 12px', marginBottom: 6,
+                    background: f.status === 'failed' ? 'rgba(220,38,38,0.05)' : C.panel,
+                    border: `1px solid ${f.status === 'failed' ? C.red : C.border}`,
+                    borderRadius: 8,
+                  }}>
+                    {f.status === 'extracting'
+                      ? <Loader2 size={15} color={C.cyan} style={{ animation: 'spin 1s linear infinite', marginTop: 2, flexShrink: 0 }} />
+                      : f.status === 'failed'
+                      ? <X size={15} color={C.red} style={{ marginTop: 2, flexShrink: 0 }} />
+                      : <Check size={15} color={C.green} style={{ marginTop: 2, flexShrink: 0 }} />
+                    }
+                    <div style={{ flex: 1, minWidth: 0 }}>
+                      <div style={{ fontSize: 13, color: C.text, fontWeight: 500, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{f.fileName}</div>
+                      {f.status === 'extracting' && <div style={{ fontSize: 11, color: C.muted }}>Extracting…</div>}
+                      {f.status === 'ready' && (
+                        <div style={{ fontSize: 11, color: C.muted }}>
+                          {f.wordCount.toLocaleString()} words{f.tableCount > 0 ? ` · ${f.tableCount} tables` : ''}{f.pageCount ? ` · ${f.pageCount} pages` : ''}
+                        </div>
+                      )}
+                      {f.status === 'failed' && <div style={{ fontSize: 11, color: C.red }}>{f.errorMessage || 'Extraction failed'}</div>}
+                    </div>
+                    {f.status === 'ready' && (
+                      <select
+                        value={f.category}
+                        onChange={e => updateSourceCategory(f.fileName, e.target.value as SourceCategory)}
+                        style={{ fontSize: 11, padding: '2px 6px', borderRadius: 5, border: `1px solid ${C.border}`, background: C.input, color: C.text, flexShrink: 0 }}
+                      >
+                        <option value="measurements">measurements</option>
+                        <option value="report">report</option>
+                        <option value="spec">spec</option>
+                        <option value="reference">reference</option>
+                        <option value="other">other</option>
+                      </select>
+                    )}
+                    <button onClick={() => removeSourceFile(f.fileName)}
+                      style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 2, color: C.muted, flexShrink: 0 }}>
+                      <X size={14} />
+                    </button>
+                  </div>
+                ))}
+
+                {setup.sourceFiles.filter(f => f.status === 'ready').length > 0 && (
+                  <p style={{ fontSize: 11, color: C.cyan, margin: '8px 0 0' }}>
+                    {setup.sourceFiles.filter(f => f.status === 'ready').length} files ·{' '}
+                    {setup.sourceFiles.filter(f => f.status === 'ready').reduce((s, f) => s + f.wordCount, 0).toLocaleString()} words extracted ·{' '}
+                    {setup.sourceFiles.filter(f => f.status === 'ready').reduce((s, f) => s + f.tableCount, 0)} tables
+                  </p>
+                )}
               </div>
 
               {/* Annex 1 Metadata */}
@@ -538,15 +768,22 @@ export default function DeliverablePage() {
                 ))}
               </div>
 
-              <button onClick={() => setStep('write')} disabled={!canProceed}
-                style={{
-                  padding: '10px 28px', background: canProceed ? C.cyan : C.border,
-                  color: canProceed ? '#0B1220' : C.muted, border: 'none', borderRadius: 8,
-                  cursor: canProceed ? 'pointer' : 'not-allowed', fontWeight: 700, fontSize: 14,
-                  display: 'flex', alignItems: 'center', gap: 8,
-                }}>
-                Continue to Write <ChevronRight size={16} />
-              </button>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 16, flexWrap: 'wrap' }}>
+                <button onClick={() => setStep('write')} disabled={!canProceed}
+                  style={{
+                    padding: '10px 28px', background: canProceed ? C.cyan : C.border,
+                    color: canProceed ? '#0B1220' : C.muted, border: 'none', borderRadius: 8,
+                    cursor: canProceed ? 'pointer' : 'not-allowed', fontWeight: 700, fontSize: 14,
+                    display: 'flex', alignItems: 'center', gap: 8,
+                  }}>
+                  Continue to Write <ChevronRight size={16} />
+                </button>
+                {setup.sourceFiles.filter(f => f.status === 'ready').length === 0 && canProceed && (
+                  <span style={{ fontSize: 12, color: C.amber, maxWidth: 400 }}>
+                    No source material uploaded — sections will rely on IRIS KB retrieval only and may be generic. Recommended: upload at least the WP test report or KPI spreadsheet.
+                  </span>
+                )}
+              </div>
             </div>
           )}
 

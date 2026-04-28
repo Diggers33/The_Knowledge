@@ -81,12 +81,30 @@ function scrubForbidden(text: string): string {
 }
 
 function stripFabrications(text: string, allowedOrgs: string[]): string {
-  // Strip Dr./Prof. + FullName patterns not in context
   text = text.replace(/\b(?:Dr\.|Prof\.|Mr\.|Ms\.|Mrs\.)\s+[A-Z][a-z]+\s+[A-Z][a-z]+/g, '[name redacted]')
-  // Strip H-index and patent count fabrications
   text = text.replace(/\bH-index\s+(?:of\s+)?\d+/gi, '')
   text = text.replace(/\b\d+\s+patents?\b/gi, '')
   return text
+}
+
+// P0-A — degeneracy guard
+function isDegenerate(text: string): boolean {
+  const words = text.split(/\s+/).filter(Boolean).length
+  if (words < 20) return true
+  // Repeating pattern > 200 chars (token loop like "4.2.1.1.1.1...")
+  if (/(.{1,15})\1{15,}/s.test(text)) return true
+  return false
+}
+
+// P0-C — strip leaked system-prompt artifacts from model output
+const SYSTEM_LEAK_RE = /^#+\s*(Your Task|Relevant Document Chunks|Project Summary|Additional Context Provided|Deliverable Context|Acceptance Criteria).*$/gm
+const TARGET_LENGTH_RE = /^Target length:.*$/gm
+function stripSystemLeaks(text: string): string {
+  return text
+    .replace(SYSTEM_LEAK_RE, '')
+    .replace(TARGET_LENGTH_RE, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim()
 }
 
 // ─── DYNAMIC FRAMING ─────────────────────────────────────────────────────────
@@ -171,7 +189,7 @@ const SECTION_CONFIGS: Record<string, {
   iris_contribution: {
     label: 'IRIS Contribution',
     summaryDims: ['iris_role', 'iris_technology', 'iris_results'],
-    systemPrompt: `Write the IRIS Technology Solutions contribution section. Describe specifically: which tasks IRIS led, what IRIS developed or built, what results IRIS achieved, and how IRIS's contribution fits within the broader WP. Name specific technologies (NIR, Raman, hyperspectral, chemometrics) where relevant. Write in past tense.` + HALLUCINATION_GUARD,
+    systemPrompt: `Write the IRIS Technology Solutions contribution section. Describe specifically: which tasks IRIS led, what IRIS developed or built, what results IRIS achieved, and how IRIS's contribution fits within the broader WP. Only name technologies that are present in the Project Summary or Document Chunks provided — do not introduce technology names from other projects. Write in past tense.` + HALLUCINATION_GUARD,
     wordTarget: 400,
   },
   methodology: {
@@ -213,12 +231,22 @@ async function getDeliverableContext(
   // Embed and retrieve relevant chunks
   const embedding = await embed(queryText)
   const rawChunks = await searchChunks(embedding, queryText, 20, [projectCode])
-  const reranked = rawChunks.length > 0
-    ? (await rerankChunks(`${section} ${deliverableTitle}`, rawChunks)).slice(0, 8)
-    : rawChunks.slice(0, 8)
+
+  // P0-B: hard-filter to projectCode only — never fall back to corpus-wide
+  const projectNorm = projectCode.toUpperCase()
+  const scopedChunks = rawChunks.filter(c =>
+    typeof c.project_tag === 'string' && c.project_tag.toUpperCase() === projectNorm
+  )
+  if (rawChunks.length > 0 && scopedChunks.length === 0) {
+    console.warn(`[deliverable] retrieval returned ${rawChunks.length} chunks but none tagged ${projectCode} — using empty context`)
+  }
+
+  const reranked = scopedChunks.length > 0
+    ? (await rerankChunks(`${section} ${deliverableTitle}`, scopedChunks)).slice(0, 8)
+    : []
 
   const chunks = reranked.map((c, i) =>
-    `[${i + 1}] (${c.project_tag}) ${c.chunk_text}`
+    `[${i + 1}] ${c.chunk_text}`
   ).join('\n\n')
 
   // Fetch project summaries for relevant dimensions
@@ -496,33 +524,60 @@ export async function POST(req: NextRequest) {
     ])
 
     const criteriaBlock = (acceptanceCriteria as string[] | undefined)?.length
-      ? `\n\nACCEPTANCE CRITERIA (address each one in conclusions):\n${(acceptanceCriteria as string[]).map((c: string, i: number) => `${i + 1}. ${c}`).join('\n')}`
+      ? `\nACCEPTANCE CRITERIA (address each one):\n${(acceptanceCriteria as string[]).map((c: string, i: number) => `${i + 1}. ${c}`).join('\n')}`
       : ''
 
-    const systemPrompt = [
+    // P0-C: split into system (instructions) and user (context + task) to prevent instruction-text regurgitation
+    const systemInstruction = [
       irisFraming,
       STYLE_ENFORCEMENT,
-      `\n## Deliverable Context\nProject: ${projectCode}\nWork Package: ${wpNumber}\nDeliverable: ${deliverableRef} — ${deliverableTitle}`,
-      summaries ? `\n## Project Summary (from IRIS knowledge base)\n${summaries}` : '',
-      chunks ? `\n## Relevant Document Chunks\n${chunks}` : '',
-      additionalContext ? `\n## Additional Context Provided\n${additionalContext}` : '',
+      HALLUCINATION_GUARD,
+    ].join('\n')
+
+    const userContext = [
+      `Deliverable: ${deliverableRef} — ${deliverableTitle}`,
+      `Project: ${projectCode}  |  Work Package: ${wpNumber}`,
+      summaries ? `\nProject Summary:\n${summaries}` : '',
+      chunks ? `\nDocument Chunks (project ${projectCode} only):\n${chunks}` : '',
+      additionalContext ? `\nAdditional Context:\n${additionalContext}` : '',
       section === 'conclusions' && criteriaBlock ? criteriaBlock : '',
-      `\n## Your Task\n${cfg.systemPrompt}`,
-      `\nTarget length: approximately ${cfg.wordTarget} words.`,
+      `\nTask: ${cfg.systemPrompt.replace(HALLUCINATION_GUARD, '').trim()}`,
+      `Write approximately ${cfg.wordTarget} words.`,
     ].filter(Boolean).join('\n')
 
     const model = process.env.IRIS_DELIVERABLE_MODEL || process.env.IRIS_PROPOSAL_MODEL || 'gpt-4o'
+    const maxTokens = cfg.wordTarget > 500 ? 2500 : 2000
 
-    // Buffered (non-streaming) completion so guards can be applied before response
-    const completion = await openai.chat.completions.create({
-      model,
-      messages: [{ role: 'user', content: systemPrompt }],
-      temperature: 0.4,
-      max_tokens: cfg.wordTarget > 500 ? 2500 : 2000,
-      stream: false,
-    })
+    async function callModel(freqPenalty = 0, presPenalty = 0): Promise<string> {
+      const completion = await openai.chat.completions.create({
+        model,
+        messages: [
+          { role: 'system', content: systemInstruction },
+          { role: 'user',   content: userContext },
+        ],
+        temperature: 0.4,
+        max_tokens: maxTokens,
+        frequency_penalty: freqPenalty,
+        presence_penalty: presPenalty,
+        stream: false,
+      })
+      return completion.choices[0]?.message?.content || ''
+    }
 
-    let text = completion.choices[0]?.message?.content || ''
+    let text = await callModel()
+
+    // P0-A: degeneracy guard — retry with strong penalties if token loop detected
+    if (isDegenerate(text)) {
+      console.warn(`[deliverable] degeneracy detected in ${section} — retrying with frequency_penalty=0.6`)
+      text = await callModel(0.6, 0.3)
+      if (isDegenerate(text)) {
+        console.error(`[deliverable] degeneracy persists after retry — returning empty section`)
+        text = `[Section generation failed: please regenerate ${cfg.label}]`
+      }
+    }
+
+    // P0-C: strip any leaked system-prompt artifacts
+    text = stripSystemLeaks(text)
     text = stripPlaceholders(text)
     text = scrubForbidden(text)
     text = stripFabrications(text, ['IRIS', projectCode])

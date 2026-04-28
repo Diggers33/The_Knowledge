@@ -157,6 +157,34 @@ function runComplianceChecks(
     warning: estPages < 8 || estPages > 25,
   })
 
+  // P1-C: No system-prompt leak
+  const SYSTEM_LEAK_PATTERNS = [/^#+\s*Your Task/m, /^#+\s*Relevant Document Chunks/m, /^\[1\]\s+\(undefined\)/m, /Target length:\s+approximately \d+ words/m]
+  const hasSystemLeak = SYSTEM_LEAK_PATTERNS.some(re => re.test(allText))
+  checks.push({
+    id: 'no_system_leak',
+    label: 'No system-prompt or corpus-prefix tokens in output',
+    pass: !hasSystemLeak,
+  })
+
+  // P1-D: No foreign organisation tokens
+  const ALLOWED_ACRONYMS = new Set(['EU', 'EC', 'RI', 'RD', 'AI', 'ML', 'SSH', 'KER', 'WP', 'IPR', 'FAIR', 'RDM', 'GDPR', 'TRL', 'SME', 'HEI', 'RTO', 'PU', 'SEN', 'CL', 'DMP', 'IRIS'])
+  const consortiumAcronyms = new Set([
+    setup.projectCode.toUpperCase(),
+    ...setup.contributingBeneficiaries.split(',').map(s => s.trim().toUpperCase()).filter(Boolean),
+    setup.leadBeneficiary.trim().toUpperCase(),
+  ])
+  const upperTokens = allText.match(/\b[A-Z]{2,8}\b/g) || []
+  const foreignOrgs = upperTokens.filter(t => !ALLOWED_ACRONYMS.has(t) && !consortiumAcronyms.has(t))
+  const uniqueForeign = [...new Set(foreignOrgs)]
+  checks.push({
+    id: 'no_foreign_orgs',
+    label: uniqueForeign.length > 0
+      ? `Foreign org tokens detected: ${uniqueForeign.slice(0, 5).join(', ')}${uniqueForeign.length > 5 ? '…' : ''}`
+      : 'No foreign organisation tokens detected',
+    pass: uniqueForeign.length === 0,
+    warning: uniqueForeign.length > 0,
+  })
+
   return checks
 }
 

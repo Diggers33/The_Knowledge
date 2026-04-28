@@ -34,8 +34,8 @@ describe('scoreIMPL1 — work plan evidence density', () => {
   test('strong stub has D-IDs; weak stub has none', () => {
     const weak = scoreIMPL1(WEAK)
     const strong = scoreIMPL1(STRONG)
-    expect(weak.signals.find(s => s.name === 'Numbered deliverables (D#.#)')!.count).toBe(0)
-    expect(strong.signals.find(s => s.name === 'Numbered deliverables (D#.#)')!.count).toBeGreaterThanOrEqual(16)
+    expect(weak.signals.find(s => s.name === 'Numbered deliverables')!.count).toBe(0)
+    expect(strong.signals.find(s => s.name === 'Numbered deliverables')!.count).toBeGreaterThanOrEqual(16)
   })
 
   test('strong stub has risk register; weak stub does not', () => {

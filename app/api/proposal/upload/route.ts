@@ -42,9 +42,11 @@ export async function POST(req: NextRequest) {
       const result = await mammoth.extractRawText({ buffer })
       text = result.value
     } else if (filename.endsWith('.pdf')) {
+      // pdf-parse v2 API: PDFParse class with { data: buffer }
       // eslint-disable-next-line @typescript-eslint/no-require-imports
-      const pdfParse = require('pdf-parse/lib/pdf-parse.js')
-      const result = await pdfParse(buffer)
+      const { PDFParse } = require('pdf-parse')
+      const parser = new PDFParse({ data: buffer })
+      const result = await parser.getText()
       text = result.text
     } else {
       return NextResponse.json(

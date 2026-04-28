@@ -1,9 +1,11 @@
 'use client'
 import { useState } from 'react'
 import Sidebar from '@/components/Sidebar'
-import { Loader2, Download, ChevronRight, ChevronLeft, Scale, Check, X, RefreshCw, AlertTriangle, Upload } from 'lucide-react'
+import { Loader2, Download, ChevronRight, ChevronLeft, Scale, Check, X, RefreshCw, AlertTriangle, Upload, ChevronDown } from 'lucide-react'
 import { getCriteria } from '@/lib/evaluator/criteria'
 import type { ActionType, CriterionId } from '@/lib/evaluator/criteria'
+import { emptyCallTopic, isTopicLoaded } from '@/lib/evaluator/call-topic'
+import type { CallTopic } from '@/lib/evaluator/call-topic'
 
 // ─── COLOUR PALETTE ───────────────────────────────────────────────────────────
 
@@ -95,6 +97,8 @@ export default function EvaluatePage() {
     aiRequired: false,
     dnshRequired: false,
   })
+  const [callTopic, setCallTopic] = useState<CallTopic>(emptyCallTopic())
+  const [topicPanelOpen, setTopicPanelOpen] = useState(false)
   const [results, setResults] = useState<Record<string, CriterionResult>>({})
   const [generating, setGenerating] = useState<string | null>(null)
   const [exporting, setExporting] = useState(false)
@@ -159,6 +163,17 @@ export default function EvaluatePage() {
     }
   }
 
+  function updateTopicConditions(patch: Partial<CallTopic['specificConditions']>) {
+    setCallTopic(prev => {
+      const cond = { ...prev.specificConditions, ...patch }
+      // auto-sync setup flags
+      if ('requiresSSH' in patch) setSetup(s => ({ ...s, sshRequired: cond.requiresSSH }))
+      if ('requiresAIRobustness' in patch) setSetup(s => ({ ...s, aiRequired: cond.requiresAIRobustness }))
+      if ('requiresDNSH' in patch) setSetup(s => ({ ...s, dnshRequired: cond.requiresDNSH }))
+      return { ...prev, specificConditions: cond }
+    })
+  }
+
   const criteriaIds = getCriteria(setup.actionType)
   const completedCount = criteriaIds.filter(c => results[c]).length
   const canProceed = setup.proposalText.trim().length > 0 && setup.proposalRef.trim().length > 0
@@ -182,6 +197,7 @@ export default function EvaluatePage() {
           sshRequired: setup.sshRequired,
           aiRequired: setup.aiRequired,
           dnshRequired: setup.dnshRequired,
+          callTopic: isTopicLoaded(callTopic) ? callTopic : undefined,
         }),
       })
       const data = await res.json()
@@ -215,6 +231,7 @@ export default function EvaluatePage() {
           thresholds: setup.thresholds,
           criteria: Object.values(results),
           evaluatorIdentity: 'IRIS Self-Assessment',
+          callTopic: isTopicLoaded(callTopic) ? callTopic : undefined,
         }),
       })
       const blob = await res.blob()
@@ -240,15 +257,34 @@ export default function EvaluatePage() {
 
   // ── Compliance for export step ────────────────────────────────────────────────
 
-  const complianceChecks = [
+  const topicLoaded = isTopicLoaded(callTopic)
+  const cond = callTopic.specificConditions
+  const trlRequired = cond.trlAtStart !== null || cond.trlAtEnd !== null
+  const proposalMentionsTrl = trlRequired
+    ? /\bTRL\s*[0-9]/i.test(setup.proposalText)
+    : true
+  const topicFlagsOk = (!cond.requiresSSH || setup.sshRequired)
+    && (!cond.requiresAIRobustness || setup.aiRequired)
+    && (!cond.requiresDNSH || setup.dnshRequired)
+
+  const complianceChecks: Array<{ id: string; label: string; pass: boolean; advisory?: boolean }> = [
     { id: 'generated', label: 'All criteria generated', pass: completedCount === criteriaIds.length },
     { id: 'individual', label: 'All criteria pass individual threshold', pass: allPassIndividual && completedCount > 0 },
     { id: 'total', label: `Total score passes total threshold (${setup.thresholds.total})`, pass: passesTotal && completedCount > 0 },
     { id: 'flags', label: 'No quality-guard flags in any criterion', pass: !anyFlags },
     { id: 'ref', label: 'Proposal reference set', pass: !!setup.proposalRef.trim() },
+    ...(topicLoaded
+      ? [
+          { id: 'topic_loaded', label: `Call topic loaded (${callTopic.topicId || callTopic.topicTitle})`, pass: true, advisory: true },
+          { id: 'outcomes_eval', label: 'Evaluation ran with call-topic context (outcome anchors populated)', pass: completedCount === criteriaIds.length, advisory: true },
+          { id: 'trl_check', label: trlRequired ? 'Proposal text references TRL level' : 'No TRL target specified in call', pass: proposalMentionsTrl, advisory: true },
+          { id: 'topic_flags', label: 'Required topic elements (SSH/AI/DNSH) enabled in setup', pass: topicFlagsOk, advisory: true },
+        ]
+      : [{ id: 'topic_optional', label: 'No call topic loaded (optional — add in Setup for richer evaluation)', pass: false, advisory: true }]
+    ),
   ]
 
-  const hasBlockingFailure = complianceChecks.some(c => !c.pass)
+  const hasBlockingFailure = complianceChecks.some(c => !c.pass && !c.advisory)
 
   // ─── RENDER ──────────────────────────────────────────────────────────────────
 
@@ -431,6 +467,186 @@ export default function EvaluatePage() {
                     Criteria: {getCriteria(setup.actionType).join(', ')}
                   </span>
                 </div>
+              </div>
+
+              {/* Call Topic panel */}
+              <div style={{ marginBottom: 20 }}>
+                <button
+                  type="button"
+                  onClick={() => setTopicPanelOpen(o => !o)}
+                  style={{
+                    display: 'flex', alignItems: 'center', gap: 8,
+                    width: '100%', padding: '10px 14px',
+                    background: topicLoaded ? 'rgba(74,158,255,0.08)' : C.panel,
+                    border: `1px solid ${topicLoaded ? C.cyan : C.border}`,
+                    borderRadius: 8, cursor: 'pointer',
+                    fontSize: 13, fontWeight: 600,
+                    color: topicLoaded ? C.cyan : C.muted,
+                  }}>
+                  <ChevronDown size={14} style={{ transform: topicPanelOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.15s' }} />
+                  Call / Topic Context
+                  {topicLoaded
+                    ? <span style={{ marginLeft: 'auto', fontWeight: 400, color: C.text, fontSize: 12 }}>{callTopic.topicId || callTopic.topicTitle}</span>
+                    : <span style={{ marginLeft: 'auto', fontWeight: 400, fontSize: 12 }}>optional — improves evaluation relevance</span>}
+                </button>
+
+                {topicPanelOpen && (
+                  <div style={{ border: `1px solid ${C.border}`, borderTop: 'none', borderRadius: '0 0 8px 8px', padding: '18px 16px', background: C.panel }}>
+
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14, marginBottom: 14 }}>
+                      <div>
+                        <label style={labelStyle}>Topic ID (e.g. HORIZON-CL4-2026-TWIN-01-01)</label>
+                        <input
+                          value={callTopic.topicId}
+                          onChange={e => setCallTopic(p => ({ ...p, topicId: e.target.value }))}
+                          placeholder="HORIZON-CL4-…"
+                          style={inputStyle}
+                        />
+                      </div>
+                      <div>
+                        <label style={labelStyle}>Topic title</label>
+                        <input
+                          value={callTopic.topicTitle}
+                          onChange={e => setCallTopic(p => ({ ...p, topicTitle: e.target.value }))}
+                          placeholder="e.g. Advanced NIR sensing for…"
+                          style={inputStyle}
+                        />
+                      </div>
+                    </div>
+
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 14, marginBottom: 14 }}>
+                      <div>
+                        <label style={labelStyle}>Destination / Programme</label>
+                        <input
+                          value={callTopic.destination}
+                          onChange={e => setCallTopic(p => ({ ...p, destination: e.target.value }))}
+                          placeholder="e.g. Horizon Europe Cluster 4"
+                          style={inputStyle}
+                        />
+                      </div>
+                      <div>
+                        <label style={labelStyle}>Cluster</label>
+                        <input
+                          value={callTopic.cluster}
+                          onChange={e => setCallTopic(p => ({ ...p, cluster: e.target.value }))}
+                          placeholder="e.g. Digital, Industry & Space"
+                          style={inputStyle}
+                        />
+                      </div>
+                      <div>
+                        <label style={labelStyle}>Partnership / Mission</label>
+                        <input
+                          value={callTopic.partnership}
+                          onChange={e => setCallTopic(p => ({ ...p, partnership: e.target.value }))}
+                          placeholder="e.g. KDT JU"
+                          style={inputStyle}
+                        />
+                      </div>
+                    </div>
+
+                    <div style={{ marginBottom: 14 }}>
+                      <label style={labelStyle}>Expected outcomes — one per line (paste from call text)</label>
+                      <textarea
+                        value={callTopic.expectedOutcomes.join('\n')}
+                        onChange={e => setCallTopic(p => ({ ...p, expectedOutcomes: e.target.value.split('\n').map(l => l.trim()).filter(Boolean) }))}
+                        rows={4}
+                        placeholder={'Researchers and innovators have access to…\nIndustry can deploy…\nPolicymakers can rely on…'}
+                        style={{ ...inputStyle, resize: 'vertical' }}
+                      />
+                      <span style={{ fontSize: 11, color: C.muted }}>{callTopic.expectedOutcomes.length} outcome{callTopic.expectedOutcomes.length !== 1 ? 's' : ''} loaded</span>
+                    </div>
+
+                    <div style={{ marginBottom: 14 }}>
+                      <label style={labelStyle}>Scope (paste from call text)</label>
+                      <textarea
+                        value={callTopic.scope}
+                        onChange={e => setCallTopic(p => ({ ...p, scope: e.target.value }))}
+                        rows={4}
+                        placeholder="The call supports projects that…"
+                        style={{ ...inputStyle, resize: 'vertical' }}
+                      />
+                    </div>
+
+                    <div style={{ borderTop: `1px solid ${C.border}`, paddingTop: 14 }}>
+                      <p style={{ fontSize: 12, color: C.muted, margin: '0 0 12px', fontWeight: 600 }}>Specific conditions</p>
+                      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14 }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+                          {[
+                            ['requiresSSH', 'SSH integration required'],
+                            ['requiresAIRobustness', 'AI robustness assessment required'],
+                            ['requiresDNSH', 'DNSH assessment required'],
+                            ['civilApplicationsOnly', 'Civil applications only'],
+                            ['openScienceMandatory', 'Open science mandatory'],
+                          ].map(([key, label]) => (
+                            <label key={key} style={{ display: 'flex', alignItems: 'center', gap: 8, cursor: 'pointer', fontSize: 13 }}>
+                              <input
+                                type="checkbox"
+                                checked={!!callTopic.specificConditions[key as keyof typeof callTopic.specificConditions]}
+                                onChange={e => updateTopicConditions({ [key]: e.target.checked })}
+                              />
+                              {label}
+                            </label>
+                          ))}
+                        </div>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+                          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8 }}>
+                            <div>
+                              <label style={labelStyle}>TRL at start</label>
+                              <input
+                                type="number" min={1} max={9} step={1}
+                                value={callTopic.specificConditions.trlAtStart ?? ''}
+                                onChange={e => updateTopicConditions({ trlAtStart: e.target.value ? parseInt(e.target.value) : null })}
+                                placeholder="e.g. 3"
+                                style={inputStyle}
+                              />
+                            </div>
+                            <div>
+                              <label style={labelStyle}>TRL at end</label>
+                              <input
+                                type="number" min={1} max={9} step={1}
+                                value={callTopic.specificConditions.trlAtEnd ?? ''}
+                                onChange={e => updateTopicConditions({ trlAtEnd: e.target.value ? parseInt(e.target.value) : null })}
+                                placeholder="e.g. 6"
+                                style={inputStyle}
+                              />
+                            </div>
+                          </div>
+                          <div>
+                            <label style={labelStyle}>Duration (months)</label>
+                            <input
+                              type="number" min={1} max={72} step={1}
+                              value={callTopic.specificConditions.durationMonths ?? ''}
+                              onChange={e => updateTopicConditions({ durationMonths: e.target.value ? parseInt(e.target.value) : null })}
+                              placeholder="e.g. 48"
+                              style={inputStyle}
+                            />
+                          </div>
+                          <div>
+                            <label style={labelStyle}>Indicative budget</label>
+                            <input
+                              value={callTopic.specificConditions.indicativeBudget}
+                              onChange={e => updateTopicConditions({ indicativeBudget: e.target.value })}
+                              placeholder="e.g. €3–5M"
+                              style={inputStyle}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {topicLoaded && (
+                      <button
+                        type="button"
+                        onClick={() => setCallTopic(emptyCallTopic())}
+                        style={{
+                          marginTop: 12, fontSize: 12, color: C.red, background: 'none',
+                          border: 'none', cursor: 'pointer', padding: 0,
+                        }}>
+                        Clear topic
+                      </button>
+                    )}
+                  </div>
+                )}
               </div>
 
               {/* Checkboxes */}
@@ -686,16 +902,25 @@ export default function EvaluatePage() {
               {/* Compliance card */}
               <div style={{ background: C.panel, border: `1px solid ${C.border}`, borderRadius: 10, padding: '18px 20px', marginBottom: 28 }}>
                 <p style={{ fontSize: 13, fontWeight: 600, color: C.text, margin: '0 0 14px' }}>Pre-export Compliance</p>
-                {complianceChecks.map(chk => (
-                  <div key={chk.id} style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
-                    <span style={{ width: 18, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-                      {chk.pass
-                        ? <Check size={14} color={C.green} />
-                        : <X size={14} color={C.red} />}
-                    </span>
-                    <span style={{ fontSize: 13, color: chk.pass ? C.text : C.red }}>{chk.label}</span>
-                  </div>
-                ))}
+                {complianceChecks.map(chk => {
+                  const iconColor = chk.pass ? C.green : (chk.advisory ? C.amber : C.red)
+                  const textColor = chk.pass ? C.text : (chk.advisory ? C.amber : C.red)
+                  return (
+                    <div key={chk.id} style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
+                      <span style={{ width: 18, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                        {chk.pass
+                          ? <Check size={14} color={iconColor} />
+                          : chk.advisory
+                          ? <AlertTriangle size={14} color={iconColor} />
+                          : <X size={14} color={iconColor} />}
+                      </span>
+                      <span style={{ fontSize: 13, color: textColor }}>
+                        {chk.label}
+                        {chk.advisory && !chk.pass && <span style={{ fontSize: 11, marginLeft: 6, opacity: 0.7 }}>(advisory)</span>}
+                      </span>
+                    </div>
+                  )
+                })}
               </div>
 
               {/* Per-criterion summary */}

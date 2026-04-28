@@ -7,7 +7,9 @@ import {
 import { getAspects } from '@/lib/evaluator/criteria'
 import { evaluateThresholds, SCORE_RUBRIC } from '@/lib/evaluator/rubric'
 import { qualityGuard } from '@/lib/evaluator/quality-guard'
+import { buildCallContextBlock, isTopicLoaded } from '@/lib/evaluator/call-topic'
 import type { ActionType, CriterionId } from '@/lib/evaluator/criteria'
+import type { CallTopic } from '@/lib/evaluator/call-topic'
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY! })
 
@@ -49,12 +51,15 @@ Return ONLY valid JSON with this structure:
       "aspectId": "EX-1",
       "evidencePointers": ["§1.1", "§2.2"],
       "strengths": ["strength text"],
-      "shortcomings": [{ "severity": "minor|normal|significant", "text": "shortcoming text" }]
+      "shortcomings": [{ "severity": "minor|normal|significant", "text": "shortcoming text" }],
+      "topicAnchor": "EO1, EO3"
     }
   ],
   "score": 3.5,
   "comment": "200–400 word narrative paragraph"
-}`
+}
+
+The topicAnchor field is a comma-separated list of Expected Outcome references (e.g. "EO1, EO2") addressed by this aspect. Omit or leave empty string if no call topic was provided.`
 
 // ─── IER MODE ─────────────────────────────────────────────────────────────────
 
@@ -69,27 +74,32 @@ interface IERRequest {
   sshRequired?: boolean
   aiRequired?: boolean
   dnshRequired?: boolean
+  callTopic?: CallTopic
 }
 
 async function handleIER(body: IERRequest) {
-  const { proposalText, criterion, actionType, post2026 } = body
+  const { proposalText, criterion, actionType, post2026, callTopic } = body
 
   const aspects = getAspects(actionType, post2026).filter(a => a.criterion === criterion)
 
   const aspectList = aspects.map(a => `- ${a.id}: ${a.text}`).join('\n')
 
+  const callContextBlock = callTopic && isTopicLoaded(callTopic)
+    ? `\n\n${buildCallContextBlock(callTopic)}\n`
+    : ''
+
   const userPrompt = `You are evaluating the "${criterion.toUpperCase()}" criterion of the following Horizon Europe proposal.
 
 Action type: ${actionType}
 Work programme: ${post2026 ? '2026 and later' : 'Pre-2026'}
-
+${callContextBlock}
 Aspects to assess for this criterion:
 ${aspectList}
 
 PROPOSAL TEXT (excerpt):
 ${proposalText}
 
-Assess each aspect listed above. For each aspect provide evidence pointers (section references), strengths, and shortcomings with severity.
+Assess each aspect listed above. For each aspect provide evidence pointers (section references), strengths, and shortcomings with severity.${callContextBlock ? ' Also populate topicAnchor with any Expected Outcome labels (EO1, EO2…) this aspect addresses.' : ''}
 Then provide an overall score (0–5, 0.5 steps) and a 200–400 word narrative comment for this criterion.
 
 Return ONLY valid JSON as specified.`
@@ -134,6 +144,7 @@ interface CriterionData {
     evidencePointers?: string[]
     strengths?: string[]
     shortcomings?: Array<{ severity: string; text: string }>
+    topicAnchor?: string
   }>
 }
 
@@ -152,6 +163,7 @@ interface ESRDocxRequest {
   criteria: CriterionData[]
   additionalQuestions?: AdditionalQuestionData[]
   evaluatorIdentity?: string
+  callTopic?: CallTopic
 }
 
 function getScoreLabel(score: number): string {
@@ -162,7 +174,7 @@ function getScoreLabel(score: number): string {
 async function buildESRDocx(body: ESRDocxRequest): Promise<Buffer> {
   const {
     proposalRef, actionType, post2026, thresholds,
-    criteria, additionalQuestions, evaluatorIdentity,
+    criteria, additionalQuestions, evaluatorIdentity, callTopic,
   } = body
 
   const children: Array<Paragraph | Table> = []
@@ -208,6 +220,63 @@ async function buildESRDocx(body: ESRDocxRequest): Promise<Buffer> {
   }
 
   children.push(new Paragraph({ spacing: { after: 400 } }))
+
+  // ── Call Topic Context (if supplied) ─────────────────────────────────────────
+
+  if (callTopic && isTopicLoaded(callTopic)) {
+    children.push(new Paragraph({
+      children: [new TextRun({ text: 'Call / Topic Context', bold: true, size: 32, color: IRIS_DARK })],
+      heading: HeadingLevel.HEADING_1,
+      spacing: { before: 200, after: 160 },
+      border: { bottom: { color: IRIS_CYAN, size: 6, space: 4, style: BorderStyle.SINGLE } },
+    }))
+
+    const topicMeta: Array<[string, string]> = []
+    if (callTopic.topicId) topicMeta.push(['Topic ID', callTopic.topicId])
+    if (callTopic.topicTitle) topicMeta.push(['Title', callTopic.topicTitle])
+    if (callTopic.destination) topicMeta.push(['Destination', callTopic.destination])
+    if (callTopic.cluster) topicMeta.push(['Cluster', callTopic.cluster])
+    if (callTopic.partnership) topicMeta.push(['Partnership / Mission', callTopic.partnership])
+    const cond = callTopic.specificConditions
+    if (cond.trlAtStart !== null) topicMeta.push(['TRL at start', String(cond.trlAtStart)])
+    if (cond.trlAtEnd !== null) topicMeta.push(['TRL at end', String(cond.trlAtEnd)])
+    if (cond.durationMonths !== null) topicMeta.push(['Max duration', `${cond.durationMonths} months`])
+    if (cond.indicativeBudget) topicMeta.push(['Indicative budget', cond.indicativeBudget])
+
+    for (const [k, v] of topicMeta) {
+      children.push(new Paragraph({
+        children: [new TextRun({ text: `${k}: `, bold: true, size: 22 }), new TextRun({ text: v, size: 22 })],
+        spacing: { after: 60 },
+      }))
+    }
+
+    if (callTopic.expectedOutcomes.length > 0) {
+      children.push(new Paragraph({
+        children: [new TextRun({ text: 'Expected Outcomes', bold: true, size: 22 })],
+        spacing: { before: 160, after: 80 },
+      }))
+      callTopic.expectedOutcomes.forEach((o, i) => {
+        children.push(new Paragraph({
+          children: [new TextRun({ text: `EO${i + 1}. ${o}`, size: 20 })],
+          spacing: { after: 60 },
+        }))
+      })
+    }
+
+    if (callTopic.scope.trim()) {
+      children.push(new Paragraph({
+        children: [new TextRun({ text: 'Scope', bold: true, size: 22 })],
+        spacing: { before: 160, after: 80 },
+      }))
+      children.push(new Paragraph({
+        children: [new TextRun({ text: callTopic.scope.trim(), size: 20 })],
+        alignment: AlignmentType.JUSTIFIED,
+        spacing: { after: 120 },
+      }))
+    }
+
+    children.push(new Paragraph({ spacing: { after: 200 } }))
+  }
 
   // ── Per-criterion sections ───────────────────────────────────────────────────
 
@@ -298,6 +367,12 @@ async function buildESRDocx(body: ESRDocxRequest): Promise<Buffer> {
         if (asp.evidencePointers && asp.evidencePointers.length > 0) {
           children.push(new Paragraph({
             children: [new TextRun({ text: `Evidence: ${asp.evidencePointers.join(', ')}`, italics: true, size: 18, color: '888888' })],
+            spacing: { after: 40 },
+          }))
+        }
+        if (asp.topicAnchor) {
+          children.push(new Paragraph({
+            children: [new TextRun({ text: `Outcomes addressed: ${asp.topicAnchor}`, italics: true, size: 18, color: '0077AA' })],
             spacing: { after: 80 },
           }))
         }

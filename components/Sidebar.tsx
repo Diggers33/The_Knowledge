@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
-import { MessageSquare, FileOutput, BookOpen, LogOut, Database, PenLine, FileText, Scale, Lock } from 'lucide-react'
+import { MessageSquare, FileOutput, BookOpen, LogOut, Database, PenLine, FileText, Lock } from 'lucide-react'
 import { createClient } from '@/lib/supabase/client'
 
 const PROPOSAL_PASSCODE = 'Montseny49'
@@ -13,7 +13,6 @@ const navItems = [
   { href: '/generate',    icon: FileOutput,    label: 'Generate',      locked: false },
   { href: '/proposal',    icon: PenLine,       label: 'Proposals',     locked: true  },
   { href: '/deliverable', icon: FileText,      label: 'Deliverables',  locked: false },
-  { href: '/evaluate',    icon: Scale,         label: 'Evaluate',      locked: false },
   { href: '/library',     icon: BookOpen,      label: 'Library',       locked: false },
 ]
 

@@ -102,19 +102,52 @@ export default function EvaluatePage() {
   const [uploadInfo, setUploadInfo] = useState<{ wordCount: number; sectionsFound: string[] } | null>(null)
   const [uploadError, setUploadError] = useState('')
 
+  async function extractPdfClientSide(file: File): Promise<string> {
+    const arrayBuffer = await file.arrayBuffer()
+    const pdfjsLib = await import('pdfjs-dist')
+    pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.mjs`
+    const pdf = await pdfjsLib.getDocument({ data: new Uint8Array(arrayBuffer) }).promise
+    const pages: string[] = []
+    for (let i = 1; i <= pdf.numPages; i++) {
+      const page = await pdf.getPage(i)
+      const content = await page.getTextContent()
+      pages.push(content.items.map((item: any) => ('str' in item ? item.str : '')).join(' '))
+    }
+    return pages.join('\n\n')
+  }
+
   async function handleFileUpload(file: File) {
     setUploading(true)
     setUploadError('')
     setUploadInfo(null)
     try {
-      const form = new FormData()
-      form.append('file', file)
-      const res = await fetch('/api/proposal/upload', { method: 'POST', body: form })
-      const data = await res.json()
-      if (!res.ok || data.error) throw new Error(data.error || 'Upload failed')
-      setSetup(p => ({ ...p, proposalText: data.text }))
-      setUploadInfo({ wordCount: data.wordCount, sectionsFound: data.sectionsFound || [] })
-      // Auto-fill proposalRef from filename if not already set
+      let text = ''
+      const isPdf = file.name.toLowerCase().endsWith('.pdf')
+
+      if (isPdf) {
+        // PDF: extract in the browser — pdfjs-dist runs natively client-side
+        text = await extractPdfClientSide(file)
+      } else {
+        // DOCX: send to server (mammoth)
+        const form = new FormData()
+        form.append('file', file)
+        const res = await fetch('/api/proposal/upload', { method: 'POST', body: form })
+        const data = await res.json()
+        if (!res.ok || data.error) throw new Error(data.error || 'Upload failed')
+        text = data.text
+      }
+
+      const wordCount = text.split(/\s+/).filter(Boolean).length
+      const sectionsFound: string[] = []
+      const headingPattern = /(?:^|\n)(\d+\.?\d*\.?\s+[A-Z][^\n]{3,60})/g
+      let m: RegExpExecArray | null
+      while ((m = headingPattern.exec(text)) !== null) {
+        sectionsFound.push(m[1].trim())
+        if (sectionsFound.length >= 20) break
+      }
+
+      setSetup(p => ({ ...p, proposalText: text }))
+      setUploadInfo({ wordCount, sectionsFound })
       if (!setup.proposalRef.trim()) {
         const name = file.name.replace(/\.(pdf|docx?)$/i, '').replace(/[_\s]+/g, '-').toUpperCase().slice(0, 30)
         setSetup(p => ({ ...p, proposalRef: name }))

@@ -6,6 +6,7 @@ import { getCriteria } from '@/lib/evaluator/criteria'
 import type { ActionType, CriterionId } from '@/lib/evaluator/criteria'
 import { emptyCallTopic, isTopicLoaded } from '@/lib/evaluator/call-topic'
 import type { CallTopic } from '@/lib/evaluator/call-topic'
+import type { ProposalDocument } from '@/lib/evaluator/types'
 
 // ─── COLOUR PALETTE ───────────────────────────────────────────────────────────
 
@@ -44,6 +45,7 @@ interface EvidenceDensitySignal {
   count: number
   weight: number
   cappedAt: number
+  source?: 'table' | 'regex'
 }
 
 interface CriterionResult {
@@ -117,10 +119,11 @@ export default function EvaluatePage() {
   const [generating, setGenerating] = useState<string | null>(null)
   const [exporting, setExporting] = useState(false)
   const [uploading, setUploading] = useState(false)
-  const [uploadInfo, setUploadInfo] = useState<{ wordCount: number; sectionsFound: string[] } | null>(null)
+  const [uploadInfo, setUploadInfo] = useState<{ wordCount: number; sectionsFound: string[]; tableCount: number; figureCount: number } | null>(null)
   const [uploadError, setUploadError] = useState('')
+  const [proposal, setProposal] = useState<ProposalDocument | null>(null)
 
-  async function extractPdfClientSide(file: File): Promise<string> {
+  async function extractPdfMultimodal(file: File): Promise<ProposalDocument> {
     const arrayBuffer = await file.arrayBuffer()
     const pdfjsLib = await import('pdfjs-dist')
     pdfjsLib.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.mjs'
@@ -131,7 +134,23 @@ export default function EvaluatePage() {
       const content = await page.getTextContent()
       pages.push(content.items.map((item: any) => ('str' in item ? item.str : '')).join(' '))
     }
-    return pages.join('\n\n')
+    const text = pages.join('\n\n')
+
+    const { extractTablesFromPdf } = await import('@/lib/evaluator/pdf-structured')
+    const { detectAndRasteriseFigures } = await import('@/lib/evaluator/figure-detect')
+    const tables = await extractTablesFromPdf(arrayBuffer)
+    const figures = await detectAndRasteriseFigures(arrayBuffer)
+
+    return { text, tables, figures, meta: { pageCount: pdf.numPages, extractionVersion: 'v2', isDocx: false } }
+  }
+
+  async function extractDocxMultimodal(file: File): Promise<ProposalDocument> {
+    const form = new FormData()
+    form.append('file', file)
+    const res = await fetch('/api/proposal/upload', { method: 'POST', body: form })
+    const data = await res.json()
+    if (!res.ok || data.error) throw new Error(data.error || 'Upload failed')
+    return { text: data.text, tables: [], figures: [], meta: { pageCount: 0, extractionVersion: 'v2', isDocx: true } }
   }
 
   async function handleFileUpload(file: File) {
@@ -139,22 +158,10 @@ export default function EvaluatePage() {
     setUploadError('')
     setUploadInfo(null)
     try {
-      let text = ''
       const isPdf = file.name.toLowerCase().endsWith('.pdf')
+      const doc = isPdf ? await extractPdfMultimodal(file) : await extractDocxMultimodal(file)
 
-      if (isPdf) {
-        // PDF: extract in the browser — pdfjs-dist runs natively client-side
-        text = await extractPdfClientSide(file)
-      } else {
-        // DOCX: send to server (mammoth)
-        const form = new FormData()
-        form.append('file', file)
-        const res = await fetch('/api/proposal/upload', { method: 'POST', body: form })
-        const data = await res.json()
-        if (!res.ok || data.error) throw new Error(data.error || 'Upload failed')
-        text = data.text
-      }
-
+      const text = doc.text
       const wordCount = text.split(/\s+/).filter(Boolean).length
       const sectionsFound: string[] = []
       const headingPattern = /(?:^|\n)(\d+\.?\d*\.?\s+[A-Z][^\n]{3,60})/g
@@ -164,8 +171,9 @@ export default function EvaluatePage() {
         if (sectionsFound.length >= 20) break
       }
 
+      setProposal(doc)
       setSetup(p => ({ ...p, proposalText: text }))
-      setUploadInfo({ wordCount, sectionsFound })
+      setUploadInfo({ wordCount, sectionsFound, tableCount: doc.tables.length, figureCount: doc.figures.length })
       if (!setup.proposalRef.trim()) {
         const name = file.name.replace(/\.(pdf|docx?)$/i, '').replace(/[_\s]+/g, '-').toUpperCase().slice(0, 30)
         setSetup(p => ({ ...p, proposalRef: name }))
@@ -203,6 +211,7 @@ export default function EvaluatePage() {
         body: JSON.stringify({
           mode: 'ier',
           proposalText: setup.proposalText.slice(0, 20000),
+          proposal: proposal ?? undefined,
           criterion,
           actionType: setup.actionType,
           post2026: setup.post2026,
@@ -379,9 +388,14 @@ export default function EvaluatePage() {
                   <p style={{ fontSize: 12, color: C.red, margin: '0 0 8px' }}>{uploadError}</p>
                 )}
                 {uploadInfo && uploadInfo.sectionsFound.length > 0 && (
-                  <p style={{ fontSize: 11, color: C.muted, margin: '0 0 8px' }}>
+                  <p style={{ fontSize: 11, color: C.muted, margin: '0 0 4px' }}>
                     Sections detected: {uploadInfo.sectionsFound.slice(0, 5).join(' · ')}
                     {uploadInfo.sectionsFound.length > 5 ? ` + ${uploadInfo.sectionsFound.length - 5} more` : ''}
+                  </p>
+                )}
+                {uploadInfo && (uploadInfo.tableCount > 0 || uploadInfo.figureCount > 0) && (
+                  <p style={{ fontSize: 11, color: C.cyan, margin: '0 0 8px' }}>
+                    {uploadInfo.tableCount} structured table{uploadInfo.tableCount !== 1 ? 's' : ''} · {uploadInfo.figureCount} figure page{uploadInfo.figureCount !== 1 ? 's' : ''} detected
                   </p>
                 )}
 

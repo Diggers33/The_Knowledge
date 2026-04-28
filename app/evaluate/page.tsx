@@ -48,6 +48,9 @@ interface CriterionResult {
     evidencePointers?: string[]
     strengths?: string[]
     shortcomings?: Array<{ severity: string; text: string }>
+    topicAnchor?: string
+    aspectScore?: number
+    scoreJustification?: string
   }>
   flags: string[]
 }
@@ -848,7 +851,24 @@ export default function EvaluatePage() {
                                 background: C.white, border: `1px solid ${C.border}`,
                                 borderRadius: 6, padding: '10px 14px', marginBottom: 8,
                               }}>
-                                <div style={{ fontWeight: 600, color: C.text, marginBottom: 6 }}>{asp.aspectId}</div>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6 }}>
+                                  <span style={{ fontWeight: 600, color: C.text }}>{asp.aspectId}</span>
+                                  {asp.aspectScore !== undefined && (
+                                    <span style={{
+                                      padding: '1px 8px', borderRadius: 12, fontSize: 12, fontWeight: 700,
+                                      background: asp.aspectScore >= 4 ? 'rgba(22,163,74,0.1)' : asp.aspectScore <= 2.5 ? 'rgba(220,38,38,0.1)' : 'rgba(217,119,6,0.1)',
+                                      color: asp.aspectScore >= 4 ? C.green : asp.aspectScore <= 2.5 ? C.red : C.amber,
+                                    }}>
+                                      {asp.aspectScore.toFixed(1)} / 5
+                                    </span>
+                                  )}
+                                  {asp.topicAnchor && (
+                                    <span style={{ fontSize: 11, color: C.cyan }}>{asp.topicAnchor}</span>
+                                  )}
+                                </div>
+                                {asp.scoreJustification && (
+                                  <div style={{ fontSize: 12, color: C.muted, fontStyle: 'italic', marginBottom: 6 }}>{asp.scoreJustification}</div>
+                                )}
                                 {asp.strengths && asp.strengths.length > 0 && (
                                   <div style={{ marginBottom: 4 }}>
                                     {asp.strengths.map((s, j) => (

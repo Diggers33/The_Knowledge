@@ -6,62 +6,73 @@ import {
 } from 'docx'
 import { getAspects } from '@/lib/evaluator/criteria'
 import { evaluateThresholds, SCORE_RUBRIC } from '@/lib/evaluator/rubric'
-import { qualityGuard } from '@/lib/evaluator/quality-guard'
+import { qualityGuard, checkScoreCommentConsistency } from '@/lib/evaluator/quality-guard'
 import { buildCallContextBlock, isTopicLoaded } from '@/lib/evaluator/call-topic'
+import { enforceEvidenceFloor, aggregateAspectScores } from '@/lib/evaluator/scoring'
 import type { ActionType, CriterionId } from '@/lib/evaluator/criteria'
 import type { CallTopic } from '@/lib/evaluator/call-topic'
+import type { AspectAssessment } from '@/lib/evaluator/types'
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY! })
 
 const IRIS_DARK = '0A2E36'
 const IRIS_CYAN = '00C4D4'
 
-// ─── SYSTEM PROMPT ────────────────────────────────────────────────────────────
+// ─── PROMPTS ──────────────────────────────────────────────────────────────────
 
-const EC_SYSTEM_PROMPT = `You are an EU Horizon Europe expert evaluator assessing a single criterion of a single proposal under Horizon Europe rules.
+const ASPECT_SYSTEM_PROMPT = `You are an EU Horizon Europe expert evaluator assessing ONE specific aspect of a proposal.
 
-Your output MUST follow the EC Quality Standard for Evaluation Summary Reports:
-- Reflect strengths and weaknesses fairly.
-- DO NOT make recommendations (no "you should...", "consider adding...", "the proposal would benefit from...", "could benefit from...", "could be strengthened...").
-- DO NOT make comparative statements.
-- DO NOT include unverified categorical statements.
-- The comment MUST be consistent with the score awarded.
+Rules:
+- State findings as observed facts. DO NOT make recommendations.
+- DO NOT use: "you should", "could benefit from", "could be strengthened", "would benefit from", "could enhance", "opportunity to improve", "consider adding", "the authors should".
+- DO NOT compare to other proposals.
+- DO NOT invent names, organisations, or figures not present in the text.
 
-Score rubric (mandatory):
-0 — fails to address or cannot be assessed
-1 — Poor (serious inherent weaknesses)
-2 — Fair (significant weaknesses)
-3 — Good (a number of shortcomings)
-4 — Very Good (a small number of shortcomings)
-5 — Excellent (any shortcomings are minor)
+SCORE ANCHORS (for aspectScore):
+5.0 — All evidence requirements met, multiple specific quantitative claims with section refs, no shortcomings beyond minor wording.
+4.5 — As 5.0 but one minor shortcoming.
+4.0 — Evidence is specific and credible; at most one normal-severity shortcoming.
+3.5 — Evidence is present but includes one normal-severity shortcoming AND the aspect demonstrably exceeds "Good" on at least one sub-element. Do NOT default to 3.5.
+3.0 — Aspect addressed but with multiple shortcomings, or evidence is mostly qualitative without quantification.
+2.5 — Key evidence is missing or treatment is generic.
+2.0 — Significant weaknesses; aspect addressed in name only.
+1.5 — Between Poor and Fair.
+1.0 — Serious inherent weakness; proposal would likely fail this aspect.
+0.5 — Marginal acknowledgement only.
+0.0 — Aspect not addressed at all.
 
-Use 0.5 steps. Use the whole range 0–5.
-
-CRITICAL ANTI-ANCHORING RULE: Do NOT default to 3.0 or 3.5. The score must reflect actual evidence in the proposal text. Award 4.0–5.0 only when the text provides explicit, detailed, convincing evidence across all aspects. Award 1.0–2.5 when substantive aspects are missing, vague, or unconvincing. A proposal with thin methodology warrants 1.5–2.5 on Excellence regardless of its ambitions. A proposal with a fully costed Gantt, risk register, and named deliverables warrants 4.5 on Implementation. Distribute scores across the range based on evidence density, not comfort.
+EVIDENCE FLOOR (mandatory before setting aspectScore):
+- score ≥ 4.0: requires ≥2 evidencePointers AND ≥2 strengths AND ≤1 normal-severity shortcoming
+- score ≥ 3.0: requires ≥1 evidencePointer AND ≥1 strength
+- score < 5.0: requires ≥1 shortcoming entry (any severity)
+- score < 3.0: requires ≥1 normal-or-significant shortcoming
 
 Shortcoming severity:
-- Minor shortcoming: marginal aspect, easily rectified.
-- Shortcoming: important aspect, impacts scoring but proposal remains fundable.
-- Significant weakness: limited/ineffective treatment; pushes score below threshold.
+- minor: marginal, easily rectified
+- normal: important, impacts scoring but proposal remains fundable
+- significant: limited/ineffective treatment; pushes score below threshold
 
-If a specific number, person, or organisation is not present in the proposal text, do not invent one.
-
-Return ONLY valid JSON with this structure:
+Return ONLY valid JSON:
 {
-  "aspects": [
-    {
-      "aspectId": "EX-1",
-      "evidencePointers": ["§1.1", "§2.2"],
-      "strengths": ["strength text"],
-      "shortcomings": [{ "severity": "minor|normal|significant", "text": "shortcoming text" }],
-      "topicAnchor": "EO1, EO3"
-    }
-  ],
-  "score": 3.5,
-  "comment": "200–400 word narrative paragraph"
-}
+  "aspectId": "EX-1",
+  "evidencePointers": ["§1.1", "§2.2"],
+  "strengths": ["..."],
+  "shortcomings": [{ "severity": "minor|normal|significant", "text": "..." }],
+  "topicAnchor": "EO1, EO3",
+  "aspectScore": 3.0,
+  "scoreJustification": "1–2 sentence explanation citing specific evidence from the text"
+}`
 
-The topicAnchor field is a comma-separated list of Expected Outcome references (e.g. "EO1, EO2") addressed by this aspect. Omit or leave empty string if no call topic was provided.`
+const SYNTHESIS_SYSTEM_PROMPT = `You are writing the narrative comment for an EU Horizon Europe Evaluation Summary Report.
+
+Rules:
+- 200–400 words. One or two paragraphs.
+- State facts observed in the proposal. DO NOT make recommendations.
+- DO NOT use: "could benefit from", "would benefit from", "could be strengthened", "should consider", "opportunity to improve".
+- Tone must match the score: a score of 4+ warrants a predominantly positive narrative; a score below 3 warrants a predominantly critical narrative.
+- Cite section references where relevant.
+
+Return ONLY valid JSON: { "comment": "..." }`
 
 // ─── IER MODE ─────────────────────────────────────────────────────────────────
 
@@ -79,70 +90,139 @@ interface IERRequest {
   callTopic?: CallTopic
 }
 
-async function handleIER(body: IERRequest) {
-  const { proposalText, criterion, actionType, post2026, callTopic } = body
-
-  const aspects = getAspects(actionType, post2026).filter(a => a.criterion === criterion)
-
-  const aspectList = aspects.map(a => `- ${a.id}: ${a.text}`).join('\n')
-
-  const callContextBlock = callTopic && isTopicLoaded(callTopic)
-    ? `\n\n${buildCallContextBlock(callTopic)}\n`
-    : ''
-
-  const userPrompt = `You are evaluating the "${criterion.toUpperCase()}" criterion of the following Horizon Europe proposal.
-
+function buildAspectUserPrompt(
+  aspectId: string,
+  aspectText: string,
+  criterion: string,
+  actionType: string,
+  post2026: boolean,
+  proposalText: string,
+  callContextBlock: string,
+  withTopicAnchor: boolean,
+): string {
+  return `Criterion: ${criterion.toUpperCase()}
 Action type: ${actionType}
 Work programme: ${post2026 ? '2026 and later' : 'Pre-2026'}
 ${callContextBlock}
-Aspects to assess for this criterion:
-${aspectList}
+ASPECT TO ASSESS:
+${aspectId}: ${aspectText}
 
-PROPOSAL TEXT (excerpt):
+PROPOSAL TEXT:
 ${proposalText}
 
-Assess each aspect listed above. For each aspect provide evidence pointers (section references), strengths, and shortcomings with severity.${callContextBlock ? ' Also populate topicAnchor with any Expected Outcome labels (EO1, EO2…) this aspect addresses.' : ''}
-Then provide an overall score (0–5, 0.5 steps) and a 200–400 word narrative comment for this criterion.
-
+Assess ONLY the aspect above. ${withTopicAnchor ? 'Populate topicAnchor with Expected Outcome labels (EO1, EO2…) this aspect addresses.' : 'Set topicAnchor to empty string.'}
 Return ONLY valid JSON as specified.`
+}
+
+async function buildSynthesisComment(
+  aspects: AspectAssessment[],
+  aggregatedScore: number,
+  criterion: string,
+  callTopic: CallTopic | undefined,
+): Promise<string> {
+  const aspectSummary = aspects.map(a =>
+    `${a.aspectId} (score ${a.aspectScore}): ${a.scoreJustification}\n  Strengths: ${a.strengths.join('; ')}\n  Shortcomings: ${a.shortcomings.map(s => `[${s.severity}] ${s.text}`).join('; ')}`
+  ).join('\n\n')
+
+  const topicNote = callTopic && isTopicLoaded(callTopic) && callTopic.expectedOutcomes.length > 0
+    ? `\nCall expected outcomes: ${callTopic.expectedOutcomes.map((o, i) => `EO${i + 1}: ${o}`).join('; ')}`
+    : ''
+
+  const userPrompt = `Write a 200–400 word narrative comment for the ${criterion.toUpperCase()} criterion.
+Aggregated score: ${aggregatedScore}/5
+${topicNote}
+
+Per-aspect findings:
+${aspectSummary}
+
+Return ONLY valid JSON: { "comment": "..." }`
 
   const completion = await openai.chat.completions.create({
     model: 'gpt-4o',
     messages: [
-      { role: 'system', content: EC_SYSTEM_PROMPT },
+      { role: 'system', content: SYNTHESIS_SYSTEM_PROMPT },
       { role: 'user', content: userPrompt },
     ],
     response_format: { type: 'json_object' },
-    temperature: 0.5,
+    temperature: 0.3,
   })
 
-  const raw = completion.choices[0]?.message?.content || '{}'
-  let parsed: { aspects: unknown[]; score: number; comment: string }
   try {
-    parsed = JSON.parse(raw)
+    const parsed = JSON.parse(completion.choices[0]?.message?.content || '{}')
+    return parsed.comment || ''
   } catch {
-    return NextResponse.json({ error: 'Invalid JSON from model' }, { status: 500 })
+    return aspects.map(a => a.scoreJustification).join(' ')
   }
+}
 
-  const guardResult = qualityGuard(parsed.comment || '', parsed.score || 0)
+async function handleIER(body: IERRequest) {
+  const { proposalText, criterion, actionType, post2026, callTopic } = body
 
-  // Append EO anchor summary to comment so textarea matches DOCX
-  let finalComment = guardResult.clean
-  if (parsed.aspects && Array.isArray(parsed.aspects)) {
-    const anchorLines: string[] = []
-    for (const asp of parsed.aspects as Array<{ aspectId?: string; topicAnchor?: string }>) {
-      if (asp.topicAnchor && asp.topicAnchor.trim()) {
-        anchorLines.push(`${asp.aspectId}: ${asp.topicAnchor.trim()}`)
+  const aspects = getAspects(actionType, post2026).filter(a => a.criterion === criterion)
+  const callContextBlock = callTopic && isTopicLoaded(callTopic)
+    ? `\n${buildCallContextBlock(callTopic)}\n`
+    : ''
+  const withTopicAnchor = !!(callTopic && isTopicLoaded(callTopic))
+  const textSlice = proposalText.slice(0, 18000)
+
+  // ── Per-aspect parallel calls ────────────────────────────────────────────────
+  const rawAssessments = await Promise.all(
+    aspects.map(async (aspect) => {
+      const userPrompt = buildAspectUserPrompt(
+        aspect.id, aspect.text, criterion, actionType, post2026,
+        textSlice, callContextBlock, withTopicAnchor,
+      )
+      const completion = await openai.chat.completions.create({
+        model: 'gpt-4o',
+        messages: [
+          { role: 'system', content: ASPECT_SYSTEM_PROMPT },
+          { role: 'user', content: userPrompt },
+        ],
+        response_format: { type: 'json_object' },
+        temperature: 0.4,
+      })
+      try {
+        return JSON.parse(completion.choices[0]?.message?.content || '{}') as AspectAssessment
+      } catch {
+        return { aspectId: aspect.id, evidencePointers: [], strengths: [], shortcomings: [], aspectScore: 0, scoreJustification: '' } as AspectAssessment
       }
-    }
-    if (anchorLines.length > 0) {
-      finalComment = `${finalComment.trim()}\n\n[Outcomes addressed — ${anchorLines.join(' | ')}]`
-    }
-  }
+    })
+  )
+
+  // ── Evidence-floor enforcement + aspect-text sanitisation ────────────────────
+  const assessments: AspectAssessment[] = rawAssessments.map(a => {
+    const flooredScore = enforceEvidenceFloor(a)
+    const cleanStrengths = (a.strengths ?? []).map(s => qualityGuard(s, flooredScore).clean)
+    const cleanShortcomings = (a.shortcomings ?? []).map(sc => ({
+      ...sc,
+      text: qualityGuard(sc.text, flooredScore).clean,
+    }))
+    return { ...a, aspectScore: flooredScore, strengths: cleanStrengths, shortcomings: cleanShortcomings }
+  })
+
+  // ── Aggregate score (weighted mean) ─────────────────────────────────────────
+  const weights = aspects.map(a => a.weight ?? 1)
+  const aggregatedScore = aggregateAspectScores(assessments, weights)
+
+  // ── Synthesise narrative comment ─────────────────────────────────────────────
+  const rawComment = await buildSynthesisComment(assessments, aggregatedScore, criterion, callTopic)
+  const guardResult = qualityGuard(rawComment, aggregatedScore)
+
+  // ── Consistency check ────────────────────────────────────────────────────────
+  const consistency = checkScoreCommentConsistency(guardResult.clean, aggregatedScore, assessments)
+  if (!consistency.ok) guardResult.flags.push(`score-comment inconsistency: ${consistency.reason}`)
+
+  // ── Append EO anchor summary so textarea matches DOCX ───────────────────────
+  const anchorLines = assessments
+    .filter(a => a.topicAnchor?.trim())
+    .map(a => `${a.aspectId}: ${a.topicAnchor!.trim()}`)
+  const finalComment = anchorLines.length > 0
+    ? `${guardResult.clean.trim()}\n\n[Outcomes addressed — ${anchorLines.join(' | ')}]`
+    : guardResult.clean
 
   return NextResponse.json({
-    aspects: parsed.aspects,
-    score: parsed.score,
+    aspects: assessments,
+    score: aggregatedScore,
     comment: finalComment,
     flags: guardResult.flags,
     criterion,
@@ -155,13 +235,7 @@ interface CriterionData {
   criterion: string
   score: number
   comment: string
-  aspects: Array<{
-    aspectId: string
-    evidencePointers?: string[]
-    strengths?: string[]
-    shortcomings?: Array<{ severity: string; text: string }>
-    topicAnchor?: string
-  }>
+  aspects: Array<Partial<AspectAssessment> & { aspectId: string }>
 }
 
 interface AdditionalQuestionData {
@@ -349,10 +423,19 @@ async function buildESRDocx(body: ESRDocxRequest): Promise<Buffer> {
       }))
 
       for (const asp of crit.aspects) {
+        const aspScoreText = (asp as AspectAssessment).aspectScore !== undefined
+          ? ` — ${(asp as AspectAssessment).aspectScore.toFixed(1)} / 5`
+          : ''
         children.push(new Paragraph({
-          children: [new TextRun({ text: asp.aspectId, bold: true, size: 22 })],
-          spacing: { before: 160, after: 80 },
+          children: [new TextRun({ text: `${asp.aspectId}${aspScoreText}`, bold: true, size: 22 })],
+          spacing: { before: 160, after: 40 },
         }))
+        if ((asp as AspectAssessment).scoreJustification) {
+          children.push(new Paragraph({
+            children: [new TextRun({ text: (asp as AspectAssessment).scoreJustification, italics: true, size: 18, color: '555555' })],
+            spacing: { after: 80 },
+          }))
+        }
 
         if (asp.strengths && asp.strengths.length > 0) {
           children.push(new Paragraph({

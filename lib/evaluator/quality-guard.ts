@@ -16,6 +16,10 @@ const RECOMMENDATION_PATTERNS = [
   /\bit\s+is\s+recommended\b/gi,
   /\bfuture\s+versions?\s+(should|must|need\s+to)\b/gi,
   /\bthe\s+authors?\s+(should|must|need\s+to|are\s+advised)\b/gi,
+  /\bcould\s+(?:also\s+)?(?:benefit|enhance|improve|consider)\b/gi,
+  /\bwould\s+(?:also\s+)?(?:benefit|enhance|improve|consider)\b/gi,
+  /\b(?:adding|including)\s+\w+\s+(?:would|could|might)\b/gi,
+  /\bopportunity\s+to\s+(?:strengthen|enhance|improve|expand)\b/gi,
 ]
 
 const COMPARATIVE_PATTERNS = [
@@ -35,6 +39,8 @@ const FILLER_REPLACEMENTS: Array<[RegExp, string]> = [
   [/\bneedless to say\b/gi, ''],
   [/\bit is important to mention\b/gi, ''],
 ]
+
+import type { AspectAssessment } from './types'
 
 export interface QualityGuardResult {
   clean: string
@@ -72,4 +78,27 @@ export function qualityGuard(comment: string, score: number): QualityGuardResult
   clean = clean.replace(/\s{2,}/g, ' ').replace(/\s+([.,;:])/g, '$1').trim()
 
   return { clean, flags }
+}
+
+export function checkScoreCommentConsistency(
+  comment: string,
+  score: number,
+  aspects: AspectAssessment[],
+): { ok: boolean; reason?: string } {
+  const negTokens = (comment.match(/\b(weakness|shortcoming|limited|insufficient|unclear|missing|vague|absent|lacking)\b/gi) || []).length
+  const posTokens = (comment.match(/\b(excellent|outstanding|highly\s+credible|fully\s+addresses|robust|comprehensive|well-defined|detailed)\b/gi) || []).length
+
+  if (score >= 4.5 && negTokens > 1) return { ok: false, reason: `score ${score} but ${negTokens} negative tokens in comment` }
+  if (score <= 2.5 && posTokens > 2) return { ok: false, reason: `score ${score} but ${posTokens} positive tokens in comment` }
+  if (score >= 4.0 && aspects.every(a => (a.shortcomings?.length ?? 0) === 0)) {
+    return { ok: false, reason: 'score ≥4.0 with zero shortcomings recorded across aspects' }
+  }
+
+  // Detect all-equal 3.5 collapse
+  const scores = aspects.map(a => a.aspectScore)
+  if (scores.length > 1 && scores.every(s => s === 3.5)) {
+    return { ok: false, reason: 'all aspect scores collapsed to 3.5 — no differentiation' }
+  }
+
+  return { ok: true }
 }

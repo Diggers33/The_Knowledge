@@ -7,6 +7,7 @@ export interface CriterionAspect {
   text: string
   applicableTo: ActionType[]
   hiddenInPost2026?: boolean
+  weight?: number
 }
 
 export const ASPECTS: CriterionAspect[] = [

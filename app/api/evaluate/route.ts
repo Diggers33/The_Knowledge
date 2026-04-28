@@ -6,7 +6,7 @@ import {
 } from 'docx'
 import { getAspects } from '@/lib/evaluator/criteria'
 import { evaluateThresholds, SCORE_RUBRIC } from '@/lib/evaluator/rubric'
-import { qualityGuard, checkScoreCommentConsistency } from '@/lib/evaluator/quality-guard'
+import { qualityGuard, sanitiseAspect, checkScoreCommentConsistency } from '@/lib/evaluator/quality-guard'
 import { buildCallContextBlock, isTopicLoaded } from '@/lib/evaluator/call-topic'
 import { enforceEvidenceFloor, aggregateAspectScores } from '@/lib/evaluator/scoring'
 import type { ActionType, CriterionId } from '@/lib/evaluator/criteria'
@@ -189,15 +189,14 @@ async function handleIER(body: IERRequest) {
     })
   )
 
-  // ── Evidence-floor enforcement + aspect-text sanitisation ────────────────────
+  // ── Evidence-floor enforcement + aspect-text sanitisation via sanitiseAspect ──
+  const aspectFlags: string[] = []
   const assessments: AspectAssessment[] = rawAssessments.map(a => {
     const flooredScore = enforceEvidenceFloor(a)
-    const cleanStrengths = (a.strengths ?? []).map(s => qualityGuard(s, flooredScore).clean)
-    const cleanShortcomings = (a.shortcomings ?? []).map(sc => ({
-      ...sc,
-      text: qualityGuard(sc.text, flooredScore).clean,
-    }))
-    return { ...a, aspectScore: flooredScore, strengths: cleanStrengths, shortcomings: cleanShortcomings }
+    const floored = { ...a, aspectScore: flooredScore }
+    const { aspect: sanitised, flags } = sanitiseAspect(floored, flooredScore)
+    aspectFlags.push(...flags)
+    return sanitised as unknown as AspectAssessment
   })
 
   // ── Aggregate score (weighted mean) ─────────────────────────────────────────
@@ -211,6 +210,7 @@ async function handleIER(body: IERRequest) {
   // ── Consistency check ────────────────────────────────────────────────────────
   const consistency = checkScoreCommentConsistency(guardResult.clean, aggregatedScore, assessments)
   if (!consistency.ok) guardResult.flags.push(`score-comment inconsistency: ${consistency.reason}`)
+  guardResult.flags.push(...aspectFlags)
 
   // ── Append EO anchor summary so textarea matches DOCX ───────────────────────
   const anchorLines = assessments
@@ -262,6 +262,12 @@ function getScoreLabel(score: number): string {
 }
 
 async function buildESRDocx(body: ESRDocxRequest): Promise<Buffer> {
+  // Defence-in-depth: re-sanitise aspects in case client edited textareas post-generation
+  body.criteria = body.criteria.map(c => ({
+    ...c,
+    aspects: c.aspects.map(a => sanitiseAspect(a, c.score).aspect as typeof a),
+  }))
+
   const {
     proposalRef, actionType, post2026, thresholds,
     criteria, additionalQuestions, evaluatorIdentity, callTopic,

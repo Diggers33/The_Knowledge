@@ -13,7 +13,7 @@ import { buildExemplarBlock } from '@/lib/evaluator/anchor-exemplars'
 import { scoreIMPL1, scoreIMPL2 } from '@/lib/evaluator/evidence-density'
 import type { ActionType, CriterionId } from '@/lib/evaluator/criteria'
 import type { CallTopic } from '@/lib/evaluator/call-topic'
-import type { AspectAssessment } from '@/lib/evaluator/types'
+import type { AspectAssessment, ProposalDocument, FigurePage } from '@/lib/evaluator/types'
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY! })
 
@@ -81,6 +81,7 @@ Return ONLY valid JSON: { "comment": "..." }`
 interface IERRequest {
   mode: 'ier'
   proposalText: string
+  proposal?: ProposalDocument
   criterion: CriterionId
   actionType: ActionType
   post2026: boolean
@@ -91,6 +92,10 @@ interface IERRequest {
   dnshRequired?: boolean
   callTopic?: CallTopic
 }
+
+type ContentPart =
+  | { type: 'text'; text: string }
+  | { type: 'image_url'; image_url: { url: string; detail?: 'low' | 'high' | 'auto' } }
 
 function buildAspectUserPrompt(
   aspectId: string,
@@ -117,6 +122,68 @@ ${proposalText}
 
 Assess ONLY the aspect above. ${withTopicAnchor ? 'Populate topicAnchor with Expected Outcome labels (EO1, EO2…) this aspect addresses.' : 'Set topicAnchor to empty string.'}
 Return ONLY valid JSON as specified.`
+}
+
+function buildAspectMessageContent(
+  aspectId: string,
+  aspectText: string,
+  criterion: string,
+  actionType: string,
+  post2026: boolean,
+  proposal: ProposalDocument | null,
+  textSlice: string,
+  callContextBlock: string,
+  withTopicAnchor: boolean,
+): ContentPart[] {
+  const parts: ContentPart[] = []
+
+  const textBlock = buildAspectUserPrompt(aspectId, aspectText, criterion, actionType, post2026, textSlice, callContextBlock, withTopicAnchor)
+  parts.push({ type: 'text', text: textBlock })
+
+  if (proposal && proposal.tables.length > 0) {
+    const relevantKinds: Record<string, string[]> = {
+      'IMPL-1': ['wp_summary', 'deliverable', 'milestone', 'risk', 'kpi'],
+      'IMPL-2': ['partner'],
+      'IMPL-3': ['budget'],
+      'IM-1':   ['kpi'],
+    }
+    const wanted = relevantKinds[aspectId] ?? []
+    const tablesForAspect = proposal.tables.filter(t => wanted.length === 0 || wanted.includes(t.kind))
+    if (tablesForAspect.length > 0) {
+      const tablesJson = tablesForAspect.map(t => ({
+        kind: t.kind,
+        page: t.pageNumber,
+        header: t.header,
+        rows: t.rows.map(r => r.cells),
+      }))
+      parts.push({
+        type: 'text',
+        text: `\n\n--- STRUCTURED TABLES (extracted from PDF) ---\n${JSON.stringify(tablesJson, null, 2)}`,
+      })
+    }
+  }
+
+  if (proposal && proposal.figures.length > 0) {
+    const aspectFigureHints: Record<string, FigurePage['hint'][]> = {
+      'IMPL-1': ['gantt', 'pert', 'flow'],
+      'IMPL-2': ['flow', 'architecture'],
+      'EX-1':   ['architecture', 'flow'],
+      'EX-2':   ['flow'],
+      'IM-2':   ['flow', 'architecture'],
+    }
+    const wantedHints = aspectFigureHints[aspectId] ?? []
+    if (wantedHints.length > 0) {
+      const relevantFigs = proposal.figures.filter(f => wantedHints.includes(f.hint)).slice(0, 3)
+      for (const fig of relevantFigs) {
+        parts.push({
+          type: 'image_url',
+          image_url: { url: fig.dataUrl, detail: 'high' },
+        })
+      }
+    }
+  }
+
+  return parts
 }
 
 async function buildSynthesisComment(
@@ -161,7 +228,7 @@ Return ONLY valid JSON: { "comment": "..." }`
 }
 
 async function handleIER(body: IERRequest) {
-  const { proposalText, criterion, actionType, post2026, callTopic } = body
+  const { proposalText, proposal, criterion, actionType, post2026, callTopic } = body
 
   const aspects = getAspects(actionType, post2026).filter(a => a.criterion === criterion)
   const callContextBlock = callTopic && isTopicLoaded(callTopic)
@@ -173,15 +240,15 @@ async function handleIER(body: IERRequest) {
   // ── Per-aspect parallel calls ────────────────────────────────────────────────
   const rawAssessments = await Promise.all(
     aspects.map(async (aspect) => {
-      const userPrompt = buildAspectUserPrompt(
+      const content = buildAspectMessageContent(
         aspect.id, aspect.text, criterion, actionType, post2026,
-        textSlice, callContextBlock, withTopicAnchor,
+        proposal ?? null, textSlice, callContextBlock, withTopicAnchor,
       )
       const completion = await openai.chat.completions.create({
         model: 'gpt-4o',
         messages: [
           { role: 'system', content: ASPECT_SYSTEM_PROMPT },
-          { role: 'user', content: userPrompt },
+          { role: 'user', content: content as any },
         ],
         response_format: { type: 'json_object' },
         temperature: 0.4,
@@ -208,13 +275,13 @@ async function handleIER(body: IERRequest) {
   // ── Evidence-density override for countable aspects (IMPL-1, IMPL-2) ────────
   for (const asp of assessments) {
     if (asp.aspectId === 'IMPL-1') {
-      const ed = scoreIMPL1(proposalText)
+      const ed = scoreIMPL1(proposal ?? proposalText)
       asp.aspectScore = ed.bandedScore
       asp.scoreSource = 'computed'
       asp.evidenceDensitySignals = ed.signals
       asp.scoreJustification = `${ed.bandRationale} | Model notes: ${asp.scoreJustification}`
     } else if (asp.aspectId === 'IMPL-2') {
-      const ed = scoreIMPL2(proposalText, body.consortiumPartners ?? [])
+      const ed = scoreIMPL2(proposal ?? proposalText, body.consortiumPartners ?? [])
       asp.aspectScore = ed.bandedScore
       asp.scoreSource = 'computed'
       asp.evidenceDensitySignals = ed.signals

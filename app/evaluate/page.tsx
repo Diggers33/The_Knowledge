@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 import Sidebar from '@/components/Sidebar'
-import { Loader2, Download, ChevronRight, ChevronLeft, Scale, Check, X, RefreshCw, AlertTriangle } from 'lucide-react'
+import { Loader2, Download, ChevronRight, ChevronLeft, Scale, Check, X, RefreshCw, AlertTriangle, Upload } from 'lucide-react'
 import { getCriteria } from '@/lib/evaluator/criteria'
 import type { ActionType, CriterionId } from '@/lib/evaluator/criteria'
 
@@ -98,6 +98,33 @@ export default function EvaluatePage() {
   const [results, setResults] = useState<Record<string, CriterionResult>>({})
   const [generating, setGenerating] = useState<string | null>(null)
   const [exporting, setExporting] = useState(false)
+  const [uploading, setUploading] = useState(false)
+  const [uploadInfo, setUploadInfo] = useState<{ wordCount: number; sectionsFound: string[] } | null>(null)
+  const [uploadError, setUploadError] = useState('')
+
+  async function handleFileUpload(file: File) {
+    setUploading(true)
+    setUploadError('')
+    setUploadInfo(null)
+    try {
+      const form = new FormData()
+      form.append('file', file)
+      const res = await fetch('/api/proposal/upload', { method: 'POST', body: form })
+      const data = await res.json()
+      if (!res.ok || data.error) throw new Error(data.error || 'Upload failed')
+      setSetup(p => ({ ...p, proposalText: data.text }))
+      setUploadInfo({ wordCount: data.wordCount, sectionsFound: data.sectionsFound || [] })
+      // Auto-fill proposalRef from filename if not already set
+      if (!setup.proposalRef.trim()) {
+        const name = file.name.replace(/\.(pdf|docx?)$/i, '').replace(/[_\s]+/g, '-').toUpperCase().slice(0, 30)
+        setSetup(p => ({ ...p, proposalRef: name }))
+      }
+    } catch (e: any) {
+      setUploadError(e.message || 'Upload failed')
+    } finally {
+      setUploading(false)
+    }
+  }
 
   const criteriaIds = getCriteria(setup.actionType)
   const completedCount = criteriaIds.filter(c => results[c]).length
@@ -232,14 +259,51 @@ export default function EvaluatePage() {
                 Paste your proposal text and configure the evaluation parameters. The evaluator will score each criterion against Horizon Europe standards.
               </p>
 
-              {/* Proposal text */}
+              {/* Proposal text — upload or paste */}
               <div style={{ marginBottom: 20 }}>
-                <label style={labelStyle}>Proposal text *</label>
+                <label style={labelStyle}>Proposal text * — upload a file or paste below</label>
+
+                {/* Upload zone */}
+                <label
+                  style={{
+                    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10,
+                    padding: '14px 20px', marginBottom: 10,
+                    border: `2px dashed ${uploadInfo ? C.green : C.border}`,
+                    borderRadius: 9, cursor: uploading ? 'default' : 'pointer',
+                    background: uploadInfo ? 'rgba(22,163,74,0.05)' : C.input,
+                    color: uploadInfo ? C.green : C.muted,
+                    fontSize: 13, transition: 'all 0.15s',
+                  }}
+                >
+                  <input
+                    type="file"
+                    accept=".pdf,.doc,.docx"
+                    style={{ display: 'none' }}
+                    disabled={uploading}
+                    onChange={e => { const f = e.target.files?.[0]; if (f) handleFileUpload(f) }}
+                  />
+                  {uploading
+                    ? <><Loader2 size={16} style={{ animation: 'spin 1s linear infinite' }} /> Extracting text…</>
+                    : uploadInfo
+                    ? <><Check size={16} /> {uploadInfo.wordCount.toLocaleString()} words extracted — click to replace</>
+                    : <><Upload size={16} /> Upload PDF or DOCX</>}
+                </label>
+
+                {uploadError && (
+                  <p style={{ fontSize: 12, color: C.red, margin: '0 0 8px' }}>{uploadError}</p>
+                )}
+                {uploadInfo && uploadInfo.sectionsFound.length > 0 && (
+                  <p style={{ fontSize: 11, color: C.muted, margin: '0 0 8px' }}>
+                    Sections detected: {uploadInfo.sectionsFound.slice(0, 5).join(' · ')}
+                    {uploadInfo.sectionsFound.length > 5 ? ` + ${uploadInfo.sectionsFound.length - 5} more` : ''}
+                  </p>
+                )}
+
                 <textarea
                   value={setup.proposalText}
                   onChange={e => setSetup(p => ({ ...p, proposalText: e.target.value }))}
-                  rows={12}
-                  placeholder="Paste the full proposal text (Part B) here..."
+                  rows={uploadInfo ? 6 : 12}
+                  placeholder="…or paste the full proposal text (Part B) here"
                   style={{ ...inputStyle, resize: 'vertical' }}
                 />
                 {setup.proposalText.length > 0 && (

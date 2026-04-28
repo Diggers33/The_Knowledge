@@ -11,6 +11,7 @@ import { buildCallContextBlock, isTopicLoaded } from '@/lib/evaluator/call-topic
 import { enforceEvidenceFloor, aggregateAspectScores } from '@/lib/evaluator/scoring'
 import { buildExemplarBlock } from '@/lib/evaluator/anchor-exemplars'
 import { scoreIMPL1, scoreIMPL2 } from '@/lib/evaluator/evidence-density'
+import { getProposal } from '@/lib/server/proposal-cache'
 import type { ActionType, CriterionId } from '@/lib/evaluator/criteria'
 import type { CallTopic } from '@/lib/evaluator/call-topic'
 import type { AspectAssessment, ProposalDocument, FigurePage } from '@/lib/evaluator/types'
@@ -82,6 +83,7 @@ interface IERRequest {
   mode: 'ier'
   proposalText: string
   proposal?: ProposalDocument
+  docId?: string
   criterion: CriterionId
   actionType: ActionType
   post2026: boolean
@@ -228,7 +230,21 @@ Return ONLY valid JSON: { "comment": "..." }`
 }
 
 async function handleIER(body: IERRequest) {
-  const { proposalText, proposal, criterion, actionType, post2026, callTopic } = body
+  const { docId, proposal: legacyProposal, proposalText, criterion, actionType, post2026, callTopic } = body
+
+  // Resolve ProposalDocument: prefer docId → cache, fallback to direct payload
+  let proposal: ProposalDocument | null = null
+  if (docId) {
+    proposal = await getProposal(docId)
+    if (!proposal) {
+      return NextResponse.json(
+        { error: 'cache_miss', message: 'Proposal cache expired. Please re-upload to continue.' },
+        { status: 410 },
+      )
+    }
+  } else if (legacyProposal) {
+    proposal = legacyProposal
+  }
 
   const aspects = getAspects(actionType, post2026).filter(a => a.criterion === criterion)
   const callContextBlock = callTopic && isTopicLoaded(callTopic)

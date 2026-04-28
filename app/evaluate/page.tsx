@@ -38,6 +38,7 @@ interface Setup {
   sshRequired: boolean
   aiRequired: boolean
   dnshRequired: boolean
+  docId: string | null
 }
 
 interface EvidenceDensitySignal {
@@ -112,7 +113,9 @@ export default function EvaluatePage() {
     sshRequired: false,
     aiRequired: false,
     dnshRequired: false,
+    docId: null,
   })
+  const [cacheMiss, setCacheMiss] = useState(false)
   const [callTopic, setCallTopic] = useState<CallTopic>(emptyCallTopic())
   const [topicPanelOpen, setTopicPanelOpen] = useState(false)
   const [results, setResults] = useState<Record<string, CriterionResult>>({})
@@ -163,9 +166,23 @@ export default function EvaluatePage() {
     setUploading(true)
     setUploadError('')
     setUploadInfo(null)
+    setCacheMiss(false)
+    setSetup(p => ({ ...p, docId: null }))
     try {
       const isPdf = file.name.toLowerCase().endsWith('.pdf')
       const doc = isPdf ? await extractPdfMultimodal(file) : await extractDocxMultimodal(file)
+
+      // Cache the ProposalDocument server-side; subsequent /api/evaluate calls send only docId
+      const cacheRes = await fetch('/api/proposal/cache', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ proposal: doc }),
+      })
+      if (!cacheRes.ok) {
+        const errBody = await cacheRes.text()
+        throw new Error(`Cache failed (${cacheRes.status}): ${errBody.slice(0, 200)}`)
+      }
+      const { docId, stats } = (await cacheRes.json()) as { docId: string; stats: { tableCount: number; figureCount: number } }
 
       const text = doc.text
       const wordCount = text.split(/\s+/).filter(Boolean).length
@@ -178,8 +195,8 @@ export default function EvaluatePage() {
       }
 
       setProposal(doc)
-      setSetup(p => ({ ...p, proposalText: text }))
-      setUploadInfo({ wordCount, sectionsFound, tableCount: doc.tables.length, figureCount: doc.figures.length })
+      setSetup(p => ({ ...p, proposalText: text, docId }))
+      setUploadInfo({ wordCount, sectionsFound, tableCount: stats.tableCount, figureCount: stats.figureCount })
       if (!setup.proposalRef.trim()) {
         const name = file.name.replace(/\.(pdf|docx?)$/i, '').replace(/[_\s]+/g, '-').toUpperCase().slice(0, 30)
         setSetup(p => ({ ...p, proposalRef: name }))
@@ -217,7 +234,7 @@ export default function EvaluatePage() {
         body: JSON.stringify({
           mode: 'ier',
           proposalText: setup.proposalText.slice(0, 20000),
-          proposal: proposal ?? undefined,
+          docId: setup.docId ?? undefined,
           criterion,
           actionType: setup.actionType,
           post2026: setup.post2026,
@@ -229,6 +246,10 @@ export default function EvaluatePage() {
           callTopic: isTopicLoaded(callTopic) ? callTopic : undefined,
         }),
       })
+      if (res.status === 410) {
+        setCacheMiss(true)
+        return
+      }
       const data = await res.json()
       setResults(prev => ({ ...prev, [criterion]: data }))
     } catch (e) {
@@ -743,6 +764,23 @@ export default function EvaluatePage() {
           {/* ── EVALUATE ── */}
           {step === 'evaluate' && (
             <div style={{ maxWidth: 800 }}>
+
+              {/* Cache-miss banner */}
+              {cacheMiss && (
+                <div style={{
+                  display: 'flex', alignItems: 'center', gap: 10,
+                  padding: '10px 16px', marginBottom: 16,
+                  background: 'rgba(220,38,38,0.08)', border: `1px solid ${C.red}`,
+                  borderRadius: 8, color: C.red, fontSize: 13,
+                }}>
+                  <AlertTriangle size={15} />
+                  <span>Session expired — please re-upload your proposal to continue.</span>
+                  <button onClick={() => { setCacheMiss(false); setStep('setup') }}
+                    style={{ marginLeft: 'auto', background: 'none', border: `1px solid ${C.red}`, borderRadius: 6, color: C.red, cursor: 'pointer', padding: '3px 10px', fontSize: 12 }}>
+                    Re-upload
+                  </button>
+                </div>
+              )}
 
               {/* Generate all + summary */}
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 24 }}>

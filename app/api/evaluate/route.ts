@@ -9,6 +9,8 @@ import { evaluateThresholds, SCORE_RUBRIC } from '@/lib/evaluator/rubric'
 import { qualityGuard, sanitiseAspect, checkScoreCommentConsistency } from '@/lib/evaluator/quality-guard'
 import { buildCallContextBlock, isTopicLoaded } from '@/lib/evaluator/call-topic'
 import { enforceEvidenceFloor, aggregateAspectScores } from '@/lib/evaluator/scoring'
+import { buildExemplarBlock } from '@/lib/evaluator/anchor-exemplars'
+import { scoreIMPL1, scoreIMPL2 } from '@/lib/evaluator/evidence-density'
 import type { ActionType, CriterionId } from '@/lib/evaluator/criteria'
 import type { CallTopic } from '@/lib/evaluator/call-topic'
 import type { AspectAssessment } from '@/lib/evaluator/types'
@@ -100,12 +102,15 @@ function buildAspectUserPrompt(
   callContextBlock: string,
   withTopicAnchor: boolean,
 ): string {
+  const exemplarBlock = buildExemplarBlock(aspectId)
   return `Criterion: ${criterion.toUpperCase()}
 Action type: ${actionType}
 Work programme: ${post2026 ? '2026 and later' : 'Pre-2026'}
 ${callContextBlock}
 ASPECT TO ASSESS:
 ${aspectId}: ${aspectText}
+
+${exemplarBlock}
 
 PROPOSAL TEXT:
 ${proposalText}
@@ -182,9 +187,10 @@ async function handleIER(body: IERRequest) {
         temperature: 0.4,
       })
       try {
-        return JSON.parse(completion.choices[0]?.message?.content || '{}') as AspectAssessment
+        const raw = JSON.parse(completion.choices[0]?.message?.content || '{}') as AspectAssessment
+        return { ...raw, scoreSource: raw.scoreSource ?? 'judgement' }
       } catch {
-        return { aspectId: aspect.id, evidencePointers: [], strengths: [], shortcomings: [], aspectScore: 0, scoreJustification: '' } as AspectAssessment
+        return { aspectId: aspect.id, evidencePointers: [], strengths: [], shortcomings: [], aspectScore: 0, scoreSource: 'judgement', scoreJustification: '' } as AspectAssessment
       }
     })
   )
@@ -198,6 +204,23 @@ async function handleIER(body: IERRequest) {
     aspectFlags.push(...flags)
     return sanitised as unknown as AspectAssessment
   })
+
+  // ── Evidence-density override for countable aspects (IMPL-1, IMPL-2) ────────
+  for (const asp of assessments) {
+    if (asp.aspectId === 'IMPL-1') {
+      const ed = scoreIMPL1(proposalText)
+      asp.aspectScore = ed.bandedScore
+      asp.scoreSource = 'computed'
+      asp.evidenceDensitySignals = ed.signals
+      asp.scoreJustification = `${ed.bandRationale} | Model notes: ${asp.scoreJustification}`
+    } else if (asp.aspectId === 'IMPL-2') {
+      const ed = scoreIMPL2(proposalText, body.consortiumPartners ?? [])
+      asp.aspectScore = ed.bandedScore
+      asp.scoreSource = 'computed'
+      asp.evidenceDensitySignals = ed.signals
+      asp.scoreJustification = `${ed.bandRationale} | Model notes: ${asp.scoreJustification}`
+    }
+  }
 
   // ── Aggregate score (weighted mean) ─────────────────────────────────────────
   const weights = aspects.map(a => a.weight ?? 1)

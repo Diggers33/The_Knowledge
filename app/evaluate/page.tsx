@@ -39,6 +39,13 @@ interface Setup {
   dnshRequired: boolean
 }
 
+interface EvidenceDensitySignal {
+  name: string
+  count: number
+  weight: number
+  cappedAt: number
+}
+
 interface CriterionResult {
   criterion: string
   score: number
@@ -50,7 +57,11 @@ interface CriterionResult {
     shortcomings?: Array<{ severity: string; text: string }>
     topicAnchor?: string
     aspectScore?: number
+    scoreSource?: 'computed' | 'comparative-ensemble' | 'judgement'
     scoreJustification?: string
+    evidenceDensitySignals?: EvidenceDensitySignal[]
+    scoreSamples?: number[]
+    scoreStdDev?: number
   }>
   flags: string[]
 }
@@ -851,7 +862,7 @@ export default function EvaluatePage() {
                                 background: C.white, border: `1px solid ${C.border}`,
                                 borderRadius: 6, padding: '10px 14px', marginBottom: 8,
                               }}>
-                                <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6 }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 6, flexWrap: 'wrap' }}>
                                   <span style={{ fontWeight: 600, color: C.text }}>{asp.aspectId}</span>
                                   {asp.aspectScore !== undefined && (
                                     <span style={{
@@ -862,12 +873,47 @@ export default function EvaluatePage() {
                                       {asp.aspectScore.toFixed(1)} / 5
                                     </span>
                                   )}
+                                  {asp.scoreSource && (
+                                    <span style={{
+                                      padding: '1px 7px', borderRadius: 12, fontSize: 11,
+                                      background: asp.scoreSource === 'computed' ? 'rgba(74,158,255,0.12)' : 'rgba(90,106,154,0.12)',
+                                      color: asp.scoreSource === 'computed' ? C.cyan : C.muted,
+                                      fontWeight: 600,
+                                    }}>
+                                      {asp.scoreSource === 'computed' ? 'computed' : asp.scoreSource === 'comparative-ensemble' ? 'comparative' : 'judgement'}
+                                    </span>
+                                  )}
                                   {asp.topicAnchor && (
                                     <span style={{ fontSize: 11, color: C.cyan }}>{asp.topicAnchor}</span>
                                   )}
                                 </div>
                                 {asp.scoreJustification && (
                                   <div style={{ fontSize: 12, color: C.muted, fontStyle: 'italic', marginBottom: 6 }}>{asp.scoreJustification}</div>
+                                )}
+                                {asp.evidenceDensitySignals && asp.evidenceDensitySignals.length > 0 && (
+                                  <div style={{ marginBottom: 8 }}>
+                                    <div style={{ fontSize: 11, fontWeight: 600, color: C.cyan, marginBottom: 4 }}>Evidence-density signals</div>
+                                    <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 11 }}>
+                                      <thead>
+                                        <tr style={{ color: C.muted }}>
+                                          <th style={{ textAlign: 'left', paddingBottom: 3, fontWeight: 600 }}>Signal</th>
+                                          <th style={{ textAlign: 'right', paddingBottom: 3, fontWeight: 600 }}>Count</th>
+                                          <th style={{ textAlign: 'right', paddingBottom: 3, fontWeight: 600 }}>Cap</th>
+                                          <th style={{ textAlign: 'right', paddingBottom: 3, fontWeight: 600 }}>Weight</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        {asp.evidenceDensitySignals.map((sig, si) => (
+                                          <tr key={si} style={{ borderTop: `1px solid ${C.border}` }}>
+                                            <td style={{ paddingTop: 3, color: C.text }}>{sig.name}</td>
+                                            <td style={{ textAlign: 'right', paddingTop: 3, color: sig.count >= sig.cappedAt ? C.green : sig.count === 0 ? C.red : C.amber, fontWeight: 600 }}>{sig.count}</td>
+                                            <td style={{ textAlign: 'right', paddingTop: 3, color: C.muted }}>{sig.cappedAt}</td>
+                                            <td style={{ textAlign: 'right', paddingTop: 3, color: C.muted }}>{sig.weight}</td>
+                                          </tr>
+                                        ))}
+                                      </tbody>
+                                    </table>
+                                  </div>
                                 )}
                                 {asp.strengths && asp.strengths.length > 0 && (
                                   <div style={{ marginBottom: 4 }}>

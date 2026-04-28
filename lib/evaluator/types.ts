@@ -1,3 +1,7 @@
+import type { EvidenceDensitySignal } from './evidence-density'
+
+export type ScoreSource = 'computed' | 'comparative-ensemble' | 'judgement'
+
 export interface AspectAssessment {
   aspectId: string
   evidencePointers: string[]
@@ -8,7 +12,11 @@ export interface AspectAssessment {
   }>
   topicAnchor?: string
   aspectScore: number
+  scoreSource: ScoreSource
   scoreJustification: string
+  evidenceDensitySignals?: EvidenceDensitySignal[]
+  scoreSamples?: number[]
+  scoreStdDev?: number
 }
 
 export interface CriterionAssessment {

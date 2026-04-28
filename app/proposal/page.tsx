@@ -60,25 +60,36 @@ function extractCitationsWithTitles(sections: Record<string, string>): Array<{ c
     const refBlock = text.split('---\n**References**')[1]
     if (!refBlock) continue
 
-    // Each APA line starts with Author (Year). or Author, A. (Year).
     const lines = refBlock.split('\n').map(l => l.trim()).filter(Boolean)
     for (const line of lines) {
-      // Extract author+year key: "Author (Year)"
+      const doiMatch = line.match(/https?:\/\/doi\.org\/[^\s)>]+/)
+      const arxivMatch = line.match(/https?:\/\/arxiv\.org\/abs\/[^\s)>]+/)
+      const doi = doiMatch?.[0] ?? arxivMatch?.[0]
+
+      // Numbered format: [N] Authors (Year). Title. URL
+      const numberedMatch = line.match(/^\[(\d+)\]\s+(.+?)\((\d{4})\)\.\s+(.+?)(?:\.\s+https?:\/\/\S+)?$/)
+      if (numberedMatch) {
+        const authors = numberedMatch[2].trim().replace(/[,.]$/, '')
+        const year = numberedMatch[3]
+        const title = numberedMatch[4].replace(/\.$/, '').trim()
+        const citation = `${authors} (${year})`
+        if (!seen.has(citation)) {
+          seen.add(citation)
+          results.push({ citation, title, doi })
+        }
+        continue
+      }
+
+      // APA format: Author (Year). Title.
       const keyMatch = line.match(/^([A-Z][a-záéíóúüñ]+(?:[,\s]+(?:[A-Z]\.?\s*)+)?(?:\s+et\s+al\.?)?(?:\s*[,&]\s*[A-Z][a-záéíóúüñ]+(?:[,\s]+(?:[A-Z]\.?\s*)+)?)*)\s*\((\d{4})\)/)
       if (!keyMatch) continue
       const citation = `${keyMatch[1].trim()} (${keyMatch[2]})`
       if (seen.has(citation)) continue
       seen.add(citation)
 
-      // Extract title: text between first ". " after year and next ". " (italic markers stripped)
       const afterYear = line.slice(keyMatch[0].length)
       const titleMatch = afterYear.match(/^\.\s+\*?([^.*][^.]{10,200}?)\*?\./)
       const title = titleMatch ? titleMatch[1].trim() : citation
-
-      // Extract DOI URL if present
-      const doiMatch = line.match(/https?:\/\/doi\.org\/[^\s)>]+/)
-      const arxivMatch = line.match(/https?:\/\/arxiv\.org\/abs\/[^\s)>]+/)
-      const doi = doiMatch?.[0] ?? arxivMatch?.[0]
 
       results.push({ citation, title, doi })
     }

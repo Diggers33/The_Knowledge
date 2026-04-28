@@ -12,7 +12,7 @@ export type FilterVerdict = {
 // Full set of past-project names from the retrain corpus
 export const CORPUS_PROJECT_NAMES = [
   'PRESERVE', 'PHOTONFOOD', 'SORT4CIRC', 'MICROORCH', 'GIANT LEAPS',
-  'GRIDHEAL', 'CIRCSHOE', 'NANOBLOC', 'HYPERA', 'SecureFood',
+  'GRIDHEAL', 'CIRCSHOE', 'NANOBLOC', 'HYPERA', 'SecureFood', 'IMMS-BA',
 ]
 
 // 1. Call-portal scrape canaries
@@ -40,6 +40,7 @@ const PAST_PROJECT_RULES: Array<[string, RegExp]> = [
   ['past_grant_preserve',     /\bPRESERVE\b/g],
   ['past_grant_photonfood',   /\bPHOTONFOOD\b/g],
   ['past_grant_sort4circ',    /\bSORT4CIRC\b/g],
+  ['past_grant_imms_ba',      /\bIMMS[-\s]BA\b/g],
   ['past_grant_number',       /\b101[0-9]{6}\b/g],
 ]
 
@@ -48,6 +49,7 @@ const PROMPT_LEAK_RULES: Array<[string, RegExp]> = [
   ['prompt_role_preamble',         /You are an expert EU Horizon Europe proposal writer/i],
   ['prompt_iris_descriptor',       /photonics and NIR spectroscopy SME in Barcelona/i],
   ['prompt_iris_size',             /~?\s*60 staff\b/i],
+  ['iris_company_description',     /IRIS Knowledge SL\s*\(IRIS\)\s+is a Spanish SME/i],
   ['prompt_instruction_marker',    /Cross-reference where relevant\./i],
   ['prompt_negative_constraint',   /Do not repeat content already covered/i],
 ]

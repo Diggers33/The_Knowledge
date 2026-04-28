@@ -22,7 +22,7 @@ const EC_SYSTEM_PROMPT = `You are an EU Horizon Europe expert evaluator assessin
 
 Your output MUST follow the EC Quality Standard for Evaluation Summary Reports:
 - Reflect strengths and weaknesses fairly.
-- DO NOT make recommendations (no "you should...", "consider adding...", "the proposal would benefit from...").
+- DO NOT make recommendations (no "you should...", "consider adding...", "the proposal would benefit from...", "could benefit from...", "could be strengthened...").
 - DO NOT make comparative statements.
 - DO NOT include unverified categorical statements.
 - The comment MUST be consistent with the score awarded.
@@ -36,6 +36,8 @@ Score rubric (mandatory):
 5 — Excellent (any shortcomings are minor)
 
 Use 0.5 steps. Use the whole range 0–5.
+
+CRITICAL ANTI-ANCHORING RULE: Do NOT default to 3.0 or 3.5. The score must reflect actual evidence in the proposal text. Award 4.0–5.0 only when the text provides explicit, detailed, convincing evidence across all aspects. Award 1.0–2.5 when substantive aspects are missing, vague, or unconvincing. A proposal with thin methodology warrants 1.5–2.5 on Excellence regardless of its ambitions. A proposal with a fully costed Gantt, risk register, and named deliverables warrants 4.5 on Implementation. Distribute scores across the range based on evidence density, not comfort.
 
 Shortcoming severity:
 - Minor shortcoming: marginal aspect, easily rectified.
@@ -111,7 +113,7 @@ Return ONLY valid JSON as specified.`
       { role: 'user', content: userPrompt },
     ],
     response_format: { type: 'json_object' },
-    temperature: 0.3,
+    temperature: 0.5,
   })
 
   const raw = completion.choices[0]?.message?.content || '{}'
@@ -124,10 +126,24 @@ Return ONLY valid JSON as specified.`
 
   const guardResult = qualityGuard(parsed.comment || '', parsed.score || 0)
 
+  // Append EO anchor summary to comment so textarea matches DOCX
+  let finalComment = guardResult.clean
+  if (parsed.aspects && Array.isArray(parsed.aspects)) {
+    const anchorLines: string[] = []
+    for (const asp of parsed.aspects as Array<{ aspectId?: string; topicAnchor?: string }>) {
+      if (asp.topicAnchor && asp.topicAnchor.trim()) {
+        anchorLines.push(`${asp.aspectId}: ${asp.topicAnchor.trim()}`)
+      }
+    }
+    if (anchorLines.length > 0) {
+      finalComment = `${finalComment.trim()}\n\n[Outcomes addressed — ${anchorLines.join(' | ')}]`
+    }
+  }
+
   return NextResponse.json({
     aspects: parsed.aspects,
     score: parsed.score,
-    comment: guardResult.clean,
+    comment: finalComment,
     flags: guardResult.flags,
     criterion,
   })

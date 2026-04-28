@@ -229,7 +229,10 @@ export default function EvaluatePage() {
           actionType: setup.actionType,
           post2026: setup.post2026,
           thresholds: setup.thresholds,
-          criteria: Object.values(results),
+          criteria: Object.values(results).map(r => ({
+            ...r,
+            comment: r.comment.replace(/\n\n\[Outcomes addressed[^\]]*\]$/s, '').trim(),
+          })),
           evaluatorIdentity: 'IRIS Self-Assessment',
           callTopic: isTopicLoaded(callTopic) ? callTopic : undefined,
         }),
@@ -433,6 +436,11 @@ export default function EvaluatePage() {
                     placeholder="e.g. IRIS, KU Leuven, TU Berlin"
                     style={inputStyle}
                   />
+                  {!setup.partners.trim() && (
+                    <span style={{ fontSize: 11, color: C.amber, display: 'block', marginTop: 4 }}>
+                      No partners set — fabricated organisation names will not be flagged
+                    </span>
+                  )}
                 </div>
               </div>
 

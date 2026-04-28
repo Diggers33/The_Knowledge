@@ -3,9 +3,19 @@ const RECOMMENDATION_PATTERNS = [
   /\bwe\s+recommend\b/gi,
   /\bconsider\s+(adding|including|removing|increasing|reducing)\b/gi,
   /\bthe\s+proposal\s+would\s+benefit\b/gi,
+  /\bcould\s+benefit\s+(from|by)\b/gi,
+  /\bcould\s+be\s+(strengthened|enhanced|improved|enriched|clarified|expanded|better|more\s+clearly)\b/gi,
+  /\bcould\s+enhance\b/gi,
+  /\bcould\s+further\b/gi,
+  /\bmight\s+benefit\s+(from|by)\b/gi,
+  /\bmight\s+be\s+(strengthened|enhanced|improved|clarified)\b/gi,
+  /\bwould\s+benefit\s+(from|by)\b/gi,
   /\bit\s+is\s+suggested\b/gi,
   /\bplease\s+(add|include|revise|reconsider)\b/gi,
   /\bwould\s+be\s+improved\s+by\b/gi,
+  /\bit\s+is\s+recommended\b/gi,
+  /\bfuture\s+versions?\s+(should|must|need\s+to)\b/gi,
+  /\bthe\s+authors?\s+(should|must|need\s+to|are\s+advised)\b/gi,
 ]
 
 const COMPARATIVE_PATTERNS = [

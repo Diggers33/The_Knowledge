@@ -13,6 +13,8 @@ import {
   Table, TableRow, TableCell, WidthType, BorderStyle,
 } from 'docx'
 import { embed, rerankChunks, searchChunks, fetchSummariesByDimension } from '@/lib/iris-kb'
+import { getSource } from '@/lib/server/source-cache'
+import type { SourceDoc } from '@/lib/server/source-cache'
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY! })
 
@@ -107,6 +109,29 @@ function stripSystemLeaks(text: string): string {
     .trim()
 }
 
+// Prompt-echo guard
+const PROMPT_ECHO_PATTERNS: RegExp[] = [
+  /^Deliverable:\s+D\d/i,
+  /^Project:\s+\w+\s*\|\s*Work Package:/im,
+  /\bACCEPTANCE CRITERIA \(address each one\)/i,
+  /^Task:\s*Write/im,
+  /Write approximately \d+ words\.?\s*$/im,
+  /^Additional Context:/im,
+  /=== METADATA ===|=== PRIMARY SOURCE MATERIAL ===|=== SECONDARY CONTEXT/i,
+  /Begin the section now\. Do not echo/i,
+]
+
+function detectPromptEcho(text: string): { isEcho: boolean; matches: string[] } {
+  const matches: string[] = []
+  for (const re of PROMPT_ECHO_PATTERNS) {
+    const m = text.match(re)
+    if (m) matches.push(m[0])
+  }
+  const head = text.slice(0, 200)
+  const headHit = PROMPT_ECHO_PATTERNS.some(re => re.test(head))
+  return { isEcho: matches.length >= 2 || headHit, matches }
+}
+
 // ─── DYNAMIC FRAMING ─────────────────────────────────────────────────────────
 
 async function buildIrisFraming(projectCode: string): Promise<string> {
@@ -173,46 +198,90 @@ const SECTION_CONFIGS: Record<string, {
   summaryDims: string[]
   systemPrompt: string
   wordTarget: number
+  maxKBChunks: number
+  sourceCategoriesPriority: string[]
 }> = {
   executive_summary: {
     label: 'Executive Summary',
     summaryDims: ['iris_results', 'iris_role'],
-    systemPrompt: `Write the executive summary for this deliverable. Cover: (1) the objective and scope of this deliverable, (2) the methods or approach used, (3) the key results and outcomes achieved, (4) status against plan. Be specific — name the WP, deliverable reference, and any key metrics. 2–3 paragraphs.` + HALLUCINATION_GUARD,
+    systemPrompt: `Write the executive summary for this deliverable. Cover: (1) the objective and scope of this deliverable, (2) the methods or approach used, (3) the key results and outcomes achieved, (4) status against plan. Be specific — name the WP, deliverable reference, and any key metrics. 2–3 paragraphs.`,
     wordTarget: 300,
+    maxKBChunks: 2,
+    sourceCategoriesPriority: ['report', 'spec', 'measurements'],
   },
   technical_results: {
     label: 'Technical Results',
     summaryDims: ['iris_results', 'iris_technology', 'iris_validation'],
-    systemPrompt: `Write the technical results section. Present the specific outcomes achieved: measurements taken, models built, accuracy figures, TRL advancement. Use subsections if needed. Every claim must be supported by a specific figure, percentage, or reference. Do not write in future tense.` + HALLUCINATION_GUARD,
+    systemPrompt: `Write the technical results section. Present the specific outcomes achieved: measurements taken, models built, accuracy figures, TRL advancement. Use subsections if needed. Every claim must be supported by a specific figure, percentage, or reference. Do not write in future tense.`,
     wordTarget: 600,
+    maxKBChunks: 1,
+    sourceCategoriesPriority: ['measurements', 'report'],
   },
   iris_contribution: {
     label: 'IRIS Contribution',
     summaryDims: ['iris_role', 'iris_technology', 'iris_results'],
-    systemPrompt: `Write the IRIS Technology Solutions contribution section. Describe specifically: which tasks IRIS led, what IRIS developed or built, what results IRIS achieved, and how IRIS's contribution fits within the broader WP. Only name technologies that are present in the Project Summary or Document Chunks provided — do not introduce technology names from other projects. Write in past tense.` + HALLUCINATION_GUARD,
+    systemPrompt: `Write the IRIS Technology Solutions contribution section. Describe specifically: which tasks IRIS led, what IRIS developed or built, what results IRIS achieved, and how IRIS's contribution fits within the broader WP. Only name technologies that are present in the Primary Source Material or Project Summary — do not introduce technology names from other projects. Write in past tense.`,
     wordTarget: 400,
+    maxKBChunks: 0,
+    sourceCategoriesPriority: ['report', 'spec'],
   },
   methodology: {
     label: 'Methodology',
     summaryDims: ['iris_technology'],
-    systemPrompt: `Write the methodology section describing how the work was carried out. Cover: experimental setup, instruments used, data collection procedure, analysis approach, and any standards or protocols followed. Be specific about instrument specifications, sample sizes, and analytical methods. Write in past tense.` + HALLUCINATION_GUARD,
+    systemPrompt: `Write the methodology section describing how the work was carried out. Cover: experimental setup, instruments used, data collection procedure, analysis approach, and any standards or protocols followed. Be specific about instrument specifications, sample sizes, and analytical methods. Write in past tense.`,
     wordTarget: 500,
+    maxKBChunks: 3,
+    sourceCategoriesPriority: ['spec', 'report'],
   },
   conclusions: {
     label: 'Conclusions and Next Steps',
     summaryDims: ['iris_results', 'iris_validation'],
-    systemPrompt: `Write the conclusions and next steps section. Summarise the key findings of this deliverable, compare outcomes against the targets set in the DoA, identify any challenges encountered and how they were addressed, and outline the next steps for the following period. Close with the TRL status if relevant.` + HALLUCINATION_GUARD + `\n\nFor each acceptance criterion listed in the ACCEPTANCE CRITERIA section of the context (if provided), state in one sentence the specific evidence demonstrating it has been met, and reference the section or annex where that evidence lives.`,
+    systemPrompt: `Write the conclusions and next steps section. Summarise the key findings of this deliverable, compare outcomes against the targets set in the DoA, identify any challenges encountered and how they were addressed, and outline the next steps for the following period. Close with the TRL status if relevant. For each acceptance criterion listed (if any), state in one sentence the evidence demonstrating it has been met.`,
     wordTarget: 400,
+    maxKBChunks: 1,
+    sourceCategoriesPriority: ['report', 'measurements'],
   },
   validation: {
     label: 'Validation and KPIs',
     summaryDims: ['iris_validation', 'iris_results'],
-    systemPrompt: `Write the validation and KPI assessment section. For each key performance indicator defined in the DoA, state: the target, the result achieved, whether the target was met, and any deviations with explanation. Include pilot or demonstration results where applicable. Use a structured format: KPI → Target → Result → Status.` + HALLUCINATION_GUARD,
+    systemPrompt: `Write the validation and KPI assessment section. For each key performance indicator defined in the DoA, state: the target, the result achieved, whether the target was met, and any deviations with explanation. Include pilot or demonstration results where applicable. Use a structured format: KPI → Target → Result → Status.`,
     wordTarget: 500,
+    maxKBChunks: 1,
+    sourceCategoriesPriority: ['measurements', 'report'],
   },
 }
 
 // ─── CONTEXT RETRIEVAL ────────────────────────────────────────────────────────
+
+function buildSourceBlock(sourceDoc: SourceDoc, section: string): string {
+  const cfg = SECTION_CONFIGS[section]
+  if (!cfg || !sourceDoc.files.length) return ''
+
+  const priorityOrder = cfg.sourceCategoriesPriority
+  const sorted = [...sourceDoc.files].sort((a, b) => {
+    const ai = priorityOrder.indexOf(a.category)
+    const bi = priorityOrder.indexOf(b.category)
+    return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi)
+  })
+
+  return sorted.map((f, idx) => {
+    const parts: string[] = [`[S${idx + 1}] ${f.fileName} · category=${f.category}`]
+    if (f.tables.length > 0) {
+      // Include top tables as markdown
+      const tablesToShow = f.tables.slice(0, 3)
+      for (const t of tablesToShow) {
+        if (t.sheetName) parts.push(`Sheet: ${t.sheetName}`)
+        if (t.title) parts.push(t.title)
+        const rows = t.rows.slice(0, 30)
+        parts.push(rows.map(r => `| ${r.join(' | ')} |`).join('\n'))
+      }
+    }
+    // Include first 3000 chars of text after tables
+    const textPreview = f.extractedText.slice(0, 3000)
+    if (textPreview.trim()) parts.push(textPreview)
+    return parts.join('\n')
+  }).join('\n\n---\n\n')
+}
 
 async function getDeliverableContext(
   section: string,
@@ -220,36 +289,37 @@ async function getDeliverableContext(
   wpNumber: string,
   deliverableTitle: string,
   additionalContext: string,
-  projTechSummary: string
-): Promise<{ chunks: string; summaries: string }> {
+  projTechSummary: string,
+  sourceDoc: SourceDoc | null,
+): Promise<{ chunks: string; summaries: string; sourceBlock: string }> {
   const cfg = SECTION_CONFIGS[section]
-  if (!cfg) return { chunks: '', summaries: '' }
+  if (!cfg) return { chunks: '', summaries: '', sourceBlock: '' }
 
-  const seeds = buildSeeds(section, projTechSummary, deliverableTitle)
-  const queryText = seeds[0]
+  const sourceBlock = sourceDoc ? buildSourceBlock(sourceDoc, section) : ''
 
-  // Embed and retrieve relevant chunks
-  const embedding = await embed(queryText)
-  const rawChunks = await searchChunks(embedding, queryText, 20, [projectCode])
+  // KB retrieval: skip entirely for iris_contribution (cross-project leak prevention)
+  let chunks = ''
+  if (cfg.maxKBChunks > 0) {
+    const seeds = buildSeeds(section, projTechSummary, deliverableTitle)
+    const queryText = seeds[0]
+    const embedding = await embed(queryText)
+    const rawChunks = await searchChunks(embedding, queryText, 20, [projectCode])
 
-  // P0-B: hard-filter to projectCode only — never fall back to corpus-wide
-  const projectNorm = projectCode.toUpperCase()
-  const scopedChunks = rawChunks.filter(c =>
-    typeof c.project_tag === 'string' && c.project_tag.toUpperCase() === projectNorm
-  )
-  if (rawChunks.length > 0 && scopedChunks.length === 0) {
-    console.warn(`[deliverable] retrieval returned ${rawChunks.length} chunks but none tagged ${projectCode} — using empty context`)
+    const projectNorm = projectCode.toUpperCase()
+    const scopedChunks = rawChunks.filter(c =>
+      typeof c.project_tag === 'string' && c.project_tag.toUpperCase() === projectNorm
+    )
+    if (rawChunks.length > 0 && scopedChunks.length === 0) {
+      console.warn(`[deliverable] retrieval returned ${rawChunks.length} chunks but none tagged ${projectCode} — using empty context`)
+    }
+
+    const reranked = scopedChunks.length > 0
+      ? (await rerankChunks(`${section} ${deliverableTitle}`, scopedChunks)).slice(0, cfg.maxKBChunks)
+      : []
+
+    chunks = reranked.map((c, i) => `[K${i + 1}] ${c.chunk_text}`).join('\n\n')
   }
 
-  const reranked = scopedChunks.length > 0
-    ? (await rerankChunks(`${section} ${deliverableTitle}`, scopedChunks)).slice(0, 8)
-    : []
-
-  const chunks = reranked.map((c, i) =>
-    `[${i + 1}] ${c.chunk_text}`
-  ).join('\n\n')
-
-  // Fetch project summaries for relevant dimensions
   const allSummaries = await fetchSummariesByDimension(cfg.summaryDims)
   const projectSummary = allSummaries.find(p => p.project_code.toUpperCase() === projectCode.toUpperCase())
   const summaries = projectSummary
@@ -259,7 +329,7 @@ async function getDeliverableContext(
         .join('\n\n')
     : ''
 
-  return { chunks, summaries }
+  return { chunks, summaries, sourceBlock }
 }
 
 // ─── DOCX BUILDER ─────────────────────────────────────────────────────────────
@@ -452,7 +522,8 @@ export async function POST(req: NextRequest) {
     additionalContext = '',
     outputType,
     generatedSections,
-    // New metadata fields
+    sourceDocId,
+    // Metadata fields
     leadBeneficiary,
     contributingBeneficiaries,
     dueMonth,
@@ -513,37 +584,67 @@ export async function POST(req: NextRequest) {
   }
 
   try {
+    // Resolve source doc (if sourceDocId provided)
+    let sourceDoc: SourceDoc | null = null
+    if (sourceDocId) {
+      sourceDoc = await getSource(sourceDocId)
+      if (!sourceDoc) {
+        return NextResponse.json({ error: 'source_cache_miss', message: 'Source material expired. Please re-upload.' }, { status: 410 })
+      }
+    }
+
     // Fetch project tech summary for dynamic seeds and framing
     const allSummaries = await fetchSummariesByDimension(['iris_technology', 'iris_role'])
     const projSummary = allSummaries.find(p => p.project_code.toUpperCase() === projectCode.toUpperCase())
     const projTechSummary = projSummary?.dimensions?.['iris_technology'] || ''
 
-    const [irisFraming, { chunks, summaries }] = await Promise.all([
+    const [irisFraming, { chunks, summaries, sourceBlock }] = await Promise.all([
       buildIrisFraming(projectCode),
-      getDeliverableContext(section, projectCode, wpNumber, deliverableTitle, additionalContext, projTechSummary),
+      getDeliverableContext(section, projectCode, wpNumber, deliverableTitle, additionalContext, projTechSummary, sourceDoc),
     ])
 
     const criteriaBlock = (acceptanceCriteria as string[] | undefined)?.length
-      ? `\nACCEPTANCE CRITERIA (address each one):\n${(acceptanceCriteria as string[]).map((c: string, i: number) => `${i + 1}. ${c}`).join('\n')}`
+      ? (acceptanceCriteria as string[]).map((c: string, i: number) => `${i + 1}. ${c}`).join('\n')
       : ''
 
-    // P0-C: split into system (instructions) and user (context + task) to prevent instruction-text regurgitation
+    // New prompt structure: task in system, data in user, anti-echo imperative at end
     const systemInstruction = [
       irisFraming,
       STYLE_ENFORCEMENT,
       HALLUCINATION_GUARD,
+      `\nSECTION: ${cfg.label}`,
+      `TARGET LENGTH: ${cfg.wordTarget} words (±20%)`,
+      `TASK: ${cfg.systemPrompt}`,
+      `\nEVIDENCE PRIORITY:`,
+      `1. PRIMARY SOURCE MATERIAL (uploaded by user) — preferred for all factual claims`,
+      `2. PROJECT SUMMARY — for framing only`,
+      `3. SECONDARY CONTEXT (IRIS KB) — only when source material is silent on a point`,
+      `4. ADDITIONAL CONTEXT — for scope clarification`,
+      `\nCITATION RULE: every numerical claim must be followed by [Sn] where n is the source file index. If no source supports a number, write [evidence required] instead of inventing.`,
     ].join('\n')
 
     const userContext = [
+      `=== METADATA ===`,
       `Deliverable: ${deliverableRef} — ${deliverableTitle}`,
       `Project: ${projectCode}  |  Work Package: ${wpNumber}`,
-      summaries ? `\nProject Summary:\n${summaries}` : '',
-      chunks ? `\nDocument Chunks (project ${projectCode} only):\n${chunks}` : '',
-      additionalContext ? `\nAdditional Context:\n${additionalContext}` : '',
-      section === 'conclusions' && criteriaBlock ? criteriaBlock : '',
-      `\nTask: ${cfg.systemPrompt.replace(HALLUCINATION_GUARD, '').trim()}`,
-      `Write approximately ${cfg.wordTarget} words.`,
-    ].filter(Boolean).join('\n')
+      ``,
+      `=== PRIMARY SOURCE MATERIAL ===`,
+      sourceBlock || '(none — rely on project summary and secondary context)',
+      ``,
+      `=== PROJECT SUMMARY ===`,
+      summaries || '(none)',
+      ``,
+      `=== SECONDARY CONTEXT (IRIS KB) ===`,
+      chunks || '(none)',
+      ``,
+      `=== ADDITIONAL CONTEXT ===`,
+      additionalContext || '(none)',
+      ``,
+      `=== ACCEPTANCE CRITERIA ===`,
+      criteriaBlock || '(none)',
+      ``,
+      `Begin the section now. Do not echo this metadata. Do not include any "Task:" or "Write approximately N words" lines. Output only the section body.`,
+    ].join('\n')
 
     const model = process.env.IRIS_DELIVERABLE_MODEL || process.env.IRIS_PROPOSAL_MODEL || 'gpt-4o'
     const maxTokens = cfg.wordTarget > 500 ? 2500 : 2000
@@ -566,17 +667,29 @@ export async function POST(req: NextRequest) {
 
     let text = await callModel()
 
-    // P0-A: degeneracy guard — retry with strong penalties if token loop detected
+    // P0-A: degeneracy guard
     if (isDegenerate(text)) {
       console.warn(`[deliverable] degeneracy detected in ${section} — retrying with frequency_penalty=0.6`)
       text = await callModel(0.6, 0.3)
       if (isDegenerate(text)) {
-        console.error(`[deliverable] degeneracy persists after retry — returning empty section`)
         text = `[Section generation failed: please regenerate ${cfg.label}]`
       }
     }
 
-    // P0-C: strip any leaked system-prompt artifacts
+    // Prompt-echo guard
+    const echo = detectPromptEcho(text)
+    if (echo.isEcho) {
+      console.warn(`[deliverable] prompt-echo detected for section=${section}: ${echo.matches.join(', ')}`)
+      text = await callModel(0.3, 0.6)
+      const echo2 = detectPromptEcho(text)
+      if (echo2.isEcho) {
+        return new NextResponse(
+          `[generation failed — model echoed prompt template; please regenerate or upload more source material]`,
+          { status: 200, headers: { 'Content-Type': 'text/plain', 'X-Generation-Warning': 'prompt-echo' } }
+        )
+      }
+    }
+
     text = stripSystemLeaks(text)
     text = stripPlaceholders(text)
     text = scrubForbidden(text)

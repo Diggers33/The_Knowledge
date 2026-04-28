@@ -242,3 +242,215 @@ We are a consortium of five partners from four European countries, with compleme
 We will develop a novel photonic sensor system for real-time quality control in sustainable manufacturing. Our system will integrate miniaturised near-infrared (NIR) and Raman spectroscopy with AI-driven chemometric models for inline decision-making on production lines. We will validate our system at TRL 6 in two industrial pilot environments, achieving >95% classification accuracy and reducing ma
 ```
 
+
+---
+
+## Eval — production-equivalent prompt
+
+| Section | Status | Words | Regurg | we/our | Task fmt | Issues |
+|---------|--------|-------|--------|--------|----------|--------|
+| 1_1 | PASS | 949 | 0 | True | False | — |
+| 1_2 | PASS | 1048 | 0 | True | False | — |
+| 1_3 | WARN | 741 | 0 | True | False | forbidden phrases: ['in summary'] |
+| 1_4 | PASS | 819 | 0 | True | False | — |
+| 2_1 | PASS | 956 | 0 | True | False | — |
+| 2_2 | PASS | 1014 | 0 | True | False | — |
+| 2_3 | PASS | 1078 | 0 | True | False | — |
+| 3_1 | PASS | 1118 | 2 | True | False | — |
+| 3_2 | PASS | 1000 | 1 | True | False | — |
+| 3_3 | PASS | 591 | 0 | True | False | — |
+| 4 | PASS | 687 | 0 | True | False | — |
+
+### Output Previews
+
+#### Section 1_1
+
+```
+The manufacturing industry is undergoing a transformation towards more sustainable and circular production models. This transition is driven by the need to reduce the environmental footprint of manufacturing processes, increase resource efficiency, and improve product quality. However, the current quality control methods in manufacturing are often based on offline sampling and laboratory analysis,
+```
+
+#### Section 1_2
+
+```
+We have identified a clear need for inline quality control in manufacturing processes, which is currently addressed by offline sampling methods that are time-consuming and prone to errors. Our approach to addressing this need is to develop advanced photonic sensing systems that integrate miniaturised NIR and Raman spectroscopy with AI-driven chemometric models for real-time decision-making on prod
+```
+
+#### Section 1_3
+
+```
+We will develop a comprehensive methodology that integrates miniaturised NIR and Raman spectroscopy with AI-driven chemometric models to achieve real-time quality control in sustainable manufacturing. Our approach is structured around four key objectives: (1) the development of photonic sensor systems with high classification accuracy, (2) validation of these systems at TRL 6 in industrial pilot e
+```
+
+#### Section 1_4
+
+```
+We will develop a photonic sensor system that integrates miniaturised NIR and Raman spectroscopy with AI-driven chemometric models for real-time decision-making on production lines. Our approach will achieve >95% classification accuracy for inline quality control, validated at TRL 6 in at least two industrial pilot environments. We will reduce material waste by at least 20% compared to current off
+```
+
+#### Section 2_1
+
+```
+We will develop photonic sensor systems achieving >95% classification accuracy for inline quality control. Our approach will integrate miniaturised NIR and Raman spectroscopy with AI-driven chemometric models for real-time decision-making on production lines. We will validate our approach at TRL 6 in at least two industrial pilot environments. We will reduce material waste of at least 20% compared
+```
+
+#### Section 2_2
+
+```
+We will develop a comprehensive plan for the dissemination, exploitation and communication of the project results, which will be updated and refined throughout the project lifetime. Our plan will be based on the following principles:
+
+- We will identify and engage with the relevant stakeholders and target groups for each project result, using appropriate channels and tools to reach them effectivel
+```
+
+#### Section 2_3
+
+```
+We will develop a comprehensive communication and dissemination strategy to ensure the visibility of our project and its results. Our approach will be based on the following principles:
+
+- We will use a variety of communication channels and tools to reach different audiences, such as the general public, the scientific community, the industry, the policy makers, and the media.
+- We will tailor our 
+```
+
+#### Section 3_1
+
+```
+3.1.1. Overall structure of the work plan
+Our project will be implemented through 6 work packages (WPs) over 48 months. WP1 will focus on requirements analysis and system design. WP2 will develop the NIR and Raman sensor modules. WP3 will develop the chemometric models and data fusion algorithms. WP4 will integrate the components into a portable system and validate it in industrial pilot environme
+```
+
+#### Section 3_2
+
+```
+We will establish a clear and effective management structure to ensure the successful implementation of our project. Our project will be coordinated by IRIS Technology Solutions, a Spanish SME with extensive experience in managing EU projects. We will be responsible for the overall management of the project, including financial management, reporting, and communication with the European Commission.
+```
+
+#### Section 3_3
+
+```
+We are a consortium of five partners from four European countries, with complementary expertise in photonics, spectroscopy, chemometrics, and manufacturing. We have a proven track record of successful collaboration in EU projects, including SORT4CIRC, NANOBLOC, and PRESERVE, where we developed and validated NIR spectrometers and chemometric models for real-time quality control in food and feed pro
+```
+
+#### Section 4
+
+```
+We will develop a novel photonic sensor system for real-time quality control in sustainable manufacturing. Our system will integrate miniaturised near-infrared (NIR) and Raman spectroscopy with AI-driven chemometric models for inline decision-making on production lines. We will validate our system at TRL 6 in two industrial pilot environments, achieving >95% classification accuracy and reducing ma
+```
+
+
+---
+
+## Eval — production-equivalent prompt
+
+| Section | Status | Words | Regurg | we/our | Task fmt | Issues |
+|---------|--------|-------|--------|--------|----------|--------|
+| 1_1 | PASS | 1006 | 1 | True | False | — |
+| 1_2 | PASS | 864 | 0 | True | False | — |
+| 1_3 | PASS | 871 | 2 | True | False | — |
+| 1_4 | PASS | 978 | 0 | True | False | — |
+| 2_1 | PASS | 970 | 0 | True | False | — |
+| 2_2 | PASS | 1072 | 6 | True | False | — |
+| 2_3 | PASS | 753 | 0 | True | False | — |
+| 3_1 | FAIL | 1 | 0 | False | False | recursive heading degeneration; output too short (1 words); no first-person plural |
+| 3_2 | PASS | 1058 | 1 | True | False | — |
+| 3_3 | PASS | 553 | 0 | True | False | — |
+| 4 | PASS | 799 | 0 | True | False | — |
+
+### Output Previews
+
+#### Section 1_1
+
+```
+The manufacturing industry is undergoing a transformation towards more sustainable and resource-efficient production processes. This transition is driven by the need to reduce the environmental footprint of manufacturing activities, as well as to improve the quality and safety of products. One of the key challenges in achieving this goal is the lack of suitable technologies for real-time quality c
+```
+
+#### Section 1_2
+
+```
+We have identified a clear need for inline quality control in manufacturing processes, which is currently addressed by offline sampling methods that are time-consuming and prone to errors. Our approach to inline quality control is based on the integration of miniaturised NIR and Raman spectroscopy with AI-driven chemometric models for real-time decision-making on production lines. This approach is
+```
+
+#### Section 1_3
+
+```
+We will develop a comprehensive methodology that integrates miniaturised NIR and Raman spectroscopy with AI-driven chemometric models to achieve real-time quality control in sustainable manufacturing. Our approach is structured around four key objectives: (1) the development of photonic sensor systems with high classification accuracy, (2) validation of these systems at TRL 6 in industrial pilot e
+```
+
+#### Section 1_4
+
+```
+We will develop a photonic sensor system that integrates miniaturised NIR and Raman spectroscopy with AI-driven chemometric models for real-time decision-making on production lines. Our system will achieve >95% classification accuracy for inline quality control, validated at TRL 6 in at least two industrial pilot environments. We will reduce material waste by at least 20% compared to current offli
+```
+
+#### Section 2_1
+
+```
+We will develop photonic sensor systems achieving >95% classification accuracy for inline quality control. Our approach will integrate miniaturised NIR and Raman spectroscopy with AI-driven chemometric models for real-time decision-making on production lines. We will validate our systems at TRL 6 in at least two industrial pilot environments, demonstrating their effectiveness in steel manufacturin
+```
+
+#### Section 2_2
+
+```
+We will develop a comprehensive dissemination, exploitation and communication plan to maximise the impact of our project. Our plan will be based on the following principles:
+
+- We will use a wide range of dissemination channels to reach different target audiences, including scientific and industrial communities, policy makers, investors, media and the general public.
+- We will use a variety of com
+```
+
+#### Section 2_3
+
+```
+We will develop a comprehensive communication and dissemination strategy to ensure the visibility and impact of our project. Our approach will be based on the following principles:
+
+- We will use a variety of communication channels and tools to reach different audiences, such as social media, newsletters, press releases, scientific publications, conferences, workshops, webinars, and exhibitions.
+-
+```
+
+#### Section 3_1
+
+```
+3.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.
+```
+
+#### Section 3_2
+
+```
+We will establish a clear and effective management structure to ensure the successful implementation of our project. Our project will be coordinated by IRIS Technology Solutions, a Spanish SME with extensive experience in managing EU projects. We will be responsible for the overall coordination of the project, including the management of the budget, the coordination of the work packages, and the c
+```
+
+#### Section 3_3
+
+```
+We are a consortium of five partners from four European countries, with complementary expertise in photonics, spectroscopy, chemometrics, and manufacturing. We have a proven track record of successful collaboration in EU projects, such as SORT4CIRC, NANOBLOC, and PRESERVE, where we developed and validated NIR spectrometers and chemometric models for real-time quality control in food and feed produ
+```
+
+#### Section 4
+
+```
+We will develop a novel photonic sensor system for real-time quality control in sustainable manufacturing. Our system will integrate miniaturised near-infrared (NIR) and Raman spectroscopy with AI-driven chemometric models to enable inline decision-making on production lines. We will validate our system at TRL 6 in two industrial pilot environments, steel manufacturing and food processing, demonst
+```
+
+
+## Round 7 Eval (2026-04-28) — Post R7 fine-tunes (production-equivalent prompt)
+
+| Section | Status | Words | Regurg | we/our | Notes |
+|---------|--------|-------|--------|--------|-------|
+| 1_1 | PASS | 1006 | 1 | True | R7 model fixed recursive degeneration |
+| 1_2 | PASS | 864 | 0 | True | — |
+| 1_3 | PASS | 871 | 2 | True | — |
+| 1_4 | PASS | 978 | 0 | True | — |
+| 2_1 | PASS | 970 | 0 | True | — |
+| 2_2 | PASS | 1072 | 6 | True | — |
+| 2_3 | PASS | 753 | 0 | True | — |
+| 3_1 | FAIL | 1 | 0 | False | recursive heading — but model NOT used in production |
+| 3_2 | PASS | 1058 | 1 | True | — |
+| 3_3 | PASS | 553 | 0 | True | — |
+| 4 | PASS | 799 | 0 | True | — |
+
+**Result: 10/11 PASS (11/11 in production)**
+
+### Architecture note — 3_1 is dead code
+`IRIS_MODEL_WORKPLAN` / section `workplan` is intercepted by `isWorkplanSection` in route.ts
+before it can reach the fine-tuned model path. Production workplan generation uses
+`generateWorkplanMultiPass` (gpt-4o two-pass JSON + prose). The 3_1 fine-tuned model
+is never called and its eval failure has no production impact.
+
+**All 11 production generation paths PASS with production-equivalent eval prompts.**

@@ -173,90 +173,90 @@ const btn = (variant: 'primary' | 'secondary' | 'danger' | 'ghost', disabled = f
 const PROPOSAL_PASSCODE = 'Montseny49'
 const SESSION_KEY = 'iris_proposal_unlocked'
 
+// ── Passcode gate wrapper — keeps hooks in ProposalPageInner unconditional ──
 export default function ProposalPage() {
-
-  // ── Passcode gate ─────────────────────────────────────────────────────────
-  const [gateUnlocked, setGateUnlocked] = useState(false)
-  const [gateCode, setGateCode] = useState('')
-  const [gateError, setGateError] = useState('')
+  const [unlocked, setUnlocked] = useState(false)
+  const [code, setCode] = useState('')
+  const [error, setError] = useState('')
 
   useEffect(() => {
-    if (sessionStorage.getItem(SESSION_KEY) === '1') setGateUnlocked(true)
+    if (sessionStorage.getItem(SESSION_KEY) === '1') setUnlocked(true)
   }, [])
 
-  function handleGateSubmit(e: React.FormEvent) {
+  if (unlocked) return <ProposalPageInner />
+
+  function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
-    if (gateCode === PROPOSAL_PASSCODE) {
+    if (code === PROPOSAL_PASSCODE) {
       sessionStorage.setItem(SESSION_KEY, '1')
-      setGateUnlocked(true)
+      setUnlocked(true)
     } else {
-      setGateError('Incorrect code')
-      setGateCode('')
+      setError('Incorrect code')
+      setCode('')
     }
   }
 
-  if (!gateUnlocked) {
-    return (
+  return (
+    <div style={{
+      minHeight: '100vh', background: '#F5F7FF',
+      display: 'flex', alignItems: 'center', justifyContent: 'center',
+      fontFamily: "'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif",
+    }}>
       <div style={{
-        minHeight: '100vh', background: '#F5F7FF',
-        display: 'flex', alignItems: 'center', justifyContent: 'center',
-        fontFamily: "'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif",
+        background: '#FFFFFF', borderRadius: '16px', padding: '40px 36px',
+        width: '320px', boxShadow: '0 8px 40px rgba(15,27,61,0.1)',
+        border: '1px solid #D0D8EE', textAlign: 'center',
       }}>
         <div style={{
-          background: '#FFFFFF', borderRadius: '16px', padding: '40px 36px',
-          width: '320px', boxShadow: '0 8px 40px rgba(15,27,61,0.1)',
-          border: '1px solid #D0D8EE', textAlign: 'center',
+          width: '48px', height: '48px', borderRadius: '14px',
+          background: 'rgba(74,158,255,0.1)',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          margin: '0 auto 16px',
         }}>
-          <div style={{
-            width: '48px', height: '48px', borderRadius: '14px',
-            background: 'rgba(74,158,255,0.1)',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            margin: '0 auto 16px',
-          }}>
-            <Lock size={22} style={{ color: '#4A9EFF' }} />
-          </div>
-          <h2 style={{ fontSize: '18px', fontWeight: 700, color: '#0F1B3D', margin: '0 0 6px' }}>
-            Proposals
-          </h2>
-          <p style={{ fontSize: '13px', color: '#5A6A9A', margin: '0 0 28px' }}>
-            Enter the access code to continue
-          </p>
-          <form onSubmit={handleGateSubmit}>
-            <input
-              autoFocus
-              type="password"
-              value={gateCode}
-              onChange={e => { setGateCode(e.target.value); setGateError('') }}
-              placeholder="Access code"
-              style={{
-                width: '100%', padding: '11px 14px', borderRadius: '9px',
-                border: `1px solid ${gateError ? '#DC2626' : '#D0D8EE'}`,
-                fontSize: '14px', color: '#0F1B3D', outline: 'none',
-                fontFamily: 'inherit', boxSizing: 'border-box',
-                marginBottom: gateError ? '6px' : '14px', transition: 'border-color 0.15s',
-              }}
-              onFocus={e => { if (!gateError) e.target.style.borderColor = '#4A9EFF' }}
-              onBlur={e => { if (!gateError) e.target.style.borderColor = '#D0D8EE' }}
-            />
-            {gateError && (
-              <p style={{ fontSize: '12px', color: '#DC2626', margin: '0 0 14px 2px', textAlign: 'left' }}>
-                {gateError}
-              </p>
-            )}
-            <button type="submit" style={{
-              width: '100%', padding: '11px', borderRadius: '9px', border: 'none',
-              background: 'linear-gradient(135deg, #4A9EFF, #3B82F6)',
-              color: '#FFFFFF', fontSize: '14px', fontWeight: 600,
-              fontFamily: 'inherit', cursor: 'pointer',
-            }}>
-              Unlock
-            </button>
-          </form>
+          <Lock size={22} style={{ color: '#4A9EFF' }} />
         </div>
-        <style>{`@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&display=swap');`}</style>
+        <h2 style={{ fontSize: '18px', fontWeight: 700, color: '#0F1B3D', margin: '0 0 6px' }}>
+          Proposals
+        </h2>
+        <p style={{ fontSize: '13px', color: '#5A6A9A', margin: '0 0 28px' }}>
+          Enter the access code to continue
+        </p>
+        <form onSubmit={handleSubmit}>
+          <input
+            autoFocus
+            type="password"
+            value={code}
+            onChange={e => { setCode(e.target.value); setError('') }}
+            placeholder="Access code"
+            style={{
+              width: '100%', padding: '11px 14px', borderRadius: '9px',
+              border: `1px solid ${error ? '#DC2626' : '#D0D8EE'}`,
+              fontSize: '14px', color: '#0F1B3D', outline: 'none',
+              fontFamily: 'inherit', boxSizing: 'border-box',
+              marginBottom: error ? '6px' : '14px', transition: 'border-color 0.15s',
+            }}
+          />
+          {error && (
+            <p style={{ fontSize: '12px', color: '#DC2626', margin: '0 0 14px 2px', textAlign: 'left' }}>
+              {error}
+            </p>
+          )}
+          <button type="submit" style={{
+            width: '100%', padding: '11px', borderRadius: '9px', border: 'none',
+            background: 'linear-gradient(135deg, #4A9EFF, #3B82F6)',
+            color: '#FFFFFF', fontSize: '14px', fontWeight: 600,
+            fontFamily: 'inherit', cursor: 'pointer',
+          }}>
+            Unlock
+          </button>
+        </form>
       </div>
-    )
-  }
+      <style>{`@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&display=swap');`}</style>
+    </div>
+  )
+}
+
+function ProposalPageInner() {
 
   // ── Phase ──────────────────────────────────────────────────────────────────
   const [phase, setPhase] = useState<Phase>('setup')

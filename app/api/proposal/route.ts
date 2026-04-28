@@ -107,6 +107,27 @@ DEGENERACY GUARD: If at any point you detect yourself entering a word or phrase 
 UNIQUENESS REQUIREMENT: No sentence or 6+ word phrase may appear more than once in your output. Before writing each sentence, verify it does not restate something already written.
 `.trim()
 
+// ─── FILLER PHRASE REPLACEMENT PASS (P2-A) ───────────────────────────────────
+// Applied post-generation. Replaces common filler terms with precise alternatives.
+const FILLER_REPLACEMENTS: Array<[RegExp, string]> = [
+  [/\bcutting[- ]edge\b/gi,                      'advanced'],
+  [/\bleverag(?:e|es|ing|ed)\b/gi,               'use'],
+  [/\bseamless(?:ly)?\b/gi,                      'integrated'],
+  [/\brevolutionar(?:y|ily)\b/gi,                'significant'],
+  [/\bgame[- ]chang(?:er|ing)\b/gi,              'major advance'],
+  [/\bsynerg(?:y|ies|istic|istically)\b/gi,      'complementarity'],
+  [/\brobust(?:ly|ness)?\b/gi,                   'reliable'],
+  [/\bstate[- ]of[- ]the[- ]art\b/gi,            'state of research'],
+]
+
+function applyFillerReplacements(text: string): string {
+  let result = text
+  for (const [re, replacement] of FILLER_REPLACEMENTS) {
+    result = result.replace(re, replacement)
+  }
+  return result
+}
+
 // ─── MULTI-PASS SECTION SCAFFOLDS ────────────────────────────────────────────
 // Canonical subsection structure for long sections. Each entry defines the
 // anchor ID, display title (used as ### heading), and per-subsection word target.
@@ -1710,16 +1731,36 @@ function buildPartnerGuardPrompt(brief: any): string {
 const FABRICATED_ACRONYM_RE = /\b([A-Z]{3,6})\b/g
 
 function scrubFabricatedAcronyms(text: string, allowlist: Set<string>): string {
-  // Replace any uppercase 3–6-letter acronym not in the allowlist with [PARTNER]
-  // Only fire when the acronym looks like an organisation name (surrounded by whitespace/punctuation,
-  // not part of a word, and appears in a context suggestive of partner attribution).
-  // We gate on "(Lead:" or "(Partners:" context to avoid false positives in general prose.
+  // Gate 1: (Lead: X) / (Partners: X) attribution patterns
   const leadPattern = /(\((?:Lead|Partners?|Coordinator):?\s*)([A-Z]{3,6})(\b)/g
-  return text.replace(leadPattern, (_m, pre, acronym, post) => {
+  let result = text.replace(leadPattern, (_m, pre, acronym, post) => {
     if (allowlist.has(acronym)) return _m
-    console.warn(`[partner-guard] fabricated acronym "${acronym}" replaced with TBC`)
+    console.warn(`[partner-guard] fabricated acronym in lead attribution "${acronym}" replaced with TBC`)
     return `${pre}TBC${post}`
   })
+
+  // Gate 2: [ACRONYM] square-bracket tag patterns (KER lists, deliverable tags, etc.)
+  const tagPattern = /\[([A-Z]{2,6})\]/g
+  result = result.replace(tagPattern, (_m, acronym) => {
+    if (allowlist.has(acronym)) return _m
+    // Don't strip common non-partner bracket uses
+    const RESERVED = new Set(['N', 'PU', 'CO', 'CI', 'R', 'P', 'D', 'M', 'TBC', 'WP', 'EU', 'EC'])
+    if (RESERVED.has(acronym)) return _m
+    if (/^\d+$/.test(acronym)) return _m
+    console.warn(`[partner-guard] fabricated acronym in tag "[${acronym}]" removed`)
+    return ''
+  })
+
+  return result
+}
+
+const LITERAL_PLACEHOLDER_RE = /\b(XYZ|ABC|partner\s+X|partner\s+Y|partner\s+Z|ORG\s+X|ACRONYM)\b/gi
+
+function stripLiteralPlaceholders(text: string): string {
+  const found = text.match(LITERAL_PLACEHOLDER_RE)
+  if (!found) return text
+  found.forEach(p => console.warn(`[placeholder-guard] literal placeholder stripped: "${p}"`))
+  return text.replace(LITERAL_PLACEHOLDER_RE, 'TBC')
 }
 
 // ─── PERSONNEL FABRICATION VALIDATORS (P0) ───────────────────────────────────
@@ -2265,7 +2306,10 @@ Instructions:
     const sep = `|---------|---------|${wps.map(() => '-----').join('|')}|-----------|`
     const partnerTotals: number[] = []
     const rows = allPartnersForPM.map(partner => {
-      const fullName = acronymToName[String(partner)] || String(partner)
+      const partnerStr = String(partner)
+      const fullName = acronymToName[partnerStr]
+        || (brief?.partners || []).find((p: any) => p.country === partnerStr || p.name === partnerStr)?.name
+        || partnerStr
       const cells = wps.map((wp: any) => {
         const dur = Math.max(1, ((wp.endMonth || 12) - (wp.startMonth || 1) + 1))
         if (wp.lead === partner) return String(Math.round(dur * 0.8))
@@ -2702,7 +2746,7 @@ Name at most 5 channels; at most 2 social media platforms (e.g. LinkedIn + X/Twi
 CONSTRAINTS: Total 2,000 words. Do not repeat content from §2.1.`,
 
       // 2.3 Summary (impact canvas — 250 words max)
-      summary: `Write Section 2.3 Summary as a structured IMPACT CANVAS — maximum 250 words.
+      summary: `Write Section 2.3 Summary as a structured IMPACT CANVAS — maximum 300 words.
 
 Use exactly these four labelled blocks (bold label, then 1–3 sentences each):
 
@@ -2714,7 +2758,7 @@ Use exactly these four labelled blocks (bold label, then 1–3 sentences each):
 
 **Dissemination, exploitation and communication activities:** In 2–3 sentences: key dissemination channels, exploitation pathway, and main communication audiences.
 
-CONSTRAINTS: Maximum 250 words total. No headings other than the four bold labels. No tables. Write in first-person plural. This is a summary — do not introduce new content not covered in §2.1 and §2.2.`,
+CONSTRAINTS: Maximum 300 words total. No headings other than the four bold labels. No tables. Write in first-person plural. This is a summary — do not introduce new content not covered in §2.1 and §2.2.`,
 
       // 3.2 Capacity of participants and consortium as a whole (replaces management + consortium)
       capacity: `Write Section 3.2 "Capacity of participants and consortium as a whole" structured as follows:
@@ -2935,6 +2979,8 @@ LENGTH DISCIPLINE: The section MUST reach the minimum word count stated above. I
               const allowlist = buildPartnerAllowlist(brief)
               fullGeneratedText = scrubFabricatedAcronyms(fullGeneratedText, allowlist)
             }
+            fullGeneratedText = stripLiteralPlaceholders(fullGeneratedText)
+            fullGeneratedText = applyFillerReplacements(fullGeneratedText)
 
             // P0 personnel fabrication guard for capacity sections
             if (normalizedSection === 'capacity') {
@@ -3506,6 +3552,8 @@ ${fullGeneratedText}`
           if (brief?.partners?.length) {
             finalText = scrubFabricatedAcronyms(finalText, buildPartnerAllowlist(brief))
           }
+          finalText = stripLiteralPlaceholders(finalText)
+          finalText = applyFillerReplacements(finalText)
 
           // Stream the (potentially cleaned) main text
           console.log(JSON.stringify({ event: 'section_gen_complete', path: 'single', section: normalizedSection, model, wordCount: finalText.split(/\s+/).filter(Boolean).length, targetWords, lengthRetries: lengthRetryCount, contaminated: !verdict.ok, contaminationCategory: verdict.category ?? null }))

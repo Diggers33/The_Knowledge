@@ -125,9 +125,15 @@ export default function EvaluatePage() {
 
   async function extractPdfMultimodal(file: File): Promise<ProposalDocument> {
     const arrayBuffer = await file.arrayBuffer()
+    // Each pdfjs.getDocument() call detaches the ArrayBuffer it receives, so we
+    // must pass distinct copies to each of the three extraction passes.
+    const ab1 = arrayBuffer.slice(0)
+    const ab2 = arrayBuffer.slice(0)
+    const ab3 = arrayBuffer.slice(0)
+
     const pdfjsLib = await import('pdfjs-dist')
     pdfjsLib.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.mjs'
-    const pdf = await pdfjsLib.getDocument({ data: new Uint8Array(arrayBuffer) }).promise
+    const pdf = await pdfjsLib.getDocument({ data: new Uint8Array(ab1) }).promise
     const pages: string[] = []
     for (let i = 1; i <= pdf.numPages; i++) {
       const page = await pdf.getPage(i)
@@ -138,8 +144,8 @@ export default function EvaluatePage() {
 
     const { extractTablesFromPdf } = await import('@/lib/evaluator/pdf-structured')
     const { detectAndRasteriseFigures } = await import('@/lib/evaluator/figure-detect')
-    const tables = await extractTablesFromPdf(arrayBuffer)
-    const figures = await detectAndRasteriseFigures(arrayBuffer)
+    const tables = await extractTablesFromPdf(ab2)
+    const figures = await detectAndRasteriseFigures(ab3)
 
     return { text, tables, figures, meta: { pageCount: pdf.numPages, extractionVersion: 'v2', isDocx: false } }
   }

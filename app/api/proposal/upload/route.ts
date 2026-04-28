@@ -42,8 +42,6 @@ export async function POST(req: NextRequest) {
       const result = await mammoth.extractRawText({ buffer })
       text = result.value
     } else if (filename.endsWith('.pdf')) {
-      // Use the inner module directly — pdf-parse/index.js runs a test on load
-      // that references DOMMatrix (a browser API) and crashes in Node/Edge runtime.
       // eslint-disable-next-line @typescript-eslint/no-require-imports
       const pdfParse = require('pdf-parse/lib/pdf-parse.js')
       const result = await pdfParse(buffer)

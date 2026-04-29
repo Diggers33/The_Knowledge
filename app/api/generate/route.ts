@@ -983,6 +983,17 @@ async function buildPptx(structure: any, chunks: any[] = []): Promise<Buffer> {
   }
   const F = defFont
 
+  const slideNumOpts = { x: 12.5, y: 7.1, w: 0.7, h: 0.3, fontSize: 9, color: '334D5C', fontFace: F, align: 'right' as const }
+  pptx.defineSlideMaster({ title: 'IRIS_CONTENT', background: { color: IRIS_DARK }, slideNumber: slideNumOpts })
+  pptx.defineSlideMaster({ title: 'IRIS_SECTION', background: { color: '0D3A45' }, slideNumber: { ...slideNumOpts, color: IRIS_CYAN } })
+  pptx.defineSlideMaster({ title: 'IRIS_BIG_STAT', background: { color: IRIS_DARK }, slideNumber: slideNumOpts })
+
+  function masterFor(layout: string): string {
+    if (layout === 'section_break') return 'IRIS_SECTION'
+    if (layout === 'big_stat') return 'IRIS_BIG_STAT'
+    return 'IRIS_CONTENT'
+  }
+
   function addHeader(s: any, title: string) {
     s.background = { fill: t.bg }
     s.addShape(pptx.ShapeType.rect, { x: 0, y: 0, w: 13.33, h: 0.9, fill: { color: t.headerBg }, line: { color: t.headerBg } })
@@ -1007,7 +1018,7 @@ async function buildPptx(structure: any, chunks: any[] = []): Promise<Buffer> {
   }
 
   // Title slide
-  const titleSlide = pptx.addSlide()
+  const titleSlide = pptx.addSlide({ masterName: 'IRIS_CONTENT' })
   titleSlide.background = { fill: t.bg }
   titleSlide.addShape(pptx.ShapeType.rect, { x: 0, y: 4.8, w: 13.33, h: 0.05, fill: { color: t.accent }, line: { color: t.accent } })
   titleSlide.addText(structure.title || 'IRIS Report', { x: 0.6, y: 1.5, w: 12, h: 1.5, fontSize: 38, bold: true, color: t.white, fontFace: F })
@@ -1027,7 +1038,7 @@ async function buildPptx(structure: any, chunks: any[] = []): Promise<Buffer> {
       const chunks: string[][][] = []
       for (let i = 0; i < allRows.length; i += MAX_ROWS_PER_SLIDE) chunks.push(allRows.slice(i, i + MAX_ROWS_PER_SLIDE))
       chunks.forEach((rowChunk, ci) => {
-        const s = pptx.addSlide()
+        const s = pptx.addSlide({ masterName: 'IRIS_CONTENT' })
         const pageLabel = chunks.length > 1 ? ` (${ci+1}/${chunks.length})` : ''
         addHeader(s, (slide.title || '') + pageLabel)
         let tableY = 1.04
@@ -1040,7 +1051,7 @@ async function buildPptx(structure: any, chunks: any[] = []): Promise<Buffer> {
       continue
     }
 
-    const s = pptx.addSlide()
+    const s = pptx.addSlide({ masterName: masterFor(layout) })
     addHeader(s, slide.title || '')
 
     if (layout === 'section_break') {
@@ -1095,7 +1106,7 @@ async function buildPptx(structure: any, chunks: any[] = []): Promise<Buffer> {
 
   const dedupedChunksPptx = deduplicateChunks(chunks)
   if (dedupedChunksPptx.length > 0) {
-    const srcSlide = pptx.addSlide()
+    const srcSlide = pptx.addSlide({ masterName: 'IRIS_CONTENT' })
     srcSlide.background = { fill: t.bg }
     srcSlide.addShape(pptx.ShapeType.rect, { x: 0, y: 0, w: 13.33, h: 0.9, fill: { color: t.headerBg }, line: { color: t.headerBg } })
     srcSlide.addShape(pptx.ShapeType.rect, { x: 0, y: 0.87, w: 13.33, h: 0.04, fill: { color: t.accent }, line: { color: t.accent } })
@@ -1105,6 +1116,10 @@ async function buildPptx(structure: any, chunks: any[] = []): Promise<Buffer> {
     )
     srcSlide.addText(srcLines, { x: 0.4, y: 1.0, w: 12.5, h: 6.2, valign: 'top', paraSpaceAfter: 4 })
     srcSlide.addText('IRIS Technology Solutions | Confidential', { x: 0.4, y: 7.1, w: 10, h: 0.3, fontSize: 9, color: t.subAccent, fontFace: F })
+    const srcFileSet = new Set(dedupedChunksPptx.map((c: any) => cleanSourceFile(c.source_file)))
+    const srcFileList = [...srcFileSet].slice(0, 5).join(', ')
+    const avgSim = Math.round(dedupedChunksPptx.reduce((a: number, c: any) => a + c.similarity, 0) / dedupedChunksPptx.length * 100)
+    srcSlide.addNotes(`This deck draws on ${dedupedChunksPptx.length} retrieved passage${dedupedChunksPptx.length === 1 ? '' : 's'} across ${srcFileSet.size} source document${srcFileSet.size === 1 ? '' : 's'} (${srcFileList}${srcFileSet.size > 5 ? ', and others' : ''}). Average semantic similarity to the query: ${avgSim}%. All claims on the preceding slides are grounded in these passages — refer to the page numbers above for verification.`)
   }
 
   return await pptx.write({ outputType: 'nodebuffer' }) as Buffer

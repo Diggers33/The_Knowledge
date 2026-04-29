@@ -750,6 +750,21 @@ function decodeStructure(obj: any): any {
   return obj
 }
 
+function diversifyChunks(chunks: any[], capPerFilePage = 2, target = 10): any[] {
+  const seen: Record<string, number> = {}
+  const primary: any[] = []
+  const overflow: any[] = []
+  for (const c of chunks) {
+    const key = `${c.source_file}::p${c.page_number}`
+    seen[key] = seen[key] || 0
+    if (seen[key] < capPerFilePage) { primary.push(c); seen[key]++ }
+    else overflow.push(c)
+    if (primary.length >= target) break
+  }
+  while (primary.length < target && overflow.length > 0) primary.push(overflow.shift())
+  return primary
+}
+
 function checkLayoutDiversity(structure: any): { ok: boolean; reason?: string } {
   const slides = Array.isArray(structure?.slides) ? structure.slides : []
   if (slides.length < 6) return { ok: true }
@@ -821,7 +836,7 @@ async function buildDocx(structure: any, chunks: any[] = []): Promise<Buffer> {
   const children: any[] = []
 
   // Pre-compute deduped chunks and build footnote definitions upfront
-  const dedupedChunks = deduplicateChunks(chunks)
+  const dedupedChunks = diversifyChunks(deduplicateChunks(chunks), 2, 10)
   const fnLimit = Math.min(dedupedChunks.length, 20)
   const footnoteMap: Record<number, { children: any[] }> = {}
   for (let i = 0; i < fnLimit; i++) {
@@ -1104,7 +1119,7 @@ async function buildPptx(structure: any, chunks: any[] = []): Promise<Buffer> {
     s.addText('IRIS Technology Solutions | Confidential', { x: 0.4, y: 7.1, w: 10, h: 0.3, fontSize: 9, color: t.subAccent, fontFace: F })
   }
 
-  const dedupedChunksPptx = deduplicateChunks(chunks)
+  const dedupedChunksPptx = diversifyChunks(deduplicateChunks(chunks), 2, 10)
   if (dedupedChunksPptx.length > 0) {
     const srcSlide = pptx.addSlide({ masterName: 'IRIS_CONTENT' })
     srcSlide.background = { fill: t.bg }

@@ -5,11 +5,36 @@
 
 import { NextRequest, NextResponse } from 'next/server'
 import Groq from 'groq-sdk'
-import { embed, rerankChunks, querySummaries, fetchSummariesByDimension, searchChunks, detectProjectTags, detectGraphIntent, queryGraph, queryStructuredFacts, fetchSynthesisContext, buildTechTableData } from '@/lib/iris-kb'
+import { embed, embedBatch, rerankChunks, querySummaries, fetchSummariesByDimension, searchChunks, detectProjectTags, detectGraphIntent, queryGraph, queryStructuredFacts, fetchSynthesisContext, buildTechTableData } from '@/lib/iris-kb'
 
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY! })
 
 // ─── QUERY REWRITING ─────────────────────────────────────────────────────────
+
+function cleanSourceFile(name: string): string {
+  if (!name) return name
+  return name
+    .replace(/^TERMINATED__/i, '')
+    .replace(/^TERM[-_]/i, '')
+    .replace(/^PB[A-Z0-9]{2,6}[-\s]+/i, '')
+    .replace(/^\d{2,4}[-\s]+/, '')
+    .trim()
+}
+
+function diversifyChunks(chunks: any[], capPerFilePage = 2, target = 8): any[] {
+  const seen: Record<string, number> = {}
+  const primary: any[] = []
+  const overflow: any[] = []
+  for (const c of chunks) {
+    const key = `${c.source_file}::p${c.page_number}`
+    seen[key] = seen[key] || 0
+    if (seen[key] < capPerFilePage) { primary.push(c); seen[key]++ }
+    else overflow.push(c)
+    if (primary.length >= target) break
+  }
+  while (primary.length < target && overflow.length > 0) primary.push(overflow.shift())
+  return primary
+}
 
 async function rewriteQuery(query: string, history: any[]): Promise<string> {
   if (history.length === 0) return query
@@ -102,10 +127,12 @@ async function fetchProjectSummaries(query: string): Promise<string> {
 
     // Find projects whose name or code appears in the query
     const q = query.toLowerCase()
+    const qWords = q.split(/\s+/).filter(w => w.length >= 4)
     const matched = all.filter(p => {
-      const name = (p.project_name || '').toLowerCase().replace(/^[\w\d]+-\s*/, '')
-      const code = (p.project_code || '').toLowerCase()
-      return q.includes(name) || q.includes(code)
+      const name = (p.project_name || '').toLowerCase().replace(/^[\w\d]+-\s*/, '').replace(/^term[-_]/i, '')
+      const code = (p.project_code || '').toLowerCase().replace(/^term-/i, '')
+      return q.includes(name) || q.includes(code) ||
+        qWords.some(w => name.includes(w) || code.includes(w))
     })
 
     if (matched.length === 0) return ''
@@ -327,8 +354,10 @@ export async function POST(req: NextRequest) {
 
     // Capability queries like "Does IRIS have experience with X?" need summaries even on specific path
     // because project tags (e.g. "CAR-T") can suppress the broad flag despite no real project being named.
-    const isCapabilityQuery = projectTags.length > 0 && projectTags.every(t => t.length <= 5)
-      && /\b(experience|expertise|capabilities?|background|has iris (worked|used|applied|developed)|does iris (have|use|work)|iris.{0,15}(experience|expertise|background|track.?record))\b/i.test(searchQuery)
+    const isCapabilityQuery = (
+      projectTags.length > 0 && projectTags.every(t => t.length <= 5) &&
+      /\b(experience|expertise|capabilities?|background|has iris (worked|used|applied|developed)|does iris (have|use|work)|iris.{0,15}(experience|expertise|background|track.?record))\b/i.test(searchQuery)
+    ) || /\b(does iris (have|offer|use|know|work|support)|has iris (ever|worked|used|tried|developed)|iris.{0,20}(experience|expertise|background|capabilit|track.?record|familiarity|know.?how|speciali[sz]e?)|can iris)\b/i.test(searchQuery)
     const isNumerical = detectNumericalIntent(searchQuery) || detectNumericalIntent(query)
     const isSynthesis = detectSynthesisIntent(searchQuery) || detectSynthesisIntent(query)
     console.log(`Query type: ${broad ? 'BROAD' : 'SPECIFIC'}${projectTags.length ? ' [project: ' + projectTags.join(',') + ']' : ''}${isNumerical ? ' [numerical]' : ''}${isSynthesis ? ' [synthesis]' : ''}`)
@@ -363,29 +392,43 @@ export async function POST(req: NextRequest) {
       }
     }
 
-    // HyDE: embed hypothetical answer for specific queries
-    const embedText = broad
-      ? searchQuery
-      : await generateHypotheticalAnswer(searchQuery)
-
-    // Run graph intent on original query too — rewriting can strip "how many" etc.
+    // Graph intent: check both original and rewritten query
     const graphIntent = detectGraphIntent(query) !== null && detectGraphIntent(query).type !== 'none'
       ? detectGraphIntent(query)
       : detectGraphIntent(searchQuery)
     console.log('Graph intent:', graphIntent.type)
 
-    const [embedding, summaryContext, projectSummaryContext, graphContext, structuredFactsContext] = await Promise.all([
-      embed(embedText),
+    // Run HyDE + all DB lookups in parallel
+    const [hydeText, summaryContext, projectSummaryContext, graphContext, structuredFactsContext] = await Promise.all([
+      !broad ? generateHypotheticalAnswer(searchQuery) : Promise.resolve(''),
       (broad || isCapabilityQuery) ? querySummaries(searchQuery) : Promise.resolve(''),
       !broad ? fetchProjectSummaries(searchQuery) : Promise.resolve(''),
       graphIntent.type !== 'none' ? queryGraph(graphIntent) : Promise.resolve(''),
-      isNumerical ? queryStructuredFacts(searchQuery, projectTags.length > 0 ? projectTags : undefined) : Promise.resolve('')
+      (isNumerical || projectTags.length > 0) ? queryStructuredFacts(searchQuery, projectTags.length > 0 ? projectTags : undefined) : Promise.resolve('')
     ])
 
     if (projectTags.length) console.log('Project tags:', projectTags)
     if (structuredFactsContext) console.log(`Structured facts: ${structuredFactsContext.split('\n').length} lines`)
 
-    const rawChunks = await searchChunks(embedding, searchQuery, 20, projectTags)
+    // Dual-embed for specific queries: HyDE + raw query in one batch call for wider recall
+    let primaryEmb: number[]
+    let supplementalEmb: number[] | null = null
+    if (broad) {
+      primaryEmb = await embed(searchQuery)
+    } else {
+      const embs = await embedBatch([hydeText, searchQuery])
+      primaryEmb = embs[0]
+      supplementalEmb = embs[1]
+    }
+
+    // Retrieval: HyDE path + optional raw-query path (merged, deduplicated)
+    const hydeResults = await searchChunks(primaryEmb, searchQuery, 20, projectTags)
+    let rawChunks = hydeResults
+    if (supplementalEmb) {
+      const rawResults = await searchChunks(supplementalEmb, searchQuery, 15, projectTags)
+      const seen = new Set(hydeResults.map((c: any) => c.id))
+      rawChunks = [...hydeResults, ...rawResults.filter((c: any) => !seen.has(c.id))]
+    }
 
     // When project tags are detected, prefer chunks whose source_file/folder contain
     // the tag — prevents TERMINATED/unrelated files from polluting sources on fallback.
@@ -404,7 +447,7 @@ export async function POST(req: NextRequest) {
     console.log(`Chunks: ${rawChunks.length} retrieved, ${filtered.length} after rerank`)
 
     const chunkContext = filtered.map((c: any, i: number) =>
-      `[Source ${i + 1} | ${c.source_file} | ${c.folder} | p${c.page_number}]\n${c.parent_text || c.chunk_text}`
+      `[Source ${i + 1} | ${cleanSourceFile(c.source_file)} | ${c.folder} | p${c.page_number}]\n${c.parent_text || c.chunk_text}`
     ).join('\n\n---\n\n')
 
     // Build context: structured facts first (ground truth numbers), then graph, then summaries, then chunks
@@ -456,8 +499,8 @@ Rules:
     // When a specific project is detected but the fallback unfiltered search
     // returned unrelated (e.g. TERMINATED) files, exclude them from sources
     // so the client/tests don't see misleading citations.
-    const sourcesRaw = filtered.map((c: any) => ({
-      file: c.source_file,
+    const sourcesRaw = diversifyChunks(filtered, 2, 8).map((c: any) => ({
+      file: cleanSourceFile(c.source_file),
       folder: c.folder,
       page: c.page_number,
       similarity: c.similarity

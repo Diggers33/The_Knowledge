@@ -337,6 +337,25 @@ function computeConfidence(opts: {
   return { level, signals, topRerank, topSimilarity, sourceCount: chunks.length, hasStructuredFacts, hasGraphFacts, hasSummaries }
 }
 
+// ─── SSE HELPER ──────────────────────────────────────────────────────────────
+
+const enc = new TextEncoder()
+
+function sseResponse(producer: (send: (data: object) => void) => Promise<void>): Response {
+  const stream = new ReadableStream({
+    async start(controller) {
+      const send = (data: object) => controller.enqueue(enc.encode(`data: ${JSON.stringify(data)}\n\n`))
+      try { await producer(send) } catch (e: any) {
+        try { send({ type: 'error', message: e.message }) } catch { /* ignore write after close */ }
+      }
+      controller.close()
+    }
+  })
+  return new Response(stream, {
+    headers: { 'Content-Type': 'text/event-stream', 'Cache-Control': 'no-cache', 'Connection': 'keep-alive' }
+  })
+}
+
 // ─── POST ─────────────────────────────────────────────────────────────────────
 
 export async function POST(req: NextRequest) {
@@ -367,12 +386,11 @@ export async function POST(req: NextRequest) {
       console.log('Routing to table generation pipeline')
       const tableAnswer = await tableGenerationPipeline(searchQuery, history)
       if (tableAnswer) {
-        return NextResponse.json({
-          answer: tableAnswer,
-          sources: [],
-          searchQuery: searchQuery !== query ? searchQuery : null,
-          routedVia: 'table',
-          confidence: computeConfidence({ chunks: [], structuredFacts: '', graphFacts: 'table', summaries: 'table', routedVia: 'table' })
+        const conf = computeConfidence({ chunks: [], structuredFacts: '', graphFacts: 'table', summaries: 'table', routedVia: 'table' })
+        return sseResponse(async (send) => {
+          send({ type: 'meta', sources: [], routedVia: 'table', confidence: conf, searchQuery: searchQuery !== query ? searchQuery : null, graphUsed: false })
+          send({ type: 'token', text: tableAnswer })
+          send({ type: 'done' })
         })
       }
     }
@@ -382,12 +400,11 @@ export async function POST(req: NextRequest) {
       console.log('Routing to map-reduce synthesis path')
       const synthesisAnswer = await mapReduceSynthesis(searchQuery, history)
       if (synthesisAnswer) {
-        return NextResponse.json({
-          answer: synthesisAnswer,
-          sources: [],
-          searchQuery: searchQuery !== query ? searchQuery : null,
-          routedVia: 'synthesis',
-          confidence: computeConfidence({ chunks: [], structuredFacts: '', graphFacts: '', summaries: 'synthesis', routedVia: 'synthesis' })
+        const conf = computeConfidence({ chunks: [], structuredFacts: '', graphFacts: '', summaries: 'synthesis', routedVia: 'synthesis' })
+        return sseResponse(async (send) => {
+          send({ type: 'meta', sources: [], routedVia: 'synthesis', confidence: conf, searchQuery: searchQuery !== query ? searchQuery : null, graphUsed: false })
+          send({ type: 'token', text: synthesisAnswer })
+          send({ type: 'done' })
         })
       }
     }
@@ -479,7 +496,8 @@ Rules:
 - Always report specific numbers, percentages, and metrics verbatim — never paraphrase them away.
 - When describing IRIS's technology capabilities, always name the core modalities (NIR spectroscopy, photonics, hyperspectral imaging) if they appear in context.
 - If asked for a table, format as markdown.
-- Never invent facts not in the context.`
+- Never invent facts not in the context.
+- If the context does not contain enough information to answer the question, say so explicitly — state what you do know and what is missing. Do not generate plausible-sounding but unsupported claims.`
       },
       ...history.slice(-8).map((m: any) => ({ role: m.role, content: m.content })),
       {
@@ -488,17 +506,7 @@ Rules:
       }
     ]
 
-    const completion = await groq.chat.completions.create({
-      model: 'llama-3.3-70b-versatile',
-      messages,
-      temperature: 0,
-      max_tokens: 2000
-    })
-
     // Only surface sources that belong to the queried project(s).
-    // When a specific project is detected but the fallback unfiltered search
-    // returned unrelated (e.g. TERMINATED) files, exclude them from sources
-    // so the client/tests don't see misleading citations.
     const sourcesRaw = diversifyChunks(filtered, 2, 8).map((c: any) => ({
       file: cleanSourceFile(c.source_file),
       folder: c.folder,
@@ -523,17 +531,26 @@ Rules:
       routedVia
     })
 
-    return NextResponse.json({
-      answer: completion.choices[0].message.content,
-      sources,
-      searchQuery: searchQuery !== query ? searchQuery : null,
-      routedVia,
-      confidence,
-      graphUsed: graphContext.length > 0
+    return sseResponse(async (send) => {
+      send({ type: 'meta', sources, searchQuery: searchQuery !== query ? searchQuery : null, routedVia, confidence, graphUsed: graphContext.length > 0 })
+      const groqStream = await groq.chat.completions.create({
+        model: 'llama-3.3-70b-versatile',
+        messages,
+        temperature: 0,
+        max_tokens: 3000,
+        stream: true
+      })
+      for await (const chunk of groqStream) {
+        const text = chunk.choices[0]?.delta?.content || ''
+        if (text) send({ type: 'token', text })
+      }
+      send({ type: 'done' })
     })
 
   } catch (e: any) {
     console.error('CHAT API ERROR:', e.message)
-    return NextResponse.json({ error: e.message }, { status: 500 })
+    return sseResponse(async (send) => {
+      send({ type: 'error', message: e.message })
+    })
   }
 }

@@ -270,21 +270,58 @@ export default function ChatPage() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query: userMsg.content, history: messages })
       })
-      const data = await res.json()
-      if (data.error) throw new Error(data.error)
-      setMessages([...newHistory, {
-        role: 'assistant',
-        content: data.answer,
-        sources: data.sources,
-        searchQuery: data.searchQuery,
-        routedVia: data.routedVia,
-        confidence: data.confidence,
-        graphUsed: data.graphUsed,
-      }])
+
+      if (!res.body) throw new Error('No response body')
+
+      const reader = res.body.getReader()
+      const decoder = new TextDecoder()
+      let buf = ''
+      let assistantIdx = -1
+
+      while (true) {
+        const { value, done } = await reader.read()
+        if (done) break
+        buf += decoder.decode(value, { stream: true })
+
+        const lines = buf.split('\n')
+        buf = lines.pop() ?? ''
+
+        for (const line of lines) {
+          if (!line.startsWith('data: ')) continue
+          let evt: any
+          try { evt = JSON.parse(line.slice(6)) } catch { continue }
+
+          if (evt.type === 'meta') {
+            const assistantMsg: Message = {
+              role: 'assistant',
+              content: '',
+              sources: evt.sources,
+              searchQuery: evt.searchQuery,
+              routedVia: evt.routedVia,
+              confidence: evt.confidence,
+              graphUsed: evt.graphUsed,
+            }
+            setMessages(prev => {
+              assistantIdx = prev.length
+              return [...prev, assistantMsg]
+            })
+            setLoading(false)
+          } else if (evt.type === 'token') {
+            setMessages(prev => {
+              if (assistantIdx < 0 || assistantIdx >= prev.length) return prev
+              const updated = [...prev]
+              updated[assistantIdx] = { ...updated[assistantIdx], content: updated[assistantIdx].content + evt.text }
+              return updated
+            })
+          } else if (evt.type === 'error') {
+            throw new Error(evt.message)
+          }
+        }
+      }
     } catch (e: any) {
-      setMessages([...newHistory, { role: 'assistant', content: `Error: ${e.message}` }])
+      setMessages(prev => [...prev, { role: 'assistant', content: `Error: ${e.message}` }])
+      setLoading(false)
     }
-    setLoading(false)
   }
 
   const canSend = !!input.trim() && !loading
@@ -413,7 +450,7 @@ export default function ChatPage() {
               </div>
             ))}
 
-            {loading && (
+            {loading && messages[messages.length - 1]?.role !== 'assistant' && (
               <div style={{ display: 'flex', gap: '10px' }}>
                 <div style={{ width: '28px', height: '28px', borderRadius: '7px', background: '#1C2D42', border: `1px solid ${BORDER}`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   <Bot size={12} color={ACCENT} />

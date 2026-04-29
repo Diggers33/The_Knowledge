@@ -70,14 +70,14 @@ const TAG_STOPWORDS = new Set([
 ])
 
 export function detectProjectTags(text: string): string[] {
-  // Match fully uppercase tokens (NANOBLOC) AND mixed-case known patterns (Nanobloc → NANOBLOC)
+  // Match tokens that are fully uppercase (NANOBLOC, BIORADAR) or contain a digit (SORT4CIRC)
+  // Filter on ORIGINAL case before uppercasing — avoids "pharma", "compare" etc. being treated as codes
   const candidates = text.match(/\b[A-Za-z][A-Z0-9a-z]{2,}(?:-[A-Za-z0-9]+)*\b/g) || []
   return [...new Set(
     candidates
+      .filter(c => /[0-9]/.test(c) || c === c.toUpperCase())  // check original case first
       .map(c => c.toUpperCase())
       .filter(c => !TAG_STOPWORDS.has(c))
-      // Must contain at least one digit or be all-caps to avoid common words
-      .filter(c => /[0-9]/.test(c) || c === c.toUpperCase())
   )]
 }
 

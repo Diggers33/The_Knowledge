@@ -5,7 +5,7 @@
 
 import { NextRequest, NextResponse } from 'next/server'
 import Groq from 'groq-sdk'
-import { embed, embedBatch, rerankChunks, querySummaries, fetchSummariesByDimension, searchChunks, detectProjectTags, detectGraphIntent, queryGraph, queryStructuredFacts, fetchSynthesisContext, buildTechTableData } from '@/lib/iris-kb'
+import { embed, embedBatch, rerankChunks, querySummaries, fetchSummariesByDimension, searchChunks, detectProjectTags, detectGraphIntent, queryGraph, queryStructuredFacts, fetchSynthesisContext, buildTechTableData, supabase } from '@/lib/iris-kb'
 
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY! })
 
@@ -34,6 +34,36 @@ function diversifyChunks(chunks: any[], capPerFilePage = 2, target = 8): any[] {
   }
   while (primary.length < target && overflow.length > 0) primary.push(overflow.shift())
   return primary
+}
+
+const SECTOR_DOMAIN_KEYWORDS: Array<{ keywords: RegExp }> = [
+  { keywords: /pharm|drug|medic|clinic|bioreactor|CAR.?T|therapeut|biopharma|antibiot|biosens|diagnostic|wound|tissue|cell|protein|enzyme|fermenta/i },
+  { keywords: /food|agri|feed|crop|spice|grain|rice|meat|dairy|beverage|turmeric|mycotoxin|fish|fruit|vegetable|milk|cheese|chocolate|beer|wine|flour|bak|cereal|poultry/i },
+  { keywords: /recycl|circular|waste|end.of.life|upcycl|second.life|demanufactur|remanufactur|reuse|recover.*material/i },
+  { keywords: /plastic|polymer|composite|fibre|fiber|rubber|resin|PET|polyethyl|polypropyl|bioplastic|multilayer|laminate|elastomer/i },
+  { keywords: /textil|fabric|garment|clothing|fashion|yarn|dye|cotton|wool|nylon|apparel/i },
+  { keywords: /energy|solar|photovoltaic|OLED|battery|fuel.cell|biofuel|hydrogen|wind|power|electr.*produc|renewable|CO2.*captur|decarboni/i },
+  { keywords: /water|environment|soil|pollut|contaminant|remediat|emission|climate|algae|biomass|aqua|marine|ocean|river|waste.?water/i },
+  { keywords: /build|construct|cement|concrete|infrastructure|retrofit|renovati|urban|architect|insulation|facade|HVAC/i },
+  { keywords: /heritage|museum|artefact|artifact|conservat|archaeolog|cultural|monument|restora/i },
+  { keywords: /manufactur|production|inline.*monitor|process.analyt|automation|robot|laser.*surface|drying|extrusion|moulding/i },
+]
+
+async function resolveSectorTags(query: string): Promise<string[]> {
+  const matched = SECTOR_DOMAIN_KEYWORDS.find(s => s.keywords.test(query))
+  if (!matched) return []
+
+  const { data, error } = await supabase.from('kg_project_domains').select('project_code, domain')
+  if (error || !data?.length) return []
+
+  const codes = (data as any[])
+    .filter(row => matched.keywords.test(row.domain || ''))
+    .map(row => (row.project_code || '').toUpperCase())
+    .filter(Boolean)
+
+  const unique = [...new Set(codes)]
+  console.log(`Chat sector resolution: ${unique.length} codes → ${unique.slice(0, 5).join(', ')}${unique.length > 5 ? '…' : ''}`)
+  return unique
 }
 
 async function rewriteQuery(query: string, history: any[]): Promise<string> {
@@ -368,7 +398,11 @@ export async function POST(req: NextRequest) {
     console.log('Search query:', searchQuery)
 
     // If a specific project is named, always treat as specific — even if broad keywords present
-    const projectTags = detectProjectTags(searchQuery)
+    let projectTags = detectProjectTags(searchQuery)
+    // Sector fallback: "pharma", "food", etc. → resolve to actual project codes
+    if (projectTags.length === 0) {
+      projectTags = await resolveSectorTags(searchQuery)
+    }
     const broad = isBroadQuery(searchQuery) && projectTags.length === 0
 
     // Capability queries like "Does IRIS have experience with X?" need summaries even on specific path

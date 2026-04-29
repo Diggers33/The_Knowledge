@@ -61,9 +61,38 @@ Output only the passage, no preamble.`
   return results
 }
 
+// Resolves sector keywords (e.g. "pharma", "food", "recycling") to actual project codes
+// by matching the prompt against SECTOR_KEYWORDS and querying kg_project_domains.
+// Used as fallback when detectProjectTags finds no explicit project codes.
+async function resolveSectorTags(prompt: string): Promise<string[]> {
+  let matchedEntry: (typeof SECTOR_KEYWORDS)[0] | undefined
+  for (const entry of SECTOR_KEYWORDS) {
+    if (entry.keywords.test(prompt)) { matchedEntry = entry; break }
+  }
+  if (!matchedEntry) return []
+
+  const { data, error } = await supabase.from('kg_project_domains').select('project_code, domain')
+  if (error || !data?.length) return []
+
+  const { keywords } = matchedEntry
+  const codes = (data as any[])
+    .filter(row => keywords.test(row.domain || ''))
+    .map(row => (row.project_code || '').toUpperCase())
+    .filter(Boolean)
+
+  const unique = [...new Set(codes)]
+  console.log(`Sector resolution (${matchedEntry.sector}): ${unique.length} codes → ${unique.slice(0, 6).join(', ')}${unique.length > 6 ? '…' : ''}`)
+  return unique
+}
+
 async function retrieveChunks(prompt: string): Promise<any[]> {
-  const projectTags = detectProjectTags(prompt)
+  let projectTags = detectProjectTags(prompt)
   console.log('Project tags detected:', projectTags)
+
+  // Sector fallback: resolve "pharma", "food", "recycling" etc. to actual project codes
+  if (projectTags.length === 0) {
+    projectTags = await resolveSectorTags(prompt)
+  }
 
   const queries = await generateSubQueries(prompt)
   console.log('Sub-queries:', queries)

@@ -655,20 +655,43 @@ Format:
     { "title": "...", "layout": "chart_slide", "chartType": "bar", "labels": ["Label A","Label B"], "values": [85, 60], "unit": "%", "notes": "..." }
   ]
 }
-Generate 8-12 slides. Layout selection rules:
-- title_content: default for most slides; MUST have at least 3 specific bullet points naming projects and results.
-- two_column: use when comparing two topics or splitting a long list into two parallel groups (e.g. photonics technologies vs. digital platforms).
-- big_stat: use for a single striking headline number (e.g. "49 Projects", "€12M Total Funding"). ONE stat per slide with supporting body text.
-- section_break: use ONLY at major topic transitions (not every slide). 2-3 section breaks max per deck.
-- chart_slide: use ONLY when values share the SAME unit (all percentages, all counts, all TRL levels — never mix units). chartType must be "bar". labels and values from context only — never invent numbers. Include "unit" field.
-- table_slide: use for tabular data with 3+ columns. Include "table": {"headers": [...], "rows": [[...]]}.
+Generate 8-12 slides.
+
+MANDATORY DIVERSITY RULES — you MUST emit AT LEAST:
+  • 1 section_break (as the 2nd slide to set narrative arc, or before a major topic change)
+  • 1 big_stat (the single most striking number: total funding, project count, TRL achieved, % improvement)
+  • 1 two_column (any "before vs after", "challenge vs IRIS solution", "photonics vs digital", or comparing two project clusters)
+  • 1 chart_slide OR table_slide (chart only if all values share ONE unit; otherwise table)
+AT MOST 60% of content slides may use title_content. If you cannot meet diversity rules with the available context, prefer table_slide and big_stat over duplicating title_content.
+
+Per-layout requirements:
+- title_content: 3-6 bullets, each naming a specific project + specific outcome. "notes" required.
+- two_column: left[] and right[] arrays of 2-4 items each. Use for parallel comparisons. "notes" required.
+- big_stat: ONE stat string (e.g. "€12.4M", "49 projects", "TRL 7"). 1-line label. 2-3 sentence body. "notes" required.
+- section_break: title + subtitle only. Narrative divider — no bullets, no notes needed.
+- chart_slide: chartType="bar". labels[] and values[] same length, 2-7 entries. ALL values share ONE unit — set "unit" field. NEVER mix percentages with absolute counts. "notes" required.
+- table_slide: 3-5 columns, 3-8 rows. Use for project rosters, KPI matrices, technology x application maps.
 
 Content rules:
 - Use ONLY information explicitly stated in the context. Never invent facts.
 - Each bullet must name a specific project and specific technology or result — no generic statements.
-- EVERY slide (including the last Q&A or closing slide) must have a "notes" field with 2–3 sentences of speaker elaboration. Notes must add context beyond what is on the slide.
-- CRITICAL: Every slide except section_break must have substantive content. Minimum 2 bullets for title_content, stat + body for big_stat, left + right for two_column. Never emit a slide with only a title.
-- For Q&A/closing slides: notes field should suggest talking points or anticipated audience questions.`
+- EVERY slide except section_break MUST have a "notes" field: 2-3 sentences of speaker elaboration adding context not shown on the slide.
+- CRITICAL: Every slide except section_break must have substantive content. Never emit a slide with only a title.
+- For Q&A/closing slides: notes should suggest talking points or anticipated audience questions.
+
+EXAMPLE deck shape for "Overview of IRIS Horizon Europe projects":
+  Slide 1: title_content  — Mission overview (3 bullets naming specific programmes)
+  Slide 2: section_break  — "The IRIS Project Portfolio"
+  Slide 3: big_stat       — "49 projects" / EU funding headline
+  Slide 4: table_slide    — Project | TRL | Application | Status (6 rows)
+  Slide 5: two_column     — Photonics technologies | Digital platforms
+  Slide 6: title_content  — Pharma sector projects (FOODSAFER, BIORADAR, FREEME)
+  Slide 7: title_content  — Industrial automation projects (ASTEP, INPERSO)
+  Slide 8: section_break  — "Outcomes & Impact"
+  Slide 9: chart_slide    — TRL achieved per project (unit: "TRL level", values 1-9)
+  Slide 10: title_content — Cross-project lessons learned
+  Slide 11: title_content — Q&A (with notes suggesting anticipated questions)
+Result: 6 distinct layouts, 2 section breaks, big headline number, comparison, data viz, project table.`
 
   const tableHint = (needsTable && type === 'pptx')
     ? `\n\nIMPORTANT: Answer ALL questions fully. Use table_slide layout for the table, then continue with sectors/roles slides. Do not stop after the table. Use pre-extracted rows exactly as given.`
@@ -725,6 +748,22 @@ function decodeStructure(obj: any): any {
     return out
   }
   return obj
+}
+
+function checkLayoutDiversity(structure: any): { ok: boolean; reason?: string } {
+  const slides = Array.isArray(structure?.slides) ? structure.slides : []
+  if (slides.length < 6) return { ok: true }
+  const layouts = slides.map((s: any) => s?.layout || 'title_content')
+  const counts: Record<string, number> = {}
+  for (const L of layouts) counts[L] = (counts[L] || 0) + 1
+  const distinct = Object.keys(counts).length
+  const titleContentRatio = (counts['title_content'] || 0) / slides.length
+  if (distinct < 3) return { ok: false, reason: `Only ${distinct} distinct layouts used; need at least 3.` }
+  if (titleContentRatio > 0.7) return { ok: false, reason: `${Math.round(titleContentRatio * 100)}% of slides use title_content; cap is 60%.` }
+  if (!layouts.some((L: string) => L === 'section_break' || L === 'big_stat')) {
+    return { ok: false, reason: 'Need at least one section_break or big_stat for narrative anchoring.' }
+  }
+  return { ok: true }
 }
 
 function stripMarkdown(text: string): string {
@@ -1126,6 +1165,18 @@ export async function POST(req: NextRequest) {
       : context
 
     let structure = decodeStructure(await generateStructure(prompt, enrichedContext, outputType, needsTable))
+
+    // Enforce layout diversity for PPTX — retry once if monotonous
+    if (outputType === 'pptx') {
+      const diversity = checkLayoutDiversity(structure)
+      if (!diversity.ok) {
+        console.warn(`[generate] layout diversity rejected: ${diversity.reason} — re-prompting once`)
+        const retryHint = `Your previous attempt failed the layout diversity check (${diversity.reason}). REDO the deck using AT LEAST 3 distinct layout types and AT MOST 60% title_content. You MUST include at least one big_stat, one section_break, and one two_column or table_slide or chart_slide.`
+        structure = decodeStructure(await generateStructure(prompt + '\n\n' + retryHint, enrichedContext, outputType, needsTable))
+        const diversity2 = checkLayoutDiversity(structure)
+        if (!diversity2.ok) console.warn(`[generate] layout diversity still bad after retry: ${diversity2.reason} — accepting`)
+      }
+    }
 
     // Inject pre-extracted rows directly into structure — bypasses GPT truncation
     if (preExtractedRows) {

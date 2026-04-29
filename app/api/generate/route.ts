@@ -61,38 +61,39 @@ Output only the passage, no preamble.`
   return results
 }
 
-// Resolves sector keywords (e.g. "pharma", "food", "recycling") to actual project codes
-// by matching the prompt against SECTOR_KEYWORDS and querying kg_project_domains.
-// Used as fallback when detectProjectTags finds no explicit project codes.
-async function resolveSectorTags(prompt: string): Promise<string[]> {
-  let matchedEntry: (typeof SECTOR_KEYWORDS)[0] | undefined
-  for (const entry of SECTOR_KEYWORDS) {
-    if (entry.keywords.test(prompt)) { matchedEntry = entry; break }
+// Ordered longest-first so "food safety" beats "food"
+const SCOPE_DOMAINS = [
+  'food quality', 'food safety', 'food', 'pharmaceutical', 'pharma',
+  'agriculture', 'agricultur', 'recycling', 'waste sorting', 'waste',
+  'environmental monitoring', 'dairy', 'meat', 'grain', 'beverage',
+  'aviation', 'textile', 'plastics', 'plastic', 'wood', 'steel',
+  'water treatment', 'water', 'packaging', 'construction', 'automotive',
+  'energy', 'solar',
+]
+
+function extractScopeDomain(prompt: string): string | null {
+  const sorted = [...SCOPE_DOMAINS].sort((a, b) => b.length - a.length)
+  for (const d of sorted) {
+    const re = new RegExp(`\\b${d.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&')}\\b`, 'i')
+    if (re.test(prompt)) return d
   }
-  if (!matchedEntry) return []
-
-  const { data, error } = await supabase.from('kg_project_domains').select('project_code, domain')
-  if (error || !data?.length) return []
-
-  const { keywords } = matchedEntry
-  const codes = (data as any[])
-    .filter(row => keywords.test(row.domain || ''))
-    .map(row => (row.project_code || '').toUpperCase())
-    .filter(Boolean)
-
-  const unique = [...new Set(codes)]
-  console.log(`Sector resolution (${matchedEntry.sector}): ${unique.length} codes → ${unique.slice(0, 6).join(', ')}${unique.length > 6 ? '…' : ''}`)
-  return unique
+  return null
 }
 
-async function retrieveChunks(prompt: string): Promise<any[]> {
-  let projectTags = detectProjectTags(prompt)
-  console.log('Project tags detected:', projectTags)
-
-  // Sector fallback: resolve "pharma", "food", "recycling" etc. to actual project codes
-  if (projectTags.length === 0) {
-    projectTags = await resolveSectorTags(prompt)
+async function resolveDomainProjects(domain: string): Promise<string[]> {
+  const { data, error } = await supabase.rpc('get_projects_by_domain', { p_domain: domain })
+  if (error) {
+    console.warn(`[generate] get_projects_by_domain error for "${domain}":`, error.message)
+    return []
   }
+  const codes = (data || [])
+    .map((r: any) => (r.project_code || r.code || '').toString().toUpperCase().trim())
+    .filter(Boolean)
+  return [...new Set(codes)] as string[]
+}
+
+async function retrieveChunks(prompt: string, scopeTags: string[] = []): Promise<any[]> {
+  console.log('Scope tags:', scopeTags)
 
   const queries = await generateSubQueries(prompt)
   console.log('Sub-queries:', queries)
@@ -103,7 +104,7 @@ async function retrieveChunks(prompt: string): Promise<any[]> {
   console.log(`HyDE: batch embedded ${hypotheticals.length} passages in 1 API call`)
 
   const [primaryEmb, ...subEmbs] = embeddings
-  const tags = projectTags.length > 0 ? projectTags : undefined
+  const tags = scopeTags.length > 0 ? scopeTags : undefined
 
   // SQL-level project filtering via search_rag_filtered — no JS post-filter needed
   const [primaryResults, ...subResults] = await Promise.all([
@@ -1261,14 +1262,31 @@ export async function POST(req: NextRequest) {
     const needsSectors = /\bsector[s]?\b|all.*application|application.*area|industr.*overview|market.*overview|portfolio.*sector/i.test(prompt)
     const needsRoles   = /non.?technical.role|all.*role|role.*overview|management.role|coordinator.role|disseminat.*role|iris.*role.*across|overall.*role/i.test(prompt)
     const needsSections = needsSectors || needsRoles
-    const promptTags = detectProjectTags(prompt)
+
+    // Scope resolution: explicit project codes take precedence; sector phrases fall back to RPC lookup
+    const explicitTags = detectProjectTags(prompt)
+    const scopeDomain = extractScopeDomain(prompt)
+    let scopeTags: string[] = []
+    if (explicitTags.length > 0) {
+      scopeTags = explicitTags
+    } else if (scopeDomain) {
+      scopeTags = await resolveDomainProjects(scopeDomain)
+      console.log(`[generate] scope domain="${scopeDomain}" → ${scopeTags.length} project codes: ${scopeTags.join(', ')}`)
+    }
+
+    // Fail loudly if scope phrase resolved to zero projects — prevents a misleading off-topic deck
+    if (scopeDomain && explicitTags.length === 0 && scopeTags.length === 0) {
+      return NextResponse.json({
+        error: `No IRIS projects found in the "${scopeDomain}" domain. Try a different scope or a broader prompt.`
+      }, { status: 404 })
+    }
 
     // Run summaries + chunks + partner context in parallel, then table extraction
     const [summaryContext, chunks, preExtractedRows, partnerContext] = await Promise.all([
       querySummaries(prompt),
-      retrieveChunks(prompt),
+      retrieveChunks(prompt, scopeTags),
       needsTable ? buildTableRows(prompt) : Promise.resolve(''),
-      buildPartnerContext(prompt, promptTags)
+      buildPartnerContext(prompt, scopeTags)
     ])
 
     // Build grounded project name set from table rows — sectors prose only describes confirmed projects

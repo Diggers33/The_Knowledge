@@ -696,7 +696,7 @@ AT MOST 60% of content slides may use title_content. If you cannot meet diversit
 Per-layout requirements:
 - title_content: 3-6 bullets, each naming a specific project + specific outcome. "notes" required.
 - two_column: left[] and right[] arrays of 2-4 items each. Use for parallel comparisons. "notes" required.
-- big_stat: ONE stat string (e.g. "€12.4M", "49 projects", "TRL 7"). 1-line label. 2-3 sentence body. "notes" required.
+- big_stat: stat MUST be ≤ 12 characters — a single striking value: "€12.4M", "49", "TRL 7", "94%", "€137M". Put ALL prose in label (1 line) and body (2-3 sentences). Never write full sentences or explanations inside stat itself.
 - section_break: title + subtitle only. Narrative divider — no bullets. Notes MUST be a transition cue (what just ended, what comes next).
 - chart_slide: chartType="bar". labels[] and values[] same length, 2-7 entries. ALL values share ONE unit — set "unit" field. NEVER mix percentages with absolute counts. "notes" required.
 - table_slide: 3-5 columns, 3-8 rows. Use for project rosters, KPI matrices, technology x application maps.
@@ -704,6 +704,8 @@ Per-layout requirements:
 Content rules:
 - Use ONLY information explicitly stated in the context. Never invent facts.
 - Each bullet must name a specific project and specific technology or result — no generic statements.
+- Each bullet MUST contain: (1) the UPPERCASE project code (e.g. NANOBLOC, BIORADAR) AND (2) a specific number, % value, TRL level, or named technology. Bullets without both are rejected.
+- BANNED vague phrases: "IRIS has demonstrated", "the project aims", "this solution provides", "innovative approach", "advanced technology", "state-of-the-art". Never start a bullet with these.
 - EVERY slide MUST include a non-empty "notes" field of at least 2 full sentences.
 - For section_break slides: notes must be a transition cue (what just ended, what comes next).
 - For big_stat slides: notes must explain how the number was measured and why it matters.
@@ -810,6 +812,32 @@ function checkLayoutDiversity(structure: any): { ok: boolean; reason?: string } 
   if (titleContentRatio > 0.7) return { ok: false, reason: `${Math.round(titleContentRatio * 100)}% of slides use title_content; cap is 60%.` }
   if (!layouts.some((L: string) => L === 'section_break' || L === 'big_stat')) {
     return { ok: false, reason: 'Need at least one section_break or big_stat for narrative anchoring.' }
+  }
+  const emptyBodies = slides.filter((s: any) => {
+    if (s.layout !== 'title_content') return false
+    const raw: string[] = s.bullets || s.content || []
+    const filtered = raw.filter((t: string) => t.toLowerCase().trim() !== (s.title || '').toLowerCase().trim())
+    return filtered.length === 0 && raw.length === 0
+  })
+  if (emptyBodies.length > 0) {
+    return { ok: false, reason: `${emptyBodies.length} title_content slide(s) have no bullets: "${emptyBodies.map((s: any) => s.title).join('", "')}"` }
+  }
+  return { ok: true }
+}
+
+function checkContentQuality(structure: any): { ok: boolean; reason?: string } {
+  const slides = Array.isArray(structure?.slides) ? structure.slides : []
+  const VAGUE = /^(iris|this|the|our|a|an)\s+(project|team|technology|approach|solution|work|platform|system|method)\b/i
+  const NEEDS_SPECIFICS = /[A-Z]{3,}|\d+[%€$£]?|\b(TRL|RMSE|R²|NIR|HSI|LIBS|SWIR|FTNIR|PAT|inline|hyperspectral|chemometric|PLS|SVM|CNN|LSTM)\b/
+
+  for (const slide of slides) {
+    if (slide.layout !== 'title_content') continue
+    const bullets: string[] = slide.bullets || slide.content || []
+    if (bullets.length === 0) continue
+    const vague = bullets.filter((b: string) => VAGUE.test(b) || !NEEDS_SPECIFICS.test(b))
+    if (vague.length >= Math.ceil(bullets.length * 0.6)) {
+      return { ok: false, reason: `Slide "${slide.title}" has ${vague.length}/${bullets.length} vague bullets lacking project codes or metrics. Each bullet MUST contain an UPPERCASE project code (e.g. NANOBLOC, BIORADAR) AND a specific number or technology name.` }
+    }
   }
   return { ok: true }
 }
@@ -1171,7 +1199,9 @@ async function buildPptx(structure: any, chunks: any[] = []): Promise<Buffer> {
         } as any)
       }
     } else if (layout === 'big_stat') {
-      s.addText(slide.stat || '', { x: 1, y: 1.2, w: 5, h: 2, fontSize: 72, bold: true, color: t.accent, fontFace: F, align: 'center' })
+      const statStr = slide.stat || ''
+      const statFontSize = Math.max(28, Math.round(72 - Math.max(0, statStr.length - 6) * 2.5))
+      s.addText(statStr, { x: 0.5, y: 1.2, w: 6, h: 2.2, fontSize: statFontSize, bold: true, color: t.accent, fontFace: F, align: 'center', valign: 'middle', shrinkText: true })
       s.addText(slide.label || '', { x: 1, y: 3.2, w: 5, h: 0.6, fontSize: 16, color: t.white, fontFace: F, align: 'center' })
       if (slide.body) s.addText(slide.body, { x: 6.5, y: 1.2, w: 6.3, h: 4, fontSize: 14, color: t.cardBody, fontFace: F, valign: 'top' })
     } else if (layout === 'two_column') {
@@ -1181,13 +1211,17 @@ async function buildPptx(structure: any, chunks: any[] = []): Promise<Buffer> {
       s.addShape(pptx.ShapeType.line, { x: 6.65, y: 1.1, w: 0, h: 5, line: { color: t.subAccent, width: 1 } })
     } else {
       const slideTitle = (slide.title || '').toLowerCase().trim()
-      const bullets = (slide.bullets || slide.content || [])
-        .filter((txt: string) => txt.toLowerCase().trim() !== slideTitle)
+      const rawBullets: string[] = slide.bullets || slide.content || []
+      const filtered = rawBullets.filter((txt: string) => txt.toLowerCase().trim() !== slideTitle)
+      const bullets = filtered.length > 0 ? filtered : rawBullets
       if (bullets.length) {
         s.addText(
           bullets.map((txt: string) => ({ text: txt, options: { bullet: { code: '2022' }, color: t.cardBody, fontSize: 14, breakLine: true } })),
           { x: 0.6, y: 1.1, w: 12.1, h: 5.8, fontFace: F, valign: 'top', paraSpaceAfter: 6 }
         )
+      } else {
+        console.warn(`[generate] title_content slide "${slide.title}" has no bullets — slide body will be empty`)
+        s.addText('(No content — check knowledge base context for this topic)', { x: 0.6, y: 1.1, w: 12.1, h: 5.8, fontSize: 13, color: t.cardBody, fontFace: F, italic: true })
       }
     }
     const notesText = (slide.notes && slide.notes.trim()) ? slide.notes : buildFallbackNotes(slide, layout)
@@ -1272,15 +1306,21 @@ export async function POST(req: NextRequest) {
 
     let structure = decodeStructure(await generateStructure(prompt, enrichedContext, outputType, needsTable))
 
-    // Enforce layout diversity for PPTX — retry once if monotonous
+    // Enforce layout diversity + content quality for PPTX — retry once if failing
     if (outputType === 'pptx') {
       const diversity = checkLayoutDiversity(structure)
-      if (!diversity.ok) {
-        console.warn(`[generate] layout diversity rejected: ${diversity.reason} — re-prompting once`)
-        const retryHint = `Your previous attempt failed the layout diversity check (${diversity.reason}). REDO the deck using AT LEAST 3 distinct layout types and AT MOST 60% title_content. You MUST include at least one big_stat, one section_break, and one two_column or table_slide or chart_slide.`
+      const quality = checkContentQuality(structure)
+      const firstFail = !diversity.ok ? diversity : (!quality.ok ? quality : null)
+      if (firstFail) {
+        console.warn(`[generate] structure check failed: ${firstFail.reason} — re-prompting once`)
+        const retryHint = !diversity.ok
+          ? `Your previous attempt failed the layout diversity check (${diversity.reason}). REDO the deck using AT LEAST 3 distinct layout types and AT MOST 60% title_content. You MUST include at least one big_stat, one section_break, and one two_column or table_slide or chart_slide.`
+          : `Your previous attempt failed content quality check (${quality.reason}). REDO all title_content slides so every bullet contains an UPPERCASE project code AND a specific number or named technology. Remove all vague statements.`
         structure = decodeStructure(await generateStructure(prompt + '\n\n' + retryHint, enrichedContext, outputType, needsTable))
         const diversity2 = checkLayoutDiversity(structure)
+        const quality2 = checkContentQuality(structure)
         if (!diversity2.ok) console.warn(`[generate] layout diversity still bad after retry: ${diversity2.reason} — accepting`)
+        if (!quality2.ok) console.warn(`[generate] content quality still bad after retry: ${quality2.reason} — accepting`)
       }
     }
 
@@ -1381,6 +1421,21 @@ export async function POST(req: NextRequest) {
             rows: (slide.labels || []).map((l: string, i: number) => [l, String(slide.values?.[i] ?? '')])
           }
           console.log(`Replaced mixed-unit chart_slide "${slide.title}" with table_slide`)
+        }
+      }
+    }
+
+    // Soft hallucination guard on big_stat — warn if the numeric value isn't grounded in retrieved context
+    if (outputType === 'pptx' && structure.slides) {
+      const chunkText = chunks.map((c: any) => c.parent_text || c.chunk_text || '').join(' ')
+      for (const slide of structure.slides) {
+        if (slide.layout !== 'big_stat' || !slide.stat) continue
+        const numericMatch = slide.stat.match(/[\d,.]+/)
+        if (!numericMatch) continue
+        const numStr = numericMatch[0].replace(/,/g, '')
+        if (!chunkText.includes(numStr)) {
+          console.warn(`[generate] big_stat "${slide.stat}" — numeric value "${numStr}" not found in retrieved context`)
+          slide.label = (slide.label || '') + ' (unverified — check source)'
         }
       }
     }

@@ -15,17 +15,32 @@ async function rewriteQuery(query: string, history: any[]): Promise<string> {
   if (history.length === 0) return query
   const isFollowUp =
     query.split(' ').length < 8 ||
-    /\b(it|this|that|they|them|those|these|what about|and also)\b/i.test(query)
+    /\b(it|this|that|they|them|those|these|what about|and also)\b/i.test(query) ||
+    /\b(the )?(1st|2nd|3rd|[4-9]th|first|second|third|fourth|fifth|sixth|last)( one| item| point| result| application| project| technology| example)?\b/i.test(query) ||
+    /\b(more detail|more about|tell me more|expand on|elaborate on|explain that|which one|what about that)\b/i.test(query) ||
+    /\b(number \d+|item \d+|point \d+|option \d+)\b/i.test(query)
   if (!isFollowUp) return query
 
-  const lastExchange = history.slice(-4).map((m: any) => `${m.role}: ${m.content}`).join('\n')
+  // Include enough of the previous assistant answer for ordinal resolution
+  const lastExchange = history.slice(-4).map((m: any) => {
+    const content = typeof m.content === 'string'
+      ? m.content.slice(0, 1200)
+      : m.content
+    return `${m.role}: ${content}`
+  }).join('\n')
+
   const res = await groq.chat.completions.create({
     model: 'llama-3.3-70b-versatile',
     messages: [
-      { role: 'system', content: 'Rewrite follow-up questions as standalone search queries. Return ONLY the rewritten query, under 15 words.' },
+      {
+        role: 'system',
+        content: `Rewrite follow-up questions as fully standalone search queries.
+CRITICAL: If the follow-up refers to an ordinal item ("the 2nd one", "the first", "number 3"), find that exact item in the previous assistant response and name it explicitly in the rewrite.
+Return ONLY the rewritten query, under 20 words. No explanation.`
+      },
       { role: 'user', content: `Conversation:\n${lastExchange}\n\nFollow-up: "${query}"\n\nRewrite:` }
     ],
-    max_tokens: 60,
+    max_tokens: 80,
     temperature: 0
   })
   return res.choices[0].message.content?.trim() || query

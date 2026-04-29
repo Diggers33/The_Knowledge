@@ -72,8 +72,12 @@ export default function GeneratePage() {
       const fname = `IRIS_${words}_${dateStr}_${hash}.${ext}`
       const url = URL.createObjectURL(blob)
       const a = document.createElement('a')
-      a.href = url; a.download = fname; a.click()
-      URL.revokeObjectURL(url)
+      a.href = url
+      a.download = fname
+      document.body.appendChild(a)
+      a.click()
+      document.body.removeChild(a)
+      setTimeout(() => URL.revokeObjectURL(url), 2000)
       setStatus('')
       setDone(true)
     } catch (e: any) {

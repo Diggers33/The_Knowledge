@@ -668,15 +668,19 @@ Per-layout requirements:
 - title_content: 3-6 bullets, each naming a specific project + specific outcome. "notes" required.
 - two_column: left[] and right[] arrays of 2-4 items each. Use for parallel comparisons. "notes" required.
 - big_stat: ONE stat string (e.g. "€12.4M", "49 projects", "TRL 7"). 1-line label. 2-3 sentence body. "notes" required.
-- section_break: title + subtitle only. Narrative divider — no bullets, no notes needed.
+- section_break: title + subtitle only. Narrative divider — no bullets. Notes MUST be a transition cue (what just ended, what comes next).
 - chart_slide: chartType="bar". labels[] and values[] same length, 2-7 entries. ALL values share ONE unit — set "unit" field. NEVER mix percentages with absolute counts. "notes" required.
 - table_slide: 3-5 columns, 3-8 rows. Use for project rosters, KPI matrices, technology x application maps.
 
 Content rules:
 - Use ONLY information explicitly stated in the context. Never invent facts.
 - Each bullet must name a specific project and specific technology or result — no generic statements.
-- EVERY slide except section_break MUST have a "notes" field: 2-3 sentences of speaker elaboration adding context not shown on the slide.
-- CRITICAL: Every slide except section_break must have substantive content. Never emit a slide with only a title.
+- EVERY slide MUST include a non-empty "notes" field of at least 2 full sentences.
+- For section_break slides: notes must be a transition cue (what just ended, what comes next).
+- For big_stat slides: notes must explain how the number was measured and why it matters.
+- For chart_slide / table_slide: notes must call out the highest, lowest, and one insight — do not read the data.
+- Never emit a slide with notes equal to "" or null. If you have nothing project-specific to say, write narrative guidance for the speaker.
+- CRITICAL: Every slide must have substantive content. Never emit a slide with only a title.
 - For Q&A/closing slides: notes should suggest talking points or anticipated audience questions.
 
 EXAMPLE deck shape for "Overview of IRIS Horizon Europe projects":
@@ -982,6 +986,48 @@ async function buildDocx(structure: any, chunks: any[] = []): Promise<Buffer> {
   return await Packer.toBuffer(doc)
 }
 
+// ─── FALLBACK NOTES BUILDER ──────────────────────────────────────────────────
+
+function buildFallbackNotes(slide: any, layout: string): string {
+  const title = (slide.title || 'this slide').replace(/[\.\!\?]+$/, '')
+  switch (layout) {
+    case 'section_break':
+      return `Pause here to mark the transition into "${title}". Briefly preview the next 2-3 slides (key projects, headline result, or open question) before moving on. Use this moment to invite questions about the previous section if time allows.`
+
+    case 'big_stat': {
+      const stat = slide.stat || 'the headline metric'
+      const label = slide.label || ''
+      const labelClause = label ? ` — ${label}` : ''
+      const followUp = slide.body
+        ? 'Then expand on the supporting context shown on screen.'
+        : 'Then connect it to the broader narrative arc.'
+      return `Lead with the number: "${stat}"${labelClause}. Explain how it was measured and why it matters in the IRIS portfolio context. ${followUp}`
+    }
+
+    case 'chart_slide': {
+      const chartType = slide.chartType || 'bar'
+      return `Walk the audience through this ${chartType} chart. Identify the highest and lowest values and the project they represent. Conclude with one cross-cutting insight (e.g. which projects cluster together, or which sector is leading).`
+    }
+
+    case 'table_slide': {
+      const rowCount = (slide.table && slide.table.rows && slide.table.rows.length) || 'several'
+      return `This table summarises ${rowCount} rows of comparative data. Highlight 2-3 standout entries rather than reading the table verbatim. Invite the audience to ask about specific rows.`
+    }
+
+    case 'two_column':
+      return `Compare the two sides at a high level. Note one parallel and one contrast between left and right. Use this slide to surface trade-offs or complementarities rather than reading bullets.`
+
+    case 'title_content':
+    default: {
+      const bulletCount = (slide.bullets || []).length
+      const bulletClause = bulletCount > 0
+        ? `Touch on each of the ${bulletCount} points, naming the specific project for each.`
+        : 'Add narrative context beyond what is on screen.'
+      return `Walk the audience through "${title}". ${bulletClause} Tie back to the broader IRIS theme before moving on.`
+    }
+  }
+}
+
 // ─── PPTX BUILDER ────────────────────────────────────────────────────────────
 
 async function buildPptx(structure: any, chunks: any[] = []): Promise<Buffer> {
@@ -1115,7 +1161,8 @@ async function buildPptx(structure: any, chunks: any[] = []): Promise<Buffer> {
         )
       }
     }
-    if (slide.notes && layout !== 'section_break') s.addNotes(slide.notes)
+    const notesText = (slide.notes && slide.notes.trim()) ? slide.notes : buildFallbackNotes(slide, layout)
+    s.addNotes(notesText)
     s.addText('IRIS Technology Solutions | Confidential', { x: 0.4, y: 7.1, w: 10, h: 0.3, fontSize: 9, color: t.subAccent, fontFace: F })
   }
 

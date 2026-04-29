@@ -727,7 +727,15 @@ EXAMPLE deck shape for "Overview of IRIS Horizon Europe projects":
   Slide 9: chart_slide    — TRL achieved per project (unit: "TRL level", values 1-9)
   Slide 10: title_content — Cross-project lessons learned
   Slide 11: title_content — Q&A (with notes suggesting anticipated questions)
-Result: 6 distinct layouts, 2 section breaks, big headline number, comparison, data viz, project table.`
+Result: 6 distinct layouts, 2 section breaks, big headline number, comparison, data viz, project table.
+
+SCOPE — STRICT TOPICAL FILTER:
+When the user asks for a specific domain (e.g. "pharma", "food safety"), retrieval has already been filtered to projects in that scope. Therefore:
+1. NEVER label a slide with a topical frame that does not match what the chunks describe.
+2. NEVER include a project that does not appear in the retrieved context.
+3. If a project name appears only tangentially in one chunk, do NOT promote it to a slide title or main bullet.
+4. If retrieved context is sparse (< 5 chunks), produce a SHORTER deck (5-7 slides) rather than padding with off-topic content.
+5. Do not invent topical relevance. If you still see off-topic chunks, title the slide "Related work outside the requested scope" — do not silently relabel non-pharma projects as pharma.`
 
   const tableHint = (needsTable && type === 'pptx')
     ? `\n\nIMPORTANT: Answer ALL questions fully. Use table_slide layout for the table, then continue with sectors/roles slides. Do not stop after the table. Use pre-extracted rows exactly as given.`
@@ -839,6 +847,27 @@ function checkContentQuality(structure: any): { ok: boolean; reason?: string } {
     if (vague.length >= Math.ceil(bullets.length * 0.6)) {
       return { ok: false, reason: `Slide "${slide.title}" has ${vague.length}/${bullets.length} vague bullets lacking project codes or metrics. Each bullet MUST contain an UPPERCASE project code (e.g. NANOBLOC, BIORADAR) AND a specific number or technology name.` }
     }
+  }
+  return { ok: true }
+}
+
+function checkScope(structure: any, allowedCodes: string[]): { ok: boolean; reason?: string } {
+  if (!allowedCodes || allowedCodes.length === 0) return { ok: true }
+  const allow = new Set(allowedCodes.map(c => c.toUpperCase()))
+  const SKIP = new Set(['IRIS','NIR','TRL','EU','CO2','GHG','KPI','DOA','WP','SWIR','FTNIR','LIBS','HSI','MIR','PAT','SVM','CNN','PLS','API','SME','RIA','CSA'])
+  const PROJECT_RE = /\b([A-Z][A-Z0-9-]{3,})\b/g
+  const violations: string[] = []
+  for (const slide of (structure.slides || [])) {
+    const texts = [slide.title, slide.subtitle, slide.label, slide.body, ...(slide.bullets || []), ...(slide.left || []), ...(slide.right || []), ...(slide.labels || [])].filter(Boolean)
+    for (const t of texts) {
+      for (const m of (t.toString().match(PROJECT_RE) || [])) {
+        if (SKIP.has(m)) continue
+        if (!allow.has(m)) violations.push(`"${m}" on slide "${slide.title}"`)
+      }
+    }
+  }
+  if (violations.length > 0) {
+    return { ok: false, reason: `Off-scope project mentions: ${[...new Set(violations)].slice(0, 5).join('; ')}` }
   }
   return { ok: true }
 }
@@ -1245,7 +1274,10 @@ async function buildPptx(structure: any, chunks: any[] = []): Promise<Buffer> {
     const srcFileSet = new Set(dedupedChunksPptx.map((c: any) => cleanSourceFile(c.source_file)))
     const srcFileList = [...srcFileSet].slice(0, 5).join(', ')
     const avgSim = Math.round(dedupedChunksPptx.reduce((a: number, c: any) => a + c.similarity, 0) / dedupedChunksPptx.length * 100)
-    srcSlide.addNotes(`This deck draws on ${dedupedChunksPptx.length} retrieved passage${dedupedChunksPptx.length === 1 ? '' : 's'} across ${srcFileSet.size} source document${srcFileSet.size === 1 ? '' : 's'} (${srcFileList}${srcFileSet.size > 5 ? ', and others' : ''}). Average semantic similarity to the query: ${avgSim}%. All claims on the preceding slides are grounded in these passages — refer to the page numbers above for verification.`)
+    const scopeNote = structure._scopeDomain && structure._scopeTags?.length
+      ? ` Retrieval was scoped to the "${structure._scopeDomain}" domain (projects: ${structure._scopeTags.join(', ')}).`
+      : ''
+    srcSlide.addNotes(`This deck draws on ${dedupedChunksPptx.length} retrieved passage${dedupedChunksPptx.length === 1 ? '' : 's'} across ${srcFileSet.size} source document${srcFileSet.size === 1 ? '' : 's'} (${srcFileList}${srcFileSet.size > 5 ? ', and others' : ''}). Average semantic similarity to the query: ${avgSim}%.${scopeNote} All claims on the preceding slides are grounded in these passages — refer to the page numbers above for verification.`)
   }
 
   return await pptx.write({ outputType: 'nodebuffer' }) as Buffer
@@ -1322,23 +1354,35 @@ export async function POST(req: NextRequest) {
       ? preBuilt.join('\n\n---\n\n') + '\n\n---\n\n' + context
       : context
 
-    let structure = decodeStructure(await generateStructure(prompt, enrichedContext, outputType, needsTable))
+    const scopeBlock = scopeDomain && scopeTags.length > 0
+      ? `\n\nACTIVE SCOPE: "${scopeDomain}" — limited to projects: ${scopeTags.join(', ')}.\nDo not include or imply involvement of any project not in this list.`
+      : ''
 
-    // Enforce layout diversity + content quality for PPTX — retry once if failing
+    let structure = decodeStructure(await generateStructure(prompt + scopeBlock, enrichedContext, outputType, needsTable))
+
+    // Enforce layout diversity + content quality + scope for PPTX — retry once if failing
     if (outputType === 'pptx') {
       const diversity = checkLayoutDiversity(structure)
       const quality = checkContentQuality(structure)
-      const firstFail = !diversity.ok ? diversity : (!quality.ok ? quality : null)
+      const scope = scopeTags.length > 0 ? checkScope(structure, scopeTags) : { ok: true }
+      const firstFail = !diversity.ok ? diversity : (!quality.ok ? quality : (!scope.ok ? scope : null))
       if (firstFail) {
         console.warn(`[generate] structure check failed: ${firstFail.reason} — re-prompting once`)
-        const retryHint = !diversity.ok
-          ? `Your previous attempt failed the layout diversity check (${diversity.reason}). REDO the deck using AT LEAST 3 distinct layout types and AT MOST 60% title_content. You MUST include at least one big_stat, one section_break, and one two_column or table_slide or chart_slide.`
-          : `Your previous attempt failed content quality check (${quality.reason}). REDO all title_content slides so every bullet contains an UPPERCASE project code AND a specific number or named technology. Remove all vague statements.`
-        structure = decodeStructure(await generateStructure(prompt + '\n\n' + retryHint, enrichedContext, outputType, needsTable))
+        let retryHint: string
+        if (!diversity.ok) {
+          retryHint = `Your previous attempt failed the layout diversity check (${diversity.reason}). REDO the deck using AT LEAST 3 distinct layout types and AT MOST 60% title_content. You MUST include at least one big_stat, one section_break, and one two_column or table_slide or chart_slide.`
+        } else if (!quality.ok) {
+          retryHint = `Your previous attempt failed content quality check (${quality.reason}). REDO all title_content slides so every bullet contains an UPPERCASE project code AND a specific number or named technology. Remove all vague statements.`
+        } else {
+          retryHint = `Your previous attempt violated scope (${scope.reason}). The ONLY allowed projects are: ${scopeTags.join(', ')}. Do not mention any other project. Use only the retrieved context.`
+        }
+        structure = decodeStructure(await generateStructure(prompt + '\n\n' + retryHint + scopeBlock, enrichedContext, outputType, needsTable))
         const diversity2 = checkLayoutDiversity(structure)
         const quality2 = checkContentQuality(structure)
+        const scope2 = scopeTags.length > 0 ? checkScope(structure, scopeTags) : { ok: true }
         if (!diversity2.ok) console.warn(`[generate] layout diversity still bad after retry: ${diversity2.reason} — accepting`)
         if (!quality2.ok) console.warn(`[generate] content quality still bad after retry: ${quality2.reason} — accepting`)
+        if (!scope2.ok) console.warn(`[generate] scope violation still present after retry: ${scope2.reason} — accepting`)
       }
     }
 
@@ -1478,6 +1522,12 @@ export async function POST(req: NextRequest) {
     let buffer: Buffer
     let contentType: string
     let ext: string
+
+    // Stash scope info in structure so buildPptx can annotate sources slide notes
+    if (scopeDomain && scopeTags.length > 0) {
+      structure._scopeDomain = scopeDomain
+      structure._scopeTags = scopeTags
+    }
 
     if (outputType === 'pptx') {
       buffer = await buildPptx(structure, chunks)

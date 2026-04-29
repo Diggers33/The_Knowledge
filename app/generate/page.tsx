@@ -39,7 +39,16 @@ export default function GeneratePage() {
     setLoading(true)
     setError('')
     setDone(false)
-    setStatus('Searching knowledge base…')
+
+    const steps = outputType === 'pptx'
+      ? ['Retrieving from knowledge base…', 'Drafting outline…', 'Rendering slides…', 'Packaging presentation…']
+      : ['Retrieving from knowledge base…', 'Drafting outline…', 'Building document…']
+    setStatus(steps[0])
+    let stepIdx = 0
+    const progressTimer = setInterval(() => {
+      stepIdx = Math.min(stepIdx + 1, steps.length - 1)
+      setStatus(steps[stepIdx])
+    }, 14000)
 
     try {
       const res = await fetch('/api/generate', {
@@ -48,15 +57,19 @@ export default function GeneratePage() {
         body: JSON.stringify({ prompt, outputType })
       })
 
+      clearInterval(progressTimer)
+
       if (!res.ok) {
         const err = await res.json()
         throw new Error(err.error || 'Generation failed')
       }
 
-      setStatus('Building document…')
       const blob = await res.blob()
       const ext = outputType === 'pptx' ? 'pptx' : 'docx'
-      const fname = `IRIS_${prompt.slice(0, 30).replace(/[^a-z0-9]/gi, '_')}.${ext}`
+      const dateStr = new Date().toISOString().slice(0, 10).replace(/-/g, '')
+      const hash = Math.random().toString(36).slice(2, 8).toUpperCase()
+      const words = prompt.trim().split(/\s+/).slice(0, 3).join('_').replace(/[^a-z0-9_]/gi, '')
+      const fname = `IRIS_${words}_${dateStr}_${hash}.${ext}`
       const url = URL.createObjectURL(blob)
       const a = document.createElement('a')
       a.href = url; a.download = fname; a.click()
@@ -64,6 +77,7 @@ export default function GeneratePage() {
       setStatus('')
       setDone(true)
     } catch (e: any) {
+      clearInterval(progressTimer)
       setError(e.message || 'Generation failed')
       setStatus('')
     }

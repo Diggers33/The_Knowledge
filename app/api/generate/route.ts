@@ -648,20 +648,27 @@ Format:
   "title": "...",
   "subtitle": "...",
   "slides": [
-    { "title": "...", "layout": "title_content", "bullets": ["..."], "notes": "2-3 sentences of speaker notes expanding on bullet points." },
+    { "title": "...", "layout": "title_content", "bullets": ["..."], "notes": "2-3 sentences of speaker notes." },
     { "title": "...", "layout": "two_column", "left": ["..."], "right": ["..."], "notes": "..." },
     { "title": "...", "layout": "big_stat", "stat": "95%", "label": "...", "body": "...", "notes": "..." },
     { "title": "...", "layout": "section_break", "subtitle": "..." },
     { "title": "...", "layout": "chart_slide", "chartType": "bar", "labels": ["Label A","Label B"], "values": [85, 60], "unit": "%", "notes": "..." }
   ]
 }
-Generate 8-12 slides. Rules:
+Generate 8-12 slides. Layout selection rules:
+- title_content: default for most slides; MUST have at least 3 specific bullet points naming projects and results.
+- two_column: use when comparing two topics or splitting a long list into two parallel groups (e.g. photonics technologies vs. digital platforms).
+- big_stat: use for a single striking headline number (e.g. "49 Projects", "€12M Total Funding"). ONE stat per slide with supporting body text.
+- section_break: use ONLY at major topic transitions (not every slide). 2-3 section breaks max per deck.
+- chart_slide: use ONLY when values share the SAME unit (all percentages, all counts, all TRL levels — never mix units). chartType must be "bar". labels and values from context only — never invent numbers. Include "unit" field.
+- table_slide: use for tabular data with 3+ columns. Include "table": {"headers": [...], "rows": [[...]]}.
+
+Content rules:
 - Use ONLY information explicitly stated in the context. Never invent facts.
 - Each bullet must name a specific project and specific technology or result — no generic statements.
-- Stats slides: use real numbers from results summaries.
-- Add a section_break slide before each major topic change (e.g. before Objectives, before Results, before Q&A). Do not add section_break for every slide — only at topic boundaries.
-- Every slide except section_break must include a "notes" field: 2–3 sentences of speaker elaboration on the slide content. Notes should add context not shown in the bullets.
-- If the context contains quantitative targets or results (percentages, counts, TRL levels), add one chart_slide using those real numbers. chartType must be "bar". labels and values must come directly from the context — never invent numbers.`
+- EVERY slide (including the last Q&A or closing slide) must have a "notes" field with 2–3 sentences of speaker elaboration. Notes must add context beyond what is on the slide.
+- CRITICAL: Every slide except section_break must have substantive content. Minimum 2 bullets for title_content, stat + body for big_stat, left + right for two_column. Never emit a slide with only a title.
+- For Q&A/closing slides: notes field should suggest talking points or anticipated audience questions.`
 
   const tableHint = (needsTable && type === 'pptx')
     ? `\n\nIMPORTANT: Answer ALL questions fully. Use table_slide layout for the table, then continue with sectors/roles slides. Do not stop after the table. Use pre-extracted rows exactly as given.`
@@ -685,13 +692,39 @@ Generate 8-12 slides. Rules:
 // ─── DOCX BUILDER ────────────────────────────────────────────────────────────
 
 function deduplicateChunks(chunks: any[]): any[] {
-  const seen = new Map<string, any>()
+  const seen = new Set<string>()
+  const result: any[] = []
   for (const c of chunks) {
-    const key = `${c.source_file}|${c.page_number}`
-    const existing = seen.get(key)
-    if (!existing || c.similarity > existing.similarity) seen.set(key, c)
+    const key = c.id != null ? String(c.id) : `${c.source_file}|${c.page_number}|${(c.chunk_text || '').slice(0, 60)}`
+    if (!seen.has(key)) { seen.add(key); result.push(c) }
   }
-  return [...seen.values()].sort((a, b) => b.similarity - a.similarity)
+  return result.sort((a, b) => b.similarity - a.similarity)
+}
+
+function cleanSourceFile(name: string): string {
+  if (!name) return name
+  return name
+    .replace(/^TERMINATED__/i, '')
+    .replace(/^TERM[-_]/i, '')
+    .replace(/^PB[A-Z0-9]{2,6}[-\s]+/i, '')
+    .replace(/^\d{2,4}[-\s]+/, '')
+    .trim()
+}
+
+function decodeHtmlEntities(s: string): string {
+  if (!s) return s
+  return s.replace(/&amp;/g, '&').replace(/&apos;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+}
+
+function decodeStructure(obj: any): any {
+  if (typeof obj === 'string') return decodeHtmlEntities(obj)
+  if (Array.isArray(obj)) return obj.map(decodeStructure)
+  if (obj && typeof obj === 'object') {
+    const out: any = {}
+    for (const [k, v] of Object.entries(obj)) out[k] = decodeStructure(v)
+    return out
+  }
+  return obj
 }
 
 function stripMarkdown(text: string): string {
@@ -757,7 +790,7 @@ async function buildDocx(structure: any, chunks: any[] = []): Promise<Buffer> {
     footnoteMap[i + 1] = {
       children: [new Paragraph({
         children: [new TextRun({
-          text: `${c.source_file}, p.\u00a0${c.page_number} (${(c.similarity * 100).toFixed(0)}% relevance)`,
+          text: `${cleanSourceFile(c.source_file)}, p.\u00a0${c.page_number} (${(c.similarity * 100).toFixed(0)}% relevance)`,
           size: 18, color: '64748B'
         })]
       })]
@@ -866,7 +899,7 @@ async function buildDocx(structure: any, chunks: any[] = []): Promise<Buffer> {
       spacing: { before: 600, after: 200 }
     }))
     for (const c of dedupedChunks.slice(0, 20)) {
-      const label = `${c.source_file}  |  p${c.page_number}  |  ${(c.similarity * 100).toFixed(0)}% similarity`
+      const label = `${cleanSourceFile(c.source_file)}  |  p${c.page_number}  |  ${(c.similarity * 100).toFixed(0)}% similarity`
       children.push(new Paragraph({
         children: [new TextRun({ text: label, size: 18, color: '64748B' })],
         spacing: { after: 80 }
@@ -941,6 +974,7 @@ async function buildPptx(structure: any, chunks: any[] = []): Promise<Buffer> {
   titleSlide.addText(structure.title || 'IRIS Report', { x: 0.6, y: 1.5, w: 12, h: 1.5, fontSize: 38, bold: true, color: t.white, fontFace: F })
   titleSlide.addText(structure.subtitle || 'IRIS Technology Solutions', { x: 0.6, y: 3.2, w: 12, h: 0.6, fontSize: 18, color: t.accent, fontFace: F })
   titleSlide.addText(`Generated ${new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}`, { x: 0.6, y: 5.2, w: 8, h: 0.4, fontSize: 12, color: t.muted, fontFace: F })
+  titleSlide.addNotes(`Welcome to this presentation from IRIS Technology Solutions. This deck was generated from the IRIS knowledge base and covers ${structure.subtitle || 'our project portfolio'}. Please feel free to ask questions at the end.`)
 
   const MAX_ROWS_PER_SLIDE = 8
 
@@ -1028,7 +1062,7 @@ async function buildPptx(structure: any, chunks: any[] = []): Promise<Buffer> {
     srcSlide.addShape(pptx.ShapeType.rect, { x: 0, y: 0.87, w: 13.33, h: 0.04, fill: { color: t.accent }, line: { color: t.accent } })
     srcSlide.addText('Sources', { x: 0.4, y: 0.1, w: 12.5, h: 0.7, fontSize: 22, bold: true, color: t.white, fontFace: F })
     const srcLines = dedupedChunksPptx.slice(0, 20).map((c: any) =>
-      ({ text: `${c.source_file}  |  p${c.page_number}  |  ${(c.similarity * 100).toFixed(0)}%`, options: { color: t.cardBody, fontSize: 10, fontFace: F, breakLine: true } })
+      ({ text: `${cleanSourceFile(c.source_file)}  |  p${c.page_number}  |  ${(c.similarity * 100).toFixed(0)}%`, options: { color: t.cardBody, fontSize: 10, fontFace: F, breakLine: true } })
     )
     srcSlide.addText(srcLines, { x: 0.4, y: 1.0, w: 12.5, h: 6.2, valign: 'top', paraSpaceAfter: 4 })
     srcSlide.addText('IRIS Technology Solutions | Confidential', { x: 0.4, y: 7.1, w: 10, h: 0.3, fontSize: 9, color: t.subAccent, fontFace: F })
@@ -1091,7 +1125,7 @@ export async function POST(req: NextRequest) {
       ? preBuilt.join('\n\n---\n\n') + '\n\n---\n\n' + context
       : context
 
-    const structure = await generateStructure(prompt, enrichedContext, outputType, needsTable)
+    let structure = decodeStructure(await generateStructure(prompt, enrichedContext, outputType, needsTable))
 
     // Inject pre-extracted rows directly into structure — bypasses GPT truncation
     if (preExtractedRows) {
@@ -1173,6 +1207,42 @@ export async function POST(req: NextRequest) {
     if (groundedNames && groundedNames.size > 0 && structure.references) {
       structure.references = [...groundedNames].sort()
       console.log(`Injected ${structure.references.length} project references`)
+    }
+
+    // Validate chart_slide unit homogeneity — replace with table_slide if values span >100× range or contain NaN
+    if (outputType === 'pptx' && structure.slides) {
+      for (const slide of structure.slides) {
+        if (slide.layout !== 'chart_slide') continue
+        const values: number[] = (slide.values || []).map(Number)
+        const hasNaN = values.some(isNaN)
+        const nonZero = values.filter((v: number) => v !== 0 && isFinite(v))
+        const mixed = nonZero.length > 1 && (Math.max(...nonZero) / Math.min(...nonZero)) > 100
+        if (hasNaN || mixed) {
+          slide.layout = 'table_slide'
+          slide.table = {
+            headers: ['Metric', 'Value'],
+            rows: (slide.labels || []).map((l: string, i: number) => [l, String(slide.values?.[i] ?? '')])
+          }
+          console.log(`Replaced mixed-unit chart_slide "${slide.title}" with table_slide`)
+        }
+      }
+    }
+
+    // Coverage check — log any project mentioned in overview bullets that lacks an outcomes slide
+    if (outputType === 'pptx' && structure.slides) {
+      const overviewSlide = structure.slides.find((s: any) => /overview|all projects|portfolio/i.test(s.title || ''))
+      if (overviewSlide) {
+        const overviewText = [...(overviewSlide.bullets || []), ...(overviewSlide.left || []), ...(overviewSlide.right || [])].join(' ')
+        const outcomeTitles = structure.slides.filter((s: any) => /outcome|result|key finding/i.test(s.title || '')).map((s: any) => (s.title || '').toLowerCase())
+        const projectMentions = (overviewText.match(/\b[A-Z]{3,12}\b/g) || []).filter((w: string) => !/IRIS|NIR|TRL|PPT|PDF|CSA|RIA|SME|EU|WP/i.test(w))
+        const missing = projectMentions.filter((p: string) => !outcomeTitles.some((t: string) => t.includes(p.toLowerCase())))
+        if (missing.length) console.log(`Coverage: overview projects without outcomes slides: ${[...new Set(missing)].join(', ')}`)
+      }
+    }
+
+    // Strip internal pipeline tokens from chunk source_file before rendering
+    for (const c of chunks) {
+      if (c.source_file) c.source_file = cleanSourceFile(c.source_file)
     }
 
     let buffer: Buffer

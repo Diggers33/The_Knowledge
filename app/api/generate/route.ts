@@ -80,16 +80,34 @@ function extractScopeDomain(prompt: string): string | null {
   return null
 }
 
+// KB-internal taxonomy prefixes that must never surface as project codes or bullet text
+const TAXONOMY_PREFIX_RE = /^(TERM[-_]|DOMAIN_|TERMINATED__|TERM_)/i
+
+function isRealProjectCode(code: string): boolean {
+  return !TAXONOMY_PREFIX_RE.test(code) && code.length >= 3
+}
+
 async function resolveDomainProjects(domain: string): Promise<string[]> {
-  const { data, error } = await supabase.rpc('get_projects_by_domain', { p_domain: domain })
-  if (error) {
-    console.warn(`[generate] get_projects_by_domain error for "${domain}":`, error.message)
-    return []
+  // Try exact domain match first; widen to synonym if sparse
+  const synonyms: Record<string, string[]> = {
+    'pharma': ['pharma', 'pharmaceutical', 'drug', 'biopharma', 'bioprocess', 'clinical'],
+    'pharmaceutical': ['pharmaceutical', 'pharma', 'drug', 'biopharma'],
+    'food': ['food', 'food safety', 'food quality'],
+    'food safety': ['food safety', 'food quality', 'food'],
   }
-  const codes = (data || [])
-    .map((r: any) => (r.project_code || r.code || '').toString().toUpperCase().trim())
-    .filter(Boolean)
-  return [...new Set(codes)] as string[]
+  const queries = synonyms[domain.toLowerCase()] ?? [domain]
+
+  const seen = new Set<string>()
+  const codes: string[] = []
+  for (const q of queries) {
+    const { data, error } = await supabase.rpc('get_projects_by_domain', { p_domain: q })
+    if (error) { console.warn(`[generate] get_projects_by_domain error for "${q}":`, error.message); continue }
+    for (const r of (data || [])) {
+      const code = (r.project_code || r.code || '').toString().toUpperCase().trim()
+      if (code && isRealProjectCode(code) && !seen.has(code)) { seen.add(code); codes.push(code) }
+    }
+  }
+  return codes
 }
 
 async function retrieveChunks(prompt: string, scopeTags: string[] = []): Promise<any[]> {
@@ -639,7 +657,7 @@ async function buildPartnerContext(prompt: string, projectTags: string[]): Promi
 
 // ─── STRUCTURE GENERATION ────────────────────────────────────────────────────
 
-async function generateStructure(prompt: string, context: string, type: string, needsTable = false) {
+async function generateStructure(prompt: string, context: string, type: string, needsTable = false, needsChart = false) {
   const systemDocx = `You are a technical writer for IRIS Technology Solutions. Generate a Word document structure as JSON only.
 Format:
 {
@@ -740,12 +758,15 @@ When the user asks for a specific domain (e.g. "pharma", "food safety"), retriev
   const tableHint = (needsTable && type === 'pptx')
     ? `\n\nIMPORTANT: Answer ALL questions fully. Use table_slide layout for the table, then continue with sectors/roles slides. Do not stop after the table. Use pre-extracted rows exactly as given.`
     : ''
+  const chartHint = (needsChart && type === 'pptx')
+    ? `\n\nIMPORTANT: The user explicitly asked for a chart or visual comparison. You MUST emit at least one chart_slide (chartType="bar") with numeric values. If TRL levels or percentages are available, use them. Do not substitute a title_content slide for this requirement.`
+    : ''
 
   const completion = await openai.chat.completions.create({
     model: 'gpt-4o-mini',
     messages: [
       { role: 'system', content: type === 'pptx' ? systemPptx : systemDocx },
-      { role: 'user', content: `Context from IRIS knowledge base:\n${context}\n\nGenerate a ${type === 'pptx' ? 'presentation' : 'document'} about: ${prompt}${tableHint}` }
+      { role: 'user', content: `Context from IRIS knowledge base:\n${context}\n\nGenerate a ${type === 'pptx' ? 'presentation' : 'document'} about: ${prompt}${tableHint}${chartHint}` }
     ],
     temperature: 0.2,
     max_tokens: 6000
@@ -836,15 +857,17 @@ function checkLayoutDiversity(structure: any): { ok: boolean; reason?: string } 
 
 function checkContentQuality(structure: any): { ok: boolean; reason?: string } {
   const slides = Array.isArray(structure?.slides) ? structure.slides : []
-  const VAGUE = /^(iris|this|the|our|a|an)\s+(project|team|technology|approach|solution|work|platform|system|method)\b/i
-  const NEEDS_SPECIFICS = /[A-Z]{3,}|\d+[%€$£]?|\b(TRL|RMSE|R²|NIR|HSI|LIBS|SWIR|FTNIR|PAT|inline|hyperspectral|chemometric|PLS|SVM|CNN|LSTM)\b/
+  // Patterns that mark a bullet as vague (no project code, no metric, no named tech)
+  const PLATITUDE = /^(stakeholder|sustainability|technology readiness|collaborat|partner|best practice|key lesson|lesson learned|this project|projects (with|show|demonstrate|highlight|achiev)|adoption of|importance of|need for|challenge)/i
+  const NEEDS_SPECIFICS = /[A-Z]{3,}|\d+[%€$£]?|\b(TRL\s*\d|RMSE|R²|NIR|HSI|LIBS|SWIR|FTNIR|PAT|inline|hyperspectral|chemometric|PLS|SVM|CNN|LSTM)\b/
 
   for (const slide of slides) {
     if (slide.layout !== 'title_content') continue
     const bullets: string[] = slide.bullets || slide.content || []
     if (bullets.length === 0) continue
-    const vague = bullets.filter((b: string) => VAGUE.test(b) || !NEEDS_SPECIFICS.test(b))
-    if (vague.length >= Math.ceil(bullets.length * 0.6)) {
+    // Per-slide: >50% vague = fail (catches 100%-platitude slides the old 60% deck-level threshold missed)
+    const vague = bullets.filter((b: string) => PLATITUDE.test(b) || !NEEDS_SPECIFICS.test(b))
+    if (vague.length > bullets.length * 0.5) {
       return { ok: false, reason: `Slide "${slide.title}" has ${vague.length}/${bullets.length} vague bullets lacking project codes or metrics. Each bullet MUST contain an UPPERCASE project code (e.g. NANOBLOC, BIORADAR) AND a specific number or technology name.` }
     }
   }
@@ -1200,7 +1223,8 @@ async function buildPptx(structure: any, chunks: any[] = []): Promise<Buffer> {
     }
 
     const s = pptx.addSlide({ masterName: masterFor(layout) })
-    addHeader(s, slide.title || '')
+    // section_break has its own full-bleed layout — skip the standard header bar to avoid duplicate title
+    if (layout !== 'section_break') addHeader(s, slide.title || '')
 
     if (layout === 'section_break') {
       s.background = { fill: t.headerBg }
@@ -1291,6 +1315,7 @@ export async function POST(req: NextRequest) {
     if (!prompt) return NextResponse.json({ error: 'No prompt provided' }, { status: 400 })
 
     const needsTable   = /table|list.*technolog|technolog.*list/i.test(prompt)
+    const needsChart   = /\b(chart|graph|visuali[sz]|bar chart|plot|rank(ing)?|across \d+ projects?|compare values|compare.*trl|trl.*compar)\b/i.test(prompt)
     const needsSectors = /\bsector[s]?\b|all.*application|application.*area|industr.*overview|market.*overview|portfolio.*sector/i.test(prompt)
     const needsRoles   = /non.?technical.role|all.*role|role.*overview|management.role|coordinator.role|disseminat.*role|iris.*role.*across|overall.*role/i.test(prompt)
     const needsSections = needsSectors || needsRoles
@@ -1339,8 +1364,10 @@ export async function POST(req: NextRequest) {
     const sectionCount = Object.keys(preExtractedSections).length
     console.log(`Pre-extracted: ${preExtractedRows ? JSON.parse(preExtractedRows).length + ' table rows' : 'no table'} | ${sectionCount} section tables`)
 
+    // Scrub taxonomy prefixes from chunk source labels before they reach LLM context
+    const cleanFolder = (f: string) => TAXONOMY_PREFIX_RE.test(f || '') ? '' : (f || '')
     const chunkContext = chunks.map((c: any, i: number) =>
-      `[Source ${i+1}: ${c.source_file} | p${c.page_number}]\n${(c.parent_text || c.chunk_text).slice(0, 800)}`
+      `[Source ${i+1}: ${cleanSourceFile(c.source_file)}${cleanFolder(c.folder) ? ' | ' + cleanFolder(c.folder) : ''} | p${c.page_number}]\n${(c.parent_text || c.chunk_text).slice(0, 800)}`
     ).join('\n\n')
 
     const context = summaryContext && chunkContext
@@ -1354,11 +1381,13 @@ export async function POST(req: NextRequest) {
       ? preBuilt.join('\n\n---\n\n') + '\n\n---\n\n' + context
       : context
 
-    const scopeBlock = scopeDomain && scopeTags.length > 0
-      ? `\n\nACTIVE SCOPE: "${scopeDomain}" — limited to projects: ${scopeTags.join(', ')}.\nDo not include or imply involvement of any project not in this list.`
+    // Strip any taxonomy codes that leaked into scopeTags from the RPC
+    const cleanScopeTags = scopeTags.filter(isRealProjectCode)
+    const scopeBlock = scopeDomain && cleanScopeTags.length > 0
+      ? `\n\nACTIVE SCOPE: "${scopeDomain}" — limited to projects: ${cleanScopeTags.join(', ')}.\nDo not include or imply involvement of any project not in this list.`
       : ''
 
-    let structure = decodeStructure(await generateStructure(prompt + scopeBlock, enrichedContext, outputType, needsTable))
+    let structure = decodeStructure(await generateStructure(prompt + scopeBlock, enrichedContext, outputType, needsTable, needsChart))
 
     // Enforce layout diversity + content quality + scope for PPTX — retry once if failing
     if (outputType === 'pptx') {
@@ -1376,7 +1405,7 @@ export async function POST(req: NextRequest) {
         } else {
           retryHint = `Your previous attempt violated scope (${scope.reason}). The ONLY allowed projects are: ${scopeTags.join(', ')}. Do not mention any other project. Use only the retrieved context.`
         }
-        structure = decodeStructure(await generateStructure(prompt + '\n\n' + retryHint + scopeBlock, enrichedContext, outputType, needsTable))
+        structure = decodeStructure(await generateStructure(prompt + '\n\n' + retryHint + scopeBlock, enrichedContext, outputType, needsTable, needsChart))
         const diversity2 = checkLayoutDiversity(structure)
         const quality2 = checkContentQuality(structure)
         const scope2 = scopeTags.length > 0 ? checkScope(structure, scopeTags) : { ok: true }
@@ -1497,7 +1526,7 @@ export async function POST(req: NextRequest) {
         const numStr = numericMatch[0].replace(/,/g, '')
         if (!chunkText.includes(numStr)) {
           console.warn(`[generate] big_stat "${slide.stat}" — numeric value "${numStr}" not found in retrieved context`)
-          slide.label = (slide.label || '') + ' (unverified — check source)'
+          slide.notes = (slide.notes ? slide.notes + ' ' : '') + '⚠ Unverified: this figure was not found verbatim in the retrieved source passages — confirm before presenting.'
         }
       }
     }
@@ -1514,9 +1543,11 @@ export async function POST(req: NextRequest) {
       }
     }
 
-    // Strip internal pipeline tokens from chunk source_file before rendering
+    // Strip taxonomy tags from chunk project_tag + folder fields before rendering / LLM exposure
     for (const c of chunks) {
       if (c.source_file) c.source_file = cleanSourceFile(c.source_file)
+      if (c.project_tag && TAXONOMY_PREFIX_RE.test(c.project_tag)) c.project_tag = ''
+      if (c.folder && TAXONOMY_PREFIX_RE.test(c.folder)) c.folder = ''
     }
 
     let buffer: Buffer
